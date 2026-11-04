@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: Ep. LI to Theodosius, ch. 13 (npnf210 lines 44180-44186)
+  locus: "Ep. LI to Theodosius, ch. 13 (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 44181-44186)"
   license: public-domain
 text: I, I say, have no cause for a charge of contumacy against you, but have cause for fear; I dare not
   offer the sacrifice if you intend to be present. Is that which is not allowed after shedding the blood

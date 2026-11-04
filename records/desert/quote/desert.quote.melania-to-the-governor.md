@@ -21,9 +21,7 @@ confidence:
     as a transcript, it is weak.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xl, Of the Holy Woman Melania the Great, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xl, Of the Holy Woman Melania the Great, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1151)"
   license: public-domain
 text: >-
   I am the daughter of such and such a man, [and the wife of such and such a man], and I am the

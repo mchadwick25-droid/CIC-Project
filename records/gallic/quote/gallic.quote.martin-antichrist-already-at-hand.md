@@ -16,9 +16,7 @@ confidence:
     own inference from a run of false prophets, not an independent report of Martin's own words.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XXIV (npnf211 div ii.ii.xxv, file lines 1784-1788): Sulpitius's
-    inference, from false prophets claiming to be Elias, Christ, and John, that Antichrist's coming
-    is near"
+  locus: "Life of St. Martin ch. XXIV (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1784-1787; div ii.ii.xxv): Sulpitius's inference, from false prophets claiming to be Elias, Christ, and John, that Antichrist's coming is near"
   license: public-domain
 retrieval:
   tier: 3

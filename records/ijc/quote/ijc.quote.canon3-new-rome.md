@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.canons-constantinople-381
-  locus: Canon III (npnf214 lines 14396-14400)
+  locus: "Canon III (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 14398-14400)"
   license: public-domain
 text: The Bishop of Constantinople, however, shall have the prerogative of honour after the Bishop of
   Rome; because Constantinople is New Rome.

@@ -16,8 +16,7 @@ confidence:
     Contested at the level of motive. Eusebius is Constantine's panegyrist and is explaining a delay his own readers found awkward; the pious framing is his. The bare facts - baptism deferred to the final illness, hands laid on only then - are not in dispute and the edition's own note says the passage proves he became a catechumen only at that point.
 sources:
 - source_id: ijc.source.eusebius-vita-constantini
-  locus: >-
-    Life of Constantine IV.61 (npnf201_eusebius-church-history-life-of-constantine.xml, from file line 67742)
+  locus: "Life of Constantine IV.61 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 67751-67762)"
   license: public-domain
 text: >-
   Being at length convinced that his life was drawing to a close, he felt the time was come at which he should seek purification from sins of his past career, firmly believing that whatever errors he had committed as a mortal man, his soul would be purified from them through the efficacy of the mystical words and the salutary waters of baptism. Impressed with these thoughts, he poured forth his supplications and confessions to God, kneeling on the pavement in the church itself, in which he also now for the first time received the imposition of hands with prayer.

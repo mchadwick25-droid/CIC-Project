@@ -22,7 +22,7 @@ confidence:
     the same book (VI.15) - a genuine internal inconsistency this record keeps rather than resolves.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "On the Government of God, Book VI.13 (Sanford 1930, pp. 179-180; file lines 8089-8127): the moral ruin of Trier's surviving elite, and the city's repeated sack"
+  locus: "On the Government of God, Book VI.13 (Sanford 1930, pp. 179-180; cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 8093-8127): the moral ruin of Trier's surviving elite, and the city's repeated sack"
   license: public-domain
 retrieval:
   tier: 2

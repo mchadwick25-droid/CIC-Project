@@ -17,9 +17,7 @@ confidence:
     angel actually spoke to Pachomius is not a question this record takes a view on.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I, opening superscription, p. 681, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I, opening superscription, p. 681, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 168)"
   license: public-domain
 text: "In the name of the holy Trinity. The ordinance which the angel of the Lord commanded to Abba Pachomius."
 modern_rendering: >-

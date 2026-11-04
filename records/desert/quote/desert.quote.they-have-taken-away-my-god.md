@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, matching desert.story.sarapion-anthropomorphite's own basis: this is Cassian's own literary reconstruction of a scene he says he witnessed, composed in Latin for a Gallic audience decades after the event, not a transcript. The words themselves are quoted verbatim from the vendored text."
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: "Conference X (On the Method of Prayer), ch. III - Abbot Sarapion's own outcry on realizing, in the middle of communal prayer, that the bodily image of God he had always held before his mind was gone from his heart"
+  locus: "Conference X (On the Method of Prayer), ch. III - Abbot Sarapion's own outcry on realizing, in the middle of communal prayer, that the bodily image of God he had always held before his mind was gone from his heart (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 36051-36054)"
   license: public-domain
 text: "Alas! wretched man that I am! they have taken away my God from me, and I have now none to lay hold of; and whom to worship and address I know not."
 speaker_or_author: "Abbot Sarapion of Scete, as Cassian records him - a different named elder from the Abbot Serapion of Conference V (the eight-principal-faults teaching); the surviving text marks the two with different spellings"

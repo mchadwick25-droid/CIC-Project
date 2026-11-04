@@ -25,10 +25,10 @@ confidence:
     exists in the corpus to repoint to.'
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III, chapter 3 -- the Vassall-Phillips English translation
+  locus: "Book III, chapter 3 -- the Vassall-Phillips English translation (English at cic/texts/optatus_against-the-donatists.txt, line 1904)"
   license: public-domain
 - source_id: don.source.ziwsa-critical-edition-optatus
-  locus: Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26)
+  locus: "Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26) (Latin at cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt, line 3357; Latin at cic/texts/optatus_libri-vii-critical_ziwsa1893.txt, line 6557)"
   license: public-domain
 retrieval:
   tier: 1

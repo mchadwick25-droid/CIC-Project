@@ -18,8 +18,7 @@ confidence:
     argument of his own. Carried as Widely Accepted for the teaching, not as a transcript.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference XXIV (Conference of Abbot Abraham), the Antony anecdote (npnf211 line 47578); the
-    temptation it answers is stated at line 47186'
+  locus: "Conference XXIV (Conference of Abbot Abraham), the Antony anecdote (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 47573-47587); the temptation it answers is stated at line 47186"
   license: public-domain
 text: >-
   When one came as I said to the aforesaid old man, and said that the Anchorite system was not at all

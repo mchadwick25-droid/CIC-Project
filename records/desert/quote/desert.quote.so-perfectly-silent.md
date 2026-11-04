@@ -21,9 +21,7 @@ confidence:
     attested by a second voice.
 sources:
 - source_id: desert.source.cassian-institutes
-  locus: "Institutes II.10 (npnf211 line 17396) - the source's own naming and glossing of 'synaxes'
-    (Greek synaxis, 'a general name for the course of the ecclesiastical offices,' per the vendored
-    file's own endnote 697)"
+  locus: "Institutes II.10 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 17397-17409) - the source's own naming and glossing of 'synaxes' (Greek synaxis, 'a general name for the course of the ecclesiastical offices,' per the vendored file's own endnote 697)"
   license: public-domain
 text: "When, then, they meet together to celebrate the aforementioned rites, which they term synaxes,
   they are all so perfectly silent that, though so large a number of the brethren is assembled

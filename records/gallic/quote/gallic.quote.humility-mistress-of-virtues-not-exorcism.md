@@ -18,9 +18,7 @@ confidence:
     corroborated outside Cassian's own corpus).
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conference XV.7 (npnf211 div iv.v.vi.vii, file lines 39875-39904): Nesteros's teaching
-    that humility, not miracle-working, is the mistress of the virtues, and his judgment against
-    self-professed exorcists"
+  locus: "Conference XV.7 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 39884-39906; div iv.v.vi.vii): Nesteros's teaching that humility, not miracle-working, is the mistress of the virtues, and his judgment against self-professed exorcists"
   license: public-domain
 retrieval:
   tier: 2

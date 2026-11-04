@@ -19,9 +19,7 @@ confidence:
     independent assessment that a possession and a reserved cure occurred.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43058-43079): the accuser possessed
-    by a demon and confessing his own plot; Isidore's healing gift unable to cure him; the cure reserved
-    for Paphnutius's own prayers"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43058-43079; div iv.vi.ii.xv): the accuser possessed by a demon and confessing his own plot; Isidore's healing gift unable to cure him; the cure reserved for Paphnutius's own prayers"
   license: public-domain
 retrieval:
   tier: 3

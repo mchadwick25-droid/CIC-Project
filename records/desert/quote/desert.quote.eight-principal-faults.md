@@ -18,7 +18,7 @@ confidence:
     came from.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference V (Conference of Abbot Serapion), ch. II (npnf211 line 30132)'
+  locus: "Conference V (Conference of Abbot Serapion), ch. II (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 30132-30137)"
   license: public-domain
 text: >-
   There are eight principal faults which attack mankind; viz., first gastrimargia, which means

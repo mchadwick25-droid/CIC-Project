@@ -17,8 +17,7 @@ confidence:
     Documented as Augustine's own eyewitness account - he was in Milan during the basilica standoff of 386 and says so. It is retrospective and devotional, written a decade later, and the phrase 'we, still unmelted by the heat of Thy Spirit' marks his own distance from the crowd he is describing.
 sources:
 - source_id: ijc.source.augustine-confessions
-  locus: >-
-    Confessions IX.7, on the Milan basilica standoff of 386 (npnf101_augustine-confessions-letters.xml)
+  locus: "Confessions IX.7, on the Milan basilica standoff of 386 (cic/texts/npnf101_augustine-confessions-letters.xml, lines 13767-13775)"
   license: public-domain
 text: >-
   There my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer. We, still unmelted by the heat of Thy Spirit, were yet moved by the astonished and disturbed city. At this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be sung, lest the people should pine away in the tediousness of sorrow; which custom, retained from then till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.

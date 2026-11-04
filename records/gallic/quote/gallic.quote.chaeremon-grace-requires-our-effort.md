@@ -26,7 +26,7 @@ confidence:
     gallic.quote.chaeremon-three-stages-of-grace.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conference XIII.13 (npnf211 div iv.v.iv.xiii, file lines 38200-38207): Chaeremon's statement that God's grace always co-operates with the will and sometimes requires some effort of good will from it in return, so its bounty is not unreasonable when it is given on account of some desire and effort to gain it"
+  locus: "Conference XIII.13 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 38200-38207; div iv.v.iv.xiii): Chaeremon's statement that God's grace always co-operates with the will and sometimes requires some effort of good will from it in return, so its bounty is not unreasonable when it is given on account of some desire and effort to gain it"
   license: public-domain
 retrieval:
   tier: 2

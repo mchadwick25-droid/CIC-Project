@@ -19,8 +19,7 @@ confidence:
     that he may not yet have been at Lérins when he wrote it; this record does not assert Lérins.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 1 [2] (npnf211 div iii.ii, file lines 12112-12120): Vincent's own account of leaving
-    secular warfare for the harbour of religion"
+  locus: "ch. 1 [2] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12112-12120; div iii.ii): Vincent's own account of leaving secular warfare for the harbour of religion"
   license: public-domain
 retrieval:
   tier: 2

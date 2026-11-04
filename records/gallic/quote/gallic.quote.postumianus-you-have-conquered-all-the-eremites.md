@@ -16,8 +16,7 @@ confidence:
     character's direct speech inside the Dialogues, not an independent report about Postumianus.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues II.5 (npnf211 div ii.iv.ii.v, file lines 4100-4108): Postumianus conceding,
-    to Gallus, that Martin outdoes every hermit and anchorite of the East"
+  locus: "Dialogues II.5 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 4103-4107; div ii.iv.ii.v): Postumianus conceding, to Gallus, that Martin outdoes every hermit and anchorite of the East"
   license: public-domain
 retrieval:
   tier: 3

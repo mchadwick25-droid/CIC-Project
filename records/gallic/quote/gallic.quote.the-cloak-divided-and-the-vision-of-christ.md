@@ -23,7 +23,7 @@ confidence:
     sentence, matching the host record's own corrected treatment of the same place-name.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. III (npnf211 div ii.ii.iv, file lines 766-805): the beggar at the gate, the division of the cloak, and Martin's vision of Christ"
+  locus: "Life of St. Martin ch. III (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 766-802; div ii.ii.iv): the beggar at the gate, the division of the cloak, and Martin's vision of Christ"
   license: public-domain
 - source_id: gallic.source.npnf-editorial-apparatus
   locus: 'Roberts''s footnote glossing "Ambianensium civitas" (Sulpitius''s Latin) and its alternate ancient name "Samarobriva" - editorial, named as such, not the source of the "Amiens" wording, which comes from the main translated text itself'

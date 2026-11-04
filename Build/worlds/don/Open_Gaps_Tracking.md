@@ -2179,3 +2179,13 @@ Open, found by the reviewer and not changed here (line-span work, RD7):
 - `don.quote.deo-laudes`: at the main stone (no. 17732, CIL file lines 3868-3874) the scan is too garbled to match word for word; a clean "DEO LAVDES" is at line 4566 (no. 17368).
 
 Status: CLOSED for the renderings. OPEN for the two loci.
+
+### OG-60. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 5 don verbatim quotes with no line span in their locus now name one. The spans are the ones the independent Opus reviewer found in the batch review tables (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-03). The `quote-locus` gate now applies the same edition apparatus stripping and the same `verified-direct` scope as the verbatim gate, so a registered apparatus mark inside a span (Salvian's "**") no longer fails a quote the verbatim gate accepts.
+
+- `deo-laudes`: the scan of no. 17732 at its CIL lines (3868-3874) is too garbled to match "DEO LAVDES" word for word. The locus now names the clean reading at no. 17368, an inscription it already cited (`cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt`, line 4566).
+- `petilian-conscience-of-the-giver` (line 10280) and `the-shores-are-covered` (lines 15512-15513) cite two sources each. The span sits on the source the vendored file holds.
+- `donatus-quid-est-imperatori` names three spans, labeled by language: the English at `optatus_against-the-donatists.txt` line 1904, and the Latin at the TEI file's line 3357 and the critical edition's line 6557. It is `verified-via-authority`, so the gate does not match its text; its divergence note gives the reason (rough OCR in the critical edition).
+
+Status: CLOSED. Owner: Library record-defects thread.

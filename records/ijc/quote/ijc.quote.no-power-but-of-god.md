@@ -20,8 +20,7 @@ confidence:
     the theory behind a scene this world can already show.
 sources:
 - source_id: ijc.source.chrysostom-homilies-romans
-  locus: >-
-    Homilies on Romans, Homily XXIII, on Romans 13:1 (npnf111 lines 53973-53991)
+  locus: "Homilies on Romans, Homily XXIII, on Romans 13:1 (cic/texts/npnf111_chrysostom-homilies-acts-romans.xml, lines 53973-53991)"
   license: public-domain
 text: >-
   And to show that these regulations are for all, even for priests, and monks, and not for men of

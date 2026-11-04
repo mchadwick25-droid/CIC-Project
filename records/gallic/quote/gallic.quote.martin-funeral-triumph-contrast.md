@@ -20,7 +20,7 @@ confidence:
     it mourns.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2506-2518): Sulpitius''s closing contrast between a worldly triumph and Martin''s funeral, ending "Martin is praised with the divine psalms"'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2506-2518; div ii.iii.iii): Sulpitius's closing contrast between a worldly triumph and Martin's funeral, ending \"Martin is praised with the divine psalms\""
   license: public-domain
 retrieval:
   tier: 1

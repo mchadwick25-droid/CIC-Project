@@ -22,7 +22,7 @@ confidence:
     Tours attributed them to him, never independently corroborated.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XXIV (npnf211 div ii.ii.xxv, file lines 1809-1813): Martin's reply to the devil appearing as a purple-robed, crowned Christ"
+  locus: "Life of St. Martin ch. XXIV (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1809-1813; div ii.ii.xxv): Martin's reply to the devil appearing as a purple-robed, crowned Christ"
   license: public-domain
 retrieval:
   tier: 2

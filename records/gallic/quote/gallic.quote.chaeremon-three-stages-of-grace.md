@@ -25,7 +25,7 @@ confidence:
     passages to each other.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conference XIII.18 (npnf211 div iv.v.iv.xviii, file lines 38601-38624): Chaeremon's three-stage account of the Divine gift - inflaming the desire for good, enabling the practice of virtue, and preserving what is gained, each without destroying free will - and his statement that how grace and free will fit together cannot be fully grasped by the mind and reason of man"
+  locus: "Conference XIII.18 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 38601-38624; div iv.v.iv.xviii): Chaeremon's three-stage account of the Divine gift - inflaming the desire for good, enabling the practice of virtue, and preserving what is gained, each without destroying free will - and his statement that how grace and free will fit together cannot be fully grasped by the mind and reason of man"
   license: public-domain
 retrieval:
   tier: 2

@@ -17,8 +17,7 @@ confidence:
     will to some rather than all.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "XIII.7 (npnf211 div iv.v.iv.vii, file lines 37756-37759): the rhetorical question refusing
-    a limited saving will"
+  locus: "XIII.7 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 37756-37759; div iv.v.iv.vii): the rhetorical question refusing a limited saving will"
   license: public-domain
 retrieval:
   tier: 2

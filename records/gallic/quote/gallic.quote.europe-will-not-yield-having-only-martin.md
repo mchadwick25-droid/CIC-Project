@@ -16,9 +16,7 @@ confidence:
     speaker's direct instruction inside the Dialogues' own closing frame.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.17 (npnf211 div ii.iv.iii.xvii, file lines 5398-5411): instructions to
-    Postumianus to carry word of Martin as far as Egypt itself, claiming Europe need not yield to
-    Egypt or Asia while it has Martin"
+  locus: "Dialogues III.17 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5408-5411; div ii.iv.iii.xvii): instructions to Postumianus to carry word of Martin as far as Egypt itself, claiming Europe need not yield to Egypt or Asia while it has Martin"
   license: public-domain
 retrieval:
   tier: 2

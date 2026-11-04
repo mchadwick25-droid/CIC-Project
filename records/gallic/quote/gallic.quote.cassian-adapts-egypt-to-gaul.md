@@ -17,9 +17,7 @@ confidence:
     receptive-with-adaptation mode.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Preface (npnf211 div iv.ii, file lines 16515-16534): Cassian's own method - follow the
-    ancient Egyptian rule rather than any individual founder's own fancy, adapting only where
-    climate or circumstance in Gaul makes the letter of it impossible"
+  locus: "Preface (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16515-16534; div iv.ii): Cassian's own method - follow the ancient Egyptian rule rather than any individual founder's own fancy, adapting only where climate or circumstance in Gaul makes the letter of it impossible"
   license: public-domain
 retrieval:
   tier: 2

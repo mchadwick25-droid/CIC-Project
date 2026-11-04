@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.second-helvetic-confession
-  locus: ch. X, lines 667, 684-685
+  locus: "ch. X (cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, lines 667-685: the first sentence at line 667, the second at lines 684-685)"
   license: public-domain
 relations:
 - type: associated-with

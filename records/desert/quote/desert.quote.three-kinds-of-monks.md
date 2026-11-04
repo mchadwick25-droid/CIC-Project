@@ -17,8 +17,7 @@ confidence:
     three-part scheme is a participant''s account with a preference in it, not a neutral taxonomy.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference XVIII (Conference of Abbot Piamun), ch. IV, Of the three sorts of monks which there
-    are in Egypt (npnf211 line 42454)'
+  locus: "Conference XVIII (Conference of Abbot Piamun), ch. IV, Of the three sorts of monks which there are in Egypt (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 42461-42470)"
   license: public-domain
 text: >-
   There are three kinds of monks in Egypt, of which two are admirable, the third is a poor sort of

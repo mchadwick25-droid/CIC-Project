@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference XXIV (Conference of Abbot Abraham, On Mortification), ch. VI - "A comparison showing
-    how a monk ought to keep guard over his thoughts" (npnf211 line 47378)'
+  locus: "Conference XXIV (Conference of Abbot Abraham, On Mortification), ch. VI - \"A comparison showing how a monk ought to keep guard over his thoughts\" (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 47381-47390)"
   license: public-domain
 text: >-
   Wherefore a monk's whole attention should thus be fixed on one point, and the rise and circle of all

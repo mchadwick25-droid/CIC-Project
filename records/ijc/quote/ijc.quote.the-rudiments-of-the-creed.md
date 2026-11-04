@@ -16,8 +16,7 @@ confidence:
     Documented as Leo's own words in the standard English of the NPNF Leo volume, read directly at the line cited. One editorial footnote stands inside the quoted run in the vendored file and is dropped; nothing else is altered.
 sources:
 - source_id: ijc.source.leo-letters
-  locus: >-
-    Letter XXVIII (the Tome), sec. 1 (npnf212_leo-great-gregory-great.xml, from line 5099)
+  locus: "Letter XXVIII (the Tome), sec. 1 (cic/texts/npnf212_leo-great-gregory-great.xml, lines 5140-5151)"
   license: public-domain
 text: >-
   For what learning has he acquired about the pages of the New and Old Testament, who has not even grasped the rudiments of the Creed? And that which, throughout the world, is professed by the mouth of every one who is to be born again , is not yet taken in by the heart of this old man.

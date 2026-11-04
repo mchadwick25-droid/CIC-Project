@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.leo-sermons
-  locus: "On the Feast of the Nativity, I, ch. I (npnf212 lines 14508-14510)"
+  locus: "On the Feast of the Nativity, I, ch. I (cic/texts/npnf212_leo-great-gregory-great.xml, lines 14508-14510)"
   license: public-domain
 text: 'Let the saint exult in that he draws near to victory. Let the sinner be glad in that he is invited
   to pardon. Let the gentile take courage in that he is called to life.'

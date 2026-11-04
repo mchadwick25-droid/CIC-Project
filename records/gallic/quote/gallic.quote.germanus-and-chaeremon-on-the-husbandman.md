@@ -22,7 +22,7 @@ confidence:
     decades later, not a transcript.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conferences XIII.2-3 (npnf211 divs iv.v.iv.ii-iii, file lines 37515-37582): Germanus's objection that effort ought to earn its own reward, and Chaeremon's answer using the husbandman and the rains"
+  locus: "Conferences XIII.2-3 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 37515-37582; divs iv.v.iv.ii-iii): Germanus's objection that effort ought to earn its own reward, and Chaeremon's answer using the husbandman and the rains"
   license: public-domain
 retrieval:
   tier: 1

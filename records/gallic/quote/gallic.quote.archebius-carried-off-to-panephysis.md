@@ -20,7 +20,7 @@ confidence:
     in the text and not computed here.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conferences XI.2 (npnf211 div iv.v.ii.ii, file lines 36807-36825): Cassian and Germanus's arrival at Thennesus and the bishop who met them"
+  locus: "Conferences XI.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 36807-36825; div iv.v.ii.ii): Cassian and Germanus's arrival at Thennesus and the bishop who met them"
   license: public-domain
 retrieval:
   tier: 2

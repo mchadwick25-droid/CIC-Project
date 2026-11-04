@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS79 - the same disputation, on what changed in the world when the Cross appeared"
+  locus: "SS79 - the same disputation, on what changed in the world when the Cross appeared (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 33134-33145)"
   license: public-domain
 text: "When did all these things cease and grow weak except when the Cross of Christ arose? ... For when has the knowledge of God so shone forth? or when has self-control and the excellence of virginity appeared as now? or when has death been so despised except when the Cross of Christ has appeared?"
 modern_rendering: >-

@@ -17,9 +17,7 @@ confidence:
     narration of events decades before the telling.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43018-43039): the accuser's complaint
-    to S. Isidore; the community's astonishment; the search of the cells by three Elders; the book found
-    in Paphnutius's cell among the palm boughs"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43018-43039; div iv.vi.ii.xv): the accuser's complaint to S. Isidore; the community's astonishment; the search of the cells by three Elders; the book found in Paphnutius's cell among the palm boughs"
   license: public-domain
 retrieval:
   tier: 3

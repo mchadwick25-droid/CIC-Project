@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: the Definition (npnf214 lines 20280-20298)
+  locus: "the Definition (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 20287-20296)"
   license: public-domain
 text: This one and the same Jesus Christ, the only-begotten Son [of God] must be confessed to be in two
   natures, unconfusedly, immutably, indivisibly, inseparably [united], and that without the distinction

@@ -17,9 +17,7 @@ confidence:
     written.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Preface III (npnf211 div iv.vi.i, file lines 42305-42325): Cassian's description of
-    Gallic monks receiving the authors of the Conferences into their own cells, as living
-    instruction"
+  locus: "Preface III (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 42312-42325; div iv.vi.i): Cassian's description of Gallic monks receiving the authors of the Conferences into their own cells, as living instruction"
   license: public-domain
 retrieval:
   tier: 3

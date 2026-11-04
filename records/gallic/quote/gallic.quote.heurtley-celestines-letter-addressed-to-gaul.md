@@ -18,8 +18,7 @@ confidence:
     or Sulpitius themselves.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Appendix III, Note on Section 85, Page 156 (npnf211 div iii.xxxvii, file lines 14867-14870):
-    the editor's account of who complained to Celestine, and of what"
+  locus: "Appendix III, Note on Section 85, Page 156 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14867-14870; div iii.xxxvii): the editor's account of who complained to Celestine, and of what"
   license: public-domain
 retrieval:
   tier: 3

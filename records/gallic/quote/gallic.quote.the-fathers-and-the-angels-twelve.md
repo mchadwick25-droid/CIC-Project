@@ -22,7 +22,7 @@ confidence:
     to have handed on; the event itself is not independently attested here.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes II.5-6 (npnf211 divs iv.iii.ii.v-vi, file lines 17140-17232): the fathers' meeting, the dispute over fifty or sixty psalms, the chanter's twelve and his disappearance, and the decree that followed"
+  locus: "Institutes II.5-6 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 17141-17232; divs iv.iii.ii.v-vi): the fathers' meeting, the dispute over fifty or sixty psalms, the chanter's twelve and his disappearance, and the decree that followed"
   license: public-domain
 retrieval:
   tier: 2

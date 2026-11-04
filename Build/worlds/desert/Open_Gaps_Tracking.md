@@ -1068,3 +1068,12 @@ The `rendering-review` gate found 61 desert renderings with no named Opus review
 Open, found by the reviewers and not changed here (line-span work, RD7): `never-kneel-saturday-to-sunday` is at npnf211 lines 17735-17743, not 17728; `so-perfectly-silent` is at 17397-17409, not 17396.
 
 Status: CLOSED for the renderings. OPEN for the two loci.
+
+### OG-49. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 57 desert verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found for each record in the batch review tables (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. The `quote-locus` gate now applies the same edition apparatus stripping and the same `verified-direct` scope as the verbatim gate, so a registered apparatus mark inside a span (Salvian's "**") no longer fails a quote the verbatim gate accepts.
+
+- One reviewer span ended short and was widened: `three-hundred-acres-to-the-villagers` (31246-31255).
+- Where a locus already held a rough pointer for the same file, such as "(npnf211 line 17728)", the exact span replaces it. A labeled pointer to another passage is kept, as in `antony-on-living-near-kin` ("the temptation it answers is stated at line 47186").
+
+Status: CLOSED. Owner: Library record-defects thread.

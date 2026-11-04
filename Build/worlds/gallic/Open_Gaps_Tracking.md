@@ -1239,3 +1239,14 @@ Added with OG-51, same date:
 
 - The Source Registry no longer states the divergence between the Framework V7.4 Step 2 flagging rule ("Confidence C or below... vivid, specific claim") and the Template's discovery-channel rule, which the Registry applies as primary. The older text disclosed it and listed rows 6, 9, 12, 33, 37, 38, 39 and 41 as candidates for review under the Framework's literal rule. The Registry now says the divergence "is not restated in this file". Restoring the disclosure needs a check of those row numbers against the current table. Status: OPEN. Owner: this world's thread.
 - The Renatus Construction Notes say that as of early September 2026 the World Capsule Core had not been built. Compiled packages for this world now exist, so the statement is dated and no longer current; the Phase Five status belongs to `gallic_Phase5_Boundary_Testing_Validation_DRAFT.md`. Status: RESOLVED in fact; the Notes keep the dated sentence.
+
+### OG-52. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 110 gallic verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found for each record in the batch review tables (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. The `quote-locus` gate now applies the same edition apparatus stripping and the same `verified-direct` scope as the verbatim gate, so a registered apparatus mark inside a span (Salvian's "**") no longer fails a quote the verbatim gate accepts.
+
+- Two reviewer spans ended a line short and were widened to the lines that hold the last words: `humility-mistress-of-virtues-not-exorcism` (39884-39906) and `martin-disciples-plea-and-his-reply` (2412-2431).
+- Where a locus already held a rough pointer for the same file, such as "(npnf211 div ii.iv.ii.iv, file lines 4038-4043)", the exact span replaces it and the division label is kept. Earlier ranges that differed from the verified span by a few lines are replaced by the verified span.
+- `the-cloak-divided-and-the-vision-of-christ` cites two sources. The span sits on the Life of St. Martin source; the second source is the translator's footnote.
+- `salvian-on-the-unburied-dead` still fails at its span (lines 8241-8259), for the same reason it fails the verbatim gate: a stray closing quotation mark glued to "captures," that the edition's apparatus rules cannot safely strip. It carries the matching `m1:quote-locus/gallic` waiver alongside its existing `m1:quote-verbatim/gallic` one.
+
+Status: CLOSED for the spans; OPEN for `salvian-on-the-unburied-dead` under its existing waiver. Owner: Library record-defects thread.

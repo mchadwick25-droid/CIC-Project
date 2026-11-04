@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 license, not a public-domain text - see desert.source.evagrius-praktikos."
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
+  locus: "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt, lines 174-177)"
   address: "cic:evagrius_praktikos_dysinger.txt:2-3"
   license: cc-by-4.0
 text: "The Kingdom of Heaven is apatheia (dispassion) of the soul together with true knowledge of beings...The Kingdom of God is knowledge of the Holy Trinity exercised according to the capacity of the nous (mind/intellect) and bestowing incorruptibility upon it"

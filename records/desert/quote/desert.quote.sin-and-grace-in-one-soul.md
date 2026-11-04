@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
-  locus: "Homily XXVI SS18, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt)"
+  locus: "Homily XXVI SS18, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt, lines 7716-7723)"
   license: public-domain
 text: "Question. If a man who is still at war, and who still has both these things in his soul - sin and grace - is removed from this world, where does he go, when both sides have a hold upon him? Answer. He goes where his mind aims, and where his love is. ... That the war comes upon you is not your doing, but to hate it, is..."
 modern_rendering: >-

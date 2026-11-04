@@ -19,9 +19,7 @@ confidence:
     not carried here, per the vendored file's own rule against quoting across a break silently.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part II (the second word of the holy Pachomius), pp. 684-685, in Schodde's
-    English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part II (the second word of the holy Pachomius), pp. 684-685, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 200)"
   license: public-domain
 text: >-
   And let no one converse with his neighbor at the place where he sleeps. And let no one spread

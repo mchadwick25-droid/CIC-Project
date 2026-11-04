@@ -20,7 +20,7 @@ confidence:
     asserts.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2487-2495): the crowd that gathered for Martin''s funeral, and the reported number of monks'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2487-2495; div ii.iii.iii): the crowd that gathered for Martin's funeral, and the reported number of monks"
   license: public-domain
 retrieval:
   tier: 2

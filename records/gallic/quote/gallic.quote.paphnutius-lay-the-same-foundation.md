@@ -16,9 +16,7 @@ confidence:
     to Cassian and Germanus - the stated moral the whole story is told to teach, not a narrated event.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43079-43084): Piamun's closing
-    statement that Paphnutius's boyhood already showed his future character, and his exhortation to lay
-    the same foundation"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43079-43084; div iv.vi.ii.xv): Piamun's closing statement that Paphnutius's boyhood already showed his future character, and his exhortation to lay the same foundation"
   license: public-domain
 retrieval:
   tier: 2

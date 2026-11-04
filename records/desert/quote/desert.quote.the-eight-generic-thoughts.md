@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 license, not a public-domain text - see desert.source.evagrius-praktikos."
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos ch. 6, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
+  locus: "Praktikos ch. 6, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt, lines 188-197)"
   address: "cic:evagrius_praktikos_dysinger.txt:6"
   license: cc-by-4.0
 text: "There are eight generic [tempting-] thoughts (logismoi), that contain within themselves every [tempting-]thought: first is that of gluttony; and with it, sexual immorality; third, love of money; fourth, sadness; fifth, anger; sixth acedia; seventh, vainglory; eighth, pride. Whether these thoughts are able to disturb the soul or not is not up to us; but whether they linger or not, and whether they arouse passions or not; that is up to us."
