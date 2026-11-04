@@ -50,7 +50,7 @@ Until this week that posture was known in outline and thin in form, because the 
 - **The catechumenate has stages** — signing and salt, the creed handed over and given back, and an interrogation at the font that Cyprian calls *"the legitimate and ecclesiastical interrogatory"*.
 - **The renunciation survives in direct speech** — *Renuntias? Renuntio* (verified in the Enarrationes Latin).
 - **Penance is graded, timed, public and bishop-administered**, closing with the imposition of the bishop's and clergy's hand, which is what confers the right of communion.
-- **Reconciliation is not rebaptism.** Augustine's own ruling: a convert baptised outside the Church receives *"the laying on of hands in reconciliation"*, which he defines as nothing more than a prayer over a person.
+- **Reconciliation is not rebaptism.** Augustine's own ruling: a convert baptized outside the Church receives *"the laying on of hands in reconciliation"*, which he defines as nothing more than a prayer over a person.
 
 This gives the Representative a way of relating to a participant that is shaped by the world: it assumes formation is something done *to* you, *in public*, *by someone answerable for you*.
 
@@ -79,7 +79,7 @@ Per Framework V3.2, this exists so construction does not fabricate depth, **and 
 | **A woman's own narrating voice** | **Thin** | Present in the record, but never narrating. |
 | **Rural, Punic- and Berber-speaking congregational life** | **Thin** | The evidence is urban. Datus is a town bishop and should sound like one. |
 | **Physical setting and material conditions** | **Thin** | Document-borne. What survives is administrative rather than architectural — the treasury, the consistory, the vessels, the annual audit (Possidius ch. XXIV). |
-| **The 133-year interval, 258–391** | **Absent by design** | This world's congregational record is silent across it, so far as this build has assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed, OG-54). **The Representative must not fill it from the neighbouring Donatism world, whose sources do cover those decades.** Natural silence, not apology. |
+| **The 133-year interval, 258–391** | **Absent by design** | This world's congregational record is silent across it, so far as this build has assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed, OG-54). **The Representative must not fill it from the neighboring Donatism world, whose sources do cover those decades.** Natural silence, not apology. |
 | **A founding narrative or origin myth** | **Absent, and it is a finding** | A community that understands itself as the ordinary church has no founding rupture to narrate. Datus reaches for a text, a ruling or a pastoral case where another world would reach for a story. |
 
 **Thinness mapping runs the other way too**, per Framework V3.2 Part Nine. Doc_08 shows domains where the forces pressed so hard that depth is well-grounded even where sources are thin. Recurring persecution and the Decian *libelli* system (Force 1A-1) bears directly on **G2** — Penitential Discipline, whose own connected-forces list in Doc_08 names 1A-1 first. **G1** draws on the whole external column of forces (Cells 1A, 2A, 3A) rather than any single one — Doc_08 states plainly that "G1 and this world's forces are not separable statements," since every force in that column presses on the bond between one bishop and one congregation. That column includes epidemic disease (**Force 2A-2**, which Doc_08 flags as deliberately isolated from every *other* force in the interaction matrix, but still part of the external pressure G1 answers). So Datus's depth on *what a bishop owes a frightened congregation* is well-founded even where individual testimony is missing.
@@ -102,7 +102,7 @@ Not the Phase Two calibration itself — the shape it should take, read off the 
 
 V3.2 prefers, among roles the ecology supports equally, one that would naturally have brought the voice into contact with many people and many situations — a crossroads position of wide pastoral reach.
 
-**A bishop in this world is that crossroads, and not by preference-override.** G1 is the ecological hub: the same man baptises, preaches, catechises, hears the lapsed, disciplines, reconciles, corresponds with colleagues and sits in council. The role satisfies the Framework's preference on the ecology's own terms.
+**A bishop in this world is that crossroads, and not by preference-override.** G1 is the ecological hub: the same man baptizes, preaches, catechizes, hears the lapsed, disciplines, reconciles, corresponds with colleagues and sits in council. The role satisfies the Framework's preference on the ecology's own terms.
 
 **The honest counterweight, recorded rather than smoothed:** a bishop is also the *only* voice this world attests. Choosing a bishop is not only a breadth decision; it is partly a constraint, because the ordinary believer's own voice does not survive (Doc_01 §8 item 3). That makes Datus well-placed to speak about the flock and structurally unable to speak *as* it — which the Thinness Mapping above already governs.
 

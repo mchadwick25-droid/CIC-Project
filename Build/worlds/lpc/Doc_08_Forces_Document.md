@@ -18,7 +18,7 @@
 ## Section 1 — World Identification
 
 **World name:** Latin Pastoral-Congregational Christianity. **World code:** `lpc`.
-**Time horizon:** c. 246–430 CE. **Geographic centres:** Carthage (metropolitan, Africa Proconsularis) and Hippo Regius (Numidian by ecclesiastical province).
+**Time horizon:** c. 246–430 CE. **Geographic centers:** Carthage (metropolitan, Africa Proconsularis) and Hippo Regius (Numidian by ecclesiastical province).
 **Anchor figures:** Cyprian, bishop of Carthage 248/249–258; Augustine, presbyter at Hippo 391, bishop 395/396, died 430.
 **Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own pastoral voice.** No surviving voice continuous with Cyprian's ordinary-pastoral mode, from within this world's boundary, that this build has assessed dates from within that interval. That claim is Contested: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). Some rows of `Source_Registry.md` date from it or record its events (Optatus's polemic, the council canons, the *Codex Theodosianus*), and none of them is that voice (Doc_02 §7).
 
@@ -32,7 +32,7 @@
 
 Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not Layer-1 documentation in the Forces Framework's formal sense."* Doc_02 §6 ran the source-ecology forces lens at Step 2. Doc_04 attached a forces-connection notation to each of the eight candidate gravities at Step 4. Doc_05 integrated forces into each ecology lens at Step 5. Doc_07 §4 synthesized the threads at Step 7. **This document is the formal compilation those five steps were feeding**, and it introduces no force that has not already been identified upstream — with two exceptions, both named as such: **Force 1A-2** (the standing legal condition of an unlicensed religion) and the **transmission entries at 2B-5 and 3B-2**, which the Framework requires as their own named dimension and which no upstream step treated as a force in its own right.
 
-**What changed between the Step 1 sketch and this compilation.** Doc_01 §6's sketch placed three items in the Ongoing/Internal cell. All three survive here. **Its own flagged placement judgement survives too and is re-examined at 2B-4** rather than inherited silently.
+**What changed between the Step 1 sketch and this compilation.** Doc_01 §6's sketch placed three items in the Ongoing/Internal cell. All three survive here. **Its own flagged placement judgment survives too and is re-examined at 2B-4** rather than inherited silently.
 
 ---
 
@@ -82,11 +82,11 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 1B-2: Congregational acclamation overriding a reluctant convert's preference
 
-**Layer 1 — Historical Event.** Cyprian, a trained rhetorician converted in middle life, was elected bishop by the acclamation of the Carthaginian people within roughly two to three years of conversion, over the recorded opposition of five presbyters. The pattern recurs in the second phase at **both** of Augustine's offices: he was seized into the **presbyterate** at Hippo in 391 against his wishes, and at the **episcopate** Possidius *Vita* ch. VIII records Valerius announcing his intention to the bishops present, the whole Hippo clergy and **all the people**; *"all who heard"* rejoiced and clamoured eagerly for it; Augustine **refused** the episcopate while his own bishop lived; and, persuaded by transmarine and African precedent, he yielded *"under compulsion and constraint"*. **Confidence: Documented** — Epistle XXXIX (row 1); Pontius (row 7, Confidence A); Possidius *Vita* chs. IV and VIII (row 192); Doc_01 §2.
+**Layer 1 — Historical Event.** Cyprian, a trained rhetorician converted in middle life, was elected bishop by the acclamation of the Carthaginian people within roughly two to three years of conversion, over the recorded opposition of five presbyters. The pattern recurs in the second phase at **both** of Augustine's offices: he was seized into the **presbyterate** at Hippo in 391 against his wishes, and at the **episcopate** Possidius *Vita* ch. VIII records Valerius announcing his intention to the bishops present, the whole Hippo clergy and **all the people**; *"all who heard"* rejoiced and clamored eagerly for it; Augustine **refused** the episcopate while his own bishop lived; and, persuaded by transmarine and African precedent, he yielded *"under compulsion and constraint"*. **Confidence: Documented** — Epistle XXXIX (row 1); Pontius (row 7, Confidence A); Possidius *Vita* chs. IV and VIII (row 192); Doc_01 §2.
 
 **Layer 2 — World's Own Experience.** *[Y]our suffrage and God's judgment*, set against a faction's *ancient venom*. A deacon who knew him put it from outside: *by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
 
-**Layer 3 — Formation Impact.** This force gives **G1** its characteristic two-directional shape — a bishop answerable *to* the people who placed him as well as *for* them — and is the origin of the congregational leverage Doc_05 §4.3 and Doc_07 §2F document, including its limit. **A caution carried from Doc_03 rather than smoothed:** the pattern is attested through different figures and different words, not one recurring term — **but at the same office in both phases**: Augustine's episcopate came by Valerius's designation and Megalius's consecration **and** by popular clamour he refused before yielding under compulsion (Possidius *Vita* ch. VIII).
+**Layer 3 — Formation Impact.** This force gives **G1** its characteristic two-directional shape — a bishop answerable *to* the people who placed him as well as *for* them — and is the origin of the congregational leverage Doc_05 §4.3 and Doc_07 §2F document, including its limit. **A caution carried from Doc_03 rather than smoothed:** the pattern is attested through different figures and different words, not one recurring term — **but at the same office in both phases**: Augustine's episcopate came by Valerius's designation and Megalius's consecration **and** by popular clamor he refused before yielding under compulsion (Possidius *Vita* ch. VIII).
 
 ---
 
@@ -142,7 +142,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 2 — World's Own Experience.** Two ways of accounting for a person that a bishop had to answer from the pulpit, because the people in front of him had heard them.
 
-**Layer 3 — Formation Impact.** Produces **G7** directly and entirely: the anti-Pelagian corpus is this world's single densest textual object, 1,798 raw occurrences of *grace* within its own bounds. **The Manichaean half is named and not developed**, on a disclosure carried from Doc_04 §7 item 4: it was never independently tested as its own candidate gravity because Doc_03's discovery pass had not surfaced a specific enough term to test against. **Proportionality note: that is a stated limit, not a judgement that the Manichaean pressure was slight.**
+**Layer 3 — Formation Impact.** Produces **G7** directly and entirely: the anti-Pelagian corpus is this world's single densest textual object, 1,798 raw occurrences of *grace* within its own bounds. **The Manichaean half is named and not developed**, on a disclosure carried from Doc_04 §7 item 4: it was never independently tested as its own candidate gravity because Doc_03's discovery pass had not surfaced a specific enough term to test against. **Proportionality note: that is a stated limit, not a judgment that the Manichaean pressure was slight.**
 
 ---
 
@@ -174,7 +174,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 2B-3: The illegal-to-established shift in the office's political capacity
 
-**Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change itself. **Confidence: Contested** for the one element that is genuinely disputable — **the placement of this force's consequence as internal rather than external**, which follows Doc_01 §6's own sketch and is named here as that document's judgement rather than this one's. **Stated in the entry**, so §7's summary derives from something the entry says. Its external driver is the standing condition at **1A-2**, inverted.
+**Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change itself. **Confidence: Contested** for the one element that is genuinely disputable — **the placement of this force's consequence as internal rather than external**, which follows Doc_01 §6's own sketch and is named here as that document's judgment rather than this one's. **Stated in the entry**, so §7's summary derives from something the entry says. Its external driver is the standing condition at **1A-2**, inverted.
 
 **Layer 2 — World's Own Experience.** What a bishop could do had changed, though what a bishop *was* had not. Cyprian never asked the magistrate for anything; a century and a third later the emperors could be asked, and eventually were.
 
@@ -190,7 +190,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 3 — Formation Impact.** **This is the fullest crossing of this world's 133-year silence in this matrix, and the only one in which this world itself reads and answers Cyprian's conciliar acts**, and Doc_07 §3A finds the crossing is textual rather than successive. The mechanism is that textual continuity, and it is attested more than once: this force; Possidius quoting Cyprian's *De Mortalitate*, found after this document was written (`Review-Artifacts/Possidius_Full_Read_2026-09-16.md`); and Augustine's anti-Pelagian works, which cite Cyprian on grace (2A-4; `cic:npnf105_augustine-anti-pelagian-writings.xml:line18057`). This force is the crossing 3B-2 records; 2A-4 carries a second strand, and the Possidius instance is not a force. It produces **G5**'s second formula, tests **G3** across the gap, and re-opens **G6**.
 
-**The placement judgement, examined rather than inherited.** Doc_01 §6 places this in the Internal column while flagging that the engagement was *prompted* by the Donatists' own citation of Cyprian — an external prompt for an internal act. **This document confirms the placement and states the reason**: the reading, the argument and the conclusion are this world's own acts, and the prompt determines only the timing. **The connection to 2A-3 is registered at Section 4 rather than resolved by moving the force**, since a force with an external trigger and an internal execution is exactly what the Cross-Cell Connection Principle exists to record.
+**The placement judgment, examined rather than inherited.** Doc_01 §6 places this in the Internal column while flagging that the engagement was *prompted* by the Donatists' own citation of Cyprian — an external prompt for an internal act. **This document confirms the placement and states the reason**: the reading, the argument and the conclusion are this world's own acts, and the prompt determines only the timing. **The connection to 2A-3 is registered at Section 4 rather than resolved by moving the force**, since a force with an external trigger and an internal execution is exactly what the Cross-Cell Connection Principle exists to record.
 
 ---
 
@@ -204,9 +204,9 @@ Cyprian assembles his own correspondence into a dossier and forwards it — *"th
 
 About 170 years later the same consciousness takes a different form: Augustine, near the end of his life, sets out **to review his own works *"siue in libris siue in epistulis siue in tractatibus cum quadam iudiciaria seueritate"* — whether in books or in letters or in treatises, with a certain judicial severity — and to mark what displeases him *"uelut censorio stilo,"* as with a censor's pen** (*Retractationes*, Prologus). **A deliberate act of curating what would outlast him.**
 
-**What this world could not experience is the part that happened later** — the Catholic institutional tradition's selection, and a 19th-century translation programme. **No one here could feel a translator's hand that had not yet reached for the page.**
+**What this world could not experience is the part that happened later** — the Catholic institutional tradition's selection, and a 19th-century translation program. **No one here could feel a translator's hand that had not yet reached for the page.**
 
-**Construction-record notes on this entry (this build's voice, not the world's).** Kept out of the prose above so that Layer 2 holds only what someone formed in this world could recognise. **No Reported-Experience Status is applied to this entry**, though the L4 template's Cell-2B instruction names the slot: this Layer 2 rests on four quotations from Cyprian and one from the *Retractationes*, so it is attested rather than reported.
+**Construction-record notes on this entry (this build's voice, not the world's).** Kept out of the prose above so that Layer 2 holds only what someone formed in this world could recognize. **No Reported-Experience Status is applied to this entry**, though the L4 template's Cell-2B instruction names the slot: this Layer 2 rests on four quotations from Cyprian and one from the *Retractationes*, so it is attested rather than reported.
 
 **Copying, as distinct from forwarding, is attested in this correspondence but not in Cyprian's own voice.** The instruction *"to send a copy of this letter to whomsoever you are able, as occasions may serve, or make your own opportunities"* is **Epistle II**, written **by the Roman clergy to the Carthaginian clergy** during Cyprian's withdrawal — a letter in part critical of him, and, by the edition's own note, the very letter Cyprian later returned for collation. It shows a copy-and-forward expectation running through the network this world belonged to; **Doc_01 §5 makes the Roman presbytery an interlocutor rather than this world's own voice**, so it is recorded here as the network's practice, not as Cyprian's directive.
 
@@ -277,7 +277,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 **Layer 3 — Formation Impact — on the reconstruction.** Three effects:
 1. **Continuity across the gap is textual, not successive** (Doc_07 §3A) — carried most fully by 2B-4. Possidius quoting *De Mortalitate*, and Augustine's anti-Pelagian citations of Cyprian on grace (2A-4), are further instances.
 2. **The interval is richly attested through sources that are Donatism's territory, not this world's** (Doc_02 §7), which makes the silence a *boundary discipline* rather than an absence of evidence: the temptation is to fill it from World #4, and the binding forbids it.
-3. **Phase-bound gravities are an artefact of the record as well as of the world.** G2 and G8 are attested only in phase one, G7 only in phase two. **Doc_04 established each bound by a positive check rather than by inference from silence** — which is the discipline this transmission asymmetry makes necessary.
+3. **Phase-bound gravities are an artifact of the record as well as of the world.** G2 and G8 are attested only in phase one, G7 only in phase two. **Doc_04 established each bound by a positive check rather than by inference from silence** — which is the discipline this transmission asymmetry makes necessary.
 
 ---
 
@@ -295,7 +295,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 | **1B-1** | **2B-4** | enables | Councils that met and left acts are what Augustine later reads and argues with. |
 | **2A-1** | **1A-1** | reacts to | The Valerianic persecution repeats the Decian test on a community that has now built a discipline for it. |
 | **2A-2** | *(none)* | — | **Deliberately isolated.** The plague connects to no other force in this matrix and produced teaching rather than structure. Recorded as a connection that does not exist, per the Named-Tension and Cross-Cell principles. |
-| **2A-3** | **2B-4** | triggers | The Donatists' appeal to Cyprian's conciliar acts is what prompts Augustine to read them. **External prompt, internal act** — the placement judgement examined at 2B-4. |
+| **2A-3** | **2B-4** | triggers | The Donatists' appeal to Cyprian's conciliar acts is what prompts Augustine to read them. **External prompt, internal act** — the placement judgment examined at 2B-4. |
 | **2A-3** | **2B-3** | activates | A rival communion is what makes the newly available state capacity worth using, and is the occasion of the three-phase coercion development. |
 | **2A-4** | **3B-1** | produces | The anti-Pelagian corpus generated by 2A-4 is the largest single component of the inheritance at 3B-1. |
 | **2B-2** | **2B-1** | intensifies | The confessors' parallel system is why the internal contest had to be settled by a formal process rather than by episcopal say-so. |
@@ -364,7 +364,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 **Who transmitted this world's characteristic material.** The Catholic institutional manuscript tradition, which preserved both anchor figures and kept Cyprian even where it judged him wrong, on rebaptism. Then, decisively for this build, **the 19th-century ANF and NPNF translation projects**, whose English text is the working corpus for nearly every claim in this world's construction. Then this build itself, whose vendoring decisions determined what was available to read at all.
 
-**Under what conditions transmission occurred.** Selection by institutional victory at the first stage — Doc_02 §6 states the mechanism without euphemism — and selection by a Victorian translation programme's own editorial priorities at the second, including introductory notices, elucidations and endnotes printed *interleaved with* the text rather than separated from it.
+**Under what conditions transmission occurred.** Selection by institutional victory at the first stage — Doc_02 §6 states the mechanism without euphemism — and selection by a Victorian translation program's own editorial priorities at the second, including introductory notices, elucidations and endnotes printed *interleaved with* the text rather than separated from it.
 
 **What selection effects shaped what survives.** Three, in descending order of consequence for this reconstruction. **First, the episcopal filter:** what survives is what two bishops wrote or what was written about them, so the ordinary believer appears as addressee and almost never as author. **Second, the crisis filter:** Doc_02 §2 records Cyprian's corpus as *"occasional rather than systematic… documents what crises provoked correspondence,"* so ordinary undocumented pastoral routine is structurally invisible. **Third, the translation filter:** a term the corpus names only in English cannot be found by sweeping its Latin headword, which is how the confessors' letters of peace went unlisted through six construction documents.
 
@@ -380,7 +380,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 **Dominant Modern Reconstruction.** None. **Stated as a finding:** this world's forces are unusually well documented because both phases are anchored in extensive first-person corpora, so no force here rests on a modern reconstruction of events the sources do not carry.
 
-**Contested.** **3B-2 (Contested)** for its silence claim, which holds only for what this build has assessed: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). The uneven attestation it records is Documented. **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgement and is named as that document's rather than this one's.
+**Contested.** **3B-2 (Contested)** for its silence claim, which holds only for what this build has assessed: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). The uneven attestation it records is Documented. **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgment and is named as that document's rather than this one's.
 
 **Inferential/Thin.** No force is carried at this level. **All seventeen forces carry a written Layer 2**, including the two transmission entries and 3B-1. **3B-1 and 3B-2 both carry the Reported-Experience Status** marker, which is the template's own instrument for a self-understanding that is formationally real and historically bounded.
 
@@ -392,9 +392,9 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 **From-Within Principle — CONFIRMED.** Every one of the seventeen forces carries a Layer 2 written in this world's own vocabulary.
 
-**The convention that makes that sentence true, and it is this document's own invention.** Three entries (2B-5, 3B-1, 3B-2) carry source status or a correction recorded against them. **None of that is the world's voice**, so none of it sits in Layer 2: each is carried in a **Construction-record notes on this entry** block placed after the layer and labelled as this build's voice. **Reported-Experience Status is the exception and stays inside Layer 2**, because the L4 template's own bracket text and Forces Framework §3 both place it there.
+**The convention that makes that sentence true, and it is this document's own invention.** Three entries (2B-5, 3B-1, 3B-2) carry source status or a correction recorded against them. **None of that is the world's voice**, so none of it sits in Layer 2: each is carried in a **Construction-record notes on this entry** block placed after the layer and labeled as this build's voice. **Reported-Experience Status is the exception and stays inside Layer 2**, because the L4 template's own bracket text and Forces Framework §3 both place it there.
 
-**Declared rather than adopted silently, and carried to the project lead.** **No template defines this block and no sibling build in the portfolio uses one** — Donatism solves the same problem by moving citations out of Layer 2 into Layers 1 and 3, Alexandria by writing *"Layer 2 — not applicable"* at one force. This document judges a labelled container preferable to both where the material is genuinely about neither Layer 1 nor Layer 3, but that is a judgement, not a rule, and **its heading deliberately avoids the governed term: two headings reading "Layer 2 —" at the same force would leave a generator string-matching its way between them.** Carried as a portfolio-level item at the Disposition.
+**Declared rather than adopted silently, and carried to the project lead.** **No template defines this block and no sibling build in the portfolio uses one** — Donatism solves the same problem by moving citations out of Layer 2 into Layers 1 and 3, Alexandria by writing *"Layer 2 — not applicable"* at one force. This document judges a labeled container preferable to both where the material is genuinely about neither Layer 1 nor Layer 3, but that is a judgment, not a rule, and **its heading deliberately avoids the governed term: two headings reading "Layer 2 —" at the same force would leave a generator string-matching its way between them.** Carried as a portfolio-level item at the Disposition.
 
 **Checked rather than asserted, and the check's own scope stated.** The certification above was verified by extracting all seventeen Layer 2 blocks and scanning them for seven markers of construction-record register — force IDs, `Doc_0n` citations, build-file references, `§` references, self-reference to the layer scheme, "this build / this document / this entry," and evidentiary meta-statements. The scan returns **zero across all seventeen in the world's-voice prose** — but that figure exempts the **Reported-Experience Status paragraphs**, which the L4 template and Forces Framework §3 both require to sit inside Layer 2 and which necessarily cite them. **Scanned without that exemption, the Reported-Experience Status paragraphs at `3B-1` and `3B-2` return hits**, so "zero across all seventeen" is not stated without that qualification. Those hits sit inside the template-mandated marker paragraphs. No inline provenance clause remains in any entry. **Stated here rather than buried in a figure.**
 
@@ -435,7 +435,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 1. **G5's force-connection is indirect** and carries Doc_04's own incomplete-ecology finding forward.
 2. **The 411 *Gesta* has not been read in full**, it is kept for narrow, independently checkable facts only, and no force draws on it.
 3. **The Manichaean half of 2A-4 is undeveloped** on a disclosed upstream limit.
-4. **2B-3's internal placement is contested** and follows Doc_01's judgement rather than this document's.
+4. **2B-3's internal placement is contested** and follows Doc_01's judgment rather than this document's.
 
 ---
 

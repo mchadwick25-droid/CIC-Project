@@ -10,7 +10,7 @@ This file records the Representative's identity as the project lead decided it. 
 | Role label | None. The earlier label "Bishop of the Kept Flock" is withdrawn |
 | Office within the world | Bishop within an urban African congregation; he speaks as a town bishop for his flock |
 | Object | A certificate of peace (*libellus pacis*) with names written on it, no legible text |
-| Image | Painterly oil bust portrait, wide landscape, warm cream ground; hooded coarse-wool *birrus* over an ochre tunic; mid-to-late forties, dark hair and beard with the first grey |
+| Image | Painterly oil bust portrait, wide landscape, warm cream ground; hooded coarse-wool *birrus* over an ochre tunic; mid-to-late forties, dark hair and beard with the first gray |
 | Portrait file | `Build/Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/Datus_Portrait.jpg`; brief `Datus_Portrait_Prompt.md` in the same folder |
 
 ## Grounding
