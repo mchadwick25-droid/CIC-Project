@@ -116,7 +116,7 @@ reciprocally on that gravity record in the same pass.
 WHY THE FELIX INQUIRY LEADS held_against RATHER THAN THE AUGUSTINIAN ARGUMENT. The strongest thing
 held against this doctrine is not a theological counter-position but a document from this world's own
 founding decade, and don.story.acta-purgationis-felicis already carries it at full strength with its
-own reason for keeping it: the unfavourable finding is the point. Placing it first here follows that
+own reason for keeping it: the unfavorable finding is the point. Placing it first here follows that
 record rather than reversing its emphasis for the sake of a tidier claim. The torture caveat is
 carried with it, in the same sentence, exactly as that story record carries it - a reason to hold the
 finding loosely, never a reason to reframe it as a win.

@@ -70,7 +70,7 @@ def test_the_fixture_world_passes_its_own_log():
     assert gate_rendering_review(load_world_records("fix"), {}, {}) == []
 
 
-@pytest.mark.parametrize("world", ["lpc", "gallic", "desert", "don", "rzg", "pahc"])
+@pytest.mark.parametrize("world", ["lpc", "gallic", "desert", "don", "rzg", "ijc", "witt", "syr", "hal", "pahc"])
 def test_every_rendering_in_a_reviewed_world_is_listed_in_its_real_log(world):
     assert gate_rendering_review(load_world_records(world), {}, {}) == []
 

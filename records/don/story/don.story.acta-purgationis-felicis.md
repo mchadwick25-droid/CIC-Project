@@ -17,7 +17,7 @@ confidence:
     was extracted under that threat, which is stated here rather than left implicit - a modern reader is
     entitled to weigh what that does to its reliability, and this record does not treat torture-adjacent
     testimony as though it were free testimony. The proceeding is preserved inside Optatus''s own appendix
-    and its outcome is unfavourable to our founding accusation, which is the honest position and is not
+    and its outcome is unfavorable to our founding accusation, which is the honest position and is not
     reframed.'
 sources:
 - source_id: don.source.optatus-appendix-of-documents

@@ -56,4 +56,4 @@ modern_rendering: For they have not forgotten their conspiracy. They still carry
   my office as bishop, which means against your suffrage and against God's judgment. They are renewing
   their old attack on me, and once again they are starting their sacrilegious plots with their usual cunning.
 ---
-The passage is Ep. XXXIX, not Ep. XL; lpc.source.cyprian-epistles's divergence_note names the same locus. It stands at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32371-32375. The quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'). Under Doc_09 SS2's transcription convention the first letter is capitalised here without an opening ellipsis, and no wording is altered.
+The passage is Ep. XXXIX, not Ep. XL; lpc.source.cyprian-epistles's divergence_note names the same locus. It stands at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32371-32375. The quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'). Under Doc_09 SS2's transcription convention the first letter is capitalized here without an opening ellipsis, and no wording is altered.

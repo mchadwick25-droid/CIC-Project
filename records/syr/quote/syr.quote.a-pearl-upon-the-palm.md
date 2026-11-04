@@ -23,9 +23,9 @@ text: >-
   On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom; semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son. I put it, my brethren, upon the palm of my hand, that I might examine it: I went to look at it on one side, and it proved faces on all sides.
 modern_rendering: >-
   One day, my brothers, I picked up a pearl. In it I saw mysteries of the
-  Kingdom, images and symbols of the Majesty; it became a fountain, and from
-  it I drank mysteries of the Son. I set it, my brothers, on the palm of my
-  hand so I could examine it. I went to look at it from one side, and it
+  Kingdom, likenesses and symbols of the Majesty. It became a fountain, and
+  from it I drank mysteries of the Son. I set it, my brothers, on the palm of
+  my hand so I could examine it. I went to look at it from one side, and it
   showed faces on every side.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I.1
 license: verbatim

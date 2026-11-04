@@ -37,7 +37,7 @@ claim: >-
   313 and Arles in 314. It is why our bishops refused the chairs at Carthage in 411 and stood while the
   judge sat. No imperial favor shown to our rival has ever amounted to an argument.
 held_against:
-- The interpretive frame is the most heavily synthesised thing in this world's gravity discovery. That
+- The interpretive frame is the most heavily synthesized thing in this world's gravity discovery. That
   the recurring episodes together constitute a principled refusal of the state's authority, rather than
   an unconnected series of grievances, is partly Doc_04's own reading of Doc_01 SS5, corroborated by exactly
   one directly-quoted Donatist utterance - Donatus's retort - which reaches this record inside Optatus's

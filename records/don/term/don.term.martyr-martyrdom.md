@@ -67,7 +67,7 @@ plain_meaning: A martyr dies for the true faith. But our best-known dead were no
 world_word: martyr / martyrium
 false_friend:
 - a generic early-church martyr cult, killed by pagan Rome and admired by everyone since
-- '''martyr complex'' as a modern psychological label for self-dramatising suffering'
+- '''martyr complex'' as a modern psychological label for self-dramatizing suffering'
 - relic veneration treated as superstition, rather than as the community's proof of its own claim
 - a settled category both sides recognize -- here the rival refuses the word outright
 senses:

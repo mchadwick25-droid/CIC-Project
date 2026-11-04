@@ -175,10 +175,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:quote-verbatim/gallic": Waiver(count=1, deadline="2026-12-14", owner="gallic.quote.salvian-on-the-unburied-dead - one footnote-marker artifact in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (a bare closing curly quote glued to \"captures,\" with no matching open, unlike this edition's other two now-registered apparatus patterns) isn't a safe edition-wide regex (41 real opening curly quotes and legitimate closing-quote usage elsewhere in this same file); needs a narrower, structurally-anchored rule, not a blanket strip - Decision 8B's own gallic thread"),
     "m1:rendering-review/alx": Waiver(count=26, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); alx's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/cappadocian": Waiver(count=21, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); cappadocian's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/hal": Waiver(count=32, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); hal's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/ijc": Waiver(count=39, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); ijc's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/syr": Waiver(count=34, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); syr's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/witt": Waiver(count=13, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); witt's own build thread, per the lpc rendering review log's format"),
     # gate_readability covers every field engine/m1/spoken_fields.py
     # declares under an instruction/voice-diet/evidence-head/
     # facilitator-spoken role, not just term/honest_limit/
@@ -195,7 +191,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/ijc": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=93, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=78, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
-    "m1:readability/syr": Waiver(count=127, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
+    "m1:readability/syr": Waiver(count=125, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
     "m1:readability/witt": Waiver(count=98, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
