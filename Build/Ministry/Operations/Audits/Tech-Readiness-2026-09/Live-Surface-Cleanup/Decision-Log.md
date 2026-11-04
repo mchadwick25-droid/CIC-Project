@@ -3163,3 +3163,26 @@ Delivery lead, 2026-11-03, chunk D2b: the process-narration comments in `engine/
 - The no-directive return: written once `_other_tradition_directive` was changed always to return text when called.
 - `canon_questions`: not cached the way `LazyWorldLoader` caches a world's package. `compiled/indexes/canon-map.json` was built for that and nothing reads it yet. This was noted as a follow-up, not a correctness gap, since the corpus derived live is identical.
 - `figures_already_named`: a pilot read found that the session tracked a figure's introduction but only the screen knew it; the voice was never told.
+
+## CL11: claim ids and the American-spelling pass on Build/ documents (2026-11-04)
+
+**Cause.** `engine/m10/claims.py` derived each claim id as the first eight hex digits of the SHA-1 of the claim's lowercased text. Converting a claim sentence from British to American spelling therefore changed its id, and the claims register row that carried the old id read as stale while the sentence read as unregistered. The Opus review of the first Build/ batch (lpc) found it: four unregistered and four stale findings. The old ids were cited nowhere outside their own register.
+
+**Fix, at the source, in `engine/m10/claims.py`.** `claim_id` passes the sentence through `engine.m1.spelling_table.normalize` (the table the spelling check and regate already share) before hashing. One sentence now has one id in either spelling, and any other change still makes a new claim. Tests first in `engine/m10/tests/test_claims.py`: the British and American forms of a sentence give one id; a changed word, a changed number, or an extra word gives another.
+
+**One-time migration of register ids.** Computed on `main` before any conversion: for every live claim in every world, the old id (hash of the sentence as written) against the new id (hash of the normalized sentence). Six ids differ; the other claims contain no British form.
+
+| world | old id | new id |
+|---|---|---|
+| lpc | 4dd89771 | 19f5b90d |
+| lpc | 6a9f5383 | c736bb53 |
+| lpc | 9a44be12 | 3748bb11 |
+| lpc | e7d052d9 | b54b4f13 |
+| desert | 8cebac58 | 744eb422 |
+| jes | 22970aae | 953ec783 |
+
+The four lpc rows were rewritten in `Build/worlds/lpc/lpc_Claims_Register.md`. Desert and jes have no register file, so nothing was rewritten for them.
+
+**Verification.** `python -m engine.m10.cli claims <world>` for all 20 worlds gives identical findings on `main` and on the branch: lpc 12 findings both times (the same twelve it had before this work), the other nineteen one finding each (no register file). No world's count moved.
+
+**Also decided in this chunk.** Logs, trackers, review files, audit reports and each world's `build/` folder are append-only and are not converted; new entries are written in American. Construction documents and their chunks, `Build/reference` and the living Ministry documents are converted, in six pull requests. `Build/` is not added to the enforced trees. Generated indexes are regenerated from their converted sources (the lpc story and force indexes), not edited by hand.
