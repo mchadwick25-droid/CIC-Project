@@ -4,14 +4,17 @@ an offered item shows, never which items are offered.
 
 The additions:
 - the guidance lines, at the head of the block;
-- on each quote line not yet voiced, the quote's modern rendering;
+- on each quote line not yet voiced, the quote's modern rendering (a quote
+  given in an earlier round of the conversation shows none; a single-turn
+  run has no earlier round, so there every offered quote shows it);
 - under each record that has one, its "Reads differently today" line: the
   card's `reads_differently_today`, or else the record's `modern_lens_note`;
 - under each record with a reading card, the card's other lines;
 - under the two highest-ranked offered quotes or stories, their context
   windows (engine.m4.fit_step.context_blocks, or, for a locus that names no
   vendored span, engine.m4.source_windows.context_blocks), marked as
-  context, never evidence.
+  context, never evidence; a window cut at the word ceiling says it is the
+  opening of a longer passage.
 
 Cards and lens notes are stripped at compile, so they come from the mapping
 engine.m4.reading_cards.load_reading_context returns, never from the package.
@@ -31,7 +34,8 @@ A `whose_view` marks a single author when it matches one of
 SINGLE_AUTHOR_MARKS and none of SHARED_MARKS. The marks are: a named
 person's own view ("Origen's scheme", "Clement's picture", "Eusebius's
 narrative"), unless "not" stands before it, or a named person arguing
-("Origen argues"); one person named by role ("A
+("Origen argues"); a capitalised word in NOT_PERSONS (a place, the Church,
+or a people: "Alexandria's", "Christians'") is not a person; one person named by role ("A
 bishop's ruling", "One gifted pupil", "An outsider's late memory"); a view
 known only through one witness ("known only through him", "Only Dionysius's
 side survives"); and a denial of breadth ("not the community's", "not every
@@ -81,12 +85,19 @@ _VIEW_NOUNS = (
 )
 _ONE_VOICE = ("teacher", "bishop", "pupil", "author", "writer", "voice", "outsider", "man", "woman")
 
+NOT_PERSONS = (
+    "Alexandria", "Egypt", "Rome", "Antioch", "Edessa", "Nisibis", "Carthage", "Caesarea", "Ephesus", "Smyrna", "Corinth",
+    "Syria", "Persia", "Asia", "Africa", "Jerusalem", "Palestine", "Mesopotamia", "Church", "City", "Empire", "World",
+    "Community", "Christians", "Jews", "Greeks", "Romans", "Egyptians", "Syrians", "Gentiles", "Pagans",
+)
+_PERSON = r"(?!(?:" + "|".join(NOT_PERSONS) + r")\b)[A-Z][a-z]+"
+
 SINGLE_AUTHOR_MARKS = (
-    r"(?<!not )\b[A-Z][a-z]+(?:'s|’s|s') (?:" + "|".join(_VIEW_NOUNS) + r")\b",
+    r"(?<!not )\b" + _PERSON + r"(?:'s|’s) (?:" + "|".join(_VIEW_NOUNS) + r")\b",
     r"(?i:\b(?:one|a|an|the|a single)(?:\s+\w+)?\s+(?:" + "|".join(_ONE_VOICE) + r")(?:'s|’s)?\b)",
-    r"\b[A-Z][a-z]+ (?:argues|writes|claims|speculates)\b",
+    r"\b" + _PERSON + r" (?:argues|writes|claims|speculates)\b",
     r"(?i:\bonly\s+(?:through|by)\s+(?:him|her|them)\b)",
-    r"\b(?i:only)\s+[A-Z][a-z]+(?:'s|’s)?\s+(?i:side|reports|report|records)\b",
+    r"\b(?i:only)\s+" + _PERSON + r"(?:'s|’s)?\s+(?i:side|reports|report|records)\b",
     r"(?i:\bnot\s+(?:automatically\s+)?(?:the\s+community|every|most|the\s+whole|shared|widely\s+shared)\b)",
 )
 SHARED_MARKS = (
@@ -168,6 +179,21 @@ def today_line(entry: dict | None) -> str:
     return f"  Reads differently today: {today}" if today else ""
 
 
+TRIMMED = ", the opening of a longer passage"
+
+
+def window_lines(blocks: list[dict]) -> list[str]:
+    """fit_step's CONTEXT line for each block; a trimmed block's line says it is the opening of a longer passage."""
+    lines = []
+    for block in blocks:
+        (line,) = fit_step.context_lines({"context": [block]})
+        if block.get("trimmed"):
+            head = f"  CONTEXT {block['id']}"
+            line = head + TRIMMED + line[len(head):]
+        lines.append(line)
+    return lines
+
+
 def card_lines(record_id: str, entry: dict | None, offered: set[str]) -> list[str]:
     """The card's lines under a record, other than "Reads differently today".
     `complicated_by` names only the records offered this turn."""
@@ -210,7 +236,7 @@ def plan_additions(candidates: list[dict], repository_records: dict[str, dict], 
         if context_left:
             context_left -= 1
             blocks = fit_step.context_blocks(record, TEXTS_ROOT) or source_windows.context_blocks(record, repository_records, TEXTS_ROOT)
-            if lines := fit_step.context_lines({"context": blocks}):
+            if lines := window_lines(blocks):
                 plan.context[rid] = lines
                 plan.windows[rid] = blocks
     for tier in (plan.context, plan.cards):

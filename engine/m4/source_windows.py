@@ -17,7 +17,9 @@ The anchor, the lines the passage sits at, is found in this order:
 
 An anchor from the first three is a point: its window holds the anchored
 lines whole, then lines either side of them, alternating, up to
-fit_step.CONTEXT_MAX_WORDS words, inside the innermost division (<div1> to
+fit_step.CONTEXT_MAX_WORDS words (anchored lines longer than that give
+their opening fit_step.CONTEXT_MAX_WORDS words, and the block carries
+"trimmed": True), inside the innermost division (<div1> to
 <div6>) that holds it, or, in a file with none, inside
 fit_step.CONTEXT_RADIUS_LINES lines either side.
 
@@ -399,9 +401,13 @@ def _line_words(path: str, line_no: int) -> list[str]:
     return _MARKUP.sub(" ", _lines(path)[line_no - 1]).split()
 
 
-def _window(path: str, first: int, last: int) -> str:
+def _window(path: str, first: int, last: int) -> tuple[str, bool]:
+    """The window around lines first..last, and whether it was cut: anchored lines
+    longer than fit_step.CONTEXT_MAX_WORDS give their opening words only."""
     floor, ceiling = _bounds(path, first, last)
     cited = [w for n in range(first, last + 1) for w in _line_words(path, n)]
+    if len(cited) > fit_step.CONTEXT_MAX_WORDS:
+        return " ".join(cited[:fit_step.CONTEXT_MAX_WORDS]), True
     before: list[str] = []
     after: list[str] = []
     budget = max(fit_step.CONTEXT_MAX_WORDS - len(cited), 0)
@@ -413,7 +419,7 @@ def _window(path: str, first: int, last: int) -> str:
         if budget > 0 and upper <= ceiling:
             take = _line_words(path, upper)[:budget]
             after, budget, upper = after + take, budget - len(take), upper + 1
-    return " ".join(before + cited + after)
+    return " ".join(before + cited + after), False
 
 
 def _opening(path: str, first: int, last: int) -> tuple[str, bool]:
@@ -446,7 +452,7 @@ def context_blocks(record: dict, records: dict[str, dict], texts_root: Path = fi
         paths = [texts_root / "cic" / "texts" / p.name for p in named]
         for path in _pick(paths, locus):
             if (point := _point(record, str(path), locus)) is not None:
-                text, trimmed = _window(str(path), *point), False
+                text, trimmed = _window(str(path), *point)
                 lines = point
             elif (span := _range(str(path), source_record, locus)) is not None:
                 (text, trimmed), lines = _opening(str(path), *span), span

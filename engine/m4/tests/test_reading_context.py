@@ -261,3 +261,18 @@ def test_the_signal_counts_a_whole_world_sentence_bound_only_to_single_author_ca
 ])
 def test_the_single_author_marks_read_whose_view_prose(view, single):
     assert reading_context.single_author({"reading_card": {"whose_view": view}}) is single
+
+
+def test_a_trimmed_window_says_so_to_the_voice():
+    whole = {"id": "ctx.w.quote.a.1", "text": "some words", "trimmed": False}
+    cut = {**whole, "id": "ctx.w.quote.a.2", "trimmed": True}
+    plain, opening = reading_context.window_lines([whole, cut])
+    assert plain == fit_step.context_lines({"context": [whole]})[0]
+    assert opening.startswith("  CONTEXT ctx.w.quote.a.2, the opening of a longer passage (read to understand")
+    assert opening.endswith(": some words")
+
+
+@pytest.mark.parametrize("view", ["Alexandria's own practice.", "Christians' view in Egypt.", "Egypt's own custom.", "The Church's own ruling."])
+def test_a_place_or_group_possessive_is_not_single_author(view):
+    assert reading_context.single_author({"reading_card": {"whose_view": view}}) is False
+

@@ -134,3 +134,18 @@ def test_numbers_read_as_roman_arabic_and_ordinal():
     assert source_windows.pieces("VI.8, VI.23-26 (HIGH-risk)") == [(None, [6, 8], None), (None, [6, 23], 26)]
     assert source_windows.pieces("1:1-2; 2:1-4:14 (gloss)")[0] == (None, [1], None)
     assert source_windows.pieces("Book I, ch. lviij - the opening")[0] == ("Book", [1, 58], None)
+
+
+def test_a_cited_range_longer_than_the_ceiling_keeps_its_opening_and_is_marked_trimmed(tmp_path):
+    long_text = " ".join(f"w{n}" for n in range(600))
+    lines = ['<div1 id="i" title="Book One">', "<p>before</p>", f"<p>{long_text[:1500]}</p>", f"<p>{long_text[1500:]}</p>",
+             "<p>after</p>", "</div1>"]
+    path = tmp_path / "cic" / "texts" / NAME
+    path.parent.mkdir(parents=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+    (block,) = source_windows.context_blocks(_record(text=long_text), {SOURCE["id"]: SOURCE}, tmp_path)
+    assert block["lines"] == "3-4" and block["trimmed"] is True
+    assert block["text"].split() == long_text.split()[:fit_step.CONTEXT_MAX_WORDS]
+    (short,) = source_windows.context_blocks(_record(), {SOURCE["id"]: SOURCE},
+                                             (_fixture(tmp_path / "other"), tmp_path / "other")[1])
+    assert short["trimmed"] is False

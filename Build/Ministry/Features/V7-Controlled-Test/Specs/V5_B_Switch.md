@@ -37,3 +37,29 @@
 - `live` is untouched.
 
 **Cost.** None.
+
+## Test branch
+
+`v7/b-on-live` is cut from `origin/live` at c869dd86. B runs there with exactly these changes, taken from the head of `claude/v7-v5-b-switch` (`<sha>`).
+
+**Files copied whole** (`git checkout <sha> -- <path>`). None of them exists on `live`, so each is new there:
+- `engine/m4/reading_context.py`
+- `engine/m4/source_windows.py`
+- `engine/m4/fit_step.py` (it imports only `engine.prose.locus_refs`)
+- `engine/m4/reading_cards.py` (V4a's loader)
+- `engine/m3/v7_run.py`
+- `engine/m3/tests/test_v7_run.py`
+- `engine/m4/tests/test_reading_context.py`
+- `engine/m4/tests/test_source_windows.py`
+- `engine/m4/tests/test_reading_cards.py`
+
+**Diffs applied** (`git diff <base> <sha> -- <path> | git apply`):
+- `engine/m4/evidence.py`: commit ee485aa8's diff for this file only (`git show ee485aa8 -- engine/m4/evidence.py | git apply`). It has three hunks: the `reading_context` import, the `reading_rendering` field on the quote line, and `render_evidence_block`'s keyword-only `world` and `reading` with `_render_with_reading`. It applies to `live` with no fuzz. Main's whole `evidence.py` is never copied, because it carries main-only selection changes.
+- `engine/prose.py`: only the addition of `_SPAN_LANGUAGES`, `_VENDORED_SPAN` and `locus_refs` at the end of the file. That addition is the whole of `git diff origin/live origin/main -- engine/prose.py`.
+
+**Not taken.** V4a's schema, gate and builder changes. No record and no package changes on the test branch: the cards and lens notes come from `--reading-records-dir`.
+
+**Checked on a checkout of `live` with these changes:**
+- the four test files pass, including the check that the runner's voice call is the one A's `LiveModelAnswerer` makes;
+- with the flag off, the evidence block is byte-equal to `live`'s own for all 84 probes;
+- a dry run of arm b answers from reply files and records `additions_chars`.

@@ -16,7 +16,10 @@ passes the loaded world, with world.frame["reading_context"] set, and the
 reading cards and lens notes (engine.m4.reading_cards.load_reading_context)
 read from --reading-records-dir, to render_evidence_block. Arm b is refused
 (exit 2) without --reading-records-dir, when that directory holds no records
-for the world, or when render_evidence_block takes no `world` and `reading`.
+for the world, when the mapping read from it is empty or gives a lens note
+for fewer than 90% of the world's quote records, or when
+render_evidence_block takes no `world` and `reading`; each before any
+client is built.
 The world's records and package are A's; only the cards and lens notes come
 from the named directory. Each arm b record carries whole_world_signal
 (engine.m4.reading_context.whole_world_signal), reported only, and
@@ -90,6 +93,7 @@ WORLDS = ("alx", "pahc", "syr")
 ARMS = ("a", "b")
 READING_CONTEXT = "reading_context"
 VOICE_CALL_ATTEMPTS = 3
+LENS_NOTE_FLOOR = 0.9
 A_VOICE_MAX_TOKENS = 2048
 VOICE_TEMPERATURE = "API default (not set by stream_voice_turn)"
 CALL_KIND = "voice_generation"
@@ -221,6 +225,19 @@ class TimedClient:
 
 def render_takes_world() -> bool:
     return {"world", "reading"} <= set(inspect.signature(m4_evidence.render_evidence_block).parameters)
+
+
+def reading_refusal(reading: dict, repository_records: dict[str, dict], records_dir: str) -> str | None:
+    """Why arm b cannot run on this reading mapping, or None: the mapping is empty,
+    or fewer than LENS_NOTE_FLOOR of the world's quote records carry a lens note in it."""
+    if not reading:
+        return f"--reading-records-dir {records_dir} gave no reading cards or lens notes for this world. Refused."
+    quotes = [rid for rid, r in repository_records.items() if r.get("record_type") == "quote"]
+    noted = sum(1 for rid in quotes if (reading.get(rid) or {}).get("modern_lens_note"))
+    if quotes and noted < LENS_NOTE_FLOOR * len(quotes):
+        return (f"--reading-records-dir {records_dir} gives a lens note for {noted} of {len(quotes)} quote records, "
+                f"under {LENS_NOTE_FLOOR:.0%}. Refused.")
+    return None
 
 
 def reading_sha256(reading: dict) -> str:
@@ -555,6 +572,10 @@ def main(argv: list[str] | None = None) -> int:
     if reading_context:
         world = dataclasses.replace(world, frame={**world.frame, READING_CONTEXT: True})
         reading = load_reading_context(Path(args.reading_records_dir), args.world)
+        refusal = reading_refusal(reading, m4_evidence.repository_records_by_id(world.repository), args.reading_records_dir)
+        if refusal:
+            print(refusal, file=sys.stderr, flush=True)
+            return EXIT_REFUSED
 
     settings = {
         "live_test": live_test.name if live_test else None,
