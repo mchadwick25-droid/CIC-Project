@@ -262,6 +262,8 @@ def test_party_and_organisation_names_are_left_alone():
         "The Labour Party had won government",
         "the church's people voted Labour, and Labour carried Maori grievances",
         "stood as Labour candidates",
+        "before the new Labour prime minister: a potato",
+        "the Labour leader whose 1936 meeting",
         "the Friendly Society of Agricultural Labourers",
         "the Church of the Saviour at Berestove",
         "the All Saviour's monastery",
