@@ -7378,3 +7378,18 @@ If any condition fails, the amount stays unspent.
 **Files.** `Build/Ministry/Features/V7-Controlled-Test/Runs/sample/` holds the run records, the summaries, the printed settings and the ledger.
 
 **Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": main run and repeat, $3.8345 (coordination thread, under Mark's approval)
+
+**Approval.** The coordination thread approved the run after checking the sample, under Mark's test approval and his $12 ceiling. It set a cap of $3.876 per world, taken from the $11.629 left after the sample.
+
+**Run.** Arm B covered the remaining 26 probes per world, then the 14 drawn repeat probes per world: 120 turns in all. The model, route, code and hashes were the same as the sample.
+
+**Spend, from the run output.** $3.8345 in all:
+- alx $0.9343 main and $0.4482 repeat;
+- pahc $0.8100 main and $0.4080 repeat;
+- syr $0.8306 main and $0.4034 repeat.
+
+The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No call failed, and no cap was reached.
+
+**Files.** The run records, summaries, printed settings and ledger are in `Build/Ministry/Features/V7-Controlled-Test/Runs/main/`.
