@@ -170,3 +170,65 @@ def test_forms_found_by_the_final_sweep_are_flagged():
 
 def test_words_that_are_spelled_the_same_in_both_varieties_stay_unflagged_in_the_sweep():
     assert words("advertising unwilling improvised appalled annulled rebelled sunrise surmise tortoise") == []
+
+
+def test_json_string_values_are_scanned_and_names_and_titles_are_skipped():
+    import json
+    doc = {
+        "name": "The Labour Church",
+        "why": "They travelled to the centre of the city.",
+        "sources": [{"work": "Civilisation and Its Discontents", "note": "A defence of the plan."}],
+        "documentedStories": [{"title": "Against the Judaisers", "text": "He praised the \"honour of the realm\" and its labour."}],
+    }
+    text = json.dumps(doc, indent=1, ensure_ascii=False) + "\n"
+    found = sorted(f.word for f in cs.scan_json(text, "x.json"))
+    assert found == ["centre", "defence", "labour", "travelled"]
+    fixed = json.loads(cs.fix_json(text))
+    assert fixed["name"] == doc["name"]
+    assert fixed["sources"][0]["work"] == doc["sources"][0]["work"]
+    assert fixed["documentedStories"][0]["title"] == doc["documentedStories"][0]["title"]
+    assert fixed["why"] == "They traveled to the center of the city."
+    assert fixed["documentedStories"][0]["text"] == 'He praised the "honour of the realm" and its labor.'
+
+
+def test_json_layout_is_never_changed():
+    text = '{"why":"the centre",\n  "list": ["a defence",\n "b"],\n"name":"The Centre"}'
+    assert cs.fix_json(text) == '{"why":"the center",\n  "list": ["a defense",\n "b"],\n"name":"The Centre"}'
+
+
+def test_json_embedded_in_a_script_block_is_fixed_in_place():
+    page = '<script>\nconst DATA = {\n "movements": [\n  {"why": "a labour", "name": "Labour"}\n ]\n};\nconst x = "centre";\n</script>'
+    fixed = cs.fix_embedded_json(page, "const DATA = ")
+    assert '"why": "a labor"' in fixed and '"name": "Labour"' in fixed and 'const x = "centre";' in fixed
+
+
+def test_a_plain_yaml_file_is_scanned_and_fixed_in_place():
+    text = "id: rzg\ndisplay_name: The Reformed Centre\nentry:\n  topics:\n  - word: Baptism\n    note: They baptised infants.\n  - word: x\n    note: 'a labour of love'\n"
+    assert sorted(f.word for f in cs.scan_yaml(text, "x.yaml")) == ["baptised", "labour"]
+    fixed = cs.fix_yaml(text)
+    assert fixed == text.replace("baptised", "baptized").replace("a labour", "a labor")
+
+
+def test_titles_cited_on_the_site_are_left_alone():
+    for line in (
+        "Munro-Hay, Aksum: An African Civilisation of Late Antiquity (1991)",
+        "Foundations of an African Civilisation: Aksum and the Northern Horn",
+        "Carey&#039;s Enquiry (1792)",
+        "An Enquiry into the Obligations of Christians to Use Means",
+        "Le Theatre sacre des Cevennes (London, 1707)",
+        "the Hutterian Brethren, Plough, Rifton, 1987",
+    ):
+        assert words(line) == [], line
+    assert words("a plough and a theatre") == [("plough", "plow"), ("theatre", "theater")]
+
+
+def test_a_generated_report_is_exempt():
+    assert cs.is_exempt("cic-website/data/corpus-coverage.json")
+    assert not cs.is_exempt("cic-website/data/world-census.json")
+
+
+def test_surface_records_under_build_worlds_are_records_and_enforced():
+    assert cs.in_checked("Build/worlds/lpc/surface/world_front/x.md")
+    assert cs.is_enforced("Build/worlds/lpc/surface/world_front/x.md")
+    assert not cs.in_checked("Build/worlds/lpc/Doc_01_World_Identification.md")
+    assert cs._kind(cs.REPO / "Build/worlds/lpc/surface/world_front/x.md") == "record"

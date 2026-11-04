@@ -83,7 +83,7 @@ TABLE.update({
     "moulded": "molded", "smoulder": "smolder", "smouldering": "smoldering", "sulphur": "sulfur",
     "pyjamas": "pajamas", "draught": "draft", "draughts": "drafts", "cosy": "cozy", "moustache": "mustache",
     "enquire": "inquire", "enquired": "inquired", "enquiry": "inquiry", "enquiries": "inquiries",
-    "connexion": "connection", "learnt": "learned", "dreamt": "dreamed", "fulfil": "fulfill",
+    "learnt": "learned", "dreamt": "dreamed", "fulfil": "fulfill",
     "fulfilment": "fulfillment", "enrol": "enroll", "enrolment": "enrollment", "instil": "instill",
     "skilful": "skillful", "skilfully": "skillfully", "wilful": "willful", "wilfully": "willfully",
     "jewellery": "jewelry", "instalment": "installment", "practise": "practice", "practised": "practiced",
