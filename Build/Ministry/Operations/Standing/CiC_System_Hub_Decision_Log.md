@@ -7378,3 +7378,9 @@ If any condition fails, the amount stays unspent.
 **Files.** `Build/Ministry/Features/V7-Controlled-Test/Runs/sample/` holds the run records, the summaries, the printed settings and the ledger.
 
 **Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
+
+## 2026-11-04 - Cap ruling: alx the-grades-here-in-the-church rendering (project lead)
+
+The `modern_rendering` of `alx.quote.the-grades-here-in-the-church` reached the cap at its third review file. Round 1 and round 2 were in the batch and round-2 files; round 3 was `Rendering_Review_Alx_Round3_2026-11-04.md`. The one finding still open was that the last sentence dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". The project lead's ruling, in his words, relayed by the coordination thread: "yes ... fourth read". It allows one targeted read by a fresh independent Opus reader of exactly that sentence. The read is `Rendering_Review_Alx_Round4_2026-11-04.md`. It passed "This goes on until they grow into “a mature man.”", and the record now carries that sentence. It is the only review this ruling covers for alx.
+
+The same ruling ordered the same kind of read for `cappadocian.quote.gregory-nyssa-on-becoming-god`. That read failed one sentence, so the cappadocian record is held and is not part of this entry. Its own entry follows when that record moves.
