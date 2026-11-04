@@ -37,6 +37,7 @@
   - Effort, Mark's choice "Max on hard items, high on rest": round 1 at max; other first reads at high; max again for every flagged item, every disagreement and every tier 1 or 2 finding. A max batch of 6 measured about 340k tokens.
   - The catch rule, Mark's words "count found errors, and continue", set after round 1's results: a tier 1 or 2 error on at least half the planted sentence counts, under any label. The type-matched rule's figures (reader-1 8 of 12, reader-2 4 of 12) are reported beside it. Errors are counted by tier and location, not by type.
   - Passages corrected (PR #1512 and the Hermas Mandate fix), requests exported again with identical keys, and every round-1 item that carried a wrong passage read again at max.
+- **Change order, 2026-11-04** (Decision-Log 79): the third reader rules on every item with a tier 1 or 2 finding from either reader or a two-point score gap (217 of 222). Max effort only where the readers split on tier 1 or 2 and for the seeded copies; all others at high. The other 5 items keep the mean of the two blind scores.
 - **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than being cut.
 - **Mark's review page.** An Artifact, not a repository file, built from V3's review data.
   - **Layout.** One answer at a time, arm hidden: the question, the answer, the cited records, and the source lines in context.

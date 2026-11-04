@@ -63,6 +63,7 @@ CATCH_RATE_FLOOR = 0.90
 MIN_SEEDED = 10
 MATCH_THRESHOLD = 0.5
 SPAN_THRESHOLD = 0.5
+SCORE_GAP = 2
 MARK_PASSAGE_WORDS = 160
 RISK_LEVELS = ("high", "medium")
 CARD_LABEL = "Project-authored reading note. It is not an authority. Check it against the source passage."
@@ -518,20 +519,10 @@ def _error_problems(errors, label: str) -> list[str]:
     return problems
 
 
-def _base_type(error: dict) -> str:
-    return str(error["type"]).split(":")[0]
-
-
-def _unmatched(errors: list[dict], others: list[dict]) -> bool:
-    return any(not any(overlaps(e["answer_words"], o["answer_words"]) and _base_type(e) == _base_type(o) for o in others) for e in errors)
-
-
 def needs_adjudication(first: dict, second: dict) -> bool:
-    """True when any dimension score differs, either reader's error has no overlapping error from the other at any tier,
-    or either found a tier 1 or 2 error."""
-    if any(first["scores"][d]["score"] != second["scores"][d]["score"] for d in DIMENSIONS):
-        return True
-    if _unmatched(first["errors"], second["errors"]) or _unmatched(second["errors"], first["errors"]):
+    """True when either reader found a tier 1 or 2 error, or the readers' scores on any dimension differ by
+    SCORE_GAP or more. Other items keep the mean of the two blind scores."""
+    if any(abs(first["scores"][d]["score"] - second["scores"][d]["score"]) >= SCORE_GAP for d in DIMENSIONS):
         return True
     return any(e["tier"] in (1, 2) for r in (first, second) for e in r["errors"])
 
@@ -637,7 +628,7 @@ def agreement(pairs: list[tuple[int, int]]) -> dict:
 
 
 def distribution(values: list[float]) -> dict:
-    return {str(v): sum(1 for x in values if x == v) for v in (0, 1, 2)}
+    return {str(v): sum(1 for x in values if x == v) for v in (0, 0.5, 1, 1.5, 2)}
 
 
 def _summary(values: list[float]) -> dict:
@@ -754,16 +745,13 @@ def _load_all(out: Path, key_dir: Path) -> dict:
 
 
 def final_values(first: dict, second: dict, adjudicated: dict | None) -> dict | None:
-    """Per dimension, the adjudicated score where one exists, else the readers' common score; None when they differ and no ruling exists."""
-    values = {}
-    for d in DIMENSIONS:
-        if adjudicated is not None:
-            values[d] = adjudicated["scores"][d]["score"]
-        elif first["scores"][d]["score"] == second["scores"][d]["score"]:
-            values[d] = first["scores"][d]["score"]
-        else:
-            return None
-    return values
+    """Per dimension, the adjudicated score where one exists; else, for an item that needs no ruling, the mean of
+    the two readers' scores; None when the item needs a ruling and has none."""
+    if adjudicated is not None:
+        return {d: adjudicated["scores"][d]["score"] for d in DIMENSIONS}
+    if needs_adjudication(first, second):
+        return None
+    return {d: (first["scores"][d]["score"] + second["scores"][d]["score"]) / 2 for d in DIMENSIONS}
 
 
 def deterministic_measures(answer: str, cited_ids: list[str]) -> dict:
