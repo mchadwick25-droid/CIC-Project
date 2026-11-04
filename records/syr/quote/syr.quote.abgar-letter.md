@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.doctrine-of-addai
-  locus: the letter of Abgar
+  locus: "the letter of Abgar (cic/texts/addai_doctrine-of-addai.txt, line 25)"
   license: public-domain
 text: I have heard of Thee and of Thy healing, that it is not by medicines and roots Thou healest, but
   by Thy word Thou openest the eyes of the blind

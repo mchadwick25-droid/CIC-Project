@@ -16,8 +16,7 @@ confidence:
     Documented as Innocent's own letter in the standard English of the NPNF Jerome volume, read directly at the letter cited. It reaches us inside Jerome's correspondence; the report it answers - Paula's and Eustochium's own account of the attack - is lost, and survives only as this reply.
 sources:
 - source_id: hal.source.attack-letters-416
-  locus: >-
-    Letter CXXXVII, Innocent of Rome to John of Jerusalem, a.d. 417 (npnf206_jerome-principal-works.xml)
+  locus: "Letter CXXXVII, Innocent of Rome to John of Jerusalem, a.d. 417 (cic/texts/npnf206_jerome-principal-works.xml, lines 28468-28474)"
   license: public-domain
 text: >-
   The holy virgins Eustochium and Paula have deplored to me the ravages, murders, fires and outrages of all kinds, which they say that the devil has perpetrated in the district belonging to their church; for with wonderful clemency and generosity they have left untold the name and motive of his human agent.

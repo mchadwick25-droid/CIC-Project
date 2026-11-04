@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: VI (the covenant exhortation)
+  locus: "VI (the covenant exhortation) (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 25658-25659)"
   license: public-domain
 text: Let us visit our Lord in the persons of the sick
 modern_rendering: >-

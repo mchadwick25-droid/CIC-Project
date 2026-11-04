@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own report in the standard English of the NPNF volume, both halves read directly at the sections cited. The quoted run crosses the sec. 1/2 boundary and the section numeral standing between them in the vendored text is not reproduced; the parenthesis after 'the Way' is the translator's gloss and is kept. The Jewish questioner is unnamed and reported by his opponent - his words survive only in Aphrahat's telling.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: >-
-    Demonstration XXI (Of Persecution), secs. 1-2 (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "Demonstration XXI (Of Persecution), secs. 1-2 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27421-27433)"
   license: public-domain
 text: >-
   It happened one day, that a man, who is called wise amongst the Jews, questioned me, saying:—Jesus, Who is called your Teacher, wrote for you, that If there shall be in you faith like one grain of mustard, ye shall say to this mountain, Remove, and it shall remove from before you; and (ye shall say) even, Be lifted up and fall into the sea, and it shall obey you. So apparently there is in all your people not one wise man, whose prayer is heard, and who asks of God that your persecutors should cease from you. For clearly it is written for you in that passage, There is nothing which ye shall not be able to do. And when I saw that he was blaspheming and speaking much against the Way (the Christian religion), my mind was disturbed

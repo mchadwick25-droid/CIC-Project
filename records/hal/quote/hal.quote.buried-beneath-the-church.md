@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: >-
-    Letter CVIII (the memorial of Paula), sec. 30 (npnf206_jerome-principal-works.xml)
+  locus: "Letter CVIII (the memorial of Paula), sec. 30 (cic/texts/npnf206_jerome-principal-works.xml, lines 22130-22133)"
   license: public-domain
 text: >-
   One after another they chanted the psalms, now in Greek, now in Latin, now in Syriac; and this not merely for the three days which elapsed before she was buried beneath the church and close to the cave of the Lord, but throughout the remainder of the week.

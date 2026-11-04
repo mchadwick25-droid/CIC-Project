@@ -16,8 +16,7 @@ confidence:
     Documented as Ephrem's own words in Mitchell's English, both halves read directly in the vendored file. The edition's page-marker '[Ov. p. 53, l. 2.]', which stands inside the quoted run, is not reproduced. The work survives in a palimpsest whose lower text Mitchell transcribed, with uncertain readings marked; Ephrem's opponents - Mani, Marcion, Bardaisan - are quoted only by him.
 sources:
 - source_id: syr.source.ephrem-prose-refutations
-  locus: >-
-    First Discourse to Hypatius, the Freewill argument (cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt)
+  locus: "First Discourse to Hypatius, the Freewill argument (cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt, line 358)"
   license: public-domain
 text: >-
   But we are not venturing to blaspheme against the Good, but (this is said) in order that by means of what is considered blasphemous, though it is not blasphemous, the blasphemy of madmen may perchance be refuted. For one cannot bring into the way a man who is walking outside of the way, unless one goes a little from the way after him into the wilderness.

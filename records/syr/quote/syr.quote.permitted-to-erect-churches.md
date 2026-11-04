@@ -16,8 +16,7 @@ confidence:
     Documented as Socrates's narrative in the standard English of the NPNF Socrates volume, read directly at the chapter cited. Socrates writes from Constantinople about a church he did not belong to, and takes the story as the church told it - the miracle material in the same chapter is not separable from the political fact.
 sources:
 - source_id: syr.source.socrates-historia-ecclesiastica
-  locus: >-
-    Church History VII.8 (npnf202_socrates-sozomen-ecclesiastical-histories.xml)
+  locus: "Church History VII.8 (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 19172-19176)"
   license: public-domain
 text: >-
   Becoming indignant at the deception thus attempted the king commanded that the tribe of the magi should be decimated. When this was effected he permitted Maruthas to erect churches wherever he wished; and from that time the Christian religion was diffused among the Persians.

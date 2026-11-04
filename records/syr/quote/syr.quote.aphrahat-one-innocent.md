@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
-  locus: VII.1
+  locus: "VII.1 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt, line 38)"
   license: public-domain
 text: Of all those who are begotten, who have put on a body, there is only One innocent, that is our Lord
   Jesus Christ

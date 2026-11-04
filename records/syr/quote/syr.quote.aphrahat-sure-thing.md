@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: XVII.2
+  locus: "XVII.2 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27115-27119)"
   license: public-domain
 text: it is a sure thing with us, that Jesus our Lord is God, the Son of God, and the King, the King's
   Son, Light of light, Creator and Counsellor, and Guide, and the Way, and Redeemer, and Shepherd, Gatherer,

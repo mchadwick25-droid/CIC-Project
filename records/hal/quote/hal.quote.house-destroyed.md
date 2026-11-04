@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.attack-letters-416
-  locus: Ep. 139 (to Apronius), closing
+  locus: "Ep. 139 (to Apronius), closing (cic/texts/npnf206_jerome-principal-works.xml, lines 28596-28602)"
   license: public-domain
 text: 'As for our house, so far as fleshly wealth is concerned, it has been completely
   destroyed by the onslaughts of the heretics; but by the mercy of Christ it is still

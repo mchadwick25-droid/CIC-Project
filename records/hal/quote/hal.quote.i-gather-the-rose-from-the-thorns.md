@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: >-
-    Letter XXII (to Eustochium), sec. 20 (npnf206_jerome-principal-works.xml)
+  locus: "Letter XXII (to Eustochium), sec. 20 (cic/texts/npnf206_jerome-principal-works.xml, lines 6021-6023)"
   license: public-domain
 text: >-
   I praise wedlock, I praise marriage, but it is because they give me virgins. I gather the rose from the thorns, the gold from the earth, the pearl from the shell.

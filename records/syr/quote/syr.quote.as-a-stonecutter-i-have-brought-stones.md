@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own closing to his tenth Demonstration, the last of the first ten, which he dates with them to 337 in Persian territory. Here he turns the building image on himself and his reader.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: >-
-    Demonstration X (Of Pastors), sec. 9, in the NPNF translation (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "Demonstration X (Of Pastors), sec. 9, in the NPNF translation (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27084-27093)"
   license: public-domain
 text: >-
   Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house.

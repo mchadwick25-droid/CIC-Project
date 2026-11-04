@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: sec. 6
+  locus: "sec. 6 (cic/texts/npnf206_jerome-principal-works.xml, lines 17541-17544)"
   license: public-domain
 text: 'She was the first person to found a hospital, into which she might gather
   sufferers out of the streets, and where she might nurse the unfortunate victims of

@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep107
-  locus: >-
-    Letter CVII (to Laeta, on the education of her daughter Paula), sec. 13 (npnf206_jerome-principal-works.xml)
+  locus: "Letter CVII (to Laeta, on the education of her daughter Paula), sec. 13 (cic/texts/npnf206_jerome-principal-works.xml, lines 20730-20734)"
   license: public-domain
 text: >-
   Let her be brought up in a monastery, let her be one amid companies of virgins, let her learn to avoid swearing, let her regard lying as sacrilege, let her be ignorant of the world, let her live the angelic life, while in the flesh let her be without the flesh, and let her suppose that all human beings are like herself.

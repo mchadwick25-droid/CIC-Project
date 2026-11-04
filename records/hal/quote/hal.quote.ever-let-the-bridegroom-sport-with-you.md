@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: >-
-    Letter XXII (to Eustochium), sec. 25 (npnf206_jerome-principal-works.xml)
+  locus: "Letter XXII (to Eustochium), sec. 25 (cic/texts/npnf206_jerome-principal-works.xml, lines 6222-6228)"
   license: public-domain
 text: >-
   Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: "I am sick of love."...

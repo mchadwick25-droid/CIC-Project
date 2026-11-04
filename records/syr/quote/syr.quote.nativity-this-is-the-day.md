@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-nativity-hymns
-  locus: Hymn I
+  locus: "Hymn I (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 17530-17533)"
   license: public-domain
 text: This is the day that gladdened them, the Prophets, Kings, and Priests, for in it were their words
   fulfilled, and thus were the whole of them indeed performed! For the Virgin this day brought forth Immanuel

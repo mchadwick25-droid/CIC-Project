@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep45
-  locus: sec. 3
+  locus: "sec. 3 (cic/texts/npnf206_jerome-principal-works.xml, lines 8636-8641)"
   license: public-domain
 text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   resounded with my praises. Almost every one concurred in judging me worthy of the

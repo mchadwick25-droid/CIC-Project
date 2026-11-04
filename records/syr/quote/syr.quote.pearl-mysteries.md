@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-hymns-on-faith-pearl
-  locus: Hymn I.1
+  locus: "Hymn I.1 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 21794-21797)"
   license: public-domain
 retrieval:
   tier: 2
