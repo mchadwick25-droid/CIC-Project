@@ -7399,3 +7399,12 @@ The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No
 The `modern_rendering` of `alx.quote.the-grades-here-in-the-church` reached the cap at its third review file. Round 1 and round 2 were in the batch and round-2 files; round 3 was `Rendering_Review_Alx_Round3_2026-11-04.md`. The one finding still open was that the last sentence dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". The project lead's ruling, in his words, relayed by the coordination thread: "yes ... fourth read". It allows one targeted read by a fresh independent Opus reader of exactly that sentence. The read is `Rendering_Review_Alx_Round4_2026-11-04.md`. It passed "This goes on until they grow into “a mature man.”", and the record now carries that sentence. It is the only review this ruling covers for alx.
 
 The same ruling ordered the same kind of read for `cappadocian.quote.gregory-nyssa-on-becoming-god`. That read failed one sentence, so the cappadocian record is held and is not part of this entry. Its own entry follows when that record moves.
+
+## 2026-11-04 - Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering (project lead)
+
+The `modern_rendering` of `cappadocian.quote.gregory-nyssa-on-becoming-god` reached the cap at its third review file, `Rendering_Review_Cappadocian_Round3_2026-11-04.md`. Two of the edition's grounding "For"s were still missing. The project lead ruled twice, both relayed by the coordination thread.
+
+1. "yes ... fourth read": one targeted read by a fresh independent Opus reader of the corrected sentences. That read is `Rendering_Review_Cappadocian_Round4_2026-11-04.md`. It passed the restored "For who, surveying the universe…". It failed the second sentence, which had dropped the edition's "although".
+2. "Fifth read of that sentence": one more fresh reader, on the fourth reader's wording of that sentence only. That read is `Rendering_Review_Cappadocian_Round5_2026-11-04.md`. It passed "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The record now carries it.
+
+These two reads are the only reviews this ruling covers for cappadocian.
