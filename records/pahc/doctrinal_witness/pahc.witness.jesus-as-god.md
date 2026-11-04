@@ -18,7 +18,7 @@ sources:
   locus: "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')"
   license: public-domain
 - source_id: pahc.source.justin-dialogue
-  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (begotten 'not by abscission,' like a fire 'not lessened when it has kindled [another]'); 128 ('fires kindled from a fire')"
+  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (begetting likened to a fire 'not lessened when it has kindled [another]'); 128 (the power begotten 'not by abscission,' like 'fires kindled from a fire')"
   license: public-domain
 - source_id: pahc.source.justin-first-apology
   locus: "13 (the Son 'in the second place, and the prophetic Spirit in the third'); 63 (the first-begotten Word of God 'is even God')"

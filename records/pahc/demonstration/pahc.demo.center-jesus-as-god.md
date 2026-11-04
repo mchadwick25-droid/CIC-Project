@@ -18,7 +18,10 @@ sources:
   locus: "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')"
   license: public-domain
 - source_id: pahc.source.justin-dialogue
-  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (a fire 'not lessened when it has kindled [another]')"
+  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (begetting likened to a fire 'not lessened when it has kindled [another]'); 128 (the power begotten 'not by abscission,' like 'fires kindled from a fire')"
+  license: public-domain
+- source_id: pahc.source.justin-first-apology
+  locus: "13 (the Son 'in the second place, and the prophetic Spirit in the third')"
   license: public-domain
 canon_question_id: _fleet.canon.c-t-01
 exchange:
@@ -42,9 +45,8 @@ A related Greek
 word (trias) is attested elsewhere in this same period, including
 inside this world's own window and one of its own three core regions
 (Theophilus of Antioch, To Autolycus II.15, c. 180 CE). The claim that
-none of us reaches for the word Trinity is scoped to "none of the six of us
-whose own writing survives," matching pahc.witness.jesus-as-god's own actual
-claim.
+none of us used the word Trinity is scoped to the six main voices of this
+world, matching pahc.witness.jesus-as-god's positions field.
 
 The spoken opening does not hard-bind the first-mention
 introduction formula ("One of us, Ignatius,") to the answer - the
