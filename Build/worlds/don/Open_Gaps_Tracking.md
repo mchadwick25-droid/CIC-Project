@@ -2169,3 +2169,13 @@ don_Validation_Layer L50: "an open item, not a defect" (World #8 boundary to re-
 Doc_07 L27 (kept as a plain statement, candidate for the gaps file): the L4 Integrated_Ecology_Analysis_Template is stale relative to M4 and needs a coach-thread edit.
 
 Status: OPEN. Owner: this world's thread.
+
+### OG-59. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+The `rendering-review` gate found 5 don renderings with no named Opus review file. An independent Opus reviewer read all five against each record's `text` and the edition text in `cic/texts/` at its locus. All five pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_5_2026-11-03.md`. The `m1:rendering-review/don` waiver is removed; the gate reports 0 for don (5 → 0).
+
+Open, found by the reviewer and not changed here (line-span work, RD7):
+- `don.quote.donatus-quid-est-imperatori`'s divergence_note says no clean Latin of the line is vendored. `cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt` line 3357 has "quid est imperatori cum ecclesia?" exactly. The record could cite that file, and its `verification_state` be reconsidered.
+- `don.quote.deo-laudes`: at the main stone (no. 17732, CIL file lines 3868-3874) the scan is too garbled to match word for word; a clean "DEO LAVDES" is at line 4566 (no. 17368).
+
+Status: CLOSED for the renderings. OPEN for the two loci.
