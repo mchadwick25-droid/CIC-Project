@@ -279,3 +279,9 @@ def test_forms_found_by_the_site_recheck_are_flagged():
     ):
         assert words(f"a {old} thing") == [(old, new)], old
     assert words("Bedford gaol") == []
+
+
+def test_the_claims_register_status_keyword_is_a_token_not_prose():
+    assert words("| fca8e47a | JUDGEMENT | Documented |") == []
+    assert words("`JUDGEMENT`: not decidable by a string check") == []
+    assert words("a sound judgement") == [("judgement", "judgment")]
