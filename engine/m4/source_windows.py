@@ -50,7 +50,8 @@ after ":" is a verse, finer than any edition marks, and is not used.
   ("II" in a work of books is Book II, not Chapter II of Book I). A leading
   name ("Magnesians") that labels no division names a work: the division
   with that word in its title holds the search, and a name that no title
-  in the work holds is a work not matched.
+  in the work holds is a work not matched. A label goes by the edition's
+  word for it in LABEL_NAMES ("Mandate 9" is "Commandment Ninth.").
 - Below the last division, a number is read from the "Chap. N" headings
   inside it. A number with no division and no heading beneath a division
   that has neither is finer than the edition marks and is dropped; any
@@ -101,6 +102,7 @@ _ORDINALS = ("first", "second", "third", "fourth", "fifth", "sixth", "seventh", 
 _ROMAN = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
 _LIGATURES = str.maketrans({"æ": "ae", "Æ": "Ae", "œ": "oe", "Œ": "Oe", "ß": "ss"})
 WORK_NOT_MATCHED = "work not matched"
+LABEL_NAMES = {"mandate": "commandment"}
 WORK_TITLES = (
     ("Paedagogus", "Paidagogos", "The Instructor"),
     ("Stromateis", "The Stromata", "Miscellanies"),
@@ -129,6 +131,11 @@ def _folded(text: str) -> list[str]:
 
 def _key(text: str) -> frozenset[str]:
     return frozenset(w for w in _folded(text) if len(w) > 3 and w not in _STOP)
+
+
+def _labels(text: str) -> list[str]:
+    """The folded words of a label, each with the edition's own word for it ("Mandate" reads as "commandment")."""
+    return [LABEL_NAMES.get(w, w) for w in _folded(text)]
 
 
 def work_names(source: dict) -> frozenset[frozenset[str]]:
@@ -288,7 +295,7 @@ def _matches(path: str, division: dict, value: int, name: str | None) -> bool:
         return True
     for label in (division.get("shorttitle"), division.get("title")):
         word, found = _ordinal_title(label or "")
-        if found == value and (name is None or _folded(word) == _folded(name)):
+        if found == value and (name is None or _labels(word) == _labels(name)):
             return True
     if division.get("type") and not division.get("n"):
         word, found = _lead(path, division["first"])
@@ -330,8 +337,8 @@ def _find(path: str, current: dict | None, value: int, name: str | None, last: b
             found = shallowest
         return found, current
     if name:
-        wanted = _folded(name)
-        holder = _best([d for d in within if wanted and wanted[0] in _folded(d.get("title") or "")], False)
+        wanted = _labels(name)
+        holder = _best([d for d in within if wanted and wanted[0] in _labels(d.get("title") or "")], False)
         if holder is None:
             return None, WORK_NOT_MATCHED
         return _find(path, holder, value, None, last)

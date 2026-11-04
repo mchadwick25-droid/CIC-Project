@@ -224,3 +224,18 @@ def test_titles_fold_ligatures_accents_case_and_punctuation():
     assert not source_windows.names_work("Exhortation to the Heathen", keys)
     assert source_windows.names_work("THE HEXÆMERON.", source_windows.work_names({"work": "The Hexaemeron, Homily II"}))
     assert source_windows.names_work("Origen Against Celsus.", source_windows.work_names({"work": "Contra Celsum"}))
+
+
+def test_a_mandate_resolves_to_the_commandment_the_edition_numbers_it_by(tmp_path):
+    lines = ['<div1 title="The Pastor of Hermas" id="ii">', '<div2 title="Book First.—Visions" id="ii.ii">',
+             '<div3 title="Vision Fourth." id="ii.ii.iv">', "<p>Vision four text.</p>", "</div3>", "</div2>",
+             '<div2 title="Book Second.—Commandments" id="ii.iii">',
+             '<div3 title="Commandment Fourth. On putting one\'s wife away." id="ii.iii.iv">', "<p>Commandment four text.</p>", "</div3>",
+             "</div2>", "</div1>"]
+    path = tmp_path / "cic" / "texts" / NAME
+    path.parent.mkdir(parents=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+    source = {"id": "w.source.hermas", "record_type": "source", "author": "Hermas", "work": "The Shepherd of Hermas",
+              "edition": f"Fixture, vendored as cic/texts/{NAME}"}
+    (block,) = source_windows.context_blocks(_story("Mandate 4 (on a wife's infidelity)", source), {source["id"]: source}, tmp_path)
+    assert block["text"] == "Commandment four text."

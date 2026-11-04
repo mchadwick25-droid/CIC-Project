@@ -925,3 +925,9 @@ Status: CLOSED. Owner: Library record-defects thread.
 The body note of `polycrates-to-victor` said the text has "two elisions" and pointed to "anf08 line 72582". The text holds one elision, marked "...", after "coming of the Lord". The other clause is given in full once its endnote marker is left out. The note now says this, and it names the exact span, `cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, lines 72578-72623, which is the span the locus cites.
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-50. Hermas "Mandate N" references found no source passage, 2026-11-04.
+
+The source-window resolver read "Mandate 9" and "Mandate 4" as names to match in a title. The vendored edition (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`) titles them "Commandment Ninth." and "Commandment Fourth.". Before PR #1512 these references landed in the Visions; after it they were not located. The resolver now reads a "Mandate" as the edition's "Commandment", so the four records that cite them get the right passage (lines 2377-2431 and 1881-2046).
+
+Status: CLOSED. Owner: V7 test thread.

@@ -653,6 +653,12 @@ def _final_errors(first: dict, second: dict, adjudicated: dict | None) -> list[d
 
 
 def catches(reply: dict, planted: dict) -> bool:
+    """True when one of the reader's tier 1 or 2 errors, under any type, quotes at least SPAN_THRESHOLD of the planted span's words."""
+    return any(e["tier"] in (1, 2) and containment(planted["expected_location"], e["answer_words"]) >= SPAN_THRESHOLD
+               for e in reply["errors"])
+
+
+def catches_with_type(reply: dict, planted: dict) -> bool:
     """True when one of the reader's errors has the planted defect's type and quotes at least SPAN_THRESHOLD of the planted span's words."""
     wanted = accepted_error_types(planted["defect_type"])
     return any(str(e["type"]).split(":")[0] in wanted and containment(planted["expected_location"], e["answer_words"]) >= SPAN_THRESHOLD
@@ -664,8 +670,10 @@ def seeded_catch(seeded: dict, replies: dict) -> dict:
     result = {"seeded": len(seeded), "by_reader": {}, "missing": []}
     for r in READERS:
         caught = sum(1 for iid, s in seeded.items() if replies[r].get(iid) and catches(replies[r][iid], s))
+        typed = sum(1 for iid, s in seeded.items() if replies[r].get(iid) and catches_with_type(replies[r][iid], s))
         read = sum(1 for iid in seeded if replies[r].get(iid))
-        result["by_reader"][r] = {"read": read, "caught": caught, "rate": caught / len(seeded) if seeded else None}
+        result["by_reader"][r] = {"read": read, "caught": caught, "rate": caught / len(seeded) if seeded else None,
+                                  "caught_with_type": typed}
     result["missing"] = sorted(iid for iid in seeded if any(not replies[r].get(iid) for r in READERS))
     result["found_by_either"] = sum(1 for iid, s in seeded.items() if any(replies[r].get(iid) and catches(replies[r][iid], s) for r in READERS))
     return result
@@ -857,19 +865,19 @@ def compute_tables(out: Path, key_dir: Path, set_dir: Path, band_dir: Path | Non
         if m["run"] == 1:
             for e in errs:
                 for world in (m["world"], "all"):
-                    _bump(error_counts, world, m["arm"], str(e["type"]).split(":")[0], str(e["tier"]))
+                    _bump(error_counts, world, m["arm"], str(e["tier"]))
     for iid, errs in data["after"].items():
         m = key_items.get(iid)
         if m is None:
             continue
         for e in errs:
             for world in (m["world"], "all"):
-                _bump(after_counts, world, m["arm"], str(e["type"]).split(":")[0], str(e["tier"]))
+                _bump(after_counts, world, m["arm"], str(e["tier"]))
 
     if seeded:
         catch = seeded_catch(seeded, data["replies"])
     else:
-        catch = {"seeded": 0, "by_reader": {r: {"read": 0, "caught": 0, "rate": None} for r in READERS}, "missing": [], "found_by_either": 0}
+        catch = {"seeded": 0, "by_reader": {r: {"read": 0, "caught": 0, "rate": None, "caught_with_type": 0} for r in READERS}, "missing": [], "found_by_either": 0}
     gate = catch_gate(catch)
 
     worlds = sorted({m["world"] for m in key_items.values()})
@@ -929,11 +937,10 @@ def _error_table(lines: list[str], counts: dict) -> None:
     if not counts:
         lines += ["None.", ""]
         return
-    lines += ["| World | Arm | Type | Tier 1 | Tier 2 | Tier 3 |", "|---|---|---|---|---|---|"]
+    lines += ["| World | Arm | Tier 1 | Tier 2 | Tier 3 |", "|---|---|---|---|---|"]
     for world in sorted(counts):
         for arm in sorted(counts[world]):
-            for typ in sorted(counts[world][arm]):
-                lines.append(f"| {world} | {arm} | {typ} | " + " | ".join(str(counts[world][arm][typ].get(k, 0)) for k in "123") + " |")
+            lines.append(f"| {world} | {arm} | " + " | ".join(str(counts[world][arm].get(k, 0)) for k in "123") + " |")
     lines.append("")
 
 
@@ -960,15 +967,16 @@ def render_markdown(t: dict) -> str:
               "| Dimension | n | Exact | Within one | Note |", "|---|---|---|---|---|"]
     for d, s in t["reader_agreement"].items():
         lines.append(f"| {d} | {s['n']} | {_pct(s['exact'])} | {_pct(s['within_one'])} | {'readers unreliable here' if s['readers_unreliable_here'] else ''} |")
-    lines += ["", "## Errors by world, type and tier", "", "Blind reading:", ""]
+    lines += ["", "## Errors by world and tier", "", "Blind reading:", ""]
     _error_table(lines, t["error_counts"])
     lines += ["Added after October review:", ""]
     _error_table(lines, t["after_october_error_counts"])
     c = t["seeded_catch"]
-    lines += ["## Seeded catch rate", "", f"Seeded copies: {c['seeded']}. A catch needs the planted defect type and at least half of the planted span's words "
-              f"inside the reader's quoted words. Scores count only if each reader catches at least 9 in 10.", ""]
+    lines += ["## Seeded catch rate", "", f"Seeded copies: {c['seeded']}. A catch is a tier 1 or 2 error, under any type, whose quoted words hold at least half of "
+              f"the planted span's words. Scores count only if each reader catches at least 9 in 10. Beside it, the catches whose "
+              f"type also matches the planted defect.", ""]
     for r, v in c["by_reader"].items():
-        lines.append(f"- {r}: caught {v['caught']} of {c['seeded']} (read {v['read']}).")
+        lines.append(f"- {r}: caught {v['caught']} of {c['seeded']} (read {v['read']}); with the planted type, {v['caught_with_type']}.")
     lines += [f"- Found by at least one reader: {c['found_by_either']}.", ""]
     lines += ["## Fresh scores against the October grades on A", "", "Dimensions 1 to 3 against the October rigor grade. Dimension 10 against the readable and understandable grades.", "",
               "| October column | Grade | n | Mean fresh score |", "|---|---|---|---|"]
