@@ -62,20 +62,20 @@ relations:
 - type: associated-with
   target: cappadocian.dw.who-was-jesus
 modern_rendering: >-
-  That God should be born in our nature ought not to seem strange to anyone who does not
-  take too narrow a view of things. For who, when he surveys the universe, is so simple
-  as not to believe that God is in everything -- penetrating it, embracing it, and seated
-  in it? All things depend on him who is. Nothing can exist that does not have its being
-  in him. If, then, all things are in him, and he is in all things, why are people
-  scandalized at the plan of Revelation? It teaches that God was born among men -- that
-  same God whom we are convinced is even now not outside mankind. Although this last form
-  of God's presence among us is not the same as that former presence, his existence among
-  us is shown equally, both then and now. Only now, he who holds nature together in
-  existence is transfused in us. At that other time, he was transfused throughout our
-  nature, so that our nature, through this transfusion of the divine, might itself become
-  divine -- rescued from death, and placed beyond the reach of our enemy's caprice. His
-  return from death becomes, for our mortal race, the beginning of our own return to
-  immortal life.
+  God's birth in our nature should not reasonably seem strange to anyone who does not
+  take too narrow a view of things. Who, surveying the universe, is so simple as not to
+  believe that God is in everything, penetrating it, embracing it, and seated in it? For
+  all things depend on him who is. Nothing can exist that does not have its being in him
+  who is. If, then, all things are in him, and he is in all things, why are people
+  scandalized at the plan of Revelation? Why are they scandalized when it teaches that
+  God was born among men? He is the same God who, we are convinced, is even now not
+  outside mankind. This last form of God's presence among us is not the same as that
+  former presence. Even so, his existence among us is shown equally, both then and now.
+  Only now, he who holds nature together in existence is transfused in us. At that other
+  time, he was transfused throughout our nature. This was so that our nature, through
+  this transfusion of the divine, might itself become divine. Our nature was rescued
+  from death and put beyond the reach of the enemy's caprice. For his return from death
+  becomes, for our mortal race, the beginning of our return to immortal life.
 use_note:
   means: "Gregory of Nyssa's Catechetical Oration argues that God, present in all things, was born among humans so that human nature might become divine."
   not_for:

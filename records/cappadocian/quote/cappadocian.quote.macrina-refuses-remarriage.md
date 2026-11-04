@@ -64,20 +64,18 @@ relations:
 - type: associated-with
   target: cappadocian.dw.macrina-and-its-cost
 modern_rendering: >-
-  When the young man died, the marriage her father had arranged for her was
-  undone. But she said the arrangement itself counted as good as an actual
-  marriage. So she resolved to stay single from then on, as if the marriage
-  had really taken place. Her resolve held firmer than anyone would have
-  expected from someone her age. Her parents kept bringing her fresh
-  proposals -- her beauty attracted many suitors. Each time, she said it
-  was absurd and unlawful not to keep faith with the marriage her father
-  had arranged for her. To be compelled to consider another was just as
-  absurd and unlawful. In the nature of things, she said, there is only one
-  marriage, just as there is one birth and one death. She insisted that the
-  man bound to her by her parents' arrangement was not dead. Because of the
-  hope of the resurrection, she believed he was alive with God -- only
-  away, not gone. So it would be wrong, she said, not to keep faith with
-  the bridegroom who was away.
+  But the young man's death shattered the plan made for her. She then said that her
+  father's intention amounted to a marriage. She resolved to stay single from then on,
+  just as if the intention had become accomplished fact. Indeed, her resolve was firmer
+  than could have been expected at her age. Her parents often brought her proposals of
+  marriage, since many suitors came, drawn by the fame of her beauty. Each time, she
+  would say it was absurd and unlawful to break faith with the marriage her father had
+  arranged for her. She would say it was just as absurd and unlawful to be forced to
+  consider another. For in the nature of things, she would say, there is only one
+  marriage, as there is one birth and one death. She kept insisting that the man joined
+  to her by her parents' arrangement was not dead. Thanks to the hope of the
+  resurrection, she held that he lived to God and was only absent, not dead. It was
+  wrong, she said, not to keep faith with the bridegroom who was away.
 use_note:
   means: "Gregory of Nyssa's Life of Macrina narrates, in indirect speech, her reasoning that her dead betrothed was only absent, so another marriage would be unfaithful."
   not_for:

@@ -27,13 +27,13 @@ modern_rendering: >-
   which, the Scriptures say, awaits those who have followed in the
   footsteps of the apostles. These people have lived in perfect
   righteousness, as the Gospel teaches. For those taken up in the clouds,
-  the apostle writes, will first serve as deacons. Then they will be
+  the apostle writes, will first serve [as deacons]. Then they will be
   ranked among the presbyters, promoted in glory, for one glory differs
   from another. This goes on until they grow into full maturity.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
-  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognise.
+  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognize.
 retrieval:
   tier: 1
   retrieve_when:

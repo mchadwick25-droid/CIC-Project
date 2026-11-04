@@ -48,16 +48,15 @@ relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too
 modern_rendering: >-
-  Time would fail me if I attempted to recount the unwritten mysteries of the church. I'll
-  say nothing of the rest. But of the very confession of our faith in Father, Son, and Holy
-  Spirit -- what is the written source? Suppose it is granted that, just as we are
-  baptized, so too under the obligation to believe, we make our confession in the same
-  terms as our baptism. Suppose it is granted that this follows the tradition of our
-  baptism and conforms to the principles of true religion. Then let our opponents grant us
-  the same consistency in our ascription of glory as in our confession of faith. If they
-  object to our doxology on the ground that it lacks written authority, let them give us
-  the written evidence for the confession of our faith, and for the other matters we have
-  enumerated.
+  Time will fail me if I try to recount the unwritten mysteries of the Church. Of the
+  rest I say nothing. But of the very confession of our faith in Father, Son, and Holy
+  Spirit, what is the written source? Suppose this is granted: as we are baptized, so,
+  bound to believe, we confess in the same terms as our baptism. Suppose it is also
+  granted that we do this in keeping with the tradition of our baptism and the
+  principles of true religion. Then let our opponents grant us, too, the right to be as
+  consistent in giving glory as in confessing our faith. If they object to our doxology
+  because it lacks written authority, let them show us written evidence for our
+  confession of faith. And let them do the same for the other matters we have listed.
 use_note:
   means: "Basil, in On the Holy Spirit, challenges critics who demand written authority for his doxology to produce written authority for the baptismal confession itself."
   not_for:
