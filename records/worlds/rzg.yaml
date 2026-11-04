@@ -35,8 +35,8 @@ thinness_statement: "Richest in confessional and doctrinal content: Calvin's Ins
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:e4cea186f8c89db0677a9a22a03b5960bef55632f0e9a8a6ae65d9e45d8de1de"
-  location: "packages/rzg/2026-11-04T00-18-27Z"
+  manifest_hash: "sha256:cef4a1f0bd4b9372ed9d30397f80d960ff688d426ef484a4e6db4f7783468b2a"
+  location: "packages/rzg/2026-11-04T00-44-04Z"
 story_placement: false
 card:
   portrait: "assets/portraits/theophilus.jpg"

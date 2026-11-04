@@ -85,7 +85,7 @@ text: >-
   them, were known by the name of monks. They had received that way of life from the Evangelist Mark.
   They kept the pattern of the first believers in Jerusalem: one heart and one soul, all things held
   in common. They withdrew outside the cities to a life of such abstinence that even unbelievers
-  marvelled. At that time the primitive Church's perfection still stood whole, and the few who held
+  marveled. At that time the primitive Church's perfection still stood whole, and the few who held
   the faith had not yet grown lukewarm by being spread thin among the many. So the elder fathers met,
   with careful concern for those who would come after them, to settle a plan for the daily worship of
   the whole community.
