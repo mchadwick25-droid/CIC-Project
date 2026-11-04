@@ -53,13 +53,13 @@ relations:
 modern_rendering: >-
   Among us, the people go to the house of prayer at night. In distress, affliction, and
   continual tears, they make confession to God. At last they rise from their prayers and
-  begin to sing psalms. Then, divided into two parts, they sing antiphonally with one
-  another. This confirms their study of the Gospels, and at the same time produces in them
-  a heedful temper and a heart free from distraction. Afterwards, one again begins the
-  strain, and the rest take it up. So, after passing the night in various psalmody,
-  praying at intervals as the day begins to dawn, all together, as with one voice and one
-  heart, raise the psalm of confession to the Lord. Each one forms his own expressions of
-  penitence.
+  begin to sing psalms. Then they divide into two parts and sing antiphonally with one
+  another. In this way they strengthen their study of the Gospels. At the same time,
+  they produce in themselves an attentive mind and a heart free from distraction.
+  Afterwards they again hand the opening of the chant to one person, and the rest take
+  it up. So they pass the night in varied psalmody, praying at intervals. As the day
+  begins to dawn, all of them together, as with one voice and one heart, raise the psalm
+  of confession to the Lord. Each one shapes his own words of penitence for himself.
 use_note:
   means: "Basil, defending his church to the clergy of Neocaesarea, describes all-night vigils of confession and antiphonal psalm-singing that he says steady the heart."
   not_for:

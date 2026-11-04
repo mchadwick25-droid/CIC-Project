@@ -7393,3 +7393,12 @@ If any condition fails, the amount stays unspent.
 The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No call failed, and no cap was reached.
 
 **Files.** The run records, summaries, printed settings and ledger are in `Build/Ministry/Features/V7-Controlled-Test/Runs/main/`.
+
+## 2026-11-04 - Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering (project lead)
+
+The `modern_rendering` of `cappadocian.quote.gregory-nyssa-on-becoming-god` reached the cap at its third review file, `Rendering_Review_Cappadocian_Round3_2026-11-04.md`. Two of the edition's grounding "For"s were still missing. The project lead ruled twice, both relayed by the coordination thread.
+
+1. "yes ... fourth read": one targeted read by a fresh independent Opus reader of the corrected sentences. That read is `Rendering_Review_Cappadocian_Round4_2026-11-04.md`. It passed the restored "For who, surveying the universe…". It failed the second sentence, which had dropped the edition's "although".
+2. "Fifth read of that sentence": one more fresh reader, on the fourth reader's wording of that sentence only. That read is `Rendering_Review_Cappadocian_Round5_2026-11-04.md`. It passed "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The record now carries it.
+
+These two reads are the only reviews this ruling covers for cappadocian.
