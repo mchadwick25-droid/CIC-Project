@@ -63,6 +63,32 @@ use_note:
     - "citing the synodal documents, which are lost"
   years: {from: 231, to: 234}
   status: reviewed
+reading_card:
+  setting: Eusebius, Church History VI, on why Origen left Alexandria.
+  source_says: Palestinian bishops ordained Origen presbyter; Demetrius attacked him. About 231 Origen
+    moved to Caesarea, leaving the school to Heraclas.
+  historians_conclude:
+    text: The construction record treats the conflict as well attested, its particulars as Eusebius-shaped;
+      McGiffert names irregular ordination and heterodoxy.
+    confidence: Widely Accepted
+  contributes: It shows the teacher-bishop tension breaking open.
+  whose_view: Eusebius admired Origen; Demetrius's side is not preserved.
+  open: Both men's motives are unrecoverable, and the synod documents are lost.
+  reads_differently_today: Not a persecuted genius against a jealous institution, nor a rogue teacher
+    reined in. Both authorities were real, and the wound was real on both sides.
+  complicated_by:
+  - alx.quote.demetrius-accused-him-bitterly
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VI.8, VI.23, VI.26
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.8.4 and VI.26, npnf201 lines 33218-33224,
+      36325-36335
+    historians_conclude: Build/worlds/alx/Doc_08_Forces_Document.md 3B-1; McGiffert, Note 16 'Origen and
+      Demetrius', npnf201 lines 52014-52060
+    contributes: alx.gravity.teacher-bishop-tension; alx.gravity.learning-formation; alx.force.origen-demetrius-conflict
+    whose_view: alx.story.origen-demetrius, absent_detail
+    open: alx.story.origen-demetrius, absent_detail; Build/worlds/alx/Doc_05_Ecological_Reconstruction.md
+      §4 construction note
+    reads_differently_today: alx.story.origen-demetrius, modern_contrast
 ---
 Serves F6-I (the hardest true thing about your people / what they never
 settled) and F3-I (who held authority - the tension made visible). The

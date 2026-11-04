@@ -153,7 +153,7 @@ precedent's own floor, and Doc_06 section 3 found no [CT] content for any of the
 
 Sourcing honesty. Every Cassian locus was read in full at Doc_05 (Inst. XII.9-33) and verified at Doc_06
 (Conf. XIII throughout), not re-read here, hence verified-via-authority at B. Augustine is cited as
-context only, labeled so in its locus, per the Registry's licence for rows 14-16; Salvian (row 43) is
+context only, labeled so in its locus, per the Registry's license for rows 14-16; Salvian (row 43) is
 not licensed for this question and is not cited; Augustine beyond rows 14-16 (row 35) is Excluded.
 Chadwick, Casiday, and Contra Collatorem carry named-not-rechecked on their own records and are cited
 at thesis level only, as the term records already do. canon_cells left empty, matching this world's

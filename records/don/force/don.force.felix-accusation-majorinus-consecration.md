@@ -81,7 +81,7 @@ description: >-
   on principle, to grant the state authority over it. Yet it also turned to that state for help.
 
   Here, at the very founding of that refusal, the movement was already turning to the imperial
-  machinery. It would spend the rest of its history refusing to recognise that machinery as having
+  machinery. It would spend the rest of its history refusing to recognize that machinery as having
   any standing over it.
 manifestations:
 - the accusation that Felix of Aptungi, consecrator of Caecilian, was a traditor
@@ -108,7 +108,7 @@ arising at the founding-dispute moment itself'. Reciprocal enabled-by declared o
 record. NOT CARRIED, PER DOC_08'S OWN DISAMBIGUATION: no link to G2 rebaptism. Doc_08 SS5's G2 entry
 states it explicitly - the Cyprianic inheritance is G2's ground, 'not 1B-2, which grounds G4's own
 institutional form rather than G2's own enacted rite directly'. The temptation to link a founding
-rupture to the rite it produces is exactly what that sentence forecloses, and this record honours
+rupture to the rite it produces is exactly what that sentence forecloses, and this record honors
 the foreclosure. TWO CAUTIONS FROM THE WORLD_CORE KEPT IN VIEW: the doubled 311/312 date is carried
 as doubled, not resolved; and the Optatus who was Donatist bishop of Thamugadi is a different person
 from Optatus of Milevis, the Catholic polemicist whose narrative this force largely reaches us

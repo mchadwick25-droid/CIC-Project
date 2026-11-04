@@ -50,6 +50,30 @@ use_note:
     - "evidence for the school at Alexandria, when Gregory studied under Origen at Caesarea"
   years: {from: 238, to: 238}
   status: reviewed
+reading_card:
+  setting: Gregory, a law student from Pontus, in his farewell thanks to Origen at Caesarea, usually dated
+    c. 238.
+  source_says: Origen held there is no true piety without philosophy, and won him by argument and friendship.
+    Gregory gave up law, homeland and friends.
+  historians_conclude:
+    text: The construction record reads the Address as the best witness to the teacher-student bond; its
+      praise idealizes but does not invent.
+    confidence: Widely Accepted
+  contributes: It shows love of the Word kindled through love of a teacher.
+  whose_view: One gifted pupil's praise, at Caesarea, not the ordinary student's experience.
+  open: Nautin disputed its authorship and date. This formation weakened after Origen's rupture.
+  reads_differently_today: 'Little modern-lens risk: a spark and a kindled flame for a sudden love of
+    learning still read plainly.'
+  sources:
+    setting: alx.source.gregory-address-to-origen, work field; anf06 editor's introduction, lines 631-632
+    source_says: alx.source.gregory-address-to-origen, Address VI, anf06 lines 2985-3025
+    historians_conclude: Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Gregory) and §5 item 1
+    contributes: alx.gravity.learning-formation; alx.term.didaskalos
+    whose_view: Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (one gifted pupil); alx.quote.gregory-spark,
+      use_note.not_for
+    open: alx.source.gregory-address-to-origen, confidence.divergence_note; alx.gravity.learning-formation,
+      description
+    reads_differently_today: alx.quote.gregory-spark, modern_lens_note
 ---
 The one first-person account of what this formation FELT like from
 inside: love of the Word kindled through the love of a teacher. Serves

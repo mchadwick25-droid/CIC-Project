@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Inferential-Thin
   divergence_note: 'This work is NOT within the vendored npnf207 edition -- only a single
-    Prolegomena catalogue mention exists, not the oration''s own text (Source_Registry.md row 32).
+    Prolegomena catalog mention exists, not the oration''s own text (Source_Registry.md row 32).
     It is held only as unchecked Greek OCR in the Migne volume, so this is not a verified citation.'
 sources: []
 relations: []

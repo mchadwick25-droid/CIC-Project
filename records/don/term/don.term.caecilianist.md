@@ -50,7 +50,7 @@ senses:
   informational: 'The counter-name to ''Donatist''. Naming the rival hierarchy after Caecilian ties it back to
     the consecration held to be defective, and withholds from it the unqualified titles ''Catholic'' and ''the
     Church''. It is a boundary act rather than a description, and it answers a legal fact: the state consistently
-    recognised the rival as the catholic church.'
+    recognized the rival as the catholic church.'
   evidential: Thinly evidenced in this build. The construction documents assert the naming practice without citing
     a vendored passage that shows it in use, and no chunk was produced. Treat as Widely Accepted background rather
     than as a checked citation, and say so if asked.

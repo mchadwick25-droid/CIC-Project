@@ -19,7 +19,7 @@ relations:
 use_note:
   means: "A libellus said you had made the pagan offering; some bought one without making it, and Cyprian still held them fallen."
   not_for:
-    - "a claim that it was a modern identity document or licence"
+    - "a claim that it was a modern identity document or license"
     - "a claim that the Latin word appears in the English volume, which renders it certificates"
     - "a claim that Latin libellus names only this paper"
   years: {from: 246, to: 258}
@@ -55,7 +55,7 @@ retrieval:
   prefer_instead:
   - the participant is asking about the category of persons rather than the document itself -- ask about
     the lapsed instead
-  - 'also: this corpus uses the bare word certificate for two different documents travelling in opposite
+  - 'also: this corpus uses the bare word certificate for two different documents traveling in opposite
     directions -- this is the one the empire issued, which made a person lapsed'
   - the confessors' own letter of peace, which asks the church to take a person back, is a separate term
     (certificates) and a participant asking simply what a certificate was should be pointed to both
@@ -65,7 +65,7 @@ plain_meaning: 'Rome ordered a sacrifice. Some people paid for a paper saying th
 world_word: libelli
 distortion_risk: low
 false_friend:
-- a formal identity document or licence, in the modern administrative sense
+- a formal identity document or license, in the modern administrative sense
 senses:
   informational: 'The empire asked for a sacrifice, and then wrote down that one had been made. A demand
     satisfied with money rather than incense produced a class of people who had not, in their own minds,
@@ -76,10 +76,10 @@ senses:
     their conscience with certificates, and in his letter to Antonianus he writes of those who receive
     certificates and sets them beside those who sacrificed. The English calls it a certificate. The Latin
     word is libellus.
-  translational: A modern listener may picture a formal identity document or licence. We mean a compliance
+  translational: A modern listener may picture a formal identity document or license. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.
-  heard_today: A modern listener may picture a formal identity document or licence.
+  heard_today: A modern listener may picture a formal identity document or license.
   meant_here: We mean a compliance record produced by an empire-wide administrative demand, whose existence
     is exactly what made failure documentary and public rather than private.
 quick_meaning: The libelli were papers saying a person had sacrificed. Some people bought one and never

@@ -89,7 +89,7 @@ senses:
     XXIV title). One proof-text, two ecologies; the ecclesial reading is Vincent's alone.
   personal: >-
     A great teacher's fall is not a scandal to be explained away but a test set for us. That is
-    how Vincent can honour Origen and refuse him in one breath - and how a monk can be told that
+    how Vincent can honor Origen and refuse him in one breath - and how a monk can be told that
     God let the assault come so that his love could be proved.
   translational: >-
     A modern hearer may take "trial" as misfortune, "temptation" as enticement, or a fallen teacher

@@ -72,7 +72,7 @@ senses:
     Attested in Salvian alone (Gov. I.2, V.10, VIII.4, in Sanford's English), an outsider to the
     cell speaking of us to lapsed Romans.
   personal: >-
-    What the cell calls a monk, the city calls a religious. It is how a neighbour named us, and it
+    What the cell calls a monk, the city calls a religious. It is how a neighbor named us, and it
     names the lapsed among us as readily as the faithful.
   translational: >-
     Not "religious" as a compliment about inner devotion, but a social class-noun for a whole
@@ -95,7 +95,7 @@ use_note:
 Built from Doc_06 entry 071 (`galliclex071_the-religious.md`, Tier 3, tags SC RT DR; Doc_03
 1.13). Kept thin at the Tier-3 floor; the DR tag (the adjective-of-piety hearing) is carried as
 the single false_friend and distortion_risk: medium. canon_cells: F5-P because Salvian's
-description - unesteemed, fleeing honours, delighting in poverty - is the one outsider's account
+description - unesteemed, fleeing honors, delighting in poverty - is the one outsider's account
 of what belonging cost in standing.
 
 Related-Terms also names monk / solitary, conversion, lukewarmness, the world / secular,

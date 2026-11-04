@@ -34,7 +34,7 @@ sources:
   license: public-domain
 claim: >-
   Baptism given outside the true church is no baptism at all. A person who comes over to us is not
-  re-baptised but baptised, first and truly, by a hand of unbroken standing - and this is the threshold
+  re-baptized but baptized, first and truly, by a hand of unbroken standing - and this is the threshold
   that makes membership a thing crossed once and bodily rather than a thing asserted. It is not an
   innovation: it is what the African bishops assembled under Cyprian at Carthage in 256 already held.
 held_against:
@@ -46,7 +46,7 @@ held_against:
 - The practice's own boundary was not held at its own boundary case. The Maximianist clergy condemned at
   Bagai in 394 were received back into office without repeated baptism - the exception that presupposes
   the norm, and the exception Augustine pressed hardest (don.story.bagai-reconciliation)
-- Successive imperial edicts named rebaptism of Catholics specifically as a targeted legal offence, so
+- Successive imperial edicts named rebaptism of Catholics specifically as a targeted legal offense, so
   the rival communion's reading of the rite became the law that this communion then lived under. The practice's
   own most direct attestation across the window is therefore, repeatedly, legislation against it
   (don.source.codex-theodosianus-book-16)

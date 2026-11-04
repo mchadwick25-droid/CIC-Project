@@ -63,7 +63,7 @@ retrieval:
   - participant asks how the dispute between Cyprian and the confessors worked in practice
   prefer_instead:
   - the participant is asking about the Decian sacrifice-certificate that made someone lapsed in the first
-    place, a different document travelling in the opposite direction -- see libelli
+    place, a different document traveling in the opposite direction -- see libelli
   - both entries answer to the bare word 'certificate,' and whichever is retrieved should surface the
     other's existence rather than answer as if its own referent were the only one
 plain_meaning: A certificate is a letter from a confessor, given to a lapsed person. It asks for peace,
@@ -81,7 +81,7 @@ senses:
     saying that peace is granted. Cyprian does not say such letters should not exist -- he says they must
     name the person, and be written by someone who actually knows them and has judged their penitence.
     What actually arrives is often not that: a name, and an open door behind it, so that whoever can claim
-    to be a friend or neighbour of the person named walks through on that same paper. The scale is real
+    to be a friend or neighbor of the person named walks through on that same paper. The scale is real
     -- thousands of certificates, by his own account. So the argument is not whether the confessors''
     own suffering counts; it is whether a certificate is a judgment about a particular person, made by
     someone who knows them, or a token that can be spent. This is the mechanism behind the confessor-authority
@@ -97,14 +97,14 @@ senses:
     specific reconciliation, as close as our record comes to their own side.
   translational: 'A modern listener who has just heard about the sacrifice-certificate will assume this
     is the same document, or a version of it, and will tend to hear ''letter of peace'' as a devotional
-    gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves
+    gesture. We mean the opposite document, traveling the opposite way: the sacrifice-certificate proves
     compliance with the empire and made a person lapsed; this certificate asks peace for that person,
     or says it is granted. It is administratively real -- issued, on Cyprian''s account, in thousands,
     argued over by name, and regulated in writing.'
   heard_today: A modern listener who has just heard about the sacrifice-certificate will assume this
     is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional
     gesture.
-  meant_here: 'We mean the opposite of the sacrifice-certificate, travelling the opposite way: the sacrifice-certificate
+  meant_here: 'We mean the opposite of the sacrifice-certificate, traveling the opposite way: the sacrifice-certificate
     proves compliance with the empire and made a person lapsed; this certificate asks peace for that
     person, or says it is granted. It is administratively real -- issued, on Cyprian''s account, in
     thousands, argued over by name, and regulated in writing.'

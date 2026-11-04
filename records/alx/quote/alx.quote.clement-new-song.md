@@ -48,6 +48,29 @@ use_note:
     - "this world's fuller account of who Jesus is, which sits in alx.dw.jesus"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement opens his Exhortation to the Heathen, written to Greeks outside the church.
+  source_says: Orpheus and the old singers lured people to idols. Christ, the new song, tames human beasts
+    and tunes the universe.
+  historians_conclude:
+    text: The construction record treats the Logos as this world's one centre; Origen's Logos cosmology
+      is a reconstruction.
+    confidence: Widely Accepted
+  contributes: It shows Christ as the Word who remakes people and orders creation.
+  whose_view: Clement's rhetoric for outsiders. The Logos centre is shared, but only the literate attest
+    it.
+  open: The attack on the old poets is polemic; this world defined itself partly by refusal.
+  reads_differently_today: '''Men out of stones, men out of beasts'' answers the Orpheus myth. His music
+    only charmed stones and beasts; Christ''s song changes what they are.'
+  sources:
+    setting: alx.source.clement-protrepticus, work field (Exhortation to the Heathen)
+    source_says: alx.source.clement-protrepticus, Protrepticus I, anf02 lines 15168-15220
+    historians_conclude: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C4: function Widely Accepted;
+      cosmology DMR); alx.gravity.logos-unity body'
+    contributes: alx.gravity.logos-unity; alx.term.logos
+    whose_view: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C4: literate-attested)'
+    open: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §6.4 (Boundary Ecology)
+    reads_differently_today: alx.quote.clement-new-song, modern_lens_note
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

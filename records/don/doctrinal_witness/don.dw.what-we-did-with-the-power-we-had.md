@@ -16,7 +16,7 @@ confidence:
     The two hardest admissions here are the best documented things in the whole corpus, which is the point:
     the Gesta apud Zenophilum reads our own bishops' letters into a court record telling each other to
     keep an accusation quiet because it was true, and Augustine quotes the Bagai reception and the bishop
-    who enforced it repeatedly, because both damaged us. Neither is a hostile characterisation that could
+    who enforced it repeatedly, because both damaged us. Neither is a hostile characterization that could
     be discounted; both are documents. What is NOT documented is the reasoning on our side for any of
     it, and the record says so. The temples question is refused: we never held that kind of power, and
     nothing in this compilation records what we did where we were locally dominant. One
@@ -115,7 +115,7 @@ text: >-
 positions:
 - our founding generation is documented, in a court transcript, advising each other in writing to keep
   an accusation quiet because it was true
-- we used force and imperial law against fellow Christians who broke from us. Troops that came with a bishop enforced the Bagai reconciliation. Laws against heretics were used against our own dissidents. No defence of this from our own side survives
+- we used force and imperial law against fellow Christians who broke from us. Troops that came with a bishop enforced the Bagai reconciliation. Laws against heretics were used against our own dissidents. No defense of this from our own side survives
 - 'none of this was concealed: it stands in our own conciliar record and in the same texts that state our
   doctrine at its most absolute'
 - a bread boycott ordered by a leader of ours reached an ordinary baker and, through him, a Catholic
@@ -145,14 +145,14 @@ use_note:
 Closes F3-P. All three variants are engaged and the answers deliberately
 run in different directions: accountability is admitted with a document
 (`don.story.gesta-apud-zenophilum`), the use of power against dissenting
-Christians is admitted without defence
+Christians is admitted without defense
 (`don.story.bagai-reconciliation`, `don.term.refusal-of-imperial-legitimacy`),
 and the temples variant is refused because this communion never held that
 power.
 
 The Circumcellion paragraph holds `don.core.donatism`'s caution 4 split
 exactly: existence independently attested by imperial legislation,
-characterisation shaped by polemic, and the two never merged in either
+characterization shaped by polemic, and the two never merged in either
 direction.
 
 This is one of only two cells (with F6-I) where the strongest available
@@ -173,6 +173,6 @@ declines to build into any story chunk, naming it "a genuinely live Article 23 q
 own scope should not resolve casually." Building that material into a Tier-1, retrieval-enabled
 doctrinal_witness record would resolve that open question in passing, without naming it, so it is left
 out here. This record also does not use the Theodosian legislation to corroborate Optatus's own
-characterisation of the Circumcellions - exactly the merger `don.core.donatism` caution 4 forbids, and
+characterization of the Circumcellions - exactly the merger `don.core.donatism` caution 4 forbids, and
 in any case the officer who acted, per Optatus's own text, was Taurinus on the Donatist bishops' own
 letter, not the later imperial anti-Circumcellion law.

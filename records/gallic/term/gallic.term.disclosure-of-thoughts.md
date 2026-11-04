@@ -85,7 +85,7 @@ senses:
     carries it is Serapion's: a boy who stole a biscuit a day, hearing an old man speak after supper
     "about ... the dominion of secret thoughts," pulls it from his dress and confesses, and the old man
     answers, "Without any words of mine, your confession frees you from this slavery." The danger on
-    the other side is a harsh elder who shames the one who discloses - which is why not every grey
+    the other side is a harsh elder who shames the one who discloses - which is why not every gray
     head is fit to hear.
   evidential: >-
     Cassian only (Institutes IV.9, IV.37; Conferences II.10-13), Egyptian coenobitic practice by his

@@ -53,7 +53,7 @@ use_note:
   means: "Sulpitius reports in the Sacred History that Martin argued expulsion was punishment enough for the condemned heretics and that a secular ruler should not judge a church cause."
   not_for:
     - "Martin's own direct words, when Sulpitius gives them in indirect speech"
-    - "a defence of the accused as innocent of heresy"
+    - "a defense of the accused as innocent of heresy"
     - "a separate witness from gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause, which carries the same sentence"
     - "Martin's later petition at the palace, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
   years: {from: 397, to: 406}

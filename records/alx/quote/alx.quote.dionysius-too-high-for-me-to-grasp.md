@@ -51,6 +51,31 @@ use_note:
     - "the full treatise On Promises, which is lost and known only through Eusebius's selection"
   years: {from: 248, to: 264}
   status: reviewed
+reading_card:
+  setting: Dionysius, in On the Promises, on the Revelation of John; Eusebius quotes it.
+  source_says: Some earlier writers rejected the book. Dionysius will not, since many brethren value it,
+    and suspects a deeper meaning.
+  historians_conclude:
+    text: 'McGiffert argues his doubts came from doctrine: the book''s earthly hopes offended Alexandrian
+      spiritual reading.'
+    confidence: Inferential-Thin
+  contributes: It shows a book's standing resting on the churches' reading.
+  whose_view: A bishop deferring to his people's esteem, against earlier critics.
+  open: Next he argues from style that its John was not the apostle. The treatise is lost.
+  reads_differently_today: He argues from style that the Gospel's author did not write it, yet will not
+    let that decide its keeping. He separates 'who wrote this' from 'may we keep it'.
+  complicated_by:
+  - alx.quote.athanasius-fountains
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VII.24.3 and VII.25.1, npnf201 lines 41300-41305,
+      41386-41390
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.25.1-5, npnf201 lines 41388-41430
+    historians_conclude: McGiffert's note to HE III.24.18, npnf201 lines 17713-17745
+    contributes: alx.gravity.scripture-formative; alx.force.scripture-ongoing
+    whose_view: alx.source.eusebius-historia-ecclesiastica, HE VII.25.1-4, npnf201 lines 41390-41420
+    open: alx.source.eusebius-historia-ecclesiastica, HE VII.25.6-8, npnf201 lines 41431-41460; alx.quote.dionysius-too-high-for-me-to-grasp,
+      use_note.not_for (treatise lost)
+    reads_differently_today: alx.quote.dionysius-too-high-for-me-to-grasp, modern_lens_note
 ---
 Opened for F2-E, served by alx.dw.record alone, which cites VII.25 for "Dionysius weighed
 the Apocalypse's authorship by style, like a critic" and could not show it.

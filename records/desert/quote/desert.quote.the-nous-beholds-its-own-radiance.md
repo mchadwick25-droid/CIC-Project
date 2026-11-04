@@ -19,11 +19,11 @@ sources:
   license: cc-by-4.0
 text: "The proof of apatheia is that the nous begins to behold its [own] proper gentle radiance; that it remains tranquil in the presence of visions during sleep; and that it looks at matters calmly."
 modern_rendering: >-
-  The proof of apatheia is this: the nous begins to see its own gentle radiance. It
-  stays calm in the presence of visions during sleep. And it looks at events calmly.
+  The proof of apatheia is this: the nous begins to see the gentle radiance that belongs to it. It
+  stays tranquil in the presence of visions during sleep. And it looks at matters calmly.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
-modern_lens_note: "A test, not a promise. Evagrius gives three checkable signs - the mind's own light, calm in dreams, calm before events - because the state is easy to claim and hard to have. Dreams as diagnostic of the waking soul is his own idea and recurs at ch. 56."
+modern_lens_note: "A test, not a promise. Evagrius gives three checkable signs - the mind's own light, calm in dreams, calm before matters - because the state is easy to claim and hard to have. Dreams as diagnostic of the waking soul is his own idea and recurs at ch. 56."
 retrieval:
   tier: 2
   retrieve_when:
@@ -36,7 +36,7 @@ relations:
 - type: associated-with
   target: desert.term.nepsis
 use_note:
-  means: "Evagrius's Praktikos gives three signs of apatheia: the nous seeing its own gentle radiance, calm before dream visions, and calm toward events."
+  means: "Evagrius's Praktikos gives three signs of apatheia: the nous seeing its own gentle radiance, calm before dream visions, and calm toward matters."
   not_for:
     - "the signs as a promise rather than a test against easy claims"
     - "the Macarian soul lit by Another, which is carried by desert.quote.the-soul-becomes-all-eye"

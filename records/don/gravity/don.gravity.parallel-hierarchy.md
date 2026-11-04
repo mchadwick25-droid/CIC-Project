@@ -16,7 +16,7 @@ confidence:
     contested the same sees - is Documented to an unusually high degree even by this world's hostile-source
     standards: Optatus, Augustine, and the imperial and conciliar record all agree it happened, down to precise
     bishop counts at the 411 Conference (279 Donatist against 286 Catholic). What remains hostile-mediated is INDIVIDUAL BISHOPS' OWN CONDUCT AND MOTIVES -
-    Optatus Gildonianus's characterisation is Doc_04's own example - and the two must not be merged. The institutional
+    Optatus Gildonianus's characterization is Doc_04's own example - and the two must not be merged. The institutional
     fact itself carries no comparable Author Gravity risk. Separately, and disclosed rather than smoothed:
     this record's confidence about the hierarchy's institutional continuity ends precisely where the vendored
     record does, not where the movement itself actually ended (Doc_08 Force 3B-1; Doc_01 SS7 item 8).
@@ -61,7 +61,7 @@ relations:
 name: The parallel institutional hierarchy [SUPPORTING - integrating/institutional center]
 classification: supporting
 description: >-
-  This is a supporting pattern, and it is the institutional centre that holds this world together.
+  This is a supporting pattern, and it is the institutional center that holds this world together.
   Two complete rival churches stood side by side. Each had its own bishops, basilicas, councils
   and line of ordination. They fought over the same sees, town by town, across Africa
   Proconsularis, Numidia, Byzacena and Mauretania.
@@ -89,7 +89,7 @@ description: >-
   patterns already supply.
 
   This pattern explains exactly how the Maximianist affair worked, with rival
-  councils and rival consecrations. It explains why imperial laws targeted an organised rival
+  councils and rival consecrations. It explains why imperial laws targeted an organized rival
   clergy and its property. And it explains the exact bishop counts in the 411 Conference's own
   record.
 
@@ -137,7 +137,7 @@ manifestations:
   Augustine's own text
 - 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage
 - the property and basilica disputes that presuppose two complete rival institutional claimants
-- imperial legislation targeting an organised rival clergy and its property specifically
+- imperial legislation targeting an organized rival clergy and its property specifically
 use_note:
   means: "Two complete rival churches, each with bishops, basilicas, councils and an ordination line, contested the same sees, a supporting institutional container that forms people only through the central patterns it holds."
   not_for:

@@ -44,7 +44,7 @@ modern_lens_note: >-
   from the faith, and silently in the heart when it does not. The work
   itself is not a break from prayer or a lesser interval between real
   devotions - it is named alongside the tools used and the trade
-  practised as itself something to give thanks for and to aim at
+  practiced as itself something to give thanks for and to aim at
   pleasing God, the same "hands busy both ways" this world's own account
   of an ordinary day already claims of it.
 retrieval:

@@ -104,7 +104,7 @@ chapter's own complete, self-contained argument, running lines
 purpose, that human nature "might by this transfusion of the Divine
 become itself divine."
 
-This is the same Great Catechism this world's own catalogued source
+This is the same Great Catechism this world's own cataloged source
 record already covers (cappadocian.source.gregory-nyssa-catechetical-
 oration: "This world's most systematic catechesis"), not the Soul-and-
 Resurrection dialogue vendored earlier in the same file. That dialogue

@@ -398,3 +398,50 @@ def test_a_waiver_on_a_clean_world_is_stale_and_fails(monkeypatch):
     monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "spoken-scaffolding/zzz": "owning finding"})
     report = regate.run_records("zzz")
     assert any(f.check == "stale-waiver" for f in report.findings)
+
+
+# A spelling-only change is not an edit for the readability gate: both texts are
+# compared after the British-to-American table, so converting a spelling in a field that already
+# fails stays "carried over"; any other difference, however small, is still graded.
+BRITISH_DENSE = DENSE.replace("authority", "authority and honour").replace("participants", "neighbours")
+AMERICAN_DENSE = DENSE.replace("authority", "authority and honor").replace("participants", "neighbors")
+
+
+def test_a_spelling_only_change_to_a_field_that_already_fails_stays_carried_over():
+    base = _world(_term("zzz.term.p", BRITISH_DENSE))
+    head = _world(_term("zzz.term.p", AMERICAN_DENSE))
+    findings, notes = regate.compare_world(head, base, {"records/zzz/term/zzz.term.p.md"})
+    assert findings == []
+    assert any("not a regression, already failed at the base and unchanged" in n for n in notes)
+
+
+def test_any_other_change_to_a_failing_field_is_still_graded_however_small():
+    base = _world(_term("zzz.term.p", BRITISH_DENSE))
+    head = _world(_term("zzz.term.p", AMERICAN_DENSE.replace("neighbors", "people")))
+    assert regate.compare_world(head, base, {"p"})[0] != []
+
+
+def test_a_field_with_both_a_spelling_change_and_a_real_edit_is_graded():
+    base = _world(_term("zzz.term.p", BRITISH_DENSE))
+    head = _world(_term("zzz.term.p", AMERICAN_DENSE + " It is also said again."))
+    assert regate.compare_world(head, base, {"p"})[0] != []
+
+
+def test_a_british_to_british_or_american_to_american_difference_is_a_real_edit():
+    base = _world(_term("zzz.term.p", BRITISH_DENSE))
+    head = _world(_term("zzz.term.p", BRITISH_DENSE.replace("honour", "favour")))
+    assert regate.compare_world(head, base, {"p"})[0] != []
+
+
+def test_a_spelling_change_to_a_field_that_passed_at_the_base_is_graded(monkeypatch):
+    real = regate.readability_failures
+    monkeypatch.setattr(
+        regate,
+        "readability_failures",
+        lambda item: ["over the limit"] if "theater" in item.text else real(item),
+    )
+    base = _world(_term("zzz.term.p", "The theatre stood by the road."))
+    head = _world(_term("zzz.term.p", "The theater stood by the road."))
+    findings, notes = regate.compare_world(head, base, {"p"})
+    assert [f.check for f in findings] == ["readability"]
+    assert not any("already failed at the base" in n for n in notes)

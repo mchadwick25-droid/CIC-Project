@@ -99,8 +99,18 @@ B changes what each offered item carries. It does not change which items are off
    - say whose view a source gives, and how widely it was shared, only as far as the card or record says.
 
    They add no citation rules. The net and every check after drafting are A's.
-7. **Budget.** The additions are capped at 8,000 characters (about 2,000 tokens). Context windows are dropped first.
+7. **Budget.** The additions are capped at 12,000 characters (about 3,000 tokens).
+   - Drop order: context windows go first, then card lines. Renderings, lens notes and `reads_differently_today` are always kept.
+   - Change order, 2026-11-03: the cap was 8,000. Measured on all 84 probes (dry runs, no model calls), the 8,000 cap left alx with only 9 of its 53 top-two windows once its cards were in, while pahc and syr kept most of theirs. B would then have meant "cards" in alx and "surrounding text" elsewhere.
+   - At 12,000, the windows kept are: alx 44 of 53 with cards (49 without), pahc 46 of 52, syr 42 of 52. The median additions are 10,571, 7,804 and 8,086 characters. The extra cost is about $0.003 per turn (§7).
 8. **A report-only signal.** A sentence speaking for the whole world ("we held", "our churches") whose only cited record has a single-author card is counted for the readers. Nothing is removed.
+
+**Where surrounding text cannot be found** (verified in dry runs): 4 of 34 stories have no window.
+- `pahc.story.pliny-interrogation`: Pliny's letters sit inside a translator's note.
+- `syr.story.choirs-tradition`: its source is not vendored.
+- `syr.story.edessa-flood-201` and `syr.story.jacob-nicaea`: their loci name no chapter.
+
+All 84 quotes resolve.
 
 **pahc and syr run B without cards.** Mark authorized cards for alx only. In those two worlds B adds items 2, 3, 4, 6 and 7, all built from existing material.
 
@@ -216,15 +226,15 @@ How the 28 probes per world bear on Mark's nine cases:
 
 | Part | Turns | Per turn (Hypothesis) | Total |
 |---|---|---|---|
-| Sample | 6 | $0.025–0.047 | $0.15–0.28 |
-| Main | 78 | $0.025–0.047 | $1.95–3.67 |
-| Repeat | 42 | $0.025–0.047 | $1.05–1.97 |
-| **Core run** | 126 | | **$3.15–5.92** |
+| Sample | 6 | $0.028–0.050 | $0.17–0.30 |
+| Main | 78 | $0.028–0.050 | $2.18–3.90 |
+| Repeat | 42 | $0.028–0.050 | $1.18–2.10 |
+| **Core run** | 126 | | **$3.53–6.30** |
 | Option: 15 hard-case questions, A and B | 30 | $0.018–0.047 | about $0.80 |
 
 How the per-turn figure is estimated:
 - The base is A's own cost: about $0.024 per answer in fleet graded run 1, inside the measured $0.018–0.040 (`../Answering-From-Sources/Stage1_Ledger.md:15`).
-- B adds up to 2,000 fresh input tokens at Sonnet 4.5's $3.00 per million, times the 1.10 Bedrock regional rate (`engine/m8/price_tables.py:27-33`, `:116`). That is at most $0.007 per turn.
+- B adds up to 3,000 fresh input tokens at Sonnet 4.5's $3.00 per million, times the 1.10 Bedrock regional rate (`engine/m8/price_tables.py:27-33`, `:116`). That is at most $0.010 per turn.
 
 **Stop rules**
 - After the sample, code scales its actual cost per turn to the remaining 120 turns. If the core run would pass $11, the repeat is cut to fit, and the coordination thread is told before any further call.

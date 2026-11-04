@@ -16,7 +16,7 @@ confidence:
     Answers one of this cell's two questions and declines the other. The reading described is documented
     in a single extended exchange - our own bishop's chain of verses at the 411 conference - and one exchange
     is a narrow base on which to describe a whole community's habit of reading, so the record says that
-    rather than generalising quietly. On the violence in the scriptures, nothing in this compilation records
+    rather than generalizing quietly. On the violence in the scriptures, nothing in this compilation records
     what we thought, and the record refuses rather than reaching for a plausible fourth-century answer
     from outside our own corpus.
 sources:
@@ -76,7 +76,7 @@ positions:
 - we read the scriptures for a visible test that could distinguish two rival churches holding the same
   creed, rather than for doctrine or for consolation
 - 'the mark we found and used was rejection: the true church is the one the world hates rather than the one it
-  favours, applied directly against a rival enjoying imperial protection'
+  favors, applied directly against a rival enjoying imperial protection'
 - a plain sentence functioning as a badge of identification, rather than a hidden meaning, is characteristic
   of how words worked among us
 tensions:

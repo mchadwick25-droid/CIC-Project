@@ -53,6 +53,31 @@ use_note:
     - "a claim that outside persecution, rather than his own bishop, drove Origen from Alexandria"
   years: {from: 231, to: 232}
   status: reviewed
+reading_card:
+  setting: Eusebius of Caesarea, writing decades later, on Bishop Demetrius and Origen.
+  source_says: Demetrius first praised Origen's youthful act. When Origen grew famous, he denounced it
+    to bishops everywhere and accused those who ordained him.
+  historians_conclude:
+    text: McGiffert says Eusebius and Jerome blame jealousy, perhaps too harshly; the synod's grounds
+      were irregular ordination and alleged heterodoxy.
+    confidence: Contested
+  contributes: It shows the teacher-bishop tension as a rupture inside the church.
+  whose_view: 'Eusebius admired Origen and disliked Demetrius''s memory: an outsider''s partisan account.'
+  open: Demetrius's side and the synod documents are lost; 'human weakness' is Eusebius's reading.
+  reads_differently_today: 'The failure is inside the church: its head turning on the teacher he promoted.
+    ''This deed of his boyhood'' is Origen''s self-castration, which Demetrius first praised.'
+  complicated_by:
+  - alx.story.origen-demetrius
+  sources:
+    setting: 'alx.source.eusebius-historia-ecclesiastica; Build/worlds/alx/Doc_02_Source_Ecology.md §3.6
+      (Eusebius: writes decades after Origen)'
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.8.3-5, npnf201 lines 33210-33233
+    historians_conclude: McGiffert, NPNF2 vol. 1, Note 16 'Origen and Demetrius', npnf201 lines 51969-52090;
+      Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §4 construction note
+    contributes: alx.gravity.teacher-bishop-tension; alx.force.origen-demetrius-conflict
+    whose_view: alx.story.origen-demetrius, absent_detail; Build/worlds/alx/Doc_02_Source_Ecology.md §3.6
+    open: alx.story.origen-demetrius, absent_detail; alx.quote.demetrius-accused-him-bitterly, use_note.not_for
+    reads_differently_today: alx.quote.demetrius-accused-him-bitterly, modern_lens_note
 ---
 Opened for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
 for its opening claim - the greatest teacher driven out by his own bishop - and could not show it.

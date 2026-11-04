@@ -110,7 +110,7 @@ manifestations:
 - the annual reading, every twelfth of March, of the Passio Donati at the martyrs' own grave (don.story.passio-donati-sermon)
 classification: primary
 use_note:
-  means: "Donatist identity centred on the martyrs, lived in graveside commemoration and carried by three Donatist-voiced texts and the Deo laudes stones, with the claim to legitimacy and the worship calendar drawing on it."
+  means: "Donatist identity centered on the martyrs, lived in graveside commemoration and carried by three Donatist-voiced texts and the Deo laudes stones, with the claim to legitimacy and the worship calendar drawing on it."
   not_for:
     - "a claim that this pattern reaches us only through Augustine or other hostile sources"
     - "a claim about the refusal of the state's authority as such, which the martyrs died for but which sits in don.gravity.refusal-of-imperial-legitimacy"

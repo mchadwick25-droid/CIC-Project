@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Doc_08 §3, §7 Force 2B-3: Documented for the external change itself. Carries a CONTESTED
     secondary element, named at Doc_08 §7 rather than only in its own summary: not the fact of the shift,
-    but its placement as an internal rather than external force, which follows Doc_01 §6''s own judgement
+    but its placement as an internal rather than external force, which follows Doc_01 §6''s own judgment
     and is stated here as that document''s rather than this one''s. Doc_04 §2 declined to advance this
     as its own candidate gravity, finding nothing in this ecology organizes around the shift itself --
     a classification finding, not a confidence divergence, carried here for completeness.'
@@ -34,7 +34,7 @@ description: >-
 
   The outside change itself is documented. One element is contested: not whether the shift happened,
   but whether its consequence belongs among the world's inner forces or its outside pressures. Placing
-  it as an inner force follows a judgement we made earlier, not a settled finding.
+  it as an inner force follows a judgment we made earlier, not a settled finding.
 
 
   The shift is the old condition of illegality turned upside down, the same fact appearing at both ends

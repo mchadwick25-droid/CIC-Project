@@ -46,6 +46,31 @@ use_note:
     - "Origen's scheme generalized as every Alexandrian reader's method"
   years: {from: 203, to: 254}
   status: reviewed
+reading_card:
+  setting: Origen, in the Philocalia's first chapter, the Greek text of On First Principles IV.
+  source_says: Scripture has flesh, soul and spirit. The plain sense builds up simple believers; deeper
+    senses serve the advanced.
+  historians_conclude:
+    text: The construction record holds Scripture read at depth as the main tool of formation for the
+      literate; its wider reach is open.
+    confidence: Widely Accepted
+  contributes: It shows each reader met at the level they can receive.
+  whose_view: Origen's scheme; his systematized method is his own, not every reader's.
+  open: Allegory was disputed in Egypt. Here Origen also blames Jewish and heretical errors on bare-letter
+    reading.
+  reads_differently_today: '''Body, soul and spirit'' is this world''s own three-level reading scheme,
+    echoing 1 Thessalonians 5:23, not the modern ''mind-body-spirit''.'
+  complicated_by:
+  - alx.contested.allegory-from-within
+  sources:
+    setting: alx.source.origen-philocalia, work field; Philocalia I, file line 76
+    source_says: alx.source.origen-philocalia, Philocalia I.11-13, file lines 76-78
+    historians_conclude: Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C1); alx.contested.ecology-wide-primacy
+    contributes: alx.gravity.scripture-formative; alx.term.interpretation
+    whose_view: alx.gravity.scripture-formative, body (systematized method Origen-concentrated); Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.1
+    open: alx.contested.allegory-from-within; Philocalia I.8-9, file lines 73-74
+    reads_differently_today: alx.quote.origen-scripture-senses, modern_lens_note
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

@@ -15,7 +15,7 @@ confidence:
   divergence_note: >-
     Three limits, all of them live. First, this is a claim Basil makes about his own
     orthodoxy while under attack for it: the passage's whole work in the letter is to
-    prove his faith by naming who taught it to him, so it is a defence, not a
+    prove his faith by naming who taught it to him, so it is a defense, not a
     disinterested memoir, and its warmth about his grandmother is doing argumentative
     work. Second, the chain it names reaches Gregory Thaumaturgus in the third century,
     not an eyewitness of Jesus; it is a short remembered lineage inside this world's own
@@ -23,7 +23,7 @@ confidence:
     than stopping at the grandmother: its second half cuts against part of the witness it
     sits under. C-E's own compiled position is that what reached this world was "an
     already-completed deposit... not a personally gathered testimony," and here Basil,
-    two clauses later, describes travelling over much sea and land and choosing his own
+    two clauses later, describes traveling over much sea and land and choosing his own
     fathers. Both halves are this world's own record. The cell now carries both, and the
     witness record carries the tension explicitly rather than resolving it by truncation.
 sources:
@@ -44,7 +44,7 @@ license: verbatim
 modern_lens_note: >-
   A modern reader is likely to hear the opening as a fond aside about a
   grandmother. In the letter it is an argument. Basil is answering a charge of
-  heterodoxy from the church of Neocaesarea, and his defence is genealogical: my
+  heterodoxy from the church of Neocaesarea, and his defense is genealogical: my
   faith is sound because of who handed it to me. "The blessed Gregory" is Gregory
   Thaumaturgus, the third-century missionary bishop of Neocaesarea - so Basil is
   telling his accusers that their own founder's teaching reached him through his
@@ -71,14 +71,14 @@ modern_rendering: >-
   She taught me the words of the blessed Gregory. She had kept them herself, as
   far as memory had carried them down to her own day. She shaped and formed me
   while I was still a child, in the teachings of true religion. Later, when I
-  came of age and could reason for myself, I travelled over much sea and land.
+  came of age and could reason for myself, I traveled over much sea and land.
   Wherever I found people walking by the rule of godliness that had been
   handed down, those I took for my fathers.
 use_note:
   means: "Basil's Letter CCIV to the Neocaesareans defends his orthodoxy by naming his grandmother Macrina, who taught him Gregory Thaumaturgus's words, then describes seeking out fathers himself."
   not_for:
     - "Macrina the Younger, Basil's sister, who is a different woman covered by cappadocian.figure.macrina"
-    - "a disinterested family memoir rather than a defence under accusation"
+    - "a disinterested family memoir rather than a defense under accusation"
     - "a chain of witnesses reaching back to Jesus, when it reaches only to Gregory Thaumaturgus"
     - "evidence that every believer received the faith as a finished deposit, a position cappadocian.dw.how-it-reached-us holds in tension with this letter"
   years: {from: 375, to: 375}

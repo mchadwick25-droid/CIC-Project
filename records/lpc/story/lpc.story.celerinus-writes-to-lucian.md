@@ -178,7 +178,7 @@ telling_long: 'Celerinus, who had confessed Christ, was one of our confessors at
   The clergy in charge had lately heard both cases and told the women to wait as they were until a new bishop was appointed.
 
 
-  Statius, Severianus and the other confessors who had come from Lucian joined the plea. The two women had met them at the harbour and brought them into the city. They had cared for sixty-five.
+  Statius, Severianus and the other confessors who had come from Lucian joined the plea. The two women had met them at the harbor and brought them into the city. They had cared for sixty-five.
 
 
   When Lucian answered from his prison, he said the letter had filled him with so much joy that it almost overcame him. Lucian had confessed trembling, before only the lesser magistrates. But when Celerinus confessed, Lucian said, his words had driven back the emperor himself.

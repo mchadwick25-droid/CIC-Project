@@ -1,7 +1,7 @@
 """The reading context behind the `reading_context` frame flag: off, the
 evidence block is today's byte for byte; on, the same records are offered,
 each carrying its rendering, card or lens note, and the top two quotes or
-stories their context windows, within the 8,000-character budget."""
+stories their context windows, within the 12,000-character budget."""
 import dataclasses
 
 import pytest
@@ -166,6 +166,8 @@ def _texts(tmp_path, records, ids):
 
 
 def test_the_cap_holds_dropping_context_first_then_cards_and_keeping_renderings(on, records, tmp_path, monkeypatch):
+    cap = reading_context.ADDITIONS_CAP
+    assert cap == 12000
     monkeypatch.setattr(reading_context, "TEXTS_ROOT", tmp_path)
     quotes = [rid for rid, r in records.items() if r["record_type"] == "quote"][:8]
     patched = _texts(tmp_path, records, quotes)
@@ -191,12 +193,14 @@ def test_the_cap_holds_dropping_context_first_then_cards_and_keeping_renderings(
     assert not bare.context and not bare.cards and list(bare.renderings) == quotes and list(bare.today) == quotes
     assert all(line == "  Reads differently today: Today the word sign sounds weaker than he meant." for line in bare.today.values())
 
-    full = plan(8000)
-    assert not full.context and 0 < len(full.cards) < len(quotes) and list(full.cards) == quotes[:len(full.cards)]
+    full = plan(cap)
+    assert full.chars() <= cap and list(full.renderings) == quotes and list(full.today) == quotes
+    assert list(full.cards) == quotes[:len(full.cards)] and list(full.context) == quotes[:len(full.context)]
+    assert not full.context or list(full.cards) == quotes
     today = m4_evidence.render_evidence_block(evidence)
     block = m4_evidence.render_evidence_block(evidence, world=world, reading=reading)
     assert len(block) - len(today) == full.chars() <= reading_context.ADDITIONS_CAP
-    assert "CONTEXT ctx." not in block
+    assert block.count("CONTEXT ctx.") == len(full.context)
 
 
 def test_context_goes_to_the_top_two_quotes_or_stories_only(on, records, tmp_path, monkeypatch):
@@ -257,3 +261,18 @@ def test_the_signal_counts_a_whole_world_sentence_bound_only_to_single_author_ca
 ])
 def test_the_single_author_marks_read_whose_view_prose(view, single):
     assert reading_context.single_author({"reading_card": {"whose_view": view}}) is single
+
+
+def test_a_trimmed_window_says_so_to_the_voice():
+    whole = {"id": "ctx.w.quote.a.1", "text": "some words", "trimmed": False}
+    cut = {**whole, "id": "ctx.w.quote.a.2", "trimmed": True}
+    plain, opening = reading_context.window_lines([whole, cut])
+    assert plain == fit_step.context_lines({"context": [whole]})[0]
+    assert opening.startswith("  CONTEXT ctx.w.quote.a.2, the opening of a longer passage (read to understand")
+    assert opening.endswith(": some words")
+
+
+@pytest.mark.parametrize("view", ["Alexandria's own practice.", "Christians' view in Egypt.", "Egypt's own custom.", "The Church's own ruling."])
+def test_a_place_or_group_possessive_is_not_single_author(view):
+    assert reading_context.single_author({"reading_card": {"whose_view": view}}) is False
+

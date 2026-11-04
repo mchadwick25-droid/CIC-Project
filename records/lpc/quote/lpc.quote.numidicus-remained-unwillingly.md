@@ -24,7 +24,7 @@ confidence:
   divergence_note: The text field is the ANF English as printed. Hartel prints remansit inuitus, 'remained
     unwillingly'; his apparatus records inuictus, 'unconquered', from one manuscript and the older printed
     editions, and the ANF gives it as a note. modern_rendering follows Hartel's text. 'Divine condescension'
-    renders dignatione diuina, God's gracious favour.
+    renders dignatione diuina, God's gracious favor.
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XXXIV (Oxford Ep. 40); English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
@@ -66,7 +66,7 @@ modern_lens_note: 'A modern listener may hear ''divine condescension'' as God ta
 modern_rendering: Dearest brothers, you must be told news that belongs both to our common joy and to the
   greatest glory of our Church. You should know that God, in His kindness, has warned and taught me to
   add Numidicus the presbyter to the presbyters of Carthage. He is to sit with us among the clergy. He
-  is a man made famous by the brightest light of confession, raised high in honour for virtue and for
+  is a man made famous by the brightest light of confession, raised high in honor for virtue and for
   faith. By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire.
   With joy he watched his wife, who stayed at his side, burned with the others. I should rather say she
   was preserved. He himself was half burned, buried under stones and left for dead. Afterwards his daughter,

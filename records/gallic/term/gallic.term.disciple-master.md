@@ -124,7 +124,7 @@ distortion_risk: medium
 use_note:
   means: "Disciple and master named the bond between a named man and those formed by watching him, as Martin's eighty, which Vincent turned on doctrine: the Catholic is a disciple."
   not_for:
-    - "a student and teacher of doctrine in the modern sense, or discipleship as a programme"
+    - "a student and teacher of doctrine in the modern sense, or discipleship as a program"
     - "the mechanism of imitation, seen or read, which sits in gallic.term.example-imitation"
     - "the senior's judgment of thoughts, which sits in gallic.term.elder-senior-abbot"
     - "a remark about this record's own coverage, sources or scholarly attribution"

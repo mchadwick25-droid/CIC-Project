@@ -200,6 +200,33 @@ def test_arm_b_without_a_reading_records_dir_exits_2_before_any_load(tmp_path, m
     assert not (tmp_path / "run.jsonl").exists()
 
 
+def _reading_dir(tmp_path, lens_notes):
+    """A records directory holding `lens_notes` of alx's quote records, each with only its id and a lens note."""
+    quotes = [rid for rid, r in m4_evidence.repository_records_by_id(_world().repository).items() if r.get("record_type") == "quote"]
+    root = tmp_path / "reading"
+    (root / WORLD / "quote").mkdir(parents=True)
+    for rid in quotes[:lens_notes]:
+        (root / WORLD / "quote" / f"{rid}.md").write_text(
+            f"---\nid: {rid}\nrecord_type: quote\nmodern_lens_note: It reads differently now.\n---\n", encoding="utf-8")
+    return root, len(quotes)
+
+
+def test_arm_b_with_an_empty_reading_mapping_exits_2_before_any_client(tmp_path, monkeypatch, capsys):
+    root, _ = _reading_dir(tmp_path, 0)
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "ledger.jsonl"))
+    assert v7.main(_argv(tmp_path, arm="b", reading_dir=root, extra=("--live-test", "v7-test", "--cap-usd", "1"))) == 2
+    assert "no reading cards or lens notes" in capsys.readouterr().err
+    assert not (tmp_path / "run.jsonl").exists()
+
+
+def test_arm_b_with_lens_notes_for_under_90_percent_of_quotes_exits_2_before_any_client(tmp_path, monkeypatch, capsys):
+    root, total = _reading_dir(tmp_path, 1)
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "ledger.jsonl"))
+    assert v7.main(_argv(tmp_path, arm="b", reading_dir=root, extra=("--live-test", "v7-test", "--cap-usd", "1"))) == 2
+    assert f"1 of {total}" in capsys.readouterr().err
+    assert not (tmp_path / "run.jsonl").exists()
+
+
 def test_arm_a_refuses_a_reading_records_dir(tmp_path):
     with pytest.raises(SystemExit) as refused:
         v7.main(_dry(tmp_path, extra=("--reading-records-dir", str(RECORDS_ROOT))))
