@@ -1383,8 +1383,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 1754 sits inside this file's own "## 12. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "PROTECTED"),
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
-    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
     # stopped matching. cic-website is now clean apart from one known
@@ -1446,10 +1444,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # tool cannot currently tell the two uses of "reviewer" apart. See the
     # PR body's precision limitation note (Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md and Build/reference/L4-Templates/*).
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
-    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
+    ("records/witt/source/witt.source.saxon-visitation-protocols.md", 25, "PROTECTED"),
+    ("records/witt/source/witt.source.scott-martin-luther-visionary-reformer.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.scribner-for-the-sake-of-simple-folk.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.susan-reformation-of-ritual-an-interpretation.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.thomas-luthers-jews-a-journey-into-anti.md", 24, "PROTECTED"),
     ("engine/BASELINES.md", 10, "REWRITE"),
     ("engine/BASELINES.md", 14, "REWRITE"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
