@@ -16,7 +16,7 @@ so its span is not matched either. A quote
 cited at two spans (an English edition and a Latin one) passes when its text
 is in any one of them.
 
-Every verbatim quote names its exact lines (Decision-Log 71): a verbatim quote
+Every verbatim quote names its exact lines: a verbatim quote
 whose locus names no machine-readable span fails, whatever its verification
 state, since an escalated quote's card still links to the lines it came from.
 `unchecked_quotes` lists them.
