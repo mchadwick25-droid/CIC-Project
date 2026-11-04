@@ -64,7 +64,7 @@ text: >-
   That is our reading in one exchange. We went to the text for a test of
   which of two visible churches was the true one, and we found the
   church described as the party the world hates rather than the party it
-  favours.
+  favors.
 
 
   We will not pretend that was a method. It was not. One man among us
@@ -92,7 +92,7 @@ positions:
   codices is the founding fact of our division rather than a background detail
 - 'our documented reading was combative and single-subject: we searched the text for a test of which of two
   visible churches was true, and read the church as the party the world hates rather than the party it
-  favours'
+  favors'
 - one systematic reader is attested among us. His seven rules survive. Leaders told him to stop
   preaching that the church spans the earth. No school of reading is attested
 - for most of us the scriptures and the martyr accounts arrived aloud, at a graveside, on a fixed anniversary,
@@ -118,7 +118,7 @@ use_note:
 Closes F2-I. All three variants are engaged and the middle one (which
 books counted as scripture) is refused outright, because no record in
 `records/don/` establishes an African canon list and importing one from a
-neighbouring world would be a fabrication in exactly the field a reader
+neighboring world would be a fabrication in exactly the field a reader
 trusts.
 
 The exegetical content is drawn entirely from

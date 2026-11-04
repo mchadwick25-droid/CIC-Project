@@ -84,7 +84,7 @@ senses:
     The visibility is not cruelty. A failure that happened in public cannot be undone in private, because
     the people who watched the failure are the same people who must receive the person afterwards. And
     the bishop holds it -- not because he is more forgiving than anyone else, but because peace granted
-    by whoever feels moved to grant it is a favour, not the church''s own peace. This is the operative
+    by whoever feels moved to grant it is a favor, not the church''s own peace. This is the operative
     half of our second founding gravity, the working end of the flock: what a shepherd actually does with
     a sheep that has failed. It presupposes the lapsed as its subject, and it generates our tension with
     the confessors, whose own claim to grant peace directly is what forced this whole process into existence.'

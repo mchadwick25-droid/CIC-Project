@@ -15,7 +15,7 @@ confidence:
     archive.org item lespassionsdesm00dele; title page, the Préface (dated 'fête de la Toussaint, 1920'),
     all six chapters, and the closing Table des Matières directly verified, confirming the volume is not
     truncated. The Manifest's own 'Subsidia Hagiographica 13b' series designation is flagged as unverifiable
-    from this scan -- no such statement appears anywhere in this item's own OCR text or catalogue metadata,
+    from this scan -- no such statement appears anywhere in this item's own OCR text or catalog metadata,
     nor in a second copy independently checked; carried as an open, disclosed gap rather than asserted
     with false confidence. Consultation-only content per cic/texts/INTAKE.md.
 sources: []

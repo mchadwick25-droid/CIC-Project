@@ -14,7 +14,7 @@ confidence:
   divergence_note: Two confirmed ABSENCES bound what this row licenses, and both were checked directly.
     (1) Law 16.5.52's own text is NOT quoted anywhere in this file -- this row does not license it; Mommsen
     and Meyer (Registry row 51) does. (2) The term agonistici does not appear here either; Boyd uses 'Circumcellions'
-    throughout. Separately, Doc_02 SS3 flags Boyd's own one-sentence characterisation of the group as
+    throughout. Separately, Doc_02 SS3 flags Boyd's own one-sentence characterization of the group as
     an uncritical restatement of Augustine's and Optatus's hostile framing -- NOT corroborating evidence
     of the group's character. Acquired as a stopgap while the critical edition remained unlocated; now
     supplemented rather than needed as a substitute.

@@ -20,7 +20,7 @@ confidence:
     authority to adjudicate ecclesial legitimacy, rather than an unconnected series of grievances, rests partly
     on Doc_04's own synthesis of Doc_01 SS5. It is corroborated by exactly one directly-quoted Donatist utterance
     - Donatus's reported retort Quid est imperatori cum ecclesia?, verified against optatus_against-the-donatists.txt,
-    Book III - which is a direct utterance attributed to a Donatist voice rather than a hostile characterisation
+    Book III - which is a direct utterance attributed to a Donatist voice rather than a hostile characterization
     of Donatist motives, but which reaches this record through Optatus's own hostile narrative frame, not
     through an unmediated Donatist-authored text.
 sources:

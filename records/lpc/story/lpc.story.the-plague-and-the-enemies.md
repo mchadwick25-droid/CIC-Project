@@ -70,7 +70,7 @@ text: 'Pontius, writing as a deacon, described the epidemic. A dreadful plague b
   Against that, when we were gathered in one place, our bishop preached. He began with mercy, and then went further. There was nothing remarkable, he told us, in caring for our own. Anyone does that. What would distinguish us was loving our enemies and praying for those persecuting us, in imitation of a God who makes His sun rise and sends rain to feed the seed, and shows these kindnesses to strangers as well as to His own. We ought, he said, to live up to our birth: those who are plainly born of God should not fall short of it.
 
 
-  And Pontius records what followed. Many of the poor among us, who had no money to give, gave labour instead. Relief was given to everyone, not only to fellow believers. Pontius sets this beside the story of Tobias, who gathered up the dead of his own race only: more was done, he writes, than is recorded of Tobias.'
+  And Pontius records what followed. Many of the poor among us, who had no money to give, gave labor instead. Relief was given to everyone, not only to fellow believers. Pontius sets this beside the story of Tobias, who gathered up the dead of his own race only: more was done, he writes, than is recorded of Tobias.'
 telling: 'A dreadful plague broke out in our city and went from house to house, killing countless people every day.
 
 
@@ -80,7 +80,7 @@ telling: 'A dreadful plague broke out in our city and went from house to house, 
   Then we gathered in one place, where our bishop spoke to us first about mercy and then went further. There was nothing special, he said, about caring only for our own people. To be perfect, we had to love even our enemies and pray for those who persecute us. God makes His sun rise and sends rain to feed the seed, for strangers as well as for His own people. If we call ourselves His children, we should show it by being good the way He is good.
 
 
-  So many who were too poor to give money gave their labour instead, and good was done to everyone, not only to our own people.
+  So many who were too poor to give money gave their labor instead, and good was done to everyone, not only to our own people.
 
 
   Our deacon Pontius judged that more was done here than in the story of Tobias, who gathered up only the dead of his own people.'
@@ -107,7 +107,7 @@ events:
 - line: Cyprian said we ought to answer to our birth.
   rests_on: We ought, he said, to live up to our birth
   essential: false
-- line: The poor gave their labour; good was done to all people, not only to the household of faith.
+- line: The poor gave their labor; good was done to all people, not only to the household of faith.
   rests_on: Relief was given to everyone
   essential: true
 - line: Pontius says more was done here than is recorded of Tobias, who gathered the dead of his own race only.
@@ -126,7 +126,7 @@ telling_medium: 'A dreadful plague broke out in our city and went from house to 
   When we gathered, our bishop told us that there was nothing special about caring only for our own people. We had to love even our enemies and pray for those who persecute us. God makes His sun rise and sends rain for strangers as well as for His own people. If we call ourselves His children, we should show it by being good the way He is good.
 
 
-  So many who were too poor to give money gave their labour instead, and good was done to everyone, not only to our own people.
+  So many who were too poor to give money gave their labor instead, and good was done to everyone, not only to our own people.
 
 
   Our deacon Pontius judged that more was done here than in the story of Tobias. Tobias had gathered up the dead whom the king had killed, but only those of his own people.'
@@ -151,7 +151,7 @@ telling_long: 'A dreadful plague broke out in our city and went through the hous
   God makes His sun rise and sends rain to feed the seed, for strangers as well as for His own people. If we call ourselves His children, why do we not follow the example of our Father? We were born of God, he said, so we ought to act like it. When the Father is good, His children should show they are His by being good the way He is good.
 
 
-  So the work began, and the tasks were shared out to suit each person and his place among us. Many who were too poor to give money gave their own labour instead, and that work was worth more than any money. Good was done to everyone, not only to our own people.
+  So the work began, and the tasks were shared out to suit each person and his place among us. Many who were too poor to give money gave their own labor instead, and that work was worth more than any money. Good was done to everyone, not only to our own people.
 
 
   Our deacon Pontius set this beside the story of Tobias, a man known for his great kindness. He judged that more was done in our city, and he asked Tobias to forgive him again and again for saying so. Tobias must admit, Pontius wrote, that much was possible before Christ came but more after, since all is made complete in the time of Christ. When the king killed people and threw out their bodies, Tobias gathered up the dead, but he gathered only those of his own people.'

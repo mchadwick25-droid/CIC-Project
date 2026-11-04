@@ -93,7 +93,7 @@ text: >-
   her has recorded that agency, whatever it meant to do. What it cost
   her we do not know, except that it cost her this: she is the reason a
   whole church was said to exist, and she does not get to speak once in
-  her own defence.
+  her own defense.
 positions:
 - our own founding bishops are documented in writing arranging for a true accusation against one of them
   to be kept out of court
@@ -116,7 +116,7 @@ relations: []
 use_note:
   means: "On hypocrisy, leaving, suffering and women, this witness offers bishops' letters hushing a true charge, two leavers treated differently, a bishop's letter narrating martyrdom without explaining it, and Lucilla's agency recorded by her accusers."
   not_for:
-    - "a claim that any Donatist woman left a text or spoke in her own defence"
+    - "a claim that any Donatist woman left a text or spoke in her own defense"
     - "a claim about what Lucilla's authority cost her"
     - "a claim that the Donatists worked out a teaching about suffering"
     - "a claim about the 320 inquiry's wider findings or the troops and anti-heretical law used on the Maximianists, which sit in don.dw.what-we-did-with-the-power-we-had"
