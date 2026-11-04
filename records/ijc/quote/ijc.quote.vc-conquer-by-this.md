@@ -34,7 +34,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks how the emperor came to favour the Christians"
+  - "participant asks how the emperor came to favor the Christians"
   - "participant asks whether the vision story can be believed"
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
