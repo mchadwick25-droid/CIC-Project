@@ -28,7 +28,7 @@ text: For when the faithful throughout Asia met together often and in many place
   Church and debarred from communion.
 modern_rendering: The faithful all over Asia met many times, in many places in Asia, to talk this over.
   They looked closely at these new teachings. They declared them false and rejected them as heresy. Because
-  of that, they were thrown out of the Church and shut out of communion.
+  of that, those who had been led astray were thrown out of the Church and shut out of communion.
 speaker_or_author: "The Anonymous anti-Montanist writer (c. 192-193 CE), addressing Avircius
   Marcellus; printed by ANF under the conjectural name 'Asterius Urbanus,' not treated as a real
   attribution here"
@@ -36,7 +36,7 @@ license: verbatim
 modern_lens_note: >-
   This is not Ignatius, and it is not about docetism - it is a separate Asia Minor voice, roughly
   three generations after Ignatius, describing a different contemporary rival (the New Prophecy /
-  Montanism) being examined and rejected by gathered bishops rather than by one man's letters. It
+  Montanism) being examined and rejected by the faithful meeting together across Asia rather than by one man's letters. It
   corroborates that this world's boundary-drawing against contemporary rivals was a real, live,
   multi-voiced pattern - not that this specific gravity's anti-docetic claim has a second voice.
 retrieval:

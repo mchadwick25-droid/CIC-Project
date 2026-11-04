@@ -32,7 +32,7 @@ modern_rendering: I add this too, to be more exact, and I write it because I mus
   besides these. They are not in the Canon. But the Fathers appointed them to be read by those who newly
   join us and want teaching in the word of godliness. These are the Wisdom of Solomon, the Wisdom of Sirach,
   Esther, Judith, Tobit, the book called the Teaching of the Apostles, and the Shepherd. But the books
-  I listed first, my brothers, are in the Canon. These others are only read. And nowhere is there any
+  I listed first, my brothers, are in the Canon. The others are read. And nowhere is there any
   mention of apocryphal writings.
 speaker_or_author: Athanasius of Alexandria, in his Festal Letter of 367
 license: verbatim

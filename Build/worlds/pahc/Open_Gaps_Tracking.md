@@ -907,3 +907,9 @@ Removed from the live documents as open points; the questions stay open here.
 4. Phase 6 Facilitation Brief, Revision 4: the dropped clause "(Round 1 above covered only B1–B6)" is kept in the Decision-Log entry for this cleanup.
 
 Status: OPEN for items 1 and 2. Owner: this world's thread.
+
+### OG-47. Every quote rendering reviewed by Opus against the edition, 2026-11-04.
+
+The `rendering-review` gate found 25 pahc renderings with no named Opus review file. An independent Opus reviewer read all 25 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed four: three P1 and one P2. In `appointed-to-be-read`, the editor's "[merely]" was voiced as Athanasius's own words. In `they-appointed-those-already-mentioned`, the editor's "[ministers]" was voiced as Clement's own. In `asia-rejected-new-prophecy`, "they were thrown out" read as if the faithful were the ones expelled. In `polycrates-to-victor` (P2), the elision in `text` was dropped, so two separate passages read as one. All four were re-rendered by Opus and passed a second independent Opus reader. The lens note of `asia-rejected-new-prophecy` and the use_note of `they-appointed-those-already-mentioned` were corrected to match. A later check found that the round-2 rendering of `polycrates-to-victor` began "So I am not frightened", adding a cause the edition does not state. The "So" was removed, along with the body note that defended it, and a third independent Opus reader passed the record. Per-record log: `Review-Artifacts/Rendering_Review_Log_25_2026-11-03.md`. The `m1:rendering-review/pahc` waiver is removed; the gate reports 0 for pahc (25 → 0).
+
+Status: CLOSED. Owner: Library record-defects thread.

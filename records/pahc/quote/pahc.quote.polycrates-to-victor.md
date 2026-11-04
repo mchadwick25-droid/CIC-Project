@@ -29,13 +29,13 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
 modern_rendering: >-
   As for us, we keep the exact day with great care, adding nothing and
   taking nothing away. For in Asia great luminaries have gone to their
-  rest, and they will rise again on the day the Lord comes. And I too,
+  rest, and they will rise again on the day the Lord comes... And I too,
   Polycrates, the least of you all, follow the tradition of my
   relatives, some of whom I have succeeded. Seven of my relatives were
   bishops, and I am the eighth. My relatives always kept the day when
   the people put away the leaven. I myself, brothers, am sixty-five
   years old in the Lord. I have met the brothers in every part of the
-  world, and I have read through all of Holy Scripture. So I am not
+  world, and I have read through all of Holy Scripture. I am not
   frightened by the things people say to terrify us. For those greater
   than I have said: "We ought to obey God rather than men."
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
@@ -93,6 +93,6 @@ dead, and a count of his own family's bishops, and a refusal.
 The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3. It follows the project's approved register: short sentences, everyday words, translation fidelity kept.
 
 "Who am sixty-five years old... and have fallen in with the brethren... and have read through
-all Holy Scripture" is, in the source, the stated grounds for "am not frightened," not a
-separate list of facts. The rendering ties them with "So" before "I am not frightened," rather
-than as four disconnected sentences.
+all Holy Scripture" describes the speaker before "am not frightened." The rendering gives these
+clauses as their own sentences and adds no "so" or "therefore," because the edition states no
+cause.
