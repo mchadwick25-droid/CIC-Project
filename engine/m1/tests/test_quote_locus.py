@@ -52,11 +52,20 @@ def test_a_quote_passes_when_any_one_of_its_spans_holds_the_text():
     assert _run(rec) == []
 
 
-def test_a_quote_citing_no_span_is_not_checked_and_is_counted():
+def test_a_verbatim_quote_citing_no_span_fails():
     rec = _records()[QUOTE]
     rec["sources"] = [{"source_id": rec["sources"][0]["source_id"], "locus": "Ep. 5, with no line span"}]
-    assert _run(rec) == []
+    [finding] = _run(rec)
+    assert "names no line span" in finding
     assert unchecked_quotes({rec["id"]: rec}) == [rec["id"]]
+
+
+def test_a_quote_escalated_below_verified_direct_still_has_to_name_its_lines():
+    rec = _records()[QUOTE]
+    rec["confidence"] = {**rec["confidence"], "verification_state": "verified-via-authority"}
+    rec["sources"] = [{"source_id": rec["sources"][0]["source_id"], "locus": "Ep. 5, with no line span"}]
+    [finding] = _run(rec)
+    assert "names no line span" in finding
 
 
 def test_a_paraphrase_only_quote_is_out_of_scope():
@@ -84,6 +93,6 @@ def test_the_gate_is_registered():
     assert gates.GATES["quote-locus"] is gate_quote_locus
 
 
-@pytest.mark.parametrize("world", ["lpc", "desert"])
+@pytest.mark.parametrize("world", ["lpc", "gallic", "desert", "don", "rzg", "ijc", "witt", "syr", "hal", "alx", "pahc", "cappadocian"])
 def test_every_cited_span_in_the_world_holds_its_quote(world):
     assert gate_quote_locus(load_world_records(world), {}, {}) == []
