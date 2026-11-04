@@ -7356,3 +7356,25 @@ If any condition fails, the amount stays unspent.
 ## 2026-11-02 - Cap ruling: latap Step 0, the approval to proceed stands (project lead)
 
 **Ruling.** Mark, 2026-11-02, by choice box, relayed by the coordination thread: `latap` Step 0 has 7 counted review files against the cap of 3 and is already approved to proceed (self-disposed after Round 7, not Frozen). The approval stands. The handoff check should read the document as ruled, not as an open cap breach. The reviews of Rounds 4 to 7 that came after the first three are covered by this ruling: `Step0_Round4_Review.md`, `Step0_Round5_Review.md`, `Step0_Round6_Review.md` and `Step0_Round7_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). It orders no further review. This ruling does not lift the cap for any other document or world.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": the sample run, $0.371 of its $1.00 sample cap (project lead's approval)
+
+**Approval.** Mark, relayed by the coordination thread.
+- On the test: "Direction approved for controlled testing — not architecture approval." The cap is $12 total ("$12, Mark 2026-11-03, lowered from $30").
+- On the sample: "yes, run the sample". The coordination thread checked it first.
+- The decision is recorded in `Build/Ministry/Features/Answering-From-Sources/Decision-Log.md` entry 75.
+
+**Name and cap.** The test is `v7-b-alx-pahc-syr`, with a $12.00 ceiling in total. The sample was capped at $1.00, set per command as alx $0.34, pahc $0.33 and syr $0.33. No other cap carries over to this test.
+
+**Models and route.**
+- Voice: Sonnet 4.5, `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, on AWS Bedrock us-east-1, with max tokens 2048. Voice only, as in fleet graded run 1.
+- Command: `python -m engine.m3.v7_run --live-test v7-b-alx-pahc-syr --cap-usd <cap> --world <w> --arm b`, with the probes, model id, region, max tokens, expected package hash and `--reading-records-dir` all passed explicitly.
+- Code: branch `v7/b-on-live` at cb585b75.
+
+**Spend, from the run output.**
+- alx $0.1382, pahc $0.1156, syr $0.1172: $0.3710 in total.
+- 6 turns, each on its first attempt, with no failed attempts.
+
+**Files.** `Build/Ministry/Features/V7-Controlled-Test/Runs/sample/` holds the run records, the summaries, the printed settings and the ledger.
+
+**Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
