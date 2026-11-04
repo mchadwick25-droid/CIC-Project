@@ -74,6 +74,6 @@ WHY A LADDER AND NOT A LIST. The desert's teaching about the interior
 life is nearly always sequential - one thing is the door to the next,
 and skipping is the characteristic error. That shape is hard to show
 from isolated sayings and easy to show from this, which is why Cassian's
-schematising, usually counted against him as Latin tidiness imposed on
+schematizing, usually counted against him as Latin tidiness imposed on
 Egyptian speech, is useful here: he wrote down the order the elders
 assumed.

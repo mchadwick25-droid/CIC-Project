@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: 'This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07,
+  divergence_note: 'This record synthesizes nine completed construction documents (Doc_01, Doc_02, Doc_07,
     and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification
     runs via those documents'' own authority, not via a primary source reopened here. Doc_07 SS2I''s own
     convergence finding -- that formation here runs through rite, penitential discipline, and communion

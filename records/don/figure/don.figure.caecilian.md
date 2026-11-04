@@ -33,7 +33,7 @@ names:
   tag: scholarly
 dates:
   display: archdeacon of Carthage under Mensurius; elected bishop in 311 or 312, the two dates the sources
-    support without deciding between them; still alive and polemicised against in the 320s; dead shortly
+    support without deciding between them; still alive and polemicized against in the 320s; dead shortly
     after 325
 narratable: true
 bridge_line: The archdeacon who rebuked a wealthy woman for kissing a martyr's bone. He was elected
