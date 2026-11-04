@@ -41,7 +41,7 @@ modern_lens_note: '"Jealousy" carries the older sense of envy over standing or a
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what outsiders made of the relationship at the centre of this circle"
+  - "participant asks what outsiders made of the relationship at the center of this circle"
   - "participant asks whether a woman's own work was overshadowed by the man she funded"
 relations:
 - type: associated-with

@@ -56,7 +56,7 @@ Opened for F6-T, served by hal.dw.marriage-ending alone, which cites this locus 
 "Fabiola's divorce, remarriage, penance, restoration" and had nothing quotable.
 
 The closing clause is quoted from the sentence's continuation in the letter rather than paraphrased,
-and the record is deliberately the restoration rather than the offence: this world's own hard-place
+and the record is deliberately the restoration rather than the offense: this world's own hard-place
 answer is that the way back existed and was walked in public.
 
 The closing sentence carries Jerome's own parenthetical naming the

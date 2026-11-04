@@ -40,7 +40,7 @@ retrieval:
   retrieve_when:
   - "participant asks what this world never settled or resolved"
   - "participant asks what the hardest or most troubling thing about this community is"
-  - "participant asks how this world got on with its Jewish neighbours"
+  - "participant asks how this world got on with its Jewish neighbors"
 relations:
 - type: associated-with
   target: syr.dw.unsettled

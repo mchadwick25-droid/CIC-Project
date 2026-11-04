@@ -42,7 +42,7 @@ modern_lens_note: >-
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether babies were baptised or only adults who chose it"
+  - "participant asks whether babies were baptized or only adults who chose it"
   - "participant asks what baptism actually required of a person here"
   - "participant asks whether they would call what happened to them being born again"
 relations:

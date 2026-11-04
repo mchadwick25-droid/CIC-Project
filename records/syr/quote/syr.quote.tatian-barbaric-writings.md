@@ -31,7 +31,7 @@ modern_rendering: >-
   errors. Several things led me to put faith in these writings. The style of
   the language was unpretentious. The writers were unpolished. They showed
   foreknowledge of future events. Their precepts were excellent. And they
-  declared that the rule of the universe is centred in one Being.
+  declared that the rule of the universe is centered in one Being.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-

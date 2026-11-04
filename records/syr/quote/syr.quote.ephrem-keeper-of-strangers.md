@@ -46,7 +46,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what happened in a famine and who organised relief"
+  - "participant asks what happened in a famine and who organized relief"
   - "participant asks whether the church fed people outside itself"
 relations:
 - type: associated-with
