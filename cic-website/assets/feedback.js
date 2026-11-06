@@ -1,12 +1,3 @@
-/* "Tell us what you think": opens a card from the button with id
-   feedback-toggle and posts the comment to the engine. On Church Family Tree
-   pages and the interactive tree it also adds a quiet row at the foot of the
-   page: a like, and a link that opens a small card to report a problem.
-
-   The card is added to the page when the script runs. With JavaScript off the
-   button does nothing and the Contact link in the footer still works. The
-   engine address follows the same local-or-live rule as go-deeper-config.js,
-   worked out here so the script stands alone. */
 (function () {
   'use strict';
 
@@ -287,14 +278,14 @@
 
   try {
     if (window.localStorage.getItem(LIKE_KEY) === '1') { setLiked(); }
-  } catch (e) { /* storage blocked: the like still works for this visit */ }
+  } catch (e) {  }
 
   likeBtn.addEventListener('click', function () {
     if (likeBtn.disabled) { return; }
     likeBtn.disabled = true;
     post({ kind: 'like', page: PAGE }).then(function () {
       setLiked();
-      try { window.localStorage.setItem(LIKE_KEY, '1'); } catch (e) { /* remembering is a convenience */ }
+      try { window.localStorage.setItem(LIKE_KEY, '1'); } catch (e) {  }
     }).catch(function () {
       likeBtn.disabled = false;
     });

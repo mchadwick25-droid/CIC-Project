@@ -1395,9 +1395,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
     # Refreshed 2026-10-03: the public-page cleanup (commit 6a42ed96) moved
     # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
-    # (commit a5df3f70) added a line above it, so it is now 109. Same text,
-    # same label.
-    ("cic-website/support.html", 110, "KEEP"),
+    # (commit a5df3f70) added a line above it; refreshed 2026-11-06: the
+    # page's comments moved out, so it is now 89. Same text, same label.
+    ("cic-website/support.html", 89, "KEEP"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.

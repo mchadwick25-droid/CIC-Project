@@ -1,11 +1,3 @@
-/* Narration player: a typographic play control, a seekable rail, the time and
-   a speed choice, drawn over each page's own <audio> element.
-
-   The <audio> stays in the page and does all the playing, so anything that
-   already starts, stops or reads it (the Atlas panel's autoplay, the pause-the-
-   others rule) keeps working, and a browser without JavaScript keeps the
-   ordinary controls. The speed is one setting for the whole site, remembered in
-   this browser. */
 (function () {
   'use strict';
 
@@ -60,7 +52,7 @@
   function setRate(r) {
     try {
       localStorage.setItem(RATE_KEY, String(r));
-    } catch (e) { /* the choice then lasts for this page only */ }
+    } catch (e) {  }
     Array.prototype.forEach.call(document.querySelectorAll('audio'), applyRate);
     players.forEach(function (p) { p.syncSpeed(); });
   }
@@ -132,7 +124,7 @@
     play.addEventListener('click', function () {
       if (audio.paused) {
         var go = audio.play();
-        if (go && go.catch) go.catch(function () { /* the browser refused; the button stays as it was */ });
+        if (go && go.catch) go.catch(function () {  });
       } else {
         audio.pause();
       }
@@ -172,7 +164,6 @@
     draw();
   }
 
-  // One voice at a time across the page.
   document.addEventListener('play', function (e) {
     if (!e.target || e.target.tagName !== 'AUDIO') return;
     applyRate(e.target);

@@ -87,8 +87,6 @@
     return attempt();
   }
 
-  // Hands the code to the conversation that opened this window, if it is still
-  // there, to that one origin only. The caller shows the code regardless.
   function handOff(opener, codes, appOrigin) {
     try {
       if (!opener || opener.closed) return false;
@@ -99,18 +97,10 @@
     }
   }
 
-  // The address carries the reference, never the code: a reference stops
-  // working when the server's hour ends, so a copy left in browser history
-  // is dead soon after. The app asks before using it.
   function returnUrl(appOrigin, reference) {
     return appOrigin + "/#cic-claim=" + encodeURIComponent(reference);
   }
 
-  // Gets one code into the buyer's conversation without a paste. First the
-  // window that opened this one, which answers once it has saved the code;
-  // if nothing answers, or there is no such window, this window goes to the
-  // app with the code in the address fragment, which the app reads and clears
-  // at once. A pack of several codes is left on the page to share out.
   function deliver(codes, env) {
     if (!codes || codes.length !== 1) return Promise.resolve("shown");
     return new Promise(function (resolve) {

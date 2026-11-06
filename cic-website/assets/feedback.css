@@ -1,6 +1,3 @@
-/* "Tell us what you think": the header button and the card it opens.
-   Linked on every page, including those with their own inline styles, so the
-   colours here are the site's dark palette written out directly. */
 
 .feedback-toggle {
   font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
@@ -24,7 +21,6 @@
   color: #E08C74;
 }
 
-/* Site header: the button sits beside Menu, at the right end of the row. */
 .site-header > :has(> .feedback-toggle) .feedback-toggle { margin-left: auto; }
 .site-header > :has(> .feedback-toggle) .feedback-toggle + .menu { margin-left: 0; }
 @media (min-width: 1000px) {
@@ -37,17 +33,13 @@
   .site-header > :has(> .feedback-toggle + .menu) .brand { margin-right: .25rem; }
 }
 
-/* Church Family Tree bar: the button takes the look of the Reset button. */
 .topbar .feedback-toggle { white-space: nowrap; }
 
-/* Conversation page bar: the button sits at the right end. */
 .bar .feedback-toggle { min-height: 36px; padding: .35rem .9rem; font-size: .8rem; }
 @media (max-width: 480px) {
   .bar .feedback-toggle { margin-left: auto; }
 }
 
-/* The card. Fixed below the bar that holds the button, so it opens in view
-   on every page layout. */
 .feedback-card {
   position: fixed;
   z-index: 100;
@@ -167,8 +159,6 @@
 }
 .feedback-card .fb-done:empty { display: none; }
 
-/* Page like and report: the quiet row at the foot of a Church Family Tree
-   page, and on the interactive tree a small bar fixed at the bottom centre. */
 .page-feedback {
   box-sizing: border-box;
   max-width: 44rem;
@@ -269,9 +259,6 @@
 .page-feedback .pf-cancel { background: transparent; color: #E08C74; border-color: #E08C74; }
 .page-feedback .pf-send:disabled { opacity: .6; cursor: default; }
 
-/* Interactive tree: a small bar fixed at the bottom centre, below the
-   legend and the zoom hint in stacking order; on a narrow screen it rides
-   above their row. The card opens upward. */
 .page-feedback--fixed {
   position: fixed;
   z-index: 18;

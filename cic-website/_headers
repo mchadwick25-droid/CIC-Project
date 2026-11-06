@@ -1,11 +1,3 @@
-# Cloudflare static-asset headers.
-#
-# Pages and data are never cached, so every visitor gets the current
-# version after a deploy. Assets have unhashed filenames and are edited in
-# place, so they get a short cache, not a long or immutable one.
-# Every response carries the baseline security headers. There is no
-# frame-blocking header, because talk.html frames the app.
-
 /*
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
