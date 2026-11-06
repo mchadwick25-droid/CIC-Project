@@ -229,3 +229,10 @@ def test_card_block_on_unadmitted_world_is_ignored():
     registry["notyet"]["card"] = {"intro": "Should not appear."}
     new_census, _ = sync_census(registry, census)
     assert _by_id(new_census, "notyet-census-id")["entry"] is None
+
+
+def test_edges_out_of_sync_compares_whole_edge_list():
+    from engine.m6.census_atlas_sync import edges_out_of_sync
+    edges = [{"id": "a--b", "from": "a", "to": "b", "type": "influenced"}]
+    assert edges_out_of_sync({"edges": edges}, list(edges)) is False
+    assert edges_out_of_sync({"edges": edges}, []) is True

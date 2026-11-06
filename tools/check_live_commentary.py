@@ -334,7 +334,7 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
 # (a `note:` field's prose, a Python/YAML `#` comment, a Markdown
 # paragraph) still matches - only the bare scalar case is excluded.
 _BARE_DATE_LINE = re.compile(
-    r"^\s*[-]?\s*[\w./\[\]]*:?\s*['\"]?20\d\d-\d\d-\d\d['\"]?,?\s*(#.*)?$"
+    r"^\s*[-]?\s*['\"]?[\w./\[\]]*['\"]?:?\s*['\"]?20\d\d-\d\d-\d\d['\"]?,?\s*(#.*)?$"
 )
 # The same bare-scalar exclusion, two more structured shapes found in the
 # hand-labelled sample: a Markdown metadata header ("**Date drafted:**

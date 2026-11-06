@@ -1,0 +1,172 @@
+{
+  "verdict": "revise",
+  "findings": [
+    {
+      "link_id": "the-waldensians--the-waldensian-reformed-union",
+      "old_index": 12,
+      "severity": "blocking",
+      "issue": "Wrong 'from' movement. The event the link rests on (1532) falls outside 'the-waldensians' (1173-1300). The census has an intermediate entry, 'waldensians-in-the-alps' (1300-1517), whose own relationsSummary says it 'leads into the 1532 Synod of Chanforan'. As drafted, the link skips two centuries and the entry that actually continued into the union.",
+      "evidence": "cic-website/data/world-census.json movements: the-waldensians start 1173 end 1300; waldensians-in-the-alps start 1300 end 1517; the-waldensian-reformed-union start 1532. Perrin 5232-5234 and Morland 7947-7949 both describe the Alpine valley churches of 1532.",
+      "fix": "Set from = 'waldensians-in-the-alps'. Keep type 'continued as', grade Contested, and the same sources. Keep the note, but change its last clause to: 'Scholars disagree about how far this shows unbroken continuity with the Waldensians of the Alps, rather than a later reading backward.' Separately draft a new link 'the-waldensians' continued as 'waldensians-in-the-alps' (period split), graded only at what vendored or repo-cited sources support (Cameron 2000 and Audisio 1999 are already cited in the census for this question)."
+    },
+    {
+      "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+      "old_index": 17,
+      "severity": "blocking",
+      "issue": "Dishonest grade basis and unsupported note. (1) The 'secondary' source is Mirbt no. 227. That is not scholarship: it is Cardinal Humbert's own 'Brevis et succincta commemoratio', a primary Latin-side account, printed under Mirbt's heading. Widely Accepted therefore has no real secondary behind it. (2) The note's 'Cerularius's synodal reply' and 'Scholars debate how far 1054 itself was the break' have no listed source; the drafter says so. (3) The drafter's flag that 16 July is 'not in the vendored text' is wrong: the Commemoratio gives XVII Kal. Aug. (16 July) and the laying of the charter on the main altar of Hagia Sophia.",
+      "evidence": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:9865-9872 (no. 227 heading, then the Humberti brevis et succincta commemoratio text); 9904 ('XVII.  Kai.  Augusti  adierunt  ecclesiam  Sanctae  Sophiae'); 9907-9908 (charter laid on the altar); 9918-9920 (Michael tries to bring them before a council in Hagia Sophia).",
+      "fix": "Replace the 'secondary' Mirbt entry with a primary source: work 'Humbert of Silva Candida, Brevis et succincta commemoratio (1054), in Mirbt, Quellen, 3rd ed. (1911), no. 227', file the Mirbt file, lines '9907-9908', quote 'chartam  excommunicationis  super  principale  altare  posuerunt  sub  ocuhs praesentis  cleri  et  popuh.' (copy spacing exactly from the file). Grade Documented, consistent with the other one-sided 'broke with' links (Eunomian/Homoian, Chalcedon), with the one-sidedness stated. New note: 'Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. We hold only the Latin side's record of this break.' Keep the wants for Cerularius's synodal edict and a modern account of the schism."
+    },
+    {
+      "link_id": "roman-church-third-century--modalist-monarchianism",
+      "old_index": 36,
+      "severity": "substantial",
+      "issue": "Misleading evidence for the relationship. Two of the three quotes show Hippolytus accusing the Roman bishops of backing Noetus's school, which reads as the Roman church supporting modalism, not arguing against it. The only quote on the claimed side is a hostile rival's report that Callistus excommunicated Sabellius. A much clearer witness from inside this entry's window is vendored: Dionysius, bishop of Rome 259-268 (a named voice of this entry), writing against the Sabellians and naming Sabellius, as quoted by Athanasius.",
+      "evidence": "cic/texts/npnf204_athanasius-select-works-letters.xml:28472-28473 ('of Dionysius, Bishop of Rome, who, while writing against the Sabellians, thus inveighs'); 28531-28532 ('he blasphemously says that the Son is the Father, and the Father the Son', of Sabellius). Movement voices for roman-church-third-century list Dionysius of Rome.",
+      "fix": "Keep type 'argued against' and Documented. Add a primary source: 'Dionysius of Rome, letter against the Sabellians, quoted in Athanasius, De Decretis 26 (NPNF 2.4)', lines '28472-28473', quote 'of Dionysius, Bishop of Rome, who, while writing against the Sabellians, thus inveighs against those who dared to say so', and lines '28532', quote 'he blasphemously says that the Son is the Father, and the Father the Son'. Drop the IX.3 'adviser' quote. New note: 'Dionysius, bishop of Rome in the 260s, wrote against the Sabellians, as Athanasius later quoted him. Earlier, Hippolytus says Bishop Callistus excommunicated Sabellius. Hippolytus also accused Callistus of backing the modalists, so his account is openly hostile.'"
+    },
+    {
+      "link_id": "antiochene-church-third-century--homoian-arian-christianity",
+      "old_index": 61,
+      "severity": "substantial",
+      "issue": "The named people in the note (Arius, Eusebius of Nicomedia, Maris, Theognis) all belong to the 320s, before the Homoian entry opens in 340, so the note does not show anyone passing into the Homoian movement. The same Philostorgius line also names Leontius, 'who afterwards became bishop of Antioch', and Eudoxius, but the quote stops before them. Also the sentence 'Scholars dispute how far Lucian's own teaching shaped their doctrine' has no listed source.",
+      "evidence": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt:138 (full list continues '...and also Leontius, who afterwards became bishop of Antioch, and Antonius of Tarsus in Cilicia; likewise Menophantus, Numenius, and Eudoxius'). homoian-arian-christianity start 340.",
+      "fix": "Add a second quote from line 138: 'and also Leontius, who afterwards became bishop of Antioch, and Antonius of Tarsus in Cilicia; likewise Menophantus, Numenius, and Eudoxius'. New note: 'Arius wrote to Eusebius of Nicomedia as \"my fellow-Lucianist\", naming their teacher Lucian of Antioch. Philostorgius lists Lucian's disciples, among them Leontius, later bishop of Antioch, and a Eudoxius. Both reports come from Arius's own side.' Keep Documented. Do not identify the Eudoxius with Eudoxius of Constantinople in the note unless a repo-cited source does."
+    },
+    {
+      "link_id": "gallic-nicene-episcopate--homoian-arian-christianity",
+      "old_index": 46,
+      "severity": "substantial",
+      "issue": "The Hilary quote shows the wrong direction. It says Saturninus (a Homoian bishop) had Hilary exiled: the Homoian side acting against the Gallic bishop, not Gaul arguing against the Homoians. The same paragraph of De Synodis has the right evidence: the Gallic bishops refused and condemned the creed sent from Sirmium (357).",
+      "evidence": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml:7773-7775 (Saturninus exiles Hilary); 7776-7779 ('the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned as soon as reported and notified.').",
+      "fix": "Replace the exile quote with lines '7776-7779', quote 'the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned as soon as reported and notified.' New note: 'Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.'"
+    },
+    {
+      "link_id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+      "old_index": 11,
+      "severity": "substantial",
+      "issue": "The type and direction stand, but the change reason and the bare link mislead. The alexandria-catechetical entry is the teaching tradition (Pantaenus, Clement, Origen, Dionysius, Didymus), not only Origen. The same History of the Patriarchs that condemns Origen honours Dionysius, Origen's pupil and a named voice of that entry, as the patriarch to whom Heraclas gave 'the direction of the studies at Alexandria', and titles him 'the Wise'. Read alone, the link says the Coptic church rejected the catechetical tradition; the text shows it rejected Origen while claiming part of the tradition as its own.",
+      "evidence": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt:10035-10037 (Origen cut off); 11708-11712 (Heraclas gives Dionysius the direction of the studies; 'a distinguished teacher'); 12166 ('DIONYSIUS THE WISE, THE FOURTEENTH PATRIARCH'). Census alexandria-catechetical voices list Dionysius of Alexandria.",
+      "fix": "Keep 'argued against', Documented. New note: 'The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and calls Origen's later treatises blasphemous. Yet the same History honours Dionysius, who had directed the studies at Alexandria, as a patriarch.' Add the source lines 11708-11712, quote 'And Heraclas gave the direction of the studies at Alexandria to Dionysius, and entrusted to him all the affairs of the patriarchate.' (verify blank-line joins against the file). Do not add a positive Alexandria-to-Coptic link: the census's own continuation runs through cyrilline-miaphysite-egyptian-christianity."
+    },
+    {
+      "link_id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+      "old_index": 6,
+      "severity": "substantial",
+      "issue": "The events in the note (Narsai's move c. 471-489, the 489 closure) fall after the Edessa entry ends (410), and Narsai is a named voice of the target entry. So the note shows the target's own people moving, not the earlier entry passing anything on. The vendored Barhadbeshabba closes the gap: he says Ephrem opened the school at Edessa after Nisibis was ceded in 363, that his disciples kept it growing, and frames this as how the school 'was transferred to Persia'. That is the later side naming the earlier side's work, inside both windows.",
+      "evidence": "movements: syriac-edessa-nisibis end 410 (Ephrem a voice); the-church-of-the-east-under-persia start 424 (Narsai a voice). cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt:20435-20441; 20737-20739.",
+      "fix": "Add a primary source: Barhadbeshabba, lines '20437-20438', quote 'lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie' and lines '20441', quote 'Après sa mort, l’école, loin de tomber en décadence, fit de considérables' (or the full clause ending at 'disciples' on 20442 if it ends cleanly; check the file). Regrade to Documented (influence: the later side names the earlier side's school). New note: 'Barhadbeshabba, writing about 600, says Ephrem opened a school at Edessa after Nisibis passed to Persia in 363. He says Narsai later carried that school's teaching to Nisibis. Sources differ on when Narsai left Edessa.' Wigram may stay as a secondary."
+    },
+    {
+      "link_id": "desert-monasticism--insular-irish-monastic-christianity",
+      "old_index": 9,
+      "severity": "substantial",
+      "issue": "Grade too high for the evidence. The only primary is an eighth-century tract, written after the Irish entry closes (664), that also traces the Irish office to St Mark and makes Basil Gregory Nazianzen's brother. Warren calls its text corrupt and its claim 'uncorroborated in any other quarter'. One 1895 editor's judgement is not evidence of a scholarly consensus. Nothing in the note is false, but Widely Accepted overstates the evidence.",
+      "evidence": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt:1577-1586 (Warren: 'errors of detail', 'corrupt text', 'uncorroborated in any other quarter'); 1617-1620 (Mark, Gregory, 'Basilius, frater ipsius sancti Gregorii'). insular-irish-monastic-christianity end 664.",
+      "fix": "Regrade to Inferential-Thin unless a repo-cited modern secondary is added. Append to the note: 'This rests on one late account that also contains legend.' Keep the wants."
+    },
+    {
+      "link_id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+      "old_index": 26,
+      "severity": "substantial",
+      "issue": "Same evidence base as old #9 (the eighth-century tract plus Warren 1895). Patrick's wish to visit 'the brethren' in Gaul shows ties to Gaul, not Gallic monastic influence, as the drafter flags. Widely Accepted is not earned by the repo's sources.",
+      "evidence": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt:1622-1623, 1577-1586; cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt:2442-2443.",
+      "fix": "Regrade to Inferential-Thin unless a repo-cited modern secondary is added. Change the note's first sentence to 'An eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland.' (drop 'The same', which is not self-standing). Append: 'This rests on one late account and on Patrick's own ties to Gaul.'"
+    },
+    {
+      "link_id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+      "old_index": null,
+      "severity": "substantial",
+      "issue": "The note is accurate for the Swiss Brethren, but the target entry covers Swiss, Moravian and Dutch Anabaptism. The repo's own sources treat polygenesis (multiple, separate origins) as the Dominant Modern Reconstruction (Roth and Stayer, A Companion to Anabaptism and Spiritualism, cited in the census entry). Read alone, the link implies the whole movement came out of Zurich.",
+      "evidence": "Census the-anabaptist-movements sources (Roth & Stayer); Build/World-Builds/Anabaptist-Movements/Doc_01_Review_Round1.md:50 (polygenesis named as the Dominant Modern Reconstruction).",
+      "fix": "Keep 'gave rise to', Documented for the Swiss origin. Add secondary 'John D. Roth and James M. Stayer (eds.), A Companion to Anabaptism and Spiritualism, 1521-1700 (Brill, 2007)' (as cited in the census). Append to the note: 'This is the Swiss branch. Historians hold that Anabaptists in South Germany, Moravia and the Netherlands had other roots too.'"
+    },
+    {
+      "link_id": "post-apostolic-house-church--syriac-edessa-nisibis",
+      "old_index": 0,
+      "severity": "substantial",
+      "issue": "A 'gave rise to' link whose own note says no source supports it. Inferential-Thin means thin evidence for the claim; here there is none, only the absence of any other origin. A participant reads a drawn line as a claim.",
+      "evidence": "Drafter's own flags; the Edessa chronicle line 53 shows only that Christians were in Edessa by c. 201.",
+      "fix": "Remove. The honest statement (Christians at Edessa by 201, origin unknown) belongs as an honest limit in the Edessa entry, not as a lineage link."
+    },
+    {
+      "link_id": "post-apostolic-house-church--alexandria-catechetical",
+      "old_index": 1,
+      "severity": "substantial",
+      "issue": "Same as old #0: the note itself says no source ties Alexandria's church to the households of Antioch, Asia Minor and Rome. Eusebius's hearsay about Mark is not evidence of descent from the household network.",
+      "evidence": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:11851-11853 ('they say'); drafter's flags.",
+      "fix": "Remove. Keep the Mark tradition and Bagnall's point as an honest limit in the Alexandria entry."
+    },
+    {
+      "link_id": "imperial-juridical-christianity--donatism",
+      "old_index": null,
+      "severity": "minor",
+      "issue": "'Constantine had earlier sent the case to eighteen bishops' leaves out Miltiades, bishop of Rome, who sat and gave the sentence. Optatus says nineteen bishops sat.",
+      "evidence": "cic/texts/optatus_against-the-donatists.txt:273-279 ('three Bishops from Gaul and fifteen others'; 'There were present Miltiades'; 'these nineteen Bishops').",
+      "fix": "Second sentence: 'Constantine had earlier granted them judges, who heard the case at Rome with Miltiades, the city's bishop.'"
+    },
+    {
+      "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+      "old_index": null,
+      "severity": "minor",
+      "issue": "'for ignoring its summons' narrows the stated grounds: the sentence cites disregard of the canons, disobedience to the synod, other crimes, and refusing three summonses.",
+      "evidence": "cic/texts/npnf214_seven-ecumenical-councils.xml:20082-20089.",
+      "fix": "'...deposed Dioscorus, bishop of Alexandria, in October 451, after he refused three summonses to answer his accusers.'"
+    },
+    {
+      "link_id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+      "old_index": 41,
+      "severity": "minor",
+      "issue": "Internal language ('Both entries', 'This link', 'our collection'), and 'laura' where the quoted Latin says 'monasterii Pharan'.",
+      "evidence": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt:15556-15557.",
+      "fix": "Note: 'Monks lived in Gaza and the Judean desert both before and after about 450. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties it to the earlier monks, so this rests on place and sequence alone.'"
+    },
+    {
+      "link_id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+      "old_index": 5,
+      "severity": "minor",
+      "issue": "The meeting (379-381) falls before the Jerome circle's window opens (382). Jerome's naming Gregory as his teacher (392, 394) is inside the window and is influence, which 'in contact with' disclaims.",
+      "evidence": "Movement dates; npnf203 41567-41568; npnf206 11494-11495.",
+      "fix": "Consider retyping to 'influenced' (Gregory -> Jerome's circle), Documented on the same quotes, from = cappadocian, to = hieronymian. Note unchanged except: 'Jerome, writing in the 390s, calls Gregory of Nazianzus his instructor in the Scriptures.'"
+    },
+    {
+      "link_id": "tertullian-s-voice--latin-apologists",
+      "old_index": 64,
+      "severity": "minor",
+      "issue": "Inconsistent with the removal of old #42: Tertullian is a member of the latin-apologists entry (its relationsSummary says it 'includes Tertullian'), so this is partly containment. Keeping it is defensible because the evidence is a different author (Lactantius) naming Tertullian's work, but the two decisions should be reasoned the same way.",
+      "evidence": "Census latin-apologists relationsSummary and voices.",
+      "fix": "Keep, and record in the decision log why member-to-container influence is kept here while #42 was removed. No note change."
+    },
+    {
+      "link_id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+      "old_index": 60,
+      "severity": "minor",
+      "issue": "'That link is a scholarly inference' implies named scholars hold it, but no scholar is cited; and 'link' is build language.",
+      "evidence": "Drafter's flags (no repo-cited secondary).",
+      "fix": "Last sentence: 'The tie to the later Antiochene teachers is an inference, not a report.'"
+    },
+    {
+      "link_id": null,
+      "old_index": null,
+      "severity": "minor",
+      "issue": "Missing well-documented links whose evidence is already vendored and partly already verified in this pass: (1) imperial-juridical-christianity argued against homoian-arian-christianity: canon 1 of Constantinople names 'the Arians or Eudoxians', and CTh 16.5.8 and 16.5.11 name 'arriani'. (2) latin-pastoral-congregational-christianity argued against pelagianism: Augustine's anti-Pelagian works are vendored (npnf105); pelagianism currently has no links at all. (3) insular-irish-monastic-christianity gave rise to anglo-saxon-christianity: Bede on Aidan sent from Iona (vendored Bede); the Irish entry's own relationsSummary calls it 'parent of Anglo-Saxon Christianity', and the Gregorian link alone implies a single origin. (4) lollardy influenced the-hussite-and-bohemian-brethren-movement (see not_proposed ruling).",
+      "evidence": "npnf214 13985-13987; codex-theodosianus_latinlibrary.txt 7064, 7074; cic/texts/npnf105_augustine-anti-pelagian-writings.xml; cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt (Book III); hus_de-ecclesia-the-church_schaff1915.txt 1510-1545.",
+      "fix": "Draft each to the brief in the next round; (1) can be Documented from quotes already verified."
+    },
+    {
+      "link_id": null,
+      "old_index": null,
+      "severity": "minor",
+      "issue": "Movement texts in the same file still carry claims this pass removed from links as unsupported: aquileian-christianity voice 'Ambrose ... came up the road in 381 to preside'; anatolian-church-third-century voice and relationsSummary 'formed by Gregory's disciples' and 'Origen's first serious critic'; aquileian relationsSummary 'Rufinus is why Origen survives in Latin at all'; modalist voices 'coined much of the Latin vocabulary'. Participants will see the contradiction.",
+      "evidence": "cic-website/data/world-census.json movements aquileian-christianity, anatolian-church-third-century, modalist-monarchianism.",
+      "fix": "Out of this pass's scope: register as an open gap for the movement-text owner rather than editing here."
+    }
+  ],
+  "rulings": {
+    "11": "The alexandria-catechetical entry is the teaching tradition (Pantaenus, Clement, Origen, Dionysius, Didymus), not the episcopal tradition of Athanasius and Cyril that the Coptic church claims (that runs through cyrilline-miaphysite-egyptian-christianity). So the old 'formed' link from the school to Coptic Egypt was wrong, and 'argued against' from the Coptic side, aimed at Origen by name, is a correct type and direction. But it must not stand as if the Coptic church rejected the whole tradition: the same History honours Dionysius, who directed the studies, as 'the Wise' patriarch. Keep the reversed link with the note fix above; add no positive link.",
+    "0_1": "Remove both. Each claims 'gave rise to' with a note that says no source supports it; that is an absence, not a thin claim. Record the absence as an honest limit in the Edessa and Alexandria entries.",
+    "cassian": "Keep both pairs. #8 (desert -> Benedict) rests on 'Vitas Patrum', the desert Lives; #25 (Gaul -> Benedict) rests on 'Collationes' and 'Instituta', Cassian's titles, plus Cassian's Marseilles houses. They are separately evidenced and both true. Widely Accepted with Gasquet (cited in the repo) is honest for both. #9 and #26 also stay as two links, but both drop to Inferential-Thin (finding above), since they share one late tract.",
+    "ocr": "Acceptable as stored evidence when three things hold: the script confirms the quote verbatim, the reading is unambiguous to a reader of the language, and the note does not depend on the garbled token. All current cases pass ('lie' for 'he', 'Co//ations', long-s 'fon', 'Mchaelem', '(sz?)'). Where a cleaner witness of the same passage is vendored, prefer it (e.g. the Hunter Blair Latin of RB 73 over Gasquet's 'Co//ations'). Archaic translations (1608 Dialogues, 1658 Morland) are fine as data; the note must paraphrase in modern English, as these do.",
+    "not_proposed": "Six of seven are rightly declined (no quotable vendored text, or redundant). One is wrongly declined: Lollardy influenced the Hussites. Wyclif is a named voice of the lollardy entry, and the vendored Schaff edition of Hus's De ecclesia (lines 1510-1545) sets out Hus's borrowing from Wyclif's De ecclesia and cites Loserth's demonstration. That supports at least Widely Accepted (primary: Hus's text; secondary: Loserth via Schaff, both in a vendored file), and Constance's joint condemnation of Wyclif and Hus (Fillastre, lines 2570-2580) supports it. Draft it next round."
+  }
+}

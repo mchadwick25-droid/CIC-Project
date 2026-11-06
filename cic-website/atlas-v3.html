@@ -693,487 +693,2813 @@ const DATA = {
  },
  "edges": [
   {
-   "from": "post-apostolic-house-church",
-   "to": "syriac-edessa-nisibis",
-   "type": "formed",
-   "confidence": "Contested",
-   "note": "Aramaic-speaking Christianity reached Edessa early, but by what route and hands scholars genuinely disagree."
-  },
-  {
-   "from": "post-apostolic-house-church",
-   "to": "alexandria-catechetical",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "Egyptian Christianity's origins are obscure in detail, but its second-century emergence out of the same scattered network is broadly accepted."
-  },
-  {
+   "id": "alexandria-catechetical--desert-monasticism",
    "from": "alexandria-catechetical",
    "to": "desert-monasticism",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "The desert movement grew in Alexandria’s shadow; Athanasius of Alexandria wrote the Life of Antony that carried it to the world."
+   "type": "gave rise to",
+   "confidence": "Contested",
+   "note": "Scholars disagree whether desert monasticism grew out of Alexandria's Christian teaching. Samuel Rubenson reads Antony's letters as Origenist. Athanasius, bishop of Alexandria, shows Antony as an Egyptian raised at home by Christian parents, who visited Alexandria during a persecution.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "desert.source.athanasius-vita-antonii",
+     "work": "Athanasius, Life of Antony 1 (trans. Robertson)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "31218-31219",
+     "locus": "Vita Antonii 1",
+     "quote": "In infancy he was brought up with his parents, knowing nought else but them and his home.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "desert.source.athanasius-vita-antonii",
+     "work": "Athanasius, Life of Antony 46 (trans. Robertson)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "32368-32369",
+     "locus": "Vita Antonii 46",
+     "quote": "when the holy martyrs were led to Alexandria, Antony also followed, leaving his cell",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Samuel Rubenson, The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995; Lund University Press, 1990)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "desert-monasticism--hieronymian-ascetic-literary",
    "from": "desert-monasticism",
    "to": "hieronymian-ascetic-literary",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome and Paula toured the Egyptian ascetic settlements; the circle's practice consciously imported the desert's renunciation."
+   "note": "Jerome wrote that the Roman ascetic Marcella learned of Antony and of Pachomius's monasteries from Athanasius and other Alexandrian exiles in Rome. He also described Paula going into the monks' cells at Nitria in Egypt. In Letter 22 he says Antony made the hermit life famous.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-ep127",
+     "work": "Jerome, Letter 127 (To Principia), section 5",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "26093-26095",
+     "locus": "Ep. 127 §5",
+     "quote": "monasteries in the Thebaid founded by Pachomius, and of the discipline laid down for virgins and for widows.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-ep108",
+     "work": "Jerome, Letter 108 (Epitaph of Paula), section 14",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "21394-21396",
+     "locus": "Ep. 108 §14",
+     "quote": "Was there any cell that she did not enter? Or any man at whose feet she did not throw herself?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-ep22",
+     "work": "Jerome, Letter 22 (To Eustochium), section 36",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "6727-6728",
+     "locus": "Ep. 22 §36",
+     "quote": "Antony made it famous, and—to go farther back still—John the Baptist set the first example of it.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "alexandria-catechetical--hieronymian-ascetic-literary",
    "from": "alexandria-catechetical",
    "to": "hieronymian-ascetic-literary",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Origen's textual scholarship (the Hexapla) is the direct ancestor of Jerome's Hebrew-testing project — even as Jerome turned publicly against Origen's theology."
+   "note": "In his preface to Job, written in 392, Jerome defends his new translation by pointing to Origen. Origen had marked every Old Testament book with obeli and asterisks to show where the old Greek text fell short.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.vulgate-prefaces",
+     "work": "Jerome, Preface to the Book of Job",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "47008-47011",
+     "locus": "Vulgate prefaces, Job",
+     "quote": "as though Origen had not marked all the books of the Old Testament with obeli and asterisks, which he either introduced or adopted from Theodotion, and inserted in the old translation,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
    "from": "cappadocian-nicene-pastoral-monastic-tradition",
    "to": "hieronymian-ascetic-literary",
-   "type": "contemporary with",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome heard Gregory of Nazianzus teach in Constantinople and calls him his teacher."
+   "note": "Jerome, writing in the 390s, calls Gregory of Nazianzus his instructor in the Scriptures. He recalls asking Gregory to explain a phrase in Luke, and Gregory joked his way out of answering.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-de-viris",
+     "work": "Jerome, Lives of Illustrious Men, chapter 117 (Gregory)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "41567-41568",
+     "locus": "De vir. ill. 117",
+     "quote": "a most eloquent man, and my instructor in the Scriptures,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 52 (To Nepotian), section 8",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "11494-11495",
+     "locus": "Ep. 52.8",
+     "quote": "My teacher, Gregory of Nazianzus, when I once asked him to explain Luke’s phrase",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
    "from": "syriac-edessa-nisibis",
    "to": "the-church-of-the-east-under-persia",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "The School of Nisibis and the Persian church carry this tradition's teaching directly onward after 410."
+   "note": "Barhadbeshabba, writing about 600, says Ephrem opened a school at Edessa after Nisibis passed to Persia in 363. He says Narsai later founded the school at Nisibis, drawing many students from Edessa. Sources differ on when Narsai left Edessa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20437-20438",
+     "locus": "Ephrem at Edessa",
+     "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20441-20442",
+     "locus": "the school after Ephrem",
+     "quote": "Après sa mort, l’école, loin de tomber en décadence, fit de considérables progrès, grâce à l’activité de ses disciples",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20738-20739",
+     "locus": "Cause of the Foundation of the Schools, Narsai at Nisibis",
+     "quote": "Barsauma put, par ces paroles et autres semblables, calmer l'esprit de Narsaï, qui voulut bien fonder une école à Nisibe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 73",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "189",
+     "locus": "Chron. Edessa 73 (An. 800 = 489)",
+     "quote": "An. 800, the school of the Persians was eradicated from Edessa.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "desert-monasticism--iconophile-byzantine-monasticism",
    "from": "desert-monasticism",
    "to": "iconophile-byzantine-monasticism",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "Basil visited Egypt; the whole Greek monastic tradition claims the desert as its root."
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double monasteries to keep Basil's rule. Its acts record images of 'the fathers and cultivators of the desert', but no text we hold shows iconophile monks drawing on Egypt directly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-letters-general-corpus",
+     "work": "Basil of Caesarea, Letter 223 (Against Eustathius of Sebasteia), section 2",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "39151-39153",
+     "locus": "Ep. 223 §2",
+     "quote": "And many did I find in Alexandria, and many in the rest of Egypt, and others in Palestine, and in Cœle Syria, and in Mesopotamia.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Second Council of Nicaea (787), Canon 20",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "41060-41062",
+     "locus": "Nicaea II, Canon XX",
+     "quote": "The double monasteries which are already in existence, shall observe the rule of our holy Father Basil, and shall be ordered by his precepts,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Second Council of Nicaea (787), Acts, session 1, profession of Basil of Ancyra",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "38673-38675",
+     "locus": "Nicaea II, Act I (profession of Basil of Ancyra)",
+     "quote": "Likewise also I receive and venerate the images of the holy and most laudable Apostles, prophets, and martyrs and the fathers and cultivators of the desert.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "unverified"
   },
   {
+   "id": "desert-monasticism--early-benedictine-italian-monasticism",
    "from": "desert-monasticism",
    "to": "early-benedictine-italian-monasticism",
-   "type": "transmitted to",
-   "confidence": "Documented",
-   "note": "John Cassian carried the desert's teaching to Gaul; Benedict's Rule commends his Conferences by name."
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Benedict's Rule tells monks to read 'the Lives of the Fathers' at their evening gatherings. Its closing chapter names the Fathers' Lives and Basil's Rule as models of monastic life. Its editor, Cardinal Gasquet, reads them as the Lives of the Fathers of the Desert.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 42 (Latin, Hunter Blair edition)",
+     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+     "lines": "6839-6841",
+     "locus": "RB 42",
+     "quote": "et legat unus Collationes, vel Vitas Patrum, aut certe aliquid quod aedificet audientes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 73 (English, Gasquet edition)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "4289-4291",
+     "locus": "RB 73",
+     "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives, and the Rule of our Holy Father St. Basil,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "desert-monasticism--insular-irish-monastic-christianity",
    "from": "desert-monasticism",
    "to": "insular-irish-monastic-christianity",
-   "type": "transmitted to",
-   "confidence": "Widely Accepted",
-   "note": "Via Gaul (Lérins, Martin of Tours); the route is secure in outline, thinner in specifics."
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "An eighth-century Irish monk on the Continent, mixing fact with legend, traced the Irish daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged this single late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor",
+     "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+     "lines": "1619-1620",
+     "locus": "Warren, Intro. p. xxv",
+     "quote": "Et beatus Basilius, frater ipsius sancti Gregorii, Antonius,? Paulus, Macarius, vel Iohannes, et Malchus,? secundum ordinem Patrum decantaverunt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Frederick E. Warren, introduction to The Antiphonary of Bangor, part II (Henry Bradshaw Society, 1895)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "desert-monasticism--coptic-christianity-under-early-islam",
    "from": "desert-monasticism",
    "to": "coptic-christianity-under-early-islam",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Post-Chalcedon Egyptian Christianity is the direct continuation of the desert tradition."
+   "note": "A Coptic manuscript copied in 1006 ends with a prayer for two monks of the Church of Saint Mercurius, near Edfu. It asks that they share the inheritance of the 'coenobite fathers' Pachomius, Theodorus, Palamon, Petronius and Horsiesios.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Colophon of the Coptic manuscript of the Mysteries of John (British Museum Or. 7026, dated 1006), in Budge, Coptic Apocrypha in the Dialect of Upper Egypt",
+     "file": "cic/texts/coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt",
+     "lines": "1210-1213",
+     "locus": "Budge 1913, Introduction, Colophon of MS Or. 7026 (second part)",
+     "quote": "and receive [their] inheritance with the coenobite fathers, Apa Pachomius, and Apa Theodorus, and Apa Palamon, and Apa Petronius, and Apa Horsiesios, and all the [other] coenobite fathers.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "alexandria-catechetical",
-   "to": "coptic-christianity-under-early-islam",
-   "type": "formed",
+   "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "alexandria-catechetical",
+   "type": "argued against",
    "confidence": "Documented",
-   "note": "…and of Alexandria's own catechetical tradition."
+   "note": "The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and calls Origen's later treatises blasphemous. Yet the same History honors Dionysius, who had directed the studies at Alexandria, as a patriarch.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria, Demetrius I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "10035-10037",
+     "locus": "History of the Patriarchs, Pt. I, Ch. IV (Demetrius)",
+     "quote": "And when Origen, whom Demetrius had cut off on account of his composing unlawful books of magic, and leaving the books of the holy writers, saw this, lie wrote many treatises containing many blasphemies.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria, Heraclas and Dionysius",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "11708-11712",
+     "locus": "Heraclas, 13th patriarch; Dionysius",
+     "quote": "And Heraclas gave the direction of the studies at Alexandria to Dionysius, and entrusted to him all the affairs of the patriarchate.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "the-waldensians",
+   "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "from": "waldensians-in-the-alps",
    "to": "the-waldensian-reformed-union",
-   "type": "transmitted to",
+   "type": "continued as",
    "confidence": "Contested",
-   "note": "The Waldensians adhered to the Reformation in 1532; how much earlier “proto-Protestant” continuity is real versus retrospective is a live scholarly argument."
+   "note": "In 1532 the Waldensian churches of the Alpine valleys resolved to hold their worship openly. Their confession of that year says its teaching had been handed down from father to son. Scholars disagree about how far this shows unbroken continuity with the Waldensians of the Alps, rather than a later reading backward.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Samuel Morland, The History of the Evangelical Churches of the Valleys of Piemont (1658), the Waldensian Confession of Faith of 1532",
+     "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+     "lines": "7947-7949",
+     "locus": "Book I, 'A brief Confession of Faith', 1532",
+     "quote": "containing  the  fum  of  the Dodrine,  which  was  taught  them  from  father  to  fon  according  to  the Word  of  God",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jean-Paul Perrin, History of the Old Waldenses anterior to the Reformation (English translation, 1624; Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "5232-5234",
+     "locus": "Part I, Book II",
+     "quote": "That  persecution  lasted  till  the  year  1532,  when  they  resolved to  order  their  churches  in  such  manner,  that  that  exercise,  which  was  before performed  in  covert,  might  be  manifest  to  every  one",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gabriel Audisio, The Waldensian Dissent: Persecution and Survival, c.1170-c.1570 (Cambridge University Press, 1999)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, The Reformation of the Heretics: The Waldenses of the Alps 1480-1580 (Oxford, 1984)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, Waldenses: Rejections of Holy Church in Medieval Europe (Blackwell, 2000)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
    "from": "lutheran-wittenberg-and-its-congregations",
    "to": "the-anabaptist-movements",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The Radical Reformation defined itself against the magisterial reformers' church-state settlement as much as against Rome."
+   "note": "Lutheran leaders condemned the Anabaptists by name in the Augsburg Confession of 1530. The confession rejects their refusal of infant baptism and their ban on Christians holding public office.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "314-315",
+     "locus": "Art. IX, Of Baptism",
+     "quote": "They condemn the Anabaptists, who reject the baptism of children, and say that children are saved without Baptism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "418-419",
+     "locus": "Art. XVI, Of Civil Affairs",
+     "quote": "They condemn the Anabaptists who forbid these civil offices to Christians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
    "from": "the-holiness-movement",
    "to": "azusa-street-and-early-pentecostalism",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "Azusa Street's leaders and vocabulary came directly out of the Holiness movement."
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Historians trace the Azusa Street revival of 1906 to the Holiness movement. They point to its teaching on sanctification and to leaders who came out of Holiness churches.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Cecil M. Robeck Jr., The Azusa Street Mission and Revival (2006)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Allan Anderson, An Introduction to Pentecostalism (Cambridge University Press, 2004)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
    "from": "azusa-street-and-early-pentecostalism",
    "to": "african-initiated-churches-harrist-aladura-zioni",
-   "type": "transmitted to",
-   "confidence": "Widely Accepted",
-   "note": "Aladura and Zionist movements drew on Pentecostal currents while being genuinely African-initiated — the balance is actively studied."
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Scholars disagree about how far Aladura and Zionist churches drew on Pentecostal teaching. Many began with African prophets and local leaders rather than missionaries, and the balance is still studied.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Bengt Sundkler, Bantu Prophets in South Africa (1948; 2nd ed. 1961)"
+    },
+    {
+     "kind": "secondary",
+     "work": "J. D. Y. Peel, Aladura: A Religious Movement among the Yoruba (Oxford University Press for the International African Institute, 1968)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Allan Anderson, African Reformation (2001)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "the-methodist-revival--the-holiness-movement",
    "from": "the-methodist-revival",
    "to": "the-holiness-movement",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "The Holiness movement understood itself as recovering Wesley's own doctrine of sanctification."
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In his Large Minutes, Wesley told preachers to urge believers to \"go on to perfection\": salvation from all sin through love filling the heart. Nineteenth-century Holiness writers took up this teaching and presented it as Wesley's own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "John Wesley, Minutes of Several Conversations (the Large Minutes)",
+     "file": "cic/texts/wesley-j_large-minutes_1850.txt",
+     "lines": "1106-1109",
+     "locus": "Large Minutes, on Christian perfection",
+     "quote": "Strongly  and  explicitly  exhort  all  believers  to  go  on to  perfection.  We  all  agree  to  defend  this  doctrine ; meaning  thereby,  salvation  from  all  sin,  by  the  love of  God  and  man  filling  the  heart.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
    "from": "latin-papal-church-gregorian",
    "to": "byzantine-church-after-1054",
-   "type": "in tension with",
+   "type": "argued against",
    "confidence": "Documented",
-   "note": "The Great Schism, in each side's own documents: Humbert's bull of excommunication laid on the altar of Hagia Sophia (16 July 1054); Cerularius's synodal condemnation of the legates the following week. Process honesty: 1054 was symbolic and legate-to-patriarch, not church-to-church; the 1204 sack of Constantinople sealed the estrangement (scholars dating the real rupture there - that reading Contested); the anathemas were mutually lifted in 1965."
+   "note": "In July 1054 Cardinal Humbert and two other papal legates issued a written excommunication of Patriarch Michael Cerularius of Constantinople. The text calls him a patriarch in name only and says heresies are sown among his followers every day.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9952-9954",
+     "locus": "no. 228, Humbert's bull of excommunication",
+     "quote": "Quan- tum autem  ad  Mchaelem,  abusive  dictum  patriarcham,  et  eius  stultitiae  fautores,  nimia zizania  haereseon  quotidie  seminantur  in  medio  eius.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9987-9988",
+     "locus": "no. 228, closing anathema",
+     "quote": "et  omnes  sequaces  eorum  in  praefatis  erroribus et  praesumptionibus,  sint  anathema  Maranatha",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. We hold only the Latin side's record of this break.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9904",
+     "locus": "no. 227, Humbert's account of 16 July 1054",
+     "quote": "praefati nuntii XVII. Kai. Augusti adierunt ecclesiam Sanctae Sophiae",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9907-9908",
+     "locus": "no. 227, the excommunication laid on the altar",
+     "quote": "chartam excommunicationis super principale altare posuerunt sub ocuhs praesentis cleri et popuh.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9918-9919",
+     "locus": "no. 227, Michael's reaction",
+     "quote": "Quos praefatus Michael haeresiarcha comperiens rediisse, quasi ad concilium conabatur adducere in ecclesiam Sanctae Sophiae sequenti die,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-baptists--the-black-church-in-america",
    "from": "the-baptists",
    "to": "the-black-church-in-america",
-   "type": "formed",
+   "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "The Black Baptist congregations (Silver Bluff c. 1773-75, First African Savannah 1788) are the Baptist parent line of the Black Church."
+   "note": "George Liele was baptized in a Baptist church in Georgia, and its white members called him to preach. David George recalled that \"Brother Palmer formed us into a church\" at Silver Bluff. Historians treat such Black Baptist congregations as one root of the Black Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "26766-26767",
+     "locus": "Register, 'An account of George Liele'",
+     "quote": "the  fame  minifter,  the  Rev. Matthew  Moore,  baptized  me",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "26777-26780",
+     "locus": "Register, 'An account of George Liele'",
+     "quote": "the  white  brethren feeing  my  endeavours,  and  that  the  word  of  the  Lord  feemed to  be  bleffed,  gave  me  a  call  at  a  quarterly  meeting  to preach  before  the  congregation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, David George's narrative",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "37528-37530",
+     "locus": "Register, 'An account of the life of Mr. David George'",
+     "quote": "Bro¬ ther  Palmer  formed  us  into  a  church,  and  gave  us  the  Lord’s fuppei  at  Silver  Bluff.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Albert J. Raboteau, Slave Religion: The 'Invisible Institution' in the Antebellum South (Oxford University Press, 1978; updated 2004)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Milton C. Sernett (ed.), African American Religious History: A Documentary Witness (Duke University Press, 2nd ed. 1999)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "the-methodist-revival--the-black-church-in-america",
    "from": "the-methodist-revival",
    "to": "the-black-church-in-america",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "Richard Allen's AME (1816) and AME Zion (1821) are Methodist bodies — the Methodist parent line of the Black Church."
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard Allen joined a Methodist society in Delaware. In April 1816, after clashes with white preachers and trustees, delegates from Philadelphia and Baltimore united as the African Methodist Episcopal Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "190-192",
+     "locus": "Life Experience, early life",
+     "quote": "I  joined  the  Methodist society  and  met  in  class  at  Benjamin  Wells's,  in  the forest,  Delaware  state.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "986-987",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "which  induced  us,  in  April  1816,  to  call  a  gen- eral meeting,  by  way  of  Conference.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "992-994",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  body,  under  the  name  of  the  Af- rican Methodist  Episcopal  Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
    "from": "latin-pastoral-congregational-christianity",
    "to": "the-reformed-cities-zurich-and-geneva",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Calvin's Institutes draws explicitly and heavily on Augustine's anti-Pelagian writings (De Praedestinatione Sanctorum, Contra Julianum) for total depravity, unconditional election, and irresistible grace -- Calvin named Augustine his primary authority next to Scripture itself. A direct theological line across eleven centuries with no institutional continuity -- influence, not identity."
+   "note": "In his Institutes, Calvin appeals to Augustine's authority on election and the grace of God. He writes that he could build a whole volume from Augustine's words and need no others.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes of the Christian Religion, vol. 2 (Beveridge translation, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+     "lines": "25388-25391",
+     "locus": "Inst. III.22 (on election)",
+     "quote": "Were we disposed to frame an entire volume out of Augustine, it were easy to show the reader that I have no occasion to use any other words than his",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes of the Christian Religion, vol. 2 (Beveridge translation, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+     "lines": "25379-25381",
+     "locus": "Inst. III.22 (on election)",
+     "quote": "Let the testimony of Augustine prevail with those who willingly acquiesce in the authority of the Fathers",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
    "from": "fundamentalism-1910-1970s",
    "to": "the-mainline-century-liberal-and-neo-orthodox",
-   "type": "in tension with",
-   "confidence": "Documented",
-   "note": "The Great Schism pattern run inside Protestantism, graded on both sides' own dated rupture texts: the five-point Doctrinal Deliverance (1910), Fosdick's 'Shall the Fundamentalists Win?' (21 May 1922), Machen's Christianity and Liberalism (1923) and the Auburn Affirmation (9 Jan 1924). The Social Gospel belongs inside this same tension and is named here rather than given its own separate connection. Any present-day continuation of the argument is a matter for dated statements, not asserted here."
+   "type": "broke with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Conservative and liberal Protestants in the United States split in the early 1920s. Harry Emerson Fosdick preached \"Shall the Fundamentalists Win?\" on 21 May 1922, J. Gresham Machen published Christianity and Liberalism in 1923, and the Auburn Affirmation followed in January 1924.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "George M. Marsden, Fundamentalism and American Culture (Oxford University Press, 1980)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Bradley J. Longfield, The Presbyterian Controversy: Fundamentalists, Modernists, and Moderates (Oxford University Press, 1991)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 2001-2006)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
    "from": "the-stone-campbell-restoration-movement",
    "to": "churches-of-christ-twentieth-century",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "The a cappella wing of the Stone-Campbell movement, formed at the division the 1906 U.S. religious census recorded in its separate Churches of Christ listing. This was a formation, not a continuation: a single identity can't split into two separate successors."
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Stone-Campbell movement divided in the early twentieth century. The Churches of Christ, who worship without instruments, appear as a separate body in the 1906 United States religious census.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
    "from": "the-stone-campbell-restoration-movement",
    "to": "disciples-of-christ-and-independent-christian-churches",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "The Disciples wing of the same 1906 division, on the same verified federal census listing. This is shown as a formation, not a continuation, for the same reason as its sibling connection above."
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Disciples of Christ came out of the same early twentieth-century division. The 1906 United States religious census recorded the split by listing the Churches of Christ separately.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
    "from": "desert-monasticism",
    "to": "gallic-monastic-ascetic-christianity",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "John Cassian lived among the Egyptian monks before founding his houses at Marseilles; the Institutes and Conferences are that transmission in written form."
+   "note": "Cassian wrote his Institutes at the request of a Gallic bishop, to set out the monastic customs he had seen throughout Egypt and Palestine. Gennadius says he later founded two monasteries at Marseilles.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.cassian-institutes",
+     "work": "John Cassian, Institutes, Preface",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "16443-16446",
+     "locus": "Institutes, Preface",
+     "quote": "and you charge me to declare, although with inexpert pen, the customs of the monasteries which we have seen observed throughout Egypt and Palestine, as they were there delivered to us by the Fathers",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.gennadius-de-viris-illustribus",
+     "work": "Gennadius, Lives of Illustrious Men, chapter 62 (Cassianus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "43243-43246",
+     "locus": "De viris illustribus 62",
+     "quote": "Scythian by race, ordained deacon by bishop John the Great, at Constantinople, and a presbyter at Marseilles, founded two monasteries, that is to say one for men and one for women,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
    "from": "gallic-monastic-ascetic-christianity",
    "to": "early-benedictine-italian-monasticism",
-   "type": "transmitted to",
-   "confidence": "Documented",
-   "note": "Benedict's Rule commends Cassian's Conferences by name and prescribes them as daily reading."
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Benedict's Rule tells monks to read the 'Collationes' at evening gatherings and names the 'Institutes' as models. Cassian's two works have those titles. Gennadius says Cassian founded two monasteries at Marseilles.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 42 (Latin, Hunter Blair edition)",
+     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+     "lines": "6839-6841",
+     "locus": "RB 42",
+     "quote": "et legat unus Collationes, vel Vitas Patrum, aut certe aliquid quod aedificet audientes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 73 (English, Gasquet edition)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "4289-4291",
+     "locus": "RB 73",
+     "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives, and the Rule of our Holy Father St. Basil,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.gennadius-de-viris-illustribus",
+     "work": "Gennadius, Lives of Illustrious Men, chapter 62 (Cassianus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "43243-43246",
+     "locus": "De viris illustribus 62",
+     "quote": "Scythian by race, ordained deacon by bishop John the Great, at Constantinople, and a presbyter at Marseilles, founded two monasteries, that is to say one for men and one for women,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
    "from": "gallic-monastic-ascetic-christianity",
    "to": "insular-irish-monastic-christianity",
-   "type": "transmitted to",
-   "confidence": "Widely Accepted",
-   "note": "The route via Gaul (Lérins, Martin of Tours) - secure in outline, thinner in specifics."
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "A single eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. Beyond that, there is only Patrick's own wish, in his Confession, to visit the brethren in Gaul. Warren, the 1895 editor of the Bangor Antiphonary, held that Ireland's Eastern features came through Gaul.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor",
+     "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+     "lines": "1622-1623",
+     "locus": "Warren, Intro. p. xxv",
+     "quote": "Inde postea beatissimus? Cassianus, qui Linerensi (sz?) monasterio beatum Honorium habuit comparem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Patrick, Confession, section 43",
+     "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+     "lines": "2442-2443",
+     "locus": "Confessio 43",
+     "quote": "but to go as far as Gaul in order to visit the brethren and to behold the face of the saints of my Lord",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Frederick E. Warren, introduction to The Antiphonary of Bangor, part II (Henry Bradshaw Society, 1895)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
    "from": "gallic-monastic-ascetic-christianity",
    "to": "merovingian-gallic-christianity",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Lérins-trained bishops staffed the Gallic sees that the Frankish church inherited."
+   "note": "Venantius Fortunatus, a poet of Merovingian Gaul, praises the Rule of Caesarius of Arles. Caesarius came from Lérins and became bishop of Arles. Gennadius records Faustus, first abbot of Lérins, who became bishop of Riez.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Venantius Fortunatus, verses on the Rule of Caesarius, quoted in Krusch's edition of the Life of Caesarius of Arles",
+     "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt",
+     "lines": "35663",
+     "locus": "Vita Caesarii (MGH SRM 3), verses at the head of p. 450",
+     "quote": "Qui fuit antistes Arelas de sorte Lerini,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.gennadius-de-viris-illustribus",
+     "work": "Gennadius, Lives of Illustrious Men, chapter 86 (Faustus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "43684-43685",
+     "locus": "De viris illustribus 86",
+     "quote": "first abbot of the monastery at Lerins, and then made bishop",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Ralph W. Mathisen, Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (CUA Press, 1989)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
    "from": "cappadocian-nicene-pastoral-monastic-tradition",
    "to": "anomoean-eunomian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Basil's Against Eunomius, Gregory of Nyssa's answer to Eunomius' reply, and Gregory of Nazianzus' Five Theological Orations are all directed at this party by name."
+   "note": "After Basil died, Gregory of Nyssa wrote a full treatise in reply to Eunomius, taking over the controversy from Basil. Gregory of Nazianzus opened his Theological Orations with a speech against the Eunomians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-nyssa-against-eunomius",
+     "work": "Gregory of Nyssa, Against Eunomius, Letter I (to Peter of Sebasteia)",
+     "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "lines": "2787-2789",
+     "locus": "Letter I",
+     "quote": "When our saintly Basil fell asleep, and I received the legacy of Eunomius' controversy, when my heart was hot within me with bereavement,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-nyssa-against-eunomius",
+     "work": "Gregory of Nyssa, Against Eunomius, Letter I (to Peter of Sebasteia)",
+     "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "lines": "2772-2774",
+     "locus": "Letter I",
+     "quote": "to collect the sheets of my reply to Eunomius which was suggested by your wise advice; so that my work is now arranged in a complete treatise",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+     "work": "Gregory of Nazianzus, Oration 27 (First Theological Oration), heading in the NPNF edition",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "30900",
+     "locus": "Or. 27, heading",
+     "quote": "A Preliminary Discourse Against the Eunomians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
    "from": "imperial-juridical-christianity",
    "to": "anomoean-eunomian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Canon 1 of Constantinople I (381) anathematizes Eunomians by name, and Theodosian legislation suppressed their assemblies."
+   "note": "A law of 19 July 381 forbade Eunomians and Arians to build churches. Canon 1 of the Council of Constantinople, held that year at Theodosius's summons, condemned the Eunomians by name. A law of 383 also banned their assemblies.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.8 (law of 19 July 381)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7064",
+     "locus": "CTh 16.5.8",
+     "quote": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris fabricandarum ecclesiarum copiam habere praecipimus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1 (Greek reading given in the editor's note)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13985-13987",
+     "locus": "Canon 1",
+     "quote": "the Eunomians or Anomæans, the Arians or Eudoxians, the Semi-Arians or Pneumatomachi, the Sabellians, Marcellians, Photinians and Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), preface to the canons",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13965-13968",
+     "locus": "Canon 1",
+     "quote": "Bishops out of different provinces assembled by the grace of God in Constantinople, on the summons of the most religious Emperor Theodosius, have decreed as follows:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "homoian-arian-christianity",
-   "to": "anomoean-eunomian-christianity",
-   "type": "in tension with",
+   "id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "from": "anomoean-eunomian-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "broke with",
    "confidence": "Documented",
-   "note": "The two wings split at Constantinople in 360, when the Homoian creed was imposed and Aetius exiled. The two are often confused with each other, but they are historically distinct movements."
+   "note": "In the reign of Valens, Eunomius broke with Eudoxius of Constantinople, who would not receive Eunomius's teacher Aetius into communion. Philostorgius, whose history survives only in Photius's summary, reports the same break from the Eunomian side.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History, Book 4 ch. 13",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "13045-13047",
+     "locus": "HE 4.13",
+     "quote": "separated himself from Eudoxius, and held assemblies apart, because after he had repeatedly entreated that his preceptor Aëtius might be received into communion, Eudoxius continued to oppose it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.photius-epitome-philostorgius",
+     "work": "Philostorgius, Church History (Photius's epitome, trans. Walford 1855), Book 9 ch. 4",
+     "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+     "lines": "338",
+     "locus": "HE 9.4",
+     "quote": "Aetius and Eunomius now broke off entirely from Eudoxius and Euzoius, and intrusted the church of Constantinople to Florentius,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
    "from": "cappadocian-nicene-pastoral-monastic-tradition",
    "to": "pneumatomachian-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Basil's On the Holy Spirit and Gregory of Nyssa's Against the Macedonians are both directed at this party."
+   "note": "Basil's On the Holy Spirit answers those who say the Spirit may not be ranked with the Father and the Son. Gregory of Nyssa's treatise on the Spirit is titled Against the Followers of Macedonius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-nyssa-on-the-holy-spirit",
+     "work": "Gregory of Nyssa, On the Holy Spirit, Against the Followers of Macedonius",
+     "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "lines": "27920",
+     "locus": "title",
+     "quote": "Against the Followers of Macedonius.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-nyssa-on-the-holy-spirit",
+     "work": "Gregory of Nyssa, On the Holy Spirit, Against the Followers of Macedonius",
+     "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "lines": "27939-27940",
+     "locus": "§1",
+     "quote": "What then is the charge they bring against us? They accuse us of profanity for entertaining lofty conceptions about the Holy Spirit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-on-the-holy-spirit",
+     "work": "Basil of Caesarea, On the Holy Spirit, ch. 10 (§24)",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "10556-10558",
+     "locus": "DSS 24",
+     "quote": "It is not permissible, they assert, for the Holy Spirit to be ranked with the Father and Son, on account of the difference of His nature and the inferiority of His dignity.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
    "from": "imperial-juridical-christianity",
    "to": "pneumatomachian-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Canon 1 of Constantinople I (381) condemns them by name, and the creed's expanded third article is the answer to them."
+   "note": "Canon 1 of the Council of Constantinople (381) anathematized the Semi-Arians, called Pneumatomachi, by name. A law of 383 also banned assemblies of Eunomians, Arians, Macedonians and Pneumatomachi.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13974-13976",
+     "locus": "Canon 1",
+     "quote": "and that of the Semi-Arians or Pneumatomachi, and that of the Sabellians, and that of the Marcellians, and that of the Photinians, and that of the Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
    "from": "cappadocian-nicene-pastoral-monastic-tradition",
    "to": "apollinarian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Gregory of Nazianzus' letters to Cledonius are the classic reply: what is not assumed is not healed."
+   "note": "Gregory of Nazianzus wrote two letters to the priest Cledonius against Apollinarius. In the first, he says Christ took on all of human nature, because what He has not assumed He has not healed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Gregory of Nazianzus, Letter 101 (To Cledonius the Priest Against Apollinarius)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44521-44522",
+     "locus": "Ep. 101",
+     "quote": "that a pamphlet by Apollinarius has come into my hands, the contents of which surpass all heretical pravity.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Gregory of Nazianzus, Letter 101 (To Cledonius the Priest Against Apollinarius)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44691-44692",
+     "locus": "Ep. 101",
+     "quote": "For that which He has not assumed He has not healed; but that which is united to His Godhead is also saved.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "imperial-juridical-christianity--apollinarian-christianity",
    "from": "imperial-juridical-christianity",
    "to": "apollinarian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Condemned at Rome in 377 and by name in canon 1 of Constantinople I."
+   "note": "Canon 1 of the Council of Constantinople (381) anathematized the Apollinarians by name. A law of March 388 barred them from city walls, from the company of honest citizens and from the communion of the saints.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1 (Greek reading given in the editor's note)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13985-13987",
+     "locus": "Canon 1",
+     "quote": "the Eunomians or Anomæans, the Arians or Eudoxians, the Semi-Arians or Pneumatomachi, the Sabellians, Marcellians, Photinians and Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.14 (law of 10 March 388)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7080",
+     "locus": "CTh 16.5.14",
+     "quote": "apollinarianos ceterosque diversarum haeresum sectatores ab omnibus locis iubemus inhiberi, a moenibus urbium, a congressu honestorum, a communione sanctorum;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "tertullian-s-voice--modalist-monarchianism",
    "from": "tertullian-s-voice",
    "to": "modalist-monarchianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Against Praxeas is the fullest Latin answer to the position, and coined much of the vocabulary the doctrine of the Trinity later used."
+   "note": "In Against Praxeas, Tertullian names Praxeas and charges that he 'crucified the Father'. He replies to those who call the order of the Trinity a division of the Unity.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Tertullian, Against Praxeas 1 (trans. Holmes)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "51054-51057",
+     "locus": "Adv. Prax. 1",
+     "quote": "By this Praxeas did a twofold service for the devil at Rome: he drove away prophecy, and he brought in heresy; he put to flight the Paraclete, and he crucified the Father.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Tertullian, Against Praxeas 3 (trans. Holmes)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "51169-51170",
+     "locus": "Adv. Prax. 3",
+     "quote": "The numerical order and distribution of the Trinity they assume to be a division of the Unity",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "roman-church-third-century--modalist-monarchianism",
    "from": "roman-church-third-century",
    "to": "modalist-monarchianism",
-   "type": "in tension with",
-   "confidence": "Contested",
-   "note": "Hippolytus accused Callistus of sheltering the teaching; the charge is inseparable from his rivalry for the see."
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Dionysius, bishop of Rome in the 260s, wrote against the Sabellians, as Athanasius later quoted him. Earlier, Hippolytus says Bishop Callistus excommunicated Sabellius. Hippolytus also accused Callistus of backing the modalists, so his account is openly hostile.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Dionysius of Rome, letter against the Sabellians, quoted in Athanasius, De Decretis 26 (NPNF 2.4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "28472-28473",
+     "locus": "De Decr. 26",
+     "quote": "of Dionysius, Bishop of Rome, who, while writing against the Sabellians, thus inveighs against those who dared to say so",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Dionysius of Rome, letter against the Sabellians, quoted in Athanasius, De Decretis 26 (NPNF 2.4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "28532-28533",
+     "locus": "De Decr. 26",
+     "quote": "he blasphemously says that the Son is the Father, and the Father the Son",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Hippolytus, Refutation of All Heresies IX (ANF 5), summary of contents",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "13224-13226",
+     "locus": "Ref. IX, contents of the book",
+     "quote": "What the blasphemous folly is of Noetus, and that he devoted himself to the tenets of Heraclitus the Obscure, not to those of Christ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Hippolytus, Refutation of All Heresies IX.7",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "13818-13819",
+     "locus": "Ref. IX.7 (ANF ch. VII)",
+     "quote": "he excommunicated Sabellius, as not entertaining orthodox opinions.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "syriac-edessa-nisibis--bardaisanite-current",
    "from": "syriac-edessa-nisibis",
    "to": "bardaisanite-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Ephraim's Prose Refutations answer Bardaisan at length, and are the reason most of his position survives."
+   "note": "Ephraim the Syrian wrote Prose Refutations against Mani, Marcion and Bardaisan. In them he names Bardaisan and attacks his teaching on the soul, space and matter.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.ephrem-prose-refutations",
+     "work": "Ephraim, Prose Refutations, Discourses to Hypatius (trans. Mitchell, vol. I, 1912)",
+     "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+     "lines": "628",
+     "locus": "Second Discourse to Hypatius, on Bardaisan's revelation",
+     "quote": "But it was revealed to this Bardaisan who was unable to prevent the dew which dropped upon his bed!",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "post-apostolic-house-church--roman-church-third-century",
    "from": "post-apostolic-house-church",
    "to": "roman-church-third-century",
-   "type": "formed",
+   "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "The Roman congregation of the house-church period is the same community, two generations on."
+   "note": "Irenaeus lists the Roman bishops down to Eleutherius in the 180s. Hippolytus shows Zephyrinus leading the same church a generation later. Peter Lampe argues Rome had no single ruling bishop until about 189 to 199.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.irenaeus-adversus-haereses",
+     "work": "Irenaeus, Against Heresies III.3.3 (ANF 1)",
+     "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+     "lines": "39849-39851",
+     "locus": "AH III.3.3",
+     "quote": "Soter having succeeded Anicetus, Eleutherius does now, in the twelfth place from the apostles, hold the inheritance of the episcopate.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Hippolytus, Refutation of All Heresies IX.3",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "13285-13286",
+     "locus": "Ref. IX.3 (ANF ch. II)",
+     "quote": "At that time, Zephyrinus imagines that he administers the affairs of the Church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Peter Lampe, From Paul to Valentinus: Christians at Rome in the First Two Centuries (English translation, 2003)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "roman-church-third-century--novatianism",
    "from": "roman-church-third-century",
    "to": "novatianism",
-   "type": "formed",
+   "type": "gave rise to",
    "confidence": "Documented",
-   "note": "The dispute over restoring the lapsed, argued under Callistus, is what breaks open in the schism of 251."
+   "note": "Eusebius reports that Novatus, a Roman presbyter, led those who denied the lapsed any hope of salvation. Editors identify him with Novatian. A Roman synod around 251 declared him and his followers strangers to the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VI.43.1 (trans. McGiffert)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "38265-38267",
+     "locus": "HE VI.43.1",
+     "quote": "Novatus, a presbyter of the church at Rome, being lifted up with arrogance against these persons, as if there was no longer for them a hope of salvation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VI.43.2 (trans. McGiffert)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "38291-38294",
+     "locus": "HE VI.43.2",
+     "quote": "A decree was confirmed by all, that Novatus and those who joined with him, and those who adopted his brother-hating and inhuman opinion, should be considered by the church as strangers",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
    "from": "desert-monasticism",
    "to": "palestinian-ascetic-monasticism-early",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Hilarion was Antony's disciple and brought Egyptian anchoritism to the Gaza coast."
+   "note": "Jerome's Life of Hilarion says Hilarion set out for the Egyptian desert and stayed about two months with Antony. It adds that no monk was known in Palestine or Syria before Hilarion.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 3",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30141-30143",
+     "locus": "Vita Hilarionis 3",
+     "quote": "At that time he heard of the famous name of Antony, which was in the mouth of all the races of Egypt. He was fired with a desire to see him, and set out for the desert.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 14",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30347-30348",
+     "locus": "Vita Hilarionis 14",
+     "quote": "For as yet there were no monasteries in Palestine, nor had anyone known a monk in Syria before the saintly Hilarion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
    "from": "palestinian-ascetic-monasticism-early",
    "to": "chalcedonian-monasticism-judean-desert-and-gaza",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "Chariton's laura at Pharan is the form the great Judean desert monasteries of the next century inherit."
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties the later monks to the earlier, so this rests on place and sequence alone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 14",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30347-30348",
+     "locus": "Vita Hilarionis 14",
+     "quote": "For as yet there were no monasteries in Palestine, nor had anyone known a monk in Syria before the saintly Hilarion.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Moschus, Spiritual Meadow, chapter 139 (Latin version in Migne)",
+     "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+     "lines": "15556-15557",
+     "locus": "Pratum spirituale 139",
+     "quote": "qui erat prepositus monasterii Pharan",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "unverified"
   },
   {
-   "from": "post-apostolic-house-church",
-   "to": "greek-apologists-second-century",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "The same Christians, turned outward: Justin taught at Rome and Melito was a bishop in Asia Minor, both part of this same movement."
-  },
-  {
+   "id": "greek-apologists-second-century--alexandria-catechetical",
    "from": "greek-apologists-second-century",
    "to": "alexandria-catechetical",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Justin's argument that the Word had sown seeds of truth among the philosophers is what Clement and Origen take much further."
+   "note": "Clement of Alexandria praises Tatian's Address to the Greeks as an accurate account of the age of Moses. Tatian belongs among the second-century Greek apologists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.clement-stromateis",
+     "work": "Clement of Alexandria, Stromata I.21 (ANF 2)",
+     "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+     "lines": "29726-29727",
+     "locus": "Strom. I.21",
+     "quote": "This has been discussed with accuracy by Tatian in his book",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "post-apostolic-house-church",
-   "to": "apocryphal-and-pseudepigraphal-literature",
-   "type": "contemporary with",
-   "confidence": "Documented",
-   "note": "The Protevangelium of James and the Infancy Gospel of Thomas were written during this same period and read by its churches."
-  },
-  {
+   "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
    "from": "gallic-nicene-episcopate",
    "to": "gallic-monastic-ascetic-christianity",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Hilary ordained Martin of Tours, who founded the West's first monastery at Ligugé; the monastic world grows on ground this one kept Nicene."
+   "note": "Sulpicius Severus says Martin sought out Bishop Hilary of Poitiers and lived with him for a time, and that Hilary made him an exorcist. After Hilary's return from exile, Martin set up a monastery near the town. Sulpicius also says Martin had already founded one at Milan.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-vita-martini",
+     "work": "Sulpicius Severus, Life of Martin, chapter 5",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "879",
+     "locus": "Vita Martini 5",
+     "quote": "For some time Martin made his abode with him.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-vita-martini",
+     "work": "Sulpicius Severus, Life of Martin, chapter 5",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "886-887",
+     "locus": "Vita Martini 5",
+     "quote": "He therefore appointed him to be an exorcist.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-vita-martini",
+     "work": "Sulpicius Severus, Life of Martin, chapter 6",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "950-951",
+     "locus": "Vita Martini 6",
+     "quote": "he established a monastery for himself at Milan.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-vita-martini",
+     "work": "Sulpicius Severus, Life of Martin, chapter 7",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "978-980",
+     "locus": "Vita Martini 7",
+     "quote": "and having been most joyously welcomed by him, he established for himself a monastery not far from the town.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "gallic-nicene-episcopate--homoian-arian-christianity",
    "from": "gallic-nicene-episcopate",
    "to": "homoian-arian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "De Trinitate is the major Latin answer to the Arian case, and De Synodis a primary account of the Homoian conciliar creeds."
+   "note": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Phoebadius of Agen, Liber contra Arianos (Caillau ed., 1836)",
+     "file": "cic/texts/phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt",
+     "lines": "15618",
+     "locus": "title",
+     "quote": "LIBER CONTRA ARIANOS.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.hilary-de-synodis",
+     "work": "Hilary of Poitiers, On the Councils (De Synodis), §2",
+     "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+     "lines": "7776-7779",
+     "locus": "Syn. 2",
+     "quote": "the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned as soon as reported and notified.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
    "from": "imperial-juridical-christianity",
    "to": "gallic-nicene-episcopate",
-   "type": "in tension with",
-   "confidence": "Documented",
-   "note": "Constantius II exiled Hilary in 356 for refusing to condemn Athanasius; the Council of Paris repudiated the creed the emperor had imposed at Ariminum."
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Hilary of Poitiers, a bishop in Gaul, was exiled after Saturninus won over the emperor. Hilary adds that bishops who opposed the imposed creed were driven into exile.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.hilary-de-synodis",
+     "work": "Hilary of Poitiers, On the Councils (De Synodis), §2",
+     "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+     "lines": "7773-7775",
+     "locus": "Syn. 2",
+     "quote": "that exile into which Saturninus, fearing his own conscience, had thrust me after beguiling the Emperor,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.hilary-de-synodis",
+     "work": "Hilary of Poitiers, On the Councils (De Synodis), §78",
+     "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+     "lines": "9522-9523",
+     "locus": "Syn. 78",
+     "quote": "Opposing bishops they drove into exile.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "R.P.C. Hanson, The Search for the Christian Doctrine of God: The Arian Controversy, 318-381 (T&T Clark, 1988)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+   "from": "gallic-nicene-episcopate",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "In On the Councils, Hilary tells the Eastern bishops that Arian bishops misled the emperor into imposing a form of faith on the churches. Hilary opposed that imperial creed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.hilary-de-synodis",
+     "work": "Hilary of Poitiers, On the Councils (De Synodis), §78",
+     "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+     "lines": "9519-9522",
+     "locus": "Syn. 78",
+     "quote": "For they did beguile an ignorant sovereign so successfully that though he was busy with war he expounded their infidel creed, and before he was regenerate by baptism imposed a form of faith upon the churches.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "R.P.C. Hanson, The Search for the Christian Doctrine of God: The Arian Controversy, 318-381 (T&T Clark, 1988)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
    "from": "anatolian-church-third-century",
    "to": "cappadocian-nicene-pastoral-monastic-tradition",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent for what is old."
+   "note": "Writing to the Neocaesareans around 375, Basil says his grandmother Macrina, who came from their city, taught him the words of Gregory the Wonderworker. He offers this as proof that his faith is sound.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-letters-general-corpus",
+     "work": "Basil of Caesarea, Letter 204 (To the Neocaesareans), §6",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "37062-37065",
+     "locus": "Ep. 204.6",
+     "quote": "I mean the celebrated Macrina who taught me the words of the blessed Gregory; which, as far as memory had preserved down to her day, she cherished herself, while she fashioned and formed me, while yet a child, upon the doctrines of piety.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "alexandria-catechetical--anatolian-church-third-century",
    "from": "alexandria-catechetical",
    "to": "anatolian-church-third-century",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Gregory studied five years under Origen at Caesarea and wrote the Panegyric on leaving; Methodius, a generation later, became Origen's first serious critic."
+   "note": "Eusebius says the brothers Gregory and Athenodorus studied under Origen for five years. Both then became bishops in Pontus. Gregory's farewell speech to Origen is traditionally his, though some scholars dispute its authorship.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 30",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "36681-36684",
+     "locus": "HE 6.30",
+     "quote": "Remaining with him five years, they made such progress in divine things, that although they were still young, both of them were honored with a bishopric in the churches of Pontus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.gregory-thaumaturgus-address-of-thanksgiving-to-origen",
+     "work": "Gregory Thaumaturgus (attributed), Oration and Panegyric Addressed to Origen, Argument XIX",
+     "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+     "lines": "4223-4225",
+     "locus": "Pan. 19",
+     "quote": "as by thy holy instructions thou hast been our rescuer when we enjoyed thy fellowship, so save us still by thy prayers in our separation.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "anatolian-church-third-century",
-   "to": "apocryphal-and-pseudepigraphal-literature",
-   "type": "contemporary with",
-   "confidence": "Documented",
-   "note": "A substantial part of what circulates under both men's names is marked dubious or spurious by the edition itself."
-  },
-  {
+   "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
    "from": "alexandria-catechetical",
    "to": "palestinian-church-pre-constantinian",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Origen moved to Caesarea around 231 and taught there for twenty years; the library grew from the books he brought."
+   "note": "Eusebius reports that Origen moved from Alexandria to Caesarea about 231, leaving the catechetical school to Heraclas. Eusebius adds that Pamphilus, a martyr of his own time, collected a library of Origen's works.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 26",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "36331-36332",
+     "locus": "HE 6.26",
+     "quote": "in the tenth year of the above-mentioned reign that Origen removed from Alexandria to Cæsarea,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "alx.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 32",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "36891-36893",
+     "locus": "HE 6.32",
+     "quote": "we give in that a catalogue of the library which he collected of the works of Origen and of other ecclesiastical writers.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
    "from": "palestinian-church-pre-constantinian",
    "to": "jerusalem-liturgical-pilgrimage-christianity",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "The Jerusalem entry begins in 325, where this one ends - Alexander's library and the province's episcopate are what Constantine's builders found there."
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Eusebius saw in the library at Aelia, as Jerusalem was then called, the letters that Bishop Alexander had gathered. Constantine later wrote to Macarius about building the Church of the Saviour. This rests on those two passages; neither traces the bishops between them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 20",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "35440-35441",
+     "locus": "HE 6.20",
+     "quote": "which was established by Alexander, who at that time presided over that church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-vita-constantini",
+     "work": "Eusebius, Life of Constantine, Book 3 ch. 30 (heading in the NPNF edition)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "64959-64960",
+     "locus": "VC 3.30",
+     "quote": "Constantine’s Letter to Macarius respecting the Building of the Church of our Saviour.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
    "from": "palestinian-church-pre-constantinian",
    "to": "imperial-juridical-christianity",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Eusebius wrote the Church History and the Life of Constantine out of this library, and lived through the persecution he recorded in Martyrs of Palestine."
+   "note": "Eusebius says he drew material for his Church History from the library at Aelia (Jerusalem) that Bishop Alexander founded. The letters in it were kept until his own time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 20",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "35441-35443",
+     "locus": "HE 6.20",
+     "quote": "We have been able to gather from that library material for our present work.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "alx.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History, Book 6 ch. 20",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "35440-35441",
+     "locus": "HE 6.20",
+     "quote": "which was established by Alexander, who at that time presided over that church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "latin-pastoral-congregational-christianity",
-   "to": "danubian-latin-christianity",
-   "type": "contemporary with",
-   "confidence": "Documented",
-   "note": "Latin-speaking and roughly coeval, and nothing more than that - which is why shelving Victorinus in Africa was wrong."
-  },
-  {
+   "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
    "from": "danubian-latin-christianity",
    "to": "hieronymian-ascetic-literary",
-   "type": "transmitted to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome reissued Victorinus' Commentary on the Apocalypse with the millenarian ending rewritten; the text survives in his revision."
+   "note": "Jerome lists Victorinus of Pettau in his catalog of Christian writers and judges his works noble in thought but weak in style. In Against Helvidius he cites Victorinus as an authority on the Lord's brothers.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-de-viris",
+     "work": "Jerome, Lives of Illustrious Men, chapter 74 (Victorinus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40946-40947",
+     "locus": "De vir. ill. 74",
+     "quote": "On this account his works though noble in thought, are inferior in style.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Against Helvidius, section 19",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "33681-33684",
+     "locus": "Adv. Helv. 19",
+     "quote": "But as regards Victorinus, I assert what has already been proved from the Gospel—that he spoke of the brethren of the Lord not as being sons of Mary, but brethren in the sense I have explained,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "danubian-latin-christianity--homoian-arian-christianity",
    "from": "danubian-latin-christianity",
    "to": "homoian-arian-christianity",
-   "type": "formed",
+   "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "The same provinces, fifty years on: Valens of Mursa and Ursacius of Singidunum made Illyricum the base of the Homoian episcopate."
+   "note": "Athanasius lists Ursacius of Singidunum and Valens of Mursa, bishops in the Danubian provinces, among the leaders of the Arian party. Modern scholars count them among the chief architects of the Homoian settlement.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+     "work": "Athanasius, Defence Against the Arians (Apologia contra Arianos), §48",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24210-24214",
+     "locus": "Apol. c. Ar. 48",
+     "quote": "Their leaders are now, after Eusebius and his fellows, Theodorus of Heraclea, Narcissus of Neronias in Cilicia, Stephanus of Antioch, George of Laodicea, Acacius of Cæsarea in Palestine, Menophantus of Ephesus in Asia, Ursacius of Singidunum in Mœsia, and Valens of Mursa in Pannonia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "R.P.C. Hanson, The Search for the Christian Doctrine of God: The Arian Controversy, 318-381 (T&T Clark, 1988)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
+   "id": "aquileian-christianity--hieronymian-ascetic-literary",
    "from": "aquileian-christianity",
    "to": "hieronymian-ascetic-literary",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "Jerome and Rufinus were both formed in the ascetic circle here in the 370s; the quarrel that defines I.9 is between two men who met at Aquileia."
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "The translation's editors say Jerome and Rufinus belonged to a company of young ascetics at Aquileia in the early 370s. Rufinus recalled being baptized in a monastery by Chromatius, Jovinus and Eusebius. In 374 Jerome wrote to the same three men from the desert.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.rufinus-apology",
+     "work": "Rufinus, Apology, section 4",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "46563-46565",
+     "locus": "Ruf. Apol. 1.4",
+     "quote": "I was already living in a monastery, where, as both he and all others know, about 30 years ago, I was made regenerate by Baptism,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 7 (To Chromatius, Jovinus and Eusebius), section 1",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "4164-4166",
+     "locus": "Ep. 7.1",
+     "quote": "When the reverend Evagrius transmitted it to me in the corner of the desert which stretches between the Syrians and the Saracens, my joy was intense.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 3 (To Rufinus), section 3",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "3817-3819",
+     "locus": "Ep. 3.3",
+     "quote": "dragged me from your side, severing with its impious wrench the bonds of affection in which we were knit together,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. H. Fremantle, introduction on the life and works of Rufinus, in Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "alexandria-catechetical--aquileian-christianity",
    "from": "alexandria-catechetical",
    "to": "aquileian-christianity",
-   "type": "transmitted to",
-   "confidence": "Documented",
-   "note": "Rufinus translated Origen into Latin, and for several works his version is the only text that survives."
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Rufinus translated Origen into Latin, and the editors of his works say he did much of this at Aquileia. In his preface to the First Principles, written in 397, he says he is continuing a task Jerome began. A preface of 410 recalls his promise to put Origen's work on the Law of Moses into Latin for his people.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.rufinus-prologue-de-principiis",
+     "work": "Rufinus, Preface to the translation of Origen's Peri Archon",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "45734-45735",
+     "locus": "Preface to Peri Archon",
+     "quote": "I am then following out a task begun by him and commended by his example;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Rufinus, Preface to Origen's Homilies on Numbers",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "58981-58984",
+     "locus": "Preface to Hom. Num.",
+     "quote": "for I well remember my promise that I would collect all that Adamantius wrote in his old age on the Law of Moses, and translate it into Latin for the use of our people.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. H. Fremantle, introduction on the life and works of Rufinus, in Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "ambrosian-milan-standalone--aquileian-christianity",
    "from": "ambrosian-milan-standalone",
    "to": "aquileian-christianity",
-   "type": "contemporary with",
+   "type": "in contact with",
    "confidence": "Documented",
-   "note": "Ambrose came up from Milan to preside over the Council of Aquileia in 381."
+   "note": "Ambrose of Milan and Valerian of Aquileia both sat at the Council of Aquileia, opened on 3 September 381. Ambrose says the western bishops met there on the emperor's order, and the Acts show him questioning Palladius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Council of Aquileia (381), Acts: Ambrose speaking",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "59832-59834",
+     "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3",
+     "quote": "nos in occidentis partibus conftituti conveni- mus ad Aquileienfium civitatem juxta impera- toris preceptum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Council of Aquileia (381), Acts: list of bishops present",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "59746-59747",
+     "locus": "Gesta Concilii Aquileiensis, opening",
+     "quote": "cum epifcopis , Aqui- lejenfium civitatis Valeriano, Ambrofio ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Council of Aquileia (381), Acts: Ambrose questioning Palladius",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "59826-59827",
+     "locus": "Gesta Concilii Aquileiensis",
+     "quote": "Ambrofius epifcopus dixit: Qui funt confor- tes veitri? Palladius dixit': Orientales epifcopi.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
    "from": "antiochene-church-third-century",
    "to": "antiochene-exegetical-christianity-chrysostom-ce",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "The exegetical tradition Diodore, Theodore and Chrysostom carry is usually traced to Lucian's work on the biblical text in this city."
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. No source we hold links his work to Diodore, Theodore or Chrysostom. The tie to the later Antiochene teachers is an inference, not a report.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.jerome-de-viris",
+     "work": "Jerome, Lives of Illustrious Men 77 (trans. Richardson)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40995-40998",
+     "locus": "De vir. ill. 77",
+     "quote": "a man of great talent, presbyter of the church at Antioch, was so diligent in the study of the Scriptures, that even now certain copies of the Scriptures bear the name of Lucian.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "antiochene-church-third-century--homoian-arian-christianity",
    "from": "antiochene-church-third-century",
    "to": "homoian-arian-christianity",
-   "type": "formed",
+   "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Arius and his early backers were Lucian's pupils and used the name; the Arian party's leadership came out of this school."
+   "note": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist', naming their teacher Lucian of Antioch. Philostorgius lists Lucian's disciples, among them Leontius, later bishop of Antioch, and a Eudoxius. Both reports come from Arius's own side.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Church History I.5 (Arius to Eusebius of Nicomedia; trans. Jackson)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "6063-6064",
+     "locus": "HE I.5",
+     "quote": "I bid thee farewell in the Lord, remembering our afflictions, my fellow-Lucianist",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.photius-epitome-philostorgius",
+     "work": "Photius, Epitome of Philostorgius, Book II, ch. 14 (trans. Walford)",
+     "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+     "lines": "138",
+     "locus": "Philostorgius II.14",
+     "quote": "Philostorgius recounts many other disciples of this martyr Lucian, and especially Eusebius, bishop of Nicomedia, Maris, bishop of Chalcedon, and Theognis, bishop of Nicaea",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.photius-epitome-philostorgius",
+     "work": "Photius, Epitome of Philostorgius, Book II, ch. 14 (trans. Walford)",
+     "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+     "lines": "138",
+     "locus": "Philostorgius II.14",
+     "quote": "and also Leontius, who afterwards became bishop of Antioch, and Antonius of Tarsus in Cilicia; likewise Menophantus, Numenius, and Eudoxius",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
-   "from": "antiochene-church-third-century",
-   "to": "modalist-monarchianism",
-   "type": "contemporary with",
-   "confidence": "Documented",
-   "note": "Paul's adoptionism and Sabellius' modalism are opposite refusals of the same developing account of the Son, argued in the same decades."
-  },
-  {
+   "id": "greek-apologists-second-century--latin-apologists",
    "from": "greek-apologists-second-century",
    "to": "latin-apologists",
-   "type": "formed",
-   "confidence": "Widely Accepted",
-   "note": "The same enterprise carried into Latin: the charges answered are the same charges, and the strategy of claiming the philosophers is inherited."
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In Against the Valentinians, Tertullian lists 'Justin, philosopher and martyr' among earlier writers whose books refuted heresy. This shows a Latin apologist knew a Greek apologist's work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Tertullian, Against the Valentinians 5 (ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "43160-43163",
+     "locus": "Adv. Val. 5",
+     "quote": "not only those who have lived before us, but those also who were contemporary with the heresiarchs themselves: for instance Justin, philosopher and martyr",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "tertullian-s-voice--latin-apologists",
    "from": "tertullian-s-voice",
    "to": "latin-apologists",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Tertullian's Apology of 197 opens the Latin case; the priority question between it and Minucius Felix's Octavius is still unsettled."
+   "note": "In his Divine Institutes, Lactantius says Tertullian had already argued the same cause in full in his book called the Apology.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Lactantius, Divine Institutes V.4.3 (Latin, CSEL 19)",
+     "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+     "lines": "23225",
+     "locus": "Div. inst. V.4.3, first part",
+     "quote": "quamquam Tertullianus eandem causam plene perorauerit",
+     "license": "CC BY-SA 4.0 (digital edition); printed 1890 edition public domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Lactantius, Divine Institutes V.4.3 (Latin, CSEL 19)",
+     "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+     "lines": "23226",
+     "locus": "Div. inst. V.4.3, second part",
+     "quote": "in eo libro cui Apologeticum nomen est, tamen quoniam",
+     "license": "CC BY-SA 4.0 (digital edition); printed 1890 edition public domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "latin-apologists--imperial-juridical-christianity",
    "from": "latin-apologists",
    "to": "imperial-juridical-christianity",
-   "type": "formed",
-   "confidence": "Documented",
-   "note": "Lactantius carried the Latin apologetic argument into Constantine's household - he tutored Crispus at Trier - and his De Mortibus Persecutorum, written from inside the settlement, stays with that entry while the rest of him stays here."
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Jerome reports that Lactantius, a Latin apologist, tutored Crispus, Constantine's son, in Gaul in his old age. No source here shows how far his argument shaped the court.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 80 (Lactantius)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "41051-41054",
+     "locus": "DVI 80",
+     "quote": "In his extreme old age he was tutor to Crispus Cæsar a son of Constantine in Gaul, the same one who was afterwards put to death by his father.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
    "from": "early-benedictine-italian-monasticism",
    "to": "roman-church-gregorian",
-   "type": "formed",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Gregory was a monk of his own foundation on the Caelian before he was bishop, and wrote the only life of Benedict there is."
+   "note": "In his Dialogues, Gregory tells Benedict's life and says Benedict wrote a rule for his monks, excellent for discretion. Gregory himself says he sought the haven of a monastery to escape the pressures of the world.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Gregory the Great, Dialogues II, chapter 36 (Gardner 1911, from the 1608 English)",
+     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+     "lines": "5566-5568",
+     "locus": "Dial. 2.36",
+     "quote": "for  he  wrote  a rule  for  his  monks,  both  excellent  for  discretion  and  also eloquent  for  the  style.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Gregory the Great, Epistle to Leander, prefixed to the Moralia (Library of the Fathers, 1844)",
+     "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+     "lines": "468-469",
+     "locus": "Epistle to Leander",
+     "quote": "At  length  being  anxious  to  avoid  all  these inconveniences,  I  sought  the  haven  of  the  monastery,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "roman-church-gregorian--anglo-saxon-christianity",
    "from": "roman-church-gregorian",
    "to": "anglo-saxon-christianity",
-   "type": "formed",
+   "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Gregory sent Augustine and forty monks to Kent in 596 and directed the mission by letter for the rest of his life."
+   "note": "Bede reports that Pope Gregory sent Augustine and several other monks to preach to the English in 596. They landed on the Isle of Thanet, in King Ethelbert's Kent, nearly forty strong.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, I.23 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "1809-1811",
+     "locus": "HE 1.23",
+     "quote": "sent the servant of God, Augustine, and with him several other monks, who feared the Lord,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, I.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "1929-1931",
+     "locus": "HE 1.25",
+     "quote": "In this island landed the servant of our Lord, Augustine, and his companions, being, as is reported, nearly forty men.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
+   "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
    "from": "roman-church-gregorian",
    "to": "byzantine-imperial-church-justinianic",
-   "type": "in tension with",
+   "type": "argued against",
    "confidence": "Documented",
-   "note": "Gregory refused the patriarch of Constantinople's title of universal bishop and answered it by calling himself servant of the servants of God."
+   "note": "In June 595 Gregory wrote to Emperor Maurice that John, patriarch of Constantinople, was trying to be called universal bishop. He says the title is a new name, taken against the Gospel and the canons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6884-6888",
+     "locus": "Reg. V.37",
+     "quote": "et tamen universalis apostolus non vocatur : et vir  sanctissimus consacerdos meus Iohannes vocari universalis  episcopus conatur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6909",
+     "locus": "Reg. V.37",
+     "quote": "decreta novum sibi usurpare nomen praesumit ?",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "anatolian-church-third-century--alexandria-catechetical",
+   "from": "anatolian-church-third-century",
+   "to": "alexandria-catechetical",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Methodius, bishop of Olympus in Lycia, wrote On the Resurrection against Origen and On Free Will against him too. Jerome lists both works. Photius summarizes the first as arguing that the body is not the soul's prison.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 83 (Methodius)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "41096-41099",
+     "locus": "DVI 83",
+     "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books <i>Against Porphyry</i> written in polished and logical style also a <i>Banquet of the ten virgins,</i> an excellent work <i>On the resurrection,</i> against Origen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Photius, Bibliotheca, codex 234, on Methodius's On the Resurrection",
+     "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+     "lines": "35864-35867",
+     "locus": "Phot. Bibl. 234",
+     "quote": "Read the Book on the Resurrection by St. Methodius, Bishop and Martyr, of which that which follows is a selection, that the body is not the fetter of the soul, as Origen thought,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "from": "imperial-juridical-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Constantinople met in 381 at the emperor Theodosius's summons. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Imperial laws of 381 and 383 also name the Arians when they bar heretics from building churches or holding assemblies.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.8 (law of 19 July 381)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7064",
+     "locus": "CTh 16.5.8",
+     "quote": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris fabricandarum ecclesiarum copiam habere praecipimus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1 (Greek reading given in the editor's note)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13985-13987",
+     "locus": "Canon 1",
+     "quote": "the Eunomians or Anomæans, the Arians or Eudoxians, the Semi-Arians or Pneumatomachi, the Sabellians, Marcellians, Photinians and Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), preface to the canons",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13965-13968",
+     "locus": "Canon 1",
+     "quote": "Bishops out of different provinces assembled by the grace of God in Constantinople, on the summons of the most religious Emperor Theodosius, have decreed as follows:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "from": "hieronymian-ascetic-literary",
+   "to": "alexandria-catechetical",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In Letter 84 Jerome calls Origen's doctrines poisonous and says they do violence to the Holy Scriptures. He adds that his own commentaries show he has always opposed them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 3",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "19043-19045",
+     "locus": "Ep. 84.3",
+     "quote": "His doctrines are poisonous, they are unknown to the Holy Scriptures, nay more, they do them violence.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 2",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "18968",
+     "locus": "Ep. 84.2",
+     "quote": "I have always opposed his doctrines.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--pelagianism",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "pelagianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book of Pelagius that defended human nature against the grace of God.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Augustine, On the Merits and Forgiveness of Sins, III.4 (NPNF 1.5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "4667",
+     "locus": "De pecc. mer. III.4",
+     "quote": "To the other points which Pelagius makes them urge who argue against original sin, I have already, I think, sufficiently and clearly replied in the two former books of my lengthy treatise.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Augustine, Retractations, on On Nature and Grace, as quoted in the NPNF introduction (NPNF 1.5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "6831",
+     "locus": "Retr., on De natura et gratia",
+     "quote": "there came into my hands a certain book of Pelagius’, in which he defends, with all the argumentative skill he could muster, the nature of man, in opposition to the grace of God whereby the unrighteous is justified and we become Christians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "from": "insular-irish-monastic-christianity",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Bede reports that King Oswald asked the Irish for a bishop, and they sent him Aidan, a monk of Iona, in 635. Bede adds that the English were taught the rules of monastic life by their Irish masters. The Roman mission of 597 was a second, separate source of English Christianity.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5726-5729",
+     "locus": "III.3, chapter title",
+     "quote": "The same king Oswald, asking- a bishop of the Scottish nation, had Aidan sent him, and granted him an episcopal see in the Isle of Lindisfarne.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5745-5747",
+     "locus": "III.3",
+     "quote": "Nor were they slow in granting his request ; but sent him Bishop Aidan, a man of singu- lar meekness, piety, and moderation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5791-5795",
+     "locus": "III.3",
+     "quote": "great and small, were, by their Scottish masters, instructed in the rules and observance of regular discipline ; for most of them that came to preach were monks. Bishop Aidan was himself a monk of the island called Hii",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+   "from": "the-anabaptist-movements",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Hutterite chronicle names Luther and Zwingli. It says they exposed the papacy's abuses but then leaned on worldly rulers and human help. This is one Anabaptist group's view, in a chronicle kept over several generations.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Geschicht-Buch der Hutterischen Brüder (Wolkan, 1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "5347-5349",
+     "locus": "the chronicle's opening account of Luther and Zwingli",
+     "quote": "aber dargegen kein besseres aufgericht, sondern alsbald sie sich an den weltlichen Gewalt gehängt, auf menschlich Hilf vertröstet",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-waldensians--waldensians-in-the-alps",
+   "from": "the-waldensians",
+   "to": "waldensians-in-the-alps",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Bernard Gui, an inquisitor writing in the 1320s, says the Waldensians' first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement carried on in the Alps after 1300.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "4984-4986",
+     "locus": "Part V, 'De secta Valdensium'",
+     "quote": "Valdensium itaque pre- dictorum prima heresis fuit et adhuc perseverat con- temptus ecclesiastice potestatis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Georges Mollat (ed.), Bernard Gui, Manuel de l'inquisiteur, vol. 1 (1926), editor's introduction",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "2085-2088",
+     "locus": "editor's introduction",
+     "quote": "Mais l’Inquisition et surtout Bernard Gui exercèrent des poursuites si actives contre eux qu'ils émigrèrent dans les Alpes dauphinoises et l'Italie du Nord"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, Waldenses: Rejections of Holy Church in Medieval Europe (Blackwell, 2000)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gabriel Audisio, The Waldensian Dissent: Persecution and Survival, c.1170-c.1570 (Cambridge University Press, 1999)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine, bishop of Hippo, wrote a long book to the Donatists after the 411 conference at Carthage between their bishops and his. He lists it in his Retractations. Bishop Optatus of Milevis had earlier written against the Donatist bishop Parmenian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+     "work": "Augustine, Retractationes (Post conlationem contra Donatistas)",
+     "file": "cic/texts/augustine_retractationes-lat_knoll-csel36.txt",
+     "lines": "12020-12022",
+     "locus": "Retr. II, chapter 'Post conlationem contra Donatistas, liber unus'",
+     "quote": "Librum etiam scripsi grandem satis, quantum existimo, diligenter ad ipsos Donatistas post conlationem, quam cum episcopis eorum habuimus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "24",
+     "locus": "Title of the work, Book I heading",
+     "quote": "ON THE SCHISM OF THE DONATISTS AGAINST PARMENIAN",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity",
+   "from": "donatism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Optatus quotes Parmenian, the Donatist bishop of Carthage, saying that a stained minister cannot wash away sins in baptism. Optatus also says the Donatists re-baptized the faithful. The Donatists applied this rule to Catholic clergy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "153",
+     "locus": "Book I, ch. 2-3 (Parmenian quoted by Optatus)",
+     "quote": "For you have said that 'It could not be that one who was stained should wash away sins in a baptism-that-is-not-Baptism",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "47",
+     "locus": "Book I, ch. 2",
+     "quote": "nor would they re-baptise the Faithful",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": "don.source.frend-the-donatist-church",
+     "work": "W. H. C. Frend, The Donatist Church: A Movement of Protest in Roman North Africa (Oxford, 1952)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism--2",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "donatism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Cyprian of Carthage was a leading African authority in the 250s. Augustine tells the Donatists that they keep quoting Cyprian's letters, his opinion and his council. He asks why they use Cyprian's authority to defend their schism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.petschenig-scripta-contra-donatistas-csel51-53",
+     "work": "Augustine, De baptismo contra Donatistas, Book II",
+     "file": "cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt",
+     "lines": "10206-10208",
+     "locus": "De baptismo II, ch. 3 (sec. 4); file marker 'III. 4.' under 'LIBER SECUNDUS'",
+     "quote": "uos certe nobis obicere soletis Cypriani litteras, Cypriani sententiam, Cypriani concilium; cur auctoritatem Cypriani pro uestro schismate adsumitis",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "imperial-juridical-christianity--donatism",
+   "from": "imperial-juridical-christianity",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Emperor Constantine granted the Donatists judges, who heard their case at Rome with Miltiades, the city's bishop. Optatus, a Catholic bishop, reports that a Donatist bishop then appealed. Constantine replied: 'Oh, mad daring of their fury!'",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "287",
+     "locus": "Book I, ch. 25 (Constantine's reply to Donatus's appeal)",
+     "quote": "Oh, mad daring of their fury! A Bishop has thought fit to appeal to us, as is done in the lawsuits of the Pagans.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "273",
+     "locus": "Book I",
+     "quote": "Nevertheless, he granted them judges----Maternus from the city of Cologne, Reticius from the city of Autun, Marinus of Aries.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "275",
+     "locus": "Book I",
+     "quote": "There were present Miltiades,191 Bishop of the city of Rome",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "donatism--imperial-juridical-christianity",
+   "from": "donatism",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Optatus says that agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus opposed Donatus, so this is a hostile report.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book III",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "1904",
+     "locus": "Book III (Donatus and the emperor's envoys)",
+     "quote": "What has the Emperor to do with the Church?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": "don.source.frend-the-donatist-church",
+     "work": "W. H. C. Frend, The Donatist Church: A Movement of Protest in Roman North Africa (Oxford, 1952)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In October 1529 Zwingli traveled to Marburg for a colloquy with Luther and Melanchthon on the Lord's Supper. Two Zurich writers record it: Zwingli himself, who says he preached there, and his friend Myconius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-latin-works-vol1",
+     "work": "Oswald Myconius, Life of Huldreich Zwingli (written in Latin, 1532), in Zwingli, Latin Works and Correspondence, vol. 1",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+     "lines": "1343-1345",
+     "locus": "Myconius, Life of Zwingli, ch. XI",
+     "quote": "He made also the long journey to Marburg, to the colloquy with Luther and Melanchthon upon the Lord's Supper.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Zwingli, On the Providence of God, dedicatory letter to Philip of Hesse (1530)",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol2_hinke1922.txt",
+     "lines": "6753-6754",
+     "locus": "Dedicatory letter to Philip of Hesse",
+     "quote": "the sermon that I delivered in your castle at Marburg.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Lutheran Formula of Concord (1577) has a chapter on the Lord's Supper that names the 'Zwinglian teachers'. It says they separated from the Augsburg Confession when it was presented. The chapter goes on to condemn the 'Sacramentarians'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord, Epitome, chapter VII (Of the Lord's Supper), in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "26604-26607",
+     "locus": "Epitome VII, opening paragraph",
+     "quote": "Although the Zwinglian teachers are not to be reckoned i among the theologians who acknowledge and profess the Augs- burg Confession, as they separated from them when this Con- fession was presented",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-anabaptist-movements",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In February 1525 a man tried in Zurich said Felix Manz had baptized him. In 1527 Zwingli wrote of the Baptists: 'They have gone out from us.' This is the Swiss branch only. Historians hold that Anabaptists in South Germany, Moravia and the Netherlands had other roots too.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Zurich council records, 1525, in Egli, Actensammlung zur Geschichte der Zuercher Reformation",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "18132-18133",
+     "locus": "Nr. 636 (7 Feb. 1525), Taeuferprocess, Nachgaenge: statement of Joerg Schad",
+     "quote": "Und habe sich lassen (be)güssen mit wasser, und syg Felix Manz töifer gesin.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Zurich council records, 1525, in Egli, Actensammlung",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "17846-17847",
+     "locus": "Nr. 624 (21 Jan. 1525): council order to Konrad Grebel and Felix Manz",
+     "quote": "besonders Konrad Grebel und (Felix) Manz sollen von ihrem « disputieren und fürnemen » abstehen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-latin-works-vol1",
+     "work": "Oswald Myconius, Life of Huldreich Zwingli (1532), in Zwingli, Latin Works and Correspondence, vol. 1",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+     "lines": "1088-1090",
+     "locus": "Myconius, Life of Zwingli, ch. VIII",
+     "quote": "Felix Manx, afterwards branded with the marks of Catabaptism, never to be gotten rid of",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-selected-works",
+     "work": "Zwingli, Refutation of the Tricks of the Catabaptists (Zurich, 31 July 1527), in Selected Works (Jackson, 1901)",
+     "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+     "lines": "5627-5628",
+     "locus": "Refutation of the Tricks of the Catabaptists, closing section",
+     "quote": "They have gone out from us, for they were not of us.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "John D. Roth and James M. Stayer (eds.), A Companion to Anabaptism and Spiritualism, 1521-1700 (Brill, 2007)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Zurich's council ordered Conrad Grebel and Felix Manz in January 1525 to stop disputing over baptism. Zwingli's 1527 Refutation of the Tricks of the Catabaptists accuses the Baptists of dividing and betraying the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Zurich council records, 1525, in Egli, Actensammlung",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "17846-17847",
+     "locus": "Nr. 624 (21 Jan. 1525)",
+     "quote": "besonders Konrad Grebel und (Felix) Manz sollen von ihrem « disputieren und fürnemen » abstehen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-selected-works",
+     "work": "Zwingli, Refutation of the Tricks of the Catabaptists (1527), in Selected Works",
+     "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+     "lines": "5626-5627",
+     "locus": "Refutation of the Tricks of the Catabaptists, closing section",
+     "quote": "So much about their division and betrayal of the church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451, after he refused three summonses to answer his accusers. A petition to Emperor Leo, quoted by the historian Evagrius, says Timothy Aelurus broke from the Catholic church right after Chalcedon. Both sources come from the Chalcedonian side.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon, Condemnation Sent to Dioscorus, in Percival, The Seven Ecumenical Councils (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20082-20084",
+     "locus": "Chalcedon, 'The Condemnation Sent by the Holy and Ecumenical Synod to Dioscorus'",
+     "quote": "We do you to wit that on the thirteenth day of the month of October you were deposed from the episcopate and made a stranger to all ecclesiastical order",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Evagrius Scholasticus, Ecclesiastical History II (Walford, 1846), quoting the Egyptian bishops' petition to Leo",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "3675-3678",
+     "locus": "Evagrius, HE II.5, the petition of the Egyptian bishops and Alexandrian clergy to Emperor Leo",
+     "quote": "Timotheus, immediately after the holy synod at Chalcedon, being at that time a presbyter, severed himself from the Catholic church and faith",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+   "from": "imperial-juridical-christianity",
+   "to": "persian-church-of-the-east-early",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "The acts of the 410 Synod of Seleucia-Ctesiphon call Bishop Marutha of Maipherqat the mediator of peace between East and West. The Persian bishops then agreed to follow the western forms of worship that Isaac and Marutha had taught them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Synodicon orientale, Synod of Mar Isaac (410), preface, ed. and trans. Chabot",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "16229-16230",
+     "locus": "Synod of Isaac (410), opening",
+     "quote": "qui fut le médiateur de la paix et de la concorde entre l'Orient et l'Occident",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Synodicon orientale, Synod of Mar Isaac (410), Canon XII, ed. and trans. Chabot",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "17202-17204",
+     "locus": "Synod of Isaac (410), Canon XII",
+     "quote": "nous exercerons tous uniformément le ministère selon le ministère occidental que les évèques Isaac et Marouta nous ont enseigné",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "lollardy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1409 Archbishop Thomas Arundel issued constitutions for England that ban unapproved writings of John Wickliff. They speak of a province 'defiled with a new and damnable name of Lollardy'. In 1415 the Council of Constance condemned forty-five articles of Wyclif.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Constitutions of Thomas Arundel (1409), as printed in Foxe, Acts and Monuments, vol. III (Cattley-Townsend, 1837)",
+     "file": "cic/texts/foxe_acts-and-monuments-v3_cattley-townsend1837.txt",
+     "lines": "20197-20198",
+     "locus": "Foxe III, 'The cruel Constitutions of Arundel' (marginal date A.D. 1409), closing 'Finally' clause",
+     "quote": "our province being infected with divers and imfruitful doc- trines, and defiled with a new and damnable name of Lollardy",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Fillastre, Gesta concilii Constanciensis, session of 6 July 1415, in Finke, Acta Concilii Constanciensis II",
+     "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "lines": "2573-2574",
+     "locus": "Fillastre Gesta, entry for 6 July (pp. 47-48)",
+     "quote": "Primo de Wiclef condempnavit XLV articulos",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-hussite-and-bohemian-brethren-movement",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The diary of Cardinal Fillastre records that on 6 July 1415 the Council of Constance condemned Jan Hus as a heretic. It stripped him of his orders and handed him to the secular court. The same session condemned Wyclif's errors.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Fillastre, Gesta concilii Constanciensis, session of 6 July 1415, in Finke, Acta Concilii Constanciensis II",
+     "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "lines": "2570-2571",
+     "locus": "Fillastre Gesta, entry for 6 July (pp. 47-48)",
+     "quote": "Die sabbati sequenti, que fuit VI. Julii, sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Fillastre, Gesta concilii Constanciensis, session of 6 July 1415, in Finke, Acta Concilii Constanciensis II",
+     "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "lines": "2577-2580",
+     "locus": "Fillastre Gesta, entry for 6 July (pp. 47-48)",
+     "quote": "Item eadem die tulit sentenciam contra magistrum Johannem Hus pre- sentem ipsumque de heresi condempnavit, degradavit et tradidit curie seculari.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--latin-papal-church-avignon-to-lateran-v",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In De ecclesia (1413) Jan Hus argued that neither the pope nor the cardinals are the head of the universal church. He wrote that Christ alone is its head and the predestinate are its body.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Jan Hus, De ecclesia (The Church), trans. D. S. Schaff (1915)",
+     "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+     "lines": "5257-5260",
+     "locus": "De ecclesia, argument that the pope is not the head of the church",
+     "quote": "Hence neither is the pope the head nor are the cardinals the whole body of the holy, universal, catholic church. For Christ alone is the head of that church, and his predestinate are the body",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+   "from": "lollardy",
+   "to": "the-hussite-and-bohemian-brethren-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "The English editor of Hus's On the Church reports that Hus took paragraph after paragraph from Wyclif's treatise on the same subject. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. Wyclif's teaching began Lollardy, but this shows his influence on Hus, not that English Lollard communities shaped the Bohemians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Wilhelm Fillastre, Gesta concilii Constanciensis, in Finke (ed.), Acta concilii Constanciensis, vol. 2 (1923)",
+     "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "lines": "2570-2573",
+     "locus": "Fillastre's diary, 6 July",
+     "quote": "sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti, illius damp- nanda memoria atque super ferenda sentencia contra magistrum Johannem Hus Boemum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "David S. Schaff, introduction to Jan Hus, De Ecclesia: The Church (1915)",
+     "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+     "lines": "1514-1516",
+     "locus": "Introduction",
+     "quote": "Huss appropriated paragraph after paragraph from his predecessor and transferred them often with little verbal change to his own pages."
+    },
+    {
+     "kind": "secondary",
+     "work": "David S. Schaff, introduction to Jan Hus, De Ecclesia: The Church (1915), citing Loserth",
+     "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+     "lines": "1516-1518",
+     "locus": "Introduction",
+     "quote": "The agreement has been convinc- ingly shown by Loserth, who prints the corresponding para- graphs side by side."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   }
  ],
  "movements": [
@@ -40171,10 +42497,10 @@ laneKeys.forEach(k=>{
 // Church of Roman Palestine before Constantine) has a Documented edge in from
 // Alexandria -- Origen's own move there in 231 -- not from Origin. The
 // Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
-// already-differentiated lanes, not the undifferentiated trunk. Only "formed"
-// and "transmitted to" edges count as lineage; "argued against", "contemporary
-// with", and "in tension with" are relationships, not ancestry.
-const LINEAGE_TYPES=new Set(['formed','transmitted to']);
+// already-differentiated lanes, not the undifferentiated trunk. Only "gave
+// rise to", "continued as" and "influenced" count as lineage; "argued
+// against", "broke with" and "in contact with" are relationships, not ancestry.
+const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
 const laneParent={};
 laneKeys.forEach(k=>{
   if(k===0)return;
@@ -40244,14 +42570,14 @@ const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 // Lane drift toward -- or away from -- a related lane: the scope note's own
 // "deliberately not in this rough pass" list named this ("lane drift toward
 // related lanes") as a real proposed rule, not an invented one. Built from
-// the same edges already on the map, not new claims: 'contemporary with'
+// the same edges already on the map, not new claims: 'in contact with'
 // pulls two lanes' water toward each other over the real years both
-// movements were active; 'argued against' and 'in tension with' push them
-// apart over that same documented window. 'formed'/'transmitted to' are
+// movements were active; 'argued against' and 'broke with' push them
+// apart over that same documented window. The lineage types are
 // excluded -- they already drive the genesis/parent convergence above, and
 // reusing them here as generic attraction would draw the same lineage twice.
-const ATTRACT_TYPES=new Set(['contemporary with']);
-const REPEL_TYPES=new Set(['argued against','in tension with']);
+const ATTRACT_TYPES=new Set(['in contact with']);
+const REPEL_TYPES=new Set(['argued against','broke with']);
 const DRIFT_MAX=32; // px -- a firm nudge, not a lane change: about a quarter
   // of the ~124-135px gap between neighboring lanes, so a pulled or pushed
   // lane never reads as having crossed into a neighbor's own water.
@@ -40754,7 +43080,7 @@ function render(){
   // back only its own connections -- on demand, not all-at-once.
   DATA.edges.forEach(edg=>{
     const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
-    const dash = edg.confidence==='Contested' ? '2,3' : edg.confidence==='Widely Accepted' ? '6,3' : 'none';
+    const dash = EDGE_DASH[edg.confidence] || 'none';
     const d=`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
       d, fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
@@ -40763,7 +43089,7 @@ function render(){
       // the 292 movements); the 69 relationship lines between them had none
       // of that -- reachable and clickable with a mouse only, with no way for
       // a keyboard user to open one's own panel at all.
-      'aria-label':`${a.shortName||a.name} and ${b.shortName||b.name}, ${edg.type}, ${edg.confidence}`
+      'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
@@ -41089,8 +43415,17 @@ function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];retu
 function tipFor(m){
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region||'')}</div><div class="s">${esc(statusLabel(m))}</div>`;
 }
+const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
+const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
+function edgeSentence(edg,a,b){
+  return `${a.shortName||a.name} ${edg.type} ${b.shortName||b.name}`;
+}
+function edgeHeading(edg,a,b){
+  const arrow=SYMMETRIC_EDGE_TYPES.has(edg.type)?'↔':'→';
+  return `${esc(a.shortName||a.name)} ${arrow} ${esc(b.shortName||b.name)}`;
+}
 function tipForEdge(edg,a,b){
-  return `<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
+  return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function tipForRiver(f,count,minYear,maxYear){
   return `<div class="n">${esc(f.lbl)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
@@ -41507,9 +43842,10 @@ function openPanelStory(s){
 }
 function openPanelEdge(edg,a,b){
   hideTip();
-  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
-    <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
-    <p>${esc(edg.note)}</p>`;
+  const sources=(edg.sources||[]).map(s=>`<li>${esc(s.work)}${s.locus?`, ${esc(s.locus)}`:''}</li>`).join('');
+  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${edgeHeading(edg,a,b)}</h2>
+    <p class="meta">${esc(edgeSentence(edg,a,b))} · ${esc(edg.confidence)}</p>
+    <p>${esc(edg.note)}</p>${sources?`<h3>Sources</h3><ul>${sources}</ul>`:''}`;
   showPanel();
   syncWorldURL(null);
 }

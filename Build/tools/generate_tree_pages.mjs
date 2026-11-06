@@ -119,45 +119,40 @@ function formatSourcesList(sources) {
   return html;
 }
 
+const LINEAGE_HEADINGS = [
+  ['gave rise to', 'in', 'Grew Out Of'],
+  ['gave rise to', 'out', 'Gave Rise To'],
+  ['continued as', 'in', 'Continues'],
+  ['continued as', 'out', 'Continued As'],
+  ['influenced', 'in', 'Influenced By'],
+  ['influenced', 'out', 'Influenced'],
+  ['argued against', 'out', 'Argued Against'],
+  ['argued against', 'in', 'Opposed By'],
+  ['broke with', 'both', 'Broke With'],
+  ['in contact with', 'both', 'In Contact With'],
+];
+
 function buildLineageHtml(movementId, movement) {
+  const incoming = edgesTo.get(movementId) || [];
+  const outgoing = edgesFrom.get(movementId) || [];
   let html = '';
-
-  // Edges going in (what formed this)
-  const parentsEdges = edgesTo.get(movementId) || [];
-  if (parentsEdges.length > 0) {
+  for (const [type, side, heading] of LINEAGE_HEADINGS) {
+    const items = [];
+    if (side !== 'out') incoming.filter(e => e.type === type).forEach(e => items.push([e, e.from]));
+    if (side !== 'in') outgoing.filter(e => e.type === type).forEach(e => items.push([e, e.to]));
+    const rows = items.filter(([, otherId]) => movementMap.has(otherId));
+    if (!rows.length) continue;
     html += '<div class="lineage-section">\n';
-    html += '<h3>Formed From</h3>\n<ul class="lineage-list">\n';
-    parentsEdges.forEach(edge => {
-      const parent = movementMap.get(edge.from);
-      if (parent) {
-        html += `<li><a href="${parent.id}.html">${escapeHtml(parent.name)}</a>`;
-        if (edge.note) {
-          html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
-        }
-        html += '</li>\n';
-      }
+    html += `<h3>${heading}</h3>\n<ul class="lineage-list">\n`;
+    rows.forEach(([edge, otherId]) => {
+      const other = movementMap.get(otherId);
+      html += `<li id="${escapeHtml(edge.id)}"><a href="${other.id}.html">${escapeHtml(other.name)}</a>`;
+      html += ` <span class="lineage-confidence">${escapeHtml(edge.confidence)}</span>`;
+      if (edge.note) html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
+      html += '</li>\n';
     });
     html += '</ul>\n</div>\n';
   }
-
-  // Edges going out (what it formed/influenced)
-  const childrenEdges = edgesFrom.get(movementId) || [];
-  if (childrenEdges.length > 0) {
-    html += '<div class="lineage-section">\n';
-    html += '<h3>Formed or Influenced</h3>\n<ul class="lineage-list">\n';
-    childrenEdges.forEach(edge => {
-      const child = movementMap.get(edge.to);
-      if (child) {
-        html += `<li><a href="${child.id}.html">${escapeHtml(child.name)}</a>`;
-        if (edge.note) {
-          html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
-        }
-        html += '</li>\n';
-      }
-    });
-    html += '</ul>\n</div>\n';
-  }
-
   return html;
 }
 
@@ -268,6 +263,7 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
 .sources-list a{font-weight:600}

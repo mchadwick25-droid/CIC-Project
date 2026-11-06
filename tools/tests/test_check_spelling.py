@@ -279,3 +279,25 @@ def test_forms_found_by_the_site_recheck_are_flagged():
     ):
         assert words(f"a {old} thing") == [(old, new)], old
     assert words("Bedford gaol") == []
+
+
+def test_json_verbatim_quote_field_is_skipped():
+    import json
+    doc = {"edges": [{"note": "Zwingli travelled to Marburg.",
+                      "sources": [{"work": "x", "quote": "nor would they re-baptise the Faithful"}]}]}
+    text = json.dumps(doc, indent=1, ensure_ascii=False) + "\n"
+    assert sorted(f.word for f in cs.scan_json(text, "x.json")) == ["travelled"]
+    fixed = json.loads(cs.fix_json(text))
+    assert fixed["edges"][0]["sources"][0]["quote"] == "nor would they re-baptise the Faithful"
+    assert fixed["edges"][0]["note"] == "Zwingli traveled to Marburg."
+
+
+def test_html_single_quoted_title_written_with_entities_is_skipped():
+    page = "<p>Mills, &#039;The naturalisation of Andean Christianities&#039; and the colour of it.</p>\n"
+    assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]
+    assert "naturalisation" in cs.fix_html(page)
+
+
+def test_html_entity_apostrophe_inside_a_word_is_not_a_quote_mark():
+    page = "<li>Carey&#039;s Enquiry (1792) and the colour of it.</li>\n"
+    assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]

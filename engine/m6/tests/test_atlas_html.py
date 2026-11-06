@@ -144,3 +144,13 @@ def test_written_file_is_still_valid_json_at_the_data_array(tmp_path):
     )
     movements = atlas_html.read_movements(path)
     assert json.dumps(movements)  # round-trips cleanly
+
+
+def test_write_edges_replaces_array_and_reports_change(tmp_path):
+    path = _write_fixture(tmp_path)
+    new_edges = [{"id": "movement-a--movement-b", "from": "movement-a", "to": "movement-b",
+                  "type": "influenced", "note": "A note with [brackets] inside."}]
+    assert atlas_html.write_edges(path, new_edges) is True
+    assert atlas_html.read_edges(path) == new_edges
+    assert atlas_html.read_movements(path)[0]["id"] == "movement-a"
+    assert atlas_html.write_edges(path, new_edges) is False

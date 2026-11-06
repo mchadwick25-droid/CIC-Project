@@ -256,13 +256,26 @@ _TAG = re.compile(r"<(script|style)\b.*?</\1>|<!--.*?-->|<[^>]+>", re.DOTALL | r
 
 
 _ENTITY_QUOTES = re.compile(r"&quot;|&#34;|&#x22;|&ldquo;|&rdquo;", re.IGNORECASE)
+_ENTITY_APOSTROPHES = re.compile(r"&#0?39;|&#x27;|&apos;|&lsquo;|&rsquo;", re.IGNORECASE)
 _ATTRS = re.compile(r'\b(alt|title|aria-label|content)="([^"]*)"')
 
 
 def _html_blanked(text: str) -> str:
     """The page with tags blanked and entity quotation marks turned into real ones of the same length."""
     blanked = _TAG.sub(lambda m: re.sub(r"[^\n]", " ", m.group(0)), text)
-    return _ENTITY_QUOTES.sub(lambda m: ("\u201c" if m.group(0).lower() == "&ldquo;" else "\u201d" if m.group(0).lower() == "&rdquo;" else '"') + " " * (len(m.group(0)) - 1), blanked)
+    blanked = _ENTITY_QUOTES.sub(lambda m: ("\u201c" if m.group(0).lower() == "&ldquo;" else "\u201d" if m.group(0).lower() == "&rdquo;" else '"') + " " * (len(m.group(0)) - 1), blanked)
+    return _ENTITY_APOSTROPHES.sub(_entity_apostrophe, blanked)
+
+
+def _entity_apostrophe(m: re.Match) -> str:
+    """A single quotation mark written as an entity, kept beside the text it touches so that a
+    'single-quoted title' still reads as quoted: padding goes on the side away from the words."""
+    pad = " " * (len(m.group(0)) - 1)
+    following = m.string[m.end():m.end() + 1]
+    preceding = m.string[m.start() - 1:m.start()] if m.start() else ""
+    if preceding.isalnum() and following.isalnum():
+        return m.group(0)
+    return pad + "'" if following and not following.isspace() else "'" + pad
 
 
 def _html_edits(text: str) -> list[tuple[int, str]]:
@@ -291,7 +304,7 @@ def fix_html(text: str) -> str:
     return text
 
 
-_JSON_SKIP_KEYS = _SKIP_KEYS | {"shortName", "informalName", "atlasId", "url", "href", "slug", "glyph", "chip"}
+_JSON_SKIP_KEYS = _SKIP_KEYS | {"shortName", "informalName", "atlasId", "url", "href", "slug", "glyph", "chip", "quote"}
 _JSON_TOKEN = re.compile(r'"(?:[^"\\]|\\.)*"|[{}\[\],:]')
 
 
