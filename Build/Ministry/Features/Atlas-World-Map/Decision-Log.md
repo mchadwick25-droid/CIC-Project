@@ -58,6 +58,12 @@ uses census edges only, with no hand-placed bends. Rivers never cross or touch.
   active then. Rivers lean together or apart where the record shows a link." Reading Ease
   70.5, grade 5.8.
 
+**Same-river links arc out (Mark, on the first screenshots: "the dotted lines in the swimlane
+are not visible, we need to arc them out of the swim lane and back in").** 41 of the 86 links
+join two movements on the same river, and a straight line ran under the water. Each now leaves
+on the side with more open ground, clears the river's widest point between its ends by 22 px,
+and comes back in. Measured: all 41 clear their own river; none crosses a neighbor's water.
+
 **Checked.** Chromium, dark and forced-light themes, full-map and close zoom, phone width; no
 page errors; the switch check unchanged (Africa hidden: 12 of 13 rivers, 267 of 292 dots,
 68 of 86 links); `validate-census.mjs`, `atlas-check --edges-only`, the m6 tests and the
