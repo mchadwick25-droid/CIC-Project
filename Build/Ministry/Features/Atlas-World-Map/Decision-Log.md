@@ -13,6 +13,22 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-06 — Change order: the permanence promise gains the domain rule
+
+**Decided (Mark, 2026-11-06, Church Family Tree convergence).** The tree moves to
+`https://www.churchfamilytree.com`. The permanence promise in `meta.identifiers`, set the
+same day, gains one rule. Tree pages and their link anchors on `churchinconversation.com`
+redirect permanently, in one hop, to the same path on the new domain. The data file is
+served byte for byte at both addresses and never redirected. The new domain is the named
+home. Shipped as data release 2 with the move.
+
+**Why.** The researcher was told to cite `churchinconversation.com/tree/<id>` and
+`/data/world-census.json`. Breaking either would break the promise. Scripts often do not
+follow redirects, so the data file is served directly instead.
+
+**Next action.** The Church Family Tree build thread, Phase 1. Full record:
+`Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`.
+
 ## 2026-11-06 — Census lineage links: six types, sourced and quoted, permanent IDs, one rigor pass
 
 **Why.** An outside researcher (Ishayahu Lastov, an open argument-graph project on Christian controversies) asked to reuse the census's lineage links and source pointers. A read-only audit of all 69 links that day found: most "Documented" grades rated the evidence for the events a note cites, not the relationship the link claims; "formed" covered three different claims; "contemporary with" claimed nothing; no direction was defined for "argued against"; no link carried its own sources or an ID; several notes carried internal build text into the public site; candidate factual slips in four notes; and missing well-documented tensions (Donatism, a live world, had no links at all). `atlas-v3.html`'s embedded edges were a hand-synced copy that had already drifted from the census on four notes.

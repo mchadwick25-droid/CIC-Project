@@ -7435,3 +7435,7 @@ These two reads are the only reviews this ruling covers for cappadocian.
 - **Follow-on for the Church Family Tree plan:** the data needs a review-status field that tells AI-checked, partner-contributed and scholar-reviewed apart, per claim or per movement. It is scheduled with the tree's standalone release.
 
 **Production.** The page reaches the public site only when Mark promotes `main` to `live` through `CiC_Promotion_Runbook.md`.
+
+## 2026-11-06 - Letter to the outside researcher sent (project lead)
+
+Mark sent the letter to Ishayahu Lastov on 2026-11-06, after the license policy went live. It points him to `churchinconversation.com/license`, carries his interim permission over under the Ministry and Scholarship Permission, asks which license his project uses, states the AI-checked review status, and invites feedback and academic review. His reply is awaited.
