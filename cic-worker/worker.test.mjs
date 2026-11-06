@@ -187,16 +187,18 @@ test('bucket: a path with encoded characters is looked up by its decoded key', a
   assert.equal(res.status, 200);
 });
 
-test('the headers added to bucket answers match the baseline of cic-website/_headers', () => {
-  const text = fs.readFileSync(new URL('../cic-website/_headers', import.meta.url), 'utf8');
-  const block = text.split('\n').reduce((acc, line) => {
-    if (/^\/\*\s*$/.test(line)) acc.on = true;
-    else if (/^\S/.test(line) && acc.on) acc.on = false;
-    else if (acc.on && /^\s+[A-Za-z-]+:/.test(line)) {
-      const [k, ...v] = line.trim().split(':');
-      acc.map[k.trim()] = v.join(':').trim();
-    }
-    return acc;
-  }, { on: false, map: {} }).map;
-  assert.deepEqual(BASELINE_HEADERS, block);
-});
+for (const site of ['cic-website', 'cft-website']) {
+  test(`the headers added to bucket answers match the baseline of ${site}/_headers`, () => {
+    const text = fs.readFileSync(new URL(`../${site}/_headers`, import.meta.url), 'utf8');
+    const block = text.split('\n').reduce((acc, line) => {
+      if (/^\/\*\s*$/.test(line)) acc.on = true;
+      else if (/^\S/.test(line) && acc.on) acc.on = false;
+      else if (acc.on && /^\s+[A-Za-z-]+:/.test(line)) {
+        const [k, ...v] = line.trim().split(':');
+        acc.map[k.trim()] = v.join(':').trim();
+      }
+      return acc;
+    }, { on: false, map: {} }).map;
+    assert.deepEqual(BASELINE_HEADERS, block);
+  });
+}

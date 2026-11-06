@@ -147,6 +147,7 @@ jobs:
       crossworld: ${{ steps.filter.outputs.crossworld }}
       checkertests: ${{ steps.filter.outputs.checkertests }}
       docker: ${{ steps.filter.outputs.docker }}
+      tree: ${{ steps.filter.outputs.tree }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -204,6 +205,14 @@ jobs:
             # tradition-page copy edit) has no reason to run the
             # engine-tests battery, the same budget discipline `library`
             # above already exists for.
+            tree:
+              - 'cic-website/**'
+              - 'cft-website/**'
+              - 'cic-worker/**'
+              - 'tools/build_tree_site.mjs'
+              - 'wrangler.jsonc'
+              - 'wrangler.cft.jsonc'
+              - '.github/workflows/**'
             site:
               - 'cic-website/**'
               - 'records/**'
@@ -311,6 +320,35 @@ jobs:
   # Not gated on the `changes` filter on purpose: it reads only .md files,
   # needs no dependencies, and costs seconds - and a docs-only commit is
   # exactly the kind that breaks a path.
+  # The Church Family Tree site is assembled from cic-website/ and cft-website/
+  # by tools/build_tree_site.mjs; it fails when a copy differs from its source.
+  tree-site:
+    needs: changes
+    if: needs.changes.outputs.tree == 'true'
+    name: Tree site build (copies match their sources)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node tools/build_tree_site.mjs
+      - run: node --test cic-worker/worker.test.mjs
+
   check-paths:
     name: Cited paths resolve; retired paths absent
     runs-on: ubuntu-latest
