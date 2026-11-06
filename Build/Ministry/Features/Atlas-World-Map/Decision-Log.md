@@ -23,6 +23,8 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 **For the Church Family Tree move:** these tokens and the legend travel with the map.
 
+**Follow-up (Mark: lines too thin to see their color, still muted on hover).** Links now keep a constant on-screen width at every zoom (about 2.4 px, 4 px on hover and focus) instead of shrinking with the map, and their resting opacity rose (0.85 at full view; 0.7 light and 0.75 dark when zoomed in; 1 on hover). The earlier fade-when-zoomed choice was made when every line was the same ink; with color carrying meaning, the lines need to stay readable. The intro line now says the lines are colored and points to the legend.
+
 **Also decided (Mark, "clickable legend").** The map was too busy, so each legend row is now a switch: the four link families, the four confidence styles, and the story icons. Everything starts on; a viewer's choices are remembered in their own browser only. Rejected: a separate "Show" panel (one more panel on a busy screen), preset views, and presets plus switches. The tradition families are switches too (Mark, "add a switch for the rivers too"): hiding one removes its river, its movement dots and every link touching it, and an "All rivers" row turns them all off or on at once. Checked in Chromium: hiding red links leaves 52 of 86, hiding thin evidence too leaves 45, story icons hide, choices survive a reload, everything restores. Rivers: hiding Africa leaves 12 of 13 rivers, 267 of 292 dots and 68 of 86 links; All rivers clears and restores everything.
 
 ---

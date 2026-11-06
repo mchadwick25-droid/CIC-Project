@@ -166,7 +166,8 @@ svg#world{display:block;overflow:visible}
    bubble up to the same handlers a click on the dot already triggers. */
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
-.edge-line{pointer-events:stroke;cursor:pointer}
+.edge-line{pointer-events:stroke;cursor:pointer;stroke-width:calc(2.4 / var(--zoom-scale,1))}
+.edge-line:hover{stroke-width:calc(4 / var(--zoom-scale,1))}
 /* The invisible, wider twin of .edge-line -- see the touch-target block at
    the end of this stylesheet for why it exists and how it stays a constant
    width across zoom. 4 (a modest, always-on improvement over the visible
@@ -177,7 +178,7 @@ svg#world{display:block;overflow:visible}
    long diagonal line is a big, mostly-empty rectangle that doesn't read as
    "this line is focused." Thicken the stroke itself instead, the same idea as
    .node's own focus-ring but shaped for a line rather than a dot. */
-.edge-line:focus-visible{outline:none;stroke-width:2.6px}
+.edge-line:focus-visible{outline:none;stroke-width:calc(4 / var(--zoom-scale,1))}
 #tip{position:fixed;display:none;z-index:40;max-width:260px;background:var(--vellum);
   border:1px solid var(--gold-leaf);border-radius:2px;padding:.5rem .7rem;
   box-shadow:var(--shadow);pointer-events:none;font-size:.82rem}
@@ -407,8 +408,8 @@ svg#world{display:block;overflow:visible}
   to read its documented story: who carried it, its legacy, and where the
   record comes from. A growing number of Christian traditions are fully
   built, each with its own representative voice you can have a conversation
-  with. The thin lines crossing between traditions mark real, documented
-  relationships.
+  with. The colored lines between traditions mark real, documented
+  relationships. The legend says what each color means and lets you switch any of them off.
   Scroll or drag to move around, hold Ctrl or Cmd and scroll (or pinch on a touch
   screen) to zoom, hover a name for a glimpse, click for the full story.
 </div>
@@ -42395,7 +42396,7 @@ const famColor=f=>isDark()?f.cd:f.c;
 // full strength only at full extent (ambient texture) or on demand (hover), because
 // all 69 at once, at a zoom meant for reading one river, is a wiring diagram.
 const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
-const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
+const EDGE_CALM_OP=0.85, EDGE_ORGANIC_OP=0.7, EDGE_ACTIVE_OP=1;
 // The organic-zoom edge opacity reads as a faint, present wireframe at 0.05 in
 // light mode (iron-gall's dark ink against the near-white page), but the same
 // opacity is close to imperceptible in dark mode: iron-gall inverts to a light
@@ -42403,9 +42404,9 @@ const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
 // ground reads far fainter than the same absolute color delta does on a near-
 // white one (screenshot-verified side by side, not just contrast-ratio math --
 // the two composites are near-identical in raw WCAG contrast, yet one is
-// legible and the other isn't). 0.15 was the lowest dark-mode value that
-// matched light mode's visibility in that comparison.
-const EDGE_ORGANIC_OP_DARK=0.15;
+// legible and the other isn't). Links now carry color by kind of
+// relationship, so both themes keep them strong enough for the color to read.
+const EDGE_ORGANIC_OP_DARK=0.75;
 
 /* ---- Real era grounds, from the census's own eras[] ----
    Light-mode grounds carried the same old-manuscript/institutional feel
@@ -42788,7 +42789,7 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 {
   const defs=el('defs',{});
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
-    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'5',markerHeight:'5',orient:'auto-start-reverse'});
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse'});
     mk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:`var(--link-${f})`}));
     defs.appendChild(mk);
   });
