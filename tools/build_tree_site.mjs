@@ -1,9 +1,3 @@
-#!/usr/bin/env node
-// Assembles the Church Family Tree site into .build/tree/, the assets
-// directory of its Worker (wrangler.cft.jsonc). The tree's own files are
-// copied from where they live; the files Church in Conversation also serves
-// are copied byte for byte from cic-website/, and every copy is checked
-// against its source before the script exits.
 
 import fs from 'node:fs';
 import path from 'node:path';
