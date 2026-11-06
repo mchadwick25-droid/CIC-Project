@@ -388,6 +388,7 @@ const sitemapUrls = [
   'https://churchinconversation.com/index.html',
   'https://churchinconversation.com/about.html',
   'https://churchinconversation.com/support.html',
+  'https://churchinconversation.com/license.html',
   'https://churchinconversation.com/atlas.html',
   ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`),
   ...census.movements.map(m => `https://churchinconversation.com/tree/${m.id}.html`)
@@ -403,7 +404,16 @@ ${sitemapUrls.map(url => `  <url>
 fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemap, 'utf-8');
 
 // Generate robots.txt
-const robots = `User-agent: *
+// Crawlers that gather text to train AI models are asked to stay out, per the
+// license policy (cic-website/license.html, "Training AI"). Search engines and
+// assistants fetching a page for a person are not training, and stay allowed.
+const aiTrainingCrawlers = [
+  'GPTBot', 'ClaudeBot', 'anthropic-ai', 'Google-Extended', 'Applebot-Extended',
+  'CCBot', 'meta-externalagent', 'Bytespider', 'cohere-training-data-crawler'
+];
+const robots = `${aiTrainingCrawlers.map(ua => `User-agent: ${ua}\nDisallow: /`).join('\n\n')}
+
+User-agent: *
 Allow: /
 Sitemap: https://churchinconversation.com/sitemap.xml`;
 
