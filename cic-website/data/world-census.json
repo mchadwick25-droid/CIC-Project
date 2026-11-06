@@ -284,54 +284,6 @@
  },
  "edges": [
   {
-   "id": "post-apostolic-house-church--syriac-edessa-nisibis",
-   "from": "post-apostolic-house-church",
-   "to": "syriac-edessa-nisibis",
-   "type": "gave rise to",
-   "confidence": "Inferential-Thin",
-   "note": "A flood at Edessa in 201 destroyed a Christian church, so believers were there by then. No source says how the faith arrived. No source we hold ties Edessa to the households of Antioch, Asia Minor or Rome.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": "syr.source.chronicle-of-edessa",
-     "work": "Chronicle of Edessa (Cowper), entry for the flood of the year 513 of the Seleucid era (201 CE)",
-     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
-     "lines": "53",
-     "locus": "entry 8",
-     "quote": "And they destroyed the temple of the church of the Christians.",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
-   "id": "post-apostolic-house-church--alexandria-catechetical",
-   "from": "post-apostolic-house-church",
-   "to": "alexandria-catechetical",
-   "type": "gave rise to",
-   "confidence": "Inferential-Thin",
-   "note": "Eusebius reports, on hearsay, that Mark first founded churches in Alexandria. Roger Bagnall finds Egyptian Christianity almost silent in the papyri before Bishop Demetrius (189 to 231). No source ties Alexandria's church to the scattered households of Antioch, Asia Minor and Rome.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": "alx.source.eusebius-historia-ecclesiastica",
-     "work": "Eusebius, Church History II.16 (trans. McGiffert)",
-     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-     "lines": "11851-11853",
-     "locus": "HE II.16.1",
-     "quote": "they say that this Mark was the first that was sent to Egypt, and that he proclaimed the Gospel which he had written, and first established churches in Alexandria.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "Roger S. Bagnall, Early Christian Books in Egypt (Princeton, 2009)"
-    }
-   ],
-   "citation_specificity": "B",
-   "verification_state": "named-not-rechecked"
-  },
-  {
    "id": "alexandria-catechetical--desert-monasticism",
    "from": "alexandria-catechetical",
    "to": "desert-monasticism",
@@ -435,9 +387,9 @@
    "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
    "from": "cappadocian-nicene-pastoral-monastic-tradition",
    "to": "hieronymian-ascetic-literary",
-   "type": "in contact with",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome calls Gregory of Nazianzus his instructor in the Scriptures. He recalls asking Gregory to explain a phrase in Luke, and Gregory joked his way out of answering. The translation's editors place their meeting at Constantinople in 381.",
+   "note": "Jerome, writing in the 390s, calls Gregory of Nazianzus his instructor in the Scriptures. He recalls asking Gregory to explain a phrase in Luke, and Gregory joked his way out of answering.",
    "sources": [
     {
      "kind": "primary",
@@ -467,9 +419,27 @@
    "from": "syriac-edessa-nisibis",
    "to": "the-church-of-the-east-under-persia",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "Narsai left Edessa's school and founded a school at Nisibis, says Barhadbeshabba, who wrote about 600. The Chronicle of Edessa records the end of Edessa's school of the Persians in 489, and sources differ on when Narsai himself left. Wigram calls Nisibis the school that gave the Church of the East what Edessa once had.",
+   "confidence": "Documented",
+   "note": "Barhadbeshabba, writing about 600, says Ephrem opened a school at Edessa after Nisibis passed to Persia in 363. He says Narsai later founded the school at Nisibis, drawing many students from Edessa. Sources differ on when Narsai left Edessa.",
    "sources": [
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20437-20438",
+     "locus": "Ephrem at Edessa",
+     "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20441-20442",
+     "locus": "the school after Ephrem",
+     "quote": "Après sa mort, l’école, loin de tomber en décadence, fit de considérables progrès, grâce à l’activité de ses disciples",
+     "license": "public-domain"
+    },
     {
      "kind": "primary",
      "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
@@ -576,8 +546,8 @@
    "from": "desert-monasticism",
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "An eighth-century Irish monk on the Continent traced the Irish way of singing the daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged the account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
+   "confidence": "Inferential-Thin",
+   "note": "An eighth-century Irish monk on the Continent traced the Irish way of singing the daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged the account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul. This rests on one late account that also contains legend.",
    "sources": [
     {
      "kind": "primary",
@@ -623,7 +593,7 @@
    "to": "alexandria-catechetical",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and that Origen then wrote treatises full of blasphemies.",
+   "note": "The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and calls Origen's later treatises blasphemous. Yet the same History honours Dionysius, who had directed the studies at Alexandria, as a patriarch.",
    "sources": [
     {
      "kind": "primary",
@@ -633,18 +603,27 @@
      "locus": "History of the Patriarchs, Pt. I, Ch. IV (Demetrius)",
      "quote": "And when Origen, whom Demetrius had cut off on account of his composing unlawful books of magic, and leaving the books of the holy writers, saw this, lie wrote many treatises containing many blasphemies.",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria, Heraclas and Dionysius",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "11708-11712",
+     "locus": "Heraclas, 13th patriarch; Dionysius",
+     "quote": "And Heraclas gave the direction of the studies at Alexandria to Dionysius, and entrusted to him all the affairs of the patriarchate.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
    "verification_state": "verified-direct"
   },
   {
-   "id": "the-waldensians--the-waldensian-reformed-union",
-   "from": "the-waldensians",
+   "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "from": "waldensians-in-the-alps",
    "to": "the-waldensian-reformed-union",
    "type": "continued as",
    "confidence": "Contested",
-   "note": "In 1532 the Waldensian churches of the Alpine valleys resolved to hold their worship openly. Their confession of that year says its teaching had been handed down from father to son. Scholars disagree about how far this shows unbroken continuity with the medieval Waldensians, rather than a later reading backward.",
+   "note": "In 1532 the Waldensian churches of the Alpine valleys resolved to hold their worship openly. Their confession of that year says its teaching had been handed down from father to son. Scholars disagree about how far this shows unbroken continuity with the Waldensians of the Alps, rather than a later reading backward.",
    "sources": [
     {
      "kind": "primary",
@@ -824,25 +803,39 @@
    "from": "byzantine-church-after-1054",
    "to": "latin-papal-church-gregorian",
    "type": "broke with",
-   "confidence": "Widely Accepted",
-   "note": "The legates' bull of July 1054 and Cerularius's synodal reply are the usual starting point of the division between Rome and Constantinople. We can read only the Latin bull. Scholars debate how far 1054 itself was the break, since legates and a patriarch acted, not the whole churches.",
+   "confidence": "Documented",
+   "note": "Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. We hold only the Latin side's record of this break.",
    "sources": [
     {
      "kind": "primary",
-     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
      "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
-     "lines": "9987-9988",
-     "locus": "no. 228, closing anathema",
-     "quote": "et  omnes  sequaces  eorum  in  praefatis  erroribus et  praesumptionibus,  sint  anathema  Maranatha",
+     "lines": "9904",
+     "locus": "no. 227, Humbert's account of 16 July 1054",
+     "quote": "praefati nuntii XVII. Kai. Augusti adierunt ecclesiam Sanctae Sophiae",
      "license": "public-domain"
     },
     {
-     "kind": "secondary",
-     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums und des römischen Katholizismus, 3rd ed. (1911), no. 227, 'Bruch zwischen Rom und Byzanz (13. Juli 1054)'"
+     "kind": "primary",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9907-9908",
+     "locus": "no. 227, the excommunication laid on the altar",
+     "quote": "chartam excommunicationis super principale altare posuerunt sub ocuhs praesentis cleri et popuh.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9918-9919",
+     "locus": "no. 227, Michael's reaction",
+     "quote": "Quos praefatus Michael haeresiarcha comperiens rediisse, quasi ad concilium conabatur adducere in ecclesiam Sanctae Sophiae sequenti die,",
+     "license": "public-domain"
     }
    ],
-   "citation_specificity": "B",
-   "verification_state": "named-not-rechecked"
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   },
   {
    "id": "the-baptists--the-black-church-in-america",
@@ -1107,8 +1100,8 @@
    "from": "gallic-monastic-ascetic-christianity",
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "The same eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. In his Confession, Patrick says he longed to visit the brethren in Gaul. Warren held that Ireland's Eastern features came through Gaul.",
+   "confidence": "Inferential-Thin",
+   "note": "An eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. In his Confession, Patrick says he longed to visit the brethren in Gaul. Warren held that Ireland's Eastern features came through Gaul. This rests on one late account and on Patrick's own ties to Gaul.",
    "sources": [
     {
      "kind": "primary",
@@ -1469,8 +1462,26 @@
    "to": "modalist-monarchianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Hippolytus, writing at Rome, set out to refute Noetus and his school. He accused the bishops Zephyrinus and Callistus of backing them, and says Callistus later excommunicated Sabellius. His account of Callistus is openly hostile.",
+   "note": "Dionysius, bishop of Rome in the 260s, wrote against the Sabellians, as Athanasius later quoted him. Earlier, Hippolytus says Bishop Callistus excommunicated Sabellius. Hippolytus also accused Callistus of backing the modalists, so his account is openly hostile.",
    "sources": [
+    {
+     "kind": "primary",
+     "work": "Dionysius of Rome, letter against the Sabellians, quoted in Athanasius, De Decretis 26 (NPNF 2.4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "28472-28473",
+     "locus": "De Decr. 26",
+     "quote": "of Dionysius, Bishop of Rome, who, while writing against the Sabellians, thus inveighs against those who dared to say so",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Dionysius of Rome, letter against the Sabellians, quoted in Athanasius, De Decretis 26 (NPNF 2.4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "28532-28533",
+     "locus": "De Decr. 26",
+     "quote": "he blasphemously says that the Son is the Father, and the Father the Son",
+     "license": "public-domain"
+    },
     {
      "kind": "primary",
      "work": "Hippolytus, Refutation of All Heresies IX (ANF 5), summary of contents",
@@ -1478,15 +1489,6 @@
      "lines": "13224-13226",
      "locus": "Ref. IX, contents of the book",
      "quote": "What the blasphemous folly is of Noetus, and that he devoted himself to the tenets of Heraclitus the Obscure, not to those of Christ.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "work": "Hippolytus, Refutation of All Heresies IX.3",
-     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-     "lines": "13294-13295",
-     "locus": "Ref. IX.3 (ANF ch. II)",
-     "quote": "and he had Callistus as his adviser, and a fellow-champion of these wicked tenets.",
      "license": "public-domain"
     },
     {
@@ -1629,7 +1631,7 @@
    "to": "chalcedonian-monasticism-judean-desert-and-gaza",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Both entries cover the monks of Gaza and the Judean desert, and their dates meet at about 450. John Moschus, writing around 600, mentions a laura at Pharan. No text in our collection ties it to the earlier monks. This link rests on region and sequence.",
+   "note": "Monks lived in Gaza and the Judean desert both before and after about 450. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties it to the earlier monks, so this rests on place and sequence alone.",
    "sources": [
     {
      "kind": "primary",
@@ -1734,7 +1736,7 @@
    "to": "homoian-arian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers wrote On the Councils to the bishops of Gaul and Britain, and says Saturninus had him exiled after beguiling the emperor.",
+   "note": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.",
    "sources": [
     {
      "kind": "primary",
@@ -1750,9 +1752,9 @@
      "source_id": "ijc.source.hilary-de-synodis",
      "work": "Hilary of Poitiers, On the Councils (De Synodis), §2",
      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
-     "lines": "7773-7775",
+     "lines": "7776-7779",
      "locus": "Syn. 2",
-     "quote": "that exile into which Saturninus, fearing his own conscience, had thrust me after beguiling the Emperor,",
+     "quote": "the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned as soon as reported and notified.",
      "license": "public-domain"
     }
    ],
@@ -2152,7 +2154,7 @@
    "to": "antiochene-exegetical-christianity-chrysostom-ce",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. No source we hold links his work to Diodore, Theodore or Chrysostom. That link is a scholarly inference.",
+   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. No source we hold links his work to Diodore, Theodore or Chrysostom. The tie to the later Antiochene teachers is an inference, not a report.",
    "sources": [
     {
      "kind": "primary",
@@ -2174,7 +2176,7 @@
    "to": "homoian-arian-christianity",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist', naming their teacher Lucian of Antioch. Philostorgius lists Eusebius, Maris and Theognis among Lucian's disciples. Scholars dispute how far Lucian's own teaching shaped their doctrine.",
+   "note": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist', naming their teacher Lucian of Antioch. Philostorgius lists Lucian's disciples, among them Leontius, later bishop of Antioch, and a Eudoxius. Both reports come from Arius's own side.",
    "sources": [
     {
      "kind": "primary",
@@ -2194,6 +2196,16 @@
      "lines": "138",
      "locus": "Philostorgius II.14",
      "quote": "Philostorgius recounts many other disciples of this martyr Lucian, and especially Eusebius, bishop of Nicomedia, Maris, bishop of Chalcedon, and Theognis, bishop of Nicaea",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.photius-epitome-philostorgius",
+     "work": "Photius, Epitome of Philostorgius, Book II, ch. 14 (trans. Walford)",
+     "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+     "lines": "138",
+     "locus": "Philostorgius II.14",
+     "quote": "and also Leontius, who afterwards became bishop of Antioch, and Antonius of Tarsus in Cilicia; likewise Menophantus, Numenius, and Eudoxius",
      "license": "public-domain"
     }
    ],
@@ -2397,6 +2409,58 @@
    "verification_state": "verified-direct"
   },
   {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "from": "imperial-juridical-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Constantinople met in 381 at the emperor Theodosius's summons. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Imperial laws of 381 and 383 also name the Arians when they bar heretics from building churches or holding assemblies.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.8 (law of 19 July 381)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7064",
+     "locus": "CTh 16.5.8",
+     "quote": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris fabricandarum ecclesiarum copiam habere praecipimus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1 (Greek reading given in the editor's note)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13985-13987",
+     "locus": "Canon 1",
+     "quote": "the Eunomians or Anomæans, the Arians or Eudoxians, the Semi-Arians or Pneumatomachi, the Sabellians, Marcellians, Photinians and Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), preface to the canons",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13965-13968",
+     "locus": "Canon 1",
+     "quote": "Bishops out of different provinces assembled by the grace of God in Constantinople, on the summons of the most religious Emperor Theodosius, have decreed as follows:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
    "id": "hieronymian-ascetic-literary--alexandria-catechetical",
    "from": "hieronymian-ascetic-literary",
    "to": "alexandria-catechetical",
@@ -2427,6 +2491,75 @@
    "verification_state": "verified-direct"
   },
   {
+   "id": "latin-pastoral-congregational-christianity--pelagianism",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "pelagianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book of Pelagius that defended human nature against the grace of God.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Augustine, On the Merits and Forgiveness of Sins, III.4 (NPNF 1.5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "4667",
+     "locus": "De pecc. mer. III.4",
+     "quote": "To the other points which Pelagius makes them urge who argue against original sin, I have already, I think, sufficiently and clearly replied in the two former books of my lengthy treatise.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Augustine, Retractations, on On Nature and Grace, as quoted in the NPNF introduction (NPNF 1.5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "6831",
+     "locus": "Retr., on De natura et gratia",
+     "quote": "there came into my hands a certain book of Pelagius’, in which he defends, with all the argumentative skill he could muster, the nature of man, in opposition to the grace of God whereby the unrighteous is justified and we become Christians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "from": "insular-irish-monastic-christianity",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Bede reports that King Oswald asked the Irish for a bishop, and they sent him Aidan, a monk of Iona, in 635. Bede adds that the English were taught the rules of monastic life by their Irish masters. The Roman mission of 597 was a second, separate source of English Christianity.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5726-5729",
+     "locus": "III.3, chapter title",
+     "quote": "The same king Oswald, asking- a bishop of the Scottish nation, had Aidan sent him, and granted him an episcopal see in the Isle of Lindisfarne.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5745-5747",
+     "locus": "III.3",
+     "quote": "Nor were they slow in granting his request ; but sent him Bishop Aidan, a man of singu- lar meekness, piety, and moderation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5791-5795",
+     "locus": "III.3",
+     "quote": "great and small, were, by their Scottish masters, instructed in the rules and observance of regular discipline ; for most of them that came to preach were monks. Bishop Aidan was himself a monk of the island called Hii",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
    "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
    "from": "the-anabaptist-movements",
    "to": "lutheran-wittenberg-and-its-congregations",
@@ -2446,6 +2579,43 @@
    ],
    "citation_specificity": "A",
    "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-waldensians--waldensians-in-the-alps",
+   "from": "the-waldensians",
+   "to": "waldensians-in-the-alps",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Bernard Gui, an inquisitor writing in the 1320s, describes the Waldensians of his own day. He says the sect's first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove many Waldensians into the Alps of Dauphiné and northern Italy. The Alpine entry carries the same movement forward after 1300.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "4984-4986",
+     "locus": "Part V, 'De secta Valdensium'",
+     "quote": "Valdensium itaque pre- dictorum prima heresis fuit et adhuc perseverat con- temptus ecclesiastice potestatis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Georges Mollat (ed.), Bernard Gui, Manuel de l'inquisiteur, vol. 1 (1926), editor's introduction",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "2085-2088",
+     "locus": "editor's introduction",
+     "quote": "Mais l’Inquisition et surtout Bernard Gui exercèrent des poursuites si actives contre eux qu'ils émigrèrent dans les Alpes dauphinoises et l'Italie du Nord"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, Waldenses: Rejections of Holy Church in Medieval Europe (Blackwell, 2000)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gabriel Audisio, The Waldensian Dissent: Persecution and Survival, c.1170-c.1570 (Cambridge University Press, 1999)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked"
   },
   {
    "id": "latin-pastoral-congregational-christianity--donatism",
@@ -2544,7 +2714,7 @@
    "to": "donatism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Optatus, a Catholic bishop, reports that Emperor Constantine answered a Donatist bishop's appeal with the words 'Oh, mad daring of their fury!' Constantine had earlier sent the case to eighteen bishops meeting at Rome.",
+   "note": "Optatus, a Catholic bishop, reports that Emperor Constantine answered a Donatist bishop's appeal with the words 'Oh, mad daring of their fury!' Constantine had earlier granted them judges, who heard the case at Rome with Miltiades, the city's bishop.",
    "sources": [
     {
      "kind": "primary",
@@ -2558,12 +2728,20 @@
     },
     {
      "kind": "primary",
-     "source_id": "don.source.optatus-against-the-donatists",
      "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
      "file": "cic/texts/optatus_against-the-donatists.txt",
      "lines": "273",
-     "locus": "Book I, ch. 23",
-     "quote": "These three Bishops from Gaul and fifteen others, who were Italians, arrived in Rome.",
+     "locus": "Book I",
+     "quote": "Nevertheless, he granted them judges----Maternus from the city of Cologne, Reticius from the city of Autun, Marinus of Aries.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "275",
+     "locus": "Book I",
+     "quote": "There were present Miltiades,191 Bishop of the city of Rome",
      "license": "public-domain"
     }
    ],
@@ -2656,7 +2834,7 @@
    "to": "the-anabaptist-movements",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "In February 1525 a man tried in Zurich said Felix Manz had baptised him. Myconius says Manz had earlier helped Zwingli expound the prophets. In 1527 Zwingli wrote of the Baptists: 'They have gone out from us.'",
+   "note": "In February 1525 a man tried in Zurich said Felix Manz had baptised him. In 1527 Zwingli wrote of the Baptists: 'They have gone out from us.' This is the Swiss branch only. Historians hold that Anabaptists in South Germany, Moravia and the Netherlands had other roots too.",
    "sources": [
     {
      "kind": "primary",
@@ -2695,6 +2873,10 @@
      "locus": "Refutation of the Tricks of the Catabaptists, closing section",
      "quote": "They have gone out from us, for they were not of us.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "John D. Roth and James M. Stayer (eds.), A Companion to Anabaptism and Spiritualism, 1521-1700 (Brill, 2007)"
     }
    ],
    "citation_specificity": "A",
@@ -2737,7 +2919,7 @@
    "to": "cyrilline-miaphysite-egyptian-christianity",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451 for ignoring its summons. A petition to Emperor Leo, quoted by the historian Evagrius, says Timothy Aelurus broke from the Catholic church right after Chalcedon. Both sources come from the Chalcedonian side.",
+   "note": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451, after he refused three summonses to answer his accusers. A petition to Emperor Leo, quoted by the historian Evagrius, says Timothy Aelurus broke from the Catholic church right after Chalcedon. Both sources come from the Chalcedonian side.",
    "sources": [
     {
      "kind": "primary",
@@ -2868,6 +3050,43 @@
      "locus": "De ecclesia, argument that the pope is not the head of the church",
      "quote": "Hence neither is the pope the head nor are the cardinals the whole body of the holy, universal, catholic church. For Christ alone is the head of that church, and his predestinate are the body",
      "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+   "from": "lollardy",
+   "to": "the-hussite-and-bohemian-brethren-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "John Wyclif, whose teaching began Lollardy, shaped Jan Hus: Hus took paragraph after paragraph from Wyclif's treatise On the Church, as the editor of the English text reports. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. This shows Wyclif's influence on Hus, not that English Lollard communities shaped the Bohemians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Wilhelm Fillastre, Gesta concilii Constanciensis, in Finke (ed.), Acta concilii Constanciensis, vol. 2 (1923)",
+     "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "lines": "2570-2573",
+     "locus": "Fillastre's diary, 6 July",
+     "quote": "sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti, illius damp- nanda memoria atque super ferenda sentencia contra magistrum Johannem Hus Boemum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "David S. Schaff, introduction to Jan Hus, De Ecclesia: The Church (1915)",
+     "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+     "lines": "1514-1516",
+     "locus": "Introduction",
+     "quote": "Huss appropriated paragraph after paragraph from his predecessor and transferred them often with little verbal change to his own pages."
+    },
+    {
+     "kind": "secondary",
+     "work": "David S. Schaff, introduction to Jan Hus, De Ecclesia: The Church (1915), citing Loserth",
+     "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+     "lines": "1516-1518",
+     "locus": "Introduction",
+     "quote": "The agreement has been convinc- ingly shown by Loserth, who prints the corresponding para- graphs side by side."
     }
    ],
    "citation_specificity": "A",
