@@ -33,3 +33,6 @@ it, never by deleting it.
     narration. A paid voice run: sample first, Mark's approval by ear, settings passed
     explicitly and printed. The 11 built worlds' recordings live with the world, not on the
     tree page; whether the tree page should carry them is open.
+11. **Link colors not checked everywhere (2026-11-06).** mchadwick25-droid/CIC-Project#1521
+    (link colors and legend switches) was not checked on the light theme, on phones or with
+    a color-vision simulation. The build thread adds these checks to its Phase 2 phone test.
