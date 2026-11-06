@@ -313,6 +313,11 @@ svg#world{display:block;overflow:visible}
 #legend .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
 #legend .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
+#legend button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
+  font:inherit;color:inherit;text-align:left;cursor:pointer}
+#legend button.row:hover{background:var(--tyrian-wash)}
+#legend button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
+.is-off{display:none}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
@@ -43106,6 +43111,7 @@ function render(){
       'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
+    line.dataset.family=LINK_FAMILY[edg.type]||'contact'; line.dataset.conf=edg.confidence;
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
     const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
     const onClick=()=>openPanelEdge(edg,a,b);
@@ -43116,6 +43122,7 @@ function render(){
     // input, sharing these same mouse/touch handlers -- never the keyboard
     // ones below, so Tab still lands on this edge exactly once, not twice.
     const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
+    hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence;
     hit.addEventListener('mouseenter',onEnter);
     hit.addEventListener('mousemove',(ev)=>positionTip(ev));
     hit.addEventListener('mouseleave',onLeave);
@@ -44015,20 +44022,39 @@ function buildLegend(){
   if((DATA.stories||[]).length){
     rows+='<span class="cap" style="margin-top:.5rem">Stories</span>';
     const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
-    rows+=`<div class="row">${bookIcon}Real, documented, but never its own movement</div>`;
+    rows+=`<button type="button" class="row" data-toggle="stories" aria-pressed="true">${bookIcon}Real, documented, but never its own movement</button>`;
   }
   // A line's color is the kind of relationship and its dash is the confidence
   // rating, so neither is read as a claim about the other.
   rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
-  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<div class="row">${colorKey(f)}${lbl}</div>`;});
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
-  rows+=`<div class="row">${lineKey()}Documented</div>`;
-  rows+=`<div class="row">${lineKey('6,3')}Widely accepted or a leading reconstruction</div>`;
-  rows+=`<div class="row">${lineKey('2,3')}Contested</div>`;
-  rows+=`<div class="row">${lineKey('1,4')}Thin evidence</div>`;
-  rows+=`<div class="note">Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
+  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
+  rows+=confRow('Documented','', 'Documented');
+  rows+=confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction');
+  rows+=confRow('Contested','2,3','Contested');
+  rows+=confRow('Inferential-Thin','1,4','Thin evidence');
+  rows+=`<div class="note">Tap a row to hide or show it. Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
   wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
+  const hidden=new Set();
+  try{(JSON.parse(localStorage.getItem('tree-hidden')||'[]')).forEach(k=>hidden.add(k));}catch(e){}
+  const applyToggles=()=>{
+    const hiddenConf=new Set();
+    hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
+    document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf));
+    });
+    gStories.classList.toggle('is-off',hidden.has('stories'));
+    wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.setAttribute('aria-pressed',String(!hidden.has(b.dataset.toggle))));
+  };
+  wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.addEventListener('click',()=>{
+    const k=b.dataset.toggle;
+    if(hidden.has(k))hidden.delete(k);else hidden.add(k);
+    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));}catch(e){}
+    applyToggles();
+  }));
+  applyToggles();
   document.getElementById('legendToggle').addEventListener('click',()=>{
     const open=wrap.classList.toggle('collapsed');
     document.getElementById('legendToggle').innerHTML=open?'Legend &#9662;':'Legend &#9652;';
