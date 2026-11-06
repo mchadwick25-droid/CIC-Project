@@ -296,3 +296,8 @@ def test_html_single_quoted_title_written_with_entities_is_skipped():
     page = "<p>Mills, &#039;The naturalisation of Andean Christianities&#039; and the colour of it.</p>\n"
     assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]
     assert "naturalisation" in cs.fix_html(page)
+
+
+def test_html_entity_apostrophe_inside_a_word_is_not_a_quote_mark():
+    page = "<li>Carey&#039;s Enquiry (1792) and the colour of it.</li>\n"
+    assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]

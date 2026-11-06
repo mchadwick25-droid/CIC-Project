@@ -272,6 +272,9 @@ def _entity_apostrophe(m: re.Match) -> str:
     'single-quoted title' still reads as quoted: padding goes on the side away from the words."""
     pad = " " * (len(m.group(0)) - 1)
     following = m.string[m.end():m.end() + 1]
+    preceding = m.string[m.start() - 1:m.start()] if m.start() else ""
+    if preceding.isalnum() and following.isalnum():
+        return m.group(0)
     return pad + "'" if following and not following.isspace() else "'" + pad
 
 
