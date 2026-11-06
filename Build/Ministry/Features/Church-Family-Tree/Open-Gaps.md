@@ -40,3 +40,7 @@ it, never by deleting it.
 11. **Link colors not checked everywhere (2026-11-06).** mchadwick25-droid/CIC-Project#1521
     (link colors and legend switches) was not checked on the light theme, on phones or with
     a color-vision simulation. The build thread adds these checks to its Phase 2 phone test.
+12. **The map's light theme is unfinished (2026-11-06).** Forced on with `data-theme="light"`,
+    the map shows a grey ground and muddy river colors. Nothing on the site sets that attribute
+    today, so visitors never see it. Found during the rivers check, the same before and after
+    that change. The Phase 2 light-theme check (P2-K2) covers it.

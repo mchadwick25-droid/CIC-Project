@@ -62,8 +62,8 @@ applied to every shared file, not only the census.
 
 | # | Goal | Stop point | Status |
 |---|---|---|---|
-| R1–R3 | The rivers, one PR | Mark judges by eye on the preview | todo |
-| P1a | Tree Worker and build script; full addresses for cross-site links | none | todo |
+| R1–R3 | The rivers, one PR | Mark judges by eye on the preview | waiting on Mark |
+| P1a | Tree Worker and build script; full addresses for cross-site links | none | todo (Mark picked option A, 2026-11-06) |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
 | P1b | Attach the domain; verify | Mark: dashboard steps | todo |
 | P1c | Rename, data release 2, redirects | none (after P1b is verified) | todo |
