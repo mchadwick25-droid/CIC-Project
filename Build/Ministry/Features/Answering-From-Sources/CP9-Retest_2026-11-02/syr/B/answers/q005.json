@@ -1,0 +1,337 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "No standing court settled disputed belief among us, and the right to decide was still being worked out."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "We had bishops, occasional synods, and teachers whose word carried because their teaching held."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The sage himself drafted a letter in the name of assembled bishops and clergy."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The Persian bishops fought over their own chief's claim to first place, and the persecution left the chief seat empty for twenty years."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "Our tradition remembers that one of our bishops sat at the great council of Nicaea."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Our tradition keeps that memory of Jacob of Nisibis, and the lists that name him are late reconstructions, not a document of his own day:"
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "In the year 325, bishops from the whole world gathered there to answer Arius."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "He stood with those who confessed the Son as true God."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Nothing survives of what Jacob said or did at the council."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "No document from the fourth century itself confirms that he was there."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "At home in Nisibis, Ephrem praised Jacob as the city's wall."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "What we hold as evidence for all of this is teaching texts and a later chronicle, not a record of how any one decision was made."
+  }
+ ],
+ "citations": [
+  "syr.dw.decides",
+  "syr.story.jacob-nicaea"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "No standing court settled disputed belief among us, and the right to decide was still being worked out [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "No standing court settled disputed belief among us, and the right to decide was still being worked out.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We had bishops, occasional synods, and teachers whose word carried because their teaching held [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "We had bishops, occasional synods, and teachers whose word carried because their teaching held.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The sage himself drafted a letter in the name of assembled bishops and clergy.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Persian bishops fought over their own chief's claim to first place, and the persecution left the chief seat empty for twenty years [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Persian bishops fought over their own chief's claim to first place, and the persecution left the chief seat empty for twenty years.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our tradition remembers that one of our bishops sat at the great council of Nicaea [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our tradition remembers that one of our bishops sat at the great council of Nicaea.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our tradition keeps that memory of Jacob of Nisibis, and the lists that name him are late reconstructions, not a document of his own day: [[story:syr.story.jacob-nicaea]]",
+   "ratio": 0.91,
+   "sentence": "Our tradition keeps that memory of Jacob of Nisibis, and the lists that name him are late reconstructions, not a document of his own day:",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In the year 325, bishops from the whole world gathered there to answer Arius [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "In the year 325, bishops from the whole world gathered there to answer Arius.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He stood with those who confessed the Son as true God [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "He stood with those who confessed the Son as true God.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Nothing survives of what Jacob said or did at the council [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Nothing survives of what Jacob said or did at the council.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No document from the fourth century itself confirms that he was there [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "No document from the fourth century itself confirms that he was there.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "At home in Nisibis, Ephrem praised Jacob as the city's wall [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "At home in Nisibis, Ephrem praised Jacob as the city's wall.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What we hold as evidence for all of this is teaching texts and a later chronicle, not a record of how any one decision was made [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "What we hold as evidence for all of this is teaching texts and a later chronicle, not a record of how any one decision was made.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.decides",
+  "syr.term.madrasha",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.jacob-nicaea",
+  "syr.quote.permitted-to-erect-churches",
+  "syr.gravity.persecution-endurance",
+  "syr.contested.bardaisan-nicene-floor",
+  "syr.dw.gospel-harmony",
+  "syr.quote.ephrem-resurrection-pledge",
+  "syr.dw.reading",
+  "syr.story.edessa-flood-201",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.remains",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.quote.the-temple-of-the-church-of-the-christians"
+ ],
+ "raw_text": "No standing court settled disputed belief among us, and the right to decide was still being worked out [[syr.dw.decides]] [[as:paraphrase]]. We had bishops, occasional synods, and teachers whose word carried because their teaching held [[syr.dw.decides]] [[as:paraphrase]]. The sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]] [[as:paraphrase]]. The Persian bishops fought over their own chief's claim to first place, and the persecution left the chief seat empty for twenty years [[syr.dw.decides]] [[as:paraphrase]]. Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]] [[as:paraphrase]]. In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]] [[as:paraphrase]]. Our tradition remembers that one of our bishops sat at the great council of Nicaea [[syr.dw.decides]] [[as:paraphrase]]. Our tradition keeps that memory of Jacob of Nisibis, and the lists that name him are late reconstructions, not a document of his own day: [[story:syr.story.jacob-nicaea]] [[as:paraphrase]]. What we hold as evidence for all of this is teaching texts and a later chronicle, not a record of how any one decision was made [[syr.dw.decides]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.story.jacob-nicaea"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.jacob-nicaea": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "No standing court settled disputed belief among us, and the right to decide was still being worked out. We had bishops, occasional synods, and teachers whose word carried because their teaching held. The sage himself drafted a letter in the name of assembled bishops and clergy. The Persian bishops fought over their own chief's claim to first place, and the persecution left the chief seat empty for twenty years. Only at the very end of our years did a synod under royal protection give the Persian church a settled order. In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary. Our tradition remembers that one of our bishops sat at the great council of Nicaea. Our tradition keeps that memory of Jacob of Nisibis, and the lists that name him are late reconstructions, not a document of his own day:\n\nJacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea. In the year 325, bishops from the whole world gathered there to answer Arius. Our tradition holds Jacob to be one voice from our Syriac-speaking frontier. He stood with those who confessed the Son as true God.\n\nNothing survives of what Jacob said or did at the council. The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops. Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them. No document from the fourth century itself confirms that he was there.\n\nAt home in Nisibis, Ephrem praised Jacob as the city's wall.. What we hold as evidence for all of this is teaching texts and a later chronicle, not a record of how any one decision was made.",
+ "voice_set_aside": false
+}

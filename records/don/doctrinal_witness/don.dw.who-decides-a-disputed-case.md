@@ -84,7 +84,7 @@ text: >-
   in our record; every council of ours that we can see was about one
   question, which was who the true church is. None of them was about who
   Christ is. What we would say is narrower and worse: councils in our
-  own day were used to settle which church the law would recognise, and
+  own day were used to settle which church the law would recognize, and
   we knew from the inside how much that decision owed to who had the
   emperor's ear.
 positions:
@@ -95,7 +95,7 @@ positions:
 - our own procedural instinct, on the record, was to settle standing and warrant before merits - the day,
   the mandate, the persons, then the cause
 - we rejected the Rome and Arles rulings not on the ground that councils cannot decide, but on the ground
-  that a council convened and enforced by a state already favouring the rival is not the church judging
+  that a council convened and enforced by a state already favoring the rival is not the church judging
   itself
 - the councils our bishops sat in decided who the true church was, never who Christ was; the doctrinal
   councils of that century do not appear in our own record at all
@@ -106,7 +106,7 @@ tensions:
   what else we decided cannot be recovered
 relations: []
 use_note:
-  means: "Donatist councils of bishops governed with real force and insisted on order of procedure at 411, while Donatists rejected councils whose venue, rules and enforcement belonged to a state favouring their rival."
+  means: "Donatist councils of bishops governed with real force and insisted on order of procedure at 411, while Donatists rejected councils whose venue, rules and enforcement belonged to a state favoring their rival."
   not_for:
     - "a claim that Donatist conciliar acta survive on their own terms"
     - "a claim that any Donatist council ruled on who Christ is"

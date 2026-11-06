@@ -12,13 +12,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: The memorable three-word form this saying is known by is a feature of the Latin transmission,
-    not of this text. Quoting the triad as Arsenius' own words would be quoting the tradition's compression
-    of him.
+  divergence_note: The three-word form this saying is known by, Greek φεῦγε, σιώπα, ἡσύχαζε and Latin fuge,
+    tace, quiesce, is the form later writers give, not the form of this text. Quoting the triad alone as
+    Arsenius' own words would put their wording in place of the text quoted here.
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: §2, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 47) - Budge's Syriac
-    recension; the Greek and Latin traditions render the triad as fuge, tace, quiesce
+  locus: §2, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, lines 56-56) - Budge's Syriac
+    recension; later writers give the triad as φεῦγε, σιώπα, ἡσύχαζε and fuge, tace, quiesce
   license: public-domain
 text: Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental
   causes which prevent a man from committing sin.
@@ -44,42 +44,13 @@ relations:
 use_note:
   means: "In Budge's Syriac Sayings, a voice tells Arsenius to flee, keep silence, and live in silent contemplation, as the causes that keep a man from sin."
   not_for:
-    - "the Latin triad fuge, tace, quiesce as Arsenius's own words or as this text's wording"
+    - "the Greek or Latin triad (φεῦγε, σιώπα, ἡσύχαζε; fuge, tace, quiesce) as Arsenius's own words or as this text's wording"
     - "fleeing as anxious avoidance rather than a chosen discipline"
     - "the separate first saying, to flee from men, which stands at §1 and is not quoted here"
     - "the saying as securely datable to Arsenius rather than transmitted in a collection compiled after 430"
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Verified against the vendored Budge at line 47, §2. These are the
-voice's words only - the file's
-framing ("And when Arsenius was living the ascetic life in the monastery,
-he prayed to God the same prayer, and again he heard a voice saying unto
-him") precedes them and is not quoted.
+The text is §2 of Budge's Syriac Sayings, at cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, line 56. These are the voice's words only. The framing that precedes them ("And when Arsenius was living the ascetic life in the monastery, he prayed to God the same prayer, and again he heard a voice saying unto him") is not quoted.
 
-THE PARAPHRASE IT REPLACES compressed TWO sayings into one. It read
-"Flee the company of men, and you will be saved... Flee, be silent, be
-still - these are the roots of a life without sin," joining §1 (the voice
-telling Arsenius to flee from men) to §2, in the clipped triad form -
-fuge, tace, quiesce - that the Latin tradition made famous. Budge's
-Syriac is longer, plainer and less epigrammatic. It is what this world
-can actually show, and §1 remains separately available at line 46 if the
-first half is ever wanted.
-
-Paraphrase, not verbatim quotation, per desert.source.apophthegmata-
-patrum's own hard rule. The Latin systematic collection's own
-three-word form ("fuge, tace, quiesce") is well known outside this
-corpus but is not itself vendored or independently verified here; this
-record carries the saying in English paraphrase only, matching
-desert.story.arsenius-flee.
-
-divergence_note carries both halves of desert.source.apophthegmata-patrum's
-own confidence pairing, the "Widely Accepted" half and the unconditional
-Inferential-Thin bound. speaker_or_author carries no parenthetical
-provenance tag; the source is already carried in sources[] and
-divergence_note.
-
-`sources[].locus` also compiles into `quotes.json`
-(`build_quotes_json()` emits `sources` verbatim), so it is written as a
-plain description: it does not name a sibling record id, use
-build-process language, or carry a licence-mechanics gloss.
+§1, the voice telling Arsenius to flee from men, is a separate saying at line 54 and is not joined to this one. Neither the Greek nor the Latin collection of the sayings is vendored in this corpus. The three-word form appears here only in later writers. Peter of Damascus gives it with the same reason clause this text has ("for these are the roots of sinlessness"; cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt, lines 1157-1159). Kallistos and Ignatios Xanthopoulos give it to Arsenius and add "and you will be saved" (same file, lines 49822-49823), as does Nikodemos's Synaxaristes (cic/texts/nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt, lines 16296-16297). Ebedjesu's collection of canons gives it to Arsenius in Mai's Latin translation (cic/texts/mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt, lines 14913-14915); the Latin is Mai's and shows nothing about Ebedjesu's Syriac wording. Thomas à Kempis uses the formula without naming Arsenius (cic/texts/kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt, line 1224). This record quotes Budge's Syriac wording only.

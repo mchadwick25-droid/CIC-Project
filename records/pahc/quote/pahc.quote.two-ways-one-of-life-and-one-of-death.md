@@ -17,8 +17,7 @@ confidence:
     Documented as the opening of the Didache, whose own date and authorship are contested (see pahc.source.didache). What is not contested is that this is how the manual begins and that it was used to teach newcomers.
 sources:
 - source_id: pahc.source.didache
-  locus: >-
-    The Teaching of the Twelve Apostles, ch. I.1-2, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnote apparatus and scriptural cross-references are removed from the text quoted here
+  locus: "The Teaching of the Twelve Apostles, ch. I.1-2, in the ANF (Riddle) translation (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, lines 12700-12708); the edition's interleaved footnote apparatus and scriptural cross-references are removed from the text quoted here"
   license: public-domain
 text: >-
   There are two ways, one of life and one of death; but a great difference between the two ways. The way of life, then, is this: First, thou shalt love God who made thee; second, thy neighbour as thyself; and all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.
@@ -42,7 +41,7 @@ relations:
 - type: associated-with
   target: pahc.witness.hard-texts
 use_note:
-  means: "The Didache opens its teaching with two ways, life and death; the way of life is loving God, neighbour, and the negative golden rule."
+  means: "The Didache opens its teaching with two ways, life and death; the way of life is loving God, neighbor, and the negative golden rule."
   not_for:
     - "a threat about the afterlife in the first instance"
     - "a claim that every household in this world taught newcomers this way"

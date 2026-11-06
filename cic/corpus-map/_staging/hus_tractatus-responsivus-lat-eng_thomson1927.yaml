@@ -8,6 +8,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: provisional
+  language: lat-eng
+  date: {start: 1412, end: 1412, source: "Thomson's introduction (file lines 905-920): earliest date early September 1412, after Jacobellus's posicio; latest date Hus's departure from Prague in early October 1412; Sedlák, cited at line 1617, dates it late 1412. The attribution to Hus rests on the editor's argument", formation_confidence: Dominant Modern Reconstruction}
   note: A Latin tract on the sixteen articles condemned as Wyclif's, printed here for the first time.
     The attribution to Hus rests on the editor's argument from tone, content and use of Wyclif, and the
     editor states that no manuscript names Hus; the vendored file must not be quoted as Hus's own words

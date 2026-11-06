@@ -21,10 +21,9 @@ TURNS_PER_HOUR_CONVENTION = 12  # CiC-Program-Spec.md SS7: "reported in $/partic
 class PriceTable:
     """$ per token, by category - supplied by the caller, never a module
     default. `source` names where these numbers came from (e.g. "AWS
-    invoice 2026-09 reconciliation" or "published Bedrock rate card,
-    approved 2026-09-01") - a price table with no source is as
-    untrustworthy as no price table at all, so source is required, not
-    optional."""
+    invoice 2026-09 reconciliation" or "published Bedrock rate card") - a
+    price table with no source is as untrustworthy as no price table at
+    all, so source is required, not optional."""
 
     input_per_token: float
     output_per_token: float

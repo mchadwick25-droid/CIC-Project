@@ -1,0 +1,115 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "The first is that the confessors' claim to ask peace for the lapsed and the bishop's regulated road back never became one settled rule."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "Their suffering was real, and so was what it carried."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "The second is the font, for our bishops answered the question of a baptism given outside the church twice, in opposite ways."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Our later bishop judged the earlier answer wrong, yet never put the man who gave it outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "We do not pretend that holding the bond makes either question easy."
+  }
+ ],
+ "citations": [
+  "lpc.term.heresy",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "Two matters stayed unresolved among us, and we have never closed them.",
+   "sentence": "Two matters stayed unresolved among us, and we have never closed them.",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  },
+  {
+   "draft": "The first is that the confessors' claim to ask peace for the lapsed and the bishop's regulated road back never became one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "The first is that the confessors' claim to ask peace for the lapsed and the bishop's regulated road back never became one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "Their suffering was real, and so was what it carried [[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]].",
+   "sentence": "Their suffering was real, and so was what it carried.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The second is the font, for our bishops answered the question of a baptism given outside the church twice, in opposite ways [[lpc.term.heresy]][[lpc.witness.answerability-as-ground]][[as:paraphrase]].",
+   "sentence": "The second is the font, for our bishops answered the question of a baptism given outside the church twice, in opposite ways.",
+   "tags": [
+    "lpc.term.heresy",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our later bishop judged the earlier answer wrong, yet never put the man who gave it outside our communion [[lpc.witness.answerability-as-ground]][[lpc.witness.communion-over-separation]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our later bishop judged the earlier answer wrong, yet never put the man who gave it outside our communion.",
+   "tags": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We do not pretend that holding the bond makes either question easy [[lpc.witness.answerability-as-ground]][[as:paraphrase]].",
+   "sentence": "We do not pretend that holding the bond makes either question easy.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [],
+ "raw_text": "Two matters stayed unresolved among us, and we have never closed them. The first is that the confessors' claim to ask peace for the lapsed and the bishop's regulated road back never became one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]]. Their suffering was real, and so was what it carried [[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]]. The second is the font, for our bishops answered the question of a baptism given outside the church twice, in opposite ways [[lpc.term.heresy]][[lpc.witness.answerability-as-ground]][[as:paraphrase]]. Our later bishop judged the earlier answer wrong, yet never put the man who gave it outside our communion [[lpc.witness.answerability-as-ground]][[lpc.witness.communion-over-separation]][[as:paraphrase]]. We do not pretend that holding the bond makes either question easy [[lpc.witness.answerability-as-ground]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "Two matters stayed unresolved among us, and we have never closed them. The first is that the confessors' claim to ask peace for the lapsed and the bishop's regulated road back never became one settled rule. Their suffering was real, and so was what it carried. The second is the font, for our bishops answered the question of a baptism given outside the church twice, in opposite ways. Our later bishop judged the earlier answer wrong, yet never put the man who gave it outside our communion. We do not pretend that holding the bond makes either question easy.",
+ "voice_set_aside": false
+}

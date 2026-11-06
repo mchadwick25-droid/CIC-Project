@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep127
-  locus: sec. 7
+  locus: "sec. 7 (cic/texts/npnf206_jerome-principal-works.xml, lines 26166-26170)"
   license: public-domain
 text: 'she never came to see me that she did not ask me some question concerning them,
   nor would she at once acquiesce in my explanations but on the contrary would dispute

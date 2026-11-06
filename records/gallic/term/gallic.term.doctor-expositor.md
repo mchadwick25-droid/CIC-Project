@@ -33,7 +33,7 @@ retrieval:
   prefer_instead:
   - the question is about "the Fathers" as received authority in general (retrieve the Fathers / elders)
   - the question is about the monastic master (retrieve disciple / master)
-  - the later title "Doctor of the Church" as a formal honour
+  - the later title "Doctor of the Church" as a formal honor
 relations:
 - type: associated-with
   target: gallic.term.the-deposit

@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-de-incarnatione
-  locus: 54 (npnf204 line 18744)
+  locus: "54 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 18743-18744)"
   license: public-domain
 retrieval:
   tier: 2
@@ -44,6 +44,30 @@ use_note:
     - "a conciliar or creedal definition of Christ's divinity, which sits in alx.dw.was-jesus-god"
   years: {from: 296, to: 373}
   status: reviewed
+reading_card:
+  setting: Athanasius, near the end of On the Incarnation of the Word, usually dated in or shortly before
+    318.
+  source_says: The Word is known by his works. He became man so we might be made God, and suffered insult
+    so we might gain immortality.
+  historians_conclude:
+    text: The construction record reads theosis as formation's horizon, held by Clement, Origen and Athanasius.
+      Robertson links the line to 2 Peter 1:4.
+    confidence: Widely Accepted
+  contributes: 'It names formation''s goal: sharing God''s own life.'
+  whose_view: Athanasius's wording, but the hope runs through all three main literate authors.
+  open: Whether it shaped the unlettered majority cannot be shown from literate sources.
+  reads_differently_today: '''Made God'' does not mean becoming a separate god. The Greek word means sharing
+    in God''s life, as far as a creature can.'
+  sources:
+    setting: alx.source.athanasius-de-incarnatione, work field; On the Incarnation §54 (the work runs
+      to §57), npnf204 lines 18725, 18867
+    source_says: alx.source.athanasius-de-incarnatione, On the Incarnation §54, npnf204 lines 18725-18760
+    historians_conclude: Build/worlds/alx/Doc_04_Gravity_Discovery.md §2 (D-B Theosis as Horizon) and
+      §4 table; Robertson's endnote 347, npnf204 line 18744
+    contributes: alx.gravity.soul-transformation; alx.term.theosis
+    whose_view: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §2 (D-B: attested in Clement, Origen, Athanasius)'
+    open: alx.contested.ecology-wide-primacy
+    reads_differently_today: alx.quote.athanasius-made-god, modern_lens_note
 ---
 De incarnatione 54 - the charter line of the world's whole account of
 salvation as theosis (the Greek theopoiethomen stands in the edition's

@@ -15,14 +15,14 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: XVII.2
+  locus: "XVII.2 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27115-27119)"
   license: public-domain
 text: it is a sure thing with us, that Jesus our Lord is God, the Son of God, and the King, the King's
   Son, Light of light, Creator and Counsellor, and Guide, and the Way, and Redeemer, and Shepherd, Gatherer,
   and the Door, and the Pearl, and the Lamp
 modern_rendering: >-
   It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the
-  King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way,
+  King's Son. He is Light of Light, Creator, and Counselor. He is Guide, the Way,
   Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim

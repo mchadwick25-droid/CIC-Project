@@ -24,5 +24,6 @@ discovery_channel: cic/texts/REGISTRY.yaml entry added 2026-09-25 (source-acquis
 external_ids: {}
 citation: Huldrych Zwingli, The Latin Works of Huldreich Zwingli, Vol. III, ed. Clarence Nevin Heller (Philadelphia - The Heidelberg Press, 1929)
 kind: vendored
+shelf_row: zwingli_latin-works-correspondence-vol3_heller1929--the-latin-works-of-huldreich-zwingli-vol-iii-de-vera-et
 ---
 Zwingli's De Vera et Falsa Religione (1525, "Of True and False Religion"), his systematic statement, and the Antibolon (1524). Locus used in this world's records - chapter [24], "Merit", of On True and False Religion, where Zwingli names providence "the mother of predestination, as it were" (vendored file line 13583). Directly read in the vendored file.

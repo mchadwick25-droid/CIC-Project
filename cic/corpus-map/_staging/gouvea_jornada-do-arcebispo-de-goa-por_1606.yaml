@@ -38,6 +38,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: por
+    date: {start: 1606, end: 1606, source: "licence dated Coimbra, February 1606 (file line 98), and the 1606 title page named in the file header", formation_confidence: Documented}
     note: >
       An Augustinian's account of a campaign in which the Jesuit college and the Jesuit bishop
       of the Serra were the instruments. Placed on subject; not read for the Jesuit entry.

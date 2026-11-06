@@ -8,6 +8,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: deu-lat
+  date: {start: 1429, end: 1436, source: "title page (file line 45): 'von den Jahren 1429-1436'", formation_confidence: Documented}
   note: 'The wars'' own documents for 1429-1436, in Latin, Czech and German, from many hands (Hussite,
     Taborite, Catholic and royal). The Latin includes replies about the four articles, for example Bishop
     Fernandus''s response to the four articles in volume 1. The German headings are Palacký''s; the documents

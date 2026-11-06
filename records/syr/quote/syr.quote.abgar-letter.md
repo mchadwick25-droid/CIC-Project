@@ -15,13 +15,14 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.doctrine-of-addai
-  locus: the letter of Abgar
+  locus: "the letter of Abgar (cic/texts/addai_doctrine-of-addai.txt, line 25)"
   license: public-domain
 text: I have heard of Thee and of Thy healing, that it is not by medicines and roots Thou healest, but
   by Thy word Thou openest the eyes of the blind
 modern_rendering: >-
-  I have heard about you and your healing: that you heal without medicines or
-  herbs, and that by your word you open the eyes of the blind.
+  I have heard about you and about your healing. I have heard that you do not
+  heal with medicines and roots, but by your word you open the eyes of the
+  blind.
 speaker_or_author: "King Abgar, in the Doctrine of Addai's own text of his letter"
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

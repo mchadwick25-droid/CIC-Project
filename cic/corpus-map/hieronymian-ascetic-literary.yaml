@@ -7,8 +7,12 @@ works:
   work: Letter of Anastasius to John of Jerusalem concerning Rufinus
   author: anastasius_rome
   locus: div2 5.10
+  locus_ids:
+  - vi.x
+  - vi.x/notes
   role: context
   confidence: provisional
+  language: eng
   note: 'Rome''s judgment in the Origenist controversy (401): a papal letter surrounding the
     Jerome-Rufinus quarrel and condemning Origen''s translated teaching. Context for both
     entries the controversy touches. Author ruled above from the section''s own title.
@@ -20,8 +24,145 @@ works:
   author: augustine
   locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
+  locus_ids:
+  - vii.1.XXVIII
+  - vii.1.XXXIX
+  - vii.1.XL
+  - vii.1.LXVII
+  - vii.1.LXVIII
+  - vii.1.LXXI
+  - vii.1.LXXII
+  - vii.1.LXXIII/line31673
+  - vii.1.LXXIII/line31735
+  - vii.1.LXXIII/line31760
+  - vii.1.LXXIII/line31794
+  - vii.1.LXXIII/line31822
+  - vii.1.LXXIII/line31856
+  - vii.1.LXXIII/line31893
+  - vii.1.LXXIII/line31918
+  - vii.1.LXXIII/line31953
+  - vii.1.LXXIII/line31990
+  - vii.1.LXXV/line32089
+  - vii.1.LXXV/line32132
+  - vii.1.LXXV/line32153
+  - vii.1.LXXV/line32181
+  - vii.1.LXXV/line32216
+  - vii.1.LXXV/line32285
+  - vii.1.LXXV/line32310
+  - vii.1.LXXV/line32330
+  - vii.1.LXXV/line32397
+  - vii.1.LXXV/line32445
+  - vii.1.LXXV/line32480
+  - vii.1.LXXV/line32519
+  - vii.1.LXXV/line32543
+  - vii.1.LXXV/line32579
+  - vii.1.LXXV/line32617
+  - vii.1.LXXV/line32686
+  - vii.1.LXXV/line32729
+  - vii.1.LXXV/line32765
+  - vii.1.LXXV/line32814
+  - vii.1.LXXV/line32837
+  - vii.1.LXXV/line32871
+  - vii.1.LXXV/line32917
+  - vii.1.LXXV/line32936
+  - vii.1.LXXV/line32954
+  - vii.1.LXXV/line32983
+  - vii.1.LXXV/line33023
+  - vii.1.LXXXI
+  - vii.1.LXXXII/line33770
+  - vii.1.LXXXII/line33818
+  - vii.1.LXXXII/line33858
+  - vii.1.LXXXII/line33886
+  - vii.1.LXXXII/line33916
+  - vii.1.LXXXII/line33939
+  - vii.1.LXXXII/line33957
+  - vii.1.LXXXII/line33984
+  - vii.1.LXXXII/line34011
+  - vii.1.LXXXII/line34061
+  - vii.1.LXXXII/line34085
+  - vii.1.LXXXII/line34107
+  - vii.1.LXXXII/line34132
+  - vii.1.LXXXII/line34159
+  - vii.1.LXXXII/line34195
+  - vii.1.LXXXII/line34248
+  - vii.1.LXXXII/line34296
+  - vii.1.LXXXII/line34333
+  - vii.1.LXXXII/line34375
+  - vii.1.LXXXII/line34413
+  - vii.1.LXXXII/line34463
+  - vii.1.LXXXII/line34490
+  - vii.1.LXXXII/line34536
+  - vii.1.LXXXII/line34568
+  - vii.1.LXXXII/line34595
+  - vii.1.LXXXII/line34618
+  - vii.1.LXXXII/line34649
+  - vii.1.LXXXII/line34686
+  - vii.1.LXXXII/line34707
+  - vii.1.LXXXII/line34728
+  - vii.1.LXXXII/line34765
+  - vii.1.LXXXII/line34789
+  - vii.1.LXXXII/line34826
+  - vii.1.LXXXII/line34865
+  - vii.1.LXXXII/line34899
+  - vii.1.LXXXII/line34922
+  - vii.1.CXXIII
+  - vii.1.CLXVI/line51336
+  - vii.1.CLXVI/line51376
+  - vii.1.CLXVI/line51407
+  - vii.1.CLXVI/line51434
+  - vii.1.CLXVI/line51461
+  - vii.1.CLXVI/line51528
+  - vii.1.CLXVI/line51551
+  - vii.1.CLXVI/line51590
+  - vii.1.CLXVI/line51631
+  - vii.1.CLXVI/line51665
+  - vii.1.CLXVI/line51695
+  - vii.1.CLXVI/line51728
+  - vii.1.CLXVI/line51758
+  - vii.1.CLXVI/line51802
+  - vii.1.CLXVI/line51840
+  - vii.1.CLXVI/line51884
+  - vii.1.CLXVI/line51939
+  - vii.1.CLXVI/line51967
+  - vii.1.CLXVI/line52011
+  - vii.1.CLXVI/line52033
+  - vii.1.CLXVI/line52066
+  - vii.1.CLXVI/line52110
+  - vii.1.CLXVI/line52131
+  - vii.1.CLXVI/line52169
+  - vii.1.CLXVI/line52197
+  - vii.1.CLXVI/line52233
+  - vii.1.CLXVI/line52281
+  - vii.1.CLXVII/line52315
+  - vii.1.CLXVII/line52355
+  - vii.1.CLXVII/line52399
+  - vii.1.CLXVII/line52453
+  - vii.1.CLXVII/line52486
+  - vii.1.CLXVII/line52535
+  - vii.1.CLXVII/line52555
+  - vii.1.CLXVII/line52576
+  - vii.1.CLXVII/line52636
+  - vii.1.CLXVII/line52675
+  - vii.1.CLXVII/line52695
+  - vii.1.CLXVII/line52722
+  - vii.1.CLXVII/line52765
+  - vii.1.CLXVII/line52795
+  - vii.1.CLXVII/line52822
+  - vii.1.CLXVII/line52848
+  - vii.1.CLXVII/line52891
+  - vii.1.CLXVII/line52926
+  - vii.1.CLXXII
+  - vii.1.CXCV
+  - vii.1.CCII
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 394
+    end: 419
+    source: npnf101_augustine-confessions-letters.xml letter headings (a.d. dates printed
+      in each) for the 17 letters of this row; all 17 carry a date
+    formation_confidence: Widely Accepted
   note: 'Derived from the volume''s own markup rather than from a reading list: each letter
     is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
     where the title names one (the Jerome exchange, exactly) and by keyword count where it
@@ -368,8 +509,28 @@ works:
     Librorum Origenis)
   author: rufinus
   locus: div2 5.5-5.6
+  locus_ids:
+  - vi.v
+  - vi.v/notes
+  - vi.vi/line49735
+  - vi.vi/line49784
+  - vi.vi/line49865
+  - vi.vi/notes
+  - vi.vi/line49894
+  - vi.vi/line49921
+  - vi.vi/line49942
+  - vi.vi/line50017
+  - vi.vi/line50041
+  - vi.vi/line50069
+  - vi.vi/line50086
+  - vi.vi/line50110
+  - vi.vi/line50132
+  - vi.vi/line50175
+  - vi.vi/line50196
+  - vi.vi/line50214
   role: context
   confidence: provisional
+  language: eng
   note: 'Pamphilus'' defence of Origen''s orthodoxy in Rufinus'' Latin (397), with Rufinus''
     own treatise on the corruption of Origen''s works. Context for alexandria (a defence of
     its greatest teacher from outside the school) and for hal (this translation ignited the
@@ -383,8 +544,12 @@ works:
   work: Prologue of Rufinus (to De Principiis)
   author: rufinus
   locus: div2 6.4 - Prologue of Rufinus
+  locus_ids:
+  - vi.iv
+  - vi.iv/notes
   role: tradition
   confidence: provisional
+  language: eng
   note: 'The ancient translator''s own preface, in which Rufinus defends his smoothing of
     De Principiis and cites Jerome''s earlier admiration of Origen - a primary document of
     the Origenist controversy between them. Assigned to Alexandria as part of the De Principiis

@@ -68,6 +68,15 @@ assignments:
     split by work.
 
     '
+  locus_ids:
+  - div2:iii.ii
+  - div3:iii.ii.i..iii.ii.viii (8 divisions)
+  language: eng
+  date:
+    start: 304
+    end: 311
+    source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+    formation_confidence: Widely Accepted
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god
   work: A Treatise on the Anger of God
   author: lactantius
@@ -82,6 +91,13 @@ assignments:
     settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.iii
+  - div3:iii.iii.i..iii.iii.xxiii (23 divisions)
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after the Divine Institutes; source: Harnack 1904 (one source); first recorded confidence: Dominant Modern Reconstruction'
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-workmanship-of-god
   work: On the Workmanship of God
   author: lactantius
@@ -96,6 +112,15 @@ assignments:
     is settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xxi (21 divisions)
+  language: eng
+  date:
+    start: 303
+    end: 304
+    source: Harnack 1904 (one source)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
   work: Of the Manner in Which the Persecutors Died
   author: lactantius
@@ -127,6 +152,13 @@ assignments:
     question, and that is settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.iii (3 divisions; prose fragments I to IV precede the first division)
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: The division prints four prose fragments, two poems and a General Note by the editor. The General Note gives no date and doubts the ascription of the poems
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)
   author: venantius
@@ -291,6 +323,8 @@ assignments:
   - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: provisional
+  locus_ids: [xii.iii/line20200, xii.iii/notes, xii.iii/line20244, xii.iii/line20300, xii.iii/line20357, xii.iii/line20417, xii.iii/line20501, xii.iii/line20518, xii.iii/line20578, xii.iii/line20630, xii.iii/line20675, xii.iii/line20739, xii.iii/line20763, xii.iii/line20816, xii.iii/line20900, xii.iii/line20924, xii.iii/line20940, xii.iii/line20961, xii.iii/line20993, xii.iii/line21009, xii.iii/line21045, xii.iii/line21065, xii.iii/line21090, xii.iii/line21142, xii.iii/line21174, xii.iii/line21210, xii.iii/line21267, xii.iii/line21271, xii.iii/line21335, xii.iii/line21392, xii.iii/line21408, xii.iii/line21464, xii.iii/line21585, xii.iii/line21629, xii.iii/line21665]
+  language: eng
   note: 'Declined for `alexandria-catechetical`, on the edition''s own evidence rather than a judgement
     call. The ANF text carries an editorial note at the Only-begotten Son troparion: "It is so worded
     that it must be dated later than the Council of Ephesus, a.d. 431." alexandria-catechetical''s window
@@ -311,6 +345,8 @@ assignments:
   - the-church-of-the-east-under-persia
   role: tradition
   confidence: provisional
+  locus_ids: [xii.iv/line21737, xii.iv/notes, xii.iv/line21785, xii.iv/line21821, xii.iv/line21854, xii.iv/line21894, xii.iv/line21934, xii.iv/line21987, xii.iv/line22011, xii.iv/line22075, xii.iv/line22103, xii.iv/line22168, xii.iv/line22192, xii.iv/line22204, xii.iv/line22220, xii.iv/line22245, xii.iv/line22261, xii.iv/line22273, xii.iv/line22305, xii.iv/line22338, xii.iv/line22366, xii.iv/line22406, xii.iv/line22419, xii.iv/line22471, xii.iv/line22519, xii.iv/line22583, xii.iv/line22644, xii.iv/line22668]
+  language: eng
   note: 'Declined for `syriac-edessa-nisibis`, for the same reason as the Liturgy of Mark and on the same
     page of apparatus. The ANF prints a text "corrected after Renaudot" from an 18th-c. collection, and
     the Early Liturgies section''s own notes date the received forms well after the councils; syr''s

@@ -19,7 +19,7 @@ confidence:
     own framing, not asserted as fact.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. IX (npnf211 div ii.ii.x, file lines 1088-1108): the objecting bishop Defensor, the absent reader, the psalm opened at random, and what was believed of it"
+  locus: "Life of St. Martin ch. IX (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1088-1108; div ii.ii.x): the objecting bishop Defensor, the absent reader, the psalm opened at random, and what was believed of it"
   license: public-domain
 retrieval:
   tier: 1
@@ -50,18 +50,7 @@ modern_lens_note: >-
   get through the crowd, and the verse that came up happened to name an "enemy" and a "defensor" -
   Defensor's own name. Sulpitius reports this as what the crowd believed, not as his own proof; the
   belief is the story's evidence, not the event's certainty.
-modern_rendering: >-
-  Among the bishops who were there, however, one named Defensor is said to have opposed Martin most of
-  all. For this reason, people noticed that he was sharply rebuked at that time in the reading from
-  the prophets. It so happened that the reader whose duty it was to read aloud that day was blocked by
-  the crowd and did not appear. The officials were thrown into confusion as they waited for a man who
-  never came. Then one of the bystanders grabbed the book of Psalms and seized on the first verse he
-  came to. The Psalm went like this: 'From the mouths of babies and infants you have perfected praise
-  because of your enemies, to destroy the enemy and the avenger.' When these words were read, the
-  people raised a shout, and the opposing side was put to shame. People believed that God had ordained
-  the choice of this Psalm, so that Defensor might hear a witness about his own work. For in Martin's
-  case, the Lord's praise was perfected out of the mouths of babies and infants. At the same time, the
-  enemy was both pointed out and destroyed.
+modern_rendering: "Among the bishops who were there, however, one named Defensor is said to have objected most strongly. For this reason, people noticed that he was sharply rebuked at that time in the reading from the prophets. It so happened that the reader whose duty it was to read aloud that day was blocked by the crowd and did not appear. The officials were thrown into confusion as they waited for a man who never came. Then one of the bystanders grabbed the book of Psalms and seized on the first verse he came to. The Psalm went like this. 'From the mouths of babies and infants you have perfected praise because of your enemies, to destroy the enemy and the avenger.' When these words were read, the people raised a shout, and the opposing side was put to shame. People believed that God had ordained the choice of this Psalm, so that Defensor might hear a witness about his own work. In their view, it was a witness because, in Martin's case, the Lord's praise was perfected out of the mouths of babies and infants. And at the same time, they held, the enemy was both pointed out and destroyed."
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

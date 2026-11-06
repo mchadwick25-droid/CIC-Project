@@ -18,8 +18,7 @@ confidence:
     or Sulpitius themselves.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Appendix III, Note on Section 85, Page 156 (npnf211 div iii.xxxvii, file lines 14867-14870):
-    the editor's account of who complained to Celestine, and of what"
+  locus: "Appendix III, Note on Section 85, Page 156 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14867-14870; div iii.xxxvii): the editor's account of who complained to Celestine, and of what"
   license: public-domain
 retrieval:
   tier: 3
@@ -41,7 +40,7 @@ modern_lens_note: >-
   why. It is carried here because it names the letter's actual direction (against certain Gallic
   bishops' own clergy), which Vincent's own quotation of the letter does not state outright.
 modern_rendering: >-
-  It seems that Prosper and Hilary had travelled to Rome and were there at the time. They had gone
+  It seems that Prosper and Hilary had traveled to Rome and were there at the time. They had gone
   to complain to Celestine about certain bishops of southern Gaul. These bishops were turning a
   blind eye to the unsound teaching of their clergy.
 relations:

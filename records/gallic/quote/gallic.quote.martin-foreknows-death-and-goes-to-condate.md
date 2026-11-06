@@ -21,7 +21,7 @@ confidence:
     fantastical register either.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2379-2392): Martin''s foreknowledge of his death and his decision to travel to the quarrelling church at Condate'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2379-2392; div ii.iii.iii): Martin's foreknowledge of his death and his decision to travel to the quarrelling church at Condate"
   license: public-domain
 retrieval:
   tier: 2
@@ -44,7 +44,7 @@ license: verbatim
 modern_lens_note: >-
   Sulpitius frames the Condate journey as a choice, not an accident: Martin goes toward more work,
   not away from it, with the end already in view. The letter reads foreknowledge of death not as a
-  burden but as a final chance at virtue - restoring one quarrelling church counted, for Sulpitius, as
+  burden but as a final chance at virtue - restoring one quarreling church counted, for Sulpitius, as
   a fitting close to a life already full of them.
 relations:
 - type: associated-with
@@ -54,12 +54,12 @@ relations:
 modern_rendering: >-
   I must say, then, that Martin knew the time of his own death long before it came. He told the
   brothers that he would soon leave his body. Meanwhile, a reason arose that led him to visit the
-  church at Condate. The clergy of that church were quarrelling among themselves. Martin wanted to
+  church at Condate. The clergy of that church were quarreling among themselves. Martin wanted to
   restore peace there. He knew well that the end of his days was near. Yet he did not shrink from
   making the journey for such a purpose. In fact, he thought that leaving behind him a church at
   peace again would be a fine crown to set on his virtues.
 use_note:
-  means: "Sulpitius writes that Martin foreknew his death yet travelled to Condate to reconcile its quarrelling clergy, counting restored peace a crown for his virtues."
+  means: "Sulpitius writes that Martin foreknew his death yet traveled to Condate to reconcile its quarreling clergy, counting restored peace a crown for his virtues."
   not_for:
     - "corroborated fact about the foreknowledge, which rests on Sulpitius alone"
     - "the deathbed scene, which sits in gallic.quote.martin-disciples-plea-and-his-reply"

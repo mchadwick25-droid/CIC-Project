@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.jerome-de-viris
-  locus: ch. 103 (npnf203 lines 41382-41386)
+  locus: "ch. 103 (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 41382-41385)"
   license: public-domain
 text: Damasus, bishop of Rome, had a fine talent for making verses and published many brief works in
   heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.

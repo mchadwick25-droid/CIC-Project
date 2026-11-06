@@ -44,7 +44,7 @@ relations:
   target: lpc.force.illegal-to-established-shift
 claim: Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter
   XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier
-  in his own episcopate), and finally a sustained defence of compulsion already in force -- records a
+  in his own episcopate), and finally a sustained defense of compulsion already in force -- records a
   genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective
   self-presentation constructed after the fact to make an already-settled practice look like the outcome
   of principled reconsideration.
@@ -56,7 +56,7 @@ held_against:
   account of it (Letter XCIII §17), written after the later position was already argued, not through a
   surviving contemporaneous statement of the earlier view from the time he is said to have held it.
 - This doctrine is known in this world's own corpus only through Augustine's own advocacy, in his own
-  defence, with no Donatist first-person answer surviving in this world's own Native record -- he writes,
+  defense, with no Donatist first-person answer surviving in this world's own Native record -- he writes,
   on this world's own Doc_02 §2 finding, 'from a position of increasing institutional confidence relative
   to Donatism specifically,' which sharpens rather than dilutes the risk that the earlier-opinion account
   was shaped, in the telling, by the argument it now serves.
@@ -67,7 +67,7 @@ held_against:
   question genuinely distinct from, and not settled by, the three-phase sequence's own internal consistency.
 concedes: 'The three-phase sequence itself -- Letter XCIII §17''s own retrospective account of an earlier
   opinion; Letter 185 §§25-26''s own narrow, unsuccessful solicitation of legal protection early in Augustine''s
-  episcopate; and the later, sustained defence -- is Documented and directly re-verified in this world''s
+  episcopate; and the later, sustained defense -- is Documented and directly re-verified in this world''s
   own already-built lexicon entry, which this world''s own construction (Doc_01) is explicitly bound against
   compressing into one position. Cyprian''s own corpus contains nothing corresponding to any phase of
   this development at all, since the controversy postdates him entirely. What remains genuinely open,

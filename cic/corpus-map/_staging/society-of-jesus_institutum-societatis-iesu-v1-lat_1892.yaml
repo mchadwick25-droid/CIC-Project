@@ -9,6 +9,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page and front matter (1892 imprint dates the edition only); a collection of bulls and briefs of many dates, no single span stated"}
   note: 'The Society''s own collected Latin text of the papal bulls and briefs for the Society, the perpetual
     calendar and the compendium of privileges. The 1540 and 1550 charters and the later bulls are printed
     here in the Society''s own text. Society-authored and corporate; no single writer. Primary original

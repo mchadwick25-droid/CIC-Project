@@ -9,6 +9,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page and front matter (1893 imprint dates the edition only); a collection of documents of many dates, no single span stated"}
   note: 'The Society''s own collected Latin text of the Examen, the Constitutions with the Declarations,
     and the decrees of the general congregations. The Latin Constitutions and Declarations are printed
     here in a clean scan, which serves as the clean witness beside the garbled 1606 print; the decrees

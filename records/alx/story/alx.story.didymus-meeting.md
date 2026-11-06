@@ -60,6 +60,27 @@ use_note:
     - "claiming Didymus's own books survive"
   years: {from: 380, to: 398}
   status: reviewed
+reading_card:
+  setting: Palladius, a Galatian visitor writing about 419-420, recalls the blind teacher Didymus.
+  source_says: He met him four times over ten years. Blind from four, Didymus never learned to read, yet
+    interpreted both Testaments word by word.
+  historians_conclude:
+    text: The construction record calls Didymus head of the teaching tradition for about fifty years;
+      his blindness made him particular, not typical.
+    confidence: Widely Accepted
+  contributes: It shows Scripture held by hearing, and a teacher's authority resting on visible wisdom.
+  whose_view: An outsider's late memory; what Palladius saw himself is firmest.
+  open: His lessons go unrecorded and most books are lost; 'the seer' is later tradition.
+  reads_differently_today: Not a story of overcoming disability. Formation here never required reading,
+    so Didymus shows teaching reaching anyone, sighted or not.
+  sources:
+    setting: alx.source.palladius-lausiac-history, author field; Lausiac History IV, file line 211
+    source_says: alx.source.palladius-lausiac-history, Lausiac History IV.1-2, file line 211
+    historians_conclude: Build/worlds/alx/Doc_02_Source_Ecology.md §3.4 (Representativeness / social location)
+    contributes: alx.term.didaskalos; alx.gravity.teacher-bishop-tension
+    whose_view: Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Palladius) and §5 item 3
+    open: alx.story.didymus-meeting, absent_detail
+    reads_differently_today: alx.story.didymus-meeting, modern_contrast
 ---
 Serves F4-P ('does your way of life have anything for someone like
 me?' - a man the world would have written off, taught and remembered

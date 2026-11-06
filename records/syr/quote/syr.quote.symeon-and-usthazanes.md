@@ -16,8 +16,7 @@ confidence:
     Documented as Sozomen's report, written in Constantinople in the 440s about Persian events of the 340s. He is a Roman-side historian describing a persecution beyond the frontier, and the account is shaped as martyrdom narrative.
 sources:
 - source_id: syr.source.sozomen-historia-ecclesiastica
-  locus: >-
-    Ecclesiastical History II.9, on Sapor's persecution (npnf202_socrates-sozomen-ecclesiastical-histories.xml)
+  locus: "Ecclesiastical History II.9, on Sapor's persecution (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 28873-28877)"
   license: public-domain
 text: >-
   When, in course of time, the Christians increased in number, and began to form churches, and appointed priests and deacons, the Magi, who as a priestly tribe had from the beginning in successive generations acted as the guardians of the Persian religion, became deeply incensed against them.
@@ -29,7 +28,7 @@ modern_rendering: >-
 speaker_or_author: Sozomen, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-
-  The cause given is institutional visibility, not belief: what provoked the Magi was churches being built and clergy appointed. For a world living under Persian rule rather than Roman, being organised was itself the danger - which is the opposite of the imperial-church story a reader may be carrying over from the West.
+  The cause given is institutional visibility, not belief: what provoked the Magi was churches being built and clergy appointed. For a world living under Persian rule rather than Roman, being organized was itself the danger - which is the opposite of the imperial-church story a reader may be carrying over from the West.
 retrieval:
   tier: 1
   retrieve_when:
@@ -43,7 +42,7 @@ use_note:
   means: "Sozomen, a later Greek historian writing in Constantinople, reports that the Persian magi turned against Christians once they multiplied, formed churches, and appointed priests and deacons."
   not_for:
     - "an eyewitness or Persian account rather than a Roman-side historian's martyrdom narrative"
-    - "a claim that the source names Christian belief alone, rather than visible organisation, as the provocation"
+    - "a claim that the source names Christian belief alone, rather than visible organization, as the provocation"
     - "a precise date or death toll for Shapur's persecution"
   years: {from: 340, to: 349}
   status: reviewed

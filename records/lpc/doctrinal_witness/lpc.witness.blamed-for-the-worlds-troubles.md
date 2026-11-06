@@ -10,7 +10,7 @@ canon_cells:
 use_note:
   means: "A Roman official blamed Christians for war, plague and famine, and Cyprian wrote a reply."
   not_for:
-    - "a claim that the neighbour's own words survive, since the charge is reported in Cyprian's reply"
+    - "a claim that the neighbor's own words survive, since the charge is reported in Cyprian's reply"
     - "a claim about whether Christians hid in catacombs"
     - "a claim about what an outsider found strangest about them"
   years: {from: 246, to: 258}
@@ -33,28 +33,28 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - participant asks what our own neighbours actually said about us, or what charge outsiders brought
+  - participant asks what our own neighbors actually said about us, or what charge outsiders brought
     against us
   do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: lpc.limit.the-outsiders-own-view
 positions:
-- We do know one thing our own neighbours said about us, because Cyprian wrote a whole
+- We do know one thing our own neighbors said about us, because Cyprian wrote a whole
   reply to it. A Roman official named Demetrianus charged that the wars, plague, and famine troubling
   the world were our fault, for refusing to worship the old gods. That charge was not a private complaint.
   Demetrianus said many people around him were saying the same thing.
 tensions:
-- This is one neighbour's charge, reported and answered in our own bishop's words, not preserved in a
+- This is one neighbor's charge, reported and answered in our own bishop's words, not preserved in a
   stranger's own words. We still cannot tell you what an outsider would have found strangest about
   us, in his own voice. Were we hiding in catacombs? We cannot answer that from inside our own record
   either. Whether Constantine corrupted what we were is a different matter. Augustine took up the charge
   behind it when a Donatist bishop said we had no business with kings.
-text: One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it. A
+text: One charge our neighbors made comes down to us, because Cyprian wrote a whole reply to it. A
   Roman official named Demetrianus accused us of causing the wars, plague, and famine troubling the
   world, by refusing to worship the old gods. He said many around him believed the same thing. That
-  is a neighbour's own charge, reported in our own bishop's words.
+  is a neighbor's own charge, reported in our own bishop's words.
 ---
-Grounded directly in An Address to Demetrianus. Answers one of F3-E's four sub-questions -- what our neighbours
+Grounded directly in An Address to Demetrianus. Answers one of F3-E's four sub-questions -- what our neighbors
 said about us -- with a real, reported accusation this world's own corpus contains. Two sub-questions, catacombs and an outsider's own strangeness-perception,
 remain genuine absences, narrowed and restated in lpc.limit.the-outsiders-own-view; the Constantine sub-question is answered, as Augustine put it against Petilian, in lpc.witness.constantine-did-not-corrupt.

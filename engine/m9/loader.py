@@ -28,14 +28,55 @@ PAIRS_PATH = REPO_ROOT / "cic" / "corpus-map" / "PAIRS.yaml"
 
 sys.path.insert(0, str(CIC_ENGINE_DIR))
 from corpus_index import passage_units  # noqa: E402
+from corpus_map import MAP_DIR, NON_BUCKET_FILES  # noqa: E402
 from corpus_map import load as load_corpus_map  # noqa: E402
 
 from .confinement import _EDITION_PATH  # noqa: E402
 from .shelf import Shelf, build_shelf  # noqa: E402
 
 
+def _file_signature(paths) -> tuple:
+    """(path, mtime, size) of each file: a cached read is reused only while
+    every file it came from is unchanged."""
+    out = []
+    for path in paths:
+        st = path.stat()
+        out.append((str(path), st.st_mtime_ns, st.st_size))
+    return tuple(out)
+
+
+_MAP_CACHE: dict = {}
+
+
+def _corpus_map_docs() -> dict:
+    """corpus_map.load(), read once per run and again only when a bucket
+    file changes: every world's shelf draws on the same buckets, and parsing
+    the map is most of a fleet check's load time."""
+    paths = sorted(p for p in MAP_DIR.glob("*.yaml") if p.name not in NON_BUCKET_FILES) if MAP_DIR.is_dir() else []
+    signature = _file_signature(paths)
+    if _MAP_CACHE.get("signature") != signature:
+        _MAP_CACHE["docs"] = load_corpus_map()
+        _MAP_CACHE["signature"] = signature
+    return _MAP_CACHE["docs"]
+
+
+_UNITS_CACHE: dict[str, tuple[tuple, str]] = {}
+
+
+def _joined_units(path: Path) -> str:
+    """One file's passage text joined, parsed once per run and again only
+    when the file changes: the same edition sits on several worlds' shelves."""
+    signature = _file_signature([path])
+    cached = _UNITS_CACHE.get(str(path))
+    if cached is None or cached[0] != signature:
+        parts = passage_units(path)
+        cached = (signature, " ".join(u["text"] for u in parts))
+        _UNITS_CACHE[str(path)] = cached
+    return cached[1]
+
+
 def read_bucket_rows(census_id: str) -> list[dict]:
-    docs = load_corpus_map()
+    docs = _corpus_map_docs()
     return list(docs.get(census_id, {}).get("works") or [])
 
 
@@ -69,8 +110,7 @@ def read_units(bucket_rows: list[dict], records: dict) -> dict[str, str]:
         path = TEXTS_DIR / filename
         if not path.is_file():
             continue
-        parts = passage_units(path)
-        units[filename] = " ".join(u["text"] for u in parts)
+        units[filename] = _joined_units(path)
     return units
 
 
@@ -91,8 +131,7 @@ def read_complement_units(shelf: Shelf) -> dict[str, str]:
         path = TEXTS_DIR / filename
         if not path.is_file():
             continue
-        parts = passage_units(path)
-        units[filename] = " ".join(u["text"] for u in parts)
+        units[filename] = _joined_units(path)
     return units
 
 

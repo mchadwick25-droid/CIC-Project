@@ -16,7 +16,7 @@ confidence:
   divergence_note: 'The bare institutional fact of a complete parallel hierarchy is undisputed even by the hostile
     sources reporting it (Doc_04 SS5, G4''s Cross-Voice pass). What remains hostile-mediated is everything beyond
     that bare fact -- individual bishops'' conduct and motives reach this record through Optatus''s and Augustine''s
-    characterisation (Doc_02 SS2). The 411 Conference seated
+    characterization (Doc_02 SS2). The 411 Conference seated
     279 Donatist bishops against 286 Catholic (Doc_01 SS2, Doc_04 SS3.4); the deployment chunk `donlex015_bishop-episcopus.md` still says 284 in its own World Meaning
     and Distortion Risk sections while its Key Sources note states 279, and this record follows the
     279 figure.'
@@ -36,7 +36,7 @@ sources:
 retrieval:
   tier: 1
   retrieve_when:
-  - a participant asks how these churches were organised, or why one city had two bishops
+  - a participant asks how these churches were organized, or why one city had two bishops
   - a participant asks about a specific council, the Maximianist affair, or the 411 Conference
   - the conversation reaches who holds legitimate church office
   prefer_instead:
@@ -67,9 +67,9 @@ senses:
   evidential: 'Documented at the institutional level and cross-voice attested: hostile sources report the parallel
     hierarchy without disputing that it existed, and the 411 Conference''s own acts record the seated counts precisely.
     Beyond that bare fact the record thins fast -- what individual bishops were like, how they were chosen, what
-    a small-town episcopate felt like from inside, survives mainly as Optatus''s and Augustine''s characterisation
+    a small-town episcopate felt like from inside, survives mainly as Optatus''s and Augustine''s characterization
     of opponents.'
-  personal: To hold this office was to hold a real charge that the state refused to recognise. Buildings
+  personal: To hold this office was to hold a real charge that the state refused to recognize. Buildings
     were taken, clergy exiled, and unity enforced by troops. Every see was held under legal threat. That
     was the ordinary condition of the office.
   translational: '''Wasn''t this a fringe movement with a few self-appointed leaders?'' -- 279 bishops facing

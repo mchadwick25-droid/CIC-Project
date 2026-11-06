@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date: {start: 1553, end: 1553, source: "dated letter headings: from \"3 et 10 Aprilis 1553\" (file line 245) to \"28 Novembris 1553\" (file line 39925)", formation_confidence: Documented}
   note: 'Ignatius''s letters and instructions as General, in the languages written (the letters and instructions
     of 1553). Many are dictated to secretaries and sent in Ignatius''s name, so the voice is the General''s
     office speaking for him. It extends the vendored Tomus I, which stops in March 1548. Primary original

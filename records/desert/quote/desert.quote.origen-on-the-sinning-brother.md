@@ -20,8 +20,7 @@ confidence:
     record may present Origen as a source the desert drew on for this.
 sources:
 - source_id: desert.source.origen-commentary-matthew
-  locus: >-
-    Commentary on Matthew, ch. 30, The Sinning Brother, on Matthew 18:15 (anf09, file line 36205)
+  locus: "Commentary on Matthew, ch. 30, The Sinning Brother, on Matthew 18:15 (cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml, lines 36234-36239)"
   license: public-domain
 text: >-
   This would seem to be very harsh; for I do not think that any one will readily be found who has
@@ -48,7 +47,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how a brother who had done wrong was corrected, judged, or put out"
-  - "participant asks whether this world had any procedure for discipline, or only the elders' judgement"
+  - "participant asks whether this world had any procedure for discipline, or only the elders' judgment"
   - "participant asks what the tradition before this world said about correcting a fellow Christian"
 relations:
 - type: associated-with

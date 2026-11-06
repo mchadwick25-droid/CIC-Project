@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.alexandrian-canonical-answers
-  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104)'
+  locus: "Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 44111-44164)"
   license: public-domain
 text: 'Question I. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
   does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated, i.e.
@@ -24,9 +24,9 @@ text: 'Question I. If a lad of seven years old, or a man, being a catechumen, be
   XI. If a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to
   comply, and perform the oblation? Answer. No; he must not be partaker of other men’s sins.'
 modern_rendering: >-
-  Question I. A boy of seven, or a man, who is a catechumen may be present
-  at the offering and eat of it in ignorance. What should be
-  done? Answer. Let him be illuminated, that is, baptized, for he is
+  Question I. Suppose a boy of seven, or a man, is a catechumen. He is
+  present at the offering and eats of it in ignorance. What should be
+  done in this case? Answer. Let him be illuminated, that is, baptized, for he is
   called by God. ... Question VIII. Should a woman who has just given
   birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man
   required to keep the Paschal fast? Answer. No. Question XI. A clergyman
@@ -55,6 +55,32 @@ use_note:
     - "women's own words about their lives, which this world lacks"
   years: {from: 381, to: 385}
   status: reviewed
+reading_card:
+  setting: Timothy, bishop of Alexandria (died 385), answering questions put to him on clergy practice.
+  source_says: A child catechumen who ate the offering is baptized; new mothers and the sick skip the
+    Easter fast; no cleric blesses an incestuous marriage.
+  historians_conclude:
+    text: 'The construction record holds most believers formed by belonging: baptism, the shared table,
+      the fast. What they felt is lost.'
+    confidence: Dominant Modern Reconstruction
+  contributes: It shows a bishop settling everyday questions of baptism and fasting.
+  whose_view: A bishop's rulings from the 380s, not lay voices.
+  open: The quote skips rulings on women's bodies; women's own words on them do not survive.
+  reads_differently_today: '''Illuminated'' meant baptized; ''the oblation'' is the eucharist. A catechumen
+    could not take communion, so a child eating it by mistake was a real problem.'
+  complicated_by:
+  - alx.limit.f5-women-own-words
+  sources:
+    setting: alx.source.alexandrian-canonical-answers, author field; Canonical Answers heading, npnf214
+      lines 44104-44109
+    source_says: alx.source.alexandrian-canonical-answers, Timothy, Questions I, VIII, X, XI, npnf214
+      from line 44104
+    historians_conclude: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §2 construction note
+    contributes: alx.gravity.learning-community-tension; alx.term.photismos; alx.term.fasting
+    whose_view: alx.quote.timothy-ordinary-questions, use_note.not_for; alx.source.alexandrian-canonical-answers,
+      body
+    open: alx.source.alexandrian-canonical-answers, body (what it is not); alx.limit.f5-women-own-words
+    reads_differently_today: alx.quote.timothy-ordinary-questions, modern_lens_note
 ---
 Verified verbatim against the vendored file at npnf214 line
 44104. DISCLOSED: these are Questions I, VIII, X and XI of a longer

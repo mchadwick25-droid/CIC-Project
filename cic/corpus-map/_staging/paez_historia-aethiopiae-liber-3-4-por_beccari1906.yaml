@@ -24,6 +24,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: provisional
+  language: por-lat
+  date: {formation_confidence: unknown, checked: "Beccari's Latin preface, file lines 283-288, says Paez carried the history to March 1622 and lived until mid-1622; the books are not dated as one span and the 1906 imprint dates the edition only"}
   note: >-
     The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window and subject
     without reading the whole volume; role tradition because the author is a Jesuit narrating a Jesuit

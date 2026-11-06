@@ -20,6 +20,7 @@ edition: 'trans. George Phillips (London: Trubner, 1876); vendored as cic/texts/
   (translator attribution external-only, per the file''s own header note)'
 citation: 'The Doctrine of Addai, the Apostle, trans. George Phillips (London: Trubner, 1876)'
 kind: vendored
+shelf_row: addai_doctrine-of-addai--the-doctrine-of-addai
 rights_status: public-domain
 attribution_status: 'the legend''s historical claims are rejected (Widely Accepted: a retrojected apostolic-foundation
   claim, not history - Doc_01 SS2); LICENSED FOR the community''s self-understanding and origin-story-telling

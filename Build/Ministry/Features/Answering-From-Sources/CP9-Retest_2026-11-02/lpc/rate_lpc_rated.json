@@ -1,0 +1,758 @@
+[
+ {
+  "id": "q027-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honoratus letter and the lapsed as our own, but presumes the asker is lapsed."
+ },
+ {
+  "id": "q010-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same grounded content as a sibling answer, plainly told."
+ },
+ {
+  "id": "q005-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the two rival theories and shows the 256 council and Augustine keeping communion as evidence."
+ },
+ {
+  "id": "q006-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Garbled: 'They said this about newborns' and 'He did not flinch' have no referent, plus a dropped full stop."
+ },
+ {
+  "id": "q007-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Augustine's 'not yet' and persuaded-is-not-free told plainly with an honest limit."
+ },
+ {
+  "id": "q023-y",
+  "answers_question": "partly",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Vivid Decian account, but narrows the question to the lapsed and asserts the whole congregation knew."
+ },
+ {
+  "id": "q001-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Starts on point but drifts into the Trinity and Maximinus, which do not answer the question."
+ },
+ {
+  "id": "q011-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Only addresses violence in the Old Testament, in third-person Augustine."
+ },
+ {
+  "id": "q004-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Creed, one person of the Only-begotten, house image and Maximinus, all grounded."
+ },
+ {
+  "id": "q008-x",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Mentions the Fidus letter without saying what it held and puts Cyprian's 'contagion' wording under Augustine."
+ },
+ {
+  "id": "q021-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Attributes the apse description to a letter to the people of Fussala; the record ties it to Letter CXXVI to Albina."
+ },
+ {
+  "id": "q013-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit plus persecution facts, including Cyprian's death date, all grounded."
+ },
+ {
+  "id": "q025-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Honest that no such record is held, separates confessors' suffering; switches to 'I'."
+ },
+ {
+  "id": "q026-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Font dispute and confessors' claim stated plainly and accurately."
+ },
+ {
+  "id": "q014-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the shelf speaks fully on election and councils."
+ },
+ {
+  "id": "q028-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Accurate long Cyprian quote but repeats itself and closes with an awkward list."
+ },
+ {
+  "id": "q005-y",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the shelf speaks clearly about councils and authority."
+ },
+ {
+  "id": "q006-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "A list of four grounded claims about Trinity, grace, rest and punishment with no thread."
+ },
+ {
+  "id": "q012-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear order of authorities with Cyprian on custom without truth."
+ },
+ {
+  "id": "q022-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest limit with plague, Monica and the road back, but the 'one real exception' line dangles."
+ },
+ {
+  "id": "q026-y",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Two unsettled points named briefly."
+ },
+ {
+  "id": "q024-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Three goods and the bond surviving separation; grounded."
+ },
+ {
+  "id": "q019-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restless heart, the 'not yet' struggle and the pattern walked in a people; warm and grounded."
+ },
+ {
+  "id": "q025-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Brief limit and a clarifying question."
+ },
+ {
+  "id": "q027-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Declines to presume the asker, then describes the lapsed as our own and the road back."
+ },
+ {
+  "id": "q002-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Creed plus the dying-and-rising pattern in the world's own images."
+ },
+ {
+  "id": "q009-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Sorts solid from thin with concrete cases such as the Cyprian death texts, true to the records."
+ },
+ {
+  "id": "q011-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Speaks to purpose and the Genesis and Moses cases well; the psalms-sung and read-aloud lines are general colour not drawn from the shelf."
+ },
+ {
+  "id": "q028-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Near-identical to a sibling answer: accurate quote, repetitive opening."
+ },
+ {
+  "id": "q024-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Good on the three goods and the rite gap, but ties Cyprian's almsgiving treatise to 'married believers' without support."
+ },
+ {
+  "id": "q024-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Augustine's three goods and the lasting bond, entirely in the third person."
+ },
+ {
+  "id": "q004-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same content packed into longer sentences."
+ },
+ {
+  "id": "q016-y",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Clean refusal to trace later churches, in first-person 'I am a representative' framing."
+ },
+ {
+  "id": "q015-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Certificates, confessors and the road back, grounded but loosely strung together."
+ },
+ {
+  "id": "q016-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same as a sibling: limit at 430 plus succession claims."
+ },
+ {
+  "id": "q020-x",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Cyprian's 'born of both sacraments' with John 3:5, very brief, all third person."
+ },
+ {
+  "id": "q020-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Regeneration as birth from Cyprian with a careful limit; grounded."
+ },
+ {
+  "id": "q017-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same grounded content as a sibling answer."
+ },
+ {
+  "id": "q007-x",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Garbled sequence and an unattached line about 'their longing expectation'."
+ },
+ {
+  "id": "q021-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Letter CXXVI to Albina and 'unread, not absent', matching the record."
+ },
+ {
+  "id": "q016-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest close at 430 then the claimed succession; does not overreach forward."
+ },
+ {
+  "id": "q011-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the shelf has Augustine on hard passages."
+ },
+ {
+  "id": "q005-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Accurate on both bishops and the font dispute, in long joined sentences."
+ },
+ {
+  "id": "q015-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Public road back and an honest limit on the lapsed's own view, but little detail."
+ },
+ {
+  "id": "q022-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Bare honest limit plus one line on the road back."
+ },
+ {
+  "id": "q013-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same honest limit with Demetrianus and the certificates."
+ },
+ {
+  "id": "q021-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Grounded on Letter CXXVI and unread site material; the line about the 411 transcript 'not validly read in building our record' is build jargon."
+ },
+ {
+  "id": "q010-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Canon above bishops, honesty about Genesis days, Moses' wars; grounded."
+ },
+ {
+  "id": "q028-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Hard teaching with the ark image and the Demetrianus appeal, and an honest limit on the unevangelized."
+ },
+ {
+  "id": "q019-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restless heart and the baptismal pattern, with a fair question back."
+ },
+ {
+  "id": "q013-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest that the record cannot say, with Demetrianus and the certificates as what it holds."
+ },
+ {
+  "id": "q008-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Quotes the Fidus letter and marks that it lacks the words guilt or original sin."
+ },
+ {
+  "id": "q010-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "'We bishops' breaks the community voice; vague 'the same voice also warned'; dropped full stop."
+ },
+ {
+  "id": "q001-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Full account of the two paths and both bishops' tests for apostolic custom, accurate to the records."
+ },
+ {
+  "id": "q001-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the absence of eyewitness chain and the written testimony and episcopal line concisely."
+ },
+ {
+  "id": "q012-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Quotes the canon passage and gives both bishops' tests for apostolic custom."
+ },
+ {
+  "id": "q015-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Treats schisms as 'failing people', blurs Felicissimus with a rival bishop, and claims the discipline grew from the schisms without support."
+ },
+ {
+  "id": "q017-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same grounded content with clearer reasoning and an honest naming of the gap."
+ },
+ {
+  "id": "q012-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Correct but leans on a long block quote and ends with a stray '.\u201d.'."
+ },
+ {
+  "id": "q002-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Shepherd image and the pattern of cross, burial and rising carry a distinctive answer."
+ },
+ {
+  "id": "q014-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Election by suffrage and God's judgment through Pontius and Cyprian, with the shepherd quote."
+ },
+ {
+  "id": "q023-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the shelf holds persecution, almsgiving and the lapsed."
+ },
+ {
+  "id": "q003-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Augustine's 'not yet' struggle offered honestly; the eyewitness tail is loosely attached."
+ },
+ {
+  "id": "q004-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Adds the pattern of life to the Trinitarian confession without overreach."
+ },
+ {
+  "id": "q003-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same grounded struggle with a clearer close on the testimony handed down."
+ },
+ {
+  "id": "q022-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit and preaching to the gathered room; grounded."
+ },
+ {
+  "id": "q026-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Confessors' claim and Cyprian's request for named certificates, held as unresolved."
+ },
+ {
+  "id": "q014-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Accurate but sprawls into preaching, women's voices and ransom money far past the question; 'phases' is build jargon."
+ },
+ {
+  "id": "q019-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same as a sibling answer: restless heart and pattern."
+ },
+ {
+  "id": "q018-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest about gaps but the 'one real exception... But he wrote' line dangles."
+ },
+ {
+  "id": "q008-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Fidus context, quote and the careful limit on 'guilt'; stray '.\u201d.' only."
+ },
+ {
+  "id": "q009-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Leaks engine instructions about record ids and overclaims a standard 'most scholarship does not reach'."
+ },
+ {
+  "id": "q020-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Says our record does not speak of being born, contrary to Cyprian's own words on regeneration and new birth."
+ },
+ {
+  "id": "q023-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Almsgiving and the confessors' claim, loosely related to what members gave up."
+ },
+ {
+  "id": "q018-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Taught, creed returned, then washed; infants; grounded but brief on steps."
+ },
+ {
+  "id": "q009-y",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the shelf holds explicit confidence and limit records."
+ },
+ {
+  "id": "q002-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Pattern-of-life answer only; vivid but omits the confession itself."
+ },
+ {
+  "id": "q018-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal although the shelf holds teaching-before-water and the creed handed back."
+ },
+ {
+  "id": "q006-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal although the shelf holds teaching on grace and God's judgment."
+ },
+ {
+  "id": "q007-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Struggle, the room to argue and stay, and the lapsed as our own; grounded."
+ },
+ {
+  "id": "q027-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Lapsed as our own and the public road, grounded."
+ },
+ {
+  "id": "q017-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Augustine's custom test, the episcopal line and the named gap; accurate."
+ },
+ {
+  "id": "q003-z",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Short; 'that restlessness' refers to nothing introduced, and the closing reassurance is the speaker's own."
+ },
+ {
+  "id": "q025-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Empty refusal; the shelf holds no such torture record, so nothing is false."
+ }
+]

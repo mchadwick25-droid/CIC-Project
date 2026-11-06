@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.zwingli-sixty-seven-articles
-  locus: preface, lines 4487-4492
+  locus: "preface (cic/texts/zwingli_selected-works_jackson1901.txt, lines 4487-4492)"
   license: public-domain
 relations: []
 text: The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city

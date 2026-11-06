@@ -1,0 +1,156 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Zurich's reform was argued in the open, when six hundred people met in the Town Hall to test our founder's case against Scripture."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "The council ruled for it and told every priest in its land to preach the same way."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "Catholic pressure was sustained across the whole window."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "The Jesuits were established at Fribourg from 1580, facing Bern and Geneva directly."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "sentence": "What we cannot give you is the look of our worship spaces, because no source in our record describes them directly."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "Nor has any account reached us of how an ordinary citizen lived a day or sat through a service."
+  }
+ ],
+ "citations": [
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.limit.material-culture-and-worship-space",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.story.first-zurich-disputation"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "Our record shows no regular hiding underground among believers of the Reformed cities [[rzg.limit.ordinary-daily-practice]] [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.38,
+   "sentence": "Our record shows no regular hiding underground among believers of the Reformed cities.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice",
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['reformed']) only 38% grounded in its own tags"
+  },
+  {
+   "draft": "Zurich's reform was argued in the open, when six hundred people met in the Town Hall to test our founder's case against Scripture [[rzg.story.first-zurich-disputation]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Zurich's reform was argued in the open, when six hundred people met in the Town Hall to test our founder's case against Scripture.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "The council ruled for it and told every priest in its land to preach the same way [[rzg.story.first-zurich-disputation]] [[as:paraphrase]].",
+   "sentence": "The council ruled for it and told every priest in its land to preach the same way.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The danger was real, though.",
+   "sentence": "The danger was real, though.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Catholic pressure was sustained across the whole window [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "sentence": "Catholic pressure was sustained across the whole window.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Jesuits were established at Fribourg from 1580, facing Bern and Geneva directly [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jesuits were established at Fribourg from 1580, facing Bern and Geneva directly.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we cannot give you is the look of our worship spaces, because no source in our record describes them directly [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "sentence": "What we cannot give you is the look of our worship spaces, because no source in our record describes them directly.",
+   "tags": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Nor has any account reached us of how an ordinary citizen lived a day or sat through a service [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "Nor has any account reached us of how an ordinary citizen lived a day or sat through a service.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.force.counter-reformation-sustained-pressure"
+ ],
+ "raw_text": "Our record shows no regular hiding underground among believers of the Reformed cities [[rzg.limit.ordinary-daily-practice]] [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]]. Zurich's reform was argued in the open, when six hundred people met in the Town Hall to test our founder's case against Scripture [[rzg.story.first-zurich-disputation]] [[as:paraphrase]]. The council ruled for it and told every priest in its land to preach the same way [[rzg.story.first-zurich-disputation]] [[as:paraphrase]]. The danger was real, though. Catholic pressure was sustained across the whole window [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. The Jesuits were established at Fribourg from 1580, facing Bern and Geneva directly [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. What we cannot give you is the look of our worship spaces, because no source in our record describes them directly [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]]. Nor has any account reached us of how an ordinary citizen lived a day or sat through a service [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "Our record shows no regular hiding underground among believers of the Reformed cities. Zurich's reform was argued in the open, when six hundred people met in the Town Hall to test our founder's case against Scripture. The council ruled for it and told every priest in its land to preach the same way. The danger was real, though. Catholic pressure was sustained across the whole window. The Jesuits were established at Fribourg from 1580, facing Bern and Geneva directly. In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep. What we cannot give you is the look of our worship spaces, because no source in our record describes them directly. Nor has any account reached us of how an ordinary citizen lived a day or sat through a service.",
+ "voice_set_aside": false
+}

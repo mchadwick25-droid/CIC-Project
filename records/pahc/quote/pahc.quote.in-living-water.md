@@ -16,8 +16,7 @@ confidence:
     Documented as the Didache's own text, from a manual whose date and place remain contested (see pahc.source.didache). What it evidences is the practice of the community that used it.
 sources:
 - source_id: pahc.source.didache
-  locus: >-
-    The Teaching of the Twelve Apostles, ch. VII.1-3, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes are removed from the text quoted here
+  locus: "The Teaching of the Twelve Apostles, ch. VII.1-3, in the ANF (Riddle) translation (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, lines 12914-12920); the edition's interleaved footnotes are removed from the text quoted here"
   license: public-domain
 text: >-
   Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water. But if thou have not living water, baptize into other water; and if thou canst not in cold, in warm. But if thou have not either, pour out water thrice upon the head into the name of Father and Son and Holy Spirit.
@@ -34,7 +33,7 @@ modern_lens_note: >-
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks how these people baptised, and whether babies were baptised"
+  - "participant asks how these people baptized, and whether babies were baptized"
   - "participant asks whether they were born again or what baptism did"
   - "participant asks how much the exact form of a rite mattered here"
 relations:
@@ -43,7 +42,7 @@ relations:
 use_note:
   means: "The Didache prescribes trinitarian baptism in running water, with fallbacks down to pouring water three times on the head."
   not_for:
-    - "a claim that the Didache says whether infants were baptised"
+    - "a claim that the Didache says whether infants were baptized"
     - "a claim that the form of the rite was fixed regardless of circumstance"
     - "a claim that the Didache's date and place are settled"
   years: {from: 80, to: 150}
@@ -52,7 +51,7 @@ use_note:
 This quote serves F4-T together with pahc.term.baptisma, which cites ch. 7 for "living
 water; the fallback ladder; threefold pouring".
 
-Kept as the whole ladder rather than the first clause. A cell asking whether this world baptised
+Kept as the whole ladder rather than the first clause. A cell asking whether this world baptized
 infants is not answered here - the Didache does not say - but the shape of the answer it CAN give
 is that the form bent to circumstance, and that only shows if the fallbacks are shown.
 

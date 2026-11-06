@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 27, sec. 68 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 27, sec. 68 (cic/texts/npnf208_basil-letters-select-works.xml, lines 14168-14170)"
   license: public-domain
 text: >-
   They must now instruct us either not to baptize as we have received, or not to believe as we were

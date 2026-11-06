@@ -1,0 +1,198 @@
+[
+ {
+  "id": "q001",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.limit.no-chain-of-witnesses",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.limit.no-chain-of-witnesses"
+ },
+ {
+  "id": "q002",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.the-pattern-we-are-modelled-on",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.the-pattern-we-are-modelled-on"
+ },
+ {
+  "id": "q003",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.grant-me-chastity-but-not-yet",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.grant-me-chastity-but-not-yet"
+ },
+ {
+  "id": "q004",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.the-only-son-and-the-trinity",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.the-only-son-and-the-trinity"
+ },
+ {
+  "id": "q005",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.gravity.conciliar-authority-theory",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.gravity.conciliar-authority-theory"
+ },
+ {
+  "id": "q006",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.term.grace",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.term.grace"
+ },
+ {
+  "id": "q007",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.witness.grant-me-chastity-but-not-yet",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.witness.grant-me-chastity-but-not-yet"
+ },
+ {
+  "id": "q008",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.infants-and-the-sin-of-another",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.infants-and-the-sin-of-another"
+ },
+ {
+  "id": "q009",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.contested.grace-pelagius-characterization",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.core.latin-pastoral-congregational-christianity"
+ },
+ {
+  "id": "q010",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.witness.days-before-the-sun",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.quote.the-sermon-and-the-readings-are-daily-bread"
+ },
+ {
+  "id": "q011",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.quote.dash-the-little-ones-against-the-rock",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.quote.dash-the-little-ones-against-the-rock"
+ },
+ {
+  "id": "q012",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.scripture-above-councils",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.scripture-above-councils"
+ },
+ {
+  "id": "q013",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.limit.the-outsiders-own-view",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.limit.the-outsiders-own-view"
+ },
+ {
+  "id": "q014",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.story.election-of-cyprian",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.story.election-of-cyprian"
+ },
+ {
+  "id": "q015",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.quote.pardon-through-a-wicked-clergyman",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.quote.pardon-through-a-wicked-clergyman"
+ },
+ {
+  "id": "q016",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.core.latin-pastoral-congregational-christianity"
+ },
+ {
+  "id": "q017",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.baptism-traced-to-the-apostles",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.tradition-tested-by-apostolic-warrant"
+ },
+ {
+  "id": "q018",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.term.catechesis",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.quote.the-creed-first-then-the-prayer"
+ },
+ {
+  "id": "q019",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+ },
+ {
+  "id": "q020",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.baptism-as-new-birth",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.baptism-as-new-birth"
+ },
+ {
+  "id": "q021",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.core.latin-pastoral-congregational-christianity",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.core.latin-pastoral-congregational-christianity"
+ },
+ {
+  "id": "q022",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.limit.ordinary-interior-life",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.limit.ordinary-interior-life"
+ },
+ {
+  "id": "q023",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.force.decian-persecution-libelli-system",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.story.numidicus"
+ },
+ {
+  "id": "q024",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.marriage-a-threefold-good",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.marriage-a-threefold-good"
+ },
+ {
+  "id": "q025",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.limit.the-outsiders-own-view"
+ },
+ {
+  "id": "q026",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.term.compel-them-to-come-in"
+ },
+ {
+  "id": "q027",
+  "fit_in_offer": "partly",
+  "best_in_offer": "lpc.story.the-plague-and-the-enemies",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "lpc.story.the-plague-and-the-enemies"
+ },
+ {
+  "id": "q028",
+  "fit_in_offer": "yes",
+  "best_in_offer": "lpc.witness.no-salvation-outside-the-church",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "lpc.witness.no-salvation-outside-the-church"
+ }
+]

@@ -98,3 +98,7 @@ assignments:
       Latin original standing behind the already-vendored NPNF1-03 English
       translation (Registry row 17). Same Maurist-text caveat as the
       companion De Doctrina Christiana entry above.
+
+    translator: {name: "none (Latin edition); editor: Carl Hermann Bruder (Tauchnitz stereotype of the Maurist text, not a critical edition)", source: "augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt line 2: Carl Hermann Bruder (Editor, \"ex Benedictinorum recensione\"", formation_confidence: Documented}
+
+    edition_date: {year: 1838, source: "augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt line 4: Publication Date: 1838", formation_confidence: Documented}

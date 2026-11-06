@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Held BELOW Documented despite verified-direct, and the reason matters. What was directly
     read is the Passio's own heading, which gives '8 (al. die 5) kal. decembris' -- A DAY ONLY, NO YEAR.
-    The 'ANNO DOMINI 348' above the catalogue entry is the volume's own dated section marker, not a date
+    The 'ANNO DOMINI 348' above the catalog entry is the volume's own dated section marker, not a date
     the Passio itself states, and the 347-348 Macarian-repression dating rests on the standard field literature
     (Frend, Registry row 23), not on the text. The Migne column numbers 760-766, carried over from a WebSearch
     finding, are not independently re-confirmed -- no inline column marker was found in this OCR. No free
@@ -28,7 +28,7 @@ citation: Anonymous (Donatist), Passio Marculi, ed. J.-P. Migne, Monumenta Veter
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: anonymous. The Donatist designation comes from Mabillon's and Migne's own descriptive
-  catalogue rubric ('PASSIO MARCULI SACERDOTIS DONATISTAE, QUI SUB MACARIO INTERFECTUS A DONATISTIS PRO
+  catalog rubric ('PASSIO MARCULI SACERDOTIS DONATISTAE, QUI SUB MACARIO INTERFECTUS A DONATISTIS PRO
   MARTYRE HABEBATUR'), NOT from the Passio's own self-description, whose own heading reads simply 'INCIPIT
   PASSIO BENEDICTI MARTYRIS MARCULI' (Registry row 19).
 discovery_channel: builder-prior-knowledge, cross-checked via WebSearch (Patrologia Latina vol. 8, cols.
@@ -37,4 +37,4 @@ discovery_channel: builder-prior-knowledge, cross-checked via WebSearch (Patrolo
 external_ids:
   don_source_registry_row: 19
 ---
-One of the martyr narratives at the centre of this world's own identity (Doc_01 SS1) and one of the four texts that speak AS Donatists rather than being spoken about (Doc_02 SS6). Subject to the five-item formation-narrative evaluation at Doc_02 SS4. Monceaux (Registry row 40) is a second, independent public-domain route to it.
+One of the martyr narratives at the center of this world's own identity (Doc_01 SS1) and one of the four texts that speak AS Donatists rather than being spoken about (Doc_02 SS6). Subject to the five-item formation-narrative evaluation at Doc_02 SS4. Monceaux (Registry row 40) is a second, independent public-domain route to it.

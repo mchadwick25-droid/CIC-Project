@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header, title page and front matter; Mullan's 1914 translation is dated only by a copyright line, and the Exercises' own composition date is not stated"}
   note: 'Ignatius of Loyola''s own foundational spiritual text, trans. Elder Mullan, S.J. (1914) - the
     structured month of prayer that shaped every Jesuit the order trained.
 

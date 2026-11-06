@@ -402,3 +402,52 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    - No record cites any of the newly held files yet; using them is future build work.
 
    Status: CLOSED for the 2026-10-26 entry. OPEN for the items above.
+
+81. **Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.** `Build/worlds/rzg/build/rzg_Passage_Seeds.yaml` holds 50 checked seeds for 31 of the 130 sub-questions, 13 of them voiceable and 37 etic. Phase 1 gave 23 seeds from the coverage-map hits; the first search batch (12 concrete sub-questions) added 27. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial, plus a random sample of the rest. Opus lowered the fit of about a third of the first reader's positives and moved several voiceable candidates to etic (a translator's or editor's summary of the Second Helvetic Confession, footnotes inside the passage, an opponent's argument).
+
+   What rzg needs that lpc did not have: `locus_ids`, translator and edition year and a dated window on its corpus-map rows. All 50 seeds read `file level only`; work and author are set on 38 and 46 of the 50, translator and edition year on none, and the date window is unknown on all. Several voiceable seeds need editor's footnotes and page headers trimmed before the passage is spoken.
+
+   Status: OPEN for the row fields. Owner: Library thread, through the coordination thread.
+
+82. **Row narrowing for the 12 files the passage seeds touch, 2026-11-02.** Scoped job: the 14 rzg corpus-map rows in the 12 vendored files that the 50 seeds in `rzg_Passage_Seeds.yaml` come from now carry `locus_ids`, `language`, `translator`, `edition_date` and `date` (in `cic/corpus-map/_staging/` and the regenerated rzg bucket). 9 rows cover a whole file and read `locus_ids: [whole-file]`, the same form lpc uses; 5 cover part of a file and list their divisions (Schaff's Second Helvetic Confession 41, Heidelberg Catechism 17, Zwingli's Sixty-Seven Articles 12, the rest of Zwingli's selected works 266, the Book of Common Order 373). Every division range and language was checked by an independent Opus read on 7 of the 14 rows and found right; the Opus read found errors in translator, edition and date fields on 6 of those 7, which were corrected, and every cited line was then checked by code (44 citations, quote on the line, year on a cited line). All 50 seeds now read `shelf_binding: row narrowed`; work, author and translator are set on all 50; the date window is inside the world's window on 32 and unknown on 18 (rows with no stated composition date). Voiceable seeds are unchanged at 13. Effort: about 10 minutes of wall-clock time, three Sonnet readers (four files each, about 1 to 2 minutes each), one Opus read (about 4 minutes), and my own code check and corrections.
+
+   Open, found while reading the vendored files and not changed here:
+   - The collective Zwingli row's `work` title lists the Acts of the Second Zurich Disputation, which are not in the volume, and gives the letter as to Erasmus of Rotterdam; it is to Erasmus Fabricius.
+   - The Schaff file is Creeds of Christendom Vol. I, not Vol. III as its library header says; it holds only sample questions 1 and 2 of the Heidelberg Catechism, and its edition year is not stated in the text (only "1919 printing (orig. 1877)"), so `edition_date` is unknown.
+   - The Genesis Vol. II file header, file name and row note say 1847; its own title page prints 1850.
+   - Two dates are derived or inferential and are marked so: the Second Helvetic Confession's 1562 to 1564 (the file says "two years afterwards"; Widely Accepted) and the Book of Common Order's 1554 to 1564 (Inferential-Thin).
+   - The rest of rzg's rows (31 rows in other files) are not narrowed.
+
+   Status: OPEN for the items above. Owner: Library thread, through the coordination thread.
+
+83. **The transmission force said G1's split is only about survival; Doc_04 says it is also a difference in kind, 2026-11-03.** `rzg.force.transmission-author-gravity-genre-asymmetries` said the split in G1 (core conviction in both strands, systematized form concentrated in Calvin and Beza) "is a fact about what survived to be copied and reprinted, not about which strand held the doctrine more centrally". Doc_04 §3.1 (line 57) calls the register difference "qualitative ... not just a volume difference". Checked against the vendored sources, Doc_04 holds. The Second Helvetic Confession, a Zurich-strand text that did survive, treats predestination pastorally and with Christ at the center: "We reject those who seek out of Christ whether they are chosen" (`cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt`, line 667), and "Let, therefore, Christ be the mirror in which we behold [our] predestination" (lines 684-685). Calvin's Institutes treat it as a system. So the difference shows in texts that survived on both sides, not only in how much survived. The record's description now says the volume gap is part of the cause, that the texts also differ in kind, and that neither strand is shown to hold the doctrine more centrally. Its other claims are unchanged. The rewrite also brings the description to the reading level (FK 10, FRE 60).
+
+   Open, not changed here: Doc_08 says the same thing the record said, at line 227 (2B-6, Layer 3) and line 413 ("the specific mechanism producing G1's own Confidence/Gravity Cross-Check divergence"), so Doc_08 and Doc_04 disagree. Doc_08 is a canonical construction document and belongs to rzg's own build thread.
+
+   Status: record CLOSED; Doc_08 OPEN. Owner of the Doc_08 item: rzg's own build thread.
+
+84. **Doc_08 brought into line with Doc_04 on G1's split, 2026-11-03.** Follows entry 83 ("The transmission force said G1's split is only about survival", 2026-11-03). Doc_08 lines 227, 351 and 413 now say the transmission asymmetry is part of the mechanism behind G1's Cross-Check divergence, alongside the qualitative register difference Doc_04 §3.1 names. The change order is in `rzg_Decision_Log.md` (2026-11-03). An independent Opus review checked it.
+
+   Status: CLOSED. Entry 83's open Doc_08 item is closed by this entry.
+
+85. **Open points removed from rzg documents when their commentary was cleaned, 2026-11-03.** Removed from the live documents; the questions stay open here.
+
+   (a) Doc_07 (Integrated Ecology Analysis), former line 206, a standing open item carried from Doc_04 §7: "Whether Zwingli's own 1527 *Refutation of the Tricks of the Baptists* contains further doctrinal content beyond the election material already surfaced (Doc_04 §3.1) and the general Anabaptist refusal already stated (Doc_05 §6.2) — this document's own Boundary Structures lens (§2H) does not independently close this, consistent with Doc_05 §6.2's own disclosure of the same limit." The same question is recorded in Doc_04 §7 and Doc_05 §6.2.
+
+   (b) Doc_07 line 16, the open-item sentence: "the distinct, still-open item is the template file's own staleness, a coach-level correction this build thread cannot make (`cic-build-cycle`, 'Editing authority over non-world-build files... belongs to a coach thread'). §8 below re-flags it rather than re-escalating it." Doc_07 §8 ("Re-flagged, not re-escalated") still records it.
+
+   (c) Representative Construction Notes (Theophilus), former line 236, tail clause: "this is a genuine open item for the project lead, matching don's own disclosure exactly, not resolved here." Limb 2 stays recorded as open at lines 214 and 232.
+
+   (d) World Profile line 497, clauses: "— a genuine open item." and "and should be [surveyed] before the Permanent Prompt's own Living Traditions Distinction section is finalized." The line keeps that the survey has not been done.
+
+   (e) World Profile line 499, clause: "— a genuine open item for the project lead's own weighing, not resolved or dismissed here." The line now says the weighing belongs to the project lead.
+
+   Status: OPEN. Owner: rzg's own build thread, with the project lead for (c) to (e).
+
+86. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 6 rzg renderings with no named Opus review file. An independent Opus reviewer read all six against each record's `text` and the edition text in `cic/texts/` at its locus. All six pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_6_2026-11-03.md`. The `m1:rendering-review/rzg` waiver is removed; the gate reports 0 for rzg (6 → 0). Noted: in `rzg.quote.christ-the-mirror-of-election` the "[our]" is the record's own marked correction of the scan's "onr" (line 684), not an editor's insertion.
+
+   Status: CLOSED.
+
+87. **Every verbatim quote names its exact lines, 2026-11-04.** All 6 rzg verbatim quotes with no line span in their locus now name one, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03). The `quote-locus` gate checks each. Two were corrected. `mass-not-a-sacrifice` sits at lines 4565-4569, as its locus already said in prose (the reviewer's span was a line early). `christ-the-mirror-of-election` joins two sentences with an elision, so its span runs from the first at line 667 to the second at lines 684-685, and the locus names both parts. Loci that stated the same span twice now state it once.
+
+   Status: CLOSED. Owner: Library record-defects thread.

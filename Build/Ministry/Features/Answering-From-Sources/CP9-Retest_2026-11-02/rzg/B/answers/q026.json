@@ -1,0 +1,145 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "What we will not smooth over is that our own council moved against the Anabaptists with civil force after 1525."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We will not tell you the suppression was only ever argument, when it plainly was not."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We held that a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-not-agreed"
+   ],
+   "sentence": "We also never settled who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.force.perrinist-crisis"
+   ],
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory only substantially won its independence by 1555."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we cannot give you is a single real Consistory case, with a named person and a real hearing."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "That record exists in Geneva's registers, and it has not reached us."
+  }
+ ],
+ "citations": [
+  "rzg.force.perrinist-crisis",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.witness.what-we-have-not-agreed"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What we will not smooth over is that our own council moved against the Anabaptists with civil force after 1525 [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "What we will not smooth over is that our own council moved against the Anabaptists with civil force after 1525.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "We will not tell you the suppression was only ever argument, when it plainly was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We will not tell you the suppression was only ever argument, when it plainly was not.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held that a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We held that a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also never settled who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[as:paraphrase]].",
+   "sentence": "We also never settled who holds the final word over church discipline.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Zurich's council governed church and city together, while Geneva's Consistory only substantially won its independence by 1555 [[rzg.witness.what-we-have-not-agreed]] [[rzg.force.perrinist-crisis]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory only substantially won its independence by 1555.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.force.perrinist-crisis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "What we cannot give you is a single real Consistory case, with a named person and a real hearing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we cannot give you is a single real Consistory case, with a named person and a real hearing.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That record exists in Geneva's registers, and it has not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That record exists in Geneva's registers, and it has not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.perrinist-crisis"
+ ],
+ "raw_text": "What we will not smooth over is that our own council moved against the Anabaptists with civil force after 1525 [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We will not tell you the suppression was only ever argument, when it plainly was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We held that a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We also never settled who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[as:paraphrase]]. Zurich's council governed church and city together, while Geneva's Consistory only substantially won its independence by 1555 [[rzg.witness.what-we-have-not-agreed]] [[rzg.force.perrinist-crisis]] [[as:paraphrase]]. What we cannot give you is a single real Consistory case, with a named person and a real hearing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]]. That record exists in Geneva's registers, and it has not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S6",
+ "text": "What we will not smooth over is that our own council moved against the Anabaptists with civil force after 1525. We will not tell you the suppression was only ever argument, when it plainly was not. We held that a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen. We also never settled who holds the final word over church discipline. Zurich's council governed church and city together, while Geneva's Consistory only substantially won its independence by 1555. What we cannot give you is a single real Consistory case, with a named person and a real hearing. That record exists in Geneva's registers, and it has not reached us.",
+ "voice_set_aside": false
+}

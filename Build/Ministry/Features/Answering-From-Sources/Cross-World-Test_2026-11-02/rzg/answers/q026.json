@@ -1,0 +1,143 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We will not tell you the suppression was only ever argument, when plainly it was not."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we cannot give you is a single real case, because Geneva's consistory registers have not reached us."
+  },
+  {
+   "record_ids": [
+    "rzg.force.perrinist-crisis"
+   ],
+   "sentence": "The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555."
+  }
+ ],
+ "citations": [
+  "rzg.force.perrinist-crisis",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "We will not tell you the suppression was only ever argument, when plainly it was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We will not tell you the suppression was only ever argument, when plainly it was not.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "What we cannot give you is a single real case, because Geneva's consistory registers have not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we cannot give you is a single real case, because Geneva's consistory registers have not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555 [[rzg.force.perrinist-crisis]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+   "tags": [
+    "rzg.force.perrinist-crisis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.perrinist-crisis"
+ ],
+ "raw_text": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe will not tell you the suppression was only ever argument, when plainly it was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nThe Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nAt Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nWhat we cannot give you is a single real case, because Geneva's consistory registers have not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nThe Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555 [[rzg.force.perrinist-crisis]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S6",
+ "text": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument. We will not tell you the suppression was only ever argument, when plainly it was not. We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen. The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole. At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church. What we cannot give you is a single real case, because Geneva's consistory registers have not reached us. The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+ "voice_set_aside": false
+}

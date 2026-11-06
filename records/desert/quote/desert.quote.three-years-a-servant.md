@@ -20,9 +20,7 @@ confidence:
     the Ethiopic.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 174)"
   license: public-domain
 text: >-
   But he that comes to dwell with them, let them not receive him into the association before he
@@ -54,7 +52,7 @@ use_note:
   means: "The Ethiopic Pachomian rule bars a newcomer from the community for three years, during which he is employed only as a servant."
   not_for:
     - "a job probation testing skill"
-    - "agreement across branches on the probationer's work, when the Greek line has harder labour instead of service"
+    - "agreement across branches on the probationer's work, when the Greek line has harder labor instead of service"
     - "Pachomius's own original wording, when it is the Ethiopic recension"
   years: {from: 320, to: 346}
   status: reviewed

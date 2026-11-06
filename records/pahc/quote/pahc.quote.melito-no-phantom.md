@@ -23,8 +23,7 @@ confidence:
     weight this quote is and is not given."
 sources:
 - source_id: pahc.source.second-third-century-remains
-  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 lines 71176-71206), citing
-    Anastasius of Sinai, The Guide, ch. 13"
+  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, lines 71180-71206), citing Anastasius of Sinai, The Guide, ch. 13"
   license: public-domain
 text: "For there is no need, to persons of intelligence, to attempt to prove, from the deeds of Christ
   subsequent to His baptism, that His soul and His body, His human nature like ours, were real, and no

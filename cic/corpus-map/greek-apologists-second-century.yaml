@@ -544,8 +544,88 @@ works:
   work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
+  locus_ids:
+  - iii.ii
+  - iii.ii.i
+  - iii.ii.i/notes
+  - iii.ii.ii
+  - iii.ii.iii
+  - iii.ii.iii/notes
+  - iii.ii.iv
+  - iii.ii.iv/notes
+  - iii.ii.v
+  - iii.ii.v/notes
+  - iii.ii.vi
+  - iii.ii.vi/notes
+  - iii.ii.vii
+  - iii.ii.vii/notes
+  - iii.ii.viii
+  - iii.ii.viii/notes
+  - iii.ii.ix
+  - iii.ii.ix/notes
+  - iii.ii.x
+  - iii.ii.x/notes
+  - iii.ii.xi
+  - iii.ii.xi/notes
+  - iii.ii.xii
+  - iii.ii.xii/notes
+  - iii.ii.xiii
+  - iii.ii.xiii/notes
+  - iii.ii.xiv
+  - iii.ii.xiv/notes
+  - iii.ii.xv
+  - iii.ii.xv/notes
+  - iii.ii.xvi
+  - iii.ii.xvi/notes
+  - iii.ii.xvii
+  - iii.ii.xvii/notes
+  - iii.ii.xviii
+  - iii.ii.xviii/notes
+  - iii.ii.xix
+  - iii.ii.xix/notes
+  - iii.ii.xx
+  - iii.ii.xx/notes
+  - iii.ii.xxi
+  - iii.ii.xxi/notes
+  - iii.ii.xxii
+  - iii.ii.xxii/notes
+  - iii.ii.xxiii
+  - iii.ii.xxiii/notes
+  - iii.ii.xxiv
+  - iii.ii.xxiv/notes
+  - iii.ii.xxv
+  - iii.ii.xxv/notes
+  - iii.ii.xxvi
+  - iii.ii.xxvii
+  - iii.ii.xxvii/notes
+  - iii.ii.xxviii
+  - iii.ii.xxix
+  - iii.ii.xxix/notes
+  - iii.ii.xxx
+  - iii.ii.xxx/notes
+  - iii.ii.xxxi
+  - iii.ii.xxxi/notes
+  - iii.ii.xxxii
+  - iii.ii.xxxii/notes
+  - iii.ii.xxxiii
+  - iii.ii.xxxiii/notes
+  - iii.ii.xxxiv
+  - iii.ii.xxxv
+  - iii.ii.xxxv/notes
+  - iii.ii.xxxvi
+  - iii.ii.xxxvii
+  - iii.ii.xxxvii/notes
+  - iii.ii.xxxviii
+  - iii.ii.xxxix
+  - iii.ii.xxxix/notes
+  - iii.ii.xl
+  - iii.ii.xl/notes
+  - iii.ii.xli
+  - iii.ii.xlii
+  - iii.ii.xlii/notes
   role: tradition
   confidence: assigned
+  language: eng
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`:

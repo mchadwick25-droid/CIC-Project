@@ -17,8 +17,7 @@ confidence:
     bearing for the south's own refusal of the north's virtus economy.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Preface (npnf211 div iv.ii, file lines 16503-16517): Cassian's refusal to narrate
-    miracles, and his stated purpose instead"
+  locus: "Preface (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16502-16515; div iv.ii): Cassian's refusal to narrate miracles, and his stated purpose instead"
   license: public-domain
 retrieval:
   tier: 2

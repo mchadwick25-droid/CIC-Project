@@ -20,6 +20,7 @@ edition: (dated Dec. 25, 1522; publ. March 1523), dedicated to Duke John, intro.
   III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
 citation: 'Luther, Secular Authority: To What Extent It Should Be Obeyed (dated Dec. 25, 1522; publ. March 1523), dedicated to Duke John, intro./trans. Schindel, vol. III'
 kind: vendored
+shelf_row: luther_works-v3-selected_various1930--secular-authority-to-what-extent-it-should-be-obeyed
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 20; v3 file; 2026-09-15

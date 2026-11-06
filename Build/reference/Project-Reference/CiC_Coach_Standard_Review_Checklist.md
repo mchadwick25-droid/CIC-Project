@@ -74,7 +74,7 @@ Level 1-4 document contamination and hygiene.
    counterpart** — Permanent Prompt, World Capsule Core, and a spot-check of lexicon/story
    chunks. A zero diff is the expected healthy state, not something to assume without
    checking (see Pattern Log: "A live Representative's deployed prompt can drift from its own
-   worlds construction record, silently and legitimately," 2026-07-19).
+   worlds construction record, silently and legitimately").
 2. **A real diff is not itself a defect to fix by reverting.** Check `git log` on the deployed
    file first — if the change is a reviewed, live-verified engineering fix (not an
    unreviewed edit), the deployed version is very likely the one that should win. Sync

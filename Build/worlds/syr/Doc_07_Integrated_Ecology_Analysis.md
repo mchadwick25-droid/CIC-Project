@@ -31,12 +31,12 @@ Two things about this step's own governing text are named here rather than worke
 
 | Document | Status |
 |----------|--------|
-| Doc_01 — World Identification | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
-| Doc_02 — Source Ecology | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
-| Doc_03 — Lexicon Candidate List | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
-| Doc_04 — Gravity Discovery | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
-| Doc_05 — Ecological Reconstruction (Human, Community, Worship, Organizational, Ministry Ecology lenses) | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
-| Doc_06 — Full Interpretive Lexicon — Tier 1 entries at genuine depth | COMPLETE (approved to proceed by the project lead, 2026-07-08; four Tier 1 entries — raza/shrara, qyama, madrasha, Iḥidaya — each carry full World Meaning, Ecological Function, paired Distortion Risk, and Key Sources per the LDF's own Tier 1 discipline) |
+| Doc_01 — World Identification | COMPLETE (approved to proceed by the project lead) |
+| Doc_02 — Source Ecology | COMPLETE (approved to proceed by the project lead) |
+| Doc_03 — Lexicon Candidate List | COMPLETE (approved to proceed by the project lead) |
+| Doc_04 — Gravity Discovery | COMPLETE (approved to proceed by the project lead) |
+| Doc_05 — Ecological Reconstruction (Human, Community, Worship, Organizational, Ministry Ecology lenses) | COMPLETE (approved to proceed by the project lead) |
+| Doc_06 — Full Interpretive Lexicon — Tier 1 entries at genuine depth | COMPLETE (approved to proceed by the project lead; four Tier 1 entries — raza/shrara, qyama, madrasha, Iḥidaya — each carry full World Meaning, Ecological Function, paired Distortion Risk, and Key Sources per the LDF's own Tier 1 discipline) |
 
 **Gate confirmation:** All six inputs confirmed complete before lens work began: **YES.**
 

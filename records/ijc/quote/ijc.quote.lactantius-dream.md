@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.lactantius-de-mortibus
-  locus: '44 (anf07, ch. XLIV division at line 10612; the quote itself at line 10620)'
+  locus: "44 (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, line 10620; the ch. XLIV division at line 10612)"
   license: public-domain
 text: Constantine was directed in a dream to cause the heavenly sign to be delineated on the shields
   of his soldiers, and so to proceed to battle. He did as he had been commanded, and he marked on their
@@ -34,7 +34,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks how the emperor came to favour the Christians"
+  - "participant asks how the emperor came to favor the Christians"
   - "participant asks whether the conversion story can be believed"
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}

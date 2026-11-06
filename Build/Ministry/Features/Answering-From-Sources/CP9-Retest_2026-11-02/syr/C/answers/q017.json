@@ -1,0 +1,167 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "What we can show is practice older than proof."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "When our sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard."
+  },
+  {
+   "record_ids": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "sentence": "Our earliest hard trace is a line in a city chronicle, which The Chronicle of Edessa gives as: “And they destroyed the temple of the church of the Christians.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We cannot be sure that line stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "We claimed no living eyewitnesses, and the Gospel our churches read in worship was the one woven story."
+  },
+  {
+   "record_ids": [
+    "syr.limit.ritual-sequence"
+   ],
+   "sentence": "No order of worship survives from us, so we cannot walk you through a service step by step."
+  },
+  {
+   "record_ids": [
+    "syr.limit.ritual-sequence"
+   ],
+   "sentence": "What we kept are the pieces: the font sung as a womb, the sealing, and the covenant vow taken before the water."
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.dw.corpus-and-its-edges",
+  "syr.dw.gospel-harmony",
+  "syr.limit.ritual-sequence",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "What we can show is practice older than proof [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "What we can show is practice older than proof.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When our sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "When our sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our earliest hard trace is a line in a city chronicle, which The Chronicle of Edessa gives as: [[quote:syr.quote.chronicle-flood-line]]",
+   "placed_quote": "syr.quote.chronicle-flood-line",
+   "sentence": "Our earliest hard trace is a line in a city chronicle, which The Chronicle of Edessa gives as: “And they destroyed the temple of the church of the Christians.”",
+   "tags": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We cannot be sure that line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "We cannot be sure that line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We claimed no living eyewitnesses, and the Gospel our churches read in worship was the one woven story [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "sentence": "We claimed no living eyewitnesses, and the Gospel our churches read in worship was the one woven story.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No order of worship survives from us, so we cannot walk you through a service step by step [[syr.limit.ritual-sequence]] [[as:paraphrase]].",
+   "sentence": "No order of worship survives from us, so we cannot walk you through a service step by step.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we kept are the pieces: the font sung as a womb, the sealing, and the covenant vow taken before the water [[syr.limit.ritual-sequence]] [[as:paraphrase]].",
+   "sentence": "What we kept are the pieces: the font sung as a womb, the sealing, and the covenant vow taken before the water.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.institutional-consolidation",
+  "syr.contested.jacob-death-year",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.god",
+  "syr.gravity.heresiological-self-definition",
+  "syr.gravity.raza-shrara-method",
+  "syr.force.rival-movements",
+  "syr.contested.bardaisan-nicene-floor"
+ ],
+ "raw_text": "What we can show is practice older than proof [[syr.dw.apostolic]] [[as:paraphrase]]. When our sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard [[syr.dw.apostolic]] [[as:paraphrase]]. Our own account of apostolic origin is a story, the legend of Addai, who came to Edessa and healed the king [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. That legend was written down late, and we tell it as our story, never as history [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. Our earliest hard trace is a line in a city chronicle, which The Chronicle of Edessa gives as: [[quote:syr.quote.chronicle-flood-line]]\nWe cannot be sure that line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. We claimed no living eyewitnesses, and the Gospel our churches read in worship was the one woven story [[syr.dw.gospel-harmony]] [[as:paraphrase]]. No order of worship survives from us, so we cannot walk you through a service step by step [[syr.limit.ritual-sequence]] [[as:paraphrase]]. What we kept are the pieces: the font sung as a womb, the sealing, and the covenant vow taken before the water [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.chronicle-flood-line"
+  ],
+  "removed": [
+   {
+    "draft": "Our own account of apostolic origin is a story, the legend of Addai, who came to Edessa and healed the king [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "Our own account of apostolic origin is a story, the legend of Addai, who came to Edessa and healed the king.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "That legend was written down late, and we tell it as our story, never as history [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "That legend was written down late, and we tell it as our story, never as history.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "What we can show is practice older than proof. When our sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard. Our earliest hard trace is a line in a city chronicle, which The Chronicle of Edessa gives as: “And they destroyed the temple of the church of the Christians.”\n\nWe cannot be sure that line stood in the first record and was not added later. We claimed no living eyewitnesses, and the Gospel our churches read in worship was the one woven story. No order of worship survives from us, so we cannot walk you through a service step by step. What we kept are the pieces: the font sung as a womb, the sealing, and the covenant vow taken before the water.",
+ "voice_set_aside": false
+}

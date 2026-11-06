@@ -250,6 +250,10 @@ assignments:
       same-work-different-language pairing already used there for Cyprian/
       Hartel and six other Augustine works.
 
+    translator: {name: "none (Latin edition); editor: Michael Petschenig (CSEL 51, Pars I)", source: "augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt line 22: Michael Petschenig (Editor)", formation_confidence: Documented}
+
+    edition_date: {year: 1908, source: "augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt line 24: Vol. LI (Pars I, 1908)", formation_confidence: Documented}
+
   - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
     work: "Contra Cresconium (libri quattuor)"
     author: augustine

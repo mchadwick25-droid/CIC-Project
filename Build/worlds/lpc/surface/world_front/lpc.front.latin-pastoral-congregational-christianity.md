@@ -166,7 +166,7 @@ orientation:
   - story_id: lpc.story.election-of-cyprian
     title: "Chosen While Still New to the Faith"
     when: "between about July 248 and April 249"
-    teaser: "Carthage makes a man its bishop while he is still new to the faith. Five of the clergy object. His deacon calls it God's judgment, shown in the people's favour."
+    teaser: "Carthage makes a man its bishop while he is still new to the faith. Five of the clergy object. His deacon calls it God's judgment, shown in the people's favor."
     grounded_in: [lpc.story.election-of-cyprian, lpc.figure.cyprian, lpc.figure.pontius]
   - story_id: lpc.story.celerinus-writes-to-lucian
     title: "A Confessor Writes to a Confessor in Prison"

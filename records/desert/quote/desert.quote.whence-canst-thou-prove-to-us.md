@@ -16,8 +16,7 @@ confidence:
     Documented as the collection's own saying 610 in Budge's English, read directly in the vendored file. This is the Syriac recension of 'Anan-Isho', whose numbering and often wording differ from the Greek alphabetical collection; the scripture reference in parentheses is Budge's, the square brackets his supplied words. The elder is unnamed here, as he is throughout this run of questions.
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: >-
-    saying 610, in the question-and-answer run at 608-610 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt)
+  locus: "saying 610, in the question-and-answer run at 608-610 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, line 2750)"
   license: public-domain
 text: >-
   The brethren said, “Whence canst thou prove to us that this is so?” The old man said: “From the words of our Lord in the Gospel. For he said, ‘The sower went forth to sow. And some [seeds] fell on the roadside, and others fell on the rock, and others among thorns’ (St. Matthew 13:3 ff.) Now these three [kinds of] seed are those who are in the world. And as concerning the other seed of which He spake, saying that it fell on good ground, and gave fruit, some thirtyfold, and some sixtyfold, and some a hundredfold, these are the grades of monks, for the seed which yielded fruit thirtyfold is the beginners, and that which yielded sixtyfold is the half-perfect, and that which yielded one hundredfold is the perfect.”

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 27
+  locus: "sec. 27 (cic/texts/npnf206_jerome-principal-works.xml, lines 22016-22019)"
   license: public-domain
 text: 'While I myself beginning as a young man have with much toil and effort partially
   acquired the Hebrew tongue and study it now unceasingly lest if I leave it, it also may

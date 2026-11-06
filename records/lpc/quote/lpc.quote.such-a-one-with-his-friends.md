@@ -34,6 +34,7 @@ retrieval:
   retrieve_when:
   - participant asks what a confessor's certificate of peace said
   - participant asks why Cyprian wanted each certificate to name the person
+  - participant asks whether a martyr's note could win forgiveness for a whole family at once
   prefer_instead:
   - participant asks how many certificates were given -- lpc.quote.thousands-of-certificates-daily gives
     that

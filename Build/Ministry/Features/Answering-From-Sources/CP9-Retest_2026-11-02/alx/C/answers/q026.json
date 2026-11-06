@@ -1,0 +1,528 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Yes, our churches had failures, and our record leaves the wounds visible."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our greatest teacher was driven out by his own bishop, not by pagans."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The church remembered both men rather than erasing either."
+  },
+  {
+   "record_ids": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "sentence": "Eusebius of Caesarea reports of that rupture in his Church History: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure",
+    "alx.term.lapsi"
+   ],
+   "sentence": "Under persecution many gave way, and some sacrificed to the gods."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "When peace came, the community fought bitterly over them, and the strict party demanded they stay out."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Some of what was done with that power our own sources report without pride."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Where the restoring side won, we did not pretend the failure away, and we did not make the failed unforgivable."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "Clement told, as a true tradition handed down, of the Apostle John and a young man who fell:"
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "In a city not far from Ephesus, the aged apostle John once left a promising young man in the bishop's care."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "Clement, one of our teachers, passed this on as a true account, handed down and kept in memory."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The bishop taught the young man and baptized him."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "Then he relaxed his watch."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The young man fell in with idle companions, and then with worse ones."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "At last he ran to the hills and became chief of a band of robbers."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "Years later John came back and asked the bishop to return what he had left in his keeping."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The bishop wept."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The young man was dead to God, he said, a robber on the mountain."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The old apostle tore his clothes, called for a horse and rode out to the mountain himself."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "When the young man saw him, he fled."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "John forgot his age and rode after him."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "He begged his child not to run from his own father, old and unarmed."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "There was still hope of life for him, John said, and he would answer for him to Christ."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "The young man stopped, threw down his weapons and wept."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "John led him back, prayed with him and fasted beside him in the struggle."
+  },
+  {
+   "record_ids": [
+    "alx.story.john-young-robber"
+   ],
+   "sentence": "He did not leave until he had restored him to the church."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.quote.demetrius-accused-him-bitterly",
+  "alx.story.john-young-robber",
+  "alx.term.lapsi"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "Yes, our churches had failures, and our record leaves the wounds visible [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Yes, our churches had failures, and our record leaves the wounds visible.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The church remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "The church remembered both men rather than erasing either.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Eusebius of Caesarea reports of that rupture in his Church History: [[quote:alx.quote.demetrius-accused-him-bitterly]]",
+   "placed_quote": "alx.quote.demetrius-accused-him-bitterly",
+   "sentence": "Eusebius of Caesarea reports of that rupture in his Church History: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”",
+   "tags": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Under persecution many gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[alx.term.lapsi]] [[as:paraphrase]].",
+   "sentence": "Under persecution many gave way, and some sacrificed to the gods.",
+   "tags": [
+    "alx.dw.church-failure",
+    "alx.term.lapsi"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When peace came, the community fought bitterly over them, and the strict party demanded they stay out [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "When peace came, the community fought bitterly over them, and the strict party demanded they stay out.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Some of what was done with that power our own sources report without pride.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Where the restoring side won, we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Where the restoring side won, we did not pretend the failure away, and we did not make the failed unforgivable.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement told, as a true tradition handed down, of the Apostle John and a young man who fell: [[story:alx.story.john-young-robber]]",
+   "ratio": 1.0,
+   "sentence": "Clement told, as a true tradition handed down, of the Apostle John and a young man who fell:",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In a city not far from Ephesus, the aged apostle John once left a promising young man in the bishop's care [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "In a city not far from Ephesus, the aged apostle John once left a promising young man in the bishop's care.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Clement, one of our teachers, passed this on as a true account, handed down and kept in memory [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "Clement, one of our teachers, passed this on as a true account, handed down and kept in memory.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The bishop taught the young man and baptized him [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The bishop taught the young man and baptized him.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Then he relaxed his watch [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "Then he relaxed his watch.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The young man fell in with idle companions, and then with worse ones [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The young man fell in with idle companions, and then with worse ones.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "At last he ran to the hills and became chief of a band of robbers [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "At last he ran to the hills and became chief of a band of robbers.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Years later John came back and asked the bishop to return what he had left in his keeping [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "Years later John came back and asked the bishop to return what he had left in his keeping.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The bishop wept [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The bishop wept.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The young man was dead to God, he said, a robber on the mountain [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The young man was dead to God, he said, a robber on the mountain.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The old apostle tore his clothes, called for a horse and rode out to the mountain himself [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The old apostle tore his clothes, called for a horse and rode out to the mountain himself.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the young man saw him, he fled [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "When the young man saw him, he fled.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "John forgot his age and rode after him [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "John forgot his age and rode after him.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He begged his child not to run from his own father, old and unarmed [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "He begged his child not to run from his own father, old and unarmed.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "There was still hope of life for him, John said, and he would answer for him to Christ [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "There was still hope of life for him, John said, and he would answer for him to Christ.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The young man stopped, threw down his weapons and wept [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "The young man stopped, threw down his weapons and wept.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "John led him back, prayed with him and fasted beside him in the struggle [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "John led him back, prayed with him and fasted beside him in the struggle.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He did not leave until he had restored him to the church [[alx.story.john-young-robber]].",
+   "placed_story": "alx.story.john-young-robber",
+   "sentence": "He did not leave until he had restored him to the church.",
+   "tags": [
+    "alx.story.john-young-robber"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.arete",
+  "alx.term.baptism",
+  "alx.term.methexis",
+  "alx.story.gregory-formation",
+  "alx.story.john-young-robber",
+  "alx.quote.demetrius-accused-him-bitterly",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.gravity.soul-transformation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution",
+  "alx.dw.god",
+  "alx.term.pneuma-hagion",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.prayer",
+  "alx.quote.clement-instructor",
+  "alx.quote.gregory-spark",
+  "alx.term.episkopos",
+  "alx.term.ekklesia",
+  "alx.term.didaskalos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.force.origen-demetrius-conflict",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "Yes, our churches had failures, and our record leaves the wounds visible [[alx.dw.church-failure]] [[as:paraphrase]]. Our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]]. The church remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]]. Eusebius of Caesarea reports of that rupture in his Church History: [[quote:alx.quote.demetrius-accused-him-bitterly]] [[as:paraphrase]]. Under persecution many gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[alx.term.lapsi]] [[as:paraphrase]]. When peace came, the community fought bitterly over them, and the strict party demanded they stay out [[alx.dw.church-failure]] [[as:paraphrase]]. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]] [[as:paraphrase]]. After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]]. Some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]]. Where the restoring side won, we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]]. Clement told, as a true tradition handed down, of the Apostle John and a young man who fell: [[story:alx.story.john-young-robber]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.demetrius-accused-him-bitterly": [
+    {
+     "detail": "History",
+     "kind": "name",
+     "snippet": "these charges the men who had made him a presbyter. Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constanti",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    }
+   ]
+  },
+  "placed": [
+   "alx.story.john-young-robber",
+   "alx.quote.demetrius-accused-him-bitterly"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "alx.story.john-young-robber": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "Yes, our churches had failures, and our record leaves the wounds visible. Our greatest teacher was driven out by his own bishop, not by pagans. The church remembered both men rather than erasing either. Eusebius of Caesarea reports of that rupture in his Church History: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”. Under persecution many gave way, and some sacrificed to the gods. When peace came, the community fought bitterly over them, and the strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so. After Nicaea, the church itself learned to use exile and condemnation. Some of what was done with that power our own sources report without pride. Where the restoring side won, we did not pretend the failure away, and we did not make the failed unforgivable. Clement told, as a true tradition handed down, of the Apostle John and a young man who fell:\n\nIn a city not far from Ephesus, the aged apostle John once left a promising young man in the bishop's care. Clement, one of our teachers, passed this on as a true account, handed down and kept in memory.\n\nThe bishop taught the young man and baptized him. Then he relaxed his watch. The young man fell in with idle companions, and then with worse ones. At last he ran to the hills and became chief of a band of robbers.\n\nYears later John came back and asked the bishop to return what he had left in his keeping. The bishop wept. The young man was dead to God, he said, a robber on the mountain. The old apostle tore his clothes, called for a horse and rode out to the mountain himself.\n\nWhen the young man saw him, he fled. John forgot his age and rode after him. He begged his child not to run from his own father, old and unarmed. There was still hope of life for him, John said, and he would answer for him to Christ.\n\nThe young man stopped, threw down his weapons and wept. John led him back, prayed with him and fasted beside him in the struggle. He did not leave until he had restored him to the church..",
+ "voice_set_aside": false
+}

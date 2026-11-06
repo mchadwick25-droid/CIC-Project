@@ -19,7 +19,7 @@ confidence:
     only inside a transmission claim.
 sources:
 - source_id: pahc.source.athanasius-festal-39
-  locus: Festal Letter XXXIX, section 7 (npnf204, file line 68817)
+  locus: "Festal Letter XXXIX, section 7 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 68817-68825)"
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books
@@ -32,7 +32,7 @@ modern_rendering: I add this too, to be more exact, and I write it because I mus
   besides these. They are not in the Canon. But the Fathers appointed them to be read by those who newly
   join us and want teaching in the word of godliness. These are the Wisdom of Solomon, the Wisdom of Sirach,
   Esther, Judith, Tobit, the book called the Teaching of the Apostles, and the Shepherd. But the books
-  I listed first, my brothers, are in the Canon. These others are only read. And nowhere is there any
+  I listed first, my brothers, are in the Canon. The others are read. And nowhere is there any
   mention of apocryphal writings.
 speaker_or_author: Athanasius of Alexandria, in his Festal Letter of 367
 license: verbatim

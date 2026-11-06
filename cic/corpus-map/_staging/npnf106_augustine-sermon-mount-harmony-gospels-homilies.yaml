@@ -33,6 +33,8 @@ assignments:
     note: >
       c. 394, early exegetical treatise on Matthew 5-7, written as a
       presbyter at Hippo. Squarely his own entry's material.
+    translator: {name: "Rev. William Findlay (revised and annotated by Rev. D. S. Schaff)", source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 551: Translated by the Rev. William Findlay. Revised and Annotated by the Rev. D. S. Schaff.", formation_confidence: Documented}
+    edition_date: {year: 1887, source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum
     work: "The Harmony of the Gospels (De consensu evangelistarum)"
@@ -89,6 +91,10 @@ assignments:
       evangelists against each other; Books II-IV are the harmony proper.
       Still Augustine speaking as the tradition, so role is tradition, not
       context — context is reserved for outsiders describing Christians.
+
+    translator: {name: "Rev. S. D. F. Salmond, D.D. (edited, with notes, by Rev. M. B. Riddle, D.D.)", source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 561: Translated by the Rev. S. D. F. Salmond, D.D. Edited, with Notes, by the Rev. M. B. Riddle, D.D.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad
     work: "Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)"
@@ -246,3 +252,7 @@ assignments:
       anti-Donatist, anti-Manichaean and anti-Pelagian asides occur (a few
       dozen mentions across 308k words) but no sermon sub-group is dedicated
       polemic, so no second atlas_id is claimed for the body.
+
+    translator: {name: "Rev. R. G. MacMullen (edited by Dr. Schaff)", source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 582: Translated by the Rev. R. G. MacMullen. Edited by Dr. Schaff.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.", formation_confidence: Inferential-Thin}

@@ -29,6 +29,7 @@ work: 'Letters -- the general correspondence (138 of the vendored volume''s own 
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
 citation: 'Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I'
 kind: vendored
+shelf_row: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

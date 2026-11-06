@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution at SS41, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power"
+  locus: "SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 32256-32259)"
   license: public-domain
 text: "Thou who art ever a liar and never speakest the truth, this at length, even against thy will, thou hast truly spoken. For the coming of Christ hath made thee weak, and He hath cast thee down and stripped thee."
 modern_rendering: >-
@@ -45,7 +45,7 @@ use_note:
   years: {from: 356, to: 362}
   status: reviewed
 ---
-The Christological claim that actually organises this world's daily practice. The whole
+The Christological claim that actually organizes this world's daily practice. The whole
 discipline of watching and answering thoughts (desert.term.logismoi,
 desert.term.antirrhesis) rests on the enemy already having been beaten, not on the
 monk's own strength - and this is where the corpus says so in Antony's own reported

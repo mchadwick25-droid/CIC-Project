@@ -16,12 +16,12 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-paidagogos
-  locus: I.2 (anf02 line 18785)
+  locus: "I.2 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 18785-18786)"
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
 modern_rendering: >-
-  So our Instructor, the Word, cures the unnatural passions of the soul,
-  and he does this by urging us on.
+  So our Instructor, the Word, cures the passions of the soul that go
+  against nature. He does this by urging us on.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -35,13 +35,36 @@ retrieval:
   - "participant asks how a person was formed or changed by this way of life"
   - "participant asks what they did about anger, appetite, and unruly feeling"
 use_note:
-  means: "Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's unnatural passions by means of exhortation."
+  means: "Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's passions that go against nature by means of exhortation."
   not_for:
     - "the modern sense of passion as enthusiasm, when Clement means disordered appetites"
-    - "a description of a practised therapeutic or disciplinary routine in the community"
+    - "a description of a practiced therapeutic or disciplinary routine in the community"
     - "Clement's picture generalized as the teaching of all Alexandrian Christians"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in the Instructor, a book the construction record calls explicitly catechetical.
+  source_says: Sin goes against reason, so the Word took charge of us. Doctors heal bodies; the Word alone
+    heals soul and body.
+  historians_conclude:
+    text: The construction record holds God teaching through Scripture, catechesis and hardship as widely
+      held; Origen's system is a reconstruction.
+    confidence: Widely Accepted
+  contributes: It shows formation as healing by persuasion, not force.
+  whose_view: Clement's picture. Ordinary believers appear only as the taught, never as authors.
+  open: How far it shaped the unlettered majority is unknown; the evidence is all literate.
+  reads_differently_today: '''Passions of the soul'' means disordered appetites that need governing. It
+    does not mean enthusiasm, almost the opposite.'
+  sources:
+    setting: alx.source.clement-paidagogos; Build/worlds/alx/Doc_02_Source_Ecology.md §2 Stream 2 (Paedagogus
+      explicitly catechetical)
+    source_says: alx.source.clement-paidagogos, Paedagogus I.2, anf02 lines 18768-18795
+    historians_conclude: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C3 Divine Pedagogy: core
+      Widely Accepted); alx.gravity.divine-pedagogy body (Origen''s systematic form DMR)'
+    contributes: alx.gravity.divine-pedagogy; alx.term.paideia
+    whose_view: Build/worlds/alx/Doc_02_Source_Ecology.md §3.2
+    open: alx.contested.ecology-wide-primacy
+    reads_differently_today: alx.quote.clement-instructor, modern_lens_note
 ---
 The Paedagogus's picture of Christ as the soul's physician-teacher.
 Serves F4-I (how formation worked) and F4-P ('I can't quiet my own

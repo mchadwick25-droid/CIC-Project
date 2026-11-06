@@ -1,0 +1,198 @@
+[
+ {
+  "id": "q001",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.quote.clement-bee",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.dw.apostolic"
+ },
+ {
+  "id": "q002",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.jesus",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.jesus"
+ },
+ {
+  "id": "q003",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.doubt",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.doubt"
+ },
+ {
+  "id": "q004",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.was-jesus-god",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.was-jesus-god"
+ },
+ {
+  "id": "q005",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.councils",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.councils"
+ },
+ {
+  "id": "q006",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.god",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.god"
+ },
+ {
+  "id": "q007",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.doubt",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.doubt"
+ },
+ {
+  "id": "q008",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.original-sin",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.original-sin"
+ },
+ {
+  "id": "q009",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.record",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.record"
+ },
+ {
+  "id": "q010",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.gravity.learning-formation",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.gravity.scripture-formative"
+ },
+ {
+  "id": "q011",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.term.scripture-as-address",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.term.scripture-as-address"
+ },
+ {
+  "id": "q012",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.term.kanon-pisteos",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.term.kanon-pisteos"
+ },
+ {
+  "id": "q013",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.force.persecution",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.force.persecution"
+ },
+ {
+  "id": "q014",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.force.teacher-bishop-ongoing",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.gravity.teacher-bishop-tension"
+ },
+ {
+  "id": "q015",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.church-failure",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.church-failure"
+ },
+ {
+  "id": "q016",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.one-church",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.one-church"
+ },
+ {
+  "id": "q017",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.apostolic",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.apostolic"
+ },
+ {
+  "id": "q018",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.term.katechesis",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.term.katechesis"
+ },
+ {
+  "id": "q019",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.term.prayer",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.term.prayer"
+ },
+ {
+  "id": "q020",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.term.photismos"
+ },
+ {
+  "id": "q021",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.limit.material-remains",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.limit.material-remains"
+ },
+ {
+  "id": "q022",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.quote.timothy-ordinary-questions",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.term.oikos"
+ },
+ {
+  "id": "q023",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.quote.clement-possessions",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.quote.couches-and-trenchers-and-bowls"
+ },
+ {
+  "id": "q024",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.limit.marriage",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.limit.marriage"
+ },
+ {
+  "id": "q025",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.dw.record"
+ },
+ {
+  "id": "q026",
+  "fit_in_offer": "yes",
+  "best_in_offer": "alx.dw.church-failure",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.dw.church-failure"
+ },
+ {
+  "id": "q027",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.dw.doubt",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "alx.dw.doubt"
+ },
+ {
+  "id": "q028",
+  "fit_in_offer": "partly",
+  "best_in_offer": "alx.contested.origen-positions",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "alx.term.apokatastasis"
+ }
+]

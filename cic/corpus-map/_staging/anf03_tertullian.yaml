@@ -28,11 +28,19 @@ assignments:
   - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
-    Latin apologetic enterprise (also the opening date of the tertullian-s-voice material,
-    which this candidate now includes).
+  note: 'Carthage, 197. The date is the best-anchored in this shelf and is its first fixed date.
+    It is not the opening of the Latin case, because the Octavius may be earlier.
 
     '
+  locus_ids:
+  - div2:iv.iii
+  - div3:iv.iii.i..iv.iii.li (51 divisions)
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--apology-apologeticus-2
   work: Apology (Apologeticus)
   author: tertullian
@@ -58,6 +66,15 @@ assignments:
   note: 'Practical treatise on Christians amid pagan civic life, Carthage.
 
     '
+  locus_ids:
+  - div2:iv.iv
+  - div3:iv.iv.i..iv.iv.xxv (25 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-shows-de-spectaculis
   work: The Shows (De Spectaculis)
   author: tertullian
@@ -69,6 +86,15 @@ assignments:
   note: 'Companion piece to On Idolatry on the games and theatre.
 
     '
+  locus_ids:
+  - div2:iv.v
+  - div3:iv.v.i..iv.v.xxx (30 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-chaplet-de-corona
   work: The Chaplet (De Corona)
   author: tertullian
@@ -80,6 +106,15 @@ assignments:
   note: 'On the soldier''s crown and military service; within the entry''s window.
 
     '
+  locus_ids:
+  - div2:iv.vi
+  - div3:iv.vi.i..iv.vi.xvi (16 divisions)
+  language: eng
+  date:
+    start: 211
+    end: 211
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--to-scapula
   work: To Scapula
   author: tertullian
@@ -91,6 +126,15 @@ assignments:
   note: 'Open letter to the proconsul of Africa, 212.
 
     '
+  locus_ids:
+  - div2:iv.vii
+  - div3:iv.vii.i..iv.vii.vi (6 divisions)
+  language: eng
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--ad-nationes
   work: Ad Nationes
   author: tertullian
@@ -102,6 +146,15 @@ assignments:
   note: 'Earlier draft-sibling of the Apology, addressed to the pagan nations.
 
     '
+  locus_ids:
+  - div2:iv.viii
+  - div3:iv.viii.i..iv.viii.iv (4 divisions)
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--an-answer-to-the-jews
   work: An Answer to the Jews
   author: tertullian
@@ -114,6 +167,15 @@ assignments:
     assignment is made.
 
     '
+  locus_ids:
+  - div2:iv.ix
+  - div3:iv.ix.i..iv.ix.xiv (14 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-soul-s-testimony
   work: The Soul's Testimony
   author: tertullian
@@ -125,6 +187,13 @@ assignments:
   note: 'Short apologetic argument from the soul''s spontaneous speech.
 
     '
+  locus_ids:
+  - div2:iv.x
+  - div3:iv.x.i..iv.x.vii (7 divisions)
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: 197 or soon after, shortly after the Apology; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); first recorded confidence: Dominant Modern Reconstruction'
 - row_id: anf03_tertullian--a-treatise-on-the-soul-de-anima
   work: A Treatise on the Soul (De Anima)
   author: tertullian
@@ -136,6 +205,15 @@ assignments:
   note: 'His longest philosophical work, against the philosophers and gnostic psychologies.
 
     '
+  locus_ids:
+  - div2:iv.xi
+  - div3:iv.xi.i..iv.xi.lviii (58 divisions)
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt) (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded: between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-prescription-against-heretics
   work: The Prescription Against Heretics
   author: tertullian
@@ -148,6 +226,15 @@ assignments:
     by a separate context entry (§6.1).
 
     '
+  locus_ids:
+  - div2:v.iii
+  - div3:v.iii.i..v.iii.xlv (45 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-prescription-against-heretics-2
   work: The Prescription Against Heretics
   author: tertullian
@@ -176,6 +263,15 @@ assignments:
     context entry; assignment is not exclusive (§6.1).
 
     '
+  locus_ids:
+  - div2:v.iv
+  - div3:v.iv.i..v.iv.vi (6 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: three stages: first and second drafts within 198-202/3; third version, books I-IV, 207/8; book V between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-five-books-against-marcion-2
   work: The Five Books Against Marcion
   author: tertullian
@@ -216,6 +312,15 @@ assignments:
     for him.
 
     '
+  locus_ids:
+  - div2:v.v
+  - div3:v.v.i..v.v.xlv (45 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-the-valentinians
   work: Against the Valentinians
   author: tertullian
@@ -228,6 +333,15 @@ assignments:
     face below.
 
     '
+  locus_ids:
+  - div2:v.vi
+  - div3:v.vi.i..v.vi.xxxix (39 divisions)
+  language: eng
+  date:
+    start: 207
+    end: 208
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-the-valentinians-2
   work: Against the Valentinians
   author: tertullian
@@ -251,6 +365,15 @@ assignments:
   note: 'Defense of Christ''s real flesh against docetic readings.
 
     '
+  locus_ids:
+  - div2:v.vii
+  - div3:v.vii.i..v.vii.xxvi (26 divisions)
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-the-flesh-of-christ-2
   work: On the Flesh of Christ
   author: tertullian
@@ -277,6 +400,15 @@ assignments:
     kept to the author''s entry since its heresiological description is diffuse.
 
     '
+  locus_ids:
+  - div2:v.viii
+  - div3:v.viii.i..v.viii.lxiv (64 divisions)
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-praxeas
   work: Against Praxeas
   author: tertullian
@@ -287,6 +419,15 @@ assignments:
   confidence: assigned
   note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism holds
     that face: the party this work argues with has an entry of its own.'
+  locus_ids:
+  - div2:v.ix
+  - div3:v.ix.i..v.ix.xxxiii (33 divisions)
+  language: eng
+  date:
+    start: 213
+    end: 218
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-praxeas-2
   work: Against Praxeas
   author: tertullian
@@ -327,6 +468,15 @@ assignments:
   note: '"Antidote for the scorpion''s sting" - against gnostic evasion of martyrdom.
 
     '
+  locus_ids:
+  - div2:v.x
+  - div3:v.x.i..v.x.xv (15 divisions)
+  language: eng
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-all-heresies-spurious-appendix
   work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
@@ -381,6 +531,15 @@ assignments:
   note: 'Pre-Montanist treatise on penitence and the second repentance.
 
     '
+  locus_ids:
+  - div2:vi.ii
+  - div3:vi.ii.i..vi.ii.xiii (13 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-baptism
   work: On Baptism
   author: tertullian
@@ -392,6 +551,15 @@ assignments:
   note: 'The earliest surviving treatise devoted to baptism.
 
     '
+  locus_ids:
+  - div2:vi.iii
+  - div3:vi.iii.i..vi.iii.xxi (21 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-prayer
   work: On Prayer
   author: tertullian
@@ -403,6 +571,15 @@ assignments:
   note: 'Exposition of the Lord''s Prayer and prayer practice.
 
     '
+  locus_ids:
+  - div2:vi.iv
+  - div3:vi.iv.i..vi.iv.xxix (29 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--ad-martyras
   work: Ad Martyras
   author: tertullian
@@ -414,6 +591,15 @@ assignments:
   note: 'Exhortation to imprisoned confessors, Carthage, c. 197.
 
     '
+  locus_ids:
+  - div2:vi.v
+  - div3:vi.v.i..vi.v.vi (6 divisions)
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
   work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
@@ -422,16 +608,20 @@ assignments:
   - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
-    corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
-    affinities are long argued. A first-person martyr diary by a woman is precious enough
-    that the shelving deserves care: this assignment favors the Carthage/Tertullian''s-corpus
-    reading (inside window and city, transmitted with Tertullian''s corpus and edited by him
-    on the volume''s own reading) over montanism-the-new-prophecy. The affinity claim is real
-    scholarship, not a shelving convenience - adding montanism-the-new-prophecy alongside this
-    id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
-    so this assignment resolves there rather than to a separate entry; the underlying choice
-    (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
+  note: 'The Passion of Perpetua and Felicitas, printed as an Appendix to Tertullian''s works. The visions of
+    Perpetua and Saturus are their own writing. The compiler of the frame is not established, and the volume''s
+    translator thinks Tertullian was its editor, not its author. It is assigned here because it is transmitted
+    with his corpus and, on the translator''s note, set at Carthage in 202 or 203. Its New Prophecy affinities
+    are argued; a co-assignment to `montanism-the-new-prophecy` is open.'
+  locus_ids:
+  - div2:vi.vi
+  - div3:vi.vi.i..vi.vi.ix (9 divisions)
+  language: eng
+  date:
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'
+    formation_confidence: Widely Accepted
 - row_id: anf03_tertullian--on-patience
   work: On Patience
   author: tertullian
@@ -443,3 +633,12 @@ assignments:
   note: 'Moral treatise; closes the Ethical part.
 
     '
+  locus_ids:
+  - div2:vi.vii
+  - div3:vi.vii.i..vi.vii.xvii (17 divisions)
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction

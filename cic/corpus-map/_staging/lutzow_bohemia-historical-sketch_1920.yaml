@@ -9,6 +9,9 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {start: 1895, end: 1896, source: "preface to the first edition signed 'Zampach, December 1895' (file line 607) and the new-edition preface: 'first published in 1896' (file line 301); the vendored wording is the revision of 1909", formation_confidence: Documented}
     note: >
       Secondary general history of Bohemia, English, Lutzow (1920,
       Everyman's Library), providing broader political/national context

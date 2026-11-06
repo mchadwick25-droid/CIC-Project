@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.augustine-city-of-god
-  locus: 'Book V, ch. 24 (npnf102, div3 n="24" at line 11054)'
+  locus: "Book V, ch. 24 (cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 11060-11094; the chapter division at line 11054)"
   license: public-domain
 text: For neither do we say that certain Christian emperors were therefore happy because they ruled a
   long time, or, dying a peaceful death, left their sons to succeed them in the empire, or subdued the

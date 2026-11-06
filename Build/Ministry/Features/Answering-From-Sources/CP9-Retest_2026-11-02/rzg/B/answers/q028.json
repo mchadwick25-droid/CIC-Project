@@ -1,0 +1,167 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We held the alternatives we refused to be wrong, not merely different."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We refused Rome's repeated sacrifice and its images."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We refused Wittenberg's claim that Christ's body sits in the bread."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We also refused the claim from inside our own circle that only a believer's own chosen profession makes a true church."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church",
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We will not tell you the refusing cost nothing, or that it was always argument alone."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "God, by his own free choice before the world began, decided who would be saved."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "We hold that as a settled ground, not a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "Our record does not give us a ruling on whether those outside our church were damned."
+  }
+ ],
+ "citations": [
+  "rzg.term.predestination-election",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.one-thing-not-in-dispute"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We held the alternatives we refused to be wrong, not merely different [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "We held the alternatives we refused to be wrong, not merely different.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We refused Rome's repeated sacrifice and its images [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We refused Rome's repeated sacrifice and its images.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We refused Wittenberg's claim that Christ's body sits in the bread [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We refused Wittenberg's claim that Christ's body sits in the bread.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We also refused the claim from inside our own circle that only a believer's own chosen profession makes a true church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "We also refused the claim from inside our own circle that only a believer's own chosen profession makes a true church.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Each time we asked the same question: does this reading hold against Scripture?",
+   "sentence": "Each time we asked the same question: does this reading hold against Scripture?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "[[rzg.witness.a-narrow-true-church]] [[as:paraphrase]] We will not tell you the refusing cost nothing, or that it was always argument alone [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "We will not tell you the refusing cost nothing, or that it was always argument alone.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church",
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God, by his own free choice before the world began, decided who would be saved [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "sentence": "God, by his own free choice before the world began, decided who would be saved.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "We hold that as a settled ground, not a threat.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our record does not give us a ruling on whether those outside our church were damned [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "Our record does not give us a ruling on whether those outside our church were damned.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "raw_text": "We held the alternatives we refused to be wrong, not merely different [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We refused Rome's repeated sacrifice and its images [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We refused Wittenberg's claim that Christ's body sits in the bread [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We also refused the claim from inside our own circle that only a believer's own chosen profession makes a true church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. Each time we asked the same question: does this reading hold against Scripture? [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]] We will not tell you the refusing cost nothing, or that it was always argument alone [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. God, by his own free choice before the world began, decided who would be saved [[rzg.term.predestination-election]] [[as:paraphrase]]. We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. Our record does not give us a ruling on whether those outside our church were damned [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "We held the alternatives we refused to be wrong, not merely different. We refused Rome's repeated sacrifice and its images. We refused Wittenberg's claim that Christ's body sits in the bread. We also refused the claim from inside our own circle that only a believer's own chosen profession makes a true church. Each time we asked the same question: does this reading hold against Scripture? We will not tell you the refusing cost nothing, or that it was always argument alone. God, by his own free choice before the world began, decided who would be saved. We hold that as a settled ground, not a threat. Our record does not give us a ruling on whether those outside our church were damned.",
+ "voice_set_aside": false
+}

@@ -16,8 +16,7 @@ confidence:
     Documented as Eusebius's narrative in the standard English of the NPNF Eusebius volume, read directly at the sections cited. Eusebius is a partisan for Origen and against Demetrius; the motive he assigns - 'overcome by human weakness' - is his reading, not a report.
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: >-
-    Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constantine.xml)
+  locus: "Church History VI.8.4-5 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 33217-33233)"
   license: public-domain
 text: >-
   But soon afterward, seeing that he was prospering, and becoming great and distinguished among all men, the same Demetrius, overcome by human weakness, wrote of his deed as most foolish to the bishops throughout the world. But the bishops of Cesarea and Jerusalem, who were especially notable and distinguished among the bishops of Palestine, considering Origen worthy in the highest degree of the honor, ordained him a presbyter. Thereupon his fame increased greatly, and his name became renowned everywhere, and he obtained no small reputation for virtue and wisdom. But Demetrius, having nothing else that he could say against him, save this deed of his boyhood, accused him bitterly, and dared to include with him in these accusations those who had raised him to the presbyterate.
@@ -53,6 +52,31 @@ use_note:
     - "a claim that outside persecution, rather than his own bishop, drove Origen from Alexandria"
   years: {from: 231, to: 232}
   status: reviewed
+reading_card:
+  setting: Eusebius of Caesarea, writing decades later, on Bishop Demetrius and Origen.
+  source_says: Demetrius first praised Origen's youthful act. When Origen grew famous, he denounced it
+    to bishops everywhere and accused those who ordained him.
+  historians_conclude:
+    text: McGiffert says Eusebius and Jerome blame jealousy, perhaps too harshly; the synod's grounds
+      were irregular ordination and alleged heterodoxy.
+    confidence: Contested
+  contributes: It shows the teacher-bishop tension as a rupture inside the church.
+  whose_view: 'Eusebius admired Origen and disliked Demetrius''s memory: an outsider''s partisan account.'
+  open: Demetrius's side and the synod documents are lost; 'human weakness' is Eusebius's reading.
+  reads_differently_today: 'The failure is inside the church: its head turning on the teacher he promoted.
+    ''This deed of his boyhood'' is Origen''s self-castration, which Demetrius first praised.'
+  complicated_by:
+  - alx.story.origen-demetrius
+  sources:
+    setting: 'alx.source.eusebius-historia-ecclesiastica; Build/worlds/alx/Doc_02_Source_Ecology.md §3.6
+      (Eusebius: writes decades after Origen)'
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.8.3-5, npnf201 lines 33210-33233
+    historians_conclude: McGiffert, NPNF2 vol. 1, Note 16 'Origen and Demetrius', npnf201 lines 51969-52090;
+      Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §4 construction note
+    contributes: alx.gravity.teacher-bishop-tension; alx.force.origen-demetrius-conflict
+    whose_view: alx.story.origen-demetrius, absent_detail; Build/worlds/alx/Doc_02_Source_Ecology.md §3.6
+    open: alx.story.origen-demetrius, absent_detail; alx.quote.demetrius-accused-him-bitterly, use_note.not_for
+    reads_differently_today: alx.quote.demetrius-accused-him-bitterly, modern_lens_note
 ---
 Opened for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
 for its opening claim - the greatest teacher driven out by his own bishop - and could not show it.

@@ -13,19 +13,18 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Ephrem's own opening in the standard English of the NPNF Ephrem volume, read directly at the hymn cited. Morris's 1847 English of a Syriac verse cycle: the images are Ephrem's, the metre is not reproducible, and Gwynn's revision notes where the Syriac is uncertain.
+    Documented as Ephrem's own opening in the standard English of the NPNF Ephrem volume, read directly at the hymn cited. Morris's 1847 English of a Syriac verse cycle: the images are Ephrem's, the meter is not reproducible, and Gwynn's revision notes where the Syriac is uncertain.
 sources:
 - source_id: syr.source.ephrem-hymns-on-faith-pearl
-  locus: >-
-    The Pearl, Hymn I.1 (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "The Pearl, Hymn I.1 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 21794-21800)"
   license: public-domain
 text: >-
   On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom; semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son. I put it, my brethren, upon the palm of my hand, that I might examine it: I went to look at it on one side, and it proved faces on all sides.
 modern_rendering: >-
   One day, my brothers, I picked up a pearl. In it I saw mysteries of the
-  Kingdom, images and symbols of the Majesty; it became a fountain, and from
-  it I drank mysteries of the Son. I set it, my brothers, on the palm of my
-  hand so I could examine it. I went to look at it from one side, and it
+  Kingdom, likenesses and symbols of the Majesty. It became a fountain, and
+  from it I drank mysteries of the Son. I set it, my brothers, on the palm of
+  my hand so I could examine it. I went to look at it from one side, and it
   showed faces on every side.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I.1
 license: verbatim

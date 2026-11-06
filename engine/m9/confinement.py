@@ -19,6 +19,8 @@ from __future__ import annotations
 
 import re
 
+from functools import lru_cache
+
 from engine.m4.grounding_net import _normalize
 
 from .shelf import Shelf
@@ -155,6 +157,13 @@ def gate_absence_probe(records: dict, shelf: Shelf) -> list[str]:
     return findings
 
 
+@lru_cache(maxsize=256)
+def _normalized_haystack(text: str) -> str:
+    """A shelf file's normalized text: the same file sits on several worlds'
+    shelves, so it is normalized once, not once per world."""
+    return _normalize(text)
+
+
 def gate_verbatim_in_shelf(records: dict, shelf: Shelf) -> list[str]:
     """Every emic quote with license: verbatim window-matches, byte for
     byte (after _normalize), inside the world's own shelf files - any
@@ -162,7 +171,7 @@ def gate_verbatim_in_shelf(records: dict, shelf: Shelf) -> list[str]:
     real data)."""
     findings = []
     haystacks = [shelf.units[f] for f in shelf.files if f in shelf.units]
-    normalized_haystacks = [_normalize(h) for h in haystacks]
+    normalized_haystacks = [_normalized_haystack(h) for h in haystacks]
     for rid, rec in records.items():
         if rec.get("record_type") != "quote" or rec.get("register") != "emic" or rec.get("license") != "verbatim":
             continue
@@ -177,7 +186,7 @@ def gate_verbatim_in_shelf(records: dict, shelf: Shelf) -> list[str]:
             if len(words) <= window_words
             else [" ".join(words[i : i + window_words]) for i in range(len(words) - window_words + 1)]
         )
-        if not any(w in h for h in normalized_haystacks for w in windows):
+        if not any(w in h for w in windows for h in normalized_haystacks):
             findings.append(f"{rid}: license is 'verbatim' but its text does not window-match in any file on this world's shelf")
     return findings
 

@@ -31,5 +31,7 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: eng
+  date: {start: 1604, end: 1604, source: "the editors' text, file lines 95 and 119: Chirino's Relacion \"was published in 1604\" (Roma, 1604)", formation_confidence: Documented}
   note: Chirino was the Society's own procurator and first Jesuit voice in the islands; his Relacion is
     the Society's account of its Philippine mission to 1604.

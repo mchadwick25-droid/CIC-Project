@@ -18,6 +18,7 @@ work: "Oratio ad Graecos (Address to the Greeks) - his one surviving complete wo
 edition: "trans. J. E. Ryland, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml (div1 TATIAN at line 5509)"
 citation: Tatian, Address to the Greeks (Oratio ad Graecos), trans. J. E. Ryland, Ante-Nicene Fathers vol. 2 (1885)
 kind: vendored
+shelf_row: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/syriac-edessa-nisibis.yaml), which assigned it to this world and observed that no record here had opened anf02 - the world knew Tatian only through Eusebius' notice and through the harmony's shape"

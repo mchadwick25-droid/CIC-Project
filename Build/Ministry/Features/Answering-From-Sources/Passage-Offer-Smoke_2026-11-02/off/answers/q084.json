@@ -1,0 +1,105 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "Yes, we can read together, as among us a bishop preached to the people given to him."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "The charge ran both ways, and the bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.believe-and-thou-hast-eaten-already"
+   ],
+   "sentence": "Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.term.the-flock"
+ ],
+ "group": "G",
+ "id": "q084",
+ "net_sentences": [
+  {
+   "draft": "Yes, we can read together, as among us a bishop preached to the people given to him [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Yes, we can read together, as among us a bishop preached to the people given to him.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "The charge ran both ways, and the bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "The charge ran both ways, and the bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]",
+   "placed_quote": "lpc.quote.believe-and-thou-hast-eaten-already",
+   "sentence": "Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”",
+   "tags": [
+    "lpc.quote.believe-and-thou-hast-eaten-already"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Which words of your verse do you want to stay with first?",
+   "sentence": "Which words of your verse do you want to stay with first?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.term.suffrage",
+  "lpc.quote.clamour-and-tears",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.the-one-episcopate",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.bishop-of-bishops"
+ ],
+ "raw_text": "Yes, we can read together, as among us a bishop preached to the people given to him [[lpc.term.the-flock]] [[as:paraphrase]]. The charge ran both ways, and the bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them [[lpc.term.the-flock]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]. Which words of your verse do you want to stay with first?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.believe-and-thou-hast-eaten-already": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "eth and stomach ready? Believe, and you have eaten already. Tractate 25 on the Gospel of John (NPNF Tractate XXV), section 12; E",
+     "span": "record lpc.quote.believe-and-thou-hast-eaten-already"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.believe-and-thou-hast-eaten-already"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "Yes, we can read together, as among us a bishop preached to the people given to him. The charge ran both ways, and the bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them. Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”\n\nWhich words of your verse do you want to stay with first?",
+ "voice_set_aside": false
+}

@@ -20,9 +20,7 @@ confidence:
     either way: attributed to the account's rendering, never claimed as Ephrem's transcribed words.
 sources:
 - source_id: syr.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. lviij, Of the Blessed Man Ephraim, the Deacon of the Church of Edessa, in Budge's
-    English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. lviij, Of the Blessed Man Ephraim, the Deacon of the Church of Edessa, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1293)"
   license: public-domain
 text: >-
   And the people said unto him, "O man, we know that thou art God"; and he said unto them, "Put
@@ -30,9 +28,9 @@ text: >-
   sakes, I will set myself apart to become the keeper of a house for receiving strangers."
 modern_rendering: >-
   And the people said to him, 'O man, we know that you are God.' And he said
-  to them, 'Put your trust in me, then, and give me the means to relieve this
-  distress. For see: for your sakes I will set myself apart to become the
-  keeper of a house that receives strangers.'
+  to them, 'Put your trust in me, then, and give me [the means of relieving]
+  this distress. For see: for your sake I will set myself apart to become the
+  keeper of a house for receiving strangers.'
 speaker_or_author: the citizens of Edessa and Ephrem, as the Syriac recension of Palladius reports them
 license: verbatim
 modern_lens_note: >-
@@ -46,7 +44,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what happened in a famine and who organised relief"
+  - "participant asks what happened in a famine and who organized relief"
   - "participant asks whether the church fed people outside itself"
 relations:
 - type: associated-with

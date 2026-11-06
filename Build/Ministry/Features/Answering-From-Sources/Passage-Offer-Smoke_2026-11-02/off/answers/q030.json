@@ -1,0 +1,140 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Gregory of Nyssa's teaching on the restoration of all things is not in our records, which rest on Cyprian and Augustine."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "What we do hold is that Augustine answered many around him who found it hard to bear that the punishment of the lost has no end."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+   ],
+   "sentence": "Augustine wrote: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine said those people did not argue against Scripture, but softened down whatever seemed hard."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine's words name no teacher whom those doubters followed."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "B",
+ "id": "q030",
+ "net_sentences": [
+  {
+   "draft": "Gregory of Nyssa's teaching on the restoration of all things is not in our records, which rest on Cyprian and Augustine [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "Gregory of Nyssa's teaching on the restoration of all things is not in our records, which rest on Cyprian and Augustine.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "What we do hold is that Augustine answered many around him who found it hard to bear that the punishment of the lost has no end [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "What we do hold is that Augustine answered many around him who found it hard to bear that the punishment of the lost has no end.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]",
+   "placed_quote": "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+   "sentence": "Augustine wrote: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”",
+   "tags": [
+    "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Augustine said those people did not argue against Scripture, but softened down whatever seemed hard [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine said those people did not argue against Scripture, but softened down whatever seemed hard.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine's words name no teacher whom those doubters followed [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine's words name no teacher whom those doubters followed.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.catechesis",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.numidicus",
+  "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.marriage-a-threefold-good",
+  "lpc.term.the-one-episcopate",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.quote.bishop-of-bishops"
+ ],
+ "raw_text": "Gregory of Nyssa's teaching on the restoration of all things is not in our records, which rest on Cyprian and Augustine [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. What we do hold is that Augustine answered many around him who found it hard to bear that the punishment of the lost has no end [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]\n\nAugustine said those people did not argue against Scripture, but softened down whatever seemed hard [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. God's mercy, Augustine said, is shown in easing their torments or granting a respite, and not in ending the punishment [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nAugustine's words name no teacher whom those doubters followed [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.very-many-make-moan-over-the-eternal-punishment": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "rential-Thin npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml : New York, March, 1887. Documented Professor J. F. S",
+     "span": "record lpc.source.augustine-the-enchiridion"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+  ],
+  "removed": [
+   {
+    "draft": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+    "sentence": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "God's mercy, Augustine said, is shown in easing their torments or granting a respite, and not in ending the punishment [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+    "sentence": "God's mercy, Augustine said, is shown in easing their torments or granting a respite, and not in ending the punishment.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S3",
+ "text": "Gregory of Nyssa's teaching on the restoration of all things is not in our records, which rest on Cyprian and Augustine. What we do hold is that Augustine answered many around him who found it hard to bear that the punishment of the lost has no end. Augustine wrote: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”\n\nAugustine said those people did not argue against Scripture, but softened down whatever seemed hard.\n\nAugustine's words name no teacher whom those doubters followed.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,153 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "We claim no living chain back to Jesus, because no one among us met anyone who met him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have is the text, and we hold the text to be enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.term.reformation",
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "So our test for any practice was whether Scripture warrants it, and we let go of what would not stand."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture will not yield, we have no standing to require, and whatever Scripture does yield, no pope, council or custom may set aside."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Our founder said we will be taught better where we have misunderstood, but only from the Scriptures themselves."
+  },
+  {
+   "record_ids": [
+    "rzg.force.augustinian-inheritance-predestination-grace"
+   ],
+   "sentence": "Calvin's Institutes drew heavily on Augustine, a line across eleven centuries with no institutional continuity, so influence and not identity."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+    "rzg.contested.anabaptist-schism-legitimacy"
+   ],
+   "sentence": "The Anabaptists pressed a rival reading from inside our own founding circle: we do not deny they read Scripture, we deny they read it whole."
+  }
+ ],
+ "citations": [
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.force.augustinian-inheritance-predestination-grace",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.term.reformation",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "We claim no living chain back to Jesus, because no one among us met anyone who met him [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We claim no living chain back to Jesus, because no one among us met anyone who met him.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we have is the text, and we hold the text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have is the text, and we hold the text to be enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So our test for any practice was whether Scripture warrants it, and we let go of what would not stand [[rzg.term.reformation]] [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "So our test for any practice was whether Scripture warrants it, and we let go of what would not stand.",
+   "tags": [
+    "rzg.term.reformation",
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whatever Scripture will not yield, we have no standing to require, and whatever Scripture does yield, no pope, council or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture will not yield, we have no standing to require, and whatever Scripture does yield, no pope, council or custom may set aside.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our founder said we will be taught better where we have misunderstood, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Our founder said we will be taught better where we have misunderstood, but only from the Scriptures themselves.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Calvin's Institutes drew heavily on Augustine, a line across eleven centuries with no institutional continuity, so influence and not identity [[rzg.force.augustinian-inheritance-predestination-grace]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Calvin's Institutes drew heavily on Augustine, a line across eleven centuries with no institutional continuity, so influence and not identity.",
+   "tags": [
+    "rzg.force.augustinian-inheritance-predestination-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "The Anabaptists pressed a rival reading from inside our own founding circle: we do not deny they read Scripture, we deny they read it whole [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[rzg.contested.anabaptist-schism-legitimacy]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Anabaptists pressed a rival reading from inside our own founding circle: we do not deny they read Scripture, we deny they read it whole.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+    "rzg.contested.anabaptist-schism-legitimacy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.augustinian-inheritance-predestination-grace",
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.reformation",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "raw_text": "We claim no living chain back to Jesus, because no one among us met anyone who met him [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nWhat we have is the text, and we hold the text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nSo our test for any practice was whether Scripture warrants it, and we let go of what would not stand [[rzg.term.reformation]] [[rzg.term.sola-scriptura]] [[as:paraphrase]].\nWhatever Scripture will not yield, we have no standing to require, and whatever Scripture does yield, no pope, council or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\nOur founder said we will be taught better where we have misunderstood, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nCalvin's Institutes drew heavily on Augustine, a line across eleven centuries with no institutional continuity, so influence and not identity [[rzg.force.augustinian-inheritance-predestination-grace]] [[as:paraphrase]].\nThe Anabaptists pressed a rival reading from inside our own founding circle: we do not deny they read Scripture, we deny they read it whole [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[rzg.contested.anabaptist-schism-legitimacy]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "We claim no living chain back to Jesus, because no one among us met anyone who met him. What we have is the text, and we hold the text to be enough on its own terms. So our test for any practice was whether Scripture warrants it, and we let go of what would not stand. Whatever Scripture will not yield, we have no standing to require, and whatever Scripture does yield, no pope, council or custom may set aside. Our founder said we will be taught better where we have misunderstood, but only from the Scriptures themselves. Calvin's Institutes drew heavily on Augustine, a line across eleven centuries with no institutional continuity, so influence and not identity. The Anabaptists pressed a rival reading from inside our own founding circle: we do not deny they read Scripture, we deny they read it whole.",
+ "voice_set_aside": false
+}

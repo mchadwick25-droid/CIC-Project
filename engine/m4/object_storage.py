@@ -17,8 +17,8 @@ a pure local-disk reader with its own unchanged hash verification
 (verify_package_dict), regardless of where the bytes it reads came
 from. engine/m4/package_fetch.py is the seam: it may call this module
 to put bytes on local disk before world_loader.load() ever runs, but
-a wrong or malicious fetch here is still caught by that unchanged
-verification, not trusted on this module's own say-so.
+a wrong or malicious fetch here still fails that same hash
+verification, and is never trusted on this module's own say-so.
 """
 from __future__ import annotations
 

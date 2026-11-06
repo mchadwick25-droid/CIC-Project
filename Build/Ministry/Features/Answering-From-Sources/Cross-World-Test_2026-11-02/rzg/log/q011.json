@@ -1,0 +1,125 @@
+{
+ "draft": "Our record does not say what a modern reader might miss in these texts, beyond the reading method we can show you [[rzg.limit.what-scripture-asked-of-a-modern-reader]] [[as:paraphrase]].\n\nThat method begins with Scripture alone, not church tradition or a pope's decree, as the judge of what we believed [[rzg.term.sola-scriptura]] [[as:paraphrase]].\n\nWhatever Scripture will not yield, we have no standing to require [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Zurich we argued from the text aloud before the city council, until the council judged what the text had yielded [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Geneva we built doctrine up book by book and taught it to the whole population [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nTo a mind that could not quiet itself, we offered no search harder within [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\n\nOur confession named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\n\nOur reading kept the two cities' tension open: our founder's remembrance reading of the Supper and the fuller 1549 word stand together, never fully reconciled [[rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "Our record does not say what a modern reader might miss in these texts, beyond the reading method we can show you.\n\nThat method begins with Scripture alone, not church tradition or a pope's decree, as the judge of what we believed.\n\nWhatever Scripture will not yield, we have no standing to require.\n\nAt Zurich we argued from the text aloud before the city council, until the council judged what the text had yielded.\n\nAt Geneva we built doctrine up book by book and taught it to the whole population.\n\nTo a mind that could not quiet itself, we offered no search harder within.\n\nOur confession named Christ as the mirror in which we see our election.\n\nOur reading kept the two cities' tension open: our founder's remembrance reading of the Supper and the fuller 1549 word stand together, never fully reconciled.",
+ "group": "A",
+ "offered": [
+  "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.sola-scriptura",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.witness.what-a-stranger-would-notice",
+  "rzg.force.counter-reformation-sustained-pressure"
+ ],
+ "placements": [],
+ "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+ "question_id": "q011",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our record does not say what a modern reader might miss in these texts, beyond the reading method we can show you.",
+   "tags": [
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That method begins with Scripture alone, not church tradition or a pope's decree, as the judge of what we believed.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whatever Scripture will not yield, we have no standing to require.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Zurich we argued from the text aloud before the city council, until the council judged what the text had yielded.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Geneva we built doctrine up book by book and taught it to the whole population.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To a mind that could not quiet itself, we offered no search harder within.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our confession named Christ as the mirror in which we see our election.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our reading kept the two cities' tension open: our founder's remembrance reading of the Supper and the fuller 1549 word stand together, never fully reconciled.",
+   "tags": [
+    "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our record does not say what a modern reader might miss in these texts, beyond the reading method we can show you.\n\nThat method begins with Scripture alone, not church tradition or a pope's decree, as the judge of what we believed.\n\nWhatever Scripture will not yield, we have no standing to require.\n\nAt Zurich we argued from the text aloud before the city council, until the council judged what the text had yielded.\n\nAt Geneva we built doctrine up book by book and taught it to the whole population.\n\nTo a mind that could not quiet itself, we offered no search harder within.\n\nOur confession named Christ as the mirror in which we see our election.\n\nOur reading kept the two cities' tension open: our founder's remembrance reading of the Supper and the fuller 1549 word stand together, never fully reconciled.",
+ "sub_question": "C5.S2"
+}

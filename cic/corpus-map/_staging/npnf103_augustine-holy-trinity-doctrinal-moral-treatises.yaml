@@ -83,6 +83,8 @@ assignments:
   note: 'Handbook of the faith for the layman Laurentius — catechetical-pastoral by design.
 
     '
+  translator: {name: "Professor J. F. Shaw", source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 19992: Translated by Professor J. F. Shaw,", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 566: New York, March, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed
   work: On the Catechising of the Uninstructed
   author: augustine
@@ -101,6 +103,8 @@ assignments:
     formation practice itself, as near the center of this entry as a work can sit.
 
     '
+  translator: {name: "Rev. S. D. F. Salmond, D.D.", source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 23947: Translated by Rev. S. D. F. Salmond, D.D.,", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 566: New York, March, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed
   work: A Treatise on Faith and the Creed
   author: augustine
@@ -117,6 +121,8 @@ assignments:
   note: 'Exposition of the creed delivered to the North African bishops at Hippo in 393.
 
     '
+  translator: {name: "Rev. S. D. F. Salmond, D.D.", source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 26851: Translated by Rev. S. D. F. Salmond, D.D.,", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 566: New York, March, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen
   work: Concerning Faith of Things Not Seen
   author: augustine
@@ -132,6 +138,8 @@ assignments:
   note: 'Short apologetic-catechetical piece for his congregation.
 
     '
+  translator: {name: "Rev. C. L. Cornish, M.A.", source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 606: Translated by the Rev. C. L. Cornish, M.A.", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 566: New York, March, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi
   work: On the Profit of Believing (De Utilitate Credendi)
   author: augustine
@@ -185,6 +193,8 @@ assignments:
   note: 'Creedal instruction preached to catechumens.
 
     '
+  translator: {name: "Rev. C. L. Cornish, M.A., of Exeter College, Oxford (body heading); the Contents page instead says Rev. H. Brown, M.A.", source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 30462: Translated by the Rev. C. L. Cornish, M.A., of Exeter College, Oxford", formation_confidence: Contested}
+  edition_date: {year: 1887, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml line 566: New York, March, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence
   work: On Continence
   author: augustine

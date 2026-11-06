@@ -27,7 +27,8 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from yaml_unique import load_unique  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 AUTHOR_IDS_FILE = REPO_ROOT / "cic" / "corpus-map" / "AUTHOR-IDS.yaml"
@@ -37,7 +38,7 @@ _VIAF = re.compile(r"^\d+$")
 
 
 def load() -> dict:
-    return yaml.safe_load(AUTHOR_IDS_FILE.read_text(encoding="utf-8")) or {}
+    return load_unique(AUTHOR_IDS_FILE.read_text(encoding="utf-8")) or {}
 
 
 def problems(data: dict) -> list[str]:

@@ -60,9 +60,9 @@ senses:
     survives in texts this communion wrote itself. The phrase used to name it is a modern scholarly summary, and
     this record does not present it as a quotation.
   personal: Set against the rival's case, this was an argument and not a boast. One side had the emperor's
-    favour. The other had its dead.
+    favor. The other had its dead.
   translational: '''Every church honours its martyrs'' -- but few define themselves by the claim that the other
-    church''s favour with the ruling power is exactly what disqualifies it. That inversion is what this name is
+    church''s favor with the ruling power is exactly what disqualifies it. That inversion is what this name is
     doing.'
 quick_meaning: The church of the martyrs, as modern scholars call it -- what we are, not merely what we left.
 distortion_risk: medium

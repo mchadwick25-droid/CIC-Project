@@ -42,6 +42,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [line607, line613, line615, line617, line619, line621, line623, line625, line627, line629, line631, line633, line635, line639, line641, line643, line645, line647, line649, line651, line653, line655, line657, line661, line663, line665, line667, line669, line671, line673, line675, line677, line679, line681, line683, line685, line687, line689, line691, line693, line695, line697, line699, line703, line705, line707, line709, line711, line713]
+  language: eng
   note: 'The Syriac Vita, ABRIDGED - about 14,800 words against roughly 32,000 in the NPNF Greek at
     npnf204, which both these entries already hold. Carried as a second witness for comparison
     rather than as a source to quote in preference: where the Syriac is shorter, that is a fact

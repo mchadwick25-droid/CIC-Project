@@ -1,0 +1,270 @@
+{
+ "draft": "We held a person who had failed as one of our own, to be taken back and not shut out for good [[lpc.gravity.penitential-discipline]] [[lpc.term.the-lapsed]] [[as:paraphrase]]. The lapsed were our own people, not strangers and not enemies, and they sat where we sit [[lpc.term.the-lapsed]] [[as:paraphrase]].\n\nThe lapsed came back by a public road, walked in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. The road had an order, it took time, and everyone could see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].\n\nOur letters tell of Celerinus and Lucian: [[story:lpc.story.celerinus-writes-to-lucian:short]]\n\nTaking back the failed was central in Cyprian's time, and our record places that concern in his phase alone [[lpc.gravity.penitential-discipline]] [[as:paraphrase]]. In 428 or 429 Augustine told Honoratus, a bishop in Mauritania, that people who depend on their ministers must not be left in a time of danger [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. Augustine held that where the ministers stay at their posts, the dying are baptized or reconciled to the Church [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "We held a person who had failed as one of our own, to be taken back and not shut out for good. The lapsed were our own people, not strangers and not enemies, and the lapsed sat where we sit. The lapsed came back by a public road, walked in steps under the bishop. The public road had an order, took time, and everyone could see the road. Taking back the failed was central in Cyprian's time, and our record places the concern of taking back the failed in Cyprian's phase alone.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.term.grace",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.the-lapsed",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.gravity.penitential-discipline",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.quote.they-first-dwelt-together-in-unity"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows how confessors and the lapsed were dealt with, which bears on how a failed person was regarded but not directly on the asker."
+   },
+   "record_id": "lpc.story.celerinus-writes-to-lucian"
+  }
+ ],
+ "question": "How would your community have regarded a person like the one asking you this?",
+ "question_id": "q027",
+ "read": {
+  "dropped": [
+   "lpc.story.celerinus-writes-to-lucian"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "12": {
+    "problem": "dropped_scope",
+    "reason": "The record ties this to a letter of 428 or 429 about time of danger and forbids claims about the dying outside danger, but the sentence states it without that tie.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.penitential-discipline",
+    "lpc.term.the-lapsed"
+   ],
+   "sentence": "We held a person who had failed as one of our own, to be taken back and not shut out for good.",
+   "tags": [
+    "lpc.gravity.penitential-discipline",
+    "lpc.term.the-lapsed"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.the-lapsed"
+   ],
+   "sentence": "The lapsed were our own people, not strangers and not enemies, and the lapsed sat where we sit.",
+   "tags": [
+    "lpc.term.the-lapsed"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The lapsed came back by a public road, walked in steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The public road had an order, took time, and everyone could see the road.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.penitential-discipline"
+   ],
+   "sentence": "Taking back the failed was central in Cyprian's time, and our record places the concern of taking back the failed in Cyprian's phase alone.",
+   "tags": [
+    "lpc.gravity.penitential-discipline"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held a person who had failed as one of our own, to be taken back and not shut out for good.",
+   "tags": [
+    "lpc.gravity.penitential-discipline",
+    "lpc.term.the-lapsed"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The lapsed were our own people, not strangers and not enemies, and they sat where we sit.",
+   "tags": [
+    "lpc.term.the-lapsed"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The lapsed came back by a public road, walked in steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The road had an order, it took time, and everyone could see it.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our letters tell of Celerinus and Lucian:",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "Celerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "His sister had fallen away from Christ, and it seemed plain that she had sacrificed.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "He asked Lucian to grieve with him, for to him she was dead in spirit.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "He also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "Lucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "lpc.story.celerinus-writes-to-lucian",
+   "reason": "placed by code",
+   "sentence": "Each case was to be set before the bishop and confession made, and then the women would have peace.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 11,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Taking back the failed was central in Cyprian's time, and our record places that concern in his phase alone.",
+   "tags": [
+    "lpc.gravity.penitential-discipline"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 12,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine held that where the ministers stay at their posts, the dying are baptized or reconciled to the Church.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ]
+  }
+ ],
+ "shipped_by_net": "We held a person who had failed as one of our own, to be taken back and not shut out for good. The lapsed were our own people, not strangers and not enemies, and they sat where we sit.\n\nThe lapsed came back by a public road, walked in steps under the bishop. The road had an order, it took time, and everyone could see it.\n\nOur letters tell of Celerinus and Lucian:\n\nCelerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison. His sister had fallen away from Christ, and it seemed plain that she had sacrificed. He asked Lucian to grieve with him, for to him she was dead in spirit.\n\nHe also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented.\n\nLucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs. Each case was to be set before the bishop and confession made, and then the women would have peace.\n\nTaking back the failed was central in Cyprian's time, and our record places that concern in his phase alone. Augustine held that where the ministers stay at their posts, the dying are baptized or reconciled to the Church.",
+ "sub_question": "C7.S7"
+}

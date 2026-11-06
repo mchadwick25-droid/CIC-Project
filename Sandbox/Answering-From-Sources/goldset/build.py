@@ -58,9 +58,9 @@ def _label(row: dict | None) -> dict | None:
 
 
 def ruled_label(ruling: dict, specialist: dict | None) -> dict:
-    """Mark's ruling as a label. The specialist's evidence is kept only when
-    the ruling has the same verdict and class, since it was quoted for that
-    reading."""
+    """A packet-page ruling as a label. The specialist's evidence is kept only
+    when the ruling has the same verdict and class, since it was quoted for
+    that reading."""
     unsupported = ruling["verdict"] == "unsupported"
     label = {"verdict": ruling["verdict"], "failure_class": ruling["class"] if unsupported else None,
              "other_classes": [], "reason": ruling.get("note") or "", "evidence": []}

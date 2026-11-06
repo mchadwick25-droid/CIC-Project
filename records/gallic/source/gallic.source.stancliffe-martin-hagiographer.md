@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 18; a specific n
 external_ids:
   gallic_source_registry_row: 18
 ---
-Sulpitius's own reliability as a source; the right instrument for the Sulpitius-Pelagianism question (Gennadius ch. XIX) and for the Vita Antonii modelling question (row 34's own comparandum reasoning) -- both left genuinely open in this build, reserved for Stancliffe (Doc_09 SS9 item 5). Existence, thesis, and publication details independently verified via live research; full text not read.
+Sulpitius's own reliability as a source; the right instrument for the Sulpitius-Pelagianism question (Gennadius ch. XIX) and for the Vita Antonii modeling question (row 34's own comparandum reasoning) -- both left genuinely open in this build, reserved for Stancliffe (Doc_09 SS9 item 5). Existence, thesis, and publication details independently verified via live research; full text not read.

@@ -16,7 +16,7 @@ confidence:
     disclaiming personal authorship of the teaching he is about to transmit.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
-  locus: "Preface to the First Conferences (npnf211 div iv.iv.i, file lines 25931-25932): Cassian's own description of what the Institutes are"
+  locus: "Preface to the First Conferences (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 25931-25932; div iv.iv.i): Cassian's own description of what the Institutes are"
   license: public-domain
 retrieval:
   tier: 1

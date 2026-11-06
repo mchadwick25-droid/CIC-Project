@@ -18,3 +18,5 @@ assignments:
       first-person document of Augustine's conversion narrative. Not a Manifest
       G-item, a new find closing a prior total absence of an original-language
       witness for this text.
+    translator: {name: "none (Latin edition); editor: Pius Knoll [Knöll] (CSEL 33)", source: "augustine_confessiones-lat_knoll-csel33.txt line 2: Augustine of Hippo; Pius Knoll [Pius Knöll] (Editor)", formation_confidence: Documented}
+    edition_date: {year: 1896, source: "augustine_confessiones-lat_knoll-csel33.txt line 4: Publication Date: 1896", formation_confidence: Documented}

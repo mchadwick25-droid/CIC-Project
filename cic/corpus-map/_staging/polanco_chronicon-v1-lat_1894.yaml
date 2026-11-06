@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: lat-spa-ita
+    date: {formation_confidence: unknown, checked: "title page (file lines 113-116: 'TOMUS QUINTUS (1555)'); the title page names the year the chronicle narrates, not when it was written, and no composition date is stated"}
     note: >
       Ignatius's own secretary's historical chronicle. This volume opens
       "TOMUS QUINTUS (1555)" in its own body text - it covers only 1555,

@@ -38,6 +38,7 @@ retrieval:
   - participant asks where Augustine said the love of God in a believer comes from
   - participant asks how Augustine read 'The love of God hath been shed abroad in our hearts'
   - participant asks what Augustine meant by God dwelling in a person and moving him to love
+  - participant asks whether a person could make himself love God by his own effort
   prefer_instead:
   - participant asks why one hearer believes and another scorns -- lpc.quote.two-hear-one-scorns-one-rises
     gives that

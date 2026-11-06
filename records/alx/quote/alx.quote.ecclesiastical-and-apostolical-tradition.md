@@ -16,8 +16,7 @@ confidence:
     Documented as Origen's own statement of his working rule, read directly at the preface cited. Rufinus-mediated Latin, as alx.term.kanon-pisteos already records for this work.
 sources:
 - source_id: alx.source.origen-de-principiis
-  locus: >-
-    de Principiis, preface 2 (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+  locus: "de Principiis, preface 2 (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 22432-22438)"
   license: public-domain
 text: >-
   so, seeing there are many who think they hold the opinions of Christ, and yet some of these think differently from their predecessors, yet as the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is still preserved, that alone is to be accepted as truth which differs in no respect from ecclesiastical and apostolical tradition.
@@ -49,6 +48,30 @@ use_note:
     - "a claim that scripture lacked authority, rather than being read inside the rule"
   years: {from: 203, to: 254}
   status: reviewed
+reading_card:
+  setting: Origen opens On First Principles, his book of inquiry.
+  source_says: 'Believers differ even on God, Christ and the Spirit, so he first fixes a rule: what the
+    churches hold from the apostles.'
+  historians_conclude:
+    text: Origen framed much of the book as inquiry beyond the rule; scholars divide on how firmly he
+      held his boldest ideas.
+    confidence: Contested
+  contributes: It shows the rule of faith bounding how Scripture was read.
+  whose_view: Origen's framing. This world held Origen as inheritance and as unease at once.
+  open: Rufinus softened doubtful passages, so the wording is not Origen's own.
+  reads_differently_today: 'Was the Bible the only authority? No: it is read inside what the churches
+    kept from the apostles, a continuity of teaching, not a book, council or office.'
+  complicated_by:
+  - alx.contested.origen-positions
+  sources:
+    setting: alx.source.origen-de-principiis, work field (English of Rufinus's Latin)
+    source_says: alx.source.origen-de-principiis, De Principiis preface 2-3, anf04 lines 22419-22453
+    historians_conclude: alx.contested.origen-positions, held_against; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §4 (named live debate)
+    contributes: alx.term.kanon-pisteos; alx.gravity.speculative-doctrinal-tension
+    whose_view: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §4 (inheritance and unease)
+    open: alx.source.origen-de-principiis, work field and body (transmission caveat)
+    reads_differently_today: alx.quote.ecclesiastical-and-apostolical-tradition, modern_lens_note
 ---
 The cell carries two quite different questions and
 three serving terms, and one sentence could not honestly answer both.

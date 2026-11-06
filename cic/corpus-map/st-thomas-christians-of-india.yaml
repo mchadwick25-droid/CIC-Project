@@ -7,8 +7,65 @@ works:
   work: Acts of Thomas (with the Consummation of Thomas)
   author: acts-of-thomas
   locus: div2 7.33-7.34
+  locus_ids:
+  - vii.xxxiii.i/line56461
+  - vii.xxxiii.i/notes
+  - vii.xxxiii.i/line56487
+  - vii.xxxiii.i/line56507
+  - vii.xxxiii.i/line56526
+  - vii.xxxiii.i/line56550
+  - vii.xxxiii.i/line56569
+  - vii.xxxiii.i/line56621
+  - vii.xxxiii.i/line56643
+  - vii.xxxiii.i/line56660
+  - vii.xxxiii.i/line56686
+  - vii.xxxiii.i/line56724
+  - vii.xxxiii.i/line56740
+  - vii.xxxiii.i/line56756
+  - vii.xxxiii.i/line56781
+  - vii.xxxiii.ii.i/line56814
+  - vii.xxxiii.ii.i/line56838
+  - vii.xxxiii.ii.i/notes
+  - vii.xxxiii.ii.i/line56867
+  - vii.xxxiii.ii.i/line56892
+  - vii.xxxiii.ii.i/line56910
+  - vii.xxxiii.ii.i/line56926
+  - vii.xxxiii.ii.i/line56943
+  - vii.xxxiii.ii.i/line56962
+  - vii.xxxiii.ii.i/line56988
+  - vii.xxxiii.ii.i/line57010
+  - vii.xxxiii.ii.i/line57038
+  - vii.xxxiii.ii.i/line57056
+  - vii.xxxiii.ii.i/line57084
+  - vii.xxxiii.ii.i/line57120
+  - vii.xxxiii.ii.ii/line57149
+  - vii.xxxiii.ii.ii/line57171
+  - vii.xxxiii.ii.ii/notes
+  - vii.xxxiii.ii.ii/line57191
+  - vii.xxxiii.ii.ii/line57216
+  - vii.xxxiii.ii.ii/line57245
+  - vii.xxxiii.ii.ii/line57281
+  - vii.xxxiii.ii.ii/line57297
+  - vii.xxxiii.ii.ii/line57333
+  - vii.xxxiii.ii.ii/line57360
+  - vii.xxxiii.ii.iii
+  - vii.xxxiii.ii.iii/notes
+  - vii.xxxiii.ii.iv/line57562
+  - vii.xxxiii.ii.iv/notes
+  - vii.xxxiii.ii.iv/line57596
+  - vii.xxxiii.ii.iv/line57616
+  - vii.xxxiii.ii.iv/line57641
+  - vii.xxxiii.ii.iv/line57661
+  - vii.xxxiii.ii.iv/line57683
+  - vii.xxxiii.ii.iv/line57706
+  - vii.xxxiii.ii.iv/line57729
+  - vii.xxxiii.ii.iv/line57752
+  - vii.xxxiii.ii.iv/line57782
+  - vii.xxxiv
+  - vii.xxxiv/notes
   role: tradition
   confidence: assigned
+  language: eng
   note: '3rd-century East Syrian composition from the Edessa orbit (the Hymn of the Pearl
     tradition) — core syr evidence — and the foundation narrative of Thomas''s Indian mission,
     hence also the St. Thomas Christians entry, whose tradition claims exactly this story.

@@ -249,5 +249,27 @@ def call_safety(client, model_id: str, *, message: str, recent_window: list[str]
     return _forced_tool_call(client, model_id, system=SAFETY_SYSTEM_PROMPT, tool=_SAFETY_TOOL, user_content=user_content)
 
 
-def call_reader(client, model_id: str, *, message: str) -> CallOutcome:
+SUB_QUESTION_SECTION = """
+
+Sub-question. Also name the one sub-question below that the participant's question is mainly about, \
+as its id (for example C6.S1), in the field sub_question. If none fits, leave the field out. \
+Name only what the question asks, never what it might lead to.
+
+Sub-questions:
+{catalogue}"""
+
+
+def reader_with_sub_questions(catalogue: str) -> tuple[str, dict]:
+    """The reader's system prompt and tool when it is also asked to name a sub-question."""
+    tool = {**_READER_TOOL, "input_schema": {**_READER_TOOL["input_schema"], "properties": {
+        **_READER_TOOL["input_schema"]["properties"],
+        "sub_question": {"type": "string", "description": "id of the one sub-question the question is mainly about"},
+    }}}
+    return READER_SYSTEM_PROMPT + SUB_QUESTION_SECTION.format(catalogue=catalogue), tool
+
+
+def call_reader(client, model_id: str, *, message: str, sub_question_catalogue: str | None = None) -> CallOutcome:
+    if sub_question_catalogue:
+        system, tool = reader_with_sub_questions(sub_question_catalogue)
+        return _forced_tool_call(client, model_id, system=system, tool=tool, user_content=message)
     return _forced_tool_call(client, model_id, system=READER_SYSTEM_PROMPT, tool=_READER_TOOL, user_content=message)

@@ -22,8 +22,7 @@ confidence:
     than the wording that was voted.
 sources:
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: Book I, chapter 10 (the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with
-    a military force to bring Felicianus and Praetextatus back)
+  locus: "Book I, chapter 10 (cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 15512-15513; the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back)"
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
   locus: the same decree quoted again in the later work, pressing the same contradiction

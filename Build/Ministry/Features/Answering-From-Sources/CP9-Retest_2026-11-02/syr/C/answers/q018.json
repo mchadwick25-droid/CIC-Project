@@ -1,0 +1,216 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.limit.ritual-sequence"
+   ],
+   "sentence": "Our record keeps the pieces of joining, but not the order in which they came on an actual morning."
+  },
+  {
+   "record_ids": [
+    "syr.limit.ritual-sequence"
+   ],
+   "sentence": "The pieces are the font sung as a womb, the sealing set on each one, and the covenant vow taken before the water."
+  },
+  {
+   "record_ids": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "sentence": "Aphrahat, in Demonstration VII, tells how the church's preachers warned candidates before baptism: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our churches sang of baptism as a second birth, in which the believer receives the Holy Spirit."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "They sang of the shining garments of the newly baptized."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "Some joined the covenant, a lifelong vow of celibacy and service lived in town."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "Its formal structure is thinly documented."
+  },
+  {
+   "record_ids": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "sentence": "The Gospel we read in worship was one woven story."
+  }
+ ],
+ "citations": [
+  "syr.dw.born-again-endtimes",
+  "syr.limit.ritual-sequence",
+  "syr.quote.warned-before-baptism",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q018",
+ "net_sentences": [
+  {
+   "draft": "Our record keeps the pieces of joining, but not the order in which they came on an actual morning [[syr.limit.ritual-sequence]] [[as:paraphrase]].",
+   "sentence": "Our record keeps the pieces of joining, but not the order in which they came on an actual morning.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The pieces are the font sung as a womb, the sealing set on each one, and the covenant vow taken before the water [[syr.limit.ritual-sequence]] [[as:paraphrase]].",
+   "sentence": "The pieces are the font sung as a womb, the sealing set on each one, and the covenant vow taken before the water.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat, in Demonstration VII, tells how the church's preachers warned candidates before baptism: [[quote:syr.quote.warned-before-baptism]]",
+   "placed_quote": "syr.quote.warned-before-baptism",
+   "sentence": "Aphrahat, in Demonstration VII, tells how the church's preachers warned candidates before baptism: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our churches sang of baptism as a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our churches sang of baptism as a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They sang of the shining garments of the newly baptized [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "They sang of the shining garments of the newly baptized.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some joined the covenant, a lifelong vow of celibacy and service lived in town [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "Some joined the covenant, a lifelong vow of celibacy and service lived in town.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Its formal structure is thinly documented [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "Its formal structure is thinly documented.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Gospel we read in worship was one woven story [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].",
+   "sentence": "The Gospel we read in worship was one woven story.",
+   "tags": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.ritual-sequence",
+  "syr.dw.born-again-endtimes",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.term.tahwyata",
+  "syr.story.basil-legend",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.warned-before-baptism",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment",
+  "syr.dw.adam-grace",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.term.qyama",
+  "syr.quote.dem6-visit-the-sick"
+ ],
+ "raw_text": "Our record keeps the pieces of joining, but not the order in which they came on an actual morning [[syr.limit.ritual-sequence]] [[as:paraphrase]]. The pieces are the font sung as a womb, the sealing set on each one, and the covenant vow taken before the water [[syr.limit.ritual-sequence]] [[as:paraphrase]]. Aphrahat, in Demonstration VII, tells how the church's preachers warned candidates before baptism: [[quote:syr.quote.warned-before-baptism]] [[as:paraphrase]]. Our churches sang of baptism as a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]]. For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]]. They sang of the shining garments of the newly baptized [[syr.dw.born-again-endtimes]] [[as:paraphrase]]. Some joined the covenant, a lifelong vow of celibacy and service lived in town [[syr.term.qyama]] [[as:paraphrase]]. Its formal structure is thinly documented [[syr.term.qyama]] [[as:paraphrase]]. The Gospel we read in worship was one woven story [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.warned-before-baptism": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "here is disgrace for the one who turns back from the fight. Demonstration VII (On Penitents), sec. 20 ( For this reason it is fittin",
+     "span": "record syr.quote.warned-before-baptism"
+    },
+    {
+     "detail": "VII",
+     "kind": "name",
+     "snippet": "ce for the one who turns back from the fight. Demonstration VII (On Penitents), sec. 20 ( For this reason it is fitting fo",
+     "span": "record syr.quote.warned-before-baptism"
+    },
+    {
+     "detail": "baptism",
+     "kind": "occasion",
+     "snippet": "ound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virg",
+     "span": "record syr.quote.warned-before-baptism"
+    },
+    {
+     "detail": "preach",
+     "kind": "genre",
+     "snippet": "For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone i",
+     "span": "record syr.quote.warned-before-baptism"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.warned-before-baptism"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S1",
+ "text": "Our record keeps the pieces of joining, but not the order in which they came on an actual morning. The pieces are the font sung as a womb, the sealing set on each one, and the covenant vow taken before the water. Aphrahat, in Demonstration VII, tells how the church's preachers warned candidates before baptism: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”. Our churches sang of baptism as a second birth, in which the believer receives the Holy Spirit. For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion. They sang of the shining garments of the newly baptized. Some joined the covenant, a lifelong vow of celibacy and service lived in town. Its formal structure is thinly documented. The Gospel we read in worship was one woven story.",
+ "voice_set_aside": false
+}

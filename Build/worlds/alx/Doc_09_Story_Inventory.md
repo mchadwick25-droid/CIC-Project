@@ -102,4 +102,4 @@ The **world-level Validation Layer is complete** for a pre-Representative world:
 
 ---
 
-*End Doc_09 Story Inventory + Validation Layer. Companion: `Story_Index.xlsx`; sibling: `alex_World_Profile.md`. Reviewed and cleared on independent adversarial review. Approved to proceed by this build thread. **This is the final document of the Doc_01–09 pipeline and this thread's stopping point** — Step 10 (Representative Emergence) is not begun and belongs to the project lead. The world is not frozen.*
+*End Doc_09 Story Inventory + Validation Layer. Companion: `Story_Index.xlsx`; sibling: `alex_World_Profile.md`. **This is the final document of the Doc_01–09 pipeline.** Step 10 (Representative Emergence) is not begun and belongs to the project lead. The world is not frozen.*

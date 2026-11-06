@@ -18,6 +18,7 @@ work: "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - th
 edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Marcus Dods per the standard ANF bibliography - the vendored file itself carries no translator credit at the head of this work (its in-file 'Translated by' credits cover only the minor Justin works); vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 viii, div2 viii.ii)"
 citation: Justin Martyr, The First Apology, trans. Marcus Dods, Ante-Nicene Fathers vol. 1 (1885)
 kind: vendored
+shelf_row: anf01_apostolic-fathers-justin-irenaeus--the-first-apology
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P06 (Doc_02, approved 2026-07-07), re-registered against the vendored corpus; work presence verified at div2 viii.ii"

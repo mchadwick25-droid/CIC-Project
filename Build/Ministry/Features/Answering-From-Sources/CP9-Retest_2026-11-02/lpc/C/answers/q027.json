@@ -1,0 +1,208 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "That council wrote to Fidus, who had thought a child should wait until the eighth day, and no one agreed with him."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, about the dangers of those years."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Augustine held that when danger falls on all alike, those who depend on their ministers must not be left."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "In such danger a crowd gathers in the church, some urgently asking baptism, others reconciliation, others even the doing of penance."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Augustine wrote that if the ministers are at their posts, all are aided, and none are defrauded of the communion of the Lord's body."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-lapsed"
+   ],
+   "sentence": "The lapsed are our own people, not strangers and not enemies; they sat where we sit, and now they ask to come back."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.penitential-discipline"
+   ],
+   "sentence": "In Cyprian's time we took such a person back and did not shut that person out for good."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The way back was a public road, walked in steps under the bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "sentence": "Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”"
+  }
+ ],
+ "citations": [
+  "lpc.gravity.penitential-discipline",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.the-lapsed",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "That council wrote to Fidus, who had thought a child should wait until the eighth day, and no one agreed with him [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "That council wrote to Fidus, who had thought a child should wait until the eighth day, and no one agreed with him.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, about the dangers of those years [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, about the dangers of those years.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine held that when danger falls on all alike, those who depend on their ministers must not be left [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "sentence": "Augustine held that when danger falls on all alike, those who depend on their ministers must not be left.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In such danger a crowd gathers in the church, some urgently asking baptism, others reconciliation, others even the doing of penance [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "sentence": "In such danger a crowd gathers in the church, some urgently asking baptism, others reconciliation, others even the doing of penance.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote that if the ministers are at their posts, all are aided, and none are defrauded of the communion of the Lord's body [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine wrote that if the ministers are at their posts, all are aided, and none are defrauded of the communion of the Lord's body.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The lapsed are our own people, not strangers and not enemies; they sat where we sit, and now they ask to come back [[lpc.term.the-lapsed]] [[as:paraphrase]].",
+   "sentence": "The lapsed are our own people, not strangers and not enemies; they sat where we sit, and now they ask to come back.",
+   "tags": [
+    "lpc.term.the-lapsed"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In Cyprian's time we took such a person back and did not shut that person out for good [[lpc.gravity.penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "In Cyprian's time we took such a person back and did not shut that person out for good.",
+   "tags": [
+    "lpc.gravity.penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "The way back was a public road, walked in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "The way back was a public road, walked in steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Cyprian wrote: [[quote:lpc.quote.before-even-a-deacon]]",
+   "placed_quote": "lpc.quote.before-even-a-deacon",
+   "sentence": "Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”",
+   "tags": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.the-lapsed",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.quote.they-first-dwelt-together-in-unity",
+  "lpc.gravity.penitential-discipline"
+ ],
+ "raw_text": "We held that God's mercy and grace are not to be refused to anyone born of man, as Cyprian's council judged [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. That council wrote to Fidus, who had thought a child should wait until the eighth day, and no one agreed with him [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, about the dangers of those years [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. Augustine held that when danger falls on all alike, those who depend on their ministers must not be left [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. In such danger a crowd gathers in the church, some urgently asking baptism, others reconciliation, others even the doing of penance [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. Augustine wrote that if the ministers are at their posts, all are aided, and none are defrauded of the communion of the Lord's body [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. The lapsed are our own people, not strangers and not enemies; they sat where we sit, and now they ask to come back [[lpc.term.the-lapsed]] [[as:paraphrase]]. In Cyprian's time we took such a person back and did not shut that person out for good [[lpc.gravity.penitential-discipline]] [[as:paraphrase]]. The way back was a public road, walked in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. Cyprian wrote: [[quote:lpc.quote.before-even-a-deacon]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.before-even-a-deacon": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "he peace the martyrs asked for them in their letters to us. Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1,",
+     "span": "record lpc.quote.before-even-a-deacon"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "removed": [
+   {
+    "draft": "We held that God's mercy and grace are not to be refused to anyone born of man, as Cyprian's council judged [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "We held that God's mercy and grace are not to be refused to anyone born of man, as Cyprian's council judged.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "That council wrote to Fidus, who had thought a child should wait until the eighth day, and no one agreed with him. In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, about the dangers of those years. Augustine held that when danger falls on all alike, those who depend on their ministers must not be left. In such danger a crowd gathers in the church, some urgently asking baptism, others reconciliation, others even the doing of penance. Augustine wrote that if the ministers are at their posts, all are aided, and none are defrauded of the communion of the Lord's body. The lapsed are our own people, not strangers and not enemies; they sat where we sit, and now they ask to come back. In Cyprian's time we took such a person back and did not shut that person out for good. The way back was a public road, walked in steps under the bishop. Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”.",
+ "voice_set_aside": false
+}

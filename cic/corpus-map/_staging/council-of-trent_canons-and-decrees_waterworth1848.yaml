@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: eng
+    date: {start: 1545, end: 1563, source: "session headings: the council opened on 13 December 1545 (file line 3490) and the last session in the volume is dated 1563 (file line 9819)", formation_confidence: Documented}
     note: >
       Trent's own official canons and decrees, trans. Rev. J. Waterworth
       (preface 1848) - this world's own

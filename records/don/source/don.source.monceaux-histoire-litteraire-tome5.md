@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Directly read for the Tyconius chapter (eight or more specific characterisations checked
+  divergence_note: Directly read for the Tyconius chapter (eight or more specific characterizations checked
     verbatim, all accurate) and for the Passio Donati material. But EXPLICITLY NOT LICENSED for Monceaux's
     own footnoted primary-source citations -- Augustine's Epistle 93.10.43-45 and Contra epistulam Parmeniani
     I.1, offered as his biographical sources for Tyconius -- which have not themselves been checked against

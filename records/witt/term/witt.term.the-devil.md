@@ -107,7 +107,7 @@ quick_meaning: >-
   A real, personal enemy. We fight him daily with the Word, the sacraments, and the catechism.
 distortion_risk: high
 use_note:
-  means: "The devil meant a real, personal enemy named in sermon, hymn, prayer and confession, against whom Word, sacraments and catechism are daily defences."
+  means: "The devil meant a real, personal enemy named in sermon, hymn, prayer and confession, against whom Word, sacraments and catechism are daily defenses."
   not_for:
     - "the devil as a metaphor or figure of speech for evil in general"
     - "a scholarly apocalyptic reading of the whole movement as the world's own self-understanding"

@@ -20,7 +20,7 @@ confidence:
     it mourns.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2506-2518): Sulpitius''s closing contrast between a worldly triumph and Martin''s funeral, ending "Martin is praised with the divine psalms"'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2506-2518; div ii.iii.iii): Sulpitius's closing contrast between a worldly triumph and Martin's funeral, ending \"Martin is praised with the divine psalms\""
   license: public-domain
 retrieval:
   tier: 1
@@ -62,7 +62,7 @@ modern_rendering: >-
   guidance, overcome the world. Let madness honor these earthly warriors with the joined praises of
   nations. Martin is praised with the sacred psalms; Martin is honored in the hymns of heaven.
 use_note:
-  means: "Sulpitius, in Letter III to Bassula, sets Martin's psalm-singing funeral against a Roman triumph, its followers men who had overcome the world, and says hymns honour him."
+  means: "Sulpitius, in Letter III to Bassula, sets Martin's psalm-singing funeral against a Roman triumph, its followers men who had overcome the world, and says hymns honor him."
   not_for:
     - "an established cult or feast of Martin, when the line is Sulpitius's rhetoric written months after the death"
     - "the make-up and ranks of the funeral crowd, which sit in gallic.quote.martin-funeral-procession-ranks and gallic.quote.martin-funeral-crowd-and-monks"

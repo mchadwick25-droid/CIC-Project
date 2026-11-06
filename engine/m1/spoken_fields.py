@@ -46,6 +46,9 @@ because the same field can reach different surfaces differently:
   functions (`_figure_label`, `_quote_label`), not reimplemented here;
   this registry only declares which fields feed them, so a future field
   those helpers start reading has to be declared too.
+- "card-page": full sentences a card's click page shows that the voice never
+  sees (a term's senses). No voice-facing consumer reads them: they stay out
+  of the evidence block, the absence rule and the support check.
 - "facilitator-spoken": composed, multi-sentence prose the Facilitator's
   own apparatus (not the world's Representative voice) puts in front of
   a participant, whether spoken verbatim in a turn
@@ -68,7 +71,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class SpokenField:
-    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "facilitator-spoken"
+    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "card-page" | "facilitator-spoken"
     note: str = ""
 
 
@@ -102,6 +105,9 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
         "quick_meaning": SpokenField("voice-diet"),
         "world_word": SpokenField("participant-label", "prompt section header + citation-card label + _chunk_text"),
+        "senses.translational": SpokenField("card-page", "shown on the term's card page under 'In this world' for a term not yet split into heard_today and meant_here"),
+        "senses.heard_today": SpokenField("card-page", "shown on the term's card page as 'How we hear it today'"),
+        "senses.meant_here": SpokenField("card-page", "shown on the term's card page as 'In this world'"),
     },
     "gravity": {
         "name": SpokenField("participant-label", "build_prompt's Gravities list + citation-card label fallback"),
@@ -109,7 +115,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "quote": {
         "modern_rendering": SpokenField("evidence-head"),
-        "text": SpokenField("evidence-head", "verbatim source wording, never voiced or shown; kept on this role so the gates still scan it, never readability-graded by design"),
+        "text": SpokenField("evidence-head", "verbatim source wording: never voiced; shown on the quote card as the edition's words; kept on this role so the gates still scan it, never readability-graded by design"),
         "speaker_or_author": SpokenField("participant-label", "feeds _quote_label via _quote_speaker_label"),
         "sources": SpokenField("participant-label", "list of {source_id, locus}; feeds _quote_label"),
     },
@@ -119,6 +125,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "telling": SpokenField("evidence-head", "the world's own reviewed telling, placed word for word into a turn by code; readability-graded"),
         "telling_short": SpokenField("evidence-head", "a shorter reviewed telling, placed word for word like telling; readability-graded"),
         "telling_medium": SpokenField("evidence-head", "a fuller reviewed telling, placed word for word like telling; readability-graded"),
+        "telling_long": SpokenField("evidence-head", "the long reviewed telling in modern English, shown on the story's card page and read aloud in two to four minutes; never placed in an answer; readability-graded"),
         "heart": SpokenField("evidence-head", "what the story is about, carried as data for the voice's choice of telling; readability-graded"),
     },
     "demonstration": {
@@ -130,6 +137,9 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "honest_limit": {
         "statement": SpokenField("voice-diet", "citation-card label uses first sentence"),
+    },
+    "passage": {
+        "text": SpokenField("evidence-head", "a leaf passage of a vendored edition, offered live beside the records; the voice restates it in the author's name and never types it, and the sentence it supports is read against it"),
     },
     "force": {
         "name": SpokenField("participant-label"),
@@ -186,6 +196,12 @@ def field_texts(record: dict, field: str) -> list[str]:
     return []
 
 
+def voiced_fields(record_type: str) -> list[str]:
+    """Every declared field for a type except the card-page ones, which the
+    voice never sees."""
+    return [name for name, sf in SPOKEN_FIELDS.get(record_type, {}).items() if sf.role != "card-page"]
+
+
 def fields_with_role(record_type: str, *roles: str) -> list[str]:
     """Field names for a record type carrying any of the given roles, in
     registry declaration order. Passing no roles returns every declared
@@ -227,7 +243,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
-    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
     "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
 }
 
@@ -235,7 +251,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
 # fields only).
 PERSPECTIVE_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning"],
-    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
     "ambient": ["detail"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
@@ -245,7 +261,7 @@ PERSPECTIVE_FIELDS: dict[str, list[str]] = {
 PARTICIPANT_FIELDS: dict[str, list[str]] = {
     "figure": ["bridge_line"],
     "term": ["world_word"],
-    "story": ["tellable_as", "telling", "telling_short", "telling_medium"],
+    "story": ["tellable_as", "telling", "telling_short", "telling_medium", "telling_long"],
     "gravity": ["name"],
     "force": ["name"],
     "contested_claim": ["claim"],

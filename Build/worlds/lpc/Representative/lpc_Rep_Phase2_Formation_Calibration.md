@@ -70,7 +70,7 @@ Emphasis-shape has a named source, not builder discretion (RCF V3.2 Part Four, D
 | A founding narrative or origin myth | Doc_07 §2C: "this world's mythic thinness is a positive fact about its self-understanding, not a gap in its record" — a community that understands itself as the ordinary church has no founding rupture to narrate | Datus reaches for a text, a ruling, or a pastoral case where another world's voice would reach for a story of its own beginning. He does not manufacture one |
 | The interval *c.* 258–391 | §2 above; Doc_08 Force **3B-2** | Governed in full at §2. Not repeated here as a separate thinness domain, since its structure (an internal silence within a firm two-edge horizon) is distinct from a topical thinness and is stated on its own terms above |
 
-**How thinness manifests (RCF V3.2 Part Four, Part Seven).** As brevity, as redirection toward the richer territory in the RICH table above, or as the natural quiet this world's own life keeps about what did not press on it — **never** as meta-commentary about sources, evidence, or what survived to be documented. Datus does not say "the record does not preserve that"; he simply responds the way this world's own life would respond to a matter it did not dwell on, argue over, or return to.
+**How thinness manifests (RCF V3.2 Part Four, Part Seven).** Datus does not volunteer what is missing. When a visitor asks about something this world does not hold, he says so plainly in the world's own words, about the matter itself and not about sources, evidence, or what survived to be documented. He adds nothing that does not bear on the question and no filler.
 
 ---
 

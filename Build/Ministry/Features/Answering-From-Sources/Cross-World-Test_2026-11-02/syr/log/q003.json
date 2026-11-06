@@ -1,0 +1,284 @@
+{
+ "draft": "To the one who wants to believe and cannot, we answer with our favorite name for Jesus: the Physician [[syr.dw.physician]] [[as:paraphrase]]. A physician is not scandalized by wounds [[syr.dw.physician]] [[as:paraphrase]]. The Physician exists for them [[syr.dw.physician]] [[as:paraphrase]]. Our sage taught that of all who ever put on a body, only One was without wound [[syr.dw.physician]] [[as:paraphrase]].\n\nJesus does not reject the one who repents [[syr.dw.physician]] [[as:paraphrase]]. The only thing that keeps a wound from healing is the shame that hides it [[syr.dw.physician]] [[as:paraphrase]]. We loved to preach about the woman who came to Jesus in tears, past every watching eye [[syr.dw.physician]] [[as:paraphrase]]. In her we saw the door standing open: whoever comes is received [[syr.dw.physician]] [[as:paraphrase]].\n\nWe did not claim living eyewitnesses, and a century and more stood between us and the events [[syr.dw.gospel-harmony]] [[as:paraphrase]]. We held the resurrection from preaching received and from argument [[syr.dw.gospel-harmony]] [[as:paraphrase]]. The Persian sage wrote in Demonstration VII: [[quote:syr.quote.aphrahat-medicine-penitence]]\n",
+ "ending": "rewritten",
+ "final": "To the one who wants to believe and cannot, we answer with our favorite name for Jesus: the Physician. A physician is not scandalized by wounds. The Physician exists for wounds. Our sage taught that of all who ever put on a body, only One was without wound. Jesus does not reject the one who repents. The only thing that keeps a wound from healing is the shame that hides it. We loved to preach about the woman who came to Jesus in tears, past every watching eye. In the woman who came to Jesus in tears we saw the door standing open: whoever comes is received. We did not claim living eyewitnesses, and a century and more stood between us and the events. We held the resurrection from preaching received and from argument.",
+ "group": "A",
+ "offered": [
+  "syr.dw.physician",
+  "syr.story.abgar-addai-legend",
+  "syr.story.basil-legend",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.quote.aphrahat-one-innocent",
+  "syr.contested.edessa-origins",
+  "syr.dw.gospel-harmony",
+  "syr.quote.ephrem-resurrection-pledge"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It speaks of penitence as medicine for the wounded, which bears on the answer but not directly on being unable to believe."
+   },
+   "record_id": "syr.quote.aphrahat-medicine-penitence"
+  }
+ ],
+ "question": "Someone tells you they cannot manage to believe in Jesus - what is your response to them?",
+ "question_id": "q003",
+ "read": {
+  "dropped": [
+   "syr.quote.aphrahat-medicine-penitence"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "To the one who wants to believe and cannot, we answer with our favorite name for Jesus: the Physician.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "A physician is not scandalized by wounds.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "The Physician exists for wounds.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "Our sage taught that of all who ever put on a body, only One was without wound.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "Jesus does not reject the one who repents.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "The only thing that keeps a wound from healing is the shame that hides it.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "We loved to preach about the woman who came to Jesus in tears, past every watching eye.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.physician"
+   ],
+   "sentence": "In the woman who came to Jesus in tears we saw the door standing open: whoever comes is received.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "We did not claim living eyewitnesses, and a century and more stood between us and the events.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "We held the resurrection from preaching received and from argument.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To the one who wants to believe and cannot, we answer with our favorite name for Jesus: the Physician.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A physician is not scandalized by wounds.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Physician exists for them.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our sage taught that of all who ever put on a body, only One was without wound.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Jesus does not reject the one who repents.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The only thing that keeps a wound from healing is the shame that hides it.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We loved to preach about the woman who came to Jesus in tears, past every watching eye.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In her we saw the door standing open: whoever comes is received.",
+   "tags": [
+    "syr.dw.physician"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not claim living eyewitnesses, and a century and more stood between us and the events.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held the resurrection from preaching received and from argument.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "syr.quote.aphrahat-medicine-penitence",
+   "reason": "placed by code",
+   "sentence": "The Persian sage wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”",
+   "tags": [
+    "syr.quote.aphrahat-medicine-penitence"
+   ]
+  }
+ ],
+ "shipped_by_net": "To the one who wants to believe and cannot, we answer with our favorite name for Jesus: the Physician. A physician is not scandalized by wounds. The Physician exists for them. Our sage taught that of all who ever put on a body, only One was without wound.\n\nJesus does not reject the one who repents. The only thing that keeps a wound from healing is the shame that hides it. We loved to preach about the woman who came to Jesus in tears, past every watching eye. In her we saw the door standing open: whoever comes is received.\n\nWe did not claim living eyewitnesses, and a century and more stood between us and the events. We held the resurrection from preaching received and from argument. The Persian sage wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”",
+ "sub_question": "C1.S8"
+}

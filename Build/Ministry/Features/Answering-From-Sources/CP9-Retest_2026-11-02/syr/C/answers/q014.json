@@ -1,0 +1,230 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Authority came to a person in one of three ways among us: by being made a bishop, by taking the vow, or by being found trustworthy over time."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Bishops stood first, and Nisibis sang of Jacob and Babu and Valgash as the city's fathers, who prayed for it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "The Persian church had enough bishops to quarrel over precedence."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "The covenant's vowed men and women carried a standing of their own."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "They promised a celibate life for good, stayed in town, and served the congregation in the fast, the watch, the vigil and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "A teacher whose word held could also write to bishops in a synod's name."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Aphrahat did so, and no one now knows his rank."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "The Persian church's one claimed head, Papa, was contested by his own bishops."
+  },
+  {
+   "record_ids": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "No settled titled head stood over the Persian bishops in our years."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "sentence": "Which path finally outranked the others, we never settled while we lived."
+  },
+  {
+   "record_ids": [
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "sentence": "What it felt like to move among these paths day to day is not attested."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The covenant's formal inner structure is also thinly documented."
+  }
+ ],
+ "citations": [
+  "syr.dw.authority-lived",
+  "syr.force.authority-ambiguity-condition",
+  "syr.gravity.authority-ambiguity",
+  "syr.term.catholicos",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "Authority came to a person in one of three ways among us: by being made a bishop, by taking the vow, or by being found trustworthy over time [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "Authority came to a person in one of three ways among us: by being made a bishop, by taking the vow, or by being found trustworthy over time.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "Bishops stood first, and Nisibis sang of Jacob and Babu and Valgash as the city's fathers, who prayed for it [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Bishops stood first, and Nisibis sang of Jacob and Babu and Valgash as the city's fathers, who prayed for it.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "The Persian church had enough bishops to quarrel over precedence [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Persian church had enough bishops to quarrel over precedence.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The covenant's vowed men and women carried a standing of their own [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "sentence": "The covenant's vowed men and women carried a standing of their own.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They promised a celibate life for good, stayed in town, and served the congregation in the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "They promised a celibate life for good, stayed in town, and served the congregation in the fast, the watch, the vigil and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A teacher whose word held could also write to bishops in a synod's name [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "sentence": "A teacher whose word held could also write to bishops in a synod's name.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat did so, and no one now knows his rank [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "sentence": "Aphrahat did so, and no one now knows his rank.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Persian church's one claimed head, Papa, was contested by his own bishops [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "The Persian church's one claimed head, Papa, was contested by his own bishops.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "No settled titled head stood over the Persian bishops in our years [[syr.term.catholicos]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "No settled titled head stood over the Persian bishops in our years.",
+   "tags": [
+    "syr.term.catholicos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Which path finally outranked the others, we never settled while we lived [[syr.dw.authority-lived]] [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]].",
+   "sentence": "Which path finally outranked the others, we never settled while we lived.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What it felt like to move among these paths day to day is not attested [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]].",
+   "sentence": "What it felt like to move among these paths day to day is not attested.",
+   "tags": [
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The covenant's formal inner structure is also thinly documented [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "The covenant's formal inner structure is also thinly documented.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.authority-lived",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.authority-ambiguity-condition",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.suffering",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.gravity.persecution-endurance",
+  "syr.limit.ritual-sequence",
+  "syr.dw.reading",
+  "syr.quote.dem6-visit-the-sick"
+ ],
+ "raw_text": "Authority came to a person in one of three ways among us: by being made a bishop, by taking the vow, or by being found trustworthy over time [[syr.dw.authority-lived]] [[as:paraphrase]]. Bishops stood first, and Nisibis sang of Jacob and Babu and Valgash as the city's fathers, who prayed for it [[syr.dw.authority-lived]] [[as:paraphrase]]. The Persian church had enough bishops to quarrel over precedence [[syr.dw.authority-lived]] [[as:paraphrase]]. The covenant's vowed men and women carried a standing of their own [[syr.dw.authority-lived]] [[as:paraphrase]]. They promised a celibate life for good, stayed in town, and served the congregation in the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]]. A teacher whose word held could also write to bishops in a synod's name [[syr.dw.authority-lived]] [[as:paraphrase]]. Aphrahat did so, and no one now knows his rank [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. The Persian church's one claimed head, Papa, was contested by his own bishops [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. No settled titled head stood over the Persian bishops in our years [[syr.term.catholicos]] [[as:paraphrase]]. Which path finally outranked the others, we never settled while we lived [[syr.dw.authority-lived]] [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]]. What it felt like to move among these paths day to day is not attested [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]]. The covenant's formal inner structure is also thinly documented [[syr.term.qyama]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Authority came to a person in one of three ways among us: by being made a bishop, by taking the vow, or by being found trustworthy over time. Bishops stood first, and Nisibis sang of Jacob and Babu and Valgash as the city's fathers, who prayed for it. The Persian church had enough bishops to quarrel over precedence. The covenant's vowed men and women carried a standing of their own. They promised a celibate life for good, stayed in town, and served the congregation in the fast, the watch, the vigil and the singing. A teacher whose word held could also write to bishops in a synod's name. Aphrahat did so, and no one now knows his rank. The Persian church's one claimed head, Papa, was contested by his own bishops. No settled titled head stood over the Persian bishops in our years. Which path finally outranked the others, we never settled while we lived. What it felt like to move among these paths day to day is not attested. The covenant's formal inner structure is also thinly documented.",
+ "voice_set_aside": false
+}

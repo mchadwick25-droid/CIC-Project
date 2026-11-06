@@ -1022,3 +1022,58 @@ Status: OPEN for an independent recheck of the quotes.
 Found by the Opus review of the origins limit (`Build/Ministry/Features/Question-Coverage/Review/opus-honest-limits-review.md`, finding F11). `desert.dw.apostolic` says "We did not claim an unbroken line back to the apostles for our way of life." Cassian, Conference XVIII.5 (npnf211 about line 42538), through Abbot Piamun, says the common life "continued unbroken for a very long period up to the time of Abbot Paul and Antony", and traces it to the believers at Jerusalem. The new `desert.limit.origins-no-single-founder` reports that passage and does not say the line is established. The existing witness was not edited. Decision for this world: narrow the witness so it speaks for what the Desert tradition itself claimed, and give Piamun's claim as one telling among those that disagree.
 
 Status: OPEN.
+
+### OG-43. Arsenius quote cited at the wrong line of Budge, 2026-11-03.
+
+The `quote-locus` gate found that the text of `desert.quote.arsenius-flee-tace-quiesce` was not on its cited line (47) of `cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt`. The text matches the edition word for word at line 56 (§2), so the locus now cites line 56 and the text is unchanged. The record's body note gave the wrong lines and called the quote a paraphrase. It now gives line 56 for §2 and line 54 for §1. The locus no longer says the Greek tradition renders the triad as fuge, tace, quiesce. The note now says the Latin systematic collection is not vendored. The three-word form does occur in the vendored Thomas à Kempis, so the note does not claim the form is absent. An independent Opus review checked the text at line 56 by two methods, and a targeted second Opus read rechecked the corrected note. The `m1:quote-locus/desert` waiver is removed; the gate reports 0 for desert.
+
+Still open: the record's divergence_note says the three-word form is a feature of the Latin transmission. The Greek alphabetical collection (Arsenius 2) also has a three-verb form, φεῦγε, σιώπα, ἡσύχαζε, so the note may be too narrow. Whether the Greek collection is vendored has not been checked. This pass did not change the note. Owner: desert's own build thread.
+
+Status: locus CLOSED; divergence_note OPEN.
+
+### OG-44. Origenist-controversy force rewritten to the reading level, provenance moved out, 2026-11-03.
+
+`desert.force.origenist-controversy` had a name carrying the cell code "[3A - ending/external]" and "Strand C". Its description failed the readability gate (FK 26). The name now reads "… scattering the semi-anchoritic strand's intellectual leadership". The description is rewritten to FK 10 or below and FRE 60 or above, with every claim kept and nothing added. It still says that no first-hand account from the strand survives. An independent Opus review compared old and new meaning line by line. It found one P1, where "left no account" had replaced "no account survives", and one P2; both are fixed and a second Opus read confirmed them. `m1:readability/desert` waiver 114 → 112. The record's `divergence_note` still cites "Doc_01 SS2.3" and is not changed here.
+
+Status: CLOSED for the name and description; the divergence_note citation is OPEN.
+
+### OG-45. The three-word form of the Arsenius saying, checked against the vendored Greek and Latin, 2026-11-03.
+
+Follows OG-43 ("Arsenius quote cited at the wrong line of Budge", 2026-11-03), whose divergence_note item was left open. The note said the three-word form is "a feature of the Latin transmission", and that quoting it would quote "the tradition's compression of him". The vendored texts show the triad in Greek as well as Latin, but only in later writers. In Greek: Peter of Damascus in the Philokalia (`philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt`, lines 1157-1159), who keeps the same reason clause Budge's text has; Kallistos and Ignatios Xanthopoulos (same file, lines 49822-49823); and Nikodemos's Synaxaristes (`nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt`, lines 16296-16297). In Latin: Ebedjesu's collection of canons, attributed to Arsenius, in Mai's Latin translation (`mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt`, lines 14913-14915; the Latin is Mai's and shows nothing about Ebedjesu's Syriac wording); and Thomas à Kempis, who uses the formula without naming Arsenius (`kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt`, line 1224). So the reason clause is not peculiar to Budge, and "longer and plainer" is dropped from the record's note. Neither the Greek nor the Latin collection of the sayings is vendored. Nothing vendored shows whether the short form or Budge's longer one is earlier, so "compression" claimed more than the sources show. The divergence_note, the locus gloss, the `not_for` line and the body note now say that the three-word form, in Greek and in Latin, is the form later writers give, not the form of this text. An independent Opus review checked each statement against the vendored lines. It found two further witnesses (Peter of Damascus and Ebedjesu), which are now added, and a second Opus read rechecked them.
+
+Status: CLOSED. OG-43's open divergence_note item is closed by this entry.
+
+### OG-46. Origenist-controversy divergence_note cites the vendored witnesses, not Doc_01, 2026-11-03.
+
+Follows OG-44 ("Origenist-controversy force rewritten to the reading level", 2026-11-03), which left the divergence_note's "Doc_01 SS2.3" citation open. The note now cites the vendored witnesses directly. The festal letters against the Anthropomorphites are in Cassian's Conference X.2 (npnf211 lines 35963-35999), now also cited in `sources[]` through `desert.source.cassian-conferences`; the year 399 is the translator's note. The council that condemned Origen's books appears in the NPNF summary of Theophilus's synodal letter, Jerome's Letter XCII (npnf206 from line 19795; the letter itself is not printed there); "at Alexandria" and the year 400 come from the editor's heading. Socrates VI.10 also reports a council Theophilus assembled to condemn Origen's writings, without naming the place (npnf202 lines 17895-17898). The body note no longer points to Doc_01. An independent Opus review checked each citation; it widened the Cassian range, noted that NPNF prints a summary of the letter, not the letter, and added Socrates VI.10. Those corrections are in.
+
+Still open: Jerome's letters other than Letter 22 have no desert source record, so Letter XCII is cited by file and line in the divergence_note, not through `sources[]`. Registering it is Library source work.
+
+Status: CLOSED for the Doc_01 citation; OPEN for registering Jerome's Letter XCII.
+
+### OG-47. Open points removed from desert documents when their commentary was cleaned, 2026-11-03.
+
+Removed from the live documents; the questions stay open here.
+
+1. Doc_02 (Source Ecology), former line 11, a terminology note that duplicated Doc_02 section 11 item 1: "Terminology note carried forward from this drafting pass: the Construction Framework's actual five-level confidence vocabulary (Part IV of the Template: Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential / Thin) is used precisely in this document. Doc_01 used bracketed shorthand (e.g. `[Well-established as to the general c. 318–320 range …]`) that does not match this prescribed vocabulary exactly. Doc_01 does not use a bracketed "[Contested]" tag; "contested" appears in Doc_01 only as running prose, never as a bracketed shorthand token. This is flagged here as a cross-document terminology inconsistency requiring a mechanical correction pass on Doc_01 — not a substantive claim change, and not treated as blocking Doc_02 (see Section 11, open item 1)."
+2. Doc_03 (Lexicon Candidate List), former line 154, final sentence: "This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item)." The preceding sentence, that the Evagrius *Antirrhetikos* survives only in Syriac, Armenian and Georgian with fragmentary Sogdian, stays.
+3. Doc_01 line 149 carries the Pachomian Lives version-priority question to Doc_02 without a section pointer; Doc_01 section 11 has no item for it.
+
+Status: OPEN. Owner: this world's thread.
+
+### OG-48. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+The `rendering-review` gate found 61 desert renderings with no named Opus review file. Three independent Opus reviewers read all 61 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed nine, one of them P1: Budge's bracketed "[and the wife of such and such a man]" was voiced as Melania's own words. The nine were re-rendered by Opus and passed a second independent Opus reader. The independent pull-request review then found that the bracket rule had not been applied evenly: an editor's bracketed supplement must not be voiced as the source's own where it adds meaning. Six records with bracketed supplements were read against it. One more re-rendering was needed, for `composed-by-bishop-palladius-for-the-prefect-lausus`. Three others failed and passed a third independent Opus reader, within the three-round cap. Also corrected: `antony-on-living-near-kin`'s `text` now has the edition's capital "Anchorite". The use_note and lens note of `the-nous-beholds-its-own-radiance` now say "matters" with the edition, not "events". Per-record log: `Review-Artifacts/Rendering_Review_Log_61_2026-11-03.md`. The `m1:rendering-review/desert` waiver is removed; the gate reports 0 for desert (61 → 0).
+
+Open, found by the reviewers and not changed here (line-span work, RD7): `never-kneel-saturday-to-sunday` is at npnf211 lines 17735-17743, not 17728; `so-perfectly-silent` is at 17397-17409, not 17396.
+
+Status: CLOSED for the renderings. OPEN for the two loci.
+
+### OG-49. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 57 desert verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found for each record in the batch review tables (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. The `quote-locus` gate now applies the same edition apparatus stripping and the same `verified-direct` scope as the verbatim gate, so a registered apparatus mark inside a span (Salvian's "**") no longer fails a quote the verbatim gate accepts.
+
+- One reviewer span ended short and was widened: `three-hundred-acres-to-the-villagers` (31246-31255).
+- Where a locus already held a rough pointer for the same file, such as "(npnf211 line 17728)", the exact span replaces it. A labeled pointer to another passage is kept, as in `antony-on-living-near-kin` ("the temptation it answers is stated at line 47186").
+
+Status: CLOSED. Owner: Library record-defects thread.

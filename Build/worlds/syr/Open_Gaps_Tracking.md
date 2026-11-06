@@ -205,3 +205,29 @@ Status: OPEN for the project lead.
 43. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B5 and the two Syriac leftovers against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
    Status: CLOSED for the live-reply claim check findings.
+
+44. **Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.** `Build/worlds/syr/build/syr_Passage_Seeds.yaml` holds 49 checked seeds for 19 of the 130 sub-questions; none can be voiced, because no checked syr passage has a named speaker the readers could confirm as the author's own. Phase 1 gave 7 seeds from the coverage-map hits; the first search batch (12 concrete sub-questions) added 42. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial.
+
+   What syr needs that lpc did not have: `locus_ids` on its corpus-map rows. Without them all 49 seeds read `file level only`, and most passages are not by Syriac authors (Clement of Alexandria, Palladius, the Apostolic Constitutions, the Pseudo-Clementines, Gregory the Great around 600); work and author are set on 22 and 36 of the 49, translator and edition year on none, and the date window is unknown on all. The index also marks the speaker of the Doctrine of Addai passage as "addai", which Opus found wrong (the narrator is the anonymous author writing as the scribe Labubna).
+
+   Status: OPEN for the row fields. Owner: Library thread, through the coordination thread.
+
+## 45. Row narrowing of the volumes behind the seeds (2026-11-03)
+
+- **What changed.** The same 108 corpus-map rows as alx OG-42 (the syr shelf shares the volumes); `locus_ids` and `language` set from the vendored files.
+- **Reach under the lens** (English passages that are not apparatus, by the division test): syr 66.1% before, 79.3% after (3,872,649 of 5,725,858 words before, 4,552,642 after).
+- **Seeds.** syr `row narrowed`: 0 of 49 before, 13 of 49 after. The other 36 sit in works the syr rows do not name (Clement of Alexandria, the Apostolic Constitutions, Gregory the Great and others) or in introductions, so they stay off the lens.
+- **Not done.** Dates and translators on these rows are not set; `window` stays `unknown` on all 49.
+- **Owner.** Library thread, through the coordination thread.
+
+## 46. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+- **Finding.** The `rendering-review` gate found 34 syr renderings with no named Opus review file.
+- **Done.** Two independent Opus reviewers read all 34 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed 12: four P1 and eight P2. The four P1 failures were these. In `a-man-called-wise-amongst-the-jews`, the translator's "(the Christian religion)" was voiced as Aphrahat's own words. In `basil-credits-a-syrian`, two claims stood outside the Syrian's "he said" frame. In `ephrem-keeper-of-strangers`, Budge's "[the means of relieving]" was voiced plainly. In `warned-before-baptism`, Hallock's supplements were voiced as Aphrahat's own and the preachers' warning lost its quotation frame. All 12 were re-rendered by Opus and passed a second independent Opus reader. The independent pull-request review then found that `the-temple-of-the-church-of-the-christians` kept "temple", which round 1 had failed in `chronicle-flood-line`, the same edition sentence. It now reads "church building", like that record, and passed a further independent Opus reader. Two of the round-2 renderings, `sozomen-melodies` and `the-scribes-and-the-prefects-over-the-archives`, then fell below the hard readability floor (FRE 60). Opus re-rendered both to clear it, with every clause kept, and they passed a third independent Opus reader (`Rendering_Review_Syr_Round3_2026-11-04.md`). Per-record log: `Review-Artifacts/Rendering_Review_Log_34_2026-11-03.md`. The `m1:rendering-review/syr` waiver is removed; the gate reports 0 for syr (34 → 0).
+- **Owner.** Library record-defects thread. Closed.
+
+## 47. Every verbatim quote names its exact lines, 2026-11-04.
+
+- **Finding.** 34 syr verbatim quotes named no line span in their locus.
+- **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. All 34 match. Where a locus already held a rough pointer for the same file, such as "(anf02, line 6972)", the exact span replaces it.
+- **Owner.** Library record-defects thread. Closed.

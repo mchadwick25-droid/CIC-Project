@@ -20,7 +20,7 @@ confidence:
     Whether any house in Gaul kept the fast broken for a guest, Cassian does not say.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes V.24 (npnf211 div iv.iii.v.xxiv, file lines 21017-21027): the elder's reply when asked why the daily fast was broken without scruple for the arriving guests"
+  locus: "Institutes V.24 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 21017-21027; div iv.iii.v.xxiv): the elder's reply when asked why the daily fast was broken without scruple for the arriving guests"
   license: public-domain
 retrieval:
   tier: 2
@@ -48,9 +48,9 @@ modern_lens_note: >-
   man chooses to give; charity is a command he is not free to skip. And
   the reason charity outranks the fast is not politeness - it is that the
   stranger at the door is Christ, so feeding him is feeding Christ. The
-  elder does not ask who the traveller is or what he has done; "receiving
+  elder does not ask who the traveler is or what he has done; "receiving
   Christ in you" is said of two men he has never met. The fast is not
-  cancelled, only moved: he will make it up alone, afterwards, so that
+  canceled, only moved: he will make it up alone, afterwards, so that
   the guest never carries the cost of his host's devotion.
 modern_rendering: >-
   I can fast any day. But I am about to walk you on your way, and I will

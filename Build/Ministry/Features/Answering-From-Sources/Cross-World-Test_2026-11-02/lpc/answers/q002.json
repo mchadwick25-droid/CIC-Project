@@ -1,0 +1,175 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "For us, the death and rising of Jesus are not facts we simply affirm and set aside."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "Augustine taught that the life we lead was modelled on them, not only mystically, but in reality."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We crucify our own flesh, and that is his cross in us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We are buried with him in the water, and that is his burial in us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We walk in a life made new, and that is his rising in us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We set our affection on what is above, our life hidden with him in God."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt about him from inside is almost never ours to give you."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.the-pattern-we-are-modelled-on"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "For us, the death and rising of Jesus are not facts we simply affirm and set aside [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For us, the death and rising of Jesus are not facts we simply affirm and set aside.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that the life we lead was modelled on them, not only mystically, but in reality [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that the life we lead was modelled on them, not only mystically, but in reality.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We crucify our own flesh, and that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We crucify our own flesh, and that is his cross in us.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We are buried with him in the water, and that is his burial in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We are buried with him in the water, and that is his burial in us.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We walk in a life made new, and that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We walk in a life made new, and that is his rising in us.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We set our affection on what is above, our life hidden with him in God [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We set our affection on what is above, our life hidden with him in God.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What an ordinary believer felt about him from inside is almost never ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "What an ordinary believer felt about him from inside is almost never ours to give you.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.the-pattern-we-are-modelled-on",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+ ],
+ "raw_text": "For us, the death and rising of Jesus are not facts we simply affirm and set aside [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. Augustine taught that the life we lead was modelled on them, not only mystically, but in reality [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We crucify our own flesh, and that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We are buried with him in the water, and that is his burial in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We walk in a life made new, and that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We set our affection on what is above, our life hidden with him in God [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. That is his ascension and his sitting at God's right hand, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. What an ordinary believer felt about him from inside is almost never ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "For us, the death and rising of Jesus are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately. Augustine taught that the life we lead was modelled on them, not only mystically, but in reality. We crucify our own flesh, and that is his cross in us. We are buried with him in the water, and that is his burial in us. We walk in a life made new, and that is his rising in us. We set our affection on what is above, our life hidden with him in God. That is his ascension and his sitting at God's right hand, worked out in an ordinary life. What an ordinary believer felt about him from inside is almost never ours to give you.",
+ "voice_set_aside": false
+}

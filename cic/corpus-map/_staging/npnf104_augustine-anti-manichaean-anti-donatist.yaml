@@ -386,6 +386,8 @@ assignments:
     both sides of that inheritance.
 
     '
+  translator: {name: "Rev. J. R. King, M.A. (revision with additional annotations by Rev. Chester D. Hartranft, D.D.)", source: "npnf104_augustine-anti-manichaean-anti-donatist.xml line 10775: translated by the rev. j. r. king, m.a.,", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml line 565: New York, June, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist
   work: Answer to the Letters of Petilian, the Donatist
   author: augustine
@@ -452,6 +454,8 @@ assignments:
     schism ("compel them to come in"). Also assigned to imperial-juridical-christianity below.
 
     '
+  translator: {name: "Rev. J. R. King, M.A. (revision with additional annotations by Rev. Chester D. Hartranft, D.D.)", source: "npnf104_augustine-anti-manichaean-anti-donatist.xml line 19281: translated by rev. j. r. king, m.a.,", formation_confidence: Documented}
+  edition_date: {year: 1887, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml line 565: New York, June, 1887.", formation_confidence: Inferential-Thin}
 - row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum-2
   work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine

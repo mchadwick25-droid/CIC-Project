@@ -1,0 +1,396 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "sentence": "Among us, Cyprian became bishop when the people of Carthage chose him by acclamation, over the recorded opposition of five presbyters."
+  },
+  {
+   "record_ids": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "sentence": "Cyprian was a trained public speaker who had become a Christian in middle life, roughly two or three years before."
+  },
+  {
+   "record_ids": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "sentence": "Cyprian later wrote that certain presbyters kept up an old venom against his office as bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "sentence": "Cyprian said that venom was aimed at his people's choice and God's judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius writes in praise of Cyprian, and says so himself."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "The claim that Cyprian was new to the faith when chosen rests on Pontius alone, and no other witness of ours confirms it."
+  },
+  {
+   "record_ids": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "sentence": "The pattern came back with Augustine, who was seized at Hippo in 391 and made a presbyter against his wishes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius tells how Cyprian came to the office:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Our bishop Cyprian was executed by the sword, and afterward his deacon, Pontius, wrote the story of his life."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "There was too much to tell, he said, so he chose a single fact that was proof enough of the good Cyprian did."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\""
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "He considered himself unworthy, but a crowd of believers still pressed at the doors of the house where he was."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius named two things side by side, the judgment of God and the favour of the people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In our own reading, the people's favour was the way we saw God's judgment at work."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "By 251 certain presbyters were renewing their old attack on him, so Cyprian wrote to us, the people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "These men had long hated him as bishop, he wrote, and to him that meant they hated our choice and God's judgment as well."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "A bishop, they wrote, should be chosen in the presence of the people, who knew each man's life best."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "That was how Sabinus had been made bishop there."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "The whole community of believers gave their voice for him, and the assembled bishops gave their judgment."
+  }
+ ],
+ "citations": [
+  "lpc.force.congregational-acclamation-overriding-preference",
+  "lpc.story.election-of-cyprian"
+ ],
+ "group": "C",
+ "id": "q051",
+ "net_sentences": [
+  {
+   "draft": "Among us, Cyprian became bishop when the people of Carthage chose him by acclamation, over the recorded opposition of five presbyters [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Among us, Cyprian became bishop when the people of Carthage chose him by acclamation, over the recorded opposition of five presbyters.",
+   "tags": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian was a trained public speaker who had become a Christian in middle life, roughly two or three years before [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Cyprian was a trained public speaker who had become a Christian in middle life, roughly two or three years before.",
+   "tags": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Cyprian later wrote that certain presbyters kept up an old venom against his office as bishop [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian later wrote that certain presbyters kept up an old venom against his office as bishop.",
+   "tags": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian said that venom was aimed at his people's choice and God's judgment [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].",
+   "sentence": "Cyprian said that venom was aimed at his people's choice and God's judgment.",
+   "tags": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Pontius writes in praise of Cyprian, and says so himself [[lpc.story.election-of-cyprian]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Pontius writes in praise of Cyprian, and says so himself.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "The claim that Cyprian was new to the faith when chosen rests on Pontius alone, and no other witness of ours confirms it [[lpc.story.election-of-cyprian]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The claim that Cyprian was new to the faith when chosen rests on Pontius alone, and no other witness of ours confirms it.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The pattern came back with Augustine, who was seized at Hippo in 391 and made a presbyter against his wishes [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "The pattern came back with Augustine, who was seized at Hippo in 391 and made a presbyter against his wishes.",
+   "tags": [
+    "lpc.force.congregational-acclamation-overriding-preference"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Pontius tells how Cyprian came to the office: [[story:lpc.story.election-of-cyprian:full]]",
+   "ratio": 0.8,
+   "sentence": "Pontius tells how Cyprian came to the office:",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Our bishop Cyprian was executed by the sword, and afterward his deacon, Pontius, wrote the story of his life [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "Our bishop Cyprian was executed by the sword, and afterward his deacon, Pontius, wrote the story of his life.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "There was too much to tell, he said, so he chose a single fact that was proof enough of the good Cyprian did [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "There was too much to tell, he said, so he chose a single fact that was proof enough of the good Cyprian did.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people [[lpc.story.election-of-cyprian]].\"",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\"",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He considered himself unworthy, but a crowd of believers still pressed at the doors of the house where he was [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "He considered himself unworthy, but a crowd of believers still pressed at the doors of the house where he was.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Pontius named two things side by side, the judgment of God and the favour of the people [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "Pontius named two things side by side, the judgment of God and the favour of the people.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In our own reading, the people's favour was the way we saw God's judgment at work [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In our own reading, the people's favour was the way we saw God's judgment at work.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "By 251 certain presbyters were renewing their old attack on him, so Cyprian wrote to us, the people [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "By 251 certain presbyters were renewing their old attack on him, so Cyprian wrote to us, the people.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "These men had long hated him as bishop, he wrote, and to him that meant they hated our choice and God's judgment as well [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "These men had long hated him as bishop, he wrote, and to him that meant they hated our choice and God's judgment as well.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "A bishop, they wrote, should be chosen in the presence of the people, who knew each man's life best [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "A bishop, they wrote, should be chosen in the presence of the people, who knew each man's life best.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "That was how Sabinus had been made bishop there [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "That was how Sabinus had been made bishop there.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The whole community of believers gave their voice for him, and the assembled bishops gave their judgment [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "The whole community of believers gave their voice for him, and the assembled bishops gave their judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.confessor",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.quote.clamour-and-tears",
+  "lpc.force.congregational-acclamation-overriding-preference",
+  "lpc.contested.de-unitate-recensions",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.thanks-be-to-god",
+  "lpc.quote.o-blessed-people-of-the-church",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.quote.shepherd-wounded-in-the-flock"
+ ],
+ "raw_text": "Among us, Cyprian became bishop when the people of Carthage chose him by acclamation, over the recorded opposition of five presbyters [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]]. Cyprian was a trained public speaker who had become a Christian in middle life, roughly two or three years before [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].\n\nCyprian later wrote that certain presbyters kept up an old venom against his office as bishop [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]]. Cyprian said that venom was aimed at his people's choice and God's judgment [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].\n\nPontius writes in praise of Cyprian, and says so himself [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. The claim that Cyprian was new to the faith when chosen rests on Pontius alone, and no other witness of ours confirms it [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. The pattern came back with Augustine, who was seized at Hippo in 391 and made a presbyter against his wishes [[lpc.force.congregational-acclamation-overriding-preference]] [[as:paraphrase]].\n\nPontius tells how Cyprian came to the office: [[story:lpc.story.election-of-cyprian:full]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.election-of-cyprian"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.election-of-cyprian": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Among us, Cyprian became bishop when the people of Carthage chose him by acclamation, over the recorded opposition of five presbyters. Cyprian was a trained public speaker who had become a Christian in middle life, roughly two or three years before.\n\nCyprian later wrote that certain presbyters kept up an old venom against his office as bishop. Cyprian said that venom was aimed at his people's choice and God's judgment.\n\nPontius writes in praise of Cyprian, and says so himself. The claim that Cyprian was new to the faith when chosen rests on Pontius alone, and no other witness of ours confirms it. The pattern came back with Augustine, who was seized at Hippo in 391 and made a presbyter against his wishes.\n\nPontius tells how Cyprian came to the office:\n\nOur bishop Cyprian was executed by the sword, and afterward his deacon, Pontius, wrote the story of his life. There was too much to tell, he said, so he chose a single fact that was proof enough of the good Cyprian did.\n\nIn 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\" Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith.\n\nWhen the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. He considered himself unworthy, but a crowd of believers still pressed at the doors of the house where he was.\n\nPontius named two things side by side, the judgment of God and the favour of the people. In our own reading, the people's favour was the way we saw God's judgment at work.\n\nBy 251 certain presbyters were renewing their old attack on him, so Cyprian wrote to us, the people. These men had long hated him as bishop, he wrote, and to him that meant they hated our choice and God's judgment as well.\n\nIn 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain. A bishop, they wrote, should be chosen in the presence of the people, who knew each man's life best. That was how Sabinus had been made bishop there. The whole community of believers gave their voice for him, and the assembled bishops gave their judgment.",
+ "voice_set_aside": false
+}

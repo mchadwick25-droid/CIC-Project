@@ -29,18 +29,12 @@ relations:
 name: "The network's strains and ruptures [2B - ongoing/internal]"
 kind: ongoing
 matrix_cell: 2B
-description: >-
-  The Basil-Gregory friendship wounded over Sasima (c. 372, Gregory's account, one-sided); the
-  Basil-Eustathius rupture over the Spirit (c. 373, Basil's account, one-sided); the long, largely failed
-  diplomacy over the Antioch schism and the western correspondence's disappointments; the era's
-  synod-weariness in its own voice (Doc_08 Cell 2B, Force 2B-3). WORLD'S OWN EXPERIENCE (Layer 2): the
-  world's bonds were its glory and its wounds: souls knit at Athens strained by a bishop's necessity; the
-  old master of the ascetic life become the adversary over the Spirit - and the grief of that was doctrinal
-  and personal at once, for the world could not tell where friendship ended and communion began. They were
-  the same fabric. FORMATION IMPACT (Layer 3): made the pneumatological line personally costly (Primary
-  1/Gravity 1's Spirit-precision cut through a friendship - the world knows what its exactness costs); fed
-  Tensional 8/Gravity 8 (Sasima is hēsychia's wound made institutional) and Tensional 9/Gravity 9 (reserve
-  argued between friends); taught the world's texture of grief to include broken bonds, not only graves.
+description: |-
+  The network of friends strained and broke. The friendship of Basil and Gregory was wounded over Sasima, about 372; we have Gregory's side of it only. Basil broke with Eustathius over the Spirit, about 373; we have Basil's side of it only. Long diplomacy over the schism at Antioch largely failed, and the letters to the West brought disappointment. The era speaks of its weariness with synods in its own voice.
+
+  In the world's own experience, its bonds were its glory and its wounds. Souls knit together at Athens were strained by a bishop's necessity. The old master of the ascetic life became the adversary over the Spirit. That grief was doctrinal and personal at once, for the world could not tell where friendship ended and communion began. They were the same fabric.
+
+  For formation, this force made the teaching on the Spirit personally costly. The Triune confession's precision about the Spirit cut through a friendship, so the world knows what its exactness costs. It fed the tension of hēsychia against the summons: Sasima is that wound made institutional. It fed the tension of precision against reserve, argued between friends. And it taught the world that grief includes broken bonds, not only graves.
 manifestations:
 - the Basil-Gregory friendship wounded over Sasima (c. 372)
 - the Basil-Eustathius rupture over the Spirit's honor (c. 373)

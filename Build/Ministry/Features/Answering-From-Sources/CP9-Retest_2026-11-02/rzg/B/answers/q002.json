@@ -1,0 +1,175 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "To us, Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our own two cities."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "We hold that as a settled ground, not a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "For a mind that would not settle, we turned attention outward to Christ, once, rather than inward, endlessly."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sign-and-the-thing-signified"
+   ],
+   "sentence": "On the Lord's Supper, Zurich and Geneva agreed in 1549 to distinguish the bread from the reality it points to, and never to disjoin the two."
+  },
+  {
+   "record_ids": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "sentence": "Our side claims that formula is a genuine synthesis, and our record does not settle whether it was that or only words both parties could sign."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How an ordinary believer lived with Christ from day to day has not reached us in that believer's own words."
+  }
+ ],
+ "citations": [
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.one-thing-not-in-dispute"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "To us, Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our own two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us, Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our own two cities.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "We hold that as a settled ground, not a threat.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For a mind that would not settle, we turned attention outward to Christ, once, rather than inward, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "For a mind that would not settle, we turned attention outward to Christ, once, rather than inward, endlessly.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On the Lord's Supper, Zurich and Geneva agreed in 1549 to distinguish the bread from the reality it points to, and never to disjoin the two [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "On the Lord's Supper, Zurich and Geneva agreed in 1549 to distinguish the bread from the reality it points to, and never to disjoin the two.",
+   "tags": [
+    "rzg.term.sign-and-the-thing-signified"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our side claims that formula is a genuine synthesis, and our record does not settle whether it was that or only words both parties could sign [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]].",
+   "sentence": "Our side claims that formula is a genuine synthesis, and our record does not settle whether it was that or only words both parties could sign.",
+   "tags": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "How an ordinary believer lived with Christ from day to day has not reached us in that believer's own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "How an ordinary believer lived with Christ from day to day has not reached us in that believer's own words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.not-a-death-he-sought"
+ ],
+ "raw_text": "To us, Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our own two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. What is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. For a mind that would not settle, we turned attention outward to Christ, once, rather than inward, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. On the Lord's Supper, Zurich and Geneva agreed in 1549 to distinguish the bread from the reality it points to, and never to disjoin the two [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]]. Our side claims that formula is a genuine synthesis, and our record does not settle whether it was that or only words both parties could sign [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]]. How an ordinary believer lived with Christ from day to day has not reached us in that believer's own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "To us, Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our own two cities. What is distinctly ours is what we were taught about who is chosen in him. God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned. We hold that as a settled ground, not a threat. Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him. For a mind that would not settle, we turned attention outward to Christ, once, rather than inward, endlessly. On the Lord's Supper, Zurich and Geneva agreed in 1549 to distinguish the bread from the reality it points to, and never to disjoin the two. Our side claims that formula is a genuine synthesis, and our record does not settle whether it was that or only words both parties could sign. How an ordinary believer lived with Christ from day to day has not reached us in that believer's own words.",
+ "voice_set_aside": false
+}

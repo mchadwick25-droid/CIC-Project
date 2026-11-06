@@ -23,6 +23,7 @@ work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics,
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: 'Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V'
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

@@ -31,7 +31,7 @@ repository access, so it resolves a figure id through the SAME
 figure-label lookup a figure's own card uses, rather than a cruder
 id-to-slug fallback.
 """
-from engine.prose import display_locus, short_head, strip_name_taxonomy_tag
+from engine.prose import display_locus, locus_refs, short_head, strip_name_taxonomy_tag
 
 
 def _short_name(record: dict) -> str | None:
@@ -158,13 +158,17 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     if record.get("record_type") == "modern_term" and not record.get("display_terms"):
         return None
     sources = []
+    spans = record.get("record_type") in ("story", "quote", "term")
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}
+        facts = source_record.get("edition_facts") or {}
+        carried = {**({"vendored": locus_refs(entry.get("locus") or "")} if spans else {}),
+                   "translator": facts.get("translator"), "edition_date": facts.get("edition_date")}
         if source_record.get("citation"):
             sources.append({
                 "source_id": source_id, "citation": source_record["citation"], "author": None, "work": None,
-                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": None,
+                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": source_record.get("edition"), **carried,
             })
             continue
         candidate = {
@@ -176,7 +180,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         }
         if any(_printable(v) for v in candidate.values()):
             candidate["edition"] = source_record.get("edition")
-            sources.append(candidate)
+            sources.append({**candidate, **carried})
     card = {
         "record_id": record_id,
         "record_type": record.get("record_type"),
@@ -184,12 +188,20 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         "sources": sources,
     }
     if record.get("record_type") == "quote":
+        card["means"] = (record.get("use_note") or {}).get("means")
         card["spoken_rendering"] = record.get("modern_rendering")
         card["speaker"] = _quote_speaker_label(record, repository_records)
+        spans = [ref for source in sources for ref in source.get("vendored") or []]
+        other = [ref for ref in spans if ref["label"] and ref["label"].lower() != "english"]
+        edition_in_original = bool(other) and not [ref for ref in spans if ref not in other]
+        card["edition_words"] = record.get("text") if record.get("license") == "verbatim" else None
+        card["edition_language"] = other[0]["label"] if edition_in_original else None
+        card["original"] = [] if edition_in_original else [{"label": ref["label"], "file": ref["file"], "lines": ref["lines"]} for ref in other]
     if record.get("record_type") == "story":
         card["means"] = (record.get("use_note") or {}).get("means")
         card["narrative_tier"] = record.get("narrative_tier")
         card["heart"] = record.get("heart")
+        card["telling_long"] = record.get("telling_long")
     if record.get("record_type") == "modern_term":
         # Carried onto the card the same way a quote's own modern_rendering
         # is above: verbatim, additive, never composed by this function -

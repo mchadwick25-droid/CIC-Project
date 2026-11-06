@@ -20,6 +20,7 @@ edition: trans. A. Edward Johnston from Lamy's text, revised and edited by John 
   13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml (div iii.vi)
 citation: Attributed to Ephrem the Syrian, Fifteen Hymns for the Feast of the Epiphany, trans. A. Edward Johnston, ed. John Gwynn, Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)
 kind: vendored
+shelf_row: npnf213_gregory-great-ephraim-syrus-aphrahat--fifteen-hymns-for-the-feast-of-the-epiphany
 rights_status: public-domain
 attribution_status: 'disputed - Beck argued the Epiphany cycle is not authentically Ephrem''s: Nisibis
   in his lifetime kept a combined Nativity-Baptism observance (Jan 6), not a separate Epiphany feast,

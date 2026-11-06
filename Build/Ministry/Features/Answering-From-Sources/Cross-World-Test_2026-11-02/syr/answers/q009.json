@@ -1,0 +1,246 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Much of what we tell you can be checked."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The story of the king who wrote to Jesus is a legend."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.diatessaron-normative",
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "sentence": "For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Who led us never resolves."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The record is thinnest where it always is."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Ordinary believers left no writings of their own."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "sentence": "Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.gravity.authority-ambiguity",
+  "syr.gravity.diatessaron-normative",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Much of what we tell you can be checked [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Much of what we tell you can be checked.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The story of the king who wrote to Jesus is a legend [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The story of the king who wrote to Jesus is a legend.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on [[syr.gravity.diatessaron-normative]] [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on.",
+   "tags": [
+    "syr.gravity.diatessaron-normative",
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Who led us never resolves [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "sentence": "Who led us never resolves.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The record is thinnest where it always is [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The record is thinnest where it always is.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Ordinary believers left no writings of their own.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.basil-legend",
+  "syr.quote.pearl-mysteries",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.gravity.diatessaron-normative",
+  "syr.gravity.raza-shrara-method",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "Much of what we tell you can be checked [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nThe story of the king who wrote to Jesus is a legend [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on [[syr.gravity.diatessaron-normative]] [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].\n\nWho led us never resolves [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].\n\nThe record is thinnest where it always is [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Much of what we tell you can be checked. Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa. That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.\n\nThe story of the king who wrote to Jesus is a legend. It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history. For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on.\n\nWho led us never resolves. Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops.\n\nThe record is thinnest where it always is. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing. Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all.",
+ "voice_set_aside": false
+}

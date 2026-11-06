@@ -37,6 +37,7 @@ retrieval:
   - participant asks what Lucian granted to the lapsed women
   - participant asks what condition the confessors set on the peace they gave
   - participant asks whether a confessor could forgive without the bishop
+  - participant asks whether a Christian imprisoned for the faith could forgive someone who had denied it
   prefer_instead:
   - participant wants the whole exchange between Celerinus and Lucian -- lpc.story.celerinus-writes-to-lucian
     gives that

@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.julian-rescript-on-christian-teachers
-  locus: "Rescript on Christian Teachers (Letter 36), 362, after June 17, from Antioch
-    (julian_letters-1-73_wright1923.txt)"
+  locus: "Rescript on Christian Teachers (Letter 36), 362, after June 17, from Antioch (cic/texts/julian_letters-1-73_wright1923.txt, line 556)"
   license: public-domain
 text: >-
   If, however, they think that those writers were in error with respect to
@@ -37,14 +36,14 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what an outsider or a former insider found strangest or most objectionable about this world"
-  - "participant asks what this world's neighbours actually said about them, in their own words"
+  - "participant asks what this world's neighbors actually said about them, in their own words"
 relations:
 - type: associated-with
   target: cappadocian.dw.a-stranger-weather
 modern_rendering: >-
-  But if they think those writers were wrong about the gods we honor most, let them go to
-  the churches of the Galilaeans to expound Matthew and Luke. That is because you
-  Galilaeans obey those books when you order people to stay away from temple worship.
+  If, however, they think those writers were wrong about the most honored gods, let them
+  go to the churches of the Galilaeans. Let them expound Matthew and Luke there. For you
+  Galilaeans obey them when you order people to keep away from temple worship.
 use_note:
   means: "Julian's rescript of 362 tells Christian teachers who reject the gods of the classics to go and expound Matthew and Luke in their own churches."
   not_for:

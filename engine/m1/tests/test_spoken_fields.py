@@ -36,7 +36,7 @@ def test_attribution_fields_relocated_unchanged():
         "term": ["plain_meaning", "quick_meaning", "world_word"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
-        "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+        "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
         "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
     }
 
@@ -44,7 +44,7 @@ def test_attribution_fields_relocated_unchanged():
 def test_perspective_fields_relocated_unchanged():
     assert gates._PERSPECTIVE_FIELDS == {
         "term": ["plain_meaning", "quick_meaning"],
-        "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+        "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
         "ambient": ["detail"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
@@ -55,7 +55,7 @@ def test_participant_fields_relocated_unchanged():
     assert cross_world._PARTICIPANT_FIELDS == {
         "figure": ["bridge_line"],
         "term": ["world_word"],
-        "story": ["tellable_as", "telling", "telling_short", "telling_medium"],
+        "story": ["tellable_as", "telling", "telling_short", "telling_medium", "telling_long"],
         "gravity": ["name"],
         "force": ["name"],
         "contested_claim": ["claim"],
@@ -149,6 +149,29 @@ _MODERN_TERM_CARD_READS = {
     "modern_term": ["modern_sense", "distinguishing_claim"],
 }
 
+# Hand-verified against citation_cards.resolve_source_card's quote enrichment:
+# the spoken rendering, the edition's words and the one-line meaning, carried
+# onto the card verbatim.
+_QUOTE_CARD_READS = {
+    "quote": ["modern_rendering", "text"],
+}
+
+# resolve_source_card's story enrichment: the long telling is shown on the card page.
+_STORY_CARD_READS = {
+    "story": ["telling_long", "heart"],
+}
+
+
+# engine/m4/term_glosses.py find_glosses_used: the term card's senses, read
+# off the record and shown on its click page.
+_TERM_CARD_READS = {
+    "term": ["senses.translational", "senses.heard_today", "senses.meant_here", "plain_meaning", "quick_meaning", "world_word"],
+}
+
+
+def test_term_card_reads_are_all_declared():
+    _assert_all_declared("term_glosses.find_glosses_used", _TERM_CARD_READS)
+
 
 def test_build_prompt_reads_are_all_declared():
     _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
@@ -166,15 +189,33 @@ def test_citation_label_reads_are_all_declared():
     _assert_all_declared("citation_cards label helpers", _CITATION_LABEL_READS)
 
 
+def test_story_card_reads_are_all_declared():
+    _assert_all_declared("citation_cards.resolve_source_card story enrichment", _STORY_CARD_READS)
+
+
+def test_quote_card_reads_are_all_declared():
+    _assert_all_declared("citation_cards.resolve_source_card quote enrichment", _QUOTE_CARD_READS)
+
+
 def test_modern_term_card_reads_are_all_declared():
     _assert_all_declared("citation_cards.resolve_source_card modern_term enrichment", _MODERN_TERM_CARD_READS)
 
 
 def test_fields_with_role_filters_correctly():
-    assert fields_with_role("story") == ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"]
+    assert fields_with_role("story") == ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"]
     assert fields_with_role("story", "voice-diet") == ["tellable_as", "text"]
     assert fields_with_role("voice_craft", "instruction") == [
         "identity", "guard", "characteristic_concerns", "source_anchor", "flavor_notes",
     ]
     assert fields_with_role("nonexistent-type") == []
     assert fields_with_role("nonexistent-type", "voice-diet") == []
+
+
+def test_card_page_fields_stay_out_of_what_the_voice_sees():
+    from engine.m1.spoken_fields import voiced_fields
+    from engine.m4.absence_rule import spoken_text
+    card_only = ["senses.translational", "senses.heard_today", "senses.meant_here"]
+    assert all(SPOKEN_FIELDS["term"][f].role == "card-page" for f in card_only)
+    assert not set(card_only) & set(voiced_fields("term"))
+    record = {"record_type": "term", "plain_meaning": "A certificate.", "senses": {"heard_today": "A modern ear hears a licence."}}
+    assert spoken_text(record) == "A certificate."

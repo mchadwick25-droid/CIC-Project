@@ -19,6 +19,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 1566: DE PATIENTIA.'
+    language: lat
+    date:
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--on-the-resurrection-of-the-flesh
     work: "On the Resurrection of the Flesh"
@@ -35,6 +43,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 2656: DE CARNIS RESVRRECTIONE.'
+    language: lat
+    date:
+      start: 208
+      end: 213
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: between 208/9 and 213 or later'
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-hermogenes
     work: "Against Hermogenes"
@@ -51,6 +67,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 7179: ADVERSVS HERMOGENEM.'
+    language: lat
+    date:
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-the-valentinians
     work: "Against the Valentinians"
@@ -83,6 +107,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 9473: ADVERSVS VALENTINIANOS.'
+    language: lat
+    date:
+      start: 207
+      end: 208
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas
     work: "Against Praxeas"
@@ -115,6 +147,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 11686: ADVERSVS PRAXEAN.'
+    language: lat
+    date:
+      start: 213
+      end: 218
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas-3
     work: "Against Praxeas"
@@ -163,6 +203,14 @@ assignments:
       quote is verified verbatim against it (INTAKE section 6); the English a Representative
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - 'line 14512: ADVERSVS MARCIONEM'
+    language: lat
+    date:
+      start: 198
+      end: 213
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: three stages: first and second drafts within 198-202/3; third version, books I-IV, 207/8; book V between 208/9 and 213 or later'
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion-3
     work: "The Five Books Against Marcion"

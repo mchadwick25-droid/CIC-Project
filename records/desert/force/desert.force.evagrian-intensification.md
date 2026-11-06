@@ -18,7 +18,7 @@ sources:
 - source_id: desert.source.socrates-historia-ecclesiastica
   locus: "IV.23 - Evagrius's works named and described, in Zenos's English (quotable with the double caveat: Socrates's excerpting, Zenos's translation)"
   license: public-domain
-name: "The intellectual intensification of ascetic psychology within Strand C, culminating in Evagrius's own systematized scheme [2B - ongoing/internal]"
+name: "The intellectual intensification of ascetic psychology within the semi-anchoritic strand, culminating in Evagrius's own systematized scheme"
 kind: ongoing
 description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at Kellia, among what this world's evidence suggests was a more educated, philosophically literate sub-population than the norm. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
 matrix_cell: 2B

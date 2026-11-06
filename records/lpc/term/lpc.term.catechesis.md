@@ -20,7 +20,7 @@ relations:
 - type: associated-with
   target: lpc.term.the-flock
 use_note:
-  means: "Catechesis was the teaching of the creed before baptism, and Augustine wrote a guide to it."
+  means: "Catechesis was the teaching given before baptism, including the creed, and Augustine wrote a guide to it."
   not_for:
     - "a claim that it was a children's catechism of memorized questions and answers"
     - "a claim that it was an organizing force of its own and not the medium formation was taught through"
@@ -38,11 +38,10 @@ confidence:
     Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.'
 sources:
 - source_id: lpc.source.augustine-on-the-catechising-of-the-uninstructed
-  locus: On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance
-    of it
+  locus: On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it; section 1, 'You have requested me, brother Deogratias' through 'an attractive method of discourse'; verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 24020-24028
   license: public-domain
 - source_id: lpc.source.augustine-creedal-catechetical-works
-  locus: the creedal works, teaching catechumens the baptismal creed directly
+  locus: the creedal works, teaching catechumens the baptismal creed directly; On the Creed, a sermon to the catechumens, 'Receive, my children, the Rule of Faith' through 'to rehearse and to repeat in answer'; verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 30467-30478
   license: public-domain
 - source_id: lpc.source.augustine-confessions
   locus: the Confessions, narrating a catechumenate and baptism from the inside
@@ -89,6 +88,13 @@ senses:
     instructors exists. Baptism was not adult-only, though. Augustine writes plainly that
     those baptized into Christ's own death include "not adults only, but infants as well." That is a different
     question from who received instruction.
+  heard_today: A modern listener may hear a children's catechism -- rote question-and-answer, memorized
+    young, faintly dry.
+  meant_here: Catechesis itself was built around adult instruction, before baptism, of people making
+    a consequential change of standing. It was taken seriously enough that a working manual for instructors
+    exists. Baptism was not adult-only, though. Augustine writes plainly that those baptized into Christ's
+    own death include "not adults only, but infants as well." That is a different question from who
+    received instruction.
 quick_meaning: For us, catechesis means teaching people before they are baptized. We teach them the creed,
   and the basics of belief, before the water, not after it.
 ---

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-canonical-letters-to-amphilochius
-  locus: "Letter CXCIX (Canonica Secunda), Canon XXII (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter CXCIX (Canonica Secunda), Canon XXII (cic/texts/npnf208_basil-letters-select-works.xml, lines 36336-36343)"
   license: public-domain
 text: >-
   In the case of a man having a wife by seduction, be it secret or by
@@ -60,7 +60,7 @@ use_note:
   means: "Canon XXII of Basil's Second Canonical Letter fixes four graded years of penance, then readmission, for a man who took a wife by seduction or violence."
   not_for:
     - "the penance terms for second and third marriages, which sit in cappadocian.quote.basil-canon-on-digamy"
-    - "four years as the penance for every sexual offence rather than for this named case"
+    - "four years as the penance for every sexual offense rather than for this named case"
     - "a claim that this world's discipline meant permanent excommunication"
     - "proof that discipline was always enforced as written, which a canon alone cannot show"
   years: {from: 375, to: 375}

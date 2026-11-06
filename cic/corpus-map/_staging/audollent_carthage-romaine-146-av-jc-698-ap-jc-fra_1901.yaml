@@ -7,6 +7,7 @@ assignments:
     locus: "whole file; chapter Les chretiens at file line 47700"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: provisional
     locus_ids: [whole-file]

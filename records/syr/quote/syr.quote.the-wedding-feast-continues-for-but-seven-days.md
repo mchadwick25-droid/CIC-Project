@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own argument in the standard English of the NPNF volume, read directly at the section cited. Johnston's English after Parisot's Syriac. '(virgins)' is the translator's supplied word and is kept.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: >-
-    Demonstration VI (Of Monks), sec. 6 (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "Demonstration VI (Of Monks), sec. 6 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 25940-25947)"
   license: public-domain
 text: >-
   And instead of the groans of the daughters of Eve, they utter the songs of the Bridegroom. The wedding-feast of the daughters of Eve continues for but seven days; but for these (virgins) is the Bridegroom who departs not for ever. The adornment of the daughters of Eve is wool that wears out and perishes, but the garments of these wear not out. Old age withers the beauty of the daughters of Eve, but the beauty of these shall be renewed in the time of the Resurrection.

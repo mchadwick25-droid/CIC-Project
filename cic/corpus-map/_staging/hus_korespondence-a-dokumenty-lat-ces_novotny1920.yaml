@@ -8,6 +8,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: assigned
+  language: ces-lat
+  date: {formation_confidence: unknown, checked: "Novotný's introduction (file lines 100-660): letters and documents from several years (items of 1402, 1408, 1409, 1412, 1413 named), no single window"}
   note: The critical edition of Hus's letters and the documents about them, in the Latin and Czech of
     the originals, with Novotný's Czech introduction and footnotes. It prints Hus's letters in their original
     languages, as a second critical text beside the letters in Palacký's Documenta. The vendored Workman

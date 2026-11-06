@@ -1,0 +1,173 @@
+{
+ "draft": "The outside record we can weigh is a short city chronicle drawn from real archives, and its line about the flood that destroyed a church building in Edessa is the oldest dated word about us [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nWe cannot be sure that line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nThe Chronicle of Edessa, in its year-513 flood entry, records: [[quote:syr.quote.the-temple-of-the-church-of-the-christians]]\n\nThe Chronicle closes that entry by naming the two scribes who recorded the event, King Abgar's command, and the two archivists who filed the record [[syr.quote.the-scribes-and-the-prefects-over-the-archives]] [[as:paraphrase]].\n\nAt Nisibis, a baptistery stands whose own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].\n\nOur own voices are the sage's letters, which date themselves to the year, and the poet's hymns, which survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nWe tell the story of the king who wrote to Jesus as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "The outside record we can weigh is a short city chronicle drawn from real archives, and the chronicle's line about the flood that destroyed a church building in Edessa is the oldest dated word about us. We cannot be sure the flood line stood in the first record and was not added later. At Nisibis, a baptistery stands whose own inscription dates the baptistery securely to the years of our bishop and the siege. Our own voices are the sage's letters, which date themselves to the year, and the poet's hymns, which survive in ancient copies. We tell the story of the king who wrote to Jesus as our legend, not as our history.",
+ "group": "A",
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.remains",
+  "syr.story.simeon-martyrdom",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.the-temple-of-the-church-of-the-christians",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It reports a flood and says nothing of a record obtained under torture, so it does not answer how reliable that source is."
+   },
+   "record_id": "syr.quote.the-temple-of-the-church-of-the-christians"
+  }
+ ],
+ "question": "Given that a key outside record of your worship was obtained under torture, how reliable is that source?",
+ "question_id": "q025",
+ "read": {
+  "dropped": [
+   "syr.quote.the-temple-of-the-church-of-the-christians"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The outside record we can weigh is a short city chronicle drawn from real archives, and the chronicle's line about the flood that destroyed a church building in Edessa is the oldest dated word about us.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We cannot be sure the flood line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.remains"
+   ],
+   "sentence": "At Nisibis, a baptistery stands whose own inscription dates the baptistery securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our own voices are the sage's letters, which date themselves to the year, and the poet's hymns, which survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We tell the story of the king who wrote to Jesus as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The outside record we can weigh is a short city chronicle drawn from real archives, and its line about the flood that destroyed a church building in Edessa is the oldest dated word about us.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We cannot be sure that line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "syr.quote.the-temple-of-the-church-of-the-christians",
+   "reason": "placed by code",
+   "sentence": "The Chronicle of Edessa, in its year-513 flood entry, records: “And they destroyed the temple of the church of the Christians. More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.”",
+   "tags": [
+    "syr.quote.the-temple-of-the-church-of-the-christians"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Nisibis, a baptistery stands whose own inscription dates it securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own voices are the sage's letters, which date themselves to the year, and the poet's hymns, which survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We tell the story of the king who wrote to Jesus as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  }
+ ],
+ "shipped_by_net": "The outside record we can weigh is a short city chronicle drawn from real archives, and its line about the flood that destroyed a church building in Edessa is the oldest dated word about us.\n\nWe cannot be sure that line stood in the first record and was not added later.\n\nThe Chronicle of Edessa, in its year-513 flood entry, records: “And they destroyed the temple of the church of the Christians. More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.”\n\nAt Nisibis, a baptistery stands whose own inscription dates it securely to the years of our bishop and the siege.\n\nOur own voices are the sage's letters, which date themselves to the year, and the poet's hymns, which survive in ancient copies.\n\nWe tell the story of the king who wrote to Jesus as our legend, not as our history.",
+ "sub_question": "C16.S1"
+}

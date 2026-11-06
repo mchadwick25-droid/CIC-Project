@@ -7,8 +7,18 @@ works:
   work: Síť víry (Petr Chelcicky, the Net of Faith)
   author: chelcicky
   locus: whole text, with the editor's preface and notes
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: ces
+  date:
+    start: 1440
+    end: 1443
+    source: 'Smetánka''s preface (file line 424): the Net of Faith was written ''za bezkráloví
+      po smrti Albrechta rakouského, v letech 1440-1443'', as Goll showed; the OCR reads the
+      years as ''1 440-1 M33'' and the end year is read as 1443'
+    formation_confidence: Widely Accepted
   note: Chelčický's Net of Faith in the Czech he wrote, in a 1912 edition from the 1521 printing.
     It is the main Czech source for the pacifist, anti-Constantinian thinker whom the Unity
     of the Brethren drew on, and is the Czech original beside the census's Chelčický lead.
@@ -22,6 +32,11 @@ works:
   locus: whole volume; preface by Buddeus
   role: context
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'title page and Buddeus''s preface (file lines 1-120) and a search of the body
+      for years: only the 1702 Halle imprint, no year for Comenius''s text'
   note: 'The Unity''s account of its own history, order and discipline from its last bishop,
     in Latin, printed long after the window. It is the Unity''s later self-account, so it
     gives the Unity''s own picture of its origins at second hand and not its voice of the
@@ -37,6 +52,11 @@ works:
   locus: Fillastre's Gesta, the Liber gestorum of Cerretanus, the Sermones
   role: context
   confidence: provisional
+  language: lat-deu
+  date:
+    formation_confidence: unknown
+    checked: 'title page, Vorwort and contents (file lines 1-300): a volume of diaries, sermons
+      and reform papers from several years, no single date'
   note: Primary acts, diaries and sermons of the Council of Constance in Latin, clean OCR,
     quotable once checked against the scan. Placed as context on the Hussite entry for the
     trial of Hus; the volume was not searched for it page by page.
@@ -47,6 +67,13 @@ works:
   locus: the ancient history, the old Unity to 1627 and the hidden seed to 1722
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1771
+    end: 1771
+    source: Cranz's own preface, signed 'Bertholdsdorf, March 22, 1771' (file line 1099);
+      the editor's preface says the work had passed through two editions in Germany
+    formation_confidence: Documented
   note: How the renewed church of the eighteenth century narrated the old Czech Unity as its
     own past; the continuity claim in the claimant's words. Provisional for both.
   source_file: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt
@@ -58,6 +85,12 @@ works:
     the name Huss occurs; about 700 occurrences)
   role: context
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'title page and editor''s notes: a 1837-41 edition of a multi-section martyrology;
+      the notes cite the 1563 edition but the file gives no first-edition year for the Hus
+      section'
   note: 'Foxe''s 16th-century English account of Hus, printed with his sources: a papal inquisitor''s
     testimonial to Hus, the petitions of the Bohemian nobles and the university, and Hus''s
     answer on De Ecclesia. It is an Elizabethan Protestant martyrologist''s compilation, a
@@ -74,6 +107,11 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'title page and the appended notes: the 1871 imprint only; a note cites a July
+      1864 article but no first-edition year is stated'
   note: 'Secondary history, English, Gillett (1871). Vol. II of a 2-volume set; Vol. I not
     independently checked or vendored.
 
@@ -86,6 +124,11 @@ works:
   locus: whole volume
   role: tradition
   confidence: provisional
+  language: deu-lat-ces
+  date:
+    formation_confidence: unknown
+    checked: 'title page (1878) and front matter: no dated preface; the volume mixes Goll''s
+      study with Brethren documents of the 1450s-1470s'
   note: 'Documents of the Unity of the Brethren on their contact with Waldensians and on their
     first priests, with Goll''s German study. Provisional: not read through. Lead from the
     Hussite dossier, now vendored.'
@@ -97,6 +140,11 @@ works:
   locus: whole volume; the Brethren's letters to Rokycana and their early apologetic tracts
   role: tradition
   confidence: provisional
+  language: deu-lat-ces
+  date:
+    formation_confidence: unknown
+    checked: 'title page (1882, file line 190) and front matter: no dated preface; the volume
+      mixes Goll''s commentary with Brethren writings of 1468-1478'
   note: 'The Brethren''s earliest apologetic writings with Goll''s German commentary. Provisional:
     not read through. The volume year (1882) is inferred; see the file header.'
   source_file: goll_quellen-bohmische-bruder-v2-deu_1882.txt
@@ -106,6 +154,11 @@ works:
   locus: whole volume
   role: context
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'title page and header: Gratius''s 1535 collection with manuscripts first printed
+      in 1690, many items of different dates, no single window'
   note: 'A Catholic reformers'' collection of texts (Ortwin Gratius, 1535; Brown, 1690). It
     is not the Unity''s voice except in the one item below. Second witness for now, not quotable:
     a 1690 print with the long s read as f, italic and roman confused, and stray glyphs (for
@@ -119,6 +172,11 @@ works:
   locus: item XXIV
   role: tradition
   confidence: provisional
+  language: lat-deu
+  date:
+    formation_confidence: unknown
+    checked: 'heading of item XXIV (file line 25285 ff.) and the Latin text: no composition
+      year stated for the Chronicon'
   note: The radical wing's own text, placed on the Hussite entry because the census files
     Tabor as a world within it. Provisional until the Hussite entry's build rules on the Taborite
     strand.
@@ -129,6 +187,14 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1413
+    end: 1414
+    source: 'Schaff''s introduction (file lines 617-656): written during Hus''s exile in the
+      Bohemian countryside from fall 1412 to October 1414, on the occasion of the theologians''
+      document ''dated February 6, 1413'''
+    formation_confidence: Widely Accepted
   note: 'Hus''s central ecclesiological treatise, trans. David S. Schaff (1915) - the work
     whose condemnation at the Council of Constance led directly to his execution in 1415,
     and the doctrinal spine of the movement this world is built around. This candidate had
@@ -143,6 +209,11 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
+  language: ces-lat
+  date:
+    formation_confidence: unknown
+    checked: 'Novotný''s introduction (file lines 100-660): letters and documents from several
+      years (items of 1402, 1408, 1409, 1412, 1413 named), no single window'
   note: The critical edition of Hus's letters and the documents about them, in the Latin and
     Czech of the originals, with Novotný's Czech introduction and footnotes. It prints Hus's
     letters in their original languages, as a second critical text beside the letters in Palacký's
@@ -158,6 +229,12 @@ works:
   locus: whole volume - volume 1 of 3
   role: tradition
   confidence: assigned
+  language: ces
+  date:
+    formation_confidence: unknown
+    checked: 'title page and front matter: several works in one volume; the Výklad''s colophon
+      (file line 17158) says it was finished in 1412 before St Martin''s day, which dates
+      one work, not the row'
   note: Hus's Czech expositions of the Creed, the Ten Commandments and the Lord's Prayer,
     and his tract on simony, in Czech, in a critical edition from the oldest known sources.
     These are Hus's own Czech pastoral works, which the vendored English letters and De Ecclesia
@@ -171,8 +248,17 @@ works:
     of 1414'
   author: hus
   locus: whole volume - volume 2 of 3
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: ces
+  date:
+    start: 1413
+    end: 1413
+    source: 'Hus''s colophon (file lines 18808-18811): finished ''léta tisícieho čtyřstého
+      a třinadctého, v den postný svatých apoštolóv Simona a Judy, na hradě, jenž slově Kozí'''
+    formation_confidence: Documented
   note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition
     from the oldest known sources. These are Hus's own Czech pastoral works, which the vendored
     English letters and De Ecclesia do not reach. Primary original evidence for the movement
@@ -188,6 +274,11 @@ works:
   locus: whole volume - volume 3 of 3
   role: tradition
   confidence: assigned
+  language: ces
+  date:
+    formation_confidence: unknown
+    checked: 'title page and the notes naming manuscripts of 1412 and 1414: several works,
+      no composition year stated'
   note: Hus's shorter Czech works, among them the Dcerka, the Zrcadlo and the Výklad písničky
     Šalomúnovy, in Czech, in a critical edition from the oldest known sources. These are Hus's
     own Czech pastoral works, which the vendored English letters and De Ecclesia do not reach.
@@ -202,6 +293,13 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1408
+    end: 1415
+    source: dated letter headings in the file, from '(June 30, 1408)' at line 330 to '(July
+      1, 1415)' at line 13161
+    formation_confidence: Widely Accepted
   note: 'Hus''s own correspondence, trans. Workman & Pope (1904) - his own voice across his
     career at the university, his preaching at the Bethlehem Chapel, and his final imprisonment
     and trial at Constance. This candidate had no prior Source Readiness Dossier or corpus-map
@@ -215,6 +313,15 @@ works:
   locus: the Latin text follows the editor's English introduction
   role: tradition
   confidence: provisional
+  language: lat-eng
+  date:
+    start: 1412
+    end: 1412
+    source: 'Thomson''s introduction (file lines 905-920): earliest date early September 1412,
+      after Jacobellus''s posicio; latest date Hus''s departure from Prague in early October
+      1412; Sedlák, cited at line 1617, dates it late 1412. The attribution to Hus rests on
+      the editor''s argument'
+    formation_confidence: Dominant Modern Reconstruction
   note: A Latin tract on the sixteen articles condemned as Wyclif's, printed here for the
     first time. The attribution to Hus rests on the editor's argument from tone, content and
     use of Wyclif, and the editor states that no manuscript names Hus; the vendored file must
@@ -231,6 +338,11 @@ works:
   locus: whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398
   role: context
   confidence: provisional
+  language: ces
+  date:
+    formation_confidence: unknown
+    checked: title page of the file (line 54) gives only the 1649 publication by Comenius
+      at Leszno; it states no composition year for Lasicki's text
   note: The Unity's account of its own customs and orders, published by its last bishop in
     1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline
     in its last century, quotable once each wording is checked against the page image. The
@@ -245,6 +357,11 @@ works:
     of Pulkava (before the window), the University of Prague and Bartošek of Drahonice
   role: tradition
   confidence: provisional
+  language: lat-ces
+  date:
+    formation_confidence: unknown
+    checked: 'editor''s notes (file lines 1735 and 2581): the Historia closes in 1422 and
+      one passage was written no earlier than late 1419; no composition year stated'
   note: 'Lawrence of Březová, an Utraquist chronicler close to the Prague university, on the
     Hussite movement to 1422, in Latin. He is the main source for Tabor and the Adamites and
     is hostile to Tabor, so the Taborite strand is seen through him and not in its own voice.
@@ -259,8 +376,18 @@ works:
   work: 'Bohemia: An Historical Sketch'
   author: lutzow
   locus: whole volume
+  locus_ids:
+  - whole-file
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 1895
+    end: 1896
+    source: 'preface to the first edition signed ''Zampach, December 1895'' (file line 607)
+      and the new-edition preface: ''first published in 1896'' (file line 301); the vendored
+      wording is the revision of 1909'
+    formation_confidence: Documented
   note: 'Secondary general history of Bohemia, English, Lutzow (1920, Everyman''s Library),
     providing broader political/national context for the movement.
 
@@ -272,6 +399,12 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 1913
+    end: 1914
+    source: preface signed 'Zampach, December 1913' (file line 468); title page 1914
+    formation_confidence: Documented
   note: 'Secondary history, English, Lutzow (1914), of the Hussite wars specifically.
 
     '
@@ -282,6 +415,11 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'title page (1909) and preface (file lines 64-420): no dated preface or first-edition
+      statement'
   note: 'Secondary biography, English, Lutzow (1909). Fills out the institutional/political
     register this thin-sourced world''s corpus otherwise lacked (previously only Hus''s own
     two vendored works).
@@ -296,6 +434,13 @@ works:
     citation (XXVII, 585 and 1159)
   role: context
   confidence: provisional
+  language: lat
+  date:
+    start: 1409
+    end: 1418
+    source: 'title page (file line 133): ''ab anno MCCCCIX usque ad annum MCCCCXVIII'', the
+      volume''s span of acts, covering Pisa and Constance'
+    formation_confidence: Documented
   note: The Latin conciliar acts of Pisa and Constance, including the decrees on conciliar
     authority and the condemnations of Wyclif and Hus. Second witness for exact wording (long
     s read as f).
@@ -307,6 +452,13 @@ works:
   locus: whole volume
   role: tradition
   confidence: provisional
+  language: ces-lat
+  date:
+    start: 1441
+    end: 1444
+    source: 'title (file line 113): ''Prameny k synodám strany pražské a táborské ... v létech
+      1441-1444'''
+    formation_confidence: Documented
   note: 'Both parties'' documents from the synods of 1441-1444 in Czech; placed on the Hussite
     entry as the origin of the Utraquist-Taborite exchange. Provisional: not read through.'
   source_file: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900.txt
@@ -318,6 +470,13 @@ works:
     Acta ante iter Constantiense, from the Mladenovic manuscript)
   role: tradition
   confidence: assigned
+  language: lat-ces
+  date:
+    start: 1403
+    end: 1418
+    source: 'title (file line 125): ''controversias de religione in Bohemia annis 1403-1418
+      motas illustrantia'''
+    formation_confidence: Documented
   note: Hus's own letters in the Latin and Czech he wrote, the earliest account of the Constance
     trial by Petr of Mladoňovice (the Relatio), and the documents of the Bohemian disputes
     before and during the council. It answers the request for the Latin and Czech originals
@@ -334,6 +493,12 @@ works:
   locus: 'whole volume - Band I: 1419-1428'
   role: context
   confidence: provisional
+  language: deu-lat
+  date:
+    start: 1419
+    end: 1428
+    source: 'title page (file line 59): ''von den Jahren 1419-1428'' (OCR ''14S8'')'
+    formation_confidence: Documented
   note: 'The wars'' own documents for 1419-1428, in Latin, Czech and German, from many hands
     (Hussite, Taborite, Catholic and royal). The Latin includes replies about the four articles,
     for example Bishop Fernandus''s response to the four articles in volume 1. The German
@@ -349,6 +514,12 @@ works:
   locus: 'whole volume - Band II: 1429-1436'
   role: context
   confidence: provisional
+  language: deu-lat
+  date:
+    start: 1429
+    end: 1436
+    source: 'title page (file line 45): ''von den Jahren 1429-1436'''
+    formation_confidence: Documented
   note: 'The wars'' own documents for 1429-1436, in Latin, Czech and German, from many hands
     (Hussite, Taborite, Catholic and royal). The Latin includes replies about the four articles,
     for example Bishop Fernandus''s response to the four articles in volume 1. The German
@@ -364,6 +535,11 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'title page and opening: the 1592 printing, ''a principio Gentis, usque ad Georgium
+      Podiebradium'', no composition year'
   note: 'A major contemporary hostile source on the Hussite wars, by Aeneas Sylvius Piccolomini
     (later Pope Pius II), who observed events at close range. No PD English translation was
     located; this is the 1592 Latin printing. Per the Library''s non-English-primary-evidence
@@ -380,6 +556,11 @@ works:
   locus: whole text
   role: context
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'title page and colophon (file lines 1-30 and 8399): only the October 1524 Cologne
+      printing, no composition year'
   note: 'Aeneas Silvius''s Latin history of Bohemia, from the Catholic humanist outside the
     movement, in a second printing. It has no interleaved marginal notes and keeps the long
     s as ſ, which the quote gate normalises, but its OCR has more letter-level noise than
@@ -395,6 +576,12 @@ works:
   locus: whole volume; the members' and delegations' lists and the sessions
   role: context
   confidence: provisional
+  language: gmh-deu
+  date:
+    formation_confidence: unknown
+    checked: 'Buck''s introduction (file lines 403-580): argues only that the exemplar of
+      codex A was finished before 1433; the title gives the council''s years 1414-1418, no
+      composition year'
   note: The lay eyewitness chronicle of Constance in the German of the Aulendorf codex, a
     mid-fifteenth-century copy. Readable, not clean; quote after checking the scan. Placed
     as context on the Hussite entry for the trial of Hus. No public-domain English translation
@@ -406,6 +593,14 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: lat-eng
+  date:
+    start: 1616
+    end: 1633
+    source: 'Seifferth''s introduction (file line 827) and the original preface (file lines
+      1286 and 4252): revised and completed at the Synod of Zerawice in 1616; the Synod at
+      Lissa in 1632 resolved to print the Latin text, printed at Lissa in 1633'
+    formation_confidence: Documented
   note: 'The Unity of the Brethren''s own institutional constitution (1632/33), Latin original
     with English translation, ed. Seifferth (1866). Per this world''s own window (c. 1402-1517,
     moved back from Hus''s own preaching at Bethlehem Chapel, held at 1517 so the later Unity
@@ -424,6 +619,12 @@ works:
   locus: whole volume; contents list at file line 238
   role: tradition
   confidence: provisional
+  language: ces
+  date:
+    formation_confidence: unknown
+    checked: 'Gindely''s preface (dated ''V Praze, dne 17. května 1864'', which dates the
+      edition only) and the contents list at file line 238: decrees from the Unity''s origin
+      through the 1600s, no single window'
   note: 'The Unity''s own rulings on order and discipline in Czech, from the manuscripts:
     its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon,
     and the sacraments. Primary original evidence, quotable once each wording is checked against
@@ -439,6 +640,11 @@ works:
     named at line 7529
   role: context
   confidence: provisional
+  language: ces
+  date:
+    formation_confidence: unknown
+    checked: 'title page (894 to 1632, appended account of 1655) and file line 6916 (a death
+      in 1653): the text is later than 1655, but no composition year is stated'
   note: The Czech exiles' history of their church's sufferings to the suppression under Ferdinand
     II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once
     each wording is checked against the page image. Authorship is the host catalogue's ascription
@@ -452,6 +658,12 @@ works:
     fidei veritatem"
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: file header content note says the edition's headings do not settle whether this
+      is the 1504 or the 1508 text; the printed running head 'Ad Vladislaum Hung. Reg. missa'
+      (volume page 163) gives no year
   note: 'The Brethren''s own Latin confession of faith to their king, printed in this collection.
     Whether it is the 1504 Confession or the 1508 text is not settled by the volume''s headings
     and needs a check against the Unity''s own editions before either date is used. Second
@@ -468,6 +680,13 @@ works:
     and the sections on the Taborites (lines 47499-47566)
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1659
+    end: 1660
+    source: 'van Braght''s own preface dated ''Dort, July the 23rd, 1659'' (file line 578)
+      and the title page: ''from the Edition of 1660'''
+    formation_confidence: Documented
   note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of
     Hus and of the Taborites (it calls them Waldenses). It reaches this world at three removes
     and from an Anabaptist point of view, and it includes a "Taborite confession of 1431"
@@ -482,6 +701,14 @@ works:
   locus: whole volume
   role: antecedent
   confidence: provisional
+  language: lat
+  date:
+    start: 1382
+    end: 1384
+    source: 'Lechler''s Latin prolegomena (file lines 688-716): the book mentions the council
+      of May 1382, so it was finished ''aut anno sequenti aut anno demum 1384'', the year
+      of Wyclif''s death'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Placed on the known descent of Bohemian reform from Wyclif''s teaching. The file
     was not read for the Hussite world''s own sources.
 
@@ -494,6 +721,11 @@ works:
   locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
   role: context
   confidence: provisional
+  language: deu-pro
+  date:
+    formation_confidence: unknown
+    checked: the Vorwort signed 'Erlangen den 4. August 1863' (file line 289) dates the edition,
+      not the catechism text this row names
   note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in
     a critical edition, with a nineteenth-century scholar's German around it. The Brethren's
     catechism printings are mostly after the Hussite world's window, hence context there.

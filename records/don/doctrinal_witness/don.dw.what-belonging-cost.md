@@ -75,7 +75,7 @@ text: >-
   What we cannot give you is the smaller ledger: what belonging cost
   inside one family or one street. Whether a man lost his brother over
   which font he walked to. Whether a household split. Whether the
-  neighbours stopped speaking. That much nobody among us wrote down, and
+  neighbors stopped speaking. That much nobody among us wrote down, and
   the people who kept our records were arguing with us and had no reason
   to.
 
@@ -113,7 +113,7 @@ positions:
   between bishops, and fixed commemorative dates observed simultaneously in towns with no other contact
 tensions:
 - most of the personal cost the question asks about - a household split, a brother lost over which font
-  he walked to, neighbours who stopped speaking - is still nowhere recorded, and the legal record still
+  he walked to, neighbors who stopped speaking - is still nowhere recorded, and the legal record still
   cannot be transposed into a personal one
 - the one piece of family-level cost that is recorded comes from a sermon whose own author and date are
   disputed by this world's own vendored authorities, and reaches only as far as grief after violence,

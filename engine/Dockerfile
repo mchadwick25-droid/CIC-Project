@@ -75,8 +75,12 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 
 COPY engine/ engine/
 COPY records/ records/
-# A world's search records and its site and Facilitator records; .dockerignore
-# admits only those two homes from Build/worlds/.
+# A world's search records and its site and Facilitator records, and its
+# Review-Artifacts folder; .dockerignore admits only those homes from
+# Build/worlds/. The M1 rendering-review gate (engine/m1/rendering_review.py)
+# reads a world's rendering review log and the review files it names from
+# Review-Artifacts, and its result is part of each package's gates-report.json,
+# so restore reproduces that report only if the folder is in the image.
 COPY Build/worlds/ Build/worlds/
 COPY packages/ packages/
 # Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_
@@ -89,9 +93,13 @@ COPY packages/ packages/
 # was the first thing to ever notice the absence - as a validation/gates-
 # report.json mismatch on every world except fix (whose only edition
 # reference is a deliberately-nonexistent fixture path, already accounted
-# for in its own pinned report). cic/corpus-map/ stays out - genuinely
-# staging files, nothing this image builds or serves reads it.
+# for in its own pinned report).
 COPY cic/texts/ cic/texts/
+
+# The compile reads each source's corpus-map row for the edition's translator
+# and year (engine/m2/edition_facts.py), so restore needs the bucket files.
+# Only the top-level buckets: the staging folder is not read.
+COPY cic/corpus-map/*.yaml cic/corpus-map/
 
 # cic/engine/ was "not read by anything at runtime" until P3's item 2
 # (2026-09-23): engine/m1/quote_verbatim.py's _edition_apparatus_entries

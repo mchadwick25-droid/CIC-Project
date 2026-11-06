@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: Ep. XX to Marcellina (npnf210 lines 41753-41755)
+  locus: "Ep. XX to Marcellina (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 41754-41755)"
   license: public-domain
 text: 'I said: I cannot surrender the basilica, but I may not fight.'
 modern_rendering: >-

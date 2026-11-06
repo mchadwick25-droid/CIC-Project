@@ -16,8 +16,7 @@ confidence:
     Documented as Rufinus's own opening in the standard English of the NPNF Jerome-Rufinus volume, read directly at the section cited. The volume's own editor notes alongside it that this is not an answer to a summons: the authority of the Roman bishops at this date 'was not what it afterwards became'.
 sources:
 - source_id: hal.source.rufinus-apology
-  locus: >-
-    Apology in Defence of Himself, sent to Anastasius, Bishop of the City of Rome, sec. 1 (npnf203_theodoret-jerome-gennadius-rufinus.xml)
+  locus: "Apology in Defence of Himself, sent to Anastasius, Bishop of the City of Rome, sec. 1 (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 45939-45949)"
   license: public-domain
 text: >-
   It has been brought to my knowledge that certain persons, in the course of a controversy which they have been raising in your Holiness’ jurisdiction on matters of faith or on other points, have made mention of my name. I venture to believe that your Holiness, who have been trained from your infancy in the strict principles of the Church, has refused to listen to any calumnies which may have been directed against an absent person, and one who has been favourably known to you as united with you in the faith and love of God. Nevertheless, since I hear it reported that my reputation has been attacked, I have thought it right to make my position clear to your Holiness in writing.

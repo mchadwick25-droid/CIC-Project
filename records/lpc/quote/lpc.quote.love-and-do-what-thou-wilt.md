@@ -36,11 +36,14 @@ retrieval:
   - participant asks about Augustine's 'Love, and do what thou wilt', from his homily on 1 John 4
   - participant asks what Augustine meant by 'love, and do what you want'
   - participant asks how Augustine said a deed is judged by whether love is its root, not by how harsh or gentle it looks
+  - participant asks what Augustine meant by a father beating his son out of love
+  - participant asks why Augustine said a father who beats a boy acts from love, while a slave-dealer who caresses him acts from wickedness
+  - participant asks whether harsh or gentle treatment of a child was judged by the love behind it, as Augustine pictured a father's discipline
   prefer_instead:
   - participant asks how Augustine said to correct and yet forgive -- lpc.quote.reprove-and-forgive-the-surgeons-knife
     gives that
 claim_guards:
-- 'The line is not a licence: the passage says deeds are known by their root, and that from the root of
+- 'The line is not a license: the passage says deeds are known by their root, and that from the root of
   love nothing can spring but what is good.'
 - The passage does not describe church discipline or excommunication; 'correct' and 'spare' are named
   only as acts that love may do.

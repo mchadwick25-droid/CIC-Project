@@ -1,0 +1,191 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "No outside account of our worship, taken under torture or otherwise, stands in our record, and no source we hold describes our worship rooms directly."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "What we say of those rooms is reasoned from what we held about the Mass, not read off anyone who stood there."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "From that doctrine we reason there was no image to bow to and no altar built for a sacrifice we no longer offered."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "A table stood in its place."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "By most accounts, the organ at the Zurich Grossmunster fell silent in the mid-1520s."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.mass-not-a-sacrifice"
+   ],
+   "sentence": "Huldrych Zwingli put it in his 1523 article on the Mass: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”"
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "Catholic pressure bore on us through all those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s."
+  }
+ ],
+ "citations": [
+  "rzg.ambient.emptied-worship-space",
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.witness.what-a-stranger-would-notice"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "No outside account of our worship, taken under torture or otherwise, stands in our record, and no source we hold describes our worship rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "No outside account of our worship, taken under torture or otherwise, stands in our record, and no source we hold describes our worship rooms directly.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we say of those rooms is reasoned from what we held about the Mass, not read off anyone who stood there [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "What we say of those rooms is reasoned from what we held about the Mass, not read off anyone who stood there.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "From that doctrine we reason there was no image to bow to and no altar built for a sacrifice we no longer offered [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "From that doctrine we reason there was no image to bow to and no altar built for a sacrifice we no longer offered.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A table stood in its place [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "A table stood in its place.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "By most accounts, the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "By most accounts, the organ at the Zurich Grossmunster fell silent in the mid-1520s.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "The doctrine itself we can show you in our founder's own words.",
+   "sentence": "The doctrine itself we can show you in our founder's own words.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Huldrych Zwingli put it in his 1523 article on the Mass: [[quote:rzg.quote.mass-not-a-sacrifice]]",
+   "placed_quote": "rzg.quote.mass-not-a-sacrifice",
+   "sentence": "Huldrych Zwingli put it in his 1523 article on the Mass: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”",
+   "tags": [
+    "rzg.quote.mass-not-a-sacrifice"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Catholic pressure bore on us through all those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Catholic pressure bore on us through all those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Which record do you mean?",
+   "sentence": "Which record do you mean?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-a-stranger-would-notice",
+  "rzg.term.consistory",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.ambient.emptied-worship-space",
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "raw_text": "No outside account of our worship, taken under torture or otherwise, stands in our record, and no source we hold describes our worship rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. What we say of those rooms is reasoned from what we held about the Mass, not read off anyone who stood there [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. From that doctrine we reason there was no image to bow to and no altar built for a sacrifice we no longer offered [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. A table stood in its place [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. By most accounts, the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. The doctrine itself we can show you in our founder's own words. Huldrych Zwingli put it in his 1523 article on the Mass: [[quote:rzg.quote.mass-not-a-sacrifice]] [[as:paraphrase]]. Catholic pressure bore on us through all those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. Which record do you mean?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.mass-not-a-sacrifice": [
+    {
+     "detail": "Mass",
+     "kind": "name",
+     "snippet": "Zwingli holds Christ's one sacrifice valid forever, so the Mass is a remembrance and assurance of it, not a sacrifice.",
+     "span": "record rzg.quote.mass-not-a-sacrifice"
+    },
+    {
+     "detail": "1523",
+     "kind": "number",
+     "snippet": "uldrych Zwingli Huldrych Zwingli, The Sixty-Seven Articles (1523), in the collective volume Selected Works (Jackson 1901) Wi",
+     "span": "record rzg.source.zwingli-sixty-seven-articles"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.mass-not-a-sacrifice"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "No outside account of our worship, taken under torture or otherwise, stands in our record, and no source we hold describes our worship rooms directly. What we say of those rooms is reasoned from what we held about the Mass, not read off anyone who stood there. From that doctrine we reason there was no image to bow to and no altar built for a sacrifice we no longer offered. A table stood in its place. By most accounts, the organ at the Zurich Grossmunster fell silent in the mid-1520s. The doctrine itself we can show you in our founder's own words. Huldrych Zwingli put it in his 1523 article on the Mass: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”. Catholic pressure bore on us through all those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s. Which record do you mean?",
+ "voice_set_aside": false
+}

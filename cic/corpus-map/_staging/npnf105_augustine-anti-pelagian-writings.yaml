@@ -54,6 +54,8 @@ assignments:
       First of the anti-Pelagian treatises (412), against Caelestius' teaching
       on infant baptism and sinlessness. Tradition for its author's own entry;
       assigned to pelagianism as the movement it argues against.
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera
     work: "On the Spirit and the Letter (De spiritu et littera)"
@@ -76,6 +78,10 @@ assignments:
     note: >
       412, to Marcellinus, continuing the argument of div1 10 on grace and law.
       Anti-Pelagian in occasion and doctrine.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia
     work: "On Nature and Grace (De natura et gratia)"
@@ -102,6 +108,10 @@ assignments:
       415, answering Pelagius' own book De natura, which it quotes throughout —
       a principal channel for Pelagius' actual words.
 
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
+
   - row_id: npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione
     work: "On Man's Perfection in Righteousness (De perfectione justitiae hominis)"
     author: augustine
@@ -123,6 +133,10 @@ assignments:
       c. 415/416, answering the sixteen "breviates" (definitiones) of
       Caelestius, each of which the treatise reproduces before refuting —
       direct quotation of the Pelagian side.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii
     work: "On the Proceedings of Pelagius (De gestis Pelagii)"
@@ -147,6 +161,10 @@ assignments:
       acts. Part narrative history of the controversy, part polemic; the
       closest the vendored corpus comes to documentary record of the
       Pelagian proceedings.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi
     work: "On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)"
@@ -178,6 +196,10 @@ assignments:
       work — unlike div1 21, where two genuinely distinct treatises share a
       heading and are split below.
 
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
+
   - row_id: npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia
     work: "On Marriage and Concupiscence (De nuptiis et concupiscentia)"
     author: augustine
@@ -207,6 +229,10 @@ assignments:
       419-421, to Count Valerius, answering Julian of Eclanum's charge that
       the doctrine of original sin condemns marriage. Book II replies to
       Julian's excerpted objections.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine
     work: "On the Soul and its Origin (De anima et ejus origine)"
@@ -243,6 +269,10 @@ assignments:
       the dispute arises out of Augustine's teaching on original sin, but
       Victor was no Pelagian. The doubt is whether the pelagianism id should
       stand; latin-pastoral-congregational-christianity is not in doubt.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas
     work: "Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)"
@@ -281,6 +311,10 @@ assignments:
       (Julian's among them), which it quotes at length — again the Pelagians'
       own words surviving only inside the refutation.
 
+    translator: {name: "Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
+
   - row_id: npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio
     work: "On Grace and Free Will (De gratia et libero arbitrio)"
     author: augustine
@@ -304,6 +338,10 @@ assignments:
       will against Pelagian error. The census has no separate entry for the
       later Massilian ("semi-Pelagian") phase, so pelagianism carries the
       whole controversy.
+
+    translator: {name: "Peter Holmes, D.D., F.R.A.S. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia
     work: "On Rebuke and Grace (De correptione et gratia)"
@@ -340,6 +378,10 @@ assignments:
       of Sicily" as its own best identification (see
       gallic_Doc02_Source_Ecology.md §1.4).
 
+    translator: {name: "Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
+
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione
     work: "On the Predestination of the Saints (De praedestinatione sanctorum)"
     author: augustine
@@ -371,6 +413,10 @@ assignments:
       "Hilary of Sicily," a genuine rival to this world's own preferred
       Gallic-lay-monk reading (Doc_01 §10), not a confirmation of it.
 
+    translator: {name: "Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}
+
   - row_id: npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae
     work: "On the Gift of Perseverance (De dono perseverantiae)"
     author: augustine
@@ -401,3 +447,7 @@ assignments:
       same Prosper/Hilary audience and the same controversy as the
       Predestination treatise above. Same Hilary-identity note as the two
       rows above applies here: Contested, not "of Arles."
+
+    translator: {name: "Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)", source: "npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.", formation_confidence: Documented}
+
+    edition_date: {year: 1887, source: "npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.", formation_confidence: Inferential-Thin}

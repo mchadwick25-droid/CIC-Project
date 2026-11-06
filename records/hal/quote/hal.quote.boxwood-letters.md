@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep107
-  locus: sec. 4
+  locus: "sec. 4 (cic/texts/npnf206_jerome-principal-works.xml, lines 20402-20404)"
   license: public-domain
 text: 'Get for her a set of letters made of boxwood or of ivory and called each by its
   proper name. Let her play with these, so that even her play may teach her something.'

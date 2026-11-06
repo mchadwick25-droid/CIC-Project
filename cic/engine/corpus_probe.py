@@ -144,7 +144,7 @@ def in_scope_files(world_key: str) -> dict[str, list[str]]:
     that nothing is in scope - but it still means nothing is filtered, so the
     caller is told which of the two it got.
     """
-    import yaml
+    from yaml_unique import load_unique
 
     registry = load_registry()
     census_id = (registry.get(world_key) or {}).get("census_id")
@@ -153,7 +153,7 @@ def in_scope_files(world_key: str) -> dict[str, list[str]]:
     corpus = {name for name in per_file if (TEXTS_DIR / name).suffix in (".xml", ".txt")}
 
     if census_id and map_file.is_file():
-        doc = yaml.safe_load(map_file.read_text(encoding="utf-8")) or {}
+        doc = load_unique(map_file.read_text(encoding="utf-8")) or {}
         assigned = {w.get("source_file") for w in (doc.get("works") or []) if isinstance(w, dict)}
         scoped = corpus & assigned
         if scoped:

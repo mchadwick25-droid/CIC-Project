@@ -19,6 +19,7 @@ work: A Treatise Concerning the Ban
 edition: (1520), vol. II; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
 citation: Luther, A Treatise Concerning the Ban (1520), vol. II
 kind: vendored
+shelf_row: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-ban
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 10; v2 contents; 2026-09-15

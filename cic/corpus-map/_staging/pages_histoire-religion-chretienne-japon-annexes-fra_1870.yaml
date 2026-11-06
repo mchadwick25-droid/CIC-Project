@@ -37,6 +37,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: fra-lat
+    date: {formation_confidence: unknown, checked: "file header and opening pages; a 1870 editorial collection of documents of many dates, no single span stated"}
     note: >
       The Society's Japan province writing home during the persecution, in French
       translation; placed on the Jesuit letters the volume holds, not on a reading for

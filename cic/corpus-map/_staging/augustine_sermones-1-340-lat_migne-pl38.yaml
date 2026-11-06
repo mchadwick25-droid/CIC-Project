@@ -16,3 +16,5 @@ assignments:
       Latin of the sermons preached to Augustine's congregations, the defining material of
       this entry. The English body is npnf106 (about 97 sermons, Registry row 19); this file
       is the Maurist Latin for all 340. Registry row 216. Two-column OCR.
+    translator: {name: "none (Latin edition); editor: the Benedictines of Saint-Maur (Maurist recension), published by Jacques-Paul Migne (PL 38)", source: "augustine_sermones-1-340-lat_migne-pl38.txt line 2: Benedictine Maurist fathers (17th-c. recension); Jacques-Paul Migne (Editor/Publisher, Patrologia Latina)", formation_confidence: Documented}
+    edition_date: {year: 1845, source: "augustine_sermones-1-340-lat_migne-pl38.txt line 4: Publication Date: 1845 (the title page prints 1845 at file line 177)", formation_confidence: Documented}

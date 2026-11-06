@@ -14,7 +14,7 @@ confidence:
   divergence_note: Closes another third of Source_Acquisition_Manifest.md G5. Public domain by date (1902).
     Fetched via archive.org item histoirelittra02moncuoft; title page and the volume's own closing appendix
     (on Cyprian's tomb and basilicas at Carthage) directly verified. Independently corroborated against
-    the Bibliothèque nationale de France's own SRU catalogue record for the Manifest's already-named Gallica
+    the Bibliothèque nationale de France's own SRU catalog record for the Manifest's already-named Gallica
     lead, confirming the same Tome 2 identity. Consultation-only content per cic/texts/INTAKE.md.
 sources: []
 relations: []

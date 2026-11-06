@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-nativity-hymns
-  locus: Hymn I
+  locus: "Hymn I (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 17530-17533)"
   license: public-domain
 text: This is the day that gladdened them, the Prophets, Kings, and Priests, for in it were their words
   fulfilled, and thus were the whole of them indeed performed! For the Virgin this day brought forth Immanuel
@@ -33,7 +33,7 @@ retrieval:
   - "participant asks how they kept the feasts and what they sang at them"
   - "participant asks what the birth of Jesus meant to them"
 use_note:
-  means: "Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethlehem as the fulfilment of the words of the prophets, kings, and priests."
+  means: "Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethlehem as the fulfillment of the words of the prophets, kings, and priests."
   not_for:
     - "evidence of the date or calendar on which this world kept the feast"
     - "a historical argument for the birth narrative rather than liturgical poetry"

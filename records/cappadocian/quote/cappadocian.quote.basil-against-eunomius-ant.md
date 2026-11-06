@@ -18,7 +18,7 @@ confidence:
     cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt:19688-19712, so who wrote it is disputed.
 sources:
 - source_id: cappadocian.source.basil-letters-general-corpus
-  locus: "Letter XVI ('Against Eunomius the heretic'), npnf208_basil-letters-select-works.xml, a short letter distinct from the three-book treatise of the same general title"
+  locus: "Letter XVI ('Against Eunomius the heretic'), cic/texts/npnf208_basil-letters-select-works.xml, lines 24124-24151, a short letter distinct from the three-book treatise of the same general title"
   license: public-domain
 text: >-
   He who maintains that it is possible to arrive at the discovery of
@@ -62,7 +62,7 @@ relations:
 modern_rendering: >-
   Anyone who claims he can discover things as they really are must have
   trained his mind by some orderly method. He did so by knowing things that
-  really exist. He must have practised first on small, easy things. Only
+  really exist. He must have practiced first on small, easy things. Only
   then could he turn his mind to what is beyond all understanding. He
   boasts that he has truly grasped real things. Then let him explain to us
   the nature of the smallest thing we can see. Let him tell us all about

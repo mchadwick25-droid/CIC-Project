@@ -1,0 +1,12 @@
+{"sentences": [
+{"n": 1, "supported": false, "problem": "added_detail", "reason": "The record says the persecution demanded a recorded act of compliance and sorted the congregation while both groups still belonged, not that belonging was tested."},
+{"n": 2, "supported": true, "problem": null, "reason": "The record says it did not mainly demand that Christians give up their faith."},
+{"n": 3, "supported": true, "problem": null, "reason": "The record says a certificate came by performing the sacrifice or paying to have it recorded."},
+{"n": 4, "supported": true, "problem": null, "reason": "The record says the demand reached each person alone and sorted the congregation into those who had stood and those who had not."},
+{"n": 5, "supported": true, "problem": null, "reason": "The record says both groups still belonged, still in the room."},
+{"n": 6, "supported": true, "problem": null, "reason": "The confessor record gives this definition."},
+{"n": 7, "supported": true, "problem": null, "reason": "It only frames the placed story and claims nothing."}
+],
+"placed": [
+{"id": "lpc.story.hundred-thousand-sesterces", "fit": "off_point", "reason": "It tells how the church gave money to ransom captives, not what a person gave up to belong.", "limit_stated": false}
+]}

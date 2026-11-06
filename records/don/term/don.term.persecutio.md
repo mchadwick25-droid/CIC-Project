@@ -49,7 +49,7 @@ relations:
   target: don.term.agonistici
 plain_meaning: We held two persecutions in memory, and we did not let them blur into one. The first came
   from the empire, and our eventual rival suffered it beside us. The second came at that rival's own urging,
-  through the emperor whose favour they had and we did not.
+  through the emperor whose favor they had and we did not.
 world_word: persecutio
 false_friend:
 - persecution of Christians by pagan Rome, the story most readers already have

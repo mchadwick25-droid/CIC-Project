@@ -26,5 +26,6 @@ external_ids:
   rzg_source_registry_row: 1
 citation: 'John Calvin, Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
+shelf_row: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-of-the-christian-religion-book-i-of-the-knowledge
 ---
 Calvin's own doctrine of God, creation, and providence - Geneva-strand Author Gravity (Doc_02 SS2). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note. Corpus map role: tradition.

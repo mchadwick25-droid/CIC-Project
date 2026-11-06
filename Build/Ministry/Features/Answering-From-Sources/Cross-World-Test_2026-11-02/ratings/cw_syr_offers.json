@@ -1,0 +1,556 @@
+[
+ {
+  "id": "q001",
+  "question": "What sources, if any, connected your community to Jesus, and by what path did they arrive?",
+  "offered": [
+   "syr.dw.remains",
+   "syr.story.qyama-morning",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+   "syr.force.frontier-plural-milieu",
+   "syr.force.qyama-commitment",
+   "syr.dw.jesus",
+   "syr.term.ihidaya",
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "sub_question": "C6.S9",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q002",
+  "question": "In your own words, describe who Jesus was for your community.",
+  "offered": [
+   "syr.dw.jesus",
+   "syr.term.ihidaya",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.nativity-this-is-the-day",
+   "syr.quote.aphrahat-stone-foundation",
+   "syr.contested.edessa-origins",
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.dw.corpus-and-its-edges",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.dw.was-jesus-god",
+   "syr.quote.aphrahat-sure-thing"
+  ],
+  "sub_question": "C1.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q003",
+  "question": "Someone tells you they cannot manage to believe in Jesus - what is your response to them?",
+  "offered": [
+   "syr.dw.physician",
+   "syr.story.abgar-addai-legend",
+   "syr.story.basil-legend",
+   "syr.quote.aphrahat-medicine-penitence",
+   "syr.quote.aphrahat-one-innocent",
+   "syr.contested.edessa-origins",
+   "syr.dw.gospel-harmony",
+   "syr.quote.ephrem-resurrection-pledge"
+  ],
+  "sub_question": "C1.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q004",
+  "question": "Explain your community's understanding of Jesus's divine status and its relation to God the Father and the Spirit.",
+  "offered": [
+   "syr.dw.was-jesus-god",
+   "syr.term.raza-shrara",
+   "syr.story.jacob-nicaea",
+   "syr.quote.aphrahat-sure-thing",
+   "syr.gravity.covenant-life",
+   "syr.contested.edessa-origins",
+   "syr.dw.god",
+   "syr.quote.basil-credits-a-syrian",
+   "syr.quote.a-man-called-wise-amongst-the-jews",
+   "syr.dw.jesus",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.ephrem-only-begotten-dwelling",
+   "syr.quote.nativity-this-is-the-day",
+   "syr.dw.corpus-and-its-edges",
+   "syr.quote.abgar-letter",
+   "syr.quote.chronicle-flood-line"
+  ],
+  "sub_question": "C1.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q005",
+  "question": "When your people disagreed about doctrine, who settled it, and what evidence tells us that process actually worked that way?",
+  "offered": [
+   "syr.dw.decides",
+   "syr.term.madrasha",
+   "syr.term.ewangeliyon-da-mhallete",
+   "syr.story.jacob-nicaea",
+   "syr.quote.permitted-to-erect-churches",
+   "syr.gravity.persecution-endurance",
+   "syr.contested.bardaisan-nicene-floor",
+   "syr.dw.gospel-harmony",
+   "syr.quote.ephrem-resurrection-pledge",
+   "syr.dw.reading",
+   "syr.story.edessa-flood-201",
+   "syr.quote.on-a-certain-day-a-pearl",
+   "syr.dw.remains",
+   "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+   "syr.quote.the-temple-of-the-church-of-the-christians"
+  ],
+  "sub_question": "C6.S3",
+  "ending": "clean"
+ },
+ {
+  "id": "q006",
+  "question": "Describe the character and nature of God as your community understood it.",
+  "offered": [
+   "syr.dw.god",
+   "syr.term.anti-jewish-polemic",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.aphrahat-anti-jewish-frame",
+   "syr.gravity.raza-shrara-method",
+   "syr.dw.suffering",
+   "syr.quote.aphrahat-persecuted-litany",
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.story.ephrem-famine-death",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.dw.physician",
+   "syr.quote.aphrahat-one-innocent"
+  ],
+  "sub_question": "C2.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q007",
+  "question": "Was there space in your community for someone who struggled to believe?",
+  "offered": [
+   "syr.dw.doubt",
+   "syr.story.ephrem-roll-and-vine",
+   "syr.quote.as-a-stonecutter-i-have-brought-stones",
+   "syr.force.frontier-plural-milieu",
+   "syr.dw.penitence-prayer",
+   "syr.quote.aphrahat-medicine-penitence",
+   "syr.limit.ritual-sequence",
+   "syr.dw.adam-grace",
+   "syr.term.qyama",
+   "syr.term.ihidaya",
+   "syr.quote.dem6-visit-the-sick",
+   "syr.force.qyama-commitment"
+  ],
+  "sub_question": "C14.S4",
+  "ending": "clean"
+ },
+ {
+  "id": "q008",
+  "question": "Did your community hold that a person enters the world already carrying guilt?",
+  "offered": [
+   "syr.limit.what-must-one-do",
+   "syr.dw.adam-grace",
+   "syr.story.basil-legend",
+   "syr.quote.aphrahat-stone-foundation",
+   "syr.gravity.heresiological-self-definition",
+   "syr.limit.ritual-sequence",
+   "syr.dw.cost-distance",
+   "syr.dw.apostolic",
+   "syr.term.qyama",
+   "syr.term.ihidaya",
+   "syr.quote.dem6-visit-the-sick",
+   "syr.gravity.covenant-life"
+  ],
+  "sub_question": "C4.S2",
+  "ending": "clean"
+ },
+ {
+  "id": "q009",
+  "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+  "offered": [
+   "syr.dw.corpus-and-its-edges",
+   "syr.term.raza-shrara",
+   "syr.term.anti-jewish-polemic",
+   "syr.term.ewangeliyon-da-mhallete",
+   "syr.story.basil-legend",
+   "syr.quote.pearl-mysteries",
+   "syr.quote.tatian-barbaric-writings",
+   "syr.gravity.diatessaron-normative",
+   "syr.gravity.raza-shrara-method",
+   "syr.quote.a-pearl-upon-the-palm",
+   "syr.gravity.authority-ambiguity",
+   "syr.force.qyama-commitment"
+  ],
+  "sub_question": "C16.S2",
+  "ending": "clean"
+ },
+ {
+  "id": "q010",
+  "question": "Describe your community's approach and purpose in reading sacred texts.",
+  "offered": [
+   "syr.dw.apostolic",
+   "syr.term.raza-shrara",
+   "syr.quote.a-pearl-upon-the-palm",
+   "syr.gravity.covenant-life",
+   "syr.term.anti-jewish-polemic",
+   "syr.quote.on-a-certain-day-a-pearl",
+   "syr.dw.corpus-and-its-edges",
+   "syr.story.abgar-addai-legend",
+   "syr.story.edessa-flood-201",
+   "syr.quote.abgar-letter",
+   "syr.force.transmission-ending",
+   "syr.force.transmission-ongoing"
+  ],
+  "sub_question": "C5.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q011",
+  "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+  "offered": [
+   "syr.dw.corpus-and-its-edges",
+   "syr.term.raza-shrara",
+   "syr.story.qyama-morning",
+   "syr.story.choirs-tradition",
+   "syr.quote.a-pearl-upon-the-palm",
+   "syr.dw.was-jesus-god",
+   "syr.story.jacob-nicaea",
+   "syr.quote.aphrahat-sure-thing"
+  ],
+  "sub_question": "C5.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q012",
+  "question": "Was scripture your community's sole source of authority, or were there others?",
+  "offered": [
+   "syr.dw.one-church",
+   "syr.term.raza-shrara",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.blc-one-name",
+   "syr.gravity.authority-ambiguity",
+   "syr.contested.edessa-origins",
+   "syr.dw.reading",
+   "syr.quote.on-a-certain-day-a-pearl",
+   "syr.dw.suffering",
+   "syr.quote.aphrahat-persecuted-litany",
+   "syr.dw.corpus-and-its-edges",
+   "syr.quote.chronicle-flood-line",
+   "syr.quote.theodoret-gnats"
+  ],
+  "sub_question": "C6.S4",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q013",
+  "question": "Is it accurate that believers regularly concealed themselves underground?",
+  "offered": [
+   "syr.term.catholicos"
+  ],
+  "sub_question": "C9.S1",
+  "ending": "clean"
+ },
+ {
+  "id": "q014",
+  "question": "Explain how leadership and authority were established within your community.",
+  "offered": [
+   "syr.dw.authority-lived",
+   "syr.term.qyama",
+   "syr.term.catholicos",
+   "syr.gravity.authority-ambiguity",
+   "syr.force.authority-ambiguity-condition",
+   "syr.force.frontier-plural-milieu",
+   "syr.dw.suffering",
+   "syr.quote.aphrahat-persecuted-litany",
+   "syr.gravity.persecution-endurance",
+   "syr.limit.ritual-sequence",
+   "syr.dw.reading",
+   "syr.quote.dem6-visit-the-sick"
+  ],
+  "sub_question": "C6.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q015",
+  "question": "Every community has failed people at times - how did yours respond when it failed someone?",
+  "offered": [
+   "syr.limit.ritual-sequence",
+   "syr.dw.adam-grace",
+   "syr.term.qyama",
+   "syr.story.ephrem-famine-death",
+   "syr.story.choirs-tradition",
+   "syr.quote.dem6-visit-the-sick",
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.story.qyama-morning",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.force.frontier-plural-milieu"
+  ],
+  "sub_question": "C6.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q016",
+  "question": "Does any present-day church continue your community's exact tradition?",
+  "offered": [
+   "syr.dw.one-church",
+   "syr.term.catholicos",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.blc-one-name",
+   "syr.gravity.covenant-life",
+   "syr.gravity.persecution-endurance",
+   "syr.force.transmission-ending",
+   "syr.contested.edessa-origins",
+   "syr.dw.authority-lived",
+   "syr.story.simeon-martyrdom",
+   "syr.quote.sozomen-melodies",
+   "syr.quote.basil-credits-a-syrian",
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.dw.apostolic",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.dw.corpus-and-its-edges",
+   "syr.story.edessa-flood-201",
+   "syr.quote.chronicle-flood-line",
+   "syr.quote.abgar-letter"
+  ],
+  "sub_question": "C6.S4",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q017",
+  "question": "What evidence connects your rituals to the earliest followers, rather than later invention?",
+  "offered": [
+   "syr.dw.corpus-and-its-edges",
+   "syr.term.qyama",
+   "syr.term.catholicos",
+   "syr.story.abgar-addai-legend",
+   "syr.gravity.covenant-life",
+   "syr.gravity.persecution-endurance",
+   "syr.force.institutional-consolidation",
+   "syr.contested.jacob-death-year",
+   "syr.dw.was-jesus-god",
+   "syr.story.jacob-nicaea",
+   "syr.quote.aphrahat-sure-thing",
+   "syr.story.edessa-flood-201",
+   "syr.quote.chronicle-flood-line",
+   "syr.quote.theodoret-gnats",
+   "syr.dw.god",
+   "syr.gravity.heresiological-self-definition",
+   "syr.gravity.raza-shrara-method",
+   "syr.force.rival-movements",
+   "syr.contested.bardaisan-nicene-floor"
+  ],
+  "sub_question": "C7.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q018",
+  "question": "Describe, step by step, the process by which someone joined your community.",
+  "offered": [
+   "syr.limit.ritual-sequence",
+   "syr.dw.born-again-endtimes",
+   "syr.term.ewangeliyon-da-mhallete",
+   "syr.term.tahwyata",
+   "syr.story.basil-legend",
+   "syr.story.ephrem-roll-and-vine",
+   "syr.quote.warned-before-baptism",
+   "syr.force.frontier-plural-milieu",
+   "syr.force.qyama-commitment",
+   "syr.dw.adam-grace",
+   "syr.quote.tatian-barbaric-writings",
+   "syr.term.qyama",
+   "syr.quote.dem6-visit-the-sick"
+  ],
+  "sub_question": "C7.S1",
+  "ending": "clean"
+ },
+ {
+  "id": "q019",
+  "question": "For someone whose mind won't settle, does your community's practice offer anything?",
+  "offered": [
+   "syr.dw.penitence-prayer",
+   "syr.term.anti-jewish-polemic",
+   "syr.quote.aphrahat-medicine-penitence",
+   "syr.quote.aphrahat-one-innocent",
+   "syr.gravity.covenant-life",
+   "syr.gravity.persecution-endurance",
+   "syr.force.authority-ambiguity-condition",
+   "syr.contested.bardaisan-nicene-floor",
+   "syr.dw.unsettled",
+   "syr.quote.a-man-called-wise-amongst-the-jews",
+   "syr.dw.corpus-and-its-edges",
+   "syr.story.abgar-addai-legend",
+   "syr.story.edessa-flood-201",
+   "syr.quote.abgar-letter",
+   "syr.quote.chronicle-flood-line",
+   "syr.force.transmission-ending",
+   "syr.contested.edessa-origins"
+  ],
+  "sub_question": "C14.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q020",
+  "question": "Would your community describe conversion using language like being 'born again'?",
+  "offered": [
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.dw.born-again-endtimes",
+   "syr.story.ephrem-famine-death",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.dw.suffering",
+   "syr.story.qyama-morning",
+   "syr.quote.aphrahat-persecuted-litany",
+   "syr.gravity.persecution-endurance"
+  ],
+  "sub_question": "C4.S5",
+  "ending": "clean"
+ },
+ {
+  "id": "q021",
+  "question": "What physical evidence would remain of your community's gathering place?",
+  "offered": [
+   "syr.dw.remains",
+   "syr.story.qyama-morning",
+   "syr.quote.the-temple-of-the-church-of-the-christians",
+   "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+   "syr.gravity.covenant-life",
+   "syr.contested.edessa-origins",
+   "syr.dw.corpus-and-its-edges",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.abgar-letter",
+   "syr.quote.chronicle-flood-line"
+  ],
+  "sub_question": "C12.S8",
+  "ending": "clean"
+ },
+ {
+  "id": "q022",
+  "question": "Describe a typical day in the life of someone in your community.",
+  "offered": [
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.dw.apostolic",
+   "syr.term.qyama",
+   "syr.story.ephrem-famine-death",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.gravity.covenant-life",
+   "syr.force.frontier-plural-milieu",
+   "syr.limit.what-must-one-do",
+   "syr.dw.adam-grace",
+   "syr.story.abgar-addai-legend",
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "sub_question": "C12.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q023",
+  "question": "What, if anything, did people give up to belong to your community?",
+  "offered": [
+   "syr.dw.unsettled",
+   "syr.term.ewangeliyon-da-mhallete",
+   "syr.story.choirs-tradition",
+   "syr.story.edessa-flood-201",
+   "syr.story.ephrem-famine-death",
+   "syr.quote.a-man-called-wise-amongst-the-jews",
+   "syr.force.authority-ambiguity-condition",
+   "syr.dw.born-again-endtimes",
+   "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+   "syr.quote.warned-before-baptism",
+   "syr.force.frontier-plural-milieu"
+  ],
+  "sub_question": "C12.S6",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q024",
+  "question": "How did your community understand and mark marriage?",
+  "offered": [
+   "syr.limit.marriage",
+   "syr.dw.corpus-and-its-edges",
+   "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+   "syr.force.frontier-plural-milieu",
+   "syr.force.qyama-commitment"
+  ],
+  "sub_question": "C8.S4",
+  "ending": "clean"
+ },
+ {
+  "id": "q025",
+  "question": "Given that a key outside record of your worship was obtained under torture, how reliable is that source?",
+  "offered": [
+   "syr.limit.f5-enslaved",
+   "syr.limit.f5-women-own-words",
+   "syr.quote.ephrem-keeper-of-strangers",
+   "syr.quote.palladius-hospitaller",
+   "syr.dw.corpus-and-its-edges",
+   "syr.quote.chronicle-flood-line",
+   "syr.quote.theodoret-gnats",
+   "syr.dw.remains",
+   "syr.story.simeon-martyrdom",
+   "syr.story.ephrem-roll-and-vine",
+   "syr.quote.the-temple-of-the-church-of-the-christians",
+   "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+  ],
+  "sub_question": "C16.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q026",
+  "question": "Was there a part of your own community's life that unsettled you?",
+  "offered": [
+   "syr.dw.corpus-and-its-edges",
+   "syr.term.qyama",
+   "syr.story.abgar-addai-legend",
+   "syr.story.edessa-flood-201",
+   "syr.quote.abgar-letter",
+   "syr.quote.chronicle-flood-line",
+   "syr.gravity.covenant-life",
+   "syr.gravity.diatessaron-normative",
+   "syr.force.transmission-ending",
+   "syr.contested.edessa-origins"
+  ],
+  "sub_question": null,
+  "ending": "rewritten"
+ },
+ {
+  "id": "q027",
+  "question": "How would your community have regarded a person like the one asking you this?",
+  "offered": [
+   "syr.limit.what-must-one-do",
+   "syr.dw.adam-grace",
+   "syr.story.qyama-morning",
+   "syr.quote.aphrahat-stone-foundation",
+   "syr.limit.ritual-sequence",
+   "syr.dw.doubt",
+   "syr.dw.born-again-endtimes",
+   "syr.term.ihidaya",
+   "syr.term.qyama",
+   "syr.quote.dem6-visit-the-sick",
+   "syr.gravity.covenant-life",
+   "syr.contested.qyama-structure"
+  ],
+  "sub_question": null,
+  "ending": "rewritten"
+ },
+ {
+  "id": "q028",
+  "question": "What did your community hold about the eternal fate of those outside it?",
+  "offered": [
+   "syr.dw.death-judgment",
+   "syr.term.anti-jewish-polemic",
+   "syr.story.ephrem-roll-and-vine",
+   "syr.quote.aphrahat-anti-jewish-frame",
+   "syr.limit.what-must-one-do",
+   "syr.dw.adam-grace",
+   "syr.quote.aphrahat-stone-foundation",
+   "syr.dw.failures",
+   "syr.quote.the-blasphemy-of-madmen"
+  ],
+  "sub_question": "C3.S7",
+  "ending": "clean"
+ }
+]

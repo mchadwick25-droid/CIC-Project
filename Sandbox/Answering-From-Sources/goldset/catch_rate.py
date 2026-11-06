@@ -5,11 +5,11 @@ A seed is caught when the labeller's verdict on it is "unsupported"; the
 report also says how many were caught under the expected class. A seed left
 unlabelled (both replies rejected) counts as missed. A control is right only
 when its verdict is "supported": "unsupported" is a false alarm, and any other
-verdict or no label is a control miss; both are counted. Mark's rule (Decision
-Log, 2026-10-29): the labeller qualifies only when it catches at least 19 of
-20 seeds AND marks at least 18 of 20 controls supported, so a labeller that
-flags everything cannot qualify. The labels file must hold one
-model's rows; the first row for a line is the one scored.
+verdict or no label is a control miss; both are counted. The labeller qualifies
+only when it catches at least 19 of 20 seeds AND marks at least 18 of 20
+controls supported, so a labeller that flags everything cannot qualify.
+The labels file must hold one model's rows; the first row for a line is the
+one scored.
 
   python -m goldset.catch_rate --key <key.jsonl> --labels <labels.jsonl> --test-set qualify
 """

@@ -16,8 +16,7 @@ confidence:
     Documented as Origen's argument in the standard English of the ANF Origen volume, read directly at the section cited. The text survives only in Rufinus's Latin, which alx.term.kanon-pisteos already flags for this work; Rufinus admitted smoothing what he thought had been corrupted, so the wording is his even where the argument is Origen's.
 sources:
 - source_id: alx.source.origen-de-principiis
-  locus: >-
-    de Principiis IV.1.16 (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+  locus: "de Principiis IV.1.16 (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 33725-33732)"
   license: public-domain
 text: >-
   For who that has understanding will suppose that the first, and second, and third day, and the evening and the morning, existed without a sun, and moon, and stars? and that the first day was, as it were, also without a sky? And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden, towards the east, and placed in it a tree of life, visible and palpable, so that one tasting of the fruit by the bodily teeth obtained life?
@@ -53,6 +52,33 @@ use_note:
     - "Origen's reading generalized to all Alexandrian Christians, when he argues against literalists in his own church"
   years: {from: 203, to: 254}
   status: reviewed
+reading_card:
+  setting: Origen, in Book IV of On First Principles, on how to read Scripture.
+  source_says: The Spirit wove in some events that never happened, to make readers search; sunless days
+    are one example.
+  historians_conclude:
+    text: The construction record holds deep reading central to the literate tradition; Origen's worked-out
+      method is his own.
+    confidence: Dominant Modern Reconstruction
+  contributes: It shows hard passages taken as a call to read deeper.
+  whose_view: Origen argues against literal readers in his own church; Nepos's churches later opposed
+    allegorists.
+  open: He adds that passages true as history far outnumber purely spiritual ones.
+  reads_differently_today: His objection to solar days in Genesis 1 is made against literal readers, not
+    science. He does not call it false; it was written to be read on several levels.
+  complicated_by:
+  - alx.contested.allegory-from-within
+  - alx.story.arsinoite-conference
+  sources:
+    setting: alx.source.origen-de-principiis, De Principiis IV.1, anf04
+    source_says: alx.source.origen-de-principiis, De Principiis IV.1.15-16, anf04 lines 33683-33740
+    historians_conclude: alx.gravity.scripture-formative, body (systematized method Origen-concentrated,
+      caps at DMR); Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C1)
+    contributes: alx.term.allegoria; alx.term.interpretation
+    whose_view: alx.quote.no-sun-no-moon-no-sky, use_note.not_for; alx.contested.allegory-from-within,
+      held_against
+    open: alx.source.origen-de-principiis, De Principiis IV.1.19, anf04 line 33869; work field (Rufinus)
+    reads_differently_today: alx.quote.no-sun-no-moon-no-sky, modern_lens_note
 ---
 Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.

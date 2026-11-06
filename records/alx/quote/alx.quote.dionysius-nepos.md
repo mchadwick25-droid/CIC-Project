@@ -16,8 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: 'VII.24 (npnf201 lines 41310-41318; Dionysius''s own book On the Promises, quoted
-    verbatim, matching the text field below)'
+  locus: "VII.24 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 41312-41318; Dionysius's own book On the Promises, quoted verbatim)"
   license: public-domain
 retrieval:
   tier: 2
@@ -52,6 +51,32 @@ use_note:
     - "the conference in the Arsinoite villages itself, which sits in alx.story.arsinoite-conference"
   years: {from: 248, to: 264}
   status: reviewed
+reading_card:
+  setting: Dionysius, bishop of Alexandria, in his book On the Promises, quoted by Eusebius.
+  source_says: Nepos taught an earthly reign of Christ. Dionysius praises the dead bishop, then says unsound
+    writing must be examined and corrected.
+  historians_conclude:
+    text: The construction record holds that allegory ruled the literate Alexandrian tradition but was
+      disputed inside Egypt.
+    confidence: Contested
+  contributes: 'It shows disagreement handled inside the household: love the man, argue the teaching.'
+  whose_view: The refuting bishop speaks; Nepos's book is lost and known only through him.
+  open: His words are filtered twice, by himself and by Eusebius. 'I confess that' is the translator's.
+  reads_differently_today: '''Brethren'' is this translation''s word for the whole community, women included.
+    ''Psalmody'' means singing or writing psalms.'
+  complicated_by:
+  - alx.contested.allegory-from-within
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VII.24.1-3, npnf201 lines 41285-41300
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.24.1-5, npnf201 lines 41285-41330
+    historians_conclude: alx.contested.allegory-from-within, concedes; Build/worlds/alx/Doc_05_Ecological_Reconstruction.md
+      §6.4 construction note
+    contributes: alx.term.allegoria; alx.gravity.scripture-formative
+    whose_view: npnf201 editor's note at line ~41297 ('This work of Nepos has entirely perished'); alx.story.arsinoite-conference,
+      absent_detail
+    open: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Dionysius: doubly mediated); npnf201 endnote
+      at line 41310'
+    reads_differently_today: alx.quote.dionysius-nepos, modern_lens_note
 ---
 How this world disagreed inside the household: love the man, honor the
 truth more. Spoken about Nepos, the Egyptian bishop whose Refutation of

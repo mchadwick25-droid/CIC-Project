@@ -48,7 +48,7 @@ exchange:
 
     What it cost her, we do not know, except that it cost her this. She is
     the reason a whole church was said to exist, and she does not get to
-    speak once in her own defence. There was a second woman too, behind the
+    speak once in her own defense. There was a second woman too, behind the
     later breakaway at Cebarsussi, whom the same hand parallels to her and
     never names at all.
 
@@ -84,4 +84,4 @@ without a reconstruction attached.
 The closing paragraph states the absence as a fact about what came down,
 never as the voice's own act of declining - the craft record's
 `thin-domains` note. The turn does not say a voice is thin, does not say
-the record is silent as a subject in itself, and does not apologise.
+the record is silent as a subject in itself, and does not apologize.

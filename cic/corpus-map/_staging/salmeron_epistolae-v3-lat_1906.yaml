@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: spa-lat-ita
+    date: {start: 1565, end: 1585, source: "title page of Tomus Secundus, file line 166: \"1565-1585\"", formation_confidence: Documented}
     note: >
       Salmeron's own letters, continuing the Tomus Primus volume
       (vendored alongside this file) - together spanning 1536-1585 in

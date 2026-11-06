@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS74 - Antony answering Greek philosophers who had come to test him at the outer mountain, on why Christians confess the Cross"
+  locus: "SS74 - Antony answering Greek philosophers who had come to test him at the outer mountain, on why Christians confess the Cross (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 33023-33026)"
   license: public-domain
 text: "...which is better, to say that the Word of God was not changed, but, being the same, He took a human body for the salvation and well-being of man, that having shared in human birth He might make man partake in the divine and spiritual nature..."
 modern_rendering: >-

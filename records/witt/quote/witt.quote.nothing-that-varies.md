@@ -18,9 +18,7 @@ confidence:
     its own continuity, addressed to the Emperor directly, not a later apologetic claim made about it.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: >-
-    Conclusion, following Article XXVIII: 'nothing has been received on our part against Scripture or
-    the Church Catholic'
+  locus: "Conclusion, following Article XXVIII: 'nothing has been received on our part against Scripture or the Church Catholic' (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt, lines 1543-1549)"
   license: public-domain
 retrieval:
   tier: 1

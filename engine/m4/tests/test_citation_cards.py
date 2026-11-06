@@ -129,7 +129,7 @@ def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the
     [source] = resolve_source_card("w.term.x", repo)["sources"]
     assert source == {
         "source_id": "w.source.s", "citation": "An Author, A Work, trans. A Translator (1898)", "author": None,
-        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None,
+        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None, "vendored": [], "translator": None, "edition_date": None,
     }
 
 
@@ -192,17 +192,20 @@ def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
     assert card["sources"][0]["citation"].startswith("Ignatius of Antioch, the seven letters")  # the source line below the headline
 
 
-def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording():
+def test_a_quote_card_carries_three_labelled_layers_and_the_one_line_meaning():
+    """A quote card carries the spoken rendering, the edition's words with their citation, and the
+    original-language locus where held, plus the record's one-line meaning for the hover."""
     repo = _real_repository("pahc")
     record = repo["pahc.quote.ignatius-truly-born"]
     card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
-    assert "original_wording" not in card
     assert card["spoken_rendering"] == record["modern_rendering"]
+    assert card["edition_words"] == record["text"]
+    assert card["means"] == record["use_note"]["means"]
     assert card["speaker"] == "Ignatius, bishop of Antioch"
     source = card["sources"][0]
     assert source["citation"] and source["locus"]
     assert "edition" in source
-    assert record["text"] not in json.dumps(card)
+    assert isinstance(card["original"], list)
 
 
 def test_a_story_card_carries_no_source_wording():
@@ -325,3 +328,84 @@ def test_a_real_story_card_carries_the_records_one_line_meaning_for_the_hover():
     assert card["means"] == record["use_note"]["means"]
     assert card["means"].startswith("Celerinus asked Lucian")
     assert card["narrative_tier"] == record["narrative_tier"] == 1
+
+
+def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
+    from engine.m1.loader import load_world_records
+    from engine.m4.citation_cards import resolve_source_card
+    records = load_world_records("lpc")
+    story = resolve_source_card("lpc.story.celerinus-writes-to-lucian", records)
+    from engine.prose import locus_refs
+    cited = locus_refs(records["lpc.story.celerinus-writes-to-lucian"]["sources"][0]["locus"])
+    assert cited and all(ref["file"] == "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml" for ref in cited)
+    assert story["sources"][0]["vendored"] == [{"file": ref["file"], "lines": ref["lines"], "label": ref["label"]} for ref in cited]
+    assert story["heart"] and story["means"] and story["narrative_tier"] == 1 and "telling" not in story
+    quote = resolve_source_card("lpc.quote.a-respite-from-their-torments", records)
+    files = [ref["file"] for ref in quote["sources"][0]["vendored"]]
+    assert files == ["cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt"]
+    assert [ref["label"] for ref in quote["sources"][0]["vendored"]] == ["English", "Latin"]
+    assert quote["original"] == [{"label": "Latin", "file": "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt", "lines": "12508-12516"}]
+    assert quote["edition_words"] and quote["means"]
+    term = resolve_source_card("lpc.term.catechesis", records)
+    spans = {source["source_id"]: source["vendored"] for source in term["sources"]}
+    assert spans["lpc.source.augustine-the-enchiridion"] == [{"file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "lines": "21773-21773", "label": None}]
+    assert spans["lpc.source.augustine-confessions"] == []
+
+
+def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():
+    from engine.prose import locus_refs
+    assert locus_refs("Ep. 5; cic/texts/a_b.xml, line 42") == [{"file": "cic/texts/a_b.xml", "lines": "42-42", "label": None}]
+    assert locus_refs("English at cic/texts/a_b.xml, lines 10–20; Latin at cic/texts/c.txt, lines 3-4") == [
+        {"file": "cic/texts/a_b.xml", "lines": "10-20", "label": "English"}, {"file": "cic/texts/c.txt", "lines": "3-4", "label": "Latin"}]
+    assert locus_refs("") == [] and locus_refs(None) == []
+    assert locus_refs("cic/texts/../../etc/passwd, lines 1-2") == []
+
+
+def _quote_repo(license_, locus):
+    return {
+        "w.quote.x": {"id": "w.quote.x", "record_type": "quote", "speaker_or_author": "A", "text": "The edition words.", "modern_rendering": "Plain words.",
+                      "license": license_, "use_note": {"means": "It means this."}, "sources": [{"source_id": "w.source.s", "locus": locus}]},
+        "w.source.s": {"id": "w.source.s", "record_type": "source", "citation": "A work, ed. B"},
+    }
+
+
+def test_a_paraphrase_only_quote_never_shows_its_edition_words():
+    verbatim = resolve_source_card("w.quote.x", _quote_repo("verbatim", "ch. 1"))
+    assert verbatim["edition_words"] == "The edition words."
+    assert resolve_source_card("w.quote.x", _quote_repo("paraphrase-only", "ch. 1"))["edition_words"] is None
+
+
+def test_a_latin_only_quote_marks_its_edition_as_latin_and_repeats_no_original():
+    card = resolve_source_card("w.quote.x", _quote_repo("verbatim", "Latin at cic/texts/a.txt, lines 1-2"))
+    assert card["edition_language"] == "Latin" and card["original"] == []
+    both = resolve_source_card("w.quote.x", _quote_repo("verbatim", "English at cic/texts/e.xml, lines 5-6; Latin at cic/texts/a.txt, lines 1-2"))
+    assert both["edition_language"] is None and [r["label"] for r in both["original"]] == ["Latin"]
+
+
+def test_a_word_before_at_that_is_not_a_language_is_not_a_label():
+    from engine.prose import locus_refs
+    assert locus_refs("Augustine at cic/texts/a.txt, lines 1-2")[0]["label"] is None
+
+
+def test_a_story_card_carries_the_long_telling_when_the_record_has_one_and_none_when_it_does_not():
+    repo = {
+        "w.story.a": {"id": "w.story.a", "record_type": "story", "tellable_as": "A story", "telling_long": "The long telling.", "sources": []},
+        "w.story.b": {"id": "w.story.b", "record_type": "story", "tellable_as": "B story", "sources": []},
+    }
+    assert resolve_source_card("w.story.a", repo)["telling_long"] == "The long telling."
+    assert resolve_source_card("w.story.b", repo)["telling_long"] is None
+
+
+def test_a_source_card_carries_the_translator_and_edition_date_the_package_holds():
+    facts = {
+        "translator": {"name": "A. Translator", "source": "file line 3", "formation_confidence": "Documented"},
+        "edition_date": {"formation_confidence": "unknown", "checked": "title page and preface"},
+    }
+    repo = {
+        "w.term.x": {"id": "w.term.x", "record_type": "term", "sources": [{"source_id": "w.source.s", "locus": "Letter 5"}, {"source_id": "w.source.t", "locus": "Letter 6"}]},
+        "w.source.s": {"id": "w.source.s", "record_type": "source", "citation": "A work, trans. A. Translator", "edition_facts": facts},
+        "w.source.t": {"id": "w.source.t", "record_type": "source", "citation": "Another work"},
+    }
+    with_facts, without = resolve_source_card("w.term.x", repo)["sources"]
+    assert with_facts["translator"] == facts["translator"] and with_facts["edition_date"] == facts["edition_date"]
+    assert without["translator"] is None and without["edition_date"] is None

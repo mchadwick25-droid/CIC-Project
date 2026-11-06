@@ -19,5 +19,7 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: eng
+  date: {start: 1771, end: 1771, source: "Cranz's own preface, signed 'Bertholdsdorf, March 22, 1771' (file line 1099); the editor's preface says the work had passed through two editions in Germany", formation_confidence: Documented}
   note: How the renewed church of the eighteenth century narrated the old Czech Unity as its own past;
     the continuity claim in the claimant's words. Provisional for both.

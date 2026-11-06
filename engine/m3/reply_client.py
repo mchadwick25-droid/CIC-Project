@@ -12,6 +12,7 @@ would have passed to the tool.
 """
 import hashlib
 import json
+import re
 from pathlib import Path
 
 from engine.m3.gate_replay import _SavedDraftStream
@@ -55,6 +56,22 @@ class _ToolResponse:
         self.stop_reason = "tool_use"
 
 
+_OFFERED = re.compile(r"^- \[\[([^\]]+)\]\]", re.MULTILINE)
+
+
+def ids_in(text: str) -> list[str]:
+    """The record ids a block of text offers, one per `- [[id]]` line, in order, without repeats."""
+    return list(dict.fromkeys(re.sub(r"^(?:quote|story):", "", found) for found in _OFFERED.findall(text)))
+
+
+def offered_ids(request: dict) -> list[str]:
+    """The record ids a voice request's ground block offers the voice: one
+    list entry per `- [[id]]` line of its messages, in order, without repeats."""
+    if request["kind"] != "voice":
+        return []
+    return ids_in("\n".join(m["text"] for m in request["messages"]))
+
+
 class ReplyFileClient:
     def __init__(self, *, question_id: str, reply_dir: Path, pending_dir: Path):
         self.question_id = question_id
@@ -69,7 +86,7 @@ class ReplyFileClient:
         return f"{self.question_id}.{kind}.{self._counts[kind]}"
 
     def _reply(self, key: str, extension: str, request: dict) -> str:
-        self.requests.append({"key": key, "kind": request["kind"]})
+        self.requests.append({"key": key, "kind": request["kind"], "offered": offered_ids(request)})
         path = self.reply_dir / f"{key}.{extension}"
         if path.exists():
             return path.read_text(encoding="utf-8")

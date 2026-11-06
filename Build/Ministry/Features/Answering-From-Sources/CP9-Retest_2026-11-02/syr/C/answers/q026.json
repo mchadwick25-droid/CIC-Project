@@ -1,0 +1,348 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "One part of our record stays unsettled: some of our arguments survive only from our side."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The Jewish answers to our teachers were not kept at all."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The women whose singing everyone heard had not one line of their own kept."
+  },
+  {
+   "record_ids": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "At the close of our years, the harmony we had read for two centuries gave way to four separate Gospels."
+  },
+  {
+   "record_ids": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "Its Syriac copies were lost, so it survives only in pieces and in later versions."
+  },
+  {
+   "record_ids": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "Tradition links that change to Rabbula, but his own part in it is disputed."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our city chronicle's flood line is the oldest dated word about us, though we cannot be sure it stood in the first record."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "Our city chronicle keeps one early trace of us:"
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "In November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "King Abgar stood on the great tower and watched the water by torchlight."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "The Chronicle of Edessa sets down this account."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "It was compiled about 340 years later from the archives where the royal scribes had filed it."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "No bishop or believer is named in it."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "One line among the losses matters most to us."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "\"And they destroyed the temple of the church of the Christians.\""
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "Whether the line is original, or was added later by another hand, is not settled."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "If it is original, a church building stood in Edessa to be destroyed, and that line is our earliest hard trace."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "\"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.\""
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.force.transmission-ending",
+  "syr.story.edessa-flood-201"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "One part of our record stays unsettled: some of our arguments survive only from our side [[syr.dw.corpus-and-its-edges]][[as:paraphrase]].",
+   "sentence": "One part of our record stays unsettled: some of our arguments survive only from our side.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The women whose singing everyone heard had not one line of their own kept [[syr.dw.corpus-and-its-edges]][[as:paraphrase]].",
+   "sentence": "The women whose singing everyone heard had not one line of their own kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the close of our years, the harmony we had read for two centuries gave way to four separate Gospels [[syr.force.transmission-ending]][[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "At the close of our years, the harmony we had read for two centuries gave way to four separate Gospels.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Its Syriac copies were lost, so it survives only in pieces and in later versions [[syr.force.transmission-ending]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Its Syriac copies were lost, so it survives only in pieces and in later versions.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Tradition links that change to Rabbula, but his own part in it is disputed [[syr.force.transmission-ending]][[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Tradition links that change to Rabbula, but his own part in it is disputed.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Our city chronicle's flood line is the oldest dated word about us, though we cannot be sure it stood in the first record [[syr.dw.corpus-and-its-edges]][[as:paraphrase]].",
+   "sentence": "Our city chronicle's flood line is the oldest dated word about us, though we cannot be sure it stood in the first record.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our city chronicle keeps one early trace of us: [[story:syr.story.edessa-flood-201]]",
+   "sentence": "Our city chronicle keeps one early trace of us:",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "In November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "King Abgar stood on the great tower and watched the water by torchlight [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "King Abgar stood on the great tower and watched the water by torchlight.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The Chronicle of Edessa sets down this account [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "The Chronicle of Edessa sets down this account.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "It was compiled about 340 years later from the archives where the royal scribes had filed it [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "It was compiled about 340 years later from the archives where the royal scribes had filed it.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No bishop or believer is named in it [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "No bishop or believer is named in it.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "One line among the losses matters most to us [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "One line among the losses matters most to us.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"And they destroyed the temple of the church of the Christians [[syr.story.edessa-flood-201]].\"",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "\"And they destroyed the temple of the church of the Christians.\"",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Whether the line is original, or was added later by another hand, is not settled [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "Whether the line is original, or was added later by another hand, is not settled.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "If it is original, a church building stood in Edessa to be destroyed, and that line is our earliest hard trace [[syr.story.edessa-flood-201]].",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "If it is original, a church building stood in Edessa to be destroyed, and that line is our earliest hard trace.",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning [[syr.story.edessa-flood-201]].\"",
+   "placed_story": "syr.story.edessa-flood-201",
+   "sentence": "\"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.\"",
+   "tags": [
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line",
+  "syr.gravity.covenant-life",
+  "syr.gravity.diatessaron-normative",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins"
+ ],
+ "raw_text": "One part of our record stays unsettled: some of our arguments survive only from our side [[syr.dw.corpus-and-its-edges]][[as:paraphrase]]. The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]][[as:paraphrase]]. The women whose singing everyone heard had not one line of their own kept [[syr.dw.corpus-and-its-edges]][[as:paraphrase]]. At the close of our years, the harmony we had read for two centuries gave way to four separate Gospels [[syr.force.transmission-ending]][[as:paraphrase]]. Its Syriac copies were lost, so it survives only in pieces and in later versions [[syr.force.transmission-ending]][[as:paraphrase]]. Tradition links that change to Rabbula, but his own part in it is disputed [[syr.force.transmission-ending]][[as:paraphrase]]. The story of the king who wrote to Jesus is our cherished legend, written down generations later, and we tell it as legend, not as history [[syr.dw.corpus-and-its-edges]][[syr.story.abgar-addai-legend]][[as:paraphrase]]. Our city chronicle's flood line is the oldest dated word about us, though we cannot be sure it stood in the first record [[syr.dw.corpus-and-its-edges]][[as:paraphrase]]. Our city chronicle keeps one early trace of us: [[story:syr.story.edessa-flood-201]]\n",
+ "reply_shape": {
+  "placed": [
+   "syr.story.edessa-flood-201"
+  ],
+  "removed": [
+   {
+    "draft": "The story of the king who wrote to Jesus is our cherished legend, written down generations later, and we tell it as legend, not as history [[syr.dw.corpus-and-its-edges]][[syr.story.abgar-addai-legend]][[as:paraphrase]].",
+    "sentence": "The story of the king who wrote to Jesus is our cherished legend, written down generations later, and we tell it as legend, not as history.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.edessa-flood-201": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "One part of our record stays unsettled: some of our arguments survive only from our side. The Jewish answers to our teachers were not kept at all. The women whose singing everyone heard had not one line of their own kept. At the close of our years, the harmony we had read for two centuries gave way to four separate Gospels. Its Syriac copies were lost, so it survives only in pieces and in later versions. Tradition links that change to Rabbula, but his own part in it is disputed. Our city chronicle's flood line is the oldest dated word about us, though we cannot be sure it stood in the first record. Our city chronicle keeps one early trace of us:\n\nIn November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night. King Abgar stood on the great tower and watched the water by torchlight. That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace.\n\nThe Chronicle of Edessa sets down this account. It was compiled about 340 years later from the archives where the royal scribes had filed it. No bishop or believer is named in it.\n\nOne line among the losses matters most to us. \"And they destroyed the temple of the church of the Christians.\" Whether the line is original, or was added later by another hand, is not settled. If it is original, a church building stood in Edessa to be destroyed, and that line is our earliest hard trace.\n\n\"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.\"",
+ "voice_set_aside": false
+}

@@ -26,6 +26,8 @@ assignments:
       the manuscript sigla and the variant readings in place on the printed page; this file keeps
       the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
+    translator: {name: "none (Latin edition); editor: Wilhelm von Hartel (CSEL 3, Pars I)", source: "cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt line 2: Wilhelm von Hartel (editor of the printed edition, CSEL 3)", formation_confidence: Documented}
+    edition_date: {year: 1868, source: "cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt line 4: Publication Date: 1868 (printed edition); 2014 (TEI)", formation_confidence: Documented}
 
   - row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-2
     work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"

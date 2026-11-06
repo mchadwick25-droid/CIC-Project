@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, matching desert.story.antony-call's own basis for material from the same Vita: this is reported speech within Athanasius's own narrative, not an independently attested document in Antony's own hand. The words themselves are quoted verbatim from the vendored text."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS19 - from Antony's extended discourse to the gathered brothers"
+  locus: "SS19 - from Antony's extended discourse to the gathered brothers (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 31709-31720)"
   license: public-domain
 text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
 modern_rendering: >-

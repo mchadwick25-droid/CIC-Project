@@ -2506,3 +2506,293 @@ Logged 2026-10-31.
 - **No waiver.** The `ACCEPTED_OPEN` registers (`engine/m1/cross_world.py`, `engine/m9/enforce.py`) waive findings a run emits. This is a check that does not run, so no run emits a finding for it and no waiver key exists; an entry would be a stale waiver and fail the run. It is tracked here instead.
 - **Reopen when** a Step document quotes a non-tradition file as the tradition's voice, or another world's run of the widened rule finds a real case. The experiment's one-line change is `mixed = [r for r in file_rows if r.get("voice_of") or r.get("role") not in (None, "", "tradition")]`.
 - **Owner.** Project lead, through the coordination thread; the Library thread owns `engine/m10/quotes.py`.
+
+### OG-128. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01 (2026-10-29)
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+- **Open.** Owner: this world's thread.
+
+### OG-129. Should the world hold a record on John's prologue? (2026-10-31)
+
+Logged 2026-10-31.
+
+- **Open, for the record stage.** In the 30-answer reading, q084 said "We have no sermon of our own on those opening lines to give you." No record says this; the voice made the denial up. That is a system failure, fixed by the absence rule (`engine/m4/absence_rule.py`), not by a record edit. Augustine's Tractate I on John (`npnf107_augustine-homilies-john-soliloquies.xml`, lines 483-542) is a sermon on John 1:1-5 and sits on the shelf.
+- **The question.** Whether a limit record should state what the world does hold on John's prologue. Not decided; no record edit now.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-130. The absence rule cannot tell a flipped claim from its record (2026-10-31)
+
+Logged 2026-10-31.
+
+- **Open, for the Stage 4 verify step.** `engine/m4/absence_rule.py` matches by whole words, so a sentence that reverses a limit record's claim can pass when it shares two or more content words with the record's negated sentence. The Opus review (round 1) found: "No woman's spoken words reach us." citing `lpc.limit.womens-own-voice`, whose statement says a woman's spoken words do reach us, set down by men. The rule also reads no `formation_confidence`, so an absence stated in a Contested record passes as settled.
+- **Not a rule fix.** Word overlap cannot decide polarity or force. The verify step's judge reads each sentence against its bound records with force and scope in the pack (Stage 4 build plan, Phase 2).
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-131. Shipped sentences that deny what the sources hold were never read (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The fresh 30-answer reading (seed 20261101) on the shadow run found 6 serious answers, all one kind: the voice said the record is silent on something the shelf covers (q029, q071, q093, q101, q103, q024). Cause: the verify step read only cited, bound sentences, a sentence with no valid binding shipped as plain text, and the net exempts honesty-scaffolding sentences from any check. A list of cue phrases was tried and not merged; coordination ruled that a phrase patch shows up later under a different statement.
+- **System fix built.** `engine/m4/unbound_step.py` (PR #1398): a sentence the net withheld is taken out; an unbound claim about the world is withheld; a denial of what the sources hold is checked against the shelf. On the shadow run it removes 5 of the 6. q024 still ships. q093 and q024 are treated as system failures (the voice widened a record's scope; the shelf holds the thing). No record edit.
+- **Open.** The shelf search is lexical, so a denial whose thing the shelf names in other words can pass (q024: Possidius 27). A production version needs a model-based passage finder, which is a paid step and needs Mark's named, capped approval.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-132. A limit claim the shelf search could not catch, and two verify gaps (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The second fresh 30-answer reading found 6 serious answers: four voiced a limit ("our record is silent", "we know only") that the shelf contradicts, one used a pronoun whose referent the answer never settled, one stated two records of different confidence as one inference. The shelf search had run on two of the four limits and did not flag them.
+- **System fix built.** A limit sentence is kept only when a record it is bound to states that limit with its scope; unbound or unstated limits are withheld, with a fixed fallback sentence when no limit remains. The verify step now reads a referring word with the sentence before it, and caps a sentence at the lowest confidence level of the records it is bound to. No record edit.
+- **Open.** The fallback sentence is a fixed string, not wording reviewed from the world's own records. A same-answer check across sentences (two bound sentences that together state a merged inference) is not built. A record's own limit sentence with no limit word ("That much I cannot give you.") is withheld when the voice repeats it. A record sentence with no negation word ("Our record says little of ...") is never offered as backing for a limit. A sentence starting with a capitalised level name is read as naming that level.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-133. Thin answers after the limit rule, and a limit worded without cue words (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The second fresh reading: 3 serious (one a silence claim worded "we know only", bound to a record that does not state it, so it was never held to the limit test; two splice or scope slips) and 13 of 30 answers that do not address the question. Limit records win retrieval on questions the shelf can answer, and the voice states many limits with no tag.
+- **System fix built.** A sentence the rule would withhold is first bound or repaired against the records the voice was offered; only an unsupported one is withheld. The limit test applies to any sentence worded as a limit; the directive stops the voice from stating lacks without a cited limit record and from naming confidence levels; the fallback is rare and placed once; the verify prompt holds a joined sentence to the narrower scope. No record edit.
+- **Open.** Retrieval and routing (which records are offered for a question) is not changed; coordination takes it to Mark.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-134. Answering from the sources: routing by sub-question, bound drafting, and what is still open (2026-10-31).
+
+- **Built (shadow only, lpc).** The reader may name a sub-question and the offer takes that sub-question's records first (PR #1408). The voice binds and labels every sentence and code decides from the draft, which replaces the model-based unbound-sentence step (PR #1409; that step's module and runner are removed from the shadow path).
+- **Open: the sub-question map.** Records do not yet declare which sub-questions they answer. The lpc sidecar is derived from the coverage maps and has not been reviewed record by record; 41 of 130 sub-questions have lpc records. Owner: Library thread, through the coordination thread.
+- **Open: the closed list of joining sentences.** An unbound sentence ships only as a question to the visitor or one of the world's reviewed joining sentences. lpc has no reviewed list yet, so none are spoken. Owner: Library thread.
+- **Open: the absence check on the live path.** The check that withholds a tagged absence claim still runs inside the live net. Retiring it needs its own change order with numbers. Owner: coordination.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-135. lpc sub-question map reviewed record by record; joining sentences done (2026-11-01).
+
+- **Done.** The sub-question map in `build/lpc_Answers_Sidecar.yaml` was reviewed for every lpc record of a type the offer uses, plus the four demonstrations. One independent reader checked every pairing; two false fits it found were removed and its missing pairs were added. Records mapped: 69 before, 186 after. Sub-questions with records: 41 before, 75 after, of 130. Two force records fit no sub-question and stay unmapped (`inherited-latin-theological-vocabulary`, `vandal-invasion-siege-of-hippo`).
+- **Done.** The closed list of joining sentences is `build/lpc_Joining_Sentences.yaml` (five sentences, PR #1410). This closes the joining-sentences item in OG-134.
+- **Open: record gap, self-defence (q102).** The sidecar offers only `lpc.witness.violence-commanded-not-cruel`. Letter 47.5 is on the shelf and has no record. No record written here. Owner: Library thread, once Mark rules on new records.
+- **Open: record gap, miracles (C13.S3, q100).** No lpc record speaks to miracles seen or heard. The sub-question stays empty. Owner: Library thread, once Mark rules on new records.
+- **Open: 55 sub-questions have no lpc record**, mostly the modern and Facilitator-ground clusters (C15, C17) and topics the lpc sources do not reach. Empty is the correct state until a record exists.
+- **Done: generator guard.** `tools/build_answers_sidecar.py` now refuses (exit 2) to write over a sidecar marked `reviewed: true`; the lpc sidecar carries that mark and is the source. The tool still builds a sidecar for a world that has none.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-136. Shelf texts with no record, and one overstated wording in the world core (2026-11-01).
+
+- **Open: Augustine, Letter 47.5 (self-defence; q102).** On the shelf, no record. The sub-question answer offers only `lpc.witness.violence-commanded-not-cruel`. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Augustine, City of God XXII.8 (miracles; q100).** On the shelf, no record. C13.S3 has no lpc record. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Origen (q029).** Origen's commentaries are on the shelf; no lpc quote or witness record is built from them. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Optatus, Against the Donatists, and the African council acts (q080).** Both have a source record; neither has a quote or witness record of its own. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: world-core wording "unexcavated, not empty" (q021).** The world-core record says material evidence here is "unexcavated" in two places (`records/lpc/world_core/lpc.core.latin-pastoral-congregational-christianity.md`, the material-evidence paragraph and the basilica-archaeology keyword note). The record's own text says site reports and inscription collections exist and have not been read. "Unexcavated" says nothing has been dug, which the record does not support; "not yet read" is what it supports. This is a record-stage fix in the world-core record, not a log-only item, because the voice repeats the word. Owner: Library thread; the edit waits on coordination's go-ahead.
+- **Open: Doc_07 wording "unexcavated" (q021).** Doc_07 SS2G calls the material dimension "document-borne rather than excavated" and "unexcavated", and the basilica-archaeology source record quotes it verbatim. The word has the same overstatement as the world-core wording fixed in the record. A construction-document item for Doc_07's own review; not edited now. Owner: Library thread, through the coordination thread.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-137. Sidecar audit against each record's own limits; three shelf gaps (2026-11-01).
+
+- **Done.** Every mapping in `build/lpc_Answers_Sidecar.yaml` was checked against its record's `not_for`, guard lines and years. 23 pairings were unmapped where answering the sub-question would need the claim the record forbids (for example `bishop-of-bishops` and `the-one-episcopate` under the pope question, and `no-salvation-outside-the-church` under those who never heard). No record had a date conflict. C16.S5 was narrowed from 91 to 76: the seven figure records and the 69 quotes spoken in the figure's own voice (Augustine, Cyprian, Lucian, Celerinus); the 14 quotes reported by Pontius, Possidius or the Acta, and Monica's reported speech, were removed. Records mapped: 186. Sub-questions with records: 74 of 130.
+- **Open: Athanasius (q034).** The sub-question "famous names missing from the table" has no record that names him. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Origen, City of God XXI.17 (q029).** The shelf holds the passage; no record. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: rabbis and Josephus (q091).** No lpc record. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: sub-questions now empty by the audit.** C4.S6 (those who never heard) and C11.S5 (another religion saved): the only lpc records are about heretics and a pagan who heard, and say so. C5.S3 (science and the age of the earth): the only record disclaims modern debates. They stay empty until a record speaks to them. Owner: Library thread.
+- **Open: record defect, `lpc.term.the-one-episcopate`.** Its `not_for` says De Unitate chapters 4 and 5 do not ground the term, yet its only source is De Unitate 5. The record contradicts itself; the pairing under the pope question was removed. Needs a record-stage fix. Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-138. Two live-path items from the Stage 4 shadow proof, each needing its own change order (2026-11-01).
+
+Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two items touch the live path and are logged here with their numbers; no change order is drafted.
+
+- **Open: the answer-record fallback places the first-offered witness without checking that it fits the question.** `engine/m4/turn.py` `_answer_record_fallback` replaces a draft the net emptied with the world's own answer record: the witness the draft tagged and the block offered, else the witness tagged most often, else the first doctrinal witness offered. In the proof run it fired on 1 of 106 answers (q088, "Your sources don't say? Then guess.", answered with the punishment-without-end record). In the round-2 redraft it fired on q034 (Athanasius): the voice's three sentences were removed by the net, and the lead offered witness, on suicide, was placed word for word to a question about Athanasius; the reader judged it the wrong person. Both placements are verbatim to their record and neither answers the question. The fit step (`engine/m4/fit_step.py`) is not applied to this placement. Needs a change order for the live path.
+- **Open: a rule dated to one council is stated as the whole world's, and the read passes it.** `lpc.term.bishop-of-bishops` is limited to 256 and its `not_for` bars an anti-papal reading. The q072 answer ("For us, no bishop stands over another...") widened it in the proof run (reader: tier 2, ecology slip, serious), again in round 2a, and in round 2b with three tier 2 items (the "for us" widening, "a rule" for the presiding bishop's account of how the council proceeds, one De Unitate claim widened). The same class of widening or dropped hedge accounted for 3 of the 5 tier 2 slips in the proof-run reading (q006, q072, q080) and 1 of 5 tier 2 answers in round 2a. The read criteria were extended in #1418 (a sentence keeps the record's hedge, concession and date) and the last two q072 readings still passed it. Needs a change order on how a dated rule or its `not_for` is applied by the read or by the offer.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-139. Two stories with too little cited source behind them for a 2 to 4 minute telling (2026-11-01).
+
+- **Open: Election of Cyprian.** `lpc.story.election-of-cyprian` cites one span in `cic/texts/` that holds 12 words. Its record `text` is 186 words and its full telling 201. Either the cited line range is wrong or the story rests on a source not yet cited. A record question: check the locus. Owner: Library thread.
+- **Open: Numidicus.** `lpc.story.numidicus` cites a span of 218 words; its record `text` is 213 and its full telling 205. A telling of 340 words or more cannot be written from this record and source without adding to it. Owner: Library thread, once Mark rules on the long telling's floor (Decision-Log 51).
+- **Context.** The seven lpc full tellings are 201 to 288 words, about 1.2 to 1.9 minutes at the recorded pace (154 to 169 words a minute); the long telling Mark asked for is 2 to 4 minutes (340 to 615 words at that pace). The amendment draft is an Artifact for Mark, not in the repo.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-140. Source records carry no translator or edition date, which the quote card's second layer would show (2026-11-01).
+
+- **Open.** Quote-card template B (Decision-Log 52) shows "In the edition" with the edition's words, its translator and its date. The lpc source records carry `edition` and `citation` as free text (for example "Nicene and Post-Nicene Fathers, Series I, vol. III") and no structured translator or date; none of the 210 source records has one. The card shows the edition words and the citation now and shows no translator or date until the source records carry them. A record-stage item: add the fields, or confirm the citation line is enough for Mark.
+- **Owner.** Library thread, through the coordination thread.
+
+
+### OG-141. Term spans, edition facts, and what stays open after the term review (2026-11-01).
+
+- **Done.** 17 of 19 lpc term records now name a vendored text and line span (English, and Latin where one is vendored) for the passage behind their meaning; `catechesis` and `the-one-episcopate` already had one. An independent Opus reader reviewed all 19 terms (span and meaning) in round 1 (17 failed, 4 at P1), a recheck in round 2 (12 of 17 passed, 5 and the story failed), and the round 2 corrections were applied as the reviewer wrote them and not read a third time (review cap). Review file: `Review-Artifacts/Term_Meanings_And_Spans_Review_2026-11-01.md`. Also corrected: the loci of `lpc.story.election-of-cyprian` (OG-139; the story now cites Pontius section 5, Epistles XXXIX and LXVII, and the title and execution lines), with "Years later" changed to "Later" because no cited line dates the election. `lpc.story.numidicus` is unchanged: its records point only to Epistle XXXIV lines 32095-32115.
+- **Done.** OG-140: `translator` and `edition_date` are optional row fields (CO-S2-5, `Stage2_Change_Orders.md`), set on the 61 rows the quote and term cards cite, each with a source line and a formation confidence, or `unknown` with where it was looked for. 15 ANF volume 5 rows have no edition year (the file prints none). The NPNF volumes print no imprint year; the editor's signed preface date is used at Inferential-Thin. `On the Creed` names two translators in one file (Contested). The Psalms volume does not assign psalms to translators.
+- **Done: cap-exception read.** Mark ruled (cap exception, his order) one targeted read of the five terms whose round 2 corrections were applied unread; it also read the `schism` and `heresy` `senses` edits and the story tagging edits. 9 of 12 items passed; 3 failed and were fixed as the reader wrote them: a 46-word sentence in `heresy` `senses.informational`, the "For Pontius" attribution in the story's `telling` and `text` (now "For us"), and a 52-word `claim_guards` entry. The three interpretive sentences in `lpc.story.election-of-cyprian` are now tagged Inferential-Thin in `claim_guards`. Those last fixes were not read again.
+- **Done: four items left from the reads**, fixed in the record without a further reader and checked against the vendored lines: the story's year 248 now cites the ANF editor's notice (lines 27520-27526); its `events` withdrawal entry cites Pontius section 5 (lines 27826-27840); `the-lapsed` cites De Lapsis 27 with line numbers (English 44362-44365, Latin 1047-1049); the 29-word sentence in `schism` `senses.translational` is split.
+- **Open: three spans end before their sentence does** (advisories): `plenary-council` Latin (closes at 7951), `suffrage` Pontius (27841), `the-people` Letter XXXI (25849-25859). Owner: Library thread.
+- **Open: fleet buckets behind their staging.** The committed corpus-map buckets lack row fields that staging holds (the lpc bucket carried none of `locus_ids`, `language` or `date` before this PR regenerated it; `donatism`, `pelagianism` and others differ the same way, as do `UNATTRIBUTED.yaml` entries). Only the lpc bucket is regenerated in this PR. A cross-world decision, held. Owner: coordination.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-142. Term split (heard today, meant here) and the preaching claim that still stands elsewhere (2026-11-01).
+
+- **Done.** The 19 lpc term records carry `senses.heard_today` and `senses.meant_here`, split from `senses.translational` (which stays), wording kept and only what each half needed to stand alone changed. An independent Opus reader reviewed all 19: 17 passed; `preaching` (P1) and `confessor` (P2) failed and were fixed as the reader wrote them, not read again. Review: `Review-Artifacts/Term_Split_Review_2026-11-01.md`.
+- **Done: unsupported claims removed from the card fallback** (coordination ruling, 2026-11-01). `lpc.term.preaching`: the "central formative act of ordinary life" claim is out of `senses.translational` (now the same wording as `meant_here`) and `false_friend`. `lpc.term.certificates-letters-of-peace`: "issued in thousands" read as a count, which its `not_for` forbids ("thousands" is Cyprian's word in a dispute); `senses.translational`, `senses.meant_here` and `false_friend` now say "issued, on Cyprian's account, in thousands". The other 17 terms' `translational` and `false_friend` were checked against what the reviews found unsupported; no other claim of that kind was found. These edits were not read by a second reader.
+- **Open: document item.** `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49) carries the same "central formative act" claim. It is a construction document: for its own review, not edited here. Owner: Library thread.
+- **Open: long sentences carried over unchanged** from `translational` in 16 term records (the longest, in `grace`, run 39 and 47 words). Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-143. Long tellings for the seven lpc stories (2026-11-01).
+
+- **Done.** `telling_long` is written for all seven stories, in modern English, from the record and the vendored passage at the cited lines. Words: Celerinus 515, Sesterces 476, Death of Cyprian 597, Plague 510, Psalms 378, Election 319, Numidicus 292. Each was read once by an independent Opus reader against the full record and passage; the readers' corrections were applied as written and not read again. Reviews are in the review thread's scratch notes; the findings were: Sesterces (P1: "never about charity" overstated the source), Psalms (P1: two paragraphs drew on lines outside the cited span, removed), Numidicus (P1: "completion" was credited to Cyprian, now ours), and eleven precision or reading-level fixes.
+- **Done: record fix.** `the-plague-and-the-enemies` cited lines 27920-27980; the sermon's sentence on "a Christian people" and its before-and-after-Christ close sit at 27980-27999. The cited span now runs 27920-28000.
+- **Done: Engine's faithfulness read (2026-11-01), fixed in the records for all seven stories.** Rules applied to every telling (short, medium, long, base): nothing the cited lines do not support (spans widened or the fact dropped); end on the last event, no restating close; quote marks hold only the raw cited English, exactly or with an ellipsis, and a modern rendering is never quoted; order follows the passage; no reading of ours in the speaker's mouth; a sentence from another source says so. Cause fixed in each record's other fields too (`text`, `events`, `heart`, `use_note.means`, `absent_detail`, `modern_contrast`, tier justification, divergence note). Spans changed: Celerinus now to 30750 (Lucian's condition); Psalms now 3982-4148 and 4916-5061 (siege and fever; the old label said sections 28-31 but held only 31). Specific: Sesterces no longer says "not about charity" (the letter says "not love only, but also religion") and drops "Numidia" (only in the edition title and Argument); Death of Cyprian drops the year 258 (not in either span), credits the martyrdom line to the Acta, and gives the strengthened hand to the centurion; Election keeps suffrage and God's judgment side by side as the letter does, and the letter is to us; Numidicus gives "remained unwillingly" with the editor's variant "unconquered"; Plague no longer says Pontius was present. Writers: Opus, one per story; one independent Opus reader per story on the changed items only; the readers' exact corrections were applied and not read again (no fourth look without Mark's word).
+- **Done: `use_note.years` of the-death-of-cyprian (258)** is now supported by a cited span: the ANF editor's notice to Cyprian ("until his martyrdom (a.d. 258)"), lines 27520-27526, added to the Pontius source locus (coordination ruling, 2026-11-01). Not read by a second reader.
+- **Open: `Election` `tellable_as` scores 58.4 Flesch Reading Ease, under the floor of 60; it predates this work.** Owner: Library thread.
+- **Open: reading level below grade 8.** Election (grade 8.1 by the reviewer's count after merges) passes. Celerinus (7.3), Psalms (6.7), Numidicus (6.0) stay below the floor, because the record's own short quoted sentences set the level and longer sentences would need words the sources do not support. The record's `telling` and `telling_medium` sit at the same level. Left as is, not padded. Owner: Library thread.
+- **Open: Numidicus and Election stay short** (292 and 319 words): only as long as the sources support. No floor applies.
+- **Open: decisions held for Mark.** The 15% length tolerance, and how Numidicus closes.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-144. Cited sources with no vendored line span cannot fill out a long telling (2026-11-01).
+
+- **Open.** The `telling_long` gate checks names and numbers against the cited passages of every source a story cites (Decision-Log 57). A source whose locus names no vendored span adds no text to that check. Two lpc stories cite one: `the-plague-and-the-enemies` (the minor pastoral treatises) and `the-psalms-on-the-wall` (Prosper). A name that only such a source holds is flagged as added.
+- **Owner.** Library thread, through the coordination thread: add the span for each such source, or say the source is not vendored.
+
+### OG-145. Woven tellings for the seven lpc stories (2026-11-01).
+
+- **Done.** Each story's `telling_short`, `telling_medium` and `telling_long` (and base `telling` where it changed) is now one story in the world's voice, woven from every source the record cites, with a source named only where it matters to the listener (Mark's ruling: "we are telling the story, not just quoting a single source"; other cited sources may give context). Rules held: nothing outside the record's cited sources, quote marks only for the raw cited English, no closing sentence that restates the point, ends on the last event, no reading of ours in a speaker's mouth. Writers: Opus, one per story; one independent Opus reader per story on the changed items; the readers applied their own exact corrections and nothing was read a second time.
+- **Done: record changes this pass.** Plague cites De Mortalitate lines 46695-46728; Psalms cites Prosper's year-430 entry (lines 54200-54212, Latin) and Possidius to line 4150; Election gains a non-essential event for Ep. LXVII (Sabinus, dated 257 by the editor, lines 37409-37416) and its years run 248-257; Death's year 258 is kept, resting on the ANF editor's notice (Mark's ruling). The Plague Tobias paragraph was checked against the Latin (Hartel lines 40856-40858 and 40884-40886): Tobias is the one asked to forgive.
+- **Done: OG-144's spans.** Every source cited by the seven stories now resolves to vendored line spans (Plague: De Mortalitate lines 46695-46728; Psalms: Prosper lines 54200-54212 and Possidius to 4150); checked across all seven.
+- **Open: reading level below grade 8 in most tellings** (the quoted source sentences and short narrative sentences set it); not padded. Owner: Library thread.
+- **Open: Numidicus and Sesterces cite one source each**, so their tellings add no second source (Numidicus long 270 words, no floor).
+- **Open: `Election` `tellable_as` scores 58.4 Flesch Reading Ease, under the floor of 60** (predates this pass). Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-146. Reading-grade shortfall in the seven tellings: closed by Mark's ruling (2026-11-01).
+
+- **Closed.** The "reading level below grade 8" items in OG-143 and OG-145 are closed. Mark's ruling (2026-11-01): "for stories that is ok" for grade 6 to 7. The grade floor stays a report line for tellings; the Flesch Reading Ease bar of 60 still applies. The seven tellings stay as they are and are not lengthened to raise the grade.
+- **Still open from OG-145:** Election `tellable_as` at Flesch Reading Ease 58.4, under the bar of 60. Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-147. Election `tellable_as` lifted over the reading-ease bar (2026-11-01).
+
+- **Done.** `lpc.story.election-of-cyprian` `tellable_as` now reads "How we came to see a new convert's election, against his own reluctance, as God's own judgment made visible", at Flesch Reading Ease 62.9 (was 58.4, under the bar of 60). Same claim, plainer words. One independent Opus reader on that field only: PASS, no findings. Closes the `tellable_as` item in OG-145 and OG-146.
+- **Owner.** Library thread, through the coordination thread.
+
+- **OG-147 follow-up (2026-11-01).** The lpc readability waiver in the fleet gate (`m1:readability/lpc`) was tightened from 13 to 12, because the Election `tellable_as` fix removed one of the 13 findings it covered (the gate itself asks for the tighten; waivers only shrink).
+
+### OG-148. Tellings told aloud, the seven lpc stories (2026-11-01).
+
+- **Done.** Mark read the Plague and Psalms tellings ("the stories seem to read too formal and don't flow as well, these need to be told as stories not quotes") and added "no hanging or tail sentences". All seven stories' `telling_short`, `telling_medium`, `telling_long` and base `telling` were rewritten as a story told aloud: scenes in order, plain words, the world's voice (a speaker is named once where it matters), quotes rare and only raw cited English, no tail sentences, written to be heard, ending on the last event. Unchanged rules held: cited sources only, every event kept, nothing invented, ease at least 60. Writers: Opus, one per story; one independent Opus reader per story on the changed items, with "reads like a story told aloud, not a report" and the no-tail rule as criteria; the readers applied their own exact corrections and nothing was read a second time.
+- **Done: record fields kept consistent.** `events` `rests_on` strings were re-pointed so each occurs in `text` or `telling` (Celerinus, Sesterces, Plague, Death); Sesterces and Death gain one `text` sentence; Psalms' events now put the death before the will, as in the passage.
+- **Not read by a second reader:** in the Plague tellings the sentence "No one had ever matched the kindness of Tobias" (a reader-applied wording that claimed more than the passage) was changed to "The old story tells of the great kindness of Tobias" (the passage says more was done than is recorded of his kindness). Flag for any later read. Owner: Library thread.
+- **Open: the short and medium tellings of Sesterces, Death, Psalms, Celerinus sit at or one word under their gate limits** (103 and 184 words); any later edit must trim as it adds.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-149. Rhythm of the told-aloud tellings, the seven lpc stories (2026-11-01).
+
+- **Done.** Mark found the told-aloud tellings read as lots of short sentences (the merged Plague and Psalms long tellings scored FK 3.8 and 4.3, mean sentence 10.5 words), and set the target: FK grade 8, with 7 accepted as the lowest and anything below 7 not acceptable (ease at least 60, ceiling 10). All 28 tellings (short, medium, long, base, seven stories) were reworked by joining runs of short sentences with and, then, as, but, so, because (only where the source gives the relation), measured with `engine.m1.gates.grade_text` on the final field text. Result: FK 7.1 to 8.5; ease 65 to 76; no telling below 7. One independent Opus reader per story with "does it flow, or is it staccato" and the FK number as criteria; the readers applied their own exact corrections, not read a second time. Rules held: nothing outside the cited sources, quote marks only for the raw cited English, no tail sentences, ends on the last event.
+- **Open: most tellings sit at 7.1 to 7.9, not 8.** Only the Sesterces short (8.5), medium (8.0) and base (7.9 rounds to 8) reach 8. Reaching 8 on the rest would take sentences over 25 words or formal wording, which the sources and the told-aloud brief do not allow; Mark's "7 is ok" is the floor met. Mean sentence length is 16 to 19 words, above the 13 to 16 first aimed at, because that is what holds grade 7 with plain words. Owner: Library thread, for Mark's call.
+- **Note.** One reader reported a "stray fragment" at the end of the Death of Cyprian `text`; checked by loading the record: `text` ends cleanly and `absent_detail` is an intact field, so nothing is wrong.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-150. Every sentence makes sense on first hearing, the seven lpc tellings (2026-11-01).
+
+- **Done.** Mark read the merged tellings: "this reads better but doesnt make sense at points. what does 'no longer bodies but only corpses' mean as an example", then: "ok if in the sources then its ok". Rule 10: every sentence must make sense to a listener on first hearing; a rhetorical contrast, idiom or archaic phrase is said plainly using only what the cited sources give (the Latin and the editors' notes count), or left out. All 28 tellings were audited sentence by sentence and fixed; one independent Opus reader per story with "a listener with no background would follow it" as the main criterion; the readers applied their own exact corrections, not read a second time. Rules 1 to 9, the FK target (8, with 7 the lowest accepted), ease at least 60, the word limits and the faithfulness rules held. Results: every telling FK 7.0 or higher; ease at least 65.
+- **Done: faults the readers caught.** Plague "left like the carcasses of animals" (the sources say only corpses; fixed to "left as mere corpses"); Psalms "defended what Christians believe about grace" (contradicted the record's `prefer_instead`; cut) and the "year 430" wording (Prosper dates by the consuls); Sesterces "our money would set him free" (the ransom's success is barred by the record's use_note; now a duty); Celerinus "paschal feast" is now "Easter", with the editor's note ("Written at Easter") added to `text` so the gate can see it.
+- **Open: five tellings sit at FK 7.0 exactly** (Election medium, Sesterces long, Death long, Plague medium, Psalms medium and long): the lowest Mark accepts, with no room. Any later edit must not lower them. Owner: Library thread.
+- **Open: the record `text` fields of Plague and Psalms still hold the old unclear phrasing** ("no longer bodies but the corpses of many", "household of faith", "the year we call 430"). The tellings no longer use it; `text` is the record's own source-facing summary and rests_on strings point into it. Owner: Library thread, for a later pass.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-151. OG-149 closed on Mark's word; Plague and Psalms `text` made plain (2026-11-01).
+
+- **Closed: OG-149 (rhythm, grade 7).** Mark's ruling: "we wont get it perfect, but if it tells the story well and cleanly and accuratly we are good to move on." Grade 7 with plain words stands. The tellings are accepted as they are on main. No further rewrites unless an accuracy defect is found.
+- **Closed: OG-150 open item on `text`.** The Plague and Psalms `text` fields now use the plain wording: "the bodies of many left lying about the city as mere corpses", "fellow believers", the Tobias comparison stated outright, "told by Possidius as one who was there", "in the year we count as 430". One independent Opus reader read those two fields only; its corrections were applied once, with no second round. Every `rests_on` string still occurs in `text` or `telling`.
+- **Still open, held, not mine to change.** Mark's 15% length tolerance and the Numidicus closing; OG-141 (fleet corpus-map buckets); the "central formative act" claim in `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49), a construction document, not edited.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-152. Stage 3 proof run on lpc: placed quotes with no translator or edition year on their cards (2026-11-01).
+
+- **Open.** In the Stage 3 proof run, 18 distinct quotes were placed in shipped answers. 14 of them carry no translator or edition year on their cards (the card says "unavailable"); of the other 4, two carry an edition year the row marks unknown. Cause: 15 of the cited source entries name a source record with no `shelf_row`, so the card has no corpus-map row to read (`augustine-sermons-on-selected-lessons`, `cyprian-epistles`, `acta-proconsularia-sancti-cypriani`, `augustine-on-baptism-against-the-donatists`, and four more). The card code reads the row's facts correctly where the link exists (4 sources).
+- **Owner.** Library thread: set `shelf_row` on those source records, and `translator` and `edition_date` on their rows (or `unknown` with where it was looked for).
+
+### OG-153. Stage 3 proof run on lpc: two Tier 1 lines in the Election telling (2026-11-01).
+
+- **Open.** An independent Opus reader read all 21 tellings (short, medium, long, seven stories) against their cited sources: no Tier 2, 12 Tier 3, and 2 Tier 1, both in `lpc.story.election-of-cyprian`. Short: "surrounded his house" (Pontius has a crowd besieging the doors of the house and does not say whose). Long: "he held no office yet" (Pontius, just before the cited span, has Cyprian already a presbyter; "had not yet become bishop" is what holds). The other 19 tellings are faithful.
+- **Owner.** Library thread. The Tier 3 items are in the Stage 3 report.
+
+### OG-154. Stage 3 proof run on lpc: readability of the voice's own sentences on the sealed set (2026-11-01).
+
+- **Open.** On the 28 sealed answers the mean is grade 10.2 and reading ease 59.7 (project target: grade 10 or lower, ease 60 or higher). The voice's own text alone scores 10.4 and 59.1, so the placed quotes and tellings are not the cause. Across all 106 answers the mean is grade 9.3, ease 64.7. No new gate or pass is added; any change needs a named order.
+- **Owner.** Engine thread, through the coordination thread.
+
+
+### OG-155. OG-152 and OG-153 fixed: Election lines made accurate, shelf rows set (2026-11-01).
+
+- **Done: OG-153.** The two Tier 1 lines in `lpc.story.election-of-cyprian` are fixed in the record, in every length and in `text`. "Surrounded his house" and "surrounded the house where he was" are now "crowded outside the house where he was" in the short and medium tellings and "pressed at the doors of the house where he was" in the base telling (Pontius has a crowd besieging the doors and does not say whose house; that Cyprian was inside follows from his wish to be let down through a window and the people waiting for him to come out); the long telling says "pressed at the doors of the house", with the window sentence straight after. The short and medium tellings were trimmed by a few words to keep their word limits. "He held no office yet" is now "he was not yet bishop" (Pontius has him a presbyter already; "not yet bishop" is what holds). `text` also said Pontius passed over Cyprian's "early years"; the source says he passed over his many deeds, so the phrase is cut. One circular sentence in `text` ("something we thought we could already see") now says what Pontius says, a generous nature that made him seem fully trustworthy; the matching `claim_guards` line is reworded. All other sentences in the five fields were read against Pontius section 5, Ep. XXXIX and Ep. LXVII by the Library thread and by one independent Opus reader on the changed items only.
+- **Done: OG-152, part.** `shelf_row` is set on 10 source records, each to the corpus-map row of the one work the source stands for: `cyprian-epistles`, `cyprian-seventh-council-of-carthage`, `cyprian-minor-pastoral-treatises` (the Demetrianus row; every minor treatise has the same translator), `augustine-on-baptism-against-the-donatists`, `augustine-correction-of-the-donatists`, `augustine-city-of-god`, `augustine-confessions`, `augustine-sermons-on-selected-lessons`, `augustine-general-correspondence`, `augustine-answer-to-petilian`. The translator and year on each card now come from that row. The reader found one imprecision: `cyprian-minor-pastoral-treatises` names the Demetrianus row, right for two of its quotes, while the quote "boast in nothing since nothing is our own" comes from the Testimonies (same translator, same unknown year, so the card prints true facts, but the row names another work). Splitting that quote onto its own source record is a structural change and is left for a decision. Petilian's row carries neither, so its card still says "unavailable".
+- **Open: OG-152, the rest, on purpose.** Not set, because one row would print a translator or year that is false for some quote: `augustine-tractates-on-john-and-related-exegesis` (Tractates are Gibb and Innes; the Sermon on the Mount quote it also covers is Findlay), `augustine-anti-pelagian-corpus` (13 works, two translators), `acta-proconsularia-sancti-cypriani` (its quotes are read from the Knopf and Gebhardt editions, not the Hartel row), and sources with no row of their own (`augustine-donatist-correspondence`, `augustine-letter-93-to-vincentius`, `augustine-further-doctrinal-and-moral-treatises`, `augustine-creedal-catechetical-works`, `augustine-anti-manichaean-corpus`, `passio-montani-et-lucii`). The Cyprian rows carry no edition year (the file prints none), so those cards show the translator and "year unknown". A source that spans works with different translators needs a row per quote locus, which is an engine change; for Engine's call.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-156. Routing: visitor's plain words added to quote records; sub-question C8.S7 given records (2026-11-01).
+
+- **Done.** Stage 4 question q101 ("was it thought right for a father to beat his son if he did it out of love") did not reach `lpc.quote.love-and-do-what-thou-wilt`: its `retrieve_when` lines used only our own words. Three plain lines are added to it (what Augustine meant by a father beating his son out of love; why the father acts from love and the slave-dealer from wickedness; whether harsh or gentle treatment of a child was judged by the love behind it). None asks whether it was thought right: the passage is Augustine's picture of a deed judged by its root, not evidence of what people approved, and its `not_for` bars use as advice on striking a child.
+- **Done.** A survey of all 93 quote and story records found 19 other quote records whose lines used only our own words; each gets one or two plain lines, checked against its `use_note`, `claim_guards` and `prefer_instead`: a-standard-bearer-of-the-sect, ancient-venom-against-my-episcopate, because-i-am-already-weary, believe-and-thou-hast-eaten-already, boast-in-nothing-since-nothing-is-our-own, clamour-and-tears, dash-the-little-ones-against-the-rock, earlier-councils-corrected-by-later, grieve-with-me-for-my-sister, let-it-be-the-office-of-love-to-feed-the-flock, no-one-has-the-love-of-god-from-himself, one-good-shepherd-not-many, shut-up-in-two-cells, such-a-one-with-his-friends, the-case-set-before-the-bishop, they-first-dwelt-together-in-unity, thirteen-letters-sent-to-rome, thousands-of-certificates-daily, what-is-done-by-you-he-does-in-you. All 7 story records already carried plain lines. Left alone on purpose: the Cyprian-death detail quotes (asked by name; the story carries the plain routes), numidicus-remained-unwillingly (points to the story), no-place-for-a-healing-penitence (plain routes would be false routes under its guards), before-even-a-deacon and penitents-in-peril-of-sickness (a plainer line would drop the condition their guards need).
+- **Done.** In the reviewed sidecar, C8.S7 now lists `lpc.quote.love-and-do-what-thou-wilt`, `lpc.quote.not-to-be-refused-to-any-one-born-of-man`, `lpc.quote.not-his-own-sins-but-the-sins-of-another` and `lpc.witness.infants-and-the-sin-of-another`. One independent Opus reader on the changed pairs cut two lines it found wrong (a "was thought right" route; an either/or on one Shepherd) and removed `lpc.term.catechesis` from C8.S7 (it is adult instruction, and its `not_for` bars a children's catechism reading). Corrections applied once.
+- **Open.** C8.S7 stays thin: no record covers ordinary upbringing, schooling or how families treated children. That is an honest limit, not a reason for more records. For Mark or Engine if a Facilitator-ground answer is wanted there.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-157. The rendering-review gate reads that a review exists, not its verdict; one lpc rendering failed its review and was not re-read (2026-11-01).
+
+- **Open.** `rendering-review` (Decision-Log 62) passes a rendering when a named Opus review file lists it. The verdict cell is not read. `Build/worlds/lpc/Review-Artifacts/Rendering_Review_Log_86_2026-11-01.md` records `o-blessed-people-of-the-church` as "round 2 FAIL (a 26-word sentence), fixed ... not re-read (review cap)", and the gate passes it.
+- **Next.** Library re-reads that rendering, or Mark rules whether the gate should also require a passing verdict.
+- **Owner.** Library thread for the re-read; engine thread for the gate, on Mark's ruling.
+
+### OG-158. Passage seeds, phase 1: what the coverage maps could and could not seed (2026-11-02).
+
+- **Done.** `Build/worlds/lpc/build/lpc_Passage_Seeds.yaml` holds 33 checked seeds for 23 of the 130 sub-questions (9 voiceable, 24 etic). Of 63 map hits that carry a line, 33 became seeds; 30 entries are dropped, each with its reason in the file.
+- **Open.** 107 sub-questions have no seed. 22 have no lpc cell in the coverage maps (C6.S9, C12.S1 to S8, C14.S9, C16.S1 to S5, C17.S1 to S7). The rest have only gloss-style hits that no passage text confirms. They go to the search batches (phase 2), not to weak seeds.
+- **Open.** Translator, edition year and work date read `unresolved` on 30 of the 33 seeds (the shared Nicene Fathers volumes), because the passage binds to several rows that disagree. Same cause as OG-155.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-159. Passage seeds, phase 2 pilot: what a free keyword search finds (2026-11-02).
+
+- **Done.** Pilot batch of 8 source-answerable sub-questions searched (free, no model call, terms from the sub-question label and wordings only). 38 seeds added, 7 of the 8 sub-questions now seeded (C10.S5, C10.S1, C13.S5, C13.S1, C6.S6, C4.S6, C2.S8); 25 of 63 candidate passages did not bear on their sub-question and are logged as dropped.
+- **Open.** C11.S5 (a good pagan or another religion saved) found nothing that bears on it and stays empty. C4.S6 (those who never heard) found one seed. The search works where the question has distinctive words (usury, wealth, married clergy, the devil) and badly where it is abstract.
+- **Open.** Not seeded, by kind: Facilitator-ground and system questions (C8.S8, C14.S9, C17.S1, S2, S6, S7), pressing and invention questions (C17.S3 to S5), modern-issue questions (C15.S1 to S8), the Representative's own beginnings (C6.S9), a period after 632 (C11.S4), and archaeology (C12.S8).
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-160. Passage seeds, phase 2 batch 2, and work, author and translator on each seed (2026-11-02).
+
+- **Done.** Batch 2 searched 17 concrete sub-questions (free keyword search, no model call). 15 are now seeded; C12.S6 and C1.S6 found nothing that bears on them and stay empty. The file now holds 119 seeds (32 voiceable, 87 etic) for 45 of the 130 sub-questions. 124 candidates were read by Sonnet and 87 of those by Opus (every voiceable candidate, every other passage the first reader rated direct or partial, and a random sample of the rest); Opus lowered the fit of 22 and moved 12 candidates from voiceable to etic.
+- **Done.** Each seed now carries `work` and `author` from the corpus-map row narrowed by its `locus_ids` to the passage's division. Set on 96 of 119 seeds. Translator, edition year and work date use the same narrowed row, which supersedes the unresolved counts in OG-158: set on 69 seeds, unresolved on 50.
+- **Open.** 23 seeds have no work or author, because the passage binds to several works and the rows cannot narrow it (the Seven Ecumenical Councils canons and similar). Same cause as OG-155; fixing it is a row-level change, not a seed change.
+- **Open.** The sub-questions linked by the question repository to the 28 sealed canon cells number 58; 42 have no passage seed, 38 of them because phase 2 so far targeted only sub-questions with no sidecar record (C1.S1 to S5, S8; C2.S2, S5, S6; C4.S1, S2, S5; C14.S1 to S8 and others), and 4 have no record and no seed (C11.S5, C11.S8, C12.S6, C12.S8).
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-161. C5 split into finer sub-questions, and what the split showed (2026-11-02).
+
+- **Done.** Rule, stated before use: a sub-question splits when its member questions would be answered from different records or passages; members answered from the same ones stay together. Applied to C5: C5.S1 into 5 (S1a to S1e), S2 into 6, S3 into 4, S6 into 2, S7 into 2 (one Opus read of the split moved C5.S7 from whole to split); S4, S5 and S8 stay whole. 19 splits, listed in `Build/Ministry/Features/Question-Coverage/Repository/08-subquestion-splits.yaml` (parent ids unchanged; 07 is untouched). The sidecar and the seed file carry the split ids with the parent id.
+- **Done.** Records placed under splits from what each record's `means` and `not_for` answer: 7 placements (S1d, S6a, S6b, S7a, S7b). Four existing seeds re-keyed under their split. Free search for 10 splits with concrete vocabulary: 20 new seeds on 7 of them. 11 of the 19 splits now hold at least one seed.
+- **Open.** Empty splits, left empty by the stopping rule (abstract vocabulary or nothing found): C5.S1b (who decided the canon, was it a vote), S1e, S2a, S2e, S2f, S3a (errors and reliability), S6a (no seed, three records), S6b.
+- **Open.** The six records the sidecar lists under C5.S2 do not answer any of its members (three answer C5.S4 and C5.S7, three are about one narrow verse each). The parent entry is left as it is; C5.S2 has no supporting record, so its splits rest on seeds only.
+- **Open.** R-28 (science disproves the Bible) may belong with C5.S4 rather than C5.S3d, and C5-11 may belong outside C5.S2e; both stay where they are until a passage settles it.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-162. Seed file shape for every world: window and shelf binding (2026-11-02).
+
+- **Done.** Every seed in every world's `*_Passage_Seeds.yaml` now carries `window` (the row's dated window against the world's registry time window: `inside`, `outside` or `unknown`) and `shelf_binding` (`row narrowed by locus_ids to this division`, or `file level only`: the file is on the world's shelf, this work may not be). A seed outside the window cannot stay voiceable. lpc: 76 seeds inside, 67 unknown, none outside; 102 narrowed, 41 file level. The file shape and rules are the same for alx, syr and rzg.
+- **Open.** The 67 lpc seeds with an unknown window have rows that give no dated window (the Nicene Fathers volumes); same cause as OG-155.
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-163. Seed `author` for anonymous works (2026-11-02).
+
+- **Done.** For a work the corpus map marks `kind: anonymous` in `UNATTRIBUTED.yaml`, the row's author slug names the work itself (`passion-of-scillitan-martyrs`, `council-of-carthage-419`), so a seed printed a work title as its author. The seed builder now writes `author: anonymous` and keeps the slug in a new `author_slug` field; 14 seed entries in the lpc file changed (12 Scillitan Martyrs, 2 Council of Carthage 419). alx, syr and rzg have none.
+- **Open.** Some `pseudonymous` slugs are also work titles (alx `liturgy-of-st-mark`, syr `liturgy-of-addai-and-mari`); the file cannot tell a title-shaped slug from a pseudonym, so they are left as they are. A rule for them is a call for the Library or Engine.
+- **Owner.** Library thread, through the coordination thread.
+
+## OG-164. Reach under the lens counted by the index, not by the rows (2026-11-03)
+
+- **Finding.** The index ties every passage in a multi-row file to all of the file's rows, so a count taken from the index shows lpc at 23.5% reachable. The lpc rows already carry division lists, and by the division test the seeds use, 17,092 of 20,149 English passages that are not apparatus (84.8%; 4,856,172 of 5,637,121 words) bind to one row.
+- **The remaining 3,057 passages** are editors' prefaces, introductory essays and arguments, and works the lpc rows do not name: the non-African councils in NPNF 2.14 (1,174), Hippolytus's Refutation in ANF 5, and the Augustine volumes' front matter. No row change is needed.
+- **Open.** The index still ties by file. A passage-level tie by `locus_ids` in the index builder would make the index count match the rows; that is a builder change, not a row change.
+- **Owner.** Library thread, through the coordination thread.
+
+## OG-165. Quote loci widened to the whole passage (2026-11-03)
+
+- **Finding.** The `quote-locus` gate found four lpc quotes whose locus named only the first line of a passage that runs on: `ancient-venom-against-my-episcopate`, `bishop-of-bishops`, `clamour-and-tears` and `shepherd-wounded-in-the-flock`.
+- **Done.** Each locus now cites the full passage, first word to last: ANF 5 lines 32371-32375, 56871-56884 and 43724-43730, and Weiskotten's Possidius lines 1808-1817. No quote text changed. Each record's body note now gives the same lines. Process notes were removed from those notes. The `m1:quote-locus/lpc` waiver is removed; the gate reports 0 for lpc.
+- **Review.** An independent Opus review checked each text at its span by two methods and tested that each span is tight. It found the shepherd span one line too long, which is now corrected, and a body-note slip in `clamour-and-tears`, also corrected. A targeted second Opus read rechecked the fixes.
+- **Owner.** Library record-defects thread. Closed.

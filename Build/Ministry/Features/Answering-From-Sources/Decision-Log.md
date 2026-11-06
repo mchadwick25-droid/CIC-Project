@@ -676,3 +676,323 @@ The three examples, settled against the sources, are all supported: "as bishop a
 ## 44. Mark's bar: scholarly acceptance (2026-10-31)
 
 Mark's own words, relayed by the coordination thread: "again, we are not refining to perfection, we are looking for scholerly acceptance". Then: "maybe appreciation beyond acceptance, but not endless minution driving perfection". The bar for judging the answers is no serious fabrication and no claim a scholar would call wrong or unsupported by the world's shelf; minor wording drift is tolerated. Aim a little above bare acceptability where a visitor would feel it, and stop at the first clearly useful gain. Coordination-level application, AI-reviewed: no further judge re-labelling or re-judging beyond what is in flight, and the held-out relabel is cancelled until a held-out number is needed.
+
+## 45. Stage 4 build order: the absence rule first as a component, then straight on (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, 2026-10-31, to "absence rule first or the larger path": "Go straight to the larger path". That answer is his.
+
+Coordination-level, AI-reviewed (not Mark's own words), on the engine thread's build plan: the Stage 2 gate is changed by `Stage4_Change_Order_Shadow_Before_Stage2.md` (shadow on lpc now, the real proof reruns after Stage 2). The absence rule is built first as its own small pull request, being a component of the larger path and an early gain, and Phase 2 (bound draft, verify, one rewrite) follows without waiting on a further decision. A report goes to the coordination thread after each pull request. q084's record half is treated as a system fix only, and the open question is logged as OG-129 (the q084 gap on John's prologue, 2026-10-31). The Phase 3 reading uses a fresh seed, written down. Pacing rules of entry 41 and the bar of entry 44 apply; no metered spend.
+
+## 46. Stage 4: verify, rewrite and the unbound-sentence step on the 106 questions (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). Mark's own words on pacing, relayed 2026-10-31: "keep going with both, we are at 25% now, we will slow down when we are at 75%".
+
+- Merged: the absence rule (#1394), docs (#1395), the verify and rewrite step (#1396). The cue-phrase widening of the absence rule was not merged: coordination ruled it the same patch one phrase later.
+- Shadow run, built before Stage 2 (`Stage4_Change_Order_Shadow_Before_Stage2.md`), free and in plan, not the Stage 4 proof. 106 questions answered. Verify read 343 cited sentences: 292 fine, 51 flagged (33 added detail, 8 stronger force, 4 widened scope, 4 unresolved referent, 1 dropped scope, 1 other); 42 rewrites used, 9 sentences taken out. Fit to the question, 52 placed quotes and stories: 24 fits, 23 partly, 5 off-point.
+- Fresh reading, seed 20261101, 30 answers (8 sealed, 20 other, 2 fit traps), one Opus reader: 6 serious, 24 acceptable. No invented quotation or fact. All 6 said the record is silent on something the shelf covers. A reading, not a measurement.
+- Ruling (coordination): fix the mechanism, not the phrasing. Built as the unbound-sentence step (#1398); logged as OG-131. Result on the same run: 5 of the 6 removed; mean answer 146 to 122 words.
+
+## 47. Stage 4: a limit no record states is always withheld; two verify gaps closed (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). The decision follows the second fresh 30-answer reading (seed 20261031, 8 sealed, 20 other, 2 fit traps, one Opus reader): 6 serious, 24 acceptable, no invented quotation or fact.
+
+- Four of the six said the record is silent on something the shelf covers, again. The lexical shelf search cannot catch these by design, since a silence claim can be phrased without end. Ruling: stop searching the shelf. A sentence a reader classes as a limit stays only when it is bound to a record that states that limit with its scope (`absence_rule.check_limit`, no cue phrase needed); otherwise it is withheld. When withheld limits leave an answer with no statement of limits, a fixed fallback sentence stands in the place of the first. No paid passage finder is needed.
+- Two verify gaps, both system: a word that refers back (a pronoun) is now read with the sentence before it and must be settled by the bound records; a sentence bound to records of different formation confidence may name no level above the lowest of them, and the import applies that cap whatever the judge said.
+- Built as one code pull request. The terms and shelf stages of the unbound step are removed.
+
+## 48. Stage 4, second small round: five system fixes after the thin-answer finding (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). The second fresh reading (seed 20261102) found 3 serious and 27 acceptable, but 13 of 30 answers did not address the question: the always-withhold rule had stripped most untagged limit sentences and the fixed fallback sentence stood in 45 of 106 answers.
+
+- A sentence worded as a limit or an exclusive claim ("only", "nothing", "never", "does not say") gets the limit test whatever a reader called it, bound or not. This closes the gap that let "we know only that..." through.
+- The turn directive now tells the voice to say what the sources lack only when a limit record in its ground says so, to cite it, and never to name a confidence level or say how a claim is tagged. A deterministic check withholds a sentence that names a level.
+- The fallback sentence is used only when withheld limits leave under 25 words, once, and its "Here is what we can tell you" half only when text follows.
+- The verify prompt holds a sentence joining content from two records to the narrower scope, the record's MUST NOT ASSERT line winning.
+- Retrieval is not touched here; the routing finding goes to Mark through coordination.
+
+## 49. Stage 4 accepted as the shadow proof on lpc (2026-11-01)
+
+Mark's choice, relayed by the coordination thread: "Accept as the shadow proof."
+
+- Scope: the shadow pipeline on `lpc` only, as run and reported in `Stage4_Report.md` (the proof run on the 106 questions and the round-2 redraft). No other world, and no step of the pipeline is registered on any live frame.
+- What the proof showed: no false or invented sentence in any of the readings; 92 of 106 answers shipped and 14 abstained in the proof run; depth the weaker axis.
+- Nothing in the live path changes with this entry. Two live-path items need their own change order and are logged, not drafted, in `Build/worlds/lpc/Open_Gaps_Tracking.md` (OG-138).
+
+## 50. The quote card keeps its function; its content may be upgraded (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "the function of the card stays, the content can be updated into a strong template."
+
+- The quote card keeps its function: the spoken modern rendering and the source reference, with the three-level transparency (Settled row 12).
+- Its content is no longer frozen at today's content. This narrows entry 16 ("the quote card stays as it is today") and Settled row 11. The narrowing is made by `Stage3_Change_Order_Amendment_Card_Content.md`.
+- Nothing about the card changes until Mark picks a template from the options the engine thread puts in front of him. Today's card and its test stand until then.
+
+## 51. A long telling of each story on the card page (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "on the card i would like the full long story in modern english that we can record (2 - 4 minutes)."
+
+- Each lpc story gets a third, long telling in modern English, faithful to its record and sized to be read aloud in 2 to 4 minutes, shown on the card page with the three-level transparency.
+- No story is invented or extended past its record. Recording, and any paid step, is a later and separate decision.
+- The schema amendment for the new field, and what Library needs to write the seven tellings, are drafted for Mark in an Artifact; neither is written into the repo until Mark approves.
+
+## 52. Quote-card template B chosen (2026-11-01)
+
+Mark picked template B from the options put to him: three labelled layers, with the record's one-line meaning in the hover. Relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted).
+
+- Hover: speaker, work, locus, the plain confidence phrase, and the record's one-line meaning.
+- Click page: layer 1 "In today's English", the spoken modern rendering; layer 2 "In the edition", the edition's words with their citation; layer 3 "In the original", the locus in the original language where we hold it, with the vendored file and lines.
+- Held as data and not yet available: the translator and the date of the edition. The source records carry the edition's series and volume in their `edition` and `citation` fields and no separate translator or date. Library question, recorded in lpc `Open_Gaps_Tracking.md` (OG-140).
+- The card's tests are rewritten to this template in the same pull request that changes the card. Three-level transparency (Settled row 12) is kept.
+
+## 53. The long telling is a target of 2 to 4 minutes, never padded (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: the long telling is a target of 2 to 4 minutes, never padded, and a thin story stays shorter. Relayed in the coordination thread's own words; Mark's words were not quoted.
+
+- Word range: 340 to 615 words, from the recorded pace (about 134 to 147 words a minute at the approved audition pace, 154 to 169 after the 1.15 times speed-up Mark chose; Front-End Decision Log, 2026-09-29). 615 is a ceiling. There is no floor.
+- A story whose record and cited source hold less is as long as they allow. Nothing is added to reach the range.
+- The field and its gate are filed in `Schema_Change_Order_Story_Long_Telling.md`.
+
+## 54. The lexicon card matches the rigor of the quotes and stories (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "i think the template for lexicon should match the rigor of the quotes and stories".
+
+- Plan row 5.1 ("the lexicon door, kept as it is") no longer holds. The change is made by `Stage5_Change_Order_Lexicon_Card.md`.
+- The card keeps the three levels (Settled row 12). The template is chosen by Mark from options put to him as an Artifact; nothing is built until he chooses.
+
+## 55. Lexicon card template B chosen (2026-11-01)
+
+Mark picked lexicon template B from the options put to him, relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted): labelled layers "In plain English", "In this world", "Not to be confused with" and "What it rests on", with the plain confidence phrase and the risk flag.
+
+- The glossing code carries the confidence, the risk flag and the source editions with a gloss; the click page shows the four layers.
+- Where a term's source names no vendored span, or the edition's translator and date are not held (OG-140), the page shows that as unavailable. No link is invented.
+- Built after the story card pull request. Three-level transparency (Settled row 12) is kept; today's lexicon tests are rewritten to the template in the pull request that changes the card.
+
+## 56. Lexicon template B: the modern misunderstanding set beside the world's sense (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "b, but we need the modern misunderstanding or a contrast to how people think it means today vs in that world".
+
+- The lexicon card shows, side by side, how people hear the word today and what it meant in this world, as a named layer of template B (for example "How we hear it today" beside "In this world"), not only a "not to be confused with" line.
+- The layer is fed from the term record's modern-reading field (`senses.translational`) and false friends (`false_friend`). Where a term has no usable modern-reading field the layer shows as unavailable and nothing is invented.
+- The same contrast is applied to the quote card only where the record already holds it. No new quote field is added now.
+
+## 57. Context from any other cited source may fill out a story (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his sentence verbatim: "thats ok, we said if other sources in the record give context we can use it to fill out the story".
+
+- This applies entry 43 to tellings: a detail in a telling is allowed when another source the record cites supports it. The telling gives that detail as that source's, not as the main source's.
+- The `telling_long` gate checks names and numbers against the record and the cited passages of every source the record cites, not the first only. A test now holds this on `lpc.story.the-death-of-cyprian` (Pontius and the Acta).
+- A cited source that names no vendored line span adds nothing to the check, so a name that only such a source holds is still flagged. That is the safe side; the gap is OG-144.
+
+## 58. The grade-8 floor is not applied to story tellings (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "for stories that is ok".
+
+- A story's telling may read at grade 6 to 7. The grade-8 floor is not applied to `telling`, `telling_short`, `telling_medium` or `telling_long`. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold for them.
+- The code already treated the grade floor as a report line for every field (`gate_readability_floor`, never a finding, never waived), so no gate changes. Tests now hold both halves for a long telling: a grade-6 telling is reported and not failed, and a telling under 60 reading ease still fails.
+
+## 59. Story tellings: the target is grade 8, grade 7 is accepted, below 7 is not (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim and in order: "while 7 is ok, not 3 and 4 grade"; then, correcting the first relay's reading of it: "target is 8, 7 is ok". This refines entry 58; entry 58 stands as written.
+
+- For a story's tellings (`telling`, `telling_short`, `telling_medium`, `telling_long`) the target is grade 8. Grade 7 is accepted. Below 7 is not acceptable, and grade 3 to 4 least of all. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold.
+- The report line for tellings starts below grade 7. It is reported and never failed, and no gate is added: `gate_readability_floor` keeps its band floor of 8 for every other field and uses 7 for these four.
+- A telling below grade 7 is for its author to rewrite; nothing in the engine rejects it.
+
+## 60. The story tellings on main are accepted (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "we wont get it perfect, but if it tells the story well and cleanly and accuratly we are good to move on".
+
+- The seven lpc story tellings on `main` (#1443, with #1442 before it) are accepted as the tellings the Stage 3 proof run uses. Library's open reading-level and length items on them stay in `Open_Gaps_Tracking.md` and do not hold the run.
+- Next, by the coordination thread's order of the same day: the Stage 3 proof run in shadow on lpc with the final cards and tellings, one fresh seed, one Opus reader, and a report in the form of the Stage 4 report. Stories stay off in production for lpc.
+
+## 61. Stage 3 proof run on lpc reported (2026-11-01)
+
+Coordination-level, AI-reviewed (not Mark's own words). Shadow run on all 106 lpc questions with the final cards and the tellings of entry 60, in plan, no metered spend. Report: `Stage3_Report.md`. Outcome in one line: no false or invented sentence in the 30 answers read; 10 of 106 abstained; quote placement by code is up, readability on the sealed set is a hair over the target, and both fit traps were handled wrongly.
+
+- Gaps are OG-152 to OG-154. The 30 quote placements and the 21 tellings are put to Mark as an Artifact; the 15% tolerance and the Numidicus closing stay held for him.
+
+## 62. Two record-stage gates: quote text at its cited locus, and a review file for every rendering (2026-11-01)
+
+Mark, 2026-11-01, choice box, relayed by the coordination thread (the message is the record; Mark's own words were not quoted): the two mechanical defect checks become engine gates for the record stage; hedges and years stay writing rules checked by the independent reader. No new passes beyond these two.
+
+- The gates are filed in `Record_Gates_Change_Order.md`: `quote-locus` (a verbatim quote's text must occur at the vendored lines its locus cites) and `rendering-review` (a `modern_rendering` needs a named Opus review file that lists it, in the format of Library's lpc rendering log). Both are machine checks, no model call.
+- Checked against all 13 built worlds before registering. Every current failure is a dated `ACCEPTED_OPEN` waiver: `quote-locus` 4 in lpc and 1 in desert; `rendering-review` 372 across 11 worlds with no review log. Verbatim quotes whose locus names no span (364 outside lpc, desert and witt) are not reached; whether to require a span is put to Mark.
+- Every pinned package is rebuilt and re-pinned for the new gates.
+
+
+## 63. The draft directive opens with a plain answer in the world's voice (2026-11-02)
+
+Mark, 2026-11-02, choice box, relayed by the coordination thread (the message is the record; Mark's own words were not quoted): apply the whole proposal of the register side-by-side page. Mark had found the Stage 3 answers a little hard to read, with a formality that was not there before.
+
+- What the data showed, on the eight matched sealed questions (earlier drafts, Stage 3, plain-writing clause): sentences were about six words longer and about three grades harder at Stage 3, and sentences opening on a named person or "X says" rose from 15% to 37%. First sentences answered the question no less often (yes, partly, no: 2, 3, 3 earlier; 3, 5, 0 at Stage 3), but only 3 of 8 were plain to hear, against 7 of 8. Across the 30 Opus-read answers the first sentence answers yes 12, partly 13, no 4, and 16 are not plain to hear.
+- The line that most pushed the register formal was "name the person or thing in every sentence" with "restates... in the author's name", which sits against the lpc voice's "we, our, among us".
+- Changed, at the source only: the draft directive (`DIRECTIVE_LINES` in `engine/m4/bound_draft.py`) and the rewrite instruction (`REWRITE_SYSTEM` in `engine/m4/answer_check.py`). The first sentence answers the question plainly in the world's own voice and is bound to the records that hold the answer; where the sources do not answer directly it says in plain words what the world does hold, bound to the records that hold it. Later sentences give evidence and texture. "We" and "our" are allowed as subjects where a record tells what the community held or did; one person's own words or act still name that person; naming is required only where a sentence could be read for the wrong person or thing. A plain-writing line is added: most sentences 12 to 20 words, one idea each, none past 25.
+- Unchanged: binding of every sentence, the labels, no added detail, the hedge-concession-and-date rule, the pronoun rule for pointing back, the read and its criteria, the rewrite cap, the abstain rule. The first sentence is read like any other against its records.
+- Next, by the same order: one run of the sealed 28 and the eight matched questions, one fresh seed, one Opus reader on 30; grade, ease, named-opener share, first-sentence directness, abstentions, tiers and depth against Stage 3 are reported, with six before-and-after answers for Mark as an Artifact.
+
+## 64. The opening sentence may bind to several records, and the read judges it against all of them together (2026-11-02)
+
+Mark, 2026-11-02, choice box, relayed by the coordination thread (the message is the record; Mark's own words were not quoted): option (a) of the first-sentence run. The run on the sealed 28 plus 2 fit traps and 20 others (Decision-Log 63's directive) cut grade and ease to 8.4 and 64.8, and made 16 of 19 first sentences plain to hear, but abstentions rose to 17 of 50 and 8 of the reader's 30 were false silences. The cause found: a plain opening in the world's voice says more than the one record it is bound to, so the read struck it as added detail or widened scope.
+
+- Changed, at the source: the draft directive lets a sentence list several of the records the answer cites (every record that supports part of it, and nothing the records together do not state or follow closely from); the rewrite instruction keeps every record id a kept sentence lists; the read's criteria (`VERIFY_CRITERIA`) judge a sentence bound to several records against all of them taken together, and whatever they together do not support is struck.
+- Unchanged: the strictness (anything the bound records together do not support is struck), the narrower-scope rule across records, the MUST NOT ASSERT line, the hedge-and-date rule, the pronoun rule, the confidence cap, the rewrite cap, the abstain rule.
+- Next, by the same order: the same 50 questions run again, one Opus reader on the 30 read before, reported against Stage 3 and the first-sentence run; six before-and-after answers for Mark as an Artifact. The helper drafts of the earlier run put a stray full stop after the tags in two batches; the drafting instruction for the re-run states the tag order.
+
+## 65. How the voice refers to sources: name author and work when quoting (2026-11-02)
+
+Mark, 2026-11-02, choice box, relayed by the coordination thread: "Name author and work when quoting". His comment, in his words: "that is not full disclosure, i would have never suggested that". The comment is about the rule that Datus never names Cyprian, Augustine, Carthage or Hippo, which the build thread set in Phase Three and Mark did not.
+
+- The rule: when the voice quotes or closely paraphrases a passage it says whose words they are and which work; otherwise it speaks as "we". Cities and bishops may be named when the passage or the visitor's question does.
+- The passage offer's line already tells the voice to say "[author], in [work], writes" for a passage, which matches this ruling.
+- The change to lpc's voice configuration and permanent prompt waits for the Library thread, after the cross-world re-test.
+
+## 66. The paid test cp10-writer-vs-design-alx is stopped at $0.286 (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: after seeing the three live drafts for alx q001 to q003 beside the helper-written arm B drafts and the old engine's saved answers, stop the paid test and plan a design-faithful build.
+
+- Spent: $0.286 of the $2 cap, from the run output. Nine calls (six safety and reader checks on the gate model, three drafts on the voice model), us-east-1, ledger of 18 lines (one hold and one settle per call). The read, rewrite and re-read steps were not run. Nothing more is run under this live-test name.
+- Why it stopped: the run still carried the stacked directive patches of Decision-Log 63 and 64 (the Stage 4 baseline was not restored) and offered no passages on alx, so it could not test the designed path.
+- Next: a plan for the design-faithful build, set out for Mark's review as an Artifact. No code is changed and no build is started until he approves it.
+
+## 67. Steps 0 to 2 of the design-faithful build plan (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: go on steps 0, 1 and 2 of the plan; the search build, and any step past 2, and the revert of Decision-Log 63 and 64, wait for his decisions.
+
+- Step 0: the CP.9 README is corrected in place, with a "Corrections" section. Wrong or overstated: "lpc: not met" (the offer was not tested), "tier 2 similar" (15, 21, 20), the old engine leading "in every world" (lpc "yes" 19 for B against 18 for A), "more than helper noise" for 15 to 12, and the noise floor for single questions. The tables are unchanged; they match the raw files.
+- Step 1: the coverage ceiling counts, the volumes behind the 101 blocked alx and syr seeds, and the check of the three index keys are in `Design-Faithful-Build_2026-11-03/Step1_Coverage_Ceiling.md`. Of the three index keys, only work-and-locus is filled, and its value is file plus division. The sub-question and scripture-reference keys are named and never filled, and nothing in the engine reads the index at question time. No embedder implementation exists.
+- Step 2: the harness checks and the order of passages in the offer are in `Design-Faithful-Build_2026-11-03/Step2_Harness_Fix.md`.
+
+## 68. Direction: stored, reviewed answers served on a match (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread, in his words: "i think ultimatly we could have pre-generated answers that are just called on when matched, no answer generation, then when its not a match we generate" (he wrote "a question", meaning an answer).
+
+- Direction only. It is not built and not scheduled. It is not a choice among the three ways to decide "no match" (before drafting on a missing or partial record; after drafting on the answers check; never, always offer both); Mark has not chosen one.
+- Proposal section 9 already holds the two cost tiers that stored answers would grow from: reviewed openings (tier 1, served verbatim on a first turn after two checks agree) and pre-verified bundles (tier 2, stored evidence the voice composes from each time).
+- The search build does not depend on this. The step before drafting that decides what the offer holds is a single seam, so records-first, partial-fit search or a stored-answer match can be added later. Until Mark decides, the offer keeps the behaviour it has: records and passages together.
+
+## 69. Voice Rules Correction (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: "follow all your recommendations" on the four voice-rule groups and the length wording. Change order: `Voice_Rules_Correction_Change_Order.md`.
+
+- "We" is for the tradition's perspective; in the present conversation the voice says "I". Names the sources contain are named. A gap is stated plainly when asked and not volunteered. The first sentence answers the question as asked.
+- Records and phase documents corrected in the Library change; Engine makes the one shared-rule change.
+
+
+## 70. Conformance removals approved; the plan re-baselined to the six stages (2026-11-03)
+
+Mark, 2026-11-03, choice box: "Approve all (Recommended)". The list is Engine 2's survey of the engine against the proposal, reconciled by the delivery lead against the proposal and the Settled Items register; it is on the plan page (version 65), section "Conformance".
+
+- Removed in one pull request (chunk D6): the experimental record gates (`engine/m1/gates_experimental.py`, never called); the fleet floor line (`engine/m4/evidence.py`, never wired); self-revision (`engine/m4/self_revision.py`, off in deployment); the r27 uncited-claims regeneration path in `engine/m4/turn.py` and its correction appendix (the offline report that shares `uncited_claims.py` stays); citation attach (`engine/m4/citation_attach.py`, staging only); and, on the new path only, the answer-record fallback in `engine/m4/turn.py` (the old path keeps it until its gates retire). Each removal is tested so the live path's output is unchanged on a replay of saved drafts.
+- Changed at a set point: one diversity rule over records and passages in the offer (chunk D4) replaces the record-only source spread; the world-core analytic sections (Horizon, Formation logic, Thinness, Cautions, Living traditions) leave a world's live prompt when that world's reviewed frame exists.
+- Carried out under rulings already made, not asked again: the Decision-Log 63 and 64 lines are reverted; the fleet "strict we" pronoun rule, the 120 to 220 word range, "briefly" in the limit line, and the three-round figure line where the question or the sources name the person change under Settled Items 22 to 24 (chunk D2).
+- The plan page is re-baselined to section 15's six stages, with the exit number and status per world and the remaining work as chunks D1 to D14 of one day or less.
+
+## 71. Record defects fixed now; every verbatim quote names its exact lines (2026-11-03)
+
+Mark, 2026-11-03, in his words: "fix the record defects now, not after". Then by choice box: "Yes, require exact lines (Recommended)", answering the question left open by entry 62.
+
+- A Library thread on Opus fixes the registered record defects now: the 5 quotes whose text is not at their cited lines (lpc 4, desert 1) and the 372 modern renderings with no named review file (gallic 110, desert 61, ijc 39, syr 34, hal 32, alx 26, pahc 25, cappadocian 21, witt 13, rzg 6, don 5). Each rendering is read against its edition text; one that fails the rendering bar is re-rendered by Opus and read again. Each world's waiver is lowered as its count falls and removed at 0.
+- Every verbatim quote names the lines it quotes. The 364 quotes whose locus names no span get their span from the vendored edition; any quote not found there is corrected at the record. The `quote-locus` gate then fails a verbatim quote with no span, instead of skipping it.
+- Program notes are cleared from the live and canonical files at Mark's word of the same day ("make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption. it should be a gold standard clean funtioning library and engine"): 2,107 lines found by `tools/check_live_commentary.py`, moved to their decision logs in seven pull requests.
+
+## 72. The combined search stays in and is judged on answers (2026-11-03)
+
+Mark, 2026-11-03, choice box: "Keep it, test on answers (Recommended)". The search build (#1465, merged 9e349eaf) hit its stop rule on lpc: meaning search did not beat keyword past the 99% line at any depth. Per question, a cited passage was in the top 20 for 25 of 256 lpc questions by meaning search and 13 by keyword (wins 18, losses 6, p 0.023); fused keyword and meaning 22. The counts are a floor, since only the one cited passage counts as a hit. Report: `Design-Faithful-Build_2026-11-03/Step3_4_Search_Bench.md`.
+
+- The fused keyword-and-meaning search, as section 3 of the proposal specifies, goes into arm C of the held-out measurement. The held-out answers decide whether it helps the visitor's question. No paid embedder is requested.
+- The search build was merged as built with the stop-rule result reported, by the delivery lead's direction; this entry is Mark's confirmation.
+- Specs 1, 2, 4 and 5 are corrected in place and Specs 6 to 8 added (chunk map in `Specs/README.md`): Spec 1 on Opus, with the figure line yielding to names the question or sources give; one diversity rule over records and passages, caps 3 per author and 2 per work; the held-out set at 360 questions by rounding, as approved.
+
+## 73. Decision-Log 63 and 64 reverted; the shared voice and length rules changed (2026-11-03)
+
+Carried out under Decision-Log 69 and 70 and Settled Items 22 to 24 (chunk D2, Spec 1). Nothing new was decided.
+
+- Reverted, as two commits, newest first: 109c9fa3 (Decision-Log 64) and 992dfb91 (Decision-Log 63). The draft directive (`engine/m4/bound_draft.py`) is again the Stage 4 text byte for byte, the hedge-and-date rule included. The rewrite instruction (`engine/m4/answer_check.py`) and the read's criteria (`engine/m4/verify_step.py`) lose the 63 and 64 lines; the later whole-answer verdict and the passage line in the read stay. The 63 and 64 tests are removed. Entries 63 and 64 stay in this log.
+- The fleet pronoun rule (`engine/shape/records/fleet_voice/_fleet.voice.fleet.md`): "we" for the tradition's own perspective, where the voice is not a person; "I" for its own acts in the conversation; people, sees, places, councils, communities, cities and anything else the sources name, named wherever they name them; never claims to be a bishop or any other person; "I am a representative of ..." at most once per turn. Asked why it says "we", the voice answers plainly. The hardening rule against explaining what kind of thing is speaking stays, scoped to go beyond that plain answer, since the deployed check (`engine/m10/deployed.py`, k:self-reference) requires it and is a gate this chunk may not touch.
+- The turn directive (`engine/m4/turn_prep.py`): the length line asks for succinctness and drops "fewest sentences" and the 120 to 220 word range; the limit line says "plainly and succinctly"; the no-new-figure line gives way to a person the visitor's question or the offered sources name.
+- `SHAPE_HASH` is now sha256:b7118e50...7b59. Every live admission report made under the old shape no longer counts as the same shape for `engine/m3/admission_conform`; it reports all 11 admitted worlds stale. It already reported all 11 before this change, since no admitted world had a report under the old shape either. It never fails the suite.
+- Left for the owner of each, not changed here: the output check's pronoun family (`engine/m4/output_check.py`) still reports a first-person "I" outside the naming line as a defect; the table wiring (`engine/api/table_wiring.py`) still says "we-voice" in two lines. The story-length budget `REPLY_WORD_ROOM = 220` (`engine/m4/story_placement.py`) is a word figure left from the old range, to be read against Settled Item 24.
+
+## 74. The voice-rule follow-ups of entry 73 brought into line (2026-11-03)
+
+Delivery lead, 2026-11-03, chunk D2b: the items entry 73 left for their owners contradict the same rulings (Settled Items 22 to 24), so they are changed now. Nothing new was decided.
+
+- The output check's pronoun family (`engine/m4/output_check.py`) no longer reports "I" for the voice's own acts in the conversation. It reports the voice claiming to be a person: a first-person role or name ("I am the bishop", "I was bishop of Antioch", "I am Ignatius", "I, Ignatius"), or memory or witness ("I remember the day", "I saw him", "I was present at Nicaea", "my own eyes"), outside the naming line and outside quoted speech. Remembering or seeing what the visitor said ("I remember you asked") is the voice's own act in the conversation and is not reported. The phrases are a fixed list and not exhaustive; the family only reports.
+- The two Table stance lines (`engine/api/table_wiring.py`) say "we" for the tradition's own perspective, in place of "your own we-voice".
+- Story length (`engine/m4/story_placement.py`): the fixed reply room of 220 words, left from the removed word range, is gone. The story length the voice names in its marker is placed when the record has it; a missing or unknown length is medium, or full when there is no medium.
+- The deployed check's self-reference rules (`engine/m10/deployed.py`): "no explaining what kind of thing is speaking" is replaced by "asked why it says 'we', the voice answers plainly", and the fleet pronoun rule drops the limit kept only for the old stem. `SHAPE_HASH` changes again, to sha256:b5d3c0bf...4ad5; `admission_conform` still reports all 11 admitted worlds stale, as before.
+- The process-narration comments in `engine/m4/turn_prep.py` are rewritten in the present tense; their history is in the Live-Surface-Cleanup decision log (entry D2b).
+
+## 75. V7 direction approved for controlled testing, not as architecture (2026-11-03)
+
+Mark, 2026-11-03, in response to the V7 architecture reassessment (https://claude.ai/artifact/EuKJQj3kEgvS2kDLkQvjC9), relayed through the coordination thread: "Direction approved for controlled testing — not architecture approval." Also: "I agree with the central direction: preserve the current single-generation architecture as the baseline and investigate whether better contextual preparation of the Representative can materially improve first-generation answers."
+
+He authorized seven things:
+1. Continue the outstanding rendering reviews and exact-source-line work.
+2. Establish the current production engine's baseline measurements.
+3. Develop and review reading cards for Alexandria.
+4. Implement B behind a switch, without changing the production path.
+5. Extend the evaluation, adding world embodiment, conversational quality and general-user accessibility to the seven dimensions. The dimensions are never collapsed into one composite score.
+6. Run the controlled, capped evaluation across Alexandria, pahc and syr. Mark chose pahc as the third world, not lpc.
+7. Return with measured results, limitations and a recommendation before any production promotion.
+
+Conditions:
+- "The $30 evaluation cap stands. If the proposed work cannot be completed within that cap, stop and return for approval." Mark later lowered the cap to $12 (below).
+- "Do not proceed with C unless the results demonstrate that B has a meaningful remaining problem that selective correction could address."
+- No wholesale redesign, no expansion of routine model calls, no expensive pre-verified bundles, and no permanent decision about source-library architecture.
+
+Clarifications that bind the test:
+- The Representative connects, explains and interprets across sources. It must never shrink to "a collection of individually supported statements". "Academic rigor does not mean eliminating interpretation. It means making interpretation responsible, contextual, and appropriately qualified."
+- Reading cards keep four things apart:
+  - what the primary source says;
+  - what historians conclude about it;
+  - what it contributes to understanding the world;
+  - what is disputed, uncertain or unrepresentative.
+- Scope is not a hierarchy. An influential author's position is not automatically the community's, and a common practice is not universal agreement. Cards help the Representative reason; they do not impose mechanical citation rules.
+- The richness of the Formation World is "a non-negotiable requirement".
+- Live retrieval of arbitrary passages is deferred. Building a coherent, reviewed knowledge base from a world's full shelf stays fundamental. No permanent decision on source-library reach is made from the current search bench.
+- Human historical review reports actual error counts, severity and uncertainty. "A small sample can identify problems but cannot establish that serious errors have been eliminated."
+- The decision report answers his eight questions, with verified findings, assumptions and hypotheses kept separate.
+
+D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. Cap: $12, Mark 2026-11-03, lowered from $30. Then Mark, relayed by the coordination thread the same day: "we have plenty of test data on the engine that is currently running, use that, then what we need is to compare it to something".
+
+So the arms are set as follows.
+- **A is not re-run.** A is the saved answers of fleet graded run 1 for alx, pahc and syr: the 28 sealed probes per world, 84 answers. That run used `main` at `ddabd865`, whose engine and records are byte-identical to the `live` head c869dd86. Its second-pass Opus reviews and outside-referee reviews are saved for all three worlds.
+- **B is the only paid arm.** It runs on the same probes, through the same harness, on a test branch cut from `live`, with only the B switch added. B repeats on 42 of the probes for a noise floor. A's run-to-run variance on this code is unmeasured. An older engine's three-run band, from 2026-10-02, is reported as an indication.
+- **The named live test** is `v7-b-alx-pahc-syr`, with a $12 ceiling and a 6-turn sample first that the coordination thread checks. The core run is estimated at $3.15 to $5.92.
+- **The optional set.** Up to 15 fresh hard-case questions, needing fresh A and B answers at about $0.80, are an option for Mark. They are not part of the core run.
+- **C** is not in the cap. If B shows a problem that selective correction could address, it goes back to Mark for a new approval.
+
+## 76. The held-out question set is frozen (2026-11-03)
+
+Carried out under Spec 5 (chunk D3). Nothing new was decided. Files: `Design-Faithful-Build_2026-11-03/Heldout/`.
+
+- 360 questions, 20 + round(shelf tokens / 2M) per world: lpc 44, ijc 39, cappadocian 35, alx 34, pahc 30, don 29, rzg 28, syr 27, desert 25, hal 24, witt 23, gallic 22. Hashes in `Heldout/SHA256SUMS`.
+- Written by drafting helpers that saw only the world's name, era, region, a one-paragraph description from its Doc_01, and its shelf's bare work titles and authors. The request files are kept in `Heldout/requests/`; a test checks they hold no sub-question id, record id or source-set path.
+- Overlap check (`Heldout/heldout.py overlap`, report `Heldout/overlap_report.txt`): no question is a near-duplicate of a sub-question wording, the bench questions, the 106 lpc questions or the CP.9 questions by word overlap, or of a sealed probe by hash of normalized text. Eight rounds of rewrites by fresh helpers cleared the flags; the matched wordings were never shown to a helper.
+- Two Opus reviews. The first found shelf lists carrying edition and topic notes, questions that addressed the voice as one named person, and leading or text-hinting questions; the set was redrafted from cleaned requests under tighter rules. The second found four hard defects and some softer ones; the hard ones and the text-hinting ones were rewritten. Left as reviewed: some near-repeat pairs within a world, a few stock questions across worlds, and two worlds one question short of a fifth long (lpc) or short (witt). Any change from here is a change order.
+
+## 77. American spelling for everything written in modern English (2026-11-03)
+
+Mark, 2026-11-03, by choice box: "American (Recommended)".
+
+- Everything the project writes in modern English uses American spelling: modern renderings, notes, voice records, Facilitator text, the site's own prose, and the construction documents' own prose.
+- Verbatim quotations from editions, quoted titles and proper names keep their own spelling.
+- Work, in order: this entry; a mechanical check in `tools/` that runs on the files a pull request touches, wired into CI the way the live-commentary check is; the fleet pass over `records/` modern-English fields, `engine/shape` voice records and `cic-website/` prose, one pull request per surface, with packages repinned, the readability gate passing and an Opus sample check that no quotation or name changed. The `Build/` documents follow last.
+
+## 78. V9 change orders: the seeded catch counts a found error under any label; reading effort and batches; passages corrected (2026-11-04)
+
+Mark, 2026-11-04, relayed through the coordination thread: "count found errors, and continue".
+
+- **The catch rule.** A seeded copy is caught when a reader flags the planted sentence, at least half of its words, as a tier 1 or tier 2 error, under any label. The rule was set after round 1's results were known. Under the rule written before the run, which also needed the planted type, reader-1 caught 8 of 12 and reader-2 caught 4 of 12. Under the rule Mark set, both caught 12 of 12. Every miss under the old rule was a found defect given another label, most often "invented". Both figures are reported in the decision report.
+- **Errors are counted by tier and location, not by type.** The readers' type labels do not agree well enough to count by. `engine/m3/v7_read.py` scores this way, and reports the type-matched catches beside the gate.
+- **Effort and batches.** Mark chose "Max on hard items, high on rest". Round 1 (the seeded check) ran at max effort. Every other first read runs at high. Max effort is used again for every item a reader flags with an error, every disagreement, and every tier 1 or 2 finding. A max batch of 6 measured about 340k tokens. Batches hold 6 items: no two from the same probe, arms mixed, order shuffled.
+- **Passages corrected.** `engine/m4/source_windows.py` resolved some references into the wrong work of a multi-work file: 29 of 213 reader passages were wrong. The fix is in PR #1512. B's 72 windows were unchanged. Hermas "Mandate N" now resolves to the edition's "Commandment" (this entry's pull request). Requests were exported again with the same seed and identical keys. Every round-1 item whose request carried a wrong passage is read again at max effort: 30 for reader-1 and 25 for reader-2. Round-1 items that only gained a passage which was not found before are not read again. The report names them as a known difference.
+
+## 79. V9 change order: which items the third reader rules on, and at what effort (2026-11-04)
+
+Coordination for Mark, 2026-11-04: "option 1".
+
+- **Why.** Under the criteria in entry 78, 221 of 222 items went to the third reader at max effort. That is max on everything, which Mark declined when he chose "Max on hard items, high on rest". A narrower rule still left 216 items, because both readers found a tier 1 or 2 error in 206 of them.
+- **Which items get a ruling.** Every item where either reader found a tier 1 or 2 error, or where the readers' scores on any dimension differ by two points or more: 217 of 222. The other 5 keep the mean of their two blind scores. `engine/m3/v7_read.py` uses this rule both for exporting rulings and for scoring.
+- **At what effort.** Max for the 10 items where only one reader found a tier 1 or 2 error and for the 12 seeded copies. The 30 items ruled on at max before the hold are kept. All other rulings are at high effort. Split: 30 kept, 20 at max, 167 at high.
+- **Added to the decision report.** How harsh the readers are: per arm, how many tier 1 and 2 findings survive the ruling. The readers' tier 1 and 2 findings on A set against the October second-pass and outside-referee reviews of the same answers: how many each found, and how many overlap. A few surviving tier 1 findings quoted with their source lines, so Mark can judge whether "serious" means serious.

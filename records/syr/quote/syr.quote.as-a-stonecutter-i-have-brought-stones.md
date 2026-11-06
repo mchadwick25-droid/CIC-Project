@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own closing to his tenth Demonstration, the last of the first ten, which he dates with them to 337 in Persian territory. Here he turns the building image on himself and his reader.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: >-
-    Demonstration X (Of Pastors), sec. 9, in the NPNF translation (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "Demonstration X (Of Pastors), sec. 9, in the NPNF translation (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27084-27093)"
   license: public-domain
 text: >-
   Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house.
@@ -33,7 +32,7 @@ modern_rendering: >-
 speaker_or_author: Aphrahat, the Persian Sage, Demonstration X
 license: verbatim
 modern_lens_note: >-
-  \"Wrangling\" is disputation for its own sake, and the distinction being drawn is between that and enquiry - which he commands. A reader who expects an ancient teacher to close by demanding assent should notice that he closes by handing his work to others to cut and place, and by telling his reader to go and ask.
+  \"Wrangling\" is disputation for its own sake, and the distinction being drawn is between that and inquiry - which he commands. A reader who expects an ancient teacher to close by demanding assent should notice that he closes by handing his work to others to cut and place, and by telling his reader to go and ask.
 retrieval:
   tier: 1
   retrieve_when:
@@ -44,7 +43,7 @@ relations:
 - type: associated-with
   target: syr.dw.doubt
 use_note:
-  means: "Aphrahat closes Demonstration X, the last of his first ten, written in 337 in Persian territory, by urging enquiry without wrangling and calling himself a stonecutter whose stones wiser builders must shape and lay."
+  means: "Aphrahat closes Demonstration X, the last of his first ten, written in 337 in Persian territory, by urging inquiry without wrangling and calling himself a stonecutter whose stones wiser builders must shape and lay."
   not_for:
     - "a claim that this world welcomed doubt in the modern inner sense"
     - "a claim that all teaching was open to revision, since he also commands overthrowing strange doctrines"
@@ -54,7 +53,7 @@ use_note:
 ---
 This is the sentence that makes the witness's claim checkable. A world whose answer to "was there
 room for doubt" is "faith is a building, laid stone by stone" should be shown its own teacher
-saying so, and saying it in the register that matters here - enquire, receive what edifies,
+saying so, and saying it in the register that matters here - inquire, receive what edifies,
 demolish what does not, and let others carve the stones I brought.
 
 modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

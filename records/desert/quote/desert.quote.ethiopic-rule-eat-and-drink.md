@@ -17,14 +17,12 @@ confidence:
     this same opening provision as Palladius gives it in Greek, through Clarke's English. This is
     the Ethiopic, through Dillmann's text and Schodde's English. Neither is the Coptic, which does
     not survive for this passage, and neither is Jerome's Latin. The two wordings agree on the
-    principle and differ in what they make of it - Palladius has labour proportioned to strength,
+    principle and differ in what they make of it - Palladius has labor proportioned to strength,
     the Ethiopic has work given by the measure of a man's eating - and that difference is itself
-    the evidence about how this rule travelled. Quote either; never both as one text.
+    the evidence about how this rule traveled. Quote either; never both as one text.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 174)"
   license: public-domain
 text: >-
   Suffer each one to eat and to drink, and according to the measure of their eating give them

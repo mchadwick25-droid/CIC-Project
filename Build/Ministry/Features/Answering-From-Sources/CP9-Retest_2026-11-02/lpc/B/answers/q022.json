@@ -1,0 +1,143 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What we can give you is what a bishop decided and cared for, not one ordinary believer's day."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We cannot tell you what an ordinary believer felt on an ordinary week, in the congregation, at the font, or walking up to the altar."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "The one exception is Augustine's account of his own baptism at Milan, in his own first person, but he wrote it years afterward as a bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.term.preaching"
+   ],
+   "sentence": "What we do know is the room itself, where the baptized and those still learning heard the same voice work on them again and again."
+  },
+  {
+   "record_ids": [
+    "lpc.term.preaching"
+   ],
+   "sentence": "Preaching was the bishop's regular talk to the whole gathered church."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.term.preaching"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "What we can give you is what a bishop decided and cared for, not one ordinary believer's day [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "What we can give you is what a bishop decided and cared for, not one ordinary believer's day.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "We cannot tell you what an ordinary believer felt on an ordinary week, in the congregation, at the font, or walking up to the altar [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We cannot tell you what an ordinary believer felt on an ordinary week, in the congregation, at the font, or walking up to the altar.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The one exception is Augustine's account of his own baptism at Milan, in his own first person, but he wrote it years afterward as a bishop [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The one exception is Augustine's account of his own baptism at Milan, in his own first person, but he wrote it years afterward as a bishop.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we do know is the room itself, where the baptized and those still learning heard the same voice work on them again and again [[lpc.term.preaching]] [[as:paraphrase]].",
+   "sentence": "What we do know is the room itself, where the baptized and those still learning heard the same voice work on them again and again.",
+   "tags": [
+    "lpc.term.preaching"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Preaching was the bishop's regular talk to the whole gathered church [[lpc.term.preaching]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Preaching was the bishop's regular talk to the whole gathered church.",
+   "tags": [
+    "lpc.term.preaching"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.gravity.penitential-discipline",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+ ],
+ "raw_text": "What we can give you is what a bishop decided and cared for, not one ordinary believer's day [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. We cannot tell you what an ordinary believer felt on an ordinary week, in the congregation, at the font, or walking up to the altar [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. The one exception is Augustine's account of his own baptism at Milan, in his own first person, but he wrote it years afterward as a bishop [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. What we do know is the room itself, where the baptized and those still learning heard the same voice work on them again and again [[lpc.term.preaching]] [[as:paraphrase]]. Preaching was the bishop's regular talk to the whole gathered church [[lpc.term.preaching]] [[as:paraphrase]]. At the altar we offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]]. Monica, as she lay ill, asked her sons only that they remember her at the Lord's altar, wherever they were [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "At the altar we offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+    "sentence": "At the altar we offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Monica, as she lay ill, asked her sons only that they remember her at the Lord's altar, wherever they were [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+    "sentence": "Monica, as she lay ill, asked her sons only that they remember her at the Lord's altar, wherever they were.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "What we can give you is what a bishop decided and cared for, not one ordinary believer's day. We cannot tell you what an ordinary believer felt on an ordinary week, in the congregation, at the font, or walking up to the altar. Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided. The one exception is Augustine's account of his own baptism at Milan, in his own first person, but he wrote it years afterward as a bishop. What we do know is the room itself, where the baptized and those still learning heard the same voice work on them again and again. Preaching was the bishop's regular talk to the whole gathered church.",
+ "voice_set_aside": false
+}

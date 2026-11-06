@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "title page (1909) and preface (file lines 64-420): no dated preface or first-edition statement"}
     note: >
       Secondary biography, English, Lutzow (1909). Fills out the
       institutional/political register this thin-sourced world's corpus

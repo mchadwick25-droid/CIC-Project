@@ -51,6 +51,8 @@ assignments:
     primary evidence.
 
     '
+  translator: {name: "J. G. Pilkington, M.A.", source: "npnf101_augustine-confessions-letters.xml line 3333: Translated and Annotated by J.G. Pilkington, M.A.,", formation_confidence: Documented}
+  edition_date: {year: 1886, source: "npnf101_augustine-confessions-letters.xml line 725: New York, October, 1886.", formation_confidence: Inferential-Thin}
 - row_id: npnf101_augustine-confessions-letters--the-confessions-2
   work: The Confessions
   author: augustine
@@ -359,3 +361,5 @@ assignments:
     volume, and the ordinary work of a bishop''s correspondence: pastoral advice, administration,
     consolation, friendship, the exchanges with Paulinus and Nebridius. It keeps `tradition`
     for the Latin pastoral entry, which is what it is.'
+  translator: {name: "Rev. J. G. Cunningham, M.A.", source: "npnf101_augustine-confessions-letters.xml line 21712: Translated by the Rev. J. G. Cunningham, M.A.", formation_confidence: Documented}
+  edition_date: {year: 1886, source: "npnf101_augustine-confessions-letters.xml line 725: New York, October, 1886.", formation_confidence: Inferential-Thin}

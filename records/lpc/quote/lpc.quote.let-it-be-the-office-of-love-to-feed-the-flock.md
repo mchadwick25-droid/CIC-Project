@@ -33,6 +33,7 @@ retrieval:
   - participant asks about John 21:15-17, 'Feed my sheep'
   - participant asks what it meant to feed the Lord's flock
   - participant asks what Augustine said was wrong in a leader who feeds the flock for his own gain
+  - participant asks what made a church leader a bad one, such as one who led for money, power or praise
   prefer_instead:
   - participant asks how Peter was put right after denying the Lord -- lpc.quote.peter-the-sick-man-and-the-physician
     gives that

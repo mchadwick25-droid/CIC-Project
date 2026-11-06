@@ -6,8 +6,9 @@ so it can be integrated into each world later, after the parsing and
 organizing is done.
 
 So this lives at `cic/corpus-map/`, outside `records/` entirely - beside the
-texts it describes and the tooling that reads them, and touched by nothing in
-the compile path. The fleet records would NOT have been separate: compile_world()
+texts it describes and the tooling that reads them. The compile reads only each
+source's translator and edition_date from it (engine/m2/edition_facts.py). The
+fleet records would NOT have been separate: compile_world()
 loads them on every build (build_coverage_json,
 build_canon_map_json, and the manifest), so anything there moves all seven
 package hashes.
@@ -118,6 +119,9 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+from yaml_unique import load_unique, unique_key_loader  # noqa: E402,F401
 REPO_ROOT = HERE.parents[1]
 MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
@@ -130,7 +134,8 @@ REQUIRED = ("work", "author", "source_file", "role", "confidence")
 # Every key a bucket row may carry. A key outside this set is a finding, so a
 # misspelt field is reported instead of silently lost.
 ROW_FIELDS = ("row_id", "work", "author", "source_file", "locus", "locus_ids", "role",
-              "confidence", "voice_of", "documented_exchange", "language", "date", "note")
+              "confidence", "voice_of", "documented_exchange", "language", "date", "translator",
+              "edition_date", "note")
 DOCUMENTED_EXCHANGES = {"confirmed", "not-confirmed", "needs-ruling"}
 # The project's five-level formation_confidence vocabulary, plus `unknown` for
 # a date nobody has been able to fix. "Not Attested" names an absent claim, not
@@ -169,8 +174,9 @@ NON_BUCKET_FILES = {
 
 def load() -> dict[str, dict]:
     """atlas_id -> the parsed file. Missing directory is not an error - the
-    map does not exist until the assignment thread starts."""
-    import yaml
+    map does not exist until the assignment thread starts. A bucket that is
+    not valid YAML, or repeats a key, raises yaml.YAMLError; validate()
+    reports it as a finding."""
 
     out: dict[str, dict] = {}
     if not MAP_DIR.is_dir():
@@ -178,18 +184,16 @@ def load() -> dict[str, dict]:
     for path in sorted(MAP_DIR.glob("*.yaml")):
         if path.name in NON_BUCKET_FILES:
             continue
-        out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        out[path.stem] = load_unique(path.read_text(encoding="utf-8")) or {}
     return out
 
 
 def pair_parties() -> set[str]:
     """Slugs of the non-census parties PAIRS.yaml rules on."""
-    import yaml
-
     path = MAP_DIR / "PAIRS.yaml"
     if not path.is_file():
         return set()
-    doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    doc = load_unique(path.read_text(encoding="utf-8")) or {}
     parties = doc.get("parties")
     return set(parties) if isinstance(parties, dict) else set()
 
@@ -229,6 +233,37 @@ def _date_findings(date: object, tag: str) -> list[str]:
     return out
 
 
+def _edition_fact_findings(value: object, tag: str, field: str, key: str, is_valid) -> list[str]:
+    """Shape of `translator` and `edition_date`: a fact about the vendored edition of a work,
+    with the line of the file that states it and a formation confidence, or `unknown` with
+    where it was looked for. `key` is the fact's own key (`name` or `year`)."""
+    if not isinstance(value, dict):
+        return [f"{tag}: {field} must be a mapping, not {type(value).__name__}"]
+    out: list[str] = []
+    allowed = {key, "source", "formation_confidence", "checked"}
+    for k in sorted(set(value) - allowed, key=str):
+        out.append(f"{tag}: {field} has unknown key {k!r} (allowed: {sorted(allowed)})")
+    confidence = value.get("formation_confidence")
+    if confidence == "unknown":
+        if not isinstance(value.get("checked"), str) or not value["checked"].strip():
+            out.append(f"{tag}: {field} with formation_confidence 'unknown' needs `checked`, "
+                       "naming where it was looked for")
+        for k in (key, "source"):
+            if k in value:
+                out.append(f"{tag}: {field} with formation_confidence 'unknown' must not carry {k!r}")
+        return out
+    if confidence not in FORMATION_CONFIDENCES:
+        out.append(f"{tag}: {field} formation_confidence {confidence!r} is not one of "
+                   f"{list(FORMATION_CONFIDENCES)} or 'unknown'")
+    if "checked" in value:
+        out.append(f"{tag}: {field} `checked` belongs only with formation_confidence 'unknown'")
+    if not is_valid(value.get(key)):
+        out.append(f"{tag}: {field} {key} is missing or malformed")
+    if not isinstance(value.get("source"), str) or not value["source"].strip():
+        out.append(f"{tag}: {field} needs a non-empty `source`, the file and line that state it")
+    return out
+
+
 def row_field_findings(entry: dict, tag: str, voice_ids: set[str]) -> list[str]:
     """Shape of the optional row fields, shared by validate() on buckets and the
     merge's check on staging rows. `voice_ids` is every slug `voice_of` may
@@ -265,6 +300,11 @@ def row_field_findings(entry: dict, tag: str, voice_ids: set[str]) -> list[str]:
                        "hyphens as the filenames do (grc, lat, grc-lat)")
     if "date" in entry:
         out.extend(_date_findings(entry["date"], tag))
+    if "translator" in entry:
+        out.extend(_edition_fact_findings(entry["translator"], tag, "translator", "name",
+                                          lambda v: isinstance(v, str) and bool(v.strip())))
+    if "edition_date" in entry:
+        out.extend(_edition_fact_findings(entry["edition_date"], tag, "edition_date", "year", _is_year))
     return out
 
 
@@ -286,18 +326,23 @@ def validate() -> list[str]:
     # exist. It is narrow on purpose: a slug is legal because a RULING exists,
     # never because a session was confident.
     unattributed = MAP_DIR / "UNATTRIBUTED.yaml"
-    if unattributed.is_file():
-        import yaml
-        declared = (yaml.safe_load(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
-        known_authors |= set(declared)
+    import yaml
+
+    try:
+        if unattributed.is_file():
+            declared = (load_unique(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
+            known_authors |= set(declared)
+        voice_ids = set(ids) | pair_parties()
+        buckets_on_disk = load()
+    except yaml.YAMLError as err:
+        return [f"a map file cannot be read as YAML with unique keys: {err}"]
 
     # row_id -> (work, source_file, first place seen). A row lands in every
     # bucket its atlas_ids name, so one id may recur across buckets - but only
     # for the same work; inside one bucket it may not recur at all.
     row_ids: dict[str, tuple[str, str, str]] = {}
-    voice_ids = set(ids) | pair_parties()
 
-    for atlas_id, doc in load().items():
+    for atlas_id, doc in buckets_on_disk.items():
         where = f"{atlas_id}.yaml"
         # CM-6 (Library Access Gate D3 SS3): a bucket
         # carrying `fixture: true` is the M9 selftest's own synthetic data,

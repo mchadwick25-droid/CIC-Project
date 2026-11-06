@@ -65,6 +65,8 @@ assignments:
   - syriac-edessa-nisibis
   role: context
   confidence: assigned
+  locus_ids: [iv.viii.i.i, iv.viii.i.i/notes, iv.viii.i.ii, iv.viii.i.ii/notes, iv.viii.i.iii, iv.viii.i.iii/notes, iv.viii.i.iv/line6945, iv.viii.i.iv/line6971, iv.viii.i.iv/notes, iv.viii.i.iv/line6999, iv.viii.i.iv/line7054, iv.viii.i.iv/line7120, iv.viii.i.iv/line7156, iv.viii.i.iv/line7197, iv.viii.i.iv/line7228, iv.viii.i.iv/line7273, iv.viii.i.iv/line7295, iv.viii.i.iv/line7316, iv.viii.i.iv/line7334, iv.viii.i.iv/line7355, iv.viii.i.iv/line7386, iv.viii.i.iv/line7406, iv.viii.i.iv/line7444, iv.viii.i.iv/line7468, iv.viii.i.v, iv.viii.i.v/notes, iv.viii.i.vi, iv.viii.i.vi/notes, iv.viii.i.vii, iv.viii.i.vii/notes, iv.viii.i.viii, iv.viii.i.viii/notes, iv.viii.i.ix, iv.viii.i.ix/notes, iv.viii.i.x, iv.viii.i.xi, iv.viii.i.xi/notes, iv.viii.i.xii, iv.viii.i.xii/notes, iv.viii.i.xiii, iv.viii.i.xiii/notes, iv.viii.i.xiv, iv.viii.i.xiv/notes, iv.viii.i.xv, iv.viii.i.xv/notes, iv.viii.i.xvi, iv.viii.i.xvi/notes, iv.viii.i.xvii, iv.viii.i.xvii/notes, iv.viii.i.xviii, iv.viii.i.xviii/notes, iv.viii.i.xix, iv.viii.i.xix/notes, iv.viii.i.xx, iv.viii.i.xx/notes, iv.viii.i.xxi, iv.viii.i.xxi/notes, iv.viii.i.xxii, iv.viii.i.xxii/notes, iv.viii.i.xxiii, iv.viii.i.xxiii/notes, iv.viii.i.xxiv, iv.viii.i.xxiv/notes, iv.viii.i.xxv, iv.viii.i.xxv/notes, iv.viii.i.xxvi, iv.viii.i.xxvi/notes, iv.viii.i.xxvii, iv.viii.i.xxvii/notes, iv.viii.i.xxviii, iv.viii.i.xxviii/notes, iv.viii.i.xxix, iv.viii.i.xxix/notes, iv.viii.i.xxx, iv.viii.i.xxx/notes, iv.viii.i.xxxi, iv.viii.i.xxxi/notes, iv.viii.i.xxxii, iv.viii.i.xxxii/notes, iv.viii.i.xxxiii, iv.viii.i.xxxiii/notes, iv.viii.ii.i, iv.viii.ii.i/notes, iv.viii.ii.ii, iv.viii.ii.ii/notes, iv.viii.ii.iii, iv.viii.ii.iii/notes, iv.viii.ii.iv, iv.viii.ii.iv/notes, iv.viii.ii.v, iv.viii.ii.v/notes, iv.viii.ii.vi/line9943, iv.viii.ii.vi/notes, iv.viii.ii.vi/line9979, iv.viii.ii.vi/line10006, iv.viii.ii.vi/line10043, iv.viii.ii.vi/line10062, iv.viii.ii.vi/line10098, iv.viii.ii.vi/line10147, iv.viii.ii.vi/line10182, iv.viii.ii.vi/line10209, iv.viii.ii.vi/line10231, iv.viii.ii.vi/line10261, iv.viii.ii.vi/line10299, iv.viii.ii.vi/line10320, iv.viii.ii.vi/line10341, iv.viii.ii.vi/line10371, iv.viii.ii.vi/line10390, iv.viii.ii.vii, iv.viii.ii.vii/notes, iv.viii.ii.viii, iv.viii.ii.viii/notes, iv.viii.ii.ix, iv.viii.ii.ix/notes, iv.viii.ii.x, iv.viii.ii.x/notes, iv.viii.ii.xi, iv.viii.ii.xi/notes, iv.viii.ii.xii, iv.viii.ii.xii/notes, iv.viii.ii.xiii, iv.viii.ii.xiii/notes, iv.viii.ii.xiv, iv.viii.ii.xiv/notes, iv.viii.ii.xv, iv.viii.ii.xv/notes, iv.viii.ii.xvi, iv.viii.ii.xvi/notes, iv.viii.ii.xvii, iv.viii.ii.xvii/notes, iv.viii.ii.xviii, iv.viii.ii.xviii/notes, iv.viii.ii.xix, iv.viii.ii.xix/notes, iv.viii.ii.xx, iv.viii.ii.xx/notes, iv.viii.ii.xxi, iv.viii.ii.xxii, iv.viii.ii.xxii/notes, iv.viii.ii.xxiii, iv.viii.ii.xxiii/notes, iv.viii.ii.xxiv, iv.viii.ii.xxiv/notes, iv.viii.ii.xxv, iv.viii.ii.xxv/notes, iv.viii.ii.xxvi, iv.viii.ii.xxvi/notes, iv.viii.ii.xxvii, iv.viii.ii.xxvii/notes, iv.viii.ii.xxviii, iv.viii.ii.xxviii/notes, iv.viii.iii.i, iv.viii.iii.i/notes, iv.viii.iii.ii, iv.viii.iii.ii/notes, iv.viii.iii.iii, iv.viii.iii.iii/notes, iv.viii.iii.iv, iv.viii.iii.iv/notes, iv.viii.iii.v, iv.viii.iii.v/notes, iv.viii.iii.vi, iv.viii.iii.vi/notes, iv.viii.iii.vii, iv.viii.iii.vii/notes, iv.viii.iii.viii, iv.viii.iii.viii/notes, iv.viii.iii.ix, iv.viii.iii.ix/notes, iv.viii.iii.x, iv.viii.iii.x/notes, iv.viii.iii.xi, iv.viii.iii.xi/notes, iv.viii.iii.xii, iv.viii.iii.xii/notes, iv.viii.iii.xiii, iv.viii.iii.xiii/notes, iv.viii.iii.xiv, iv.viii.iii.xiv/notes, iv.viii.iii.xv, iv.viii.iii.xv/notes, iv.viii.iii.xvi, iv.viii.iii.xvi/notes, iv.viii.iii.xvii, iv.viii.iii.xvii/notes, iv.viii.iii.xviii, iv.viii.iii.xviii/notes, iv.viii.iii.xix, iv.viii.iii.xix/notes, iv.viii.iii.xx, iv.viii.iii.xx/notes, iv.viii.iii.xxi, iv.viii.iii.xxi/notes, iv.viii.iii.xxii, iv.viii.iii.xxii/notes, iv.viii.iv.i, iv.viii.iv.i/notes, iv.viii.iv.ii, iv.viii.iv.ii/notes, iv.viii.iv.iii, iv.viii.iv.iii/notes, iv.viii.iv.iv, iv.viii.iv.iv/notes, iv.viii.iv.v, iv.viii.iv.v/notes, iv.viii.iv.vi, iv.viii.iv.vi/notes, iv.viii.iv.vii, iv.viii.iv.vii/notes, iv.viii.iv.viii, iv.viii.iv.viii/notes, iv.viii.iv.ix, iv.viii.iv.ix/notes, iv.viii.iv.x, iv.viii.iv.x/notes, iv.viii.iv.xi, iv.viii.iv.xi/notes, iv.viii.iv.xii, iv.viii.iv.xii/notes, iv.viii.iv.xiii, iv.viii.iv.xiii/notes, iv.viii.iv.xiv, iv.viii.iv.xiv/notes, iv.viii.iv.xv, iv.viii.iv.xv/notes, iv.viii.iv.xvi, iv.viii.iv.xvi/notes, iv.viii.iv.xvii, iv.viii.iv.xvii/notes, iv.viii.iv.xviii, iv.viii.iv.xviii/notes, iv.viii.iv.xix/line14738, iv.viii.iv.xix/notes, iv.viii.iv.xix/line14785, iv.viii.iv.xix/line14815, iv.viii.iv.xix/line14875, iv.viii.iv.xix/line14899, iv.viii.iv.xix/line14942, iv.viii.iv.xix/line14986, iv.viii.iv.xix/line15021, iv.viii.iv.xx, iv.viii.iv.xx/notes, iv.viii.iv.xxi, iv.viii.iv.xxii, iv.viii.iv.xxii/notes, iv.viii.iv.xxiii, iv.viii.iv.xxiii/notes, iv.viii.iv.xxiv, iv.viii.iv.xxiv/notes, iv.viii.iv.xxv, iv.viii.iv.xxv/notes, iv.viii.iv.xxvi, iv.viii.iv.xxvi/notes, iv.viii.iv.xxvii, iv.viii.iv.xxvii/notes, iv.viii.iv.xxviii, iv.viii.iv.xxviii/notes, iv.viii.iv.xxix, iv.viii.iv.xxx, iv.viii.iv.xxx/notes, iv.viii.iv.xxxi, iv.viii.iv.xxxi/notes, iv.viii.iv.xxxii, iv.viii.iv.xxxii/notes, iv.viii.iv.xxxiii, iv.viii.iv.xxxiii/notes, iv.viii.v.i, iv.viii.v.i/notes, iv.viii.v.ii, iv.viii.v.ii/notes, iv.viii.v.iii, iv.viii.v.iii/notes, iv.viii.v.iv, iv.viii.v.iv/notes, iv.viii.v.v, iv.viii.v.v/notes, iv.viii.v.vi, iv.viii.v.vii, iv.viii.v.viii, iv.viii.v.viii/notes, iv.viii.v.ix, iv.viii.v.ix/notes, iv.viii.v.x, iv.viii.v.x/notes, iv.viii.v.xi, iv.viii.v.xi/notes, iv.viii.v.xii, iv.viii.v.xii/notes, iv.viii.v.xiii, iv.viii.v.xiii/notes, iv.viii.v.xiv, iv.viii.v.xiv/notes, iv.viii.v.xv, iv.viii.v.xv/notes, iv.viii.v.xvi, iv.viii.v.xvi/notes, iv.viii.v.xvii, iv.viii.v.xvii/notes, iv.viii.v.xviii, iv.viii.v.xviii/notes, iv.viii.v.xix, iv.viii.v.xix/notes, iv.viii.v.xx, iv.viii.v.xx/notes, iv.viii.v.xxi, iv.viii.v.xxi/notes, iv.viii.v.xxii, iv.viii.v.xxii/notes, iv.viii.v.xxiii, iv.viii.v.xxiii/notes, iv.viii.v.xxiv, iv.viii.v.xxiv/notes, iv.viii.v.xxv, iv.viii.v.xxv/notes, iv.viii.v.xxvi, iv.viii.v.xxvii, iv.viii.v.xxvii/notes, iv.viii.v.xxviii, iv.viii.v.xxviii/notes, iv.viii.v.xxix, iv.viii.v.xxix/notes, iv.viii.v.xxx, iv.viii.v.xxx/notes, iv.viii.v.xxxi, iv.viii.v.xxxi/notes, iv.viii.v.xxxii, iv.viii.v.xxxii/notes, iv.viii.v.xxxiii, iv.viii.v.xxxiii/notes, iv.viii.v.xxxiv, iv.viii.v.xxxiv/notes, iv.viii.v.xxxv, iv.viii.v.xxxv/notes, iv.viii.v.xxxvi, iv.viii.v.xxxvi/notes, iv.viii.v.xxxvii, iv.viii.v.xxxvii/notes, iv.viii.v.xxxviii, iv.viii.v.xxxviii/notes, iv.viii.v.xxxix, iv.viii.v.xxxix/notes]
+  language: eng
   note: 'Two Syriac-relevant loci verified directly against the file: II.26 (line 11049) is the chapter
     "Of the siege of the city of Nisibis, and the apostolic conversation of Bishop Jacobus" - the church''s
     own remembered story of the 350 siege (Jacob''s prayer, the gnat plague), which places Jacob alive at
@@ -208,6 +210,8 @@ assignments:
   - syriac-edessa-nisibis
   role: context
   confidence: assigned
+  locus_ids: [v.iii.i, v.iii.i/notes, v.iii.ii, v.iii.iii, v.iii.iii/notes, v.iii.iv, v.iii.iv/notes, v.iii.v, v.iii.v/notes, v.iii.vi, v.iii.vi/notes, v.iii.vii, v.iii.vii/notes, v.iii.viii, v.iii.viii/notes, v.iii.ix, v.iii.ix/notes, v.iii.x, v.iii.x/notes, v.iii.xi, v.iii.xi/notes, v.iii.xii, v.iii.xii/notes, v.iii.xiii, v.iii.xiii/notes, v.iii.xiv, v.iii.xiv/notes, v.iii.xv, v.iii.xv/notes, v.iii.xvi, v.iii.xvi/notes, v.iii.xvii, v.iii.xvii/notes, v.iii.xviii, v.iii.xviii/notes, v.iii.xix, v.iii.xix/notes, v.iii.xx, v.iii.xx/notes, v.iii.xxi, v.iii.xxi/notes, v.iii.xxii, v.iii.xxii/notes, v.iii.xxiii, v.iii.xxiii/notes, v.iii.xxiv, v.iii.xxiv/notes, v.iii.xxv, v.iii.xxv/notes, v.iii.xxvi, v.iii.xxvi/notes, v.iii.xxvii, v.iii.xxvii/notes, v.iii.xxviii, v.iii.xxviii/notes, v.iii.xxix, v.iii.xxix/notes, v.iii.xxx, v.iii.xxx/notes, v.iii.xxxi, v.iii.xxxi/notes, v.iii.xxxii, v.iii.xxxii/notes, v.iii.xxxiii, v.iii.xxxiii/notes, v.iii.xxxiv, v.iii.xxxiv/notes, v.iii.xxxv, v.iii.xxxv/notes, v.iii.xxxvi, v.iii.xxxvi/notes, v.iii.xxxvii, v.iii.xxxvii/notes, v.iii.xxxviii, v.iii.xxxviii/notes, v.iii.xxxix, v.iii.xxxix/notes, v.iii.xl, v.iii.xl/notes, v.iii.xli, v.iii.xli/notes, v.iii.xlii, v.iii.xlii/notes, v.iii.xliii, v.iii.xliii/notes, v.iii.xliv, v.iii.xliv/notes, v.iii.xlv, v.iii.xlv/notes, v.iii.xlvi, v.iii.xlvi/notes, v.iii.xlvii, v.iii.xlvii/notes, v.iii.xlviii, v.iii.xlviii/notes, v.iii.xlix, v.iii.xlix/notes, v.iii.l, v.iii.l/notes, v.iii.li, v.iii.li/notes, v.iii.lii, v.iii.lii/notes, v.iii.liii, v.iii.liii/notes, v.iii.liv, v.iii.liv/notes, v.iii.lv, v.iii.lv/notes, v.iii.lvi, v.iii.lvi/notes, v.iii.lvii, v.iii.lvii/notes, v.iii.lviii, v.iii.lviii/notes, v.iii.lix, v.iii.lix/notes, v.iii.lx, v.iii.lx/notes, v.iii.lxi, v.iii.lxi/notes, v.iii.lxii, v.iii.lxii/notes, v.iii.lxiii, v.iii.lxiii/notes, v.iii.lxiv, v.iii.lxiv/notes, v.iii.lxv, v.iii.lxv/notes, v.iii.lxvi, v.iii.lxvi/notes, v.iii.lxvii, v.iii.lxvii/notes, v.iii.lxviii, v.iii.lxviii/notes, v.iii.lxix, v.iii.lxix/notes, v.iii.lxx, v.iii.lxx/notes, v.iii.lxxi, v.iii.lxxi/notes, v.iii.lxxii, v.iii.lxxii/notes, v.iii.lxxiii, v.iii.lxxiii/notes, v.iii.lxxiv, v.iii.lxxiv/notes, v.iii.lxxv, v.iii.lxxv/notes, v.iii.lxxvi, v.iii.lxxvi/notes, v.iii.lxxvii, v.iii.lxxvii/notes, v.iii.lxxviii, v.iii.lxxviii/notes, v.iii.lxxix, v.iii.lxxix/notes, v.iii.lxxx, v.iii.lxxx/notes, v.iii.lxxxi, v.iii.lxxxi/notes, v.iii.lxxxii, v.iii.lxxxii/notes, v.iii.lxxxiii, v.iii.lxxxiii/notes, v.iii.lxxxiv, v.iii.lxxxiv/notes, v.iii.lxxxv, v.iii.lxxxv/notes, v.iii.lxxxvi, v.iii.lxxxvi/notes, v.iii.lxxxvii, v.iii.lxxxvii/notes, v.iii.lxxxviii, v.iii.lxxxviii/notes, v.iii.lxxxix, v.iii.lxxxix/notes, v.iii.xc, v.iii.xc/notes, v.iii.xci, v.iii.xci/notes, v.iii.xcii, v.iii.xcii/notes, v.iii.xciii, v.iii.xciii/notes, v.iii.xciv, v.iii.xciv/notes, v.iii.xcv, v.iii.xcv/notes, v.iii.xcvi, v.iii.xcvi/notes, v.iii.xcvii, v.iii.xcvii/notes, v.iii.xcviii, v.iii.xcviii/notes, v.iii.xcix, v.iii.xcix/notes, v.iii.c, v.iii.c/notes, v.iii.ci, v.iii.ci/notes, v.iii.cii, v.iii.cii/notes, v.iii.ciii, v.iii.ciii/notes, v.iii.civ, v.iii.civ/notes, v.iii.cv, v.iii.cv/notes, v.iii.cvi, v.iii.cvi/notes, v.iii.cvii, v.iii.cvii/notes, v.iii.cviii, v.iii.cviii/notes, v.iii.cix, v.iii.cix/notes, v.iii.cx, v.iii.cx/notes, v.iii.cxi, v.iii.cxi/notes, v.iii.cxii, v.iii.cxii/notes, v.iii.cxiii, v.iii.cxiii/notes, v.iii.cxiv, v.iii.cxiv/notes, v.iii.cxv, v.iii.cxv/notes, v.iii.cxvi, v.iii.cxvi/notes, v.iii.cxvii, v.iii.cxvii/notes, v.iii.cxviii, v.iii.cxviii/notes, v.iii.cxix, v.iii.cxix/notes, v.iii.cxx, v.iii.cxx/notes, v.iii.cxxi, v.iii.cxxi/notes, v.iii.cxxii, v.iii.cxxii/notes, v.iii.cxxiii, v.iii.cxxiii/notes, v.iii.cxxiv, v.iii.cxxiv/notes, v.iii.cxxv, v.iii.cxxv/notes, v.iii.cxxvi, v.iii.cxxvi/notes, v.iii.cxxvii, v.iii.cxxvii/notes, v.iii.cxxviii, v.iii.cxxviii/notes, v.iii.cxxix, v.iii.cxxix/notes, v.iii.cxxx, v.iii.cxxx/notes, v.iii.cxxxi, v.iii.cxxxi/notes, v.iii.cxxxii, v.iii.cxxxii/notes, v.iii.cxxxiii, v.iii.cxxxiii/notes, v.iii.cxxxiv, v.iii.cxxxiv/notes, v.iii.cxxxv, v.iii.cxxxv/notes, v.iii.cxxxvi, v.iii.cxxxvi/notes, v.iii.cxxxvii, v.iii.cxxxvii/notes]
+  language: eng
   note: 'Same catalogue, context row for its two Syriac-relevant chapters, verified directly against
     the file (line 41542): Jerome states Ephrem "became so distinguished that his writings are repeated
     publicly in some churches, after the reading of the Scriptures" - independent late-4th-century attestation
@@ -319,6 +323,8 @@ assignments:
   - hieronymian-ascetic-literary
   role: context
   confidence: provisional
+  locus_ids: [vi.v, vi.v/notes, vi.vi/line49735, vi.vi/line49784, vi.vi/line49865, vi.vi/notes, vi.vi/line49894, vi.vi/line49921, vi.vi/line49942, vi.vi/line50017, vi.vi/line50041, vi.vi/line50069, vi.vi/line50086, vi.vi/line50110, vi.vi/line50132, vi.vi/line50175, vi.vi/line50196, vi.vi/line50214]
+  language: eng
   note: 'Pamphilus'' defence of Origen''s orthodoxy in Rufinus'' Latin (397), with Rufinus''
     own treatise on the corruption of Origen''s works. Context for alexandria (a defence of
     its greatest teacher from outside the school) and for hal (this translation ignited the
@@ -350,6 +356,8 @@ assignments:
   - alexandria-catechetical
   role: context
   confidence: provisional
+  locus_ids: [vi.x, vi.x/notes]
+  language: eng
   note: 'Rome''s judgment in the Origenist controversy (401): a papal letter surrounding the
     Jerome-Rufinus quarrel and condemning Origen''s translated teaching. Context for both
     entries the controversy touches. Author ruled above from the section''s own title.
@@ -390,6 +398,8 @@ assignments:
   - alexandria-catechetical
   role: context
   confidence: assigned
+  locus_ids: [vi.xii.i.i, vi.xii.i.ii, vi.xii.i.ii/notes, vi.xii.i.iii, vi.xii.i.iii/notes, vi.xii.i.iv, vi.xii.i.iv/notes, vi.xii.i.v, vi.xii.i.vi, vi.xii.i.vi/notes, vi.xii.i.vii, vi.xii.i.vii/notes, vi.xii.i.viii, vi.xii.i.ix, vi.xii.i.ix/notes, vi.xii.i.x, vi.xii.i.x/notes, vi.xii.i.xi, vi.xii.i.xi/notes, vi.xii.i.xii, vi.xii.i.xii/notes, vi.xii.i.xiii, vi.xii.i.xiii/notes, vi.xii.i.xiv, vi.xii.i.xiv/notes, vi.xii.i.xv, vi.xii.i.xvi, vi.xii.i.xvii, vi.xii.i.xviii, vi.xii.i.xviii/notes, vi.xii.i.xix, vi.xii.i.xix/notes, vi.xii.i.xx, vi.xii.i.xx/notes, vi.xii.i.xxi, vi.xii.i.xxii, vi.xii.i.xxiii, vi.xii.i.xxiii/notes, vi.xii.i.xxiv, vi.xii.i.xxiv/notes, vi.xii.i.xxv, vi.xii.i.xxv/notes, vi.xii.i.xxvi, vi.xii.i.xxvii, vi.xii.i.xxvii/notes, vi.xii.i.xxviii, vi.xii.i.xxix, vi.xii.i.xxix/notes, vi.xii.i.xxx, vi.xii.i.xxx/notes, vi.xii.i.xxxi, vi.xii.i.xxxi/notes, vi.xii.i.xxxii, vi.xii.i.xxxii/notes, vi.xii.i.xxxiii, vi.xii.i.xxxiii/notes, vi.xii.ii.i, vi.xii.ii.ii, vi.xii.ii.ii/notes, vi.xii.ii.iii, vi.xii.ii.iii/notes, vi.xii.ii.iv, vi.xii.ii.iv/notes, vi.xii.ii.v, vi.xii.ii.v/notes, vi.xii.ii.vi, vi.xii.ii.vii, vi.xii.ii.vii/notes, vi.xii.ii.viii, vi.xii.ii.viii/notes, vi.xii.ii.ix, vi.xii.ii.x, vi.xii.ii.x/notes, vi.xii.ii.xi, vi.xii.ii.xi/notes, vi.xii.ii.xii, vi.xii.ii.xii/notes, vi.xii.ii.xiii, vi.xii.ii.xiii/notes, vi.xii.ii.xiv, vi.xii.ii.xv, vi.xii.ii.xvi, vi.xii.ii.xvi/notes, vi.xii.ii.xvii, vi.xii.ii.xvii/notes, vi.xii.ii.xviii, vi.xii.ii.xix, vi.xii.ii.xix/notes, vi.xii.ii.xx, vi.xii.ii.xx/notes, vi.xii.ii.xxi, vi.xii.ii.xxi/notes, vi.xii.ii.xxii, vi.xii.ii.xxiii, vi.xii.ii.xxiii/notes, vi.xii.ii.xxiv, vi.xii.ii.xxiv/notes, vi.xii.ii.xxv, vi.xii.ii.xxv/notes, vi.xii.ii.xxvi, vi.xii.ii.xxvi/notes, vi.xii.ii.xxvii, vi.xii.ii.xxviii, vi.xii.ii.xxviii/notes, vi.xii.ii.xxix, vi.xii.iii.i, vi.xii.iii.ii, vi.xii.iii.ii/notes, vi.xii.iii.iii, vi.xii.iii.iii/notes, vi.xii.iii.iv, vi.xii.iii.iv/notes, vi.xii.iii.v, vi.xii.iii.v/notes, vi.xii.iii.vi, vi.xii.iii.vi/notes, vi.xii.iii.vii, vi.xii.iii.vii/notes, vi.xii.iii.viii, vi.xii.iii.viii/notes, vi.xii.iii.ix, vi.xii.iii.x, vi.xii.iii.x/notes, vi.xii.iii.xi, vi.xii.iii.xii, vi.xii.iii.xiii, vi.xii.iii.xiii/notes, vi.xii.iii.xiv, vi.xii.iii.xv, vi.xii.iii.xv/notes, vi.xii.iii.xvi, vi.xii.iii.xvii, vi.xii.iii.xvii/notes, vi.xii.iii.xviii, vi.xii.iii.xviii/notes, vi.xii.iii.xix, vi.xii.iii.xix/notes, vi.xii.iii.xx, vi.xii.iii.xxi, vi.xii.iii.xxii, vi.xii.iii.xxii/notes, vi.xii.iii.xxiii, vi.xii.iii.xxiii/notes, vi.xii.iii.xxiv, vi.xii.iii.xxiv/notes, vi.xii.iii.xxv, vi.xii.iii.xxvi, vi.xii.iii.xxvii, vi.xii.iii.xxviii, vi.xii.iii.xxix, vi.xii.iii.xxix/notes, vi.xii.iii.xxx, vi.xii.iii.xxx/notes, vi.xii.iii.xxxi, vi.xii.iii.xxxi/notes, vi.xii.iii.xxxii, vi.xii.iii.xxxii/notes, vi.xii.iii.xxxiii, vi.xii.iii.xxxiii/notes, vi.xii.iii.xxxiv, vi.xii.iii.xxxiv/notes, vi.xii.iii.xxxv, vi.xii.iii.xxxvi, vi.xii.iii.xxxvi/notes, vi.xii.iii.xxxvii, vi.xii.iii.xxxviii, vi.xii.iii.xxxix, vi.xii.iii.xl, vi.xii.iii.xl/notes, vi.xii.iii.xli, vi.xii.iii.xli/notes, vi.xii.iii.xlii, vi.xii.iii.xliii, vi.xii.iii.xliii/notes, vi.xii.iii.xliv, vi.xii.iii.xliv/notes, vi.xii.iii.xlv]
+  language: eng
   note: 'Same work, context row: with Rufinus'' Apology it is the fullest documentation of
     how Origen''s legacy was fought over in the Latin West - evidence about the Alexandrian
     tradition''s reception, from outside it.
@@ -420,6 +430,8 @@ assignments:
   - alexandria-catechetical
   role: context
   confidence: provisional
+  locus_ids: [vi.xiv, vi.xiv/notes, vi.xvii, vi.xvii/notes, vi.xviii, vi.xviii/notes, vi.xix, vi.xix/notes]
+  language: eng
   note: 'Grouped as one small body: Rufinus'' own prefaces to his translations, documenting
     how and why Origen and the Clementine literature were carried into Latin. Context for
     alexandria as transmission evidence. Provisional because these are paratexts; they may
@@ -495,3 +507,90 @@ assignments:
   note: >
     The one 5th-century notice of a British bishop as an author; provisional, before the
     entry's window.
+
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-liii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the presbyter' (file line 40489)
+  author: jerome
+  locus: div3 v.iii.lv, Chapter LIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Tertullian: presbyter of the church until middle life, then a lapse to the doctrine of Montanus; it names four works written against the church (On modesty, On persecution, On fasts, On monogamy). The file''s gloss ''Born about 160, christian 195, apology 198, died about 245'' is the NPNF editor''s, not Jerome''s. Context, not tradition: an outside cataloguer writing about 392.'
+  locus_ids:
+  - div3:v.iii.lv (Chapter LIII)
+  language: eng
+  date: &id001
+    start: 392
+    end: 392
+    source: 'npnf203_theodoret-jerome-gennadius-rufinus.xml, prologue of the Lives of Illustrious Men (div3 v.iii.i); window as first recorded: the work states its end point as the fourteenth year of the Emperor Theodosius (file line 38785); the NPNF note there prints ''a.d. 492'', which reads as a misprint for 392 since Theodosius reigned from 379; The date is the work''s own terminal statement. The year number 392 is the reading of that statement.'
+    formation_confidence: Documented
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LVIII 'Minucius Felix' (file line 40642)
+  author: jerome
+  locus: div3 v.iii.lx, Chapter LVIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Minucius Felix: a distinguished advocate of Rome, author of the Octavius, to whom another work, On fate, is also ascribed; Jerome adds that Lactantius mentions him. The file''s gloss ''Flourished 196?'' is the NPNF editor''s. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lx (Chapter LVIII)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxix
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXIX 'Arnobius the rhetorician' (file line 41017)
+  author: jerome
+  locus: div3 v.iii.lxxxi, Chapter LXXIX
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Arnobius: a teacher of rhetoric at Sicca in Africa under Diocletian, who wrote volumes Against the nations. It says nothing of a dream, a bishop or a pledge; those belong to Jerome''s Chronicle, which is not vendored. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lxxxi (Chapter LXXIX)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxx
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXX 'Firmianus, surnamed Lactantius' (file line 41028)
+  author: jerome
+  locus: div3 v.iii.lxxxii, Chapter LXXX
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Lactantius: called a disciple of Arnobius; taught rhetoric at Nicomedia; his works are listed, the Divine Institutes among them; in extreme old age tutor to Crispus in Gaul. It says nothing of chiliasm or of the Holy Spirit. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lxxxii (Chapter LXXX)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-xviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. XVIII 'Papias the bishop' (file line 39858)
+  author: jerome
+  locus: div3 v.iii.xx, Chapter XVIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: Jerome's notice of Papias. Its last sentences say that Irenaeus, Apollinaris and others hold the millennial reign, and that Tertullian (in On the hope of the faithful), Victorinus of Petau and Lactantius follow the view. Read for the chiliasm of Tertullian and Lactantius only. Context, not tradition.
+  locus_ids:
+  - div3:v.iii.xx (Chapter XVIII)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-xv
+  work: Gennadius, Lives of Illustrious Men (continuation), ch. XV 'Commodianus' (file line 42419)
+  author: gennadius
+  locus: div3 v.iv.xvi, Chapter XV
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Gennadius''s notice of Commodian: a convert from secular literature who wrote, in rough verse, Against the pagans. It gives no date. The file''s gloss ''Flourished about 270'' with the remark that opinions differ from 250 to nearly a century later is the NPNF editor''s. Context, not tradition.'
+  locus_ids:
+  - div3:v.iv.xvi (Chapter XV)
+  language: eng
+  date:
+    start: 477
+    end: 494
+    source: 'harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt (file line 24439); window as first recorded: composed after the death of Jerome (the Gennadius continuation); Harnack 1904 says Gennadius wrote certainly between 477 and 494'
+    formation_confidence: Widely Accepted

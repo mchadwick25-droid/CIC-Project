@@ -16,8 +16,7 @@ confidence:
     Contested for incident-level attribution, the standing bound on this Vita: reported narrative inside a bishop-author's own constructed exemplar, written for his own purposes. The wording is verbatim from the vendored file.
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: >-
-    Vita Antonii SS2 (npnf204_athanasius-select-works-letters.xml)
+  locus: "Vita Antonii SS2 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 31246-31255)"
   license: public-domain
 text: >-
   Antony, as though God had put him in mind of the Saints, and the passage had been read on his account, went out immediately from the church, and gave the possessions of his forefathers to the villagers—they were three hundred acres , productive and very fair—that they should be no more a clog upon himself and his sister .

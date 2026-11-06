@@ -7,7 +7,7 @@ produce the same shape of answer to the same question — "how might a
 modern reader mishear this, and what did this world actually mean by it"
 — instead of six different interpretations of "upgrade your glossary."
 
-**Status as of 2026-08-22: COMPLETE.** All six content-world threads
+**Status: COMPLETE.** All six content-world threads
 (alx, hal, pahc, ijc, syr, desert) populated the fields below across
 their own already-built record sets and opened retrofit PRs (#18-#23);
 each was independently re-verified against the real gate battery on its
@@ -72,7 +72,7 @@ quick_meaning: The community's thanksgiving meal of bread and cup.
 required (not just the parent `senses` object) — every term record needs
 both, not a `senses` object with only `informational` filled in.
 
-Two more term fields, added 2026-08-22 after reviewing the prior
+Two more term fields come from the prior
 framework's own term design (`cic-poc/backend/wrs/` — pre-redesign
 material, evidence not dependency per `Build-Blueprint.md`, but its
 `desertlex001.md` worked example surfaced two genuinely useful ideas not
@@ -166,9 +166,9 @@ three fields above, consistently, across their own world's already-built
 term/story/quote records. Compiling and rendering them is separate work
 that happens once, centrally, not six times.
 
-## SS5. Also found in the broader consistency pass (2026-08-22): gravity/force classification
+## SS5. Also found in the broader consistency pass: gravity/force classification
 
-Checked while Mark asked for a wider look at what else needs to be
+Checked in a wider look at what else needs to be
 consistent in template/form (vs. genuinely unique in content) across the
 six worlds. `git grep` across all five in-progress/built worlds'
 `gravity`/`force` records found the same risk class as SS1-3, already

@@ -19,6 +19,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: lat-deu
+  date: {formation_confidence: unknown, checked: "title page, Vorwort and contents (file lines 1-300): a volume of diaries, sermons and reform papers from several years, no single date"}
   note: Primary acts, diaries and sermons of the Council of Constance in Latin, clean OCR, quotable once
     checked against the scan. Placed as context on the Hussite entry for the trial of Hus; the volume
     was not searched for it page by page.

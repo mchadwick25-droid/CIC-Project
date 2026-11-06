@@ -55,7 +55,7 @@ THE SPLIT THAT MUST BE HELD (don.core.donatism cautions item 4). The
 Circumcellions' EXISTENCE is settled independently of hostile polemic:
 imperial law fines circumcelliones ten pounds of silver, the only rank in
 a graduated schedule assessed in silver rather than gold, from illustres
-at the top down to plebei. Their CHARACTERISATION is substantially the
+at the top down to plebei. Their CHARACTERIZATION is substantially the
 product of that polemic. Attesting the first does not attest the second,
 and a Representative must never let the legislation's confirmation of
 the group's reality slide into confirmation of what its opponents said

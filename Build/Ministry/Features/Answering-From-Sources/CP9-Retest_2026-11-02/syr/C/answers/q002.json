@@ -1,0 +1,243 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "sentence": "To us, Jesus is the Only-Begotten of God, the Ihidaya, our own name for him."
+  },
+  {
+   "record_ids": [
+    "syr.term.ihidaya"
+   ],
+   "sentence": "Ihidaya is also our word for the vowed celibate, and the two senses share one root."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "Jesus left his place with God and made his home in the Virgin, and by being born as we are born he became the brother of many."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "In Jesus the words of the prophets, kings, and priests came true, and the Nativity hymns sing the day that made them glad."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The death and rising of Jesus are one rescue, for Jesus went down into Sheol, the world of the dead, and came out into the Kingdom."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The rising of Jesus is our promise that Jesus will bring us out after him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "To those who followed Jesus, he is the Physician, and his coming is medicine for a wounded people."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Jesus is God, we said, in our own way of speaking, through a chain of Scripture's own names rather than a philosopher's definition."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our native tongue for this faith was praise, and our teachers warned against prying scrutiny into the Godhead."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-sure-thing"
+   ],
+   "sentence": "The Persian sage set down our confession in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.jesus",
+  "syr.dw.was-jesus-god",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.term.ihidaya"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "To us, Jesus is the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us, Jesus is the Only-Begotten of God, the Ihidaya, our own name for him.",
+   "tags": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Ihidaya is also our word for the vowed celibate, and the two senses share one root [[syr.term.ihidaya]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Ihidaya is also our word for the vowed celibate, and the two senses share one root.",
+   "tags": [
+    "syr.term.ihidaya"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Jesus left his place with God and made his home in the Virgin, and by being born as we are born he became the brother of many [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Jesus left his place with God and made his home in the Virgin, and by being born as we are born he became the brother of many.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In Jesus the words of the prophets, kings, and priests came true, and the Nativity hymns sing the day that made them glad [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In Jesus the words of the prophets, kings, and priests came true, and the Nativity hymns sing the day that made them glad.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The death and rising of Jesus are one rescue, for Jesus went down into Sheol, the world of the dead, and came out into the Kingdom [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The death and rising of Jesus are one rescue, for Jesus went down into Sheol, the world of the dead, and came out into the Kingdom.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The rising of Jesus is our promise that Jesus will bring us out after him [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The rising of Jesus is our promise that Jesus will bring us out after him.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "To those who followed Jesus, he is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To those who followed Jesus, he is the Physician, and his coming is medicine for a wounded people.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Jesus is God, we said, in our own way of speaking, through a chain of Scripture's own names rather than a philosopher's definition [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Jesus is God, we said, in our own way of speaking, through a chain of Scripture's own names rather than a philosopher's definition.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our native tongue for this faith was praise, and our teachers warned against prying scrutiny into the Godhead [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our native tongue for this faith was praise, and our teachers warned against prying scrutiny into the Godhead.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Persian sage set down our confession in Demonstration XVII: [[quote:syr.quote.aphrahat-sure-thing]]",
+   "placed_quote": "syr.quote.aphrahat-sure-thing",
+   "sentence": "The Persian sage set down our confession in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”",
+   "tags": [
+    "syr.quote.aphrahat-sure-thing"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.contested.edessa-origins",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.was-jesus-god",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "raw_text": "To us, Jesus is the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]]. Ihidaya is also our word for the vowed celibate, and the two senses share one root [[syr.term.ihidaya]] [[as:paraphrase]]. Jesus left his place with God and made his home in the Virgin, and by being born as we are born he became the brother of many [[syr.dw.jesus]] [[as:paraphrase]]. In Jesus the words of the prophets, kings, and priests came true, and the Nativity hymns sing the day that made them glad [[syr.dw.jesus]] [[as:paraphrase]]. The death and rising of Jesus are one rescue, for Jesus went down into Sheol, the world of the dead, and came out into the Kingdom [[syr.dw.jesus]] [[as:paraphrase]]. The rising of Jesus is our promise that Jesus will bring us out after him [[syr.dw.jesus]] [[as:paraphrase]]. To those who followed Jesus, he is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]] [[as:paraphrase]]. Jesus is God, we said, in our own way of speaking, through a chain of Scripture's own names rather than a philosopher's definition [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our native tongue for this faith was praise, and our teachers warned against prying scrutiny into the Godhead [[syr.dw.was-jesus-god]] [[as:paraphrase]]. The Persian sage set down our confession in Demonstration XVII: [[quote:syr.quote.aphrahat-sure-thing]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-sure-thing": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "erd, Gatherer, and the Door, and the Pearl, and the Lamp In Demonstration XVII Aphrahat affirms as sure among his people that Jesus i",
+     "span": "record syr.quote.aphrahat-sure-thing"
+    },
+    {
+     "detail": "XVII",
+     "kind": "name",
+     "snippet": "hepherd. He is Gatherer, the Door, the Pearl, and the Lamp. XVII.2 it is a sure thing with us, that Jesus our Lord is God, t",
+     "span": "record syr.quote.aphrahat-sure-thing"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-sure-thing"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "To us, Jesus is the Only-Begotten of God, the Ihidaya, our own name for him. Ihidaya is also our word for the vowed celibate, and the two senses share one root. Jesus left his place with God and made his home in the Virgin, and by being born as we are born he became the brother of many. In Jesus the words of the prophets, kings, and priests came true, and the Nativity hymns sing the day that made them glad. The death and rising of Jesus are one rescue, for Jesus went down into Sheol, the world of the dead, and came out into the Kingdom. The rising of Jesus is our promise that Jesus will bring us out after him. To those who followed Jesus, he is the Physician, and his coming is medicine for a wounded people. Jesus is God, we said, in our own way of speaking, through a chain of Scripture's own names rather than a philosopher's definition. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized. Our native tongue for this faith was praise, and our teachers warned against prying scrutiny into the Godhead. The Persian sage set down our confession in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”.",
+ "voice_set_aside": false
+}

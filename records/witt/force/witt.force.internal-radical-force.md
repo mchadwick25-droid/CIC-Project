@@ -59,7 +59,7 @@ relations:
 - type: associated-with
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'The internal-radical force: Karlstadt and Zwilling''s pace (1522); the "new spirits," "fanatics"
-  and Anabaptists (1529-31) [2B - ongoing/internal]'
+  and Anabaptists (1529-31)'
 kind: ongoing
 matrix_cell: 2B
 description: 'In 1522, while the founder was away at the Wartburg, Karlstadt and Zwilling ran their own program in Wittenberg.
@@ -73,7 +73,7 @@ description: 'In 1522, while the founder was away at the Wartburg, Karlstadt and
 
   Inside this world, the force was received as the devil''s game, played through one''s own colleagues: "here we
   battle not against pope or bishop, but against the devil... he would make a flank attack" (v2 14752-14756).
-  People felt it in deathbeds put in danger, in scandalized neighbours, and in what "men say" of Wittenberg: "they
+  People felt it in deathbeds put in danger, in scandalized neighbors, and in what "men say" of Wittenberg: "they
   take the sacrament with the hands and handle the cup, and then they go to their brandy" (v2 15404-15407). The
   world answered with its own rule: "Take note of these two things, ''must'' and ''free''... Now do not make a
   ''must'' out of what is ''free''" (v2 14790-14796).

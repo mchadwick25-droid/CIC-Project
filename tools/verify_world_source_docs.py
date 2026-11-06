@@ -166,15 +166,34 @@ def split_cells(line: str) -> list[str]:
     return [c.strip() for c in body.split("|")]
 
 
+def is_separator(cells: list[str]) -> bool:
+    return all(re.fullmatch(r":?-+:?", c) for c in cells)
+
+
 def parse_registry(lines: list[str]) -> list[Row]:
+    """Rows of the table headed `#`. Other tables in the Registry file are not
+    Registry rows. A table whose header carries one extra final column named
+    "Discovery ..." (the template's discovery log) is read on its first ten
+    columns; the extra column holds provenance, not classification."""
     rows: list[Row] = []
+    in_registry = False
+    extra = False
     for number, line in enumerate(lines, 1):
         if not line.startswith("|"):
             continue
         cells = split_cells(line)
-        if cells[0] in ("#", "---") or set(cells[0]) <= set("-: "):
+        if is_separator(cells):
             continue
-        rows.append(Row(number, cells))
+        following = lines[number] if number < len(lines) else ""
+        if following.startswith("|") and is_separator(split_cells(following)):
+            in_registry = strip_marks(cells[0]) == "#"
+            extra = (in_registry and len(cells) == len(COLUMNS) + 1
+                     and cells[-1].startswith("Discovery"))
+            continue
+        if in_registry:
+            if extra and len(cells) == len(COLUMNS) + 1:
+                cells = cells[:len(COLUMNS)]
+            rows.append(Row(number, cells))
     return rows
 
 
@@ -187,8 +206,10 @@ def load_world(repo: Path, code: str) -> World:
             raise SystemExit(f"missing {path}")
     doc_lines = doc_path.read_text(encoding="utf-8").splitlines()
     reg_lines = reg_path.read_text(encoding="utf-8").splitlines()
-    return World(code, doc_path, reg_path, doc_lines, reg_lines,
-                 parse_registry(reg_lines))
+    rows = parse_registry(reg_lines)
+    if not rows:
+        raise SystemExit(f"no Registry rows read from {reg_path}: no table is headed `#`")
+    return World(code, doc_path, reg_path, doc_lines, reg_lines, rows)
 
 
 def sentences(text: str) -> list[str]:
@@ -689,7 +710,10 @@ def check_quotes(world: World, texts: Texts, tolerance: int,
     haystacks = {n: (normalise(texts.raw(n)) if n.endswith(".txt")
                      else tag_free(texts.raw(n))[0]) for n in named_files}
     for path in reference:
-        haystacks[path.name] = normalise(path.read_text(encoding="utf-8"))
+        body = path.read_text(encoding="utf-8")
+        if path.suffix == ".yaml":
+            body = body.replace("''", "'")
+        haystacks[path.name] = normalise(body)
     elsewhere: list[str] = []
     pieces_checked = 0
     quotes_checked = 0
@@ -784,7 +808,8 @@ def piece_found(piece: str, texts: Texts, files: list[str],
 def reference_documents(repo: Path) -> list[Path]:
     template = (repo / "Build" / "reference" / "L3B-World-Build-Methodology"
                 / "Source_Registry_Template.md")
-    return [template] if template.is_file() else []
+    found = [template] if template.is_file() else []
+    return found + sorted((repo / "cic" / "corpus-map").glob("*.yaml"))
 
 
 def parse_window(world: World, override: str | None) -> tuple[int, int]:

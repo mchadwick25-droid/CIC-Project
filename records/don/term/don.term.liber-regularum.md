@@ -54,7 +54,7 @@ false_friend:
 - a systematic theology, rather than a hermeneutical handbook of seven rules
 senses:
   informational: A substantially complete hermeneutical treatise by a Donatist whom Monceaux calls a layman, setting out seven rules
-    for reading scripture, later influential on Augustine's own De doctrina christiana III. Monceaux characterises
+    for reading scripture, later influential on Augustine's own De doctrina christiana III. Monceaux characterizes
     Tyconius as a layman writing theology where only the primate normally spoke in the party's name, a polemicist
     who pursued an argument even against his own side's interest, and the author of a system original enough to
     impose itself on both rival churches.

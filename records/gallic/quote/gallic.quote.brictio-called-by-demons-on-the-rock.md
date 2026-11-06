@@ -19,9 +19,7 @@ confidence:
     he saw and heard, not a claim that demons literally sat on the rock.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5289-5299): Martin seated in the small
-    court; two demons on the rock overhanging the monastery calling Brictio's name; Brictio's furious
-    arrival"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5289-5299; div ii.iv.iii.xv): Martin seated in the small court; two demons on the rock overhanging the monastery calling Brictio's name; Brictio's furious arrival"
   license: public-domain
 retrieval:
   tier: 3
@@ -48,13 +46,7 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
-modern_rendering: >-
-  Again, one day, he had sat down on that wooden seat of his, which you all know. It stood in the small
-  open yard around his dwelling. From there he saw two demons sitting on the high rock that hangs over
-  the monastery. Then he heard them call out, in eager and joyful voices, ‘Come here, Brictio, come
-  here, Brictio.’ I believe they saw the wretched man coming from far off. They knew how great a frenzy
-  of spirit they had stirred up in him. There is no delay. Brictio rushes in, in utter fury. There, full
-  of madness, he spews out a thousand insults against Martin.
+modern_rendering: "Again, one day, he had sat down on that wooden seat of his, which you all know. It stood in the small open yard around his dwelling. He saw two demons sitting on the high rock that hangs over the monastery. Then he heard them call out, in eager and joyful voices, ‘Come here, Brictio, come here, Brictio.’ I believe they saw the wretched man coming from far off, knowing how great a frenzy of spirit they had stirred up in him. There is no delay. Brictio rushes in, in utter fury. There, full of madness, he spews out a thousand insults against Martin."
 use_note:
   means: "Gallus tells in the Dialogues how Martin saw two demons on the rock calling Brictio, who then burst in and heaped reproaches on Martin."
   not_for:

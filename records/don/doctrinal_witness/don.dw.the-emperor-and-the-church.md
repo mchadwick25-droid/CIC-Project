@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
   divergence_note: >-
-    The utterance at the centre of this record - what has the Emperor to do with the Church - survives
+    The utterance at the center of this record - what has the Emperor to do with the Church - survives
     only inside the polemic of a man who reports it as a fit of rage, and that framing is stated in the
     text field rather than quietly dropped. The three exceptions to our own refusal are documented per
     episode and are named here in our own voice, because our record states them plainly in the same texts
@@ -42,7 +42,7 @@ retrieval:
   retrieve_when:
   - participant asks whether Constantine or the empire corrupted the church
   - participant asks whether Christians hid in the catacombs
-  - participant asks what outsiders and neighbours said about us, or found strangest
+  - participant asks what outsiders and neighbors said about us, or found strangest
 text: >-
   The empire changed what the church was. That is our whole case, and we
   are the party that said so.
@@ -53,7 +53,7 @@ text: >-
   tunnels; they sent soldiers into our buildings in broad daylight,
   under orders, to enforce a single church. We read the account of one
   such day aloud every year: a basilica at Carthage seized, a house of
-  prayer turned into a place of feasting and licence, people clubbed to
+  prayer turned into a place of feasting and license, people clubbed to
   death with their hands stretched out to the Lord and their eyes shut,
   and buried inside the walls because there was nowhere else and nobody
   to stop it. That is what persecution looked like for us.
@@ -81,7 +81,7 @@ text: >-
   that state the doctrine at its hardest.
 
 
-  Our neighbours said we washed people twice, that our country members
+  Our neighbors said we washed people twice, that our country members
   were violent wanderers, and that we were the party of a man rather
   than the church of Christ - and one of our own petitions, signed by
   our own bishops, gave them that phrase to use. And to outsiders, the
@@ -128,7 +128,7 @@ All four variants are engaged. Catacombs are answered by replacing the
 picture with the documented one (`don.story.passio-donati-sermon`).
 Constantine is answered from `don.term.refusal-of-imperial-legitimacy`,
 including its three named exceptions, which the world's own `cautions`
-item 8 insists must be stated rather than managed. The neighbours'
+item 8 insists must be stated rather than managed. The neighbors'
 accusations are drawn from `don.term.rebaptism`, `don.term.agonistici`
 and `don.term.pars-donati`, and the Circumcellion charge is carried as a
 charge whose character is contested (`cautions` item 4).

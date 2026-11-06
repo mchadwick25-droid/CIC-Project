@@ -1,0 +1,170 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "We held one conviction, that Scripture alone may bind a church, and we never held it in one exact arrangement."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Zurich tested that conviction aloud, before its council and some six hundred priests and laymen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.catechism"
+   ],
+   "sentence": "Geneva built it article by article and taught it to everyone through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Zurich the council governed church and city together."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory",
+    "rzg.term.elder"
+   ],
+   "sentence": "At Geneva the Consistory, a body of pastors and lay elders, held daily conduct to account."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "That Consistory fought for its independence from council control, and by 1555 it had substantially won it."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "So among us there was no single exact form for anyone to carry forward, only the one conviction enacted twice."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "We mark no break at the close of our years, and our pattern was still living then."
+  }
+ ],
+ "citations": [
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.term.catechism",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "We held one conviction, that Scripture alone may bind a church, and we never held it in one exact arrangement [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "We held one conviction, that Scripture alone may bind a church, and we never held it in one exact arrangement.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Zurich tested that conviction aloud, before its council and some six hundred priests and laymen [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zurich tested that conviction aloud, before its council and some six hundred priests and laymen.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Geneva built it article by article and taught it to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.catechism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Geneva built it article by article and taught it to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.catechism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Zurich the council governed church and city together [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "At Zurich the council governed church and city together.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "At Geneva the Consistory, a body of pastors and lay elders, held daily conduct to account [[rzg.term.consistory]] [[rzg.term.elder]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva the Consistory, a body of pastors and lay elders, held daily conduct to account.",
+   "tags": [
+    "rzg.term.consistory",
+    "rzg.term.elder"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That Consistory fought for its independence from council control, and by 1555 it had substantially won it [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That Consistory fought for its independence from council control, and by 1555 it had substantially won it.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "So among us there was no single exact form for anyone to carry forward, only the one conviction enacted twice [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "So among us there was no single exact form for anyone to carry forward, only the one conviction enacted twice.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We mark no break at the close of our years, and our pattern was still living then [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "sentence": "We mark no break at the close of our years, and our pattern was still living then.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.term.mutual-consent",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.mass-not-a-sacrifice"
+ ],
+ "raw_text": "We held one conviction, that Scripture alone may bind a church, and we never held it in one exact arrangement [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Zurich tested that conviction aloud, before its council and some six hundred priests and laymen [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Geneva built it article by article and taught it to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.catechism]] [[as:paraphrase]]. At Zurich the council governed church and city together [[rzg.term.consistory]] [[as:paraphrase]]. At Geneva the Consistory, a body of pastors and lay elders, held daily conduct to account [[rzg.term.consistory]] [[rzg.term.elder]] [[as:paraphrase]]. That Consistory fought for its independence from council control, and by 1555 it had substantially won it [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. So among us there was no single exact form for anyone to carry forward, only the one conviction enacted twice [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. We mark no break at the close of our years, and our pattern was still living then [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "We held one conviction, that Scripture alone may bind a church, and we never held it in one exact arrangement. Zurich tested that conviction aloud, before its council and some six hundred priests and laymen. Geneva built it article by article and taught it to everyone through the Catechism. At Zurich the council governed church and city together. At Geneva the Consistory, a body of pastors and lay elders, held daily conduct to account. That Consistory fought for its independence from council control, and by 1555 it had substantially won it. So among us there was no single exact form for anyone to carry forward, only the one conviction enacted twice. We mark no break at the close of our years, and our pattern was still living then.",
+ "voice_set_aside": false
+}

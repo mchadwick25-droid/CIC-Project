@@ -1,0 +1,163 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we can tell you plainly is how we handled a person who wronged the community."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva our Consistory, pastors and lay elders together, held the standing power of censure."
+  },
+  {
+   "record_ids": [
+    "rzg.term.excommunication"
+   ],
+   "sentence": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin not repented."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Readmission stayed open to genuine repentance."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we cannot give you is a real case, with a named person and a real hearing."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Zurich our record shows no such body, because the council ruled church and city directly."
+  }
+ ],
+ "citations": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.consistory",
+  "rzg.term.excommunication"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "What we can tell you plainly is how we handled a person who wronged the community [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "sentence": "What we can tell you plainly is how we handled a person who wronged the community.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva our Consistory, pastors and lay elders together, held the standing power of censure [[rzg.limit.consistory-case-narrative]] [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva our Consistory, pastors and lay elders together, held the standing power of censure.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin not repented [[rzg.term.excommunication]] [[as:paraphrase]].",
+   "ratio": 0.73,
+   "sentence": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin not repented.",
+   "tags": [
+    "rzg.term.excommunication"
+   ],
+   "verdict": "ok",
+   "why": "grounded 73% in own tagged records"
+  },
+  {
+   "draft": "Readmission stayed open to genuine repentance [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "sentence": "Readmission stayed open to genuine repentance.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "John Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "What we cannot give you is a real case, with a named person and a real hearing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "sentence": "What we cannot give you is a real case, with a named person and a real hearing.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich our record shows no such body, because the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich our record shows no such body, because the council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.term.memorial-commemoration",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.term.consistory",
+  "rzg.term.excommunication",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "What we can tell you plainly is how we handled a person who wronged the community [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nAt Geneva our Consistory, pastors and lay elders together, held the standing power of censure [[rzg.limit.consistory-case-narrative]] [[rzg.term.consistory]] [[as:paraphrase]].\nIts harshest step was excommunication, which shut a person out of the Supper and the visible church for sin not repented [[rzg.term.excommunication]] [[as:paraphrase]].\nReadmission stayed open to genuine repentance [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nJohn Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]\nWhat we cannot give you is a real case, with a named person and a real hearing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nAt Zurich our record shows no such body, because the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "What we can tell you plainly is how we handled a person who wronged the community. At Geneva our Consistory, pastors and lay elders together, held the standing power of censure. Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin not repented. Readmission stayed open to genuine repentance. John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nWhat we cannot give you is a real case, with a named person and a real hearing. At Zurich our record shows no such body, because the council ruled church and city directly.",
+ "voice_set_aside": false
+}

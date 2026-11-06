@@ -52,7 +52,7 @@ description: >-
   episode with clear limits.
 
   The first pole is the stated, absolute rule. Clergy who were schismatic or invalidly ordained
-  must be rebaptised and reordained. Here the purity doctrine and rebaptism stand at their most
+  must be rebaptized and reordained. Here the purity doctrine and rebaptism stand at their most
   unqualified.
 
   The second pole is what the main Donatist party actually did. When the Maximianist clergy
@@ -103,9 +103,9 @@ manifestations:
 - the Maximianist clergy received back into office and communion without repeated ordination or baptism
 - the Bagai and Cebarsussi sentences, quoted directly rather than paraphrased in Augustine's own text
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
-  the two as cancelling each other
+  the two as canceling each other
 use_note:
-  means: "In one dated episode of 393 to 398, the stated rule that schismatic clergy be rebaptised and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
+  means: "In one dated episode of 393 to 398, the stated rule that schismatic clergy be rebaptized and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
   not_for:
     - "a claim about the purity doctrine or the rebaptism rite as standing patterns, which sit in don.gravity.ministerial-purity and don.gravity.rebaptism-boundary"
     - "a claim about the appeal to imperial anti-heretical law against the Maximianists, which sits in don.gravity.refusal-against-recourse"

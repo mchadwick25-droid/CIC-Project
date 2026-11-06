@@ -42,6 +42,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header and Morris's preface (no dated preface found); the Life of Weston is of a different date and no span is stated"}
     note: >
       The autobiography of the Society's superior in England 1584-1586, with Chapter II
       ('The English Jesuit Mission') and Chapter XVI ('College life in prison', the Wisbech

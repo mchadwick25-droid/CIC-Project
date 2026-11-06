@@ -1,0 +1,140 @@
+# Splits of a sub-question into finer ones, by the rule: a sub-question splits when its member questions would be answered from different records or passages. Parent ids stay in 07-subquestions.yaml; this file only appends.
+splits:
+- id: C5.S1a
+  parent: C5.S1
+  c: C5
+  label: Which books counted as scripture, the Apocrypha, and books they disputed
+  canonical: C5-02
+  ids:
+  - C5-02
+  - C5-16
+  - C5-30
+- id: C5.S1b
+  parent: C5.S1
+  c: C5
+  label: Who decided what went in the Bible, and was it a vote
+  canonical: C5-27
+  ids:
+  - C5-27
+- id: C5.S1c
+  parent: C5.S1
+  c: C5
+  label: Gospels that did not make it in, and whether they were suppressed
+  canonical: C5-04
+  ids:
+  - C5-04
+- id: C5.S1d
+  parent: C5.S1
+  c: C5
+  label: Whether the Bible was the only authority
+  canonical: C5-07
+  ids:
+  - C5-07
+- id: C5.S1e
+  parent: C5.S1
+  c: C5
+  label: What their teaching rested on, and what it stressed
+  canonical: C5-31
+  ids:
+  - C5-31
+- id: C5.S2a
+  parent: C5.S2
+  c: C5
+  label: How they read scripture and what they looked for
+  canonical: C5-01
+  ids:
+  - C5-01
+- id: C5.S2b
+  parent: C5.S2
+  c: C5
+  label: Reading literally, and one verse meaning more than one thing
+  canonical: C5-12
+  ids:
+  - C5-12
+  - C5-26
+- id: C5.S2c
+  parent: C5.S2
+  c: C5
+  label: The Old Testament read as about Jesus
+  canonical: C5-25
+  ids:
+  - C5-25
+- id: C5.S2d
+  parent: C5.S2
+  c: C5
+  label: Reading the Hebrew scriptures with or against the Jews
+  canonical: C5-29
+  ids:
+  - C5-29
+- id: C5.S2e
+  parent: C5.S2
+  c: C5
+  label: What a modern reader misses or misreads
+  canonical: C5-05
+  ids:
+  - C5-05
+  - C5-11
+- id: C5.S2f
+  parent: C5.S2
+  c: C5
+  label: Their favourite Bible story
+  canonical: C5-28
+  ids:
+  - C5-28
+- id: C5.S3a
+  parent: C5.S3
+  c: C5
+  label: Whether the Bible had errors, and how reliable it is
+  canonical: R-27
+  ids:
+  - C5-13
+  - R-27
+- id: C5.S3b
+  parent: C5.S3
+  c: C5
+  label: Which translation they used, and its mistakes
+  canonical: C5-17
+  ids:
+  - C5-17
+- id: C5.S3c
+  parent: C5.S3
+  c: C5
+  label: 'Who wrote the books: Moses and the first five, Paul and his letters'
+  canonical: C5-24
+  ids:
+  - C5-24
+- id: C5.S3d
+  parent: C5.S3
+  c: C5
+  label: Whether science disproves the Bible
+  canonical: R-28
+  ids:
+  - R-28
+- id: C5.S6a
+  parent: C5.S6
+  c: C5
+  label: How someone who could not read received the scriptures
+  canonical: C5-03
+  ids:
+  - C5-03
+- id: C5.S6b
+  parent: C5.S6
+  c: C5
+  label: Whether ordinary people could own or read a Bible, and in what language
+  canonical: C5-15
+  ids:
+  - C5-15
+- id: C5.S7a
+  parent: C5.S7
+  c: C5
+  label: Whether the violence in the texts troubled them
+  canonical: C5-06
+  ids:
+  - C5-06
+- id: C5.S7b
+  parent: C5.S7
+  c: C5
+  label: 'Psalm 137: dashing the little ones against the rock'
+  canonical: C5-21
+  ids:
+  - C5-21

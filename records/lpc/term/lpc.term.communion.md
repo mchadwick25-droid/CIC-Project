@@ -57,9 +57,14 @@ confidence:
     from both bishops'' conduct across more than one text, not a term either bishop names as such.'
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
-  locus: the 256 Council preface -- 'It remains, that upon this same matter each of us should bring forward
-    what we think, judging no man, nor rejecting any one from the right of communion, if he should think
-    differently from us'
+  locus: the 256 Council preface -- 'It remains, that upon this same matter each of us should bring
+    forward what we think, judging no man, nor rejecting any one from the right of communion, if he
+    should think differently from us'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 56868-56871; Latin at cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt,
+        lines 121 and 138-139
+  license: public-domain
+- source_id: lpc.source.cyprian-epistles
+  locus: Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29767-29773; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2566-2569
   license: public-domain
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
   locus: On Baptism, Against the Donatists -- Augustine disputing Cyprian's own specific rebaptism ruling
@@ -107,6 +112,12 @@ senses:
   translational: A modern listener is likely to hear either a specific liturgical rite -- going up to
     receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure
     of communion. We mean a formal, structural status of standing within the body, with public consequences,
+    that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among
+    us; what would break communion is not arguing but separating.
+  heard_today: A modern listener is likely to hear either a specific liturgical rite -- going up to
+    receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure
+    of communion.
+  meant_here: We mean a formal, structural status of standing within the body, with public consequences,
     that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among
     us; what would break communion is not arguing but separating.
 quick_meaning: For us, communion is a real standing inside the one body. You can lose it, and be given

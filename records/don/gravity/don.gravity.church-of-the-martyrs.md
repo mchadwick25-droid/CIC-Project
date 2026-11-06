@@ -107,7 +107,7 @@ description: >-
 
   It counts as central, and not just supporting, because it creates its own cluster of worship and
   remembrance. That cluster includes the Deo laudes acclamation, the anniversary sermons and the
-  Passio literature. It is distinct and practised first-hand, and it would not exist without this
+  Passio literature. It is distinct and practiced first-hand, and it would not exist without this
   pattern.
 
   Its confidence rating and its central status agree. Among the central patterns, it is the least

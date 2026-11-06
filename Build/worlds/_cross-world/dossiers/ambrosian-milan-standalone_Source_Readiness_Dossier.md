@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 374–397
 **Region(s):** Milan
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** PR #180 (merged 2026-09-13)
+**Corpus-map / `cic/texts/` state as of:** PR #180 (merged September 2026)
 
 ## 1. Already assigned
 

@@ -18,6 +18,7 @@ work: "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - 
 edition: "trans. William Fletcher, Ante-Nicene Fathers vol. 7 (1886), vendored as cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
 citation: Lactantius, De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died), trans. William Fletcher, Ante-Nicene Fathers vol. 7 (1886)
 kind: vendored
+shelf_row: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.anf07-lactantius); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

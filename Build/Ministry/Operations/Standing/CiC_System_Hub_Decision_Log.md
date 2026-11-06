@@ -7340,3 +7340,71 @@ If any condition fails, the amount stays unspent.
 **Verdict.** Approved to proceed (Step 0 only; not Frozen). All 24 rows were verified against the real files with no defects. "Nothing else touched" holds by two methods: the 21 edits replayed on the old file reproduce the merged file byte for byte, and a character-level diff finds all 83 changed regions inside the edit spans. The quote check on a full checkout of main reports 7 findings, not the 31 the sparse checkout produced: finding 18 is flagged on purpose and six are genuine quotations that pre-date the change order (four Harnack, *Chronologie* II, which clear when that file is vendored on main; two Monceaux III, whose path Step 0 does not cite).
 
 **Left for the project lead, non-blocking.** Whether a later change order adds the Monceaux file path to Step 0; whether the rest of Step 0's project-file quotations move to the single-mark convention; `safety_adjacent` on the `latap` registry entry (left blank until Doc_01 is written, his ruling).
+
+## 2026-10-31 - aec Doc_01, Doc_02 and Source_Registry approved to proceed on a script check (project lead and coordination thread)
+
+**Ruling carried out.** Mark's standing ruling of 2026-10-29, "Antiochene script same as Rome" (`aec` follows the route set for `rcg`: script check, then approval, with no further model-review round), and Mark's own answer of 2026-10-31 on how a script failure counts: a failure that is recorded with its reason and independently confirmed as a false alarm counts as passing for "Approved to proceed".
+
+**What was done (coordination-level, AI-reviewed, not Mark's).** The second extra review (`Doc01_CapRuling_Review2.md` and `Doc02_CapRuling_Review2.md`, in `Build/worlds/aec/Review-Artifacts/`) did not clear on the rcg-script check. An independent triage of the four failing checks by a reader who did not write the fixes found two real Registry defects and two real document defects, now fixed: the four "Native (live edge case)" rows (11a, 22, 24, 25) are Excluded under the binary gate as Doc_01 and Doc_02 already stated; "— (context only)" is gone from Licensed For on eleven Excluded rows; the Ecclesiastical History (row 11) was called both settled and conditional and is Native, with its gravity question owed at Doc_04; a missing full stop and four Doc_02 Table D bucket lists were corrected. Each change was read once on its changed lines by the same independent reader.
+
+**Result.** The citation checker (`tools/verify_world_source_citations.py aec`) passes 5 of 5. The shared script (`tools/verify_world_source_docs.py aec`) passes 5 of 8 checks. A fourth failure, the Registry's second table read as rows, is gone since the shared script was changed to read only the table headed `#`. The three that remain are each recorded with its reason in `Build/worlds/aec/Open_Gaps_Tracking.md` (entries 20 to 22) and confirmed as a false alarm by the independent reader: `same-volume` on three different works titled "Ecclesiastical History", `absence-claims` on a preface quoting a different work, and `doc-vs-registry` on the Eranistes sentences, which agree with row 11b.
+
+**Effect.** `aec` Doc_01, Doc_02 and the Source_Registry are Approved to proceed (not Frozen). The shared script has no waiver list yet; one is added only as part of a later tooling batch.
+
+**Left for the project lead.** The Source Registry template has no slot for an undecided source (row 25 is held Excluded although it falls inside the window by date and subject): a methodology question, nothing changed (aec Open_Gaps entry 22).
+
+## 2026-11-02 - Cap ruling: latap Step 0, the approval to proceed stands (project lead)
+
+**Ruling.** Mark, 2026-11-02, by choice box, relayed by the coordination thread: `latap` Step 0 has 7 counted review files against the cap of 3 and is already approved to proceed (self-disposed after Round 7, not Frozen). The approval stands. The handoff check should read the document as ruled, not as an open cap breach. The reviews of Rounds 4 to 7 that came after the first three are covered by this ruling: `Step0_Round4_Review.md`, `Step0_Round5_Review.md`, `Step0_Round6_Review.md` and `Step0_Round7_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). It orders no further review. This ruling does not lift the cap for any other document or world.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": the sample run, $0.371 of its $1.00 sample cap (project lead's approval)
+
+**Approval.** Mark, relayed by the coordination thread.
+- On the test: "Direction approved for controlled testing — not architecture approval." The cap is $12 total ("$12, Mark 2026-11-03, lowered from $30").
+- On the sample: "yes, run the sample". The coordination thread checked it first.
+- The decision is recorded in `Build/Ministry/Features/Answering-From-Sources/Decision-Log.md` entry 75.
+
+**Name and cap.** The test is `v7-b-alx-pahc-syr`, with a $12.00 ceiling in total. The sample was capped at $1.00, set per command as alx $0.34, pahc $0.33 and syr $0.33. No other cap carries over to this test.
+
+**Models and route.**
+- Voice: Sonnet 4.5, `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, on AWS Bedrock us-east-1, with max tokens 2048. Voice only, as in fleet graded run 1.
+- Command: `python -m engine.m3.v7_run --live-test v7-b-alx-pahc-syr --cap-usd <cap> --world <w> --arm b`, with the probes, model id, region, max tokens, expected package hash and `--reading-records-dir` all passed explicitly.
+- Code: branch `v7/b-on-live` at cb585b75.
+
+**Spend, from the run output.**
+- alx $0.1382, pahc $0.1156, syr $0.1172: $0.3710 in total.
+- 6 turns, each on its first attempt, with no failed attempts.
+
+**Files.** `Build/Ministry/Features/V7-Controlled-Test/Runs/sample/` holds the run records, the summaries, the printed settings and the ledger.
+
+**Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": main run and repeat, $3.8345 (coordination thread, under Mark's approval)
+
+**Approval.** The coordination thread approved the run after checking the sample, under Mark's test approval and his $12 ceiling. It set a cap of $3.876 per world, taken from the $11.629 left after the sample.
+
+**Run.** Arm B covered the remaining 26 probes per world, then the 14 drawn repeat probes per world: 120 turns in all. The model, route, code and hashes were the same as the sample.
+
+**Spend, from the run output.** $3.8345 in all:
+- alx $0.9343 main and $0.4482 repeat;
+- pahc $0.8100 main and $0.4080 repeat;
+- syr $0.8306 main and $0.4034 repeat.
+
+The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No call failed, and no cap was reached.
+
+**Files.** The run records, summaries, printed settings and ledger are in `Build/Ministry/Features/V7-Controlled-Test/Runs/main/`.
+
+## 2026-11-04 - Cap ruling: alx the-grades-here-in-the-church rendering (project lead)
+
+The `modern_rendering` of `alx.quote.the-grades-here-in-the-church` reached the cap at its third review file. Round 1 and round 2 were in the batch and round-2 files; round 3 was `Rendering_Review_Alx_Round3_2026-11-04.md`. The one finding still open was that the last sentence dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". The project lead's ruling, in his words, relayed by the coordination thread: "yes ... fourth read". It allows one targeted read by a fresh independent Opus reader of exactly that sentence. The read is `Rendering_Review_Alx_Round4_2026-11-04.md`. It passed "This goes on until they grow into “a mature man.”", and the record now carries that sentence. It is the only review this ruling covers for alx.
+
+The same ruling ordered the same kind of read for `cappadocian.quote.gregory-nyssa-on-becoming-god`. That read failed one sentence, so the cappadocian record is held and is not part of this entry. Its own entry follows when that record moves.
+
+## 2026-11-04 - Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering (project lead)
+
+The `modern_rendering` of `cappadocian.quote.gregory-nyssa-on-becoming-god` reached the cap at its third review file, `Rendering_Review_Cappadocian_Round3_2026-11-04.md`. Two of the edition's grounding "For"s were still missing. The project lead ruled twice, both relayed by the coordination thread.
+
+1. "yes ... fourth read": one targeted read by a fresh independent Opus reader of the corrected sentences. That read is `Rendering_Review_Cappadocian_Round4_2026-11-04.md`. It passed the restored "For who, surveying the universe…". It failed the second sentence, which had dropped the edition's "although".
+2. "Fifth read of that sentence": one more fresh reader, on the fourth reader's wording of that sentence only. That read is `Rendering_Review_Cappadocian_Round5_2026-11-04.md`. It passed "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The record now carries it.
+
+These two reads are the only reviews this ruling covers for cappadocian.

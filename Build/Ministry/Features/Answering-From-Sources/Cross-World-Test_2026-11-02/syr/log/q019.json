@@ -1,0 +1,247 @@
+{
+ "draft": "Yes: for the one who cannot quiet their own head, who prays into silence, our pastoral craft was the medicine of penitence [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nOur teachers talked like field surgeons: everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nWe taught to confess to one who can help, and the physician must not turn you away or tell others what you show him [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nThe fallen fighter, healed, goes back into the line [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nThe Persian sage wrote in Demonstration VII: [[quote:syr.quote.aphrahat-medicine-penitence]]\n\nAs for prayer that seems to go unanswered, we knew that silence at its harshest [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nPeople taunted us to our faces that our prayers had not stopped the killing [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nWe kept praying, answering that God's faithfulness is longer than one generation's rescue [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n\nWe did not pretend the silence away; we endured inside it [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Yes: for the one who cannot quiet their own head, who prays into silence, our pastoral craft was the medicine of penitence. Our teachers talked like field surgeons: everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse. We taught to confess to one who can help, and the physician must not turn you away or tell others what you show him. The fallen fighter, healed, goes back into the line. As for prayer that seems to go unanswered, we knew that silence at its harshest. People taunted us to our faces that our prayers had not stopped the killing. We kept praying, answering that God's faithfulness is longer than one generation's rescue. We did not pretend the silence away; we endured inside the silence.",
+ "group": "A",
+ "offered": [
+  "syr.dw.penitence-prayer",
+  "syr.term.anti-jewish-polemic",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.quote.aphrahat-one-innocent",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.authority-ambiguity-condition",
+  "syr.contested.bardaisan-nicene-floor",
+  "syr.dw.unsettled",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It names penitence as medicine for those wounded in the spiritual conflict, which bears on the question but does not speak of a mind that will not settle."
+   },
+   "record_id": "syr.quote.aphrahat-medicine-penitence"
+  }
+ ],
+ "question": "For someone whose mind won't settle, does your community's practice offer anything?",
+ "question_id": "q019",
+ "read": {
+  "dropped": [
+   "syr.quote.aphrahat-medicine-penitence"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "Yes: for the one who cannot quiet their own head, who prays into silence, our pastoral craft was the medicine of penitence.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "Our teachers talked like field surgeons: everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We taught to confess to one who can help, and the physician must not turn you away or tell others what you show him.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "The fallen fighter, healed, goes back into the line.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "As for prayer that seems to go unanswered, we knew that silence at its harshest.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "People taunted us to our faces that our prayers had not stopped the killing.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We kept praying, answering that God's faithfulness is longer than one generation's rescue.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We did not pretend the silence away; we endured inside the silence.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yes: for the one who cannot quiet their own head, who prays into silence, our pastoral craft was the medicine of penitence.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers talked like field surgeons: everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We taught to confess to one who can help, and the physician must not turn you away or tell others what you show him.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The fallen fighter, healed, goes back into the line.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "syr.quote.aphrahat-medicine-penitence",
+   "reason": "placed by code",
+   "sentence": "The Persian sage wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”",
+   "tags": [
+    "syr.quote.aphrahat-medicine-penitence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "As for prayer that seems to go unanswered, we knew that silence at its harshest.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "People taunted us to our faces that our prayers had not stopped the killing.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We kept praying, answering that God's faithfulness is longer than one generation's rescue.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not pretend the silence away; we endured inside it.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  }
+ ],
+ "shipped_by_net": "Yes: for the one who cannot quiet their own head, who prays into silence, our pastoral craft was the medicine of penitence.\n\nOur teachers talked like field surgeons: everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse.\n\nWe taught to confess to one who can help, and the physician must not turn you away or tell others what you show him.\n\nThe fallen fighter, healed, goes back into the line.\n\nThe Persian sage wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”\n\nAs for prayer that seems to go unanswered, we knew that silence at its harshest.\n\nPeople taunted us to our faces that our prayers had not stopped the killing.\n\nWe kept praying, answering that God's faithfulness is longer than one generation's rescue.\n\nWe did not pretend the silence away; we endured inside it.",
+ "sub_question": "C14.S8"
+}

@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-  - {source_id: fix.source.witness-scroll, locus: "1.4", license: public-domain}
+  - {source_id: fix.source.witness-scroll, locus: "1.4 (English at cic/texts/fixture-synthetic_witness-scroll.txt, lines 30-31)", license: public-domain}
 text: "I did not see him. I only saw what his witnesses could not stop telling."
 modern_rendering: >-
   I did not see him. I only saw what his witnesses could not stop telling.

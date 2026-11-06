@@ -17,8 +17,7 @@ confidence:
     idiom the Institutes opens with.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes X.3 (npnf211 div iv.iii.x.iii, file lines 23518-23524): accidie's own end
-    point, described as desertion from Christ's service"
+  locus: "Institutes X.3 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 23521-23524; div iv.iii.x.iii): accidie's own end point, described as desertion from Christ's service"
   license: public-domain
 retrieval:
   tier: 3

@@ -26,6 +26,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: provisional
+    language: eng-lat
+    date: {start: 1597, end: 1601, source: "contents headings, file line 94 (\"THE QUARREL WITH THE JESUITS, 1597-1598\") and line 176 (\"RENEWAL OF THE CONFLICT, JUNE, 1599-JUNE, 1601\")", formation_confidence: Documented}
     note: >
       The other side of the same quarrel in its own words: Garnet and Parsons
       defending the Society's conduct of the mission, Blackwell asserting his

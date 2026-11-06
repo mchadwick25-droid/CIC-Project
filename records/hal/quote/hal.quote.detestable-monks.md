@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep39
-  locus: sec. 6
+  locus: "sec. 6 (cic/texts/npnf206_jerome-principal-works.xml, lines 8111-8115)"
   license: public-domain
 text: 'Is not this what we have often said. She weeps for her daughter, killed with
   fasting. She wanted her to marry again, that she might have grandchildren. How long
@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - "participant asks what ordinary people thought of the ascetic life"
   - "participant asks whether the fasting went too far and whether anyone died of it"
-  - "participant asks whether the neighbours were hostile"
+  - "participant asks whether the neighbors were hostile"
 use_note:
   means: "Jerome reports the Roman crowd at Blaesilla's funeral saying she was killed by fasting and calling for the monks to be driven from Rome."
   not_for:

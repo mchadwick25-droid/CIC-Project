@@ -37,20 +37,20 @@ claim: >-
   A sacrament's validity rises and falls on the giver's own unbroken purity. A hand that surrendered the
   scriptures under persecution cannot afterwards give what the church gives, so the ordination of Caecilian
   by Felix of Aptungi conveyed nothing, and everything flowing from that line is void - which is why this
-  communion exists at all, and why recognising the rival's sacraments has never been available as a term
+  communion exists at all, and why recognizing the rival's sacraments has never been available as a term
   of peace.
 held_against:
 - The founding accusation's own documentary record tells against it. The Acta Purgationis Felicis (314/315),
   the formal proconsular inquiry Constantine ordered into whether Felix had handed over the scriptures,
-  ended with a town councillor, Ingentius, confessing under threat of torture that he had added false lines
+  ended with a town councilor, Ingentius, confessing under threat of torture that he had added false lines
   to the letter that proved the charge. The Acta also record the charge that he acted as an agent for the
   accusing side, and he denied having been to Numidia. The confession's own extraction
   under threat is a real reason to hold the finding loosely; it is not a reason to say the inquiry found
-  in this communion's favour, which it did not (don.story.acta-purgationis-felicis)
+  in this communion's favor, which it did not (don.story.acta-purgationis-felicis)
 - The doctrine's own councils did not apply it to themselves. At Bagai in 394 the same body that condemned
   the Maximianists in the imagery of shipwrecked corpses received Felicianus of Musti and Praetextatus
   of Assuris back into office without rebaptism and without reordination, and Augustine made exactly that
-  the centre of his case - if reordination could be waived there, on the mainstream party's own authority,
+  the center of his case - if reordination could be waived there, on the mainstream party's own authority,
   the absolute rule did not hold even for the party that preached it most fiercely
   (don.story.bagai-reconciliation; don.gravity.rigor-against-reception)
 - Augustine's counter-ecclesiology is a serious scriptural argument, not a debating move, and it was answered
@@ -83,12 +83,12 @@ divergence_partners:
   in the fleet, and a genuine divergence rather than a thematic echo. That world holds two grounds of authority
   apart and never merges them, authority from sanctity and sacrament against authority from office and
   position, and its own record states that a reconstruction which resolves the tension has failed the world.
-  This claim resolves the identical tension absolutely in favour of the first ground and makes the resolution
+  This claim resolves the identical tension absolutely in favor of the first ground and makes the resolution
   the reason a whole parallel church exists. The Imperial and Juridical world carries no contested_claim
   on the question - its divergent position sits in that Tensional gravity record - and this entry names
   the gravity rather than manufacturing a contested_claim pairing that does not exist.
 - ijc.contested.office-holder-scope (world imperial-juridical) - a real, narrower divergence about what
-  an office is. That claim holds that a juridical, office-centred Christianity was what ordinary Christians
+  an office is. That claim holds that a juridical, office-centered Christianity was what ordinary Christians
   of Rome, Milan and Constantinople actually lived, and concedes only that the record's silence about ordinary
   believers is a fact about transmission. This claim holds that office without personal purity is not office
   at all - the same question about what qualifies a man to act for the church, answered from the opposite
@@ -116,7 +116,7 @@ reciprocally on that gravity record in the same pass.
 WHY THE FELIX INQUIRY LEADS held_against RATHER THAN THE AUGUSTINIAN ARGUMENT. The strongest thing
 held against this doctrine is not a theological counter-position but a document from this world's own
 founding decade, and don.story.acta-purgationis-felicis already carries it at full strength with its
-own reason for keeping it: the unfavourable finding is the point. Placing it first here follows that
+own reason for keeping it: the unfavorable finding is the point. Placing it first here follows that
 record rather than reversing its emphasis for the sake of a tidier claim. The torture caveat is
 carried with it, in the same sentence, exactly as that story record carries it - a reason to hold the
 finding loosely, never a reason to reframe it as a win.

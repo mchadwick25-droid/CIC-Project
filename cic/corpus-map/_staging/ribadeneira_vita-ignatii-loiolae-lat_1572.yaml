@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "title page, file line 56 ('NEAPOLI M. D. LXXII'), and the colophon at line 17164 date this printing (1572); the file never says whether it is the first edition or when the Life was composed"}
+    locus_ids: [whole-file]
     note: >
       Ribadeneira's original Latin life of Ignatius, commissioned by the
       3rd Superior General - an early, primary-adjacent biography by

@@ -1,0 +1,145 @@
+{
+ "draft": "Two kinds of authority stood side by side among us: authority from wisdom, and authority from office [[alx.force.teacher-bishop-ongoing]] [[as:paraphrase]]. The teacher was trusted because others saw that he saw, and the bishop held the office handed down [[alx.force.teacher-bishop-ongoing]] [[as:paraphrase]]. Early on, teachers argued with books, lectures, and letters, and authority went to proven wisdom [[alx.dw.councils]] [[as:paraphrase]].\n\nIn the middle years the bishop's judgment grew, and Demetrius condemned Origen's ordination [[alx.dw.councils]] [[as:paraphrase]]. At Nicaea, bishops from everywhere ruled on the disputed confession for all [[alx.dw.councils]] [[as:paraphrase]]. After Nicaea, the bishop of Alexandria became the enforcer of conciliar orthodoxy across Egypt, with exile, letter-networks, and synods as his tools [[alx.force.post-nicene-authority-shift]] [[as:paraphrase]].\n\nAuthority came to mean the drawn confession as well as the office handed down, and the teacher's kind of standing gave way [[alx.force.post-nicene-authority-shift]] [[as:paraphrase]]. After the Origen rupture and under the post-Nicene shift, formation's center of gravity moved toward the episcopal-doctrinal channel [[alx.gravity.learning-formation]] [[as:paraphrase]].\n\nOur best picture of authority used well is Bishop Dionysius's own account of his work with the village churches: [[story:alx.story.arsinoite-conference]]\n\nDionysius, as Eusebius quotes him, wrote: [[quote:alx.quote.dionysius-nepos]]\n\nThe villagers' own voices survive only in Dionysius's report of their patience and honesty [[alx.story.arsinoite-conference]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "Two kinds of authority stood side by side among us: authority from wisdom, and authority from office. The teacher was trusted because others saw that he saw, and the bishop held the office handed down. Early on, teachers argued with books, lectures, and letters, and authority went to proven wisdom.\n\nIn the middle years the bishop's judgment grew, and Demetrius condemned Origen's ordination. At Nicaea, bishops from everywhere ruled on the disputed confession for all. After Nicaea, the bishop of Alexandria became the enforcer of conciliar orthodoxy across Egypt, with exile, letter-networks, and synods as his tools.\n\nAuthority came to mean the drawn confession as well as the office handed down, and the teacher's kind of standing gave way. After the Origen rupture and under the post-Nicene shift, formation's center of gravity moved toward the episcopal-doctrinal channel.\n\nThe villagers' own voices survive only in Dionysius's report of their patience and honesty.",
+ "group": "A",
+ "offered": [
+  "alx.dw.empire",
+  "alx.story.leonides-martyrdom",
+  "alx.story.potamiaena",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.force.persecution",
+  "alx.limit.f5-women-own-words",
+  "alx.dw.resurrection",
+  "alx.term.oikos",
+  "alx.term.eikon",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.story.didymus-meeting",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.contested.ecology-wide-primacy"
+ ],
+ "placements": [],
+ "question": "Is it accurate that believers regularly concealed themselves underground?",
+ "question_id": "q013",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Two kinds of authority stood side by side among us: authority from wisdom, and authority from office.",
+   "tags": [
+    "alx.force.teacher-bishop-ongoing"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The teacher was trusted because others saw that he saw, and the bishop held the office handed down.",
+   "tags": [
+    "alx.force.teacher-bishop-ongoing"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Early on, teachers argued with books, lectures, and letters, and authority went to proven wisdom.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the middle years the bishop's judgment grew, and Demetrius condemned Origen's ordination.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Nicaea, bishops from everywhere ruled on the disputed confession for all.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "After Nicaea, the bishop of Alexandria became the enforcer of conciliar orthodoxy across Egypt, with exile, letter-networks, and synods as his tools.",
+   "tags": [
+    "alx.force.post-nicene-authority-shift"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Authority came to mean the drawn confession as well as the office handed down, and the teacher's kind of standing gave way.",
+   "tags": [
+    "alx.force.post-nicene-authority-shift"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "After the Origen rupture and under the post-Nicene shift, formation's center of gravity moved toward the episcopal-doctrinal channel.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The villagers' own voices survive only in Dionysius's report of their patience and honesty.",
+   "tags": [
+    "alx.story.arsinoite-conference"
+   ]
+  }
+ ],
+ "shipped_by_net": "Two kinds of authority stood side by side among us: authority from wisdom, and authority from office. The teacher was trusted because others saw that he saw, and the bishop held the office handed down. Early on, teachers argued with books, lectures, and letters, and authority went to proven wisdom.\n\nIn the middle years the bishop's judgment grew, and Demetrius condemned Origen's ordination. At Nicaea, bishops from everywhere ruled on the disputed confession for all. After Nicaea, the bishop of Alexandria became the enforcer of conciliar orthodoxy across Egypt, with exile, letter-networks, and synods as his tools.\n\nAuthority came to mean the drawn confession as well as the office handed down, and the teacher's kind of standing gave way. After the Origen rupture and under the post-Nicene shift, formation's center of gravity moved toward the episcopal-doctrinal channel.\n\nThe villagers' own voices survive only in Dionysius's report of their patience and honesty.",
+ "sub_question": "C9.S1"
+}

@@ -29,8 +29,8 @@ sources:
 retrieval:
   tier: 1
   retrieve_when:
-  - participant asks whether we believed outsiders were going to hell
-  - participant asks what Cyprian taught would happen to those who would not believe
+  - participant asks what Cyprian taught would happen to those who heard the faith and would not believe
+  - participant asks whether the fire of the condemned had a respite or an end
   prefer_instead: []
 claim_guards:
 - The addressee is a pagan who persecuted Christians, and the passage speaks of those who heard and would

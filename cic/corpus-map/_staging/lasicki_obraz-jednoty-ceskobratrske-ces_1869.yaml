@@ -19,6 +19,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: provisional
+    language: ces
+    date: {formation_confidence: unknown, checked: "title page of the file (line 54) gives only the 1649 publication by Comenius at Leszno; it states no composition year for Lasicki's text"}
     note: "The Unity's account of its own customs and orders, published by its last bishop in 1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline in its last century, quotable once each wording is checked against the page image. The Latin 1649 original is not vendored. Placed on the title page and chapter headings; the chapters were not read in full."
 
   - row_id: "lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the-3"

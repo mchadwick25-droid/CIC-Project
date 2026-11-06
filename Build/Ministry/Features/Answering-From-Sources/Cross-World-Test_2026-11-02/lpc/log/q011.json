@@ -1,0 +1,269 @@
+{
+ "draft": "The hard passages in our older Scriptures troubled Augustine himself, before he held our own faith [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. As a young man drawn to a rival teaching, he was much disturbed by one question [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. The question was whether men who had many wives, and did kill men, could really be called righteous [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Once he held our faith, he answered a Manichaean who pressed the same kind of charge [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. He wrote that Moses showed not ferocity but obedience [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. God, in giving that command, acted not in cruelty but in righteous retribution, Augustine wrote [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. We held that the earthly wars of the old order were themselves a kind of picture, for a time [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. On the first three days of Genesis, which come before the sun, Augustine named the difficulty honestly rather than explaining it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Augustine said: [[quote:lpc.quote.david-himself-hath-been-sent-to-thee]]\n",
+ "ending": "rewritten",
+ "final": "As a young man drawn to a rival teaching, Augustine was much disturbed by one question. The question was whether men who had many wives, and did kill men, could really be called righteous. Once Augustine held our faith, Augustine answered a Manichaean who pressed the same kind of charge. Augustine wrote that Moses showed not ferocity but obedience. God, in commanding the wars of Moses, acted not in cruelty but in righteous retribution, Augustine wrote. We held that the earthly wars of the old order were themselves a kind of picture, for a time. Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword. On the first three days of Genesis, which come before the sun, Augustine named the difficulty honestly rather than explaining it away.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.catechesis",
+  "lpc.term.the-people",
+  "lpc.story.numidicus",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.gravity.grace-and-human-incapacity",
+  "lpc.quote.david-himself-hath-been-sent-to-thee",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.witness.days-before-the-sun",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.two-hear-one-scorns-one-rises",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.term.heresy",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows scripture speaking to a hearer who fears to repent, but it does not answer what a confused or bored reader is missing."
+   },
+   "record_id": "lpc.quote.david-himself-hath-been-sent-to-thee"
+  }
+ ],
+ "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+ "question_id": "q011",
+ "read": {
+  "dropped": [
+   "lpc.quote.david-himself-hath-been-sent-to-thee"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "widened_scope",
+    "reason": "The record limits the trouble to the violence in some older Scriptures, not hard passages in general.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "As a young man drawn to a rival teaching, Augustine was much disturbed by one question.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "The question was whether men who had many wives, and did kill men, could really be called righteous.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Once Augustine held our faith, Augustine answered a Manichaean who pressed the same kind of charge.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Augustine wrote that Moses showed not ferocity but obedience.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "God, in commanding the wars of Moses, acted not in cruelty but in righteous retribution, Augustine wrote.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "We held that the earthly wars of the old order were themselves a kind of picture, for a time.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "On the first three days of Genesis, which come before the sun, Augustine named the difficulty honestly rather than explaining it away.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The hard passages in our older Scriptures troubled Augustine himself, before he held our own faith.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "As a young man drawn to a rival teaching, he was much disturbed by one question.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The question was whether men who had many wives, and did kill men, could really be called righteous.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Once he held our faith, he answered a Manichaean who pressed the same kind of charge.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He wrote that Moses showed not ferocity but obedience.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God, in giving that command, acted not in cruelty but in righteous retribution, Augustine wrote.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held that the earthly wars of the old order were themselves a kind of picture, for a time.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "On the first three days of Genesis, which come before the sun, Augustine named the difficulty honestly rather than explaining it away.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.quote.david-himself-hath-been-sent-to-thee",
+   "reason": "placed by code",
+   "sentence": "Augustine said: “Whoever you are who have sinned: you hold back from repenting of your sin, because you despair of your salvation. Hear David groaning. Nathan the prophet has not been sent to you. David himself has been sent to you. Hear him crying out, and cry out with him. Hear him groaning, and groan with him. Hear him weeping, and add your tears to his. Hear him set right, and rejoice with him. If sin could not be kept out of you, do not let hope of pardon be kept out.”",
+   "tags": [
+    "lpc.quote.david-himself-hath-been-sent-to-thee"
+   ]
+  }
+ ],
+ "shipped_by_net": "The hard passages in our older Scriptures troubled Augustine himself, before he held our own faith. As a young man drawn to a rival teaching, he was much disturbed by one question. The question was whether men who had many wives, and did kill men, could really be called righteous. Once he held our faith, he answered a Manichaean who pressed the same kind of charge. He wrote that Moses showed not ferocity but obedience. God, in giving that command, acted not in cruelty but in righteous retribution, Augustine wrote. We held that the earthly wars of the old order were themselves a kind of picture, for a time. Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword. On the first three days of Genesis, which come before the sun, Augustine named the difficulty honestly rather than explaining it away. Augustine said: “Whoever you are who have sinned: you hold back from repenting of your sin, because you despair of your salvation. Hear David groaning. Nathan the prophet has not been sent to you. David himself has been sent to you. Hear him crying out, and cry out with him. Hear him groaning, and groan with him. Hear him weeping, and add your tears to his. Hear him set right, and rejoice with him. If sin could not be kept out of you, do not let hope of pardon be kept out.”",
+ "sub_question": "C5.S2"
+}

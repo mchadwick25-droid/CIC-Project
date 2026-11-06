@@ -18,7 +18,7 @@ confidence:
     came from.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference V (Conference of Abbot Serapion), ch. II (npnf211 line 30132)'
+  locus: "Conference V (Conference of Abbot Serapion), ch. II (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 30132-30137)"
   license: public-domain
 text: >-
   There are eight principal faults which attack mankind; viz., first gastrimargia, which means
@@ -35,7 +35,7 @@ speaker_or_author: Abbot Serapion of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
   These are the logismoi - not sins committed but thoughts that arrive, which the monk's work is to
-  recognise and resist. Acedia has no good English word: the noonday listlessness that makes a monk
+  recognize and resist. Acedia has no good English word: the noonday listlessness that makes a monk
   hate his cell and his work. This list, through Gregory the Great, becomes the seven deadly sins.
 retrieval:
   tier: 2

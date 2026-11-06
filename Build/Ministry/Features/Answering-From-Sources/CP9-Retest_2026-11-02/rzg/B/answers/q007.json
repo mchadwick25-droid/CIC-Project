@@ -1,0 +1,155 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind",
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "Yes, there was room, because our confession did not ask a troubled mind to search harder within itself."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "To someone tempted to doubt, our confession said: do not look for proof of your election apart from Christ."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "It named Christ as the mirror in which we see our election."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "sentence": "Heinrich Bullinger's confession turns the anxious this way, and here is how it puts the matter: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”"
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "A mind turned only on itself finds more of itself and no bottom to it, so we turned the mind outward toward Christ."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "We offered this as comfort."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "Whether an ordinary believer at Zurich or Geneva felt that comfort, or felt anxious instead, our record does not say."
+  }
+ ],
+ "citations": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.witness.a-quieted-mind"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, there was room, because our confession did not ask a troubled mind to search harder within itself [[rzg.witness.a-quieted-mind]] [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "sentence": "Yes, there was room, because our confession did not ask a troubled mind to search harder within itself.",
+   "tags": [
+    "rzg.witness.a-quieted-mind",
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "To someone tempted to doubt, our confession said: do not look for proof of your election apart from Christ [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "sentence": "To someone tempted to doubt, our confession said: do not look for proof of your election apart from Christ.",
+   "tags": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "It named Christ as the mirror in which we see our election.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Heinrich Bullinger's confession turns the anxious this way, and here is how it puts the matter: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+   "placed_quote": "rzg.quote.christ-the-mirror-of-election",
+   "sentence": "Heinrich Bullinger's confession turns the anxious this way, and here is how it puts the matter: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”",
+   "tags": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "A mind turned only on itself finds more of itself and no bottom to it, so we turned the mind outward toward Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "A mind turned only on itself finds more of itself and no bottom to it, so we turned the mind outward toward Christ.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We offered this as comfort [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "sentence": "We offered this as comfort.",
+   "tags": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether an ordinary believer at Zurich or Geneva felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Whether an ordinary believer at Zurich or Geneva felt that comfort, or felt anxious instead, our record does not say.",
+   "tags": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.witness.a-quieted-mind",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.term.consistory",
+  "rzg.term.excommunication",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "Yes, there was room, because our confession did not ask a troubled mind to search harder within itself [[rzg.witness.a-quieted-mind]] [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\nTo someone tempted to doubt, our confession said: do not look for proof of your election apart from Christ [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\nIt named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nHeinrich Bullinger's confession turns the anxious this way, and here is how it puts the matter: [[quote:rzg.quote.christ-the-mirror-of-election]]\nA mind turned only on itself finds more of itself and no bottom to it, so we turned the mind outward toward Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nWe offered this as comfort [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\nWhether an ordinary believer at Zurich or Geneva felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\nWe can give you what we taught, and we cannot give you what was felt [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.christ-the-mirror-of-election"
+  ],
+  "removed": [
+   {
+    "draft": "We can give you what we taught, and we cannot give you what was felt [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+    "sentence": "We can give you what we taught, and we cannot give you what was felt.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, there was room, because our confession did not ask a troubled mind to search harder within itself. To someone tempted to doubt, our confession said: do not look for proof of your election apart from Christ. It named Christ as the mirror in which we see our election. Heinrich Bullinger's confession turns the anxious this way, and here is how it puts the matter: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”\n\nA mind turned only on itself finds more of itself and no bottom to it, so we turned the mind outward toward Christ. We offered this as comfort. Whether an ordinary believer at Zurich or Geneva felt that comfort, or felt anxious instead, our record does not say.",
+ "voice_set_aside": false
+}

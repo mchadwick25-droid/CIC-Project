@@ -629,7 +629,7 @@ def build_quotes_json(records: dict) -> bytes:
             "id": q["id"],
             "text": q.get("text"),
             # The spoken form. `text` above is the verbatim source,
-            # kept for the citation net's verbatim check and never shown.
+            # kept for the citation net's verbatim check; never voiced, shown on the quote card as the edition's words.
             "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),
@@ -716,12 +716,14 @@ def build_figures_json(records: dict) -> bytes:
 # voice assembly this record type must never have, so both types are
 # excluded here, not just left off the chunk/prompt/capsule allowlists.
 _PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "world_front", "facilitator_brief"}
-_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification", "oblique_reason"}
+_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification", "oblique_reason", "reading_card"}
 
 
-def build_repository_json(records: dict) -> bytes:
+def build_repository_json(records: dict, edition_facts: dict[str, dict] | None = None) -> bytes:
+    facts = edition_facts or {}
     entries = [
-        {k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS}
+        {**{k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS},
+         **({"edition_facts": facts[record["id"]]} if record["id"] in facts else {})}
         for record in sorted(records.values(), key=lambda r: r["id"])
         if record.get("record_type") not in _PACKAGE_EXCLUDED_RECORD_TYPES
     ]

@@ -17,8 +17,7 @@ confidence:
     testimony, not Sulpitius's own self-description.
 sources:
 - source_id: gallic.source.gennadius-de-viris-illustribus
-  locus: "ch. XIX (npnf203 div v.iv.xx, file lines 42545-42552): Gennadius's description of the
-    Dialogues as a comparison of the Eastern monks and St. Martin"
+  locus: "ch. XIX (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 42548-42551; div v.iv.xx): Gennadius's description of the Dialogues as a comparison of the Eastern monks and St. Martin"
   license: public-domain
 retrieval:
   tier: 3

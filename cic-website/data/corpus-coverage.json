@@ -1285,6 +1285,78 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Gennadius, Lives of Illustrious Men (continuation), ch. XV 'Commodianus' (file line 42419)",
+          "author": "gennadius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Harnack, Die Chronologie der altchristlichen Litteratur bis Eusebius, Band 2 (1904)",
+          "author": "harnack",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt",
+          "rights": "Public Domain (pre-1930 publication; the host's item record carries possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the presbyter' (file line 40489)",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LVIII 'Minucius Felix' (file line 40642)",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXIX 'Arnobius the rhetorician' (file line 41017)",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXX 'Firmianus, surnamed Lactantius' (file line 41028)",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. XVIII 'Papias the bishop' (file line 39858)",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Letter LXX (To Magnus, an orator of Rome), the list of Christian writers who used pagan learning",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf206_jerome-principal-works.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Letter LXXXIV (To Pammachius and Oceanus), on Lactantius and the Holy Spirit",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf206_jerome-principal-works.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "A Treatise on the Anger of God",
           "author": "lactantius",
           "role": "tradition",
@@ -1357,6 +1429,30 @@
           "rights": "CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) -- NOT public domain as a digital edition; the printed edition it transcribes (printed 1890) is public domain by date. Attribution and share-alike travel with any quotation: the file's own licence element reads \"Available under a Creative Commons Attribution-ShareAlike 4.0 International License\" (https://creativecommons.org/licenses/by-sa/4.0/); publisher and authority University of Leipzig (2014), Gregory Crane principal, Jouve credited with 'OCR-ed, corrected and encoded the text', funder European Social Fund Saxony."
         },
         {
+          "work": "Histoire litteraire de l'Afrique chretienne, Tome Deuxieme: Saint Cyprien et son temps",
+          "author": "monceaux",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt",
+          "rights": "Public Domain (pre-1930 publication; author died 1941, work is PD by publication date regardless)"
+        },
+        {
+          "work": "Histoire litteraire de l'Afrique chretienne, Tome Premier: Tertullien et les origines",
+          "author": "monceaux",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt",
+          "rights": "Public Domain (pre-1930 publication; author died 1941, work is PD by publication date regardless)"
+        },
+        {
+          "work": "Histoire litteraire de l'Afrique chretienne, Tome Troisieme: Le IVe siecle, d'Arnobe a Victorin",
+          "author": "monceaux",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt",
+          "rights": "Public Domain (pre-1930 publication; author died 1941, work is PD by publication date regardless)"
+        },
+        {
           "work": "The Passion of the Holy Martyrs Perpetua and Felicitas",
           "author": "passion_of_perpetua",
           "role": "tradition",
@@ -1387,6 +1483,14 @@
           "confidence": "assigned",
           "source_file": "knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
           "rights": "Public Domain (pre-1930 publication) (printed 1929, inside the 1930-or-earlier rule; the imprint carries 'Alle Rechte vorbehalten')"
+        },
+        {
+          "work": "Schanz-Hosius-Krueger, Geschichte der roemischen Litteratur, Teil 3 (3rd ed., 1922)",
+          "author": "schanz-hosius-krueger",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt",
+          "rights": "Public Domain (printed 1922, inside the 1930-or-earlier rule); the host's item record carries the Public Domain Mark 1.0 licence URL (http://creativecommons.org/publicdomain/mark/1.0/)"
         },
         {
           "work": "A Treatise on the Soul (De Anima)",
@@ -7244,6 +7348,22 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Gregory of Nyssa, PG 44, Greek: homilies on Ecclesiastes and the Song of Songs, Life of Moses, Beatitudes, On Prayer",
+          "author": "gregory-nyssa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "Gregory of Nyssa, PG 45, Greek: To the Greeks from Common Notions, To Ablabius, Against Eunomius, Against Apollinaris",
+          "author": "gregory-nyssa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-nyssa_opera-omnia-pg45-grc-lat_migne1858.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Gregory of Nyssa, PG 46, Greek: Theodore, the Forty Martyrs, Life of Gregory Thaumaturgus, Against Those Who Lend at Interest, on the love of the poor",
           "author": "gregory-nyssa",
           "role": "tradition",
@@ -11833,6 +11953,22 @@
           "confidence": "assigned",
           "source_file": "gregory-great_dialogues_gardner1911.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Gregory I, Registrum epistolarum, Books VIII-IX, Latin (Ewald-Hartmann 1893)",
+          "author": "gregory-great",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt",
+          "rights": "Public Domain (pd-us-by-date: a nineteenth-century Berlin printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Gregory I, Registrum epistolarum, Books X-XIV with appendices, Latin (Ewald-Hartmann 1895)",
+          "author": "gregory-great",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt",
+          "rights": "Public Domain (pd-us-by-date: a nineteenth-century Berlin printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English",
@@ -19001,6 +19137,14 @@
           "confidence": "assigned",
           "source_file": "schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Calvin, Ordonnances ecclesiastiques: the 1541 draft and the 1561 text, with the Leges Academiae and the Consilia (Opera X.1)",
+          "author": "calvin",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1871 Braunschweig imprint). The scan opens with a University of Geneva open-archive cover sheet (OCR lines 1-39) carrying the generic notice 'This document is protected by copyright. Please refer to copyright holder(s) for terms of use'; the sheet is repository boilerplate on a scan of an 1871 print and is kept unchanged."
         },
         {
           "work": "Commentaries on the First Book of Moses, Called Genesis, Vol. I",

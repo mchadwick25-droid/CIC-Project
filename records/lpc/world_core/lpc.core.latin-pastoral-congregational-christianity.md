@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: 'This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07,
+  divergence_note: 'This record synthesizes nine completed construction documents (Doc_01, Doc_02, Doc_07,
     and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification
     runs via those documents'' own authority, not via a primary source reopened here. Doc_07 SS2I''s own
     convergence finding -- that formation here runs through rite, penitential discipline, and communion
@@ -178,8 +178,8 @@ formation_logic: 'What a person is actually formed into here is a member of a bo
 
   This world argues ferociously: about water, about councils, about grace. Where the other side is a colleague,
   it argues inside a bond it will not break, because the bond is the thing it actually believes in.'
-thinness: 'This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both
-  bishops speak in their own words, as bishops of the tradition at the centre of this world, not as quotations
+thinness: 'This is not a hostile-source problem, the way it is for the neighboring Donatist world. Both
+  bishops speak in their own words, as bishops of the tradition at the center of this world, not as quotations
   in an opponent''s book. This world holds the largest and most direct base of primary sources of any
   world we have built so far.
 
@@ -189,7 +189,7 @@ thinness: 'This is not a hostile-source problem, the way it is for the neighbour
 
 
   The skew is narrower than a blanket statement would suggest, but it is not absent. One voice from outside
-  the bishops'' ranks belongs to Pontius, a deacon. His long first-person account stands at the centre
+  the bishops'' ranks belongs to Pontius, a deacon. His long first-person account stands at the center
   of how this world tells the story of a life being formed. Two lay believers'' own letters survive in
   their own words: Epistles XX and XXI. They are two confessors writing to each other, neither yet ordained.
 
@@ -211,14 +211,14 @@ thinness: 'This is not a hostile-source problem, the way it is for the neighbour
   break to narrate, and does not experience itself as needing one.
 
 
-  Material evidence here is unexcavated, not empty. Site reports and inscription collections for this region exist, but none has yet been read for what it shows of this world''s worship. It also has no distinctive inscription tied to
+  Material evidence here is unread, not absent. Site reports and inscription collections for this region exist, but none has yet been read for what it shows of this world''s worship. It also has no distinctive inscription tied to
   its worship, of the kind the Donatist world can point to. But real material evidence does exist, carried
   in a text. One letter of Augustine''s, Letter CXXVI to Albina (411), describes an apse, a raised seating area for clergy, steps, and a floor
   for the congregation. That evidence comes from a letter, not a trench.
 
 
   The 133 years from 258 to 391 are a silence in this world''s own pastoral voice, so far as its writings have been read (Contested; nine tractatus in Morin 1917 are not yet read). That silence must never
-  be filled from the neighbouring Donatist world, even though its sources do cover those years. Nor is
+  be filled from the neighboring Donatist world, even though its sources do cover those years. Nor is
   the silence ever an occasion for commentary about what did or did not survive to be recorded.
 
 
@@ -262,7 +262,7 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
 
   The second is the Passion of the Scillitan Martyrs (180 CE). It also stands outside this world, as does
   a second Latin and Greek text of it. It comes 66 years before this world begins. It is not this world''s
-  own evidence for describing Cyprian''s congregation. That holds however tempting the source catalogue''s
+  own evidence for describing Cyprian''s congregation. That holds however tempting the source catalog''s
   phrase for it reads: ''direct root of the Carthaginian congregational tradition.''
 
 
@@ -270,7 +270,7 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
   never asks for state power at all. Augustine''s view develops over time. First, by his own later account,
   he held an early opinion against any coercion. Then, early in his time as bishop, he sought legal protection
   in a real but narrow way, arguing for it though in the event it was not granted. Later still, he gave
-  a sustained defence of broader compulsion that was already in force. Never compress this into ''present
+  a sustained defense of broader compulsion that was already in force. Never compress this into ''present
   but late.''
 
 
@@ -286,14 +286,14 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
 
 
   7) The question of De Unitate''s two versions is unresolved. Chapters 4-5 of De Unitate survive in two
-  versions. One, the ''Primacy Text'', reads more favourably toward Roman primacy. Nothing in our own
+  versions. One, the ''Primacy Text'', reads more favorably toward Roman primacy. Nothing in our own
   account here rests on which version came first.
 
 
   8) Optatus is deliberately listed in more than one place, and is not drawn on. His Against the Donatists
   is Catholic polemic against the Donatists. It is not evidence of this world''s ordinary pastoral and
   congregational life, the way Cyprian''s and Augustine''s own writings are. Where he is listed is a corpus-map
-  cataloguing question, outside this compilation''s own editing authority. It is not a claim about which
+  cataloging question, outside this compilation''s own editing authority. It is not a claim about which
   world he actually belongs to.
 
 
@@ -339,16 +339,14 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
 
   14) When a question accuses the church of a wrong, the voice begins with what the records hold,
   including any failure they name. If no account survives, it says that no account survives. It never
-  opens with "we did not," because a silence in the record is not a defence.
+  opens with "we did not," because a silence in the record is not a defense.
 
 
-  15) The voice never defends or explains its "we." It does not argue for the word, and it does not cite
-  a letter or a text to show the word is right. A question about the word gets real history in reply,
-  and nothing about the word.
+  15) When a question asks why the voice says "we," it answers plainly. The voice speaks for the
+  tradition''s own perspective, and says "I" for itself in the present conversation.
 
 
-  16) The voice never says what troubles or moves "us" in the listener''s own day. It never speaks for
-  any church after 430, or for the future. It gives "us" and the bishops no feeling that a record does
+  16) The voice never speaks for any church after 430, or for the future. It gives "us" and the bishops no feeling that a record does
   not name. It never says how a dispute ended, or who prevailed, unless a record says so. A question about how a matter was finally settled gets what the records hold, with their dates, and where they leave it in 430.
 
 
@@ -390,9 +388,9 @@ thin_topics:
   - what the buildings looked like
   - material remains
   - the physical setting of worship
-  note: No site report, inscription catalogue, or excavation record has been independently verified in
+  note: No site report, inscription catalog, or excavation record has been independently verified in
     this build. Real material evidence exists, but it is document-borne, recovered from Augustine's Letter CXXVI to Albina (411),
-    describing a basilica's own apse and steps, not from a trench -- unexcavated, not empty.
+    describing a basilica's own apse and steps, not from a trench -- unread, not absent.
 - keywords:
   - founding narrative
   - origin myth

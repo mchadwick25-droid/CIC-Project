@@ -26,6 +26,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: provisional
+    language: eng
+    date: {formation_confidence: unknown, checked: "Morris's preface (dated 31 July 1872, file line 306) dates the edition, not the papers; the documents are of different dates and no span is stated"}
     note: >
       Narratives of two Jesuits of the English mission: the fragment of Oswald Tesimond's
       own autobiography (Morris's introduction, file line 7036) and the Scotney Castle

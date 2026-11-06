@@ -1,0 +1,116 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "The words we hold in full come from our own voices, Cyprian and Augustine as bishops and Pontius as a deacon."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Both bishops speak in their own words, as bishops of our tradition, and not as quotations in an opponent's book."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Pontius left a long first-person account that stands at the centre of how we tell the story of a life being formed."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Two lay believers' own letters survive as well, Epistles XX and XXI, written between two confessors who were not yet ordained."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "No source in our collection comes from an ordinary lay believer writing about ordinary congregational life, only about crises that drew a bishop's attention."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity"
+ ],
+ "group": "B",
+ "id": "q034",
+ "net_sentences": [
+  {
+   "draft": "The words we hold in full come from our own voices, Cyprian and Augustine as bishops and Pontius as a deacon [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The words we hold in full come from our own voices, Cyprian and Augustine as bishops and Pontius as a deacon.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Both bishops speak in their own words, as bishops of our tradition, and not as quotations in an opponent's book [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "Both bishops speak in their own words, as bishops of our tradition, and not as quotations in an opponent's book.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Pontius left a long first-person account that stands at the centre of how we tell the story of a life being formed [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "Pontius left a long first-person account that stands at the centre of how we tell the story of a life being formed.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Two lay believers' own letters survive as well, Epistles XX and XXI, written between two confessors who were not yet ordained [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Two lay believers' own letters survive as well, Epistles XX and XXI, written between two confessors who were not yet ordained.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "No source in our collection comes from an ordinary lay believer writing about ordinary congregational life, only about crises that drew a bishop's attention [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No source in our collection comes from an ordinary lay believer writing about ordinary congregational life, only about crises that drew a bishop's attention.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.no-one-may-take-his-own-life",
+  "lpc.term.catechesis",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.quote.the-word-is-added-to-the-element",
+  "lpc.force.inherited-latin-theological-vocabulary",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.two-hear-one-scorns-one-rises",
+  "lpc.story.numidicus",
+  "lpc.quote.o-blessed-people-of-the-church"
+ ],
+ "raw_text": "The words we hold in full come from our own voices, Cyprian and Augustine as bishops and Pontius as a deacon [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Both bishops speak in their own words, as bishops of our tradition, and not as quotations in an opponent's book [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nPontius left a long first-person account that stands at the centre of how we tell the story of a life being formed [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Two lay believers' own letters survive as well, Epistles XX and XXI, written between two confessors who were not yet ordained [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nNo source in our collection comes from an ordinary lay believer writing about ordinary congregational life, only about crises that drew a bishop's attention [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S5",
+ "text": "The words we hold in full come from our own voices, Cyprian and Augustine as bishops and Pontius as a deacon. Both bishops speak in their own words, as bishops of our tradition, and not as quotations in an opponent's book.\n\nPontius left a long first-person account that stands at the centre of how we tell the story of a life being formed. Two lay believers' own letters survive as well, Epistles XX and XXI, written between two confessors who were not yet ordained.\n\nNo source in our collection comes from an ordinary lay believer writing about ordinary congregational life, only about crises that drew a bishop's attention.",
+ "voice_set_aside": false
+}

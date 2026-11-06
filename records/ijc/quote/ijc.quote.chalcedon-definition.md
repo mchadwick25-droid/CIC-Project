@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: the Definition (npnf214 lines 20280-20298)
+  locus: "the Definition (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 20287-20296)"
   license: public-domain
 text: This one and the same Jesus Christ, the only-begotten Son [of God] must be confessed to be in two
   natures, unconfusedly, immutably, indivisibly, inseparably [united], and that without the distinction
@@ -25,11 +25,11 @@ text: This one and the same Jesus Christ, the only-begotten Son [of God] must be
   but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ...
 modern_rendering: >-
   This one and the same Jesus Christ, the only-begotten Son [of God], must be confessed to be in two
-  natures. The two are united without mixing, without change, without division, and without
-  separation. The difference between the natures is not taken away by this union. Rather, the special
-  character of each nature is kept. Both are united in one Person and one subsistence. He is not
-  split or divided into two persons. He is one and the same Son and only-begotten, God the Word, our
-  Lord Jesus Christ...
+  natures. He is confessed in them without mixing, without change, without division and without
+  separation [united]. The distinction of natures is not taken away by such union. Rather, the special
+  character of each nature is kept. Both are united in one Person and subsistence. He is not
+  separated or divided into two persons. He is one and the same Son and only-begotten, God the Word,
+  our Lord Jesus Christ...
 speaker_or_author: "The Council of Chalcedon (451), the Definition of Faith"
 license: verbatim
 modern_lens_note: >-
@@ -44,7 +44,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 use_note:
-  means: "Chalcedon defines Christ as one Person in two natures, united without confusion, change, division, or separation, each nature keeping its own property."
+  means: "Chalcedon defines Christ as one Person confessed in two natures without confusion, change, division, or separation, each nature keeping its own property."
   not_for:
     - "a claim that 'nature' and 'person' carry their modern psychological or temperamental senses"
     - "a claim that this settlement held the whole church"

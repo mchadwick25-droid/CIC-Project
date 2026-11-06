@@ -73,7 +73,7 @@ opponents chose to preserve was precisely its unresolved internal
 contradictions (`don.dw.what-we-never-settled`'s own note).
 
 Every claim greppable and every one of them a document rather than a
-hostile characterisation that could be discounted: the Bagai decree and
+hostile characterization that could be discounted: the Bagai decree and
 the reception without repetition are `don.story.bagai-reconciliation`;
 the unfinished purity question is `don.story.council-of-cirta`; the
 letters read into the record are `don.story.gesta-apud-zenophilum`; the

@@ -160,6 +160,13 @@ works:
     citation (XXVII, 585 and 1159)
   role: context
   confidence: provisional
+  language: lat
+  date:
+    start: 1409
+    end: 1418
+    source: 'title page (file line 133): ''ab anno MCCCCIX usque ad annum MCCCCXVIII'', the
+      volume''s span of acts, covering Pisa and Constance'
+    formation_confidence: Documented
   note: The Latin conciliar acts of Pisa and Constance, including the decrees on conciliar
     authority and the condemnations of Wyclif and Hus. Second witness for exact wording (long
     s read as f).

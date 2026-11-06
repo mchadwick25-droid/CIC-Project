@@ -1,0 +1,201 @@
+{
+ "draft": "We held that a newborn comes with no sins of his own, yet has taken on the contagion of the ancient death, being born after the flesh according to Adam [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. For that reason we would not make a newborn wait for baptism [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Cyprian and his colleagues met in council, sixty-six in number, and judged that God's mercy and grace are not to be refused to any one born of man [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Cyprian and his colleagues wrote to Fidus: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]\nAugustine went on to the hard end of this [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. He wrote that in baptism infants die only to original sin [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Of infants who leave the body unbaptized, Augustine wrote that they will be involved in the mildest condemnation of all [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. The mildest condemnation is still condemnation [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Whoever teaches that they will not be condemned, Augustine said, greatly deceives both himself and others [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "We held that a newborn comes with no sins of his own, yet has taken on the contagion of the ancient death, being born after the flesh according to Adam. We would not make a newborn wait for baptism. Cyprian and his colleagues met in council, sixty-six in number, and judged that God's mercy and grace are not to be refused to any one born of man. Augustine went on to the hard end of the question of newborns. Augustine wrote that in baptism infants die only to original sin. The mildest condemnation Augustine named for unbaptized infants is still condemnation.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.gravity.grace-and-human-incapacity",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.the-lapsed",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.quote.shepherd-wounded-in-the-flock",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.no-one-may-take-his-own-life",
+  "lpc.story.numidicus",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.quote.christ-redeemed-in-our-captive-brethren"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It says the newborn has no sins of his own but took the contagion of death, which bears on the question, yet it never speaks of guilt and is about not delaying baptism."
+   },
+   "record_id": "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+  }
+ ],
+ "question": "Did your community hold that a person enters the world already carrying guilt?",
+ "question_id": "q008",
+ "read": {
+  "dropped": [
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "We held that a newborn comes with no sins of his own, yet has taken on the contagion of the ancient death, being born after the flesh according to Adam.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "We would not make a newborn wait for baptism.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and judged that God's mercy and grace are not to be refused to any one born of man.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Augustine went on to the hard end of the question of newborns.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Augustine wrote that in baptism infants die only to original sin.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "The mildest condemnation Augustine named for unbaptized infants is still condemnation.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held that a newborn comes with no sins of his own, yet has taken on the contagion of the ancient death, being born after the flesh according to Adam.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For that reason we would not make a newborn wait for baptism.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and judged that God's mercy and grace are not to be refused to any one born of man.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "reason": "placed by code",
+   "sentence": "Cyprian and his colleagues wrote to Fidus: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+   "tags": [
+    "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine went on to the hard end of this.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He wrote that in baptism infants die only to original sin.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The mildest condemnation is still condemnation.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ]
+  }
+ ],
+ "shipped_by_net": "We held that a newborn comes with no sins of his own, yet has taken on the contagion of the ancient death, being born after the flesh according to Adam. For that reason we would not make a newborn wait for baptism. Cyprian and his colleagues met in council, sixty-six in number, and judged that God's mercy and grace are not to be refused to any one born of man. Cyprian and his colleagues wrote to Fidus: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”\n\nAugustine went on to the hard end of this. He wrote that in baptism infants die only to original sin. The mildest condemnation is still condemnation.",
+ "sub_question": "C4.S2"
+}

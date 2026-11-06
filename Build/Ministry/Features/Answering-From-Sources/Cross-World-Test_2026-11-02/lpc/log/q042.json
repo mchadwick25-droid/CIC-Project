@@ -1,0 +1,96 @@
+{
+ "draft": "We teach the creed before the water, and you say it back before we baptize you [[lpc.term.catechesis]] [[as:paraphrase]]. We tell you what you are joining before you join it [[lpc.term.catechesis]] [[as:paraphrase]]. Augustine wrote a guide to this teaching of those preparing for baptism [[lpc.term.catechesis]] [[as:paraphrase]].\n\nThe works written for those preparing for baptism are about forming believers, and forming believers is the stated aim of both bishops' preaching [[lpc.gravity.preaching-and-catechesis]] [[as:paraphrase]]. Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning [[lpc.term.preaching]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We teach the creed before the water, and you say it back before we baptize you. We tell you what you are joining before you join it. Augustine wrote a guide to this teaching of those preparing for baptism.\n\nThe works written for those preparing for baptism are about forming believers, and forming believers is the stated aim of both bishops' preaching. Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning.",
+ "group": "B",
+ "offered": [
+  "lpc.witness.judged-on-the-life-lived-here",
+  "lpc.term.catechesis",
+  "lpc.term.schism",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.quote.ancient-venom-against-my-episcopate",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.term.preaching",
+  "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.gravity.preaching-and-catechesis",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.quote.shepherd-wounded-in-the-flock",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me"
+ ],
+ "placements": [],
+ "question": "Is there a line about the creed I could read to new believers?",
+ "question_id": "q042",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We teach the creed before the water, and you say it back before we baptize you.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We tell you what you are joining before you join it.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine wrote a guide to this teaching of those preparing for baptism.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The works written for those preparing for baptism are about forming believers, and forming believers is the stated aim of both bishops' preaching.",
+   "tags": [
+    "lpc.gravity.preaching-and-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning.",
+   "tags": [
+    "lpc.term.preaching"
+   ]
+  }
+ ],
+ "shipped_by_net": "We teach the creed before the water, and you say it back before we baptize you. We tell you what you are joining before you join it. Augustine wrote a guide to this teaching of those preparing for baptism.\n\nThe works written for those preparing for baptism are about forming believers, and forming believers is the stated aim of both bishops' preaching. Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning.",
+ "sub_question": "C16.S5"
+}

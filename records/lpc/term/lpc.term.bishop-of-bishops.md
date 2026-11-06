@@ -45,7 +45,8 @@ sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: the 256 Council preface -- 'For neither does any of us set himself up as a bishop of bishops,
     nor by tyrannical terror does any compel his colleague to the necessity of obedience; since every
-    bishop... has his own proper right of judgment'
+    bishop... has his own proper right of judgment'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 56871-56884; Latin at cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt, lines 140-147
   license: public-domain
 retrieval:
   tier: 2
@@ -83,6 +84,11 @@ senses:
     principle about separated powers. We mean neither -- a working statement of how a council among equals
     proceeds, made by the man chairing it, inside a shared conviction that the episcopate is one undivided
     office rather than a hierarchy of ranks.
+  heard_today: A modern listener is likely to hear an early anti-papal manifesto, or a democratic constitutional
+    principle about separated powers.
+  meant_here: We mean a working statement of how a council among equals proceeds, made by the man chairing
+    it, inside a shared conviction that the episcopate is one undivided office rather than a hierarchy
+    of ranks.
 quick_meaning: For us, no bishop stands over the others. Each one judges for himself, and answers to Christ.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- no evidence that ordinary believers were formed by this question) and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is the principal textual ground of the Cyprianic pole of a real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the same rule don's own script states. Relations: five terms per this term's own Related-Terms line.

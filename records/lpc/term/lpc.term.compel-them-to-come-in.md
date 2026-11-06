@@ -37,7 +37,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'This doctrine is known in our own corpus only through Augustine''s own advocacy, in
-    his own defence, with no Donatist first-person answer surviving in our Native record (Author-Gravity-Risk:
+    his own defense, with no Donatist first-person answer surviving in our Native record (Author-Gravity-Risk:
     Yes). The vendored volume''s own 19th-century preface calls the anti-Donatist works as a body ''least
     satisfactory to Protestant readers'' and says Augustine defended coercion by ''a false exegesis''
     -- that is the editor''s own theological verdict, not Augustine''s and not ours, and it is excluded
@@ -50,10 +50,12 @@ confidence:
     not characterize the Donatists.'
 sources:
 - source_id: lpc.source.augustine-correction-of-the-donatists
-  locus: Letter 185, SS25-26, the imperial-coercion defence
+  locus: Letter 185, SS24 (Chapter 6), the imperial-coercion defence; verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
+    lines 19616-19617; Latin at cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt,
+    lines 911-916
   license: public-domain
 - source_id: lpc.source.augustine-letter-93-to-vincentius
-  locus: Letter XCIII, SS17, the retrospective account of the earlier, contrary opinion
+  locus: Letter XCIII, SS17, the retrospective account of the earlier, contrary opinion -- 'originally my opinion was, that no one should be coerced into the unity of Christ'; verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 38245-38251
   license: public-domain
 retrieval:
   tier: 2
@@ -78,7 +80,7 @@ senses:
     -- it was only growing toward the strength in which it could. The later church can, and so may. This
     is the end of a three-phase development, and our own record does not permit compressing it into one
     position: an early opinion, by later account, against any coercion at all; then a real but narrow
-    solicitation of legal protection, argued and not granted; and only later the sustained defence of
+    solicitation of legal protection, argued and not granted; and only later the sustained defense of
     broader compulsion, after an argued change of mind. Cyprian never solicits state power at all, and
     nothing in his own phase corresponds to this. It is where our second phase meets the power available
     to it, and the sharpest test of our own claim that communion is preserved rather than broken: the
@@ -86,17 +88,22 @@ senses:
     force of our own ecology, and that is a finding rather than an omission -- nothing in this ecology
     organizes around it; the shift changes the instruments available to a bishop, not the thing a bishop
     is.'
-  evidential: Letter 185, SS25-26, the imperial-coercion defence, and Letter XCIII, SS17, the retrospective
+  evidential: Letter 185, SS24, the imperial-coercion defense, and Letter XCIII, SS17, the retrospective
     account of the earlier opinion, are both directly quoted and re-verified. The parable exegesis is
     Augustine's own, re-verified at source. This doctrine is known in our own corpus only through Augustine's
-    own advocacy, in his own defence, with no Donatist first-person answer surviving in our Native record;
+    own advocacy, in his own defense, with no Donatist first-person answer surviving in our Native record;
     he writes from a position of increasing institutional confidence relative to Donatism. The vendored
     volume's own 19th-century preface calls the anti-Donatist works as a body 'least satisfactory to Protestant
-    readers' and says Augustine defended coercion by 'a false exegesis' -- the editor's own judgement,
+    readers' and says Augustine defended coercion by 'a false exegesis' -- the editor's own judgment,
     not Augustine's and not ours, excluded entirely from this record.
   translational: A modern listener is likely to hear a straightforward endorsement of religious persecution,
     and to attach it to later inquisitions and wars of religion as if it were our own settled position
     throughout. We mean a late, argued position, reached against the author's own earlier opinion, defended
+    in the idiom of correction and recovery rather than punishment.
+  heard_today: A modern listener is likely to hear a straightforward endorsement of religious persecution,
+    and to attach it to later inquisitions and wars of religion as if it were our own settled position
+    throughout.
+  meant_here: We mean a late, argued position, reached against Augustine's own earlier opinion, defended
     in the idiom of correction and recovery rather than punishment.
 quick_meaning: For us, this is Augustine's late argument. He argued that a Christian ruler may use force
   to bring a separated group back into the one communion.

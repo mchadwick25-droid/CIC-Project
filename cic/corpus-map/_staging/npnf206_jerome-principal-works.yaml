@@ -227,3 +227,38 @@ assignments:
     and audience. Editorially collected, but every preface is Jerome''s text, not apparatus.
 
     '
+
+- row_id: npnf206_jerome-principal-works--letter-lxx-to-magnus-an-orator-of-rome-the-list-of-christian
+  work: Letter LXX (To Magnus, an orator of Rome), the list of Christian writers who used pagan learning
+  author: jerome
+  locus: div2 v.LXX, Letter LXX
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome defends his use of pagan authors by the example of earlier Christian writers. His list names Tertullian, Minucius Felix, Arnobius (seven books against the Gentiles), his pupil Lactantius and Cyprian, whom he praises for the theme that idols are no gods. Context, not tradition: Jerome''s testimony, not the apologists'' voice.'
+  locus_ids:
+  - div2:v.LXX (Letter LXX)
+  language: eng
+  date:
+    start: 397
+    end: 397
+    source: 'NPNF editor''s headnote to the letter (file line 16452 onward): ''The date of the letter is 397'''
+    formation_confidence: Dominant Modern Reconstruction
+- row_id: npnf206_jerome-principal-works--letter-lxxxiv-to-pammachius-and-oceanus-on-lactantius-and
+  work: Letter LXXXIV (To Pammachius and Oceanus), on Lactantius and the Holy Spirit
+  author: jerome
+  locus: div2 v.LXXXIV, Letter LXXXIV
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s charge that Lactantius, in his books and particularly in his letters to Demetrian, denied the subsistence of the Holy Spirit (file line 19196 onward). Context, not tradition: the charge of an outside critic, not Lactantius''s own words.'
+  locus_ids:
+  - div2:v.LXXXIV (Letter LXXXIV)
+  language: eng
+  date:
+    start: 400
+    end: 400
+    source: 'NPNF editor''s headnote to the letter (file line 18919 onward): ''The date of the letter is 400'''
+    formation_confidence: Dominant Modern Reconstruction

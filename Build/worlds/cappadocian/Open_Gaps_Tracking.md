@@ -1013,3 +1013,51 @@ Also open: `cappadocian_Source_Registry.md` rows 16, 32, 36, 37, 43, 51, 53, 61,
 Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
 
 Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
+
+### OG-59. Seven force descriptions rewritten to the reading level, provenance moved out, 2026-11-03.
+
+The descriptions of `capitals-gravity`, `famine-crisis`, `imperial-church-arrival`, `network-strains`, `plateau-itself`, `policy-oscillation` and `theodosian-settlement` carried Doc_08 cell and force numbers, Doc_02/05/06/07 section citations, "Layer 2/3" labels and gravity numbers. They also failed the readability gate, at FK 14 to 21. Each description is rewritten to FK 10 or below and FRE 60 or above. Every claim and confidence statement is kept, nothing is added, and the world's own terms (pleonexia, philoptōchia, hēsychia, paideia, Homoian, encomium, doxology, confessor) are kept. Gravity numbers are replaced by the gravities' own names. What was removed is listed in the Live-Surface-Cleanup Decision-Log (entry "CL2 follow-on (RD1b)"). An independent Opus review compared old and new meaning line by line and found six P2 points; all are fixed, and a second Opus read confirmed the fixes. `m1:readability/cappadocian` waiver 195 → 181. Package rebuilt and re-pinned.
+
+Noted and not changed: `policy-oscillation`'s relations do not include `cappadocian.gravity.paideia-converted`, although Doc_08 §5 ties this force to that gravity's crisis (Julian's school edict).
+
+Status: CLOSED for the seven descriptions; the relation gap is OPEN for cappadocian's own build thread.
+
+### OG-60. Open points removed from cappadocian documents by the live-surface cleanup, 2026-11-03.
+
+1. `Cappadocian_Final_Report.md`, line 46, finding F17, removed from the line (the rest stays): "the female-voice decision flagged for the project lead with a sharper edge than Early Latin's - this world is currently the best-evidenced site in the world-set for a future female-anchored voice."
+2. `cappadocian_Doc_06_Full_Lexicon.md`, line 196, removed: "the Doc_02 rework into V7.4 Source Registry rows is still pending" (those ids are the registry rows' designated ancestors). The lex003 (koinonia) front-matter mismatch, tracked at OG-15 above, stays stated in the line.
+3. `cappadocian_Representative_Identity_Options.md`, line 36: the build's quotation of the comparative note ended with "flagged for the project lead with that comparative note." The open question itself, Option 2 (a female-anchored second voice, "live, evidenced, and explicitly not-closed"), stays in the document.
+
+Status: OPEN. Owner: this world's thread.
+
+### OG-61. `policy-oscillation` linked to Paideia converted, 2026-11-03.
+
+Follows OG-59 ("Seven force descriptions rewritten to the reading level", 2026-11-03), which left this open. The forces document's Section 5 ties Supporting 4 (Paideia converted) to three forces: 1B-3 (its ground), 2A-1 with Julian (its crisis) and 2A-3 (its discipline). `paideia-ladder` (1B-3) and `eunomian-movement` (2A-3) already carried the relation. `policy-oscillation` (2A-1) did not. It now carries `associated-with cappadocian.gravity.paideia-converted`, the gravity declares the relation back (its own note already named 2A-1 as associated-with), and the force's body note counts seven linked gravities, not six. An independent Opus review checked it against the forces document.
+
+Still open: the forces document's index table (`cappadocian_Forces_Document.md` line 27, the 2A-1 row) lists six gravities and leaves out Supporting 4, while its Section 5 includes it. The record now follows Section 5. The index row belongs to cappadocian's own build thread.
+
+Status: CLOSED for the record; OPEN for the index row.
+
+### OG-62. Every quote rendering reviewed by Opus against the edition; forces index row 2A-1, 2026-11-03.
+
+The `rendering-review` gate found 21 cappadocian renderings with no named Opus review file. An independent Opus reviewer read all 21 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed twelve: two P1 and ten P2. The P1 failures were these. In `basil-on-his-retreat`, "admire the multitude of flowers" had become "go on about the flowers". In `macrina-refuses-remarriage`, a claim stood outside the "she would say" frame and read as the narrator's judgment. All twelve were re-rendered by Opus and passed a second independent reader.
+
+A later check found that the round-2 rendering of `gregory-nyssa-on-becoming-god` dropped the edition's "reasonably" ("ought not reasonably to present any strangeness"). It was restored. A third reader then found two of the edition's grounding "For"s dropped. That put the record at the review cap. Under the project lead's ruling ("yes ... fourth read"), a fresh fourth reader passed the restored "For who, surveying the universe…". It failed the other sentence, because the correction had dropped "although" and so moved Gregory's ground onto the concession. Under a second ruling ("Fifth read of that sentence"), a fresh fifth reader passed: "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The whole field scores FK 7.3 and FRE 72.5. Both rulings are recorded in the System Hub Decision Log ("Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering", 2026-11-04).
+
+The forces document's index row 2A-1 now lists Supporting 4 (Paideia converted), matching its own Section 5 and the records. This closes the index-row half of the entry "`policy-oscillation` linked to Paideia converted" (2026-11-03). The change order is in `build/BUILD-LOG.md`.
+
+Per-record log: `Review-Artifacts/Rendering_Review_Log_21_2026-11-03.md`. The `m1:rendering-review/cappadocian` waiver is removed; the gate reports 0 for cappadocian (21 → 0).
+
+Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-63. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 21 cappadocian verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found in the batch review table (see the entry "Every quote rendering reviewed by Opus against the edition; forces index row 2A-1", 2026-11-03). The `quote-locus` gate checks each. One reviewer span ended short: `basil-against-eunomius-ant` runs to "the power of the incomprehensible God?" at line 24151 and now cites lines 24124-24151. In `basil-against-delaying-baptism`, the locus's older range (7017-7024) gives way to the verified span, lines 7018-7024.
+
+Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-64. "The plan of Revelation" in Gregory of Nyssa's rendering, 2026-11-04.
+
+The `modern_rendering` of `gregory-nyssa-on-becoming-god` kept the translator's capital in "the plan of Revelation". On screen, that can be read as the Book of Revelation. In the edition, it is the thing that "teaches that God was born among men": God's revealed teaching. The rendering now reads "the plan of revelation". The record's `text` keeps the edition's capital. A fresh independent Opus reader passed the phrase (`Review-Artifacts/Rendering_Review_Cappadocian_Revelation_2026-11-04.md`). This is a separate defect from the rendering covered by the cap ruling of 2026-11-04.
+
+Status: CLOSED. Owner: Library record-defects thread.

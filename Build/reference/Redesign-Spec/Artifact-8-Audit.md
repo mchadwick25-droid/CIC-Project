@@ -1,8 +1,7 @@
 # Artifact 8 — The Transcript Audit (M7)
 
-**Status:** contract for the stage-9 build, written 2026-08-28 at the start
-of that build (the same pattern as Artifact-7: the contract precedes the
-code, and the code cites the contract). Governed by CiC-Program-Spec.md M7
+**Status:** contract for the stage-9 build (the same pattern as Artifact-7:
+the contract precedes the code, and the code cites the contract). Governed by CiC-Program-Spec.md M7
 ("owns: quality after the door") and §Instruments; ops posture from
 Artifact-6 (PII, deletion lineage, cadence).
 
@@ -20,9 +19,9 @@ M7 is also the module that pays a standing debt: four safety/audit
 outputs have been computed on every live turn and read by nothing —
 `voice_turn.grounding` (per-sentence net verdicts),
 `voice_turn.do_not_voice_violation` (content licensing),
-`voice_turn.output_defects`, and `round_closed.governance`. The 2026-08-28
-foundation audit named them ("dead code that looks like a safety check is
-worse than no code at all") and ruled they stay because M7 was coming.
+`voice_turn.output_defects`, and `round_closed.governance`. The foundation
+audit named them ("dead code that looks like a safety check is
+worse than no code at all") and kept them because M7 was coming.
 This artifact is where they acquire their reader.
 
 ## §2 Inputs

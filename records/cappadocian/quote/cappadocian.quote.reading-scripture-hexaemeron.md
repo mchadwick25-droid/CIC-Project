@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-hexaemeron-homilies
-  locus: "Hexaemeron, Homily VIII (The creation of fowl and water animals), sec. 8 (npnf208_basil-letters-select-works.xml)"
+  locus: "Hexaemeron, Homily VIII (The creation of fowl and water animals), sec. 8 (cic/texts/npnf208_basil-letters-select-works.xml, lines 21217-21224)"
   license: public-domain
 text: >-
   If we simply read the words of Scripture we find only a few short
@@ -48,15 +48,15 @@ relations:
 - type: associated-with
   target: cappadocian.dw.reading-scripture
 modern_rendering: >-
-  If we simply read the words of Scripture, we find only a few short syllables: "Let the
-  waters bring forth flying creatures that fly above the earth in the open firmament of
+  If we simply read the words of Scripture, we find only a few short syllables. "Let the
+  waters bring forth birds that may fly above the earth in the open firmament of
   heaven." But if we ask what these words mean, the great wonder of the Creator's wisdom
-  appears. What a difference he foresaw among the winged creatures! How he divided them by
-  kinds! How he marked each one with its own distinct qualities!
+  appears. What a difference he has foreseen among winged creatures! How he has divided
+  them by kinds! How he has marked out each one of them by its own distinct qualities!
 use_note:
   means: "Basil's eighth Hexaemeron homily says the few syllables about the creation of birds disclose the Creator's wisdom once their meaning is closely examined."
   not_for:
-    - "licence for allegory or hidden codes, which Basil sets against plain attentive reading"
+    - "license for allegory or hidden codes, which Basil sets against plain attentive reading"
     - "the psalms as the unlettered believer's education, which sits in cappadocian.dw.reading-scripture through cappadocian.term.psalmodia"
     - "this world's canon list, which the homily does not address"
   years: {from: 360, to: 379}

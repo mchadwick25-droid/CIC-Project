@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep127
-  locus: sec. 7
+  locus: "sec. 7 (cic/texts/npnf206_jerome-principal-works.xml, lines 26177-26179)"
   license: public-domain
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
@@ -30,7 +30,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who people went to when they disagreed about a text"
-  - "participant asks whether a woman held any recognised authority"
+  - "participant asks whether a woman held any recognized authority"
 use_note:
   means: "Jerome's 412 memorial of Marcella says that after he left Rome, disputes about the testimony of scripture were brought to her to settle."
   not_for:

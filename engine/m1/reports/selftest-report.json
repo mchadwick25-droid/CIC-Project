@@ -294,6 +294,22 @@
       ]
     },
     {
+      "id": "quote-locus-span-without-the-text",
+      "gate": "quote-locus",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: text does not occur at its cited locus cic/texts/fixture-synthetic_witness-scroll.txt, lines 16-17 - failed segment 'I did not see him. I only saw what his witnesses could not stop telling.'; nearest span text: 'THE WITNESS SCROLL\\n(a fixture text - Testland, synthetic)'"
+      ]
+    },
+    {
+      "id": "rendering-without-a-review",
+      "gate": "rendering-review",
+      "status": "caught",
+      "findings": [
+        "fix.story.the-long-road: no rendering review log row names this record"
+      ]
+    },
+    {
       "id": "admission-register-invented-aphorism",
       "gate": "admission-register-check",
       "status": "deferred-to-stage-4"

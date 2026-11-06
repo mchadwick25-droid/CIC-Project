@@ -11,6 +11,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {checked: 'title page, translator''s preface area (lines 1-420), Calvin Translation Society reports and text; no composition date stated for Books II-III', formation_confidence: unknown}
+    translator: {formation_confidence: Documented, name: Henry Beveridge, source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 392: BY HENRY BEVERIDGE, ESQ.'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 401: M.DCCC.XLV.', year: 1845}
     note: >
       Book II: Christ the Redeemer, law and gospel. Book III: faith,
       justification, predestination - the load-bearing doctrinal core

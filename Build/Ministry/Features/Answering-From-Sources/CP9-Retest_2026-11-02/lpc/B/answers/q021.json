@@ -1,0 +1,123 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "The physical evidence we have comes from a letter, not from a trench, and the buildings themselves are unread rather than absent."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for clergy, steps, and a floor for the congregation."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "We have no inscription tied to our worship of the kind our rival communion can point to."
+  },
+  {
+   "record_ids": [
+    "lpc.force.organized-carthaginian-church"
+   ],
+   "sentence": "The councils our church held left written acts, and Augustine later read and argued with them."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.411-gesta-unread"
+   ],
+   "sentence": "The transcript of the great conference of 411 has not been validly read in building our record, so we cannot say what it shows."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.411-gesta-unread"
+ ],
+ "group": "A",
+ "id": "q021",
+ "net_sentences": [
+  {
+   "draft": "The physical evidence we have comes from a letter, not from a trench, and the buildings themselves are unread rather than absent [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]].",
+   "sentence": "The physical evidence we have comes from a letter, not from a trench, and the buildings themselves are unread rather than absent.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for clergy, steps, and a floor for the congregation [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for clergy, steps, and a floor for the congregation.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]].",
+   "sentence": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We have no inscription tied to our worship of the kind our rival communion can point to [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]].",
+   "sentence": "We have no inscription tied to our worship of the kind our rival communion can point to.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The councils our church held left written acts, and Augustine later read and argued with them [[lpc.force.organized-carthaginian-church]][[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "The councils our church held left written acts, and Augustine later read and argued with them.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "The transcript of the great conference of 411 has not been validly read in building our record, so we cannot say what it shows [[lpc.limit.411-gesta-unread]][[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "The transcript of the great conference of 411 has not been validly read in building our record, so we cannot say what it shows.",
+   "tags": [
+    "lpc.limit.411-gesta-unread"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.411-gesta-unread"
+ ],
+ "raw_text": "The physical evidence we have comes from a letter, not from a trench, and the buildings themselves are unread rather than absent [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]]. Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for clergy, steps, and a floor for the congregation [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]]. Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]]. We have no inscription tied to our worship of the kind our rival communion can point to [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]]. The councils our church held left written acts, and Augustine later read and argued with them [[lpc.force.organized-carthaginian-church]][[as:paraphrase]]. The transcript of the great conference of 411 has not been validly read in building our record, so we cannot say what it shows [[lpc.limit.411-gesta-unread]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S8",
+ "text": "The physical evidence we have comes from a letter, not from a trench, and the buildings themselves are unread rather than absent. Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for clergy, steps, and a floor for the congregation. Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship. We have no inscription tied to our worship of the kind our rival communion can point to. The councils our church held left written acts, and Augustine later read and argued with them. The transcript of the great conference of 411 has not been validly read in building our record, so we cannot say what it shows.",
+ "voice_set_aside": false
+}

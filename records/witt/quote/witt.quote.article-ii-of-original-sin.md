@@ -20,10 +20,7 @@ confidence:
     condemnation clause that term record's own coverage note discloses it had not separately gathered.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: >-
-    Article II: Of Original Sin: 'all men begotten in the natural way are born with sin... bringing eternal
-    death upon those not born again through Baptism and the Holy Ghost' through 'argue that man can be
-    justified before God by his own strength and reason'
+  locus: "Article II: Of Original Sin: 'all men begotten in the natural way are born with sin... bringing eternal death upon those not born again through Baptism and the Holy Ghost' through 'argue that man can be justified before God by his own strength and reason' (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt, lines 194-203)"
   license: public-domain
 retrieval:
   tier: 1

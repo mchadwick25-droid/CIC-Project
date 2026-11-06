@@ -15,17 +15,17 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.eusebius-vita-constantini
-  locus: I.28 (npnf201 lines 61203-61208)
+  locus: "I.28 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 61203-61208)"
   license: public-domain
 text: He said that about noon, when the day was already beginning to decline, he saw with his own eyes
   the trophy of a cross of light in the heavens, above the sun, and bearing the inscription, Conquer by
   this. At this sight he himself was struck with amazement, and his whole army also, which followed him
   on this expedition, and witnessed the miracle.
 modern_rendering: >-
-  He said that he saw with his own eyes, in the sky above the sun, the victory sign of a cross of
-  light. This was about noon, when the day was already beginning to decline. It bore the inscription,
-  "Conquer by this." At this sight he himself was struck with amazement. So was his whole army, which
-  followed him on this expedition and witnessed the miracle.
+  He said that he saw with his own eyes the victory sign of a cross of light in the sky, above the
+  sun. He said this was about noon, when the day was already beginning to decline. The sign, he said,
+  bore the inscription, "Conquer by this." At this sight he himself was struck with amazement. So was
+  his whole army, which followed him on this expedition and witnessed the miracle.
 speaker_or_author: ijc.figure.eusebius-caesarea
 license: verbatim
 modern_lens_note: >-
@@ -34,7 +34,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks how the emperor came to favour the Christians"
+  - "participant asks how the emperor came to favor the Christians"
   - "participant asks whether the vision story can be believed"
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}

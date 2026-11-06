@@ -274,7 +274,9 @@ def test_the_replay_over_all_66_drafts():
     # Jerome's record and goes with its quote. Code then writes the lead-in
     # for a quote whose lead-in names no speaker, so those
     # lead-ins no longer cost a cut: 8 fewer cuts, 8 more quotes placed.
-    assert counts["cuts"] == 48
+    # The absence rule then withholds 2 more: cappadocian Q4's "none of it was
+    # written down as law" and syr Q6's uncited "women's own voices".
+    assert counts["cuts"] == 50
     assert counts["overcuts_still_cut"] == 6
     assert counts["placed_quotes"] == 12 and counts["placed_without_speaker_named"] == 0
     assert counts["stray_punctuation_sentences"] == 1

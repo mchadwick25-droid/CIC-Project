@@ -26,6 +26,7 @@ work: 'Minor treatises, grouped: An Address to Demetrianus, Exhortation to Marty
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: 'Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V'
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

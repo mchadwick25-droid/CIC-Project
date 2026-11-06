@@ -138,11 +138,11 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:retrieve-when-question/rzg": Waiver(count=3, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; rzg's own build thread"),
     "m1:reciprocity/lpc": Waiver(count=1, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:retrieval-negatives-structured/lpc": Waiver(count=47, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
-    "m1:readability/lpc": Waiver(count=13, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:readability/lpc": Waiver(count=12, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:horizon/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:cells-required/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:voice-perspective/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
-    "m9:shelf-row/lpc": Waiver(count=28, deadline="2027-03-15", owner="Stage 2 shelf-row migration: the remaining records are ambiguous (several bucket rows share the file) or off-shelf (CM-5); listed in Build/Ministry/Features/Answering-From-Sources/Stage2_ShelfRow_Ambiguities.md", approved_by=PROJECT_LEAD),
+    "m9:shelf-row/lpc": Waiver(count=18, deadline="2027-03-15", owner="Stage 2 shelf-row migration: the remaining records are ambiguous (several bucket rows share the file) or off-shelf (CM-5); listed in Build/Ministry/Features/Answering-From-Sources/Stage2_ShelfRow_Ambiguities.md", approved_by=PROJECT_LEAD),
     "m9:shelf-row/alx": Waiver(count=19, deadline="2027-03-15", owner="Stage 2 shelf-row migration: the remaining records are ambiguous (several bucket rows share the file) or off-shelf (CM-5); listed in Build/Ministry/Features/Answering-From-Sources/Stage2_ShelfRow_Ambiguities.md"),
     "m9:voicing-pair/alx": Waiver(count=41, deadline="2027-03-15", owner="Stage 2 shelf-row migration: emic records that cite a context-role row with no voice_of, which the pointers made visible; the rows need CM-8 voice_of and documented_exchange rulings in corpus-map"),
     "m9:shelf-row/desert": Waiver(count=11, deadline="2027-03-15", owner="Stage 2 shelf-row migration: the remaining records are ambiguous (several bucket rows share the file) or off-shelf (CM-5); listed in Build/Ministry/Features/Answering-From-Sources/Stage2_ShelfRow_Ambiguities.md"),
@@ -159,19 +159,19 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:emic-vendored-only/cappadocian": Waiver(count=43, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed; this count includes the emic records that cite sources the Library does not hold"),
     "m9:shelf-row/hal": Waiver(count=21, deadline="2027-03-15", owner="Stage 2 shelf-row migration: the remaining records are ambiguous (several bucket rows share the file) or off-shelf (CM-5); listed in Build/Ministry/Features/Answering-From-Sources/Stage2_ShelfRow_Ambiguities.md"),
     "m9:voicing-pair/hal": Waiver(count=10, deadline="2027-03-15", owner="Stage 2 shelf-row migration: emic records that cite a context-role row with no voice_of, which the pointers made visible; the rows need CM-8 voice_of and documented_exchange rulings in corpus-map"),
-    "m9:shelf-row/ijc": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/ijc": Waiver(count=27, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/ijc": Waiver(count=2, deadline="2026-12-14", owner="ijc's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:shelf-row/pahc": Waiver(count=23, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:shelf-row/syr": Waiver(count=24, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/pahc": Waiver(count=15, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:voicing-pair/pahc": Waiver(count=1, deadline="2027-03-15", owner="Stage 2 shelf-row migration: emic records that cite a context-role row with no voice_of, which the pointers made visible; the rows need CM-8 voice_of and documented_exchange rulings in corpus-map"),
+    "m9:shelf-row/syr": Waiver(count=16, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/syr": Waiver(count=38, deadline="2026-12-14", owner="syr's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m1:reciprocity/desert": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; desert's own build thread"),
     "m1:reciprocity/don": Waiver(count=52, deadline="2026-12-14", owner="D2 SS1.3(e) - don's own known reciprocity gap; don's build thread"),
     "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
     "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
-    "m9:shelf-row/rzg": Waiver(count=13, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m1:quote-verbatim/gallic": Waiver(count=1, deadline="2026-12-14", owner="gallic.quote.salvian-on-the-unburied-dead - one footnote-marker artifact in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (a bare closing curly quote glued to \"captures,\" with no matching open, unlike this edition's other two now-registered apparatus patterns) isn't a safe edition-wide regex (41 real opening curly quotes and legitimate closing-quote usage elsewhere in this same file); needs a narrower, structurally-anchored rule, not a blanket strip - Decision 8B's own gallic thread"),
+    "m9:shelf-row/rzg": Waiver(count=4, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/witt": Waiver(count=24, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     # gate_readability covers every field engine/m1/spoken_fields.py
     # declares under an instruction/voice-diet/evidence-head/
     # facilitator-spoken role, not just term/honest_limit/
@@ -180,15 +180,15 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # never graded, mostly concentrated in doctrinal_witness.positions
     # and gravity/force.description across the fleet.
     "m1:readability/alx": Waiver(count=18, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
-    "m1:readability/cappadocian": Waiver(count=195, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
-    "m1:readability/desert": Waiver(count=114, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=181, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/desert": Waiver(count=112, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=221, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=44, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
-    "m1:readability/hal": Waiver(count=95, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
-    "m1:readability/ijc": Waiver(count=114, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
+    "m1:readability/hal": Waiver(count=94, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
+    "m1:readability/ijc": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=93, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
-    "m1:readability/rzg": Waiver(count=82, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
-    "m1:readability/syr": Waiver(count=127, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
+    "m1:readability/rzg": Waiver(count=78, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
+    "m1:readability/syr": Waiver(count=125, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
     "m1:readability/witt": Waiver(count=98, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
@@ -255,9 +255,11 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         # permanently excludes from the waiver mechanism: a sub-8 field is
         # reported, never failed, so it needs no waiver to stay green.
         merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
-        # gate_retrieve_when_questions is not in GATES either (its docstring
-        # says why); its findings are waivable like any gate's.
+        # gate_retrieve_when_questions and gate_reading_card are not in GATES
+        # either (their docstrings say why); their findings are waivable like
+        # any gate's.
         merged["m1:retrieve-when-question"] = gates.gate_retrieve_when_questions(records, fleet, registry)
+        merged["m1:reading-card"] = gates.gate_reading_card(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings

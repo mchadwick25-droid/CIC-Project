@@ -16,7 +16,7 @@ confidence:
     on testing novel doctrine against consentient authority.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 28 [71-72] (npnf211 div iii.xxix, file lines 14271-14278): Vincent's rule for a teacher whose view stands against the consentient testimony of all"
+  locus: "Commonitory ch. 28 [71-72] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14271-14278; div iii.xxix): Vincent's rule for a teacher whose view stands against the consentient testimony of all"
   license: public-domain
 retrieval:
   tier: 2

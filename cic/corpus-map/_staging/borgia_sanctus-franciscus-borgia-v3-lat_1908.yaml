@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date: {start: 1539, end: 1565, source: "title page of Tomus III, file line 58: \"1539-1565\"", formation_confidence: Documented}
   note: 'Borgia''s letters and the monuments about him for 1539-1565, in the languages written (the Borgian
     monuments to his election as General on 2 July 1565). It lets the third General speak for himself,
     from 1565 to his death in 1572. Primary original evidence for the movement, quotable once each wording

@@ -1,0 +1,444 @@
+{
+ "lpc": {
+  "n": 149,
+  "sidecar_n": 149,
+  "seed_n": 149,
+  "rec_sidecar": 80,
+  "rec_held": 80,
+  "rec_ready": 80,
+  "usable_sq": 52,
+  "fileonly_sq": 4,
+  "neither": 35,
+  "both": 18,
+  "seeds": 143,
+  "usable": 102,
+  "fileonly": 41,
+  "vo": 39,
+  "et": 104,
+  "uvo": 39,
+  "uet": 63,
+  "pkg": "user",
+  "bind": {
+   "file level only: the file is on the worl": 41,
+   "row narrowed by locus_ids to this divisi": 102
+  },
+  "draft_in_sidecar": 0,
+  "unheld": 0,
+  "_fileonly": {
+   "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml": [
+    12,
+    [
+     "C1.S7",
+     "C10.S1",
+     "C11.S3",
+     "C13.S4",
+     "C5.S1a"
+    ]
+   ],
+   "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml": [
+    2,
+    [
+     "C1.S7",
+     "C5.S3b"
+    ]
+   ],
+   "npnf214_seven-ecumenical-councils.xml": [
+    25,
+    [
+     "C10.S5",
+     "C10.S6",
+     "C12.S2",
+     "C13.S5",
+     "C13.S6",
+     "C2.S8",
+     "C5.S1a",
+     "C6.S6",
+     "C8.S3"
+    ]
+   ],
+   "optatus_against-the-donatists.txt": [
+    1,
+    [
+     "C10.S6"
+    ]
+   ],
+   "anf05_hippolytus-cyprian-caius-novatian.xml": [
+    1,
+    [
+     "C5.S2c"
+    ]
+   ]
+  },
+  "_seedkeys": [
+   "author",
+   "author_slug",
+   "byte_end",
+   "byte_start",
+   "checks",
+   "division_locus",
+   "edition_date",
+   "file",
+   "fit",
+   "language",
+   "limits",
+   "ocr_score",
+   "origin",
+   "passage_id",
+   "rank",
+   "reader_note",
+   "rekeyed_from",
+   "role",
+   "says_and_applies",
+   "shelf_binding",
+   "speaker",
+   "translator",
+   "voice",
+   "voice_blockers",
+   "window",
+   "work",
+   "work_author_basis",
+   "work_date"
+  ]
+ },
+ "alx": {
+  "n": 130,
+  "sidecar_n": 130,
+  "seed_n": 130,
+  "rec_sidecar": 50,
+  "rec_held": 50,
+  "rec_ready": 50,
+  "usable_sq": 0,
+  "fileonly_sq": 28,
+  "neither": 80,
+  "both": 0,
+  "seeds": 52,
+  "usable": 0,
+  "fileonly": 52,
+  "vo": 0,
+  "et": 52,
+  "uvo": 0,
+  "uet": 0,
+  "pkg": "user",
+  "bind": {
+   "file level only: the file is on the worl": 52
+  },
+  "draft_in_sidecar": 0,
+  "unheld": 0,
+  "_fileonly": {
+   "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml": [
+    3,
+    [
+     "C1.S7",
+     "C12.S1",
+     "C13.S1"
+    ]
+   ],
+   "npnf204_athanasius-select-works-letters.xml": [
+    9,
+    [
+     "C13.S2",
+     "C2.S2",
+     "C2.S3",
+     "C2.S4",
+     "C2.S7",
+     "C5.S1",
+     "C9.S3"
+    ]
+   ],
+   "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml": [
+    9,
+    [
+     "C10.S1",
+     "C10.S5",
+     "C11.S3",
+     "C12.S1",
+     "C2.S8",
+     "C7.S4"
+    ]
+   ],
+   "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml": [
+    4,
+    [
+     "C11.S2",
+     "C3.S2",
+     "C8.S5",
+     "C9.S1"
+    ]
+   ],
+   "npnf201_eusebius-church-history-life-of-constantine.xml": [
+    3,
+    [
+     "C5.S1",
+     "C5.S3",
+     "C9.S1"
+    ]
+   ],
+   "origen_philocalia_lewis1911.txt": [
+    1,
+    [
+     "C5.S2"
+    ]
+   ],
+   "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml": [
+    4,
+    [
+     "C12.S1",
+     "C13.S5",
+     "C6.S6"
+    ]
+   ],
+   "npnf214_seven-ecumenical-councils.xml": [
+    6,
+    [
+     "C6.S6",
+     "C7.S2",
+     "C7.S5",
+     "C8.S3"
+    ]
+   ],
+   "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml": [
+    7,
+    [
+     "C13.S1",
+     "C7.S2",
+     "C8.S3",
+     "C8.S5"
+    ]
+   ],
+   "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml": [
+    4,
+    [
+     "C13.S3",
+     "C13.S5",
+     "C8.S5"
+    ]
+   ],
+   "npnf202_socrates-sozomen-ecclesiastical-histories.xml": [
+    2,
+    [
+     "C9.S5"
+    ]
+   ]
+  },
+  "_seedkeys": [
+   "author",
+   "byte_end",
+   "byte_start",
+   "checks",
+   "division_locus",
+   "edition_date",
+   "file",
+   "fit",
+   "language",
+   "limits",
+   "ocr_score",
+   "origin",
+   "passage_id",
+   "rank",
+   "reader_note",
+   "role",
+   "says_and_applies",
+   "shelf_binding",
+   "speaker",
+   "translator",
+   "voice",
+   "voice_blockers",
+   "window",
+   "work",
+   "work_author_basis",
+   "work_date"
+  ]
+ },
+ "syr": {
+  "n": 130,
+  "sidecar_n": 130,
+  "seed_n": 130,
+  "rec_sidecar": 56,
+  "rec_held": 56,
+  "rec_ready": 56,
+  "usable_sq": 0,
+  "fileonly_sq": 19,
+  "neither": 74,
+  "both": 0,
+  "seeds": 49,
+  "usable": 0,
+  "fileonly": 49,
+  "vo": 0,
+  "et": 49,
+  "uvo": 0,
+  "uet": 0,
+  "pkg": "user",
+  "bind": {
+   "file level only: the file is on the worl": 49
+  },
+  "draft_in_sidecar": 0,
+  "unheld": 0,
+  "_fileonly": {
+   "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml": [
+    5,
+    [
+     "C1.S7",
+     "C10.S1",
+     "C13.S1",
+     "C5.S8"
+    ]
+   ],
+   "ephraim_prose-refutations_mitchell1912-1921.txt": [
+    2,
+    [
+     "C1.S7",
+     "C8.S5"
+    ]
+   ],
+   "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml": [
+    12,
+    [
+     "C10.S1",
+     "C10.S5",
+     "C12.S1",
+     "C13.S2",
+     "C2.S1",
+     "C8.S5"
+    ]
+   ],
+   "npnf213_gregory-great-ephraim-syrus-aphrahat.xml": [
+    6,
+    [
+     "C10.S5",
+     "C13.S1",
+     "C13.S5",
+     "C2.S8",
+     "C7.S7",
+     "C8.S3"
+    ]
+   ],
+   "addai_doctrine-of-addai.txt": [
+    2,
+    [
+     "C6.S1",
+     "C6.S2"
+    ]
+   ],
+   "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml": [
+    11,
+    [
+     "C10.S5",
+     "C12.S1",
+     "C13.S2",
+     "C13.S5",
+     "C6.S6"
+    ]
+   ],
+   "palladius_paradise-v1-syriac_budge1907.txt": [
+    2,
+    [
+     "C13.S1",
+     "C8.S5"
+    ]
+   ],
+   "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml": [
+    7,
+    [
+     "C13.S2",
+     "C13.S3",
+     "C13.S5",
+     "C8.S5"
+    ]
+   ],
+   "npnf208_basil-letters-select-works.xml": [
+    1,
+    [
+     "C9.S4"
+    ]
+   ],
+   "npnf202_socrates-sozomen-ecclesiastical-histories.xml": [
+    1,
+    [
+     "C9.S5"
+    ]
+   ]
+  },
+  "_seedkeys": [
+   "author",
+   "byte_end",
+   "byte_start",
+   "checks",
+   "division_locus",
+   "edition_date",
+   "file",
+   "fit",
+   "language",
+   "limits",
+   "ocr_score",
+   "origin",
+   "passage_id",
+   "rank",
+   "reader_note",
+   "role",
+   "says_and_applies",
+   "shelf_binding",
+   "speaker",
+   "translator",
+   "voice",
+   "voice_blockers",
+   "window",
+   "work",
+   "work_author_basis",
+   "work_date"
+  ]
+ },
+ "rzg": {
+  "n": 130,
+  "sidecar_n": 130,
+  "seed_n": 130,
+  "rec_sidecar": 39,
+  "rec_held": 39,
+  "rec_ready": 39,
+  "usable_sq": 31,
+  "fileonly_sq": 0,
+  "neither": 69,
+  "both": 9,
+  "seeds": 50,
+  "usable": 50,
+  "fileonly": 0,
+  "vo": 13,
+  "et": 37,
+  "uvo": 13,
+  "uet": 37,
+  "pkg": "user",
+  "bind": {
+   "row narrowed by locus_ids to this divisi": 50
+  },
+  "draft_in_sidecar": 0,
+  "unheld": 0,
+  "_fileonly": {},
+  "_seedkeys": [
+   "author",
+   "byte_end",
+   "byte_start",
+   "checks",
+   "division_locus",
+   "edition_date",
+   "file",
+   "fit",
+   "language",
+   "limits",
+   "ocr_score",
+   "origin",
+   "passage_id",
+   "rank",
+   "reader_note",
+   "role",
+   "says_and_applies",
+   "shelf_binding",
+   "speaker",
+   "translator",
+   "voice",
+   "voice_blockers",
+   "window",
+   "work",
+   "work_author_basis",
+   "work_date"
+  ]
+ }
+}

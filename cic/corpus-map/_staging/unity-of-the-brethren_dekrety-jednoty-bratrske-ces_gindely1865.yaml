@@ -19,4 +19,6 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: tradition
     confidence: provisional
+    language: ces
+    date: {formation_confidence: unknown, checked: "Gindely's preface (dated 'V Praze, dne 17. května 1864', which dates the edition only) and the contents list at file line 238: decrees from the Unity's origin through the 1600s, no single window"}
     note: "The Unity's own rulings on order and discipline in Czech, from the manuscripts: its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon, and the sacraments. Primary original evidence, quotable once each wording is checked against the page image. The contents list shows much of it dates before 1517, so it serves the Hussite world as well. Placed on the Czech contents list; the volume was not read in full. OCR clean."

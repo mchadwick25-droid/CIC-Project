@@ -35,6 +35,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: lat
+  date: {start: 1599, end: 1599, source: "title page, file line 53: \"Auguftinenft An. Dni mdxcix\" (the synod held under Menezes in 1599; the book itself is Rome 1745, line 62)", formation_confidence: Documented}
   note: >-
     Same text as the main row; the Jesuit share of the synod is in Raulin's history and notes. Placed
     on window and place.

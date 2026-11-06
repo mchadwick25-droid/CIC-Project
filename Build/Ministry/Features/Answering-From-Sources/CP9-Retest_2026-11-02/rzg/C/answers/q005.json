@@ -1,0 +1,394 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Zurich, a claim was argued aloud until the council itself said what the text had yielded, and at Geneva doctrine was built up and taught to everyone through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura",
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "In both cities we held that Scripture alone could bind a church."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Six hundred people met in Zurich's Town Hall on 29 January 1523."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "The city council had summoned the meeting itself."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Priests and laymen came from across the canton."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Delegates from the bishop of Constance came as well."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "They met to test Zwingli's case against Scripture."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Enemies of the new preaching mocked the gathering."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "He had sat through the whole disputation."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\""
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "When the arguments were finished, the council ruled for the reform."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "It ordered every priest in the canton to preach the same way."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Zurich's council governed church and city together."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "Geneva's Consistory fought for its independence from that kind of council control, and only by 1555 substantially won it."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "We never agreed between our two cities who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Against the Anabaptists, our own council turned to civil force after 1525, not argument alone."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "For the Marburg Colloquy, no account from anyone who was there has reached us, and for the Bolsec dispute we have only Calvin's own letters."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.story.first-zurich-disputation",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "At Zurich, a claim was argued aloud until the council itself said what the text had yielded, and at Geneva doctrine was built up and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich, a claim was argued aloud until the council itself said what the text had yielded, and at Geneva doctrine was built up and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In both cities we held that Scripture alone could bind a church [[rzg.term.sola-scriptura]] [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "In both cities we held that Scripture alone could bind a church.",
+   "tags": [
+    "rzg.term.sola-scriptura",
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Six hundred people met in Zurich's Town Hall on 29 January 1523 [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Six hundred people met in Zurich's Town Hall on 29 January 1523.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The city council had summoned the meeting itself [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "The city council had summoned the meeting itself.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Priests and laymen came from across the canton [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Priests and laymen came from across the canton.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Delegates from the bishop of Constance came as well [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Delegates from the bishop of Constance came as well.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They met to test Zwingli's case against Scripture [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "They met to test Zwingli's case against Scripture.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Enemies of the new preaching mocked the gathering [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Enemies of the new preaching mocked the gathering.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had sat through the whole disputation [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "He had sat through the whole disputation.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there [[rzg.story.first-zurich-disputation]].\"",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the arguments were finished, the council ruled for the reform [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "When the arguments were finished, the council ruled for the reform.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "It ordered every priest in the canton to preach the same way [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "It ordered every priest in the canton to preach the same way.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Zurich's council governed church and city together [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "Zurich's council governed church and city together.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Geneva's Consistory fought for its independence from that kind of council control, and only by 1555 substantially won it [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Geneva's Consistory fought for its independence from that kind of council control, and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We never agreed between our two cities who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We never agreed between our two cities who holds the final word over church discipline.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Against the Anabaptists, our own council turned to civil force after 1525, not argument alone [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Against the Anabaptists, our own council turned to civil force after 1525, not argument alone.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "For the Marburg Colloquy, no account from anyone who was there has reached us, and for the Bolsec dispute we have only Calvin's own letters [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For the Marburg Colloquy, no account from anyone who was there has reached us, and for the Bolsec dispute we have only Calvin's own letters.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.term.sola-scriptura",
+  "rzg.term.confession-of-faith",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "raw_text": "At Zurich, a claim was argued aloud until the council itself said what the text had yielded, and at Geneva doctrine was built up and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. In both cities we held that Scripture alone could bind a church [[rzg.term.sola-scriptura]] [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Our record tells of the First Zurich Disputation: [[story:rzg.story.first-zurich-disputation]] Zurich's council governed church and city together [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Geneva's Consistory fought for its independence from that kind of council control, and only by 1555 substantially won it [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]]. We never agreed between our two cities who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]]. Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]] [[as:paraphrase]]. Against the Anabaptists, our own council turned to civil force after 1525, not argument alone [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. For the Marburg Colloquy, no account from anyone who was there has reached us, and for the Bolsec dispute we have only Calvin's own letters [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.story.first-zurich-disputation",
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [
+   {
+    "draft": "Our record tells of the First Zurich Disputation: [[story:rzg.story.first-zurich-disputation]]",
+    "sentence": "Our record tells of the First Zurich Disputation:",
+    "why": "introduction names someone the story does not"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "rzg.story.first-zurich-disputation": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "At Zurich, a claim was argued aloud until the council itself said what the text had yielded, and at Geneva doctrine was built up and taught to everyone through the Catechism. In both cities we held that Scripture alone could bind a church.\n\nSix hundred people met in Zurich's Town Hall on 29 January 1523. The city council had summoned the meeting itself. Priests and laymen came from across the canton. Delegates from the bishop of Constance came as well. They met to test Zwingli's case against Scripture.\n\nEnemies of the new preaching mocked the gathering. They called it a \"tinker's day,\" and said that nothing but tinkers were attending.\n\nThat mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day. He had sat through the whole disputation. \"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"\n\nWhen the arguments were finished, the council ruled for the reform. It ordered every priest in the canton to preach the same way.\n\nZurich's council governed church and city together. Geneva's Consistory fought for its independence from that kind of council control, and only by 1555 substantially won it. We never agreed between our two cities who holds the final word over church discipline. Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”. Against the Anabaptists, our own council turned to civil force after 1525, not argument alone. For the Marburg Colloquy, no account from anyone who was there has reached us, and for the Bolsec dispute we have only Calvin's own letters.",
+ "voice_set_aside": false
+}

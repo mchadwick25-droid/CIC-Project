@@ -24,5 +24,6 @@ external_ids:
   rzg_source_registry_row: 4
 citation: John Calvin, The Catechism of the Church of Geneva, trans. Elijah Waterman (Hartford, 1815)
 kind: vendored
+shelf_row: calvin_geneva-catechism_waterman1815--the-catechism-of-the-church-of-geneva
 ---
 Calvin's own catechetical, not systematic-theological, register - Geneva's own strand-specific enactment of G3 (catechesis). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note.

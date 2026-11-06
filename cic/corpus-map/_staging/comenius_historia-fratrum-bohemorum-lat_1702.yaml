@@ -8,6 +8,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page and Buddeus's preface (file lines 1-120) and a search of the body for years: only the 1702 Halle imprint, no year for Comenius's text"}
   note: 'The Unity''s account of its own history, order and discipline from its last bishop, in Latin,
     printed long after the window. It is the Unity''s later self-account, so it gives the Unity''s own
     picture of its origins at second hand and not its voice of the years to 1517. Second witness for now,
