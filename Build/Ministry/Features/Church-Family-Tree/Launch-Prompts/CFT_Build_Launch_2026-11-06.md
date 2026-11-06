@@ -78,7 +78,26 @@ arrowheads, and legend rows that work as on/off switches. Details:
 - **Preset views are not wanted.** Mark declined preset views for now, so don't build
   them.
 
-## Phase 1: the move (one pull request, after #1521 merges and after `Open-Gaps.md` item 7's nameserver step)
+## Order of work, and one hard rule for the move (added 2026-11-06)
+
+1. **First, the rivers.** Mark decided on rivers that swell, thin and drift. Build them first, as one pull request on `cic-website/atlas-v3.html`, following
+   `CFT_Rivers_Brief_2026-11-06.md` in this folder exactly. Mark judges the feel by eye on the
+   branch preview before it merges.
+2. **Then Phase 1**, branched from `main` after the rivers merge. Doing them the other way round, or in parallel, would collide: the move renames the file the rivers change.
+
+**Hard rule for Phase 1: `main` deploys the public site the moment a pull request merges.**
+- **Redirects wait for the new site.** No merge may make an old address redirect to
+  `www.churchfamilytree.com` before that domain is attached and serving the tree.
+- **The tree must not disappear in between.** No merge may remove the tree from
+  `churchinconversation.com` in the meantime either.
+- **Plan the order before the first merge.** Typically: the new folder and Worker config
+  first, with the old site still serving the tree. Then Mark's dashboard steps, which
+  attach the domain. Then verify the new domain serves the tree. Only then the redirects
+  and the removal of the old copies.
+- **Keep the old site whole meanwhile.** If a pure rename can't keep the old site whole in
+  the meantime, say so and propose the order. Don't break either address.
+
+## Phase 1: the move (after the rivers merge; the nameservers already point at Cloudflare)
 
 1. **Repo map first.** Update the root `README.md` map and `CiC_Repo_Structure_Tracking.md`
    for the tree's new top-level live folder and its Worker config.
