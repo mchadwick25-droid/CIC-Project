@@ -24,6 +24,7 @@
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -59,7 +60,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
@@ -137,19 +142,19 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section">
+    <div class="lineage-section link-grow">
 <h3>Gave Rise To</h3>
 <ul class="lineage-list">
 <li id="alexandria-catechetical--desert-monasticism"><a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Contested</span> — <span class="confidence-note">Scholars disagree whether desert monasticism grew out of Alexandria&#039;s Christian teaching. Samuel Rubenson reads Antony&#039;s letters as Origenist. Athanasius, bishop of Alexandria, shows Antony as an Egyptian raised at home by Christian parents, who visited Alexandria during a persecution.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-influence">
 <h3>Influenced By</h3>
 <ul class="lineage-list">
 <li id="greek-apologists-second-century--alexandria-catechetical"><a href="greek-apologists-second-century.html">The Second-Century Greek Apologists</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Clement of Alexandria praises Tatian&#039;s Address to the Greeks as an accurate account of the age of Moses. Tatian belongs among the second-century Greek apologists.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-influence">
 <h3>Influenced</h3>
 <ul class="lineage-list">
 <li id="alexandria-catechetical--hieronymian-ascetic-literary"><a href="hieronymian-ascetic-literary.html">Hieronymian Ascetic-Literary Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In his preface to Job, written in 392, Jerome defends his new translation by pointing to Origen. Origen had marked every Old Testament book with obeli and asterisks to show where the old Greek text fell short.</span></li>
@@ -158,7 +163,7 @@ li{margin-bottom:.5rem}
 <li id="alexandria-catechetical--aquileian-christianity"><a href="aquileian-christianity.html">The Church of Aquileia</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Rufinus translated Origen into Latin, and the editors of his works say he did much of this at Aquileia. In his preface to the First Principles, written in 397, he says he is continuing a task Jerome began. A preface of 410 recalls his promise to put Origen&#039;s work on the Law of Moses into Latin for his people.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
 <li id="coptic-christianity-under-early-islam--alexandria-catechetical"><a href="coptic-christianity-under-early-islam.html">Coptic Christianity under Early Islam</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and calls Origen&#039;s later treatises blasphemous. Yet the same History honors Dionysius, who had directed the studies at Alexandria, as a patriarch.</span></li>

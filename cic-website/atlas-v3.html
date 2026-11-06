@@ -28,11 +28,13 @@
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
 :root[data-theme="light"]{
   --parchment:#F6F6F2; --vellum:#FBFBF9; --iron-gall:#2A2521; --ink-faded:#6C6257;
   --rule:#E6DFD3; --madder:#A13E2B; --gold-leaf:#B45309; --tyrian:#6B3FA0;
   --tyrian-wash:#F3EFFA; --graphite:#8A837C; --shadow:0 2px 10px rgba(42,37,33,.18);
+  --link-grow:#2F7A45; --link-influence:#8A5A2B; --link-conflict:#C0392B; --link-contact:#8A837C;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -311,6 +313,11 @@ svg#world{display:block;overflow:visible}
 #legend .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
 #legend .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
+#legend button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
+  font:inherit;color:inherit;text-align:left;cursor:pointer}
+#legend button.row:hover{background:var(--tyrian-wash)}
+#legend button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
+.is-off{display:none}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
@@ -42776,6 +42783,17 @@ const NS='http://www.w3.org/2000/svg';
 function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in attrs)e.setAttribute(k,attrs[k]); return e;}
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
+const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact'};
+const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with'};
+{
+  const defs=el('defs',{});
+  Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'5',markerHeight:'5',orient:'auto-start-reverse'});
+    mk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:`var(--link-${f})`}));
+    defs.appendChild(mk);
+  });
+  svg.insertBefore(defs,svg.firstChild);
+}
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
 // The era divider (a thin line; see the
@@ -43050,6 +43068,7 @@ function render(){
     const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
       'aria-label':`${f.lbl} river, ${members.length} movements`});
+    group.dataset.lane=k;
     group.appendChild(calm); group.appendChild(organic);
     group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
     group.addEventListener('mousemove',(ev)=>positionTip(ev));
@@ -43083,7 +43102,8 @@ function render(){
     const dash = EDGE_DASH[edg.confidence] || 'none';
     const d=`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
-      d, fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
+      d, fill:'none', stroke:`var(--link-${LINK_FAMILY[edg.type]||'contact'})`, 'stroke-width':1.3, opacity:EDGE_CALM_OP,
+      ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${LINK_FAMILY[edg.type]||'contact'})`}),
       'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
       // Nodes carry a real tabindex/role/keydown pair (rule established for
       // the 292 movements); the 69 relationship lines between them had none
@@ -43092,6 +43112,8 @@ function render(){
       'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
+    line.dataset.family=LINK_FAMILY[edg.type]||'contact'; line.dataset.conf=edg.confidence;
+    line.dataset.lanes=`${a.laneOrder}|${b.laneOrder}`;
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
     const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
     const onClick=()=>openPanelEdge(edg,a,b);
@@ -43102,6 +43124,7 @@ function render(){
     // input, sharing these same mouse/touch handlers -- never the keyboard
     // ones below, so Tab still lands on this edge exactly once, not twice.
     const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
+    hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence; hit.dataset.lanes=line.dataset.lanes;
     hit.addEventListener('mouseenter',onEnter);
     hit.addEventListener('mousemove',(ev)=>positionTip(ev));
     hit.addEventListener('mouseleave',onLeave);
@@ -43276,7 +43299,7 @@ function render(){
     // on a same-hued river (a teal node on the teal Africa river, say) it
     // all but disappears -- exactly the wrong place for the one signal a
     // keyboard user has for "this is where you are."
-    const g=el('g',{class:'node','data-id':m.id,tabindex:'0',role:'button',
+    const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
       'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
@@ -43986,7 +44009,8 @@ function buildLegend(){
   const wrap=document.getElementById('legend');
   wrap.classList.add('collapsed');
   let rows='<span class="cap">Tradition families</span>';
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<div class="row"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</div>`;});
+  rows+=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
+  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   // A Built & Live dot isn't one fixed color -- it renders at full strength
@@ -44001,22 +44025,49 @@ function buildLegend(){
   if((DATA.stories||[]).length){
     rows+='<span class="cap" style="margin-top:.5rem">Stories</span>';
     const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
-    rows+=`<div class="row">${bookIcon}Real, documented, but never its own movement</div>`;
+    rows+=`<button type="button" class="row" data-toggle="stories" aria-pressed="true">${bookIcon}Real, documented, but never its own movement</button>`;
   }
-  // The thin lines between worlds carry two things the map never spelled out
-  // anywhere: the dash pattern is the census's own confidence rating for
-  // that specific connection, and the line itself only says a documented
-  // relationship exists -- not which of the five kinds it is (formed,
-  // transmitted to, argued against, contemporary with, in tension with).
-  // Same-color-same-width by design (rule: a claim's TYPE isn't a claim
-  // about how sure anyone is of it), so that distinction is legend-only.
+  // A line's color is the kind of relationship and its dash is the confidence
+  // rating, so neither is read as a claim about the other.
   rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
-  rows+=`<div class="row">${lineKey()}Documented</div>`;
-  rows+=`<div class="row">${lineKey('6,3')}Widely accepted</div>`;
-  rows+=`<div class="row">${lineKey('2,3')}Contested</div>`;
-  rows+=`<div class="note">Hover or click a line for which of the five it is — formed, transmitted to, argued against, contemporary with, or in tension with.</div>`;
+  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
+  rows+=confRow('Documented','', 'Documented');
+  rows+=confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction');
+  rows+=confRow('Contested','2,3','Contested');
+  rows+=confRow('Inferential-Thin','1,4','Thin evidence');
+  rows+=`<div class="note">Tap a row to hide or show it. Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
   wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
+  const hidden=new Set();
+  try{(JSON.parse(localStorage.getItem('tree-hidden')||'[]')).forEach(k=>hidden.add(k));}catch(e){}
+  const applyToggles=()=>{
+    const hiddenConf=new Set();
+    hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
+    const laneOff=l=>hidden.has(`lane:${l}`);
+    document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff));
+    });
+    document.querySelectorAll('.river-group,.node').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    gStories.classList.toggle('is-off',hidden.has('stories'));
+    const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
+    wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
+      const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(b.dataset.toggle);
+      b.setAttribute('aria-pressed',String(on));
+    });
+  };
+  wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.addEventListener('click',()=>{
+    const k=b.dataset.toggle;
+    if(k==='lanes-all'){
+      const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
+      const anyOn=lanes.some(l=>!hidden.has(l));
+      lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
+    } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
+    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));}catch(e){}
+    applyToggles();
+  }));
+  applyToggles();
   document.getElementById('legendToggle').addEventListener('click',()=>{
     const open=wrap.classList.toggle('collapsed');
     document.getElementById('legendToggle').innerHTML=open?'Legend &#9662;':'Legend &#9652;';

@@ -13,6 +13,20 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-06 — Link colors by kind of relationship (four families)
+
+**Decided (Mark, "four colors").** The tree's lines are colored by the kind of relationship, in four families: green for grew out of and continued as, brown for influenced, red for argued against and broke with, gray for in contact with. Line style keeps showing confidence (solid, dashed, dotted, sparse dots), so color and style each carry one meaning. Arrowheads mark direction on the one-way types. Rejected: six colors, one per type (too many to read at a glance), and color only on hover (hides the pattern across the whole map).
+
+**Built.** `cic-website/atlas-v3.html`: `--link-*` color tokens in both themes, arrow markers, and a legend that names the four families and every confidence style (the old legend note still listed the retired five types). `Build/tools/generate_tree_pages.mjs`: each lineage section on a movement page carries its family color on the heading and a left rule. Red and brown were pulled apart in the dark theme after a first look showed them too close.
+
+**Checked:** Chromium, desktop width, dark theme: all 86 links colored (17 green, 32 brown, 34 red, 3 gray), 79 arrowheads, no page errors. **Not checked:** the light theme by eye, phones, a color-vision simulation.
+
+**For the Church Family Tree move:** these tokens and the legend travel with the map.
+
+**Also decided (Mark, "clickable legend").** The map was too busy, so each legend row is now a switch: the four link families, the four confidence styles, and the story icons. Everything starts on; a viewer's choices are remembered in their own browser only. Rejected: a separate "Show" panel (one more panel on a busy screen), preset views, and presets plus switches. The tradition families are switches too (Mark, "add a switch for the rivers too"): hiding one removes its river, its movement dots and every link touching it, and an "All rivers" row turns them all off or on at once. Checked in Chromium: hiding red links leaves 52 of 86, hiding thin evidence too leaves 45, story icons hide, choices survive a reload, everything restores. Rivers: hiding Africa leaves 12 of 13 rivers, 267 of 292 dots and 68 of 86 links; All rivers clears and restores everything.
+
+---
+
 ## 2026-11-06 — Change order: the permanence promise gains the domain rule
 
 **Decided (Mark, 2026-11-06, Church Family Tree convergence).** The tree moves to
