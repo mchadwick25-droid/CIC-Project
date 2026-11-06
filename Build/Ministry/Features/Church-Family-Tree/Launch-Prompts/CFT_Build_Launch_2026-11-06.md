@@ -78,6 +78,37 @@ arrowheads, and legend rows that work as on/off switches. Details:
 - **Preset views are not wanted.** Mark declined preset views for now, so don't build
   them.
 
+## Step zero: write the chunked build plan, then stop once for Mark (added 2026-11-06)
+
+Before any code, work in Plan Mode: read the code, and change nothing. Write
+`Build/Ministry/Features/Church-Family-Tree/Build-Plan.md`, breaking all the work below
+into small chunks, one pull request each, in order. For each chunk, give:
+- **Goal:** one or two lines.
+- **Files it touches:** name them exactly.
+- **Inputs it relies on:** earlier chunks, Mark's picks, dashboard steps.
+- **Done means:** the checks, counts, screenshots or preview link that prove it.
+- **Stop point:** whether Mark must look, pick or act before it merges.
+- **Size:** keep each chunk small enough for Opus to write cleanly with a focused context.
+  Split anything that touches more than one concern.
+
+Suggested starting cut (refine it from the code):
+
+| Chunk | Covers |
+|---|---|
+| R1 | River width |
+| R2 | Drift and the no-crossing gap |
+| R3 | Legend notes, and the river switches with drift |
+| P1a | The new folder and Worker, with the old site untouched |
+| P1b | Mark's dashboard steps |
+| P1c | Data release 2, the redirects, and removing the old copies |
+| P1d | The door switch, and the tree's own about, privacy and support pages |
+| P1e | Repointing Church in Conversation's links |
+| P2 | Phase 2, one chunk per item, links era by era |
+
+Show Mark the chunk list once. Then build chunk by chunk without asking again, except at
+each chunk's own stop point. Keep `Build-Plan.md` current as chunks finish. It is the
+workstream's progress record.
+
 ## Order of work, and one hard rule for the move (added 2026-11-06)
 
 1. **First, the rivers.** Mark decided on rivers that swell, thin and drift. Build them first, as one pull request on `cic-website/atlas-v3.html`, following
