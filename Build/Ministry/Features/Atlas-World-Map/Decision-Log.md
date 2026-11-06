@@ -13,6 +13,74 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-06 — Rivers that swell, thin and drift
+
+**Decided (Mark, Option 1: "keep the river feel, not the harshness").** Two of the map's
+existing honest signals become visible. Width shows how many documented movements in a family
+were active in a given year. Rivers lean toward or away from each other only along documented
+census links, over the years both movements were active, weighted by each link's confidence
+grade. Brief: `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Rivers_Brief_2026-11-06.md`.
+
+**Honesty rules.** Width is a count of documented movements, never membership or size. Drift
+uses census edges only, with no hand-placed bends. Rivers never cross or touch.
+
+**Built** by the Church Family Tree build thread, chunks R1 to R3 in one pull request
+(`cic-website/atlas-v3.html`). Values as shipped for Mark's review:
+
+- **Width.** `6 + 84 × (s / 26)^0.7` px, where `s` is the lane's count of active census
+  movements averaged with a Gaussian over ±45 years (sigma 18). One active movement gives
+  about 13 px; the busiest river peaks near 75 px (the old range was 10 to 56). A lane with
+  nothing active still has zero width. The calm, zoomed-out line keeps its existing 0.675 scale.
+- **Drift types.** Pull: gave rise to, continued as, influenced (1); in contact with (0.5).
+  Push: argued against, broke with (1).
+- **Confidence weights.** Documented 1; Widely Accepted 0.7; Dominant Modern Reconstruction
+  0.7; Contested 0.4; Inferential-Thin 0.25, as the brief proposed.
+- **Window.** Only the years both movements were active, and only after both rivers have
+  finished joining their parent (genesis plus 150 canvas units). The lineage types therefore
+  never double the genesis convergence.
+- **Links between the same two rivers act together.** The pair leans along its strongest
+  active link, and each further link adds 15 % to its reach, capped at 1.6×. Summing them
+  instead made Era II's clusters (six "argued against" links between two rivers in a few
+  decades) turn the river sharply.
+- **Strength and fade.** `DRIFT_MAX` 90 px with `tanh(total / 2)`; one Documented link leans
+  about 42 px. Each pull builds and relaxes over 40 % of its overlap, and never over less
+  than 600 canvas units, so a short overlap gives a smaller lean rather than a sharper one.
+- **No crossing.** At least 14 px of clear ground between neighboring rivers' edges, with a
+  4 px margin; where they would come closer, both ease apart, and the push is spread and
+  blurred along time. Measured: 18 px minimum at every sampled year, close-up and zoomed out.
+- **Calm line.** Drift now shows at the zoomed-out view too; the meander stays close-up only.
+- **Steepness.** The steepest sideways slope is 0.37 against the meander's own 0.17, and it
+  sits where a lean adds to a meander bend.
+- **Hidden rivers.** The geometry does not change when a river is hidden, and the legend
+  says so: "Hiding a river does not move the others." A visible river's lean still shows a
+  real link.
+- **Legend note** under Tradition families: "Width shows how many recorded movements were
+  active then. Rivers lean together or apart where the record shows a link." Reading Ease
+  70.5, grade 5.8.
+
+**Same-river links arc out (Mark, on the first screenshots: "the dotted lines in the swimlane
+are not visible, we need to arc them out of the swim lane and back in").** 41 of the 86 links
+join two movements on the same river, and a straight line ran under the water. Each now leaves
+on the side with more open ground, clears the river's widest point between its ends by 22 px,
+and comes back in. Measured: all 41 clear their own river; none crosses a neighbor's water.
+
+**Gaps get a dashed thread (Mark, "b, and log c").** Width zero means no recorded movement
+was active, and six rivers run dry inside their own span, mostly just after era boundaries.
+A thin dashed thread in the river's color now follows its course across each gap, adding no
+width; the legend says "A dashed thread marks years with none on record." Rejected: keeping
+bare gaps (they read as a tradition ending) and filling the census inside this pull request
+(scholarly data work, logged as Church Family Tree Open-Gaps, "Rivers run dry where the census
+has no entry", 2026-11-06).
+
+**Checked.** Chromium, dark and forced-light themes, full-map and close zoom, phone width; no
+page errors; the switch check unchanged (Africa hidden: 12 of 13 rivers, 267 of 292 dots,
+68 of 86 links); `validate-census.mjs`, `atlas-check --edges-only`, the m6 tests and the
+commentary check green.
+
+**Next action.** Mark judges the feel on the branch preview before merge.
+
+---
+
 ## 2026-11-06 — Link colors by kind of relationship (four families)
 
 **Decided (Mark, "four colors").** The tree's lines are colored by the kind of relationship, in four families: green for grew out of and continued as, brown for influenced, red for argued against and broke with, gray for in contact with. Line style keeps showing confidence (solid, dashed, dotted, sparse dots), so color and style each carry one meaning. Arrowheads mark direction on the one-way types. Rejected: six colors, one per type (too many to read at a glance), and color only on hover (hides the pattern across the whole map).

@@ -123,3 +123,27 @@ mchadwick25-droid/CIC-Project#1518 and #1519.
 A fresh build thread starts from `Launch-Prompts/CFT_Build_Launch_2026-11-06.md` and runs
 Phase 1 in auto mode. Mark supervises it directly (his choice, over this thread acting as a
 manager, to keep context cost down). Open items are in `Open-Gaps.md`.
+
+---
+
+## 2026-11-06 — The move's order: a build step assembles the tree site (Mark: "a")
+
+**Why it came up.** The build thread's step-zero reading (`Build-Plan.md`) found that a
+pure `git mv` takes the tree off `churchinconversation.com` in the same merge that puts it in
+the new folder, before the new domain serves it. That breaks the launch prompt's hard rule. The
+map also uses files the rest of the site shares (world recordings, world data, the narration
+player, the feedback script, the icon).
+
+**Options shown.** A: a build step assembles the tree site at deploy time; nothing moves until
+the domain is attached and verified, then one merge does the pure rename and the redirects.
+B: commit a full second copy, then delete the originals (about 650 MB of duplicate audio kept in
+the public history for good). C: rename and redirect in one merge, then attach the domain
+(both addresses fail in between; ruled out).
+
+**Decided (Mark, 2026-11-06): A.** One new script in `tools/`, `build_tree_site.mjs`, gathers the tree's
+files and copies the census and the shared files into the tree Worker's build folder. A CI step
+runs it and checks each copy is byte for byte identical to its source. This is ruling 10's
+mechanism, applied to every shared file. No file is committed twice. Ruling 10 itself is
+unchanged.
+
+**Next action.** The rivers first (one pull request), then P1a per `Build-Plan.md`.

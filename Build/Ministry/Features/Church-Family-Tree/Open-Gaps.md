@@ -40,3 +40,17 @@ it, never by deleting it.
 11. **Link colors not checked everywhere (2026-11-06).** mchadwick25-droid/CIC-Project#1521
     (link colors and legend switches) was not checked on the light theme, on phones or with
     a color-vision simulation. The build thread adds these checks to its Phase 2 phone test.
+12. **The map's light theme is unfinished (2026-11-06).** Forced on with `data-theme="light"`,
+    the map shows a grey ground and muddy river colors. Nothing on the site sets that attribute
+    today, so visitors never see it. Found during the rivers check, the same before and after
+    that change. The Phase 2 light-theme check (P2-K2) covers it.
+13. **Rivers run dry where the census has no entry (2026-11-06).** Six rivers have years
+    between their first and last recorded movement with no movement active. Lanes and years:
+    1 (1666–1814, 1907–1911); 2 (1442–1516, 1651–1699, 1907–1914); 3 (313–324, 1907–1916);
+    3.5 (452–1595, 1907–1944); 4 (1651–1703, 1707–1817); 80 (681–949, 1322–1516, 1651–1769,
+    1816–1818, 1907–1912). Most begin just after an era boundary, which suggests end dates set
+    to an era's close while the next entry starts later. Several are gaps in coverage, not in
+    history. Mark ruled 2026-11-06: the map draws a dashed thread across each gap now (option B),
+    and the census is filled later (option C). Owner of C: the Library and lineage thread, entry
+    by entry, sourced and graded, with a numbered release. Each gap is checked as real or a
+    coverage gap before any entry changes.
