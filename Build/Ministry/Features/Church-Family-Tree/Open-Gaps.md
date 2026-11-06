@@ -23,8 +23,12 @@ it, never by deleting it.
 7. **Domain transfer to Cloudflare (2026-11-06).** `churchfamilytree.com` can move from
    Namecheap to Cloudflare Registrar from about 17 November 2026, after the 60-day lock.
    Pointing its nameservers at Cloudflare can happen any time. Owner: Mark, with steps given.
+   - 2026-11-06: nameservers now point at Cloudflare (`nadia` and `watson.ns.cloudflare.com`),
+     confirmed at the .com registry. The registration transfer stays open until about 17 November.
 8. **Registrant names (2026-11-06).** Whose name each of the four domains is registered in is
    unchecked. Mark: "update them eventually". Not a blocker.
+   - 2026-11-06: `churchfamilytree.com` is registered with organization Faithways Studio, Inc.
+     (Namecheap contacts). The three Cloudflare domains are still unchecked.
 9. **Trade name and trademark screen (2026-11-06).** Register "Church Family Tree" as a
    Colorado trade name of Faithways Studio, and run a trademark screening search, before a
    mark is designed. Owner: Mark.
