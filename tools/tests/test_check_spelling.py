@@ -290,3 +290,9 @@ def test_json_verbatim_quote_field_is_skipped():
     fixed = json.loads(cs.fix_json(text))
     assert fixed["edges"][0]["sources"][0]["quote"] == "nor would they re-baptise the Faithful"
     assert fixed["edges"][0]["note"] == "Zwingli traveled to Marburg."
+
+
+def test_html_single_quoted_title_written_with_entities_is_skipped():
+    page = "<p>Mills, &#039;The naturalisation of Andean Christianities&#039; and the colour of it.</p>\n"
+    assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]
+    assert "naturalisation" in cs.fix_html(page)
