@@ -24,6 +24,7 @@
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -59,7 +60,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
@@ -137,7 +142,7 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section">
+    <div class="lineage-section link-influence">
 <h3>Influenced By</h3>
 <ul class="lineage-list">
 <li id="desert-monasticism--hieronymian-ascetic-literary"><a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Jerome wrote that the Roman ascetic Marcella learned of Antony and of Pachomius&#039;s monasteries from Athanasius and other Alexandrian exiles in Rome. He also described Paula going into the monks&#039; cells at Nitria in Egypt. In Letter 22 he says Antony made the hermit life famous.</span></li>
@@ -147,7 +152,7 @@ li{margin-bottom:.5rem}
 <li id="aquileian-christianity--hieronymian-ascetic-literary"><a href="aquileian-christianity.html">The Church of Aquileia</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">The translation&#039;s editors say Jerome and Rufinus belonged to a company of young ascetics at Aquileia in the early 370s. Rufinus recalled being baptized in a monastery by Chromatius, Jovinus and Eusebius. In 374 Jerome wrote to the same three men from the desert.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
 <li id="hieronymian-ascetic-literary--alexandria-catechetical"><a href="alexandria-catechetical.html">Alexandrian Catechetical / Christian-Platonist Tradition</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In Letter 84 Jerome calls Origen&#039;s doctrines poisonous and says they do violence to the Holy Scriptures. He adds that his own commentaries show he has always opposed them.</span></li>

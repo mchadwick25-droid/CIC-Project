@@ -28,11 +28,13 @@
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
 :root[data-theme="light"]{
   --parchment:#F6F6F2; --vellum:#FBFBF9; --iron-gall:#2A2521; --ink-faded:#6C6257;
   --rule:#E6DFD3; --madder:#A13E2B; --gold-leaf:#B45309; --tyrian:#6B3FA0;
   --tyrian-wash:#F3EFFA; --graphite:#8A837C; --shadow:0 2px 10px rgba(42,37,33,.18);
+  --link-grow:#2F7A45; --link-influence:#8A5A2B; --link-conflict:#C0392B; --link-contact:#8A837C;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -42776,6 +42778,17 @@ const NS='http://www.w3.org/2000/svg';
 function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in attrs)e.setAttribute(k,attrs[k]); return e;}
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
+const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact'};
+const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with'};
+{
+  const defs=el('defs',{});
+  Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'5',markerHeight:'5',orient:'auto-start-reverse'});
+    mk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:`var(--link-${f})`}));
+    defs.appendChild(mk);
+  });
+  svg.insertBefore(defs,svg.firstChild);
+}
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
 // The era divider (a thin line; see the
@@ -43083,7 +43096,8 @@ function render(){
     const dash = EDGE_DASH[edg.confidence] || 'none';
     const d=`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
-      d, fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
+      d, fill:'none', stroke:`var(--link-${LINK_FAMILY[edg.type]||'contact'})`, 'stroke-width':1.3, opacity:EDGE_CALM_OP,
+      ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${LINK_FAMILY[edg.type]||'contact'})`}),
       'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
       // Nodes carry a real tabindex/role/keydown pair (rule established for
       // the 292 movements); the 69 relationship lines between them had none
@@ -44003,19 +44017,17 @@ function buildLegend(){
     const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
     rows+=`<div class="row">${bookIcon}Real, documented, but never its own movement</div>`;
   }
-  // The thin lines between worlds carry two things the map never spelled out
-  // anywhere: the dash pattern is the census's own confidence rating for
-  // that specific connection, and the line itself only says a documented
-  // relationship exists -- not which of the five kinds it is (formed,
-  // transmitted to, argued against, contemporary with, in tension with).
-  // Same-color-same-width by design (rule: a claim's TYPE isn't a claim
-  // about how sure anyone is of it), so that distinction is legend-only.
+  // A line's color is the kind of relationship and its dash is the confidence
+  // rating, so neither is read as a claim about the other.
   rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<div class="row">${colorKey(f)}${lbl}</div>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
   rows+=`<div class="row">${lineKey()}Documented</div>`;
-  rows+=`<div class="row">${lineKey('6,3')}Widely accepted</div>`;
+  rows+=`<div class="row">${lineKey('6,3')}Widely accepted or a leading reconstruction</div>`;
   rows+=`<div class="row">${lineKey('2,3')}Contested</div>`;
-  rows+=`<div class="note">Hover or click a line for which of the five it is — formed, transmitted to, argued against, contemporary with, or in tension with.</div>`;
+  rows+=`<div class="row">${lineKey('1,4')}Thin evidence</div>`;
+  rows+=`<div class="note">Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
   wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
   document.getElementById('legendToggle').addEventListener('click',()=>{
     const open=wrap.classList.toggle('collapsed');

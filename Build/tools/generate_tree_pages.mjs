@@ -120,29 +120,29 @@ function formatSourcesList(sources) {
 }
 
 const LINEAGE_HEADINGS = [
-  ['gave rise to', 'in', 'Grew Out Of'],
-  ['gave rise to', 'out', 'Gave Rise To'],
-  ['continued as', 'in', 'Continues'],
-  ['continued as', 'out', 'Continued As'],
-  ['influenced', 'in', 'Influenced By'],
-  ['influenced', 'out', 'Influenced'],
-  ['argued against', 'out', 'Argued Against'],
-  ['argued against', 'in', 'Opposed By'],
-  ['broke with', 'both', 'Broke With'],
-  ['in contact with', 'both', 'In Contact With'],
+  ['gave rise to', 'in', 'Grew Out Of', 'grow'],
+  ['gave rise to', 'out', 'Gave Rise To', 'grow'],
+  ['continued as', 'in', 'Continues', 'grow'],
+  ['continued as', 'out', 'Continued As', 'grow'],
+  ['influenced', 'in', 'Influenced By', 'influence'],
+  ['influenced', 'out', 'Influenced', 'influence'],
+  ['argued against', 'out', 'Argued Against', 'conflict'],
+  ['argued against', 'in', 'Opposed By', 'conflict'],
+  ['broke with', 'both', 'Broke With', 'conflict'],
+  ['in contact with', 'both', 'In Contact With', 'contact'],
 ];
 
 function buildLineageHtml(movementId, movement) {
   const incoming = edgesTo.get(movementId) || [];
   const outgoing = edgesFrom.get(movementId) || [];
   let html = '';
-  for (const [type, side, heading] of LINEAGE_HEADINGS) {
+  for (const [type, side, heading, family] of LINEAGE_HEADINGS) {
     const items = [];
     if (side !== 'out') incoming.filter(e => e.type === type).forEach(e => items.push([e, e.from]));
     if (side !== 'in') outgoing.filter(e => e.type === type).forEach(e => items.push([e, e.to]));
     const rows = items.filter(([, otherId]) => movementMap.has(otherId));
     if (!rows.length) continue;
-    html += '<div class="lineage-section">\n';
+    html += `<div class="lineage-section link-${family}">\n`;
     html += `<h3>${heading}</h3>\n<ul class="lineage-list">\n`;
     rows.forEach(([edge, otherId]) => {
       const other = movementMap.get(otherId);
@@ -223,6 +223,7 @@ function generatePageHtml(movement) {
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -258,7 +259,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}

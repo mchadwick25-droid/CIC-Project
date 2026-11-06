@@ -24,6 +24,7 @@
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -59,7 +60,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
@@ -131,21 +136,21 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section">
+    <div class="lineage-section link-influence">
 <h3>Influenced</h3>
 <ul class="lineage-list">
 <li id="latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva"><a href="the-reformed-cities-zurich-and-geneva.html">The Reformed Cities - Zurich &amp; Geneva</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In his Institutes, Calvin appeals to Augustine&#039;s authority on election and the grace of God. He writes that he could build a whole volume from Augustine&#039;s words and need no others.</span></li>
 <li id="latin-pastoral-congregational-christianity--donatism--2"><a href="donatism.html">Donatism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Cyprian of Carthage was a leading African authority in the 250s. Augustine tells the Donatists that they keep quoting Cyprian&#039;s letters, his opinion and his council. He asks why they use Cyprian&#039;s authority to defend their schism.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
 <li id="latin-pastoral-congregational-christianity--pelagianism"><a href="pelagianism.html">Pelagianism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book of Pelagius that defended human nature against the grace of God.</span></li>
 <li id="latin-pastoral-congregational-christianity--donatism"><a href="donatism.html">Donatism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Augustine, bishop of Hippo, wrote a long book to the Donatists after the 411 conference at Carthage between their bishops and his. He lists it in his Retractations. Bishop Optatus of Milevis had earlier written against the Donatist bishop Parmenian.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
 <li id="donatism--latin-pastoral-congregational-christianity"><a href="donatism.html">Donatism</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Optatus quotes Parmenian, the Donatist bishop of Carthage, saying that a stained minister cannot wash away sins in baptism. Optatus also says the Donatists re-baptized the faithful. The Donatists applied this rule to Catholic clergy.</span></li>

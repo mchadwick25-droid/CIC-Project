@@ -24,6 +24,7 @@
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -59,7 +60,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
@@ -136,20 +141,20 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section">
+    <div class="lineage-section link-influence">
 <h3>Influenced</h3>
 <ul class="lineage-list">
 <li id="gallic-nicene-episcopate--gallic-monastic-ascetic-christianity"><a href="gallic-monastic-ascetic-christianity.html">Gallic Monastic-Ascetic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Sulpicius Severus says Martin sought out Bishop Hilary of Poitiers and lived with him for a time, and that Hilary made him an exorcist. After Hilary&#039;s return from exile, Martin set up a monastery near the town. Sulpicius also says Martin had already founded one at Milan.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
 <li id="gallic-nicene-episcopate--homoian-arian-christianity"><a href="homoian-arian-christianity.html">Homoian (&#039;Arian&#039;) Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.</span></li>
 <li id="gallic-nicene-episcopate--imperial-juridical-christianity"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">In On the Councils, Hilary tells the Eastern bishops that Arian bishops misled the emperor into imposing a form of faith on the churches. Hilary opposed that imperial creed.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
 <li id="imperial-juridical-christianity--gallic-nicene-episcopate"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Hilary of Poitiers, a bishop in Gaul, was exiled after Saturninus won over the emperor. Hilary adds that bishops who opposed the imposed creed were driven into exile.</span></li>

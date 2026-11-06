@@ -24,6 +24,7 @@
   --text:#F1E9DD; --muted:#B8AEA1;
   --action:#E08C74; --action-hover:#F0A98F;
   --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
   --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -59,7 +60,11 @@ li{margin-bottom:.5rem}
 .meta-item{padding:.8rem;background:var(--surface);border-radius:4px}
 .meta-label{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0}
 .meta-value{font-family:var(--serif);font-size:1.1rem;color:var(--text);margin:.3rem 0 0}
-.lineage-section{margin:1.5rem 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
@@ -136,21 +141,21 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section">
+    <div class="lineage-section link-grow">
 <h3>Grew Out Of</h3>
 <ul class="lineage-list">
 <li id="danubian-latin-christianity--homoian-arian-christianity"><a href="danubian-latin-christianity.html">Latin Christianity in the Danubian Provinces</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Athanasius lists Ursacius of Singidunum and Valens of Mursa, bishops in the Danubian provinces, among the leaders of the Arian party. Modern scholars count them among the chief architects of the Homoian settlement.</span></li>
 <li id="antiochene-church-third-century--homoian-arian-christianity"><a href="antiochene-church-third-century.html">The Church of Antioch in the Third Century</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Arius wrote to Eusebius of Nicomedia as &#039;my fellow-Lucianist&#039;, naming their teacher Lucian of Antioch. Philostorgius lists Lucian&#039;s disciples, among them Leontius, later bishop of Antioch, and a Eudoxius. Both reports come from Arius&#039;s own side.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
 <li id="gallic-nicene-episcopate--homoian-arian-christianity"><a href="gallic-nicene-episcopate.html">The Gallic Nicene Episcopate</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.</span></li>
 <li id="imperial-juridical-christianity--homoian-arian-christianity"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The Council of Constantinople met in 381 at the emperor Theodosius&#039;s summons. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Imperial laws of 381 and 383 also name the Arians when they bar heretics from building churches or holding assemblies.</span></li>
 </ul>
 </div>
-<div class="lineage-section">
+<div class="lineage-section link-conflict">
 <h3>Broke With</h3>
 <ul class="lineage-list">
 <li id="anomoean-eunomian-christianity--homoian-arian-christianity"><a href="anomoean-eunomian-christianity.html">Anomoean (Eunomian) Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In the reign of Valens, Eunomius broke with Eudoxius of Constantinople, who would not receive Eunomius&#039;s teacher Aetius into communion. Philostorgius, whose history survives only in Photius&#039;s summary, reports the same break from the Eunomian side.</span></li>
