@@ -64,6 +64,14 @@ join two movements on the same river, and a straight line ran under the water. E
 on the side with more open ground, clears the river's widest point between its ends by 22 px,
 and comes back in. Measured: all 41 clear their own river; none crosses a neighbor's water.
 
+**Gaps get a dashed thread (Mark, "b, and log c").** Width zero means no recorded movement
+was active, and six rivers run dry inside their own span, mostly just after era boundaries.
+A thin dashed thread in the river's color now follows its course across each gap, adding no
+width; the legend says "A dashed thread marks years with none on record." Rejected: keeping
+bare gaps (they read as a tradition ending) and filling the census inside this pull request
+(scholarly data work, logged as Church Family Tree Open-Gaps, "Rivers run dry where the census
+has no entry", 2026-11-06).
+
 **Checked.** Chromium, dark and forced-light themes, full-map and close zoom, phone width; no
 page errors; the switch check unchanged (Africa hidden: 12 of 13 rivers, 267 of 292 dots,
 68 of 86 links); `validate-census.mjs`, `atlas-check --edges-only`, the m6 tests and the

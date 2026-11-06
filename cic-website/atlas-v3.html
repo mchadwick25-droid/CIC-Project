@@ -42803,6 +42803,28 @@ function riverPath(k, amp){
   return d;
 }
 function laneCenterX(k,y){return ownXAt(k,y,1);}
+// Between a river's first and last recorded movement, a year with none
+// active leaves no water. A thin dashed thread follows the river's course
+// across that gap, so it does not read as the tradition ending.
+const laneEndY={}; laneKeys.forEach(k=>{laneEndY[k]=yearToY(Math.max(...laneMembers[k].map(m=>m.end)));});
+function threadPath(k,amp){
+  const own=laneGeometry[amp].own[k], pts=laneSamples[k];
+  let d='', run=[];
+  const flush=()=>{
+    if(run.length){
+      const a=Math.max(0,run[0]-1), b=Math.min(pts.length-1,run[run.length-1]+1);
+      const line=[]; for(let i=a;i<=b;i++)line.push({x:own[i],y:i*STEP});
+      d+=smoothPath(line);
+    }
+    run=[];
+  };
+  for(let i=0;i<pts.length;i++){
+    const y=i*STEP;
+    if(pts[i].cnt===0 && y>laneGenesisY[k] && y<laneEndY[k])run.push(i); else flush();
+  }
+  flush();
+  return d;
+}
 
 /* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
@@ -43148,6 +43170,11 @@ function render(){
       'aria-label':`${f.lbl} river, ${members.length} movements`});
     group.dataset.lane=k;
     group.appendChild(calm); group.appendChild(organic);
+    [['thread-calm',0],['thread-organic',1]].forEach(([cls,amp])=>{
+      const d=threadPath(k,amp); if(!d)return;
+      group.appendChild(el('path',{d, fill:'none', stroke:col, 'stroke-width':1.6, 'stroke-dasharray':'5 6',
+        'vector-effect':'non-scaling-stroke', opacity:amp?0:0.8, class:cls}));
+    });
     group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
     group.addEventListener('mousemove',(ev)=>positionTip(ev));
     group.addEventListener('mouseleave',hideTip);
@@ -44116,7 +44143,7 @@ function buildLegend(){
   let rows='<span class="cap">Tradition families</span>';
   rows+=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
-  rows+=`<div class="note">Width shows how many recorded movements were active then. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
+  rows+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   // A Built & Live dot isn't one fixed color -- it renders at full strength
@@ -44227,6 +44254,8 @@ function applyDetail(){
   // whichever phase is actually on screen should be the only one that does.
   document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_OP;p.style.pointerEvents=organic?'none':'auto';});
   document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
+  document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
+  document.querySelectorAll('.thread-organic').forEach(p=>{p.style.opacity=organic?0.8:0;});
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
