@@ -43068,6 +43068,7 @@ function render(){
     const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
       'aria-label':`${f.lbl} river, ${members.length} movements`});
+    group.dataset.lane=k;
     group.appendChild(calm); group.appendChild(organic);
     group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
     group.addEventListener('mousemove',(ev)=>positionTip(ev));
@@ -43112,6 +43113,7 @@ function render(){
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
     line.dataset.family=LINK_FAMILY[edg.type]||'contact'; line.dataset.conf=edg.confidence;
+    line.dataset.lanes=`${a.laneOrder}|${b.laneOrder}`;
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
     const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
     const onClick=()=>openPanelEdge(edg,a,b);
@@ -43122,7 +43124,7 @@ function render(){
     // input, sharing these same mouse/touch handlers -- never the keyboard
     // ones below, so Tab still lands on this edge exactly once, not twice.
     const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
-    hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence;
+    hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence; hit.dataset.lanes=line.dataset.lanes;
     hit.addEventListener('mouseenter',onEnter);
     hit.addEventListener('mousemove',(ev)=>positionTip(ev));
     hit.addEventListener('mouseleave',onLeave);
@@ -43297,7 +43299,7 @@ function render(){
     // on a same-hued river (a teal node on the teal Africa river, say) it
     // all but disappears -- exactly the wrong place for the one signal a
     // keyboard user has for "this is where you are."
-    const g=el('g',{class:'node','data-id':m.id,tabindex:'0',role:'button',
+    const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
       'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
@@ -44007,7 +44009,8 @@ function buildLegend(){
   const wrap=document.getElementById('legend');
   wrap.classList.add('collapsed');
   let rows='<span class="cap">Tradition families</span>';
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<div class="row"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</div>`;});
+  rows+=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
+  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   // A Built & Live dot isn't one fixed color -- it renders at full strength
@@ -44042,15 +44045,25 @@ function buildLegend(){
   const applyToggles=()=>{
     const hiddenConf=new Set();
     hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
+    const laneOff=l=>hidden.has(`lane:${l}`);
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
-      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf));
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff));
     });
+    document.querySelectorAll('.river-group,.node').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
-    wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.setAttribute('aria-pressed',String(!hidden.has(b.dataset.toggle))));
+    const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
+    wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
+      const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(b.dataset.toggle);
+      b.setAttribute('aria-pressed',String(on));
+    });
   };
   wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.addEventListener('click',()=>{
     const k=b.dataset.toggle;
-    if(hidden.has(k))hidden.delete(k);else hidden.add(k);
+    if(k==='lanes-all'){
+      const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
+      const anyOn=lanes.some(l=>!hidden.has(l));
+      lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
+    } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
     try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));}catch(e){}
     applyToggles();
   }));
