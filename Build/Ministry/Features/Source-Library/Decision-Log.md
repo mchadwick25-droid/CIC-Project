@@ -24,3 +24,23 @@ the opening of Stage 1.
 
 Nothing before the pilot launches. After it launches: Stage 1 for desert, per
 `Design.md` §11, opening with Mark's live read of CCEL's copyright page and the letter.
+
+## 2026-11-06 — Change order: the reader lives on the Church Family Tree's domain
+
+**Decided (Mark, 2026-11-06, Church Family Tree convergence).** `Design.md` §7 places the
+reader "on the public site under its own directory", which is Church in Conversation's
+site. Under the Church Family Tree plan, the Library is the shelf behind both products, and
+its public face is the tree. The reader therefore lives on `https://www.churchfamilytree.com`.
+A citation in a conversation opens it in the app's existing side panel. Shelves on movement
+pages open when their text assignments pass a Library check, whether or not a world is built.
+
+**Why.** Everything citable then lives under one domain. Nothing is built yet, so the change
+costs one section of the design and no code.
+
+**Not changed.** The record shape, anchors, gates, rights, hosting on R2 and the staged plan
+all stand. Stage 1 still starts after the pilot launches, desert first.
+
+### Next action
+
+When Stage 1 starts, rewrite `Design.md` §7 and §10 (hosting) to the new home. Full record:
+`Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`.

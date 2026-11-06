@@ -19,6 +19,7 @@ exactly what has and hasn't crossed that line.
 | [Conversation-Chooser](Conversation-Chooser/README.md) | Design converged 2026-10-19: a hand of five cards dealt from a deck replaces the chair strips and the table launch; build plan written, nothing built |
 | [Question-Coverage](Question-Coverage/README.md) | Design and research, 2026-10-25: visitor-side question repository, coverage maps across the twelve built worlds, acquisition and record worklists. Proposals only; no build, record or method change |
 | [V7-Controlled-Test](V7-Controlled-Test/README.md) | Controlled test approved 2026-11-03 (Answering-From-Sources Decision-Log 75): reading cards and a switched-off B arm against the saved production baseline (fleet graded run 1) on alx, pahc and syr, with a $12 cap. Plan and specs written; no chunk started |
+| [Church-Family-Tree](Church-Family-Tree/README.md) | Converged 2026-11-06: the tree moves to www.churchfamilytree.com as Faithways Studio's second product and lead public product, with its own build thread. Nothing built yet |
 
 Not here: Communication/Branding, Marketplace, Organization, Funding, and
 Scholarly-Review stay as their own top-level Ministry domains — they're not scattered
