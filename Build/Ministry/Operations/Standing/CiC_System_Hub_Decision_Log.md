@@ -7429,4 +7429,9 @@ These two reads are the only reviews this ruling covers for cappadocian.
 - The census `meta` does not yet carry a license field; it is added with the next data release.
 - Tree pages and other site footers outside about, privacy and support do not yet link to the policy; they gain the link with the Church Family Tree move.
 
+**Added the same day, before merge (Mark).**
+- **Revenue use pays a fee.** The permission is free when the work is given away or sold only at cost, and for open scholarship. Where our work is part of something sold for profit (a course with tuition, a book sold for profit, a paid app), a modest fee is agreed case by case, and can be waived for a small ministry. Viewing the tree stays free for everyone, whole classes included: there is no paywall. The conversations keep their own pricing (550 free tokens a month, then three pay-as-you-go packages) and are outside this policy.
+- **Review partnerships.** A seminary, college or Bible school class picks one tradition, checks our claims against the sources with its teacher, reports findings and may suggest sources. Every suggested source is verified against the text before it enters the data. An accepted class review is credited in the next release by school, course and teacher, and is labeled as a class review, never as independent scholarly review. A teacher may send a short statement about the tradition, which may be published with their name. The request form offers "Yes, with a class (a review partnership)".
+- **Follow-on for the Church Family Tree plan:** the data needs a review-status field that tells AI-checked, class-reviewed and scholar-reviewed apart, per claim or per movement. It is scheduled with the tree's standalone release.
+
 **Production.** The page reaches the public site only when Mark promotes `main` to `live` through `CiC_Promotion_Runbook.md`.
