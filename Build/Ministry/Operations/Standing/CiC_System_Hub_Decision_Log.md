@@ -7408,3 +7408,25 @@ The `modern_rendering` of `cappadocian.quote.gregory-nyssa-on-becoming-god` reac
 2. "Fifth read of that sentence": one more fresh reader, on the fourth reader's wording of that sentence only. That read is `Rendering_Review_Cappadocian_Round5_2026-11-04.md`. It passed "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The record now carries it.
 
 These two reads are the only reviews this ruling covers for cappadocian.
+
+## 2026-11-06 - License policy for Faithways Studio's published work (project lead)
+
+**Decision.** Mark approved one license policy for everything Faithways Studio publishes, and asked for it to be published before the letter to the outside researcher (Ishayahu Lastov). It settles the public data license that the Atlas decision log of 2026-11-06 left "to be decided with the organisation's structure". The structure question itself stays open.
+
+**What it says** (`cic-website/license.html`):
+- Data (the census) and our own writing and recordings: CC BY-NC 4.0 for everyone. Reading, study, sharing, teaching, sermons and family history need no permission.
+- A free Ministry and Scholarship Permission, by a short request (Tally form `kb97Br`, https://tally.so/r/kb97Br), approved unless there is a clear reason not to. It covers churches, ministries, nonprofits, schools, public benefit corporations, researchers and open scholarly projects, and individuals doing ministry, teaching or writing. It adds commercial use that serves a mission, and inclusion in open projects under their own license. Five conditions: credit naming the release; the confidence grade kept with every claim; changes marked; no implied endorsement; the release's review status kept with the data. The form also asks, as an option, whether the requester would like to help with scholarly review.
+- Companies: commercial use only by written agreement. AI training: not permitted without written agreement. `robots.txt` now disallows known AI training crawlers (generator: `Build/tools/generate_tree_pages.mjs`).
+- Names and marks: not licensed. Software, methods, internal records and the library's structure (corpus map, staging, registries): not licensed, all rights reserved. Quotations keep their edition's license.
+- Review status stated plainly: every quote is checked word for word against its source file, every claim is reviewed by AI models to the written method, and none has yet been reviewed by an independent scholar (Constitution Article 31 still requires that review).
+
+**Why.** Protect the work's value and its names while giving ministry and open scholarship real room. Plain CC BY would let any company sell the data with nothing back. The confidence-grade rule, which the researcher's interim permission already required, cannot sit in a Creative Commons license, so it rides on the extra permission.
+
+**Open, not decided here.**
+- A lawyer's reading of the policy, recommended before wide promotion, especially the AI training section.
+- The GitHub repository `mchadwick25-droid/CIC-Project` is public, so the software and the library's structure are readable by anyone today. The "all rights reserved" statement is legally true, but it gives no practical protection until the repository question (private, split, or public with sensitive material moved out) is decided. That decision carries a real CI-minutes cost and is Mark's.
+- Two link quotes come from a CC BY-SA digital edition of Lactantius (Brandt 1890). They are labeled with that license in the data. Replacing them with the public-domain print is the lineage thread's call.
+- The census `meta` does not yet carry a license field; it is added with the next data release.
+- Tree pages and other site footers outside about, privacy and support do not yet link to the policy; they gain the link with the Church Family Tree move.
+
+**Production.** The page reaches the public site only when Mark promotes `main` to `live` through `CiC_Promotion_Runbook.md`.
