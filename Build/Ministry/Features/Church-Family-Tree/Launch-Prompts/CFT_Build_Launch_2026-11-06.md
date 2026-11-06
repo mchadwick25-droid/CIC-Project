@@ -35,7 +35,50 @@ asking step by step, and stop only for the stop points listed below.
 - **Other threads' content.** Don't touch it. Flag it instead: the atlas's 23 drifted
   entries, and the two movement texts in `Open-Gaps.md`.
 
-## Phase 1: the move (one pull request, after `Open-Gaps.md` item 7's nameserver step)
+## Before Phase 1: what the lineage thread has shipped (update of 2026-11-06)
+
+**Already on `main`** (mchadwick25-droid/CIC-Project#1517):
+- **The census.** Release 1 has 300 movements and 86 links. Each link has an ID
+  (`from--to`, and `--2` for a second link on the same pair), one of six types, one of
+  five grades, and sources (file, lines, locus and verbatim quote).
+- **Permanence.** `meta.release` and `meta.identifiers` are set, and `retiredLinks` and
+  `retiredMovements` start empty.
+- **Atlas links.** `atlas-v3.html` takes its links from the census through
+  `engine/m6/atlas_html.write_edges`. CI runs
+  `python -m engine.m6.cli atlas-check --edges-only`.
+- **Validation.** `tools/validate-census.mjs --base` enforces the types, the grades, the
+  quotes against `cic/texts`, and permanence.
+- **Tree pages.** These group links by type, show confidence, and give every link an
+  anchor: `tree/<id>#<link-id>`.
+
+**In review: mchadwick25-droid/CIC-Project#1521.** It adds link colors in four families,
+arrowheads, and legend rows that work as on/off switches. Details:
+- **Color tokens:** `--link-grow`, `--link-influence`, `--link-conflict` and
+  `--link-contact`.
+- **Tree pages:** each lineage section gets the class `link-<family>`.
+- **Switches:** they write the class `is-off` and keep choices in `localStorage` under
+  the key `tree-hidden`.
+- **Data attributes:** `data-lane` on `.river-group` and `.node`; `data-family`,
+  `data-conf` and `data-lanes` on `.edge-line` and `.edge-hit`.
+
+**What this means for the build:**
+- **Do not start Phase 1 until #1521 has merged.** Step 2 moves `atlas-v3.html` and the
+  tree pages by pure rename, and #1521 rewrites both. Branch from `main` after it merges.
+  The same goes for any edit to `atlas-v3.html` or `generate_tree_pages.mjs`.
+- **Saved legend choices reset on the move.** `localStorage` is kept per site, so
+  visitors' choices under `tree-hidden` start fresh on the new domain. That is expected.
+  Don't try to carry them across.
+- **Phase 2's marks and tap areas build on the legend.** The leaf and person marks, and
+  the tap areas from rulings 15 and 16, must work with the switches: a hidden lane hides
+  its marks and tap areas too. Add the new marks to the legend as rows, in the same style.
+- **Checks #1521 did not cover.** It wasn't checked on the light theme, on phones, or
+  with a color-vision simulation. Phase 2's phone test (ruling 16) covers phones. Add a
+  light-theme check and a color-vision check of the link colors to that same test,
+  because the leaf, person and dot marks have to read alongside them.
+- **Preset views are not wanted.** Mark declined preset views for now, so don't build
+  them.
+
+## Phase 1: the move (one pull request, after #1521 merges and after `Open-Gaps.md` item 7's nameserver step)
 
 1. **Repo map first.** Update the root `README.md` map and `CiC_Repo_Structure_Tracking.md`
    for the tree's new top-level live folder and its Worker config.
