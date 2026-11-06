@@ -108,7 +108,7 @@ are three commits on one branch, each checked before the next.
 
 - **Goal:** the tree's own Worker builds and serves the tree on its `workers.dev` address,
   with nothing moved.
-- **Files:** `wrangler.cft.jsonc` (new); `tools/build_tree_site.mjs` (new: assembles
+- **Files:** `wrangler.cft.jsonc` (new); a new `build_tree_site.mjs` in `tools/` (assembles
   `.build/tree/` from a declared list of tree files and shared files); `cft-website/_headers`
   and `cft-website/robots.txt` (new folder, with only the tree's own new files at this stage);
   `cic-worker/worker.test.mjs` (the baseline-header check covers both sites' `_headers`);
@@ -139,7 +139,7 @@ Exact steps, given in chat when P1a has merged:
 
 1. Create the second Workers Build: the same repository, deploy command
    `npx wrangler deploy --config wrangler.cft.jsonc`, build command
-   `node tools/build_tree_site.mjs`.
+   the build script P1a adds (`node`, then its path).
 2. Attach `www.churchfamilytree.com` as a custom domain; add a redirect rule from
    `churchfamilytree.com` to `https://www.churchfamilytree.com`, permanent, path and query kept.
 3. Turn on Web Analytics for the new domain (cookie-free; no script tag needed when the proxy
@@ -154,12 +154,12 @@ Exact steps, given in chat when P1a has merged:
 - **Goal:** the tree's files live in `cft-website/`; old addresses redirect in one hop.
 - **Files:** `git mv` (its own commit): `cic-website/atlas-v3.html` → `cft-website/index.html`,
   `cic-website/tree/` → `cft-website/tree/`, `cic-website/audio/{tree,docstories,stories}/` →
-  `cft-website/audio/…`. Then: `tools/build_tree_site.mjs` reads the new paths;
+  `cft-website/audio/…`. Then: the build script reads the new paths;
   `engine/m6/cli.py` (`ATLAS_PATH`), `engine/m6/census_atlas_sync.py`, `cic/engine/corpus_coverage.py`,
   `tools/check_no_embedded_world_data.py` and its baseline, `Build/tools/generate_tree_pages.mjs`
   and `generate_tree_narration.mjs` (paths, canonical links, the tree's own sitemap),
   `cic-website/sitemap.xml`; `.github/workflows/ci.yml` (paths filters; the sparse checkouts
-  exclude `cft-website/audio/`); the redirect rules on the old Worker (`cic-website/_redirects`
+  exclude `cft-website/audio/`); the redirect rules on the old Worker (a `_redirects` file in `cic-website/`
   if Cloudflare's asset redirects allow a full address in one hop, otherwise `cic-worker/worker.mjs`
   with tests); `cic-website/atlas.html` and `world-atlas.html` become redirect rules, and their
   files go to `Archive/`. Census: `meta.identifiers` gains the domain rule, `meta.license` is

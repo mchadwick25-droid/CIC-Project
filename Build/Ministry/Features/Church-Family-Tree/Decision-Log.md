@@ -140,7 +140,7 @@ B: commit a full second copy, then delete the originals (about 650 MB of duplica
 the public history for good). C: rename and redirect in one merge, then attach the domain
 (both addresses fail in between; ruled out).
 
-**Decided (Mark, 2026-11-06): A.** One script, `tools/build_tree_site.mjs`, gathers the tree's
+**Decided (Mark, 2026-11-06): A.** One new script in `tools/`, `build_tree_site.mjs`, gathers the tree's
 files and copies the census and the shared files into the tree Worker's build folder. A CI step
 runs it and checks each copy is byte for byte identical to its source. This is ruling 10's
 mechanism, applied to every shared file. No file is committed twice. Ruling 10 itself is
