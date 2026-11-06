@@ -44089,6 +44089,7 @@ function buildLegend(){
   let rows='<span class="cap">Tradition families</span>';
   rows+=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
+  rows+=`<div class="note">Width shows how many recorded movements were active then. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   // A Built & Live dot isn't one fixed color -- it renders at full strength
