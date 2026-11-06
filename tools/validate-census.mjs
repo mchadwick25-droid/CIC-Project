@@ -2,17 +2,32 @@
 // Census contract validator — Blueprint increment A2.b (§L Loop Protocol).
 // Run on EVERY census edit: node tools/validate-census.mjs [path]
 // Exits non-zero on any violation; prints each violation on its own line.
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 
-const path = process.argv[2] ?? "cic-website/data/world-census.json";
+const args = process.argv.slice(2);
+const baseIdx = args.indexOf("--base");
+const basePath = baseIdx >= 0 ? args[baseIdx + 1] : null;
+if (baseIdx >= 0) args.splice(baseIdx, 2);
+const path = args[0] ?? "cic-website/data/world-census.json";
 const errs = [];
 const warn = [];
 let d;
 try { d = JSON.parse(readFileSync(path, "utf8")); }
 catch (e) { console.error(`PARSE FAIL: ${e.message}`); process.exit(2); }
 
-const EDGE_TYPES = new Set(["formed", "transmitted to", "argued against", "contemporary with", "in tension with"]);
-const CONFIDENCE = new Set(["Documented", "Widely Accepted", "Contested"]);
+const EDGE_TYPES = new Set(["gave rise to", "continued as", "influenced", "argued against", "broke with", "in contact with"]);
+const SYMMETRIC_TYPES = new Set(["broke with", "in contact with"]);
+const CONFIDENCE = new Set(["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]);
+const SPECIFICITY = new Set(["A", "B", "C", "D", "E"]);
+const VERIFICATION = new Set(["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]);
+const SOURCE_KINDS = new Set(["primary", "secondary"]);
+const INTERNAL_NOTE = [/\.\.(?!\.)/, /\b(edges?|census|continuesAs|grade[ds]?)\b/i, /\b[IVX]+\.\d+[a-z]?\b/];
+const squash = s => s.replace(/\s+/g, " ").trim();
+const textCache = new Map();
+function textLines(file) {
+  if (!textCache.has(file)) textCache.set(file, existsSync(file) ? readFileSync(file, "utf8").split("\n") : null);
+  return textCache.get(file);
+}
 const HEX = /^#[0-9A-Fa-f]{6}$/;
 
 // --- eras ---
@@ -47,13 +62,82 @@ const byId = new Map();
 });
 
 // --- edges ---
+const edgeIds = new Set();
 (d.edges ?? []).forEach((e, i) => {
-  if (!byId.has(e.from)) errs.push(`edge[${i}]: unknown from ${e.from}`);
-  if (!byId.has(e.to)) errs.push(`edge[${i}]: unknown to ${e.to}`);
-  if (!EDGE_TYPES.has(e.type)) errs.push(`edge[${i}]: unknown type "${e.type}"`);
-  if (!CONFIDENCE.has(e.confidence)) errs.push(`edge[${i}]: unknown confidence "${e.confidence}"`);
-  if (!e.note) warn.push(`edge[${i}] ${e.from}->${e.to}: no note`);
+  const tag = `edge[${i}] ${e.id ?? `${e.from}->${e.to}`}`;
+  if (!byId.has(e.from)) errs.push(`${tag}: unknown from ${e.from}`);
+  if (!byId.has(e.to)) errs.push(`${tag}: unknown to ${e.to}`);
+  if (!EDGE_TYPES.has(e.type)) errs.push(`${tag}: unknown type "${e.type}"`);
+  if (!CONFIDENCE.has(e.confidence)) errs.push(`${tag}: unknown confidence "${e.confidence}"`);
+  if (SYMMETRIC_TYPES.has(e.type) && !(e.from < e.to)) errs.push(`${tag}: "${e.type}" is symmetric; from and to must be in alphabetical order`);
+  const pair = `${e.from}--${e.to}`;
+  if (!e.id || !(e.id === pair || new RegExp(`^${pair.replace(/[-]/g, "\\-")}--[2-9]$`).test(e.id))) errs.push(`${tag}: id must be "${pair}" or "${pair}--N"`);
+  if (edgeIds.has(e.id)) errs.push(`${tag}: duplicate id`);
+  edgeIds.add(e.id);
+  if (!e.note) errs.push(`${tag}: no note`);
+  else INTERNAL_NOTE.forEach(rx => { if (rx.test(e.note)) errs.push(`${tag}: note carries internal text (${rx})`); });
+  if (!SPECIFICITY.has(e.citation_specificity)) errs.push(`${tag}: citation_specificity must be A-E`);
+  if (!VERIFICATION.has(e.verification_state)) errs.push(`${tag}: unknown verification_state "${e.verification_state}"`);
+  const sources = Array.isArray(e.sources) ? e.sources : [];
+  if (!sources.length) errs.push(`${tag}: no sources`);
+  sources.forEach((s, j) => {
+    const st = `${tag} source[${j}]`;
+    if (!SOURCE_KINDS.has(s.kind)) errs.push(`${st}: kind must be primary or secondary`);
+    if (!s.work) errs.push(`${st}: no work`);
+    if (s.kind !== "primary") return;
+    for (const k of ["file", "lines", "locus", "quote", "license"]) if (!s[k]) errs.push(`${st}: primary source missing ${k}`);
+    if (!s.file || !s.lines || !s.quote) return;
+    if (!s.file.startsWith("cic/texts/")) { errs.push(`${st}: file must be under cic/texts/`); return; }
+    const lines = textLines(s.file);
+    if (!lines) { errs.push(`${st}: file not found ${s.file}`); return; }
+    const m = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
+    if (!m) { errs.push(`${st}: lines must be "n" or "a-b"`); return; }
+    const a = +m[1], b = +(m[2] ?? m[1]);
+    if (a < 1 || b < a || b > lines.length) { errs.push(`${st}: lines ${s.lines} outside ${s.file}`); return; }
+    const span = squash(lines.slice(a - 1, b).join(" "));
+    if (!span.includes(squash(s.quote))) errs.push(`${st}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+  });
+  if (e.confidence === "Documented") {
+    if (!sources.some(s => s.kind === "primary")) errs.push(`${tag}: Documented needs a primary source`);
+    if (e.verification_state !== "verified-direct") errs.push(`${tag}: Documented needs verification_state verified-direct`);
+  }
+  if ((e.confidence === "Widely Accepted" || e.confidence === "Dominant Modern Reconstruction") && !sources.some(s => s.kind === "secondary"))
+    errs.push(`${tag}: ${e.confidence} needs a secondary source`);
 });
+
+// --- retired links and movements: never reused, replacements resolve ---
+const retiredLinkIds = new Set();
+(d.retiredLinks ?? []).forEach((r, i) => {
+  if (!r.id || !r.date || !r.reason) errs.push(`retiredLinks[${i}]: needs id, date and reason`);
+  if (edgeIds.has(r.id)) errs.push(`retiredLinks[${i}]: ${r.id} is retired but still in use`);
+  if (retiredLinkIds.has(r.id)) errs.push(`retiredLinks[${i}]: duplicate ${r.id}`);
+  retiredLinkIds.add(r.id);
+  if (r.replacedBy && !edgeIds.has(r.replacedBy)) errs.push(`retiredLinks[${i}]: replacedBy ${r.replacedBy} is not a current link`);
+});
+const retiredMovementIds = new Set();
+(d.retiredMovements ?? []).forEach((r, i) => {
+  if (!r.id || !r.date || !r.reason) errs.push(`retiredMovements[${i}]: needs id, date and reason`);
+  if (byId.has(r.id)) errs.push(`retiredMovements[${i}]: ${r.id} is retired but still in use`);
+  retiredMovementIds.add(r.id);
+  if (r.redirectTo && !byId.has(r.redirectTo)) errs.push(`retiredMovements[${i}]: redirectTo ${r.redirectTo} is not a current movement`);
+});
+
+// --- release and identifier promise ---
+if (!d.meta?.release?.number || !/^\d{4}-\d{2}-\d{2}$/.test(d.meta?.release?.date ?? "")) errs.push("meta.release: needs number and date (YYYY-MM-DD)");
+if (!d.meta?.identifiers) errs.push("meta.identifiers: the permanence statement is missing");
+
+// --- permanence against a base version: nothing published disappears unretired ---
+if (basePath) {
+  let base = null;
+  try { base = JSON.parse(readFileSync(basePath, "utf8")); } catch (e) { errs.push(`--base: cannot read ${basePath}: ${e.message}`); }
+  if (base) {
+    for (const e of base.edges ?? []) if (e.id && !edgeIds.has(e.id) && !retiredLinkIds.has(e.id)) errs.push(`link ${e.id} was published and is gone without a retiredLinks entry`);
+    for (const m of base.movements ?? []) if (!byId.has(m.id) && !retiredMovementIds.has(m.id)) errs.push(`movement ${m.id} was published and is gone without a retiredMovements entry`);
+    for (const r of base.retiredLinks ?? []) if (!retiredLinkIds.has(r.id)) errs.push(`retired link ${r.id} dropped from retiredLinks`);
+    if (base.meta?.release?.number && base.meta.release.number === d.meta?.release?.number && JSON.stringify(base.edges) !== JSON.stringify(d.edges))
+      errs.push("links changed but meta.release.number did not");
+  }
+}
 
 // --- continuesAs: pairs exist, adjacent-era, successor starts no earlier than predecessor ---
 (d.movements ?? []).forEach(m => {

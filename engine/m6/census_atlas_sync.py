@@ -105,3 +105,8 @@ def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], l
                 m[field] = new_val
 
     return atlas_movements, changes
+
+
+def edges_out_of_sync(census: dict, atlas_edges: list[dict]) -> bool:
+    """The Atlas's edges are a plain mirror of the census's, whole."""
+    return census.get("edges", []) != atlas_edges

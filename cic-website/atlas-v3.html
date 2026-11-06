@@ -40171,10 +40171,10 @@ laneKeys.forEach(k=>{
 // Church of Roman Palestine before Constantine) has a Documented edge in from
 // Alexandria -- Origen's own move there in 231 -- not from Origin. The
 // Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
-// already-differentiated lanes, not the undifferentiated trunk. Only "formed"
-// and "transmitted to" edges count as lineage; "argued against", "contemporary
-// with", and "in tension with" are relationships, not ancestry.
-const LINEAGE_TYPES=new Set(['formed','transmitted to']);
+// already-differentiated lanes, not the undifferentiated trunk. Only "gave
+// rise to", "continued as" and "influenced" count as lineage; "argued
+// against", "broke with" and "in contact with" are relationships, not ancestry.
+const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
 const laneParent={};
 laneKeys.forEach(k=>{
   if(k===0)return;
@@ -40244,14 +40244,14 @@ const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 // Lane drift toward -- or away from -- a related lane: the scope note's own
 // "deliberately not in this rough pass" list named this ("lane drift toward
 // related lanes") as a real proposed rule, not an invented one. Built from
-// the same edges already on the map, not new claims: 'contemporary with'
+// the same edges already on the map, not new claims: 'in contact with'
 // pulls two lanes' water toward each other over the real years both
-// movements were active; 'argued against' and 'in tension with' push them
-// apart over that same documented window. 'formed'/'transmitted to' are
+// movements were active; 'argued against' and 'broke with' push them
+// apart over that same documented window. The lineage types are
 // excluded -- they already drive the genesis/parent convergence above, and
 // reusing them here as generic attraction would draw the same lineage twice.
-const ATTRACT_TYPES=new Set(['contemporary with']);
-const REPEL_TYPES=new Set(['argued against','in tension with']);
+const ATTRACT_TYPES=new Set(['in contact with']);
+const REPEL_TYPES=new Set(['argued against','broke with']);
 const DRIFT_MAX=32; // px -- a firm nudge, not a lane change: about a quarter
   // of the ~124-135px gap between neighboring lanes, so a pulled or pushed
   // lane never reads as having crossed into a neighbor's own water.
@@ -40754,7 +40754,7 @@ function render(){
   // back only its own connections -- on demand, not all-at-once.
   DATA.edges.forEach(edg=>{
     const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
-    const dash = edg.confidence==='Contested' ? '2,3' : edg.confidence==='Widely Accepted' ? '6,3' : 'none';
+    const dash = EDGE_DASH[edg.confidence] || 'none';
     const d=`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
       d, fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
@@ -40763,7 +40763,7 @@ function render(){
       // the 292 movements); the 69 relationship lines between them had none
       // of that -- reachable and clickable with a mouse only, with no way for
       // a keyboard user to open one's own panel at all.
-      'aria-label':`${a.shortName||a.name} and ${b.shortName||b.name}, ${edg.type}, ${edg.confidence}`
+      'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
@@ -41089,8 +41089,17 @@ function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];retu
 function tipFor(m){
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region||'')}</div><div class="s">${esc(statusLabel(m))}</div>`;
 }
+const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
+const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
+function edgeSentence(edg,a,b){
+  return `${a.shortName||a.name} ${edg.type} ${b.shortName||b.name}`;
+}
+function edgeHeading(edg,a,b){
+  const arrow=SYMMETRIC_EDGE_TYPES.has(edg.type)?'↔':'→';
+  return `${esc(a.shortName||a.name)} ${arrow} ${esc(b.shortName||b.name)}`;
+}
 function tipForEdge(edg,a,b){
-  return `<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
+  return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function tipForRiver(f,count,minYear,maxYear){
   return `<div class="n">${esc(f.lbl)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
@@ -41507,9 +41516,10 @@ function openPanelStory(s){
 }
 function openPanelEdge(edg,a,b){
   hideTip();
-  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
-    <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
-    <p>${esc(edg.note)}</p>`;
+  const sources=(edg.sources||[]).map(s=>`<li>${esc(s.work)}${s.locus?`, ${esc(s.locus)}`:''}</li>`).join('');
+  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${edgeHeading(edg,a,b)}</h2>
+    <p class="meta">${esc(edgeSentence(edg,a,b))} · ${esc(edg.confidence)}</p>
+    <p>${esc(edg.note)}</p>${sources?`<h3>Sources</h3><ul>${sources}</ul>`:''}`;
   showPanel();
   syncWorldURL(null);
 }

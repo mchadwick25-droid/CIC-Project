@@ -9,7 +9,7 @@ from pathlib import Path
 from engine.m1.registry import load_registry
 
 from . import atlas_html
-from .census_atlas_sync import sync_atlas
+from .census_atlas_sync import edges_out_of_sync, sync_atlas
 from .census_sync import sync_census
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -71,7 +71,9 @@ def cmd_atlas_sync(args: argparse.Namespace) -> int:
         updates.setdefault(c["id"], {})[c["field"]] = c["new"]
     if updates:
         atlas_html.apply_movement_updates(ATLAS_PATH, updates)
-    print(json.dumps({"changed": bool(changes), "changes": _summarize_changes(changes)}, indent=2))
+    edges_changed = atlas_html.write_edges(ATLAS_PATH, census.get("edges", []))
+    print(json.dumps({"changed": bool(changes) or edges_changed, "edges_changed": edges_changed,
+                      "changes": _summarize_changes(changes)}, indent=2))
     return 0
 
 
@@ -79,8 +81,11 @@ def cmd_atlas_check(args: argparse.Namespace) -> int:
     census = _load_census()
     atlas_movements = atlas_html.read_movements(ATLAS_PATH)
     _, changes = sync_atlas(census, atlas_movements)
-    passed = not changes
-    print(json.dumps({"pass": passed, "changes": _summarize_changes(changes)}, indent=2))
+    edges_differ = edges_out_of_sync(census, atlas_html.read_edges(ATLAS_PATH))
+    if args.edges_only:
+        changes = []
+    passed = not changes and not edges_differ
+    print(json.dumps({"pass": passed, "edges_differ": edges_differ, "changes": _summarize_changes(changes)}, indent=2))
     return 0 if passed else 1
 
 
@@ -98,6 +103,7 @@ def main(argv: list[str] | None = None) -> int:
     atlas_sync.set_defaults(func=cmd_atlas_sync)
 
     atlas_check = sub.add_parser("atlas-check", help="report drift between atlas-v3.html and world-census.json without writing - the CI gate")
+    atlas_check.add_argument("--edges-only", action="store_true", help="check only the lineage links")
     atlas_check.set_defaults(func=cmd_atlas_check)
 
     args = parser.parse_args(argv)

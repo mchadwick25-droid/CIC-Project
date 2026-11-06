@@ -171,6 +171,9 @@ jobs:
             census:
               - 'cic-website/data/world-census.json'
               - 'tools/validate-census.mjs'
+              - 'cic/texts/**'
+              - 'cic-website/atlas-v3.html'
+              - 'engine/m6/**'
               - '.github/workflows/**'
             # Library Access Gate D3 SS6.3 (increment 5): a corpus-map or
             # vendored-text-only change is neither `engine/**` nor
@@ -264,10 +267,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node tools/validate-census.mjs cic-website/data/world-census.json
+      - name: Published version to check permanence against
+        run: git show "origin/${{ github.base_ref || 'main' }}:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
+      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" cic-website/data/world-census.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python -m engine.m6.cli atlas-check --edges-only
 
   # Added by the Repo Structure Cleanup thread (Build/Ministry/Operations/Standing/
   # CiC_Repo_Structure_Tracking.md, 2026-09-14). Fails when a repo-relative path

@@ -148,19 +148,11 @@ def _insert_field(obj_text: str, field: str, value) -> str:
 
 def _find_array_span(text: str, needle: str, from_const_data: bool) -> tuple[int, int]:
     start = text.find(needle, text.find("const DATA")) if from_const_data else text.find(needle)
+    if start < 0:
+        raise ValueError(f"{needle!r} not found")
     arr_start = text.find("[", start)
-    depth = 0
-    j = arr_start
-    while j < len(text):
-        c = text[j]
-        if c == "[":
-            depth += 1
-        elif c == "]":
-            depth -= 1
-            if depth == 0:
-                return arr_start, j + 1
-        j += 1
-    raise ValueError(f"unterminated array for {needle!r}")
+    _, arr_end = json.JSONDecoder().raw_decode(text, arr_start)
+    return arr_start, arr_end
 
 
 def _movement_spans(text: str) -> list[tuple[int, int]]:
@@ -194,6 +186,19 @@ def read_edges(path) -> list[dict]:
     text = open(path, encoding="utf-8").read()
     arr_start, arr_end = _find_array_span(text, '"edges":', from_const_data=True)
     return json.loads(text[arr_start:arr_end])
+
+
+def write_edges(path, edges: list[dict]) -> bool:
+    """Replaces the embedded edges array with `edges`. Returns True if the file changed."""
+    text = open(path, encoding="utf-8").read()
+    arr_start, arr_end = _find_array_span(text, '"edges":', from_const_data=True)
+    line_start = text.rfind("\n", 0, arr_start) + 1
+    base_indent = len(text[line_start:arr_start]) - len(text[line_start:arr_start].lstrip())
+    new_text = text[:arr_start] + _reindent(edges, base_indent) + text[arr_end:]
+    if new_text == text:
+        return False
+    open(path, "w", encoding="utf-8").write(new_text)
+    return True
 
 
 def apply_movement_updates(path, updates: dict[str, dict]) -> int:

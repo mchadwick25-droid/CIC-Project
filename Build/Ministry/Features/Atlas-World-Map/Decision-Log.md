@@ -13,6 +13,22 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-06 — Census lineage links: six types, sourced and quoted, permanent IDs, one rigor pass
+
+**Why.** An outside researcher (Ishayahu Lastov, an open argument-graph project on Christian controversies) asked to reuse the census's lineage links and source pointers. A read-only audit of all 69 links that day found: most "Documented" grades rated the evidence for the events a note cites, not the relationship the link claims; "formed" covered three different claims; "contemporary with" claimed nothing; no direction was defined for "argued against"; no link carried its own sources or an ID; several notes carried internal build text into the public site; candidate factual slips in four notes; and missing well-documented tensions (Donatism, a live world, had no links at all). `atlas-v3.html`'s embedded edges were a hand-synced copy that had already drifted from the census on four notes.
+
+**Decided (Mark, one question at a time, 2026-11-06):**
+1. **Six link types**, each read as a sentence, *from* [type] *to*: `gave rise to`, `continued as`, `influenced`, `argued against` (arrow from the critic), `broke with` (a rupture both sides recorded; stored once), `in contact with` (documented contact, no influence claimed; stored once). They replace `formed`, `transmitted to`, `argued against`, `contemporary with` and `in tension with`.
+2. **Sources on every link, the heavier shape:** the world records' own fields (`source_id` where a world record exists, `work`, `locus` with the vendored file and lines, `license`), plus `citation_specificity` and `verification_state`, plus a short verbatim `quote` from the vendored file, re-verified word for word on every review. Documented needs a primary source that shows the relationship itself; a link whose documenting text is not vendored cannot be Documented, and the text goes to the wants register.
+3. **Permanent pair-based IDs** (`from--to`, `--2` for a second link on a pair), without the type, so retyping never breaks a citation; and a **public permanence promise**: movement and link IDs never change once published, removed links go to a retired list (date, reason, replacement, never reused), renamed movements redirect, and every data release carries a number and date.
+4. **Route:** build-cycle discipline in one pull request — Sonnet drafts by era, a script checks every quote against the vendored file, Opus runs the adversarial review (three-round cap), the site code that reads link types is updated, and the atlas's edges are generated from the census instead of hand-synced. **The missing tensions are researched in the same pass.**
+
+**Also decided the same day (org, recorded here for the trail):** Ishayahu receives an interim, non-commercial, attribution-required permission from Faithways Studio, Inc. covering the website data files only, with confidence levels kept attached and no long-term licence commitment; the public data licence is decided with the organisation's structure, before launch.
+
+**Next action:** the rigor pass itself, on branch `claude/relaxed-hamilton-n6v5ur`.
+
+---
+
 ## 2026-10-23 — Era VII rulings: census 292→296 (VI.13 split into four regional entries, VI.30 folded into V.17)
 
 **What changed.** After the two Era VII library passes (PRs 1069 and 1071), Mark
