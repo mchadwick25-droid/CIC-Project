@@ -42575,93 +42575,193 @@ function seededWave(seed){return (y)=>{
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
-// Lane drift toward -- or away from -- a related lane: the scope note's own
-// "deliberately not in this rough pass" list named this ("lane drift toward
-// related lanes") as a real proposed rule, not an invented one. Built from
-// the same edges already on the map, not new claims: 'in contact with'
-// pulls two lanes' water toward each other over the real years both
-// movements were active; 'argued against' and 'broke with' push them
-// apart over that same documented window. The lineage types are
-// excluded -- they already drive the genesis/parent convergence above, and
-// reusing them here as generic attraction would draw the same lineage twice.
-const ATTRACT_TYPES=new Set(['in contact with']);
-const REPEL_TYPES=new Set(['argued against','broke with']);
-const DRIFT_MAX=32; // px -- a firm nudge, not a lane change: about a quarter
-  // of the ~124-135px gap between neighboring lanes, so a pulled or pushed
-  // lane never reads as having crossed into a neighbor's own water.
-const driftEdges=[];
+// How long, in canvas units, a newly emerging lane spends widening from
+// nothing and, where laneParent[k] names a documented source, drifting out
+// from that lane into its own column. Kept short because most lanes begin
+// early in Era I, and a long join would hide their own winding.
+const MERGE_WINDOW=150;
+function mergeRaw(k,y){return k===0?1:Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));}
+function smoothstep(t){return t*t*(3-2*t);}
+
+/* ---- Lane drift: rivers lean toward or away from each other only along
+   census links, over the years both linked movements were active, each
+   link weighted by its confidence grade. A drift starts only once both
+   rivers have finished joining, so a lane's genesis convergence is never
+   drawn a second time as attraction. Links between the same two rivers
+   are taken together: the pair leans along its strongest active link, and
+   more links let it lean further, so a cluster of links never makes the
+   river turn more sharply. ---- */
+const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'argued against':-1,'broke with':-1};
+const CONFIDENCE_WEIGHT={'Documented':1,'Widely Accepted':0.7,'Dominant Modern Reconstruction':0.7,'Contested':0.4,'Inferential-Thin':0.25};
+const DRIFT_MAX=90;
+const DRIFT_SATURATION=2;
+const DRIFT_FADE=0.4;
+// A pull never builds or relaxes over less than this many canvas units. An
+// overlap too short to reach full strength gives a smaller lean, not a
+// sharper one.
+const DRIFT_MIN_FADE=600;
+const DRIFT_EXTRA_LINK=0.15, DRIFT_PAIR_CAP=1.6;
+const driftPairs={};
 DATA.edges.forEach(e=>{
   const a=byId[e.from], b=byId[e.to];
   if(!a||!b||a.laneOrder===b.laneOrder)return;
-  let sign=0;
-  if(ATTRACT_TYPES.has(e.type))sign=1;
-  else if(REPEL_TYPES.has(e.type))sign=-1;
-  else return;
-  const y0=yearToY(Math.min(a.start,b.start)), y1=yearToY(Math.max(a.end,b.end));
+  const pull=DRIFT_PULL[e.type], weight=CONFIDENCE_WEIGHT[e.confidence];
+  if(!pull||!weight)return;
+  const settled=k=>k===0?0:laneGenesisY[k]+MERGE_WINDOW;
+  const y0=Math.max(yearToY(Math.max(a.start,b.start)),settled(a.laneOrder),settled(b.laneOrder));
+  const y1=yearToY(Math.min(a.end,b.end));
   if(y1<=y0)return;
-  driftEdges.push({laneA:a.laneOrder, laneB:b.laneOrder, y0, y1, sign});
+  const lo=Math.min(a.laneOrder,b.laneOrder), hi=Math.max(a.laneOrder,b.laneOrder);
+  const key=lo+'|'+hi+'|'+Math.sign(pull);
+  (driftPairs[key]=driftPairs[key]||{laneA:lo, laneB:hi, sign:Math.sign(pull), links:[]}).links.push({y0, y1, weight:Math.abs(pull)*weight});
 });
-function driftInfluence(edge,y){
-  if(y<edge.y0||y>edge.y1)return 0;
-  const t=(y-edge.y0)/(edge.y1-edge.y0);
-  // Smoothstep fade over the first/last fifth of the documented overlap --
-  // full strength through the middle, never a hard on/off snap.
-  const raw=Math.min(t/0.2,(1-t)/0.2,1);
-  return raw*raw*(3-2*raw);
+const driftEdges=Object.values(driftPairs);
+driftEdges.forEach(pair=>{pair.factor=Math.min(DRIFT_PAIR_CAP,1+DRIFT_EXTRA_LINK*(pair.links.length-1));});
+function linkInfluence(link,y){
+  if(y<=link.y0||y>=link.y1)return 0;
+  const len=link.y1-link.y0, fade=Math.max(DRIFT_FADE*len,DRIFT_MIN_FADE);
+  return smoothstep(Math.min((y-link.y0)/fade,(link.y1-y)/fade,1));
+}
+function driftInfluence(pair,y){
+  let best=0;
+  pair.links.forEach(link=>{best=Math.max(best,link.weight*linkInfluence(link,y));});
+  return best*pair.factor;
 }
 function driftOffset(k,y){
   let total=0;
-  driftEdges.forEach(edge=>{
-    const other = edge.laneA===k ? edge.laneB : edge.laneB===k ? edge.laneA : null;
+  driftEdges.forEach(pair=>{
+    const other = pair.laneA===k ? pair.laneB : pair.laneB===k ? pair.laneA : null;
     if(other==null)return;
-    const infl=driftInfluence(edge,y);
+    const infl=driftInfluence(pair,y);
     if(infl<=0)return;
-    total+=edge.sign*(Math.sign(laneX[other]-laneX[k])||1)*infl;
+    total+=pair.sign*(Math.sign(laneX[other]-laneX[k])||1)*infl;
   });
-  // Saturate rather than clip -- several real relationships overlapping at
-  // once ease toward the cap instead of hitting a hard wall.
-  return Math.tanh(total/2)*DRIFT_MAX;
+  return Math.tanh(total/DRIFT_SATURATION)*DRIFT_MAX;
 }
 
+/* ---- Width: the number of documented movements in the lane active in
+   that year, averaged over a few decades so the river swells and thins
+   instead of stepping. It is not membership or size. A lane with nothing
+   active has no water at all. ---- */
+const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;
+const WIDTH_SMOOTH_SIGMA=18, WIDTH_SMOOTH_REACH=45, WIDTH_SMOOTH_STEP=5;
+const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=DATA.movements.filter(m=>m.laneOrder===k);});
 function concurrentCount(laneOrder, year){
-  return DATA.movements.filter(m=>m.laneOrder===laneOrder && m.start<=year && m.end>=year).length;
+  return laneMembers[laneOrder].filter(m=>m.start<=year && m.end>=year).length;
 }
+function smoothedCount(k,year){
+  let sum=0, wsum=0;
+  for(let d=-WIDTH_SMOOTH_REACH;d<=WIDTH_SMOOTH_REACH;d+=WIDTH_SMOOTH_STEP){
+    const w=Math.exp(-(d*d)/(2*WIDTH_SMOOTH_SIGMA*WIDTH_SMOOTH_SIGMA));
+    sum+=w*concurrentCount(k,year+d); wsum+=w;
+  }
+  return sum/wsum;
+}
+// Inside an era's header gutter there is no plotted year, so the river holds
+// the width it had at the era's opening year.
+function yearAtY(y){
+  for(let i=0;i<eras.length;i++){
+    if(y>=eraY0[i] && y<eraY0[i]+eraH[i]+0.01){
+      const t=y<eraY0[i]+HEADER_GUTTER ? 0 : (y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER);
+      return eraYearRange[i][0]+t*(eraYearRange[i][1]-eraYearRange[i][0]);
+    }
+  }
+  return eraYearRange[eraYearRange.length-1][1];
+}
+const SAMPLE_COUNT=Math.ceil(CANVAS_H/STEP);
 const laneSamples={};
 laneKeys.forEach(k=>{
   const pts=[];
-  for(let y=0;y<CANVAS_H;y+=STEP){
-    // find the year at this y by inverse-searching eras
-    let year=null;
-    for(let i=0;i<eras.length;i++){
-      if(y>=eraY0[i] && y<eraY0[i]+eraH[i]+0.01){
-        // Inside the header gutter itself there's no real "when" to compute --
-        // hold at the era's own opening year, so the river simply carries
-        // whatever width it already had at that boundary through the caption
-        // zone rather than sampling a year that is never actually plotted.
-        const t=y<eraY0[i]+HEADER_GUTTER ? 0 : (y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER);
-        year=eraYearRange[i][0]+t*(eraYearRange[i][1]-eraYearRange[i][0]);
-        break;
-      }
-    }
-    if(year===null)year=eraYearRange[eraYearRange.length-1][1];
-    const cnt=concurrentCount(k,year);
-    pts.push({y,cnt});
+  for(let i=0;i<SAMPLE_COUNT;i++){
+    const y=i*STEP, year=yearAtY(y);
+    pts.push({y, cnt:concurrentCount(k,year), smooth:smoothedCount(k,year)});
   }
   laneSamples[k]=pts;
 });
 const maxCnt=Math.max(1,...laneKeys.map(k=>Math.max(...laneSamples[k].map(p=>p.cnt))));
+function sampleWidth(p){
+  return p.cnt===0 ? 0 : WIDTH_MIN+WIDTH_RANGE*Math.pow(Math.min(1,p.smooth/maxCnt),WIDTH_EXP);
+}
 function widthAt(k,y){
-  const pts=laneSamples[k]; const idx=Math.min(pts.length-1,Math.max(0,Math.round(y/STEP)));
-  const cnt=pts[idx].cnt;
-  // No floor: a lane with nothing active at this point in time is not a thin
-  // trickle, it does not exist yet (or has genuinely gone quiet). A minimum-width
-  // floor for the whole sheet would render every lane,
-  // Protestant & Evangelical included, thirteen centuries before it existed.
-  return cnt===0 ? 0 : 10 + 46*Math.pow(cnt/maxCnt,0.55);
+  const pts=laneSamples[k], f=Math.max(0,Math.min(pts.length-1,y/STEP));
+  const i=Math.floor(f), j=Math.min(pts.length-1,i+1), t=f-i;
+  return sampleWidth(pts[i])*(1-t)+sampleWidth(pts[j])*t;
 }
 
-/* ---- Path building: smooth-quadratic through sampled points -- simple, robust,
-   organically curved without heavier spline math. ---- */
+/* ---- No crossing: neighboring rivers keep at least RIVER_GAP of clear
+   ground between their edges, even at the strongest drift. Where they would
+   come closer, both ease apart. The push is spread and blurred along time,
+   so it builds and relaxes like the drift itself. A lane still joining its
+   parent is left out: that meeting of waters is drawn on purpose. ---- */
+const RIVER_GAP=14, GAP_MARGIN=4, GAP_SPREAD=8, GAP_BLUR=5;
+function spreadAndBlur(arr){
+  const n=arr.length, pos=new Float64Array(n), neg=new Float64Array(n), out=new Float64Array(n);
+  for(let i=0;i<n;i++){
+    for(let j=Math.max(0,i-GAP_SPREAD);j<=Math.min(n-1,i+GAP_SPREAD);j++){
+      if(arr[j]>pos[i])pos[i]=arr[j];
+      if(arr[j]<neg[i])neg[i]=arr[j];
+    }
+  }
+  const reach=GAP_BLUR*3;
+  for(let i=0;i<n;i++){
+    let sum=0, wsum=0;
+    for(let d=-reach;d<=reach;d++){
+      const j=i+d; if(j<0||j>=n)continue;
+      const w=Math.exp(-(d*d)/(2*GAP_BLUR*GAP_BLUR));
+      sum+=w*(pos[j]+neg[j]); wsum+=w;
+    }
+    out[i]=sum/wsum;
+  }
+  return out;
+}
+// amp 1 is the full winding river shown close up; amp 0 is the calm line
+// shown zoomed out, which keeps the drift but not the winding.
+function halfWidthScale(amp){return amp>0?0.5:0.3375;}
+function buildLaneGeometry(amp){
+  const own={}, half={};
+  laneKeys.forEach(k=>{
+    own[k]=new Float64Array(SAMPLE_COUNT); half[k]=new Float64Array(SAMPLE_COUNT);
+    for(let i=0;i<SAMPLE_COUNT;i++){
+      const y=i*STEP;
+      own[k][i]=laneX[k]+laneWave[k](y)*amp+driftOffset(k,y);
+      half[k][i]=sampleWidth(laneSamples[k][i])*halfWidthScale(amp);
+    }
+  });
+  const order=laneKeys.slice().sort((a,b)=>laneX[a]-laneX[b]);
+  for(let pass=0;pass<8;pass++){
+    const delta={}; laneKeys.forEach(k=>{delta[k]=new Float64Array(SAMPLE_COUNT);});
+    let any=false;
+    for(let i=0;i<SAMPLE_COUNT;i++){
+      const y=i*STEP;
+      const act=order.filter(k=>half[k][i]>0 && mergeRaw(k,y)>=1);
+      const x=act.map(k=>own[k][i]);
+      const push=act.map(()=>0);
+      for(let it=0;it<30;it++){
+        let moved=false;
+        for(let j=0;j<act.length-1;j++){
+          const need=half[act[j]][i]+half[act[j+1]][i]+RIVER_GAP+GAP_MARGIN-((x[j+1]+push[j+1])-(x[j]+push[j]));
+          if(need>0.01){push[j]-=need/2; push[j+1]+=need/2; moved=true;}
+        }
+        if(!moved)break;
+      }
+      act.forEach((k,j)=>{if(push[j]!==0){delta[k][i]=push[j]; any=true;}});
+    }
+    if(!any)break;
+    laneKeys.forEach(k=>{
+      const eased=spreadAndBlur(delta[k]);
+      for(let i=0;i<SAMPLE_COUNT;i++)own[k][i]+=eased[i];
+    });
+  }
+  return {own, half};
+}
+const laneGeometry={0:buildLaneGeometry(0), 1:buildLaneGeometry(1)};
+function ownXAt(k,y,amp){
+  const arr=laneGeometry[amp].own[k], f=Math.max(0,Math.min(arr.length-1,y/STEP));
+  const i=Math.floor(f), j=Math.min(arr.length-1,i+1), t=f-i;
+  return arr[i]*(1-t)+arr[j]*t;
+}
+
+/* ---- Path building: smooth-quadratic through sampled points. ---- */
 function smoothPath(pts){
   if(pts.length<2)return '';
   let d=`M ${pts[0].x.toFixed(1)} ${pts[0].y.toFixed(1)} `;
@@ -42673,59 +42773,36 @@ function smoothPath(pts){
   d+=`L ${last.x.toFixed(1)} ${last.y.toFixed(1)} `;
   return d;
 }
-// How long (in canvas units) a newly-emerging lane spends visibly widening
-// from nothing -- and, where laneParent[k] names a real documented source,
-// drifting out from THAT lane's own position into its own column -- rather
-// than simply appearing, already at full width, in an empty column of its
-// own. Without a documented parent, only the width ramps in; the geometry
-// never invents a lineage the record doesn't assert.
-// Kept short on purpose: most lanes' real genesis falls early in Era I, and
-// a long transition window would swallow nearly that whole era -- almost
-// everything visible in the map's opening would read as "still joining," not
-// yet independently winding, which would look like "the winding is gone" even
-// though the wave itself never changes. 150 gives the join enough room for a
-// real curve, then hands the lane back to its own full-amplitude wave quickly.
-const MERGE_WINDOW=150;
+// A joining lane eases out of its parent along a smoothstep with a gentle
+// arc, so the join reads as a river leaving another rather than a straight
+// cut. The arc is scaled by amp, so the calm line stays simple.
 function riverPath(k, amp){
   const left=[], right=[];
   const parentK=laneParent[k];
-  for(let y=0;y<CANVAS_H;y+=STEP){
-    const ownX=laneX[k]+laneWave[k](y)*amp+driftOffset(k,y)*amp;
-    const fullW=widthAt(k,y);
-    let cx=ownX, w=fullW;
+  const geo=laneGeometry[amp];
+  for(let i=0;i<SAMPLE_COUNT;i++){
+    const y=i*STEP;
+    const ownX=geo.own[k][i];
+    let cx=ownX, hw=geo.half[k][i];
     if(k!==0){
-      const raw=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
-      // Smoothstep, not a straight ramp: a straight linear 0-to-1 blend for
-      // a lane peeling off its parent lane -- since the gap between two
-      // lane columns usually dwarfs the wave's own +-52px swing -- reads as a
-      // straight diagonal cut wherever it happens, not a river joining
-      // another. Easing the *rate* of the blend (zero velocity at both ends)
-      // curves the transition itself; the bulge below adds an actual organic
-      // arc through it. Both are scaled by amp so calm (zoomed-out, amp=0)
-      // paths stay the deliberately simplified lines rule 8 calls for --
-      // only the full-detail organic path gets the joining curve.
-      const t=raw*raw*(3-2*raw);
+      const raw=mergeRaw(k,y), t=smoothstep(raw);
       if(parentK!=null){
-        const parentX=laneX[parentK]+laneWave[parentK](y)*amp+driftOffset(parentK,y)*amp;
-        const bulge=Math.sin(raw*Math.PI)*64*amp;
-        cx=parentX+(ownX-parentX)*t+bulge;
+        const parentX=geo.own[parentK][i];
+        cx=parentX+(ownX-parentX)*t+Math.sin(raw*Math.PI)*64*amp;
       }
-      w=fullW*t;
+      hw*=t;
     }
-    const hw=w/2*(0.35+0.65*Math.min(1,amp>0?1:0.5));
     left.push({x:cx-hw,y}); right.push({x:cx+hw,y});
   }
   const rightRev=right.slice().reverse();
   let d=smoothPath(left);
   d+=` L ${right[right.length-1].x.toFixed(1)} ${right[right.length-1].y.toFixed(1)} `;
-  // The pen is already at rightRev[0] (same point as the L just above), so the
-  // leading "M x y" of the reversed-right smoothPath is dropped entirely rather
-  // than swapped for "L x y" -- keeping it would leave a bare "L" with no
-  // coordinates before the following "Q", which is invalid path syntax.
+  // The pen already sits at rightRev[0], so its leading move is dropped:
+  // a bare "L" before the next "Q" would be invalid path syntax.
   d+=smoothPath(rightRev).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
   return d;
 }
-function laneCenterX(k,y){return laneX[k]+laneWave[k](y)*1+driftOffset(k,y)*1;} // organic amplitude reference (amp=1 = full)
+function laneCenterX(k,y){return ownXAt(k,y,1);}
 
 /* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
