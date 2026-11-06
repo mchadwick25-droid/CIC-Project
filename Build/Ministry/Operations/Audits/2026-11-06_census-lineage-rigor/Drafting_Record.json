@@ -1,0 +1,1741 @@
+[
+ {
+  "old_index": 0,
+  "action": "remove",
+  "from": "post-apostolic-house-church",
+  "to": "syriac-edessa-nisibis",
+  "type": "gave rise to",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Removed on the round-1 ruling: the note itself says no source supports 'gave rise to'; that is an absence, not a thin claim.",
+  "revision_note": "Answers substantial finding and ruling 0_1 (remove old #0 and #1).",
+  "drafter_flags": [
+   "The old link was graded Contested but the dispute recorded in the repo (syr.contested.edessa-origins) is about the route, with trade routes and the Jewish community as the usual reconstructions. None of those names the house-church network. I found no vendored text that ties Edessa to this network, so I graded Inferential-Thin.",
+   "Reviewer should consider removing the link: the relationship the type claims has no evidence at all, only an absence of any other origin. I kept it so the decision is yours.",
+   "The year 201 comes from the repo's own record of the entry (Seleucid year 513); the vendored line carries the Seleucid date, not 201 CE, in line 53. Check the conversion if you want it stated in the quote.",
+   "The Doctrine of Addai (cic/texts/addai_doctrine-of-addai.txt) tells the apostolic-foundation legend. Repo records treat it as a later legend, so I did not use it as evidence.",
+   "Kept for the Edessa entry owner as an honest limit: Christians at Edessa by 201 (Chronicle of Edessa line 53), origin unknown."
+  ],
+  "wants": [
+   "A dated text naming people who carried Christianity from Antioch, Asia Minor or Rome to Edessa (none known)"
+  ]
+ },
+ {
+  "old_index": 1,
+  "action": "remove",
+  "from": "post-apostolic-house-church",
+  "to": "alexandria-catechetical",
+  "type": "gave rise to",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Removed on the round-1 ruling: the note itself says no source supports 'gave rise to'; that is an absence, not a thin claim.",
+  "revision_note": "Answers substantial finding and ruling 0_1 (remove old #0 and #1).",
+  "drafter_flags": [
+   "Old grade Widely Accepted was not supportable: Eusebius is hearsay ('they say'), and the only repo-cited secondary work (Bagnall, cited in the Alexandria build, Doc_01 section on Egypt) says the evidence is silent early. I did not read Bagnall; the note's second sentence is the repo's own paraphrase of him, so verification is named-not-rechecked.",
+   "Mark's link to Rome is not in the quoted line, so the quote supports 'founded in Alexandria by Mark' but not 'out of the Roman or Antioch network'.",
+   "Consider removing the link: nothing I could find shows the claimed relationship.",
+   "Kept for the Alexandria entry owner as an honest limit: Eusebius reports on hearsay that Mark founded the church (HE II.16); Bagnall finds the papyri almost silent before Demetrius."
+  ],
+  "wants": [
+   "Any dated text from before 190 describing the Christian community of Alexandria"
+  ]
+ },
+ {
+  "old_index": 2,
+  "action": "rewrite",
+  "from": "alexandria-catechetical",
+  "to": "desert-monasticism",
+  "type": "gave rise to",
+  "confidence": "Contested",
+  "change_reason": "Old type 'formed' and grade Widely Accepted replaced: both worlds' records call the descent contested, and the Life shows contact with Alexandria but not origin there.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Alexandria and Desert builds both hold this question open (alx.contested.desert-attribution and desert.contested.alexandria-continuity). The grade follows them.",
+   "I did not read Rubenson; his position is taken from the repo's record desert.source.rubenson-letters, so the Rubenson sentence is named-not-rechecked.",
+   "The desert record says Evagrius does not establish the link (he was trained under the Cappadocians), so I did not use Evagrius.",
+   "The old note's 'Athanasius wrote the Life of Antony that carried it to the world' is true but is not evidence of descent from Alexandria, so I moved Athanasius into the Contested framing."
+  ],
+  "wants": [
+   "Antony's letters in a vendored edition, to check Rubenson's Origenist reading against the text"
+  ]
+ },
+ {
+  "old_index": 35,
+  "action": "keep",
+  "from": "tertullian-s-voice",
+  "to": "modalist-monarchianism",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Type and grade kept; note rewritten to say only what the text shows and to drop the unsupported claim about coined vocabulary.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Dropped the old claim that Tertullian 'coined much of the vocabulary the doctrine of the Trinity later used'; neither quote shows coinage. The second quote shows only that he uses the word Trinity.",
+   "Praxeas is one named opponent; Tertullian does not write against 'modalism' as a movement. The link to the movement rests on Praxeas being a modalist, which the treatise itself shows. Check whether the census wants Praxeas named as a voice in this movement.",
+   "ANF03 translation is by Holmes; I did not confirm the translator from the file header."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 36,
+  "action": "retype",
+  "from": "roman-church-third-century",
+  "to": "modalist-monarchianism",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Old type 'in tension with' and grade Contested replaced by 'argued against', which the Refutation documents by name; the hostility of the source is stated in the note.",
+  "revision_note": "Answers substantial finding on old #36 (Hippolytus quotes read as backing modalism; added Dionysius of Rome against the Sabellians).",
+  "drafter_flags": [
+   "Old type 'in tension with' is not one of the six; the relationship that is actually in the text is Hippolytus writing against Noetus's school. The arrow runs from the critic, so 'from' is the Roman church only through Hippolytus, a Roman churchman who was himself at odds with his bishops. If the reviewer thinks that makes 'Roman church' the wrong sender, the better fix is to name Hippolytus as a voice rather than to change the type.",
+   "The old note called the accusation 'inseparable from his rivalry for the see'. The text shows Hippolytus calling Callistus ambitious for the episcopal throne (anf05 lines 13587-13588), but the 'rivalry' reading is not in the quoted lines, so I wrote 'openly hostile' instead.",
+   "Contested was removed: the link claimed is 'argued against', which a text directed at the party by name documents. The reliability of Hippolytus's charges against Callistus is a separate question and is noted in the text of the note.",
+   "The reviewer's fix gave the lines for the Sabellius quote as 28532; the sentence runs over 28532-28533, so both lines are cited. Dionysius's dates (259-268) come from the census voice list, not from the quoted lines; the note says only 'in the 260s'.",
+   "IX.3 'adviser' quote dropped: it showed Hippolytus accusing the Roman bishops of backing Noetus's school, not the Roman church arguing against modalism."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 37,
+  "action": "keep",
+  "from": "syriac-edessa-nisibis",
+  "to": "bardaisanite-current",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Grade kept; note rewritten to drop the unsupported claim that the Refutations are why Bardaisan's position survives.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old claim that the Refutations 'are the reason most of his position survives' is not shown by the text and is a scholarly judgement; I dropped it. The repo also holds the Book of the Laws of the Countries from Bardaisan's own school (syr.source.bardaisan-book-of-laws), which would make 'most' wrong.",
+   "The note's list 'soul, space and matter' comes from lines 428, 608 and 917 of the same file; only the line 628 quote is shown as the source.",
+   "The sender is the whole Syriac entry; the text is by one man, Ephraim, who lived in Nisibis and Edessa."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 38,
+  "action": "retype",
+  "from": "post-apostolic-house-church",
+  "to": "roman-church-third-century",
+  "type": "continued as",
+  "confidence": "Widely Accepted",
+  "change_reason": "Old type 'formed' replaced by 'continued as' (same community, later entry); sources added and the Lampe dispute stated.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Evidence shows two points in one Roman church, not an unbroken record between them; the link rests on the Roman Christian community being one body, which is the consensus reading. I could not find a repo-cited secondary work that states this consensus directly. Lampe is cited in the repo for Roman house-church topography and for the late-monepiscopacy claim (pahc.contested.rome-monepiscopacy-dating); the third sentence of the note uses only that claim. I did not read Lampe.",
+   "Irenaeus's list is itself the thing Lampe doubts, so the two sources partly disagree. The note says so rather than hiding it.",
+   "Overlap: the post-apostolic entry ends in 200 and the Rome entry starts in 200, so 'continued as' (period split) is the right type, but the Rome entry is a possible future world and the census may prefer another framing."
+  ],
+  "wants": [
+   "A dated text from the 190s or 200s that links the Roman congregation of Victor's day to Zephyrinus's, such as Eusebius HE V.28, read in full"
+  ]
+ },
+ {
+  "old_index": 39,
+  "action": "rewrite",
+  "from": "roman-church-third-century",
+  "to": "novatianism",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "Old type 'formed' became 'gave rise to'; the claim that the lapsed question was argued under Callistus was wrong and is removed; the lapsed crisis and the schism now come from Eusebius's account.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said the dispute over the lapsed was 'argued under Callistus'. That mixes two things. Hippolytus's charge against Callistus (Ref. IX.7, anf05 lines 13880-13930) concerns forgiving sins in general, not the lapsed after persecution, and the lapsed crisis follows the Decian persecution (250). I removed Callistus and the 'argued under' claim and used Eusebius's account of 251 instead. I did not read Cyprian on the Decian date.",
+   "The 'around 251' date and the identification of Novatus with Novatian are McGiffert's editorial notes (his notes 2105 and 2107 in the file), not Eusebius. The note attributes the identification to 'editors'.",
+   "'Gave rise to' is documented by named people (a Roman presbyter) leading a separate party; the old type 'formed' did not fit the six types."
+  ],
+  "wants": [
+   "Cyprian, Epistle 55 (to Antonianus), read for the Roman schism of 251; the Latin text is vendored (cyprian_epistulae-lat_hartel1871-csel3-tei.txt) but I did not read it"
+  ]
+ },
+ {
+  "old_index": 42,
+  "action": "remove",
+  "from": "post-apostolic-house-church",
+  "to": "greek-apologists-second-century",
+  "type": "gave rise to",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Removed: the apologists' dates lie inside the house-church window, so the relationship is containment, which none of the six types names.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Why removed: the apologists' window (124 to 200) lies wholly inside the household-church window (70 to 200), so this is containment of one set of authors in a world, not a successor relationship. None of the six types fits. The repo's own Step 0 document for the apologists (Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md) says the genre-versus-community objection is live.",
+   "Justin's own description of Christian worship (1 Apology 67) and Melito as bishop of Sardis would show the apologists were members of these churches, but that is not 'gave rise to'. The reviewer may prefer to keep a link with a different type.",
+   "Justin and Tatian are co-owned figures with built worlds; the old note's claim that Justin 'taught at Rome' is not checked here."
+  ],
+  "wants": [
+   "A dated text showing Greek apologists leaving the household-church communities, which would make 'gave rise to' true"
+  ]
+ },
+ {
+  "old_index": 43,
+  "action": "retype",
+  "from": "greek-apologists-second-century",
+  "to": "alexandria-catechetical",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Old type 'transmitted to' became 'influenced'; the Justin claim could not be sourced in vendored texts, so the link now rests on Clement naming Tatian.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note says Justin's argument that the Word had sown seeds of truth among the philosophers is what Clement and Origen take much further. I did not find an Alexandrian text that names Justin, so that claim is a scholarly parallel, not Documented. I rested the link on Clement naming Tatian, an apologist on this shelf, instead. This is narrower than the old note.",
+   "The quote ends at 'in his book' because the next words are markup in the file (<i>To the Greeks</i>); it is not a full clause. The reviewer may want the markup form: 'This has been discussed with accuracy by Tatian in his book <i>To the Greeks</i>, and by Cassian in the first book of his <i>Exegetics</i>.'",
+   "Tatian is a co-owned figure with the Syriac world (records/syr/figure/syr.figure.tatian.md) and is not in the census's own voices list for the apologists; the corpus map assigns his Address to this shelf.",
+   "Origen, Against Celsus IV.52, defends the Dialogue of Jason and Papiscus (Aristo of Pella, an apologist on this shelf). The quoted line carries markup, so I did not use it, but it is a second example the reviewer could add.",
+   "Old type 'transmitted to' is not one of the six; 'influenced' is the closest."
+  ],
+  "wants": [
+   "A vendored Alexandrian text that names Justin and uses his 'seeds of the Word' argument; I found none in the vendored English (Justin is named only in editors' notes in ANF02 and ANF04)"
+  ]
+ },
+ {
+  "old_index": 44,
+  "action": "remove",
+  "from": "post-apostolic-house-church",
+  "to": "apocryphal-and-pseudepigraphal-literature",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Removed: the old type 'contemporary with' is not one of the six and overlapping dates do not qualify.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Why removed: the old type 'contemporary with' is not one of the six, and brief rules say overlapping dates alone do not qualify. The note's 'read by its churches' is not shown.",
+   "Reception evidence I did find, if the reviewer wants a replacement link: Irenaeus, Against Heresies I.20.1 (anf01, lines 32808-32822) says the Marcosians 'bring forward that false and wicked story' of Jesus learning his letters, which matches the Infancy Gospel of Thomas, so the story circulated by about 180 among heretics, not 'its churches'. Origen, Commentary on Matthew X.17, cites 'the Gospel according to Peter or the Book of James' (the Protevangelium) as a tradition (anf09, lines 473-477 in the editor's introduction; the commentary text carries markup around the passage). These would support 'influenced' at best, with the apocrypha as the sender, and the sender here would be the apocrypha entry, not the house-church entry.",
+   "The Protevangelium's date and origin are not established by anything I read."
+  ],
+  "wants": [
+   "A dated text placing the Protevangelium of James or the Infancy Gospel of Thomas in a named household-church community"
+  ]
+ },
+ {
+  "old_index": 60,
+  "action": "rewrite",
+  "from": "antiochene-church-third-century",
+  "to": "antiochene-exegetical-christianity-chrysostom-ce",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Old type 'formed' and grade Widely Accepted replaced: the only vendored source shows Lucian's work on the biblical text, not any tie to the later exegetes.",
+  "revision_note": "Answers minor finding on old #60 ('scholarly inference' implied named scholars; 'link' is build language).",
+  "drafter_flags": [
+   "The old grade Widely Accepted had no repo-cited secondary work behind it; I looked in the repo and found none. Jerome is a primary source about Lucian's text work, not about his exegetical method or later Antioch.",
+   "Chrysostom's homily on Lucian is vendored (john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt) but the file is a whole Migne volume of 62,937 lines and I did not locate the homily's text. The only matching lines I saw were the editor's Monitum, which is not Chrysostom. A reviewer could check whether the homily links Chrysostom's Antioch to Lucian.",
+   "Dates: the exegetical entry (c. 350 to 430) starts after Lucian's death (312), so the arrow fits in time."
+  ],
+  "wants": [
+   "Diodore of Tarsus, Theodore of Mopsuestia or Chrysostom naming Lucian as a teacher of method",
+   "A repo-cited secondary work that states the 'Lucian origin of Antiochene exegesis' claim and its critics"
+  ]
+ },
+ {
+  "old_index": 61,
+  "action": "rewrite",
+  "from": "antiochene-church-third-century",
+  "to": "homoian-arian-christianity",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "Old type 'formed' became 'gave rise to'; the overreaching claim about the party's leadership is cut to what the two texts show, and the dispute is named.",
+  "revision_note": "Answers substantial finding on old #61 (named disciples all 320s; added Leontius and Eudoxius, cut unsourced dispute sentence).",
+  "drafter_flags": [
+   "Documented because the type 'gave rise to' needs named people passing from one community to the other in a dated text, and Arius's own letter does that. The doctrinal-influence claim is separate and is only stated as disputed. The dispute is from the census caveat (cic-website/data/world-census.json, Lucian story); I found no repo-cited scholar for either side.",
+   "The target entry is Homoian, 340 to 589, while Arius and Eusebius belong to the 320s. The text shows their pupilage under Lucian, not that Homoians as a later party came 'out of' Antioch. A reviewer might prefer a link to an Arian-controversy entry if one exists.",
+   "The Philostorgius quote is Photius's summary of Philostorgius, in English; the Epitome is Photius's, so it is a second-hand report. The old note's 'the Arian party's leadership came out of this school' is stronger than either quote.",
+   "The unsourced sentence 'Scholars dispute how far Lucian's own teaching shaped their doctrine' is cut from the note. The note does not identify the Eudoxius with Eudoxius of Constantinople; no repo-cited source does.",
+   "Eusebius, Maris and Theognis are still in the first Philostorgius quote; Leontius and Eudoxius, the later-window names, are in the second."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 62,
+  "action": "remove",
+  "from": "antiochene-church-third-century",
+  "to": "modalist-monarchianism",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Removed: no source ties Paul of Samosata to Sabellius, the decades do not match, and overlapping dates do not qualify.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Why removed: Sabellius was at Rome c. 215 to 220 (Hippolytus reports his excommunication under Callistus) and Paul of Samosata was deposed at Antioch in 268, so 'the same decades' is wrong. 'Contemporary with' is not one of the six types and overlapping dates alone do not qualify. I found no vendored text that links Paul to Sabellius; the later writers who pair them are not in the files I read.",
+   "I searched anf06 and npnf201 for 'Sabell'. The Malchion epistle does not appear to mention Sabellius; I read only the hits, not the full epistle."
+  ],
+  "wants": [
+   "A dated text that sets Paul of Samosata and the modalists in contact, such as Eusebius HE VII.30 read for any mention of Sabellius"
+  ]
+ },
+ {
+  "old_index": 63,
+  "action": "rewrite",
+  "from": "greek-apologists-second-century",
+  "to": "latin-apologists",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Old type 'formed' became 'influenced'; the old note's claim about shared charges and strategy is dropped for lack of a source.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The quote shows Tertullian knowing Justin's books against heresy, not Justin's Apologies. The old note claims the charges answered and the philosopher-claiming strategy are inherited; I found no text or repo-cited secondary work that shows this, so that claim is dropped and the link is narrower.",
+   "The same passage names Miltiades, but the quote stops before him because a markup tag falls in between. The ANF heading says the treatise is 'professedly taken from the writings of Justin, Miltiades, Irenaeus, and Proculus'; that heading is editorial.",
+   "A reviewer should decide if Documented is too strong for a link between two movements when the named instance is one man in one passage; Widely Accepted would need a repo-cited secondary I could not find."
+  ],
+  "wants": [
+   "Latin apologists naming Greek apologetic works: Minucius Felix or Tertullian naming Aristides, Athenagoras or Theophilus (none found)",
+   "A repo-cited secondary work on how the Latin apologists inherit the Greek apologists' arguments"
+  ]
+ },
+ {
+  "old_index": 64,
+  "action": "retype",
+  "from": "tertullian-s-voice",
+  "to": "latin-apologists",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Old type 'formed' became 'influenced'; the link now rests on Lactantius naming Tertullian's Apology, and 'opens the Latin case' is dropped.",
+  "revision_note": "Answers minor finding on old #64 (record why member-to-container influence is kept here while #42 was removed).",
+  "drafter_flags": [
+   "The quote is split over two source entries because a markup tag (<lb/>) falls between 'perorauerit' and 'in eo libro'; both belong to one sentence in V.4.3. The second ends in 'tamen quoniam', mid-sentence; the reviewer may prefer to join them with the tag shown.",
+   "License: the vendored file is a CC BY-SA 4.0 digital edition of a public-domain 1890 print. I wrote 'CC BY-SA 4.0' for the file; attribution travels with any quotation.",
+   "Old note said 'opens the Latin case'; no source shows that, so I dropped it. The note also dropped 'the priority question between it and Minucius Felix's Octavius is still unsettled'. That dispute is real in the repo (Build/worlds/latap/Step0_Movement_Scope_Confirmation.md, citing ANF04 notes) but concerns a different relationship, so it is left to a separate link if wanted.",
+   "Tertullian is also a member of the Latin apologists, so this link runs from a member to its own entry; the census may prefer to name Tertullian as a voice instead.",
+   "'The same cause' is Lactantius's own phrase; in context it is his defence of justice against its accusers, so 'the same cause' is left unglossed in the note.",
+   "Decision-log note for the owner: kept although Tertullian is a member of the latin-apologists entry, because the evidence is a different author (Lactantius) naming Tertullian's work as influence; #42 was removed because it rested on no such text, only containment by dates."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 28,
+  "action": "rewrite",
+  "from": "cappadocian-nicene-pastoral-monastic-tradition",
+  "to": "anomoean-eunomian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented, but the note is narrowed to what the quoted text shows (Nyssa's reply to Eunomius, inherited from Basil) and the Nazianzen claim is limited to Oration 27.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Basil's own Against Eunomius is not quoted: the vendored PG 29 OCR is unreadable at that point. Basil's authorship of the work rests here on Gregory of Nyssa's letter ('the legacy of Eunomius' controversy') and on the NPNF editor's introduction, which I did not quote.",
+   "The Oration 27 quotation is the NPNF editor's heading, not the oration's own text; the oration's opening sentence does not name the Eunomians.",
+   "The old note said Basil's work and the Orations were 'directed at this party by name'. Only Nyssa's own words are directly verified."
+  ],
+  "wants": [
+   "A legible text of Basil's Against Eunomius (the vendored PG 29 volume is too garbled to quote)",
+   "The Greek or Latin text of Gregory of Nazianzus, Oration 27, with the opening sentences naming the Eunomians"
+  ]
+ },
+ {
+  "old_index": 29,
+  "action": "rewrite",
+  "from": "imperial-juridical-christianity",
+  "to": "anomoean-eunomian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; dated the two laws and tied the council to Theodosius's summons from the canon's own preface.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Codex Theodosianus quotations come from the Latin Library transcription, whose file header says its wording needs line-level comparison with Mommsen-Meyer. The vendored Mommsen-Meyer OCR (theodosianus-16_mommsen-meyer1905.txt) is too garbled to quote.",
+   "The canon-1 quote is the Greek reading as reported in Hefele's text inside the editor's note; the canon's own English text (lines 13972-13976) has bracketed variants and italics tags, so I used the clean form.",
+   "'Imperial and Juridical Christianity' is treated as covering both the emperor's laws and the council he summoned."
+  ],
+  "wants": [
+   "A critical text of the Codex Theodosianus (Mommsen-Meyer) to confirm the two law quotations; the Latin Library transcription is marked as unverified against a critical edition"
+  ]
+ },
+ {
+  "old_index": 30,
+  "action": "retype",
+  "from": "anomoean-eunomian-christianity",
+  "to": "homoian-arian-christianity",
+  "type": "broke with",
+  "confidence": "Documented",
+  "change_reason": "Retyped from 'in tension with' to 'broke with'; redated the break from 360 to the reign of Valens and replaced the note with what Socrates and Philostorgius say.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note put the split at Constantinople in 360, when the Homoian creed was imposed and Aetius exiled. Socrates (Book 4, Valens's reign) and Philostorgius (Book 9) put the break between Eunomius and Eudoxius later, under Valens. Aetius's deposition after 360 is a separate event.",
+   "Both vendored accounts come from the Eunomian or a neutral side; no Homoian text records the break, so the 'both sides' ideal is not met. I graded Documented because the quoted lines show the rupture itself.",
+   "The break is with Eudoxius and Euzoius and their party; treating that as the whole Homoian movement is a coarse mapping.",
+   "Old type was 'in tension with', which is not one of the six types; 'broke with' is the nearest, and symmetric, so the ids are in alphabetical order.",
+   "Philostorgius survives only through Photius's hostile epitome; the quoted sentence is Photius's summary."
+  ],
+  "wants": [
+   "A Homoian-side account of the break, so the rupture is recorded from both sides (none is vendored)"
+  ]
+ },
+ {
+  "old_index": 31,
+  "action": "rewrite",
+  "from": "cappadocian-nicene-pastoral-monastic-tradition",
+  "to": "pneumatomachian-current",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; note rewritten to match the quotations, and the Nyssa title is the named-party evidence.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Basil's passage describes the opponents without naming them; the NPNF editor's note identifies them as the Pneumatomachi. Only Gregory of Nyssa's title names the party (through Macedonius). The title is the edition's heading and is traditional rather than certainly Gregory's own.",
+   "The two works are the ones the old note named; both are vendored in English and verified directly."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 32,
+  "action": "rewrite",
+  "from": "imperial-juridical-christianity",
+  "to": "pneumatomachian-current",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; removed the unsupported creed claim and added the 383 law.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said the creed's expanded third article 'is the answer to them'. That is an interpretation, not a statement in the canon, so I dropped it rather than grade it.",
+   "Canon 1 as the NPNF text gives it reads 'Semi-Arians or Pneumatomachi' (the editor notes the Greek tradition reads the same pair differently).",
+   "The canon quote is clean; the first half of the sentence in the file carries bracketed variants and italics tags."
+  ],
+  "wants": [
+   "A critical text of Codex Theodosianus 16.5.11 (the Latin Library transcription is unverified against Mommsen-Meyer)"
+  ]
+ },
+ {
+  "old_index": 33,
+  "action": "rewrite",
+  "from": "cappadocian-nicene-pastoral-monastic-tradition",
+  "to": "apollinarian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; added the verbatim passage and the pamphlet reference that names Apollinarius.",
+  "revision_note": null,
+  "drafter_flags": [
+   "No world source record exists for the letters to Cledonius, so source_id is null.",
+   "The 'two letters' claim rests on the second letter's heading in the same file (Ep. 102, 'Against Apollinarius; The Second Letter to Cledonius'); I read the heading but quote only Letter 101.",
+   "Gregory of Nazianzus is one of the Cappadocians in this entry; a link from Basil's circle to Apollinarius (their letters) is not claimed here."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 34,
+  "action": "rewrite",
+  "from": "imperial-juridical-christianity",
+  "to": "apollinarian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; replaced the 377 Roman synod (no primary text vendored) with the 388 law.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note named the Roman condemnation of 377. The only vendored statement of it is the NPNF editor's introduction, not a primary text, so I removed it from the note.",
+   "Codex Theodosianus quote from the Latin Library transcription, which is marked unverified against Mommsen-Meyer."
+  ],
+  "wants": [
+   "A critical text of Codex Theodosianus 16.5.14",
+   "The 377 Roman synod's own record of its condemnation of Apollinarius (not vendored)"
+  ]
+ },
+ {
+  "old_index": 46,
+  "action": "rewrite",
+  "from": "gallic-nicene-episcopate",
+  "to": "homoian-arian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Kept as 'argued against' and Documented; replaced the unverified De Trinitate/De Synodis claim with Phoebadius's Against the Arians and Hilary's own account of his exile.",
+  "revision_note": "Answers substantial finding on old #46 (Hilary exile quote showed the wrong direction; replaced by the Gallic bishops condemning the Sirmium creed).",
+  "drafter_flags": [
+   "The Phoebadius quotation is the edition's title line. The OCR of the body is rough and I did not quote it.",
+   "Phoebadius and Hilary both call their opponents 'Arians'; the census entry is 'Homoian (Arian)'. The Homoian creeds of 357-360 are the target, but the quoted lines do not say so.",
+   "The old note said De Trinitate answers the Arian case and De Synodis is a primary account of the Homoian creeds. De Synodis (358-359) was written before the Ariminum and Constantinople creeds of 359-360, so it records the earlier Sirmium creed. I did not repeat that claim.",
+   "source_id for Phoebadius set null (no world record found).",
+   "Hilary's text does not say 'of Arles' in the quoted lines; Saturninus of Arles is the standard identification and the reviewer's own wording. Check if a repo-cited source names the see."
+  ],
+  "wants": [
+   "A legible text of Hilary's Contra Auxentium and De Trinitate to quote his answers to the Homoian case directly"
+  ]
+ },
+ {
+  "old_index": 47,
+  "action": "split",
+  "from": "imperial-juridical-christianity",
+  "to": "gallic-nicene-episcopate",
+  "type": "argued against",
+  "confidence": "Widely Accepted",
+  "change_reason": "Split from 'in tension with'. First half: the imperial exile of Hilary, retyped 'argued against', graded Widely Accepted; the Constantius and Athanasius detail removed because no vendored primary shows it.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said Constantius II exiled Hilary in 356 for refusing to condemn Athanasius. The vendored sources do not show that: Hilary's own words blame Saturninus and a beguiled emperor, and do not name Constantius or Athanasius at this point. The 356 date and the Athanasius motive appear only in the NPNF editor's introduction.",
+   "Graded Widely Accepted, not Documented, because Hilary's text shows the exile and the imperial role but the emperor's own act or order is not quoted. The secondary work is cited by title only; I have not seen a page reference in the repo.",
+   "The old link ran imperial to gallic as 'in tension with'; now 'argued against' (the empire acted against Gaul's bishop) and a separate reverse link below."
+  ],
+  "wants": [
+   "Sulpicius Severus, Chronica 2.39-45, in a readable text (the vendored CSEL OCR is too rough to quote)",
+   "Hilary, Ad Constantium II"
+  ]
+ },
+ {
+  "old_index": 47,
+  "action": "split",
+  "from": "gallic-nicene-episcopate",
+  "to": "imperial-juridical-christianity",
+  "type": "argued against",
+  "confidence": "Widely Accepted",
+  "change_reason": "Second half of the split: Hilary's objection to the imperial creed, as an 'argued against' link from Gaul to the empire.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said the Council of Paris repudiated the creed Constantius imposed at Ariminum. The only support in the vendored English is the NPNF editor's introduction; the Paris letter itself is in the Feder volume but its OCR is not quotable. I dropped the Paris claim from the note.",
+   "Hilary's passage blames the emperor's advisers and calls him ignorant; it does not call Constantius an opponent by name. Graded Widely Accepted for that reason.",
+   "This is a new second link from the split; both carry old_index 47."
+  ],
+  "wants": [
+   "Hilary, Liber contra Constantium imperatorem, in a legible text (vendored PL 10 OCR is poor)",
+   "The letter of the Council of Paris (361) to the Eastern bishops, Feder CSEL 65 Fragment I (OCR too poor to quote)"
+  ]
+ },
+ {
+  "old_index": 48,
+  "action": "retype",
+  "from": "anatolian-church-third-century",
+  "to": "cappadocian-nicene-pastoral-monastic-tradition",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Retyped from 'formed' to 'influenced'; note rewritten from Basil's own words about Macrina and Gregory.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said Macrina 'was formed by Gregory Thaumaturgus' disciples'. Basil says only that she taught him Gregory's words as far as memory had kept them; he names no disciples.",
+   "The old note also said Basil appeals to Gregory's practice as precedent. I did not verify that (Letter 207 on psalmody is vendored but I did not read it for this), so it is not in the note.",
+   "'Around 375' is the NPNF editor's placement of Letter 204.",
+   "Old type 'formed' is not a current type; 'influenced' fits (Basil names the earlier side's words)."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 49,
+  "action": "retype",
+  "from": "alexandria-catechetical",
+  "to": "anatolian-church-third-century",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Retyped from 'formed' to 'influenced'; Eusebius replaces the disputed Address as the main evidence and the authorship dispute is stated in the note.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Authorship and setting of the Address to Origen are disputed (Nautin disputed both; the repo's source records carry that caveat). The Documented grade rests on Eusebius, not on the Address.",
+   "Eusebius places Gregory with Origen at Caesarea, not Alexandria. The arrow runs from the Alexandrian tradition (Origen's school) to the Anatolian church; this treats Origen as the Alexandrian side.",
+   "The old note said Methodius was Origen's 'first serious critic'. Not verified as a 'first'; Methodius's opposition is now a separate link."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "anatolian-church-third-century",
+  "to": "alexandria-catechetical",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link: Methodius's writings against Origen, split out of the old #49 note.",
+  "revision_note": null,
+  "drafter_flags": [
+   "New link, not in the old list, added because the old #49 note mentioned Methodius as Origen's critic. Methodius is placed in the Anatolian entry on Jerome's 'Olympus in Lycia'.",
+   "The Jerome quotation keeps the file's italic tags exactly, as the text check requires.",
+   "Both witnesses are later reports of Methodius, not his own words naming Origen. I have not seen a vendored Methodius text that names Origen."
+  ],
+  "wants": [
+   "Methodius, On the Resurrection, in a text that names Origen directly (Epiphanius and Photius preserve extracts)"
+  ]
+ },
+ {
+  "old_index": 51,
+  "action": "retype",
+  "from": "alexandria-catechetical",
+  "to": "palestinian-church-pre-constantinian",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Retyped from 'transmitted to' to 'influenced'; removed the unsupported twenty-years and brought-books claims.",
+  "revision_note": null,
+  "drafter_flags": [
+   "'About 231' is the NPNF editor's date for 'the tenth year' of the reign; the quote itself does not give a year.",
+   "The old note said Origen taught at Caesarea 'for twenty years' and that the library 'grew from the books he brought'. Neither is in the quoted lines; I dropped both.",
+   "The quotation begins mid-sentence ('in the tenth year...') because the sentence's opening word carries markup in the file."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 52,
+  "action": "retype",
+  "from": "palestinian-church-pre-constantinian",
+  "to": "jerusalem-liturgical-pilgrimage-christianity",
+  "type": "continued as",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Retyped from 'formed' to 'continued as' and downgraded from Widely Accepted: the evidence shows only an archive and a bishop in the same city, not a traced succession.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Graded Inferential-Thin because no vendored text shows the same community or see continuing, and no repo-cited secondary work covers it. Continuity of the see is very likely true; a reviewer with a secondary source could raise this to Widely Accepted.",
+   "The Life of Constantine quotation is Schaff's chapter heading, not Eusebius's wording, and the old note's 'what Constantine's builders found there' is not supported by either quote.",
+   "Old type 'formed' retyped to 'continued as' on the old note's own reading (period split at 325)."
+  ],
+  "wants": [
+   "A text listing the bishops of Jerusalem from Alexander to Macarius",
+   "A secondary work on the Jerusalem church's continuity across 312-326 that the repo already cites"
+  ]
+ },
+ {
+  "old_index": 53,
+  "action": "retype",
+  "from": "palestinian-church-pre-constantinian",
+  "to": "imperial-juridical-christianity",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Retyped from 'formed' to 'influenced'; claim narrowed to Eusebius's own statement about using the Aelia library.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note also said Eusebius wrote the Life of Constantine out of this library and lived through the persecution in Martyrs of Palestine. Neither is shown by the quoted lines; I dropped them.",
+   "The library is at Aelia (Jerusalem), which belongs to the Palestinian entry's region; Eusebius is placed in the imperial entry.",
+   "The old 'formed' type is retyped to 'influenced' (later side uses the earlier side's holdings)."
+  ],
+  "wants": [
+   "Eusebius, Martyrs of Palestine, if it is to be cited for his own experience of the persecution (not vendored)"
+  ]
+ },
+ {
+  "old_index": 56,
+  "action": "rewrite",
+  "from": "danubian-latin-christianity",
+  "to": "homoian-arian-christianity",
+  "type": "gave rise to",
+  "confidence": "Widely Accepted",
+  "change_reason": "Rewrote: the old 'same provinces, fifty years on' claim is an editor's reconstruction; the link now says only that two Danubian bishops led the Arian party.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Weakest link in this group: 'gave rise to' is stretched. The sources show two Danubian bishops leading the Arian party, not the Danubian church producing the Homoian movement. The second sentence of the note ('chief architects of the Homoian settlement') is not in the quoted Athanasius lines; it rests on Hanson, whom I could not recheck, and the reviewer should confirm or cut it.",
+   "The old 'fifty years on' and 'Illyricum as base' language comes from the NPNF editor's introduction to Athanasius (which links Arius's exile to the region); it is a reconstruction, not a primary statement.",
+   "The Danubian entry's own vendored sources are thin (only Lactantius in ANF 7); the entry may not support this link at all. A reviewer should consider removing the link or retyping it to 'influenced'."
+  ],
+  "wants": [
+   "A vendored text placing Ursacius and Valens at the head of the Homoian party (Hilary, Fragmenta historica, in readable text)",
+   "A secondary work on the Danubian Church the repo already cites"
+  ]
+ },
+ {
+  "old_index": 65,
+  "action": "retype",
+  "from": "latin-apologists",
+  "to": "imperial-juridical-christianity",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "Retyped from 'formed' to 'influenced' and downgraded from Documented: Jerome shows the tutoring, not the influence.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Jerome documents the tutoring (a contact), not any influence of Lactantius's apologetic on imperial Christianity; the link claims influence, so I graded the relationship Inferential-Thin. The tutoring itself is Documented.",
+   "The old note said he tutored Crispus 'at Trier'; Jerome says only 'in Gaul'.",
+   "The old claim that De Mortibus Persecutorum was 'written from inside the settlement' is a placement judgement, not shown by the quoted line, so it is not in the note.",
+   "The repo cites Barnes's Constantine and Eusebius (1981) for other points but I could not find it cited for Lactantius's influence, so I did not add it."
+  ],
+  "wants": [
+   "A secondary work on Lactantius and Constantine that the repo already cites",
+   "Constantine's Oration to the Assembly of the Saints, to test for use of Lactantius"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "imperial-juridical-christianity",
+  "to": "homoian-arian-christianity",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link: the finding listed Imperial against Homoian as a missing, well-documented tie.",
+  "revision_note": "Answers minor finding on missing links (1) imperial-juridical-christianity argued against homoian-arian-christianity.",
+  "drafter_flags": [
+   "Reuses the four quotes already verified for the Imperial-to-Eunomian link (old #29); the canon quote is the Greek reading given in the editor's note, not the main text, and the laws name the Arians ('arriani') beside the Eunomians.",
+   "Whether 'Arians or Eudoxians' stands for the whole Homoian census entry is a framing question; Eudoxius led the Homoian party at Constantinople."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 3,
+  "action": "retype",
+  "from": "desert-monasticism",
+  "to": "hieronymian-ascetic-literary",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' retyped to 'influenced'; the vague 'toured' claim narrowed to what Letters 108, 127 and 22 say; Documented kept, now with verbatim quotes.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said the circle 'consciously imported' the desert's renunciation; that is an interpretation no quoted text states, so it was dropped.",
+   "The Ep. 127 quote begins after a page-break tag; the sentence naming Athanasius and the Alexandrian exiles sits on lines 26088-26092 just before it. The quote itself does not name Marcella.",
+   "Jerome's own trip to Egypt (385-386) is stated only in the NPNF editor's chronology (file line ~1203), not quoted here; the note therefore says only what Jerome writes about Paula.",
+   "Marcella heard these accounts in Rome decades before the circle's 382 start; she belongs to the circle, but the dates do not sit inside its window."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 7,
+  "action": "rewrite",
+  "from": "desert-monasticism",
+  "to": "iconophile-byzantine-monasticism",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "'formed' retyped to 'influenced' and regraded Documented -> Inferential-Thin: the old claim of a whole tradition's root has no quoted support; only a two-step chain through Basil is attested.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old 'Documented' was an over-grade: no vendored iconophile-era monastic text names the desert as a source. 'The whole Greek monastic tradition claims the desert as its root' is not in any quoted text.",
+   "The chain is Egypt -> Basil (4th c.) -> Basil's rule named by a 787 canon. The middle step (that what Basil saw shaped his rule) is not shown by these quotes.",
+   "Basil of Ancyra's profession is a recantation of an iconoclast bishop, read at the council; 'fathers and cultivators of the desert' is generic and need not mean the Egyptian desert.",
+   "Iconophile bucket holds only the Nicaea II acts; no Studite text is vendored.",
+   "verification_state is unverified because the three quotes were read and are exact, but together they do not show the influence itself."
+  ],
+  "wants": [
+   "Texts of Theodore the Studite (Letters, Catechetical Orations) or Studite rules naming the desert fathers; not in cic/texts/ as far as I found.",
+   "A repo-cited secondary on Byzantine monasticism and its Egyptian roots (none found in records/, Build/ or cic/)."
+  ]
+ },
+ {
+  "old_index": 8,
+  "action": "rewrite",
+  "from": "desert-monasticism",
+  "to": "early-benedictine-italian-monasticism",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'transmitted to' retyped to 'influenced'; 'commends Cassian by name' corrected (Rule names titles, not Cassian); Documented -> Widely Accepted because the identification is an editors' gloss; evidence now the Lives of the Fathers, not Cassian, to separate it from #25.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said the Rule 'commends his Conferences by name'. The Rule names no author. Chapters 42 and 73 give the titles Collationes, Instituta and Vitas Patrum only; the link to Cassian and to the desert is an editors' gloss (Gasquet intro, ~lines 282-284; Hunter Blair adds '[of Cassian]' in ch. 42).",
+   "'Vitas Patrum' being the desert lives is Gasquet's reading ('Lives of the Fathers of the Desert'), not stated in the Rule. Hence Widely Accepted, not Documented.",
+   "Quote 2 keeps the file's OCR spelling 'Co//ations'.",
+   "Overlaps with #25 (Cassian). Kept separate: this link rests on the Lives of the Fathers and the desert; #25 rests on the Collationes/Instituta titles and Cassian's Marseilles houses. If the reviewer thinks that split is too fine, remove this one."
+  ],
+  "wants": [
+   "A repo-cited modern secondary on the Rule's sources (none found); Gasquet (1909 introduction) and Hunter Blair's glosses are the only reading offered."
+  ]
+ },
+ {
+  "old_index": 9,
+  "action": "rewrite",
+  "from": "desert-monasticism",
+  "to": "insular-irish-monastic-christianity",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "'transmitted to' retyped to 'influenced'; 'Lérins, Martin of Tours' replaced by what the vendored Irish-side tract and Warren actually say; Widely Accepted kept, now with a quote and a named secondary.",
+  "revision_note": "Answers substantial finding on old #9 (grade too high: one late tract plus Warren 1895).",
+  "drafter_flags": [
+   "The primary is a medieval text quoted inside Warren's editorial introduction; Warren calls its text corrupt, dates its author to the eighth century on his own say, and says its Mark/Patrick details are uncorroborated or unhistorical.",
+   "Warren (1895) is the only secondary and is old; no modern survey is cited in the repo. A reviewer may prefer Inferential-Thin or Contested.",
+   "Quote carries the file's OCR footnote marks ('Antonius,?', 'Malchus,?') exactly.",
+   "Derives partly from #24 and #26 (route via Gaul); kept because this tract names the desert fathers directly.",
+   "Regraded Widely Accepted to Inferential-Thin: no repo-cited modern secondary supports a consensus. The tract is eighth-century, after the Irish entry closes (664), and also traces the Irish office to St Mark."
+  ],
+  "wants": [
+   "Modern secondary survey of Irish monasticism and its Egyptian models (none found in the repo).",
+   "Critical edition of the Cursus Scottorum tract itself."
+  ]
+ },
+ {
+  "old_index": 10,
+  "action": "rewrite",
+  "from": "desert-monasticism",
+  "to": "coptic-christianity-under-early-islam",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'formed' retyped to 'influenced' and rewritten: the 'direct continuation' claim has no quoted support; a dated Coptic colophon naming Pachomian founders does.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note called Coptic Christianity 'the direct continuation' of the desert tradition. That is an interpretation no vendored text states, so the link now claims only that the later side names the earlier side's founders. The whole-church continuation claim is dropped.",
+   "The evidence is one monastic house in Upper Egypt, c. 1006; it speaks for that house, not for the whole Coptic church.",
+   "The 1006 date and the Edfu/Esna details come from Budge's introduction (lines ~1128-1165), not from the colophon text itself. The Mercurius church is named in the colophon as 'in the Mountain of T'bo' (Edfu).",
+   "Pachomian founders are one strand of the desert movement (the Pachomian koinonia is in the desert world's records)."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 11,
+  "action": "retype",
+  "from": "coptic-christianity-under-early-islam",
+  "to": "alexandria-catechetical",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "'formed' replaced by 'argued against' reversed in direction: the vendored Coptic patriarchal history attacks Origen rather than claiming the catechetical tradition as its source.",
+  "revision_note": "Answers substantial finding on old #11 (ruling: keep the reversal; the History also honours Dionysius, so the note says so).",
+  "drafter_flags": [
+   "Old note ('...and of Alexandria's own catechetical tradition') was a fragment and claimed 'formed'. Reading the Coptic History shows it treating Origen and Clement as heretical or unreliable, not as ancestors, so the old claim could not stand and the link now runs the other way as 'argued against'.",
+   "Arrow runs from the critic: the Coptic side argued against the Alexandrian side. The text names Origen, not the school as a whole.",
+   "Quote keeps the file's OCR error 'lie' for 'he'.",
+   "If a positive link between the two entries is wanted, it would be 'continued as' for the see of Alexandria (Demetrius and the later patriarchs are in the Coptic list); that was not drafted because the census entry here is the catechetical school, not the see. Reviewer to decide.",
+   "Ruling followed: no positive Alexandria-to-Coptic link is added; the census continuation runs through cyrilline-miaphysite-egyptian-christianity.",
+   "The quote joins lines separated by blank lines in the file. 'Directed the studies' is the quoted 'direction of the studies'; the History's heading calling him 'the Wise' (line 12166) is not quoted."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 24,
+  "action": "retype",
+  "from": "desert-monasticism",
+  "to": "gallic-monastic-ascetic-christianity",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' retyped to 'influenced'; claim narrowed to what Cassian's own Preface and Gennadius state; Documented kept with verbatim quotes.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said Cassian 'lived among the Egyptian monks'; the Preface says he saw the customs 'throughout Egypt and Palestine' and lived among the monks 'from our earliest youth'. Wording stays inside the quote.",
+   "'At the request of a Gallic bishop' rests on the NPNF editor's footnote naming Castor, Bishop of Apta Julia (file ~line 16435), not on the quote; the Preface addresses 'Pope Castor' by name just before it.",
+   "Type is 'influenced' not 'gave rise to': Gallic monasticism had other roots (Martin, Lérins)."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 25,
+  "action": "rewrite",
+  "from": "gallic-monastic-ascetic-christianity",
+  "to": "early-benedictine-italian-monasticism",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'transmitted to' retyped to 'influenced'; 'by name' claim corrected; Documented -> Widely Accepted because the Rule never names Cassian.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said the Rule commends Cassian's Conferences 'by name' and 'prescribes them as daily reading'. The Rule does not name Cassian and prescribes evening reading, not strictly daily; the identification comes from the editors (Gasquet intro; Hunter Blair '[of Cassian]').",
+   "Gennadius's chapter lists the works as Institutes and Conferences (tag-laden in the file, so not quoted); the title match is therefore only partly shown by quotes.",
+   "Duplicates #8 on the Collationes and Instituta titles. Kept separate on the argument in #8's flags; reviewer may remove one.",
+   "Quote 2 keeps OCR 'Co//ations'."
+  ],
+  "wants": [
+   "A repo-cited modern secondary confirming that Benedict's Collationes and Instituta are Cassian's works (none found); Chadwick, John Cassian (1950) is named in the Gallic records but was never read."
+  ]
+ },
+ {
+  "old_index": 26,
+  "action": "rewrite",
+  "from": "gallic-monastic-ascetic-christianity",
+  "to": "insular-irish-monastic-christianity",
+  "type": "influenced",
+  "confidence": "Inferential-Thin",
+  "change_reason": "'transmitted to' retyped to 'influenced'; 'Lérins, Martin of Tours' replaced by the Cassian/Lérins sentence in the Irish tract and Patrick's own Confession; Widely Accepted kept with named evidence.",
+  "revision_note": "Answers substantial finding on old #26 (same evidence base as #9; Patrick's ties to Gaul are not Gallic monastic influence).",
+  "drafter_flags": [
+   "Warren says the tract's claims that Germanus and Lupus taught Patrick and made him an archbishop are unhistorical; the Cassian/Lérins sentence is quoted exactly but shares the tract's unreliable context.",
+   "Patrick's longing for Gaul shows ties to Gaul, not specifically to Gallic monasticism. The Martin of Tours route in the old note rests on late hagiography (Book of Lismore) and is not claimed.",
+   "Warren (1895) is the only secondary. Reviewer may prefer a lower grade.",
+   "Quote 1 carries the file's OCR marks '?' and '(sz?)' exactly.",
+   "Regraded Widely Accepted to Inferential-Thin: no repo-cited modern secondary. 'The same' dropped from the first sentence so the note stands alone. The note has four sentences because the last is a required caveat."
+  ],
+  "wants": [
+   "Modern secondary on Gaul-to-Ireland monastic links (none found in the repo).",
+   "Critical text of the Cursus Scottorum tract."
+  ]
+ },
+ {
+  "old_index": 27,
+  "action": "rewrite",
+  "from": "gallic-monastic-ascetic-christianity",
+  "to": "merovingian-gallic-christianity",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'formed' retyped to 'influenced'; blanket claim replaced by two quoted cases; Widely Accepted kept but verification marked named-not-rechecked.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said 'Lérins-trained bishops staffed the Gallic sees that the Frankish church inherited'. Only two cases are quoted (Caesarius, Faustus); the generalisation rests on Mathisen, whose thesis I could not check.",
+   "Caesarius (died 542) and Faustus (died c. 490) fall mostly after the Gallic monastic entry's 450 end; they show Lérins's later reach, not that entry's own members.",
+   "The verse is Fortunatus's, printed inside Krusch's apparatus to the Vita Caesarii (OCR rough, page 450). The line before it ('Regula Caesarii praesulis alma pii') is what ties the verse to the Rule, and the line after it ('Et mansit monachus pontificale decus') says Caesarius stayed a monk; I quoted only the one clean single line, so both claims sit just outside the quote.",
+   "Type moved from 'formed' to 'influenced': the Merovingian church did not emerge from monasticism alone."
+  ],
+  "wants": [
+   "A repo-cited modern secondary on Lérins and the Frankish episcopate (Mathisen is named in the Gallic records but its full text was never read there).",
+   "A clean text of the Vita Caesarii or of Fortunatus's verse; the vendored OCR is rough."
+  ]
+ },
+ {
+  "old_index": 40,
+  "action": "retype",
+  "from": "desert-monasticism",
+  "to": "palestinian-ascetic-monasticism-early",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' retyped to 'influenced'; claim stated as Jerome's own account; Documented kept with verbatim quotes.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Jerome wrote this life to edify (the census entry itself says so); 'first in Palestine' is Jerome's claim and other traditions (Chariton) compete. The note reports it as Jerome's statement.",
+   "The 'two months' with Antony is from the text; old 'brought Egyptian anchoritism to the Gaza coast' is a paraphrase of the quoted lines."
+  ],
+  "wants": [
+   "Cyril of Scythopolis, Life of Chariton, or another early account of Palestinian monasticism, to test Jerome's claim that Hilarion was first."
+  ]
+ },
+ {
+  "old_index": 41,
+  "action": "rewrite",
+  "from": "palestinian-ascetic-monasticism-early",
+  "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+  "type": "continued as",
+  "confidence": "Inferential-Thin",
+  "change_reason": "'formed' retyped to 'continued as' and regraded Widely Accepted -> Inferential-Thin: the Chariton/Pharan claim cannot be supported from vendored texts; only region and dates link the entries.",
+  "revision_note": "Answers minor finding on old #41 (internal language; 'laura' vs the quoted 'monasterii Pharan').",
+  "drafter_flags": [
+   "Old note said 'Chariton's laura at Pharan is the form the great Judean desert monasteries inherit'. Chariton appears in no vendored text I could read (his Life and Cyril's Lives are not available in readable form), so the claim was dropped.",
+   "The vendored Vita Euthymii (Cotelier) is OCR-garbled; it seems to say Euthymius spent five years at Pharan and founded a laura 'no lesser' than Pharan's (lines ~27729-27731, 31111-31113) but I could not quote it cleanly. If a clean text confirms this, the link could move up.",
+   "The Moschus quote is a mid-sentence fragment in Latin translation, chosen only because it is clean; it shows Pharan in use, not any link to the early monks. The Hilarion quote shows only that Gaza monasticism began in the early window.",
+   "The census entry for the Chalcedonian side asks whether the earlier century is a separate world or its prehistory; this link takes no position beyond sequence and region.",
+   "Type 'continued as' (same community, period split) is the closest of the six; it is not demonstrated."
+  ],
+  "wants": [
+   "Cyril of Scythopolis, Life of Chariton and Lives of Euthymius and Sabas, in a readable text (the vendored Vita Euthymii is unusable two-column OCR).",
+   "Any text naming Chariton and the laura of Pharan."
+  ]
+ },
+ {
+  "old_index": 45,
+  "action": "rewrite",
+  "from": "gallic-nicene-episcopate",
+  "to": "gallic-monastic-ascetic-christianity",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'formed' retyped to 'influenced'; 'ordained' and 'West's first monastery' corrected from the text; Documented kept with verbatim quotes.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old note said Hilary 'ordained' Martin and that Ligugé was 'the West's first monastery'. Sulpicius says Hilary appointed Martin an exorcist (after Martin refused the diaconate) and that Martin had already set up a monastery at Milan, so 'West's first' is wrong. The text never names Ligugé; the NPNF editor does (file ~line 15446), so the note says 'near the town'.",
+   "Quotes 1 and 2 only mean Hilary through their neighbouring lines (872-887); 'him' in each refers to Hilarius in the sentences just before.",
+   "'The monastic world grows on ground this one kept Nicene' is an interpretation and is dropped. The link claims only the documented tie between Martin and Hilary.",
+   "Type 'influenced' rather than 'gave rise to': Gallic monasticism also grew from Lérins and Marseilles, which no quoted text ties to Hilary."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 4,
+  "action": "retype",
+  "from": "alexandria-catechetical",
+  "to": "hieronymian-ascetic-literary",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' is not a defined type; retyped to 'influenced' and rebuilt on the passage where Jerome himself cites Origen's critical marks.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The quoted passage names Origen's obeli and asterisks, not the word 'Hexapla'; the note therefore does not use that word. The old note's 'direct ancestor of Jerome's Hebrew-testing project' is an interpretation and is not asserted.",
+   "Another Jerome preface in the same volume (around line 47072) mentions the Hexapla by name; I did not check it in full and did not use it.",
+   "Date 392 comes from the translator's headnote, not from Jerome."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "hieronymian-ascetic-literary",
+  "to": "alexandria-catechetical",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Split out of the old note on #4: Jerome's open opposition to Origen is a separate, separately documented relationship.",
+  "revision_note": null,
+  "drafter_flags": [
+   "New link: the old note on #4 says Jerome 'turned publicly against Origen's theology'; this gives that claim its own link. Target is the movement that Origen belongs to, not Origen alone.",
+   "Jerome also praises Origen the commentator in the same letter (section 2); the link records the opposition to his doctrines only."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 5,
+  "action": "retype",
+  "from": "cappadocian-nicene-pastoral-monastic-tradition",
+  "to": "hieronymian-ascetic-literary",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'contemporary with' became 'influenced': Jerome names Gregory as his teacher; the Constantinople meeting predates the Jerome entry's window.",
+  "revision_note": "Answers minor finding on old #5 (the meeting falls before the Jerome circle's window; Jerome naming Gregory as teacher is influence).",
+  "drafter_flags": [
+   "Place and date (Constantinople, 381) come from the translators' footnotes in the vendored volumes, not from Jerome's own words in the quoted lines.",
+   "Letter 52's quote stops before an embedded Greek span; the anecdote continues for several lines.",
+   "Retyped from 'in contact with' to 'influenced' (Gregory to Jerome's circle) on the reviewer's suggestion: the 379-381 meeting falls before the Jerome entry opens (382), while Jerome's naming Gregory as his teacher (Lives of Illustrious Men, 392; Letter 52, 394) is inside the window. The 1390s dates are the reviewer's; the quoted lines do not give years."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 6,
+  "action": "retype",
+  "from": "syriac-edessa-nisibis",
+  "to": "the-church-of-the-east-under-persia",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "Fixed the 410/489 error, retyped 'formed' to 'influenced', and regraded Documented to Widely Accepted because the church-level claim is an interpretation of school-level evidence.",
+  "revision_note": "Answers substantial finding on old #6 (events were after the Edessa entry ends; Barhadbeshabba on Ephrem's school inside both windows).",
+  "drafter_flags": [
+   "Old note said 'after 410'; the school of Nisibis comes after the 489 closure of Edessa's school, and 410 is the synod of Seleucia-Ctesiphon. Corrected.",
+   "Type changed from 'formed' to 'influenced': the Church of the East did not emerge from the Edessa tradition as a whole, and the sources show only one school passing from Edessa to Nisibis. 'gave rise to' or 'continued as' might fit if the reviewer reads the Nisibis school as part of the target entry.",
+   "Date conflict: the translator's own footnote in the Barhadbeshabba file records Simeon of Beth Arsham dating Narsai's expulsion to 457, against 489 in the Chronicle of Edessa. The note says only that sources differ.",
+   "The Barhadbeshabba quote is French (Scher's translation of the Syriac); Wigram's line is paraphrased from the vendored 1910 text (he describes the Nisibis school as supplying 'to the Church of the East that which Edessa had given her').",
+   "Wigram is cited from the corpus map; no page number added.",
+   "Regraded Widely Accepted to Documented on the reviewer's ruling: the later side names the earlier side's school. The year 363 is not in the quoted lines (it is the reviewer's and the standard date). Wigram stays as a secondary.",
+   "Documented rests on influence at school level; the church-level reading is still interpretation. The Chronicle of Edessa source (489) is kept for the date conflict but the note no longer states 489."
+  ],
+  "wants": [
+   "Statutes of the School of Nisibis (vendored, Syriac with Italian) read for its own account of its origin",
+   "Narsai's own homilies or an East Syrian source dated close to 489"
+  ]
+ },
+ {
+  "old_index": 50,
+  "action": "remove",
+  "from": "anatolian-church-third-century",
+  "to": "apocryphal-and-pseudepigraphal-literature",
+  "type": null,
+  "confidence": null,
+  "change_reason": "Overlapping dates and shared editorial labels do not meet any of the six link types; no relationship between the two entries is evidenced.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note describes dubious works in the ANF edition printed under Gregory Thaumaturgus and Methodius (the edition's own 'Dubious or Spurious Writings' section). That is a fact about the attribution of texts, not a contact, influence or descent between the two movements.",
+   "If the reviewer wants it kept, the nearest honest form is a note on the Apocrypha entry, not a lineage link."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 54,
+  "action": "remove",
+  "from": "latin-pastoral-congregational-christianity",
+  "to": "danubian-latin-christianity",
+  "type": null,
+  "confidence": null,
+  "change_reason": "'contemporary with' is not a link type, and shared language plus overlapping dates do not qualify as 'in contact with'.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note itself says the link is 'nothing more than' shared language and roughly equal dates; it also records a cataloguing correction, which is not a lineage claim.",
+   "No vendored text was found linking the Carthage-Hippo world to Victorinus's Pannonia."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 55,
+  "action": "retype",
+  "from": "danubian-latin-christianity",
+  "to": "hieronymian-ascetic-literary",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' retyped to 'influenced'; the documented relationship is that Jerome names and cites Victorinus. The recension claim is flagged, not asserted.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note's claim (Jerome reissued the Apocalypse commentary with the millenarian ending rewritten) is not documented in any vendored text. The ANF volume prints the commentary but its only mention of Jerome nearby is an editor's footnote that Victorinus was 'a Chiliast of the better sort, according to St. Jerome'. The record hal.source.victorinus-apocalypse-jerome-recension carries the claim as Widely Accepted but cites no secondary work. I left the claim out of the note rather than assert it.",
+   "The Lives of Illustrious Men quote lists the Apocalypse commentary only in a passage broken by italic tags, so the list itself is not quoted. Section 74 does list it; I read it.",
+   "Jerome elsewhere (Lives, chapter 18) names Victorinus among those who follow the millennial view; not used."
+  ],
+  "wants": [
+   "Jerome's own note on his revision of Victorinus's Commentary on the Apocalypse",
+   "A critical edition of that commentary that shows Jerome's recension"
+  ]
+ },
+ {
+  "old_index": 57,
+  "action": "retype",
+  "from": "aquileian-christianity",
+  "to": "hieronymian-ascetic-literary",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'formed' retyped to 'influenced' and regraded Documented to Widely Accepted: primary texts show friendship and shared monastic life, but Aquileia as the setting rests on the editors.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Aquileia, the early 370s and 374 all come from the translators' footnotes and headnotes (Fremantle), not from the quoted words. Rufinus's quote gives the monastery and the baptism; the three names follow in the same sentence but are separated by editor's footnotes, so they are not inside the quote.",
+   "Retyped from 'formed' to 'influenced': Fremantle's note on Letter 3 says the Aquileian company was broken up, so institutional continuity into the Bethlehem circle is not shown. Only Jerome's formation among these friends is.",
+   "Letter 3's quote does not name Aquileia; kept as evidence of the broken companionship."
+  ],
+  "wants": [
+   "A text by Jerome or Rufinus that names the Aquileian ascetic company itself"
+  ]
+ },
+ {
+  "old_index": 58,
+  "action": "retype",
+  "from": "alexandria-catechetical",
+  "to": "aquileian-christianity",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'transmitted to' retyped to 'influenced'; regraded from Documented to Widely Accepted because the Aquileian setting is the editors' reading and the quoted prefaces were written elsewhere.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Both quoted prefaces were written outside Aquileia (397 at Rome and the Pinetum; 410 in Sicily). The Aquileian setting rests on Fremantle's introduction (he lists the Origen commentaries translated there).",
+   "The old note's 'for several works his version is the only text that survives' is true as general knowledge but no vendored text was found that says it, so it is omitted.",
+   "Date 397 and 410 come from the translators' headnotes."
+  ],
+  "wants": [
+   "Rufinus's prefaces to the Origen translations made at Aquileia (Genesis to Joshua homilies, Romans commentary), not vendored in this volume",
+   "A source for the claim that some of Origen's works survive only in Rufinus's Latin"
+  ]
+ },
+ {
+  "old_index": 59,
+  "action": "retype",
+  "from": "ambrosian-milan-standalone",
+  "to": "aquileian-christianity",
+  "type": "in contact with",
+  "confidence": "Documented",
+  "change_reason": "'contemporary with' retyped to 'in contact with' on a named shared event (the council); the 'presided' claim removed because the Acts do not support it.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said Ambrose came 'to preside'. The Acts do not say that: they list Valerian first among the bishops and show Ambrose speaking first and leading the questions. Who formally presided is a question the note leaves open; I did not find a vendored text that settles it. The reviewer should decide whether a note on this belongs here.",
+   "The Mansi file is an OCR of an 18th-century Latin text with long-s forms ('epifcopus', 'Ambrofius'); quotes follow the file exactly, including OCR noise. The date '3 September 381' reads the file's '3 nonis Septembribus' with its consuls (Eucherius; the other name is garbled) and the editors' 381 in the Ambrose volume.",
+   "'in contact with' is symmetric; ids are in alphabetical order."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 66,
+  "action": "retype",
+  "from": "early-benedictine-italian-monasticism",
+  "to": "roman-church-gregorian",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'formed' retyped to 'influenced': the documented relationship is that Gregory names and describes Benedict's Rule, not that Benedictine monasticism formed his church.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note said Gregory was a monk 'of his own foundation on the Caelian'; the vendored text only supports a monastery (Epistle to Leander). The foundation and the Caelian location come from the editors' notes in the Gardner file, not from Gregory's words in the quote.",
+   "No vendored text shows that Gregory's own monastery kept Benedict's Rule; calling it 'Benedictine' is a later label, so the note does not say so.",
+   "The 'only life of Benedict there is' claim is the file's content note, not a primary source; omitted.",
+   "Both quotes are from English translations with irregular OCR spacing (Dialogues) kept as in the file."
+  ],
+  "wants": [
+   "A text that ties Gregory's own monastery on the Caelian to Benedict's Rule"
+  ]
+ },
+ {
+  "old_index": 67,
+  "action": "retype",
+  "from": "roman-church-gregorian",
+  "to": "anglo-saxon-christianity",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "'formed' retyped to 'gave rise to' and the note trimmed to what Bede shows.",
+  "revision_note": null,
+  "drafter_flags": [
+   "'gave rise to' is documented for the Roman mission to Kent. Anglo-Saxon Christianity as a whole had other roots (for example Irish missions in the north); the vendored Bede covers them but I did not check those books.",
+   "The year 596 is Bede's 'fourteenth year of the same emperor' as marked in the edition's chapter heading; Augustine's landing is usually dated 597. The note says only that Gregory sent them in 596.",
+   "The old note's 'directed the mission by letter for the rest of his life' was not re-checked and is omitted."
+  ],
+  "wants": [
+   "Gregory's own letter sending the mission (Registrum VI.52 is vendored in the Turchi edition, but a line number is printed inside the sentence, so it was not quoted)"
+  ]
+ },
+ {
+  "old_index": 68,
+  "action": "retype",
+  "from": "roman-church-gregorian",
+  "to": "byzantine-imperial-church-justinianic",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "'in tension with' retyped to 'argued against': the arrow runs from Gregory, whose letter attacks the patriarch's title by name.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old note's second half (Gregory answered by calling himself servant of the servants of God) was not checked against a vendored passage tying the formula to the title dispute, so it is dropped.",
+   "The second quote is a fragment: the full sentence ('Quis iste est qui contra statuta evangelica, contra canonum decreta novum sibi usurpare nomen praesumit?') has a printed line number inside it, so only its closing line is quoted. The note's 'against the Gospel and the canons' rests on the full sentence I read.",
+   "John is identified as the patriarch of Constantinople by the edition's own Latin summary above the letter, not by the quoted lines.",
+   "The target entry is the Justinianic Byzantine church (451-622); John the Faster held the see 582-595, inside that window."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "latin-pastoral-congregational-christianity",
+  "to": "pelagianism",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link: Pelagianism had no links; Augustine's anti-Pelagian works are vendored.",
+  "revision_note": "Answers minor finding on missing links (2) latin-pastoral-congregational-christianity argued against pelagianism.",
+  "drafter_flags": [
+   "Augustine is a named voice of the latin-pastoral entry (Hippo, 395-430). Pelagianism had no links in the draft set.",
+   "The Retractations quote sits inside the NPNF editor's introduction; the sentence is Augustine's, introduced there by opening quotation marks. Retractations book and chapter are not stated in the quoted lines.",
+   "Line 4667 begins with an XML paragraph tag, which is not part of the quote."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "insular-irish-monastic-christianity",
+  "to": "anglo-saxon-christianity",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "New link: the Gregorian link alone implied a single origin for Anglo-Saxon Christianity.",
+  "revision_note": "Answers minor finding on missing links (3) insular-irish-monastic-christianity gave rise to anglo-saxon-christianity.",
+  "drafter_flags": [
+   "Bede calls the Irish 'Scots' and the island 'Hii' (Iona). The Roman mission of 597 is already linked in old #67; this link records the second root, as the Irish entry's own summary calls it parent of Anglo-Saxon Christianity.",
+   "The year 635 comes from the chapter title in Giles's edition ([a.d. 635.]) and is not in the quoted clause.",
+   "The third sentence is supported by the Roman-mission link (old #67), not by these quotes."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 12,
+  "action": "retype",
+  "from": "waldensians-in-the-alps",
+  "to": "the-waldensian-reformed-union",
+  "type": "continued as",
+  "confidence": "Contested",
+  "change_reason": "Type 'transmitted to' was not in the vocabulary; the later union continues the Alpine Waldensian entry (not the 1173-1300 entry), so 'continued as' from waldensians-in-the-alps. Kept Contested.",
+  "revision_note": "Answers blocking finding on old #12 (wrong 'from': the 1532 union continues the Alpine entry, not the 1173-1300 one).",
+  "drafter_flags": [
+   "Contested rests on the census's own description of the debate (Cameron warns against reading later Waldensian identity back; Audisio covers survival to 1532). I have not read Cameron or Audisio, so the exact position of each is unchecked.",
+   "The two primary quotes are the valleys' own account (Morland prints the 1532 confession; Perrin is a Protestant historian of the valleys). They show the community's self-understanding, not independent proof of continuity from 1300.",
+   "Morland's OCR keeps long-s ('fon', 'Dodrine'); the quote is verbatim from the file, so the note modernises it as 'son'.",
+   "Morland's header places the 1532 meeting at Angrogne; the Chanforan synod name used by historians is not in the quoted lines, so the note does not name it.",
+   "'From' changed to waldensians-in-the-alps (1300-1517) on the reviewer's ruling; type and Contested grade kept."
+  ],
+  "wants": [
+   "The Chanforan decisions of 1532 in a critical edition (they survive only in later copies)",
+   "Cameron, The Reformation of the Heretics, for the continuity argument"
+  ]
+ },
+ {
+  "old_index": 13,
+  "action": "rewrite",
+  "from": "lutheran-wittenberg-and-its-congregations",
+  "to": "the-anabaptist-movements",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Old note described the opposite direction (Anabaptists against the settlement). Rewrote the note to what the Lutheran text actually does; the reverse direction is a new link.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Arrow kept from Wittenberg to the Anabaptists: the vendored Augsburg Confession is the Lutheran text that names them, so this direction is Documented.",
+   "The old note described the reverse (Anabaptists defining themselves against the magisterial church-state settlement). That claim is moved to a separate new link, Anabaptists to Wittenberg, which has its own source.",
+   "The Augsburg Confession was submitted by Lutheran princes and cities and drafted by Melanchthon; 'Lutheran leaders' is the safest label. Whether the census's 'Wittenberg and its congregations' fully covers the confessing princes and cities is a reviewer call.",
+   "Anabaptist wings differed on baptism and the magistrate; the confession targets them as a group."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "the-anabaptist-movements",
+  "to": "lutheran-wittenberg-and-its-congregations",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link split out of old #13, whose note actually described this direction.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The passage names Luther and Zwingli together; it is aimed at the Wittenberg reformer only in part. The Hutterite Chronicle was written and extended over generations (the header says to 1665), so the sentence is not dated to a single year.",
+   "Only the Hutterite wing is quoted. Dirk Philips (Enchiridion) also names Luther on infant faith; I read that passage but did not use it because it concerns baptism doctrine, not the church-state settlement.",
+   "My English paraphrase of 'sich an den weltlichen Gewalt gehängt, auf menschlich Hilf vertröstet' is: attached themselves to the worldly power and trusted in human help."
+  ],
+  "wants": [
+   "Schleitheim Articles (1527) and Menno Simons passages naming Luther or the Lutherans, if a second Anabaptist wing's text is wanted"
+  ]
+ },
+ {
+  "old_index": 14,
+  "action": "retype",
+  "from": "the-holiness-movement",
+  "to": "azusa-street-and-early-pentecostalism",
+  "type": "gave rise to",
+  "confidence": "Dominant Modern Reconstruction",
+  "change_reason": "'formed' maps to 'gave rise to'; Documented was unsupported (no vendored text), so regraded to Dominant Modern Reconstruction and rewrote the note.",
+  "revision_note": null,
+  "drafter_flags": [
+   "No Holiness or Azusa text is vendored (corpus_map_bucket is null for both), so this cannot be Documented or Widely Accepted. I graded it as the modern consensus reconstruction.",
+   "I have not read Synan, Robeck or Anderson; the titles are cited in the census and the Atlas notes. 'Leaders who came out of Holiness churches' is the old note's claim, kept in weaker form, and unchecked.",
+   "The old 'directly' and 'vocabulary' claims were dropped as unsupported."
+  ],
+  "wants": [
+   "The Apostolic Faith (Los Angeles, 1906-1908)",
+   "William J. Seymour, The Doctrines and Discipline of the Azusa Street Apostolic Faith Mission (1915)",
+   "Holiness-movement texts of the 1890s-1900s naming the move to Pentecostal teaching"
+  ]
+ },
+ {
+  "old_index": 15,
+  "action": "retype",
+  "from": "azusa-street-and-early-pentecostalism",
+  "to": "african-initiated-churches-harrist-aladura-zioni",
+  "type": "influenced",
+  "confidence": "Contested",
+  "change_reason": "'transmitted to' becomes 'influenced'; regraded from Widely Accepted to Contested because the question of Pentecostal versus African origins is the live dispute, and no source in the repo supports a settled reading.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Evidence is thin. No vendored text; the three secondary works are named in the census and I have not read them, so which side each takes is my inference from titles and the census notes.",
+   "The AIC entry spans very different movements (Harrist, Aladura, Zionist, Kimbanguist). A single arrow from Azusa Street fits some Zionist and Aladura links better than Harrist or Kimbanguist; reviewer may want this split or removed.",
+   "Direct Azusa-to-Africa contact is not claimed; the type is 'influenced'. The old note said 'actively studied'; I replaced it with plain statement of disagreement."
+  ],
+  "wants": [
+   "Aladura founding records (Cherubim and Seraphim 1925; CAC 1930)",
+   "Zionist/ZCC early records and Zion City links",
+   "Early Pentecostal press reports from Africa"
+  ]
+ },
+ {
+  "old_index": 16,
+  "action": "retype",
+  "from": "the-methodist-revival",
+  "to": "the-holiness-movement",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "'formed' to 'influenced' (ideas passed on); Documented to Widely Accepted because only Wesley's side is vendored.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Wesley side is quoted and read. The Holiness side (second sentence) rests on the secondary works, which I have not read; no Holiness text is vendored.",
+   "Old 'Documented' was wrong: the claim that Holiness 'understood itself as recovering Wesley' needs a Holiness text, which we do not have.",
+   "Large Minutes file is an 1850 reprint of a cumulative document; the passage is undated in the file, so the note gives no year."
+  ],
+  "wants": [
+   "Holiness texts naming Wesley, such as Phoebe Palmer's The Way of Holiness (1843) and the Guide to Holiness, which would allow Documented"
+  ]
+ },
+ {
+  "old_index": 17,
+  "action": "split",
+  "from": "latin-papal-church-gregorian",
+  "to": "byzantine-church-after-1054",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "Old 'in tension with / Documented' mixed two acts. The Latin act is documented by a vendored bull, so it becomes 'argued against'; the mutual rupture is split into a separate 'broke with' link.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Documented: the vendored Latin text names Michael and is directed at him. OCR is noisy ('Mchaelem' for Michaelem, 'Quan- tum' hyphenated); quotes are verbatim from the file. The Latin and my reading of 'abusive dictum patriarcham' (called patriarch wrongly) and 'zizania haereseon... seminantur' (weeds of heresy are sown) should be checked by a Latin reader.",
+   "The signers are Humbert, Peter of Amalfi and Frederick (deacon and chancellor), per the opening of the text; the note says 'Humbert and two other legates'.",
+   "Whether the legates stand for 'the Latin Papal Church' as a party is a framing question; Mirbt's introduction ties the act to Leo IX's embassy.",
+   "I did not give a day: Mirbt's heading says 13 July 1054 for the document, but the old note's 16 July (laying on the altar of Hagia Sophia) is not in the vendored text."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 17,
+  "action": "split",
+  "from": "byzantine-church-after-1054",
+  "to": "latin-papal-church-gregorian",
+  "type": "broke with",
+  "confidence": "Documented",
+  "change_reason": "Split from old #17: the mutual rupture as a symmetric 'broke with', Documented from Humbert's own account of the altar act (Latin side only).",
+  "revision_note": "Answers the blocking finding on old #17 (Mirbt no. 227 is Humbert's own account, not a secondary; primary quotes now cited).",
+  "drafter_flags": [
+   "Documented on the same footing as the other one-sided 'broke with' links (Eunomian/Homoian, Chalcedon): dated rupture act recorded by one side only. The one-sidedness is stated in the note.",
+   "Mirbt no. 227 is Humbert's Latin Commemoratio printed under Mirbt's heading, so it is a primary (Latin-side) account, not a secondary; the earlier 'secondary' entry and the flag that 16 July was not in the text were wrong. XVII Kal. Aug. is 16 July.",
+   "OCR is noisy ('ocuhs', 'popuh') in the quote; verbatim from the file. 'Council' renders 'concilium' in 9919.",
+   "The Greek reply and the 1204 dating debate are not claimed. Symmetric type, ids alphabetical."
+  ],
+  "wants": [
+   "Cerularius's synodal edict against the legates (Will, Acta et scripta de controversiis ecclesiae graecae et latinae, 1861)",
+   "A modern account of the schism and the debate over its dating (not cited anywhere in the repo)"
+  ]
+ },
+ {
+  "old_index": 18,
+  "action": "retype",
+  "from": "the-baptists",
+  "to": "the-black-church-in-america",
+  "type": "gave rise to",
+  "confidence": "Widely Accepted",
+  "change_reason": "'formed' to 'gave rise to'; kept Widely Accepted, now with primary Rippon quotes and a corrected note without the stray double full stop.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The primary quotes are read and verbatim. They show named people moving from Baptist baptism and licensing to Black Baptist preaching and church-forming, not the Black Church as a whole, so Widely Accepted is as high as I would go.",
+   "Rippon's text does not give the Silver Bluff date; I left c. 1773-75 and First African Savannah 1788 out of the note.",
+   "The Register says only 'Brother Palmer'. Whether he is white is not stated in the quoted lines, so the note does not say.",
+   "Raboteau and Sernett are named in the census as the secondary pair; I have not read them and gave no page.",
+   "OCR keeps long-s; the Palmer quote contains 'fuppei' for supper, copied as is."
+  ],
+  "wants": [
+   "Raboteau passage on the Baptist roots, with page",
+   "Silver Bluff founding date evidence (the c. 1773-75 date is not in the vendored lines)"
+  ]
+ },
+ {
+  "old_index": 19,
+  "action": "retype",
+  "from": "the-methodist-revival",
+  "to": "the-black-church-in-america",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "'formed' to 'gave rise to'; kept a high grade because Allen's own dated text shows named people and Methodist congregations becoming the AME. AME Zion claim dropped as unchecked.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Documented for the AME, which is one Black Methodist body; the link points at the whole Black Church entry, so a reviewer may prefer Widely Accepted for the broader claim. I kept Documented because the link claim is that Black Methodist communities passed into the AME, which Allen's own text shows with names and a date.",
+   "The old note's AME Zion (1821) claim is not in the vendored Allen text and was dropped.",
+   "'Clashes with white preachers and trustees' rests on the preceding lines of Allen's text (around line 976); the quoted 1816 line says the earlier grievances 'induced' the meeting."
+  ],
+  "wants": [
+   "AME Zion origins (1821), if the old note's claim is to be kept"
+  ]
+ },
+ {
+  "old_index": 20,
+  "action": "retype",
+  "from": "latin-pastoral-congregational-christianity",
+  "to": "the-reformed-cities-zurich-and-geneva",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "'transmitted to' to 'influenced'; Documented kept but rewritten to what the vendored Institutes says. Overreaching doctrinal labels and 'primary authority' removed.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Removed the old claims that these are the Dort-era labels 'total depravity, unconditional election, irresistible grace' (not Calvin's) and that Calvin named Augustine his 'primary authority next to Scripture' (stronger than the text). I did not find that phrase.",
+   "The locus 'III.22' is my reading of where Beveridge's vol. 2 passes this text; the section number should be checked against the Institutes.",
+   "Calvin also cites Augustine's De praedestinatione sanctorum in the same passage (the Ambrose quotation, 'Lib. de Prasdest. Sanct. cap. 19' in the OCR); Contra Julianum was not checked and is not named in the note.",
+   "'Influenced' is the right type: ideas and texts passed on across eleven centuries with no institutional tie."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": 21,
+  "action": "retype",
+  "from": "fundamentalism-1910-1970s",
+  "to": "the-mainline-century-liberal-and-neo-orthodox",
+  "type": "broke with",
+  "confidence": "Dominant Modern Reconstruction",
+  "change_reason": "'in tension with' to 'broke with'; Documented to Dominant Modern Reconstruction (no vendored rupture text); note rewritten without internal language.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Old 'Documented' cannot stand: none of the four rupture texts is vendored. Graded at what the repo supports, the modern reconstruction. Once the four texts are vendored this could return to Documented.",
+   "Dates (21 May 1922, 1923, 9 January 1924) come from the census entries' own source notes; I could not check them against a text.",
+   "Symmetric type, ids in alphabetical order (fundamentalism before the-mainline).",
+   "The old note's internal references (second 'in tension with' edge, Social Gospel code) were removed."
+  ],
+  "wants": [
+   "The Doctrinal Deliverance of 1910 (Presbyterian General Assembly)",
+   "Fosdick, 'Shall the Fundamentalists Win?' (21 May 1922)",
+   "Machen, Christianity and Liberalism (1923)",
+   "The Auburn Affirmation (9 January 1924)"
+  ]
+ },
+ {
+  "old_index": 22,
+  "action": "retype",
+  "from": "the-stone-campbell-restoration-movement",
+  "to": "churches-of-christ-twentieth-century",
+  "type": "gave rise to",
+  "confidence": "Dominant Modern Reconstruction",
+  "change_reason": "'formed' to 'gave rise to'; Documented to Dominant Modern Reconstruction since the census listing is not vendored.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The old 'Documented' rested on the 1906 census listing, which is not vendored. Graded as the modern reconstruction; Hughes and the Encyclopedia are the secondary works cited in the census. I have not read either, and give no page.",
+   "'Without instruments' repeats the old note's 'a cappella' claim; I could not check it here.",
+   "The new type 'gave rise to' keeps the old point that this was a formation, not a continuation, as one identity split into two."
+  ],
+  "wants": [
+   "1906 US Religious Census listing of the Churches of Christ, and David Lipscomb's letter to the Census Bureau",
+   "The Gospel Advocate and Firm Foundation for the wing's own account"
+  ]
+ },
+ {
+  "old_index": 23,
+  "action": "retype",
+  "from": "the-stone-campbell-restoration-movement",
+  "to": "disciples-of-christ-and-independent-christian-churches",
+  "type": "gave rise to",
+  "confidence": "Dominant Modern Reconstruction",
+  "change_reason": "'formed' to 'gave rise to'; Documented to Dominant Modern Reconstruction; the old note's internal reference removed.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Same evidence limits as the Churches of Christ link: no vendored text, secondary works unread.",
+   "The target entry joins the Disciples and the Independent Christian Churches, which separated later than 1906 (the census notes a separate listing by 1971). The note speaks only of the Disciples; reviewer may want a separate edge for the Independents.",
+   "Hughes is a history of the Churches of Christ, so for the Disciples side the Encyclopedia is the stronger citation."
+  ],
+  "wants": [
+   "1906 US Religious Census listing",
+   "The Christian Church (Disciples of Christ) 'Design' of 1968 and the Independent churches' yearbook records"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "the-waldensians",
+  "to": "waldensians-in-the-alps",
+  "type": "continued as",
+  "confidence": "Widely Accepted",
+  "change_reason": "New link on the round-1 ruling: the Waldensian period split that the old #12 skipped.",
+  "revision_note": "Answers blocking finding on old #12 (separately draft the-waldensians continued as waldensians-in-the-alps).",
+  "drafter_flags": [
+   "Period split between two census entries (1173-1300 and 1300-1517). The primary quote shows the sect still in being in the 1320s; the Alpine move rests on the 1926 editor's summary of Gui, not on Gui's own words.",
+   "Widely Accepted rests on Cameron 2000 and Audisio 1999, which the census already cites for this question; I have not read either and add no page. If the reviewer thinks that is not enough, lower to Dominant Modern Reconstruction or Inferential-Thin.",
+   "The Mollat 'secondary' entry carries a file, lines and quote because it is a modern editor's text inside a vendored file.",
+   "Gui's Manuel was compiled in 1323-24 per the editor's introduction (lines near 410 and 736); the note says 'in the 1320s'."
+  ],
+  "wants": [
+   "A Waldensian or inquisitorial text from c. 1300-1400 placing a named community in the Alpine valleys"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "latin-pastoral-congregational-christianity",
+  "to": "donatism",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Donatism gap. Both ids checked in the census: Latin Pastoral c. 240s-430 and Donatism c. 311-439 overlap the Augustine and Optatus writings (c. 366-420s) and the 411 conference.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Retractationes chapter number not cited: the file prints it as 'CAPVT LXVI. 5 (XL.)', so the locus uses the chapter title only.",
+   "The 411 date is not in either quoted line; it is the date of the Conference of Carthage (also named in the translator's notes to the Optatus file, which mention the Conference at Carthage in 411).",
+   "Optatus's English title line is a translator's heading, not a Latin source line; the Latin edition is also vendored (optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt)."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "donatism",
+  "to": "latin-pastoral-congregational-christianity",
+  "type": "argued against",
+  "confidence": "Widely Accepted",
+  "change_reason": "New link for the Donatism gap, in the reverse direction to the Augustine link. Graded Widely Accepted, not Documented, because the vendored Donatist words survive only as Optatus quotes them.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Parmenian quotation does not itself name the Catholic church; the reading that it targets Catholic clergy is Optatus's and the secondary consensus.",
+   "Frend (1952) is cited as it appears in the repo (records/don sources); I did not re-read it, and cite no page.",
+   "Optatus's 'Faithful' (line 47) is his own wording about Donatist practice; he is a hostile witness."
+  ],
+  "wants": [
+   "A Donatist-authored text (or Petilian's letter in a clean edition) directed at the Catholic church by name; Contra litteras Petiliani is vendored but its OCR is too degraded to quote"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "latin-pastoral-congregational-christianity",
+  "to": "donatism",
+  "type": "influenced",
+  "confidence": "Documented",
+  "change_reason": "New link for the Donatism gap (Cyprian as antecedent). Cyprian (bishop from c. 248) falls inside Latin Pastoral c. 240s-430; the Donatist use of him is c. 311 onward.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Book and chapter inferred from the file: 'LIBER SECUNDUS' begins at line 9993 and the passage sits under the marker 'III. 4.'. Check against the CSEL page.",
+   "The Donatist use of Cyprian is reported by Augustine, their opponent. He argues Cyprian actually supports the Catholic side, so this shows the Donatists claimed Cyprian, not that Cyprian would have endorsed them.",
+   "Whether Cyprian himself belongs to the Latin Pastoral entry (c. 240s start) is a census-boundary call for the reviewer."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "imperial-juridical-christianity",
+  "to": "donatism",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Donatism gap (imperial action). Imperial and Juridical Christianity c. 312-451 covers Constantine's rulings and the later fourth-century action; Donatism c. 311-439 overlaps.",
+  "revision_note": "Answers minor finding on Imperial to Donatism (Miltiades omitted; 'eighteen bishops' dropped).",
+  "drafter_flags": [
+   "Constantine's words reach us through Optatus, a hostile witness; the translator's note says Optatus placed them wrongly in time (after Arles, not Rome).",
+   "The census movement is the imperial church broadly; Constantine is its clearest actor. Later imperial action (Constans, Honorius) is not separately sourced here.",
+   "Optatus says nineteen bishops sat (line 279), counting Miltiades; the note no longer gives a number."
+  ],
+  "wants": [
+   "Constantine's letters themselves, quoted directly: the Latin appendix of ten documents is vendored (optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt) but its line-end markup makes clean quotation unsafe"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "donatism",
+  "to": "imperial-juridical-christianity",
+  "type": "argued against",
+  "confidence": "Widely Accepted",
+  "change_reason": "New link for the Donatism gap (the Donatist answer to imperial action). Graded Widely Accepted: the saying is reported only by an opponent.",
+  "revision_note": null,
+  "drafter_flags": [
+   "Book number (III) inferred from the translator's cross-references; the quotation is in the file at the stated line.",
+   "The envoys' mission date (c. 347) is not in the quoted line.",
+   "Frend (1952) cited as in the repo; not re-read, no page given."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "lutheran-wittenberg-and-its-congregations",
+  "to": "the-reformed-cities-zurich-and-geneva",
+  "type": "in contact with",
+  "confidence": "Documented",
+  "change_reason": "New link for the Wittenberg / Zurich & Geneva gap (Marburg Colloquy). Wittenberg 1517-1580 and Zurich & Geneva 1519-1650 both cover 1529. Ids are in alphabetical order.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The month and days (1-4 October 1529) come from the editor's headnote in the Hinke volume (line 6733-6734), not from a 1529 source.",
+   "Myconius's chapter number is inferred: chapter X begins at line 1194 and this passage follows; check the printed numbering.",
+   "records/rzg's own honest-limit record says no account from anyone present survives. These are mentions of the meeting, not a narrative of it, and the note claims only a meeting.",
+   "Myconius also names Luther and Melanchthon; Zwingli's letter names neither."
+  ],
+  "wants": [
+   "A Wittenberg-side text of the colloquy, such as the Marburg Articles or Luther's own report, to show the meeting from both sides"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "lutheran-wittenberg-and-its-congregations",
+  "to": "the-reformed-cities-zurich-and-geneva",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Wittenberg / Zurich & Geneva gap (the Lord's Supper dispute). The Formula (1577) falls in Wittenberg's 1517-1580 window; Zurich & Geneva runs 1519-1650.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The quote keeps a stray 'i' from the OCR after 'reckoned'; it is verbatim from the file.",
+   "The Formula of Concord was drafted by theologians across Saxony and south Germany, not by Wittenberg alone. Reviewer should confirm that it counts as an act of the Wittenberg entry.",
+   "'Sacramentarians' is identified with Zwingli, Oecolampadius and Calvin only in the editor's footnote, not in the Formula's own text.",
+   "The note's sentence on condemning the Sacramentarians rests on the section headings 'Negative. Contrary condemned Doctrines of the Sacramentarians' (line 26795), not on a quote; I could not isolate a clean quotable line."
+  ],
+  "wants": [
+   "Luther's own writing against Zwingli on the Supper in a quotable edition (the 1528 Confession concerning Christ's Supper), to show the arrow from Luther himself"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "the-reformed-cities-zurich-and-geneva",
+  "to": "the-anabaptist-movements",
+  "type": "gave rise to",
+  "confidence": "Documented",
+  "change_reason": "New link for the Anabaptist-origin gap. Zurich & Geneva 1519-1650 and Anabaptists 1525-1650 overlap from 1525; the records cited are all 1525-1532.",
+  "revision_note": "Answers substantial finding on Zurich/Geneva to Anabaptists (note must say this is the Swiss branch; polygenesis added).",
+  "drafter_flags": [
+   "Egli's volume prints summaries of the council minutes, quoting the original wording in guillemets. The Nr. 636 sentence is Schad's statement as the editor gives it; read it against the printed minutes if possible.",
+   "Myconius's chapter number is inferred from the line position (before chapter X at line 1194); 'Manx' is the OCR spelling of Manz.",
+   "Nr. 624 shows only that the council ordered Grebel and Manz to stop disputing; the baptism subject comes from the editor's reference back to Nr. 621.",
+   "The first adult baptisms are dated 21 January 1525 in the repo's force record (rzg.force.anabaptist-schism), which draws on Doc_08, not on a text I quote here.",
+   "Whether 'gave rise to' (same community) or an independent origin is the right reading is a live scholarly question; the census's own contested record is rzg.contested.anabaptist-schism-legitimacy.",
+   "Roth and Stayer is cited from the census and from Build/World-Builds/Anabaptist-Movements/Doc_01_Review_Round1.md (polygenesis); I have not read it and add no page. Documented is kept for the Swiss origin only.",
+   "The Myconius sentence was cut from the note to make room for the Swiss-branch caveat; the Myconius source stays listed."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "the-reformed-cities-zurich-and-geneva",
+  "to": "the-anabaptist-movements",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Anabaptist gap. Wittenberg's argument against the Anabaptists is already in the census; Zurich's own is not.",
+  "revision_note": null,
+  "drafter_flags": [
+   "'Their' in the Zwingli sentence refers to the 'apostles of the devil' he has just described; I read it as the Baptists because the whole work is aimed at them and the next sentence names the catabaptists at Zollikon.",
+   "The January 1525 order is the council's act; whether it counts as the Reformed church acting is a judgment the reviewer may want to confirm."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "byzantine-imperial-church-justinianic",
+  "to": "cyrilline-miaphysite-egyptian-christianity",
+  "type": "broke with",
+  "confidence": "Documented",
+  "change_reason": "New link for the Chalcedon gap. Used Byzantine Imperial Church (Justinianic) 451-622 and Cyrilline / Miaphysite Egyptian Christianity 451-642, not Imperial and Juridical Christianity (ends 451) or the Deferred 'from 451' Egyptian entry (ends 500), because the events run to 457 and later. Ids in alphabetical order.",
+  "revision_note": "Answers minor finding on Chalcedon rupture ('for ignoring its summons' narrowed the stated grounds).",
+  "drafter_flags": [
+   "The 'rupture both sides recorded' test is only half met: both quoted texts are Chalcedonian-side. I graded Documented because each is a dated act by the named party, but the reviewer may want it set to Widely Accepted.",
+   "The Evagrius chapter number is inferred from the printed running head 'CHAP. VIII' and the book number from the Walford page header; Evagrius is writing in the 590s about a 457 petition.",
+   "Chalcedon is the boundary event between two census entries; I put the link on the later pair.",
+   "The note says 'in October 451'; the year is not in the quoted line, though the Council is dated 451 throughout the volume.",
+   "Lines 20082-20089 of npnf214 also cite disregard of the canons and disobedience to the synod; the note follows the reviewer's wording on the three summonses. Check that those lines, not only 20082-20084, are the quoted range if a stricter check is wanted."
+  ],
+  "wants": [
+   "Timothy Aelurus's own Refutation of Chalcedon in German or English: the vendored file is Classical Armenian OCR and I cannot quote it safely",
+   "A Coptic or miaphysite source on the Egyptian side of the rupture, such as Theopistus's History of Dioscorus (vendored in French, not yet read for this link)"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "imperial-juridical-christianity",
+  "to": "persian-church-of-the-east-early",
+  "type": "in contact with",
+  "confidence": "Documented",
+  "change_reason": "New link for the Church of the East gap. This is the 410 meeting, before Ephesus (431); I found no vendored text I can quote for the Church of the East's relation to the imperial church after 431 (see not_proposed). Imperial and Juridical c. 312-451 and Persian early c. 300-451 both cover 410. Ids in alphabetical order.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The quoted French is Chabot's 1902 translation of a Syriac text compiled in the ninth century; I did not check the Syriac, which the file header says has OCR errors.",
+   "Marutha of Maipherqat is identified as an envoy of the Roman side by Chabot's notes (the emperor Arcadius); the quoted lines call him mediator and do not say he was an imperial envoy.",
+   "This is a meeting before 431, not the post-Ephesus relationship the brief asked for."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "latin-papal-church-avignon-to-lateran-v",
+  "to": "lollardy",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Lollard / Hussite gap. Papal Church (Avignon to Fifth Lateran) 1300-1517 and Lollardy c. 1380-1520 both cover 1409 and 1415.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Constitutions text comes through Foxe, a Protestant martyrologist of the 1560s; the title 'cruel Constitution... against the Gospellers' is his heading, and the wording is his translation. The margin date A.D. 1409 is Foxe's.",
+   "Arundel acted as Archbishop of Canterbury and papal legate (the text calls him 'legate of the see apostolic'), but whether an English provincial council counts as an act of the 'Latin Papal Church' entry is a boundary call for the reviewer.",
+   "Constance condemned Wyclif himself, not 'Lollards' by name in the quoted line. Counting Wyclif's condemnation under Lollardy depends on how the reviewer treats Wyclif; if the census treats him as separate, drop the second source.",
+   "The 1409 constitutions were first drafted at Oxford in 1407; Foxe gives 1409."
+  ],
+  "wants": [
+   "Arundel's Constitutions in the original Latin (Wilkins, Concilia, vol. 3) to replace Foxe's English version",
+   "A clean edition of the Constitutions with Arundel's papal legation named"
+  ]
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "latin-papal-church-avignon-to-lateran-v",
+  "to": "the-hussite-and-bohemian-brethren-movement",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Lollard / Hussite gap. Papal Church (Avignon to Fifth Lateran) 1300-1517 and Hussites 1402-1517 both cover 1415.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The Council of Constance was a general council, not the pope acting; the papacy was contested during it. Reviewer should confirm that Constance counts as an act of the 'Latin Papal Church' entry.",
+   "The year 1415 is not in the quoted lines; it is the Council's year, and Schaff's introduction to the Hus file (line 646) gives 6 July 1415.",
+   "The note's 'stripped him of his orders' renders 'degradavit' (degraded); read the Latin before keeping it.",
+   "Fillastre was a cardinal who attended the Council; the diary is a participant's record."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "the-hussite-and-bohemian-brethren-movement",
+  "to": "latin-papal-church-avignon-to-lateran-v",
+  "type": "argued against",
+  "confidence": "Documented",
+  "change_reason": "New link for the Lollard / Hussite gap. Hussites 1402-1517 and Papal Church (Avignon to Fifth Lateran) 1300-1517 both cover 1413.",
+  "revision_note": null,
+  "drafter_flags": [
+   "The date 1413 is in Schaff's introduction to the file (Hus wrote in answer to a Prague theology faculty document of 6 February 1413), not in the quoted lines.",
+   "Chapter number not cited: the file prints a section heading 'The Pope Not the Head of the Church but Christ's Vicar' separately; the quoted lines are earlier, near line 5257.",
+   "The note says 'the predestinate are its body'; the quote reads 'his predestinate are the body'."
+  ],
+  "wants": []
+ },
+ {
+  "old_index": null,
+  "action": "new",
+  "from": "lollardy",
+  "to": "the-hussite-and-bohemian-brethren-movement",
+  "type": "influenced",
+  "confidence": "Widely Accepted",
+  "change_reason": "New link on the round-1 ruling on the wrongly declined Lollardy-to-Hussites candidate.",
+  "revision_note": "Answers ruling not_proposed (draft Lollardy influenced the Hussites) and missing-link finding (4).",
+  "drafter_flags": [
+   "Evidence is Wyclif to Hus; Wyclif is a named voice of the lollardy entry, but the Lollard communities (1380-1520) themselves are not shown to have influenced Hus. The note says so.",
+   "The year 1415 is not in the quoted Finke lines; the note gives only the day. Schaff is the 1915 translator and editor, a modern secondary inside a vendored file, so the secondary entries carry file, lines and quotes; Loserth is cited via Schaff, not read directly.",
+   "The Finke quote is in the Latin of Fillastre's diary with OCR spacing; the Schaff quote preserves the file's line-break hyphenation ('convinc- ingly')."
+  ],
+  "wants": [
+   "Hus's own De ecclesia text and Wyclif's De ecclesia side by side (Loserth, Wiclif and Hus), to quote the parallel paragraphs"
+  ]
+ },
+ {
+  "group": "g6-new-tensions",
+  "not_proposed": [
+   {
+    "topic": "Church of the East and the imperial church after Ephesus (431)",
+    "reason": "No vendored text I could quote shows a dated relationship between the two after 431. The Synodicon orientale (Chabot, French) has later synods, but the 544 note that the 'Nestorians accepted Chalcedon in so far as it condemned Eutyches' is Chabot's 1902 editorial note, and the letter of Gewargis (c. 679) attacking Cyril and Justinian is too late for the imperial entries in the census. The 410 meeting is proposed instead.",
+    "wanted": [
+     "The Synodicon's synods of Acacius (486) and Mar Aba (544) in a quotable translation with the Syriac checked",
+     "The Chronicle of Seert on Ephesus and Nestorius (vendored in French, not read for this link)"
+    ]
+   },
+   {
+    "topic": "Lollards against the late-medieval papal church (the Lollard side)",
+    "reason": "The vendored Lollard-authored texts are OCR-degraded (Twelve Conclusions in Fasciculi Zizaniorum; Todd's Apology for Lollard Doctrines), so no verbatim quote is safe.",
+    "wanted": [
+     "A clean edition of the Lollard Twelve Conclusions (1395)",
+     "Selections from English Wycliffite Writings (Hudson)"
+    ]
+   },
+   {
+    "topic": "Anabaptists against Zurich (Hubmaier / Grebel)",
+    "reason": "The vendored Hubmaier Gesprech (1526) is poor OCR and its own header says nothing is quotable until read on the page images. Zwingli quotes an attack attributed (not certainly) to Grebel.",
+    "wanted": [
+     "A clean Hubmaier text, or the Zurich Anabaptist letters (Grebel to Vadian)"
+    ]
+   },
+   {
+    "topic": "Wittenberg and Zurich at Marburg: rupture recorded by both sides",
+    "reason": "No Wittenberg-side Marburg text is vendored (the Marburg Articles, Luther's report). The contact link is Documented; a 'broke with' link needs both sides.",
+    "wanted": [
+     "The Marburg Articles (October 1529)",
+     "Luther's Confession concerning Christ's Supper (1528) in a quotable edition"
+    ]
+   },
+   {
+    "topic": "Timothy Aelurus against Chalcedon, from the Egyptian side",
+    "reason": "The only vendored full text is Classical Armenian OCR (Ter-Mekerttschian 1908); I could not check an Armenian quotation.",
+    "wanted": [
+     "The German or English rendering of the Refutation, or the Theopistus Life of Dioscorus checked in the vendored French"
+    ]
+   },
+   {
+    "topic": "Hussites influenced by Lollardy / Wyclif",
+    "reason": "Out of the assigned scope and it depends on whether Wyclif belongs to the Lollardy entry; no link drafted.",
+    "wanted": []
+   },
+   {
+    "topic": "Donatism and the Conference of Carthage (411) as a separate 'in contact with' link",
+    "reason": "Omitted as redundant with the 'argued against' link, which already cites the Conference through Augustine.",
+    "wanted": []
+   }
+  ]
+ }
+]

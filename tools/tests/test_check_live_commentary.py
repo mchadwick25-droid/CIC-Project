@@ -2023,3 +2023,10 @@ def test_a_work_citation_in_a_spoken_field_is_not_a_section_ref_but_a_build_refe
     assert lines.index("- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"") + 1 not in hits
     assert lines.index("- \"Christ as presently working (Vita SS80, SS84)\"") + 1 not in hits
     assert lines.index("- \"settled in SS3 of the build notes\"") + 1 in hits
+
+
+def test_json_bare_date_field_keeps(tmp_path):
+    path = tmp_path / "release.json"
+    path.write_text('{\n "release": {\n  "number": 1,\n  "date": "2026-11-06"\n }\n}\n', encoding="utf-8")
+    hits = clc.scan_file(tmp_path, path, "cic-website")
+    assert [h.category for h in hits if "2026-11-06" in h.text] in ([], ["KEEP"])

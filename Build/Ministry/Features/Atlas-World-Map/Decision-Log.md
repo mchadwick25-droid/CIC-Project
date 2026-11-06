@@ -25,7 +25,9 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 **Also decided the same day (org, recorded here for the trail):** Ishayahu receives an interim, non-commercial, attribution-required permission from Faithways Studio, Inc. covering the website data files only, with confidence levels kept attached and no long-term licence commitment; the public data licence is decided with the organisation's structure, before launch.
 
-**Next action:** the rigor pass itself, on branch `claude/relaxed-hamilton-n6v5ur`.
+**Done the same day** (branch `claude/relaxed-hamilton-n6v5ur`): the pass ran in two review rounds of the three-round cap; 69 links became 86 (7 removed, 22 added), release 1. Record: `Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/`.
+
+**Next action:** two movement texts still repeat claims the links corrected (`aquileian-christianity` on who presided at Aquileia; `roman-church-third-century` on Callistus and the lapsed). They belong to whoever next edits those entries; details in the audit README.
 
 ---
 

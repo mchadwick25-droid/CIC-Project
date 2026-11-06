@@ -1,0 +1,134 @@
+{
+ "verdict": "pass",
+ "round1_resolution": [
+  {
+   "finding": "the-waldensians--the-waldensian-reformed-union (old #12, blocking)",
+   "resolved": true,
+   "why": "Now waldensians-in-the-alps continued as the-waldensian-reformed-union, Contested, with the prescribed last clause; the separate the-waldensians continued as waldensians-in-the-alps link was drafted (Gui primary, Mollat, Cameron 2000, Audisio 1999, all in the repo)."
+  },
+  {
+   "finding": "byzantine-church-after-1054--latin-papal-church-gregorian (old #17, blocking)",
+   "resolved": true,
+   "why": "The Mirbt 'secondary' was replaced by three primary quotes from Humbert's Commemoratio (Mirbt 9904, 9907-9908, 9918-9919; checked). 16 July comes from XVII Kal. Aug. The note states it is one-sided. Ids are alphabetical. The no. 228 'argued against' half of the split stands separately."
+  },
+  {
+   "finding": "roman-church-third-century--modalist-monarchianism (old #36)",
+   "resolved": true,
+   "why": "Dionysius of Rome against the Sabellians was added (npnf204 28472-28473, 28532-28533; checked; Dionysius 259-268 falls inside the 200-268 window). The 'adviser' quote was dropped. The note flags Hippolytus's hostility."
+  },
+  {
+   "finding": "antiochene-church-third-century--homoian-arian-christianity (old #61)",
+   "resolved": true,
+   "why": "A second line-138 quote was added (Leontius, Eudoxius). The unsourced dispute sentence was cut. The Eudoxius is not identified."
+  },
+  {
+   "finding": "gallic-nicene-episcopate--homoian-arian-christianity (old #46)",
+   "resolved": true,
+   "why": "The quote is now 7776-7779 (the Sirmium creed condemned). The note's facts check out: the address to Gaul and Britain is at 7750, the refused communion at 7774-7775, and 'Saturninus of Arles' at line 1193 of the same vendored file."
+  },
+  {
+   "finding": "coptic-christianity-under-early-islam--alexandria-catechetical (old #11)",
+   "resolved": true,
+   "why": "The note now says the History honours Dionysius. The 11708-11712 source was added. No positive link was added."
+  },
+  {
+   "finding": "syriac-edessa-nisibis--the-church-of-the-east-under-persia (old #6)",
+   "resolved": true,
+   "why": "The Barhadbeshabba quotes are inside both windows (Ephrem's school, 20437-20442; Narsai founding Nisibis, 20738-20739). 'Drawing many students from Edessa' is at 20740-20742. The 457/489 conflict is in the translator's note and the Chronicle. Documented as influence is honest."
+  },
+  {
+   "finding": "desert-monasticism--insular-irish-monastic-christianity (old #9)",
+   "resolved": true,
+   "why": "Now Inferential-Thin with the caveat. Every note fact checks against Warren 1577-1586 and 1617-1620. The note still runs four sentences: see the rewrite."
+  },
+  {
+   "finding": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity (old #26)",
+   "resolved": true,
+   "why": "Now Inferential-Thin, 'The same' is gone, and the caveat is added. Four sentences: see the rewrite."
+  },
+  {
+   "finding": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+   "resolved": true,
+   "why": "Roth and Stayer were added. The note limits the claim to the Swiss branch and names the other roots."
+  },
+  {
+   "finding": "post-apostolic-house-church--syriac-edessa-nisibis (old #0)",
+   "resolved": true,
+   "why": "Removed; it is absent from the census edges."
+  },
+  {
+   "finding": "post-apostolic-house-church--alexandria-catechetical (old #1)",
+   "resolved": true,
+   "why": "Removed; it is absent from the census edges."
+  },
+  {
+   "finding": "imperial-juridical-christianity--donatism (minor)",
+   "resolved": true,
+   "why": "Miltiades is in, and the number of bishops is gone. The note needed restructuring only for readability (rewrite given)."
+  },
+  {
+   "finding": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity (minor)",
+   "resolved": true,
+   "why": "Now says three summonses, as prescribed."
+  },
+  {
+   "finding": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza (old #41, minor)",
+   "resolved": true,
+   "why": "The internal language and 'laura' are gone. One new minor problem with the prescribed note's first sentence is logged below."
+  },
+  {
+   "finding": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary (old #5, minor)",
+   "resolved": true,
+   "why": "Retyped to influenced, Documented, on Jerome's own words."
+  },
+  {
+   "finding": "tertullian-s-voice--latin-apologists (old #64, minor)",
+   "resolved": true,
+   "why": "The reasoning appears in drafter_flags. It must be carried into the decision log when the pass lands."
+  },
+  {
+   "finding": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce (old #60, minor)",
+   "resolved": true,
+   "why": "The last sentence was rewritten as prescribed."
+  },
+  {
+   "finding": "missing links (1)-(4) (minor)",
+   "resolved": true,
+   "why": "All four were drafted: Imperial against Homoian, Latin Pastoral against Pelagianism, Irish gave rise to Anglo-Saxon, Lollardy influenced Hussites. Each was rechecked below and holds to the bar."
+  },
+  {
+   "finding": "movement texts contradicting removed claims (minor, out of scope)",
+   "resolved": false,
+   "why": "I found no open-gap entry in Build/Ministry. The aquileian-christianity voice still says Ambrose 'came up the road in 381 to preside'. Register it for the movement-text owner, in the relevant Open_Gaps_Tracking.md. This is not a link defect and does not block this pass."
+  }
+ ],
+ "findings": [
+  {
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "severity": "minor",
+   "issue": "(1) The last sentence uses internal language: 'The Alpine entry'. (2) 'drove many Waldensians': Mollat 2085-2088 says only 'ils émigrèrent' (they emigrated). 'Many' is not in the source, and in context 'they' are the Waldensians of Languedoc. Grade, type and dates are otherwise sound: Widely Accepted rests on Cameron 2000 and Audisio 1999, which the census already cites for this question.",
+   "fix": "Use the note in note_rewrites, which drops 'many' and the internal language."
+  },
+  {
+   "link_id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "severity": "minor",
+   "issue": "The first sentence ('Monks lived in Gaza and the Judean desert both before and after about 450') is broader than the listed sources. Hilarion (npnf206 30347-30348) shows only the start of Palestinian monasticism. Moschus (15556-15557) shows only a monastery at Pharan around 600. Neither shows the Judean desert before 450 or Gaza after it.",
+   "fix": "Note: \"Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties the later monks to the earlier, so this rests on place and sequence alone.\""
+  },
+  {
+   "link_id": "tertullian-s-voice--latin-apologists",
+   "severity": "minor",
+   "issue": "The ruling recorded in drafter_flags (why member-to-container influence is kept here while #42 was removed) lives only in the scratch packet.",
+   "fix": "Enter it in the census pass's decision log when the pass lands. No change to the link."
+  }
+ ],
+ "note_rewrites": {
+  "desert-monasticism--iconophile-byzantine-monasticism": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double monasteries to keep Basil's rule. Its acts record images of 'the fathers and cultivators of the desert', but no text we hold shows iconophile monks drawing on Egypt directly.",
+  "desert-monasticism--insular-irish-monastic-christianity": "An eighth-century Irish monk on the Continent, mixing fact with legend, traced the Irish daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged this single late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
+  "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity": "A single eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. Beyond that, there is only Patrick's own wish, in his Confession, to visit the brethren in Gaul. Warren, the 1895 editor of the Bangor Antiphonary, held that Ireland's Eastern features came through Gaul.",
+  "the-waldensians--waldensians-in-the-alps": "Bernard Gui, an inquisitor writing in the 1320s, says the Waldensians' first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement carried on in the Alps after 1300.",
+  "imperial-juridical-christianity--donatism": "Emperor Constantine granted the Donatists judges, who heard their case at Rome with Miltiades, the city's bishop. Optatus, a Catholic bishop, reports that a Donatist bishop then appealed. Constantine replied: 'Oh, mad daring of their fury!'",
+  "donatism--imperial-juridical-christianity": "Optatus says that agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus opposed Donatus, so this is a hostile report.",
+  "lollardy--the-hussite-and-bohemian-brethren-movement": "The English editor of Hus's On the Church reports that Hus took paragraph after paragraph from Wyclif's treatise on the same subject. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. Wyclif's teaching began Lollardy, but this shows his influence on Hus, not that English Lollard communities shaped the Bohemians."
+ }
+}

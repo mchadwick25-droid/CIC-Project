@@ -473,7 +473,7 @@
    "to": "iconophile-byzantine-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. The Second Council of Nicaea (787) told double monasteries to keep Basil's rule. Its acts also record images of 'the fathers and cultivators of the desert'. No text in our collection shows iconophile monks drawing on the Egyptian desert directly.",
+   "note": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double monasteries to keep Basil's rule. Its acts record images of 'the fathers and cultivators of the desert', but no text we hold shows iconophile monks drawing on Egypt directly.",
    "sources": [
     {
      "kind": "primary",
@@ -547,7 +547,7 @@
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "An eighth-century Irish monk on the Continent traced the Irish way of singing the daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged the account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul. This rests on one late account that also contains legend.",
+   "note": "An eighth-century Irish monk on the Continent, mixing fact with legend, traced the Irish daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged this single late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
    "sources": [
     {
      "kind": "primary",
@@ -1101,7 +1101,7 @@
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "An eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. In his Confession, Patrick says he longed to visit the brethren in Gaul. Warren held that Ireland's Eastern features came through Gaul. This rests on one late account and on Patrick's own ties to Gaul.",
+   "note": "A single eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. Beyond that, there is only Patrick's own wish, in his Confession, to visit the brethren in Gaul. Warren, the 1895 editor of the Bangor Antiphonary, held that Ireland's Eastern features came through Gaul.",
    "sources": [
     {
      "kind": "primary",
@@ -1631,7 +1631,7 @@
    "to": "chalcedonian-monasticism-judean-desert-and-gaza",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Monks lived in Gaza and the Judean desert both before and after about 450. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties it to the earlier monks, so this rests on place and sequence alone.",
+   "note": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties the later monks to the earlier, so this rests on place and sequence alone.",
    "sources": [
     {
      "kind": "primary",
@@ -2586,7 +2586,7 @@
    "to": "waldensians-in-the-alps",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "Bernard Gui, an inquisitor writing in the 1320s, describes the Waldensians of his own day. He says the sect's first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove many Waldensians into the Alps of Dauphiné and northern Italy. The Alpine entry carries the same movement forward after 1300.",
+   "note": "Bernard Gui, an inquisitor writing in the 1320s, says the Waldensians' first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement carried on in the Alps after 1300.",
    "sources": [
     {
      "kind": "primary",
@@ -2714,7 +2714,7 @@
    "to": "donatism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Optatus, a Catholic bishop, reports that Emperor Constantine answered a Donatist bishop's appeal with the words 'Oh, mad daring of their fury!' Constantine had earlier granted them judges, who heard the case at Rome with Miltiades, the city's bishop.",
+   "note": "Emperor Constantine granted the Donatists judges, who heard their case at Rome with Miltiades, the city's bishop. Optatus, a Catholic bishop, reports that a Donatist bishop then appealed. Constantine replied: 'Oh, mad daring of their fury!'",
    "sources": [
     {
      "kind": "primary",
@@ -2754,7 +2754,7 @@
    "to": "imperial-juridical-christianity",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "Optatus says that when Emperor Constans's agents Paul and Macarius reached Donatus, he burst out: 'What has the Emperor to do with the Church?' Optatus opposed Donatus, so this is a hostile report.",
+   "note": "Optatus says that agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus opposed Donatus, so this is a hostile report.",
    "sources": [
     {
      "kind": "primary",
@@ -3061,7 +3061,7 @@
    "to": "the-hussite-and-bohemian-brethren-movement",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "John Wyclif, whose teaching began Lollardy, shaped Jan Hus: Hus took paragraph after paragraph from Wyclif's treatise On the Church, as the editor of the English text reports. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. This shows Wyclif's influence on Hus, not that English Lollard communities shaped the Bohemians.",
+   "note": "The English editor of Hus's On the Church reports that Hus took paragraph after paragraph from Wyclif's treatise on the same subject. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. Wyclif's teaching began Lollardy, but this shows his influence on Hus, not that English Lollard communities shaped the Bohemians.",
    "sources": [
     {
      "kind": "primary",
