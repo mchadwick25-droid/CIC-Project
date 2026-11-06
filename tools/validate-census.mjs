@@ -21,7 +21,7 @@ const CONFIDENCE = new Set(["Documented", "Widely Accepted", "Dominant Modern Re
 const SPECIFICITY = new Set(["A", "B", "C", "D", "E"]);
 const VERIFICATION = new Set(["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]);
 const SOURCE_KINDS = new Set(["primary", "secondary"]);
-const INTERNAL_NOTE = [/\.\.(?!\.)/, /\b(edges?|census|continuesAs|grade[ds]?)\b/i, /\b[IVX]+\.\d+[a-z]?\b/];
+const INTERNAL_NOTE = [/\.\.(?!\.)/, /\b(edges?|continuesAs|grade[ds]?)\b/i, /\b(the|this|our) census\b(?!\s+(recorded|listing|of\s+\d))/i, /\b[IVX]+\.\d+[a-z]?\b/];
 const squash = s => s.replace(/\s+/g, " ").trim();
 const textCache = new Map();
 function textLines(file) {
