@@ -29,11 +29,14 @@ drawn only from its own `region` text.
   there) and on all 62 gap stories, whose only copy is the map's embedded data.
   `engine/m6/census_atlas_sync.py` now counts `placeLabel` as a synced field.
 
-## Question for Mark's PL2 ruling
+## Familiar names (Mark, 2026-11-07: "use the familiar names")
 
-Where the region text gives an ancient or period name with the familiar one in brackets, the
-label keeps the name the text gives first: 57 entries, for example "Lugdunum (Lyon) and
-Vienne" became "Lugdunum · Vienne", and "Streanæshalch (Whitby)" became
-"Streanæshalch · Northumbria". Both choices are faithful to the text. The alternative is to use
-the bracketed familiar name wherever the text supplies one. Listed for one ruling with the
-disputed borders, not changed case by case.
+Where the region text gives two names for one place, the label shows the one a general reader
+knows. Of the 50 labels whose kept place is followed by a bracket, seven brackets are a more
+familiar name for the same place, and those labels changed: Lugdunum to Lyon, Streanæshalch to
+Whitby, Pozsony to Bratislava, Khanbaliq to Beijing, Sebaste to Sivas, Imkullu to Massawa,
+Baviaanskloof to Genadendal. The other 43 brackets are sub-places, containing regions or notes,
+not other names. Kept as written, because the first name is already the familiar one or neither
+is widely known: Paris (Lutetia), Mérida (Emerita Augusta), Squillace (Scolacium), Scetis (Wadi
+al-Natrun), Hierapolis (Koçhisar), Telanissos (Deir Sem'an). Every changed label still passes the
+validator: the familiar name is in the entry's own region text.

@@ -181,3 +181,8 @@ Their only copy is the data embedded in the map file, not the census, so their f
 census release. They have no name on the map, so the place line goes in the hover tip and the
 panel, not beside the icon.
 
+**Ruled the same day (Mark: "use the familiar names").** Where an entry's region text gives two
+names for one place, the place line shows the one a general reader knows. Applied to seven
+labels (Lyon, Whitby, Bratislava, Beijing, Sivas, Massawa, Genadendal); the record is
+`Build/Ministry/Operations/Audits/2026-11-07_place-labels/README.md`.
+
