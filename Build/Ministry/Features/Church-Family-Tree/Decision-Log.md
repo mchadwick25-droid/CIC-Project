@@ -174,3 +174,10 @@ go through the query service with a named client.
 
 **Next action.** Mark sees the revised chunk list once, then PL1 starts.
 
+**Added the same day (Mark: "do the same for the stories that are on the main page").** The 62
+gap stories, the map's book icons, get the same place line and modern countries, from their own
+`region` text and the same gazetteers, and their disputed borders join the same one-sitting list.
+Their only copy is the data embedded in the map file, not the census, so their fields change no
+census release. They have no name on the map, so the place line goes in the hover tip and the
+panel, not beside the icon.
+

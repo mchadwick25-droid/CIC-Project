@@ -65,7 +65,7 @@ applied to every shared file, not only the census.
 | R1–R3 | The rivers, one PR | Mark judges by eye on the preview | merged (#1526) |
 | P1a | Tree Worker and build script; full addresses for cross-site links | none | merged (#1527) |
 | C1 | Public site carries code only; notes moved to `Build/Ministry` | none | merged (#1528) |
-| PL1 | Place labels from each movement's own region text | none | todo |
+| PL1 | Place labels from each movement's and gap story's own region text | none | todo |
 | PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | todo |
 | PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | todo |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
@@ -136,10 +136,11 @@ request, because the census is served publicly the moment it merges: the data an
 ship together, after Mark's ruling.
 
 - **PL1, place labels.** A `placeLabel` on each of the 300 movements, shortened from its own
-  `region` text only: at most two places, then "and beyond". Never a place the entry doesn't
+  `region` text only, and on each of the 62 gap stories (the map's book icons), from the
+  story's own `region` text: at most two places, then "and beyond". Never a place the entry doesn't
   name. Sonnet drafts; a second, independent pass (a separate agent, given only the region
   text and the label) checks each label back against its region text.
-- **PL2, modern countries.** `modernCountries` on each movement: every country its places lie
+- **PL2, modern countries.** `modernCountries` on each movement and each gap story: every country its places lie
   in today, each with the gazetteer ID used (a Wikidata ID from its "country" property, and a
   Pleiades ID where the place is ancient). Looked up, never filled from memory. Every place
   under a disputed or politically sensitive border (Jerusalem and the Holy Land, parts of the
@@ -150,9 +151,12 @@ ship together, after Mark's ruling.
   with "today" explicit ("Carthage, today in Tunisia"). One legend line: "Places are given with
   the country they lie in today." A hidden river hides its place lines. The place line sits
   inside the movement's own group, so P2-K2's tap area takes it in. Where labels would collide,
-  the place line hides first. Data release 2.
+  the place line hides first. Gap stories have no name on the map, only an icon, so their
+  place line goes in the hover tip and the panel, with "today" stated; no text is added beside
+  the icons. Data release 2.
 - **Files:** `cic-website/data/world-census.json`, `tools/validate-census.mjs` (every movement
-  has a `placeLabel`; every modern country has a source ID), `cic-website/atlas-v3.html`,
+  has a `placeLabel`; every modern country has a source ID; given the map file too, the same
+  for every gap story, whose only copy is the map's embedded data), `cic-website/atlas-v3.html`,
   `Build/tools/generate_tree_pages.mjs` and the regenerated pages, an audit folder under
   `Build/Ministry/Operations/Audits/`, the decision log and Open-Gaps.
 - **Done means:** the validator passes; the independent check finds every label faithful to
