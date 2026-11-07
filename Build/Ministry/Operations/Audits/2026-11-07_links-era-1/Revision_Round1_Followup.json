@@ -1,0 +1,22 @@
+{
+  "round": 1,
+  "note": "Applied after Revision_Round1.json, closing the item the reviser left open.",
+  "prose_changes": [
+    {
+      "movement": "syriac-edessa-nisibis",
+      "field": "relationsSummary",
+      "paragraph": 0,
+      "old": "Its see of Nisibis passed into the Church of the East, and it is also a parent of the Syriac Orthodox Church. Their translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
+      "new": "Its see of Nisibis passed into the Church of the East. The Syriac Orthodox Church also counts it as a root. Syriac translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
+      "reason": "Revision follow-up: the Syriac Orthodox link is now Inferential-Thin, so 'a parent' is stated as that church's own claim; 'Their translators' had no clear referent."
+    },
+    {
+      "movement": "syriac-edessa-nisibis",
+      "field": "legacy",
+      "paragraph": 0,
+      "old": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+      "new": "Three groups of churches still worship in Syriac. They are the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All still sing Ephrem's hymns in their own worship, and each counts this tradition as a root.",
+      "reason": "Revision follow-up: 'all descend from this tradition' stated as fact a descent that the vendored sources document only for the Church of the East; now stated as the churches' own claim. Every other fact kept."
+    }
+  ]
+}

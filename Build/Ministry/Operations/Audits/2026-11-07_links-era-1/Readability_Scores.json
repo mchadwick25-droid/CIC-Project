@@ -14,9 +14,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 51.7,
-  "fre_after": 76.9,
-  "fk_after": 5.6,
-  "words": 62,
+  "fre_after": 68.7,
+  "fk_after": 8.9,
+  "words": 63,
   "passed": true
  },
  {
@@ -34,9 +34,9 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 35.1,
-  "fre_after": 64.2,
-  "fk_after": 7.3,
-  "words": 194,
+  "fre_after": 63.1,
+  "fk_after": 7.5,
+  "words": 208,
   "passed": true
  },
  {
@@ -44,9 +44,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 25.6,
-  "fre_after": 61.3,
-  "fk_after": 7.9,
-  "words": 117,
+  "fre_after": 60.7,
+  "fk_after": 8.3,
+  "words": 113,
   "passed": true
  },
  {
@@ -94,9 +94,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 32.7,
-  "fre_after": 64.6,
-  "fk_after": 7.9,
-  "words": 132,
+  "fre_after": 60.8,
+  "fk_after": 8.8,
+  "words": 129,
   "passed": true
  },
  {
@@ -114,9 +114,9 @@
   "field": "legacy",
   "paragraph": 2,
   "fre_before": -12.8,
-  "fre_after": 63.6,
-  "fk_after": 6.7,
-  "words": 38,
+  "fre_after": 63.5,
+  "fk_after": 7.6,
+  "words": 39,
   "passed": true
  },
  {
@@ -124,9 +124,9 @@
   "field": "legacy",
   "paragraph": 3,
   "fre_before": null,
-  "fre_after": 62.6,
-  "fk_after": 6.6,
-  "words": 33,
+  "fre_after": 63.1,
+  "fk_after": 7.4,
+  "words": 36,
   "passed": true
  },
  {
@@ -134,9 +134,19 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 47.8,
-  "fre_after": 64.9,
-  "fk_after": 6.9,
-  "words": 33,
+  "fre_after": 62.4,
+  "fk_after": 7.0,
+  "words": 39,
+  "passed": true
+ },
+ {
+  "movement": "syriac-edessa-nisibis",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 41.2,
+  "fre_after": 75.4,
+  "fk_after": 6.6,
+  "words": 46,
   "passed": true
  },
  {
@@ -160,6 +170,16 @@
   "passed": true
  },
  {
+  "movement": "tertullian-s-voice",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 38.1,
+  "fre_after": 67.6,
+  "fk_after": 7.7,
+  "words": 109,
+  "passed": true
+ },
+ {
   "movement": "marcion-marcionism",
   "field": "longDescription",
   "paragraph": 0,
@@ -174,9 +194,9 @@
   "field": "why",
   "paragraph": 0,
   "fre_before": 39.7,
-  "fre_after": 76.1,
-  "fk_after": 5.1,
-  "words": 90,
+  "fre_after": 65.1,
+  "fk_after": 9.2,
+  "words": 82,
   "passed": true
  },
  {
@@ -204,9 +224,9 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 42.2,
-  "fre_after": 65.5,
-  "fk_after": 6.7,
-  "words": 187,
+  "fre_after": 62.2,
+  "fk_after": 8.5,
+  "words": 188,
   "passed": true
  },
  {
@@ -214,9 +234,9 @@
   "field": "why",
   "paragraph": 0,
   "fre_before": 49.5,
-  "fre_after": 72.0,
-  "fk_after": 5.9,
-  "words": 87,
+  "fre_after": 65.7,
+  "fk_after": 8.4,
+  "words": 88,
   "passed": true
  },
  {
@@ -244,9 +264,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 17.5,
-  "fre_after": 61.7,
-  "fk_after": 6.9,
-  "words": 164,
+  "fre_after": 60.6,
+  "fk_after": 7.5,
+  "words": 161,
   "passed": true
  },
  {
@@ -284,8 +304,8 @@
   "field": "why",
   "paragraph": 0,
   "fre_before": 25.0,
-  "fre_after": 60.9,
-  "fk_after": 7.1,
+  "fre_after": 60.7,
+  "fk_after": 7.4,
   "words": 86,
   "passed": true
  },
@@ -314,9 +334,9 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 43.4,
-  "fre_after": 70.8,
-  "fk_after": 6.2,
-  "words": 265,
+  "fre_after": 62.5,
+  "fk_after": 9.1,
+  "words": 259,
   "passed": true
  },
  {
@@ -394,9 +414,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 24.2,
-  "fre_after": 63.7,
-  "fk_after": 6.7,
-  "words": 55,
+  "fre_after": 61.0,
+  "fk_after": 8.5,
+  "words": 61,
   "passed": true
  },
  {

@@ -3152,7 +3152,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome found Tertullian 'packed with meaning' but rough in style. He wrote that Origen should be read for his learning, 'just as we read Tertullian'.",
+   "note": "Jerome found Tertullian 'packed with meaning' but rough in style. He wrote that Origen should sometimes be read for his learning, 'just as we read Tertullian', taking the good and leaving the bad.",
    "sources": [
     {
      "kind": "primary",
@@ -3167,9 +3167,18 @@
      "kind": "primary",
      "work": "Jerome, Letter 62 (To Tranquillinus), 2",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
-     "lines": "15120-15121",
+     "lines": "15120-15122",
      "locus": "Ep. 62.2",
-     "quote": "My opinion is that we should sometimes read him for his learning just as we read Tertullian",
+     "quote": "My opinion is that we should sometimes read him for his learning just as we read Tertullian, Novatus, Arnobius, Apollinarius and some other church writers",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Letter 62 (To Tranquillinus), 2",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "15123-15124",
+     "locus": "Ep. 62.2",
+     "quote": "and that we should select what is good and avoid what is bad in their writings",
      "license": "public-domain"
     },
     {
@@ -3237,11 +3246,11 @@
    "sources": [
     {
      "kind": "primary",
-     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7",
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7. The sentence goes on to name Origen's 'Six Days' Work'; the quote stops before that title, which the file sets in italic markup and footnotes",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
-     "lines": "19268-19269",
+     "lines": "19268",
      "locus": "Ep. 84.7",
-     "quote": "Recently also Ambrose appropriated his <i>Six Days’ Work</i>,",
+     "quote": "Recently also Ambrose appropriated his",
      "license": "public-domain"
     },
     {
@@ -3310,9 +3319,9 @@
      "kind": "primary",
      "work": "Council in Trullo (Quinisext, 692), Canon 2",
      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-     "lines": "26744-26745",
+     "lines": "26742-26745",
      "locus": "Trullo can. 2",
-     "quote": "of Gregory the Wonder-worker, Bishop of Neocæsarea;",
+     "quote": "Likewise too the Canons [i.e. the decretal letters] of Dionysius, formerly Archbishop of the great city of Alexandria; and of Peter, Archbishop of Alexandria and Martyr; of Gregory the Wonder-worker, Bishop of Neocæsarea;",
      "license": "public-domain"
     }
    ],
@@ -3330,7 +3339,7 @@
     {
      "kind": "primary",
      "source_id": "alx.source.origen-comm-matthew",
-     "work": "Origen, Commentary on Matthew X.17",
+     "work": "Origen, Commentary on Matthew X.17. One sentence, split by editor's footnotes after 'Peter,' and 'James,'; this is its first part",
      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
      "lines": "30601-30602",
      "locus": "Comm. Matt. X.17",
@@ -3340,7 +3349,7 @@
     {
      "kind": "primary",
      "source_id": "alx.source.origen-comm-matthew",
-     "work": "Origen, Commentary on Matthew X.17",
+     "work": "Origen, Commentary on Matthew X.17. The same sentence, between the two footnotes",
      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
      "lines": "30604",
      "locus": "Comm. Matt. X.17",
@@ -3350,7 +3359,7 @@
     {
      "kind": "primary",
      "source_id": "alx.source.origen-comm-matthew",
-     "work": "Origen, Commentary on Matthew X.17",
+     "work": "Origen, Commentary on Matthew X.17. The same sentence, after the second footnote",
      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
      "lines": "30605-30607",
      "locus": "Comm. Matt. X.17",
@@ -3431,7 +3440,7 @@
    "to": "marcion-marcionism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Eusebius, writing in the early fourth century, says Bardaisan wrote dialogues in Syriac against Marcion's followers. He adds that Bardaisan's pupils translated them into Greek. The dialogues themselves are lost.",
+   "note": "Eusebius, writing in the early fourth century, says Bardaisan wrote dialogues in Syriac against Marcion's followers. He adds that Bardaisan's pupils translated them into Greek.",
    "sources": [
     {
      "kind": "primary",
@@ -3441,6 +3450,16 @@
      "lines": "26634-26637",
      "locus": "HE IV.30.1",
      "quote": "having composed dialogues against Marcion’s followers and against certain others who were authors of various opinions, committed them to writing in his own language, together with many other works.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History IV.30 (trans. McGiffert, NPNF 2.1, 1890); the subject is 'His pupils' on line 26637, split from the verb by an editor's note",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "26638-26639",
+     "locus": "HE IV.30.1",
+     "quote": "translated these productions from the Syriac into Greek.",
      "license": "public-domain"
     }
    ],
@@ -3509,12 +3528,19 @@
     {
      "kind": "primary",
      "source_id": "lpc.source.augustine-anti-manichaean-corpus",
-     "work": "Augustine, Reply to Faustus the Manichaean I.1 (trans. Stothert, NPNF 1.4)",
+     "work": "Augustine, Reply to Faustus the Manichaean I.1 (trans. Stothert, NPNF 1.4); the clause continues 'He is mentioned in my Confessions', split by an editor's note",
      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
      "lines": "4308",
      "locus": "Contra Faustum I.1",
-     "quote": "This man published a certain volume against the true Christian faith and the Catholic truth.",
+     "quote": "where there is an account of my acquaintance with him.  This man published a certain volume against the true Christian faith and the Catholic truth.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "NPNF 1.4 (ed. Schaff, 1887), heading to the Reply to Faustus the Manichaean",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "4292",
+     "quote": "Written about the year 400."
     },
     {
      "kind": "primary",
@@ -3557,6 +3583,23 @@
      "locus": "HE VI.24, title",
      "quote": "The Commentaries which he prepared at Alexandria.",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VI.24.3 (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "36069",
+     "locus": "HE VI.24.3",
+     "quote": "He wrote also the books De Principiis",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. C. McGiffert, note on Church History VI.24.3, in Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "36070-36071",
+     "quote": "which was written before he left Alexandria,"
     }
    ],
    "citation_specificity": "A",
@@ -3599,9 +3642,36 @@
    "from": "syriac-edessa-nisibis",
    "to": "persian-church-of-the-east-early",
    "type": "continued as",
-   "confidence": "Widely Accepted",
-   "note": "Nisibis passed to Persia in 363, and its church passed with it. At the synod of 410, its bishop Osee signed the Persian church's acts as a metropolitan. Historians treat that church as a daughter of Edessa's Christianity.",
+   "confidence": "Documented",
+   "note": "The Chronicle of Edessa names Jacob and Vologesh as bishops of Nisibis before 363. That year the city passed to Persia, and Ephrem withdrew to Edessa. At the Persian church's synod of 410, Osee of Nisibis signed the acts and was named second metropolitan.",
    "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 17 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "77",
+     "locus": "Chron. Edessa 17 (An. 649 = 337/8)",
+     "quote": "In the year 649, died Mar Jacob, bishop of Nisibis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, sections 23-24 (trans. Cowper); 'the same year' is An. 672, given in section 23",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "91",
+     "locus": "Chron. Edessa 24 (An. 672 = 360/1)",
+     "quote": "And in the same year, Vologesh, bishop of Nisibis, departed from this world.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "John Gwynn, introduction to Ephraim the Syrian, in Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "12207-12208",
+     "quote": "It was in July, 363, that Nisibis was surrendered to Persia by Jovian,"
+    },
     {
      "kind": "primary",
      "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
@@ -3628,13 +3698,6 @@
      "locus": "Synod of 410, list of metropolitans",
      "quote": "Second méiropo- litain : Osée, év. de Nisibe.",
      "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910), pp. 25-26",
-     "file": null,
-     "lines": null,
-     "quote": null
     }
    ],
    "citation_specificity": "A",
@@ -3645,27 +3708,37 @@
    "from": "syriac-edessa-nisibis",
    "to": "syriac-orthodox-west-syriac-christianity",
    "type": "gave rise to",
-   "confidence": "Widely Accepted",
-   "note": "The Chronicle of Edessa goes on listing the city's bishops after 410. In 519 a bishop who accepted Chalcedon expelled the monks who refused it. Later the anti-Chalcedonian leader Jacob Baradaeus was consecrated bishop for Edessa.",
+   "confidence": "Inferential-Thin",
+   "note": "The Chronicle of Edessa says its bishop Paul would not accept the synod of Chalcedon and was removed in 522. That December his successor expelled the monks who also refused it. Jacob Baradaeus was later consecrated bishop for Edessa, but these few notices are thin evidence for a line of descent.",
    "sources": [
     {
      "kind": "primary",
      "source_id": "syr.source.chronicle-of-edessa",
-     "work": "Chronicle of Edessa, sections 51 and 90 (trans. Cowper)",
+     "work": "Chronicle of Edessa, section 89 (trans. Cowper)",
      "file": "cic/texts/chronicle-of-edessa_cowper.txt",
-     "lines": "223",
-     "locus": "Chron. Edessa 90 (An. 831 = 519)",
-     "quote": "he expelled the Oriental monks, and all the monks their allies who were like them, because they did not consent to the synod of Chalcedon.",
+     "lines": "221",
+     "locus": "Chron. Edessa 89 (An. 831-833 = 519-522)",
+     "quote": "And Paul re-entered his seat in forty-four days, and he was a long time without receiving the synod, and when the king saw that he was not persuaded, he sent him to Euchata.",
      "license": "public-domain"
     },
     {
      "kind": "primary",
      "source_id": "syr.source.chronicle-of-edessa",
-     "work": "Chronicle of Edessa, section 51 (trans. Cowper)",
+     "work": "Chronicle of Edessa, section 89 (trans. Cowper)",
      "file": "cic/texts/chronicle-of-edessa_cowper.txt",
-     "lines": "145",
-     "locus": "Chron. Edessa 51 (An. 723 = 411/12)",
-     "quote": "The year 723, Rabula became bishop in Edessa.",
+     "lines": "221",
+     "locus": "Chron. Edessa 89 (Tammuz An. 833 = July 522)",
+     "quote": "And Paul departed from Edessa on Tammuz (July) 27, of the year 833, and Asclepius was (bishop) instead of him,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 90 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "223",
+     "locus": "Chron. Edessa 90 (Canun I, An. 834 = December 522)",
+     "quote": "he expelled the Oriental monks, and all the monks their allies who were like them, because they did not consent to the synod of Chalcedon.",
      "license": "public-domain"
     },
     {
@@ -3674,15 +3747,8 @@
      "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
      "lines": "26280-26282",
      "locus": "Lives 49",
-     "quote": "And, when both had received the high-priesthood, that is the blessed James that of the city of Edessa and Theodore that of Hirtha of the Saracens'",
+     "quote": "And, when both had received the high-priesthood, that is the blessed James that of the city of Edessa and Theodore that of Hirtha of the Saracens",
      "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910), pp. 25-26",
-     "file": null,
-     "lines": null,
-     "quote": null
     }
    ],
    "citation_specificity": "A",
@@ -3696,16 +3762,6 @@
    "confidence": "Documented",
    "note": "An anonymous writer of about 192, quoted by Eusebius, says the faithful of Asia met many times to examine the Phrygian prophets' teaching. They rejected it as heresy and cut its followers off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.",
    "sources": [
-    {
-     "kind": "primary",
-     "source_id": "pahc.source.anti-montanist-fragments",
-     "work": "The Anonymous anti-Montanist, Book I, quoted in Eusebius HE V.16 (ANF 7, printed as 'Asterius Urbanus')",
-     "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
-     "lines": "11308",
-     "locus": "Anon. Book I (= HE V.16.9-10)",
-     "quote": "And those few who were thus deluded were Phrygians.",
-     "license": "public-domain"
-    },
     {
      "kind": "primary",
      "source_id": "pahc.source.anti-montanist-fragments",
@@ -3994,7 +4050,7 @@
    "to": "marcion-marcionism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Justin, writing at Rome while Marcion was still alive, names Marcion of Pontus and charges him with teaching a god greater than the Creator. In his Dialogue with Trypho he lists the Marcians among groups who wrongly call themselves Christians.",
+   "note": "Justin names Marcion of Pontus while Marcion was still alive, and charges him with teaching a god greater than the Creator. In his Dialogue with Trypho he lists the Marcians among groups who wrongly call themselves Christians.",
    "sources": [
     {
      "kind": "primary",
@@ -4226,7 +4282,7 @@
     {
      "kind": "primary",
      "source_id": "syr.source.eusebius-historia-ecclesiastica",
-     "work": "Eusebius, Church History VII.28.1 (trans. McGiffert, NPNF2 1); Gregory is named on line 41872",
+     "work": "Eusebius, Church History VII.28.1 (trans. McGiffert, NPNF2 1). The clause reads 'the brothers Gregory and Athenodorus, pastors of the churches in Pontus'; an editor's footnote after 'Gregory' (line 41872) splits it, so the quote gives the part after the note",
      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
      "lines": "41874",
      "locus": "HE VII.28.1",
@@ -4243,7 +4299,7 @@
    "to": "roman-church-third-century",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "The bishops who deposed Paul of Samosata at Antioch addressed their letter to Dionysius, bishop of Rome, and to Maximus of Alexandria. When Paul kept the church building, Aurelian gave it to whoever the bishops of Italy and Rome named.",
+   "note": "The bishops who deposed Paul of Samosata at Antioch addressed their letter to Dionysius, bishop of Rome, and to Maximus of Alexandria.",
    "sources": [
     {
      "kind": "primary",
@@ -4254,16 +4310,74 @@
      "locus": "HE VII.30.2",
      "quote": "To Dionysius and Maximus, and to all our fellow-ministers throughout the world, bishops, presbyters, and deacons, and to the whole Catholic Church under heaven,",
      "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "anatolian-church-third-century--hieronymian-ascetic-literary",
+   "from": "anatolian-church-third-century",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his catalogue of Christian writers, Jerome lists the works of Methodius of Olympus, among them the Banquet of the ten virgins. He names the book, but whether he drew on it in his own writing is not shown.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 83 (Methodius). The book titles are set in italic markup in the file, kept here so the quote matches it",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "41096-41098",
+     "locus": "DVI 83",
+     "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books <i>Against Porphyry</i> written in polished and logical style also a <i>Banquet of the ten virgins,</i>",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+   "from": "imperial-juridical-christianity",
+   "to": "ebionite-nazoraean-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Eusebius of Caesarea finished his Church History around 324, under Constantine. In it he says the evil demon brought the Ebionites over to his own purposes. They were rightly named, he writes, for their 'poor and mean opinions concerning Christ'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History III.27.1 (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "18514-18516",
+     "locus": "HE III.27.1",
+     "quote": "The ancients quite properly called these men Ebionites, because they held poor and mean opinions concerning Christ.",
+     "license": "public-domain"
     },
     {
      "kind": "primary",
-     "source_id": "syr.source.eusebius-historia-ecclesiastica",
-     "work": "Eusebius, Church History VII.30.19 (trans. McGiffert, NPNF2 1)",
+     "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History III.27.1 (trans. McGiffert, NPNF 2.1, 1890)",
      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-     "lines": "42326-42328",
-     "locus": "HE VII.30.19",
-     "quote": "he decided the matter most equitably, ordering the building to be given to those to whom the bishops of Italy and of the city of Rome should adjudge it.",
+     "lines": "18513-18514",
+     "locus": "HE III.27.1",
+     "quote": "yet found them susceptible in a different direction, and so brought them over to his own purposes.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. C. McGiffert, prolegomena to Eusebius's Church History, 'Date of its Composition', in Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "4552-4553",
+     "quote": "It closes with a eulogy of Constantine and his son Crispus;"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. C. McGiffert, prolegomena to Eusebius's Church History, 'Date of its Composition' (NPNF 2.1, 1890); the sentence places the completion of the History in the year 324",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "4570-4571",
+     "quote": "or, to give the widest possible limits, between the latter part of 323 and the early part of 325"
     }
    ],
    "citation_specificity": "A",
@@ -4418,7 +4532,7 @@
     "Most of these communities' hosts and householders are never named in the record. The gatherings met in their homes, but no record says whose.",
     "Two enslaved women who served among these communities, called ministrae, are named only by their Roman interrogator's own word for their office — never by their own names. A governor had them tortured around the year 112 to learn what Christians did; it is the earliest outside evidence that women here held a formal title at all."
    ],
-   "legacy": "Almost every Christian tradition claims a root in these early gatherings. The basic rhythm of Christian worship shows up earliest here. Believers met on the first day of the week. They read aloud from the prophets and from the apostles' memoirs. And they shared the bread and the cup, either in a full common meal or as the bread and wine alone.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come.",
+   "legacy": "Almost every Christian tradition claims a root in these early gatherings, and the basic rhythm of Christian worship shows up earliest here. Believers met on the first day of the week and read aloud from the prophets and from the apostles' memoirs. And they shared the bread and the cup, either in a full common meal or as the bread and wine alone.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come.",
    "sources": [
     {
      "work": "Ignatius of Antioch, Epistle to the Ephesians",
@@ -4522,7 +4636,7 @@
    "sourcing": "Unusually good. Justin's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several other traditions here have.",
    "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
    "why": "For eighty years, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by arguing that Greek philosophy itself had been reaching toward Christ. Justin ran a school at Rome and was executed for his teaching around 165. A generation later, Theophilus of Antioch, writing to a pagan friend, became the first Christian author on record to call God by the word 'Trinity.'",
-   "longDescription": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defense of his religion. For the next eighty years, others kept doing the same. Aristides did it at Athens. Justin did it twice, and was put to death for it about 165. He was a philosopher who kept wearing the philosopher's cloak after his conversion, and he ran a school at Rome. Athenagoras addressed Marcus Aurelius, and so did Melito of Sardis. Theophilus wrote three books to a pagan friend named Autolycus. An unknown writer produced the letter to Diognetus, still the most quoted thing any of them wrote. The charges were always roughly the same, and so were the answers. Christians were called atheists because they had no images. They were called cannibals because of what they said about eating a body. And they were called disloyal because they would not sacrifice. What made the effort interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
+   "longDescription": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defense of his religion. For the next eighty years, others kept doing the same. Aristides did it at Athens. Justin did it twice, and was put to death for it about 165. He was a philosopher who kept wearing the philosopher's cloak after his conversion, and he ran a school at Rome. He also attacked Marcion and the Valentinians, whom he called Christians in name only. Athenagoras addressed Marcus Aurelius, and so did Melito of Sardis. Theophilus wrote three books to a pagan friend named Autolycus. An unknown writer produced the letter to Diognetus, still the most quoted thing any of them wrote. The charges were always roughly the same, and so were the answers. Christians were called atheists because they had no images. They were called cannibals because of what they said about eating a body. And they were called disloyal because they would not sacrifice. What made the effort interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
    "teaser": "Eighty years of Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that Plato had been half right.",
    "voices": [
     "Quadratus - the earliest, who gave Hadrian a defense around 124 and survives in a single paragraph",
@@ -4533,7 +4647,7 @@
     "Melito of Sardis - bishop, apologist to Marcus Aurelius, and author of a Paschal homily recovered in the twentieth century",
     "The writer to Diognetus - anonymous, undated, and the most quoted of all of them"
    ],
-   "legacy": "Justin made a bold claim. Before the incarnation, he said, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived every other line the movement produced. It calls Christians resident aliens, at home everywhere and strangers everywhere.",
+   "legacy": "Justin argued that, before the incarnation, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived all the others the movement wrote. It calls Christians resident aliens, at home everywhere and strangers everywhere.",
    "documentedStories": [
     {
      "title": "Justin’s Trial Before the Prefect Rusticus",
@@ -4736,7 +4850,7 @@
     "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch, and recovered from an Egyptian grave in 1886",
     "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
    ],
-   "legacy": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. The irony is plain. They were kept by the tradition that had parted from the one that produced them.",
+   "legacy": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. Ironically, they were kept by the tradition that had parted from the one that produced them.",
    "documentedStories": [
     {
      "title": "Serapion Reads the Gospel of Peter Properly",
@@ -4988,7 +5102,7 @@
     "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
     "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
    ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nDid the tradition also feed the rise of Egypt's monks? That is still argued. One modern reading finds Origen's ideas in the letters of Antony. Athanasius tells a different story: a boy raised at home by Christian parents.\n\nThe church of Alexandria itself had two minds about the school. Its History of the Patriarchs was put together centuries later. It condemns the books of Origen. But it honors Dionysius as patriarch.",
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not learn letters.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
    "sources": [
     {
      "work": "Clement of Alexandria, Stromata (Miscellanies)",
@@ -5062,7 +5176,7 @@
    "c2": null,
    "sourcing": "Rich in hymns and doctrinal teaching (Ephrem, Aphrahat's twenty-three Demonstrations); thin on ordinary believers, the daughters of the covenant's own words, and the years after Ephrem's death in 373.",
    "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
-   "relationsSummary": "It is the parent of the Church of the East and the Syriac Orthodox Church. Their translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
+   "relationsSummary": "Its see of Nisibis passed into the Church of the East. The Syriac Orthodox Church also counts it as a root. Syriac translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
    "why": "This is the church that sang its teaching rather than argued it in treatises - Ephrem's hymns carried its doctrine, and men and women bound themselves to a covenant of celibacy and service inside the ordinary congregation, not apart from it.",
    "entry": {
     "representativeId": "mar-yausep",
@@ -5167,7 +5281,7 @@
     "The daughters of the covenant sang this tradition's hymns in every church that had them. Not one line composed by one of them survives; everything known of their voices—their vows, their singing, their service—was written by men.",
     "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
    ],
-   "legacy": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.\n\nWithin a generation of this tradition's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
+   "legacy": "Three groups of churches still worship in Syriac. They are the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All still sing Ephrem's hymns in their own worship, and each counts this tradition as a root.\n\nWithin a generation of this tradition's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
    "experienceToday": [
     {
      "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",
@@ -5445,7 +5559,7 @@
     "Tertullian of Carthage — the tradition is one man: a convert, probably a trained rhetorician, writing in Carthage from roughly 197 to 220",
     "Cyprian of Carthage — not a follower, but Jerome reports that Cyprian read Tertullian every day and would ask for the volume by saying 'give me the master'"
    ],
-   "legacy": "No community descends from him — there is some evidence of a small group of followers in Carthage after his death, and nothing beyond that. His legacy is linguistic and rhetorical: the Latin words for the Trinity, and lines that entered the common speech of Christianity, most famously his claim that the blood of Christians is seed. Cyprian, Jerome and Augustine all read him closely, and the Western habit of thinking about God, the church and the sacraments in legal and forensic categories owes a great deal to a man who was never canonized and never quite belonged anywhere.",
+   "legacy": "No community descends from him. There is some evidence of a small group of followers in Carthage after his death, and nothing beyond that. His legacy lies in words and rhetoric. He gave Latin its words for the Trinity, and lines that entered the common speech of Christians, most famously his claim that the blood of Christians is seed. Cyprian and Jerome read him closely, and Augustine called his many works eloquent and still read. The Western habit of thinking about God, the church and the sacraments in legal terms owes a great deal to him. Yet he was never made a saint, and he never quite belonged anywhere.",
    "documentedStories": [
     {
      "title": "The Soldier Who Would Not Wear the Crown",
@@ -5540,7 +5654,7 @@
    "sourcing": "Substantial, almost entirely via opponents",
    "floorNote": "Marcion taught two distinct gods — the creator of the Hebrew Scriptures and a higher Father revealed by Jesus — and a Christ who only appeared to have a body. Both directly contradict the creed's confession of one God, maker of all things, and a Son truly made flesh.",
    "relationsSummary": "Second-century rival the proto-orthodox defined themselves against",
-   "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the God of the Hebrew Scriptures was strict and gave the law. The Father whom Jesus revealed was merciful. To Marcion, these could not be the same being. The Roman church expelled him and gave back his money. By tradition, this happened in 144. He then built a rival network of churches with its own edited Scripture. It held a version of Luke and ten letters of Paul. He had stripped them of what he judged to be Jewish corruption.",
+   "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the strict God of the Hebrew Scriptures, who gave the law, could not be the same being as the merciful Father whom Jesus revealed. The Roman church expelled him and gave back his money, by tradition in 144. He then built a rival network of churches with its own edited Scripture: a version of Luke and ten letters of Paul, which he had stripped of what he judged to be Jewish corruption.",
    "entry": null,
    "teaser": "Rome and across the empire, c. 140 into the 300s CE — a shipowner who concluded the God of the Hebrew Scriptures could not possibly be the Father of Jesus, and built a rival church on that conviction.",
    "longDescription": "Marcion came from Sinope on the Black Sea, made a considerable fortune in shipping, and arrived in Rome around 140 where he gave the church there a very large donation. Reading Paul on law and grace, he concluded that the just, law-giving creator of the Hebrew Scriptures and the merciful Father whom Jesus revealed were simply two different beings. And that Christ, sent by the higher God into a world he had not made, could not have taken real flesh from it. The Roman church expelled him and returned his money. The break is usually dated to 144. One recent study argues that date marks his arrival instead. He replied by organizing congregations of his own, which spread fast along the trade routes he knew and endured for centuries in the East. He gave them their own Scripture: a single gospel based on Luke and ten letters of Paul, edited to remove what he judged to be Jewish corruption, together with a book called the Antitheses setting the two Gods against one another point by point. Not one line of his own writing survives. Everything we have comes through the men who wrote to refute him, above all Tertullian, whose Against Marcion runs to five books.",
@@ -5681,10 +5795,10 @@
    "sourcing": "Rich own corpus survives",
    "floorNote": "Co-original dualism denies 'maker of all things'; most scholars: a distinct universal religion",
    "relationsSummary": "Augustine's own former allegiance",
-   "why": "Mani was born in Mesopotamia in 216. A sect of baptizers raised him. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness. In it, sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose. His faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+   "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
    "entry": null,
    "teaser": "From Persia to the Mediterranean and on to China, from 216 CE into the centuries beyond — a prophet who set out to found the one universal religion, and whose one intact surviving temple still stands on a hillside in Fujian.",
-   "longDescription": "Mani was born in Mesopotamia in 216. He was raised in a sect of baptizers. He broke with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two principles, Light and Darkness, which have both always existed. Particles of light are trapped in the material world. A strict discipline of self-denial sets them free. Almost alone among founders of his era, he wrote his own scriptures. He also had them translated on purpose. He meant his faith to absorb and replace Christianity, Zoroastrianism and Buddhism at once. For a time, it worked. The faith spread from Persia across the Roman Empire. It also spread east along the Silk Road into Central Asia and China. His followers divided into two groups. The Elect kept the full discipline. The Hearers supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion. He spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "longDescription": "Mani was born in Mesopotamia in 216 and raised in a sect of baptizers. He broke with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two principles, Light and Darkness, which have both always existed. Particles of light are trapped in the material world, and a strict discipline of self-denial sets them free. Almost alone among the founders of his era, he wrote his own scriptures and had them translated on purpose. He meant his faith to absorb and replace Christianity, Zoroastrianism and Buddhism at once. For a time, it worked. The faith spread from Persia across the Roman Empire, and east along the Silk Road into Central Asia and China. His followers fell into two groups: the Elect, who kept the full discipline, and the Hearers, who supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion. He spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
    "voices": [
     "Mani — the founder, who wrote his own scriptures rather than leaving the task to disciples, and died in a Persian prison",
     "Faustus of Milevis — the Manichaean bishop whose teaching Augustine sought out as a young man and later refuted at length",
@@ -5825,7 +5939,7 @@
     "Tertullian of Carthage — the movement's most articulate Latin defender, and the only sympathetic writer whose work survives in quantity",
     "The ordinary members are the gap in the record: almost everything else comes through hostile writers such as Apollonius and the anonymous author quoted by Eusebius"
    ],
-   "legacy": "No church descends from the New Prophecy. In the sixth century, under Justinian, the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles. There are also inscriptions on graves in Phrygia. But whether they are Montanist is itself argued over. That is the honest problem. Almost all the surviving evidence comes through two sources: the three named prophets, and their enemies. Does the community's own voice survive anywhere? That is not yet settled. What outlasted the movement are the questions it forced. Did prophecy go on after the apostles? Who may authorize it? How does a church tell genuine inspiration from enthusiasm? Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No line of descent links any later movement to it.",
+   "legacy": "No church descends from the New Prophecy. In the sixth century, under Justinian, the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles. There are also some graves in Phrygia with inscriptions, but whether those are Montanist is itself argued over. That is the honest difficulty: nearly all the evidence comes through the three named prophets and their enemies. Whether any of the community's own words remain is not yet settled. What outlasted it are the questions it forced. Did prophecy go on after the apostles? Who may authorize it? How does a church tell genuine inspiration from enthusiasm? Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No line of descent links any later movement to it.",
    "documentedStories": [
     {
      "title": "The Sister Who Saw Visions During the Service",
@@ -6033,7 +6147,7 @@
    "sourcing": "Modest and mixed. Gregory's Panegyric to Origen and his Canonical Epistle survive and both are first-hand; Methodius' Banquet survives whole. But a substantial part of what circulates under both names is marked dubious or spurious by scholars, and the Life of Gregory that carries most of the stories about him was written a century later by Gregory of Nyssa.",
    "floorNote": "Not in question",
    "relationsSummary": "This is the ground the Cappadocian tradition grows from, and it knows it. Basil's grandmother Macrina taught him the words of Gregory Thaumaturgus. Basil points to Gregory's practice as a precedent. Origen's reach runs through it both ways. Gregory was his devoted pupil. Methodius was one of his first serious critics.",
-   "why": "Gregory of Neocaesarea was a devoted pupil of Origen. In the 250s, some Christians looted with Gothic raiders. Gregory wrote a canonical letter, a letter of rules for the church, about them. It worked out what to do with them, case by case. Methodius of Olympus came a generation later. He turned Plato's Symposium into a Christian dialogue. In it, ten women take turns to praise chastity. He also became one of the first serious critics of Origen. Then he died in the persecution around 311.",
+   "why": "Gregory of Neocaesarea was a devoted pupil of Origen. In the 250s, some Christians looted with Gothic raiders. Gregory wrote a canonical letter, a letter of rules for the church, about them. It worked out what to do with them, case by case. Methodius of Olympus came a generation later. He turned Plato's Symposium into a Christian dialogue in which ten women take turns to praise chastity. He was also one of the first serious critics of Origen. Then he died in the persecution around 311.",
    "entry": null,
    "longDescription": "Gregory of Neocaesarea went south to study law and came back a bishop. Instead of law, he had fallen in with Origen at Caesarea and stayed five years. A farewell address bears his name. It is one of the warmest pictures of a teacher that anyone wrote in antiquity, though some scholars doubt that he wrote it. What he did in Pontus after that is mostly legend. One story says he found seventeen Christians in the city and left seventeen pagans. But that story comes from a century after his time. One document survives, though, that is not legend at all. When Gothic raiders came through in the 250s, Gregory wrote a canonical letter, a letter of church rules. It worked out what to do about Christians who had looted alongside the raiders, or informed, or kept what the raiders left. It shows a bishop dealing with a wrecked province, case by case. A generation later and further south, Methodius was bishop of Olympus in Lycia. He wrote the Banquet of the Ten Virgins, a Christian rewriting of Plato's Symposium. In it, ten women take turns praising chastity. He also became one of the first substantial critics of Origen, whose most devoted pupil had been Gregory. Methodius died in the persecution around 311.",
    "teaser": "Between the house churches and Nicaea, the church of Asia Minor left almost nothing behind - except a bishop's ruling on what to do with Christians who looted alongside the Goths, and ten women arguing about chastity at a banquet.",
@@ -6115,7 +6229,7 @@
    "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher. Its tie to modalist monarchianism is a mirror, not a line of descent. Paul taught adoptionism and Sabellius taught modalism. These were opposite ways of refusing the account of the Son that the century was working out.",
    "why": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius had to explain why.",
    "entry": null,
-   "longDescription": "In 268 or thereabouts, the bishops of Syria and Asia Minor met at Antioch to deal with their own metropolitan. It was the third time in a few years. Paul of Samosata was bishop of the greatest city in the Roman East. The council that removed him says he liked to be called ducenarius. That was a salaried official's title, probably held under the Palmyrene rulers of the city. The charges mix doctrine with deportment. He had a raised throne built for himself in church. He stopped the old hymns and had new ones sung to himself. Women in his household gave scandal. The teaching at issue was that Christ was a man in whom the Word had come to dwell. On this view, he was not the Word made flesh. The reading was later called adoptionist. The council could not make its removal of him stick. The civil power was Palmyrene, and Paul had its favor. He went only when Aurelian retook the city in 272. The emperor settled who owned the church building by asking which claimant was in communion with the bishops of Italy and Rome. It was the first time a Roman emperor ruled on a Christian dispute. The letter announcing the deposition was drafted by Malchion. He ran a school of rhetoric in the city. He had cross-examined Paul in front of shorthand writers. A generation later, in the same city, a presbyter named Lucian worked over the text of the Greek Bible. He taught a circle of students, Arius among them. Afterwards they used his name as a badge.",
+   "longDescription": "In 268 or thereabouts, the bishops of Syria and Asia Minor met at Antioch to deal with their own metropolitan, for the third time in a few years. Paul of Samosata was bishop of the greatest city in the Roman East. The council that removed him says he liked to be called ducenarius, a salaried official's title, probably held under the Palmyrene rulers of the city. The charges mix doctrine with deportment. He had a raised throne built for himself in church, he stopped the old hymns and had new ones sung to himself, and women in his household gave scandal. The teaching at issue was that Christ was a man in whom the Word had come to dwell, not the Word made flesh. The reading was later called adoptionist. The council could not make its removal of him stick, because the civil power was Palmyrene and Paul had its favor. He went only when Aurelian retook the city in 272. The emperor settled who owned the church building by asking which claimant was in communion with the bishops of Italy and Rome. It was the first time a Roman emperor ruled on a Christian dispute. The letter announcing the deposition was drafted by Malchion, who ran a school of rhetoric in the city and had cross-examined Paul in front of shorthand writers. A generation later, in the same city, a presbyter named Lucian worked over the text of the Greek Bible. He taught a circle of students, Arius among them, who afterwards used his name as a badge.",
    "teaser": "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building.",
    "voices": [
     "Paul of Samosata - bishop of Antioch and Palmyrene official, deposed for teaching that Christ was a man indwelt by the Word, surviving only in his enemies' minutes",
@@ -6449,7 +6563,7 @@
    "c2": null,
    "sourcing": "Very thin, and one voice. Victorinus of Pettau's two surviving works - On the Creation of the World and the Commentary on the Apocalypse, about nineteen thousand words together - are the only Danubian Latin Christian writing known to survive. Both reach us through Jerome, who revised the Apocalypse commentary to remove its millenarianism, so the received text is not quite what Victorinus wrote. Everything else about the region's church is known from outside it: conciliar records, Ambrose, and the paperwork of the Homoian controversy.",
    "floorNote": "Not in question. The Homoian bishops who later dominate this region are assessed under Homoian Christianity, not here.",
-   "relationsSummary": "It sits between two neighbors. One is Latin pastoral Christianity at Carthage. It has the same language, but not the same region. The other is Homoian Christianity, which has the same region. Fifty years later, its leaders held sees in these provinces. Its own commentary on the Apocalypse comes to us as Jerome edited it.",
+   "relationsSummary": "It sits between two neighbors. One is Latin pastoral Christianity at Carthage, with the same language but not the same region. The other is Homoian Christianity, with the same region; fifty years later its leaders held sees in these provinces. This church's own bishop, Victorinus, wrote on the Apocalypse, and Jerome later put out his book again with a new ending.",
    "why": "Victorinus of Pettau, a bishop on the frontier river Drava, wrote the first Latin biblical commentaries around the year 300, though Jerome said he knew Greek better than his own Latin. Victorinus read the seals, trumpets, and bowls of Revelation not as a sequence but as the same events told three times over, a reading that passed into the standard Western way of reading the book even after Jerome quietly rewrote his ending to remove its literal thousand-year reign. He died in the persecution around 304.",
    "entry": null,
    "longDescription": "Poetovio sat on the Drava in Pannonia Superior, a road town on the frontier, and around the year 300 its bishop was writing commentaries on scripture in Latin - the first anyone is known to have written. Jerome, who came from the same corner of the world and read him carefully, said Victorinus knew Greek better than Latin, so that his works were excellent in sense and inferior in style; what Jerome did not say, and did, was that he found the theology objectionable too. Victorinus expected a literal thousand-year reign of the saints on earth, which was ordinary enough in his own generation and had become an embarrassment by Jerome's, so when Jerome reissued the Commentary on the Apocalypse he rewrote the ending. He also kept the thing that mattered most in it. Victorinus had seen that the seals, the trumpets and the bowls are not a sequence of events but the same events told three times over, and that reading - recapitulation - is the one the Latin West went on using. He died in the persecution around 304. Within fifty years the same provinces were the base of the bishops who ran the Homoian church of the West: Valens of Mursa and Ursacius of Singidunum, the Sirmium creeds of the 350s, and finally Palladius of Ratiaria, deposed at Aquileia in 381 by a council that came up from Italy to do it.",
