@@ -1,0 +1,1619 @@
+{
+ "group": "C",
+ "movements": [
+  "iconophile-byzantine-monasticism",
+  "byzantine-imperial-church-heraclian-iconoclast",
+  "byzantine-imperial-church-macedonian",
+  "paulicians",
+  "bogomils"
+ ],
+ "dispositions": [
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Heir of Greek monastic lines; parent of Athonite monasticism",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "desert-monasticism--iconophile-byzantine-monasticism",
+   "prose_change": 0,
+   "reason": "Broad claim with no single census party before 726. The existing desert link carries the Egyptian strand (thin, as its note says). The Chalcedonian monasteries of the Judean desert (era 3) are a possible fit, since John of Damascus wrote from Mar Saba, but no vendored text ties him to that house, so no link is drafted. Left as written; the summary's second half is changed (prose change 0)."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Heir of Greek monastic lines; parent of Athonite monasticism",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "qualify",
+   "link_id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "prose_change": 0,
+   "reason": "New continued-as link graded Inferential-Thin; 'parent' becomes 'forerunner' to match. In scope: this entry's own text names the era-5 entry."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images, and both times the strongest organized resistance came from the monasteries.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Carried by two new argued-against links, one each way: the 754 council cursing John of Damascus (Documented) and the monks' resistance (Widely Accepted)."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "why",
+   "sentence": "Twice over a century, Byzantine emperors tried to purge Christian worship of images, and both times monks led the resistance, arguing that a God who had become visible in a human being could rightly be painted.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Carried by two new argued-against links, one each way: the 754 council cursing John of Damascus (Documented) and the monks' resistance (Widely Accepted)."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Stephen the Younger was killed in 765, and Theodore, abbot of the great Stoudios monastery in Constantinople, was beaten, imprisoned and exiled more than once while still producing letters, talks to his monks, and treatises on the holy icons.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Carried by the new court-against-monks link. Stephen the Younger (765) and Theodore's beatings and exiles are not in any vendored text; the claims are standard (Life of Stephen; Theodore's letters, both named in the census sources) and are left as written, with the texts listed in wants. Same rule question as the era-2 escalation on well-established facts without a vendored source."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "why",
+   "sentence": "Stephen the Younger was killed for the argument in 765, and Theodore of Stoudios was beaten, imprisoned and exiled more than once before icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Same as the longDescription sentence: the new link carries the persecution; Stephen's death in 765 is unsourced in the vendored texts and listed in wants."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Images were restored once at the Council of Nicaea in 787 and finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+   "prose_change": null,
+   "reason": "The restoration of 843 and the Feast of Orthodoxy fall at the start of the Macedonian-era church. Carried by the new influenced link (Photius reading Nicephorus and Sergius; Harnack via NPNF 14 on the annual feast)."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "The winning side wrote the record, and the iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "Checked and supported: the 754 Horos survives only inside the acts of Nicaea II (Percival's note, npnf214 lines 39523-39527). Cited in the drafter flags of the monks' argued-against link."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "The same monastic tradition continues directly as Athonite monasticism and, through it, the wider Orthodox monastic world.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "qualify",
+   "link_id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "prose_change": 1,
+   "reason": "'Continues directly' over-stated an Inferential-Thin link; the legacy is rewritten to say what is shown and that little survives to show the handover."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Its theology of the image became settled Orthodox doctrine.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+   "prose_change": 1,
+   "reason": "Inventory gave no party; the first church to hold the image theology as settled teaching is the Macedonian-era church. Carried by the new influenced link. Sentence kept in the rewritten legacy ('teaching' for 'doctrine', for readability)."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Theodore's reorganization of Stoudios also shaped later Byzantine and Slavic monastic rules well beyond his own house.",
+   "other_id": "kievan-rus-christianity-1054-1240",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "prose_change": 1,
+   "reason": "Inventory gave no party. The vendored Mouravieff names the Kyiv Caves as a Slavic house that took the Stoudite rule; that falls in the era-5 Kyiv entry. New Dominant Modern Reconstruction link. The Byzantine half ('later Byzantine ... rules') has no vendored source; left as written. Kept in the rewritten legacy with 'rule' for 'reorganization'."
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Images were restored once at the Council of Nicaea in 787 and finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "Added (not in the inventory): the 787 council is inside the heraclian entry. Monks sat at it (Sabbas of Stoudios, Act I); carried by the monks' argued-against link."
+  },
+  {
+   "movement": "paulicians",
+   "field": "relationsSummary",
+   "sentence": "Deported en masse by Byzantium - also a victim story",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "prose_change": null,
+   "reason": "The deportations ran across both imperial entries: Constantine V to Thrace (8th c., heraclian) and John Tzimiskes to Plovdiv (970, macedonian). Carried by two new argued-against links, both Dominant Modern Reconstruction on Rački and Evans."
+  },
+  {
+   "movement": "paulicians",
+   "field": "relationsSummary",
+   "sentence": "Deported en masse by Byzantium - also a victim story",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "Second half of the same claim: the 970 transfer under John Tzimiskes (Rački p. 104)."
+  },
+  {
+   "movement": "paulicians",
+   "field": "longDescription",
+   "sentence": "Byzantine heresy-hunters describe a movement that rejected the Old Testament, the cross, the sacraments and the veneration of Mary, and held a dualist view of the world.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "Inventory filed this under the heraclian entry; by date the named heresy-hunters (Peter of Sicily, c. 868-870; Photius) belong to the Macedonian-era church. Carried there. The hostile-sources framing matches the census source notes (Hamilton and Hamilton; Garsoian; Dixon)."
+  },
+  {
+   "movement": "paulicians",
+   "field": "longDescription",
+   "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "prose_change": null,
+   "reason": "Carried by the new heraclian link (persecution under Michael I, 811-813) and the macedonian link (Theodora, 845). The earlier campaigns are in Peter of Sicily only (wanted)."
+  },
+  {
+   "movement": "paulicians",
+   "field": "longDescription",
+   "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The caliphate has no census entry. No vendored text found for the alliance; standard (Peter of Sicily, Genesios). Left as written; same rule question as the era-2 escalation."
+  },
+  {
+   "movement": "paulicians",
+   "field": "longDescription",
+   "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "The Tephrike state and its fall (878, under Basil I) belong to the Macedonian-era church's window; carried by the macedonian link. Evans names the free state of Tephrike; no vendored text gives the year 878 (wanted). Not drafted as a reverse argued-against: the raids were war on the empire, not acts against the church."
+  },
+  {
+   "movement": "paulicians",
+   "field": "longDescription",
+   "sentence": "Later emperors deported whole Paulician populations to the Balkans.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "Carried by the macedonian link (Tzimiskes, 970)."
+  },
+  {
+   "movement": "paulicians",
+   "field": "why",
+   "sentence": "Byzantine heresy hunters describe the Paulicians as rejecting the Old Testament, the cross and the sacraments, though whether that is what the movement itself believed or what its enemies needed it to believe cannot now be settled, since no Paulician account of their own faith survives.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "Same claim as the longDescription's heresy-hunters; by date the macedonian link (inventory said heraclian)."
+  },
+  {
+   "movement": "paulicians",
+   "field": "why",
+   "sentence": "What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "prose_change": null,
+   "reason": "Same as the longDescription sentence."
+  },
+  {
+   "movement": "paulicians",
+   "field": "why",
+   "sentence": "What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--paulicians",
+   "prose_change": null,
+   "reason": "Same as the longDescription sentence; 878 unsourced, wanted."
+  },
+  {
+   "movement": "paulicians",
+   "field": "legacy",
+   "sentence": "Nothing institutional survived: the Paulician state ended with Tephrike in 878, and the communities deported into Thrace were absorbed or converted over the following centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census party. Checked: Rački (p. 104, the Plovdiv Paulicians) and Lea's index ('Alexis Comnenus converts the Paulicians'; 'Thrace, Paulicians transplanted there') support it; left as written."
+  },
+  {
+   "movement": "paulicians",
+   "field": "legacy",
+   "sentence": "Medieval and modern writers have repeatedly linked them to the Bogomils of Bulgaria and through them to the Cathars of the West, but that chain rests on the same hostile heresy-catalogs that describe the Paulicians themselves, and it cannot be demonstrated.",
+   "other_id": "bogomils",
+   "disposition": "link",
+   "link_id": "paulicians--bogomils",
+   "prose_change": null,
+   "reason": "The prose already states the claim as unproven. New Contested link gives both sides."
+  },
+  {
+   "movement": "paulicians",
+   "field": "legacy",
+   "sentence": "Medieval and modern writers have repeatedly linked them to the Bogomils of Bulgaria and through them to the Cathars of the West, but that chain rests on the same hostile heresy-catalogs that describe the Paulicians themselves, and it cannot be demonstrated.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "paulicians--bogomils",
+   "prose_change": null,
+   "reason": "The claim runs through the Bogomils; it is carried by two Contested links (Paulicians to Bogomils, Bogomils to Cathars). No direct Paulician-Cathar link: no source claims direct contact. The prose already says it cannot be demonstrated."
+  },
+  {
+   "movement": "paulicians",
+   "field": "legacy",
+   "sentence": "An Armenian text called The Key of Truth, published in 1898, was presented as a Paulician manual.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census party. Checked: Conybeare's own later book (Rituale Armenorum, 1905, vendored) calls it 'A Manual of the Paulician Church' (line 38791); the census source note records the dispute over date and attribution. The prose already states the doubt. The 1898 edition itself is wanted."
+  },
+  {
+   "movement": "bogomils",
+   "field": "relationsSummary",
+   "sentence": "Parent-influence claimed for the Cathars",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "bogomils--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Already worded as a claim. New Contested link with Sacconi's list (via Rački) and the debate."
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "sentence": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century, and the earliest account of them — a long sermon written against them by another priest, Cosmas.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Cosmas has no census entry. Supported: Rački and Evans cite and summarise his Sermon. The sentence was broken (a fragment and a subjectless sentence); fixed in prose change 2."
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "sentence": "Describes a movement of ascetics who rejected almost everything the visible church consisted of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who administered them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Not a relationship with another movement; the visible church has no single census party here. Supported by Rački and Evans. Kept in the rewritten paragraph."
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "sentence": "They spread from Bulgaria through the Balkans and into Byzantium, where around 1100 their most prominent teacher, a man called Basil, was burned in Constantinople.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "out-of-scope",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": 2,
+   "reason": "The spread into Byzantium and Basil's burning (c. 1100) fall in the window of the era-5 balkan-bogomil-continuation, whose own summary names Basil burned under Alexios I and owns the link to the Byzantine church after 1054. Here the story is carried by the new continued-as link. Vendored support: Rački pp. 113-114 retells Anna Comnena on Basil's trial. Kept in the rewritten paragraph."
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "sentence": "They spread from Bulgaria through the Balkans and into Byzantium, where around 1100 their most prominent teacher, a man called Basil, was burned in Constantinople.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "out-of-scope",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": 2,
+   "reason": "Same as the sentence before."
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "sentence": "As with the Paulicians, none of their own writing survives: everything described here is the report of people arguing against them.",
+   "other_id": "paulicians",
+   "disposition": "link",
+   "link_id": "paulicians--bogomils",
+   "prose_change": 2,
+   "reason": "A comparison of the evidence, not a claim of descent; checked (both entries' sources are hostile). Listed under the Contested Paulician-Bogomil link, which is the one relationship between the two. Kept in the rewritten paragraph."
+  },
+  {
+   "movement": "bogomils",
+   "field": "why",
+   "sentence": "The movement spread through the Balkans into Byzantium, where a teacher named Basil was burned in Constantinople around 1100, and medieval writers later claimed it influenced the Cathars of the West, though that claim rests on the same hostile sources and cannot be confirmed.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "bogomils--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Already worded as unconfirmed. Carried by the Contested link."
+  },
+  {
+   "movement": "bogomils",
+   "field": "why",
+   "sentence": "Named for a mid-tenth-century Bulgarian priest, the Bogomils are known almost entirely through a sermon a rival priest, Cosmas, wrote against them, describing ascetics who rejected church buildings, icons, the sacraments and infant baptism because they held that the material world had been made not by God but by a fallen power.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the longDescription's Cosmas sentence; this one is grammatical and is left as written."
+  },
+  {
+   "movement": "bogomils",
+   "field": "why",
+   "sentence": "The movement spread through the Balkans into Byzantium, where a teacher named Basil was burned in Constantinople around 1100, and medieval writers later claimed it influenced the Cathars of the West, though that claim rests on the same hostile sources and cannot be confirmed.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "out-of-scope",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Same as the longDescription's Basil sentence."
+  },
+  {
+   "movement": "bogomils",
+   "field": "legacy",
+   "sentence": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike.",
+   "other_id": "balkan-bogomil-continuation",
+   "disposition": "link",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "New continued-as link (Dominant Modern Reconstruction on Rački, with Sacconi's 1250 list). 'Runs on directly' is a strong reading, but it is the reading the one vendored study makes; left as written and flagged."
+  },
+  {
+   "movement": "bogomils",
+   "field": "legacy",
+   "sentence": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ottoman rule and Catholic and Orthodox pressure: no single census party, and the end falls in later eras. No vendored text checked for it in this pass; left as written."
+  },
+  {
+   "movement": "bogomils",
+   "field": "legacy",
+   "sentence": "Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "bogomils--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Already worded as disputed. Carried by the Contested link."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "relationsSummary",
+   "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Maximus is a person with no entry. Checked: his trial records (Relatio motionis, PG 90) and Constantinople III (npnf214) are vendored and listed in the corpus map. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "relationsSummary",
+   "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal to this entry (the iconoclast emperors as rivals inside the same church). Hieria's 338 bishops: Hefele via NPNF 14 (line 39507). Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "relationsSummary",
+   "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+   "other_id": "iconophile-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Carried by the new court-against-monks link (Documented) and its reverse."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "longDescription",
+   "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persia, the Arab conquests and Maximus have no census party in this sense. Standard history; Maximus's trial is vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "longDescription",
+   "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persia, the Arab conquests and Maximus have no census party in this sense. Standard history; Maximus's trial is vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "why",
+   "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persia, the Arab conquests and Maximus have no census party in this sense. Standard history; Maximus's trial is vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "why",
+   "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persia, the Arab conquests and Maximus have no census party in this sense. Standard history; Maximus's trial is vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "longDescription",
+   "sentence": "His government's attempt to hold the remaining eastern Christians together with a compromise formula — that Christ had two natures but only one will — was pushed as state policy and resisted by a monk, Maximus, who was tried, had his tongue and right hand cut off, and died in exile.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person with no entry; Relatio motionis vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "longDescription",
+   "sentence": "Through all of it the same institution — palace, patriarchate, councils — kept running, which is why this era looks so different depending on whether you stand with the court or with the monasteries.",
+   "other_id": "iconophile-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "Carried by the two argued-against links between the court and the monasteries."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "why",
+   "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person with no entry. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "legacy",
+   "sentence": "The same institution continued as the Byzantine church of the Macedonian era and through that into the Orthodox churches of today.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
+   "prose_change": null,
+   "reason": "New continued-as link (see continuity across 843), Documented."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "legacy",
+   "sentence": "The ruling of the Third Council of Constantinople that Christ has a human will as well as a divine one, and the Second Council of Nicaea's defense of religious images, are both counted among the seven ecumenical councils by Orthodox and Catholics alike, and the canons issued at Constantinople in 692 still shape Orthodox church law.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reception by Orthodox and Catholics: no single party. Nicaea II and Constantinople III are vendored (npnf214). Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "legacy",
+   "sentence": "The same institution continued as the Byzantine church of the Macedonian era and through that into the Orthodox churches of today.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
+   "prose_change": null,
+   "reason": "Carried by the continued-as chain (heraclian to macedonian to after-1054)."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century papal entry. Not checked against a vendored text (Photius's encyclical and the 869-870 and 879-880 acts are not vendored; Mirbt carries only Nicholas I on other matters). Left as written; same rule question as the era-2 escalation."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century Latin entry. Photius's Mystagogy not vendored. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for Bulgaria's church. Checked: Rački (p. 98) reports the ruler baptised about three years before 868, and Mirbt prints Nicholas I's answers to the Bulgarians (866). Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "other_id": "cyrillo-methodian-slavic-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "prose_change": null,
+   "reason": "New gave-rise-to link (Dominant Modern Reconstruction on Lutzow). The other movement is another group's; flagged for the merge to dedupe."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "The 1054 rupture is already carried by the Documented link between the Byzantine church after 1054 and the Latin papal church (Humbert, Mirbt nos. 227-228), and by its argued-against companion. A second break link from this entry on the same event would duplicate it, so none is drafted; the new continued-as link to the after-1054 entry joins the two. Which entry owns 1054 is escalated."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Bulgaria and Moravia have no entries in this form; Moravia is carried by the new link to the Cyril and Methodius entry."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "prose_change": null,
+   "reason": "New gave-rise-to link (Dominant Modern Reconstruction on Mouravieff). Other group's movement; flagged."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
+   "prose_change": null,
+   "reason": "Photius's 867 homily is not vendored (wanted). Carried by the continued-as link, whose note has Photius reading the 787 acts as the iconoclasts' defeat; no separate argued-against link, since the iconoclast party and its refuters sit in the same earlier entry."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "Photius is the age's emblem: a layman raised straight to the patriarchate, an enormous reader who cataloged nearly three hundred books, many of which survive nowhere else, and the man who put in its sharpest form the Eastern objection to the Latin West's addition of one clause, the Filioque, to the Creed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century Latin entry. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "why",
+   "sentence": "With icons restored in 843, the Byzantine church sent missions that converted Bulgaria, Moravia and eventually Rus', while in Constantinople the patriarch Photius — a layman raised straight to the office, and a reader who cataloged nearly three hundred books now otherwise lost — sharpened the Eastern case against the Latin church's addition of the Filioque to the Creed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century Latin entry. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century papal entry. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the jurisdiction quarrel. Checked: Mirbt prints Nicholas I's 866 answers to the Bulgarians, which show Rome's side of it. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "why",
+   "sentence": "That dispute, and others over jurisdiction among the newly converted Slavs, hardened for a century until 1054, when a papal delegation and the patriarch excommunicated each other inside Hagia Sophia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the jurisdiction quarrel. Checked: Mirbt prints Nicholas I's 866 answers to the Bulgarians, which show Rome's side of it. Left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "longDescription",
+   "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "Same as the summary's 1054 clause: carried by the existing after-1054 break link (Humbert's account of the excommunication laid on the altar of Hagia Sophia)."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "why",
+   "sentence": "With icons restored in 843, the Byzantine church sent missions that converted Bulgaria, Moravia and eventually Rus', while in Constantinople the patriarch Photius — a layman raised straight to the office, and a reader who cataloged nearly three hundred books now otherwise lost — sharpened the Eastern case against the Latin church's addition of the Filioque to the Creed.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "prose_change": null,
+   "reason": "Same as the longDescription sentence."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "legacy",
+   "sentence": "The same church continued as the Byzantine church after the schism and, through it, into the Orthodox churches of today.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "New continued-as link, Documented."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "legacy",
+   "sentence": "The mission to the Slavs, which made most of eastern Europe Orthodox and Slavonic-speaking, and the rupture of 1054, whose mutual excommunications were only lifted in 1965, when Pope Paul VI and Patriarch Athenagoras revoked them together.",
+   "other_id": "cyrillo-methodian-slavic-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "prose_change": null,
+   "reason": "Carried by the new gave-rise-to link."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "legacy",
+   "sentence": "The mission to the Slavs, which made most of eastern Europe Orthodox and Slavonic-speaking, and the rupture of 1054, whose mutual excommunications were only lifted in 1965, when Pope Paul VI and Patriarch Athenagoras revoked them together.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "1054 carried by the existing after-1054 break link. The 1965 revocation by Paul VI and Athenagoras has no vendored text (wanted); left as written."
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "legacy",
+   "sentence": "The same church continued as the Byzantine church after the schism and, through it, into the Orthodox churches of today.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "Carried by the continued-as chain."
+  }
+ ],
+ "links": [
+  {
+   "id": "desert-monasticism--iconophile-byzantine-monasticism",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "iconophile-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "iconophile relationsSummary ('Heir of Greek monastic lines'), in part; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. The Basil Ep. 223, Nicaea II canon 20 and Basil of Ancyra quotes were rechecked by script against npnf208 and npnf214 and match. The note already says no text shows iconophile monks drawing on Egypt directly. It carries part of 'Heir of Greek monastic lines'. Its verification_state stays 'unverified' as on main; the quotes are verified, so the reviewer may lift it to verified-direct (it is Inferential-Thin, so nothing turns on it)."
+  },
+  {
+   "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   "action": "keep",
+   "from": "anatolian-church-third-century",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "not named in this movement's text; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. Both Trullo canon 2 quotes rechecked by script against npnf214 lines 26731-26732 and 26742-26745 and match; canon 2 names Gregory the Wonderworker's canons. Not named in the heraclian entry's own text; it stands on the Trullo evidence, which its note states."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
+   "action": "new",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "byzantine-imperial-church-macedonian",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The see of Constantinople ran on through 843 with no break. A later Byzantine list of its patriarchs names John, an iconoclast whom the empress Theodora threw out. Next it names Methodius, a monk. Photius, patriarch from 858, read the acts of the 787 council as the day the iconoclasts lost.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20792-20795",
+     "locus": "Enarratio, entry for John VII the Grammarian (second Latin copy)",
+     "quote": "Joannes, sivc Jannes sortilegus lcotomaehus, aunis 8, mcusibus 2, suh. Theophilo, et. usque ad principium imperi; M.c5aelis. οὐ Tleodaca, ἃ qua depositus cst.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20797-20800",
+     "locus": "Enarratio, entry for Methodius I (second Latin copy)",
+     "quote": "Methoili:s sanctissimus monachus, preshytee, ot antea. episcopus Cyzici, deinde vero. Constan- tinopolis, annis à, mensibus 2, snb Michaele et Theodora,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Photius, Bibliotheca, codex 20 (trans. J. H. Freese, The Library of Photius, 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "2239-2241",
+     "locus": "Bibl. cod. 20",
+     "quote": "Read the Acts of the seventh council,^ at the sessions of which the iconoclasts were defeated and the orthodox faith shone with increased brightness.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. H. Freese, The Library of Photius, vol. I (SPCK, 1920), introduction: table of the patriarchs of Constantinople",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/photius_library-v1_freese1920.txt lines 1228-1292"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. IV, p. 328; quoted in Percival's excursus on the reception of Nicaea II, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 41546-41571"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "heraclian continuesAs field and legacy ('The same institution continued as the Byzantine church of the Macedonian era'); macedonian longDescription ('With the icons restored in 843'; Photius on the 'imposters')",
+   "fre_after": 67.8,
+   "fk_after": 6.8,
+   "wants": [
+    "Photius, Homily 17 (on the apse mosaic of Hagia Sophia, 867) in a public-domain edition, for the macedonian text's 'imposters ... had now been answered'",
+    "A clean edition of Nikephoros Kallistos's Enarratio (the PG 147 Latin and Greek OCR is badly garbled)"
+   ],
+   "drafter_flags": [
+    "The Enarratio is a fourteenth-century compilation, not a ninth-century witness. It is the vendored text that shows the see on both sides of 843; the OCR is rough and every quote keeps its errors as printed ('lcotomaehus' for iconomachus, 'Tleodaca' for Theodora, 'Methoili:s' for Methodius, a Greek 'οὐ' and 'ἃ' inside the Latin). A second, slightly worse copy of the same Latin list stands at lines 20612-20619.",
+    "Photius's codex 20 quote keeps the OCR footnote mark '^' after 'council,'.",
+    "Harnack (via Percival) dates the restoring synod 842; the census uses 843. Not used for a date in the note.",
+    "The macedonian longDescription's Photius sentence (the iconoclast 'imposters' answered, 867) is carried here rather than by a separate 'argued against' link: the two entries are one see, and the iconoclast party sits inside the earlier entry together with the 787 council that refuted it. A link from the later entry against the whole earlier one would misstate it."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link (see continuity across 843)."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--byzantine-church-after-1054",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "byzantine-church-after-1054",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Michael Cerularius was patriarch of Constantinople when the pope's envoys came in 1054, and he kept the post until 1058. A later Byzantine list of the city's patriarchs runs on with no break. It goes from Photius in the ninth century to patriarchs under the emperor Manuel in the twelfth.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9899",
+     "locus": "no. 227, the legates' writings against Michael",
+     "quote": "maxime contra scripta Michaelis Constantinopohtani episcopi",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20806-20808",
+     "locus": "Enarratio, entry for Photius (second Latin copy)",
+     "quote": "Photius aute primus 3 secretis, qui monachus effectus est. subeodem Micliaele Ebrioso , et Dasi- lio Macedone, a quo expulsus est,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20962-20964",
+     "locus": "Enarratio, entry for Theodotus II (twelfth century)",
+     "quote": "Theodotus monachus et abbas monasterii Sancte Christi: Resurrectionis, sub imperatore Manucle annis 2.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20970-20971",
+     "locus": "Enarratio, entry for Luke Chrysoberges (twelfth century)",
+     "quote": "Lucas monzchus Chrvsoberges, sub eodem Ma- nucle, annis 15, meusibus 3.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), note to p. 21",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 16005-16007"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "macedonian continuesAs field and legacy ('The same church continued as the Byzantine church after the schism')",
+   "fre_after": 61.9,
+   "fk_after": 8.6,
+   "wants": [
+    "Cerularius's own synodal edict of July 1054 (in C. Will, Acta et scripta, 1861), for the see's own side in 1054"
+   ],
+   "drafter_flags": [
+    "The PG 147 OCR skips the patriarchs between Theophylact (d. 956) and the twelfth century (a page or column is lost in the scan); the list resumes mid-entry at line 20956. The note's 'no break' is the list's own claim, not something the OCR shows line by line. Cerularius's tenure to 1058 rests on Mouravieff's note (secondary).",
+    "Lucas's entry says 'sub eodem Manuele', so Theodotus's entry, which names Manuel, is quoted as well."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link (one patriarch, Cerularius, holds office on both sides of the 1054 boundary)."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "action": "new",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "iconophile-byzantine-monasticism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 754 a council called by the emperor Constantine V banned holy images. At its close the bishops cursed John of Damascus, by his family name Mansur, as a teacher of impiety. The emperor then pressed the monks to obey. Many fled, and some were killed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39454",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "The divine Kings Constantine and Leo said:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39464-39465",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mansur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39469-39471",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema!",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. J. Hefele, History of the Councils, vol. V, p. 308; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39497-39521"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. M. Sinclair, article on the emperor Constantine V, Smith and Wace, Dictionary of Christian Biography; quoted in H. R. Percival's excursus on the synod of 754, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39530-39550 (the file prints the article as 'sub voce Constantinus VI')"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. V (Eng. tr.), p. 325; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39552-39575"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "heraclian relationsSummary ('the Iconophile monastic movement as its persecuted counterpart') and longDescription ('whether you stand with the court or with the monasteries'); iconophile longDescription and why ('the Byzantine court tried to purge Christian worship of images ... the strongest organized resistance came from the monasteries')",
+   "fre_after": 61.9,
+   "fk_after": 7.4,
+   "wants": [
+    "Life of Stephen the Younger (Greek in PG 100, or another public-domain edition), for the 765 martyrdom both texts name",
+    "Theophanes, Chronographia (de Boor, 1883), for Constantine V's measures against the monks"
+   ],
+   "drafter_flags": [
+    "Documented on the 754 acclamations, which curse John of Damascus by name. John is counted a voice of the iconophile monastic entry (census voices list), but he wrote from Mar Saba, outside the empire; the reviewer should confirm that a curse on him counts as acting against this movement.",
+    "The acts against the monks as a body (Constantine V forcing them to comply, flight, martyrs) rest on Sinclair and Harnack as quoted in NPNF 14, not on a vendored primary. 'Some were killed' paraphrases Harnack's 'some became martyrs'.",
+    "Stephen the Younger (765) is named in both movements' text; no vendored text names him (grep across cic/texts finds no Life). Prose left as written; the want above would document it."
+   ],
+   "change_reason": "New: the court's side of the persecution the two entries both describe."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "John of Damascus answered those who \"find fault with us\" for honouring images, and the iconoclast council of 754 cursed his teaching. Monks also sat at the council of 787 that reversed it. Harnack wrote that the resistance came from the ranks of the monks.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Damascus, Exposition of the Orthodox Faith IV.16, 'Concerning Images' (NPNF ser. 2 vol. 9)",
+     "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+     "lines": "36232-36234",
+     "locus": "De fide orth. IV.16",
+     "quote": "find fault with us for worshipping and honouring the image of our Saviour and that of our Lady,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39464-39465",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mansur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Council of Nicaea (787), Acts, Session I (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "38728-38730",
+     "locus": "Nicaea II, Act I (Sabbas of Stoudios)",
+     "quote": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: According to the Apostolic precepts and the Ecumenical Synods he is worthy to be received back.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. V (Eng. tr.), p. 325; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39552-39575"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "iconophile longDescription ('both times the strongest organized resistance came from the monasteries'; the iconoclasts' case survives in their opponents' refutations) and why ('monks led the resistance'); heraclian longDescription",
+   "fre_after": 66.4,
+   "fk_after": 7.6,
+   "wants": [
+    "Theodore the Studite, letters or Antirrhetici in a public-domain edition (PG 99), for a monk writing against the iconoclast emperors by name; would lift this to Documented",
+    "Patriarch Nicephorus, Antirrhetici (PG 100)"
+   ],
+   "drafter_flags": [
+    "Widely Accepted, not Documented: John's chapter answers 'some' who fault image-veneration without naming the emperor or a council, and Sabbas of Stoudios's words at Nicaea II concern receiving back a repentant bishop. Together with the 754 council's naming of John's teaching as heresy, they show the monks' side in the fight; Harnack (via NPNF 14) gives the consensus reading.",
+    "The quote from John begins after an inline endnote in the file; it starts at 'find fault', mid-sentence, because the endnote markup sits between 'some' and 'find'.",
+    "The iconophile longDescription's point that the iconoclasts' case survives 'almost entirely in quotations made by the people refuting it' is borne out by the vendored file itself: the 754 Horos survives only inside the Nicaea II acts (Percival, lines 39523-39527, and the corpus-map note)."
+   ],
+   "change_reason": "New: the monks' side of the conflict."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "byzantine-imperial-church-macedonian",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Photius, patriarch from 858, read and praised the work of two iconophile writers. One was the patriarch Nicephorus, the other Sergius the Confessor. His notes on Sergius speak of the lawless and vile acts of Constantine V. His church kept a feast each year for the victory of the icons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Photius, Bibliotheca, codex 66 (trans. J. H. Freese, 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "5383-5384",
+     "locus": "Bibl. cod. 66",
+     "quote": "Read the Historical Epitome of Nicephorus patriarch of Constantinople.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Photius, Bibliotheca, codex 66 (trans. J. H. Freese, 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "5400-5402",
+     "locus": "Bibl. cod. 66",
+     "quote": "Speaking generally, he throws into the shade all historians who have preceded him ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Photius, Bibliotheca, codex 67 (trans. J. H. Freese, 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "5408-5410",
+     "locus": "Bibl. cod. 67",
+     "quote": "Read the History of Sergius the Confessor.^ It begins with the reign of the emperor Michael,^ and then goes back to the lawless and abominable acts of Copronymus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. H. Freese, The Library of Photius, vol. I (1920), notes to codices 66-67",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/photius_library-v1_freese1920.txt lines 5386-5390, 5419-5426"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. IV, p. 328; quoted in Percival's excursus on the reception of Nicaea II, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 41546-41571"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "iconophile legacy ('Its theology of the image became settled Orthodox doctrine'; the Sunday of Orthodoxy) and longDescription ('finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy')",
+   "fre_after": 66.6,
+   "fk_after": 7.0,
+   "wants": [
+    "The Synodikon of Orthodoxy (843) in a public-domain text, for the feast and the restoring synod from the church's own side"
+   ],
+   "drafter_flags": [
+    "Nicephorus is counted an iconophile voice by the census (voices list) and by Freese's note; he was a patriarch who became a monk, not a monk of Stoudios. Sergius the Confessor's iconophile standing is Freese's inference from the name and the epithets, and Freese guesses he is 'perhaps the Sergius exiled by Leo'. The reviewer should weigh whether reading two historians is strong enough for Documented; the alternative is Widely Accepted with Harnack.",
+    "'Lawless and abominable acts of Copronymus' is Photius's summary of Sergius's history; the epithets may be Sergius's own (Freese reads them so). The note says 'his notes on Sergius speak of', which holds either way.",
+    "The feast sentence rests on Harnack via Percival (secondary)."
+   ],
+   "change_reason": "New: carries the iconophile legacy's claim that its image theology became the church's settled teaching, at its first step."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Stoudios, the house Theodore led, still had its monks two centuries later. The Philokalia's compilers name Niketas Stethatos, a priest-monk there around 1030, as a close disciple of Symeon the New Theologian. No text we hold shows Athos's founders taking up the Stoudite way, so this line is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Council of Nicaea (787), Acts, Session I (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "38728-38730",
+     "locus": "Nicaea II, Act I (Sabbas of Stoudios)",
+     "quote": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: According to the Apostolic precepts and the Ecumenical Synods he is worthy to be received back.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia (compiled by Macarius of Corinth and Nikodemos the Hagiorite, 1782), vol. 2 (Athens, 1893), the compilers' notice on Niketas Stethatos",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "23139-23144",
+     "locus": "Philokalia II, prefatory notice to Niketas Stethatos",
+     "quote": "Ἰχήτας ὁ Ὁσιώτατος Πρεσόύτε-- ρος τῆς Στουδίων Μονῆς, ὁ хо! Στηθᾶτος ἐπιχαλούμενος, Ἦν ἐν ἔτει ἀπὸ Χριστοῦ χιλιοστῷ τρια- χοστῷ, μαθητὴς χρηματίσας Συ - μεὼν τοῦ νέου Θεολόγου",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "iconophile continuesAs field, relationsSummary ('parent of Athonite monasticism') and legacy ('continues directly as Athonite monasticism'); athonite relationsSummary ('Heir of the iconophile tradition')",
+   "fre_after": 64.2,
+   "fk_after": 8.4,
+   "wants": [
+    "Typikon of Athanasios the Athonite and his Life (P. Meyer, Die Haupturkunden für die Geschichte der Athosklöster, 1894), for the Stoudite rule on Athos",
+    "Symeon the New Theologian's Life by Niketas Stethatos (Hausherr 1928, if public domain), for Symeon's own Stoudite training"
+   ],
+   "drafter_flags": [
+    "The Philokalia notice is the 1782 compilers' preface, not an eleventh-century text, and the OCR mixes Cyrillic into the Greek: the quote keeps 'Ἰχήτας' for Νικήτας, 'Πρεσόύτε-- ρος' and 'хо!' for καὶ exactly as printed.",
+    "Two ends of one house (Stoudios in 787 and c. 1030) do not show Athos taking up the Stoudite way; hence Inferential-Thin. The legacy's 'continues directly' and the summary's 'parent' are rewritten to match (prose changes 0 and 1)."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, graded thin."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Mouravieff's history of the Russian church draws on the chronicler Nestor. It says Theodosius of the Kyiv Caves wrote out the rule of the Stoudios house for his monks. A monk from Constantinople had brought it. Other Rus' houses then took it as their model.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), ch. on the first monasteries",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1599-1616"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "iconophile legacy ('Theodore's reorganization of Stoudios also shaped later Byzantine and Slavic monastic rules well beyond his own house')",
+   "fre_after": 73.2,
+   "fk_after": 5.8,
+   "wants": [
+    "The Russian Primary Chronicle (Laurentian text, PSRL vol. 1) or the Kievan Caves Paterik / Nestor's Life of Theodosius in a public-domain edition; with it this could be Documented"
+   ],
+   "drafter_flags": [
+    "The legacy names no house; the Kyiv Caves is the one the vendored texts show. Mouravieff (1838, Eng. 1842) is an official Russian church history and is the only vendored witness; it reports Nestor. Dominant Modern Reconstruction is the highest grade a secondary-only link can take; the reviewer may prefer Inferential-Thin given the age of the work.",
+    "Theodosius's adoption of the rule falls after 1054, so the party is the era-5 Kyiv entry, not kievan-rus-christianity (988-1054).",
+    "Strictly, Theodosius received a later Stoudite redaction of the rule; Mouravieff calls it 'the Rule of the Studium Monastery'. The note follows him."
+   ],
+   "change_reason": "New: carries the iconophile legacy's 'Slavic monastic rules' sentence."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "action": "new",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "paulicians",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Franjo Rački, writing in 1869, tells of a purge of the Paulicians under the emperor Michael I, from 811 to 813. Arthur Evans, in 1877, adds that Constantine V moved a body of them from Armenia into Thrace. Both draw on later Byzantine chronicles.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "paulicians relationsSummary ('Deported en masse by Byzantium'), longDescription ('Imperial campaigns killed and displaced them'; 'Later emperors deported whole Paulician populations to the Balkans') and why",
+   "fre_after": 63.0,
+   "fk_after": 7.9,
+   "wants": [
+    "Theophanes, Chronographia (de Boor, 1883), for Michael I's measures against the Paulicians and Constantine V's transfer of them to Thrace",
+    "Peter of Sicily, Historia Manichaeorum (Gieseler, 1846, or PG 104), the principal Greek account"
+   ],
+   "drafter_flags": [
+    "Secondary only: Rački and Evans name the chroniclers (Evans names Cedrenus) but neither chronicle is vendored. Dominant Modern Reconstruction is the highest grade open to a secondary-only link.",
+    "Evans suggests Constantine V 'had perhaps some sympathies with the heretics'; a forced transfer of population is still an act against them, but the reviewer may judge the 'argued against' type too strong for that half. The persecution under Michael I (811-813, Rački) carries the type.",
+    "The seventh-century campaigns the prose speaks of (the killing of Constantine-Silvanus, c. 684) are in Peter of Sicily only; not vendored."
+   ],
+   "change_reason": "New: the imperial church's acts against the Paulicians before 843."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--paulicians",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "paulicians",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "After 843 the empress Theodora had the Paulicians hunted, and the patriarch Photius wrote against them. Peter of Sicily, sent to Tephrike by Basil I, wrote a book against them to warn the new church in Bulgaria. In 970 John Tzimiskes moved Paulicians from Asia to Plovdiv.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 104",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 1159-1166"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "paulicians longDescription ('Byzantine heresy-hunters'; 'raided Byzantine territory until the fortress fell in 878'; 'Later emperors deported whole Paulician populations to the Balkans') and why",
+   "fre_after": 60.0,
+   "fk_after": 8.6,
+   "wants": [
+    "Peter of Sicily, Historia Manichaeorum (Gieseler 1846 / PG 104), and Photius, Contra Manichaeos (PG 102), for the polemic in the church's own words",
+    "Genesios or Theophanes Continuatus (Bonn, 1834/1838) for the fall of Tephrike in 878; no vendored text dates it"
+   ],
+   "drafter_flags": [
+    "The inventory filed the 'heresy hunters' under the heraclian entry; by date they belong here. Peter of Sicily wrote as Basil I's envoy (Rački: 868; Evans: 870) and Photius as patriarch, both after 843. Theodora's persecution (Rački: 845) also falls after 843.",
+    "The fall of Tephrike in 878 is stated three times in the paulicians text; no vendored text gives the year. Left standing as standard history; listed in wants (same rule question as the era-2 escalation on well-established facts without a vendored source).",
+    "The Paulicians' raids on imperial territory are not drafted as a reverse 'argued against' link: they were war on the empire, not acts against the church as such."
+   ],
+   "change_reason": "New: the restored church's polemic and the emperors' campaigns and deportations after 843."
+  },
+  {
+   "id": "paulicians--bogomils",
+   "action": "new",
+   "from": "paulicians",
+   "to": "bogomils",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Peter of Sicily, a Byzantine envoy at Tephrike around 870, wrote that the Paulicians meant to send preachers to Bulgaria. Older historians built a line from them to the Bogomils on reports like this. Later studies doubt that the Paulicians were dualists at all, so the line cannot be shown.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nina G. Garsoian, The Paulician Heresy (1967)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: argues the Greek and Armenian source-traditions diverge, the Armenian lacking the dualism); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "paulicians legacy ('Medieval and modern writers have repeatedly linked them to the Bogomils ... it cannot be demonstrated'); bogomils longDescription ('As with the Paulicians, none of their own writing survives')",
+   "fre_after": 62.5,
+   "fk_after": 8.6,
+   "wants": [
+    "Peter of Sicily, Historia Manichaeorum (Gieseler, 1846), for the planned mission from Tephrike to Bulgaria in his own words",
+    "Euthymius Zigabenus, Panoplia dogmatica tit. 27 / Narratio de Bogomilis (Gieseler, 1842), for the medieval writers who tie the Bogomils to the Paulicians"
+   ],
+   "drafter_flags": [
+    "For the line: Evans (1877) and Rački (1869), both reporting Peter of Sicily. Against it: Garsoian and Dixon as described in the census's own source notes; I have not read either. The note's third sentence rests on those notes.",
+    "The bogomils text's 'As with the Paulicians' is a comparison of the evidence, not a claim of descent; it is listed under this link only because it is the one place the bogomils text names the Paulicians."
+   ],
+   "change_reason": "New: states the claimed Paulician-Bogomil line as the dispute it is."
+  },
+  {
+   "id": "bogomils--cathars-albigensians",
+   "action": "new",
+   "from": "bogomils",
+   "to": "cathars-albigensians",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Around 1250 the inquisitor Rainerius Sacconi, once a Cathar himself, listed the Cathar churches. He said all of them came from two churches in the Balkans, Bulgaria and Dugunthia. Historians still argue over how much passed west. Some doubt that the Cathars were one movement at all.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rainerius Sacconi, Summa de Catharis (1250), the list of Cathar churches, as printed by Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 161",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "4328-4330",
+     "locus": "Summa de Catharis, 'Quot sunt ecclesiae Catharorum'",
+     "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, p. xxxv note and pp. lii-liii",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1343-1350, 1838-1848"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Yuri Stoyanov, The Other God: Dualist Religions from Antiquity to the Cathar Heresy (Yale, 2000)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: modern synthesis including the claimed Bogomil-Cathar link); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census cathars-albigensians sources (note: the coherence debate, Pegg and Moore against Biller and others); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: still the standard narrative; its framing faces newer skepticism); not read"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "bogomils relationsSummary ('Parent-influence claimed for the Cathars'), why and legacy; paulicians legacy ('and through them to the Cathars of the West')",
+   "fre_after": 62.7,
+   "fk_after": 7.4,
+   "wants": [
+    "Rainerius Sacconi, Summa de Catharis in a modern edition (Dondaine 1939) or an English translation (Wakefield and Evans 1969, if it clears rights); the vendored witness is Rački's 1869 reprint with variants in brackets"
+   ],
+   "drafter_flags": [
+    "The Sacconi quote is a primary text printed inside a secondary work; Rački's variant readings in round brackets are kept verbatim ('Burgariae (Bulgariae)', 'Dugunthiae (Dugranicae)').",
+    "Sacconi writes in 1250, when the Balkan churches he names belong in time to the era-5 balkan-bogomil-continuation, which names the same claim in its own summary and legacy. Drafted from this entry because its text names the Cathars three times; the merge should decide whether the link belongs to the later entry instead (see escalations).",
+    "Stoyanov, Sennis and Obolensky are cited from the census's own source notes; not read."
+   ],
+   "change_reason": "New: carries the claimed Bogomil-Cathar influence as a Contested link."
+  },
+  {
+   "id": "bogomils--balkan-bogomil-continuation",
+   "action": "new",
+   "from": "bogomils",
+   "to": "balkan-bogomil-continuation",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Franjo Rački, in 1869, saw one Bogomil movement here. He traced it from Bulgaria in the 900s to the Bogomils put on trial in the Byzantine capital around 1100. In 1250 Rainerius Sacconi still named a church of Bulgaria among the Cathar churches. No Bogomil text of their own shows the line.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 94-95, 113-114",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 610-628, 1636-1700"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rainerius Sacconi, Summa de Catharis (1250), the list of Cathar churches, as printed by Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 161",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "4328-4330",
+     "locus": "Summa de Catharis, 'Quot sunt ecclesiae Catharorum'",
+     "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: still the standard narrative; its framing faces newer skepticism); not read"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "bogomils continuesAs field and legacy ('its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries'); balkan-bogomil-continuation relationsSummary ('A continuation of an earlier Bogomil current')",
+   "fre_after": 63.9,
+   "fk_after": 7.5,
+   "wants": [
+    "Anna Comnena, Alexiad XV (Reifferscheid 1884, or Dawes's English of 1928) and Euthymius Zigabenus on the trial of Basil, for the Bogomil name carried into Constantinople c. 1100",
+    "Cosmas the Priest, Sermon against the Heretics, in a readable public-domain edition (Popruzhenko, 1907); Rački quotes it only in OCR-damaged Church Slavonic"
+   ],
+   "drafter_flags": [
+    "Rački (pp. 94-95) calls Basil 'the elder of the Constantinople Bogomils' and joins him to the tenth-century sect; pp. 113-114 retell Anna Comnena's account of Basil's trial in Croatian. The Sacconi quote shows a Bulgarian church still counted in 1250. The continuity of 'the same community' is Rački's reading, so Dominant Modern Reconstruction; the reviewer may prefer Inferential-Thin.",
+    "verification_state is verified-direct because the one primary quote was read in the vendored file; the relationship itself rests on the secondary."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "cyrillo-methodian-slavic-christianity",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 862 the Moravian prince Rostislav sent to the emperor Michael for teachers of his own Slav race. Michael chose two brothers, Constantine and Methodius, and sent them to Moravia. Lutzow tells the story as the brothers' old legend gives it.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Count Francis Lutzow, Bohemia: An Historical Sketch (Everyman, 1910; printing of 1920), ch. 1",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/lutzow_bohemia-historical-sketch_1920.txt lines 1296-1330"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "macedonian relationsSummary ('the missions to ... the Slavs (the parent context of the Cyril and Methodius mission)'), longDescription and why ('converted ... Moravia') and legacy ('The mission to the Slavs'); cyrillo-methodian relationsSummary ('Child of Byzantium')",
+   "fre_after": 64.3,
+   "fk_after": 7.6,
+   "wants": [
+    "The Lives of Constantine and of Methodius (Old Church Slavonic; e.g. Pastrnek 1902, or Miklosich), for the embassy of 862 and the emperor's choice of the brothers"
+   ],
+   "drafter_flags": [
+    "OTHER GROUP: cyrillo-methodian-slavic-christianity is another era-4 drafter's movement and its own summary says 'Child of Byzantium'. The merge should dedupe with that group's draft.",
+    "Lutzow (1910) quotes the legend through Pastrnek; secondary only, hence Dominant Modern Reconstruction. Mouravieff (lines 896-901) gives the same mission under Michael and Photius.",
+    "'Michael' is Michael III; the note keeps Lutzow's plain 'Michael'."
+   ],
+   "change_reason": "New: carries the macedonian entry's mission to the Slavs."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "kievan-rus-christianity",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Mouravieff's history of the Russian church tells how Prince Vladimir was baptised at Cherson, a city that was then the emperors'. He went home to Kyiv with Greek clergy. Later the patriarch sent Theopemptus to lead the church there.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), ch. 1 (Vladimir at Cherson; Metropolitan Theopemptus)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1130-1192, 1472-1475"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "macedonian longDescription and why ('sent missions that converted ... eventually Rus''); kievan-rus-christianity relationsSummary names a different parent ('Child of the Cyril and Methodius mission')",
+   "fre_after": 70.0,
+   "fk_after": 6.7,
+   "wants": [
+    "The Russian Primary Chronicle (Laurentian text, PSRL vol. 1, 1846 or 1926) for Vladimir's baptism at Cherson and the Greek clergy"
+   ],
+   "drafter_flags": [
+    "OTHER GROUP: kievan-rus-christianity is another era-4 drafter's movement; the merge should check whether that group drafted a Byzantine parent link. Its own summary names the Cyril and Methodius mission instead, which that group may carry.",
+    "Mouravieff reports that the 'Books of the Genealogies' name a first metropolitan, Michael, sent by Patriarch Nicholas Chrysoberges, and notes that Nestor does not; the note uses only Theopemptus, whom Mouravieff gives without doubt (sent by Patriarch Alexis Studites).",
+    "Secondary only (Mouravieff 1842, drawing on Nestor), hence Dominant Modern Reconstruction."
+   ],
+   "change_reason": "New: carries the macedonian entry's claim that its missions converted Rus'."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "relationsSummary",
+   "old": "Heir of Greek monastic lines; parent of Athonite monasticism",
+   "new": "Heir of Greek monastic lines; forerunner of Athonite monasticism",
+   "fre_after": null,
+   "fk_after": null,
+   "reason": "'Parent' claimed more than the evidence: the link to the Athonite entry is Inferential-Thin, resting on Stoudios's survival to c. 1030 (Philokalia notice on Niketas Stethatos). 'Forerunner' keeps the order without claiming the hand-over. Same fix as the era-2 Palestinian summary. Too short to score."
+  },
+  {
+   "n": 1,
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "legacy",
+   "old": "The same monastic tradition continues directly as Athonite monasticism and, through it, the wider Orthodox monastic world. Its theology of the image became settled Orthodox doctrine. It is the reason icons look the way they do and are treated the way they are in Orthodox churches today, and the Sunday of Orthodoxy, kept every year on the first Sunday of Lent, is a liturgical commemoration of how this argument ended. Theodore's reorganization of Stoudios also shaped later Byzantine and Slavic monastic rules well beyond his own house.",
+   "new": "The monks' way of life carried on after 843, and Stoudios still had its monks two centuries later. Athonite monks are usually counted their heirs, and through them the wider Orthodox monastic world, though little survives to show the handover. The monks' theology of the image became settled Orthodox teaching. It is why icons look the way they do in Orthodox churches today, and why people treat them as they do. The Sunday of Orthodoxy, kept each year on the first Sunday of Lent, still marks how the argument ended. Theodore's rule for Stoudios also shaped later Byzantine and Slavic rules for monks, well beyond his own house.",
+   "fre_after": 61.4,
+   "fk_after": 9.1,
+   "reason": "'Continues directly as Athonite monasticism' stated as fact a line the vendored texts show only thinly (Inferential-Thin: Sabbas of Stoudios at Nicaea II in 787; Niketas Stethatos of Stoudios c. 1030). The rewrite says what is shown and states the gap plainly. The paragraph scored FRE 36 / FK 13.6, so it is rewritten whole; the other claims are kept (image theology, Sunday of Orthodoxy, Theodore's rule, now carried by the Photius and Kyiv Caves links). 'Reorganization' becomes 'rule', the word Mouravieff uses."
+  },
+  {
+   "n": 2,
+   "movement": "bogomils",
+   "field": "longDescription",
+   "old": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century, and the earliest account of them — a long sermon written against them by another priest, Cosmas. Describes a movement of ascetics who rejected almost everything the visible church consisted of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who administered them. Behind that refusal, the sources report, lay a conviction that the material world and the human body were not made by God at all but by a fallen power, so that the whole apparatus of physical religion was a mistake. They spread from Bulgaria through the Balkans and into Byzantium, where around 1100 their most prominent teacher, a man called Basil, was burned in Constantinople. As with the Paulicians, none of their own writing survives: everything described here is the report of people arguing against them.",
+   "new": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century. The earliest account of them is a long sermon written against them by another priest, Cosmas. It describes ascetics who rejected almost all that the visible church was made of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who gave them. Behind that refusal, the sources say, lay a belief that God did not make the material world or the human body. A fallen power made them, so the whole machinery of bodily religion was a mistake. The movement spread from Bulgaria through the Balkans and into Byzantium. There, around 1100, its best-known teacher, a man called Basil, was burned in Constantinople. As with the Paulicians, none of their own writing survives. All we know of them comes from the people who argued against them.",
+   "fre_after": 61.1,
+   "fk_after": 8.7,
+   "reason": "The sentence naming Cosmas's sermon was broken: 'and the earliest account of them — a long sermon written against them by another priest, Cosmas. Describes a movement ...' (a fragment with no verb, and a sentence with no subject). Fixed, and the paragraph (FRE 37.8 / FK 15.1) rewritten whole so it scores. No claim added or removed; Cosmas's sermon is cited by Rački (pp. 94-95) and Evans (pp. xxxv-xxxvi), and the census lists it among the hostile sources."
+  }
+ ],
+ "wants": [
+  "A clean edition of Nikephoros Kallistos's Enarratio (the PG 147 Latin and Greek OCR is badly garbled)",
+  "Anna Comnena, Alexiad XV (Reifferscheid 1884, or Dawes's English of 1928) and Euthymius Zigabenus on the trial of Basil, for the Bogomil name carried into Constantinople c. 1100",
+  "Cerularius's own synodal edict of July 1054 (in C. Will, Acta et scripta, 1861), for the see's own side in 1054",
+  "Cerularius's synodal edict of 1054 and the 1965 joint declaration of Paul VI and Athenagoras, if the macedonian legacy's 1965 sentence is to be sourced",
+  "Conybeare, The Key of Truth (1898), for the Paulician legacy's sentence on it",
+  "Cosmas the Priest, Sermon against the Heretics, in a readable public-domain edition (Popruzhenko, 1907); Rački quotes it only in OCR-damaged Church Slavonic",
+  "Euthymius Zigabenus, Panoplia dogmatica tit. 27 / Narratio de Bogomilis (Gieseler, 1842), for the medieval writers who tie the Bogomils to the Paulicians",
+  "Genesios or Theophanes Continuatus (Bonn, 1834/1838) for the fall of Tephrike in 878; no vendored text dates it",
+  "Life of Stephen the Younger (Greek in PG 100, or another public-domain edition), for the 765 martyrdom both texts name",
+  "Patriarch Nicephorus, Antirrhetici (PG 100)",
+  "Peter of Sicily, Historia Manichaeorum (Gieseler 1846 / PG 104), and Photius, Contra Manichaeos (PG 102), for the polemic in the church's own words",
+  "Peter of Sicily, Historia Manichaeorum (Gieseler, 1846), for the planned mission from Tephrike to Bulgaria in his own words",
+  "Peter of Sicily, Historia Manichaeorum (Gieseler, 1846, or PG 104), the principal Greek account",
+  "Photius, Homily 17 (on the apse mosaic of Hagia Sophia, 867) in a public-domain edition, for the macedonian text's 'imposters ... had now been answered'",
+  "Rainerius Sacconi, Summa de Catharis in a modern edition (Dondaine 1939) or an English translation (Wakefield and Evans 1969, if it clears rights); the vendored witness is Rački's 1869 reprint with variants in brackets",
+  "Symeon the New Theologian's Life by Niketas Stethatos (Hausherr 1928, if public domain), for Symeon's own Stoudite training",
+  "The Lives of Constantine and of Methodius (Old Church Slavonic; e.g. Pastrnek 1902, or Miklosich), for the embassy of 862 and the emperor's choice of the brothers",
+  "The Russian Primary Chronicle (Laurentian text, PSRL vol. 1) or the Kievan Caves Paterik / Nestor's Life of Theodosius in a public-domain edition; with it this could be Documented",
+  "The Russian Primary Chronicle (Laurentian text, PSRL vol. 1, 1846 or 1926) for Vladimir's baptism at Cherson and the Greek clergy",
+  "The Synodikon of Orthodoxy (843) in a public-domain text, for the feast and the restoring synod from the church's own side",
+  "Theodore the Studite, Letters (Fatouros 1992 is not public domain; PG 99 is), for his beatings, imprisonment and exiles",
+  "Theodore the Studite, letters or Antirrhetici in a public-domain edition (PG 99), for a monk writing against the iconoclast emperors by name; would lift this to Documented",
+  "Theophanes, Chronographia (de Boor, 1883), for Constantine V's measures against the monks",
+  "Theophanes, Chronographia (de Boor, 1883), for Michael I's measures against the Paulicians and Constantine V's transfer of them to Thrace",
+  "Typikon of Athanasios the Athonite and his Life (P. Meyer, Die Haupturkunden für die Geschichte der Athosklöster, 1894), for the Stoudite rule on Athos"
+ ],
+ "escalations": [
+  "Census structure (overlap): bogomils is dated '10th c. onward' and balkan-bogomil-continuation covers 1054-1300. Basil's burning (c. 1100) and the Cathar claim (Sacconi, 1250) fall in both windows and are named in both texts. I drafted the Cathar link from bogomils, because its text names it three times, and treated Basil as out of scope here (the era-5 entry owns it). Decision wanted: should bogomils end at 1054 and the Cathar link move to the continuation, or stay here?",
+  "Census structure (boundary): the macedonian entry (843-1054) says it 'receives the 1054 schism itself', while the existing Documented break and argued-against links for 1054 sit on byzantine-church-after-1054, whose summary puts Cerularius on its side. I did not duplicate them. If Mark wants the macedonian entry to carry 1054 too, the same Mirbt sources would serve.",
+  "Rule question (repeats the era-2 escalation): several standard facts in my movements have no vendored source (Stephen the Younger's death in 765; Theodore's beatings and exiles; Tephrike's fall in 878; the Paulician alliance with the Arabs; the 1965 revocation; the Photian schism and the Filioque writings). I left them standing and listed the texts in wants rather than rewriting them as 'may have'.",
+  "Grade method check: five new links rest on secondary works only (Rački 1869, Evans 1877, Mouravieff 1842, Lutzow 1910) and are graded Dominant Modern Reconstruction, the highest grade a secondary-only link can take. These are nineteenth- and early twentieth-century works, not modern reconstructions. If 'Dominant Modern Reconstruction' should be kept for current scholarship, these drop to Inferential-Thin; that would be a method ruling."
+ ]
+}
