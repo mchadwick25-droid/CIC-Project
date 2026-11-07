@@ -245,3 +245,22 @@ Mark: "go ahead with P1c full auto", after `www.churchfamilytree.com` was attach
 - **Feedback on the map.** The page-feedback bar recognises the map on the tree's home page and
   keeps its old page name, so feedback before and after the move stays together.
 
+---
+
+## 2026-11-07 — The tree's own header and a switch bar in place of the legend
+
+**Decided (Mark: "this program is church family tree so it should be in the upper left corner …
+then to the right we have a button to church in conversation. we can replace the three buttons
+below with on off switches/legend"; then "Grouped chips").** On `www.churchfamilytree.com`:
+- The header leads with "Church Family Tree"; one "Church in Conversation" button sits to the
+  right.
+- Church in Conversation's three feature buttons give way to one row of chips: Rivers, Links and
+  Evidence each open their own switches; Stories is one on/off switch; Key holds the status
+  colors and the notes on width, threads, lean and places. One panel opens at a time; Escape
+  or a click elsewhere closes it. The old legend box at the bottom left goes.
+- The switches work as before and keep each visitor's choices.
+- The intro line now points to the switches under the title (Reading Ease 72).
+
+Rejected: every switch in one long scrolling strip (hard to scan on a phone), and one button that
+opens the whole legend (hides more than today's legend does).
+

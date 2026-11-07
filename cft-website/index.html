@@ -28,20 +28,24 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.05rem;font-weight:700;margin:0}
 .topbar .tag{font-size:.72rem;color:var(--ink-faded);font-style:italic}
 .topbar .spacer{flex:1}
-.topbar a.home{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
-  color:var(--ink-faded);text-decoration:none;white-space:nowrap;
-  border-right:1px solid var(--rule);padding-right:.7rem;margin-right:.1rem}
-.topbar a.home:hover{color:var(--gold-leaf)}
+.topbar a.cic-link{font-size:.78rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
+  border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem}
+.topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .topbar button{font:inherit;font-size:.78rem;background:var(--vellum);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
-.feature-btn{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;
-  color:var(--iron-gall);text-decoration:none;padding:.35rem .85rem;border:1px solid var(--rule);
-  border-radius:999px}
-.feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+.chip-group{position:relative}
+.chip{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;background:none;cursor:pointer;
+  color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
+.chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+.chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
+@media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}}
+.chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
+  max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
+  padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 #scopeNote{position:fixed;top:5rem;left:0;right:0;z-index:19;font-size:.74rem;
   color:var(--ink-faded);background:var(--tyrian-wash);border-bottom:1px solid var(--rule);
   padding:.4rem .9rem;line-height:1.5}
@@ -181,24 +185,16 @@ svg#world{display:block;overflow:visible}
 #panel #orient-fetch-slot .orient-read-first li{border-top:1px solid var(--rule);padding:.4rem 0;font-size:.85rem}
 #panel #orient-fetch-slot .orient-read-first-work{font-family:"Alegreya Sans",sans-serif;font-weight:600;display:block}
 #panel #orient-fetch-slot .orient-read-first-note{font-size:.8rem;color:var(--ink-faded)}
-#legend{position:fixed;left:.8rem;bottom:.8rem;z-index:20;background:var(--vellum);
-  border:1px solid var(--rule);border-radius:3px;padding:.5rem .7rem;font-size:.72rem;
-  max-width:230px;max-height:60vh;overflow-y:auto;box-shadow:var(--shadow)}
-#legend.collapsed{max-height:none;overflow:visible;padding:.3rem .6rem}
-#legend.collapsed .rows{display:none}
-#legendToggle{display:block;background:none;border:none;color:var(--gold-leaf);
-  font-family:"Alegreya Sans",sans-serif;font-size:.72rem;letter-spacing:.06em;
-  text-transform:uppercase;cursor:pointer;padding:.15rem 0;width:100%;text-align:left}
-#legend .row{display:flex;align-items:center;gap:.4rem;margin:.15rem 0}
-#legend i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
-#legend .linekey{width:26px;height:10px;flex:none;display:inline-block}
-#legend .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
+.switches .row{display:flex;align-items:center;gap:.4rem;margin:.15rem 0}
+.switches i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.switches .linekey{width:26px;height:10px;flex:none;display:inline-block}
+.switches .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
-#legend .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
-#legend button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
+.switches .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
+.switches button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
   font:inherit;color:inherit;text-align:left;cursor:pointer}
-#legend button.row:hover{background:var(--tyrian-wash)}
-#legend button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
+.switches button.row:hover{background:var(--tyrian-wash)}
+.switches button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
 .is-off{display:none}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
@@ -221,7 +217,7 @@ svg#world{display:block;overflow:visible}
   #panel .close{min-width:44px;min-height:44px;display:inline-flex;
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
-  #legendToggle{min-height:44px;display:flex;align-items:center}
+  .chip{min-height:44px}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -232,20 +228,16 @@ svg#world{display:block;overflow:visible}
 <body>
 
 <div class="topbar">
-  <a class="home" href="https://churchinconversation.com/">Church in Conversation</a>
   <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
+  <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
   <button id="zoomInBtn" type="button" class="zoom-btn" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="resetBtn" type="button">Reset view</button>
 </div>
-<div class="feature-bar" aria-label="Main features">
-  <a class="feature-btn" href="" aria-current="page">Church Family Tree</a>
-  <a class="feature-btn" href="https://churchinconversation.com/#who">Conversation with One</a>
-  <a class="feature-btn" href="https://churchinconversation.com/table.html">Build a Table</a>
-</div>
+<div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 <div id="scopeNote">
   <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
   This map traces the movements, revivals, and divisions of Christian history
@@ -253,8 +245,8 @@ svg#world{display:block;overflow:visible}
   to read its documented story: who carried it, its legacy, and where the
   record comes from. A growing number of Christian traditions are fully
   built, each with its own representative voice you can have a conversation
-  with. The colored lines between traditions mark real, documented
-  relationships. The legend says what each color means and lets you switch any of them off.
+  with. Colored lines join traditions where the sources record a link. The
+  switches under the title explain each color. Use them to hide any part of the map.
   Scroll or drag to move around, hold Ctrl or Cmd and scroll (or pinch on a touch
   screen) to zoom, hover a name for a glimpse, click for the full story.
 </div>
@@ -265,7 +257,6 @@ svg#world{display:block;overflow:visible}
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
-<div id="legend"></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -47253,33 +47244,28 @@ panel.addEventListener('keydown',(ev)=>{
 });
 
 function buildLegend(){
-  const wrap=document.getElementById('legend');
-  wrap.classList.add('collapsed');
-  let rows='<span class="cap">Tradition families</span>';
-  rows+=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
-  rows+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
-  rows+=`<div class="note">Places are given with the country they lie in today.</div>`;
-  rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
-  rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
-  const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
-  rows+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
-  if((DATA.stories||[]).length){
-    rows+='<span class="cap" style="margin-top:.5rem">Stories</span>';
-    const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
-    rows+=`<button type="button" class="row" data-toggle="stories" aria-pressed="true">${bookIcon}Real, documented, but never its own movement</button>`;
-  }
-  rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
+  const wrap=document.getElementById('switchbar');
+  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
+  let rivers=lanesAll;
+  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
-  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
+  let links='';
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
+  links+=`<div class="note">Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
   const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
-  rows+=confRow('Documented','', 'Documented');
-  rows+=confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction');
-  rows+=confRow('Contested','2,3','Contested');
-  rows+=confRow('Inferential-Thin','1,4','Thin evidence');
-  rows+=`<div class="note">Tap a row to hide or show it. Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
-  wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
+  const evidence=confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
+  const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
+  let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
+  key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
+  key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
+  key+=`<div class="note">Places are given with the country they lie in today.</div>`;
+  key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
+  const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
+  let bar=group('rivers','Rivers',rivers)+group('links','Links',links)+group('evidence','Evidence',evidence);
+  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
+  bar+=group('key','Key',key);
+  wrap.innerHTML=bar;
   const hidden=new Set();
   try{(JSON.parse(localStorage.getItem('tree-hidden')||'[]')).forEach(k=>hidden.add(k));}catch(e){}
   const applyToggles=()=>{
@@ -47308,10 +47294,19 @@ function buildLegend(){
     applyToggles();
   }));
   applyToggles();
-  document.getElementById('legendToggle').addEventListener('click',()=>{
-    const open=wrap.classList.toggle('collapsed');
-    document.getElementById('legendToggle').innerHTML=open?'Legend &#9662;':'Legend &#9652;';
-  });
+  const chips=[...wrap.querySelectorAll('.chip[aria-controls]')];
+  const closeAll=except=>chips.forEach(c=>{if(c===except)return;c.setAttribute('aria-expanded','false');document.getElementById(c.getAttribute('aria-controls')).hidden=true;});
+  chips.forEach(c=>c.addEventListener('click',ev=>{
+    ev.stopPropagation();
+    const panel=document.getElementById(c.getAttribute('aria-controls'));
+    const open=panel.hidden;
+    closeAll(c);
+    panel.hidden=!open;
+    c.setAttribute('aria-expanded',String(open));
+  }));
+  wrap.querySelectorAll('.chip-panel').forEach(p=>p.addEventListener('click',ev=>ev.stopPropagation()));
+  document.addEventListener('click',()=>closeAll(null));
+  document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closeAll(null);});
 }
 
 const stage=document.getElementById('stage');
