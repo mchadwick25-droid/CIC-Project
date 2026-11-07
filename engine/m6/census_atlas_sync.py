@@ -61,6 +61,7 @@ STRUCTURAL_FIELDS = (
     "shortName",
     "era",
     "region",
+    "placeLabel",
     "continuesAs",
 )
 

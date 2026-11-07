@@ -3105,6 +3105,7 @@
    "start": 70,
    "end": 200,
    "region": "Antioch, Asia Minor, Rome",
+   "placeLabel": "Antioch · Asia Minor and beyond",
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -3305,6 +3306,7 @@
    "start": 124,
    "end": 200,
    "region": "Athens, Rome, Sardis, Antioch",
+   "placeLabel": "Athens · Rome and beyond",
    "regions": [
     "Mediterranean",
     "Asia Minor"
@@ -3385,6 +3387,7 @@
    "start": 197,
    "end": 320,
    "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
+   "placeLabel": "Carthage · Rome and beyond",
    "regions": [
     "Mediterranean",
     "Africa",
@@ -3476,6 +3479,7 @@
    "start": 100,
    "end": 900,
    "region": "Asia Minor, Syria, Egypt, Rome, and the Latin West",
+   "placeLabel": "Asia Minor · Syria and beyond",
    "regions": [
     "Mediterranean",
     "Middle East",
@@ -3565,6 +3569,7 @@
    "start": 150,
    "end": 400,
    "region": "Alexandria, Egypt",
+   "placeLabel": "Alexandria · Egypt",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -3768,6 +3773,7 @@
    "end": 410,
    "continuesAs": "persian-church-of-the-east-early",
    "region": "Edessa & Nisibis",
+   "placeLabel": "Edessa · Nisibis",
    "regions": [
     "Middle East"
    ],
@@ -3979,6 +3985,7 @@
    "start": 246,
    "end": 430,
    "region": "Carthage, Hippo Regius",
+   "placeLabel": "Carthage · Hippo Regius",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -4112,6 +4119,7 @@
    "start": 197,
    "end": 220,
    "region": "Carthage",
+   "placeLabel": "Carthage",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -4206,6 +4214,7 @@
    "start": 140,
    "end": 300,
    "region": "Rome, widespread",
+   "placeLabel": "Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -4280,6 +4289,7 @@
    "start": 120,
    "end": 300,
    "region": "Alexandria, Rome, widespread",
+   "placeLabel": "Alexandria · Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -4328,6 +4338,7 @@
    "start": 216,
    "end": 650,
    "region": "Persia to the Mediterranean",
+   "placeLabel": "Persia · Mediterranean",
    "regions": [
     "Middle East"
    ],
@@ -4402,6 +4413,7 @@
    "start": 70,
    "end": 400,
    "region": "Palestine, Syria",
+   "placeLabel": "Palestine · Syria",
    "regions": [
     "Middle East"
    ],
@@ -4440,6 +4452,7 @@
    "start": 165,
    "end": 400,
    "region": "Phrygia, spreading",
+   "placeLabel": "Phrygia and beyond",
    "regions": [
     "Asia Minor"
    ],
@@ -4530,6 +4543,7 @@
    "start": 251,
    "end": 400,
    "region": "Rome, spreading",
+   "placeLabel": "Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -4631,6 +4645,7 @@
    "start": 240,
    "end": 312,
    "region": "Neocaesarea in Pontus, Olympus in Lycia",
+   "placeLabel": "Neocaesarea · Olympus",
    "regions": [
     "Asia Minor"
    ],
@@ -4700,6 +4715,7 @@
    "start": 190,
    "end": 312,
    "region": "Antioch on the Orontes, and its Syrian hinterland",
+   "placeLabel": "Antioch on the Orontes · Syrian hinterland",
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -4776,6 +4792,7 @@
    "start": 185,
    "end": 312,
    "region": "Caesarea Maritima, Jerusalem, Emmaus",
+   "placeLabel": "Caesarea Maritima · Jerusalem and beyond",
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -4899,6 +4916,7 @@
    "start": 200,
    "end": 268,
    "region": "Rome",
+   "placeLabel": "Rome",
    "regions": [
     "Mediterranean"
    ],
@@ -5001,6 +5019,7 @@
    "start": 250,
    "end": 400,
    "region": "Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, Moesia",
+   "placeLabel": "Poetovio · Sirmium and beyond",
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -5076,6 +5095,7 @@
    "start": 320,
    "end": 430,
    "region": "Nile Valley & Desert, Egypt",
+   "placeLabel": "Nile Valley & Desert · Egypt",
    "regions": [
     "Africa"
    ],
@@ -5259,6 +5279,7 @@
    "start": 330,
    "end": 450,
    "region": "Gaza, the Judean desert, Sinai road",
+   "placeLabel": "Gaza · Judean desert and beyond",
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -5329,6 +5350,7 @@
    "start": 311,
    "end": 439,
    "region": "Roman North Africa (Carthage and Numidia)",
+   "placeLabel": "Roman North Africa",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -5497,6 +5519,7 @@
    "start": 325,
    "end": 394,
    "region": "Cappadocia / Anatolia",
+   "placeLabel": "Cappadocia · Anatolia",
    "regions": [
     "Asia Minor"
    ],
@@ -5715,6 +5738,7 @@
    "start": 312,
    "end": 451,
    "region": "Rome, Constantinople, Milan",
+   "placeLabel": "Rome · Constantinople and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -5893,6 +5917,7 @@
    "start": 382,
    "end": 420,
    "region": "Rome & Bethlehem",
+   "placeLabel": "Rome · Bethlehem",
    "regions": [
     "Mediterranean"
    ],
@@ -6054,6 +6079,7 @@
    "end": 451,
    "continuesAs": "armenian-christianity-after-avarayr",
    "region": "Armenia",
+   "placeLabel": "Armenia",
    "regions": [
     "Caucasus"
    ],
@@ -6160,6 +6186,7 @@
    "end": 451,
    "continuesAs": "aksumite-christianity",
    "region": "Aksum (Ethiopia/Eritrea)",
+   "placeLabel": "Aksum",
    "regions": [
     "Africa"
    ],
@@ -6238,6 +6265,7 @@
    "end": 451,
    "continuesAs": "the-church-of-the-east-under-persia",
    "region": "Persian Mesopotamia",
+   "placeLabel": "Persian Mesopotamia",
    "regions": [
     "Middle East"
    ],
@@ -6333,6 +6361,7 @@
    "start": 350,
    "end": 430,
    "region": "Antioch",
+   "placeLabel": "Antioch",
    "regions": [
     "Middle East"
    ],
@@ -6441,6 +6470,7 @@
    "end": 500,
    "continuesAs": "cyrilline-miaphysite-egyptian-christianity",
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -6581,6 +6611,7 @@
    "start": 325,
    "end": 450,
    "region": "Jerusalem",
+   "placeLabel": "Jerusalem",
    "regions": [
     "Middle East"
    ],
@@ -6683,6 +6714,7 @@
    "start": 374,
    "end": 397,
    "region": "Milan",
+   "placeLabel": "Milan",
    "regions": [
     "Mediterranean"
    ],
@@ -6764,6 +6796,7 @@
    "start": 340,
    "end": 410,
    "region": "Aquileia and Concordia, at the head of the Adriatic",
+   "placeLabel": "Aquileia · Concordia",
    "regions": [
     "Mediterranean"
    ],
@@ -6839,6 +6872,7 @@
    "start": 350,
    "end": 400,
    "region": "Poitiers, Béziers, Arles, Paris",
+   "placeLabel": "Poitiers · Béziers and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -6913,6 +6947,7 @@
    "start": 360,
    "end": 450,
    "region": "Tours, Lérins, Marseilles",
+   "placeLabel": "Tours · Lérins and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -7068,6 +7103,7 @@
    "start": 370,
    "end": 450,
    "region": "Spain",
+   "placeLabel": "Spain",
    "regions": [
     "Mediterranean"
    ],
@@ -7142,6 +7178,7 @@
    "start": 390,
    "end": 430,
    "region": "Rome, Mediterranean",
+   "placeLabel": "Rome · Mediterranean",
    "regions": [
     "Mediterranean"
    ],
@@ -7216,6 +7253,7 @@
    "start": 340,
    "end": 589,
    "region": "Empire-wide; then Gothic & Vandal kingdoms",
+   "placeLabel": "Empire-wide · Gothic & Vandal kingdoms",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -7333,6 +7371,7 @@
    "start": 350,
    "end": 430,
    "region": "Antioch, Cyzicus, Constantinople, Cappadocia",
+   "placeLabel": "Antioch · Cyzicus and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -7409,6 +7448,7 @@
    "start": 360,
    "end": 420,
    "region": "Constantinople, Asia Minor, Thrace",
+   "placeLabel": "Constantinople · Asia Minor and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -7484,6 +7524,7 @@
    "start": 360,
    "end": 430,
    "region": "Laodicea, Syria, Asia Minor",
+   "placeLabel": "Laodicea · Syria and beyond",
    "regions": [
     "Asia Minor",
     "Middle East"
@@ -7589,6 +7630,7 @@
    "start": 190,
    "end": 270,
    "region": "Smyrna, Rome, Libya",
+   "placeLabel": "Smyrna · Rome and beyond",
    "regions": [
     "Mediterranean",
     "Asia Minor"
@@ -7665,6 +7707,7 @@
    "start": 180,
    "end": 400,
    "region": "Edessa and Osrhoene",
+   "placeLabel": "Edessa · Osrhoene",
    "regions": [
     "Middle East"
    ],
@@ -7739,6 +7782,7 @@
    "end": 642,
    "continuesAs": "coptic-christianity-under-early-islam",
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -7920,6 +7964,7 @@
    "start": 451,
    "end": 636,
    "region": "Syria, Mesopotamia",
+   "placeLabel": "Syria · Mesopotamia",
    "regions": [
     "Middle East"
    ],
@@ -8066,6 +8111,7 @@
    "end": 651,
    "continuesAs": "the-church-of-the-east-on-the-silk-road",
    "region": "Persian Mesopotamia",
+   "placeLabel": "Persian Mesopotamia",
    "regions": [
     "Middle East"
    ],
@@ -8211,6 +8257,7 @@
    "start": 451,
    "end": 554,
    "region": "Armenia",
+   "placeLabel": "Armenia",
    "regions": [
     "Caucasus"
    ],
@@ -8350,6 +8397,7 @@
    "start": 554,
    "end": 884,
    "region": "Armenia",
+   "placeLabel": "Armenia",
    "regions": [
     "Caucasus"
    ],
@@ -8388,6 +8436,7 @@
    "start": 450,
    "end": 614,
    "region": "Palestine, Sinai",
+   "placeLabel": "Palestine · Sinai",
    "regions": [
     "Middle East"
    ],
@@ -8549,6 +8598,7 @@
    "start": 500,
    "end": 604,
    "region": "Italy",
+   "placeLabel": "Italy",
    "regions": [
     "Mediterranean"
    ],
@@ -8682,6 +8732,7 @@
    "start": 560,
    "end": 604,
    "region": "Rome, its Sicilian and Italian estates, and the mission field beyond",
+   "placeLabel": "Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -8814,6 +8865,7 @@
    "start": 480,
    "end": 620,
    "region": "Gaul",
+   "placeLabel": "Gaul",
    "regions": [
     "Mediterranean"
    ],
@@ -8996,6 +9048,7 @@
    "start": 450,
    "end": 664,
    "region": "Ireland, Iona, Northumbria",
+   "placeLabel": "Ireland · Iona and beyond",
    "regions": [
     "North Europe"
    ],
@@ -9158,6 +9211,7 @@
    "start": 664,
    "end": 1169,
    "region": "Ireland",
+   "placeLabel": "Ireland",
    "regions": [
     "North Europe"
    ],
@@ -9196,6 +9250,7 @@
    "start": 451,
    "end": 615,
    "region": "Ethiopia / Eritrea",
+   "placeLabel": "Ethiopia · Eritrea",
    "regions": [
     "Africa"
    ],
@@ -9339,6 +9394,7 @@
    "start": 330,
    "end": 609,
    "region": "Caucasus",
+   "placeLabel": "Caucasus",
    "regions": [
     "Caucasus"
    ],
@@ -9474,6 +9530,7 @@
    "start": 543,
    "end": 652,
    "region": "Nile Sudan (Makuria, Nobadia)",
+   "placeLabel": "Nile Sudan",
    "regions": [
     "Africa"
    ],
@@ -9578,6 +9635,7 @@
    "start": 451,
    "end": 680,
    "region": "Iberia, Italy, North Africa",
+   "placeLabel": "Iberia · Italy and beyond",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -9720,6 +9778,7 @@
    "start": 451,
    "end": 622,
    "region": "Constantinople, Anatolia, the imperial Mediterranean",
+   "placeLabel": "Constantinople · Anatolia and beyond",
    "regions": [
     "Asia Minor"
    ],
@@ -9829,6 +9888,7 @@
    "start": 451,
    "end": 705,
    "region": "Caucasian Albania (modern Azerbaijan/Dagestan)",
+   "placeLabel": "Caucasian Albania",
    "regions": [
     "Caucasus"
    ],
@@ -9901,6 +9961,7 @@
    "start": 533,
    "end": 698,
    "region": "Carthage and Byzantine North Africa",
+   "placeLabel": "Carthage · Byzantine North Africa",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -9983,6 +10044,7 @@
    "start": 560,
    "end": 711,
    "region": "Iberia (Toledo, Seville)",
+   "placeLabel": "Iberia",
    "regions": [
     "Mediterranean"
    ],
@@ -10097,6 +10159,7 @@
    "start": 451,
    "end": 768,
    "region": "Wales, W. Britain, Cornwall, Brittany",
+   "placeLabel": "Wales · W. Britain and beyond",
    "regions": [
     "North Europe"
    ],
@@ -10199,6 +10262,7 @@
    "start": 768,
    "end": 1282,
    "region": "Wales",
+   "placeLabel": "Wales",
    "regions": [
     "North Europe"
    ],
@@ -10237,6 +10301,7 @@
    "start": 635,
    "end": 845,
    "region": "Persia, Central Asia, Tang China",
+   "placeLabel": "Persia · Central Asia and beyond",
    "regions": [
     "Greater Asia",
     "Middle East"
@@ -10365,6 +10430,7 @@
    "start": 845,
    "end": 1220,
    "region": "Mesopotamia",
+   "placeLabel": "Mesopotamia",
    "regions": [
     "Greater Asia",
     "Middle East"
@@ -10404,6 +10470,7 @@
    "start": 700,
    "end": 1009,
    "region": "Palestine, Syria",
+   "placeLabel": "Palestine · Syria",
    "regions": [
     "Middle East"
    ],
@@ -10531,6 +10598,7 @@
    "start": 642,
    "end": 1013,
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -10682,6 +10750,7 @@
    "start": 597,
    "end": 793,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -10840,6 +10909,7 @@
    "start": 751,
    "end": 888,
    "region": "Francia",
+   "placeLabel": "Francia",
    "regions": [
     "North Europe"
    ],
@@ -10975,6 +11045,7 @@
    "start": 726,
    "end": 843,
    "region": "Constantinople, Bithynia",
+   "placeLabel": "Constantinople · Bithynia",
    "regions": [
     "Asia Minor"
    ],
@@ -11113,6 +11184,7 @@
    "start": 863,
    "end": 916,
    "region": "Moravia, Bulgaria, Ohrid",
+   "placeLabel": "Moravia · Bulgaria and beyond",
    "regions": [
     "Asia Minor",
     "North Europe"
@@ -11265,6 +11337,7 @@
    "start": 988,
    "end": 1054,
    "region": "Kyiv, Novgorod",
+   "placeLabel": "Kyiv · Novgorod",
    "regions": [
     "North Europe"
    ],
@@ -11397,6 +11470,7 @@
    "start": 711,
    "end": 1031,
    "region": "al-Andalus (Cordoba)",
+   "placeLabel": "al-Andalus",
    "regions": [
     "Mediterranean"
    ],
@@ -11531,6 +11605,7 @@
    "start": 909,
    "end": 1109,
    "region": "Burgundy, then Europe",
+   "placeLabel": "Burgundy and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -11661,6 +11736,7 @@
    "start": 849,
    "end": 1054,
    "region": "Malabar Coast",
+   "placeLabel": "Malabar Coast",
    "regions": [
     "Greater Asia"
    ],
@@ -11778,6 +11854,7 @@
    "start": 650,
    "end": 878,
    "region": "Armenia, Byzantium",
+   "placeLabel": "Armenia · Byzantium",
    "regions": [
     "Caucasus"
    ],
@@ -11884,6 +11961,7 @@
    "start": 950,
    "end": 1054,
    "region": "Bulgaria, Balkans",
+   "placeLabel": "Bulgaria · Balkans",
    "regions": [
     "Asia Minor"
    ],
@@ -11956,6 +12034,7 @@
    "start": 826,
    "end": 1104,
    "region": "Denmark, Norway, Sweden, Iceland",
+   "placeLabel": "Denmark · Norway and beyond",
    "regions": [
     "North Europe"
    ],
@@ -12091,6 +12170,7 @@
    "start": 622,
    "end": 843,
    "region": "Constantinople, Anatolia, the Greek East",
+   "placeLabel": "Constantinople · Anatolia and beyond",
    "regions": [
     "Asia Minor"
    ],
@@ -12200,6 +12280,7 @@
    "start": 843,
    "end": 1054,
    "region": "Constantinople, Anatolia, the Greek East",
+   "placeLabel": "Constantinople · Anatolia and beyond",
    "regions": [
     "Asia Minor"
    ],
@@ -12309,6 +12390,7 @@
    "start": 884,
    "end": 1045,
    "region": "Armenia (Ani, Vaspurakan)",
+   "placeLabel": "Armenia",
    "regions": [
     "Caucasus"
    ],
@@ -12413,6 +12495,7 @@
    "start": 650,
    "end": 1054,
    "region": "Jazira, Syria, Tagrit; Deir al-Surian (Egypt)",
+   "placeLabel": "Jazira · Syria and beyond",
    "regions": [
     "Africa",
     "Middle East"
@@ -12523,6 +12606,7 @@
    "start": 697,
    "end": 1054,
    "region": "Makuria (Dongola, Faras, Qasr Ibrim)",
+   "placeLabel": "Makuria",
    "regions": [
     "Africa"
    ],
@@ -12623,6 +12707,7 @@
    "start": 793,
    "end": 1066,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -12736,6 +12821,7 @@
    "start": 780,
    "end": 1000,
    "region": "Tao-Klarjeti, then Mount Athos (Iviron)",
+   "placeLabel": "Tao-Klarjeti · Mount Athos",
    "regions": [
     "Asia Minor",
     "Caucasus",
@@ -12845,6 +12931,7 @@
    "start": 615,
    "end": 1137,
    "region": "Ethiopian highlands",
+   "placeLabel": "Ethiopian highlands",
    "regions": [
     "Africa"
    ],
@@ -12887,6 +12974,7 @@
    "start": 1098,
    "end": 1300,
    "region": "Burgundy, then Europe",
+   "placeLabel": "Burgundy and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -13040,6 +13128,7 @@
    "start": 1084,
    "end": 1300,
    "region": "Chartreuse, then Europe",
+   "placeLabel": "Chartreuse and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -13172,6 +13261,7 @@
    "start": 1108,
    "end": 1246,
    "region": "Paris and beyond",
+   "placeLabel": "Paris and beyond",
    "regions": [
     "North Europe"
    ],
@@ -13274,6 +13364,7 @@
    "start": 1209,
    "end": 1300,
    "region": "Italy, then everywhere",
+   "placeLabel": "Italy and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -13438,6 +13529,7 @@
    "start": 1216,
    "end": 1300,
    "region": "Toulouse, Paris, Bologna",
+   "placeLabel": "Toulouse · Paris and beyond",
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -13578,6 +13670,7 @@
    "start": 963,
    "end": 1300,
    "region": "Athos, Constantinople",
+   "placeLabel": "Athos · Constantinople",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -13730,6 +13823,7 @@
    "start": 1190,
    "end": 1310,
    "region": "Low Countries, Rhineland",
+   "placeLabel": "Low Countries · Rhineland",
    "regions": [
     "North Europe"
    ],
@@ -13869,6 +13963,7 @@
    "start": 1173,
    "end": 1300,
    "region": "Lyon, Alpine valleys",
+   "placeLabel": "Lyon · Alpine valleys",
    "regions": [
     "Mediterranean"
    ],
@@ -13985,6 +14080,7 @@
    "end": 1270,
    "continuesAs": "the-ethiopian-monastic-flowering",
    "region": "Ethiopian highlands",
+   "placeLabel": "Ethiopian highlands",
    "regions": [
     "Africa"
    ],
@@ -14065,6 +14161,7 @@
    "start": 1100,
    "end": 1300,
    "region": "Mount Lebanon",
+   "placeLabel": "Mount Lebanon",
    "regions": [
     "Middle East"
    ],
@@ -14181,6 +14278,7 @@
    "start": 1120,
    "end": 1291,
    "region": "Latin East, Iberia",
+   "placeLabel": "Latin East · Iberia",
    "regions": [
     "Mediterranean"
    ],
@@ -14314,6 +14412,7 @@
    "start": 1143,
    "end": 1321,
    "region": "Languedoc",
+   "placeLabel": "Languedoc",
    "regions": [
     "Mediterranean"
    ],
@@ -14462,6 +14561,7 @@
    "start": 1202,
    "end": 1300,
    "region": "Calabria, then Franciscan circles",
+   "placeLabel": "Calabria and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -14569,6 +14669,7 @@
    "start": 1250,
    "end": 1400,
    "region": "Rhineland, Low Countries",
+   "placeLabel": "Rhineland · Low Countries",
    "regions": [
     "North Europe"
    ],
@@ -14639,6 +14740,7 @@
    "start": 1000,
    "end": 1245,
    "region": "Georgia",
+   "placeLabel": "Georgia",
    "regions": [
     "Caucasus"
    ],
@@ -14748,6 +14850,7 @@
    "start": 1170,
    "end": 1396,
    "region": "Balkans (Hilandar, Studenica, Tarnovo, Rila)",
+   "placeLabel": "Balkans",
    "regions": [
     "Asia Minor"
    ],
@@ -14902,6 +15005,7 @@
    "start": 1054,
    "end": 1300,
    "region": "Constantinople; Nicaea (1204-1261)",
+   "placeLabel": "Constantinople · Nicaea",
    "regions": [
     "Asia Minor"
    ],
@@ -15008,6 +15112,7 @@
    "start": 1049,
    "end": 1300,
    "region": "Rome, Latin Christendom",
+   "placeLabel": "Rome · Latin Christendom",
    "regions": [
     "Mediterranean"
    ],
@@ -15116,6 +15221,7 @@
    "start": 1054,
    "end": 1240,
    "region": "Kyiv, Novgorod, Vladimir-Suzdal",
+   "placeLabel": "Kyiv · Novgorod and beyond",
    "regions": [
     "North Europe"
    ],
@@ -15218,6 +15324,7 @@
    "start": 1080,
    "end": 1300,
    "region": "Cilicia (Sis, Hromkla)",
+   "placeLabel": "Cilicia",
    "regions": [
     "Asia Minor"
    ],
@@ -15297,6 +15404,7 @@
    "start": 1054,
    "end": 1300,
    "region": "Jazira, Melitene, Mor Barsauma",
+   "placeLabel": "Jazira · Melitene and beyond",
    "regions": [
     "Middle East"
    ],
@@ -15400,6 +15508,7 @@
    "start": 1220,
    "end": 1317,
    "region": "Central Asia, the Ilkhanate, China",
+   "placeLabel": "Central Asia · the Ilkhanate and beyond",
    "regions": [
     "Greater Asia"
    ],
@@ -15495,6 +15604,7 @@
    "start": 1206,
    "end": 1300,
    "region": "Mount Carmel, then Europe",
+   "placeLabel": "Mount Carmel and beyond",
    "regions": [
     "Middle East"
    ],
@@ -15541,6 +15651,7 @@
    "start": 1054,
    "end": 1300,
    "region": "Constantinople, Thrace, Macedonia, Bulgaria",
+   "placeLabel": "Constantinople · Thrace and beyond",
    "regions": [
     "Asia Minor"
    ],
@@ -15610,6 +15721,7 @@
    "start": 1099,
    "end": 1291,
    "region": "Jerusalem, Antioch, Acre, Cyprus",
+   "placeLabel": "Jerusalem · Antioch and beyond",
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -15712,6 +15824,7 @@
    "start": 1054,
    "end": 1300,
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -15788,6 +15901,7 @@
    "start": 1170,
    "end": 1300,
    "region": "Lombardy",
+   "placeLabel": "Lombardy",
    "regions": [
     "Mediterranean"
    ],
@@ -15834,6 +15948,7 @@
    "start": 1330,
    "end": 1440,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -15968,6 +16083,7 @@
    "start": 1300,
    "end": 1400,
    "region": "Rhineland, Switzerland",
+   "placeLabel": "Rhineland · Switzerland",
    "regions": [
     "North Europe"
    ],
@@ -16095,6 +16211,7 @@
    "start": 1380,
    "end": 1517,
    "region": "Low Countries",
+   "placeLabel": "Low Countries",
    "regions": [
     "North Europe"
    ],
@@ -16223,6 +16340,7 @@
    "start": 1300,
    "end": 1400,
    "region": "Athos, Thessalonica",
+   "placeLabel": "Athos · Thessalonica",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -16335,6 +16453,7 @@
    "start": 1380,
    "end": 1520,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -16477,6 +16596,7 @@
    "start": 1402,
    "end": 1517,
    "region": "Bohemia",
+   "placeLabel": "Bohemia",
    "regions": [
     "North Europe"
    ],
@@ -16617,6 +16737,7 @@
    "start": 1270,
    "end": 1517,
    "region": "Ethiopian highlands",
+   "placeLabel": "Ethiopian highlands",
    "regions": [
     "Africa"
    ],
@@ -16747,6 +16868,7 @@
    "start": 1340,
    "end": 1517,
    "region": "Russian north",
+   "placeLabel": "Russian north",
    "regions": [
     "North Europe"
    ],
@@ -16886,6 +17008,7 @@
    "start": 1368,
    "end": 1517,
    "region": "Italy, Spain",
+   "placeLabel": "Italy · Spain",
    "regions": [
     "Mediterranean"
    ],
@@ -17025,6 +17148,7 @@
    "start": 1400,
    "end": 1517,
    "region": "England (documented case)",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -17136,6 +17260,7 @@
    "start": 1420,
    "end": 1452,
    "region": "Bohemia",
+   "placeLabel": "Bohemia",
    "regions": [
     "North Europe"
    ],
@@ -17237,6 +17362,7 @@
    "start": 1300,
    "end": 1466,
    "region": "Italy, Provence",
+   "placeLabel": "Italy · Provence",
    "regions": [
     "Mediterranean"
    ],
@@ -17352,6 +17478,7 @@
    "start": 1350,
    "end": 1500,
    "region": "Central Europe",
+   "placeLabel": "Central Europe",
    "regions": [
     "North Europe"
    ],
@@ -17417,6 +17544,7 @@
    "start": 1300,
    "end": 1517,
    "region": "Avignon, Rome, Latin Christendom",
+   "placeLabel": "Avignon · Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -17525,6 +17653,7 @@
    "start": 1300,
    "end": 1453,
    "region": "Constantinople, the empire's remnant",
+   "placeLabel": "Constantinople · the empire's remnant",
    "regions": [
     "Asia Minor"
    ],
@@ -17635,6 +17764,7 @@
    "start": 1300,
    "end": 1517,
    "region": "Cottian Alps (Piedmont/Dauphine), Provence, Apulia, Germany",
+   "placeLabel": "Cottian Alps · Provence and beyond",
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -17717,6 +17847,7 @@
    "start": 1317,
    "end": 1517,
    "region": "Mesopotamia, then the Hakkari-Van-Urmia triangle",
+   "placeLabel": "Mesopotamia · Hakkari-Van-Urmia triangle",
    "regions": [
     "Middle East"
    ],
@@ -17758,6 +17889,7 @@
    "start": 1054,
    "end": 1484,
    "region": "Dongola, Qasr Ibrim, Gebel Adda",
+   "placeLabel": "Dongola · Qasr Ibrim and beyond",
    "regions": [
     "Africa"
    ],
@@ -17802,6 +17934,7 @@
    "start": 1300,
    "end": 1517,
    "region": "Italy, France, Spain, empire-wide",
+   "placeLabel": "Italy · France and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -17877,6 +18010,7 @@
    "start": 1230,
    "end": 1463,
    "region": "Bosnia",
+   "placeLabel": "Bosnia",
    "regions": [
     "Asia Minor"
    ],
@@ -17951,6 +18085,7 @@
    "start": 1300,
    "end": 1441,
    "region": "Cilicia (Sis), then Etchmiadzin",
+   "placeLabel": "Cilicia · Etchmiadzin",
    "regions": [
     "Asia Minor"
    ],
@@ -18030,6 +18165,7 @@
    "start": 1300,
    "end": 1517,
    "region": "Mount Lebanon, Cyprus",
+   "placeLabel": "Mount Lebanon · Cyprus",
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -18078,6 +18214,7 @@
    "start": 1300,
    "end": 1517,
    "region": "Malabar coast (Cranganore, Quilon)",
+   "placeLabel": "Malabar coast",
    "regions": [
     "Greater Asia"
    ],
@@ -18147,6 +18284,7 @@
    "start": 1517,
    "end": 1580,
    "region": "Saxony, then N. Europe",
+   "placeLabel": "Saxony and beyond",
    "regions": [
     "North Europe"
    ],
@@ -18349,6 +18487,7 @@
    "start": 1519,
    "end": 1650,
    "region": "Swiss lands, then Europe",
+   "placeLabel": "Swiss lands and beyond",
    "regions": [
     "North Europe"
    ],
@@ -18506,6 +18645,7 @@
    "start": 1525,
    "end": 1650,
    "region": "Swiss lands, Moravia, Netherlands",
+   "placeLabel": "Swiss lands · Moravia and beyond",
    "regions": [
     "North Europe"
    ],
@@ -18651,6 +18791,7 @@
    "start": 1530,
    "end": 1650,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -18794,6 +18935,7 @@
    "start": 1560,
    "end": 1650,
    "region": "Scotland",
+   "placeLabel": "Scotland",
    "regions": [
     "North Europe"
    ],
@@ -18929,6 +19071,7 @@
    "start": 1559,
    "end": 1685,
    "region": "France",
+   "placeLabel": "France",
    "regions": [
     "Mediterranean"
    ],
@@ -19065,6 +19208,7 @@
    "start": 1559,
    "end": 1650,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -19199,6 +19343,7 @@
    "start": 1560,
    "end": 1660,
    "region": "England, New England",
+   "placeLabel": "England · New England",
    "regions": [
     "North America",
     "North Europe"
@@ -19348,6 +19493,7 @@
    "start": 1570,
    "end": 1650,
    "region": "Netherlands",
+   "placeLabel": "Netherlands",
    "regions": [
     "North Europe"
    ],
@@ -19442,6 +19588,7 @@
    "start": 1532,
    "end": 1655,
    "region": "Alpine valleys",
+   "placeLabel": "Alpine valleys",
    "regions": [
     "Mediterranean"
    ],
@@ -19551,6 +19698,7 @@
    "start": 1540,
    "end": 1650,
    "region": "Rome, then the world",
+   "placeLabel": "Rome and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -19684,6 +19832,7 @@
    "start": 1560,
    "end": 1610,
    "region": "Lombardy, model for the Catholic world",
+   "placeLabel": "Lombardy",
    "regions": [
     "Mediterranean"
    ],
@@ -19809,6 +19958,7 @@
    "start": 1491,
    "end": 1650,
    "region": "Japan, Kongo, China, Americas",
+   "placeLabel": "Japan · Kongo and beyond",
    "regions": [
     "Africa",
     "Greater Asia"
@@ -19976,6 +20126,7 @@
    "start": 1491,
    "end": 1650,
    "region": "Kingdom of Kongo",
+   "placeLabel": "Kingdom of Kongo",
    "regions": [
     "Africa"
    ],
@@ -20008,6 +20159,7 @@
    "start": 1549,
    "end": 1650,
    "region": "Japan",
+   "placeLabel": "Japan",
    "regions": [
     "Greater Asia"
    ],
@@ -20040,6 +20192,7 @@
    "start": 1583,
    "end": 1650,
    "region": "China",
+   "placeLabel": "China",
    "regions": [
     "Greater Asia"
    ],
@@ -20072,6 +20225,7 @@
    "start": 1524,
    "end": 1650,
    "region": "New Spain, the Andes",
+   "placeLabel": "New Spain · the Andes",
    "regions": [
     "Latin America"
    ],
@@ -20105,6 +20259,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Poland, Transylvania",
+   "placeLabel": "Poland · Transylvania",
    "regions": [
     "North Europe"
    ],
@@ -20240,6 +20395,7 @@
    "start": 1540,
    "end": 1650,
    "region": "Silesia, later Pennsylvania",
+   "placeLabel": "Silesia · Pennsylvania",
    "regions": [
     "North Europe"
    ],
@@ -20335,6 +20491,7 @@
    "start": 1540,
    "end": 1600,
    "region": "Rhineland, Low Countries, England",
+   "placeLabel": "Rhineland · Low Countries and beyond",
    "regions": [
     "North Europe"
    ],
@@ -20446,6 +20603,7 @@
    "start": 1453,
    "end": 1650,
    "region": "Anatolia, Balkans, Greek islands",
+   "placeLabel": "Anatolia · Balkans and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -20595,6 +20753,7 @@
    "start": 1599,
    "end": 1665,
    "region": "Malabar Coast",
+   "placeLabel": "Malabar Coast",
    "regions": [
     "Greater Asia"
    ],
@@ -20741,6 +20900,7 @@
    "start": 1565,
    "end": 1650,
    "region": "Philippines",
+   "placeLabel": "Philippines",
    "regions": [
     "Greater Asia"
    ],
@@ -20884,6 +21044,7 @@
    "start": 1596,
    "end": 1700,
    "region": "Ruthenia (today's Ukraine & Belarus)",
+   "placeLabel": "Ruthenia",
    "regions": [
     "North Europe"
    ],
@@ -21025,6 +21186,7 @@
    "start": 1615,
    "end": 1700,
    "region": "Kyiv",
+   "placeLabel": "Kyiv",
    "regions": [
     "North Europe"
    ],
@@ -21151,6 +21313,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Rome, Latin Christendom",
+   "placeLabel": "Rome · Latin Christendom",
    "regions": [
     "Mediterranean"
    ],
@@ -21290,6 +21453,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Muscovy",
+   "placeLabel": "Muscovy",
    "regions": [
     "North Europe"
    ],
@@ -21417,6 +21581,7 @@
    "start": 1517,
    "end": 1627,
    "region": "Bohemia, Moravia",
+   "placeLabel": "Bohemia · Moravia",
    "regions": [
     "North Europe"
    ],
@@ -21534,6 +21699,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Ethiopian highlands",
+   "placeLabel": "Ethiopian highlands",
    "regions": [
     "Africa"
    ],
@@ -21643,6 +21809,7 @@
    "start": 1610,
    "end": 1650,
    "region": "Netherlands",
+   "placeLabel": "Netherlands",
    "regions": [
     "North Europe"
    ],
@@ -21757,6 +21924,7 @@
    "start": 1527,
    "end": 1650,
    "region": "Denmark-Norway (incl. Iceland), Sweden-Finland",
+   "placeLabel": "Denmark-Norway · Sweden-Finland",
    "regions": [
     "North Europe"
    ],
@@ -21884,6 +22052,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Armenia, Isfahan (New Julfa)",
+   "placeLabel": "Armenia · Isfahan",
    "regions": [
     "Caucasus"
    ],
@@ -21997,6 +22166,7 @@
    "start": 1562,
    "end": 1622,
    "region": "Castile, then Catholic Europe",
+   "placeLabel": "Castile and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -22108,6 +22278,7 @@
    "start": 1517,
    "end": 1650,
    "region": "Mesopotamia, Hakkari; Rome",
+   "placeLabel": "Mesopotamia · Hakkari and beyond",
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -22185,6 +22356,7 @@
    "start": 1650,
    "end": 1815,
    "region": "England, Atlantic world",
+   "placeLabel": "England · Atlantic world",
    "regions": [
     "North Europe"
    ],
@@ -22349,6 +22521,7 @@
    "start": 1675,
    "end": 1750,
    "region": "Germany",
+   "placeLabel": "Germany",
    "regions": [
     "North Europe"
    ],
@@ -22486,6 +22659,7 @@
    "start": 1690,
    "end": 1815,
    "region": "Germany, then Pennsylvania",
+   "placeLabel": "Germany · Pennsylvania",
    "regions": [
     "North Europe"
    ],
@@ -22648,6 +22822,7 @@
    "start": 1722,
    "end": 1815,
    "region": "Saxony, then global",
+   "placeLabel": "Saxony and beyond",
    "regions": [
     "North Europe"
    ],
@@ -22792,6 +22967,7 @@
    "start": 1738,
    "end": 1815,
    "region": "Britain, then America",
+   "placeLabel": "Britain and beyond",
    "regions": [
     "North Europe"
    ],
@@ -22966,6 +23142,7 @@
    "start": 1734,
    "end": 1760,
    "region": "New England",
+   "placeLabel": "New England",
    "regions": [
     "North America",
     "North Europe"
@@ -23129,6 +23306,7 @@
    "start": 1666,
    "end": 1815,
    "region": "Russian north, Siberia",
+   "placeLabel": "Russian north · Siberia",
    "regions": [
     "North Europe"
    ],
@@ -23299,6 +23477,7 @@
    "end": 1815,
    "continuesAs": "the-optina-elders-and-russian-ascetic-renewal",
    "region": "Athos, Moldavia, Russia",
+   "placeLabel": "Athos · Moldavia and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean",
@@ -23453,6 +23632,7 @@
    "start": 1640,
    "end": 1710,
    "region": "France",
+   "placeLabel": "France",
    "regions": [
     "Mediterranean"
    ],
@@ -23602,6 +23782,7 @@
    "start": 1735,
    "end": 1815,
    "region": "Wales",
+   "placeLabel": "Wales",
    "regions": [
     "North Europe"
    ],
@@ -23747,6 +23928,7 @@
    "start": 1704,
    "end": 1706,
    "region": "Kongo",
+   "placeLabel": "Kongo",
    "regions": [
     "Africa"
    ],
@@ -23848,6 +24030,7 @@
    "start": 1774,
    "end": 1815,
    "region": "England, then America",
+   "placeLabel": "England and beyond",
    "regions": [
     "North Europe"
    ],
@@ -23984,6 +24167,7 @@
    "start": 1780,
    "end": 1815,
    "region": "England, America",
+   "placeLabel": "England · America",
    "regions": [
     "North Europe"
    ],
@@ -24115,6 +24299,7 @@
    "start": 1675,
    "end": 1699,
    "region": "Spain, France",
+   "placeLabel": "Spain · France",
    "regions": [
     "Mediterranean"
    ],
@@ -24247,6 +24432,7 @@
    "start": 1700,
    "end": 1710,
    "region": "Cevennes",
+   "placeLabel": "Cevennes",
    "regions": [
     "Mediterranean"
    ],
@@ -24380,6 +24566,7 @@
    "start": 1609,
    "end": 1815,
    "region": "England, then America",
+   "placeLabel": "England and beyond",
    "regions": [
     "North Europe"
    ],
@@ -24566,6 +24753,7 @@
    "start": 1600,
    "end": 1810,
    "region": "New Spain, Peru",
+   "placeLabel": "New Spain · Peru",
    "regions": [
     "Latin America",
     "Mediterranean"
@@ -24736,6 +24924,7 @@
    "start": 1650,
    "end": 1821,
    "region": "Anatolia, Balkans, Greek islands",
+   "placeLabel": "Anatolia · Balkans and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -24849,6 +25038,7 @@
    "start": 1650,
    "end": 1815,
    "region": "Rome, Catholic Europe",
+   "placeLabel": "Rome · Catholic Europe",
    "regions": [
     "Mediterranean"
    ],
@@ -24982,6 +25172,7 @@
    "start": 1660,
    "end": 1815,
    "region": "England, Wales, Ireland; the colonies",
+   "placeLabel": "England · Wales and beyond",
    "regions": [
     "North Europe"
    ],
@@ -25118,6 +25309,7 @@
    "start": 1652,
    "end": 1815,
    "region": "Russia",
+   "placeLabel": "Russia",
    "regions": [
     "North Europe"
    ],
@@ -25246,6 +25438,7 @@
    "start": 1685,
    "end": 1787,
    "region": "Languedoc, Cévennes, the French refuge",
+   "placeLabel": "Languedoc · Cévennes and beyond",
    "regions": [
     "Mediterranean"
    ],
@@ -25385,6 +25578,7 @@
    "start": 1724,
    "end": 1815,
    "region": "Damascus, Aleppo, Mount Lebanon",
+   "placeLabel": "Damascus · Aleppo and beyond",
    "regions": [
     "Middle East"
    ],
@@ -25461,6 +25655,7 @@
    "start": 1700,
    "end": 1815,
    "region": "Constantinople, Venice, Mount Lebanon",
+   "placeLabel": "Constantinople · Venice and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean",
@@ -25573,6 +25768,7 @@
    "start": 1723,
    "end": 1815,
    "region": "Netherlands",
+   "placeLabel": "Netherlands",
    "regions": [
     "North Europe"
    ],
@@ -25652,6 +25848,7 @@
    "start": 1662,
    "end": 1815,
    "region": "England, Wales",
+   "placeLabel": "England · Wales",
    "regions": [
     "North Europe"
    ],
@@ -25792,6 +25989,7 @@
    "start": 1770,
    "end": 1815,
    "region": "New England, the mid-Atlantic, and London",
+   "placeLabel": "New England · the mid-Atlantic and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -25901,6 +26099,7 @@
    "start": 1700,
    "end": 1815,
    "region": "Ruthenia (Ukraine & Belarus), Austrian Galicia",
+   "placeLabel": "Ruthenia · Austrian Galicia",
    "regions": [
     "North Europe"
    ],
@@ -26031,6 +26230,7 @@
    "start": 1650,
    "end": 1815,
    "region": "Philippines",
+   "placeLabel": "Philippines",
    "regions": [
     "Greater Asia"
    ],
@@ -26142,6 +26342,7 @@
    "start": 1770,
    "end": 1906,
    "region": "United States",
+   "placeLabel": "United States",
    "regions": [
     "North America"
    ],
@@ -26290,6 +26491,7 @@
    "start": 1795,
    "end": 1840,
    "region": "American frontier",
+   "placeLabel": "American frontier",
    "regions": [
     "North America"
    ],
@@ -26430,6 +26632,7 @@
    "start": 1801,
    "end": 1906,
    "region": "American frontier",
+   "placeLabel": "American frontier",
    "regions": [
     "North America"
    ],
@@ -26571,6 +26774,7 @@
    "start": 1835,
    "end": 1906,
    "region": "N. America, Britain",
+   "placeLabel": "N. America · Britain",
    "regions": [
     "North America",
     "North Europe"
@@ -26718,6 +26922,7 @@
    "start": 1833,
    "end": 1906,
    "region": "England",
+   "placeLabel": "England",
    "regions": [
     "North Europe"
    ],
@@ -26885,6 +27090,7 @@
    "start": 1865,
    "end": 1906,
    "region": "East London, then world",
+   "placeLabel": "East London and beyond",
    "regions": [
     "North Europe"
    ],
@@ -27031,6 +27237,7 @@
    "start": 1793,
    "end": 1906,
    "region": "India, W. Africa, Pacific, China",
+   "placeLabel": "India · W. Africa and beyond",
    "regions": [
     "Africa",
     "Greater Asia",
@@ -27202,6 +27409,7 @@
    "start": 1796,
    "end": 1842,
    "region": "Norway",
+   "placeLabel": "Norway",
    "regions": [
     "North Europe"
    ],
@@ -27337,6 +27545,7 @@
    "start": 1815,
    "end": 1880,
    "region": "Switzerland, France, Netherlands, Germany",
+   "placeLabel": "Switzerland · France and beyond",
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -27481,6 +27690,7 @@
    "start": 1831,
    "end": 1906,
    "region": "N. America",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -27625,6 +27835,7 @@
    "start": 1821,
    "end": 1906,
    "region": "Russia",
+   "placeLabel": "Russia",
    "regions": [
     "North Europe"
    ],
@@ -27766,6 +27977,7 @@
    "start": 1750,
    "end": 1860,
    "region": "Athos, Greek islands",
+   "placeLabel": "Athos · Greek islands",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -27898,6 +28110,7 @@
    "end": 1906,
    "continuesAs": "the-coptic-monastic-and-sunday-school-revival",
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -28026,6 +28239,7 @@
    "start": 1830,
    "end": 1906,
    "region": "N. America",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -28195,6 +28409,7 @@
    "start": 1870,
    "end": 1906,
    "region": "N. America",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -28332,6 +28547,7 @@
    "start": 1875,
    "end": 1906,
    "region": "N. America",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -28467,6 +28683,7 @@
    "start": 1848,
    "end": 1906,
    "region": "Britain, N. America",
+   "placeLabel": "Britain · N. America",
    "regions": [
     "North America",
     "North Europe"
@@ -28588,6 +28805,7 @@
    "start": 1832,
    "end": 1901,
    "region": "Britain",
+   "placeLabel": "Britain",
    "regions": [
     "North Europe"
    ],
@@ -28727,6 +28945,7 @@
    "start": 1848,
    "end": 1881,
    "region": "New York",
+   "placeLabel": "New York",
    "regions": [
     "North America"
    ],
@@ -28862,6 +29081,7 @@
    "start": 1848,
    "end": 1906,
    "region": "N. America, Britain",
+   "placeLabel": "N. America · Britain",
    "regions": [
     "North America",
     "North Europe"
@@ -28931,6 +29151,7 @@
    "start": 1784,
    "end": 1886,
    "region": "Korea",
+   "placeLabel": "Korea",
    "regions": [
     "Greater Asia"
    ],
@@ -29071,6 +29292,7 @@
    "start": 1844,
    "end": 1906,
    "region": "Lapland, Finland, Norway, Sweden",
+   "placeLabel": "Lapland · Finland and beyond",
    "regions": [
     "North Europe"
    ],
@@ -29211,6 +29433,7 @@
    "start": 1827,
    "end": 1906,
    "region": "Dublin, England, then global",
+   "placeLabel": "Dublin · England and beyond",
    "regions": [
     "North Europe"
    ],
@@ -29348,6 +29571,7 @@
    "start": 1780,
    "end": 1900,
    "region": "Britain, N. America",
+   "placeLabel": "Britain · N. America",
    "regions": [
     "North America",
     "North Europe"
@@ -29480,6 +29704,7 @@
    "start": 1886,
    "end": 1920,
    "region": "N. America, Britain, global",
+   "placeLabel": "N. America · Britain and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -29609,6 +29834,7 @@
    "start": 1861,
    "end": 1906,
    "region": "Sumatra, Timor, the archipelago",
+   "placeLabel": "Sumatra · Timor and beyond",
    "regions": [
     "Greater Asia"
    ],
@@ -29753,6 +29979,7 @@
    "start": 1836,
    "end": 1906,
    "region": "Kerala; Khasi, Mizo & Naga hills",
+   "placeLabel": "Kerala · Khasi, Mizo & Naga hills",
    "regions": [
     "Greater Asia"
    ],
@@ -29886,6 +30113,7 @@
    "start": 1821,
    "end": 1906,
    "region": "Greece, Balkans, Constantinople",
+   "placeLabel": "Greece · Balkans and beyond",
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -29992,6 +30220,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Rome, the Catholic world",
+   "placeLabel": "Rome · the Catholic world",
    "regions": [
     "Mediterranean"
    ],
@@ -30120,6 +30349,7 @@
    "start": 1815,
    "end": 1906,
    "region": "England, the empire",
+   "placeLabel": "England · the empire",
    "regions": [
     "North Europe"
    ],
@@ -30230,6 +30460,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Russia",
+   "placeLabel": "Russia",
    "regions": [
     "North Europe"
    ],
@@ -30331,6 +30562,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Constantinople, Anatolia, Caucasus",
+   "placeLabel": "Constantinople · Anatolia and beyond",
    "regions": [
     "Asia Minor",
     "Caucasus"
@@ -30439,6 +30671,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Netherlands, Germany, Switzerland",
+   "placeLabel": "Netherlands · Germany and beyond",
    "regions": [
     "North Europe"
    ],
@@ -30539,6 +30772,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Britain, N. America, mission fields",
+   "placeLabel": "Britain · N. America and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -30649,6 +30883,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Britain, N. America",
+   "placeLabel": "Britain · N. America",
    "regions": [
     "North America",
     "North Europe"
@@ -30753,6 +30988,7 @@
    "start": 1815,
    "end": 1906,
    "region": "N. America, Britain",
+   "placeLabel": "N. America · Britain",
    "regions": [
     "North America",
     "North Europe"
@@ -30855,6 +31091,7 @@
    "start": 1819,
    "end": 1906,
    "region": "New England, mid-Atlantic",
+   "placeLabel": "New England · mid-Atlantic",
    "regions": [
     "North America",
     "North Europe"
@@ -30957,6 +31194,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Belarus, Ukraine, Galicia",
+   "placeLabel": "Belarus · Ukraine and beyond",
    "regions": [
     "North Europe"
    ],
@@ -31060,6 +31298,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Philippines",
+   "placeLabel": "Philippines",
    "regions": [
     "Greater Asia"
    ],
@@ -31160,6 +31399,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Mesopotamia, Hakkari, Urmia",
+   "placeLabel": "Mesopotamia · Hakkari and beyond",
    "regions": [
     "Middle East"
    ],
@@ -31267,6 +31507,7 @@
    "start": 1817,
    "end": 1906,
    "region": "Prussia, Saxony, Bavaria; N. America; Australia",
+   "placeLabel": "Prussia · Saxony and beyond",
    "regions": [
     "North America",
     "North Europe",
@@ -31375,6 +31616,7 @@
    "start": 1818,
    "end": 1895,
    "region": "Madagascar",
+   "placeLabel": "Madagascar",
    "regions": [
     "Africa"
    ],
@@ -31476,6 +31718,7 @@
    "start": 1844,
    "end": 1906,
    "region": "East Africa, Buganda",
+   "placeLabel": "East Africa · Buganda",
    "regions": [
     "Africa"
    ],
@@ -31589,6 +31832,7 @@
    "start": 1850,
    "end": 1864,
    "region": "China",
+   "placeLabel": "China",
    "regions": [
     "Greater Asia"
    ],
@@ -31695,6 +31939,7 @@
    "start": 1865,
    "end": 1906,
    "region": "Japan",
+   "placeLabel": "Japan",
    "regions": [
     "Greater Asia"
    ],
@@ -31810,6 +32055,7 @@
    "start": 1804,
    "end": 1860,
    "region": "Haiti",
+   "placeLabel": "Haiti",
    "regions": [
     "North America"
    ],
@@ -31882,6 +32128,7 @@
    "start": 1824,
    "end": 1906,
    "region": "Alaska, Aleutians",
+   "placeLabel": "Alaska · Aleutians",
    "regions": [
     "North America"
    ],
@@ -31997,6 +32244,7 @@
    "start": 1815,
    "end": 1906,
    "region": "Spanish America, Brazil",
+   "placeLabel": "Spanish America · Brazil",
    "regions": [
     "Latin America"
    ],
@@ -32102,6 +32350,7 @@
    "start": 1855,
    "end": 1900,
    "region": "Ethiopia",
+   "placeLabel": "Ethiopia",
    "regions": [
     "Africa"
    ],
@@ -32212,6 +32461,7 @@
    "start": 1834,
    "end": 1906,
    "region": "Netherlands; N. America",
+   "placeLabel": "Netherlands · N. America",
    "regions": [
     "North America",
     "North Europe"
@@ -32322,6 +32572,7 @@
    "start": 1860,
    "end": 1906,
    "region": "Ukraine, Russia",
+   "placeLabel": "Ukraine · Russia",
    "regions": [
     "North Europe"
    ],
@@ -32431,6 +32682,7 @@
    "start": 1906,
    "end": 1920,
    "region": "Los Angeles, then global",
+   "placeLabel": "Los Angeles and beyond",
    "regions": [
     "North America"
    ],
@@ -32569,6 +32821,7 @@
    "start": 1904,
    "end": 1910,
    "region": "Wales, India, Korea",
+   "placeLabel": "Wales · India and beyond",
    "regions": [
     "Greater Asia",
     "North Europe"
@@ -32705,6 +32958,7 @@
    "start": 1930,
    "end": 1977,
    "region": "Rwanda, Uganda, Kenya, Tanzania",
+   "placeLabel": "Rwanda · Uganda and beyond",
    "regions": [
     "Africa"
    ],
@@ -32836,6 +33090,7 @@
    "start": 1880,
    "end": 2026,
    "region": "W. & S. Africa, Congo",
+   "placeLabel": "W. & S. Africa · Congo",
    "regions": [
     "Africa"
    ],
@@ -32973,6 +33228,7 @@
    "start": 1920,
    "end": 2026,
    "region": "China",
+   "placeLabel": "China",
    "regions": [
     "Greater Asia"
    ],
@@ -33117,6 +33373,7 @@
    "start": 1933,
    "end": 1945,
    "region": "Germany",
+   "placeLabel": "Germany",
    "regions": [
     "North Europe"
    ],
@@ -33233,6 +33490,7 @@
    "start": 1930,
    "end": 2026,
    "region": "Global",
+   "placeLabel": "Global",
    "regions": [
     "Mediterranean",
     "North America",
@@ -33372,6 +33630,7 @@
    "start": 1960,
    "end": 1990,
    "region": "Brazil, Central America",
+   "placeLabel": "Brazil · Central America",
    "regions": [
     "Latin America"
    ],
@@ -33503,6 +33762,7 @@
    "start": 1920,
    "end": 1970,
    "region": "Paris, then global",
+   "placeLabel": "Paris and beyond",
    "regions": [
     "North Europe"
    ],
@@ -33633,6 +33893,7 @@
    "start": 1940,
    "end": 2026,
    "region": "Egypt",
+   "placeLabel": "Egypt",
    "regions": [
     "Africa"
    ],
@@ -33772,6 +34033,7 @@
    "start": 1950,
    "end": 2026,
    "region": "Brazil, Nigeria, Ghana, Korea, Philippines",
+   "placeLabel": "Brazil · Nigeria and beyond",
    "regions": [
     "Africa",
     "Greater Asia",
@@ -33912,6 +34174,7 @@
    "start": 1945,
    "end": 1991,
    "region": "USSR, Romania",
+   "placeLabel": "USSR · Romania",
    "regions": [
     "North Europe"
    ],
@@ -34042,6 +34305,7 @@
    "start": 1960,
    "end": 2026,
    "region": "Israel, N. America",
+   "placeLabel": "Israel · N. America",
    "regions": [
     "Middle East",
     "North America"
@@ -34175,6 +34439,7 @@
    "start": 1938,
    "end": 2026,
    "region": "France, Scotland",
+   "placeLabel": "France · Scotland",
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -34303,6 +34568,7 @@
    "start": 1913,
    "end": 2026,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -34444,6 +34710,7 @@
    "start": 1914,
    "end": 2026,
    "region": "Philippines; N. America; Korea; Mexico",
+   "placeLabel": "Philippines · N. America and beyond",
    "regions": [
     "Greater Asia",
     "North America"
@@ -34581,6 +34848,7 @@
    "start": 1929,
    "end": 1993,
    "region": "N. America",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -34676,6 +34944,7 @@
    "start": 1990,
    "end": 2026,
    "region": "Global",
+   "placeLabel": "Global",
    "regions": [
     "North America",
     "North Europe"
@@ -34741,6 +35010,7 @@
    "start": 1915,
    "end": 2026,
    "region": "Tur Abdin, Urmia, then global",
+   "placeLabel": "Tur Abdin · Urmia and beyond",
    "regions": [
     "Middle East"
    ],
@@ -34876,6 +35146,7 @@
    "start": 1900,
    "end": 2026,
    "region": "Ethiopia, Eritrea",
+   "placeLabel": "Ethiopia · Eritrea",
    "regions": [
     "Africa"
    ],
@@ -35011,6 +35282,7 @@
    "start": 1946,
    "end": 1989,
    "region": "Ukraine",
+   "placeLabel": "Ukraine",
    "regions": [
     "North Europe"
    ],
@@ -35146,6 +35418,7 @@
    "start": 1917,
    "end": 1991,
    "region": "USSR",
+   "placeLabel": "USSR",
    "regions": [
     "North Europe"
    ],
@@ -35281,6 +35554,7 @@
    "start": 1962,
    "end": 2026,
    "region": "Global",
+   "placeLabel": "Global",
    "regions": [
     "Mediterranean"
    ],
@@ -35412,6 +35686,7 @@
    "start": 1974,
    "end": 2026,
    "region": "Global",
+   "placeLabel": "Global",
    "regions": [
     "Africa",
     "Greater Asia",
@@ -35548,6 +35823,7 @@
    "start": 1960,
    "end": 2026,
    "region": "UK, Germany, Netherlands, Ukraine",
+   "placeLabel": "UK · Germany and beyond",
    "regions": [
     "North Europe"
    ],
@@ -35676,6 +35952,7 @@
    "start": 1925,
    "end": 2026,
    "region": "Aotearoa New Zealand, Pacific",
+   "placeLabel": "Aotearoa New Zealand · Pacific",
    "regions": [
     "Pacific"
    ],
@@ -35809,6 +36086,7 @@
    "start": 1915,
    "end": 2026,
    "region": "Anatolia -> Armenia & worldwide diaspora",
+   "placeLabel": "Anatolia · Armenia and beyond",
    "regions": [
     "Asia Minor",
     "Caucasus"
@@ -35944,6 +36222,7 @@
    "start": 1990,
    "end": 2015,
    "region": "N. America, UK, Australia",
+   "placeLabel": "N. America · UK and beyond",
    "regions": [
     "North America",
     "North Europe",
@@ -36081,6 +36360,7 @@
    "start": 1875,
    "end": 2026,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -36216,6 +36496,7 @@
    "start": 1975,
    "end": 2026,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -36357,6 +36638,7 @@
    "start": 2010,
    "end": 2026,
    "region": "Digital-native; N. America and beyond",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -36488,6 +36770,7 @@
    "start": 1990,
    "end": 2026,
    "region": "N. America, UK, then global (digital)",
+   "placeLabel": "N. America · UK and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -36638,6 +36921,7 @@
    "start": 1910,
    "end": 1970,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -36776,6 +37060,7 @@
    "start": 1886,
    "end": 1918,
    "region": "N. America (urban, industrial)",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],
@@ -36914,6 +37199,7 @@
    "start": 1900,
    "end": 1990,
    "region": "N. America, Germany, Britain",
+   "placeLabel": "N. America · Germany and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -37059,6 +37345,7 @@
    "start": 1998,
    "end": 2026,
    "region": "N. America, then global (digital)",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -37207,6 +37494,7 @@
    "start": 1906,
    "end": 2026,
    "region": "Sumatra, Java, Timor, the archipelago",
+   "placeLabel": "Sumatra · Java and beyond",
    "regions": [
     "Greater Asia"
    ],
@@ -37335,6 +37623,7 @@
    "start": 1906,
    "end": 2026,
    "region": "Kerala; Mizo, Khasi & Naga hills; diaspora",
+   "placeLabel": "Kerala · Mizo, Khasi & Naga hills and beyond",
    "regions": [
     "Greater Asia"
    ],
@@ -37463,6 +37752,7 @@
    "start": 1912,
    "end": 2026,
    "region": "Kerala; worldwide diaspora",
+   "placeLabel": "Kerala and beyond",
    "regions": [
     "Greater Asia"
    ],
@@ -37591,6 +37881,7 @@
    "start": 1917,
    "end": 2026,
    "region": "Georgia (Caucasus)",
+   "placeLabel": "Georgia",
    "regions": [
     "Caucasus"
    ],
@@ -37709,6 +38000,7 @@
    "start": 1906,
    "end": 2026,
    "region": "N. America (upper South), then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -37846,6 +38138,7 @@
    "start": 1906,
    "end": 2026,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -37973,6 +38266,7 @@
    "start": 1906,
    "end": 2026,
    "region": "United States",
+   "placeLabel": "United States",
    "regions": [
     "North America"
    ],
@@ -38101,6 +38395,7 @@
    "start": 1906,
    "end": 2026,
    "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
    "regions": [
     "North America"
    ],
@@ -38229,6 +38524,7 @@
    "start": 1960,
    "end": 1980,
    "region": "N. America, UK, then global",
+   "placeLabel": "N. America · UK and beyond",
    "regions": [
     "North America",
     "North Europe"
@@ -38358,6 +38654,7 @@
    "start": 1921,
    "end": 2026,
    "region": "Geneva; global",
+   "placeLabel": "Geneva and beyond",
    "regions": [
     "North Europe"
    ],
@@ -38486,6 +38783,7 @@
    "start": 1906,
    "end": 1962,
    "region": "Rome, the Catholic world",
+   "placeLabel": "Rome · the Catholic world",
    "regions": [
     "Mediterranean"
    ],
@@ -38615,6 +38913,7 @@
    "start": 1970,
    "end": 2026,
    "region": "North America",
+   "placeLabel": "North America",
    "regions": [
     "North America"
    ],
@@ -38753,6 +39052,7 @@
    "start": 1990,
    "end": 2026,
    "region": "N. America, digital-native",
+   "placeLabel": "N. America",
    "regions": [
     "North America"
    ],

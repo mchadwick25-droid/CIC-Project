@@ -8,6 +8,9 @@ const args = process.argv.slice(2);
 const baseIdx = args.indexOf("--base");
 const basePath = baseIdx >= 0 ? args[baseIdx + 1] : null;
 if (baseIdx >= 0) args.splice(baseIdx, 2);
+const atlasIdx = args.indexOf("--atlas");
+const atlasPath = atlasIdx >= 0 ? args[atlasIdx + 1] : null;
+if (atlasIdx >= 0) args.splice(atlasIdx, 2);
 const path = args[0] ?? "cic-website/data/world-census.json";
 const errs = [];
 const warn = [];
@@ -164,6 +167,30 @@ if (d.meta) {
     for (const k of Object.keys(sc))
       if (!(k in d.meta.statusCounts)) errs.push(`meta.statusCounts missing status "${k}" (actual ${sc[k]})`);
   }
+}
+
+// --- place labels: drawn only from the entry's own region text ---
+function checkPlaceLabel(label, entry) {
+  if (typeof entry.region !== "string" || !entry.region.trim()) { errs.push(`${label}: missing region`); return; }
+  const p = entry.placeLabel;
+  if (typeof p !== "string" || !p.trim()) { errs.push(`${label}: missing placeLabel`); return; }
+  const parts = p.replace(/ and beyond$/, "").split(" · ");
+  if (parts.length > 2) errs.push(`${label}: placeLabel names more than two places`);
+  let from = 0;
+  for (const part of parts) {
+    const at = entry.region.indexOf(part, from);
+    if (!part.trim() || at < 0) errs.push(`${label}: placeLabel "${part}" is not in its region text`);
+    else from = at + part.length;
+  }
+}
+(d.movements ?? []).forEach(m => checkPlaceLabel(m.id, m));
+if (atlasPath) {
+  const html = readFileSync(atlasPath, "utf8");
+  const at = html.indexOf('"stories":', html.indexOf("const DATA"));
+  const open = html.indexOf("[", at);
+  let depth = 0, end = open;
+  for (; end < html.length; end++) { if (html[end] === "[") depth++; else if (html[end] === "]" && --depth === 0) break; }
+  JSON.parse(html.slice(open, end + 1)).forEach(s => checkPlaceLabel(`story ${s.id}`, s));
 }
 
 // --- report ---
