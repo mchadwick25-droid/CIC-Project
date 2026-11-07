@@ -73,8 +73,9 @@ applied to every shared file, not only the census.
 | P1c | Rename, data release 3, redirects | none (after P1b is verified) | merged (#1531) |
 | P1d | Door switch; about, privacy and support pages | Mark: Stripe links | merged (#1531); give buttons wait on the Stripe links |
 | P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | merged (#1532) |
-| P2-L1 | Links, era 1; data release 4 | none | in review |
-| P2-L2…L10 | Links, one era per chunk | none | todo |
+| P2-L1 | Links, era 1; data release 4 | none | merged (#1537) |
+| P2-L2 | Links, era 2; data release 6 | none | in review |
+| P2-L3…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-M | Method page, confidence at a glance | none | todo |
 | P2-D | Data and citation page | none | todo |
