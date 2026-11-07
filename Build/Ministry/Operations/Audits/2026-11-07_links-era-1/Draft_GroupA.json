@@ -1,0 +1,651 @@
+{
+ "group": "A",
+ "movements": [
+  "post-apostolic-house-church",
+  "greek-apologists-second-century",
+  "latin-apologists",
+  "tertullian-s-voice"
+ ],
+ "dispositions": [
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "relationsSummary",
+   "sentence": "Parent of nearly everything on the map",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Only one documented line runs out of this movement (to roman-church-third-century); parenthood of most later movements is not shown by any vendored text. Rewritten as what later traditions claim."
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "longDescription",
+   "sentence": "Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like—the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers.",
+   "other_id": "greek-apologists-second-century",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A shared figure, not a relationship between movements; the identity link was removed on 2026-11-06 and no type expresses overlap. Claims checked: Sunday account, 1 Apol. 67 (anf01 16502-16528); bathhouse, Martyrdom of Justin (anf01 29309, 'I live above one Martinus, at the Timiotinian Bath')."
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "longDescription",
+   "sentence": "Around 112 CE, the governor Pliny the Younger wrote to the emperor Trajan describing an investigation: believers who had recanted told him, under threat of ordinary punishment, that these communities met before dawn to sing a hymn to Christ 'as God,' bound themselves by oath against theft and adultery, then met again later for a meal they called 'common yet harmless.'",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Roman state, no census movement. Supported by the world record pahc.source.pliny-letters (records/pahc/source/) and in part by the Latin of Ep. 10.96 quoted in an editor's note, anf05 60209-60211 ('ante lucem convenire, carmenque Christo, quasi Deo')."
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "why",
+   "sentence": "In the decades after the apostles died, these house churches held together with no fixed hierarchy and no finished New Testament - Ignatius wrote seven letters while under armed guard on his way to execution, and Rome wrote at length to settle a quarrel in Corinth.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Rome and Corinth c. 96 both sit inside this movement; an internal letter, not a link. Checked: 1 Clement opening on the Corinthian 'sedition' (anf01 468, 532)."
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "legacy",
+   "sentence": "Almost every Christian tradition descends from these early gatherings.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Same as the relationsSummary: stated as descent, not documented beyond Rome. Rewritten as a claim the traditions make; FRE 51.7 before, 53.6 after."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "relationsSummary",
+   "sentence": "Overlaps post-apostolic-house-church in era and largely in people - Justin taught at Rome - but is a different thing: that entry is the church's internal life, this is the same Christians turned outward, addressing emperors and an educated public that despised them.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Overlap/identity is not one of the six link types (link removed 2026-11-06 for asserting identity). Rewritten to the documented overlap (Justin, Theophilus, Melito; sources in prose change 3) and to remove an internal ID from public text."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "longDescription",
+   "sentence": "The charges were always roughly the same - that Christians were atheists because they had no images, cannibals because of what they said about eating a body, and disloyal because they would not sacrifice - and the answers were too.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Pagan critics, no movement. Supported: Athenagoras, Plea 3, 'Three things are alleged against us: atheism, Thyestean feasts' (anf02 11553-11554); Justin, 1 Apol. 11, on suspicion of a 'kingdom' (anf01 14299). Athenagoras's third charge is incest, which the sentence leaves out; 'roughly' covers it, so no change."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "longDescription",
+   "sentence": "What made the enterprise interesting was the second move: rather than only denying the charges, most of them argued that the best of Greek philosophy had been reaching toward what the church now held, and that Christians were therefore the true heirs of reason rather than its enemies.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Greek philosophy is no movement. 'Most of them' is not supported (Diognetus 8 and Tatian are hostile); narrowed to 'several of them, Justin above all'. FRE 35.1 before, 48.6 after."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "legacy",
+   "sentence": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down, and that Clement and Origen at Alexandria took much further.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "qualify",
+   "link_id": "greek-apologists-second-century--alexandria-catechetical",
+   "prose_change": 5,
+   "reason": "The movement link exists (Clement praising Tatian, Documented). The Justin-specific line of descent is not in the vendored texts, so the sentence now states the parallel Clement draws (Strom. VI.7, anf02 46779-46780). FRE 25.6 before, 33.7 after."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "relationsSummary",
+   "sentence": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body.",
+   "other_id": "greek-apologists-second-century",
+   "disposition": "link",
+   "link_id": "greek-apologists-second-century--latin-apologists",
+   "prose_change": 0,
+   "reason": "Existing Documented link (Tertullian, Adv. Val. 5, naming 'Justin, philosopher and martyr'). Kept."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "relationsSummary",
+   "sentence": "It includes Tertullian, whose Latin apologetic writing opened the tradition and gave it its vocabulary before the other authors continued it.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--latin-apologists",
+   "prose_change": 0,
+   "reason": "Existing Documented link (Lactantius, Div. inst. V.4.3, naming Tertullian's Apology). Kept."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "relationsSummary",
+   "sentence": "Its clearest link to the later imperial church runs through Lactantius, who wrote his own defense during persecution and then tutored the son of the emperor who ended it.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "latin-apologists--imperial-juridical-christianity",
+   "prose_change": 0,
+   "reason": "Existing Inferential-Thin link (Jerome, DVI 80). The prose claims contact only, which the thin grade matches. Kept."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "Trinitas, persona, substantia, sacramentum: ... Against Praxeas arguing that Father and Son are genuinely distinct ...",
+   "other_id": "modalist-monarchianism",
+   "disposition": "out-of-scope",
+   "link_id": "tertullian-s-voice--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Tertullian's own act, carried by the existing tertullian-s-voice link; this text echoes it."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "Trinitas, persona, substantia, sacramentum: ... five long books Against Marcion answering the one rival he judged most dangerous.",
+   "other_id": "marcion-marcionism",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--marcion-marcionism",
+   "prose_change": 0,
+   "reason": "New Documented link from Tertullian's own entry (Adv. Marc. I.1-2, anf03 22500-22610). Drawn from tertullian-s-voice, the same way as the Praxeas link."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "Trinitas, persona, substantia, sacramentum: ... the Prescription Against Heretics contending that Scripture belongs to the churches that received it ...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Heretics in general, no movement. Supported: Praescr. 37, 'not being Christians, they have acquired no right to the Christian Scriptures' (anf03 21740-21742)."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "In his later years he grew steadily more rigorist and aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint.",
+   "other_id": "montanism-the-new-prophecy",
+   "disposition": "out-of-scope",
+   "link_id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "prose_change": 0,
+   "reason": "Tertullian's own act, carried by the new link to tertullian-s-voice; this text echoes it."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "Roughly a generation on and in a very different key, a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia, in which a pagan friend states the case against Christianity ... and is answered and convinced.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Pagan critic within a literary dialogue, no movement. The Octavius is vendored (anf04; Latin, Halm CSEL 2) and Caecilius speaks the pagan case."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "A century later and in a different register again, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen ...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Roman religion, no movement. Supported: the Seven Books Against the Heathen (anf06 39466); Jerome, DVI 79, 'teacher of rhetoric at Sicca' who wrote 'Against the nations' (npnf203 41023-41025). The bishop story is already marked 'if Jerome is to be believed' (Chronicle, not vendored)."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it ...",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Diocletian's government is no movement. Pupil: DVI 80, 'a disciple of Arnobius' (npnf203 41034). Teaching at Nicomedia when the church was destroyed: Div. inst. V.2.2. 'Lost the post' is not in either; rewritten. FRE 30.1 before and 30.2 after (whole one-paragraph field)."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "sentence": "... when Constantine brought him to Trier to teach his son.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "latin-apologists--imperial-juridical-christianity",
+   "prose_change": 0,
+   "reason": "Carried by the existing Inferential-Thin link. Jerome says 'in Gaul'; Trier itself is not in DVI 80, a detail outside this pass."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "why",
+   "sentence": "A Carthaginian convert named Tertullian had to invent Latin words for the Trinity and the sacraments just to defend his faith, coining terms like trinitas, persona, and substantia.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--latin-apologists",
+   "prose_change": 0,
+   "reason": "Carried by the existing Documented link."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "why",
+   "sentence": "The argument he opened ran a further century, through Minucius Felix's dialogue giving pagan objections their fullest voice, to Lactantius, who wrote his own defense in the middle of persecution and later tutored the emperor's son.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "latin-apologists--imperial-juridical-christianity",
+   "prose_change": 0,
+   "reason": "Carried by the existing Inferential-Thin link."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "legacy",
+   "sentence": "Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Pagan critics, no movement. The Octavius is vendored; the 'most complete record' is a judgment, not a link."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "legacy",
+   "sentence": "And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No Renaissance-humanism movement in the census. Supported: Brandt's prolegomena, 'Ciceronis Christiani cultu' and 'inter primos libros ... in Italia confectos ipse Lactantius fuit a. 1465 in monasterio Sublacensi' (lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt 247-252, OCR)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "relationsSummary",
+   "sentence": "Tertullian's writing opened the entire tradition of Latin Christian argument that the Latin apologists carried on after him.",
+   "other_id": "latin-apologists",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--latin-apologists",
+   "prose_change": 0,
+   "reason": "Existing Documented link. Kept."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "longDescription",
+   "sentence": "... Against Praxeas arguing that Father and Son are genuinely distinct ...",
+   "other_id": "modalist-monarchianism",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Existing Documented link. Kept."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "longDescription",
+   "sentence": "... the Apology dismantling Roman slanders against Christians ...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Pagan critics, no movement. The Apology is vendored (anf03 1434 onward)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "longDescription",
+   "sentence": "... On the Prescription of Heretics contending that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Heretics in general, no movement. Supported: Praescr. 37 (anf03 21740-21742)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "longDescription",
+   "sentence": "And aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint.",
+   "other_id": "montanism-the-new-prophecy",
+   "disposition": "link",
+   "link_id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "prose_change": 0,
+   "reason": "New Documented link: Adv. Marc. III.24, Adv. Prax. 1, Jerome DVI 53."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "why",
+   "sentence": "Cyprian, a generation on, read him every day and called him simply 'the master.'",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   "prose_change": 0,
+   "reason": "New Documented link: Jerome, DVI 53 (second-hand, via Cyprian's former secretary) and Ep. 84.2."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "why",
+   "sentence": "Trained as an advocate, he wrote the Apology defending Christians against Roman slander, and in his later years aligned himself with the rigorist New Prophecy movement.",
+   "other_id": "montanism-the-new-prophecy",
+   "disposition": "link",
+   "link_id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "prose_change": 0,
+   "reason": "New link carries the New Prophecy clause; the Roman slander clause is no-entry (pagan critics)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "legacy",
+   "sentence": "No community descends from him — there is some evidence of a small group of followers in Carthage after his death, and nothing beyond that.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Tertullianists have no census movement. Supported: Augustine, De haer. 86, on 'Tertullianistae' lasting in Carthage until his time and handing their basilica to the Catholics (PL 42 OCR, 2827-2835)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "legacy",
+   "sentence": "Cyprian, Jerome and Augustine all read him closely ...",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   "prose_change": 0,
+   "reason": "New link carries Cyprian and Augustine (De haer. 86)."
+  },
+  {
+   "movement": "tertullian-s-voice",
+   "field": "legacy",
+   "sentence": "Cyprian, Jerome and Augustine all read him closely ...",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "prose_change": 0,
+   "reason": "New link carries Jerome: Ep. 58.10, Ep. 62.2, DVI 53."
+  }
+ ],
+ "links": [
+  {
+   "id": "tertullian-s-voice--modalist-monarchianism",
+   "action": "keep",
+   "named_in_text": "tertullian-s-voice longDescription (Against Praxeas); modalist-monarchianism text also names Tertullian"
+  },
+  {
+   "id": "tertullian-s-voice--latin-apologists",
+   "action": "keep",
+   "named_in_text": "tertullian-s-voice relationsSummary and latin-apologists relationsSummary"
+  },
+  {
+   "id": "greek-apologists-second-century--latin-apologists",
+   "action": "keep",
+   "named_in_text": "latin-apologists relationsSummary ('the Latin counterpart to the Greek apologists ... a generation later'); the text names the pair, the link carries the documented contact (Tertullian naming Justin)"
+  },
+  {
+   "id": "greek-apologists-second-century--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "greek-apologists-second-century legacy ('Clement and Origen at Alexandria')"
+  },
+  {
+   "id": "latin-apologists--imperial-juridical-christianity",
+   "action": "keep",
+   "named_in_text": "latin-apologists relationsSummary, longDescription and why (Lactantius tutoring Constantine's son); the thin grade matches the text's own 'clearest link ... runs through Lactantius'"
+  },
+  {
+   "id": "post-apostolic-house-church--roman-church-third-century",
+   "action": "keep",
+   "named_in_text": "roman-church-third-century longDescription ('Between the house-church world that ends around 200 and the Novatian schism of 251, the Roman church ...'); not named in post-apostolic-house-church's own text, which needs nothing added"
+  },
+  {
+   "id": "tertullian-s-voice--marcion-marcionism",
+   "action": "new",
+   "from": "tertullian-s-voice",
+   "to": "marcion-marcionism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Tertullian wrote five books Against Marcion. He opens by saying this new work replaces his earlier writing against Marcion. He calls him 'the heretic of Pontus' who brought in two Gods.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.tertullian-adversus-marcionem",
+     "work": "Tertullian, Against Marcion I.1 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "22569-22570",
+     "locus": "Adv. Marc. I.1",
+     "quote": "Marcion is more savage than even the beasts of that barbarous region.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.tertullian-adversus-marcionem",
+     "work": "Tertullian, Against Marcion I.2 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "22609-22610",
+     "locus": "Adv. Marc. I.2",
+     "quote": "The heretic of Pontus introduces two Gods, like the twin Symplegades of his own shipwreck",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.tertullian-adversus-marcionem",
+     "work": "Tertullian, Against Marcion I.1 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "22500-22501",
+     "locus": "Adv. Marc. I.1",
+     "quote": "we have wrought in opposition to Marcion, is from the present moment no longer to be accounted of.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-apologists longDescription ('five long books Against Marcion'); marcion-marcionism longDescription ('above all Tertullian, whose Against Marcion runs to five books'). Not named in tertullian-s-voice's own text; the Marcion text names it, so no addition is needed",
+   "wants": [],
+   "drafter_flags": [
+    "The third quote starts mid-sentence because an editor's note interrupts 'Whatever in times past'; the clause itself is clean. Drop it if the reviewer prefers whole sentences: the first two quotes carry the link."
+   ],
+   "change_reason": "New: both latin-apologists and marcion-marcionism name Tertullian's Against Marcion, and no link carried it."
+  },
+  {
+   "id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "action": "new",
+   "from": "montanism-the-new-prophecy",
+   "to": "tertullian-s-voice",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Tertullian called 'the new prophecy' part of his own belief. He wrote that 'we' had withdrawn from the 'carnally-minded' for upholding the Paraclete. Jerome later said he went over to Montanus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.tertullian-adversus-marcionem",
+     "work": "Tertullian, Against Marcion III.24 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "28748-28749",
+     "locus": "Adv. Marc. III.24",
+     "quote": "And the word of the new prophecy which is a part of our belief",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Tertullian, Against Praxeas 1 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "51074-51076",
+     "locus": "Adv. Prax. 1",
+     "quote": "We indeed, on our part, subsequently withdrew from the carnally-minded on our acknowledgment and maintenance of the Paraclete.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 53 (Tertullian)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40507-40509",
+     "locus": "DVI 53",
+     "quote": "he lapsed to the doctrine of Montanus, and mentions the new prophecy in many of his books.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "tertullian-s-voice longDescription and why ('aligned himself with the New Prophecy out of Phrygia'); montanism-the-new-prophecy longDescription ('Tertullian of Carthage became its most articulate Latin advocate')",
+   "wants": [],
+   "drafter_flags": [
+    "Type chosen is 'influenced' (Tertullian names and adopts the New Prophecy's teaching). Whether he left the catholic communion is debated; the ANF editor's note at line 28749 says Adv. Marc. III.24 is not conclusive evidence of a lapse, so the note claims adoption of the teaching, not a break.",
+    "Augustine, On Heresies 86 (PL 42 OCR, lines 2868-2869) also says Tertullian went over to the Cataphrygians; not cited because the English sources already carry the link."
+   ],
+   "change_reason": "New: both texts name Tertullian's alignment with the New Prophecy, and no link carried it."
+  },
+  {
+   "id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "tertullian-s-voice",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Jerome reports that Cyprian read Tertullian every day and asked for him as 'the master'. Jerome had this from an old man who had been Cyprian's secretary. Augustine later called Tertullian's many works eloquent and still read.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 53 (Tertullian)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40503-40505",
+     "locus": "DVI 53",
+     "quote": "He said that he himself had seen how Cyprian was accustomed never to pass a day without reading Tertullian, and that he frequently said to him, “Give me the master,” meaning by this, Tertullian.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), 2",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "18969-18970",
+     "locus": "Ep. 84.2",
+     "quote": "The blessed Cyprian takes Tertullian for his master, as his writings prove",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On Heresies 86 (PL 42, Migne 1886, OCR)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "2827-2828",
+     "locus": "De haer. 86",
+     "quote": "Tertulliano, cujus multa leguntur opuscula eloquentissime scripta",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "tertullian-s-voice why ('Cyprian ... read him every day and called him simply \"the master\"') and legacy ('Cyprian, Jerome and Augustine all read him closely')",
+   "wants": [],
+   "drafter_flags": [
+    "The Cyprian evidence is second-hand: Jerome heard it from Paul of Concordia, who had been Cyprian's secretary. The note says so. Jerome's Letter 84 adds that Cyprian's own writings prove the debt, which is Jerome's judgment, not Cyprian's words.",
+    "Augustine's line is raw djvu OCR in the PL 42 file (header: 'rough but readable'); the quoted words are clean. Please re-read lines 2827-2828 on the page image if in doubt.",
+    "Cyprian and Augustine both sit in this one destination movement, so one link carries both readers."
+   ],
+   "change_reason": "New: tertullian-s-voice names Cyprian and Augustine as his readers, and no link carried it."
+  },
+  {
+   "id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "action": "new",
+   "from": "tertullian-s-voice",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Jerome found Tertullian 'packed with meaning' but rough in style. He wrote that Origen should be read for his learning, 'just as we read Tertullian'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 58 (To Paulinus), 10",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "14107-14108",
+     "locus": "Ep. 58.10",
+     "quote": "Tertullian is packed with meaning but his style is rugged and uncouth.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 62 (To Tranquillinus), 2",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "15120-15121",
+     "locus": "Ep. 62.2",
+     "quote": "My opinion is that we should sometimes read him for his learning just as we read Tertullian",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 53 (Tertullian)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40499-40500",
+     "locus": "DVI 53",
+     "quote": "wrote many volumes which we pass by because they are well known to most.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "tertullian-s-voice legacy ('Cyprian, Jerome and Augustine all read him closely'); hieronymian-ascetic-literary does not name Tertullian, which needs nothing added",
+   "wants": [],
+   "drafter_flags": [
+    "In Ep. 62 'him' is Origen; the note says so. The link is about Jerome as the reader; the Bethlehem women of this movement are not shown reading Tertullian."
+   ],
+   "change_reason": "New: tertullian-s-voice names Jerome as his reader, and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "post-apostolic-house-church",
+   "field": "relationsSummary",
+   "old": "Parent of nearly everything on the map",
+   "new": "The earliest layer on the map, which most later traditions claim as their root",
+   "reason": "The census's own links do not support parenthood of 'nearly everything': the only documented line out of this movement is to the Roman church; no text links it to Alexandria or Edessa (see 2026-11-06 wanted texts). Restated as a claim later traditions make.",
+   "fre_before": null,
+   "fre_after": 83.9
+  },
+  {
+   "n": 2,
+   "movement": "post-apostolic-house-church",
+   "field": "legacy",
+   "old": "Almost every Christian tradition descends from these early gatherings.",
+   "new": "Almost every Christian tradition claims a root in these early gatherings.",
+   "reason": "Same reason: descent is stated as fact with no line to most traditions documented; what is true is that they claim it.",
+   "fre_before": 51.7,
+   "fre_after": 53.6
+  },
+  {
+   "n": 3,
+   "movement": "greek-apologists-second-century",
+   "field": "relationsSummary",
+   "old": "Overlaps post-apostolic-house-church in era and largely in people - Justin taught at Rome - but is a different thing: that entry is the church's internal life, this is the same Christians turned outward, addressing emperors and an educated public that despised them.",
+   "new": "It overlaps the household churches of the same years, in time and in people. Justin taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
+   "reason": "Removes a census ID and 'that entry' from public text. 'Largely in people' and 'the same Christians' rested on Justin alone; now names the documented overlap: Justin's own Sunday 'we' (1 Apol. 67, anf01 16502-16528), Theophilus 'sixth from the apostles' in the church of Antioch (Eusebius HE IV.20, npnf201 24429-24430), Melito 'bishop of the parish in Sardis' (HE IV.26, npnf201 25471-25472).",
+   "fre_before": 23.5,
+   "fre_after": 65.5
+  },
+  {
+   "n": 4,
+   "movement": "greek-apologists-second-century",
+   "field": "longDescription",
+   "old": "What made the enterprise interesting was the second move: rather than only denying the charges, most of them argued that the best of Greek philosophy had been reaching toward what the church now held, and that Christians were therefore the true heirs of reason rather than its enemies.",
+   "new": "What made the enterprise interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
+   "reason": "'Most of them' overstates: Justin (2 Apol. 8, 13: 'seed of reason', 'spermatic word', anf01 17036, 17231-17236) and Athenagoras make the case, but Diognetus 8 scorns 'the empty and silly doctrines' of philosophers (anf01 2868) and Theophilus and Tatian are largely hostile. Also splits a 47-word sentence.",
+   "fre_before": 35.1,
+   "fre_after": 48.6
+  },
+  {
+   "n": 5,
+   "movement": "greek-apologists-second-century",
+   "field": "legacy",
+   "old": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down, and that Clement and Origen at Alexandria took much further.",
+   "new": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth', and he and Origen took the approach much further.",
+   "reason": "No vendored Alexandrian text names Justin for this idea (2026-11-06 wanted-texts list), so the sentence no longer says they took Justin's argument further. It states the documented parallel: Clement, Strom. VI.7, 'if from any creature they received in any way whatever the seeds of the Truth' (anf02 46779-46780). The movement-level link stays the existing Tatian one.",
+   "fre_before": 25.6,
+   "fre_after": 33.7
+  },
+  {
+   "n": 6,
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "old": "who lost the post when the persecution began",
+   "new": "who was still teaching there when the persecution broke out",
+   "reason": "Lactantius says he was teaching rhetoric in Bithynia when the church was destroyed (Div. inst. V.2.2; anf07 4487; Latin, Brandt line 22774). Neither he nor Jerome (DVI 80, npnf203 41034-41038: he 'betook himself to writing' for lack of pupils) says he lost the post; no repo-cited secondary found.",
+   "fre_before": 30.1,
+   "fre_after": 30.2
+  }
+ ],
+ "wants": [
+  "A vendored Alexandrian text that names Justin for the 'seeds of the Word' argument (still wanted from 2026-11-06)",
+  "A text or repo-cited secondary showing that Lactantius lost his chair at Nicomedia when the persecution began",
+  "Jerome's Chronicle (for Arnobius and his bishop), if the story is to be cited",
+  "A clean edition of Augustine, De haeresibus 86, to replace the PL 42 OCR"
+ ],
+ "escalations": []
+}
