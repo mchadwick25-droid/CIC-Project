@@ -147,3 +147,30 @@ mechanism, applied to every shared file. No file is committed twice. Ruling 10 i
 unchanged.
 
 **Next action.** The rivers first (one pull request), then P1a per `Build-Plan.md`.
+
+---
+
+## 2026-11-07 — Places and modern countries on the map (new chunks PL1–PL3)
+
+**Decided (Mark, 2026-11-07).** The map's names say when but not where. Each movement gains a
+short place line drawn only from its own region text, and the country or countries those
+places lie in today, each checked against a gazetteer (Wikidata or Pleiades) with its ID
+stored. Display: names only at full-map zoom; a second line under the name once zoomed in;
+the full line in the panel and on the tree page, with "today" stated. One legend line says
+places are given with today's countries. Disputed or politically sensitive borders go to Mark
+as one list for one ruling; none is decided case by case.
+
+**Where it goes.** After the rivers and before the rename (P1c). P1a merged first but moved
+nothing, so the map file is still in place. One pull request for the data and the display,
+because the census is public the moment it merges.
+
+**Change order: release numbering.** The place fields ship as data release 2. The domain rule
+planned for release 2 with P1c becomes release 3. Releases stay in the order they ship; folding
+both into one would hold the places back until the domain is attached.
+
+**Sources reachable.** From the build sandbox on 2026-11-07, Pleiades answered, and so did
+Wikidata's query service. Wikidata's entity API refused one unnamed request (HTTP 429); lookups
+go through the query service with a named client.
+
+**Next action.** Mark sees the revised chunk list once, then PL1 starts.
+
