@@ -61,7 +61,7 @@ def runtime(tmp_path):
             LINK_SINGLE: Product("single", 25),
             LINK_SPONSOR: Product("batch", 10, count=3),
         },
-        site_origin="https://site.example",
+        site_origins=("https://site.example",),
         miss_delay_seconds=0.0,
     )
     yield rt
@@ -394,7 +394,7 @@ def test_the_claim_route_answers_the_site_origin_and_no_other(http):
 
 
 def test_no_origin_is_allowed_when_none_is_configured(store, usage_store, world_loader, registry, runtime):
-    runtime.site_origin = None
+    runtime.site_origins = ()
     http = TestClient(make_app(store, usage_store, world_loader, registry, deeper=runtime))
     post_event(http, completed())
     assert "access-control-allow-origin" not in claim(http, headers={"Origin": "https://site.example"}).headers
@@ -484,7 +484,7 @@ def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
     runtime = deeper_routes.build_runtime(
         config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
     )
-    assert runtime.site_origin == "https://site.example" and runtime.products == {}
+    assert runtime.site_origins == ("https://site.example",) and runtime.products == {}
     runtime.meter.close()
     runtime.claims.close()
 

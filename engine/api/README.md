@@ -124,7 +124,7 @@ databases. `POST /api/session/<id>/feedback` takes a like or a flag on one Repre
 `turn_index` as the reply's position in the transcript, `sentence_index`, `reason`, `text`, `email`) with the
 session's own code; the server reads the record ids and confidence tags from the stored reply and keeps no reply
 text. `POST /api/feedback` takes a comment (`page`, `text`, `quote_consent`, `first_name`, `email`) from the app or
-from the public site, whose origin is `CIC_API_SITE_ORIGIN` (falling back to `CIC_DEEPER_SITE_ORIGIN`). The same
+from the public sites, whose origins are listed, comma-separated, in `CIC_API_SITE_ORIGIN` (falling back to `CIC_DEEPER_SITE_ORIGIN`). The same
 route takes a page like (`kind: like`, `page`) or a page report (`kind: report`, `page`, `reason` of `accuracy` or
 `craft`, `text` up to 600 characters, optional `email`); a page id is up to 120 characters from `A-Za-z0-9/_.:-`. A
 report waits in the queue; a page like never does and is deleted after 90 days.

@@ -128,7 +128,7 @@ def install(
     authenticate_session: Callable[[Request, str, str | None], object],
     transcript_of: Callable[[Request, str], list[dict]],
     authenticate_admin: Callable[[Request, str | None], None],
-    site_origin: str | None,
+    site_origins: tuple[str, ...],
 ) -> None:
     def _enabled() -> FeedbackStore:
         if store is None:
@@ -137,7 +137,7 @@ def install(
 
     def _cors(request: Request, response: Response) -> None:
         origin = request.headers.get("origin")
-        if site_origin and origin == site_origin:
+        if origin and origin in site_origins:
             response.headers["Access-Control-Allow-Origin"] = origin
             response.headers["Vary"] = "Origin"
 
