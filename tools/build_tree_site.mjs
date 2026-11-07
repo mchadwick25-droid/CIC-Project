@@ -24,6 +24,7 @@ export const SHARED_FILES = [
   'assets/feedback.css',
   'assets/favicon.svg',
   'assets/og-image.jpg',
+  'assets/place-line.js',
   'assets/orientation-render.mjs',
   'assets/portraits',
   'assets/world-icons',

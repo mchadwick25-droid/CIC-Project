@@ -302,7 +302,7 @@ jobs:
         run: |
           git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
           git show "FETCH_HEAD:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
-      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" cic-website/data/world-census.json
+      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cic-website/atlas-v3.html cic-website/data/world-census.json
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

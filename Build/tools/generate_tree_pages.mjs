@@ -18,10 +18,13 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
+createRequire(import.meta.url)(path.join(rootDir, 'cic-website/assets/place-line.js'));
+const { formatPlace } = globalThis.CFTPlace;
 const treeDir = path.join(rootDir, 'cic-website/tree');
 const websiteDir = path.join(rootDir, 'cic-website');
 const audioDir = path.join(rootDir, 'cic-website/audio/tree');
@@ -318,6 +321,7 @@ li{margin-bottom:.5rem}
     <div class="meta-item">
       <p class="meta-label">Region</p>
       <p class="meta-value">${escapeHtml(movement.region)}</p>
+      ${movement.placeLabel ? `<p class="meta-value">${escapeHtml(formatPlace(movement, { today: true }))}</p>` : ''}
     </div>
     <div class="meta-item">
       <p class="meta-label">Status</p>

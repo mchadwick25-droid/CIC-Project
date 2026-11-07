@@ -54,3 +54,16 @@ it, never by deleting it.
     and the census is filled later (option C). Owner of C: the Library and lineage thread, entry
     by entry, sourced and graded, with a numbered release. Each gap is checked as real or a
     coverage gap before any entry changes.
+14. **New gap stories need place fields (2026-11-07).** Once PL1–PL3 ship, every gap story on the
+    map carries `placeLabel` and `modernCountries`, and the validator requires them. The Shared
+    Events workstream plans to add council stories placed like the gap stories
+    (`../Shared-Events/Decision-Log.md`); its new entries will need both fields. Flagged to that
+    thread, not changed here.
+15. **Historical regions have no present-day country yet (2026-11-07).** 27 places in 45 entries
+    show the place alone, by Mark's ruling: their Wikidata items name only dissolved states, or
+    one country that understates them. A later pass finds every present-day country each region
+    overlaps, from a gazetteer with boundaries, checked by an independent review, and ships as
+    its own numbered release. The list is in
+    `Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json`
+    (status "historical").
+

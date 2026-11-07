@@ -147,3 +147,63 @@ mechanism, applied to every shared file. No file is committed twice. Ruling 10 i
 unchanged.
 
 **Next action.** The rivers first (one pull request), then P1a per `Build-Plan.md`.
+
+---
+
+## 2026-11-07 — Places and modern countries on the map (new chunks PL1–PL3)
+
+**Decided (Mark, 2026-11-07).** The map's names say when but not where. Each movement gains a
+short place line drawn only from its own region text, and the country or countries those
+places lie in today, each checked against a gazetteer (Wikidata or Pleiades) with its ID
+stored. Display: names only at full-map zoom; a second line under the name once zoomed in;
+the full line in the panel and on the tree page, with "today" stated. One legend line says
+places are given with today's countries. Disputed or politically sensitive borders go to Mark
+as one list for one ruling; none is decided case by case.
+
+**Where it goes.** After the rivers and before the rename (P1c). P1a merged first but moved
+nothing, so the map file is still in place. One pull request for the data and the display,
+because the census is public the moment it merges.
+
+**Change order: release numbering.** The place fields ship as data release 2. The domain rule
+planned for release 2 with P1c becomes release 3. Releases stay in the order they ship; folding
+both into one would hold the places back until the domain is attached.
+
+**Sources reachable.** From the build sandbox on 2026-11-07, Pleiades answered, and so did
+Wikidata's query service. Wikidata's entity API refused one unnamed request (HTTP 429); lookups
+go through the query service with a named client.
+
+**Next action.** Mark sees the revised chunk list once, then PL1 starts.
+
+**Added the same day (Mark: "do the same for the stories that are on the main page").** The 62
+gap stories, the map's book icons, get the same place line and modern countries, from their own
+`region` text and the same gazetteers, and their disputed borders join the same one-sitting list.
+Their only copy is the data embedded in the map file, not the census, so their fields change no
+census release. They have no name on the map, so the place line goes in the hover tip and the
+panel, not beside the icon.
+
+**Ruled the same day (Mark: "use the familiar names").** Where an entry's region text gives two
+names for one place, the place line shows the one a general reader knows. Applied to seven
+labels (Lyon, Whitby, Bratislava, Beijing, Sivas, Massawa, Genadendal); the record is
+`Build/Ministry/Operations/Audits/2026-11-07_place-labels/README.md`.
+
+**Ruled the same day (Mark: "make sure the spacing still works … you can adjust their place a
+little to make space, they don't have to be exactly in the year on the map or in the river, just
+make it easy to navigate").** The map may draw a movement's dot and name a little away from its
+exact year and its river's center line, so names, place lines and dots do not overlap and each
+stays easy to tap. Only where things are drawn moves: dates, links and every panel keep the real
+values, and links attach to the moved dots. Built into PL3, with the overlap measured before and
+after.
+
+**Ruled the same day (Mark: "A for both").**
+1. *Disputed places* name the place in plain geographic words and no state: "Bethlehem, West
+   Bank", "Cyprus (the island)", "Palestine (the historical region)"; Jerusalem, Gaza, the
+   Judean Desert and China show as the place alone. The words are stored in the census as
+   `placeQualifiers`, so the data says what the map says. Rejected: naming every state Wikidata
+   lists (it can read as taking a side), and the place alone everywhere (says less).
+2. *Historical regions* (27 places, 45 entries, such as Persia, Roman Africa, Prussia and
+   historical Armenia) show the place alone. Their present-day countries come in a later,
+   checked pass as their own release. Rejected: doing that pass before this ships, and naming
+   only the country of a region's core (it understates regions that spanned several).
+
+The place fields ship as data release 2, dated 2026-11-07.
+

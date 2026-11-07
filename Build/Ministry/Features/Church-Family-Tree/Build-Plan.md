@@ -64,9 +64,13 @@ applied to every shared file, not only the census.
 |---|---|---|---|
 | R1–R3 | The rivers, one PR | Mark judges by eye on the preview | merged (#1526) |
 | P1a | Tree Worker and build script; full addresses for cross-site links | none | merged (#1527) |
+| C1 | Public site carries code only; notes moved to `Build/Ministry` | none | merged (#1528) |
+| PL1 | Place labels from each movement's and gap story's own region text | none | done, on the branch |
+| PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | ruled (A for both), on the branch |
+| PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | built, on the branch |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
 | P1b | Attach the domain; verify | Mark: dashboard steps | todo |
-| P1c | Rename, data release 2, redirects | none (after P1b is verified) | todo |
+| P1c | Rename, data release 3, redirects | none (after P1b is verified) | todo |
 | P1d | Door switch; about, privacy and support pages | Mark: Stripe links | todo |
 | P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | todo |
 | P2-L1…L10 | Links, one era per chunk | none | todo |
@@ -123,6 +127,45 @@ are three commits on one branch, each checked before the next.
   file with a `206` range answer, and the census; churchinconversation.com is unchanged.
 - **Stop:** none.
 
+### PL1–PL3 — places and modern countries (one pull request, three commits)
+
+Added 2026-11-07 (Mark). The names on the map say when, not where. These chunks add the place
+and the country it lies in today. They edit the map and the census, so they come before the
+rename in P1c. P1a has already merged, but it moved nothing, so the order still holds. One pull
+request, because the census is served publicly the moment it merges: the data and the display
+ship together, after Mark's ruling.
+
+- **PL1, place labels.** A `placeLabel` on each of the 300 movements, shortened from its own
+  `region` text only, and on each of the 62 gap stories (the map's book icons), from the
+  story's own `region` text: at most two places, then "and beyond". Never a place the entry doesn't
+  name. Sonnet drafts; a second, independent pass (a separate agent, given only the region
+  text and the label) checks each label back against its region text.
+- **PL2, modern countries.** `modernCountries` on each movement and each gap story: every country its places lie
+  in today, each with the gazetteer ID used (a Wikidata ID from its "country" property, and a
+  Pleiades ID where the place is ancient). Looked up, never filled from memory. Every place
+  under a disputed or politically sensitive border (Jerusalem and the Holy Land, parts of the
+  Caucasus, Kosovo, Cyprus, Western Sahara and similar) goes on one list, each with a proposed
+  neutral wording. **Stop: Mark rules on the whole list in one sitting** before anything merges.
+- **PL3, display and release.** At full-map zoom, names only. Zoomed in, a small second line
+  under each name ("Scetis · Egypt"). In the panel and on the tree page, the full place line
+  with "today" explicit ("Carthage, today in Tunisia"). One legend line: "Places are given with
+  the country they lie in today." A hidden river hides its place lines. The place line sits
+  inside the movement's own group, so P2-K2's tap area takes it in. Where labels would collide,
+  the place line hides first. Dots and names may move a little off their exact year and
+  river line so nothing overlaps (Mark, 2026-11-07); dates and links stay true. Gap stories have no name on the map, only an icon, so their
+  place line goes in the hover tip and the panel, with "today" stated; no text is added beside
+  the icons. Data release 2.
+- **Files:** `cic-website/data/world-census.json`, `tools/validate-census.mjs` (every movement
+  has a `placeLabel`; every modern country has a source ID; given the map file too, the same
+  for every gap story, whose only copy is the map's embedded data), `cic-website/atlas-v3.html`,
+  `Build/tools/generate_tree_pages.mjs` and the regenerated pages, an audit folder under
+  `Build/Ministry/Operations/Audits/`, the decision log and Open-Gaps.
+- **Done means:** the validator passes; the independent check finds every label faithful to
+  its region text; Chromium at phone width, light and dark, full and close zoom, the busiest
+  eras without collisions; the switch check unchanged; readability scored on the new lines.
+- **Stops:** Mark's disputed-border ruling (PL2), then Mark sees the screenshots on the branch
+  preview before merge (PL3).
+
 ### P1a2 — feedback from the tree's domain
 
 - **Goal:** the feedback API accepts posts from the tree's origin as well as the old one.
@@ -149,7 +192,7 @@ Exact steps, given in chat when P1a has merged:
   `206` range answer, and `/data/world-census.json` with the same SHA-256 as the old address;
   the bare domain answers one `301` to `www`.
 
-### P1c — the move, data release 2, redirects
+### P1c — the move, data release 3, redirects
 
 - **Goal:** the tree's files live in `cft-website/`; old addresses redirect in one hop.
 - **Files:** `git mv` (its own commit): `cic-website/atlas-v3.html` becomes `index.html` in
@@ -163,7 +206,7 @@ Exact steps, given in chat when P1a has merged:
   if Cloudflare's asset redirects allow a full address in one hop, otherwise `cic-worker/worker.mjs`
   with tests); `cic-website/atlas.html` and `world-atlas.html` become redirect rules, and their
   files go to `Archive/`. Census: `meta.identifiers` gains the domain rule, `meta.license` is
-  added, `meta.release` becomes 2. `tools/validate-census.mjs --base` gains a check that every
+  added, `meta.release` becomes 3 (release 2 is the place labels, PL3). `tools/validate-census.mjs --base` gains a check that every
   promised ID (retired and renamed included) has a redirect rule and a page, and every link ID
   has its anchor on its page.
 - **Done means:** all census and engine tests pass; a redirect test covers `/tree/<id>`,
