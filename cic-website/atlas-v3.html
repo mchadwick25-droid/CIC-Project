@@ -46550,7 +46550,7 @@ const RIVER_LORE={
 const LAYOUT_DY=80, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
 const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, PLACE_CHAR=5.0, PLACE_FONT=9;
 function nameSideLeft(x){return x>CANVAS_W-220;}
-function placeLine(m){return CFTPlace.formatPlace(m);}
+function placeLine(m){return CFTPlace.formatPlace(m,{omitIn:m.shortName||m.name});}
 function markRects(item){
   if(item.story)return [[-8,-7,8,7]];
   const m=item.m, built=m.status==='Built & Live';

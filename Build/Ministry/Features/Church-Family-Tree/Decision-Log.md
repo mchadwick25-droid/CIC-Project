@@ -207,3 +207,14 @@ after.
 
 The place fields ship as data release 2, dated 2026-11-07.
 
+---
+
+## 2026-11-07 — The map's place line leaves out places the name already says
+
+**Decided (Mark: "many of the names have the place in them, if they do maybe we dont need it
+duplicated").** On the map, a place already in the movement's shown name drops out of its second
+line; its country stays. "Alexandria" shows "Egypt", "Third-Century Rome" shows "Italy", "Syriac
+Edessa" shows "Nisibis, Turkey". Where nothing is left to add, there is no second line. The
+panel and the tree page keep the full line, since their headings use the long name. 49 of 292
+names contained a place.
+
