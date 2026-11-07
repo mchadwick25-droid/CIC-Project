@@ -1,0 +1,609 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-01",
+   "what": "Regraded to Inferential-Thin; note rewritten to say the charge rests on report; added Innocent's 'no doubt as to who is the guilty person' line and Fremantle's NPNF chronology ('416–7') as the dating source; date in the note changed from '416' to '416 or 417'.",
+   "agreed_with_reviewer": true,
+   "why": "Checked npnf105 10584-10590 and npnf206 28461-28475: Augustine reports ('are said to'), Innocent names no one. The grade is right. I went further on two points. The bare '416' rested on the world record, while the vendored letters are dated 417 and the vendored editor dates the attack '416–7' (npnf206 1734), so the note now gives both years. The reviewer's last sentence said 'the link rests on report', which is internal language; it now reads 'the charge rests on report'. Fremantle's 1893 reading names 'Pelagian monks' firmly, but one editor is not a consensus, so Widely Accepted still waits on a modern study (the reviewer's want stands)."
+  },
+  {
+   "finding": "R1-02",
+   "what": "Kept Documented. Added three sources from the vendored Book of the Himyarites: the chapter heading naming 'the holy Bishop Euprepios and Kaleb, the believing King of Abyssinia' (5827-5829), Kaleb's own words 'the holy Euprepios, our bishop' (8076), and Moberg's dating of the work to shortly after 525 (3980-3982). Note rewritten to name Euprepios and to say plainly that no bishop is named between Frumentius and Euprepios.",
+   "agreed_with_reviewer": true,
+   "why": "Took the reviewer's option (a). I searched Cosmas, Procopius (Wars, Buildings, Secret History), John of Ephesus, Evagrius, Zachariah Rhetor, John of Nikiu, the History of the Patriarchs and the Book of the Himyarites. Only the Book of the Himyarites, a Syriac work Moberg dates shortly after 525, names a bishop in Aksum after 451: Euprepios, bishop under King Kaleb. That shows the see on both sides of 451, which is the era-1 bar. The 170-year gap is still real, so the note now says so instead of leaving it to inference. I also changed 'Procopius calls the king of the Ethiopians' to 'the Ethiopian king of his day', because Procopius names Hellestheaeus, and tying him to Kaleb is a modern identification no vendored line makes. The Synaxarium and later Ethiopic histories were not used: they are late hagiography for this period."
+  },
+  {
+   "finding": "R1-03",
+   "what": "Retyped 'continued as' to 'gave rise to'; id, grade and sources unchanged; last note sentence replaced.",
+   "agreed_with_reviewer": true,
+   "why": "Checked Socrates IV.33 (npnf202 14425-14448) and II.41 (9600-9610). The two entries overlap from 451 to 589 and the Homoian entry has no continuesAs, so this is not a period split. Named people pass from the imperial Homoian party into the Gothic church, which is the Documented bar for 'gave rise to'. I changed one word of the reviewer's sentence: 'to please the emperor' became 'for the sake of the emperor Valens'. Socrates says Fritigern took up 'the religion of his benefactor' to show his gratitude, and the Goths followed 'on the emperor's account'. 'To please' reads more like flattery than the source says. The id stays from--to."
+  },
+  {
+   "finding": "R1-04",
+   "what": "Source 1 now cites Optatus Book I, ch. 15 (locus 'Book I.15').",
+   "agreed_with_reviewer": true,
+   "why": "optatus_against-the-donatists.txt 185 is heading XV and the quote is at 187; heading XIX is at 209. Source 2 (ch. XXII, line 255 heading, quote at 265) is right."
+  },
+  {
+   "finding": "R1-05",
+   "what": "Replaced the 'no one has traced a direct line' clause with 'How much they owed to Antioch directly is not clear.'",
+   "agreed_with_reviewer": true,
+   "why": "The old clause made a claim about all scholarship that no source supports. The new sentence states the uncertainty and claims nothing more. The whole paragraph scores FRE 61.3 and FK 7.7."
+  },
+  {
+   "finding": "R1-06",
+   "what": "New link desert-monasticism--the-kollyvades-and-greek-renewal, 'influenced', Documented, with seven verified primary quotes from the vendored Philokalia vol. 1 and one repo-cited secondary for the 1782 date.",
+   "agreed_with_reviewer": true,
+   "why": "The link and its target are right. Macarius and Nikodemos, the compilers, are the leaders the Kollyvades entry names. The Paisian entry also tells the 1782 printing, but its own work was the Slavonic version, which is not vendored. I built the evidence differently in four ways. (1) The reviewer's 1782 and 'Macarius and Nikodemos' came from the file's metadata header (line 2), which is not text. I replaced that with the book's own lines. The editor's dedication says Nikodemos published this book with Macarius of Corinth (147-153), and the title page names the Venice edition (38-40). (2) No line in the file gives the year 1782, so it rests on Bingaman and Nassif (2012), which the census already cites for this movement. (3) 'Opens with Antony' is now shown by the table of contents, where Antony comes straight after the prooimion (58621-58628). The heading quote is widened to include 'ΠΑΡΑΙΝΈΣΕΙΣ' (counsels), at lines 1017-1020. (4) I added Isaiah's 'on guarding the mind' (58630-58632) to support the note's description of the book. The reviewer's note scored below FRE 60, so it is rewritten (FRE 63.5, FK 7.3). 'Credited to' Antony keeps the authorship question open."
+  },
+  {
+   "finding": "R1-07",
+   "what": "Source 2 work and locus corrected.",
+   "agreed_with_reviewer": false,
+   "why": "Mostly agreed. The lines sit in NPNF Letter CXLIV, 'From Augustine to Optatus' (npnf206 28662), quoting Jerome's Ep. 134 (endnote at 28705-28707: 'In Jerome’s Letters, No. CXXXIV.'). I did not write 'Optatus of Milevis', though. Only the NPNF editor's headnote (28667) makes that identification. Optatus of Milevis, the anti-Donatist writer, belongs to the late fourth century (the vendored Optatus file's header gives c. 366-393), while this letter is dated 420, so the identification is doubtful. The work field now says 'the bishop Optatus', which the letter's own salutation supports ('his fellow-bishop Optatus', 28677-28678)."
+  },
+  {
+   "finding": "R1-08",
+   "what": "'It leads on to' replaced with 'It came before'.",
+   "agreed_with_reviewer": true,
+   "why": "The link to the Chalcedonian monasteries is Inferential-Thin, so the sentence should give only the order in time. The relationsSummary scores FRE 62.6 and FK 7.1."
+  },
+  {
+   "finding": "R1-09",
+   "what": "The Clovis sentence rewritten as two sentences that follow Gregory's account.",
+   "agreed_with_reviewer": false,
+   "why": "Agreed that 'led' overstates the source, but the reviewer's fix was still loose. In Gregory (dalton1927 3708-3713) Clovis is camped near Poitiers, 'abiding at some distance in his tents', when the beacon comes out of Hilary's church 'over above his head'. 'Shone over him as he marched' moves the scene onto the march. The new text puts him in camp, on his way to the war, with the light coming out of the church and standing over his head. The following sentence ('Gregory saw the light as Hilary's help...') still fits. The paragraph scores FRE 64.7 and FK 7.4."
+  },
+  {
+   "finding": "R1-10",
+   "what": "Last note sentence now reads 'It was aimed at those who sought to destroy the Spirit's sovereignty.'",
+   "agreed_with_reviewer": true,
+   "why": "Matches npnf214 20253-20255 ('seeking to destroy his sovereignty'). I wrote 'the Spirit's' instead of 'his', so the sentence names whose sovereignty it means and stands on its own."
+  },
+  {
+   "finding": "R1-11",
+   "what": "'Then take Epistle 38, ... Even its author is in dispute.' replaced with 'Epistle 38 is the letter most often used to show that the three men agreed on the technical terms. Yet even its author is in dispute.'",
+   "agreed_with_reviewer": false,
+   "why": "Agreed that 'Then take' is an assistant-voice turn. The reviewer's version folds 'Epistle 38' into an appositive and says the letter 'is in dispute', which drops that the dispute is over its author. Two plain sentences keep the fact and read more cleanly. The paragraph scores FRE 61.4 and FK 7.5."
+  },
+  {
+   "finding": "R1-12",
+   "what": "Source 3 widened to lines 42416-42418 with the full sentence.",
+   "agreed_with_reviewer": true,
+   "why": "npnf210 42414-42418: the full sentence shows the rival of 386 took the earlier Arian bishop's name. The short fragment seemed to describe the wrong man."
+  },
+  {
+   "finding": "R1-13",
+   "what": "Voice restored to one clause: 'Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops, and led its questioning'.",
+   "agreed_with_reviewer": false,
+   "why": "Agreed on the form. The reviewer's exact wording scores FRE 54.8 and FK 11.3, which fails the bar (the prose pass split it into two sentences for that reason). I tried four variants that keep 'of Illyricum'; none passed. Dropping it gives FRE 64.7 and FK 9.5 and loses only the bishops' home province."
+  }
+ ],
+ "links": [
+  {
+   "id": "pelagianism--hieronymian-ascetic-literary",
+   "action": "rewrite",
+   "from": "pelagianism",
+   "to": "hieronymian-ascetic-literary",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "In 416 or 417, Jerome's monasteries at Bethlehem were attacked and burned, and his deacon was killed. Augustine wrote that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it had not named the man behind it, though he saw no doubt about who was guilty. So the charge rests on report, not on a named act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "10586",
+     "locus": "De gest. Pel. 66",
+     "quote": "Certain followers of Pelagius are said to have carried their support of his cause after these judicial proceedings to an incredible extent of perverseness and audacity.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "10590",
+     "locus": "De gest. Pel. 66",
+     "quote": "slain his deacon, and burnt his monastic houses;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.attack-letters-416",
+     "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28472-28474",
+     "locus": "Jerome, Ep. 137",
+     "quote": "with wonderful clemency and generosity they have left untold the name and motive of his human agent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.attack-letters-416",
+     "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28474-28475",
+     "locus": "Jerome, Ep. 137",
+     "quote": "Now although there can be no doubt as to who is the guilty person;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "W. H. Fremantle, Prolegomena to Jerome, chronology of the Pelagian years (NPNF 2.6, 1893), an editor's dating",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "1734-1736",
+     "locus": "NPNF 2.6 Prolegomena",
+     "quote": "416–7. A crowd of Pelagian monks attacked the monasteries, slew some of their inmates, and burned or threw down the buildings,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Regraded Documented to Inferential-Thin: the quoted lines show a contemporary report and attribution ('are said to'), not the act; note now says so, and dates the attack 416 or 417 from the vendored editor's chronology instead of a bare 416; added Innocent's 'no doubt' line."
+  },
+  {
+   "id": "aksumite-christianity-conversion-era--aksumite-christianity",
+   "action": "rewrite",
+   "from": "aksumite-christianity-conversion-era",
+   "to": "aksumite-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. In the sixth century the land still had a bishop and a Christian king. A Syriac book from soon after 525 names Euprepios as bishop under King Kaleb. Procopius calls the Ethiopian king of his day a devoted Christian, and Cosmas lists Axum as a land with churches. No bishop is named in these texts between Frumentius and Euprepios.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31 (Letter of Constantius to the princes of Aksum)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36108-36112",
+     "locus": "Apol. ad Const. 31",
+     "quote": "The following is the letter which was written to the Princes of Auxumis respecting Frumentius, Bishop of that place.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36111-36112",
+     "locus": "Apol. ad Const. 31",
+     "quote": "Constantius Victor Maximus Augustus, to Æzanes and Sazanes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of the Himyarites, list of chapters, ch. XXXIX (trans. Moberg, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "5827-5829",
+     "locus": "Book of the Himyarites, ch. XXXIX (heading)",
+     "quote": "Account telling how the freeborn Umayyah came to Abys- sinia out of zeal for God, and informed the holy Bishop Euprepios and Kaleb, the believing King of Abyssinia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of the Himyarites, ch. XLVIII, speech of King Kaleb (trans. Moberg, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "8076",
+     "locus": "Book of the Himyarites, ch. XLVIII",
+     "quote": "These things said now the holy Euprepios, our bishop,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Axel Moberg, introduction to The Book of the Himyarites (1924), on the date of the work",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "3980-3982",
+     "locus": "Moberg, Introduction",
+     "quote": "composed shortly after the second Abyssinian expedition, i. e., shortly after A. D. 525,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
+     "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
+     "lines": "2586-2588",
+     "locus": "Wars I.20",
+     "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography, Book III (trans. McCrindle)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7265-7266",
+     "locus": "Top. Christ. III",
+     "quote": "So too in Ethiopia and Axom, and in all the country about it ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Kept Documented 'continued as': added the Book of the Himyarites (6th c.), which names Euprepios as bishop under King Kaleb after 451, so the see is shown on both sides of 451; the note now says plainly that no bishop is named between Frumentius and Euprepios, and no longer implies Procopius names Kaleb."
+  },
+  {
+   "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "action": "rewrite",
+   "from": "homoian-arian-christianity",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. Socrates, writing in the fifth century, says many Goths took up this faith for the sake of the emperor Valens, and that many still held it in his day.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History IV.24 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "34561-34563",
+     "locus": "HE IV.24",
+     "quote": "invited thither several bishops of Bithynia, among whom were Maris, bishop of Chalcedon, and Ulfilas, bishop of the Goths.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History II.41 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "9608-9610",
+     "locus": "HE II.41",
+     "quote": "To this creed Ulfilas bishop of the Goths gave his assent, although he had previously adhered to that of Nicæa;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Possidius, Life of Augustine 17, quoted in the editors' admonition to the Collatio cum Maximino (PL 42)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54421-54422",
+     "locus": "Vita Aug. 17",
+     "quote": "Cum ipsorum quoque Arianorum episcopo quodam Maximino cum Gothis ad Africam veniente,apud Hipponem",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collatio cum Maximino Arianorum episcopo 1 (Maximinus's own answer; PL 42, Migne 1886 printing)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54500-54503",
+     "locus": "Coll. c. Max. 1",
+     "quote": "teneo fidem que Arimini! a trecentis et triginta episcopis, non solum exposita, sed etiam subscri- ptionibus firmata est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Maurist editors' admonition to the Collatio cum Maximino (PL 42), on its date",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54397-54398",
+     "locus": "Admonitio",
+     "quote": "videlicet aut 427, aut 428.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History IV.33 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "14445-14448",
+     "locus": "HE IV.33",
+     "quote": "Therefore it is that so many of the Goths are even to the present time infected with the errors of Arianism, they having on the occasion preferred to become adherents to that heresy on the emperor’s account.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Retyped 'continued as' to 'gave rise to' (id unchanged): the two entries overlap 451-589 and are not a period split; the sources show named people passing from the imperial Homoian party into the Gothic church. Last note sentence now carries Socrates's 'on the emperor's account'."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--2",
+   "action": "rewrite",
+   "from": "donatism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Optatus of Milevis was a Catholic bishop. He says the split began when a rival party made Majorinus bishop at Carthage. Yet Caecilian was bishop there by then. Optatus also copies a plea that the Donatist bishops sent to Constantine. In it they say that disputes had come up between them and the rest of the bishops of Africa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I, ch. 15",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "187",
+     "locus": "Book I.15",
+     "quote": "although Caecilian was already the Bishop, made the Schism by consecrating Majorinus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Petition of the Donatist bishops to Constantine (313), copied by Optatus, Book I, ch. 22",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "265",
+     "locus": "Book I.22",
+     "quote": "for between us and other Bishops in Africa disputes have arisen; Given by Lucianus, Dignus, Nasutius, Capito, Fidentius and the rest of the Bishops who adhere to Donatus.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Citation fix only: the first quote sits under Book I, ch. XV of the vendored translation, not ch. 19."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "action": "rewrite",
+   "from": "hieronymian-ascetic-literary",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Jerome and Augustine wrote to each other across the sea for years. Augustine told Jerome of a bishop whose congregation rose up over the new wording of a line in Jonah. Jerome later wrote that he was resolved to love and respect Augustine and to defend his opinions as his own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.augustine-letters",
+     "work": "Augustine, Letter 71 (to Jerome), section 5",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "32540-32542",
+     "locus": "Aug. Ep. 71.5",
+     "quote": "A certain bishop, one of our brethren, having introduced in the church over which he presides the reading of your version,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, letter to Augustine (Jerome, Ep. 134), as quoted by Augustine in his letter to the bishop Optatus (NPNF 2.6, Jerome Letter 144)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28727-28728",
+     "locus": "Jerome, Ep. 134, in Letter 144",
+     "quote": "For my part, however, I am resolved to love you, to look up to you, to reverence and admire you, and to defend your opinions as my own.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Citation fix only: the quoted lines are Augustine's extract of Jerome's Ep. 134 inside Letter 144, 'From Augustine to Optatus'."
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "action": "rewrite",
+   "from": "imperial-juridical-christianity",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 381 the Council of Constantinople, in its first canon, cursed by name the Semi-Arians, who were also called Pneumatomachi. A law of 383 banned their meetings too, as well as those of Eunomians, Arians and Macedonians. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit. It was aimed at those who sought to destroy the Spirit's sovereignty.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13974-13976",
+     "locus": "Canon 1",
+     "quote": "and that of the Semi-Arians or Pneumatomachi, and that of the Sabellians, and that of the Marcellians, and that of the Photinians, and that of the Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon (451), Definition of Faith (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20251-20255",
+     "locus": "Definition of Faith",
+     "quote": "which doctrine they declared unto all men, not as though they were introducing anything that had been lacking in their predecessors, but in order to explain through written documents their faith concerning the Holy Ghost against those who were seeking to destroy his sovereignty.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Last note sentence brought back to the source's wording ('seeking to destroy his sovereignty')."
+  },
+  {
+   "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "action": "rewrite",
+   "from": "ambrosian-milan-standalone",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At Aquileia in 381, Ambrose led the questioning of Palladius, a Homoian bishop. Palladius would not condemn a letter of Arius, so Ambrose had it read out. In Milan in 386 he preached against Auxentius, a rival bishop who was also Homoian. He declared him cast out.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Aquileia (381), Acts: Ambrose speaking",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "60735-60738",
+     "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3",
+     "quote": "Ambrofius epifcopus dixit. Quia fzpius vult damnari Palladius, qui jam frequenter damnatus eft , lego epiftolam Arii, quam ille noluit condemnare.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Sermon against Auxentius on the Giving Up of the Basilicas, section 22",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "42414",
+     "locus": "Sermo c. Aux. 22",
+     "quote": "Therefore, Auxentius is cast out.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Sermon against Auxentius, section 22",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "42416-42418",
+     "locus": "Sermo c. Aux. 22",
+     "quote": "That no one might know who he was, he changed his name so as to call himself Auxentius, because there had been here an Arian bishop, named Auxentius.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Third quote widened to the full sentence, so it shows the rival of 386 took the name of the earlier Arian bishop Auxentius."
+  },
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "the-kollyvades-and-greek-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice. It gathers old Greek writings on prayer and on guarding the mind. Its first volume opens with counsels credited to Antony the Great. It also holds works by Evagrius and by John Cassian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893, ed. Tzelatis), title page: the Venice edition",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "38-40",
+     "locus": "Philokalia I, title page",
+     "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίότου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), editor's dedication to the fathers of Athos: Nikodemos and Macarius as its first editors",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "147-153",
+     "locus": "Philokalia I, dedication",
+     "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιόλίων τὸν αὐτοῦ βίον καταδαπα- νήσας, καὶ δὴ καὶ εἰς τὰν τῆς παρούσης βίδλου οὐκ ἐλάχιστα εἰσενέγκας καὶ κα- ταθαλών, ὅτε ταύτην σὺν τῷ τῆς Κοριν- θίας ᾿Αγίῳ Μακαρίῳ ἐξεδίδου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: the prooimion, then Antony",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58621-58628",
+     "locus": "Philokalia I, contents (Antony)",
+     "quote": "Προοίμιον εἰς τὴν παροῦσαν Βίδλον Φύλ. Τοῦ ἐν ᾿Αγίοις Πατρὸς ἡμῶν ᾿Αν- τωνίου τοῦ Μεγάλου, παραινέσεις περὶ ἤθους ἀνθρώπων, καὶ χρη- στῆς πολιτείας ἐν χεφαλαίοις ἑχατὸν ἑόδομιήχοντα.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), heading of Antony's counsels",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "1017-1020",
+     "locus": "Philokalia I, Antony",
+     "quote": "ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ ΠΑΡΑΙΝΈΣΕΙΣ ΠΕΡῚ ἩΘΟΥ͂Σ ἈΝΘΡΏΠΩΝ, ΚΑΙ ΧΡΗΣΤῊΗΣ ΠΟΛΊΤΕΙΑΣ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Isaiah the Anchorite",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58630-58632",
+     "locus": "Philokalia I, contents (Isaiah)",
+     "quote": "Τοῦ ᾿Αγίου Ἡσαΐου τοῦ ᾿Αναχω- ρητοῦ περὶ τηρήσεως νοὸς Κεφα- λαια εἴκοσι ἑπτά.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Evagrius",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58634-58636",
+     "locus": "Philokalia I, contents (Evagrius)",
+     "quote": "Εὐαγρίου Μοναχοῦ ὑποτύπωσις Νο- ναχικὴ διδάσχουσα πῶς δεῖ ἀ-- σχεῖν, χαὶ ἡσυχάζειν.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: John Cassian",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58646-58647",
+     "locus": "Philokalia I, contents (Cassian)",
+     "quote": "Τοῦ ᾿Αγίου Κασσιανοῦ τοῦ Ῥω- μαίου Λόγος, πρὸς Κάστορα,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bingaman and Nassif (eds.), The Philokalia: A Classic Text of Orthodox Spirituality (Oxford University Press, 2012), for the Venice printing of 1782",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "New: the desert legacy names the Philokalia of 1782, and no link carried it; the anthology's own contents show its compilers using the desert fathers' works."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "old": "Later Western Bible scholars made a similar historical-grammatical method standard, though no one has traced a direct line between the two.",
+   "new": "Later Western Bible scholars made a similar historical-grammatical method standard. How much they owed to Antioch directly is not clear.",
+   "reason": "R1-05: the old wording stated as fact that no one has ever traced the line, which no source supports. The new wording states the uncertainty plainly.",
+   "fre_after": 61.3,
+   "fk_after": 7.7
+  },
+  {
+   "n": 1,
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "relationsSummary",
+   "old": "It leads on to the Chalcedonian monasteries of the Judean desert and Gaza.",
+   "new": "It came before the Chalcedonian monasteries of the Judean desert and Gaza.",
+   "reason": "R1-08: 'leads on to' put back the causal sense the drafter removed; the link to the Chalcedonian monasteries is Inferential-Thin, so the sentence keeps only the order in time.",
+   "fre_after": 62.6,
+   "fk_after": 7.1
+  },
+  {
+   "n": 2,
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "old": "Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths.",
+   "new": "Two centuries on, Gregory of Tours told of the Frankish king Clovis, camped near Poitiers on his way to fight the Arian Goths. A fiery light came out of Hilary's church there and stood over his head.",
+   "reason": "R1-09: Gregory says the light came from Hilary's church and stood over Clovis's head while he camped near Poitiers; it did not lead the march.",
+   "fre_after": 64.7,
+   "fk_after": 7.4
+  },
+  {
+   "n": 3,
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "old": "Then take Epistle 38, the letter most often used to show that the three men agreed on the technical terms. Even its author is in dispute.",
+   "new": "Epistle 38 is the letter most often used to show that the three men agreed on the technical terms. Yet even its author is in dispute.",
+   "reason": "R1-11: removes the assistant-voice 'Then take' turn; the facts are unchanged.",
+   "fre_after": 61.4,
+   "fk_after": 7.5
+  },
+  {
+   "n": 4,
+   "movement": "aquileian-christianity",
+   "field": "voices",
+   "old": "Ambrose of Milan - he came up the road in 381 to the council that condemned two Homoian bishops of Illyricum. He led its questioning.",
+   "new": "Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops, and led its questioning",
+   "reason": "R1-13: restores the one-clause form of the other four voices. 'of Illyricum' is dropped: with it the line scores FRE 54.8 and FK 11.3, below the bar. Nothing else changes in substance.",
+   "fre_after": 64.7,
+   "fk_after": 9.5
+  }
+ ]
+}

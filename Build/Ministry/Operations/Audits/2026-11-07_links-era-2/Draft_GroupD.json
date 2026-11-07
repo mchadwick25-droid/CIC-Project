@@ -1,0 +1,1377 @@
+{
+ "group": "D",
+ "movements": [
+  "donatism",
+  "gallic-monastic-ascetic-christianity",
+  "priscillianist-asceticism",
+  "pelagianism"
+ ],
+ "dispositions": [
+  {
+   "movement": "donatism",
+   "field": "relationsSummary",
+   "sentence": "Rival-sibling of the Latin pastoral congregational tradition it split from over the same persecution",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "donatism--latin-pastoral-congregational-christianity--2",
+   "prose_change": 0,
+   "reason": "New broke-with link (Optatus I.19; the Donatist petition in Optatus I.22). The two argued-against links stand beside it. Wording made plain in prose change 0."
+  },
+  {
+   "movement": "donatism",
+   "field": "relationsSummary",
+   "sentence": "its refusal of any imperial standing to judge the church is the mirror image of Imperial and Juridical Christianity's own church-state alliance",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "donatism--imperial-juridical-christianity",
+   "prose_change": 0,
+   "reason": "Existing argued-against link (Donatus: 'What has the Emperor to do with the Church?'). Clause reworded onto that quote."
+  },
+  {
+   "movement": "donatism",
+   "field": "relationsSummary",
+   "sentence": "its once-for-all rebaptism is the opposite answer Cappadocian Christianity gave to the same question of how someone from the other side comes back in",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A comparison, not a contact or influence; no link. Basil, Ep. 188 canon 1 (npnf208 34825-34826 and 34887-34905) reports the old rule of admitting schismatics' baptism and accepts the Asian custom, while noting Cyprian and Firmilian rejected it. Narrowed to that."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "Caecilian was elected bishop of Carthage and consecrated by Felix of Aptungi, a man accused of surrendering the Scriptures",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "People, not movements. Supported: Optatus I.18 (line 207, 'consecrated Bishop, Felix of Autumna laying his hand upon him') and I.20 heading (line 231, the Numidian bishops' letter against Felix)."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "This was never a dispute over the Trinity or Christ's divinity — both parties held the same Nicene faith — but over who could validly give what the church gives",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--donatism",
+   "prose_change": null,
+   "reason": "Carried by the existing argued-against links both ways; the claim matches Optatus's framing of schism against heresy (line 153)."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "In 347, imperial commissioners sent to force the two churches into one communion met resistance in Numidia",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--donatism",
+   "prose_change": 4,
+   "reason": "Existing link (its note covers 313; Optatus III on Paul and Macarius, lines 1900-2012, covers 347). The Marculus clause after it is corrected in prose change 4."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "A rural movement called the circumcellions is attested in this same period by an imperial fine",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Circumcellions have no census movement. The fine is the 412 law, not the 340s; Optatus names them in the 340s. Dated correctly."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "appealing to Constantine in 313",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link: Constantine's reply to the Donatist appeal (Optatus line 287); the 313 petition itself is line 265."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "to Julian in 361",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Julian's pagan government is no census movement. Supported: Optatus II.16, 'this was the man whom you entreated to be allowed to return' (line 1065)."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "in the 390s, to the same machinery it condemned everywhere else, against its own breakaway Maximianist bishops",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Maximianists have no census entry. Supported: Augustine, Answer to Petilian, npnf104 line 11526 ('the records of the proconsular province, where more than once they quoted the same Council to justify the exclusion of the followers of Maximianus from the basilicas')."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "two hundred and seventy-nine of this communion's bishops met roughly two hundred and eighty-six of the rival church's before an imperial judge at Carthage, refused the chairs he offered them",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link (Augustine's book after the conference). Refusing the chairs: Breviculus II.1 (Petschenig lines 63479-63482, 'Donatistae autem recusauerunt'). The 279 figure is legible in the Gesta OCR ('ducenti septuaginta novem', pl11 lines 134382-134384); the 286 figure I did not find in the OCR."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "In 411 the emperor finally ordered the whole dispute settled at law",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link; the imperial convocation is read into the Gesta (npnf104 editor's summary, line 10560)."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "the laws that followed took their churches by name",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link; the 412 law names 'omnes donatistae' (Codex Theodosianus 16.5.52, line 7186)."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No relationship between the Vandal church and the Donatists is claimed or documented; the Vandal-era survival is not in a vendored text. Narrowed."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--donatism",
+   "prose_change": 2,
+   "reason": "New argued-against link (Novel 37, 535; Gregory to Maurice). The inventory mapped 'Byzantine rule' to latin-africa-under-byzantium; the laws are the emperors'."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "sentence": "a set of letters Pope Gregory the Great wrote in the 590s, pressing for an inquiry into Donatist rebaptism in Numidia",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--donatism",
+   "prose_change": 2,
+   "reason": "New argued-against link (Reg. II.48)."
+  },
+  {
+   "movement": "donatism",
+   "field": "why",
+   "sentence": "Nearly everything known of them survives only through the hostile writings of their opponents - Augustine chief among them.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Its two-party contest with the rival Catholic church did not end with the Roman empire that had tried to settle it",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "donatism--latin-pastoral-congregational-christianity--2",
+   "prose_change": 3,
+   "reason": "Carried by the new broke-with link and the existing argued-against links."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Its two-party contest with the rival Catholic church did not end with the Roman empire that had tried to settle it",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--donatism",
+   "prose_change": 3,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Vandal and then Byzantine rulers inherited the same divided towns for another century and a half",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Not documented for the Vandal period; dropped."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Vandal and then Byzantine rulers inherited the same divided towns for another century and a half",
+   "other_id": "latin-africa-under-byzantium",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No vendored text relates the Byzantine African church as a body to the Donatists beyond Gregory's letters to individual bishops; the Byzantine half is carried by the imperial link. Reworded."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "the dispute still live enough that a sixth-century pope found it worth four letters of his own",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--donatism",
+   "prose_change": 3,
+   "reason": "New link; 'four' corrected to 'at least eight' from the NPNF selection."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Answering the claim that a sacrament's worth depends on the minister's own purity, Augustine reasoned his way to the claim that stuck",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--donatism",
+   "prose_change": null,
+   "reason": "Existing link. The wheat-and-chaff argument is in the Breviculus (npnf104 editor's summary line 10493, 'On the Lord's threshing-floor the chaff must be tolerated')."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "Tyconius, condemned by his own church around 380",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Tyconius has no entry; the condemnation rests on the NPNF editor's note (npnf104 line 10816, 'The reformer was excommunicated')."
+  },
+  {
+   "movement": "donatism",
+   "field": "legacy",
+   "sentence": "his one surviving book crossed over to the side that had expelled him and shaped how Augustine himself, and centuries of readers after him, learned to read Scripture",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "donatism--latin-pastoral-congregational-christianity--3",
+   "prose_change": null,
+   "reason": "New influenced link (De doctr. chr. III.30.42). 'Centuries of readers' is not checked beyond Augustine."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Descended from Egyptian desert monasticism through Cassian",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": 5,
+   "reason": "Existing influenced link; 'descended' qualified to 'drew on' to match it."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "sentence": "who had lived among the Egyptian monks before founding his houses at Marseilles",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Same link (Institutes preface; Gennadius 62). No separate contact link: the influence link already rests on it."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "sentence": "the seedbed of the Merovingian Gallic church that follows it",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   "prose_change": 5,
+   "reason": "Existing Widely Accepted link; wording plainer."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "sentence": "through Lérins and Tours - of Irish monasticism",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "prose_change": 5,
+   "reason": "Existing Inferential-Thin link was stated as fact; Tours is in none of its sources."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "About 360, a soldier named Martin told Caesar he was now a soldier of Christ, and asked to leave the army.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Julian Caesar is no movement. Supported: Vita Martini 4 (npnf211 704, 840-841, 'I am the soldier of Christ'). Sulpicius gives no year; 'about 360' is the census's own rounding (the NPNF notes place it at Worms, usually dated 356)."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "Some years later, the people of Tours seized him and made him their bishop",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: Vita Martini 9-10 (npnf211 from 1060)."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "wrote his Life while he was still alive",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: Sulpicius's Letter I, defending the Life against critics (npnf211 1988), precedes Letter II on Martin's death."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "Around 410, Honoratus founded a monastery on a small island off the coast near Cannes, Lérins.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A founding, not a link between movements. Supported in part: Hilary's Life of Honoratus is vendored (hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt); I did not re-check the date."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "Hilary, who succeeded him there, wrote his Life",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: Gennadius 70 names Hilary's 'Life of Saint Honoratus' (npnf203 43400)."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "another monk formed on the island, Faustus, later became bishop of Riez",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: Gennadius 86 (npnf203 43684-43685), already a source of the Merovingian link."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "John Cassian, who had spent years among the Egyptian monks, founded two houses at Marseilles and wrote down what he had learned there",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "It was the monks of Marseilles who resisted Augustine's late teaching on grace and human effort.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link (Prosper, Ep. 225.2). Prosper says 'servants of Christ' at Marseilles, the usual term for monks and ascetics."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "longDescription",
+   "sentence": "Augustine answered them in two treatises, after a third one - addressed to a different monastery, in Africa - had first provoked their objection.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link. Prosper's letter confirms the order: On Rebuke and Grace had answered doubts in Africa (Ep. 225.2, lines 16940-16941) and then stirred the Marseilles party further (lines 16966-16970)."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "why",
+   "sentence": "two generations later, monks at Lerins and Marseilles carried the wisdom of the Egyptian desert into a colder climate and a different church",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "sentence": "Benedict's Rule commends them by name and prescribes them as daily reading",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "prose_change": null,
+   "reason": "Existing link. 'By name' means the titles (RB 42, 73); the Rule does not name Cassian, which the existing note already says."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "sentence": "which carried them into every Benedictine house in Europe",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "prose_change": null,
+   "reason": "Same link; an inference from the Rule's own prescription, left as written."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "sentence": "Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement party. The test is vendored (Commonitory 2, npnf211 12187, 'believed everywhere, always, by all'). The later quoting is not checked. See escalations: Vincent is never introduced in this entry."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "sentence": "Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement party. True as a present-day fact, but no vendored or repo-cited source states it; the gallic world build dropped it for that reason (Build/worlds/gallic/surface/facilitator_brief/..., lines 503-507). Left for the owner (escalations)."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "sentence": "the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No link: the Reformation churches argued with their own contemporaries under the label. Supported: the Formula of Concord (1577), Epitome II, rejects 'the error of the Semi-Pelagians, who teach that man, by his own powers, can make a beginning of his conversion', and Jacobs's note glosses it 'Massilians' (book-of-concord file, lines 25880-25883, 25898)."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "who condemned the movement at a council in Saragossa around 380",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A council, not a movement. Supported: Sulpicius, Chron. II.47 (npnf211 11506-11508); 'even the Aquitanian bishops were present' supports 'Gallic'."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "his opponents accused him of Manichaeism and sorcery",
+   "other_id": "manichaeism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "A charge is not a relationship with Manichaeism; no link. The vendored contemporary charge is 'Gnostics' and magic; the Manichaean likening is later (Leo, Braga). Reworded."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "carried the case to the imperial court",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "prose_change": 6,
+   "reason": "New argued-against link."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "Around 385, at Trier, the usurping emperor Magnus Maximus had Priscillian and several companions tried and put to death.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "prose_change": null,
+   "reason": "Same new link (Chron. II.50-51)."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+   "prose_change": 7,
+   "reason": "Martin's protest is documented; it relates his movement to the court, so the new link is gallic-monastic / imperial-juridical (in contact with). The inventory's 'argued against Priscillianism' is wrong: Martin pleaded for the accused."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "qualify",
+   "link_id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "prose_change": 7,
+   "reason": "Ambrose's objection to the execution is not in a vendored text (Letter 24, wanted). His earlier refusal is documented (Chron. II.48) and is carried by a new argued-against link and the sentence added in prose change 6."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "sentence": "the bishops who had pressed the charges were disgraced for it",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ithacius and Ydacius have no movement. Supported: Chron. II.51 (npnf211 11718-11720)."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "sentence": "His opponents accused him of Manichaeism and sorcery",
+   "other_id": "manichaeism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "sentence": "carried the case to the imperial court",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "prose_change": 8,
+   "reason": "New link."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "sentence": "around 385 the usurping emperor Magnus Maximus had him and several companions tried and executed at Trier",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "prose_change": 8,
+   "reason": "New link."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "sentence": "Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+   "prose_change": 9,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "sentence": "Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "qualify",
+   "link_id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "prose_change": 9,
+   "reason": "As in the longDescription; Ambrose dropped from this sentence."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "legacy",
+   "sentence": "the ascetic current he represented persisted in Galicia in north-western Spain for more than a century, and a council at Braga was still condemning Priscillianism in 561",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The inventory's 'continued as nicene-visigothic-iberia' is wrong: Braga I met under the Suevic king Ariamir (Bruns line 2372, era 599 = 561), before the Visigoths took Galicia, and the Visigothic entry never names it. The Suevic Galician church has no census movement. Supported: Braga I acts (Bruns lines 2412-2480); Leo, Ep. 15 (447) to Turribius, 'the Priscillianists again teems with life amongst you' (npnf212 3245); Chron. II.51 on Priscillian honored as a martyr (npnf211 11726)."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "legacy",
+   "sentence": "The execution at Trier is the point at which capital punishment for heresy enters Western Christian practice, and it was cited afterwards both as precedent and as warning.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement party. Supported: Leo, Ep. 15, approving that the rulers 'laid low its originator, with most of his disciples, by the sword of the public laws' (npnf212 3277-3278); Sulpicius's censure of the accusers (Chron. II.50-51). 'Enters Western practice' is the census's judgment; not checked further."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "relationsSummary",
+   "sentence": "Augustine's great controversy-partner",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--pelagianism",
+   "prose_change": null,
+   "reason": "Existing link; the other direction is now carried by pelagianism--latin-pastoral-congregational-christianity."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "sentence": "came to Rome in the late fourth century and found the Christianity of the capital slack",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Roman Christians at large are no movement. Partly supported: Pelagius at Rome objecting to 'Give what Thou commandest' (De dono pers. 53, npnf105 22532); 'British' is in the NPNF introduction (npnf105 2000). 'Slack' is a modern reading (Brown's Augustine of Hippo is repo-cited as lpc.source.brown-augustine-of-hippo but I did not check its page)."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "sentence": "People excusing their sins on the grounds that human nature simply could not do better. His answer was that God does not command the impossible",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement party. Supported by Pelagius's own Letter to Demetrias 16 (Migne PL 30 OCR, lines 1024-1025, 'Durum est, arduum est, non possumus, homines sumus, fragili carne circumdamur', and 1038-1039, 'nihil impossibile esse praeceptum'). The first is a sentence fragment; flagged, not touched."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "sentence": "including the combative Caelestius and later the bishop Julian of Eclanum",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "pelagianism--latin-pastoral-congregational-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link from Julian's letters naming Augustine."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "sentence": "Augustine of Hippo fought them for the last twenty years of his life.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--pelagianism",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "sentence": "The African councils condemned them in 418 and the Council of Ephesus did so again in 431",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Councils, not movements. Ephesus supported: canons 1 and 4 name Celestius (npnf214 17745, 17994). The 418 African canons were not re-checked here."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "why",
+   "sentence": "Augustine fought them for the last twenty years of his life",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--pelagianism",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "why",
+   "sentence": "African councils condemned the movement in 418, the Council of Ephesus again in 431",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "Answering it, Augustine worked out the Western doctrines of original sin, prevenient grace, and predestination",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--pelagianism",
+   "prose_change": null,
+   "reason": "Carried by the existing argued-against link; the inventory's 'influenced' would say Pelagius taught Augustine these doctrines, which no text claims."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "in the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Aquinas has no entry of his own. No Aquinas text is vendored (in wants); the Dominican Order would be the entry (the-dominican-order)."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "in the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence relates Augustine's doctrines to Luther, not this movement to Luther; any link is latin-pastoral → that movement, and belongs to that pair's pass. "
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "in the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence relates Augustine's doctrines to Calvin, not this movement to Calvin; any link is latin-pastoral → that movement, and belongs to that pair's pass. "
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "in the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over",
+   "other_id": "port-royal-jansenism",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence relates Augustine's doctrines to the Jansenists, not this movement to the Jansenists; any link is latin-pastoral → that movement, and belongs to that pair's pass. "
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "sentence": "A few of his works did come through, misattributed to Jerome and identified as his only in modern times.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Misattribution is not a relationship between the movements; no link. 'Only in modern times' corrected."
+  }
+ ],
+ "links": [
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism",
+   "action": "keep",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "donatism why (Augustine's hostile writings), longDescription (411 conference), legacy (Augustine's answer on the minister's purity)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept as reviewed in era 1. Both quotes re-checked against the files (Retractationes CSEL 36 lines 12020-12022; Optatus line 24)."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity",
+   "action": "keep",
+   "from": "donatism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "named_in_text": "donatism relationsSummary and longDescription (rebaptism; validity rising and falling on the giver's purity)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept as reviewed in era 1. Both Optatus quotes re-checked (lines 153 and 47)."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism--2",
+   "action": "keep",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "donatism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "latin-pastoral text (Cyprian's authority); not named in the donatism text, carried here because it sits on this movement",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept as reviewed in era 1. Quote re-checked (Petschenig lines 10206-10208)."
+  },
+  {
+   "id": "imperial-juridical-christianity--donatism",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "donatism relationsSummary, longDescription (313 appeal, 347 commissioners, 411 settlement, the laws that followed), legacy",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. All three Optatus quotes re-checked (lines 287, 273, 275). The 412 law (Codex Theodosianus 16.5.52, codex-theodosianus_latinlibrary.txt line 7186) would also document it if a reviewer wants a second witness."
+  },
+  {
+   "id": "donatism--imperial-juridical-christianity",
+   "action": "keep",
+   "from": "donatism",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "named_in_text": "donatism relationsSummary (refusal of any imperial standing to judge the church)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. Quote re-checked (Optatus line 1904); the note already says the report is hostile."
+  },
+  {
+   "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "gallic relationsSummary, longDescription and why (Cassian and the Egyptian monks)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. Both quotes re-checked (npnf211 16443-16446; npnf203 43243-43246). The relationsSummary's 'descended' is qualified to match the influenced type (prose change 4)."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "early-benedictine-italian-monasticism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "named_in_text": "gallic legacy (Benedict's Rule commends the Conferences)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. All three primary quotes re-checked (Hunter Blair 6839-6841; Gasquet 4289-4291, OCR 'Co//ations' copied as in the file; npnf203 43243-43246)."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "gallic relationsSummary ('through Lérins and Tours - of Irish monasticism')",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound at its grade; kept. Both quotes re-checked (Warren 1622-1623; Patrick 2442-2443). The relationsSummary stated this thin link as fact and named Tours, which no listed source names; qualified (prose change 4)."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "merovingian-gallic-christianity",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "named_in_text": "gallic relationsSummary ('seedbed of the Merovingian Gallic church')",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. Both primary quotes re-checked (Krusch line 35663; npnf203 43684-43685)."
+  },
+  {
+   "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "action": "keep",
+   "from": "gallic-nicene-episcopate",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "gallic-nicene-episcopate text (Martin and Hilary); the gallic longDescription names Poitiers only. Carried here because it sits on this movement",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept. All four Vita Martini quotes re-checked (npnf211 879, 886-887, 950-951, 978-980)."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--pelagianism",
+   "action": "keep",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "pelagianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "pelagianism relationsSummary, longDescription, why, legacy (Augustine fought them)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; kept as reviewed in era 1. Both quotes re-checked (npnf105 lines 4667 and 6831)."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--2",
+   "action": "new",
+   "from": "donatism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Optatus of Milevis, a Catholic bishop, says the schism began when a rival party consecrated Majorinus at Carthage, though Caecilian was already bishop. The Donatist bishops' own petition to Constantine, which Optatus copies, says disputes had arisen between them and the other bishops of Africa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I, ch. 19",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "187",
+     "locus": "Book I.19",
+     "quote": "although Caecilian was already the Bishop, made the Schism by consecrating Majorinus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Petition of the Donatist bishops to Constantine (313), copied by Optatus, Book I, ch. 22",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "265",
+     "locus": "Book I.22",
+     "quote": "for between us and other Bishops in Africa disputes have arisen; Given by Lucianus, Dignus, Nasutius, Capito, Fidentius and the rest of the Bishops who adhere to Donatus.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "donatism relationsSummary ('it split from over the same persecution'); latin-pastoral relationsSummary ('a rival Donatist church stood in the same towns')",
+   "wants": [],
+   "drafter_flags": [
+    "Both sides' words survive only in Optatus's book; the petition is the Donatist bishops' own text as he copies it.",
+    "ID: this pair already carries 'donatism--latin-pastoral-congregational-christianity' (argued against), so this takes --2 and the new influenced link takes --3. Merge may renumber the two new ones; neither is published yet."
+   ],
+   "change_reason": "New: the relationsSummary names a split, and no link carried the rupture itself; the two argued-against links carry the argument, not the break."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--3",
+   "action": "new",
+   "from": "donatism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Tyconius was a Donatist writer of about 380. In On Christian Doctrine, Augustine calls him a Donatist and sets out the seven rules of his Book of Rules. He says they give real help in opening the hidden sense of Scripture.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.augustine-de-doctrina-christiana-iii",
+     "work": "Augustine, On Christian Doctrine III.30.42",
+     "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+     "lines": "53019-53021",
+     "locus": "De doctr. chr. III.30.42",
+     "quote": "One Tichonius, who, although a Donatist himself, has written most triumphantly against the Donatists",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.augustine-de-doctrina-christiana-iii",
+     "work": "Augustine, On Christian Doctrine III.30.42",
+     "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+     "lines": "53029-53032",
+     "locus": "De doctr. chr. III.30.42",
+     "quote": "Now these rules, as expounded by their author, do indeed, when carefully considered, afford considerable assistance in penetrating the secrets of the sacred writings;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "donatism legacy (Tyconius's book crossed over and shaped how Augustine learned to read Scripture)",
+   "wants": [],
+   "drafter_flags": [
+    "'About 380' rests on the NPNF editor's note (npnf104 line 10816: 'flourished circ. 380 ... The reformer was excommunicated'), not on a primary text.",
+    "Tyconius was condemned by his own party (Parmenian); the link is from the communion he belonged to, through him. A reviewer may judge that a dissident member's book is a thin basis for a movement-level 'influenced'; the text itself frames it that way.",
+    "Augustine's critique in the same chapter (the rules 'do not explain all the difficult passages') is left out of the note for length, not hidden."
+   ],
+   "change_reason": "New: the donatism legacy names this relationship and no link carried it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--donatism",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 535 Emperor Justinian's law for reconquered Africa named the Donatists alongside Arians, Jews and pagans, and barred them from holding services. In the 590s Pope Gregory the Great wrote to Emperor Maurice, praising his orders against the Donatists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 37 (to Solomon, praetorian prefect of Africa, 1 August 535)",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "52635-52637",
+     "locus": "Nov. 37",
+     "quote": "Neque enim Iudaeos neque paganos neque Donatistas neque Árianos neque alios quoscumque haereticos vel speluncas habere vel quaedam quasi ritu ecclesiastico facere patimur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register VI.65 (NPNF numbering), to the Emperor Mauricius",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "45030-45033",
+     "locus": "Reg. VI.65",
+     "quote": "Now after what manner the serenity of your Piety, out of regard to righteousness and zeal for the purest religion, has been moved against the most flagitious pravity of the Donatists, the tenor of the commands which you have sent most clearly shews.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "donatism longDescription ('survived under ... Byzantine rule ... still legislated against') and legacy ('Byzantine rulers inherited the same divided towns')",
+   "wants": [],
+   "drafter_flags": [
+    "The text says 'Byzantine rule' without naming Justinian; the inventory mapped it to latin-africa-under-byzantium, but the laws are the emperors', so the link runs from the imperial church entry. Reviewer to confirm the mapping.",
+    "The Novel's date is from its subscription (line 52668, 'Dat. kal. Aug. CP. Belisario v. c. cons.', the consulship of 535)."
+   ],
+   "change_reason": "New: the donatism text names Byzantine legislation against the communion and no link carried it."
+  },
+  {
+   "id": "roman-church-gregorian--donatism",
+   "action": "new",
+   "from": "roman-church-gregorian",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Pope Gregory the Great wrote to Columbus, a Numidian bishop, in the early 590s. He had heard that the Donatists were spreading and baptizing many people a second time. He ordered a council of bishops to look into it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register II.48 (NPNF numbering), to Columbus, bishop",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "35593-35596",
+     "locus": "Reg. II.48",
+     "quote": "the heresy of the Donatists is for our sins spreading daily, and that very many, leave being given them through venality, are being baptized a second time by the Donatists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register II.48 (NPNF numbering), to Columbus, bishop",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "35571-35573",
+     "locus": "Reg. II.48",
+     "quote": "this same case be subjected to a thorough and wise investigation in an united general council of bishops,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "donatism longDescription (Gregory's letters pressing for an inquiry into Donatist rebaptism in Numidia) and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "The council in this letter is ordered for a bishop charged with taking a Donatist bribe; the rebaptism report follows in the same letter. The note keeps the two together only as 'look into it'. Reviewer may prefer to cite Reg. I.77 (to the bishops of Numidia, npnf212 line 33812) as well.",
+    "Gregory's letters survive here only in the NPNF English selection; the Ewald-Hartmann Latin for Books I-VII is not vendored."
+   ],
+   "change_reason": "New: the donatism text names Gregory's letters and no link carried them."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Around 428 Prosper of Aquitaine wrote to Augustine from Gaul. He reported that many servants of Christ at Marseilles thought Augustine's writing on election ran against the Fathers and the church's mind.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.goldbacher-augustine-epistulae-csel57-pars4",
+     "work": "Prosper of Aquitaine, Letter to Augustine (Augustine, Ep. 225.2), Latin, Goldbacher CSEL 57",
+     "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+     "lines": "16932-16934",
+     "locus": "Ep. 225.2",
+     "quote": "Multi ergo seruorum Christi. qui in Massiliensi urbe consistunt, in sanctitatis tuae scriptis, quae aduersus Pelagianos baereticos condidisti, contrarium putant patrum opinioni",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gallic longDescription ('the monks of Marseilles who resisted Augustine's late teaching on grace') and legacy ('the Gallic objection to Augustine on grace')",
+   "wants": [
+    "Cassian, Conference XIII, if a reviewer wants the Marseilles side in its own words (it argues the point but does not name Augustine)"
+   ],
+   "drafter_flags": [
+    "The objection reaches us through Prosper, who took Augustine's side; the objectors' own letters do not survive. 'Baereticos' is the CSEL OCR for 'haereticos', copied as in the file.",
+    "records/gallic/source/gallic.source.augustine-letters-221-226-absence.md says Epp. 225-226 are absent; that holds for npnf101 only. The Latin is vendored in CSEL 57 (lines 16888 onward). The world record's owner may want to know.",
+    "The date 'around 428' follows the NPNF heading of Augustine's reply ('a.d. 428 or 429', npnf105 line 20795)."
+   ],
+   "change_reason": "New: the gallic text names this argument and no link carried it."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Prosper said the objectors lived at Marseilles. Augustine answered in On the Predestination of the Saints, written in 428 or 429 to Prosper and Hilary for the brethren they were worried about. Prosper adds that Augustine's earlier book On Rebuke and Grace had answered similar doubts in Africa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.augustine-on-predestination",
+     "work": "Augustine, On the Predestination of the Saints, ch. 1",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "20817-20818",
+     "locus": "De praed. sanct. 1",
+     "quote": "my dearest sons, Prosper and Hilary, your zeal and brotherly affection—which makes you so reluctant to see any of the brethren in error, as to wish that, after so many books and letters of mine on this subject, I should write again from here",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.goldbacher-augustine-epistulae-csel57-pars4",
+     "work": "Prosper of Aquitaine, Letter to Augustine (Augustine, Ep. 225.2), Latin, Goldbacher CSEL 57",
+     "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+     "lines": "16940-16941",
+     "locus": "Ep. 225.2",
+     "quote": "cum quosdam intra Africam similia mouissent, librum de correptione et gratia plennm diuinae auctoritatis emitteres.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gallic longDescription ('Augustine answered them in two treatises, after a third one - addressed to a different monastery, in Africa - had first provoked their objection')",
+   "wants": [],
+   "drafter_flags": [
+    "Augustine names Prosper and Hilary, not Marseilles; the identification of 'the brethren' as the Marseilles party rests on Prosper's letter. 'plennm' is OCR, copied as in the file.",
+    "On the Gift of Perseverance, the second of the two treatises, is vendored in the same file and could be added."
+   ],
+   "change_reason": "New: the gallic text names Augustine's answer and no link carried it."
+  },
+  {
+   "id": "pelagianism--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "pelagianism",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Julian of Eclanum wrote letters that named Augustine and called the Catholic party Manichaeans. Augustine says the Pope sent them on to him, and he answered in four books. He also says Pelagius at Rome could not bear his prayer, 'Give what Thou commandest.'",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+     "work": "Augustine, Retractations, on Against Two Letters of the Pelagians (NPNF 1.5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "16014",
+     "locus": "Retr., on C. duas epp. Pel.",
+     "quote": "in opposition to two letters of the Pelagians, because when they came into his hands he had sent them to me, finding in them a calumnious mention of my name.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+     "work": "Augustine, Against Two Letters of the Pelagians I.4, quoting Julian's letter",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "16068",
+     "locus": "C. duas epp. Pel. I.4",
+     "quote": "He calls the catholics Manicheans,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.augustine-on-the-gift-of-perseverance",
+     "work": "Augustine, On the Gift of Perseverance 53",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "22532",
+     "locus": "De dono pers. 53",
+     "quote": "Which words of mine, Pelagius at Rome, when they were mentioned in his presence by a certain brother and fellow bishop of mine, could not bear;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "pelagianism relationsSummary ('Augustine's great controversy-partner') and longDescription (Caelestius and Julian pushed the argument; Augustine fought them)",
+   "wants": [],
+   "drafter_flags": [
+    "Every witness is Augustine's own report or quotation; no Pelagian text naming Augustine is vendored. Julian's words survive only as Augustine quotes them.",
+    "'The Pope' in the note is Boniface, bishop of Rome, named in the same Retractations line."
+   ],
+   "change_reason": "New: the movement's text names a two-sided quarrel and only the anti-Pelagian direction had a link."
+  },
+  {
+   "id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "priscillianist-asceticism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Sulpicius Severus says Spanish bishops won a rescript from Emperor Gratian that drove the heretics out. Later the usurping emperor Maximus heard the case at Trier. He decreed that Priscillian and his friends be put to death.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.47",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11529-11531",
+     "locus": "Chron. II.47",
+     "quote": "a rescript was, on the entreaty of Ydacius, obtained from Gratianus, who was then emperor,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.50",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11673-11674",
+     "locus": "Chron. II.50",
+     "quote": "the emperor decreed that Priscillian and his friends should be put to death.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "priscillianist longDescription and why (the case carried to the imperial court; Maximus had Priscillian executed at Trier)",
+   "wants": [],
+   "drafter_flags": [
+    "Maximus was a usurper, recognized by Theodosius only for a time. Counting his court and Gratian's within the imperial-juridical tradition is a mapping choice; reviewer to confirm."
+   ],
+   "change_reason": "New: the priscillianist text names the court and the execution, and no link carried them."
+  },
+  {
+   "id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "priscillianist-asceticism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Sulpicius Severus says Priscillian and two bishops went to Rome and Milan, around 382, to clear themselves. Damasus of Rome would not receive them, and at Milan they found Ambrose equally opposed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.48",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11563-11564",
+     "locus": "Chron. II.48",
+     "quote": "Returning to Milan, they found that Ambrose was equally opposed to them.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.48",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11561-11563",
+     "locus": "Chron. II.48",
+     "quote": "When they reached Rome with the wish of clearing themselves before Damasus, they were not even admitted to his presence.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "priscillianist longDescription and why (Ambrose of Milan named); the census said he objected to the execution, which no vendored text shows (prose changes 6-8)",
+   "wants": [
+    "Ambrose, Letter 24 (Maurist 30), on his embassy to Maximus, where he says he kept away from the bishops who sought the death of heretics; not in the vendored NPNF 10 selection"
+   ],
+   "drafter_flags": [
+    "One sentence of one witness. The date 'around 382' is the NPNF 10 chronology's '383' (npnf210 line 685) rounded; Sulpicius gives no year. Reviewer may prefer '382-383' or no date."
+   ],
+   "change_reason": "New: the priscillianist text names Ambrose; the only vendored evidence ties him to an earlier refusal, not to the execution, so the link carries that."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+   "action": "new",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "imperial-juridical-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Martin of Tours was at the emperor Maximus's court at Trier during the Priscillian affair. Sulpicius Severus says he begged Maximus not to shed the blood of the accused. He called it an unheard-of outrage for a secular ruler to judge a church case.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.50",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11652-11656",
+     "locus": "Chron. II.50",
+     "quote": "For Martin, being then settled at Treves, did not cease to importune Ithacius, that he should give up his accusations, or to implore Maximus that he should not shed the blood of the unhappy persons in question.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.sulpitius-sacred-history",
+     "work": "Sulpicius Severus, Sacred History II.50",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "11657-11660",
+     "locus": "Chron. II.50",
+     "quote": "it was, besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "priscillianist longDescription and why ('Martin of Tours ... objected to churchmen taking a doctrinal quarrel to an executioner')",
+   "wants": [],
+   "drafter_flags": [
+    "Type choice: Martin's plea is an exchange with the emperor, so 'in contact with' is safe. A reviewer could argue 'argued against' (Martin acted against the emperor's jurisdiction); I did not, because Sulpicius also says Maximus kept his promise to Martin while Martin lived.",
+    "The inventory mapped Martin's objection to an argued-against link with the Priscillianists. Martin did not act against them; he acted for them, against their prosecutors and the court. No link to priscillianist-asceticism is drafted for him."
+   ],
+   "change_reason": "New: the priscillianist text names Martin's protest; it is a relationship between Martin's movement and the imperial court, and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "donatism",
+   "field": "relationsSummary",
+   "old": "Rival-sibling of the Latin pastoral congregational tradition it split from over the same persecution; its refusal of any imperial standing to judge the church is the mirror image of Imperial and Juridical Christianity's own church-state alliance, and its once-for-all rebaptism is the opposite answer Cappadocian Christianity gave to the same question of how someone from the other side comes back in.",
+   "new": "The rival of the Latin pastoral church of Carthage and Hippo, from which it split over the same persecution. Its bishop Donatus asked what the emperor had to do with the church, the reverse of the church-state alliance of Imperial and Juridical Christianity. And it baptized again those who came over from the other side. Basil of Caesarea, by contrast, wrote that the old rule was to accept the baptism of schismatics.",
+   "reason": "The Cappadocian comparison is not a relationship and was overstated: Basil's Letter 188, canon 1 (npnf208 34825-34826) reports the ancients' rule to 'admit that of schismatics', while noting that Cyprian and Firmilian had rejected it; 'the opposite answer' is narrowed to what he wrote. 'Rival-sibling' and 'once-for-all rebaptism' are replaced with plain words; the imperial clause now rests on Donatus's own question (Optatus III, line 1904). The 'split' is carried by the new broke-with link."
+  },
+  {
+   "n": 1,
+   "movement": "donatism",
+   "field": "longDescription",
+   "old": "A rural movement called the circumcellions is attested in this same period by an imperial fine — a real, legally distinct group — though almost everything claimed about what they actually did survives only in the writing of opponents who had reason to make them look like a mob.",
+   "new": "A rural movement called the circumcellions appears in Optatus's account of these same years. An imperial law of 412 fined them as a class of their own, so they were a real, legally distinct group. But almost everything said about what they did comes from opponents who had reason to make them look like a mob.",
+   "reason": "The imperial fine is the law of 30 January 412 (Codex Theodosianus 16.5.52, 'circumcelliones argenti pondo decem', codex-theodosianus_latinlibrary.txt line 7186), not 'this same period' as 347. Optatus names them in the 340s (Latin, Ziwsa CSEL 26 line 3686)."
+  },
+  {
+   "n": 2,
+   "movement": "donatism",
+   "field": "longDescription",
+   "old": "The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against — the last word any surviving record has on it is a set of letters Pope Gregory the Great wrote in the 590s, pressing for an inquiry into Donatist rebaptism in Numidia.",
+   "new": "The sources say little about the communion under the Vandals, but it was still there under Byzantine rule. In 535 Justinian's law for Africa barred Donatists from holding services. The last surviving word on it comes from Pope Gregory the Great. His letters of the 590s pressed for an inquiry into Donatist rebaptism in Numidia.",
+   "reason": "No vendored text shows Donatists under Vandal rule or Vandal laws against them; Victor of Vita names them only as the target of the old imperial laws Huneric turned on the Catholics (Historia III, Petschenig line 7149). The Byzantine legislation is documented (Novel 37, link byzantine-imperial-church-justinianic--donatism). The sentence also ran past 50 words."
+  },
+  {
+   "n": 3,
+   "movement": "donatism",
+   "field": "legacy",
+   "old": "Its two-party contest with the rival Catholic church did not end with the Roman empire that had tried to settle it: Vandal and then Byzantine rulers inherited the same divided towns for another century and a half, the dispute still live enough that a sixth-century pope found it worth four letters of his own.",
+   "new": "Its contest with the rival Catholic church did not end with the Roman empire that had tried to settle it. A century later, Byzantine emperors were still issuing laws against it. And in the 590s the dispute was live enough that Pope Gregory the Great wrote about it in at least eight letters.",
+   "reason": "'Four letters' undercounts: the vendored NPNF selection alone has Gregory naming the Donatists in Register I.74, I.77, II.48, IV (to Pantaleo; to Victor and Columbus), VI.37, VI.63 and VI.65 (npnf212). The Vandal half is not documented (see the longDescription change)."
+  },
+  {
+   "n": 4,
+   "movement": "donatism",
+   "field": "longDescription",
+   "old": "a bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra, and this communion has kept his name, and the names of others killed with him, read aloud at their graves every year since.",
+   "new": "a bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra. His church honored him and others killed with him as martyrs, and its own account of his death survives.",
+   "reason": "'Every year since' cannot be true of a communion that no longer exists, and no vendored text shows the annual reading. What is documented: the Donatists held those killed as martyrs (Augustine, quoted in the PL 8 notes, monumenta-vetera-donatistarum_migne-pl8.txt lines 776-779, 'Ecce Marculus de petra praecipitatus est'), and the Passio Marculi survives (same file, from line 874). The cliff name and the parade are left as they were; the OCR of the Passio is too damaged for me to confirm either."
+  },
+  {
+   "n": 5,
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "old": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
+   "new": "Drew on Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles. It fed the Merovingian Gallic church that follows it. One eighth-century Irish account also traces a line from Cassian and Lérins to Irish monasticism.",
+   "reason": "'Descended from' claims more than the influenced link shows, and Martin's monasticism began before Cassian reached Gaul. The Irish link is Inferential-Thin and rests on one tract naming Cassian and Lérins; no listed source names Tours."
+  },
+  {
+   "n": 6,
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "old": "His supporters responded by making him bishop of Ávila; his opponents accused him of Manichaeism and sorcery and carried the case to the imperial court.",
+   "new": "His supporters responded by making him bishop of Ávila. He went to Rome and Milan to clear himself, and was turned away by both bishops, Ambrose of Milan among them. His opponents called his teaching the heresy of the Gnostics, accused him of sorcery, and carried the case to the imperial court. Later churchmen likened it to Manichaeism.",
+   "reason": "The only vendored contemporary account (Sulpicius, Chron. II.46-50) calls the teaching 'the heresy of the Gnostics' and says he was believed to practise magic; the Manichaean charge at the trial is not in a vendored text. The likening is documented later: Leo, Ep. 15 (447), 'they agree with the Manichaeans' (npnf212 3476) and Braga I (561), 'sicut Manicheus et Priscillianus dixerunt' (Bruns line 2510). The Rome-Milan sentence carries the one vendored witness to Ambrose (Chron. II.48), replacing the unsupported claim in prose change 7."
+  },
+  {
+   "n": 7,
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "old": "It shocked people at the time: Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner, and the bishops who had pressed the charges were disgraced for it.",
+   "new": "It shocked people at the time. Martin of Tours had begged the emperor not to shed the blood of the accused. A secular ruler, he said, had no place judging a church case. The bishops who had pressed the charges were disgraced for it.",
+   "reason": "Martin's protest is documented (Chron. II.50, npnf211 11652-11660). Ambrose's objection to the execution is in his Letter 24, which is not vendored (in wants); the vendored evidence on Ambrose is his earlier refusal, now in prose change 6. The disgrace is documented (Chron. II.51: Ithacius 'thrust out of the episcopate', Ydacius resigned)."
+  },
+  {
+   "n": 8,
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "old": "His opponents accused him of Manichaeism and sorcery and carried the case to the imperial court, and around 385 the usurping emperor Magnus Maximus had him and several companions tried and executed at Trier, apparently the first time a Christian state put Christians to death over belief.",
+   "new": "His opponents called it the heresy of the Gnostics, accused him of sorcery, and carried the case to the imperial court. Around 385 the usurping emperor Magnus Maximus had him and several companions tried and executed at Trier. It was apparently the first time a Christian state put Christians to death over belief.",
+   "reason": "Same evidence as prose change 6 on the charges; the sentence also ran past 50 words."
+  },
+  {
+   "n": 9,
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "old": "Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner.",
+   "new": "Martin of Tours objected to churchmen taking a doctrinal quarrel to an executioner, and begged the emperor to spare the accused.",
+   "reason": "Same evidence as prose change 7: Martin's protest is vendored, Ambrose's is not."
+  },
+  {
+   "n": 10,
+   "movement": "pelagianism",
+   "field": "legacy",
+   "old": "A few of his works did come through, misattributed to Jerome and identified as his only in modern times.",
+   "new": "A few of his works did come through under Jerome's name. Augustine already knew one of them, the Letter to Demetrias, as Pelagius's own, yet it was still printed among Jerome's works in the nineteenth century.",
+   "reason": "'Identified only in modern times' is not right for the Letter to Demetrias: the editors' Monitum in PL 30 (pelagius_epistula-ad-demetriadem-lat_migne.txt, header and Monitum) says Augustine's On the Grace of Christ already quotes Pelagius claiming it, and the letter is printed there among Jerome's spuria (Migne, 1846). The misattribution is not a relationship with Jerome's movement, so no link."
+  }
+ ],
+ "wants": [
+  "Ambrose, Letter 24 (Maurist 30), on his second embassy to Maximus, where he refused communion with the bishops who sought the death of heretics: would let the priscillianist text say again that Ambrose objected to the execution",
+  "The Manichaean charge at Priscillian's trial in a contemporary text (e.g. Priscillian's own Würzburg Tractates, Schepss CSEL 18, which deny it): would let the census say he was accused of Manichaeism, not only likened to it later",
+  "Gregory the Great's Register, Books I-VII, in the Ewald-Hartmann Latin (only Books VIII-XIV are vendored), to check the NPNF numbering of the Donatist letters",
+  "A clean text of the Gesta Collationis Carthaginiensis (411), to confirm the 279 and 286 bishop counts (the PL 11 OCR shows 279 only)",
+  "A legible edition of the Passio Marculi, to confirm the parade through towns and the cliff at Nova Petra",
+  "A source for Lérins as a monastery today, and for Martin as patron saint of France with thousands of churches, if those legacy lines are to stay",
+  "A text of Thomas Aquinas on grace (e.g. Summa Theologiae I-II, qq. 109-114), if the Pelagian legacy sentence is to keep naming him",
+  "Cassian, Conference XIII in a vendored edition checked for the Marseilles position in its own words"
+ ],
+ "escalations": [
+  "records/gallic/source/gallic.source.augustine-letters-221-226-absence.md records Prosper's and Hilary's letters (Augustine, Epp. 225-226) as unvendored. The Latin is vendored in CSEL 57 (augustine_epistulae-critical_goldbacher-csel57-pars4.txt, from line 16888). Another world's record; flagged, not touched.",
+  "donatism longDescription opens with 'the sources support both years and this record does not choose between them': 'this record' is cataloguing language in public text. Not a relationship sentence, so left for the entry's owner.",
+  "gallic legacy says 'Vincent's test' but the entry never introduces Vincent of Lérins. The legacy also states two present-day facts (Lérins still a monastery; Martin patron of France, thousands of churches) that no vendored or repo-cited source supports; the gallic world build dropped them for that reason. Owner's call whether to source or cut them.",
+  "pelagianism longDescription has a sentence fragment ('People excusing their sins on the grounds that human nature simply could not do better.'). Not a relationship sentence; left for the prose pass.",
+  "NPNF 11's English of Sulpicius, Chron. II.47 says Priscillian was made bishop 'in the town of Arles'; the Latin (CSEL 1, line 5740) has 'in Abilensi oppido', Ávila. The census is right; any quote of that NPNF line would carry a mistranslation.",
+  "Mapping questions for the reviewer, not decided here: Maximus's and Gratian's courts counted under imperial-juridical-christianity; Justinian's and Maurice's laws under byzantine-imperial-church-justinianic (the inventory had latin-africa-under-byzantium); Braga I (561) left without a link because the Suevic Galician church has no entry and nicene-visigothic-iberia does not cover it."
+ ]
+}
