@@ -1,0 +1,1216 @@
+{
+ "group": "E",
+ "movements": [
+  "coptic-christianity-under-early-islam",
+  "makurian-nubian-christianity",
+  "post-aksumite-ethiopian-christianity",
+  "bagratid-armenian-christianity",
+  "georgian-revival-tao-klarjeti"
+ ],
+ "dispositions": [
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "relationsSummary",
+   "sentence": "Continuation of Miaphysite Egypt",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+   "prose_change": null,
+   "reason": "New Documented link: Benjamin I holds the see on both sides of 642 (History of the Patriarchs; John of Nikiu CXXI)."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "longDescription",
+   "sentence": "Egypt's miaphysite Christians had spent the century before the Arab conquest under Byzantine pressure for refusing the Council of Chalcedon.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The pressure fell on the 451-642 church, before this entry begins. The Justinianic entry's summary and the Miaphysite Egypt entry's longDescription name it and own it. Benjamin's flight under Heraclius's patriarch Cyrus belongs to the Heraclian entry (era 4, another group) and Miaphysite Egypt; John of Nikiu CXX-CXXI (lines 11522 on, 12005-12011) is ready for that pair. Claim checked: John of Nikiu CXXI.2 blames 'the emperor Heraclius and his persecution of the Orthodox through the patriarch Cyrus'."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "longDescription",
+   "sentence": "Egypt's miaphysite Christians had spent the century before the Arab conquest under Byzantine pressure for refusing the Council of Chalcedon.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Council of Chalcedon has no census entry. The refusal is carried by the Miaphysite Egypt entry; claim stands."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "longDescription",
+   "sentence": "When Arab armies took Alexandria in 641-42 their patriarch Benjamin came out of hiding and was restored to his see.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Arab conquest has no entry. Checked: John of Nikiu CXXI.1 (lines 12005-12008) and the History of the Patriarchs (lines 44689-44690, 44829-44831) record Benjamin's return and restoration. The continuity is carried by the new Miaphysite Egypt link."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "longDescription",
+   "sentence": "No longer persecuted for its confession but taxed and governed as a protected minority, shifting gradually from Coptic into Arabic, and beginning the long, centuries-long drift toward minority status that conversions would eventually bring.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Islamic state has no entry. Taxation under 'Amr is in John of Nikiu CXXI.3-4 (lines 12014-12021). Left as written."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "longDescription",
+   "sentence": "The window ends with the persecution under the caliph al-Hakim in the early eleventh century, the harshest single episode the community had yet faced.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Al-Hakim and the Fatimid state have no entry. Checked: Abu Salih records the nine years of al-Hakim's decrees, the closed churches and the imprisonment of Zacharias (lines 7686-7690). 'Harshest' is the entry's own judgment; left."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "why",
+   "sentence": "When Arab armies took Alexandria in 641-42, the miaphysite patriarch Benjamin came out of hiding after years of Byzantine persecution and was restored to his see.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the longDescription: the persecution belongs to the era-3 Miaphysite Egypt entry and the imperial church of its day. The Benjamin restoration in the same sentence is carried by the new continuity link."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "why",
+   "sentence": "Freed from pressure over its faith but now taxed and governed as a minority, the church shifted gradually from Coptic into Arabic over the centuries that followed, a slow change historians still argue about, until a harsh persecution under the caliph al-Hakim closed the period in the early eleventh century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Islamic state has no entry; same check as the longDescription."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "why",
+   "sentence": "Freed from pressure over its faith but now taxed and governed as a minority, the church shifted gradually from Coptic into Arabic over the centuries that followed, a slow change historians still argue about, until a harsh persecution under the caliph al-Hakim closed the period in the early eleventh century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Al-Hakim has no entry; same check as the longDescription (Abu Salih lines 7686-7690)."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "legacy",
+   "sentence": "Its institutions continued unbroken into the Fatimid and Mamluk centuries and on into the present-day Coptic Orthodox Church of Alexandria, one of the largest Christian bodies in the Middle East.",
+   "other_id": "coptic-christianity-fatimid-to-mamluk",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--coptic-christianity-fatimid-to-mamluk",
+   "prose_change": null,
+   "reason": "New Documented link: Abu Salih's numbered succession runs from Zacharias (64th) under al-Hakim to Christodulus (66th) in 1065."
+  },
+  {
+   "movement": "coptic-christianity-under-early-islam",
+   "field": "legacy",
+   "sentence": "Its institutions continued unbroken into the Fatimid and Mamluk centuries and on into the present-day Coptic Orthodox Church of Alexandria, one of the largest Christian bodies in the Middle East.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The present-day Coptic Orthodox Church has no entry in this period; the claim is carried at its first step by the Fatimid-to-Mamluk link."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Unified Christian Nubia after Merkurios (crowned 697, the 'New Constantine'); Faras cathedral rebuilt 707; the fresco golden age flourished under the peace secured by the 652 Baqt treaty.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Muslim Egypt has no entry. Checked: Baladhuri gives the terms 'Abdallah ibn Sa'd made with the Nubians, slaves for food (lines 15236-15251). The relationsSummary's 'New Constantine' is the History of the Patriarchs (PO 5 lines 6899-6900, 'called the New Gonstantine', OCR), an Egyptian Coptic writer, as the longDescription says."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "longDescription",
+   "sentence": "Between Egypt and the deserts of the Sudan, the Christian kingdom of Makuria held together for centuries under an arrangement no one else had: the Baqt, a treaty struck with Muslim Egypt in 652 that set terms of exchange rather than conquest and was more or less honored for six hundred years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Muslim Egypt has no entry. Baladhuri supports 'terms of exchange rather than conquest' (lines 15236-15251). Quatremere's French extracts show the bakt still demanded on the old footing under the Mamluks in the 1270s and 1290s (lines 3757-3759, 4053-4054), which fits 'more or less honored for six hundred years'. The year 652 is not given in a vendored text (Baladhuri gives no year; Butler says 'from the time of the caliph 'Uthman', line 13553); left, since the era-3 Nubian entry carries 652 as its own end date."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "longDescription",
+   "sentence": "Nubian Christians wrote their own language, Old Nubian, in an alphabet adapted from Coptic.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "prose_change": null,
+   "reason": "New Widely Accepted link: Griffith (1913) on the alphabet, the History of the Patriarchs on the patriarch ordaining Makuria's metropolitan."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "why",
+   "sentence": "The Christian kingdom of Makuria held together for centuries under the Baqt, a treaty struck with Muslim Egypt in 652 that was honored for roughly six hundred years, and after Merkurios — called a new Constantine by an Egyptian writer — took the throne in 697, Nubia rebuilt its cathedral at Faras and covered its walls with paintings of saints, archangels and the bishops themselves.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Muslim Egypt has no entry; same check as the longDescription. The 'new Constantine' clause is the History of the Patriarchs, checked."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "why",
+   "sentence": "Nubian Christians wrote their own language, Old Nubian, in a script adapted from Coptic, though this is a Christianity known mainly by what it built and painted rather than by what it said about itself.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "prose_change": null,
+   "reason": "Same link as the longDescription."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "legacy",
+   "sentence": "Christian Nubia lasted far longer than most people expect, into the fifteenth century in places, before it was worn down and its churches vanished; no Nubian Christian community survives today.",
+   "other_id": "terminal-christian-nubia",
+   "disposition": "link",
+   "link_id": "makurian-nubian-christianity--terminal-christian-nubia",
+   "prose_change": null,
+   "reason": "New Documented link (Abu Salih on Dongola, King Raphael in 1002 and King Solomon in Cyril's patriarchate). The fifteenth-century end is the terminal entry's own."
+  },
+  {
+   "movement": "makurian-nubian-christianity",
+   "field": "legacy",
+   "sentence": "When the Aswan High Dam was built in the 1960s the cathedral at Faras was about to go under the reservoir, and a Polish archaeological team lifted the murals off its walls.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A modern rescue team, no entry. Not in a vendored text; the Nubian dossier names the Faras murals with Michalowski (Build/worlds/_cross-world/dossiers/nubian-christianity_Source_Readiness_Dossier.md, line 54). Left as written."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "relationsSummary",
+   "sentence": "This is the church of the period between Aksum's decline and the rise of the Zagwe dynasty.",
+   "other_id": "aksumite-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "New Documented link, flagged: a Christian king before 615 (Procopius) and kings under the patriarch's letters and authority after (History of the Patriarchs)."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "relationsSummary",
+   "sentence": "This is the church of the period between Aksum's decline and the rise of the Zagwe dynasty.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "New Documented link: Abu Salih (c. 1200) on the metropolitan sent from Alexandria, and the earlier reform of c. 1086."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "relationsSummary",
+   "sentence": "It survived in isolation, continuing to receive its bishops from the Coptic patriarchate in Alexandria.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "New Documented 'in contact with' link: patriarch Isaac's letters (686-689), the twice-yearly letters to Zacharias's time, and Michael I's claim of authority."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "Aksum had been one of the great powers of the late-antique world, minting its own coins, its kings Christian since the fourth century.",
+   "other_id": "aksumite-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same link as the summary. The coinage is unsourced in the vendored texts but already listed as wanted in the era-2 pass (Munro-Hay); left."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "Aksum had been one of the great powers of the late-antique world, minting its own coins, its kings Christian since the fourth century.",
+   "other_id": "aksumite-christianity-conversion-era",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Its kings Christian since the fourth century' is the conversion-era entry's own story, carried by the existing link aksumite-christianity-conversion-era--aksumite-christianity (era-2 pass)."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "Later Ethiopian tradition fills the silence with the story of a queen remembered as Gudit, who is said to have destroyed churches around the year 960, but that account comes from much later and largely hostile sources and cannot be verified.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Gudit is a person with no entry. The sentence already says the account is late and cannot be verified; no vendored text tells it. Left."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "The church survived, its center shifted south into the highlands, and it went on receiving its chief bishop from the Coptic patriarch in Alexandria, a link that would last into the twentieth century.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same 'in contact with' link. 'A link that would last into the twentieth century' belongs to the modern Ethiopian entry (see the legacy row)."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "When the record resumes under the Zagwe kings in the twelfth century, there is a functioning church with monasteries, a liturgy in Ge'ez and its own saints.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same Zagwe link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "why",
+   "sentence": "Aksum had been a great Christian power, minting its own coins, but when the trade that sustained it moved away the coinage stopped and Ethiopian Christianity went nearly silent for close to five hundred years, one of the least documented stretches in the history of any ancient church.",
+   "other_id": "aksumite-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same Aksum link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "why",
+   "sentence": "What can be said with confidence is that the church survived, moved its center into the highlands, and kept receiving its chief bishop from the Coptic patriarch in Alexandria, a link that lasted into the twentieth century, so that when a functioning church reappears under the Zagwe kings, it already has monasteries, a Ge'ez liturgy and its own saints.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same 'in contact with' link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "why",
+   "sentence": "What can be said with confidence is that the church survived, moved its center into the highlands, and kept receiving its chief bishop from the Coptic patriarch in Alexandria, a link that lasted into the twentieth century, so that when a functioning church reappears under the Zagwe kings, it already has monasteries, a Ge'ez liturgy and its own saints.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same Zagwe link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Same Zagwe link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "'On into the Ethiopian Orthodox Tewahedo Church of today' is carried at its first step by the Zagwe link, as the era-2 pass did for Aksum; the modern entry is seven entries on, not a direct link."
+  },
+  {
+   "movement": "post-aksumite-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "The link with Alexandria that these centuries kept alive held until 1959, when the Ethiopian church finally received a patriarch of its own.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The 1959 patriarchate belongs to the modern Ethiopian and Eritrean entry (era 10), as the era-2 pass ruled for the same claim in the Aksum legacy. Not in any vendored text; the want is repeated."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The Bagratid revival: catholicosate at Ani by 992, cathedral finished 1001, Gregory of Narek (c. 950-1003); absorbs the story of Caucasian Albania's catholicosate after 705; ends with the fall of Ani (1045)",
+   "other_id": "church-of-caucasian-albania",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The 705 subordination falls in the window of the 554-884 Armenian entry (armenian-christianity-before-the-bagratids, a stub), not this one, and the Albanian entry's own summary names it. No link drafted; escalated as a census-structure question. Checked: Ormanian (1912) says catholicos Eghia (703-717) kept Caspian Albania in the Armenian communion and replaced its patriarch (lines 2899-2906), and that the Albanian see lasted until the nineteenth century (lines 6150-6154)."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "longDescription",
+   "sentence": "After two centuries under Arab governors, an Armenian kingdom was restored under the Bagratid dynasty in the 880s, and with it came a burst of church building and writing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Arab rule has no entry. Left as written."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "longDescription",
+   "sentence": "Trdat was regarded well enough that he was called to Constantinople to rebuild the dome of Hagia Sophia after an earthquake brought it down.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No vendored or repo-read text records Trdat's work on Hagia Sophia. Its source, Stephen of Taron (Asoghik), is named in the census's own story sources but not vendored; Chamich (1827) names Trdat only as the architect at Argina and Ani (lines 4677, 4792). Rewritten to 'may also have been called', and wanted. No link drafted."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "longDescription",
+   "sentence": "The kingdom ended in 1045, when Byzantium annexed Ani; the Seljuk Turks took the city twenty years after that.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The annexation was the emperor's act, not the Macedonian church's, so no church link. Checked: Dulaurier (1869) gives the dispossession of Gagik II by Monomachus and Alp Arslan's capture of Ani in 1064 (RHC lines 4922-4925). 'Twenty years after that' is replaced with 'in 1064', the date that source gives."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "longDescription",
+   "sentence": "The kingdom ended in 1045, when Byzantium annexed Ani; the Seljuk Turks took the city twenty years after that.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Seljuks have no entry; same check (Dulaurier, line 4925)."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "why",
+   "sentence": "After two centuries under Arab governors, an Armenian kingdom restored under the Bagratid dynasty in the 880s built the cathedral at Ani, finished in 1001 by the architect Trdat, who was later summoned to Constantinople to rebuild the fallen dome of Hagia Sophia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Arab rule has no entry. Left as written in substance."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "why",
+   "sentence": "After two centuries under Arab governors, an Armenian kingdom restored under the Bagratid dynasty in the 880s built the cathedral at Ani, finished in 1001 by the architect Trdat, who was later summoned to Constantinople to rebuild the fallen dome of Hagia Sophia.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same as the longDescription. 'Later summoned' was also out of order: the census's own Ani cathedral date (1001) falls after the Hagia Sophia repair it was set against. Rewritten with 'may' and no 'later'."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "legacy",
+   "sentence": "The church itself continued: the same institution carried on into the Armenian kingdom of Cilicia and runs unbroken to the Armenian Apostolic Church of today.",
+   "other_id": "armenian-cilicia",
+   "disposition": "link",
+   "link_id": "bagratid-armenian-christianity--armenian-cilicia",
+   "prose_change": null,
+   "reason": "New Documented link: Matthew of Edessa on Khatchig (d. 1065) and on Basil as catholicos of Armenia in the early 1100s."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "legacy",
+   "sentence": "The church itself continued: the same institution carried on into the Armenian kingdom of Cilicia and runs unbroken to the Armenian Apostolic Church of today.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Armenian Apostolic Church of today has no modern entry in this lane yet; carried at its first step by the Cilicia link."
+  },
+  {
+   "movement": "bagratid-armenian-christianity",
+   "field": "legacy",
+   "sentence": "It is still printed and prayed, and in 2015 Pope Francis declared him a Doctor of the Church, an unusual honor for a figure outside the Catholic communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the 2015 declaration. Not in a vendored text; the census's own story sources cite Papazian, The Doctor of Mercy (2019), 'on the 2015 declaration' (named, not read). Left as written."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "relationsSummary",
+   "sentence": "Grigol Khandzteli rebuilt Georgian monasticism from Khandzta starting around 782, and Georgian monks founded Iviron on Mount Athos between 980 and 983.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "prose_change": null,
+   "reason": "New Dominant Modern Reconstruction link (Brosset 1849); the founding texts are not vendored."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "relationsSummary",
+   "sentence": "This revival leads directly into the Georgian Golden Age that follows it.",
+   "other_id": "the-georgian-golden-age",
+   "disposition": "link",
+   "link_id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "prose_change": null,
+   "reason": "New Dominant Modern Reconstruction link (Brosset 1849)."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "longDescription",
+   "sentence": "After the Arab conquests reduced the old Georgian kingdoms to a handful of mountain principalities, the rebuilding of Georgian Christian life happened in the highland province of Tao-Klarjeti, where a monk named Grigol founded the monastery of Khandzta around 782 and, over a very long life, seeded a whole district with monasteries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Arab rule has no entry. The sentence is split for length in the rewritten paragraph; its content is unchanged."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "longDescription",
+   "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Palestine, Sinai and Antioch have no entries in this window. Brosset (1849) supports Georgian monks at Jerusalem, where the monastery of the Cross was begun under Bagrat III (lines 2968-2969). No vendored or repo-cited text puts them on Sinai or near Antioch; rewritten to 'probably', and wanted."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "longDescription",
+   "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "prose_change": 2,
+   "reason": "Iviron's founding and its Greek-to-Georgian translating are carried by the Athonite link (Brosset lines 2896-2897, 2965-2967). The inventory's separate 'Greek-language church' party is the language of the books, which were mostly older Greek writers, not the Macedonian church's own; no Macedonian link."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "longDescription",
+   "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Barlaam and Josaphat has no entry. Robinson (1893) supports its Indian origin in the Buddha legend and its spread into 'almost every known language' (aristides file lines 3944-3951), but ties the Greek to John of Damascus, not to a Georgian original. No vendored or repo-cited text makes it a Georgian retelling translated at Iviron; rewritten with 'may have', and wanted."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "why",
+   "sentence": "Georgian monks later carried the movement to Mount Athos, founding Iviron between 980 and 983 as a translation house that moved books between Greek and Georgian, including a story of Indian origin that passed through Georgian and Greek into most of the languages of Europe as Barlaam and Josaphat.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "prose_change": 3,
+   "reason": "Same Athonite link. Not in the inventory: the same sentence carries the Barlaam claim, qualified as in the longDescription; the paragraph is rewritten to score."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "legacy",
+   "sentence": "The same tradition runs straight on into the Georgian Golden Age of the following centuries and into the Georgian Orthodox Church of today.",
+   "other_id": "the-georgian-golden-age",
+   "disposition": "link",
+   "link_id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "prose_change": null,
+   "reason": "Same Golden Age link."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "legacy",
+   "sentence": "The same tradition runs straight on into the Georgian Golden Age of the following centuries and into the Georgian Orthodox Church of today.",
+   "other_id": "the-georgian-orthodox-church-restored",
+   "disposition": "link",
+   "link_id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "prose_change": null,
+   "reason": "'Into the Georgian Orthodox Church of today' is carried at its first step by the Golden Age link; the 1917 entry is several entries on, not a direct link."
+  },
+  {
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "legacy",
+   "sentence": "Its most visible legacy is Iviron itself, still one of the twenty ruling monasteries of Mount Athos, and the body of translated literature its monks produced, which gave the Georgian church a full library in its own language.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "prose_change": null,
+   "reason": "Same Athonite link. Curzon (1849) describes Iveron as 'the Georgian, or Iberian, Monastery' and its library (lines 9205-9229); 'one of the twenty ruling monasteries' today is a present-day fact with no vendored source, left as written."
+  }
+ ],
+ "links": [
+  {
+   "id": "desert-monasticism--coptic-christianity-under-early-islam",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "coptic-christianity-under-early-islam",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "desert-monasticism legacy and relationsSummary (monastic life across the Christian world); not named in the Coptic entry's own text",
+   "wants": [],
+   "drafter_flags": [
+    "Not named in the Coptic entry's own text; its note is self-standing."
+   ],
+   "change_reason": "Keep. Quote rechecked against the Budge 1913 file at lines 1210-1213 and it matches. The 1006 colophon falls inside the 642-1013 window."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "action": "keep",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "alexandria-catechetical",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "not named in the Coptic entry's own text; the note stands alone (the History of the Patriarchs, compiled in this window, on Origen and Dionysius)",
+   "wants": [],
+   "drafter_flags": [
+    "Not named in the Coptic entry's own text; its note is self-standing."
+   ],
+   "change_reason": "Keep. Both quotes rechecked against the Evetts 1904 file (lines 10035-10037 and 11708-11712) and they match, OCR 'lie' for 'he' kept as printed."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "coptic-christianity-under-early-islam",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Benjamin was made head of Egypt's miaphysite church before the Arab conquest. Then he spent years in hiding from the Byzantine rulers. When the Arabs took Alexandria he came back, went round all its churches and was told to lead his people again.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria (attrib. Severus ibn al-Muqaffa), Andronicus and Benjamin I, trans. Evetts",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "43228-43230",
+     "locus": "Pt. I, ch. XIV (Benjamin I, 622-661)",
+     "quote": "and so, when he went to his rest, they made the aforesaid Benjamin patriarch upon the evangelical throne.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Nikiu, Chronicle, ch. CXXI (trans. R. H. Charles, 1916)",
+     "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+     "lines": "12005-12008",
+     "locus": "Chron. CXXI.1",
+     "quote": "And Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans, and he went to the Churches, and inspected all of them.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "44689-44690",
+     "locus": "Pt. I, ch. XIV (Benjamin I)",
+     "quote": "Resume the government of all thv churches and of thy people, and administer their affairs.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "44829-44831",
+     "locus": "Pt. I, ch. XIV (Benjamin I)",
+     "quote": "Thus when this spiritual father, Benjamin the patriarch, sat among his people a second time, by the grace and mercy of Christ, the whole land of Egypt rejoiced over him;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "coptic-christianity-under-early-islam relationsSummary ('Continuation of Miaphysite Egypt'), longDescription and why (Benjamin restored to his see); cyrilline-miaphysite-egyptian-christianity continuesAs field and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "One patriarch, Benjamin I (622-661), holds the see on both sides of the 642 boundary, so the continuity is of the see itself.",
+    "OCR kept as printed: 'thv' for 'thy' (HP line 44690).",
+    "Era 3 has not been drafted; this pair is named in both entries' text. The merge should keep one copy if the era-3 pass drafts it too.",
+    "The note does not date Benjamin's return, because John of Nikiu gives 'the thirteenth year after his flight', not a year."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Coptic summary's 'Continuation of Miaphysite Egypt'.",
+   "fre_after": 70.3,
+   "fk_after": 7.0
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--coptic-christianity-fatimid-to-mamluk",
+   "action": "new",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "coptic-christianity-fatimid-to-mamluk",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Abu Salih, writing in Egypt around 1200, counts the heads of the Coptic church in one numbered line. The sixty-fourth, Zacharias, lived through the persecution of the caliph al-Hakim. The sixty-sixth, Christodulus, led the church in 1065.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Abyssinia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14518-14521",
+     "locus": "fol. 106b-107a (Evetts p. 290)",
+     "quote": "The fathers and patriarchs used to write letters to the kings of Abyssinia and Nubia, twice in the year ; and the last of them who did so was Zacharias, the sixty-fourth patriarch ; for Al-Hakim forbad the practice, which ceased from that time until now.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "12743-12744",
+     "locus": "fol. 90b (monastery of Aba Nub)",
+     "quote": "the sixty-sixth in the succession, in the year 781 of the Righteous Martyrs (a.d. 1065-6).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "11822",
+     "locus": "Evetts 1895, the Wadi Natrun section",
+     "quote": "The biography of Anba Christodulus, the sixty-sixth patriarch,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "coptic-christianity-under-early-islam continuesAs field and legacy ('Its institutions continued unbroken into the Fatimid and Mamluk centuries')",
+   "wants": [],
+   "drafter_flags": [
+    "The second quote's sentence begins 'during the patriarchate of Christo- dulus' on the line before (12742), with a hyphen break the validator does not join; the quote starts after the name, so Christodulus is named in the third quote instead.",
+    "Abu Salih writes c. 1200, under the Ayyubids, after both windows. The numbered succession (64th Zacharias under al-Hakim, 66th Christodulus in 1065) is what carries the continuity.",
+    "The Coptic window ends 1013 and the Fatimid-to-Mamluk window starts c. 1054; the gap is the census's own, not a break in the see."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the legacy's 'continued unbroken into the Fatimid and Mamluk centuries' at its first step.",
+   "fre_after": 62.6,
+   "fk_after": 7.7
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "action": "new",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "makurian-nubian-christianity",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. A Coptic history of the 700s says the patriarch in Egypt ordained the chief bishop of Makuria. Coptic monks and Coptic books were common in Nubia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I (Kha'il), trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7181-7183",
+     "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
+     "quote": "and he has in his country an orthodox bishop whom the patriarch ordains as metropolitan, and who ordains for the king tlie bishops and the priests in that land.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7139-7141",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "He was the orthodox Ethiopian king of Al-Mukurrah;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4441-4442",
+     "quote": "The Old Nubian alphabet is essentially the Coptic’ reinforced by a few extra letters (for the peculiar sounds of the language)",
+     "locus": "Griffith 1913, 'The alphabet'",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4431-4432",
+     "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,",
+     "locus": "Griffith 1913, introduction",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "makurian-nubian-christianity longDescription and why ('an alphabet adapted from Coptic')",
+   "wants": [
+    "Old Nubian texts in an edition whose own letters are quotable (the vendored Griffith OCR garbles the Old Nubian), to show the Coptic letters from the texts themselves"
+   ],
+   "drafter_flags": [
+    "The 'he' of the first quote is Cyriacus, king of Al-Mukurrah (Makuria), as the second quote shows. HP calls him an 'Ethiopian' king, meaning a black African king.",
+    "OCR kept as printed: 'tlie' for 'the' (line 7182); the curly ’ after 'Coptic' in Griffith line 4441 is a footnote mark in the OCR.",
+    "The script claim rests on Griffith (1913), who is the editor; the primary text shows the patriarch's authority, not the alphabet. Graded Widely Accepted for that reason. A reviewer may hold that the HP passage alone documents 'influenced' (an institution passed on) and lift it.",
+    "Griffith says Coptic monks and books abounded in Nubia, in a clause after a hyphen break ('there- after'); the note's last sentence rests on that clause, which is not quoted."
+   ],
+   "change_reason": "New: carries the Makurian text's 'alphabet adapted from Coptic', with the church tie that brought it.",
+   "fre_after": 63.7,
+   "fk_after": 7.9
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "action": "new",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "post-aksumite-ethiopian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Around 687 the Coptic patriarch Isaac wrote to the king of the Abyssinians, urging peace with Nubia. Abu Salih says the patriarchs wrote to the kings of Abyssinia twice a year. The last to do so was Zacharias, until the caliph al-Hakim forbade it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Isaac (686-689), trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "1412-1413",
+     "locus": "Pt. I, ch. XVI (Isaac, 41st patriarch)",
+     "quote": "In those days the patriarch addressed letters to the king of the Abys- sinians and the king of the Nubians, bidding them make peace together",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Abyssinia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14518-14521",
+     "locus": "fol. 106b-107a (Evetts p. 290)",
+     "quote": "The fathers and patriarchs used to write letters to the kings of Abyssinia and Nubia, twice in the year ; and the last of them who did so was Zacharias, the sixty-fourth patriarch ; for Al-Hakim forbad the practice, which ceased from that time until now.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7179-7181",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "for the patriarch of the Jacobites in Egvpt exercises authority over him, and over all the kings of the Abyssi- nians and the Nubians;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "post-aksumite-ethiopian-christianity relationsSummary, longDescription and why ('receiving its chief bishop from the Coptic patriarch in Alexandria')",
+   "wants": [
+    "History of the Patriarchs, Part II (Evetts's later volumes, or the Atiya-Abd al-Masih-Burmester edition), for the ninth- to eleventh-century patriarchs' dealings with Ethiopia, including the bishops they sent"
+   ],
+   "drafter_flags": [
+    "The text claims more than contact: the Ethiopian church received its bishops from Alexandria. The six types have no 'depended on'; 'in contact with' is the strongest type the vendored letters show for this window. A reviewer may prefer 'influenced'.",
+    "No vendored text inside 642-1013 names a bishop sent to Ethiopia; the Michael I passage gives the patriarch's authority over the kings, and the metropolitan it describes is Nubia's. Abu Salih's metropolitan for Abyssinia is described c. 1200 (used on the Zagwe link).",
+    "Two quotes keep a hyphen break as printed ('Abys- sinians', 'Abyssi- nians'), because the validator does not join hyphen breaks. OCR 'Egvpt' kept.",
+    "Zacharias (64th) sat c. 1004-1032, so the last letters fall at the very end of the window."
+   ],
+   "change_reason": "New: carries the Ethiopian entry's 'continuing to receive its bishops from the Coptic patriarchate', at the level the vendored letters support.",
+   "fre_after": 67.0,
+   "fk_after": 7.6
+  },
+  {
+   "id": "makurian-nubian-christianity--terminal-christian-nubia",
+   "action": "new",
+   "from": "makurian-nubian-christianity",
+   "to": "terminal-christian-nubia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Abu Salih, writing in Egypt around 1200, calls Dongola the seat of the Nubian king, a city with many churches. He says King Raphael built its domed palace in 1002. He also tells of a later king, Solomon, who gave up his throne and died in Egypt after 1078.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Nubia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "13331-13333",
+     "locus": "fol. 95b-96a (Evetts p. 264)",
+     "quote": "Here is the throne of the king. It is a large city on the banks of the blessed Nile, and contains many churches and large houses and wide streets.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Nubia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "13335-13336",
+     "locus": "fol. 95b-96a (Evetts p. 264)",
+     "quote": "and this novelty was introduced by Raphael, who was king of Nubia in the year 392 of the Arabs (a. d. 1002).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Nubia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "13597-13598",
+     "locus": "fol. 98a (Evetts p. 270)",
+     "quote": "Solomon, king of Nubia, spent his time in worshipping God at this church^, after he had abdicated.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Nubia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "13649-13651",
+     "locus": "fol. 98b (Evetts p. 271)",
+     "quote": "and was buried in the monastery of Saint George at Al-Khandak\\ in the patriarchate of Cyril, the sixty-seventh patriarch.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "B. T. A. Evetts and A. J. Butler, notes to Abu Salih, Churches and Monasteries of Egypt (Oxford, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "7477",
+     "quote": "The sixty-seventh patriarch; occupied the see from a. d. 1078 to 1092;",
+     "locus": "Evetts 1895, note to fol. 46a",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "makurian-nubian-christianity legacy ('Christian Nubia lasted ... into the fifteenth century in places'); terminal-christian-nubia longDescription ('Makuria fragmented after that')",
+   "wants": [],
+   "drafter_flags": [
+    "Makuria has no continuesAs field; this link is drafted because its legacy names the later Nubia. The merge may want a continuesAs added (census-structure, for the owner).",
+    "Abu Salih is an Egyptian outside witness; 'Nubia' with its throne at Dongola is Makuria. His present-tense Dongola passage may draw on older reports, so the later side rests mainly on Solomon (abdicated, died in Cyril's patriarchate, 1078-1092).",
+    "OCR marks kept as printed: '^' after 'church' (13598), '\\' after 'Al-Khandak' (13649). Line 13650 is blank inside the span.",
+    "The note's 'after 1078' is Butler's date for Cyril's patriarchate, a secondary note."
+   ],
+   "change_reason": "New: carries the Makurian legacy's claim that Christian Nubia lasted long after this window, at its first step.",
+   "fre_after": 69.9,
+   "fk_after": 7.3
+  },
+  {
+   "id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "action": "new",
+   "from": "aksumite-christianity",
+   "to": "post-aksumite-ethiopian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the sixth century Procopius calls the king of the Aethiopians a devout Christian. Around 687 the Coptic patriarch Isaac wrote to the king of the Abyssinians. In the mid-700s a Coptic history puts all the kings of the Abyssinians under the patriarch in Egypt.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
+     "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
+     "lines": "2586-2588",
+     "locus": "Wars I.20",
+     "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Isaac (686-689), trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "1412-1413",
+     "locus": "Pt. I, ch. XVI (Isaac, 41st patriarch)",
+     "quote": "In those days the patriarch addressed letters to the king of the Abys- sinians and the king of the Nubians, bidding them make peace together",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7179-7181",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "for the patriarch of the Jacobites in Egvpt exercises authority over him, and over all the kings of the Abyssi- nians and the Nubians;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "post-aksumite-ethiopian-christianity relationsSummary ('between Aksum's decline and the rise of the Zagwe dynasty'), longDescription and why; aksumite-christianity continuesAs field and relationsSummary ('parent of the later medieval Ethiopian church')",
+   "wants": [
+    "Any dated text naming a bishop of Aksum or Ethiopia between 615 and 900, to show the see itself on the later side"
+   ],
+   "drafter_flags": [
+    "As with the era-2 Aksum link, the see is shown only by its tie to Alexandria: a Christian king before 615 (Procopius), and kings the patriarch writes to and claims authority over after (HP, 686-689 and c. 750). If the reviewer holds 'continued as' to see continuity on both sides, this should drop to Widely Accepted, and no repo-cited secondary for this stretch was found.",
+    "Hyphen breaks kept as printed ('Abys- sinians', 'Abyssi- nians'); OCR 'Egvpt' kept.",
+    "Era 3 has not been drafted; the merge should keep one copy if the era-3 pass drafts it too."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the summary's 'between Aksum's decline and the rise of the Zagwe dynasty'.",
+   "fre_after": 61.9,
+   "fk_after": 8.4
+  },
+  {
+   "id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "action": "new",
+   "from": "post-aksumite-ethiopian-christianity",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Abu Salih wrote in Egypt around 1200. He says the head of the Abyssinian church is still sent from Alexandria. He also tells how an earlier patriarch had that bishop stop the kings taking more than one wife. His editor dates this to about 1086.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Abyssinia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105b (Evetts p. 285)",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Abyssinia section (trans. Evetts, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14528-14530",
+     "locus": "fol. 106b (Evetts p. 290)",
+     "quote": "This continued until the patriarchate of Anba Sinuthius, the sixty-seventh patriarch ^ ; who commanded the metro- politan to bring them back from this mode of life",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. J. Butler, note to Abu Salih, Churches and Monasteries of Egypt (Oxford, 1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14546-14549",
+     "quote": "The sixty-seventh patriarch was Cyril (see above, fol. 44 b, &c.), who ordained Severus metropolitan of Abyssinia; and it was this Severus who by exhortation and threats put down polygamy.",
+     "locus": "Evetts 1895, p. 290 note 3",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "post-aksumite-ethiopian-christianity continuesAs field, relationsSummary, longDescription, why and legacy ('continues directly into the Zagwe period'); zagwe-and-early-solomonic-ethiopian-christianity relationsSummary ('formal dependence on the Coptic patriarchate')",
+   "wants": [],
+   "drafter_flags": [
+    "Abu Salih names Sinuthius as the reforming patriarch; Butler corrects this to Cyril (1078-1092), who sent Severus. The note follows Butler, and says so.",
+    "The 'about 1086' date is Butler's (line 14549), not Abu Salih's.",
+    "The second quote keeps the hyphen break 'metro- politan' as printed, because the validator does not join hyphen breaks; 'this mode of life' is the kings' polygamy, named in the sentence before (line 14527). The '^' footnote marks are kept as printed.",
+    "Abu Salih (c. 1200) writes in the Zagwe period but does not name the dynasty."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the legacy's 'continues directly into the Zagwe period'. Also the first step of 'on into the Ethiopian Orthodox Tewahedo Church of today'.",
+   "fre_after": 73.9,
+   "fk_after": 5.6
+  },
+  {
+   "id": "bagratid-armenian-christianity--armenian-cilicia",
+   "action": "new",
+   "from": "bagratid-armenian-christianity",
+   "to": "armenian-cilicia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Matthew of Edessa says Khatchig, head of the Armenian church, died in exile in 1065. He grieved for the lost crown of the Bagratid kings and for the high office handed down from Saint Gregory. Later Matthew shows Basil in that same office, leaving Ani with his bishops in the early 1100s.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), quoted in French by É. Dulaurier, introduction to Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4932-4933",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "« Cette même année (1065), dit-il, mourut l'éminent catholicos Khatchig, après avoir siégé six-ans en pays étranger.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), in Dulaurier's French, RHC Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4941-4943",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "la couronne arrachée à la dynastie des Bagratides, le royaume assujetti aux Grecs perfides, le suprême pontificat, héritage de saint Grégoire lHuminateur, dégradé par la pauvreté.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle, part III, ch. XXX (trans. Dulaurier, RHC Documents arméniens I, 1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "16873-16874",
+     "locus": "Matthew of Edessa III.30 (RHC p. 70)",
+     "quote": "Cette même année, le catholicos d'Arménie, le seigneur Basile, étant parti de la ville d'Ani, escorté de tous ses serviteurs, de nobles, d'évêques",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Édouard Dulaurier, introduction to Recueil des historiens des croisades, Documents arméniens I (Paris, 1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4981-4982",
+     "quote": "Enfin, en 1147, Grégoire III dit le Bahlavouni ou le Parthe, ayant acheté le château de Hrom-Gla de la veuve de Josselin le jeune,",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXV",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "bagratid-armenian-christianity continuesAs field and legacy ('the same institution carried on into the Armenian kingdom of Cilicia'); armenian-cilicia longDescription ('the Armenian church went with them')",
+   "wants": [
+    "Matthew of Edessa's complete Chronicle (Dulaurier's 1858 French, public domain), for the 1045 annexation and the catholicoi between Peter and Gregory III; the vendored RHC volume gives only extracts from 963 and 1096 on"
+   ],
+   "drafter_flags": [
+    "The first two quotes are Matthew's words as Dulaurier quotes them inside his own introduction, in French translation; they are primary words in a secondary frame.",
+    "OCR kept as printed: 'six-ans', 'lHuminateur' (for l'Illuminateur), and the opening guillemet.",
+    "The Basil chapter falls around 1103 (Bohemond's ransom, per the editor's note on the same page); Basil's dates as catholicos are not in a vendored text, so the note says 'the early 1100s'.",
+    "Dulaurier dates the move to Hromkla 1147; the Cilicia entry says 1151. That is for the Cilicia entry's owner."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the legacy's 'carried on into the Armenian kingdom of Cilicia'. Also the first step of 'runs unbroken to the Armenian Apostolic Church of today'.",
+   "fre_after": 66.8,
+   "fk_after": 8.2
+  },
+  {
+   "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "action": "new",
+   "from": "georgian-revival-tao-klarjeti",
+   "to": "the-georgian-golden-age",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The historian Marie-Félicité Brosset, writing in 1849, tells how David, the ruler of Tao, adopted the young Bagrat. By 1008 Bagrat ruled a single Georgian kingdom. Brosset also shows the head of the Georgian church passing from Suimon to Melkisedek in Bagrat's reign.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (St Petersburg, 1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2914-2915",
+     "quote": "Comme il avait adopté déjà le jeune Bagrat et voulait en faire l'héritier de ses domaines,",
+     "locus": "Brosset 1849, Introduction, p. LIX",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2918-2921",
+     "quote": "la mort de Bagrat-le-Sot, en 994, suivie de celle de son père Gourgen, en 1008, et de l'extinction des derniers rejetons de la race bagratide, le laissa seul maître du royaume uni aphkhazo-karthle.",
+     "locus": "Brosset 1849, Introduction, p. LIX",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2587-2588",
+     "quote": "Suimon, mort sous le roi ttagral 111, donc avant l'an 1014, et remplacé par Melkisadec;",
+     "locus": "Brosset 1849, Introduction, list of catholicoi",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "georgian-revival-tao-klarjeti continuesAs field, relationsSummary ('leads directly into the Georgian Golden Age') and legacy ('runs straight on into the Georgian Golden Age')",
+   "wants": [
+    "The Georgian Annals themselves (Kartlis Tskhovreba) in a vendored translation: the vendored Brosset file holds only his introduction, charters and index, not the chronicle text",
+    "Giorgi Merchule, Life of Grigol of Khandzta, in a vendored edition (Lang 1956 is in copyright; named in the census's own story sources)",
+    "Stephen H. Rapp Jr., Studies in Medieval Georgian Historiography (2003), named in the census's own story sources, read and cited by page"
+   ],
+   "drafter_flags": [
+    "Every source here is Brosset's 1849 introduction, a secondary work; no primary text for either side is vendored. Graded Dominant Modern Reconstruction for that reason, though the continuity itself is not in dispute.",
+    "The third quote keeps OCR 'ttagral 111' for 'Bagrat III'. The first quote ends before a hyphen break ('ap- prouva').",
+    "The Golden Age entry's own summary says it restores 'a tradition silent since 622', which sits oddly with a revival running to 1000. Flagged for the era-5 owner, not changed."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link. Also the first step of 'into the Georgian Orthodox Church of today'.",
+   "fre_after": 60.5,
+   "fk_after": 8.4
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "georgian-revival-tao-klarjeti",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Georgian monks founded the monastery of Iviron on Mount Athos in the late 900s. Brosset, a historian writing in 1849, dates the founding to about 976. He says its scholars put the holy books and the best Greek theology into Georgian.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (St Petersburg, 1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2896-2898",
+     "quote": "enfin l'histoire de S. Ewthym et celle de la fondation du couvent Ibérien du mont Athos, vers l'an 976, nous servent de points de repère;",
+     "locus": "Brosset 1849, Introduction, p. LVIII",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2965",
+     "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa-",
+     "locus": "Brosset 1849, Introduction, p. LX",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct",
+   "named_in_text": "georgian-revival-tao-klarjeti relationsSummary, longDescription, why and legacy (Iviron founded on Mount Athos, 980-983)",
+   "wants": [
+    "George the Hagiorite, Life of John and Euthymius, and Actes d'Iviron I (Lefort et al., 1985), both named in the census's own story sources, in a vendored or read edition, to document the founding from Iviron's own side",
+    "Tamara Grdzelidze, Georgian Monks on Mount Athos (2009), named in the census's own story sources, read and cited by page"
+   ],
+   "drafter_flags": [
+    "Type: a Georgian house founded on Athos is more than contact but is not Athonite monasticism 'arising' from Georgia; 'in contact with' is the conservative choice. The reviewer may prefer another.",
+    "Brosset dates the founding 'vers l'an 976'; the census says 980-983. Not changed; the note gives Brosset's date as his.",
+    "The second quote ends on a hyphen break ('sa- vants'), kept as printed; the scholars and translations in the note come from the next line (2966), which is not quoted. OCR 'Atbos' kept.",
+    "Specificity B: both quotes are the editor's summary, not the founding text."
+   ],
+   "change_reason": "New: carries the Georgian text's Iviron founding and its translation work, the movement's main tie to the Athonite houses.",
+   "fre_after": 63.5,
+   "fk_after": 7.6
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "bagratid-armenian-christianity",
+   "field": "longDescription",
+   "old": "After two centuries under Arab governors, an Armenian kingdom was restored under the Bagratid dynasty in the 880s, and with it came a burst of church building and writing. The catholicos — the head of the Armenian church — moved his seat to the royal capital of Ani, whose cathedral, finished around 1001 by the architect Trdat, still stands roofless on the plain. Trdat was regarded well enough that he was called to Constantinople to rebuild the dome of Hagia Sophia after an earthquake brought it down. The period's greatest voice, though, was not an architect but a monk. Gregory of Narek wrote a long sequence of prayers, the Book of Lamentations, of such raw self-accusation and longing that Armenians for a thousand years afterwards kept a copy in the house and read it over the sick. The kingdom ended in 1045, when Byzantium annexed Ani; the Seljuk Turks took the city twenty years after that.",
+   "new": "After two centuries under Arab governors, an Armenian kingdom was restored under the Bagratid dynasty in the 880s. With it came a burst of church building and writing. The catholicos, the head of the Armenian church, moved his seat to the royal capital of Ani. Its cathedral, finished around 1001 by the architect Trdat, still stands roofless on the plain. Trdat may also have been called to Constantinople to rebuild the dome of Hagia Sophia after an earthquake brought it down. The period's greatest voice, though, was not an architect but a monk. Gregory of Narek wrote a long sequence of prayers, the Book of Lamentations. Its self-accusation and longing are so raw that for a thousand years Armenians kept a copy in the house and read it over the sick. The kingdom ended in 1045, when Byzantium annexed Ani. The Seljuk Turks took the city in 1064.",
+   "reason": "No vendored text records Trdat's work on Hagia Sophia; its source, Stephen of Taron, is not vendored, so the claim becomes 'may also have been called'. 'Twenty years after that' becomes 'in 1064', the year Dulaurier gives for Alp Arslan's capture of Ani (RHC lines 4924-4925). The rest of the paragraph is unchanged in substance, split into shorter sentences so it scores.",
+   "fre_after": 63.4,
+   "fk_after": 8.0
+  },
+  {
+   "n": 1,
+   "movement": "bagratid-armenian-christianity",
+   "field": "why",
+   "old": "After two centuries under Arab governors, an Armenian kingdom restored under the Bagratid dynasty in the 880s built the cathedral at Ani, finished in 1001 by the architect Trdat, who was later summoned to Constantinople to rebuild the fallen dome of Hagia Sophia. Its greatest voice was the monk Gregory of Narek, whose Book of Lamentations, a sequence of raw, self-accusing prayers, was kept in Armenian homes and read over the sick for a thousand years afterward.",
+   "new": "After two centuries under Arab governors, an Armenian kingdom rose again under the Bagratid kings in the 880s. It built the cathedral at Ani, finished in 1001 by the architect Trdat. Trdat may also have rebuilt the dome of Hagia Sophia in Constantinople after it fell. The kingdom's greatest voice was the monk Gregory of Narek. His Book of Lamentations is a sequence of raw, self-accusing prayers. For a thousand years Armenians kept it in their homes and read it over the sick.",
+   "reason": "Same Trdat qualification. 'Later summoned' set the Hagia Sophia work after the cathedral's completion in 1001, which no source supports; 'later' is dropped. Split into shorter sentences so it scores.",
+   "fre_after": 61.3,
+   "fk_after": 8.1
+  },
+  {
+   "n": 2,
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "longDescription",
+   "old": "After the Arab conquests reduced the old Georgian kingdoms to a handful of mountain principalities, the rebuilding of Georgian Christian life happened in the highland province of Tao-Klarjeti, where a monk named Grigol founded the monastery of Khandzta around 782 and, over a very long life, seeded a whole district with monasteries. What makes him unusual for a figure of this period is that we can hear about him from inside. A Georgian monk called Giorgi Merchule wrote his life in 951, and it contains the famous sentence defining Georgia itself as the land where the liturgy is celebrated in the Georgian tongue. The movement also went abroad. Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+   "new": "The Arab conquests reduced the old Georgian kingdoms to a handful of mountain principalities. Georgian Christian life was then rebuilt in the highland province of Tao-Klarjeti. There a monk named Grigol founded the monastery of Khandzta around 782. Over a very long life he seeded a whole district with monasteries. What makes him unusual for this period is that we can hear about him from inside. A Georgian monk called Giorgi Merchule wrote his life in 951. It contains the famous sentence that defines Georgia itself as the land where the liturgy is celebrated in the Georgian tongue. The movement also went abroad. Georgian monks lived in Palestine, and probably on Sinai and near Antioch too. Between 980 and 983 they founded Iviron on Mount Athos, a house that turned Greek books into Georgian. It may have worked the other way as well. A Christian retelling of a story from India, the life of the Buddha, may have passed from Georgian into Greek there. As Barlaam and Josaphat, it went on into most of the languages of Europe.",
+   "reason": "Three claims qualified: Sinai and Antioch ('probably'), the Georgian-to-Greek direction of Iviron's translating, and Barlaam and Josaphat as a Georgian retelling ('may have'). Brosset (1849) supports Georgian monks at Jerusalem and Iviron's Greek-to-Georgian work; Robinson (1893) supports the story's Indian origin and its spread, but not a Georgian original. 'The life of the Buddha' is Robinson's identification. The rest is unchanged in substance, split so it scores.",
+   "fre_after": 61.7,
+   "fk_after": 8.0
+  },
+  {
+   "n": 3,
+   "movement": "georgian-revival-tao-klarjeti",
+   "field": "why",
+   "old": "After the Arab conquests reduced the Georgian kingdoms to mountain principalities, a monk named Grigol founded the monastery of Khandzta around 782 and seeded the whole district with monasteries — work we can see from inside because his biographer, Giorgi Merchule, wrote in 951 that Georgia was, above all, the land where the liturgy was sung in the Georgian tongue. Georgian monks later carried the movement to Mount Athos, founding Iviron between 980 and 983 as a translation house that moved books between Greek and Georgian, including a story of Indian origin that passed through Georgian and Greek into most of the languages of Europe as Barlaam and Josaphat.",
+   "new": "The Arab conquests left the Georgian kingdoms as a few small mountain states. Then, around 782, a monk named Grigol founded the monastery of Khandzta and seeded the whole district with monasteries. We can see this work from inside, because his biographer, Giorgi Merchule, wrote about it in 951. Georgia, he wrote, was above all the land where the liturgy was sung in the Georgian tongue. Georgian monks later took the movement to Mount Athos. Between 980 and 983 they founded Iviron there, a house that turned Greek books into Georgian. Its monks may also have carried a story from India out of Georgian into Greek. As Barlaam and Josaphat, it passed into most of the languages of Europe.",
+   "reason": "Same Barlaam qualification; Iviron is described as turning Greek books into Georgian, which Brosset supports. Split into shorter sentences so it scores.",
+   "fre_after": 64.2,
+   "fk_after": 7.9
+  }
+ ],
+ "wants": [
+  "A source for the Ethiopian church's own patriarchate in 1959 (repeated from the era-2 wants), if the post-Aksumite legacy's closing sentence is to stay sourced",
+  "A vendored text or repo-cited study on the Georgian Balavariani and Euthymius of Athos as the source of the Greek Barlaam and Josaphat, to lift the 'may have'",
+  "A vendored text placing Georgian monks on Sinai and at the Black Mountain near Antioch before 1000",
+  "Any dated text naming a bishop of Aksum or Ethiopia between 615 and 900, to show the see itself on the later side of the Aksum split",
+  "George the Hagiorite, Life of John and Euthymius, and Actes d'Iviron I (Lefort et al., 1985), both named in the census's own story sources, in a vendored or read edition, to document Iviron's founding from its own side",
+  "Giorgi Merchule, Life of Grigol of Khandzta, in a vendored edition (Lang 1956 is in copyright; named in the census's own story sources)",
+  "History of the Patriarchs, Part II (Evetts's later volumes, or the Atiya-Abd al-Masih-Burmester edition), for the ninth- to eleventh-century patriarchs' dealings with Ethiopia and Nubia, including the bishops they sent",
+  "Matthew of Edessa's complete Chronicle (Dulaurier's 1858 French, public domain), for the 1045 annexation and the catholicoi between Peter and Gregory III; the vendored RHC volume gives only extracts",
+  "Old Nubian texts in an edition whose own letters are quotable (the vendored Griffith OCR garbles the Old Nubian), to show the Coptic letters from the texts themselves",
+  "Stephen H. Rapp Jr., Studies in Medieval Georgian Historiography (2003), named in the census's own story sources, read and cited by page",
+  "Stephen of Taron (Asoghik), Universal History III, in a vendored edition (Dulaurier's 1883 French or Macler's 1917 French, both public domain; Greenwood 2017 is named in the census's own story sources), for Trdat's repair of the dome of Hagia Sophia",
+  "Tamara Grdzelidze, Georgian Monks on Mount Athos (2009), named in the census's own story sources, read and cited by page",
+  "The Georgian Annals themselves (Kartlis Tskhovreba) in a vendored translation: the vendored Brosset file holds only his introduction, charters and index, not the chronicle text"
+ ],
+ "escalations": [
+  "Census structure (Armenia): the 554-884 entry armenian-christianity-before-the-bagratids is a one-line stub with no continuesAs, while armenian-christianity-after-avarayr's continuesAs points past it to the Bagratid entry. The Bagratid summary says it 'absorbs the story of Caucasian Albania's catholicosate after 705', but 705 falls in the stub's window, and Ormanian (1912, lines 2899-2906 and 6150-6154) shows the Albanian see living on under the Armenian catholicos until the nineteenth century. Which entry should carry Albania's post-705 story, and should it be a 'continued as' link at all? No Albania link drafted; the summary's cataloguing phrase 'absorbs the story of' is left until the ruling.",
+  "For the era-5 owner, not changed: the Georgian Golden Age summary says it restores 'a tradition silent since 622', which conflicts with the revival entry's monasteries and Iviron running to 1000 and the new 'continued as' link between them.",
+  "For the merge, not a stop: two cross-era continuity links drafted here (Miaphysite Egypt into Coptic Egypt, Aksum into post-Aksumite Ethiopia) will also be drafted by the era-3 pass from the other side; keep one copy. Makuria has no continuesAs field, though its legacy and the terminal entry treat Nubia as one continuing kingdom."
+ ]
+}
