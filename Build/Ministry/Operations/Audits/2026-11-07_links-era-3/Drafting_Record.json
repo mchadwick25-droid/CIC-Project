@@ -977,9 +977,9 @@
    "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
    "other_id": "persian-church-of-the-east-early",
    "disposition": "out-of-scope",
-   "link_id": null,
+   "link_id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
    "prose_change": null,
-   "reason": "era 2 owns it",
+   "reason": "era 2 owns it Linked by era 2 (data release 6): persian-church-of-the-east-early--the-church-of-the-east-under-persia.",
    "group": "B"
   },
   {
@@ -1043,9 +1043,9 @@
    "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
    "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
    "disposition": "out-of-scope",
-   "link_id": null,
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
    "prose_change": null,
-   "reason": "era 2 owns it",
+   "reason": "era 2 owns it Linked by era 2 (data release 6): antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia.",
    "group": "B"
   },
   {
@@ -1098,9 +1098,9 @@
    "sentence": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor.",
    "other_id": "persian-church-of-the-east-early",
    "disposition": "out-of-scope",
-   "link_id": null,
+   "link_id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
    "prose_change": null,
-   "reason": "era 2 owns it",
+   "reason": "era 2 owns it Linked by era 2 (data release 6): persian-church-of-the-east-early--the-church-of-the-east-under-persia.",
    "group": "B"
   },
   {
@@ -2663,9 +2663,9 @@
    "sentence": "Descended from Ulfila's missionary church, this tradition covers the churches of the post-Roman barbarian kingdoms, including the Lombard Arian church that lasted from 568 to about 680.",
    "other_id": "homoian-arian-christianity",
    "disposition": "out-of-scope",
-   "link_id": null,
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
    "prose_change": null,
-   "reason": "Era 2 owns it: the Homoian movement's own text names Ulfila's Gothic mission. Note for era 2: no link of any kind yet joins homoian-arian-christianity to this movement.",
+   "reason": "Era 2 owns it: the Homoian movement's own text names Ulfila's Gothic mission. Linked by era 2 (data release 6): homoian-arian-christianity--gothic-and-vandal-homoian-christianity.",
    "group": "D"
   },
   {
@@ -2674,9 +2674,9 @@
    "sentence": "Their tradition went back to Ulfila, the fourth-century missionary bishop who devised an alphabet for Gothic and translated most of the Bible into it, and it worked as a real church, with clergy, liturgy, scripture in the vernacular, and arguments of its own.",
    "other_id": "homoian-arian-christianity",
    "disposition": "out-of-scope",
-   "link_id": null,
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
    "prose_change": null,
-   "reason": "Era 2 owns it, as above.",
+   "reason": "Era 2 owns it, as above. Linked by era 2 (data release 6): homoian-arian-christianity--gothic-and-vandal-homoian-christianity.",
    "group": "D"
   },
   {
@@ -7562,7 +7562,6 @@
   "For Mark, A4: none of the six link types means 'in communion with'. The Aksum-Alexandria and Egypt-Syriac Orthodox cases show the need. Until he rules, they are held as 'in contact with' at the grade their evidence supports.",
   "For Mark, B1 and D1, as one ruling: present-day and monument facts with no vendored text are left standing. They are the Lenten reading of the Ladder, Dorotheus as standard reading, Mar Saba and Saint Catherine's still inhabited, Monte Cassino bombed in 1944, and the Ravenna buildings. The question is whether the qualify rule covers them.",
   "For Mark, C1: Caucasian Albania's end date (705) and the Bagratid summary ('absorbs ... after 705'). The year 705 is now gone from the Albanian prose (R1-12), but the dates field still reads 705.",
-  "Open_Gaps_Tracking, era 2: no link joins homoian-arian-christianity to gothic-and-vandal-homoian-christianity, although both texts say the second descends from the first (D2).",
   "Open_Gaps_Tracking, era 4: no continued-as link from insular-irish-monastic-christianity to medieval-irish-christianity (E2).",
   "Open_Gaps_Tracking: Sebeos's 'catholicos de Géorgie et d'Albanie' on Chalcedon's side c. 614 (C3). Wants: Thomson's Sebeos (1999).",
   "The anglo-saxon-christianity longDescription also names Whitby. That movement has no rows in this era's inventory, so whoever owns it should cite the new Whitby link in its disposition.",
