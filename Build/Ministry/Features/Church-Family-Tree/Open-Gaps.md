@@ -24,6 +24,9 @@ it, never by deleting it.
    - 2026-11-07: `roman-church-third-century` fixed in the era 1 links pass: its `why` and
      `legacy` no longer tie "the gravely lapsed" to Callistus. `aquileian-christianity` (era 2)
      is still open.
+   - 2026-11-07: `aquileian-christianity` fixed in the era 2 links pass. Its text no longer says
+     Ambrose presided at the Council of Aquileia (381), in the description or in its voices; the
+     Acts name Valerian of Aquileia first and show Ambrose leading the questioning. Closed.
 7. **Domain transfer to Cloudflare (2026-11-06).** `churchfamilytree.com` can move from
    Namecheap to Cloudflare Registrar from about 17 November 2026, after the 60-day lock.
    Pointing its nameservers at Cloudflare can happen any time. Owner: Mark, with steps given.
@@ -105,6 +108,8 @@ it, never by deleting it.
     `gallic-nicene-episcopate`, and the relations summary and legacy of
     `roman-church-gregorian`, print movement IDs to readers. They are for the era 2 and era 3
     links passes. Era 1 is clean.
+    - 2026-11-07: the three era-2 movements are fixed in the era 2 links pass; their text now
+      gives plain names. `roman-church-gregorian` (era 3) is still open.
 21. **Who compiled the Philocalia (2026-11-07).** The project's records disagree. The Alexandria
     world's source record gives it `attribution_status: attributed`
     (`records/alx/source/alx.source.origen-philocalia.md`). The Cappadocian records say who
@@ -117,3 +122,68 @@ it, never by deleting it.
       on this"). The tree credits Basil and Gregory of Nazianzus as its compilers, on the word of
       the NPNF 7 and NPNF 8 editors, beside Gregory's Letter 115. The records are not changed.
       Decision-Log, "The Philocalia's compilers", 2026-11-07.
+
+22. **No entry for the church of Alexandria, 4th-5th century (2026-11-07).** The census holds the
+    Alexandrian catechetical school (era 1) but not the see of Athanasius and Cyril. The Aksumite
+    conversion-era and Cyrilline Egyptian texts call themselves its children, and no link can carry
+    that without bending the school's entry. A census-structure decision for Mark. The sources are
+    gathered in the era 2 links audit (Drafting_Record, escalations, group A).
+23. **Two Egyptian Miaphysite entries from the same year (2026-11-07).**
+    `cyrilline-miaphysite-egyptian-tradition` (from 451, era 2) and
+    `cyrilline-miaphysite-egyptian-christianity` (451-642, era 3) describe the same church from the
+    same year. A sourced "continued as" link joins them for now. Merge or split is Mark's call.
+24. **Well-known facts with no vendored source (2026-11-07).** Some era-2 sentences state standard
+    facts that are not relationships and have no vendored or repo-cited source: Ezana's conversion
+    and his coins, Coptic as the language of worship, the twentieth-century Ethiopian patriarch. They
+    stand as written, with the texts that would source them on the era 2 wanted list. Whether the
+    "qualify" rule reaches facts like these is a method question for Mark.
+25. **Which entry owns an emperor's act against the Nicenes, 337-378 (2026-11-07).** Constantius II's
+    exile of Hilary sits under the imperial church; Valens's deposition of Gregory of Nyssa sits under
+    the Homoian church. Each link stands on its sources, but one rule should cover both. A mapping
+    ruling for Mark.
+26. **The two early Persian entries overlap (2026-11-07).** `persian-church-of-the-east-early`
+    (300-451) and `the-church-of-the-east-under-persia` (424-651) share 27 years. Date structure is
+    Mark's call; the "continued as" link between them stands on the synod of 424.
+27. **Ambrose's Milan and the imperial church overlap (2026-11-07).** The imperial entry tells
+    Ambrose's stand against the emperors as one of its own episodes, and the standalone Ambrose entry
+    now links to it ("argued against"). Whether the standalone entry stays separate is Mark's call.
+28. **Augustine has no movement of his own (2026-11-07).** Era 2's links from Ambrose, Jerome, Hilary,
+    the Donatists, the Pelagians and the Gallic monks point at
+    `latin-pastoral-congregational-christianity`, whose own text says it is congregational life, "not
+    the councils and not the controversies". Whether that is his home, or he needs an entry, is a
+    cross-era mapping decision for Mark (P2-G).
+29. **The Homoian and Gothic Homoian entries overlap (2026-11-07).** `homoian-arian-christianity`
+    (4th-6th c.) and `gothic-and-vandal-homoian-christianity` (451-c. 680) cover the same kingdoms;
+    the first's last third repeats the second. The link between them is "gave rise to", which does
+    not depend on a period split. For the entry owner.
+30. **Era-2 text outside the links pass (2026-11-07).** Found in the era 2 pass, left for each entry's
+    owner because none is a relationship claim in the four fields the pass edits:
+    - `imperial-juridical-christianity` `why` dates Constantine's toleration to 312; its description
+      says 313.
+    - `armenian-christianity-conversion-era` calls the Armenian Bible "the Queen of Translations";
+      no vendored or repo-cited source carries the epithet.
+    - `aquileian-christianity` teaser: Rufinus is "the only reason anyone knows" the creeds differed
+      (the same overstatement this pass removed from the description). A documented story there is
+      marked "primary text not yet read", though the text is vendored.
+    - `hieronymian-ascetic-literary` voices: a pope "wrote back" to Eustochium; Innocent wrote to John
+      of Jerusalem.
+    - `gallic-monastic-ascetic-christianity` legacy: Lérins still a monastery, Martin patron of
+      France with thousands of churches, both unsourced.
+    - `anomoean-eunomian-christianity` and `apollinarian-christianity` legacies: unsourced claims
+      that their texts are still used or quoted.
+    - `cappadocian-nicene-pastoral-monastic-tradition` tile: its false "and named them" is gone, but
+      the tile scores Reading Ease 56.6.
+    - `danubian-latin-christianity` (era 1): check for the "last Homoian bishops" framing corrected
+      here.
+31. **A Gallic source record is out of date (2026-11-07).**
+    `records/gallic/source/gallic.source.augustine-letters-221-226-absence.md` says Prosper's and
+    Hilary's letters to Augustine are not vendored. The Latin is, in CSEL 57
+    (`cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt`, from line 16888). For the
+    Gallic world record's owner.
+32. **Era 1's link notes were never scored for reading level (2026-11-07).** The era 2 pass scored
+    every new and rewritten link note (all at Reading Ease 60 or more). Era 1 scored only movement
+    paragraphs: 100 of the 120 notes on main before era 2 score below 60. For P2-L11, or a pass of
+    its own.
+33. **"Direct heir of Desert Monasticism" (2026-11-07).** `chalcedonian-monasticism-judean-desert-and-gaza`
+    (era 3) claims it, but the documented chain runs from the desert to the early Palestinian monks
+    to the Chalcedonian houses, and its last step is only Inferential-Thin. For the era 3 pass.
