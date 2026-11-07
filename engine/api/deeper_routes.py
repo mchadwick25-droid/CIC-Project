@@ -29,6 +29,7 @@ from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
 from engine.api.admin_guard import guard_admin_change
+from engine.api.config import parse_origins
 from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
@@ -71,7 +72,7 @@ class DeeperRuntime:
     claims: ClaimStore
     webhook_secret: str
     products: dict[str, Product]
-    site_origin: str | None = None
+    site_origins: tuple[str, ...] = ()
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
     token_rates: TokenRates = field(default_factory=lambda: load_ops().rates)
@@ -439,7 +440,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
     def _cors(request: Request, response: Response) -> None:
         origin = request.headers.get("origin")
-        if runtime.site_origin and origin == runtime.site_origin:
+        if origin and origin in runtime.site_origins:
             response.headers["Access-Control-Allow-Origin"] = origin
             response.headers["Vary"] = "Origin"
 
@@ -747,7 +748,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
         products=products,
         gift_links=parse_gift_links(env.get("CIC_DEEPER_GIFT_LINKS"), products),
         pilot_links=parse_pilot_links(env.get("CIC_DEEPER_PILOT_LINKS"), ops),
-        site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
+        site_origins=parse_origins(env.get("CIC_DEEPER_SITE_ORIGIN")),
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,

@@ -561,7 +561,7 @@ def create_app(
     backup_staging_dir: Path | None = None,
     data_dir: Path | None = None,
     feedback_store: FeedbackStore | None = None,
-    site_origin: str | None = None,
+    site_origins: tuple[str, ...] = (),
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -901,7 +901,7 @@ def create_app(
         authenticate_admin=lambda request, authorization: _authenticate_admin(
             request.app.state.deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME)
         ),
-        site_origin=site_origin,
+        site_origins=site_origins,
     )
 
     @app.get("/api/admin/pilot-summary", response_model=PilotSummaryResponse)
@@ -1190,7 +1190,7 @@ def _build_real_app() -> FastAPI:
         backup_staging_dir=backup_staging_dir,
         data_dir=data_dir,
         feedback_store=feedback_store,
-        site_origin=settings.site_origin,
+        site_origins=settings.site_origins,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).
