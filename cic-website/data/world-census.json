@@ -21,8 +21,8 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 1,
-   "date": "2026-11-06"
+   "number": 2,
+   "date": "2026-11-07"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used."
  },
@@ -4564,6 +4564,9 @@
      "placeId": "Q858"
     }
    ],
+   "placeQualifiers": {
+    "Palestine": " (the historical region)"
+   },
    "regions": [
     "Middle East"
    ],
@@ -6201,6 +6204,9 @@
      "pleiadesId": "423025"
     }
    ],
+   "placeQualifiers": {
+    "Bethlehem": ", West Bank"
+   },
    "regions": [
     "Mediterranean"
    ],
@@ -8926,6 +8932,9 @@
      "pleiadesId": "746813"
     }
    ],
+   "placeQualifiers": {
+    "Palestine": " (the historical region)"
+   },
    "regions": [
     "Middle East"
    ],
@@ -11123,6 +11132,9 @@
      "placeId": "Q858"
     }
    ],
+   "placeQualifiers": {
+    "Palestine": " (the historical region)"
+   },
    "regions": [
     "Middle East"
    ],
@@ -19535,6 +19547,9 @@
      "pleiadesId": "678267"
     }
    ],
+   "placeQualifiers": {
+    "Cyprus": " (the island)"
+   },
    "regions": [
     "Mediterranean",
     "Middle East"

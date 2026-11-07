@@ -194,3 +194,16 @@ stays easy to tap. Only where things are drawn moves: dates, links and every pan
 values, and links attach to the moved dots. Built into PL3, with the overlap measured before and
 after.
 
+**Ruled the same day (Mark: "A for both").**
+1. *Disputed places* name the place in plain geographic words and no state: "Bethlehem, West
+   Bank", "Cyprus (the island)", "Palestine (the historical region)"; Jerusalem, Gaza, the
+   Judean Desert and China show as the place alone. The words are stored in the census as
+   `placeQualifiers`, so the data says what the map says. Rejected: naming every state Wikidata
+   lists (it can read as taking a side), and the place alone everywhere (says less).
+2. *Historical regions* (27 places, 45 entries, such as Persia, Roman Africa, Prussia and
+   historical Armenia) show the place alone. Their present-day countries come in a later,
+   checked pass as their own release. Rejected: doing that pass before this ships, and naming
+   only the country of a region's core (it understates regions that spanned several).
+
+The place fields ship as data release 2, dated 2026-11-07.
+

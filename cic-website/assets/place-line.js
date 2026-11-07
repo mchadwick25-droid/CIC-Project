@@ -9,6 +9,7 @@
     const beyond = / and beyond$/.test(label);
     const places = label.replace(/ and beyond$/, '').split(' · ');
     const named = new Set(places);
+    const qualifiers = entry.placeQualifiers || {};
     const byPlace = {};
     (entry.modernCountries || []).forEach(c => {
       const list = byPlace[c.place] || (byPlace[c.place] = []);
@@ -22,7 +23,7 @@
       if (last && key && last.key === key) last.places.push(p);
       else groups.push({ places: [p], countries, key });
     });
-    const text = groups.map(g => g.places.join(' · ') +
+    const text = groups.map(g => g.places.map(p => p + (qualifiers[p] || '')).join(' · ') +
       (g.countries.length ? (today ? ', today in ' : ', ') + joinNames(g.countries) : '')).join(' · ');
     return text + (beyond ? ' and beyond' : '');
   }

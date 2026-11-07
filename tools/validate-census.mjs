@@ -182,6 +182,10 @@ function checkPlaceLabel(label, entry) {
     if (!part.trim() || at < 0) errs.push(`${label}: placeLabel "${part}" is not in its region text`);
     else from = at + part.length;
   }
+  for (const [place, words] of Object.entries(entry.placeQualifiers ?? {})) {
+    if (!parts.includes(place)) errs.push(`${label}: place qualifier for "${place}", which is not on the place label`);
+    if (typeof words !== "string" || !words.trim()) errs.push(`${label}: empty place qualifier for "${place}"`);
+  }
   if (!Array.isArray(entry.modernCountries)) { errs.push(`${label}: modernCountries missing (an empty list when no country applies)`); return; }
   for (const c of entry.modernCountries) {
     if (!c || typeof c.country !== "string" || !c.country.trim()) errs.push(`${label}: a modern country has no name`);

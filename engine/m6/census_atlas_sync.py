@@ -63,6 +63,7 @@ STRUCTURAL_FIELDS = (
     "region",
     "placeLabel",
     "modernCountries",
+    "placeQualifiers",
     "continuesAs",
 )
 
