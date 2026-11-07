@@ -81,3 +81,10 @@ it, never by deleting it.
     own name, so these read "UK, today in United Kingdom" on the tree pages and the map. The label
     must stay inside the region text, so the fix belongs in the places rule (a place that is itself
     a country), not in one-off edits. Flagged to Mark; not changed yet.
+    - 2026-11-07: fixed (Mark: "yes, fix the UK rule"). The place line now leaves out a country
+      when a shown place is that country, by name as before, or by gazetteer ID: the place has
+      the country's own ID and maps to that one country alone. Seven entries changed, and no
+      others: the four "UK" entries, "Aotearoa New Zealand" (New Zealand), and two "Swiss
+      lands" entries (Switzerland). "Ruthenia" carries Ukraine's ID in the place record but
+      maps to Ukraine and Belarus, so it keeps both. The single-country condition is there for
+      that case.
