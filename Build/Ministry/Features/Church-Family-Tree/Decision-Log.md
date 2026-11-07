@@ -336,3 +336,15 @@ from both domains:
 Before promotion, the live API answers Church in Conversation's origin and gives the tree's
 origin no permission header (checked 2026-11-07). Nothing changes until Mark promotes `main` to
 `live` and the variable reaches Render.
+
+## 2026-11-07 — Phase 2 links: Opus drafts, a second Opus 5.5 reviews
+
+**Decided (Mark: "this time we will do opus drafts and then a second opus 5.5 review. we get
+higher quality that way and the new opus 5.5 is not as expensive as the old and better").**
+For the per-era link sessions (P2-L1 to P2-L10), Opus drafts the links and prose changes. A
+separate Opus 5.5 agent reviews them, briefed with the data and sources, not the drafters'
+conclusions. Haiku still does the inventory and the mechanical work. The three-round review
+cap is unchanged. The launch prompt carries the change.
+
+Scope: this link work. The general split in `CLAUDE.md` (Sonnet drafts, Opus reviews) is not
+changed by this entry.

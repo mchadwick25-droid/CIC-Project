@@ -37,7 +37,7 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
 1. **Inventory (Haiku subagent).** For each movement in era {N}, list every relationship its
    text names: the other movement, the claim, the sentence it came from. Also list the links
    it already has. Write the list to the audit folder.
-2. **Draft (Sonnet subagents, a few movements each).** Brief them with `Drafting_Brief.md`
+2. **Draft (Opus subagents, a few movements each).** Brief them with `Drafting_Brief.md`
    plus this era's inventory. For each named relationship, they draft a link, a qualified
    sentence, or a removal, with the reason. They search `cic/texts/` and
    `cic/corpus-map/` for the source. Missing texts go to a `wants` list, never invented.
@@ -46,7 +46,9 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
 4. **Two-way check.** Every relationship named in the prose has a link, or its sentence was
    qualified or removed. Every link is named somewhere in its movements' text, or its note
    says why it stands alone. List both directions in the audit README.
-5. **Review (Opus).** Round 1 is a full review. Later rounds are targeted rechecks of what
+5. **Review (a second, separate Opus 5.5 agent).** Brief it with the census, the sources and
+   the drafting record, not with the drafters' conclusions, so its read is independent. Round 1
+   is a full review. Later rounds are targeted rechecks of what
    changed. The cap is three rounds, and every review file counts. If a document has not
    cleared after three, stop and escalate.
 6. **Prose.** Every new or rewritten sentence meets the reading target. Score each changed
@@ -89,7 +91,8 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
 
 ## Budget
 
-- Sonnet drafts, Opus reviews, Haiku does the inventory and the mechanical work.
+- Opus drafts and a separate Opus 5.5 agent reviews (Mark, 2026-11-07, for this link work).
+  Haiku does the inventory and the mechanical work.
 - Keep exploration in subagents, so the main thread holds conclusions, not file dumps.
 - Heavy eras (9 and 10, about 50 movements each) may split into two pull requests by lane. Say
   so in the first one.
