@@ -10,6 +10,17 @@
       "fre_before": 17.1,
       "fre_after": 62.4,
       "fk_after": 7.3
+    },
+    {
+      "movement": "antiochene-church-third-century",
+      "field": "why",
+      "paragraph": 0,
+      "old": "In 268, a council of bishops at Antioch deposed Paul of Samosata for teaching that Christ was a man the Word had come to dwell in, rather than the Word made flesh, and for conduct they found just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272 and settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius had to explain why.",
+      "new": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius had to explain why.",
+      "fre_before": 60.4,
+      "fre_after": 70.5,
+      "fk_after": 7.3,
+      "facts_check": "Sentences split only (FK 11.5 was above the ceiling); every fact, date and name kept; no word added beyond the split."
     }
   ]
 }

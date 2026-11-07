@@ -1,0 +1,432 @@
+[
+ {
+  "movement": "post-apostolic-house-church",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 83.9,
+  "fk_after": 5.0,
+  "words": 14,
+  "passed": true
+ },
+ {
+  "movement": "post-apostolic-house-church",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 51.7,
+  "fre_after": 76.9,
+  "fk_after": 5.6,
+  "words": 62,
+  "passed": true
+ },
+ {
+  "movement": "greek-apologists-second-century",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 23.5,
+  "fre_after": 65.5,
+  "fk_after": 6.9,
+  "words": 56,
+  "passed": true
+ },
+ {
+  "movement": "greek-apologists-second-century",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 35.1,
+  "fre_after": 64.2,
+  "fk_after": 7.3,
+  "words": 194,
+  "passed": true
+ },
+ {
+  "movement": "greek-apologists-second-century",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 25.6,
+  "fre_after": 61.3,
+  "fk_after": 7.9,
+  "words": 117,
+  "passed": true
+ },
+ {
+  "movement": "latin-apologists",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 30.1,
+  "fre_after": 67.1,
+  "fk_after": 7.0,
+  "words": 464,
+  "passed": true
+ },
+ {
+  "movement": "apocryphal-and-pseudepigraphal-literature",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 50.6,
+  "fre_after": 68.9,
+  "fk_after": 6.6,
+  "words": 47,
+  "passed": true
+ },
+ {
+  "movement": "apocryphal-and-pseudepigraphal-literature",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 40.9,
+  "fre_after": 64.7,
+  "fk_after": 7.3,
+  "words": 258,
+  "passed": true
+ },
+ {
+  "movement": "apocryphal-and-pseudepigraphal-literature",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 32.3,
+  "fre_after": 61.2,
+  "fk_after": 8.1,
+  "words": 68,
+  "passed": true
+ },
+ {
+  "movement": "apocryphal-and-pseudepigraphal-literature",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 32.7,
+  "fre_after": 64.6,
+  "fk_after": 7.9,
+  "words": 132,
+  "passed": true
+ },
+ {
+  "movement": "alexandria-catechetical",
+  "field": "legacy",
+  "paragraph": 1,
+  "fre_before": 7.6,
+  "fre_after": 61.7,
+  "fk_after": 7.5,
+  "words": 57,
+  "passed": true
+ },
+ {
+  "movement": "alexandria-catechetical",
+  "field": "legacy",
+  "paragraph": 2,
+  "fre_before": -12.8,
+  "fre_after": 63.6,
+  "fk_after": 6.7,
+  "words": 38,
+  "passed": true
+ },
+ {
+  "movement": "alexandria-catechetical",
+  "field": "legacy",
+  "paragraph": 3,
+  "fre_before": null,
+  "fre_after": 62.6,
+  "fk_after": 6.6,
+  "words": 33,
+  "passed": true
+ },
+ {
+  "movement": "syriac-edessa-nisibis",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 47.8,
+  "fre_after": 64.9,
+  "fk_after": 6.9,
+  "words": 33,
+  "passed": true
+ },
+ {
+  "movement": "latin-pastoral-congregational-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 77.5,
+  "fk_after": 5.3,
+  "words": 23,
+  "passed": true
+ },
+ {
+  "movement": "latin-pastoral-congregational-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 34.0,
+  "fre_after": 60.3,
+  "fk_after": 7.8,
+  "words": 152,
+  "passed": true
+ },
+ {
+  "movement": "marcion-marcionism",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 58.9,
+  "fre_after": 61.4,
+  "fk_after": 9.8,
+  "words": 206,
+  "passed": true
+ },
+ {
+  "movement": "marcion-marcionism",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 39.7,
+  "fre_after": 76.1,
+  "fk_after": 5.1,
+  "words": 90,
+  "passed": true
+ },
+ {
+  "movement": "valentinian-and-other-gnostic-christianities",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 69.5,
+  "fk_after": 5.4,
+  "words": 15,
+  "passed": true
+ },
+ {
+  "movement": "valentinian-and-other-gnostic-christianities",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 23.1,
+  "fre_after": 63.7,
+  "fk_after": 7.2,
+  "words": 206,
+  "passed": true
+ },
+ {
+  "movement": "manichaeism",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 42.2,
+  "fre_after": 65.5,
+  "fk_after": 6.7,
+  "words": 187,
+  "passed": true
+ },
+ {
+  "movement": "manichaeism",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 49.5,
+  "fre_after": 72.0,
+  "fk_after": 5.9,
+  "words": 87,
+  "passed": true
+ },
+ {
+  "movement": "manichaeism",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 33.3,
+  "fre_after": 64.5,
+  "fk_after": 7.4,
+  "words": 137,
+  "passed": true
+ },
+ {
+  "movement": "montanism-the-new-prophecy",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 53.7,
+  "fre_after": 78.2,
+  "fk_after": 4.8,
+  "words": 20,
+  "passed": true
+ },
+ {
+  "movement": "montanism-the-new-prophecy",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 17.5,
+  "fre_after": 61.7,
+  "fk_after": 6.9,
+  "words": 164,
+  "passed": true
+ },
+ {
+  "movement": "novatianism",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 61.4,
+  "fk_after": 6.9,
+  "words": 19,
+  "passed": true
+ },
+ {
+  "movement": "anatolian-church-third-century",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 32.7,
+  "fre_after": 60.5,
+  "fk_after": 6.9,
+  "words": 51,
+  "passed": true
+ },
+ {
+  "movement": "anatolian-church-third-century",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 43.7,
+  "fre_after": 64.1,
+  "fk_after": 7.6,
+  "words": 213,
+  "passed": true
+ },
+ {
+  "movement": "anatolian-church-third-century",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 25.0,
+  "fre_after": 60.9,
+  "fk_after": 7.1,
+  "words": 86,
+  "passed": true
+ },
+ {
+  "movement": "anatolian-church-third-century",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 28.8,
+  "fre_after": 63.5,
+  "fk_after": 7.3,
+  "words": 94,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-church-third-century",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 31.5,
+  "fre_after": 61.7,
+  "fk_after": 7.4,
+  "words": 65,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-church-third-century",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 43.4,
+  "fre_after": 70.8,
+  "fk_after": 6.2,
+  "words": 265,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-church-third-century",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 50.4,
+  "fre_after": 70.5,
+  "fk_after": 7.3,
+  "words": 110,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-church-third-century",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 44.3,
+  "fre_after": 60.2,
+  "fk_after": 9.0,
+  "words": 118,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-church-pre-constantinian",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 37.4,
+  "fre_after": 73.2,
+  "fk_after": 5.5,
+  "words": 50,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-church-pre-constantinian",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 28.2,
+  "fre_after": 62.0,
+  "fk_after": 7.2,
+  "words": 114,
+  "passed": true
+ },
+ {
+  "movement": "roman-church-third-century",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 49.0,
+  "fre_after": 84.9,
+  "fk_after": 3.7,
+  "words": 19,
+  "passed": true
+ },
+ {
+  "movement": "roman-church-third-century",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 36.9,
+  "fre_after": 61.6,
+  "fk_after": 7.3,
+  "words": 96,
+  "passed": true
+ },
+ {
+  "movement": "roman-church-third-century",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 21.8,
+  "fre_after": 60.8,
+  "fk_after": 7.1,
+  "words": 76,
+  "passed": true
+ },
+ {
+  "movement": "danubian-latin-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 24.2,
+  "fre_after": 63.7,
+  "fk_after": 6.7,
+  "words": 55,
+  "passed": true
+ },
+ {
+  "movement": "danubian-latin-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 39.3,
+  "fre_after": 60.6,
+  "fk_after": 7.6,
+  "words": 101,
+  "passed": true
+ },
+ {
+  "movement": "bardaisanite-current",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 17.1,
+  "fre_after": 62.4,
+  "fk_after": 7.3,
+  "words": 32,
+  "passed": true
+ },
+ {
+  "movement": "bardaisanite-current",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 53.2,
+  "fre_after": 63.8,
+  "fk_after": 7.7,
+  "words": 147,
+  "passed": true
+ }
+]
