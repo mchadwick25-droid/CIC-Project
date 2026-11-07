@@ -577,46 +577,43 @@
    "field": "relationsSummary",
    "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
    "other_id": "tertullian-s-voice",
-   "disposition": "no-entry",
+   "disposition": "qualify",
    "link_id": null,
    "prose_change": 8,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "No text shows this church using Tertullian; Facundus and Ferrandus's own text (PL 67) cite Cyprian and Augustine, and the Tertullian references in that file are Migne's editorial notes. No link; Tertullian kept as a product of the earlier African church.",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
    "field": "relationsSummary",
    "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
    "other_id": "latin-pastoral-congregational-christianity",
-   "disposition": "no-entry",
-   "link_id": null,
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
    "prose_change": 8,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "New 'influenced' link from latin-pastoral-congregational-christianity, Cyprian's own church (inventory had no movement): Facundus I.3; Procopius III.21.",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
    "field": "relationsSummary",
    "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
    "other_id": "latin-pastoral-congregational-christianity",
-   "disposition": "no-entry",
-   "link_id": null,
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
    "prose_change": 8,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "Same link: Facundus I.4 calls Augustine 'the most wise and most famous teacher of the churches of Christ'.",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
    "field": "relationsSummary",
    "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
    "other_id": "gothic-and-vandal-homoian-christianity",
-   "disposition": "no-entry",
+   "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": 8,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-8 still applies.",
    "group": "A",
    "revised_round": 1
   },
@@ -625,22 +622,21 @@
    "field": "relationsSummary",
    "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
    "other_id": "byzantine-imperial-church-justinianic",
-   "disposition": "no-entry",
-   "link_id": null,
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
    "prose_change": 8,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "New 'argued against' link (Facundus to Justinian; Victor of Tunnuna s.a. 550, 552).",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
    "field": "longDescription",
    "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
    "other_id": "gothic-and-vandal-homoian-christianity",
-   "disposition": "no-entry",
+   "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": 9,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-9 still applies.",
    "group": "A",
    "revised_round": 1
   },
@@ -652,9 +648,8 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "State actor. Supported: Procopius, Wars III.21 (the taking of Carthage, Cyprian's shrine).",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
@@ -716,10 +711,10 @@
    "field": "why",
    "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
    "other_id": "gothic-and-vandal-homoian-christianity",
-   "disposition": "no-entry",
+   "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": 10,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-10 still applies.",
    "group": "A",
    "revised_round": 1
   },
@@ -728,12 +723,11 @@
    "field": "why",
    "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
    "other_id": "byzantine-imperial-church-justinianic",
-   "disposition": "no-entry",
-   "link_id": null,
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
    "prose_change": 10,
-   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
-   "group": "A",
-   "revised_round": 1
+   "reason": "Same Three Chapters link.",
+   "group": "A"
   },
   {
    "movement": "latin-africa-under-byzantium",
@@ -1148,12 +1142,11 @@
    "field": "legacy",
    "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
    "other_id": null,
-   "disposition": "qualify",
-   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": null,
-   "reason": "The link for this period is Inferential-Thin (Cosmas only reports a church and a Persian-appointed bishop). The later tie is shown by Geddes 1694 (bishops from the 'Patriarch of Babylon', lines 826, 977), so the sentence now says 'in later centuries'. Prose change R-1.",
-   "group": "B",
-   "revised_round": 1
+   "reason": "Modern successor churches; the chain runs through later movements (church-of-the-east-schism-of-1552, church-of-the-east-chaldean-consolidation). Kept.",
+   "group": "B"
   },
   {
    "movement": "the-church-of-the-east-under-persia",
@@ -2737,12 +2730,11 @@
    "field": "longDescription",
    "sentence": "In Spain and among the Lombards it ended by conversion.",
    "other_id": null,
-   "disposition": "link",
-   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": null,
-   "reason": "Toledo III (589): the Gothic bishops condemn the faith they had held and sign as men 'coming into the catholic church' (collectio 36900-36904, 37118-37122). They joined an existing church; it did not emerge from them, so the link is argued-against, not gave-rise-to.",
-   "group": "D",
-   "revised_round": 1
+   "reason": "Not a census movement. Paul the Deacon IV.42 (two bishops in almost every city, one Catholic, one Arian, under Rothari) supports it.",
+   "group": "D"
   },
   {
    "movement": "gothic-and-vandal-homoian-christianity",
@@ -2761,22 +2753,21 @@
    "field": "longDescription",
    "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
    "other_id": null,
-   "disposition": "link",
-   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": null,
-   "reason": "Same Toledo III link.",
-   "group": "D",
-   "revised_round": 1
+   "reason": "Not a census movement. Paul the Deacon IV.42 shows Arian Lombard kings into the 640s; supported.",
+   "group": "D"
   },
   {
    "movement": "gothic-and-vandal-homoian-christianity",
    "field": "why",
    "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
    "other_id": "latin-africa-under-byzantium",
-   "disposition": "link",
-   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": null,
-   "reason": "Same Toledo III link.",
+   "reason": "As the longDescription sentence: the Vandal-era Nicene church (439-533) has no census movement. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
    "group": "D",
    "revised_round": 1
   },
@@ -2785,12 +2776,11 @@
    "field": "why",
    "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
    "other_id": null,
-   "disposition": "link",
-   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": null,
-   "reason": "Same Toledo III link.",
-   "group": "D",
-   "revised_round": 1
+   "reason": "No census movement; as the longDescription sentence (Anonymus Valesianus 60; Dialogues III.30).",
+   "group": "D"
   },
   {
    "movement": "gothic-and-vandal-homoian-christianity",
@@ -2919,7 +2909,7 @@
    "movement": "insular-irish-monastic-christianity",
    "field": "longDescription",
    "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
-   "other_id": null,
+   "other_id": "anglo-saxon-christianity",
    "disposition": "link",
    "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
    "prose_change": 0,
@@ -2932,12 +2922,11 @@
    "field": "longDescription",
    "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
    "other_id": null,
-   "disposition": "link",
-   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": 0,
-   "reason": "The Roman side at Whitby was the English church's own party: Bede III.25 has Wilfrid argue against Colman's Easter by name (bede 8003-8021, 8136-8137). New argued-against link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "A king, not a movement. Bede III.25: Oswy rules that he will obey Peter, 'the door-keeper', and all present resolve 'to conform to that which they found to be better' (bede 8205-8217). Supported.",
+   "group": "E"
   },
   {
    "movement": "insular-irish-monastic-christianity",
@@ -3011,11 +3000,10 @@
    "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
    "other_id": "roman-church-gregorian",
    "disposition": "link",
-   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "link_id": "insular-irish-monastic-christianity--roman-church-gregorian",
    "prose_change": 0,
-   "reason": "The Roman side at Whitby was the English church's own party: Bede III.25 has Wilfrid argue against Colman's Easter by name (bede 8003-8021, 8136-8137). New argued-against link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "Added row: the inventory listed no party for this sentence. The earlier collision with Roman practice is documented by Columbanus's own letter to Gregory, c. 600 (npnf213 4390-4426). New argued-against link.",
+   "group": "E"
   },
   {
    "movement": "nicene-visigothic-iberia",
@@ -3132,12 +3120,11 @@
    "field": "relationsSummary",
    "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
    "other_id": "anglo-saxon-christianity",
-   "disposition": "qualify",
-   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
    "prose_change": 3,
-   "reason": "'Distinct from' is a cataloguing statement no link type expresses. Bede II.4 shows likeness, not separation: Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' (bede 3849-3857). Documented contact: Columbanus cites Gildas (npnf213 4535-4536). Rewritten to say both, with the influenced link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "The invaders were pagan settlers, not the Anglo-Saxon church, so no link to anglo-saxon-christianity. Supported by Gildas on 'those wild Saxons, of accursed name' admitted into the island (gildas 3415-3417) and Taylor's introduction to Samson (samson-of-dol 268-274). Prose change 3 keeps the claim in plainer words.",
+   "group": "E"
   },
   {
    "movement": "british-welsh-christianity",
@@ -3156,24 +3143,22 @@
    "field": "relationsSummary",
    "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
    "other_id": "roman-church-gregorian",
-   "disposition": "qualify",
-   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
    "prose_change": 3,
-   "reason": "'Distinct from' is a cataloguing statement no link type expresses. Bede II.4 shows likeness, not separation: Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' (bede 3849-3857). Documented contact: Columbanus cites Gildas (npnf213 4535-4536). Rewritten to say both, with the influenced link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "'Older than the Gregorian mission' is supported: Bede II.2 shows an existing British episcopate in 603, and Gildas wrote c. 540. The meeting is the new in-contact link; party choice explained in its flags (anglo-saxon-christianity, not roman-church-gregorian).",
+   "group": "E"
   },
   {
    "movement": "british-welsh-christianity",
    "field": "relationsSummary",
    "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
    "other_id": "roman-church-gregorian",
-   "disposition": "qualify",
-   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
    "prose_change": 3,
-   "reason": "'Distinct from' is a cataloguing statement no link type expresses. Bede II.4 shows likeness, not separation: Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' (bede 3849-3857). Documented contact: Columbanus cites Gildas (npnf213 4535-4536). Rewritten to say both, with the influenced link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "Same link. Bede II.2: 'nor receive him as their archbishop' (bede 3667-3668). Gregory had committed 'all British bishops' to Augustine (npnf213 7550-7553). No separate link to roman-church-gregorian: Gregory never met or wrote to them.",
+   "group": "E"
   },
   {
    "movement": "british-welsh-christianity",
@@ -3181,11 +3166,10 @@
    "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
    "other_id": null,
    "disposition": "qualify",
-   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "link_id": null,
    "prose_change": 3,
-   "reason": "'Distinct from' is a cataloguing statement no link type expresses. Bede II.4 shows likeness, not separation: Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' (bede 3849-3857). Documented contact: Columbanus cites Gildas (npnf213 4535-4536). Rewritten to say both, with the influenced link.",
-   "group": "E",
-   "revised_round": 1
+   "reason": "'Did not conform at Whitby' implies the British were a party there; Bede's list of those present has no British clergy (bede 7963-7970). What the sources show is that they kept their own Easter long after: Bede V.22 (bede 15020-15026) and the Annales Cambriae for 768 (annales 2984-2988). Rewritten.",
+   "group": "E"
   },
   {
    "movement": "british-welsh-christianity",
@@ -3351,6 +3335,42 @@
    "prose_change": 0,
    "reason": "A place. Supported: Taylor's introduction to the Life of Samson (samson-of-dol 268-278: 'a race with the same language and religious customs' on both sides of the Channel; 'development in Wales, Brittany and Cornwall', 672). The present-day cults rest on Taylor (1925).",
    "group": "E"
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "group": "R",
+   "revised_round": 1
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "group": "R",
+   "revised_round": 1
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "group": "R",
+   "revised_round": 1
   }
  ],
  "links": [
@@ -6823,16 +6843,6 @@
      "source_id": null,
      "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-     "lines": "7963-7966",
-     "locus": "HE III.25",
-     "quote": "Bishop Colman with his Scottish clerks, and Agilbert with the priests Agatho and Wilfrid, James and Romanus were on their side",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
-     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
      "lines": "8003-8005",
      "locus": "HE III.25",
      "quote": "Then Wilfrid, being ordered by the king to speak, delivered himself thus : — \" The Easter which we observe, we saw celebrated by all at Rome",
@@ -6882,7 +6892,7 @@
    "revision_round1": [
     "R1-13: new link drafted from Bede III.25."
    ],
-   "revised_round": 1
+   "revised_round": 2
   }
  ],
  "prose_changes": [
@@ -6926,7 +6936,7 @@
    "field": "longDescription",
    "old": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's. And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not narrative but walls. The cathedral at Faras, built a few generations later,, buried in sand and rescued before the Aswan dam flooded the region, gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, saints, some with dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt. A treaty of exchange rather than of conquest, which left Christian Nubia standing on its own terms.",
    "new": "Christianity reached the Nubian kingdoms south of Egypt in the 540s, through two competing missions. A Miaphysite priest named Julian went with the empress Theodora's backing, and a Chalcedonian effort went with Justinian's. The story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not stories but walls. Built a few generations later, the cathedral at Faras lay buried in sand until it was rescued before the Aswan dam flooded the region. It gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, and saints. Some have dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola. In 652 the two sides signed the Baqt, a treaty of exchange rather than of conquest, and it left Christian Nubia standing on its own terms.",
-   "reason": "Typo only: a double comma after 'built a few generations later'. No wording changed.",
+   "reason": "Double comma fixed; long sentences split and two fragments made whole; no fact changed.",
    "group": "A",
    "draft_new": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's. And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not narrative but walls. The cathedral at Faras, built a few generations later, buried in sand and rescued before the Aswan dam flooded the region, gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, saints, some with dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt. A treaty of exchange rather than of conquest, which left Christian Nubia standing on its own terms.",
    "prose_pass": 1,
@@ -7176,11 +7186,11 @@
    "field": "longDescription",
    "old": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century through the preaching of a woman the tradition calls Nino, and then spent three centuries holding that identity on a frontier where Persia had every reason to prise it loose. Its oldest surviving book, written in the 470s or 480s, is the account of Shushanik. An Armenian princess married to the local ruler, who abandoned Christianity for Zoroastrianism and imprisoned and beat his wife until she died rather than follow him. Georgia developed its own alphabet, its own monasteries, and an unusually rich liturgical life: Georgian manuscripts preserve the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does. In 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side. Which is why the two neighboring Caucasian churches have belonged to different communions ever since.",
    "new": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century. It came through the preaching of a woman the tradition calls Nino. Kartli then held on to that faith for three centuries, on a frontier where Persia had every reason to prise it loose. Its oldest surviving book, written in the 470s or 480s, tells the story of Shushanik. She was an Armenian princess married to the local ruler. He left Christianity for Zoroastrianism, and when she would not follow him, he locked her up and beat her until she died. Georgia built its own alphabet, its own monasteries, and an unusually rich life of worship. Georgian manuscripts keep the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does. Around 600, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side. That is why the two neighboring churches of the Caucasus have belonged to different communions ever since.",
-   "reason": "The year of the break is disputed (596 to 609); 'In 609' becomes 'Around 609'. Two sentence fragments are made whole ('An Armenian princess...' and 'Which is why...') without changing a fact.",
+   "reason": "The year of the break is disputed (596 to 609); 'In 609' becomes 'Around 600'. Two sentence fragments are made whole ('An Armenian princess...' and 'Which is why...') without changing a fact.",
    "group": "C",
    "draft_new": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century through the preaching of a woman the tradition calls Nino, and then spent three centuries holding that identity on a frontier where Persia had every reason to prise it loose. Its oldest surviving book, written in the 470s or 480s, is the account of Shushanik. She was an Armenian princess married to the local ruler, who abandoned Christianity for Zoroastrianism and imprisoned and beat his wife until she died rather than follow him. Georgia developed its own alphabet, its own monasteries, and an unusually rich liturgical life: Georgian manuscripts preserve the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does. Around 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side. That is why the two neighboring Caucasian churches have belonged to different communions ever since.",
    "prose_pass": 3,
-   "revised_round": 1
+   "revised_round": 2
   },
   {
    "n": 5,
@@ -7372,11 +7382,11 @@
    "field": "relationsSummary",
    "old": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
    "new": "The older church of Roman Britain, pushed west when the Anglo-Saxons invaded. Like the Irish church, it kept its own customs, which the Roman mission in Kent called errors. The Irish monk Columbanus cited its writer Gildas. It met Augustine's mission around 603 and refused to submit to him, and it kept its own Easter long after Whitby (664).",
-   "reason": "'Distinct from Irish Christianity' is a cataloguing statement; replaced with the documented separation and contact (Bede II.4; Columbanus citing Gildas). 'Did not conform at Whitby' implied the British were present; Bede's list shows they were not, and Bede V.22 and the Annales Cambriae show their Easter kept until 768. 'Gregorian mission' becomes 'Augustine's mission', which the link places with the English church.",
+   "reason": "'Distinct from Irish Christianity' is a cataloguing statement; replaced with the documented likeness and contact (Bede II.4; Columbanus citing Gildas). 'Did not conform at Whitby' implied the British were present; Bede's list shows they were not, and Bede V.22 and the Annales Cambriae show their Easter kept until 768. 'Gregorian mission' becomes 'Augustine's mission', which the link places with the English church.",
    "group": "E",
    "draft_new": "The older church of Roman Britain, pushed west by the Anglo-Saxon invasions. Separate from the Irish church, though Irish monks cited its writer Gildas. It met Augustine's mission around 603, refused his authority, and kept its own Easter long after Whitby (664)",
    "prose_pass": 1,
-   "revised_round": 1
+   "revised_round": 2
   },
   {
    "n": 4,
