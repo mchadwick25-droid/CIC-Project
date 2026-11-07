@@ -9,4 +9,4 @@
 # program, which only strips provenance narration. Needs its own fix
 # (re-sync or complete the runtime-fetch migration) before this baseline
 # line is more than an accepted architecture exception.
-cic-website/atlas-v3.html
+cft-website/index.html

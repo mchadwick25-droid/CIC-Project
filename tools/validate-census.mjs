@@ -8,6 +8,9 @@ const args = process.argv.slice(2);
 const baseIdx = args.indexOf("--base");
 const basePath = baseIdx >= 0 ? args[baseIdx + 1] : null;
 if (baseIdx >= 0) args.splice(baseIdx, 2);
+const treeIdx = args.indexOf("--tree");
+const treeDir = treeIdx >= 0 ? args[treeIdx + 1] : null;
+if (treeIdx >= 0) args.splice(treeIdx, 2);
 const atlasIdx = args.indexOf("--atlas");
 const atlasPath = atlasIdx >= 0 ? args[atlasIdx + 1] : null;
 if (atlasIdx >= 0) args.splice(atlasIdx, 2);
@@ -202,6 +205,19 @@ if (atlasPath) {
   let depth = 0, end = open;
   for (; end < html.length; end++) { if (html[end] === "[") depth++; else if (html[end] === "]" && --depth === 0) break; }
   JSON.parse(html.slice(open, end + 1)).forEach(s => checkPlaceLabel(`story ${s.id}`, s));
+}
+
+// --- tree pages: every promised address resolves, every link has its anchor ---
+if (treeDir) {
+  const page = id => { const f = `${treeDir}/${id}.html`; return existsSync(f) ? readFileSync(f, "utf8") : null; };
+  for (const m of d.movements ?? []) if (page(m.id) === null) errs.push(`${m.id}: no tree page at ${treeDir}/${m.id}.html`);
+  for (const r of d.retiredMovements ?? []) if (r.redirectTo && page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`);
+  for (const e of d.edges ?? []) {
+    for (const end of [e.from, e.to]) {
+      const html = page(end);
+      if (html !== null && !html.includes(`id="${e.id}"`)) errs.push(`${e.id}: no anchor on the ${end} tree page`);
+    }
+  }
 }
 
 // --- report ---

@@ -223,3 +223,25 @@ the 62 gap stories shows its title beside its icon from the second zoom step (0.
 step as place lines. The titles join the no-overlap layout and hide with the stories switch.
 Measured at reading zoom: no overlaps, 223 place lines shown.
 
+---
+
+## 2026-11-07 — P1c built: the tree moves to its own folder; old addresses redirect
+
+Mark: "go ahead with P1c full auto", after `www.churchfamilytree.com` was attached and checked.
+
+- **The move.** A pure rename (its own commit, 1,163 files, all 100 % renames) puts the map, the
+  movement pages and their recordings in `cft-website/`.
+- **The redirects.** On `churchinconversation.com` the Worker answers every old tree address,
+  the three old map addresses and the moved recordings with a permanent, one-hop redirect to the
+  same path on the tree's domain, query kept. A movement listed as retired with `redirectTo`
+  goes straight to its new page in the same hop. The census is served, never redirected. The
+  switch is a single setting in `wrangler.jsonc` (`TREE_ORIGIN`); the tree's own Worker has none.
+- **Data release 3.** `meta.identifiers` gains the domain rule; `meta.license` names the license
+  policy. Release 2 was the place labels.
+- **Checks.** `tools/validate-census.mjs --tree` fails any movement without a page, any retired
+  redirect without a page to land on, and any link whose anchor is missing from either of its
+  two pages. `tools/check_tree_domains.mjs` checks the live addresses after a deploy.
+- **Scripts no longer go stale.** `assets/` revalidates on every visit on both sites (Open-Gaps 16).
+- **Feedback on the map.** The page-feedback bar recognises the map on the tree's home page and
+  keeps its old page name, so feedback before and after the move stays together.
+

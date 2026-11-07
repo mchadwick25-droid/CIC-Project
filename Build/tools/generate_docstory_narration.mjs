@@ -5,7 +5,7 @@
  * only - never the teaser or the caveat. Built worlds are excluded: their
  * stories live in compiled world data, a separate step.
  *
- * Output: cic-website/audio/docstories/<movement-id>-<n>.mp3 (n = 0-based
+ * Output: cft-website/audio/docstories/<movement-id>-<n>.mp3 (n = 0-based
  * position in the movement's documentedStories) and manifest.json, which
  * records a fingerprint of the text each file was made from, so a later text
  * edit shows which audio is stale. Idempotent: a story whose file exists and
@@ -37,7 +37,7 @@ import { defaultVoiceSettings, requireApprovedRun, requirePaidSettings, synthesi
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
-export const docStoryAudioDir = path.join(rootDir, 'cic-website/audio/docstories');
+export const docStoryAudioDir = path.join(rootDir, 'cft-website/audio/docstories');
 export const manifestPath = path.join(docStoryAudioDir, 'manifest.json');
 
 export function parseArgs(argv) {

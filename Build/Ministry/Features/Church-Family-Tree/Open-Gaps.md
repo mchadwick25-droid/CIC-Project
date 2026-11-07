@@ -14,6 +14,7 @@ it, never by deleting it.
    1890 Lactantius in a CC BY-SA 4.0 digital edition. Quoting the public-domain print instead
    is the lineage thread's call.
 4. **Census `meta` license field (2026-11-06).** Not yet present; added with data release 2.
+   - 2026-11-07: closed. `meta.license` names the Faithways Studio license policy and its address; it shipped with data release 3, the release that also carries the domain rule (release 2 was the place labels).
 5. **Atlas drift on 23 movement entries (2026-11-06).** `atlas-v3.html` disagrees with the
    census on 23 `entry` blocks. Another thread's cleanup, filed in
    `Build/Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md`. A gate on the
@@ -66,4 +67,11 @@ it, never by deleting it.
     its own numbered release. The list is in
     `Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json`
     (status "historical").
+16. **New pages could meet old scripts for ten minutes after a deploy (2026-11-07).** Scripts and
+    styles under `assets/` were cached for 600 seconds under unchanging file names, while pages were
+    never cached, so a new page could run with an old script. Seen harmlessly after the
+    place-labels follow-up.
+    - 2026-11-07: fixed in P1c. Both sites' `_headers` now give `assets/` `max-age=0, must-revalidate`,
+      so browsers check for a newer copy every time and get a short "not modified" answer when
+      there is none.
 

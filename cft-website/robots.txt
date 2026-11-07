@@ -27,3 +27,4 @@ Disallow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://www.churchfamilytree.com/sitemap.xml

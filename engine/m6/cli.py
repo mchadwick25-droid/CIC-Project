@@ -14,7 +14,7 @@ from .census_sync import sync_census
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
-ATLAS_PATH = REPO_ROOT / "cic-website" / "atlas-v3.html"
+ATLAS_PATH = REPO_ROOT / "cft-website" / "index.html"
 
 
 def _serialize(census: dict) -> bytes:

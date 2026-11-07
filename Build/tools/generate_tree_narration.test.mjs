@@ -39,7 +39,7 @@ test('parseArgs: rejects a negative or non-numeric --char-budget', () => {
   assert.throws(() => parseArgs(['--char-budget', 'nope']), /--char-budget must be a non-negative integer/);
 });
 
-test('audioPathFor: one file per movement id under cic-website/audio/tree', () => {
+test('audioPathFor: one file per movement id under cft-website/audio/tree', () => {
   assert.equal(audioPathFor('alx'), path.join(audioDir, 'alx.mp3'));
 });
 

@@ -1005,3 +1005,16 @@ rulings 10 and 12, and the move-order entry of the same date, option A).
 - The root `README.md` map and the live-surface list in `CLAUDE.md` name the new folder;
   `tools/check_live_commentary.py` and `tools/check_spelling.py` cover it.
 
+## 2026-11-07 — The Church Family Tree moves into `cft-website/`
+
+**Context.** Chunk P1c of the Church Family Tree build (`Build/Ministry/Features/Church-Family-Tree/Build-Plan.md`),
+after `www.churchfamilytree.com` was attached and verified.
+
+**Action.** `git mv`, no content edited, as its own commit: `cic-website/atlas-v3.html` to
+`cft-website/index.html`; `cic-website/tree/`, `cic-website/audio/tree/`, `cic-website/audio/docstories/`
+and `cic-website/audio/stories/` to the same names under `cft-website/`. The two old redirect pages,
+`cic-website/atlas.html` and `cic-website/world-atlas.html`, to `Archive/Superseded-Site-Pages/`; the
+old site's Worker now answers those addresses, and every old tree address, with a permanent redirect
+to the tree's domain. `tools/moved_paths.txt` maps each old path to its new one. The root
+`README.md` map follows.
+

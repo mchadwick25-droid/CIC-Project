@@ -62,3 +62,10 @@ Build/worlds/alx/Analysis/CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md	Build/Mi
 Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md   Build/Ministry/Operations/Standing/PHASE-1-LAUNCH.md
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md   Build/Ministry/Operations/Standing/CiC_Cleaning_Pattern_Log.md
 Build/reference/method/Pass2-decisions/S6.2_fleet_level_flag_investigation_2026-07-28.md   Build/Ministry/Operations/Standing/S6.2_fleet_level_flag_investigation_2026-07-28.md
+cic-website/atlas-v3.html   cft-website/index.html
+cic-website/tree   cft-website/tree
+cic-website/audio/tree   cft-website/audio/tree
+cic-website/audio/docstories   cft-website/audio/docstories
+cic-website/audio/stories   cft-website/audio/stories
+cic-website/atlas.html   Archive/Superseded-Site-Pages/atlas.html
+cic-website/world-atlas.html   Archive/Superseded-Site-Pages/world-atlas.html

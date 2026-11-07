@@ -17,8 +17,8 @@
  * `longDescription` - the only prose that exists for it, and what
  * atlas-v3.html itself shows for every non-built movement.
  *
- * Output: cic-website/audio/tree/<id>.mp3, one per movement that has a
- * longDescription, and a line for each in cic-website/audio/tree/manifest.json.
+ * Output: cft-website/audio/tree/<id>.mp3, one per movement that has a
+ * longDescription, and a line for each in cft-website/audio/tree/manifest.json.
  * Idempotent - a movement already in the manifest is skipped unless --force, so a partial run (rate limit, a crashed
  * process, a paced multi-day batch) can always resume from where it left
  * off without re-spending on movements already narrated.
@@ -67,7 +67,7 @@ import { voiceOverrides } from './tree-narration-voices.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
-export const audioDir = path.join(rootDir, 'cic-website/audio/tree');
+export const audioDir = path.join(rootDir, 'cft-website/audio/tree');
 export const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 export const manifestPath = path.join(audioDir, 'manifest.json');
 

@@ -2,7 +2,7 @@
 /**
  * Generate static tree pages for all 292 movements from the census.
  *
- * Output: 292 HTML files at cic-website/tree/<slug>.html
+ * Output: one HTML file per movement at cft-website/tree/<slug>.html
  * Creates: cic-website/sitemap.xml, cic-website/robots.txt
  *
  * Each tree page includes:
@@ -25,9 +25,9 @@ const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
 createRequire(import.meta.url)(path.join(rootDir, 'cic-website/assets/place-line.js'));
 const { formatPlace } = globalThis.CFTPlace;
-const treeDir = path.join(rootDir, 'cic-website/tree');
+const treeDir = path.join(rootDir, 'cft-website/tree');
 const websiteDir = path.join(rootDir, 'cic-website');
-const audioDir = path.join(rootDir, 'cic-website/audio/tree');
+const audioDir = path.join(rootDir, 'cft-website/audio/tree');
 
 // Read census data
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
@@ -210,7 +210,7 @@ function generatePageHtml(movement) {
 <meta property="og:title" content="${escapeHtml(movement.name)}">
 <meta property="og:description" content="${escapeHtml(metaDesc)}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://churchinconversation.com/tree/${movement.id}.html">
+<meta property="og:url" content="https://www.churchfamilytree.com/tree/${movement.id}">
 <meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -391,26 +391,27 @@ census.movements.forEach(movement => {
   if (!movement.status) missingFields.push({ id: movement.id, field: 'status' });
 });
 
-// Generate sitemap.xml
+// Generate sitemap.xml for each site
+const sitemapXml = urls => `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(url => `  <url>
+    <loc>${url}</loc>
+  </url>`).join('\n')}
+</urlset>`;
 const sitemapUrls = [
   'https://churchinconversation.com/',
   'https://churchinconversation.com/index.html',
   'https://churchinconversation.com/about.html',
   'https://churchinconversation.com/support.html',
   'https://churchinconversation.com/license.html',
-  'https://churchinconversation.com/atlas.html',
-  ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`),
-  ...census.movements.map(m => `https://churchinconversation.com/tree/${m.id}.html`)
+  ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`)
 ];
-
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapUrls.map(url => `  <url>
-    <loc>${url}</loc>
-  </url>`).join('\n')}
-</urlset>`;
-
-fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemap, 'utf-8');
+fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemapXml(sitemapUrls), 'utf-8');
+const treeSitemapUrls = [
+  'https://www.churchfamilytree.com/',
+  ...census.movements.map(m => `https://www.churchfamilytree.com/tree/${m.id}`)
+];
+fs.writeFileSync(path.join(rootDir, 'cft-website/sitemap.xml'), sitemapXml(treeSitemapUrls), 'utf-8');
 
 // Generate robots.txt
 // Crawlers that gather text to train AI models are asked to stay out, per the
@@ -427,11 +428,12 @@ Allow: /
 Sitemap: https://churchinconversation.com/sitemap.xml`;
 
 fs.writeFileSync(path.join(websiteDir, 'robots.txt'), robots, 'utf-8');
+fs.writeFileSync(path.join(rootDir, 'cft-website/robots.txt'), robots.replace('https://churchinconversation.com/sitemap.xml', 'https://www.churchfamilytree.com/sitemap.xml'), 'utf-8');
 
 // Report
 console.log('\n=== Tree Pages Generation Report ===\n');
 console.log(`Generated ${pages.length} pages in ${treeDir}`);
-console.log(`Generated sitemap.xml (${sitemapUrls.length} URLs)`);
+console.log(`Generated sitemap.xml (${sitemapUrls.length} URLs) and the tree's sitemap.xml (${treeSitemapUrls.length} URLs)`);
 console.log(`Generated robots.txt`);
 
 if (missingFields.length > 0) {

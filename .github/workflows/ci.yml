@@ -173,7 +173,7 @@ jobs:
               - 'cic-website/data/world-census.json'
               - 'tools/validate-census.mjs'
               - 'cic/texts/**'
-              - 'cic-website/atlas-v3.html'
+              - 'cft-website/index.html'
               - 'engine/m6/**'
               - '.github/workflows/**'
             # Library Access Gate D3 SS6.3 (increment 5): a corpus-map or
@@ -215,6 +215,7 @@ jobs:
               - '.github/workflows/**'
             site:
               - 'cic-website/**'
+              - 'cft-website/**'
               - 'records/**'
               - 'engine/**'
               - '.github/workflows/**'
@@ -282,10 +283,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -302,7 +304,7 @@ jobs:
         run: |
           git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
           git show "FETCH_HEAD:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
-      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cic-website/atlas-v3.html cic-website/data/world-census.json
+      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cft-website/index.html --tree cft-website/tree cic-website/data/world-census.json
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -336,10 +338,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -367,10 +370,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -467,6 +471,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Tree hash of cic/texts
         id: texts
@@ -482,7 +487,7 @@ jobs:
         run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
-          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -525,6 +530,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Tree hash of cic/texts
         id: texts
@@ -540,7 +546,7 @@ jobs:
         run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
-          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -583,6 +589,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
             /cic-website/audio/cards/
           sparse-checkout-cone-mode: false
       - name: Tree hash of cic/texts
@@ -599,7 +606,7 @@ jobs:
         run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
-          git ls-files -z -- cic-website/audio ':!cic-website/audio/cards' | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio ':!cic-website/audio/cards' | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -777,6 +784,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Tree hash of cic/texts
         id: texts
@@ -792,7 +800,7 @@ jobs:
         run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
-          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -856,6 +864,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Tree hash of cic/texts
         id: texts
@@ -871,7 +880,7 @@ jobs:
         run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
-          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -906,10 +915,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -941,10 +951,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -1028,10 +1039,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -1071,10 +1083,11 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - name: Stand in empty files for the excluded paths
         run: |
-          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
             mkdir -p "$(dirname "$f")"
             : > "$f"
           done
@@ -1120,6 +1133,7 @@ jobs:
             /*
             !/cic/texts/
             !/cic-website/audio/
+            !/cft-website/audio/
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
