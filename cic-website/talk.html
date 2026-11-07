@@ -30,13 +30,6 @@
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
 }*{box-sizing:border-box}
 html,body{height:100%}
-/* flex column, not a fixed-height guess for .frame-wrap -- a hardcoded
-   calc(100vh - <bar> - <feature-bar>) here made the same mistake
-   atlas-v3.html's scope-note positioning already had to be fixed for
-   once: the bars' real rendered height (font/line-height/padding, or
-   wrapping on a narrow screen) doesn't match a guessed pixel constant,
-   so the iframe below overflowed the viewport instead of filling it
-   exactly. flex:1 fills whatever's actually left, no measuring needed. */
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans);display:flex;flex-direction:column}
 a{color:var(--action)}
 .bar{flex:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .9rem;padding:.6rem 1rem;border-bottom:1px solid var(--rule);background:var(--surface)}
@@ -113,9 +106,6 @@ if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.h
 var frame = document.getElementById('talk-frame');
 frame.src = target.toString();
 
-// A phone keyboard shrinks only the visual viewport; size the page to it so
-// the framed app's message box stays just above the keyboard. Pinch-zoom
-// shrinks the visual viewport too, so a zoomed page keeps its normal layout.
 var view = window.visualViewport;
 if (view) {
   var fit = function() {
@@ -128,21 +118,12 @@ if (view) {
   fit();
 }
 
-// The embedded app's own "Leave for now"/"Begin again" posts this message
-// instead of navigating itself when inside an iframe, and #back-link
-// is already this page's own real, styled answer to "where does leaving
-// go." ev.source restricts to
-// exactly our own iframe - the only page that ever loads inside it is the
-// one this script just pointed at target above.
 window.addEventListener('message', function(ev) {
   if (ev.source !== frame.contentWindow) return;
   if (!ev.data || ev.data.type !== 'cic:leave') return;
   window.location.href = document.getElementById('back-link').getAttribute('href');
 });
 
-// Once the conversation has started, the app's own bar (portrait and names)
-// is the only thing above the transcript; "Leave for now" and "Tell us what
-// you think" sit under the app's message box.
 window.addEventListener('message', function(ev) {
   if (ev.source !== frame.contentWindow) return;
   if (!ev.data || ev.data.type !== 'cic:started') return;

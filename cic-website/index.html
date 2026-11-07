@@ -63,12 +63,6 @@ p{margin:0 0 1rem}
 .muted{color:var(--muted)}
 .wrap{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
 
-/* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row: the nav collapses into a "Menu" dropdown since all four items
-   together don't fit one row at the page's own 1024px header width --
-   verified by measuring rendered widths directly rather than guessing
-   (brand+features+menu-trigger ~957px fits; the same row with the nav's
-   four links spelled out inline would run to ~1250px). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .brand{display:flex;align-items:center;gap:.5rem;min-width:0}
@@ -78,17 +72,6 @@ p{margin:0 0 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;padding:.5rem 0;display:inline-block;min-width:0}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
-/* Centered in the space actually available between the logo and the menu
-   button, not just "centered in whatever's left over" (equal flex-grow on
-   .brand/.menu fails because the wordmark's fixed width wins a
-   floor against flex-shrink, so the two sides end up unequal) and not
-   naive full-row-width centering either (that ignores brand and menu's
-   own widths entirely and visually collides with the wordmark, since
-   brand is wider than menu). Grid's max-content/1fr/max-content sizes
-   the outer two columns to brand's and menu's own content exactly, so
-   the middle column is whatever's genuinely left, with no risk of
-   overlapping either side -- only turned on above the width where the
-   whole row fits unwrapped. */
 @media (min-width:62.5rem){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -98,10 +81,6 @@ p{margin:0 0 1rem}
 .menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
 .menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
-/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
-   real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu. Touching boxes
-   keep :hover continuous all the way down. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
 .menu:hover .site-nav,.menu.open .site-nav{display:flex}
@@ -126,7 +105,6 @@ p{margin:0 0 1rem}
   .arriving.pending .arriving-seat{transform:translate(0,0)}
 }
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-/* .feature-card: the bordered container shared by the Church Family Tree and Conversation with One. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .feature-card.conversation-card{background:transparent;border:0;border-radius:0;overflow:visible;padding:0;margin-top:0}
 .table-give{max-width:34rem;margin:3rem auto 0}
@@ -134,27 +112,7 @@ p{margin:0 0 1rem}
   .support-photo{flex:none;min-height:0}
 }
 
-/* Church Family Tree showcase: a slow, one-time scrolling pan (era 1 -> 10)
-   with the text sitting below it in a plain solid block rather than
-   overlaid -- overlaid text on a moving, multicolored map risks
-   unpredictable contrast frame to frame, which this site's own
-   accessibility bar (WCAG-checked throughout) doesn't accept on a guess.
-   prefers-reduced-motion swaps in the existing static atlas-preview.jpg
-   instead of the video.
-   Narrowed to the width of the text column and capped in height so it
-   reads as a narrow window looking in on the map, not a full-bleed
-   banner.
-   A .feature-card itself, matching the same var(--wide)-less-2.5rem
-   column the chairs gallery and Unfolding Story already use -- video
-   and text don't need their own separate width-matching math since
-   the card they both sit inside carries it. */
 .atlas-showcase{max-width:calc(var(--wide) - 2.5rem);margin-left:auto;margin-right:auto}
-/* Short enough that the title of Church Family Tree lands on the
-   first screen when the landing page loads.
-   Flush at the top of the card (no side width-matching math of its own,
-   no border of its own -- the hover affordance is a slight zoom
-   instead, since a border here would sit oddly against the card's own
-   rounded top corners). */
 .atlas-showcase-media{position:relative;display:block;width:100%;height:min(42vh,336px);overflow:hidden;background:var(--ground)}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
 .atlas-showcase-media:hover video,.atlas-showcase-media:hover img,.atlas-showcase-media:focus-visible video,.atlas-showcase-media:focus-visible img{transform:scale(1.03)}
@@ -226,20 +184,6 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
 .support-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin:0 0 .8rem}
 .support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--vellum);background:var(--madder);border-radius:6px;text-decoration:none}
 .support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
-/* Fills whatever blank space the card's own stretched height (matching the
-   Table card beside it) leaves below the give buttons -- flex:1 rather than
-   a fixed height so it absorbs exactly that space at any card height.
-   aspect-ratio caps it too, fixing a real bug: the photo itself is a
-   tall portrait crop (700x1050), and without a cap, an <img>
-   with height:100% inside this flex item falls back to that native ratio
-   during the browser's own auto-height/intrinsic-sizing pass -- which made
-   the Support card's own natural height balloon past Build a Table's,
-   forcing Build a Table to stretch to match and leaving a ~300px dead gap
-   above its own CTA link. The ratio still allows flex:1 to grow it taller
-   than this when the Table card genuinely is taller, same as before. */
-/* Inset padding, no background of its own, so the card's own --surface
-   shows through around the photo like a mat/frame rather than the image
-   running edge to edge inside its allotted space. */
 .support-photo{flex:1;aspect-ratio:16/10;min-height:60px;margin:0 0 .9rem;padding:.5rem;border-radius:6px;overflow:hidden}
 .support-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);border-radius:4px}
 .support-more{font-size:.8rem;color:var(--muted);margin:0}
@@ -318,14 +262,6 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
 
   <section class="atlas-showcase feature-card" aria-labelledby="atlas-showcase-title">
     <a class="atlas-showcase-media" href="atlas-v3.html" aria-label="Open Church Family Tree">
-      <!-- Slow pan from era 1 through era 10 on the live Church Family Tree,
-           recorded chrome-free (topbar/feature-bar/scope-note/legend/reset
-           button hidden -- just the map). Ambient, not meant to be read
-           frame-by-frame; the section's own text below carries the
-           explanation. Plays once per page load and resets to its era-1
-           opening frame afterward rather than resting on era 10 -- see the
-           script below. The whole thing is a link to the Family Tree
-           itself, not just decorative. -->
       <video id="atlas-showcase-video" autoplay muted playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
         <source src="assets/atlas-scroll-preview.webm" type="video/webm">
         <source src="assets/atlas-scroll-preview.mp4" type="video/mp4">
@@ -389,12 +325,6 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
 "use strict";
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// Plays once (no loop); resting on era 10's own frame afterward read as the
-// section stopping on "the end" rather than the church's whole span -- reset
-// back to the era-1 opening frame instead once playback finishes.
-// Reduced-motion visitors already get the static poster image in place of
-// this video (see .atlas-showcase-media's own CSS), so this listener never
-// fires for them.
 var showcaseVideo = document.getElementById('atlas-showcase-video');
 if (showcaseVideo) {
   showcaseVideo.addEventListener('ended', function(){
@@ -411,9 +341,6 @@ if (headerMark && !reduceMotion) {
   });
 }
 
-// Site nav collapsed into a "Menu" dropdown: :hover in CSS handles the
-// mouse case, this handles keyboard (Enter/Space on the button, then
-// Escape to close) and touch, which don't hover.
 var menu = document.querySelector('.menu');
 var menuToggle = document.getElementById('menu-toggle');
 if (menu && menuToggle) {
