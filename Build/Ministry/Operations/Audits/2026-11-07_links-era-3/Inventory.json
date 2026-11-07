@@ -1,0 +1,3043 @@
+{
+ "era": 3,
+ "date": "2026-11-07",
+ "movements": [
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity",
+   "name": "Cyrilline / Miaphysite Egyptian Christianity",
+   "dates": "451-642",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+     "other": "Alexandria, the earlier church of the city",
+     "other_id": "alexandria-catechetical",
+     "other_id_note": "matched: Alexandria (era 1)",
+     "other_era": 1,
+     "claim": "claims to continue the earlier Alexandrian church"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+     "other": "Egyptian desert monasticism",
+     "other_id": "desert-monasticism",
+     "other_id_note": "matched: The Desert (era 2)",
+     "other_era": 2,
+     "claim": "claims to continue the desert tradition",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Desert text calls the desert distinct from Alexandria, 'not its continuation', and does not name the Miaphysite church."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+     "other": "Chalcedonian church (the imperial side that accepted Chalcedon)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "generic 'Chalcedonian tradition'; the imperial church is the Chalcedonian side",
+     "other_era": 3,
+     "claim": "calls the Chalcedonian church a contested sibling"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+     "other": "Syriac Orthodox (West Syriac) church",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "calls the Syriac Orthodox church a contested sibling"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Council of Chalcedon defined Christ in 451 as one person known in two natures, the Egyptian church heard a betrayal of Cyril of Alexandria, its greatest teacher, and refused the council's wording.",
+     "other": "Council of Chalcedon (451)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "Chalcedon's wording was refused by the Egyptian church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Council of Chalcedon defined Christ in 451 as one person known in two natures, the Egyptian church heard a betrayal of Cyril of Alexandria, its greatest teacher, and refused the council's wording.",
+     "other": "Cyril of Alexandria, the church's greatest teacher",
+     "other_id": null,
+     "other_id_note": "person (d. 444); no census movement is his own; the era-2 Cyrilline Egypt entry begins in 451",
+     "other_era": null,
+     "claim": "Egyptians treat Cyril as their greatest teacher, and Chalcedon betrayed him"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its patriarch Dioscorus was deposed at Chalcedon itself, and for the next two centuries Alexandria had two rival lines of bishops — one backed by Constantinople, one held by most Egyptians — with the Miaphysite line surviving deposition, exile and periodic imperial force.",
+     "other": "Council of Chalcedon, which deposed Dioscorus",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the council deposed the church's patriarch Dioscorus"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its patriarch Dioscorus was deposed at Chalcedon itself, and for the next two centuries Alexandria had two rival lines of bishops — one backed by Constantinople, one held by most Egyptians — with the Miaphysite line surviving deposition, exile and periodic imperial force.",
+     "other": "the Constantinople-backed Chalcedonian line of Alexandrian bishops",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church's line in Alexandria",
+     "other_era": 3,
+     "claim": "rival line of bishops in Alexandria, backed by Constantinople"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It was carried by the monasteries of the Egyptian desert and increasingly in the Coptic language rather than Greek, and for two decades it sheltered Severus of Antioch, the exiled Syrian patriarch who became the movement's great theologian.",
+     "other": "Egyptian desert monasteries",
+     "other_id": "desert-monasticism",
+     "other_id_note": "matched: The Desert (era 2)",
+     "other_era": 2,
+     "claim": "the desert monasteries carried the Miaphysite line",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Desert text names Wadi al-Natrun monasteries as inhabited today, not as carriers of the Miaphysite line."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It was carried by the monasteries of the Egyptian desert and increasingly in the Coptic language rather than Greek, and for two decades it sheltered Severus of Antioch, the exiled Syrian patriarch who became the movement's great theologian.",
+     "other": "Severus of Antioch, exiled Syrian patriarch",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "person; voice of the Syriac Orthodox movement",
+     "other_era": 3,
+     "claim": "the Egyptian church sheltered exiled Severus for two decades"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Arab armies took Egypt in 642 the imperial pressure simply ended, and the church that had refused Chalcedon was left standing.",
+     "other": "Arab armies that conquered Egypt",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Arab conquest ended imperial pressure on the church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Arab armies took Egypt in 642 the imperial pressure simply ended, and the church that had refused Chalcedon was left standing.",
+     "other": "imperial pressure on the church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church that applied the pressure",
+     "other_era": 3,
+     "claim": "imperial pressure on the Miaphysite church ended in 642"
+    },
+    {
+     "field": "why",
+     "sentence": "When the Council of Chalcedon called Christ \"one person known in two natures\" in 451, Egypt's church heard betrayal of Cyril of Alexandria and refused the wording outright.",
+     "other": "Council of Chalcedon (451)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "Chalcedon's wording was refused by Egypt's church"
+    },
+    {
+     "field": "why",
+     "sentence": "When the Council of Chalcedon called Christ \"one person known in two natures\" in 451, Egypt's church heard betrayal of Cyril of Alexandria and refused the wording outright.",
+     "other": "Cyril of Alexandria",
+     "other_id": null,
+     "other_id_note": "person; no census movement is his own",
+     "other_era": null,
+     "claim": "Egypt's church heard Chalcedon as a betrayal of Cyril"
+    },
+    {
+     "field": "why",
+     "sentence": "For two centuries rival bishops split Alexandria between them, while the Miaphysite line survived deposition and exile, carried increasingly in Coptic rather than Greek.",
+     "other": "rival Chalcedonian bishops of Alexandria",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church's line",
+     "other_era": 3,
+     "claim": "rival bishops split Alexandria for two centuries"
+    },
+    {
+     "field": "legacy",
+     "sentence": "This is one of the traditions on the map that never ended: the same institution continued under Muslim rule as Coptic Christianity, and its patriarchal line runs unbroken to the Coptic Orthodox pope of Alexandria today.",
+     "other": "Coptic Christianity under early Islam",
+     "other_id": "coptic-christianity-under-early-islam",
+     "other_id_note": "matched: Coptic Egypt (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued as Coptic Christianity"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+     "other": "Syriac Orthodox church",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "Cyril gave the Oriental Orthodox family a shared anchor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-after-avarayr",
+     "other_id_note": "Armenian church in the 451-554 window",
+     "other_era": 3,
+     "claim": "Cyril gave the Armenian church a shared anchor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+     "other": "Ethiopian church (Aksumite line)",
+     "other_id": "aksumite-christianity",
+     "other_id_note": "Ethiopian church descends from Aksum (era 3 entry)",
+     "other_era": 3,
+     "claim": "Cyril gave the Ethiopian church a shared anchor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+     "other": "Eritrean church",
+     "other_id": null,
+     "other_id_note": "no separate census entry; Eritrea descends from Aksum",
+     "other_era": null,
+     "claim": "Cyril gave the Eritrean church a shared anchor"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+     "from": "byzantine-imperial-church-justinianic",
+     "to": "cyrilline-miaphysite-egyptian-christianity",
+     "type": "broke with",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity",
+   "name": "Syriac Orthodox (West Syriac) Christianity",
+   "dates": "451-636",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Heir of the Syriac tradition's Roman side (Ephrem's Edessa); Ghassanid royal patronage carried its hierarchy (Jacob Baradaeus consecrated under it)",
+     "other": "Syriac Edessa, the Roman side of the Syriac tradition",
+     "other_id": "syriac-edessa-nisibis",
+     "other_id_note": "matched: Syriac Edessa (era 1)",
+     "other_era": 1,
+     "claim": "claims heritage of the Syriac tradition's Roman side"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Heir of the Syriac tradition's Roman side (Ephrem's Edessa); Ghassanid royal patronage carried its hierarchy (Jacob Baradaeus consecrated under it)",
+     "other": "Ghassanid Arab kings",
+     "other_id": null,
+     "other_id_note": "client kingdom, state actor",
+     "other_era": null,
+     "claim": "Ghassanid patronage carried its hierarchy"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula were in a harder position than their Egyptian counterparts: inside the Roman Empire, without a patriarchal throne of their own, and for long stretches under Justinian without legal standing at all.",
+     "other": "Egyptian Miaphysite church",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "compares its position with the Egyptian church's"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula were in a harder position than their Egyptian counterparts: inside the Roman Empire, without a patriarchal throne of their own, and for long stretches under Justinian without legal standing at all.",
+     "other": "Council of Chalcedon",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "its Christians refused the council's formula"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Their leader Severus of Antioch was driven from his see in 518 and wrote from exile in Egypt for twenty years.",
+     "other": "Egypt, where Severus lived in exile",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "Severus wrote from exile in Egypt for twenty years"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A bishop consecrated under the protection of the Ghassanid Arab kings and of the empress Theodora, who spent decades traveling in disguise across Syria and Mesopotamia ordaining priests and bishops for a church the empire would not recognize.",
+     "other": "Ghassanid Arab kings",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Ghassanid kings protected the consecrations"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A bishop consecrated under the protection of the Ghassanid Arab kings and of the empress Theodora, who spent decades traveling in disguise across Syria and Mesopotamia ordaining priests and bishops for a church the empire would not recognize.",
+     "other": "Empress Theodora, court protector of anti-Chalcedonian leaders",
+     "other_id": null,
+     "other_id_note": "person of the imperial court; not a movement",
+     "other_era": null,
+     "claim": "Theodora protected the consecrations"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "John of Ephesus, himself a Miaphysite bishop and one of Justinian's own missionaries, wrote down fifty-eight portraits of these people while it was happening.",
+     "other": "Justinian's missionaries (the imperial church)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "imperial church mission",
+     "other_era": 3,
+     "claim": "John of Ephesus served as one of Justinian's missionaries"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Byzantine defeat at Yarmouk in 636 ended the empire's power to enforce against them, what emerged was a separate hierarchy that had never stopped functioning.",
+     "other": "Byzantine empire, whose enforcement against the church ended",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church that enforced Chalcedon",
+     "other_era": 3,
+     "claim": "the defeat at Yarmouk ended imperial enforcement against the church"
+    },
+    {
+     "field": "why",
+     "sentence": "This communion had no legal right to exist under Justinian, so its bishop Jacob Baradaeus spent decades traveling in disguise across Syria and Mesopotamia, secretly ordaining priests and bishops under the protection of Ghassanid Arab kings and the empress Theodora.",
+     "other": "Justinian's imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church that denied legal standing",
+     "other_era": 3,
+     "claim": "the church had no legal standing under Justinian"
+    },
+    {
+     "field": "why",
+     "sentence": "This communion had no legal right to exist under Justinian, so its bishop Jacob Baradaeus spent decades traveling in disguise across Syria and Mesopotamia, secretly ordaining priests and bishops under the protection of Ghassanid Arab kings and the empress Theodora.",
+     "other": "Ghassanid Arab kings",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Ghassanid kings protected the ordinations"
+    },
+    {
+     "field": "why",
+     "sentence": "When Byzantine power collapsed at Yarmouk in 636, what emerged was a hierarchy that had never stopped functioning despite having no legal standing at all.",
+     "other": "Byzantine power",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "Byzantine power collapsed at Yarmouk and ended enforcement"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It continued under Muslim rule and is today the Syriac Orthodox Church of Antioch, with congregations across the Middle East, in India and in a wide diaspora.",
+     "other": "Syriac Orthodox Church under Islam",
+     "other_id": "syriac-orthodox-under-islam",
+     "other_id_note": "matched: Syriac under Islam (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued under Muslim rule"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+     "from": "syriac-edessa-nisibis",
+     "to": "syriac-orthodox-west-syriac-christianity",
+     "type": "gave rise to",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "the-church-of-the-east-under-persia",
+   "name": "The Church of the East under Persia",
+   "dates": "424-651",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "This church is a direct heir of the Syriac Christian tradition, and the St Thomas Christians of India belonged to its communion.",
+     "other": "Syriac Christian tradition (Edessa)",
+     "other_id": "syriac-edessa-nisibis",
+     "other_id_note": "matched: Syriac Edessa (era 1)",
+     "other_era": 1,
+     "claim": "claims to be a direct heir of the Syriac tradition"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "This church is a direct heir of the Syriac Christian tradition, and the St Thomas Christians of India belonged to its communion.",
+     "other": "St Thomas Christians of India",
+     "other_id": "st-thomas-christians-of-india",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the St Thomas Christians belonged to its communion"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+     "other": "Synod of Persian bishops (424)",
+     "other_id": "persian-church-of-the-east-early",
+     "other_id_note": "matched: Persian Church (era 2), same church before 451",
+     "other_era": 2,
+     "claim": "the 424 synod declared the church independent of outside authority",
+     "era2_names_it": true,
+     "era2_sentence": "A synod at Seleucia-Ctesiphon in 410 gave it a legal structure and a recognized head, and a further synod in 424 declared that its bishops would answer to no authority outside Persia.",
+     "era2_note": "The era-2 text names the same 424 synod and its declaration."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+     "other": "Roman world and its councils",
+     "other_id": "imperial-juridical-christianity",
+     "other_id_note": "matched by sense: Church and Empire (era 2)",
+     "other_era": 2,
+     "claim": "the church was deliberately independent of Rome and its councils",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Church and Empire text covers the imperial church's councils; it does not name the Persian church."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+     "other": "Sasanian shah and state",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the church lived under a Zoroastrian shah"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+     "other": "Chalcedonian church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "its answer on Christ differed from Chalcedon's"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+     "other": "Miaphysite church of Egypt",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "generic 'Miaphysites'; Egyptian church chosen, Syriac church also Miaphysite",
+     "other_era": 3,
+     "claim": "its answer on Christ differed from the Miaphysites'"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+     "other": "Miaphysite church of Syria",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "generic 'Miaphysites' also covers the Syriac church",
+     "other_era": 3,
+     "claim": "its answer on Christ differed from the Miaphysites'"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+     "other": "Theodore of Mopsuestia",
+     "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+     "other_id_note": "matched: Antioch (era 2); Theodore taught there",
+     "other_era": 2,
+     "claim": "the church follows Theodore's teaching on the two natures",
+     "era2_names_it": true,
+     "era2_sentence": "Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death, and much of his work survives only in Syriac translation preserved by the Church of the East.",
+     "era2_note": "Era-2 text names the Church of the East as preserving Theodore's works in Syriac. It names the link, not his doctrine as the church's own tradition."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+     "other": "Unnamed opponents of the church",
+     "other_id": null,
+     "other_id_note": "opponents not named in the field",
+     "other_era": null,
+     "claim": "opponents gave the church the name Nestorian"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept expanding eastward.",
+     "other": "Sasanian empire and Arab armies",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the church carried on after the Sasanian empire fell"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its communion stretched far beyond Mesopotamia: the St Thomas Christians of India belonged to it.",
+     "other": "St Thomas Christians of India",
+     "other_id": "st-thomas-christians-of-india",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the St Thomas Christians belonged to its communion"
+    },
+    {
+     "field": "why",
+     "sentence": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor.",
+     "other": "Christian (Roman) emperor and the imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "the church lived under a non-Christian shah rather than a Christian emperor"
+    },
+    {
+     "field": "why",
+     "sentence": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor.",
+     "other": "Synod of Persian bishops (424)",
+     "other_id": "persian-church-of-the-east-early",
+     "other_id_note": "matched: Persian Church (era 2)",
+     "other_era": 2,
+     "claim": "the 424 synod declared the bishops answerable to no outside authority",
+     "era2_names_it": true,
+     "era2_sentence": "A synod at Seleucia-Ctesiphon in 410 gave it a legal structure and a recognized head, and a further synod in 424 declared that its bishops would answer to no authority outside Persia.",
+     "era2_note": "The era-2 text names the same 424 synod and its declaration."
+    },
+    {
+     "field": "why",
+     "sentence": "Its school at Nisibis governed its students by written statutes, and its communion reached as far as the St Thomas Christians of India.",
+     "other": "St Thomas Christians of India",
+     "other_id": "st-thomas-christians-of-india",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the St Thomas Christians belonged to its communion"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued without a break into the following centuries, when it became the most geographically extended Christian body in the world — its missions reaching Central Asia and China along the Silk Road.",
+     "other": "Church of the East on the Silk Road",
+     "other_id": "the-church-of-the-east-on-the-silk-road",
+     "other_id_note": "matched: Silk Road Church (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued and expanded along the Silk Road"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
+     "other": "St Thomas Christians of Kerala",
+     "other_id": "st-thomas-christians-of-india",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the Indian branch is ancestor of several churches today"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
+     "other": "Assyrian Church of the East and Chaldean Catholic Church",
+     "other_id": null,
+     "other_id_note": "modern successor churches; no census entry",
+     "other_era": null,
+     "claim": "its heirs survive as these two churches"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Along the way its scholars translated Greek medicine, philosophy and logic into Syriac, work later carried on into Arabic — one of the routes by which Greek learning reached the wider medieval world.",
+     "other": "Later Arabic-language translators",
+     "other_id": null,
+     "other_id_note": "no single census movement",
+     "other_era": null,
+     "claim": "the Syriac translation work was carried on into Arabic"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+     "from": "syriac-edessa-nisibis",
+     "to": "the-church-of-the-east-under-persia",
+     "type": "influenced",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "armenian-christianity-after-avarayr",
+   "name": "Armenian Christianity after Avarayr",
+   "dates": "451-554",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Formed via Cappadocia + Edessa; rejects Chalcedon at Dvin",
+     "other": "Cappadocian Nicene pastoral and monastic tradition",
+     "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+     "other_id_note": "matched by name (era 2)",
+     "other_era": 2,
+     "claim": "the Armenian church was formed via Cappadocia",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Cappadocian text does not name Armenia."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Formed via Cappadocia + Edessa; rejects Chalcedon at Dvin",
+     "other": "Syriac Edessa",
+     "other_id": "syriac-edessa-nisibis",
+     "other_id_note": "matched: Syriac Edessa (era 1)",
+     "other_era": 1,
+     "claim": "the Armenian church was formed via Edessa"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Formed via Cappadocia + Edessa; rejects Chalcedon at Dvin",
+     "other": "Chalcedon (the Chalcedonian side)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "the church rejects Chalcedon at Dvin"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 451, while the Roman world's bishops met at Chalcedon, Armenia's nobles met the Persian army at Avarayr rather than accept an imposed return to Zoroastrian worship.",
+     "other": "Persian army",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Armenian nobles fought the Persian army at Avarayr"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "They lost the battle and their commander, Vardan Mamikonian, but the resistance went on until Persia conceded the right to remain Christian in 484.",
+     "other": "Persia",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Persia conceded the right to remain Christian in 484"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Absorbed in that struggle, Armenia had sent no bishops to Chalcedon.",
+     "other": "Council of Chalcedon",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "Armenia sent no bishops to Chalcedon"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When it did take up the council's formula it judged it too close to dividing Christ, and at the second council of Dvin in 554 the church formally set itself outside Chalcedon.",
+     "other": "Chalcedonian side",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church's side",
+     "other_era": 3,
+     "claim": "at Dvin in 554 the church set itself outside Chalcedon"
+    },
+    {
+     "field": "why",
+     "sentence": "In 451, while Roman bishops argued over Christ's natures at Chalcedon, Armenia's nobles fought and lost a battle at Avarayr rather than accept a forced return to Zoroastrian worship.",
+     "other": "Persian state imposing Zoroastrian worship",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Armenian nobles fought rather than accept Zoroastrian worship"
+    },
+    {
+     "field": "why",
+     "sentence": "In 451, while Roman bishops argued over Christ's natures at Chalcedon, Armenia's nobles fought and lost a battle at Avarayr rather than accept a forced return to Zoroastrian worship.",
+     "other": "Council of Chalcedon",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "Roman bishops argued over Christ's natures at Chalcedon"
+    },
+    {
+     "field": "why",
+     "sentence": "The church came to read that defeat as a covenant sealed in martyrdom, and a century later, at the second council of Dvin in 554, it formally set itself outside Chalcedon's formula.",
+     "other": "Chalcedonian formula",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church's formula",
+     "other_era": 3,
+     "claim": "the church set itself outside Chalcedon's formula in 554"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Armenian Apostolic Church that came out of this period is still the church of Armenia and of Armenians everywhere, and the same institution continued through the medieval Bagratid centuries into the present.",
+     "other": "Bagratid Armenian church",
+     "other_id": "bagratid-armenian-christianity",
+     "other_id_note": "matched: Bagratid Armenia (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued through the Bagratid centuries"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids",
+   "name": "Armenian Christianity before the Bagratids",
+   "dates": "c. 554-884",
+   "relationships": [
+    {
+     "field": "why",
+     "sentence": "Armenia from the end of the After Avarayr entry in 554 to the start of the Bagratid entry in 884.",
+     "other": "Armenian church after Avarayr (the preceding entry)",
+     "other_id": "armenian-christianity-after-avarayr",
+     "other_id_note": "matched: Armenia of Avarayr (era 3), the preceding period",
+     "other_era": 3,
+     "claim": "the period begins where the After Avarayr entry ends in 554"
+    },
+    {
+     "field": "why",
+     "sentence": "Armenia from the end of the After Avarayr entry in 554 to the start of the Bagratid entry in 884.",
+     "other": "Bagratid Armenian church (the following entry)",
+     "other_id": "bagratid-armenian-christianity",
+     "other_id_note": "matched: Bagratid Armenia (era 4), the following period",
+     "other_era": 4,
+     "claim": "the period ends where the Bagratid entry begins in 884"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": [
+    {
+     "field": "why",
+     "sentence": "Armenia from the end of the After Avarayr entry in 554 to the start of the Bagratid entry in 884.",
+     "kind": "cataloguing language",
+     "term": "entry"
+    },
+    {
+     "field": "why",
+     "sentence": "Armenia from the end of the After Avarayr entry in 554 to the start of the Bagratid entry in 884.",
+     "kind": "cataloguing language",
+     "term": "entry"
+    }
+   ]
+  },
+  {
+   "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "name": "Chalcedonian Monasticism - Judean Desert & Gaza",
+   "dates": "c. 450-614",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+     "other": "Desert monasticism of Egypt",
+     "other_id": "desert-monasticism",
+     "other_id_note": "matched: The Desert (era 2)",
+     "other_era": 2,
+     "claim": "claims to be the direct heir of Desert Monasticism",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Desert text says later monasticism descends from it generally, naming Sinai and Athos, not the Judean or Gaza houses."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+     "other": "Sinai monastic community (St Catherine's) and John Climacus",
+     "other_id": null,
+     "other_id_note": "Sinai community has no census entry",
+     "other_era": null,
+     "claim": "the tradition fed Sinai through Climacus"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+     "other": "Later Orthodox practice",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the tradition fed later Orthodox practice"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza, monastic settlement multiplied in the century after Chalcedon into something like a second population — laurae where hermits lived apart through the week and gathered on Sundays, and communal houses holding hundreds.",
+     "other": "The laura, the Palestinian form of monastic life",
+     "other_id": "palestinian-ascetic-monasticism-early",
+     "other_id_note": "matched: Palestinian Monasticism (era 2), where the laura form began",
+     "other_era": 2,
+     "claim": "the laura form that the Judean houses used",
+     "era2_names_it": true,
+     "era2_sentence": "The laura - solitaries through the week, community on Sunday - became the Palestinian form and passed into the great Judean desert monasteries of Euthymius and Sabas in the following century, and from there into the Byzantine monastic tradition.",
+     "era2_note": "Era-2 text names the Judean desert monasteries of Euthymius and Sabas as where the laura passed."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+     "other": "Chalcedonian church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "the monks firmly supported Chalcedon"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+     "other": "The empire and its doctrinal disputes",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "the empire pulled the monks into its doctrinal fights"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+     "other": "Origenist teaching (the purged party)",
+     "other_id": null,
+     "other_id_note": "no census movement for Origenism",
+     "other_era": null,
+     "claim": "the Origenist purge split the monks' houses"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Persian army's sack of Jerusalem in 614 tore through the desert monasteries, and the survivors wrote down what had been lost.",
+     "other": "Persian army",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Persian army sacked Jerusalem in 614"
+    },
+    {
+     "field": "why",
+     "sentence": "These firm supporters of Chalcedon were pulled into the empire's doctrinal fights all the same, and their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+     "other": "The empire and its doctrinal disputes",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "the Chalcedonian monks were pulled into the empire's fights"
+    },
+    {
+     "field": "why",
+     "sentence": "These firm supporters of Chalcedon were pulled into the empire's doctrinal fights all the same, and their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+     "other": "Persian army",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Persian sack tore the monasteries apart"
+    },
+    {
+     "field": "legacy",
+     "sentence": "A great deal of what Eastern Orthodox monasticism still does comes from here.",
+     "other": "Eastern Orthodox monasticism",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "Eastern Orthodox monasticism descends from here"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ladder of Divine Ascent, written at Sinai just after this period, is still read aloud in Orthodox monasteries every Lent; and Dorotheus of Gaza remains standard spiritual reading.",
+     "other": "Sinai and John Climacus",
+     "other_id": null,
+     "other_id_note": "Sinai community has no census entry",
+     "other_era": null,
+     "claim": "the Ladder was written at Sinai"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Two of the houses standing in this window — Mar Saba in the Judean desert and Saint Catherine's at Sinai — are still inhabited, among the oldest continuously occupied Christian communities anywhere.",
+     "other": "St Catherine's Monastery, Sinai",
+     "other_id": null,
+     "other_id_note": "Sinai community has no census entry",
+     "other_era": null,
+     "claim": "Saint Catherine's at Sinai still stands"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The liturgical order associated with Sabas's monastery underlies Orthodox worship to this day.",
+     "other": "Orthodox worship",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "Sabas's liturgical order underlies Orthodox worship"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+     "from": "palestinian-ascetic-monasticism-early",
+     "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+     "type": "continued as",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "early-benedictine-italian-monasticism",
+   "name": "Early Benedictine / Italian Monasticism",
+   "dates": "c. 500-604",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+     "other": "John Cassian, who carried the Egyptian desert west",
+     "other_id": "gallic-monastic-ascetic-christianity",
+     "other_id_note": "matched: Gallic Monasticism (era 2), Cassian's Marseilles houses",
+     "other_era": 2,
+     "claim": "Benedictines received the desert through Cassian",
+     "era2_names_it": true,
+     "era2_sentence": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe.",
+     "era2_note": "Era-2 text names Benedict's Rule commending Cassian's Conferences by name."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+     "other": "The Egyptian desert",
+     "other_id": "desert-monasticism",
+     "other_id_note": "matched: The Desert (era 2)",
+     "other_era": 2,
+     "claim": "Benedictines received the desert tradition",
+     "era2_names_it": true,
+     "era2_sentence": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+     "era2_note": "Era-2 text names Benedict's Rule sending readers to Cassian's reports from Egypt."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+     "other": "The Latin monastic line (its later descendants)",
+     "other_id": null,
+     "other_id_note": "generic; descendants named in legacy",
+     "other_era": null,
+     "claim": "Benedictines are parent of the Latin monastic line"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Benedict of Nursia left Rome for a cave at Subiaco and ended up, around 529, founding a monastery on the hill of Monte Cassino, in an Italy being torn apart first by the Gothic wars and then by the Lombard invasions.",
+     "other": "Gothic wars and Lombard invasions",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Italy was torn apart by Gothic wars and Lombard invasions"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot, much of it adapted from an older and harsher text but shortened, moderated, and written with an eye for what ordinary people could actually sustain.",
+     "other": "An older, harsher rule (anonymous)",
+     "other_id": null,
+     "other_id_note": "anonymous older rule; no census entry",
+     "other_era": null,
+     "claim": "the Rule was adapted from an older text"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+     "other": "Gregory the Great",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3)",
+     "other_era": 3,
+     "claim": "Gregory wrote the only account of Benedict's life"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+     "other": "Gregory the Great",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3)",
+     "other_era": 3,
+     "claim": "Gregory governed the Italian church through his letters"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+     "other": "Lombard armies",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Lombard armies were part of Italy's disasters"
+    },
+    {
+     "field": "why",
+     "sentence": "Benedict of Nursia left Rome for a cave at Subiaco and, around 529, founded a monastery at Monte Cassino in an Italy being torn apart by the Gothic wars and then the Lombard invasions.",
+     "other": "Gothic wars and Lombard invasions",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Italy was torn apart by Gothic wars and Lombard invasions"
+    },
+    {
+     "field": "why",
+     "sentence": "His Rule, seventy-three short chapters on prayer, work, food and the election of an abbot, shortened and softened an older, harsher text with an eye for what ordinary people could actually sustain.",
+     "other": "An older, harsher rule (anonymous)",
+     "other_id": null,
+     "other_id_note": "anonymous older rule; no census entry",
+     "other_era": null,
+     "claim": "the Rule shortened and softened an older text"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+     "other": "Carolingian reformers",
+     "other_id": "carolingian-reform-christianity",
+     "other_id_note": "matched: Carolingians (era 4), its heirs",
+     "other_era": 4,
+     "claim": "Carolingian reformers made the Rule the norm"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+     "other": "Cluniac reform monasticism",
+     "other_id": "cluniac-reform-monasticism",
+     "other_id_note": "matched: Cluny (era 4), its heirs",
+     "other_era": 4,
+     "claim": "the Rule stands behind the Cluniacs"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+     "other": "Cistercians, Trappists and Benedictine congregations",
+     "other_id": null,
+     "other_id_note": "no census entries for these later orders",
+     "other_era": null,
+     "claim": "the Rule stands behind the Cistercians, Trappists and congregations"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Monte Cassino itself was destroyed repeatedly — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time; monks live there now.",
+     "other": "Lombards, Saracens, earthquake and Allied bombing (attackers)",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Monte Cassino was destroyed by attackers repeatedly"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "desert-monasticism--early-benedictine-italian-monasticism",
+     "from": "desert-monasticism",
+     "to": "early-benedictine-italian-monasticism",
+     "type": "influenced",
+     "confidence": "Widely Accepted"
+    },
+    {
+     "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+     "from": "gallic-monastic-ascetic-christianity",
+     "to": "early-benedictine-italian-monasticism",
+     "type": "influenced",
+     "confidence": "Widely Accepted"
+    },
+    {
+     "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+     "from": "early-benedictine-italian-monasticism",
+     "to": "roman-church-gregorian",
+     "type": "influenced",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "roman-church-gregorian",
+   "name": "The Roman Church in the Age of Gregory the Great",
+   "dates": "c. 560-604",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Overlaps early-benedictine-italian-monasticism, whose window closes at Gregory's death, in person rather than in kind: he was a monk and wrote the only life of Benedict there is, but the Pastoral Rule is an episcopal manual and the Register is a government's paperwork.",
+     "other": "Early Benedictine monasticism",
+     "other_id": "early-benedictine-italian-monasticism",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "Gregory overlaps the Benedictines, and wrote the only life of Benedict"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "other": "Anglo-Saxon England",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "Gregory's letters reach the Anglo-Saxon church as evidence"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "other": "Merovingian Gaul",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "Gregory's letters reach the Merovingian church as evidence"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "other": "Byzantine imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "Gregory's letters reach the imperial church as evidence"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula.",
+     "other": "Gothic wars and Justinian's reconquest",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "wars and reconquest wrecked Rome"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula.",
+     "other": "Lombard kingdom",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Lombards held most of Italy from 568"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The imperial government sat at Ravenna and had little left to spend on Rome.",
+     "other": "Imperial government at Ravenna",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the imperial government had little left to spend on Rome"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Gregory was city prefect, gave it up, turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative.",
+     "other": "Constantinople (the imperial church)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church at Constantinople",
+     "other_era": 3,
+     "claim": "Gregory was sent to Constantinople as papal representative"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He paid soldiers and negotiated with Lombard dukes when the exarch would not.",
+     "other": "Lombard dukes and the imperial exarch",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Gregory negotiated with Lombard dukes when the exarch would not"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+     "other": "Bishops of Gaul",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched: Merovingian Gaul (era 3)",
+     "other_era": 3,
+     "claim": "Gregory told the Gallic bishops what they did wrong"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+     "other": "Bishops of Spain",
+     "other_id": "nicene-visigothic-iberia",
+     "other_id_note": "matched: Visigothic Iberia (era 3)",
+     "other_era": 3,
+     "claim": "Gregory told the Spanish bishops what they did wrong"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+     "other": "Bishops of Africa",
+     "other_id": "latin-africa-under-byzantium",
+     "other_id_note": "matched: Byzantine Africa (era 3)",
+     "other_era": 3,
+     "claim": "Gregory told the African bishops what they did wrong"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+     "other": "Bishops of Illyricum",
+     "other_id": null,
+     "other_id_note": "region, not a census movement",
+     "other_era": null,
+     "claim": "Gregory told the Illyrian bishops what they did wrong"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He refused the title of universal bishop when Constantinople's patriarch used it, and called himself servant of the servants of God instead.",
+     "other": "Patriarch of Constantinople",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "Gregory refused the universal-bishop title used by Constantinople"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And in 596 he sent a party of his own monks to Kent, and then wrote to them again and again about what to do with pagan temples and how far to insist on Roman custom.",
+     "other": "Anglo-Saxon Kent (the mission)",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "Gregory sent monks to Kent in 596"
+    },
+    {
+     "field": "why",
+     "sentence": "Gregory the Great became bishop of Rome in 590, during a plague, in a city whose Roman government had already collapsed under the Gothic wars and the Lombard invasions.",
+     "other": "Gothic wars and Lombard invasions",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Rome's government had collapsed under the wars and invasions"
+    },
+    {
+     "field": "why",
+     "sentence": "He ran the papal estates in Sicily as the city's food supply, negotiated directly with Lombard dukes when the imperial governor at Ravenna would not, and in 596 sent his own monks to Kent to begin a mission whose questions and his answers still survive in his letters.",
+     "other": "Lombard dukes and the imperial governor",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Gregory negotiated with Lombard dukes when the governor would not"
+    },
+    {
+     "field": "why",
+     "sentence": "He ran the papal estates in Sicily as the city's food supply, negotiated directly with Lombard dukes when the imperial governor at Ravenna would not, and in 596 sent his own monks to Kent to begin a mission whose questions and his answers still survive in his letters.",
+     "other": "Anglo-Saxon Kent (the mission)",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "Gregory sent his monks to Kent in 596"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years.",
+     "other": "Carolingian councils",
+     "other_id": "carolingian-reform-christianity",
+     "other_id_note": "matched: Carolingians (era 4)",
+     "other_era": 4,
+     "claim": "Carolingian councils legislated the Pastoral Rule"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years.",
+     "other": "King Alfred (late Anglo-Saxon England)",
+     "other_id": "late-anglo-saxon-christianity",
+     "other_id_note": "matched: Late Anglo-Saxon (era 4)",
+     "other_era": 4,
+     "claim": "Alfred translated the Pastoral Rule into English"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The mission to Kent is why there is an English church in communion with Rome at all, and why anglo-saxon-christianity has a Roman half.",
+     "other": "Anglo-Saxon England",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the Kent mission gave Anglo-Saxon Christianity a Roman half"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And the working model of the bishop of Rome as the practical government of central Italy - feeding the city from church estates, treating with invaders, paying troops - is where the temporal power of the papacy actually begins, whatever later documents claimed for it.",
+     "other": "Invaders (Lombards)",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Rome treated with invaders"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+     "from": "early-benedictine-italian-monasticism",
+     "to": "roman-church-gregorian",
+     "type": "influenced",
+     "confidence": "Documented"
+    },
+    {
+     "id": "roman-church-gregorian--anglo-saxon-christianity",
+     "from": "roman-church-gregorian",
+     "to": "anglo-saxon-christianity",
+     "type": "gave rise to",
+     "confidence": "Documented"
+    },
+    {
+     "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+     "from": "roman-church-gregorian",
+     "to": "byzantine-imperial-church-justinianic",
+     "type": "argued against",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Overlaps early-benedictine-italian-monasticism, whose window closes at Gregory's death, in person rather than in kind: he was a monk and wrote the only life of Benedict there is, but the Pastoral Rule is an episcopal manual and the Register is a government's paperwork.",
+     "kind": "raw movement id",
+     "term": "early-benedictine-italian-monasticism"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "kind": "raw movement id",
+     "term": "byzantine-imperial-church-justinianic"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "kind": "raw movement id",
+     "term": "merovingian-gallic-christianity"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+     "kind": "raw movement id",
+     "term": "anglo-saxon-christianity"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The mission to Kent is why there is an English church in communion with Rome at all, and why anglo-saxon-christianity has a Roman half.",
+     "kind": "raw movement id",
+     "term": "anglo-saxon-christianity"
+    }
+   ]
+  },
+  {
+   "id": "merovingian-gallic-christianity",
+   "name": "Merovingian Gallic Christianity",
+   "dates": "c. 480-620",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Receives Martin of Tours's line; parent of Carolingian Christianity",
+     "other": "Martin of Tours's monastic line",
+     "other_id": "gallic-monastic-ascetic-christianity",
+     "other_id_note": "matched: Gallic Monasticism (era 2)",
+     "other_era": 2,
+     "claim": "Merovingian Gaul receives Martin's line",
+     "era2_names_it": true,
+     "era2_sentence": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
+     "era2_note": "Era-2 text names the Merovingian Gallic church as the church that follows its seedbed."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Receives Martin of Tours's line; parent of Carolingian Christianity",
+     "other": "Carolingian Christianity",
+     "other_id": "carolingian-reform-christianity",
+     "other_id_note": "matched: Carolingians (era 4)",
+     "other_era": 4,
+     "claim": "Merovingian Gaul is the parent of Carolingian Christianity"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Frankish king Clovis accepted baptism as a Nicene Christian around the turn of the sixth century, he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held.",
+     "other": "Homoian church of the barbarian kingdoms",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "Clovis brought the Franks into the Nicene church rather than the Homoian one"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the Frankish king Clovis accepted baptism as a Nicene Christian around the turn of the sixth century, he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held.",
+     "other": "Clovis and the Frankish monarchy",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Clovis accepted Nicene baptism"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Gregory of Tours, writing two generations later, filled book after book with the shrines, relics and cures that structured everyday devotion, alongside a famously unsparing narrative of Frankish kings murdering one another.",
+     "other": "Frankish kings",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Frankish kings murdered one another"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Queens became founders — Radegund walked out of a royal marriage to establish a convent at Poitiers — and poets wrote hymns for their relics.",
+     "other": "Frankish royal house",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Radegund left a royal marriage"
+    },
+    {
+     "field": "why",
+     "sentence": "When the Frankish king Clovis accepted Nicene baptism around 500, his bishops preached to congregations who still consulted soothsayers and slipped out before the sermon.",
+     "other": "Clovis and the Frankish monarchy",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Clovis accepted Nicene baptism around 500"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued directly into Carolingian Christianity, which reformed and reorganized it rather than replacing it.",
+     "other": "Carolingian Christianity",
+     "other_id": "carolingian-reform-christianity",
+     "other_id_note": "matched: Carolingians (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued into Carolingian Christianity"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its shrine culture set the pattern for Western pilgrimage, and its partnership of Frankish crown and Gallic bishops became a working model for church and kingdom across medieval Europe.",
+     "other": "Frankish crown",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Frankish crown partnered with the Gallic bishops"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+     "from": "gallic-monastic-ascetic-christianity",
+     "to": "merovingian-gallic-christianity",
+     "type": "influenced",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "insular-irish-monastic-christianity",
+   "name": "Insular / Irish Monastic Christianity",
+   "dates": "c. 450-664",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+     "other": "Gallic asceticism (Lérins, Marseilles, Tours)",
+     "other_id": "gallic-monastic-ascetic-christianity",
+     "other_id_note": "matched: Gallic Monasticism (era 2)",
+     "other_era": 2,
+     "claim": "Irish monasticism is a contested line from Gallic asceticism",
+     "era2_names_it": true,
+     "era2_sentence": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
+     "era2_note": "Era-2 text names Irish monasticism as descended through Lérins and Tours."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+     "other": "Eastern (Egyptian desert) asceticism",
+     "other_id": "desert-monasticism",
+     "other_id_note": "matched: The Desert (era 2)",
+     "other_era": 2,
+     "claim": "Irish monasticism is a contested line from Eastern asceticism",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Desert text names Cassian and Benedict, not Irish monasticism."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+     "other": "Anglo-Saxon Christianity",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "Irish monasticism is parent of Anglo-Saxon Christianity"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Ireland was never Roman, and the church that took root there in the fifth century organized itself accordingly — around monasteries and their abbots rather than around city bishops, with monastic families and founder-saints anchoring whole regions.",
+     "other": "Roman Empire",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Ireland was never part of the Roman world"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+     "other": "Iona monastery",
+     "other_id": null,
+     "other_id_note": "monastery; no census entry",
+     "other_era": null,
+     "claim": "Columba was sent to Iona"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+     "other": "Gaul (Merovingian Gaul)",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched: Merovingian Gaul (era 3)",
+     "other_era": 3,
+     "claim": "Columbanus was sent into Gaul"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+     "other": "Luxeuil and Bobbio monasteries",
+     "other_id": null,
+     "other_id_note": "monasteries; no census entry",
+     "other_era": null,
+     "claim": "Columbanus founded Luxeuil and Bobbio"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+     "other": "Frankish kings",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Columbanus argued with Frankish kings"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+     "other": "Roman practice of Easter",
+     "other_id": null,
+     "other_id_note": "no census movement covers Rome in 664",
+     "other_era": null,
+     "claim": "Irish Easter and tonsure collided with Roman practice"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+     "other": "Northumbrian king at the Synod of Whitby",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Northumbrian king ruled against the Irish reckoning"
+    },
+    {
+     "field": "why",
+     "sentence": "Ireland was never part of the Roman Empire, and its church grew up organized around monasteries and abbots rather than city bishops.",
+     "other": "Roman Empire",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Ireland was never part of the Roman Empire"
+    },
+    {
+     "field": "why",
+     "sentence": "Patrick's own two surviving letters, a defense of his life and a protest against the enslavement of his converts, are strikingly personal, and the practice of permanent voluntary exile it produced sent Columba to Iona and Columbanus deep into Gaul and Italy.",
+     "other": "Gaul (Merovingian Gaul)",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched: Merovingian Gaul (era 3)",
+     "other_era": 3,
+     "claim": "Peregrinatio sent Columbanus deep into Gaul"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Irish monasticism reshaped continental Christianity: Columbanus's foundations seeded dozens of monasteries across Gaul and Italy, and Iona-trained missionaries carried the faith into Northumbria and beyond.",
+     "other": "Gaul (Merovingian Gaul)",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched: Merovingian Gaul (era 3)",
+     "other_era": 3,
+     "claim": "Columbanus's foundations seeded monasteries across Gaul"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Irish monasticism reshaped continental Christianity: Columbanus's foundations seeded dozens of monasteries across Gaul and Italy, and Iona-trained missionaries carried the faith into Northumbria and beyond.",
+     "other": "Northumbria (Anglo-Saxon England)",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "Iona-trained missionaries carried the faith into Northumbria"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The penitential handbooks written here spread through the Frankish church and stand behind the private, repeatable confession that became normal Western practice.",
+     "other": "Frankish church",
+     "other_id": "merovingian-gallic-christianity",
+     "other_id_note": "matched: Merovingian Gaul (era 3)",
+     "other_era": 3,
+     "claim": "the penitentials spread through the Frankish church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Iona, Clonmacnoise and Glendalough are all still visited, and Iona has a working religious community again.",
+     "other": "Iona community",
+     "other_id": null,
+     "other_id_note": "modern community; no census entry",
+     "other_era": null,
+     "claim": "Iona has a religious community again"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "desert-monasticism--insular-irish-monastic-christianity",
+     "from": "desert-monasticism",
+     "to": "insular-irish-monastic-christianity",
+     "type": "influenced",
+     "confidence": "Inferential-Thin"
+    },
+    {
+     "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+     "from": "gallic-monastic-ascetic-christianity",
+     "to": "insular-irish-monastic-christianity",
+     "type": "influenced",
+     "confidence": "Inferential-Thin"
+    },
+    {
+     "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+     "from": "insular-irish-monastic-christianity",
+     "to": "anglo-saxon-christianity",
+     "type": "gave rise to",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "aksumite-christianity",
+   "name": "Aksumite Christianity",
+   "dates": "451-615",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+     "other": "Alexandria (the Miaphysite Egyptian church)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "Alexandria's church in 451-615 is the Miaphysite Egyptian church (era 3)",
+     "other_era": 3,
+     "claim": "Aksum was in communion with Alexandria"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+     "other": "Chalcedon (the Chalcedonian side)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "Aksum shared the rejection of Chalcedon"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+     "other": "Medieval Ethiopian church",
+     "other_id": "post-aksumite-ethiopian-christianity",
+     "other_id_note": "matched: Highland Ethiopia (era 4), its heir",
+     "other_era": 4,
+     "claim": "Aksum was parent of the medieval Ethiopian church"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+     "other": "Christians of Najran",
+     "other_id": null,
+     "other_id_note": "community; no census movement",
+     "other_era": null,
+     "claim": "Najran martyrs are part of Aksum's story"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+     "other": "Himyar (Yemeni kingdom)",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Kaleb intervened in Himyar around 525"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Tradition credits the spread of monasticism and much of that translation work to the Nine Saints, monks said to have come from the Roman east around the turn of the sixth century.",
+     "other": "Nine Saints (from the Roman east)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Roman east (imperial church); tradition names no movement",
+     "other_era": 3,
+     "claim": "the Nine Saints came from the Roman east"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran.",
+     "other": "Himyar and Najran Christians",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the king of Himyar massacred the Christians of Najran"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its church stayed in communion with Alexandria and shared its refusal of Chalcedon.",
+     "other": "Alexandria (the Miaphysite Egyptian church)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "Alexandria's church in 451-615 is the Miaphysite Egyptian church (era 3)",
+     "other_era": 3,
+     "claim": "Aksum's church stayed in communion with Alexandria"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its church stayed in communion with Alexandria and shared its refusal of Chalcedon.",
+     "other": "Chalcedon (the Chalcedonian side)",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "Aksum shared the refusal of Chalcedon"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "But the kingdom was still substantial enough in 615 that Muhammad sent his first followers to its king for protection.",
+     "other": "Muhammad and his first followers",
+     "other_id": null,
+     "other_id_note": "religious leader and early Muslims; no census movement",
+     "other_era": null,
+     "claim": "Muhammad sent followers to the Aksumite king"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Aksumite king Kaleb crossed the Red Sea in about 525, destroyed his kingdom, and for a few decades Aksum ruled southern Arabia.",
+     "other": "Himyar (Yemeni kingdom)",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Kaleb destroyed the Himyar kingdom"
+    },
+    {
+     "field": "why",
+     "sentence": "Aksum was already a Christian kingdom astride the Red Sea trade routes when, around 525, its king Kaleb crossed the water to avenge the massacre of Christians at Najran and briefly ruled southern Arabia.",
+     "other": "Christians of Najran and Himyar",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Kaleb crossed the water to avenge the Najran massacre"
+    },
+    {
+     "field": "why",
+     "sentence": "Its church stayed in communion with Alexandria and shared its rejection of Chalcedon, though the direct evidence from these particular centuries is thin: mostly inscriptions, early manuscripts and archaeology.",
+     "other": "Alexandria (the Miaphysite Egyptian church)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "Alexandria's church in 451-615 is the Miaphysite Egyptian church (era 3)",
+     "other_era": 3,
+     "claim": "Aksum's church stayed in communion with Alexandria"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+     "other": "Ethiopian Orthodox Tewahedo Church",
+     "other_id": "post-aksumite-ethiopian-christianity",
+     "other_id_note": "matched: Highland Ethiopia (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued as the Ethiopian Orthodox Church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+     "other": "Eritrean Orthodox Tewahedo Church",
+     "other_id": null,
+     "other_id_note": "no separate census entry",
+     "other_era": null,
+     "claim": "the Eritrean counterpart continues the tradition"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+     "other": "Oriental Orthodox communions",
+     "other_id": null,
+     "other_id_note": "generic family; no single census movement",
+     "other_era": null,
+     "claim": "the Ethiopian church is one of the Oriental Orthodox communions"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "georgian-christianity",
+   "name": "Georgian Christianity",
+   "dates": "c. 330-609",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Jerusalem and Armenian lines; takes the Chalcedonian side (609)",
+     "other": "Jerusalem liturgical tradition",
+     "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+     "other_id_note": "matched: Jerusalem (era 2)",
+     "other_era": 2,
+     "claim": "Georgia descends from the Jerusalem line",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Jerusalem text does not name Georgia or its manuscripts."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Jerusalem and Armenian lines; takes the Chalcedonian side (609)",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3), which covers 609",
+     "other_era": 3,
+     "claim": "Georgia descends from the Armenian line"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Jerusalem and Armenian lines; takes the Chalcedonian side (609)",
+     "other": "Chalcedonian side",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "Georgia takes the Chalcedonian side in 609"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century through the preaching of a woman the tradition calls Nino, and then spent three centuries holding that identity on a frontier where Persia had every reason to prise it loose.",
+     "other": "Persia",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Persia had reason to pry Georgia from Christianity"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "An Armenian princess married to the local ruler, who abandoned Christianity for Zoroastrianism and imprisoned and beat his wife until she died rather than follow him.",
+     "other": "Shushanik, an Armenian princess (the book's subject)",
+     "other_id": "armenian-christianity-after-avarayr",
+     "other_id_note": "person of the Armenian church; the census Armenian entry for her 470s",
+     "other_era": 3,
+     "claim": "Shushanik was an Armenian princess who married a Georgian ruler"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "An Armenian princess married to the local ruler, who abandoned Christianity for Zoroastrianism and imprisoned and beat his wife until she died rather than follow him.",
+     "other": "Local ruler (Georgian)",
+     "other_id": null,
+     "other_id_note": "ruler; state actor",
+     "other_era": null,
+     "claim": "the local ruler abandoned Christianity for Zoroastrianism"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Georgia developed its own alphabet, its own monasteries, and an unusually rich liturgical life: Georgian manuscripts preserve the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does.",
+     "other": "Jerusalem liturgy (fifth to eighth century)",
+     "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+     "other_id_note": "matched: Jerusalem (era 2), which ends in 450",
+     "other_era": 2,
+     "claim": "Georgian manuscripts preserve Jerusalem's worship",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Jerusalem text describes the liturgy, not its preservation in Georgian manuscripts; window ends 450."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "in 609 Georgia broke from Armenia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side.",
+     "other": "Third council of Dvin (609)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the third council of Dvin in 609"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side.",
+     "other": "Chalcedonian side",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "Georgia took the Chalcedonian side in 609"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Which is why the two neighboring Caucasian churches have belonged to different communions ever since.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Georgia and Armenia have belonged to different communions since 609"
+    },
+    {
+     "field": "why",
+     "sentence": "The kingdom of Kartli, converted in the fourth century through the preaching of a woman its tradition calls Nino, held its Christian identity for centuries on a contested Persian frontier.",
+     "other": "Persia",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Georgia held its identity on a Persian frontier"
+    },
+    {
+     "field": "why",
+     "sentence": "Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s for refusing to follow her husband out of the faith, and in 609 its church broke from Armenia to take the Chalcedonian side.",
+     "other": "Shushanik, Armenian princess",
+     "other_id": "armenian-christianity-after-avarayr",
+     "other_id_note": "person of the Armenian church (census Armenian entry for the 470s)",
+     "other_era": 3,
+     "claim": "Shushanik was beaten to death for refusing to leave the faith"
+    },
+    {
+     "field": "why",
+     "sentence": "Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s for refusing to follow her husband out of the faith, and in 609 its church broke from Armenia to take the Chalcedonian side.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "in 609 Georgia broke from Armenia"
+    },
+    {
+     "field": "why",
+     "sentence": "Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s for refusing to follow her husband out of the faith, and in 609 its church broke from Armenia to take the Chalcedonian side.",
+     "other": "Chalcedonian side",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian side",
+     "other_era": 3,
+     "claim": "Georgia took the Chalcedonian side in 609"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Georgian Orthodox Church that emerged is still the church of Georgia, and the same institution continued through the medieval revival centuries into the present.",
+     "other": "Georgian medieval revival",
+     "other_id": "georgian-revival-tao-klarjeti",
+     "other_id_note": "matched: Georgian Revival (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued through the medieval revival"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its choice in 609 placed it permanently in the Eastern Orthodox family rather than with its Armenian neighbor.",
+     "other": "Eastern Orthodox family",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the 609 choice placed Georgia in the Eastern Orthodox family"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its choice in 609 placed it permanently in the Eastern Orthodox family rather than with its Armenian neighbor.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Georgia chose the Chalcedonian side rather than the Armenian neighbor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Because Georgian scribes translated and kept Jerusalem's liturgical books, scholars can now reconstruct how the holy city actually worshipped in late antiquity largely from Georgian manuscripts.",
+     "other": "Jerusalem liturgical books",
+     "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+     "other_id_note": "matched: Jerusalem (era 2)",
+     "other_era": 2,
+     "claim": "Georgian scribes kept Jerusalem's liturgical books",
+     "era2_names_it": false,
+     "era2_sentence": null,
+     "era2_note": "Era-2 Jerusalem text does not name Georgian scribes or their translations."
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "nubian-christianity",
+   "name": "Nubian Christianity",
+   "dates": "543-652",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Egypt - both rival communions' missions at once",
+     "other": "Egyptian church (Miaphysite)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "Nubia is a child of Egypt"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Egypt - both rival communions' missions at once",
+     "other": "Miaphysite mission to Nubia",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the Miaphysite church sent a mission to Nubia"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Egypt - both rival communions' missions at once",
+     "other": "Chalcedonian mission to Nubia",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the Chalcedonian (imperial) church",
+     "other_era": 3,
+     "claim": "the Chalcedonian church sent a mission to Nubia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+     "other": "Julian, a Miaphysite priest",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "Julian was a Miaphysite priest sent to Nubia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+     "other": "Empress Theodora",
+     "other_id": null,
+     "other_id_note": "person of the imperial court; not a movement",
+     "other_era": null,
+     "claim": "Theodora backed the Miaphysite mission"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+     "other": "Chalcedonian mission sent by Justinian",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial (Chalcedonian) church",
+     "other_era": 3,
+     "claim": "a Chalcedonian mission was sent with Justinian's backing"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side.",
+     "other": "John of Ephesus, Syrian bishop",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "person; voice of the Syriac Orthodox movement",
+     "other_era": 3,
+     "claim": "John of Ephesus recorded the race from the winning side"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt.",
+     "other": "Arab armies",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Arab armies pushed south into Nubia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt.",
+     "other": "Arab forces and Nubian kingdoms (the Baqt)",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Baqt treaty was signed in 652"
+    },
+    {
+     "field": "why",
+     "sentence": "Christianity reached the Nubian kingdoms south of Egypt through rival missions in the 540s, one Miaphysite and one Chalcedonian, and the story survives only because a Syrian bishop wrote it down from the winning side.",
+     "other": "John of Ephesus, Syrian bishop",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "person; voice of the Syriac Orthodox movement",
+     "other_era": 3,
+     "claim": "John of Ephesus recorded the Nubian race"
+    },
+    {
+     "field": "why",
+     "sentence": "Nubia itself left walls rather than words: the painted bishops, kings and saints of the cathedral at Faras, and the archers who held an invading Arab army at Dongola until both sides signed the Baqt treaty in 652.",
+     "other": "Arab army and Nubian kingdoms",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Nubian archers held the Arab army until the Baqt"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Christian Nubia outlasted this window by many centuries and only faded in the later Middle Ages; no Nubian church continues today.",
+     "other": "Christian Nubia (later centuries)",
+     "other_id": "makurian-nubian-christianity",
+     "other_id_note": "matched: Christian Nubia II (era 4), its continuation",
+     "other_era": 4,
+     "claim": "Christian Nubia continued for many centuries"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And the Baqt held, in one form or another, for centuries — an unusually durable settlement between a Christian state and its Muslim neighbor.",
+     "other": "Muslim neighboring state",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Baqt was a settlement between Christian Nubia and its Muslim neighbor"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "gothic-and-vandal-homoian-christianity",
+   "name": "Gothic, Vandal & Lombard Homoian Christianity",
+   "dates": "451-c. 680",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Descended from Ulfila's missionary church, this tradition covers the churches of the post-Roman barbarian kingdoms, including the Lombard Arian church that lasted from 568 to about 680.",
+     "other": "Ulfila's Homoian church",
+     "other_id": "homoian-arian-christianity",
+     "other_id_note": "matched: Homoians (era 2), Ulfila's church",
+     "other_era": 2,
+     "claim": "the Gothic church descends from Ulfila's missionary church",
+     "era2_names_it": true,
+     "era2_sentence": "Its most lasting work was done outside the empire: Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it.",
+     "era2_note": "Era-2 text names Ulfila's mission among the Goths as the Homoian church's most lasting work."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Their tradition went back to Ulfila, the fourth-century missionary bishop who devised an alphabet for Gothic and translated most of the Bible into it, and it worked as a real church, with clergy, liturgy, scripture in the vernacular, and arguments of its own.",
+     "other": "Ulfila's Homoian church",
+     "other_id": "homoian-arian-christianity",
+     "other_id_note": "matched: Homoians (era 2)",
+     "other_era": 2,
+     "claim": "the Gothic tradition went back to Ulfila",
+     "era2_names_it": true,
+     "era2_sentence": "Its most lasting work was done outside the empire: Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it.",
+     "era2_note": "Era-2 text names Ulfila's mission among the Goths."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In Vandal Africa it was the persecuting party, exiling and maiming Nicene bishops in a campaign its victims documented in detail.",
+     "other": "Nicene bishops of Africa",
+     "other_id": "latin-africa-under-byzantium",
+     "other_id_note": "matched: Byzantine Africa (era 3), the Nicene church of Africa",
+     "other_era": 3,
+     "claim": "the Vandal church exiled and maimed Nicene bishops"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In Ostrogothic Italy it lived alongside the Catholic church in separate buildings, some of which still stand in Ravenna.",
+     "other": "Catholic (Nicene) church of Ostrogothic Italy",
+     "other_id": null,
+     "other_id_note": "no census movement covers Ostrogothic Italy's Catholic church",
+     "other_era": null,
+     "claim": "the Homoian church lived alongside the Catholic church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In Africa and Ostrogothic Italy it was destroyed by Byzantine reconquest.",
+     "other": "Byzantine reconquest",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church that reconquered",
+     "other_era": 3,
+     "claim": "Byzantine reconquest destroyed the Homoian church in Africa and Italy"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In Spain and among the Lombards it ended by conversion.",
+     "other": "Visigothic Spain",
+     "other_id": "nicene-visigothic-iberia",
+     "other_id_note": "matched: Visigothic Iberia (era 3)",
+     "other_era": 3,
+     "claim": "the Homoian church ended by conversion in Spain"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In Spain and among the Lombards it ended by conversion.",
+     "other": "Lombard kingdom",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Homoian church ended by conversion among the Lombards"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
+     "other": "Visigothic Iberia",
+     "other_id": "nicene-visigothic-iberia",
+     "other_id_note": "matched: Visigothic Iberia (era 3)",
+     "other_era": 3,
+     "claim": "Reccared brought the Visigothic kingdom to the Nicene church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
+     "other": "Lombard kings",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the last Arian Lombard kings gave way"
+    },
+    {
+     "field": "why",
+     "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+     "other": "Nicene bishops of Africa",
+     "other_id": "latin-africa-under-byzantium",
+     "other_id_note": "matched: Byzantine Africa (era 3)",
+     "other_era": 3,
+     "claim": "the Vandal church persecuted Nicene bishops"
+    },
+    {
+     "field": "why",
+     "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+     "other": "Nicene (Catholic) church of Italy",
+     "other_id": null,
+     "other_id_note": "no census movement covers it",
+     "other_era": null,
+     "claim": "the Homoian church worshipped alongside the Nicene church"
+    },
+    {
+     "field": "why",
+     "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+     "other": "Visigothic Iberia",
+     "other_id": "nicene-visigothic-iberia",
+     "other_id_note": "matched: Visigothic Iberia (era 3)",
+     "other_era": 3,
+     "claim": "conquest and conversion ended the church in Spain"
+    },
+    {
+     "field": "legacy",
+     "sentence": "In Ravenna the Arian Baptistery and Theodoric's palace church survive with their mosaics, including a panel where the Gothic court figures were later scrubbed out of the picture.",
+     "other": "Theoderic, Ostrogothic king",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Theoderic's palace church survives in Ravenna"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And the crossing of Visigothic Spain at Toledo in 589 set the shape of Iberian Christianity for the next century.",
+     "other": "Visigothic Spain",
+     "other_id": "nicene-visigothic-iberia",
+     "other_id_note": "matched: Visigothic Iberia (era 3)",
+     "other_era": 3,
+     "claim": "the crossing at Toledo shaped Iberian Christianity"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic",
+   "name": "The Byzantine Imperial Church (Justinianic)",
+   "dates": "451-622",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+     "other": "Miaphysite Egypt",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "the imperial church was the context Miaphysite Egypt defined itself against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+     "other": "Syriac Orthodox church",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "the imperial church was the context the Syriac church defined itself against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+     "other": "Three Chapters dissent (African and Western bishops)",
+     "other_id": "latin-africa-under-byzantium",
+     "other_id_note": "the African bishops are the census's dissenters; the dissent was wider",
+     "other_era": 3,
+     "claim": "the Three Chapters dissent was hosted within the imperial church"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its favor and pressure were something every other church of the period, inside and outside the empire, had to reckon with.",
+     "other": "Every other church of the period",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the imperial favor and pressure shaped every other church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+     "other": "Three long-dead theologians (not named in the field)",
+     "other_id": null,
+     "other_id_note": "unnamed in the field",
+     "other_era": null,
+     "claim": "the council condemned three dead theologians"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+     "other": "Council of Chalcedon",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "Chalcedon had cleared two of the three theologians"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+     "other": "Miaphysites",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the condemnation aimed to win back the Miaphysites"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+     "other": "Latin West",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the condemnation alienated the Latin West"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+     "other": "Egypt (the Miaphysite church)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the condemnation did not reconcile Egypt"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+     "other": "Syria (the Syriac Orthodox church)",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "matched: Syriac Orthodox (era 3)",
+     "other_era": 3,
+     "claim": "the condemnation did not reconcile Syria"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The same church, in the same years, produced Romanos the Melodist, whose sung sermons in verse are among the finest poetry in Greek, and sent missionaries as far as the Nile kingdoms.",
+     "other": "Nile kingdoms (Nubia)",
+     "other_id": "nubian-christianity",
+     "other_id_note": "matched: Nubia (era 3)",
+     "other_era": 3,
+     "claim": "the imperial church sent missionaries to the Nile kingdoms"
+    },
+    {
+     "field": "why",
+     "sentence": "For nearly two centuries after Chalcedon, the eastern Roman emperors ran their church as closely as their state: Justinian rebuilt Hagia Sophia in under six years, wrote the church into his law code, and in 553 convened a council condemning three dead theologians in a failed bid to win back the Miaphysites.",
+     "other": "Miaphysites",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the 553 council was a failed bid to win back the Miaphysites"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today.",
+     "other": "Byzantine Church after 622",
+     "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+     "other_id_note": "matched: Byzantine Church II (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued unbroken into the Byzantine centuries"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today.",
+     "other": "Eastern Orthodox churches",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the imperial church is the ancestor of the Eastern Orthodox churches"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The pattern set here — emperor and patriarch as two authorities within one Christian commonwealth — became the model Byzantium exported to the Balkans and to Russia.",
+     "other": "Balkans",
+     "other_id": null,
+     "other_id_note": "region; no single census movement",
+     "other_era": null,
+     "claim": "Byzantium exported its model to the Balkans"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The pattern set here — emperor and patriarch as two authorities within one Christian commonwealth — became the model Byzantium exported to the Balkans and to Russia.",
+     "other": "Russia (Kievan Rus')",
+     "other_id": "kievan-rus-christianity",
+     "other_id_note": "matched: Kievan Rus' (era 4)",
+     "other_era": 4,
+     "claim": "Byzantium exported its model to Russia"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+     "other": "Egypt (the Miaphysite church)",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the separations of 451 were unhealed when the empire lost Egypt"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+     "other": "Syria (the Syriac Orthodox church)",
+     "other_id": "syriac-orthodox-west-syriac-christianity",
+     "other_id_note": "matched: Syriac Orthodox (era 3)",
+     "other_era": 3,
+     "claim": "the separations of 451 were unhealed when the empire lost Syria"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+     "from": "roman-church-gregorian",
+     "to": "byzantine-imperial-church-justinianic",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+     "from": "byzantine-imperial-church-justinianic",
+     "to": "cyrilline-miaphysite-egyptian-christianity",
+     "type": "broke with",
+     "confidence": "Documented"
+    },
+    {
+     "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+     "from": "byzantine-imperial-church-justinianic",
+     "to": "montanism-the-new-prophecy",
+     "type": "argued against",
+     "confidence": "Documented"
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "church-of-caucasian-albania",
+   "name": "The Church of Caucasian Albania",
+   "dates": "c. 451-705",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The third Caucasus church beside Armenia and Georgia; absorbed into the Armenian catholicosate after 705",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania is the third Caucasus church beside Armenia"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The third Caucasus church beside Armenia and Georgia; absorbed into the Armenian catholicosate after 705",
+     "other": "Georgian church",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Albania is the third Caucasus church beside Georgia"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The third Caucasus church beside Armenia and Georgia; absorbed into the Armenian catholicosate after 705",
+     "other": "Armenian catholicosate",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania was absorbed into the Armenian catholicosate after 705"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Beside Armenia and Georgia there was a third Christian kingdom in the Caucasus.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania sat beside Armenia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Beside Armenia and Georgia there was a third Christian kingdom in the Caucasus.",
+     "other": "Georgian church",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Albania sat beside Georgia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It held a council at Aghuen in the late fifth century that issued canons on clergy, marriage and what the nobility owed the church, and it produced a history — compiled from earlier material by a writer known as Movses Daskhurantsi.",
+     "other": "Council of Aghuen",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the council at Aghuen issued canons"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed between Persian, Byzantine and then Arab power, and between the competing alignments of its Armenian and Georgian neighbors, it lost its independent standing in 705, when its catholicosate was placed under the Armenian church.",
+     "other": "Byzantine power",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "the imperial church",
+     "other_era": 3,
+     "claim": "Albania was pressed between Byzantine power and others"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed between Persian, Byzantine and then Arab power, and between the competing alignments of its Armenian and Georgian neighbors, it lost its independent standing in 705, when its catholicosate was placed under the Armenian church.",
+     "other": "Persian and Arab powers",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Albania was pressed between Persian and Arab power"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed between Persian, Byzantine and then Arab power, and between the competing alignments of its Armenian and Georgian neighbors, it lost its independent standing in 705, when its catholicosate was placed under the Armenian church.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania sat between competing alignments of Armenia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed between Persian, Byzantine and then Arab power, and between the competing alignments of its Armenian and Georgian neighbors, it lost its independent standing in 705, when its catholicosate was placed under the Armenian church.",
+     "other": "Georgian church",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Albania sat between competing alignments of Georgia"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed between Persian, Byzantine and then Arab power, and between the competing alignments of its Armenian and Georgian neighbors, it lost its independent standing in 705, when its catholicosate was placed under the Armenian church.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "in 705 the Albanian catholicosate was placed under the Armenian church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its written language was effectively lost for more than a thousand years, until palimpsests found at Saint Catherine's Monastery on Sinai in 1996 turned out to preserve Caucasian Albanian scripture beneath later Georgian text.",
+     "other": "St Catherine's Monastery, Sinai",
+     "other_id": null,
+     "other_id_note": "monastery; no census entry",
+     "other_era": null,
+     "claim": "Albanian scripture was found in palimpsests at Sinai"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its written language was effectively lost for more than a thousand years, until palimpsests found at Saint Catherine's Monastery on Sinai in 1996 turned out to preserve Caucasian Albanian scripture beneath later Georgian text.",
+     "other": "Later Georgian text",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Georgian text was written over Albanian scripture"
+    },
+    {
+     "field": "why",
+     "sentence": "Beside Armenia and Georgia, a third Christian kingdom in the Caucasus, Albania, kept its own royal line, its own bishops and its own alphabet, holding a council at Aghuen that issued canons on clergy and marriage.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania was a third kingdom beside Armenia"
+    },
+    {
+     "field": "why",
+     "sentence": "Beside Armenia and Georgia, a third Christian kingdom in the Caucasus, Albania, kept its own royal line, its own bishops and its own alphabet, holding a council at Aghuen that issued canons on clergy and marriage.",
+     "other": "Georgian church",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Albania was a third kingdom beside Georgia"
+    },
+    {
+     "field": "why",
+     "sentence": "Its catholicosate was absorbed into the Armenian church in 705, and its written language went unreadable for over a thousand years until palimpsests found at Saint Catherine's Monastery on Sinai in 1996 turned out to preserve its scripture.",
+     "other": "Armenian church",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "the Albanian catholicosate was absorbed into the Armenian church in 705"
+    },
+    {
+     "field": "why",
+     "sentence": "Its catholicosate was absorbed into the Armenian church in 705, and its written language went unreadable for over a thousand years until palimpsests found at Saint Catherine's Monastery on Sinai in 1996 turned out to preserve its scripture.",
+     "other": "St Catherine's Monastery, Sinai",
+     "other_id": null,
+     "other_id_note": "monastery; no census entry",
+     "other_era": null,
+     "claim": "the palimpsests at Sinai revealed the Albanian scripture"
+    },
+    {
+     "field": "legacy",
+     "sentence": "No church continues under this name — after 705 its structures were absorbed into the Armenian catholicosate and its separate identity dissolved into its neighbors'.",
+     "other": "Armenian catholicosate",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania's structures were absorbed into the Armenian catholicosate"
+    },
+    {
+     "field": "legacy",
+     "sentence": "No church continues under this name — after 705 its structures were absorbed into the Armenian catholicosate and its separate identity dissolved into its neighbors'.",
+     "other": "Armenian neighbor",
+     "other_id": "armenian-christianity-before-the-bagratids",
+     "other_id_note": "matched: Armenia before the Bagratids (era 3)",
+     "other_era": 3,
+     "claim": "Albania's identity dissolved into its Armenian neighbor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "No church continues under this name — after 705 its structures were absorbed into the Armenian catholicosate and its separate identity dissolved into its neighbors'.",
+     "other": "Georgian neighbor",
+     "other_id": "georgian-christianity",
+     "other_id_note": "matched: Georgia (era 3)",
+     "other_era": 3,
+     "claim": "Albania's identity dissolved into its Georgian neighbor"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Udi people of Azerbaijan are generally regarded as descendants of its Christian population.",
+     "other": "Udi people of Azerbaijan",
+     "other_id": null,
+     "other_id_note": "people; no census movement",
+     "other_era": null,
+     "claim": "the Udi people descend from the Albanian Christians"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its most striking survival was invisible until recently: the palimpsests recovered at Sinai in 1996 preserved its alphabet and its scripture, letting scholars begin to reconstruct a language and a liturgy that nobody had been able to read for over a millennium.",
+     "other": "St Catherine's Monastery, Sinai",
+     "other_id": null,
+     "other_id_note": "monastery; no census entry",
+     "other_era": null,
+     "claim": "the palimpsests were recovered at Sinai"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "latin-africa-under-byzantium",
+   "name": "Latin African Christianity under Byzantium",
+   "dates": "533-c. 698",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+     "other": "Tertullian",
+     "other_id": "tertullian-s-voice",
+     "other_id_note": "matched: Tertullian (era 1)",
+     "other_era": 1,
+     "claim": "the Nicene church is heir to Tertullian"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+     "other": "Cyprian of Carthage",
+     "other_id": null,
+     "other_id_note": "person; no census movement of his own",
+     "other_era": null,
+     "claim": "the Nicene church is heir to Cyprian"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+     "other": "Augustine of Hippo",
+     "other_id": null,
+     "other_id_note": "person; no census movement of his own",
+     "other_era": null,
+     "claim": "the Nicene church is heir to Augustine"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+     "other": "Vandal kingdom and its persecution",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "the Nicene church was restored after Vandal persecution"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+     "other": "Justinian's imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "the African church resisted the imperial condemnation"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+     "other": "Vandal kingdom",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "the Vandal kingdom was destroyed in 533"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+     "other": "Belisarius, Byzantine general",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Belisarius destroyed the Vandal kingdom"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And within twenty years it was the most stubborn opposition Justinian faced anywhere in his own empire.",
+     "other": "Justinian's empire",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "African opposition was the most stubborn Justinian faced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When he condemned the Three Chapters to appease the Miaphysites, the African bishops refused.",
+     "other": "Miaphysites",
+     "other_id": "cyrilline-miaphysite-egyptian-christianity",
+     "other_id_note": "matched: Miaphysite Egypt (era 3)",
+     "other_era": 3,
+     "claim": "the Three Chapters condemnation aimed to appease the Miaphysites"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Maximus the Confessor spent formative years here, and African councils in 646 rejected the empire's next attempted compromise about the wills of Christ.",
+     "other": "Maximus the Confessor",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "Byzantine monk-theologian; no census movement of his own in this window",
+     "other_era": 3,
+     "claim": "Maximus spent formative years in Africa"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Maximus the Confessor spent formative years here, and African councils in 646 rejected the empire's next attempted compromise about the wills of Christ.",
+     "other": "The empire's compromise on Christ's wills",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "African councils rejected the empire's compromise"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Then Arab armies reached Carthage in the 690s, and the ancient African church, the church that had given Latin Christianity Tertullian, Cyprian and Augustine, was finished within a few generations.",
+     "other": "Arab armies",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Arab armies reached Carthage"
+    },
+    {
+     "field": "why",
+     "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+     "other": "Vandal persecution",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "the church was restored after a century of persecution"
+    },
+    {
+     "field": "why",
+     "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+     "other": "Justinian's imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "the African church refused Justinian's compromise"
+    },
+    {
+     "field": "why",
+     "sentence": "Bishops like Reparatus of Carthage were deposed and exiled for that refusal, and when Arab armies reached Carthage in the 690s, the church that had produced Tertullian, Cyprian and Augustine came to an end within a few generations.",
+     "other": "Arab armies",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Arab armies reached Carthage"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Latin Christianity in North Africa dwindled after the conquest and had effectively disappeared by the later Middle Ages — the only major region of the ancient Christian world to vanish so completely.",
+     "other": "Arab conquest",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Latin Christianity dwindled after the conquest"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its resistance over the Three Chapters hardened a Western conviction that an emperor could not settle doctrine by decree, and its part in the argument over Christ's wills fed straight into the council of 680-681 that closed it.",
+     "other": "The emperor and the imperial church",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "the African refusal hardened a Western view of imperial doctrine"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its resistance over the Three Chapters hardened a Western conviction that an emperor could not settle doctrine by decree, and its part in the argument over Christ's wills fed straight into the council of 680-681 that closed it.",
+     "other": "Council of 680-681",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the 680-681 council closed the African church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+     "other": "Tertullian",
+     "other_id": "tertullian-s-voice",
+     "other_id_note": "matched: Tertullian (era 1)",
+     "other_era": 1,
+     "claim": "the African church gave Tertullian to the Latin church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+     "other": "Latin church",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the African church gave Tertullian, Cyprian and Augustine to the Latin church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+     "other": "The empire",
+     "other_id": "byzantine-imperial-church-justinianic",
+     "other_id_note": "matched: Imperial Byzantium (era 3)",
+     "other_era": 3,
+     "claim": "a provincial church told the empire no"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "nicene-visigothic-iberia",
+   "name": "Nicene Visigothic Iberia",
+   "dates": "c. 560-711",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Homoian kingdom that crossed to Nicaea from inside; Isidore's church; ends at 711",
+     "other": "Homoian Gothic kingdom",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "the Homoian Visigothic kingdom crossed to Nicaea"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+     "other": "Visigoths, Homoian Christians",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "the Visigoths ruled Spain as Homoian Christians"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+     "other": "Gothic (Homoian) bishops",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "Reccared brought the Gothic bishops into the Nicene church"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+     "other": "Third council of Toledo (589)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the third council of Toledo abandoned the Homoian creed"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The councils of Toledo worked as something between a synod and a parliament, legislating for church and kingdom together, and their record also includes a harsh and escalating body of law against Spain's Jews.",
+     "other": "Jews of Spain",
+     "other_id": null,
+     "other_id_note": "religious community; no census movement",
+     "other_era": null,
+     "claim": "the councils legislated against Spain's Jews"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "All of it ended abruptly with the Muslim conquest of 711.",
+     "other": "Muslim conquest of 711",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "the Muslim conquest ended the Visigothic church"
+    },
+    {
+     "field": "why",
+     "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century until King Reccared announced his own conversion, and at the third council of Toledo in 589 brought his bishops with him into the Nicene church of his subjects.",
+     "other": "Visigothic bishops (Homoian)",
+     "other_id": "gothic-and-vandal-homoian-christianity",
+     "other_id_note": "matched: Gothic Homoians (era 3)",
+     "other_era": 3,
+     "claim": "Reccared brought his Homoian bishops into the Nicene church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus.",
+     "other": "Mozarabic Christianity",
+     "other_id": "mozarabic-christianity",
+     "other_id_note": "matched: Mozarabs (era 4), its continuation",
+     "other_era": 4,
+     "claim": "the same institution continued as the Mozarabic church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its liturgy went with it: the Mozarabic rite, formed in this period, is still celebrated in a chapel of Toledo Cathedral.",
+     "other": "Mozarabic rite",
+     "other_id": "mozarabic-christianity",
+     "other_id_note": "matched: Mozarabs (era 4)",
+     "other_era": 4,
+     "claim": "the Mozarabic rite continued in Toledo"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The councils of Toledo left a large body of canon law that shaped later Western practice, and it was in Visigothic Spain that the Filioque clause first entered official use in the Creed.",
+     "other": "The Western (Latin) Creed",
+     "other_id": null,
+     "other_id_note": "a doctrinal item, not a party; no census movement",
+     "other_era": null,
+     "claim": "the Filioque first entered the Creed in Visigothic Spain"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  },
+  {
+   "id": "british-welsh-christianity",
+   "name": "British and Welsh Christianity",
+   "dates": "c. 451-768",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+     "other": "Anglo-Saxon church",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched by name (era 4)",
+     "other_era": 4,
+     "claim": "the British church was displaced by the Anglo-Saxon invasions"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+     "other": "Irish Christianity",
+     "other_id": "insular-irish-monastic-christianity",
+     "other_id_note": "matched by name (era 3)",
+     "other_era": 3,
+     "claim": "the British church was distinct from Irish Christianity"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+     "other": "Gregorian mission",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3)",
+     "other_era": 3,
+     "claim": "the British church was older than the Gregorian mission"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+     "other": "Augustine of Canterbury (Gregory's mission)",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3), which sent him",
+     "other_era": 3,
+     "claim": "the British church rejected Augustine's authority"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+     "other": "Synod of Whitby (664)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the British church did not conform at Whitby"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+     "other": "Anglo-Saxon settlers",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "Anglo-Saxon settlers took eastern Britain"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+     "other": "Roman rule of Britain",
+     "other_id": null,
+     "other_id_note": "state actor, not a movement",
+     "other_era": null,
+     "claim": "Britain had been Christian under Roman rule"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+     "other": "Brittany",
+     "other_id": null,
+     "other_id_note": "place; no census movement",
+     "other_era": null,
+     "claim": "British emigrants gave Brittany its name"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+     "other": "Augustine of Canterbury, from Rome",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3)",
+     "other_era": 3,
+     "claim": "Augustine arrived from Rome and met British bishops"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+     "other": "Mission to the Anglo-Saxons",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "the British bishops refused to join the mission to the Saxons"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+     "other": "Synod of Whitby (664)",
+     "other_id": null,
+     "other_id_note": "council, not a census movement",
+     "other_era": null,
+     "claim": "the British bishops were not at Whitby"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Welsh church came round to the Roman dating of Easter on its own, around 768.",
+     "other": "Roman dating of Easter",
+     "other_id": null,
+     "other_id_note": "no census movement covers Rome's calendar in 768",
+     "other_era": null,
+     "claim": "the Welsh church adopted the Roman dating of Easter"
+    },
+    {
+     "field": "why",
+     "sentence": "When Anglo-Saxon settlers took eastern Britain, the older British church survived in the west, in Wales, Cornwall and Brittany, running through monastic schools and founder-saints like David, Illtud and Teilo.",
+     "other": "Anglo-Saxon settlers",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4)",
+     "other_era": 4,
+     "claim": "Anglo-Saxon settlers took eastern Britain"
+    },
+    {
+     "field": "why",
+     "sentence": "Its monk Gildas delivered a furious denunciation of British kings around the 540s, and its bishops refused to recognize Augustine of Canterbury's authority in 603, keeping their own dating of Easter until the Welsh church adopted Rome's calendar on its own around 768.",
+     "other": "Augustine of Canterbury",
+     "other_id": "roman-church-gregorian",
+     "other_id_note": "matched: Gregorian Rome (era 3)",
+     "other_era": 3,
+     "claim": "British bishops refused Augustine's authority in 603"
+    },
+    {
+     "field": "why",
+     "sentence": "Its monk Gildas delivered a furious denunciation of British kings around the 540s, and its bishops refused to recognize Augustine of Canterbury's authority in 603, keeping their own dating of Easter until the Welsh church adopted Rome's calendar on its own around 768.",
+     "other": "Rome's calendar",
+     "other_id": null,
+     "other_id_note": "no census movement covers it",
+     "other_era": null,
+     "claim": "the Welsh church adopted Rome's calendar around 768"
+    },
+    {
+     "field": "legacy",
+     "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+     "other": "Wider Western church",
+     "other_id": null,
+     "other_id_note": "generic; no single census movement",
+     "other_era": null,
+     "claim": "the British dioceses were drawn into the Western church"
+    },
+    {
+     "field": "legacy",
+     "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+     "other": "Welsh church after 768",
+     "other_id": "medieval-welsh-christianity",
+     "other_id_note": "matched: Medieval Wales (era 4), its successor",
+     "other_era": 4,
+     "claim": "the Welsh bishops came under Canterbury's authority"
+    },
+    {
+     "field": "legacy",
+     "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+     "other": "Canterbury",
+     "other_id": null,
+     "other_id_note": "see, not a census movement",
+     "other_era": null,
+     "claim": "the Welsh bishops came under Canterbury"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Gildas's account, for all its fury, became the foundation of what later writers thought they knew about post-Roman Britain, reaching Bede and everyone after him.",
+     "other": "Bede, Anglo-Saxon historian",
+     "other_id": "anglo-saxon-christianity",
+     "other_id_note": "matched: Anglo-Saxon England (era 4); Bede belongs to it",
+     "other_era": 4,
+     "claim": "Gildas's account reached Bede and later writers"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there.",
+     "other": "Brittany",
+     "other_id": null,
+     "other_id_note": "place; no census movement",
+     "other_era": null,
+     "claim": "Brittany was settled from Britain"
+    }
+   ],
+   "existing_links": [],
+   "hygiene": []
+  }
+ ]
+}
