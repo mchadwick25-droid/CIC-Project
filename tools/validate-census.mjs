@@ -182,6 +182,13 @@ function checkPlaceLabel(label, entry) {
     if (!part.trim() || at < 0) errs.push(`${label}: placeLabel "${part}" is not in its region text`);
     else from = at + part.length;
   }
+  if (!Array.isArray(entry.modernCountries)) { errs.push(`${label}: modernCountries missing (an empty list when no country applies)`); return; }
+  for (const c of entry.modernCountries) {
+    if (!c || typeof c.country !== "string" || !c.country.trim()) errs.push(`${label}: a modern country has no name`);
+    if (!/^Q\d+$/.test(c?.countryId ?? "")) errs.push(`${label}: modern country "${c?.country}" has no Wikidata ID`);
+    if (!/^Q\d+$/.test(c?.placeId ?? "")) errs.push(`${label}: modern country "${c?.country}" has no source place ID`);
+    if (!parts.includes(c?.place)) errs.push(`${label}: modern country "${c?.country}" comes from "${c?.place}", which is not on the place label`);
+  }
 }
 (d.movements ?? []).forEach(m => checkPlaceLabel(m.id, m));
 if (atlasPath) {

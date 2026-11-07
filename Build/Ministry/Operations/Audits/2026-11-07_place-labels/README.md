@@ -40,3 +40,32 @@ not other names. Kept as written, because the first name is already the familiar
 is widely known: Paris (Lutetia), Mérida (Emerita Augusta), Squillace (Scolacium), Scetis (Wadi
 al-Natrun), Hierapolis (Koçhisar), Telanissos (Deir Sem'an). Every changed label still passes the
 validator: the familiar name is in the entry's own region text.
+
+## PL2 — modern countries
+
+Every country comes from a Wikidata query made on 2026-11-07, never from memory. From the build
+sandbox, Wikidata's entity API refused requests (HTTP 429); its query service answered, and every
+lookup went through it under a named client.
+
+1. **Lookup (Sonnet).** Each of the 308 distinct places was matched to a Wikidata item, using its
+   region text to tell namesakes apart, and given that item's "country" property (P17). A
+   Pleiades ID is kept where the item carries one (P1584).
+2. **Re-query (mechanical).** Every chosen item and country item was queried again: 263 items, no
+   mismatch. Every country is a sovereign-state item, and every recorded country is among the
+   place's own P17 values.
+3. **From the entry's own words.** Where Wikidata had no usable item but the region text names a
+   modern place, that place was looked up instead (for example "Telanissos … Syria", "Ruthenia
+   (today's Ukraine & Belarus)", "Shahabdike village, Sialkot District"). The `basis` field says so.
+4. **Independent check (Opus).** 240 places in use; 230 passed. Fixed from sources: Aksum (the
+   text names Ethiopia and Eritrea), Caucasian Albania (the text names Dagestan, a republic of
+   Russia), Bithynia-Pontus (matched to Bithynia rather than all of Asia Minor). Armenia moved to
+   the historical regions. Kept as Wikidata gives them: Upper Lusatia (Poland, Germany, Czech
+   Republic), the Ethiopian Highlands (Ethiopia).
+5. **Not given a country:** 34 broad areas (for example "Global", "Mediterranean"); 28 historical
+   regions whose Wikidata items name only dissolved states, or a single country that understates
+   them; and 7 places under disputed sovereignty. The last two groups wait for Mark's ruling.
+
+`countries-by-place.json` holds every place, its item, its countries and the basis.
+`modernCountries` on each census movement and each gap story lists, per place on its label, the
+country, the country's Wikidata ID, the place, and the place's Wikidata ID. The validator requires
+both IDs and that the place is on the label.

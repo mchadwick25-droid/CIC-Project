@@ -3106,6 +3106,21 @@
    "end": 200,
    "region": "Antioch, Asia Minor, Rome",
    "placeLabel": "Antioch · Asia Minor and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Asia Minor",
+     "placeId": "Q12824780"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -3307,6 +3322,21 @@
    "end": 200,
    "region": "Athens, Rome, Sardis, Antioch",
    "placeLabel": "Athens · Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Athens",
+     "placeId": "Q1524"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Asia Minor"
@@ -3388,6 +3418,22 @@
    "end": 320,
    "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
    "placeLabel": "Carthage · Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Tunisia",
+     "countryId": "Q948",
+     "place": "Carthage",
+     "placeId": "Q6343",
+     "pleiadesId": "314921"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Africa",
@@ -3480,6 +3526,20 @@
    "end": 900,
    "region": "Asia Minor, Syria, Egypt, Rome, and the Latin West",
    "placeLabel": "Asia Minor · Syria and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Asia Minor",
+     "placeId": "Q12824780"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Middle East",
@@ -3570,6 +3630,21 @@
    "end": 400,
    "region": "Alexandria, Egypt",
    "placeLabel": "Alexandria · Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -3774,6 +3849,22 @@
    "continuesAs": "persian-church-of-the-east-early",
    "region": "Edessa & Nisibis",
    "placeLabel": "Edessa · Nisibis",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Edessa",
+     "placeId": "Q1190403",
+     "pleiadesId": "658457"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Nisibis",
+     "placeId": "Q14524112",
+     "pleiadesId": "60591"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -3986,6 +4077,22 @@
    "end": 430,
    "region": "Carthage, Hippo Regius",
    "placeLabel": "Carthage · Hippo Regius",
+   "modernCountries": [
+    {
+     "country": "Tunisia",
+     "countryId": "Q948",
+     "place": "Carthage",
+     "placeId": "Q6343",
+     "pleiadesId": "314921"
+    },
+    {
+     "country": "Algeria",
+     "countryId": "Q262",
+     "place": "Hippo Regius",
+     "placeId": "Q858024",
+     "pleiadesId": "305090"
+    }
+   ],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -4120,6 +4227,15 @@
    "end": 220,
    "region": "Carthage",
    "placeLabel": "Carthage",
+   "modernCountries": [
+    {
+     "country": "Tunisia",
+     "countryId": "Q948",
+     "place": "Carthage",
+     "placeId": "Q6343",
+     "pleiadesId": "314921"
+    }
+   ],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -4215,6 +4331,15 @@
    "end": 300,
    "region": "Rome, widespread",
    "placeLabel": "Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -4290,6 +4415,22 @@
    "end": 300,
    "region": "Alexandria, Rome, widespread",
    "placeLabel": "Alexandria · Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -4339,6 +4480,7 @@
    "end": 650,
    "region": "Persia to the Mediterranean",
    "placeLabel": "Persia · Mediterranean",
+   "modernCountries": [],
    "regions": [
     "Middle East"
    ],
@@ -4414,6 +4556,14 @@
    "end": 400,
    "region": "Palestine, Syria",
    "placeLabel": "Palestine · Syria",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -4453,6 +4603,15 @@
    "end": 400,
    "region": "Phrygia, spreading",
    "placeLabel": "Phrygia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Phrygia",
+     "placeId": "Q32579",
+     "pleiadesId": "907036116"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -4544,6 +4703,15 @@
    "end": 400,
    "region": "Rome, spreading",
    "placeLabel": "Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -4646,6 +4814,22 @@
    "end": 312,
    "region": "Neocaesarea in Pontus, Olympus in Lycia",
    "placeLabel": "Neocaesarea · Olympus",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Neocaesarea",
+     "placeId": "Q513980",
+     "pleiadesId": "857177"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Olympus",
+     "placeId": "Q1380189",
+     "pleiadesId": "639017"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -4716,6 +4900,15 @@
    "end": 312,
    "region": "Antioch on the Orontes, and its Syrian hinterland",
    "placeLabel": "Antioch on the Orontes · Syrian hinterland",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch on the Orontes",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    }
+   ],
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -4793,6 +4986,15 @@
    "end": 312,
    "region": "Caesarea Maritima, Jerusalem, Emmaus",
    "placeLabel": "Caesarea Maritima · Jerusalem and beyond",
+   "modernCountries": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Caesarea Maritima",
+     "placeId": "Q319242",
+     "pleiadesId": "678401"
+    }
+   ],
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -4917,6 +5119,15 @@
    "end": 268,
    "region": "Rome",
    "placeLabel": "Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -5020,6 +5231,21 @@
    "end": 400,
    "region": "Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, Moesia",
    "placeLabel": "Poetovio · Sirmium and beyond",
+   "modernCountries": [
+    {
+     "country": "Slovenia",
+     "countryId": "Q215",
+     "place": "Poetovio",
+     "placeId": "Q11941360"
+    },
+    {
+     "country": "Serbia",
+     "countryId": "Q403",
+     "place": "Sirmium",
+     "placeId": "Q833060",
+     "pleiadesId": "207447"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -5096,6 +5322,20 @@
    "end": 430,
    "region": "Nile Valley & Desert, Egypt",
    "placeLabel": "Nile Valley & Desert · Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Nile Valley & Desert",
+     "placeId": "Q729443"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -5280,6 +5520,7 @@
    "end": 450,
    "region": "Gaza, the Judean desert, Sinai road",
    "placeLabel": "Gaza · Judean desert and beyond",
+   "modernCountries": [],
    "regions": [
     "Middle East",
     "Mediterranean"
@@ -5351,6 +5592,7 @@
    "end": 439,
    "region": "Roman North Africa (Carthage and Numidia)",
    "placeLabel": "Roman North Africa",
+   "modernCountries": [],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -5520,6 +5762,22 @@
    "end": 394,
    "region": "Cappadocia / Anatolia",
    "placeLabel": "Cappadocia · Anatolia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cappadocia",
+     "placeId": "Q217265",
+     "pleiadesId": "628949"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -5739,6 +5997,22 @@
    "end": 451,
    "region": "Rome, Constantinople, Milan",
    "placeLabel": "Rome · Constantinople and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -5918,6 +6192,15 @@
    "end": 420,
    "region": "Rome & Bethlehem",
    "placeLabel": "Rome · Bethlehem",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -6080,6 +6363,7 @@
    "continuesAs": "armenian-christianity-after-avarayr",
    "region": "Armenia",
    "placeLabel": "Armenia",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -6187,6 +6471,22 @@
    "continuesAs": "aksumite-christianity",
    "region": "Aksum (Ethiopia/Eritrea)",
    "placeLabel": "Aksum",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Aksum",
+     "placeId": "Q5832",
+     "pleiadesId": "39303"
+    },
+    {
+     "country": "Eritrea",
+     "countryId": "Q986",
+     "place": "Aksum",
+     "placeId": "Q5832",
+     "pleiadesId": "39303"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -6266,6 +6566,7 @@
    "continuesAs": "the-church-of-the-east-under-persia",
    "region": "Persian Mesopotamia",
    "placeLabel": "Persian Mesopotamia",
+   "modernCountries": [],
    "regions": [
     "Middle East"
    ],
@@ -6362,6 +6663,15 @@
    "end": 430,
    "region": "Antioch",
    "placeLabel": "Antioch",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -6471,6 +6781,14 @@
    "continuesAs": "cyrilline-miaphysite-egyptian-christianity",
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -6612,6 +6930,7 @@
    "end": 450,
    "region": "Jerusalem",
    "placeLabel": "Jerusalem",
+   "modernCountries": [],
    "regions": [
     "Middle East"
    ],
@@ -6715,6 +7034,14 @@
    "end": 397,
    "region": "Milan",
    "placeLabel": "Milan",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Milan",
+     "placeId": "Q490"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -6797,6 +7124,22 @@
    "end": 410,
    "region": "Aquileia and Concordia, at the head of the Adriatic",
    "placeLabel": "Aquileia · Concordia",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Aquileia",
+     "placeId": "Q2859274",
+     "pleiadesId": "187290"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Concordia",
+     "placeId": "Q47189",
+     "pleiadesId": "393441"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -6873,6 +7216,21 @@
    "end": 400,
    "region": "Poitiers, Béziers, Arles, Paris",
    "placeLabel": "Poitiers · Béziers and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Poitiers",
+     "placeId": "Q6616",
+     "pleiadesId": "138422"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Béziers",
+     "placeId": "Q174019"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -6948,6 +7306,20 @@
    "end": 450,
    "region": "Tours, Lérins, Marseilles",
    "placeLabel": "Tours · Lérins and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Tours",
+     "placeId": "Q288"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Lérins",
+     "placeId": "Q292642"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -7104,6 +7476,14 @@
    "end": 450,
    "region": "Spain",
    "placeLabel": "Spain",
+   "modernCountries": [
+    {
+     "country": "Spain",
+     "countryId": "Q29",
+     "place": "Spain",
+     "placeId": "Q29"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -7179,6 +7559,15 @@
    "end": 430,
    "region": "Rome, Mediterranean",
    "placeLabel": "Rome · Mediterranean",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -7254,6 +7643,7 @@
    "end": 589,
    "region": "Empire-wide; then Gothic & Vandal kingdoms",
    "placeLabel": "Empire-wide · Gothic & Vandal kingdoms",
+   "modernCountries": [],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -7372,6 +7762,22 @@
    "end": 430,
    "region": "Antioch, Cyzicus, Constantinople, Cappadocia",
    "placeLabel": "Antioch · Cyzicus and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cyzicus",
+     "placeId": "Q615449",
+     "pleiadesId": "511218"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -7449,6 +7855,21 @@
    "end": 420,
    "region": "Constantinople, Asia Minor, Thrace",
    "placeLabel": "Constantinople · Asia Minor and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Asia Minor",
+     "placeId": "Q12824780"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -7525,6 +7946,21 @@
    "end": 430,
    "region": "Laodicea, Syria, Asia Minor",
    "placeLabel": "Laodicea · Syria and beyond",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Laodicea",
+     "placeId": "Q11931162",
+     "pleiadesId": "668290"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Middle East"
@@ -7631,6 +8067,22 @@
    "end": 270,
    "region": "Smyrna, Rome, Libya",
    "placeLabel": "Smyrna · Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Smyrna",
+     "placeId": "Q1379299",
+     "pleiadesId": "550771"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Asia Minor"
@@ -7708,6 +8160,15 @@
    "end": 400,
    "region": "Edessa and Osrhoene",
    "placeLabel": "Edessa · Osrhoene",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Edessa",
+     "placeId": "Q1190403",
+     "pleiadesId": "658457"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -7783,6 +8244,14 @@
    "continuesAs": "coptic-christianity-under-early-islam",
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -7965,6 +8434,14 @@
    "end": 636,
    "region": "Syria, Mesopotamia",
    "placeLabel": "Syria · Mesopotamia",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -8112,6 +8589,7 @@
    "continuesAs": "the-church-of-the-east-on-the-silk-road",
    "region": "Persian Mesopotamia",
    "placeLabel": "Persian Mesopotamia",
+   "modernCountries": [],
    "regions": [
     "Middle East"
    ],
@@ -8258,6 +8736,7 @@
    "end": 554,
    "region": "Armenia",
    "placeLabel": "Armenia",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -8398,6 +8877,7 @@
    "end": 884,
    "region": "Armenia",
    "placeLabel": "Armenia",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -8437,6 +8917,15 @@
    "end": 614,
    "region": "Palestine, Sinai",
    "placeLabel": "Palestine · Sinai",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Sinai",
+     "placeId": "Q36755",
+     "pleiadesId": "746813"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -8599,6 +9088,14 @@
    "end": 604,
    "region": "Italy",
    "placeLabel": "Italy",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -8733,6 +9230,15 @@
    "end": 604,
    "region": "Rome, its Sicilian and Italian estates, and the mission field beyond",
    "placeLabel": "Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -8866,6 +9372,7 @@
    "end": 620,
    "region": "Gaul",
    "placeLabel": "Gaul",
+   "modernCountries": [],
    "regions": [
     "Mediterranean"
    ],
@@ -9049,6 +9556,26 @@
    "end": 664,
    "region": "Ireland, Iona, Northumbria",
    "placeLabel": "Ireland · Iona and beyond",
+   "modernCountries": [
+    {
+     "country": "Ireland",
+     "countryId": "Q27",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Iona",
+     "placeId": "Q610"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -9212,6 +9739,20 @@
    "end": 1169,
    "region": "Ireland",
    "placeLabel": "Ireland",
+   "modernCountries": [
+    {
+     "country": "Ireland",
+     "countryId": "Q27",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -9251,6 +9792,20 @@
    "end": 615,
    "region": "Ethiopia / Eritrea",
    "placeLabel": "Ethiopia · Eritrea",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopia",
+     "placeId": "Q115"
+    },
+    {
+     "country": "Eritrea",
+     "countryId": "Q986",
+     "place": "Eritrea",
+     "placeId": "Q986"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -9395,6 +9950,7 @@
    "end": 609,
    "region": "Caucasus",
    "placeLabel": "Caucasus",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -9531,6 +10087,22 @@
    "end": 652,
    "region": "Nile Sudan (Makuria, Nobadia)",
    "placeLabel": "Nile Sudan",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Nile Sudan",
+     "placeId": "Q135028",
+     "pleiadesId": "953201624"
+    },
+    {
+     "country": "Sudan",
+     "countryId": "Q1049",
+     "place": "Nile Sudan",
+     "placeId": "Q135028",
+     "pleiadesId": "953201624"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -9636,6 +10208,14 @@
    "end": 680,
    "region": "Iberia, Italy, North Africa",
    "placeLabel": "Iberia · Italy and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    }
+   ],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -9779,6 +10359,22 @@
    "end": 622,
    "region": "Constantinople, Anatolia, the imperial Mediterranean",
    "placeLabel": "Constantinople · Anatolia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -9889,6 +10485,20 @@
    "end": 705,
    "region": "Caucasian Albania (modern Azerbaijan/Dagestan)",
    "placeLabel": "Caucasian Albania",
+   "modernCountries": [
+    {
+     "country": "Azerbaijan",
+     "countryId": "Q227",
+     "place": "Caucasian Albania",
+     "placeId": "Q177076"
+    },
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Caucasian Albania",
+     "placeId": "Q177076"
+    }
+   ],
    "regions": [
     "Caucasus"
    ],
@@ -9962,6 +10572,15 @@
    "end": 698,
    "region": "Carthage and Byzantine North Africa",
    "placeLabel": "Carthage · Byzantine North Africa",
+   "modernCountries": [
+    {
+     "country": "Tunisia",
+     "countryId": "Q948",
+     "place": "Carthage",
+     "placeId": "Q6343",
+     "pleiadesId": "314921"
+    }
+   ],
    "regions": [
     "Africa",
     "Mediterranean"
@@ -10045,6 +10664,7 @@
    "end": 711,
    "region": "Iberia (Toledo, Seville)",
    "placeLabel": "Iberia",
+   "modernCountries": [],
    "regions": [
     "Mediterranean"
    ],
@@ -10160,6 +10780,20 @@
    "end": 768,
    "region": "Wales, W. Britain, Cornwall, Brittany",
    "placeLabel": "Wales · W. Britain and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "W. Britain",
+     "placeId": "Q23666"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -10263,6 +10897,14 @@
    "end": 1282,
    "region": "Wales",
    "placeLabel": "Wales",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -10302,6 +10944,7 @@
    "end": 845,
    "region": "Persia, Central Asia, Tang China",
    "placeLabel": "Persia · Central Asia and beyond",
+   "modernCountries": [],
    "regions": [
     "Greater Asia",
     "Middle East"
@@ -10431,6 +11074,7 @@
    "end": 1220,
    "region": "Mesopotamia",
    "placeLabel": "Mesopotamia",
+   "modernCountries": [],
    "regions": [
     "Greater Asia",
     "Middle East"
@@ -10471,6 +11115,14 @@
    "end": 1009,
    "region": "Palestine, Syria",
    "placeLabel": "Palestine · Syria",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -10599,6 +11251,14 @@
    "end": 1013,
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -10751,6 +11411,14 @@
    "end": 793,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -10910,6 +11578,7 @@
    "end": 888,
    "region": "Francia",
    "placeLabel": "Francia",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -11046,6 +11715,22 @@
    "end": 843,
    "region": "Constantinople, Bithynia",
    "placeLabel": "Constantinople · Bithynia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Bithynia",
+     "placeId": "Q373189",
+     "pleiadesId": "511189"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -11185,6 +11870,20 @@
    "end": 916,
    "region": "Moravia, Bulgaria, Ohrid",
    "placeLabel": "Moravia · Bulgaria and beyond",
+   "modernCountries": [
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Moravia",
+     "placeId": "Q43266"
+    },
+    {
+     "country": "Bulgaria",
+     "countryId": "Q219",
+     "place": "Bulgaria",
+     "placeId": "Q219"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "North Europe"
@@ -11338,6 +12037,20 @@
    "end": 1054,
    "region": "Kyiv, Novgorod",
    "placeLabel": "Kyiv · Novgorod",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Kyiv",
+     "placeId": "Q1899"
+    },
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Novgorod",
+     "placeId": "Q2235"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -11471,6 +12184,20 @@
    "end": 1031,
    "region": "al-Andalus (Cordoba)",
    "placeLabel": "al-Andalus",
+   "modernCountries": [
+    {
+     "country": "Spain",
+     "countryId": "Q29",
+     "place": "al-Andalus",
+     "placeId": "Q123559"
+    },
+    {
+     "country": "Portugal",
+     "countryId": "Q45",
+     "place": "al-Andalus",
+     "placeId": "Q123559"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -11606,6 +12333,14 @@
    "end": 1109,
    "region": "Burgundy, then Europe",
    "placeLabel": "Burgundy and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Burgundy",
+     "placeId": "Q1173"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -11737,6 +12472,14 @@
    "end": 1054,
    "region": "Malabar Coast",
    "placeLabel": "Malabar Coast",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Malabar Coast",
+     "placeId": "Q473181"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -11855,6 +12598,7 @@
    "end": 878,
    "region": "Armenia, Byzantium",
    "placeLabel": "Armenia · Byzantium",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -11962,6 +12706,14 @@
    "end": 1054,
    "region": "Bulgaria, Balkans",
    "placeLabel": "Bulgaria · Balkans",
+   "modernCountries": [
+    {
+     "country": "Bulgaria",
+     "countryId": "Q219",
+     "place": "Bulgaria",
+     "placeId": "Q219"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -12035,6 +12787,20 @@
    "end": 1104,
    "region": "Denmark, Norway, Sweden, Iceland",
    "placeLabel": "Denmark · Norway and beyond",
+   "modernCountries": [
+    {
+     "country": "Denmark",
+     "countryId": "Q35",
+     "place": "Denmark",
+     "placeId": "Q35"
+    },
+    {
+     "country": "Norway",
+     "countryId": "Q20",
+     "place": "Norway",
+     "placeId": "Q20"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -12171,6 +12937,22 @@
    "end": 843,
    "region": "Constantinople, Anatolia, the Greek East",
    "placeLabel": "Constantinople · Anatolia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -12281,6 +13063,22 @@
    "end": 1054,
    "region": "Constantinople, Anatolia, the Greek East",
    "placeLabel": "Constantinople · Anatolia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -12391,6 +13189,7 @@
    "end": 1045,
    "region": "Armenia (Ani, Vaspurakan)",
    "placeLabel": "Armenia",
+   "modernCountries": [],
    "regions": [
     "Caucasus"
    ],
@@ -12496,6 +13295,32 @@
    "end": 1054,
    "region": "Jazira, Syria, Tagrit; Deir al-Surian (Egypt)",
    "placeLabel": "Jazira · Syria and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Iraq",
+     "countryId": "Q796",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    }
+   ],
    "regions": [
     "Africa",
     "Middle East"
@@ -12607,6 +13432,20 @@
    "end": 1054,
    "region": "Makuria (Dongola, Faras, Qasr Ibrim)",
    "placeLabel": "Makuria",
+   "modernCountries": [
+    {
+     "country": "Sudan",
+     "countryId": "Q1049",
+     "place": "Makuria",
+     "placeId": "Q829356"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Makuria",
+     "placeId": "Q829356"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -12708,6 +13547,14 @@
    "end": 1066,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -12822,6 +13669,15 @@
    "end": 1000,
    "region": "Tao-Klarjeti, then Mount Athos (Iviron)",
    "placeLabel": "Tao-Klarjeti · Mount Athos",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Mount Athos",
+     "placeId": "Q130321",
+     "pleiadesId": "501366"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Caucasus",
@@ -12932,6 +13788,15 @@
    "end": 1137,
    "region": "Ethiopian highlands",
    "placeLabel": "Ethiopian highlands",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopian highlands",
+     "placeId": "Q319288",
+     "pleiadesId": "39278"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -12975,6 +13840,14 @@
    "end": 1300,
    "region": "Burgundy, then Europe",
    "placeLabel": "Burgundy and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Burgundy",
+     "placeId": "Q1173"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -13129,6 +14002,14 @@
    "end": 1300,
    "region": "Chartreuse, then Europe",
    "placeLabel": "Chartreuse and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Chartreuse",
+     "placeId": "Q1067900"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -13262,6 +14143,14 @@
    "end": 1246,
    "region": "Paris and beyond",
    "placeLabel": "Paris and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Paris",
+     "placeId": "Q90"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -13365,6 +14254,14 @@
    "end": 1300,
    "region": "Italy, then everywhere",
    "placeLabel": "Italy and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -13530,6 +14427,21 @@
    "end": 1300,
    "region": "Toulouse, Paris, Bologna",
    "placeLabel": "Toulouse · Paris and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Toulouse",
+     "placeId": "Q7880",
+     "pleiadesId": "246694"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Paris",
+     "placeId": "Q90"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -13671,6 +14583,22 @@
    "end": 1300,
    "region": "Athos, Constantinople",
    "placeLabel": "Athos · Constantinople",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Athos",
+     "placeId": "Q130321",
+     "pleiadesId": "501366"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -13824,6 +14752,14 @@
    "end": 1310,
    "region": "Low Countries, Rhineland",
    "placeLabel": "Low Countries · Rhineland",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Rhineland",
+     "placeId": "Q152243"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -13964,6 +14900,14 @@
    "end": 1300,
    "region": "Lyon, Alpine valleys",
    "placeLabel": "Lyon · Alpine valleys",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Lyon",
+     "placeId": "Q456"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -14081,6 +15025,15 @@
    "continuesAs": "the-ethiopian-monastic-flowering",
    "region": "Ethiopian highlands",
    "placeLabel": "Ethiopian highlands",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopian highlands",
+     "placeId": "Q319288",
+     "pleiadesId": "39278"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -14162,6 +15115,15 @@
    "end": 1300,
    "region": "Mount Lebanon",
    "placeLabel": "Mount Lebanon",
+   "modernCountries": [
+    {
+     "country": "Lebanon",
+     "countryId": "Q822",
+     "place": "Mount Lebanon",
+     "placeId": "Q333711",
+     "pleiadesId": "678267"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -14279,6 +15241,7 @@
    "end": 1291,
    "region": "Latin East, Iberia",
    "placeLabel": "Latin East · Iberia",
+   "modernCountries": [],
    "regions": [
     "Mediterranean"
    ],
@@ -14413,6 +15376,14 @@
    "end": 1321,
    "region": "Languedoc",
    "placeLabel": "Languedoc",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Languedoc",
+     "placeId": "Q206221"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -14562,6 +15533,15 @@
    "end": 1300,
    "region": "Calabria, then Franciscan circles",
    "placeLabel": "Calabria and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Calabria",
+     "placeId": "Q1458",
+     "pleiadesId": "442518"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -14670,6 +15650,14 @@
    "end": 1400,
    "region": "Rhineland, Low Countries",
    "placeLabel": "Rhineland · Low Countries",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Rhineland",
+     "placeId": "Q152243"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -14741,6 +15729,14 @@
    "end": 1245,
    "region": "Georgia",
    "placeLabel": "Georgia",
+   "modernCountries": [
+    {
+     "country": "Georgia",
+     "countryId": "Q230",
+     "place": "Georgia",
+     "placeId": "Q230"
+    }
+   ],
    "regions": [
     "Caucasus"
    ],
@@ -14851,6 +15847,7 @@
    "end": 1396,
    "region": "Balkans (Hilandar, Studenica, Tarnovo, Rila)",
    "placeLabel": "Balkans",
+   "modernCountries": [],
    "regions": [
     "Asia Minor"
    ],
@@ -15006,6 +16003,22 @@
    "end": 1300,
    "region": "Constantinople; Nicaea (1204-1261)",
    "placeLabel": "Constantinople · Nicaea",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Nicaea",
+     "placeId": "Q739037",
+     "pleiadesId": "511268"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -15113,6 +16126,15 @@
    "end": 1300,
    "region": "Rome, Latin Christendom",
    "placeLabel": "Rome · Latin Christendom",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -15222,6 +16244,20 @@
    "end": 1240,
    "region": "Kyiv, Novgorod, Vladimir-Suzdal",
    "placeLabel": "Kyiv · Novgorod and beyond",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Kyiv",
+     "placeId": "Q1899"
+    },
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Novgorod",
+     "placeId": "Q2235"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -15325,6 +16361,15 @@
    "end": 1300,
    "region": "Cilicia (Sis, Hromkla)",
    "placeLabel": "Cilicia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cilicia",
+     "placeId": "Q620864",
+     "pleiadesId": "658440"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -15405,6 +16450,32 @@
    "end": 1300,
    "region": "Jazira, Melitene, Mor Barsauma",
    "placeLabel": "Jazira · Melitene and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Iraq",
+     "countryId": "Q796",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Melitene",
+     "placeId": "Q1101969"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -15509,6 +16580,7 @@
    "end": 1317,
    "region": "Central Asia, the Ilkhanate, China",
    "placeLabel": "Central Asia · the Ilkhanate and beyond",
+   "modernCountries": [],
    "regions": [
     "Greater Asia"
    ],
@@ -15605,6 +16677,15 @@
    "end": 1300,
    "region": "Mount Carmel, then Europe",
    "placeLabel": "Mount Carmel and beyond",
+   "modernCountries": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Mount Carmel",
+     "placeId": "Q185318",
+     "pleiadesId": "678084"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -15652,6 +16733,36 @@
    "end": 1300,
    "region": "Constantinople, Thrace, Macedonia, Bulgaria",
    "placeLabel": "Constantinople · Thrace and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Thrace",
+     "placeId": "Q41741",
+     "pleiadesId": "501638"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Thrace",
+     "placeId": "Q41741",
+     "pleiadesId": "501638"
+    },
+    {
+     "country": "Bulgaria",
+     "countryId": "Q219",
+     "place": "Thrace",
+     "placeId": "Q41741",
+     "pleiadesId": "501638"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -15722,6 +16833,15 @@
    "end": 1291,
    "region": "Jerusalem, Antioch, Acre, Cyprus",
    "placeLabel": "Jerusalem · Antioch and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -15825,6 +16945,14 @@
    "end": 1300,
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -15902,6 +17030,14 @@
    "end": 1300,
    "region": "Lombardy",
    "placeLabel": "Lombardy",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Lombardy",
+     "placeId": "Q1210"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -15949,6 +17085,14 @@
    "end": 1440,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -16084,6 +17228,20 @@
    "end": 1400,
    "region": "Rhineland, Switzerland",
    "placeLabel": "Rhineland · Switzerland",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Rhineland",
+     "placeId": "Q152243"
+    },
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Switzerland",
+     "placeId": "Q39"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -16212,6 +17370,7 @@
    "end": 1517,
    "region": "Low Countries",
    "placeLabel": "Low Countries",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -16341,6 +17500,22 @@
    "end": 1400,
    "region": "Athos, Thessalonica",
    "placeLabel": "Athos · Thessalonica",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Athos",
+     "placeId": "Q130321",
+     "pleiadesId": "501366"
+    },
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Thessalonica",
+     "placeId": "Q17151",
+     "pleiadesId": "491741"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -16454,6 +17629,14 @@
    "end": 1520,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -16597,6 +17780,14 @@
    "end": 1517,
    "region": "Bohemia",
    "placeLabel": "Bohemia",
+   "modernCountries": [
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Bohemia",
+     "placeId": "Q39193"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -16738,6 +17929,15 @@
    "end": 1517,
    "region": "Ethiopian highlands",
    "placeLabel": "Ethiopian highlands",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopian highlands",
+     "placeId": "Q319288",
+     "pleiadesId": "39278"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -16869,6 +18069,14 @@
    "end": 1517,
    "region": "Russian north",
    "placeLabel": "Russian north",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russian north",
+     "placeId": "Q588279"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -17009,6 +18217,20 @@
    "end": 1517,
    "region": "Italy, Spain",
    "placeLabel": "Italy · Spain",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    },
+    {
+     "country": "Spain",
+     "countryId": "Q29",
+     "place": "Spain",
+     "placeId": "Q29"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -17149,6 +18371,14 @@
    "end": 1517,
    "region": "England (documented case)",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -17261,6 +18491,14 @@
    "end": 1452,
    "region": "Bohemia",
    "placeLabel": "Bohemia",
+   "modernCountries": [
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Bohemia",
+     "placeId": "Q39193"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -17363,6 +18601,20 @@
    "end": 1466,
    "region": "Italy, Provence",
    "placeLabel": "Italy · Provence",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Provence",
+     "placeId": "Q101081"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -17479,6 +18731,7 @@
    "end": 1500,
    "region": "Central Europe",
    "placeLabel": "Central Europe",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -17545,6 +18798,22 @@
    "end": 1517,
    "region": "Avignon, Rome, Latin Christendom",
    "placeLabel": "Avignon · Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Avignon",
+     "placeId": "Q6397",
+     "pleiadesId": "148004"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -17654,6 +18923,15 @@
    "end": 1453,
    "region": "Constantinople, the empire's remnant",
    "placeLabel": "Constantinople · the empire's remnant",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -17765,6 +19043,28 @@
    "end": 1517,
    "region": "Cottian Alps (Piedmont/Dauphine), Provence, Apulia, Germany",
    "placeLabel": "Cottian Alps · Provence and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Cottian Alps",
+     "placeId": "Q1251",
+     "pleiadesId": "167636"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Cottian Alps",
+     "placeId": "Q1251",
+     "pleiadesId": "167636"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Provence",
+     "placeId": "Q101081"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -17848,6 +19148,20 @@
    "end": 1517,
    "region": "Mesopotamia, then the Hakkari-Van-Urmia triangle",
    "placeLabel": "Mesopotamia · Hakkari-Van-Urmia triangle",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Hakkari-Van-Urmia triangle",
+     "placeId": "Q93209"
+    },
+    {
+     "country": "Iran",
+     "countryId": "Q794",
+     "place": "Hakkari-Van-Urmia triangle",
+     "placeId": "Q93209"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -17890,6 +19204,21 @@
    "end": 1484,
    "region": "Dongola, Qasr Ibrim, Gebel Adda",
    "placeLabel": "Dongola · Qasr Ibrim and beyond",
+   "modernCountries": [
+    {
+     "country": "Sudan",
+     "countryId": "Q1049",
+     "place": "Dongola",
+     "placeId": "Q433112",
+     "pleiadesId": "865674318"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Qasr Ibrim",
+     "placeId": "Q2121453"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -17935,6 +19264,20 @@
    "end": 1517,
    "region": "Italy, France, Spain, empire-wide",
    "placeLabel": "Italy · France and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -18011,6 +19354,7 @@
    "end": 1463,
    "region": "Bosnia",
    "placeLabel": "Bosnia",
+   "modernCountries": [],
    "regions": [
     "Asia Minor"
    ],
@@ -18086,6 +19430,22 @@
    "end": 1441,
    "region": "Cilicia (Sis), then Etchmiadzin",
    "placeLabel": "Cilicia · Etchmiadzin",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cilicia",
+     "placeId": "Q620864",
+     "pleiadesId": "658440"
+    },
+    {
+     "country": "Armenia",
+     "countryId": "Q399",
+     "place": "Etchmiadzin",
+     "placeId": "Q1294648",
+     "pleiadesId": "327730568"
+    }
+   ],
    "regions": [
     "Asia Minor"
    ],
@@ -18166,6 +19526,15 @@
    "end": 1517,
    "region": "Mount Lebanon, Cyprus",
    "placeLabel": "Mount Lebanon · Cyprus",
+   "modernCountries": [
+    {
+     "country": "Lebanon",
+     "countryId": "Q822",
+     "place": "Mount Lebanon",
+     "placeId": "Q333711",
+     "pleiadesId": "678267"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -18215,6 +19584,14 @@
    "end": 1517,
    "region": "Malabar coast (Cranganore, Quilon)",
    "placeLabel": "Malabar coast",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Malabar coast",
+     "placeId": "Q473181"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -18285,6 +19662,14 @@
    "end": 1580,
    "region": "Saxony, then N. Europe",
    "placeLabel": "Saxony and beyond",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Saxony",
+     "placeId": "Q1202"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -18488,6 +19873,14 @@
    "end": 1650,
    "region": "Swiss lands, then Europe",
    "placeLabel": "Swiss lands and beyond",
+   "modernCountries": [
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Swiss lands",
+     "placeId": "Q39"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -18646,6 +20039,20 @@
    "end": 1650,
    "region": "Swiss lands, Moravia, Netherlands",
    "placeLabel": "Swiss lands · Moravia and beyond",
+   "modernCountries": [
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Swiss lands",
+     "placeId": "Q39"
+    },
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Moravia",
+     "placeId": "Q43266"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -18792,6 +20199,14 @@
    "end": 1650,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -18936,6 +20351,15 @@
    "end": 1650,
    "region": "Scotland",
    "placeLabel": "Scotland",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Scotland",
+     "placeId": "Q22",
+     "pleiadesId": "89132"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -19072,6 +20496,14 @@
    "end": 1685,
    "region": "France",
    "placeLabel": "France",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -19209,6 +20641,14 @@
    "end": 1650,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -19344,6 +20784,20 @@
    "end": 1660,
    "region": "England, New England",
    "placeLabel": "England · New England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New England",
+     "placeId": "Q18389"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -19494,6 +20948,14 @@
    "end": 1650,
    "region": "Netherlands",
    "placeLabel": "Netherlands",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -19589,6 +21051,7 @@
    "end": 1655,
    "region": "Alpine valleys",
    "placeLabel": "Alpine valleys",
+   "modernCountries": [],
    "regions": [
     "Mediterranean"
    ],
@@ -19699,6 +21162,15 @@
    "end": 1650,
    "region": "Rome, then the world",
    "placeLabel": "Rome and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -19833,6 +21305,14 @@
    "end": 1610,
    "region": "Lombardy, model for the Catholic world",
    "placeLabel": "Lombardy",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Lombardy",
+     "placeId": "Q1210"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -19959,6 +21439,14 @@
    "end": 1650,
    "region": "Japan, Kongo, China, Americas",
    "placeLabel": "Japan · Kongo and beyond",
+   "modernCountries": [
+    {
+     "country": "Japan",
+     "countryId": "Q17",
+     "place": "Japan",
+     "placeId": "Q17"
+    }
+   ],
    "regions": [
     "Africa",
     "Greater Asia"
@@ -20127,6 +21615,7 @@
    "end": 1650,
    "region": "Kingdom of Kongo",
    "placeLabel": "Kingdom of Kongo",
+   "modernCountries": [],
    "regions": [
     "Africa"
    ],
@@ -20160,6 +21649,14 @@
    "end": 1650,
    "region": "Japan",
    "placeLabel": "Japan",
+   "modernCountries": [
+    {
+     "country": "Japan",
+     "countryId": "Q17",
+     "place": "Japan",
+     "placeId": "Q17"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -20193,6 +21690,7 @@
    "end": 1650,
    "region": "China",
    "placeLabel": "China",
+   "modernCountries": [],
    "regions": [
     "Greater Asia"
    ],
@@ -20226,6 +21724,7 @@
    "end": 1650,
    "region": "New Spain, the Andes",
    "placeLabel": "New Spain · the Andes",
+   "modernCountries": [],
    "regions": [
     "Latin America"
    ],
@@ -20260,6 +21759,20 @@
    "end": 1650,
    "region": "Poland, Transylvania",
    "placeLabel": "Poland · Transylvania",
+   "modernCountries": [
+    {
+     "country": "Poland",
+     "countryId": "Q36",
+     "place": "Poland",
+     "placeId": "Q36"
+    },
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -20396,6 +21909,32 @@
    "end": 1650,
    "region": "Silesia, later Pennsylvania",
    "placeLabel": "Silesia · Pennsylvania",
+   "modernCountries": [
+    {
+     "country": "Poland",
+     "countryId": "Q36",
+     "place": "Silesia",
+     "placeId": "Q81720"
+    },
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Silesia",
+     "placeId": "Q81720"
+    },
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Silesia",
+     "placeId": "Q81720"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Pennsylvania",
+     "placeId": "Q1400"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -20492,6 +22031,14 @@
    "end": 1600,
    "region": "Rhineland, Low Countries, England",
    "placeLabel": "Rhineland · Low Countries and beyond",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Rhineland",
+     "placeId": "Q152243"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -20604,6 +22151,15 @@
    "end": 1650,
    "region": "Anatolia, Balkans, Greek islands",
    "placeLabel": "Anatolia · Balkans and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -20754,6 +22310,14 @@
    "end": 1665,
    "region": "Malabar Coast",
    "placeLabel": "Malabar Coast",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Malabar Coast",
+     "placeId": "Q473181"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -20901,6 +22465,14 @@
    "end": 1650,
    "region": "Philippines",
    "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -21045,6 +22617,20 @@
    "end": 1700,
    "region": "Ruthenia (today's Ukraine & Belarus)",
    "placeLabel": "Ruthenia",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ruthenia",
+     "placeId": "Q212"
+    },
+    {
+     "country": "Belarus",
+     "countryId": "Q184",
+     "place": "Ruthenia",
+     "placeId": "Q212"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -21187,6 +22773,14 @@
    "end": 1700,
    "region": "Kyiv",
    "placeLabel": "Kyiv",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Kyiv",
+     "placeId": "Q1899"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -21314,6 +22908,15 @@
    "end": 1650,
    "region": "Rome, Latin Christendom",
    "placeLabel": "Rome · Latin Christendom",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -21454,6 +23057,7 @@
    "end": 1650,
    "region": "Muscovy",
    "placeLabel": "Muscovy",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -21582,6 +23186,20 @@
    "end": 1627,
    "region": "Bohemia, Moravia",
    "placeLabel": "Bohemia · Moravia",
+   "modernCountries": [
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Bohemia",
+     "placeId": "Q39193"
+    },
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Moravia",
+     "placeId": "Q43266"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -21700,6 +23318,15 @@
    "end": 1650,
    "region": "Ethiopian highlands",
    "placeLabel": "Ethiopian highlands",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopian highlands",
+     "placeId": "Q319288",
+     "pleiadesId": "39278"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -21810,6 +23437,14 @@
    "end": 1650,
    "region": "Netherlands",
    "placeLabel": "Netherlands",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -21925,6 +23560,7 @@
    "end": 1650,
    "region": "Denmark-Norway (incl. Iceland), Sweden-Finland",
    "placeLabel": "Denmark-Norway · Sweden-Finland",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -22053,6 +23689,15 @@
    "end": 1650,
    "region": "Armenia, Isfahan (New Julfa)",
    "placeLabel": "Armenia · Isfahan",
+   "modernCountries": [
+    {
+     "country": "Iran",
+     "countryId": "Q794",
+     "place": "Isfahan",
+     "placeId": "Q42053",
+     "pleiadesId": "902990"
+    }
+   ],
    "regions": [
     "Caucasus"
    ],
@@ -22167,6 +23812,14 @@
    "end": 1622,
    "region": "Castile, then Catholic Europe",
    "placeLabel": "Castile and beyond",
+   "modernCountries": [
+    {
+     "country": "Spain",
+     "countryId": "Q29",
+     "place": "Castile",
+     "placeId": "Q173063"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -22279,6 +23932,7 @@
    "end": 1650,
    "region": "Mesopotamia, Hakkari; Rome",
    "placeLabel": "Mesopotamia · Hakkari and beyond",
+   "modernCountries": [],
    "regions": [
     "Mediterranean",
     "Middle East"
@@ -22357,6 +24011,14 @@
    "end": 1815,
    "region": "England, Atlantic world",
    "placeLabel": "England · Atlantic world",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -22522,6 +24184,14 @@
    "end": 1750,
    "region": "Germany",
    "placeLabel": "Germany",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -22660,6 +24330,20 @@
    "end": 1815,
    "region": "Germany, then Pennsylvania",
    "placeLabel": "Germany · Pennsylvania",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Pennsylvania",
+     "placeId": "Q1400"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -22823,6 +24507,14 @@
    "end": 1815,
    "region": "Saxony, then global",
    "placeLabel": "Saxony and beyond",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Saxony",
+     "placeId": "Q1202"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -22968,6 +24660,15 @@
    "end": 1815,
    "region": "Britain, then America",
    "placeLabel": "Britain and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -23143,6 +24844,14 @@
    "end": 1760,
    "region": "New England",
    "placeLabel": "New England",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New England",
+     "placeId": "Q18389"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -23307,6 +25016,20 @@
    "end": 1815,
    "region": "Russian north, Siberia",
    "placeLabel": "Russian north · Siberia",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russian north",
+     "placeId": "Q588279"
+    },
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Siberia",
+     "placeId": "Q5428"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -23478,6 +25201,33 @@
    "continuesAs": "the-optina-elders-and-russian-ascetic-renewal",
    "region": "Athos, Moldavia, Russia",
    "placeLabel": "Athos · Moldavia and beyond",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Athos",
+     "placeId": "Q130321",
+     "pleiadesId": "501366"
+    },
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Moldavia",
+     "placeId": "Q18366588"
+    },
+    {
+     "country": "Moldova",
+     "countryId": "Q217",
+     "place": "Moldavia",
+     "placeId": "Q18366588"
+    },
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Moldavia",
+     "placeId": "Q18366588"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean",
@@ -23633,6 +25383,14 @@
    "end": 1710,
    "region": "France",
    "placeLabel": "France",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -23783,6 +25541,14 @@
    "end": 1815,
    "region": "Wales",
    "placeLabel": "Wales",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -23929,6 +25695,7 @@
    "end": 1706,
    "region": "Kongo",
    "placeLabel": "Kongo",
+   "modernCountries": [],
    "regions": [
     "Africa"
    ],
@@ -24031,6 +25798,14 @@
    "end": 1815,
    "region": "England, then America",
    "placeLabel": "England and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -24168,6 +25943,14 @@
    "end": 1815,
    "region": "England, America",
    "placeLabel": "England · America",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -24300,6 +26083,20 @@
    "end": 1699,
    "region": "Spain, France",
    "placeLabel": "Spain · France",
+   "modernCountries": [
+    {
+     "country": "Spain",
+     "countryId": "Q29",
+     "place": "Spain",
+     "placeId": "Q29"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -24433,6 +26230,15 @@
    "end": 1710,
    "region": "Cevennes",
    "placeLabel": "Cevennes",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Cevennes",
+     "placeId": "Q626655",
+     "pleiadesId": "167703"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -24567,6 +26373,14 @@
    "end": 1815,
    "region": "England, then America",
    "placeLabel": "England and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -24754,6 +26568,14 @@
    "end": 1810,
    "region": "New Spain, Peru",
    "placeLabel": "New Spain · Peru",
+   "modernCountries": [
+    {
+     "country": "Peru",
+     "countryId": "Q419",
+     "place": "Peru",
+     "placeId": "Q419"
+    }
+   ],
    "regions": [
     "Latin America",
     "Mediterranean"
@@ -24925,6 +26747,15 @@
    "end": 1821,
    "region": "Anatolia, Balkans, Greek islands",
    "placeLabel": "Anatolia · Balkans and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -25039,6 +26870,15 @@
    "end": 1815,
    "region": "Rome, Catholic Europe",
    "placeLabel": "Rome · Catholic Europe",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -25173,6 +27013,20 @@
    "end": 1815,
    "region": "England, Wales, Ireland; the colonies",
    "placeLabel": "England · Wales and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -25310,6 +27164,14 @@
    "end": 1815,
    "region": "Russia",
    "placeLabel": "Russia",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -25439,6 +27301,21 @@
    "end": 1787,
    "region": "Languedoc, Cévennes, the French refuge",
    "placeLabel": "Languedoc · Cévennes and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Languedoc",
+     "placeId": "Q206221"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Cévennes",
+     "placeId": "Q626655",
+     "pleiadesId": "167703"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -25579,6 +27456,22 @@
    "end": 1815,
    "region": "Damascus, Aleppo, Mount Lebanon",
    "placeLabel": "Damascus · Aleppo and beyond",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Damascus",
+     "placeId": "Q3766",
+     "pleiadesId": "678106"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Aleppo",
+     "placeId": "Q41183",
+     "pleiadesId": "658409"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -25656,6 +27549,22 @@
    "end": 1815,
    "region": "Constantinople, Venice, Mount Lebanon",
    "placeLabel": "Constantinople · Venice and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Venice",
+     "placeId": "Q641",
+     "pleiadesId": "818739154"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean",
@@ -25769,6 +27678,14 @@
    "end": 1815,
    "region": "Netherlands",
    "placeLabel": "Netherlands",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -25849,6 +27766,20 @@
    "end": 1815,
    "region": "England, Wales",
    "placeLabel": "England · Wales",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -25990,6 +27921,20 @@
    "end": 1815,
    "region": "New England, the mid-Atlantic, and London",
    "placeLabel": "New England · the mid-Atlantic and beyond",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New England",
+     "placeId": "Q18389"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "the mid-Atlantic",
+     "placeId": "Q632014"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -26100,6 +28045,20 @@
    "end": 1815,
    "region": "Ruthenia (Ukraine & Belarus), Austrian Galicia",
    "placeLabel": "Ruthenia · Austrian Galicia",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ruthenia",
+     "placeId": "Q212"
+    },
+    {
+     "country": "Belarus",
+     "countryId": "Q184",
+     "place": "Ruthenia",
+     "placeId": "Q212"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -26231,6 +28190,14 @@
    "end": 1815,
    "region": "Philippines",
    "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -26343,6 +28310,14 @@
    "end": 1906,
    "region": "United States",
    "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -26492,6 +28467,14 @@
    "end": 1840,
    "region": "American frontier",
    "placeLabel": "American frontier",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "American frontier",
+     "placeId": "Q190267"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -26633,6 +28616,14 @@
    "end": 1906,
    "region": "American frontier",
    "placeLabel": "American frontier",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "American frontier",
+     "placeId": "Q190267"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -26775,6 +28766,15 @@
    "end": 1906,
    "region": "N. America, Britain",
    "placeLabel": "N. America · Britain",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -26923,6 +28923,14 @@
    "end": 1906,
    "region": "England",
    "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -27091,6 +29099,14 @@
    "end": 1906,
    "region": "East London, then world",
    "placeLabel": "East London and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "East London",
+     "placeId": "Q2220704"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -27238,6 +29254,14 @@
    "end": 1906,
    "region": "India, W. Africa, Pacific, China",
    "placeLabel": "India · W. Africa and beyond",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "India",
+     "placeId": "Q668"
+    }
+   ],
    "regions": [
     "Africa",
     "Greater Asia",
@@ -27410,6 +29434,14 @@
    "end": 1842,
    "region": "Norway",
    "placeLabel": "Norway",
+   "modernCountries": [
+    {
+     "country": "Norway",
+     "countryId": "Q20",
+     "place": "Norway",
+     "placeId": "Q20"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -27546,6 +29578,20 @@
    "end": 1880,
    "region": "Switzerland, France, Netherlands, Germany",
    "placeLabel": "Switzerland · France and beyond",
+   "modernCountries": [
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Switzerland",
+     "placeId": "Q39"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -27691,6 +29737,7 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -27836,6 +29883,14 @@
    "end": 1906,
    "region": "Russia",
    "placeLabel": "Russia",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -27978,6 +30033,21 @@
    "end": 1860,
    "region": "Athos, Greek islands",
    "placeLabel": "Athos · Greek islands",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Athos",
+     "placeId": "Q130321",
+     "pleiadesId": "501366"
+    },
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Greek islands",
+     "placeId": "Q25162136"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -28111,6 +30181,14 @@
    "continuesAs": "the-coptic-monastic-and-sunday-school-revival",
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -28240,6 +30318,7 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -28410,6 +30489,7 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -28548,6 +30628,7 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -28684,6 +30765,15 @@
    "end": 1906,
    "region": "Britain, N. America",
    "placeLabel": "Britain · N. America",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -28806,6 +30896,15 @@
    "end": 1901,
    "region": "Britain",
    "placeLabel": "Britain",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -28946,6 +31045,14 @@
    "end": 1881,
    "region": "New York",
    "placeLabel": "New York",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New York",
+     "placeId": "Q1384"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -29082,6 +31189,15 @@
    "end": 1906,
    "region": "N. America, Britain",
    "placeLabel": "N. America · Britain",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -29152,6 +31268,20 @@
    "end": 1886,
    "region": "Korea",
    "placeLabel": "Korea",
+   "modernCountries": [
+    {
+     "country": "South Korea",
+     "countryId": "Q884",
+     "place": "Korea",
+     "placeId": "Q483134"
+    },
+    {
+     "country": "North Korea",
+     "countryId": "Q423",
+     "place": "Korea",
+     "placeId": "Q483134"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -29293,6 +31423,14 @@
    "end": 1906,
    "region": "Lapland, Finland, Norway, Sweden",
    "placeLabel": "Lapland · Finland and beyond",
+   "modernCountries": [
+    {
+     "country": "Finland",
+     "countryId": "Q33",
+     "place": "Finland",
+     "placeId": "Q33"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -29434,6 +31572,20 @@
    "end": 1906,
    "region": "Dublin, England, then global",
    "placeLabel": "Dublin · England and beyond",
+   "modernCountries": [
+    {
+     "country": "Ireland",
+     "countryId": "Q27",
+     "place": "Dublin",
+     "placeId": "Q1761"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -29572,6 +31724,15 @@
    "end": 1900,
    "region": "Britain, N. America",
    "placeLabel": "Britain · N. America",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -29705,6 +31866,15 @@
    "end": 1920,
    "region": "N. America, Britain, global",
    "placeLabel": "N. America · Britain and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -29835,6 +32005,26 @@
    "end": 1906,
    "region": "Sumatra, Timor, the archipelago",
    "placeLabel": "Sumatra · Timor and beyond",
+   "modernCountries": [
+    {
+     "country": "Indonesia",
+     "countryId": "Q252",
+     "place": "Sumatra",
+     "placeId": "Q3492"
+    },
+    {
+     "country": "Indonesia",
+     "countryId": "Q252",
+     "place": "Timor",
+     "placeId": "Q83067"
+    },
+    {
+     "country": "Timor-Leste",
+     "countryId": "Q574",
+     "place": "Timor",
+     "placeId": "Q83067"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -29980,6 +32170,26 @@
    "end": 1906,
    "region": "Kerala; Khasi, Mizo & Naga hills",
    "placeLabel": "Kerala · Khasi, Mizo & Naga hills",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Kerala",
+     "placeId": "Q1186"
+    },
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Khasi, Mizo & Naga hills",
+     "placeId": "Q3182012"
+    },
+    {
+     "country": "Myanmar",
+     "countryId": "Q836",
+     "place": "Khasi, Mizo & Naga hills",
+     "placeId": "Q3182012"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -30114,6 +32324,14 @@
    "end": 1906,
    "region": "Greece, Balkans, Constantinople",
    "placeLabel": "Greece · Balkans and beyond",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Greece",
+     "placeId": "Q41"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -30221,6 +32439,15 @@
    "end": 1906,
    "region": "Rome, the Catholic world",
    "placeLabel": "Rome · the Catholic world",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -30350,6 +32577,14 @@
    "end": 1906,
    "region": "England, the empire",
    "placeLabel": "England · the empire",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -30461,6 +32696,14 @@
    "end": 1906,
    "region": "Russia",
    "placeLabel": "Russia",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -30563,6 +32806,22 @@
    "end": 1906,
    "region": "Constantinople, Anatolia, Caucasus",
    "placeLabel": "Constantinople · Anatolia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Caucasus"
@@ -30672,6 +32931,20 @@
    "end": 1906,
    "region": "Netherlands, Germany, Switzerland",
    "placeLabel": "Netherlands · Germany and beyond",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    },
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -30773,6 +33046,15 @@
    "end": 1906,
    "region": "Britain, N. America, mission fields",
    "placeLabel": "Britain · N. America and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -30884,6 +33166,15 @@
    "end": 1906,
    "region": "Britain, N. America",
    "placeLabel": "Britain · N. America",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -30989,6 +33280,15 @@
    "end": 1906,
    "region": "N. America, Britain",
    "placeLabel": "N. America · Britain",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -31092,6 +33392,20 @@
    "end": 1906,
    "region": "New England, mid-Atlantic",
    "placeLabel": "New England · mid-Atlantic",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New England",
+     "placeId": "Q18389"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "mid-Atlantic",
+     "placeId": "Q632014"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -31195,6 +33509,20 @@
    "end": 1906,
    "region": "Belarus, Ukraine, Galicia",
    "placeLabel": "Belarus · Ukraine and beyond",
+   "modernCountries": [
+    {
+     "country": "Belarus",
+     "countryId": "Q184",
+     "place": "Belarus",
+     "placeId": "Q184"
+    },
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ukraine",
+     "placeId": "Q212"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -31299,6 +33627,14 @@
    "end": 1906,
    "region": "Philippines",
    "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -31400,6 +33736,7 @@
    "end": 1906,
    "region": "Mesopotamia, Hakkari, Urmia",
    "placeLabel": "Mesopotamia · Hakkari and beyond",
+   "modernCountries": [],
    "regions": [
     "Middle East"
    ],
@@ -31508,6 +33845,14 @@
    "end": 1906,
    "region": "Prussia, Saxony, Bavaria; N. America; Australia",
    "placeLabel": "Prussia · Saxony and beyond",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Saxony",
+     "placeId": "Q1202"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe",
@@ -31617,6 +33962,14 @@
    "end": 1895,
    "region": "Madagascar",
    "placeLabel": "Madagascar",
+   "modernCountries": [
+    {
+     "country": "Madagascar",
+     "countryId": "Q1019",
+     "place": "Madagascar",
+     "placeId": "Q1019"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -31719,6 +34072,14 @@
    "end": 1906,
    "region": "East Africa, Buganda",
    "placeLabel": "East Africa · Buganda",
+   "modernCountries": [
+    {
+     "country": "Uganda",
+     "countryId": "Q1036",
+     "place": "Buganda",
+     "placeId": "Q473748"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -31833,6 +34194,7 @@
    "end": 1864,
    "region": "China",
    "placeLabel": "China",
+   "modernCountries": [],
    "regions": [
     "Greater Asia"
    ],
@@ -31940,6 +34302,14 @@
    "end": 1906,
    "region": "Japan",
    "placeLabel": "Japan",
+   "modernCountries": [
+    {
+     "country": "Japan",
+     "countryId": "Q17",
+     "place": "Japan",
+     "placeId": "Q17"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -32056,6 +34426,14 @@
    "end": 1860,
    "region": "Haiti",
    "placeLabel": "Haiti",
+   "modernCountries": [
+    {
+     "country": "Haiti",
+     "countryId": "Q790",
+     "place": "Haiti",
+     "placeId": "Q790"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -32129,6 +34507,20 @@
    "end": 1906,
    "region": "Alaska, Aleutians",
    "placeLabel": "Alaska · Aleutians",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Alaska",
+     "placeId": "Q797"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Aleutians",
+     "placeId": "Q119285"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -32245,6 +34637,14 @@
    "end": 1906,
    "region": "Spanish America, Brazil",
    "placeLabel": "Spanish America · Brazil",
+   "modernCountries": [
+    {
+     "country": "Brazil",
+     "countryId": "Q155",
+     "place": "Brazil",
+     "placeId": "Q155"
+    }
+   ],
    "regions": [
     "Latin America"
    ],
@@ -32351,6 +34751,14 @@
    "end": 1900,
    "region": "Ethiopia",
    "placeLabel": "Ethiopia",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopia",
+     "placeId": "Q115"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -32462,6 +34870,14 @@
    "end": 1906,
    "region": "Netherlands; N. America",
    "placeLabel": "Netherlands · N. America",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -32573,6 +34989,20 @@
    "end": 1906,
    "region": "Ukraine, Russia",
    "placeLabel": "Ukraine · Russia",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ukraine",
+     "placeId": "Q212"
+    },
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -32683,6 +35113,14 @@
    "end": 1920,
    "region": "Los Angeles, then global",
    "placeLabel": "Los Angeles and beyond",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Los Angeles",
+     "placeId": "Q65"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -32822,6 +35260,20 @@
    "end": 1910,
    "region": "Wales, India, Korea",
    "placeLabel": "Wales · India and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    },
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "India",
+     "placeId": "Q668"
+    }
+   ],
    "regions": [
     "Greater Asia",
     "North Europe"
@@ -32959,6 +35411,20 @@
    "end": 1977,
    "region": "Rwanda, Uganda, Kenya, Tanzania",
    "placeLabel": "Rwanda · Uganda and beyond",
+   "modernCountries": [
+    {
+     "country": "Rwanda",
+     "countryId": "Q1037",
+     "place": "Rwanda",
+     "placeId": "Q1037"
+    },
+    {
+     "country": "Uganda",
+     "countryId": "Q1036",
+     "place": "Uganda",
+     "placeId": "Q1036"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -33091,6 +35557,7 @@
    "end": 2026,
    "region": "W. & S. Africa, Congo",
    "placeLabel": "W. & S. Africa · Congo",
+   "modernCountries": [],
    "regions": [
     "Africa"
    ],
@@ -33229,6 +35696,7 @@
    "end": 2026,
    "region": "China",
    "placeLabel": "China",
+   "modernCountries": [],
    "regions": [
     "Greater Asia"
    ],
@@ -33374,6 +35842,14 @@
    "end": 1945,
    "region": "Germany",
    "placeLabel": "Germany",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -33491,6 +35967,7 @@
    "end": 2026,
    "region": "Global",
    "placeLabel": "Global",
+   "modernCountries": [],
    "regions": [
     "Mediterranean",
     "North America",
@@ -33631,6 +36108,14 @@
    "end": 1990,
    "region": "Brazil, Central America",
    "placeLabel": "Brazil · Central America",
+   "modernCountries": [
+    {
+     "country": "Brazil",
+     "countryId": "Q155",
+     "place": "Brazil",
+     "placeId": "Q155"
+    }
+   ],
    "regions": [
     "Latin America"
    ],
@@ -33763,6 +36248,14 @@
    "end": 1970,
    "region": "Paris, then global",
    "placeLabel": "Paris and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Paris",
+     "placeId": "Q90"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -33894,6 +36387,14 @@
    "end": 2026,
    "region": "Egypt",
    "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -34034,6 +36535,20 @@
    "end": 2026,
    "region": "Brazil, Nigeria, Ghana, Korea, Philippines",
    "placeLabel": "Brazil · Nigeria and beyond",
+   "modernCountries": [
+    {
+     "country": "Brazil",
+     "countryId": "Q155",
+     "place": "Brazil",
+     "placeId": "Q155"
+    },
+    {
+     "country": "Nigeria",
+     "countryId": "Q1033",
+     "place": "Nigeria",
+     "placeId": "Q1033"
+    }
+   ],
    "regions": [
     "Africa",
     "Greater Asia",
@@ -34175,6 +36690,14 @@
    "end": 1991,
    "region": "USSR, Romania",
    "placeLabel": "USSR · Romania",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Romania",
+     "placeId": "Q218"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -34306,6 +36829,14 @@
    "end": 2026,
    "region": "Israel, N. America",
    "placeLabel": "Israel · N. America",
+   "modernCountries": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Israel",
+     "placeId": "Q801"
+    }
+   ],
    "regions": [
     "Middle East",
     "North America"
@@ -34440,6 +36971,21 @@
    "end": 2026,
    "region": "France, Scotland",
    "placeLabel": "France · Scotland",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "France",
+     "placeId": "Q142"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Scotland",
+     "placeId": "Q22",
+     "pleiadesId": "89132"
+    }
+   ],
    "regions": [
     "Mediterranean",
     "North Europe"
@@ -34569,6 +37115,7 @@
    "end": 2026,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -34711,6 +37258,14 @@
    "end": 2026,
    "region": "Philippines; N. America; Korea; Mexico",
    "placeLabel": "Philippines · N. America and beyond",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
    "regions": [
     "Greater Asia",
     "North America"
@@ -34849,6 +37404,7 @@
    "end": 1993,
    "region": "N. America",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -34945,6 +37501,7 @@
    "end": 2026,
    "region": "Global",
    "placeLabel": "Global",
+   "modernCountries": [],
    "regions": [
     "North America",
     "North Europe"
@@ -35011,6 +37568,20 @@
    "end": 2026,
    "region": "Tur Abdin, Urmia, then global",
    "placeLabel": "Tur Abdin · Urmia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Tur Abdin",
+     "placeId": "Q506470"
+    },
+    {
+     "country": "Iran",
+     "countryId": "Q794",
+     "place": "Urmia",
+     "placeId": "Q179665"
+    }
+   ],
    "regions": [
     "Middle East"
    ],
@@ -35147,6 +37718,20 @@
    "end": 2026,
    "region": "Ethiopia, Eritrea",
    "placeLabel": "Ethiopia · Eritrea",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopia",
+     "placeId": "Q115"
+    },
+    {
+     "country": "Eritrea",
+     "countryId": "Q986",
+     "place": "Eritrea",
+     "placeId": "Q986"
+    }
+   ],
    "regions": [
     "Africa"
    ],
@@ -35283,6 +37868,14 @@
    "end": 1989,
    "region": "Ukraine",
    "placeLabel": "Ukraine",
+   "modernCountries": [
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ukraine",
+     "placeId": "Q212"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -35419,6 +38012,7 @@
    "end": 1991,
    "region": "USSR",
    "placeLabel": "USSR",
+   "modernCountries": [],
    "regions": [
     "North Europe"
    ],
@@ -35555,6 +38149,7 @@
    "end": 2026,
    "region": "Global",
    "placeLabel": "Global",
+   "modernCountries": [],
    "regions": [
     "Mediterranean"
    ],
@@ -35687,6 +38282,7 @@
    "end": 2026,
    "region": "Global",
    "placeLabel": "Global",
+   "modernCountries": [],
    "regions": [
     "Africa",
     "Greater Asia",
@@ -35824,6 +38420,20 @@
    "end": 2026,
    "region": "UK, Germany, Netherlands, Ukraine",
    "placeLabel": "UK · Germany and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    },
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -35953,6 +38563,14 @@
    "end": 2026,
    "region": "Aotearoa New Zealand, Pacific",
    "placeLabel": "Aotearoa New Zealand · Pacific",
+   "modernCountries": [
+    {
+     "country": "New Zealand",
+     "countryId": "Q664",
+     "place": "Aotearoa New Zealand",
+     "placeId": "Q664"
+    }
+   ],
    "regions": [
     "Pacific"
    ],
@@ -36087,6 +38705,15 @@
    "end": 2026,
    "region": "Anatolia -> Armenia & worldwide diaspora",
    "placeLabel": "Anatolia · Armenia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
    "regions": [
     "Asia Minor",
     "Caucasus"
@@ -36223,6 +38850,14 @@
    "end": 2015,
    "region": "N. America, UK, Australia",
    "placeLabel": "N. America · UK and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe",
@@ -36361,6 +38996,7 @@
    "end": 2026,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -36497,6 +39133,7 @@
    "end": 2026,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -36639,6 +39276,7 @@
    "end": 2026,
    "region": "Digital-native; N. America and beyond",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -36771,6 +39409,14 @@
    "end": 2026,
    "region": "N. America, UK, then global (digital)",
    "placeLabel": "N. America · UK and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -36922,6 +39568,7 @@
    "end": 1970,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -37061,6 +39708,7 @@
    "end": 1918,
    "region": "N. America (urban, industrial)",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -37200,6 +39848,14 @@
    "end": 1990,
    "region": "N. America, Germany, Britain",
    "placeLabel": "N. America · Germany and beyond",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -37346,6 +40002,7 @@
    "end": 2026,
    "region": "N. America, then global (digital)",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -37495,6 +40152,20 @@
    "end": 2026,
    "region": "Sumatra, Java, Timor, the archipelago",
    "placeLabel": "Sumatra · Java and beyond",
+   "modernCountries": [
+    {
+     "country": "Indonesia",
+     "countryId": "Q252",
+     "place": "Sumatra",
+     "placeId": "Q3492"
+    },
+    {
+     "country": "Indonesia",
+     "countryId": "Q252",
+     "place": "Java",
+     "placeId": "Q3757"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -37624,6 +40295,26 @@
    "end": 2026,
    "region": "Kerala; Mizo, Khasi & Naga hills; diaspora",
    "placeLabel": "Kerala · Mizo, Khasi & Naga hills and beyond",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Kerala",
+     "placeId": "Q1186"
+    },
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Mizo, Khasi & Naga hills",
+     "placeId": "Q3182012"
+    },
+    {
+     "country": "Myanmar",
+     "countryId": "Q836",
+     "place": "Mizo, Khasi & Naga hills",
+     "placeId": "Q3182012"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -37753,6 +40444,14 @@
    "end": 2026,
    "region": "Kerala; worldwide diaspora",
    "placeLabel": "Kerala and beyond",
+   "modernCountries": [
+    {
+     "country": "India",
+     "countryId": "Q668",
+     "place": "Kerala",
+     "placeId": "Q1186"
+    }
+   ],
    "regions": [
     "Greater Asia"
    ],
@@ -37882,6 +40581,14 @@
    "end": 2026,
    "region": "Georgia (Caucasus)",
    "placeLabel": "Georgia",
+   "modernCountries": [
+    {
+     "country": "Georgia",
+     "countryId": "Q230",
+     "place": "Georgia",
+     "placeId": "Q230"
+    }
+   ],
    "regions": [
     "Caucasus"
    ],
@@ -38001,6 +40708,7 @@
    "end": 2026,
    "region": "N. America (upper South), then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -38139,6 +40847,7 @@
    "end": 2026,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -38267,6 +40976,14 @@
    "end": 2026,
    "region": "United States",
    "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -38396,6 +41113,7 @@
    "end": 2026,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -38525,6 +41243,14 @@
    "end": 1980,
    "region": "N. America, UK, then global",
    "placeLabel": "N. America · UK and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    }
+   ],
    "regions": [
     "North America",
     "North Europe"
@@ -38655,6 +41381,15 @@
    "end": 2026,
    "region": "Geneva; global",
    "placeLabel": "Geneva and beyond",
+   "modernCountries": [
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Geneva",
+     "placeId": "Q71",
+     "pleiadesId": "177528"
+    }
+   ],
    "regions": [
     "North Europe"
    ],
@@ -38784,6 +41519,15 @@
    "end": 1962,
    "region": "Rome, the Catholic world",
    "placeLabel": "Rome · the Catholic world",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
    "regions": [
     "Mediterranean"
    ],
@@ -38914,6 +41658,7 @@
    "end": 2026,
    "region": "North America",
    "placeLabel": "North America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],
@@ -39053,6 +41798,7 @@
    "end": 2026,
    "region": "N. America, digital-native",
    "placeLabel": "N. America",
+   "modernCountries": [],
    "regions": [
     "North America"
    ],

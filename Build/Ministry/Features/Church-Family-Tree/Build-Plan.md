@@ -66,8 +66,8 @@ applied to every shared file, not only the census.
 | P1a | Tree Worker and build script; full addresses for cross-site links | none | merged (#1527) |
 | C1 | Public site carries code only; notes moved to `Build/Ministry` | none | merged (#1528) |
 | PL1 | Place labels from each movement's and gap story's own region text | none | done, on the branch |
-| PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | todo |
-| PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | todo |
+| PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | waiting on Mark (ruling) |
+| PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | built, on the branch |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
 | P1b | Attach the domain; verify | Mark: dashboard steps | todo |
 | P1c | Rename, data release 3, redirects | none (after P1b is verified) | todo |

@@ -1,0 +1,3867 @@
+{
+ "Antioch": {
+  "status": "resolved",
+  "placeId": "Q200441",
+  "placeItem": "Antioch",
+  "pleiadesId": "658381",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Asia Minor": {
+  "status": "resolved",
+  "placeId": "Q12824780",
+  "placeItem": "Asia Minor",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Athens": {
+  "status": "resolved",
+  "placeId": "Q1524",
+  "placeItem": "Athens",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Rome": {
+  "status": "resolved",
+  "placeId": "Q220",
+  "placeItem": "Rome",
+  "pleiadesId": "423025",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Carthage": {
+  "status": "resolved",
+  "placeId": "Q6343",
+  "placeItem": "Carthage",
+  "pleiadesId": "314921",
+  "countries": [
+   {
+    "name": "Tunisia",
+    "id": "Q948"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Syria": {
+  "status": "resolved",
+  "placeId": "Q858",
+  "placeItem": "Syria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Alexandria": {
+  "status": "resolved",
+  "placeId": "Q87",
+  "placeItem": "Alexandria",
+  "pleiadesId": "727070",
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Egypt": {
+  "status": "resolved",
+  "placeId": "Q79",
+  "placeItem": "Egypt",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Edessa": {
+  "status": "resolved",
+  "placeId": "Q1190403",
+  "placeItem": "Edessa",
+  "pleiadesId": "658457",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Nisibis": {
+  "status": "resolved",
+  "placeId": "Q14524112",
+  "placeItem": "Nisibis",
+  "pleiadesId": "60591",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Hippo Regius": {
+  "status": "resolved",
+  "placeId": "Q858024",
+  "placeItem": "Hippo Regius",
+  "pleiadesId": "305090",
+  "countries": [
+   {
+    "name": "Algeria",
+    "id": "Q262"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Persia": {
+  "status": "historical",
+  "placeId": null,
+  "placeItem": null,
+  "countries": [],
+  "basis": "No Wikidata item named Persia for the country/region in the search results (candidates: Iran Q794, Achaemenid Empire Q389688, Persis Q3746183); the English aliases of Iran do not include Persia."
+ },
+ "Mediterranean": {
+  "status": "broad",
+  "placeId": "Q4918",
+  "placeItem": "Mediterranean Sea",
+  "pleiadesId": "1043",
+  "countries": [],
+  "basis": "Q4918 (Mediterranean Sea) has 22 P17 values: a sea shared by many countries, not a fixed place."
+ },
+ "Palestine": {
+  "status": "disputed",
+  "placeId": "Q23792",
+  "placeItem": "Palestine",
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   },
+   {
+    "name": "Jordan",
+    "id": "Q810"
+   },
+   {
+    "name": "Palestine",
+    "id": "Q219060"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "Wikidata lists Israel, Jordan and Palestine for this region; the status of the West Bank and Gaza is internationally contested. Suggested display: 'Palestine (historical region)' with no state named."
+ },
+ "Phrygia": {
+  "status": "resolved",
+  "placeId": "Q32579",
+  "placeItem": "Phrygia",
+  "pleiadesId": "907036116",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Neocaesarea": {
+  "status": "resolved",
+  "placeId": "Q513980",
+  "placeItem": "Niksar",
+  "pleiadesId": "857177",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Olympus": {
+  "status": "resolved",
+  "placeId": "Q1380189",
+  "placeItem": "Olympos",
+  "pleiadesId": "639017",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Antioch on the Orontes": {
+  "status": "resolved",
+  "placeId": "Q200441",
+  "placeItem": "Antioch",
+  "pleiadesId": "658381",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Syrian hinterland": {
+  "status": "historical",
+  "placeId": null,
+  "placeItem": null,
+  "countries": [],
+  "basis": "No Wikidata item for the hinterland of Antioch found in the search results."
+ },
+ "Caesarea Maritima": {
+  "status": "resolved",
+  "placeId": "Q319242",
+  "placeItem": "Caesarea Maritima",
+  "pleiadesId": "678401",
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Jerusalem": {
+  "status": "disputed",
+  "placeId": "Q1218",
+  "placeItem": "Jerusalem",
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   },
+   {
+    "name": "Palestine",
+    "id": "Q219060"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "Wikidata lists both Israel and Palestine; the status of Jerusalem is contested. Suggested display: 'Jerusalem' with no country named."
+ },
+ "Poetovio": {
+  "status": "resolved",
+  "placeId": "Q11941360",
+  "placeItem": "Poetovio",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Slovenia",
+    "id": "Q215"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q15906 (Ptuj); P1366 (replaced by)"
+ },
+ "Sirmium": {
+  "status": "resolved",
+  "placeId": "Q833060",
+  "placeItem": "Sirmium",
+  "pleiadesId": "207447",
+  "countries": [
+   {
+    "name": "Serbia",
+    "id": "Q403"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Nile Valley & Desert": {
+  "status": "resolved",
+  "placeId": "Q729443",
+  "placeItem": "Nile valley",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Gaza": {
+  "status": "disputed",
+  "placeId": "Q47492",
+  "placeItem": "Gaza City",
+  "countries": [
+   {
+    "name": "Palestine",
+    "id": "Q219060"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "Gaza Strip: Wikidata lists Palestine, and the territory is subject to a sovereignty and occupation dispute. Suggested display: 'Gaza (Gaza Strip)' with no state named."
+ },
+ "Judean desert": {
+  "status": "disputed",
+  "placeId": "Q2046004",
+  "placeItem": "Judaean Desert",
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   },
+   {
+    "name": "Palestine",
+    "id": "Q219060"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "The desert lies in Israel and the West Bank; Wikidata lists both Israel and Palestine. Suggested display: 'Judean Desert' with no state named."
+ },
+ "Roman North Africa": {
+  "status": "historical",
+  "placeId": "Q181238",
+  "placeItem": "Africa",
+  "countries": [],
+  "basis": "Q181238 (Africa, Roman province) has only Ancient Rome (dissolved) as P17; no modern country link in the query results."
+ },
+ "Cappadocia": {
+  "status": "resolved",
+  "placeId": "Q217265",
+  "placeItem": "Cappadocia",
+  "pleiadesId": "628949",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Anatolia": {
+  "status": "resolved",
+  "placeId": "Q51614",
+  "placeItem": "Anatolia",
+  "pleiadesId": "837",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Constantinople": {
+  "status": "resolved",
+  "placeId": "Q16869",
+  "placeItem": "Constantinople",
+  "pleiadesId": "520998",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bethlehem": {
+  "status": "disputed",
+  "placeId": "Q5776",
+  "placeItem": "Bethlehem",
+  "countries": [
+   {
+    "name": "Palestine",
+    "id": "Q219060"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "Bethlehem is in the West Bank, whose sovereignty is disputed. Suggested display: 'Bethlehem, West Bank' with no state named."
+ },
+ "Armenia": {
+  "status": "historical",
+  "placeId": "Q399",
+  "placeItem": "Armenia",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Historical Armenia (the texts name Ani and Vaspurakan); spans several present-day countries"
+ },
+ "Aksum": {
+  "status": "resolved",
+  "placeId": "Q5832",
+  "placeItem": "Axum",
+  "pleiadesId": "39303",
+  "countries": [
+   {
+    "name": "Ethiopia",
+    "id": "Q115"
+   },
+   {
+    "name": "Eritrea",
+    "id": "Q986"
+   }
+  ],
+  "basis": "Ethiopia (Q115) and Eritrea (Q986), named in the region text"
+ },
+ "Persian Mesopotamia": {
+  "status": "historical",
+  "placeId": "Q3627700",
+  "placeItem": "Asuristan",
+  "countries": [],
+  "basis": "Q3627700 (Asuristan) has only dissolved empires as P17 and no modern settlement link (capital Ctesiphon Q192541 not looked up)."
+ },
+ "Milan": {
+  "status": "resolved",
+  "placeId": "Q490",
+  "placeItem": "Milan",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Aquileia": {
+  "status": "resolved",
+  "placeId": "Q2859274",
+  "placeItem": "Aquileia",
+  "pleiadesId": "187290",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Concordia": {
+  "status": "resolved",
+  "placeId": "Q47189",
+  "placeItem": "Concordia Sagittaria",
+  "pleiadesId": "393441",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Poitiers": {
+  "status": "resolved",
+  "placeId": "Q6616",
+  "placeItem": "Poitiers",
+  "pleiadesId": "138422",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Béziers": {
+  "status": "resolved",
+  "placeId": "Q174019",
+  "placeItem": "Béziers",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Tours": {
+  "status": "resolved",
+  "placeId": "Q288",
+  "placeItem": "Tours",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lérins": {
+  "status": "resolved",
+  "placeId": "Q292642",
+  "placeItem": "Lérins Islands",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Spain": {
+  "status": "resolved",
+  "placeId": "Q29",
+  "placeItem": "Spain",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Spain",
+    "id": "Q29"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Empire-wide": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place."
+ },
+ "Gothic & Vandal kingdoms": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Two historical kingdoms with changing borders across several present-day countries; no single Wikidata item in the search results."
+ },
+ "Cyzicus": {
+  "status": "resolved",
+  "placeId": "Q615449",
+  "placeItem": "Cyzicus",
+  "pleiadesId": "511218",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Laodicea": {
+  "status": "resolved",
+  "placeId": "Q11931162",
+  "placeItem": "Laodicea",
+  "pleiadesId": "668290",
+  "countries": [
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q200030 (Latakia); P1366 (replaced by); description 'the modern Latakia'"
+ },
+ "Smyrna": {
+  "status": "resolved",
+  "placeId": "Q1379299",
+  "placeItem": "Smyrna",
+  "pleiadesId": "550771",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q35997 (İzmir); P1366 (replaced by)"
+ },
+ "Osrhoene": {
+  "status": "historical",
+  "placeId": "Q237234",
+  "placeItem": "Osroene",
+  "countries": [],
+  "basis": "Q237234 (Osroene) has only itself as P17; its capital Edessa (Q1190403) lies in Turkey but the kingdom's extent is not given."
+ },
+ "Mesopotamia": {
+  "status": "historical",
+  "placeId": "Q11767",
+  "placeItem": "Mesopotamia",
+  "countries": [],
+  "basis": "P17 on the place (Iraq only is listed by Wikidata)"
+ },
+ "Sinai": {
+  "status": "resolved",
+  "placeId": "Q36755",
+  "placeItem": "Sinai Peninsula",
+  "pleiadesId": "746813",
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Italy": {
+  "status": "resolved",
+  "placeId": "Q38",
+  "placeItem": "Italy",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Gaul": {
+  "status": "broad",
+  "placeId": "Q38060",
+  "placeItem": "Gaul",
+  "pleiadesId": "993",
+  "countries": [],
+  "basis": "Q38060 has 7 P17 values (Luxembourg, Belgium, Italy, Switzerland, France, Netherlands, Germany): more than three present-day countries."
+ },
+ "Ireland": {
+  "status": "resolved",
+  "placeId": "Q22890",
+  "placeItem": "Ireland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ireland",
+    "id": "Q27"
+   },
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Iona": {
+  "status": "resolved",
+  "placeId": "Q610",
+  "placeItem": "Iona",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Ethiopia": {
+  "status": "resolved",
+  "placeId": "Q115",
+  "placeItem": "Ethiopia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ethiopia",
+    "id": "Q115"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Eritrea": {
+  "status": "resolved",
+  "placeId": "Q986",
+  "placeItem": "Eritrea",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Eritrea",
+    "id": "Q986"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Caucasus": {
+  "status": "broad",
+  "placeId": "Q18869",
+  "placeItem": "Caucasus",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q18869 has no P17 and no country parts in the query results; it is a region spanning Europe and Asia, treated as a multi-country area, so no countries are listed."
+ },
+ "Nile Sudan": {
+  "status": "resolved",
+  "placeId": "Q135028",
+  "placeItem": "Nubia",
+  "pleiadesId": "953201624",
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   },
+   {
+    "name": "Sudan",
+    "id": "Q1049"
+   }
+  ],
+  "basis": "P17 on the place ; matched to Nubia (Q135028)"
+ },
+ "Iberia": {
+  "status": "broad",
+  "placeId": "Q12837",
+  "placeItem": "Iberian Peninsula",
+  "pleiadesId": "540456066",
+  "countries": [],
+  "basis": "Q12837 (Iberian Peninsula) has 5 P17 values (Spain, Portugal, France, Andorra, Gibraltar): more than three. Q12837 is the item matched to 'Iberia'."
+ },
+ "Caucasian Albania": {
+  "status": "resolved",
+  "placeId": "Q177076",
+  "placeItem": "Caucasian Albania",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Azerbaijan",
+    "id": "Q227"
+   },
+   {
+    "name": "Russia",
+    "id": "Q159"
+   }
+  ],
+  "basis": "Azerbaijan (P17) and Russia, via Dagestan (Q5118), named in the region text"
+ },
+ "Byzantine North Africa": {
+  "status": "historical",
+  "placeId": "Q111330482",
+  "placeItem": "Byzantine North Africa",
+  "countries": [],
+  "basis": "P17 on the place (Wikidata lists Tunisia only)"
+ },
+ "Wales": {
+  "status": "resolved",
+  "placeId": "Q25",
+  "placeItem": "Wales",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "W. Britain": {
+  "status": "resolved",
+  "placeId": "Q23666",
+  "placeItem": "Great Britain",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on Great Britain (Q23666)"
+ },
+ "Central Asia": {
+  "status": "broad",
+  "placeId": "Q27275",
+  "placeItem": "Central Asia",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q27275 has 7 P17 values: more than three present-day countries."
+ },
+ "England": {
+  "status": "resolved",
+  "placeId": "Q21",
+  "placeItem": "England",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Francia": {
+  "status": "historical",
+  "placeId": "Q146246",
+  "placeItem": "Francia",
+  "countries": [],
+  "basis": "P17 on the place (Wikidata lists France only)"
+ },
+ "Bithynia": {
+  "status": "resolved",
+  "placeId": "Q373189",
+  "placeItem": "Bithynia",
+  "pleiadesId": "511189",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Moravia": {
+  "status": "resolved",
+  "placeId": "Q43266",
+  "placeItem": "Moravia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Czech Republic",
+    "id": "Q213"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bulgaria": {
+  "status": "resolved",
+  "placeId": "Q219",
+  "placeItem": "Bulgaria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Bulgaria",
+    "id": "Q219"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Kyiv": {
+  "status": "resolved",
+  "placeId": "Q1899",
+  "placeItem": "Kyiv",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ukraine",
+    "id": "Q212"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Novgorod": {
+  "status": "resolved",
+  "placeId": "Q2235",
+  "placeItem": "Veliky Novgorod",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Russia",
+    "id": "Q159"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "al-Andalus": {
+  "status": "resolved",
+  "placeId": "Q123559",
+  "placeItem": "al-Andalus",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Spain",
+    "id": "Q29"
+   },
+   {
+    "name": "Portugal",
+    "id": "Q45"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Burgundy": {
+  "status": "resolved",
+  "placeId": "Q1173",
+  "placeItem": "Burgundy",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Malabar Coast": {
+  "status": "resolved",
+  "placeId": "Q473181",
+  "placeItem": "Malabar Coast",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Byzantium": {
+  "status": "broad",
+  "placeId": "Q12544",
+  "placeItem": "Byzantine Empire",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q12544 (Byzantine Empire): the only P17 is the Roman Empire (dissolved); a polity whose territory changed, not a fixed place. Q23725 is the ancient city of Byzantium but the map line reads 'Armenia, Byzantium', i.e. the empire."
+ },
+ "Balkans": {
+  "status": "broad",
+  "placeId": "Q23522",
+  "placeItem": "Balkans",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q23522 has no P17; its P527 (has parts) lists more than three countries (Greece, Bulgaria, Slovenia, North Macedonia, Albania, Bosnia and Herzegovina, Croatia, ...)."
+ },
+ "Denmark": {
+  "status": "resolved",
+  "placeId": "Q35",
+  "placeItem": "Denmark",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Denmark",
+    "id": "Q35"
+   }
+  ],
+  "basis": "Q35 is itself a sovereign state (P31 country); its P17 is Kingdom of Denmark (Q756617)"
+ },
+ "Norway": {
+  "status": "resolved",
+  "placeId": "Q20",
+  "placeItem": "Norway",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Norway",
+    "id": "Q20"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Jazira": {
+  "status": "resolved",
+  "placeId": "Q311819",
+  "placeItem": "Upper Mesopotamia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   },
+   {
+    "name": "Iraq",
+    "id": "Q796"
+   },
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "P17 on the place ; Jazira is an English alias of Upper Mesopotamia (Q311819)"
+ },
+ "Makuria": {
+  "status": "resolved",
+  "placeId": "Q829356",
+  "placeItem": "Kingdom of Makuria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Sudan",
+    "id": "Q1049"
+   },
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "Q829356 has no P17; its description reads 'present-day Northern Sudan and Southern Egypt'; countries from P17 of Old Dongola Q433112 (its capital, P36) and Qasr Ibrim Q2121453"
+ },
+ "Tao-Klarjeti": {
+  "status": "historical",
+  "placeId": "Q20580230",
+  "placeItem": "Tao-Klarjeti",
+  "countries": [],
+  "basis": "Q20580230 has a P17 of 'Caucasus' (a region, not a country) and no other country link."
+ },
+ "Mount Athos": {
+  "status": "resolved",
+  "placeId": "Q130321",
+  "placeItem": "Mount Athos",
+  "pleiadesId": "501366",
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Ethiopian highlands": {
+  "status": "resolved",
+  "placeId": "Q319288",
+  "placeItem": "Ethiopian Highlands",
+  "pleiadesId": "39278",
+  "countries": [
+   {
+    "name": "Ethiopia",
+    "id": "Q115"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Chartreuse": {
+  "status": "resolved",
+  "placeId": "Q1067900",
+  "placeItem": "Chartreuse Mountains",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Paris": {
+  "status": "resolved",
+  "placeId": "Q90",
+  "placeItem": "Paris",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Toulouse": {
+  "status": "resolved",
+  "placeId": "Q7880",
+  "placeItem": "Toulouse",
+  "pleiadesId": "246694",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Athos": {
+  "status": "resolved",
+  "placeId": "Q130321",
+  "placeItem": "Mount Athos",
+  "pleiadesId": "501366",
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Low Countries": {
+  "status": "historical",
+  "placeId": "Q476033",
+  "placeItem": "Low Countries",
+  "countries": [],
+  "basis": "Q476033 has no P17 and no parts in the query results."
+ },
+ "Rhineland": {
+  "status": "resolved",
+  "placeId": "Q152243",
+  "placeItem": "Rhineland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lyon": {
+  "status": "resolved",
+  "placeId": "Q456",
+  "placeItem": "Lyon",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Alpine valleys": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place (the only search candidate was a wine region in Australia)."
+ },
+ "Mount Lebanon": {
+  "status": "resolved",
+  "placeId": "Q333711",
+  "placeItem": "Mount Lebanon",
+  "pleiadesId": "678267",
+  "countries": [
+   {
+    "name": "Lebanon",
+    "id": "Q822"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Latin East": {
+  "status": "broad",
+  "placeId": "Q190967",
+  "placeItem": "Crusader states",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q190967 (Crusader states): P17 values are only the four dissolved states; not a fixed place."
+ },
+ "Languedoc": {
+  "status": "resolved",
+  "placeId": "Q206221",
+  "placeItem": "Languedoc",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Calabria": {
+  "status": "resolved",
+  "placeId": "Q1458",
+  "placeItem": "Calabria",
+  "pleiadesId": "442518",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Georgia": {
+  "status": "resolved",
+  "placeId": "Q230",
+  "placeItem": "Georgia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Georgia",
+    "id": "Q230"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Nicaea": {
+  "status": "resolved",
+  "placeId": "Q739037",
+  "placeItem": "Nicaea",
+  "pleiadesId": "511268",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Latin Christendom": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place."
+ },
+ "Cilicia": {
+  "status": "resolved",
+  "placeId": "Q620864",
+  "placeItem": "Cilicia",
+  "pleiadesId": "658440",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Melitene": {
+  "status": "resolved",
+  "placeId": "Q1101969",
+  "placeItem": "Melitene",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q165995 (Malatya); P1366 (replaced by)"
+ },
+ "the Ilkhanate": {
+  "status": "broad",
+  "placeId": "Q178084",
+  "placeItem": "Ilkhanate",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q178084: the only P17 is the Mongol Empire (dissolved); a polity covering parts of several countries, so no countries are listed."
+ },
+ "Mount Carmel": {
+  "status": "resolved",
+  "placeId": "Q185318",
+  "placeItem": "Mount Carmel",
+  "pleiadesId": "678084",
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Thrace": {
+  "status": "resolved",
+  "placeId": "Q41741",
+  "placeItem": "Thrace",
+  "pleiadesId": "501638",
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   },
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   },
+   {
+    "name": "Bulgaria",
+    "id": "Q219"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lombardy": {
+  "status": "resolved",
+  "placeId": "Q1210",
+  "placeItem": "Lombardy",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Switzerland": {
+  "status": "resolved",
+  "placeId": "Q39",
+  "placeItem": "Switzerland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Switzerland",
+    "id": "Q39"
+   }
+  ],
+  "basis": "Q39 is itself a sovereign state (P31 country); it carries no P17 of its own"
+ },
+ "Thessalonica": {
+  "status": "resolved",
+  "placeId": "Q17151",
+  "placeItem": "Thessaloniki",
+  "pleiadesId": "491741",
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bohemia": {
+  "status": "resolved",
+  "placeId": "Q39193",
+  "placeItem": "Bohemia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Czech Republic",
+    "id": "Q213"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Russian north": {
+  "status": "resolved",
+  "placeId": "Q588279",
+  "placeItem": "Russian North",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Russia",
+    "id": "Q159"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Provence": {
+  "status": "resolved",
+  "placeId": "Q101081",
+  "placeItem": "Provence",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Central Europe": {
+  "status": "broad",
+  "placeId": "Q27509",
+  "placeItem": "Central Europe",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q27509 has no P17; a loosely bounded multi-country region, so no countries are listed."
+ },
+ "Avignon": {
+  "status": "resolved",
+  "placeId": "Q6397",
+  "placeItem": "Avignon",
+  "pleiadesId": "148004",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the empire's remnant": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place (the rump of the Byzantine Empire)."
+ },
+ "Cottian Alps": {
+  "status": "resolved",
+  "placeId": "Q1251",
+  "placeItem": "Cottian Alps",
+  "pleiadesId": "167636",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   },
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Hakkari-Van-Urmia triangle": {
+  "status": "resolved",
+  "placeId": "Q93209",
+  "placeItem": "Hakkâri Province",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   },
+   {
+    "name": "Iran",
+    "id": "Q794"
+   }
+  ],
+  "basis": "P17 on its named corners: Hakkâri Province (Q93209), Van (Q83061), Urmia (Q179665)"
+ },
+ "Dongola": {
+  "status": "resolved",
+  "placeId": "Q433112",
+  "placeItem": "Old Dongola",
+  "pleiadesId": "865674318",
+  "countries": [
+   {
+    "name": "Sudan",
+    "id": "Q1049"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Qasr Ibrim": {
+  "status": "resolved",
+  "placeId": "Q2121453",
+  "placeItem": "Qasr Ibrim",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "France": {
+  "status": "resolved",
+  "placeId": "Q142",
+  "placeItem": "France",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bosnia": {
+  "status": "historical",
+  "placeId": "Q188736",
+  "placeItem": "Bosnia",
+  "countries": [],
+  "basis": "Q188736 (historical country) has no P17 and no link to a modern settlement or state in the query results; Q2980623 (Kingdom of Bosnia) and Q25340956 (Bosnia, early medieval) point to Bosnia and Herzegovina but are different items."
+ },
+ "Etchmiadzin": {
+  "status": "resolved",
+  "placeId": "Q1294648",
+  "placeItem": "Etchmiadzin Cathedral",
+  "pleiadesId": "327730568",
+  "countries": [
+   {
+    "name": "Armenia",
+    "id": "Q399"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Cyprus": {
+  "status": "disputed",
+  "placeId": "Q644636",
+  "placeItem": "Cyprus",
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   },
+   {
+    "name": "Northern Cyprus",
+    "id": "Q23681"
+   },
+   {
+    "name": "Cyprus",
+    "id": "Q229"
+   }
+  ],
+  "basis": "P17 on the place",
+  "note": "Wikidata lists Northern Cyprus, Cyprus and the United Kingdom (the sovereign base areas) for the island; Northern Cyprus is recognised only by Turkey. Suggested display: 'Cyprus (island)', naming the island rather than a state."
+ },
+ "Malabar coast": {
+  "status": "resolved",
+  "placeId": "Q473181",
+  "placeItem": "Malabar Coast",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Saxony": {
+  "status": "resolved",
+  "placeId": "Q1202",
+  "placeItem": "Saxony",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Swiss lands": {
+  "status": "resolved",
+  "placeId": "Q39",
+  "placeItem": "Switzerland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Switzerland",
+    "id": "Q39"
+   }
+  ],
+  "basis": "Q39 is itself a sovereign state (P31 country); it carries no P17 of its own"
+ },
+ "Scotland": {
+  "status": "resolved",
+  "placeId": "Q22",
+  "placeItem": "Scotland",
+  "pleiadesId": "89132",
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "New England": {
+  "status": "resolved",
+  "placeId": "Q18389",
+  "placeItem": "New England",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Netherlands": {
+  "status": "resolved",
+  "placeId": "Q55",
+  "placeItem": "Netherlands",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Netherlands",
+    "id": "Q55"
+   }
+  ],
+  "basis": "Q55 is itself a country (P31); its P17 is Kingdom of the Netherlands (Q29999)"
+ },
+ "Japan": {
+  "status": "resolved",
+  "placeId": "Q17",
+  "placeItem": "Japan",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Japan",
+    "id": "Q17"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Kongo": {
+  "status": "historical",
+  "placeId": "Q796583",
+  "placeItem": "Kingdom of Kongo",
+  "countries": [],
+  "basis": "Q796583 (Kingdom of Kongo) has no P17; capital M'banza-Kongo (Q500189) does not fix the kingdom's extent."
+ },
+ "Kingdom of Kongo": {
+  "status": "historical",
+  "placeId": "Q796583",
+  "placeItem": "Kingdom of Kongo",
+  "countries": [],
+  "basis": "Q796583 (Kingdom of Kongo) has no P17; capital M'banza-Kongo (Q500189) does not fix the kingdom's extent."
+ },
+ "China": {
+  "status": "disputed",
+  "placeId": "Q29520",
+  "placeItem": "China",
+  "countries": [
+   {
+    "name": "People's Republic of China",
+    "id": "Q148"
+   }
+  ],
+  "basis": "Q29520 has no P17; P527 (has parts) lists People's Republic of China, Taiwan and Republic of China; only the PRC is recorded here because Taiwan's status is the dispute",
+  "note": "Wikidata's parts for Q29520 include the People's Republic of China, Taiwan and the Republic of China; Taiwan's status is disputed. Suggested display: 'China' (historical/cultural region) with no state named for Taiwan."
+ },
+ "New Spain": {
+  "status": "broad",
+  "placeId": "Q170603",
+  "placeItem": "New Spain",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q170603 (viceroyalty): P17 gives Spain and the dissolved Spanish Empire, i.e. the ruling state, not where the viceroyalty lay; description does not name present-day countries. Treated as a multi-country historical territory."
+ },
+ "the Andes": {
+  "status": "broad",
+  "placeId": "Q5456",
+  "placeItem": "Andes",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q5456 has 7 P17 values: more than three present-day countries."
+ },
+ "Poland": {
+  "status": "resolved",
+  "placeId": "Q36",
+  "placeItem": "Poland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Poland",
+    "id": "Q36"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Transylvania": {
+  "status": "resolved",
+  "placeId": "Q39473",
+  "placeItem": "Transylvania",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Romania",
+    "id": "Q218"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Silesia": {
+  "status": "resolved",
+  "placeId": "Q81720",
+  "placeItem": "Silesia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Poland",
+    "id": "Q36"
+   },
+   {
+    "name": "Germany",
+    "id": "Q183"
+   },
+   {
+    "name": "Czech Republic",
+    "id": "Q213"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Pennsylvania": {
+  "status": "resolved",
+  "placeId": "Q1400",
+  "placeItem": "Pennsylvania",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Philippines": {
+  "status": "resolved",
+  "placeId": "Q928",
+  "placeItem": "Philippines",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Philippines",
+    "id": "Q928"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Ruthenia": {
+  "status": "resolved",
+  "placeId": "Q212",
+  "placeItem": "Ukraine",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ukraine",
+    "id": "Q212"
+   },
+   {
+    "name": "Belarus",
+    "id": "Q184"
+   }
+  ],
+  "basis": "Ukraine (Q212) and Belarus (Q184), named in the region text"
+ },
+ "Muscovy": {
+  "status": "historical",
+  "placeId": "Q13411328",
+  "placeItem": "Moscovia",
+  "countries": [],
+  "basis": "Q13411328 (Moscovia) has only dissolved states as P17; no modern settlement or country link."
+ },
+ "Denmark-Norway": {
+  "status": "historical",
+  "placeId": "Q62651",
+  "placeItem": "Denmark–Norway",
+  "countries": [],
+  "basis": "Q62651 has no P17 and no parts in the query results."
+ },
+ "Sweden-Finland": {
+  "status": "historical",
+  "placeId": "Q3279296",
+  "placeItem": "Sweden-Finland",
+  "countries": [],
+  "basis": "P17 on the place (Wikidata lists Sweden only)"
+ },
+ "Isfahan": {
+  "status": "resolved",
+  "placeId": "Q42053",
+  "placeItem": "Isfahan",
+  "pleiadesId": "902990",
+  "countries": [
+   {
+    "name": "Iran",
+    "id": "Q794"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Castile": {
+  "status": "resolved",
+  "placeId": "Q173063",
+  "placeItem": "Castile",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Spain",
+    "id": "Q29"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Hakkari": {
+  "status": "historical",
+  "placeId": "Q578187",
+  "placeItem": "Hakkari",
+  "countries": [],
+  "basis": "Q578187 (historical region) has no P17; the city Hakkari Q206895 (Turkey) is a different item."
+ },
+ "Atlantic world": {
+  "status": "broad",
+  "placeId": "Q4816595",
+  "placeItem": "Atlantic World",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q4816595 has no P17; not a fixed place (interactions across the Atlantic)."
+ },
+ "Germany": {
+  "status": "resolved",
+  "placeId": "Q183",
+  "placeItem": "Germany",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Britain": {
+  "status": "resolved",
+  "placeId": "Q23666",
+  "placeItem": "Great Britain",
+  "pleiadesId": "20419",
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Siberia": {
+  "status": "resolved",
+  "placeId": "Q5428",
+  "placeItem": "Siberia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Russia",
+    "id": "Q159"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Moldavia": {
+  "status": "resolved",
+  "placeId": "Q18366588",
+  "placeItem": "Moldavia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ukraine",
+    "id": "Q212"
+   },
+   {
+    "name": "Moldova",
+    "id": "Q217"
+   },
+   {
+    "name": "Romania",
+    "id": "Q218"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "America": {
+  "status": "broad",
+  "placeId": "Q828",
+  "placeItem": "Americas",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Ambiguous name: matched to Q828 (Americas), a continent pair with no P17. Cited by the Swedenborgian entry as 'England, America'; spans more than three countries as an area."
+ },
+ "Cevennes": {
+  "status": "resolved",
+  "placeId": "Q626655",
+  "placeItem": "Cévennes",
+  "pleiadesId": "167703",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Peru": {
+  "status": "resolved",
+  "placeId": "Q419",
+  "placeItem": "Peru",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Peru",
+    "id": "Q419"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Catholic Europe": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place."
+ },
+ "Russia": {
+  "status": "resolved",
+  "placeId": "Q159",
+  "placeItem": "Russia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Russia",
+    "id": "Q159"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Cévennes": {
+  "status": "resolved",
+  "placeId": "Q626655",
+  "placeItem": "Cévennes",
+  "pleiadesId": "167703",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Damascus": {
+  "status": "resolved",
+  "placeId": "Q3766",
+  "placeItem": "Damascus",
+  "pleiadesId": "678106",
+  "countries": [
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Aleppo": {
+  "status": "resolved",
+  "placeId": "Q41183",
+  "placeItem": "Aleppo",
+  "pleiadesId": "658409",
+  "countries": [
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Venice": {
+  "status": "resolved",
+  "placeId": "Q641",
+  "placeItem": "Venice",
+  "pleiadesId": "818739154",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the mid-Atlantic": {
+  "status": "resolved",
+  "placeId": "Q632014",
+  "placeItem": "Mid-Atlantic",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Austrian Galicia": {
+  "status": "historical",
+  "placeId": "Q2396442",
+  "placeItem": "Kingdom of Galicia and Lodomeria",
+  "countries": [],
+  "basis": "Q2396442 (Kingdom of Galicia and Lodomeria) has only dissolved Habsburg states as P17; no modern country link."
+ },
+ "United States": {
+  "status": "resolved",
+  "placeId": "Q30",
+  "placeItem": "United States",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "American frontier": {
+  "status": "resolved",
+  "placeId": "Q190267",
+  "placeItem": "American frontier",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "N. America": {
+  "status": "broad",
+  "placeId": "Q49",
+  "placeItem": "North America",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q49 (North America) is a continent with no P17; spans more than three countries."
+ },
+ "East London": {
+  "status": "resolved",
+  "placeId": "Q2220704",
+  "placeItem": "East London",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "India": {
+  "status": "resolved",
+  "placeId": "Q668",
+  "placeItem": "India",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "W. Africa": {
+  "status": "broad",
+  "placeId": "Q4412",
+  "placeItem": "West Africa",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q4412 (West Africa) has 18 P17 values: more than three present-day countries."
+ },
+ "Greek islands": {
+  "status": "resolved",
+  "placeId": "Q25162136",
+  "placeItem": "Greek Islands",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "New York": {
+  "status": "resolved",
+  "placeId": "Q1384",
+  "placeItem": "New York",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Korea": {
+  "status": "resolved",
+  "placeId": "Q483134",
+  "placeItem": "Korean Peninsula",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "South Korea",
+    "id": "Q884"
+   },
+   {
+    "name": "North Korea",
+    "id": "Q423"
+   }
+  ],
+  "basis": "P17 on Q483134 (Korean Peninsula); Q18097 (Korea) lists only historical states"
+ },
+ "Lapland": {
+  "status": "broad",
+  "placeId": "Q62132",
+  "placeItem": "Sápmi",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Lapland is an English alias of Q62132 (Sapmi), which has 4 P17 values (Norway, Sweden, Finland, Russia): more than three."
+ },
+ "Finland": {
+  "status": "resolved",
+  "placeId": "Q33",
+  "placeItem": "Finland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Finland",
+    "id": "Q33"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Dublin": {
+  "status": "resolved",
+  "placeId": "Q1761",
+  "placeItem": "Dublin",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ireland",
+    "id": "Q27"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Sumatra": {
+  "status": "resolved",
+  "placeId": "Q3492",
+  "placeItem": "Sumatra",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Indonesia",
+    "id": "Q252"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Timor": {
+  "status": "resolved",
+  "placeId": "Q83067",
+  "placeItem": "Timor",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Indonesia",
+    "id": "Q252"
+   },
+   {
+    "name": "Timor-Leste",
+    "id": "Q574"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Kerala": {
+  "status": "resolved",
+  "placeId": "Q1186",
+  "placeItem": "Kerala",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Khasi, Mizo & Naga hills": {
+  "status": "resolved",
+  "placeId": "Q3182012",
+  "placeItem": "Khasi Hills",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   },
+   {
+    "name": "Myanmar",
+    "id": "Q836"
+   }
+  ],
+  "basis": "P17 on Khasi Hills (Q3182012), Lushai (Mizo) Hills (Q3317337), Naga Hills (Q3109835)"
+ },
+ "Greece": {
+  "status": "resolved",
+  "placeId": "Q41",
+  "placeItem": "Greece",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Greece",
+    "id": "Q41"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the Catholic world": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place."
+ },
+ "the empire": {
+  "status": "broad",
+  "placeId": "Q8680",
+  "placeItem": "British Empire",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q8680 (British Empire): the only P17 is the empire itself (dissolved); not a fixed place and spans many countries."
+ },
+ "mid-Atlantic": {
+  "status": "resolved",
+  "placeId": "Q632014",
+  "placeItem": "Mid-Atlantic",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Belarus": {
+  "status": "resolved",
+  "placeId": "Q184",
+  "placeItem": "Belarus",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Belarus",
+    "id": "Q184"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Ukraine": {
+  "status": "resolved",
+  "placeId": "Q212",
+  "placeItem": "Ukraine",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Ukraine",
+    "id": "Q212"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Prussia": {
+  "status": "historical",
+  "placeId": "Q38872",
+  "placeItem": "Prussia",
+  "countries": [],
+  "basis": "Q38872 has only itself (dissolved) as P17; no modern country link. Q918723 (Prussia, historical region) lists Russia, Lithuania and Poland but is the Baltic region, not the German state."
+ },
+ "Madagascar": {
+  "status": "resolved",
+  "placeId": "Q1019",
+  "placeItem": "Madagascar",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Madagascar",
+    "id": "Q1019"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "East Africa": {
+  "status": "broad",
+  "placeId": "Q27407",
+  "placeItem": "East Africa",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q27407 has no P17; a multi-country region, so no countries are listed."
+ },
+ "Buganda": {
+  "status": "resolved",
+  "placeId": "Q473748",
+  "placeItem": "Buganda",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Uganda",
+    "id": "Q1036"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Haiti": {
+  "status": "resolved",
+  "placeId": "Q790",
+  "placeItem": "Haiti",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Haiti",
+    "id": "Q790"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Alaska": {
+  "status": "resolved",
+  "placeId": "Q797",
+  "placeItem": "Alaska",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Aleutians": {
+  "status": "resolved",
+  "placeId": "Q119285",
+  "placeItem": "Aleutian Islands",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Spanish America": {
+  "status": "broad",
+  "placeId": "Q111180987",
+  "placeItem": "Spanish America",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q111180987 has no P17; its description says it encompasses all American Spanish possessions, so more than three countries."
+ },
+ "Brazil": {
+  "status": "resolved",
+  "placeId": "Q155",
+  "placeItem": "Brazil",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Brazil",
+    "id": "Q155"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Los Angeles": {
+  "status": "resolved",
+  "placeId": "Q65",
+  "placeItem": "Los Angeles",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Rwanda": {
+  "status": "resolved",
+  "placeId": "Q1037",
+  "placeItem": "Rwanda",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Rwanda",
+    "id": "Q1037"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Uganda": {
+  "status": "resolved",
+  "placeId": "Q1036",
+  "placeItem": "Uganda",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Uganda",
+    "id": "Q1036"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "W. & S. Africa": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Two broad African regions combined; not a fixed place."
+ },
+ "Congo": {
+  "status": "historical",
+  "placeId": null,
+  "placeItem": null,
+  "countries": [],
+  "basis": "Ambiguous: the map text 'W. & S. Africa, Congo' could mean the Democratic Republic of the Congo (Q974) or the Republic of the Congo (Q971); not decidable from the query results."
+ },
+ "Global": {
+  "status": "broad",
+  "placeId": "Q13780930",
+  "placeItem": "worldwide",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place (Q13780930, 'worldwide')."
+ },
+ "Central America": {
+  "status": "broad",
+  "placeId": "Q27611",
+  "placeItem": "Central America",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q27611 has no P17; a subregion of the Americas covering more than three countries."
+ },
+ "Nigeria": {
+  "status": "resolved",
+  "placeId": "Q1033",
+  "placeItem": "Nigeria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Nigeria",
+    "id": "Q1033"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "USSR": {
+  "status": "broad",
+  "placeId": "Q15180",
+  "placeItem": "Soviet Union",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q15180 (Soviet Union): the only P17 is itself (dissolved); a former state, not a fixed place, spanning many present-day countries."
+ },
+ "Romania": {
+  "status": "resolved",
+  "placeId": "Q218",
+  "placeItem": "Romania",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Romania",
+    "id": "Q218"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Israel": {
+  "status": "resolved",
+  "placeId": "Q801",
+  "placeItem": "Israel",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Israel",
+    "id": "Q801"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Tur Abdin": {
+  "status": "resolved",
+  "placeId": "Q506470",
+  "placeItem": "Tur Abdin",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Urmia": {
+  "status": "resolved",
+  "placeId": "Q179665",
+  "placeItem": "Urmia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Iran",
+    "id": "Q794"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "UK": {
+  "status": "resolved",
+  "placeId": "Q145",
+  "placeItem": "United Kingdom",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Aotearoa New Zealand": {
+  "status": "resolved",
+  "placeId": "Q664",
+  "placeItem": "New Zealand",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "New Zealand",
+    "id": "Q664"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Pacific": {
+  "status": "broad",
+  "placeId": "Q98",
+  "placeItem": "Pacific Ocean",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q98 (Pacific Ocean) has no P17; an ocean, not a fixed place."
+ },
+ "Java": {
+  "status": "resolved",
+  "placeId": "Q3757",
+  "placeItem": "Java",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Indonesia",
+    "id": "Q252"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Mizo, Khasi & Naga hills": {
+  "status": "resolved",
+  "placeId": "Q3182012",
+  "placeItem": "Khasi Hills",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "India",
+    "id": "Q668"
+   },
+   {
+    "name": "Myanmar",
+    "id": "Q836"
+   }
+  ],
+  "basis": "P17 on Khasi Hills (Q3182012), Lushai (Mizo) Hills (Q3317337), Naga Hills (Q3109835)"
+ },
+ "Geneva": {
+  "status": "resolved",
+  "placeId": "Q71",
+  "placeItem": "Geneva",
+  "pleiadesId": "177528",
+  "countries": [
+   {
+    "name": "Switzerland",
+    "id": "Q39"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "North America": {
+  "status": "broad",
+  "placeId": "Q49",
+  "placeItem": "North America",
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Q49 (North America) is a continent with no P17; spans more than three countries."
+ },
+ "Bithynia-Pontus": {
+  "status": "resolved",
+  "placeId": "Q373189",
+  "placeItem": "Bithynia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on Bithynia (Q373189), the nearer item"
+ },
+ "Lugdunum": {
+  "status": "resolved",
+  "placeId": "Q665",
+  "placeItem": "Lugdunum",
+  "pleiadesId": "167717",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q456 (Lyon); description 'on the site of modern Lyon, France'"
+ },
+ "Vienne": {
+  "status": "resolved",
+  "placeId": "Q26849",
+  "placeItem": "Vienne",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Roman Africa": {
+  "status": "historical",
+  "placeId": "Q181238",
+  "placeItem": "Africa",
+  "countries": [],
+  "basis": "Q181238 (Africa, Roman province) has only Ancient Rome (dissolved) as P17; no modern country link in the query results."
+ },
+ "Hierapolis": {
+  "status": "resolved",
+  "placeId": "Q85766481",
+  "placeItem": "Hieropolis",
+  "pleiadesId": "609403",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Abitinae": {
+  "status": "resolved",
+  "placeId": "Q321536",
+  "placeItem": "Abitinae",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Tunisia",
+    "id": "Q948"
+   }
+  ],
+  "basis": "P17 on Q321536 is Béja (a governorate, not a country); description 'archaeological site in Tunisia'; Tunisia from P17 of the same-named titular see Q2035253"
+ },
+ "proconsular Africa": {
+  "status": "historical",
+  "placeId": "Q181238",
+  "placeItem": "Africa",
+  "countries": [],
+  "basis": "Q181238 (Africa, Roman province) has only Ancient Rome (dissolved) as P17; no modern country link in the query results."
+ },
+ "Sebaste": {
+  "status": "resolved",
+  "placeId": "Q107401",
+  "placeItem": "Sivas",
+  "pleiadesId": "629075",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Roman Anatolia": {
+  "status": "resolved",
+  "placeId": "Q51614",
+  "placeItem": "Anatolia",
+  "pleiadesId": "837",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place ; no separate item for 'Roman Anatolia', so Anatolia Q51614 is used"
+ },
+ "Galatia": {
+  "status": "resolved",
+  "placeId": "Q26847",
+  "placeItem": "Galatia",
+  "pleiadesId": "1001920",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the eastern provinces": {
+  "status": "broad",
+  "placeId": null,
+  "placeItem": null,
+  "pleiadesId": null,
+  "countries": [],
+  "basis": "Not a fixed place (Roman eastern provinces; no single item)."
+ },
+ "Scetis": {
+  "status": "resolved",
+  "placeId": "Q1074945",
+  "placeItem": "Wadi El Natrun",
+  "pleiadesId": "727232",
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place ; Q1074945 is Wadi El Natrun, which the map text equates with Scetis"
+ },
+ "Lower Egypt": {
+  "status": "resolved",
+  "placeId": "Q463871",
+  "placeItem": "Lower Egypt",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Egypt",
+    "id": "Q79"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Portus": {
+  "status": "resolved",
+  "placeId": "Q2037271",
+  "placeItem": "Portus",
+  "pleiadesId": "423012",
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Nicomedia": {
+  "status": "resolved",
+  "placeId": "Q209349",
+  "placeItem": "Nicomedia",
+  "pleiadesId": "511337",
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Telanissos": {
+  "status": "resolved",
+  "placeId": "Q858",
+  "placeItem": "Syria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Syria",
+    "id": "Q858"
+   }
+  ],
+  "basis": "Syria, named in the region text (Q858)"
+ },
+ "the Seine valley": {
+  "status": "resolved",
+  "placeId": "Q1471",
+  "placeItem": "Seine",
+  "pleiadesId": "109341",
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place ; Q1471 is the Seine river; no item for the valley"
+ },
+ "The Danube frontier of Noricum": {
+  "status": "resolved",
+  "placeId": "Q42497",
+  "placeItem": "Lower Austria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Austria",
+    "id": "Q40"
+   }
+  ],
+  "basis": "P17 on Lower Austria (Q42497) and Upper Austria (Q41967), named in the region text"
+ },
+ "Squillace": {
+  "status": "resolved",
+  "placeId": "Q53727",
+  "placeItem": "Squillace",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Mérida": {
+  "status": "resolved",
+  "placeId": "Q31918813",
+  "placeItem": "Mérida",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Spain",
+    "id": "Q29"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lusitania": {
+  "status": "historical",
+  "placeId": "Q188650",
+  "placeItem": "Lusitania",
+  "countries": [],
+  "basis": "Q188650 (Roman province) has only Ancient Rome (dissolved) as P17; no modern country link."
+ },
+ "Streanæshalch": {
+  "status": "resolved",
+  "placeId": "Q852778",
+  "placeItem": "Whitby",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q852778 (Whitby); the map text equates Streanæshalch with Whitby"
+ },
+ "Northumbria": {
+  "status": "resolved",
+  "placeId": "Q107299",
+  "placeItem": "Kingdom of Northumbria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Heidenheim": {
+  "status": "resolved",
+  "placeId": "Q548982",
+  "placeItem": "Q548982",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on Q548982 (Heidenheim am Hahnenkamm, market municipality in Bavaria)"
+ },
+ "Bavaria": {
+  "status": "resolved",
+  "placeId": "Q980",
+  "placeItem": "Bavaria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Gandersheim Abbey": {
+  "status": "resolved",
+  "placeId": "Q315067",
+  "placeItem": "Gandersheim Abbey",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Aquitaine": {
+  "status": "resolved",
+  "placeId": "Q1179",
+  "placeItem": "Aquitaine",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the Auvergne": {
+  "status": "resolved",
+  "placeId": "Q1152",
+  "placeItem": "Auvergne",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Huntingdon": {
+  "status": "resolved",
+  "placeId": "Q685640",
+  "placeItem": "Huntingdon",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Markyate": {
+  "status": "resolved",
+  "placeId": "Q2337154",
+  "placeItem": "Markyate",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "The Rhineland": {
+  "status": "resolved",
+  "placeId": "Q152243",
+  "placeItem": "Rhineland",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the Veneto": {
+  "status": "resolved",
+  "placeId": "Q1243",
+  "placeItem": "Veneto",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Liège": {
+  "status": "resolved",
+  "placeId": "Q3992",
+  "placeItem": "Liège",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Belgium",
+    "id": "Q31"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Perugia": {
+  "status": "resolved",
+  "placeId": "Q3437",
+  "placeItem": "Perugia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Umbria": {
+  "status": "resolved",
+  "placeId": "Q1280",
+  "placeItem": "Umbria",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Majorca": {
+  "status": "resolved",
+  "placeId": "Q8828",
+  "placeItem": "Mallorca",
+  "pleiadesId": "632227173",
+  "countries": [
+   {
+    "name": "Spain",
+    "id": "Q29"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Northern and central Italy": {
+  "status": "resolved",
+  "placeId": "Q38",
+  "placeItem": "Italy",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "Italy, named in the place itself (Q38)"
+ },
+ "Domrémy": {
+  "status": "resolved",
+  "placeId": "Q209069",
+  "placeItem": "Domrémy-la-Pucelle",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Orléans": {
+  "status": "resolved",
+  "placeId": "Q6548",
+  "placeItem": "Orléans",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Niklashausen": {
+  "status": "resolved",
+  "placeId": "Q3595060",
+  "placeItem": "Niklashausen",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Franconia": {
+  "status": "resolved",
+  "placeId": "Q150907",
+  "placeItem": "Franconia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "The Ranft gorge": {
+  "status": "resolved",
+  "placeId": "Q1322925",
+  "placeItem": "Ranftschlucht",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Switzerland",
+    "id": "Q39"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Stans": {
+  "status": "resolved",
+  "placeId": "Q63931",
+  "placeItem": "Stans",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Switzerland",
+    "id": "Q39"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Santo Domingo": {
+  "status": "resolved",
+  "placeId": "Q34820",
+  "placeItem": "Santo Domingo",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Dominican Republic",
+    "id": "Q786"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Hispaniola": {
+  "status": "resolved",
+  "placeId": "Q25277",
+  "placeItem": "Hispaniola",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Haiti",
+    "id": "Q790"
+   },
+   {
+    "name": "Dominican Republic",
+    "id": "Q786"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lincolnshire": {
+  "status": "resolved",
+  "placeId": "Q23090",
+  "placeItem": "Lincolnshire",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "London": {
+  "status": "resolved",
+  "placeId": "Q84",
+  "placeItem": "London",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Lake Tana": {
+  "status": "resolved",
+  "placeId": "Q116685",
+  "placeItem": "Lake Tana",
+  "pleiadesId": "416452801",
+  "countries": [
+   {
+    "name": "Ethiopia",
+    "id": "Q115"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the northern Ethiopian highlands": {
+  "status": "resolved",
+  "placeId": "Q319288",
+  "placeItem": "Ethiopian Highlands",
+  "pleiadesId": "39278",
+  "countries": [
+   {
+    "name": "Ethiopia",
+    "id": "Q115"
+   }
+  ],
+  "basis": "P17 on the place ; Q319288 is the whole Ethiopian Highlands, no separate northern item"
+ },
+ "Little Gidding": {
+  "status": "resolved",
+  "placeId": "Q776709",
+  "placeItem": "Little Gidding",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Huntingdonshire": {
+  "status": "resolved",
+  "placeId": "Q67266168",
+  "placeItem": "Huntingdonshire",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Görlitz": {
+  "status": "resolved",
+  "placeId": "Q4077",
+  "placeItem": "Görlitz",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Germany",
+    "id": "Q183"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Upper Lusatia": {
+  "status": "resolved",
+  "placeId": "Q7943",
+  "placeItem": "Upper Lusatia",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Poland",
+    "id": "Q36"
+   },
+   {
+    "name": "Germany",
+    "id": "Q183"
+   },
+   {
+    "name": "Czech Republic",
+    "id": "Q213"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Pozsony": {
+  "status": "resolved",
+  "placeId": "Q98008573",
+  "placeItem": "Pozsony",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Slovakia",
+    "id": "Q214"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q1780 (Bratislava); description 'former city in Hungary, now Bratislava'"
+ },
+ "Trieste": {
+  "status": "resolved",
+  "placeId": "Q546",
+  "placeItem": "Trieste",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Italy",
+    "id": "Q38"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Shanghai": {
+  "status": "resolved",
+  "placeId": "Q8686",
+  "placeItem": "Shanghai",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "People's Republic of China",
+    "id": "Q148"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the lower Yangzi": {
+  "status": "resolved",
+  "placeId": "Q1195076",
+  "placeItem": "Yangtze Delta",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "People's Republic of China",
+    "id": "Q148"
+   }
+  ],
+  "basis": "P17 on the place ; nearest item is the Yangtze Delta, not a separate 'lower Yangzi' region"
+ },
+ "Jaffna": {
+  "status": "resolved",
+  "placeId": "Q215277",
+  "placeItem": "Jaffna",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Sri Lanka",
+    "id": "Q854"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Puttalam": {
+  "status": "resolved",
+  "placeId": "Q3088741",
+  "placeItem": "Puttalam",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Sri Lanka",
+    "id": "Q854"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "The Pongau valleys": {
+  "status": "resolved",
+  "placeId": "Q256828",
+  "placeItem": "St. Johann im Pongau District",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Austria",
+    "id": "Q40"
+   }
+  ],
+  "basis": "P17 on the place ; Q256828 is the Pongau district (St. Johann im Pongau)"
+ },
+ "East Prussia": {
+  "status": "historical",
+  "placeId": "Q103801",
+  "placeItem": "East Prussia",
+  "countries": [],
+  "basis": "Q103801 has only Prussia (dissolved) as P17; no modern country link."
+ },
+ "Cambuslang": {
+  "status": "resolved",
+  "placeId": "Q1018505",
+  "placeItem": "Cambuslang",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Kilsyth": {
+  "status": "resolved",
+  "placeId": "Q1010328",
+  "placeItem": "Kilsyth",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Baviaanskloof": {
+  "status": "resolved",
+  "placeId": "Q1501295",
+  "placeItem": "Genadendal",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "South Africa",
+    "id": "Q258"
+   }
+  ],
+  "basis": "P17 on the place ; the map names Genadendal as the same place (Q1501295)"
+ },
+ "Cape Colony": {
+  "status": "resolved",
+  "placeId": "Q370736",
+  "placeItem": "Cape Colony",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "South Africa",
+    "id": "Q258"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q849164 (Cape Province); P1366 (replaced by)"
+ },
+ "The Xhosa country": {
+  "status": "resolved",
+  "placeId": "Q130840",
+  "placeItem": "Eastern Cape",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "South Africa",
+    "id": "Q258"
+   }
+  ],
+  "basis": "No Wikidata item for Xhosaland found; the map text itself places it in the Eastern Cape, so P17 on Eastern Cape Q130840"
+ },
+ "St James parish": {
+  "status": "resolved",
+  "placeId": "Q1421939",
+  "placeItem": "Saint James Parish",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Jamaica",
+    "id": "Q766"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "western Jamaica": {
+  "status": "resolved",
+  "placeId": "Q766",
+  "placeItem": "Jamaica",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Jamaica",
+    "id": "Q766"
+   }
+  ],
+  "basis": "Jamaica, named in the region text (Q766, a country item)"
+ },
+ "Waharoa": {
+  "status": "resolved",
+  "placeId": "Q7959735",
+  "placeItem": "Waharoa",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "New Zealand",
+    "id": "Q664"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the Kaimai ranges": {
+  "status": "resolved",
+  "placeId": "Q1721437",
+  "placeItem": "Kaimai Range",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "New Zealand",
+    "id": "Q664"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Kalaupapa peninsula": {
+  "status": "resolved",
+  "placeId": "Q42301929",
+  "placeItem": "Kalaupapa Peninsula",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Moloka'i": {
+  "status": "resolved",
+  "placeId": "Q193253",
+  "placeItem": "Molokaʻi",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Imkullu": {
+  "status": "historical",
+  "placeId": null,
+  "placeItem": null,
+  "countries": [],
+  "basis": "No Wikidata item found for Imkullu in the search results."
+ },
+ "Mänkullu": {
+  "status": "resolved",
+  "placeId": "Q986",
+  "placeItem": "Eritrea",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Eritrea",
+    "id": "Q986"
+   }
+  ],
+  "basis": "Eritrea, named in the region text (Q986)"
+ },
+ "Le Chambon-sur-Lignon": {
+  "status": "resolved",
+  "placeId": "Q155549",
+  "placeItem": "Le Chambon-sur-Lignon",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Plateau Vivarais-Lignon": {
+  "status": "resolved",
+  "placeId": "Q142",
+  "placeItem": "France",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "France",
+    "id": "Q142"
+   }
+  ],
+  "basis": "France, named in the region text (Q142)"
+ },
+ "St Radegund": {
+  "status": "resolved",
+  "placeId": "Q669185",
+  "placeItem": "Sankt Radegund",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Austria",
+    "id": "Q40"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Linz": {
+  "status": "resolved",
+  "placeId": "Q41329",
+  "placeItem": "Linz",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Austria",
+    "id": "Q40"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Barvas": {
+  "status": "resolved",
+  "placeId": "Q3250474",
+  "placeItem": "Barvas",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Isle of Lewis": {
+  "status": "resolved",
+  "placeId": "Q6453423",
+  "placeItem": "Isle of Lewis",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Brno": {
+  "status": "resolved",
+  "placeId": "Q14960",
+  "placeItem": "Brno",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Czech Republic",
+    "id": "Q213"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Galiwin'ku": {
+  "status": "resolved",
+  "placeId": "Q30400333",
+  "placeItem": "Galiwinku",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Australia",
+    "id": "Q408"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Elcho Island": {
+  "status": "resolved",
+  "placeId": "Q1325494",
+  "placeItem": "Elcho Island",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Australia",
+    "id": "Q408"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bristol": {
+  "status": "resolved",
+  "placeId": "Q23154",
+  "placeItem": "Bristol",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Worcester": {
+  "status": "resolved",
+  "placeId": "Q1646181",
+  "placeItem": "Worcester",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Khanbaliq": {
+  "status": "resolved",
+  "placeId": "Q101186473",
+  "placeItem": "Khanbaliq",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "People's Republic of China",
+    "id": "Q148"
+   }
+  ],
+  "basis": "P17 on the modern settlement Q956 (Beijing); P1366 (replaced by); description 'within present-day Beijing'"
+ },
+ "Yuan-dynasty China": {
+  "status": "historical",
+  "placeId": "Q7313",
+  "placeItem": "Yuan dynasty",
+  "countries": [],
+  "basis": "Q7313 (Yuan dynasty) has no P17 in the query results."
+ },
+ "Burlington": {
+  "status": "resolved",
+  "placeId": "Q1550922",
+  "placeItem": "Burlington City",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Abington": {
+  "status": "resolved",
+  "placeId": "Q2222550",
+  "placeItem": "Abington Township",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Gnadenhütten": {
+  "status": "resolved",
+  "placeId": "Q1428061",
+  "placeItem": "Gnadenhutten",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Ohio country": {
+  "status": "resolved",
+  "placeId": "Q2016453",
+  "placeItem": "Ohio Country",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Tavoy": {
+  "status": "resolved",
+  "placeId": "Q1018167",
+  "placeItem": "Dawei",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Myanmar",
+    "id": "Q836"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "the Karen hill country": {
+  "status": "historical",
+  "placeId": "Q495342",
+  "placeItem": "Kayin State",
+  "countries": [],
+  "basis": "No Wikidata item for the Karen hill country; the nearest item Kayin State Q495342 (Myanmar) is not the same area and the Karen hills are not confirmed from the query results to lie only there."
+ },
+ "Shahabdike village": {
+  "status": "resolved",
+  "placeId": "Q2315579",
+  "placeItem": "Sialkot District",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Pakistan",
+    "id": "Q843"
+   }
+  ],
+  "basis": "P17 on Sialkot District, named in the region text (Q2315579)"
+ },
+ "Sialkot District": {
+  "status": "resolved",
+  "placeId": "Q2315579",
+  "placeItem": "Sialkot District",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Pakistan",
+    "id": "Q843"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Nickel Mines": {
+  "status": "resolved",
+  "placeId": "Q626616",
+  "placeItem": "Nickel Mines",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Bart Township": {
+  "status": "resolved",
+  "placeId": "Q2839887",
+  "placeItem": "Bart Township",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United States",
+    "id": "Q30"
+   }
+  ],
+  "basis": "P17 on the place"
+ },
+ "Whitby": {
+  "status": "resolved",
+  "placeId": "Q852778",
+  "placeItem": "Whitby",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "United Kingdom",
+    "id": "Q145"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Bratislava": {
+  "status": "resolved",
+  "placeId": "Q1780",
+  "placeItem": "Bratislava",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Slovakia",
+    "id": "Q214"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Beijing": {
+  "status": "resolved",
+  "placeId": "Q956",
+  "placeItem": "Beijing",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "People's Republic of China",
+    "id": "Q148"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Sivas": {
+  "status": "resolved",
+  "placeId": "Q107401",
+  "placeItem": "Sivas",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Turkey",
+    "id": "Q43"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Massawa": {
+  "status": "resolved",
+  "placeId": "Q275635",
+  "placeItem": "Massawa",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "Eritrea",
+    "id": "Q986"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ },
+ "Genadendal": {
+  "status": "resolved",
+  "placeId": "Q1501295",
+  "placeItem": "Genadendal",
+  "pleiadesId": null,
+  "countries": [
+   {
+    "name": "South Africa",
+    "id": "Q258"
+   }
+  ],
+  "basis": "P17 on the place (verified by direct query)"
+ }
+}

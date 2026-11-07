@@ -62,6 +62,7 @@ STRUCTURAL_FIELDS = (
     "era",
     "region",
     "placeLabel",
+    "modernCountries",
     "continuesAs",
 )
 
