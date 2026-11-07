@@ -854,7 +854,7 @@
    "field": "legacy",
    "old": "The word homoousios - one substance - seems to have been rejected here as something Paul had misused, which is a large part of why its adoption at Nicaea in 325 was so contentious, and why Eastern bishops who were not Arians could still be uneasy about it.",
    "new": "The word homoousios - one substance - seems to have been rejected here as something Paul had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it.",
-   "reason": "Same evidence as the why-field change: Athanasius, On the Councils 43 (npnf204 58972-58980) shows the council cited in the 350s by non-Arian bishops; nothing vendored shows it shaping the debate at Nicaea itself.",
+   "reason": "Same evidence as the why-field change: Athanasius, On the Councils 43 (npnf204 58972-58980) shows the council cited in the 350s by non-Arian bishops; nothing vendored shows it shaping the debate at Nicaea itself. (Score is for the whole legacy field after changes 6 and 7.)",
    "fre_before": 44.3,
    "fre_after": 60.2
   },
@@ -864,7 +864,7 @@
    "field": "legacy",
    "old": "The Antiochene exegetical tradition that Diodore, Theodore and Chrysostom carry is usually traced back to Lucian's work on the text as well - which makes this century the origin of two things the next four centuries spent arguing about.",
    "new": "The Antiochene way of reading Scripture, carried by Diodore, Theodore and Chrysostom, may also go back to Lucian's work on the text. No ancient source draws that line. If it does, this century began two things the next four centuries spent arguing about.",
-   "reason": "The existing link (Inferential-Thin) found no source tying Lucian to Diodore, Theodore or Chrysostom, and no repo-cited secondary work states the 'usually traced' consensus. The prose now matches the link.",
+   "reason": "The existing link (Inferential-Thin) found no source tying Lucian to Diodore, Theodore or Chrysostom, and no repo-cited secondary work states the 'usually traced' consensus. The prose now matches the link. (Score is for the whole legacy field after changes 6 and 7.)",
    "fre_before": 44.3,
    "fre_after": 60.2
   },
