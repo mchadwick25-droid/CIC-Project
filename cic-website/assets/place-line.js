@@ -15,17 +15,26 @@
       const list = byPlace[c.place] || (byPlace[c.place] = []);
       if (!list.includes(c.country)) list.push(c.country);
     });
+    const omit = ((opts && opts.omitIn) || '').toLowerCase();
+    const shown = p => !omit || !omit.includes(p.toLowerCase());
     const groups = [];
     places.forEach(p => {
-      const countries = (byPlace[p] || []).filter(c => !named.has(c));
+      const countries = (byPlace[p] || []).filter(c => !named.has(c) || !shown(c));
       const key = countries.join('|');
       const last = groups[groups.length - 1];
       if (last && key && last.key === key) last.places.push(p);
       else groups.push({ places: [p], countries, key });
     });
-    const text = groups.map(g => g.places.map(p => p + (qualifiers[p] || '')).join(' · ') +
-      (g.countries.length ? (today ? ', today in ' : ', ') + joinNames(g.countries) : '')).join(' · ');
-    return text + (beyond ? ' and beyond' : '');
+    const parts = groups.map(g => {
+      const visible = g.places.filter(shown).map(p => p + (qualifiers[p] || ''));
+      const hiddenQualifiers = g.places.filter(p => !shown(p) && qualifiers[p]).map(p => qualifiers[p].replace(/^[\s,(]+|\)$/g, ''));
+      const where = visible.concat(hiddenQualifiers).join(' · ');
+      const countries = g.countries.length ? joinNames(g.countries) : '';
+      if (!where) return countries ? (today ? 'today in ' : '') + countries : '';
+      return where + (countries ? (today ? ', today in ' : ', ') + countries : '');
+    }).filter(Boolean);
+    if (!parts.length) return '';
+    return parts.join(' · ') + (beyond ? ' and beyond' : '');
   }
   root.CFTPlace = { formatPlace };
 })(typeof globalThis !== 'undefined' ? globalThis : this);

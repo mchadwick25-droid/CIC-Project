@@ -207,3 +207,19 @@ after.
 
 The place fields ship as data release 2, dated 2026-11-07.
 
+---
+
+## 2026-11-07 — The map's place line leaves out places the name already says
+
+**Decided (Mark: "many of the names have the place in them, if they do maybe we dont need it
+duplicated").** On the map, a place already in the movement's shown name drops out of its second
+line; its country stays. "Alexandria" shows "Egypt", "Third-Century Rome" shows "Italy", "Syriac
+Edessa" shows "Nisibis, Turkey". Where nothing is left to add, there is no second line. The
+panel and the tree page keep the full line, since their headings use the long name. 49 of 292
+names contained a place.
+
+**Also decided the same day (Mark, of the book icons: "not all of them have names").** Each of
+the 62 gap stories shows its title beside its icon from the second zoom step (0.7), the same
+step as place lines. The titles join the no-overlap layout and hide with the stories switch.
+Measured at reading zoom: no overlaps, 223 place lines shown.
+
