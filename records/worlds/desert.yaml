@@ -19,6 +19,7 @@ app: {order: 3, accent_color: "#9D893B", portrait: "/images/portraits/thumb/dese
 representative: {name: Papnoute}
 state: admitted
 census_id: "desert-monasticism"
+public_open: true
 package:
   manifest_hash: "sha256:5d1aa482a978a2521091ce4355057c8fb14d2599c5c009f01fc84da78b0c4e8e"
   location: "packages/desert/2026-11-04T06-24-40Z"

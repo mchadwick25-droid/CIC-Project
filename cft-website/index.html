@@ -31,6 +31,10 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .topbar a.cic-link{font-size:.78rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
   border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem}
 .topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+.topbar a.support-link{font-size:.76rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
+.topbar a.support-link:hover,.topbar a.support-link:focus-visible{color:var(--gold-leaf)}
+.switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.72rem;color:var(--ink-faded);line-height:1.6}
+.switches .foot a{color:var(--gold-leaf)}
 .topbar button{font:inherit;font-size:.78rem;background:var(--vellum);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
@@ -46,12 +50,6 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
   padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
-#scopeNote{position:fixed;top:5rem;left:0;right:0;z-index:19;font-size:.74rem;
-  color:var(--ink-faded);background:var(--tyrian-wash);border-bottom:1px solid var(--rule);
-  padding:.4rem .9rem;line-height:1.5}
-#scopeNote b{color:var(--tyrian)}
-#scopeNote button{float:right;background:none;border:none;color:var(--ink-faded);
-  cursor:pointer;font-size:.9rem;line-height:1;padding:0 .2rem}
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 #stage.pinching svg text{display:none!important}
@@ -113,7 +111,8 @@ svg#world{display:block;overflow:visible}
 #panel .repline{font-size:.95rem;margin:0 0 .5rem}
 #panel .act{display:block;width:100%;margin:0 0 .9rem;padding:.6rem .9rem;
   font:600 .88rem/1.3 "Alegreya Sans",sans-serif;color:var(--vellum);
-  background:var(--tyrian);border:none;border-radius:3px;cursor:pointer;text-align:center}
+  background:var(--tyrian);border:none;border-radius:3px;cursor:pointer;text-align:center;text-decoration:none}
+#panel .door-quiet{font-size:.82rem;color:var(--ink-faded);margin:0 0 .9rem}
 #panel .act:hover{background:var(--madder)}
 #panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
@@ -212,9 +211,7 @@ svg#world{display:block;overflow:visible}
   .story .halo{r:calc(22 / var(--zoom-scale,1))}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
   .topbar button{min-height:44px;padding:.6rem 1rem}
-  #scopeNote button{min-width:44px;min-height:44px;display:inline-flex;
-    align-items:center;justify-content:center;font-size:1.1rem}
-  #panel .close{min-width:44px;min-height:44px;display:inline-flex;
+    #panel .close{min-width:44px;min-height:44px;display:inline-flex;
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
   .chip{min-height:44px}
@@ -231,6 +228,7 @@ svg#world{display:block;overflow:visible}
   <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
+  <a class="support-link" href="support.html">Support the tree</a>
   <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
@@ -238,19 +236,6 @@ svg#world{display:block;overflow:visible}
   <button id="resetBtn" type="button">Reset view</button>
 </div>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
-<div id="scopeNote">
-  <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
-  This map traces the movements, revivals, and divisions of Christian history
-  as rivers that wind and widen across time. Click any name, river, or icon
-  to read its documented story: who carried it, its legacy, and where the
-  record comes from. A growing number of Christian traditions are fully
-  built, each with its own representative voice you can have a conversation
-  with. Colored lines join traditions where the sources record a link. To see
-  them, open Connections just under the title. The switches there and beside it
-  explain each color, and can hide any part of the map.
-  Scroll or drag to move around, hold Ctrl or Cmd and scroll (or pinch on a touch
-  screen) to zoom, hover a name for a glimpse, click for the full story.
-</div>
 
 <div id="stage">
   <svg id="world" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -4009,7 +3994,8 @@ const DATA = {
      "place": "Asia Minor",
      "placeId": "Q12824780"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "greek-apologists-second-century",
@@ -4213,7 +4199,8 @@ const DATA = {
      "placeId": "Q220",
      "pleiadesId": "423025"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -4932,7 +4919,8 @@ const DATA = {
      "place": "Egypt",
      "placeId": "Q79"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "syriac-edessa-nisibis",
@@ -5393,7 +5381,8 @@ const DATA = {
      "placeId": "Q14524112",
      "pleiadesId": "60591"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "latin-pastoral-congregational-christianity",
@@ -5543,7 +5532,8 @@ const DATA = {
      "placeId": "Q858024",
      "pleiadesId": "305090"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "tertullian-s-voice",
@@ -6937,7 +6927,8 @@ const DATA = {
      "place": "Egypt",
      "placeId": "Q79"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "palestinian-ascetic-monasticism-early",
@@ -7094,7 +7085,8 @@ const DATA = {
    ],
    "statusDescription": "You can sit down with this tradition now.",
    "placeLabel": "Roman North Africa",
-   "modernCountries": []
+   "modernCountries": [],
+   "publicOpen": true
   },
   {
    "id": "cappadocian-nicene-pastoral-monastic-tradition",
@@ -7502,7 +7494,8 @@ const DATA = {
      "placeId": "Q51614",
      "pleiadesId": "837"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "imperial-juridical-christianity",
@@ -7966,7 +7959,8 @@ const DATA = {
      "placeId": "Q16869",
      "pleiadesId": "520998"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "hieronymian-ascetic-literary",
@@ -8248,7 +8242,8 @@ const DATA = {
    ],
    "placeQualifiers": {
     "Bethlehem": ", West Bank"
-   }
+   },
+   "publicOpen": true
   },
   {
    "id": "armenian-christianity-conversion-era",
@@ -8666,7 +8661,8 @@ const DATA = {
      "placeId": "Q200441",
      "pleiadesId": "658381"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "cyrilline-miaphysite-egyptian-tradition",
@@ -9245,7 +9241,8 @@ const DATA = {
      "place": "Lérins",
      "placeId": "Q292642"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "priscillianist-asceticism",
@@ -10357,7 +10354,8 @@ const DATA = {
      "place": "Syria",
      "placeId": "Q858"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-church-of-the-east-under-persia",
@@ -11104,7 +11102,8 @@ const DATA = {
      "placeId": "Q220",
      "pleiadesId": "423025"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "merovingian-gallic-christianity",
@@ -19523,7 +19522,8 @@ const DATA = {
      "place": "Bohemia",
      "placeId": "Q39193"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-ethiopian-monastic-flowering",
@@ -21353,7 +21353,8 @@ const DATA = {
      "place": "Saxony",
      "placeId": "Q1202"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "the-reformed-cities-zurich-and-geneva",
@@ -21444,7 +21445,8 @@ const DATA = {
      "place": "Swiss lands",
      "placeId": "Q39"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "the-anabaptist-movements",
@@ -22710,7 +22712,8 @@ const DATA = {
      "placeId": "Q220",
      "pleiadesId": "423025"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "tridentine-parish-renewal-borromean-milan",
@@ -26106,7 +26109,8 @@ const DATA = {
      "placeId": "Q23666",
      "pleiadesId": "20419"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-evangelical-awakening-in-new-england",
@@ -26462,7 +26466,8 @@ const DATA = {
      "place": "Siberia",
      "placeId": "Q5428"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-hesychast-revival-paisius-and-the-philokalia",
@@ -46978,9 +46983,14 @@ panelBody.addEventListener('toggle',ev=>{
   if(!a)return;
   if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
 },true);
-const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
-const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://app.churchinconversation.com';
-function launchInterview(id){location.href=LIVE_APP_URL+'/?worlds='+encodeURIComponent(id)+'&mode=interview';}
+const ANY_WORLD_OPEN=DATA.movements.some(m=>m.publicOpen);
+function worldDoor(m){
+  const entry=m.entry;
+  if(!entry)return '';
+  if(m.publicOpen)return `<a class="act" href="https://churchinconversation.com/traditions/${encodeURIComponent(m.id)}.html">Meet ${esc(entry.representativeName)} on Church in Conversation</a>`;
+  if(!ANY_WORLD_OPEN)return `<p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>`;
+  return '';
+}
 function hasContent(v){return !!v&&v.trim()!=='-';}
 function sectionSources(list){
   if(!list||!list.length)return '';
@@ -47033,8 +47043,7 @@ function openPanel(m){
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
   let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
-  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
-    <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   if(m.placeLabel)h+=`<p class="meta">${esc(CFTPlace.formatPlace(m,{today:true}))}</p>`;
   h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;
@@ -47091,10 +47100,9 @@ function openPanel(m){
   }
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
-    if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+    h+=worldDoor(m);
   }
   stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
-  panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
     const audioKey=m.id+'-'+item.dataset.storyIdx;
@@ -47265,6 +47273,7 @@ function buildLegend(){
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
+  key+=`<div class="foot">A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="support.html">Support the tree</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
@@ -47357,8 +47366,8 @@ function centerView(){
   scale=Math.max(scale,DETAIL_THRESHOLD*1.15);
   scale=Math.max(MIN_S,Math.min(MAX_S,scale));
   tx=(window.innerWidth-CANVAS_W*scale)/2;
-  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar'), note=document.getElementById('scopeNote');
-  const chrome=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+(note?note.offsetHeight:0);
+  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
+  const chrome=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0);
   ty=Math.max(40,chrome+12);
   applyTransform(); applyDetail();
 }
@@ -47526,18 +47535,12 @@ stage.addEventListener('touchend',(ev)=>releaseTouches(ev,true));
 stage.addEventListener('touchcancel',(ev)=>releaseTouches(ev,false));
 
 document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();centerView();});
-document.getElementById('scopeClose').addEventListener('click',()=>document.getElementById('scopeNote').remove());
-function positionScopeNote(){
+function positionFeatureBar(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
-  const topbarH=topbar?topbar.offsetHeight:0;
-  if(featureBar)featureBar.style.top=topbarH+'px';
-  const featureBarH=featureBar?featureBar.offsetHeight:0;
-  const note=document.getElementById('scopeNote');
-  if(note)note.style.top=(topbarH+featureBarH)+'px';
+  if(featureBar)featureBar.style.top=(topbar?topbar.offsetHeight:0)+'px';
 }
-positionScopeNote();
-window.addEventListener('resize',positionScopeNote);
-window.addEventListener('resize',()=>{});
+positionFeatureBar();
+window.addEventListener('resize',positionFeatureBar);
 
 render();
 buildLegend();

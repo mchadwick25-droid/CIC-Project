@@ -75,3 +75,9 @@ it, never by deleting it.
       so browsers check for a newer copy every time and get a short "not modified" answer when
       there is none.
 
+17. **"UK, today in United Kingdom" (2026-11-07).** Four entries label a place "UK" (African
+    diaspora and reverse-mission churches; the emerging church; the narrative kingdom renewal; the
+    charismatic renewal). The place line drops a country only when the label uses the country's
+    own name, so these read "UK, today in United Kingdom" on the tree pages and the map. The label
+    must stay inside the region text, so the fix belongs in the places rule (a place that is itself
+    a country), not in one-off edits. Flagged to Mark; not changed yet.

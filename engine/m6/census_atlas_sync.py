@@ -64,6 +64,7 @@ STRUCTURAL_FIELDS = (
     "placeLabel",
     "modernCountries",
     "placeQualifiers",
+    "publicOpen",
     "continuesAs",
 )
 

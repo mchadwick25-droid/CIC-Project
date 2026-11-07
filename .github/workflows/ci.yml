@@ -210,6 +210,8 @@ jobs:
               - 'cft-website/**'
               - 'cic-worker/**'
               - 'tools/build_tree_site.mjs'
+              - 'Build/tools/generate_tree_pages*'
+              - 'Build/tools/tree_site_pages.json'
               - 'wrangler.jsonc'
               - 'wrangler.cft.jsonc'
               - '.github/workflows/**'
@@ -349,8 +351,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Restore the narration manifests the page generator reads
+        run: git show HEAD:cft-website/audio/tree/manifest.json > cft-website/audio/tree/manifest.json
       - run: node tools/build_tree_site.mjs
-      - run: node --test cic-worker/worker.test.mjs
+      - run: node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs
 
   check-paths:
     name: Cited paths resolve; retired paths absent

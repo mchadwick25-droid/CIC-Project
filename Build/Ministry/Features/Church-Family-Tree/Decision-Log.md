@@ -278,3 +278,28 @@ should also hide").** A river's switch now also hides the story icons on that ri
 and connections. Checked: Africa off hides its 3 stories and leaves nothing on that river
 showing; All rivers off clears the map.
 
+
+## 2026-11-07 — P1d built: door switch and the tree's own pages
+
+Built to the plan (P1d in `Build-Plan.md`):
+- Each world record has a `public_open` switch. It is on for the 11 Built & Live worlds. The
+  census sync carries it into the census and the map as `publicOpen`.
+- An open world's panel and tree page offer "Meet <Representative> on Church in Conversation",
+  linked to that world's page there. With no world open, built worlds show only the quiet line
+  "Church in Conversation, from the same team." A test generates the pages both ways.
+- The tree pages share one header and footer with the new about, privacy and support pages.
+  Their text lives in `Build/tools/tree_site_pages.json`. Reading Ease: about 61, privacy 85,
+  support 66. The one paragraph under 60 is the not-a-nonprofit sentence (30). It must match
+  `cic-website/support.html` word for word, and a test checks that it does.
+- The support page shows its give buttons only once both Stripe links are in the content file.
+  Until Mark makes them, the page explains support without buttons.
+
+**Trimmed the same day (Mark: "on the world card, we dont need the four boxes … on the page we
+dont need the blue box … also the not yet built section should be removed").**
+- Tree pages lose the four fact boxes (era, dates, region, status) and the status block. The
+  line above the title already gives era, dates and region. A visitor can tell from the door
+  whether a Representative exists.
+- The present-day country line, the only fact the boxes added, now sits under that line. It
+  shows only when it names a country.
+- The map loses its intro box. Training and About buttons will replace it later, as their own
+  piece of work.

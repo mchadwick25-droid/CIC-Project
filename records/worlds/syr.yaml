@@ -21,6 +21,7 @@ app: {order: 5, accent_color: "#5493A0", portrait: "/images/portraits/thumb/syri
 representative: {name: "Mar Yausep"}
 state: admitted
 census_id: "syriac-edessa-nisibis"
+public_open: true
 package:
   manifest_hash: "sha256:a151e9c8503ea2baad23ba4c0e46e150296ce141f53c297a5f676ea888da3ef0"
   location: "packages/syr/2026-11-04T01-51-51Z"

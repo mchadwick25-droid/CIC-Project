@@ -1,0 +1,147 @@
+{
+ "about": {
+  "title": "About the Church Family Tree",
+  "sections": [
+   {
+    "heading": "What the tree is",
+    "paragraphs": [
+     "The Church Family Tree is an interactive map of Christian history. It runs from the first house-churches, about 70 CE, to today.",
+     "Movements, revivals and divisions are drawn as rivers. These rivers wind and widen as time passes."
+    ]
+   },
+   {
+    "heading": "What it covers",
+    "paragraphs": [
+     "The tree covers 300 movements. Each movement has its own page.",
+     "The tree also holds 62 short gap stories. Each is a real, documented episode that never became a movement of its own.",
+     "A river's width shows how many recorded movements in that family were active at the time. It does not measure membership or size."
+    ]
+   },
+   {
+    "heading": "How the links work",
+    "paragraphs": [
+     "Colored lines join traditions where the sources record a link. The tree shows 86 links of six kinds.",
+     "Each link carries a confidence grade.",
+     "Documented. Widely Accepted. Dominant Modern Reconstruction. Contested. Inferential-Thin.",
+     "Each link also names its sources. A short quotation is checked word for word against the source text.",
+     "Each movement names its place. Where that place lies in a country today, the tree names the country too, checked against a standard gazetteer, Wikidata or Pleiades. Some broad or historical regions show the place alone.",
+     "Many movements have a spoken narration. The voice is synthesized."
+    ]
+   },
+   {
+    "heading": "What has been checked",
+    "paragraphs": [
+     "Every claim has been checked with the help of AI. No independent scholar has yet reviewed any of them. Academic review is the project's biggest need.",
+     "Movement and link IDs are permanent. A removed link keeps its ID on a retired list. A renamed movement keeps a redirect from its old address.",
+     "Each release of the data has a number and a date. The full data file is public at https://www.churchfamilytree.com/data/world-census.json."
+    ]
+   },
+   {
+    "heading": "Who makes it",
+    "paragraphs": [
+     "Faithways Studio, Inc., a Colorado public benefit corporation, makes the tree.",
+     "The same team makes Church in Conversation at churchinconversation.com.",
+     "There, some traditions can be explored through a conversation with a representative voice. When a tradition is open there, its page on the tree has a door to it.",
+     "The Faithways Studio license policy covers use of the tree and its data.",
+     "License policy: https://churchinconversation.com/license",
+     "Contact: info@churchinconversation.com"
+    ]
+   }
+  ]
+ },
+ "privacy": {
+  "title": "Privacy",
+  "sections": [
+   {
+    "heading": "No cookies, no accounts",
+    "paragraphs": [
+     "The tree sets no cookies. It has no accounts. There is nothing to sign up for."
+    ]
+   },
+   {
+    "heading": "Counting visits",
+    "paragraphs": [
+     "We count visits without cookies. We use Cloudflare's own traffic numbers and its cookie-free Web Analytics. These counts do not identify anyone.",
+     "Cloudflare also hosts the site."
+    ]
+   },
+   {
+    "heading": "What your browser keeps",
+    "paragraphs": [
+     "The map remembers which switches you turned on or off. That choice is saved in your own browser only. It is never sent to us.",
+     "Clearing your browser's site data removes it."
+    ]
+   },
+   {
+    "heading": "Typefaces",
+    "paragraphs": [
+     "The page typefaces load from Google Fonts. Your browser sends Google a request when a page opens."
+    ]
+   },
+   {
+    "heading": "The feedback bar",
+    "paragraphs": [
+     "Pressing \"This helped\" sends only the name of the page.",
+     "Sending a report sends the page, your reason and your text. It sends an email address only if you choose to give one.",
+     "\"Tell us what you think\" sends the page and your text. It sends a first name or email only if you choose to give them.",
+     "Feedback goes to Church in Conversation's server, run by the same team. It carries no visitor ID and no cookie. We use it to fix and improve the tree."
+    ]
+   },
+   {
+    "heading": "Links and gifts",
+    "paragraphs": [
+     "A link to Church in Conversation takes you to that site. Your browser tells it only that you came from the Church Family Tree site. It does not say which page.",
+     "Gifts are paid on Stripe's own pages. Stripe holds your name, email and payment details. We do not receive your card details."
+    ]
+   },
+   {
+    "heading": "Questions",
+    "paragraphs": [
+     "Write to info@churchinconversation.com with questions. You can also ask us there to delete a report you sent."
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Support the tree",
+  "sections": [
+   {
+    "heading": "What a gift pays for",
+    "paragraphs": [
+     "A gift pays for hosting and storage for the site. This includes the narration recordings.",
+     "It pays for the narration itself. We make the recordings with a paid voice service, ElevenLabs, which charges by the length of the text.",
+     "It pays for the research behind each link and place. That work means finding the sources, checking each quotation, and grading how sure the record is.",
+     "It would also help pay for independent scholarly review. That is the project's biggest need, and we hope to fund it."
+    ]
+   },
+   {
+    "heading": "Who you are giving to",
+    "paragraphs": [
+     "One company makes the tree and Church in Conversation.",
+     "Church in Conversation is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible."
+    ]
+   },
+   {
+    "heading": "How to give",
+    "paragraphs": [
+     "Two buttons below let you give through Stripe: \"Give once\" and \"Give monthly\".",
+     "To give another way, email info@churchinconversation.com."
+    ],
+    "extra": "give"
+   },
+   {
+    "heading": "Ways to help that cost nothing",
+    "paragraphs": [
+     "Introduce a scholar, seminary or professor who might review the tree.",
+     "Report an error with the \"Report a problem\" button on any page.",
+     "Tell someone who would enjoy the map."
+    ]
+   }
+  ]
+ },
+ "give": {
+  "once": null,
+  "monthly": null
+ },
+ "analyticsToken": null
+}

@@ -93,7 +93,7 @@ def test_admitted_world_advances_to_live_and_populates_derived_fields():
     }
     assert {c["field"] for c in changes if c["world"] == "abc"} == {
         "status", "chip", "glyph", "statusWord", "statusDescription", "start", "end",
-        "entry.representativeName", "entry.worldName",
+        "entry.representativeName", "entry.worldName", "publicOpen",
     }
 
 
@@ -107,8 +107,20 @@ def test_built_not_admitted_world_is_left_untouched():
     before = copy.deepcopy(_by_id(census, "notyet-census-id"))
     new_census, changes = sync_census(registry, census)
     after = _by_id(new_census, "notyet-census-id")
-    assert after == before
-    assert not any(c["world"] == "notyet" for c in changes)
+    assert after == {**before, "publicOpen": False}
+    assert {c["field"] for c in changes if c["world"] == "notyet"} == {"publicOpen"}
+
+
+def test_public_open_follows_the_registry():
+    registry, census = _registry(), _census()
+    registry["abc"]["public_open"] = True
+    new_census, _ = sync_census(registry, census)
+    assert _by_id(new_census, "abc-census-id")["publicOpen"] is True
+    assert _by_id(new_census, "notyet-census-id")["publicOpen"] is False
+    registry["abc"]["public_open"] = False
+    again, changes = sync_census(registry, new_census)
+    assert _by_id(again, "abc-census-id")["publicOpen"] is False
+    assert [c["field"] for c in changes] == ["publicOpen"]
 
 
 def test_unrelated_historical_entry_is_byte_identical():
