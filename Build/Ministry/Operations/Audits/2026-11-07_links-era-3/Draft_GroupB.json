@@ -1,0 +1,1720 @@
+{
+ "group": "B",
+ "movements": [
+  "syriac-orthodox-west-syriac-christianity",
+  "the-church-of-the-east-under-persia",
+  "byzantine-imperial-church-justinianic",
+  "chalcedonian-monasticism-judean-desert-and-gaza"
+ ],
+ "dispositions": [
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "relationsSummary",
+   "sentence": "Heir of the Syriac tradition's Roman side (Ephrem's Edessa); Ghassanid royal patronage carried its hierarchy (Jacob Baradaeus consecrated under it)",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 0,
+   "reason": "Existing era-1 gave-rise-to link, Inferential-Thin, kept. 'Heir' rewritten to match the thin grade."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "relationsSummary",
+   "sentence": "Heir of the Syriac tradition's Roman side (Ephrem's Edessa); Ghassanid royal patronage carried its hierarchy (Jacob Baradaeus consecrated under it)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Ghassanid kings are a state, not a movement. Supported: John of Ephesus, Lives 50 (brooks1923 26702-26704) has Harith bar Gabala, 'king of the Saracens', ask Theodora for bishops for Syria; James (Jacob) and Theodore were then consecrated (26278-26282). Sentence made concrete."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula were in a harder position than their Egyptian counterparts: inside the Roman Empire, without a patriarchal throne of their own, and for long stretches under Justinian without legal standing at all.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Comparison, not a relationship, so no link. The contrast 'inside the Roman Empire' fails, since Egypt was inside it too; rewritten to the documented loss of Antioch (Evagrius IV.4, 7894-7898)."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula were in a harder position than their Egyptian counterparts: inside the Roman Empire, without a patriarchal throne of their own, and for long stretches under Justinian without legal standing at all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Chalcedon is a council, not a movement. Supported: Evagrius IV.4 (7894-7898), Chronicle of Edessa 90 (223)."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "Their leader Severus of Antioch was driven from his see in 518 and wrote from exile in Egypt for twenty years.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 1,
+   "reason": "New in-contact-with link: bishops withdrew to Alexandria after Severus (Ps.-Zachariah VIII.5) and Severus and Theodosius exchanged letters of communion (IX.23-24). 'Twenty years in Egypt' narrowed; not shown in the vendored texts."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "A bishop consecrated under the protection of the Ghassanid Arab kings and of the empress Theodora, who spent decades traveling in disguise across Syria and Mesopotamia ordaining priests and bishops for a church the empire would not recognize.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "State actor. Supported as for the relationsSummary (Lives 50, 26702-26704); 'protection' narrowed to the request and the queen's order."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "A bishop consecrated under the protection of the Ghassanid Arab kings and of the empress Theodora, who spent decades traveling in disguise across Syria and Mesopotamia ordaining priests and bishops for a church the empire would not recognize.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Theodora is a person. Supported: Lives 50 (26702-26706; 31198-31206): she ordered the consecrations; Theodosius of Alexandria consecrated James."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "John of Ephesus, himself a Miaphysite bishop and one of Justinian's own missionaries, wrote down fifty-eight portraits of these people while it was happening.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person's role, not a movement relationship. Supported: Brooks's introduction (brooks1923 225-226: in 542 John was chosen by the emperor to convert the pagans of Asia) and John's own style 'the converter of the pagans' (737); '58 short lives' (342)."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "sentence": "When the Byzantine defeat at Yarmouk in 636 ended the empire's power to enforce against them, what emerged was a separate hierarchy that had never stopped functioning.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 1,
+   "reason": "New broke-with link carries the rupture with the imperial church. Yarmouk: Michael the Syrian XI.6 (michael-the-syrian tome2 32414-32418). Sentence split, wording kept."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "why",
+   "sentence": "This communion had no legal right to exist under Justinian, so its bishop Jacob Baradaeus spent decades traveling in disguise across Syria and Mesopotamia, secretly ordaining priests and bishops under the protection of Ghassanid Arab kings and the empress Theodora.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+   "prose_change": 2,
+   "reason": "New argued-against link: Novel 42 against Severus by name; Evagrius IV.11 on penalties for his followers."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "why",
+   "sentence": "This communion had no legal right to exist under Justinian, so its bishop Jacob Baradaeus spent decades traveling in disguise across Syria and Mesopotamia, secretly ordaining priests and bishops under the protection of Ghassanid Arab kings and the empress Theodora.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "State actor. Supported as above; 'protection' narrowed in the rewrite."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "why",
+   "sentence": "When Byzantine power collapsed at Yarmouk in 636, what emerged was a hierarchy that had never stopped functioning despite having no legal standing at all.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 2,
+   "reason": "Covered by the new broke-with link; Yarmouk in Michael the Syrian XI.6."
+  },
+  {
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "legacy",
+   "sentence": "It continued under Muslim rule and is today the Syriac Orthodox Church of Antioch, with congregations across the Middle East, in India and in a wide diaspora.",
+   "other_id": "syriac-orthodox-under-islam",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "prose_change": null,
+   "reason": "New continued-as link: Michael the Syrian shows the same patriarch, John of the Sedre, before and after the conquest."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "relationsSummary",
+   "sentence": "This church is a direct heir of the Syriac Christian tradition, and the St Thomas Christians of India belonged to its communion.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "prose_change": null,
+   "reason": "Existing era-1 influenced link, Documented, kept; 'direct heir' also rests on the chain through the early Persian church (era 2)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "relationsSummary",
+   "sentence": "This church is a direct heir of the Syriac Christian tradition, and the St Thomas Christians of India belonged to its communion.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "prose_change": 3,
+   "reason": "New influenced link, Inferential-Thin: Cosmas III (7209-7211) is the only vendored witness for this period. Sentence narrowed to what he says."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "era 2 owns it"
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Era-2 movement, but only this text names the relationship, so it is ours. No link: the 424 act is a one-sided declaration about Western bishops, not a rupture both sides recorded. 'And its councils' overstates: the 410 synod received the Nicene creed (Synodicon 16815-16819); the 424 definition (19304-19306) concerns appeals to the Western patriarchs."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: the 424 synod speaks of the magi stirring persecution (Synodicon 18844)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A doctrinal difference, not a link type. Supported: the 612 statement (Synodicon 39362-39365) confesses two natures and two qnome ('personnes') where Chalcedon's definition has one hypostasis (npnf214). Reviewer: some scholars read the difference as mostly terminological."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The Miaphysites' generically; the only vendored text sets the church against Severus's party, not the Egyptian church by name, so no link to Egypt. The difference itself is supported by the same 612 statement."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--syriac-orthodox-west-syriac-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link: the 612 statement charges 'Severus and his disciples' (Synodicon 39364-39365)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+   "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "era 2 owns it"
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Opponents unnamed. Supported in general: the 612 documents answer opponents who call the church after Nestorius; Chabot's introduction (37347-37356). Kept."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept expanding eastward.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: the catholicate held synods after the conquest (George I, 676; Synodicon 32004-32694)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "sentence": "Its communion stretched far beyond Mesopotamia: the St Thomas Christians of India belonged to it.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "prose_change": 4,
+   "reason": "Same link as the relationsSummary; sentence narrowed to Cosmas."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "why",
+   "sentence": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A contrast, not a relationship to a movement. Supported: the 424 definition (Synodicon 19304-19306) and the synod's references to the magi (18844)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "why",
+   "sentence": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "era 2 owns it"
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "why",
+   "sentence": "Its school at Nisibis governed its students by written statutes, and its communion reached as far as the St Thomas Christians of India.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "prose_change": 5,
+   "reason": "Same link; clause narrowed to Cosmas."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "sentence": "The same institution continued without a break into the following centuries, when it became the most geographically extended Christian body in the world — its missions reaching Central Asia and China along the Silk Road.",
+   "other_id": "the-church-of-the-east-on-the-silk-road",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "prose_change": null,
+   "reason": "New continued-as link: the synods of 605 and 676 in one series (Synodicon)."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "prose_change": null,
+   "reason": "Same link. 'Its Indian branch' over the long run is supported by later witnesses (Geddes 1694 on bishops from the 'Patriarch of Babylon', 826, 977), so the legacy sentence stays."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Modern successor churches; the chain runs through later movements (church-of-the-east-schism-of-1552, church-of-the-east-chaldean-consolidation). Kept."
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "sentence": "Along the way its scholars translated Greek medicine, philosophy and logic into Syriac, work later carried on into Arabic — one of the routes by which Greek learning reached the wider medieval world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single movement. The Arabic stage is later than this era (Honain bar Isaac, Malech 1910, 15022-15038). Not checked in detail for the Syriac translations before 651; flagged."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "relationsSummary",
+   "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": 7,
+   "reason": "Era-2 movement, but its text does not name this relationship (era2_names_it false), so it is ours. New influenced link: Dorotheus quotes Antony, Poemen and the Book of the Elders. 'Direct heir' narrowed to 'drew on'."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "relationsSummary",
+   "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Sinai has no movement. Moschus visits Sinai elders (Pratum, 14276) and Climacus was abbot there (PG 88, 41597), but no text shows these houses forming him; narrowed to movement between them."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "relationsSummary",
+   "sentence": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No single movement. 'All later Orthodox practice' narrowed to what Charon (1911) shows of the Typikon of Saint Sabas."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "sentence": "In the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza, monastic settlement multiplied in the century after Chalcedon into something like a second population — laurae where hermits lived apart through the week and gathered on Sundays, and communal houses holding hundreds.",
+   "other_id": "palestinian-ascetic-monasticism-early",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "era 2 owns it"
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Ours (Byzantine imperial church, era 3), but the claim is about the monks' stance, not a link type. 'Firm supporters' is untrue of part of this movement: Cyril's Life of Euthymius (36066-36072) records the split, and Peter the Iberian led the opponents at Gaza (Ps.-Zachariah III.4, 2670-2675)."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": 8,
+   "reason": "New in-contact-with link: Judean monks from Saba's and Theodosius's houses at Constantinople before 553 (Evagrius IV.38)."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "sentence": "These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Origenism has no movement. Supported: Evagrius IV.38 (9503-9507), Origenists ejected from the New Laura. Kept."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "sentence": "The Persian army's sack of Jerusalem in 614 tore through the desert monasteries, and the survivors wrote down what had been lost.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: Antony of Choziba's Life of George, written after 614, on the Persian onslaught (antony-of-choziba 11738; rough Greek OCR). 'The survivors wrote down what had been lost' rests on that Life; Antiochus Strategos is not vendored."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "why",
+   "sentence": "These firm supporters of Chalcedon were pulled into the empire's doctrinal fights all the same, and their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": 9,
+   "reason": "Same in-contact-with link; 'firm supporters' narrowed as in the longDescription."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "why",
+   "sentence": "These firm supporters of Chalcedon were pulled into the empire's doctrinal fights all the same, and their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor; supported as above."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "sentence": "A great deal of what Eastern Orthodox monasticism still does comes from here.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Generic; 'a great deal ... comes from here' softened to 'draws on', supported by the Typikon evidence (Charon 22562-22568)."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "sentence": "The Ladder of Divine Ascent, written at Sinai just after this period, is still read aloud in Orthodox monasteries every Lent; and Dorotheus of Gaza remains standard spiritual reading.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Sinai has no movement. 'Written at Sinai': Climacus as abbot of Mount Sinai (PG 88, Rader's Isagoge 41597). 'Still read every Lent' is a present-day claim no vendored text can carry; kept and escalated."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "sentence": "Two of the houses standing in this window — Mar Saba in the Judean desert and Saint Catherine's at Sinai — are still inhabited, among the oldest continuously occupied Christian communities anywhere.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Present-day claim (still inhabited); no vendored text can carry it; kept and escalated."
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "sentence": "The liturgical order associated with Sabas's monastery underlies Orthodox worship to this day.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "No single movement. Narrowed to Charon (1911): the Typikon 'dit de saint Sabas', printed at Venice from 1515, fragments in the Triodion (22562-22568)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "relationsSummary",
+   "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Existing broke-with link, rewritten to add a Miaphysite witness (Ps.-Zachariah III.2)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "relationsSummary",
+   "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "prose_change": null,
+   "reason": "New broke-with link (518-522, both sides)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "relationsSummary",
+   "sentence": "It stood as the rival imperial context against which Miaphysite Egypt and the Syriac Orthodox church defined themselves, and it hosted the Three Chapters dissent within its own ranks.",
+   "other_id": "latin-africa-under-byzantium",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": null,
+   "reason": "New argued-against link: Facundus's twelve books to Justinian; the African bishops' letters of 550 (Victor of Tunnuna). 'The dissent was wider' (Illyricum, Victor a. 549) needs no further link."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "relationsSummary",
+   "sentence": "Its favor and pressure were something every other church of the period, inside and outside the empire, had to reckon with.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic. Supported by the links drafted here (Egypt, Syria, Africa, Nubia, the Judean monks, the Church of the East in Persia). Kept."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The three theologians are persons. Supported: Constantinople II's sentence anathematizes Theodore, Theodoret's writings and Ibas's letter (npnf214 24465-24469)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Council, not a movement. Supported: npnf214 22945-22946 (Bossuet, trans. Allies): 'Theodoret and Ibas had been received in that Council'."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "Justinian pushed this furthest — rebuilding Hagia Sophia in under six years, codifying Roman law with the church written into it, and in 553 calling a council to condemn the writings of three long-dead theologians, two of whom Chalcedon itself had cleared, in the hope of winning back the Miaphysites.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Covered by the existing broke-with link. The aim is in a contemporary text: Victor of Tunnuna, a. 545 (18972-18974), 'sub specie congregationis eorum, qui ab ecclesiae sunt societate divisi'."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single movement. Supported: Victor of Tunnuna a. 549-550 (19040-19047), Illyrian and African bishops against the condemnation; the African part is the new latin-africa link."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Covered by the existing broke-with link."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "It did not work: the condemnation alienated much of the Latin West without reconciling Egypt or Syria, and each attempted formula produced a fresh schism instead.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "prose_change": null,
+   "reason": "Covered by the new broke-with link."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "longDescription",
+   "sentence": "The same church, in the same years, produced Romanos the Melodist, whose sung sermons in verse are among the finest poetry in Greek, and sent missionaries as far as the Nile kingdoms.",
+   "other_id": "nubian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "prose_change": null,
+   "reason": "New in-contact-with link: John of Ephesus HE III, IV.6-7."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "why",
+   "sentence": "For nearly two centuries after Chalcedon, the eastern Roman emperors ran their church as closely as their state: Justinian rebuilt Hagia Sophia in under six years, wrote the church into his law code, and in 553 convened a council condemning three dead theologians in a failed bid to win back the Miaphysites.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Covered by the existing broke-with link; aim supported by Victor of Tunnuna a. 545 (18972-18974)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "New continued-as link, Widely Accepted: Sergius across 610 and the 630s."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic; the chain runs through the later Byzantine movements. Kept."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "The pattern set here — emperor and patriarch as two authorities within one Christian commonwealth — became the model Byzantium exported to the Balkans and to Russia.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Region, no movement; no vendored text shows the Balkans export, so it goes."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "The pattern set here — emperor and patriarch as two authorities within one Christian commonwealth — became the model Byzantium exported to the Balkans and to Russia.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Era-4 movement. No link from this era: the Rus' received their church order from the later Byzantine church (Mouravieff 1842, 1426-1431, 1463-1467). Sentence narrowed to that."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Covered by the existing broke-with link; Egypt's loss in John of Nikiu (Arab conquest chapters)."
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "sentence": "Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "prose_change": null,
+   "reason": "Covered by the new broke-with link; Syria's loss at the Yarmouk in Michael the Syrian XI.6."
+  }
+ ],
+ "links": [
+  {
+   "id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   "old_index": null,
+   "action": "keep",
+   "from": "syriac-edessa-nisibis",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The Chronicle of Edessa says Paul, the city's bishop, would not accept the synod of Chalcedon and was removed in 522. That December his successor expelled the monks who also refused it. Jacob Baradaeus was later consecrated bishop for Edessa, but these few notices are thin evidence for a line of descent.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 89 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "221",
+     "locus": "Chron. Edessa 89 (An. 831-833 = 519-522)",
+     "quote": "And Paul re-entered his seat in forty-four days, and he was a long time without receiving the synod, and when the king saw that he was not persuaded, he sent him to Euchata.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 89 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "221",
+     "locus": "Chron. Edessa 89 (Tammuz An. 833 = July 522)",
+     "quote": "And Paul departed from Edessa on Tammuz (July) 27, of the year 833, and Asclepius was (bishop) instead of him,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 90 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "223",
+     "locus": "Chron. Edessa 90 (Canun I, An. 834 = December 522)",
+     "quote": "he expelled the Oriental monks, and all the monks their allies who were like them, because they did not consent to the synod of Chalcedon.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John of Ephesus, Lives of the Eastern Saints, ch. 49, on James (Jacob Baradaeus) (trans. Brooks, PO 18-19)",
+     "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "lines": "26280-26282",
+     "locus": "Lives 49",
+     "quote": "And, when both had received the high-priesthood, that is the blessed James that of the city of Edessa and Theodore that of Hirtha of the Saracens",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-west-syriac-christianity relationsSummary ('Heir of the Syriac tradition's Roman side'), rewritten in prose change 0 to match the thin grade; syriac-edessa-nisibis relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "Drafted and reviewed twice in the era-1 pass (Inferential-Thin). Not re-opened; the era-3 text was brought down to match it instead."
+   ],
+   "change_reason": "Kept: era 1 drafted and reviewed it; the Syriac Orthodox summary is softened to match its grade."
+  },
+  {
+   "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "old_index": null,
+   "action": "keep",
+   "from": "syriac-edessa-nisibis",
+   "to": "the-church-of-the-east-under-persia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Barhadbeshabba, writing about 600, says Ephrem opened a school at Edessa after Nisibis passed to Persia in 363. He says Narsai later founded the school at Nisibis, drawing many students from Edessa. Sources differ on when Narsai left Edessa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20437-20438",
+     "locus": "Ephrem at Edessa",
+     "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20441-20442",
+     "locus": "the school after Ephrem",
+     "quote": "Après sa mort, l’école, loin de tomber en décadence, fit de considérables progrès, grâce à l’activité de ses disciples",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20738-20739",
+     "locus": "Cause of the Foundation of the Schools, Narsai at Nisibis",
+     "quote": "Barsauma put, par ces paroles et autres semblables, calmer l'esprit de Narsaï, qui voulut bien fonder une école à Nisibe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 73",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "189",
+     "locus": "Chron. Edessa 73 (An. 800 = 489)",
+     "quote": "An. 800, the school of the Persians was eradicated from Edessa.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia relationsSummary ('a direct heir of the Syriac Christian tradition'); syriac-edessa-nisibis relationsSummary",
+   "wants": [],
+   "drafter_flags": [
+    "Drafted and reviewed in the era-1 pass. The Church of the East text's 'direct heir' also rests on the chain through the early Persian church, which era 2 owns."
+   ],
+   "change_reason": "Kept: era 1 drafted and reviewed it; the era-3 text names it and agrees with it."
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "old_index": null,
+   "action": "keep",
+   "from": "palestinian-ascetic-monasticism-early",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties the later monks to the earlier, so this rests on place and sequence alone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 14",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30347-30348",
+     "locus": "Vita Hilarionis 14",
+     "quote": "For as yet there were no monasteries in Palestine, nor had anyone known a monk in Syria before the saintly Hilarion.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Moschus, Spiritual Meadow, chapter 139 (Latin version in Migne)",
+     "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+     "lines": "15556-15557",
+     "locus": "Pratum spirituale 139",
+     "quote": "qui erat prepositus monasterii Pharan",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "unverified",
+   "named_in_text": "chalcedonian-monasticism-judean-desert-and-gaza longDescription (the laura form); the era-2 movement's own text also names it",
+   "wants": [],
+   "drafter_flags": [
+    "Era 2 owns it: the era-2 movement's text names the relationship (inventory era2_names_it true). Listed here only so every link touching this movement appears; not reviewed. Its stored citation_specificity C and verification_state unverified sit oddly beside two line-located quotes; for era 2 to look at."
+   ],
+   "change_reason": "Kept, not reviewed: era 2 owns it."
+  },
+  {
+   "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   "old_index": null,
+   "action": "keep",
+   "from": "roman-church-gregorian",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In June 595 Gregory wrote to Emperor Maurice that John, patriarch of Constantinople, was trying to be called universal bishop. He says the title is a new name, taken against the Gospel and the canons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6884-6888",
+     "locus": "Reg. V.37",
+     "quote": "et tamen universalis apostolus non vocatur : et vir  sanctissimus consacerdos meus Iohannes vocari universalis  episcopus conatur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6909",
+     "locus": "Reg. V.37",
+     "quote": "decreta novum sibi usurpare nomen praesumit ?",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian text (Gregory against the title 'universal bishop'); not named in the Byzantine imperial church's own text",
+   "wants": [],
+   "drafter_flags": [
+    "Not named in the Byzantine text, so nothing in this group's prose depends on it. The Roman church's own group may also list it; the two entries should agree on 'keep'."
+   ],
+   "change_reason": "Kept: quotes and note checked against Reg. V.37 as stored; nothing in this group's text bears on it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "old_index": null,
+   "action": "keep",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "montanism-the-new-prophecy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Procopius, a hostile witness to Justinian, says the emperor ordered heresies such as the Montanists' to be given up. He reports that the Montanists of Phrygia shut themselves in their churches and burned them. A law of Justinian also names the Montanists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Procopius, Secret History XI (anonymous trans., Athenian Society 1896)",
+     "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+     "lines": "2168-2171",
+     "locus": "Anecdota XI",
+     "quote": "such as those of the Montanists and Sabbatians and all the others by which men's minds are led astray. Justinian ordered all these beliefs to be abandoned in favour of the old religion",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Procopius, Secret History XI (anonymous trans., Athenian Society 1896)",
+     "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+     "lines": "2195-2197",
+     "locus": "Anecdota XI",
+     "quote": "The Montanists, who were settled in Phrygia, shut themselves up in their churches, set them on fire, and perished in the flames",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Justinian, Novel 45, preface (ed. Schoell and Kroll, Corpus Iuris Civilis III, 1895), Latin version",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "59038",
+     "locus": "Nov. 45 praef.",
+     "quote": "vel Samaritas vel Montanistas vel alio nomine detestabiles homines",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "montanism-the-new-prophecy legacy ('Imperial suppression under Justinian'); not named in the Byzantine imperial church's own text",
+   "wants": [],
+   "drafter_flags": [
+    "Drafted and reviewed in the era-1 pass."
+   ],
+   "change_reason": "Kept: era 1 drafted and reviewed it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "old_index": null,
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451, after he refused three summonses to answer his accusers. A petition to Emperor Leo, quoted by the historian Evagrius, says Timothy Aelurus broke from the Catholic church right after Chalcedon. A Miaphysite chronicle of the next century tells the other side: clergy, monks and people cut themselves off from the new bishop's communion.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon, Condemnation Sent to Dioscorus, in Percival, The Seven Ecumenical Councils (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20082-20084",
+     "locus": "Chalcedon, 'The Condemnation Sent by the Holy and Ecumenical Synod to Dioscorus'",
+     "quote": "We do you to wit that on the thirteenth day of the month of October you were deposed from the episcopate and made a stranger to all ecclesiastical order",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Evagrius Scholasticus, Ecclesiastical History II (Walford, 1846), quoting the Egyptian bishops' petition to Leo",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "3675-3678",
+     "locus": "Evagrius, HE II.5, the petition of the Egyptian bishops and Alexandrian clergy to Emperor Leo",
+     "quote": "Timotheus, immediately after the holy synod at Chalcedon, being at that time a presbyter, severed himself from the Catholic church and faith",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book III, ch. 2 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2539-2541",
+     "locus": "Chron. III.2",
+     "quote": "perceiving that the faith had been polluted, both by the unjust deposition of Dioscorus and the oppressive conduct of Proterius and his wickedness,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book III, ch. 2 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2542-2543",
+     "locus": "Chron. III.2",
+     "quote": "and severed themselves from his communion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-imperial-church-justinianic relationsSummary ('the rival imperial context against which Miaphysite Egypt ... defined themselves'), longDescription ('without reconciling Egypt') and legacy ('the separations of 451 were still unhealed when the empire lost Egypt')",
+   "wants": [],
+   "drafter_flags": [
+    "The two stored quotes were rechecked at their lines. The added chronicle is the Syriac Miaphysite compilation of about 569, so the break now has a witness from each side, as the method asks for 'broke with'.",
+    "Group A (Egyptian Miaphysites) will only cite this link; this entry is the one to merge."
+   ],
+   "change_reason": "Rewritten: the note said both sources were Chalcedonian; a Miaphysite witness to the same break (Pseudo-Zachariah III.2) is added and the note says so."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Chalcedonian historian Evagrius says Severus fled his see at Antioch in September 518. Paul replaced him, with orders to proclaim the Council of Chalcedon openly. A Miaphysite chronicle of the same century says Severus left for fear of the emperor. In December 522 the bishop of Edessa expelled the monks who refused the council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.4 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "7894-7897",
+     "locus": "HE IV.4",
+     "quote": "Accordingly, he flies from his see, in the month Gorpieus, which in the Latin language is called Sep- tember, in the five hundred and sixty-seventh year of the Era of Antioch.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.4 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "7897-7898",
+     "locus": "HE IV.4",
+     "quote": "Paul succeeds to the see, with orders to proclaim openly the synod at Chalcedon.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book VIII, ch. 1 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "9396-9397",
+     "locus": "Chron. VIII.1",
+     "quote": "since Severus withdrew from Antioch for fear of the threats of the king,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 90 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "223",
+     "locus": "Chron. Edessa 90 (Canun I, An. 834 = December 522)",
+     "quote": "he expelled the Oriental monks, and all the monks their allies who were like them, because they did not consent to the synod of Chalcedon.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-imperial-church-justinianic relationsSummary ('the rival imperial context against which ... the Syriac Orthodox church defined themselves') and longDescription ('without reconciling ... Syria'); legacy ('when the empire lost ... Syria'); syriac-orthodox-west-syriac-christianity longDescription and why (Severus driven out, no legal standing, Yarmouk)",
+   "wants": [],
+   "drafter_flags": [
+    "Evagrius's 567th year of the Era of Antioch is 518/19; with September it is 518, as the movement text says.",
+    "The Chronicle of Edessa quote is the one the era-1 link already uses; there it is the bishop Asclepius, Paul's successor, who expels the monks."
+   ],
+   "change_reason": "New: the Byzantine text names the Syriac Orthodox church as defining itself against it, and no link carried the break."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Justinian confirmed the anathema that the patriarchal sees and the monks had passed on Severus of Antioch. His law ordered Severus's books to be burned and barred Severus from the capital. Evagrius says it also threatened Severus's followers with the highest penalties.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "56453-56454",
+     "locus": "Nov. 42.1",
+     "quote": "Nec utique extra imperialem confirmationem relinquimus sententiam iuste contra Severum latam",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "56691-56692",
+     "locus": "Nov. 42.1",
+     "quote": "sic nec dicta et scripta Severi maneant penes aliquem Christianum, sed sint profana et aliena ab ecclesia catholica igneque comburantur a possidentibus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "56695",
+     "locus": "Nov. 42.1",
+     "quote": "Similiter autem et huic interdicimus omnino regiam civitatem ingredi aut districtum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.11 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "8214-8216",
+     "locus": "HE IV.11",
+     "quote": "anathematised Severus, Anthimus, and others, and subjected those who held their doctrines, to the highest penalties",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-west-syriac-christianity longDescription ('for long stretches under Justinian without legal standing at all') and why ('no legal right to exist under Justinian')",
+   "wants": [
+    "A text giving Novel 42's date in its own words; the year 536 rests on the editor's apparatus (the law is preserved in the acts of the Constantinople council of 536, file line 56024), so the note leaves the year out."
+   ],
+   "drafter_flags": [
+    "A second link on the same pair as the 'broke with' link above, separately evidenced: that one is the rupture of 518-522, this one the law directed at Severus by name.",
+    "The quotes are from the Latin Authenticum printed under the Greek; the Greek columns of the same chapter are OCR-damaged."
+   ],
+   "change_reason": "New: the Syriac Orthodox text says the church had no legal standing under Justinian; the law that did this names Severus."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "old_index": null,
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "A Syriac chronicle of the 560s says that after 518 many of Severus's bishops withdrew to Alexandria, following him. It also copies the letters of communion that Severus of Antioch and Theodosius of Alexandria exchanged in the 530s. Each greets the other as brother and fellow minister.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book VIII, ch. 5 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "10223-10224",
+     "locus": "Chron. VIII.5",
+     "quote": "others withdrew to Alexandria and various other countries, walking in the footsteps of the chief priest, Severus the doctor.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book IX, ch. 23, Severus to Theodosius",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "13986-13987",
+     "locus": "Chron. IX.23",
+     "quote": "the chief priest, my lord Theodosius, Severus greeting in our Lord.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book IX, ch. 24, Theodosius to Severus",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "14100-14101",
+     "locus": "Chron. IX.24",
+     "quote": "the patriarch, my lord Severus, Theodosius greeting in our Lord.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-west-syriac-christianity longDescription ('Severus ... wrote from exile in Egypt'), kept in prose change 1 as 'He withdrew to Egypt, as many of his bishops did'",
+   "wants": [
+    "John of Beth Aphthonia's or Zacharias's Life of Severus (vendored, Syriac with French, Kugener 1903) read for Severus's own years in Egypt and his death there; not checked in this pass."
+   ],
+   "drafter_flags": [
+    "Group A drafts the Egyptian Miaphysite movement and may draft this pair from its side; merge to one entry.",
+    "The salutations call each other 'all-pious and all-holy brother and fellow-minister' in the line before each quote; the quoted lines carry the names."
+   ],
+   "change_reason": "New: the Syriac Orthodox text names Severus's exile in Egypt; the contact between the two Miaphysite churches had no link."
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "old_index": null,
+   "action": "new",
+   "from": "syriac-orthodox-west-syriac-christianity",
+   "to": "syriac-orthodox-under-islam",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Michael the Syrian, a twelfth-century patriarch of this church, records an unbroken line of patriarchs across the Arab conquest. John of the Sedre succeeded Athanasius in about 631. After the Roman defeat at the Yarmouk, the same John ordained a bishop for Edessa and was questioned by the Arab emir 'Amr.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI (trans. Chabot, tome II, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32307-32308",
+     "locus": "Chron. XI.5 (An. 942 = 630/1)",
+     "quote": "En l'an 942 mourut et reposa le patriarche Mar Athanasius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI (trans. Chabot, tome II, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32310-32311",
+     "locus": "Chron. XI.5",
+     "quote": "A sa place, on ordonna Jean^, son dis- ciple, surnommé des Sedra'^",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI.6 (trans. Chabot, tome II, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32417-32418",
+     "locus": "Chron. XI.6 (the Yarmouk)",
+     "quote": "Les Romains furent cruellement mis en pièces et abandonnèrent cette région.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI.6 (trans. Chabot, tome II, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32754-32755",
+     "locus": "Chron. XI.6",
+     "quote": "Le patriarche des Orthodoxes, Jean, surnommé des sedra, ordonna évêque,pour les fidèles d'Edesse, Constantinus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI (trans. Chabot, tome II, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32998",
+     "locus": "Chron. XI (John and the emir 'Amr)",
+     "quote": "'Amrouécrivith notre patriarche Jean,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-west-syriac-christianity legacy ('The same institution is still here. It continued under Muslim rule'); syriac-orthodox-under-islam longDescription ('For the West Syriac church the Arab conquest lifted a weight')",
+   "wants": [
+    "An earlier witness to John of the Sedre's patriarchate across the conquest (e.g. the Syriac account of his colloquy with the emir, or the Chronicle of 1234), so the continuity does not rest on a twelfth-century chronicle alone."
+   ],
+   "drafter_flags": [
+    "Michael wrote in the 1190s from earlier sources; Documented here rests on a late but primary chronicle. Reviewer may prefer Widely Accepted.",
+    "The French is two-column OCR: the 'Amr line ('Amrouécrivith', i.e. 'Amrou écrivit à) runs into the next column, and two quotes keep Chabot's footnote marks (^). Quoted as printed.",
+    "Seleucid year 942 runs from October 630 to September 631, hence 'about 631'."
+   ],
+   "change_reason": "New: the legacy text names the continuation under Muslim rule and no link carried it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "nubian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "John of Ephesus, a Miaphysite bishop, says Justinian sent envoys with gold and baptismal robes to the Nobadae on the Nile. The empress Theodora's rival mission arrived first. When the emperor's envoy came, the Nobadian king accepted his gifts but refused his faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.6 (trans. Payne Smith, 1860)",
+     "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "12801-12803",
+     "locus": "HE III, IV.6",
+     "quote": "he sent thither, without a moment’s delay, am- bassadors with gold and baptismal robes, and gifts of honour for the king of that people,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (trans. Payne Smith, 1860)",
+     "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "12907-12910",
+     "locus": "HE III, IV.7",
+     "quote": "The king of the Romans has sent us to you, that in case of your becoming Christians, you may cleave to the church and those who govern it,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (trans. Payne Smith, 1860)",
+     "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "12921-12922",
+     "locus": "HE III, IV.7",
+     "quote": "But his faith we will not accept:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-imperial-church-justinianic longDescription ('sent missionaries as far as the Nile kingdoms'); nubian-christianity longDescription ('a Chalcedonian effort sent with Justinian's')",
+   "wants": [],
+   "drafter_flags": [
+    "One witness, from the winning Miaphysite side; the nubian text itself says so.",
+    "The group drafting Nubian Christianity may draft this pair too; merge to one entry. The Miaphysite mission (Julian, Theodora) is a different relationship and is not drafted here.",
+    "John of Biclaro says the Makurians received the faith in these years (Chronica minora II, file line 19834) but does not say from whom, so the note names only the Nobadae."
+   ],
+   "change_reason": "New: the Byzantine text names the Nile mission and no link carried it."
+  },
+  {
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "old_index": null,
+   "action": "new",
+   "from": "latin-africa-under-byzantium",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Facundus, bishop of Hermiane in Africa, wrote twelve books defending the Three Chapters and addressed them to Justinian. The chronicler Victor of Tunnuna says that in 550 the African bishops sent the emperor letters in their defence. They also cut Pope Vigilius off from their communion for condemning them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, Pro defensione trium capitulorum, title (PL 67)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "41856-41866",
+     "locus": "Pro def. trium cap., title",
+     "quote": "PRO DEFENSIONE TRIUM CAPITULORUM CONCILII CHALCEDONENSIS LIBRI XII AD JUSTINIANUM IMPERATOREM.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, Pro defensione trium capitulorum, preface (PL 67)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "41881-41882",
+     "locus": "Pro def. trium cap., praef.",
+     "quote": "hoc opus suadentibus fratribus ad imperato- rem Constantinopoli scripsi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor of Tunnuna, Chronicle, year 550 (ed. Mommsen, MGH AA 11)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "19047-19048",
+     "locus": "Victor Tunn., a. 550",
+     "quote": "Africani antistites Vigilium Romanuni episcopum damnatorem triuni capitulorum synodaliter a catholica communione reservato ei paeniteutiae loco sechidunt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor of Tunnuna, Chronicle, year 550 (ed. Mommsen, MGH AA 11)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "19049",
+     "locus": "Victor Tunn., a. 550",
+     "quote": "defensione memoratorum trium capitulorum litteras satis idoneas lustiniano principi",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-imperial-church-justinianic relationsSummary ('it hosted the Three Chapters dissent within its own ranks') and longDescription ('alienated much of the Latin West'); latin-africa-under-byzantium relationsSummary and longDescription",
+   "wants": [
+    "A clean edition of Victor of Tunnuna's Chronicle; the vendored MGH text is rough OCR ('Romanuni', 'triuni', 'sechidunt' for 'Romanum', 'trium', 'secludunt')."
+   ],
+   "drafter_flags": [
+    "The group drafting Latin Africa may draft this pair too; merge to one entry.",
+    "Victor's quotes keep the OCR errors exactly as printed in the file.",
+    "Not drafted: the empire acting against the Africans (Reparatus of Carthage exiled, Victor a. 552). The Byzantine text does not name it; the Latin African text does, for that group."
+   ],
+   "change_reason": "New: the Byzantine summary names the Three Chapters dissent; the African bishops' opposition had no link."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The patriarchate of Constantinople ran on through the reign of Heraclius. Sergius was its patriarch when Heraclius was crowned in 610. The council of 681 says Sergius was the first to write on the teaching of one will in Christ, the formula of Heraclius's later reign.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Constantinople (681), Session XIII, Sentence against the Monothelites (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "25694-25697",
+     "locus": "Const. III, sess. XIII",
+     "quote": "the doctrinal letters of Sergius, at one time patriarch of this royal god-protected city to Cyrus, who was then bishop of Phasis and to Honorius some time Pope of Old Rome,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Constantinople (681), Session XIII, Sentence against the Monothelites (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "25704-25705",
+     "locus": "Const. III, sess. XIII",
+     "quote": "Sergius some time bishop of this God-preserved royal city who was the first to write on this impious doctrine;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Frédéric Macler, trans., Histoire d'Héraclius par l'évêque Sebêos (Paris, 1904), translator's note dating Heraclius's coronation by the patriarch Sergius to 6 October 610 (vendored: cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt, note at file line 4565)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "byzantine-imperial-church-justinianic legacy ('The same institution continued unbroken into the Byzantine centuries that followed'); byzantine-imperial-church-heraclian-iconoclast longDescription ('the same institution ... kept running')",
+   "wants": [
+    "A vendored primary text placing Sergius in office both before and after 622 (e.g. the Chronicon Paschale on the coronation of 610, or Theophanes), which would let this be Documented."
+   ],
+   "drafter_flags": [
+    "Widely Accepted, not Documented: no vendored primary I found dates Sergius's patriarchate on both sides of 622. The 610 date is Macler's note, not Sebeos's text.",
+    "'The formula of Heraclius's later reign' rests on the Heraclian movement's own text ('His government's attempt ... two natures but only one will'), not on the council's words.",
+    "The secondary is a translator's note in a vendored edition; I found no other repo-cited modern work on the patriarchate's continuity."
+   ],
+   "change_reason": "New: the Byzantine legacy names the continuation and no link carried it."
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "old_index": null,
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "the-church-of-the-east-on-the-silk-road",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The acts of the Church of the East keep its synods in one series, before and after the Arab conquest of Persia. Gregory held one as patriarch in 605, and George another as catholicos in 676. No text we hold ties the China mission of 635 to the catholicos directly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of Gregory (605), heading (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "31396",
+     "locus": "Syn. Or., Synod of Gregory, A.D. 605",
+     "quote": "CANONS SYNODAUX ÉTABLIS PAR GRIGÔR, PATRIARCHE,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of George I (676), heading (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32005",
+     "locus": "Syn. Or., Synod of George I, A.D. 676",
+     "quote": "SYNODE DE NOTRE PÈRE SAINT ET BÉNI, LE BIENHEUREUX MAR GUIWARGUIS",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of George I (676), closing line (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32694",
+     "locus": "Syn. Or., Synod of George I",
+     "quote": "FIN DU SYNODE DE MAR GUIWARGUIS, CATHOLICOS.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia legacy ('The same institution continued without a break ... its missions reaching Central Asia and China') and longDescription ('the church carried straight on under new rulers'); the-church-of-the-east-on-the-silk-road relationsSummary ('A continuation of the Syriac Church of the East')",
+   "wants": [
+    "The Xi'an stele of 781 in a reliable translation of its Syriac lines, which name the catholicos; the vendored copy (Malech 1910, after Kircher) renders the name as 'John Joshua'.",
+    "Ishoyahb III's letters (ed. Duval, CSCO), for the catholicate across the conquest in his own words."
+   ],
+   "drafter_flags": [
+    "The years 605 and 676 are Chabot's headings ('[A. D. 605.]', file line 31393; 'A. D. 676.', line 32002), from the synods' own dating.",
+    "Chabot's note (lines 32034-32041) says George was ordained by the catholicos Ishoyahb III, who lived through the conquest; that is the editor, not the acts."
+   ],
+   "change_reason": "New: the legacy text names the continuation and no link carried it."
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--syriac-orthodox-west-syriac-christianity",
+   "old_index": null,
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 612 the Persian king had the bishops of the Church of the East debate the Miaphysites at his court. A statement drawn up for that meeting says Christ has two natures. It charges Severus and his disciples with leaving the foundation of the faith by teaching one.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Appendix III: documents of the bishops' assembly of 612 (trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "39364-39365",
+     "locus": "Syn. Or., App. III (612)",
+     "quote": "mais ce sont Sévère et ses disciples qui s’en sont écartés, eux qui professent que le Christ est une seule nature et une seule personne.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J.-B. Chabot, Synodicon Orientale (Paris, 1902), introduction to Appendix III, on the assembly of 612 called by Khosrow at Gabriel of Singar's urging for a public debate with the Monophysites (vendored edition, file lines 37347-37356)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia longDescription ('It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites')",
+   "wants": [],
+   "drafter_flags": [
+    "The setting (the king, the debate, the year) comes from Chabot's introduction to the appendix; the quoted text itself names Severus and his disciples. 'The Miaphysites' in the Church of the East text covers the Egyptian church too, but this statement names only the Severan, Syrian side, so no link to the Egyptian church is drafted."
+   ],
+   "change_reason": "New: the Church of the East text sets its teaching against the Miaphysites' and no link carried it."
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "old_index": null,
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "st-thomas-christians-of-india",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Cosmas, an Alexandrian traveler writing around 550, found a church on India's pepper coast and a bishop at Kalyan appointed from Persia. He does not say the pepper-coast church was under Persia. No text we hold ties it to the Kerala church of the 800s, so this link is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7208-7209",
+     "locus": "Top. Christ. III",
+     "quote": "In the country called Male,1 where the pepper grows, there is also a church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7210-7211",
+     "locus": "Top. Christ. III",
+     "quote": "and at another place called Calliana2 there is moreover a bishop, who is appointed from Persia.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia relationsSummary, longDescription and why ('the St Thomas Christians of India belonged to its communion'), all rewritten in prose changes 3-5 to what Cosmas says; legacy ('Its Indian branch'); st-thomas-christians-of-india relationsSummary ('Daughter/partner of the Church of the East')",
+   "wants": [
+    "A vendored text tying the Kerala Christians of 849-1054 to the Persian church before 651 (e.g. Ishoyahb III's letter on the metropolitan of Rev-Ardashir and India, or the Chronicle of Seert on bishops sent to India)."
+   ],
+   "drafter_flags": [
+    "McCrindle's notes identify Male with Malabar and Calliana with Kalyan near Bombay (file lines 7222 and 18802). The digits in the quotes are his footnote marks, printed inline.",
+    "Type 'influenced' (clergy and order passed on) rather than 'gave rise to': the Indian church traces itself to the apostle Thomas, and Cosmas does not show it emerging from the Persian church.",
+    "The era-4 group for the St Thomas Christians will likely link them to the later Church of the East; this link covers only the earlier period the era-3 text names."
+   ],
+   "change_reason": "New: the Church of the East text names the St Thomas Christians three times; the one vendored witness for this period is thin, so the link is graded thin and the prose is brought down to it."
+  },
+  {
+   "id": "desert-monasticism--chalcedonian-monasticism-judean-desert-and-gaza",
+   "old_index": null,
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Dorotheus of Gaza, teaching his monks in the sixth century, quotes the Egyptian desert elders by name. He cites Antony saying he no longer feared God, and he praises a saying of Abba Poemen. He also quotes the Book of the Elders, the collected sayings of the desert.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dorotheus of Gaza, Instructions IV (Latin version, PG 88)",
+     "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+     "lines": "125553",
+     "locus": "Doctr. IV",
+     "quote": "ait beatus Antonius : « Ego nusquam Deun timeo.»",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dorotheus of Gaza, Instructions XIII (Latin version, PG 88)",
+     "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+     "lines": "135240",
+     "locus": "Doctr. XIII",
+     "quote": "Quam praeclare locutus est abbas Pastor,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dorotheus of Gaza, Instructions I (Latin version, PG 88)",
+     "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+     "lines": "123691-123692",
+     "locus": "Doctr. I",
+     "quote": "Fides enim, ut dicitur rursus in libro senum,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "chalcedonian-monasticism-judean-desert-and-gaza relationsSummary ('Direct heir of Desert Monasticism'), rewritten in prose change 7 to 'drew on ... quoting the Egyptian elders by name'",
+   "wants": [
+    "A vendored English or clean Greek text of Dorotheus's Instructions; PG 88 is two-column Greek-Latin OCR."
+   ],
+   "drafter_flags": [
+    "'Abbas Pastor' is the Latin name for Abba Poemen. The editor's note beside the Antony line (file line 125589) traces it to the Apophthegmata Patrum.",
+    "'Deun' is OCR for 'Deum', kept as printed. The Latin lines share their OCR lines with Greek from the facing column; the quoted spans are Latin only.",
+    "The Instruction numbers come from the running heads nearest each line (DOCTRINA I at 123292; IV at 125376; XIII at 135231)."
+   ],
+   "change_reason": "New: the summary names Desert Monasticism as its source and no link carried it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Evagrius says the patriarch of Jerusalem sent leading Judean monks to Constantinople before the council of 553. Conon came from the monastery of Saba and Rufus from that of Theodosius. At court they raised the questions about Origen's teaching.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.38 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "9522-9524",
+     "locus": "HE IV.38",
+     "quote": "despatches to Constantinople Rufus, superior of the monastery of Theodosius, and Conon, of that of Saba, persons of the first distinction among the solitaries,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.38 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "9528-9529",
+     "locus": "HE IV.38",
+     "quote": "These, in the first instance, mooted the ques- tions relating to Origen, Evagrius, and Didymus.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "chalcedonian-monasticism-judean-desert-and-gaza longDescription ('they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s') and why ('pulled into the empire's doctrinal fights')",
+   "wants": [
+    "Cyril of Scythopolis, Life of Sabas, for Sabas's own embassies to Anastasius and Justinian and the Origenist split at the New Laura (only the Life of Euthymius is vendored)."
+   ],
+   "drafter_flags": [
+    "The sender is Eustochius of Jerusalem (Evagrius, same chapter, file lines 9503-9516)."
+   ],
+   "change_reason": "New: the monastic text names the empire's pull on the monks and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "relationsSummary",
+   "old": "Heir of the Syriac tradition's Roman side (Ephrem's Edessa); Ghassanid royal patronage carried its hierarchy (Jacob Baradaeus consecrated under it)",
+   "new": "It grew up on the Roman side of the Syriac tradition, in and around Ephrem's Edessa, though few texts trace that line of descent. Its hierarchy survived because the Ghassanid Arab king Harith asked for new bishops, Jacob Baradaeus among them.",
+   "reason": "'Heir' stated flatly what the link from Edessa grades Inferential-Thin. The Ghassanid half is kept and made concrete: John of Ephesus, Lives 50 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt 26702-26704) has Harith bar Gabala ask Theodora for two or three bishops for Syria. Raw parentheses removed."
+  },
+  {
+   "n": 1,
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "longDescription",
+   "old": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula were in a harder position than their Egyptian counterparts: inside the Roman Empire, without a patriarchal throne of their own, and for long stretches under Justinian without legal standing at all. Their leader Severus of Antioch was driven from his see in 518 and wrote from exile in Egypt for twenty years. Their communities kept meeting, and their clergy kept being ordained, largely because of Jacob Baradaeus. A bishop consecrated under the protection of the Ghassanid Arab kings and of the empress Theodora, who spent decades traveling in disguise across Syria and Mesopotamia ordaining priests and bishops for a church the empire would not recognize. John of Ephesus, himself a Miaphysite bishop and one of Justinian's own missionaries, wrote down fifty-eight portraits of these people while it was happening. When the Byzantine defeat at Yarmouk in 636 ended the empire's power to enforce against them, what emerged was a separate hierarchy that had never stopped functioning.",
+   "new": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula lived, like the Egyptian Miaphysites, inside the Roman Empire. But they lost the throne of Antioch, and for long stretches under Justinian they had no legal standing at all. Their leader Severus of Antioch was driven from his see in 518. He withdrew to Egypt, as many of his bishops did, and went on writing from exile. Their communities kept meeting, and their clergy kept being ordained, largely because of Jacob Baradaeus. He was made a bishop at the request of the Ghassanid Arab king Harith, with the backing of the empress Theodora. For decades he traveled across Syria and Mesopotamia, ordaining priests and bishops for a church the empire would not recognize. He would finish his work in a district in a day and a night, then move thirty or forty miles on. The bishops hunting him never caught him. John of Ephesus, himself a Miaphysite bishop and one of Justinian's own missionaries, wrote down fifty-eight portraits of these people while it was happening. In 636 the Byzantine defeat at Yarmouk ended the empire's power to enforce against them. What emerged was a separate hierarchy that had never stopped functioning.",
+   "reason": "Three fixes. (1) 'Harder than their Egyptian counterparts: inside the Roman Empire' set up a contrast that fails, since Egypt was also inside the empire and Alexandria too passed to a Chalcedonian (Evagrius IV.11, line 8202, Zoilus). Now stated as what is shown: Antioch lost in 518 (Evagrius IV.4, 7894-7898). (2) 'Twenty years in Egypt': the vendored texts show the withdrawal to Alexandria (Ps.-Zachariah VIII.5, 10222-10224) and a stay in Constantinople in 535-536 (IX.19), not twenty years there; narrowed. (3) 'In disguise' is not in John of Ephesus; he says Jacob outran his pursuers (Lives 50, 26330-26337), and the nickname Burd'ana means 'the man of the patchwork garment' (editor, 26246). The sentence fragment 'A bishop consecrated ...' is made whole."
+  },
+  {
+   "n": 2,
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "why",
+   "old": "This communion had no legal right to exist under Justinian, so its bishop Jacob Baradaeus spent decades traveling in disguise across Syria and Mesopotamia, secretly ordaining priests and bishops under the protection of Ghassanid Arab kings and the empress Theodora. When Byzantine power collapsed at Yarmouk in 636, what emerged was a hierarchy that had never stopped functioning despite having no legal standing at all.",
+   "new": "This communion had no legal right to exist under Justinian. Its bishop Jacob Baradaeus was consecrated at the request of the Ghassanid Arab king Harith, with the empress Theodora's backing. He spent decades crossing Syria and Mesopotamia, ordaining priests and bishops one step ahead of the bishops hunting him. When Byzantine power collapsed at Yarmouk in 636, a hierarchy emerged that had never stopped functioning, despite having no legal standing at all.",
+   "reason": "'In disguise' and 'secretly' are not in John of Ephesus (Lives 50, 26330-26337: he outran his pursuers). 'Under the protection of' narrowed to what Lives 50 shows: Harith asked, Theodora ordered the consecrations (26702-26704; 31198-31206). Long sentences split."
+  },
+  {
+   "n": 3,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "relationsSummary",
+   "old": "This church is a direct heir of the Syriac Christian tradition, and the St Thomas Christians of India belonged to its communion.",
+   "new": "This church is a direct heir of the Syriac Christian tradition. By the 550s a bishop appointed from Persia served at Kalyan in western India. A traveler also found a church on the pepper coast further south.",
+   "reason": "'The St Thomas Christians of India belonged to its communion' is more than the one vendored witness for this period shows. Cosmas, Christian Topography III (cosmas-indicopleustes_christian-topography_mccrindle1897.txt 7209-7211), names a church in Male and a Persian-appointed bishop at Calliana; McCrindle identifies them as Malabar and Kalyan (7222, 18802). Matches the Inferential-Thin link."
+  },
+  {
+   "n": 4,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "old": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier — a church living under a Zoroastrian shah, deliberately independent of the Roman world and its councils. It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites, following the tradition of Theodore of Mopsuestia in holding firmly to the distinctness of his divinity and his humanity, and its opponents fixed the name \"Nestorian\" on it. Its intellectual center was the School of Nisibis, which had written statutes governing the students' day, their lodging and their discipline. Formation documents of a kind almost nothing else this early has left. Its communion stretched far beyond Mesopotamia: the St Thomas Christians of India belonged to it. When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept expanding eastward.",
+   "new": "In 424 the bishops of the Persian Empire declared that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier. This was a church living under a Zoroastrian shah. It had accepted the Nicene creed in 410, but it would answer to no Roman bishop. It gave a different answer to the question of Christ than either Chalcedon or the Miaphysites. Following the tradition of Theodore of Mopsuestia, it held firmly to the distinctness of his divinity and his humanity. Its opponents fixed the name \"Nestorian\" on it. Its intellectual center was the School of Nisibis, which had written statutes governing the students' day, their lodging and their discipline. These are formation documents of a kind almost nothing else this early has left. Its communion stretched far beyond Mesopotamia. In the 550s a traveler named Cosmas found a bishop appointed from Persia at Kalyan, in western India. He also found a church on the pepper coast further south. When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept expanding eastward.",
+   "reason": "Two fixes. (1) 'Deliberately independent of the Roman world and its councils' overstates: the synod of 410 received the Nicene creed (Synodicon Orientale, Chabot, 16815-16819), and the 424 definition forbids complaint against the catholicos before the Western patriarchs (19304-19306). Now says that. (2) The St Thomas sentence narrowed to Cosmas (as in prose change 3). The fragment 'Formation documents of a kind ...' is made a sentence, and the long Theodore sentence is split; no fact changed."
+  },
+  {
+   "n": 5,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "why",
+   "old": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier, building a church that lived under a Zoroastrian shah rather than a Christian emperor. Its school at Nisibis governed its students by written statutes, and its communion reached as far as the St Thomas Christians of India.",
+   "new": "In 424 the bishops of Persia declared their catholicos answerable to no authority beyond their own frontier. They built a church that lived under a Zoroastrian shah rather than a Christian emperor. Its school at Nisibis governed its students by written statutes, and by the 550s a bishop appointed from Persia served at Kalyan, in western India.",
+   "reason": "St Thomas clause narrowed to Cosmas, as in prose changes 3 and 4. First sentence split."
+  },
+  {
+   "n": 6,
+   "movement": "byzantine-imperial-church-justinianic",
+   "field": "legacy",
+   "old": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today. The pattern set here — emperor and patriarch as two authorities within one Christian commonwealth — became the model Byzantium exported to the Balkans and to Russia. Hagia Sophia stood as the largest church in the world for nearly a thousand years and changed what a church building could be. Justinian's legislation fed into Orthodox canon law, and the hymns of Romanos are still sung. Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+   "new": "The same institution continued unbroken into the Byzantine centuries that followed, and is the direct ancestor of the Eastern Orthodox churches today. Justinian's laws set out its pattern: priesthood and empire as the two greatest gifts of God, within one Christian commonwealth. Bishops from Constantinople later brought this church order to the Rus'. In Kyiv, Prince Yaroslav had the Greek church law translated, and he named his cathedral after Hagia Sophia. Hagia Sophia stood as the largest church in the world for nearly a thousand years and changed what a church building could be. Justinian's legislation fed into Orthodox canon law, and the hymns of Romanos are still sung. Its harder legacy is the divisions its pressure helped harden: the separations of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+   "reason": "'The model Byzantium exported to the Balkans and to Russia': nothing vendored shows the Balkans half, so it goes. The Russian half is narrowed to what Mouravieff (1842) shows: bishops first came from Constantinople and Yaroslav had the Nomocanon translated (mouravieff_history-of-the-church-of-russia_blackmore1842.txt 1426-1431), and Kyiv's St Sophia was named after the church where Vladimir's envoys believed (1463-1467). The pattern itself is Justinian's Novel 6 preface, 'maxima ... dei dona ... sacerdotium et imperium' (justinian_novellae 10404). The export was the later Byzantine church's work, so no link from this era is drafted. Other sentences unchanged."
+  },
+  {
+   "n": 7,
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "relationsSummary",
+   "old": "Direct heir of Desert Monasticism; feeds Sinai (Climacus) and all later Orthodox practice",
+   "new": "It drew on Desert Monasticism, quoting the Egyptian elders by name. Its monks went to and from Sinai, where John Climacus later wrote the Ladder, and its services and teaching passed into later Orthodox practice.",
+   "reason": "'Direct heir' becomes what Dorotheus shows (the new influenced link). 'Feeds Sinai': Moschus visits Sinai fathers (john-moschus_pratum 14276) and Climacus was abbot there (Rader's Isagoge, dorotheus-gaza PG 88, 41597); no text shows the Judean houses forming Climacus, so the claim is narrowed to movement between them. 'All later Orthodox practice' narrowed to the Typikon evidence (prose change 10)."
+  },
+  {
+   "n": 8,
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "old": "In the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza, monastic settlement multiplied in the century after Chalcedon into something like a second population — laurae where hermits lived apart through the week and gathered on Sundays, and communal houses holding hundreds. What makes this Christian tradition unusually visible is that its own paperwork survives: Cyril of Scythopolis's carefully dated lives of Euthymius, Sabas and their successors, and roughly 850 letters from two recluses near Gaza, Barsanuphius and John, answering monks, married couples, sick people and local officials one question at a time. These were firm supporters of Chalcedon, and they were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses. The Persian army's sack of Jerusalem in 614 tore through the desert monasteries, and the survivors wrote down what had been lost.",
+   "new": "In the century after Chalcedon, monks settled in the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza. They grew into something like a second population. There were laurae, where hermits lived apart through the week and gathered on Sundays, and communal houses holding hundreds. What makes this tradition unusually visible is that its own paperwork survives. Cyril of Scythopolis wrote carefully dated lives of Euthymius, Sabas and their successors. Two recluses near Gaza, Barsanuphius and John, left roughly 850 letters answering monks, married couples, sick people and local officials one question at a time. Most of the Judean houses came to support Chalcedon. When Euthymius accepted the council, his biographer says, nearly all the desert monks would have followed. A rival monk named Theodosius turned many of them against it. Near Gaza, Peter the Iberian became bishop for the council's opponents. The monks were pulled hard into the empire's doctrinal fights, including the purge of Origenist teaching in the 550s that split their own houses. The Persian army's sack of Jerusalem in 614 tore through the desert monasteries, and the survivors wrote down what had been lost.",
+   "reason": "'Firm supporters of Chalcedon' is true of Euthymius's and Sabas's line but not of the whole movement this entry covers, which includes Gaza. Cyril of Scythopolis, Life of Euthymius (Cotelier, cyril-scythopolis_vita-euthymii 36066-36072), says almost all the monks would have followed Euthymius had Theodosius not drawn them off; Ps.-Zachariah III.4 (2670-2675) has Peter the Iberian made bishop for Gaza by that Theodosius. The Origenist split is supported (Evagrius IV.38, 9503-9507, the New Laura). The two long opening sentences are split; no fact changed."
+  },
+  {
+   "n": 9,
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "why",
+   "old": "In the ravines of the Judean desert and the villages near Gaza, hermits in scattered cells and monks in communal houses left behind something rare: roughly 850 letters in which two recluses, Barsanuphius and John, answered ordinary monks, married couples and sick people one question at a time. These firm supporters of Chalcedon were pulled into the empire's doctrinal fights all the same, and their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+   "new": "In the ravines of the Judean desert and the villages near Gaza, hermits in scattered cells and monks in communal houses left behind something rare. Two recluses, Barsanuphius and John, wrote roughly 850 letters answering ordinary monks, married couples and sick people one question at a time. Most of these houses backed Chalcedon, yet the empire still pulled them into its doctrinal fights. Their monasteries were torn apart when the Persian army sacked Jerusalem in 614.",
+   "reason": "'These firm supporters of Chalcedon' narrowed as in prose change 8. The long first sentence is split; no fact changed."
+  },
+  {
+   "n": 10,
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "old": "A great deal of what Eastern Orthodox monasticism still does comes from here. The liturgical order associated with Sabas's monastery underlies Orthodox worship to this day. The Ladder of Divine Ascent, written at Sinai just after this period, is still read aloud in Orthodox monasteries every Lent; and Dorotheus of Gaza remains standard spiritual reading. Two of the houses standing in this window — Mar Saba in the Judean desert and Saint Catherine's at Sinai — are still inhabited, among the oldest continuously occupied Christian communities anywhere.",
+   "new": "Much of what Eastern Orthodox monasticism still does draws on these houses. A book of services named after Sabas, the Typikon of Saint Sabas, was printed at Venice from 1515. Parts of it entered the Orthodox service books. The Ladder of Divine Ascent was written at Sinai just after this period. It is still read aloud in Orthodox monasteries every Lent, and Dorotheus of Gaza remains standard spiritual reading. Two of the houses standing in this window are still inhabited: Mar Saba in the Judean desert and Saint Catherine's at Sinai. They are among the oldest continuously occupied Christian communities anywhere.",
+   "reason": "'The liturgical order associated with Sabas's monastery underlies Orthodox worship to this day' goes beyond the one repo source: Charon (1911) says the Typikon 'dit de saint Sabas' was printed at Venice from 1515 and fragments of it entered the Triodion, while the Triodion as a whole follows the Studites (charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt 22562-22568). Narrowed to that. 'A great deal ... comes from here' softened to 'draws on'. The three present-day claims (Lenten reading, Dorotheus, the two monasteries) are kept and flagged to Mark: no vendored text can speak to present practice."
+  }
+ ],
+ "wants": [
+  "A clean edition of Victor of Tunnuna's Chronicle; the vendored MGH text is rough OCR ('Romanuni', 'triuni', 'sechidunt' for 'Romanum', 'trium', 'secludunt').",
+  "A repo-cited modern work on the Typikon of Saint Sabas in later Orthodox worship, if the stronger legacy claim is to come back.",
+  "A text giving Novel 42's date in its own words; the year 536 rests on the editor's apparatus (the law is preserved in the acts of the Constantinople council of 536, file line 56024), so the note leaves the year out.",
+  "A vendored English or clean Greek text of Dorotheus's Instructions; PG 88 is two-column Greek-Latin OCR.",
+  "A vendored primary text placing Sergius in office both before and after 622 (e.g. the Chronicon Paschale on the coronation of 610, or Theophanes), which would let this be Documented.",
+  "A vendored text tying the Kerala Christians of 849-1054 to the Persian church before 651 (e.g. Ishoyahb III's letter on the metropolitan of Rev-Ardashir and India, or the Chronicle of Seert on bishops sent to India).",
+  "An earlier witness to John of the Sedre's patriarchate across the conquest (e.g. the Syriac account of his colloquy with the emir, or the Chronicle of 1234), so the continuity does not rest on a twelfth-century chronicle alone.",
+  "Antiochus Strategos, The Capture of Jerusalem (614), in a vendored translation (e.g. Conybeare 1910), for 'the survivors wrote down what had been lost'.",
+  "Cyril of Scythopolis, Life of Sabas, for Sabas's own embassies to Anastasius and Justinian and the Origenist split at the New Laura (only the Life of Euthymius is vendored).",
+  "Cyril of Scythopolis, Life of Sabas, in a vendored edition (Sabas's embassies to Constantinople; the Origenist split at the New Laura).",
+  "Ishoyahb III's letters (ed. Duval, CSCO), for the catholicate across the conquest in his own words.",
+  "John of Beth Aphthonia's or Zacharias's Life of Severus (vendored, Syriac with French, Kugener 1903) read for Severus's own years in Egypt and his death there; not checked in this pass.",
+  "The Xi'an stele of 781 in a reliable translation of its Syriac lines, which name the catholicos; the vendored copy (Malech 1910, after Kircher) renders the name as 'John Joshua'.",
+  "Volker L. Menze, Justinian and the Making of the Syrian Orthodox Church (2008), read and cited by page (still wanted from era 1)."
+ ],
+ "escalations": [
+  "Present-day claims in movement text (the Ladder read every Lent; Dorotheus as standard reading; Mar Saba and Saint Catherine's still inhabited) cannot be carried by any vendored historical text. I kept them unchanged and did not qualify them. A ruling is needed on whether present-day facts need a repo-cited source under the 'qualify' rule.",
+  "Possible duplicate drafts with other groups: cyrilline--syriac-orthodox (group A), byzantine--nubian (Nubia's group), latin-africa--byzantine (Latin Africa's group), roman-church-gregorian--byzantine (kept here; Rome's group). The merge should keep one of each."
+ ]
+}
