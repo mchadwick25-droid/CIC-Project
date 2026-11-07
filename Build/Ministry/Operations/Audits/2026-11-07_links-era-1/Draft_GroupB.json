@@ -45,7 +45,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "Nepos and Dionysius are people, not census movements. Supported by Eusebius HE 7.24 (npnf201 lines 41287-41296 Nepos's 'Refutation of Allegorists'; 41347-41352 Arsinoe; 41356-41359 three days; 41367-41372 Coracion recants). One nuance: Dionysius says Nepos 'has gone to rest before us' (41323), so the three days were with his followers, which the prose's 'Nepos's own community' allows."
+   "reason": "Nepos and Dionysius are people, not census movements. Supported by Eusebius HE 7.24 (npnf201 lines 41287-41295 Nepos's 'Refutation of Allegorists'; 41344-41352 Arsinoe; 41357-41359 three days; 41374-41380 Coracion recants). One nuance: Dionysius says Nepos 'has gone to rest before us' (41316-41317), so the three days were with his followers, which the prose's 'Nepos's own community' allows."
   },
   {
    "movement": "alexandria-catechetical",
@@ -365,7 +365,7 @@
    "disposition": "qualify",
    "link_id": null,
    "prose_change": 3,
-   "reason": "Judaism is not a movement. For the Testaments the Jewish origin is disputed: the ANF08 editor reads the author as a Christian (lines 619-655), and the project's own river-prototype data calls the question unresolved. The other two are kept as Jewish per the project's transmission ruling (Build/worlds/_cross-world/NEEDS-RULING.md line 40)."
+   "reason": "Judaism is not a movement. For the Testaments the Jewish origin is disputed: the ANF08 editor reads the author as a Christian (lines 632-655), and the project's own river-prototype data calls the question unresolved. The other two are kept as Jewish per the project's transmission ruling (Build/worlds/_cross-world/NEEDS-RULING.md line 40)."
   },
   {
    "movement": "apocryphal-and-pseudepigraphal-literature",
@@ -415,7 +415,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 6,
-   "reason": "No movement party. Supported for Anna, Joachim and the Temple (Protevangelium, anf08 36612-36725; editor notes the feasts of Joachim and Anna, 36622, 36649). Factual error corrected: the ox and the ass are in Pseudo-Matthew ch. 14 (37907-37909), not the Protevangelium."
+   "reason": "No movement party. Supported for Anna, Joachim and the Temple (Protevangelium, anf08 36612-36745; editor notes the feasts of Joachim and Anna, 36622, 36649). Factual error corrected: the ox and the ass are in Pseudo-Matthew ch. 14 (37907-37909), not the Protevangelium."
   },
   {
    "movement": "apocryphal-and-pseudepigraphal-literature",
@@ -789,7 +789,7 @@
    "field": "longDescription",
    "old": "And a third body is not Christian in origin at all: the Testaments of the Twelve Patriarchs, the Life of Adam and Eve, the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go.",
    "new": "And a third body is not Christian in origin at all: the Life of Adam and Eve and the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go. The Testaments of the Twelve Patriarchs may belong here too, but scholars still argue whether it began as a Jewish book or a Christian one.",
-   "reason": "The Testaments' origin is disputed: the vendored ANF08 editor reads its author as a Christian (lines 619-655), and the project's own map data calls the question unresolved.",
+   "reason": "The Testaments' origin is disputed: the vendored ANF08 editor reads its author as a Christian (lines 632-655), and the project's own map data calls the question unresolved.",
    "fre_before": 40.9,
    "fre_after": 44.0
   },
@@ -929,7 +929,7 @@
   "The Greek text of Gregory of Nazianzus, Letter 115, in clean form, to quote 'and the same from holy Basil' (in NPNF 8 it is split one word per line)"
  ],
  "escalations": [
-  "Doc-hygiene outside Group B, flagged not touched: five other movements print raw movement IDs in their relationsSummary (aquileian-christianity, greek-apologists-second-century, roman-church-third-century, antiochene-church-third-century, danubian-latin-christianity and others: 10 in all, found by matching IDs against the field). I fixed only palestinian-church-pre-constantinian.",
+  "Doc-hygiene outside Group B, flagged not touched: nine other movements print raw movement IDs to readers in their relationsSummary: greek-apologists-second-century, antiochene-church-third-century, roman-church-third-century, danubian-latin-christianity, palestinian-ascetic-monasticism-early, aquileian-christianity, gallic-nicene-episcopate, bardaisanite-current, roman-church-gregorian. I fixed only palestinian-church-pre-constantinian.",
   "The project holds conflicting statuses for the Philocalia's compilers: records/alx/source/alx.source.origen-philocalia.md has attribution_status 'attributed', while the Cappadocian records and Source Registry row 81 hold it Contested. I followed Contested in the prose. Mark may want one ruling.",
   "No 'wrong' dispositions. Two qualifies correct factual errors rather than unsupported claims: the ox and the ass (Pseudo-Matthew, not the Protevangelium) and the Banquet as the 'foundation' of virginity literature (Tertullian and Cyprian wrote earlier). Each fix is one sentence."
  ]
