@@ -1,0 +1,1376 @@
+{
+ "group": "A",
+ "movements": [
+  "desert-monasticism",
+  "palestinian-ascetic-monasticism-early",
+  "jerusalem-liturgical-pilgrimage-christianity",
+  "cyrilline-miaphysite-egyptian-tradition",
+  "aksumite-christianity-conversion-era"
+ ],
+ "dispositions": [
+  {
+   "movement": "desert-monasticism",
+   "field": "relationsSummary",
+   "sentence": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--desert-monasticism",
+   "prose_change": null,
+   "reason": "Existing Contested link states this dispute; kept."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "relationsSummary",
+   "sentence": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--desert-monasticism",
+   "prose_change": null,
+   "reason": "The 'contact left open' is the same dispute the existing Contested link carries; no separate contact link, since no vendored text shows a meeting."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "relationsSummary",
+   "sentence": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Broad claim with no single census party. It is carried in detail by the existing influenced links to the Palestinian, Gallic, Hieronymian, Benedictine, Irish, iconophile and Coptic entries; left as written."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "longDescription",
+   "sentence": "What his biographer Athanasius describes there is not escape but combat: the war once waged against a persecutor from outside, now fought against demons and the thoughts they whispered, from within.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Athanasius is a person. The Life of Antony is vendored (npnf204) and is a source on the existing Alexandria link; the claim stands."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "longDescription",
+   "sentence": "Generations later, those sentences were gathered into what other Christians would call the Sayings of the Desert Fathers and Mothers, arranged by the name of the elder who spoke them, not necessarily as anyone first heard them said.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census party. Left as written."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "longDescription",
+   "sentence": "He died at Kellia in January 399, months before a controversy his own learned circle could not survive — a bishop's letter on how literally to picture God split simple monks from learned ones, and by the year's end Evagrius's circle had been driven out of Egypt.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Theophilus is a person with no entry. Socrates VI.7 and Cassian Conf. X.2 support the split; the timing ('months before', 'by the year's end') did not fit them."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Almost every later form of Christian monastic life descends from here.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same broad claim as the summary; carried by the specific influenced links."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--early-benedictine-italian-monasticism",
+   "prose_change": null,
+   "reason": "Existing Widely Accepted link (RB 42, 73); kept."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Existing Documented link (Institutes preface, Gennadius 62); kept."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No census entry for Sinai, and no vendored text shows Sinai's monks tracing their practice to the desert. Sinai is dropped from the sentence; the Chalcedonian Judean-desert entry already carries Sinai through Climacus."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No vendored text shows the Athonite houses of 963-1300 tracing their practice to the desert, and the Athonite entry does not name it. Replaced with the documented Philokalia (compiled on Athos, 1782), which opens with Antony and carries Evagrius and Cassian. No link drafted: the Philokalia falls outside the Athonite entry's window."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "The sayings themselves are still read as spiritual reading across Orthodox, Catholic, and Protestant traditions alike.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day readership; no census party. Left as written."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Carried by the existing Gallic link; Cassian Conf. V.2 (Serapion of Scetis's eight faults) is a further witness, noted in that link's flags."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "desert-monasticism--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "New Inferential-Thin link: Cassian's eight faults and Gregory's seven under pride are both vendored; Gregory names no source."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The seven principal sins are in Gregory's Moralia XXXI (quoted on the new Gregory link); the claim stands."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "One popular link doesn't actually hold: the desert's own word for the stillness they sought, hesychia, is often assumed to be the same practice as the later Byzantine Hesychast tradition and its Jesus Prayer technique — that systematized method belongs to a separate, later world and isn't part of this one's own record.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence denies that the desert's hesychia is the later Hesychast method; it names no relationship to link, and the denial fits the vendored record. Any influence link to the Hesychast entry belongs to that entry's era-6 pass (its legacy names the Philokalia). Prose change 5 now shows the later Eastern tradition reading the desert, so the two sentences no longer pull against each other."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "sentence": "The Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster of monasteries at Wadi al-Natrun, are inhabited by monks today, on or near the same ground this tradition's own record describes.",
+   "other_id": "the-coptic-monastic-and-sunday-school-revival",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Coptic revival entry's own relationsSummary and legacy name the Desert ('back to the Desert itself'); that link belongs to its era-10 pass. Claim checked as far as the texts go: Abu Salih (12th c., vendored) and the History of the Patriarchs show the monasteries of St Antony and Macarius long after this period; present-day habitation is not in any vendored text."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "relationsSummary",
+   "sentence": "Egyptian in origin - Hilarion was Antony's disciple - and the direct antecedent of chalcedonian-monasticism-judean-desert-and-gaza, which begins where this leaves off at c. 450.",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+   "prose_change": null,
+   "reason": "Existing Documented link (Vita Hilarionis 3, 14); kept."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "relationsSummary",
+   "sentence": "Egyptian in origin - Hilarion was Antony's disciple - and the direct antecedent of chalcedonian-monasticism-judean-desert-and-gaza, which begins where this leaves off at c. 450.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": 0,
+   "reason": "Existing Inferential-Thin link kept; 'direct antecedent' overstated it and the raw id is replaced (prose change 0)."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "sentence": "Hilarion came back to Gaza from Egypt in about 306, having spent time with Antony, and settled in the coastal scrub near the town he had been born in.",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+   "prose_change": null,
+   "reason": "Same existing link."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "sentence": "Pilgrims passed through all of it constantly on the way to the holy places, and some of them stayed.",
+   "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+   "disposition": "link",
+   "link_id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+   "prose_change": null,
+   "reason": "New Documented contact link: Hilarion's one-day visit to the holy places (Jerome, Ep. 58.3) and Egeria's monks at the tomb church."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "sentence": "Jerome, writing from Bethlehem, gave the movement its literature: a Life of Hilarion, and a Life of Malchus about a monk taken by Saracen raiders.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "prose_change": 1,
+   "reason": "New Documented link (Life of Hilarion prologue). The Malchus clause is corrected: Malchus was a Syrian monk (prose change 1)."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "sentence": "Jerome, writing from Bethlehem, gave the movement its literature: a Life of Hilarion, and a Life of Malchus about a monk taken by Saracen raiders.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Saracens have no entry. Life of Malchus 4 names them (npnf206 line 31201); the claim stands."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "why",
+   "sentence": "Hilarion, a disciple of Antony's, returned home to Gaza around 306 and settled in the coastal scrub, living as a solitary within reach of the villages, roads, and pilgrims of the coast rather than deep desert.",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+   "prose_change": null,
+   "reason": "Same existing link."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "why",
+   "sentence": "In the Judean hills, Chariton founded a different pattern at Pharan, the laura, where solitaries lived apart through the week and gathered only on Sundays — the arrangement that later shaped the great monasteries of the Judean desert.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": null,
+   "reason": "Carried by the existing Inferential-Thin link. 'Later shaped' is a reading of place and form; the Chalcedonian entry describes the same laura form. Cyril of Scythopolis's Life of Euthymius would document it but its vendored OCR cannot be quoted (want listed)."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "why",
+   "sentence": "Jerome told the story of the loneliest of these lives in his Life of Malchus, a monk carried off by raiders.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "prose_change": 2,
+   "reason": "Same new link; the Malchus sentence is corrected (prose change 2)."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "sentence": "The laura - solitaries through the week, community on Sunday - became the Palestinian form and passed into the great Judean desert monasteries of Euthymius and Sabas in the following century, and from there into the Byzantine monastic tradition.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "prose_change": null,
+   "reason": "Same existing link; see the want for a clean Life of Euthymius."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "sentence": "The laura - solitaries through the week, community on Sunday - became the Palestinian form and passed into the great Judean desert monasteries of Euthymius and Sabas in the following century, and from there into the Byzantine monastic tradition.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single census party. Thinly supported: Georgirenes (1678, vendored) records Athonite houses named 'Laura' (line 3966). Left as written; reviewer may prefer to cut the clause."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "sentence": "Jerome's Life of Hilarion also did something more particular: it established the saint's life as a Latin literary form, on the model of the Life of Antony, and gave the West a second template for it.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "prose_change": 3,
+   "reason": "Same new link; the 'established the form' claim is corrected (prose change 3)."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "sentence": "Jerome's Life of Hilarion also did something more particular: it established the saint's life as a Latin literary form, on the model of the Life of Antony, and gave the West a second template for it.",
+   "other_id": "desert-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No vendored text says Jerome modeled Hilarion's Life on the Life of Antony; the clause is removed in prose change 3. The desert-to-Palestine influence itself stays on the existing link."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "relationsSummary",
+   "sentence": "Child of Alexandria (Frumentius consecrated by Athanasius)",
+   "other_id": "alexandria-catechetical",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The see of Alexandria has no census entry; alexandria-catechetical is the catechetical school (Clement, Origen), not Athanasius's or Cyril's church, so a link to it would misstate the relationship. Escalated. The claim is documented: Socrates I.19 and Athanasius, Defence before Constantius 31, both vendored."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "relationsSummary",
+   "sentence": "Child of Alexandria (Frumentius consecrated by Athanasius)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person. Documented by Socrates I.19 (npnf202 lines 4356-4368) and Constantius's letter (npnf204 lines 36150-36151)."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "A young man from Tyre named Frumentius, shipwrecked and taken into the royal household, rose to be tutor and adviser, then traveled to Alexandria to ask Athanasius for a bishop.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The see of Alexandria has no census entry; alexandria-catechetical is the catechetical school (Clement, Origen), not Athanasius's or Cyril's church, so a link to it would misstate the relationship. Escalated."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "A young man from Tyre named Frumentius, shipwrecked and taken into the royal household, rose to be tutor and adviser, then traveled to Alexandria to ask Athanasius for a bishop.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; documented as above."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "King Ezana's conversion followed, and it is legible in the most concrete way imaginable.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ezana is named in Constantius's letter ('Æzanes', npnf204 line 36112). His conversion and the cross on his coins are in no vendored or repo-cited source; escalated rather than qualified."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "The faith took root in Ge'ez, the kingdom's own language, in which Scripture and liturgy were eventually rendered, and Frumentius's consecration bound the Ethiopian church to the Egyptian one for the next sixteen centuries.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The see of Alexandria has no census entry; alexandria-catechetical is the catechetical school (Clement, Origen), not Athanasius's or Cyril's church, so a link to it would misstate the relationship. Escalated. 'Sixteen centuries' rests on the modern entries; not in a vendored text."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "His coins stop carrying the disc and crescent of the old religion and start carrying the cross, one of the earliest such declarations by any state anywhere.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Coinage evidence; no vendored or repo-cited source. Escalated with the Ezana sentence."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "why",
+   "sentence": "Christianity reached the Red Sea kingdom of Aksum by an almost accidental route: a shipwrecked young man from Tyre named Frumentius rose to tutor the royal household, then traveled to Alexandria and returned as the kingdom's first bishop around 330.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The see of Alexandria has no census entry; alexandria-catechetical is the catechetical school (Clement, Origen), not Athanasius's or Cyril's church, so a link to it would misstate the relationship. Escalated."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "legacy",
+   "sentence": "This became, and remains, one of the great ancient churches of the world: the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church together count tens of millions of members.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity-conversion-era--aksumite-christianity",
+   "prose_change": null,
+   "reason": "Carried by the new continued-as link to the next Aksumite entry; the continuesAs chain runs on to the modern churches."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "legacy",
+   "sentence": "It carried down a whole distinctive Christian culture — Ge'ez as a scriptural and liturgical language, a broader Old Testament canon than any other church's, drums and sistra and liturgical dance in worship, and, centuries later, the rock-hewn churches of Lalibela.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Zagwe entry's relationsSummary names it ('Continuation of Aksum'); era-5 pass."
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "legacy",
+   "sentence": "The link Frumentius's consecration made with Alexandria held for roughly sixteen centuries, until the Ethiopian church received a patriarch of its own in the twentieth.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The twentieth-century patriarchate belongs to the modern Ethiopian and Eritrean entry, whose longDescription names the church becoming self-governing under a Coptic hierarchy (era-10 pass). Not a 'broke with': no vendored text records a rupture. Not in any vendored text."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "relationsSummary",
+   "sentence": "Continuation of Alexandria + Desert",
+   "other_id": "alexandria-catechetical",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "The see of Alexandria has no census entry; alexandria-catechetical is the catechetical school (Clement, Origen), not Athanasius's or Cyril's church, so a link to it would misstate the relationship. Escalated. Summary rewritten in plain words (prose change 7)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "relationsSummary",
+   "sentence": "Continuation of Alexandria + Desert",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "prose_change": 7,
+   "reason": "New Documented gave-rise-to link (Zachariah IV.1: Timothy brought from the wilderness; the monks consulted)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "When the Council of Chalcedon met in 451 and defined Christ as one person \"in two natures,\" the Egyptian church largely refused the wording.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "New Documented broke-with link: Chalcedon's sentence on Dioscorus and Zachariah's account of the Egyptian break."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "Not because it thought Christ any less than fully God or fully human, but because it held to the formula Cyril of Alexandria had used against Nestorius twenty years earlier: one incarnate nature of the Word, a single united reality rather than two things described side by side.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; the Church of the East is not named here. Cyril's 'One Incarnate Nature' is in the vendored Pusey translation (line 4918); the claim stands."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "Not because it thought Christ any less than fully God or fully human, but because it held to the formula Cyril of Alexandria had used against Nestorius twenty years earlier: one incarnate nature of the Word, a single united reality rather than two things described side by side.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; claim stands (as above)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "To Egyptian ears Chalcedon's language sounded like pulling Christ apart again; to Chalcedon's supporters, the Egyptian refusal sounded like collapsing his humanity.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same broke-with link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "The council deposed the Alexandrian patriarch Dioscorus, imperial authority backed the Chalcedonian side, and Egypt was left with two rival hierarchies — one favored by Constantinople, and one that most Egyptian Christians actually followed, worshipping increasingly in Coptic rather than Greek.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person. The deposition is a source on the broke-with link (npnf214 lines 20082-20084)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "The council deposed the Alexandrian patriarch Dioscorus, imperial authority backed the Chalcedonian side, and Egypt was left with two rival hierarchies — one favored by Constantinople, and one that most Egyptian Christians actually followed, worshipping increasingly in Coptic rather than Greek.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same broke-with link; imperial backing for Proterius is in Zachariah III.2 ('the governors who obeyed him in consequence of the king's command')."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "The council deposed the Alexandrian patriarch Dioscorus, imperial authority backed the Chalcedonian side, and Egypt was left with two rival hierarchies — one favored by Constantinople, and one that most Egyptian Christians actually followed, worshipping increasingly in Coptic rather than Greek.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the fifth-century Chalcedonian line in Egypt. Zachariah III.2 and IV documents Proterius and the rival lines; the claim stands."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "Out of that separation came the Coptic Orthodox Church and the wider family of churches that made the same refusal.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "New continued-as link; flagged as a possible duplicate pair."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "longDescription",
+   "sentence": "Out of that separation came the Coptic Orthodox Church and the wider family of churches that made the same refusal.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Family-level; no single entry. Left as written."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "why",
+   "sentence": "When the Council of Chalcedon defined Christ as one person 'in two natures' in 451, the Egyptian church largely refused the wording, holding instead to Cyril of Alexandria's own formula against Nestorius: one incarnate nature of the Word, a single united reality rather than two things described side by side.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same broke-with link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "why",
+   "sentence": "When the Council of Chalcedon defined Christ as one person 'in two natures' in 451, the Egyptian church largely refused the wording, holding instead to Cyril of Alexandria's own formula against Nestorius: one incarnate nature of the Word, a single united reality rather than two things described side by side.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; claim stands."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "why",
+   "sentence": "The council deposed the Alexandrian patriarch Dioscorus, and Egypt was left with two rival hierarchies — most Egyptian Christians worshipping increasingly in Coptic rather than Greek.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; documented on the broke-with link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "why",
+   "sentence": "The council deposed the Alexandrian patriarch Dioscorus, and Egypt was left with two rival hierarchies — most Egyptian Christians worshipping increasingly in Coptic rather than Greek.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above: Zachariah documents the two lines."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Same continued-as link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "armenian-christianity-after-avarayr",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day communion of the successor church. The era-3 Cyrilline entry's legacy names the Oriental Orthodox family (Syriac, Armenian, Ethiopian, Eritrean); those links belong to its pass."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above. The Indian church is not named in the successor's text; its modern communion is a fact about the modern entries, not this one."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "It preserved Coptic — the last stage of the ancient Egyptian language — as a liturgical tongue, along with a distinctive iconography, a long fasting calendar, and a monastic life descended unbroken from the desert.",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "prose_change": null,
+   "reason": "Same gave-rise-to link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "sentence": "Modern dialogue has largely concluded that the fifth-century split was as much about vocabulary as about belief: a series of joint declarations from the 1970s onward record Oriental Orthodox, Eastern Orthodox, and Catholic representatives agreeing that they confess the same faith in Christ in different words.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No vendored source; the repo names the 1984 and 1989-1990 statements, not the 1970s, and its own review held the 'only words' reading Contested."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "relationsSummary",
+   "sentence": "Comparison-point for the Bethlehem Circle's distinctiveness on record",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+   "prose_change": 8,
+   "reason": "New Documented contact link (Ep. 108.9; Ep. 58.3); the summary is rewritten as a plain sentence (prose change 8)."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "sentence": "Once Constantine's builders uncovered what they took to be the tomb of Christ and raised a great church complex over it in the 330s, Jerusalem became something no other city was.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "prose_change": null,
+   "reason": "New Documented contact link (Constantine's letter to Macarius, VC III.30)."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "sentence": "One of those visitors, a woman from the Latin west named Egeria, kept a detailed travel diary in the early 380s recording precisely what was done and when.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Person. Diary vendored twice (McClure-Feltoe 1919, Bernard 1896). The discovery date is corrected to 1883 at Arezzo (prose change 9)."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "sentence": "It was always part settled and part passing through — resident clergy and monks, local Christians, and a constant flow of pilgrims from every corner of the Christian world.",
+   "other_id": "palestinian-ascetic-monasticism-early",
+   "disposition": "link",
+   "link_id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+   "prose_change": null,
+   "reason": "Same new contact link."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "sentence": "It was always part settled and part passing through — resident clergy and monks, local Christians, and a constant flow of pilgrims from every corner of the Christian world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single party. Egeria records monks from Mesopotamia and elsewhere at the feasts; the claim stands."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "why",
+   "sentence": "Once Constantine's builders raised a great church complex over what they took to be the tomb of Christ in the 330s, Jerusalem's clergy built a liturgy out of commemorating the gospel on the actual day and at the actual place it happened — a Palm Sunday procession down the Mount of Olives with branches in hand, the veneration of the Cross on Good Friday, an all-night vigil at the tomb at Easter.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "prose_change": null,
+   "reason": "Same new contact link."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "why",
+   "sentence": "A western pilgrim named Egeria kept a detailed diary in the early 380s recording exactly what was done and when, a manuscript lost for centuries and rediscovered in an Italian library in 1884.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Person; date corrected as in the longDescription (prose change 10)."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "legacy",
+   "sentence": "Keeping Holy Week as a sequence of days, each commemorating a specific event — the Palm Sunday procession, Maundy Thursday, the Good Friday veneration of the Cross, the Easter vigil — spread west from here, and it is still how most of the Christian world keeps Easter.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single party. McClure and Feltoe's vendored introduction says the palm procession 'started at Jerusalem' and the Purification 'spread towards the West' (lines 1674-1697); the claim stands."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "legacy",
+   "sentence": "Cyril's lectures remain a primary source for how baptism and communion were explained to newcomers in the fourth century, and Egeria's diary is read wherever early liturgy is studied.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "Person; Catechetical Lectures vendored (npnf207). Name clarified so readers do not take him for Cyril of Alexandria (prose change 11)."
+  }
+ ],
+ "links": [
+  {
+   "id": "alexandria-catechetical--desert-monasticism",
+   "action": "keep",
+   "from": "alexandria-catechetical",
+   "to": "desert-monasticism",
+   "type": "gave rise to",
+   "confidence": "Contested",
+   "named_in_text": "desert-monasticism relationsSummary; alexandria-catechetical relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. Reviewed in the era-1 pass; both primary quotes rechecked against npnf204 and they match. The desert summary's 'disputed reading ... leaves the question of contact open' is the dispute this link already states."
+  },
+  {
+   "id": "desert-monasticism--hieronymian-ascetic-literary",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "not named in the desert text; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. All three Jerome quotes (Ep. 127, 108, 22) rechecked against npnf206 and match; they show the Roman circle naming Antony and Pachomius."
+  },
+  {
+   "id": "desert-monasticism--iconophile-byzantine-monasticism",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "iconophile-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "not named in the desert text; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. The three quotes rechecked and match; the note already says plainly that no text shows iconophile monks drawing on Egypt directly. Nothing wrong found."
+  },
+  {
+   "id": "desert-monasticism--early-benedictine-italian-monasticism",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "early-benedictine-italian-monasticism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "named_in_text": "desert-monasticism legacy ('Benedict's own Rule ...')",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. RB 42 (Latin) and RB 73 (Gasquet) quotes rechecked and match. This carries the desert legacy's 'Benedict's own Rule ... sends its readers directly to John Cassian's reports from Egypt'."
+  },
+  {
+   "id": "desert-monasticism--insular-irish-monastic-christianity",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "insular-irish-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "not named in the desert text; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. The Cursus Scottorum quote rechecked against the Warren file and matches; the note already grades it thin and gives Warren's caution."
+  },
+  {
+   "id": "desert-monasticism--coptic-christianity-under-early-islam",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "coptic-christianity-under-early-islam",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "not named in the desert text; existing link",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. The 1006 colophon quote rechecked against the Budge file and matches; it names the Pachomian fathers directly."
+  },
+  {
+   "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "desert-monasticism legacy (Cassian, twice)",
+   "wants": [],
+   "drafter_flags": [
+    "The legacy's 'Evagrius's eight named categories ... traveled west through Cassian' could be documented more directly from Cassian's Conference V.2, where Abbot Serapion of Scetis lists the eight faults (npnf211 lines 30134-30137, quoted on the new Gregory link). Cassian never names Evagrius; the project's own record desert.quote.eight-principal-faults says so. The existing sources are sound, so I did not rewrite."
+   ],
+   "change_reason": "Keep. Institutes preface and Gennadius 62 rechecked and match. This carries both desert legacy sentences on Cassian (Egyptian reports; Evagrius's categories going west)."
+  },
+  {
+   "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "palestinian-ascetic-monasticism-early",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "palestinian-ascetic-monasticism-early relationsSummary, longDescription, why",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. Vita Hilarionis 3 and 14 rechecked and match. Carries the Palestinian summary, longDescription and why on Hilarion and Antony."
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   "action": "keep",
+   "from": "palestinian-ascetic-monasticism-early",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "palestinian-ascetic-monasticism-early relationsSummary, why, legacy; chalcedonian-monasticism-judean-desert-and-gaza relationsSummary",
+   "wants": [
+    "A readable edition of Cyril of Scythopolis, Life of Euthymius (ch. 6-8, Euthymius's years in the laura of Pharan). The vendored Cotelier 1681 OCR names Pharan (line 27730) but is too corrupt to quote. A clean text would show a named monk passing from Pharan into the Judean desert foundations and could lift this link."
+   ],
+   "drafter_flags": [],
+   "change_reason": "Keep. Both quotes rechecked and match, and the note already says the link rests on place and sequence alone. The Palestinian summary's 'direct antecedent' overstated this link and is qualified in prose instead (prose change 0)."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   "action": "keep",
+   "from": "palestinian-church-pre-constantinian",
+   "to": "jerusalem-liturgical-pilgrimage-christianity",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "named_in_text": "palestinian-church-pre-constantinian relationsSummary; not named in the Jerusalem text",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Keep. Reviewed in the era-1 pass; both Eusebius quotes rechecked and match."
+  },
+  {
+   "id": "aksumite-christianity-conversion-era--aksumite-christianity",
+   "action": "new",
+   "from": "aksumite-christianity-conversion-era",
+   "to": "aksumite-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. Two sixth-century writers still find a Christian kingdom there. Procopius calls the king of the Ethiopians a devoted Christian, and Cosmas lists Axum among the lands with churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31 (Letter of Constantius to the princes of Aksum)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36108-36112",
+     "locus": "Apol. ad Const. 31",
+     "quote": "The following is the letter which was written to the Princes of Auxumis respecting Frumentius, Bishop of that place.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36111-36112",
+     "locus": "Apol. ad Const. 31",
+     "quote": "Constantius Victor Maximus Augustus, to Æzanes and Sazanes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
+     "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
+     "lines": "2586-2588",
+     "locus": "Wars I.20",
+     "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography, Book III (trans. McCrindle)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7265-7266",
+     "locus": "Top. Christ. III",
+     "quote": "So too in Ethiopia and Axom, and in all the country about it ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aksumite-christianity-conversion-era continuesAs field and legacy ('This became, and remains ...'); aksumite-christianity relationsSummary ('In communion with Alexandria ...')",
+   "wants": [],
+   "drafter_flags": [
+    "No vendored text names a bishop of Aksum after 451, so the see is shown only on the earlier side. The later side is a Christian king (Procopius) and churches (Cosmas). If the reviewer holds 'continued as' to see continuity on both sides, as the era-1 review did for Nisibis, this should drop below Documented.",
+    "Cosmas's Book III sentence lists many lands; the 'there are everywhere churches of the Christians' clause comes a few lines later, so the quote alone shows only that Axom is in the list."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the legacy's 'This became, and remains' at its first step."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-tradition",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "After Chalcedon, Egypt's clergy, monks and people broke communion with the new bishop, Proterius, and honored the deposed Dioscorus. When the emperor Marcian died in 457, the same party chose Timothy, a man 'of the same faith as Dioscorus', as their own bishop.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle III.2 (trans. Hamilton and Brooks)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2538-2541",
+     "locus": "Chron. III.2",
+     "quote": "the priests, and the monks, and many of the people, perceiving that the faith had been polluted, both by the unjust deposition of Dioscorus and the oppressive conduct of Proterius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3281-3284",
+     "locus": "Chron. IV.1",
+     "quote": "suddenly the report of the death of Marcian reached them, and they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3289-3289",
+     "locus": "Chron. IV.1",
+     "quote": "Moreover, he was of the same faith as Dioscorus ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-tradition continuesAs field and longDescription ('Out of that separation came the Coptic Orthodox Church'); legacy ('This is a living communion')",
+   "wants": [],
+   "drafter_flags": [
+    "Both entries begin in 451 and describe the same church in nearly the same words. This looks like a duplicate pair rather than a period split; logged as an escalation. The link is drafted so the continuesAs field has sources whichever way that is ruled.",
+    "The Chronicle is a sixth-century Syriac compilation from an anti-Chalcedonian side; it is partisan but contemporary in its source (Zachariah's lost Greek history)."
+   ],
+   "change_reason": "New: the text names the Coptic Orthodox Church emerging from the separation, and the continuesAs field had no sourced link."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-tradition",
+   "to": "imperial-juridical-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "On 13 October 451 the Council of Chalcedon told Dioscorus of Alexandria he had been deposed. From the Egyptian side, a sixth-century chronicle records clergy, monks and people withdrawing to their monasteries and breaking communion with the bishop put in his place.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon (451), sentence sent to Dioscorus",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20082-20084",
+     "locus": "Chalcedon, Condemnation of Dioscorus",
+     "quote": "We do you to wit that on the thirteenth day of the month of October you were deposed from the episcopate and made a stranger to all ecclesiastical order",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle III.2 (trans. Hamilton and Brooks)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2542-2543",
+     "locus": "Chron. III.2",
+     "quote": "in the monasteries, and severed themselves from his communion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-tradition longDescription and why (Chalcedon's wording refused, Dioscorus deposed, imperial authority backing the Chalcedonian side)",
+   "wants": [],
+   "drafter_flags": [
+    "Chalcedon is the last event of the imperial-juridical entry (to 451); the imperial pressure after 451 belongs to the Justinianic imperial-church entry, which is era 3. I linked to imperial-juridical because Chalcedon itself is the rupture the text names.",
+    "Timothy Aelurus's own refutation of Chalcedon is vendored (Armenian with German, ter-Mekerttschian 1908) and could document a separate 'argued against' link from the Egyptian side; I did not draft it."
+   ],
+   "change_reason": "New: the text's central relationship, Egypt's refusal of Chalcedon and the council's deposition of Dioscorus, had no link."
+  },
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "cyrilline-miaphysite-egyptian-tradition",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 457 Alexandria's anti-Chalcedonian party consulted 'the whole order of the monks' and chose Timothy as bishop. He was an ascetic once brought from the desert to Cyril and ordained by him. A much later Coptic history says the letters of a later patriarch, Peter, were kept at the Monastery of Macarius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1 (trans. Hamilton and Brooks)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3286-3289",
+     "locus": "Chron. IV.1",
+     "quote": "And they agreed upon Timothy, a man expert in business 5 and of ascetic life ; who had been brought from the wilderness, by force, to Cyril, and ordained as presbyter by him.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3282-3284",
+     "locus": "Chron. IV.1",
+     "quote": "they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Peter (trans. Evetts, PO 1)",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "35554-35555",
+     "locus": "Hist. Patr., Peter III",
+     "quote": "All his epistles are preserved in the Monastery of Father Macarius;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-tradition relationsSummary ('Continuation of ... Desert') and legacy ('a monastic life descended unbroken from the desert')",
+   "wants": [],
+   "drafter_flags": [
+    "The first Zachariah quote carries the translator's footnote marker '5' after 'business' and a space before the semicolon, exactly as in the file.",
+    "'Gave rise to' claims only that monks of the desert passed into the new church; the note does not say the church came from the desert alone. The Alexandrian see is its other parent, and that see has no census entry (see escalations).",
+    "The History of the Patriarchs is a much later compilation; it is used only for the Macarius archive, and the note says it is late."
+   ],
+   "change_reason": "New: the Cyrilline text names the desert as a parent, and no link carried it."
+  },
+  {
+   "id": "desert-monasticism--roman-church-gregorian",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "roman-church-gregorian",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the link rests on the likeness of the two lists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "desert.source.cassian-conferences",
+     "work": "John Cassian, Conferences V.2 (Abbot Serapion, On the Eight Principal Faults)",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "30134-30137",
+     "locus": "Conf. V.2",
+     "quote": "fourthly anger, fifthly dejection, sixthly acedia, i.e., listlessness or low spirits, seventhly cenodoxia, i.e., boasting or vain glory; and eighthly pride.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Morals on the Book of Job XXXI.87 (trans. Bliss)",
+     "file": "cic/texts/gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt",
+     "lines": "6612-6615",
+     "locus": "Moralia XXXI.87",
+     "quote": "when pride, the queen of sins, has fully possessed a conquered heart, she surrenders it immediately to seven principal sins, as if to some of her generals,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "desert-monasticism legacy ('by way of Gregory the Great two centuries later, narrowed into the seven deadly sins')",
+   "wants": [
+    "A repo-cited modern study of how the eight thoughts became Gregory's seven sins (none found in records/ or Build/); with one, this could be graded Widely Accepted."
+   ],
+   "drafter_flags": [
+    "The route ran through Cassian, a Gallic writer; a reviewer may prefer this link from gallic-monastic-ascetic-christianity. I drafted it from the desert because the desert text names Gregory and the list is a Scetis elder's.",
+    "Bliss's OCR has 'lo lay it waste' just after the quote; the quote stops before it. Bliss numbers the paragraph 87 within Book XXXI (the chapter is often cited as XXXI.45)."
+   ],
+   "change_reason": "New: the desert legacy names Gregory the Great and no link carried it."
+  },
+  {
+   "id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "jerusalem-liturgical-pilgrimage-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Eusebius copies a letter from Constantine to Macarius, bishop of Jerusalem, about building a church at the site of Christ's tomb. The emperor writes that he has no greater care than to adorn that spot with a splendid building.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-vita-constantini",
+     "work": "Eusebius, Life of Constantine III.30 (Constantine's letter to Macarius)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "64984-64986",
+     "locus": "VC III.30",
+     "quote": "that I have no greater care than how I may best adorn with a splendid structure that sacred spot,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "jerusalem-liturgical-pilgrimage-christianity longDescription and why ('Constantine's builders ... raised a great church complex')",
+   "wants": [],
+   "drafter_flags": [
+    "The same chapter heading is already a source on the era-1 link palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity; this link uses the letter's own words."
+   ],
+   "change_reason": "New: the Jerusalem text opens with Constantine's builders and no link carried the imperial church's part."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "jerusalem-liturgical-pilgrimage-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Jerome describes Paula, his patron, worshipping at the tomb of the Resurrection in Jerusalem. Yet he told a friend that heaven was as easy to reach from Britain as from Jerusalem.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-ep108",
+     "work": "Jerome, Letter 108 (Epitaph of Paula), section 9",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "21100-21102",
+     "locus": "Ep. 108 §9",
+     "quote": "and when she entered the tomb which was the scene of the Resurrection she kissed the stone which the angel had rolled away from the door of the sepulchre.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 58 (To Paulinus), section 3",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "13891-13892",
+     "locus": "Ep. 58 §3",
+     "quote": "Access to the courts of heaven is as easy from Britain as it is from Jerusalem;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "jerusalem-liturgical-pilgrimage-christianity relationsSummary ('Comparison-point for the Bethlehem Circle')",
+   "wants": [],
+   "drafter_flags": [
+    "Jerome also wrote against Bishop John of Jerusalem (Against John of Jerusalem, npnf206). That would document an 'argued against' link, but neither text names that quarrel, so I did not draft it.",
+    "Group C (hieronymian) may draft the same pair; the merge should reconcile."
+   ],
+   "change_reason": "New: the Jerusalem summary sets itself beside Jerome's circle, and no link joined them."
+  },
+  {
+   "id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+   "action": "new",
+   "from": "jerusalem-liturgical-pilgrimage-christianity",
+   "to": "palestinian-ascetic-monasticism-early",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Jerome says Hilarion, Palestine's first monk, visited Jerusalem for a single day so as not to neglect the holy places. In the 380s the pilgrim Egeria saw monks and virgins come to the tomb church before dawn for the daily office.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 58 (To Paulinus), section 3",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "13896-13899",
+     "locus": "Ep. 58 §3",
+     "quote": "The blessed Hilarion, though a native of and a dweller in Palestine, only set eyes on Jerusalem for a single day, not wishing on the one hand when he was so near to neglect the holy places,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Egeria, Pilgrimage 24.1 (trans. McClure and Feltoe)",
+     "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt",
+     "lines": "3883-3886",
+     "locus": "Itin. 24.1",
+     "quote": "all the monks and virgins, as they call them here, go thither, and not they alone, but lay people also, both men and women, who desire to begin their vigil early.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "palestinian-ascetic-monasticism-early longDescription ('Pilgrims passed through all of it ... some of them stayed'); jerusalem-liturgical-pilgrimage-christianity longDescription ('resident clergy and monks')",
+   "wants": [],
+   "drafter_flags": [
+    "Egeria's monks are Jerusalem's own resident ascetics. Whether they belong to the Palestinian ascetic entry (Gaza, Judean hills) or to the Jerusalem church is a scope question; the Hilarion quote carries the contact on its own.",
+    "Egeria's date (380s) follows the census text; McClure and Feltoe argue their own date in the introduction."
+   ],
+   "change_reason": "New: both texts name pilgrims and resident monks sharing the holy places, and no link carried it."
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "action": "new",
+   "from": "palestinian-ascetic-monasticism-early",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Writing at Bethlehem around 390, Jerome made Hilarion of Gaza the subject of a Life. He says Epiphanius of Salamis, who knew Hilarion well, had already praised him in a letter. Jerome presents his book as taking up that work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 1",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30110-30112",
+     "locus": "Vita Hilarionis 1",
+     "quote": "It is true that that holy man Epiphanius, bishop of Salamis in Cyprus, who had much intercourse with Hilarion, set forth his praises in a short but widely circulated letter.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-vita-hilarionis",
+     "work": "Jerome, Life of Hilarion, section 1",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "30114-30115",
+     "locus": "Vita Hilarionis 1",
+     "quote": "And so we in taking up the work begun by him do him service rather than wrong:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "palestinian-ascetic-monasticism-early longDescription ('Jerome, writing from Bethlehem, gave the movement its literature'), why, legacy",
+   "wants": [],
+   "drafter_flags": [
+    "The date 'around 390' rests on the NPNF editors' chronology (npnf206 line 2988: '390. Lives of Malchus and Hilarion, hermits.'), not on Jerome's own words.",
+    "Direction: the later side (Jerome's circle) names and uses the earlier (Hilarion and the letter about him), so the arrow runs from the Palestinian monks."
+   ],
+   "change_reason": "New: the Palestinian text names Jerome as its literary voice in three fields and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "relationsSummary",
+   "old": "Egyptian in origin - Hilarion was Antony's disciple - and the direct antecedent of chalcedonian-monasticism-judean-desert-and-gaza, which begins where this leaves off at c. 450.",
+   "new": "Egyptian in origin: Hilarion learned the life from Antony. It is the forerunner of the Chalcedonian monasteries of the Judean desert and Gaza, which begin about 450, where this leaves off.",
+   "reason": "The sentence printed a raw movement id to readers; the plain name replaces it. 'Direct antecedent' claimed more than the evidence: the link to the Chalcedonian monasteries is Inferential-Thin, resting on place and sequence. 'Forerunner' keeps the order of the two without claiming the same community."
+  },
+  {
+   "n": 1,
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "old": "Jerome, writing from Bethlehem, gave the movement its literature: a Life of Hilarion, and a Life of Malchus about a monk taken by Saracen raiders.",
+   "new": "Jerome, writing from Bethlehem, gave the movement its literature in a Life of Hilarion. He also wrote a Life of Malchus, a Syrian monk taken by Saracen raiders.",
+   "reason": "Malchus was not a Palestinian monk. Jerome places him at Maronia, east of Antioch, and in the desert of Chalcis, and he was taken on the road from Beroea to Edessa (Life of Malchus 2-4, npnf206 lines 31137-31205). The next sentence ('Both are shaped to teach ...') still reads correctly."
+  },
+  {
+   "n": 2,
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "why",
+   "old": "Jerome told the story of the loneliest of these lives in his Life of Malchus, a monk carried off by raiders.",
+   "new": "Jerome told the story of a lonelier life still, farther north, in his Life of Malchus, a Syrian monk carried off by raiders.",
+   "reason": "Same correction as the longDescription: Malchus was a monk of the Syrian desert of Chalcis, not one of the Palestinian lives (Life of Malchus 2-4)."
+  },
+  {
+   "n": 3,
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "old": "Jerome's Life of Hilarion also did something more particular: it established the saint's life as a Latin literary form, on the model of the Life of Antony, and gave the West a second template for it.",
+   "new": "Jerome's Life of Hilarion also did something more particular. Written about 390, it followed his own Life of Paul and the Latin Life of Antony, and helped make the saint's life a Latin literary form.",
+   "reason": "The Life of Hilarion did not establish the form. Its own prologue refers back to Jerome's earlier Life of Paul (npnf206 lines 30115-30117); Jerome lists the Life of Paul first among his works (De viris 135, npnf203 line 41790); and Evagrius of Antioch had already put Athanasius's Life of Antony into Latin (De viris 125, npnf203 lines 41678-41682). No vendored text says Jerome modeled Hilarion on the Life of Antony."
+  },
+  {
+   "n": 4,
+   "movement": "desert-monasticism",
+   "field": "longDescription",
+   "old": "He died at Kellia in January 399, months before a controversy his own learned circle could not survive — a bishop's letter on how literally to picture God split simple monks from learned ones, and by the year's end Evagrius's circle had been driven out of Egypt.",
+   "new": "He died at Kellia in January 399, just before a controversy his own learned circle could not survive. A bishop's letter on how literally to picture God split simple monks from learned ones, and soon afterward Evagrius's circle was driven out of Egypt.",
+   "reason": "Cassian says Theophilus's festal letter reached the desert a few days after Epiphany of that year (Conferences X.2, npnf211 lines 35951-35975), so 'months before' does not fit a January death. Socrates (VI.7) tells the expulsion but gives no year, so 'by the year's end' is replaced with 'soon afterward'. The one long sentence is also split in two."
+  },
+  {
+   "n": 5,
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "old": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.",
+   "new": "Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt. In the East, the Philokalia, gathered on Mount Athos and printed in 1782, opens with counsels credited to Antony and carries Evagrius and Cassian too.",
+   "reason": "No vendored text shows the monasteries of Sinai or Athos tracing their own practice to the desert, and the Athonite and Sinai entries do not say so. The vendored Philokalia (1893 edition of the 1782 anthology compiled on Athos) opens with Antony the Great (line 1017) and includes Evagrius (line 58634) and Cassian (line 58646), which shows the later Eastern tradition reading the desert in its own words."
+  },
+  {
+   "n": 6,
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "old": "Modern dialogue has largely concluded that the fifth-century split was as much about vocabulary as about belief: a series of joint declarations from the 1970s onward record Oriental Orthodox, Eastern Orthodox, and Catholic representatives agreeing that they confess the same faith in Christ in different words.",
+   "new": "Modern dialogue has argued that the fifth-century split was as much about vocabulary as about belief. Joint statements since the 1980s record Oriental Orthodox, Eastern Orthodox, and Catholic representatives agreeing that they confess the same faith in Christ in different words. Historians still debate how far that holds for the fifth century itself.",
+   "reason": "No vendored text covers the dialogue. The repo names the 1984 Syriac Orthodox-Catholic common declaration and the 1989-1990 Vienna agreed statements (Build/worlds/wsyr/Step0_Movement_Scope_Confirmation.md), not a 1970s declaration, and its own review judged the 'only words' reading Contested, not Widely Accepted. The new text reports the dialogue's position as its own and says the reading is disputed."
+  },
+  {
+   "n": 7,
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "relationsSummary",
+   "old": "Continuation of Alexandria + Desert",
+   "new": "Carries on the church of Alexandria and the monks of the Egyptian desert.",
+   "reason": "Note-style shorthand ('+') replaced with a plain sentence. The meaning is unchanged; the desert half now has a link, and the Alexandrian half names a see with no census entry (see escalations)."
+  },
+  {
+   "n": 8,
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "relationsSummary",
+   "old": "Comparison-point for the Bethlehem Circle's distinctiveness on record",
+   "new": "A near neighbor of Jerome's circle at Bethlehem, whose members worshipped at Jerusalem's holy places even as Jerome wrote that heaven was as near from Britain.",
+   "reason": "The old phrase read as cataloguing commentary ('comparison-point', 'on record'). The new sentence states the relationship the new link documents: Paula at the tomb (Ep. 108.9) and Jerome's 'as easy from Britain as it is from Jerusalem' (Ep. 58.3)."
+  },
+  {
+   "n": 9,
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "old": "The manuscript disappeared for centuries and was rediscovered in an Italian library in 1884, and it remains the single most valuable eyewitness account of early Christian worship anywhere.",
+   "new": "The manuscript disappeared for centuries. It was found again at Arezzo, in Italy, in 1883, and it remains the single most valuable eyewitness account of early Christian worship anywhere.",
+   "reason": "Bernard's edition says the manuscript 'was discovered in 1883 at Arezzo'; Gamurrini announced it in 1884 and published it in 1887 (egeria_pilgrimage-of-silvia_bernard1896.txt lines 7776-7782; McClure and Feltoe, lines 117-119)."
+  },
+  {
+   "n": 10,
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "why",
+   "old": "A western pilgrim named Egeria kept a detailed diary in the early 380s recording exactly what was done and when, a manuscript lost for centuries and rediscovered in an Italian library in 1884.",
+   "new": "A western pilgrim named Egeria kept a detailed diary in the early 380s recording exactly what was done and when. The manuscript was lost for centuries and found again at Arezzo, in Italy, in 1883.",
+   "reason": "Same date correction as the longDescription (Bernard 1896: discovered 1883 at Arezzo). The sentence is also split in two."
+  },
+  {
+   "n": 11,
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "legacy",
+   "old": "Cyril's lectures remain a primary source for how baptism and communion were explained to newcomers in the fourth century, and Egeria's diary is read wherever early liturgy is studied.",
+   "new": "The lectures of Cyril, bishop of Jerusalem, remain a primary source for how baptism and communion were explained to newcomers in the fourth century. Egeria's diary is read wherever early liturgy is studied.",
+   "reason": "Clarity only: Cyril appears here for the first time in the entry and is easily taken for Cyril of Alexandria. His Catechetical Lectures are vendored (npnf207). The sentence is also split in two."
+  }
+ ],
+ "wants": [
+  "A numismatic catalogue or a repo-cited study of Aksumite coinage (e.g. Munro-Hay, named but not acquired in Build/worlds/_cross-world/dossiers/aksumite-christianity_Source_Readiness_Dossier.md), to document Ezana's conversion and the cross replacing the disc and crescent",
+  "A readable edition of Cyril of Scythopolis, Life of Euthymius (ch. 6-8, Euthymius's years in the laura of Pharan). The vendored Cotelier 1681 OCR names Pharan (line 27730) but is too corrupt to quote. A clean text would show a named monk passing from Pharan into the Judean desert foundations and could lift this link.",
+  "A repo-cited modern study of how the eight thoughts became Gregory's seven sins (none found in records/ or Build/); with one, this could be graded Widely Accepted.",
+  "A source for Egeria's date in the early 380s beyond the editors' own argument",
+  "A source for the 1973 and later Oriental Orthodox joint declarations (texts of the 1984 Syriac Orthodox-Catholic declaration and the 1989-1990 agreed statements), to cite the Cyrilline legacy's dialogue sentence directly",
+  "A source for the Ethiopian church's own patriarchate in the twentieth century (1959), if the Aksum legacy's closing sentence is to stay sourced",
+  "Littmann, Deutsche Aksum-Expedition IV (1913; verified but not vendored per the Aksum dossier), for Ezana's own inscriptions",
+  "Rufinus, Church History X.9-10 in English, or a clean read of the vendored Schwartz-Mommsen Latin (lines 27308-27384), as the earliest Frumentius account"
+ ],
+ "escalations": [
+  "Cross-world / portfolio: the census has no entry for the church (see) of Alexandria in the fourth and fifth centuries. Two of my movements name it as parent: Aksum ('Child of Alexandria': Frumentius consecrated by Athanasius) and the Cyrilline tradition ('Continuation of Alexandria'). The only Alexandrian entry, alexandria-catechetical, is the catechetical school, and linking Athanasius's or Cyril's church to it would misstate both relationships. Sources are ready if Mark rules that alexandria-catechetical should stand for the see or adds an entry: Socrates I.19 (npnf202 lines 4356-4358, 'but Frumentius arriving at Alexandria, reported the affair to Athanasius the bishop, who had but recently been invested with that dignity;'), Athanasius, Defence before Constantius 31 (npnf204 lines 36150-36151, 'this Frumentius was advanced to his present rank by Athanasius,'), and Zachariah IV.1 for Cyril and Timothy. I drafted no Alexandria link.",
+  "Possible duplicate entries: cyrilline-miaphysite-egyptian-tradition ('from 451', era 2) and cyrilline-miaphysite-egyptian-christianity (451-642, era 3) describe the same church from the same year, and the first's continuesAs points to the second. I drafted a sourced continued-as link so the field has evidence either way; whether to merge them is a portfolio decision.",
+  "Rule question, not decided by me: the brief says to qualify a no-entry claim that no vendored or repo-cited source supports. The Aksum text's Ezana sentences (his conversion; coins dropping the disc and crescent for the cross; 'one of the earliest such declarations by any state') are standard numismatic fact but have no such source. Rewriting them to 'may have' would mislead the other way, so I left them and listed the wanted texts. Same for the legacy's twentieth-century patriarch and the Cyrilline entry's 'worshipping increasingly in Coptic rather than Greek'. Mark may rule whether qualify applies to well-established facts that merely lack a vendored source.",
+  "Grade check for reviewer: aksumite-christianity-conversion-era--aksumite-christianity is graded Documented on a bishop of Aksum before 451 and a Christian king and churches after it, with no post-451 bishop named. If 'continued as' needs the see on both sides (as the era-1 review held for Nisibis), it should drop to Inferential-Thin.",
+  "Flag for group C (hieronymian, not touched): the hieronymian entry's longDescription is fine on Paula; but Jerome's Against John of Jerusalem (npnf206) would document an 'argued against' link to the Jerusalem church if that entry's text names the quarrel.",
+  "Flag for the era-3 pass (not touched): chalcedonian-monasticism-judean-desert-and-gaza's relationsSummary says 'Direct heir of Desert Monasticism'. No desert-to-Chalcedonian link exists; the documented chain runs desert -> early Palestinian monks -> Chalcedonian houses, and the last step is only Inferential-Thin."
+ ]
+}
