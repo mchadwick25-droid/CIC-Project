@@ -75,6 +75,7 @@ svg#world{display:block;overflow:visible}
 .story{cursor:pointer}
 .story:focus-visible{outline:none}
 .story:hover circle.halo{opacity:.35}
+.node .pl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:10px;fill:var(--iron-gall);fill-opacity:.82;paint-order:stroke;stroke:var(--parchment);stroke-width:2.5px;stroke-linejoin:round}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer;stroke-width:calc(2.4 / var(--zoom-scale,1))}
@@ -42844,26 +42845,6 @@ function threadPath(k,amp){
 
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
 
-const VISUAL_Y_NUDGE={'desert-monasticism':80};
-Object.entries(VISUAL_Y_NUDGE).forEach(([id,dy])=>{
-  const m=byId[id]; if(!m)return;
-  m._y+=dy; m._x=laneCenterX(m.laneOrder,m._y);
-});
-
-{
-  const coincident={};
-  DATA.movements.forEach(m=>{
-    const key=m.laneOrder+'|'+m.start;
-    (coincident[key]=coincident[key]||[]).push(m);
-  });
-  Object.values(coincident).forEach(group=>{
-    if(group.length<2)return;
-    group.sort((a,b)=>a.id.localeCompare(b.id));
-    const spacing=24, startOffset=-(group.length-1)/2*spacing;
-    group.forEach((m,i)=>{ m._x+=startOffset+i*spacing; });
-  });
-}
-
 const svg=document.getElementById('world');
 svg.setAttribute('viewBox',`0 0 ${CANVAS_W} ${CANVAS_H}`);
 svg.setAttribute('width',CANVAS_W); svg.setAttribute('height',CANVAS_H);
@@ -43025,6 +43006,88 @@ const RIVER_LORE={
   }
 };
 
+const LAYOUT_DY=80, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
+const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, PLACE_CHAR=5.0, PLACE_FONT=9;
+function nameSideLeft(x){return x>CANVAS_W-220;}
+function placeLine(m){
+  if(!m.placeLabel)return '';
+  const names=[...new Set((m.modernCountries||[]).map(c=>c.country))];
+  return names.length?`${m.placeLabel} · ${names.join(', ')}`:m.placeLabel;
+}
+function markRects(item){
+  if(item.story)return [[-8,-7,8,7]];
+  const m=item.m, built=m.status==='Built & Live';
+  const w=(m.shortName||m.name).length*(built?NAME_CHAR_BOLD:NAME_CHAR);
+  const rects=[[-5,-5,5,5]];
+  rects.push(nameSideLeft(item.x)?[-(7+w),-8,-5,7]:[5,-8,7+w,7]);
+  if(built&&PORTRAIT_DATA[m.id]&&m.entry)rects.push([-(PORTRAIT_R+4),-PORTRAIT_OFFSET-(PORTRAIT_R+4),PORTRAIT_R+4,-PORTRAIT_OFFSET+(PORTRAIT_R+4)]);
+  return rects;
+}
+function rectsOverlap(a,ax,ay,b,bx,by){
+  let best=null;
+  for(const r of a)for(const q of b){
+    const ox=Math.min(ax+r[2],bx+q[2])-Math.max(ax+r[0],bx+q[0])+LAYOUT_PAD;
+    const oy=Math.min(ay+r[3],by+q[3])-Math.max(ay+r[1],by+q[1])+LAYOUT_PAD;
+    if(ox>0&&oy>0&&(!best||ox*oy>best[0]*best[1]))best=[ox,oy];
+  }
+  return best;
+}
+function layoutMarks(){
+  const items=[];
+  DATA.movements.forEach(m=>{const y=yearToY(m.start);items.push({m,ix:laneCenterX(m.laneOrder,y),iy:y});});
+  (DATA.stories||[]).forEach(s=>{const y=yearToY(s.year);items.push({s,story:true,ix:laneCenterX(s.laneOrder,y),iy:y});});
+  items.sort((a,b)=>a.iy-b.iy||a.ix-b.ix||String((a.m||a.s).id).localeCompare(String((b.m||b.s).id)));
+  items.forEach(it=>{it.x=it.ix;it.y=it.iy;it.rects=markRects(it);});
+  for(let iter=0;iter<LAYOUT_ITER;iter++){
+    const dx=new Float64Array(items.length), dy=new Float64Array(items.length);
+    let moved=false;
+    for(let i=0;i<items.length;i++){
+      const a=items[i];
+      for(let j=i+1;j<items.length;j++){
+        const b=items[j];
+        if(b.y-a.y>120)break;
+        if(Math.abs(b.x-a.x)>400)continue;
+        const o=rectsOverlap(a.rects,a.x,a.y,b.rects,b.x,b.y);
+        if(!o)continue;
+        moved=true;
+        if(o[1]<=o[0]*1.5){
+          const d=o[1]/2, sgn=(b.y>a.y||(b.y===a.y&&j>i))?1:-1;
+          dy[i]-=sgn*d; dy[j]+=sgn*d;
+        }else{
+          const d=o[0]/2, sgn=b.x>=a.x?1:-1;
+          dx[i]-=sgn*d; dx[j]+=sgn*d;
+        }
+      }
+    }
+    const pull=iter<LAYOUT_ITER*0.7?0.01:0;
+    items.forEach((it,k)=>{
+      it.x+=dx[k]*0.5+(it.ix-it.x)*pull;
+      it.y+=dy[k]*0.5+(it.iy-it.y)*pull;
+      it.x=Math.max(it.ix-LAYOUT_DX,Math.min(it.ix+LAYOUT_DX,it.x));
+      it.y=Math.max(it.iy-LAYOUT_DY,Math.min(it.iy+LAYOUT_DY,it.y));
+    });
+    items.sort((a,b)=>a.y-b.y);
+    if(!moved&&!pull)break;
+  }
+  const placed=[];
+  items.forEach(it=>{
+    const o=it.m||it.s; o._x=it.x; o._y=it.y;
+    if(!it.m)return;
+    const m=it.m, text=placeLine(m), w=text.length*PLACE_CHAR;
+    m._placeShown=null;
+    if(!text||text.toLowerCase()===(m.shortName||m.name).toLowerCase())return;
+    const left=nameSideLeft(it.x), built=m.status==='Built & Live';
+    const nameW=(m.shortName||m.name).length*(built?NAME_CHAR_BOLD:NAME_CHAR);
+    const below=left?[-(7+w),7,-5,19]:[5,7,7+w,19];
+    const inline=left?[-(7+nameW+8+w),-8,-(7+nameW+4),7]:[7+nameW+4,-8,7+nameW+8+w,7];
+    const clear=r=>!items.some(o2=>o2!==it&&Math.abs(o2.y-it.y)<80&&rectsOverlap([r],it.x,it.y,o2.rects,o2.x,o2.y))
+      &&!placed.some(p=>rectsOverlap([r],it.x,it.y,[p.r],p.x,p.y));
+    for(const [where,r] of (left?[['below',below]]:[['below',below],['inline',inline]])){
+      if(clear(r)){m._placeShown=where;m._placeOffset=r;placed.push({r,x:it.x,y:it.y});break;}
+    }
+  });
+}
+
 function wrapText(str,maxChars){
   const words=str.split(' '); const lines=[]; let cur='';
   words.forEach(w=>{
@@ -43036,6 +43099,7 @@ function wrapText(str,maxChars){
 }
 
 function render(){
+  layoutMarks();
   gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null;
 
@@ -43158,76 +43222,10 @@ function render(){
     gEdges.appendChild(line);
   });
 
-  const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];
-  const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;
-  const portraitOffsetById={}, placedPortraits=[];
-  const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(s.laneOrder,y),y};});
-  const STORY_CLEAR=PORTRAIT_R+4+8;
-  DATA.movements.filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id]).forEach(m=>{
-    let offset=PORTRAIT_OFFSET, clear=false;
-    while(offset<=PORTRAIT_MAX_OFFSET){
-      const py=m._y-offset;
-      const clearOfDots=DATA.movements.every(other=>other.id===m.id ||
-        Math.hypot(other._x-m._x, other._y-py)>=PORTRAIT_CLEAR);
-      const clearOfPortraits=placedPortraits.every(p=>
-        Math.hypot(p.x-m._x, p.y-py)>=(PORTRAIT_R+4)*2+5);
-      const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;
-      const lbY0=py+PORTRAIT_R+4, lbY1=lbY0+18;
-      const clearOfStories=storyMarks.every(sm=>{
-        if(Math.hypot(sm.x-m._x, sm.y-py)<STORY_CLEAR)return false;
-        const cx=Math.max(lbX0,Math.min(sm.x,lbX1)), cy=Math.max(lbY0,Math.min(sm.y,lbY1));
-        return Math.hypot(sm.x-cx, sm.y-cy)>=8;
-      });
-      if(clearOfDots&&clearOfPortraits&&clearOfStories){clear=true;break;}
-      offset+=PORTRAIT_STEP;
-    }
-    if(!clear)offset=PORTRAIT_MAX_OFFSET;
-    portraitOffsetById[m.id]=offset;
-    placedPortraits.push({x:m._x, y:m._y-offset});
-  });
-  const portraitBottomById={};
+  const labelYById={}, portraitOffsetById={};
   DATA.movements.forEach(m=>{
-    if(portraitOffsetById[m.id]!=null)
-      portraitBottomById[m.id]=(m._y-portraitOffsetById[m.id])+(PORTRAIT_R+4);
-  });
-  const portraitObstacles=placedPortraits;
-  function clearsPortraits(anchorX,y,nearRightEdge,textLen){
-    const w=textLen*6.5;
-    const left=nearRightEdge?anchorX-w:anchorX, right=nearRightEdge?anchorX:anchorX+w;
-    for(const p of portraitObstacles){
-      const cx=Math.max(left,Math.min(p.x,right));
-      const d=Math.hypot(p.x-cx,p.y-y);
-      if(d<PORTRAIT_R+4)return p;
-    }
-    return null;
-  }
-  const MAX_LABEL_DRIFT=90;
-  const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;
-  DATA.movements.slice().sort((a,b)=>labelSortY(a)-labelSortY(b)).forEach(m=>{
-    const nearRightEdge=m._x>CANVAS_W-220;
-    const built=m.status==='Built & Live';
-    const anchorX=m._x+(nearRightEdge?-(built?7:5):(built?7:5));
-    const naturalY=portraitBottomById[m.id]!=null ? portraitBottomById[m.id]+LABEL_GAP : m._y+3.5;
-    const text=m.shortName||m.name;
-    let y=naturalY;
-    for(let i=placedLabels.length-1;i>=0;i--){
-      const p=placedLabels[i];
-      if(y-p.y>60)break;
-      if(Math.abs(p.x-anchorX)<LABEL_XPROX)y=Math.max(y,p.y+LABEL_GAP);
-    }
-    let hit;
-    while((hit=clearsPortraits(anchorX,y,nearRightEdge,text.length))){
-      y=Math.max(y+LABEL_GAP, hit.y+(PORTRAIT_R+4)+LABEL_GAP);
-    }
-    y=Math.min(y,naturalY+MAX_LABEL_DRIFT);
-    labelYById[m.id]=y;
-    placedLabels.push({x:anchorX,y});
-  });
-  const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};
-  Object.entries(LABEL_DEFERS_TO).forEach(([id,afterId])=>{
-    if(labelYById[id]==null||labelYById[afterId]==null)return;
-    const minY=labelYById[afterId]+LABEL_GAP;
-    if(labelYById[id]<minY)labelYById[id]=minY;
+    labelYById[m.id]=m._y+3.5;
+    if(m.status==='Built & Live'&&PORTRAIT_DATA[m.id])portraitOffsetById[m.id]=PORTRAIT_OFFSET;
   });
 
   DATA.movements.forEach(m=>{
@@ -43263,6 +43261,12 @@ function render(){
         stroke:'var(--iron-gall)','stroke-width':1.5}));
     }
     g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(lbl);
+    if(m._placeShown){
+      const r=m._placeOffset, inline=m._placeShown==='inline';
+      const pl=el('text',{class:'pl',x:m._x+(nearRightEdge?r[2]:r[0]),y:m._y+(inline?3.5:16),'text-anchor':nearRightEdge?'end':'start'});
+      pl.textContent=placeLine(m);
+      g.appendChild(pl);
+    }
     if(portrait)g.appendChild(portrait);
     g.addEventListener('mouseenter',(ev)=>{
       halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));
@@ -43298,7 +43302,6 @@ function render(){
   });
 
   (DATA.stories||[]).forEach(s=>{
-    s._y=yearToY(s.year); s._x=laneCenterX(s.laneOrder,s._y);
     const g=el('g',{class:'story',transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
     const halo=el('circle',{class:'halo',r:11,fill:'var(--tyrian)',opacity:0});
@@ -43765,8 +43768,8 @@ function buildLegend(){
 
 const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
-const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34;
-let lastOrganic=null;
+const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34, PLACE_THRESHOLD=0.7;
+let lastOrganic=null, lastPlace=null;
 const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;
 const ERA_CAPTION_MARGIN=24;
 function pinEraCaptions(){
@@ -43780,6 +43783,8 @@ function applyTransform(){
 }
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
+  const placeOn = scale>PLACE_THRESHOLD;
+  if(placeOn!==lastPlace){lastPlace=placeOn;document.querySelectorAll('#nodes .pl').forEach(t=>t.style.display=placeOn?'block':'none');}
   if(organic===lastOrganic)return;
   lastOrganic=organic;
   document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_OP;p.style.pointerEvents=organic?'none':'auto';});

@@ -151,7 +151,8 @@ ship together, after Mark's ruling.
   with "today" explicit ("Carthage, today in Tunisia"). One legend line: "Places are given with
   the country they lie in today." A hidden river hides its place lines. The place line sits
   inside the movement's own group, so P2-K2's tap area takes it in. Where labels would collide,
-  the place line hides first. Gap stories have no name on the map, only an icon, so their
+  the place line hides first. Dots and names may move a little off their exact year and
+  river line so nothing overlaps (Mark, 2026-11-07); dates and links stay true. Gap stories have no name on the map, only an icon, so their
   place line goes in the hover tip and the panel, with "today" stated; no text is added beside
   the icons. Data release 2.
 - **Files:** `cic-website/data/world-census.json`, `tools/validate-census.mjs` (every movement

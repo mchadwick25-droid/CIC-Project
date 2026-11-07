@@ -186,3 +186,11 @@ names for one place, the place line shows the one a general reader knows. Applie
 labels (Lyon, Whitby, Bratislava, Beijing, Sivas, Massawa, Genadendal); the record is
 `Build/Ministry/Operations/Audits/2026-11-07_place-labels/README.md`.
 
+**Ruled the same day (Mark: "make sure the spacing still works … you can adjust their place a
+little to make space, they don't have to be exactly in the year on the map or in the river, just
+make it easy to navigate").** The map may draw a movement's dot and name a little away from its
+exact year and its river's center line, so names, place lines and dots do not overlap and each
+stays easy to tap. Only where things are drawn moves: dates, links and every panel keep the real
+values, and links attach to the moved dots. Built into PL3, with the overlap measured before and
+after.
+
