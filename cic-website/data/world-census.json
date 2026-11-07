@@ -3246,11 +3246,11 @@
    "sources": [
     {
      "kind": "primary",
-     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7. The sentence goes on to name Origen's 'Six Days' Work'; the quote stops before that title, which the file sets in italic markup and footnotes",
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7. The file sets the title in italic markup, kept here as it stands",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
-     "lines": "19268",
+     "lines": "19268-19269",
      "locus": "Ep. 84.7",
-     "quote": "Recently also Ambrose appropriated his",
+     "quote": "Recently also Ambrose appropriated his <i>Six Days’ Work</i>,",
      "license": "public-domain"
     },
     {
@@ -3709,7 +3709,7 @@
    "to": "syriac-orthodox-west-syriac-christianity",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "The Chronicle of Edessa says its bishop Paul would not accept the synod of Chalcedon and was removed in 522. That December his successor expelled the monks who also refused it. Jacob Baradaeus was later consecrated bishop for Edessa, but these few notices are thin evidence for a line of descent.",
+   "note": "The Chronicle of Edessa says Paul, the city's bishop, would not accept the synod of Chalcedon and was removed in 522. That December his successor expelled the monks who also refused it. Jacob Baradaeus was later consecrated bishop for Edessa, but these few notices are thin evidence for a line of descent.",
    "sources": [
     {
      "kind": "primary",
@@ -4321,7 +4321,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In his catalogue of Christian writers, Jerome lists the works of Methodius of Olympus, among them the Banquet of the ten virgins. He names the book, but whether he drew on it in his own writing is not shown.",
+   "note": "In his catalog of Christian writers, Jerome lists the works of Methodius of Olympus, among them the Banquet of the ten virgins. He names the book, but whether he drew on it in his own writing is not shown.",
    "sources": [
     {
      "kind": "primary",
@@ -4374,10 +4374,10 @@
     },
     {
      "kind": "secondary",
-     "work": "A. C. McGiffert, prolegomena to Eusebius's Church History, 'Date of its Composition' (NPNF 2.1, 1890); the sentence places the completion of the History in the year 324",
+     "work": "A. C. McGiffert, prolegomena to Eusebius's Church History, 'Date of its Composition' (NPNF 2.1, 1890). The file sets the title in italic markup, kept here as it stands",
      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-     "lines": "4570-4571",
-     "quote": "or, to give the widest possible limits, between the latter part of 323 and the early part of 325"
+     "lines": "4568-4571",
+     "quote": "We are thus led to place the completion of the <i>History</i> in the year 324, or, to give the widest possible limits, between the latter part of 323 and the early part of 325"
     }
    ],
    "citation_specificity": "A",
@@ -5102,7 +5102,7 @@
     "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
     "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
    ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not learn letters.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
    "sources": [
     {
      "work": "Clement of Alexandria, Stromata (Miscellanies)",
@@ -5281,7 +5281,7 @@
     "The daughters of the covenant sang this tradition's hymns in every church that had them. Not one line composed by one of them survives; everything known of their voices—their vows, their singing, their service—was written by men.",
     "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
    ],
-   "legacy": "Three groups of churches still worship in Syriac. They are the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All still sing Ephrem's hymns in their own worship, and each counts this tradition as a root.\n\nWithin a generation of this tradition's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
+   "legacy": "Syriac is still a language of worship in the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All of them still sing Ephrem's hymns, and each counts this tradition as a root.\n\nWithin a generation of this tradition's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
    "experienceToday": [
     {
      "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",

@@ -21,6 +21,9 @@ it, never by deleting it.
    standalone launch, not on the move.
 6. **Two movement texts repeat corrected claims (2026-11-06).** `aquileian-christianity` and
    `roman-church-third-century`. Another thread's fix. A gate on the standalone launch.
+   - 2026-11-07: `roman-church-third-century` fixed in the era 1 links pass: its `why` and
+     `legacy` no longer tie "the gravely lapsed" to Callistus. `aquileian-christianity` (era 2)
+     is still open.
 7. **Domain transfer to Cloudflare (2026-11-06).** `churchfamilytree.com` can move from
    Namecheap to Cloudflare Registrar from about 17 November 2026, after the 60-day lock.
    Pointing its nameservers at Cloudflare can happen any time. Owner: Mark, with steps given.
@@ -88,3 +91,25 @@ it, never by deleting it.
       lands" entries (Switzerland). "Ruthenia" carries Ukraine's ID in the place record but
       maps to Ukraine and Belarus, so it keeps both. The single-country condition is there for
       that case.
+
+18. **Irenaeus has no movement of his own (2026-11-07).** Against Heresies is the strongest text
+    against the Valentinians, but no census movement holds Irenaeus. In the era 1 links pass it
+    stands only as a witness inside the household-church link to the Valentinians. Whether
+    Irenaeus (or Lyon) gets an entry is a census decision for a later pass (P2-G).
+19. **Montanism's end date (2026-11-07).** `montanism-the-new-prophecy` reads "c. 165-400s",
+    but its own legacy runs to Justinian, and its new links cite Procopius, Secret History XI,
+    and Justinian's Novel 45 for the sixth century. The census entry's owner should reconcile
+    the dates.
+20. **Raw movement IDs in four later movements' text (2026-11-07).** The relations summaries of
+    `palestinian-ascetic-monasticism-early`, `aquileian-christianity` and
+    `gallic-nicene-episcopate`, and the relations summary and legacy of
+    `roman-church-gregorian`, print movement IDs to readers. They are for the era 2 and era 3
+    links passes. Era 1 is clean.
+21. **Who compiled the Philocalia (2026-11-07).** The project's records disagree. The Alexandria
+    world's source record gives it `attribution_status: attributed`
+    (`records/alx/source/alx.source.origen-philocalia.md`). The Cappadocian records say who
+    compiled it is contested (`records/cappadocian/force/cappadocian.force.family-archive-transmission.md`).
+    The vendored NPNF 7 text has Gregory of Nazianzus sending "works edited by himself and S. Basil"
+    (`cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`, lines 47442-47443). A cross-world
+    ruling for Mark. Until then the era 1 text follows the more cautious reading ("tradition
+    credits").

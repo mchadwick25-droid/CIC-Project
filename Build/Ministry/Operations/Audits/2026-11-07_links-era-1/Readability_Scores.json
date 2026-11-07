@@ -114,9 +114,9 @@
   "field": "legacy",
   "paragraph": 2,
   "fre_before": -12.8,
-  "fre_after": 63.5,
-  "fk_after": 7.6,
-  "words": 39,
+  "fre_after": 67.1,
+  "fk_after": 7.3,
+  "words": 41,
   "passed": true
  },
  {
@@ -144,9 +144,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 41.2,
-  "fre_after": 75.4,
-  "fk_after": 6.6,
-  "words": 46,
+  "fre_after": 68.7,
+  "fk_after": 8.9,
+  "words": 42,
   "passed": true
  },
  {
