@@ -57,6 +57,10 @@ class WeakAdminTokenError(Exception):
 _MIN_ADMIN_TOKEN_LENGTH = 32
 
 
+def parse_origins(raw: str | None) -> tuple[str, ...]:
+    return tuple(o.strip().rstrip("/") for o in (raw or "").split(",") if o.strip())
+
+
 def _float_or_none(raw: str | None) -> float | None:
     if not raw:
         return None
@@ -138,9 +142,9 @@ class Settings:
     # The feedback store (engine.feedback.store): a separate SQLite file.
     feedback_db_path: str
 
-    # The one public site origin allowed to post a comment cross-origin
-    # (/api/feedback). Falls back to the Go Deeper site origin when unset.
-    site_origin: str | None
+    # The public site origins allowed to post a comment cross-origin
+    # (/api/feedback), comma-separated. Falls back to the Go Deeper site origin when unset.
+    site_origins: tuple[str, ...]
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -177,5 +181,5 @@ class Settings:
             qc_db_path=os.environ.get("CIC_API_QC_DB", "./cic_api_qc.db"),
             streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
             feedback_db_path=os.environ.get("CIC_API_FEEDBACK_DB", "./cic_api_feedback.db"),
-            site_origin=os.environ.get("CIC_API_SITE_ORIGIN") or os.environ.get("CIC_DEEPER_SITE_ORIGIN") or None,
+            site_origins=parse_origins(os.environ.get("CIC_API_SITE_ORIGIN") or os.environ.get("CIC_DEEPER_SITE_ORIGIN")),
         )

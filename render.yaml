@@ -210,6 +210,8 @@ services:
         value: "1"
       - key: CIC_DEEPER_SITE_ORIGIN
         value: https://churchinconversation.com
+      - key: CIC_API_SITE_ORIGIN
+        value: https://churchinconversation.com,https://www.churchfamilytree.com
       - key: CIC_DEEPER_FREE_KEY
         sync: false
       - key: CIC_DEEPER_WEBHOOK_SECRET

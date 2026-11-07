@@ -68,11 +68,11 @@ applied to every shared file, not only the census.
 | PL1 | Place labels from each movement's and gap story's own region text | none | merged (#1529) |
 | PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | merged (#1529) |
 | PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | merged (#1529) |
-| P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
+| P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | in review |
 | P1b | Attach the domain; verify | Mark: dashboard steps | done (2026-11-07) |
 | P1c | Rename, data release 3, redirects | none (after P1b is verified) | merged (#1531) |
 | P1d | Door switch; about, privacy and support pages | Mark: Stripe links | merged (#1531); give buttons wait on the Stripe links |
-| P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | in review |
+| P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | merged (#1532) |
 | P2-L1…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-M | Method page, confidence at a glance | none | todo |

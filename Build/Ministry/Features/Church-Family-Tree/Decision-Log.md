@@ -318,3 +318,21 @@ the "Church Family Tree" button on 17 site pages and 12 tradition pages, the hom
 and fallback lines, and the 12 "See it on the Church Family Tree" links. All 13 distinct targets
 answer 200 live. The feedback bar's page name `atlas-v3` stays, so feedback keeps one name. The
 note for the outside researcher was drafted for Mark to send (Reading Ease 66).
+
+## 2026-11-07 — P1e merged; P1a2 built
+
+**P1e merged (#1532).** Live: Church in Conversation's homepage and tradition pages link straight
+to `www.churchfamilytree.com`.
+
+**P1a2.** The feedback API reads a comma-separated list of site origins, so the feedback bar works
+from both domains:
+- `CIC_API_SITE_ORIGIN` (falling back to `CIC_DEEPER_SITE_ORIGIN`) becomes a list.
+- The Go Deeper claim routes read their own variable the same way. Its value stays the one Church
+  in Conversation origin, because the app build's `VITE_DEEPER_SITE_ORIGIN` must match it and
+  the tree has no Go Deeper.
+- `render.yaml` declares `CIC_API_SITE_ORIGIN` on the production service with both origins.
+- Tests cover each allowed origin, refused look-alikes, and the list parsing.
+
+Before promotion, the live API answers Church in Conversation's origin and gives the tree's
+origin no permission header (checked 2026-11-07). Nothing changes until Mark promotes `main` to
+`live` and the variable reaches Render.

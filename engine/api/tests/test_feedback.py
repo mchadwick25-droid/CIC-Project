@@ -17,6 +17,7 @@ from engine.m7 import retention
 from engine.m7.qc_store import QCStore
 
 SITE = "https://site.example"
+TREE = "https://tree.example"
 ADMIN = {"Authorization": "Bearer " + "t" * 40}
 REPLY = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
 
@@ -26,7 +27,7 @@ def _http(store, usage_store, world_loader, registry, feedback_store, **extra):
     return TestClient(create_app(
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        default_world_key="fix", feedback_store=feedback_store, site_origin=SITE, admin_token="t" * 40, **extra,
+        default_world_key="fix", feedback_store=feedback_store, site_origins=(SITE, TREE), admin_token="t" * 40, **extra,
     ))
 
 
@@ -123,6 +124,18 @@ def test_sentence_basis_uses_plan_elements_then_citations_in_the_span():
     assert sentence_basis(turn, 1) == (["a.witness.two"], {"a.witness.two": {"level": "Contested"}})
     ids, confidence = sentence_basis(turn, None)
     assert ids == ["a.quote.one", "a.witness.two"] and set(confidence) == set(ids)
+
+
+def test_each_listed_origin_gets_the_cors_header_and_others_are_refused(http, feedback):
+    body = {"page": "tree/donatism", "text": "Thank you"}
+    for origin in (SITE, TREE):
+        ok = http.post("/api/feedback", json=body, headers={"Origin": origin})
+        assert ok.status_code == 201 and ok.headers["access-control-allow-origin"] == origin and ok.headers["vary"] == "Origin"
+        pre = http.options("/api/feedback", headers={"Origin": origin})
+        assert pre.status_code == 204 and pre.headers["access-control-allow-origin"] == origin
+    for origin in ("https://elsewhere.example", "https://tree.example.evil", "null"):
+        assert "access-control-allow-origin" not in http.post("/api/feedback", json=body, headers={"Origin": origin}).headers
+        assert "access-control-allow-origin" not in http.options("/api/feedback", headers={"Origin": origin}).headers
 
 
 def test_comment_from_the_site_origin_gets_the_cors_header(http, feedback):
@@ -248,7 +261,7 @@ def test_backup_includes_the_feedback_database(tmp_path, feedback, monkeypatch):
         worlds_yaml_path=tmp_path, default_world_key="fix", enforce_admission=False, admin_token=None,
         world_idle_unload_seconds=None, package_cache_dir=tmp_path, anon_cap_enabled=False, anon_visitor_secret=None,
         r27_enforce=False, self_revision_enabled=True,
-        citation_attach_enabled=False, qc_db_path="q", streaming_enabled=False, feedback_db_path=feedback.db_path, site_origin=None,
+        citation_attach_enabled=False, qc_db_path="q", streaming_enabled=False, feedback_db_path=feedback.db_path, site_origins=(),
     )
     assert backup_extra_dbs(settings, None) == {"feedback": feedback.db_path}
     assert backup_extra_dbs(settings, "m.db") == {"feedback": feedback.db_path, "meter": "m.db"}
@@ -266,11 +279,13 @@ def test_settings_read_the_feedback_paths(monkeypatch):
     for name in ("CIC_API_FEEDBACK_DB", "CIC_API_SITE_ORIGIN", "CIC_DEEPER_SITE_ORIGIN"):
         monkeypatch.delenv(name, raising=False)
     settings = Settings.from_env()
-    assert settings.feedback_db_path == "./cic_api_feedback.db" and settings.site_origin is None
+    assert settings.feedback_db_path == "./cic_api_feedback.db" and settings.site_origins == ()
     monkeypatch.setenv("CIC_DEEPER_SITE_ORIGIN", "https://a.example")
-    assert Settings.from_env().site_origin == "https://a.example"
+    assert Settings.from_env().site_origins == ("https://a.example",)
     monkeypatch.setenv("CIC_API_SITE_ORIGIN", "https://b.example")
-    assert Settings.from_env().site_origin == "https://b.example"
+    assert Settings.from_env().site_origins == ("https://b.example",)
+    monkeypatch.setenv("CIC_API_SITE_ORIGIN", " https://b.example, https://www.c.example/ ,")
+    assert Settings.from_env().site_origins == ("https://b.example", "https://www.c.example")
 
 
 OLD_TABLE = """
