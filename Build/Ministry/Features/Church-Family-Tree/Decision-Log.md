@@ -303,3 +303,18 @@ dont need the blue box … also the not yet built section should be removed").**
   shows only when it names a country.
 - The map loses its intro box. Training and About buttons will replace it later, as their own
   piece of work.
+
+## 2026-11-07 — P1c and P1d merged and live; P1e built
+
+**Merged (#1531).** Mark chose to carry the header, switches and P1d in the same pull request as
+P1c (option A), so one new build would pick up the corrected Cloudflare preview settings. The
+tree's preview builds kept running with settings other than the ones saved under Previews Base,
+so Mark turned tree previews off and approved merging with that one check red. Every GitHub check
+passed. After the deploy, `tools/check_tree_domains.mjs` found 0 problems across 300 movements,
+and the census was identical at both addresses.
+
+**P1e.** Church in Conversation's tree links now point at `https://www.churchfamilytree.com`:
+the "Church Family Tree" button on 17 site pages and 12 tradition pages, the homepage showcase
+and fallback lines, and the 12 "See it on the Church Family Tree" links. All 13 distinct targets
+answer 200 live. The feedback bar's page name `atlas-v3` stays, so feedback keeps one name. The
+note for the outside researcher was drafted for Mark to send (Reading Ease 66).
