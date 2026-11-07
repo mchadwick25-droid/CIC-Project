@@ -218,3 +218,8 @@ Edessa" shows "Nisibis, Turkey". Where nothing is left to add, there is no secon
 panel and the tree page keep the full line, since their headings use the long name. 49 of 292
 names contained a place.
 
+**Also decided the same day (Mark, of the book icons: "not all of them have names").** Each of
+the 62 gap stories shows its title beside its icon from the second zoom step (0.7), the same
+step as place lines. The titles join the no-overlap layout and hide with the stories switch.
+Measured at reading zoom: no overlaps, 223 place lines shown.
+
