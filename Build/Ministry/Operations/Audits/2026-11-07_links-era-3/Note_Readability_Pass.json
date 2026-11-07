@@ -1,0 +1,407 @@
+{
+ "pass": "link notes, readability",
+ "date": "2026-11-07",
+ "method": "Two Opus agents rewrote the 40 notes below Reading Ease 60 for readability only, keeping every fact. A script then checked each against the old note: every number and proper name kept (possessive and adjectival forms read by hand), no sentence past 25 words, no internal words. One note was fixed by hand: it had slipped into a first-person 'we'. One note stays below 60: the Chalcedon break (Reading Ease 57.7, FK 8.2), whose names (Chalcedon, Dioscorus, Alexandria, Evagrius, Timothy Aelurus, Miaphysite) hold it down; every shorter version dropped a fact. These rewrites came after the third review round and were not independently reviewed; P2-L11 should recheck them.",
+ "changes": [
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "old": "The Egyptian church's History of the Patriarchs, compiled centuries later, ties its Miaphysite patriarchs to the desert monasteries. It says Patriarch Peter's letters were kept at the Monastery of Macarius. It says Patriarch Benjamin, in flight, passed through the monasteries of Wadi Habib before hiding in Upper Egypt.",
+   "new": "Centuries later, the church of Egypt compiled its History of the Patriarchs. It ties its Miaphysite patriarchs to the desert monasteries. It says that all the letters of Patriarch Peter were kept at the Monastery of Macarius. It says that Patriarch Benjamin fled through the monasteries of Wadi Habib. From there he went to hide in Upper Egypt.",
+   "fre_after": 60.9,
+   "fk_after": 7.7,
+   "passed": true,
+   "facts_check": "History of the Patriarchs, Egyptian church's, compiled centuries later -> S1; ties Miaphysite patriarchs to desert monasteries -> S2; Peter's letters kept at Monastery of Macarius -> S3 ('all' from the quoted line 'All his epistles'); Benjamin in flight passed through Wadi Habib monasteries -> S4 ('fled through'); hid in Upper Egypt -> S5; 'It says' attribution -> S3, S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "old": "Writing after his exile began, Severus of Antioch told Egyptian clergy his care for Alexandria's church was even greater than for Antioch's. He says groups long separated from the Egyptian church joined it through his efforts. Patriarch Dioscorus II of Alexandria, he writes, followed his advice.",
+   "new": "Severus of Antioch wrote to Egyptian clergy after his exile began. He told them he cared even more for Alexandria's church than for Antioch's. He says groups long cut off from the Egyptian church joined it through his work. Dioscorus II, patriarch of Alexandria, took his advice, he writes.",
+   "fre_after": 63.2,
+   "fk_after": 7.5,
+   "passed": true,
+   "facts_check": "Severus of Antioch, writing after exile began, to Egyptian clergy -> S1; care for Alexandria's church greater than Antioch's -> S2; groups long separated joined Egyptian church through his efforts ('He says') -> S3 ('cut off', 'work'); Dioscorus II of Alexandria followed his advice ('he writes') -> S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "old": "John of Ephesus says the priest Julian, backed by the empress Theodora, converted the king of the Nobadae. Julian was one of the clergy of Theodosius, the exiled patriarch of Alexandria. He told them to 'walk in the ways of pope Theodosius', and they were placed under Theodosius as patriarch.",
+   "new": "John of Ephesus says the priest Julian, backed by the empress Theodora, converted the king of the Nobadae. Julian was one of the clergy of Theodosius, the exiled patriarch of Alexandria. He told them to 'walk in the ways of pope Theodosius'. They were placed under Theodosius as their patriarch.",
+   "fre_after": 63.9,
+   "fk_after": 7.5,
+   "passed": true,
+   "facts_check": "John of Ephesus says; priest Julian; backed by empress Theodora; converted king of the Nobadae -> S1; Julian one of the clergy of Theodosius, exiled patriarch of Alexandria -> S2; quote 'walk in the ways of pope Theodosius' -> S3 verbatim; placed under Theodosius as patriarch -> S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+   "old": "Benjamin led the church of Alexandria both before and after the Arab conquest. John of Nikiu says he returned to Alexandria in the thirteenth year after fleeing the Romans. The History of the Patriarchs says the conqueror Amr told him to resume governing his churches.",
+   "new": "Benjamin led the church of Alexandria both before and after the Arab conquest. John of Nikiu says he came back to Alexandria in the thirteenth year after he fled the Romans. The History of the Patriarchs says Amr, the conqueror, told him to govern his churches once more.",
+   "fre_after": 65.5,
+   "fk_after": 8.1,
+   "passed": true,
+   "facts_check": "Benjamin led Alexandria's church before and after Arab conquest -> S1; John of Nikiu says; returned to Alexandria in thirteenth year after fleeing the Romans -> S2; History of the Patriarchs says conqueror Amr told him to resume governing his churches -> S3 ('govern ... once more').",
+   "hand_fixed": false
+  },
+  {
+   "id": "nubian-christianity--makurian-nubian-christianity",
+   "old": "John of Biclarum records that the Makurians accepted Christianity in the third year of Justin II, about 569. Al-Baladhuri shows the Nubians still bound by their treaty under the caliph al-Mahdi, in the 770s and 780s. Modern histories treat Christian Nubia as one continuing church across these centuries.",
+   "new": "John of Biclarum says the Makurians took up the Christian faith in the third year of Justin II, about 569. Al-Baladhuri shows the Nubians still bound by their treaty in the 770s and 780s, under the caliph al-Mahdi. Modern histories treat Christian Nubia as one church that ran on through these centuries.",
+   "fre_after": 69.2,
+   "fk_after": 8.0,
+   "passed": true,
+   "facts_check": "John of Biclarum records; Makurians accepted Christianity; third year of Justin II; about 569 -> S1 ('says', 'took up the Christian faith'); Al-Baladhuri; Nubians still bound by treaty; caliph al-Mahdi; 770s and 780s -> S2; modern histories treat Christian Nubia as one continuing church across these centuries -> S3.",
+   "hand_fixed": false
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "old": "Around 550 Facundus of Hermiane cited 'blessed Cyprian, bishop of Carthage and martyr' in his defence of the Three Chapters. He called Augustine the 'most wise and most famous teacher of the churches of Christ'. Procopius says the Carthaginians of 533 revered Cyprian above all other holy men.",
+   "new": "Around 550 Facundus of Hermiane wrote in defence of the Three Chapters. In it he cited 'blessed Cyprian, bishop of Carthage and martyr'. He called Augustine the 'most wise and most famous teacher of the churches of Christ'. Procopius says the people of Carthage in 533 revered Cyprian above all other holy men.",
+   "fre_after": 62.8,
+   "fk_after": 7.7,
+   "passed": true,
+   "facts_check": "Around 550; Facundus of Hermiane; defence of the Three Chapters; quote 'blessed Cyprian, bishop of Carthage and martyr' -> S1-S2 verbatim; Augustine quote 'most wise and most famous teacher of the churches of Christ' -> S3 verbatim; Procopius says Carthaginians of 533 revered Cyprian above all other holy men -> S4 ('the people of Carthage in 533').",
+   "hand_fixed": false
+  },
+  {
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "old": "Facundus of Hermiane addressed his twelve books defending the Three Chapters to Justinian himself. Victor of Tunnuna records that in 550 the African bishops sent the emperor letters in their defence. He also records that Reparatus of Carthage was deposed and exiled for refusing to condemn them.",
+   "new": "Facundus of Hermiane wrote twelve books in defence of the Three Chapters. He addressed them to Justinian himself. Victor of Tunnuna says that in 550 the bishops of Africa wrote to the emperor in their defence. He adds that Reparatus of Carthage was deposed and sent into exile because he would not condemn them.",
+   "fre_after": 60.9,
+   "fk_after": 8.1,
+   "passed": true,
+   "facts_check": "Facundus of Hermiane; twelve books; defending the Three Chapters -> S1; addressed to Justinian himself -> S2; Victor of Tunnuna records; 550; African bishops sent the emperor letters in their defence -> S3 ('says', 'bishops of Africa wrote to the emperor'); also records Reparatus of Carthage deposed and exiled for refusing to condemn them -> S4 ('He adds', 'because he would not condemn them').",
+   "hand_fixed": false
+  },
+  {
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+   "old": "In 646 the bishops of Numidia, Byzacena and Mauretania wrote to Pope Theodore against a 'novelty' spreading from Constantinople. Pope Martin told the Roman synod of 649 that they had also appealed to the emperor against its defender, Patriarch Paul of Constantinople.",
+   "new": "In 646 the bishops of Numidia, Byzacena and Mauretania wrote to Pope Theodore. They wrote against a 'novelty' that was spreading from Constantinople. Pope Martin told the Roman synod of 649 that they had also turned to the emperor. They made their case to him against its defender, Paul, the patriarch of that city.",
+   "fre_after": 60.2,
+   "fk_after": 8.1,
+   "passed": true,
+   "facts_check": "646; bishops of Numidia, Byzacena and Mauretania wrote to Pope Theodore -> S1; against a 'novelty' spreading from Constantinople -> S2 (quote verbatim); Pope Martin told Roman synod of 649 they had also appealed to the emperor -> S3 ('turned to the emperor'); against its defender, Patriarch Paul of Constantinople -> S4 ('made their case to him against its defender, Paul, the patriarch of that city').",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "old": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451, after he refused three summonses to answer his accusers. A petition to Emperor Leo, quoted by the historian Evagrius, says Timothy Aelurus broke from the Catholic church right after Chalcedon. A Miaphysite chronicle of the next century tells the other side: clergy, monks and people cut themselves off from the new bishop's communion.",
+   "new": "In October 451 the Council of Chalcedon deposed Dioscorus, bishop of Alexandria. He had been called three times to answer his accusers, and each time he would not come. The historian Evagrius quotes a petition to Emperor Leo. It says Timothy Aelurus broke from the Catholic church right after the council. A Miaphysite chronicle of the 500s tells the other side. In it, clergy, monks and people broke off from the new bishop's communion.",
+   "fre_after": 57.7,
+   "fk_after": 8.2,
+   "passed": false,
+   "facts_check": "Council of Chalcedon deposed Dioscorus, bishop of Alexandria, October 451 -> S1; after refusing three summonses to answer accusers -> S2 ('called three times... each time he would not come'); petition to Emperor Leo quoted by historian Evagrius -> S3; Timothy Aelurus broke from the Catholic church right after Chalcedon -> S4 ('right after the council'); Miaphysite chronicle of next century tells the other side -> S5 ('of the 500s'); clergy, monks and people cut themselves off from the new bishop's communion -> S6 ('broke off from'). NOTE: six sentences, FRE 57.7 - below 60 and above the 2-4 sentence range; every fact kept.",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+   "old": "The Chalcedonian historian Evagrius says Severus fled his see at Antioch in September 518. Paul replaced him, with orders to proclaim the Council of Chalcedon openly. A Miaphysite chronicle of the same century says Severus left for fear of the emperor. In December 522 the bishop of Edessa expelled the monks who refused the council.",
+   "new": "Evagrius, a historian who backed the Council of Chalcedon, says Severus fled his see at Antioch in September 518. Paul took his place, and he was told to proclaim the council in the open. A Miaphysite chronicle of the same century says Severus left for fear of the emperor. In December 522 the bishop of Edessa threw out the monks who would not accept the council.",
+   "fre_after": 62.4,
+   "fk_after": 8.5,
+   "passed": true,
+   "facts_check": "Chalcedonian historian Evagrius says -> S1 ('a historian who backed the Council of Chalcedon'); Severus fled his see at Antioch, September 518 -> S1; Paul replaced him with orders to proclaim the Council of Chalcedon openly -> S2 ('took his place... told to proclaim the council in the open'); Miaphysite chronicle of the same century says Severus left for fear of the emperor -> S3; December 522 bishop of Edessa expelled monks who refused the council -> S4 ('threw out', 'would not accept').",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+   "old": "Justinian confirmed the anathema that the patriarchal sees and the monks had passed on Severus of Antioch. His law ordered Severus's books to be burned and barred Severus from the capital. Evagrius says it also threatened Severus's followers with the highest penalties.",
+   "new": "Justinian confirmed the anathema that the sees of the patriarchs and the monks had passed on Severus of Antioch. His law said Severus's books must be burned, and it kept him out of the capital. Evagrius says it also threatened those who held to his views with the highest penalties.",
+   "fre_after": 63.0,
+   "fk_after": 8.6,
+   "passed": true,
+   "facts_check": "Justinian confirmed the anathema passed on Severus of Antioch by patriarchal sees and monks -> S1 ('sees of the patriarchs'); law ordered books burned -> S2; barred Severus from the capital -> S2 ('kept him out of the capital'); Evagrius says threatened followers with highest penalties -> S3 ('those who held to his views', matching source 'those who held their doctrines').",
+   "hand_fixed": false
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "old": "A Syriac chronicle of the 560s says that after 518 many of Severus's bishops withdrew to Alexandria, following him. It also copies the letters of communion that Severus of Antioch and Theodosius of Alexandria exchanged in the 530s. Each greets the other as brother and fellow minister.",
+   "new": "After 518, says a Syriac chronicle of the 560s, many bishops went to Alexandria in the steps of Severus of Antioch. It also copies the letters of communion that he and Theodosius of that city sent each other in the 530s. Each greets the other as his brother and fellow minister.",
+   "fre_after": 61.3,
+   "fk_after": 8.8,
+   "passed": true,
+   "facts_check": "Syriac chronicle of the 560s says -> S1; after 518 many of Severus's bishops withdrew to Alexandria following him -> S1 ('went to Alexandria in the steps of Severus of Antioch', source: 'walking in the footsteps'); copies letters of communion Severus of Antioch and Theodosius of Alexandria exchanged, 530s -> S2 ('he and Theodosius of that city sent each other'); each greets the other as brother and fellow minister -> S3.",
+   "hand_fixed": false
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "old": "Michael the Syrian, a twelfth-century patriarch of this church, records an unbroken line of patriarchs across the Arab conquest. John of the Sedre succeeded Athanasius in about 631. After the Roman defeat at the Yarmouk, the same John ordained a bishop for Edessa and was questioned by the Arab emir 'Amr.",
+   "new": "Michael the Syrian, a patriarch of this church in the 1100s, records an unbroken line of patriarchs across the Arab conquest. John of the Sedre took over from Athanasius in about 631. After the Roman defeat at the Yarmouk, the same John ordained a bishop for Edessa. He was also questioned by the Arab emir 'Amr.",
+   "fre_after": 63.7,
+   "fk_after": 7.8,
+   "passed": true,
+   "facts_check": "Michael the Syrian; twelfth-century patriarch of this church -> S1 ('in the 1100s'); records unbroken line of patriarchs across Arab conquest -> S1; John of the Sedre succeeded Athanasius about 631 -> S2 ('took over from'); after Roman defeat at the Yarmouk, same John ordained a bishop for Edessa -> S3; questioned by Arab emir 'Amr -> S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "old": "Evagrius says the patriarch of Jerusalem sent leading Judean monks to Constantinople before the council of 553. Conon came from the monastery of Saba and Rufus from that of Theodosius. At court they raised the questions about Origen's teaching.",
+   "new": "Evagrius says the patriarch of Jerusalem sent leading monks from Judea to Constantinople. This was before the council of 553. Conon was from the monastery of Saba, and Rufus was from that of Theodosius. At court it was they who raised the questions about what Origen taught.",
+   "fre_after": 60.9,
+   "fk_after": 7.6,
+   "passed": true,
+   "facts_check": "Evagrius says; patriarch of Jerusalem sent leading Judean monks to Constantinople -> S1 ('monks from Judea'); before the council of 553 -> S2; Conon from monastery of Saba, Rufus from that of Theodosius -> S3; at court raised the questions about Origen's teaching -> S4 ('what Origen taught').",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids--bagratid-armenian-christianity",
+   "old": "The Armenian catholicate ran on without a break as the Bagratid kingdom rose in the 880s. Samuel of Ani's chronicle shows a Bagratid prince, Smbat, choosing a catholicos around 855. The catholicos Gevorg II held office from the late 870s into the 890s.",
+   "new": "In Armenia the office of catholicos ran on with no break as the Bagratid kingdom rose in the 880s. Samuel of Ani's chronicle shows a Bagratid prince, Smbat, as he chose a catholicos around 855. Gevorg II held that office from the late 870s into the 890s.",
+   "fre_after": 66.2,
+   "fk_after": 7.8,
+   "passed": true,
+   "facts_check": "Armenian catholicate ran on without a break as Bagratid kingdom rose in 880s -> S1 ('office of catholicos ran on with no break'); Samuel of Ani's chronicle; Bagratid prince Smbat choosing a catholicos around 855 -> S2; catholicos Gevorg II held office late 870s into 890s -> S3 ('held that office').",
+   "hand_fixed": false
+  },
+  {
+   "id": "georgian-christianity--georgian-revival-tao-klarjeti",
+   "old": "After its break with Armenia around 600, a catholicos of Georgia still appears in the Armenian historian Sebeos. The historian Marie-Félicité Brosset names Georgian catholicoi in the mid-600s and around 790. He doubted that the see ever lapsed, though the sources for these years are thin.",
+   "new": "The Georgian church broke with Armenia around 600. After that, a catholicos of Georgia still appears in the Armenian historian Sebeos. The historian Marie-Félicité Brosset names Georgian catholicoi in the mid-600s and around 790. He doubted that the see ever lapsed, though the sources for these years are thin.",
+   "fre_after": 60.5,
+   "fk_after": 7.9,
+   "passed": true,
+   "facts_check": "break with Armenia around 600 -> S1; catholicos of Georgia still appears in Armenian historian Sebeos -> S2; historian Marie-Félicité Brosset names Georgian catholicoi mid-600s and around 790 -> S3; he doubted the see ever lapsed -> S4; sources for these years are thin -> S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+   "old": "In 554 a council at Dvin, under the catholicos Nerses II, confirmed the Armenian church's rejection of the Council of Chalcedon. It proclaimed the faith of Ephesus against the claims of Chalcedon. This rests on modern histories of the Armenian church, chiefly Malachia Ormanian's.",
+   "new": "In 554 a council met at Dvin under the catholicos Nerses II. It confirmed that the Armenian church said no to the Council of Chalcedon. Against the claims of that council, it proclaimed the faith of Ephesus. This rests on modern histories of that church, and most of all on the one by Malachia Ormanian.",
+   "fre_after": 67.8,
+   "fk_after": 7.2,
+   "passed": true,
+   "facts_check": "554; council at Dvin; under catholicos Nerses II -> S1; confirmed Armenian church's rejection of Council of Chalcedon -> S2 ('said no to'); proclaimed faith of Ephesus against claims of Chalcedon -> S3 ('against the claims of that council'); rests on modern histories of the Armenian church, chiefly Malachia Ormanian's -> S4 ('of that church, and most of all on the one by').",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids--georgian-christianity",
+   "old": "Around 600 the Georgian church, led by its catholicos Kurion, accepted the Council of Chalcedon. The Armenian catholicos Abraham condemned him at a council in Dvin. Samuel of Ani, a twelfth-century Armenian chronicler, records that the Georgians separated after adopting Chalcedon. Scholars date the break anywhere from 596 to 609.",
+   "new": "Around 600 the Georgian church, led by its catholicos Kurion, took up the Council of Chalcedon. The Armenian catholicos Abraham condemned him at a council in Dvin. Samuel of Ani, an Armenian chronicler of the 1100s, says the Georgians split off once they had done so. Scholars put the break at any date from 596 to 609.",
+   "fre_after": 64.7,
+   "fk_after": 7.6,
+   "passed": true,
+   "facts_check": "around 600; Georgian church led by catholicos Kurion accepted Council of Chalcedon -> S1 ('took up'); Armenian catholicos Abraham condemned him at a council in Dvin -> S2; Samuel of Ani, twelfth-century Armenian chronicler, records Georgians separated after adopting Chalcedon -> S3 ('of the 1100s', 'split off once they had done so'); scholars date the break 596 to 609 -> S4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--georgian-christianity",
+   "old": "Georgian, Armenian and Albanian bishops met together at a council in Dvin in 506, says the Armenian historian Malachia Ormanian. A Syriac chronicle of about 555 gives the northern Christian peoples one catholicos, at Dvin. It then describes Georgia as a land with a Christian prince, subject to Persia.",
+   "new": "The Armenian historian Malachia Ormanian tells of a council in Dvin in 506. He says bishops from Georgia, Armenia and Albania all met there. A Syriac chronicle of about 555 says the Christian peoples of the north had one catholicos, at Dvin. It then calls Georgia a land with a Christian prince, subject to Persia.",
+   "fre_after": 64.1,
+   "fk_after": 7.6,
+   "passed": true,
+   "facts_check": "Armenian historian Malachia Ormanian says (attribution) -> S1-S2; council in Dvin in 506 -> S1; Georgian, Armenian and Albanian bishops met together -> S2 ('bishops from Georgia, Armenia and Albania all met there'); Syriac chronicle of about 555; northern Christian peoples one catholicos at Dvin -> S3 ('Christian peoples of the north had one catholicos'); describes Georgia as land with Christian prince, subject to Persia -> S4 ('calls Georgia').",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+   "old": "Albanian, Armenian and Georgian bishops met together at a council in Dvin in 506, says the Armenian historian Malachia Ormanian. A Syriac chronicle of about 555 gives the northern Christian peoples one catholicos, at Dvin. It counts Albania, which it calls Arran, as 'a believing and baptized people.'",
+   "new": "The Armenian historian Malachia Ormanian tells of a council in Dvin in 506. He says bishops from Albania, Armenia and Georgia all met there. A Syriac chronicle of about 555 says the Christian peoples of the north had one catholicos, at Dvin. It counts Albania, which it calls Arran, as 'a believing and baptized people.'",
+   "fre_after": 62.7,
+   "fk_after": 7.2,
+   "passed": true,
+   "facts_check": "Armenian historian Malachia Ormanian says -> S1-S2; council in Dvin in 506 -> S1; Albanian, Armenian and Georgian bishops met together -> S2; Syriac chronicle of about 555; northern Christian peoples one catholicos at Dvin -> S3; counts Albania, called Arran, as 'a believing and baptized people.' -> S4 verbatim.",
+   "hand_fixed": false
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+   "old": "The Armenian catholicos Elias (703–717) worked to keep Albania in the Armenian communion. When the Albanian catholicos Nerses Bakur leaned towards Chalcedon, he was removed and Simeon put in his place. This rests on modern histories of the Armenian church.",
+   "new": "Elias led the church of Armenia as its catholicos from 703 to 717. He worked to keep Albania in the Armenian communion. When Nerses Bakur, head of the church in Albania, leaned towards Chalcedon, he was removed and Simeon was put in his place. This rests on modern histories of the Armenian church.",
+   "fre_after": 61.2,
+   "fk_after": 7.9,
+   "passed": true,
+   "facts_check": "Elias, Armenian catholicos, 703-717 -> s1; worked to keep Albania in Armenian communion -> s2; Albanian catholicos Nerses Bakur leaned to Chalcedon, removed, Simeon put in place -> s3 ('catholicos' glossed as 'head of the church in Albania'); rests on modern histories of the Armenian church -> s4.",
+   "hand_fixed": true
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--georgian-christianity",
+   "old": "Around 600 the Georgian catholicos Kurion turned to Constantinople and accepted the Council of Chalcedon. Sebeos, an Armenian historian of the 600s, later places the catholicos of Georgia on Chalcedon's side, alongside bishops from the Greek lands.",
+   "new": "Around 600, Kurion, head of the church in Georgia, turned to Constantinople and accepted the Council of Chalcedon. Writing later in the 600s, the Armenian historian Sebeos puts the head of the Georgian church on Chalcedon's side. Bishops from the Greek lands stand with him.",
+   "fre_after": 61.2,
+   "fk_after": 8.4,
+   "passed": true,
+   "facts_check": "Around 600, Kurion, Georgian catholicos (glossed 'head of the church in Georgia'), turned to Constantinople, accepted Chalcedon -> s1; Sebeos, Armenian historian of the 600s, later places catholicos of Georgia on Chalcedon's side -> s2; alongside bishops from the Greek lands -> s3.",
+   "hand_fixed": false
+  },
+  {
+   "id": "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity",
+   "old": "Georgian manuscripts keep a lectionary, the yearly order of Bible readings, that follows the worship of Jerusalem in the fifth to eighth centuries. Michel Tarchnischvili edited it in 1959–60. This rests on that one edition.",
+   "new": "A lectionary sets out the Bible readings for the year. One kept in Georgian manuscripts follows the worship of Jerusalem from the fifth to the eighth century. Michel Tarchnischvili edited it in 1959–60. This rests on that one edition.",
+   "fre_after": 61.4,
+   "fk_after": 7.1,
+   "passed": true,
+   "facts_check": "Lectionary = yearly order of Bible readings -> s1 ('Bible readings for the year'); kept in Georgian manuscripts, follows Jerusalem worship 5th-8th c. -> s2; Tarchnischvili edited 1959-60 -> s3; rests on that one edition -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "old": "In his Dialogues, Gregory tells the life of Benedict and praises the rule Benedict wrote for his monks, 'excellent for discretion'. Gregory says he had his stories from four of Benedict's disciples, including Constantinus, the next abbot after him.",
+   "new": "Gregory tells the life of Benedict in his Dialogues. He praises the rule Benedict wrote for his monks as 'excellent for discretion'. Gregory says he had his stories from four of the saint's disciples. One was Constantinus, the next abbot after him.",
+   "fre_after": 63.2,
+   "fk_after": 7.0,
+   "passed": true,
+   "facts_check": "Dialogues tells Benedict's life -> s1; praises his rule for monks, 'excellent for discretion' (quote kept) -> s2; Gregory says stories from four of Benedict's disciples -> s3; incl. Constantinus, next abbot after him -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+   "old": "In 802 Charlemagne gathered abbots and monks at Aachen, where they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against that rule be corrected by it. Sixty years earlier, Carloman's council of 742 had told monks and nuns to live by the same rule.",
+   "new": "In 802 Charlemagne gathered abbots and monks at Aachen. There they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against the rule be put right by it. Sixty years before, in 742, Carloman's council had told monks and nuns to live by the same rule.",
+   "fre_after": 65.6,
+   "fk_after": 7.2,
+   "passed": true,
+   "facts_check": "802, Charlemagne gathered abbots and monks at Aachen -> s1; read the Rule together -> s2; ordered anything against the rule in monasteries corrected by it -> s3 ('put right by it'); sixty years earlier, Carloman's council of 742 told monks and nuns to live by it -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "old": "Two Benedictine editors of the Rule, Oswald Hunter Blair in 1907 and Cardinal Gasquet, explain its practice from Cluny's later customs. Gasquet calls it practically the only monastic rule of the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+   "new": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls it practically the only rule for monks in the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+   "fre_after": 68.5,
+   "fk_after": 7.4,
+   "passed": true,
+   "facts_check": "Two Benedictine editors explain practice from Cluny's later customs -> s1 ('how it was lived'); Oswald Hunter Blair 1907, Cardinal Gasquet -> s2; Gasquet: practically the only monastic rule of the West, 9th-12th c. -> s3 ('only rule for monks'); rests on these two editors, not Cluny's own texts -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "old": "Before he became pope, Gregory lived at Constantinople as the pope's envoy. In his Morals on Job he recalls arguing with Eutychius, bishop of Constantinople, about the resurrection, until Emperor Tiberius heard them both. Paul the Deacon, writing in the late eighth century, tells the same story.",
+   "new": "Before he was pope, Gregory lived at Constantinople as the pope's envoy. In his Morals on Job, he recalls a debate on the resurrection with Eutychius, the city's bishop. It went on until Emperor Tiberius heard them both. Paul the Deacon tells the same story in the late 700s.",
+   "fre_after": 63.2,
+   "fk_after": 7.5,
+   "passed": true,
+   "facts_check": "Before pope, lived at Constantinople as pope's envoy -> s1; Morals on Job recalls arguing with Eutychius, bishop of Constantinople, on resurrection -> s2 ('debate', 'the city's bishop'); until Emperor Tiberius heard both -> s3; Paul the Deacon, late 8th c., same story -> s4 ('late 700s').",
+   "hand_fixed": false
+  },
+  {
+   "id": "nicene-visigothic-iberia--roman-church-gregorian",
+   "old": "Gregory and Leander of Seville first met at Constantinople and kept writing to each other. Gregory told Leander that his letters had made him love King Reccared. Later Gregory wrote to Reccared himself, praising the conversion of the whole Gothic nation.",
+   "new": "Gregory first met Leander of Seville at Constantinople, and the two kept writing to each other. In one letter Gregory said that Leander's letters had made him love King Reccared. Later he wrote to the king himself. He praised the conversion of the whole Gothic nation.",
+   "fre_after": 62.7,
+   "fk_after": 7.4,
+   "passed": true,
+   "facts_check": "Gregory and Leander first met at Constantinople and kept writing -> s1; Gregory told Leander his letters made him love Reccared -> s2; later wrote to Reccared himself -> s3; praising conversion of whole Gothic nation -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "old": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop, but barred bishops who had come over from the Donatists from that rank.",
+   "new": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop. But he barred bishops who had come over from the Donatists from that rank.",
+   "fre_after": 68.3,
+   "fk_after": 7.3,
+   "passed": true,
+   "facts_check": "Wrote to all bishops of Numidia, answering request sent to his predecessor -> s1; let them keep old customs for choosing a senior bishop -> s2; barred ex-Donatist bishops from that rank -> s3.",
+   "hand_fixed": false
+  },
+  {
+   "id": "roman-church-gregorian--carolingian-reform-christianity",
+   "old": "A Carolingian list of what clergy must learn tells canons to know 'the pastoral book', which its editor identifies as Gregory's. Gregory's translator James Barmby adds that councils held at Charlemagne's command in 813 required all bishops to study it.",
+   "new": "A Carolingian list sets out what clergy must learn. It tells canons to know 'the pastoral book', which its editor says is Gregory's. James Barmby, who translated Gregory, goes further. He says that in 813, councils called by Charlemagne made all bishops study it.",
+   "fre_after": 64.1,
+   "fk_after": 7.0,
+   "passed": true,
+   "facts_check": "Carolingian list of what clergy must learn -> s1; tells canons to know 'the pastoral book', editor identifies as Gregory's -> s2; Gregory's translator James Barmby adds -> s3 ('goes further'); councils at Charlemagne's command in 813 required all bishops to study it -> s4 ('called by Charlemagne').",
+   "hand_fixed": false
+  },
+  {
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "old": "King Alfred had Gregory's Pastoral Rule turned into West Saxon English, meaning, he said, to send a copy to every bishop in his kingdom. We have this from Gregory's translator James Barmby, writing in 1895.",
+   "new": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. We have this from James Barmby, Gregory's translator, who wrote in 1895.",
+   "fre_after": 67.8,
+   "fk_after": 6.8,
+   "passed": true,
+   "facts_check": "Alfred had Pastoral Rule turned into West Saxon English -> s1 ('put into'); meaning, he said, to send a copy to every bishop in his kingdom -> s2 ('each bishop'); source is Gregory's translator Barmby, 1895 -> s3.",
+   "hand_fixed": false
+  },
+  {
+   "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "old": "In 742 Boniface wrote that Carloman wanted a synod to repair the Frankish church, trampled for sixty or seventy years. In 751 the bishops of Gaul anointed Pippin king. Historians treat it as the same Frankish church, reformed rather than replaced under the new dynasty.",
+   "new": "In 742 Boniface wrote that Carloman wanted a synod to repair the Frankish church. It had been trampled, he said, for sixty or seventy years. In 751 the bishops of Gaul anointed Pippin king. Historians treat it as the same Frankish church, reformed but not replaced when the new kings took power.",
+   "fre_after": 68.9,
+   "fk_after": 6.7,
+   "passed": true,
+   "facts_check": "742 Boniface wrote Carloman wanted synod to repair Frankish church -> s1; trampled sixty or seventy years -> s2 (attribution 'he said' kept); 751 bishops of Gaul anointed Pippin king -> s3; historians treat it as same church, reformed not replaced under new dynasty -> s4 ('when the new kings took power').",
+   "hand_fixed": false
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+   "old": "When Belisarius took Carthage in 533, the Arian priests fled and the orthodox took back the shrine of Cyprian. Procopius says Justinian then barred any Christian outside the orthodox faith from baptism and every other sacrament, so Arian soldiers could not baptize their children.",
+   "new": "Belisarius took Carthage in 533. The Arian priests fled, and the orthodox took back the shrine of Cyprian. Then, Procopius says, Justinian let no Christian outside the orthodox faith be baptized or share in any other sacrament. So Arian soldiers could not baptize their children.",
+   "fre_after": 61.1,
+   "fk_after": 7.5,
+   "passed": true,
+   "facts_check": "Belisarius took Carthage 533 -> s1; Arian priests fled, orthodox took back Cyprian's shrine -> s2; Procopius says Justinian barred non-orthodox Christians from baptism and every other sacrament -> s3; so Arian soldiers could not baptize their children -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "old": "Jonas of Bobbio, writing around 640, tells how Columbanus sailed from Ireland and founded Luxeuil in Gaul. Local nobles then founded monasteries under his rule, among them Donatus, bishop of Besançon, and Dado at Rebais. The handbook of penances Columbanus wrote on the Continent became a model for later Frankish ones.",
+   "new": "Writing around 640, Jonas of Bobbio tells how Columbanus sailed from Ireland and set up Luxeuil in Gaul. Local nobles then set up houses for monks under his rule. Among them were Donatus, bishop of Besançon, and Dado at Rebais. His book of penances, which he wrote on the Continent, set the model for later Frankish ones.",
+   "fre_after": 61.8,
+   "fk_after": 8.2,
+   "passed": true,
+   "facts_check": "Jonas of Bobbio, c. 640, tells how Columbanus sailed from Ireland and founded Luxeuil in Gaul -> s1; local nobles founded monasteries under his rule -> s2 ('houses for monks'); among them Donatus bishop of Besancon and Dado at Rebais -> s3; Columbanus's handbook of penances written on the Continent became model for later Frankish ones -> s4 ('book of penances', 'set the model').",
+   "hand_fixed": false
+  },
+  {
+   "id": "insular-irish-monastic-christianity--roman-church-gregorian",
+   "old": "Around 600 the Irish monk Columbanus wrote from Luxeuil to Pope Gregory, defending the Irish date of Easter. He asked Gregory why he kept a dark Easter, and said Irish scholars had never accepted the Easter tables of Victorius. No reply from Gregory survives.",
+   "new": "Around 600 the Irish monk Columbanus wrote from Luxeuil to Pope Gregory. He stood up for the Irish date of Easter and asked why Gregory kept a dark Easter. Irish scholars, he said, had never taken up the Easter tables of Victorius. No reply from Gregory survives.",
+   "fre_after": 60.9,
+   "fk_after": 7.6,
+   "passed": true,
+   "facts_check": "Around 600, Irish monk Columbanus wrote from Luxeuil to Pope Gregory -> s1; defending Irish Easter date, asked why Gregory kept a dark Easter -> s2 ('stood up for'); Irish scholars never accepted Victorius's tables -> s3 ('taken up'); no reply survives -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "old": "Writing to Pope Gregory around 600, the Irish monk Columbanus cited Gildas, the British monk and writer. He reported that a writer named Vennianus had asked Gildas about monks who left their monasteries, and that Gildas answered most elegantly.",
+   "new": "Around 600 the Irish monk Columbanus wrote a letter to Pope Gregory. In it he cited Gildas, the British monk and writer. He said that a writer named Vennianus had asked Gildas about monks who left their monastery. Gildas, he said, had given him a most elegant reply.",
+   "fre_after": 61.7,
+   "fk_after": 7.6,
+   "passed": true,
+   "facts_check": "Around 600, Columbanus, Irish monk, wrote to Pope Gregory -> s1; cited Gildas, British monk and writer -> s2; reported Vennianus asked Gildas about monks who left their monasteries -> s3 ('their monastery'); Gildas answered most elegantly -> s4 ('a most elegant reply', attribution 'he said' kept).",
+   "hand_fixed": false
+  },
+  {
+   "id": "anglo-saxon-christianity--british-welsh-christianity",
+   "old": "Bede records two meetings around 603 between Augustine of Canterbury and the British bishops, the first at Augustine's Oak. Pope Gregory had placed the British bishops under Augustine, but at the second meeting they refused to accept him as archbishop. Bede wrote this account more than a century later.",
+   "new": "Bede tells of two meetings around 603 between Augustine of Canterbury and the British bishops. The first was at Augustine's Oak. Pope Gregory had put the British bishops under Augustine, but at the second meeting they would not take him as their archbishop. Bede wrote this more than a century later.",
+   "fre_after": 63.9,
+   "fk_after": 7.5,
+   "passed": true,
+   "facts_check": "Bede records two meetings c. 603, Augustine of Canterbury and British bishops -> s1; first at Augustine's Oak -> s2; Gregory had placed British bishops under Augustine, but at second meeting they refused him as archbishop -> s3 ('would not take him'); Bede wrote over a century later -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "anglo-saxon-christianity--british-welsh-christianity--2",
+   "old": "Augustine's successor Laurentius wrote to the British clergy, urging them into Catholic unity. Aldhelm later wrote a book against their Easter reckoning, Bede reports. Bede himself complained that the Britons, who would not share the faith with the English, still held to their errors.",
+   "new": "Laurentius, who followed Augustine, wrote to the British clergy and urged them into Catholic unity. Later, Bede reports, Aldhelm wrote a book against the way they fixed the date of Easter. Bede himself complained about the Britons. They would not share the faith with the English, he said, yet still held to their errors.",
+   "fre_after": 66.2,
+   "fk_after": 7.4,
+   "passed": true,
+   "facts_check": "Augustine's successor Laurentius wrote to British clergy urging Catholic unity -> s1 ('who followed Augustine'); Aldhelm later wrote book against their Easter reckoning, Bede reports -> s2 ('the way they fixed the date of Easter'); Bede complained Britons would not share the faith with the English, still held to errors -> s3-s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "old": "At the third council of Toledo in 589, the Gothic bishops condemned the faith they had held, which the council called Arian. They cursed anyone still keeping communion coming from Arius, and the booklet issued in King Leovigild's reign to bring Romans over to it. Eight bishops, Ugnas and Murila among them, signed as men entering the catholic church.",
+   "new": "At the third council of Toledo in 589, the Gothic bishops condemned the faith they had held, which the council called Arian. They cursed anyone who still kept the communion that came from Arius. They also cursed the booklet issued in King Leovigild's reign to bring Romans over to it. Eight bishops, Ugnas and Murila among them, signed as men entering the catholic church.",
+   "fre_after": 61.9,
+   "fk_after": 8.5,
+   "passed": true,
+   "facts_check": "Toledo III, 589, Gothic bishops condemned their former faith, called Arian by the council -> s1; cursed anyone still keeping communion from Arius -> s2; and the booklet issued in Leovigild's reign to bring Romans over -> s3; eight bishops, incl. Ugnas and Murila, signed as entering the catholic church -> s4.",
+   "hand_fixed": false
+  },
+  {
+   "id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "old": "A Latin chronicle written in Spain in 754 records how the Muslim army ended the Gothic kingdom and made it tributary. It names Urbanus of the see of Toledo and its archdeacon Evantius among the men who strengthened the church under the new rulers. Its editor notes that the chronicler traced the bishops of Toledo almost to his own time.",
+   "new": "A Latin chronicle written in Spain in 754 tells how the Muslim army ended the Gothic kingdom and made it pay tribute. It names Urbanus of the see of Toledo and its archdeacon Evantius. They were among the men who strengthened the church under the new rulers. Its editor notes that the chronicler traced the bishops of Toledo almost to his own time.",
+   "fre_after": 60.1,
+   "fk_after": 8.7,
+   "passed": true,
+   "facts_check": "Latin chronicle, Spain, 754, records Muslim army ending Gothic kingdom and making it tributary -> s1 ('made it pay tribute'); names Urbanus of the see of Toledo and archdeacon Evantius -> s2; among men who strengthened the church under new rulers -> s3; editor notes chronicler traced Toledo's bishops almost to his own time -> s4.",
+   "hand_fixed": false
+  }
+ ]
+}

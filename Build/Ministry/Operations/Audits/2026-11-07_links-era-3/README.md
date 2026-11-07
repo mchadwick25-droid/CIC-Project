@@ -3,7 +3,7 @@
 Launch prompt: `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Phase2_Links_Era_Launch_2026-11-07.md`.
 Method unchanged from `Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`; this era's addendum is `Drafting_Brief_Era3.md`.
 
-Run beside era 2 (P2-L2). Every relationship between an era-3 and an era-2 movement that the era-2 movement's own text names was left to era 2 (`out-of-scope`, "era 2 owns it"). Steps 1 to 6 wrote only to this folder. Steps 7 on wait for era 2's pull request to merge, start from the new `main`, and take the next data release after era 2's.
+Run beside era 2 (P2-L2). Every relationship between an era-3 and an era-2 movement that the era-2 movement's own text names was left to era 2 (`out-of-scope`, "era 2 owns it"). Steps 1 to 6 wrote only to this folder. Step 7 began after era 2 merged (data release 6, mchadwick25-droid/CIC-Project#1539): the branch was rebased onto the new `main`, every era-2/era-3 pair was checked against it (no clash; era 2's new link from the Homoian church to the Gothic churches closes a gap this pass had flagged), and the pass was applied as data release 7.
 
 ## Rounds
 
@@ -17,8 +17,13 @@ Run beside era 2 (P2-L2). Every relationship between an era-3 and an era-2 movem
 
 All three rounds of the cap used; the last passed.
 
+8. **Link-note readability** (Opus, two batches, after round 3): `Note_Readability_Pass.json`. Era 2 scored its link notes, so era 3's were scored too: 40 of 55 new or rewritten notes were below Reading Ease 60. Each was rewritten for readability only. A script checked every number and proper name against the old note, and the rest were read by hand. One note stays at 57.7 (the Chalcedon break), because every shorter version dropped a fact. These rewrites came after the last review round, so they were not independently reviewed; P2-L11 should recheck them.
+
+9. **Apply and rebuild:** links and prose written to `cic-website/data/world-census.json` (data release 7); `atlas-sync`; tree pages regenerated; tree site built, 0 mismatched copies. Checks: `validate-census.mjs --base` (main's census, release 6) `--atlas --tree` 0 errors; `engine.m6.cli check` pass; `atlas-check --edges-only` no difference; tree-page tests pass; commentary (`--enforce`), spelling and paths checks clean. The map (225 links drawn, no console errors) and two tree pages (`roman-church-gregorian`, `church-of-caucasian-albania`) were opened in a browser; link anchors resolve and scroll into view.
+
 ## Counts
 
+- Census links in all: 172 before (release 6), 225 after (release 7).
 - Links touching an era-3 movement in this pass: 67 (53 new, 2 rewritten, 12 kept). No published link retired.
 - Grades of the new links: Documented 34, Widely Accepted 11, Inferential-Thin 4, Dominant Modern Reconstruction 4.
 - Types of the new links: influenced 15, continued as 12, argued against 12, in contact with 11, broke with 2, gave rise to 1.
@@ -151,7 +156,7 @@ Two links are named in no era-3 row: `byzantine-imperial-church-justinianic--mon
 
 ## Open items
 
-To be logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` when the pass is applied (step 7):
+Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-07): items 20 and 33 closed; additions to 23 and 24; new items 34 to 40. The working list:
 
 - R1-27 (data fields, not changed here): armenian-christianity-after-avarayr.continuesAs names bagratid-armenian-christianity and should name armenian-christianity-before-the-bagratids. armenian-christianity-before-the-bagratids has no continuesAs (should be bagratid-armenian-christianity) and its relationsSummary is empty. british-welsh-christianity has no continuesAs, although the continued-as link to medieval-welsh-christianity is drafted. The empty relationsSummary goes in Open_Gaps_Tracking.
 - For Mark, A3: two Egyptian Miaphysite movements for the same years (cyrilline-miaphysite-egyptian-tradition, era 2, and cyrilline-miaphysite-egyptian-christianity, era 3). This is a portfolio and census-structure question, already marked needs-ruling in the corpus-map dossier.
