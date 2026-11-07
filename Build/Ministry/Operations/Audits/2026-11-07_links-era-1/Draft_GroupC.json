@@ -707,9 +707,9 @@
    "named_in_text": "manichaeism longDescription ('Augustine of Hippo was a Hearer for roughly nine years ... arguing against the teachers he had once sat under') and relationsSummary. latin-pastoral-congregational-christianity's text names Augustine as bishop of Hippo but not the Manichaeans; the link follows the member-to-container ruling already used for its Pelagian and Donatist links.",
    "wants": [],
    "drafter_flags": [
-    "'Around 400' rests on the NPNF editor's dating of the Reply to Faustus (same file, line 4292: 'Written about the year 400').",
+    "'Around 400' rests on the NPNF dating of the Reply to Faustus (same file, lines 629 and 4292).",
     "The Confessions quote does not itself say 'Manichaeans'; the chapter heading in the same file (line 6312) does ('he followed the Manichæans'), and the Hearer role is shown by carrying food to the 'elect'.",
-    "The translator's name (Stothert) is from general knowledge of NPNF 1.4; check the file header before publishing the work string."
+    "Translator (Stothert) and the date A.D. 400 are confirmed in the volume contents, npnf104 lines 626-631."
    ],
    "change_reason": "New: the Manichaean text names Augustine arguing against his former teachers; his vendored Reply to Faustus is directed at a named Manichaean."
   },
@@ -727,7 +727,7 @@
      "source_id": "alx.source.origen-de-principiis",
      "work": "Origen, On First Principles IV.1.22, translated from the Greek (trans. Crombie, ANF 4, 1885)",
      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-     "lines": "34023-34025",
+     "lines": "34023-34026",
      "locus": "De princ. IV.1.22 (Greek)",
      "quote": "do not understand the expression as the Ebionites do, who are poor in under­standing (deriving their name from the poverty of their intellect—“Ebion” sig­nifying “poor” in Hebrew)",
      "license": "public-domain"
@@ -861,7 +861,7 @@
    "to": "syriac-orthodox-west-syriac-christianity",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "The Chronicle of Edessa lists the city's bishops without a break after 410. In 519 a bishop who accepted Chalcedon expelled the monks who refused it. Later the anti-Chalcedonian leader Jacob Baradaeus was consecrated bishop for Edessa.",
+   "note": "The Chronicle of Edessa goes on listing the city's bishops after 410. In 519 a bishop who accepted Chalcedon expelled the monks who refused it. Later the anti-Chalcedonian leader Jacob Baradaeus was consecrated bishop for Edessa.",
    "sources": [
     {
      "kind": "primary",
@@ -878,7 +878,7 @@
      "source_id": "syr.source.chronicle-of-edessa",
      "work": "Chronicle of Edessa, section 51 (trans. Cowper)",
      "file": "cic/texts/chronicle-of-edessa_cowper.txt",
-     "lines": "205",
+     "lines": "145",
      "locus": "Chron. Edessa 51 (An. 723 = 411/12)",
      "quote": "The year 723, Rabula became bishop in Edessa.",
      "license": "public-domain"
@@ -888,7 +888,7 @@
      "source_id": null,
      "work": "John of Ephesus, Lives of the Eastern Saints, ch. 49, on James (Jacob Baradaeus) (trans. Brooks, PO 18-19)",
      "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
-     "lines": "26280-26281",
+     "lines": "26280-26282",
      "locus": "Lives 49",
      "quote": "And, when both had received the high-priesthood, that is the blessed James that of the city of Edessa and Theodore that of Hirtha of the Saracens'",
      "license": "public-domain"
@@ -910,7 +910,7 @@
    ],
    "drafter_flags": [
     "Wigram (pp. 25-26) says the Edessene church 'was merged in that ecclesiastical circle that developed into the Patriarchate of Antioch'. That supports the Edessa-to-Antioch line in general, not the Syriac Orthodox by name; a reviewer may judge Inferential-Thin more honest.",
-    "The link spans a gap: this entry ends in 410 and the Syriac Orthodox entry opens in 451. The bishops' list carries the see of Edessa across it.",
+    "The link spans a gap: this entry ends in 410 and the Syriac Orthodox entry opens in 451. The Chronicle's list of bishops carries the see of Edessa across it.",
     "Cowper's own note (chronicle file line 354) asks why the expelled monks were called 'Oriental' at Edessa; they may not all have been Edessenes.",
     "John of Ephesus (Lives 49) has Jacob consecrated for Edessa while living at Constantinople; the wsyr Doc_02 notes he was consecrated in absentia. The note says 'for Edessa' for that reason.",
     "The date 519 is computed from the Chronicle's Seleucid year 831 (entry 89-90, December); check the conversion."
@@ -935,7 +935,7 @@
    "field": "longDescription",
    "old": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
    "new": "He wrote against Marcion, and he was baptized in the Edessene church. He and his school made hymns that Ephraim later accused of sweetening poison for the simple, and Ephraim answered them with hymns of his own.",
-   "reason": "Ephraim's own words (Hymns against Heresies 53, quoted in npnf213 lines 11241-11244: 'He blended for the simple poison with sweetness') complain of sweetened poison, not of better hymns. 'Which is why Ephraim wrote hymns' overstates: Gwynn notes (npnf213 11220-11232) that Ephraim's Nisibene hymns of c. 350 predate the controversy. Sozomen III.16 and Theodoret IV.26 support the answer in kind.",
+   "reason": "Ephraim's own words (Hymns against Heresies 53, quoted in npnf213 lines 11241-11244: 'He blended for the simple poison with sweetness') complain of sweetened poison, not of better hymns. 'Which is why Ephraim wrote hymns' overstates: Gwynn (npnf213 11225-11233) reports the biographer's claim that this controversy first led Ephraim to hymnody, but notes that the Nisibene hymns of c. 350 are earlier and not controversial. Sozomen III.16 and Theodoret IV.26 support the answer in kind.",
    "fre_before": 53.23,
    "fre_after": 55.35
   },
