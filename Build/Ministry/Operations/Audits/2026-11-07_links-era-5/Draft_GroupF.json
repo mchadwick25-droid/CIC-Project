@@ -1,0 +1,1062 @@
+{
+ "group": "F",
+ "movements": [
+  "syriac-renaissance",
+  "church-of-the-east-under-the-mongols",
+  "coptic-christianity-fatimid-to-mamluk",
+  "zagwe-and-early-solomonic-ethiopian-christianity"
+ ],
+ "dispositions": [
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continuation of Aksum; formal dependence on the Coptic patriarchate",
+   "other_id": "post-aksumite-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "'Continuation of Aksum': the immediate predecessor in the census chain is post-aksumite-ethiopian-christianity (inventory's aksumite-christianity corrected)."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continuation of Aksum; formal dependence on the Coptic patriarchate",
+   "other_id": "coptic-christianity-fatimid-to-mamluk",
+   "disposition": "link",
+   "link_id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "Dependence on the Coptic patriarchate: documented exchange (bishop sent, envoys) c. 1200 and in Lalibela's time."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "After the old Aksumite kingdom faded, a dynasty called the Zagwe ruled the Ethiopian highlands from the twelfth century, and under them the Ethiopian church went on doing what it had done for eight hundred years — with one striking peculiarity of constitution: its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarchate in Egypt, so a wholly independent kingdom kept its senior churchman permanently on loan from another country.",
+   "other_id": "post-aksumite-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": 1,
+   "reason": "Same continuation; sentence re-cut for readability in prose change 1."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "After the old Aksumite kingdom faded, a dynasty called the Zagwe ruled the Ethiopian highlands from the twelfth century, and under them the Ethiopian church went on doing what it had done for eight hundred years — with one striking peculiarity of constitution: its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarchate in Egypt, so a wholly independent kingdom kept its senior churchman permanently on loan from another country.",
+   "other_id": "coptic-christianity-fatimid-to-mamluk",
+   "disposition": "link",
+   "link_id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": 1,
+   "reason": "The abun sent from the Coptic patriarchate; re-cut in prose change 1."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "The dynasty's most famous achievement is the group of eleven churches cut downward out of solid rock at the town now called Lalibela, after the king who commissioned them, laid out to recall Jerusalem at a time when Jerusalem itself had become unreachable.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Jerusalem here is a place, not a movement; jerusalem-liturgical-pilgrimage-christianity (325-450) is not the party (inventory's guess corrected). The 'unreachable' claim has no vendored support; narrowed to the holy-place names and the Jerusalem-style tomb Alvares reports."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "longDescription",
+   "sentence": "In 1270 the Zagwe were displaced by Yekuno Amlak, whose line claimed descent from Solomon and the Queen of Sheba — a claim set out in the Kebra Nagast, compiled in the generations after the takeover and used to justify Ethiopian kingship for the next seven centuries.",
+   "other_id": "the-ethiopian-monastic-flowering",
+   "disposition": "link",
+   "link_id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "prose_change": 1,
+   "reason": "Yekuno Amlak and the Solomonic line: the successor movement (inventory missed it)."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "why",
+   "sentence": "Under the Zagwe dynasty, the Ethiopian church kept its head bishop, the abun, permanently on loan as a monk sent from the Coptic patriarchate in Egypt, even though the kingdom itself was fully independent.",
+   "other_id": "coptic-christianity-fatimid-to-mamluk",
+   "disposition": "link",
+   "link_id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "prose_change": 2,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "why",
+   "sentence": "Its most famous achievement is the group of eleven churches carved downward out of solid rock at Lalibela, laid out to recall Jerusalem at a time when the real Jerusalem had become unreachable.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "why",
+   "sentence": "In 1270 the dynasty was displaced by Yekuno Amlak, whose Solomonic line justified its rule through the Kebra Nagast for the next seven centuries.",
+   "other_id": "the-ethiopian-monastic-flowering",
+   "disposition": "link",
+   "link_id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "prose_change": 2,
+   "reason": "As in the longDescription (inventory missed it)."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "The Ethiopian Orthodox Tewahedo Church is one of the largest ancient churches in the world today, and it runs in an unbroken line through this period.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A statement of the church's continuity to the present; carried step by step by the continued-as links (this period's own is L9 to the-ethiopian-monastic-flowering), not a claim about one other movement."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "Lalibela's churches are not ruins: they are working parish churches, with priests and pilgrims, and remain one of the great pilgrimage destinations of African Christianity.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day description, no relationship."
+  },
+  {
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "legacy",
+   "sentence": "The Solomonic claim launched in these years shaped Ethiopian politics until 1974, when the last emperor to bear the title Lion of Judah was deposed.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Political history of the dynasty, no movement relationship."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "relationsSummary",
+   "sentence": "",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Field is empty; nothing named. The merge may want a one-line summary written (not drafted here)."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "longDescription",
+   "sentence": "By this period Egypt's Christians had lived under Muslim rule for four centuries, and the shape of their life was set by that: a poll tax, stretches of tolerance under the Fatimids alternating with sharp episodes of persecution, and a slow shift out of Coptic and into Arabic as the everyday language.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the setting; it does not name the earlier movement. The continuation is named in coptic-christianity-under-early-islam's own continuesAs and legacy, so the era-4 pass owns that link (cross-era: era 4)."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "why",
+   "sentence": "Egypt's Christians lived under a poll tax and alternating tolerance and persecution through the Fatimid period, and slowly shifted from Coptic into Arabic as their everyday language.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Conditions of life under Fatimid rule; no movement party."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "longDescription",
+   "sentence": "In the thirteenth century a single Cairo family, the sons of al-Assal, produced a body of work — canon law, theology, biblical scholarship, philosophy, and Coptic grammars and dictionaries written in Arabic to keep the old language from being lost entirely — that amounted to a renaissance of Coptic learning in a new tongue.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The al-Assal family belongs to this movement; the sentence describes its own work, not a relationship with another party (inventory's 'no-entry' reclassified)."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "why",
+   "sentence": "In the thirteenth century, one Cairo family — the four sons of al-Assal — turned that shift into a renaissance, writing canon law, theology, biblical scholarship and Coptic grammars and dictionaries in Arabic to keep the old language from being lost.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "why",
+   "sentence": "Their patriarch for part of that stretch, Cyril III ibn Laqlaq, was a learned and combative man who gathered the church's authority into his own hands.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the patriarch; no relationship claimed."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "legacy",
+   "sentence": "The Coptic Orthodox Church is very much alive — the largest Christian community in the Middle East — and runs unbroken through this period.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Continuity of the same church to the present; no single other movement named."
+  },
+  {
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "legacy",
+   "sentence": "The work done here lasted: the al-Assal brothers' canonical collections stayed authoritative in the Coptic church for centuries and were carried south into Ethiopia, where the Fetha Nagast, the law book of the Ethiopian state into the twentieth century, derives from al-Safi's canons.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Ethiopian reception: the Ethiopian party is unclear (the date of the Ge'ez Fetha Nagast is in no vendored text, so neither the-ethiopian-monastic-flowering nor a later Ethiopian movement can be chosen) and no vendored or repo-cited source shows the derivation. Qualified; 'authoritative for centuries' removed."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "relationsSummary",
+   "sentence": "The West Syriac church's intellectual summit, reached under Muslim rule and during the crusader period.",
+   "other_id": "syriac-orthodox-under-islam",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "prose_change": null,
+   "reason": "Same church carried into this period."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "relationsSummary",
+   "sentence": "The West Syriac church's intellectual summit, reached under Muslim rule and during the crusader period.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names the crusader states as neighbours, not an exchange; overlap alone does not make 'in contact with'. No vendored text shows Syriac Orthodox dealings with the Latin church of Outremer in this period (Michael's own books XV-XXI, which do, are not vendored; see wants)."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "relationsSummary",
+   "sentence": "A later medieval decline followed.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No later Syriac Orthodox movement exists in the census (continuesAs is null); a statement of decline, not a relationship. See escalations."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "longDescription",
+   "sentence": "The Syriac Orthodox Church lived under Muslim rule, and for a while alongside the crusader states, in the country between the Euphrates and the Tigris.",
+   "other_id": "syriac-orthodox-under-islam",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "prose_change": null,
+   "reason": "As in the relationsSummary."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "longDescription",
+   "sentence": "The Syriac Orthodox Church lived under Muslim rule, and for a while alongside the crusader states, in the country between the Euphrates and the Tigris.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names the crusader states as neighbours, not an exchange; overlap alone does not make 'in contact with'. No vendored text shows Syriac Orthodox dealings with the Latin church of Outremer in this period (Michael's own books XV-XXI, which do, are not vendored; see wants)."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "longDescription",
+   "sentence": "Michael the Syrian, patriarch from 1166, compiled a world chronicle that remains one of the most valuable historical sources for the medieval Middle East, not least because he quotes at length from earlier writers whose books are otherwise lost.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+   "prose_change": null,
+   "reason": "Michael's use of earlier writers (inventory missed it). The ninth-century Dionysius of Tell Mahre, also quoted, is folded into L5."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "longDescription",
+   "sentence": "In both Syriac and Arabic, and did it while serving as his church's chief bishop for the eastern provinces under Mongol rule.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Under Mongol rule' names a political setting, not the Church of the East. The documented meeting with that church is carried by L4."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "why",
+   "sentence": "Living under Muslim rule, and for a while alongside the crusader states, the Syriac Orthodox Church produced its best writing in four hundred years in this period.",
+   "other_id": "syriac-orthodox-under-islam",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "prose_change": null,
+   "reason": "As in the relationsSummary."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "why",
+   "sentence": "Living under Muslim rule, and for a while alongside the crusader states, the Syriac Orthodox Church produced its best writing in four hundred years in this period.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names the crusader states as neighbours, not an exchange; overlap alone does not make 'in contact with'. No vendored text shows Syriac Orthodox dealings with the Latin church of Outremer in this period (Michael's own books XV-XXI, which do, are not vendored; see wants)."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "why",
+   "sentence": "Michael the Syrian, patriarch from 1166, compiled a world chronicle that quotes at length from earlier writers whose own books are otherwise lost, while Dionysius bar Salibi commented on the whole Bible and the liturgy.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+   "prose_change": null,
+   "reason": "As in the longDescription (inventory missed it)."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "why",
+   "sentence": "Gregory Bar Hebraeus, who died in 1286, wrote across history, theology, canon law, grammar, astronomy and medicine in both Syriac and Arabic, while serving as his church's chief bishop for the eastern provinces under Mongol rule.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "legacy",
+   "sentence": "The Syriac Orthodox Church continues today, with its patriarchate now in Damascus and a large diaspora.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Continuity to the present; the modern diaspora movement (the-sayfo-and-the-syriac-diaspora) is not named and no chain of census movements runs to it from here."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "legacy",
+   "sentence": "Michael's chronicle and Bar Hebraeus's histories are still primary sources for anyone working on the medieval Middle East, and Bar Hebraeus's canonical and grammatical works stayed standard in the Syriac churches for centuries.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'The Syriac churches' is no single movement. No vendored or repo-cited source shows the works staying standard for centuries; the reception clause is removed and the works kept."
+  },
+  {
+   "movement": "syriac-renaissance",
+   "field": "legacy",
+   "sentence": "This period is generally reckoned the last great flowering of Syriac letters before the long contraction that followed, which is why later Syriac writers kept looking back to it.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Later Syriac writers kept looking back' has no vendored or repo-cited support and names no movement; removed. The 'last great flowering' judgment is kept as a general reckoning."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "relationsSummary",
+   "sentence": "The Church of the East gained new access at the Mongol court: Rabban Bar Sauma's embassy to Europe in 1287, and the election of his former pupil as Patriarch Yahballaha III, who held the office from 1281 until his death in 1317.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "The embassy to Europe, which met the cardinals and Pope Nicholas IV."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "relationsSummary",
+   "sentence": "The Church of the East gained new access at the Mongol court: Rabban Bar Sauma's embassy to Europe in 1287, and the election of his former pupil as Patriarch Yahballaha III, who held the office from 1281 until his death in 1317.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongol court, no census movement. Checked: Sliba says the Mongol kings bared their heads before Yahballaha and that the Christians fell from that height at the end of his life (Gismondi lines 11209-11213). No change."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "longDescription",
+   "sentence": "The Church of the East had spread far into Central Asia centuries earlier, and when the Mongols swept west a good many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in this tradition, as were several of the great khans' wives and mothers.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "prose_change": null,
+   "reason": "'Spread far into Central Asia centuries earlier': the Kerait conversion is dated under the eleventh-century catholicoi, the Abbasid-era church (inventory's the-church-of-the-east-on-the-silk-road corrected: no vendored text traces a line from the Tang-era mission of 635-845 to the Mongol-era communities)."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "longDescription",
+   "sentence": "The Church of the East had spread far into Central Asia centuries earlier, and when the Mongols swept west a good many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in this tradition, as were several of the great khans' wives and mothers.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Peoples, no census movement. Checked: the Kerait king's request for baptism is in Bar Hebraeus (Chron. Eccl. II, lines 15617-15641); the Öngüd (Wang-ku) Christian King George is in Montecorvino's letter as annotated in Yule and Cordier, Cathay and the Way Thither III (lines 1257-1291); baptized sons and queens of the Mongol kings and the 'believing queen' Doquz Khatun are in the History (Budge lines 7188-7195, 10045-10050). No change."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "longDescription",
+   "sentence": "For a few decades the church that Latin Europe called Nestorian had extraordinary access: tolerated and sometimes favored at the Mongol court, and in 1281 a monk who had traveled the whole width of Asia from China was elected its catholicos as Yahballaha III.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Nestorian' is the Latin name for the church, not a relationship; the court access is checked under the relationsSummary."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "longDescription",
+   "sentence": "His teacher, Rabban Bar Sauma, had set out with him on pilgrimage toward Jerusalem and ended up instead as the Ilkhan's ambassador to the West, reaching Rome and the courts of France and England and writing the journey down — one of the very few medieval descriptions of Europe by a traveler from Asia.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "Rome and the courts of France and England."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "longDescription",
+   "sentence": "Yahballaha died in 1317, and the favor did not survive him.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongol court, no census movement. Checked: Sliba says the Mongol kings bared their heads before Yahballaha and that the Christians fell from that height at the end of his life (Gismondi lines 11209-11213). No change."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "why",
+   "sentence": "When the Mongols swept west, many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in the Church of the East tradition, as were several of the great khans' wives and mothers, giving the church real access at the Mongol court.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "why",
+   "sentence": "When the Mongols swept west, many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in the Church of the East tradition, as were several of the great khans' wives and mothers, giving the church real access at the Mongol court.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Peoples, no census movement. Checked: the Kerait king's request for baptism is in Bar Hebraeus (Chron. Eccl. II, lines 15617-15641); the Öngüd (Wang-ku) Christian King George is in Montecorvino's letter as annotated in Yule and Cordier, Cathay and the Way Thither III (lines 1257-1291); baptized sons and queens of the Mongol kings and the 'believing queen' Doquz Khatun are in the History (Budge lines 7188-7195, 10045-10050). No change."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "why",
+   "sentence": "In 1281 a monk who had traveled the whole width of Asia from China was elected catholicos as Yahballaha III, while his teacher Rabban Bar Sauma ended up as the Ilkhan's ambassador to the West, reaching Rome and the courts of France and England and writing the journey down.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "why",
+   "sentence": "Yahballaha died in 1317, and the church's favor at court did not survive him.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongol court, no census movement. Checked: Sliba says the Mongol kings bared their heads before Yahballaha and that the Christians fell from that height at the end of his life (Gismondi lines 11209-11213). No change."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "sentence": "The Church of the East still exists, but this was its last period of long reach.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "General statement of reach; no other party."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "sentence": "The Mongol elite in Persia turned to Islam within a generation of Yahballaha's death, and the fourteenth century brought the catastrophe — Timur's campaigns above all — that reduced a church once stretching from Cyprus to China to a mountain remnant in Hakkari.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+   "prose_change": 4,
+   "reason": "The Hakkari remnant is the successor movement (also its continuesAs)."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "sentence": "The Mongol elite in Persia turned to Islam within a generation of Yahballaha's death, and the fourteenth century brought the catastrophe — Timur's campaigns above all — that reduced a church once stretching from Cyprus to China to a mountain remnant in Hakkari.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Islam is no census movement. The timing was wrong: Ghazan turned to Islam in 1295, in Yahballaha's lifetime (History, Budge 8449-8460 and 8768; Chabot 1895 note, line 7040). Corrected."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "sentence": "Its traces are now mostly archaeological: Syriac gravestones scattered across Central Asia, Christian tomb carvings in the Chinese port cities.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Archaeological traces, no relationship."
+  },
+  {
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "sentence": "The account of Bar Sauma's embassy remains the single most remarkable thing this period produced.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A judgment about the embassy account; the relationship itself is L1."
+  }
+ ],
+ "links": [
+  {
+   "id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "action": "new",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters 'concerning the matter of Jerusalem'. He then gave communion to the king of England in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma before the cardinals in Rome",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7149-7152",
+     "locus": "ch. 7 (Rabban Sawma in Italy)",
+     "quote": "The Mongols and the Catholicus of the East have sent me to Mar Papa concerning the matter of Jerusalem; and they have sent letters with me.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma at the court of the king of England",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7648-7651",
+     "locus": "ch. 7 (Rabban Sawma goes to the king of England)",
+     "quote": "the king commanded Rabban Sawma to celebrate the Eucharist, and he performed the Glorious Mysteries ; and the king and his officers of state stood up, and the king partook of the Sacrament,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma's return to Rome",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7855-7857",
+     "locus": "ch. 7 (Rabban Sawma in Rome)",
+     "quote": "And RABBAN SAwm4A rejoiced greatly in receiving the Eucharistic Mystery from the hand of MAR PApA.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-east-under-the-mongols relationsSummary (embassy to Europe), longDescription and why (reaching Rome and the courts of France and England). The latin-papal-church-gregorian text does not name it, which the either-side rule allows.",
+   "wants": [
+    "Nicholas IV's letters of 1288 to Arghun and Yahballaha III (Langlois, Registres de Nicolas IV) for the papal side of the meeting"
+   ],
+   "drafter_flags": [
+    "The History is the only source for the conversations and the Eucharists; it survives as a Syriac abridgement of Sawma's account. Only one side's record of the meeting is vendored, which is enough for 'in contact with'.",
+    "The 1287 date in the movement's text is not stated in the translated History; Budge's bracket dates Nicholas IV's election to February 1288 (line 7754). The note gives no year for the first Rome visit."
+   ],
+   "change_reason": "New: the movement text names the embassy to Rome; the History documents the meeting with the cardinals and Nicholas IV."
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "action": "new",
+   "from": "church-of-the-east-under-the-abbasids",
+   "to": "church-of-the-east-under-the-mongols",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Early in the eleventh century, Bar Hebraeus reports, a bishop in Khorasan wrote to the head of the church about the king of the Kerait. The king had met Christian traders and asked for a priest to baptize him. In 1281 the bishops chose Yahballaha III, a monk from China. He was made head of the church at Baghdad, on the same throne of Seleucia and Ctesiphon.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle II, the catholicoi of the East, eleventh century (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "15617-15621",
+     "locus": "Chron. Eccl. II, the catholicoi of the eleventh century",
+     "quote": "Per idem tempus misit Ebedjesu metropolita Mam, unius e civitatibus Chorasanac, ut catholico hsec nun- tiaret : « rex populi qui vocatur Keraith",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle II, the Kerait king's request (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "15636-15639",
+     "locus": "Chron. Eccl. II, the catholicoi of the eleventh century",
+     "quote": "Ii vero dixerunt illi ipsum non nisi per baptisma perfici posse ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Yahballaha's consecration",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "6517-6519",
+     "locus": "ch. 5",
+     "quote": "Then Rabban Sawma and MAR YAHBH-ALLAHA rose up and came to Baghdad. And they went to the Great Church of K6KE,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Yahballaha's consecration",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "6522-6523",
+     "locus": "ch. 5",
+     "quote": "And he sat on the throne of SELEUCIA and CTESIPHON",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-east-under-the-mongols longDescription and why ('had spread far into Central Asia centuries earlier ... the Kerait ... already Christian in this tradition'). church-of-the-east-under-the-abbasids has empty text and no continuesAs, so its side names nothing.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 4",
+    "church-of-the-east-under-the-abbasids has continuesAs null, though this movement is its plain successor. The era-4 pass may want to set it; flag for the merge.",
+    "OCR forms are kept verbatim in the quotes ('Mam' for Merv, 'hsec', 'K6KE'). The note says 'a bishop in Khorasan', which is what the Latin gives without reading 'Mam'.",
+    "The Kerait notice falls under the catholicos John, whose death the same page dates to A.H. 400 (1009/10, line 15719); the note says only 'early in the eleventh century'."
+   ],
+   "change_reason": "New: the text names the earlier spread into Central Asia; Bar Hebraeus documents the Kerait request to the catholicos and the History shows Yahballaha on the same throne."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+   "action": "new",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "church-of-the-east-timur-to-hakkari",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A history of the church's heads, written in the fourteenth century, says Yahballaha III died in November 1317. It adds that his seat then stood empty for three months and eight days. The scholar Assemani, writing in 1725, says Timothy II, bishop of Mosul and Arbela, was chosen in February 1318.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sliba ibn Yuhanna, Lives of the Patriarchs of the East, Yahballaha III (Latin trans. Gismondi)",
+     "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt",
+     "lines": "11219-11221",
+     "locus": "De patriarchis Nestorianorum, pars altera, Yahballaha III",
+     "quote": "Diu vitam produxil hic pater, et obiit sabbato exeuiite ante dominicam ter- tiam consecrationis ecclesiae, 13 novembris anno [graecorumi 1629,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sliba ibn Yuhanna, Lives of the Patriarchs of the East, Yahballaha III (Latin trans. Gismondi)",
+     "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt",
+     "lines": "11225",
+     "locus": "De patriarchis Nestorianorum, pars altera, Yahballaha III",
+     "quote": "Yacavit post ijisum .sedos jior menses tres et dies oclo.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (1725), ch. 56, Timothy II, summarizing Abdisho of Nisibis",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "93989-93994",
+     "locus": "Bibl. Orient. III.1, ch. 56",
+     "quote": "Patriarcha , in lo- ti cum Jaballaha:, qui 31 dic 13. Novembris anni Gra-corum 1629. Chridi 1317. obiit , fulTcclus fuit mcnle Februario anni ChrilH 1318.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-east-under-the-mongols continuesAs field and legacy ('a mountain remnant in Hakkari'); church-of-the-east-timur-to-hakkari relationsSummary ('Patriarch Yahballaha III died in 1317 ...').",
+   "wants": [
+    "Abdisho of Nisibis, preface to the synod of Timothy II (1318), in a readable edition; Assemani's Syriac lines are OCR-garbled"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6 (no parallel session; check nothing was drafted later)",
+    "The third source is Assemani (1725), an early-modern compiler summarizing Abdisho of Nisibis, not a contemporary witness. It carries a file and quote because it is vendored; the reviewer may prefer to treat it as secondary. Sliba (fourteenth century) alone documents the death and the vacancy; Timothy II's name rests on Assemani.",
+    "Sliba's date: 13 November, Greek year 1629 = 1317 (Assemani gives the same equation)."
+   ],
+   "change_reason": "New: the continuesAs field and legacy name the Hakkari remnant; Sliba documents the death and vacancy, Assemani the successor."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--syriac-renaissance",
+   "action": "new",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "syriac-renaissance",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Bar Hebraeus, the Syriac Orthodox chief bishop of the east, died at Maragha in July 1286. The account of his death says Yahballaha III, head of the Church of the East, was in the city. He ordered that no one open a shop that day, and sent his bishops to the mourning with large candles.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle II, continuation by his brother Barsauma, the death of Gregory (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "24591-24594",
+     "locus": "Chron. Eccl. II, the death of Bar Hebraeus",
+     "quote": "migravitque ad Dominum nocte feriae tertiae, trigesima Tamuz (Julii) anni millesimi quingentesimi nonagesimi septimi (Chr. 1286).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle II, continuation by Barsauma (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "24596-24600",
+     "locus": "Chron. Eccl. II, the death of Bar Hebraeus",
+     "quote": "Quia vero Mar Jaballaha, catholi- cus laudabilis, eo tempore in urbe Maraga versabatur, praecepit ne quis in forum procederet, aut officio am aperiret.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle II, continuation by Barsauma (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "24602-24604",
+     "locus": "Chron. Eccl. II, the death of Bar Hebraeus",
+     "quote": "misitque catholicus episcopos qui apud ipsum erant , et multos cereos magnos ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "Not named in the four fields of either movement. It is named in syriac-renaissance documentedStories ('Bar Hebraeus Is Mourned by Four Churches'), which the note matches. Optional for the merge: the syriac-renaissance why could gain one sentence.",
+   "wants": [],
+   "drafter_flags": [
+    "New link not required by the four fields; drafted because the vendored chronicle documents the meeting directly. Drop it if the merge keeps strictly to the four fields.",
+    "The death account is in the continuation of the Ecclesiastical Chronicle (by Barsauma, per the documentedStories); the Latin text does not name the writer at these lines.",
+    "'officio am aperiret' is OCR for 'officinam aperiret' (open a shop), kept verbatim."
+   ],
+   "change_reason": "New: documented meeting at Bar Hebraeus's death (named only in documentedStories)."
+  },
+  {
+   "id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "action": "new",
+   "from": "syriac-orthodox-under-islam",
+   "to": "syriac-renaissance",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Bar Hebraeus's history of the patriarchs of Antioch runs on without a break across these years. In 1049 the bishops chose Theodore, a monk near Melitene and nephew of the patriarch John bar Abdun. He took the name John, held office for eight years and ten months, and died at Amid.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle I, the patriarchs of Antioch, John (elected 1049) (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "25142-25150",
+     "locus": "Chron. Eccl. I, patriarch no. 79",
+     "quote": "Tunc episcopi ceteri , zelo incensi , convenerunt mense Ab (Avyuslo) anni millesimi tcrccntcsimi sexagesimi (Chr. 1049); electionem fecerunt ac meminerunt magistri Theodori, monachi coenobii Bar-Gaghi in agro Melitincnsi,qui erat sancti Mar Joannis Abdun ex fratre nepos;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Ecclesiastical Chronicle I, the patriarchs of Antioch, John (elected 1049) (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "25166-25168",
+     "locus": "Chron. Eccl. I, patriarch no. 79",
+     "quote": "functus vero patriarchatu octo annis et decem mensibus et ordinatis triginta episcopis, obiit Amidaa,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-renaissance relationsSummary ('The West Syriac church's intellectual summit') and longDescription/why ('The Syriac Orthodox Church lived under Muslim rule'); syriac-orthodox-under-islam continuesAs field and legacy ('continued directly into the Syriac Renaissance').",
+   "wants": [
+    "Bar Hebraeus, Ecclesiastical Chronicle vol. II (Abbeloos and Lamy, 1874), the patriarchs of Antioch after 1083 to Michael and beyond; the vendored vol. I text stops at 1083 although its header says it runs to the thirteenth century"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4",
+    "The vendored vol. I header says it covers the patriarchs to the thirteenth century, but the latest year recovered in the OCR is 1083 (line 26209). Worth a look by the corpus thread.",
+    "Patriarch 'no. 79' rests on the next entry reading '80. Post Joannem, Athanasius' (line 25172)."
+   ],
+   "change_reason": "New: the text names the West Syriac church as its own; Bar Hebraeus shows the patriarchal line running across 1054."
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+   "action": "new",
+   "from": "syriac-orthodox-west-syriac-christianity",
+   "to": "syriac-renaissance",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Michael the Syrian, patriarch from 1166, built his world chronicle partly from older Syriac histories. At one point he marks where the chronicles of John of Asia and Zacharias the Rhetor take over as his sources. Elsewhere he quotes John speaking in his own voice about a dispute at the emperor's court.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle, Book VIII (French trans. Chabot)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "2169",
+     "locus": "Chron. VIII",
+     "quote": "A partir d'ici commencent les Chroniques de Jean d'Asie et de Zacharie le Rhéteur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle, Books VIII-XI (French trans. Chabot)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "19042-19044",
+     "locus": "Chron., quoting John of Ephesus",
+     "quote": "Jean d'Asie dit : « Nous mêmes nous fûmes méprisés à cause de lui*, et nous le blâmâmes. »",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-renaissance longDescription and why (Michael's chronicle 'quotes at length from earlier writers whose own books are otherwise lost'). Inventory missed it. syriac-orthodox-west-syriac-christianity's own text was not checked by this group.",
+   "wants": [
+    "Michael the Syrian, Chronicle Books XII-XXI (Chabot, vol. III, 1905), for Michael's own period"
+   ],
+   "drafter_flags": [
+    "cross-era: era 3",
+    "Michael also quotes Dionysius of Tell Mahre (patriarch, ninth century; line 36788), the era-4 Syriac Orthodox. That use is folded into the continued-as link on that pair rather than drafted as a second link; Chabot notes the chapter at line 27772 is the only surviving text of Dionysius's chronicle, which supports 'otherwise lost'.",
+    "'John of Asia' is Michael's name for John of Ephesus; Chabot's notes cite 'Joh. Eph.' for these passages (e.g. line 27767). The note uses Michael's own name for him."
+   ],
+   "change_reason": "New: the text says Michael quotes earlier writers; Michael names John of Asia and Zacharias as his sources and quotes John."
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "action": "new",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Around 1200 a Coptic survey of Egypt's churches says the head bishop of Abyssinia is sent 'from the patriarch of Alexandria'. 'Abd al-Latif, writing in the same years, tells of an envoy from the Abyssinian king. The envoy reported the bishop's death and asked for a new one. A note in the Kebra Nagast names a Coptic book of 'the throne of Mark' in King Lalibela's time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105a",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "'Abd al-Latif, quoted in Evetts's note to the Churches and Monasteries of Egypt (1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14351-14353",
+     "locus": "note to fol. 105a (A.H. 596 = A.D. 1200)",
+     "quote": "In the month of Shawwal an envoy arrived from the king of the Abyssinians, bearing a letter which contained the announcement of the death of their metro- politan, and requested the appointment of his successor",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15301-15304",
+     "locus": "colophon",
+     "quote": "We have turned [this book] into Arabic from a Coptic manuscript [belonging to] the throne of Mark the Evangelist, the teacher, the Father of us all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15306-15308",
+     "locus": "colophon",
+     "quote": "in the days of Gabra Maskal the king, who is called Lalibala, in the days of Abba George, the good bishop.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "zagwe relationsSummary ('formal dependence on the Coptic patriarchate'), longDescription and why (the abun sent from the Coptic patriarchate). The Coptic text does not name Ethiopia's bishop, which the either-side rule allows.",
+   "wants": [
+    "History of the Patriarchs of the Egyptian Church, vols. 2-4 (Atiya, Abd al-Masih, Burmester, Khater; 1943-1974), for the metropolitans sent to Ethiopia in the Zagwe years; check rights before vendoring",
+    "Gadla Lalibela (Perruchon, 1892), the Zagwe king's own Life"
+   ],
+   "drafter_flags": [
+    "None of the six types names church jurisdiction (Alexandria choosing and sending Ethiopia's head bishop). 'in contact with' is the closest honest type: a documented exchange of envoys and a bishop sent. See escalations.",
+    "The 1895 survey is printed under the name Abu Salih; the note calls it 'a Coptic survey' and does not name its author.",
+    "'Abd al-Latif's words reach us inside Evetts's note (A.H. 596 = 1200, line 14319); the note says only 'writing in the same years'."
+   ],
+   "change_reason": "New: the text names the abun sent from the Coptic patriarchate; three vendored witnesses show the exchange around 1200 and in Lalibela's time."
+  },
+  {
+   "id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "action": "new",
+   "from": "post-aksumite-ethiopian-christianity",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Ethiopian church's book of saints says Cyril, the sixty-seventh patriarch of Alexandria, sent a bishop named Severus to Ethiopia. Around 1200, under the Zagwe kings, a Coptic survey still says the head bishop came from Alexandria. A later Life of Takla Haymanot says the crown passed from the old royal line to the Zagwe.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ethiopian Synaxarium, Sane 12, Cyril of Alexandria (trans. Budge, 1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "lines": "35415-35416",
+     "locus": "Sane 12",
+     "quote": "And on this day also died the holy father Abba cyril, the sixty-seventh Archbishop of the city of Alexandria.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ethiopian Synaxarium, Sane 12, Cyril of Alexandria (trans. Budge, 1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "lines": "35445-35447",
+     "locus": "Sane 12",
+     "quote": "During his period of office he appointed a second bishop to the country of Ethiopia, whose name was sAwiROS (severus ?).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105a",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), the royal genealogy",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "3547-3549",
+     "locus": "Life, the royal genealogy",
+     "quote": "And from Delna'Ad the kingdom departed, and it was given unto others who were not of the people of Israel, that is to say they belonged to the ZAgue,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "zagwe relationsSummary ('Continuation of Aksum') and longDescription ('After the old Aksumite kingdom faded ... went on doing what it had done for eight hundred years'); post-aksumite-ethiopian-christianity continuesAs field and legacy ('continues directly into the Zagwe period').",
+   "wants": [
+    "History of the Patriarchs of the Egyptian Church, Life of Cyril II, to date Severus's mission to Ethiopia; the vendored Synaxarium gives no year"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4",
+    "Inventory guessed aksumite-christianity (era 3); the census chain runs aksumite-christianity -> post-aksumite-ethiopian-christianity -> this movement, so 'Continuation of Aksum' maps to post-aksumite-ethiopian-christianity.",
+    "Grade check for the reviewer: the witnesses are the Ethiopian Synaxarium (a later compilation), a c. 1200 Coptic survey, and the Life of Takla Haymanot (Solomonic era). The Synaxarium does not date Cyril's appointment of Severus; that he is the 67th patriarch, after Christodoulos, places him in the later eleventh century only by outside knowledge, so the note gives no date. If the reviewer reads the continuity as not shown on the pre-1137 side, Widely Accepted or Inferential-Thin is the fallback; no repo-cited secondary covers post-Aksumite Ethiopia."
+   ],
+   "change_reason": "New: 'Continuation of Aksum'; the inventory's target corrected to the immediate predecessor."
+  },
+  {
+   "id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "action": "new",
+   "from": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "to": "the-ethiopian-monastic-flowering",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Life of the monk Takla Haymanot says he was made a deacon as a boy by Bishop Gerlos, 'in the kingdom of Zaga'. The same Life says Yekuno Amlak 'brought back the kingdom from the Zague'. The kings changed, but the church and its bishops went on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), ch. 25",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "5539-5543",
+     "locus": "Life, ch. 25, fol. 37a",
+     "quote": "at the time when Abba BenyAmin (Ben¬ jamin) was Archbishop of Alexandria, for (Fol. 37 a. 3) AbbA Gerlos was still Papa (i. e., Bishop) in the country of ’Amhara, in the kingdom of ZagA.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), the royal genealogy",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "6760-6761",
+     "locus": "Life, fol. 51b",
+     "quote": "’Edem ’Asgad begot Yakuno ’Amlak, who brought back the kingdom from the Zague2",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15312-15314",
+     "locus": "colophon",
+     "quote": "It went out in the days of Zagua, and they did not translate it because this book says : Those who reign not being Israelites are transgressors of the Law.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "zagwe continuesAs field, longDescription and why (Yekuno Amlak displacing the Zagwe in 1270; the Solomonic line and the Kebra Nagast); the-ethiopian-monastic-flowering relationsSummary ('A continuation of the earlier Aksumite and Zagwe Christian tradition'). Inventory missed it.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 6 (no parallel session)",
+    "The Life of Takla Haymanot is a later Solomonic-era hagiography. Its synchronism ('when Abba Benyamin was Archbishop of Alexandria') is doubtful for a boyhood in the Zagwe years; the quote is used only for its placing of Bishop Gerlos 'in the kingdom of Zaga'.",
+    "'Zague2' and 'Ben¬ jamin' are kept verbatim (footnote digit, line-break hyphen)."
+   ],
+   "change_reason": "New: the continuesAs field and the 1270 sentences name the Solomonic successor; the Life of Takla Haymanot and the Kebra Nagast colophon show the church going on across the change of kings."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "longDescription",
+   "old": "After the old Aksumite kingdom faded, a dynasty called the Zagwe ruled the Ethiopian highlands from the twelfth century, and under them the Ethiopian church went on doing what it had done for eight hundred years — with one striking peculiarity of constitution: its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarchate in Egypt, so a wholly independent kingdom kept its senior churchman permanently on loan from another country. The dynasty's most famous achievement is the group of eleven churches cut downward out of solid rock at the town now called Lalibela, after the king who commissioned them, laid out to recall Jerusalem at a time when Jerusalem itself had become unreachable. In 1270 the Zagwe were displaced by Yekuno Amlak, whose line claimed descent from Solomon and the Queen of Sheba — a claim set out in the Kebra Nagast, compiled in the generations after the takeover and used to justify Ethiopian kingship for the next seven centuries.",
+   "new": "After the old kingdom of Aksum faded, a new line of kings, the Zagwe, ruled the Ethiopian highlands from the twelfth century. Under them the church went on as it had for eight hundred years, with one odd feature. Its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarch in Egypt. So a free kingdom kept its senior churchman on loan from another land. The Zagwe are best known for eleven churches cut downward into solid rock. They stand at the town now called Lalibela, after the king who had them made. Several bear the names of holy places, such as Golgotha and Bethlehem. A Portuguese visitor in the 1520s was shown a tomb there said to copy Christ's tomb in Jerusalem. In 1270 Yekuno Amlak pushed the Zagwe aside, and his line claimed descent from Solomon and the Queen of Sheba. The Kebra Nagast, put together in the generations after he took power, set out that claim. Ethiopian kings leaned on it for the next seven centuries.",
+   "reason": "Two sentences qualified: 'laid out to recall Jerusalem at a time when Jerusalem itself had become unreachable' has no vendored support, and Ethiopian monks are not shown cut off from Jerusalem. Alvares (1520s, lines 6076-6079, 6120-6121) gives church names Golgotha and Bethlehem and a tomb 'after the manner of the sepulchre of Christ in Jerusalem'; the sentence now says only that. Paragraph re-cut for readability; every other fact kept. FRE 11.6 / FK 25.1 before.",
+   "fre_after": 68.1,
+   "fk_after": 7.7
+  },
+  {
+   "n": 2,
+   "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "field": "why",
+   "old": "Under the Zagwe dynasty, the Ethiopian church kept its head bishop, the abun, permanently on loan as a monk sent from the Coptic patriarchate in Egypt, even though the kingdom itself was fully independent. Its most famous achievement is the group of eleven churches carved downward out of solid rock at Lalibela, laid out to recall Jerusalem at a time when the real Jerusalem had become unreachable. In 1270 the dynasty was displaced by Yekuno Amlak, whose Solomonic line justified its rule through the Kebra Nagast for the next seven centuries.",
+   "new": "Under the Zagwe kings, the Ethiopian church kept its head bishop, the abun, on loan. He was a monk sent from the Coptic patriarch in Egypt, though the kingdom itself was fully free. The Zagwe are best known for eleven churches carved downward into solid rock at Lalibela. Several are named after holy places, such as Golgotha and Bethlehem. In 1270 Yekuno Amlak pushed the Zagwe aside. His line, the Solomonic kings, leaned on the Kebra Nagast to justify its rule for the next seven centuries.",
+   "reason": "Same Jerusalem qualification as the longDescription. Re-cut for readability; facts kept. FRE 32.6 / FK 16.2 before.",
+   "fre_after": 60.1,
+   "fk_after": 8.4
+  },
+  {
+   "n": 3,
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "legacy",
+   "old": "The Coptic Orthodox Church is very much alive — the largest Christian community in the Middle East — and runs unbroken through this period. The work done here lasted: the al-Assal brothers' canonical collections stayed authoritative in the Coptic church for centuries and were carried south into Ethiopia, where the Fetha Nagast, the law book of the Ethiopian state into the twentieth century, derives from al-Safi's canons. Their grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, which served as the patriarch's seat for most of this period, is still standing and still in use.",
+   "new": "The Coptic Orthodox Church is very much alive. It is the largest Christian community in the Middle East, and it runs unbroken through this period. Some of the work done here may have travelled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, is usually traced to al-Safi's canons, but we have not yet checked this against the Ethiopian text. The brothers' grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, the patriarch's seat for most of this period, still stands and is still in use.",
+   "reason": "No vendored or repo-cited source shows the Fetha Nagast deriving from al-Safi's canons, nor the collections staying authoritative 'for centuries'. The Ethiopian derivation is now stated as the usual view with the check still to make; the 'for centuries' reception claim is taken out. Re-cut for readability. FRE 45.5 / FK 13.6 before.",
+   "fre_after": 64.4,
+   "fk_after": 8.7
+  },
+  {
+   "n": 4,
+   "movement": "church-of-the-east-under-the-mongols",
+   "field": "legacy",
+   "old": "The Church of the East still exists, but this was its last period of long reach. The Mongol elite in Persia turned to Islam within a generation of Yahballaha's death, and the fourteenth century brought the catastrophe — Timur's campaigns above all — that reduced a church once stretching from Cyprus to China to a mountain remnant in Hakkari. Its traces are now mostly archaeological: Syriac gravestones scattered across Central Asia, Christian tomb carvings in the Chinese port cities. The account of Bar Sauma's embassy remains the single most remarkable thing this period produced.",
+   "new": "The Church of the East still exists, but this was its last age of long reach. Ghazan, the Mongol ruler of Persia, had turned to Islam in 1295, while Yahballaha was still head of the church. Then the fourteenth century brought disaster, above all Timur's wars. A church that once ran from Cyprus to China shrank to a mountain remnant in Hakkari. Its traces now are mostly in the ground: Syriac gravestones across Central Asia, and Christian tomb carvings in China's port cities. The account of Bar Sauma's embassy is still the most remarkable thing this age produced.",
+   "reason": "Factual fix: the Mongol ruler of Persia turned to Islam in 1295, during Yahballaha's lifetime, not 'within a generation of [his] death'. The History records the 1295 turn against the church and the 'Muslim Mongols' (Budge lines 8449-8460, 8768); Chabot's note says Nauruz persuaded Ghazan to embrace Islam (Chabot 1895, line 7040). Re-cut for readability. FRE 41.9 / FK 13.1 before.",
+   "fre_after": 65.7,
+   "fk_after": 8.1
+  },
+  {
+   "n": 5,
+   "movement": "syriac-renaissance",
+   "field": "legacy",
+   "old": "The Syriac Orthodox Church continues today, with its patriarchate now in Damascus and a large diaspora. The books written here never went out of use. Michael's chronicle and Bar Hebraeus's histories are still primary sources for anyone working on the medieval Middle East, and Bar Hebraeus's canonical and grammatical works stayed standard in the Syriac churches for centuries. This period is generally reckoned the last great flowering of Syriac letters before the long contraction that followed, which is why later Syriac writers kept looking back to it.",
+   "new": "The Syriac Orthodox Church lives on today, with its patriarch now in Damascus and a large community abroad. The books written here are still read. Michael's chronicle and Bar Hebraeus's histories remain primary sources for anyone who studies the medieval Middle East. Bar Hebraeus also wrote a book of church law and a grammar of Syriac. Scholars see this period as the last great flowering of Syriac writing before a long decline.",
+   "reason": "Reception claims with no vendored or repo-cited support taken out: Bar Hebraeus's canonical and grammatical works 'stayed standard in the Syriac churches for centuries' and 'later Syriac writers kept looking back to it'; 'never went out of use' softened to 'still read' (the modern editions are themselves vendored). The works themselves are kept. Re-cut for readability. FRE 42.8 / FK 12.7 before.",
+   "fre_after": 60.6,
+   "fk_after": 8.4
+  }
+ ],
+ "wants": [
+  "Michael the Syrian, Chronicle Books XII-XXI (Chabot, Chronique de Michel le Syrien vol. III, 1905; public domain): Michael's own patriarchate, his dealings with the Latin patriarchs of Antioch and Jerusalem (would test a syriac-renaissance / latin-church-of-outremer contact link), and the Theodore bar Wahbun schism told in the documentedStories",
+  "Bar Hebraeus, Ecclesiastical Chronicle vol. II (Abbeloos and Lamy, 1874; public domain): the patriarchs of Antioch after 1083, including Michael and Dionysius bar Salibi. Also check the vendored vol. I, whose header says it reaches the thirteenth century but whose OCR stops at 1083",
+  "Bar Hebraeus, Chronography (Budge, 1932): the Mongol queens (Sorghaghtani Beki, Doquz Khatun) and the Kerait",
+  "History of the Patriarchs of the Egyptian Church, vols. 2-4 (Cairo, 1943-1974): Cyril II's mission of Severus to Ethiopia (to date it), the metropolitans of the Zagwe years, and Cyril III ibn Laqlaq; check rights",
+  "I. Guidi, Il Fetha Nagast o Legislazione dei Re (1897-1899; public domain): to check the Fetha Nagast's derivation from al-Safi ibn al-Assal's Nomocanon",
+  "al-Safi ibn al-Assal, Nomocanon (al-Majmu' al-Safawi), any edition",
+  "Gadla Lalibela (Perruchon, 1892; public domain): the Zagwe king's Life, for the Jerusalem programme of the churches",
+  "Abdisho of Nisibis, preface to the synod of Timothy II (1318), readable edition",
+  "Nicholas IV's letters of 1288 to Arghun and to Yahballaha III (Langlois, Registres de Nicolas IV)"
+ ],
+ "escalations": [
+  "Non-blocking, for Mark (method): none of the six link types names church jurisdiction, such as the Coptic patriarch choosing and sending Ethiopia's head bishop. This group used 'in contact with' (coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity). Era 2 met the same gap for Frumentius and the see of Alexandria. A jurisdiction type would be a method change, so it is raised, not assumed.",
+  "Portfolio/census structure: syriac-renaissance has continuesAs null and there is no Syriac Orthodox movement after 1300, though the text says 'a later medieval decline followed' and the church continues today. Likewise church-of-the-east-under-the-abbasids has continuesAs null although church-of-the-east-under-the-mongols follows it. Census-entry questions for the owner, not drafted here."
+ ]
+}
