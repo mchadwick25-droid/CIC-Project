@@ -1,0 +1,309 @@
+{
+ "round": 1,
+ "kind": "full review",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 2,
+  "substantial": 11,
+  "minor": 15
+ },
+ "findings": [
+  {
+   "id": "R1-01",
+   "target": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "severity": "blocking",
+   "issue": "The note says Benjamin 'hid in the monasteries of Wadi Habib'. The quoted passage says the opposite: he went to Wadi Habib, found few monks there, then LEFT for Upper Egypt and hid in a small monastery there. The note also generalises two notices into 'places the Miaphysite patriarchs among the old monasteries of Scetis', and 'old' and 'Scetis' are not in the quoted lines (the drafter's own flag says the History does not use 'Scetis' here).",
+   "evidence": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt 43442-43447: 'Thence he went to W adi Habib. And the monks there were few in number ... Then Benjamin went forth from the monasteries in Wadi Habib, and departed to Lpper Egypt; and he remained hidden there in a small monastery in the wilderness until the accomplishment of the ten years'. Lines 35554-35555 (Peter's letters at the Monastery of Macarius) read correctly.",
+   "fix": "Replace the note with: \"The Egyptian church's History of the Patriarchs, compiled centuries later, ties its Miaphysite patriarchs to the desert monasteries. It says Patriarch Peter's letters were kept at the Monastery of Macarius. It says Benjamin, fleeing the Romans, stayed at the monasteries of Wadi Habib before going into hiding in Upper Egypt.\" Type and grade can stand: the later church uses and names the desert founders' houses ('the Monastery of Father Macarius')."
+  },
+  {
+   "id": "R1-02",
+   "target": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia (gave rise to, group D)",
+   "severity": "blocking",
+   "issue": "Wrong type. 'Gave rise to' says Nicene Visigothic Iberia emerged out of the Homoian church's people. The census's own text for that movement says Reccared brought his bishops 'into the Nicene church of his subjects', and the movement starts c. 560, so it includes the Hispano-Roman Nicene church of Leander and Isidore that existed before 589. The Gothic bishops joined an existing church; they did not found it. Group E reached the same conclusion on this pair and drafted 'argued against' instead (link 67); the merge kept both without reconciling them, and the merge notes do not mention the pair.",
+   "evidence": "world-census.json nicene-visigothic-iberia.why: 'brought his bishops with him into the Nicene church of his subjects'; dates 'c. 560-711'; longDescription names Leander. Toledo III (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt 37118-37122): Ugnas signs 'quam in ecclesiam catholicam veniens credidi' ('coming into the catholic church') - entry into an existing church. Group E's flag on link 67: 'it did not emerge out of the Homoians'.",
+   "fix": "Drop link 53 (it is new, so no retirement is needed). Re-point every disposition that cites it (the Gothic longDescription/why/legacy Toledo sentences and the nicene-visigothic-iberia relationsSummary/why) to nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity (link 67). Link 67's note already carries the named bishops crossing at Toledo, Ugnas among them."
+  },
+  {
+   "id": "R1-03",
+   "target": "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity (argued against)",
+   "severity": "substantial",
+   "issue": "Over-graded and the wrong actor. Documented 'argued against' needs a text or act of the African church directed at the Homoians by name. Neither source shows that. In Procopius the Arian priests flee and the orthodox hold their festival in Cyprian's church: a change of possession, not an act against the Arians. In Novel 37 the bishops' petition (as the law reports it) asks back lands taken 'tyrannico ... tempore' and names no Arians; the clause that names Arians is Justinian's own order. That makes it the imperial church's act, already carried by link 55. The drafter's flag says the same.",
+   "evidence": "procopius_wars-3-4-vandalic_dewing1916.txt 2234-2237; justinian_novellae...schoell-kroll1895.txt 52506-52512 (the petition: 'possessiones ecclesiarum ... tyrannico quidem tempore ablatas'), 52515-52520 ('iubemus sublimitatem tuam ...', the emperor ordering, with 'vel Arianos' in 52518).",
+   "fix": "Drop link 9. Set the matching dispositions (latin-africa-under-byzantium relationsSummary/longDescription/why on the restoration of 533) to kept-as-is, reason: 'Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity.'"
+  },
+  {
+   "id": "R1-04",
+   "target": "gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium (argued against)",
+   "severity": "substantial",
+   "issue": "The dates rule it out. All the evidence is Huneric's edict of 483-484 and his persecution. The target movement begins in 533, half a century later. The link says the Homoian church argued against a movement that, by the census's own dates, did not yet exist. Group A reasoned this correctly for the same pair in the other direction (link 9 flag: the persecution falls 'BEFORE this entry's window opens in 533'), so the two groups are inconsistent.",
+   "evidence": "victor-of-vita_historia-persecutionis...petschenig1881.txt 3131-3134 (Huneric's edict); procopius_wars-3-4-vandalic_dewing1916.txt 913-917 (Honoric); census latin-africa-under-byzantium dates '533-c. 698'.",
+   "fix": "Drop link 54. Disposition for the Gothic longDescription/why sentence ('In Vandal Africa it was the persecuting party...') becomes no-entry, reason: 'The Nicene church of Africa under Vandal rule (439-533) has no census movement. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).' The prose stands unchanged."
+  },
+  {
+   "id": "R1-05",
+   "target": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic (argued against, WA)",
+   "severity": "substantial",
+   "issue": "Over-graded, with evidence outside the movement's dates. Widely Accepted needs a primary for the underlying fact, but the 554 council has no vendored primary. The only primary (John of Ephesus II.23) is about the early 570s. That falls in armenian-christianity-before-the-bagratids (554-884), not in after-Avarayr, which ends in 554. So the note's third sentence describes the wrong movement. 'Its acts survive in the Armenian Book of Letters' has no listed source. What is left is Ormanian (read) plus Sarkissian and Garsoian (named, not read): Dominant Modern Reconstruction. Ormanian himself says 554 proclaimed Ephesus 'in opposition to Nestorian errors and Chalcedonian claims'.",
+   "evidence": "ormanian_church-of-armenia_gregory1912.txt 2553-2556: 'at the synod of Douine (554), at which the faith, as decreed at Ephesus, was emphatically proclaimed in opposition to Nestorian errors and Chalcedonian claims'. john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt 6258-6269 (the catholicos's party in Constantinople, c. 572). Census dates: after-Avarayr 451-554.",
+   "fix": "Regrade to Dominant Modern Reconstruction; citation_specificity B; verification_state named-not-rechecked. Remove the two John of Ephesus sources. New note: \"In 554 a council at Dvin, led by the catholicos Nerses II, proclaimed the faith of Ephesus against the claims of Chalcedon. This rests on modern histories of the Armenian church, chiefly Malachia Ormanian's. The council's own acts survive only in Armenian.\" Add the Book of Letters to wants. The 570s episode may become its own before-the-Bagratids link if a text names it (none does now)."
+  },
+  {
+   "id": "R1-06",
+   "target": "merovingian-gallic-christianity--carolingian-reform-christianity (continued as, Documented)",
+   "severity": "substantial",
+   "issue": "Over-graded. No quote shows the same community or see continuing across 620-751. Boniface (742) speaks of a Frankish church 'trampled' for sixty or seventy years, and the Clausula has Pippin anointed by 'the bishops of Gaul'. Both events are attested, but 'the same church passed under the new dynasty' is an interpretation, and the note's third sentence asserts it with no source (the drafter's own flag says so). The drafter found no repo-cited secondary, but one exists: McKitterick, already cited in the census.",
+   "evidence": "capitulatio-de-partibus-saxoniae_pertz1881.txt 2202-2206; fredegar...krusch1888.txt 13513-13516. Repo citation: cic-website/data/world-census.json line 12950, 'Rosamond McKitterick, The Frankish Church and the Carolingian Reforms, 789-895 (Royal Historical Society, 1977)'.",
+   "fix": "Regrade to Widely Accepted. Add the secondary source {\"kind\":\"secondary\",\"work\":\"Rosamond McKitterick, The Frankish Church and the Carolingian Reforms, 789-895 (Royal Historical Society, 1977)\",\"file\":null,\"lines\":null,\"quote\":null}. Replace the third note sentence with: \"Historians treat it as the same Frankish church, reformed rather than replaced under the new dynasty.\" Also split the 27-word first sentence: \"In 742 Boniface told the pope that Carloman wanted a synod. Its task was to repair a Frankish church neglected for sixty or seventy years.\""
+  },
+  {
+   "id": "R1-07",
+   "target": "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast (continued as, WA)",
+   "severity": "substantial",
+   "issue": "Mis-sourced. The only secondary is Macler's footnote dating a coronation. That is not a work giving the consensus reading, so the Widely Accepted bar is not met as drafted. The clause 'the formula of Heraclius's later reign' has no listed source (the drafter's flag admits it rests on census text). But the vendored council of 681 itself shows the see continuing. It calls Sergius 'at one time patriarch of this royal ... city', and his letters to Pope Honorius (pope from 625) place his patriarchate after 622. It then names Pyrrhus, Paul and Peter 'who died bishops of this God-preserved city'. That is continuity of the same see, the same bar links 4, 20 and 22 were held to.",
+   "evidence": "npnf214_seven-ecumenical-councils.xml 25694-25697 ('doctrinal letters of Sergius, at one time patriarch of this royal god-protected city ... to Honorius some time Pope of Old Rome'), 25704-25707 ('of Pyrrhus, Paul, and Peter, who died bishops of this God-preserved city').",
+   "fix": "Regrade to Documented; set verification_state to verified-direct. Add a primary source with lines 25706-25707 and quote \"of Pyrrhus, Paul, and Peter, who died bishops of this God-preserved city\". Keep Macler for the 610 date. New note: \"The patriarchate of Constantinople ran on through the reign of Heraclius. Sergius was its patriarch when Heraclius was crowned in 610, and he still held it when he wrote to Pope Honorius. The council of 681 names him and his successors Pyrrhus, Paul and Peter as bishops of the same city.\""
+  },
+  {
+   "id": "R1-08",
+   "target": "georgian-christianity--georgian-revival-tao-klarjeti (continued as, IT)",
+   "severity": "substantial",
+   "issue": "A note fact has no source, and the note understates its evidence. 'The monastic revival that began around 782' comes only from the census text of the target movement, not from any listed source. Meanwhile the listed secondary, Brosset (vendored, read here), names Georgian catholicoi inside the very gap the note calls empty: a Samoel in the mid-600s, and a Samoel around 790 in the Life of Abo. He also argues that the apparent break in the list reflects missing sources, not a vacant see. 'After its break with Armenia around 609' also clashes with the 'around 600' used in link 31 and in the Armenian prose.",
+   "evidence": "brosset_histoire-de-la-georgie-pt1-fra_1849.txt 2553-2560 ('l'interruption apparente du catholicat'), 2572-2576 ('Samoel, nommé dans le titre de la Vie de S. Abo ... vers l'an 790'; 'Samoel ... au milieu du VIIe siècle'), 2593 ('ce qui force à douter que ... le catholicat se soit éteint'). Sebeos 7441-7443.",
+   "fix": "Regrade to Widely Accepted (Sebeos as primary for the catholicate after the break; Brosset for its continuity), citation_specificity A. New note: \"After its break with Armenia around 600, the Georgian church kept its own catholicos, whom the Armenian historian Sebeos mentions soon after. The historian Marie-Félicité Brosset names Georgian catholicoi in the mid-600s and around 790. He judged that the see never lapsed, though the sources for these years are thin.\""
+  },
+  {
+   "id": "R1-09",
+   "target": "latin-africa-under-byzantium legacy (prose change 11)",
+   "severity": "substantial",
+   "issue": "Added an unsupported fact. 'Its bishops wrote to the emperor to defend writings the council of Chalcedon had accepted' states the defenders' own case as settled. The Three Chapters included Theodore of Mopsuestia's person and works, which Chalcedon did not accept. What the sources support is that Chalcedon had received Theodoret and Ibas.",
+   "evidence": "facundus...pl67-lat_migne1865.txt 41877-41881 (Facundus's own framing: Ibas's letter 'laudata', Theodoret who at Chalcedon upheld Leo's letter); npnf214 22945-22946 (cited by the drafters in disposition 121: 'Theodoret and Ibas had been received in that Council').",
+   "fix": "Replace the sentence with: \"Its bishops wrote to the emperor to defend three sets of writings they believed the council of Chalcedon had cleared, and they would not condemn them.\""
+  },
+  {
+   "id": "R1-10",
+   "target": "british-welsh-christianity relationsSummary (prose change 3)",
+   "severity": "substantial",
+   "issue": "A new relationship is stated as fact, and the source cited for it says the opposite. 'It stood apart from the Irish church' is attributed in the reason to Bede II.4. But that chapter has Laurentius find that 'the Scots in no way differ from the Britons in their behaviour'. 'Irish monks cited its writer Gildas' also overstates the evidence: the one vendored instance is Columbanus.",
+   "evidence": "bede_ecclesiastical-history-english-people_giles1903.txt 3853-3857: 'coming acquainted with the errors of the Britons, we thought the Scots had been better ; but we have been informed by Bishop Dagan ... and the Abbat Columbanus in France, that the Scots in no way differ from the Britons in their behaviour'. npnf213 4535-4536 (Columbanus on Giltas).",
+   "fix": "New text: \"The older church of Roman Britain, pushed west when the Anglo-Saxons invaded. Like the Irish church, it kept customs of its own, and the Irish monk Columbanus cited its writer Gildas. It met Augustine's mission around 603 and refused to submit to him, and it kept its own Easter long after Whitby (664).\" Correct disposition 274's reason to cite Bede II.4 for the likeness, not for a separation."
+  },
+  {
+   "id": "R1-11",
+   "target": "nubian-christianity relationsSummary (prose change 3)",
+   "severity": "substantial",
+   "issue": "'Brought to the faith from Egypt by rival missions' misstates where the missions came from. Both were sent from Constantinople: Julian from Theodosius's household there, and the envoys from Justinian. They travelled by way of the Thebaid. The drafter's own flag on link 2 says Julian 'set out from Theodosius's household in Constantinople, not from Egypt'.",
+   "evidence": "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt 10925-10928 ('Among the clergy in attendance upon pope Theodosius' - in Constantinople), 10966-10971 (the emperor's envoys sent with 'letters for the duke of the Thebais').",
+   "fix": "New text: \"Brought to the faith in the 540s by two rival missions sent from Constantinople. Nobadia took the faith of Alexandria's exiled Miaphysite patriarch and turned down the one Justinian's envoys brought. A Chalcedonian chronicle says Makuria too became Christian, around 569.\""
+  },
+  {
+   "id": "R1-12",
+   "target": "church-of-caucasian-albania relationsSummary, longDescription, why, legacy (prose changes 7-10, group C)",
+   "severity": "substantial",
+   "issue": "The qualification removed 'absorbed' but left '705' standing as a fact in four relationship sentences ('From 705 on, its head ... had to answer to the Armenian church'; 'In 705 it lost its independent standing'; 'In 705 its catholicos came under'; 'After 705 its catholicos had to answer'). No listed or vendored source gives 705: the drafter's flag on link 34 says Ormanian 'does not give the year 705' and that the census's 705 'stays in the prose unchecked'. The link itself dates the act to Elias's patriarchate, 703-717.",
+   "evidence": "ormanian_church-of-armenia_gregory1912.txt 2901-2907: 'Eghia (Elias) of Ardjesch (703-717) ... the zeal he displayed to retain Caspian Albania in the communion of the Armenian Church ... He was immediately removed and replaced by Simeon.'",
+   "fix": "Replace each '705' clause with the early 700s: relationsSummary 'From the early 700s its head, the catholicos, had to answer to the Armenian church.'; longDescription 'In the early 700s it lost its independent standing, when its catholicos was placed under the Armenian church.'; why 'In the early 700s its catholicos came under the authority of the Armenian church.'; legacy 'From the early 700s its catholicos had to answer to the Armenian church.' The census end date of 705 goes with escalation C1."
+  },
+  {
+   "id": "R1-13",
+   "target": "insular-irish-monastic-christianity longDescription (Whitby, dispositions 255-256)",
+   "severity": "substantial",
+   "issue": "Two-way gap. The disposition says 'No census movement covers Rome in 664', but the Roman side at Whitby was the English church's own party, led by Wilfrid. That party belongs to anglo-saxon-christianity (597-793), whose own text names Whitby. Bede gives Wilfrid's speech against the Irish Easter by name. The relationship the Irish text names has no link and no sound disposition.",
+   "evidence": "bede_ecclesiastical-history-english-people_giles1903.txt 8003-8005: 'Then Wilfrid, being ordered by the king to speak, delivered himself thus : — \" The Easter which we observe, we saw celebrated by all at Rome'; 8134-8137: 'what have you to do with him, since you do not observe his decrees ?'. Census anglo-saxon-christianity longDescription: 'at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar ...'.",
+   "fix": "Add a new link anglo-saxon-christianity--insular-irish-monastic-christianity, type argued against, Documented, quoting Bede III.25 at lines 8003-8005 (and 8134-8137), with a note such as: \"At Whitby in 664, Bede reports, the English priest Wilfrid argued against the Irish date of Easter. He said the Roman reckoning was kept in Rome, Italy, Gaul, Africa, Asia and Egypt. King Oswy then ruled for Rome's reckoning.\" Set disposition 255's link_id to it."
+  },
+  {
+   "id": "R1-14",
+   "target": "links 22, 24, 36, 42, 50, 61 (notes)",
+   "severity": "minor",
+   "issue": "Internal or cataloguing language in public notes: 'No text we hold' (22, 42, 61), 'so this link is thin' (24), 'This link rests on that one edition' (36), 'Alfred's own preface is not among the texts we hold' (50). The note rules ban build and cataloguing commentary, and 'link' and 'thin' are grade talk.",
+   "evidence": "Drafting_Record.json links[22,24,36,42,50,61].note.",
+   "fix": "22: 'No source from the time ties the China mission of 635 to the catholicos directly.' 24: 'No source from the time ties it to the Kerala church of the 800s, so the evidence is slight.' 36: 'This rests on that one edition.' 42: 'No text from Cluny itself is quoted here; this rests on the two editors.' 50: drop the last sentence; end at 'We have this from Gregory's translator James Barmby, writing in 1895.' 61: 'No source shows what it drew from Columba's monks, so this rests on place alone.'"
+  },
+  {
+   "id": "R1-15",
+   "target": "links 2, 52 (note sentence length)",
+   "severity": "minor",
+   "issue": "Sentences run past about 25 words: link 52 has 31 words ('When an envoy of the Arian Visigothic king reached Tours ...') and link 2 has 26.",
+   "evidence": "Drafting_Record.json notes.",
+   "fix": "52: 'One Easter an envoy of the Arian Visigothic king reached Tours. Gregory of Tours questioned him on his faith, argued with him over the Trinity and called him a heretic.' 2: 'John of Ephesus says the priest Julian converted the king of the Nobadae in the 540s. Julian was one of the clergy of Theodosius, the exiled patriarch of Alexandria.'"
+  },
+  {
+   "id": "R1-16",
+   "target": "armenian-christianity-after-avarayr--georgian-christianity (note)",
+   "severity": "minor",
+   "issue": "'Describes Georgia as a Christian land under a prince subject to Persia' goes beyond the text, which says Gurzan has 'a Christian prince'.",
+   "evidence": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt 16341-16343: 'they have a Christian prince, who is subject to the king of Persia.'",
+   "fix": "'It then describes Georgia as a land with a Christian prince, subject to Persia.'"
+  },
+  {
+   "id": "R1-17",
+   "target": "the-church-of-the-east-under-persia--st-thomas-christians-of-india note; prose change 4 (longDescription); prose change 3",
+   "severity": "minor",
+   "issue": "'Cosmas ... found a church' and 'a traveler named Cosmas found a bishop' imply he visited the places in person. The passage only reports them ('there is also a church ... there is moreover a bishop').",
+   "evidence": "cosmas-indicopleustes_christian-topography_mccrindle1897.txt 7208-7211.",
+   "fix": "Change 'found' to 'reported' in all three places (e.g. 'In the 550s a traveler named Cosmas reported a bishop appointed from Persia at Kalyan')."
+  },
+  {
+   "id": "R1-18",
+   "target": "roman-church-gregorian relationsSummary (prose change 5)",
+   "severity": "minor",
+   "issue": "The rewrite keeps census-structure commentary in public text: 'It overlaps with the early Benedictine monks, whose time ends at Gregory's death, in the man himself, not in kind.' This explains how two entries' date ranges overlap. A participant reading it alone will not follow it.",
+   "evidence": "Drafting_Record.json prose_changes[36].new.",
+   "fix": "\"Gregory was a monk and wrote the only life of Benedict there is. But his own work was a bishop's: the Pastoral Rule is a manual for bishops, and the Register is the paperwork of a government. His letters also tell us about the early English church, the Frankish church of Gaul and the imperial church at Constantinople.\""
+  },
+  {
+   "id": "R1-19",
+   "target": "roman-church-gregorian legacy (prose change 7)",
+   "severity": "minor",
+   "issue": "'Carolingian councils ruled that bishops should own it and read it'. Barmby has the councils of 813 and 836 enjoining study of the book. Owning it rests on Hincmar's report of a copy handed over at consecration, which was a custom, not a council ruling. The drafter's flag on link 49 says the same.",
+   "evidence": "npnf212_leo-great-gregory-great.xml 24040-24058 ('the study of it was specially enjoined on all bishops'; Hincmar: 'a copy of it ... was given into the hands of bishops before the altar at their consecration').",
+   "fix": "\"Carolingian councils told all bishops to study it, and new bishops were handed a copy at their consecration.\""
+  },
+  {
+   "id": "R1-20",
+   "target": "aksumite-christianity longDescription (prose change 6)",
+   "severity": "minor",
+   "issue": "'Evidence from this window is thin' keeps the cataloguing word 'window'.",
+   "evidence": "Drafting_Record.json prose_changes[5].new.",
+   "fix": "'Evidence from these years is thin: inscriptions, a few very early gospel books, archaeology.'"
+  },
+  {
+   "id": "R1-21",
+   "target": "church-of-caucasian-albania legacy (prose change 10)",
+   "severity": "minor",
+   "issue": "Unclear pronoun and order: 'With them, scholars have begun to rebuild a language and a way of worship. For over a thousand years, nobody had been able to read them.' Here 'them' reads as the palimpsests, not the language.",
+   "evidence": "Drafting_Record.json prose_changes[31].new.",
+   "fix": "'With them, scholars have begun to rebuild a language that nobody had been able to read for over a thousand years, and a way of worship.'"
+  },
+  {
+   "id": "R1-22",
+   "target": "syriac-orthodox-west-syriac-christianity why (prose change 2, group B)",
+   "severity": "minor",
+   "issue": "Choppy, primer-like close that also blurs the sense: 'Byzantine power fell at Yarmouk in 636. Then a hierarchy stood on its own that had never stopped working. All that time it had no legal standing at all.'",
+   "evidence": "Drafting_Record.json prose_changes[13].new.",
+   "fix": "'When Byzantine power fell at Yarmouk in 636, a hierarchy stood on its own. It had never stopped working, though for long years it had no legal standing at all.'"
+  },
+  {
+   "id": "R1-23",
+   "target": "chalcedonian-monasticism-judean-desert-and-gaza longDescription (prose change 8)",
+   "severity": "minor",
+   "issue": "'When Euthymius took the council's side, his biographer says, nearly all the desert monks would have followed. But a rival monk named Theodosius turned many of them against it.' The bare conditional reads as a contradiction until the next sentence.",
+   "evidence": "cyril-scythopolis_vita-euthymii (cited lines 36066-36072) as the drafters summarise it: almost all would have followed had Theodosius not drawn them off.",
+   "fix": "'Euthymius took the council's side. His biographer says nearly all the desert monks would have followed him, had a rival monk named Theodosius not turned many of them against it.'"
+  },
+  {
+   "id": "R1-24",
+   "target": "nubian-christianity longDescription (prose change 4) - reason field",
+   "severity": "minor",
+   "issue": "The reason says 'Typo only ... No wording changed', but the new text splits and rewords several sentences ('narrative' becomes 'stories', the Faras and Baqt sentences are recast). No fact is lost. The audit trail misdescribes the change.",
+   "evidence": "Drafting_Record.json prose_changes[3].",
+   "fix": "Reason: 'Double comma fixed; long sentences split and two fragments made whole; no fact changed.'"
+  },
+  {
+   "id": "R1-25",
+   "target": "Georgian break date across texts",
+   "severity": "minor",
+   "issue": "The texts are inconsistent. Armenian prose change 2 and links 31 and 35 say 'around 600'; the Georgian prose changes say 'around 609' / '(c. 609)'; link 29 says 'around 609'. The evidence spans 596-609.",
+   "evidence": "Prose changes 23-27; links 29, 31, 35.",
+   "fix": "Use 'around 600' throughout the Georgian fields too (relationsSummary '(c. 600)'), with link 31 carrying the 596-609 spread."
+  },
+  {
+   "id": "R1-26",
+   "target": "the-church-of-the-east-under-persia legacy (disposition 99/100)",
+   "severity": "minor",
+   "issue": "'Its Indian branch, the St Thomas Christians of Kerala' is left flat. The link for this period is Inferential-Thin, and the three other fields were brought down to what Cosmas says.",
+   "evidence": "Drafting_Record.json dispositions 99-100; link 24.",
+   "fix": "'In later centuries the St Thomas Christians of Kerala belonged to its communion, and they are the ancestors of several churches worshipping there today ...'"
+  },
+  {
+   "id": "R1-27",
+   "target": "census data, not drafted",
+   "severity": "minor",
+   "issue": "Data gaps the drafted chain depends on. armenian-christianity-after-avarayr.continuesAs names bagratid-armenian-christianity, skipping before-the-bagratids. armenian-christianity-before-the-bagratids has no continuesAs and an empty relationsSummary. british-welsh-christianity has no continuesAs although link 66 is drafted.",
+   "evidence": "world-census.json movements (read directly).",
+   "fix": "In the merge, set after-avarayr.continuesAs = armenian-christianity-before-the-bagratids, before-the-bagratids.continuesAs = bagratid-armenian-christianity, and british-welsh-christianity.continuesAs = medieval-welsh-christianity. Log the empty relationsSummary in Open_Gaps_Tracking."
+  },
+  {
+   "id": "R1-28",
+   "target": "insular-irish-monastic-christianity--roman-church-gregorian (source kind)",
+   "severity": "minor",
+   "issue": "Barmby's editorial note ('There is no extant reply from Gregory ... Probably none was sent') is listed as kind 'primary'. It is an editor's judgement.",
+   "evidence": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml 4205-4207.",
+   "fix": "Change that source's kind to 'secondary' (work: 'James Barmby, note to Columbanus's letter, NPNF II.13'); file, lines and quote become null. The Documented grade still rests on the two letter quotes."
+  }
+ ],
+ "two_way_gaps": [
+  {
+   "gap": "Whitby 664: the Irish longDescription names the clash with the Roman reckoning; the Roman party is anglo-saxon-christianity (Wilfrid). No link, and the disposition's 'no movement covers Rome in 664' misses the English party.",
+   "fix": "R1-13: new argued-against link from anglo-saxon-christianity, Bede III.25."
+  },
+  {
+   "gap": "After the fixes in R1-02/R1-03/R1-04, the sentences that cited links 53, 9 and 54 need their dispositions re-pointed (to link 67, kept-as-is, and no-entry respectively).",
+   "fix": "As given in those findings."
+  },
+  {
+   "gap": "latin-africa-under-byzantium relationsSummary/longDescription ('waves of persecution' under the Vandals) names the Homoian church acting against the Nicene African church before 533. That is the relationship link 54 tried to carry. With 54 dropped it is a sound no-entry (no census movement for the Vandal-era Nicene church). Record that explicitly so it does not look like a silent gap.",
+   "fix": "Disposition no-entry with that reason."
+  },
+  {
+   "gap": "(b) direction: every drafted link is named in one of its movements' texts (as revised) or has a self-standing note. Links 15 (Montanism) and 14 (era 2) are named only in the other movement's text; that is acceptable. Link 64's naming is indirect (the British text names the refusals, not the English polemic), but its note stands alone.",
+   "fix": "None required."
+  },
+  {
+   "gap": "Era-2 gap noted by group D: no link joins homoian-arian-christianity to gothic-and-vandal-homoian-christianity, although both texts say the second descends from the first. Era-4 gap noted by group E: no continued-as link from insular-irish-monastic-christianity to medieval-irish-christianity, and neither era-3 text names it.",
+   "fix": "Log in Open_Gaps_Tracking for eras 2 and 4. Not this pass."
+  }
+ ],
+ "escalations_view": [
+  {
+   "item": "A1 (inventory mappings: Cyprian/Augustine to latin-pastoral-congregational-christianity; 646 councils to the Heraclian entry)",
+   "view": "Not for Mark. Reviewer confirms both: latin-pastoral's own text is Cyprian's and Augustine's churches, and 646 falls in the Heraclian window (622-843), not the Justinianic one (ends 622)."
+  },
+  {
+   "item": "A2, B2 (cross-group duplicates)",
+   "view": "Not for Mark; merge housekeeping. The merge missed one conflict: links 53 and 67 on the Gothic/Visigothic pair (R1-02)."
+  },
+  {
+   "item": "A3 (two Egyptian Miaphysite entries for the same years, era 2 'tradition' and era 3 'christianity')",
+   "view": "For Mark: a portfolio and census-structure question, already named needs-ruling in the corpus-map dossier."
+  },
+  {
+   "item": "A4 ('in communion with' has no type among the six)",
+   "view": "For Mark: a methodology change to the six-type table. The Aksum-Alexandria and Egypt-Syriac Orthodox cases show the need. Until he rules, 'in contact with' at the evidence's own grade is the right holding pattern."
+  },
+  {
+   "item": "B1 and D1 (present-day and monument facts with no vendored text: Lenten reading of the Ladder, Mar Saba and Saint Catherine's inhabited, Monte Cassino 1944, Ravenna buildings)",
+   "view": "For Mark, as one ruling: does the qualify rule apply to present-day and physical facts, or only to historical relationships? The drafters' choice to leave them standing is reasonable meanwhile. These are not relationship claims."
+  },
+  {
+   "item": "C1 (Albania's end date 705; the Bagratid summary 'absorbs ... after 705')",
+   "view": "For Mark (it moves a movement's dates and another movement's summary). R1-12 removes '705' from the prose meanwhile."
+  },
+  {
+   "item": "C2 (continuesAs skips armenian-christianity-before-the-bagratids)",
+   "view": "Not for Mark: a mechanical data fix implied by the census's own period split. Do it in the merge (R1-27) and log it."
+  },
+  {
+   "item": "C3 (Sebeos's 'catholicos de Géorgie et d'Albanie' on Chalcedon's side c. 614)",
+   "view": "Open-gap log item and wants entry (Thomson's Sebeos, 1999). Not for Mark."
+  },
+  {
+   "item": "D2 (era-2 Homoian descent gap)",
+   "view": "Open-gap log item for era 2."
+  },
+  {
+   "item": "D3 (Gregory-Alfred and Benedict-Cluny graded DMR only because the documenting texts are not vendored)",
+   "view": "Not a method change: the rule is settled and was applied correctly. Act on the wants list (Alfred's preface in Sweet's EETS edition; a Cluniac customary) through the source-research thread. Mark only if he wants the rule itself changed."
+  },
+  {
+   "item": "E1 (Irish penitentials 'private and repeatable' claim)",
+   "view": "Closed by prose change 45 (the clause is gone from the longDescription and the legacy). Nothing left for Mark."
+  },
+  {
+   "item": "E2 (no insular-irish to medieval-irish continued-as link)",
+   "view": "Open-gap log item for era 4."
+  }
+ ],
+ "checked": "CLAUDE.md in full; both drafting briefs; Drafting_Record.json in full (69 links, 46 prose changes, 294 dispositions, 14 escalations, merge notes); census movement texts and dates for every movement touched, plus edges and continuesAs fields. For every link with a vendored quote, I opened the file at the stated lines with surrounding context, including Severus Select Letters VI (letter header 'after banishment'), John of Ephesus HE III IV.6-8 and II.18/23, the Lives (James), Ps.-Zachariah III.2, VIII.1/3/5, IX.23-24, XII.7, Evagrius II.8, IV.4, IV.11, IV.38, Chronicle of Edessa, Novels 37/42/45, Facundus, Victor of Tunnuna, Mansi X (646 letters, Ecthesis heading), the 681 council, Synodicon Orientale (605, 676, 612 and Chabot's intro), Michael the Syrian XI.5-6, the History of the Patriarchs, John of Nikiu, the Synaxarium, Biclaro, Baladhuri, Cosmas, Dorotheus, the Rule of Benedict (both editions; Gasquet and Hunter Blair loci), the Dialogues, Moralia, Registers I.43/I.77/VI.50/IX.106/IX.122/XI.64, Gregory of Tours II.37, VI.40, X.1, Bede I.22/23/25, II.2/4, III.3/4/25, V.18/22, Jonas, the Columbanus letter, Annales Cambriae, Toledo III, Fredegar and Clausula, the Capitularia (742, 802, 'Quae a presbyteris'), Victor of Vita, Procopius Wars III-IV and Secret History, the Chronicle of 754, Sebeos, Samuel of Ani, and Ormanian (pp. 35-36, 40-41, 45). I also checked Brosset 1849 on the Georgian catholicate, Barmby on the Pastoral Rule's reception, and Bede II.4 on the Britons and Scots. I grepped the repo to confirm each WA/DMR secondary is already cited (Munro-Hay, Phillipson, Welsby, Wigram, Mathisen, Sarkissian, Garsoian, Dowsett, Tarchnischvili, Ferguson, Issaverdens, Moberg, Sweet), and found McKitterick in the census for R1-06. I spot-checked sentence lengths and internal vocabulary by script, and read Readability_Scores.json (all paragraphs pass FRE >= 60). I did not re-read the era-1 and era-2 reviewed links beyond the stated lines."
+}
