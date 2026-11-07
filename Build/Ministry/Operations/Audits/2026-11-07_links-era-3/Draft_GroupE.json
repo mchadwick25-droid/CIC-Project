@@ -1,0 +1,1192 @@
+{
+ "group": "E",
+ "movements": [
+  "insular-irish-monastic-christianity",
+  "british-welsh-christianity",
+  "nicene-visigothic-iberia"
+ ],
+ "dispositions": [
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "out-of-scope",
+   "link_id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "prose_change": 1,
+   "reason": "Era 2 owns it: the Gallic entry's own text names Irish monasticism (era2_names_it true). The sentence is still reworded in prose change 1, for the desert half; the new wording ('thinly documented') matches the Gallic link's present grade."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+   "other_id": "desert-monasticism",
+   "disposition": "qualify",
+   "link_id": "desert-monasticism--insular-irish-monastic-christianity",
+   "prose_change": 1,
+   "reason": "The link is kept as Inferential-Thin. 'Contested' overstates: no vendored or repo-cited source argues the other side; the evidence is one eighth-century tract read by Warren (antiphonary-of-bangor-pt2 1572-1620), who says the East reached Ireland through Gaul. Reworded to 'thinly documented ... through Gaul'."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "prose_change": 1,
+   "reason": "Existing link kept (Bede III.3). Prose change 1 keeps the parenthood but says 'one of the two roots', as the Anglo-Saxon entry's own text has two sources (Rome and Iona)."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Ireland was never Roman, and the church that took root there in the fifth century organized itself accordingly — around monasteries and their abbots rather than around city bishops, with monastic families and founder-saints anchoring whole regions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Roman Empire is a state, not a movement. No vendored text says in so many words that Ireland lay outside the empire; it is implied by Patrick, who calls himself a bishop 'in Ireland' who must 'dwell in the midst of barbarians' (patrick_writings-and-life-with-muirchu-eng_white1920 2843-2846), and by White's note that 'Britain is a recognized part of the Roman Empire' in Patrick's writings (lines 399-401). Kept; Tacitus, Agricola 24, added to wants."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Iona has no census movement. Adomnan dates the sailing 'In the second year after the battle of Culedrebina' (adomnan_life-of-saint-columba_huyshe1905 2221-2224), which Huyshe dates 563 (line 538). Bede gives 565 (bede 5811). The 563 date is kept; the two sources differ by two years."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "prose_change": 0,
+   "reason": "New influenced link (Jonas, Life of Columban 10, 17, 22, 50)."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Monasteries, not movements. Jonas: Luxeuil, 'formerly been called Luxovium' (jonas 522); Bobbio, 'it had long been called Bohium' and Columbanus restored its church (jonas 1650-1660). Supported."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Peregrinatio, the practice of leaving home permanently for God's sake, which sent Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Kings are state actors. Jonas: 'Columban sent him a letter full of reproaches, and threatened him with the ban' (Theuderich, jonas 951-952), and his reply to the king at Luxeuil (jonas 958-971). Supported."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No census movement covers Rome in 664. Supported: Bede III.25 sets out the Easter and tonsure controversy (bede 7955-7957). The earlier collision with Rome, Columbanus's letter to Gregory, is linked separately (next row)."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A king, not a movement. Bede III.25: Oswy rules that he will obey Peter, 'the door-keeper', and all present resolve 'to conform to that which they found to be better' (bede 8205-8217). Supported."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "why",
+   "sentence": "Ireland was never part of the Roman Empire, and its church grew up organized around monasteries and abbots rather than city bishops.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "As the longDescription row: not a movement; implied by Patrick's Letter 1 and White's introduction; Tacitus, Agricola 24, wanted."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "why",
+   "sentence": "Patrick's own two surviving letters, a defense of his life and a protest against the enslavement of his converts, are strikingly personal, and the practice of permanent voluntary exile it produced sent Columba to Iona and Columbanus deep into Gaul and Italy.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "prose_change": 0,
+   "reason": "Same new link. Jonas shows Columbanus moving on to Italy after Gaul (jonas 1641-1643)."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Irish monasticism reshaped continental Christianity: Columbanus's foundations seeded dozens of monasteries across Gaul and Italy, and Iona-trained missionaries carried the faith into Northumbria and beyond.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "qualify",
+   "link_id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "prose_change": 2,
+   "reason": "'Dozens of monasteries across Gaul and Italy' is not shown: Jonas names five houses founded under the rule (Palatium, the Jura house, Flavia's nunnery, Ado's and Dado's houses; jonas 670-680, 1424-1427), the Cursus tract says 'multa coenobia' (antiphonary 1675-1676), and only Bobbio in Italy. 'Reshaped continental Christianity' is also stronger than the sources. Rewritten to 'many more monasteries ... under his rule'."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Irish monasticism reshaped continental Christianity: Columbanus's foundations seeded dozens of monasteries across Gaul and Italy, and Iona-trained missionaries carried the faith into Northumbria and beyond.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "prose_change": 2,
+   "reason": "Existing link: Bede III.3, Aidan of Iona to Northumbria. 'And beyond' kept: Bede III.21-22 (Lindisfarne-trained preachers to the Middle Angles and East Saxons) is in the same vendored file, read but not quoted here."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "legacy",
+   "sentence": "The penitential handbooks written here spread through the Frankish church and stand behind the private, repeatable confession that became normal Western practice.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "qualify",
+   "link_id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "prose_change": 2,
+   "reason": "Columbanus's penitential was written on the Continent, not 'here' in Ireland, and it was the model for a long line of Frankish penitentials (Wasserschleben 1851, lines 1560-1579). That much is kept. The second half, that the handbooks 'stand behind the private, repeatable confession that became normal Western practice', has no vendored or repo-cited source; it is cut and the text added to wants."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Iona, Clonmacnoise and Glendalough are all still visited, and Iona has a working religious community again.",
+   "other_id": "ecumenical-community-worlds-taize-and-iona",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+   "prose_change": 0,
+   "reason": "The inventory said 'no census entry'; the era-10 movement ecumenical-community-worlds-taize-and-iona exists and names Iona. New Inferential-Thin link; the sentence is kept."
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--roman-church-gregorian",
+   "prose_change": 0,
+   "reason": "Added row: the inventory listed no party for this sentence. The earlier collision with Roman practice is documented by Columbanus's own letter to Gregory, c. 600 (npnf213 4390-4426). New argued-against link."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "relationsSummary",
+   "sentence": "The Homoian kingdom that crossed to Nicaea from inside; Isidore's church; ends at 711",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "prose_change": 0,
+   "reason": "New argued-against link (Toledo III anathemas 1 and 16; the Gothic bishops' signatures)."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "prose_change": 0,
+   "reason": "Same link. 'Over a century' of Homoian rule is the Gothic entry's own frame; the 754 chronicle gives 'pene per CXL annos' from Leovigild to the conquest, which concerns the kingdom, not the creed. Kept."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "prose_change": 0,
+   "reason": "Same link. Reccared's conversion: John of Biclaro, 'Reccaredus primo regni sui anno mensc X catholicus deo iuvante cfficitur' (chronica-minora-2 20313); the Gothic bishops' signatures, Toledo III (collectio 37118-37170)."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A council, not a movement. Toledo III anathema 18: 'Confitemur enim nos ex haerese Ariana ... ad ecclesiam catholicam fuisse conversos' (collectio 36976-36981). Supported."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "sentence": "The councils of Toledo worked as something between a synod and a parliament, legislating for church and kingdom together, and their record also includes a harsh and escalating body of law against Spain's Jews.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No census movement for the Jews of Spain. Supported: the Visigothic Code, Book XII, titles on the Jews (visigothic-code-forum-judicum_scott1910 4002-4037), and Scott's introduction on the harsher laws under Ervigius (line 586)."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "sentence": "All of it ended abruptly with the Muslim conquest of 711.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'All of it ended' contradicts the legacy field, which says the same institution continued under Muslim rule. The 754 chronicle shows the kingdom ended ('regno ablato vectigale fecit', chronica-minora-2 33856-33860) and the see of Toledo continuing (34480-34490). Rewritten to say the kingdom fell and the church lived on."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "why",
+   "sentence": "The Visigoths ruled Spain as Homoian Christians for over a century until King Reccared announced his own conversion, and at the third council of Toledo in 589 brought his bishops with him into the Nicene church of his subjects.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "prose_change": 0,
+   "reason": "Same argued-against link; same Toledo III evidence."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "legacy",
+   "sentence": "The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus.",
+   "other_id": "mozarabic-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "prose_change": 0,
+   "reason": "New continued-as link (Chronicle of 754: the kingdom made tributary; Urbanus and Evantius of the see of Toledo)."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "legacy",
+   "sentence": "Its liturgy went with it: the Mozarabic rite, formed in this period, is still celebrated in a chapel of Toledo Cathedral.",
+   "other_id": "mozarabic-christianity",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "prose_change": 0,
+   "reason": "Same link. The liturgy claim is supported by Férotin 1912: Isidore says Leander composed prayers and chants for the offices (ferotin 657-659), and Férotin calls the cathedral's capilla mozárabe 'le seul sanctuaire au monde où se pratique de nos jours avec quelque solennité le vieux rite national' (1333-1335). 'Still' rests on a 1912 witness."
+  },
+  {
+   "movement": "nicene-visigothic-iberia",
+   "field": "legacy",
+   "sentence": "The councils of Toledo left a large body of canon law that shaped later Western practice, and it was in Visigothic Spain that the Filioque clause first entered official use in the Creed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A doctrinal item, not a party. Supported: Toledo III anathema 3, 'a Patre et Filio procedere' (collectio 36909-36911), and the NPNF II.14 editor: 'the year 589 is the earliest date at which we find the words actually introduced into the Creed' (npnf214 13697-13699). The 'large body of canon law that shaped later Western practice' in the same sentence was not checked against a reception source."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The invaders were pagan settlers, not the Anglo-Saxon church, so no link to anglo-saxon-christianity. Supported by Gildas on 'those wild Saxons, of accursed name' admitted into the island (gildas 3415-3417) and Taylor's introduction to Samson (samson-of-dol 268-274). Prose change 3 keeps the claim in plainer words."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "prose_change": 3,
+   "reason": "'Distinct from' is a cataloguing statement no link type expresses (era 1 removed one like it). The two churches were separate (Bede II.4: Laurentius writes separately to the Scots and the Britons, bede 3850-3866), and there was documented contact: Columbanus cites Gildas. Rewritten to say both, with a new influenced link."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
+   "prose_change": 3,
+   "reason": "'Older than the Gregorian mission' is supported: Bede II.2 shows an existing British episcopate in 603, and Gildas wrote c. 540. The meeting is the new in-contact link; party choice explained in its flags (anglo-saxon-christianity, not roman-church-gregorian)."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
+   "prose_change": 3,
+   "reason": "Same link. Bede II.2: 'nor receive him as their archbishop' (bede 3667-3668). Gregory had committed 'all British bishops' to Augustine (npnf213 7550-7553). No separate link to roman-church-gregorian: Gregory never met or wrote to them."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Did not conform at Whitby' implies the British were a party there; Bede's list of those present has no British clergy (bede 7963-7970). What the sources show is that they kept their own Easter long after: Bede V.22 (bede 15020-15026) and the Annales Cambriae for 768 (annales 2984-2988). Rewritten."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Pagan settlers, not the Christian movement. Supported by Gildas (3415-3417) and Taylor (268-274, 'Large numbers of the Britons sought refuge in the west, especially in ... Wales and Cornwall')."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Roman rule is not a movement. Supported: Gildas describes the Diocletianic persecution in Britain (gildas 1510-1513); White notes that in Patrick's writings 'Britain is a recognized part of the Roman Empire' (patrick 399-400)."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "Britain had been Christian under Roman rule, and when the province fell away and Anglo-Saxon settlers took the east, that church did not vanish — it survived in the west: in Wales, Cornwall, the north-west, and across the sea in Brittany, which British emigrants gave its name.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A place. Supported: Gildas's 'alii transmarinas petebant regiones' (gildas 3626-3627), with Williams's note that this 'was the beginning of Britanny, or Armorica' (3656); Taylor: Armorica 'was soon to be known as Lesser Britain or Brittany' (samson-of-dol 273-274)."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
+   "prose_change": 0,
+   "reason": "New in-contact link (Bede II.2, dated 603 in the chapter title)."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity--2",
+   "prose_change": 0,
+   "reason": "Bede II.2: Augustine asked them 'jointly with us to preach the word of God to the English nation' and they refused (bede 3663-3667); Bede I.22 and V.22 charge them with never preaching to the English. Linked as the English church's argued-against link; the meeting itself is the in-contact link."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "When Augustine of Canterbury arrived from Rome and met British bishops around 603, they declined to accept his authority or to join his mission to the Saxons who had displaced them; they were not at the synod of Whitby in 664 either.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A synod, not a movement. Supported as an absence: Bede III.25 lists those present at Streaneshalch (Colman and his Scottish clergy, Agilbert, Agatho, Wilfrid, James, Romanus, Hilda, Cedd; bede 7962-7970) and names no British clergy."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "longDescription",
+   "sentence": "The Welsh church came round to the Roman dating of Easter on its own, around 768.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No movement for Rome's calendar in 768. Supported: Annales Cambriae, 'Pasca commutatur' apud BrittoneS ... emendante ^Elbodugo' (annales 2984-2988), a tenth-century compilation."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "why",
+   "sentence": "When Anglo-Saxon settlers took eastern Britain, the older British church survived in the west, in Wales, Cornwall and Brittany, running through monastic schools and founder-saints like David, Illtud and Teilo.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "As the longDescription row: pagan settlers; Gildas and Taylor."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "why",
+   "sentence": "Its monk Gildas delivered a furious denunciation of British kings around the 540s, and its bishops refused to recognize Augustine of Canterbury's authority in 603, keeping their own dating of Easter until the Welsh church adopted Rome's calendar on its own around 768.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity",
+   "prose_change": 0,
+   "reason": "Same in-contact link; the 603 date is Bede's chapter title."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "why",
+   "sentence": "Its monk Gildas delivered a furious denunciation of British kings around the 540s, and its bishops refused to recognize Augustine of Canterbury's authority in 603, keeping their own dating of Easter until the Welsh church adopted Rome's calendar on its own around 768.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "As the longDescription 768 row: Annales Cambriae 768."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": "british-welsh-christianity--medieval-welsh-christianity",
+   "prose_change": 4,
+   "reason": "Kept in substance: the Welsh church carried on under its own bishops after 768 (Annales Cambriae: Elbodug archbishop d. 809, annales 3102-3104; Nobis bishop in Miniu, 3327). Reworded so the field names the continuation."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+   "other_id": "medieval-welsh-christianity",
+   "disposition": "link",
+   "link_id": "british-welsh-christianity--medieval-welsh-christianity",
+   "prose_change": 4,
+   "reason": "New continued-as link across the census's 768 split."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "sentence": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No vendored or repo-cited source shows the Welsh bishops coming under Canterbury in the twelfth century (searched cic/texts, Build, records). The clause is cut and the source added to wants."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "sentence": "Gildas's account, for all its fury, became the foundation of what later writers thought they knew about post-Roman Britain, reaching Bede and everyone after him.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "british-welsh-christianity--anglo-saxon-christianity",
+   "prose_change": 4,
+   "reason": "New influenced link (Bede I.22 names 'their own historian, Gildas'). 'Became the foundation of what later writers thought they knew ... reaching Bede and everyone after him' goes beyond the one citation; narrowed to what Bede shows."
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "sentence": "And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A place. Supported: Taylor's introduction to the Life of Samson (samson-of-dol 268-278: 'a race with the same language and religious customs' on both sides of the Channel; 'development in Wales, Brittany and Cornwall', 672). The present-day cults rest on Taylor (1925)."
+  }
+ ],
+ "links": [
+  {
+   "old_index": null,
+   "id": "desert-monasticism--insular-irish-monastic-christianity",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "insular-irish-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "An eighth-century Irish monk on the Continent, mixing fact with legend, traced the Irish daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged this single late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
+   "sources": [
+    {
+     "source_id": null,
+     "locus": "Warren, Intro. p. xxv",
+     "quote": "Et beatus Basilius, frater ipsius sancti Gregorii, Antonius,? Paulus, Macarius, vel Iohannes, et Malchus,? secundum ordinem Patrum decantaverunt.",
+     "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+     "lines": "1619-1620",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor"
+    },
+    {
+     "source_id": null,
+     "locus": null,
+     "quote": null,
+     "file": null,
+     "lines": null,
+     "license": null,
+     "kind": "secondary",
+     "work": "Frederick E. Warren, introduction to The Antiphonary of Bangor, part II (Henry Bradshaw Society, 1895)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity relationsSummary ('Contested line from Gallic/Eastern asceticism'); the desert entry's own text does not name it",
+   "wants": [],
+   "drafter_flags": [
+    "The relationsSummary called this line 'Contested'; no vendored or repo-cited source disputes it, it is only thin. Prose change 1 rewords the summary to match the grade rather than raising the grade."
+   ],
+   "change_reason": "Unchanged. Re-read Warren's introduction: the tract (lines 1617-1620) and Warren's own verdict, 'In spite of errors of detail ... a solid foundation of fact' and 'The connecting link between Ireland and the East was Gaul' (lines 1572-1580), say what the note says. Inferential-Thin stands: one eighth-century witness, read by one 1895 editor."
+  },
+  {
+   "old_index": null,
+   "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "A single eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. Beyond that, there is only Patrick's own wish, in his Confession, to visit the brethren in Gaul. Warren, the 1895 editor of the Bangor Antiphonary, held that Ireland's Eastern features came through Gaul.",
+   "sources": [
+    {
+     "source_id": null,
+     "locus": "Warren, Intro. p. xxv",
+     "quote": "Inde postea beatissimus? Cassianus, qui Linerensi (sz?) monasterio beatum Honorium habuit comparem.",
+     "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+     "lines": "1622-1623",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor"
+    },
+    {
+     "source_id": null,
+     "locus": "Confessio 43",
+     "quote": "but to go as far as Gaul in order to visit the brethren and to behold the face of the saints of my Lord",
+     "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+     "lines": "2442-2443",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Patrick, Confession, section 43"
+    },
+    {
+     "source_id": null,
+     "locus": null,
+     "quote": null,
+     "file": null,
+     "lines": null,
+     "license": null,
+     "kind": "secondary",
+     "work": "Frederick E. Warren, introduction to The Antiphonary of Bangor, part II (Henry Bradshaw Society, 1895)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity relationsSummary; gallic-monastic-ascetic-christianity relationsSummary ('through Lérins and Tours - of Irish monasticism')",
+   "wants": [],
+   "drafter_flags": [
+    "No doubt about the link itself: its two quotes are re-checked by the quote script. Coordination point: prose change 1 rewrites the Irish relationsSummary, which names this Gallic line too, as 'thinly documented'. That matches this link's current Inferential-Thin grade; if era 2 regrades the link, the summary wording should follow."
+   ],
+   "change_reason": "Era 2 owns it (the era-2 text names Irish monasticism). Listed as keep; not changed."
+  },
+  {
+   "old_index": null,
+   "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "action": "keep",
+   "from": "insular-irish-monastic-christianity",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Bede reports that King Oswald asked the Irish for a bishop, and they sent him Aidan, a monk of Iona, in 635. Bede adds that the English were taught the rules of monastic life by their Irish masters. The Roman mission of 597 was a second, separate source of English Christianity.",
+   "sources": [
+    {
+     "source_id": null,
+     "locus": "III.3, chapter title",
+     "quote": "The same king Oswald, asking- a bishop of the Scottish nation, had Aidan sent him, and granted him an episcopal see in the Isle of Lindisfarne.",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5726-5729",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)"
+    },
+    {
+     "source_id": null,
+     "locus": "III.3",
+     "quote": "Nor were they slow in granting his request ; but sent him Bishop Aidan, a man of singu- lar meekness, piety, and moderation",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5745-5747",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)"
+    },
+    {
+     "source_id": null,
+     "locus": "III.3",
+     "quote": "great and small, were, by their Scottish masters, instructed in the rules and observance of regular discipline ; for most of them that came to preach were monks. Bishop Aidan was himself a monk of the island called Hii",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5791-5795",
+     "license": "public-domain",
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity relationsSummary ('parent of Anglo-Saxon Christianity') and legacy ('Iona-trained missionaries carried the faith into Northumbria'); anglo-saxon-christianity relationsSummary and longDescription",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Unchanged. Bede III.3 names Oswald's request, Aidan of Iona sent in 635, and the English taught 'by their Scottish masters': named people passing from one to the other. Documented stands."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "merovingian-gallic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Jonas of Bobbio, writing around 640, tells how Columbanus sailed from Ireland and founded Luxeuil in Gaul. Local nobles then founded monasteries under his rule, among them Donatus, bishop of Besançon, and Dado at Rebais. The handbook of penances Columbanus wrote on the Continent became a model for later Frankish ones.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonas of Bobbio, Life of St. Columban 10, tr. Munro 1895",
+     "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+     "lines": "293-295",
+     "locus": "c. 10",
+     "quote": "So they embarked, and began the dangerous journey across the channel and sailed quickly with a smooth sea and favorable wind to the coast of Brittany.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonas of Bobbio, Life of St. Columban 22, tr. Munro 1895",
+     "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+     "lines": "670-672",
+     "locus": "c. 22",
+     "quote": "He became Bishop of Besanyon, which he still is. Out of love for St. Columban he founded a monas- tery under Columban's rule.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonas of Bobbio, Life of St. Columban 50, tr. Munro 1895",
+     "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+     "lines": "1425-1427",
+     "locus": "c. 50",
+     "quote": "The younger. Dado, founded, under the rule of the blessed man, a monastery near Brieg, on the little river Rebais.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor",
+     "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+     "lines": "1675-1676",
+     "locus": "Warren, Intro. p. xxvi",
+     "quote": "percrebuit forma sanctitatis eorum per universum orbem terrarum, et multa coenobia ex eorum doctrina tam virorum quam puellarum sunt congregata.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. W. H. Wasserschleben, Die Bussordnungen der abendlaendischen Kirche (Halle, 1851), introduction, ch. II (vendored: cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt, lines 1560-1579)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity longDescription ('Columbanus into Gaul and Italy, where he founded Luxeuil'), why ('deep into Gaul and Italy') and legacy (Columbanus's foundations; the penitentials 'spread through the Frankish church'); the Merovingian entry's own text does not name it",
+   "wants": [
+    "Jonas, Life of Columban, Book II (the Council of Macon, 626/7, and Luxeuil under Eustasius), which would show the Frankish church debating and adopting the rule; the Munro translation covers Book I only"
+   ],
+   "drafter_flags": [
+    "Jonas was himself a monk of Bobbio, Columbanus's last foundation, so this is an insider's account; but the founders he names (Donatus of Besançon, 'which he still is') were living when he wrote.",
+    "The penitential sentence rests on Wasserschleben's 1851 introduction (German): the Columbanian penitential was written on the Continent, not in Ireland, and is 'Vorbild und Grundlage einer langen Reihe fränkischer Beichtbücher' (lines 1564-1579). It is a secondary judgement inside a vendored file, not a primary quote.",
+    "The Cursus tract dates from the eighth century; it supports 'many houses', not a number.",
+    "Not drafted, noted for the reviewer: Jonas c. 33 (lines 954-957) has Brunhilda turning the Frankish bishops to 'attack Columban's faith and to abolish his monastic rule'. That is a Merovingian act against the Irish monk, but neither text names it."
+   ],
+   "change_reason": "New: the Irish text names Columbanus's work in Gaul three times and no link existed."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "roman-church-gregorian",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Around 600 the Irish monk Columbanus wrote from Luxeuil to Pope Gregory, defending the Irish date of Easter. He asked Gregory why he kept a dark Easter, and said Irish scholars had never accepted the Easter tables of Victorius. No reply from Gregory survives.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory (Gregory, Register, Ep. IX.127 in Barmby's numbering), NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4390-4393",
+     "locus": "Ep. CXXVII",
+     "quote": "Why then dost thou, who art so wise, the brilliant lights indeed of whose sacred genius are diffused, as in ancient times, through the world,—why dost thou keep a dark Easter?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4423-4426",
+     "locus": "Ep. CXXVII",
+     "quote": "For know thou that by our masters and the Irish ancients, who were philosophers and most wise computists in constructing calculations, Victorius was not received, but held rather worthy of ridicule or of excuse than as carrying authority.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Editor's introductory note to the letter, NPNF II.13 (Barmby)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4205-4207",
+     "locus": "Ep. CXXVII, n. 89",
+     "quote": "There is no extant reply from Gregory to the letter.  Probably none was sent.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity longDescription ('Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice'); the Gregorian entry's text does not name Columbanus",
+   "wants": [
+    "Columbanus, Letter II to the Gallic synod and Letter V to Boniface IV (Latin, MGH Epp. III, Gundlach), not located; the letter to the Gallic bishops is the fuller record of the Easter dispute in Gaul"
+   ],
+   "drafter_flags": [
+    "The Irish sentence's main subject is Whitby (664), which has no Roman party in the census; this link carries the earlier, documented collision with Rome that the same sentence describes in general terms. A reviewer may judge the sentence too far from the letter to count as naming it.",
+    "The date 598-9 is the Benedictine editors' (lines 4179-4181); 'around 600' in the note.",
+    "The same letter calls the Gallic custom 'this error of Gaul' (line 4393): a possible argued-against link to merovingian-gallic-christianity, not drafted because neither text names it."
+   ],
+   "change_reason": "New: the letter is addressed to Gregory by name and argues against Rome's Easter reckoning."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "ecumenical-community-worlds-taize-and-iona",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Bede, writing in the eighth century, says Columba's successors still held the island of Iona. In 1938 George MacLeod founded the Iona Community there and set about rebuilding its abbey. No text we hold shows what it drew from Columba's monks, so this rests on place alone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), III.4",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5841-5846",
+     "locus": "III.4",
+     "quote": "whereupon he also received of them the aforesaid island for a monastery, for it is not very large, but contains about five families, according to the English computation. His successors hold the island to this day",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ron Ferguson, Chasing the Wild Goose: The Story of the Iona Community (1988)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "insular-irish-monastic-christianity legacy ('Iona has a working religious community again'); ecumenical-community-worlds-taize-and-iona relationsSummary ('Iona literally on Columba's island')",
+   "wants": [
+    "George MacLeod's own writings on the founding of the Iona Community, or Ferguson 1988, vendored or verified, to show what the community claimed from Columba"
+   ],
+   "drafter_flags": [
+    "The inventory marked this 'no census entry'; the era-10 movement ecumenical-community-worlds-taize-and-iona exists and its own text names Iona and Columba.",
+    "Ferguson 1988 is cited in the repo only in Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_Research_E.md, marked [S], 'none individually verified'. The 1938 date and MacLeod's name rest on it and on the era-10 text. Weakest sourcing in this file; the reviewer may prefer to leave the link to era 10."
+   ],
+   "change_reason": "New: the Irish legacy names the modern Iona community, which has a census movement."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "british-welsh-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Writing to Pope Gregory around 600, the Irish monk Columbanus cited Gildas, the British monk and writer. He reported that a writer named Vennianus had asked Gildas about monks who left their monasteries, and that Gildas answered most elegantly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4535-4536",
+     "locus": "Ep. CXXVII",
+     "quote": "The author Vennianus enquired about these of Giltas, who replied to him most elegantly",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4530-4535",
+     "locus": "Ep. CXXVII",
+     "quote": "those monks who for a closer sight of God, or inflamed by a longing for a more perfect life, going against their vows, leave the places of their first conversion",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "british-welsh-christianity relationsSummary, as rewritten in prose change 3 (the old text said only 'distinct from Irish Christianity')",
+   "wants": [
+    "The Gildas fragments as cited by Columbanus, and the Irish catalogue of saints that names him, to show the wider Irish reception the corpus map flags as needs-ruling"
+   ],
+   "drafter_flags": [
+    "The letter also cites 'the writer Giltas' on simoniac bishops (line 4513-4514), but an XML endnote sits inside that sentence, so it cannot be quoted cleanly.",
+    "Vennianus is usually identified as Finnian; the vendored text does not say who he was, so the note does not.",
+    "Patrick, a Briton by his own account (Confession 1, 23), is the other possible line from the British church to Ireland; neither text names it as a relationship and his dates are disputed, so nothing drafted."
+   ],
+   "change_reason": "New: replaces a 'distinct from' statement, which no link type expresses, with the documented contact between the two churches."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "british-welsh-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Bede records two meetings around 603 between Augustine of Canterbury and the British bishops, the first at Augustine's Oak. Pope Gregory had placed the British bishops under Augustine, but at the second meeting they refused to accept him as archbishop. Bede wrote this account more than a century later.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2, chapter title",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "3561-3562",
+     "locus": "II.2",
+     "quote": "and of the vengeance that pursued them for their contempt, [a.d. 603.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "3564-3568",
+     "locus": "II.2",
+     "quote": "Augustine, with the assistance of King Ethelbert, drew together to a conference the bishops, or doctors, of the next province of the Britons, at a place which is to this day called Augus- tine's Ac, that is, Augustine's Oak",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "3666-3668",
+     "locus": "II.2",
+     "quote": "They answered they would do none of those things, nor receive him as their archbishop",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, answers to Augustine (Register XI.64), question IX, NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "7550-7553",
+     "locus": "Ep. XI.64, q. IX",
+     "quote": "But of all British bishops we commit the charge to thy Fraternity, that the unlearned may be taught, the weak strengthened by persuasion, the perverse corrected by authority.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "british-welsh-christianity relationsSummary ('older than the Gregorian mission it later met; rejected Augustine's authority'), longDescription ('When Augustine of Canterbury arrived from Rome and met British bishops around 603') and why",
+   "wants": [],
+   "drafter_flags": [
+    "Party choice: the inventory matched 'Gregorian mission' and Augustine to roman-church-gregorian. I placed the meeting with anglo-saxon-christianity, because that entry dates itself from Augustine's landing in 597 and Augustine met the Britons as bishop in Kent. Gregory himself never met or wrote to the British bishops; his letter is cited for the authority at issue. The reviewer should confirm the party.",
+    "Bede's chapter carries legendary matter (the hermit's test, the healed blind man, the prophecy fulfilled at Chester). The meetings and the refusal are the core the note uses.",
+    "The Responsa (Register XI.64) is the letter Bede also quotes (I.27); its 'XI.64' number is from the NPNF heading region, not re-checked against Ewald-Hartmann."
+   ],
+   "change_reason": "New: the British text names the meeting and the refusal twice; no link existed."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "british-welsh-christianity",
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity--2",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine's successor Laurentius wrote to the British clergy, urging them into Catholic unity. Aldhelm later wrote a book against their Easter reckoning, Bede reports. Bede himself complained that the Britons, who would not share the faith with the English, still held to their errors.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.4",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "3862-3865",
+     "locus": "II.4",
+     "quote": "The same Laurentlus and his fellow bishops wrote a letter to the priests of the Britons, suitable to his rank, by which he endeavoured to confirm them in Catholic unity",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), V.18",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "13813-13817",
+     "locus": "V.18",
+     "quote": "Aldhelm, when he was only a priest and abbdt of the monastery of Malmesbury, by order of a synod of his own nation, wrote a notable book against the error of the Britons, in not celebrating Easter at the proper time",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), V.22",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "15020-15024",
+     "locus": "V.22",
+     "quote": "the Britons, who would not acquaint the English with the knowledge of the Christian faith, now, when the English people enjoy the true faith, and are thoroughly instructed in its rules, continue inveterate in their errors",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "british-welsh-christianity longDescription ('they declined to accept his authority or to join his mission to the Saxons') and why ('keeping their own dating of Easter'): the refusals the English church wrote against",
+   "wants": [
+    "Aldhelm's letter to Geruntius (Geraint), king of Dumnonia, on the British Easter and tonsure, which is the book Bede means"
+   ],
+   "drafter_flags": [
+    "Second link on this pair; each is separately evidenced (the 603 meetings in II.2; the later polemic in II.4, V.18 and V.22).",
+    "Named-in-text is indirect: the British text names what the British refused, not the English writing against it. The reviewer may prefer a short prose addition.",
+    "Laurentius's letter to the Irish bishops in the same chapter (lines 3838-3857) is an English act against the Irish church as well; not drafted, since neither text names it."
+   ],
+   "change_reason": "New: the English church's written case against the British church, by name, across a century."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "british-welsh-christianity",
+   "to": "anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his history of the English church, Bede cites Gildas as the Britons' own historian for their sins after the Romans left. Bede then adds a charge of his own: that the Britons never preached the faith to the English.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), I.22",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "1784-1787",
+     "locus": "I.22",
+     "quote": "which their own historian, Gildas, mournfully takes notice of, they added this — that they never preached the faith to the Saxons, or English, who dwelt amongst them",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "british-welsh-christianity legacy ('Gildas's account ... reaching Bede')",
+   "wants": [],
+   "drafter_flags": [
+    "Bede names Gildas once. His wider reuse of Gildas in I.12-16 is standard scholarship but is not shown by any vendored or repo-cited source; the note claims only the citation.",
+    "'After the Romans left' rests on the chapter's context (I.22 opens with the Britons 'for a time delivered from foreign invasions', line 1760) rather than on the quoted lines."
+   ],
+   "change_reason": "New: the British legacy names Gildas reaching Bede; Bede's citation documents it."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "british-welsh-christianity",
+   "to": "medieval-welsh-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Welsh annals record that in 768 the Britons changed their Easter, guided by Elbodug, a man of God. The same annals record his death in 809 as archbishop in Gwynedd. The annals were compiled in the tenth century from older entries.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Cambriae, year 768 (Rolls Series 20, 1860)",
+     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+     "lines": "2984-2988",
+     "locus": "a. 768",
+     "quote": "Pasca commutatur' apud BrittoneS; ^ [super Dominicam diem,] emendante ^Elbodugo bomine' Dei.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Cambriae, year 809 (Rolls Series 20, 1860)",
+     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+     "lines": "3102-3104",
+     "locus": "a. 809",
+     "quote": "Elbodg archiepiscopus Gue- nedote regione migravit ad Dominum.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "british-welsh-christianity legacy, as rewritten in prose change 4 ('The Welsh church carried on under its own bishops after 768'); medieval-welsh-christianity why ('Wales from the end of the British and Welsh Christianity entry in 768')",
+   "wants": [
+    "A clean edition of the Annales Cambriae (the Rolls Series OCR is rough), or the Harleian text in Phillimore's edition"
+   ],
+   "drafter_flags": [
+    "The two movements split at 768 by the census's own design; the continuity shown is one man, Elbodug, on both sides of the split, and later bishops of Mynyw (Nobis, line 3327).",
+    "The annals are a tenth-century compilation; the OCR of these entries carries editorial marks (^, brackets), quoted as they stand. Years computed from the annal numbers (CCCXXIV = 768, CCCLXV = 809), as the file's own header gives 768."
+   ],
+   "change_reason": "New: period split with no link; the British legacy names the Welsh church's later history."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "nicene-visigothic-iberia",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At the third council of Toledo in 589, the Gothic bishops condemned the faith they had held, which the council called Arian. They cursed anyone still keeping communion coming from Arius, and the booklet issued in King Leovigild's reign to bring Romans over to it. Eight bishops, Ugnas and Murila among them, signed as men entering the catholic church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), anathema 1, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "36900-36904",
+     "locus": "Toledo III, anath. 1",
+     "quote": "Omnis ergo, qui fidem et communio- nem ab Ario venientem, et hucusque a no- bis retentam adhuc tenere desiderat et de to- ta.cordis intentione non damnat, anathe- ma sit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), anathema 16, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "36965-36968",
+     "locus": "Toledo III, anath. 16",
+     "quote": "Quicumque libellum detestabilem duodecimo anno Leovigildi regis a. nobis editum, in quo continetur Romanorum ad haeresem Arianam transductio",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), signatures of the Gothic bishops, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "37118-37122",
+     "locus": "Toledo III, subscriptions",
+     "quote": "Ugnas in Christi norhine episcopus ana- thematizans haeresis Arianae dogmata su- perius damnata, fidem sanctam hanc catho- licam, quam in ecclesiam catholicam veniens credidi, manu mea de toto corde subscripsi.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nicene-visigothic-iberia relationsSummary ('The Homoian kingdom that crossed to Nicaea from inside'), longDescription and why (Reccared brought the Gothic bishops with him at Toledo in 589); gothic-and-vandal-homoian-christianity longDescription and legacy also name Toledo 589",
+   "wants": [
+    "A public-domain English of the Toledo III acts (none exists, per the file header); the NPNF II.14 Filioque excursus renders only the creed decree"
+   ],
+   "drafter_flags": [
+    "Merge risk: the gothic-and-vandal-homoian-christianity text names the same 589 crossing, so another era-3 group may draft this pair. A second type is possible: 'gave rise to', since named bishops pass from the Homoian church into the catholic one. I did not draft it, because this census movement dates from c. 560 and so includes the Hispano-Roman Nicene church that the Goths joined; it did not emerge out of the Homoians.",
+    "The anathemas are in the converts' own voice ('a nobis retentam', 'a nobis editum'): the council of the new Nicene church condemning what its Gothic members had held. Leovigild's twelfth year is not converted to a date in the note.",
+    "OCR spellings (norhine, to- ta.cordis) quoted as they stand."
+   ],
+   "change_reason": "New: the council acts condemn the Homoian faith and its last synodal text by name."
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "nicene-visigothic-iberia",
+   "to": "mozarabic-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A Latin chronicle written in Spain in 754 records how the Muslim army ended the Gothic kingdom and made it tributary. It names Urbanus of the see of Toledo and its archdeacon Evantius among the men who strengthened the church under the new rulers. Its editor notes that the chronicler traced the bishops of Toledo almost to his own time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of 754 (Continuatio Hispana), c. 52, ed. Mommsen, MGH AA 11",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "33856-33860",
+     "locus": "Cont. Hisp. 52",
+     "quote": "aput Spanias vero a Livvi- gildo pene per CXL annos pacifice usque in era DCCL porrectum per ducem sui exercitus nomine Muze adgressum edomuit et regno ablato vectigale fecit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of 754 (Continuatio Hispana), c. 87, ed. Mommsen, MGH AA 11",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "34480-34482",
+     "locus": "Cont. Hisp. 87",
+     "quote": "Urbanus Tole- tane sedis urbis regie katedralis vetera- nus melodicus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of 754 (Continuatio Hispana), c. 87, ed. Mommsen, MGH AA 11",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "34488-34490",
+     "locus": "Cont. Hisp. 87",
+     "quote": "ad confortandam ecclesiam dei clari iiaben- tur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Theodor Mommsen, preface to the Continuatio Hispana, Chronica minora II, MGH AA 11 (1894), p. 326 (vendored file, lines 31477-31482)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nicene-visigothic-iberia legacy ('The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus'; 'Its liturgy went with it'); mozarabic-christianity relationsSummary ('Heir of post-589 Iberia')",
+   "wants": [
+    "A public-domain English or a cleaner Latin of the Chronicle of 754 (Lopez Pereira's edition is in copyright)"
+   ],
+   "drafter_flags": [
+    "The chapter numbers 52 and 87 are Mommsen's marginal numbers as read in the OCR (the '87' is printed on line 34478); the reviewer should confirm 52.",
+    "Mommsen (line 31479) identifies Urbanus as Sindered's successor at Toledo; the chronicle line itself calls him 'veteranus melodicus' of the see, which the note renders as 'of the see of Toledo'.",
+    "The liturgy half of the legacy sentence is supported separately by Férotin 1912 (Isidore on Leander composing liturgy, lines 657-659; the Mozarabic chapel of Toledo cathedral, lines 1333-1335) and is not put in this note.",
+    "The mozarabic-christianity text (era 4) also names this relationship; nothing in era 4 is drafted yet."
+   ],
+   "change_reason": "New: the legacy names the continuation; the see of Toledo is shown continuing after 711."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "insular-irish-monastic-christianity",
+   "field": "relationsSummary",
+   "old": "Contested line from Gallic/Eastern asceticism; parent of Anglo-Saxon Christianity",
+   "new": "A thinly documented line from Gallic and, through Gaul, Eastern asceticism; one of the two roots of Anglo-Saxon Christianity",
+   "reason": "'Contested' did not match the evidence or the links: both inherited lines are Inferential-Thin, resting on one eighth-century tract and Warren's reading that the East reached Ireland 'through a Gallican channel' (antiphonary 1572-1576). No source argues the other side. 'Parent' narrowed to 'one of the two roots', as the Anglo-Saxon entry itself has two."
+  },
+  {
+   "n": 2,
+   "movement": "insular-irish-monastic-christianity",
+   "field": "legacy",
+   "old": "Irish monasticism reshaped continental Christianity: Columbanus's foundations seeded dozens of monasteries across Gaul and Italy, and Iona-trained missionaries carried the faith into Northumbria and beyond. The penitential handbooks written here spread through the Frankish church and stand behind the private, repeatable confession that became normal Western practice. Its scriptoria produced the insular manuscript style that culminates in the Book of Kells, and the high crosses and round towers of Irish monastic sites are among the most recognizable Christian monuments anywhere. Iona, Clonmacnoise and Glendalough are all still visited, and Iona has a working religious community again.",
+   "new": "Irish monks left their mark far beyond Ireland. Columbanus founded Luxeuil in Gaul and Bobbio in Italy, and nobles in Gaul founded many more monasteries under his rule. Iona-trained missionaries carried the faith into Northumbria and beyond. The handbook of penances Columbanus wrote on the Continent became the model for a long line of Frankish ones. Its scriptoria produced the insular manuscript style that culminates in the Book of Kells. The high crosses and round towers of Irish monastic sites are among the most recognizable Christian monuments anywhere. Iona, Clonmacnoise and Glendalough are all still visited, and Iona has a working religious community again.",
+   "reason": "'Dozens of monasteries' and 'reshaped continental Christianity' go beyond Jonas (five named houses under the rule) and the Cursus tract ('multa coenobia'). The penitential that shaped the Frankish ones was written on the Continent, not in Ireland (Wasserschleben 1851); the claim about private, repeatable confession has no vendored or repo-cited source and is cut. One long sentence split in two; the rest unchanged."
+  },
+  {
+   "n": 3,
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "old": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "new": "The older church of Roman Britain, pushed west by the Anglo-Saxon invasions. Separate from the Irish church, though Irish monks cited its writer Gildas. It met Augustine's mission around 603, refused his authority, and kept its own Easter long after Whitby (664)",
+   "reason": "'Distinct from Irish Christianity' is a cataloguing statement; replaced with the documented separation and contact (Bede II.4; Columbanus citing Gildas). 'Did not conform at Whitby' implied the British were present; Bede's list shows they were not, and Bede V.22 and the Annales Cambriae show their Easter kept until 768. 'Gregorian mission' becomes 'Augustine's mission', which the link places with the English church."
+  },
+  {
+   "n": 4,
+   "movement": "british-welsh-christianity",
+   "field": "legacy",
+   "old": "There is no separately continuing British church: its dioceses were gradually drawn into the wider Western church, and the Welsh bishops came under Canterbury's authority in the twelfth century. What it left is written across the landscape. The llan- place names of Wales mark its churchyards, its founder-saints are still the dedications of Welsh and Cornish parishes, and its inscribed memorial stones survive in numbers. Gildas's account, for all its fury, became the foundation of what later writers thought they knew about post-Roman Britain, reaching Bede and everyone after him. And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there.",
+   "new": "There is no separately continuing British church. The Welsh church carried on under its own bishops after 768, and was gradually drawn into the wider Western church. What it left is written across the landscape. The llan- place names of Wales mark its churchyards, its founder-saints are still the dedications of Welsh and Cornish parishes, and its inscribed memorial stones survive in numbers. Gildas's account, for all its fury, reached Bede, who cited him as the Britons' own historian. And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there.",
+   "reason": "No vendored or repo-cited source for the Welsh bishops coming under Canterbury in the twelfth century; cut, and the continuation after 768 stated instead (Annales Cambriae, Elbodug d. 809 as archbishop). 'Reaching Bede and everyone after him' narrowed to what Bede I.22 shows."
+  },
+  {
+   "n": 5,
+   "movement": "nicene-visigothic-iberia",
+   "field": "longDescription",
+   "old": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him. Nothing quite like it happened anywhere else: a kingdom's own church council formally abandoned its creed and adopted its subjects'. What followed was one of the more remarkable intellectual efforts of the early Middle Ages. Isidore of Seville set out to gather what survived of classical learning into a single encyclopedia, and his circle — his brother Leander, Braulio of Zaragoza, Ildefonsus of Toledo — produced letters, liturgy, histories and rules around him. The councils of Toledo worked as something between a synod and a parliament, legislating for church and kingdom together, and their record also includes a harsh and escalating body of law against Spain's Jews. All of it ended abruptly with the Muslim conquest of 711.",
+   "new": "The Visigoths ruled Spain as Homoian Christians for over a century, in uneasy coexistence with the Nicene population they governed — until King Reccared announced his own conversion and, at the third council of Toledo in 589, brought the Gothic bishops with him. Nothing quite like it happened anywhere else: a kingdom's own church council formally abandoned its creed and adopted its subjects'. What followed was one of the more remarkable intellectual efforts of the early Middle Ages. Isidore of Seville set out to gather what survived of classical learning into a single encyclopedia, and his circle — his brother Leander, Braulio of Zaragoza, Ildefonsus of Toledo — produced letters, liturgy, histories and rules around him. The councils of Toledo worked as something between a synod and a parliament, legislating for church and kingdom together, and their record also includes a harsh and escalating body of law against Spain's Jews. The Gothic kingdom fell abruptly to the Muslim conquest of 711, though its church lived on under the new rulers.",
+   "reason": "'All of it ended' contradicted the legacy field. The Chronicle of 754 shows the kingdom made tributary and the see of Toledo still served after the conquest (chronica-minora-2 33856-33860, 34480-34490)."
+  }
+ ],
+ "wants": [
+  "Tacitus, Agricola 24, or another vendored text stating that Ireland lay outside the Roman Empire",
+  "A source for the Welsh bishops' professions of obedience to Canterbury in the twelfth century (for example Eadmer, Historia novorum, or Gerald of Wales, De invectionibus)",
+  "A repo-cited secondary work on the penitentials and the rise of private, repeatable confession (McNeill and Gamer 1938, after its renewal check, would serve)",
+  "Jonas, Life of Columban, Book II (Council of Macon; Luxeuil under Eustasius), in English or a vendored Latin (MGH SRG 37)",
+  "Columbanus, Letters II and V (MGH Epp. III, Gundlach), not located",
+  "George MacLeod's writings, or Ferguson 1988 verified, for the Iona Community's claim on Columba",
+  "Aldhelm's letter to Geraint of Dumnonia on the British Easter",
+  "A cleaner Annales Cambriae and a cleaner Chronicle of 754"
+ ],
+ "escalations": [
+  "The Irish longDescription says the penitentials 'quietly turned confession into something private and repeatable'. No vendored or repo-cited source supports it. It sits outside any relationship sentence, so this draft leaves it; the readability pass or the reviewer should qualify it as prose change 2 does for the legacy field.",
+  "insular-irish-monastic-christianity has no continued-as link to medieval-irish-christianity, although the census splits Ireland at 664. Neither era-3 text names it, so it is left for era 4."
+ ]
+}

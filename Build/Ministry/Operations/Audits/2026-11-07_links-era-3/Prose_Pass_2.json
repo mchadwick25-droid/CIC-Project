@@ -1,0 +1,115 @@
+{
+  "batch": 2,
+  "changes": [
+    {
+      "group": "B",
+      "n": 0,
+      "movement": "syriac-orthodox-west-syriac-christianity",
+      "field": "relationsSummary",
+      "new": "It grew up on the Roman side of the Syriac tradition, around Ephrem's Edessa, though few texts trace that line of descent. Its bishops lived on because the Ghassanid Arab king Harith asked for new ones. Jacob Baradaeus was one of them.",
+      "fre_after": 65.7,
+      "fk_after": 7.6,
+      "facts_check": "S1 kept: Roman side of the Syriac tradition, Ephrem's Edessa, few texts trace that line of descent. S2-3 kept: hierarchy survived (now 'its bishops lived on') because Ghassanid Arab king Harith asked for new bishops; Jacob Baradaeus among them (split into two sentences). Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 1,
+      "movement": "syriac-orthodox-west-syriac-christianity",
+      "field": "longDescription",
+      "new": "After Chalcedon, the Christians of Syria and Mesopotamia who refused the council's formula lived inside the Roman Empire, as the Egyptian Miaphysites did. But they lost the throne of Antioch, and for long stretches under Justinian they had no legal standing at all. Their leader, Severus of Antioch, was driven from his see in 518. Like many of his bishops, he withdrew to Egypt and went on writing from exile. Their churches kept meeting, and their clergy kept being ordained, mostly because of Jacob Baradaeus. He was made a bishop at the request of the Ghassanid Arab king Harith, with the backing of the empress Theodora. For decades he crossed Syria and Mesopotamia, ordaining priests and bishops for a church the empire would not recognize. He would finish his work in a district in a day and a night, then move on thirty or forty miles. The bishops hunting him never caught him. John of Ephesus was himself a Miaphysite bishop and one of Justinian's own missionaries. He wrote down fifty-eight portraits of these people as it all took place. In 636 the Byzantines lost at Yarmouk, and with that the empire lost its power to enforce against them. What stood on its own was a separate church whose bishops and clergy had never stopped working.",
+      "fre_after": 61.0,
+      "fk_after": 8.9,
+      "facts_check": "Kept: after Chalcedon, Syrian/Mesopotamian refusers of the formula lived inside the Roman Empire like the Egyptian Miaphysites; lost the throne of Antioch; no legal standing for long stretches under Justinian; Severus driven from his see in 518; withdrew to Egypt as many of his bishops did, went on writing from exile; communities ('churches') kept meeting and clergy kept being ordained, largely ('mostly') because of Jacob Baradaeus; made bishop at Harith's request with Theodora's backing; decades crossing Syria and Mesopotamia ordaining priests and bishops for an unrecognized church; a district in a day and a night, then thirty or forty miles on; pursuing bishops never caught him; John of Ephesus a Miaphysite bishop and Justinian missionary, fifty-eight portraits written as events happened; Yarmouk 636 ended the empire's power to enforce against them; a separate hierarchy ('separate church whose bishops and clergy') that never stopped functioning. No disguise or secrecy restored. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 2,
+      "movement": "syriac-orthodox-west-syriac-christianity",
+      "field": "why",
+      "new": "Under Justinian, this church had no legal right to exist. Jacob Baradaeus was made its bishop when the Ghassanid Arab king Harith asked, and the empress Theodora backed it. For decades he crossed Syria and Mesopotamia, ordaining priests and bishops one step ahead of the bishops hunting him. Byzantine power fell at Yarmouk in 636. Then a hierarchy stood on its own that had never stopped working. All that time it had no legal standing at all.",
+      "fre_after": 61.5,
+      "fk_after": 7.8,
+      "facts_check": "Kept: no legal right to exist under Justinian; Jacob Baradaeus consecrated at Harith's request with Theodora's backing; decades crossing Syria and Mesopotamia, ordaining priests and bishops one step ahead of the bishops hunting him; Byzantine power collapsed ('fell') at Yarmouk 636; a hierarchy emerged ('stood on its own') that had never stopped functioning; no legal standing at all. 'Communion' rendered 'church'. No secrecy/disguise restored. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 3,
+      "movement": "the-church-of-the-east-under-persia",
+      "field": "relationsSummary",
+      "new": "This church is a direct heir of the Syriac Christian tradition. By the 550s a bishop appointed from Persia served at Kalyan, in western India, and a traveler found a church on the pepper coast further south.",
+      "fre_after": 64.6,
+      "fk_after": 8.8,
+      "facts_check": "Kept: direct heir of the Syriac Christian tradition; by the 550s a Persian-appointed bishop at Kalyan in western India; a traveler found a church on the pepper coast further south. Drafter's two last sentences joined to lift it off a primer register (26 words). St Thomas claim not restored. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 4,
+      "movement": "the-church-of-the-east-under-persia",
+      "field": "longDescription",
+      "new": "In 424 the bishops of the Persian Empire ruled that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier. This church lived under a Zoroastrian shah. It had taken the Nicene creed as its own in 410, but it would answer to no Roman bishop. Its answer to the question of Christ was not Chalcedon's, nor the Miaphysites'. It stood in the line of Theodore of Mopsuestia and held firmly that his divinity and his humanity were distinct. Its opponents fixed the name \"Nestorian\" on it. Its center of learning was the School of Nisibis. Written statutes there set out the students' day, their lodging and their discipline. Almost nothing else this early has left formation documents like them. Its communion reached far beyond Mesopotamia. In the 550s a traveler named Cosmas found a bishop appointed from Persia at Kalyan, in western India. He also found a church on the pepper coast further south. When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept spreading east.",
+      "fre_after": 63.0,
+      "fk_after": 7.9,
+      "facts_check": "Kept: 424 definition (catholicos at Seleucia-Ctesiphon answered to no bishop beyond the frontier; 'declared' -> 'ruled'); lived under a Zoroastrian shah; accepted ('took as its own') the Nicene creed in 410 but answered to no Roman bishop; a different Christological answer from Chalcedon and the Miaphysites; Theodore of Mopsuestia's tradition, distinctness of divinity and humanity; opponents fixed the name 'Nestorian'; School of Nisibis as intellectual center ('center of learning') with written statutes on day, lodging, discipline; formation documents almost nothing else this early has left; communion beyond Mesopotamia; Cosmas in the 550s, Persian-appointed bishop at Kalyan, church on the pepper coast further south; Sasanian fall by 651, church carried on under new rulers and kept expanding ('spreading') east. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 5,
+      "movement": "the-church-of-the-east-under-persia",
+      "field": "why",
+      "new": "In 424 the bishops of Persia declared that their catholicos answered to no one beyond their own frontier. They built a church that lived under a Zoroastrian shah, not a Christian emperor. Its school at Nisibis ruled its students by written rules. By the 550s a bishop appointed from Persia served at Kalyan, in western India.",
+      "fre_after": 60.6,
+      "fk_after": 8.2,
+      "facts_check": "Kept: 424, catholicos answerable to no authority ('no one') beyond the frontier; church under a Zoroastrian shah rather than a Christian emperor; Nisibis governed ('ruled') students by written statutes ('rules'); by the 550s a Persian-appointed bishop at Kalyan, western India. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 6,
+      "movement": "byzantine-imperial-church-justinianic",
+      "field": "legacy",
+      "new": "The same church carried on unbroken into the Byzantine centuries that followed. It is the direct ancestor of today's Eastern Orthodox churches. Justinian's laws set out its pattern: priesthood and empire as the two greatest gifts of God, within one Christian commonwealth. Bishops from Constantinople later brought this church order to the Rus'. In Kyiv, Prince Yaroslav had the Greek church law translated, and he named his cathedral after Hagia Sophia. Hagia Sophia itself stood as the largest church in the world for nearly a thousand years. It changed what a church building could be. Justinian's laws fed into Orthodox canon law, and the hymns of Romanos are still sung. Its harder legacy is the divisions its pressure helped harden. The splits of 451 were still unhealed when the empire lost Egypt and Syria altogether.",
+      "fre_after": 60.0,
+      "fk_after": 8.2,
+      "facts_check": "Kept: same institution ('church') continued unbroken into later Byzantine centuries; direct ancestor of today's Eastern Orthodox churches; Justinian's laws set the pattern, priesthood and empire as God's two greatest gifts in one Christian commonwealth; bishops from Constantinople later brought this church order to the Rus'; Yaroslav in Kyiv had the Greek church law translated and named his cathedral after Hagia Sophia; Hagia Sophia largest church for nearly a thousand years and changed church building; Justinian's legislation fed into Orthodox canon law; Romanos's hymns still sung; harder legacy of divisions; separations ('splits') of 451 unhealed when Egypt and Syria were lost. Balkans not restored. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 7,
+      "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "relationsSummary",
+      "new": "It drew on Desert Monasticism, and its writers quoted the elders of Egypt by name. Its monks went back and forth to Sinai, where John Climacus later wrote the Ladder. Its services and teaching passed on into later Orthodox practice.",
+      "fre_after": 62.2,
+      "fk_after": 7.9,
+      "facts_check": "Kept: drew on Desert Monasticism, quoting the Egyptian elders by name ('its writers quoted the elders of Egypt'); monks went to and from Sinai, where John Climacus later wrote the Ladder; services and teaching passed into later Orthodox practice. Nothing added; no claim that these houses formed Climacus."
+    },
+    {
+      "group": "B",
+      "n": 8,
+      "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "longDescription",
+      "new": "In the century after Chalcedon, monks settled in the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza. They became almost a second population. In the laurae, hermits lived apart through the week and gathered on Sundays. Shared houses held hundreds. This tradition stands out clearly because its own papers survive. Cyril of Scythopolis wrote carefully dated lives of Euthymius, Sabas and the men who came after them. Two recluses near Gaza, Barsanuphius and John, left roughly 850 letters. They answered monks, married couples, sick people and local officials, one question at a time. Most of the Judean houses came to back Chalcedon. When Euthymius took the council's side, his biographer says, nearly all the desert monks would have followed. But a rival monk named Theodosius turned many of them against it. Near Gaza, Peter the Iberian became bishop for those who rejected the council. The empire pulled the monks hard into its fights over doctrine. One was the purge of teaching drawn from Origen in the 550s, which split their own houses. In 614 the Persian army sacked Jerusalem and tore through the desert houses. Those who lived wrote down what was lost.",
+      "fre_after": 60.6,
+      "fk_after": 7.9,
+      "facts_check": "Kept: century after Chalcedon, ravines between Jerusalem and the Dead Sea and villages around Gaza; something like ('almost') a second population; laurae with hermits apart through the week, gathering Sundays; communal ('shared') houses of hundreds; tradition unusually visible ('stands out clearly') because its own paperwork ('papers') survives; Cyril of Scythopolis's carefully dated lives of Euthymius, Sabas and successors ('the men who came after them'); Barsanuphius and John near Gaza, roughly 850 letters to monks, married couples, sick people, local officials, one question at a time; most Judean houses came to support ('back') Chalcedon; Euthymius accepted ('took the council's side') and per his biographer nearly all desert monks would have followed; Theodosius turned many against it; Peter the Iberian bishop near Gaza for the council's opponents; pulled hard into doctrinal fights (now active voice: the empire pulled them), including the 550s Origenist purge ('teaching drawn from Origen') that split their houses; 614 Persian sack of Jerusalem tore through the desert monasteries; survivors ('those who lived') wrote down what was lost. Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 9,
+      "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "why",
+      "new": "Hermits in scattered cells and monks in shared houses lived in the ravines of the Judean desert and the villages near Gaza. What they left behind is rare. Two recluses, Barsanuphius and John, wrote roughly 850 letters. In them they gave answers to ordinary monks, married couples and sick people one question at a time. Most of these houses backed Chalcedon, yet the empire still pulled them into its fights over doctrine. The Persian army tore their houses apart when it sacked Jerusalem in 614.",
+      "fre_after": 61.3,
+      "fk_after": 8.1,
+      "facts_check": "Kept: hermits in scattered cells and monks in communal ('shared') houses in Judean ravines and villages near Gaza; left something rare; Barsanuphius and John, roughly 850 letters answering ordinary monks, married couples and sick people one question at a time; most of these houses backed Chalcedon yet were pulled into the empire's doctrinal fights; monasteries ('houses') torn apart in the 614 Persian sack of Jerusalem (now active voice). Nothing added."
+    },
+    {
+      "group": "B",
+      "n": 10,
+      "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "legacy",
+      "new": "Much of what Eastern Orthodox monks still do draws on these houses. A book of services named after Sabas, the Typikon of Saint Sabas, was printed at Venice from 1515. Parts of it entered the Orthodox service books. The Ladder of Divine Ascent was written at Sinai just after this period. Orthodox monks still read it aloud every Lent, and Dorotheus of Gaza is still standard reading for the spiritual life. Two of the houses from this period still have monks living in them: Mar Saba in the Judean desert and Saint Catherine's at Sinai. They are among the oldest Christian houses anywhere to have been lived in without a break.",
+      "fre_after": 63.2,
+      "fk_after": 8.3,
+      "facts_check": "Kept: much of Eastern Orthodox monastic practice ('what Orthodox monks still do') draws on these houses; Typikon of Saint Sabas printed at Venice from 1515, parts entered the Orthodox service books; Ladder written at Sinai just after this period, still read aloud in Orthodox monasteries every Lent; Dorotheus still standard spiritual reading; Mar Saba and Saint Catherine's still inhabited ('still have monks living in them'), among the oldest continuously occupied ('lived in without a break') Christian communities. 'Window' replaced by 'period' as internal vocabulary. Drafter's flag stands: the three present-day claims have no vendored source. Nothing added."
+    }
+  ]
+}
