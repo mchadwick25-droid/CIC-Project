@@ -30,9 +30,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": null,
-  "fre_after": 60.7,
-  "fk_after": 8.6,
-  "words": 47,
+  "fre_after": 61.9,
+  "fk_after": 7.9,
+  "words": 53,
   "passed": true
  },
  {
@@ -66,8 +66,8 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 53.1,
-  "fre_after": 62.4,
-  "fk_after": 8.7,
+  "fre_after": 62.8,
+  "fk_after": 8.6,
   "words": 186,
   "passed": true
  },
@@ -126,9 +126,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 44.8,
-  "fre_after": 61.1,
-  "fk_after": 8.2,
-  "words": 144,
+  "fre_after": 63.0,
+  "fk_after": 7.8,
+  "words": 149,
   "passed": true
  },
  {
@@ -162,9 +162,9 @@
   "field": "why",
   "paragraph": 0,
   "fre_before": 18.4,
-  "fre_after": 61.5,
-  "fk_after": 7.8,
-  "words": 77,
+  "fre_after": 61.9,
+  "fk_after": 8.5,
+  "words": 79,
   "passed": true
  },
  {
@@ -174,8 +174,8 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 53.8,
-  "fre_after": 64.6,
-  "fk_after": 8.8,
+  "fre_after": 64.0,
+  "fk_after": 7.4,
   "words": 37,
   "passed": true
  },
@@ -186,8 +186,8 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 36.7,
-  "fre_after": 63.0,
-  "fk_after": 7.9,
+  "fre_after": 61.1,
+  "fk_after": 8.1,
   "words": 179,
   "passed": true
  },
@@ -234,9 +234,9 @@
   "field": "longDescription",
   "paragraph": 0,
   "fre_before": 21.1,
-  "fre_after": 60.6,
-  "fk_after": 7.9,
-  "words": 198,
+  "fre_after": 60.8,
+  "fk_after": 7.8,
+  "words": 199,
   "passed": true
  },
  {
@@ -342,9 +342,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 11.3,
-  "fre_after": 66.4,
-  "fk_after": 6.9,
-  "words": 24,
+  "fre_after": 65.6,
+  "fk_after": 7.2,
+  "words": 25,
   "passed": true
  },
  {
@@ -356,7 +356,7 @@
   "fre_before": 38.2,
   "fre_after": 60.5,
   "fk_after": 8.4,
-  "words": 174,
+  "words": 176,
   "passed": true
  },
  {
@@ -366,9 +366,9 @@
   "field": "why",
   "paragraph": 0,
   "fre_before": 28.1,
-  "fre_after": 63.7,
-  "fk_after": 7.5,
-  "words": 78,
+  "fre_after": 63.9,
+  "fk_after": 7.6,
+  "words": 80,
   "passed": true
  },
  {
@@ -379,8 +379,8 @@
   "paragraph": 0,
   "fre_before": 15.6,
   "fre_after": 61.0,
-  "fk_after": 8.0,
-  "words": 119,
+  "fk_after": 8.3,
+  "words": 116,
   "passed": true
  },
  {
@@ -438,9 +438,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 15.1,
-  "fre_after": 60.5,
-  "fk_after": 9.3,
-  "words": 72,
+  "fre_after": 60.3,
+  "fk_after": 9.7,
+  "words": 58,
   "passed": true
  },
  {
@@ -462,9 +462,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 37.2,
-  "fre_after": 66.0,
+  "fre_after": 64.9,
   "fk_after": 8.1,
-  "words": 130,
+  "words": 141,
   "passed": true
  },
  {
@@ -510,9 +510,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 15.3,
-  "fre_after": 61.3,
-  "fk_after": 8.6,
-  "words": 48,
+  "fre_after": 60.8,
+  "fk_after": 8.4,
+  "words": 59,
   "passed": true
  },
  {
@@ -549,6 +549,18 @@
   "fre_after": 64.2,
   "fk_after": 8.7,
   "words": 179,
+  "passed": true
+ },
+ {
+  "group": "R",
+  "n": 1,
+  "movement": "the-church-of-the-east-under-persia",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 30.9,
+  "fre_after": 62.1,
+  "fk_after": 8.0,
+  "words": 110,
   "passed": true
  }
 ]
