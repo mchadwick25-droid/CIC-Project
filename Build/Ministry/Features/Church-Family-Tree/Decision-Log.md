@@ -223,3 +223,83 @@ the 62 gap stories shows its title beside its icon from the second zoom step (0.
 step as place lines. The titles join the no-overlap layout and hide with the stories switch.
 Measured at reading zoom: no overlaps, 223 place lines shown.
 
+---
+
+## 2026-11-07 — P1c built: the tree moves to its own folder; old addresses redirect
+
+Mark: "go ahead with P1c full auto", after `www.churchfamilytree.com` was attached and checked.
+
+- **The move.** A pure rename (its own commit, 1,163 files, all 100 % renames) puts the map, the
+  movement pages and their recordings in `cft-website/`.
+- **The redirects.** On `churchinconversation.com` the Worker answers every old tree address,
+  the three old map addresses and the moved recordings with a permanent, one-hop redirect to the
+  same path on the tree's domain, query kept. A movement listed as retired with `redirectTo`
+  goes straight to its new page in the same hop. The census is served, never redirected. The
+  switch is a single setting in `wrangler.jsonc` (`TREE_ORIGIN`); the tree's own Worker has none.
+- **Data release 3.** `meta.identifiers` gains the domain rule; `meta.license` names the license
+  policy. Release 2 was the place labels.
+- **Checks.** `tools/validate-census.mjs --tree` fails any movement without a page, any retired
+  redirect without a page to land on, and any link whose anchor is missing from either of its
+  two pages. `tools/check_tree_domains.mjs` checks the live addresses after a deploy.
+- **Scripts no longer go stale.** `assets/` revalidates on every visit on both sites (Open-Gaps 16).
+- **Feedback on the map.** The page-feedback bar recognises the map on the tree's home page and
+  keeps its old page name, so feedback before and after the move stays together.
+
+---
+
+## 2026-11-07 — The tree's own header and a switch bar in place of the legend
+
+**Decided (Mark: "this program is church family tree so it should be in the upper left corner …
+then to the right we have a button to church in conversation. we can replace the three buttons
+below with on off switches/legend"; then "Grouped chips").** On `www.churchfamilytree.com`:
+- The header leads with "Church Family Tree"; one "Church in Conversation" button sits to the
+  right.
+- Church in Conversation's three feature buttons give way to one row of chips: Rivers, Links and
+  Evidence each open their own switches; Stories is one on/off switch; Key holds the status
+  colors and the notes on width, threads, lean and places. One panel opens at a time; Escape
+  or a click elsewhere closes it. The old legend box at the bottom left goes.
+- The switches work as before and keep each visitor's choices.
+- The intro line now points to the switches under the title (Reading Ease 72).
+
+Rejected: every switch in one long scrolling strip (hard to scan on a phone), and one button that
+opens the whole legend (hides more than today's legend does).
+
+**Refined the same day (Mark: connections should be one chip with an explanation, off by default;
+rivers and stories on by default).** The bar is Rivers, Connections, Stories and Key. Connections
+holds a short explanation, an "All connections" switch, the four kinds of link and the four
+levels of certainty. A first visit shows rivers, names and stories with no lines; a visitor turns
+on all connections or only the kinds they want, and the choice is kept. Checked: 0 of 86 lines on
+a first visit, 86 with all on, 34 with only "argued against, broke with", kept after a reload.
+The intro now says where to find them (Reading Ease 70).
+
+**Also the same day (Mark: "if someone clicks off a river, the worlds connected to that river
+should also hide").** A river's switch now also hides the story icons on that river and the
+"continues as" lines that touch it, as it already hid its dots, names, place lines, portraits
+and connections. Checked: Africa off hides its 3 stories and leaves nothing on that river
+showing; All rivers off clears the map.
+
+
+## 2026-11-07 — P1d built: door switch and the tree's own pages
+
+Built to the plan (P1d in `Build-Plan.md`):
+- Each world record has a `public_open` switch. It is on for the 11 Built & Live worlds. The
+  census sync carries it into the census and the map as `publicOpen`.
+- An open world's panel and tree page offer "Meet <Representative> on Church in Conversation",
+  linked to that world's page there. With no world open, built worlds show only the quiet line
+  "Church in Conversation, from the same team." A test generates the pages both ways.
+- The tree pages share one header and footer with the new about, privacy and support pages.
+  Their text lives in `Build/tools/tree_site_pages.json`. Reading Ease: about 61, privacy 85,
+  support 66. The one paragraph under 60 is the not-a-nonprofit sentence (30). It must match
+  `cic-website/support.html` word for word, and a test checks that it does.
+- The support page shows its give buttons only once both Stripe links are in the content file.
+  Until Mark makes them, the page explains support without buttons.
+
+**Trimmed the same day (Mark: "on the world card, we dont need the four boxes … on the page we
+dont need the blue box … also the not yet built section should be removed").**
+- Tree pages lose the four fact boxes (era, dates, region, status) and the status block. The
+  line above the title already gives era, dates and region. A visitor can tell from the door
+  whether a Representative exists.
+- The present-day country line, the only fact the boxes added, now sits under that line. It
+  shows only when it names a country.
+- The map loses its intro box. Training and About buttons will replace it later, as their own
+  piece of work.

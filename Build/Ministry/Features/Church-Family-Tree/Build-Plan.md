@@ -69,9 +69,9 @@ applied to every shared file, not only the census.
 | PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | merged (#1529) |
 | PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | merged (#1529) |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
-| P1b | Attach the domain; verify | Mark: dashboard steps | todo |
-| P1c | Rename, data release 3, redirects | none (after P1b is verified) | todo |
-| P1d | Door switch; about, privacy and support pages | Mark: Stripe links | todo |
+| P1b | Attach the domain; verify | Mark: dashboard steps | done (2026-11-07) |
+| P1c | Rename, data release 3, redirects | none (after P1b is verified) | in review |
+| P1d | Door switch; about, privacy and support pages | Mark: Stripe links | built; give buttons wait on the Stripe links |
 | P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | todo |
 | P2-L1…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |

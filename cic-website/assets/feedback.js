@@ -189,6 +189,7 @@
 
   var id = window.location.pathname.replace(/^\/+/, '').replace(/\.html$/, '');
   var onTree = id.indexOf('tree/') === 0 && id.length > 5;
+  if (id === '' || id === 'index') { if (document.getElementById('world')) id = 'atlas-v3'; }
   var onAtlas = id === 'atlas-v3';
   if (!onTree && !onAtlas) { return; }
 

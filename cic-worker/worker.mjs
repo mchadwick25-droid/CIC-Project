@@ -64,10 +64,51 @@ async function fromBucket(request, bucket, key) {
   return new Response(part.body, { status: 206, headers: out });
 }
 
+const MAP_PATHS = new Set(['/atlas', '/atlas.html', '/atlas-v3', '/atlas-v3.html', '/world-atlas', '/world-atlas.html', '/tree', '/tree/']);
+const MOVED_AUDIO = /^\/audio\/(tree|docstories|stories)\//;
+const TREE_PAGE = /^\/tree\/([^/]+?)(?:\.html)?$/;
+
+let renamesPromise = null;
+function retiredRedirects(env, origin) {
+  if (!renamesPromise) {
+    renamesPromise = env.ASSETS.fetch(new Request(origin + '/data/world-census.json'))
+      .then(r => (r.ok ? r.json() : {}))
+      .then(d => new Map((d.retiredMovements || []).filter(m => m.redirectTo).map(m => [m.id, m.redirectTo])))
+      .catch(() => { renamesPromise = null; return new Map(); });
+  }
+  return renamesPromise;
+}
+
+export async function treeRedirect(url, env) {
+  const home = env.TREE_ORIGIN;
+  if (!home) return null;
+  const path = url.pathname;
+  let target = null;
+  if (MAP_PATHS.has(path)) target = home + '/';
+  else if (MOVED_AUDIO.test(path)) target = home + path;
+  else {
+    const m = TREE_PAGE.exec(path);
+    if (m) {
+      const id = decodeURIComponent(m[1]);
+      const renamed = (await retiredRedirects(env, url.origin)).get(id);
+      target = home + '/tree/' + encodeURIComponent(renamed || id);
+    }
+  }
+  if (!target) return null;
+  const headers = new Headers(BASELINE_HEADERS);
+  headers.set('Location', target + url.search);
+  headers.set('Cache-Control', 'public, max-age=3600');
+  return new Response(null, { status: 301, headers });
+}
+
+export function resetRenamesForTests() { renamesPromise = null; }
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const isRead = request.method === 'GET' || request.method === 'HEAD';
+    const moved = await treeRedirect(url, env);
+    if (moved) return moved;
     const isRecording = url.pathname.startsWith('/audio/') && url.pathname.endsWith('.mp3');
     if (!isRecording || !isRead) return env.ASSETS.fetch(request);
 

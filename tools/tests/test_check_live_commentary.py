@@ -294,7 +294,7 @@ def test_engine_reports_protected(tmp_path):
 
 def test_donatism_historical_pages_protected(tmp_path):
     text = "The verdict went against them at Carthage in 411.\n"
-    for rel in ("cic-website/tree/donatism.html", "cic-website/traditions/donatism.html"):
+    for rel in ("cft-website/tree/donatism.html", "cic-website/traditions/donatism.html"):
         hits = _hits_for("RULED 2026-09-01 per Mark\n" + text, tmp_path, rel)
         assert hits[0].category == "PROTECTED"
 

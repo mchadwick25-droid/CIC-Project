@@ -8,11 +8,6 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '.build', 'tree');
 
 export const TREE_FILES = [
-  ['cic-website/atlas-v3.html', 'index.html'],
-  ['cic-website/tree', 'tree'],
-  ['cic-website/audio/tree', 'audio/tree'],
-  ['cic-website/audio/docstories', 'audio/docstories'],
-  ['cic-website/audio/stories', 'audio/stories'],
   ['cft-website', '.'],
 ];
 

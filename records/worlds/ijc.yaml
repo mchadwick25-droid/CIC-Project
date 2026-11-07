@@ -18,6 +18,7 @@ app: {order: 6, accent_color: "#B67D50", portrait: "/images/portraits/thumb/empi
 representative: {name: Marius}
 state: admitted
 census_id: "imperial-juridical-christianity"
+public_open: true
 package:
   manifest_hash: "sha256:61277ea837547b331f5581dc54f414e30964bc218b32e06680b0f7e7815b3ea1"
   location: "packages/ijc/2026-11-04T01-43-34Z"

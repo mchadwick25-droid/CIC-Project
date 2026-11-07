@@ -101,6 +101,11 @@ def sync_census(registry: dict, census: dict) -> tuple[dict, list[dict]]:
                 record(census_field, m.get(census_field), new_val)
                 m[census_field] = new_val
 
+        public_open = bool(entry.get("public_open", False))
+        if m.get("publicOpen") != public_open:
+            record("publicOpen", m.get("publicOpen"), public_open)
+            m["publicOpen"] = public_open
+
         if m.get("status") == LIVE_STATUS:
             meta_for_status = status_meta.get(LIVE_STATUS, {})
             for meta_key, census_field in _STATUS_META_FIELDS:

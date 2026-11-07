@@ -21,10 +21,14 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 2,
+   "number": 3,
    "date": "2026-11-07"
   },
-  "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used."
+  "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
+  "license": {
+   "policy": "Faithways Studio license policy",
+   "url": "https://churchinconversation.com/license"
+  }
  },
  "eras": [
   {
@@ -3294,7 +3298,8 @@
      "type": "primary",
      "note": "A Roman governor's official report to the emperor Trajan on investigating Christians in Bithynia, including the torture of two enslaved women called ministrae — deaconesses."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "greek-apologists-second-century",
@@ -3498,7 +3503,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -3834,7 +3840,8 @@
      "type": "reference",
      "note": "The 1932 study that first argued, against Eusebius's tidy succession-list, that Alexandria's teaching looked more like a sequence of private Christian tutors than one formal institution — the opening move in a scholarly debate that remains unsettled today."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "syriac-edessa-nisibis",
@@ -4063,7 +4070,8 @@
      "type": "secondary",
      "note": "Cistercian Studies 124, 1985 — by the scholar generally regarded as the leading authority on Ephrem and Syriac Christianity writing in English."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "latin-pastoral-congregational-christianity",
@@ -4213,7 +4221,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "tertullian-s-voice",
@@ -5509,7 +5518,8 @@
      "type": "secondary",
      "note": "Oxford University Press, 2004 — a standard modern guide to the sayings, Antony, Pachomius, Evagrius and Cassian, and to how the desert's small written corpus should be read."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "palestinian-ascetic-monasticism-early",
@@ -5752,7 +5762,8 @@
      "text": "Timgad, Algeria — UNESCO World Heritage Roman ruins including a Donatist-era basilica",
      "url": "https://en.wikipedia.org/wiki/Timgad"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "cappadocian-nicene-pastoral-monastic-tradition",
@@ -5986,7 +5997,8 @@
      "type": "secondary",
      "note": "St Vladimir's Seminary Press, 1995 — the first English-language study to treat Basil and both Gregorys together."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "imperial-juridical-christianity",
@@ -6181,7 +6193,8 @@
      "type": "secondary",
      "note": "Blackwell, 1996 (2nd ed. 2003) — a standard account of how imperial favor reshaped church institutions and authority."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "hieronymian-ascetic-literary",
@@ -6354,7 +6367,8 @@
      "type": "secondary",
      "note": "Harper & Row, 1975 — the standard modern biography, drawn almost entirely from Jerome's own prolific correspondence."
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "armenian-christianity-conversion-era",
@@ -6772,7 +6786,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "cyrilline-miaphysite-egyptian-tradition",
@@ -7468,7 +7483,8 @@
     "Honoratus of Arles - founder of the island community at Lérins, which formed a generation of Gallic bishops before he became one himself",
     "Vincent of Lérins - the monk whose Commonitory asked how the church can tell development from corruption, and answered with what has been believed everywhere, always, and by everyone"
    ],
-   "legacy": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe. Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later. Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410. Martin became the patron saint of France and one of the most widely venerated saints in the medieval West, with thousands of churches carrying his name; and the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation."
+   "legacy": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe. Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later. Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410. Martin became the patron saint of France and one of the most widely venerated saints in the medieval West, with thousands of churches carrying his name; and the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation.",
+   "publicOpen": true
   },
   {
    "id": "priscillianist-asceticism",
@@ -8580,7 +8596,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-church-of-the-east-under-persia",
@@ -9367,7 +9384,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "merovingian-gallic-christianity",
@@ -17927,7 +17945,8 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-ethiopian-monastic-flowering",
@@ -19874,7 +19893,8 @@
      "text": "The Luther museums in Lutherstadt Wittenberg, Germany — Luther's own house and Melanchthon's, a UNESCO World Heritage site",
      "url": "https://lutherstadt-wittenberg.de/en/see-discover/sights/luthermuseums"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "the-reformed-cities-zurich-and-geneva",
@@ -20040,7 +20060,8 @@
      "text": "The Grossmünster, Zurich — Zwingli's own church, still open to visitors",
      "url": "https://www.myswitzerland.com/en-us/experiences/grossmuenster/"
     }
-   ]
+   ],
+   "publicOpen": true
   },
   {
    "id": "the-anabaptist-movements",
@@ -21306,7 +21327,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "tridentine-parish-renewal-borromean-milan",
@@ -24845,7 +24867,8 @@
       }
      ]
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-evangelical-awakening-in-new-england",
@@ -25201,7 +25224,8 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "publicOpen": false
   },
   {
    "id": "the-hesychast-revival-paisius-and-the-philokalia",

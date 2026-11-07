@@ -2,9 +2,12 @@
   "name": "cic-project",
   "compatibility_date": "2026-09-03",
   "main": "cic-worker/worker.mjs",
+  "vars": {
+    "TREE_ORIGIN": "https://www.churchfamilytree.com"
+  },
   "assets": {
     "directory": "./cic-website",
     "binding": "ASSETS",
-    "run_worker_first": ["/audio/*"]
+    "run_worker_first": ["/audio/*", "/tree", "/tree/*", "/atlas", "/atlas.html", "/atlas-v3", "/atlas-v3.html", "/world-atlas", "/world-atlas.html"]
   }
 }

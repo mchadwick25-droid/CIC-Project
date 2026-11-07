@@ -30,8 +30,8 @@ of promotion. See "How things move" for the promotion path.
 | `fixtures/` | the synthetic fixture world and seeded defects | CI, engine |
 | `cic/` | **the Library**: `texts/` (vendored public-domain editions, flat, one copy of each), `corpus-map/` (which works belong to which tradition, at which locus, in what role), `engine/` (corpus tools) | Render (`cic/texts/` only, for the in-image compile), engine gates at build time; never at runtime |
 | `cic-poc/` | the participant-facing frontend (interview and table); the proof-of-concept backend it was named for is retired | Render (Docker COPY `frontend/`), CI |
-| `cic-website/` | the public site and the Atlas; `data/world-census.json` is the census | Cloudflare (assets directory), CI |
-| `cft-website/` | the Church Family Tree's own site files, served at `www.churchfamilytree.com`. `tools/build_tree_site.mjs` assembles the served site into `.build/tree/` (git-ignored) from this folder, the tree's files still in `cic-website/`, and the files both sites share, copied byte for byte | Cloudflare (`wrangler.cft.jsonc`), CI |
+| `cic-website/` | the public site; `data/world-census.json` is the census, which the Church Family Tree also serves | Cloudflare (assets directory), CI |
+| `cft-website/` | the Church Family Tree, served at `www.churchfamilytree.com`: the map (`index.html`), the movement pages (`tree/`), their narration and story recordings (`audio/`). `tools/build_tree_site.mjs` assembles the served site into `.build/tree/` (git-ignored) from this folder and the files both sites share, copied byte for byte | Cloudflare (`wrangler.cft.jsonc`), CI |
 | `cic-worker/` | the Cloudflare Worker in front of both sites' assets: answers byte-range requests under `/audio/` (iPhone Safari needs them to play and seek narration); everything else is served unchanged | Cloudflare (`wrangler.jsonc` for Church in Conversation, `wrangler.cft.jsonc` for the Church Family Tree) |
 
 ## Build — everything that builds or governs the system, not itself part of what runs it

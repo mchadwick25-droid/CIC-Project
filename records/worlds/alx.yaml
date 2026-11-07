@@ -17,6 +17,7 @@ app: {order: 1, accent_color: "#DE670B", portrait: "/images/portraits/thumb/alex
 representative: {name: Theon}
 state: admitted
 census_id: "alexandria-catechetical"
+public_open: true
 package:
   manifest_hash: "sha256:fe33c1c9e6cff6163e325346836777aec80efde93446feef238359715056cc3d"
   location: "packages/alx/2026-11-04T02-58-47Z"

@@ -967,7 +967,7 @@ def _is_decision_log(rel: Path) -> bool:
 # went against them" at the real Council of Carthage, 411 - not a project
 # review round.
 PROTECTED_HISTORICAL_FILES = {
-    "cic-website/tree/donatism.html",
+    "cft-website/tree/donatism.html",
     "cic-website/traditions/donatism.html",
 }
 

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import worker, { parseRange, BASELINE_HEADERS } from './worker.mjs';
+import worker, { parseRange, BASELINE_HEADERS, resetRenamesForTests } from './worker.mjs';
 
 const FILE = Buffer.from(Array.from({ length: 100 }, (_, i) => i));
 
@@ -202,3 +202,60 @@ for (const site of ['cic-website', 'cft-website']) {
     assert.deepEqual(BASELINE_HEADERS, block);
   });
 }
+
+const TREE = 'https://www.churchfamilytree.com';
+function oldSite(census = { retiredMovements: [] }) {
+  resetRenamesForTests();
+  const env = envWith({ '/data/world-census.json': Buffer.from(JSON.stringify(census)), '/index.html': Buffer.from('home') });
+  env.TREE_ORIGIN = TREE;
+  return env;
+}
+
+test('old site: a tree page redirects permanently, in one hop, to the same path on the tree domain', async () => {
+  for (const path of ['/tree/donatism', '/tree/donatism.html']) {
+    const res = await worker.fetch(get(path + '?from=x'), oldSite());
+    assert.equal(res.status, 301);
+    assert.equal(res.headers.get('Location'), TREE + '/tree/donatism?from=x');
+    assert.equal(res.headers.get('X-Content-Type-Options'), 'nosniff');
+  }
+});
+
+test('old site: the map addresses redirect to the tree home, keeping the query', async () => {
+  for (const path of ['/atlas-v3.html', '/atlas-v3', '/atlas.html', '/atlas', '/world-atlas.html', '/world-atlas', '/tree', '/tree/']) {
+    const res = await worker.fetch(get(path + '?worlds=donatism'), oldSite());
+    assert.equal(res.status, 301, path);
+    assert.equal(res.headers.get('Location'), TREE + '/?worlds=donatism', path);
+  }
+});
+
+test('old site: moved narration redirects to the same path on the tree domain', async () => {
+  for (const path of ['/audio/tree/donatism.mp3', '/audio/docstories/x-0.mp3', '/audio/stories/y.mp3', '/audio/tree/manifest.json']) {
+    const res = await worker.fetch(get(path), oldSite());
+    assert.equal(res.status, 301, path);
+    assert.equal(res.headers.get('Location'), TREE + path);
+  }
+});
+
+test('old site: a renamed movement goes straight to its new page in the same hop', async () => {
+  const env = oldSite({ retiredMovements: [{ id: 'old-name', date: '2026-11-07', reason: 'renamed', redirectTo: 'new-name' }] });
+  const res = await worker.fetch(get('/tree/old-name.html'), env);
+  assert.equal(res.status, 301);
+  assert.equal(res.headers.get('Location'), TREE + '/tree/new-name');
+});
+
+test('old site: the census and everything else are served, never redirected', async () => {
+  const env = oldSite();
+  for (const path of ['/data/world-census.json', '/index.html']) {
+    const res = await worker.fetch(get(path), env);
+    assert.equal(res.status, 200, path);
+  }
+  const audio = await worker.fetch(get('/audio/worlds/x.mp3'), env);
+  assert.notEqual(audio.status, 301);
+});
+
+test('tree site: with no TREE_ORIGIN nothing redirects', async () => {
+  resetRenamesForTests();
+  const env = envWith({ '/tree/donatism': Buffer.from('page') });
+  const res = await worker.fetch(get('/tree/donatism'), env);
+  assert.equal(res.status, 200);
+});

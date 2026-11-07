@@ -49,10 +49,11 @@ _EMBEDDED_DATA_RE = re.compile(r"^\s*const\s+[A-Z][A-Z0-9_]*\s*=\s*[\{\[]", re.M
 
 def offending_files() -> set[str]:
     hits: set[str] = set()
-    for path in (REPO / "cic-website").rglob("*.html"):
-        text = path.read_text(encoding="utf-8", errors="replace")
-        if _EMBEDDED_DATA_RE.search(text):
-            hits.add(path.relative_to(REPO).as_posix())
+    for site in ("cic-website", "cft-website"):
+        for path in (REPO / site).rglob("*.html"):
+            text = path.read_text(encoding="utf-8", errors="replace")
+            if _EMBEDDED_DATA_RE.search(text):
+                hits.add(path.relative_to(REPO).as_posix())
     return hits
 
 
