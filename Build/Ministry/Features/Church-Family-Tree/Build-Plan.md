@@ -62,8 +62,8 @@ applied to every shared file, not only the census.
 
 | # | Goal | Stop point | Status |
 |---|---|---|---|
-| R1–R3 | The rivers, one PR | Mark judges by eye on the preview | waiting on Mark |
-| P1a | Tree Worker and build script; full addresses for cross-site links | none | todo (Mark picked option A, 2026-11-06) |
+| R1–R3 | The rivers, one PR | Mark judges by eye on the preview | merged (#1526) |
+| P1a | Tree Worker and build script; full addresses for cross-site links | none | in review |
 | P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | todo |
 | P1b | Attach the domain; verify | Mark: dashboard steps | todo |
 | P1c | Rename, data release 2, redirects | none (after P1b is verified) | todo |
@@ -108,7 +108,7 @@ are three commits on one branch, each checked before the next.
 
 - **Goal:** the tree's own Worker builds and serves the tree on its `workers.dev` address,
   with nothing moved.
-- **Files:** `wrangler.cft.jsonc` (new); a new `build_tree_site.mjs` in `tools/` (assembles
+- **Files:** `wrangler.cft.jsonc` (new); `tools/build_tree_site.mjs` (new: assembles
   `.build/tree/` from a declared list of tree files and shared files); `cft-website/_headers`
   and `cft-website/robots.txt` (new folder, with only the tree's own new files at this stage);
   `cic-worker/worker.test.mjs` (the baseline-header check covers both sites' `_headers`);
@@ -139,7 +139,7 @@ Exact steps, given in chat when P1a has merged:
 
 1. Create the second Workers Build: the same repository, deploy command
    `npx wrangler deploy --config wrangler.cft.jsonc`, build command
-   the build script P1a adds (`node`, then its path).
+   `node tools/build_tree_site.mjs`.
 2. Attach `www.churchfamilytree.com` as a custom domain; add a redirect rule from
    `churchfamilytree.com` to `https://www.churchfamilytree.com`, permanent, path and query kept.
 3. Turn on Web Analytics for the new domain (cookie-free; no script tag needed when the proxy
@@ -152,14 +152,14 @@ Exact steps, given in chat when P1a has merged:
 ### P1c — the move, data release 2, redirects
 
 - **Goal:** the tree's files live in `cft-website/`; old addresses redirect in one hop.
-- **Files:** `git mv` (its own commit): `cic-website/atlas-v3.html` → `cft-website/index.html`,
-  `cic-website/tree/` → `cft-website/tree/`, `cic-website/audio/{tree,docstories,stories}/` →
-  `cft-website/audio/…`. Then: the build script reads the new paths;
+- **Files:** `git mv` (its own commit): `cic-website/atlas-v3.html` becomes `index.html` in
+  `cft-website/`, and `cic-website/tree/` and `cic-website/audio/{tree,docstories,stories}/` move
+  under the same names into `cft-website/`. Then: `tools/build_tree_site.mjs` reads the new paths;
   `engine/m6/cli.py` (`ATLAS_PATH`), `engine/m6/census_atlas_sync.py`, `cic/engine/corpus_coverage.py`,
   `tools/check_no_embedded_world_data.py` and its baseline, `Build/tools/generate_tree_pages.mjs`
   and `generate_tree_narration.mjs` (paths, canonical links, the tree's own sitemap),
   `cic-website/sitemap.xml`; `.github/workflows/ci.yml` (paths filters; the sparse checkouts
-  exclude `cft-website/audio/`); the redirect rules on the old Worker (a `_redirects` file in `cic-website/`
+  exclude the tree's audio folder too); the redirect rules on the old Worker (a `_redirects` file in `cic-website/`
   if Cloudflare's asset redirects allow a full address in one hop, otherwise `cic-worker/worker.mjs`
   with tests); `cic-website/atlas.html` and `world-atlas.html` become redirect rules, and their
   files go to `Archive/`. Census: `meta.identifiers` gains the domain rule, `meta.license` is
@@ -179,10 +179,10 @@ Exact steps, given in chat when P1a has merged:
   and support pages and its footer.
 - **Files:** `engine/m1/schemas.py` and `records/worlds/<code>.yaml` (a `public_open` field, on
   for the 11 Built & Live worlds); `engine/m6/census_sync.py` and its README and tests (the field
-  carried into the census as `publicOpen`); `cft-website/index.html` and `generate_tree_pages.mjs`
+  carried into the census as `publicOpen`); the map (`index.html` in `cft-website/`) and `generate_tree_pages.mjs`
   (the door lands on `churchinconversation.com/traditions/<id>.html`; with no world open, the one
   line "Church in Conversation, from the same team."; header and footer); new
-  `cft-website/about.html`, `privacy.html`, `support.html`; Web Analytics if a snippet is needed.
+  `about.html`, `privacy.html` and `support.html` in `cft-website/`; Web Analytics if a snippet is needed.
 - **Done means:** sync check green; a test with every world switched off shows the quiet line;
   readability scored with `engine.m7.turn_readability.score_turn` on every new paragraph, results
   in the PR; the not-a-nonprofit line matches `cic-website/support.html` word for word, by a check.

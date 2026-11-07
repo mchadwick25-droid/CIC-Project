@@ -59,3 +59,6 @@ packages/*/*/**
 
 # Answering-library pipeline output (segmenter passages, context lines, the derived index): rebuildable, never tracked
 Sandbox/answering-library/out/
+
+# Church Family Tree site, assembled by tools/build_tree_site.mjs
+/.build/

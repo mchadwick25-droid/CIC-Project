@@ -7,24 +7,7 @@
 <meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
-/* ---- Design plan ----
-   Color: the real, already-locked CiC manuscript tokens (parchment/iron-gall/madder/
-   gold-leaf/tyrian/graphite) plus the real era-ground pairs and the real 13-hue
-   tradition-family palette already shipping in the live Atlas (atlas-v3.html's FAM
-   array) -- nothing invented, everything reused from an already-approved system.
-   Type: Alegreya (reading/body), Alegreya Sans (UI/chrome), Cinzel confined to the
-   engraved era numerals -- same law as everywhere else in this project.
-   Layout: one full-bleed pannable/zoomable SVG canvas. Time flows down through ten
-   real era bands (height by density, not the calendar); tradition families flow as
-   winding, density-widened rivers left to right. Hover = short, click = full. */
 :root{
-  /* Dark is the site's default appearance (2026-09): prefers-color-scheme
-     can't tell "OS explicitly set to light" apart from "OS has never been
-     touched and defaults to light" -- both report the same media-query
-     match -- so gating the default on that query showed light to most
-     visitors instead of dark. Dark is unconditional here instead;
-     [data-theme="light"] below is inert unless something sets that
-     attribute (no control does today), kept as a future manual-toggle path. */
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
@@ -53,9 +36,6 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
-/* top is set in JS (positionScopeNote), not fixed here -- .topbar's own
-   height is itself dynamic (wraps to 2-3 lines on a narrow screen), so a
-   hardcoded offset drifts out of sync with it exactly like #scopeNote's did. */
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .feature-btn{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;
@@ -68,45 +48,10 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 #scopeNote b{color:var(--tyrian)}
 #scopeNote button{float:right;background:none;border:none;color:var(--ink-faded);
   cursor:pointer;font-size:.9rem;line-height:1;padding:0 .2rem}
-/* overflow:hidden here, not just on body -- found integrating this page onto
-   the live site under real mobile Safari/Chrome viewport rules. svg#world
-   below sets real pixel width/height attributes equal to its own viewBox
-   (CANVAS_W/CANVAS_H, comfortably past 1000px), so at rest it's genuinely
-   that many real CSS pixels wide, not scaled to fit -- the pan/zoom
-   transform on its inner <g> is what actually fits content to the screen,
-   not the SVG's own box. A mobile browser decides its LAYOUT viewport width
-   (window.innerWidth) from the widest unclipped content already in the tree
-   at first paint, before body's own overflow:hidden ever gets consulted --
-   confirmed by a real HTTP-served, real-viewport test where document.
-   documentElement.clientWidth and visualViewport.width correctly read the
-   true 390px screen while window.innerWidth read the SVG's own ~1560px
-   width instead. Anything sized as a percentage of that inflated layout
-   viewport (the fixed topbar's own 100%-wide flex children, chief among
-   them) then computes its own width against 1560px and overflows the real,
-   visual 390px screen -- which is what actually surfaced this. Clipping the
-   oversized SVG one level closer, at its own direct container, keeps it out
-   of that width calculation entirely; body's overflow:hidden was never
-   doing the wrong thing, just not close enough to prevent this specific
-   browser behavior from ever measuring the raw child in the first place.*/
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 #stage.pinching svg text{display:none!important}
-/* The era body/break-band rects (render(), below) bleed far past the canvas's
-   own edges so they cross the full screen at any pan/zoom -- but the SVG
-   element itself carries its own width/height attributes (CANVAS_W x CANVAS_H)
-   and clips its viewport to that box by default, same as any element with
-   overflow:hidden, regardless of how far a child's own coordinates extend.
-   overflow:visible here, not a change to width/height/viewBox (which would add
-   a second, unwanted auto-scale on top of the existing manual scale/tx/ty
-   system). */
 svg#world{display:block;overflow:visible}
-/* Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid
-   river passing under this corner at full pigment can otherwise erase the label --
-   same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
-   over whatever's underneath, the way a map halos its place-names. Text sits
-   directly over the rivers like every other label on the map, so it follows the
-   same var()-based theme tokens and the same 3px halo width .lbl below already
-   uses. */
 .era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
@@ -114,70 +59,27 @@ svg#world{display:block;overflow:visible}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
-/* Portrait plates: a Built & Live world's Representative, framed as a roundel
-   above the world's dot. Shown only at organic (zoomed-in) detail, like .lbl.
-   The plate sits inside the node group, so tapping the face opens the world
-   exactly as tapping the dot does. */
 .portrait-plate{display:none;pointer-events:auto;cursor:pointer}
-/* Multiply, not stack: two opaque fills winding into the same space (rule 3 --
-   they make room for neighbors, they don't stay in lanes) otherwise means
-   whichever river paints last simply erases the other where they cross. Multiply
-   blend lets both show through as a darker confluence instead, and against the
-   light era grounds it barely changes a river's own color where it's alone.
-   Dark theme inverts the whole premise -- lighter pigment on a near-black
-   ground, not dark ink on parchment -- so "darken" there took the minimum of
-   a light river color against an almost-black backdrop and crushed every
-   river to that backdrop: invisible, not just at crossings, everywhere.
-   "lighten" (per-channel max) is darken's mirror for a light-on-dark palette. */
 .river-calm{transition:opacity .35s ease;mix-blend-mode:lighten}
 .river-organic{transition:opacity .35s ease;mix-blend-mode:lighten}
 :root[data-theme="light"] .river-calm,
 :root[data-theme="light"] .river-organic{mix-blend-mode:darken}
 .river-group{cursor:pointer}
 .river-group:focus-visible{outline:none}
-/* Nodes and edges each carry their own hover/focus indicator; a river had
-   none at all -- hovering or Tab-ing to one changed nothing, so there was no
-   visible sign it was interactive (or that it responded when it was). A thin
-   ink outline on whichever phase (calm/organic) is currently shown, same
-   trigger for mouse and keyboard alike since this is plain CSS. */
 .river-group:hover .river-calm,.river-group:hover .river-organic,
 .river-group:focus-visible .river-calm,.river-group:focus-visible .river-organic{
   stroke:var(--iron-gall);stroke-width:1.5}
 .node{cursor:pointer}
-/* The browser's default focus ring outlines the whole <g>'s bounding box --
-   which now includes the label text, so it'd draw a rectangle stretching
-   from the dot out past a long name instead of marking the dot itself.
-   The halo (already the hover indicator) marks focus too, via JS. */
 .node:focus-visible{outline:none}
 .node:hover circle.halo{opacity:.35}
-/* Story marks: same interaction contract as a node (own halo, own focus
-   ring, no default bounding-box outline), tyrian rather than a family
-   color since a story belongs to no single river. */
 .story{cursor:pointer}
 .story:focus-visible{outline:none}
 .story:hover circle.halo{opacity:.35}
-/* pointer-events enabled on .lbl (redundantly, alongside the base rule
-   above) -- without it, the name text floats over its own dot with no
-   hit area of its own, so the only clickable/hoverable target for a
-   movement is the dot itself: r=4.4 built, r=2.6 not, genuinely hard to
-   land on at real zoom. The dot's own click/hover/focus handlers all live
-   on the parent <g> already (this text has none of its own to duplicate),
-   so enabling pointer events here just lets a click or hover on the name
-   bubble up to the same handlers a click on the dot already triggers. */
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer;stroke-width:calc(2.4 / var(--zoom-scale,1))}
 .edge-line:hover{stroke-width:calc(4 / var(--zoom-scale,1))}
-/* The invisible, wider twin of .edge-line -- see the touch-target block at
-   the end of this stylesheet for why it exists and how it stays a constant
-   width across zoom. 4 (a modest, always-on improvement over the visible
-   line's own 1.1) is the fine-pointer default; (pointer:coarse) below
-   overrides it to a real touch corridor. */
 .edge-hit{pointer-events:stroke;cursor:pointer;stroke-width:4}
-/* A default browser focus outline traces the path's bounding box, which for a
-   long diagonal line is a big, mostly-empty rectangle that doesn't read as
-   "this line is focused." Thicken the stroke itself instead, the same idea as
-   .node's own focus-ring but shaped for a line rather than a dot. */
 .edge-line:focus-visible{outline:none;stroke-width:calc(4 / var(--zoom-scale,1))}
 #tip{position:fixed;display:none;z-index:40;max-width:260px;background:var(--vellum);
   border:1px solid var(--gold-leaf);border-radius:2px;padding:.5rem .7rem;
@@ -222,18 +124,8 @@ svg#world{display:block;overflow:visible}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
 #panel .edge a{color:var(--tyrian)}
-/* A river's own panel lists its member movements as in-app jumps, not real
-   URLs -- a <button> styled to read as a link, so it still gets a real click
-   target and Enter/Space for free instead of reimplementing that on a <span>. */
 #panel .panel-link{background:none;border:none;padding:0;font:inherit;
   color:var(--tyrian);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
-/* Documented stories: a movement's own real, sourced narrative episodes --
-   distinct from the map's floating gap stories, but drawn with the exact
-   same open-book glyph so the two read as the same kind of object. One
-   button per story, icon only -- the title shows on hover/focus via the
-   shared #tip element (same structure tipForStory already uses for the
-   map's own floating stories), and again at the top once opened, rather
-   than repeating every title as permanent on-card text. */
 #panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
   padding-top:.6rem}
 #panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
@@ -255,19 +147,6 @@ svg#world{display:block;overflow:visible}
 #panel .docstory h4{font-family:"Alegreya",serif;font-size:1rem;margin:0 0 .1rem}
 #panel .docstory .meta{margin:0 0 .4rem;font-size:.78rem}
 #panel .docstory .caveat{font-size:.85rem;color:var(--ink-faded);font-style:italic}
-/* Website V2 world_front design, site cutover Part 3: styling for the 8
-   built worlds' own fetched Orientation content (#orient-fetch-slot,
-   populated by loadBuiltWorldOrientation() from cic-website/assets/
-   orientation-render.mjs's shared markup - the same markup
-   Build/tools/generate_tradition_pages.py renders into each world's own static
-   tradition page). Scoped under the #orient-fetch-slot id specifically
-   (higher specificity than the .docstories-row/.docstory-item rules just
-   above) so it never touches those rules' own effect on the 284 non-built
-   movements' still-embedded documentedStories, which keep their existing
-   pill-row/hover-tooltip presentation unchanged. This content is a full
-   always-visible title/when/teaser per story (Part 2's own spec), not a
-   space-constrained pill, so it reads as a plain vertical list here
-   rather than a flex-wrapped row of buttons. */
 #panel #orient-fetch-slot.orient-loading{color:var(--ink-faded);font-style:italic}
 #panel #orient-fetch-slot .docstories-row{display:block;margin:.6rem 0 .3rem}
 #panel #orient-fetch-slot .docstory-entry{margin:0 0 .9rem}
@@ -325,39 +204,7 @@ svg#world{display:block;overflow:visible}
 .topbar button.zoom-btn{min-width:2rem;font-size:1rem;line-height:1;padding:.3rem .6rem}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
-/* ---- Touch tap targets ----
-   Measured at a real default mobile view (390x844): the node halo (the
-   actual hit area, not the dot itself) rendered at ~14px across, a node's
-   own name label at ~10px tall, an edge line's hit corridor at well under
-   1px, and every persistent chrome button under 24px on at least one axis
-   -- against the 24x24 WCAG AA floor and the 44x44 Apple/Google actually
-   recommend, every one of them was built for a mouse's precision, not a
-   finger. (pointer:coarse) is real capability detection, not a screen-width
-   guess: a touch-primary device gets bigger targets regardless of window
-   size, a mouse/trackpad keeps the exact sizes already tuned and verified
-   all session, on a hybrid device (touchscreen laptop) the query reflects
-   whichever the OS reports as primary. --zoom-scale (kept live in
-   applyTransform(), one custom property write per pan/zoom tick rather than
-   a per-element loop) lets the halo and edge-hit corridor hold a CONSTANT
-   on-screen size across the whole zoom range instead of shrinking back to
-   unusable the moment someone zooms out -- the exact failure a fixed-size
-   fix would still have. Chrome buttons just get bigger outright; a bigger
-   button on a touch device is normal responsive design, not a compromise. */
 @media (max-width:640px){
-  /* Home link + h1 + tagline + Reset button don't all fit one row at phone
-     width no matter how far each shrinks -- confirmed while integrating
-     this page onto the live site, where the topbar first gained the home
-     link. An overflow-scroll fix (tried first) requires a visitor to
-     discover a hidden swipe affordance to ever reach Reset -- worse than
-     just wrapping. Letting the row wrap needs no new plumbing: both
-     positionScopeNote() and centerView()'s own chrome calculation already
-     read the topbar's real offsetHeight at runtime rather than assuming a
-     fixed height, specifically because the topbar could already need more
-     than one line -- this was that case actually arriving, not a new one.
-     The tag (decorative subtitle, redundant with the intro banner directly
-     below it) drops to its own full-width row rather than fighting the
-     real controls for space; Reset follows on a row of its own after it,
-     since home+h1+Reset together still don't fit width one row at 390px. */
   .topbar{flex-wrap:wrap;row-gap:.2rem}
   .topbar .tag{flex:1 1 100%;order:1}
   .topbar button{order:2}
@@ -376,10 +223,6 @@ svg#world{display:block;overflow:visible}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<!-- Loaded non-blocking: a stylesheet link followed by a script holds up that
-     script until the stylesheet settles. Found by testing this prototype --
-     it turned a slow/blocked font request into a several-second blank freeze
-     of the entire interactive map, not just late-arriving type. -->
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="assets/feedback.css">
@@ -387,7 +230,7 @@ svg#world{display:block;overflow:visible}
 <body>
 
 <div class="topbar">
-  <a class="home" href="index.html">Church in Conversation</a>
+  <a class="home" href="https://churchinconversation.com/">Church in Conversation</a>
   <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
@@ -397,9 +240,9 @@ svg#world{display:block;overflow:visible}
   <button id="resetBtn" type="button">Reset view</button>
 </div>
 <div class="feature-bar" aria-label="Main features">
-  <a class="feature-btn" href="atlas-v3.html" aria-current="page">Church Family Tree</a>
-  <a class="feature-btn" href="index.html#who">Conversation with One</a>
-  <a class="feature-btn" href="table.html">Build a Table</a>
+  <a class="feature-btn" href="" aria-current="page">Church Family Tree</a>
+  <a class="feature-btn" href="https://churchinconversation.com/#who">Conversation with One</a>
+  <a class="feature-btn" href="https://churchinconversation.com/table.html">Build a Table</a>
 </div>
 <div id="scopeNote">
   <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
@@ -419,17 +262,12 @@ svg#world{display:block;overflow:visible}
 </div>
 
 <div id="tip"></div>
-<!-- inert while closed: the panel only ever slides off-screen (transform), never
-     display:none, so without this its close button and last-rendered links stayed
-     real Tab stops -- a keyboard user tabbing through the closed page would land on
-     an invisible control that appeared to do nothing. -->
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
 <div id="legend"></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script>
 "use strict";
-/* ---- Real data, embedded so this artifact is self-contained ---- */
 const DATA = {
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
@@ -42332,41 +42170,6 @@ const DATA = {
 }
 ;
 
-/* ---- Real tradition-family palette, unchanged from the live Atlas (atlas-v3.html) ---- */
-// Re-stepped 2026-09 for measured accessibility (dataviz skill's
-// validate_palette.js), not eyeballed: the original 13 hues had two lane-
-// adjacent pairs that were nearly indistinguishable even for full-color
-// vision (Syriac East vs. Syriac/Prot. bridge, worst-case Delta E 7.1 in
-// OKLab -- the pass floor is 15), on top of several hues reading as
-// desaturated gray (below the OKLCH chroma floor) and two too dark for the
-// light-mode band. Every hue below was nudged -- never past 45deg from its
-// original identity, and several moved far less -- until every lane-
-// adjacent pair (the ones a viewer actually sees side by side) cleared
-// both the chroma/lightness bands and the hard normal-vision floor, in
-// both themes. CVD separation for adjacent pairs lands in the legal 6-8
-// floor band rather than the 8+ target; that's accepted here specifically
-// because this map already carries the secondary encoding the skill
-// requires for that band -- each family also has a fixed lane position
-// and a text label on hover/click, never color alone. Full pairwise
-// separation across all 14 (not just neighbors) was not chased: the
-// method's own categorical ceiling is 8 hues, already tight, so a
-// non-adjacent pair (e.g. two different bridge lanes) can still read
-// similarly -- an accepted, structural limit at 14 categories, not an
-// oversight.
-// k:3.6 is a real 14th lane, not a fix folded into an
-// existing one. The Persecuted-Church movement's own record calls it a
-// "3<->6 span (Greek East / Protestant)", but the census's bridge-naming
-// convention (lower lane + 0.5) collided it onto 3.5 -- the SAME slot as
-// the six real Greek Catholic/Uniate movements, an unrelated Greek East/
-// Latin West seam. That miscounted it into "Greek/Latin bridge" by pure
-// arithmetic coincidence, not any curatorial judgment that it belonged
-// there. Rather than force it onto an existing family it doesn't share a
-// history with, or the easier fix of just relabeling its own text to
-// match wherever it landed, it gets the dedicated lane its own record
-// already claimed. c/cd re-validated the same way as the other 13 (this
-// script's own re-step): PASS on every adjacent-pair gate in both themes
-// against its new neighbors (Greek/Latin bridge, Africa), landing in the
-// same accepted dark-mode relief band five other lanes already carry.
 const FAM=[
  {k:0,  lbl:"Origin",      c:"#e15a4f", cd:"#e86155"},
  {k:1,  lbl:"Syriac East", c:"#883a51", cd:"#95455c"},
@@ -42384,49 +42187,19 @@ const FAM=[
  {k:80, lbl:"Non-Nicene",  c:"#6369b2", cd:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
-// Dark is the default; prefers-color-scheme can't tell an explicit light
-// preference apart from an OS that has never been touched (both match
-// "light"), so this doesn't check it -- only an explicit data-theme
-// attribute (no control sets one today; a future toggle could) opts out.
 const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';
 const famColor=f=>isDark()?f.cd:f.c;
 
-// Pigment levels. Rivers stay solid at every zoom (opacity is not the honesty signal --
-// built-vs-not is carried by the node dots, not the water). Edges are the opposite:
-// full strength only at full extent (ambient texture) or on demand (hover), because
-// all 69 at once, at a zoom meant for reading one river, is a wiring diagram.
 const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
 const EDGE_CALM_OP=0.85, EDGE_ORGANIC_OP=0.7, EDGE_ACTIVE_OP=1;
-// The organic-zoom edge opacity reads as a faint, present wireframe at 0.05 in
-// light mode (iron-gall's dark ink against the near-white page), but the same
-// opacity is close to imperceptible in dark mode: iron-gall inverts to a light
-// cream stroke there, and a thin light line at low opacity on a near-black
-// ground reads far fainter than the same absolute color delta does on a near-
-// white one (screenshot-verified side by side, not just contrast-ratio math --
-// the two composites are near-identical in raw WCAG contrast, yet one is
-// legible and the other isn't). Links now carry color by kind of
-// relationship, so both themes keep them strong enough for the color to read.
 const EDGE_ORGANIC_OP_DARK=0.75;
 
-/* ---- Real era grounds, from the census's own eras[] ----
-   Light-mode grounds carried the same old-manuscript/institutional feel
-   as the parchment token they were designed alongside (tan, vellum-
-   green, pale slate -- the era's own "ground" per the census, not
-   arbitrary). The era body itself now just stays the plain page ground
-   (matching --parchment exactly, so it reads as no tint at all) -- the
-   break between eras moved to a dedicated purple band across the header
-   gutter instead (see the gBands/gLabels rects below), rather than
-   tinting the whole era height. Dark mode's own era-body cycling is
-   untouched, already confirmed working as-is. */
 const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
 
 const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
 const eras=DATA.eras.slice().sort((a,b)=>a.num-b.num);
 
-/* ---- Era height: density-driven (rule 1) -- entry count carries most of the
-   weight, real elapsed span only a soft secondary influence, never the calendar
-   ruling outright. */
 function eraSpanYears(e){
   const ms=DATA.movements.filter(m=>m.era===e.num);
   if(!ms.length)return 200;
@@ -42440,23 +42213,8 @@ const rawScore=eras.map((e,i)=>Math.pow(eraCounts[i],0.85)*Math.pow(eraSpans[i],
 const rawSum=rawScore.reduce((a,b)=>a+b,0);
 let eraH=rawScore.map(s=>Math.max(MIN_H, s/rawSum*TOTAL_H));
 const hSum=eraH.reduce((a,b)=>a+b,0);
-eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
+eraH=eraH.map(h=>h/hSum*TOTAL_H);
 
-// A fixed gutter -- sized to the tallest of the ten header blocks --
-// reserves space at the top of every band for text alone (title, dates,
-// world-context caption), separate from the era's own opening river: a
-// movement dated right at an era's first year lands at eraY0[i] by
-// construction, the same few pixels the caption prints on, so without
-// this gutter the text and the very worlds it's introducing (Alexandria,
-// the Desert...) would fight for the same ground. No movement is
-// plotted inside the gutter (see the yearToY and per-y density-sampling
-// changes below), so the streams entering the band are visible passing
-// under the caption without a single world's dot or label competing
-// with it.
-// HEADER_GUTTER=230, sized alongside the era-header font-size/wrap
-// above (bigger text, narrower context wrap so lines fit on screen when
-// zoomed in): the tallest header block runs up to 5 context lines at
-// this sizing (computed: worst case ~184px to the divider).
 const HEADER_GUTTER=230;
 eraH=eraH.map(h=>h+HEADER_GUTTER);
 let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
@@ -42480,34 +42238,16 @@ function yearToY(year){
   return eraY0[eraY0.length-1]+eraH[eraH.length-1];
 }
 
-/* ---- Lanes: real laneOrder ascending, left to right (a simplification of the
-   proposed east-to-west compass reading -- exact screen direction is a cosmetic
-   detail this rough pass sets aside; the ordering and adjacency are real). ---- */
 const laneKeys=[...new Set(DATA.movements.map(m=>m.laneOrder))].sort((a,b)=>a-b);
 const CANVAS_W=Math.max(1400, laneKeys.length*135);
 const laneX={}; laneKeys.forEach((k,i)=>{laneX[k]=70+(i+0.5)*((CANVAS_W-140)/laneKeys.length);});
 
-// Genesis year -- a lane's real earliest start -- is where its river is
-// allowed to begin at all, rather than at a floor width for the full
-// sheet regardless of when the lane's own movements start: without that
-// gate, Protestant & Evangelical (first entry 1517) and Global Revival &
-// Pentecostal (first entry 1904) would render as full rivers back in the
-// Early Church Era, seven and fourteen centuries before either existed.
 const laneGenesisYear={}, laneGenesisY={};
 laneKeys.forEach(k=>{
   laneGenesisYear[k]=Math.min(...DATA.movements.filter(m=>m.laneOrder===k).map(m=>m.start));
   laneGenesisY[k]=yearToY(laneGenesisYear[k]);
 });
 
-// Which lane a new river visually peels off of at its genesis -- not assumed
-// to always be Origin. Checked against the census's own sourced edges into
-// each lane's earliest movement: Greek East & Orthodoxy's genesis entry (The
-// Church of Roman Palestine before Constantine) has a Documented edge in from
-// Alexandria -- Origen's own move there in 231 -- not from Origin. The
-// Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
-// already-differentiated lanes, not the undifferentiated trunk. Only "gave
-// rise to", "continued as" and "influenced" count as lineage; "argued
-// against", "broke with" and "in contact with" are relationships, not ancestry.
 const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
 const laneParent={};
 laneKeys.forEach(k=>{
@@ -42517,88 +42257,32 @@ laneKeys.forEach(k=>{
   if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
 });
 
-// A handful of lanes have no structured edge into their genesis movement, but
-// DO have a real, specific origin stated in that movement's own prose record
-// (relationsSummary) -- checked individually against the actual text, not
-// left as an unrequested default:
 const LANE_PARENT_FROM_RECORD={
-  2:3,  // Armenian Christianity (conversion era): "Formed via Cappadocia and
-        // Syriac Edessa" -- Cappadocia is lane 3, named first of the two;
-        // Syriac Edessa is lane 1, already Armenia's real secondary source
-        // but not drawable as a second trunk. NOTE: this is the region/see
-        // (Gregory the Illuminator was consecrated bishop in Caesarea of
-        // Cappadocia, c.314, which is Armenia's own genesis year below) --
-        // NOT the same thing as the later "Cappadocian Nicene
-        // Pastoral-Monastic Tradition" world (Basil, the Gregorys, Macrina;
-        // 325-394), which sits in this same lane 3 but starts 11 years
-        // after Armenia's thread has already begun peeling off it. Checked
-        // deliberately: the geometry only uses the lane number, so the
-        // visual split still correctly begins before that dot, not out of it.
-  6:5,  // Lutheran Wittenberg & Its Congregations: "Child of late-medieval
-        // piety and its protest" -- that piety is Era VI's own Latin West
-        // devotional movements, lane 5.
-  50:6, // Progressive Christianity: its own record names this explicitly, in
-        // both directions -- "IX.35 (the mainline century...) is its parent"
-        // -- The Mainline Century (Liberal Protestantism & Neo-Orthodoxy) is
-        // lane 6.
-  1.5:1 // Northeast India Revivals & the Mar Thoma Reform: "honestly
-        // extending the St. Thomas lane" -- the St. Thomas Christians chain
-        // is lane 1.
+  2:3,
+  6:5,
+  50:6,
+  1.5:1
 };
 laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=null)laneParent[k]=LANE_PARENT_FROM_RECORD[k];});
 
-// Four lanes are left with no parent at all -- checked, not skipped, and each
-// stays a plain spring for a different, specific reason its own record gives:
-//  - Latin West (Tertullian's Voice): the record itself calls him "a dropped
-//    voice" whose lane is not settled. No invented certainty where the
-//    project's own record has none.
-//  - The Latin/Prot bridge (Taize & Iona): "heirs of monastic lines" (plural,
-//    unspecific) -- real, but not one traceable source to draw a line from.
-//  - Global Revival & Pentecostal (the 1904-07 Revival Family): its record
-//    is explicit that there is no single origin to show -- "siblings of
-//    Azusa without descending from it -- revival as polygenetic, which is
-//    itself honest history." A spring is the accurate shape here, not a gap.
-//  - Non-Nicene (Valentinian & other Gnostic Christianities): its record
-//    frames it as arising IN TENSION WITH the forming mainstream, not
-//    descending from it -- "rivals the early traditions... were shaped by."
-//    A convergence line would claim a lineage; this is a rivalry instead.
 
-/* ---- Per-lane density profile (rule 2: width is water volume) and a seeded
-   winding wave (rule 3) -- sampled every 24px down the whole sheet. ---- */
 const STEP=24;
-const WIND_AMPLITUDE=52; // px -- rule 3's actual visible swing; the wave shape below was
-  // correct but returned a ~1.3 unit value with no pixel scale, making the winding
-  // invisible at any zoom. This is the fix.
+const WIND_AMPLITUDE=52;
 function seededWave(seed){return (y)=>{
-  const a=((Math.sin(seed*12.9898)*43758.5453)%1+1)%1; // deterministic phase per lane
+  const a=((Math.sin(seed*12.9898)*43758.5453)%1+1)%1;
   return (Math.sin(y/620+seed*2.3+a*6.28)*1 + Math.sin(y/210+seed*1.7)*0.35)*WIND_AMPLITUDE;
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
-// How long, in canvas units, a newly emerging lane spends widening from
-// nothing and, where laneParent[k] names a documented source, drifting out
-// from that lane into its own column. Kept short because most lanes begin
-// early in Era I, and a long join would hide their own winding.
 const MERGE_WINDOW=150;
 function mergeRaw(k,y){return k===0?1:Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));}
 function smoothstep(t){return t*t*(3-2*t);}
 
-/* ---- Lane drift: rivers lean toward or away from each other only along
-   census links, over the years both linked movements were active, each
-   link weighted by its confidence grade. A drift starts only once both
-   rivers have finished joining, so a lane's genesis convergence is never
-   drawn a second time as attraction. Links between the same two rivers
-   are taken together: the pair leans along its strongest active link, and
-   more links let it lean further, so a cluster of links never makes the
-   river turn more sharply. ---- */
 const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'argued against':-1,'broke with':-1};
 const CONFIDENCE_WEIGHT={'Documented':1,'Widely Accepted':0.7,'Dominant Modern Reconstruction':0.7,'Contested':0.4,'Inferential-Thin':0.25};
 const DRIFT_MAX=90;
 const DRIFT_SATURATION=2;
 const DRIFT_FADE=0.4;
-// A pull never builds or relaxes over less than this many canvas units. An
-// overlap too short to reach full strength gives a smaller lean, not a
-// sharper one.
 const DRIFT_MIN_FADE=600;
 const DRIFT_EXTRA_LINK=0.15, DRIFT_PAIR_CAP=1.6;
 const driftPairs={};
@@ -42639,10 +42323,6 @@ function driftOffset(k,y){
   return Math.tanh(total/DRIFT_SATURATION)*DRIFT_MAX;
 }
 
-/* ---- Width: the number of documented movements in the lane active in
-   that year, averaged over a few decades so the river swells and thins
-   instead of stepping. It is not membership or size. A lane with nothing
-   active has no water at all. ---- */
 const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;
 const WIDTH_SMOOTH_SIGMA=18, WIDTH_SMOOTH_REACH=45, WIDTH_SMOOTH_STEP=5;
 const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=DATA.movements.filter(m=>m.laneOrder===k);});
@@ -42657,8 +42337,6 @@ function smoothedCount(k,year){
   }
   return sum/wsum;
 }
-// Inside an era's header gutter there is no plotted year, so the river holds
-// the width it had at the era's opening year.
 function yearAtY(y){
   for(let i=0;i<eras.length;i++){
     if(y>=eraY0[i] && y<eraY0[i]+eraH[i]+0.01){
@@ -42688,11 +42366,6 @@ function widthAt(k,y){
   return sampleWidth(pts[i])*(1-t)+sampleWidth(pts[j])*t;
 }
 
-/* ---- No crossing: neighboring rivers keep at least RIVER_GAP of clear
-   ground between their edges, even at the strongest drift. Where they would
-   come closer, both ease apart. The push is spread and blurred along time,
-   so it builds and relaxes like the drift itself. A lane still joining its
-   parent is left out: that meeting of waters is drawn on purpose. ---- */
 const RIVER_GAP=14, GAP_MARGIN=4, GAP_SPREAD=8, GAP_BLUR=5;
 function spreadAndBlur(arr){
   const n=arr.length, pos=new Float64Array(n), neg=new Float64Array(n), out=new Float64Array(n);
@@ -42714,8 +42387,6 @@ function spreadAndBlur(arr){
   }
   return out;
 }
-// amp 1 is the full winding river shown close up; amp 0 is the calm line
-// shown zoomed out, which keeps the drift but not the winding.
 function halfWidthScale(amp){return amp>0?0.5:0.3375;}
 function buildLaneGeometry(amp){
   const own={}, half={};
@@ -42761,7 +42432,6 @@ function ownXAt(k,y,amp){
   return arr[i]*(1-t)+arr[j]*t;
 }
 
-/* ---- Path building: smooth-quadratic through sampled points. ---- */
 function smoothPath(pts){
   if(pts.length<2)return '';
   let d=`M ${pts[0].x.toFixed(1)} ${pts[0].y.toFixed(1)} `;
@@ -42773,9 +42443,6 @@ function smoothPath(pts){
   d+=`L ${last.x.toFixed(1)} ${last.y.toFixed(1)} `;
   return d;
 }
-// A joining lane eases out of its parent along a smoothstep with a gentle
-// arc, so the join reads as a river leaving another rather than a straight
-// cut. The arc is scaled by amp, so the calm line stays simple.
 function riverPath(k, amp){
   const left=[], right=[];
   const parentK=laneParent[k];
@@ -42797,15 +42464,10 @@ function riverPath(k, amp){
   const rightRev=right.slice().reverse();
   let d=smoothPath(left);
   d+=` L ${right[right.length-1].x.toFixed(1)} ${right[right.length-1].y.toFixed(1)} `;
-  // The pen already sits at rightRev[0], so its leading move is dropped:
-  // a bare "L" before the next "Q" would be invalid path syntax.
   d+=smoothPath(rightRev).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
   return d;
 }
 function laneCenterX(k,y){return ownXAt(k,y,1);}
-// Between a river's first and last recorded movement, a year with none
-// active leaves no water. A thin dashed thread follows the river's course
-// across that gap, so it does not read as the tradition ending.
 const laneEndY={}; laneKeys.forEach(k=>{laneEndY[k]=yearToY(Math.max(...laneMembers[k].map(m=>m.end)));});
 function threadPath(k,amp){
   const own=laneGeometry[amp].own[k], pts=laneSamples[k];
@@ -42826,41 +42488,14 @@ function threadPath(k,amp){
   return d;
 }
 
-/* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
 
-// A small, deliberate visual nudge for one specific crowding case: Desert
-// Monasticism (c. 320, lane 4) and Church & Empire (312, lane 3.5) plot only
-// 39 years and one lane apart -- close enough that both worlds' portrait
-// plates and names kept fighting for the same patch of page, with Church &
-// Empire's own name cascading away from its own picture to clear Desert's.
-// Both dates are already recorded as circa; nudging Desert's PLOTTED
-// position about 16 years later -- still its own decade, still Era II, well
-// short of the 451 boundary -- is chosen from within that already-honest
-// approximation, not a new claim. Its real start/end and every displayed
-// date stay exactly as recorded; only where the dot draws moves.
 const VISUAL_Y_NUDGE={'desert-monasticism':80};
 Object.entries(VISUAL_Y_NUDGE).forEach(([id,dy])=>{
   const m=byId[id]; if(!m)return;
   m._y+=dy; m._x=laneCenterX(m.laneOrder,m._y);
 });
 
-// laneCenterX depends only on lane and year, so any two movements born the
-// same year in the same lane land on the exact same point -- 24 such groups
-// in the census (e.g. the post-apostolic house-churches and the Ebionite/
-// Nazoraean current, both Origin-lane, both starting 70 CE). Whichever one's
-// <g> happens to paint last then sits on top of the pile and is the only one
-// a mouse or finger can ever reach; the rest are keyboard-Tab-only, an
-// invisible dead zone for anyone using a pointer -- and every node carries a
-// r=9 halo that's part of that pile even at opacity 0 (an SVG shape still
-// captures pointer events when it's only invisible, not display:none), so
-// the two members of a pair need to end up more than 2*9=18 units apart, not
-// just far enough that their small dots stop touching. A small deterministic
-// fan-out -- not a change to the river's own shape, which never reads _x --
-// keeps every movement independently visible and clickable; 24 units apart
-// clears that halo-collision margin and is still nowhere near the ~124-unit
-// gap between neighboring lanes, so no one reads as having drifted into
-// another family's water.
 {
   const coincident={};
   DATA.movements.forEach(m=>{
@@ -42875,7 +42510,6 @@ Object.entries(VISUAL_Y_NUDGE).forEach(([id,dy])=>{
   });
 }
 
-/* ---- SVG assembly ---- */
 const svg=document.getElementById('world');
 svg.setAttribute('viewBox',`0 0 ${CANVAS_W} ${CANVAS_H}`);
 svg.setAttribute('width',CANVAS_W); svg.setAttribute('height',CANVAS_H);
@@ -42896,29 +42530,12 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
-// The era divider (a thin line; see the
-// eras.forEach loop below) sits directly above the rivers and nothing
-// else, so edges/nodes/labels stay crisp on top of it and the divider
-// itself stays crisp regardless of what color river crosses under it.
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
-// Stories that happened in the gaps -- real, documented, but never grew into
-// (or never surfaced inside) any one movement's own record, so they don't
-// belong on any single node. A small book mark, positioned by year+laneOrder
-// the same way a movement is, sitting on top of nodes so it's never buried
-// under one it happens to land near.
 const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
-// Portrait plates -- real Representative portraits (Chloe, Theon, Papnoute,
-// Albina, Mar Yausep, Marius), resized to 160x160 and re-encoded as JPEG
-// (source PNGs at cic-website/assets/portraits/ run 380KB-1.1MB each, meant
-// for a full-width card, not a ~30px map roundel) and inlined here so this
-// stays the one self-contained file the rest of the prototype already is --
-// an artifact publish can't resolve a relative path back into the repo.
-// Built & Live worlds only: a graphite (not-yet-built) movement has no
-// Representative yet to portray, per the Atlas storyboard draft's own rule.
 const PORTRAIT_DATA={
   "cappadocian-nicene-pastoral-monastic-tradition":"data:image/jpeg;base64,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",
   "post-apostolic-house-church":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAgQDAwMEBAQFBgoGBgUFBgwICQcKDgwPDg4MDQ0PERYTDxAVEQ0NExoTFRcYGRkZDxIbHRsYHRYYGRj/2wBDAQQEBAYFBgsGBgsYEA0QGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBj/wAARCACgAKADASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAABgABBQcCBAgD/8QAPxAAAQMDAwEFBgQDBgYDAAAAAQIDBAAFEQYSITEHE0FRYRQicYGRoTJCUrEVI8EIFmJy0fAkM0OSovE0guH/xAAaAQACAwEBAAAAAAAAAAAAAAAABAEDBQIG/8QAKxEAAgIBAwMDBAIDAQAAAAAAAQIAAxEEEiETMUEFUWEiIzJxofCBkcHR/9oADAMBAAIRAxEAPwCXpY5pZ5pcVh95qRYpceVPxSoxCN0pc45pcUqMQiPSlSxW5a7a/drs1BY4Us8qPRKfEmoY4GTADPE8YsSVNkBiIwt5w/lQM/8AqoKZrTQFsfcj3HXFpQ+0strZYUXlBQOCOODz5UIa17Zmr1c5fZ5oRblotfeKizLyD/xMnBIUGv0pOD7x5weMVS2o2E2eQqy6ZSlWMAtxWSt8+qnMZzU11WWjcx2j+ZLutZwBkzpJXaF2Zez96Nf2xGfyOhQV9BmpmFJiXOzsXa1zGZ0B8ZaksHKVenPIPoa5lc08kaRY9rjup9obK/aCwXHG3QSCFEDgEbajtF9oGpOza8LiApmWqScvwHl4aeH6kKGdi/8AEPnmoFL7d1bbvg4kl1B2uuJ1fmljmoTTepLXqSzR7hbJSno8hKlN96AHElJAW2sDjekkZI4IIPjU3kedQjbhmQwwY9NmnpV3IjDypYFOelY1BhFT84peFLwrmEWKWKXSlnnrXXEIsGl4UuTT0CEakOtIUvHioHeEQra1HdzofsK1DqsK2THo5jxT4gq4BHxP7VjBiqm3FiIk4LiwknyHifpmgz+1JcwjsntVliK7tEqWgJSOPdHT7JzS17bnSn3MvqXAL+0567LrNc9S6sFsgtKcWsAOv8gNJz7yyR06nHqa7d09oTSWk9FNt2SI2w7/ANRaUgLWfNSsZJqnewi0RNPaHYn+zqWucpTyUoAClNp90KUpRASOpyTgZFHqO3XRJuDlg/g12iSW1bFS1KRIjE+YUgnj1xS2uufUWMq/iv8Acx/RULSisfyM9bmwwAskYJJByPCuZO13T1vamOS7cwGs5W4hOME/qHka6V1FerJabG9cb0+hljaHe8OcEE4GAOvUVzxqLU+ndVSpLlpanutt53OmPhsA/POPlSXpnUS3qLnHmaHqIrerpt38SL7I9ULt8OTEzlMeSzOCfHBBadHwKSk/IV0mhSXG0rQoKSoZSR4jwrj/AEilULtWYtsYlbckrjqT5pUnP+h+VdPaJuC5+j44dVl6OSwvPXjp9iPpXoLMCw/PM82BmsZ7jiEfhilg0xUelIVGZzHxzS5pdaepxxCNnFLoKWaXUUCER5FMRS3ccUt1QTCPnApdaWDTcg1OYR+M1jzu4rLxrH81QYSasCSlUqWOqGu6Qf8AEvj/AFqhP7UFzRL1bYbE077rJU4vB6YAQP6/Wr9guJj2uG0rrJllZ/yoGT+xrlPtUe/jva6ysOY7x9TfmNwwQPtis6p92s3Hx/5HxX9jA8/9M6NGjp8nsst9mstzRCSyy2lza3v3AAHHPGDz1oDtHZhqs9oO2VLvZj953jkp9SAltoAYBSeBzjnx8BVqaA1G3a9PwTdmysoYDLrJV1wMc+fStkatRJm3OHpq0SX7bFT301xpHerT+lptA/Evx8SAKzVvZQyjzN4U5w2OBKi/tINqmydKw2/5bShh0oHDgTgbiB+1VldtK3dq7INkD64eP5TbcVLaEoA5yQOSfOj3tw1JYZcm0tMSnky4yMqQ8napJxuKNvUZPnyK9pGuEr7Nm2orqkLfQPdTwTxjn18KaqutqqQBc5lT6ZLHYk9hKasyRb+3uxPPFO115BV5cgpNXxpRLtr1xd7KsEIIK0g+aV4z9FfaueLjIVH7SbVKKuIzzeSPHBClfvXSN7W3a+1S2Tcju5iVIUfVQH9cGtG1sWVk+RMPZw4HvC0Yzk0vDpTEYNLnGeKvicfPlTjkc0gKRBroQiyBT5psVifxcUZhFwaWKXQ0+QBXMIh5ZpAkHmmHXNOrrmphHJpISpx5KEDKlHAA8TWJ58KlLS0lhl+7PDDccYQT0KyOPp1qq63pqWM7rQuwAmF2WIKUkqAZgwnlrUfM8D6qOK451u486hiahSkul5bwWk4IOeoNdN9q2oUW/Tbdrj//ACZp7x1XmkZShP7n51zhrFlKHYkP9MdQP05rO0JPVDHuZp3L9kiXL2Lzo+q+yVES4zXHpsR5xl5wrPeBKiSFZ+B+1WPp5WoNPaf7myxLKqKF7Uh55xC/IuLIB3KUcnOa56/s6od/vVd4rL+172ZC0BRISvBIwR8+tX5btYWUuLtd/iLivsnaWlnaVJ/wnoRS2tTpaltoyO/+5oaGw2ULu/uJUvafJVcrj306wWN2T36yuREm944snGfgkY4z60Ew3F/wpCykN5dKEt7921I6nNWLr1zSLktwWiH76lnaG1lRx6kkiqe1NdRDtMhiIve8pOxTifwoB6gHxPrT2n+6oVRicathWS/xBj29256okPFZU3uUG/QE10prCSZHZ/pS95O8BpSj67dp+9c66LgJm3+Oxs/EnKvhmuir/Hcc7CkpUk7rfJ/8SQRV/qBAsQDxMvS5ZCx8w8gTG7hao05pW5D7aXAfiOfvmtodKr/stvPtNiesz6svRFqKMnqndyPkcH50f1epyIk64OJkOtPmsOc04PHNdgzmPmsc1lxWOKDCLqafGaR6UgTiohGzikTmnJpuvQUQirC7zL3NtqbPZ7NMcjpPvSO7KW8+Kio8Y9fKpANtwmAZFwtlvmuKCWP4i6lITn83dk5UfIHitHVdkvMuwN257tCuyVSDt3OpZU09yMoCkpATnOBz5Vlay5XIUHgTQ0tRX6jKr17dYVz108+mSlUWKhLTagchZSOVDyGcnNU1fLg/fNROGDHceQf5TYSOSPE/OrS1noC26fsF2nxpMuc+p1j2b2pYT3aFIWVlweJSUK6eWPGiPs20NZLfCTJmvMvLcAcalhPuqSfMeB611SyUr1e57CO9BtQNo4Akd2L6LuNhua77OR/OdRsKR0QgDOPU1Z+sNKxbzCdUtpnvHG/cdVx9D4GjO1WmCltoMvtKBB4HB58fXNR2plC06PdM2P3rbbqUAKHBQo4B+R8ayr7nts6nmN1Ilaisdpy/qK0KsUtxkqd7pQIT3i9+fhzQHe4SkWNaSkhSjnFdAX3TKJ9puWoXIykMwUBad+dqjnGB+/yqsZenpcm0x1voWHHsrI28J8vtWrpNRjBMX1NO4FRIHshtrk3WLqCNoZjlRPXxFdKKg+3dn0+Ahvd37K0gYz7wGR+xqtOyDTBt1+vkt1ONsEJSrHBJXk/tVtw7gbJ2cP3jut8ghaIjahw46TtSfhuIrjX29S7K/EVorNde0ykNDTXLZrxC1LCA6tsLSfzbgEqq+SMHGK5wudum2rX79rckb3YiUMuFP53SPe+QNFuntZToerWoYkPPW1Cu6kLecyAT+YA9MGn637RO1M8y4eaQ6UyVocaS42tK0q5CknII9KyH4TV4iscDinxTDgUvSuhiERwBWIPpWRwabFBhGOTXoXHY1vekxWFPzFkRojSeqnl8A/IZOfDrWPQZrOVJTaNL3O+vud37MytiLg9HFJ99Y9QPdHzpPWWFEx5MY0te94D3CbZNJOyLdpK3N6w1+6gqlztodag+Y3KyEgdAOpPJz0qOtL+uFqn22+xpEyUh0NyHI3c7O92KdTtBWgDCUHnBxjqcgUT6At7GlNOWm1uMp9rurLsp8q/Ep38WCfQbR8qK9JRWbjbnrucqTInyXyVerPdj9zSNpVF7ZnobdItdO7zK0l6XuV6Sm9Xl5mSw2pmU7aVqUG3WHMhRccGMFJUDhIx8aMIVkTp9caP3C0Wkxyy13q9xYWFZSlRHUc4CvEda3Et/wiTptUtAchzLemLIA6YKQPsQKkLMTbxO0tdQZkaOf5ZXyruD+BaP1AfhI8OKXN7f4lGntNJyPPeadtluNQHXPaEtltwoOcAY6ggfAjwp7jqGTOssm1O+zyozyNi8jBA9CPH5V4xLE03epMZRkS7e42vEhnd3jJ6DkZ5wODz606dCxA6qXE1FqNZQkLIdlIUMHocKbGPrV6it+THdRqlByEz8zWkarlJ06ixmBAMZGCVPZJWodCecZoOne3LYeeZi25hCEFXukrz8jj9qLbnq2Vo9KlItb88gdZLiAD8eDQTA7SLjrrVkexRNNWuH3ro3KaSXHlY52g8AZx61atAxkDgShPUKtwUp3hB2c22Wu8XaBLcUlcmAyr3+iAV+9j4CpLUkuPO7QLXpeKQxbralMyWc4S2y3yAT/iVj71KWqGdKKu94vcmNGfkBLbaS4HFIaTzgpT0yT0z4Cqa7Q9dNzGpFpsEZxhdwcBceUQX5av1LI6IT+VA4pcL1LMLKdW67yV7QclTUzdV6g1I2vvEOSXCwTxuP4U1LaVtgVZpjy0ZeQ7t39eUnn+tRtnsr0G7RLc77wioVOkp6hG1OEJP/ANjn5VY/ZZFZuWhFd4lIW9LUVE9QkK3f1NN2uETj4iKLk8yV0kVMGdbFrz3KkLSnP4dwOfuKJgeaq2Jfkwu2KasLAiuu+zr54AOMH5HFWljB56inavwGYhcPrJmXGKQAHjSxSV0q6VRYxSzTE8U2agnEJmhJceS2kZKiEgfGoDtLdeuupLNoa14KUOCVPI6IYQoFZP8AmPu+vNEsN5qCmRdpH/JhNKfV6kDj70HaOk/xCyXzVjw/4u6S3Egq6hpv3UJHp+I/FRrP1B3WD4m16RTubcZIankeyybJeSQhEGcEuqPRLbnuk/KjGz7LV2f2xlACXH3iVJJ8VuqyaDLyhu5aXnQ3RkOMA+eRj+hqTsEtVxsehipZO5SWnQr9Te/P3FJajlRNnX56YHzN24tuS9A2V5KS4uMpSQBznYs8fQGtuWBLta7hCYMmTF3gI3pThIxwASM5x54+leMK5tI0c7HcICo859sA/wCckfvUPEttwuEFcubqlq297lmNHS6MNtJzlXdk+8o/Dz5pX9xKhQckyLfZ7Sm3Fl++QdPRnUd6iOAX1JCj0ynCRknJGSeQK0L5pTtJiWmfCf7TLWqNLQhl4RUOFRSeAMZAB8PSsbvarSq095fO0qbJZaKtohsNshoDoQVFZ+nSgy52fs/isofT2j6jkK7sOKZU4ykoPgjO33vtTtfPIP8AEtYntLBvGxOloTVxmd5IcZ90rUje5tAyojJweQfnVTafu0PTmuFXWQpZQhewdyPe3LBSP3qNvFw0siXaV2TUd6nTGytLvtK21ttJI6J2gYyeOeo8qVusErVaJcaG+lp5CFS0LWNqcoI2gnwBJp9E21neeDMi3b1QFh9qi+KfkNsIekyy4Qdu3KnFeSUgZNRiLTE0tHf1hqxKUXh5OINtOCYqPBbg/UfBP18cDmntb36w3hcLc604obHW0AEpPTcD4fEcUV6b0v8A301sJ1ykpdtsN3c8hS8kqHISeeSfPyGKSNXRznt7xhvqExEOVYuySVebpuF1vpLygr8TbODsT9OfnRP2RvNRuzaVLVnLQWVK8E8n70L9rGo25odZaX7jRLYSBgJHAA/epBcz+6f9nuHAJ2zbmyZK/Ahvw+Gc1DKXrGe5MpyFb9CBMN72+6y5af8Aqyjj1yTV6WGYq4aejPuf81Ke7c/zJ4P+vzqktF25UhyEw2MlStxH2q09FvnvrpDUoHunUnA8yMH9q0EbD7YnauUzC3NI5pgRjmn6imorEcHimxWVN1OBQfeEjNbzVW3sqkhlBW/NeSyhCeSvngD4mntNh/heiLfZlKw61G/mkeLiveV9zTTj/E+0SFbVZUxa2+/ShPOXCAMn7/Spi8OGFbC64tBkHqyggqSP9fSsjO7Le5nrfTatlYMD4tx22V8SUjfHUuO4fMeB/wB+Ve+mZimrXY0NpJVAurmQAThKhnP/AJULBF2uurlxIVvX3s7cHGM8BJP4ify486seBp5jTlwtlt9pD8lTDs2UoHhawUNowPJO5WPU5rixcoT7RzWhWTE8p0MNRJctCXf5shbi0g87sY48ug5oHuc202OTIburzDvtYCUtIlq3ICiMk4G0AjwHgmpvVetLHZ7J/CLwEuznXlFGxAWruj+ZSTkegzVbWGz3jW7MhMGRHZtiJJCZU/AcyegSBnwxwMeFU015G5uBM1nFfAhD7d2eGLOXYtH3KQqO0pS31PuykJAyQQScJHjnFA0demp96RC052bMOySn2hZlrWpG1I3LUpSyAlPj/wC8VbE1Vr0SxaLfAkJWtjcpTpSB36j+PIHn0x4YHlWOorBpLUcFF4jNm3PujaJMVRQc4/CtI4xV9d4U85wfmLs+T2EqBrSV1ky5Lvs1na9odU423b3EKQgfpByMD5VuxdP3eBb1mfdIkFCiQtCHkqUpI+Hz4zWledJ6gt0tRYcUthOQl5g94CPHIzlJ+dDEtifIUEuS2kFI2j2lKgMf4SSRTw3WD8hj9Sr7SnIU5/cL5cDRzSGpZmOzVx0pB7k7NwUc4B9MHr61r2HUD9rvUpVpKo8WSnaWSrduGf8Af1NCi2ZMRssuO70c5aBGD5kc/tXm3IciyEvpXznAynBHpiulpBUgnM5ezJxjEsK1RIOo9Uoau7hRbY2Zk1Y/QOiM+Z6Vq6/1K5d7j7Qohtlz3UN9A0yj8KcfHA+VQkO7JcaMff3Qe99RQcBSgR1+oqTg2i6x9VwtQXm1uoticKirdAWyog8FRSSBzk7Tg5xVYrCncewlNitj9w20mg6c0x/H7k13Eh5vZDiujDik4/GoflHjzzWx2e3gJ1PIZkryZ4ICv8YJI+oz9qwu9rj6tuHtEm/JiZGO7KCcn4+VeMnTjmm4sSfBf9r7l0LLoO7p8PDiq6XTdk9zOLFYjHiW3jinAxWDTqXo7byfwuJCx8CM1kTxxWgIhMs06MBYJOAOSfhTdK8JjhatklwJKlBpW1I6lRGAPqa5uOEMspXc6r7mAtz1JPTqSba9MoaTMcSX7hc3ASmO2CcDjJ48ABkmo+3dnkjUl0afm6hvLbQPfvreCY5cbHKilr3lpTjPKiDzwK9HLi3pC23CRHSmRKaUltxYOe+nODgeqW0nAHmrNHFghxbRbkQDLL0uRH3S5C1EqeeV7y+T4DgY8his8YUcT24G0bVhValWixQN3sDUVBQC020hKChHhuV4nHPOeTQFq/VZg67s0pKQlmaxLYSoqztVubUhOfka27/cnHylx9BCQlKAFcIGBjqevyFAfa3Cca7OoF5j5C4s9pSSTzlSVJI+wNQF6n0HzKrxtQtB/WTyY7bpfdS7PmLy67nltA8AfAAfvUPK1B7PpyExZFeyljCFlB/5i05UFHyJClfIUK6lvMiW2I61FyVLICwjkpTkDaPU8CsAh5IkwSCl3dwlQ5StJ4/qKZq021BumDqbixyIUStTSLtCKJrhLoyQD09cVNaa1e7a8wp5LkRwY3nqM+f+tC1nhoudjMtpJLiFkKbH4kEdQak4DSCDHktpG0bhu4OKrsVACuJUpLYMLnIjSpXtNpmthKufec2k58PI1qP6bhoZcmXSW1FByVJASd3mT1H2oeeV7K0QgLQ2T485+ArWast1vTSpS0uRbY2fffc4Lnokf7xXCr5zidFiOwjyk6fcDzsZtaIjKdoecOS4rwAGBgUNXGCoK3MKHPOxScgj0NSM5KJcvuI+W4jABCU/pzj6k/1qGRc9s162S/dAcUWVn8pycpNOVq2MgyBgg7p4wlfypLiuqNqE+hJz/SrC0Rqe5xQLcl/dDlbmHGVAKSFgFSVYPBBwUkHgg0FNsNtQEuYyp15SiP8AKB/Ums7VP7ufCUjgqmNbv+7B/eurAHBjSrtpw0u23RtJXC3hMSxwVTDyWHStOeedjgOQfLPwqPlwJtkUuTaJTsqGtWHIEpW5SDjO1J8/Q9fChR+Y5Z7g4+04UKZUHQR5Zwr9s1P3e/R/aotxlAmDObEeUlP/AE159xY+B+xpDYwbI7GJ5458Q40Pf0zYKYRZebbG4MFwEYxyUc+XOPmPCi8iqm0zcLi9ry3QpcpTrLS1KQTj3hsODx1+NWyATT1WdozErR9Uyzg4qPvch+JZHpUfG5rCiTztGcZ+RINb3JVUPqmQWNMS8HGWznPiB1FV6psVy3RnFyt7SurraHkGywG5Hely5qmur8Dk8fHhP3qfuN0MG7wXc5BJUefA4z9qjrVcAu3xJQI95ru1eO1QOCKirtJD11V74IbAQMnilOTxPaIQRuHmEcmSiZeioLL4Kv5ZV0T5fHFRvbdM9h7JYEdSfdM1ClnPiGyR9699KpMiaqZcZLCWWjwnIzUT2yr/ALw9nsmLDAcciuInJ2nJwCQtPyBCh8DVlIHUAMX1ZJqbb7GVh2V21rUPaG1MuK/djqS4lB6bs4SPl1r1hT48/tDnF1ksK9ueQUKPKSVnFN2SszZGqVRIDBWXEjc5nCUAeNROpp3sHbBe7jatim2561gDlJG7n75p9hvsdfjiYttX2KyO+eYc6ghytFasYutvQHbfOQFuNE4Cj458j60SR7lo7Uagl1ty2TOuxzwPofEUrJqCzdoOlBZ3tjE9pH8tKuCD/voa1bfpeNIC4F1Y7qayopDnICx4EVmseMPwwi+CDx2kmzAsMV5T91uzL8ZHIYZVuU6fAdOBUBq/VXtcMpjs91DbTtaYbGN3oAK2pmjL0y5i3qluozwcFY+RqWtOnI+m4KdU60IK2DvgwFDl90fhUoeCR19SKrAUHcTmdg+3eA0m0y7NY22JySm6TFJccb/RnG1PyGPrQfqS2d9NubsZR3MS17fUZOfuDRLfdUNydQG53Bffy3HUrDSediNwJUfLjoK0bq09bb1cY77K3kLdVhTeMKydySCfNKkmtCguv1HvL6KksRlP97yPtbipGmoLzg98uPtqyehSUn9iK0I+5vVsGLyE+1oUPXnNTyIwh6egR1o2F5Ts0JPVKFkJTn47CfhioZe1WsLYtJHvOpP0P/7V4ILHHzJtQrpwD3GJY2q4wTdFJwNrrR+ik/61DW95Vy0MYsgd4WyUkHzH/oUUauG4xHMcBoZNBljc7l6XH/L3p4PqaRqOa/1M9/zxJ/Rt0cRMtsl1xXeRXggq6nbux+xrognnjpXNujWTI1HCiJAyqQN3/cOv0rpHBJzTS+Ytb4n/2Q==",
@@ -42939,15 +42556,6 @@ portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
 svg.appendChild(defs);
 
-// Orientation for readers with no map of church history to hang this on. Each
-// line traces to real, already-vetted project sources: the four world-event
-// anchors (marked "For scale") come straight from that era's own keyEvents in
-// world-census.json; the rest is the actual periodization rationale from the
-// project's own pre-Step-0 research (CiC_World_Atlas_PreStep0_Survey_V0_1.md
-// and its External Review), not an invented date or a paraphrase claiming
-// more than that record says. Era VII's line is the census's own era tag --
-// safe to reuse here because it's explicitly plural on its face ("several
-// ways at once"), not one thread's story standing in for the whole band.
 const WORLD_CONTEXT={
   1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. For the Persian church east of Rome, that divide ran backwards: persecution only intensified after 312.",
   2:"The era historians call the 'imperial church' — Christianity moves from persecuted minority to the empire's own religion, and the creeds that define it (Nicaea, then Chalcedon just after this band) get settled because an emperor now has a stake in the outcome.",
@@ -42960,22 +42568,8 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
-// Era header context wrap width, in characters: narrow enough that a
-// wrapped line fits on screen at a comfortable reading zoom rather than
-// spanning near the full width of the map, which only works at the
-// fully-zoomed-out view.
 const ERA_CONTEXT_WRAP=65;
 
-// Per-river background, researched by the Fable model against this exact set
-// of member movements (not the map's own primary census, and not carrying
-// its confidence-rated sourcing) -- real historical/theological
-// depth per river (why it started, doctrine, lived practice, geography, what
-// makes the grouped movements one river), since the census itself has no
-// per-family write-up, only per-movement records. Hedged in its own prose
-// where the record is thin or contested, consistent with the rest of the
-// map's voice; several rivers (Non-Nicene above all) are stated plainly as a
-// thematic grouping across unrelated movements, not a single continuous
-// tradition, rather than forcing a false unity onto the census's own lanes.
 const RIVER_LORE={
   "Origin": {
     "originStory": "This river begins in the generation after the apostles, when the churches of Antioch, Asia Minor and Rome had to carry on without eyewitnesses. The Temple had fallen in 70 CE, the break with the synagogue was widening, and there was as yet no fixed New Testament, no ecumenical creed and no emperor's favor, only letters, house assemblies, and a leadership settling from itinerant apostles and prophets toward resident bishops (Ignatius of Antioch, c. 110). Pressure from outside produced the Apologists after c. 124; pressure from within produced the arguments this river holds: Jewish followers who kept the Law, Phrygian prophets who said the Spirit still spoke, and a Roman presbyter who in 251 refused to readmit those who had lapsed under Decius.",
@@ -43089,58 +42683,20 @@ function wrapText(str,maxChars){
 
 function render(){
   gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
-  lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
+  lastOrganic=null;
 
-  // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
-    // Not a flat solid block: full strength, the band's own tint competed
-    // with the rivers on equal footing for visual weight. Pixel-checked
-    // against the rivers directly (they're painted at fixed high opacity
-    // with mix-blend-mode:darken, so their own color reads the same
-    // regardless of this value) -- what this actually tunes is only the
-    // tone of the empty paper between them, richer/warmer as it climbs
-    // toward solid.
-    // The era body itself stays the plain page ground (no tint in light
-    // mode; dark mode's own subtle per-era cycling, eraDark above, is
-    // unchanged) -- only the header gutter at the top of each era carries
-    // color now, as a full-width break between one era and the next.
-    // In light mode eraGround(i) is a flat #F6F6F2, identical to the page
-    // body -- painting it is a no-op (10 full-width rects that render
-    // nothing), so skip it there; dark mode's real cycling still paints.
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // Era divider: a thin line that doesn't block the map underneath it
-    // the way a thick, near-opaque bar would read as a wall rather than a
-    // divider. Font sizes (see the .era-label/.era-tag/.era-context
-    // rules above) and the context wrap (ERA_CONTEXT_WRAP chars) keep
-    // the header text readable at a comfortable zoom instead of running
-    // off-screen or spanning the whole map's width. The line sits at the
-    // top of the era band with the header text below it, so it reads as
-    // marking where the era starts rather than trailing the one above.
     const dividerY=eraY0[i]+16;
-    // Drawn on top of the rivers so the line stays
-    // crisp regardless of what color river crosses under it, with a slim,
-    // low-opacity wash behind it only so the line has something to sit on
-    // against a busy stretch of the map.
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
     const lbl=el('text',{x:24,y:dividerY+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
-    // e.tag is one thread's narrative (usually the imperial/mainstream one), not
-    // the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
-    // is the Church-and-Empire river's story, not the Church of the East's, the
-    // Aksumite or Armenian churches', or six other lanes running the same years.
-    // A single line can't speak for a band this plural, so the header states only
-    // what's true of the whole band: how many movements, across how many lanes.
     const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});
     tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
     gLabels.appendChild(tag);
     if(WORLD_CONTEXT[e.num]){
       const ctx=el('text',{x:24,y:dividerY+90,class:'era-context'});
-      // Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
-      // at a comfortable reading zoom, not just at the fully-zoomed-out
-      // view, unlike a wrap close to the full width of the
-      // map itself, which runs off-screen the moment anyone zooms in
-      // enough to actually read the smaller text.
       wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
         const tspan=el('tspan',{x:24,dy:li===0?0:19});
         tspan.textContent=line;
@@ -43150,19 +42706,11 @@ function render(){
     }
   });
 
-  // Rivers -- calm (generalized) + organic (full detail), cross-faded by zoom (rule 8).
-  // Pigment, not a wash: the anti-ghost principle (figures read solid/warm/present,
-  // never glowing/translucent) applies just as much to the water as to the people --
-  // a river this faint against parchment reads as a pastel stain, not ink on a page.
   laneKeys.forEach(k=>{
     const f=famOf(k), col=famColor(f);
     const calm=el('path',{d:riverPath(k,0), fill:col, opacity:RIVER_CALM_OP, class:'river-calm'});
     const organic=el('path',{d:riverPath(k,1), fill:col, opacity:RIVER_ORGANIC_OP, class:'river-organic'});
     calm.dataset.lane=k; organic.dataset.lane=k;
-    // Nodes and edges both open a panel and show a tooltip on hover/focus; a
-    // river -- the thing the whole map is named for -- did neither. One group
-    // per lane (not tabindex on each phase-path) keeps the river a single Tab
-    // stop and a single hover target regardless of which phase is showing.
     const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
     const years=members.map(m=>m.start);
     const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
@@ -43179,10 +42727,6 @@ function render(){
     group.addEventListener('mousemove',(ev)=>positionTip(ev));
     group.addEventListener('mouseleave',hideTip);
     group.addEventListener('focus',()=>{
-      // A river's own bounding box can run the full height of the canvas --
-      // far taller than the viewport at any real zoom -- so its geometric
-      // center is routinely off-screen. Clamp the anchor into view instead
-      // of anchoring someplace the user isn't looking.
       const r=group.getBoundingClientRect();
       const x=Math.max(0,Math.min(window.innerWidth,(r.left+r.right)/2));
       const y=Math.max(60,Math.min(window.innerHeight-60,(r.top+r.bottom)/2));
@@ -43196,9 +42740,6 @@ function render(){
     gRivers.appendChild(group);
   });
 
-  // A link between two movements on the same river would run under its
-  // water and vanish, so it arcs out onto the open side, clears the river's
-  // edge, and comes back in.
   const ARC_CLEARANCE=22;
   function sameRiverArc(a,b){
     const k=a.laneOrder, half=laneGeometry[1].half[k], own=laneGeometry[1].own[k];
@@ -43223,12 +42764,6 @@ function render(){
     return `M ${a._x.toFixed(1)} ${a._y.toFixed(1)} C ${ctrlX(a._x).toFixed(1)} ${(a._y+lift).toFixed(1)} ${ctrlX(b._x).toFixed(1)} ${(b._y-lift).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
   }
 
-  // Edges -- quiet marks, confidence in the line, never a claim the census doesn't carry.
-  // At full extent, 69 of them read as fine cross-hatching across the whole sheet --
-  // fine. Zoomed in to read one river, all 69 straight lines at once read as a wiring
-  // diagram laid over the water. So edges fade to near-nothing once zoomed past the
-  // same threshold that switches rivers to organic detail, and a hovered node brings
-  // back only its own connections -- on demand, not all-at-once.
   DATA.edges.forEach(edg=>{
     const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
     const dash = EDGE_DASH[edg.confidence] || 'none';
@@ -43237,10 +42772,6 @@ function render(){
       d, fill:'none', stroke:`var(--link-${LINK_FAMILY[edg.type]||'contact'})`, 'stroke-width':1.3, opacity:EDGE_CALM_OP,
       ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${LINK_FAMILY[edg.type]||'contact'})`}),
       'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
-      // Nodes carry a real tabindex/role/keydown pair (rule established for
-      // the 292 movements); the 69 relationship lines between them had none
-      // of that -- reachable and clickable with a mouse only, with no way for
-      // a keyboard user to open one's own panel at all.
       'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
@@ -43249,12 +42780,6 @@ function render(){
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
     const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
     const onClick=()=>openPanelEdge(edg,a,b);
-    // A mouse can land precisely on the line itself, but at real zoom its
-    // rendered stroke is routinely under a screen pixel wide -- nowhere near
-    // enough for a finger, or even a mouse in a hurry. An invisible, much
-    // wider twin of the same path sits alongside it purely to catch pointer
-    // input, sharing these same mouse/touch handlers -- never the keyboard
-    // ones below, so Tab still lands on this edge exactly once, not twice.
     const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
     hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence; hit.dataset.lanes=line.dataset.lanes;
     hit.addEventListener('mouseenter',onEnter);
@@ -43268,8 +42793,6 @@ function render(){
     line.addEventListener('mouseleave',onLeave);
     line.addEventListener('focus',()=>{
       line.style.opacity=EDGE_ACTIVE_OP;
-      // No cursor position to hang a tooltip off of on a keyboard focus --
-      // anchor it to the focused line's own on-screen midpoint instead.
       const r=line.getBoundingClientRect();
       showTipAt(r.left+r.width/2,r.top+r.height/2,tipForEdge(edg,a,b));
     });
@@ -43281,30 +42804,9 @@ function render(){
     gEdges.appendChild(line);
   });
 
-  // Label stacking: two movements landing close enough that their labels would
-  // print on top of each other -- house-churches and the Ebionite/Nazoraean
-  // current both open at 70 CE on the same Origin lane, an exact coincidence;
-  // African Diaspora/Reverse Mission and Latin American Base Communities sit
-  // just as close in era X, in two DIFFERENT (but adjacent, winding-close)
-  // lanes, rule 3's own "make room for neighbors" bringing their dots
-  // together. So this checks physical closeness, not lane membership: sorted
-  // by position, cascade any label too close to a recent one *at a similar
-  // x* down by a fixed step. The dots stay exactly where the data puts them --
-  // only the label text moves.
   const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];
-  // Portrait placement, resolved before labels even start: a portrait's
-  // fixed PORTRAIT_OFFSET above its own dot can land on top of a different,
-  // unrelated movement's dot -- Hieronymian/Albina and the standalone
-  // Ambrosian-Milan entry are both lane 5, only 39 years apart, close enough
-  // that the fixed offset put her portrait 11 units from that other node's
-  // own halo. Dots never move (real chronology); a portrait steps back
-  // further up instead, in fixed steps, until clear of every other
-  // movement's halo and every other already-placed portrait.
   const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;
   const portraitOffsetById={}, placedPortraits=[];
-  // Story book marks are drawn above the nodes, so a portrait that lands under
-  // one has its face covered and its click taken by the story. They count as
-  // obstacles like any other dot.
   const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(s.laneOrder,y),y};});
   const STORY_CLEAR=PORTRAIT_R+4+8;
   DATA.movements.filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id]).forEach(m=>{
@@ -43315,8 +42817,6 @@ function render(){
         Math.hypot(other._x-m._x, other._y-py)>=PORTRAIT_CLEAR);
       const clearOfPortraits=placedPortraits.every(p=>
         Math.hypot(p.x-m._x, p.y-py)>=(PORTRAIT_R+4)*2+5);
-      // The world's name sits under its portrait, so a story mark must clear
-      // that box too, not only the face.
       const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;
       const lbY0=py+PORTRAIT_R+4, lbY1=lbY0+18;
       const clearOfStories=storyMarks.every(sm=>{
@@ -43327,34 +42827,15 @@ function render(){
       if(clearOfDots&&clearOfPortraits&&clearOfStories){clear=true;break;}
       offset+=PORTRAIT_STEP;
     }
-    // No tested step ever cleared everything -- an honest cap rather than an
-    // untested, ever-larger offset: fall back to the largest step actually
-    // checked instead of the one that broke the loop out of range.
     if(!clear)offset=PORTRAIT_MAX_OFFSET;
     portraitOffsetById[m.id]=offset;
     placedPortraits.push({x:m._x, y:m._y-offset});
   });
-  // A built world's name reads as belonging to its own picture only if it
-  // stays close under it. At the base 28-unit offset that's automatic (dot
-  // and portrait are already close together), but a portrait pushed
-  // further back by collision-avoidance (Desert's steps back to 68,
-  // Hieronymian/Albina's to 88, to clear an unrelated dot) needs its label
-  // anchored to the portrait's own bottom edge, not the dot -- anchoring to
-  // the dot would open a visibly large, unrelated-looking gap between the
-  // picture and its own name however far the portrait itself had to move.
   const portraitBottomById={};
   DATA.movements.forEach(m=>{
     if(portraitOffsetById[m.id]!=null)
       portraitBottomById[m.id]=(m._y-portraitOffsetById[m.id])+(PORTRAIT_R+4);
   });
-  // A portrait plate is wide enough (2*(PORTRAIT_R+4)) that a different,
-  // merely-nearby movement's label can land inside it even when its own
-  // anchor point tests clear -- Church & Empire's label starts 47 units from
-  // the Desert's portrait (just outside a simple point-proximity check) but
-  // "Church & Empire" itself is wide enough to reach 18 units past the
-  // portrait's own center. So this is a real circle-vs-rectangle test
-  // (closest point on the label's estimated box to the portrait's center),
-  // not a proximity threshold on the anchor alone.
   const portraitObstacles=placedPortraits;
   function clearsPortraits(anchorX,y,nearRightEdge,textLen){
     const w=textLen*6.5;
@@ -43366,26 +42847,7 @@ function render(){
     }
     return null;
   }
-  // In a genuinely dense stretch,
-  // this cascade has no ceiling, and a long chain of merely-nearby-in-x
-  // labels can compound into one label landing hundreds of units from its
-  // own dot -- a floating label with no visible connection back to the node
-  // it names. A firm cap on how far any label may drift from its own
-  // natural position turns that into, at worst, a rare tight overlap in an
-  // already-crowded spot -- a smaller cost than a label that reads as
-  // unattached to anything.
   const MAX_LABEL_DRIFT=90;
-  // Anchoring a built label's target position to its portrait (above) is not
-  // enough on its own: this cascade is sequential, first-come-first-served,
-  // so processing every movement in real chronological order would place
-  // Albina's own dot (c. 386-419) label *after* Priscillianists and
-  // Ambrose's Milan (both chronologically earlier), which would already
-  // have claimed the space right under her portrait by the time her own
-  // turn came up, however close her computed target was.
-  // Sorting by where a label actually WANTS to render -- the portrait's
-  // position for a built one, the dot for everyone else -- gives it a fair
-  // turn among its true visual neighbors instead of a turn keyed to a dot
-  // that may sit much further down the page than its own name does.
   const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;
   DATA.movements.slice().sort((a,b)=>labelSortY(a)-labelSortY(b)).forEach(m=>{
     const nearRightEdge=m._x>CANVAS_W-220;
@@ -43396,7 +42858,7 @@ function render(){
     let y=naturalY;
     for(let i=placedLabels.length-1;i>=0;i--){
       const p=placedLabels[i];
-      if(y-p.y>60)break; // sorted by y -- nothing earlier can be close enough to matter
+      if(y-p.y>60)break;
       if(Math.abs(p.x-anchorX)<LABEL_XPROX)y=Math.max(y,p.y+LABEL_GAP);
     }
     let hit;
@@ -43407,12 +42869,6 @@ function render(){
     labelYById[m.id]=y;
     placedLabels.push({x:anchorX,y});
   });
-  // A small, explicit, documented correction for one specific case the
-  // general cascade above doesn't resolve cleanly without disturbing the
-  // map's one real chronological ordering:
-  // Aksum's own natural position (its real 340s date, unchanged) sits
-  // between the Desert's portrait and the Desert's own name, so its label
-  // is pushed below the Desert's rather than left to land in that gap.
   const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};
   Object.entries(LABEL_DEFERS_TO).forEach(([id,afterId])=>{
     if(labelYById[id]==null||labelYById[afterId]==null)return;
@@ -43420,17 +42876,9 @@ function render(){
     if(labelYById[id]<minY)labelYById[id]=minY;
   });
 
-  // Nodes
   DATA.movements.forEach(m=>{
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
-    // 292 movements, none of them reachable without a mouse or a finger --
-    // tabindex/role/aria-label plus Enter/Space make each node a real control,
-    // not just a click target. Focus gets its own ring rather than reusing
-    // the hover halo: the halo is filled in the node's own family color, so
-    // on a same-hued river (a teal node on the teal Africa river, say) it
-    // all but disappears -- exactly the wrong place for the one signal a
-    // keyboard user has for "this is where you are."
     const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
       'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
@@ -43439,19 +42887,7 @@ function render(){
     const dot=el('circle',{cx:m._x,cy:m._y,r:built?4.4:2.6,
       fill: built?col:'var(--graphite)',
       stroke: built?'var(--iron-gall)':'none', 'stroke-width':built?1:0,
-      // 0.55 would blend graphite down to within a few steps of the parchment
-      // ground -- barely visible until a hover halo reveals it. 0.78 keeps
-      // not-yet-built worlds visibly quieter than the full-opacity built
-      // dots beside them, without disappearing at rest.
       opacity: built?1:0.78});
-    // Only shown at organic (zoomed-in) detail -- applyDetail() toggles .lbl the
-    // same way it toggles the rivers, so a crowded era stays a river at full
-    // extent and only names names once there's room to read them.
-    // The Non-Nicene lane sits deliberately at the far right margin (the
-    // "Beyond-the-Floor" terrain, "present, labeled, never hidden") -- a label
-    // that always grows rightward runs off that edge instead. Flip to a
-    // left-anchored label near either edge of the canvas, not just that lane,
-    // so this stays correct if the layout ever shifts.
     const nearRightEdge=m._x>CANVAS_W-220;
     const lbl=el('text',{class:'lbl',
       x:m._x+(nearRightEdge?-(built?7:5):(built?7:5)),
@@ -43459,24 +42895,16 @@ function render(){
       'text-anchor':nearRightEdge?'end':'start'});
     lbl.textContent=m.shortName||m.name;
     if(built)lbl.setAttribute('font-weight','700');
-    // Portrait plate: the actual Representative's face, framed as a roundel
-    // set into the page rather than a photo dropped flat -- set above the
-    // dot (not on it) so it never competes with the label for the same
-    // horizontal space, and clear of the halo/focus-ring below it.
     let portrait=null;
     if(built && PORTRAIT_DATA[m.id] && m.entry){
       portrait=el('g',{class:'portrait-plate',
         transform:`translate(${m._x.toFixed(1)},${(m._y-portraitOffsetById[m.id]).toFixed(1)})`});
-      // Backing plate in the world's own accent color -- "the frame/ground
-      // tint is that world's own accent color" per the Atlas storyboard
-      // draft -- solid, never translucent, per the map's own anti-ghost rule.
       portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R+4,fill:m.entry.color}));
       const img=el('image',{x:-PORTRAIT_R,y:-PORTRAIT_R,
         width:PORTRAIT_R*2,height:PORTRAIT_R*2,'clip-path':'url(#portraitClip)'});
       img.setAttributeNS('http://www.w3.org/1999/xlink','href',PORTRAIT_DATA[m.id]);
       img.setAttribute('href',PORTRAIT_DATA[m.id]);
       portrait.appendChild(img);
-      // The fine ink-ruled border, right at the photo's own edge.
       portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R,fill:'none',
         stroke:'var(--iron-gall)','stroke-width':1.5}));
     }
@@ -43504,43 +42932,23 @@ function render(){
     if(m.continuesAs && byId[m.continuesAs]){
       const n=byId[m.continuesAs];
       const sameLane = n.laneOrder===m.laneOrder;
-      // 75 of the census's 77 continuesAs links stay inside one lane -- the river
-      // itself already carries that continuity, so a second stroke in the same
-      // family color right beside it just reads as a thinner duplicate river.
-      // A seam mark (not a second stream) is enough: only the 2 links that
-      // actually cross into a different lane -- a real gravity shift, not just
-      // a name change -- earn a drawn bridge, in gold-leaf so it reads as a
-      // marked crossing rather than more water.
       if(!sameLane){
         gEdges.appendChild(el('path',{
           d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${n._x.toFixed(1)} ${n._y.toFixed(1)}`,
           stroke:'var(--gold-leaf)', 'stroke-width':1.6, opacity:0.7, 'stroke-dasharray':'1,4',
           'stroke-linecap':'round', fill:'none'
         }));
-        // The seam-mark dot belongs only to the cross-lane bridge above --
-        // nested inside the same !sameLane check as the bridge line it
-        // marks, so a same-lane continuesAs link (whose continuity the
-        // river itself already shows) never gets an unexplained,
-        // non-interactive gold-leaf dot stranded mid-river with no label,
-        // tooltip, or hover state.
         gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
       }
     }
   });
 
-  // Stories in the gaps: positioned exactly like a movement (year -> y,
-  // laneOrder -> x, same yearToY/laneCenterX the rivers and nodes use) so
-  // they sit in real chronological/family space, but drawn as a small book
-  // mark rather than a dot -- nothing here is a movement, has a status, or
-  // owns a stretch of river.
   (DATA.stories||[]).forEach(s=>{
     s._y=yearToY(s.year); s._x=laneCenterX(s.laneOrder,s._y);
     const g=el('g',{class:'story',transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
     const halo=el('circle',{class:'halo',r:11,fill:'var(--tyrian)',opacity:0});
     const focusRing=el('circle',{class:'focus-ring',r:12,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
-    // A simple open-book glyph, local coordinates centered on the story's own
-    // point -- two page-flaps and a spine, not a literal icon-font import.
     const book=el('path',{
       d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8',
       fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.6, 'stroke-linejoin':'round'});
@@ -43558,14 +42966,6 @@ function render(){
   applyDetail();
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-// The `status` field is an internal grouping key (code elsewhere compares it
-// literally, e.g. m.status==='Built & Live') and several of its own values
-// still carry internal process language -- "Deferred by Step 0", "Floor
-// Question (register)", "Excluded - Doctrinal Floor (C1)" -- never meant for
-// a participant to read as-is. DATA.statusMeta carries the honest, plain-
-// language version of the same status in `shortWord`; every place that
-// displays status as text uses this instead, while `status` itself stays
-// untouched for the code that keys off it.
 function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;}
 function tipFor(m){
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region||'')}</div><div class="s">${esc(statusLabel(m))}</div>`;
@@ -43588,45 +42988,25 @@ function tipForRiver(f,count,minYear,maxYear){
 function tipForStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(s.region||'')}</div><div class="s">Story — not its own movement</div>`;
 }
-// Same tip structure as tipForStory above, for a movement's own documented
-// stories (title / when / verification) rather than a floating gap story
-// (title / year+region / "not its own movement").
 function tipForDocStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(s.when)}</div><div class="s">${esc(s.verification)}</div>`;
 }
-// The exact open-book glyph the map draws for its own floating stories
-// (see the gStories build loop), reused here as an inline icon so a
-// movement's own documented stories read as the same kind of object.
 const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-hidden="true" focusable="false"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6" stroke-linejoin="round"/></svg>';
 
-/* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
 let tipW=0, tipH=0;
 function showTip(ev,html){
   tip.innerHTML=html; tip.style.display='block';
-  // Measured once here, on the content change -- not on every mousemove in
-  // positionTip() below, which fires continuously while a node/edge is
-  // hovered and would otherwise force a synchronous layout read each time.
   tipW=tip.offsetWidth; tipH=tip.offsetHeight;
   positionTip(ev);
 }
 function positionTip(ev){positionTipAt(ev.clientX,ev.clientY);}
-// A keyboard focus has no cursor position to anchor a tooltip to -- showTipAt
-// takes an explicit screen point (the focused element's own bounding box)
-// instead of a mouse event, so Tab-ing to an edge gets the same tooltip a
-// mouse hover would, not nothing.
 function showTipAt(x,y,html){
   tip.innerHTML=html; tip.style.display='block';
   tipW=tip.offsetWidth; tipH=tip.offsetHeight;
   positionTipAt(x,y);
 }
 function positionTipAt(x,y){
-  // Nodes run all the way to the canvas's own right and bottom edges (the
-  // "Beyond the Floor" lane sits at the far right on purpose) -- a tooltip
-  // placed with a fixed offset from the cursor, with nothing to stop it,
-  // renders partly or fully off the browser window there. Flip to the
-  // other side of the cursor when the default placement would overflow,
-  // then clamp as a last resort.
   const pad=8, w=tipW, h=tipH;
   let left=x+14, top=y+14;
   if(left+w>window.innerWidth-pad)left=x-14-w;
@@ -43635,9 +43015,7 @@ function positionTipAt(x,y){
 }
 function hideTip(){tip.style.display='none';}
 
-/* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
-/* ---- Narration: starts when a card opens, stops when it closes ---- */
 const NARR_KEY='cic.narration.auto';
 function narrAuto(){try{return localStorage.getItem(NARR_KEY)!=='0';}catch(e){return true;}}
 function narrSetAuto(on){try{localStorage.setItem(NARR_KEY,on?'1':'0');}catch(e){}}
@@ -43647,15 +43025,11 @@ function stopNarration(){
 function mainNarration(){
   return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
 }
-// Browsers refuse sound that starts without a click (a shared ?world= link,
-// a slow load); the rejection is expected and leaves the play button as is.
 function startNarration(a){
   if(!a||!narrAuto())return;
   const p=a.play();
   if(p&&p.catch)p.catch(()=>{});
 }
-// Which built worlds have narration, read once at load so a world card can draw
-// its story player in the same tap that opens it (see openPanel).
 let worldAudio=null;
 fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).then(j=>{worldAudio=j;}).catch(()=>{worldAudio={};});
 function narrPlayerHTML(url,attrs){
@@ -43686,7 +43060,6 @@ function narrAddControls(){
   first.parentNode.insertBefore(wrap,first);
   panelBody.querySelectorAll('audio').forEach(narrApplyRate);
 }function narrCardReady(){narrAddControls();startNarration(mainNarration());}
-// One voice at a time; opening a story inside a card starts it, closing stops it.
 panelBody.addEventListener('play',ev=>{
   if(!ev.target||ev.target.tagName!=='AUDIO')return;
   narrApplyRate(ev.target);
@@ -43695,8 +43068,6 @@ panelBody.addEventListener('play',ev=>{
 panelBody.addEventListener('loadedmetadata',ev=>{
   if(ev.target&&ev.target.tagName==='AUDIO')narrApplyRate(ev.target);
 },true);
-// A story opened with its arrow starts inside the click itself: iPhone Safari
-// plays sound only when playback begins in the tap, not a moment later.
 panelBody.addEventListener('click',ev=>{
   const sum=ev.target.closest&&ev.target.closest('details.docstory-item>summary');
   if(!sum)return;
@@ -43711,60 +43082,15 @@ panelBody.addEventListener('toggle',ev=>{
   if(!a)return;
   if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
 },true);
-// Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
-// contract already shipping in atlas-v3.html and index.html -- reused, not
-// reinvented, so a link into this map's worlds lands the same place a link
-// from the current site would. Interview only, no Table button: Mark's
-// ruling for this version is that launching a multi-voice Table straight
-// from the Atlas is confusing without more context-setting UI than this map
-// has yet -- Tours and research access are later work. One hand-off per
-// Built & Live world, into the room with that one Representative.
 const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
 const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://app.churchinconversation.com';
 function launchInterview(id){location.href=LIVE_APP_URL+'/?worlds='+encodeURIComponent(id)+'&mode=interview';}
-// A handful of records use a bare "-" as their own placeholder for "not
-// applicable here" (relationsSummary on 8 movements, sourcing on 2) rather
-// than leaving the field out. Rendered under its own header that reads as a
-// broken/empty section, not a considered answer -- treat it the same as
-// genuinely absent.
 function hasContent(v){return !!v&&v.trim()!=='-';}
-// A small, scoped sources disclosure for one section of the panel (e.g. "The
-// Story", "Legacy") -- a flat list of the works that section draws on, not
-// mapped to individual sentences or claims. Separate from the panel's own
-// full "Sources" section (the curated list plus the verified registry),
-// which stays as the comprehensive record at the very end.
 function sectionSources(list){
   if(!list||!list.length)return '';
   return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
-// Website V2 world_front design, site cutover Part 3 (approved to
-// proceed): the 8 built worlds' own deep Orientation-tier content
-// (story/documentedStories/voices/floorNote/legacy/relationsSummary/
-// sourcing) is fetched at panel-open
-// time from cic-website/data/worlds/<census_id>.json (engine.m2.
-// site_compiler's own output, Part 1) and rendered through the exact same
-// functions Build/tools/generate_tradition_pages.py runs (via Node) to build
-// each world's own static tradition page, so the two surfaces can never
-// quietly drift apart into two independently-maintained templates - see
-// cic-website/assets/orientation-render.mjs, imported as
-// window.OrientationRender by the <script type="module"> block just
-// before </body>. Every id here is also that world's own census_id (the
-// compiled JSON's filename), verified 1:1 against world-census.json's own
-// `status === "Built & Live"` movements.
 const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity","the-reformed-cities-zurich-and-geneva","donatism","lutheran-wittenberg-and-its-congregations"]);
-// This classic script runs immediately, as the parser reaches it - the
-// <script type="module"> importing orientation-render.mjs, further down
-// the document, is deferred by spec and has NOT necessarily run yet by
-// this point, even though it appears later in the file. A user clicking
-// a map pin after the page has finished loading never notices (the
-// module is long since ready by then), but the page's own deep-link
-// auto-open (bottom of this script, `?world=...`) calls openPanel() -
-// and so loadBuiltWorldOrientation() - synchronously during this
-// script's own first pass, which can race ahead of it. This promise lets
-// that deep-link path wait for window.OrientationRender to be ready
-// instead of reading its properties before it exists.
-// window.OrientationRender itself (set directly, no
-// promise) remains the fast path for every ordinary click.
 window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=resolve;});
 const __builtWorldCache={};
 async function fetchBuiltWorldData(censusId){
@@ -43775,15 +43101,9 @@ async function fetchBuiltWorldData(censusId){
   __builtWorldCache[censusId]=json;
   return json;
 }
-// Populates #orient-fetch-slot (openPanel's own placeholder for a built
-// world) once the compiled JSON arrives. Fires after panelBody.innerHTML
-// is already set and the panel is already shown -- a slower connection
-// sees the rest of the panel (title, repline, teaser, edges, sources)
-// immediately, with only this one region loading in behind it, rather
-// than the whole panel waiting on the fetch.
 async function loadBuiltWorldOrientation(censusId){
   const slot=document.getElementById('orient-fetch-slot');
-  if(!slot)return; // panel closed or moved on before the fetch resolved
+  if(!slot)return;
   try{
     const compiled=await fetchBuiltWorldData(censusId);
     const R=window.OrientationRender||await window.__orientationRenderPromise;
@@ -43817,51 +43137,21 @@ function openPanel(m){
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
   let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
-  // Built & Live worlds carry a real Representative (name, role, world name) in
-  // their own `entry` record -- the whole point of "Built & Live" -- but until
-  // now nothing on the map ever showed it. A click landed on the same bare
-  // status/edges template as an unbuilt entry.
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
     <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;
-  // Lead with the tradition itself, not with this project's own build plan for
-  // it: the summary first, then the story and everything else a participant
-  // would come here to learn. The "where this stands" statement (m.why) moves
-  // to the very end of the panel, after Sources -- see the closing block below.
-  // The census's "front door" line -- `entry.tile` for a built world, `teaser`
-  // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  // Built worlds: the Orientation-tier content (Story/Documented
-  // stories/Voices/Doctrinal floor note/Legacy/In its own record/Sources)
-  // is fetched, not embedded inline here - see
-  // loadBuiltWorldOrientation() above, called once this panel's own HTML
-  // is actually in the document (below). Everything else in this
-  // function (repline, meta, teaser above; edges, sources-panel,
-  // verifiedSources, why below) is unaffected: those fields are never
-  // removed from DATA for a built world.
   if(isBuiltWorld){
     const wa=worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
     if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML('audio/worlds/'+wa.file,' data-sync-story="1"');
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
-  // Narration: a non-built movement's longDescription is read from
-  // audio/tree/<id>.mp3. A built world's story, documented stories and legacy
-  // are read from audio/worlds/ (see worldAudio above).
   if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
     +'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
     +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
     +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
-  // Documented stories: 1-3 real, individually sourced narrative episodes
-  // belonging to this movement specifically (not the map's floating gap
-  // stories, and not a restatement of longDescription above) -- a deeper
-  // click for a pastor or student who wants the actual documented account,
-  // not just a summary or a source list. Collapsed by default via <details>
-  // so the movement's own account stays the panel's main event. `verification`
-  // is shown plainly per story because how far this entry is actually
-  // checked is a different fact from the episode's own historical tier, and
-  // both matter.
   if(m.documentedStories&&m.documentedStories.length){
     h+='<h3>Documented stories</h3><div class="docstories-row">'+m.documentedStories.map((s,i)=>{
       let body=`<p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>`;
@@ -43883,17 +43173,6 @@ function openPanel(m){
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
   if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
-  // Last on purpose: this is the "go deeper if you want" appendix, not
-  // something to read past on the way to the record's own story -- it
-  // belongs after everything the census itself asserts, not in the middle
-  // of it. 970 citations across 179 of the 292 records (623 primary, 190
-  // secondary, 157 reference), 51 with a direct link to the actual text.
-  // m.sourcing (kept for the 284 non-built movements; fetched instead as
-  // orientation.sourcing for the 8 built ones, in the "Sources" heading
-  // loadBuiltWorldOrientation adds above - see BUILT_WORLD_IDS) is this
-  // record's own one-line assessment of how strong its sourcing is; the
-  // list below is what that assessment is an assessment OF. Neither
-  // implies the other -- some records carry one without the other.
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';
     h+=`<details class="sources-panel"><summary>${sourcesLabel}</summary>`;
@@ -43904,14 +43183,6 @@ function openPanel(m){
     }).join('');
     h+='</details>';
   }
-  // Full source registry: distinct from the curated Sources
-  // section above -- that's a hand-picked "read these first" list; this is
-  // every vendored, rights-checked work cic/corpus-map/*.yaml actually
-  // assigns to this entry, generated by cic/engine/corpus_coverage.py.
-  // Only the 7 "Built & Live" worlds carry it so far (that pipeline's
-  // current scope). Grouped by corpus-map's own role taxonomy, with
-  // confidence shown in words whenever a placement isn't a plain
-  // "assigned" -- the same discipline this page's edges already use.
   if(m.verifiedSources&&m.verifiedSources.length){
     h+=`<h3>Full source registry</h3><p class="meta">${m.verifiedSources.length} vendored, rights-checked works assigned to this entry in the project's own source library — every claim the Representative makes traces back to this list.</p>`;
     let curRole=null;
@@ -43921,29 +43192,14 @@ function openPanel(m){
       h+=`<div class="edge"><b>${esc(s.work)}</b>${conf}<br>${esc(s.rights)}</div>`;
     });
   }
-  // Very last, on purpose: this project's own plan for the tradition -- built,
-  // chosen, deferred, excluded, or not yet assessed -- in plain participant
-  // language, after everything the tradition's own record has said for itself.
-  // Every one of the 292 movements carries a `why` paragraph that states
-  // this in plain sentences ("This tradition is fully built...", "Chosen
-  // for a future build, not yet started..."), needing no separate
-  // internal-sounding build-planning label ("Deferred -- reasons on
-  // record", "Excluded -- creedal grounds stated") alongside it.
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   }
   stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
-  // Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
-  // fetched below) and carry no hover-tooltip teaser of their own - the
-  // teaser is already always visible in that markup (orientation-render.mjs's
-  // own renderDocumentedStories), so there is nothing to wire up here for
-  // them. This loop only ever finds matches for a non-built movement's own
-  // still-embedded m.documentedStories.
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
-    // Narration exists only for stories listed in the audio manifest.
     const audioKey=m.id+'-'+item.dataset.storyIdx;
     docStoryAudioKeys().then(keys=>{
       const slot=item.querySelector('.docstory h4');
@@ -44008,11 +43264,6 @@ function openPanelRiver(f,members){
   hideTip();
   const k=members[0].laneOrder;
   let h=`<h2 id="panelTitle">${esc(f.lbl)}</h2>`;
-  // The span below is earliest-start to latest-start across members (an "end"
-  // isn't a single well-defined number when several are still ongoing) -- a
-  // real range for any river with more than one member, but for exactly one
-  // that degenerates to "year-year" (the same movement's start against
-  // itself), reading like a typo. Show its own real dates string instead.
   const yearSpan=members.length===1?esc(members[0].dates):`${members[0].start}–${members[members.length-1].start}`;
   h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${yearSpan}</p>`;
   const lore=RIVER_LORE[f.lbl];
@@ -44024,15 +43275,6 @@ function openPanelRiver(f,members){
     h+=`<h3>What makes it one river</h3><p>${esc(lore.riverCoherence)}</p>`;
     h+=`<p class="statusdesc"><i>Background research on the tradition as a whole, not one of the sourced per-movement entries below.</i></p>`;
   }
-  // Nothing in the census names what makes one river different from another --
-  // there's no per-family write-up to draw on, only per-movement records. So
-  // this is computed from the same edges/eras/status fields every other panel
-  // already draws from, not authored: real, checkable facts about this one
-  // river's own shape (how much of the timeline it spans, how built-out it
-  // is, what kind of relationships its movements actually carry), stated
-  // plainly rather than as a claim to be the most/least of anything -- several
-  // rivers tie on any one of these, so "confined to one era" is this river's
-  // own fact, not a superlative over the other twelve.
   const eraNums=[...new Set(members.map(m=>m.era))];
   const eraMin=Math.min(...eraNums), eraMax=Math.max(...eraNums);
   const built=members.filter(m=>m.status==='Built & Live').length;
@@ -44056,9 +43298,6 @@ function openPanelRiver(f,members){
   const edgeText=laneEdges.length===0?`No connections to other rivers are recorded on this map yet.`
     :`Its recorded connections lean toward &ldquo;${esc(topType[0])}&rdquo; (${topType[1]} of ${laneEdges.length})${topOthers.length?`, most often with ${topOthers.map(esc).join(' and ')}`:''}.`;
   h+=`<h3>What sets this river apart</h3><p>${spanText} ${builtText} ${edgeText}</p>`;
-  // Each member reopens THIS same panel on its own record -- a way to drill
-  // from "the whole river" down to one movement without leaving the panel,
-  // instead of a dead end at a bare member list.
   h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
   ).join('')}</ul>`;
@@ -44069,23 +43308,11 @@ function openPanelRiver(f,members){
   showPanel();
   syncWorldURL(null);
 }
-// Neither trigger (a click, or Enter/Space on a node's own keydown handler)
-// moves focus anywhere on its own -- without this, a keyboard user who
-// opens the panel has no indication it opened at all, since focus stays
-// behind it on the node/edge they just activated, and nothing here is in
-// the Tab order until reached the long way around through the other 291
-// nodes. lastFocused/showPanel/
-// closePanel restore the standard dialog contract: move focus in on open,
-// trap Tab inside while open, give focus back to the trigger on close.
 let lastFocused=null;
 function showPanel(){
   lastFocused=document.activeElement;
   panel.classList.add('open');
   panel.removeAttribute('inert');
-  // The close button, not the panel container -- landing there means Tab's
-  // very first step and Shift+Tab's very first step both start from a real
-  // entry in the focus-trap's own list below, with no "focus is on the
-  // container, which isn't in that list" gap right after opening.
   document.getElementById('panelClose').focus();
 }
 function closePanel(){
@@ -44096,25 +43323,12 @@ function closePanel(){
   lastFocused=null;
   syncWorldURL(null);
 }
-// Shareable deep link: ?world=<id> opens straight to one movement, the same
-// B5 discipline atlas-v3.html already uses for its own filter state (q/
-// built/laneoff/regionoff) -- read once at boot, written back via
-// replaceState (not pushState -- opening/closing a panel isn't a fresh page,
-// it shouldn't spam browser history) whenever a movement panel opens or
-// closes, so copying the address bar while one is open reproduces the same
-// view. River and edge panels aren't part of this contract -- a movement is
-// the map's own shareable unit ("the world is the primary door").
 function syncWorldURL(id){
   const p=new URLSearchParams(location.search);
   if(id)p.set('world',id); else p.delete('world');
   const qs=p.toString();
   history.replaceState(null,'',qs?('?'+qs):location.pathname);
 }
-// Brings one world's own dot to the center of the viewport at a fixed,
-// comfortably-zoomed-in scale (past DETAIL_THRESHOLD, so its portrait and
-// label are already showing) rather than leaving a deep-linked panel open
-// over whatever part of the timeline the default overview happened to land
-// on.
 function focusWorld(m){
   scale=Math.max(scale,0.6);
   tx=window.innerWidth/2-m._x*scale;
@@ -44126,8 +43340,6 @@ panel.addEventListener('keydown',(ev)=>{
   if(!panel.classList.contains('open'))return;
   if(ev.key==='Escape'){ev.preventDefault();closePanel();return;}
   if(ev.key!=='Tab')return;
-  // Focus trap: cycle Tab/Shift+Tab within the panel's own focusable elements
-  // instead of letting it walk out into whatever node or river sits behind it.
   const focusable=[...panel.querySelectorAll('button,a[href],[tabindex]:not([tabindex="-1"])')]
     .filter(el=>el.offsetParent!==null);
   if(!focusable.length)return;
@@ -44136,7 +43348,6 @@ panel.addEventListener('keydown',(ev)=>{
   else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus();}
 });
 
-/* ---- Legend ---- */
 function buildLegend(){
   const wrap=document.getElementById('legend');
   wrap.classList.add('collapsed');
@@ -44146,13 +43357,6 @@ function buildLegend(){
   rows+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
-  // A Built & Live dot isn't one fixed color -- it renders at full strength
-  // in whatever tradition-family color it already sits on (Cappadocian's is
-  // Greek East blue, the Desert's is Africa teal, and so on), not a single
-  // "built" hue. A flat gold swatch here would show a color that matches
-  // none of the seven real built dots except by lane coincidence. A small
-  // multi-color wheel, sampling four real family colors, says "varies by
-  // family" honestly instead of asserting one.
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   rows+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
   if((DATA.stories||[]).length){
@@ -44160,8 +43364,6 @@ function buildLegend(){
     const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
     rows+=`<button type="button" class="row" data-toggle="stories" aria-pressed="true">${bookIcon}Real, documented, but never its own movement</button>`;
   }
-  // A line's color is the kind of relationship and its dash is the confidence
-  // rating, so neither is read as a claim about the other.
   rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{rows+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
@@ -44207,28 +43409,11 @@ function buildLegend(){
   });
 }
 
-/* ---- Pan / zoom -- participant-driven only, nothing animates on its own ---- */
 const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
 const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34;
-let lastOrganic=null; // applyDetail() no-ops when the calm/organic threshold hasn't actually crossed
-// The era-body/break-band bleed rects (render(), below) need to still reach the
-// browser's real left/right edges at ANY pan/zoom, including the most zoomed-out
-// state on a wide monitor. A fixed multiple of CANVAS_W falls short there: at
-// MIN_S, 9*CANVAS_W*MIN_S is under 1000 screen px, nowhere near a 2400px+ window's
-// actual width, regardless of the SVG's own overflow setting -- that's a bleed
-// too narrow for the zoom level, not a clipping problem. Size it in world units
-// against MIN_S itself so width*scale clears a generous 8000px viewport even in
-// that worst case; every less-zoomed-out scale only overshoots further.
+let lastOrganic=null;
 const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;
-// Era captions read from a fixed screen margin, not a fixed canvas x: at
-// x:24 in canvas space, wherever the current pan/zoom happened to put that
-// point was "the left margin" -- on a wide window, centerView()'s own
-// horizontal centering leaves the canvas well clear of the real left edge,
-// so the caption floated in the middle of empty space rather than sitting
-// at the page's actual margin. Re-solving canvas-x from the live tx/scale
-// on every transform pins it to the same screen position (EraCaptionMargin)
-// regardless of window width, zoom, or how far the map's been panned.
 const ERA_CAPTION_MARGIN=24;
 function pinEraCaptions(){
   const x=((ERA_CAPTION_MARGIN-tx)/scale).toFixed(2);
@@ -44236,22 +43421,13 @@ function pinEraCaptions(){
 }
 function applyTransform(){
   gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);
-  // One custom-property write, not a loop over 292 halos and 69 edges: the
-  // touch-target CSS (end of the stylesheet) reads this back via calc() to
-  // hold a constant ON-SCREEN hit size across the whole zoom range. Written
-  // every tick regardless of pointer type -- cheap, and harmless where the
-  // fine-pointer CSS never references it.
   if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);
   pinEraCaptions();
 }
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
-  if(organic===lastOrganic)return; // every wheel/pinch tick calls this; skip the DOM writes when nothing crossed the threshold
+  if(organic===lastOrganic)return;
   lastOrganic=organic;
-  // pointer-events follows opacity, not just visually hidden: an SVG shape
-  // at opacity:0 is still hit-tested by default, so without this the HIDDEN
-  // phase's own (differently-shaped) outline kept responding to hover --
-  // whichever phase is actually on screen should be the only one that does.
   document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_OP;p.style.pointerEvents=organic?'none':'auto';});
   document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
   document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
@@ -44266,32 +43442,14 @@ function applyDetail(){
 }
 function centerView(){
   scale=Math.min(window.innerWidth/(CANVAS_W*1.05), window.innerHeight/(CANVAS_H*0.14));
-  // Never start below the calm/organic threshold. Both fit-to-screen terms
-  // above shrink with the viewport, and the width term alone drops scale
-  // under DETAIL_THRESHOLD on any phone-width screen (0.21 at 390px, nowhere
-  // close to organic's 0.34) and on plenty of short or split desktop windows
-  // besides (0.34 at 1280x500) -- meaning without this floor, the very
-  // first thing most mobile visitors, and no small share of desktop ones,
-  // would see is the deliberately simplified "calm" river phase: flat, undetailed, dead
-  // straight, meant for a user-initiated zoomed-out overview, not a first
-  // impression. A narrower initial framing -- fewer lanes visible before
-  // panning -- is a fair trade for that first view actually looking alive.
   scale=Math.max(scale,DETAIL_THRESHOLD*1.15);
   scale=Math.max(MIN_S,Math.min(MAX_S,scale));
   tx=(window.innerWidth-CANVAS_W*scale)/2;
-  // Era 1's own caption renders starting a little below screen-y 0 -- a fixed
-  // ty:40 assumed a one-line topbar and no intro banner. The topbar can wrap
-  // to two/three lines (positionScopeNote above) and #scopeNote's own banner
-  // sits right under it; together they run up to ~148px on a narrow window
-  // before it's dismissed, hiding era 1's header behind fixed chrome for any
-  // first-time visitor. Measure the real chrome instead of assuming its height.
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar'), note=document.getElementById('scopeNote');
   const chrome=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+(note?note.offsetHeight:0);
   ty=Math.max(40,chrome+12);
   applyTransform(); applyDetail();
 }
-// Input order: scrolling moves the map, zoom is Ctrl/Cmd + scroll (a trackpad
-// pinch reaches the page as a wheel event with ctrlKey set), click or tap is last.
 function zoomAt(mx,my,factor){
   const wx=(mx-tx)/scale, wy=(my-ty)/scale;
   scale=Math.max(MIN_S,Math.min(MAX_S,scale*factor));
@@ -44311,26 +43469,6 @@ stage.addEventListener('wheel',(ev)=>{
   applyTransform();
 },{passive:false});
 
-// Pointer Events with capture, not mousedown/mousemove/mouseup on window --
-// without capture, a drag that outruns the mouse's own hit-testing (a fast
-// flick, or the pointer
-// crossing another element like #legend/#panel) can silently drop the
-// in-progress drag; setPointerCapture pins move/up delivery to #stage
-// regardless of what's under the pointer afterward, the same fix a native
-// scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
-// pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
-// path can replace) -- this path is explicitly mouse/pen only.
-//
-// Capturing on pointerdown itself would break every node/river/story click:
-// once setPointerCapture runs, the browser resolves the matching pointerup
-// (and the click it synthesizes from that up) against the capture target
-// (#stage) instead of the actual element under the pointer, so a plain tap
-// on a node would never reach that node's own click listener -- a
-// mousedown-to-mouseup click with zero movement would be treated as a drag
-// from the first pixel.
-// Arm on pointerdown but only start dragging, and only capture, once the
-// pointer has actually moved past a small threshold; a click that never
-// moves that far leaves capture untouched and resolves normally.
 const DRAG_THRESHOLD=4;
 let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
 stage.addEventListener('pointerdown',(ev)=>{
@@ -44352,10 +43490,6 @@ function endDrag(ev){
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
 
-// Manual pan controls: the atlas had no way to move around besides drag
-// or scroll-to-zoom, and drag alone read as hard to use.
-// A fixed pixel nudge per press/hold, independent of zoom level, the same
-// units the drag handlers above already use for tx/ty.
 const PAN_STEP=90;
 function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
 {
@@ -44367,9 +43501,6 @@ function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
     let holdTimer=null, holdInterval=null;
     function stopHold(){ clearTimeout(holdTimer); clearInterval(holdInterval); holdTimer=holdInterval=null; }
     btn.addEventListener('click',()=>nudge(dx,dy));
-    // Press-and-hold repeats the nudge, the same affordance a native scrollbar
-    // arrow gives -- a short delay before repeat starts so a plain click/tap
-    // (already handled above) doesn't also fire one extra repeat nudge.
     btn.addEventListener('pointerdown',(ev)=>{
       if(ev.pointerType==='mouse'&&ev.button!==0)return;
       stopHold();
@@ -44379,8 +43510,6 @@ function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
   });
 }
 
-// Zoom buttons and keys. Keys act only when focus is on the map or the page
-// itself, never inside the story panel, the feedback form or a text field.
 const ZOOM_STEP=1.25;
 function zoomCentre(factor){ zoomAt(window.innerWidth/2,window.innerHeight/2,factor); }
 document.getElementById('zoomInBtn').addEventListener('click',()=>zoomCentre(ZOOM_STEP));
@@ -44409,14 +43538,10 @@ document.addEventListener('keydown',(ev)=>{
   }
   ev.preventDefault();
 });
-// The pinch line shows only where a touch screen exists.
 if(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches){
   document.getElementById('zoomHint').textContent='Drag to move \u00b7 pinch to zoom';
 }
 
-// A pinch changes the SVG scale every move, and each scale change re-lays-out
-// every <text> label and, through --zoom-scale, restyles every node; hiding the
-// labels and holding that write for the length of the pinch keeps it smooth.
 let touches={}, pinched=false, glideRaf=0, flick=[];
 const reduceMotion=matchMedia('(prefers-reduced-motion:reduce)');
 const GLIDE_FRICTION=0.996, GLIDE_MIN_SPEED=0.1, GLIDE_MAX_SPEED=4;
@@ -44490,18 +43615,6 @@ stage.addEventListener('touchcancel',(ev)=>releaseTouches(ev,false));
 
 document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();centerView();});
 document.getElementById('scopeClose').addEventListener('click',()=>document.getElementById('scopeNote').remove());
-// A fixed `top` for #scopeNote, sized for a topbar that fits on one
-// line, breaks on a narrow screen: when the title/tag/button don't fit and
-// the topbar wraps to two (or three) lines instead, the note would start
-// underneath where a one-line topbar ends, and its own dismiss button
-// (float:right on the note's first line) would land behind the now-taller
-// topbar, unreachable.
-// Measure the real chrome above it instead of assuming a fixed height --
-// .feature-bar (Church Family Tree / Conversation with One / Build a
-// Table) sits between the topbar and this note, and has the
-// exact same problem the topbar always had (its own height isn't fixed --
-// it wraps on a narrow screen too), so it gets the same treatment: measured,
-// not assumed.
 function positionScopeNote(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
   const topbarH=topbar?topbar.offsetHeight:0;
@@ -44512,7 +43625,7 @@ function positionScopeNote(){
 }
 positionScopeNote();
 window.addEventListener('resize',positionScopeNote);
-window.addEventListener('resize',()=>{/* no auto-recenter -- resize is not a participant zoom action */});
+window.addEventListener('resize',()=>{});
 
 render();
 buildLegend();
@@ -44523,16 +43636,6 @@ centerView();
   if(deepLinkM){ focusWorld(deepLinkM); openPanel(deepLinkM); }
 }
 </script>
-<!-- Website V2 world_front design, site cutover Part 3: the shared
-     renderer both this panel and each built world's own static tradition
-     page (Build/tools/generate_tradition_pages.py, run through Node) render
-     from - one function per surface, not two independently-maintained
-     templates. A module script (not the classic script above) so it can
-     `import` a plain ES module with no build step; it only needs to run
-     before openPanel() is ever CALLED (a user click, always well after
-     the page has finished loading), never before openPanel() is merely
-     DEFINED, so its exact position relative to the classic script above
-     does not matter. -->
 <script type="module">
 import { RENDERERS, narrationUrls } from './assets/orientation-render.mjs';
 window.OrientationRender = RENDERERS;

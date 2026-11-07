@@ -130,6 +130,7 @@ SURFACES: dict[str, tuple[str, ...]] = {
     "worlds": ("Build/worlds",),
     "cic-poc-frontend": ("cic-poc/frontend",),
     "cic-website": ("cic-website",),
+    "cft-website": ("cft-website",),
     "reference": ("Build/reference",),
     "fixtures": ("fixtures",),
     "packages": ("packages",),

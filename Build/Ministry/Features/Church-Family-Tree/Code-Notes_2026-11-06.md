@@ -1,0 +1,775 @@
+# Church Family Tree — code notes lifted out of the live files (2026-11-06)
+
+The comments that sat inside the map, the Worker and the tree's build script, moved here so
+the live files carry only code (Mark, 2026-11-06: "no notes, keep in a separate file"). They
+are the reasons behind the code as it stood that day. Line numbers point into the cleaned
+files at the commit that made this file; later edits will move them, so search for the quoted
+code instead. Nothing here was rewritten: each note is the comment's own text, joined onto one
+line.
+
+## `cic-website/atlas-v3.html`
+
+732 notes. Each names the code line it stood above or beside, by its line in the cleaned file.
+
+- **Line 10** (`:root{`): ---- Design plan ---- Color: the real, already-locked CiC manuscript tokens (parchment/iron-gall/madder/ gold-leaf/tyrian/graphite) plus the real era-ground pairs and the real 13-hue tradition-family palette already shipping in the live Atlas (atlas-v3.html's FAM array) -- nothing invented, everything reused from an already-approved system. Type: Alegreya (reading/body), Alegreya Sans (UI/chrome), Cinzel confined to the engraved era numerals -- same law as everywhere else in this project. Layout: one full-bleed pannable/zoomable SVG canvas. Time flows down through ten real era bands (height by density, not the calendar); tradition families flow as winding, density-widened rivers left to right. Hover = short, click = full.
+- **Line 11** (`--parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;`): Dark is the site's default appearance (2026-09): prefers-color-scheme can't tell "OS explicitly set to light" apart from "OS has never been touched and defaults to light" -- both report the same media-query match -- so gating the default on that query showed light to most visitors instead of dark. Dark is unconditional here instead; [data-theme="light"] below is inert unless something sets that attribute (no control does today), kept as a future manual-toggle path.
+- **Line 39** (`.feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wr`): top is set in JS (positionScopeNote), not fixed here -- .topbar's own height is itself dynamic (wraps to 2-3 lines on a narrow screen), so a hardcoded offset drifts out of sync with it exactly like #scopeNote's did.
+- **Line 51** (`#stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}`): overflow:hidden here, not just on body -- found integrating this page onto the live site under real mobile Safari/Chrome viewport rules. svg#world below sets real pixel width/height attributes equal to its own viewBox (CANVAS_W/CANVAS_H, comfortably past 1000px), so at rest it's genuinely that many real CSS pixels wide, not scaled to fit -- the pan/zoom transform on its inner <g> is what actually fits content to the screen, not the SVG's own box. A mobile browser decides its LAYOUT viewport width (window.innerWidth) from the widest unclipped content already in the tree at first paint, before body's own overflow:hidden ever gets consulted -- confirmed by a real HTTP-served, real-viewport test where document. documentElement.clientWidth and visualViewport.width correctly read the true 390px screen while window.innerWidth read the SVG's own ~1560px width instead. Anything sized as a percentage of that inflated layout viewport (the fixed topbar's own 100%-wide flex children, chief among them) then computes its own width against 1560px and overflows the real, visual 390px screen -- which is what actually surfaced this. Clipping the oversized SVG one level closer, at its own direct container, keeps it out of that width calculation entirely; body's overflow:hidden was never doing the wrong thing, just not close enough to prevent this specific browser behavior from ever measuring the raw child in the first place.
+- **Line 54** (`svg#world{display:block;overflow:visible}`): The era body/break-band rects (render(), below) bleed far past the canvas's own edges so they cross the full screen at any pan/zoom -- but the SVG element itself carries its own width/height attributes (CANVAS_W x CANVAS_H) and clips its viewport to that box by default, same as any element with overflow:hidden, regardless of how far a child's own coordinates extend. overflow:visible here, not a change to width/height/viewBox (which would add a second, unwanted auto-scale on top of the existing manual scale/tx/ty system).
+- **Line 55** (`.era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3`): Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid river passing under this corner at full pigment can otherwise erase the label -- same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible over whatever's underneath, the way a map halos its place-names. Text sits directly over the rivers like every other label on the map, so it follows the same var()-based theme tokens and the same 3px halo width .lbl below already uses.
+- **Line 62** (`.portrait-plate{display:none;pointer-events:auto;cursor:pointer}`): Portrait plates: a Built & Live world's Representative, framed as a roundel above the world's dot. Shown only at organic (zoomed-in) detail, like .lbl. The plate sits inside the node group, so tapping the face opens the world exactly as tapping the dot does.
+- **Line 63** (`.river-calm{transition:opacity .35s ease;mix-blend-mode:lighten}`): Multiply, not stack: two opaque fills winding into the same space (rule 3 -- they make room for neighbors, they don't stay in lanes) otherwise means whichever river paints last simply erases the other where they cross. Multiply blend lets both show through as a darker confluence instead, and against the light era grounds it barely changes a river's own color where it's alone. Dark theme inverts the whole premise -- lighter pigment on a near-black ground, not dark ink on parchment -- so "darken" there took the minimum of a light river color against an almost-black backdrop and crushed every river to that backdrop: invisible, not just at crossings, everywhere. "lighten" (per-channel max) is darken's mirror for a light-on-dark palette.
+- **Line 69** (`.river-group:hover .river-calm,.river-group:hover .river-organic,`): Nodes and edges each carry their own hover/focus indicator; a river had none at all -- hovering or Tab-ing to one changed nothing, so there was no visible sign it was interactive (or that it responded when it was). A thin ink outline on whichever phase (calm/organic) is currently shown, same trigger for mouse and keyboard alike since this is plain CSS.
+- **Line 73** (`.node:focus-visible{outline:none}`): The browser's default focus ring outlines the whole <g>'s bounding box -- which now includes the label text, so it'd draw a rectangle stretching from the dot out past a long name instead of marking the dot itself. The halo (already the hover indicator) marks focus too, via JS.
+- **Line 75** (`.story{cursor:pointer}`): Story marks: same interaction contract as a node (own halo, own focus ring, no default bounding-box outline), tyrian rather than a family color since a story belongs to no single river.
+- **Line 78** (`.node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);`): pointer-events enabled on .lbl (redundantly, alongside the base rule above) -- without it, the name text floats over its own dot with no hit area of its own, so the only clickable/hoverable target for a movement is the dot itself: r=4.4 built, r=2.6 not, genuinely hard to land on at real zoom. The dot's own click/hover/focus handlers all live on the parent <g> already (this text has none of its own to duplicate), so enabling pointer events here just lets a click or hover on the name bubble up to the same handlers a click on the dot already triggers.
+- **Line 82** (`.edge-hit{pointer-events:stroke;cursor:pointer;stroke-width:4}`): The invisible, wider twin of .edge-line -- see the touch-target block at the end of this stylesheet for why it exists and how it stays a constant width across zoom. 4 (a modest, always-on improvement over the visible line's own 1.1) is the fine-pointer default; (pointer:coarse) below overrides it to a real touch corridor.
+- **Line 83** (`.edge-line:focus-visible{outline:none;stroke-width:calc(4 / var(--zoom-scale,1))}`): A default browser focus outline traces the path's bounding box, which for a long diagonal line is a big, mostly-empty rectangle that doesn't read as "this line is focused." Thicken the stroke itself instead, the same idea as .node's own focus-ring but shaped for a line rather than a dot.
+- **Line 127** (`#panel .panel-link{background:none;border:none;padding:0;font:inherit;`): A river's own panel lists its member movements as in-app jumps, not real URLs -- a <button> styled to read as a link, so it still gets a real click target and Enter/Space for free instead of reimplementing that on a <span>.
+- **Line 129** (`#panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);`): Documented stories: a movement's own real, sourced narrative episodes -- distinct from the map's floating gap stories, but drawn with the exact same open-book glyph so the two read as the same kind of object. One button per story, icon only -- the title shows on hover/focus via the shared #tip element (same structure tipForStory already uses for the map's own floating stories), and again at the top once opened, rather than repeating every title as permanent on-card text.
+- **Line 150** (`#panel #orient-fetch-slot.orient-loading{color:var(--ink-faded);font-style:italic}`): Website V2 world_front design, site cutover Part 3: styling for the 8 built worlds' own fetched Orientation content (#orient-fetch-slot, populated by loadBuiltWorldOrientation() from cic-website/assets/ orientation-render.mjs's shared markup - the same markup Build/tools/generate_tradition_pages.py renders into each world's own static tradition page). Scoped under the #orient-fetch-slot id specifically (higher specificity than the .docstories-row/.docstory-item rules just above) so it never touches those rules' own effect on the 284 non-built movements' still-embedded documentedStories, which keep their existing pill-row/hover-tooltip presentation unchanged. This content is a full always-visible title/when/teaser per story (Part 2's own spec), not a space-constrained pill, so it reads as a plain vertical list here rather than a flex-wrapped row of buttons.
+- **Line 207** (`@media (max-width:640px){`): ---- Touch tap targets ---- Measured at a real default mobile view (390x844): the node halo (the actual hit area, not the dot itself) rendered at ~14px across, a node's own name label at ~10px tall, an edge line's hit corridor at well under 1px, and every persistent chrome button under 24px on at least one axis -- against the 24x24 WCAG AA floor and the 44x44 Apple/Google actually recommend, every one of them was built for a mouse's precision, not a finger. (pointer:coarse) is real capability detection, not a screen-width guess: a touch-primary device gets bigger targets regardless of window size, a mouse/trackpad keeps the exact sizes already tuned and verified all session, on a hybrid device (touchscreen laptop) the query reflects whichever the OS reports as primary. --zoom-scale (kept live in applyTransform(), one custom property write per pan/zoom tick rather than a per-element loop) lets the halo and edge-hit corridor hold a CONSTANT on-screen size across the whole zoom range instead of shrinking back to unusable the moment someone zooms out -- the exact failure a fixed-size fix would still have. Chrome buttons just get bigger outright; a bigger button on a touch device is normal responsive design, not a compromise.
+- **Line 208** (`.topbar{flex-wrap:wrap;row-gap:.2rem}`): Home link + h1 + tagline + Reset button don't all fit one row at phone width no matter how far each shrinks -- confirmed while integrating this page onto the live site, where the topbar first gained the home link. An overflow-scroll fix (tried first) requires a visitor to discover a hidden swipe affordance to ever reach Reset -- worse than just wrapping. Letting the row wrap needs no new plumbing: both positionScopeNote() and centerView()'s own chrome calculation already read the topbar's real offsetHeight at runtime rather than assuming a fixed height, specifically because the topbar could already need more than one line -- this was that case actually arriving, not a new one. The tag (decorative subtitle, redundant with the intro banner directly below it) drops to its own full-width row rather than fighting the real controls for space; Reset follows on a row of its own after it, since home+h1+Reset together still don't fit width one row at 390px.
+- **Line 226** (`<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&`): Loaded non-blocking: a stylesheet link followed by a script holds up that script until the stylesheet settles. Found by testing this prototype -- it turned a slow/blocked font request into a several-second blank freeze of the entire interactive map, not just late-arriving type.
+- **Line 265** (`<div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1"`): inert while closed: the panel only ever slides off-screen (transform), never display:none, so without this its close button and last-rendered links stayed real Tab stops -- a keyboard user tabbing through the closed page would land on an invisible control that appeared to do nothing.
+- **Line 271** (`const DATA = {`): ---- Real data, embedded so this artifact is self-contained ----
+- **Line 42173** (`const FAM=[`): ---- Real tradition-family palette, unchanged from the live Atlas (atlas-v3.html) ----
+- **Line 42173** (`const FAM=[`): Re-stepped 2026-09 for measured accessibility (dataviz skill's
+- **Line 42173** (`const FAM=[`): validate_palette.js), not eyeballed: the original 13 hues had two lane-
+- **Line 42173** (`const FAM=[`): adjacent pairs that were nearly indistinguishable even for full-color
+- **Line 42173** (`const FAM=[`): vision (Syriac East vs. Syriac/Prot. bridge, worst-case Delta E 7.1 in
+- **Line 42173** (`const FAM=[`): OKLab -- the pass floor is 15), on top of several hues reading as
+- **Line 42173** (`const FAM=[`): desaturated gray (below the OKLCH chroma floor) and two too dark for the
+- **Line 42173** (`const FAM=[`): light-mode band. Every hue below was nudged -- never past 45deg from its
+- **Line 42173** (`const FAM=[`): original identity, and several moved far less -- until every lane-
+- **Line 42173** (`const FAM=[`): adjacent pair (the ones a viewer actually sees side by side) cleared
+- **Line 42173** (`const FAM=[`): both the chroma/lightness bands and the hard normal-vision floor, in
+- **Line 42173** (`const FAM=[`): both themes. CVD separation for adjacent pairs lands in the legal 6-8
+- **Line 42173** (`const FAM=[`): floor band rather than the 8+ target; that's accepted here specifically
+- **Line 42173** (`const FAM=[`): because this map already carries the secondary encoding the skill
+- **Line 42173** (`const FAM=[`): requires for that band -- each family also has a fixed lane position
+- **Line 42173** (`const FAM=[`): and a text label on hover/click, never color alone. Full pairwise
+- **Line 42173** (`const FAM=[`): separation across all 14 (not just neighbors) was not chased: the
+- **Line 42173** (`const FAM=[`): method's own categorical ceiling is 8 hues, already tight, so a
+- **Line 42173** (`const FAM=[`): non-adjacent pair (e.g. two different bridge lanes) can still read
+- **Line 42173** (`const FAM=[`): similarly -- an accepted, structural limit at 14 categories, not an
+- **Line 42173** (`const FAM=[`): oversight.
+- **Line 42173** (`const FAM=[`): k:3.6 is a real 14th lane, not a fix folded into an
+- **Line 42173** (`const FAM=[`): existing one. The Persecuted-Church movement's own record calls it a
+- **Line 42173** (`const FAM=[`): "3<->6 span (Greek East / Protestant)", but the census's bridge-naming
+- **Line 42173** (`const FAM=[`): convention (lower lane + 0.5) collided it onto 3.5 -- the SAME slot as
+- **Line 42173** (`const FAM=[`): the six real Greek Catholic/Uniate movements, an unrelated Greek East/
+- **Line 42173** (`const FAM=[`): Latin West seam. That miscounted it into "Greek/Latin bridge" by pure
+- **Line 42173** (`const FAM=[`): arithmetic coincidence, not any curatorial judgment that it belonged
+- **Line 42173** (`const FAM=[`): there. Rather than force it onto an existing family it doesn't share a
+- **Line 42173** (`const FAM=[`): history with, or the easier fix of just relabeling its own text to
+- **Line 42173** (`const FAM=[`): match wherever it landed, it gets the dedicated lane its own record
+- **Line 42173** (`const FAM=[`): already claimed. c/cd re-validated the same way as the other 13 (this
+- **Line 42173** (`const FAM=[`): script's own re-step): PASS on every adjacent-pair gate in both themes
+- **Line 42173** (`const FAM=[`): against its new neighbors (Greek/Latin bridge, Africa), landing in the
+- **Line 42173** (`const FAM=[`): same accepted dark-mode relief band five other lanes already carry.
+- **Line 42190** (`const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';`): Dark is the default; prefers-color-scheme can't tell an explicit light
+- **Line 42190** (`const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';`): preference apart from an OS that has never been touched (both match
+- **Line 42190** (`const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';`): "light"), so this doesn't check it -- only an explicit data-theme
+- **Line 42190** (`const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';`): attribute (no control sets one today; a future toggle could) opts out.
+- **Line 42193** (`const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;`): Pigment levels. Rivers stay solid at every zoom (opacity is not the honesty signal --
+- **Line 42193** (`const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;`): built-vs-not is carried by the node dots, not the water). Edges are the opposite:
+- **Line 42193** (`const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;`): full strength only at full extent (ambient texture) or on demand (hover), because
+- **Line 42193** (`const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;`): all 69 at once, at a zoom meant for reading one river, is a wiring diagram.
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): The organic-zoom edge opacity reads as a faint, present wireframe at 0.05 in
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): light mode (iron-gall's dark ink against the near-white page), but the same
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): opacity is close to imperceptible in dark mode: iron-gall inverts to a light
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): cream stroke there, and a thin light line at low opacity on a near-black
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): ground reads far fainter than the same absolute color delta does on a near-
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): white one (screenshot-verified side by side, not just contrast-ratio math --
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): the two composites are near-identical in raw WCAG contrast, yet one is
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): legible and the other isn't). Links now carry color by kind of
+- **Line 42195** (`const EDGE_ORGANIC_OP_DARK=0.75;`): relationship, so both themes keep them strong enough for the color to read.
+- **Line 42197** (`const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];`): ---- Real era grounds, from the census's own eras[] ---- Light-mode grounds carried the same old-manuscript/institutional feel as the parchment token they were designed alongside (tan, vellum- green, pale slate -- the era's own "ground" per the census, not arbitrary). The era body itself now just stays the plain page ground (matching --parchment exactly, so it reads as no tint at all) -- the break between eras moved to a dedicated purple band across the header gutter instead (see the gBands/gLabels rects below), rather than tinting the whole era height. Dark mode's own era-body cycling is untouched, already confirmed working as-is.
+- **Line 42203** (`function eraSpanYears(e){`): ---- Era height: density-driven (rule 1) -- entry count carries most of the weight, real elapsed span only a soft secondary influence, never the calendar ruling outright.
+- **Line 42216** (`eraH=eraH.map(h=>h/hSum*TOTAL_H);`): renormalize after the floor
+- **Line 42218** (`const HEADER_GUTTER=230;`): A fixed gutter -- sized to the tallest of the ten header blocks --
+- **Line 42218** (`const HEADER_GUTTER=230;`): reserves space at the top of every band for text alone (title, dates,
+- **Line 42218** (`const HEADER_GUTTER=230;`): world-context caption), separate from the era's own opening river: a
+- **Line 42218** (`const HEADER_GUTTER=230;`): movement dated right at an era's first year lands at eraY0[i] by
+- **Line 42218** (`const HEADER_GUTTER=230;`): construction, the same few pixels the caption prints on, so without
+- **Line 42218** (`const HEADER_GUTTER=230;`): this gutter the text and the very worlds it's introducing (Alexandria,
+- **Line 42218** (`const HEADER_GUTTER=230;`): the Desert...) would fight for the same ground. No movement is
+- **Line 42218** (`const HEADER_GUTTER=230;`): plotted inside the gutter (see the yearToY and per-y density-sampling
+- **Line 42218** (`const HEADER_GUTTER=230;`): changes below), so the streams entering the band are visible passing
+- **Line 42218** (`const HEADER_GUTTER=230;`): under the caption without a single world's dot or label competing
+- **Line 42218** (`const HEADER_GUTTER=230;`): with it.
+- **Line 42218** (`const HEADER_GUTTER=230;`): HEADER_GUTTER=230, sized alongside the era-header font-size/wrap
+- **Line 42218** (`const HEADER_GUTTER=230;`): above (bigger text, narrower context wrap so lines fit on screen when
+- **Line 42218** (`const HEADER_GUTTER=230;`): zoomed in): the tallest header block runs up to 5 context lines at
+- **Line 42218** (`const HEADER_GUTTER=230;`): this sizing (computed: worst case ~184px to the divider).
+- **Line 42241** (`const laneKeys=[...new Set(DATA.movements.map(m=>m.laneOrder))].sort((a,b)=>a-b);`): ---- Lanes: real laneOrder ascending, left to right (a simplification of the proposed east-to-west compass reading -- exact screen direction is a cosmetic detail this rough pass sets aside; the ordering and adjacency are real). ----
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): Genesis year -- a lane's real earliest start -- is where its river is
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): allowed to begin at all, rather than at a floor width for the full
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): sheet regardless of when the lane's own movements start: without that
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): gate, Protestant & Evangelical (first entry 1517) and Global Revival &
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): Pentecostal (first entry 1904) would render as full rivers back in the
+- **Line 42245** (`const laneGenesisYear={}, laneGenesisY={};`): Early Church Era, seven and fourteen centuries before either existed.
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): Which lane a new river visually peels off of at its genesis -- not assumed
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): to always be Origin. Checked against the census's own sourced edges into
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): each lane's earliest movement: Greek East & Orthodoxy's genesis entry (The
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): Church of Roman Palestine before Constantine) has a Documented edge in from
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): Alexandria -- Origen's own move there in 231 -- not from Origin. The
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): already-differentiated lanes, not the undifferentiated trunk. Only "gave
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): rise to", "continued as" and "influenced" count as lineage; "argued
+- **Line 42251** (`const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);`): against", "broke with" and "in contact with" are relationships, not ancestry.
+- **Line 42260** (`const LANE_PARENT_FROM_RECORD={`): A handful of lanes have no structured edge into their genesis movement, but
+- **Line 42260** (`const LANE_PARENT_FROM_RECORD={`): DO have a real, specific origin stated in that movement's own prose record
+- **Line 42260** (`const LANE_PARENT_FROM_RECORD={`): (relationsSummary) -- checked individually against the actual text, not
+- **Line 42260** (`const LANE_PARENT_FROM_RECORD={`): left as an unrequested default:
+- **Line 42261** (`2:3,`): Armenian Christianity (conversion era): "Formed via Cappadocia and
+- **Line 42262** (`6:5,`): Syriac Edessa" -- Cappadocia is lane 3, named first of the two;
+- **Line 42262** (`6:5,`): Syriac Edessa is lane 1, already Armenia's real secondary source
+- **Line 42262** (`6:5,`): but not drawable as a second trunk. NOTE: this is the region/see
+- **Line 42262** (`6:5,`): (Gregory the Illuminator was consecrated bishop in Caesarea of
+- **Line 42262** (`6:5,`): Cappadocia, c.314, which is Armenia's own genesis year below) --
+- **Line 42262** (`6:5,`): NOT the same thing as the later "Cappadocian Nicene
+- **Line 42262** (`6:5,`): Pastoral-Monastic Tradition" world (Basil, the Gregorys, Macrina;
+- **Line 42262** (`6:5,`): 325-394), which sits in this same lane 3 but starts 11 years
+- **Line 42262** (`6:5,`): after Armenia's thread has already begun peeling off it. Checked
+- **Line 42262** (`6:5,`): deliberately: the geometry only uses the lane number, so the
+- **Line 42262** (`6:5,`): visual split still correctly begins before that dot, not out of it.
+- **Line 42262** (`6:5,`): Lutheran Wittenberg & Its Congregations: "Child of late-medieval
+- **Line 42263** (`50:6,`): piety and its protest" -- that piety is Era VI's own Latin West
+- **Line 42263** (`50:6,`): devotional movements, lane 5.
+- **Line 42263** (`50:6,`): Progressive Christianity: its own record names this explicitly, in
+- **Line 42264** (`1.5:1`): both directions -- "IX.35 (the mainline century...) is its parent"
+- **Line 42264** (`1.5:1`): -- The Mainline Century (Liberal Protestantism & Neo-Orthodoxy) is
+- **Line 42264** (`1.5:1`): lane 6.
+- **Line 42264** (`1.5:1`): Northeast India Revivals & the Mar Thoma Reform: "honestly
+- **Line 42265** (`};`): extending the St. Thomas lane" -- the St. Thomas Christians chain
+- **Line 42265** (`};`): is lane 1.
+- **Line 42269** (`const STEP=24;`): Four lanes are left with no parent at all -- checked, not skipped, and each
+- **Line 42269** (`const STEP=24;`): stays a plain spring for a different, specific reason its own record gives:
+- **Line 42269** (`const STEP=24;`): - Latin West (Tertullian's Voice): the record itself calls him "a dropped
+- **Line 42269** (`const STEP=24;`): voice" whose lane is not settled. No invented certainty where the
+- **Line 42269** (`const STEP=24;`): project's own record has none.
+- **Line 42269** (`const STEP=24;`): - The Latin/Prot bridge (Taize & Iona): "heirs of monastic lines" (plural,
+- **Line 42269** (`const STEP=24;`): unspecific) -- real, but not one traceable source to draw a line from.
+- **Line 42269** (`const STEP=24;`): - Global Revival & Pentecostal (the 1904-07 Revival Family): its record
+- **Line 42269** (`const STEP=24;`): is explicit that there is no single origin to show -- "siblings of
+- **Line 42269** (`const STEP=24;`): Azusa without descending from it -- revival as polygenetic, which is
+- **Line 42269** (`const STEP=24;`): itself honest history." A spring is the accurate shape here, not a gap.
+- **Line 42269** (`const STEP=24;`): - Non-Nicene (Valentinian & other Gnostic Christianities): its record
+- **Line 42269** (`const STEP=24;`): frames it as arising IN TENSION WITH the forming mainstream, not
+- **Line 42269** (`const STEP=24;`): descending from it -- "rivals the early traditions... were shaped by."
+- **Line 42269** (`const STEP=24;`): A convergence line would claim a lineage; this is a rivalry instead.
+- **Line 42269** (`const STEP=24;`): ---- Per-lane density profile (rule 2: width is water volume) and a seeded winding wave (rule 3) -- sampled every 24px down the whole sheet. ----
+- **Line 42270** (`const WIND_AMPLITUDE=52;`): px -- rule 3's actual visible swing; the wave shape below was
+- **Line 42271** (`function seededWave(seed){return (y)=>{`): correct but returned a ~1.3 unit value with no pixel scale, making the winding
+- **Line 42271** (`function seededWave(seed){return (y)=>{`): invisible at any zoom. This is the fix.
+- **Line 42272** (`const a=((Math.sin(seed*12.9898)*43758.5453)%1+1)%1;`): deterministic phase per lane
+- **Line 42277** (`const MERGE_WINDOW=150;`): How long, in canvas units, a newly emerging lane spends widening from
+- **Line 42277** (`const MERGE_WINDOW=150;`): nothing and, where laneParent[k] names a documented source, drifting out
+- **Line 42277** (`const MERGE_WINDOW=150;`): from that lane into its own column. Kept short because most lanes begin
+- **Line 42277** (`const MERGE_WINDOW=150;`): early in Era I, and a long join would hide their own winding.
+- **Line 42281** (`const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'`): ---- Lane drift: rivers lean toward or away from each other only along census links, over the years both linked movements were active, each link weighted by its confidence grade. A drift starts only once both rivers have finished joining, so a lane's genesis convergence is never drawn a second time as attraction. Links between the same two rivers are taken together: the pair leans along its strongest active link, and more links let it lean further, so a cluster of links never makes the river turn more sharply. ----
+- **Line 42286** (`const DRIFT_MIN_FADE=600;`): A pull never builds or relaxes over less than this many canvas units. An
+- **Line 42286** (`const DRIFT_MIN_FADE=600;`): overlap too short to reach full strength gives a smaller lean, not a
+- **Line 42286** (`const DRIFT_MIN_FADE=600;`): sharper one.
+- **Line 42326** (`const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;`): ---- Width: the number of documented movements in the lane active in that year, averaged over a few decades so the river swells and thins instead of stepping. It is not membership or size. A lane with nothing active has no water at all. ----
+- **Line 42340** (`function yearAtY(y){`): Inside an era's header gutter there is no plotted year, so the river holds
+- **Line 42340** (`function yearAtY(y){`): the width it had at the era's opening year.
+- **Line 42369** (`const RIVER_GAP=14, GAP_MARGIN=4, GAP_SPREAD=8, GAP_BLUR=5;`): ---- No crossing: neighboring rivers keep at least RIVER_GAP of clear ground between their edges, even at the strongest drift. Where they would come closer, both ease apart. The push is spread and blurred along time, so it builds and relaxes like the drift itself. A lane still joining its parent is left out: that meeting of waters is drawn on purpose. ----
+- **Line 42390** (`function halfWidthScale(amp){return amp>0?0.5:0.3375;}`): amp 1 is the full winding river shown close up; amp 0 is the calm line
+- **Line 42390** (`function halfWidthScale(amp){return amp>0?0.5:0.3375;}`): shown zoomed out, which keeps the drift but not the winding.
+- **Line 42435** (`function smoothPath(pts){`): ---- Path building: smooth-quadratic through sampled points. ----
+- **Line 42446** (`function riverPath(k, amp){`): A joining lane eases out of its parent along a smoothstep with a gentle
+- **Line 42446** (`function riverPath(k, amp){`): arc, so the join reads as a river leaving another rather than a straight
+- **Line 42446** (`function riverPath(k, amp){`): cut. The arc is scaled by amp, so the calm line stays simple.
+- **Line 42467** (`d+=smoothPath(rightRev).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';`): The pen already sits at rightRev[0], so its leading move is dropped:
+- **Line 42467** (`d+=smoothPath(rightRev).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';`): a bare "L" before the next "Q" would be invalid path syntax.
+- **Line 42471** (`const laneEndY={}; laneKeys.forEach(k=>{laneEndY[k]=yearToY(Math.max(...laneMembers[k].map`): Between a river's first and last recorded movement, a year with none
+- **Line 42471** (`const laneEndY={}; laneKeys.forEach(k=>{laneEndY[k]=yearToY(Math.max(...laneMembers[k].map`): active leaves no water. A thin dashed thread follows the river's course
+- **Line 42471** (`const laneEndY={}; laneKeys.forEach(k=>{laneEndY[k]=yearToY(Math.max(...laneMembers[k].map`): across that gap, so it does not read as the tradition ending.
+- **Line 42491** (`DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });`): ---- Node positions ----
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): A small, deliberate visual nudge for one specific crowding case: Desert
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): Monasticism (c. 320, lane 4) and Church & Empire (312, lane 3.5) plot only
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): 39 years and one lane apart -- close enough that both worlds' portrait
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): plates and names kept fighting for the same patch of page, with Church &
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): Empire's own name cascading away from its own picture to clear Desert's.
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): Both dates are already recorded as circa; nudging Desert's PLOTTED
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): position about 16 years later -- still its own decade, still Era II, well
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): short of the 451 boundary -- is chosen from within that already-honest
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): approximation, not a new claim. Its real start/end and every displayed
+- **Line 42493** (`const VISUAL_Y_NUDGE={'desert-monasticism':80};`): date stay exactly as recorded; only where the dot draws moves.
+- **Line 42499** (`{`): laneCenterX depends only on lane and year, so any two movements born the
+- **Line 42499** (`{`): same year in the same lane land on the exact same point -- 24 such groups
+- **Line 42499** (`{`): in the census (e.g. the post-apostolic house-churches and the Ebionite/
+- **Line 42499** (`{`): Nazoraean current, both Origin-lane, both starting 70 CE). Whichever one's
+- **Line 42499** (`{`): <g> happens to paint last then sits on top of the pile and is the only one
+- **Line 42499** (`{`): a mouse or finger can ever reach; the rest are keyboard-Tab-only, an
+- **Line 42499** (`{`): invisible dead zone for anyone using a pointer -- and every node carries a
+- **Line 42499** (`{`): r=9 halo that's part of that pile even at opacity 0 (an SVG shape still
+- **Line 42499** (`{`): captures pointer events when it's only invisible, not display:none), so
+- **Line 42499** (`{`): the two members of a pair need to end up more than 2*9=18 units apart, not
+- **Line 42499** (`{`): just far enough that their small dots stop touching. A small deterministic
+- **Line 42499** (`{`): fan-out -- not a change to the river's own shape, which never reads _x --
+- **Line 42499** (`{`): keeps every movement independently visible and clickable; 24 units apart
+- **Line 42499** (`{`): clears that halo-collision margin and is still nowhere near the ~124-unit
+- **Line 42499** (`{`): gap between neighboring lanes, so no one reads as having drifted into
+- **Line 42499** (`{`): another family's water.
+- **Line 42513** (`const svg=document.getElementById('world');`): ---- SVG assembly ----
+- **Line 42533** (`const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);`): The era divider (a thin line; see the
+- **Line 42533** (`const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);`): eras.forEach loop below) sits directly above the rivers and nothing
+- **Line 42533** (`const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);`): else, so edges/nodes/labels stay crisp on top of it and the divider
+- **Line 42533** (`const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);`): itself stays crisp regardless of what color river crosses under it.
+- **Line 42536** (`const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);`): Stories that happened in the gaps -- real, documented, but never grew into
+- **Line 42536** (`const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);`): (or never surfaced inside) any one movement's own record, so they don't
+- **Line 42536** (`const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);`): belong on any single node. A small book mark, positioned by year+laneOrder
+- **Line 42536** (`const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);`): the same way a movement is, sitting on top of nodes so it's never buried
+- **Line 42536** (`const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);`): under one it happens to land near.
+- **Line 42539** (`const PORTRAIT_DATA={`): Portrait plates -- real Representative portraits (Chloe, Theon, Papnoute,
+- **Line 42539** (`const PORTRAIT_DATA={`): Albina, Mar Yausep, Marius), resized to 160x160 and re-encoded as JPEG
+- **Line 42539** (`const PORTRAIT_DATA={`): (source PNGs at cic-website/assets/portraits/ run 380KB-1.1MB each, meant
+- **Line 42539** (`const PORTRAIT_DATA={`): for a full-width card, not a ~30px map roundel) and inlined here so this
+- **Line 42539** (`const PORTRAIT_DATA={`): stays the one self-contained file the rest of the prototype already is --
+- **Line 42539** (`const PORTRAIT_DATA={`): an artifact publish can't resolve a relative path back into the repo.
+- **Line 42539** (`const PORTRAIT_DATA={`): Built & Live worlds only: a graphite (not-yet-built) movement has no
+- **Line 42539** (`const PORTRAIT_DATA={`): Representative yet to portray, per the Atlas storyboard draft's own rule.
+- **Line 42559** (`const WORLD_CONTEXT={`): Orientation for readers with no map of church history to hang this on. Each
+- **Line 42559** (`const WORLD_CONTEXT={`): line traces to real, already-vetted project sources: the four world-event
+- **Line 42559** (`const WORLD_CONTEXT={`): anchors (marked "For scale") come straight from that era's own keyEvents in
+- **Line 42559** (`const WORLD_CONTEXT={`): world-census.json; the rest is the actual periodization rationale from the
+- **Line 42559** (`const WORLD_CONTEXT={`): project's own pre-Step-0 research (CiC_World_Atlas_PreStep0_Survey_V0_1.md
+- **Line 42559** (`const WORLD_CONTEXT={`): and its External Review), not an invented date or a paraphrase claiming
+- **Line 42559** (`const WORLD_CONTEXT={`): more than that record says. Era VII's line is the census's own era tag --
+- **Line 42559** (`const WORLD_CONTEXT={`): safe to reuse here because it's explicitly plural on its face ("several
+- **Line 42559** (`const WORLD_CONTEXT={`): ways at once"), not one thread's story standing in for the whole band.
+- **Line 42571** (`const ERA_CONTEXT_WRAP=65;`): Era header context wrap width, in characters: narrow enough that a
+- **Line 42571** (`const ERA_CONTEXT_WRAP=65;`): wrapped line fits on screen at a comfortable reading zoom rather than
+- **Line 42571** (`const ERA_CONTEXT_WRAP=65;`): spanning near the full width of the map, which only works at the
+- **Line 42571** (`const ERA_CONTEXT_WRAP=65;`): fully-zoomed-out view.
+- **Line 42573** (`const RIVER_LORE={`): Per-river background, researched by the Fable model against this exact set
+- **Line 42573** (`const RIVER_LORE={`): of member movements (not the map's own primary census, and not carrying
+- **Line 42573** (`const RIVER_LORE={`): its confidence-rated sourcing) -- real historical/theological
+- **Line 42573** (`const RIVER_LORE={`): depth per river (why it started, doctrine, lived practice, geography, what
+- **Line 42573** (`const RIVER_LORE={`): makes the grouped movements one river), since the census itself has no
+- **Line 42573** (`const RIVER_LORE={`): per-family write-up, only per-movement records. Hedged in its own prose
+- **Line 42573** (`const RIVER_LORE={`): where the record is thin or contested, consistent with the rest of the
+- **Line 42573** (`const RIVER_LORE={`): map's voice; several rivers (Non-Nicene above all) are stated plainly as a
+- **Line 42573** (`const RIVER_LORE={`): thematic grouping across unrelated movements, not a single continuous
+- **Line 42573** (`const RIVER_LORE={`): tradition, rather than forcing a false unity onto the census's own lanes.
+- **Line 42686** (`lastOrganic=null;`): force the next applyDetail() to re-apply to the freshly rebuilt elements
+- **Line 42688** (`eras.forEach((e,i)=>{`): Era bands -- passthrough grounding, never a container (rule 4)
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): Not a flat solid block: full strength, the band's own tint competed
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): with the rivers on equal footing for visual weight. Pixel-checked
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): against the rivers directly (they're painted at fixed high opacity
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): with mix-blend-mode:darken, so their own color reads the same
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): regardless of this value) -- what this actually tunes is only the
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): tone of the empty paper between them, richer/warmer as it climbs
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): toward solid.
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): The era body itself stays the plain page ground (no tint in light
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): mode; dark mode's own subtle per-era cycling, eraDark above, is
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): unchanged) -- only the header gutter at the top of each era carries
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): color now, as a full-width break between one era and the next.
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): In light mode eraGround(i) is a flat #F6F6F2, identical to the page
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): body -- painting it is a no-op (10 full-width rects that render
+- **Line 42689** (`if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i`): nothing), so skip it there; dark mode's real cycling still paints.
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): Era divider: a thin line that doesn't block the map underneath it
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): the way a thick, near-opaque bar would read as a wall rather than a
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): divider. Font sizes (see the .era-label/.era-tag/.era-context
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): rules above) and the context wrap (ERA_CONTEXT_WRAP chars) keep
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): the header text readable at a comfortable zoom instead of running
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): off-screen or spanning the whole map's width. The line sits at the
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): top of the era band with the header text below it, so it reads as
+- **Line 42690** (`const dividerY=eraY0[i]+16;`): marking where the era starts rather than trailing the one above.
+- **Line 42691** (`gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDar`): Drawn on top of the rivers so the line stays
+- **Line 42691** (`gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDar`): crisp regardless of what color river crosses under it, with a slim,
+- **Line 42691** (`gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDar`): low-opacity wash behind it only so the line has something to sit on
+- **Line 42691** (`gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDar`): against a busy stretch of the map.
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): e.tag is one thread's narrative (usually the imperial/mainstream one), not
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): is the Church-and-Empire river's story, not the Church of the East's, the
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): Aksumite or Armenian churches', or six other lanes running the same years.
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): A single line can't speak for a band this plural, so the header states only
+- **Line 42695** (`const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});`): what's true of the whole band: how many movements, across how many lanes.
+- **Line 42700** (`wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{`): Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
+- **Line 42700** (`wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{`): at a comfortable reading zoom, not just at the fully-zoomed-out
+- **Line 42700** (`wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{`): view, unlike a wrap close to the full width of the
+- **Line 42700** (`wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{`): map itself, which runs off-screen the moment anyone zooms in
+- **Line 42700** (`wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{`): enough to actually read the smaller text.
+- **Line 42709** (`laneKeys.forEach(k=>{`): Rivers -- calm (generalized) + organic (full detail), cross-faded by zoom (rule 8).
+- **Line 42709** (`laneKeys.forEach(k=>{`): Pigment, not a wash: the anti-ghost principle (figures read solid/warm/present,
+- **Line 42709** (`laneKeys.forEach(k=>{`): never glowing/translucent) applies just as much to the water as to the people --
+- **Line 42709** (`laneKeys.forEach(k=>{`): a river this faint against parchment reads as a pastel stain, not ink on a page.
+- **Line 42714** (`const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);`): Nodes and edges both open a panel and show a tooltip on hover/focus; a
+- **Line 42714** (`const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);`): river -- the thing the whole map is named for -- did neither. One group
+- **Line 42714** (`const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);`): per lane (not tabindex on each phase-path) keeps the river a single Tab
+- **Line 42714** (`const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);`): stop and a single hover target regardless of which phase is showing.
+- **Line 42730** (`const r=group.getBoundingClientRect();`): A river's own bounding box can run the full height of the canvas --
+- **Line 42730** (`const r=group.getBoundingClientRect();`): far taller than the viewport at any real zoom -- so its geometric
+- **Line 42730** (`const r=group.getBoundingClientRect();`): center is routinely off-screen. Clamp the anchor into view instead
+- **Line 42730** (`const r=group.getBoundingClientRect();`): of anchoring someplace the user isn't looking.
+- **Line 42743** (`const ARC_CLEARANCE=22;`): A link between two movements on the same river would run under its
+- **Line 42743** (`const ARC_CLEARANCE=22;`): water and vanish, so it arcs out onto the open side, clears the river's
+- **Line 42743** (`const ARC_CLEARANCE=22;`): edge, and comes back in.
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): Edges -- quiet marks, confidence in the line, never a claim the census doesn't carry.
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): At full extent, 69 of them read as fine cross-hatching across the whole sheet --
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): fine. Zoomed in to read one river, all 69 straight lines at once read as a wiring
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): diagram laid over the water. So edges fade to near-nothing once zoomed past the
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): same threshold that switches rivers to organic detail, and a hovered node brings
+- **Line 42767** (`DATA.edges.forEach(edg=>{`): back only its own connections -- on demand, not all-at-once.
+- **Line 42775** (`'aria-label':'${edgeSentence(edg,a,b)}, ${edg.confidence}'`): Nodes carry a real tabindex/role/keydown pair (rule established for
+- **Line 42775** (`'aria-label':'${edgeSentence(edg,a,b)}, ${edg.confidence}'`): the 292 movements); the 69 relationship lines between them had none
+- **Line 42775** (`'aria-label':'${edgeSentence(edg,a,b)}, ${edg.confidence}'`): of that -- reachable and clickable with a mouse only, with no way for
+- **Line 42775** (`'aria-label':'${edgeSentence(edg,a,b)}, ${edg.confidence}'`): a keyboard user to open one's own panel at all.
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): A mouse can land precisely on the line itself, but at real zoom its
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): rendered stroke is routinely under a screen pixel wide -- nowhere near
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): enough for a finger, or even a mouse in a hurry. An invisible, much
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): wider twin of the same path sits alongside it purely to catch pointer
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): input, sharing these same mouse/touch handlers -- never the keyboard
+- **Line 42783** (`const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});`): ones below, so Tab still lands on this edge exactly once, not twice.
+- **Line 42796** (`const r=line.getBoundingClientRect();`): No cursor position to hang a tooltip off of on a keyboard focus --
+- **Line 42796** (`const r=line.getBoundingClientRect();`): anchor it to the focused line's own on-screen midpoint instead.
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): Label stacking: two movements landing close enough that their labels would
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): print on top of each other -- house-churches and the Ebionite/Nazoraean
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): current both open at 70 CE on the same Origin lane, an exact coincidence;
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): African Diaspora/Reverse Mission and Latin American Base Communities sit
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): just as close in era X, in two DIFFERENT (but adjacent, winding-close)
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): lanes, rule 3's own "make room for neighbors" bringing their dots
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): together. So this checks physical closeness, not lane membership: sorted
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): by position, cascade any label too close to a recent one *at a similar
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): x* down by a fixed step. The dots stay exactly where the data puts them --
+- **Line 42807** (`const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];`): only the label text moves.
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): Portrait placement, resolved before labels even start: a portrait's
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): fixed PORTRAIT_OFFSET above its own dot can land on top of a different,
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): unrelated movement's dot -- Hieronymian/Albina and the standalone
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): Ambrosian-Milan entry are both lane 5, only 39 years apart, close enough
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): that the fixed offset put her portrait 11 units from that other node's
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): own halo. Dots never move (real chronology); a portrait steps back
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): further up instead, in fixed steps, until clear of every other
+- **Line 42808** (`const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;`): movement's halo and every other already-placed portrait.
+- **Line 42810** (`const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(`): Story book marks are drawn above the nodes, so a portrait that lands under
+- **Line 42810** (`const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(`): one has its face covered and its click taken by the story. They count as
+- **Line 42810** (`const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(`): obstacles like any other dot.
+- **Line 42820** (`const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;`): The world's name sits under its portrait, so a story mark must clear
+- **Line 42820** (`const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;`): that box too, not only the face.
+- **Line 42830** (`if(!clear)offset=PORTRAIT_MAX_OFFSET;`): No tested step ever cleared everything -- an honest cap rather than an
+- **Line 42830** (`if(!clear)offset=PORTRAIT_MAX_OFFSET;`): untested, ever-larger offset: fall back to the largest step actually
+- **Line 42830** (`if(!clear)offset=PORTRAIT_MAX_OFFSET;`): checked instead of the one that broke the loop out of range.
+- **Line 42834** (`const portraitBottomById={};`): A built world's name reads as belonging to its own picture only if it
+- **Line 42834** (`const portraitBottomById={};`): stays close under it. At the base 28-unit offset that's automatic (dot
+- **Line 42834** (`const portraitBottomById={};`): and portrait are already close together), but a portrait pushed
+- **Line 42834** (`const portraitBottomById={};`): further back by collision-avoidance (Desert's steps back to 68,
+- **Line 42834** (`const portraitBottomById={};`): Hieronymian/Albina's to 88, to clear an unrelated dot) needs its label
+- **Line 42834** (`const portraitBottomById={};`): anchored to the portrait's own bottom edge, not the dot -- anchoring to
+- **Line 42834** (`const portraitBottomById={};`): the dot would open a visibly large, unrelated-looking gap between the
+- **Line 42834** (`const portraitBottomById={};`): picture and its own name however far the portrait itself had to move.
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): A portrait plate is wide enough (2*(PORTRAIT_R+4)) that a different,
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): merely-nearby movement's label can land inside it even when its own
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): anchor point tests clear -- Church & Empire's label starts 47 units from
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): the Desert's portrait (just outside a simple point-proximity check) but
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): "Church & Empire" itself is wide enough to reach 18 units past the
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): portrait's own center. So this is a real circle-vs-rectangle test
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): (closest point on the label's estimated box to the portrait's center),
+- **Line 42839** (`const portraitObstacles=placedPortraits;`): not a proximity threshold on the anchor alone.
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): In a genuinely dense stretch,
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): this cascade has no ceiling, and a long chain of merely-nearby-in-x
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): labels can compound into one label landing hundreds of units from its
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): own dot -- a floating label with no visible connection back to the node
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): it names. A firm cap on how far any label may drift from its own
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): natural position turns that into, at worst, a rare tight overlap in an
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): already-crowded spot -- a smaller cost than a label that reads as
+- **Line 42850** (`const MAX_LABEL_DRIFT=90;`): unattached to anything.
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): Anchoring a built label's target position to its portrait (above) is not
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): enough on its own: this cascade is sequential, first-come-first-served,
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): so processing every movement in real chronological order would place
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): Albina's own dot (c. 386-419) label *after* Priscillianists and
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): Ambrose's Milan (both chronologically earlier), which would already
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): have claimed the space right under her portrait by the time her own
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): turn came up, however close her computed target was.
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): Sorting by where a label actually WANTS to render -- the portrait's
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): position for a built one, the dot for everyone else -- gives it a fair
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): turn among its true visual neighbors instead of a turn keyed to a dot
+- **Line 42851** (`const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;`): that may sit much further down the page than its own name does.
+- **Line 42861** (`if(y-p.y>60)break;`): sorted by y -- nothing earlier can be close enough to matter
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): A small, explicit, documented correction for one specific case the
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): general cascade above doesn't resolve cleanly without disturbing the
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): map's one real chronological ordering:
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): Aksum's own natural position (its real 340s date, unchanged) sits
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): between the Desert's portrait and the Desert's own name, so its label
+- **Line 42872** (`const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};`): is pushed below the Desert's rather than left to land in that gap.
+- **Line 42879** (`DATA.movements.forEach(m=>{`): Nodes
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): 292 movements, none of them reachable without a mouse or a finger --
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): tabindex/role/aria-label plus Enter/Space make each node a real control,
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): not just a click target. Focus gets its own ring rather than reusing
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): the hover halo: the halo is filled in the node's own family color, so
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): on a same-hued river (a teal node on the teal Africa river, say) it
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): all but disappears -- exactly the wrong place for the one signal a
+- **Line 42882** (`const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'but`): keyboard user has for "this is where you are."
+- **Line 42890** (`opacity: built?1:0.78});`): 0.55 would blend graphite down to within a few steps of the parchment
+- **Line 42890** (`opacity: built?1:0.78});`): ground -- barely visible until a hover halo reveals it. 0.78 keeps
+- **Line 42890** (`opacity: built?1:0.78});`): not-yet-built worlds visibly quieter than the full-opacity built
+- **Line 42890** (`opacity: built?1:0.78});`): dots beside them, without disappearing at rest.
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): Only shown at organic (zoomed-in) detail -- applyDetail() toggles .lbl the
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): same way it toggles the rivers, so a crowded era stays a river at full
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): extent and only names names once there's room to read them.
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): The Non-Nicene lane sits deliberately at the far right margin (the
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): "Beyond-the-Floor" terrain, "present, labeled, never hidden") -- a label
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): that always grows rightward runs off that edge instead. Flip to a
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): left-anchored label near either edge of the canvas, not just that lane,
+- **Line 42891** (`const nearRightEdge=m._x>CANVAS_W-220;`): so this stays correct if the layout ever shifts.
+- **Line 42898** (`let portrait=null;`): Portrait plate: the actual Representative's face, framed as a roundel
+- **Line 42898** (`let portrait=null;`): set into the page rather than a photo dropped flat -- set above the
+- **Line 42898** (`let portrait=null;`): dot (not on it) so it never competes with the label for the same
+- **Line 42898** (`let portrait=null;`): horizontal space, and clear of the halo/focus-ring below it.
+- **Line 42902** (`portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R+4,fill:m.entry.color}));`): Backing plate in the world's own accent color -- "the frame/ground
+- **Line 42902** (`portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R+4,fill:m.entry.color}));`): tint is that world's own accent color" per the Atlas storyboard
+- **Line 42902** (`portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R+4,fill:m.entry.color}));`): draft -- solid, never translucent, per the map's own anti-ghost rule.
+- **Line 42908** (`portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R,fill:'none',`): The fine ink-ruled border, right at the photo's own edge.
+- **Line 42935** (`if(!sameLane){`): 75 of the census's 77 continuesAs links stay inside one lane -- the river
+- **Line 42935** (`if(!sameLane){`): itself already carries that continuity, so a second stroke in the same
+- **Line 42935** (`if(!sameLane){`): family color right beside it just reads as a thinner duplicate river.
+- **Line 42935** (`if(!sameLane){`): A seam mark (not a second stream) is enough: only the 2 links that
+- **Line 42935** (`if(!sameLane){`): actually cross into a different lane -- a real gravity shift, not just
+- **Line 42935** (`if(!sameLane){`): a name change -- earn a drawn bridge, in gold-leaf so it reads as a
+- **Line 42935** (`if(!sameLane){`): marked crossing rather than more water.
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): The seam-mark dot belongs only to the cross-lane bridge above --
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): nested inside the same !sameLane check as the bridge line it
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): marks, so a same-lane continuesAs link (whose continuity the
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): river itself already shows) never gets an unexplained,
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): non-interactive gold-leaf dot stranded mid-river with no label,
+- **Line 42941** (`gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold`): tooltip, or hover state.
+- **Line 42946** (`(DATA.stories||[]).forEach(s=>{`): Stories in the gaps: positioned exactly like a movement (year -> y,
+- **Line 42946** (`(DATA.stories||[]).forEach(s=>{`): laneOrder -> x, same yearToY/laneCenterX the rivers and nodes use) so
+- **Line 42946** (`(DATA.stories||[]).forEach(s=>{`): they sit in real chronological/family space, but drawn as a small book
+- **Line 42946** (`(DATA.stories||[]).forEach(s=>{`): mark rather than a dot -- nothing here is a movement, has a status, or
+- **Line 42946** (`(DATA.stories||[]).forEach(s=>{`): owns a stretch of river.
+- **Line 42952** (`const book=el('path',{`): A simple open-book glyph, local coordinates centered on the story's own
+- **Line 42952** (`const book=el('path',{`): point -- two page-flaps and a spine, not a literal icon-font import.
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): The `status` field is an internal grouping key (code elsewhere compares it
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): literally, e.g. m.status==='Built & Live') and several of its own values
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): still carry internal process language -- "Deferred by Step 0", "Floor
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): Question (register)", "Excluded - Doctrinal Floor (C1)" -- never meant for
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): a participant to read as-is. DATA.statusMeta carries the honest, plain-
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): language version of the same status in `shortWord`; every place that
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): displays status as text uses this instead, while `status` itself stays
+- **Line 42969** (`function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm`): untouched for the code that keys off it.
+- **Line 42991** (`function tipForDocStory(s){`): Same tip structure as tipForStory above, for a movement's own documented
+- **Line 42991** (`function tipForDocStory(s){`): stories (title / when / verification) rather than a floating gap story
+- **Line 42991** (`function tipForDocStory(s){`): (title / year+region / "not its own movement").
+- **Line 42994** (`const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-hidden="tr`): The exact open-book glyph the map draws for its own floating stories
+- **Line 42994** (`const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-hidden="tr`): (see the gStories build loop), reused here as an inline icon so a
+- **Line 42994** (`const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-hidden="tr`): movement's own documented stories read as the same kind of object.
+- **Line 42996** (`const tip=document.getElementById('tip');`): ---- Tooltip (hover = short) ----
+- **Line 43000** (`tipW=tip.offsetWidth; tipH=tip.offsetHeight;`): Measured once here, on the content change -- not on every mousemove in
+- **Line 43000** (`tipW=tip.offsetWidth; tipH=tip.offsetHeight;`): positionTip() below, which fires continuously while a node/edge is
+- **Line 43000** (`tipW=tip.offsetWidth; tipH=tip.offsetHeight;`): hovered and would otherwise force a synchronous layout read each time.
+- **Line 43004** (`function showTipAt(x,y,html){`): A keyboard focus has no cursor position to anchor a tooltip to -- showTipAt
+- **Line 43004** (`function showTipAt(x,y,html){`): takes an explicit screen point (the focused element's own bounding box)
+- **Line 43004** (`function showTipAt(x,y,html){`): instead of a mouse event, so Tab-ing to an edge gets the same tooltip a
+- **Line 43004** (`function showTipAt(x,y,html){`): mouse hover would, not nothing.
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): Nodes run all the way to the canvas's own right and bottom edges (the
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): "Beyond the Floor" lane sits at the far right on purpose) -- a tooltip
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): placed with a fixed offset from the cursor, with nothing to stop it,
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): renders partly or fully off the browser window there. Flip to the
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): other side of the cursor when the default placement would overflow,
+- **Line 43010** (`const pad=8, w=tipW, h=tipH;`): then clamp as a last resort.
+- **Line 43018** (`const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody`): ---- Side panel (click = full) ----
+- **Line 43019** (`const NARR_KEY='cic.narration.auto';`): ---- Narration: starts when a card opens, stops when it closes ----
+- **Line 43028** (`function startNarration(a){`): Browsers refuse sound that starts without a click (a shared ?world= link,
+- **Line 43028** (`function startNarration(a){`): a slow load); the rejection is expected and leaves the play button as is.
+- **Line 43033** (`let worldAudio=null;`): Which built worlds have narration, read once at load so a world card can draw
+- **Line 43033** (`let worldAudio=null;`): its story player in the same tap that opens it (see openPanel).
+- **Line 43063** (`panelBody.addEventListener('play',ev=>{`): One voice at a time; opening a story inside a card starts it, closing stops it.
+- **Line 43071** (`panelBody.addEventListener('click',ev=>{`): A story opened with its arrow starts inside the click itself: iPhone Safari
+- **Line 43071** (`panelBody.addEventListener('click',ev=>{`): plays sound only when playback begins in the tap, not a moment later.
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): contract already shipping in atlas-v3.html and index.html -- reused, not
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): reinvented, so a link into this map's worlds lands the same place a link
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): from the current site would. Interview only, no Table button: Mark's
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): ruling for this version is that launching a multi-voice Table straight
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): from the Atlas is confusing without more context-setting UI than this map
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): has yet -- Tours and research access are later work. One hand-off per
+- **Line 43085** (`const isLocal=['localhost','127.0.0.1'].includes(location.hostname);`): Built & Live world, into the room with that one Representative.
+- **Line 43088** (`function hasContent(v){return !!v&&v.trim()!=='-';}`): A handful of records use a bare "-" as their own placeholder for "not
+- **Line 43088** (`function hasContent(v){return !!v&&v.trim()!=='-';}`): applicable here" (relationsSummary on 8 movements, sourcing on 2) rather
+- **Line 43088** (`function hasContent(v){return !!v&&v.trim()!=='-';}`): than leaving the field out. Rendered under its own header that reads as a
+- **Line 43088** (`function hasContent(v){return !!v&&v.trim()!=='-';}`): broken/empty section, not a considered answer -- treat it the same as
+- **Line 43088** (`function hasContent(v){return !!v&&v.trim()!=='-';}`): genuinely absent.
+- **Line 43089** (`function sectionSources(list){`): A small, scoped sources disclosure for one section of the panel (e.g. "The
+- **Line 43089** (`function sectionSources(list){`): Story", "Legacy") -- a flat list of the works that section draws on, not
+- **Line 43089** (`function sectionSources(list){`): mapped to individual sentences or claims. Separate from the panel's own
+- **Line 43089** (`function sectionSources(list){`): full "Sources" section (the curated list plus the verified registry),
+- **Line 43089** (`function sectionSources(list){`): which stays as the comprehensive record at the very end.
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): Website V2 world_front design, site cutover Part 3 (approved to
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): proceed): the 8 built worlds' own deep Orientation-tier content
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): (story/documentedStories/voices/floorNote/legacy/relationsSummary/
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): sourcing) is fetched at panel-open
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): time from cic-website/data/worlds/<census_id>.json (engine.m2.
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): site_compiler's own output, Part 1) and rendered through the exact same
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): functions Build/tools/generate_tradition_pages.py runs (via Node) to build
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): each world's own static tradition page, so the two surfaces can never
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): quietly drift apart into two independently-maintained templates - see
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): cic-website/assets/orientation-render.mjs, imported as
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): window.OrientationRender by the <script type="module"> block just
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): before </body>. Every id here is also that world's own census_id (the
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): compiled JSON's filename), verified 1:1 against world-census.json's own
+- **Line 43093** (`const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","sy`): `status === "Built & Live"` movements.
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): This classic script runs immediately, as the parser reaches it - the
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): <script type="module"> importing orientation-render.mjs, further down
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): the document, is deferred by spec and has NOT necessarily run yet by
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): this point, even though it appears later in the file. A user clicking
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): a map pin after the page has finished loading never notices (the
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): module is long since ready by then), but the page's own deep-link
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): auto-open (bottom of this script, `?world=...`) calls openPanel() -
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): and so loadBuiltWorldOrientation() - synchronously during this
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): script's own first pass, which can race ahead of it. This promise lets
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): that deep-link path wait for window.OrientationRender to be ready
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): instead of reading its properties before it exists.
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): window.OrientationRender itself (set directly, no
+- **Line 43094** (`window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=`): promise) remains the fast path for every ordinary click.
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): Populates #orient-fetch-slot (openPanel's own placeholder for a built
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): world) once the compiled JSON arrives. Fires after panelBody.innerHTML
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): is already set and the panel is already shown -- a slower connection
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): sees the rest of the panel (title, repline, teaser, edges, sources)
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): immediately, with only this one region loading in behind it, rather
+- **Line 43104** (`async function loadBuiltWorldOrientation(censusId){`): than the whole panel waiting on the fetch.
+- **Line 43106** (`if(!slot)return;`): panel closed or moved on before the fetch resolved
+- **Line 43140** (`if(entry)h+='<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.w`): Built & Live worlds carry a real Representative (name, role, world name) in
+- **Line 43140** (`if(entry)h+='<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.w`): their own `entry` record -- the whole point of "Built & Live" -- but until
+- **Line 43140** (`if(entry)h+='<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.w`): now nothing on the map ever showed it. A click landed on the same bare
+- **Line 43140** (`if(entry)h+='<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.w`): status/edges template as an unbuilt entry.
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): Lead with the tradition itself, not with this project's own build plan for
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): it: the summary first, then the story and everything else a participant
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): would come here to learn. The "where this stands" statement (m.why) moves
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): to the very end of the panel, after Sources -- see the closing block below.
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): The census's "front door" line -- `entry.tile` for a built world, `teaser`
+- **Line 43144** (`const lede=entry?entry.tile:m.teaser;`): for everything else -- is the hook every one of the 292 records was given.
+- **Line 43146** (`if(isBuiltWorld){`): Built worlds: the Orientation-tier content (Story/Documented
+- **Line 43146** (`if(isBuiltWorld){`): stories/Voices/Doctrinal floor note/Legacy/In its own record/Sources)
+- **Line 43146** (`if(isBuiltWorld){`): is fetched, not embedded inline here - see
+- **Line 43146** (`if(isBuiltWorld){`): loadBuiltWorldOrientation() above, called once this panel's own HTML
+- **Line 43146** (`if(isBuiltWorld){`): is actually in the document (below). Everything else in this
+- **Line 43146** (`if(isBuiltWorld){`): function (repline, meta, teaser above; edges, sources-panel,
+- **Line 43146** (`if(isBuiltWorld){`): verifiedSources, why below) is unaffected: those fields are never
+- **Line 43146** (`if(isBuiltWorld){`): removed from DATA for a built world.
+- **Line 43151** (`if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'`): Narration: a non-built movement's longDescription is read from
+- **Line 43151** (`if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'`): audio/tree/<id>.mp3. A built world's story, documented stories and legacy
+- **Line 43151** (`if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'`): are read from audio/worlds/ (see worldAudio above).
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): Documented stories: 1-3 real, individually sourced narrative episodes
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): belonging to this movement specifically (not the map's floating gap
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): stories, and not a restatement of longDescription above) -- a deeper
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): click for a pastor or student who wants the actual documented account,
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): not just a summary or a source list. Collapsed by default via <details>
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): so the movement's own account stays the panel's main event. `verification`
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): is shown plainly per story because how far this entry is actually
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): checked is a different fact from the episode's own historical tier, and
+- **Line 43155** (`if(m.documentedStories&&m.documentedStories.length){`): both matter.
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): Last on purpose: this is the "go deeper if you want" appendix, not
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): something to read past on the way to the record's own story -- it
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): belongs after everything the census itself asserts, not in the middle
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): of it. 970 citations across 179 of the 292 records (623 primary, 190
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): secondary, 157 reference), 51 with a direct link to the actual text.
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): m.sourcing (kept for the 284 non-built movements; fetched instead as
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): orientation.sourcing for the 8 built ones, in the "Sources" heading
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): loadBuiltWorldOrientation adds above - see BUILT_WORLD_IDS) is this
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): record's own one-line assessment of how strong its sourcing is; the
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): list below is what that assessment is an assessment OF. Neither
+- **Line 43176** (`if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){`): implies the other -- some records carry one without the other.
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): Full source registry: distinct from the curated Sources
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): section above -- that's a hand-picked "read these first" list; this is
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): every vendored, rights-checked work cic/corpus-map/*.yaml actually
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): assigns to this entry, generated by cic/engine/corpus_coverage.py.
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): Only the 7 "Built & Live" worlds carry it so far (that pipeline's
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): current scope). Grouped by corpus-map's own role taxonomy, with
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): confidence shown in words whenever a placement isn't a plain
+- **Line 43186** (`if(m.verifiedSources&&m.verifiedSources.length){`): "assigned" -- the same discipline this page's edges already use.
+- **Line 43195** (`if(m.why){`): Very last, on purpose: this project's own plan for the tradition -- built,
+- **Line 43195** (`if(m.why){`): chosen, deferred, excluded, or not yet assessed -- in plain participant
+- **Line 43195** (`if(m.why){`): language, after everything the tradition's own record has said for itself.
+- **Line 43195** (`if(m.why){`): Every one of the 292 movements carries a `why` paragraph that states
+- **Line 43195** (`if(m.why){`): this in plain sentences ("This tradition is fully built...", "Chosen
+- **Line 43195** (`if(m.why){`): for a future build, not yet started..."), needing no separate
+- **Line 43195** (`if(m.why){`): internal-sounding build-planning label ("Deferred -- reasons on
+- **Line 43195** (`if(m.why){`): record", "Excluded -- creedal grounds stated") alongside it.
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): fetched below) and carry no hover-tooltip teaser of their own - the
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): teaser is already always visible in that markup (orientation-render.mjs's
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): own renderDocumentedStories), so there is nothing to wire up here for
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): them. This loop only ever finds matches for a non-built movement's own
+- **Line 43201** (`panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{`): still-embedded m.documentedStories.
+- **Line 43203** (`const audioKey=m.id+'-'+item.dataset.storyIdx;`): Narration exists only for stories listed in the audio manifest.
+- **Line 43267** (`const yearSpan=members.length===1?esc(members[0].dates):'${members[0].start}–${members[mem`): The span below is earliest-start to latest-start across members (an "end"
+- **Line 43267** (`const yearSpan=members.length===1?esc(members[0].dates):'${members[0].start}–${members[mem`): isn't a single well-defined number when several are still ongoing) -- a
+- **Line 43267** (`const yearSpan=members.length===1?esc(members[0].dates):'${members[0].start}–${members[mem`): real range for any river with more than one member, but for exactly one
+- **Line 43267** (`const yearSpan=members.length===1?esc(members[0].dates):'${members[0].start}–${members[mem`): that degenerates to "year-year" (the same movement's start against
+- **Line 43267** (`const yearSpan=members.length===1?esc(members[0].dates):'${members[0].start}–${members[mem`): itself), reading like a typo. Show its own real dates string instead.
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): Nothing in the census names what makes one river different from another --
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): there's no per-family write-up to draw on, only per-movement records. So
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): this is computed from the same edges/eras/status fields every other panel
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): already draws from, not authored: real, checkable facts about this one
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): river's own shape (how much of the timeline it spans, how built-out it
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): is, what kind of relationships its movements actually carry), stated
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): plainly rather than as a claim to be the most/least of anything -- several
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): rivers tie on any one of these, so "confined to one era" is this river's
+- **Line 43278** (`const eraNums=[...new Set(members.map(m=>m.era))];`): own fact, not a superlative over the other twelve.
+- **Line 43301** (`h+='<h3>Movements in this river</h3><ul class="voices">${members.map(m=>`): Each member reopens THIS same panel on its own record -- a way to drill
+- **Line 43301** (`h+='<h3>Movements in this river</h3><ul class="voices">${members.map(m=>`): from "the whole river" down to one movement without leaving the panel,
+- **Line 43301** (`h+='<h3>Movements in this river</h3><ul class="voices">${members.map(m=>`): instead of a dead end at a bare member list.
+- **Line 43311** (`let lastFocused=null;`): Neither trigger (a click, or Enter/Space on a node's own keydown handler)
+- **Line 43311** (`let lastFocused=null;`): moves focus anywhere on its own -- without this, a keyboard user who
+- **Line 43311** (`let lastFocused=null;`): opens the panel has no indication it opened at all, since focus stays
+- **Line 43311** (`let lastFocused=null;`): behind it on the node/edge they just activated, and nothing here is in
+- **Line 43311** (`let lastFocused=null;`): the Tab order until reached the long way around through the other 291
+- **Line 43311** (`let lastFocused=null;`): nodes. lastFocused/showPanel/
+- **Line 43311** (`let lastFocused=null;`): closePanel restore the standard dialog contract: move focus in on open,
+- **Line 43311** (`let lastFocused=null;`): trap Tab inside while open, give focus back to the trigger on close.
+- **Line 43316** (`document.getElementById('panelClose').focus();`): The close button, not the panel container -- landing there means Tab's
+- **Line 43316** (`document.getElementById('panelClose').focus();`): very first step and Shift+Tab's very first step both start from a real
+- **Line 43316** (`document.getElementById('panelClose').focus();`): entry in the focus-trap's own list below, with no "focus is on the
+- **Line 43316** (`document.getElementById('panelClose').focus();`): container, which isn't in that list" gap right after opening.
+- **Line 43326** (`function syncWorldURL(id){`): Shareable deep link: ?world=<id> opens straight to one movement, the same
+- **Line 43326** (`function syncWorldURL(id){`): B5 discipline atlas-v3.html already uses for its own filter state (q/
+- **Line 43326** (`function syncWorldURL(id){`): built/laneoff/regionoff) -- read once at boot, written back via
+- **Line 43326** (`function syncWorldURL(id){`): replaceState (not pushState -- opening/closing a panel isn't a fresh page,
+- **Line 43326** (`function syncWorldURL(id){`): it shouldn't spam browser history) whenever a movement panel opens or
+- **Line 43326** (`function syncWorldURL(id){`): closes, so copying the address bar while one is open reproduces the same
+- **Line 43326** (`function syncWorldURL(id){`): view. River and edge panels aren't part of this contract -- a movement is
+- **Line 43326** (`function syncWorldURL(id){`): the map's own shareable unit ("the world is the primary door").
+- **Line 43332** (`function focusWorld(m){`): Brings one world's own dot to the center of the viewport at a fixed,
+- **Line 43332** (`function focusWorld(m){`): comfortably-zoomed-in scale (past DETAIL_THRESHOLD, so its portrait and
+- **Line 43332** (`function focusWorld(m){`): label are already showing) rather than leaving a deep-linked panel open
+- **Line 43332** (`function focusWorld(m){`): over whatever part of the timeline the default overview happened to land
+- **Line 43332** (`function focusWorld(m){`): on.
+- **Line 43343** (`const focusable=[...panel.querySelectorAll('button,a[href],[tabindex]:not([tabindex="-1"])`): Focus trap: cycle Tab/Shift+Tab within the panel's own focusable elements
+- **Line 43343** (`const focusable=[...panel.querySelectorAll('button,a[href],[tabindex]:not([tabindex="-1"])`): instead of letting it walk out into whatever node or river sits behind it.
+- **Line 43351** (`function buildLegend(){`): ---- Legend ----
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): A Built & Live dot isn't one fixed color -- it renders at full strength
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): in whatever tradition-family color it already sits on (Cappadocian's is
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): Greek East blue, the Desert's is Africa teal, and so on), not a single
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): "built" hue. A flat gold swatch here would show a color that matches
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): none of the seven real built dots except by lane coincidence. A small
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): multi-color wheel, sampling four real family colors, says "varies by
+- **Line 43360** (`const builtSwatch='conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .2`): family" honestly instead of asserting one.
+- **Line 43367** (`rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';`): A line's color is the kind of relationship and its dash is the confidence
+- **Line 43367** (`rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';`): rating, so neither is read as a claim about the other.
+- **Line 43412** (`const stage=document.getElementById('stage');`): ---- Pan / zoom -- participant-driven only, nothing animates on its own ----
+- **Line 43415** (`let lastOrganic=null;`): applyDetail() no-ops when the calm/organic threshold hasn't actually crossed
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): The era-body/break-band bleed rects (render(), below) need to still reach the
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): browser's real left/right edges at ANY pan/zoom, including the most zoomed-out
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): state on a wide monitor. A fixed multiple of CANVAS_W falls short there: at
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): MIN_S, 9*CANVAS_W*MIN_S is under 1000 screen px, nowhere near a 2400px+ window's
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): actual width, regardless of the SVG's own overflow setting -- that's a bleed
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): too narrow for the zoom level, not a clipping problem. Size it in world units
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): against MIN_S itself so width*scale clears a generous 8000px viewport even in
+- **Line 43416** (`const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;`): that worst case; every less-zoomed-out scale only overshoots further.
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): Era captions read from a fixed screen margin, not a fixed canvas x: at
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): x:24 in canvas space, wherever the current pan/zoom happened to put that
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): point was "the left margin" -- on a wide window, centerView()'s own
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): horizontal centering leaves the canvas well clear of the real left edge,
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): so the caption floated in the middle of empty space rather than sitting
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): at the page's actual margin. Re-solving canvas-x from the live tx/scale
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): on every transform pins it to the same screen position (EraCaptionMargin)
+- **Line 43417** (`const ERA_CAPTION_MARGIN=24;`): regardless of window width, zoom, or how far the map's been panned.
+- **Line 43424** (`if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);`): One custom-property write, not a loop over 292 halos and 69 edges: the
+- **Line 43424** (`if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);`): touch-target CSS (end of the stylesheet) reads this back via calc() to
+- **Line 43424** (`if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);`): hold a constant ON-SCREEN hit size across the whole zoom range. Written
+- **Line 43424** (`if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);`): every tick regardless of pointer type -- cheap, and harmless where the
+- **Line 43424** (`if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);`): fine-pointer CSS never references it.
+- **Line 43429** (`if(organic===lastOrganic)return;`): every wheel/pinch tick calls this; skip the DOM writes when nothing crossed the threshold
+- **Line 43431** (`document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_`): pointer-events follows opacity, not just visually hidden: an SVG shape
+- **Line 43431** (`document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_`): at opacity:0 is still hit-tested by default, so without this the HIDDEN
+- **Line 43431** (`document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_`): phase's own (differently-shaped) outline kept responding to hover --
+- **Line 43431** (`document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_`): whichever phase is actually on screen should be the only one that does.
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): Never start below the calm/organic threshold. Both fit-to-screen terms
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): above shrink with the viewport, and the width term alone drops scale
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): under DETAIL_THRESHOLD on any phone-width screen (0.21 at 390px, nowhere
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): close to organic's 0.34) and on plenty of short or split desktop windows
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): besides (0.34 at 1280x500) -- meaning without this floor, the very
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): first thing most mobile visitors, and no small share of desktop ones,
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): would see is the deliberately simplified "calm" river phase: flat, undetailed, dead
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): straight, meant for a user-initiated zoomed-out overview, not a first
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): impression. A narrower initial framing -- fewer lanes visible before
+- **Line 43445** (`scale=Math.max(scale,DETAIL_THRESHOLD*1.15);`): panning -- is a fair trade for that first view actually looking alive.
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): Era 1's own caption renders starting a little below screen-y 0 -- a fixed
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): ty:40 assumed a one-line topbar and no intro banner. The topbar can wrap
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): to two/three lines (positionScopeNote above) and #scopeNote's own banner
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): sits right under it; together they run up to ~148px on a narrow window
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): before it's dismissed, hiding era 1's header behind fixed chrome for any
+- **Line 43448** (`const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.featur`): first-time visitor. Measure the real chrome instead of assuming its height.
+- **Line 43453** (`function zoomAt(mx,my,factor){`): Input order: scrolling moves the map, zoom is Ctrl/Cmd + scroll (a trackpad
+- **Line 43453** (`function zoomAt(mx,my,factor){`): pinch reaches the page as a wheel event with ctrlKey set), click or tap is last.
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): Pointer Events with capture, not mousedown/mousemove/mouseup on window --
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): without capture, a drag that outruns the mouse's own hit-testing (a fast
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): flick, or the pointer
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): crossing another element like #legend/#panel) can silently drop the
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): in-progress drag; setPointerCapture pins move/up delivery to #stage
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): regardless of what's under the pointer afterward, the same fix a native
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): path can replace) -- this path is explicitly mouse/pen only.
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): Capturing on pointerdown itself would break every node/river/story click:
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): once setPointerCapture runs, the browser resolves the matching pointerup
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): (and the click it synthesizes from that up) against the capture target
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): (#stage) instead of the actual element under the pointer, so a plain tap
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): on a node would never reach that node's own click listener -- a
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): mousedown-to-mouseup click with zero movement would be treated as a drag
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): from the first pixel.
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): Arm on pointerdown but only start dragging, and only capture, once the
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): pointer has actually moved past a small threshold; a click that never
+- **Line 43472** (`const DRAG_THRESHOLD=4;`): moves that far leaves capture untouched and resolves normally.
+- **Line 43493** (`const PAN_STEP=90;`): Manual pan controls: the atlas had no way to move around besides drag
+- **Line 43493** (`const PAN_STEP=90;`): or scroll-to-zoom, and drag alone read as hard to use.
+- **Line 43493** (`const PAN_STEP=90;`): A fixed pixel nudge per press/hold, independent of zoom level, the same
+- **Line 43493** (`const PAN_STEP=90;`): units the drag handlers above already use for tx/ty.
+- **Line 43504** (`btn.addEventListener('pointerdown',(ev)=>{`): Press-and-hold repeats the nudge, the same affordance a native scrollbar
+- **Line 43504** (`btn.addEventListener('pointerdown',(ev)=>{`): arrow gives -- a short delay before repeat starts so a plain click/tap
+- **Line 43504** (`btn.addEventListener('pointerdown',(ev)=>{`): (already handled above) doesn't also fire one extra repeat nudge.
+- **Line 43513** (`const ZOOM_STEP=1.25;`): Zoom buttons and keys. Keys act only when focus is on the map or the page
+- **Line 43513** (`const ZOOM_STEP=1.25;`): itself, never inside the story panel, the feedback form or a text field.
+- **Line 43541** (`if(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches){`): The pinch line shows only where a touch screen exists.
+- **Line 43545** (`let touches={}, pinched=false, glideRaf=0, flick=[];`): A pinch changes the SVG scale every move, and each scale change re-lays-out
+- **Line 43545** (`let touches={}, pinched=false, glideRaf=0, flick=[];`): every <text> label and, through --zoom-scale, restyles every node; hiding the
+- **Line 43545** (`let touches={}, pinched=false, glideRaf=0, flick=[];`): labels and holding that write for the length of the pinch keeps it smooth.
+- **Line 43618** (`function positionScopeNote(){`): A fixed `top` for #scopeNote, sized for a topbar that fits on one
+- **Line 43618** (`function positionScopeNote(){`): line, breaks on a narrow screen: when the title/tag/button don't fit and
+- **Line 43618** (`function positionScopeNote(){`): the topbar wraps to two (or three) lines instead, the note would start
+- **Line 43618** (`function positionScopeNote(){`): underneath where a one-line topbar ends, and its own dismiss button
+- **Line 43618** (`function positionScopeNote(){`): (float:right on the note's first line) would land behind the now-taller
+- **Line 43618** (`function positionScopeNote(){`): topbar, unreachable.
+- **Line 43618** (`function positionScopeNote(){`): Measure the real chrome above it instead of assuming a fixed height --
+- **Line 43618** (`function positionScopeNote(){`): .feature-bar (Church Family Tree / Conversation with One / Build a
+- **Line 43618** (`function positionScopeNote(){`): Table) sits between the topbar and this note, and has the
+- **Line 43618** (`function positionScopeNote(){`): exact same problem the topbar always had (its own height isn't fixed --
+- **Line 43618** (`function positionScopeNote(){`): it wraps on a narrow screen too), so it gets the same treatment: measured,
+- **Line 43618** (`function positionScopeNote(){`): not assumed.
+- **Line 43628** (`window.addEventListener('resize',()=>{});`): no auto-recenter -- resize is not a participant zoom action
+- **Line 43639** (`<script type="module">`): Website V2 world_front design, site cutover Part 3: the shared renderer both this panel and each built world's own static tradition page (Build/tools/generate_tradition_pages.py, run through Node) render from - one function per surface, not two independently-maintained templates. A module script (not the classic script above) so it can `import` a plain ES module with no build step; it only needs to run before openPanel() is ever CALLED (a user click, always well after the page has finished loading), never before openPanel() is merely DEFINED, so its exact position relative to the classic script above does not matter.
+
+## `cic-worker/worker.mjs`
+
+14 notes. Each names the code line it stood above or beside, by its line in the cleaned file.
+
+- **Line 2** (`export const BASELINE_HEADERS = {`): Byte-range support for the audio under /audio/.
+- **Line 2** (`export const BASELINE_HEADERS = {`): Cloudflare's static-asset serving ignores a Range header: it answers 200 with
+- **Line 2** (`export const BASELINE_HEADERS = {`): the whole file and no Accept-Ranges. iPhone Safari first asks for bytes=0-1
+- **Line 2** (`export const BASELINE_HEADERS = {`): and only accepts a 206 answer, so it needs this to play and seek narration
+- **Line 2** (`export const BASELINE_HEADERS = {`): reliably. The recordings (.mp3) are read from the R2 bucket bound as AUDIO
+- **Line 2** (`export const BASELINE_HEADERS = {`): when there is one, and from the static assets otherwise, or when the bucket
+- **Line 2** (`export const BASELINE_HEADERS = {`): does not hold the file. Everything else, including the small manifest files
+- **Line 2** (`export const BASELINE_HEADERS = {`): under /audio/, goes straight to the assets, unchanged.
+- **Line 2** (`export const BASELINE_HEADERS = {`): The baseline security headers of cic-website/_headers. A response built here
+- **Line 2** (`export const BASELINE_HEADERS = {`): does not pass through that file, so they are repeated; a test keeps the two
+- **Line 2** (`export const BASELINE_HEADERS = {`): in step.
+- **Line 9** (`export function parseRange(header, size) {`): Parse a single-range header against a file size. Returns {start, end} (inclusive), null when the range cannot be satisfied (416), or 'ignore' when the header is not a single bytes range (serve 200).
+- **Line 37** (`async function fromBucket(request, bucket, key) {`): Answer from the bucket: null when the file is not there (the caller then falls back to the assets), otherwise a 200, 206, 304 or 416 response.
+- **Line 79** (`}`): The bucket is unreachable: serve from the assets rather than fail.
+
+## `tools/build_tree_site.mjs`
+
+6 notes. Each names the code line it stood above or beside, by its line in the cleaned file.
+
+- **Line 2** (`import fs from 'node:fs';`): /usr/bin/env node
+- **Line 2** (`import fs from 'node:fs';`): Assembles the Church Family Tree site into .build/tree/, the assets
+- **Line 2** (`import fs from 'node:fs';`): directory of its Worker (wrangler.cft.jsonc). The tree's own files are
+- **Line 2** (`import fs from 'node:fs';`): copied from where they live; the files Church in Conversation also serves
+- **Line 2** (`import fs from 'node:fs';`): are copied byte for byte from cic-website/, and every copy is checked
+- **Line 2** (`import fs from 'node:fs';`): against its source before the script exits.

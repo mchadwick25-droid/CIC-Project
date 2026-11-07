@@ -1,0 +1,10 @@
+{
+  "name": "church-family-tree",
+  "compatibility_date": "2026-09-03",
+  "main": "cic-worker/worker.mjs",
+  "assets": {
+    "directory": "./.build/tree",
+    "binding": "ASSETS",
+    "run_worker_first": ["/audio/*"]
+  }
+}

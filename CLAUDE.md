@@ -53,7 +53,7 @@ The following are **live and used by the program, or are canonical build output*
 - `engine/`, `cic/engine/` — the core engine and the corpus tools
 - `records/`, `packages/`, `canon/`, `fixtures/` — structured world data, compiled build output, sealed probes, the fixture world
 - `cic/texts/`, `cic/corpus-map/` — the Library: vendored source editions and the map of which works belong to which tradition
-- `cic-poc/frontend/`, `cic-website/` — the participant-facing app and the public site; what Render and Cloudflare serve
+- `cic-poc/frontend/`, `cic-website/`, `cft-website/` — the participant-facing app, the public site and the Church Family Tree's site; what Render and Cloudflare serve
 - `Build/worlds/` — one home per world, keyed by registry code (repo-structure cleanup phase 2, 2026-09-15): the canonical construction documents (Doc_01–Doc_09 per world, their reviews, chunks and Representative) once approved to proceed at `Build/worlds/<code>/`, each world's own indexes/build log/source manifests at `Build/worlds/<code>/build/`, and the fleet-level `_cross-world/` documents. Worlds without a registry code yet still live at `Build/World-Builds/<long-name>/` until they get one.
 - `Build/reference/` — the method and spec library: the Level documents, the Redesign-Spec, the current-era method documents, the fleet-voice exemplar. Read constantly, edited rarely; a template exists once, here.
 - `Sandbox/` — next-version work in progress: pure code only, held to the same discipline as everything above (decided 2026-09-26). Support material for `Sandbox/<project>/` lives in `Build/Ministry/Features/<project>/`, never inline here.

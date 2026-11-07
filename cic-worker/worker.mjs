@@ -1,16 +1,4 @@
-// Byte-range support for the audio under /audio/.
-//
-// Cloudflare's static-asset serving ignores a Range header: it answers 200 with
-// the whole file and no Accept-Ranges. iPhone Safari first asks for bytes=0-1
-// and only accepts a 206 answer, so it needs this to play and seek narration
-// reliably. The recordings (.mp3) are read from the R2 bucket bound as AUDIO
-// when there is one, and from the static assets otherwise, or when the bucket
-// does not hold the file. Everything else, including the small manifest files
-// under /audio/, goes straight to the assets, unchanged.
 
-// The baseline security headers of cic-website/_headers. A response built here
-// does not pass through that file, so they are repeated; a test keeps the two
-// in step.
 export const BASELINE_HEADERS = {
   'Strict-Transport-Security': 'max-age=31536000',
   'X-Content-Type-Options': 'nosniff',
@@ -18,11 +6,6 @@ export const BASELINE_HEADERS = {
   'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=()',
 };
 
-/**
- * Parse a single-range header against a file size.
- * Returns {start, end} (inclusive), null when the range cannot be satisfied
- * (416), or 'ignore' when the header is not a single bytes range (serve 200).
- */
 export function parseRange(header, size) {
   const m = /^bytes=(\d*)-(\d*)$/.exec((header || '').trim());
   if (!m) return 'ignore';
@@ -51,10 +34,6 @@ function bucketHeaders(object) {
   return out;
 }
 
-/**
- * Answer from the bucket: null when the file is not there (the caller then
- * falls back to the assets), otherwise a 200, 206, 304 or 416 response.
- */
 async function fromBucket(request, bucket, key) {
   const head = await bucket.head(key);
   if (!head) return null;
@@ -97,7 +76,6 @@ export default {
         const answer = await fromBucket(request, env.AUDIO, decodeURIComponent(url.pathname.slice(1)));
         if (answer) return answer;
       } catch (err) {
-        // The bucket is unreachable: serve from the assets rather than fail.
       }
     }
 

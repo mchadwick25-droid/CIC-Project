@@ -988,3 +988,20 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 
 **Action.** `git mv`, no content edited, all three to `Build/Ministry/Operations/Standing/`. `tools/moved_paths.txt` maps each old path to its new one; the path-check baseline entries for these files carry the new paths (two of the investigation's entries resolve at the new home and are removed). The README map no longer lists them under `Build/reference/`. `CiC_V7_Upgrade_Reference.md` points to the log's new path. The five hand-labelled sample rows in `tools/tests/test_check_live_commentary.py` that pointed at the moved files are replaced by five `PROTECTED` rows from the witt source records. The many comments in `engine/`, `render.yaml` and the runbooks that cite `PHASE-1-LAUNCH.md` by file name still name the file correctly.
 
+## 2026-11-06 — `cft-website/` joins the root as the Church Family Tree's live folder
+
+**Context.** The Church Family Tree moves to its own domain, `www.churchfamilytree.com`, served by a
+second Cloudflare Worker from the same repository (Church Family Tree Decision Log, 2026-11-06,
+rulings 10 and 12, and the move-order entry of the same date, option A).
+
+**Action.**
+- New top-level live folder `cft-website/`: the tree's own site files. It starts with `_headers`
+  and `robots.txt`; the map, movement pages and narration move into it by pure rename in a later
+  step, once the new domain serves the tree.
+- New root config `wrangler.cft.jsonc` for the second Worker, reusing `cic-worker/worker.mjs`.
+- New script `tools/build_tree_site.mjs` assembles the served site into `.build/tree/`, which is
+  git-ignored, and checks every shared copy against its source. CI runs it in the `tree-site` job.
+- `wrangler.jsonc` loses its commentary, by the standing rule.
+- The root `README.md` map and the live-surface list in `CLAUDE.md` name the new folder;
+  `tools/check_live_commentary.py` and `tools/check_spelling.py` cover it.
+
