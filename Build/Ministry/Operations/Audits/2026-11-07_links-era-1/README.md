@@ -143,7 +143,7 @@ Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-07)
 - Irenaeus has no movement of his own.
 - Montanism's end date ("c. 165-400s") against its own sixth-century evidence. For the census entry's owner.
 - Raw movement IDs in four era-2 and era-3 movements' text. For those eras' passes.
-- Who compiled the Philocalia: the records disagree. **A cross-world ruling for Mark.**
+- Who compiled the Philocalia: the records disagree. Ruled by Mark after the merge: the tree credits Basil and Gregory, and the records stay as they are (Decision-Log, "The Philocalia's compilers", 2026-11-07; data release 5).
 - The roman-church-third-century half of "Two movement texts repeat corrected claims" is fixed; the Aquileia half (era 2) stays open.
 
 Notes:

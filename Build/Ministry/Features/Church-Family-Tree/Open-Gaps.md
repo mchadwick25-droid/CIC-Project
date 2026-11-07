@@ -113,3 +113,7 @@ it, never by deleting it.
     (`cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`, lines 47442-47443). A cross-world
     ruling for Mark. Until then the era 1 text follows the more cautious reading ("tradition
     credits").
+    - 2026-11-07: closed (Mark: "go with the reliable credits and forget the cappadocian record
+      on this"). The tree credits Basil and Gregory of Nazianzus as its compilers, on the word of
+      the NPNF 7 and NPNF 8 editors, beside Gregory's Letter 115. The records are not changed.
+      Decision-Log, "The Philocalia's compilers", 2026-11-07.

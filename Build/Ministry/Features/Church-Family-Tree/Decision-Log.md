@@ -348,3 +348,18 @@ cap is unchanged. The launch prompt carries the change.
 
 Scope: this link work. The general split in `CLAUDE.md` (Sonnet drafts, Opus reviews) is not
 changed by this entry.
+
+## 2026-11-07 — The Philocalia's compilers
+
+**Decided (Mark: "go with the reliable credits and forget the cappadocian record on this", and
+"make sure its an accurate coming from the sources").** The tree credits Basil of Caesarea and
+Gregory of Nazianzus with compiling the Philocalia of Origen, without "tradition says". The
+credit is stated as the editors' credit, because that is where it comes from: the editors of the
+vendored editions of both men's letters say it (Browne and Swallow, NPNF 7, 1894: "From his
+exegetical writings they compiled a book of Extracts"; Blomfield Jackson, NPNF 8, 1895: "in
+conjunction with his friend Gregory, Basil compiled the collection"). Gregory's own Letter 115
+only sends the book, and no ancient text in the Library names its compilers. The Cappadocian
+records, which hold the compilers contested, are left as they are; this is a ruling for the
+tree's text, not a records change. Applied in data release 5 to `alexandria-catechetical`'s
+legacy and the `alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition` link
+note.

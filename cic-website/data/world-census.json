@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 4,
+   "number": 5,
    "date": "2026-11-07"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -3201,7 +3201,7 @@
    "to": "cappadocian-nicene-pastoral-monastic-tradition",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "The fifth-century historian Socrates says Basil and Gregory of Nazianzus studied Origen's works and drew their reading of Scripture from them. They then used Origen against the Arians. Around 382 Gregory sent a friend the Philocalia of Origen, an anthology tradition credits to the two of them.",
+   "note": "The fifth-century historian Socrates says Basil and Gregory of Nazianzus studied Origen's works and drew their reading of Scripture from them. They then used Origen against the Arians. Around 382 Gregory sent a friend 'the volume of the Philocalia of Origen'. The editors of both men's letters credit that anthology to the two of them.",
    "sources": [
     {
      "kind": "primary",
@@ -3231,6 +3231,20 @@
      "locus": "Ep. 115",
      "quote": "we send you the volume of the Philocalia of Origen, containing a selection of passages useful to students of literature.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "C. G. Browne and J. E. Swallow, prolegomena to Gregory of Nazianzus, Section I (The Life), in Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (1894)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "22752-22754",
+     "quote": "From his exegetical writings they compiled a book of Extracts, which they published in twenty-seven books, to which they gave the name of Philocalia"
+    },
+    {
+     "kind": "secondary",
+     "work": "Blomfield Jackson, prolegomena to Basil, in Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (1895)",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "1466-1467",
+     "quote": "in conjunction with his friend Gregory, Basil compiled the collection of the beauties of Origen which was entitled"
     }
    ],
    "citation_specificity": "A",
@@ -5102,7 +5116,7 @@
     "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
     "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
    ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. The two are credited with a book of pieces from his work, the Philocalia. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
    "sources": [
     {
      "work": "Clement of Alexandria, Stromata (Miscellanies)",
