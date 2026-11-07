@@ -24,9 +24,9 @@
   "field": "relationsSummary",
   "paragraph": 0,
   "fre_before": 27.7,
-  "fre_after": 66.5,
-  "fk_after": 6.6,
-  "words": 33,
+  "fre_after": 62.6,
+  "fk_after": 7.1,
+  "words": 32,
   "passed": true
  },
  {
@@ -224,9 +224,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 42.6,
-  "fre_after": 61,
-  "fk_after": 8,
-  "words": 146,
+  "fre_after": 61.3,
+  "fk_after": 7.7,
+  "words": 145,
   "passed": true
  },
  {
@@ -354,9 +354,9 @@
   "field": "voices",
   "paragraph": 4,
   "fre_before": 52.6,
-  "fre_after": 66.4,
-  "fk_after": 6.9,
-  "words": 25,
+  "fre_after": 64.7,
+  "fk_after": 9.5,
+  "words": 23,
   "passed": true
  },
  {
@@ -374,9 +374,9 @@
   "field": "legacy",
   "paragraph": 0,
   "fre_before": 32.6,
-  "fre_after": 60.7,
-  "fk_after": 8,
-  "words": 103,
+  "fre_after": 64.7,
+  "fk_after": 7.4,
+  "words": 116,
   "passed": true
  },
  {

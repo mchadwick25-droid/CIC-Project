@@ -1372,7 +1372,7 @@
    "to": "pneumatomachian-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In 381 the Council of Constantinople, in its first canon, cursed by name the Semi-Arians, who were also called Pneumatomachi. A law of 383 banned their meetings too, as well as those of Eunomians, Arians and Macedonians. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit. It stood against those who denied his sovereignty.",
+   "note": "In 381 the Council of Constantinople, in its first canon, cursed by name the Semi-Arians, who were also called Pneumatomachi. A law of 383 banned their meetings too, as well as those of Eunomians, Arians and Macedonians. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit. It was aimed at those who sought to destroy the Spirit's sovereignty.",
    "sources": [
     {
      "kind": "primary",
@@ -4465,7 +4465,7 @@
    "to": "aksumite-christianity",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. Two writers of the sixth century still find a Christian kingdom there. Procopius calls the king of the Ethiopians a devoted Christian. Cosmas lists Axum as one of the lands that have churches.",
+   "note": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. In the sixth century the land still had a bishop and a Christian king. A Syriac book from soon after 525 names Euprepios as bishop under King Kaleb. Procopius calls the Ethiopian king of his day a devoted Christian, and Cosmas lists Axum as a land with churches. No bishop is named in these texts between Frumentius and Euprepios.",
    "sources": [
     {
      "kind": "primary",
@@ -4485,6 +4485,36 @@
      "lines": "36111-36112",
      "locus": "Apol. ad Const. 31",
      "quote": "Constantius Victor Maximus Augustus, to Æzanes and Sazanes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of the Himyarites, list of chapters, ch. XXXIX (trans. Moberg, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "5827-5829",
+     "locus": "Book of the Himyarites, ch. XXXIX (heading)",
+     "quote": "Account telling how the freeborn Umayyah came to Abys- sinia out of zeal for God, and informed the holy Bishop Euprepios and Kaleb, the believing King of Abyssinia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of the Himyarites, ch. XLVIII, speech of King Kaleb (trans. Moberg, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "8076",
+     "locus": "Book of the Himyarites, ch. XLVIII",
+     "quote": "These things said now the holy Euprepios, our bishop,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Axel Moberg, introduction to The Book of the Himyarites (1924), on the date of the work",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "3980-3982",
+     "locus": "Moberg, Introduction",
+     "quote": "composed shortly after the second Abyssinian expedition, i. e., shortly after A. D. 525,",
      "license": "public-domain"
     },
     {
@@ -5486,9 +5516,9 @@
      "source_id": null,
      "work": "Ambrose, Sermon against Auxentius, section 22",
      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-     "lines": "42417-42418",
+     "lines": "42416-42418",
      "locus": "Sermo c. Aux. 22",
-     "quote": "because there had been here an Arian bishop, named Auxentius.",
+     "quote": "That no one might know who he was, he changed his name so as to call himself Auxentius, because there had been here an Arian bishop, named Auxentius.",
      "license": "public-domain"
     }
    ],
@@ -5548,10 +5578,10 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Jerome, letter to Augustine, quoted by Augustine in Letter 144 to Jerome's correspondents (Jerome, Ep. 134), as given in Jerome's letters",
+     "work": "Jerome, letter to Augustine (Jerome, Ep. 134), as quoted by Augustine in his letter to the bishop Optatus (NPNF 2.6, Jerome Letter 144)",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
      "lines": "28727-28728",
-     "locus": "Jerome, Ep. 134 (in Ep. 144)",
+     "locus": "Jerome, Ep. 134, in Letter 144",
      "quote": "For my part, however, I am resolved to love you, to look up to you, to reverence and admire you, and to defend your opinions as my own.",
      "license": "public-domain"
     }
@@ -5596,8 +5626,8 @@
    "from": "pelagianism",
    "to": "hieronymian-ascetic-literary",
    "type": "argued against",
-   "confidence": "Documented",
-   "note": "In 416 the monasteries of Jerome's community at Bethlehem were attacked and burned, and his deacon was killed. Augustine reports that people said the followers of Pelagius had done it. Pope Innocent wrote on what the women there told him. He noted that they had not named the man behind it.",
+   "confidence": "Inferential-Thin",
+   "note": "In 416 or 417, Jerome's monasteries at Bethlehem were attacked and burned, and his deacon was killed. Augustine wrote that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it had not named the man behind it, though he saw no doubt about who was guilty. So the charge rests on report, not on a named act.",
    "sources": [
     {
      "kind": "primary",
@@ -5627,6 +5657,26 @@
      "lines": "28472-28474",
      "locus": "Jerome, Ep. 137",
      "quote": "with wonderful clemency and generosity they have left untold the name and motive of his human agent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.attack-letters-416",
+     "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28474-28475",
+     "locus": "Jerome, Ep. 137",
+     "quote": "Now although there can be no doubt as to who is the guilty person;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "W. H. Fremantle, Prolegomena to Jerome, chronology of the Pelagian years (NPNF 2.6, 1893), an editor's dating",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "1734-1736",
+     "locus": "NPNF 2.6 Prolegomena",
+     "quote": "416–7. A crowd of Pelagian monks attacked the monasteries, slew some of their inmates, and burned or threw down the buildings,",
      "license": "public-domain"
     }
    ],
@@ -5833,10 +5883,10 @@
     {
      "kind": "primary",
      "source_id": "don.source.optatus-against-the-donatists",
-     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I, ch. 19",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I, ch. 15",
      "file": "cic/texts/optatus_against-the-donatists.txt",
      "lines": "187",
-     "locus": "Book I.19",
+     "locus": "Book I.15",
      "quote": "although Caecilian was already the Bishop, made the Schism by consecrating Majorinus",
      "license": "public-domain"
     },
@@ -6146,9 +6196,9 @@
    "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
    "from": "homoian-arian-christianity",
    "to": "gothic-and-vandal-homoian-christianity",
-   "type": "continued as",
+   "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. In the fifth century the historian Socrates wrote that many Goths still held it.",
+   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. Socrates, writing in the fifth century, says many Goths took up this faith for the sake of the emperor Valens, and that many still held it in his day.",
    "sources": [
     {
      "kind": "primary",
@@ -6355,6 +6405,98 @@
      "locus": "HE II.19",
      "quote": "That a man nurtured in iniquity and scheming to win notoriety by ungodliness should be counted worthy of the diaconate, was, they urged, a disgrace to the Church.",
      "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "from": "desert-monasticism",
+   "to": "the-kollyvades-and-greek-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice. It gathers old Greek writings on prayer and on guarding the mind. Its first volume opens with counsels credited to Antony the Great. It also holds works by Evagrius and by John Cassian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893, ed. Tzelatis), title page: the Venice edition",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "38-40",
+     "locus": "Philokalia I, title page",
+     "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίότου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), editor's dedication to the fathers of Athos: Nikodemos and Macarius as its first editors",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "147-153",
+     "locus": "Philokalia I, dedication",
+     "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιόλίων τὸν αὐτοῦ βίον καταδαπα- νήσας, καὶ δὴ καὶ εἰς τὰν τῆς παρούσης βίδλου οὐκ ἐλάχιστα εἰσενέγκας καὶ κα- ταθαλών, ὅτε ταύτην σὺν τῷ τῆς Κοριν- θίας ᾿Αγίῳ Μακαρίῳ ἐξεδίδου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: the prooimion, then Antony",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58621-58628",
+     "locus": "Philokalia I, contents (Antony)",
+     "quote": "Προοίμιον εἰς τὴν παροῦσαν Βίδλον Φύλ. Τοῦ ἐν ᾿Αγίοις Πατρὸς ἡμῶν ᾿Αν- τωνίου τοῦ Μεγάλου, παραινέσεις περὶ ἤθους ἀνθρώπων, καὶ χρη- στῆς πολιτείας ἐν χεφαλαίοις ἑχατὸν ἑόδομιήχοντα.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), heading of Antony's counsels",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "1017-1020",
+     "locus": "Philokalia I, Antony",
+     "quote": "ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ ΠΑΡΑΙΝΈΣΕΙΣ ΠΕΡῚ ἩΘΟΥ͂Σ ἈΝΘΡΏΠΩΝ, ΚΑΙ ΧΡΗΣΤῊΗΣ ΠΟΛΊΤΕΙΑΣ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Isaiah the Anchorite",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58630-58632",
+     "locus": "Philokalia I, contents (Isaiah)",
+     "quote": "Τοῦ ᾿Αγίου Ἡσαΐου τοῦ ᾿Αναχω- ρητοῦ περὶ τηρήσεως νοὸς Κεφα- λαια εἴκοσι ἑπτά.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Evagrius",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58634-58636",
+     "locus": "Philokalia I, contents (Evagrius)",
+     "quote": "Εὐαγρίου Μοναχοῦ ὑποτύπωσις Νο- ναχικὴ διδάσχουσα πῶς δεῖ ἀ-- σχεῖν, χαὶ ἡσυχάζειν.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: John Cassian",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58646-58647",
+     "locus": "Philokalia I, contents (Cassian)",
+     "quote": "Τοῦ ᾿Αγίου Κασσιανοῦ τοῦ Ῥω- μαίου Λόγος, πρὸς Κάστορα,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bingaman and Nassif (eds.), The Philokalia: A Classic Text of Orthodox Spirituality (Oxford University Press, 2012), for the Venice printing of 1782",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
     }
    ],
    "citation_specificity": "A",
@@ -8817,7 +8959,7 @@
    "entry": null,
    "sourcing": "Thin and largely hagiographic. Jerome's Life of Hilarion and Life of Malchus are the main surviving witnesses and both are written to edify; Palladius and the pilgrim literature supply glimpses. Nothing here is the movement's own teaching in its own voice, which is the difference from Egypt and from Gaul.",
    "floorNote": "Not in question",
-   "relationsSummary": "Its roots are in Egypt: Hilarion learned the life from Antony. It leads on to the Chalcedonian monasteries of the Judean desert and Gaza. Those start about 450, where this one leaves off.",
+   "relationsSummary": "Its roots are in Egypt: Hilarion learned the life from Antony. It came before the Chalcedonian monasteries of the Judean desert and Gaza. Those start about 450, where this one leaves off.",
    "why": "Hilarion, a disciple of Antony's, went home to Gaza around 306 and settled in the coastal scrub. He lived alone, but within reach of the villages, roads, and pilgrims of the coast rather than in deep desert. In the Judean hills, Chariton founded another pattern at Pharan, called the laura. There monks lived apart through the week and met only on Sundays. That way of life later shaped the great monasteries of the Judean desert. Jerome told the story of a lonelier life still, farther north, in his Life of Malchus, a Syrian monk carried off by raiders.",
    "longDescription": "Hilarion came back to Gaza from Egypt in about 306, after time spent with Antony. He settled in the coastal scrub near the town where he was born. What grew around him was recognizably Egyptian, and recognizably not. Monks lived alone or in twos among villages and roads rather than in deep desert. They were close enough to the Christian and pagan people of the coast to be interrupted all the time. In the Judean hills, in about the same decades, Chariton founded a different arrangement at Pharan. This was a laura, where solitaries lived apart through the week and came together on Sundays. It became the typical Palestinian form. Pilgrims passed through all of it constantly on the way to the holy places, and some of them stayed. Jerome, writing from Bethlehem, gave the movement its literature in a Life of Hilarion. He also wrote a Life of Malchus, a Syrian monk taken by Saracen raiders. Both are shaped to teach rather than to record. So the period is better known for its stories than for what it actually taught.",
    "teaser": "Gaza and the Judean hills, c. 330 to 450 - Egyptian asceticism transplanted to a landscape full of villages, roads and pilgrims, where it invented the laura and then handed it on.",
@@ -9209,7 +9351,7 @@
     ],
     "recordHolds": "Rich in the three bishops' letters and sermons. Thin on the enslaved and the parties they defeated."
    },
-   "longDescription": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine.\n\nBasil's own preaching indicted the region's grain-hoarders and moved them to open their stores. After the famine of 368, he built a complex outside Caesarea with a hospital, a hostel, and a workhouse. It was a genuine undertaking, with almost no precedent. But it was not the first of its kind anywhere, as later legend sometimes claims. Even before that, he had spent years answering a more radical ascetic ferment loose in the region. Households were dissolved, slaves were urged to leave their masters, and fasts were kept against the church's own feasts. He did not condemn the impulse. Instead, he gave it a rule, an obedience, and an open door for guests. Macrina turned the family estate into an ascetic household of her own. In her brother's account of her last days, she taught him theology from her deathbed. That account is the only record of her that survives; no words of her own reach us apart from his telling.\n\nGregory of Nazianzus carried the argument to Constantinople. There, in 381, the creed most Christians still say took its final shape. Those years were not always peaceful. This Christian tradition buried its own martyr, Eupsychius of Caesarea, who was put to death under Julian in 362. Under Valens, a hostile church party had Gregory of Nyssa thrown out of office. He lived in exile until 378. Then take Epistle 38, the letter most often used to show that the three men agreed on the technical terms. Even its author is in dispute. Modern scholars still argue over whether Basil or Gregory of Nyssa wrote it.",
+   "longDescription": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine.\n\nBasil's own preaching indicted the region's grain-hoarders and moved them to open their stores. After the famine of 368, he built a complex outside Caesarea with a hospital, a hostel, and a workhouse. It was a genuine undertaking, with almost no precedent. But it was not the first of its kind anywhere, as later legend sometimes claims. Even before that, he had spent years answering a more radical ascetic ferment loose in the region. Households were dissolved, slaves were urged to leave their masters, and fasts were kept against the church's own feasts. He did not condemn the impulse. Instead, he gave it a rule, an obedience, and an open door for guests. Macrina turned the family estate into an ascetic household of her own. In her brother's account of her last days, she taught him theology from her deathbed. That account is the only record of her that survives; no words of her own reach us apart from his telling.\n\nGregory of Nazianzus carried the argument to Constantinople. There, in 381, the creed most Christians still say took its final shape. Those years were not always peaceful. This Christian tradition buried its own martyr, Eupsychius of Caesarea, who was put to death under Julian in 362. Under Valens, a hostile church party had Gregory of Nyssa thrown out of office. He lived in exile until 378. Epistle 38 is the letter most often used to show that the three men agreed on the technical terms. Yet even its author is in dispute. Modern scholars still argue over whether Basil or Gregory of Nyssa wrote it.",
    "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way.",
    "voices": [
     "Basil, bishop of Caesarea, preached during the famine of 368 that the bread being held back belonged to the hungry and the coat in the closet belonged to the naked — then built a hospital, hostel, and workhouse complex outside the city to outlast the crisis that occasioned it. The ascetic brotherhoods he organized answered a wilder, older impulse already loose in the region, households breaking apart and the enslaved leaving their masters, by giving it walls and a rule instead of condemning it.",
@@ -9985,7 +10127,7 @@
     "Theodoret of Cyrrhus — bishop, historian, and commentator, the last great voice of the Antiochene reading",
     "Libanius — the pagan rhetorician who trained Chrysostom, and a reminder that this Christianity was formed inside a still-classical education"
    ],
-   "legacy": "Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy'. But he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the Communion liturgy that carries his name is still the normal Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading held that a text means what it meant to those who first heard it. Later Western Bible scholars made a similar historical-grammatical method standard, though no one has traced a direct line between the two. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death. Much of his work survives only in Syriac translation, kept safe by the Church of the East.",
+   "legacy": "Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy'. But he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the Communion liturgy that carries his name is still the normal Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading held that a text means what it meant to those who first heard it. Later Western Bible scholars made a similar historical-grammatical method standard. How much they owed to Antioch directly is not clear. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death. Much of his work survives only in Syriac translation, kept safe by the Church of the East.",
    "experienceToday": [
     {
      "text": "The Patriarchal Church of St George, Istanbul — seat of the Ecumenical Patriarchate, where the relics of John Chrysostom rest after their return from Rome in 2004",
@@ -10452,7 +10594,7 @@
     "Chromatius - bishop from 388, patron of both Rufinus' and Jerome's translation work, whose own sermons are not in this corpus",
     "Fortunatianus - bishop in the 340s and 350s, author of the earliest Latin gospel commentary, lost until a manuscript was identified in 2012",
     "Jerome - who spent his twenties here among what he called a chorus of the blessed, and later wrote against the man he had shared it with",
-    "Ambrose of Milan - he came up the road in 381 to the council that condemned two Homoian bishops of Illyricum. He led its questioning."
+    "Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops, and led its questioning"
    ],
    "legacy": "The Apostles' Creed that the Latin West came to say is not just the Roman text. Every later version carries the descent into hell, and the first Western creed for baptism known to carry it is this one. Rufinus notes that the Roman creed lacks it. Still, a creed drawn up at Sirmium in 359 already had a form of it. The clause reached the accepted Western text from the creeds of the provinces, not from Rome. Rufinus' commentary is also one of the first Latin works to explain a creed in full. Other writers had explained it briefly before him, he says. A century later, Gennadius judged it so good that others counted for nothing beside it. Rufinus' translations also brought much of Greek Christianity to the Latin Middle Ages, often as the only text that survives. He translated Origen, Eusebius, the Clementine Recognitions, Basil, and the Sentences of Sextus.",
    "documentedStories": [
@@ -10545,7 +10687,7 @@
     "Sulpitius Severus - whose Sacred History narrates the Gallic side of the Arian crisis",
     "Martin of Tours - Hilary's disciple, whom he ordained, and the bridge to the monastic Gaul that follows"
    ],
-   "legacy": "Hilary's De Trinitate gave Latin theology its first full study of the Trinity. Augustine, who wrote the second, quotes it by name. Gaul's refusal of the council of Ariminum also had real effects. Writing some forty years on, Sulpicius Severus says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths. Gregory saw the light as Hilary's help against the heretics he had fought. Hilary also ordained Martin. That ties these bishops to the Gaul of the monks that grew up beside them.",
+   "legacy": "Hilary's De Trinitate gave Latin theology its first full study of the Trinity. Augustine, who wrote the second, quotes it by name. Gaul's refusal of the council of Ariminum also had real effects. Writing some forty years on, Sulpicius Severus says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told of the Frankish king Clovis, camped near Poitiers on his way to fight the Arian Goths. A fiery light came out of Hilary's church there and stood over his head. Gregory saw the light as Hilary's help against the heretics he had fought. Hilary also ordained Martin. That ties these bishops to the Gaul of the monks that grew up beside them.",
    "documentedStories": [
     {
      "title": "The Bishops Who Would Not Eat the Emperor’s Bread",
