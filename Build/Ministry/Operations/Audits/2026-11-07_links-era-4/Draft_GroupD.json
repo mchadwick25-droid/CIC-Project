@@ -396,7 +396,7 @@
    "disposition": "out-of-scope",
    "link_id": null,
    "prose_change": null,
-   "reason": "'Had been the losing side' is the pre-conquest past, owned by the era-3 West Syriac entry and the Byzantine entries. Evidence for whoever drafts it: Michael XI.3 (file lines 31966-31980) has Heraclius, not Justinian, ordering noses and ears cut for those who would not adhere to Chalcedon, so the Heraclian-era imperial church (era 4) is the better 'from' party for the 620s-630s."
+   "reason": "'Had been the losing side' is the pre-conquest past, owned by the era-3 West Syriac entry and the Byzantine entries. Cross-group note for the group drafting byzantine-imperial-church-heraclian-iconoclast (era 4) and for era 3: Michael XI.3 (file lines 31966-31980) has Heraclius, not Justinian, ordering noses and ears cut for those who would not adhere to Chalcedon, so the Heraclian-era imperial church (era 4) is the better 'from' party for the 620s-630s."
   },
   {
    "movement": "syriac-orthodox-under-islam",
@@ -520,8 +520,8 @@
     "The two periods overlap (635-651). The link rests on the office of catholicos continuing across the Sasanian fall, shown by the synod collection itself, which carries both synods."
    ],
    "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Silk Road text's 'A continuation of the Syriac Church of the East'.",
-   "note_fre_after": 75.1,
-   "note_fk_after": 6.5
+   "fre_after": 75.1,
+   "fk_after": 6.5
   },
   {
    "id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
@@ -530,7 +530,7 @@
    "to": "church-of-the-east-under-the-abbasids",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The line of catholicoi at Seleucia ran straight through 845. Bar Hebraeus, writing in the thirteenth century, records Sabrisho made catholicos there in 832. Abraham followed him, and then Theodosius, ordained at Seleucia about 853.",
+   "note": "The line of church leaders at Seleucia ran straight through 845. Bar Hebraeus, writing four centuries later, lists them in order. Sabrisho took office in 832. Abraham came next, and then Theodosius, ordained at Seleucia about 853.",
    "sources": [
     {
      "kind": "primary",
@@ -585,8 +585,8 @@
     "Doc-hygiene, not changed: the Silk Road longDescription ends on a fragment ('Though the same communion carried on in Persia and Central Asia.'). Fixing it means rewriting the whole paragraph to score, which this pass did not attempt."
    ],
    "change_reason": "New: the Silk Road text names the communion carrying on after 845, and the Abbasid stub names the Silk Road period as its predecessor.",
-   "note_fre_after": 40.0,
-   "note_fk_after": 10.3
+   "fre_after": 61.4,
+   "fk_after": 6.8
   },
   {
    "id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
@@ -595,7 +595,7 @@
    "to": "church-of-the-east-under-the-mongols",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The same office of catholicos carried on as the Mongols came west. Bar Hebraeus, who lived through these years, records that Sabrisho Bar Masihi held it for thirty-one years, until his death in 1256. Makkikha, metropolitan of Nisibis, followed him.",
+   "note": "The same office carried on as the Mongols came west. Bar Hebraeus lived through these years. He records that the catholicos Sabrisho Bar Masihi held it for thirty-one years and died in 1256. Makkikha of Nisibis took his place.",
    "sources": [
     {
      "kind": "primary",
@@ -612,7 +612,7 @@
      "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
      "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Sabrisho V Bar Masihi",
      "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
-     "lines": "21151-21157",
+     "lines": "21150-21157",
      "locus": "Chron. Eccl. II, Sabrisho Bar Masihi",
      "quote": "Obiit autein die sabbati, 23 a in mense quarto anni Arabum sexcentesimi quinqua- gesimi quarti (inchoati 30 Jan. 1256), officio functus annis uno et triginta,",
      "license": "public-domain"
@@ -638,8 +638,8 @@
     "Bar Hebraeus (1226-1286, per the file header) is close to contemporary for 1256."
    ],
    "change_reason": "New: the Abbasid stub names the Mongol period as its successor; the Silk Road text's 'reach east again under the Mongols' runs through this link.",
-   "note_fre_after": 55.8,
-   "note_fk_after": 8.8
+   "fre_after": 73.3,
+   "fk_after": 5.5
   },
   {
    "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
@@ -648,7 +648,7 @@
    "to": "st-thomas-christians-of-india",
    "type": "in contact with",
    "confidence": "Widely Accepted",
-   "note": "Around 800 the catholicos Timothy counted the Indians among the peoples under his see. A later Malabar chronicle says bishops came to Kollam 'by order of the Catholicos who sent them'. Mingana read the bishop named on the Kollam copper plates as Sabrisho, a Syriac name.",
+   "note": "Around 800 the church's head, Timothy, named the Indians among the peoples in his care. A later Malabar chronicle says bishops came to Kollam when the head of the church sent them. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
    "sources": [
     {
      "kind": "primary",
@@ -691,8 +691,8 @@
     "Timothy's letter was unpublished when Mingana wrote; he translates it from a manuscript in his own collection (file lines 1692-1693). It is not otherwise vendored."
    ],
    "change_reason": "New: the St Thomas text names the Church of the East's patriarch as the source of its bishops.",
-   "note_fre_after": 46.9,
-   "note_fk_after": 10.5
+   "fre_after": 64.4,
+   "fk_after": 7.8
   },
   {
    "id": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
@@ -743,8 +743,8 @@
     "Check the 1301 quote's line span: the colophon wraps across lines 3533-3535."
    ],
    "change_reason": "New: the St Thomas legacy names the Kerala community as its descendants and as continuous with it.",
-   "note_fre_after": 61.2,
-   "note_fk_after": 7.3
+   "fre_after": 61.2,
+   "fk_after": 7.3
   },
   {
    "id": "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity",
@@ -753,7 +753,7 @@
    "to": "melkite-arabic-christianity",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Mar Saba, one of the Judean desert houses founded before 614, was still home to Chalcedonian monks under Arab rule. Modern historians place John of Damascus among them, and trace the first Christian theology in Arabic to these monasteries. This rests on modern histories rather than a text from the time.",
+   "note": "Mar Saba was one of the Judean desert houses founded before 614. Chalcedonian monks still lived there under Arab rule. Modern historians place John of Damascus among them. They trace the first Christian theology in Arabic to these monks. This rests on modern histories, not on a text from the time.",
    "sources": [
     {
      "kind": "secondary",
@@ -776,8 +776,8 @@
     "'Founded before 614' rests on the Judean desert entry's own text, which names Mar Saba as one of its houses."
    ],
    "change_reason": "New: the Melkite text names the Judean desert monastic tradition as its heir's parent and Mar Saba as its intellectual home.",
-   "note_fre_after": 54.6,
-   "note_fk_after": 9.8
+   "fre_after": 66.4,
+   "fk_after": 6.5
   },
   {
    "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
@@ -786,7 +786,7 @@
    "to": "melkite-arabic-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In 754 the iconoclast council at Constantinople cursed John of Damascus under his family name, Mansur. Its acclamations damn him as a man 'who has an evil name and Saracen opinions', an enemy of the empire.",
+   "note": "In 754 a council of bishops at Constantinople backed the emperor's ban on icons and cursed John of Damascus. It used his family name, Mansur. Its closing cries damn him as a man 'who has an evil name and Saracen opinions'.",
    "sources": [
     {
      "kind": "primary",
@@ -808,11 +808,12 @@
    "drafter_flags": [
     "The editor's gloss in the same passage identifies Mansur with John Damascene ('Mansur [μανσουρ, John Damascene]', lines 39465-39466); the anathema itself names only Mansur.",
     "The editor notes the acclamations 'are not given in full' (line 39472-39473); the quoted line is as printed.",
+    "Cross-group: byzantine-imperial-church-heraclian-iconoclast is an era-4 movement drafted by another group, and its own text names the 754 council. The merge should dedupe if that group drafts the same pair.",
     "Only the imperial side is linked. John's own treatises against the iconoclasts are not vendored, so no melkite-to-imperial 'argued against' link is drafted."
    ],
    "change_reason": "New: the Melkite text names the Byzantine emperors' attempt to silence John of Damascus.",
-   "note_fre_after": 41.6,
-   "note_fk_after": 11.8
+   "fre_after": 60.1,
+   "fk_after": 8.2
   },
   {
    "id": "melkite-arabic-christianity--melkite-greek-catholic-church",
@@ -821,7 +822,7 @@
    "to": "melkite-greek-catholic-church",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Melkite Greek Catholic Church came out of a split in the patriarchate of Antioch in 1724. Historians of the Melkite patriarchates trace that Arabic-speaking, Byzantine-rite church back to the Chalcedonians of these centuries. This rests on modern histories, not on a text spanning the seven centuries between.",
+   "note": "The Melkite Greek Catholic Church began with a split in the church of Antioch in 1724. Historians of the Melkite churches trace that Arabic-speaking church back to these centuries. This rests on modern histories. No text from the time spans the seven centuries between.",
    "sources": [
     {
      "kind": "secondary",
@@ -850,8 +851,8 @@
     "Grade could be argued as Widely Accepted; I found no vendored primary for the early side of the continuity, so kept it at Dominant Modern Reconstruction."
    ],
    "change_reason": "New: the Melkite legacy names the Melkite Greek Catholic Church as one of its continuations.",
-   "note_fre_after": 53.9,
-   "note_fk_after": 9.8
+   "fre_after": 70.7,
+   "fk_after": 6.1
   },
   {
    "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
@@ -860,7 +861,7 @@
    "to": "syriac-orthodox-under-islam",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Michael the Syrian, patriarch from 1166, tells how the patriarch Athanasius faced Heraclius over Chalcedon. He calls the Arab conquest God's way 'to deliver us'. Athanasius's disciple John succeeded him in 631, and the same line ran on under the caliphs through Theodore and Severus in the 660s.",
+   "note": "Michael the Syrian, patriarch from 1166, tells how the patriarch Athanasius stood up to Heraclius over Chalcedon. He says God then sent the Arabs to set his church free. Athanasius died in 631, and his pupil John took his place. The same line ran on under the caliphs.",
    "sources": [
     {
      "kind": "primary",
@@ -887,7 +888,7 @@
      "source_id": null,
      "work": "Michael the Syrian, Chronicle XI.5",
      "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
-     "lines": "32307-32310",
+     "lines": "32307-32311",
      "locus": "Chron. XI.5",
      "quote": "En l'an 942 mourut et reposa le patriarche Mar Athanasius '. Il fut dé- posé dans le couvent des Garoumavê*. A sa place, on ordonna Jean^, son dis- ciple,",
      "license": "public-domain"
@@ -914,8 +915,8 @@
     "Michael wrote in the twelfth century, from earlier sources; his first person ('nous', 'Notre Eglise') is itself evidence of the church's self-continuity."
    ],
    "change_reason": "New: gives the era-3 continuesAs pairing a sourced link; the era-4 text names the church's pre-conquest past.",
-   "note_fre_after": 53.3,
-   "note_fk_after": 9.6
+   "fre_after": 75.6,
+   "fk_after": 5.6
   },
   {
    "id": "syriac-orthodox-under-islam--syriac-renaissance",
@@ -924,7 +925,7 @@
    "to": "syriac-renaissance",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Bar Hebraeus numbers the patriarchs of Antioch in one series, from Dionysius, elected in 898, to Basil, made patriarch in 1074. Writing in the thirteenth century, he also quotes Dionysius of Tel Mahre's own account of a patriarch's journey to Egypt.",
+   "note": "Bar Hebraeus lists the patriarchs of Antioch as one numbered series. It runs from Dionysius, chosen in 898, to Basil, made patriarch in 1074. He also quotes Dionysius of Tel Mahre's own account of a journey to Egypt.",
    "sources": [
     {
      "kind": "primary",
@@ -977,8 +978,8 @@
     "Bar Hebraeus is himself a Syriac Renaissance writer (the renaissance entry names him), so his quoting of Dionysius also documents the 'later writers mined' claim."
    ],
    "change_reason": "New: gives the existing continuesAs pairing a sourced link.",
-   "note_fre_after": 50.4,
-   "note_fk_after": 11.1
+   "fre_after": 65.4,
+   "fk_after": 7.1
   }
  ],
  "prose_changes": [
@@ -987,40 +988,40 @@
    "movement": "church-of-the-east-under-the-abbasids",
    "field": "why",
    "old": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
-   "new": "The Church of the East between 845 and 1220, after its mission in Tang China faded and before the Mongols came west. Its catholicos was still chosen and ordained in Mesopotamia, as Theodosius was at Seleucia about 853.",
+   "new": "The Church of the East from 845 to 1220. These are the years after its mission in Tang China faded and before the Mongols came west. Its head was still ordained in Mesopotamia. Theodosius, for one, was ordained at Seleucia about 853.",
    "reason": "The stub showed readers internal words ('the Silk Road entry', 'the Mongol entry'). The new text names the same two boundaries in plain words and adds one sourced fact: Bar Hebraeus records Theodosius ordained at Seleucia in the Arab year 238 (Chron. Eccl. II, file lines 10963-10967).",
-   "fre_after": 51.3,
-   "fk_after": 10.5
+   "fre_after": 71.1,
+   "fk_after": 5.8
   },
   {
    "n": 1,
    "movement": "st-thomas-christians-of-india",
    "field": "relationsSummary",
    "old": "Daughter/partner of the Church of the East",
-   "new": "Part of the communion of the Church of the East, whose catholicos in Mesopotamia sent its bishops.",
+   "new": "Part of the Church of the East, whose leader in Mesopotamia sent its bishops.",
    "reason": "'Daughter' claims the Indian church came out of the Persian one. No vendored text shows that, and the community's own tradition traces it to the apostle Thomas. What the texts show is jurisdiction: bishops sent by the catholicos (Timothy's letter and the Malabar chronicle, in Mingana 1926). The slash shorthand also read as a catalogue note.",
-   "fre_after": 55.2,
-   "fk_after": 9.8
+   "fre_after": 71.8,
+   "fk_after": 6.7
   },
   {
    "n": 2,
    "movement": "syriac-orthodox-under-islam",
    "field": "relationsSummary",
    "old": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
-   "new": "The West Syriac church as a protected community under the caliphs. Its patriarch and historian, Dionysius of Tel Mahre, traveled with the caliph al-Ma'mun. Its monasteries carried its learning.",
+   "new": "The West Syriac church, living as a protected people under the caliphs. Its patriarch, the historian Dionysius of Tel Mahre, went on a journey with the caliph al-Ma'mun. Its monks kept its learning alive.",
    "reason": "The old text was a shelving note ('West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba'): it told readers how entries were filed, not a relationship. The distinction is dropped; the monasteries keep their place. 'Dhimmi' becomes 'protected community', the phrase the longDescription already uses. The al-Ma'mun journey stands: Bar Hebraeus records the caliph ordering the patriarch to go with him into Egypt (Chron. Eccl. I, file lines 21798-21811).",
-   "fre_after": 50.0,
-   "fk_after": 8.8
+   "fre_after": 69.3,
+   "fk_after": 6.5
   },
   {
    "n": 3,
    "movement": "melkite-arabic-christianity",
    "field": "legacy",
    "old": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church. John of Damascus's defense of images became the settled theology of icons for the whole Orthodox world — he was vindicated by name at the council that restored them in 787. And his systematic Exposition of the Orthodox Faith was translated into Latin and read by Western theologians for centuries afterward. Mar Saba, where he wrote, is still a working monastery.",
-   "new": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church. John of Damascus's defense of images became the settled theology of icons for the whole Orthodox world. The iconoclast council of 754 cursed him by name, and the council of 787 that restored the icons overturned it. His systematic Exposition of the Orthodox Faith was translated into Latin and read by Western theologians for centuries afterward. Mar Saba, where he wrote, is still a working monastery.",
-   "reason": "No vendored or repo-cited text shows the council of 787 naming John of Damascus. What the vendored NPNF 14 does show is the 754 council cursing him as 'Mansur' (lines 39468-39469) and 787 reversing that council (the Byzantine entry's own text; NPNF 14 line 39488). The sentence now says that. The Latin line stands: Lequien's prologue names Burgundio's twelfth-century translation and its Western readers (NPNF 9, lines 27529-27533). The paragraph was re-cut into shorter sentences to score.",
-   "fre_after": 36.1,
-   "fk_after": 12.2
+   "new": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion lives on in the Greek Orthodox churches of Antioch and Jerusalem. After a split in the 1700s, it also lives on in the Melkite Greek Catholic Church. John of Damascus's case for images became the settled teaching on icons in the Orthodox world. A council in 754 cursed him by name. The council of 787 that brought back the icons undid its work. His Exposition of the Orthodox Faith was put into Latin, and Western scholars read it for centuries. Mar Saba, where he wrote, is still a working monastery.",
+   "reason": "No vendored or repo-cited text shows the council of 787 naming John of Damascus. What the vendored NPNF 14 does show is the 754 council cursing him as 'Mansur' (lines 39468-39469) and 787 reversing that council (the Byzantine entry's own text; NPNF 14 line 39487). The sentence now says that. The Latin line stands: Lequien's prologue names Burgundio's twelfth-century translation and its Western readers (NPNF 9, lines 27529-27533). The paragraph was re-cut into shorter sentences to score.",
+   "fre_after": 61.8,
+   "fk_after": 7.7
   }
  ],
  "wants": [
