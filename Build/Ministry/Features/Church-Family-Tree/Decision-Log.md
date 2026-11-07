@@ -264,3 +264,11 @@ below with on off switches/legend"; then "Grouped chips").** On `www.churchfamil
 Rejected: every switch in one long scrolling strip (hard to scan on a phone), and one button that
 opens the whole legend (hides more than today's legend does).
 
+**Refined the same day (Mark: connections should be one chip with an explanation, off by default;
+rivers and stories on by default).** The bar is Rivers, Connections, Stories and Key. Connections
+holds a short explanation, an "All connections" switch, the four kinds of link and the four
+levels of certainty. A first visit shows rivers, names and stories with no lines; a visitor turns
+on all connections or only the kinds they want, and the choice is kept. Checked: 0 of 86 lines on
+a first visit, 86 with all on, 34 with only "argued against, broke with", kept after a reload.
+The intro now says where to find them (Reading Ease 70).
+

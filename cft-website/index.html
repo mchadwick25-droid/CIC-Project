@@ -245,8 +245,9 @@ svg#world{display:block;overflow:visible}
   to read its documented story: who carried it, its legacy, and where the
   record comes from. A growing number of Christian traditions are fully
   built, each with its own representative voice you can have a conversation
-  with. Colored lines join traditions where the sources record a link. The
-  switches under the title explain each color. Use them to hide any part of the map.
+  with. Colored lines join traditions where the sources record a link. To see
+  them, open Connections just under the title. The switches there and beside it
+  explain each color, and can hide any part of the map.
   Scroll or drag to move around, hold Ctrl or Cmd and scroll (or pinch on a touch
   screen) to zoom, hover a name for a glimpse, click for the full story.
 </div>
@@ -47249,12 +47250,13 @@ function buildLegend(){
   let rivers=lanesAll;
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
-  let links='';
+  let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
+  links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg>All connections</button>`;
+  links+='<span class="cap">Kind of link</span>';
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
-  links+=`<div class="note">Arrows point from the first movement to the second. Hover or click a line to read the relationship and its sources.</div>`;
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
   const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
-  const evidence=confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
+  links+='<span class="cap">How sure the record is</span>'+confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
@@ -47262,12 +47264,13 @@ function buildLegend(){
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
-  let bar=group('rivers','Rivers',rivers)+group('links','Links',links)+group('evidence','Evidence',evidence);
+  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
   bar+=group('key','Key',key);
   wrap.innerHTML=bar;
-  const hidden=new Set();
-  try{(JSON.parse(localStorage.getItem('tree-hidden')||'[]')).forEach(k=>hidden.add(k));}catch(e){}
+  const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
+  const hidden=new Set(familyKeys);
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).forEach(k=>hidden.add(k));}}catch(e){}
   const applyToggles=()=>{
     const hiddenConf=new Set();
     hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
@@ -47279,7 +47282,8 @@ function buildLegend(){
     gStories.classList.toggle('is-off',hidden.has('stories'));
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
-      const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(b.dataset.toggle);
+      const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
+        :b.dataset.toggle==='links-all'?familyKeys.some(k=>!hidden.has(k)):!hidden.has(b.dataset.toggle);
       b.setAttribute('aria-pressed',String(on));
     });
   };
@@ -47289,6 +47293,9 @@ function buildLegend(){
       const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
       const anyOn=lanes.some(l=>!hidden.has(l));
       lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
+    } else if(k==='links-all'){
+      const anyOn=familyKeys.some(f=>!hidden.has(f));
+      familyKeys.forEach(f=>anyOn?hidden.add(f):hidden.delete(f));
     } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
     try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));}catch(e){}
     applyToggles();
