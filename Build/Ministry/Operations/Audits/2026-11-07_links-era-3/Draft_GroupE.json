@@ -74,7 +74,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 0,
-   "reason": "Monasteries, not movements. Jonas: Luxeuil, 'formerly been called Luxovium' (jonas 521-525); Bobbio, 'it had long been called Bobium' and Columbanus restored its church (jonas 1646-1652). Supported."
+   "reason": "Monasteries, not movements. Jonas: Luxeuil, 'formerly been called Luxovium' (jonas 522); Bobbio, 'it had long been called Bohium' and Columbanus restored its church (jonas 1650-1660). Supported."
   },
   {
    "movement": "insular-irish-monastic-christianity",
@@ -324,7 +324,7 @@
    "disposition": "qualify",
    "link_id": null,
    "prose_change": 3,
-   "reason": "'Did not conform at Whitby' implies the British were a party there; Bede's list of those present has no British clergy (bede 7962-7970). What the sources show is that they kept their own Easter long after: Bede V.22 (bede 15020-15026) and the Annales Cambriae for 768 (annales 2984-2988). Rewritten."
+   "reason": "'Did not conform at Whitby' implies the British were a party there; Bede's list of those present has no British clergy (bede 7963-7970). What the sources show is that they kept their own Easter long after: Bede V.22 (bede 15020-15026) and the Annales Cambriae for 768 (annales 2984-2988). Rewritten."
   },
   {
    "movement": "british-welsh-christianity",
@@ -354,7 +354,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 0,
-   "reason": "A place. Supported: Gildas's 'alii transmarinas petebant regiones' (gildas 3626-3627), with Williams's note that this 'was the beginning of Britanny, or Armorica' (3651-3653); Taylor: Armorica 'was soon to be known as Lesser Britain or Brittany' (samson-of-dol 273-274)."
+   "reason": "A place. Supported: Gildas's 'alii transmarinas petebant regiones' (gildas 3626-3627), with Williams's note that this 'was the beginning of Britanny, or Armorica' (3656); Taylor: Armorica 'was soon to be known as Lesser Britain or Brittany' (samson-of-dol 273-274)."
   },
   {
    "movement": "british-welsh-christianity",
@@ -738,7 +738,7 @@
    ],
    "drafter_flags": [
     "The Irish sentence's main subject is Whitby (664), which has no Roman party in the census; this link carries the earlier, documented collision with Rome that the same sentence describes in general terms. A reviewer may judge the sentence too far from the letter to count as naming it.",
-    "The date 598-9 is the Benedictine editors' (line 4182-4185); 'around 600' in the note.",
+    "The date 598-9 is the Benedictine editors' (lines 4179-4181); 'around 600' in the note.",
     "The same letter calls the Gallic custom 'this error of Gaul' (line 4393): a possible argued-against link to merovingian-gallic-christianity, not drafted because neither text names it."
    ],
    "change_reason": "New: the letter is addressed to Gregory by name and argues against Rome's Easter reckoning."
@@ -904,7 +904,7 @@
      "source_id": null,
      "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.4",
      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-     "lines": "3862-3864",
+     "lines": "3862-3865",
      "locus": "II.4",
      "quote": "The same Laurentlus and his fellow bishops wrote a letter to the priests of the Britons, suitable to his rank, by which he endeavoured to confirm them in Catholic unity",
      "license": "public-domain"
