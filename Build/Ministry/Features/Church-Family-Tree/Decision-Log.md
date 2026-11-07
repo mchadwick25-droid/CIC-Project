@@ -272,3 +272,9 @@ on all connections or only the kinds they want, and the choice is kept. Checked:
 a first visit, 86 with all on, 34 with only "argued against, broke with", kept after a reload.
 The intro now says where to find them (Reading Ease 70).
 
+**Also the same day (Mark: "if someone clicks off a river, the worlds connected to that river
+should also hide").** A river's switch now also hides the story icons on that river and the
+"continues as" lines that touch it, as it already hid its dots, names, place lines, portraits
+and connections. Checked: Africa off hides its 3 stories and leaves nothing on that river
+showing; All rivers off clears the map.
+
