@@ -1,0 +1,867 @@
+{
+ "group": "D",
+ "movements": [
+  "roman-church-third-century",
+  "novatianism",
+  "modalist-monarchianism",
+  "montanism-the-new-prophecy",
+  "latin-pastoral-congregational-christianity"
+ ],
+ "dispositions": [
+  {
+   "movement": "roman-church-third-century",
+   "field": "relationsSummary",
+   "sentence": "Sits in the gap between post-apostolic-house-church, which ends at 200, and novatianism, which begins with the schism of 251 - the same decades those two entries bracket without covering.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "link",
+   "link_id": "post-apostolic-house-church--roman-church-third-century",
+   "prose_change": 1,
+   "reason": "Existing link carries continuity from the house churches. The field used census ids and cataloguing language; rewritten."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "relationsSummary",
+   "sentence": "(same sentence)",
+   "other_id": "novatianism",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--novatianism",
+   "prose_change": 1,
+   "reason": "Existing link (Eusebius HE VI.43.1-2) carries it."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "longDescription",
+   "sentence": "Hippolytus, a learned presbyter of the same city, thought Callistus wrong on all three and said so at length, eventually functioning as a rival bishop.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Hippolytus's party has no entry. Claim supported by Hippolytus's own words: he claims the apostles' 'high-priesthood' (Ref. I proem, anf05 lines 1129-1130) and calls Callistus's following a 'school' 'in antagonism to the Church' (Ref. IX.7, lines 13871-13872). The text already marks him as a hostile witness."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "longDescription",
+   "sentence": "Zephyrinus and then Callistus led a large and socially mixed congregation through questions that had no settled answers: ... how to speak about Father and Son without saying two Gods.",
+   "other_id": "modalist-monarchianism",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "The Roman text does not name modalism; the modalist text names Callistus and Rome, and the existing link carries it (Dionysius of Rome; Callistus excommunicating Sabellius, Ref. IX.7). The 'grave sin after baptism' clause here is accurate (Ref. IX.7, lines 13873-13875)."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "why",
+   "sentence": "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome and led a congregation through open arguments over whether the gravely lapsed could ever be restored, and how to speak of Father and Son without naming two Gods.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Open item from the 2026-11-06 pass. Hippolytus's charge was about forgiving grave sin after baptism (Ref. IX.7, anf05 lines 13873-13875); 'the lapsed' are those who sacrificed under Decius in 250 (Eusebius HE VI.43). Not a relationship, but the same error feeds the legacy link sentence."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "why",
+   "sentence": "Hippolytus ... wrote a Refutation that, almost by accident, preserves more about second- and third-century religious movements than any other surviving book.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A statement about a book's value as evidence; it names no movement and claims no relationship."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "legacy",
+   "sentence": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept.",
+   "other_id": "novatianism",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--novatianism",
+   "prose_change": 3,
+   "reason": "Existing link carries the Novatian schism. Sentence rewritten so the lapsed question is placed after 250, not under Callistus."
+  },
+  {
+   "movement": "roman-church-third-century",
+   "field": "legacy",
+   "sentence": "(same sentence: 'and the Donatist controversy of the next century')",
+   "other_id": "donatism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Donatist dispute (from 311) turned on whether a bishop ordained by a traditor could give valid sacraments (donatism longDescription), not on restoring the lapsed; and this entry ends in 268, so no link is possible. Clause dropped; replacement in prose change 3."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "relationsSummary",
+   "sentence": "The mirror-image error to Arianism and earlier than it: both are attempts to protect the one God, one by subordinating the Son and one by dissolving him into the Father.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A comparison of two positions, not a claim of contact, descent or argument; no link is implied. Reviewer note: 'error' is a judgment in the narrator's voice, and the homoian entry says 'Arian' was its opponents' label. Not changed: outside what the evidence check demands."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "relationsSummary",
+   "sentence": "Hippolytus accused Callistus, bishop of Rome, of sheltering it.",
+   "other_id": "roman-church-third-century",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Existing link's note states the accusation and its hostility."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "longDescription",
+   "sentence": "Tertullian wrote Against Praxeas to say so, in a book that also gave Latin theology much of the vocabulary it would use for the opposite view.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Existing link (Adv. Prax. 1 and 3) carries it."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "longDescription",
+   "sentence": "Hippolytus wrote against Noetus, and accused Callistus, the bishop of Rome, of sheltering the teaching - an accusation tangled up with his own rivalry for that see.",
+   "other_id": "roman-church-third-century",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Existing link cites Ref. IX on Noetus and on Callistus excommunicating Sabellius; Hippolytus belongs to the Roman entry."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "why",
+   "sentence": "Tertullian's reply, Against Praxeas, forged much of the Latin vocabulary later theology would use to say the opposite.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Echo of the longDescription sentence; same link."
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "field": "legacy",
+   "sentence": "Tertullian's Against Praxeas is where a great deal of Latin trinitarian vocabulary was first put to work, so the tradition's language for the doctrine was partly forged in the argument against this position.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "tertullian-s-voice--modalist-monarchianism",
+   "prose_change": 0,
+   "reason": "Echo; same link."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "relationsSummary",
+   "sentence": "A named neighbor within the milieu of the earliest scattered house churches.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "link",
+   "link_id": "post-apostolic-house-church--montanism-the-new-prophecy",
+   "prose_change": 5,
+   "reason": "Cataloguing language replaced by the documented relation: the churches of Asia examined and expelled the New Prophecy (Anonymous in HE V.16.10; anf07 line 11308)."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "longDescription",
+   "sentence": "It spread well beyond Asia Minor - Tertullian of Carthage became its most articulate Latin advocate - ...",
+   "other_id": "tertullian-s-voice",
+   "disposition": "link",
+   "link_id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "prose_change": 0,
+   "reason": "New link: De res. carnis 11 and 63, Adv. Prax. 1 (anf03)."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "longDescription",
+   "sentence": "... although Asian synods condemned it ...",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "link",
+   "link_id": "post-apostolic-house-church--montanism-the-new-prophecy",
+   "prose_change": 0,
+   "reason": "Inventory had no-entry. The synods were of the second-century churches of Asia, which the house-church entry covers; the pahc world's own records already treat this as its boundary-drawing (pahc.quote.asia-rejected-new-prophecy)."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "longDescription",
+   "sentence": "... and later imperial law suppressed it ...",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "prose_change": 0,
+   "reason": "New link: Constantine's edict naming the Cataphrygians (Eusebius, VC III.64-65)."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "legacy",
+   "sentence": "Imperial suppression under Justinian in the sixth century finished it, its own writings were destroyed, and what remains is a handful of quoted oracles plus a body of Phrygian gravestone inscriptions whose Montanist identity is itself argued over.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "prose_change": 6,
+   "reason": "New link (Procopius, Secret History XI; Novel 45). 'Finished it' softened: the vendored sources show the campaign, not the movement's end."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "legacy",
+   "sentence": "Later renewal movements down to modern Pentecostal and charismatic Christianity have repeatedly been accused of reviving it, and have occasionally claimed the comparison themselves, though no historical line connects them.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Inventory said no census entry; Pentecostal entries exist (azusa-street-and-early-pentecostalism, charismatic-renewal-and-the-jesus-movement). No link: the text itself denies any historical line. No vendored or repo-cited text shows the accusation against Pentecostals or their own claim; Chauncy 1743 (lines 6300-6304) shows the comparison made against an earlier revival."
+  },
+  {
+   "movement": "novatianism",
+   "field": "relationsSummary",
+   "sentence": "Rigorist parallel communion; redundancy risk vs. Donatism noted if revisited",
+   "other_id": "roman-church-third-century",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--novatianism",
+   "prose_change": 4,
+   "reason": "Existing link carries the split from the Roman church."
+  },
+  {
+   "movement": "novatianism",
+   "field": "relationsSummary",
+   "sentence": "(same: 'redundancy risk vs. Donatism noted if revisited')",
+   "other_id": "donatism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Internal cataloguing note, not a historical claim; no relationship between the two is claimed or documented here."
+  },
+  {
+   "movement": "novatianism",
+   "field": "longDescription",
+   "sentence": "When Cornelius, who took the lenient view, was elected bishop of Rome in 251, Novatian's supporters had him consecrated as a rival bishop, one of the earliest such rival consecrations the city had seen.",
+   "other_id": "roman-church-third-century",
+   "disposition": "link",
+   "link_id": "roman-church-third-century--novatianism",
+   "prose_change": 0,
+   "reason": "Existing 'gave rise to' link carries it; its note covers Novatus's party and the Roman synod's decree. Cyprian Ep. 40 (anf05 lines 32594-32597) also records Novatian's envoys announcing he had been made bishop."
+  },
+  {
+   "movement": "novatianism",
+   "field": "longDescription",
+   "sentence": "Their bishop attended the Council of Nicaea in 325 and accepted its creed ...",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--novatianism--2",
+   "prose_change": 0,
+   "reason": "Inventory had no-entry. Nicaea was summoned by Constantine and belongs to the imperial-juridical entry. Socrates I.10 and I.13 (npnf202 lines 3690-3695, 3855-3857)."
+  },
+  {
+   "movement": "novatianism",
+   "field": "longDescription",
+   "sentence": "... and the council's eighth canon set out terms for receiving Novatianist clergy - terms they largely declined.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--novatianism",
+   "prose_change": 0,
+   "reason": "New link: Nicaea canon 8 (npnf214 lines 3769-3775). 'Largely declined': Socrates I.10 shows Acesius kept his church apart (lines 3699-3721); no text shows more, and the wording is mild enough to stand."
+  },
+  {
+   "movement": "novatianism",
+   "field": "why",
+   "sentence": "... a Novatianist bishop even attended the Council of Nicaea in 325 and accepted its creed.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--novatianism--2",
+   "prose_change": 0,
+   "reason": "Echo; same link."
+  },
+  {
+   "movement": "novatianism",
+   "field": "legacy",
+   "sentence": "The first is the doctrine sharpened against it - ... - worked out by Cyprian in the moment and by Augustine at length afterwards, along with the graded system of public penance that grew out of exactly this argument.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--novatianism",
+   "prose_change": 0,
+   "reason": "New link: Cyprian Ep. 40 and 75; Augustine, En. in Ps. 55.21 ('Was repentance perfectly treated of before the Novatians opposed?'). Cyprian's grading of the lapsed: Ep. 51 (anf05 lines 33676-33690). The 'hospital' image is the entry's own paraphrase; no vendored text uses the word."
+  },
+  {
+   "movement": "novatianism",
+   "field": "legacy",
+   "sentence": "The second is Novatian's own On the Trinity, which was copied, read and valued ... handed down in manuscripts among the works of Tertullian.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A fact about how one book was transmitted and attributed, not a relationship between movements. Supported: the ANF 5 introduction says De Trinitate was 'formerly attributed by some to Tertullian, by others to Cyprian' (anf05 lines 60400-60402)."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "relationsSummary",
+   "sentence": "Confirmed distinct from the Imperial tradition; Donatism contests its interval",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "'Confirmed distinct from' is a cataloguing decision about entries, not a historical relationship."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "relationsSummary",
+   "sentence": "(same: 'Donatism contests its interval')",
+   "other_id": "donatism",
+   "disposition": "link",
+   "link_id": "donatism--latin-pastoral-congregational-christianity",
+   "prose_change": 8,
+   "reason": "Existing links in both directions carry the rivalry; wording made plain."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "longDescription",
+   "sentence": "Cyprian became bishop of Carthage around 248, went into hiding when the emperor Decius ordered universal sacrifice, and returned to the hardest pastoral problem of the age.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Decius is a state actor. Cyprian's hiding: ANF 5 editor's chronology (anf05 lines 27561-27565, 'he wrote many letters from his place of concealment'); his letters from hiding are in the same volume."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "sentence": "The North African church itself did not survive: the Vandals took the province in the 430s, ...",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "A military conquest by a people, not an act of the Vandal Homoian church, whose entry begins in 451. Fact supported: Possidius, Vita Augustini 28 (possidius_vita-augustini_weiskotten1919.txt lines 3982-3985 name the Vandals and Alans; 4079-4083 the siege of Hippo). The sentence is only split."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "sentence": "... and the Arab conquest of the seventh century ended Latin Christianity there altogether.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "No census entry. No vendored text shows Latin Christianity ending 'altogether' with the conquest; softened to a slow end afterwards, as latin-africa-under-byzantium itself puts it ('finished within a few generations')."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "sentence": "(new) Later, the Donatists quoted them in their own defense.",
+   "other_id": "donatism",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--donatism--2",
+   "prose_change": 10,
+   "reason": "Two-way check: the existing link was named in neither text."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "sentence": "(new) In Geneva, Calvin wrote that he could fill a whole volume with Augustine's words on God's choice of the saved.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "prose_change": 11,
+   "reason": "Two-way check: the existing link was named in neither text."
+  }
+ ],
+ "links": [
+  {
+   "id": "roman-church-third-century--modalist-monarchianism",
+   "action": "keep",
+   "named_in_text": "modalist-monarchianism relationsSummary and longDescription (Hippolytus and Callistus)."
+  },
+  {
+   "id": "post-apostolic-house-church--roman-church-third-century",
+   "action": "keep",
+   "named_in_text": "roman-church-third-century longDescription ('Between the house-church world that ends around 200...') and the rewritten relationsSummary."
+  },
+  {
+   "id": "roman-church-third-century--novatianism",
+   "action": "keep",
+   "named_in_text": "novatianism longDescription (rival consecration against Cornelius); roman-church-third-century longDescription, legacy and rewritten relationsSummary."
+  },
+  {
+   "id": "tertullian-s-voice--modalist-monarchianism",
+   "action": "keep",
+   "named_in_text": "modalist-monarchianism longDescription, why, legacy (Against Praxeas)."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "action": "keep",
+   "named_in_text": "not named in either text; prose change 11 adds one sentence to latin-pastoral-congregational-christianity legacy."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--pelagianism",
+   "action": "keep",
+   "named_in_text": "pelagianism longDescription, why, legacy (Augustine fought them)."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism",
+   "action": "keep",
+   "named_in_text": "donatism why ('Augustine chief among them') and legacy; latin-pastoral rewritten relationsSummary."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity",
+   "action": "keep",
+   "named_in_text": "donatism relationsSummary ('Rival-sibling of the Latin pastoral congregational tradition'); latin-pastoral rewritten relationsSummary."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism--2",
+   "action": "keep",
+   "named_in_text": "not named in either text; prose change 10 adds one sentence to latin-pastoral-congregational-christianity legacy."
+  },
+  {
+   "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+   "action": "new",
+   "from": "post-apostolic-house-church",
+   "to": "montanism-the-new-prophecy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "An anonymous writer of about 192, quoted by Eusebius, says the faithful of Asia met many times to examine the Phrygian prophets' teaching. They rejected it as heresy and cut its followers off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.anti-montanist-fragments",
+     "work": "The Anonymous anti-Montanist, Book I, quoted in Eusebius HE V.16 (ANF 7, printed as 'Asterius Urbanus')",
+     "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+     "lines": "11308",
+     "locus": "Anon. Book I (= HE V.16.9-10)",
+     "quote": "And those few who were thus deluded were Phrygians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.anti-montanist-fragments",
+     "work": "The Anonymous anti-Montanist, Book I, quoted in Eusebius HE V.16 (ANF 7, printed as 'Asterius Urbanus')",
+     "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+     "lines": "11308",
+     "locus": "Anon. Book I (= HE V.16.10)",
+     "quote": "For when the faithful throughout Asia met together often and in many places of Asia for deliberation on this subject, and subjected those novel doctrines to examination, and declared them to be spurious, and rejected them as heretical",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "pahc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History IV.27 (trans. McGiffert)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "26112",
+     "locus": "HE IV.27 (Apolinarius of Hierapolis)",
+     "quote": "which he subsequently wrote against the heresy of the Phrygians",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "montanism-the-new-prophecy longDescription ('Asian synods condemned it') and rewritten relationsSummary (prose change 5). The house-church world's own records already treat this as its boundary-drawing (records/pahc/quote/pahc.quote.asia-rejected-new-prophecy.md).",
+   "wants": [],
+   "drafter_flags": [
+    "The inventory listed the Asian synods as no-entry; they were gatherings of the second-century churches of Asia, which the post-apostolic-house-church entry covers (Asia Minor, to 200). Reviewer to confirm the mapping.",
+    "The testimony is anonymous and preserved only through Eusebius; the pahc quote record grades its formation_confidence Contested for that mediation. The relation itself (a treatise and synods directed at the Phrygian prophets by name) is what is graded Documented.",
+    "Date 'about 192' follows the pahc source record's reading of the fragment's internal chronology."
+   ],
+   "change_reason": "New: the Montanism text names the Asian synods' condemnation; no link carried it."
+  },
+  {
+   "id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "action": "new",
+   "from": "montanism-the-new-prophecy",
+   "to": "tertullian-s-voice",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Tertullian of Carthage took up the New Prophecy's claims. He quotes a saying of the Paraclete given 'by the mouth of the prophetess Prisca'. In Against Praxeas he writes that his side withdrew from the 'carnally-minded' over the Paraclete.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Tertullian, On the Resurrection of the Flesh 11 (ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "47250-47251",
+     "locus": "De res. carnis 11",
+     "quote": "It is a shrewd saying which the Paraclete utters concerning these persons by the mouth of the prophetess Prisca",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Tertullian, On the Resurrection of the Flesh 63 (ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "50885-50886",
+     "locus": "De res. carnis 63",
+     "quote": "through the new prophecy, which descends in copious streams from the Paraclete.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Tertullian, Against Praxeas 1 (trans. Holmes, ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "51074-51076",
+     "locus": "Adv. Prax. 1",
+     "quote": "We indeed, on our part, subsequently withdrew from the carnally-minded on our acknowledgment and maintenance of the Paraclete.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "montanism-the-new-prophecy longDescription ('Tertullian of Carthage became its most articulate Latin advocate'); tertullian-s-voice longDescription and why ('aligned himself with the New Prophecy').",
+   "wants": [],
+   "drafter_flags": [
+    "Type chosen as 'influenced' (the later side using and naming the earlier one's prophecy); none of the six types expresses joining a movement.",
+    "The ANF editor's note on Adv. Prax. 1 says the withdrawal may mean only a break with the bishop of Rome; the note says 'withdrew from the carnally-minded', as Tertullian does, and claims no more.",
+    "Adv. Prax. 1 (lines 51043-51058) also says a bishop of Rome first acknowledged and then rejected the Montanist prophets under Praxeas's pressure. Neither the Roman nor the Montanism text names this, so no Rome link was drafted."
+   ],
+   "change_reason": "New: the Montanism and Tertullian texts both name Tertullian's advocacy; no link carried it."
+  },
+  {
+   "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "montanism-the-new-prophecy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Constantine sent an edict to the heretics, preserved in Eusebius's Life of Constantine. It names 'ye who are called Cataphrygians', a common name for the Montanists. It forbids their meetings and takes away the houses where they gathered.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-vita-constantini",
+     "work": "Eusebius, Life of Constantine III.64 (NPNF 2.1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "66071-66073",
+     "locus": "VC III.64",
+     "quote": "Understand now, by this present statute, ye Novatians, Valentinians, Marcionites, Paulians, ye who are called Cataphrygians,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-vita-constantini",
+     "work": "Eusebius, Life of Constantine III.65 (NPNF 2.1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "66124-66126",
+     "locus": "VC III.65",
+     "quote": "We have directed, accordingly, that you be deprived of all the houses in which you are accustomed to hold your assemblies",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "montanism-the-new-prophecy longDescription ('later imperial law suppressed it').",
+   "wants": [
+    "A clean critical text of the Codex Theodosianus 16.5 laws naming the Montanists (e.g. 16.5.34, 16.5.48); the vendored Mommsen-Meyer volume (theodosianus-16_mommsen-meyer1905.txt) names them but its OCR is rough"
+   ],
+   "drafter_flags": [
+    "The edict is undated in the vendored lines; it is usually placed in the 320s. No date is given in the note.",
+    "The census treats imperial legislation as an act of the imperial-juridical-christianity tradition, as its own text does ('emperors found themselves summoning those councils')."
+   ],
+   "change_reason": "New: the Montanism text names imperial law; no link carried it."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "montanism-the-new-prophecy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Procopius, a hostile witness to Justinian, says the emperor ordered heresies such as the Montanists' to be given up. He reports that the Montanists of Phrygia shut themselves in their churches and burned them. A law of Justinian also names the Montanists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, Secret History XI (anonymous trans., Athenian Society 1896)",
+     "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+     "lines": "2168-2171",
+     "locus": "Anecdota XI",
+     "quote": "such as those of the Montanists and Sabbatians and all the others by which men's minds are led astray. Justinian ordered all these beliefs to be abandoned in favour of the old religion",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, Secret History XI (anonymous trans., Athenian Society 1896)",
+     "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+     "lines": "2195-2197",
+     "locus": "Anecdota XI",
+     "quote": "The Montanists, who were settled in Phrygia, shut themselves up in their churches, set them on fire, and perished in the flames",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 45, preface (ed. Schoell and Kroll, Corpus Iuris Civilis III, 1895), Latin version",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "59038",
+     "locus": "Nov. 45 praef.",
+     "quote": "vel Samaritas vel Montanistas vel alio nomine detestabiles homines",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "montanism-the-new-prophecy legacy ('Imperial suppression under Justinian'), as rewritten in prose change 6.",
+   "wants": [
+    "Codex Justinianus 1.5.20 (530) and a non-hostile account of the campaign, such as John of Ephesus on the Montanists at Pepuza"
+   ],
+   "drafter_flags": [
+    "Procopius's Secret History is polemic against Justinian (its own file header says so); the act itself is also named in Novel 45, which only bars heretics, Montanists among them, from curial privileges.",
+    "The Novel quote is from the edition's Latin rendering of the Greek, in raw OCR; the quoted words read cleanly."
+   ],
+   "change_reason": "New: the Montanism text names Justinian's suppression; no link carried it."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--novatianism",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "novatianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Cyprian of Carthage refused communion to envoys who brought word that Novatian had been made bishop. He later wrote that Novatian 'is not in the Church'. Augustine asked whether repentance had been fully taught 'before the Novatians opposed'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.cyprian-epistles",
+     "work": "Cyprian, Epistle 40 (ANF numbering), to Cornelius",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "32594-32597",
+     "locus": "Ep. 40 (ANF) = Ep. 44 (Hartel)",
+     "quote": "that Novatian had been made bishop; disturbed by the wickedness of an unlawful ordination made in opposition to the Catholic Church, we considered at once that they must be restrained from communion with us",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.cyprian-epistles",
+     "work": "Cyprian, Epistle 75 (ANF numbering), to Magnus",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "40202-40204",
+     "locus": "Ep. 75.3 (ANF) = Ep. 69 (Hartel)",
+     "quote": "Novatian is not in the Church; nor can he be reckoned as a bishop, who, succeeding to no one, and despising the evangelical and apostolic tradition, sprang from himself.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+     "work": "Augustine, Exposition on Psalm 55 (NPNF 1.8)",
+     "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+     "lines": "10158",
+     "locus": "En. in Ps. 55.21 (Vulg. 54)",
+     "quote": "Was repentance perfectly treated of before the Novatians opposed?",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "novatianism legacy ('worked out by Cyprian in the moment and by Augustine at length afterwards').",
+   "wants": [],
+   "drafter_flags": [
+    "The Hartel equivalents of the ANF letter numbers are given from the standard concordance, not checked against the vendored Hartel file."
+   ],
+   "change_reason": "New: the Novatianism text names Cyprian's and Augustine's answer to it; no link carried it."
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "novatianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The eighth canon of the Council of Nicaea, in 325, set terms for receiving 'those who call themselves Cathari', the Novatianists. Their clergy had first to promise in writing to follow the teaching of the Catholic Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-nicaea",
+     "work": "Council of Nicaea (325), Canon 8 (trans. Percival, NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "3769-3772",
+     "locus": "Nicaea, can. 8",
+     "quote": "those who call themselves Cathari, if they come over to the Catholic and Apostolic Church, the great and holy Synod decrees that they who are ordained shall continue as they are in the clergy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-nicaea",
+     "work": "Council of Nicaea (325), Canon 8 (trans. Percival, NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "3772-3775",
+     "locus": "Nicaea, can. 8",
+     "quote": "But it is before all things necessary that they should profess in writing that they will observe and follow the dogmas of the Catholic and Apostolic Church",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "novatianism longDescription ('the council's eighth canon set out terms for receiving Novatianist clergy').",
+   "wants": [],
+   "drafter_flags": [
+    "The inventory listed Nicaea as no-entry; the council was summoned by Constantine and is part of what the imperial-juridical-christianity entry describes. Reviewer to confirm the mapping.",
+    "Per the drafting brief, a canon that names a party documents 'argued against', even when its terms are conciliatory, as these are."
+   ],
+   "change_reason": "New: the Novatianism text names Nicaea's eighth canon; no link carried it."
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism--2",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "novatianism",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Constantine summoned Acesius, a Novatianist bishop, to the Council of Nicaea. Acesius told him the council had decided nothing new, yet kept his church apart. Socrates had the story from Auxanon, a Novatianist presbyter who went to Nicaea with Acesius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History I.10 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3690-3691",
+     "locus": "HE I.10",
+     "quote": "he summoned to the council Acesius also, a bishop of the sect of Novatians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History I.10 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3694-3695",
+     "locus": "HE I.10",
+     "quote": "The Synod has determined nothing new, my prince",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History I.13 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3855-3857",
+     "locus": "HE I.13",
+     "quote": "It was Auxanon, a very aged presbyter of the Novatian church; who when quite a youth accompanied Acesius to the Synod at Nicæa",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "novatianism longDescription and why ('Their bishop attended the Council of Nicaea in 325 and accepted its creed').",
+   "wants": [],
+   "drafter_flags": [
+    "Socrates wrote about a century later, but names a Novatianist eyewitness as his informant, so the meeting is recorded through the Novatianist side.",
+    "Second link on this pair, separately evidenced: the canon is an act against the Novatianists; the Acesius exchange is a named meeting with no influence claimed."
+   ],
+   "change_reason": "New: the Novatianism text names its bishop's attendance at Nicaea; no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "roman-church-third-century",
+   "field": "relationsSummary",
+   "old": "Sits in the gap between post-apostolic-house-church, which ends at 200, and novatianism, which begins with the schism of 251 - the same decades those two entries bracket without covering.",
+   "new": "The church of Rome after its house-church years, from about 200. The Novatian schism of 251 began inside it.",
+   "reason": "Removes census ids and cataloguing language ('entries bracket'); keeps the two relations the existing links carry (continued from the house churches; Novatian schism began inside it).",
+   "fre_before": 49.0,
+   "fre_after": 84.9
+  },
+  {
+   "n": 2,
+   "movement": "roman-church-third-century",
+   "field": "why",
+   "old": "became bishop of Rome and led a congregation through open arguments over whether the gravely lapsed could ever be restored, and how to speak of Father and Son without naming two Gods.",
+   "new": "became bishop of Rome. He led his congregation through open arguments over grave sin after baptism, and over speaking of Father and Son without naming two Gods.",
+   "reason": "Known open item (2026-11-06 README): Hippolytus's charge against Callistus concerned forgiving grave (sexual) sin after baptism (Ref. IX.7, anf05 lines 13871-13875), not the lapsed, whose crisis follows Decius (250). Split the 45-word sentence.",
+   "fre_before": 36.9,
+   "fre_after": 45.7
+  },
+  {
+   "n": 3,
+   "movement": "roman-church-third-century",
+   "field": "legacy",
+   "old": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept.",
+   "new": "The questions argued here did not go away. After the persecution of 250, Rome had to decide whether Christians who had sacrificed could be restored. The quarrel split the city in the Novatian schism of 251. Rome's answer - that they could - is the one the Western church kept.",
+   "reason": "Same open item: the lapsed question belongs to 250-251 (Eusebius HE VI.43, npnf201 lines 38265-38294), not to Callistus. Drops the Donatist clause (see disposition). Split into short sentences.",
+   "fre_before": 21.8,
+   "fre_after": 41.2
+  },
+  {
+   "n": 4,
+   "movement": "novatianism",
+   "field": "relationsSummary",
+   "old": "Rigorist parallel communion; redundancy risk vs. Donatism noted if revisited",
+   "new": "A strict church that broke from the Roman majority in 251. It lived on beside the majority for centuries.",
+   "reason": "Removes internal cataloguing note ('redundancy risk vs. Donatism noted if revisited'); states the relation the existing roman-church-third-century--novatianism link carries.",
+   "fre_before": null,
+   "fre_after": 61.4
+  },
+  {
+   "n": 5,
+   "movement": "montanism-the-new-prophecy",
+   "field": "relationsSummary",
+   "old": "A named neighbor within the milieu of the earliest scattered house churches.",
+   "new": "In the late second century the faithful of Roman Asia met many times to judge it. They cast it out.",
+   "reason": "Replaces cataloguing language ('named neighbor within the milieu') with the relation the new post-apostolic-house-church--montanism-the-new-prophecy link documents (HE V.16.10; anf07 line 11308).",
+   "fre_before": 53.7,
+   "fre_after": 78.2
+  },
+  {
+   "n": 6,
+   "movement": "montanism-the-new-prophecy",
+   "field": "legacy",
+   "old": "Imperial suppression under Justinian in the sixth century finished it, its own writings were destroyed, and what remains is a handful of quoted oracles plus a body of Phrygian gravestone inscriptions whose Montanist identity is itself argued over.",
+   "new": "Under Justinian in the sixth century the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles plus a body of Phrygian gravestone inscriptions whose Montanist identity is itself argued over.",
+   "reason": "'Finished it' is more than the vendored source shows: Procopius (Secret History XI, lines 2168-2197) describes the campaign and the Phrygian Montanists burning their churches, not the movement's end. Split the 45-word sentence.",
+   "fre_before": 17.5,
+   "fre_after": 31.2
+  },
+  {
+   "n": 7,
+   "movement": "montanism-the-new-prophecy",
+   "field": "legacy",
+   "old": "Later renewal movements down to modern Pentecostal and charismatic Christianity have repeatedly been accused of reviving it, and have occasionally claimed the comparison themselves, though no historical line connects them.",
+   "new": "Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No historical line connects any later movement to it.",
+   "reason": "No vendored or repo-cited text shows Pentecostals or charismatics being accused of reviving Montanism, or claiming the comparison. Chauncy 1743 (lines 6300-6304) shows a critic making the comparison against the Great Awakening. Keeps the denial of any historical line.",
+   "fre_before": 31.2,
+   "fre_after": 42.5
+  },
+  {
+   "n": 8,
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "relationsSummary",
+   "old": "Confirmed distinct from the Imperial tradition; Donatism contests its interval",
+   "new": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
+   "reason": "Removes cataloguing language ('Confirmed distinct from the Imperial tradition'; 'contests its interval'); states the Donatist rivalry the existing donatism links carry.",
+   "fre_before": null,
+   "fre_after": 77.5
+  },
+  {
+   "n": 9,
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "old": "The North African church itself did not survive: the Vandals took the province in the 430s, and the Arab conquest of the seventh century ended Latin Christianity there altogether.",
+   "new": "The North African church itself did not survive. The Vandals took the province in the 430s. After the Arab conquest of the seventh century, Latin Christianity there slowly died out.",
+   "reason": "'Ended Latin Christianity there altogether' in the seventh century is not shown by any vendored text; softened to a slow end after the conquest (consistent with latin-africa-under-byzantium's own text). Vandal invasion and siege of Hippo: Possidius, Vita Augustini 28, lines 3982-3985 and 4079-4083.",
+   "fre_before": 34.0,
+   "fre_after": 42.2
+  },
+  {
+   "n": 10,
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "old": "Cyprian's letters became foundational for Western understandings of the bishop's office and the unity of the church.",
+   "new": "Cyprian's letters became foundational for Western understandings of the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense.",
+   "reason": "Two-way check: names the relation carried by latin-pastoral-congregational-christianity--donatism--2 (Augustine, De baptismo II.3: the Donatists cite Cyprian's letters, council and authority).",
+   "fre_before": 42.2,
+   "fre_after": 44.4
+  },
+  {
+   "n": 11,
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "old": "became the pattern for Western sacramental discipline.",
+   "new": "became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole volume with Augustine's words on God's choice of the saved.",
+   "reason": "Two-way check: names the relation carried by latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva (Calvin, Inst. III.22, lines 25388-25391). 'Election' replaced by plain words.",
+   "fre_before": 44.4,
+   "fre_after": 47.5
+  }
+ ],
+ "wants": [
+  "A clean critical text of the Codex Theodosianus 16.5 laws naming the Montanists (16.5.34, 16.5.48); the vendored Mommsen-Meyer OCR is rough",
+  "Codex Justinianus 1.5.20 (530), or John of Ephesus on the Montanists at Pepuza, for a non-hostile account of Justinian's campaign",
+  "Theophanes, Chronographia (AM 6214), if the Montanists' survival into the eighth century is to be stated",
+  "A repo-cited modern work on Pentecostal and charismatic Christianity being compared with Montanism, if that claim is to come back",
+  "A text documenting Latin Christian communities in North Africa after the Arab conquest (e.g. Gregory VII's letters of 1076 to Carthage), to date the end",
+  "Cornelius's letter to Fabius (Eusebius HE VI.43.5-20) read for Novatian's consecration, to give the Roman rupture its own quote"
+ ],
+ "escalations": [
+  "montanism-the-new-prophecy: its dates field reads 'c. 165-400s', but its own legacy runs the movement to Justinian's suppression in the sixth century. Not changed here (dates are outside this pass); the owner should reconcile them."
+ ]
+}
