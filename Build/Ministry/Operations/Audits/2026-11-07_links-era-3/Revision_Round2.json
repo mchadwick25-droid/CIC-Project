@@ -1,0 +1,9 @@
+{"round": 2,
+ "fixes": [
+  {"finding": "R2-01", "done": "Root cause: the round-1 merge matched disposition rows on movement, field and sentence only. Undone and redone from the pre-revision record, keyed on (movement, field, sentence, other_id). Latin Africa rows 49, 50, 51, 53, 62 keep their group-A values; Gothic rows 52, 54, 61 are kept-as-is with the R1-03 reason; the gap-3 no-entry rows for the relationsSummary, longDescription and why are separate new rows; Gothic rows 239, 241, 243 are untouched no-entry; rows 235 and 242 (the Latin Africa party) are no-entry with the R1-04 reason; Toledo rows 238, 240, 244, 246 cite nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity."},
+  {"finding": "R2-02", "done": "Same re-merge. Irish row 255 (the Roman party at Whitby, formerly 'no movement covers Rome in 664') now has other_id anglo-saxon-christianity and cites the Whitby link; 256 stays no-entry (a king); 263 keeps the Columbanus link. British: only row 275 takes the Bede II.4 reason; 274, 276, 277, 278 keep their group-E values."},
+  {"finding": "R2-03", "done": "Dropped the Bede source whose cut quote ('... were on their side') read as if Colman and Wilfrid were one party. Four sources remain."},
+  {"finding": "R2-04", "done": "Nubian, Georgian and British prose-change reasons corrected as proposed."},
+  {"finding": "R2-05", "done": "Not applied here. The link is published and belongs to era 2 (the era-2 movement's own text names it). Handed to era 2 and logged as an open item."}
+ ],
+ "check": "Every drafted link is cited by a disposition except byzantine-imperial-church-justinianic--montanism-the-new-prophecy (named by the era-1 Montanism text) and palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza (era 2 owns it)."}

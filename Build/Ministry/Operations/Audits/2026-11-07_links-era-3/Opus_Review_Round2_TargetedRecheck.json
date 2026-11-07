@@ -1,0 +1,79 @@
+{
+  "round": 2,
+  "kind": "targeted recheck",
+  "verdict": "revise",
+  "counts": {"blocking": 0, "substantial": 2, "minor": 3, "round1_resolved": 24, "round1_not_resolved": 4},
+  "resolved": [
+    {"finding": "R1-01", "status": "resolved", "note": "Note now matches Severus 43442-43447 (Benjamin passes through Wadi Habib, hides in Upper Egypt) and 35554-35555 (Peter's letters at the Monastery of Macarius). 'Old' and 'Scetis' gone."},
+    {"finding": "R1-02", "status": "not resolved", "note": "Link dropped and the Toledo dispositions (238, 240, 244, 246) correctly re-pointed to nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity. But the merge also re-pointed rows that were never Toledo rows: 239, 241, 243 (other_id null, formerly no-entry) and 242 (other_id latin-africa-under-byzantium, the Vandal-Africa sentence). See R2-01."},
+    {"finding": "R1-03", "status": "not resolved", "note": "Link dropped, and the Nov. 37 check is right (52506-52520: the petition names no Arians; 'vel Arianos' is in Justinian's order). But in Drafting_Record the gothic rows 52, 54, 61 read no-entry with the Vandal-era reason, not kept-as-is with the R1-03 reason that Revision_Round1 logs. See R2-01."},
+    {"finding": "R1-04", "status": "not resolved", "note": "Link dropped; row 235 (longDescription) is correct no-entry. The why row 242 (other_id latin-africa-under-byzantium) now cites the Toledo link instead of no-entry. See R2-01."},
+    {"finding": "R1-05", "status": "resolved", "note": "Disagreement upheld. Ormanian 2549-2556 supports the new note word for word in substance; John of Ephesus removed. The reviser was right to refuse my 'acts survive only in Armenian': no listed source says it. DMR / B / named-not-rechecked is the right grade."},
+    {"finding": "R1-06", "status": "resolved", "note": "Widely Accepted on Boniface (capitulary headnote 2204-2206) and the Clausula (Fredegar 13513-13516) with McKitterick as the consensus secondary; continuity stated as the historians' reading; sentence split."},
+    {"finding": "R1-07", "status": "resolved", "note": "Disagreement upheld. npnf214 25694-25707 checked: Sergius, then Pyrrhus, Paul and Peter 'who died bishops of this God-preserved city'. With Macler's 610 coronation note (sebeos file 4565) the see is shown on both sides of 622. The Honorius clause is not needed and no vendored text dates Honorius."},
+    {"finding": "R1-08", "status": "resolved", "note": "Brosset 2553-2593 read: 'interruption apparente', Samoel c. 790 and mid-600s, 'force a douter'. 'He doubted that the see ever lapsed' is the fairer rendering. Sebeos 7441-7443 quote correct; 782 date gone."},
+    {"finding": "R1-09", "status": "resolved", "note": "'three sets of writings that they believed the council of Chalcedon had cleared' - the claim is now theirs, not ours."},
+    {"finding": "R1-10", "status": "resolved", "note": "Prose is right: Bede II.4 (3849-3857) 'errors of the Britons' supports 'which the Roman mission in Kent called errors', and the likeness to the Irish. The disposition rows that carry this reason were over-applied by the merge (R2-02), and the prose_change reason is stale (R2-04)."},
+    {"finding": "R1-11", "status": "resolved", "note": "Both missions from Constantinople (John of Ephesus 10922-10940, 11048-11054)."},
+    {"finding": "R1-12", "status": "resolved", "note": "'705' gone from all four Albanian fields; Ormanian 2898-2908 (Elias, 703-717) supports 'the early 700s'. Census date left to escalation C1."},
+    {"finding": "R1-13", "status": "resolved", "note": "New link checked against Bede III.25 at every cited line; type, grade and note are sound (details under 'checked'). Its disposition rows were over-applied by the merge: see R2-02. Quote 1 is minor (R2-03)."},
+    {"finding": "R1-14", "status": "resolved", "note": "All six notes cleaned. The same phrase survives in link 13, which round 1 missed: R2-05."},
+    {"finding": "R1-15", "status": "resolved", "note": "Both split. 'Leuvigild, king of Spain' matches Dalton 12904-12908; 'backed by the empress Theodora' matches 10935-10937 and 11051."},
+    {"finding": "R1-16", "status": "resolved", "note": "Zachariah 16341-16343 matched."},
+    {"finding": "R1-17", "status": "resolved", "note": "'reported' in link 23 and both Church of the East prose fields; Cosmas 7208-7211."},
+    {"finding": "R1-18", "status": "resolved", "note": "Overlap commentary cut."},
+    {"finding": "R1-19", "status": "resolved", "note": "Councils told bishops to study it; Hincmar reports the consecration copy."},
+    {"finding": "R1-20", "status": "resolved", "note": "'these years'."},
+    {"finding": "R1-21", "status": "resolved", "note": "Pronoun now clear."},
+    {"finding": "R1-22", "status": "resolved", "note": "Reads plainly; 'clergy' for 'hierarchy' loses nothing."},
+    {"finding": "R1-23", "status": "resolved", "note": "Conditional now attached to the biographer."},
+    {"finding": "R1-24", "status": "not resolved", "note": "Revision_Round1 says the reason was corrected, but Drafting_Record prose_changes[3] (nubian longDescription) still reads 'Typo only ... No wording changed.' The fix did not reach the merged record. See R2-04."},
+    {"finding": "R1-25", "status": "resolved", "note": "'around 600' / '(c. 600)' in every Georgian field and links 28 and 30; link 30 carries 596-609. The longDescription reason text is stale (R2-04)."},
+    {"finding": "R1-26", "status": "resolved", "note": "'In later centuries ... belonged to its communion', on Geddes 1694 (Patriarch of Babylon entries at 822-828, 974-979)."},
+    {"finding": "R1-27", "status": "resolved", "note": "Deferred, not applied: census data fields are outside the drafting record, and the item is carried in open_items for the merge into the census and Open_Gaps_Tracking. Acceptable as a logged deferral."},
+    {"finding": "R1-28", "status": "resolved", "note": "Barmby note now secondary with null file/lines/quote."}
+  ],
+  "findings": [
+    {
+      "id": "R2-01",
+      "target": "Drafting_Record.json dispositions 49-55, 61-62 (latin-africa-under-byzantium) and 239, 241-243 (gothic-and-vandal-homoian-christianity)",
+      "severity": "substantial",
+      "issue": "The merge of Revision_Round1 into the record overwrote every disposition row that shared a sentence, ignoring other_id. Result: (a) rows 49 (tertullian-s-voice, was qualify), 50-51 (latin-pastoral-congregational-christianity, was link), 53 and 62 (byzantine-imperial-church-justinianic, was the Three Chapters link) now say no-entry with the Vandal-era reason, which is false for those relationships; latin-pastoral-congregational-christianity--latin-africa-under-byzantium is now cited by no disposition at all. (b) Gothic rows 52, 54, 61 are no-entry, not the kept-as-is that R1-03 and the revision log specify. (c) The gap-3 null no-entry rows for relationsSummary and why do not exist as separate rows; they replaced other rows. (d) Gothic rows 239, 241, 243 (null, were no-entry) and 242 (latin-africa, should be no-entry per R1-04) now cite the Toledo link.",
+      "evidence": "Draft_GroupA.json and Draft_GroupD.json dispositions for these sentences vs Drafting_Record.json rows listed; Revision_Round1.json disposition_changes (each keyed by other_id). Link-citation count over Drafting_Record: latin-pastoral-congregational-christianity--latin-africa-under-byzantium = 0.",
+      "fix": "Re-merge keyed on (movement, field, sentence, other_id). Restore rows 49, 50, 51, 53, 62 to their group-A values. Set 52, 54, 61 to kept-as-is with the R1-03 reason. Add separate null no-entry rows for the relationsSummary and why sentences (gap 3). Restore 239, 241, 243 to no-entry and set 242 to no-entry with the R1-04 reason. Then recount citations so every drafted link is cited or has a stated reason."
+    },
+    {
+      "id": "R2-02",
+      "target": "Drafting_Record.json dispositions 256, 263 (insular-irish-monastic-christianity) and 274, 276-278 (british-welsh-christianity)",
+      "severity": "substantial",
+      "issue": "The same merge fault. Irish: row 263 (other_id roman-church-gregorian) was the Columbanus link insular-irish-monastic-christianity--roman-church-gregorian and now cites the Whitby link; that Columbanus link is now cited by no disposition. Row 256 (the king's ruling, 'a king, not a movement', no-entry) now cites the Whitby link too. The R1-13 row, keyed other_id anglo-saxon-christianity in the revision, is null in the record. British: row 274 (anglo-saxon-christianity, was no-entry: the invaders were pagan settlers), 276-277 (roman-church-gregorian, were link anglo-saxon-christianity--british-welsh-christianity, the 603 refusal) and 278 (null, the Whitby clause, was qualify without link) all now carry the Bede II.4 likeness reason and the British-Irish influenced link.",
+      "evidence": "Draft_GroupE.json dispositions for the Whitby sentence and the British relationsSummary vs Drafting_Record rows 255-256, 263, 274-278. Citation count: insular-irish-monastic-christianity--roman-church-gregorian = 0.",
+      "fix": "Same re-merge. Irish: one row other_id anglo-saxon-christianity, link to the Whitby link (R1-13); 256 back to no-entry (a king); 263 back to the Columbanus link. British: only row 275 (other_id insular-irish-monastic-christianity) takes the corrected Bede II.4 reason; 274, 276, 277, 278 return to their group-E values (the 603 rows cite anglo-saxon-christianity--british-welsh-christianity)."
+    },
+    {
+      "id": "R2-03",
+      "target": "anglo-saxon-christianity--insular-irish-monastic-christianity, source 1 (bede 7963-7966)",
+      "severity": "minor",
+      "issue": "Cut where it is, Giles's quote reads as if Colman's party and Wilfrid's were one side: 'Bishop Colman with his Scottish clerks, and Agilbert with the priests Agatho and Wilfrid, James and Romanus were on their side'. In Bede the 'their side' is Agilbert's; Colman is the other party. Out of context the quote misleads. The rest of the link is sound: type, grade, and every note fact check against 8003-8021, 8136-8137, 8204-8207 and 8226-8237.",
+      "evidence": "bede_ecclesiastical-history-english-people_giles1903.txt 7962-7968.",
+      "fix": "Drop this source (the other four carry the link), or quote 7996-8001 ('I desire that my disciple, the priest Wilfrid, may speak in my stead') to show Wilfrid speaking for Agilbert's party."
+    },
+    {
+      "id": "R2-04",
+      "target": "prose_changes[3] (nubian longDescription, group A n=4), prose_changes[25] (georgian longDescription, group C n=4), prose_changes[42] (british relationsSummary, group E n=3) reason fields",
+      "severity": "minor",
+      "issue": "Audit-trail reasons do not describe the text. The Nubian reason still says 'Typo only ... No wording changed' (R1-24 not carried into the record). The Georgian longDescription reason says ''In 609' becomes 'Around 609'', but the text says 'Around 600'. The British reason still says 'replaced with the documented separation', which R1-10 showed is the opposite of Bede II.4.",
+      "evidence": "Drafting_Record.json prose_changes, reason fields.",
+      "fix": "Nubian: 'Double comma fixed; long sentences split and two fragments made whole; no fact changed.' Georgian: ''In 609' becomes 'Around 600'.' British: 'replaced with the documented likeness and contact (Bede II.4; Columbanus citing Gildas)'."
+    },
+    {
+      "id": "R2-05",
+      "target": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza (note)",
+      "severity": "minor",
+      "issue": "Same fault as R1-14, missed in round 1: 'No text we hold ties the later monks to the earlier'.",
+      "evidence": "Drafting_Record.json links, this id, note.",
+      "fix": "'No source from the time ties the later monks to the earlier, so this rests on place and sequence alone.'"
+    }
+  ],
+  "checked": "Every round-1 finding against Drafting_Record.json, with the source lines reopened: Severus 35550-35556, 43436-43448; John of Ephesus 10922-10940, 11048-11054, 11116-11121; npnf214 25690-25710; Macler/Sebeos 4560-4568, 7436-7445; Brosset 2550-2595; Ormanian 2500-2512, 2540-2558, 2898-2908; Zachariah 16313-16344; Cosmas 7206-7212; Gregory of Tours (Dalton 12904-12974, Brehaut 2602-2606); Bede 3849-3857, 7955-8025, 8125-8240, 10948-10954; Geddes 822-828, 974-979. All 15 links with revised_round 1, all revised prose changes (facts and voice), and all revised dispositions, compared row by row with Draft_GroupA/D/E and Revision_Round1 disposition_changes. Disposition-to-link citation counts across the record. The Whitby link: 'argued against' from the English church is right (Wilfrid speaks for Agilbert's party at the king's order, 7996-8005); Documented is right (direct speech in a near-contemporary history, dated 664 at 8236-8237); all five quotes are verbatim; the note's facts (Colman and his Irish clergy, the six regions, 'obstinacy', Oswy following Peter's keys) are in the text, and Hilda and Cedd on the Irish side are correctly flagged. Two-way gaps: gap 1 closed by the new link; gaps 2 and 3 closed in Revision_Round1 but not in the merged record (R2-01, R2-02); gaps 4-5 stand as logged. Prose readability was not re-scored."
+}
