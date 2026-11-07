@@ -115,7 +115,7 @@
    "disposition": "link",
    "link_id": "latin-pastoral-congregational-christianity--donatism",
    "prose_change": null,
-   "reason": "Existing link (Augustine's book after the conference). Refusing the chairs: Breviculus II.1 (Petschenig lines 63481-63485, 'Donatistae autem recusauerunt'). The 279 figure is legible in the Gesta OCR ('ducenti septuaginta novem', pl11 lines 134382-134384); the 286 figure I did not find in the OCR."
+   "reason": "Existing link (Augustine's book after the conference). Refusing the chairs: Breviculus II.1 (Petschenig lines 63479-63482, 'Donatistae autem recusauerunt'). The 279 figure is legible in the Gesta OCR ('ducenti septuaginta novem', pl11 lines 134382-134384); the 286 figure I did not find in the OCR."
   },
   {
    "movement": "donatism",
@@ -385,7 +385,7 @@
    "disposition": "link",
    "link_id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
    "prose_change": null,
-   "reason": "New argued-against link. Prosper's letter confirms the order: On Rebuke and Grace had answered doubts in Africa (Ep. 225.2, lines 16940-16941) and then stirred the Marseilles party further (lines 16969-16975)."
+   "reason": "New argued-against link. Prosper's letter confirms the order: On Rebuke and Grace had answered doubts in Africa (Ep. 225.2, lines 16940-16941) and then stirred the Marseilles party further (lines 16966-16970)."
   },
   {
    "movement": "gallic-monastic-ascetic-christianity",
@@ -445,7 +445,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "No link: the Reformation churches argued with their own contemporaries under the label. Supported: the Formula of Concord (1577), Epitome II, rejects 'the error of the Semi-Pelagians, who teach that man, by his own powers, can make a beginning of his conversion', and Jacobs's note glosses it 'Massilians' (book-of-concord file, lines 25878-25881, 25898)."
+   "reason": "No link: the Reformation churches argued with their own contemporaries under the label. Supported: the Formula of Concord (1577), Epitome II, rejects 'the error of the Semi-Pelagians, who teach that man, by his own powers, can make a beginning of his conversion', and Jacobs's note glosses it 'Massilians' (book-of-concord file, lines 25880-25883, 25898)."
   },
   {
    "movement": "priscillianist-asceticism",
@@ -1288,7 +1288,7 @@
    "movement": "donatism",
    "field": "longDescription",
    "old": "The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against — the last word any surviving record has on it is a set of letters Pope Gregory the Great wrote in the 590s, pressing for an inquiry into Donatist rebaptism in Numidia.",
-   "new": "The sources say little about the communion under the Vandals, but it was still there under Byzantine rule. In 535 Justinian's law for Africa barred Donatists from holding services. The last surviving word on it comes from Pope Gregory the Great, whose letters of the 590s pressed for an inquiry into Donatist rebaptism in Numidia.",
+   "new": "The sources say little about the communion under the Vandals, but it was still there under Byzantine rule. In 535 Justinian's law for Africa barred Donatists from holding services. The last surviving word on it comes from Pope Gregory the Great. His letters of the 590s pressed for an inquiry into Donatist rebaptism in Numidia.",
    "reason": "No vendored text shows Donatists under Vandal rule or Vandal laws against them; Victor of Vita names them only as the target of the old imperial laws Huneric turned on the Catholics (Historia III, Petschenig line 7149). The Byzantine legislation is documented (Novel 37, link byzantine-imperial-church-justinianic--donatism). The sentence also ran past 50 words."
   },
   {
@@ -1328,7 +1328,7 @@
    "movement": "priscillianist-asceticism",
    "field": "longDescription",
    "old": "It shocked people at the time: Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner, and the bishops who had pressed the charges were disgraced for it.",
-   "new": "It shocked people at the time. Martin of Tours had begged the emperor not to shed the blood of the accused, saying a secular ruler had no place judging a church case. The bishops who had pressed the charges were disgraced for it.",
+   "new": "It shocked people at the time. Martin of Tours had begged the emperor not to shed the blood of the accused. A secular ruler, he said, had no place judging a church case. The bishops who had pressed the charges were disgraced for it.",
    "reason": "Martin's protest is documented (Chron. II.50, npnf211 11652-11660). Ambrose's objection to the execution is in his Letter 24, which is not vendored (in wants); the vendored evidence on Ambrose is his earlier refusal, now in prose change 6. The disgrace is documented (Chron. II.51: Ithacius 'thrust out of the episcopate', Ydacius resigned)."
   },
   {
