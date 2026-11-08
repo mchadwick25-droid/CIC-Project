@@ -1,0 +1,1571 @@
+{
+ "group": "D",
+ "dispositions": [
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "out-of-scope",
+   "link_id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "prose_change": null,
+   "reason": "Era 2 owns it: the Gallic movement's own text names Benedict's Rule commending Cassian. Existing link kept."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+   "other_id": "desert-monasticism",
+   "disposition": "out-of-scope",
+   "link_id": "desert-monasticism--early-benedictine-italian-monasticism",
+   "prose_change": null,
+   "reason": "Era 2 owns it: the desert movement's own text names Benedict's Rule. Existing link kept."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No single movement; 'the whole Latin monastic line' overstates what Gasquet shows (Columban's rule stood apart). Rewritten to 'the norm for most later Latin monasteries'; the named heirs have their own links."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "sentence": "Benedict of Nursia left Rome for a cave at Subiaco and ended up, around 529, founding a monastery on the hill of Monte Cassino, in an Italy being torn apart first by the Gothic wars and then by the Lombard invasions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Checked: Procopius's Gothic War (vendored, Dewing 1919/1924) and Paul the Deacon II on the Lombard entry of 568 support it."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "sentence": "Seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot, much of it adapted from an older and harsher text but shortened, moderated, and written with an eye for what ordinary people could actually sustain.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The older rule (the Rule of the Master) has no census movement. Its priority over Benedict's Rule is the majority modern view, not shown by a vendored text; said as what most scholars think."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "Existing link rewritten: Dialogues II tells Benedict's life and names Gregory's informants, four of Benedict's disciples."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "About Gregory's own work, not a movement relationship; the Register is vendored (NPNF 12-13, Ewald-Hartmann). The count 'more than 850' was not re-counted (flagged in wants)."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "sentence": "A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Supported by Paul the Deacon (vendored) and the Register's Lombard letters."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "why",
+   "sentence": "Benedict of Nursia left Rome for a cave at Subiaco and, around 529, founded a monastery at Monte Cassino in an Italy being torn apart by the Gothic wars and then the Lombard invasions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Checked: Procopius's Gothic War (vendored, Dewing 1919/1924) and Paul the Deacon II on the Lombard entry of 568 support it."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "why",
+   "sentence": "His Rule, seventy-three short chapters on prayer, work, food and the election of an abbot, shortened and softened an older, harsher text with an eye for what ordinary people could actually sustain.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "As the longDescription: the older text's priority is the majority scholarly view, now said so."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+   "prose_change": null,
+   "reason": "New link, Documented: the 802 Aachen synod read the Rule and ordered monasteries corrected by it; Karlmann's council of 742 prescribed it."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "prose_change": null,
+   "reason": "New link, Dominant Modern Reconstruction: no Cluniac text is vendored; two editors of the Rule read Cluny's customs as Benedictine practice."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "sentence": "Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No census movements. Cistercians supported by Hunter Blair's notes on Cistercian legislation; Benedictine congregations today by the Rule's two Benedictine editors (1907, 1925). The Trappists have no vendored or repo-cited source and are dropped."
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "sentence": "Monte Cassino itself was destroyed repeatedly — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time; monks live there now.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. The Lombard sack is documented (Paul the Deacon IV.17, lines 7804-7812). The Saracens, the earthquake, the 1944 bombing and today's community have no vendored or repo-cited source. Left standing pending Mark's ruling on modern and physical facts (escalation 1)."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "Overlaps early-benedictine-italian-monasticism, whose window closes at Gregory's death, in person rather than in kind: he was a monk and wrote the only life of Benedict there is, but the Pastoral Rule is an episcopal manual and the Register is a government's paperwork.",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "prose_change": 5,
+   "reason": "Existing link (rewritten). The sentence printed a raw movement ID; rewritten in words."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": 5,
+   "reason": "Existing link kept (Bede I.23, I.25). Raw ID in the sentence rewritten in words."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--roman-church-gregorian",
+   "prose_change": 5,
+   "reason": "New 'in contact with' link: letters to Brunhild and to Gaul's bishops; Gregory of Tours on the election. Raw ID rewritten."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "prose_change": 5,
+   "reason": "New 'in contact with' link (Gregory at Constantinople, his debate with Eutychius); the existing 'argued against' link also stands. Raw ID rewritten."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Checked: Procopius's Gothic War (vendored, Dewing 1919/1924) and Paul the Deacon II on the Lombard entry of 568 support it."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Paul the Deacon (vendored) dates the Lombard entry to 568."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "The imperial government sat at Ravenna and had little left to spend on Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Barmby's introduction (npnf212, around lines 22831-22840) describes the exarch's inaction; Gregory's own letters on it are vendored but not re-read here."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "Gregory was city prefect, gave it up, turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "New 'in contact with' link: Gregory's own account of his years at Constantinople (Moralia XIV) and Paul the Deacon III.13."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He paid soldiers and negotiated with Lombard dukes when the exarch would not.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Barmby's introduction and the Register's Lombard letters (vendored) support it; not individually re-traced, as the rcg Doc_02 also notes."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "New 'in contact with' link: Register IX.106 warns four Gallic metropolitans about simony."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "New 'in contact with' link: letters with Leander and Reccared. The 'doing wrong' wording fits Spain least well (flagged on the link)."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+   "other_id": "latin-africa-under-byzantium",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "prose_change": null,
+   "reason": "New 'in contact with' link: Register I.77 to the bishops of Numidia."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Illyricum has no census movement. The Register has letters to Natalis of Salona, to all the bishops of Illyricum (II.22) and to Maximus of Salona (vendored, npnf212)."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "He refused the title of universal bishop when Constantinople's patriarch used it, and called himself servant of the servants of God instead.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   "prose_change": 6,
+   "reason": "Existing 'argued against' link kept. The 'servant of the servants of God instead' clause is wrong by date and is qualified."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "sentence": "And in 596 he sent a party of his own monks to Kent, and then wrote to them again and again about what to do with pagan temples and how far to insist on Roman custom.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "Existing link kept: Bede I.23 and I.25."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "why",
+   "sentence": "Gregory the Great became bishop of Rome in 590, during a plague, in a city whose Roman government had already collapsed under the Gothic wars and the Lombard invasions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Checked: Procopius's Gothic War (vendored, Dewing 1919/1924) and Paul the Deacon II on the Lombard entry of 568 support it."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "why",
+   "sentence": "He ran the papal estates in Sicily as the city's food supply, negotiated directly with Lombard dukes when the imperial governor at Ravenna would not, and in 596 sent his own monks to Kent to begin a mission whose questions and his answers still survive in his letters.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement; as the longDescription sentence on the Lombard dukes."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "why",
+   "sentence": "He ran the papal estates in Sicily as the city's food supply, negotiated directly with Lombard dukes when the imperial governor at Ravenna would not, and in 596 sent his own monks to Kent to begin a mission whose questions and his answers still survive in his letters.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "Existing link kept."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "sentence": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--carolingian-reform-christianity",
+   "prose_change": null,
+   "reason": "New link, Widely Accepted: a Carolingian clergy list names 'the pastoral book'; Barmby reports the 813 councils. The councils themselves are not vendored."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "sentence": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years.",
+   "other_id": "late-anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "prose_change": 7,
+   "reason": "New link, Dominant Modern Reconstruction: only Barmby's 1895 introduction is in the repo; Alfred's preface is wanted. The clause is reworded to what Barmby says."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "sentence": "The mission to Kent is why there is an English church in communion with Rome at all, and why anglo-saxon-christianity has a Roman half.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": 7,
+   "reason": "Existing link kept. Raw movement ID rewritten in words."
+  },
+  {
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "sentence": "And the working model of the bishop of Rome as the practical government of central Italy - feeding the city from church estates, treating with invaders, paying troops - is where the temporal power of the papacy actually begins, whatever later documents claimed for it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. The Register's letters on paying troops and treating with the Lombards (vendored) support it."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Receives Martin of Tours's line; parent of Carolingian Christianity",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "out-of-scope",
+   "link_id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   "prose_change": null,
+   "reason": "Era 2 owns it: the Gallic movement's own text names the Merovingian church. Existing link kept; doubt about 'Martin' flagged on it."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Receives Martin of Tours's line; parent of Carolingian Christianity",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "prose_change": 8,
+   "reason": "New 'continued as' link. 'Parent' changed to 'continues into' to match it."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "longDescription",
+   "sentence": "When the Frankish king Clovis accepted baptism as a Nicene Christian around the turn of the sixth century, he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": null,
+   "reason": "New 'argued against' link: Gregory of Tours's own debate with a Visigothic envoy (HF VI.40), and his report of Clovis against 'these Arians' (II.37)."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "longDescription",
+   "sentence": "When the Frankish king Clovis accepted baptism as a Nicene Christian around the turn of the sixth century, he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Clovis is a person, not a movement. Gregory of Tours II.31 (Brehaut, vendored) tells the baptism; the date is given as 'around'."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "longDescription",
+   "sentence": "Gregory of Tours, writing two generations later, filled book after book with the shrines, relics and cures that structured everyday devotion, alongside a famously unsparing narrative of Frankish kings murdering one another.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Gregory of Tours's History (Dalton, Brehaut, MGH; vendored) is the source."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "longDescription",
+   "sentence": "Queens became founders — Radegund walked out of a royal marriage to establish a convent at Poitiers — and poets wrote hymns for their relics.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Venantius Fortunatus's and Baudonivia's Lives of Radegund are vendored in Latin (corpus map); not re-read for this pass."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "why",
+   "sentence": "When the Frankish king Clovis accepted Nicene baptism around 500, his bishops preached to congregations who still consulted soothsayers and slipped out before the sermon.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Clovis is a person, not a movement; as above (HF II.31)."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continued directly into Carolingian Christianity, which reformed and reorganized it rather than replacing it.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "prose_change": null,
+   "reason": "New 'continued as' link: Boniface on Karlmann's reform of the Frankish church (742), and Pippin's consecration by the bishops of Gaul (751)."
+  },
+  {
+   "movement": "merovingian-gallic-christianity",
+   "field": "legacy",
+   "sentence": "Its shrine culture set the pattern for Western pilgrimage, and its partnership of Frankish crown and Gallic bishops became a working model for church and kingdom across medieval Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Clovis's letter to the bishops and the Merovingian royal edicts (Capitularia I) and councils (Maassen), all vendored, support it."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Descended from Ulfila's missionary church, this tradition covers the churches of the post-Roman barbarian kingdoms, including the Lombard Arian church that lasted from 568 to about 680.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 2 owns it: the Homoian movement's own text names Ulfila's Gothic mission. Note for era 2: no link of any kind yet joins homoian-arian-christianity to this movement."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "Their tradition went back to Ulfila, the fourth-century missionary bishop who devised an alphabet for Gothic and translated most of the Bible into it, and it worked as a real church, with clergy, liturgy, scripture in the vernacular, and arguments of its own.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 2 owns it, as above."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Vandal Africa it was the persecuting party, exiling and maiming Nicene bishops in a campaign its victims documented in detail.",
+   "other_id": "latin-africa-under-byzantium",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium",
+   "prose_change": null,
+   "reason": "New 'argued against' link: Huneric's edict (Victor of Vita) and Procopius III.8. Date gap with the 533 movement flagged."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Ostrogothic Italy it lived alongside the Catholic church in separate buildings, some of which still stand in Ravenna.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for Ostrogothic Italy's Catholic church. Anonymus Valesianus 60 (Theoderic, Arian, attempted nothing against the Catholic religion) and Gregory's Dialogues III.30 (a Gothic Arian church in Rome) support 'alongside, in separate buildings'. 'Some of which still stand in Ravenna' has no vendored source (escalation 1)."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Africa and Ostrogothic Italy it was destroyed by Byzantine reconquest.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+   "prose_change": null,
+   "reason": "New 'argued against' link for Africa (Procopius III.21, IV.14). Italy rests on thinner evidence, flagged on the link."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Spain and among the Lombards it ended by conversion.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link: Toledo III, Reccared's address and the former Arian bishops' signatures."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Spain and among the Lombards it ended by conversion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Paul the Deacon IV.42 (two bishops in almost every city, one Catholic, one Arian, under Rothari) supports it."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+   "prose_change": null,
+   "reason": "Same link: Toledo III, 589."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a census movement. Paul the Deacon IV.42 shows Arian Lombard kings into the 640s; supported."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "why",
+   "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+   "other_id": "latin-africa-under-byzantium",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium",
+   "prose_change": null,
+   "reason": "Same link as the longDescription."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "why",
+   "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement; as the longDescription sentence (Anonymus Valesianus 60; Dialogues III.30)."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "why",
+   "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+   "prose_change": null,
+   "reason": "Same Toledo link."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "legacy",
+   "sentence": "In Ravenna the Arian Baptistery and Theodoric's palace church survive with their mosaics, including a panel where the Gothic court figures were later scrubbed out of the picture.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Theoderic is a person, not a movement. No vendored or repo-cited source describes the surviving Ravenna buildings or the altered palace mosaic. Left standing pending Mark's ruling (escalation 1); Agnellus is wanted."
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "legacy",
+   "sentence": "And the crossing of Visigothic Spain at Toledo in 589 set the shape of Iberian Christianity for the next century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+   "prose_change": null,
+   "reason": "Same Toledo link."
+  }
+ ],
+ "links": [
+  {
+   "old_index": null,
+   "id": "desert-monasticism--early-benedictine-italian-monasticism",
+   "action": "keep",
+   "from": "desert-monasticism",
+   "to": "early-benedictine-italian-monasticism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Benedict's Rule tells monks to read 'the Lives of the Fathers' at their evening gatherings. Its closing chapter names the Fathers' Lives and Basil's Rule as models of monastic life. Its editor, Cardinal Gasquet, reads them as the Lives of the Fathers of the Desert.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 42 (Latin, Hunter Blair edition)",
+     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+     "lines": "6839-6841",
+     "locus": "RB 42",
+     "quote": "et legat unus Collationes, vel Vitas Patrum, aut certe aliquid quod aedificet audientes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 73 (English, Gasquet edition)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "4289-4291",
+     "locus": "RB 73",
+     "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives, and the Rule of our Holy Father St. Basil,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-benedictine relationsSummary ('Receives the desert via Cassian'); desert-monasticism's own era-2 text names Benedict's Rule",
+   "wants": [],
+   "drafter_flags": [
+    "Era 2 owns it; not changed. Doubt for era 2: this link and the Cassian link below rest on the same two Rule quotes (RB 42 and RB 73). Only RB 42's 'Vitas Patrum' and RB 73's 'their Lives' reach the desert, and reading them as the Lives of the desert Fathers is Gasquet's gloss, which the note says."
+   ],
+   "change_reason": "Kept: era 2 owns it (the desert movement's own text names Benedict's Rule)."
+  },
+  {
+   "old_index": null,
+   "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "early-benedictine-italian-monasticism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Benedict's Rule tells monks to read the 'Collationes' at evening gatherings and names the 'Institutes' as models. Cassian's two works have those titles. Gennadius says Cassian founded two monasteries at Marseilles.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 42 (Latin, Hunter Blair edition)",
+     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+     "lines": "6839-6841",
+     "locus": "RB 42",
+     "quote": "et legat unus Collationes, vel Vitas Patrum, aut certe aliquid quod aedificet audientes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Rule of Saint Benedict, chapter 73 (English, Gasquet edition)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "4289-4291",
+     "locus": "RB 73",
+     "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives, and the Rule of our Holy Father St. Basil,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.gennadius-de-viris-illustribus",
+     "work": "Gennadius, Lives of Illustrious Men, chapter 62 (Cassianus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "43243-43246",
+     "locus": "De viris illustribus 62",
+     "quote": "Scythian by race, ordained deacon by bishop John the Great, at Constantinople, and a presbyter at Marseilles, founded two monasteries, that is to say one for men and one for women,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-benedictine relationsSummary ('Receives the desert via Cassian'); the Gallic movement's own era-2 text names Benedict's Rule commending Cassian",
+   "wants": [],
+   "drafter_flags": [
+    "Era 2 owns it; not changed. No doubt about the Rule's naming of the 'Collationes' and 'Institutes'; the Gennadius quote shows Cassian at Marseilles, not the Benedictine reception itself."
+   ],
+   "change_reason": "Kept: era 2 owns it (the Gallic movement's own text names Benedict's Rule and Cassian)."
+  },
+  {
+   "old_index": null,
+   "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   "action": "keep",
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "merovingian-gallic-christianity",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Venantius Fortunatus, a poet of Merovingian Gaul, praises the Rule of Caesarius of Arles. Caesarius came from Lérins and became bishop of Arles. Gennadius records Faustus, first abbot of Lérins, who became bishop of Riez.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Venantius Fortunatus, verses on the Rule of Caesarius, quoted in Krusch's edition of the Life of Caesarius of Arles",
+     "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt",
+     "lines": "35663",
+     "locus": "Vita Caesarii (MGH SRM 3), verses at the head of p. 450",
+     "quote": "Qui fuit antistes Arelas de sorte Lerini,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "gallic.source.gennadius-de-viris-illustribus",
+     "work": "Gennadius, Lives of Illustrious Men, chapter 86 (Faustus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "43684-43685",
+     "locus": "De viris illustribus 86",
+     "quote": "first abbot of the monastery at Lerins, and then made bishop",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Ralph W. Mathisen, Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (CUA Press, 1989)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "merovingian relationsSummary ('Receives Martin of Tours's line'); the Gallic movement's own era-2 text calls itself the seedbed of the Merovingian church",
+   "wants": [],
+   "drafter_flags": [
+    "Era 2 owns it; not changed. Doubt for era 2: the Merovingian text says it receives 'Martin of Tours's line', but this link's note and sources are about Lérins and Caesarius of Arles and never mention Martin. Either the note should add Martin (Venantius Fortunatus's Life of Martin and Gregory of Tours's Miracles of Martin are both vendored) or the Merovingian sentence should name Lérins.",
+    "Its Venantius quote, 'Qui fuit antistes Arelas de sorte Lerini,', is one verse line; the link's own verification_state is named-not-rechecked."
+   ],
+   "change_reason": "Kept: era 2 owns it (the Gallic movement's own text names the Merovingian church)."
+  },
+  {
+   "old_index": null,
+   "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "action": "rewrite",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "roman-church-gregorian",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his Dialogues, Gregory tells the life of Benedict and praises the rule Benedict wrote for his monks, 'excellent for discretion'. Gregory says he had his stories from four of Benedict's disciples, including Constantinus, the next abbot after him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Gregory the Great, Dialogues II, chapter 36 (Gardner 1911, from the 1608 English)",
+     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+     "lines": "5566-5568",
+     "locus": "Dial. 2.36",
+     "quote": "for  he  wrote  a rule  for  his  monks,  both  excellent  for  discretion  and  also eloquent  for  the  style.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Dialogues II, prologue (Gardner 1911, from the 1608 English)",
+     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+     "lines": "3428-3429",
+     "locus": "Dial. 2, prol.",
+     "quote": "but those few, which I mind now to report, I had by the relation of four of his disciples",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Dialogues II, prologue (Gardner 1911, from the 1608 English)",
+     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+     "lines": "3436-3438",
+     "locus": "Dial. 2, prol.",
+     "quote": "Constantinus, a most rare and reverent man, who was next Abbot after him ; of Valentinianus, who many years had the charge of the Lateran Abbey;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-benedictine longDescription ('Gregory the Great ... wrote the only account we have of Benedict's life'); roman-church-gregorian relationsSummary ('wrote the only life of Benedict there is')",
+   "wants": [],
+   "drafter_flags": [
+    "The old second source (Gregory's letter to Leander: 'I sought the haven of the monastery') shows that Gregory became a monk, not that his monasticism came from Benedict's houses. Nothing we hold says Gregory's own monastery on the Caelian followed Benedict's Rule, so I replaced that quote with Gregory's own statement of where his Benedict stories came from.",
+    "The Dialogues text is Gardner's 1911 reprint of the 1608 English, with long-s and running-head OCR; the quoted lines read cleanly."
+   ],
+   "change_reason": "Rewritten: the note and second source now show the line of transmission (Benedict's disciples to Gregory), not Gregory's own monastic vocation, which does not evidence Benedictine influence."
+  },
+  {
+   "old_index": null,
+   "id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+   "action": "new",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "carolingian-reform-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 802 Charlemagne gathered abbots and monks at Aachen, where they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against that rule be corrected by it. Sixty years earlier, Carloman's council of 742 had told monks and nuns to live by the same rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lorsch Annals for 802, as printed in the headnote to the Aachen synod of 802 (MGH Capitularia regum Francorum I)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "7794-7796",
+     "locus": "Ann. Lauresh. a. 802 (Capit. I, no. 36-41, headnote)",
+     "quote": "Similiter in ipso synodo congregavit universos abbates et monachos qui ibi aderant, et ipsi inter se conventum faciebant et legerunt regulam sancti patris Benedicti, et eam tradiderunt sapientes in conspectu abbatum et monachorum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Karlmann's capitulary of 742 (Concilium Germanicum), c. 7 (MGH Capitularia regum Francorum I)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2324-2325",
+     "locus": "Capit. I, no. 10, c. 7",
+     "quote": "Et ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordinare et vivere, vitanii propriam gubernare studeant",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-benedictine legacy ('Carolingian reformers made it the norm across the Frankish empire'); carolingian-reform text names 'one monastic rule for the whole realm'",
+   "wants": [
+    "The canons of the Aachen councils of 816-817 (Benedict of Aniane's reform), for the empire-wide imposition itself"
+   ],
+   "drafter_flags": [
+    "Carloman's council of 742 falls before 751, where the Carolingian movement's dates begin; the note says 742 and names Carloman, and the 802 synod carries the link inside the window.",
+    "The 802 'corrected by it' sentence (Capitularia lines 7803-7806) is paraphrased in the note but not quoted, because those OCR lines carry margin line numbers inside the sentence; please re-read it there.",
+    "The capitulary file's OCR is raw ('vitanii' for 'vitamque', as the editor's own variant note says); the quote is verbatim from the file."
+   ],
+   "change_reason": "New: the Benedictine legacy names the Carolingian adoption of the Rule, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "action": "new",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "cluniac-reform-monasticism",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "No text we hold from Cluny itself names Benedict's Rule. Two Benedictine editors of the Rule, Oswald Hunter Blair in 1907 and Cardinal Gasquet, explain its practice from Cluny's later customs. Gasquet calls it practically the only monastic rule of the West from the ninth to the twelfth century.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "D. Oswald Hunter Blair, explanatory notes to The Rule of St. Benedict (Sands, 1907)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "early-benedictine legacy ('it stands behind the Cluniacs')",
+   "wants": [
+    "Cluny's foundation charter of 909/910, which places the house under the Rule of Saint Benedict (Bruel, Recueil des chartes de l'abbaye de Cluny I, 1876, public domain)",
+    "Bernard's or Ulrich's customary of Cluny (Ordo Cluniacensis), which Hunter Blair cites"
+   ],
+   "drafter_flags": [
+    "Grade reflects what is vendored, not doubt in the scholarship: Cluny's Benedictine observance is not in question, but no Cluniac text is vendored, so this can rise no higher than the editors who read Cluny's customs as Benedictine practice.",
+    "Secondary loci, for the reviewer only (secondaries carry no quote): Hunter Blair 1907 notes at benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt lines 10525 ('the Ordo Cluniacensis'), 10868-10869 ('continued by the Congregation of Cluny'); Gasquet 1925 introduction at benedict_rule-of-saint-benedict_gasquet1925.txt lines 580-581 ('practically the only monastic Rule of the West').",
+    "The Cluny movement's own text says Cluny 'grew out of the Carolingian reform tradition'; this direct link and the Carolingian one may read as a chain. Both are named in the Benedictine text."
+   ],
+   "change_reason": "New: the Benedictine legacy names the Cluniacs; graded on the only repo evidence, two editors of the Rule."
+  },
+  {
+   "old_index": null,
+   "id": "roman-church-gregorian--anglo-saxon-christianity",
+   "action": "keep",
+   "from": "roman-church-gregorian",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Bede reports that Pope Gregory sent Augustine and several other monks to preach to the English in 596. They landed on the Isle of Thanet, in King Ethelbert's Kent, nearly forty strong.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, I.23 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "1809-1811",
+     "locus": "HE 1.23",
+     "quote": "sent the servant of God, Augustine, and with him several other monks, who feared the Lord,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Bede, Ecclesiastical History of the English Nation, I.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "1929-1931",
+     "locus": "HE 1.25",
+     "quote": "In this island landed the servant of our Lord, Augustine, and his companions, being, as is reported, nearly forty men.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian relationsSummary (letters reach the English church), longDescription and why ('in 596 he sent a party of his own monks to Kent'), legacy ('The mission to Kent is why there is an English church in communion with Rome')",
+   "wants": [],
+   "drafter_flags": [
+    "Kept as is. Both Bede quotes re-found at the stated lines by the quote check. Bede is a dated text (731), not Gregory's own; Gregory's own letters on the mission (e.g. Register VI.51, 'To the Brethren going to England') are vendored in NPNF 12 and could be added later. Group E owns the Irish link into the same movement."
+   ],
+   "change_reason": "Kept: the Kent mission is documented by Bede at the stated lines."
+  },
+  {
+   "old_index": null,
+   "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   "action": "keep",
+   "from": "roman-church-gregorian",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In June 595 Gregory wrote to Emperor Maurice that John, patriarch of Constantinople, was trying to be called universal bishop. He says the title is a new name, taken against the Gospel and the canons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6884-6888",
+     "locus": "Reg. V.37",
+     "quote": "et tamen universalis apostolus non vocatur : et vir  sanctissimus consacerdos meus Iohannes vocari universalis  episcopus conatur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.gregory-great-epistolae-selectae-turchi",
+     "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+     "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+     "lines": "6909",
+     "locus": "Reg. V.37",
+     "quote": "decreta novum sibi usurpare nomen praesumit ?",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian longDescription ('He refused the title of universal bishop when Constantinople's patriarch used it')",
+   "wants": [],
+   "drafter_flags": [
+    "Kept as is: Gregory's letter to Maurice names John of Constantinople and the title. The prose beside it said he took 'servant of the servants of God' instead; that causal reading is wrong by date, and the sentence is qualified (prose change 6)."
+   ],
+   "change_reason": "Kept: the universal-bishop letter documents the argument by name."
+  },
+  {
+   "old_index": null,
+   "id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "roman-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Before he became pope, Gregory lived at Constantinople as the pope's envoy. In his Morals on Job he recalls arguing with Eutychius, bishop of Constantinople, about the resurrection, until Emperor Tiberius heard them both. Paul the Deacon, writing in the late eighth century, tells the same story.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Morals on the Book of Job XIV.72-74 (Library of the Fathers, 1845)",
+     "file": "cic/texts/gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt",
+     "lines": "8400-8402",
+     "locus": "Moralia XIV.72",
+     "quote": "And  when,  being  placed  in  the  city  of  Constantinople, I  brought  before  Eutychius  this  testimony  of  truth  from  the Gospel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Morals on the Book of Job XIV.72-74 (Library of the Fathers, 1845)",
+     "file": "cic/texts/gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt",
+     "lines": "8488-8491",
+     "locus": "Moralia XIV.74",
+     "quote": "when  the  £)mperor  Tiberius  Constantine, of  religious  memory,  bringing  myself  and  him  to  a  private audience,  learnt  what  dispute  was  being  carried  on  between us,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul the Deacon, History of the Langobards III.13 (Foulke 1907)",
+     "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+     "lines": "5750-5752",
+     "locus": "HL III.13",
+     "quote": "In his days while the blessed Gregory, the deacon who afterwards became Pope, was papal delegate at the same imperial city, he composed books of Morals",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian longDescription ('was sent to Constantinople as the pope's representative'); relationsSummary (its letters reach the imperial church)",
+   "wants": [],
+   "drafter_flags": [
+    "Group B owns the Byzantine movement. Its own text does not name Gregory, so this link is drafted here; if Group B also drafts a Gregory link, keep one.",
+    "Second link on this pair (the other is Gregory 'argued against' Constantinople over the universal-bishop title, 595). Each is separately evidenced: this one is Gregory's residence and debate there in the 580s.",
+    "The Morals quote keeps the file's OCR '£)mperor' for 'Emperor'."
+   ],
+   "change_reason": "New: the Gregory text names his posting to Constantinople, and the existing link covers only the later title dispute."
+  },
+  {
+   "old_index": null,
+   "id": "merovingian-gallic-christianity--roman-church-gregorian",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "roman-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Gregory wrote often to Gaul. He answered Queen Brunhild's letters, and warned four leading bishops that holy orders there were being bought. Gregory of Tours recorded the pope's election in 590, as his own deacon reported it on his return from Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register VI.50, To Queen Brunichild (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "44398-44401",
+     "locus": "Reg. VI.50",
+     "quote": "The tenor of your letters, which evinces a religious spirit and the earnestness of a pious mind, causes us not only to commend the purpose of your request, but also to grant willingly what you demand.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register IX.106, To Syagrius, Aetherius, Virgilius and Desiderius (NPNF 2.13, Barmby)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "2934-2936",
+     "locus": "Reg. IX.106",
+     "quote": "I apprize you to wit, that we have long heard it currently reported how that in the regions of Gaul sacred orders are conferred through simoniacal heresy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks X.1 (Dalton 1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "20167-20169",
+     "locus": "HF X.1",
+     "quote": "And because the Church of God could not remain without a leader, the whole people chose the deacon Gregory.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian relationsSummary (letters reach the Frankish church) and longDescription ('He told bishops in Gaul ... what he thought they were doing wrong')",
+   "wants": [],
+   "drafter_flags": [
+    "The Register numbering is Barmby's NPNF numbering (Book VI, Epistle L; Book IX, Epistle CVI), not Ewald-Hartmann's.",
+    "Gregory of Tours's deacon is said, at the head of X.1, to have 'related' the news from Rome; that the election account also came through him is the plain reading of the chapter, not a separate statement."
+   ],
+   "change_reason": "New: the Gregory text names his letters to Gaul's bishops and court, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "nicene-visigothic-iberia--roman-church-gregorian",
+   "action": "new",
+   "from": "nicene-visigothic-iberia",
+   "to": "roman-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Gregory and Leander of Seville first met at Constantinople and kept writing to each other. Gregory told Leander that his letters had made him love King Reccared. Later Gregory wrote to Reccared himself, praising the conversion of the whole Gothic nation.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Letter to Leander prefixed to the Morals on Job (Library of the Fathers, 1844)",
+     "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+     "lines": "389-390",
+     "locus": "Ep. ad Leandrum 1",
+     "quote": "When  I  knew  you  long  since  at  Constantinople,  my most  blessed  brother,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register I.43, To Leander of Seville (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "32583-32584",
+     "locus": "Reg. I.43",
+     "quote": "In describing his character to me in thy letters thou hast made me love him, though I know him not.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register IX.122, To Reccared, King of the Visigoths (NPNF 2.13, Barmby)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "3872-3875",
+     "locus": "Reg. IX.122",
+     "quote": "For on hearing of the power of a new miracle in our days, to wit that the whole nation of the Goths has through thy Excellency been brought over from the error of Arian heresy to the firmness of a right faith,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian longDescription ('He told bishops in Gaul, Spain ...')",
+   "wants": [],
+   "drafter_flags": [
+    "Another group owns nicene-visigothic-iberia; its own text names Leander but not Gregory, so the link is drafted here. Keep one if it is drafted twice.",
+    "The prose says Gregory told Spanish bishops 'what he thought they were doing wrong'; the vendored English letters to Spain are friendly. His rulings against the depositions of Januarius of Malaga and Stephen (603) exist only in the Latin Ewald-Hartmann file (gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt, around line 18084), not re-read here. The contact link does not depend on that sentence."
+   ],
+   "change_reason": "New: the Gregory text names his letters to Spain's bishops, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "action": "new",
+   "from": "latin-africa-under-byzantium",
+   "to": "roman-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop, but barred bishops who had come over from the Donatists from that rank.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "33808-33811",
+     "locus": "Reg. I.77",
+     "quote": "And we, indeed, according to the tenour of your representation, allow your custom (so long as it clearly makes no claim to the prejudice of the catholic faith) to remain undisturbed, whether as to constituting primates or as to other points;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "33811-33813",
+     "locus": "Reg. I.77",
+     "quote": "save that with respect to those who attain to the episcopate from among the Donatists, we by all means forbid them to be advanced to the dignity of primacy,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian longDescription ('He told bishops in ... Africa ... what he thought they were doing wrong')",
+   "wants": [],
+   "drafter_flags": [
+    "Another group owns latin-africa-under-byzantium; its text does not name Gregory. Keep one if drafted twice.",
+    "Many more African letters are vendored (to the exarch Gennadius, to Dominicus of Carthage, to Columbus); the Donatism world's records already cite the Turchi Latin selection of them (records/don/source)."
+   ],
+   "change_reason": "New: the Gregory text names his letters to Africa's bishops, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "roman-church-gregorian--carolingian-reform-christianity",
+   "action": "new",
+   "from": "roman-church-gregorian",
+   "to": "carolingian-reform-christianity",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "A Carolingian list of what clergy must learn tells canons to know 'the pastoral book', which its editor identifies as Gregory's. Gregory's translator James Barmby adds that councils held at Charlemagne's command in 813 required all bishops to study it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Quae a presbyteris discenda sint, c. 13 (MGH Capitularia regum Francorum I, no. 117)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "16128",
+     "locus": "Capit. I, no. 117, c. 13",
+     "quote": "13. Librum pastoralem* canonici atque librum officiorum;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Barmby, introduction to the Book of Pastoral Rule, Nicene and Post-Nicene Fathers, second series, vol. 12 (1895)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "roman-church-gregorian legacy ('Carolingian councils legislated that bishops should own it and read it')",
+   "wants": [
+    "The councils of 813 (Mainz preface; Reims II c. 10; Tours III c. 3; Chalon II c. 1) in MGH Concilia aevi Karolini I (Werminghoff, 1906), to document the legislation directly"
+   ],
+   "drafter_flags": [
+    "Not Documented: the capitulary says only 'the pastoral book'; the identification as Gregory's is the editor's footnote (line 16139, 'Gregorii Magui', OCR). The editor also says the list's author and date are uncertain and that it is not safely Charlemagne's (lines 16093-16096).",
+    "Barmby's statement is at npnf212_leo-great-gregory-great.xml lines 24041-24051 (813 councils) and 24054-24058 (Hincmar: a copy given to bishops at consecration), for the reviewer.",
+    "The prose's 'own it' rests on the Hincmar report Barmby gives; 'legislated that bishops should ... read it' rests on the 813 councils, which are not vendored."
+   ],
+   "change_reason": "New: the Gregory legacy names the Carolingian councils, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "action": "new",
+   "from": "roman-church-gregorian",
+   "to": "late-anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "King Alfred had Gregory's Pastoral Rule turned into West Saxon English, meaning, he said, to send a copy to every bishop in his kingdom. We have this from Gregory's translator James Barmby, writing in 1895. Alfred's own preface is not among the texts we hold.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Barmby, introduction to the Book of Pastoral Rule, Nicene and Post-Nicene Fathers, second series, vol. 12 (1895)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Sweet (ed.), King Alfred's West-Saxon Version of Gregory's Pastoral Care (Early English Text Society, 1871)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "roman-church-gregorian legacy ('Alfred translated it into English'); late-anglo-saxon text also names 'Gregory the Great's Pastoral Care'",
+   "wants": [
+    "Alfred's prose preface to the Pastoral Care, in Sweet's EETS edition (1871, public domain), which would make this Documented"
+   ],
+   "drafter_flags": [
+    "Grade reflects what is vendored, not doubt: Alfred's translation is not contested. No primary is vendored, so this cannot be Widely Accepted under the method.",
+    "Barmby's sentence is at npnf212_leo-great-gregory-great.xml lines 24031-24035; Sweet's edition is named in Barmby's endnote and in the EETS lists bound into several vendored files (e.g. birgitta_revelations-enm_cumming1929.txt line 10695). Sweet's edition itself is not vendored or read.",
+    "The late-anglo-saxon text also names this; its era-4 drafters may reach the same pair."
+   ],
+   "change_reason": "New: the Gregory legacy names Alfred's translation, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "carolingian-reform-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 742 Boniface told the pope that Carloman, of the new Carolingian house, wanted a synod to repair a Frankish church neglected for sixty or seventy years. In 751 the bishops of Gaul consecrated Pippin king of the Franks. The same church, with its bishops, passed under the new dynasty.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface, Letter to Pope Zacharias (742), as quoted in the editor's headnote to Karlmann's capitulary (MGH Capitularia regum Francorum I, no. 10)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2204-2206",
+     "locus": "Bonif. ep. 42 (Jaffé), in Capit. I, no. 10, headnote",
+     "quote": "Et promisit, se de aeccle- siastica rclij:,ione, quae iam longo tempore id est non minus quam per sexaginta vel septuaginta annos calcata et dissipata fuit, aliquid conngerc ct emendare velle.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Continuations of Fredegar, c. 33 (MGH SRM 2, Krusch 1888)",
+     "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+     "lines": "13469-13470",
+     "locus": "Fredegar cont. 33",
+     "quote": "praecelsus Pippinus electione totius Francorum'' in sedem regni cum consecratione episcoporum et subiectione principum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clausula de unctione Pippini, as quoted in Krusch's note to Fredegar cont. 33 (MGH SRM 2)",
+     "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+     "lines": "13513-13516",
+     "locus": "Clausula de unctione Pippini",
+     "quote": "Pippinus rex pius per auctoritatem et imperium sanctae recordationis domni Zacbariae papae et unctionem saucti chrismatis per manus beatorum sacerdotum Galliarum et electionem omnium Franchorum in regni solio sublimatus est.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "merovingian relationsSummary ('parent of Carolingian Christianity') and legacy ('The same institution continued directly into Carolingian Christianity'); the census continuesAs field already names it",
+   "wants": [
+    "Boniface's letter to Zacharias in a full vendored edition (Tangl 1916, or Emerton's English), rather than through the capitulary headnote",
+    "The Clausula de unctione Pippini in full (MGH SRM 1, p. 465)"
+   ],
+   "drafter_flags": [
+    "Reviewer please check the grade: the 'grade the relationship' rule warns that 'the same community' is an interpretation. I graded Documented because the sources show the same body acting across the line: Boniface reports a reform of the existing Frankish church, and the Clausula says Pippin was anointed by the hands of the bishops of Gaul. If that is judged too strong, Widely Accepted would need a repo-cited secondary, and I found none.",
+    "Both Boniface and the Clausula reach us here as quotations inside modern editors' apparatus, not as separately vendored texts. The OCR is raw ('rclij:,ione' for 'religione', 'conngerc ct' for 'corrigere et').",
+    "The third note sentence is the claim the link makes; it is supported by the two before it, not by a quote of its own.",
+    "The relationsSummary called this 'parent'; it is changed to 'continues into' to match the type (prose change 8)."
+   ],
+   "change_reason": "New: the Merovingian text names its continuation into the Carolingian church, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "When an envoy of the Arian Visigothic king reached Tours one Easter, Gregory of Tours questioned him on his faith, argued with him over the Trinity and called him a heretic. Gregory also reports that Clovis said he took it hard that 'these Arians' held part of Gaul.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "12913-12914",
+     "locus": "HF VI.40",
+     "quote": "This envoy arriving at Tours for the holy day of Easter, I questioned him, whether he was of our faith.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "12972-12973",
+     "locus": "HF VI.40",
+     "quote": "But now what wouldst thou, O heretic ?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks II.37 (Brehaut 1916)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+     "lines": "2604-2605",
+     "locus": "HF II.37",
+     "quote": "Now Clovis the king said to his people: \"I take it very hard that these Arians hold part of the Gauls.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "merovingian longDescription ('he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held')",
+   "wants": [],
+   "drafter_flags": [
+    "The envoy, Oppila, came from Leuvigild, king of Spain; the passage does not say 'Arian' of the king, but Oppila's refusal of communion and Gregory's 'O heretic' make the Homoian side plain.",
+    "Clovis's words are Gregory of Tours's report, written about ninety years after 507, not a contemporary record.",
+    "Gregory of Tours also records Clovis's sister Lanthechild leaving 'the heresy of the Arians' at his baptism (Brehaut, lines 2450-2453), which supports the prose sentence but is a conversion, not an argument."
+   ],
+   "change_reason": "New: the Merovingian text sets Clovis's church against the Homoian one, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+   "action": "new",
+   "from": "gothic-and-vandal-homoian-christianity",
+   "to": "nicene-visigothic-iberia",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "At the Third Council of Toledo in 589, King Reccared told the bishops that the whole Gothic people now shared in the Catholic communion. Former Arian bishops, Ugnas among them, signed a condemnation of the Arian creed. Ugnas then signed the council's canons as bishop of Barcelona.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), Reccared's address (Collectio canonum Ecclesiae Hispanae, Madrid 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "36675-36678",
+     "locus": "Conc. Tolet. III, Reccared's address",
+     "quote": "Adest enim omnis gens Gothorum inclyta .et fere omnium gentium genuina virilitate opinata, quae licét suorum pravitate doctorum a fide hactenus vel unitate ecclesiae fuerit catholicae segregata, toto nunc tamen mecum assensu concordans ejus ecclesiae communioni participatur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), the former Arian bishops' condemnation of Arianism (Collectio canonum Ecclesiae Hispanae, Madrid 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "37118-37122",
+     "locus": "Conc. Tolet. III, Damnatio Arianae haeresis",
+     "quote": "Ugnas in Christi norhine episcopus ana- thematizans haeresis Arianae dogmata su- perius damnata, fidem sanctam hanc catho- licam, quam in ecclesiam catholicam veniens credidi, manu mea de toto corde subscripsi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Toledo (589), subscriptions to the canons (Collectio canonum Ecclesiae Hispanae, Madrid 1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "38077-38081",
+     "locus": "Conc. Tolet. III, subscriptions",
+     "quote": "Ugnas in Christi nomine Barcinonensis ecclesiae episcopus his constitutionibus, qui- bus interfui, annuens subscripsi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register IX.122, To Reccared, King of the Visigoths (NPNF 2.13, Barmby)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "3872-3875",
+     "locus": "Reg. IX.122",
+     "quote": "For on hearing of the power of a new miracle in our days, to wit that the whole nation of the Goths has through thy Excellency been brought over from the error of Arian heresy to the firmness of a right faith,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gothic longDescription ('In Spain ... it ended by conversion. The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589'), why and legacy; nicene-visigothic-iberia relationsSummary ('The Homoian kingdom that crossed to Nicaea from inside')",
+   "wants": [],
+   "drafter_flags": [
+    "Type is a judgement call for the reviewer. The Nicene church of Spain did not grow out of the Homoian one; it absorbed it. 'Gave rise to' fits the Nicene Visigothic kingdom church as the census defines it (a Gothic kingdom whose own council changed its creed), and the sources meet the type's bar: named Gothic bishops passing into it, in a dated text. 'Broke with' does not fit, since the rupture is recorded only from the winning side.",
+    "Another group owns nicene-visigothic-iberia, whose own text names the Homoian kingdom; it may draft this pair too. Keep one.",
+    "The Madrid 1808 text is raw OCR ('norhine' for 'nomine', 'licét', the stray '.et'); quotes are verbatim from the file. Bruns's Toledo III omits the bishops' confession; this file has it."
+   ],
+   "change_reason": "New: the Gothic text names the Visigothic conversion at Toledo, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium",
+   "action": "new",
+   "from": "gothic-and-vandal-homoian-christianity",
+   "to": "latin-africa-under-byzantium",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Vandal king Huneric's edict, which Victor of Vita copied, summoned all the 'homoousian', or Nicene, bishops of Africa to Carthage. It says their priests had been told again and again not to hold services in Vandal lands. Procopius adds that Huneric forced Christians to turn Arian and killed those who refused.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor of Vita, History of the Vandal Persecution II.39, Huneric's edict (CSEL 7, Petschenig 1881)",
+     "file": "cic/texts/victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt",
+     "lines": "3132-3134",
+     "locus": "Hist. pers. II.39",
+     "quote": "Non semel sed saepius coustat esse prohibitum; ut in sortibus Uuandalorum sacerdotes uestri conuentus minime eelebrarent, ne sua seductione animas subuerterent Christianas.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars III.8, the Vandalic War (Dewing 1916)",
+     "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+     "lines": "915-917",
+     "locus": "Wars III.8",
+     "quote": "For he forced them to change over to the Arian faith, and as many as he found not readily yielding to him he burned, or destroyed by other forms of death;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gothic longDescription ('In Vandal Africa it was the persecuting party, exiling and maiming Nicene bishops') and why",
+   "wants": [],
+   "drafter_flags": [
+    "Dates: Huneric's edict is of 483-484, but latin-africa-under-byzantium begins in 533. No census movement covers the Nicene African church under the Vandals. I drew the link to the 533 movement because its own text calls itself that same church, 'restored after a century of Vandal persecution'. If the reviewer judges the date gap fatal, the disposition becomes no-entry and the prose stands on Victor of Vita.",
+    "The edict's address line ('uniuersis episcopis omousianis', line 3131-3132) is not quoted because the OCR runs a section number into it ('episcopis39'). The edict says it was issued 'cum consensu sanctorum episcoporum nostrorum', with the consent of the Homoian bishops (line 3139), which is why the link starts from the church and not only the king.",
+    "Petschenig's OCR is raw ('coustat', 'eelebrarent'); the quote is verbatim."
+   ],
+   "change_reason": "New: the Gothic text names the Vandal persecution of the Nicene bishops, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "When Belisarius took Carthage in 533, the Arian priests fled and the orthodox took back the shrine of Cyprian. Procopius says Justinian then barred any Christian outside the orthodox faith from baptism and every other sacrament, so Arian soldiers could not baptize their children.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars III.21, the Vandalic War (Dewing 1916)",
+     "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+     "lines": "2234-2236",
+     "locus": "Wars III.21",
+     "quote": "And the priests of the Arians were off in flight, while the Christians who conform to the orthodox faith came to the temple of Cyprian,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars IV.14, the Vandalic War (Dewing 1916)",
+     "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+     "lines": "4269-4271",
+     "locus": "Wars IV.14",
+     "quote": "For the Emperor Justinian did not allow any Christian who did not espouse the orthodox faith to receive baptism or any other sacrament.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gothic longDescription ('In Africa and Ostrogothic Italy it was destroyed by Byzantine reconquest')",
+   "wants": [
+    "For Italy: a vendored text on the Gothic church's end after 554 (e.g. Agnellus, Liber pontificalis ecclesiae Ravennatis, on the reconsecration of the Gothic churches)"
+   ],
+   "drafter_flags": [
+    "This covers Africa only. For Italy the vendored evidence is thinner: Procopius VII says the Roman commanders expelled the Arian priests from Rome (procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt lines 11535-11537, a sentence broken by a Greek page, so not quoted), and Gregory's Dialogues III.30 tells of a Gothic Arian church in Rome kept shut until Gregory reconsecrated it. The prose sentence 'destroyed by Byzantine reconquest' is kept because both together support 'ended under'.",
+    "Group B owns the Byzantine movement; its text does not name the Goths, so the link is drafted here."
+   ],
+   "change_reason": "New: the Gothic text names the Byzantine reconquest as its end in Africa and Italy, and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "relationsSummary",
+   "old": "Receives the desert via Cassian; parent of the whole Latin monastic line",
+   "new": "Receives the desert via Cassian; its Rule became the norm for most later Latin monasteries",
+   "reason": "'Parent of the whole Latin monastic line' overstates it. Gasquet (1925 introduction) says the Rule superseded the others by the end of the eighth century and was practically the West's only monastic rule from the ninth to the twelfth; he also names Columban's rule as a separate earlier code. The first half is era 2's relationship and is left as written."
+  },
+  {
+   "n": 2,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "longDescription",
+   "old": "Benedict of Nursia left Rome for a cave at Subiaco and ended up, around 529, founding a monastery on the hill of Monte Cassino, in an Italy being torn apart first by the Gothic wars and then by the Lombard invasions. What he left behind was a rule. Seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot, much of it adapted from an older and harsher text but shortened, moderated, and written with an eye for what ordinary people could actually sustain. A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life, and governed the Italian church through a correspondence of more than 850 letters that shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+   "new": "Benedict of Nursia left Rome for a cave at Subiaco. Around 529 he ended up founding a monastery on the hill of Monte Cassino, in an Italy torn apart first by the Gothic wars and then by the Lombard invasions. What he left behind was a rule: seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot. Much of it, most scholars now think, was adapted from an older and harsher text, the anonymous Rule of the Master. Benedict shortened and moderated it, with an eye for what ordinary people could actually sustain. A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life. He also governed the Italian church through a correspondence of more than 850 letters, which shows the same world from the other side — famine, plague, refugees, Lombard armies, and the daily management of a church trying to hold itself together.",
+   "reason": "The Rule's dependence on 'an older and harsher text' (the anonymous Rule of the Master, vendored in Latin in PL 88) is the majority modern view, not something the vendored texts show; the repo names RB 1980 and Eberle's 1977 translation of the Master but none states the priority. Said plainly as what most scholars think. The two long sentences are split; every fact is kept."
+  },
+  {
+   "n": 3,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "why",
+   "old": "Benedict of Nursia left Rome for a cave at Subiaco and, around 529, founded a monastery at Monte Cassino in an Italy being torn apart by the Gothic wars and then the Lombard invasions. His Rule, seventy-three short chapters on prayer, work, food and the election of an abbot, shortened and softened an older, harsher text with an eye for what ordinary people could actually sustain.",
+   "new": "Benedict of Nursia left Rome for a cave at Subiaco, and around 529 he founded a monastery at Monte Cassino. Italy was being torn apart by the Gothic wars and then the Lombard invasions. His Rule ran to seventy-three short chapters on prayer, work, food and the election of an abbot. Most scholars think it shortened and softened an older, harsher text, with an eye for what ordinary people could actually sustain.",
+   "reason": "Same qualification as the longDescription: the older text's priority is the majority scholarly view, not shown by a vendored source. Long sentences split; facts kept."
+  },
+  {
+   "n": 4,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "old": "The Rule became the standard for Western monasticism. Carolingian reformers made it the norm across the Frankish empire, and it stands behind the Cluniacs, the Cistercians, the Trappists and the Benedictine congregations that keep it today. Its vocabulary of stability, obedience and moderation, and its ordering of a day around fixed hours of prayer, reached far beyond the cloister into Western habits of work and time. Monte Cassino itself was destroyed repeatedly — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time; monks live there now.",
+   "new": "The Rule became the standard for Western monasticism. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its vocabulary of stability, obedience and moderation, and its ordering of a day around fixed hours of prayer, reached far beyond the cloister into Western habits of work and time. Monte Cassino itself was destroyed repeatedly — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time; monks live there now.",
+   "reason": "No vendored or repo-cited source names the Trappists; the Cistercians are supported by Hunter Blair's 1907 notes on early Cistercian legislation (lines 10527-10531) and the Trappists are a branch of them, so nothing of substance is lost. The long second sentence is split. The Monte Cassino sentence is left for Mark's ruling (see escalations)."
+  },
+  {
+   "n": 5,
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "old": "Overlaps early-benedictine-italian-monasticism, whose window closes at Gregory's death, in person rather than in kind: he was a monk and wrote the only life of Benedict there is, but the Pastoral Rule is an episcopal manual and the Register is a government's paperwork. Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+   "new": "It overlaps with early Benedictine monasticism, whose period closes at Gregory's death, in person rather than in kind. Gregory was a monk and wrote the only life of Benedict there is. But the Pastoral Rule is a manual for bishops, and the Register is a government's paperwork. His letters also tell us about the early English church, the Frankish church of Gaul and the imperial church at Constantinople.",
+   "reason": "Open-Gaps item 20: the field printed four raw movement IDs. Rewritten in words; every claim kept, and each now has a link (Benedictines, English church, Gaul, Constantinople)."
+  },
+  {
+   "n": 6,
+   "movement": "roman-church-gregorian",
+   "field": "longDescription",
+   "old": "The Rome Gregory was born into around 540 had been besieged, taken, retaken and emptied within living memory. The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula. The imperial government sat at Ravenna and had little left to spend on Rome. Gregory was city prefect, gave it up, turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative. He was elected bishop in 590, during a plague, and spent fourteen years doing a job that had quietly become something else. The letters show what it was. He ran the papal estates in Sicily as the city's food supply and audited the men who managed them. He paid soldiers and negotiated with Lombard dukes when the exarch would not. He ransomed prisoners. He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length. He refused the title of universal bishop when Constantinople's patriarch used it, and called himself servant of the servants of God instead. And in 596 he sent a party of his own monks to Kent, and then wrote to them again and again about what to do with pagan temples and how far to insist on Roman custom. The Pastoral Rule, written at the beginning of it, is the book underneath all the rest: an argument that the government of souls is the art of arts, that different people must be told the same truth differently, and that wanting the office is itself a disqualification for it.",
+   "new": "The Rome Gregory was born into around 540 had been besieged, taken, retaken and emptied within living memory. The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula. The imperial government sat at Ravenna and had little left to spend on Rome. Gregory was city prefect, gave it up, turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative. He was elected bishop in 590, during a plague, and spent fourteen years doing a job that had quietly become something else. The letters show what it was. He ran the papal estates in Sicily as the city's food supply and audited the men who managed them. He paid soldiers and negotiated with Lombard dukes when the exarch would not. He ransomed prisoners. He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length. He refused the title of universal bishop when Constantinople's patriarch used it. He already called himself servant of the servants of God, a title Pope Damasus and Augustine had used before him. And in 596 he sent a party of his own monks to Kent, and then wrote to them again and again about what to do with pagan temples and how far to insist on Roman custom. The Pastoral Rule, written at the beginning of it, is the book underneath all the rest: an argument that the government of souls is the art of arts, that different people must be told the same truth differently, and that wanting the office is itself a disqualification for it.",
+   "reason": "'Called himself servant of the servants of God instead' reads as a reply to the universal-bishop title. It is not: Gregory heads his first letters as pope (Register I.1, 590) with the formula, five years before the dispute of 595, and Barmby's note there says Pope Damasus and Augustine used it before him (npnf212 lines 30976-30987). The rcg world's Doc_02 makes the same correction."
+  },
+  {
+   "n": 7,
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "old": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years. The mission to Kent is why there is an English church in communion with Rome at all, and why anglo-saxon-christianity has a Roman half. And the working model of the bishop of Rome as the practical government of central Italy - feeding the city from church estates, treating with invaders, paying troops - is where the temporal power of the papacy actually begins, whatever later documents claimed for it.",
+   "new": "The Pastoral Rule became the standard book on the bishop's office in the West. Carolingian councils legislated that bishops should own it and read it. Alfred had it translated into English, meaning, he said, to send a copy to every bishop in his kingdom, and it stayed in use for a thousand years. The mission to Kent is why there is an English church in communion with Rome at all, and why the early English church has a Roman half. And the working model of the bishop of Rome as the practical government of central Italy - feeding the city from church estates, treating with invaders, paying troops - is where the temporal power of the papacy actually begins, whatever later documents claimed for it.",
+   "reason": "Open-Gaps item 20: the field printed a raw movement ID ('anglo-saxon-christianity'), now in words. The long first sentence is split. The Alfred clause is reworded to what the repo supports: Barmby (npnf212 lines 24031-24035) says Alfred meant to send a copy to every bishop; the 'most needful' phrase comes from Alfred's own preface, which is not vendored."
+  },
+  {
+   "n": 8,
+   "movement": "merovingian-gallic-christianity",
+   "field": "relationsSummary",
+   "old": "Receives Martin of Tours's line; parent of Carolingian Christianity",
+   "new": "Receives Martin of Tours's line; continues into Carolingian Christianity",
+   "reason": "'Parent' implies a new body grew out of this one. The legacy, the continuesAs field and the sources say the same church carried on under the Carolingians, reformed rather than replaced (see the 'continued as' link). The first half is era 2's and is left as written."
+  }
+ ],
+ "wants": [
+  "Alfred's prose preface to the Pastoral Care, in Sweet's EETS edition (1871, public domain): would make the Gregory-to-Alfred link Documented",
+  "Cluny's foundation charter of 909/910 (Bruel, Recueil des chartes de l'abbaye de Cluny I, 1876, public domain), or a Cluniac customary: would document the Benedictine-to-Cluny link",
+  "The Carolingian councils of 813 (MGH Concilia aevi Karolini I, Werminghoff 1906) and the Aachen capitularies of 816-817: would document the Pastoral Rule and Rule of Benedict legislation directly",
+  "Boniface's letter to Pope Zacharias of 742 in a full edition (Tangl 1916, or Emerton's English), and the Clausula de unctione Pippini in full (MGH SRM 1)",
+  "Agnellus of Ravenna, Liber pontificalis ecclesiae Ravennatis (MGH SRL, 1878): for the Gothic churches of Ravenna, their reconsecration and the altered palace mosaic",
+  "Leo of Ostia, Chronicle of Monte Cassino (MGH SS 7): for the Saracen destruction of 883",
+  "Early Cistercian documents (Exordium parvum, Carta caritatis) in a public-domain edition, for 'the Cistercians' in the Benedictine legacy",
+  "Ewald-Hartmann, Gregorii I Registrum epistolarum tomus I (Books I-VII, 1891): with the vendored tomus II, to check the 'more than 850 letters' count",
+  "A repo-cited modern work on the Rule of the Master's priority over Benedict's Rule (e.g. RB 1980, named in the Benedictine dossier but not read)",
+  "Gregory the Great's Register XIII.47-50 (603) on the Spanish depositions, read in the vendored Latin, if the 'doing wrong' wording for Spain is to stand on Gregory's own words"
+ ],
+ "escalations": [
+  "1. Modern and physical facts with no vendored text. The Benedictine legacy (Monte Cassino destroyed by Saracens, by earthquake and by Allied bombing in 1944; monks there now) and the Gothic text (Arian buildings 'still stand in Ravenna'; the Arian Baptistery and Theodoric's palace church survive, with the scrubbed-out court panel) have no vendored or repo-cited source. The method says qualify; writing 'may have been bombed in 1944' would be false modesty about a plain fact. I left them standing. Ruling wanted: do present-day and monument facts need a text, or only historical relationships?",
+  "2. Era 2 gap, not mine to fix: no link joins homoian-arian-christianity (Ulfila's church) to gothic-and-vandal-homoian-christianity, although both texts say the second descends from the first. Era 2 owns it.",
+  "3. Two links (Gregory to Alfred; Benedict's Rule to Cluny) are graded Dominant Modern Reconstruction only because their documenting texts are not vendored. A reader may take that grade as doubt about well-settled facts. This follows the method as written; flagged in case Mark wants the wants list acted on before publication."
+ ]
+}

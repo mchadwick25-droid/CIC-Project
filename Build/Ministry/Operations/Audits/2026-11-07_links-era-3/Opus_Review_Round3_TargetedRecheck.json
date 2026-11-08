@@ -1,0 +1,28 @@
+{
+  "round": 3,
+  "kind": "targeted recheck",
+  "verdict": "pass",
+  "counts": {"blocking": 0, "substantial": 0, "minor": 1},
+  "resolved": [
+    {"finding": "R2-01", "status": "resolved", "note": "Re-merge is keyed on other_id. Rows 0-293 compared one by one with the pre-revision record (bbe29023): only 52, 54, 61, 99, 235, 238, 240, 242, 244, 246, 255 and 275 differ, and each is a row Revision_Round1 meant to change. Rows 49, 50, 51, 53, 62 match group A again; 52, 54, 61 are kept-as-is with the R1-03 reason, word for word; gap-3 null no-entry rows are new rows 294-296 (row 55, the earlier 'state actor' null row, is left alone, as it should be); 239, 241, 243 are untouched no-entry; 235 and 242 are no-entry with the R1-04 reason, word for word; 238, 240, 244, 246 cite nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity. latin-pastoral-congregational-christianity--latin-africa-under-byzantium is cited again (rows 50, 51)."},
+    {"finding": "R2-02", "status": "resolved", "note": "Row 255 now has other_id anglo-saxon-christianity and cites the Whitby link with the R1-13 reason. It replaces the old 'no census movement covers Rome in 664' row, which R1-13 showed was wrong (the Roman side was the English church's own party), so this is a correction, not a lost row. 256 is no-entry (a king); 263 cites the Columbanus link. British: only 275 changed; 274, 276, 277, 278 equal their pre-revision values."},
+    {"finding": "R2-03", "status": "resolved", "note": "Source at 7963-7966 dropped; the other four are unchanged and verbatim (8003-8005, 8017-8021, 8136-8137, 8204-8207). They still carry the link: Wilfrid speaks for the English party at the king's order, names the Easter of Rome, Italy, Gaul, Africa, Asia and Egypt and calls the other side obstinate, answers Colman directly ('you do not observe his decrees'), and Oswy follows Peter. Colman is named in the same III.25 passage (8022) and the drafter flags still point to 7966-7968 for Hilda and Cedd. Nothing else on the link changed."},
+    {"finding": "R2-04", "status": "resolved", "note": "prose_changes[3], [25], [42] reasons now read as proposed and match the text ('Around 600'; 'documented likeness and contact'). No prose text changed in round 2, so readability is untouched."},
+    {"finding": "R2-05", "status": "resolved in part", "note": "Leaving the note to era 2 is the right call: the link is a published keep, era 2's own movement text names it, and the record already says 'Kept, not reviewed: era 2 owns it'. But Revision_Round2 says the hand-off was logged as an open item, and it was not: open_items is unchanged since round 1 and nothing in Build/Ministry names this link. See R3-01."},
+    {"finding": "R1-02", "status": "resolved", "note": "Toledo rows 238, 240, 244, 246 cite the surviving link; the non-Toledo rows 239, 241, 243 and 242 are no longer re-pointed."},
+    {"finding": "R1-03", "status": "resolved", "note": "52, 54, 61 kept-as-is with the R1-03 reason; the imperial act it names, byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity, exists in links and is cited by row 237."},
+    {"finding": "R1-04", "status": "resolved", "note": "235 and 242 (other_id latin-africa-under-byzantium) are no-entry with the R1-04 reason. Revision_Round1 keyed these two changes to a null other_id, but the round-2 fix placed them on the Latin Africa rows the finding was about, and 243 keeps its own pre-revision reason."},
+    {"finding": "R1-24", "status": "resolved", "note": "Nubian longDescription reason now describes the change."}
+  ],
+  "findings": [
+    {
+      "id": "R3-01",
+      "target": "Drafting_Record.json open_items (R2-05 hand-off)",
+      "severity": "minor",
+      "issue": "Revision_Round2 says the R2-05 note fix was 'handed to era 2 and logged as an open item'. No such open item exists, so the hand-off lives only in the revision log and could go quiet.",
+      "evidence": "Drafting_Record.json open_items is identical to the round-1 version (commit 4595a529); grep for palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza outside this audit folder finds only the census and the 2026-11-06 audit. The link note still reads 'No text we hold ties the later monks to the earlier'.",
+      "fix": "Add one open_items line: 'Open_Gaps_Tracking, era 2: the note on palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza says \"No text we hold\"; the era-3 fix (R1-14, R2-05) is \"No source from the time ties the later monks to the earlier, so this rests on place and sequence alone.\"'"
+    }
+  ],
+  "checked": "Positional and keyed (movement, field, sentence, other_id) diff of all 297 disposition rows against the pre-revision record at bbe29023; every Revision_Round1 disposition_changes entry matched to its landed row for disposition, link_id and reason. Link citation count over the record: every link is cited except palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza (era-2 keep) and byzantine-imperial-church-justinianic--montanism-the-new-prophecy (era-1 keep, named by the era-1 Montanism text), both with stated reasons in their change_reason; no cited link_id is missing from links. Diff of the whole record against the round-1 commit 4595a529: only the Whitby link (sources, revised_round), dispositions, and prose_changes[3], [25], [42] reasons changed. Whitby quotes reopened in Bede (Giles 1903) 7960-7970, 7994-8022, 8128-8140, 8200-8208, 8234-8238. Nothing resolved in round 2 was reopened."
+}

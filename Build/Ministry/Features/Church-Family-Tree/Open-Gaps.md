@@ -110,6 +110,8 @@ it, never by deleting it.
     links passes. Era 1 is clean.
     - 2026-11-07: the three era-2 movements are fixed in the era 2 links pass; their text now
       gives plain names. `roman-church-gregorian` (era 3) is still open.
+    - 2026-11-07: `roman-church-gregorian` fixed in the era 3 links pass; its relations summary
+      and legacy now give plain names. Closed.
 21. **Who compiled the Philocalia (2026-11-07).** The project's records disagree. The Alexandria
     world's source record gives it `attribution_status: attributed`
     (`records/alx/source/alx.source.origen-philocalia.md`). The Cappadocian records say who
@@ -132,11 +134,16 @@ it, never by deleting it.
     `cyrilline-miaphysite-egyptian-tradition` (from 451, era 2) and
     `cyrilline-miaphysite-egyptian-christianity` (451-642, era 3) describe the same church from the
     same year. A sourced "continued as" link joins them for now. Merge or split is Mark's call.
+    - 2026-11-07: met again in the era 3 pass. Era 3's links attach to the era-3 entry only.
 24. **Well-known facts with no vendored source (2026-11-07).** Some era-2 sentences state standard
     facts that are not relationships and have no vendored or repo-cited source: Ezana's conversion
     and his coins, Coptic as the language of worship, the twentieth-century Ethiopian patriarch. They
     stand as written, with the texts that would source them on the era 2 wanted list. Whether the
     "qualify" rule reaches facts like these is a method question for Mark.
+    - 2026-11-07: era 3 has more of the same, also left standing: the Ladder read every Lent,
+      Dorotheus as standard reading, Mar Saba and Saint Catherine's still inhabited (the Judean
+      and Gaza monks); Monte Cassino's later destructions, including the bombing of 1944 (the
+      Benedictines); the Arian buildings still standing in Ravenna (the Gothic churches).
 25. **Which entry owns an emperor's act against the Nicenes, 337-378 (2026-11-07).** Constantius II's
     exile of Hilary sits under the imperial church; Valens's deposition of Gregory of Nyssa sits under
     the Homoian church. Each link stands on its sources, but one rule should cover both. A mapping
@@ -187,3 +194,35 @@ it, never by deleting it.
 33. **"Direct heir of Desert Monasticism" (2026-11-07).** `chalcedonian-monasticism-judean-desert-and-gaza`
     (era 3) claims it, but the documented chain runs from the desert to the early Palestinian monks
     to the Chalcedonian houses, and its last step is only Inferential-Thin. For the era 3 pass.
+    - 2026-11-07: fixed in the era 3 pass. The relations summary now says the movement drew on
+      Desert Monasticism, and a new "influenced" link from the desert carries it. Closed.
+34. **No link type for communion (2026-11-07).** None of the six types means "in communion with".
+    Era 3 meets it twice: Aksum with Alexandria, and the Egyptian with the Syriac Orthodox
+    church. Both are held as "in contact with" at the grade their evidence reaches (the Aksum one
+    Inferential-Thin, since no letter from those years survives). A new type would change the
+    method. Mark's call.
+35. **Caucasian Albania's end date (2026-11-07).** `church-of-caucasian-albania` ends at 705, and
+    `bagratid-armenian-christianity` says it "absorbs" the catholicosate after 705. The vendored
+    histories (Brosset 1876, Ormanian 1912) show the see living on inside the Armenian church,
+    with a catholicos installed in 1701/2, until it was abolished in the early nineteenth century.
+    The era 3 pass took the year 705 out of the Albanian prose. The dates belong to the entry's
+    owner, for Mark's ruling.
+36. **The Armenian "continues as" chain skips a movement (2026-11-07).**
+    `armenian-christianity-after-avarayr` continues as `bagratid-armenian-christianity`, skipping
+    `armenian-christianity-before-the-bagratids` (c. 554-884), which has no "continues as" of its
+    own. The era 3 "continued as" links run through the pre-Bagratid movement. The two data fields
+    need the matching fix. For the entry owner.
+37. **Sebeos on the Albanian catholicos (2026-11-07).** Sebeos (ch. 33, in Macler's French) puts
+    "le catholicos de Géorgie et d'Albanie" on Chalcedon's side at Khusro II's court, c. 614. If the
+    Albanian head is meant, the entry's Oriental Orthodox stream is not the whole story. Needs a
+    reader of Thomson's English Sebeos (1999), which is not vendored.
+38. **No "continued as" link from the Irish monasteries to medieval Ireland (2026-11-07).** The
+    census splits Ireland at 664, but neither era-3 text names the continuation. For the era 4 pass.
+39. **Whitby in the Anglo-Saxon text (2026-11-07).** The era 3 pass added the Whitby link (the
+    Anglo-Saxon church "argued against" the Irish, Bede III.25). `anglo-saxon-christianity` also
+    names Whitby; the era 4 pass should count that link as named there.
+40. **An era-2 link note uses internal wording (2026-11-07).** The note of
+    `palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza` says
+    "No text we hold ties the later monks to the earlier". The era 3 review proposed "No source
+    from the time ties the later monks to the earlier, so this rests on place and sequence alone."
+    The link is era 2's, so era 3 left it. For P2-L11.
