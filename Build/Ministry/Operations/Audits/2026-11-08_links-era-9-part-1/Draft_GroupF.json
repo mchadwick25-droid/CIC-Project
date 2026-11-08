@@ -1,0 +1,604 @@
+{
+ "group": "F",
+ "movements": [
+  "nineteenth-century-quakerism-separations",
+  "dutch-neo-calvinism-secession-churches",
+  "russian-evangelicals-stundists"
+ ],
+ "dispositions": [
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "relationsSummary",
+   "sentence": "The Hicksite separation of 1827–28 was the defining split of the century for the Society of Friends.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Hicksite body has no census movement; the split is this movement's own story. Its story sources (the Philadelphia and Ohio yearly meeting minutes, Ingle 1986) support it; none is vendored."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "relationsSummary",
+   "sentence": "It was followed by a further division between the evangelical Gurneyite and conservative Wilburite wings, and by a pastoral-system revival that introduced planned worship and paid ministers to part of the movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The wings and the pastoral system are parts of this movement, with no census entries. Hamm 1988, cited in the story sources, covers the later divisions; not vendored. The Holiness movement is not named, so no link is drawn."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "longDescription",
+   "sentence": "The Society of Friends came into the nineteenth century intact and left it in pieces.",
+   "other_id": "the-quakers-religious-society-of-friends",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the earlier Quaker entry's legacy names the nineteenth-century division into branches."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "longDescription",
+   "sentence": "In 1827-28 the American yearly meetings tore apart over Elias Hicks, a Long Island farmer and traveling minister who held that the Inward Light, not the Bible or a doctrine of atonement, was the heart of the faith.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person. Supported in outline by the story sources (Hicks's Sermons of 1828 and Journal of 1832; Ingle 1986); not vendored."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "longDescription",
+   "sentence": "Within twenty years the evangelical side divided again, between followers of the English banker-minister Joseph John Gurney and the conservative John Wilbur.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names persons. Hamm 1988 (story sources) covers the Orthodox side and its later divisions; not vendored."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "longDescription",
+   "sentence": "Out of the Gurneyite stream came something Friends had never had — revival meetings, planned worship and paid pastors.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A practice within this movement, no census entry; Hamm 1988 (story sources)."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "longDescription",
+   "sentence": "Through all of it Friends kept up the work they were best known for: abolition, prison reform, and the women's rights movement several of them helped to launch.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Abolition and women's rights have no census movements. Supported by the story sources: the 1840 London convention Proceedings (1841), Mott's 1840 diary (Tolles 1952), Faulkner 2011; none vendored."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "why",
+   "sentence": "Friends split first in 1827-28 over Elias Hicks' teaching that the Inward Light, not the Bible or a doctrine of atonement, stood at the heart of the faith, then split again between evangelical and conservative wings.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description: a person and this movement's own wings."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "why",
+   "sentence": "Out of the evangelical stream came something Quakers had never had before: revival meetings, planned worship, and paid pastors, so that by the century's end some meetings sat in silence while others sang hymns and listened to sermons.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "legacy",
+   "sentence": "All three streams are still here: the pastoral, evangelical Friends who are now the majority of Quakers worldwide — most of them in Kenya and Latin America.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A present-day fact with no census movement. No vendored or repo-cited source; left standing, added to the open question on well-known facts (see escalations)."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "legacy",
+   "sentence": "The unprogrammed liberal meetings, and the small conservative bodies that kept the older ways.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Parts of this movement today; no census entry. Present-day description."
+  },
+  {
+   "movement": "nineteenth-century-quakerism-separations",
+   "field": "legacy",
+   "sentence": "The peace testimony survived the separations intact, the relief agencies that grew from it were jointly awarded the Nobel Peace Prize in 1947, and the Quaker practice of seeking the sense of a meeting rather than counting votes has been borrowed far outside the Society.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The relief agencies have no census movement. The 1947 prize and the wider borrowing have no vendored or repo-cited source; left standing (see escalations)."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "relationsSummary",
+   "sentence": "The Afscheiding secession of 1834 led American emigrants to found the Christian Reformed Church in North America in 1857.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Christian Reformed Church has no census movement; it is this movement's own American branch. The story sources (the Act of Secession, 1834; Wintle 1987; Bratt 2013) support the emigration; none vendored."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "relationsSummary",
+   "sentence": "Abraham Kuyper led a second secession, the Doleantie, in 1886, founded the Free University in 1880, and brought the two streams together in the 1892 union that formed the Gereformeerde Kerken in Nederland.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person and this movement's own institutions. Supported by the story sources: the Amsterdam consistory and synod records of 1885-86, Kuyper's Het conflict gekomen (1886), Bratt 2013, Wintle 1987; none vendored."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "longDescription",
+   "sentence": "In 1834 a village pastor in Groningen, Hendrik de Cock, was suspended for preaching the old Reformed doctrines against what he took to be the liberalism of the national church, and his congregation walked out with him.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Netherlands Reformed Church of the nineteenth century has no census movement. The Act of Secession and the Groningen classis records (story sources) support it; not vendored. The Reveil entry names this secession in its own text, so that link is drafted from the Reveil side."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "longDescription",
+   "sentence": "The Afscheiding that followed was a secession of mostly poor and rural people, who were fined and had soldiers billeted on them for holding illegal services.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Dutch state is not a census movement. The court records under article 291 of the Code Pénal and Wintle 1987 (story sources) support it; not vendored."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "longDescription",
+   "sentence": "Many emigrated, and in 1857 their American cousins founded what became the Christian Reformed Church in North America.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "longDescription",
+   "sentence": "Fifty years after de Cock, Abraham Kuyper — journalist, politician, theologian — led a second and larger secession, the Doleantie of 1886, and in 1892 brought most of the two streams together.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "longDescription",
+   "sentence": "He founded the Free University in Amsterdam in 1880 and served as prime minister of the Netherlands from 1901 to 1905.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person and an institution of this movement; Bratt 2013 (story sources)."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "why",
+   "sentence": "When Hendrik de Cock's congregation walked out of the Dutch national church in 1834, the state fined them and billeted soldiers on them for holding illegal services.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "why",
+   "sentence": "Fifty years later Abraham Kuyper led a second, larger secession on a bigger idea, that Christ's claim covers every sphere of life, each with its own proper authority, and built a university, a newspaper and a political party to carry it out rather than withdraw from society or dissolve into it.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person and his own program; Bratt 2013 (story sources)."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "legacy",
+   "sentence": "The churches are still here: the Dutch Reformed families at home, most of them since 2004 inside the Protestant Church in the Netherlands, and in North America the Christian Reformed Church with its schools and colleges.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day bodies with no census movement. No vendored or repo-cited source for the 2004 merger; left standing (see escalations)."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "legacy",
+   "sentence": "Sphere sovereignty and a Christian worldview applied to scholarship, politics and the arts became a standing tradition in Reformed thought and shaped a great deal of evangelical higher education in North America.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A reception claim naming no census movement (the New Calvinism entry does not name Kuyper). No vendored or repo-cited source states it; left standing (see escalations). Kuyper's Lectures on Calvinism (1898) wanted."
+  },
+  {
+   "movement": "dutch-neo-calvinism-secession-churches",
+   "field": "legacy",
+   "sentence": "It also traveled in a direction Kuyper's heirs still argue about, supplying vocabulary that South African theologians later adapted in defense of apartheid.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement. No vendored or repo-cited source; the sentence already frames it as argued over. Left standing (see escalations)."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "relationsSummary",
+   "sentence": "Grew from the Stundist Bible-study movement among Ukrainian peasants in the 1860s and the Pashkovite circle in St Petersburg from 1874, joining as the Russian Baptist Union in 1884.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The two strands are this movement's own parts. 'Joining as the Russian Baptist Union' contradicts the movement's own story: the 1884 congress was broken up and the Pashkovites stayed separate until 1944."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "relationsSummary",
+   "sentence": "Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church of the same era.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--russian-evangelicals-stundists",
+   "prose_change": 0,
+   "reason": "Two links: the break (Conybeare, Pelesz) and Orthodox polemic against Stundism (Conybeare). 'Of the same era' is a layout phrase; rewritten in prose change 0. Part 1 owns it: this text names it."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "relationsSummary",
+   "sentence": "Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church of the same era.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--russian-evangelicals-stundists--2",
+   "prose_change": 0,
+   "reason": "The persecution under Pobedonostsev, carried as Orthodox argument against the Stundists. Pobedonostsev himself is a person with no entry; Conybeare (lines 11259-11262) supports his campaign in outline."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "relationsSummary",
+   "sentence": "These congregations are the direct ancestors of the Soviet-era Initsiativniki Baptist movement that followed.",
+   "other_id": "persecuted-church-worlds-of-the-communist-era-in",
+   "disposition": "link",
+   "link_id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "prose_change": 0,
+   "reason": "Era 10 has not run; drafted here. 'Direct' dropped, as the line runs through the 1944 union."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "sentence": "In the 1860s Ukrainian peasants working alongside German colonists in the southern provinces began meeting for the Bible studies their neighbors called Stunden, hours — reading the Scriptures for themselves in the Russian translation then appearing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The German colonists have no census movement. Conybeare supports it: Stundism 'carried by German settlers' (lines 14631-14632) and 'German missionaries no doubt furnished the Stundist impulse' (11768-11769). He traces the hours to Spener's Pietism, but the text does not name Pietism; no link drawn."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "sentence": "From 1874 in St Petersburg, aristocrats converted under the preaching of the English evangelist Lord Radstock gathered around Colonel Vasily Pashkov, who opened his house for meetings that servants and nobles attended together.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persons. Heier 1970 (story sources) is the standard study; not vendored."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "sentence": "The strands joined in a Russian Baptist Union in 1884, and the state answered with everything it had — Pashkov exiled, meetings broken up, children removed from Stundist parents, families deported.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same error as the summary; corrected from the movement's own story. The state is not a census movement; the repression is supported by the story sources (1894 decree, Interior Ministry records, Zhuk 2004), none vendored."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "sentence": "Since leaving the Orthodox Church was a crime as well as a sin.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--russian-evangelicals-stundists",
+   "prose_change": 1,
+   "reason": "The break; the fragment is made a full sentence in prose change 1."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "sentence": "The toleration decree of 1905 gave them their first legal breathing space in forty years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The decree is not a movement. Conybeare (lines 10641-10647) reports the ukase of 17 April 1905 placing the Stundists among the tolerated 'Sectaries'."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "why",
+   "sentence": "A decade later, a guards colonel named Vasily Pashkov opened his St Petersburg house to preaching that servants and nobles attended side by side, a movement the state answered with exile, broken-up meetings and children taken from their parents, since leaving the Orthodox Church was a crime as well as a sin.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--russian-evangelicals-stundists",
+   "prose_change": null,
+   "reason": "The break, as in the description. Pashkov is a person; the state's acts rest on the story sources, not vendored."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "why",
+   "sentence": "Ukrainian peasants working alongside German colonists in the 1860s began holding Bible study meetings their neighbors called Stunden, hours, and read Russia's own new translation of Scripture for themselves.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description (Conybeare)."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "legacy",
+   "sentence": "The Baptist and Evangelical Christian unions descended from them survived the Soviet century, went through their own painful split in the 1960s between those who registered with the state and those who refused, and are today, with the Pentecostals, the largest Protestant presence across the former Soviet Union.",
+   "other_id": "persecuted-church-worlds-of-the-communist-era-in",
+   "disposition": "link",
+   "link_id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "prose_change": null,
+   "reason": "The refusers are the Initsiativniki. 'With the Pentecostals' is a present-day comparison, not a relationship; no link to a Pentecostal entry."
+  },
+  {
+   "movement": "russian-evangelicals-stundists",
+   "field": "legacy",
+   "sentence": "Emigrants carried the tradition abroad as well, into Slavic Baptist communities in North and South America and Germany that are still identifiably from this root.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement. No vendored or repo-cited source; left standing (see escalations)."
+  }
+ ],
+ "links": [
+  {
+   "id": "russian-church-synodal-century--russian-evangelicals-stundists",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "russian-evangelicals-stundists",
+   "type": "broke with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The first Stundists still took communion in Orthodox churches, F. C. Conybeare wrote in 1921. Only about 1870 did they form a separate sect, and they baptized again anyone who joined them from Orthodoxy. In 1880 the historian Julian Pelesz listed the Stundists among the new sects that had left the Russian church.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "14661-14664",
+     "locus": "Part II, ch. III, The Stundists",
+     "quote": "it was only about 1870 that the new pietists organized themselves into a distinct sect; till then they baptized their children in the orthodox churches, confessed and received the communion in them, and kept the Easter fast.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "14733-14734",
+     "locus": "Part II, ch. III, The Stundists",
+     "quote": "Accordingly the Stundists re-baptize those whom they convert from orthodoxy;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, Bd. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "53220-53222",
+     "locus": "Bd. 2, on the Russian sects",
+     "quote": "Das sind die vorzüglichsten Seeten, welche sich im Laufe der Zeiten von der in der tiefsten Erniedrigung schmachtenden russischen Kirche abgetrennt haben,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, Bd. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "53223-53225",
+     "locus": "Bd. 2, on the Russian sects",
+     "quote": "indem noch in der neuesten Zeit das Entstehen neuer Secten, als der Stundisten in Südrussland angezeigt wurde;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergei I. Zhuk, Russia's Lost Reformation: Peasants, Millennialism, and Radical Sects in Southern Russia and Ukraine, 1830-1917 (Washington, DC, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-evangelicals-stundists relationsSummary ('in tension with the Russian Orthodox Church'), longDescription and why ('leaving the Orthodox Church was a crime as well as a sin'); also russian-church-synodal-century relationsSummary ('the evangelical Stundist movement that broke from it')",
+   "wants": [
+    "A dated Stundist record of the break (e.g. Ryaboshapka's or the first congregations' own accounts, or the Stundist petitions of 1894-1905 in Bonch-Bruevich, Materialy, 1908-)",
+    "An Orthodox-side act naming the Stundists as separated, e.g. the Committee of Ministers decision of 4 July 1894 on the Stundist sect, taken at the Synod's request"
+   ],
+   "drafter_flags": [
+    "No primary text from either side is vendored. Conybeare (1921) relies on Ivanovski, an Orthodox seminary professor, and on two Orthodox polemics; Pelesz (1880) is a Greek Catholic contemporary. Both are kept as secondary, so the link stops at Dominant Modern Reconstruction.",
+    "Conybeare's 'Stundists' re-baptize converts from orthodoxy' is the Stundist side of the rupture as an observer reports it; the Orthodox side is Pelesz's 'abgetrennt' and the 1905 legal class of 'Sectaries' (lines 10641-10646). With the 1894 decree vendored this could reach Widely Accepted or Documented.",
+    "Zhuk (2004) is cited in this movement's own story sources; not rechecked."
+   ],
+   "change_reason": "New link. The movement's text names the tension and the leaving; the Orthodox entry's own text says the Stundists broke from it."
+  },
+  {
+   "id": "russian-church-synodal-century--russian-evangelicals-stundists--2",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "russian-evangelicals-stundists",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Orthodox clergy wrote books against the Stundists by name. Conybeare's 1921 survey cites a priest's 1889 study of Stundism in South Russia. He also cites a missionary's book, a Refutation of the Errors of Stundism, printed at Kiev in 1890. Neither book has been read directly, so this rests on his report.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "14605-14609",
+     "locus": "Part II, ch. III, The Stundists",
+     "quote": "and the Missionary Troitski's Refutation of the errors of Stundism, Kiev, 1890.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "11259-11262",
+     "locus": "Part I, The Raskol, on the government missions",
+     "quote": "this was to be attributed more to the intran- sigent ferocity of Pobedonostsev than to genuine missionary effort, although over 400 missionaries were at work.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert L. Nichols, 'Church and State in Imperial Russia', in Robert L. Nichols and Theofanis George Stavrou, eds., Russian Orthodoxy under the Old Regime (Minneapolis, 1978)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergei I. Zhuk, Russia's Lost Reformation: Peasants, Millennialism, and Radical Sects in Southern Russia and Ukraine, 1830-1917 (Washington, DC, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-evangelicals-stundists relationsSummary ('Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church'); also russian-church-synodal-century longDescription (Pobedonostsev's uniformity policy 'pressed hard on ... evangelicals')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The link's sources show polemical books and missions, not a council, law or exclusion. The 1894 decree on the Stundists is not vendored, and the 1905 ukases in Conybeare are state acts that either tolerate the Stundists or do not name them."
+   },
+   "wants": [
+    "Troitski, Refutation of the errors of Stundism (Kiev, 1890), and Rozhdestvenski's study of South Russian Stundism (St Petersburg, 1889): the Orthodox texts themselves",
+    "The Committee of Ministers decision of 4 July 1894 on the Stundist sect, with the Synod's request"
+   ],
+   "drafter_flags": [
+    "The documenting texts are named by Conybeare, not vendored, so the link cannot be Documented. The 1889 title is OCR-damaged in the file ('Sovih Russian Stundism'); the note gives it in words, as 'a study of Stundism in South Russia'.",
+    "The Pobedonostsev quote is about the government missions to dissenters in general, not the Stundists alone; it supports the church's campaign, not the Stundist target.",
+    "Nichols (1978) and Zhuk (2004) are cited in this movement's own story sources; not rechecked."
+   ],
+   "change_reason": "New link, separately evidenced from the break: Orthodox polemic written against Stundism by name."
+  },
+  {
+   "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "action": "new",
+   "from": "russian-evangelicals-stundists",
+   "to": "persecuted-church-worlds-of-the-communist-era-in",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Two unions grew from these congregations, one Baptist and one of Evangelical Christians. Both lived on under Soviet rule. In 1961 a group of Baptist ministers broke with the union the state had registered. They would not let the state run their churches. They became known as the Initsiativniki, after the group that took the lead.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Walter Sawatsky, Soviet Evangelicals since World War II (Scottdale, PA, 1981)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heather J. Coleman, Russian Baptists and Spiritual Revolution, 1905-1929 (Bloomington, 2005)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "russian-evangelicals-stundists relationsSummary ('the ancestors of the Soviet-era Initsiativniki Baptist movement') and legacy (the 1960s split 'between those who registered with the state and those who refused')",
+   "wants": [
+    "The 1961 Initiative Group letters (Prokofiev, Kryuchkov) and the Council of Prisoners' Relatives bulletins (1964-), for the split and the dissidents' own account of their descent",
+    "A vendored history of the Russian Baptist and Evangelical Christian unions from 1884 to 1944"
+   ],
+   "drafter_flags": [
+    "Nothing on the Initsiativniki is vendored; the link rests on Sawatsky and Coleman, both cited in the repo's own source lists and not rechecked.",
+    "The line of descent runs through the 1944 union of Baptists and Evangelical Christians, which has no movement of its own; 'gave rise to' is drawn across that gap.",
+    "The target movement also covers Romania's Lord's Army; this link concerns only its Initsiativniki strand, and the note says so by naming them."
+   ],
+   "change_reason": "New link for the named descent."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "russian-evangelicals-stundists",
+   "field": "relationsSummary",
+   "old": "Grew from the Stundist Bible-study movement among Ukrainian peasants in the 1860s and the Pashkovite circle in St Petersburg from 1874, joining as the Russian Baptist Union in 1884. Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church of the same era. These congregations are the direct ancestors of the Soviet-era Initsiativniki Baptist movement that followed.",
+   "new": "It grew from two roots. In the 1860s Ukrainian peasants began to meet to study the Bible, and their neighbors called them Stundists. From 1874 a second circle met in St Petersburg around Vasily Pashkov. Their leaders met in 1884 to unite, but the police broke up the meeting. That year the Baptist churches of the south formed a Russian Baptist Union, while Pashkov's followers stayed apart. Konstantin Pobedonostsev, the lay official who ran the Orthodox Church for the tsar, led the state's campaign against them. They had left that church, and to leave it was a crime. Their churches are the ancestors of the Soviet-era Initsiativniki Baptists.",
+   "reason": "'Joining as the Russian Baptist Union in 1884' is wrong: the movement's own story has the police break up the 1884 St Petersburg congress, and the Pashkovites and Baptists stay two streams until 1944 (sources there: police records, Korff's memoir, Heier 1970, Coleman 2005). 'Of the same era' is a layout phrase, now said in words with the break. 'Direct' dropped: the descent runs through the 1944 union. Whole field rewritten in shorter sentences to meet the reading target."
+  },
+  {
+   "n": 1,
+   "movement": "russian-evangelicals-stundists",
+   "field": "longDescription",
+   "old": "In the 1860s Ukrainian peasants working alongside German colonists in the southern provinces began meeting for the Bible studies their neighbors called Stunden, hours — reading the Scriptures for themselves in the Russian translation then appearing. Reading became conversion, and conversion became congregations. The movement then met a second one coming from the opposite end of society. From 1874 in St Petersburg, aristocrats converted under the preaching of the English evangelist Lord Radstock gathered around Colonel Vasily Pashkov, who opened his house for meetings that servants and nobles attended together. The strands joined in a Russian Baptist Union in 1884, and the state answered with everything it had — Pashkov exiled, meetings broken up, children removed from Stundist parents, families deported. Since leaving the Orthodox Church was a crime as well as a sin. The toleration decree of 1905 gave them their first legal breathing space in forty years.",
+   "new": "In the 1860s Ukrainian peasants in the south worked beside German colonists. They began meeting for Bible studies that their neighbors called Stunden, hours. They read the Bible for themselves, in the Russian translation then coming out. Reading became conversion, and conversion became congregations. Then the movement met a second one, coming from the other end of society. From 1874 in St Petersburg, nobles won by the preaching of the English evangelist Lord Radstock gathered around Colonel Vasily Pashkov. He opened his house to meetings where servants and nobles sat side by side. In 1884 Pashkov invited the leaders of every strand to his house to unite. On the fourth day the police broke up the meeting. That same year the Baptist churches of the south formed a Russian Baptist Union. Pashkov's followers stayed a separate stream. The state answered with everything it had. Pashkov was sent into exile and meetings were broken up. Children were taken from Stundist parents, and whole families were deported. Leaving the Orthodox Church was a crime as well as a sin. The toleration decree of 1905 gave them their first legal breathing space in forty years.",
+   "reason": "Same correction as the summary: the strands did not join in 1884 (the movement's own story and its sources). The closing fragment beginning 'Since' is made a sentence. The rest is recast in shorter sentences to meet the reading target, with no fact added or dropped."
+  }
+ ],
+ "wants": [
+  "Committee of Ministers decision of 4 July 1894 declaring Stundism an especially harmful sect, with the Synod's request (would document the Orthodox-state act against the Stundists)",
+  "Troitski, Refutation of the errors of Stundism (Kiev, 1890), and Rozhdestvenski's study of South Russian Stundism (St Petersburg, 1889)",
+  "Stundist and Baptist petitions of 1894-1905 and V. D. Bonch-Bruevich, Materialy k istorii i izucheniiu russkogo sektantstva (1908-)",
+  "Russian Baptist accounts of the 1884 founding congress, and Modest Korff, Am Zarenhof (1927), for the failed St Petersburg union",
+  "The 1961 Initiative Group letters and the Council of Prisoners' Relatives bulletins (1964-), for the Initsiativniki split",
+  "Minutes and epistles of Philadelphia and Ohio Yearly Meetings, 1827-1828 (both parties), and Elias Hicks, Sermons (1828) and Journal (1832)",
+  "Joseph John Gurney's and John Wilbur's own writings (e.g. Wilbur's Journal and Correspondence, 1859), for the second division",
+  "Acte van Afscheiding of Wederkeering (Ulrum, 1834) and Hendrik de Cock's Verdediging (1833)",
+  "Abraham Kuyper, Het conflict gekomen (1886) and Lectures on Calvinism (1898), for the Doleantie and sphere sovereignty"
+ ],
+ "escalations": [
+  "Well-known facts with no vendored or repo-cited source, left standing and added to the open method question ('Well-known facts with no vendored source', 2026-11-07): the Quaker Nobel Peace Prize of 1947, pastoral Friends as the majority mostly in Kenya and Latin America, the wider borrowing of the sense of the meeting; the 2004 Protestant Church in the Netherlands merger, Kuyper's reach into North American evangelical higher education, and the apartheid use of his vocabulary; the Slavic Baptist emigrant communities.",
+  "The Russian evangelicals' story 'The Congress the Police Broke Up' places the 1884 Baptist founding meeting 'in the Caucasus'. My recollection is that the founding congress met at Novo-Vasilyevka in Taurida province; this is unchecked against any repo source, so the corrected prose names no place. The story itself is outside this pass's fields.",
+  "Two possible links that no text names, not drafted: Kuyper edited Voetius's catechism lectures (vendored, 1891), a possible Dutch Further Reformation influence; and Conybeare traces Stundism to Spener's Pietism (lines 14615-14621)."
+ ]
+}

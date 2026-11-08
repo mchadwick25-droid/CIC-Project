@@ -540,18 +540,59 @@ it, never by deleting it.
     `armenian-christianity-new-julfa--armenian-christianity-era-8` (continued as) on the line of
     Apostolic catholicoi. Once the Armenian Apostolic movement is added, that evidence belongs to it:
     the follow-up retires the link with a replacement to the new movement.
-96. **"No Armenian Apostolic movement for 1650-1815" and "The Armenian line after the new
+96. **Well-known facts with no vendored source, era 9 part 1 (2026-11-08).** Added to the method
+    question in "Well-known facts with no vendored source" (2026-11-07). Left standing as written: the
+    Primitive Methodists and AME Zion, the 1844 Methodist split, Keswick, Spurgeon's Tabernacle, the
+    slavery cause of the 1845 Baptist split, Landmarkism, the 1832 Stone-Campbell union, the
+    Victorian Church of England's Gorham case, Essays and Reviews and first Lambeth Conference, the
+    New Apostolic Church's size, Newman's 2019 canonization, the Quaker Nobel Prize of 1947.
+97. **Page recordings read old descriptions, era 9 part 1 (2026-11-08).** As in "Page recordings
+    read the old descriptions" (2026-11-08): four recorded pages now play a description this pass
+    rewrote: `the-haugean-awakening`, `the-reveil-and-inner-mission-awakening`,
+    `confessional-lutheran-revival-emigrations`, `russian-evangelicals-stundists`. A paid voice run,
+    for Mark.
+98. **Era 7's St Thomas link into the Northeast India churches (2026-11-08).** Era 7 published
+    `st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor`
+    (continued as, Widely Accepted), resting on Malankara documents. Its era-7 text no longer names
+    Northeast India. The era-9 movement joins two different bodies: the Mar Thoma reform, which does
+    descend from the St Thomas Christians, and the northeast hill churches, which came from Welsh and
+    American missions. Whether "continued as" fits the whole movement is for P2-L11.
+99. **Text owners' items from era 9 part 1 (2026-11-08).** Not changed, because no vendored text
+    settles them or another entry owns them:
+    - `the-chinese-church-indigenous-and-suffering` (era 10) says its churches "owed nothing to the
+      foreign missions"; era 9 now draws a "gave rise to" link from the mission churches to it.
+    - `the-student-volunteer-movement-and-edinburgh-191` has `continuesAs` pointing to the ecumenical
+      entry; its link is "gave rise to", and it did not itself become that body.
+    - `the-sunday-school-and-bible-institute-movement` legacy: "graded" lessons of the 1870s; the 1872
+      series was uniform.
+    - `russian-evangelicals-stundists` story: the place of the 1884 Baptist meeting ("in the
+      Caucasus") is unchecked.
+    - `victorian-church-of-england` has no source list at all.
+    - `the-baptists` (era 8) legacy: Carey's society "opened the era of Protestant foreign missions";
+      Carey's own Enquiry (vendored, lines 798-799) gives the Moravians first place.
+    - `dispensational-prophecy-culture` (era 10) says it "grew out of" Brethren teaching; the era 9
+      link is "influenced".
+100. **Two possible links that no text names, era 9 part 1 (2026-11-08).** Kuyper's 1891 edition of
+    Voetius's catechism lectures (a possible Dutch Further Reformation influence on Dutch
+    neo-Calvinism) and Conybeare tracing Stundism to Spener's Pietism (lines 14615-14621). Not
+    drafted: no movement text names them.
+101. **Era 8 and era 9 drew the same Methodist link (2026-11-08).** Era 8 published
+    `the-methodist-revival--nineteenth-century-methodism` (continued as, Widely Accepted) before era 9
+    part 1 merged, so it stands and era 9's draft was set aside. Era 9's draft was Documented: the
+    1862 reprint of the Methodist Conference minutes says the yearly minutes had come out in an
+    unbroken series from 1765 (era 9 part 1 drafting record). A possible upgrade, for P2-L11.
+102. **"No Armenian Apostolic movement for 1650-1815" and "The Armenian line after the new
     movement" are closed (2026-11-08).** Mark ruled to add the movement. `armenian-apostolic-church-era-8`
     (VII.24a) now carries the Apostolic line from New Julfa to the Zartonk, and era 7's New Julfa
     link to the Mekhitarist movement is retired with a replacement. Audit:
     `Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/`.
-97. **The Armenian Apostolic movement's library bucket (2026-11-08).** `cic/corpus-map/` has no
+103. **The Armenian Apostolic movement's library bucket (2026-11-08).** `cic/corpus-map/` has no
     `armenian-apostolic-church-era-8.yaml`. The Apostolic works now under
     `armenian-christianity-era-8` (Ormanian, Chamich's Part VII, Zakaria and Abraham of Crete,
     Rycaut) belong with it, through their `_staging` files. Abraham of Crete's row also says he
     attended Nadir Shah's accession; in his own chapters 43-44 he left before it and heard of it
     afterward. For the Library thread.
-98. **The new movement and the map's own list (2026-11-08).** Like the eight movements added since
+104. **The new movement and the map's own list (2026-11-08).** Like the eight movements added since
     the map was built, `armenian-apostolic-church-era-8` has a tree page but no record in the map's
     embedded movement list, which `atlas-sync` only updates and never adds to. For the map's owner.
 
