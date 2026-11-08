@@ -400,3 +400,10 @@ excluding a group or its teaching; a split into a separate church or body; or a 
 or settlement changed by an authority. A teaching, text or practice merely taken up by the
 other side no longer counts; those links stay on the cards, minor. Options shown with it: keep
 M2 (151 lines), type only (74), and two levels of line weight.
+
+**Cap ruling (2026-11-08, Mark: "Use the reviewer's fix").** The major-links pass reached its
+three-round review cap with one substantial finding open (round 3, R3-01): the Carmelite 1247
+outcome sentence had the friars ask for confirmation of a rule already corrected, where the
+source has them ask for the correction itself. The reviewer's own replacement sentence is applied
+word for word; no fourth round. File:
+`Build/Ministry/Operations/Audits/2026-11-08_major-links/Opus_Review_Round3_TargetedRecheck.json`.

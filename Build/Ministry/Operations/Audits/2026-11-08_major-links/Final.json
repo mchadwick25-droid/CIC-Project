@@ -1964,7 +1964,7 @@
       "id": "latin-papal-church-gregorian--the-carmelites",
       "major": true,
       "kind": "rule-changed",
-      "outcome": "In 1247 the Carmelites asked Pope Innocent IV to confirm their rule in a form that had been corrected and softened. He did so.",
+      "outcome": "In 1247 the Carmelites asked Pope Innocent IV to correct and soften their rule. He had this done, and then he confirmed it.",
       "evidence": {
         "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
         "lines": "22014-22017",
@@ -1972,7 +1972,7 @@
       },
       "change": "rewritten-round2",
       "reason": "Innocent IV confirms the corrected rule. Review: keep.",
-      "prose": "rewritten for readability"
+      "prose": "round-3 finding R3-01 applied as written (Mark cap ruling, 2026-11-08)"
     },
     {
       "id": "the-dominican-order--the-carmelites",
