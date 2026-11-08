@@ -1521,7 +1521,7 @@
    "to": "apollinarian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The Council of Constantinople met in 381. Its first canon cursed the Apollinarians by name. A law of March 388 barred them from the walls of cities. It also cut them off from the company of honest citizens and from the communion of the saints.",
+   "note": "The Council of Constantinople met in 381. Its first canon condemned the Apollinarians by name. A law of March 388 barred them from the walls of cities. It also cut them off from the company of honest citizens and from the communion of the saints.",
    "sources": [
     {
      "kind": "primary",
@@ -2048,7 +2048,7 @@
    "to": "jerusalem-liturgical-pilgrimage-christianity",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. He names the next bishops of the city down to Hermon. He says their chair was kept there until his own time. Later, Constantine wrote to Macarius, its bishop, about building the Church of the Savior. The see carried on, but that the new pilgrim church was the same community is only an inference.",
+   "note": "In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. He names the next bishops of the city down to Hermon. He says their chair was kept there until his own time. Later, Constantine wrote to Macarius, its bishop, about building the Church of the Savior. So the see of Jerusalem carried on. But the earlier church was the church of the whole province, not of Jerusalem alone. To call the later pilgrim church the same community is only an inference.",
    "sources": [
     {
      "kind": "primary",
@@ -2307,7 +2307,7 @@
    "to": "antiochene-exegetical-christianity-chrysostom-ce",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. Jerome does not tie his work to Diodore, Theodore or Chrysostom. The tie to these later teachers at Antioch is an inference, not a report.",
+   "note": "Jerome says Lucian, a priest of Antioch, studied Scripture so closely that copies still carried his name. Jerome does not tie his work to Diodore, Theodore or Chrysostom. The tie to these later teachers at Antioch is an inference, not a report.",
    "sources": [
     {
      "kind": "primary",
@@ -3686,7 +3686,7 @@
    "to": "syriac-edessa-nisibis",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret wrote in the 400s. They say Ephraim answered the songs of Harmonius, the son of Bardaisan. He wrote orthodox songs to the same music.",
+   "note": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret wrote in the 400s. They say Harmonius, the son of Bardaisan, wrote songs. Ephraim answered them with orthodox songs to the same music.",
    "sources": [
     {
      "kind": "primary",
@@ -11641,7 +11641,7 @@
    "to": "cathars-albigensians",
    "type": "influenced",
    "confidence": "Contested",
-   "note": "About 1250 Rainier Sacconi, an Italian inquisitor, wrote that all the Cathar churches came from two in the east. He named them as Bulgaria and Dugunthia. The Cathars of Concorezzo, in Italy, had a secret book. A note in one copy says their bishop Nazarius brought it from Bulgaria. Scholars still argue over whether such hostile reports show a real link.",
+   "note": "Rainerius Sacconi was an Italian inquisitor. About 1250 he wrote that all the Cathar churches came from two in the east. He named them as Bulgaria and Dugunthia. The Cathars of Concorezzo, in Italy, had a secret book. A note in one copy says their bishop Nazarius brought it from Bulgaria. Scholars still argue over whether such hostile reports show a real link.",
    "sources": [
     {
      "kind": "primary",
@@ -11691,7 +11691,7 @@
    "to": "balkan-bogomil-continuation",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. We have it from Franjo Rački, who told it in 1869.",
+   "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. This rests on how Franjo Rački told it in 1869.",
    "sources": [
     {
      "kind": "secondary",
@@ -15456,7 +15456,7 @@
    "to": "the-english-reformation-and-elizabethan-settleme",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' In 1566 Archbishop Parker had cited Martyr and Bullinger too, to press the clergy to conform.",
+   "note": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' In 1566 Archbishop Parker cited Martyr and Bullinger too, to press the clergy to conform.",
    "sources": [
     {
      "kind": "primary",
@@ -15483,9 +15483,9 @@
      "source_id": null,
      "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
      "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
-     "lines": "1102-1104",
+     "lines": "1100-1104",
      "locus": "Introduction",
-     "quote": "Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter",
+     "quote": "a repetition of the tactics adopted at the earlier stage of the con- troversy in 1566. Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter",
      "license": "public-domain"
     }
    ],
@@ -15754,6 +15754,16 @@
      "lines": "15384-15386",
      "locus": "Document XLIII",
      "quote": "Nicholas Devorax alias Woodfen condempned for treason in being made a Seminarie priest at Reymes in ffrance by authoritie of the B. of Rome",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the sessions of oyer and terminer at the Old Bailey, 19 January 1585 [1586], in Unpublished Documents relating to the English Martyrs, vol. I, ed. J. H. Pollen (Catholic Record Society, 1908)",
+     "file": "cic/texts/catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt",
+     "lines": "15387-15388",
+     "locus": "Document XLIII",
+     "quote": "and in remayninge here after the tearme of xl'y days after the Sefsion of the last parliament.",
      "license": "public-domain"
     }
    ],
@@ -16887,6 +16897,26 @@
      "source_id": null,
      "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
      "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+     "lines": "6914",
+     "locus": "annex, running head 'Mémorial Sotelo'",
+     "quote": "plerique tamen illorum, proprias vitas, contra Impera-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+     "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+     "lines": "6920",
+     "locus": "annex, running head 'Mémorial Sotelo'",
+     "quote": "diversis in locis occultati",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+     "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
      "lines": "6921-6922",
      "locus": "annex, running head 'Mémorial Sotelo'",
      "quote": "quorum labore, doctrina et exemplo fides in multis fidelibus egerrima conservatur",
@@ -17565,6 +17595,58 @@
      "lines": "1977-1978",
      "locus": "Conditions leading to the schism",
      "quote": "The  Stoglav  Council had  enjoined  the  use  of  the  two  fingers  only.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "russian-church-stoglav-to-nikon--the-old-believers--2",
+   "from": "russian-church-stoglav-to-nikon",
+   "to": "the-old-believers",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Russian church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was John Neronov of St Basil's in Moscow.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1710-1711",
+     "locus": "Life, opening narrative",
+     "quote": "at the age of twenty I was ordained deacon and, after two years, priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jane Harrison and Hope Mirrlees, 'Life and Times of Avvakum' (chronological table), in The Life of the Archpriest Avvakum by Himself (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1138",
+     "locus": "Chronological table",
+     "quote": "c. 1644. Avvakum ordained priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "2107-2109",
+     "locus": "Life, Nikon's Lenten letter",
+     "quote": "In Lent he sent a pastoral letter to St. Basil’s Minster, to John Neronov. Now he was my ghostly father",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "10527-10529",
+     "locus": "ch. XII, Joasaph II",
+     "quote": "The acts themselves of the Council of the Hundred Chapters, which had been the foundation of the vain subtleties in question, were annulled",
      "license": "public-domain"
     }
    ],
@@ -22552,7 +22634,7 @@
    "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. A list of 1842 shows the diocese being founded, but nothing of it after that. So the line to the later church is thin.",
    "sources": [
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
      "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's note on the dioceses (1842)",
      "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",

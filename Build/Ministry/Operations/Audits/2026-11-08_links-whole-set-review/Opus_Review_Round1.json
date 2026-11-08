@@ -1,0 +1,143 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 2,
+  "minor": 9
+ },
+ "checked": "All 137 entries in Diff_release16_to_17.json (116 notes, 9 outcomes, 17 source sets, 13 citation_specificity, 2 types, 1 retirement) read old against new; every new or widened quote opened in its vendored file and read in context (Perrin 4630-4642, Finke 2566-2581, Optatus 273-285, Pollen 15370-15400, Pagès 6908-6924, Frere-Douglas 1090-1106, Philipos 2570-2596, Evagrius 3660-3680, John of Ephesus 11036-11050, Eusebius 43138-43156 and 64934-64963, Jerome 41048-41055, Socrates 3855-3857, Barhadbeshabba 20738-20743, Mansi 60892-60895, Bede 8215-8232, Ambrose 43982-43986); every changed note and outcome scored with engine.m7.turn_readability.score_turn (all pass FRE>=60, FK<=10; longest sentence 22 words); internal-language, British-spelling and long-sentence scans over all 576 notes and outcomes; all 43 findings and their statuses weighed against the settled rulings; the retirement and its retiredLinks entry; validator run: `node tools/validate-census.mjs --base .../main/base_census.json` -> 301 movements, 576 edges, 10 eras, 0 errors, 2 warnings (shortName length only). Same result with --atlas cft-website/index.html --tree cft-website/tree.",
+ "findings": [
+  {
+   "rid": "R1-01",
+   "severity": "substantial",
+   "links": [
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity"
+   ],
+   "finding": "The QUO-02 fix is only half done. The note now shows the see going on (Zabdas, Hermon, 'the apostolic chair, which has been preserved there until the present time'), then ends: 'The see carried on, but that the new pilgrim church was the same community is only an inference.' It never says why. Read alone, it states continuity and then denies it. The link now carries the same kind of evidence that makes Aksum Documented (a bishop named before and after, plus Eusebius saying outright that the chair went on). Without the reason QUO-02 itself named (the earlier movement is the church of the whole province, not the Jerusalem see alone), the Thin grade looks inconsistent with the Aksum link.",
+   "evidence": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:43152-43154 'succeeded to the apostolic chair, which has been preserved there until the present time.'; 64939 'the Bishop Macarius.'; Findings_Record QUO-02: 'The real difference from Aksum is that the Palestinian movement has no continuesAs and centres on Caesarea and Origen ... have the note give the true reason.' Census palestinian-church-pre-constantinian relationsSummary: 'This is the province where Origen taught'.",
+   "required_fix": "note: \"In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. He names the next bishops of the city down to Hermon. He says their chair was kept there until his own time. Later, Constantine wrote to Macarius, its bishop, about building the Church of the Savior. So the see of Jerusalem carried on. But the earlier church was the church of the whole province, not of Jerusalem alone. To call the later pilgrim church the same community is only an inference.\" (FRE 62.8, FK 7.7; longest sentence 18 words.)"
+  },
+  {
+   "rid": "R1-02",
+   "severity": "substantial",
+   "links": [
+    "russian-church-stoglav-to-nikon--the-old-believers",
+    "muscovite-monastic-christianity--the-old-believers"
+   ],
+   "finding": "STR-04 is logged for the census owner, but this pass can fix it without changing any method rule or settled ruling. The Old Believers' relationsSummary states as fact that they 'grew out of Muscovite Christianity'. No link carries that claim: the era-6 link is 'influenced' at Inferential-Thin, and the era-7 link is 'influenced' (the Stoglav's two-finger rule). Era 8 drafted the missing 'gave rise to' link, and its round-1 review passed it (R1-15, a wording fix). It was dropped only because of an id collision, and era 8 handed it to P2-L11 (Open-Gaps 94, 'Era 7 and era 8 typed three links differently', 2026-11-08). The finding itself says both claims are separately true and separately evidenced, and two links on one pair are allowed under the Drafting Brief. That is a remedy in hand, not a movement text that is wrong beyond a sentence. Logging it again leaves a descent claim standing as fact with no link behind it, which the launch prompt forbids. The other two era-7/era-8 typing cases (Czech/Herrnhut, Anabaptists/Baptists) were weighed and closed in Draft_A; this one was passed on.",
+   "evidence": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt:1710-1711 'at the age of twenty I was ordained deacon and, after two years, priest.'; :2107-2109 'In Lent he sent a pastoral letter to St. Basil’s Minster, to John Neronov. Now he was my ghostly father'; :1138 'c. 1644. Avvakum ordained priest.' Build/Ministry/Operations/Audits/2026-11-08_links-era-8/Final.json (id russian-church-stoglav-to-nikon--the-old-believers, action 'drop', drop_reason 'Era 7's pass ... published this id first'); Opus_Review_Round1.json R1-15. Census dates: russian-church-stoglav-to-nikon 1517-1650 (the c. 1644 ordination falls inside it; muscovite-monastic-christianity ends 1517).",
+   "required_fix": "Add the era-8 draft as a second link on the pair, id `russian-church-stoglav-to-nikon--the-old-believers--2`, with type 'gave rise to', confidence 'Documented', and the four sources, specificity A and verification_state exactly as in era-8 Final.json. Use the note as passed in round 1: \"Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Russian church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was John Neronov of St Basil's in Moscow.\" (FRE 65.6, FK 7.2; John as the 1924 translation names him, where the era-8 draft had 'Ivan'). Optionally make the summary name the entry the link runs from: 'grew out of the Russian church before Nikon's reforms'. If the census owner must own that summary phrase, the link alone still closes the gap."
+  },
+  {
+   "rid": "R1-03",
+   "severity": "minor",
+   "links": [
+    "bardaisanite-current--syriac-edessa-nisibis"
+   ],
+   "finding": "The rewrite splits the sentence, so 'He' in the last sentence now follows 'Harmonius, the son of Bardaisan'. It reads as if Harmonius or Bardaisan wrote the orthodox songs. The old note was clear.",
+   "evidence": "New note: 'They say Ephraim answered the songs of Harmonius, the son of Bardaisan. He wrote orthodox songs to the same music.' Sozomen 32098-32100 'he applied himself to the understanding of the metres of Harmonius, and composed similar poems in accordance with the doctrines of the Church'.",
+   "required_fix": "note: \"Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret wrote in the 400s. They say Harmonius, the son of Bardaisan, wrote songs. Ephraim answered them with orthodox songs to the same music.\" (FRE 60.3, FK 7.2.) Repeating 'Ephraim' in the new split alone gives FRE 59.2, which fails."
+  },
+  {
+   "rid": "R1-04",
+   "severity": "minor",
+   "links": [
+    "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme"
+   ],
+   "finding": "Two problems with the NOTE-05 rewrite. First, 'In 1566 Archbishop Parker had cited' uses the pluperfect after a sentence dated 1562, so it reads as if 1566 came before 1562. Second, the new date 1566 sits on line 1101, just outside the quoted lines 1102-1104.",
+   "evidence": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt:1100-1104 'a repetition of the tactics adopted at the earlier stage of the con- troversy in 1566. Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter'.",
+   "required_fix": "note: last sentence becomes \"In 1566 Archbishop Parker cited Martyr and Bullinger too, to press the clergy to conform.\" (whole note FRE 63.2, FK 8.9). Widen the Frere-Douglas source to lines \"1100-1104\", quote: \"a repetition of the tactics adopted at the earlier stage of the con- troversy in 1566. Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter\"."
+  },
+  {
+   "rid": "R1-05",
+   "severity": "minor",
+   "links": [
+    "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism"
+   ],
+   "finding": "The rewritten outcome adds 'They then stayed in England past a forty-day limit.' The fact is true to the record, but it is not in any quote on the link. The Pollen quote stops at 'B. of Rome'. MAJ-13 holds outcomes to the standard that the act sits inside a quote, and this pass's own rewrite misses that standard.",
+   "evidence": "cic/texts/catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt:15387-15388 'and in remayninge here after the tearme of xl'y days after the Sefsion of the last parliament.' (outside the quoted 15384-15386).",
+   "required_fix": "Add a primary source with the same work and locus as the Pollen entry, lines \"15387-15388\", quote: \"and in remayninge here after the tearme of xl'y days after the Sefsion of the last parliament.\""
+  },
+  {
+   "rid": "R1-06",
+   "severity": "minor",
+   "links": [
+    "kirishitan-japan--japanese-christianity-hidden-emergence-meiji"
+   ],
+   "finding": "QUO-01's new sentence ('Yet most of them stayed on in hiding') rests on 'plerique tamen illorum ... occultati remanse[ru]nt', which is not quoted. The added quote (6921-6922) carries only 'by their labor ... the faith is kept'. The fact is right, but the quote does not show what the note uses it for.",
+   "evidence": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt:6914 'relegati; plerique tamen illorum, proprias vitas, contra Impera-'; 6920 '*is edictum, coniemnentes, diversis in locis occultati remanse-' (page header 6915-6919 between).",
+   "required_fix": "Add two primary entries (same work and locus as the Sotelo sources): lines \"6914\", quote \"plerique tamen illorum, proprias vitas, contra Impera-\"; and lines \"6920\", quote \"diversis in locis occultati\". Keep the 6921-6922 quote."
+  },
+  {
+   "rid": "R1-07",
+   "severity": "minor",
+   "links": [
+    "byzantine-church-after-1054--balkan-bogomil-continuation"
+   ],
+   "finding": "NOTE-03 swapped 'Here it comes as Franjo Rački told it' for 'We have it from Franjo Rački, who told it in 1869.' That is still talk about the tree's own holdings, in a first-person voice, which is what NOTE-03 set out to remove.",
+   "evidence": "Every source on the link is a Rački secondary (work strings 'retelling Anna Komnene, Alexiad 15'). Other notes in this pass use the form 'This rests on ...'.",
+   "required_fix": "Last sentence: \"This rests on how Franjo Rački told it in 1869.\" (whole note FRE 61.7, FK 7.8)."
+  },
+  {
+   "rid": "R1-08",
+   "severity": "minor",
+   "links": [
+    "antiochene-church-third-century--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--novatianism--2",
+    "roman-church-third-century--novatianism",
+    "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce"
+   ],
+   "finding": "The rewrites change 'presbyter' to 'priest' in three notes (Leontius, Auxanon, Novatus). They keep 'a presbyter of Antioch' for Lucian in a note this pass also edited. That leaves the only 'presbyter' left in the set's notes. The meaning holds either way, but one pass should not give the same office two names.",
+   "evidence": "Census scan: 'presbyter' now appears in one note only (antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce: 'Lucian, a presbyter of Antioch'). The sources say 'presbyter' in all four cases (e.g. Socrates 3855-3857 'a very aged presbyter of the Novatian church').",
+   "required_fix": "In antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce change 'Lucian, a presbyter of Antioch,' to 'Lucian, a priest of Antioch,'."
+  },
+  {
+   "rid": "R1-09",
+   "severity": "minor",
+   "links": [
+    "imperial-juridical-christianity--apollinarian-christianity",
+    "imperial-juridical-christianity--anomoean-eunomian-christianity"
+   ],
+   "finding": "The two notes now render the same canon 1 of Constantinople (381) in two ways: 'condemned the Eunomians by name' and 'cursed the Apollinarians by name'. 'Cursed' for 'anathematized' can mislead a modern reader, who may hear an imprecation or a spell rather than a formal sentence cutting someone off from the church.",
+   "evidence": "Old note: 'anathematized the Apollinarians by name'; companion note on the same canon: 'Its first canon condemned the Eunomians by name.'",
+   "required_fix": "In imperial-juridical-christianity--apollinarian-christianity: 'Its first canon condemned the Apollinarians by name.'"
+  },
+  {
+   "rid": "R1-10",
+   "severity": "minor",
+   "links": [
+    "balkan-bogomil-continuation--cathars-albigensians",
+    "bogomils--cathars-albigensians",
+    "bogomils--balkan-bogomil-continuation"
+   ],
+   "finding": "STR-02 holds the duplicate-link question for Mark, which is right. But the spelling clash it found ('Rainier Sacconi' in one note, 'Rainerius Sacconi' in two) does not depend on that ruling. It can be fixed now.",
+   "evidence": "Census notes: balkan-bogomil-continuation--cathars-albigensians 'Rainier Sacconi'; bogomils--cathars-albigensians and bogomils--balkan-bogomil-continuation 'Rainerius Sacconi'.",
+   "required_fix": "In balkan-bogomil-continuation--cathars-albigensians, change 'Rainier Sacconi' to 'Rainerius Sacconi' (and rescore)."
+  },
+  {
+   "rid": "R1-11",
+   "severity": "minor",
+   "links": [
+    "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+    "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov"
+   ],
+   "finding": "QUO-04 relabeled four editors' statements as secondary but missed one. Blackmore's 1842 translator's note listing the dioceses is 'primary' on the Alaska-to-America link (lines 19190-19193) and 'secondary' on the Russian-church-to-Alaska link (line 19193). The grade does not change, since both links are Inferential-Thin.",
+   "evidence": "Work strings: 'A. N. Mouravieff ... translator's note on the dioceses (1842)' kind primary; 'Translator's bracketed note to A. N. Mouravieff ...' kind secondary.",
+   "required_fix": "On alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave set that source's kind to \"secondary\"."
+  }
+ ],
+ "cleared": [
+  "STR-01 retirement: retiredLinks entry has id, date, reason and replacedBy, and the reason uses no public-facing internal language (retiredLinks is read only by the validator). The replacement note keeps everything the retired note said (the Act, St Bartholomew's Day, Baxter's 1,800 or 2,000), drops only the calendar date, and adds the episcopal-ordination clause, which its own quote at 1015-1030 supports. Puritanism's prose about the ejection is still carried by puritanism--english-old-dissent, whose note names the 1662 silencing.",
+  "STR-03 retype to 'gave rise to' (Widely Accepted): the 1847 patriarchal letter (Philipos 2593-2595, read in context with 'our Father the Patriarch Elias') shows the reform rising inside the old flock. The note now says outright that the hill churches are not part of the line. The two Whitehouse/Howard secondaries carry the consensus. There is no era-8 St Thomas entry to route through.",
+  "STR-05/STR-06: the duplicated 451 evidence and the Peter Mongus line are gone. Evagrius 3660-3678 confirms that 'Egypt's bishops' petitioned Leo, and John of Ephesus 11045-11048 confirms Theodosius being ejected 'by the king'.",
+  "MAJ-01, -02, -03 outcomes: each act sits inside a quote on its link (Finke 2570-2580; Institutum 2115-2117 with the date at 1554). The July 1415 date for the 45 articles follows Fillastre as printed (2570 'que fuit VI. Julii'). 'Stripped him of his orders' fairly renders 'degradavit'. The papal approval of an order is major, as with the Franciscans, Humiliati and Carmelites.",
+  "MAJ-04, -05: outcomes removed under the 2026-11-08 'adoption by vote is minor' ruling, consistent with Trent's Vulgate decree, Moscow 1656 and Zamość. MAJ-11: the outcome now names only the book condemnation (Hough 31939-31951).",
+  "MAJ-07, -08, -09, -13: each added quote is verbatim and holds the act the outcome names (Eusebius 41953-41954; Mansi 60892-60895; Bede 8215-8232; Optatus 285, with 'nineteen' at 283; Ambrose 43982-43986; Perrin 4636-4641; Barhadbeshabba 20738-20743).",
+  "MAJ-10: the new Carmelite outcome uses only the link's own quote (the rule's opening letter to the 'hermits'), drops the 1247 act that belongs to the papal link, and fixes 'friars'. MAJ-12: 'a London court' and 'by the Pope's authority' match Pollen 15380-15386 (Old Bailey, 19 January 1585/6, 'B. of Rome'); for the forty-day clause see R1-05. MAJ-14: split correctly.",
+  "GRD-05 retype to 'in contact with' matches the seven like jurisdiction links. GRD-07: all 13 specificity raises go onto links with a line-located quote. QUO-04: the four relabels leave each link's grade on true primaries.",
+  "Held items GRD-01/02/03 (source shape), GRD-04 (grade for a lone 19th-century account), GRD-06 (meaning of verified-direct) and MAJ-06 (deposition by a ruler) each turn on a method reading or on Mark's call, and are rightly held. STR-07/08/09 are continuesAs movement fields, rightly left to the census owner. MAJ-15 is another thread's audit document (flag, don't touch). QUO-03 rightly defers to the era-9 review's deliberate call. NOTE-08 is house style, logged.",
+  "Fidelity of the remaining note rewrites (NOTE-01 to -07): checked one by one against the old text. No fact was dropped and none was added beyond the link's own sources. Word swaps read correctly: 'metropolitan' to 'chief bishops' matches house usage and Chabot 17745 'Second métropolitain'; 'in his extreme old age' to 'very old'; 'as a young man' (Socrates 'when quite a youth'); 'a bishop honors images' (Basil of Ancyra, 38673-38675); 'He went to the city when the martyrs were led there' (Life of Antony 46, 32368-32369); Fremantle 1892 (NPNF 2.3). The Philocalia credit stays as the editors' credit, per the 2026-11-07 ruling.",
+  "Readability: all 116 changed notes and 9 outcomes score FRE >= 60.7 and FK <= 8.9, with the longest sentence at 22 words. No British spellings outside quotes. The words 'Library' and 'record' that were flagged refer to historical libraries and records, not to the tree's holdings."
+ ]
+}
