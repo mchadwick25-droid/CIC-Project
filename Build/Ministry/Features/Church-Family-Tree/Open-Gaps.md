@@ -454,3 +454,8 @@ it, never by deleting it.
     `czech-churches-last-century--the-moravian-church-at-herrnhut` and removed the Waldensian union's
     Italian Methodist and Argentina-Uruguay clause for want of a source. The 1552 Chaldean line's union
     with Rome in the nineteenth century joins two era-9 movements and is held for P2-L9.
+82. **"Outcome test, adoption by vote" (2026-11-08) is closed.** Mark ruled adoption by vote minor
+    (Decision-Log, "Major links: a church body adopting another's text by vote is minor",
+    2026-11-08). The four era-7 outcomes stay dropped, and the Vulgate outcome on
+    `hieronymian-ascetic-literary--the-tridentine-church` is removed. P2-L11 checks eras 1 to 6 for
+    other outcomes of the class.

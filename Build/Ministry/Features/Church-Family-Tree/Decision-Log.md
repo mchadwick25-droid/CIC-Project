@@ -414,3 +414,15 @@ word for word; no fourth round. File:
 Phase 2's per-era link passes cover eras 1 to 9. Era 10's traditions are not yet built, so
 P2-L10 waits until they are. Era 10's movements stay on the map as they are. P2-L11, the
 whole-set review, covers the links of eras 1 to 9.
+
+## 2026-11-08 — Major links: a church body adopting another's text by vote is minor
+
+**Decided (Mark: "Adoption by vote is minor; keep the four outcomes dropped").** Under the
+"Drop 'taken up'" change order, a council, synod or assembly adopting another side's confession,
+catechism, worship order or set text by its own vote is a text taken up, not a rule changed by an
+authority. Such a link stays minor and carries no `outcome`.
+
+**Applied (P2-L7, data release 12).** The four era-7 outcomes stay dropped (Uppsala 1593, the
+Scottish General Assembly 1562, the Paris synod 1559, Emden 1571). The outcome P2-ML had put on
+`hieronymian-ascetic-literary--the-tridentine-church` (Trent's Vulgate decree) is removed, so all
+six links of the class are treated alike. Later link passes and P2-L11 apply the same reading.

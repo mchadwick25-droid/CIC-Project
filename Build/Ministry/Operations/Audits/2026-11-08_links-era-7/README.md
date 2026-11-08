@@ -25,10 +25,10 @@ The test is Mark's change order of 2026-11-08 (Decision-Log, "Major links: a swi
 
 Of the 107 links touching an era-7 movement:
 - Major by type: 40 (continued as 21, gave rise to 12, broke with 7).
-- Major by outcome: 17 (argued against 10, in contact with 4, influenced 3). Fourteen are this pass's. Three are main's: `the-english-reformation-and-elizabethan-settleme--late-medieval-lay-parish-piety` (era 6), `hieronymian-ascetic-literary--the-tridentine-church` (P2-ML) and `the-tridentine-church--the-humiliati` (era 6's version stands; this pass drafted the same outcome).
-- Minor: 50.
+- Major by outcome: 16 (argued against 10, in contact with 4, influenced 2). Fourteen are this pass's. Two are main's: `the-english-reformation-and-elizabethan-settleme--late-medieval-lay-parish-piety` (era 6) and `the-tridentine-church--the-humiliati` (era 6's version stands; this pass drafted the same outcome).
+- Minor: 51.
 
-Drafting proposed 21 outcomes; review dropped six. Four were a church body adopting another side's confession, catechism or worship order by its own vote (Uppsala 1593, the Scottish General Assembly 1562, the Paris synod 1559, Emden 1571): a text taken up, which the stricter test excludes. Main (era 6, PR #1544; the P2-ML major-links pass) already publishes an outcome on `hieronymian-ascetic-literary--the-tridentine-church`, so the class stands one with an outcome and five without until Mark rules. Main's outcome is left in place because it is not this pass's to change; Mark's ruling settles all six alike. The other two dropped were Teresa's foundations under a decree of Trent (one person's practice) and the Kyiv synod's verbal judgment of 1628 on Smotrytsky's Apology.
+Drafting proposed 21 outcomes; review dropped six. Four were a church body adopting another side's confession, catechism or worship order by its own vote (Uppsala 1593, the Scottish General Assembly 1562, the Paris synod 1559, Emden 1571): a text taken up, which the stricter test excludes. Main (era 6, PR #1544; the P2-ML major-links pass) published an outcome on `hieronymian-ascetic-literary--the-tridentine-church` (Trent's Vulgate decree), the same class. Mark then ruled adoption by vote minor (Decision-Log, "Major links: a church body adopting another's text by vote is minor", 2026-11-08), so that outcome is removed and all six links of the class are treated alike. The other two dropped were Teresa's foundations under a decree of Trent (one person's practice) and the Kyiv synod's verbal judgment of 1628 on Smotrytsky's Apology.
 
 ## Counts
 
@@ -230,7 +230,7 @@ Every link touching an era-7 movement, and where its relationship is named:
 ## Escalations and open items
 
 Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08), after era 6's entries:
-- Outcome test, adoption by vote. For Mark.
+- Outcome test, adoption by vote: closed by Mark's ruling (Open-Gaps, "'Outcome test, adoption by vote' (2026-11-08) is closed").
 - Sentence fragments in era-7 prose. For the census owner, or P2-L11.
 - Long link notes, era 7. For P2-L11.
 - The validator does not check secondary quotes. For the validator's owner.
