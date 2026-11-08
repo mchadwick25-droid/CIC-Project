@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data and citation — Church Family Tree</title>
+<meta name="description" content="The Church Family Tree&#039;s public data file, its current release, its permanent IDs and how to cite it.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="assets/feedback.css">
+</head>
+<body>
+<a href="/" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="/" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="/support.html">Support the tree</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+<div class="page">
+  <div class="titleblock"><h1>Data and citation</h1></div>
+<section>
+  <h2>The current release</h2>
+  <p>All of the tree&#039;s data sits in one public file. The current file is release 12, dated November 8, 2026.</p>
+  <p>It holds 300 movements and 441 links. Each release has a number and a date, so a citation can name the exact version it used.</p>
+</section>
+<section>
+  <h2>Download the data</h2>
+  <p>The same file sits at two addresses. Neither one sends you on to another address, so a script can fetch it straight away.</p>
+  <p><a href="https://www.churchfamilytree.com/data/world-census.json">https://www.churchfamilytree.com/data/world-census.json</a></p>
+  <p><a href="https://churchinconversation.com/data/world-census.json">https://churchinconversation.com/data/world-census.json</a></p>
+</section>
+<section>
+  <h2>IDs that never change</h2>
+  <p>Every movement and every link has an ID. Once we publish an ID, we never change it or use it again.</p>
+  <p>If a link is removed or merged, its ID moves to a retired list in the file. That list gives the date, the reason and any replacement.</p>
+  <p>If a movement is renamed, its old address leads to the new page.</p>
+  <p>Each movement page&#039;s earlier address, on churchinconversation.com, still works. It sends you, in one step, to the same page here.</p>
+</section>
+<section>
+  <h2>How to cite the tree</h2>
+  <p>Name the release you used. These examples use real IDs and the current release.</p>
+  <p class="cite-label">The tree</p>
+  <p class="cite">From the Church Family Tree by Faithways Studio, Inc., release 12 (November 8, 2026), CC BY-NC 4.0. <a href="https://www.churchfamilytree.com">https://www.churchfamilytree.com</a></p>
+  <p class="cite-label">A movement</p>
+  <p class="cite">“Desert Monasticism.” Church Family Tree, Faithways Studio, Inc., release 12 (November 8, 2026). <a href="https://www.churchfamilytree.com/tree/desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism</a></p>
+  <p class="cite-label">A link</p>
+  <p class="cite">“Alexandrian Catechetical / Christian-Platonist Tradition gave rise to Desert Monasticism” (Contested). Church Family Tree, Faithways Studio, Inc., release 12 (November 8, 2026), link alexandria-catechetical--desert-monasticism. <a href="https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism</a></p>
+  <p class="cite-label">A release of the data</p>
+  <p class="cite">Faithways Studio, Inc. Church Family Tree data, release 12 (November 8, 2026). CC BY-NC 4.0. <a href="https://www.churchfamilytree.com/data/world-census.json">https://www.churchfamilytree.com/data/world-census.json</a></p>
+  <p>A movement&#039;s ID is the last part of its page address. A link&#039;s ID joins the IDs of its two movements with two hyphens. A second link between the same pair ends in --2.</p>
+  <p>A link&#039;s address is either movement&#039;s page, then # and the link&#039;s ID. It opens the page at that link.</p>
+</section>
+<section>
+  <h2>License</h2>
+  <p>Our data and our writing are free to reuse for non-commercial purposes, with credit. The license is CC BY-NC 4.0, from Creative Commons. The Faithways Studio license policy gives the full terms: <a href="https://churchinconversation.com/license">https://churchinconversation.com/license</a></p>
+  <p>Churches, ministries and scholars can do more under our Ministry and Scholarship Permission. To ask for it, fill in the short request form: <a href="https://tally.so/r/kb97Br">https://tally.so/r/kb97Br</a></p>
+</section>
+<section id="review">
+  <h2>Help review the tree</h2>
+  <p>Our data has been checked by AI, but not yet by scholars. Academic review is the project&#039;s biggest need.</p>
+  <p>If you teach or research church history, theology or the early sources, we would like to hear from you. Write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+  <p>The license policy explains how review works: <a href="https://churchinconversation.com/license#partnerships">https://churchinconversation.com/license#partnerships</a></p>
+  <p>To report an error, use the &quot;Report a problem&quot; button on any page, or write to the same address.</p>
+</section>
+</div>
+<footer class="site-footer">
+  <div class="row">
+    <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="/about.html">About</a>
+      <a href="/method.html">Method</a>
+      <a href="/data.html">Data and citation</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="https://churchinconversation.com/license">License</a>
+      <a href="/support.html">Support the tree</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/feedback.js" defer></script>
+</body>
+</html>

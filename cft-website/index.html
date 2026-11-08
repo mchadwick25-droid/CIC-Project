@@ -84,6 +84,7 @@ svg#world{display:block;overflow:visible}
 .edge-line{pointer-events:stroke;cursor:pointer;stroke-width:calc(2.4 / var(--zoom-scale,1))}
 .edge-line:hover{stroke-width:calc(4 / var(--zoom-scale,1))}
 .edge-hit{pointer-events:stroke;cursor:pointer;stroke-width:4}
+.continues{cursor:pointer}.continues:focus-visible{outline:none}.continues-hit{pointer-events:stroke;stroke-width:8}
 .edge-line:focus-visible{outline:none;stroke-width:calc(4 / var(--zoom-scale,1))}
 #tip{position:fixed;display:none;z-index:40;max-width:260px;background:var(--vellum);
   border:1px solid var(--gold-leaf);border-radius:2px;padding:.5rem .7rem;
@@ -62728,12 +62729,25 @@ function render(){
       const n=byId[m.continuesAs];
       const sameLane = n.laneOrder===m.laneOrder;
       if(!sameLane){
-        const cont=el('g',{class:'continues','data-lanes':`${m.laneOrder}|${n.laneOrder}`});
+        const link=continuesLink(m.id,n.id);
+        const cont=el('g',{class:'continues','data-lanes':`${m.laneOrder}|${n.laneOrder}`,tabindex:'0',role:'button',
+          'aria-label':`${m.shortName||m.name} continued as ${n.shortName||n.name}, ${link?link.confidence:'not yet graded'}`});
+        const contTip=()=>link?tipForEdge(link,m,n):`<div class="n">${esc(m.shortName||m.name)} → ${esc(n.shortName||n.name)}</div><div class="m">continued as · not yet graded</div>`;
+        cont.addEventListener('mouseenter',ev=>showTip(ev,contTip()));
+        cont.addEventListener('mousemove',ev=>positionTip(ev));
+        cont.addEventListener('mouseleave',hideTip);
+        cont.addEventListener('focus',()=>{const r=cont.getBoundingClientRect();showTipAt(r.left+r.width/2,r.top+r.height/2,contTip());});
+        cont.addEventListener('blur',hideTip);
+        if(link){
+          cont.addEventListener('click',ev=>{ev.stopPropagation();openPanelEdge(link,m,n);});
+          cont.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelEdge(link,m,n);}});
+        }
         cont.appendChild(el('path',{
           d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${n._x.toFixed(1)} ${n._y.toFixed(1)}`,
           stroke:'var(--gold-leaf)', 'stroke-width':1.6, opacity:0.7, 'stroke-dasharray':'1,4',
           'stroke-linecap':'round', fill:'none'
         }));
+        cont.appendChild(el('path',{d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${n._x.toFixed(1)} ${n._y.toFixed(1)}`,class:'continues-hit',fill:'none',stroke:'transparent'}));
         cont.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
         gEdges.appendChild(cont);
       }
@@ -62772,6 +62786,11 @@ function tipFor(m){
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
+function pairLinkNote(aId,bId){
+  const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
+  return other?`The checked link between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No link between them has been drawn and checked yet.';
+}
+function continuesLink(fromId,toId){return DATA.edges.find(e=>e.type==='continued as'&&e.from===fromId&&e.to===toId)||null;}
 function edgeSentence(edg,a,b){
   return `${a.shortName||a.name} ${edg.type} ${b.shortName||b.name}`;
 }
@@ -62988,7 +63007,12 @@ function openPanel(m){
   if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
   if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
-  if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
+  if(m.continuesAs&&byId[m.continuesAs]){
+    const next=byId[m.continuesAs], link=continuesLink(m.id,next.id);
+    h+=`<h3>Continues as</h3>`+(link
+      ?`<div class="edge"><span class="k">${esc(link.type)} · ${esc(link.confidence)}</span><br><b>${esc(next.shortName||next.name)}</b><br>The same ongoing church, in the next window.</div>`
+      :`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${esc(next.shortName||next.name)}</b><br>${pairLinkNote(m.id,next.id)}</div>`);
+  }
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';
     h+=`<details class="sources-panel"><summary>${sourcesLabel}</summary>`;
@@ -63173,7 +63197,7 @@ function buildLegend(){
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
   let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
   links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg>Major links</button>`;
-  links+=`<div class="note">Major links are the ones with lasting results: one movement growing out of another, a recorded break, or a council, law or teaching the sources show taking hold. Pick a movement to see all of its links.</div>`;
+  links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
   links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg>All connections</button>`;
   links+='<span class="cap">Kind of link</span>';
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
@@ -63186,7 +63210,7 @@ function buildLegend(){
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
-  key+=`<div class="foot">A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="support.html">Support the tree</a></div>`;
+  key+=`<div class="foot">A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="support.html">Support the tree</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
