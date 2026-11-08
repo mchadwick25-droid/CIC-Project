@@ -617,7 +617,7 @@
    "to": "port-royal-jansenism",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Port-Royal read grace through Augustine of Hippo. The five propositions Rome condemned in 1653 were said to come from Cornelius Jansen's book, which he named Augustinus. In 1656 Pascal mocked the claim that Augustine's teaching on grace turned heretical once Antoine Arnauld defended it.",
+   "note": "Port-Royal took its view of grace from Augustine of Hippo. Rome condemned five propositions in 1653. They were said to come from Cornelius Jansen's book, which he named Augustinus. In 1656 Pascal mocked the idea that Augustine's grace became false the moment Antoine Arnauld defended it.",
    "sources": [
     {
      "kind": "primary",
@@ -733,14 +733,14 @@
    "to": "port-royal-jansenism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In 1643 Mother Angélique Arnauld wrote that Jesuit preachers were attacking Jansen from the pulpit, calling him a warmed-over Calvin. In 1656 Pascal answered a Jesuit book by Father Meynier titled Port-Royal and Geneva in Concert against the Most Holy Sacrament of the Altar.",
+   "note": "In 1643 Mother Angélique Arnauld wrote that Jesuit preachers were attacking Jansen from the pulpit. They called him a Calvin warmed over. In 1656 Pascal answered a Jesuit book by Father Meynier. Its title tied Port-Royal to Geneva in a plot against the Mass.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
      "work": "Mère Marie Angélique Arnauld, Lettres, tome I (1742), letter CXXXII (1643)",
      "file": "cic/texts/arnauld-angelique_lettres-t1-fra_1742.txt",
-     "lines": "11252-11254",
+     "lines": "11252-11255",
      "locus": "Lettre CXXXII",
      "quote": "Les Pères Jefuites crient en chaire d'une manière étrange contre M. d'Ypres, juf- 3u'à l'appeller un Calvin rebouilli",
      "license": "public-domain"
@@ -778,7 +778,7 @@
    "to": "port-royal-jansenism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In May 1653 Rome condemned five propositions said to be taken from Jansen's Augustinus. In 1664 a formulary followed, to be sworn by those who rejected them in the sense Jansen meant. Later a papal bull was obtained to suppress the convent of Port-Royal itself.",
+   "note": "In May 1653 Rome condemned five propositions said to come from Jansen's book Augustinus. In 1664 it made a form to be sworn, rejecting them in the sense Jansen meant. Later a papal bull was obtained to close the convent of Port-Royal itself.",
    "sources": [
     {
      "kind": "primary",
@@ -825,7 +825,7 @@
    "verification_state": "verified-direct",
    "named_in_text": "port-royal-jansenism longDescription ('Rome condemned five propositions said to be contained in Jansen's Augustinus ... a formulary')",
    "major": true,
-   "outcome": "In 1653 Rome condemned five propositions taken from Jansen's book Augustinus, and in 1664 it ordered a sworn formulary rejecting them.",
+   "outcome": "In 1653 Rome condemned five points from Jansen's book, and in 1664 it made people swear to a form that rejected them.",
    "outcome_kind": "council-law",
    "outcome_evidence": {
     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
@@ -904,7 +904,7 @@
    "to": "church-of-utrecht",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "In 1703 Rome barred the Dutch church's vicars-general from all spiritual work, on pain of excommunication. The account printed with Utrecht's synod of 1763 dates its schism from these acts. When Barchman Wuytiers was consecrated archbishop in 1725, a papal brief declared him and his clergy excommunicated and schismatic.",
+   "note": "In 1703 Rome told the Dutch church's vicars-general to stop all their spiritual work, or be cut off. A history printed with Utrecht's synod of 1763 dates the split from these acts. In 1725 Barchman Wuytiers was made archbishop. A papal letter then declared him and his clergy cut off from the church.",
    "sources": [
     {
      "kind": "primary",
@@ -976,7 +976,7 @@
    "to": "old-catholic-churches-union-of-utrecht",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "In September 1889 the archbishop of Utrecht and the bishops of Haarlem and Deventer met at Utrecht with the Old Catholic bishops of Germany and Switzerland. Together they signed a declaration of faith. In it they renewed every protest the old Catholic church of Holland had already made against Rome.",
+   "note": "In September 1889 the archbishop of Utrecht and two of his bishops met at Utrecht. With them were the Old Catholic bishops of Germany and Switzerland. Together they signed a statement of faith. In it they renewed every protest the old Catholic church of Holland had made against Rome.",
    "sources": [
     {
      "kind": "primary",
@@ -1138,7 +1138,7 @@
    "verification_state": "verified-direct",
    "named_in_text": "quietist-controversy-molinos-guyon longDescription and why ('sixty-eight propositions ... condemned in 1687'; 'an implacable opponent in Bossuet'; 'condemned by Rome in 1699'); legacy ('The condemnation ended quietism as a movement inside Catholicism')",
    "major": true,
-   "outcome": "In 1687 Rome condemned errors drawn from Miguel de Molinos, and in 1699 it condemned twenty-three propositions from a book by Fénelon.",
+   "outcome": "In 1687 Rome condemned errors drawn from Molinos, and in 1699 it condemned 23 claims from a book by Fénelon.",
    "outcome_kind": "council-law",
    "outcome_evidence": {
     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
@@ -1161,7 +1161,7 @@
    "to": "german-pietism-spener-francke-halle",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In 1687, soon after Rome censured Molinos, the young August Hermann Francke put his Spiritual Guide into Latin at Leipzig. Critics later charged that Francke had taken in Molinos's principles. He answered that reading and translating Molinos had not been the start of his conversion.",
+   "note": "In 1687 Rome censured Molinos. Soon after, the young August Hermann Francke put his Spiritual Guide into Latin at Leipzig. Critics later said Francke had taken in Molinos's ideas. He replied that reading and translating Molinos had not been the start of his conversion.",
    "sources": [
     {
      "kind": "primary",
@@ -1216,7 +1216,7 @@
    "to": "the-quakers-religious-society-of-friends",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "An 1821 edition of the Quaker Mary Penington's memoir carried a book list offering Guyon's Life, her Short Method of Prayer and an abstract of Molinos. Ellwood's 1900 editor says Quaker booksellers sold Molinos. Woolman's 1922 editor says he read the French quietist writers in English.",
+   "note": "A Quaker memoir of 1821, the life of Mary Penington, carried a book list. It offered Guyon's Life and her Short Method of Prayer. Ellwood's editor wrote in 1900 that Quaker booksellers sold Molinos. Woolman's editor wrote in 1922 that he read the French quietist writers in English.",
    "sources": [
     {
      "kind": "primary",
@@ -1403,9 +1403,19 @@
      "source_id": null,
      "work": "Antoine Court, memoir of the first synod (1715), in Hugues (1885)",
      "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
-     "lines": "2949-2953",
+     "lines": "2949-2950",
      "locus": "Premier synode du 21 août 1715",
-     "quote": "1° que, selon l'ordre de Saint-Paul, il serait défendu aux femmes de prêcher à l'avenir; 2° qu'il serait ordonné de s'en tenir uniquement à l'Ecriture sainte, comme à la seule règle de la foi, et qu'en conséquence l'on rejetterait toutes les prétendues révélations, qui avaient la vogue parmi nous,",
+     "quote": "1° que, selon l'ordre de Saint-Paul, il serait défendu aux femmes de prêcher à l'avenir;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoine Court, memoir of the first synod (1715), in Hugues (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "2952-2953",
+     "locus": "Premier synode du 21 août 1715",
+     "quote": "l'on rejetterait toutes les prétendues révélations, qui avaient la vogue parmi nous,",
      "license": "public-domain"
     },
     {
@@ -1423,7 +1433,7 @@
    "verification_state": "verified-direct",
    "named_in_text": "church-of-the-desert-huguenots longDescription ('discouraged the prophesying that had led to the Camisard rising') and relationsSummary ('The Camisard prophetic uprising belongs to this same story's opening decades'); camisard-prophetism legacy ('French Protestantism rebuilt itself without them')",
    "major": true,
-   "outcome": "At its first synod in 1715, the Protestant church of the Cévennes forbade women to preach and rejected the revelations then in vogue.",
+   "outcome": "In 1715 the first synod of the Cévennes preachers banned women from preaching and threw out the revelations then in vogue.",
    "outcome_kind": "council-law",
    "outcome_evidence": {
     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
@@ -1446,7 +1456,7 @@
    "to": "church-of-the-desert-huguenots",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Antoine Court called his first synod in 1715 to restore the old church discipline. In 1721 the Desert synod of Lower Languedoc and the Cévennes ruled that ministers must sign the confession of faith drawn up by the Protestant churches of France, together with 'our discipline'.",
+   "note": "Antoine Court called his first synod in 1715 to restore the old church rules. In 1721 a Desert synod in the Cévennes made a new rule. Every minister had to sign the confession of faith of the Protestant churches of France. He also had to sign \"our discipline\", the church's rule book.",
    "sources": [
     {
      "kind": "primary",
@@ -1541,30 +1551,30 @@
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
    "old": "The condemnation ended quietism as a movement inside Catholicism, but not the texts. Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists. So that a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is. Fénelon's Telemachus and his letters of spiritual direction stayed in print and are read to this day. The word 'quietism' itself survived as a term of criticism for any spirituality thought too passive.",
-   "new": "The condemnation ended quietism as a movement inside Catholicism, but not the texts. They had a long second life among Protestants. In 1687 the young August Hermann Francke, later a leader of German Pietism, put Molinos's Spiritual Guide into Latin. Quaker booksellers sold Molinos, and a Quaker memoir of 1821 still listed Guyon's Life and Short Method. John Wesley first called Guyon a 'poor Quietist', but by 1770 he praised her 'excellent piety', and in 1776 he wrote a preface for a shortened Life of her. So a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is. Fénelon's Telemachus and his letters of spiritual direction stayed in print and are read to this day. The word 'quietism' itself survived as a term of criticism for any spirituality thought too passive.",
+   "new": "The condemnation ended quietism as a movement inside Catholicism, but not its books. They had a long second life among Protestants. In 1687 the young August Hermann Francke put Molinos's Spiritual Guide into Latin; he later led German Pietism. Quaker booksellers sold Molinos, and a Quaker memoir of 1821 still listed Guyon's Life and Short Method. John Wesley at first called Guyon a 'poor Quietist'. By 1770 he praised her 'excellent piety', and in 1776 he wrote a preface for a short Life of her. So a condemned French Catholic widow became a devotional author for English-speaking evangelicals, and still is. Fénelon's Telemachus and his letters of spiritual guidance stayed in print and are still read. The word 'quietism' lived on too, as a charge against any prayer thought too passive.",
    "reason": "'Guyon's writings ... read warmly by Pietists' is not supported: the vendored Pietist evidence is Francke's Latin translation of Molinos, not Guyon. 'Read warmly' by Methodists overstates Wesley's mixed reading (critical in 1742, admiring by 1770). Rewritten to what the three links document; every other sentence kept.",
-   "fre_after": 51.7,
-   "fk_after": 10.2
+   "fre_after": 60.5,
+   "fk_after": 8.4
   },
   {
    "n": 2,
    "movement": "port-royal-jansenism",
    "field": "legacy",
    "old": "The house was destroyed and the movement formally beaten, yet almost nothing about it actually disappeared. Pascal's Provincial Letters and Pensées became permanent French classics, and the Port-Royal schools' methods, along with the Port-Royal Logic and Grammar, shaped European education for generations. The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution. The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum.",
-   "new": "The house was destroyed and the movement formally beaten, yet almost nothing about it actually disappeared. Pascal's Provincial Letters and Pensées became permanent French classics, and the Port-Royal schools' methods, along with the Port-Royal Logic and Grammar, shaped European education for generations. The quarrel outlived the abbey too. Jansenism became a political force in eighteenth-century France, and historians hold that it helped drive the campaign that suppressed the Jesuits. It also left one lasting institution: the small Church of Utrecht in the Netherlands. That church consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum.",
-   "reason": "'Fed the campaign that suppressed the Jesuits' has no vendored source (the Clement XIV bulls do not name the Jansenists); the repo cites Dale Van Kley's The Jansenists and the Expulsion of the Jesuits from France (1975) as the standard account, so it is kept as historians' judgment rather than plain fact. Also mends the old sentence fragment ('The small Church of Utrecht ... churches.').",
-   "fre_after": 50.2,
-   "fk_after": 10.6
+   "new": "The house was destroyed and the movement formally beaten, yet almost nothing about it truly vanished. Pascal's Provincial Letters and Pensées became lasting French classics. The Port-Royal schools' methods, with the Port-Royal Logic and Grammar, shaped how Europe taught for generations. The quarrel outlived the abbey too. Jansenism became a political force in France in the 1700s. Historians hold that it helped drive the campaign that suppressed the Jesuits. It also left one lasting body: the small Church of Utrecht in the Netherlands. That church made its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum.",
+   "reason": "'Fed the campaign that suppressed the Jesuits' has no vendored source (the Clement XIV bulls do not name the Jansenists); the repo cites Dale Van Kley's The Jansenists and the Expulsion of the Jesuits from France (1975) as the standard account, so it is kept as historians' judgment rather than plain fact. Also mends the old sentence fragment ('The small Church of Utrecht ... churches.') and splits long sentences; every other fact kept.",
+   "fre_after": 65.0,
+   "fk_after": 7.5
   },
   {
    "n": 3,
    "movement": "camisard-prophetism",
    "field": "legacy",
    "old": "The Camisards left no church of their own — French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine. What the prophets left was a wave that carried. The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements. In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
-   "new": "The Camisards left no church of their own. French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine. What the prophets left was a wave that carried. The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation. Faint echoes may have reached later revival movements: in 1739 John Wesley went to hear a woman 'commonly called' a French prophet. In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
-   "reason": "'Echoes reaching later revival movements' named no movement and no evidence. Qualified to 'may have', with the one documented instance (Wesley's visit of 1739), which is itself thin: a French prophet of 1739 was not a Camisard exile. The first sentence's dash is split into two sentences; every fact kept.",
-   "fre_after": 48.0,
-   "fk_after": 11.0
+   "new": "The Camisards left no church of their own. French Protestantism rebuilt itself without them, in a wholly different key, sober and hidden. What the prophets left was a wave that carried. The exiles in London published sworn accounts of what they had seen, and drew crowds and scorn. For a generation they shaped the debate in England and Europe over religious enthusiasm. Faint echoes may have reached later revivals: in 1739 John Wesley went to hear a woman 'commonly called' a French prophet. In the Cévennes the memory was never allowed to fade. Every September an assembly still gathers at the Musée du Désert to mark it.",
+   "reason": "'Echoes reaching later revival movements' named no movement and no evidence. Qualified to 'may have', with the one documented instance (Wesley's visit of 1739), which is itself thin: a French prophet of 1739 was not a Camisard exile. Long sentences split for readability; every fact kept.",
+   "fre_after": 64.2,
+   "fk_after": 7.7
   }
  ],
  "wants": [
