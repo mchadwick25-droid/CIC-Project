@@ -631,3 +631,11 @@ and voices are trimmed to match. No ID, page or link changes. Options shown: spl
 overlap" (Open-Gaps, 2026-11-08). Data release 21. The page's recording no longer matches its
 description, so its Listen button is hidden until the next re-voicing batch, which needs its own
 sample approval.
+## 2026-11-08 — Era 10 gate: every recommendation taken
+
+**Decided (Mark: "take every recommendation").** All 79 gate questions are ruled by their stated
+recommendations. The one exception is G-15: IX.50 (the Christian Right) has no recommendation and
+stays held for Mark's direct answer. G-49 was withdrawn. Full entry, with what the ruling does:
+Atlas World Map Decision-Log, "ERA 10 GATE", same date. The work runs as P2-E10a (the census pass
+on the existing rows), P2-E10b (new rows and named lines) and P2-E10c (the `kind` field and its
+drawing, the method-page line, the era band). Then P2-L10 and P2-V.

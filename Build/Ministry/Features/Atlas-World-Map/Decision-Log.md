@@ -13,6 +13,61 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Change order, pending Mark: faith missions (IX.53) held at build
+
+**Open, for Mark.** The gate ruling added faith missions under G-57(a), which set no Section A
+condition. At the build (P2-E10b), the Section A research found no statement of faith for its
+carriers (`Design/StepZero-Eras/CiC_Step0_Era10_P2E10b_SectionA_Research.md`): the IFMA's own
+doctrinal text was not found, and its successor's statement is behind a member login. The three
+other new movement rows clear Section A on their carriers' own dated statements. This thread held
+IX.53 rather than enter a row whose floor has not been checked, treating it as the rulings treat the
+healing revival and the Oxford Group (G-69, G-72). That departs from the ruling as written, so it is
+put to Mark: hold IX.53 until the statement is found, or build it now with "not yet assessed" on its
+floor note. Its atlasId stays reserved either way. Wanted: Frizen, *75 Years of IFMA, 1917–1992*
+(1992); Wheaton College, Billy Graham Center Archives, collection 352.
+
+---
+
+## 2026-11-08 — ERA 10 GATE: Mark takes every recommendation (history, 1906 to c. 2010)
+
+**Decided (Mark: "take every recommendation").** Applied to all 79 gate questions on the era 10 gate
+page: G-1 to G-55 in `Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md` §6, and G-56 to G-79 in
+`Design/StepZero-Eras/CiC_Step0_Era10_Movements_V1_0.md` §4. Each question's stated recommendation
+is the ruling. Two exceptions, named:
+
+- **G-15 (IX.50, the Christian Right) carries no recommendation**, so it is not ruled. It stays
+  held for Mark's direct answer, and nothing is pre-wired for it.
+- **G-49 was withdrawn** before the gate and needs no ruling.
+
+**What the ruling does, in short.**
+- Era 10 is history, 1906 to c. 2010. The era band reads "1906-c. 2010", tagged "A century of global
+  Christianity" (G-1). The 2010 centenary key event is added only once it is sourced, as G-1's
+  recommendation requires.
+- 48 of the 49 rows are kept, and IX.31 (Deconstruction) is retired (G-8). The 453 text edits and 19
+  structural operations in `CiC_Step0_Era10_V2_0_Proposed_Edits.json` apply. Every gated edit there
+  implements its recommended option, G-46(b) included.
+- The living mark means alive today. The flags follow §2d: groups L-1 to L-4 as recommended (G-5),
+  IX.28 true → false (G-50), and the evidence kept in a line apart from the history text (G-51).
+- Added: Iglesia ni Cristo, split from IX.16 (G-14), and the Anglican Communion in the twentieth
+  century (G-78). Six movements are added under the recent-movement evidence rule: faith missions,
+  rescue missions, the Christian homeschool movement, the liturgical movement, the Third Wave, and
+  Promise Keepers and the Christian men's movement. The ten folds become named lines in their
+  entries.
+- Held, as recommended: the evangelical student movement and frontier missions. The mark 4 reading
+  is kept (G-79(c)), and both go to the source-research thread for a study of the whole movement.
+  Also held: the healing revival and the Oxford Group, pending Section A (G-69, G-72).
+- A movement outside church bodies gets the `kind` "cross-church movement", shown as a translucent
+  band across the lanes it touches (G-28).
+
+**Order of work** (Church Family Tree Build-Plan, P2-E10a to c):
+- a: the census pass on the existing rows, with Iglesia ni Cristo, as a numbered data release;
+- b: the new rows and the named lines, drafted and reviewed;
+- c: the `kind` field and its drawing, the method-page line, and the era band text.
+
+Then P2-L10 (links) and P2-V (the living definition across all eras).
+
+---
+
 ## 2026-11-08 — Change order: evidence for recent movements (era 10)
 
 **Decided (Mark, in this thread: "yes as the writings are current or recent history so its more
