@@ -407,3 +407,10 @@ outcome sentence had the friars ask for confirmation of a rule already corrected
 source has them ask for the correction itself. The reviewer's own replacement sentence is applied
 word for word; no fourth round. File:
 `Build/Ministry/Operations/Audits/2026-11-08_major-links/Opus_Review_Round3_TargetedRecheck.json`.
+
+## 2026-11-08 — The link work covers eras 1 to 9
+
+**Decided (Mark: "we have not build out era 10 traditions, so lets consider the tree to be eras 1 - 9 completed").**
+Phase 2's per-era link passes cover eras 1 to 9. Era 10's traditions are not yet built, so
+P2-L10 waits until they are. Era 10's movements stay on the map as they are. P2-L11, the
+whole-set review, covers the links of eras 1 to 9.
