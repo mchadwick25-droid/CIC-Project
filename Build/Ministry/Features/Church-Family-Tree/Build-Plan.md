@@ -78,7 +78,8 @@ applied to every shared file, not only the census.
 | P2-L3 | Links, era 3; data release 7 | none | in review |
 | P2-L4 | Links, era 4; data release 8 | none | merged (#1541) |
 | P2-L5 | Links, era 5; data release 9 | none | in review |
-| P2-L6…L9 | Links, one era per chunk | none | in progress |
+| P2-L6…L8 | Links, one era per chunk | none | in progress |
+| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 12 | none | part 1 in review; part 2 in progress |
 | P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | in review |

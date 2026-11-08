@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-08",
+ "kind": "mechanical",
+ "reason": "Spelling check (Decision-Log 77): Carey's book title 'Enquiry' is set in quotes so it keeps the edition's spelling. No words changed.",
+ "notes": [
+  {
+   "id": "the-moravian-church-at-herrnhut--the-missionary-movement-s-native-churches-seramp",
+   "old": "William Carey's 1792 Enquiry led to the founding of the Baptist Missionary Society, and Carey went on to lead its mission at Serampore in India. In the Enquiry he wrote that 'none of the moderns have equalled the Moravian Brethren' in mission work. He held up their missions in Greenland and Labrador as proof that the work could be done.",
+   "new": "William Carey's 1792 'Enquiry' led to the founding of the Baptist Missionary Society, and Carey went on to lead its mission at Serampore in India. In the 'Enquiry' he wrote that 'none of the moderns have equalled the Moravian Brethren' in mission work. He held up their missions in Greenland and Labrador as proof that the work could be done."
+  }
+ ]
+}

@@ -1,0 +1,550 @@
+[
+ {
+  "movement": "the-second-great-awakening-and-camp-meeting-worl",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.02488636363637,
+  "fk": 6.9365909090909135,
+  "words": 32
+ },
+ {
+  "movement": "the-second-great-awakening-and-camp-meeting-worl",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 66.73214285714286,
+  "fk": 7.429523809523811,
+  "words": 84
+ },
+ {
+  "movement": "the-second-great-awakening-and-camp-meeting-worl",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.60163857677904,
+  "fk": 8.491629213483147,
+  "words": 88
+ },
+ {
+  "movement": "the-oxford-movement-and-anglo-catholic-revival",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.83121778350517,
+  "fk": 7.507822164948454,
+  "words": 96
+ },
+ {
+  "movement": "the-salvation-army",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 66.7871428571429,
+  "fk": 5.682857142857145,
+  "words": 14
+ },
+ {
+  "movement": "the-salvation-army",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 68.04665168539327,
+  "fk": 8.19020224719101,
+  "words": 94
+ },
+ {
+  "movement": "the-missionary-movement-s-native-churches-seramp",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.74071428571429,
+  "fk": 7.070952380952381,
+  "words": 85
+ },
+ {
+  "movement": "the-missionary-movement-s-native-churches-seramp",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.68069915254239,
+  "fk": 7.762500000000003,
+  "words": 118
+ },
+ {
+  "movement": "the-haugean-awakening",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 68.0661842105263,
+  "fk": 6.125526315789475,
+  "words": 19
+ },
+ {
+  "movement": "the-haugean-awakening",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 67.34900000000003,
+  "fk": 6.9460000000000015,
+  "words": 127
+ },
+ {
+  "movement": "the-reveil-and-inner-mission-awakening",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": false,
+  "fre": null,
+  "fk": null,
+  "words": 10
+ },
+ {
+  "movement": "the-reveil-and-inner-mission-awakening",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.68397233201583,
+  "fk": 7.772292490118577,
+  "words": 142
+ },
+ {
+  "movement": "the-reveil-and-inner-mission-awakening",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.601153846153835,
+  "fk": 8.35813186813187,
+  "words": 105
+ },
+ {
+  "movement": "restorationist-apocalyptic-ferment-and-adventism",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 88.905,
+  "fk": 3.84,
+  "words": 12
+ },
+ {
+  "movement": "laestadianism-and-the-nordic-revivals",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.00973684210527,
+  "fk": 7.586390977443614,
+  "words": 76
+ },
+ {
+  "movement": "laestadianism-and-the-nordic-revivals",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.44771262886601,
+  "fk": 7.142873711340204,
+  "words": 97
+ },
+ {
+  "movement": "the-student-volunteer-movement-and-edinburgh-191",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 86
+ },
+ {
+  "movement": "the-student-volunteer-movement-and-edinburgh-191",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.52804004854369,
+  "fk": 7.875910194174761,
+  "words": 105
+ },
+ {
+  "movement": "indonesian-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.07230392156865,
+  "fk": 8.120882352941177,
+  "words": 86
+ },
+ {
+  "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.05905405405409,
+  "fk": 7.508532818532821,
+  "words": 75
+ },
+ {
+  "movement": "nineteenth-century-baptists",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.49895833333338,
+  "fk": 7.191875000000003,
+  "words": 64
+ },
+ {
+  "movement": "nineteenth-century-baptists",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.34597389558235,
+  "fk": 7.860421686746989,
+  "words": 83
+ },
+ {
+  "movement": "nineteenth-century-baptists",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.346517857142885,
+  "fk": 7.389107142857146,
+  "words": 92
+ },
+ {
+  "movement": "confessional-lutheran-revival-emigrations",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.1972826086957,
+  "fk": 7.022536231884057,
+  "words": 71
+ },
+ {
+  "movement": "confessional-lutheran-revival-emigrations",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.46982501861504,
+  "fk": 6.854959046909904,
+  "words": 159
+ },
+ {
+  "movement": "confessional-lutheran-revival-emigrations",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.23230994152047,
+  "fk": 6.955964912280702,
+  "words": 78
+ },
+ {
+  "movement": "russian-evangelicals-stundists",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.38273948598132,
+  "fk": 7.601950934579438,
+  "words": 108
+ },
+ {
+  "movement": "russian-evangelicals-stundists",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.00721726190477,
+  "fk": 7.684599867724874,
+  "words": 192
+ },
+ {
+  "link": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+  "field": "note",
+  "scored": true,
+  "fre": 60.10895161290327,
+  "fk": 8.725967741935488,
+  "words": 32
+ },
+ {
+  "link": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+  "field": "note",
+  "scored": true,
+  "fre": 77.41211382113822,
+  "fk": 5.857073170731713,
+  "words": 41
+ },
+ {
+  "link": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+  "field": "note",
+  "scored": true,
+  "fre": 66.2107971014493,
+  "fk": 7.8334782608695654,
+  "words": 46
+ },
+ {
+  "link": "the-methodist-revival--the-second-great-awakening-and-camp-meeting-worl",
+  "field": "note",
+  "scored": true,
+  "fre": 60.89945754716982,
+  "fk": 8.05674528301887,
+  "words": 55
+ },
+ {
+  "link": "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
+  "field": "note",
+  "scored": true,
+  "fre": 70.19100000000002,
+  "fk": 5.854000000000003,
+  "words": 48
+ },
+ {
+  "link": "the-second-great-awakening-and-camp-meeting-worl--the-holiness-movement",
+  "field": "note",
+  "scored": true,
+  "fre": 63.98693693693693,
+  "fk": 7.3983783783783785,
+  "words": 38
+ },
+ {
+  "link": "the-methodist-revival--nineteenth-century-methodism",
+  "field": "note",
+  "scored": true,
+  "fre": 65.65538461538465,
+  "fk": 7.331282051282052,
+  "words": 41
+ },
+ {
+  "link": "nineteenth-century-methodism--the-holiness-movement",
+  "field": "note",
+  "scored": true,
+  "fre": 64.015,
+  "fk": 8.802222222222223,
+  "words": 36
+ },
+ {
+  "link": "nineteenth-century-methodism--the-black-church-in-america",
+  "field": "note",
+  "scored": true,
+  "fre": 65.11307692307696,
+  "fk": 7.4069230769230785,
+  "words": 53
+ },
+ {
+  "link": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+  "field": "note",
+  "scored": true,
+  "fre": 66.33102941176472,
+  "fk": 6.119117647058825,
+  "words": 35
+ },
+ {
+  "link": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+  "field": "note",
+  "scored": true,
+  "fre": 67.8246153846154,
+  "fk": 7.028717948717951,
+  "words": 40
+ },
+ {
+  "link": "the-baptists--nineteenth-century-baptists",
+  "field": "note",
+  "scored": true,
+  "fre": 64.41880952380956,
+  "fk": 6.592857142857145,
+  "words": 60
+ },
+ {
+  "link": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+  "field": "note",
+  "scored": true,
+  "fre": 62.96821138211382,
+  "fk": 7.87170731707317,
+  "words": 41
+ },
+ {
+  "link": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+  "field": "note",
+  "scored": true,
+  "fre": 67.2632142857143,
+  "fk": 6.48595238095238,
+  "words": 44
+ },
+ {
+  "link": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+  "field": "note",
+  "scored": true,
+  "fre": 64.85201754385966,
+  "fk": 7.360526315789475,
+  "words": 40
+ },
+ {
+  "link": "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+  "field": "note",
+  "scored": true,
+  "fre": 73.28528455284555,
+  "fk": 6.432682926829269,
+  "words": 40
+ },
+ {
+  "link": "nineteenth-century-methodism--the-salvation-army",
+  "field": "note",
+  "scored": true,
+  "fre": 69.5175,
+  "fk": 6.544166666666669,
+  "words": 51
+ },
+ {
+  "link": "the-holiness-movement--the-salvation-army",
+  "field": "note",
+  "scored": true,
+  "fre": 71.53096491228072,
+  "fk": 6.428947368421053,
+  "words": 38
+ },
+ {
+  "link": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+  "field": "note",
+  "scored": true,
+  "fre": 63.455196078431385,
+  "fk": 7.224117647058826,
+  "words": 35
+ },
+ {
+  "link": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+  "field": "note",
+  "scored": true,
+  "fre": 64.22999999999999,
+  "fk": 7.28166666666667,
+  "words": 50
+ },
+ {
+  "link": "the-moravian-church-at-herrnhut--the-missionary-movement-s-native-churches-seramp",
+  "field": "note",
+  "scored": true,
+  "fre": 60.69028248587571,
+  "fk": 9.680000000000003,
+  "words": 60
+ },
+ {
+  "link": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
+  "field": "note",
+  "scored": true,
+  "fre": 66.82705882352944,
+  "fk": 8.161568627450979,
+  "words": 52
+ },
+ {
+  "link": "the-missionary-movement-s-native-churches-seramp--taiping-heavenly-kingdom",
+  "field": "note",
+  "scored": true,
+  "fre": 67.07833333333336,
+  "fk": 7.050000000000001,
+  "words": 39
+ },
+ {
+  "link": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+  "field": "note",
+  "scored": true,
+  "fre": 61.665000000000006,
+  "fk": 9.130000000000003,
+  "words": 54
+ },
+ {
+  "link": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+  "field": "note",
+  "scored": true,
+  "fre": 61.45839285714288,
+  "fk": 7.7303571428571445,
+  "words": 51
+ },
+ {
+  "link": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+  "field": "note",
+  "scored": true,
+  "fre": 66.13768421052632,
+  "fk": 6.8665263157894785,
+  "words": 59
+ },
+ {
+  "link": "indonesian-christianity--indonesian-christianity-the-independent-century",
+  "field": "note",
+  "scored": true,
+  "fre": 64.24680084745765,
+  "fk": 7.962500000000002,
+  "words": 61
+ },
+ {
+  "link": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+  "field": "note",
+  "scored": true,
+  "fre": 60.07155932203392,
+  "fk": 7.812000000000001,
+  "words": 60
+ },
+ {
+  "link": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+  "field": "note",
+  "scored": true,
+  "fre": 61.18786764705885,
+  "fk": 7.8923039215686295,
+  "words": 53
+ },
+ {
+  "link": "german-pietism-spener-francke-halle--the-haugean-awakening",
+  "field": "note",
+  "scored": true,
+  "fre": 69.78500000000001,
+  "fk": 6.010000000000002,
+  "words": 31
+ },
+ {
+  "link": "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals",
+  "field": "note",
+  "scored": true,
+  "fre": 66.63798469387757,
+  "fk": 7.007908163265306,
+  "words": 50
+ },
+ {
+  "link": "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening",
+  "field": "note",
+  "scored": true,
+  "fre": 62.36090909090913,
+  "fk": 7.293939393939393,
+  "words": 34
+ },
+ {
+  "link": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+  "field": "note",
+  "scored": true,
+  "fre": 64.9245454545455,
+  "fk": 6.936363636363637,
+  "words": 23
+ },
+ {
+  "link": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
+  "field": "note",
+  "scored": true,
+  "fre": 62.17150000000001,
+  "fk": 7.693000000000001,
+  "words": 51
+ },
+ {
+  "link": "russian-church-synodal-century--russian-evangelicals-stundists",
+  "field": "note",
+  "scored": true,
+  "fre": 64.709,
+  "fk": 6.718,
+  "words": 53
+ },
+ {
+  "link": "russian-church-synodal-century--russian-evangelicals-stundists--2",
+  "field": "note",
+  "scored": true,
+  "fre": 64.58423913043481,
+  "fk": 7.108043478260871,
+  "words": 49
+ },
+ {
+  "link": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+  "field": "note",
+  "scored": true,
+  "fre": 65.54557142857144,
+  "fk": 6.899428571428572,
+  "words": 58
+ }
+]

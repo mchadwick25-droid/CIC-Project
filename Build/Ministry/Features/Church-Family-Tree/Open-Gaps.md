@@ -341,3 +341,39 @@ it, never by deleting it.
 62. **"Silent since 622" is fixed (2026-11-08).** The era 5 pass removed the claim from
     `the-georgian-golden-age`; its summary now says it carries on from the Tao-Klarjeti revival.
     This closes "The Georgian Golden Age says 'silent since 622'" (2026-11-08).
+63. **Well-known facts with no vendored source, era 9 part 1 (2026-11-08).** Added to the method
+    question in "Well-known facts with no vendored source" (2026-11-07). Left standing as written: the
+    Primitive Methodists and AME Zion, the 1844 Methodist split, Keswick, Spurgeon's Tabernacle, the
+    slavery cause of the 1845 Baptist split, Landmarkism, the 1832 Stone-Campbell union, the
+    Victorian Church of England's Gorham case, Essays and Reviews and first Lambeth Conference, the
+    New Apostolic Church's size, Newman's 2019 canonization, the Quaker Nobel Prize of 1947.
+64. **Page recordings read old descriptions, era 9 part 1 (2026-11-08).** As in "Page recordings
+    read the old descriptions" (2026-11-08): four recorded pages now play a description this pass
+    rewrote: `the-haugean-awakening`, `the-reveil-and-inner-mission-awakening`,
+    `confessional-lutheran-revival-emigrations`, `russian-evangelicals-stundists`. A paid voice run,
+    for Mark.
+65. **Era 7's St Thomas entry and the Northeast India churches (2026-11-08).**
+    `st-thomas-christians-under-portuguese-pressure-d` says "the modern Kerala and Northeast India
+    churches descend from it". The northeast hill churches came from Welsh and American missions;
+    only the Mar Thoma half of `northeast-india-revivals-and-the-mar-thoma-refor` descends from the
+    St Thomas Christians. Era 7's branch draws a "continued as" link between the two. For era 7's
+    owner.
+66. **Text owners' items from era 9 part 1 (2026-11-08).** Not changed, because no vendored text
+    settles them or another entry owns them:
+    - `the-chinese-church-indigenous-and-suffering` (era 10) says its churches "owed nothing to the
+      foreign missions"; era 9 now draws a "gave rise to" link from the mission churches to it.
+    - `the-student-volunteer-movement-and-edinburgh-191` has `continuesAs` pointing to the ecumenical
+      entry; its link is "gave rise to", and it did not itself become that body.
+    - `the-sunday-school-and-bible-institute-movement` legacy: "graded" lessons of the 1870s; the 1872
+      series was uniform.
+    - `russian-evangelicals-stundists` story: the place of the 1884 Baptist meeting ("in the
+      Caucasus") is unchecked.
+    - `victorian-church-of-england` has no source list at all.
+    - `the-baptists` (era 8) legacy: Carey's society "opened the era of Protestant foreign missions";
+      Carey's own Enquiry (vendored, lines 798-799) gives the Moravians first place.
+    - `dispensational-prophecy-culture` (era 10) says it "grew out of" Brethren teaching; the era 9
+      link is "influenced".
+67. **Two possible links that no text names, era 9 part 1 (2026-11-08).** Kuyper's 1891 edition of
+    Voetius's catechism lectures (a possible Dutch Further Reformation influence on Dutch
+    neo-Calvinism) and Conybeare tracing Stundism to Spener's Pietism (lines 14615-14621). Not
+    drafted: no movement text names them.
