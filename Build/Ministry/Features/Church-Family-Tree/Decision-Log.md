@@ -511,3 +511,31 @@ built worlds, which play their own story, or pages with no recording.
 
 **Limits.** The voice cannot be confirmed from ElevenLabs' side with this key; it rests on the
 voice id in each request, the sizes, and Mark's ear on the sample.
+
+## 2026-11-08 — Whole-set rulings
+
+**Decided (Mark, one question at a time, after the whole-set review of eras 1 to 9, P2-L11).**
+Each was shown with options and a recommendation as an artifact.
+
+1. **One old account (Mark: "c for ruling 1").** A link whose only support is one 19th- or
+   early-20th-century account that states the tie is Dominant Modern Reconstruction only where a
+   modern study already cited in the repo supports the same reading; otherwise it is
+   Inferential-Thin. Options shown: Thin for all (recommended), Dominant for all, this one.
+2. **What `verified-direct` means (Mark: "a").** The quoted lines were read and match. Whether
+   they show the relationship is what the grade says. Options shown: this (recommended); the
+   Drafting Brief's old meaning, "the quote shows the relationship"; a fifth status.
+3. **A secondary work held in the Library (Mark: "a").** It may carry `file`, `lines` and a
+   verbatim `quote`, all three together, and the validator checks the quote like a primary's.
+   Options shown: this (recommended); title only, as the Drafting Brief had it; leave the mix.
+4. **Deposed by a ruler (Mark: "b").** Under the narrowed major-links test, a church head or
+   prelate deposed by any authority, church or state, counts as an institutional act, not only by
+   a council, canon, synod or law. Options shown: council or law only (recommended), this, keep
+   the split between eras 3 and 8.
+5. **The Bogomil-to-Cathar link (Mark: "a").** Keep one: Balkan Bogomilism to the Cathars.
+   `bogomils--cathars-albigensians` is retired, pointing to it. The wider overlap of the two
+   Bogomil entries stays open (Open-Gaps, "The Bogomil entries overlap", 2026-11-08).
+
+**Change order.** Rulings 1 to 3 amend the Drafting Brief
+(`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and
+`tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
+Applied as P2-L11b, data release 19.

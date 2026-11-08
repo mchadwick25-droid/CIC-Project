@@ -51,7 +51,8 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
    major by type and need nothing more. An "influenced", "argued against" or "in contact with"
    link is major only when one of its own listed sources shows an institutional act beyond the
    quarrel: a council, canon, synod or law condemning, deposing or excluding a group or its
-   teaching; a split into a separate church or body; or a rule, practice or settlement changed by
+   teaching; a church head or prelate deposed by any authority, church or state (Decision-Log
+   2026-11-08, "Whole-set rulings"); a split into a separate church or body; or a rule, practice or settlement changed by
    an authority. A teaching, text or practice merely taken up by the other side is not enough
    (change order, Decision-Log 2026-11-08). Such a
    link carries `outcome`: one plain public sentence naming that result, every fact drawn from

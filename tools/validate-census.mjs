@@ -102,8 +102,15 @@ const edgeIds = new Set();
     const st = `${tag} source[${j}]`;
     if (!SOURCE_KINDS.has(s.kind)) errs.push(`${st}: kind must be primary or secondary`);
     if (!s.work) errs.push(`${st}: no work`);
-    if (s.kind !== "primary") return;
-    for (const k of ["file", "lines", "locus", "quote", "license"]) if (!s[k]) errs.push(`${st}: primary source missing ${k}`);
+    // A secondary work held in cic/texts/ may carry file, lines and quote (Decision-Log
+    // 2026-11-08, whole-set rulings): all three together, and the quote checked like a primary's.
+    if (s.kind !== "primary") {
+      const held = ["file", "lines", "quote"].filter(k => s[k]);
+      if (!held.length) return;
+      if (held.length < 3) { errs.push(`${st}: a secondary source with a file needs file, lines and quote together`); return; }
+    } else {
+      for (const k of ["file", "lines", "locus", "quote", "license"]) if (!s[k]) errs.push(`${st}: primary source missing ${k}`);
+    }
     if (!s.file || !s.lines || !s.quote) return;
     if (!s.file.startsWith("cic/texts/")) { errs.push(`${st}: file must be under cic/texts/`); return; }
     const lines = textLines(s.file);

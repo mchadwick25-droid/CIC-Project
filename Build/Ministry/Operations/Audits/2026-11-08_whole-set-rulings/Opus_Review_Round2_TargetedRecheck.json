@@ -1,0 +1,15 @@
+{
+ "round": 2,
+ "verdict": "pass",
+ "counts": {"blocking": 0, "substantial": 0, "minor": 0, "resolved": 6, "not_resolved": 0},
+ "checked": "Targeted recheck of B1-01 to B1-06 only, against Diff_round1_revision.json and commit 8b3a235e (the revision and page rebuild, committed while this review ran; the working tree is clean). Read mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1545-1556. Counted verification_state against quote presence over all 576 edges. Scored the changed note and method paragraph with engine.m7.turn_readability.score_turn. Ran node tools/validate-census.mjs --base base_release17.json --atlas cft-website/index.html --tree cft-website/tree (0 errors, 2 old shortName warnings) and node tools/build_tree_site.mjs (1170 own files, 173 shared, 0 mismatched). Re-ran Build/tools/generate_tree_pages.mjs into scratch: tree/, method.html, data.html and about.html are identical to the committed files.",
+ "resolved": [
+  {"rid": "B1-01", "status": "resolved", "note": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity is now verified-direct. Census-wide: 525 quoted links, all verified-direct; 51 unquoted, all named-not-rechecked; 0 unverified."},
+  {"rid": "B1-02", "status": "resolved", "note": "The note now reads as required. Morris is no longer quoted as saying the Lavra was 'founded by' Phocas; the patron claim matches the repo story text. FRE 61.9, FK 7.9. The DMR grade is unchanged. Map and both tree pages carry the new note, and the old wording is gone."},
+  {"rid": "B1-03", "status": "resolved", "note": "Map and pages are rebuilt from release 18. bogomils--cathars-albigensians appears 0 times in cft-website/index.html and in cft-website/tree/*.html. The validator's --atlas/--tree checks pass. The generator output matches the committed pages. method.html now carries the ruling-4 paragraph and states 576 links."},
+  {"rid": "B1-04", "status": "resolved", "note": "A second Mouravieff entry was added: lines '1552', quote 'the future Lavra, and of all the religious houses of Russia.' It is verbatim at line 1552 (allowing for scan spacing) and passes the validator. The Hilarion entry is kept, which is the option the round-1 finding allowed. The repeated work string is accurate and does no harm."},
+  {"rid": "B1-05", "status": "resolved", "note": "tree_site_pages.json and method.html now say 'removing a bishop or other church head from office', which matches ruling 4. Paragraph FRE 65.6, FK 8.4."},
+  {"rid": "B1-06", "status": "resolved", "note": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school is now named-not-rechecked. Its only source still has no file, lines or quote, so the state is correct."}
+ ],
+ "findings": []
+}

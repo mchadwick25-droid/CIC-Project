@@ -38,7 +38,10 @@ What each grade must carry:
   highest level the vendored evidence supports and list the missing text in `wants`.
 - **Widely Accepted** — a primary source for the underlying facts, plus at least one
   `secondary` work for the consensus reading.
-- **Dominant Modern Reconstruction** — the secondary work(s) whose reconstruction it is.
+- **Dominant Modern Reconstruction** — the secondary work(s) whose reconstruction it is. A
+  single 19th- or early-20th-century account alone is Inferential-Thin; it is Dominant Modern
+  Reconstruction only where a modern study already cited in the repo supports the same reading
+  (2026-11-08, Decision-Log "Whole-set rulings").
 - **Contested** — sources for each side; name in the note what the disagreement is.
 - **Inferential-Thin** — the evidence it rests on, said plainly to be thin.
 
@@ -62,8 +65,10 @@ What each grade must carry:
 - `license`: read it from the file's header or `cic/texts/README.md`/`INTAKE.md`
   conventions; vendored texts are almost all `public-domain`. If you can't tell, write
   `"unknown"` and flag it.
-- **Secondary sources** (`"kind": "secondary"`): `work` = author, title, year; `file`,
-  `lines`, `quote` = null. **Anti-fabrication rule: cite only a secondary work that is
+- **Secondary sources** (`"kind": "secondary"`): `work` = author, title, year. When the work
+  itself is vendored under `cic/texts/`, give `file`, `lines` and a verbatim `quote` too, all
+  three together, checked like a primary's; otherwise `file`, `lines`, `quote` = null
+  (amended 2026-11-08, Decision-Log "Whole-set rulings"). **Anti-fabrication rule: cite only a secondary work that is
   already cited somewhere in this repo** (`grep -rn` across `records/`, `Build/`,
   `cic/`). Never add a page number you have not seen in the repo. If no repo-cited
   secondary work supports a Widely Accepted / DMR grade, say so in `drafter_flags`; do not
@@ -73,9 +78,10 @@ What each grade must carry:
 
 - `citation_specificity`: `A` exact passage with line locus; `B` chapter/section; `C` work
   only; `D` author only; `E` none. (Same scale as the world records.)
-- `verification_state`: `verified-direct` only if you yourself read the quoted lines in the
-  vendored file and they show the claimed relationship; `named-not-rechecked` for
-  secondary-only support; `unverified` otherwise.
+- `verification_state`: `verified-direct` if you yourself read the quoted lines in the
+  vendored file and they match; whether they show the relationship is what the grade says
+  (amended 2026-11-08, Decision-Log "Whole-set rulings"). `named-not-rechecked` for support
+  with no quote; `unverified` otherwise.
 
 ## The note (public text — this is participant-facing)
 

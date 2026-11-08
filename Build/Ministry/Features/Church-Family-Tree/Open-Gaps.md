@@ -257,6 +257,8 @@ it, never by deleting it.
 44. **The Bogomil entries overlap (2026-11-08).** `bogomils` runs from the tenth century on, and
     `balkan-bogomil-continuation` covers 1054-1300. Basil's burning (c. 1100) and the Cathar link fall
     in both. The Cathar link sits on `bogomils`, whose text names it three times. Mark's call.
+    - 2026-11-08: the Cathar link is now on `balkan-bogomil-continuation` only; the one on
+      `bogomils` is retired (Decision-Log, "Whole-set rulings"). The entries' overlap stays open.
 45. **No Melkite entry between 1009 and 1724 (2026-11-08).** The Melkite legacy says the communion
     continues, and the only later entry is the 1724 split, so its "gave rise to" link spans seven
     centuries (the note says so). Mark's call.
@@ -650,6 +652,8 @@ it, never by deleting it.
     deposed by a ruler with no council named is major in era 3, minor in era 8. (d) The Bogomil-to-Cathar
     link is drawn from both Bogomil entries (see "The Bogomil entries overlap", 2026-11-08). Audit:
     `Build/Ministry/Operations/Audits/2026-11-08_links-whole-set-review/`.
+    - 2026-11-08: closed. Mark ruled on all four, as five rulings (Decision-Log, "Whole-set
+      rulings"); applied in data release 19. Audit: `Build/Ministry/Operations/Audits/2026-11-08_whole-set-rulings/`.
 115. **Census owner's items from the whole-set review (2026-11-08).** Movement fields, not links:
     - Six `continuesAs` fields name a successor the links type as "influenced" or "gave rise to"
       (Carolingian to the Gregorian papacy, Cyrillo-Methodian to Kievan Rus', Athonite to the
