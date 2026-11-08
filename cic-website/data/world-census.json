@@ -9324,7 +9324,7 @@
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "named-not-rechecked"
+   "verification_state": "verified-direct"
   },
   {
    "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
@@ -9341,6 +9341,15 @@
      "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
      "lines": "1540-1542",
      "quote": "The Metropolitan Hilarion when he was as yet only priest of the Church of the holy Apostles in Berestoff,",
+     "locus": "ch. II, file lines 1497-1498, 1541-1566"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1552",
+     "quote": "the future Lavra, and of all the religious houses of Russia.",
      "locus": "ch. II, file lines 1497-1498, 1541-1566"
     },
     {
@@ -10946,7 +10955,7 @@
    "to": "athonite-and-comnenian-byzantine-monasticism",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Robert Curzon was an English visitor to Athos in the 1830s. He cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That report is late and secondhand. But Rosemary Morris, a modern scholar, says the same in a book of 1995.",
+   "note": "Robert Curzon was an English visitor to Athos in the 1830s. He cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That report is late and secondhand. But a modern study by Rosemary Morris, from 1995, tells how Phocas paid for the house that the monk Athanasios built.",
    "sources": [
     {
      "kind": "secondary",
@@ -22792,7 +22801,7 @@
     }
    ],
    "citation_specificity": "C",
-   "verification_state": "unverified"
+   "verification_state": "named-not-rechecked"
   },
   {
    "id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",

@@ -1,0 +1,802 @@
+{
+ "ruling1": [
+  {
+   "id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "class_fit": "yes: one secondary only (Mouravieff 1838, English 1842), no primary on the link, no modern study on it.",
+   "modern_study_found": "none for this reading. Franklin and Shepard, The Emergence of Rus 750-1200 (1996), is cited on the kievan-rus-christianity movement only as 'the standard English history of the period' and on two of its stories (Boris and Gleb; Vladimir's charity), and Shepard's Cambridge History chapter is a 'reference' on the movement. None is cited for Vladimir's baptism at Cherson, the Greek clergy or Theopemptus (cic-website/data/world-census.json, movement kievan-rus-christianity, sources and documentedStories; copied at Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html).",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+     "field": "note",
+     "new": "Mouravieff's history of the Russian church tells how Prince Vladimir was baptized at Cherson, a city that was then the emperors'. He went home to Kyiv with Greek clergy. Later the patriarch sent Theopemptus to lead the church there. This rests on that one nineteenth-century history."
+    }
+   ],
+   "readability": {
+    "byzantine-imperial-church-macedonian--kievan-rus-christianity": {
+     "fre": 67.1,
+     "fk": 6.8,
+     "passed": true,
+     "words": 46,
+     "longest_sentence_words": 21,
+     "sentences": 4
+    }
+   }
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "class_fit": "yes: one secondary only (Mouravieff, drawing on Nestor); Nestor's Life of Theodosius is not vendored.",
+   "modern_study_found": "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (Longman, 1996), ch. 7, cited 'On the Caves Monastery and its literature' for the story 'The Boy Who Wanted to Bake the Bread', whose text says Theodosius's monastery gave Rus' monasticism 'a rule from Constantinople' (cic-website/data/world-census.json, movement kievan-rus-christianity-1054-1240, documentedStories[0]; same text in Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html). No page number seen; none added.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), ch. on the first monasteries",
+       "file": null,
+       "lines": null,
+       "quote": null,
+       "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1599-1616"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (Longman, 1996), ch. 7"
+      }
+     ]
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Grade unchanged, so the note is left as it is; it already names Mouravieff and Nestor and makes no 'one account' claim."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "class_fit": "yes: one secondary only (Mouravieff, entered twice); no primary.",
+   "modern_study_found": "none for the Athos reading. Franklin and Shepard ch. 7 is cited on the Caves Monastery story, but that story names Anthony's cave only and says nothing of Athos (movement kievan-rus-christianity-1054-1240, documentedStories[0]). Its 'rule from Constantinople' belongs to the Stoudios link, not this one.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+     "field": "note",
+     "new": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. It names no earlier witness, so the tie to Athos rests on this one account."
+    },
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+     "field": "verification_state",
+     "new": "named-not-rechecked"
+    }
+   ],
+   "readability": {
+    "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240": {
+     "fre": 65.7,
+     "fk": 6.5,
+     "passed": true,
+     "words": 59,
+     "longest_sentence_words": 17,
+     "sentences": 6
+    }
+   },
+   "notes": "verification_state to named-not-rechecked because no source on the link carries a quote (the census copy). Drop this edit if Mark's ruling on GRD-01 restores the era-5 file/lines/quotes."
+  },
+  {
+   "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "class_fit": "yes: one secondary only (Mouravieff, entered twice); no primary. Type already 'in contact with' (GRD-05 applied).",
+   "modern_study_found": "none. No repo-cited modern study ties the appointment of the Rus' metropolitans to Constantinople; Franklin and Shepard are cited on the Rus' movements for other matters only.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+     "field": "note",
+     "new": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it. This rests on Mouravieff's one account."
+    },
+    {
+     "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+     "field": "verification_state",
+     "new": "named-not-rechecked"
+    }
+   ],
+   "readability": {
+    "byzantine-church-after-1054--kievan-rus-christianity-1054-1240": {
+     "fre": 64.7,
+     "fk": 7.6,
+     "passed": true,
+     "words": 55,
+     "longest_sentence_words": 22,
+     "sentences": 4
+    }
+   },
+   "notes": "verification_state to named-not-rechecked because no source on the link carries a quote (the census copy). Drop this edit if Mark's ruling on GRD-01 restores the era-5 file/lines/quotes. The opening sentence ('a province of the church of Constantinople') is the drafter's framing, not Mouravieff's word (his lines 1796-1806 say the metropolitans were 'always appointed at Constantinople' and 'depended in spiritual matters upon the patriarch'); kept because it is the existing note's fact and Mouravieff supports its substance."
+  },
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "class_fit": "yes in substance: two later secondaries, Mouravieff (1838) and Herberstein (1549, a sixteenth-century retelling, not nineteenth-century), no primary, no modern study. Herberstein makes it two accounts, not one; it is in Mark's list, so treated as the class.",
+   "modern_study_found": "none for the continuity reading. Franklin and Shepard (1996) is cited on both Rus' movements, and its title spans 750-1200, but the repo cites it for the period generally and for the Caves Monastery, not for the claim that the church before and after 1054 is one community.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+     "field": "note",
+     "new": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. Mouravieff, a Russian church historian writing in 1838, calls that cave the seed of the Caves Monastery and of every religious house in Russia. Herberstein retold the Rus' annals in 1549. He says Russia has kept the faith of Christ since Vladimir's baptism. The claim of one unbroken church rests on these two later accounts."
+    }
+   ],
+   "readability": {
+    "kievan-rus-christianity--kievan-rus-christianity-1054-1240": {
+     "fre": 68.8,
+     "fk": 7.2,
+     "passed": true,
+     "words": 75,
+     "longest_sentence_words": 24,
+     "sentences": 5
+    }
+   },
+   "notes": "Borderline: a single modern history covering both periods (Franklin and Shepard, cited on both movements) could be read as supporting continuity. Strict reading applied; see doubts."
+  },
+  {
+   "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "class_fit": "yes: three quotes, all from Brosset's own 1849 introduction (a secondary); the Georgian chronicle text itself is not in the vendored file (it holds the introduction, documents and index).",
+   "modern_study_found": "none for the succession reading. Rapp, Studies in Medieval Georgian Historiography (2003), is cited 'On Merchule's Life and the Tao-Klarjeti revival' (ninth-century Grigol), and Eastmond (1998) on David IV and Tamar; neither for David of Tao's adoption of Bagrat or the 1008 union.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+     "field": "note",
+     "new": "The historian Marie-Félicité Brosset, writing in 1849, tells how David, the ruler of Tao, adopted the young Bagrat. By 1008 Bagrat ruled a single Georgian kingdom. Brosset also shows the head of the Georgian church passing from Suimon to Melkisedek in Bagrat's reign. This rests on Brosset's one account."
+    }
+   ],
+   "readability": {
+    "georgian-revival-tao-klarjeti--the-georgian-golden-age": {
+     "fre": 64.9,
+     "fk": 7.2,
+     "passed": true,
+     "words": 49,
+     "longest_sentence_words": 18,
+     "sentences": 4
+    }
+   }
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "class_fit": "yes: two quotes from Brosset's 1849 introduction only; no primary on the link (the Life of John and Euthymius is not vendored).",
+   "modern_study_found": "Rosemary Morris, Monks and Laymen in Byzantium, 843–1118 (Cambridge, 1995), cited 'On Tornike, Iviron and lay wealth in Athonite foundations' for the story 'The Monk Who Went Back to War to Build a Monastery' (Tornike of Tao and John the Iberian found Iviron on Athos, 980-983) (cic-website/data/world-census.json, movement georgian-revival-tao-klarjeti, documentedStories; also cited on athonite-and-comnenian-byzantine-monasticism's sources). No page number seen; none added.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (St Petersburg, 1849)",
+       "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+       "lines": "2896-2898",
+       "quote": "enfin l'histoire de S. Ewthym et celle de la fondation du couvent Ibérien du mont Athos, vers l'an 976, nous servent de points de repère;",
+       "locus": "Brosset 1849, Introduction, p. LVIII",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+       "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+       "lines": "2965",
+       "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa-",
+       "locus": "Brosset 1849, Introduction, p. LX",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Rosemary Morris, Monks and Laymen in Byzantium, 843–1118 (Cambridge, 1995)"
+      }
+     ]
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Grade unchanged; note left as it is (it already gives the other dating, 980-983, which matches the story)."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "class_fit": "yes: one secondary only (Brosset 1849 introduction); no primary.",
+   "modern_study_found": "none for the translation reading. Morris (1995) is cited for Tornike, Iviron's founding and lay wealth, not for the translators under Bagrat III. Grdzelidze's Georgian Monks on Mount Athos (2009) is a translation of the Lives (typed primary), not a study.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+     "field": "note",
+     "new": "Marie-Félicité Brosset edited the Georgian chronicles. In 1849 he wrote that under King Bagrat III, the Georgian monastery on Athos was home to learned translators. They put scripture and the best Greek books of theology into Georgian. This rests on his one account."
+    },
+    {
+     "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+     "field": "verification_state",
+     "new": "named-not-rechecked"
+    }
+   ],
+   "readability": {
+    "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age": {
+     "fre": 66.8,
+     "fk": 6.7,
+     "passed": true,
+     "words": 43,
+     "longest_sentence_words": 19,
+     "sentences": 4
+    }
+   },
+   "notes": "verification_state to named-not-rechecked because no source on the link carries a quote (the census copy). Drop this edit if Mark's ruling on GRD-01 restores the era-5 file/lines/quotes. Old note called Brosset 1849 'that one modern summary'; replaced, since under the ruling 1849 is not modern."
+  },
+  {
+   "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "class_fit": "yes: Rački 1869 only (entered three times), retelling Anna Komnene; the Alexiad is not vendored.",
+   "modern_study_found": "Dimitri Obolensky, The Bogomils (Cambridge, 1948), ch. 5, cited 'On Basil and the Constantinopolitan Bogomils' for the story 'Basil the Physician and the Two Pyres' (Alexios I has Basil burned, c. 1111) (cic-website/data/world-census.json, movement balkan-bogomil-continuation, documentedStories; Obolensky 1948 is also on three other links). No page number seen; none added.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15"
+      },
+      {
+       "kind": "secondary",
+       "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15"
+      },
+      {
+       "kind": "secondary",
+       "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Dimitri Obolensky, The Bogomils (Cambridge, 1948), ch. 5"
+      }
+     ]
+    },
+    {
+     "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+     "field": "note",
+     "new": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. Franjo Rački told it again in 1869. Dimitri Obolensky told it in his 1948 book on the group."
+    }
+   ],
+   "readability": {
+    "byzantine-church-after-1054--balkan-bogomil-continuation": {
+     "fre": 60.2,
+     "fk": 7.8,
+     "passed": true,
+     "words": 73,
+     "longest_sentence_words": 17,
+     "sentences": 6
+    }
+   },
+   "notes": "Grade unchanged, but the old last sentence ('This rests on how Franjo Rački told it in 1869') is the thin-grade wording the ruling rules out for a DMR link, so it is replaced by naming both. Existing outcome kept as it is."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "class_fit": "yes: Lutzow 1910 only; the Lives of Constantine and Methodius are not vendored.",
+   "modern_study_found": "Francis Dvornik, Byzantine Missions among the Slavs (1970), cited on the cyrillo-methodian-slavic-christianity movement and its story 'The Argument in Venice About Three Languages' as 'The classic study of the mission in its Byzantine and papal politics'; A. P. Vlasto, The Entry of the Slavs into Christendom (1970), is cited there too (cic-website/data/world-census.json, movement cyrillo-methodian-slavic-christianity). No page number seen; none added.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Count Francis Lutzow, Bohemia: An Historical Sketch (Everyman, 1910; printing of 1920), ch. 1",
+       "file": null,
+       "lines": null,
+       "quote": null,
+       "locus": "vendored: cic/texts/lutzow_bohemia-historical-sketch_1920.txt lines 1296-1330"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Francis Dvornik, Byzantine Missions among the Slavs (1970)"
+      }
+     ]
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Grade unchanged; note left as it is."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "class_fit": "yes: Curzon 1849 only, reporting a 1701 account; no primary (the Lavra typika and Lives of Athanasios are not vendored).",
+   "modern_study_found": "Rosemary Morris, Monks and Laymen in Byzantium, 843-1118 (CUP, 1995), cited as the secondary for the story 'The Founder Killed by His Own Church', whose text says Athanasios was 'persuaded by his friend the general Nikephoros Phokas to build a communal monastery' and, when Phokas became emperor, 'accepted his gold to do it'; the citation's note reads 'patrons, property, holy men' (cic-website/data/world-census.json, movement athonite-and-comnenian-byzantine-monasticism, sources and documentedStories). No page number seen; none added.",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+     "field": "confidence",
+     "new": "Dominant Modern Reconstruction"
+    },
+    {
+     "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "work": "Robert Curzon, Visits to Monasteries in the Levant (1849), chapter on the Great Lavra"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Rosemary Morris, Monks and Laymen in Byzantium, 843-1118 (CUP, 1995)"
+      }
+     ]
+    },
+    {
+     "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+     "field": "note",
+     "new": "Robert Curzon was an English visitor to Athos in the 1830s. He cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That report is late and secondhand. But Rosemary Morris, a modern scholar, says the same in a book of 1995."
+    },
+    {
+     "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+     "field": "verification_state",
+     "new": "named-not-rechecked"
+    }
+   ],
+   "readability": {
+    "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism": {
+     "fre": 63.8,
+     "fk": 7.2,
+     "passed": true,
+     "words": 47,
+     "longest_sentence_words": 16,
+     "sentences": 4
+    }
+   },
+   "notes": "verification_state to named-not-rechecked because no source on the link carries a quote (the census copy). Drop this edit if Mark's ruling on GRD-01 restores the era-5 file/lines/quotes. The note's first sentence is split in two to meet the reading target; no fact changed."
+  },
+  {
+   "id": "late-anglo-saxon-christianity--scandinavian-conversion-christianity",
+   "class_fit": "yes: Anjou 1850 only; no primary (Adam of Bremen not vendored).",
+   "modern_study_found": "none. Winroth (2012) is cited on the Birka mission and Rimbert (Frankish, not English); Abrams's Cambridge History chapter is a general 'reference'. The whole-set review's wants list already records 'Repo-cited modern study of the English mission to Scandinavia ... (none found)' (Build/Ministry/Operations/Audits/2026-11-08_links-whole-set-review/README.md line 589).",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Inferential-Thin",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "Stays Inferential-Thin; note already says it rests on one later account."
+  },
+  {
+   "id": "muscovite-monastic-christianity--the-old-believers",
+   "class_fit": "yes: Conybeare 1921 only; no primary.",
+   "modern_study_found": "none. Crummey (1970) and Michels (1999) are cited on the-old-believers for Avvakum, Solovki and the burnings, not for Joseph of Volokolamsk's part; no Build/ or cic/ file ties a modern study to that reading.",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Inferential-Thin",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "Stays Inferential-Thin; note unchanged."
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
+   "class_fit": "yes: Rees 1818 only; no primary.",
+   "modern_study_found": "none. Wilbur (1945) is cited on the anti-Trinitarian movement and for Ferenc Dávid (ch. 8), not for the exiles in Holland; Israel (1995) and Hoenderdaal and Luca (1982) on the Remonstrants are cited for toleration and the Brotherhood's founding. The era-7 and whole-set wants lists record the gap (Build/Ministry/Operations/Audits/2026-11-08_links-whole-set-review/README.md line 524).",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Inferential-Thin",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "Stays Inferential-Thin; note unchanged."
+  }
+ ],
+ "ruling1_other_links": [
+  {
+   "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "class_fit": "partly: one nineteenth-century secondary only (Blackmore's 1842 translator's note, a diocese list), no primary, no modern study on the link; but this source does not itself state the tie to the 1794 mission, as its note says.",
+   "modern_study_found": "Michael Oleksa, Orthodox Alaska: A Theology of Mission (Crestwood, NY, 1992), cited 'Herman and the mission from the Native side', and Lydia T. Black, Russians in Alaska, 1732–1867 (Fairbanks, 2004), cited 'The company, the mission and the Natives from the archives', both for the story 'Do You Love God?', whose text opens with 'the ten monks who had come from Valaam to Kodiak in 1794' (cic-website/data/world-census.json, movement alaskan-mission-herman-veniaminov, documentedStories). No page numbers seen; none added.",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+     "field": "confidence",
+     "new": "Dominant Modern Reconstruction"
+    },
+    {
+     "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Translator's bracketed note to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+       "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+       "lines": "19193",
+       "locus": "Notes, list of dioceses",
+       "quote": "The Aleoutine Islands, Kamschatka, and Russian America ;",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Oleksa, Orthodox Alaska: A Theology of Mission (Crestwood, NY, 1992)"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Lydia T. Black, Russians in Alaska, 1732–1867 (Fairbanks, 2004)"
+      }
+     ]
+    },
+    {
+     "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+     "field": "note",
+     "new": "By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. An English book of that year lists it among the dioceses set up since 1830. That shows the Alaskan church as part of the Russian church. The list says nothing of the first mission of 1794, or of Herman. Modern histories by Michael Oleksa and Lydia Black trace that mission to ten monks of Valaam, in Russia, who reached Kodiak in 1794."
+    }
+   ],
+   "readability": {
+    "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov": {
+     "fre": 69.5,
+     "fk": 7.2,
+     "passed": true,
+     "words": 78,
+     "longest_sentence_words": 23,
+     "sentences": 5
+    }
+   },
+   "notes": "Graded Thin while a repo-cited modern study supports the reading, so inconsistent with the rule in the upward direction. The old last clause 'so the tie is thin' is dropped; one sentence added naming the modern histories. 'Valaam, in Russia' glosses the place; the story's own text has Yanovsky return 'to Russia' and write to the abbot of Valaam."
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "class_fit": "yes: Hunter Blair 1907 only; no primary.",
+   "modern_study_found": "none for this reading. Burton and Kerr, The Cistercians in the Middle Ages (2011), is cited on cistercian-monasticism as the 'current standard survey', and for a Rhineland story; not for Cîteaux's aim to keep the Rule more plainly.",
+   "old_confidence": "Inferential-Thin",
+   "new_confidence": "Inferential-Thin",
+   "edits": [
+    {
+     "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+     "field": "verification_state",
+     "new": "named-not-rechecked"
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Grade consistent with the rule; only the verification state is touched. verification_state to named-not-rechecked because no source on the link carries a quote (the census copy). Drop this edit if Mark's ruling on GRD-01 restores the era-5 file/lines/quotes."
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Hunter Blair 1907, Gasquet 1925), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "Rosenwein, Rhinoceros Bound (1982), is on cluniac-reform-monasticism as a study of Cluniac ritual; the whole-set wants list names it only as a work that 'would test' Cluny's origins (README line 598). Not cited for this reading.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Barmby 1895; Sweet's 1871 EETS edition, which is really an edition of Alfred's own text, not vendored), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "none found.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "class_fit": "no (outside the ruling's words): three pre-modern secondaries (Mouravieff 1838, Pinkerton 1814, Herberstein 1549), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "Vlasto (1970) is on the Cyrillo-Methodian movement as a survey of 'Slavic Christianization'; not cited for the Rus' reception of the books. None found for this reading.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati--2",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Catholic Encyclopedia 1910; Giussano's Life of Borromeo, English 1884, citing Tiraboschi 1766), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "none found.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-old-believers--3",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Conybeare 1921; Blackmore's 1842 notes), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "none found for Edinoverie.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Mouravieff 1842; Pelesz 1880), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "none for the 1686 change of jurisdiction; Ševčenko, Charipova and Plokhy are cited on the Mohyla movement for other matters.",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [],
+   "readability": "note unchanged",
+   "notes": "No edit: the ruling covers one account; whether it reaches two or more pre-1930 accounts is for Mark (see doubts). "
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "class_fit": "no (outside the ruling's words): two pre-1930 secondaries (Harasiewicz 1862; Pelesz 1880), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "Barbara Skinner, The Western Front of the Eastern Church (DeKalb, IL, 2009), cited 'The reunion campaign of 1794–1796 from the Russian and Uniate sources' for the story 'The Ukase of 1794' (movement ruthenian-uniate-18th-century, documentedStories).",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+       "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+       "lines": "38950-38952",
+       "locus": "Annales, under Catherine II",
+       "quote": "praefatus Árchieppus \"Victor sub die 26. Maji 1794. in Sluck impressam publicabat encyclieam epistolam ad univer- .gum clerum et populum unitum directam,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+       "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+       "lines": "38965-38967",
+       "locus": "Annales, under Catherine II",
+       "quote": "ac ubi vel minima pars communita- tis ad id prona inveniebatur, illico Ecclesiani parochialem recipiebant, illique praeficiebant presbyterum nonunitum,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+       "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+       "lines": "41274-41275",
+       "locus": "vol. 2, the union under Catherine II",
+       "quote": "Im Jahre 1794 stellte der Synod dem Erzbischof von Minsk, Victor Sadkowski, Priester zur Verfügung",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+       "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+       "lines": "41250-41254",
+       "locus": "vol. 2, the union under Catherine II",
+       "quote": "Jahre 1795 hat Catharina in mehreren Ukasen befohlen, dass alle Jene, deren Vorfahren erstnach dem Jahre 1595, also vor 200 Jahren, die Union angenommen hatten, zum Schisma zurückkehren.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Barbara Skinner, The Western Front of the Eastern Church (DeKalb, IL, 2009)"
+      }
+     ]
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Optional: adding the repo-cited modern study makes the DMR grade rest on a modern work, as the ruling asks of the one-account class. "
+  },
+  {
+   "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+   "class_fit": "no (outside the ruling's words): three pre-1930 secondaries (Chamich 1827, Issaverdens 1875, Ormanian 1912), not one. DMR with no modern study on the link, the same weakness GRD-04 names.",
+   "modern_study_found": "Charles A. Frazee, Catholics and Sultans (Cambridge, 1983), cited 'with the Avedik affair and Gomidas' for the story 'The Priest Gomidas at Parmakkapı' (movement armenian-christianity-era-8, documentedStories).",
+   "old_confidence": "Dominant Modern Reconstruction",
+   "new_confidence": "Dominant Modern Reconstruction",
+   "edits": [
+    {
+     "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21303-21310",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "having presumed to levy a fine without cause upon an Armenian attached to the suite of the French ambassador, the latter complained | of ‘him to the government.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21311-21314",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "thirty of the most considerable amongst the Armenians preferred a complaint to the Vizier, ‘charging Avietick with an abuse of power to an extraordinary extent.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21314-21319",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "The Vizier upon these two complaints summoned the patriarch before him, and asking him how he durst presume to annoy the French ambassador by persecuting one of his suite, ordered him to be bastinadoed, then to be stripped of his patriarchal robes,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+       "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+       "lines": "10006-10009",
+       "locus": "pp. 270-271, on the patriarch Avedik",
+       "quote": "ordered him to be bastinadoed, then to be stripped of his patriarchal robes and to be banished to the island of Tenedos.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+       "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+       "lines": "4473-4475",
+       "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 85",
+       "quote": "The Catholics, in their turn, took advantage of the influence of the French ambassadors to coerce the patriarchate.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Charles A. Frazee, Catholics and Sultans: The Church and the Ottoman Empire, 1453–1923 (Cambridge, 1983)"
+      }
+     ]
+    }
+   ],
+   "readability": "note unchanged",
+   "notes": "Optional: adding the repo-cited modern study makes the DMR grade rest on a modern work, as the ruling asks of the one-account class. "
+  }
+ ],
+ "ruling4": [
+  {
+   "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+   "edits": [
+    {
+     "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+     "field": "outcome",
+     "new": "The French envoy and thirty leading Armenians complained of the patriarch, Avedik. So the vizier had him beaten, stripped of his robes and sent off to an island."
+    }
+   ],
+   "type_check": "argued against (one of the three judged types); no outcome now.",
+   "evidence": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt:21305-21319 (on the link as its sources 1-3): 'upon an Armenian attached to the suite of | the French ambassador, the latter complained | of ‘him to the government. At this juncture | thirty of the most considerable amongst the | Armenians preferred a complaint to the Vizier, ... The Vizier upon | these two complaints summoned the patriarch | before him, ... ordered him to be bastinadoed, | then to be stripped of his patriarchal robes,' and 21326 'and transported to the island of Teriedos.'; cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:10006-10009 (on the link): 'ordered him to be bastinadoed, then to be stripped of his patriarchal robes and to be banished to the island of Tenedos.'",
+   "readability": {
+    "fre": 62.7,
+    "fk": 8.0,
+    "passed": true,
+    "words": 28,
+    "longest_sentence_words": 16,
+    "sentences": 2
+   },
+   "notes": "No new source needed: every fact is in sources already on the link (Chamich 21303-21319, Issaverdens 10006-10009). Tie to the other side: Ormanian on the link (4473-4475) says the Catholics used the French ambassadors to coerce the patriarchate. This deposition was not reversed: Issaverdens 10009-10021 has the French seize him on the way and hold him in Paris until he died; Chamich 21326-21336 has him die a Capuchin at Marseilles. (An earlier removal of Avedik was reversed, Issaverdens 9975-9978, but that is not the act in the outcome.) 'sent off to an island' follows the note's own wording; 'Tenedos' was dropped only to meet Reading Ease 60."
+  }
+ ],
+ "ruling4_rejected": [
+  {
+   "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "why": "Hilary of Poitiers and the opposing bishops were exiled under the emperor (sources on the link, 7773-7775 and 9519-9523), so the authority test is now met. But P2-ML demoted it for a different reason that ruling 4 does not touch: the same passage says the emperor later admitted his error and Hilary returned ('Ruling: exile soon reversed', 2026-11-08_major-links/Final.json). Left minor."
+  },
+  {
+   "id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "why": "Gregory of Nyssa expelled from his see and a rival put in (Basil, 40975-40976). Demoted in P2-ML as 'exile soon reversed' and because Basil names no agent, the Homoian identity resting on the 1894 editors. Ruling 4 removes only the 'no council' objection; the reversal ruling still stands. Left minor."
+  },
+  {
+   "id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "why": "The Greek patriarch Athanasius thrown out of Antioch at the prince's order (Michael the Syrian, 46510-46516). Demoted in P2-ML as 'soon reversed' (the see went back to where it stood); the source also has him dying as he was expelled. Not an authority-type question. Left minor."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "why": "Aetius suspended, but the same lines say Leontius kept favoring him ('soon reversed'); Aetius was a deacon, not a church head or prelate."
+  },
+  {
+   "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "why": "The cited lines show questioning at Aquileia and Ambrose's sermon line 'Auxentius is cast out', a declaration, not a removal carried out. The Aquileia sentence deposing Palladius is a council act already carried as major on the Aquileian link (P2-ML ruling on duplicates)."
+  },
+  {
+   "id": "antiochene-church-third-century--roman-church-third-century",
+   "why": "Paul of Samosata's deposition is the Antiochene synod's act, carried on the Anatolian link; this link is the synod's letter to Rome (P2-ML duplicates ruling)."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "why": "Origen's deposition: Origen was a priest and teacher, not a church head or prelate, and the act belongs to Demetrius's third-century see, not the later Coptic side."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+   "why": "The 754 council cursed John of Damascus, a monk-priest, not a prelate; P2-ML treats it as a duplicate of the curse on the iconophile link."
+  },
+  {
+   "id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+   "why": "Hilary's exile is mentioned as his past, imposed by neither side of this link (Gregory of Tours on Hilary's help to Clovis)."
+  },
+  {
+   "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "why": "Hilary's return from exile is a date marker; the exile is not by the other side of the link."
+  },
+  {
+   "id": "desert-monasticism--hieronymian-ascetic-literary",
+   "why": "Athanasius 'in exile from Alexandria' is background to Marcella's hearing of Antony; neither side of the link exiled him."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+   "why": "The Admonition's authors were imprisoned in 1572, but they were ministers, not church heads or prelates."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes",
+   "why": "Familists imprisoned by the bishop of Norwich: lay members, not prelates."
+  },
+  {
+   "id": "puritanism--the-methodist-revival",
+   "why": "Wesley on the ejection of Puritan ministers: not prelates, and not an act of the other side of the link."
+  },
+  {
+   "id": "the-old-believers--russian-church-nikon-to-holy-synod",
+   "why": "Avvakum was an archpriest, not a prelate, and the link runs from the Old Believers as critics; no deposition by the Old Believers is shown."
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
+   "why": "Poland's 1658 expulsion of the Brethren is a group's exclusion by a third party (the Polish state), not by the Remonstrant side, and no prelate is involved."
+  },
+  {
+   "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "why": "Origen 'removed from Alexandria to Caesarea' means he moved; no deposition is shown in the link's sources."
+  }
+ ],
+ "doubts": [
+  "Test applied for 'a modern study already cited in the repo supports the same reading': the repo must cite the study for that reading, either on a link, or on a movement or story whose own text states the same tie, with the citation's note naming the topic. A bare listing of a standard history on a movement was not counted. On that test the Kievan links byzantine-imperial-church-macedonian--kievan-rus-christianity and kievan-rus-christianity--kievan-rus-christianity-1054-1240 go Thin, though Franklin and Shepard (1996) and Shepard's Cambridge History chapter are cited on the Rus' movements generally. If Mark reads 'supports the same reading' to include a movement-level standard history, those two (and possibly byzantine-church-after-1054--kievan-rus-christianity-1054-1240) would stay DMR with Franklin and Shepard added.",
+  "Three upward or confirming finds rest on story-level citations whose notes are topical, not page-level: Morris 1995 for the Lavra's founding by Phokas ('patrons, property, holy men'), Franklin and Shepard ch. 7 for the Studite rule at Kyiv ('On the Caves Monastery'), and Oleksa and Black for the 1794 Alaska mission. I have not seen these books; they are cited, as the brief allows, from the repo's own descriptions. The secondary entries carry no page or chapter beyond what the repo gives.",
+  "Result for Mark's 14: 6 move DMR to Thin (byzantine-imperial-church-macedonian--kievan-rus-christianity; athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240; byzantine-church-after-1054--kievan-rus-christianity-1054-1240; kievan-rus-christianity--kievan-rus-christianity-1054-1240; georgian-revival-tao-klarjeti--the-georgian-golden-age; athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age); 1 moves Thin to DMR (Curzon, with Morris 1995); 4 stay DMR with a repo-cited modern study added (Stoudios rule at Kyiv, Iviron, Basil the Bogomil, the Moravian mission); 3 stay Thin (Anjou, Conybeare, Rees).",
+  "The verification_state edits to named-not-rechecked (four of the 14, plus early-benedictine--cistercian) follow the instruction that a DMR or Thin link with no quote is named-not-rechecked. All five are in GRD-01, still held for Mark: if GRD-01 restores the era-5 file/lines/quotes, these edits should be dropped and verified-direct kept. citation_specificity A on the same links is also GRD-01's question and is not touched here.",
+  "Sources edits copy the census entries exactly, including the stripped duplicate entries on the era-5 links (e.g. two identical Mouravieff entries); if GRD-01's restored entries are applied first, append the new secondary to those instead.",
+  "Neighbouring class not covered by the ruling's words: eight DMR links rest on two or three pre-1930 secondaries and no modern study (listed in ruling1_other_links with class_fit 'no'). For two of them a repo-cited modern study exists (Skinner 2009 for the 1794 Ruthenian campaign; Frazee 1983 for the Avedik affair) and an optional add is given. The other six (Cluny, Alfred's Pastoral Care, Cyril-Methodian books in Rus', Humiliati, Edinoverie, Kyiv 1686) have none in the repo; if Mark extends the rule to them, they would go Thin. Not changed here.",
+  "kievan-rus-christianity--kievan-rus-christianity-1054-1240 is a 'continued as' period split of the same church; grading its continuity Inferential-Thin is what the rule gives on the repo's evidence, though the continuity itself is not in doubt among historians. Flagged so Mark can see the effect of option C on a period-split link.",
+  "Ruling 4 outcome drops 'Tenedos' (Reading Ease fell to 58.4 with it) and says 'sent off to an island', the note's own phrase. The version with Tenedos was 'The French envoy and thirty leading Armenians complained of Avedik, the patriarch. So the vizier had him beaten, stripped of his robes and sent off to Tenedos.' (FRE 58.4, FK 8.5).",
+  "Ruling 4 sweep: three judged-type links show a bishop exiled or expelled by a ruler or official (Hilary, Gregory of Nyssa, Athanasius of Antioch). All three were already demoted in P2-ML under the separate 'soon reversed' ruling, which ruling 4 does not change, so they stay minor. If Mark meant ruling 4 to override 'soon reversed' too, Hilary's link would be the clearest candidate (an emperor's exile of bishops, shown at 9519-9523).",
+  "Sweep limits: the scan read every note and every source quote and work string of the 1-9 judged-type links without outcome, for deposition, removal and exile words in English, Latin, French, German and Russian, plus the eras 1-9 drafting and review records' reasons. A deposition shown only in a source's surrounding lines, not its quote or the note, would be missed."
+ ]
+}
