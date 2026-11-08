@@ -758,3 +758,13 @@ it, never by deleting it.
 131. **An earlier date for the IX.54 statement of faith (2026-11-08).** The only copy seen is
     Citygate Network's live page, undated, earliest capture 2025. The 2012 capture of
     agrm.org/agrm/Statement_of_Faith.asp, contents unseen, is the lead for an earlier date.
+132. **The wrong-story playback in entry 126 is closed by the map's fingerprint check (2026-11-08).**
+    The map now plays a documented-story recording only when the SHA-256 fingerprint of the story
+    text it shows matches the manifest's `hash`, using the same fingerprint as the generator
+    (commit "Map: play a documented-story recording only when its fingerprint matches the story
+    text shown"). The two shifted recordings in entry 126 are hidden, not misplayed. Still open:
+    264 story recordings and 36 tree recordings no longer match their text and stay hidden until
+    re-voiced. About 242 of the story recordings were already mismatched before this work, and the
+    live site, which lacks this check, may still be playing them under changed text until this
+    reaches `live`. Re-voicing is a paid batch: sample first, Mark's approval by ear. Owner: Mark,
+    with the narration thread.
