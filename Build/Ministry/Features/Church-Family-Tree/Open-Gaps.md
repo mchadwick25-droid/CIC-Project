@@ -711,3 +711,30 @@ it, never by deleting it.
     study is cited in the repo for their reading (Decision-Log, "Dominant links on two or three old
     accounts"). Any of them can go back to Dominant Modern Reconstruction once its study is read and
     cited. The list, with the study each needs: `Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md`.
+123. **IX.16 still describes Iglesia ni Cristo after the split (2026-11-08).** Data release 21 adds
+    `iglesia-ni-cristo` (IX.51) under G-14, but the era 10 edits carry no IX.16 text that takes
+    Iglesia ni Cristo out. Its name, shortName ("Iglesia ni Cristo"), teaser, why, longDescription,
+    floorNote, legacy, voices and first source still name it, and its statusDescription still calls
+    the split "a real, open question, not yet acted on". The three-body text is drafted and reviewed
+    in P2-E10b. IX.16's id stays as published.
+124. **Iglesia ni Cristo row: fields not in the draft (2026-11-08).** D-E1 drafted no `placeLabel`,
+    `modernCountries`, `regions`, `sources`, `longDescription`, `teaser`, `voices`, `legacy` or
+    `documentedStories`. Release 21 takes each from IX.16's own copy: its Philippines place and
+    country, "Greater Asia", its Iglesia ni Cristo source and "CHC vol. 9", its two Iglesia ni Cristo
+    voices, D-E1's `why` as the description, its legacy sentences on the successions and counts, and
+    a teaser cut from its teaser's words. The row still needs one link toward Philippine Catholicism
+    (VIII.39), for P2-L10. For review in P2-E10b.
+125. **IX.31's old page and its place on the map (2026-11-08).** IX.31 is retired with no redirect
+    (G-8 (a)). The page generator does not remove pages, so `cft-website/tree/deconstruction-and-ex-vangelical-communities.html`
+    still serves the old entry, and the map's embedded list still draws it (`atlas-sync` never
+    removes). What the old address serves (the old page, a short "retired" page, or nothing) is
+    for Mark.
+126. **Recordings made stale by data release 21 (2026-11-08).** No paid run was made. Tree pages:
+    36 era 10 recordings no longer match their text, so their pages and map cards hide the Listen
+    player; Iglesia ni Cristo has none; IX.31's recording is left with no movement. Documented
+    stories: 25 more recordings no longer match their text. Two now sit under the wrong story,
+    because the map plays a story's recording by its position, without a fingerprint check:
+    IX.16's first story ("Two Thousand Couples and a Tax Trial") would play the recording of the
+    removed "The Apostle Pleads Guilty", and New Calvinism's first ("The Sunday After") the
+    removed "The Year Mars Hill Came Apart". These two must be dealt with before the release
+    reaches the live site. Re-voicing is a paid batch: sample first, Mark's approval by ear.
