@@ -1,0 +1,186 @@
+{
+ "round": 1,
+ "kind": "full",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 7,
+  "minor": 11,
+  "fabrication": 0
+ },
+ "findings": [
+  {
+   "id": "R1-01",
+   "target": "anglo-saxon-christianity relationsSummary and legacy (against anglo-saxon-christianity--carolingian-reform-christianity)",
+   "severity": "substantial",
+   "issue": "The merge kept this link as 'influenced', not 'gave rise to', because the Frankish church already existed and the sources show English churchmen leading its reform. The merge note says the Anglo-Saxon legacy's 'grew directly out of it' must be brought into line. It was not. The legacy still says 'the mission into Germany reorganized the continental church so thoroughly that the Carolingian reform grew directly out of it', and the rewritten relationsSummary still says 'It became a parent of the Carolingian reform'. Both claim descent; the link claims influence. The Carolingian side was rewritten correctly ('led in part by English churchmen'), so the two entries now disagree with each other.",
+   "evidence": "Drafting_Record.json merge_notes[0]; census anglo-saxon-christianity.relationsSummary and .legacy; carolingian-reform-christianity.relationsSummary; link note (Capitulary of 742, capitulatio-de-partibus-saxoniae_pertz1881.txt 2248-2250; Alcuin, Adv. Elipandum I.16, alcuin PL 100-101 18630-18632).",
+   "fix": "relationsSummary, last sentence: 'Its churchmen later helped lead the Carolingian reform.' Legacy, last clause: '...and its missionaries in Germany, Boniface above all, helped lead the reform of the Frankish church under the Carolingians.' Add both as prose changes with a disposition reason, and score them."
+  },
+  {
+   "id": "R1-02",
+   "target": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity and kievan-rus-christianity--kievan-rus-christianity-1054-1240 (grade, Widely Accepted)",
+   "severity": "substantial",
+   "issue": "Both links are Widely Accepted, and the only primary in each is Herberstein (1549). The merge rejected Herberstein as a primary for the two Macedonian links: 'a sixteenth-century retelling that gets the mission's place and year wrong, which cannot carry the underlying-facts leg of Widely Accepted'. That reasoning applies just as much here. The quoted passage itself has Michael sending the letters 'into Bulgaria' in [898], and the Vladimir passage dates the baptism to 6469 (961). As things stand, one rule decides the two Macedonian links and the opposite rule decides these two. Either Herberstein can be the facts leg of Widely Accepted or it cannot.",
+   "evidence": "Drafting_Record.json merge_notes[1]-[2]; herberstein_notes-upon-russia-v1_major1851.txt 7872-7878 ('sent the Sclavonian characters into Bulgaria in the year ... [898]'), 8283-8288 ('6469 (961), since which time Russia has continued in the faith of Christ'); the secondary support is Mouravieff (mouravieff_history-of-the-church-of-russia_blackmore1842.txt 903-908, 1540-1566) and Pinkerton (platon_...pinkerton1814.txt 3148-3154).",
+   "fix": "Apply one rule to all four links. Recommended: follow the merge's own ruling. Set both links to 'Dominant Modern Reconstruction', move Herberstein to a supporting secondary-style mention, or keep it as primary with a drafter-visible caveat, and set verification_state to 'named-not-rechecked'. The alternative: accept Herberstein as a later primary for the Rus' annals, keep these two links at Widely Accepted, and raise byzantine-imperial-church-macedonian--kievan-rus-christianity to Widely Accepted with Herberstein 8268-8284 ('making choice of the Christian religion, according to the Greek ritual ... Vladimir was baptized'). Either way, record the rule in the README."
+  },
+  {
+   "id": "R1-03",
+   "target": "st-thomas-christians-of-india--st-thomas-christians-1300-1517 (grade)",
+   "severity": "substantial",
+   "issue": "This 'continued as' link is Widely Accepted, but both quoted primaries sit on the later side: the 1301 colophon and Marignolli in the 1340s. The note admits as much. No quoted line shows the 849-1054 community. The era-2 review set the bar for a 'continued as' of a church: the community shown on both sides (era-2 Opus_Review_Round1 R1-02, the Aksum case). Here Mingana's account of the earlier side is a secondary reading. The vendored file does hold a usable earlier-side text: the Malabar chronicle on the Syrian fathers at Kollam in 823 and the bishops who 'used to come by order of the Catholicos'.",
+   "evidence": "mingana_early-spread-of-christianity-in-india_mingana1926.txt 3533-3535 (1301) and cathay-and-the-way-thither_vol3...1914.txt 11061-11063 (Marignolli), both later side; earlier side available at mingana 2229-2239 and 3893-3899 (Kollam plates read as Sabrisho); drafter flag 'Both primary quotes are on the later side'.",
+   "fix": "Add the Malabar chronicle as a primary on the earlier side: mingana 2232-2234 or 2237-2239, quote e.g. 'to which Syrian bishops and Metropolitans used to come by order of the Catholicos who sent them.' Then Widely Accepted stands. The note's 'rests on place and name' then becomes 'rests on place, name and a later chronicle'. If no earlier-side primary is added, set the grade to 'Inferential-Thin'."
+  },
+  {
+   "id": "R1-04",
+   "target": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity (sources and note)",
+   "severity": "substantial",
+   "issue": "Neither source bears on the claimed relationship, which is Benedict's Rule shaping the tenth-century English refounding. Foxe 10969-10971 is about bishops being made by kings, not popes, and fetching their palls from Rome. Gasquet 593-595 is about Middle English translations of the Rule for nuns. Inferential-Thin must carry 'the evidence it rests on'. Here there is none. The note's first two sentences report facts that do not touch the link, and the third admits it. A reader also cannot tell why the three bishops are named. Calling Foxe 'the reformer' is loose; he was the Protestant martyrologist. The tie itself is standard history that has no vendored text. That is the open rule question (era-2 escalation 3, era-4 escalations 2 and 9).",
+   "evidence": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt 10963-10972; benedict_rule-of-saint-benedict_gasquet1925.txt 588-597; no vendored Regularis Concordia or Æthelwold text (grep of cic/texts).",
+   "fix": "Do not dress up the link with sources that do not show it. Either (a) hold it out of the edges until Mark rules on the standard-history question, keeping the prose and the wants as they are; or (b) keep it, drop Foxe, and say plainly what it rests on. For example: 'Dunstan, Æthelwold and Oswald are remembered for refounding English monasteries on the Rule of Saint Benedict in the tenth century. No source from their time is cited for this here. A modern editor of the Rule, Cardinal Gasquet, says only that English nuns kept it and had it put into English. So this tie rests on thin evidence.' Set citation_specificity to 'E' for the relationship."
+  },
+  {
+   "id": "R1-05",
+   "target": "paulicians--bogomils (note)",
+   "severity": "substantial",
+   "issue": "The grade is Contested, which means a live disagreement. The note's last sentence settles it: 'Later studies doubt that the Paulicians were dualists at all, so the line cannot be shown.' It also says more than the cited works are described as holding. The census's own source note on Garsoian says she found that the Greek and Armenian traditions diverge and that the Armenian lacks the dualism, not that the Paulicians were not dualists 'at all'. The drafter flags that neither Garsoian nor Dixon was read. Meanwhile Obolensky (1948) and Stoyanov (2000), both cited in the census for the Bogomils, still argue for Paulician input. The note names only the older side (Rački, Evans) as holding the line.",
+   "evidence": "census paulicians sources (Garsoian note: 'argued the Greek and Armenian source-traditions diverge (Armenian evidence lacks the dualism)'); Drafting_Record flags on this link ('I have not read either'); racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt 812-822; evans_through-bosnia...1877.txt 1099-1106.",
+   "fix": "Replace the last two sentences with: 'Older historians, and some modern ones, built a line from them to the Bogomils on reports like this. Others note that the Armenian sources show no dualism, and doubt the line. No Paulician or Bogomil text settles it.' Add Obolensky (repo-cited) as the modern source for the line."
+  },
+  {
+   "id": "R1-06",
+   "target": "byzantine-imperial-church-heraclian-iconoclast--paulicians (note)",
+   "severity": "substantial",
+   "issue": "The note offers Constantine V's move of Paulicians into Thrace as part of the case for 'argued against'. The source it cites says the opposite about motive. Evans writes that Constantine 'had perhaps some sympathies with the heretics' and that the move gave them 'every facility' for their mission. Presented without that, a resettlement under a possibly friendly emperor reads as hostility. The drafter flagged the doubt, and the flag is right. The persecution under Michael I (811-813, Rački) carries the type on its own.",
+   "evidence": "evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt 1085-1092; racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt 838-841 ('progonstva za cara Mihajla (811 — 13)').",
+   "fix": "Drop the Constantine V sentence. Or rewrite it: 'Arthur Evans, in 1877, adds that Constantine V moved a body of them from Armenia into Thrace, though he thought the emperor may have favored them.' Keep the Michael I sentence as the core."
+  },
+  {
+   "id": "R1-07",
+   "target": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms (note and type across four centuries); scandinavian-conversion-christianity.legacy",
+   "severity": "substantial",
+   "issue": "This 'continued as' runs from 1104 to 1527 across a gap no census entry fills (escalation 1). The note offers Lund ('an archbishop of Lund was still in office in 1517') as part of an 'unbroken line'. Yet the target entry's own text says Denmark-Norway made a 'decisive break in 1536/37'. The drafter's own wants note that the Danish 1537 Ordinatio named superintendents in the old sees. The note puts the thinness down to sources being scarce. It does not say that on the Danish side the line of bishops was cut. The movement's legacy has the same tension: 'reformed rather than replaced at the Reformation' and 'existed continuously ever since', set beside the era-7 'decisive break'.",
+   "evidence": "census scandinavian-reformation-kingdoms.relationsSummary ('Denmark-Norway's decisive break in 1536/37'); anjou_history-of-the-reformation-in-sweden_mason1859.txt 406-408, 718, 992-1004; Drafting_Record wants[0] (1537 Ordinatio); escalation 1.",
+   "fix": "Hold the link for Mark's census-structure ruling (escalation 1). If it stays before then: rest it on the Swedish sees only (Skara, Uppsala), drop the Lund sentence, and end the note: 'In Denmark the old bishops were removed in 1536, so there the line broke.' Qualify the legacy sentence too: 'In Sweden the old dioceses and cathedrals were often reformed rather than replaced at the Reformation. Denmark made a sharper break.'"
+  },
+  {
+   "id": "R1-08",
+   "target": "byzantine-imperial-church-macedonian--byzantine-church-after-1054 (note)",
+   "severity": "minor",
+   "issue": "'A later Byzantine list ... runs on with no break' claims something the vendored copy does not show. The drafter flags that the PG 147 OCR drops the patriarchs from 956 to the twelfth century. The relationship is still shown by Humbert's 1054 'Michaelis Constantinopolitani episcopi' together with the Manuel-era entries.",
+   "evidence": "nicephorus-callistus_...pg147...1865.txt 20806-20808, 20962-20971; mirbt 9899; drafter flag on this link.",
+   "fix": "Second and third sentences: 'A later Byzantine list of the city's patriarchs names them in order, from Photius in the ninth century to patriarchs under the emperor Manuel in the twelfth.'"
+  },
+  {
+   "id": "R1-09",
+   "target": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian (note)",
+   "severity": "minor",
+   "issue": "'Read the acts of the 787 council as the day the iconoclasts lost' paraphrases loosely. Photius says the iconoclasts were defeated 'at the sessions' of that council.",
+   "evidence": "photius_library-v1_freese1920.txt 2239-2241.",
+   "fix": "'Photius, patriarch from 858, noted that at the council of 787 the iconoclasts were defeated.'"
+  },
+  {
+   "id": "R1-10",
+   "target": "bagratid-armenian-christianity--armenian-cilicia (quote span)",
+   "severity": "minor",
+   "issue": "The link is Documented 'continued as', but none of the quoted lines places the office inside the Bagratid window (884-1045). Khatchig took office after 1058 and Basil after 1100. The very next lines of Matthew's passage do: 'lorsque le seigneur Pierre exerçait ces hautes fonctions' with the patrimony 'donné par nos souverains' (Peter I, 1019-1058). Quoting them shows the see on both sides.",
+   "evidence": "rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt 4941-4947.",
+   "fix": "Add a primary quote from lines 4943-4945, verbatim as the file joins it: 'Car lorsque le seigneur Pierre exer- çait ces hautes fonctions, 11 avait'à sa disposition le riche patrimoine donné par nos souverains aux catholicos,'"
+  },
+  {
+   "id": "R1-11",
+   "target": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india (note)",
+   "severity": "minor",
+   "issue": "Both dated facts in the note fall before either entry starts (845 and 849). Timothy's letter dates from about 800, and the chronicle's arrival at Kollam is dated 823. The type and grade still hold, because the chronicle's 'used to come by order of the Catholicos' describes a lasting practice and the Kollam plates are dated about 849. But a reader cannot see that the tie runs into these centuries.",
+   "evidence": "mingana 1683-1691 (Timothy I, 779-823), 2229-2239 (823; 'used to come'), 3893-3899 (plates).",
+   "fix": "'Around 800 the head of the church, Timothy, named the Indians among the peoples in his care. A later Malabar chronicle says bishops kept coming to Kollam whenever the head of the church sent them. Mingana read the bishop's name on the Kollam copper plates of about 849 as Sabrisho.'"
+  },
+  {
+   "id": "R1-12",
+   "target": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism (note)",
+   "severity": "minor",
+   "issue": "The Documented core is the 754 curse, which names Germanus, George and Mansur. The last two sentences ('The emperor then pressed the monks to obey. Many fled, and some were killed.') rest only on Sinclair and Harnack as quoted in Percival's excursus. Under a Documented grade a reader takes these as shown by the primary. See also the view on the Mansur pair in 'checked'.",
+   "evidence": "npnf214_seven-ecumenical-councils.xml 39464-39471 (curse); 39530-39560 (Sinclair, Harnack in the excursus).",
+   "fix": "'...The emperor then pressed the monks to obey, later historians write, and many fled; some were killed.'"
+  },
+  {
+   "id": "R1-13",
+   "target": "mozarabic-christianity.legacy",
+   "severity": "minor",
+   "issue": "The rewrite fixed the first sentence: 'Only a small community at Toledo kept the name into modern times', which is right on Ferotin's 1910 count. But it left the old 'Its liturgy, though, outlived the people who kept it'. That now contradicts the sentence before it.",
+   "evidence": "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt 1347-1372.",
+   "fix": "'Its liturgy, though, outlasted most of the people who had kept it.'"
+  },
+  {
+   "id": "R1-14",
+   "target": "cluniac-reform-monasticism.relationsSummary",
+   "severity": "minor",
+   "issue": "'No named founder, though, ties it to that reform' is a remark about the evidence placed in the movement's own summary. It also reads oddly beside the entry's own why, which names the founding duke. The two 'may have' sentences on the Cistercians hedge a fact that is not in scholarly doubt only because no text for it is vendored. That is the open rule question (era-2 escalation 3; era-4 escalation 9). Leave it pending Mark, but it should not stand as the settled form.",
+   "evidence": "census cluniac-reform-monasticism.relationsSummary, .why; Drafting_Record prose_changes (cluniac n=2, n=3).",
+   "fix": "'Cluny kept the Rule of Benedict, which the Carolingian reform had pressed on Frankish monks, but no source here shows its founders coming from that reform.' Mark the Cistercian sentences in the README as held for the rule ruling."
+  },
+  {
+   "id": "R1-15",
+   "target": "medieval-irish-christianity.why; medieval-welsh-christianity.why",
+   "severity": "minor",
+   "issue": "Both stubs still show readers internal words: 'from the end of the Insular and Irish Monastic Christianity entry in 664', and 'from the end of the British and Welsh Christianity entry in 768'. The pass fixed the same defect in the Abbasid stub (prose change 0, group D) but not in these two.",
+   "evidence": "census medieval-irish-christianity.why, medieval-welsh-christianity.why.",
+   "fix": "'The church in Ireland from the Synod of Whitby in 664 to the English invasion of 1169.' and 'The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.' (The 768 Easter is in the welsh continued-as note's own source.)"
+  },
+  {
+   "id": "R1-16",
+   "target": "relationsSummary of bagratid-armenian-christianity, paulicians, byzantine-imperial-church-macedonian, byzantine-imperial-church-heraclian-iconoclast",
+   "severity": "minor",
+   "issue": "Cataloguing fragments are left in the era-4 summaries readers see: 'absorbs the story of Caucasian Albania's catholicosate after 705' (Bagratid), 'also a victim story' (Paulicians), 'the parent context of the Cyril and Methodius mission; receives the 1054 schism itself' (Macedonian), 'the iconoclast emperors as rivals inside' (Heraclian). CLAUDE.md asks a pass that edits a live file to clear the commentary already in it. The Bagratid phrase is rightly held for escalation 14, but the others are not.",
+   "evidence": "census relationsSummary fields as named.",
+   "fix": "Paulicians: 'Deported in large numbers by the Byzantine emperors, and known mostly through their enemies.' Macedonian: '...the missions to Bulgaria (864) and to the Slavs, which sent Cyril and Methodius; it ends with the break of 1054.' Heraclian: '...the iconoclast emperors and the councils that backed them...'. Bagratid: leave for the ruling."
+  },
+  {
+   "id": "R1-17",
+   "target": "bogomils.legacy; georgian-revival-tao-klarjeti.relationsSummary",
+   "severity": "minor",
+   "issue": "'Its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries' is stronger than its link, which is Dominant Modern Reconstruction and itself says 'No Bogomil text of their own shows the line'. 'Leads directly' in the Georgian summary is milder and acceptable.",
+   "evidence": "bogomils--balkan-bogomil-continuation note.",
+   "fix": "'Historians trace it on into the Bogomil communities of the twelfth and thirteenth centuries.'"
+  },
+  {
+   "id": "R1-18",
+   "target": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti (note); iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism (note)",
+   "severity": "minor",
+   "issue": "Two small points. (1) The Iviron note gives Brosset's 'about 976', while the Georgian prose says 'between 980 and 983'. Both datings exist, but a reader sees two dates with no explanation. (2) 'No text we hold' in the iconophile-Athonite note is the project speaking about its own holdings, not about the evidence.",
+   "evidence": "brosset_histoire-de-la-georgie-pt1-fra_1849.txt 2896-2898; census georgian-revival-tao-klarjeti.why and .longDescription.",
+   "fix": "(1) Add to the Iviron note: 'Others date it to 980-983.' (2) 'No source shows Athos's founders taking up the Stoudite way, so this line is thin.'"
+  }
+ ],
+ "two_way_gaps": [
+  "anglo-saxon-christianity relationsSummary ('a parent of the Carolingian reform') and legacy ('grew directly out of it') claim descent; the only link is 'influenced'. See R1-01.",
+  "scandinavian-conversion-christianity.legacy ('reformed rather than replaced', 'existed continuously ever since') against the target entry's 'decisive break in 1536/37'. See R1-07.",
+  "bogomils.legacy 'runs on directly' is stronger than its Dominant Modern Reconstruction link. See R1-17.",
+  "bagratid-armenian-christianity.relationsSummary names Caucasian Albania with no link. Rightly held for escalation 14; the cataloguing phrase stays until then.",
+  "byzantine-imperial-church-macedonian.relationsSummary ('receives the 1054 schism itself') has no 1054 link on this entry. Acceptable: the break and argued-against links for 1054 sit on byzantine-church-after-1054 (escalation 8). The summary wording should change (R1-16).",
+  "late-anglo-saxon-christianity.legacy (Norman church) and melkite-arabic-christianity.legacy (Greek Orthodox Antioch and Jerusalem) name communities with no census movement. no-entry is correct; escalations 1 and 12.",
+  "Links that touch era 4 but are named in no era-4 text: coptic-christianity-under-early-islam--alexandria-catechetical, desert-monasticism--coptic-christianity-under-early-islam, anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast, and the three anglo-saxon/british-welsh links. All were published and reviewed by earlier eras, and each note stands on its own. No action needed.",
+  "Every new era-4 link appears in its movements' text (checked against dispositions and the text). All 120 'link' dispositions resolve to an existing edge id. All 17 'qualify' rows have their prose change applied in the census. Each of the 13 'out-of-scope' rows and the 1 'remove' row has a sound reason, except as noted above."
+ ],
+ "escalations_view": [
+  "1 (no medieval English or Scandinavian successor entry): needs Mark (census structure). Until he rules, the Scandinavian continued-as should not stand in its present form; see R1-07.",
+  "2 (standard facts without vendored sources, late Anglo-Saxon and Scandinavian): needs Mark. It is the same rule as era-2 escalation 3, still unanswered in Decision-Log.md. Leaving the prose as written with wants listed is the right holding pattern. It also bears on R1-04 and R1-14.",
+  "3 (carolingian continuesAs = latin-papal): needs Mark or the entry owner. 'influenced' is the right link type whatever the field means.",
+  "4 (cyrillo continuesAs = kievan): same as 3. 'influenced' is right.",
+  "5 (Alcuin against Elipandus): Mark's call. A strong Documented candidate, but neither text names it, so adding it means writing new prose. Not this pass's work unless he asks.",
+  "6 (Salzburg clergy; Cluny and the Mozarabic rite): same as 5.",
+  "7 (bogomils window overlaps the continuation): needs Mark (structure). The Cathar link is defensible from this entry, because its text names the claim three times.",
+  "8 (Macedonian 'receives 1054'): no new link needed. The summary wording should change (R1-16).",
+  "9 (standard facts with no vendored source, Byzantine group): needs Mark; same as 2.",
+  "10 (Dominant Modern Reconstruction on 19th and early 20th-century works): needs Mark, as a method ruling. My view: for the Paulician and Bogomil links the label is not false, because a current, repo-cited work holds the same reading (Dixon 2022; Obolensky 1948; Stoyanov 2000). Lutzow, Mouravieff and Brosset are different. They retell medieval narratives (the Vita Methodii, the Rus' Primary Chronicle, the Georgian Lives) rather than reconstruct anything, so the label misdescribes what kind of support it is, while the grade itself understates rather than overstates. Dropping them to Inferential-Thin would tell readers that standard facts are thin. A better ruling is either a stated meaning ('rests on secondary works only') or vendoring the medieval texts already listed in wants. The Herberstein inconsistency (R1-02) needs settling either way.",
+  "11 (no 'jurisdiction' type): needs Mark (method). 'in contact with' understates jurisdiction but is not wrong, so it is a sound holding choice.",
+  "12 (no Melkite entry 1009-1724): needs Mark (structure). The gave-rise-to note says the seven-century span plainly. Acceptable meanwhile.",
+  "13 (Abbasid stub): entry owner. The new why is sound (R1-15 asks for the same fix on the Irish and Welsh stubs).",
+  "14 (Armenia: which entry owns Albania after 705): needs Mark (structure). Holding the phrase is right.",
+  "15 (Golden Age 'silent since 622'): era-5 owner. Correct to flag and not edit.",
+  "16 (duplicate cross-era drafts): resolved in the merge. Era-3 copies kept; I checked that both pairs are present once."
+ ],
+ "checked": "Diffed the census against origin/main (e1ad4ebc): 42 new edges, all touching era 4. No edge removed or changed, retiredLinks empty, and no text change outside the 22 era-4 prose changes. All 42 new links and the 15 'keep' links match the Drafting_Record ids, types and grades. For every new link I opened each primary at the stated lines with 3-6 lines of context (scratchpad review1/ctx.py). I checked the work and locus against the file, whether the quote shows the relationship, type, arrow, alphabetical order on symmetric types, the grade against Drafting_Brief.md, and movement date ranges for every continued-as and gave-rise-to. Quote verbatim check, primaries and the secondaries that carry quotes, with whitespace joined (scratchpad review1/sec.py): all pass. I read the secondary passages behind the notes: Rački 812-866, 1159-1166, 4268-4330; Evans 1080-1106; Lutzow 1296-1330; Mouravieff 903-908, 1130-1140, 1472-1476, 1599-1616; Herberstein 7870-7881, 8262-8291; Brosset quotes; Griffith 4426-4444; Abu Salih 14524-14552; Mingana 1675-1692, 2215-2242; Ferotin 1331-1372; Foxe 10960-10975; Gasquet 588-600; the npnf214 excursus on 754; the Mirbt note on pseudo-Isidore (10877). For repo citation of secondary works, Garsoian, Dixon, Stoyanov, Sennis/Pegg, Obolensky and Griffith (Shadow of the Mosque) are each cited in the census or river-prototype.html source lists; Rački, Evans, Lutzow, Mouravieff, Brosset, Charon, Anjou, Gasquet and Foxe are vendored. On the Mansur pair (question b): each link stands on its own. John of Damascus is a named voice in both movements' texts: the iconophiles' theologian, and the Melkite monk of Mar Saba. The curse at npnf214 39464-39471 names him, so it is 'a text directed at the other by name' for each. The Melkite link is the more natural home ('Saracen opinions'). The iconophile link also has George in the same curse, and its own text calls the heraclian church the persecutor. Only R1-12's clarity point applies. Cross-era continued-as (question d): the Irish, Anglo-Saxon, Byzantine, Church of the East, Syriac, Coptic, Nubian, Ethiopian, Armenian and Georgian links each show the community on both sides of the boundary, except St Thomas (R1-03) and Armenia, where only the quote span is short (R1-10). Iconophile to Athonite (a 120-year gap) is honestly Inferential-Thin. Melkite to Melkite Greek Catholic (seven centuries) is honestly Dominant Modern Reconstruction. Scandinavian (four centuries plus a documented Danish break) is not acceptable as written (R1-07). Prose: I compared old and new text for all 22 prose changes, checked each change against its reason and the cited files, and found no fact lost. The Trdat and Barlaam qualifications and the Mozarabic correction are supported. Two cases hedge settled history pending the rule ruling (R1-14). Scored every changed field with engine.m7.turn_readability.score_turn: all FRE >= 60.2, FK <= 9.1. The iconophile summary is too short to score. All new notes pass; four have FK below 6, which is reported only. Two-way: ran the dispositions against the edges and read every era-4 relationsSummary, legacy and why against its links. Validator: `node tools/validate-census.mjs` gives 0 errors and 2 warnings (shortName length, era 1-2). With `--base origin/main --atlas cft-website/index.html --tree cft-website/tree` it gives 84 errors, all 'no anchor on ... tree page', because the tree pages have not yet been regenerated (the pass is pre-rebuild). They should clear at step 7."
+}

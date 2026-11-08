@@ -144,6 +144,10 @@ it, never by deleting it.
       Dorotheus as standard reading, Mar Saba and Saint Catherine's still inhabited (the Judean
       and Gaza monks); Monte Cassino's later destructions, including the bombing of 1944 (the
       Benedictines); the Arian buildings still standing in Ravenna (the Gothic churches).
+    - 2026-11-08: the era 4 pass meets the same question in the late Anglo-Saxon (the tenth-century
+      monastic reform, Alfred, Ælfric and Wulfstan), Scandinavian, Cluniac (the Cistercian break) and
+      Byzantine texts (Stephen the Younger, Tephrike, the 1965 revocation). Held as written, wants listed
+      in `Build/Ministry/Operations/Audits/2026-11-07_links-era-4/README.md`. Still Mark's call.
 25. **Which entry owns an emperor's act against the Nicenes, 337-378 (2026-11-07).** Constantius II's
     exile of Hilary sits under the imperial church; Valens's deposition of Gregory of Nyssa sits under
     the Homoian church. Each link stands on its sources, but one rule should cover both. A mapping
@@ -201,12 +205,17 @@ it, never by deleting it.
     church. Both are held as "in contact with" at the grade their evidence reaches (the Aksum one
     Inferential-Thin, since no letter from those years survives). A new type would change the
     method. Mark's call.
+    - 2026-11-08: era 4 meets the same gap as jurisdiction: the Church of the East's catholicos sent
+      the St Thomas Christians their bishops. Held as "in contact with" (Widely Accepted). One ruling
+      should cover communion and jurisdiction together.
 35. **Caucasian Albania's end date (2026-11-07).** `church-of-caucasian-albania` ends at 705, and
     `bagratid-armenian-christianity` says it "absorbs" the catholicosate after 705. The vendored
     histories (Brosset 1876, Ormanian 1912) show the see living on inside the Armenian church,
     with a catholicos installed in 1701/2, until it was abolished in the early nineteenth century.
     The era 3 pass took the year 705 out of the Albanian prose. The dates belong to the entry's
     owner, for Mark's ruling.
+    - 2026-11-08: the era 4 pass also left the Bagratid summary's "absorbs the story of Caucasian
+      Albania's catholicosate after 705" as written, for the same ruling.
 36. **The Armenian "continues as" chain skips a movement (2026-11-07).**
     `armenian-christianity-after-avarayr` continues as `bagratid-armenian-christianity`, skipping
     `armenian-christianity-before-the-bagratids` (c. 554-884), which has no "continues as" of its
@@ -218,11 +227,62 @@ it, never by deleting it.
     reader of Thomson's English Sebeos (1999), which is not vendored.
 38. **No "continued as" link from the Irish monasteries to medieval Ireland (2026-11-07).** The
     census splits Ireland at 664, but neither era-3 text names the continuation. For the era 4 pass.
+    - 2026-11-08: fixed in the era 4 pass. A "continued as" link (Documented) rests on Bede IV.4 and
+      V.15 and Adomnán's line of abbots. The medieval Irish text is still a one-line stub: it names
+      the continuation only by starting at 664, where the earlier entry ends. Closed.
 39. **Whitby in the Anglo-Saxon text (2026-11-07).** The era 3 pass added the Whitby link (the
     Anglo-Saxon church "argued against" the Irish, Bede III.25). `anglo-saxon-christianity` also
     names Whitby; the era 4 pass should count that link as named there.
+    - 2026-11-08: done in the era 4 pass. Era 3's Whitby link is counted as named in the Anglo-Saxon
+      text, and era 4 kept it as published. Closed.
 40. **An era-2 link note uses internal wording (2026-11-07).** The note of
     `palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza` says
     "No text we hold ties the later monks to the earlier". The era 3 review proposed "No source
     from the time ties the later monks to the earlier, so this rests on place and sequence alone."
     The link is era 2's, so era 3 left it. For P2-L11.
+41. **No medieval English or Scandinavian successor entry (2026-11-08).** Late Anglo-Saxon ends at
+    1066 and Scandinavian conversion at 1104, and no entry carries either church on. The Scandinavian
+    "continued as" link therefore runs to the Reformation kingdoms (1527). It rests on the see of
+    Skara at both ends and states Denmark's break of 1536-37, graded Inferential-Thin. Whether it
+    should stand until a medieval entry exists is a census-structure call. Mark's call.
+42. **Two "continues as" fields name entries the evidence only influenced (2026-11-08).**
+    `carolingian-reform-christianity` continues as `latin-papal-church-gregorian` (160 years apart,
+    Cluny between), and `cyrillo-methodian-slavic-christianity` continues as `kievan-rus-christianity`
+    (what passed was books and letters, not a community). The era 4 links are typed "influenced".
+    Should the fields be cleared? For Mark or the entry owner.
+43. **Links the sources support but no text names (2026-11-08).** Alcuin's *Against Elipandus*
+    (vendored, PL 100-101) would carry a Documented Carolingian "argued against" Mozarabic link.
+    Lützow (1910) names the Salzburg clergy who opposed Methodius; Férotin (1912) names Cluny's monks
+    in the replacing of the Mozarabic rite. Each needs new prose first. Mark's call.
+44. **The Bogomil entries overlap (2026-11-08).** `bogomils` runs from the tenth century on, and
+    `balkan-bogomil-continuation` covers 1054-1300. Basil's burning (c. 1100) and the Cathar link fall
+    in both. The Cathar link sits on `bogomils`, whose text names it three times. Mark's call.
+45. **No Melkite entry between 1009 and 1724 (2026-11-08).** The Melkite legacy says the communion
+    continues, and the only later entry is the 1724 split, so its "gave rise to" link spans seven
+    centuries (the note says so). Mark's call.
+46. **The Abbasid Church of the East is a stub (2026-11-08).** `church-of-the-east-under-the-abbasids`
+    has empty relations summary, description and legacy; the era 4 pass rewrote only its `why`. For
+    the entry owner.
+47. **The Georgian Golden Age says "silent since 622" (2026-11-08).** `the-georgian-golden-age` (era 5)
+    calls its tradition silent since 622, against the revival entry's monasteries and Iviron, now
+    joined by a "continued as" link. For the era 5 entry owner.
+48. **Dominant Modern Reconstruction on old secondary works (2026-11-08).** Twelve era 4 links carry
+    this grade, several on nineteenth- and early twentieth-century works (Rački 1869, Evans 1877,
+    Mouravieff 1838, Lützow 1910, Brosset 1849). Some of those works retell a medieval narrative
+    rather than reconstruct anything. Both reviewers held that the grade understates rather than
+    overstates, and that dropping to Inferential-Thin would call standard facts thin. A method
+    ruling: what the grade means when it rests on old works, or vendor the medieval texts. Mark's call.
+49. **Two source rules applied in era 4 (2026-11-08).** (a) A retelling centuries later (Herberstein
+    1549, the Kyiv Synopsis 1674, the Malabar chronicle after 1580) is not a primary for ninth- or
+    tenth-century events; it is listed as a secondary. (b) A canon's own text carried in a later
+    collection (Theodosius, 853-858, in Assemani's printing) counts as a primary, at Widely Accepted
+    when it reaches us only in translation. Both reviewers agreed. They change no method rule, but
+    later eras should apply them the same way; P2-L11 should check earlier eras against them.
+50. **Era-4 text outside the links pass (2026-11-08).** Left for each entry's owner:
+    - The Silk Road description ends on a sentence fragment.
+    - The Kievan description's "Envoys…" sentence has no main verb.
+    - The Cluniac summary describes Peter the Venerable, after the entry's 909-1109 window.
+    - Dates the vendored texts give differently: Alopen's arrival (636, not 635); the Kollam plates
+      (Mingana, about 824, not 849); Lund's archbishopric (Anjou, 1103, not 1104).
+    - The late Anglo-Saxon `why` and description state the tenth-century refounding outright (see
+      "Well-known facts with no vendored source", 2026-11-07).
