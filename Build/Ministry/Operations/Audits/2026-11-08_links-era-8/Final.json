@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "note": "Final state after review round 3 (pass): Drafting_Record.json with Revision_Round1.json and Revision_Round2.json applied, and one link set aside at the merge with era 6. Applied as data release 12.",
+ "note": "Final state after review round 3 (pass): Drafting_Record.json with Revision_Round1.json and Revision_Round2.json applied, and one link set aside at the merge with era 6. Applied as data release 13, after era 7 took 12.",
  "links": [
   {
    "id": "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut",
@@ -209,7 +209,7 @@
   },
   {
    "id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
-   "action": "new",
+   "action": "drop",
    "from": "the-anabaptist-movements",
    "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
    "type": "influenced",
@@ -261,11 +261,12 @@
     "'Baptists' in Mack's English means the Täufer (Anabaptists and Mennonites), not English Baptists; the note keeps his word in quotes."
    ],
    "change_reason": "New. The Anabaptist side of the Brethren's founding, named in description and why.",
-   "group": "A"
+   "group": "A",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'influenced', Documented. The published version stands."
   },
   {
    "id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
-   "action": "new",
+   "action": "drop",
    "from": "czech-churches-last-century",
    "to": "the-moravian-church-at-herrnhut",
    "type": "continued as",
@@ -336,7 +337,8 @@
     "Cranz quotes keep the OCR exactly ('Fulnek ,', 'bifhop', 'vil¬ lages', 'JablonJky', 'Ja’blonfky')."
    ],
    "change_reason": "New. The continuity the census already asserts, graded at the level its own sources allow. Round 1: Spangenberg quote cut at a clause boundary to 33 words (R1-18).",
-   "group": "A"
+   "group": "A",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'gave rise to', Documented. The published version stands."
   },
   {
    "id": "the-moravian-church-at-herrnhut--the-methodist-revival",
@@ -881,7 +883,7 @@
   },
   {
    "id": "puritanism--the-baptists",
-   "action": "new",
+   "action": "drop",
    "from": "puritanism",
    "to": "the-baptists",
    "type": "gave rise to",
@@ -910,11 +912,12 @@
     "'Brownism' is Smyth's own word for the Separatists. The note glosses it; the puritanism entry's own text does not name the Separatists, but its legacy claims 'much of the Baptist tradition'. Graded on Smyth's own dated statement that his people passed from Puritanism through Separatism to believers' baptism."
    ],
    "change_reason": "New. Documents the Baptists' own stated descent from Puritanism.",
-   "group": "B"
+   "group": "B",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'gave rise to', Widely Accepted. The published version stands."
   },
   {
    "id": "the-anabaptist-movements--the-baptists",
-   "action": "new",
+   "action": "drop",
    "from": "the-anabaptist-movements",
    "to": "the-baptists",
    "type": "in contact with",
@@ -957,7 +960,8 @@
     "Whitley's 1915 note is printed in the same vendored file; I list it as secondary with its file and quote, as the era-5 drafts did for editors' introductions."
    ],
    "change_reason": "New. Replaces the unspecified 'contact disputed' with the one contact the vendored sources show.",
-   "group": "B"
+   "group": "B",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'influenced', Contested. The published version stands."
   },
   {
    "id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
@@ -1237,7 +1241,7 @@
   },
   {
    "id": "puritanism--the-evangelical-awakening-in-new-england",
-   "action": "new",
+   "action": "drop",
    "from": "puritanism",
    "to": "the-evangelical-awakening-in-new-england",
    "type": "influenced",
@@ -1269,7 +1273,8 @@
     "'Grew out of' (descent) is not graded: Edwards's Northampton church and Stoddard's ministry (Faithful Narrative, lines 1098-1225) are post-1660 New England, outside the puritanism entry's dates. Influence is what the evidence shows."
    ],
    "change_reason": "New. Documents the Puritan line the awakening's text names, as influence.",
-   "group": "B"
+   "group": "B",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'influenced', Documented. The published version stands."
   },
   {
    "id": "english-old-dissent--the-evangelical-awakening-in-new-england",
@@ -2538,7 +2543,7 @@
   },
   {
    "id": "the-huguenots--church-of-the-desert-huguenots",
-   "action": "new",
+   "action": "drop",
    "from": "the-huguenots",
    "to": "church-of-the-desert-huguenots",
    "type": "continued as",
@@ -2575,7 +2580,8 @@
     "The 1721 article's French keeps the long s as f ('Déformais', 'figneront'); quote kept exactly. The synod heading is line 3907."
    ],
    "change_reason": "New. The continuation the census records, documented from the Desert synods' own acts.",
-   "group": "C"
+   "group": "C",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Documented. The published version stands."
   },
   {
    "id": "camisard-prophetism--the-methodist-revival",
@@ -2802,7 +2808,7 @@
   },
   {
    "id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
-   "action": "new",
+   "action": "drop",
    "from": "the-english-reformation-and-elizabethan-settleme",
    "to": "restoration-georgian-church-of-england",
    "type": "continued as",
@@ -2839,7 +2845,8 @@
     "The preface quote keeps the OCR's stray '8' and '1' and the break 'Litu - 1 gy'; the opening 'It hath' is garbled ('\"■\"Thath'), so the quote starts at 'been'."
    ],
    "change_reason": "New. The continuesAs pair into this movement had no link; the movement's text names the return of the bishops and the Prayer Book.",
-   "group": "D"
+   "group": "D",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Documented. The published version stands."
   },
   {
    "id": "camisard-prophetism--shakers",
@@ -2963,7 +2970,7 @@
   },
   {
    "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
-   "action": "new",
+   "action": "drop",
    "from": "kongo-christianity-afonso-to-1650",
    "to": "the-antonian-movement-in-kongo",
    "type": "gave rise to",
@@ -3013,11 +3020,12 @@
     "Zucchelli's German OCR keeps 'Aqua Roſata', 'Koͤniglichen' and 'verwuͤ⸗ get' (for 'verwüstet', laid waste); the quotes are verbatim. They name the king ('Don Pietro Aqua Roſata', Pedro IV, raised 'or rather pushed in' as king) and show the capital uncrowned and waste. Round 1: the earlier quote at 11515-11517 was dropped. Read to its clause end (11517-11522) it is a complaint that the missionaries could never persuade the king to give up his thirty-six concubines, not a picture of a Christian king. Neither primary source shows the Antonian movement itself; that part rests on Thornton, not rechecked."
    ],
    "change_reason": "New. The entry's first relationship, its rise inside Kongo's two-century-old Christianity, had no link. Round 1: truncated quote dropped; note says why the ruined capital matters (R1-14).",
-   "group": "D"
+   "group": "D",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'gave rise to', Inferential-Thin. The published version stands."
   },
   {
    "id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
-   "action": "new",
+   "action": "drop",
    "from": "new-spain-and-andes-mission-born-christianity",
    "to": "colonial-latin-american-devotional-catholicism",
    "type": "continued as",
@@ -3066,11 +3074,12 @@
     "Florencia's claim of an unbroken tradition from 1531 is his own; the note reports it as his. The apparition's early documentation is debated, which is why the note says 'traced' and does not state it as fact."
    ],
    "change_reason": "New. Both entries name the continuation, and no link carried it. Round 1: lead sentence states the claim (R1-16).",
-   "group": "D"
+   "group": "D",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Inferential-Thin. The published version stands."
   },
   {
    "id": "russian-church-stoglav-to-nikon--the-old-believers",
-   "action": "new",
+   "action": "drop",
    "from": "russian-church-stoglav-to-nikon",
    "to": "the-old-believers",
    "type": "gave rise to",
@@ -3131,7 +3140,8 @@
     "'ghostly father' is the 1924 English; the note says 'spiritual father'."
    ],
    "change_reason": "New. Documents 'grew out of Muscovite Christianity' through a named priest of the pre-reform church. Round 1: 'Moscow church' to 'Russian church' (R1-15).",
-   "group": "E"
+   "group": "E",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'influenced', Documented. The published version stands."
   },
   {
    "id": "russian-church-nikon-to-holy-synod--the-old-believers",
@@ -3428,14 +3438,7 @@
    "citation_specificity": "A",
    "verification_state": "verified-direct",
    "named_in_text": "russian-church-nikon-to-holy-synod longDescription ('to correct Russian service books against Greek models'); the-old-believers longDescription ('against contemporary Greek practice')",
-   "major": true,
-   "outcome": "In 1656 a council in Moscow ruled that priests could use only the service book corrected from old Greek copies.",
-   "outcome_kind": "rule-changed",
-   "outcome_evidence": {
-    "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
-    "lines": "448-450",
-    "text": "да нектому кто начнеть развЪ сея исправленыя книги дЪй- ствовати церковныхь таинетвъ;"
-   },
+   "major": false,
    "drafter_flags": [
     "The inventory matched 'Greek models' to the Byzantine church of 1054-1300. The Greek authorities Nikon consulted were the Ottoman-era patriarchs and Athos of the 1650s, so this link goes to the era-8 Ottoman Orthodoxy entry instead; no link to the era-5 entry.",
     "Date: the editor dates the council October 7165, that is 1656 (line 176); the act's own dating line reads '1657' in the OCR (line 466). The outcome follows the editor.",
@@ -3443,7 +3446,17 @@
     "Same-era link: the Ottoman Orthodoxy entry's own text does not name Russia; another group may hold that entry."
    ],
    "change_reason": "New. Grounds 'against Greek models' in the council's own act.",
-   "group": "E"
+   "group": "E",
+   "dropped_outcome": {
+    "outcome": "In 1656 a council in Moscow ruled that priests could use only the service book corrected from old Greek copies.",
+    "outcome_kind": "rule-changed",
+    "outcome_evidence": {
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+     "lines": "448-450",
+     "text": "да нектому кто начнеть развЪ сея исправленыя книги дЪй- ствовати церковныхь таинетвъ;"
+    }
+   },
+   "minor_reason": "A church body adopting another side's text or worship order by its own vote is a text taken up, not a rule changed by an authority (Decision-Log, 'Major links: a church body adopting another's text by vote is minor', 2026-11-08). Outcome removed at the merge with era 7."
   },
   {
    "id": "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
@@ -3870,7 +3883,7 @@
   },
   {
    "id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
-   "action": "new",
+   "action": "drop",
    "from": "the-union-of-brest-and-ruthenian-greek-catholic-",
    "to": "ruthenian-uniate-18th-century",
    "type": "continued as",
@@ -3938,7 +3951,8 @@
     "The bull is a Roman document; the Apollogia is the Uniates' own voice. That Clement VIII was the pope of the union comes from the bull (lines 37062-37082)."
    ],
    "change_reason": "New. The period split between the Brest and eighteenth-century entries. Round 1: long sentence split (R1-17).",
-   "group": "E"
+   "group": "E",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Widely Accepted. The published version stands."
   },
   {
    "id": "ruthenian-uniate-18th-century--ruthenian-greek-catholic-polotsk-to-galicia",
@@ -4064,14 +4078,7 @@
    "citation_specificity": "A",
    "verification_state": "verified-direct",
    "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('importing Latin devotional practices into its Byzantine rite') and longDescription and why ('importing Roman devotional practices into a Byzantine rite')",
-   "major": true,
-   "outcome": "At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi.",
-   "outcome_kind": "rule-changed",
-   "outcome_evidence": {
-    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
-    "lines": "137965-137967",
-    "text": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,"
-   },
+   "major": false,
    "drafter_flags": [
     "cross-era: era 7",
     "The Tridentine entry ends in 1650. The tie is the synod's own appeal to Trent, not contact with the church of 1517-1650. The Roman authorities of 1720 (the nuncio Grimaldi presided; Benedict XIII confirmed in 1724) belong to the era-8 Catholic ancien-régime entry; I did not draft that pair, since the four fields do not name Rome as an actor.",
@@ -4081,11 +4088,21 @@
     "Long s read as f throughout the Mansi OCR ('fynodus', 'Feftum'), kept exactly."
    ],
    "change_reason": "New. Grounds 'importing Latin devotional practices' in the synod's own decrees. Round 1: outcome names the binding feast list (R1-13).",
-   "group": "E"
+   "group": "E",
+   "dropped_outcome": {
+    "outcome": "At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi.",
+    "outcome_kind": "rule-changed",
+    "outcome_evidence": {
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "137965-137967",
+     "text": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,"
+    }
+   },
+   "minor_reason": "A church body adopting another side's text or worship order by its own vote is a text taken up, not a rule changed by an authority (Decision-Log, 'Major links: a church body adopting another's text by vote is minor', 2026-11-08). Outcome removed at the merge with era 7."
   },
   {
    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
-   "action": "new",
+   "action": "drop",
    "from": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "to": "orthodoxy-under-the-ottomans-1650-1821",
    "type": "continued as",
@@ -4132,7 +4149,8 @@
     "The 1672 synod is at Jerusalem, not Constantinople; it shows the same Ottoman Orthodox church adopting the earlier Constantinople decrees, which is the continuity claimed. The Constantinople synods' dates (1638, 1642) are not stated in the quoted lines and are left out of the note."
    ],
    "change_reason": "New. The entry calls itself the 'second act' of Ottoman Orthodoxy; no link joined the two periods.",
-   "group": "F"
+   "group": "F",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Documented. The published version stands."
   },
   {
    "id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
@@ -4558,7 +4576,7 @@
   },
   {
    "id": "philippine-catholicism--philippine-catholicism-era-8",
-   "action": "new",
+   "action": "drop",
    "from": "philippine-catholicism",
    "to": "philippine-catholicism-era-8",
    "type": "continued as",
@@ -4596,7 +4614,8 @@
     "The quote is in English translation (Robertson's), not Santa Theresa's Spanish."
    ],
    "change_reason": "New. The entry says it continues the earlier Philippine entry; no link joined them. Round 1: Recollect quote cut to 38 words (R1-18).",
-   "group": "F"
+   "group": "F",
+   "drop_reason": "Era 7's pass (data release 12) published this id first as 'continued as', Documented. The published version stands."
   },
   {
    "id": "philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay",
@@ -9118,7 +9137,9 @@
   "english-old-dissent--restoration-georgian-church-of-england (broke with): drafted by B and D on the same evidence (the 1662 Act and Baxter). B's kept: B drafted the Old Dissent movement, and its note gives Baxter's own figure (1,800 to 2,000).",
   "catholic-church-ancien-regime--port-royal-jansenism (argued against, major): drafted by C and D on the same 1653 and 1664 acts. C's kept: C drafted Port-Royal. D's third source (Unigenitus) concerns Quesnel, who is not named in the Port-Royal text.",
   "catholic-church-ancien-regime--quietist-controversy-molinos-guyon (argued against, major): drafted by C and D. C's kept: more sources (Bossuet's Relation added), and its note does not state the count of sixty-eight errors, which the vendored Denzinger shows only by numbering.",
-  "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia: drafted here (E) and by era 6, which merged first as data release 11. Era 6's published version stands; this draft is dropped."
+  "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia: drafted here (E) and by era 6, which merged first as data release 11. Era 6's published version stands; this draft is dropped.",
+  "Merge with era 7 (data release 12): 13 links era 7 published first on the same ids are dropped; the published versions stand. Three differ in type from this pass's drafts: czech-churches-last-century--the-moravian-church-at-herrnhut (era 7 'gave rise to', here 'continued as'), the-anabaptist-movements--the-baptists (era 7 'influenced', Contested; here 'in contact with'), russian-church-stoglav-to-nikon--the-old-believers (era 7 'influenced'; here 'gave rise to'). Logged for P2-L11. The Kyiv pair keeps both links: era 7's 'influenced' from Kyiv, and this pass's 'in contact with' from the Russian church for the 1686 transfer.",
+  "Two outcomes removed at the merge with era 7, under Mark's ruling that adoption by vote is minor (Decision-Log, 2026-11-08): the Zamość synod of 1720 (the-tridentine-church--ruthenian-uniate-18th-century) and the Moscow council of 1656 on the corrected service book (orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod). Each was the receiving side's own council adopting another side's laws or worship text. The removed sentences are kept in 'dropped_outcome'."
  ],
  "set_aside": [
   {

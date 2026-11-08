@@ -17,38 +17,43 @@ All three rounds of the cap used. No finding is open. `Final.json` is the state 
 
 ## Counts
 
-- Links touching an era-8 movement: 85. This pass added 77 and rewrote 2 (the Methodist links to the Holiness movement and the Black Church: one note failed the reading target, the other merged two towns); 3 older links were kept as checked; 3 came from the era 6 pass (data release 11). No link retired; every published ID stands.
-- Census links in all: 364 before this pass, 441 after. Data release 12 (2026-11-08).
-- Types of the links this pass added: influenced 19, continued as 17, gave rise to 13, argued against 12, in contact with 10, broke with 6.
-- Grades of the links this pass added: Documented 59, Widely Accepted 11, Dominant Modern Reconstruction 3, Inferential-Thin 3, Contested 1.
+- Links touching an era-8 movement: 94. This pass added 64 and rewrote 2 (the Methodist links to the Holiness movement and the Black Church: one note failed the reading target, the other merged two towns); 3 older links were kept as checked; 25 came from the era 6 and era 7 passes. No link retired; every published ID stands.
+- The pass drafted 78 new links. At the merges, 14 were dropped because an earlier pass had published the same ID first: 1 with era 6 and 13 with era 7 (see "Merges with other passes").
+- Census links in all: 442 before this pass, 506 after. Data release 13 (2026-11-08).
+- Types of the links this pass added: influenced 17, argued against 12, gave rise to 10, continued as 10, in contact with 9, broke with 6.
+- Grades of the links this pass added: Documented 49, Widely Accepted 9, Dominant Modern Reconstruction 3, Inferential-Thin 3.
 - Dispositions of the named relationships (drafting, 367): link 182, no-entry 112, not-a-relationship 39, qualify 21, out-of-scope 7, remove 6. "no-entry" means the other party has no census movement; its claim was still checked, and qualified where no vendored or repo-cited source supports it.
 - Prose: 38 movement fields changed across 21 movements. Every changed paragraph, note and outcome scores Reading Ease 60 or more and FK grade 10 or less with `engine.m7.turn_readability.score_turn` (each prose change and revision file carries its scores).
 - Quote check: `node tools/validate-census.mjs --base <main's census> --atlas cft-website/index.html --tree cft-website/tree`, 0 errors. Every primary quote appears verbatim at its stated lines. Several quotes keep OCR errors exactly as printed (e.g. "lansenii", "Jefuites", the long s as f); each is noted in the link's drafting flags.
 
 ## Major links
 
-Counted over the 79 links this pass added or rewrote.
+Counted over the 66 links this pass added or rewrote.
 
 | | Count |
 |---|---|
-| Major by type | 37 (continued as 17, gave rise to 14, broke with 6) |
-| Major by outcome | 14 (argued against 8, in contact with 4, influenced 2) |
-| Outcome kinds | council or law 8, rule changed 5, split 1 |
-| Judged minor | 28 (influenced 18, in contact with 6, argued against 4) |
+| Major by type | 27 (gave rise to 11, continued as 10, broke with 6) |
+| Major by outcome | 12 (argued against 8, in contact with 4) |
+| Outcome kinds | council or law 8, rule changed 3, split 1 |
+| Judged minor | 27 (influenced 18, in contact with 5, argued against 4) |
 
-Fourteen is more than "a few". The reviewer checked every one against the test and found none over-called. The judgment calls the drafters flagged were kept because they fit the rule's wording: state acts count where the rule names "law" (the Conventicle Act of 1664; Catherine II's decree of 1795); a receiving side's own council binding by law is more than a practice merely taken up (Moscow 1656; Zamość 1720); and the Kyiv move of 1686 changed a settlement and was carried out, though no link type names a transfer of jurisdiction (Open-Gaps, "No link type for a transfer of jurisdiction", 2026-11-08). Every outcome's evidence lies inside a quote cited on its link.
+Review left 14 outcomes. At the merge with era 7, two were removed under Mark's ruling that a church body adopting another side's text or worship order by its own vote is minor (Decision-Log, "Major links: a church body adopting another's text by vote is minor", 2026-11-08): the Zamość synod of 1720, which made laws following Trent, and the Moscow council of 1656 on the corrected service book. Their sentences are kept in `Final.json` (`dropped_outcome`).
+
+Twelve is still more than "a few". The reviewer checked every outcome against the test and found none over-called. State acts count where the rule names "law" (the Conventicle Act of 1664; Catherine II's decree of 1795). The Kyiv move of 1686 changed a settlement and was carried out, though no link type names a transfer of jurisdiction (Open-Gaps, "No link type for a transfer of jurisdiction", 2026-11-08). Every outcome's evidence lies inside a quote cited on its link.
 
 
 ## Merges with other passes
 
-- The major-links pass (mchadwick25-droid/CIC-Project#1543, data release 10) and era 6 (mchadwick25-droid/CIC-Project#1544, data release 11) merged first; this pass took 12. Neither changed an era-8 movement's text or an era-8 link this pass kept or rewrote.
-- Era 6 published `hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia` (influenced, Documented) first. This pass drafted the same link on the same evidence; the published version stands and this draft is dropped (`Final.json`, `merge_notes`).
-- This pass draws three links era 6 held for it (Open-Gaps, "Three era-6 holds closed by era 8", 2026-11-08).
+- The major-links pass (mchadwick25-droid/CIC-Project#1543, data release 10), era 6 (#1544, release 11) and era 7 (#1546, release 12) merged first; this pass took 13, in the order the era 1 thread set for the open link passes. None of them changed an era-8 movement's text or a link this pass kept or rewrote.
+- Era 6 published `hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia` first, as this pass drafted it. The published version stands.
+- Era 7 published 13 links first on the same IDs. The published versions stand. Ten agree with this pass on type. Three do not (Czech churches to the Moravians; Anabaptists and Baptists; the Russian church before Nikon to the Old Believers), and are logged for P2-L11 (Open-Gaps, "Era 7 and era 8 typed three links differently", 2026-11-08).
+- Era 7's `armenian-christianity-new-julfa--armenian-christianity-era-8` rests on the Apostolic catholicoi; the Armenian Apostolic movement Mark ruled for will take it over (Open-Gaps, "The Armenian line after the new movement", 2026-11-08).
+- Every dropped draft is in `Final.json` with `action: "drop"` and its reason.
 
 ## Open items
 
 Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08):
-- No Armenian Apostolic movement for 1650-1815. Portfolio structure, for Mark.
+- No Armenian Apostolic movement for 1650-1815. Ruled by Mark the same day: add one, in its own pull request.
 - No movement owns English Unitarianism (with the Swedenborgian exchange with Priestley). For Mark.
 - No link type for a transfer of jurisdiction. A method question, for Mark.
 - The Society of Jesus ends in 1650. For the era 7 owner and Mark.
@@ -56,6 +61,8 @@ Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08)
 - Page recordings read the old descriptions, era 8 (four pages). A paid voice run, for Mark.
 - Held for later link passes, from era 8.
 - Well-known facts with no vendored source, era 8.
+- Era 7 and era 8 typed three links differently. For P2-L11.
+- The Armenian line after the new movement.
 
 ## Wanted texts
 
@@ -73,7 +80,7 @@ Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08)
 
 Every relationship named in an era-8 movement's `relationsSummary`, `longDescription`, `why` or `legacy` has a link, or its sentence was qualified or removed, or it names no census movement, or it is not a relationship claim (per relationship: `Final.json`, `dispositions`). Round 1 found no unlinked relationship still stated as fact.
 
-### Major links by outcome (14)
+### Major links by outcome (12)
 
 | Link | Type | Kind | Outcome | Evidence |
 |---|---|---|---|---|
@@ -84,28 +91,23 @@ Every relationship named in an era-8 movement's `relationsSummary`, `longDescrip
 | `catholic-church-ancien-regime--the-society-of-jesus` | argued against | council-law | In 1773 Pope Clement XIV shut down the Society of Jesus, after the kings of France, Spain, Portugal and Sicily had thrown it out. | `clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt` 1362-1366 |
 | `russian-church-nikon-to-holy-synod--the-old-believers--2` | argued against | council-law | A Moscow church council, with two Eastern patriarchs on it, laid a solemn curse on Avvakum and the priest Lazar. | `subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt` 998-999 |
 | `russian-church-nikon-to-holy-synod--the-old-believers--3` | in contact with | rule-changed | In 1800 Tsar Paul I approved terms that let Old Believers who joined the official church keep using the old books. | `conybeare_russian-dissenters_1921.txt` 5535-5538 |
-| `orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod` | influenced | rule-changed | In 1656 a council in Moscow ruled that priests could use only the service book corrected from old Greek copies. | `subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt` 448-450 |
 | `russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival` | in contact with | rule-changed | Two Eastern patriarchs confirmed by letter that the church of Kyiv now came under the patriarch of Moscow. | `mouravieff_history-of-the-church-of-russia_blackmore1842.txt` 11424-11427 |
 | `russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century` | argued against | council-law | In 1795 Catherine II ruled that all those whose families had joined the union after 1595 must go back to the Russian church. | `pelesz_geschichte-der-union-bd2-deu_1880.txt` 41250-41254 |
-| `the-tridentine-church--ruthenian-uniate-18th-century` | influenced | rule-changed | At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi. | `mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt` 137965-137967 |
 | `orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva` | argued against | council-law | In 1672 the Synod of Jerusalem met against the Calvinists and ruled that their faith could not be the faith of the Eastern Church. | `dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt` 579-583 |
 | `catholic-church-ancien-regime--melkite-greek-catholic-church` | in contact with | rule-changed | In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730. | `mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt` 10444-10455 |
 | `armenian-christianity-era-8--catholic-church-ancien-regime` | in contact with | split | In 1742 Pope Benedict XIV gave the Armenians in union with Rome a church of their own, with a patriarch placed under Rome. | `ormanian_church-of-armenia_gregory1912.txt` 4533-4536 |
 
-### Links judged minor (28)
+### Links judged minor (27)
 
 | Link | Type | Why not major |
 |---|---|---|
 | `german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut` | influenced | Ideas and schooling passed on; no council, split or ruling is shown. |
 | `german-pietism-spener-francke-halle--the-methodist-revival` | influenced | Reading and a visit; no institutional act. |
-| `the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata` | influenced | A teaching taken up; no council, split or ruling is shown. |
 | `the-moravian-church-at-herrnhut--the-methodist-revival` | influenced | Teaching passed person to person; no institutional act. |
 | `puritanism--the-methodist-revival` | influenced | Reading and family heritage; no institutional act. |
 | `the-methodist-revival--the-holiness-movement` | influenced | A teaching taken up by later writers; no institutional act. |
-| `the-anabaptist-movements--the-baptists` | in contact with | The application asked for union; neither source shows a body deciding on it or a church changing a rule. |
 | `the-evangelical-awakening-in-new-england--the-baptists` | influenced | Carey takes up Brainerd's example in a book; no body acts on it in these sources. |
 | `the-methodist-revival--the-evangelical-awakening-in-new-england` | influenced | A practice taken up across parishes; no body or law changed a rule in these sources. |
-| `puritanism--the-evangelical-awakening-in-new-england` | influenced | A teacher's books followed by a later writer; no institutional act. |
 | `english-old-dissent--the-evangelical-awakening-in-new-england` | influenced | Hymns taken up by readers elsewhere; no institutional act. |
 | `the-evangelical-awakening-in-new-england--english-old-dissent` | influenced | London ministers took up and published a text; no institutional act. |
 | `english-old-dissent--the-methodist-revival` | in contact with | A single visit; no institutional act. |
@@ -122,6 +124,8 @@ Every relationship named in an era-8 movement's `relationsSummary`, `longDescrip
 | `camisard-prophetism--the-methodist-revival` | in contact with | A single visit; no institutional act. |
 | `camisard-prophetism--shakers` | influenced | A spirit and a way of worship taken up by others; no council, split or authority's ruling is involved. |
 | `the-old-believers--russian-church-nikon-to-holy-synod` | argued against | A written protest by prisoners; the cited lines show no council, split into a separate body, or rule changed by the Old Believers' side. |
+| `orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod` | influenced | A church body adopting another side's text or worship order by its own vote is a text taken up, not a rule changed by an authority (Decision-Log, 'Major links: a church b… |
+| `the-tridentine-church--ruthenian-uniate-18th-century` | influenced | A church body adopting another side's text or worship order by its own vote is a text taken up, not a rule changed by an authority (Decision-Log, 'Major links: a church b… |
 | `orthodoxy-under-the-ottomans-1650-1821--the-huguenots` | argued against | The synod refutes a French minister's claim about the Eastern Church; its condemnation is of Calvinist teaching as a whole, which the link to Calvin's Geneva carries. |
 | `armenian-christianity-era-8--armenian-christianity-zartonk` | influenced | Books and scholarship taken up by a later movement; no council, split or ruling. |
 
@@ -168,14 +172,34 @@ Every link touching an era-8 movement, and where its relationship is named (word
 | `the-methodist-revival--the-black-church-in-america` | gave rise to | Documented | rewritten | the-methodist-revival relationsSummary and legacy |
 | `melkite-arabic-christianity--melkite-greek-catholic-church` | gave rise to | Dominant Modern Reconstruction | kept | melkite-greek-catholic-church relationsSummary ('the patriarchate of Antioch split'), longDescription ('one Arabic-speaking, Byzantine-rite community') |
 | `athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia` | influenced | Documented | kept | the-hesychast-revival-paisius-and-the-philokalia longDescription and why ('working through its monastery libraries for the old Greek texts on inner prayer') |
-| `latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime` | influenced | Documented | era 6 pass | see the era 6 audit |
-| `hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia` | influenced | Documented | era 6 pass | see the era 6 audit |
-| `muscovite-monastic-christianity--the-old-believers` | influenced | Inferential-Thin | era 6 pass | see the era 6 audit |
+| `latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime` | influenced | Documented | earlier pass | see that pass's audit |
+| `hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia` | influenced | Documented | earlier pass | the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('Revival of the Palamite line') (this pass's reading; the published version stands) |
+| `muscovite-monastic-christianity--the-old-believers` | influenced | Inferential-Thin | earlier pass | see that pass's audit |
+| `the-anabaptist-movements--the-baptists` | influenced | Contested | earlier pass | the-baptists relationsSummary ('historians are divided on how much direct contact there was between the two movements') (this pass's reading; the published version stands) |
+| `the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata` | influenced | Documented | earlier pass | radical-pietism-and-the-brethren-dunkers-ephrata longDescription and why ('joining Pietist inwardness to Anabaptist convictions'); relationsSummary ('They joined Pietist… (this pass's reading; the published version stands) |
+| `the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england` | continued as | Documented | earlier pass | restoration-georgian-church-of-england longDescription and why ('When the monarchy came back in 1660 so did the bishops and the Prayer Book'); the-english-reformation-and… (this pass's reading; the published version stands) |
+| `the-huguenots--church-of-the-desert-huguenots` | continued as | Documented | earlier pass | church-of-the-desert-huguenots relationsSummary ('what survived after ... outlawed French Protestantism') and longDescription (this pass's reading; the published version stands) |
+| `puritanism--restoration-georgian-church-of-england` | broke with | Documented | earlier pass | see that pass's audit |
+| `puritanism--english-old-dissent` | gave rise to | Documented | earlier pass | see that pass's audit |
+| `puritanism--the-baptists` | gave rise to | Widely Accepted | earlier pass | the-baptists relationsSummary ('grew out of Puritan-Separatist ferment in England'); puritanism legacy ('much of the Baptist tradition come straight out of it') (this pass's reading; the published version stands) |
+| `puritanism--the-evangelical-awakening-in-new-england` | influenced | Documented | earlier pass | the-evangelical-awakening-in-new-england relationsSummary ('grew out of New England Puritanism'); puritanism legacy ('its insistence on personal conversion runs directly… (this pass's reading; the published version stands) |
+| `dutch-further-reformation-and-refuge-culture--german-pietism-spener-francke-halle` | influenced | Documented | earlier pass | see that pass's audit |
+| `the-remonstrants-and-dort--the-methodist-revival` | influenced | Documented | earlier pass | see that pass's audit |
+| `czech-churches-last-century--the-moravian-church-at-herrnhut` | gave rise to | Documented | earlier pass | the-moravian-church-at-herrnhut relationsSummary ('saw itself as the old Bohemian Unity of the Brethren made new', after prose change 4), longDescription and why ('the re… (this pass's reading; the published version stands) |
+| `anti-trinitarian-currents-servetus-polish-brethr--early-american-unitarians-universalists` | influenced | Inferential-Thin | earlier pass | see that pass's audit |
+| `kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo` | gave rise to | Inferential-Thin | earlier pass | the-antonian-movement-in-kongo relationsSummary ('Christianity already two centuries African producing its own prophetess'), longDescription and why ('By 1700 the Kingdom… (this pass's reading; the published version stands) |
+| `new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism` | continued as | Inferential-Thin | earlier pass | colonial-latin-american-devotional-catholicism relationsSummary ('This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form');… (this pass's reading; the published version stands) |
+| `philippine-catholicism--philippine-catholicism-era-8` | continued as | Documented | earlier pass | philippine-catholicism-era-8 relationsSummary ('This continues the story of Philippine Catholicism') (this pass's reading; the published version stands) |
+| `the-kyiv-mohyla-orthodox-revival--russian-church-nikon-to-holy-synod` | influenced | Widely Accepted | earlier pass | see that pass's audit |
+| `russian-church-stoglav-to-nikon--the-old-believers` | influenced | Documented | earlier pass | the-old-believers relationsSummary ('The Old Believers grew out of Muscovite Christianity') (this pass's reading; the published version stands) |
+| `russian-church-stoglav-to-nikon--russian-church-nikon-to-holy-synod` | continued as | Documented | earlier pass | see that pass's audit |
+| `the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century` | continued as | Widely Accepted | earlier pass | ruthenian-uniate-18th-century longDescription and why ('A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands') (this pass's reading; the published version stands) |
+| `armenian-christianity-new-julfa--armenian-christianity-era-8` | continued as | Widely Accepted | earlier pass | see that pass's audit |
+| `orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821` | continued as | Documented | earlier pass | orthodoxy-under-the-ottomans-1650-1821 relationsSummary ('the second act of Orthodoxy under Ottoman rule', after prose change 0) (this pass's reading; the published version stands) |
+| `the-tridentine-church--catholic-church-ancien-regime` | continued as | Documented | earlier pass | see that pass's audit |
 | `german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut` | influenced | Documented | new | german-pietism-spener-francke-halle relationsSummary ('It shaped the Moravian Church at Herrnhut', after prose change 0) and legacy ('The Moravians at Herrnhut grew up cl… |
 | `german-pietism-spener-francke-halle--the-methodist-revival` | influenced | Documented | new | german-pietism-spener-francke-halle legacy ('John Wesley learned from the Moravians, and in 1738 he went to Halle himself. George Whitefield took Francke's orphan house a… |
 | `german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata` | gave rise to | Widely Accepted | new | radical-pietism-and-the-brethren-dunkers-ephrata longDescription ('Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it') and relat… |
-| `the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata` | influenced | Widely Accepted | new | radical-pietism-and-the-brethren-dunkers-ephrata longDescription and why ('joining Pietist inwardness to Anabaptist convictions'); relationsSummary ('They joined Pietist… |
-| `czech-churches-last-century--the-moravian-church-at-herrnhut` | continued as | Contested | new | the-moravian-church-at-herrnhut relationsSummary ('saw itself as the old Bohemian Unity of the Brethren made new', after prose change 4), longDescription and why ('the re… |
 | `the-moravian-church-at-herrnhut--the-methodist-revival` | influenced | Documented | new | the-moravian-church-at-herrnhut relationsSummary ('It had a deep effect on John Wesley', after prose change 4) and legacy (Wesley met Moravians at sea and in London); the… |
 | `puritanism--the-methodist-revival` | influenced | Widely Accepted | new | the-methodist-revival relationsSummary ('Methodism grew from Puritan piety') |
 | `restoration-georgian-church-of-england--the-methodist-revival` | gave rise to | Documented | new | the-methodist-revival relationsSummary ('inside the Church of England') and longDescription ('Church of England priest', 'renew the Church of England from inside') |
@@ -183,13 +207,10 @@ Every link touching an era-8 movement, and where its relationship is named (word
 | `the-methodist-revival--nineteenth-century-methodism` | continued as | Widely Accepted | new | the-methodist-revival legacy ('The British connexion separated ... American Methodism organized itself as a church in 1784'); the census continuesAs field pairs the two |
 | `the-quakers-religious-society-of-friends--nineteenth-century-quakerism-separations` | continued as | Widely Accepted | new | the-quakers-religious-society-of-friends legacy ('it divided in the nineteenth century into unprogrammed, evangelical and pastoral branches'); the census continuesAs fiel… |
 | `puritanism--the-quakers-religious-society-of-friends` | gave rise to | Documented | new | the-quakers-religious-society-of-friends relationsSummary ('Radical child of the Puritan ferment'; after prose change 3, 'grew out of the most radical edge of the Puritan… |
-| `puritanism--the-baptists` | gave rise to | Documented | new | the-baptists relationsSummary ('grew out of Puritan-Separatist ferment in England'); puritanism legacy ('much of the Baptist tradition come straight out of it') |
-| `the-anabaptist-movements--the-baptists` | in contact with | Documented | new | the-baptists relationsSummary ('historians are divided on how much direct contact there was between the two movements') |
 | `the-baptists--the-missionary-movement-s-native-churches-seramp` | gave rise to | Inferential-Thin | new | the-baptists relationsSummary ('From the Baptists came William Carey's missionary movement'), longDescription and why (Carey's society and his sailing for India); the Ser… |
 | `restoration-georgian-church-of-england--the-baptists` | argued against | Documented | new | the-baptists longDescription ('They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol') |
 | `the-evangelical-awakening-in-new-england--the-baptists` | influenced | Documented | new | the-evangelical-awakening-in-new-england legacy ('the missionary societies ... traced their impulse back to it ... through Edwards's Life of David Brainerd'); the-baptist… |
 | `the-methodist-revival--the-evangelical-awakening-in-new-england` | influenced | Documented | new | the-evangelical-awakening-in-new-england longDescription ('When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a ge… |
-| `puritanism--the-evangelical-awakening-in-new-england` | influenced | Documented | new | the-evangelical-awakening-in-new-england relationsSummary ('grew out of New England Puritanism'); puritanism legacy ('its insistence on personal conversion runs directly… |
 | `english-old-dissent--the-evangelical-awakening-in-new-england` | influenced | Documented | new | english-old-dissent legacy ('Watts's and Doddridge's hymns are sung every week in churches that have never heard of Old Dissent'); longDescription (Watts's hymns) |
 | `the-evangelical-awakening-in-new-england--english-old-dissent` | influenced | Documented | new | english-old-dissent relationsSummary and longDescription ('the Congregationalists ... were reinvigorated by the eighteenth-century revival', rewritten in prose changes 7… |
 | `english-old-dissent--the-methodist-revival` | in contact with | Documented | new | english-old-dissent relationsSummary and longDescription ('reinvigorated by the eighteenth-century revival', rewritten in prose changes 7 and 8); legacy (Doddridge) |
@@ -213,17 +234,12 @@ Every link touching an era-8 movement, and where its relationship is named (word
 | `quietist-controversy-molinos-guyon--the-methodist-revival` | influenced | Documented | new | quietist-controversy-molinos-guyon legacy ('read warmly by ... Methodists', rewritten in prose change 1) |
 | `the-huguenots--camisard-prophetism` | gave rise to | Documented | new | camisard-prophetism relationsSummary ('Aftermath of the Huguenot tradition's suppression'), longDescription and why ('After Louis XIV outlawed Protestantism in 1685') |
 | `church-of-the-desert-huguenots--camisard-prophetism` | argued against | Documented | new | church-of-the-desert-huguenots longDescription ('discouraged the prophesying that had led to the Camisard rising') and relationsSummary ('The Camisard prophetic uprising… |
-| `the-huguenots--church-of-the-desert-huguenots` | continued as | Documented | new | church-of-the-desert-huguenots relationsSummary ('what survived after ... outlawed French Protestantism') and longDescription |
 | `camisard-prophetism--the-methodist-revival` | in contact with | Inferential-Thin | new | camisard-prophetism legacy ('echoes reaching later revival movements', made concrete in prose change 3) |
 | `catholic-church-ancien-regime--the-society-of-jesus` | argued against | Documented | new | catholic-church-ancien-regime relationsSummary ('the expulsion and suppression of the Jesuits between 1759 and 1773'; 'the Jesuits restored in 1814'), longDescription, wh… |
 | `catholic-church-ancien-regime--catholic-church-long-nineteenth-century` | continued as | Documented | new | catholic-church-ancien-regime legacy ('what emerged after 1815'; 'what emerged after 1815'; after prose change 2, 'The same line of popes carried it into the nineteenth c… |
 | `restoration-georgian-church-of-england--victorian-church-of-england` | continued as | Documented | new | restoration-georgian-church-of-england legacy ('It continues as the Church of England'; 'the 1662 Prayer Book, still the church's legal standard'); its continuesAs field |
-| `the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england` | continued as | Documented | new | restoration-georgian-church-of-england longDescription and why ('When the monarchy came back in 1660 so did the bishops and the Prayer Book'); the-english-reformation-and… |
 | `camisard-prophetism--shakers` | influenced | Documented | new | shakers relationsSummary (after prose change 0: 'taken up the spirit of the French Prophets'); camisard-prophetism longDescription ('some of the prophets escaped to Londo… |
 | `the-quakers-religious-society-of-friends--shakers` | gave rise to | Documented | new | shakers relationsSummary (after prose change 0: 'They had left the Quakers'); longDescription and why ('a small group of dissenters in Manchester') |
-| `kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo` | gave rise to | Widely Accepted | new | the-antonian-movement-in-kongo relationsSummary ('Christianity already two centuries African producing its own prophetess'), longDescription and why ('By 1700 the Kingdom… |
-| `new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism` | continued as | Documented | new | colonial-latin-american-devotional-catholicism relationsSummary ('This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form');… |
-| `russian-church-stoglav-to-nikon--the-old-believers` | gave rise to | Documented | new | the-old-believers relationsSummary ('The Old Believers grew out of Muscovite Christianity') |
 | `russian-church-nikon-to-holy-synod--the-old-believers` | broke with | Documented | new | the-old-believers relationsSummary ('the enduring counterpart to the official church's Nikonian reforms') and longDescription ('a great part of the Russian church refused… |
 | `russian-church-nikon-to-holy-synod--the-old-believers--2` | argued against | Documented | new | the-old-believers longDescription ('the council of 1666-67 anathematized them') and why ('was anathematized for it in 1666'); russian-church-nikon-to-holy-synod longDescr… |
 | `the-old-believers--russian-church-nikon-to-holy-synod` | argued against | Documented | new | the-old-believers longDescription ('a church they concluded had fallen') and why ('refused to accept it as a mere detail') |
@@ -235,10 +251,8 @@ Every link touching an era-8 movement, and where its relationship is named (word
 | `russian-church-nikon-to-holy-synod--russian-church-synodal-century` | continued as | Documented | new | russian-church-nikon-to-holy-synod legacy ('The synodal arrangement lasted until 1917') |
 | `russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century` | argued against | Dominant Modern Reconstruction | new | ruthenian-uniate-18th-century relationsSummary ('forced-reversion campaigns of 1794-96 stripped away most of its parishes'), longDescription and why ('campaigns of forced… |
 | `the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal` | gave rise to | Documented | new | the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('direct source of the Optina tradition'), why and legacy (after prose changes 2 and 3) |
-| `the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century` | continued as | Documented | new | ruthenian-uniate-18th-century longDescription and why ('A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands') |
 | `ruthenian-uniate-18th-century--ruthenian-greek-catholic-polotsk-to-galicia` | continued as | Documented | new | ruthenian-uniate-18th-century relationsSummary ('Austrian Galicia became the church's real zone of survival') and legacy ('The Galician remnant ... The Ukrainian Greek Ca… |
 | `the-tridentine-church--ruthenian-uniate-18th-century` | influenced | Documented | new | ruthenian-uniate-18th-century relationsSummary ('importing Latin devotional practices into its Byzantine rite') and longDescription and why ('importing Roman devotional p… |
-| `orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821` | continued as | Documented | new | orthodoxy-under-the-ottomans-1650-1821 relationsSummary ('the second act of Orthodoxy under Ottoman rule', after prose change 0) |
 | `orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva` | argued against | Documented | new | orthodoxy-under-the-ottomans-1650-1821 longDescription and why ('answering the Calvinist ideas'), relationsSummary after prose change 0 |
 | `orthodoxy-under-the-ottomans-1650-1821--the-huguenots` | argued against | Documented | new | orthodoxy-under-the-ottomans-1650-1821 relationsSummary ('answered French Calvinists', after prose change 0) |
 | `orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies` | continued as | Documented | new | orthodoxy-under-the-ottomans-1650-1821 legacy ('each took its own church with it', after prose change 1); relationsSummary (Gregory V's hanging) |
@@ -246,5 +260,4 @@ Every link touching an era-8 movement, and where its relationship is named (word
 | `catholic-church-ancien-regime--melkite-greek-catholic-church` | in contact with | Documented | new | melkite-greek-catholic-church longDescription ('recognized by the pope in 1729') and why ('Rome recognized Cyril's line in 1729') |
 | `armenian-christianity-era-8--catholic-church-ancien-regime` | in contact with | Documented | new | armenian-christianity-era-8 relationsSummary, longDescription, why ('Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia') |
 | `armenian-christianity-era-8--armenian-christianity-zartonk` | influenced | Widely Accepted | new | armenian-christianity-era-8 legacy ('laid much of the groundwork for the nineteenth-century Armenian cultural revival, the Zartonk') |
-| `philippine-catholicism--philippine-catholicism-era-8` | continued as | Documented | new | philippine-catholicism-era-8 relationsSummary ('This continues the story of Philippine Catholicism') |
 | `philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay` | continued as | Widely Accepted | new | philippine-catholicism-era-8 relationsSummary ('building toward the crisis of 1872'); legacy (Gomburza, after prose change 4) |
