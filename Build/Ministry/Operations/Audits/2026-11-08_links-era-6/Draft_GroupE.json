@@ -1,0 +1,1807 @@
+{
+ "group": "E",
+ "movements": [
+  "the-ethiopian-monastic-flowering",
+  "terminal-christian-nubia",
+  "church-of-the-east-timur-to-hakkari",
+  "armenian-cilicia-after-the-kingdom",
+  "maronite-christianity-era-6",
+  "st-thomas-christians-1300-1517"
+ ],
+ "links": [
+  {
+   "id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "action": "new",
+   "from": "church-of-the-east-timur-to-hakkari",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1490 three Christians set out from India to ask the patriarch Simeon for bishops. He made two monks bishops and sent them back with the Indians. In 1504 a later group of bishops wrote to the patriarch from Malabar that its Christians had welcomed them.",
+   "outcome_considered": "The sources show bishops sent and a letter sent back within one church. They show no council, no split and no rule changed by the exchange.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1797-1800",
+     "locus": "Mingana 1926, pp. 36-37 (Assemani, Bibl. Orient. III.1, p. 590)",
+     "quote": "In the year one thousand eight hundred and one of Alexander (a.D. 1490), three believing Christian men came from the remote countries of India to the Catholicos Mar Simeon, Patriarch of the East, in order to bring bishops to their countries.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1821-1826",
+     "locus": "Mingana 1926, p. 37",
+     "quote": "the Catholicos ordained both of them bishops in the Church of St. George. He named one Thomas and the other John, and he wrote to them admirable letters patent sealed with his own seal.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1894-1899",
+     "locus": "Mingana 1926, p. 38, the letter of 1504",
+     "quote": "All the Christians of this side were greatly pleased with us, and our Father Mar John is still alive and hale and sends thee his greetings.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "church-of-the-east-timur-to-hakkari relationsSummary ('along with the community in India, the one province Timur's armies never reached'), longDescription and why ('went on receiving bishops from a patriarch'), legacy ('the Indian province that outlasted the catastrophe'); st-thomas-christians-1300-1517 relationsSummary ('later correspondence with the catholicos'), longDescription and why ('A delegation traveled to the patriarch around 1490 asking for bishops')",
+   "wants": [
+    "A full English translation of the 1504 letter of the bishops of India to the patriarch (Syriac original; Latin in Assemani, Bibl. Orient. III.1, at file line 93562 of the shelf copy)"
+   ],
+   "drafter_flags": [
+    "Mingana's English is a translation of the Syriac printed by Assemani; the quotes are Mingana's words, read at the cited lines. Assemani's Latin (III.1, file line 93562) was not compared."
+   ],
+   "change_reason": "New link. Both texts name the Indian province and its bishops from the patriarch; no link joined the two."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "action": "new",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "In 1301 a scribe in Malabar finished a book of Paul's letters for the church. His closing note names the patriarch Yahballaha, 'the Turk', as head of the Church of the East, and Jacob as metropolitan of India. The note shows the bond, but no letter or meeting from these years survives.",
+   "outcome_considered": "A scribe's closing note shows that the patriarch was recognized. It records no council, no split and no changed rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3524-3528",
+     "locus": "Mingana 1926, p. 69 (fol. 93b)",
+     "quote": "in the time of the great pilot and director of the holy Catholic Church of the East,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3527-3529",
+     "locus": "Mingana 1926, p. 69 (fol. 93b)",
+     "quote": "our blessed -and holy Father Mar Yahb Alaha V., the Turk, Catholicos Patriarch of the East",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3519-3520",
+     "locus": "Mingana 1926, p. 69",
+     "quote": "The colophon, which informs us that it was written in A.D. 1301, is as follows:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "st-thomas-christians-1300-1517 relationsSummary ('A manuscript colophon from 1301 shows the community's link to its patriarch in Mesopotamia still held'), longDescription and why ('names the patriarch Yahballaha III in its colophon')",
+   "wants": [
+    "The Syriac text of the 1301 colophon (Vat. Syr. 22), to check Mingana's numbering 'Yahb Alaha V.' against the usual 'Yahballaha III'"
+   ],
+   "drafter_flags": [
+    "Type is a judgement call: the colophon is commemoration, not a meeting or letter. Graded Widely Accepted rather than Documented for that reason; Mingana is the secondary that prints and frames it. A reviewer may prefer to fold this into the existing continuation from st-thomas-christians-of-india, which already cites the same colophon for Jacob.",
+    "Mingana numbers the patriarch 'Yahb Alaha V.'; the movement text says Yahballaha III. The note avoids a numeral. Same man (the date 1301 and 'the Turk' fit the Ongud patriarch of 1281-1317).",
+    "The file reads 'follows:2' (a footnote mark); the quote stops before it."
+   ],
+   "change_reason": "New link. The St Thomas text names the 1301 colophon's patriarch, who belongs to the Mongol-era movement (to 1317); no link joined them."
+  },
+  {
+   "id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "action": "new",
+   "from": "church-of-the-east-timur-to-hakkari",
+   "to": "church-of-the-east-schism-of-1552",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A history sent with the bishops' letter of 1504 says the patriarch Elijah died and Simon took his place. The scholar Andreas Masius wrote in the 1550s that the patriarch Simeon Mama had died and a rival, Sulaka, was chosen. In Assemani's list of 1725, Simeon's nephew takes the seat in 1552 while Sulaka goes to Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1866-1868",
+     "locus": "Mingana 1926, p. 38",
+     "quote": "before its arival the Catholicos Mar Elijah died, and was buried in the Church of St. Miskainta of Mosul. He was succeeeded by Mar Simon, the Catholicos and Patriarch.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghiselin de Busbecq (1550s), as quoted in J. S. Assemani, Bibliotheca Orientalis III.1 (1725)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "56347-56350",
+     "locus": "Bibl. Orient. III.1, on the Gospel lectionary of 1539",
+     "quote": "ut weriua Simeone Mama ipforum Tatriareba, atque alio Sulacbafve Siud nomine eleBo , ne $inus quidem effet Metropolitanus reliquus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), list of the patriarchs of the East",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101047",
+     "locus": "Bibl. Orient. III.1, series patriarcharum, nos. 91-92",
+     "quote": "Simeon qui & Dcnha , co- gnomento Bar-Mama , Simeonis cu- jus fupri fafla eft mentio, ex fratre nepos, anno Chrifti IJ52. Sedem invafit , quum catholici Sulakam monachum fibi Patriarcham a Ro-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), list of the patriarchs of the East",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101065-101071",
+     "locus": "Bibl. Orient. III.1, series patriarcharum",
+     "quote": "Romam ut Ii Romano Pontifice confecraretur , petiit , quo pervenit die 18. Novembris anni Grzcorum 1864. Chrifti 1552.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "church-of-the-east-timur-to-hakkari relationsSummary ('In 1552 the church split when part of it entered communion with Rome'), legacy ('The hereditary patriarchate ... split in 1552'); church-of-the-east-schism-of-1552 relationsSummary ('Told within the Church of the East, Timur to Hakkari')",
+   "wants": [
+    "Masius's letter to Busbecq in a clean edition (the shelf copy is Assemani's quotation, heavily damaged by OCR)",
+    "Sulaqa's own profession of 1553 and the Roman consistorial acts"
+   ],
+   "drafter_flags": [
+    "ERA-7 DE-DUPLICATION: the far end is an era-7 movement; the sibling era-7 session may draft the same continuation. Merge should keep one.",
+    "OCR: the Masius quote is heavily garbled ('weriua' = mortuo, 'Tatriareba' = Patriarcha, 'Sulacbafve' = Sulacha sive, '$inus' = unus); copied as the file has it. Assemani's '1J5X' and 'IJ52' are OCR for 1552; the letter's year is garbled ('155*') at line 56339.",
+    "Line ranges in Assemani's two-column catalogue: verify 101042-101047 and 101065-101071 join as quoted (101063 holds a margin label)."
+   ],
+   "change_reason": "New link. The Timur-to-Hakkari text names the 1552 split, and the era-7 movement says it is told within this church."
+  },
+  {
+   "id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "action": "new",
+   "from": "st-thomas-christians-1300-1517",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1504 bishops sent by the patriarch wrote from Malabar about its Christians, their towns and their churches. In 1599 the archbishop who called the Synod of Diamper wrote that the pope had told him to bar any bishop coming from Babylon. That, he said, had been the custom until then.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1921-1926",
+     "locus": "Mingana 1926, p. 39, the letter of 1504",
+     "quote": "our country in which the Christians are found is called Malabar.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), the archbishop's summons, in Michael Geddes's English (1694)",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "8826-8830",
+     "locus": "Synod of Diamper, the publication and calling of the synod",
+     "quote": "he commanded us upon the death of the Archbifbop Mar- Abraham, to take Poffeffion ofthis Church and Bi- froprick, fo as not to fuffer any Bifbop or Prelate coming from Babylon, to exter thereiz, as has been — hitherto the Cuftom,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "st-thomas-christians-1300-1517 legacy ('The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653')",
+   "wants": [],
+   "drafter_flags": [
+    "ERA-7 DE-DUPLICATION: the far end is an era-7 movement; the sibling era-7 session may draft the same continuation.",
+    "Check the Malabar quote's line range (1921-1926) joins to the quoted sentence; the quote sits on lines 1921-1922.",
+    "Geddes's OCR: 'Archbifbop', 'exter thereiz', 'Cuftom' copied as in the file."
+   ],
+   "change_reason": "New link. The legacy names the Portuguese-era church; no link joined the two."
+  },
+  {
+   "id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "action": "new",
+   "from": "the-ethiopian-monastic-flowering",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the 1520s a Portuguese priest, Francisco Alvares, saw the king bury the abbot of Debra Libanos and pick a new one. He says that post was the highest in the land after the bishop. A hundred years later the Jesuit Afonso Mendes still traced the monks to Tekle Haymanot and to Eustatheus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Alvares, Narrative of the Portuguese Embassy to Abyssinia, 1520-1527 (trans. Stanley, 1881), ch. 66",
+     "file": "cic/texts/alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt",
+     "lines": "7618-7621",
+     "locus": "ch. lxvi, the monastery of Debra Libanos",
+     "quote": "This Ichee of this monastery is the greatest prelate there is in these kingdoms, exclusive of the Abima Marcos, who is over all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Afonso Mendes, Expeditio Aethiopica, book I (ed. Beccari, 1908)",
+     "file": "cic/texts/mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
+     "lines": "6550-6555",
+     "locus": "Expeditio Aethiopica I, the Ethiopian monks",
+     "quote": "Hi deinde in duas acies sunt divisi, qua- rum illustrior et faecundior sub Teclae Haymanot et Ichegue, idest, Abbatis Generalis ipsius successoris signis, in celebri Xaoae cae- nobio, dicto Debra Libanos,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-ethiopian-monastic-flowering legacy ('The tradition carried on through the wars and upheavals of the century that followed'; 'still traces its great monastic houses to the founders of these centuries')",
+   "wants": [],
+   "drafter_flags": [
+    "ERA-7 DE-DUPLICATION: the far end is an era-7 movement; the sibling era-7 session may draft the same continuation.",
+    "Alvares names the monastery 'Brilibanos' and its head the 'Ichee'; the note uses the usual spelling Debra Libanos. Mendes's 'Eustatheum' is taken as Ewostatewos, as the Ethiopian dossier reads it.",
+    "The legacy's link to the modern church (era 10) is carried by this continuation and the later chain; no direct link drafted."
+   ],
+   "change_reason": "New link. The legacy names the church carrying on into the next century; no link joined the two."
+  },
+  {
+   "id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "action": "new",
+   "from": "armenian-cilicia-after-the-kingdom",
+   "to": "armenian-christianity-new-julfa",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1441 a council of about seven hundred met at Etchmiadzin and moved the head of the church there from Sis. Zakaria of Kanaker, a deacon who wrote in the 1600s, tells how the ruler Jihan Shah gave a catholicos the see by decree. He also shows the catholicos Philippos building its bell tower in his own day.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zakaria of Kanaker, Historical Memoirs (17th century), French trans. Brosset (1876), part I, ch. 5",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "666-669",
+     "locus": "Mémoires, I, ch. 5",
+     "quote": "Ter Zakaria, ca- tholicos d’Aghthamar, étant venu à sa rencontre‘), avec des présents, le prince, qui aimait les chrétiens, le reçut avec bonté et lui conféra par un rescrit*) le catholicat d'Edchmiadzin.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zakaria of Kanaker, Historical Memoirs (17th century), French trans. Brosset (1876)",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "5070",
+     "locus": "Mémoires, on the catholicos Philippos",
+     "quote": "Le catholicos Philippos construisait le clocher d’Edchmiadzin,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia (trans. Gregory, 1912), ch. XV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "3985-3990",
+     "locus": "ch. XV, The Return to Etchmiadzin",
+     "quote": "a general synod of seven hundred members, composed of bishops, archimandrites, doctors of divinity, archpriests, princes, and dignitaries, assembled at Etchmiadzin (May, 1441), and accorded their approval to this decision.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Félix Nève, Étude sur Thomas de Medzoph (Journal asiatique, 1855)",
+     "file": "cic/texts/neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt",
+     "lines": "807-811",
+     "locus": "Nève 1855, p. 236",
+     "quote": "au concile qui fut tenu en i44i, à Vagharschabad , dans l'église même d'Echmiadzin , pour régler les affaires du patriarcat.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "armenian-cilicia-after-the-kingdom relationsSummary ('a national council elects a catholicos at Etchmiadzin (1441) - the seat moves home'), longDescription, why, legacy ('Etchmiadzin has been the Mother See of the Armenian Apostolic Church ever since 1441'); armenian-christianity-new-julfa relationsSummary ('Etchmiadzin's catholicoi continue under Safavid rule')",
+   "wants": [
+    "Thomas of Metsoph's own account of the 1441 council (the chronicle and its appendix on the patriarchate), in any public-domain edition or translation; would give the 1441 move a primary witness"
+   ],
+   "drafter_flags": [
+    "ERA-7 DE-DUPLICATION: the far end is an era-7 movement; the sibling era-7 session may draft the same continuation.",
+    "Zakaria wrote two centuries after Jihan Shah; the 1460 date for Ter Zakaria's grant is Brosset's footnote (line 705), so the note gives no year. Philippos is catholicos 1633-1655 by the usual reckoning; the note says only 'in his own day'.",
+    "The 1441 council rests on Ormanian and Nève (secondary, both read at the cited lines). The link is graded on Zakaria showing the same see before and after 1517."
+   ],
+   "change_reason": "New link. The Armenian text names Etchmiadzin as the see carried forward; no link joined the two."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "armenian-cilicia-after-the-kingdom",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1341 Pope Benedict XII sent the Armenians a long list of errors he said they held. A council of the Armenian church met in 1342 under the catholicos Mekhitar and King Constantine to answer it. An eighteenth-century editor adds that the king had asked the pope for help against the Saracens, and was told to renounce the errors first.",
+   "outcome_considered": "The 1342 council answered the charges, but no source here shows a lasting union, a split or a changed rule. The editor says Rome found the answer wanting and sent new envoys in 1346.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XII, libellus 'Cum dudum' on the errors of the Armenians (1341), in Denzinger, Enchiridion symbolorum (ed. Bannwart, 1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15376-15378",
+     "locus": "Denzinger 532 sqq, Errores Armenorum",
+     "quote": "Errores Armenorum '. [Ex libello alam diidum» ad Arinenos transmisso, a. 1341.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XII, libellus 'Cum dudum' on the errors of the Armenians (1341), in Denzinger, Enchiridion symbolorum (ed. Bannwart, 1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15380",
+     "locus": "Denzinger 532",
+     "quote": "Item quod Armeni dicunt et tenent, quod peccatum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Armenian council of 1342 (answers to Benedict XII's libellus), in Mansi, Sacrorum conciliorum collectio 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109840-109844",
+     "locus": "Mansi 25, col. 1185-1186, Armenorum concilium",
+     "quote": "& regem Armenorum , petendo ab eis, ut cum fynodo antiftitum ecclefie Armenorum fupra- {criptos errores predi&i libelli audirent, cum examinatione condemnarent tamquam inimicos catholice fidei,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109832",
+     "locus": "Mansi 25, col. 1185, opening of the acts (right column)",
+     "quote": "divina Catholicon omnium Armenorum, de vo-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edmond Martène, preliminary note to the acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109790",
+     "locus": "Mansi 25, col. 1185, Observatio praevia",
+     "quote": "Leo vex Armenorunt , miffis ad Benedittum papam XII, legatis , auxitium ab eo poftulaffer",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edmond Martène, preliminary note to the acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109791",
+     "locus": "Mansi 25, col. 1185, Observatio praevia",
+     "quote": "adverfus Sarracenos, a quibus graviffimas clades acceperat; refpondit pontifes nullam ab eccle-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia (trans. Gregory, 1912), ch. XIV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "3899-3903",
+     "locus": "ch. XIV, Leanings towards Unity",
+     "quote": "The Armenian Church, however, suc ceeded in keeping herself definitively free from Roman Catholic principles. She maintained her administrative independence and her doctrinal individuality,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "armenian-cilicia-after-the-kingdom longDescription ('repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted'), why ('a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted')",
+   "wants": [
+    "The Armenian council of Sis of 1307 and Adana of 1316 are in Mansi 25 (file lines 12653, 61813) and show the kings pressing union; a reviewer may want a second, 'in contact with' link drawn from them only if a papal act at those councils is shown."
+   ],
+   "drafter_flags": [
+    "PAPACY LINK (group C de-duplication): this touches latin-papal-church-avignon-to-lateran-v.",
+    "Martène's note calls the king Leo, but the 1342 acts name King Constantine; the note follows the acts for 1342 and says only 'the king' for the request. Martène is an 18th-century editor (secondary).",
+    "OCR: Denzinger's 'alam diidum' is 'Cum dudum', 'Arinenos' is 'Armenos'; Mansi's two-column OCR interleaves columns, so quotes are single-column runs only.",
+    "Not drafted: the Council of Florence's Decree for the Armenians (1439, Exultate Deo; Denzinger 695 and Mansi 31 file lines about 98348-99030). The Armenian text does not name Florence; if group C draws a Florence-Armenian link it should go to this movement."
+   ],
+   "change_reason": "New link. The Armenian text names Rome's pressure for union; no link joined the two."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "maronite-christianity-era-6",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1445 Elias, the Maronite bishop on Cyprus, sent his envoy Isaac to Pope Eugenius IV to profess the Roman faith. In 1516 the Maronite patriarch of Mount Lebanon sent men to pledge his obedience at the Fifth Lateran Council. The patriarch, Peter, wrote that popes before him, Eugenius among them, had sent his church gifts.",
+   "outcome": "A bull of Pope Eugenius IV, dated 7 August 1445, took the Maronites of Cyprus into union. It said no one was to call their bishop, priests or people heretics.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt:29209-29216",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, bull 'Benedictus sit Deus' on the union of the Chaldeans and Maronites of Cyprus (1445), with Raynaldus's narrative, in Raynaldus, Annales ecclesiastici 28 (ed. Theiner, 1874)",
+     "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt",
+     "lines": "62418-62423",
+     "locus": "Annales 1445, para. 21",
+     "quote": "Eliam eiiiscoiium Maronitarum ad profitcndaiu omniuni nomine coram Romano Pontifice Catholicam veritatcm, illique rite ac dcmisse ohedientiam dcferendam designarinl. Suscepit legationem Timotheus; Elias vero suo nomine Isaac misit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.2 (Rome, 1728), De Syris Nestorianis, summarizing the bull of 1445",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "29209-29216",
+     "locus": "Bibl. Orient. III.2, p. CCCCXXXIV",
+     "quote": "Exftat ejufdem Eugenii \" BullaDat. VII. Non. Aug.anno 1445. iibirclataipfius Ti- mothei profeflione , nec non Ifaaci nuncii Elia; epifeopi Maronitarum in Cypro , jubet Pontifex ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.2 (Rome, 1728), quoting the bull of 1445",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "29213-29216",
+     "locus": "Bibl. Orient. III.2, p. CCCCXXXIV",
+     "quote": "In primis ejuod nemo pra- 'diilos Chaldteorum Metropolitam y Maronitarum epifeopum y eorun- demque clericos C?” populos , neque ex populo iSf Clero quempiam de ctetero audeat bereticos appellare",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Fifth Lateran Council (1516), in Mansi, Sacrorum conciliorum collectio 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "63569-63570",
+     "locus": "Mansi 32, Lateran V, the session of December 1516",
+     "quote": "orator patriarche Maronitarum montis Libani prefentat & legit mandatum in",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Fifth Lateran Council (1516), in Mansi 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "63581-63582",
+     "locus": "Mansi 32, Lateran V",
+     "quote": "Obedientia per di@os oratores Maronitaram praftatur fandiflimo pontifici.,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Peter, patriarch of the Maronites, letter to Leo X (1516), in Mansi 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "98870-98872",
+     "locus": "Mansi 32, Epistola patriarchae Maronitarum ad Leonem X",
+     "quote": "mifecunt alias {anéti patres: antiqui predeceflo- res fan@titatis veltre , quorum unus, uti memi- nimus , fuitFugenius,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "maronite-christianity-era-6 relationsSummary ('received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516'), longDescription and why (the same), legacy ('remains in full communion with Rome')",
+   "wants": [
+    "The bull of 7 August 1445 in a clean edition with its own dating clause (the date comes from Assemani; Raynaldus's extract does not print it)"
+   ],
+   "drafter_flags": [
+    "PAPACY LINK (group C de-duplication): this touches latin-papal-church-avignon-to-lateran-v.",
+    "Outcome basis (c), a settlement by an authority: the bull's ban on calling the Cypriot Maronites heretics is quoted by Assemani at the outcome locus. Assemani is a 1728 secondary quoting the bull; Raynaldus prints the bull's opening and Timothy's profession but the extract read does not reach the clause.",
+    "The 1445 bull was issued in the council 'Lateranensis' (Raynaldus, lines 62424 and 62556), the Council of Florence after its move to Rome; the movement text's 'Council of Florence' is kept with that gloss.",
+    "Lateran V session date: the nearby schedule is dated 1516, '14 Kal. Jan.' (Mansi 32, about lines 63589-63592); the note says 1516 only.",
+    "The same bull received the Chaldeans (Church of the East) of Cyprus under Timothy of Tarsus. Neither Church of the East text names Cyprus, so no link was drafted for it."
+   ],
+   "change_reason": "New link. The Maronite text names the 1445 union and the 1516 obedience; no link joined the two."
+  },
+  {
+   "id": "maronite-christianity--maronite-christianity-era-6",
+   "action": "new",
+   "from": "maronite-christianity",
+   "to": "maronite-christianity-era-6",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the late 1100s the Syriac Orthodox patriarch Michael wrote that the Maronites still made their own patriarch and bishops. In 1307 the Armenian prince Hetum placed them near Mount Lebanon. In 1516 an envoy of the patriarch of the Maronites of Mount Lebanon came to the Fifth Lateran Council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle, book XI (French trans. Chabot, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "39339-39340",
+     "locus": "Chronique, tome II",
+     "quote": "Les Maronites restèrent comme ils sont encore aujourd'hui. Ils ordonnent un patriarche et des évêques de leur couvent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hetum, The Flower of Histories of the East (1307; trans. Bedrosian)",
+     "file": "cic/texts/hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt",
+     "lines": "1020",
+     "locus": "Flower of Histories, on Syria",
+     "quote": "Maronites follow the Jacobite rite, using the Arabic language and letters. They dwell near Mount Lebanon",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Fifth Lateran Council (1516), in Mansi 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "63569-63570",
+     "locus": "Mansi 32, Lateran V",
+     "quote": "orator patriarche Maronitarum montis Libani prefentat & legit mandatum in",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "maronite-christianity-era-6 longDescription ('Its relationship with Rome, claimed since the crusader period'); maronite-christianity legacy ('The union begun here has held for eight centuries')",
+   "wants": [
+    "Duwayhi's history of the Maronite patriarchs in a clean, readable scan, for the patriarchal line across 1300"
+   ],
+   "drafter_flags": [
+    "Neither text says 'continued as' in so many words; the era-6 text's 'claimed since the crusader period' and the era-5 legacy's 'held for eight centuries' assume it. A period split with no link joining the two Maronite entries, the same shape as the other era-5 to era-6 continuations.",
+    "Graded Documented on name, place and patriarch in dated texts on both sides of 1300 (Michael c. 1195, Hetum 1307, Lateran V 1516). A reviewer may prefer Widely Accepted, as the St Thomas continuation was graded on the same kind of evidence; no repo-cited secondary on Maronite continuity was found to support that grade.",
+    "Hetum calls the Maronite rite 'Jacobite' and does not say they were in Roman obedience (he says that of another group); it is used only for place and name."
+   ],
+   "change_reason": "New link. No link joined the era-5 and era-6 Maronite movements."
+  }
+ ],
+ "dispositions": [
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the earlier Aksumite and Zagwe Christian tradition, carried forward under the new Solomonic dynasty.",
+   "other_id": "aksumite-christianity",
+   "disposition": "existing",
+   "link_id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "reason": "The Aksumite tradition reaches this movement through the published chain aksumite-christianity to post-aksumite to zagwe to this movement (all continued as). A direct link would skip two stages; none drafted.",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the earlier Aksumite and Zagwe Christian tradition, carried forward under the new Solomonic dynasty.",
+   "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "disposition": "existing",
+   "link_id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "reason": "Carried by the published continuation from the Zagwe church, which stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the earlier Aksumite and Zagwe Christian tradition, carried forward under the new Solomonic dynasty.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The dynasty is not a census movement. The Life of Takla Haymanot says Yekuno Amlak 'brought back the kingdom from the Zague' (gadla-takla-haymanot file lines 6760-6761, already cited on the Zagwe link).",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "When the Solomonic dynasty took the Ethiopian throne in 1270, claiming descent from Solomon and the Queen of Sheba, it did so alongside a monastic expansion that carried churches and monasteries deep into newly conquered regions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Dynasty and its Sheba claim: supported by the Kebra Nagast and the Life of Takla Haymanot. Sentence kept, split for reading level.",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "The network Tekle Haymanot built in Shewa, and the northern houses founded by the followers of Ewostatewos.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "A person inside this movement. The Life of Takla Haymanot is his community's account; Mendes (1620s) ties him to Debra Libanos. The fragment 'The network Tekle Haymanot built in Shewa, and ...' is made a full sentence.",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "The network Tekle Haymanot built in Shewa, and the northern houses founded by the followers of Ewostatewos.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "A group inside this movement. Mendes (mendes file lines 6550-6552) names Eustatheus as the second founder of Ethiopian monasticism. No text of the Ewostathians themselves is vendored (Gadla Ewostatewos in wants).",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "The relationship between crown and cloister was contested throughout.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Crown and cloister are inside one movement; the sentence is a summary. Supported by the chronicle's Stephanite episode.",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "The Ewostathians insisted on keeping Saturday as well as Sunday as a Sabbath and were harried for generations before the emperor Zara Yaqob finally conceded the point at a council in 1450.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "'Harried for generations' has no vendored or repo-cited source. Kept: the Ewostathians' double Sabbath. The court chronicle shows only the king's order (zara-yaqob file lines 7360-7362).",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "The Ewostathians insisted on keeping Saturday as well as Sunday as a Sabbath and were harried for generations before the emperor Zara Yaqob finally conceded the point at a council in 1450.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "'Conceded the point at a council in 1450': no vendored or repo-cited source for the council or its date (Shared-Events candidates list it as 'no sources at all'). Rewritten to what Zara Yaqob's chronicle says: he ordered the Sabbath kept as holy as Sunday (zara-yaqob file lines 7360-7362).",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "And Zara Yaqob, himself a theological author who reorganized the church and pressed Marian devotion on it, persecuted the monks of Estifanos when they refused the prostrations and observances he demanded.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Supported: the chronicle reports the 'enfants d'Estifa' refusing to bow before Mary and the cross, and their deaths (zara-yaqob file lines 6719-6720, 7944-7945). Wording follows the chronicle.",
+   "prose_change": 0
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "sentence": "When the Solomonic dynasty took the Ethiopian throne in 1270, a monastic expansion led by Tekle Haymanot and the followers of Ewostatewos carried churches deep into newly conquered regions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "As item on the longDescription: Mendes names Eustatheus; sentence kept.",
+   "prose_change": 1
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "sentence": "The Ewostathians were persecuted for generations over their insistence on keeping Saturday as well as Sunday as a Sabbath, until the emperor Zara Yaqob finally conceded the point in 1450, the same emperor who, as a theological author himself, persecuted the monks of Estifanos for refusing his own required observances.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "'Persecuted for generations' unsupported; removed, as in the longDescription.",
+   "prose_change": 1
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "sentence": "The Ewostathians were persecuted for generations over their insistence on keeping Saturday as well as Sunday as a Sabbath, until the emperor Zara Yaqob finally conceded the point in 1450, the same emperor who, as a theological author himself, persecuted the monks of Estifanos for refusing his own required observances.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "'Finally conceded the point in 1450' unsupported; replaced by the chronicle's order on the Sabbath.",
+   "prose_change": 1
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "sentence": "The Ewostathians were persecuted for generations over their insistence on keeping Saturday as well as Sunday as a Sabbath, until the emperor Zara Yaqob finally conceded the point in 1450, the same emperor who, as a theological author himself, persecuted the monks of Estifanos for refusing his own required observances.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Supported by the chronicle (lines 6719-6720).",
+   "prose_change": 1
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "sentence": "It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast, the book that gave the dynasty its claimed descent from Solomon and Sheba.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Kebra Nagast colophon ties the book to the dynasty (kebra-nagast file lines 15312-15314, on the Zagwe link).",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "legacy",
+   "sentence": "The Ethiopian Orthodox Tewahedo Church still keeps the outcome of the Sabbath argument, still sings the Marian hymnody Zara Yaqob's reign promoted, still worships in Ge'ez, and still traces its great monastic houses to the founders of these centuries.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "link",
+   "link_id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "reason": "The living church is reached by continuation through era 7 and later eras. The first step is drafted as a new continuation; the era-7-to-10 steps are for later passes. No direct era-6-to-era-10 link.",
+   "prose_change": null
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "legacy",
+   "sentence": "The tradition carried on through the wars and upheavals of the century that followed into the church of tens of millions of members it is today.",
+   "other_id": "ethiopian-christianity-gragn-to-fasilides",
+   "disposition": "link",
+   "link_id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "reason": "New continuation into the Gragn-to-Fasilides church: Alvares (1520s) at Debra Libanos and Mendes (1620s) on its founders.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "sentence": "Patriarch Yahballaha III died in 1317 as anti-Christian persecution closed in, and Timur's campaigns between the 1380s and 1405 destroyed the church's lowland dioceses.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Ilkhanid persecution: the Mongol rulers are not a census movement. The existing continuation note from the Mongol-era church covers the 1317 death; not a new relationship.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "sentence": "Patriarch Yahballaha III died in 1317 as anti-Christian persecution closed in, and Timur's campaigns between the 1380s and 1405 destroyed the church's lowland dioceses.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Timur is not a census movement. Wigram 1929 (vendored, ch. VII, file lines about 7232-7246) describes the destruction and the mountain refuge; kept.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "sentence": "Survivors held out in the Hakkari mountains — along with the community in India, the one province Timur's armies never reached.",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "New in-contact link with the St Thomas Christians: the 1490 delegation and the 1504 letter.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "sentence": "In 1552 the church split when part of it entered communion with Rome.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "Communion with Rome in 1552 joins the era-7 schism movement to the Roman church after 1517; the era-6 papacy ends in 1517. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "sentence": "In 1552 the church split when part of it entered communion with Rome.",
+   "other_id": "church-of-the-east-schism-of-1552",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "reason": "New continuation into the schism-of-1552 movement.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "sentence": "For centuries the Church of the East had been the most geographically extensive church on earth, with metropolitan provinces running from Baghdad across Central Asia to India and China.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "existing",
+   "link_id": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+   "reason": "Carried by the published continuation from the Mongol-era church, which stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "sentence": "When the patriarch Yahballaha III — a monk born far to the east among the Öngüd — died in 1317, the Mongol rulers of Persia had already turned to Islam and made Christians a persecuted minority in Mesopotamia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Ilkhans are not a census movement; background fact, kept. Sentence split for reading level.",
+   "prose_change": 2
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "sentence": "Then Timur's campaigns between the 1380s and 1405 destroyed the lowland dioceses outright, along with much of the population that had sustained them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Timur: Wigram 1929 supports; kept.",
+   "prose_change": 2
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "sentence": "The one province Timur never reached was the community on the Malabar coast of India, which went on receiving bishops from a patriarch who now governed from a mountain village.",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "qualify",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "Link drafted (LA). The clause 'a patriarch who now governed from a mountain village' is contradicted by the sources: the 1490 history puts the patriarch at Gazarta on the upper Tigris and buries his successor in Mosul (mingana file lines 1799-1802, 1866-1867), and Wigram says the seat settled at Mosul (wigram file lines 7145-7146). Rewritten to the upper Tigris, with the sendings of 1490 and 1503. The same sentence's 'where the patriarchate relocated' is replaced the same way.",
+   "prose_change": 2
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "why",
+   "sentence": "For centuries the Church of the East had been the most geographically extensive church on earth, reaching from Baghdad to Central Asia, India, and China, but Timur's campaigns between the 1380s and 1405 destroyed its lowland dioceses along with much of the population that sustained them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Timur: supported by Wigram; kept.",
+   "prose_change": 3
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "why",
+   "sentence": "The one province Timur never reached was the community on India's Malabar coast, which kept receiving bishops from a patriarch who now governed from a mountain village.",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "qualify",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "Link drafted (LA). 'A patriarch who now governed from a mountain village' replaced, as in the longDescription.",
+   "prose_change": 3
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "The hereditary patriarchate that formed in the mountains split in 1552, when part of the church entered communion with Rome, and the two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "As the relationsSummary: Rome in 1552 is outside era 6. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "The hereditary patriarchate that formed in the mountains split in 1552, when part of the church entered communion with Rome, and the two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "church-of-the-east-schism-of-1552",
+   "disposition": "qualify",
+   "link_id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "reason": "Link drafted (LC). 'The hereditary patriarchate that formed in the mountains': no source shows the patriarchate formed in the mountains in this window; reworded to 'held by one family' (Masius and Assemani's list show family succession by 1552).",
+   "prose_change": 4
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "The hereditary patriarchate that formed in the mountains split in 1552, when part of the church entered communion with Rome, and the two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Assyrian Church line runs through the era-7 schism movement to era 9; the first step is LC. The later steps join movements of other eras. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "The hereditary patriarchate that formed in the mountains split in 1552, when part of the church entered communion with Rome, and the two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Chaldean line likewise; first step LC. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "Their Syriac liturgy and their manuscript tradition are carried now by communities largely dispersed by the persecutions and displacements of the twentieth century.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Twentieth-century displacement is background, not a link.",
+   "prose_change": 4
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "sentence": "And the Indian province that outlasted the catastrophe became the St Thomas Christians of Kerala, whose descendants number several million.",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "The Indian province's survival as the Kerala church: carried by LA (the province) and the St Thomas Christians' own continuations (ST into this era; LD out of it).",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "relationsSummary",
+   "sentence": "The Nubian story's actual end: Dongola's throne hall becomes a mosque (1317), Makuria fragments, the successor kingdom of Dotawo persists to King Joel (documented 1484), then the record falls silent (a possible Queen Gaua c. 1520s carried as live-scholarship nuance)",
+   "other_id": "makurian-nubian-christianity",
+   "disposition": "existing",
+   "link_id": "makurian-nubian-christianity--terminal-christian-nubia",
+   "reason": "Carried by the published continuation from Makuria, which stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "relationsSummary",
+   "sentence": "The Nubian story's actual end: Dongola's throne hall becomes a mosque (1317), Makuria fragments, the successor kingdom of Dotawo persists to King Joel (documented 1484), then the record falls silent (a possible Queen Gaua c. 1520s carried as live-scholarship nuance)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The mosque conversion of 1317 is a dated inscription, not a census relationship. Not checked against an edition of the inscription; none is vendored. Listed in wants.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "longDescription",
+   "sentence": "Christian Nubia had been a going concern since the sixth century: kingdoms with cathedrals and bishops, a literature in Old Nubian, Greek and Coptic, and treaties that kept Muslim Egypt at a distance.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Muslim Egypt is not a census movement. The treaty with Egypt (the bakt) is in Quatremere's Arabic extracts (quatremere file lines 1785, 1883-1884); kept.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "longDescription",
+   "sentence": "In 1317 the throne hall of the royal palace at Dongola was converted into a mosque, and the stone that records it is still legible.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "As above (inscription); kept.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "longDescription",
+   "sentence": "Makuria fragmented after that, and a smaller successor kingdom, Dotawo, persisted downstream around Gebel Adda and Qasr Ibrim, still issuing documents in Old Nubian, still with a king and a bishop.",
+   "other_id": "makurian-nubian-christianity",
+   "disposition": "existing",
+   "link_id": "makurian-nubian-christianity--terminal-christian-nubia",
+   "reason": "Published continuation stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "longDescription",
+   "sentence": "just documents that cease, and a population that over the following generations became Muslim.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Gradual conversion to Islam: background, no census movement; no vendored source read for it. Left under the open Open-Gaps item 'Well-known facts with no vendored source'.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "why",
+   "sentence": "Its ending took four centuries: the throne hall of the royal palace at Dongola was converted into a mosque in 1317, the kingdom of Makuria fragmented, and a smaller successor kingdom, Dotawo, held on downstream, still issuing documents in Old Nubian under its own king and bishop.",
+   "other_id": "makurian-nubian-christianity",
+   "disposition": "existing",
+   "link_id": "makurian-nubian-christianity--terminal-christian-nubia",
+   "reason": "Published continuation stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "why",
+   "sentence": "Its ending took four centuries: the throne hall of the royal palace at Dongola was converted into a mosque in 1317, the kingdom of Makuria fragmented, and a smaller successor kingdom, Dotawo, held on downstream, still issuing documents in Old Nubian under its own king and bishop.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Inscription; kept.",
+   "prose_change": null
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "why",
+   "sentence": "The last ruler anyone can name, King Joel, is documented in 1484, and after that the record simply falls silent, no conquest, no massacre, just a population that gradually became Muslim.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "As above; background.",
+   "prose_change": null
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "sentence": "The kingdom falls (Sis 1375;",
+   "other_id": "armenian-cilicia",
+   "disposition": "existing",
+   "link_id": "armenian-cilicia--armenian-cilicia-after-the-kingdom",
+   "reason": "Carried by the published continuation from Cilicia, which stands.",
+   "prose_change": null
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "sentence": "The kingdom falls (Sis 1375;",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Mamluk capture of Sis in 1375: Ormanian ch. XV (ormanian file lines 3919-3922) supports. Named explicitly in the rewritten summary.",
+   "prose_change": 5
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "sentence": "the catholicosate remains at Sis until a national council elects a catholicos at Etchmiadzin (1441) - the seat moves home, with Sis continuing as a second catholicosate.",
+   "other_id": "armenian-christianity-new-julfa",
+   "disposition": "link",
+   "link_id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "reason": "New continuation into the era-7 Armenian church through Etchmiadzin. The field's last sentence ('No other Armenian source in the record covers 1441 to 1915 ...') is build narration and is wrong (era 7 to 9 Armenian movements exist); removed.",
+   "prose_change": 5
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "sentence": "the catholicosate remains at Sis until a national council elects a catholicos at Etchmiadzin (1441) - the seat moves home, with Sis continuing as a second catholicosate.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "The second catholicosate at Sis is inside the Armenian church; Nève's note (neve file lines 832-835) says Sis kept catholicoi. Kept.",
+   "prose_change": 5
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "sentence": "The Armenian kingdom of Cilicia on the Mediterranean spent the fourteenth century under pressure from Mamluk Egypt and from Latin Europe at the same time: repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted by clergy and people who saw the church's independence at stake.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Mamluk pressure: Ormanian supports; kept.",
+   "prose_change": 6
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "sentence": "The Armenian kingdom of Cilicia on the Mediterranean spent the fourteenth century under pressure from Mamluk Egypt and from Latin Europe at the same time: repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted by clergy and people who saw the church's independence at stake.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "reason": "New argued-against link: Benedict XII's list of Armenian errors (1341) and the Armenian council's answer (1342). 'Resisted by clergy and people' qualified: Ormanian shows catholicoi resisting and the church keeping its independence, but no source shows the people; reworded to 'inside the church, those who saw its independence at stake resisted'.",
+   "prose_change": 6
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "sentence": "The Armenian kingdom of Cilicia on the Mediterranean spent the fourteenth century under pressure from Mamluk Egypt and from Latin Europe at the same time: repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted by clergy and people who saw the church's independence at stake.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "reason": "As above; the kings' need for western help is in Martène's note (mansi 25 file lines 109790-109791).",
+   "prose_change": 6
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "sentence": "The kingdom fell in 1375 when the Mamluks took Sis, and its last king died in exile in Paris in 1393.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Mamluks took Sis 1375: Ormanian supports; kept.",
+   "prose_change": 6
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "sentence": "The catholicosate stayed at Sis for two more generations, increasingly cut off from the great majority of Armenians living far to the east under other rulers, until in 1441 a national council meeting at Vagharshapat elected a catholicos at Etchmiadzin — the church's original see, left behind nearly a thousand years earlier — and the center of Armenian church life moved home.",
+   "other_id": "armenian-christianity-new-julfa",
+   "disposition": "link",
+   "link_id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "reason": "Continuation via Etchmiadzin (LF).",
+   "prose_change": 6
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "The Armenian kingdom of Cilicia spent the fourteenth century squeezed between Mamluk Egypt and a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Mamluk pressure; kept.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "The Armenian kingdom of Cilicia spent the fourteenth century squeezed between Mamluk Egypt and a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "reason": "LG. 'Its own clergy and people repeatedly resisted' qualified to 'many in the church resisted it again and again'.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "The Armenian kingdom of Cilicia spent the fourteenth century squeezed between Mamluk Egypt and a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "reason": "LG.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "After the kingdom fell to the Mamluks in 1375 and its last king died in exile in Paris in 1393, the catholicosate stayed at Sis for two more generations before a national council in 1441 elected a catholicos at Etchmiadzin, the church's original see, left behind nearly a thousand years earlier.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Kept.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "After the kingdom fell to the Mamluks in 1375 and its last king died in exile in Paris in 1393, the catholicosate stayed at Sis for two more generations before a national council in 1441 elected a catholicos at Etchmiadzin, the church's original see, left behind nearly a thousand years earlier.",
+   "other_id": "armenian-christianity-new-julfa",
+   "disposition": "link",
+   "link_id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "reason": "LF.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "sentence": "Sis kept its own line of succession too, so the church has had two catholicosates ever since.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Internal succession; kept.",
+   "prose_change": 7
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "legacy",
+   "sentence": "Etchmiadzin has been the Mother See of the Armenian Apostolic Church ever since 1441, and remains so today.",
+   "other_id": "armenian-christianity-new-julfa",
+   "disposition": "link",
+   "link_id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "reason": "Etchmiadzin as Mother See since 1441: carried by LF for its first step; the later chain is for later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "legacy",
+   "sentence": "The see at Sis, whose holder did not move, kept its own succession and continues as the Catholicosate of Cilicia, based since the 1930s at Antelias in Lebanon.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Catholicosate of Cilicia at Antelias (1930s) belongs to the era-10 Armenian church; the line runs through era 7 to 9. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "sentence": "Mamluk raids on the Kesrwan around 1305 displaced Christian populations.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "reason": "Mamluk raids on the Kesrwan around 1305 'displaced Christian populations': no vendored or repo-cited source (the Maronite dossier lists the Mamluk sources as not searched). Removed from all three fields; listed in wants.",
+   "prose_change": 8
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "sentence": "The Maronites' long-claimed union with Rome — their own self-understanding as a church that was never out of communion with Rome — was formalized when the Maronites of Cyprus were received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "New in-contact link with the papacy: the 1445 bull, the 1516 obedience and Peter's letter to Leo X.",
+   "prose_change": 8
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "sentence": "The Maronites' long-claimed union with Rome — their own self-understanding as a church that was never out of communion with Rome — was formalized when the Maronites of Cyprus were received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "The Maronites of Cyprus are part of this movement; carried by LH.",
+   "prose_change": 8
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "sentence": "The Maronites' long-claimed union with Rome — their own self-understanding as a church that was never out of communion with Rome — was formalized when the Maronites of Cyprus were received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH. The bull was issued in the council 'Lateranensis' at Rome (Raynaldus file lines 62424, 62556), i.e. the Council of Florence after its move; the prose adds 'which had by then moved to Rome'.",
+   "prose_change": 8
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "sentence": "The Maronites' long-claimed union with Rome — their own self-understanding as a church that was never out of communion with Rome — was formalized when the Maronites of Cyprus were received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH (Mansi 32, file lines 63569-63583).",
+   "prose_change": 8
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "The fourteenth century opened badly, with Mamluk campaigns against the Kesrwan around 1305 that displaced Christian populations, and for most of the period the church survived largely by remoteness.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "reason": "Kesrwan campaigns: unsupported; removed. 'Survived largely by remoteness' kept as description.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Its relationship with Rome, claimed since the crusader period, was made explicit in this window: at the Council of Florence, in an act of 7 August 1445, the Maronites of Cyprus were formally received into union with the Roman church, and the relationship was affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Its relationship with Rome, claimed since the crusader period, was made explicit in this window: at the Council of Florence, in an act of 7 August 1445, the Maronites of Cyprus were formally received into union with the Roman church, and the relationship was affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "maronite-christianity",
+   "disposition": "link",
+   "link_id": "maronite-christianity--maronite-christianity-era-6",
+   "reason": "'Claimed since the crusader period' points to the era-5 Maronite church, whose links to Outremer and the Gregorian papacy are published (in contact with). Drafted the missing continuation from the era-5 Maronite church (LI). The Outremer pair is era 5 to era 5 and stands.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Its relationship with Rome, claimed since the crusader period, was made explicit in this window: at the Council of Florence, in an act of 7 August 1445, the Maronites of Cyprus were formally received into union with the Roman church, and the relationship was affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Its relationship with Rome, claimed since the crusader period, was made explicit in this window: at the Council of Florence, in an act of 7 August 1445, the Maronites of Cyprus were formally received into union with the Roman church, and the relationship was affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all — a self-understanding that this era's documents put on paper.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "A contrast with other Eastern churches, not a relationship.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all — a self-understanding that this era's documents put on paper.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "'A self-understanding that this era's documents put on paper' is wrong: the bull of 1445 says the Cypriot Maronites had held Macarius's teaching of one will (raynaldus file lines 62516-62519), and the 1516 letter recalls earlier popes' gifts, not unbroken communion. The Maronite self-understanding is kept as theirs; the Roman record's different account is stated.",
+   "prose_change": 9
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "The Maronites, a Syriac-speaking church of the Lebanese mountains with a patriarch based in the Qadisha valley, survived Mamluk campaigns against the Kesrwan around 1305 largely by remoteness, tucked into monasteries and rock-cut hermitages that armies found too costly to reach.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "reason": "Kesrwan: unsupported; removed.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "Their long-claimed friendship with Rome was made formal in this era: at the Council of Florence in 1445 the Maronites of Cyprus were received into union with the Roman church, a relationship affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "Their long-claimed friendship with Rome was made formal in this era: at the Council of Florence in 1445 the Maronites of Cyprus were received into union with the Roman church, a relationship affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "Their long-claimed friendship with Rome was made formal in this era: at the Council of Florence in 1445 the Maronites of Cyprus were received into union with the Roman church, a relationship affirmed again during the Fifth Lateran Council in 1516.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "LH.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Contrast; kept.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "sentence": "Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "reason": "The Maronite self-understanding; kept as theirs.",
+   "prose_change": 10
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "legacy",
+   "sentence": "The Maronite Church remains in full communion with Rome, is the largest Christian body in Lebanon, and has a worldwide diaspora.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "Present-day communion with Rome belongs to later eras; the era-6 step is LH. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "legacy",
+   "sentence": "Its patriarch still carries the title of Antioch, and the Syriac liturgy of these centuries is still in use in developed form.",
+   "other_id": "antiochene-church-third-century",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "The patriarch's title 'of Antioch' is a title, not a relationship to the third-century Antiochene church. No link.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "relationsSummary",
+   "sentence": "A manuscript colophon from 1301 shows the community's link to its patriarch in Mesopotamia still held, and later correspondence with the catholicos confirms the link continued.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "reason": "New in-contact link: the 1301 colophon names the patriarch Yahballaha (died 1317), of the Mongol-era church.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "relationsSummary",
+   "sentence": "A manuscript colophon from 1301 shows the community's link to its patriarch in Mesopotamia still held, and later correspondence with the catholicos confirms the link continued.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "LA: the 1504 letter to the patriarch.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "relationsSummary",
+   "sentence": "Like the remnant that survived in the Hakkari mountains, this was one of the few provinces of the Church of the East that Timur's campaigns never reached.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "The parallel with the Hakkari remnant is the same province-and-patriarch relationship; carried by LA.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "relationsSummary",
+   "sentence": "Like the remnant that survived in the Hakkari mountains, this was one of the few provinces of the Church of the East that Timur's campaigns never reached.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Timur: not a census movement. That his armies never reached Malabar is an inference from his campaigns' range (Wigram); kept as worded.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "On the pepper coast of south-west India there had been Christians for longer than anyone could document, who traced their founding to the apostle Thomas, worshipped in Syriac, and belonged to the Church of the East, receiving their bishops from its patriarch far away in Mesopotamia.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "The apostle Thomas tradition is the community's founding claim, stated as theirs.",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "On the pepper coast of south-west India there had been Christians for longer than anyone could document, who traced their founding to the apostle Thomas, worshipped in Syriac, and belonged to the Church of the East, receiving their bishops from its patriarch far away in Mesopotamia.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "LA.",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "On the pepper coast of south-west India there had been Christians for longer than anyone could document, who traced their founding to the apostle Thomas, worshipped in Syriac, and belonged to the Church of the East, receiving their bishops from its patriarch far away in Mesopotamia.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "existing",
+   "link_id": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   "reason": "Carried by the published continuation from the earlier St Thomas Christians, which stands.",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "A Syriac manuscript copied at Cranganore in 1301 — the oldest dated Syriac manuscript from India — names the patriarch Yahballaha III in its colophon, showing the link intact.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "reason": "LB. Mingana's translation reads 'Mar Yahb Alaha V., the Turk'; the movement text's 'Yahballaha III' kept (same man; flagged on LB).",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "Socially the community was no marginal minority but an established, high-status trading group with privileges from Hindu rulers and a headman of its own.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "'Privileges from Hindu rulers and a headman of its own': no vendored source shows the privileges or a headman in this window. What a source shows is kept: Marignolli at Kollam found the Christians of St Thomas owned the pepper gardens and ran the public steelyard (cathay vol. 3 file lines 11061-11063).",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "A delegation traveled to the patriarch around 1490 asking for bishops, and the bishops who came back wrote home in 1504 describing the community — and the arrival of Portuguese ships.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "LA (1490 delegation, 1504 letter). 'Around 1490' tightened to 1490, the year the history gives.",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "A delegation traveled to the patriarch around 1490 asking for bishops, and the bishops who came back wrote home in 1504 describing the community — and the arrival of Portuguese ships.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Portuguese are not a census movement in this era. The 1504 letter describes their ships (mingana file lines 1930-1932); kept.",
+   "prose_change": 11
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "Christians on India's Malabar coast, tracing their founding to the apostle Thomas and worshipping in Syriac, belonged to the Church of the East and received their bishops from a patriarch far away in Mesopotamia.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Founding tradition; kept.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "Christians on India's Malabar coast, tracing their founding to the apostle Thomas and worshipping in Syriac, belonged to the Church of the East and received their bishops from a patriarch far away in Mesopotamia.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "LA.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "A manuscript copied at Cranganore in 1301, the oldest dated Syriac manuscript from India, names the patriarch Yahballaha III in its colophon, showing the link still held, and the community itself was an established, high-status trading group with privileges from local Hindu rulers.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "reason": "LB.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "A manuscript copied at Cranganore in 1301, the oldest dated Syriac manuscript from India, names the patriarch Yahballaha III in its colophon, showing the link still held, and the community itself was an established, high-status trading group with privileges from local Hindu rulers.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "reason": "As the longDescription: 'privileges from local Hindu rulers' replaced by what Marignolli shows, the pepper gardens.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "Around 1490 a delegation traveled to the patriarch asking for bishops, and the bishops who returned wrote home in 1504 describing both the community and the first arrival of Portuguese ships.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "LA.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "sentence": "Around 1490 a delegation traveled to the patriarch asking for bishops, and the bishops who returned wrote home in 1504 describing both the community and the first arrival of Portuguese ships.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "Portuguese ships: the 1504 letter supports; kept.",
+   "prose_change": 12
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "reason": "Portuguese pressure after 1517 belongs to the era-7 St Thomas movement; carried by the new continuation LD.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "reason": "LD cites the archbishop's summons to the Synod of Diamper (1599).",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "reason": "The Coonan Cross revolt (1653) sits inside the era-7 movement; carried by LD.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Catholic churches that came out of the division belong to later eras; no census movement for them by these names. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Malankara churches (era 10) are reached through LD and later steps. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "reason": "The Mar Thoma Church (era 9) likewise. the later stage would join two movements outside era 6; held for the era-7 and later passes.",
+   "prose_change": null
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "sentence": "Syriac is still used liturgically among them, and the claim of apostolic origin from Thomas that this era's documents already take for granted is still the community's defining self-description.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Founding tradition; kept.",
+   "prose_change": null
+  },
+  {
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "sentence": "No other Armenian source in the record covers 1441 to 1915, the longest gap in its own documentary history.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "reason": "Build narration ('in the record') in a public field, and wrong: the census carries Armenian movements for eras 7, 8 and 9, and Zakaria of Kanaker (vendored) writes of the 1600s. Removed.",
+   "prose_change": 5
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "sentence": "A delegation traveled to the patriarch around 1490 asking for bishops, and the bishops who came back wrote home in 1504 describing the community — and the arrival of Portuguese ships.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "reason": "Persons carry it: the delegates George and Joseph, and Bishop Thomas, who came out in 1490 and again in 1503 and signed the 1504 letter (mingana file lines 1817-1846, 1883-1886). 'The bishops who came back' is kept: Thomas returned with the second group.",
+   "prose_change": 11
+  },
+  {
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "sentence": "When the patriarch Yahballaha III — a monk born far to the east among the Öngüd — died in 1317 ...",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "existing",
+   "link_id": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+   "reason": "A person carries the continuation from the Mongol-era church; the published link stands.",
+   "prose_change": 2
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "sentence": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch based in the Qadisha valley and communities on Cyprus as well.",
+   "other_id": "maronite-christianity",
+   "disposition": "link",
+   "link_id": "maronite-christianity--maronite-christianity-era-6",
+   "reason": "The same church as the era-5 Maronite movement; continuation drafted (LI).",
+   "prose_change": 9
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "sentence": "(not in the text) The Ethiopian delegation to the Council of Florence (1441-1442) under Zara Yaqob.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "reason": "Not named in any of the four fields, so no link drafted. Telles (vendored, file line 8357) reports Ethiopians sent by Zara Yaqob to Florence; flagged for group C in case the papacy's text names it.",
+   "prose_change": null
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "old": "When the Solomonic dynasty took the Ethiopian throne in 1270, claiming descent from Solomon and the Queen of Sheba, it did so alongside a monastic expansion that carried churches and monasteries deep into newly conquered regions. The network Tekle Haymanot built in Shewa, and the northern houses founded by the followers of Ewostatewos. The relationship between crown and cloister was contested throughout. The Ewostathians insisted on keeping Saturday as well as Sunday as a Sabbath and were harried for generations before the emperor Zara Yaqob finally conceded the point at a council in 1450. And Zara Yaqob, himself a theological author who reorganized the church and pressed Marian devotion on it, persecuted the monks of Estifanos when they refused the prostrations and observances he demanded. All of it was written down in Ge'ez — royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast, the book that gave the dynasty its Solomonic charter.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The court chronicle of the emperor Zara Yaqob says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "reason": "'Were harried for generations before the emperor Zara Yaqob finally conceded the point at a council in 1450' has no vendored or repo-cited source; replaced by what Zara Yaqob's court chronicle shows, that he ordered the Sabbath kept as holy as Sunday (zara-yaqob file lines 7360-7362). The Estifanos sentence now follows the chronicle (refusal to bow before Mary and the cross, lines 6719-6720). The fragment 'The network Tekle Haymanot built in Shewa, and ...' is joined into a sentence. Split into shorter sentences for reading level; every other fact kept. Wants: Gadla Ewostatewos; the acts of the 1450 council.",
+   "fre_after": 60.1,
+   "fk_after": 8.0
+  },
+  {
+   "n": 1,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "old": "When the Solomonic dynasty took the Ethiopian throne in 1270, a monastic expansion led by Tekle Haymanot and the followers of Ewostatewos carried churches deep into newly conquered regions. The Ewostathians were persecuted for generations over their insistence on keeping Saturday as well as Sunday as a Sabbath, until the emperor Zara Yaqob finally conceded the point in 1450, the same emperor who, as a theological author himself, persecuted the monks of Estifanos for refusing his own required observances. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast, the book that gave the dynasty its claimed descent from Solomon and Sheba.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The emperor Zara Yaqob, his court chronicle says, ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "reason": "As the longDescription: the persecution 'for generations' and the 1450 concession are removed as unsupported; the chronicle's order on the Sabbath and the Estifanos episode kept. Split for reading level.",
+   "fre_after": 61.1,
+   "fk_after": 8.4
+  },
+  {
+   "n": 2,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "longDescription",
+   "old": "For centuries the Church of the East had been the most geographically extensive church on earth, with metropolitan provinces running from Baghdad across Central Asia to India and China. It ended within a lifetime. When the patriarch Yahballaha III — a monk born far to the east among the Öngüd — died in 1317, the Mongol rulers of Persia had already turned to Islam and made Christians a persecuted minority in Mesopotamia. Then Timur's campaigns between the 1380s and 1405 destroyed the lowland dioceses outright, along with much of the population that had sustained them. What survived did so by geography: communities in the Hakkari mountains and around Lake Van and Urmia, where the patriarchate relocated and where, over the fifteenth century, the office became hereditary within a single family, passing from uncle to nephew. The one province Timur never reached was the community on the Malabar coast of India, which went on receiving bishops from a patriarch who now governed from a mountain village.",
+   "new": "For centuries the Church of the East had spread wider than any other church on earth. Its provinces ran from Baghdad across Central Asia to India and China. Within a lifetime most of it was gone. The patriarch Yahballaha III, a monk born far to the east among the Öngüd, died in 1317. By then the Mongol rulers of Persia had turned to Islam, and Christians in Mesopotamia were a persecuted minority. Then Timur's campaigns, from the 1380s to 1405, destroyed the lowland dioceses and much of the population that had kept them alive. What survived did so by geography, in the Hakkari mountains and around Lake Van and Lake Urmia. The patriarchs of the late fifteenth century lived on the upper Tigris, at Gazarta and Mosul. By the sixteenth century the office passed within one family, from uncle to nephew. The one province Timur never reached was the community on the Malabar coast of India. It went on receiving bishops from its patriarch, who sent them out in 1490 and again in 1503.",
+   "reason": "'Where the patriarchate relocated' and 'a patriarch who now governed from a mountain village' are contradicted by the sources: the 1490 history has the patriarch at Gazarta on the upper Tigris and his successor buried in Mosul (mingana file lines 1799-1802, 1866-1867); Wigram has the seat settled in Mosul (file lines 7145-7146). Rewritten to what they show, with the bishops sent in 1490 and 1503. 'Over the fifteenth century the office became hereditary' becomes 'by the sixteenth century the office passed within one family': Masius and Assemani's list show that by 1552; nothing read dates it earlier. Split for reading level; other facts kept.",
+   "fre_after": 61.4,
+   "fk_after": 8.6
+  },
+  {
+   "n": 3,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "why",
+   "old": "For centuries the Church of the East had been the most geographically extensive church on earth, reaching from Baghdad to Central Asia, India, and China, but Timur's campaigns between the 1380s and 1405 destroyed its lowland dioceses along with much of the population that sustained them. What survived did so purely by geography: communities in the Hakkari mountains and around Lake Van and Urmia, where the patriarchate relocated and, over the following century, became hereditary within a single family. The one province Timur never reached was the community on India's Malabar coast, which kept receiving bishops from a patriarch who now governed from a mountain village.",
+   "new": "For centuries the Church of the East had spread wider than any other church on earth. It reached from Baghdad to Central Asia, India and China. Then Timur's campaigns, from the 1380s to 1405, destroyed its lowland dioceses and much of the population that kept them alive. What survived did so by geography, in the Hakkari mountains and around Lake Van and Lake Urmia. By the sixteenth century the patriarch's office passed within one family. The one province Timur never reached was the community on India's Malabar coast. It kept receiving bishops from its patriarch. He sent them from the upper Tigris in 1490 and again in 1503.",
+   "reason": "The same two corrections as the longDescription (seat on the upper Tigris; family succession by the sixteenth century). Split for reading level.",
+   "fre_after": 63.8,
+   "fk_after": 7.6
+  },
+  {
+   "n": 4,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "legacy",
+   "old": "The remnant endured. The hereditary patriarchate that formed in the mountains split in 1552, when part of the church entered communion with Rome, and the two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church. Their Syriac liturgy and their manuscript tradition are carried now by communities largely dispersed by the persecutions and displacements of the twentieth century. And the Indian province that outlasted the catastrophe became the St Thomas Christians of Kerala, whose descendants number several million.",
+   "new": "The remnant endured. In 1552 its patriarchate, held by one family, split in two. Part of the church entered communion with Rome. The two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church. Their Syriac liturgy and their old books live on. The people who keep them were scattered far and wide by the persecutions of the twentieth century. And the Indian province that outlasted the catastrophe became the St Thomas Christians of Kerala. Their descendants number several million.",
+   "reason": "'The hereditary patriarchate that formed in the mountains' has no source for the mountains in this window; reworded to 'held by one family'. Split for reading level; every other fact kept.",
+   "fre_after": 65.1,
+   "fk_after": 6.9
+  },
+  {
+   "n": 5,
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "relationsSummary",
+   "old": "The kingdom falls (Sis 1375; Levon V dies in exile 1393); the catholicosate remains at Sis until a national council elects a catholicos at Etchmiadzin (1441) - the seat moves home, with Sis continuing as a second catholicosate. No other Armenian source in the record covers 1441 to 1915, the longest gap in its own documentary history.",
+   "new": "The kingdom falls: the Mamluks take Sis in 1375, and Levon V dies in exile in 1393. The catholicos stays at Sis until 1441. Then a national council elects a catholicos at Etchmiadzin, and the seat moves home. Sis keeps a line of its own, so the church has two catholicoi from then on.",
+   "reason": "The last sentence ('No other Armenian source in the record covers 1441 to 1915 ...') is build narration in a public field, and wrong: the census has Armenian movements for eras 7 to 9. Removed. The rest is put in full sentences; the Mamluks are named as the takers of Sis (Ormanian ch. XV).",
+   "fre_after": 72.8,
+   "fk_after": 6.3
+  },
+  {
+   "n": 6,
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "longDescription",
+   "old": "The Armenian kingdom of Cilicia on the Mediterranean spent the fourteenth century under pressure from Mamluk Egypt and from Latin Europe at the same time: repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted by clergy and people who saw the church's independence at stake. The kingdom fell in 1375 when the Mamluks took Sis, and its last king died in exile in Paris in 1393. The catholicosate stayed at Sis for two more generations, increasingly cut off from the great majority of Armenians living far to the east under other rulers, until in 1441 a national council meeting at Vagharshapat elected a catholicos at Etchmiadzin — the church's original see, left behind nearly a thousand years earlier — and the center of Armenian church life moved home. Sis did not surrender its own succession, so the church has had two catholicosates ever since. Much of what we hear from Armenians of this period comes from colophons. The notes scribes wrote at the ends of the manuscripts they copied, recording who they were and what was happening around them.",
+   "new": "The Armenian kingdom of Cilicia lay on the Mediterranean. Through the fourteenth century it was pressed by Mamluk Egypt and by Latin Europe at the same time. Its kings needed help from the west, and again and again they pushed for a union with Rome. Inside the church, those who saw its independence at stake resisted. The kingdom fell in 1375, when the Mamluks took Sis, and its last king died in exile in Paris in 1393. The catholicos, the head of the church, stayed at Sis for two more generations. He was more and more cut off from most Armenians, who lived far to the east under other rulers. Then in 1441 a national council met at Vagharshapat and elected a catholicos at Etchmiadzin. This was the church's original see, left behind nearly a thousand years earlier, and the center of Armenian church life moved home. Sis did not give up its own succession, so the church has had two catholicoi ever since. Much of what we hear from Armenians of this period comes from colophons. These are the notes scribes wrote at the ends of the books they copied, saying who they were and what was happening around them.",
+   "reason": "'Resisted by clergy and people' qualified: Ormanian (ch. XIV) shows catholicoi resisting and the church keeping its independence, but no source read shows the people; now 'inside the church, those who saw its independence at stake resisted'. Long sentences split for reading level; 'catholicosate' glossed as the catholicos, the head of the church. Every other fact kept.",
+   "fre_after": 68.3,
+   "fk_after": 7.8
+  },
+  {
+   "n": 7,
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "why",
+   "old": "The Armenian kingdom of Cilicia spent the fourteenth century squeezed between Mamluk Egypt and a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted. After the kingdom fell to the Mamluks in 1375 and its last king died in exile in Paris in 1393, the catholicosate stayed at Sis for two more generations before a national council in 1441 elected a catholicos at Etchmiadzin, the church's original see, left behind nearly a thousand years earlier. Sis kept its own line of succession too, so the church has had two catholicosates ever since.",
+   "new": "Through the fourteenth century the Armenian kingdom of Cilicia was squeezed between Mamluk Egypt and Latin Europe. Europe pressed for union with Rome, and many in the church resisted it again and again. The kingdom fell to the Mamluks in 1375, and its last king died in exile in Paris in 1393. The catholicos, the head of the church, stayed at Sis for two more generations. Then in 1441 a national council elected a catholicos at Etchmiadzin. This was the church's original see, left behind nearly a thousand years earlier. Sis kept its own line of succession too, so the church has had two catholicoi ever since.",
+   "reason": "'Its own clergy and people repeatedly resisted' qualified to 'many in the church resisted it again and again', as in the longDescription. Split for reading level.",
+   "fre_after": 61.6,
+   "fk_after": 8.4
+  },
+  {
+   "n": 8,
+   "movement": "maronite-christianity-era-6",
+   "field": "relationsSummary",
+   "old": "Mamluk raids on the Kesrwan around 1305 displaced Christian populations. The Maronites' long-claimed union with Rome — their own self-understanding as a church that was never out of communion with Rome — was formalized when the Maronites of Cyprus were received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516.",
+   "new": "The Maronites had long claimed union with Rome, and in this era Rome confirmed it twice. A papal bull of 7 August 1445 received the Maronites of Cyprus into union. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. The Maronites hold that they were never out of communion with Rome.",
+   "reason": "The Mamluk raids on the Kesrwan around 1305 have no vendored or repo-cited source (the Maronite dossier lists the Mamluk sources as not searched); removed. The bull was issued by the Council of Florence after its move to Rome, as Raynaldus's 'Concilii Lateranensis' shows (file lines 62424, 62556); that gloss is added. The 1516 'affirmation' is put as what Mansi 32 records, the patriarch's envoys pledging obedience.",
+   "fre_after": 63.2,
+   "fk_after": 7.8
+  },
+  {
+   "n": 9,
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "old": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch based in the Qadisha valley and communities on Cyprus as well. The fourteenth century opened badly, with Mamluk campaigns against the Kesrwan around 1305 that displaced Christian populations, and for most of the period the church survived largely by remoteness. Monasteries and rock-cut hermitages tucked into a gorge that armies found expensive to enter. Its relationship with Rome, claimed since the crusader period, was made explicit in this window: at the Council of Florence, in an act of 7 August 1445, the Maronites of Cyprus were formally received into union with the Roman church, and the relationship was affirmed again during the Fifth Lateran Council in 1516. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all — a self-understanding that this era's documents put on paper.",
+   "new": "The Maronites were a Syriac-speaking church of the Lebanese mountains. Their patriarch was based in the Qadisha valley, and they had communities on Cyprus as well. For most of this period the church survived largely by being hard to reach. Its monasteries and rock-cut hermit cells were tucked into a gorge that armies found costly to enter. Its tie to Rome, claimed since the crusades, was confirmed twice in this era. On 7 August 1445 a bull of Pope Eugenius IV received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 envoys of the Maronite patriarch pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all. The Roman documents of this era tell it another way. The bull of 1445 says the Maronites of Cyprus had held that Christ had only one will.",
+   "reason": "Kesrwan raids removed (unsupported). 'A self-understanding that this era's documents put on paper' is wrong: the bull of 1445 says the Cypriot Maronites had held Macarius's teaching of one will (Raynaldus file lines 62516-62519); the Maronite self-understanding is kept as theirs and the Roman record's other account is stated. The fragment 'Monasteries and rock-cut hermitages tucked into a gorge ...' is made a sentence. Split for reading level.",
+   "fre_after": 63.3,
+   "fk_after": 8.2
+  },
+  {
+   "n": 10,
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "old": "The Maronites, a Syriac-speaking church of the Lebanese mountains with a patriarch based in the Qadisha valley, survived Mamluk campaigns against the Kesrwan around 1305 largely by remoteness, tucked into monasteries and rock-cut hermitages that armies found too costly to reach. Their long-claimed friendship with Rome was made formal in this era: at the Council of Florence in 1445 the Maronites of Cyprus were received into union with the Roman church, a relationship affirmed again during the Fifth Lateran Council in 1516. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "new": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch in the Qadisha valley. They survived this era largely by being hard to reach. Their monasteries and rock-cut hermit cells were tucked into places that armies found too costly to enter. Their long-claimed friendship with Rome was made formal in this era. In 1445 a papal bull received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "reason": "Kesrwan raids removed (unsupported); the Florence-in-Rome gloss added; the 1516 act put as the envoys' pledge of obedience. Split for reading level.",
+   "fre_after": 61.2,
+   "fk_after": 8.5
+  },
+  {
+   "n": 11,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "old": "On the pepper coast of south-west India there had been Christians for longer than anyone could document, who traced their founding to the apostle Thomas, worshipped in Syriac, and belonged to the Church of the East, receiving their bishops from its patriarch far away in Mesopotamia. In this window they come into focus. A Syriac manuscript copied at Cranganore in 1301 — the oldest dated Syriac manuscript from India — names the patriarch Yahballaha III in its colophon, showing the link intact. Socially the community was no marginal minority but an established, high-status trading group with privileges from Hindu rulers and a headman of its own. By the late fifteenth century, with the church's Mesopotamian heartland shattered, the connection had to be actively maintained. A delegation traveled to the patriarch around 1490 asking for bishops, and the bishops who came back wrote home in 1504 describing the community — and the arrival of Portuguese ships.",
+   "new": "On the pepper coast of south-west India there had been Christians for longer than anyone could document. They traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East and got their bishops from its patriarch, far away in Mesopotamia. In this window they come into focus. A Syriac book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. Its closing note names the patriarch Yahballaha III, which shows the link intact. The community was no small minority on the margins. A papal envoy at Kollam in the mid-1300s found that its people owned the pepper gardens and ran the public weighing-house. By the late 1400s the church's home in Mesopotamia lay in ruins, and the link took real effort to keep. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community, and the arrival of Portuguese ships.",
+   "reason": "'With privileges from Hindu rulers and a headman of its own' has no vendored source in this window; replaced by what Marignolli saw at Kollam, Christians who owned the pepper gardens and ran the public steelyard (cathay vol. 3 file lines 11061-11063). 'Around 1490' tightened to 1490, the year the history gives (mingana file lines 1797-1798). Split for reading level; every other fact kept.",
+   "fre_after": 67.3,
+   "fk_after": 7.3
+  },
+  {
+   "n": 12,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "old": "Christians on India's Malabar coast, tracing their founding to the apostle Thomas and worshipping in Syriac, belonged to the Church of the East and received their bishops from a patriarch far away in Mesopotamia. A manuscript copied at Cranganore in 1301, the oldest dated Syriac manuscript from India, names the patriarch Yahballaha III in its colophon, showing the link still held, and the community itself was an established, high-status trading group with privileges from local Hindu rulers. Around 1490 a delegation traveled to the patriarch asking for bishops, and the bishops who returned wrote home in 1504 describing both the community and the first arrival of Portuguese ships.",
+   "new": "Christians on India's Malabar coast traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East. They got their bishops from a patriarch far away in Mesopotamia. A book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. It names the patriarch Yahballaha III, which shows the link still held. The community was a trading group of high standing that owned the pepper gardens around Kollam. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community and the first Portuguese ships.",
+   "reason": "As the longDescription: the Hindu rulers' privileges replaced by Marignolli's pepper gardens; 1490 tightened. Split for reading level.",
+   "fre_after": 63.7,
+   "fk_after": 7.3
+  }
+ ],
+ "wants": [
+  "Gadla Ewostatewos (the Life of Ewostatewos), in a public-domain edition or translation; the CSCO 1955 text is in copyright. Would let the Ewostathians' side of the Sabbath quarrel return to the Ethiopian text.",
+  "Any source for the council of Debre Mitmaq (1450) on the Sabbath; none is vendored or repo-cited.",
+  "A source for the Mamluk campaigns against the Kesrwan around 1305 (Arabic chronicles in translation, or Lammens, La Syrie, 1921, which the Maronite dossier found and did not vendor).",
+  "The bull 'Benedictus sit Deus' of 7 August 1445 in a clean edition with its dating clause.",
+  "A full English translation of the bishops of India's letter of 1504 (Latin in Assemani III.1).",
+  "The Syriac of the 1301 Cranganore colophon (Vat. Syr. 22), to settle 'Yahb Alaha V.' (Mingana) against 'Yahballaha III'.",
+  "Masius's letter to Busbecq on the events of 1552, in a clean edition; Sulaqa's profession of 1553.",
+  "Thomas of Metsoph's own chronicle and his appendix on the 1441 move to Etchmiadzin, in any public-domain edition or translation.",
+  "An edition of the Dongola throne-hall inscription of 1317 (Arabic), for the mosque conversion.",
+  "A source showing the St Thomas Christians' privileges from Hindu rulers and their own headman in 1300-1517 (the 'privileges' sentence was replaced for want of one).",
+  "Duwayhi's history of the Maronite patriarchs in a clean scan, for the patriarchal line across 1300."
+ ],
+ "escalations": [
+  "E: Open ruling, not new. I removed or qualified relationship claims with no vendored or repo-cited source, as the brief asks for no-entry parties: the Ewostathians 'harried for generations' and the 1450 council (Ethiopia), the Mamluk raids on the Kesrwan in 1305 (Maronites), the St Thomas Christians' privileges from Hindu rulers. These are standard in modern scholarship (Taddesse Tamrat, Salibi) but none is cited in the repo. The era-5 precedent left such facts under the Open-Gaps item 'Well-known facts with no vendored source'; the merge should apply one rule to both.",
+  "E: Movement text wrong, fix beyond a sentence (for the merge to weigh, not a stop). The Church of the East entry's title and fields put the patriarchate in the Hakkari mountains for this window. The sources read (the 1490-1504 history, Wigram 1929) put the patriarchs at Gazarta and Mosul, and the mountain seat later. I corrected the two sentences that tie this to India and the legacy clause; the title 'the Hakkari Remnant' and the relationsSummary's 'Survivors held out in the Hakkari mountains' (about people, which Wigram supports) are left.",
+  "E: The Maronite entry's floor question. The census says the Maronites hold they were never out of communion with Rome; the only Roman document of 1445 says the opposite. I state both in the longDescription. Whether a contested_claim record is wanted is a world-build matter."
+ ],
+ "self_check": "Ran the brief's grep (we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we, case-insensitive) over every note, outcome and new prose field. First pass: 'record' in the Maronite longDescription ('The Roman record of this era') - fixed to 'documents'; 'edge' hits were inside 'pledged' only (false positives; rerun with \\bedge: 0 hits). Also checked: every quote matches its file at the stated lines (whitespace-normalized), no new link id is already on main, every note/outcome/changed field scores FRE >= 60 and FK <= 10, no sentence over 25 words, no British spellings found."
+}

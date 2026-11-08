@@ -1,0 +1,1338 @@
+{
+ "group": "B",
+ "movements": [
+  "lollardy",
+  "the-hussite-and-bohemian-brethren-movement",
+  "taborite-radicalism",
+  "waldensians-in-the-alps"
+ ],
+ "links": [
+  {
+   "id": "lollardy--the-english-reformation-and-elizabethan-settleme",
+   "action": "new",
+   "from": "lollardy",
+   "to": "the-english-reformation-and-elizabethan-settleme",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1521 the bishop of Lincoln tried households around Amersham who had learned from Wyclif's Wicket, an English tract. The Protestant writer John Foxe said this came before Luther's name was heard there. Historians still disagree how far the Lollards fed the English Reformation.",
+   "outcome_considered": "The sources show trials of Lollards and later Protestant writers claiming them as forerunners. None shows a council, law, split or settlement between the two.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. IV (Cattley-Townsend, 1837), from the Lincoln registers of 1520-1521",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "16703-16712",
+     "locus": "Foxe IV, Henry VIII, persecution in the diocese of Lincoln, A.D. 1520-1521",
+     "quote": "In turning over the registers and records of Lincoln likewise, and coining to the year of our Lord 1520, and to 1521, I find that as the light of the Gospel began more to appear, and the number of professors to grow, so the vehemency of persecution, and stir of the bishops began also to increase ; whereupon ensued great perturbation and grievous affliction in divers and sundry quarters of this realm, especially about Buckinghamshire and Amersham, Uxbridge, Henley, Newbury, in the diocese of London, in Essex, Colchester, Suffolk, and Norfolk, and other parts more. And this was before the name of Luther was heard of in these countries among the people.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. IV (Cattley-Townsend, 1837), extract from the register of John Longland, bishop of Lincoln (fol. 72)",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "18610-18612",
+     "locus": "Foxe IV, Lincoln diocese under Longland, A.D. 1521",
+     "quote": "had their instruction partly out of Wickliff s Wicket",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. IV (Cattley-Townsend, 1837), the conclusion of Book VII",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "42043-42050",
+     "locus": "Foxe IV, conclusion before the eighth book",
+     "quote": "If John Hubs, or good Jerome of Prague, or John Wickliff before them both, or William Brute. Thorpe, Swin-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. IV (Cattley-Townsend, 1837), letter of Cuthbert Tonstal, bishop of London, to Sir Thomas More",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "53512-53513",
+     "locus": "Foxe IV, Tonstal's licence to More",
+     "quote": "who have gone about to bring in the old and damnable heresy of Wickliff and Lnther, translating them into our English tongue",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Tyndale, Prologue to the Prophet Jonas, in Doctrinal Treatises (Parker Society, ed. Walter, 1848)",
+     "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+     "lines": "29439",
+     "locus": "Prologue to Jonas",
+     "quote": "Wickliffc preached repentance unto our fathers not long",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Anne Hudson, The Premature Reformation: Wycliffite Texts and Lollard History (Oxford, 1988)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lollardy relationsSummary ('Contested influence line to the English Reformation') and legacy ('Historians still argue over whether Lollardy fed straight into the English Reformation ... before Luther's name was heard there', after prose change 0)",
+   "wants": [
+    "Lollard and early evangelical records that show the same families in both (e.g. W. H. Summers, The Lollards of the Chiltern Hills, 1906, public domain, located but not fetched; Strype, Ecclesiastical Memorials, for the 1520s Essex cases), to test the 'same families' claim before it returns",
+    "A public-domain modern study that argues against a Lollard contribution to the English Reformation, so the disagreement the note names can be sourced on both sides"
+   ],
+   "drafter_flags": [
+    "Graded Documented on the type's own test: the later side names the earlier one's people and books (Foxe on the 1521 Lincoln households, on Thorpe and Cobham; Tyndale and Bishop Tonstal on Wyclif). The census text calls the line 'contested'; the dispute is about how far Lollard households fed the evangelical movement, which the note states plainly. Reviewer: weigh whether Contested would be the better grade. It was not used because no vendored or repo-cited source gives the sceptical side, and Hudson (named in the dossier) is named-not-rechecked and cannot raise or carry a grade.",
+    "Foxe was a Protestant martyrologist writing in the 1560s and is partisan; the 'before Luther' sentence is his own judgment, which is what the note says.",
+    "OCR: 'coining' for 'coming' (16704), 'Hubs' for 'Huss' (42043), 'Lnther' for 'Luther' (53513), 'Wickliffc' (Tyndale 29439), 'Wickliff s' (18612). Kept exactly.",
+    "Tonstal's letter carries no date in this edition; the note leaves it out."
+   ],
+   "change_reason": "New. Carries the contested influence line the Lollard summary names, with the 1521 Lincoln trials and Foxe's own claim of continuity.",
+   "readability": {
+    "note": {
+     "fre_after": 60.5,
+     "fk_after": 8.4
+    }
+   }
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "action": "new",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "czech-churches-last-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Unity of the Brethren met in synod once or twice a year from its founding and wrote down its decrees. In 1617 a brother sorted them by the Unity's periods, from \"the beginning of the Unity\" onward. The Moravian historian David Cranz traced the same church from 1457 to its scattering in 1627.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dekrety Jednoty bratrské (the Unity's decrees), ed. Antonín Gindely (1865), quoting the Unity's own 1617 compilation",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "165-170",
+     "locus": "Gindely's preface, quoting the opening of the 1617 manuscript",
+     "quote": "„Rozdělení těchto dekretů na 4 díly (a cožby jich i potom více přibylo) stalo se ne tak po- dle samých let, ale vlastně podle periodu Jednoty a spůsobu jejího. První díl obsahuje počátek Jednoty,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antonín Gindely, preface to Dekrety Jednoty bratrské (1865)",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "153-158",
+     "quote": "Jelikož Bratří od založení Jednoty až do posledního času svého ročně jednou a někdy i dva- kráte se scházívali",
+     "locus": "preface"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "1112-1134",
+     "quote": "Beginning of the Church of the Brethren in the Year 1457.",
+     "locus": "contents of Part I"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-hussite-and-bohemian-brethren-movement relationsSummary ('Its stricter branch, the Unity of the Brethren, lived on into the 1600s', after prose change 1), longDescription ('Out of that settlement two bodies grew. The Utraquist church ... the Unity of the Brethren'), legacy ('It did not end in 1517. The Utraquist church and the Unity of the Brethren went on ... for another full century'); czech-churches-last-century longDescription ('Surviving as a tolerated, functioning body long after the Hussite wars that gave it birth'). Also the movement's own continuesAs field.",
+   "wants": [
+    "A Utraquist source that runs across 1517 (e.g. the Utraquist consistory's acts or the Bohemian Confession of 1575 in a vendored edition), so the Utraquist half of the continuation is shown in a primary as the Unity's half is"
+   ],
+   "drafter_flags": [
+    "The primary is the 1617 compiler's words as Gindely prints them (Czech); the quote runs across a line-break hyphen ('po- dle') kept exactly. Gindely's own sentence is the secondary.",
+    "Cranz's quote is the Part I heading; the next lines (1131-1134) give Part IV 'until their Dispersion in 1627'; the note's 1627 rests there. Cranz's long-s OCR is clean at these lines.",
+    "The source shows the Unity's continuity; the Utraquist side is in the census text but not in a vendored primary across 1517 (see wants). The grade is for the community the link names, which the czech entry treats as one Utraquist-and-Unity church."
+   ],
+   "change_reason": "New. The movement's continuesAs points here, but no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 65.2,
+     "fk_after": 8.4
+    }
+   }
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
+   "action": "new",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "taborite-radicalism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The Prague writer Laurence of Březová tells how, in March 1420, brethren who stood for the chalice left Plzeň with their priests. They went to the mountain of Hradiště, also called Tabor, and the brethren already there took them in.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Laurence of Březová, Historia Hussitica, ed. Goll, Fontes rerum Bohemicarum V (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "38707-38710",
+     "locus": "Historia Hussitica, 1420 (march from Plzeň to Hradiště)",
+     "quote": "cum aliis fratribus communioni calicis faventi- bus *), sacerdotibus ipsorum et precipue Wence- slao Coranda et Marcoldo, qui se in civitate Plznensi contra regales precluserant",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Laurence of Březová, Historia Hussitica, ed. Goll (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "38724-38726",
+     "locus": "Historia Hussitica, 1420",
+     "quote": "Fratres vero in Hradisst, vul- neratis quibusdam in villis derelictis, perveniunt, fratribus ipsius montis ipsos grate excipientibus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Laurence of Březová, Historia Hussitica, the Old Czech version, ed. Goll (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "38672-38674",
+     "locus": "Czech version, Lent 1420 (the Plzeň agreement)",
+     "quote": "aby oni svobodu plnou s dětmi, s ženami svými přestěhovati iíe m«Mi do Hradiště hory Tábor*",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "1488-1493",
+     "quote": "Many, who, from the very firft aimed at a purer dodfrine and worfhip, and for the greater fecurity performed divine fervice upon a mountain, which Zifka fortified afterwards for his camp, and called Tabor, got the name of Ta- borites. Among thefe were many of Hufs’s genuine fol¬ lowers",
+     "locus": "Part I, §6"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "taborite-radicalism relationsSummary ('The radical wing of the Hussite movement'), longDescription and why ('In 1420 the most radical wing of the Hussite movement founded a fortified town')",
+   "wants": [
+    "An English translation of Březová's Historia Hussitica (none public-domain is known), to let a reader check the Latin"
+   ],
+   "drafter_flags": [
+    "The year 1420 rests on the marginal date printed 'U20' at line 38707 and on the Czech version's own dating (the Annunciation, 25 March) at line 38682. 'March 1420' in the note is that.",
+    "OCR: 'iíe m«Mi' (Czech, for 'se mohli') and the footnote marks '*)' are kept exactly. Cranz's long s ('firft', 'dodfrine', 'worfhip', 'fervice', 'Zifka', 'Hufs’s') and the hyphen mark 'fol¬' kept.",
+    "Březová was a Prague master writing within the Hussite movement; the brethren he names are 'favoring the communion of the chalice', the Hussite mark."
+   ],
+   "change_reason": "New. The Taborite entry calls itself the Hussites' radical wing; no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 74.6,
+     "fk_after": 7.9
+    }
+   }
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+   "action": "new",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "taborite-radicalism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Tabor's own chronicle says the Prague masters attacked its priests for dropping vestments and the Roman rite. It tells of a dispute between them in 1421. In 1434 Prague's Old Town and its allies marched against the Taborites, and in 1452 the Utraquist regent George of Poděbrady took Tabor.",
+   "outcome": "In 1452 George of Poděbrady, regent of Bohemia, took Tabor. He forced the moderate Utraquist service on the town.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt:10138-10149",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicon Taboritarum (John of Lukavec and Nicholas of Pelhřimov), in Höfler, Geschichtschreiber der husitischen Bewegung II (1865)",
+     "file": "cic/texts/hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt",
+     "lines": "25925-25931",
+     "locus": "Chronicon Taboritarum, Part I, the case of the Taborite priests (1421)",
+     "quote": "quo sacerdotes Thaborienses ex causis in posterum exprimendis deposuerunt ornamenta usitata et consuetudine humana ad sacrificandum deputata et ritum missandi Romanum modo usitatum ommiserant, ob hoc a magistris, specialiter Pragensibus et eis adhaerentibus non modicas perpessi sunt impug- nationes ac infestationes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicon Taboritarum, in Höfler II (1865)",
+     "file": "cic/texts/hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt",
+     "lines": "26562-26566",
+     "locus": "Chronicon Taboritarum, 'Rescriptum et replica magistrorum Pragensium'",
+     "quote": "Postea magistri Pragenses boc praemissum scriptum sacerdotum Thaboriensium lentantes improbare",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bartošek of Drahonice, Chronicle, ed. Goll, Fontes rerum Bohemicarum V (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "64529-64533",
+     "locus": "Bartošek, 1434 (before Lipany)",
+     "quote": "in adiutorium Antique civitatis Pragensis et dominis Menhardo et Ptaczkoni supra- scriptis et domino Alssoni de Šternberk contra Taborenses et Orfanorum sectani venerunt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Count Lützow, Bohemia: An Historical Sketch (1920)",
+     "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+     "lines": "10144-10149",
+     "quote": "capture of the town of Tabor, which, curiously enough, was at last subdued by a utraquist, not by a Romanist, chief. Podebrad treated the citizens graciously, but he forcibly established the moderate utraquist (or Calixtine) church- service in the town.",
+     "locus": "ch. on George of Poděbrady"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "taborite-radicalism longDescription ('In the end it was fellow Hussites who destroyed it ... In 1452 George of Poděbrady, himself a Utraquist, took the town', after prose change 3), why ('an alliance led by moderate Hussites destroyed the Taborite forces', after prose change 4)",
+   "wants": [
+    "A primary for the capture of Tabor in 1452 (e.g. Aeneas Sylvius's letters of 1451-52, or the Old Czech Annals), so the outcome rests on a contemporary text as well as Lützow"
+   ],
+   "drafter_flags": [
+    "Second link on this pair (the first is 'gave rise to'), so the id takes --2 per the id rule.",
+    "The outcome rests on Lützow (1920), a vendored secondary read at the lines; George's regency is at lines 10138-10139 of the same passage. The capture is an act of the Utraquist regent, which the Hussite entry includes ('under George of Poděbrady, for a time the crown itself').",
+    "Bartošek's 1434 forces include the Catholic Ulrich of Rosenberg and Plzeň (lines 64522-64529); Lützow 1914, lines 14300-14301, calls Rosenberg 'leader of the Roman party'. That is why the Taborite prose now says the Utraquist lords were 'joined by Catholic lords'.",
+    "OCR: 'boc' for 'hoc', 'lentantes' for 'tentantes' (26565), 'sectani' for 'sectam' (64533), 'ommiserant' kept. Lützow's line-break hyphen 'church- service' kept.",
+    "The Taborite side also wrote against the Prague masters (Chronicon line 25950-25951). The census text names only the Hussite majority's acts, so no reverse link was drafted."
+   ],
+   "change_reason": "New. Carries the text's 'moderate Hussites destroyed it' (Lipany, 1434) and the fall of the town (1452).",
+   "readability": {
+    "note": {
+     "fre_after": 64.9,
+     "fk_after": 8.1
+    },
+    "outcome": {
+     "fre_after": 63.6,
+     "fk_after": 6.7
+    }
+   }
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-hussite-and-bohemian-brethren-movement",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In January 1434 the legates of the Council of Basel took Prague masters back into communion. The masters had agreed to stand by the Compacts. The Compacts were sealed at Jihlava in July 1436, and the Hussite war was over.",
+   "outcome": "In 1434 the Council of Basel's legates let Prague masters who had accepted the Compacts back into the church. They told all Christians to share worship with them.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt:18611-18640",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Legates of the Council of Basel, letter of 28 January 1434 (Eger), in Palacký, Urkundliche Beiträge zur Geschichte des Hussitenkrieges II (1873), no. 900",
+     "file": "cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt",
+     "lines": "18611-18612",
+     "locus": "no. 900",
+     "quote": "Legati a sacro concilio Basiliensi in Bohemiam destinati nniversis et singulis Christi fidelibus salutem",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Legates of the Council of Basel, letter of 28 January 1434, in Palacký II (1873), no. 900",
+     "file": "cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt",
+     "lines": "18621-18622",
+     "locus": "no. 900",
+     "quote": "volentes in compactatis in clictis capitulis stare et ea tenere, servare et adimplere",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Legates of the Council of Basel, letter of 28 January 1434, in Palacký II (1873), no. 900",
+     "file": "cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt",
+     "lines": "18635-18637",
+     "locus": "no. 900",
+     "quote": "nos quoque auctoritate sacri concUü gene- ralis ad ecclesiasticain unitatem et Christianain paceni cos re- cepimus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "František Palacký, preface to Urkundliche Beiträge II (1873)",
+     "file": "cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt",
+     "lines": "70-71",
+     "quote": "Obgleich der Hussitenkrieg durch die im Juli 1436 zu Iglau abgeschlossenen Basler Compactate beendigt war",
+     "locus": "Vorbericht"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "1498-1503",
+     "quote": "granted their deputies at the council of Bafil, in 1433, the terms contained in the following four articles, bearing the name of The Bohemian CompaPata",
+     "locus": "Part I, §6"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-hussite-and-bohemian-brethren-movement longDescription ('in 1436 the Compacts of Basel conceded ... legal recognition'), why ('in 1436 Bohemia won ... legal recognition for its own church')",
+   "wants": [
+    "The text of the Compacts themselves (Archiv český III, 398-444, or Mansi XXIX-XXX) in a vendored edition, for the chalice concession in the council's own words"
+   ],
+   "drafter_flags": [
+    "The pair already carries two 'argued against' links (one each way); this is a different type and relationship, so it takes --2 per the id rule. Group C owns the papacy's own text; if group C drafts the Compacts from the papal side, the merge should keep one.",
+    "Basel is counted under latin-papal-church-avignon-to-lateran-v (the conciliar era falls in that entry); flag for the reviewer if the papacy and the council should be told apart.",
+    "Cranz dates the Compacts' grant at Basel to 1433; Palacký dates their sealing at Iglau (Jihlava) to July 1436. Both are right for different stages; the note uses Palacký's date for the end of the war, matching the census text's 1436.",
+    "OCR: 'nniversis', 'clictis' (for 'dictis'), 'ecclesiasticain', 'concUü' (for 'concilii'), 'Christianain paceni cos' (for 'Christianam pacem eos'), 'Bafil', 'CompaPata'. Kept exactly."
+   ],
+   "change_reason": "New. The Hussite text names the Compacts of Basel; no link carried the settlement.",
+   "readability": {
+    "note": {
+     "fre_after": 64.9,
+     "fk_after": 7.4
+    },
+    "outcome": {
+     "fre_after": 74.1,
+     "fk_after": 6.3
+    }
+   }
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his 1520 letter to the German nobility, Luther wrote that he had not yet found any errors in Hus's writings. He said Hus's books and teaching were unjustly condemned, and he urged union with the Bohemians.",
+   "outcome_considered": "Luther's letter judges Hus and proposes union with the Bohemians, but it records no council, law, split or settlement that followed from it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.luther-open-letter-to-the-christian-nobility",
+     "work": "Martin Luther, An Open Letter to the Christian Nobility of the German Nation (1520), trans. C. M. Jacobs, Works of Martin Luther II (1916)",
+     "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+     "lines": "4321-4323",
+     "locus": "Open Letter, part III, §24 (the Bohemians)",
+     "quote": "I have no desire to pass judgment at this time upon John Hus's articles or to defend his errors, though I have not yet found any errors in his writings",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.luther-open-letter-to-the-christian-nobility",
+     "work": "Martin Luther, An Open Letter to the Christian Nobility (1520), trans. Jacobs (1916)",
+     "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+     "lines": "4335-4337",
+     "locus": "Open Letter, §24",
+     "quote": "though I confess that injustice was done him, and that his books and doctrines were unjustly condemned",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.luther-open-letter-to-the-christian-nobility",
+     "work": "Martin Luther, An Open Letter to the Christian Nobility (1520), trans. Jacobs (1916)",
+     "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+     "lines": "4299-4301",
+     "locus": "Open Letter, §24",
+     "quote": "of the Bohemians[224], and come into union with them so that the terrible slander, hatred and envy on both sides may cease.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-hussite-and-bohemian-brethren-movement legacy ('And in 1520 Luther wrote that he had not yet found any errors in Hus's writings', after prose change 2); relationsSummary ('a century before Luther') is a date comparison, not this claim",
+   "wants": [
+    "Luther's letter to Spalatin of February 1520 ('we are all Hussites without knowing it'; WA Br 2, 42), in a vendored edition, before that saying returns to the text"
+   ],
+   "drafter_flags": [
+    "Documented on the type's test: the later side names the earlier one's work and judges it. The link does not claim Hus shaped Luther's theology in detail.",
+    "The Wace-Buchheim 1885 translation of the same passage is also vendored (luther_first-principles-reformation_wace-buchheim1885.txt, lines 6980-6982); the Jacobs edition was used because a world source record already exists for it."
+   ],
+   "change_reason": "New. Replaces the unsourced 'we are all Hussites without knowing it' with Luther's own 1520 words, now carried by a link.",
+   "readability": {
+    "note": {
+     "fre_after": 61.7,
+     "fk_after": 9.1
+    }
+   }
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "waldensians-in-the-alps",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1487 Pope Innocent VIII sent his legate Albert de Capitaneis against the Waldenses. The bull called on rulers to take up arms against them. Troops raised at the legate's request then wiped out the Waldensians of the valley of Loyse in Dauphiné.",
+   "outcome": "A papal bull of 1487 ordered the Waldenses rooted out by force. In 1489 a court at Embrun judged those of Fraissinière heretics and ordered their goods seized.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt:22808-22866; cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt:4593-4645",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull of Innocent VIII, through his legate Albert de Capitaneis (1487), Latin and English, in Samuel Morland, The History of the Evangelical Churches of the Valleys of Piemont (1658)",
+     "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+     "lines": "22808-22811",
+     "locus": "Morland, Book I, 'The Bull of Pope Innocent for the Extirpation of the Waldenses' (1487)",
+     "quote": "proceed to the execution thereof againfl the forenamed Waldenfes, and all other Hereticks whatfoevery to rife «p in Arms againfl them",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull of Innocent VIII (1487), in Morland (1658)",
+     "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+     "lines": "22859-22866",
+     "locus": "Morland, Book I, the bull of 1487",
+     "quote": "procuring that they may be exterminated anddeflroyed. And if you ftiall think it expedient, to caufe, exhort, and induce all the faithful in thofe parts, by fit Preachers of Gods word,preach- ing the Crofs or the Croifado,to fight manfully againft the fame HeretickSj",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Waldenses (1618; English, Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "4593-4598",
+     "locus": "Part I, on the Waldenses of Dauphiné",
+     "quote": "The method of harvissing the Waldenses by war was never known till that time ; but Albert de (.'apitaneis. Archdeacon of Cremona,senl against them by Pope Innocent VIII., began to desire the aid and assistance of the King's Lieutenant in Dauphiny",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "waldensians-in-the-alps relationsSummary ('survived Pope Innocent VIII's 1487 crusade bull and the Cattaneo crusade that followed it'), longDescription ('in 1487 Innocent VIII proclaimed a crusade against them, and the campaign that followed tore through valleys'), why ('They survived a crusade Pope Innocent VIII called against them in 1487')",
+   "wants": [
+    "The bull Id nostri cordis (27 April 1487) in a critical edition (e.g. Bullarium Romanum, Turin ed., vol. V), to check Morland's copy and his English"
+   ],
+   "drafter_flags": [
+    "Morland's copy is the legates' executory letter quoting and carrying out the bull; he says the original is in the Cambridge University Library. The quote is his English column.",
+    "Perrin (1618) is a Reformed historian working from the Dauphiné trial papers; the Loyse killing and the 1489 Embrun sentence (lines 4599-4645) rest on him. The outcome's 1489 sentence is at Perrin 4635-4645, within 60 lines of the cited quote.",
+    "Morland's English renders the diocese 'Ebrodunensem' (Embrun) as 'Eureux' (Evreux), line 22396-22397; the note does not depend on it.",
+    "Group C owns the papacy's own text. If group C drafts this pair from the papal side, the merge should keep one.",
+    "OCR: long s throughout Morland ('againfl', 'Waldenfes', 'whatfoevery', '«p', 'HeretickSj', 'anddeflroyed'); Perrin '(.'apitaneis', 'Cremona,senl', 'harvissing'. Kept exactly."
+   ],
+   "change_reason": "New. The Alpine Waldensian text names the 1487 bull three times; no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 63.7,
+     "fk_after": 7.9
+    },
+    "outcome": {
+     "fre_after": 61.5,
+     "fk_after": 8.0
+    }
+   }
+  }
+ ],
+ "dispositions": [
+  {
+   "movement": "lollardy",
+   "field": "relationsSummary",
+   "sentence": "Contested influence line to the English Reformation",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "lollardy--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": null,
+   "reason": "New Documented influenced link: the 1521 Lincoln trials of households taught by Wyclif's Wicket, and Foxe's claim that this came before Luther; the note says historians disagree how far it went. Summary kept as written."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Lollardy grew out of the teaching of the Oxford theologian John Wycliffe — who attacked church wealth and papal authority, denied transubstantiation, and argued that scripture should be available in English.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Wyclif has no census movement. Checked: Arundel's constitutions of 1409 (Foxe III, lines 20197-20198, already a source on the papacy-Lollardy link) name Wyclif's writings and 'Lollardy'; Tyndale's editor quotes the same constitution banning books 'set forth in the time of John Wicliffe' (Tyndale 1848, lines 10833-10836)."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Lollardy grew out of the teaching of the Oxford theologian John Wycliffe — who attacked church wealth and papal authority, denied transubstantiation, and argued that scripture should be available in English.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "prose_change": null,
+   "reason": "Wyclif's attack on papal authority and the church's answer are carried by the published papacy-Lollardy argued-against link (Arundel 1409; Constance 1415)."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "But it quickly became something much wider than him.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the movement's growth, not a relationship."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Its adherents were mostly ordinary people: weavers, smiths, tailors, wives and widows who owned or shared vernacular scripture, met in one another's houses to read it aloud, and doubted images, pilgrimage and the priest's power over the sacrament.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes members and practice. Foxe IV's Lincoln registers (lines 16970-18620) show artisans, wives and widows with English books."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Burning for heresy was made law in England in 1401, Archbishop Arundel's constitutions of 1409 forbade unlicensed translation of scripture into English, and Sir John Oldcastle's failed rising in 1414 made Lollardy treason as well as heresy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "English law and Parliament have no census movement. Checked: Foxe III (lines 29417-29427) names the statute 2 Henry IV c. 15 ('Ex officio, vel de comburendo') and the statute 2 Henry V c. 7 that joined Lollardy and treason after Oldcastle."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Burning for heresy was made law in England in 1401, Archbishop Arundel's constitutions of 1409 forbade unlicensed translation of scripture into English, and Sir John Oldcastle's failed rising in 1414 made Lollardy treason as well as heresy.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "prose_change": null,
+   "reason": "Arundel's constitutions of 1409 are the first source on the published papacy-Lollardy link."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "After that the movement went underground and survived as scattered household networks into the 1520s.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Continuity of the movement itself; Foxe IV shows households still tried in 1520-1521 (lines 16703-16712)."
+  },
+  {
+   "movement": "lollardy",
+   "field": "longDescription",
+   "sentence": "Almost everything we know about those households comes from the records their prosecutors kept — because to convict someone you first had to write down what they said.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "About the sources, not a relationship."
+  },
+  {
+   "movement": "lollardy",
+   "field": "why",
+   "sentence": "Lollardy grew out of Oxford theologian John Wycliffe's attacks on church wealth and papal authority into a movement carried mainly by ordinary people: weavers, smiths, tailors, wives, and widows who met in each other's houses to read scripture aloud in English.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "prose_change": null,
+   "reason": "As in the long description; Wyclif himself has no census movement."
+  },
+  {
+   "movement": "lollardy",
+   "field": "why",
+   "sentence": "England made burning for heresy the law in 1401 and drove the movement underground after a failed rising in 1414, yet the trial records built to convict Lollards ended up preserving some of the fullest surviving statements of what ordinary medieval believers actually thought.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description (Foxe III, lines 29417-29427)."
+  },
+  {
+   "movement": "lollardy",
+   "field": "why",
+   "sentence": "Around two hundred and fifty manuscripts of the Wycliffite Bible still survive, more than of any other Middle English text.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A fact about manuscripts, not a relationship."
+  },
+  {
+   "movement": "lollardy",
+   "field": "legacy",
+   "sentence": "Whether Lollardy fed directly into the English Reformation is still argued over by historians.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "lollardy--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": 0,
+   "reason": "Carried by the new link, whose note states the disagreement."
+  },
+  {
+   "movement": "lollardy",
+   "field": "legacy",
+   "sentence": "What is not in doubt is that Lollard communities in the Chilterns, Essex, Coventry and Kent were still being prosecuted in the 1520s, exactly where and when the first English evangelicals appear, and that some of the same families turn up in both sets of records.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "qualify",
+   "link_id": "lollardy--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": 0,
+   "reason": "Narrowed to what Foxe's Lincoln registers show. 'Exactly where and when the first English evangelicals appear' and 'some of the same families turn up in both sets of records' have no vendored or repo-cited source."
+  },
+  {
+   "movement": "lollardy",
+   "field": "legacy",
+   "sentence": "Its most concrete survival is physical: around two hundred and fifty manuscripts of the Wycliffite Bible still exist, more than of any other Middle English text.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Fact about manuscripts, kept."
+  },
+  {
+   "movement": "lollardy",
+   "field": "legacy",
+   "sentence": "A strange sort of monument for a movement its opponents believed they had stamped out.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "prose_change": 0,
+   "reason": "'Its opponents' are the English church, carried by the published papacy-Lollardy link."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "relationsSummary",
+   "sentence": "A functioning non-Roman national church a century before Luther.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": 1,
+   "reason": "'Non-Roman' is carried by the two published argued-against links between the papacy and the Hussites. 'A century before Luther' is a date comparison, not a claim of contact."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "relationsSummary",
+   "sentence": "It took shape in Prague between 1402 and 1414, before Hus was burned, and its stricter branch was later renewed as the Moravian Church at Herrnhut in Saxony.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": 1,
+   "reason": "The stricter branch's survival into the 1600s is carried by the new continued-as link (Unity decrees; Cranz)."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "relationsSummary",
+   "sentence": "It took shape in Prague between 1402 and 1414, before Hus was burned, and its stricter branch was later renewed as the Moravian Church at Herrnhut in Saxony.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The renewal at Herrnhut (1722) is a step from the Czech churches' last century (era 7) to the Moravian Church (era 8). Held for that pass: czech-churches-last-century to the-moravian-church-at-herrnhut, continued as. Cranz (1780) and the Moravian sources vendored for era 8 would carry it."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "relationsSummary",
+   "sentence": "A functioning non-Roman national church a century before Luther.",
+   "other_id": "lollardy",
+   "disposition": "existing",
+   "link_id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": 1,
+   "reason": "The published link from Lollardy to the Hussites was named in neither text. Prose change 1 adds Hus's debt to Wyclif, matching that link's note."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "Jan Hus preached reform in Czech at Prague's Bethlehem Chapel for more than a decade before the Council of Constance burned him as a heretic in 1415.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": null,
+   "reason": "Constance's sentence of 6 July 1415 is the published papacy-Hussite link."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "The shock turned a university movement into a national one.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the movement's growth."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "Its emblem was the chalice — the insistence that ordinary lay people, and not only priests, should receive the wine at communion.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the movement's own practice; Březová calls its people 'fratres communioni calicis faventes' (line 38707)."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "And its program was set out in the Four Articles of Prague in 1420.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own program; Cranz (lines 1505-1525) gives the four articles."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "When crusades were called against Bohemia, the Hussite armies under Jan Žižka and then Prokop the Bald beat them one after another, and in 1436 the Compacts of Basel conceded what no other medieval dissent ever won: legal recognition.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": null,
+   "reason": "The crusades were the papacy's acts against the Hussites, covered by the published argued-against link's type. Checked: Březová's Czech version records the crusade proclaimed at Breslau by the papal legate on 16 March 1420 (lines 38661-38665); Cranz (lines 1476-1481) the victories over crusaders. That link's sources show Constance only; the reviewer may add Březová, but the link is not wrong."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "When crusades were called against Bohemia, the Hussite armies under Jan Žižka and then Prokop the Bald beat them one after another, and in 1436 the Compacts of Basel conceded what no other medieval dissent ever won: legal recognition.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2",
+   "prose_change": null,
+   "reason": "The Compacts of Basel: new in-contact link (the legates' letter of 1434; Palacký on Jihlava 1436), with an outcome."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "Out of that settlement two bodies grew.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Introduces the next two sentences."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "The Utraquist church held the parishes and, under George of Poděbrady, for a time the crown itself.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": null,
+   "reason": "The Utraquist church's survival is part of the continued-as link. George of Poděbrady has no census movement; checked in Lützow 1920 (regent, lines 10138-10142; 'king George of Podebrad', line 240)."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "sentence": "And from 1457 the Unity of the Brethren, a smaller, stricter, pacifist body formed at Kunvald under the influence of the layman Petr Chelčický, which by 1501 had printed what is often called the first hymnbook in a European vernacular.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": null,
+   "reason": "The Unity's continuity is the continued-as link. Chelčický has no census movement; checked: Lützow 1920 (lines 10000-10002) calls him the Unity's intellectual originator; Cranz (lines 1660-1662) dates the Kunvald gathering to 1457."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "why",
+   "sentence": "Jan Hus preached reform in Czech for over a decade before being burned as a heretic in 1415, and the shock turned a university movement into a national one built around a single demand: that ordinary lay people, not only priests, should receive the wine at communion.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": null,
+   "reason": "Constance, as in the long description."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "why",
+   "sentence": "Hussite armies beat back crusade after crusade, and in 1436 Bohemia won something no other medieval dissent ever had, legal recognition for its own church.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": null,
+   "reason": "The crusades, as in the long description."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "why",
+   "sentence": "Hussite armies beat back crusade after crusade, and in 1436 Bohemia won something no other medieval dissent ever had, legal recognition for its own church.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2",
+   "prose_change": null,
+   "reason": "The 1436 settlement: new in-contact link."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "why",
+   "sentence": "A stricter, pacifist branch, the Unity of the Brethren, printed what is often called the first hymnbook in a European vernacular by 1501.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": null,
+   "reason": "The Unity's continuation. The 1501 hymnbook is not a relationship."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "sentence": "It did not end in 1517.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": 2,
+   "reason": "Carried by the new continued-as link."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "sentence": "The Utraquist church and the Unity of the Brethren went on as Bohemia's non-Roman churches for another full century, producing the Kralice Bible and, in Jan Amos Comenius, a last bishop who became one of Europe's great educational reformers, before the Habsburg suppression of the 1620s drove them into exile.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": 2,
+   "reason": "Carried by the continued-as link. The Habsburg suppression has no census movement; Cranz (lines 1131-1134) dates the dispersion to 1627."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "sentence": "Remnants of the Unity survived underground and resurfaced in 1722 at Herrnhut in Saxony as the Moravian Church, which still exists worldwide.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the summary: held for the era 7 or 8 pass (czech-churches-last-century to the-moravian-church-at-herrnhut)."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "sentence": "In Bohemia the memory never went away.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Memory and a public holiday, not a relationship."
+  },
+  {
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "sentence": "6 July, the day Hus was burned, is a public holiday in the Czech Republic, and Luther, reading Hus a century later, concluded that 'we are all Hussites without knowing it.'",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 2,
+   "reason": "'We are all Hussites without knowing it' (letter to Spalatin, 1520) is not vendored. Replaced with Luther's own 1520 words in the Open Letter, carried by a new Documented influenced link."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "relationsSummary",
+   "sentence": "The radical wing of the Hussite movement.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
+   "prose_change": null,
+   "reason": "New gave-rise-to link: Březová's account of the chalice brethren going to Hradiště, called Tabor, in 1420."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "In 1420 the most radical wing of the Hussite movement founded a fortified town in southern Bohemia and named it Tábor, after the mountain of the Transfiguration, in the expectation that Christ was about to return and only a few chosen places would be spared.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
+   "prose_change": 3,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "The year passed, the world continued, and the community stayed.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Describes the community."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "Tabor stripped worship down to what it could find in scripture — vernacular liturgy, no vestments, no purgatory, no cult of the saints — elected its own bishop in Nicholas of Pelhřimov, and in its early years held property in common.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The community's own practice; the Chronicon Taboritarum (Höfler II, lines 25925-25930) has its priests drop vestments and the Roman rite. Nicholas of Pelhřimov as bishop: Lützow 1914, line 3573."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "It also fielded the Hussite wars' most effective army, whose wagon-fort tactics under Jan Žižka and then Prokop the Bald broke crusade after crusade.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": 3,
+   "reason": "The crusades were against the Hussite movement as a whole and are the papacy's acts on the published papacy-Hussite argued-against link. No separate papacy-Taborite link was drafted."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "In the end it was the moderate Hussites of Prague who destroyed it, shattering the Taborite field armies at Lipany in 1434.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+   "prose_change": 3,
+   "reason": "New argued-against link (the Chronicon Taboritarum; Bartošek on 1434; Lützow on 1452)."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "In the end it was the moderate Hussites of Prague who destroyed it, shattering the Taborite field armies at Lipany in 1434.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "qualify",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+   "prose_change": 3,
+   "reason": "Bartošek shows Catholic lords and Plzeň in the alliance at Lipany; the sentence now says so."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "The town itself surrendered to George of Poděbrady in 1452, and its bishop died in confinement.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+   "prose_change": 3,
+   "reason": "George of Poděbrady was the Utraquist regent; the capture of 1452 is on the same link and gives its outcome."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "sentence": "The town itself surrendered to George of Poděbrady in 1452, and its bishop died in confinement.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Its bishop died in confinement': no vendored or repo-cited source. Lützow 1920 (lines 10149-10151) has the priest Wenceslas Koranda imprisoned by George; the sentence now says that."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "why",
+   "sentence": "In 1420 the most radical wing of the Hussite movement built a fortified town in southern Bohemia, named it Tabor after the mountain of the Transfiguration, and expected Christ's imminent return.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
+   "prose_change": 4,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "why",
+   "sentence": "When the world did not end, the community stayed, stripping worship down to what it could find in scripture, no vestments, no purgatory, no cult of saints, and for a time holding property in common under its own elected bishop.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Describes the community."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "why",
+   "sentence": "Its wagon-fort armies broke crusade after crusade before moderate Hussites themselves destroyed the Taborite forces at Lipany in 1434.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+   "prose_change": 4,
+   "reason": "Crusades, as in the long description."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "why",
+   "sentence": "Its wagon-fort armies broke crusade after crusade before moderate Hussites themselves destroyed the Taborite forces at Lipany in 1434.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "qualify",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+   "prose_change": 4,
+   "reason": "'Moderate Hussites themselves destroyed' made exact: 'an alliance led by moderate Hussites' (Bartošek)."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "legacy",
+   "sentence": "As a church, nothing continued: Tabor's worship and its community of goods ended with its surrender.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No continuation is claimed."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "legacy",
+   "sentence": "The wagon-fort tactics its armies perfected were studied and copied across central Europe for a century afterward.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No census movement for 'central Europe'. 'Studied and copied across central Europe for a century afterward' has no vendored or repo-cited source; Lützow 1914 (lines 1496-1498) supports only Žižka's central use of the wagon fort."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "legacy",
+   "sentence": "And the revulsion of Petr Chelčický and others at what armed radicalism had produced helped push the Unity of the Brethren, founded a few years after Tabor's fall, toward a deliberate and permanent pacifism.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A claim that Tabor's example pushed the Unity of the Brethren into pacifism. Lützow 1920 (lines 10008-10012) says only that the horrors of the Hussite wars 'may have confirmed' Chelčický's belief; Cranz (lines 1676-1681) has the Brethren choose prayer over arms 'as the so-called Hussites had done'. Qualified with the uncertainty stated; no link drafted, since the sources tie the turn to the wars in general, not to Tabor."
+  },
+  {
+   "movement": "taborite-radicalism",
+   "field": "legacy",
+   "sentence": "The town itself is still there.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Not a relationship."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "relationsSummary",
+   "sentence": "The scattered communities that the barbes — traveling lay preachers — connected on foot; survived Pope Innocent VIII's 1487 crusade bull and the Cattaneo crusade that followed it.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the barbes; Perrin (lines 3315, 7188) names barbes as their ministers."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "relationsSummary",
+   "sentence": "The scattered communities that the barbes — traveling lay preachers — connected on foot; survived Pope Innocent VIII's 1487 crusade bull and the Cattaneo crusade that followed it.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "New Documented argued-against link: the bull of 1487 as Morland prints it, and Perrin on its execution, with an outcome. 'The Cattaneo crusade' is the legate Albert de Capitaneis's campaign (Perrin, lines 4593-4598), carried by the same link."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "relationsSummary",
+   "sentence": "This thread leads into the 1532 Synod of Chanforan, where the Waldensians formally united with the Reformation.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "existing",
+   "link_id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "The published Contested continued-as link (the 1532 confession and Perrin)."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "A century and more after being condemned, the Waldensians had become something no medieval dissent was supposed to be: a durable, organized, underground church.",
+   "other_id": "the-waldensians",
+   "disposition": "existing",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "The published continued-as link from the earlier Waldensians."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "Its members lived openly as ordinary Catholic parishioners and privately as something else, in the high valleys of the Cottian Alps between Piedmont and Dauphiné, and in scattered communities in Provence, in Calabria and Apulia, in Germany and Bohemia.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the members' outward practice, not a relationship between movements. Not checked against a vendored text; the likely witness is George Morel's 1530 memoir, which Perrin cites (lines 2694, 4056-4068)."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "What held it together were the barbes — 'uncles'.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the barbes."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "Itinerant preachers who traveled in pairs, memorized large amounts of scripture in the vernacular, carried small hand-copied books, and worked a circuit of the households.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the barbes."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "Their existence was known and repeatedly attacked; in 1487 Innocent VIII proclaimed a crusade against them, and the campaign that followed tore through valleys on both sides of the Alps.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "The 1487 bull and the campaign that followed: new link."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "sentence": "They survived it.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a relationship; Perrin (lines 4629-4634) has the Waldensians of Pragela and Fraissinière hold the passes."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "why",
+   "sentence": "A century after being condemned, the Waldensians had become something no medieval dissenting movement was supposed to be: a durable, organized underground church, its members living openly as Catholic parishioners and privately as something else.",
+   "other_id": "the-waldensians",
+   "disposition": "existing",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "why",
+   "sentence": "It was held together by the barbes, itinerant preachers who traveled in pairs, memorized scripture in the vernacular, and carried small hand-copied books on a circuit of scattered households across the Alps.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the barbes."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "why",
+   "sentence": "They survived a crusade Pope Innocent VIII called against them in 1487, and in 1532 joined the Protestant Reformation outright.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "The 1487 bull: new link."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "why",
+   "sentence": "They survived a crusade Pope Innocent VIII called against them in 1487, and in 1532 joined the Protestant Reformation outright.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "existing",
+   "link_id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "The 1532 joining: published Contested link."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "sentence": "They are the one medieval dissenting movement still here.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "'The one medieval dissenting movement still here' conflicts with the Hussite entry (the Unity lives on as the Moravian Church). Now 'one of the very few', matching the era-5 Waldensian entry."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "sentence": "In 1532, at a synod at Chanforan in the Angrogna valley, the Waldensians of the Alps joined the Protestant Reformation, and the church that resulted still exists as the Waldensian Evangelical Church, based in the same valleys, now in union with Italy's Methodists, with a sister church in Argentina and Uruguay and congregations founded by emigrants in the United States.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "existing",
+   "link_id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "prose_change": 6,
+   "reason": "Published continued-as link."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "sentence": "In 1532, at a synod at Chanforan in the Angrogna valley, the Waldensians of the Alps joined the Protestant Reformation, and the church that resulted still exists as the Waldensian Evangelical Church, based in the same valleys, now in union with Italy's Methodists, with a sister church in Argentina and Uruguay and congregations founded by emigrants in the United States.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The union with Italy's Methodists (1975/1979) is a modern event of the successor church, with no vendored or repo-cited source; removed, as era 5 removed the same clause from the earlier Waldensian entry. A link would also join this era-6 movement to an era-9 one for an event centuries after its end."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "sentence": "In 1532, at a synod at Chanforan in the Angrogna valley, the Waldensians of the Alps joined the Protestant Reformation, and the church that resulted still exists as the Waldensian Evangelical Church, based in the same valleys, now in union with Italy's Methodists, with a sister church in Argentina and Uruguay and congregations founded by emigrants in the United States.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The sister church in Argentina and Uruguay and the emigrant congregations in the United States: no census movement and no vendored or repo-cited source. Removed."
+  },
+  {
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "sentence": "The valleys themselves keep the memory in place names, in caves and hidden meeting-places, and in a museum network the church runs.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Memory and places, not a relationship."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "lollardy",
+   "field": "legacy",
+   "old": "Whether Lollardy fed directly into the English Reformation is still argued over by historians. What is not in doubt is that Lollard communities in the Chilterns, Essex, Coventry and Kent were still being prosecuted in the 1520s, exactly where and when the first English evangelicals appear, and that some of the same families turn up in both sets of records. Its most concrete survival is physical: around two hundred and fifty manuscripts of the Wycliffite Bible still exist, more than of any other Middle English text. A strange sort of monument for a movement its opponents believed they had stamped out.",
+   "new": "Historians still argue over whether Lollardy fed straight into the English Reformation. What is not in doubt is that Lollard households were still on trial in the 1520s. In 1521 the bishop of Lincoln questioned many around Amersham in Buckinghamshire. Some had learned from Wyclif's Wicket, a short English tract on the sacrament. The Protestant writer John Foxe said this was before Luther's name was heard there. The movement's most solid survival is its books. Around two hundred and fifty handwritten copies of the Wycliffite Bible still exist, more than of any other Middle English text. It is a strange sort of monument for a movement its enemies thought they had stamped out.",
+   "reason": "'Lollard communities in the Chilterns, Essex, Coventry and Kent ... exactly where and when the first English evangelicals appear, and ... some of the same families turn up in both sets of records' is narrowed to what Foxe's Lincoln registers show (Foxe IV, lines 16703-16712, 18610-18612): households around Amersham tried in 1521, and Foxe's own claim that this came before Luther's name was known. No vendored or repo-cited source shows the same families in both sets of records (wants: Summers 1906; Strype). The rest of the paragraph is kept, split into shorter sentences; 'manuscripts' becomes 'handwritten copies' for reading level.",
+   "fre_after": 61.2,
+   "fk_after": 8.2
+  },
+  {
+   "n": 1,
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "relationsSummary",
+   "old": "A functioning non-Roman national church a century before Luther. It took shape in Prague between 1402 and 1414, before Hus was burned, and its stricter branch was later renewed as the Moravian Church at Herrnhut in Saxony.",
+   "new": "A working non-Roman national church a century before Luther. It took shape in Prague between 1402 and 1414, before Hus was burned. Hus drew heavily on the books of John Wyclif, the English thinker whose teaching also began Lollardy. Its stricter branch, the Unity of the Brethren, lived on into the 1600s. It was later renewed as the Moravian Church at Herrnhut in Saxony.",
+   "reason": "Adds one sentence naming Hus's debt to Wyclif, so the published link from Lollardy to the Hussites (Schaff's introduction, Fillastre) is named in a text field; before this neither entry named it. Names the Unity of the Brethren as the branch that lived on into the 1600s (carried by the new continued-as link to the Czech churches' last century) before its Moravian renewal. 'Functioning' becomes 'working' for reading level; nothing else changes.",
+   "fre_after": 62.4,
+   "fk_after": 7.7
+  },
+  {
+   "n": 2,
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "legacy",
+   "old": "It did not end in 1517. The Utraquist church and the Unity of the Brethren went on as Bohemia's non-Roman churches for another full century, producing the Kralice Bible and, in Jan Amos Comenius, a last bishop who became one of Europe's great educational reformers, before the Habsburg suppression of the 1620s drove them into exile. Remnants of the Unity survived underground and resurfaced in 1722 at Herrnhut in Saxony as the Moravian Church, which still exists worldwide. In Bohemia the memory never went away. 6 July, the day Hus was burned, is a public holiday in the Czech Republic, and Luther, reading Hus a century later, concluded that 'we are all Hussites without knowing it.'",
+   "new": "It did not end in 1517. The Utraquist church and the Unity of the Brethren went on as Bohemia's non-Roman churches for another full century. They produced the Kralice Bible. Their last bishop, Jan Amos Comenius, became one of Europe's great reformers of schooling. Then the Habsburg crackdown of the 1620s drove them into exile. Remnants of the Unity lived on in secret and came back to light in 1722 at Herrnhut in Saxony, as the Moravian Church. That church still exists worldwide. In Bohemia the memory never went away. 6 July, the day Hus was burned, is a public holiday in the Czech Republic. And in 1520 Luther wrote that he had not yet found any errors in Hus's writings.",
+   "reason": "'Luther ... concluded that we are all Hussites without knowing it' rests on a letter to Spalatin (February 1520) that is not vendored (wants). Replaced with Luther's own words in the 1520 Open Letter to the Christian Nobility (Jacobs, lines 4321-4323), now carried by a Documented link. Long sentences split for reading level; every other fact kept.",
+   "fre_after": 66.5,
+   "fk_after": 6.9
+  },
+  {
+   "n": 3,
+   "movement": "taborite-radicalism",
+   "field": "longDescription",
+   "old": "In 1420 the most radical wing of the Hussite movement founded a fortified town in southern Bohemia and named it Tábor, after the mountain of the Transfiguration, in the expectation that Christ was about to return and only a few chosen places would be spared. The year passed, the world continued, and the community stayed. Tabor stripped worship down to what it could find in scripture — vernacular liturgy, no vestments, no purgatory, no cult of the saints — elected its own bishop in Nicholas of Pelhřimov, and in its early years held property in common. It also fielded the Hussite wars' most effective army, whose wagon-fort tactics under Jan Žižka and then Prokop the Bald broke crusade after crusade. In the end it was the moderate Hussites of Prague who destroyed it, shattering the Taborite field armies at Lipany in 1434. The town itself surrendered to George of Poděbrady in 1452, and its bishop died in confinement.",
+   "new": "In 1420 the most radical wing of the Hussite movement founded a fortified town in southern Bohemia. They named it Tábor, after the mountain of the Transfiguration. They expected Christ to return at any moment, and believed only a few chosen places would be spared. The year passed, the world went on, and the community stayed. Tabor stripped worship down to what it could find in scripture: worship in Czech, no vestments, no purgatory, no cult of the saints. It chose its own bishop, Nicholas of Pelhřimov, and in its early years held property in common. It also fielded the Hussite wars' most effective army. Its wagon forts, under Jan Žižka and then Prokop the Bald, broke crusade after crusade. In the end it was fellow Hussites who destroyed it. Utraquist lords and Prague's Old Town, joined by Catholic lords such as Ulrich of Rosenberg, crushed the Taborite field armies at Lipany in 1434. In 1452 George of Poděbrady, himself a Utraquist, took the town. He made it use the moderate Utraquist service and had the Taborite priest Wenceslas Koranda locked up.",
+   "reason": "'It was the moderate Hussites of Prague who destroyed it' leaves out the Catholic lords in the alliance: Bartošek of Drahonice (lines 64522-64533) has Ulrich of Rosenberg's and Plzeň's forces join Prague's Old Town against the Taborites, and Lützow (1914, lines 14300-14301) calls Rosenberg leader of the Roman party. 'Its bishop died in confinement' has no vendored or repo-cited source; Lützow (1920, lines 10144-10151) shows George imposing the Utraquist service and imprisoning the priest Wenceslas Koranda, which replaces it. Whole field split into shorter sentences for reading level.",
+   "fre_after": 61.9,
+   "fk_after": 8.4
+  },
+  {
+   "n": 4,
+   "movement": "taborite-radicalism",
+   "field": "why",
+   "old": "In 1420 the most radical wing of the Hussite movement built a fortified town in southern Bohemia, named it Tabor after the mountain of the Transfiguration, and expected Christ's imminent return. When the world did not end, the community stayed, stripping worship down to what it could find in scripture, no vestments, no purgatory, no cult of saints, and for a time holding property in common under its own elected bishop. Its wagon-fort armies broke crusade after crusade before moderate Hussites themselves destroyed the Taborite forces at Lipany in 1434.",
+   "new": "In 1420 the most radical wing of the Hussite movement built a fortified town in southern Bohemia. They named it Tabor after the mountain of the Transfiguration, and expected Christ to return at any moment. When the world did not end, the community stayed. It stripped worship down to what it could find in scripture: no vestments, no purgatory, no cult of saints. For a time it held property in common under its own chosen bishop. Its wagon-fort armies broke crusade after crusade. Then, at Lipany in 1434, an alliance led by moderate Hussites destroyed the Taborite forces.",
+   "reason": "'Before moderate Hussites themselves destroyed the Taborite forces' made exact as 'an alliance led by moderate Hussites', for the same reason as the long description (Bartošek, lines 64522-64533). Split into shorter sentences.",
+   "fre_after": 60.2,
+   "fk_after": 8.3
+  },
+  {
+   "n": 5,
+   "movement": "taborite-radicalism",
+   "field": "legacy",
+   "old": "As a church, nothing continued: Tabor's worship and its community of goods ended with its surrender. Its influence ran two other ways. The wagon-fort tactics its armies perfected were studied and copied across central Europe for a century afterward. And the revulsion of Petr Chelčický and others at what armed radicalism had produced helped push the Unity of the Brethren, founded a few years after Tabor's fall, toward a deliberate and permanent pacifism. The town itself is still there.",
+   "new": "As a church, nothing continued: Tabor's worship and its community of goods ended with its surrender. Under Jan Žižka its armies made the armed wagon fort the great weapon of the Hussite wars. Petr Chelčický, the lay thinker behind the Unity of the Brethren, held that all bloodshed is sin. The horrors of the Hussite wars may have hardened that belief. The Unity, founded a few years after Tabor's fall, chose to defend itself by prayer, not by arms as the Hussites had done. The town itself is still there.",
+   "reason": "'Studied and copied across central Europe for a century afterward' has no vendored or repo-cited source; Lützow (1914, lines 1496-1498) shows only that Žižka first made armed wagons a central part of warfare, which replaces it. 'The revulsion of Petr Chelčický and others at what armed radicalism had produced helped push the Unity' outruns the sources: Lützow (1920, lines 10000-10012) makes Chelčický the Unity's intellectual originator and says only that the horrors of the Hussite wars 'may have confirmed' his belief that bloodshed is sinful; Cranz (lines 1676-1681) has the Brethren resolve to defend themselves by prayer, not by arms as the Hussites had. The sentence now says that, with the uncertainty stated.",
+   "fre_after": 71.7,
+   "fk_after": 7.1
+  },
+  {
+   "n": 6,
+   "movement": "waldensians-in-the-alps",
+   "field": "legacy",
+   "old": "They are the one medieval dissenting movement still here. In 1532, at a synod at Chanforan in the Angrogna valley, the Waldensians of the Alps joined the Protestant Reformation, and the church that resulted still exists as the Waldensian Evangelical Church, based in the same valleys, now in union with Italy's Methodists, with a sister church in Argentina and Uruguay and congregations founded by emigrants in the United States. The valleys themselves keep the memory in place names, in caves and hidden meeting-places, and in a museum network the church runs.",
+   "new": "They are one of the very few medieval dissenting movements still here. In 1532 the Waldensians of the Alps met at Chanforan in the Angrogna valley and joined the Protestant Reformation. The church that came out of it still exists as the Waldensian Evangelical Church. It is based in the same valleys. The valleys keep the memory alive in place names, in caves and hidden meeting places, and in museums the church runs.",
+   "reason": "'The one medieval dissenting movement still here' conflicts with the Hussite entry, whose Unity of the Brethren lives on as the Moravian Church; now 'one of the very few', as the era-5 Waldensian entry says. The union with Italy's Methodists, the sister church in Argentina and Uruguay and the emigrant congregations in the United States have no vendored or repo-cited source and are removed, as era 5 removed the Methodist clause from the earlier Waldensian entry. Split into shorter sentences.",
+   "fre_after": 61.8,
+   "fk_after": 8.2
+  }
+ ],
+ "wants": [
+  "Lollard and early evangelical records that show the same families in both (e.g. W. H. Summers, The Lollards of the Chiltern Hills, 1906, public domain, located but not fetched; Strype, Ecclesiastical Memorials, for the 1520s Essex cases), to test the 'same families' claim before it returns",
+  "A public-domain modern study that argues against a Lollard contribution to the English Reformation, so the disagreement the note names can be sourced on both sides",
+  "A Utraquist source that runs across 1517 (e.g. the Utraquist consistory's acts or the Bohemian Confession of 1575 in a vendored edition), so the Utraquist half of the continuation is shown in a primary as the Unity's half is",
+  "An English translation of Březová's Historia Hussitica (none public-domain is known), to let a reader check the Latin",
+  "A primary for the capture of Tabor in 1452 (e.g. Aeneas Sylvius's letters of 1451-52, or the Old Czech Annals), so the outcome rests on a contemporary text as well as Lützow",
+  "The text of the Compacts themselves (Archiv český III, 398-444, or Mansi XXIX-XXX) in a vendored edition, for the chalice concession in the council's own words",
+  "Luther's letter to Spalatin of February 1520 ('we are all Hussites without knowing it'; WA Br 2, 42), in a vendored edition, before that saying returns to the text",
+  "The bull Id nostri cordis (27 April 1487) in a critical edition (e.g. Bullarium Romanum, Turin ed., vol. V), to check Morland's copy and his English",
+  "George Morel's memoir and letter to Oecolampadius (1530), in a vendored edition, for the Alpine Waldensians' outward conformity as Catholic parishioners",
+  "Martin V's crusade bull against the Hussites (1420), in a vendored edition, as a direct source for the papacy's crusades"
+ ],
+ "escalations": [
+  "B: Two-entry consistency (for the merge, not a stop): the era-7 Waldensian-Reformed union entry's legacy still says 'since 1979 in union with Italian Methodists' and names the sister church in Argentina and Uruguay. This draft removes the same clauses from the Alpine entry for want of a source; the era-7 pass should treat them the same way.",
+  "B: Held for the era-7/8 pass: czech-churches-last-century to the-moravian-church-at-herrnhut (continued as). The Hussite text's 'renewed as the Moravian Church' rests on that step, which this pass cannot draw (both ends outside era 6).",
+  "B: For the reviewer, not a stop: the Council of Basel is counted under latin-papal-church-avignon-to-lateran-v. If the project wants the conciliar movement told apart from the papacy, the Compacts link's 'from' would change.",
+  "B: Possible duplicates with group C (papacy's own text): the 1487 bull against the Alpine Waldensians and the Compacts of Basel. If group C drafts either pair, the merge should keep one."
+ ],
+ "self_check": "grep -iE 'we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we' over every link note, every outcome and every prose_changes 'new' field: 0 hits (two earlier hits, 'recorded' and 'records' in two notes, were reworded). Quote check (whitespace-squashed substring at the stated lines, as tools/validate-census.mjs does): 27 of 27 primary and secondary quotes found. Every note, outcome and changed paragraph scores FRE >= 60 and FK <= 10 with engine.m7.turn_readability.score_turn; every 'old' matches the live field exactly; JSON parses."
+}

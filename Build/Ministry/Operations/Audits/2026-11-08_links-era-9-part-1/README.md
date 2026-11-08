@@ -26,7 +26,7 @@ After review, the spelling check flagged one note: Carey's book title "Enquiry".
 ## Counts
 
 - Links touching a part-1 movement: 40. This pass added 34 and rewrote the notes of 3 (Holiness to Azusa Street; Stone-Campbell to the Churches of Christ and to the Disciples, for reading level). 3 were already on main and unchanged (from the era 8 movements). No link retired; every published ID stands.
-- Census links in all: 321 before this pass, 355 after. Data release 12 (2026-11-08). Main held release 10; era 6's branch has claimed 11.
+- Census links in all: 364 before this pass (after era 6, merged first as data release 11), 398 after. Data release 12 (2026-11-08). Era 6's links touch no part-1 movement, and none of this pass's links repeats one of them.
 - Grades of the links added: Dominant Modern Reconstruction 21, Documented 6, Widely Accepted 5, Inferential-Thin 2. Most of this lane's own texts (the founders' sermons, minutes and confessions) are not vendored; see wanted texts.
 - Types of the links added: influenced 15, gave rise to 9, continued as 5, broke with 3, argued against 2.
 - Dispositions of the named relationships (drafting, 351): no-entry 135, kept-as-is 94, link 76, qualify 30, out-of-scope 9, remove 7. "no-entry" means the other party has no census movement; its claim was still checked, and qualified where no vendored or repo-cited source supports it.
