@@ -132,7 +132,7 @@
  "links": [
   {
    "id": "the-methodist-revival--the-second-great-awakening-and-camp-meeting-worl",
-   "action": "revise",
+   "action": "new",
    "from": "the-methodist-revival",
    "to": "the-second-great-awakening-and-camp-meeting-worl",
    "type": "gave rise to",
@@ -197,7 +197,7 @@
   },
   {
    "id": "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
-   "action": "revise",
+   "action": "new",
    "from": "the-second-great-awakening-and-camp-meeting-worl",
    "to": "the-stone-campbell-restoration-movement",
    "type": "gave rise to",
@@ -263,7 +263,7 @@
   },
   {
    "id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
-   "action": "revise",
+   "action": "new",
    "from": "the-stone-campbell-restoration-movement",
    "to": "catholic-church-long-nineteenth-century",
    "type": "argued against",
@@ -303,7 +303,7 @@
   },
   {
    "id": "the-baptists--nineteenth-century-baptists",
-   "action": "revise",
+   "action": "new",
    "from": "the-baptists",
    "to": "nineteenth-century-baptists",
    "type": "continued as",
@@ -369,7 +369,7 @@
   },
   {
    "id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
-   "action": "revise",
+   "action": "new",
    "from": "the-second-great-awakening-and-camp-meeting-worl",
    "to": "restorationist-apocalyptic-ferment-and-adventism",
    "type": "gave rise to",
@@ -414,7 +414,7 @@
   },
   {
    "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
-   "action": "revise",
+   "action": "new",
    "from": "restorationist-apocalyptic-ferment-and-adventism",
    "to": "seventh-day-adventist-church-twentieth-century",
    "type": "continued as",
@@ -449,7 +449,7 @@
   },
   {
    "id": "the-holiness-movement--the-salvation-army",
-   "action": "revise",
+   "action": "new",
    "from": "the-holiness-movement",
    "to": "the-salvation-army",
    "type": "influenced",
@@ -500,7 +500,7 @@
   },
   {
    "id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
-   "action": "revise",
+   "action": "new",
    "from": "plymouth-brethren-and-dispensational-formation",
    "to": "the-sunday-school-and-bible-institute-movement",
    "type": "influenced",
@@ -540,7 +540,7 @@
   },
   {
    "id": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
-   "action": "revise",
+   "action": "new",
    "from": "the-methodist-revival",
    "to": "the-missionary-movement-s-native-churches-seramp",
    "type": "influenced",
@@ -581,7 +581,7 @@
   },
   {
    "id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
-   "action": "revise",
+   "action": "new",
    "from": "the-missionary-movement-s-native-churches-seramp",
    "to": "the-chinese-church-indigenous-and-suffering",
    "type": "gave rise to",
@@ -636,7 +636,7 @@
   },
   {
    "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
-   "action": "revise",
+   "action": "new",
    "from": "northeast-india-revivals-and-the-mar-thoma-refor",
    "to": "northeast-india-and-mar-thoma-twentieth-century",
    "type": "continued as",
@@ -692,7 +692,7 @@
   },
   {
    "id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
-   "action": "revise",
+   "action": "new",
    "from": "northeast-india-revivals-and-the-mar-thoma-refor",
    "to": "the-malankara-churches-orthodox-and-jacobite",
    "type": "broke with",
@@ -768,7 +768,7 @@
   },
   {
    "id": "german-pietism-spener-francke-halle--the-haugean-awakening",
-   "action": "revise",
+   "action": "new",
    "from": "german-pietism-spener-francke-halle",
    "to": "the-haugean-awakening",
    "type": "influenced",
@@ -821,7 +821,7 @@
   },
   {
    "id": "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals",
-   "action": "revise",
+   "action": "new",
    "from": "german-pietism-spener-francke-halle",
    "to": "laestadianism-and-the-nordic-revivals",
    "type": "influenced",
@@ -874,7 +874,7 @@
   },
   {
    "id": "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening",
-   "action": "revise",
+   "action": "new",
    "from": "german-pietism-spener-francke-halle",
    "to": "the-reveil-and-inner-mission-awakening",
    "type": "influenced",
@@ -926,7 +926,7 @@
   },
   {
    "id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
-   "action": "revise",
+   "action": "new",
    "from": "the-moravian-church-at-herrnhut",
    "to": "the-reveil-and-inner-mission-awakening",
    "type": "influenced",
@@ -968,7 +968,7 @@
   },
   {
    "id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
-   "action": "revise",
+   "action": "new",
    "from": "lutheran-wittenberg-and-its-congregations",
    "to": "confessional-lutheran-revival-emigrations",
    "type": "influenced",
@@ -1011,7 +1011,7 @@
   },
   {
    "id": "russian-church-synodal-century--russian-evangelicals-stundists--2",
-   "action": "revise",
+   "action": "new",
    "from": "russian-church-synodal-century",
    "to": "russian-evangelicals-stundists",
    "type": "argued against",
@@ -1083,7 +1083,7 @@
   },
   {
    "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
-   "action": "revise",
+   "action": "new",
    "from": "russian-evangelicals-stundists",
    "to": "persecuted-church-worlds-of-the-communist-era-in",
    "type": "gave rise to",
