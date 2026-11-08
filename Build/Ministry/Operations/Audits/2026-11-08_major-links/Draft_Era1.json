@@ -21,16 +21,16 @@
     "source_index": 2,
     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
     "lines": "20739-20743",
-    "text": "Narsaï, qui voulut bien fonder une école à Nisibe. Il ordonna aussitôt de préparer tout ce dont a besoin une école. En peu de temps, il y attira de nombreux frères,"
+    "text": "il y attira de nombreux frères, de sorte que non seulement les frères persans et syriens venaient à lui, mais encore la plupart des frères qui étaient dans l’école d’Édesse."
    },
    "reason": "body formed: the Edessa school was carried over into a new school at Nisibis",
-   "doubt": "The words 'most of the students from Edessa' come from lines 20741-20743, inside the cited range but after the quoted text."
+   "doubt": "Barhadbeshabba writes about 600, from the Church of the East's side; the founding itself is at lines 20738-20739."
   },
   {
    "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
    "decision": "minor",
    "reason": "the deposition of Origen belongs to Demetrius's third-century see, not the later Coptic side; the History reports it",
-   "doubt": "The History (lines 10035-10045) does say Origen was deposed and left Alexandria. If a reviewer counts the later church's own history of its patriarch, this could be major."
+   "doubt": "The History (lines 10035-10045, deposition at line 10044) does say Origen was deposed and left Alexandria. If a reviewer counts the later church's own history of its patriarch, this could be major."
   },
   {
    "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
@@ -159,13 +159,13 @@
    "id": "latin-pastoral-congregational-christianity--donatism",
    "decision": "minor",
    "reason": "treatise after the conference; the lines call the Donatists defeated but show no ruling or law",
-   "doubt": "Augustine calls them 'uicti' (line 12013). The conference verdict itself is not in these sources."
+   "doubt": "Augustine calls them 'uicti' (line 12024). The conference verdict itself is not in these sources."
   },
   {
    "id": "donatism--latin-pastoral-congregational-christianity",
    "decision": "minor",
    "reason": "argument over baptism; the split predates Parmenian's argument and is not its result",
-   "doubt": "Optatus shows the separate Donatist chair (around lines 153-157), but it began before this quarrel; a 'broke with' line likely carries it."
+   "doubt": "Optatus shows the separate Donatist chair (line 153), but it began before this quarrel; a 'broke with' line likely carries it."
   },
   {
    "id": "latin-pastoral-congregational-christianity--donatism--2",
@@ -222,7 +222,7 @@
    "evidence": {
     "source_index": 1,
     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-    "lines": "26742-26745",
+    "lines": "26731-26745",
     "text": "Likewise too the Canons [i.e. the decretal letters] of Dionysius, formerly Archbishop of the great city of Alexandria; and of Peter, Archbishop of Alexandria and Martyr; of Gregory the Wonder-worker, Bishop of Neocæsarea;"
    },
    "reason": "canon: a council confirmed Gregory's canons as church law"
@@ -307,10 +307,9 @@
     "source_index": 1,
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "66124-66130",
-    "text": "We have directed, accordingly, that you be deprived of all the houses in which you are accustomed to hold your assemblies: and our care in this respect extends so far as to forbid the holding of your superstitious and senseless meetings, not in public merely, but in any private house"
+    "text": "forbid the holding of your superstitious and senseless meetings, not in public merely, but in any private house or place whatsoever. Let those of you, therefore, who are desirous of embracing the true and pure religion, take the far better course of entering the catholic Church,"
    },
-   "reason": "law: an imperial edict took their meeting houses and banned their assemblies",
-   "doubt": "Evidence text runs to about 50 words; trim if a reviewer counts strictly."
+   "reason": "law: an imperial edict took their meeting houses and banned their assemblies"
   },
   {
    "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
@@ -319,7 +318,7 @@
    "evidence": {
     "source_index": 0,
     "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
-    "lines": "2168-2172",
+    "lines": "2168-2173",
     "text": "Justinian ordered all these beliefs to be abandoned in favour of the old religion, and threatened the recusants with legal disability to transmit their property to their wives and children by will."
    },
    "reason": "law: an imperial order against the Montanists and others",
@@ -332,11 +331,11 @@
    "evidence": {
     "source_index": 0,
     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-    "lines": "32594-32597",
+    "lines": "32588-32599",
     "text": "disturbed by the wickedness of an unlawful ordination made in opposition to the Catholic Church, we considered at once that they must be restrained from communion with us;"
    },
    "reason": "exclusion: Carthage's bishops refused communion to Novatian's party",
-   "doubt": "Several bishops acting together, not a formal council; the gathering is named at line 32599."
+   "doubt": "Several bishops acting together, not a formal council; the gathering is named at line 32599 and Carthage at line 32588."
   },
   {
    "id": "imperial-juridical-christianity--novatianism",
@@ -455,13 +454,13 @@
    "id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
    "decision": "minor",
    "reason": "a personal turning to Ambrose; the categories do not cover a conversion",
-   "doubt": "Confessions IX.6 (line ~13671) has Augustine baptized at Milan; the lines do not say by Ambrose."
+   "doubt": "Confessions IX.6 (chapter title, lines 13672-13674) has Augustine baptized at Milan; the lines do not say by Ambrose."
   },
   {
    "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
    "decision": "minor",
    "reason": "letters between the two; no result of the contact itself",
-   "doubt": "Augustine reports a bishop at Oea who took up Jerome's version and was forced to correct it (lines 32540-32555). That is a practice taken up then reversed, in one town."
+   "doubt": "Augustine reports a bishop at Oea who took up Jerome's version and was forced to correct it (lines 32540-32556). That is a practice taken up then reversed, in one town."
   },
   {
    "id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
@@ -489,7 +488,7 @@
     "source_index": 0,
     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
     "lines": "58596-58601",
-    "text": "to translate Clement into our language. The debt is paid at last, though after many delays. It is a part of the booty, and in my opinion no small one, which I have carried off from the libraries of the Greeks, and which I am collecting for the use and advantage of our countrymen."
+    "text": "It is a part of the booty, and in my opinion no small one, which I have carried off from the libraries of the Greeks, and which I am collecting for the use and advantage of our countrymen."
    },
    "reason": "text taken up: a Greek work translated into Latin for Latin readers",
    "doubt": "Counts translation as taking up a text; the preface is addressed to Gaudentius of Brescia, not to Aquileia's church."
