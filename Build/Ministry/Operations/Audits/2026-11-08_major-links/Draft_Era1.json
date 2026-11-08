@@ -1,0 +1,545 @@
+{
+ "group": "1",
+ "links": [
+  {
+   "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "decision": "major",
+   "outcome": "Jerome used Origen's obeli and asterisks in his own Latin Job, restoring about seven or eight hundred lines the old Latin had lost.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "47020-47022",
+    "text": "previous to the publication of our recent translation with asterisks and obeli, about seven or eight hundred lines were missing in the Latin,"
+   },
+   "reason": "practice taken up: Jerome's own translation carried Origen's critical signs"
+  },
+  {
+   "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "decision": "major",
+   "outcome": "Narsai founded a new school at Nisibis in Persian lands, and most of the students from the school of Edessa came to him.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+    "lines": "20739-20743",
+    "text": "Narsaï, qui voulut bien fonder une école à Nisibe. Il ordonna aussitôt de préparer tout ce dont a besoin une école. En peu de temps, il y attira de nombreux frères,"
+   },
+   "reason": "body formed: the Edessa school was carried over into a new school at Nisibis",
+   "doubt": "The words 'most of the students from Edessa' come from lines 20741-20743, inside the cited range but after the quoted text."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "the deposition of Origen belongs to Demetrius's third-century see, not the later Coptic side; the History reports it",
+   "doubt": "The History (lines 10035-10045) does say Origen was deposed and left Alexandria. If a reviewer counts the later church's own history of its patriarch, this could be major."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "decision": "major",
+   "outcome": "Calvin made Augustine's teaching on election his own, saying he could set out his whole case in Augustine's words alone.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+    "lines": "25388-25391",
+    "text": "Were we disposed to frame an entire volume out of Augustine, it were easy to show the reader that I have no occasion to use any other words than his"
+   },
+   "reason": "teaching taken up: Calvin rests his doctrine of election on Augustine's words",
+   "doubt": "Close to the line between adopting and quoting; the ruling names 'the Reformers reading Augustine' as a model case."
+  },
+  {
+   "id": "tertullian-s-voice--modalist-monarchianism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "roman-church-third-century--modalist-monarchianism",
+   "decision": "major",
+   "outcome": "Callistus, bishop of Rome, excommunicated Sabellius, according to his rival Hippolytus, who says he did it only to clear his own name.",
+   "evidence": {
+    "source_index": 3,
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "13816-13819",
+    "text": "he excommunicated Sabellius, as not entertaining orthodox opinions."
+   },
+   "reason": "exclusion: the Roman bishop cut off the modalist teacher Sabellius",
+   "doubt": "A single bishop's act, reported by an openly hostile witness; a reviewer may judge one excommunication short of a council or law."
+  },
+  {
+   "id": "syriac-edessa-nisibis--bardaisanite-current",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "greek-apologists-second-century--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "one writer praising another"
+  },
+  {
+   "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "decision": "major",
+   "outcome": "Basil defended a disputed form of the doxology as one Gregory the Wonderworker had set, still kept by the church on his authority.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+    "lines": "14689-14691",
+    "text": "Now one of the institutions of Gregory is the very form of the doxology to which objection is now made, preserved by the Church on the authority of his tradition;"
+   },
+   "reason": "practice taken up: the doxology form Basil defends is Gregory's",
+   "doubt": "That the disputed form is Basil's own rests on the work as a whole; the cited lines say only that objection is made to it."
+  },
+  {
+   "id": "alexandria-catechetical--anatolian-church-third-century",
+   "decision": "minor",
+   "reason": "teaching and later office, but no teaching or practice shown taken up"
+  },
+  {
+   "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "decision": "minor",
+   "reason": "a move and a library of Origen's works; collecting, not adopting",
+   "doubt": "If collecting a library counts as taking up texts, compare with the translation cases."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "Eusebius drew on a library; reading only"
+  },
+  {
+   "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "cataloguing and citing only"
+  },
+  {
+   "id": "alexandria-catechetical--aquileian-christianity",
+   "decision": "major",
+   "outcome": "Rufinus gathered Origen's writings on the Book of Numbers and put them into Latin, keeping a promise to translate them for his own people.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "58981-58999",
+    "text": "I set to work, as a solace from our troubles, and to relieve the burden of our pilgrimage, to gather into one and arrange all that Origen had written on the book of Numbers,"
+   },
+   "reason": "text taken up: Origen's works translated into Latin for Rufinus's own church",
+   "doubt": "Counts translation as taking up a text; the tie to Aquileia as a church (not Rufinus alone) rests on the secondary note."
+  },
+  {
+   "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+   "decision": "minor",
+   "reason": "the tie is stated in the note as inference; no result"
+  },
+  {
+   "id": "greek-apologists-second-century--latin-apologists",
+   "decision": "minor",
+   "reason": "knowing another's books; no result"
+  },
+  {
+   "id": "tertullian-s-voice--latin-apologists",
+   "decision": "minor",
+   "reason": "citing an earlier work; no result"
+  },
+  {
+   "id": "latin-apologists--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "a tutor's post; no shown effect"
+  },
+  {
+   "id": "anatolian-church-third-century--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--pelagianism",
+   "decision": "minor",
+   "reason": "polemic only; the cited passages show no ruling"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism",
+   "decision": "minor",
+   "reason": "treatise after the conference; the lines call the Donatists defeated but show no ruling or law",
+   "doubt": "Augustine calls them 'uicti' (line 12013). The conference verdict itself is not in these sources."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "argument over baptism; the split predates Parmenian's argument and is not its result",
+   "doubt": "Optatus shows the separate Donatist chair (around lines 153-157), but it began before this quarrel; a 'broke with' line likely carries it."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--donatism--2",
+   "decision": "major",
+   "outcome": "The Donatists made Cyprian's letters, rulings and council their authority, Augustine complained, to defend their break with the church.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt",
+    "lines": "10206-10208",
+    "text": "uos certe nobis obicere soletis Cypriani litteras, Cypriani sententiam, Cypriani concilium; cur auctoritatem Cypriani pro uestro schismate adsumitis"
+   },
+   "reason": "teaching taken up: the Donatists adopted Cyprian's authority for their own church",
+   "doubt": "Appealing to an authority sits near the line with quoting; the lines do not name which ruling of Cyprian's they followed."
+  },
+  {
+   "id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "admiration and reading; no shown adoption",
+   "doubt": "Jerome says Cyprian's writings show him taking Tertullian as master; still reading and regard, not a stated adoption."
+  },
+  {
+   "id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "reading and judging; no result"
+  },
+  {
+   "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   "decision": "major",
+   "outcome": "Basil and Gregory of Nazianzus took their reading of Scripture from Origen's works and turned it against the Arians, Socrates reports.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "13913-13915",
+    "text": "procured Origen’s works, and drew from them the right interpretation of the sacred Scriptures;"
+   },
+   "reason": "teaching taken up: their reading of Scripture came from Origen",
+   "doubt": "Socrates's fifth-century account; the Philocalia credit rests on editors' prolegomena, so it is left out of the sentence."
+  },
+  {
+   "id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "decision": "minor",
+   "reason": "Ambrose drew on Origen's work but followed others' views; no clear adoption",
+   "doubt": "Jerome's 'appropriated' could be read as taking up a text, but he says the views were Hippolytus's and Basil's."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "copying and finding books in a library; no result"
+  },
+  {
+   "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   "decision": "major",
+   "outcome": "The Council in Trullo at Constantinople set its seal on the canons of Gregory the Wonderworker, alongside those of the great councils.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "26742-26745",
+    "text": "Likewise too the Canons [i.e. the decretal letters] of Dionysius, formerly Archbishop of the great city of Alexandria; and of Peter, Archbishop of Alexandria and Martyr; of Gregory the Wonder-worker, Bishop of Neocæsarea;"
+   },
+   "reason": "canon: a council confirmed Gregory's canons as church law"
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "reporting a tradition; no shown adoption"
+  },
+  {
+   "id": "syriac-edessa-nisibis--marcion-marcionism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "syriac-edessa-nisibis--manichaeism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "bardaisanite-current--marcion-marcionism",
+   "decision": "minor",
+   "reason": "polemic only; translation was by Bardaisan's own pupils"
+  },
+  {
+   "id": "bardaisanite-current--syriac-edessa-nisibis",
+   "decision": "major",
+   "outcome": "Ephraim set the tunes of Harmonius's songs to orthodox words, and in Theodoret's day those hymns still rang out at the martyrs' festivals.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "15063-15066",
+    "text": "Ephraim adopted the music of the songs, but set them to piety, and so gave the hearers at once great delight and a healing medicine. These songs are still used to enliven the festivals of our victorious martyrs."
+   },
+   "reason": "practice taken up: Ephraim took over the Bardaisanite melodies, still in use later"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--manichaeism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "alexandria-catechetical--ebionite-nazoraean-current",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+   "decision": "major",
+   "outcome": "Meetings of the faithful across Asia judged the New Prophecy heretical, and its followers were expelled from the church and barred from communion.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+    "lines": "11308",
+    "text": "declared them to be spurious, and rejected them as heretical, they were in consequence of that expelled from the Church and debarred from communion."
+   },
+   "reason": "synods excluding a group: the Asian assemblies expelled the Montanists"
+  },
+  {
+   "id": "montanism-the-new-prophecy--tertullian-s-voice",
+   "decision": "major",
+   "outcome": "Tertullian and those with him withdrew from the rest of the church, which he called carnally minded, to hold fast to the Paraclete.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "51074-51076",
+    "text": "We indeed, on our part, subsequently withdrew from the carnally-minded on our acknowledgment and maintenance of the Paraclete."
+   },
+   "reason": "teaching taken up, and a separation followed from it",
+   "doubt": "The editor's note in the file says the withdrawal may mean only leaving the Roman bishop's communion, not forming a separate church."
+  },
+  {
+   "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "decision": "major",
+   "outcome": "Constantine's law banned Montanist meetings even in private houses and urged them to join the catholic Church instead.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "66124-66130",
+    "text": "We have directed, accordingly, that you be deprived of all the houses in which you are accustomed to hold your assemblies: and our care in this respect extends so far as to forbid the holding of your superstitious and senseless meetings, not in public merely, but in any private house"
+   },
+   "reason": "law: an imperial edict took their meeting houses and banned their assemblies",
+   "doubt": "Evidence text runs to about 50 words; trim if a reviewer counts strictly."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "decision": "major",
+   "outcome": "Justinian ordered the Montanists to give up their faith, Procopius says, and threatened holdouts with losing the right to leave property to their families.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+    "lines": "2168-2172",
+    "text": "Justinian ordered all these beliefs to be abandoned in favour of the old religion, and threatened the recusants with legal disability to transmit their property to their wives and children by will."
+   },
+   "reason": "law: an imperial order against the Montanists and others",
+   "doubt": "Procopius is openly hostile to Justinian; Novel 45 (source 2) supports that Montanists fell under his laws."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--novatianism",
+   "decision": "major",
+   "outcome": "Cyprian and the bishops gathered with him at Carthage barred Novatian's envoys from communion, judging his ordination unlawful.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "32594-32597",
+    "text": "disturbed by the wickedness of an unlawful ordination made in opposition to the Catholic Church, we considered at once that they must be restrained from communion with us;"
+   },
+   "reason": "exclusion: Carthage's bishops refused communion to Novatian's party",
+   "doubt": "Several bishops acting together, not a formal council; the gathering is named at line 32599."
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism",
+   "decision": "major",
+   "outcome": "The Council of Nicaea let Novatianist clergy keep their rank if they promised in writing to follow the teaching of the Catholic Church.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "3772-3775",
+    "text": "it is before all things necessary that they should profess in writing that they will observe and follow the dogmas of the Catholic and Apostolic Church;"
+   },
+   "reason": "canon: Nicaea set the terms for receiving the Novatianists"
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism--2",
+   "decision": "minor",
+   "reason": "a meeting with no result; the Novatianist church stayed apart as before"
+  },
+  {
+   "id": "tertullian-s-voice--marcion-marcionism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "greek-apologists-second-century--marcion-marcionism",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "post-apostolic-house-church--marcion-marcionism",
+   "decision": "major",
+   "outcome": "The church at Rome later threw Marcion out, Tertullian says, and turned away the money he had given it along with him.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "29239-29241",
+    "text": "he contributed money to the Catholic church, which along with himself was afterwards rejected,"
+   },
+   "reason": "exclusion: the Roman church expelled Marcion"
+  },
+  {
+   "id": "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+   "decision": "minor",
+   "reason": "polemic; Valentinus's break was with the church, not a result of Tertullian's argument"
+  },
+  {
+   "id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+   "decision": "major",
+   "outcome": "The church at Rome expelled Valentinus more than once, Tertullian says, for spreading his ideas among its members.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "21338-21339",
+    "text": "until on account of their ever restless curiosity, with which they even infected the brethren, they were more than once expelled."
+   },
+   "reason": "exclusion: the Roman church expelled Valentinus",
+   "doubt": "Tertullian's dating to Bishop Eleutherus (line 21336) clashes with Irenaeus's; left out of the sentence."
+  },
+  {
+   "id": "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+   "decision": "minor",
+   "reason": "study under Lucian's pupils; no teaching shown taken up",
+   "doubt": "If discipleship counts as adoption, this could be revisited; the source is a hostile epitome."
+  },
+  {
+   "id": "anatolian-church-third-century--antiochene-church-third-century",
+   "decision": "major",
+   "outcome": "The meetings at Antioch, which Gregory and Athenodorus attended, ended with Paul of Samosata excommunicated from the church.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "41933-41934",
+    "text": "Malchion, a Presbyter from the Sophists, was excommunicated."
+   },
+   "reason": "council deposing: the Antioch synods excommunicated Paul",
+   "doubt": "Evidence is the chapter heading at line 41933-41934; the full statement (line 41954) lies about 80 lines past the cited lines. The lines do not say Gregory was at the final synod."
+  },
+  {
+   "id": "antiochene-church-third-century--roman-church-third-century",
+   "decision": "minor",
+   "reason": "a letter with no result in the cited passage"
+  },
+  {
+   "id": "anatolian-church-third-century--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "cataloguing only"
+  },
+  {
+   "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "decision": "major",
+   "outcome": "Eznik and Joseph did the work at Edessa, putting the Scriptures into Armenian from the Syriac and sending the books home.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+    "lines": "3839-3845",
+    "text": "Ceux-ci se ren- dirent [à Édesse], firent ce qu'on leur avait de- mandé, et, par l'intermédiaire de leurs fidèles compagnons, ils envoyèrent les livres à leurs pères vénérés."
+   },
+   "reason": "text taken up: the Armenian Scriptures were translated from the Syriac"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "decision": "minor",
+   "reason": "polemic only; a lost book, no recorded result"
+  },
+  {
+   "id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "a personal turning to Ambrose; the categories do not cover a conversion",
+   "doubt": "Confessions IX.6 (line ~13671) has Augustine baptized at Milan; the lines do not say by Ambrose."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "letters between the two; no result of the contact itself",
+   "doubt": "Augustine reports a bishop at Oea who took up Jerome's version and was forced to correct it (lines 32540-32555). That is a practice taken up then reversed, in one town."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "argument over translation; no result shown"
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--aquileian-christianity",
+   "decision": "major",
+   "outcome": "Chromatius had Eusebius's history put into Latin so it could be read aloud to people suffering as Alaric's Goths broke into Italy.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "58738-58748",
+    "text": "enjoining on me the task of translating into Latin the ecclesiastical history which was written in the Greek language by that most learned man, Eusebius of Cæsarea. You thought that the mind of those who heard it read to them"
+   },
+   "reason": "text taken up: Aquileia's bishop ordered the history translated for his people",
+   "doubt": "Alaric is named at lines 58738-58740, within the cited lines but before the quoted text."
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature--aquileian-christianity",
+   "decision": "major",
+   "outcome": "Rufinus put the Recognitions into Latin as a prize brought back from Greek libraries for the use of his own countrymen.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "58596-58601",
+    "text": "to translate Clement into our language. The debt is paid at last, though after many delays. It is a part of the booty, and in my opinion no small one, which I have carried off from the libraries of the Greeks, and which I am collecting for the use and advantage of our countrymen."
+   },
+   "reason": "text taken up: a Greek work translated into Latin for Latin readers",
+   "doubt": "Counts translation as taking up a text; the preface is addressed to Gaudentius of Brescia, not to Aquileia's church."
+  },
+  {
+   "id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "quoting and admiring another writer"
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--3",
+   "decision": "major",
+   "outcome": "Augustine set out Tyconius's seven rules in his own handbook and urged students to read the book, though with care over its Donatist errors.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+    "lines": "53074-53081",
+    "text": "in order both that the book may be read by the studious (for it is of very great assistance in understanding Scripture), and that no more may be expected from it than it really contains."
+   },
+   "reason": "rule taken up: Augustine built Tyconius's rules into his own teaching on reading Scripture",
+   "doubt": "Near the line with praising; the case for adoption is that Augustine goes on to teach each rule himself (line 53080)."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "objection only; no recorded result"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+   "decision": "minor",
+   "reason": "reply only; no recorded result"
+  },
+  {
+   "id": "pelagianism--latin-pastoral-congregational-christianity",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "decision": "minor",
+   "reason": "citing and revering; no result"
+  }
+ ],
+ "wants": [
+  "A text of the African councils of 416 and 418, or Zosimus's letter, condemning Pelagius (would test the Augustine-Pelagius lines).",
+  "The verdict of Marcellinus after the 411 Carthage conference, or the Theodosian Code laws against the Donatists.",
+  "Justinian's edict against Origen (543) or the anathemas of 553 (would test the Jerome, Methodius and Coptic lines against Origen).",
+  "Eusebius, Church History VII.30.19 on Aurelian's ruling for the church house at Antioch: in the same file (near line 42325) but far outside the cited passage of the Antioch-Rome letter.",
+  "A law against the Manichaeans (Diocletian's rescript, or Theodosian Code XVI.5) for the Ephraim and Augustine lines against Mani.",
+  "Confessions IX.6 or Paulinus's Life of Ambrose naming Ambrose as the bishop who baptized Augustine.",
+  "A Syriac or Greek source naming the Philocalia's compilers, rather than the NPNF editors' prolegomena."
+ ]
+}
