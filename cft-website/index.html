@@ -195,6 +195,7 @@ svg#world{display:block;overflow:visible}
 .switches button.row:hover{background:var(--tyrian-wash)}
 .switches button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
 .is-off{display:none}
+.edge-line.is-off.is-lit,.edge-hit.is-off.is-lit{display:inline}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
@@ -53011,6 +53012,8 @@ const NS='http://www.w3.org/2000/svg';
 function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in attrs)e.setAttribute(k,attrs[k]); return e;}
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
+const MAJOR_BY_TYPE=new Set(['gave rise to','continued as','broke with']);
+const isMajorEdge=e=>MAJOR_BY_TYPE.has(e.type)||(typeof e.outcome==='string'&&e.outcome.trim()!=='');
 const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact'};
 const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with'};
 {
@@ -53353,11 +53356,13 @@ function render(){
     line.dataset.from=edg.from; line.dataset.to=edg.to;
     line.dataset.family=LINK_FAMILY[edg.type]||'contact'; line.dataset.conf=edg.confidence;
     line.dataset.lanes=`${a.laneOrder}|${b.laneOrder}`;
+    line.dataset.major=isMajorEdge(edg)?'1':'0';
     const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
     const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
     const onClick=()=>openPanelEdge(edg,a,b);
     const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
     hit.dataset.family=line.dataset.family; hit.dataset.conf=edg.confidence; hit.dataset.lanes=line.dataset.lanes;
+    hit.dataset.major=line.dataset.major; hit.dataset.from=edg.from; hit.dataset.to=edg.to;
     hit.addEventListener('mouseenter',onEnter);
     hit.addEventListener('mousemove',(ev)=>positionTip(ev));
     hit.addEventListener('mouseleave',onLeave);
@@ -53428,12 +53433,14 @@ function render(){
     if(portrait)g.appendChild(portrait);
     g.addEventListener('mouseenter',(ev)=>{
       halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));
+      litMovement(m.id,true);
       document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
         .forEach(p=>p.style.opacity=EDGE_ACTIVE_OP);
     });
     g.addEventListener('mousemove',(ev)=>positionTip(ev));
     g.addEventListener('mouseleave',()=>{
       halo.setAttribute('opacity','0');hideTip();
+      if(pinnedMovement!==m.id)litMovement(m.id,false);
       document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
         .forEach(p=>p.style.opacity=p.dataset.baseline);
     });
@@ -53658,7 +53665,18 @@ async function loadBuiltWorldOrientation(censusId){
     console.error('orientation fetch failed for',censusId,err);
   }
 }
+let pinnedMovement=null;
+function litMovement(id,on){
+  document.querySelectorAll(`.edge-line[data-from="${id}"],.edge-line[data-to="${id}"],.edge-hit[data-from="${id}"],.edge-hit[data-to="${id}"]`)
+    .forEach(p=>p.classList.toggle('is-lit',on));
+}
+function pinMovement(id){
+  if(pinnedMovement&&pinnedMovement!==id)litMovement(pinnedMovement,false);
+  pinnedMovement=id;
+  if(id)litMovement(id,true);
+}
 function openPanel(m){
+  pinMovement(m.id);
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
@@ -53843,6 +53861,7 @@ function showPanel(){
 }
 function closePanel(){
   stopNarration();
+  pinMovement(null);
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
@@ -53881,6 +53900,8 @@ function buildLegend(){
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
   let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
+  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg>Major links</button>`;
+  links+=`<div class="note">Major links are the ones with lasting results: one movement growing out of another, a recorded break, or a council, law or teaching the sources show taking hold. Pick a movement to see all of its links.</div>`;
   links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg>All connections</button>`;
   links+='<span class="cap">Kind of link</span>';
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
@@ -53902,12 +53923,14 @@ function buildLegend(){
   const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
   const hidden=new Set(familyKeys);
   try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).forEach(k=>hidden.add(k));}}catch(e){}
+  let majorOnly=false;
+  try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
   const applyToggles=()=>{
     const hiddenConf=new Set();
     hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
     const laneOff=l=>hidden.has(`lane:${l}`);
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
-      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff));
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
     document.querySelectorAll('.river-group,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
@@ -53915,7 +53938,8 @@ function buildLegend(){
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
       const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
-        :b.dataset.toggle==='links-all'?familyKeys.some(k=>!hidden.has(k)):!hidden.has(b.dataset.toggle);
+        :b.dataset.toggle==='links-all'?(!majorOnly&&familyKeys.some(k=>!hidden.has(k)))
+        :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k))):!hidden.has(b.dataset.toggle);
       b.setAttribute('aria-pressed',String(on));
     });
   };
@@ -53926,10 +53950,15 @@ function buildLegend(){
       const anyOn=lanes.some(l=>!hidden.has(l));
       lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
     } else if(k==='links-all'){
-      const anyOn=familyKeys.some(f=>!hidden.has(f));
+      const anyOn=!majorOnly&&familyKeys.some(f=>!hidden.has(f));
+      majorOnly=false;
       familyKeys.forEach(f=>anyOn?hidden.add(f):hidden.delete(f));
+    } else if(k==='major'){
+      const on=majorOnly&&familyKeys.some(f=>!hidden.has(f));
+      majorOnly=!on;
+      familyKeys.forEach(f=>on?hidden.add(f):hidden.delete(f));
     } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));}catch(e){}
+    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));localStorage.setItem('tree-major',majorOnly?'1':'0');}catch(e){}
     applyToggles();
   }));
   applyToggles();
