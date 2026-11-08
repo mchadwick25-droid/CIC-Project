@@ -341,3 +341,67 @@ it, never by deleting it.
 62. **"Silent since 622" is fixed (2026-11-08).** The era 5 pass removed the claim from
     `the-georgian-golden-age`; its summary now says it carries on from the Tao-Klarjeti revival.
     This closes "The Georgian Golden Age says 'silent since 622'" (2026-11-08).
+63. **The Franciscan order and the Observants is drawn (2026-11-08).** The era 6 pass drew
+    `franciscan-order-era-6--observant-reform-and-popular-preaching` (gave rise to, Documented) from
+    Eugenius IV's 1438 letter. This closes "The Franciscan order and the Observants, held for P2-L6"
+    (2026-11-08). The era 5 link from the Franciscan movement to the Observants (influenced) stands
+    beside it: it carries the founder's Rule across 1300, the new one the Observant houses as houses
+    of the order.
+64. **Well-known facts with no vendored source, era 6 (2026-11-08).** Added to the method question in
+    "Well-known facts with no vendored source" (2026-11-07). Era 6 follows the era 5 practice: plain
+    facts that are not links between movements stand. Restored after review: the Mamluk campaigns in
+    the Kesrwan around 1305 (`maronite-christianity-era-6`); the Ewostathians' Sabbath and the
+    council of 1450 (`the-ethiopian-monastic-flowering`); the St Thomas Christians' privileges from
+    Hindu rulers and their headman (`st-thomas-christians-1300-1517`); Julian's day in the Church of
+    England's calendar (`the-english-mystics-and-devout`). Left standing: John of Capistrano's
+    preaching and the persecution of the Jews of Breslau in 1453
+    (`observant-reform-and-popular-preaching`); Rome sending friars against the Bosnian Church;
+    Margery Kempe's life facts and Julian's cell rebuilt after wartime bombing; the Devotio houses
+    closing in the Reformation; the 1317 Dongola inscription; Leo X's Ite vos (1517). Wanted texts
+    for each are in the era 6 audit README. For Mark.
+65. **The Church of the East's "Hakkari" name (2026-11-08).** `church-of-the-east-timur-to-hakkari`
+    is titled "... and the Hakkari Remnant". Its corrected fields put the late-fifteenth-century
+    patriarchs at Gazarta and Mosul on the upper Tigris (the 1490-1504 history; Wigram 1929), with
+    survivors in the Hakkari mountains. The teaser now says so. Whether to rename the movement, and
+    the era 7 summary of `church-of-the-east-schism-of-1552` that leans on the title, is Mark's call.
+66. **No link type for an authority's acts on another body's own order (2026-11-08).** Leo X's Ite
+    vos (1517) divided the Franciscan order; Martin V, Eugenius IV and the councils set the
+    Observants' government. These are neither "argued against" nor "gave rise to". Five such
+    sentences were left unlinked as not-a-claim. Close to "No link type for church jurisdiction"
+    (2026-11-08). A method question for Mark.
+67. **The Council of Basel sits under the papacy (2026-11-08).** The Compacts of Basel link
+    (`latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2`) runs
+    from the papal church, because the census has no movement for the conciliar movement. If the
+    councils are ever told apart from the papacy, the link's "from" changes (a retired ID and a new
+    one). For Mark, low urgency.
+68. **No Carthusian movement after 1300 (2026-11-08).** `carthusian-life` ends in 1300, so the
+    documented Carthusian copying of The Cloud of Unknowing and Hilton's Scale cannot be drawn as a
+    link. The English mystics text states the copying without a link. Extending the entry or adding a
+    later one is portfolio structure, for Mark.
+69. **The inquisition-record sects and the Free Spirit overlap (2026-11-08).**
+    `inquisition-record-sects-adamites-and-kin` (1350-1500) and `free-spirit-heresy` (1250-1400)
+    both cover the German Free Spirit trials and rest on the same Vienne decree. No lineage link fits
+    the overlap. Whether to split them by evidence (Adamites in one, Free Spirit in the other) is
+    for the census owner and Mark.
+70. **Held for later link passes, from era 6 (2026-11-08).** Each joins two movements outside era 6:
+    - `czech-churches-last-century` to `the-moravian-church-at-herrnhut` (continued as): the Hussite
+      text's "renewed as the Moravian Church" rests on it. Eras 7-8.
+    - `the-hesychast-revival-paisius-and-the-philokalia` to `the-optina-elders-and-russian-ascetic-renewal`. Eras 8-9.
+    - The later steps of the Church of the East (to the Chaldean and Assyrian lines), the Armenian
+      catholicosate of Cilicia (to Antelias), the Maronites and the St Thomas Christians (to the
+      Malankara and Mar Thoma churches). Eras 7-10.
+    - `the-waldensian-reformed-union` legacy still names the union with the Italian Methodists and
+      the church in Argentina and Uruguay, which eras 5 and 6 removed for want of a source. Era 7.
+    - `the-old-believers` summary says it "grew out of" Muscovite Christianity; the only link is an
+      Inferential-Thin "influenced" (Conybeare 1921). Era 8.
+71. **The Maronites' unbroken communion with Rome (2026-11-08).** The Maronite tradition holds it was
+    never out of communion with Rome; Eugenius IV's bull of 1445 receives the Maronites of Cyprus
+    into union. `maronite-christianity-era-6` now states both. Whether a `contested_claim` record is
+    wanted is a world-build matter, for the Maronite world's owner.
+72. **"Entry" in status descriptions (2026-11-08).** Thirteen era-6 `statusDescription` fields, and
+    about 80 across all eras, say "entry", which is build wording in public text. The link passes do
+    not edit status fields. For P2-L11 or the census owner.
+73. **Page recordings read the old descriptions, era 6 (2026-11-08).** As in "Page recordings read
+    the old descriptions" (2026-11-08): the era 6 pass rewrote the long description of all 23 era-6
+    movements, and each has a recording in `cft-website/audio/tree/`. All 23 now play text that no
+    longer matches the page. A paid voice run, for Mark.
