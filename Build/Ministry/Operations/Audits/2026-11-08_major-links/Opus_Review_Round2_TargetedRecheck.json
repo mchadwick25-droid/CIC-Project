@@ -1,0 +1,54 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 5
+ },
+ "findings": [
+  {
+   "id": "R2-01",
+   "link": "post-apostolic-house-church--marcion-marcionism",
+   "severity": "minor",
+   "issue": "The outcome sentence says 'The church at Rome', but the cited lines (29239-29241) and their context (to 29300) name only 'the Catholic church'; no 'Rome' appears in that window. Rome is shown only in the link's other listed source (De praescr. 30, at 21336), which the evidence does not cite. Not invented, but the sentence carries a fact its own evidence lines do not show. The institutional-act call itself stands (see checked).",
+   "evidence": "cic/texts/anf03_tertullian.xml 29239-29241: 'he contributed money to the Catholic church, which along with himself was afterwards rejected,'; Rome appears at 21336 ('in the church of Rome under the'), a different passage.",
+   "fix": "major (council-law); evidence unchanged; outcome: 'The church later threw Marcion out, Tertullian says, and turned away the money he had given it along with him.'"
+  },
+  {
+   "id": "R2-02",
+   "link": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "severity": "minor",
+   "issue": "'the patriarch Germanus' is not shown: the lines give 'Germanus [of Constantinople]' (an editor's bracket) and never the title patriarch. '754' rests on the file's own division title (39205), the same kind of label the reviser accepted for Nicaea II's identity, so it may stay.",
+   "evidence": "cic/texts/npnf214_seven-ecumenical-councils.xml 39464-39465: 'You have destroyed the heresies of Germanus [of Constantinople], George and Mansur'",
+   "fix": "major (council-law); evidence unchanged; outcome: 'The iconoclast council of 754 declared John of Damascus deposed and cursed, along with Germanus of Constantinople and George.'"
+  },
+  {
+   "id": "R2-03",
+   "link": "latin-papal-church-gregorian--the-carmelites",
+   "severity": "minor",
+   "issue": "'at Lyons' is shown only by the bull's dating clause at 22409, about 395 lines past the evidence (22014-22017), beyond the 60-line window the reviser applied elsewhere (it dropped '787' and '1247' from two other links on that ground). The year is in the window, but as the year of the request (21998).",
+   "evidence": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt 21998: 'were instructed to beg Innocent IV, in 1247,'; 22409: 'Given at Lyons, October 1, in the fifth year of our'",
+   "fix": "major (rule-changed); evidence unchanged; outcome: 'At the Carmelites' request in 1247, Pope Innocent IV confirmed a corrected and softened version of their rule.'"
+  },
+  {
+   "id": "R2-04",
+   "link": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   "severity": "minor",
+   "issue": "The demotion is right, but its stated reason is wrong. Canon 2 of the 585 synod is not only 'an endorsement': it decrees that no cleric may defame Theodore or reject his writings, on pain of excommunication. That is the same kind of act as Trent's Vulgate decree, which was kept. Left as it stands, the reason makes the two calls look inconsistent. The real ground is the evidence window: the decree (26710-26718) lies about 125 lines past the nearest listed source (26584-26585), and round 1 ruled that a result beyond the 60-line window goes to wants, not to the map.",
+   "evidence": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt 26711-26713: 'qu'il n'est permis à aucun homme, à quelque ordre ecclé- siastique qu'il appartienne, de diffamer ce docteur de l'Eglise, en secret ou en public, ni de rejeter ses saints écrits'; 26716-26718: 'soit, excommunié et étranger à toutes Îles assemblées ecclésiastiques'",
+   "fix": "minor; reason: 'Beyond the window: canon 2's decree binding all clergy not to reject Theodore's writings, on pain of excommunication (26710-26718), lies past the listed lines (26570-26585). It is a synod's rule of the Trent kind, so add a wants entry to cite 26710-26718 in this link's sources, then re-judge it as major.'"
+  },
+  {
+   "id": "R2-05",
+   "link": "roman-church-gregorian--carolingian-reform-christianity",
+   "severity": "minor",
+   "issue": "The demotion is right, but the reason ('set reading ... even though it was ordered') states a principle that would also demote Trent's Vulgate decree, which is kept on the ground that an authority set it as a binding rule. What really separates the two: Trent is a named council, while this list names no authority, and its editor says its origin is wholly uncertain and declines even to credit it to Charlemagne. 'iussa sunt' with no known authority does not show a rule changed by an authority.",
+   "evidence": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt 16095-16096: 'A quo haec concepta. sint, prorsus incertum est;'; 16100: 'Haec sunt qiiae iussa sunt discere oniiies ecclesiasticos.'; contrast cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt 12481-12482: 'no one is to dare or presume to reject it under any pretext whatever.'",
+   "fix": "minor; reason: 'No authority shown: the list says clergy were ordered to learn these texts, but its editor says who issued it is wholly uncertain (16095-16097). Unlike Trent's decree, no council, synod or ruler is named.'"
+  }
+ ],
+ "round1_resolution": "All 21 round-1 blocking and substantial findings are resolved. Blocking (montanism-the-new-prophecy--tertullian-s-voice): resolved by demotion, which is correct under the narrowed test. The lines show only a withdrawal 'from the carnally-minded' (51074-51076), the file's note (51076-51078) allows that it meant leaving only the Roman bishop's communion, and no split into a separate body is shown. The 19 substantial demotes are all applied (each stands as minor in the final list). The substantial promote (byzantine-church-after-1054--balkan-bogomil-continuation) is applied with the round-1 sentence and evidence, and it is an institutional act of the Priscillian kind (an imperial sentence on the leader and followers, 1735-1752). The 9 minor rewrites are applied or overtaken by demotion. The four rewritten further by the reviser (Persian canon XII, Whitby, Nicaea II, Albert's rule) now state the act, and each fact in them is shown in their lines or in a file division title.",
+ "checked": "All 50 final majors: evidence lines opened in context (3-5 lines either side, and further where a name, date or deciding body lay outside: Gregory and Athenodorus at 41872-41874, the 381/383/388 dating clauses in the Codex lines, Theodosius's canon heading at 34467, Carloman 742 at 2199, Pius V at 92886, Valdes at 4914, the Lateran III/IV and Vienne headings, Mirbt's 1312 heading, the 754 and Nicaea II division titles, the Callinicum burning in the link's own source 1 at 43163). Each is an institutional act of the stated kind, by or upon a party of the link. Every outcome sentence is under 30 words, ends with a full stop, uses American spelling, and has no internal words or AI tells (script check). Three sentences carry a fact their own lines do not show (R2-01 to R2-03). The reviser's verbatim claim was re-run with node, whitespace collapsed: 50 of 50 evidence texts match. All 27 'taken up' demotions were read against the narrowed test, and each is right; two have the wrong stated reason (R2-04, R2-05). Trent against the Carolingian list: consistent only on the ground that Trent is a named council's binding decree and the list has no known authority (R2-05). The 585 Persian canon is the true Trent analogue and stays minor only because of the window (R2-04). The two Tertullian-only post-apostolic links (Marcion, Valentinians) are rightly kept. The narrowed test keeps 'excluding' and names no smaller set of instruments than M2 did, and round 1's still-standing ruling makes an exclusion major when a body acted or the exclusion held. Tertullian reports a church's repeated expulsions ending in 'permanent excommunication' (21338-21343), which meets that. The same reasoning covers Nerses Bakur (deposed and replaced, 2902-2907). The other flagged hard cases (Nisibis school as a split, the Albert rule, the 410 liturgy canon, Whitby, Dvin 554 on vendored Ormanian) stand. Every evidence text quoted in this file was checked verbatim (whitespace collapsed) against its lines with a node script: 10 of 10 match. No repo file other than this one was written. No model calls."
+}

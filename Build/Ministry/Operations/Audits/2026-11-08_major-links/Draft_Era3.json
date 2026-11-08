@@ -1,0 +1,331 @@
+{
+ "group": "era3",
+ "links": [
+  {
+   "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "decision": "minor",
+   "reason": "praise and storytelling only; no adoption of the rule by Rome recorded"
+  },
+  {
+   "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   "decision": "minor",
+   "reason": "polemic letter; no recorded result in these lines"
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "decision": "major",
+   "outcome": "On Severus's advice, Dioscorus of Alexandria won back men who had long refused communion, and they joined the Egyptian church.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+    "lines": "5202-5214",
+    "text": "as far as was possible he complied with my advice and satisfied those who were separated"
+   },
+   "reason": "a separated party rejoined the Egyptian church when Dioscorus followed Severus's advice (lines 5202-5214)",
+   "doubt": "Borderline: a reunion of a dissident party, not a council or rule. Severus is the only witness, writing of his own role."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "decision": "minor",
+   "reason": "embassy refused; the sources record no change on either side"
+  },
+  {
+   "id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "decision": "minor",
+   "reason": "request for a letter only; no letter or result attested"
+  },
+  {
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "decision": "major",
+   "outcome": "In 552 Reparatus of Carthage lost his office and went into exile for refusing to condemn the Three Chapters, and his own envoy replaced him.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+    "lines": "19068-19071",
+    "text": "Reparatus archiepiscopus plurimis calumniis inipetitus pro eo, quod damnationi trium memoratorum capitulorum assensimi non praebuit, officio sumptibusque privatus Euchaida exilio relegatur, ct Primosus diaconus apocrisarius eius"
+   },
+   "reason": "deposition and exile of Carthage's bishop for defending the Three Chapters; his envoy made bishop in his place",
+   "doubt": "Victor does not name who deposed him in these lines; the sentence avoids naming an agent. Year from Victor's heading 'post consulatum Basili anno XII' (=552, by his own 550 = anno X)."
+  },
+  {
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+   "decision": "minor",
+   "reason": "appeal and protest; the cited passage asks for condemnation but records no result"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+   "decision": "major",
+   "outcome": "Justinian's law ordered every copy of Severus's writings burned and barred him from the capital and its district.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+    "lines": "56691-56695",
+    "text": "sed sint profana et aliena ab ecclesia catholica igneque comburantur a possidentibus"
+   },
+   "reason": "imperial law confirming the anathema on Severus, ordering his books burned and excluding him from the capital"
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "decision": "minor",
+   "reason": "letters of communion between allied patriarchs; no new rule or settlement recorded",
+   "doubt": "Formal communion letters; a reviewer may weigh whether communion itself counts."
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--syriac-orthodox-west-syriac-christianity",
+   "decision": "minor",
+   "reason": "doctrinal statement for a court debate; no recorded result"
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "decision": "minor",
+   "reason": "report of a church and bishop; no tie or result shown"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "decision": "minor",
+   "reason": "the cited lines show the monks raising the Origen question, not the outcome",
+   "doubt": "Evagrius records the synod acting against Origen on a petition from monks including Conon at lines 9627-9640 and 9724, about 100 lines on, beyond the window the brief allows. A reviewer may judge whether that counts as the surrounding passage."
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+   "decision": "major",
+   "outcome": "A synod at Dvin in 554, under Catholicos Nerses II, confirmed the Armenian church's refusal of Chalcedon and proclaimed the faith of Ephesus against it.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "2550-2556",
+    "text": "at the synod of Douine (554), at which the faith, as decreed at Ephesus, was emphatically proclaimed in opposition to Nestorian errors and Chalcedonian claims."
+   },
+   "reason": "a synod rejecting the other side's council; the reviewed note states it, and the cited secondary work is vendored",
+   "doubt": "Secondary only (Dominant Modern Reconstruction). The source record has file null, but its work field names the vendored Ormanian file; lines cited there. If file-less secondaries must rest on the note alone, the note itself states the result."
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--georgian-christianity",
+   "decision": "minor",
+   "reason": "meeting only; the note states no result",
+   "doubt": "The cited Ormanian (vendored, lines 2502-2509) says the 506 synod of Armenian, Georgian and Albanian bishops rejected Chalcedon's acts; the note does not state this, so not used."
+  },
+  {
+   "id": "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+   "decision": "minor",
+   "reason": "meeting only; the note states no result",
+   "doubt": "Same as the Georgian link: Ormanian lines 2502-2509 state a joint rejection of Chalcedon at Dvin 506, but the note does not."
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+   "decision": "major",
+   "outcome": "Nerses Bakur, head of the Albanian church, was removed for leaning toward communion with the Greek church, and Simeon took his place.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "2902-2907",
+    "text": "Their patriarch, Nerses Bakour, tempted by the example of Kurion, inclined to the side of communion with the Greek Church. He was immediately removed and replaced by Simeon."
+   },
+   "reason": "deposition of Albania's head for leaning to Chalcedon; the reviewed note states it, and the cited secondary work is vendored",
+   "doubt": "Secondary only. Source record has file null; work field names the vendored Ormanian file. Neither the note nor Ormanian says who removed him, so the sentence uses no agent; Ormanian ties it to Elias's patriarchate (703-717)."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--georgian-christianity",
+   "decision": "major",
+   "outcome": "The Georgian church accepted the Council of Chalcedon, and its head later stood on that council's side with bishops from the Greek lands.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+    "lines": "7441-7443",
+    "text": "Tenaient le parti de Chalcldoine le catholicos de G^orgie et d'Albanie avec beaucoup d'6v6ques de la region grecque"
+   },
+   "reason": "the later side adopted the imperial church's council; Sebeos shows Georgia's head on Chalcedon's side",
+   "doubt": "Sebeos names the catholicos 'of Georgia and Albania' together; the turn to Constantinople itself (Kurion) rests on the secondary note (Ormanian, vendored lines 2716-2724)."
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+   "decision": "major",
+   "outcome": "In 802 Charlemagne ordered that whatever monasteries did against the Rule of Saint Benedict be put right by that rule.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+    "lines": "7794-7805",
+    "text": "quicquid in monasteriis seu in 15 monachis contra regula sancti Benedicti factum fuisset, hoc ipsud iuxta ipsam regulam sancti Benedicti emendare fecissent."
+   },
+   "reason": "Benedict's rule imposed as the standard for monasteries by imperial order (and by Carloman's council of 742)",
+   "doubt": "Evidence text includes the edition's marginal line number '15', copied as printed."
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "decision": "minor",
+   "reason": "editors' commentary only; no Cluniac text shows Cluny adopting the rule",
+   "doubt": "Gasquet's 'only rule for monks in the West' is a general claim, not specific to Cluny."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "decision": "major",
+   "outcome": "Emperor Tiberius ruled against Eutychius's book on the resurrection and ordered it burned, and Eutychius later confessed that the body would rise.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt",
+    "lines": "8488-8504",
+    "text": "disproving that same book which he had written concerning the resurrection, determined that it ought to be consumed in the flames."
+   },
+   "reason": "the emperor's judgment condemned the patriarch's book; Eutychius recanted (Gregory's own account, lines 8488-8504)",
+   "doubt": "Gregory is a party to the dispute and the only witness here."
+  },
+  {
+   "id": "merovingian-gallic-christianity--roman-church-gregorian",
+   "decision": "minor",
+   "reason": "letters and a warning on simony; no recorded result"
+  },
+  {
+   "id": "nicene-visigothic-iberia--roman-church-gregorian",
+   "decision": "minor",
+   "reason": "friendship and praise; the conversion is not shown to result from the contact"
+  },
+  {
+   "id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "decision": "major",
+   "outcome": "Gregory kept former Donatist bishops in Numidia out of the senior bishop's rank, leaving it to bishops raised in the Catholic church.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+    "lines": "33811-33819",
+    "text": "save that with respect to those who attain to the episcopate from among the Donatists, we by all means forbid them to be advanced to the dignity of primacy,"
+   },
+   "reason": "papal ruling set a rule for the Numidian primacy in answer to the bishops' request",
+   "doubt": "A ruling in a letter, not a council; no source here shows it was carried out."
+  },
+  {
+   "id": "roman-church-gregorian--carolingian-reform-christianity",
+   "decision": "major",
+   "outcome": "A Carolingian list of what clergy must learn named Gregory's pastoral book among the texts every canon had to know.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+    "lines": "16128-16138",
+    "text": "13. Librum pastoralem* canonici atque librum officiorum;"
+   },
+   "reason": "Gregory's text made required learning for canons (text taken up, not just read)",
+   "doubt": "Identification as Gregory's rests on the editor's footnote (line 16138, 'Gregorii Magui' [sic, OCR]). The 813 councils rest on Barmby (secondary), vendored at npnf212 lines 24039-24047."
+  },
+  {
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "decision": "major",
+   "outcome": "King Alfred had Gregory's Pastoral Rule rendered into West Saxon English, meaning to send a copy to every bishop in his kingdom.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+    "lines": "24031-24035",
+    "text": "made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to every bishop in his Kingdom"
+   },
+   "reason": "Gregory's text translated and issued for the bishops (text taken up); the reviewed note states it",
+   "doubt": "Secondary only (Barmby). Source record has file null; Barmby's introduction is in the vendored NPNF 2.12 file, lines cited. Sentence keeps 'meaning to', since the source gives the intention, not the delivery."
+  },
+  {
+   "id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+   "decision": "minor",
+   "reason": "argument and hostility; Clovis's war is military, not a church result"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+   "decision": "major",
+   "outcome": "Justinian barred every Christian outside the orthodox faith from baptism and the other sacraments, and Arian soldiers in the Roman army joined a mutiny over it.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+    "lines": "4260-4271",
+    "text": "For the Emperor Justinian did not allow any Christian who did not espouse the orthodox faith to receive baptism or any other sacrament."
+   },
+   "reason": "imperial rule excluding Arians from the sacraments, with a recorded consequence (mutiny)",
+   "doubt": "Procopius does not date the rule in these lines."
+  },
+  {
+   "id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+   "decision": "major",
+   "outcome": "The brothers Ado and Dado each founded a monastery under Columbanus's rule, one near the Jura and one on the river Rebais.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+    "lines": "1423-1427",
+    "text": "The elder. Ado, withdrew of his own accord and founded, under the rule of St. Columban, a monastery near Mt. Jura.^ The younger. Dado, founded, under the rule of the blessed man, a monastery near Brieg, on the little river Rebais."
+   },
+   "reason": "Columbanus's rule taken up by new houses founded by Franks (also Donatus of Besancon, lines 670-672)"
+  },
+  {
+   "id": "insular-irish-monastic-christianity--roman-church-gregorian",
+   "decision": "minor",
+   "reason": "polemic letter; no reply or result survives"
+  },
+  {
+   "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+   "decision": "minor",
+   "reason": "rests on place alone; no result shown"
+  },
+  {
+   "id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "decision": "minor",
+   "reason": "one writer citing another"
+  },
+  {
+   "id": "anglo-saxon-christianity--british-welsh-christianity",
+   "decision": "minor",
+   "reason": "meeting refused; no new rule or body recorded",
+   "doubt": "Bede's sequel is the battle of Chester, a military event he reads as judgment; the refusal left things as they were."
+  },
+  {
+   "id": "anglo-saxon-christianity--british-welsh-christianity--2",
+   "decision": "major",
+   "outcome": "Aldhelm's book, written at an English synod's order, persuaded many Britons under West Saxon rule to keep Easter on the Catholic date.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+    "lines": "13812-13822",
+    "text": "and by the reading of this book he per- suaded many of them, who were subject to the West Saxons, to adopt the Catholic celebration of our Lord's resurrection."
+   },
+   "reason": "the other side adopted the practice argued for (Bede V.18)"
+  },
+  {
+   "id": "british-welsh-christianity--anglo-saxon-christianity",
+   "decision": "minor",
+   "reason": "Bede citing Gildas as a historian"
+  },
+  {
+   "id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "decision": "major",
+   "outcome": "In 589 the third council of Toledo cursed anyone who still held to the faith and communion that came from Arius.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36900-36904",
+    "text": "Omnis ergo, qui fidem et communio- nem ab Ario venientem, et hucusque a no- bis retentam adhuc tenere desiderat et de to- ta.cordis intentione non damnat, anathe- ma sit."
+   },
+   "reason": "council anathema condemning the Homoian faith and communion"
+  },
+  {
+   "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "decision": "major",
+   "outcome": "Those at Whitby took up the Catholic Easter in 664, and Bishop Colman went back to Scotland with those who would not.",
+   "evidence": {
+    "source_index": 3,
+    "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+    "lines": "8214-8231",
+    "text": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better."
+   },
+   "reason": "practice changed: the assembly adopted the Roman Easter and Colman withdrew (Bede III.25-26)"
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "decision": "minor",
+   "reason": "editor's note only; no early Cistercian text cited"
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+   "decision": "minor",
+   "reason": "later writer using earlier chronicles as sources"
+  }
+ ],
+ "wants": [
+  "Cluny's own customaries (e.g. Ulrich's or Bernard's Consuetudines) showing Cluny living by the Rule of Benedict",
+  "Early Cistercian foundation texts (Exordium Parvum, Carta Caritatis) on keeping the Rule of Benedict",
+  "Acts of the Lateran synod of 649 canons condemning Paul of Constantinople, for the African link",
+  "A vendored text of Sweet's edition of Alfred's preface to the Pastoral Care",
+  "A vendored Movses Dasxuranci (Dowsett) for the removal of Nerses Bakur"
+ ]
+}

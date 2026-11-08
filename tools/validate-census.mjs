@@ -23,6 +23,7 @@ catch (e) { console.error(`PARSE FAIL: ${e.message}`); process.exit(2); }
 
 const EDGE_TYPES = new Set(["gave rise to", "continued as", "influenced", "argued against", "broke with", "in contact with"]);
 const SYMMETRIC_TYPES = new Set(["broke with", "in contact with"]);
+const MAJOR_BY_TYPE = new Set(["gave rise to", "continued as", "broke with"]);
 const CONFIDENCE = new Set(["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]);
 const SPECIFICITY = new Set(["A", "B", "C", "D", "E"]);
 const VERIFICATION = new Set(["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]);
@@ -82,6 +83,17 @@ const edgeIds = new Set();
   edgeIds.add(e.id);
   if (!e.note) errs.push(`${tag}: no note`);
   else INTERNAL_NOTE.forEach(rx => { if (rx.test(e.note)) errs.push(`${tag}: note carries internal text (${rx})`); });
+  // Major links (Decision-Log 2026-11-08): lineage and breaks are major by type; any other
+  // link is major only when it carries `outcome`, one plain sentence from its own sources.
+  if (e.outcome !== undefined) {
+    if (MAJOR_BY_TYPE.has(e.type)) errs.push(`${tag}: outcome is only for "influenced", "argued against" or "in contact with" links; "${e.type}" is major by type`);
+    if (typeof e.outcome !== "string" || !e.outcome.trim()) errs.push(`${tag}: outcome must be a non-empty sentence, or left off`);
+    else {
+      INTERNAL_NOTE.forEach(rx => { if (rx.test(e.outcome)) errs.push(`${tag}: outcome carries internal text (${rx})`); });
+      if (e.outcome.trim().split(/\s+/).length > 30) errs.push(`${tag}: outcome runs past 30 words`);
+      if (!/[.!?]['’"”)]?$/.test(e.outcome.trim())) errs.push(`${tag}: outcome must end as a sentence`);
+    }
+  }
   if (!SPECIFICITY.has(e.citation_specificity)) errs.push(`${tag}: citation_specificity must be A-E`);
   if (!VERIFICATION.has(e.verification_state)) errs.push(`${tag}: unknown verification_state "${e.verification_state}"`);
   const sources = Array.isArray(e.sources) ? e.sources : [];

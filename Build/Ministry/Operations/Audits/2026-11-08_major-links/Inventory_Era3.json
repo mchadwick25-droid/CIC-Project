@@ -1,0 +1,1484 @@
+{
+  "era": 3,
+  "links": [
+    {
+      "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+      "from": "early-benedictine-italian-monasticism",
+      "from_name": "Early Benedictine / Italian Monasticism",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Gregory tells the life of Benedict in his Dialogues. He praises the rule Benedict wrote for his monks as 'excellent for discretion'. Gregory says he had his stories from four of the saint's disciples. One was Constantinus, the next abbot after him.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Dialogues II, chapter 36 (Gardner 1911, from the 1608 English)",
+          "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+          "lines": "5566-5568",
+          "locus": "Dial. 2.36",
+          "quote": "for  he  wrote  a rule  for  his  monks,  both  excellent  for  discretion  and  also eloquent  for  the  style."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Dialogues II, prologue (Gardner 1911, from the 1608 English)",
+          "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+          "lines": "3428-3429",
+          "locus": "Dial. 2, prol.",
+          "quote": "but those few, which I mind now to report, I had by the relation of four of his disciples"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Gregory the Great, Dialogues II, prologue (Gardner 1911, from the 1608 English)",
+          "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+          "lines": "3436-3438",
+          "locus": "Dial. 2, prol.",
+          "quote": "Constantinus, a most rare and reverent man, who was next Abbot after him ; of Valentinianus, who many years had the charge of the Lateran Abbey;"
+        }
+      ]
+    },
+    {
+      "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+      "from": "roman-church-gregorian",
+      "from_name": "The Roman Church in the Age of Gregory the Great",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "byzantine-imperial-church-justinianic",
+      "to_name": "The Byzantine Imperial Church (Justinianic)",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "In June 595 Gregory wrote to Emperor Maurice that John, patriarch of Constantinople, was trying to be called universal bishop. He says the title is a new name, taken against the Gospel and the canons.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+          "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+          "lines": "6884-6888",
+          "locus": "Reg. V.37",
+          "quote": "et tamen universalis apostolus non vocatur : et vir  sanctissimus consacerdos meus Iohannes vocari universalis  episcopus conatur."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Letter to the Emperor Maurice (Registrum V.37), ed. Turchi 1907",
+          "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt",
+          "lines": "6909",
+          "locus": "Reg. V.37",
+          "quote": "decreta novum sibi usurpare nomen praesumit ?"
+        }
+      ]
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+      "from": "syriac-orthodox-west-syriac-christianity",
+      "from_name": "Syriac Orthodox (West Syriac) Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "cyrilline-miaphysite-egyptian-christianity",
+      "to_name": "Cyrilline / Miaphysite Egyptian Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Severus of Antioch wrote to Egyptian clergy after his exile began. He told them he cared even more for Alexandria's church than for Antioch's. He says groups long cut off from the Egyptian church joined it through his work. Dioscorus II, patriarch of Alexandria, took his advice, he writes.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Severus of Antioch, Select Letters, Book VI, I.49 (to John and John, presbyters and archimandrites), Brooks 1903",
+          "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+          "lines": "5186-5188",
+          "locus": "Select Letters VI, I.49",
+          "quote": "For do not think of me that my concern for the church of the Alexandrines is different from my concern for that of the Antiochenes"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Severus of Antioch, Select Letters, Book VI, I.49, Brooks 1903",
+          "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+          "lines": "5202-5204",
+          "locus": "Select Letters VI, I.49",
+          "quote": "(to Speak with God's permission) of my wretched miserable self joined the catholic and orthodox church in Egypt"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Severus of Antioch, Select Letters, Book VI, I.49, Brooks 1903",
+          "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+          "lines": "5212-5214",
+          "locus": "Select Letters VI, I.49",
+          "quote": "as far as was possible he complied with my advice and satisfied those who were separated"
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--nubian-christianity",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "nubian-christianity",
+      "to_name": "Nubian Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "John of Ephesus says Justinian sent envoys with gold and baptismal robes to the Nobadae, asking them to join his church. The king accepted the gifts but refused the emperor's faith, and sent a written answer. John wrote for the rival party, and his is the only account of this exchange.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "John of Ephesus, Ecclesiastical History, Part III, IV.6 (Payne Smith, 1860)",
+          "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "lines": "10966-10968",
+          "locus": "HE III, IV.6",
+          "quote": "he sent thither, without a moment's delay, am bassadors with gold and baptismal robes, and gifts of honour for the king of that people"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+          "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "lines": "11063-11066",
+          "locus": "HE III, IV.7",
+          "quote": "The king of the Romans has sent us to you, that in case of your becoming Christians, you may cleave to the church and those who govern it"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+          "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+          "lines": "11084-11086",
+          "locus": "HE III, IV.7",
+          "quote": "In this manner then they sent the king's messengers away, with a written answer to the same effect."
+        }
+      ]
+    },
+    {
+      "id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+      "from": "aksumite-christianity",
+      "from_name": "Aksumite Christianity",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "cyrilline-miaphysite-egyptian-christianity",
+      "to_name": "Cyrilline / Miaphysite Egyptian Christianity",
+      "to_era": 3,
+      "confidence": "Inferential-Thin",
+      "note": "A Syriac letter on the Najran killings of the 520s asks that the patriarch of Alexandria write to the Ethiopian king for help. John of Ephesus calls the Aksumite king a fellow believer. No surviving text from these years is known to show a letter actually sent between them.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Simeon of Beth Arsham, letter on the Najran martyrs, in Pseudo-Zachariah Rhetor, Chronicle VIII.3 (Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "9997-9999",
+          "locus": "Chronicle VIII.3",
+          "quote": "and especially to the chief priest of Alexandria, in order that he may write to the king of the Ethiopians to come at once and help"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "John of Ephesus, Lives of the Eastern Saints, Life of Simeon the bishop (Brooks, PO 17, 1923)",
+          "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+          "lines": "9076-9077",
+          "locus": "Lives 10 (Simeon the Persian debater)",
+          "quote": "an account of these things was written to the king of Aethiopia; and, since he also was a believer, he made this request"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Axel Moberg, introduction to The Book of the Himyarites (Lund, 1924), pp. xxxiv-xxxv (vendored: cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt, lines 2064-2075 and 2134-2139)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+      "from": "latin-africa-under-byzantium",
+      "from_name": "Latin African Christianity under Byzantium",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "byzantine-imperial-church-justinianic",
+      "to_name": "The Byzantine Imperial Church (Justinianic)",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Facundus of Hermiane wrote twelve books in defense of the Three Chapters. He addressed them to Justinian himself. Victor of Tunnuna says that in 550 the bishops of Africa wrote to the emperor in their defense. He adds that Reparatus of Carthage was deposed and sent into exile because he would not condemn them.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Facundus of Hermiane, Pro defensione trium capitulorum, preface (PL 67, Migne 1865)",
+          "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "lines": "41881-41882",
+          "locus": "Pro def., praefatio (Libri XII ad Justinianum imperatorem)",
+          "quote": "hoc opus suadentibus fratribus ad imperato- rem Constantinopoli scripsi."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Victor of Tunnuna, Chronicle, s.a. 550 (Mommsen, MGH AA 11, 1894)",
+          "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "lines": "19048-19049",
+          "locus": "Victor Tunnunensis, Chronicon, s.a. 550, 1",
+          "quote": "pro defensione memoratorum trium capitulorum litteras satis idoneas lustiniano principi"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Victor of Tunnuna, Chronicle, s.a. 552 (Mommsen, MGH AA 11, 1894)",
+          "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+          "lines": "19068-19070",
+          "locus": "Victor Tunnunensis, Chronicon, post cons. Basilii anno XII, 1",
+          "quote": "Reparatus archiepiscopus plurimis calumniis inipetitus pro eo, quod damnationi trium memoratorum capitulorum assensimi non praebuit, officio sumptibusque privatus Euchaida exilio relegatur"
+        }
+      ]
+    },
+    {
+      "id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+      "from": "latin-africa-under-byzantium",
+      "from_name": "Latin African Christianity under Byzantium",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "byzantine-imperial-church-heraclian-iconoclast",
+      "to_name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "In 646 the bishops of Numidia, Byzacena and Mauretania wrote to Pope Theodore. They wrote against a 'novelty' that was spreading from Constantinople. Pope Martin told the Roman synod of 649 that they had also turned to the emperor. They made their case to him against its defender, Paul, the patriarch of that city.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Letter of the African councils to Pope Theodore (646), read at the Lateran synod of 649 (Mansi X, Welter facsimile 1901)",
+          "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+          "lines": "93527-93530",
+          "locus": "Lateran 649, the African bishops' letter to Theodore",
+          "quote": "exofum apud Conftantinopolitanam civitatem novitatis com- mentum ad nos ufque opinanter fuifle dela- tum."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Pope Martin I at the Lateran synod of 649, on the African letters (Mansi X, Welter facsimile 1901)",
+          "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+          "lines": "93845-93849",
+          "locus": "Lateran 649, Martin's statement on the African letters",
+          "quote": "& piiflimo principi per fuam fuggeftionem acclamantes contra novitatis defenfores , id eft , Paulum Con- ftantinopolitanum antiftitem , fupplicabiliter fuggeflerunt"
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "syriac-orthodox-west-syriac-christianity",
+      "to_name": "Syriac Orthodox (West Syriac) Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Justinian confirmed the anathema that the sees of the patriarchs and the monks had passed on Severus of Antioch. His law said Severus's books must be burned, and it kept him out of the capital. Evagrius says it also threatened those who held to his views with the highest penalties.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+          "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+          "lines": "56453-56454",
+          "locus": "Nov. 42.1",
+          "quote": "Nec utique extra imperialem confirmationem relinquimus sententiam iuste contra Severum latam"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+          "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+          "lines": "56691-56692",
+          "locus": "Nov. 42.1",
+          "quote": "sic nec dicta et scripta Severi maneant penes aliquem Christianum, sed sint profana et aliena ab ecclesia catholica igneque comburantur a possidentibus"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Justinian, Novel 42, ch. 1 (ed. Schoell and Kroll, 1895), Authenticum Latin version",
+          "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+          "lines": "56695",
+          "locus": "Nov. 42.1",
+          "quote": "Similiter autem et huic interdicimus omnino regiam civitatem ingredi aut districtum"
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Evagrius Scholasticus, Ecclesiastical History IV.11 (Walford, 1846)",
+          "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "lines": "8214-8216",
+          "locus": "HE IV.11",
+          "quote": "anathematised Severus, Anthimus, and others, and subjected those who held their doctrines, to the highest penalties"
+        }
+      ]
+    },
+    {
+      "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+      "from": "cyrilline-miaphysite-egyptian-christianity",
+      "from_name": "Cyrilline / Miaphysite Egyptian Christianity",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "syriac-orthodox-west-syriac-christianity",
+      "to_name": "Syriac Orthodox (West Syriac) Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "After 518, says a Syriac chronicle of the 560s, many bishops went to Alexandria in the steps of Severus of Antioch. It also copies the letters of communion that he and Theodosius of that city sent each other in the 530s. Each greets the other as his brother and fellow minister.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book VIII, ch. 5 (trans. Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "10223-10224",
+          "locus": "Chron. VIII.5",
+          "quote": "others withdrew to Alexandria and various other countries, walking in the footsteps of the chief priest, Severus the doctor."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book IX, ch. 23, Severus to Theodosius",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "13986-13987",
+          "locus": "Chron. IX.23",
+          "quote": "the chief priest, my lord Theodosius, Severus greeting in our Lord."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book IX, ch. 24, Theodosius to Severus",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "14100-14101",
+          "locus": "Chron. IX.24",
+          "quote": "the patriarch, my lord Severus, Theodosius greeting in our Lord."
+        }
+      ]
+    },
+    {
+      "id": "the-church-of-the-east-under-persia--syriac-orthodox-west-syriac-christianity",
+      "from": "the-church-of-the-east-under-persia",
+      "from_name": "The Church of the East under Persia",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "syriac-orthodox-west-syriac-christianity",
+      "to_name": "Syriac Orthodox (West Syriac) Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "In 612 the Persian king had the bishops of the Church of the East debate the Miaphysites at his court. A statement drawn up for that meeting says Christ has two natures. It charges Severus and his disciples with leaving the foundation of the faith by teaching one.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Synodicon Orientale, Appendix III: documents of the bishops' assembly of 612 (trans. Chabot, 1902)",
+          "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+          "lines": "39364-39365",
+          "locus": "Syn. Or., App. III (612)",
+          "quote": "mais ce sont Sévère et ses disciples qui s’en sont écartés, eux qui professent que le Christ est une seule nature et une seule personne."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "J.-B. Chabot, Synodicon Orientale (Paris, 1902), introduction to Appendix III, on the assembly of 612 called by Khosrow at Gabriel of Singar's urging for a public debate with the Monophysites (vendored edition, file lines 37347-37356)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+      "from": "the-church-of-the-east-under-persia",
+      "from_name": "The Church of the East under Persia",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "st-thomas-christians-of-india",
+      "to_name": "St. Thomas Christians of India",
+      "to_era": 4,
+      "confidence": "Inferential-Thin",
+      "note": "Cosmas, an Alexandrian traveler writing around 550, reported a church on India's pepper coast and a bishop at Kalyan appointed from Persia. He does not say the pepper-coast church was under Persia. No source from his time ties it to the Kerala church of the 800s, so the evidence is slight.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+          "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "lines": "7208-7209",
+          "locus": "Top. Christ. III",
+          "quote": "In the country called Male,1 where the pepper grows, there is also a church,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+          "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+          "lines": "7210-7211",
+          "locus": "Top. Christ. III",
+          "quote": "and at another place called Calliana2 there is moreover a bishop, who is appointed from Persia."
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+      "to_name": "Chalcedonian Monasticism - Judean Desert & Gaza",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Evagrius says the patriarch of Jerusalem sent leading monks from Judea to Constantinople. This was before the council of 553. Conon was from the monastery of Saba, and Rufus was from that of Theodosius. At court it was they who raised the questions about what Origen taught.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Evagrius Scholasticus, Ecclesiastical History IV.38 (Walford, 1846)",
+          "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "lines": "9522-9524",
+          "locus": "HE IV.38",
+          "quote": "despatches to Constantinople Rufus, superior of the monastery of Theodosius, and Conon, of that of Saba, persons of the first distinction among the solitaries,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Evagrius Scholasticus, Ecclesiastical History IV.38 (Walford, 1846)",
+          "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+          "lines": "9528-9529",
+          "locus": "HE IV.38",
+          "quote": "These, in the first instance, mooted the ques- tions relating to Origen, Evagrius, and Didymus."
+        }
+      ]
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+      "from": "armenian-christianity-after-avarayr",
+      "from_name": "Armenian Christianity after Avarayr",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "byzantine-imperial-church-justinianic",
+      "to_name": "The Byzantine Imperial Church (Justinianic)",
+      "to_era": 3,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "In 554 a council met at Dvin under the catholicos Nerses II. It confirmed that the Armenian church said no to the Council of Chalcedon. Against the claims of that council, it proclaimed the faith of Ephesus. This rests on modern histories of that church, and most of all on the one by Malachia Ormanian.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), pp. 35-36 (the synods of Douine, 506 and 554) and p. 40 (Nerses II at Douine, 554) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Karekin Sarkissian, The Council of Chalcedon and the Armenian Church (1965)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Nina Garsoian, L'Église arménienne et le grand schisme d'Orient (CSCO 574, 1999)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--georgian-christianity",
+      "from": "armenian-christianity-after-avarayr",
+      "from_name": "Armenian Christianity after Avarayr",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "georgian-christianity",
+      "to_name": "Georgian Christianity",
+      "to_era": 3,
+      "confidence": "Widely Accepted",
+      "note": "The Armenian historian Malachia Ormanian tells of a council in Dvin in 506. He says bishops from Georgia, Armenia and Albania all met there. A Syriac chronicle of about 555 says the Christian peoples of the north had one catholicos, at Dvin. It then calls Georgia a land with a Christian prince, subject to Persia.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "16315-16317",
+          "locus": "Book XII ch. 7, the northern peoples (written in Justinian's 28th year, c. 554/5)",
+          "quote": "And besides these there are also in this northern region five believing peoples, and their bishops are twenty-four, and their Catholic lives at D'win, the chief city of Persian Armenia."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "16341-16343",
+          "locus": "Book XII ch. 7, Gurzan (Georgia)",
+          "quote": "Further Gurzan,! a country in Armenia, and its language is like Greek ; and they have a Christian prince, who is subject to the king of Persia."
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), p. 35 (the synod of Armenian, Georgian and Caspio-Albanian bishops at Douine, 506) and p. 132 (the catholicos once combined the sees of Georgia and Caspian Albania) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+      "from": "armenian-christianity-after-avarayr",
+      "from_name": "Armenian Christianity after Avarayr",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "church-of-caucasian-albania",
+      "to_name": "The Church of Caucasian Albania",
+      "to_era": 3,
+      "confidence": "Widely Accepted",
+      "note": "The Armenian historian Malachia Ormanian tells of a council in Dvin in 506. He says bishops from Albania, Armenia and Georgia all met there. A Syriac chronicle of about 555 says the Christian peoples of the north had one catholicos, at Dvin. It counts Albania, which it calls Arran, as 'a believing and baptized people.'",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "16315-16317",
+          "locus": "Book XII ch. 7, the northern peoples (written in Justinian's 28th year, c. 554/5)",
+          "quote": "And besides these there are also in this northern region five believing peoples, and their bishops are twenty-four, and their Catholic lives at D'win, the chief city of Persian Armenia."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+          "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "lines": "16346-16347",
+          "locus": "Book XII ch. 7, Arran (Caucasian Albania)",
+          "quote": "with a language of its own, a believing and baptized people; and it has a prince subject to the king of Persia."
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), p. 35 (the synod at Douine, 506) and p. 132 (the catholicos once combined the sees of Georgia and Caspian Albania) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+      "from": "armenian-christianity-before-the-bagratids",
+      "from_name": "Armenian Christianity before the Bagratids",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "church-of-caucasian-albania",
+      "to_name": "The Church of Caucasian Albania",
+      "to_era": 3,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Elias led the church of Armenia as its catholicos from 703 to 717. He worked to keep Albania in the Armenian communion. When Nerses Bakur, head of the church in Albania, leaned towards Chalcedon, he was removed and Simeon was put in his place. This rests on modern histories of the Armenian church.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), p. 45 (Eghia of Ardjesch, 703-717; Nerses Bakour removed and replaced by Simeon) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "C. J. F. Dowsett, trans., The History of the Caucasian Albanians by Movses Dasxuranci (1961)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--georgian-christianity",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "georgian-christianity",
+      "to_name": "Georgian Christianity",
+      "to_era": 3,
+      "confidence": "Widely Accepted",
+      "note": "Around 600, Kurion, head of the church in Georgia, turned to Constantinople and accepted the Council of Chalcedon. Writing later in the 600s, the Armenian historian Sebeos puts the head of the Georgian church on Chalcedon's side. Bishops from the Greek lands stand with him.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Sebeos, History (Histoire d'Héraclius), ch. XXXIII (French trans. Macler, 1904)",
+          "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+          "lines": "7441-7443",
+          "locus": "ch. XXXIII, the debate on the councils before Khosrow II",
+          "quote": "Tenaient le parti de Chalcldoine le catholicos de G^orgie et d'Albanie avec beaucoup d'6v6ques de la region grecque"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), pp. 40-41 (Kurion 'rallying to the patriarchate of Constantinople'; the Georgian church 'became part of the Greek Church') (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "James Issaverdens, Armenia and the Armenians, vol. II (1875), p. 103 (Gurion has the acts of Chalcedon brought from Constantinople and Leo's Tome translated)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+      "from": "early-benedictine-italian-monasticism",
+      "from_name": "Early Benedictine / Italian Monasticism",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "carolingian-reform-christianity",
+      "to_name": "Carolingian Reform Christianity",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "In 802 Charlemagne gathered abbots and monks at Aachen. There they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against the rule be put right by it. Sixty years before, in 742, Carloman's council had told monks and nuns to live by the same rule.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Lorsch Annals for 802, as printed in the headnote to the Aachen synod of 802 (MGH Capitularia regum Francorum I)",
+          "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "lines": "7794-7796",
+          "locus": "Ann. Lauresh. a. 802 (Capit. I, no. 36-41, headnote)",
+          "quote": "Similiter in ipso synodo congregavit universos abbates et monachos qui ibi aderant, et ipsi inter se conventum faciebant et legerunt regulam sancti patris Benedicti, et eam tradiderunt sapientes in conspectu abbatum et monachorum."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Karlmann's capitulary of 742 (Concilium Germanicum), c. 7 (MGH Capitularia regum Francorum I)",
+          "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "lines": "2324-2325",
+          "locus": "Capit. I, no. 10, c. 7",
+          "quote": "Et ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordinare et vivere, vitanii propriam gubernare studeant"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+      "from": "early-benedictine-italian-monasticism",
+      "from_name": "Early Benedictine / Italian Monasticism",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "cluniac-reform-monasticism",
+      "to_name": "Cluniac Reform Monasticism",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls it practically the only rule for monks in the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "D. Oswald Hunter Blair, explanatory notes to The Rule of St. Benedict (Sands, 1907)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Before he was pope, Gregory lived at Constantinople as the pope's envoy. In his Morals on Job, he recalls a debate on the resurrection with Eutychius, the city's bishop. It went on until Emperor Tiberius heard them both. Paul the Deacon tells the same story in the late 700s.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Morals on the Book of Job XIV.72-74 (Library of the Fathers, 1845)",
+          "file": "cic/texts/gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt",
+          "lines": "8400-8402",
+          "locus": "Moralia XIV.72",
+          "quote": "And  when,  being  placed  in  the  city  of  Constantinople, I  brought  before  Eutychius  this  testimony  of  truth  from  the Gospel,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Morals on the Book of Job XIV.72-74 (Library of the Fathers, 1845)",
+          "file": "cic/texts/gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt",
+          "lines": "8488-8491",
+          "locus": "Moralia XIV.74",
+          "quote": "when  the  £)mperor  Tiberius  Constantine, of  religious  memory,  bringing  myself  and  him  to  a  private audience,  learnt  what  dispute  was  being  carried  on  between us,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Paul the Deacon, History of the Langobards III.13 (Foulke 1907)",
+          "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+          "lines": "5750-5752",
+          "locus": "HL III.13",
+          "quote": "In his days while the blessed Gregory, the deacon who afterwards became Pope, was papal delegate at the same imperial city, he composed books of Morals"
+        }
+      ]
+    },
+    {
+      "id": "merovingian-gallic-christianity--roman-church-gregorian",
+      "from": "merovingian-gallic-christianity",
+      "from_name": "Merovingian Gallic Christianity",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Gregory wrote often to Gaul. He answered Queen Brunhild's letters, and warned four leading bishops that holy orders there were being bought. Gregory of Tours recorded the pope's election in 590, as his own deacon reported it on his return from Rome.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Register VI.50, To Queen Brunichild (NPNF 2.12, Barmby)",
+          "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+          "lines": "44398-44401",
+          "locus": "Reg. VI.50",
+          "quote": "The tenor of your letters, which evinces a religious spirit and the earnestness of a pious mind, causes us not only to commend the purpose of your request, but also to grant willingly what you demand."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Register IX.106, To Syagrius, Aetherius, Virgilius and Desiderius (NPNF 2.13, Barmby)",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "2934-2936",
+          "locus": "Reg. IX.106",
+          "quote": "I apprize you to wit, that we have long heard it currently reported how that in the regions of Gaul sacred orders are conferred through simoniacal heresy."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Gregory of Tours, History of the Franks X.1 (Dalton 1927)",
+          "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "lines": "20167-20169",
+          "locus": "HF X.1",
+          "quote": "And because the Church of God could not remain without a leader, the whole people chose the deacon Gregory."
+        }
+      ]
+    },
+    {
+      "id": "nicene-visigothic-iberia--roman-church-gregorian",
+      "from": "nicene-visigothic-iberia",
+      "from_name": "Nicene Visigothic Iberia",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Gregory first met Leander of Seville at Constantinople, and the two kept writing to each other. In one letter Gregory said that Leander's letters had made him love King Reccared. Later he wrote to the king himself. He praised the conversion of the whole Gothic nation.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Letter to Leander prefixed to the Morals on Job (Library of the Fathers, 1844)",
+          "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+          "lines": "389-390",
+          "locus": "Ep. ad Leandrum 1",
+          "quote": "When  I  knew  you  long  since  at  Constantinople,  my most  blessed  brother,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Register I.43, To Leander of Seville (NPNF 2.12, Barmby)",
+          "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+          "lines": "32583-32584",
+          "locus": "Reg. I.43",
+          "quote": "In describing his character to me in thy letters thou hast made me love him, though I know him not."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Gregory the Great, Register IX.122, To Reccared, King of the Visigoths (NPNF 2.13, Barmby)",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "3872-3875",
+          "locus": "Reg. IX.122",
+          "quote": "For on hearing of the power of a new miracle in our days, to wit that the whole nation of the Goths has through thy Excellency been brought over from the error of Arian heresy to the firmness of a right faith,"
+        }
+      ]
+    },
+    {
+      "id": "latin-africa-under-byzantium--roman-church-gregorian",
+      "from": "latin-africa-under-byzantium",
+      "from_name": "Latin African Christianity under Byzantium",
+      "from_era": 3,
+      "type": "in contact with",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop. But he barred bishops who had come over from the Donatists from that rank.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+          "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+          "lines": "33808-33811",
+          "locus": "Reg. I.77",
+          "quote": "And we, indeed, according to the tenour of your representation, allow your custom (so long as it clearly makes no claim to the prejudice of the catholic faith) to remain undisturbed, whether as to constituting primates or as to other points;"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+          "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+          "lines": "33811-33813",
+          "locus": "Reg. I.77",
+          "quote": "save that with respect to those who attain to the episcopate from among the Donatists, we by all means forbid them to be advanced to the dignity of primacy,"
+        }
+      ]
+    },
+    {
+      "id": "roman-church-gregorian--carolingian-reform-christianity",
+      "from": "roman-church-gregorian",
+      "from_name": "The Roman Church in the Age of Gregory the Great",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "carolingian-reform-christianity",
+      "to_name": "Carolingian Reform Christianity",
+      "to_era": 4,
+      "confidence": "Widely Accepted",
+      "note": "A Carolingian list sets out what clergy must learn. It tells canons to know 'the pastoral book', which its editor says is Gregory's. James Barmby, who translated Gregory, goes further. He says that in 813, councils called by Charlemagne made all bishops study it.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Quae a presbyteris discenda sint, c. 13 (MGH Capitularia regum Francorum I, no. 117)",
+          "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "lines": "16128",
+          "locus": "Capit. I, no. 117, c. 13",
+          "quote": "13. Librum pastoralem* canonici atque librum officiorum;"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "James Barmby, introduction to the Book of Pastoral Rule, Nicene and Post-Nicene Fathers, second series, vol. 12 (1895)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+      "from": "roman-church-gregorian",
+      "from_name": "The Roman Church in the Age of Gregory the Great",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "late-anglo-saxon-christianity",
+      "to_name": "Late Anglo-Saxon Christianity",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. We have this from James Barmby, Gregory's translator, who wrote in 1895.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "James Barmby, introduction to the Book of Pastoral Rule, Nicene and Post-Nicene Fathers, second series, vol. 12 (1895)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Henry Sweet (ed.), King Alfred's West-Saxon Version of Gregory's Pastoral Care (Early English Text Society, 1871)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+      "from": "merovingian-gallic-christianity",
+      "from_name": "Merovingian Gallic Christianity",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "gothic-and-vandal-homoian-christianity",
+      "to_name": "Gothic, Vandal & Lombard Homoian Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "One Easter an envoy of Leuvigild, king of Spain, reached Tours. Gregory of Tours questioned him on his faith, argued with him over the Trinity and called him a heretic. Gregory also reports that Clovis said he took it hard that 'these Arians' held part of Gaul.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+          "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "lines": "12913-12914",
+          "locus": "HF VI.40",
+          "quote": "This envoy arriving at Tours for the holy day of Easter, I questioned him, whether he was of our faith."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+          "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+          "lines": "12972-12973",
+          "locus": "HF VI.40",
+          "quote": "But now what wouldst thou, O heretic ?"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Gregory of Tours, History of the Franks II.37 (Brehaut 1916)",
+          "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+          "lines": "2604-2605",
+          "locus": "HF II.37",
+          "quote": "Now Clovis the king said to his people: \"I take it very hard that these Arians hold part of the Gauls."
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+      "from": "byzantine-imperial-church-justinianic",
+      "from_name": "The Byzantine Imperial Church (Justinianic)",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "gothic-and-vandal-homoian-christianity",
+      "to_name": "Gothic, Vandal & Lombard Homoian Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Belisarius took Carthage in 533. The Arian priests fled, and the orthodox took back the shrine of Cyprian. Then, Procopius says, Justinian let no Christian outside the orthodox faith be baptized or share in any other sacrament. So Arian soldiers could not baptize their children.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Procopius, History of the Wars III.21, the Vandalic War (Dewing 1916)",
+          "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+          "lines": "2234-2236",
+          "locus": "Wars III.21",
+          "quote": "And the priests of the Arians were off in flight, while the Christians who conform to the orthodox faith came to the temple of Cyprian,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Procopius, History of the Wars IV.14, the Vandalic War (Dewing 1916)",
+          "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+          "lines": "4269-4271",
+          "locus": "Wars IV.14",
+          "quote": "For the Emperor Justinian did not allow any Christian who did not espouse the orthodox faith to receive baptism or any other sacrament."
+        }
+      ]
+    },
+    {
+      "id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+      "from": "insular-irish-monastic-christianity",
+      "from_name": "Insular / Irish Monastic Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "merovingian-gallic-christianity",
+      "to_name": "Merovingian Gallic Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Writing around 640, Jonas of Bobbio tells how Columbanus sailed from Ireland and set up Luxeuil in Gaul. Local nobles then set up houses for monks under his rule. Among them were Donatus, bishop of Besançon, and Dado at Rebais. His book of penances, which he wrote on the Continent, set the model for later Frankish ones.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Jonas of Bobbio, Life of St. Columban 10, tr. Munro 1895",
+          "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "lines": "293-295",
+          "locus": "c. 10",
+          "quote": "So they embarked, and began the dangerous journey across the channel and sailed quickly with a smooth sea and favorable wind to the coast of Brittany."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Jonas of Bobbio, Life of St. Columban 22, tr. Munro 1895",
+          "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "lines": "670-672",
+          "locus": "c. 22",
+          "quote": "He became Bishop of Besanyon, which he still is. Out of love for St. Columban he founded a monas- tery under Columban's rule."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Jonas of Bobbio, Life of St. Columban 50, tr. Munro 1895",
+          "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "lines": "1425-1427",
+          "locus": "c. 50",
+          "quote": "The younger. Dado, founded, under the rule of the blessed man, a monastery near Brieg, on the little river Rebais."
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Cursus Scottorum tract (eighth century), quoted in Warren's introduction to the Antiphonary of Bangor",
+          "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt",
+          "lines": "1675-1676",
+          "locus": "Warren, Intro. p. xxvi",
+          "quote": "percrebuit forma sanctitatis eorum per universum orbem terrarum, et multa coenobia ex eorum doctrina tam virorum quam puellarum sunt congregata."
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "F. W. H. Wasserschleben, Die Bussordnungen der abendlaendischen Kirche (Halle, 1851), introduction, ch. II (vendored: cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt, lines 1560-1579)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "insular-irish-monastic-christianity--roman-church-gregorian",
+      "from": "insular-irish-monastic-christianity",
+      "from_name": "Insular / Irish Monastic Christianity",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "roman-church-gregorian",
+      "to_name": "The Roman Church in the Age of Gregory the Great",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Around 600 the Irish monk Columbanus wrote from Luxeuil to Pope Gregory. He stood up for the Irish date of Easter and asked why Gregory kept a dark Easter. Irish scholars, he said, had never taken up the Easter tables of Victorius. No reply from Gregory survives.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Columbanus, Letter to Pope Gregory (Gregory, Register, Ep. IX.127 in Barmby's numbering), NPNF II.13",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "4390-4393",
+          "locus": "Ep. CXXVII",
+          "quote": "Why then dost thou, who art so wise, the brilliant lights indeed of whose sacred genius are diffused, as in ancient times, through the world,—why dost thou keep a dark Easter?"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "4423-4426",
+          "locus": "Ep. CXXVII",
+          "quote": "For know thou that by our masters and the Irish ancients, who were philosophers and most wise computists in constructing calculations, Victorius was not received, but held rather worthy of ridicule or of excuse than as carrying authority."
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "James Barmby, note to Columbanus's letter to Gregory, NPNF II.13 (1898)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+      "from": "insular-irish-monastic-christianity",
+      "from_name": "Insular / Irish Monastic Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "ecumenical-community-worlds-taize-and-iona",
+      "to_name": "Ecumenical Community Traditions - Taize & Iona",
+      "to_era": 10,
+      "confidence": "Inferential-Thin",
+      "note": "Bede, writing in the eighth century, says Columba's successors still held the island of Iona. In 1938 George MacLeod founded the Iona Community there and set about rebuilding its abbey. No source shows what it drew from Columba's monks, so this rests on place alone.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), III.4",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "5841-5846",
+          "locus": "III.4",
+          "quote": "whereupon he also received of them the aforesaid island for a monastery, for it is not very large, but contains about five families, according to the English computation. His successors hold the island to this day"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Ron Ferguson, Chasing the Wild Goose: The Story of the Iona Community (1988)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "british-welsh-christianity--insular-irish-monastic-christianity",
+      "from": "british-welsh-christianity",
+      "from_name": "British and Welsh Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "insular-irish-monastic-christianity",
+      "to_name": "Insular / Irish Monastic Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Around 600 the Irish monk Columbanus wrote a letter to Pope Gregory. In it he cited Gildas, the British monk and writer. He said that a writer named Vennianus had asked Gildas about monks who left their monastery. Gildas, he said, had given him a most elegant reply.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "4535-4536",
+          "locus": "Ep. CXXVII",
+          "quote": "The author Vennianus enquired about these of Giltas, who replied to him most elegantly"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "4530-4535",
+          "locus": "Ep. CXXVII",
+          "quote": "those monks who for a closer sight of God, or inflamed by a longing for a more perfect life, going against their vows, leave the places of their first conversion"
+        }
+      ]
+    },
+    {
+      "id": "anglo-saxon-christianity--british-welsh-christianity",
+      "from": "anglo-saxon-christianity",
+      "from_name": "Anglo-Saxon Christianity",
+      "from_era": 4,
+      "type": "in contact with",
+      "to": "british-welsh-christianity",
+      "to_name": "British and Welsh Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Bede tells of two meetings around 603 between Augustine of Canterbury and the British bishops. The first was at Augustine's Oak. Pope Gregory had put the British bishops under Augustine, but at the second meeting they would not take him as their archbishop. Bede wrote this more than a century later.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2, chapter title",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "3561-3562",
+          "locus": "II.2",
+          "quote": "and of the vengeance that pursued them for their contempt, [a.d. 603.]"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "3564-3568",
+          "locus": "II.2",
+          "quote": "Augustine, with the assistance of King Ethelbert, drew together to a conference the bishops, or doctors, of the next province of the Britons, at a place which is to this day called Augus- tine's Ac, that is, Augustine's Oak"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.2",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "3666-3668",
+          "locus": "II.2",
+          "quote": "They answered they would do none of those things, nor receive him as their archbishop"
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Gregory the Great, answers to Augustine (Register XI.64), question IX, NPNF II.13",
+          "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "lines": "7550-7553",
+          "locus": "Ep. XI.64, q. IX",
+          "quote": "But of all British bishops we commit the charge to thy Fraternity, that the unlearned may be taught, the weak strengthened by persuasion, the perverse corrected by authority."
+        }
+      ]
+    },
+    {
+      "id": "anglo-saxon-christianity--british-welsh-christianity--2",
+      "from": "anglo-saxon-christianity",
+      "from_name": "Anglo-Saxon Christianity",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "british-welsh-christianity",
+      "to_name": "British and Welsh Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "Laurentius, who followed Augustine, wrote to the British clergy and urged them into Catholic unity. Later, Bede reports, Aldhelm wrote a book against the way they fixed the date of Easter. Bede himself complained about the Britons. They would not share the faith with the English, he said, yet still held to their errors.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), II.4",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "3862-3865",
+          "locus": "II.4",
+          "quote": "The same Laurentlus and his fellow bishops wrote a letter to the priests of the Britons, suitable to his rank, by which he endeavoured to confirm them in Catholic unity"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), V.18",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "13813-13817",
+          "locus": "V.18",
+          "quote": "Aldhelm, when he was only a priest and abbdt of the monastery of Malmesbury, by order of a synod of his own nation, wrote a notable book against the error of the Britons, in not celebrating Easter at the proper time"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), V.22",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "15020-15024",
+          "locus": "V.22",
+          "quote": "the Britons, who would not acquaint the English with the knowledge of the Christian faith, now, when the English people enjoy the true faith, and are thoroughly instructed in its rules, continue inveterate in their errors"
+        }
+      ]
+    },
+    {
+      "id": "british-welsh-christianity--anglo-saxon-christianity",
+      "from": "british-welsh-christianity",
+      "from_name": "British and Welsh Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "anglo-saxon-christianity",
+      "to_name": "Anglo-Saxon Christianity",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "In his history of the English church, Bede cites Gildas as the Britons' own historian for their sins after the Romans left. Bede then adds a charge of his own: that the Britons never preached the faith to the English.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), I.22",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "1784-1787",
+          "locus": "I.22",
+          "quote": "which their own historian, Gildas, mournfully takes notice of, they added this — that they never preached the faith to the Saxons, or English, who dwelt amongst them"
+        }
+      ]
+    },
+    {
+      "id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+      "from": "nicene-visigothic-iberia",
+      "from_name": "Nicene Visigothic Iberia",
+      "from_era": 3,
+      "type": "argued against",
+      "to": "gothic-and-vandal-homoian-christianity",
+      "to_name": "Gothic, Vandal & Lombard Homoian Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "At the third council of Toledo in 589, the Gothic bishops condemned the faith they had held, which the council called Arian. They cursed anyone who still kept the communion that came from Arius. They also cursed the booklet issued in King Leovigild's reign to bring Romans over to it. Eight bishops, Ugnas and Murila among them, signed as men entering the catholic church.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Third Council of Toledo (589), anathema 1, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+          "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "lines": "36900-36904",
+          "locus": "Toledo III, anath. 1",
+          "quote": "Omnis ergo, qui fidem et communio- nem ab Ario venientem, et hucusque a no- bis retentam adhuc tenere desiderat et de to- ta.cordis intentione non damnat, anathe- ma sit."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Third Council of Toledo (589), anathema 16, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+          "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "lines": "36965-36968",
+          "locus": "Toledo III, anath. 16",
+          "quote": "Quicumque libellum detestabilem duodecimo anno Leovigildi regis a. nobis editum, in quo continetur Romanorum ad haeresem Arianam transductio"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Third Council of Toledo (589), signatures of the Gothic bishops, Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+          "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+          "lines": "37118-37122",
+          "locus": "Toledo III, subscriptions",
+          "quote": "Ugnas in Christi norhine episcopus ana- thematizans haeresis Arianae dogmata su- perius damnata, fidem sanctam hanc catho- licam, quam in ecclesiam catholicam veniens credidi, manu mea de toto corde subscripsi."
+        }
+      ]
+    },
+    {
+      "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+      "from": "anglo-saxon-christianity",
+      "from_name": "Anglo-Saxon Christianity",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "insular-irish-monastic-christianity",
+      "to_name": "Insular / Irish Monastic Christianity",
+      "to_era": 3,
+      "confidence": "Documented",
+      "note": "At Whitby in 664, Bede says, the English priest Wilfrid argued against the Easter kept by Bishop Colman and his Irish clergy. He said Rome, Italy, Gaul, Africa, Asia and Egypt kept the Roman date, and he called the other side obstinate. King Oswy then chose to follow Peter, who held the keys of heaven.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "8003-8005",
+          "locus": "HE III.25",
+          "quote": "Then Wilfrid, being ordered by the king to speak, delivered himself thus : — \" The Easter which we observe, we saw celebrated by all at Rome"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "8017-8021",
+          "locus": "HE III.25",
+          "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "8136-8137",
+          "locus": "HE III.25",
+          "quote": "but what have you to do with him, since you do not observe his decrees ?"
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+          "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+          "lines": "8204-8207",
+          "locus": "HE III.25",
+          "quote": "he is the door-keeper, whom I will not contradict, but will, as far as I know and am able, in all things obey his decrees"
+        }
+      ]
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+      "from": "early-benedictine-italian-monasticism",
+      "from_name": "Early Benedictine / Italian Monasticism",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "cistercian-monasticism",
+      "to_name": "Cistercian Monasticism",
+      "to_era": 5,
+      "confidence": "Inferential-Thin",
+      "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text quoted here says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "D. Oswald Hunter Blair, note on the Rule's provisions for silence, in The Rule of St. Benedict (1907)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+      "from": "syriac-orthodox-west-syriac-christianity",
+      "from_name": "Syriac Orthodox (West Syriac) Christianity",
+      "from_era": 3,
+      "type": "influenced",
+      "to": "syriac-renaissance",
+      "to_name": "The Syriac Renaissance",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Michael the Syrian, patriarch from 1166, built his world chronicle partly from older Syriac histories. At one point he marks where the chronicles of John of Asia and Zacharias the Rhetor take over as his sources. Elsewhere he quotes John speaking in his own voice about a dispute at the emperor's court.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle, Book VIII (French trans. Chabot)",
+          "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+          "lines": "2169",
+          "locus": "Chron. VIII",
+          "quote": "A partir d'ici commencent les Chroniques de Jean d'Asie et de Zacharie le Rhéteur."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle, Books VIII-XI (French trans. Chabot)",
+          "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+          "lines": "19042-19044",
+          "locus": "Chron., quoting John of Ephesus",
+          "quote": "Jean d'Asie dit : « Nous mêmes nous fûmes méprisés à cause de lui*, et nous le blâmâmes. »"
+        }
+      ]
+    }
+  ]
+}
