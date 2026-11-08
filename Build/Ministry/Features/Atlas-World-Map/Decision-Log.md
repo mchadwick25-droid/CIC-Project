@@ -44,6 +44,23 @@ Sunday-school ministries, rescue missions, Christian schools and homeschooling, 
 unit is the movement, never the organization. How such an entry is told apart from a church
 entry is a question for the gate.
 
+**What follows 2010 (Mark, 2026-11-08, "yes, pass that to era 10", relayed from the era 1
+thread).**
+
+1. The tree says nothing past 2010, and says so plainly. The method page and the era 10 band both
+   state that the history ends in 2010 and that "living" means as of 2010. A movement still active
+   in 2010 keeps its living mark but makes no claim about where it stands today.
+2. Later decades join once they become history, by the rule that set 2010: a period joins the tree
+   once it is about fifteen years in the past. 2010–2020, for example, would be added around 2035,
+   under the same Step 0 standard, either as an extension of era 10 or as an era 11. Each addition
+   is a numbered data release, so nothing already published changes meaning.
+3. Two options were considered and declined: a "since 2010" note on living entries, which is
+   present-tense ground and would go stale; and a rolling cut-off, which would break the promise
+   that a release is a fixed version.
+4. The reader-facing line, for the method page and the era 10 band: "The tree's history runs to
+   2010. Movements since then will be added as they become history." It lands with the era 10
+   census changes after the gate, not in this run.
+
 **What this amends in the frozen era 10 record** (this log's 2026-08-14 entry, "ERA 10 FROZEN by
 Mark", and `Design/StepZero-Eras/CiC_Step0_Era10_V1_0.md`):
 

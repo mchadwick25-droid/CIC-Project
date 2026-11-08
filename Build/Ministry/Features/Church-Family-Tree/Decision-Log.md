@@ -563,6 +563,13 @@ The survey also widens to Christian movements and trends outside formal church b
 translation, campus ministries, church planting, world missions and the like). The unit is the
 movement, never the organization; how such entries are marked is a gate question.
 
+After 2010 (Mark, "yes, pass that to era 10", relayed): the tree says nothing past 2010 and says
+so plainly; a movement active in 2010 keeps its living mark but claims nothing about today. A
+later decade joins once it is about fifteen years in the past (2010–2020 around 2035), under the
+same standard, as a numbered data release. A "since 2010" note and a rolling cut-off were
+declined. The reader-facing line, for the method page and the era 10 band once the gate rules:
+"The tree's history runs to 2010. Movements since then will be added as they become history."
+
 **Change order.** This amends the era 10 freeze of 2026-08-14 (Atlas World Map Decision-Log, "ERA
 10 FROZEN by Mark", and `CiC_Step0_Era10_V1_0.md`): the span, the dated-reading clause on living
 rows, the "present" end dates, and the retention of the most recent rows. The full list is in the
