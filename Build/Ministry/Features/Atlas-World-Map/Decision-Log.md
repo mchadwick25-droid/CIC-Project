@@ -13,6 +13,21 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Change order, pending Mark: faith missions (IX.53) held at build
+
+**Open, for Mark.** The gate ruling added faith missions under G-57(a), which set no Section A
+condition. At the build (P2-E10b), the Section A research found no statement of faith for its
+carriers (`Design/StepZero-Eras/CiC_Step0_Era10_P2E10b_SectionA_Research.md`): the IFMA's own
+doctrinal text was not found, and its successor's statement is behind a member login. The three
+other new movement rows clear Section A on their carriers' own dated statements. This thread held
+IX.53 rather than enter a row whose floor has not been checked, treating it as the rulings treat the
+healing revival and the Oxford Group (G-69, G-72). That departs from the ruling as written, so it is
+put to Mark: hold IX.53 until the statement is found, or build it now with "not yet assessed" on its
+floor note. Its atlasId stays reserved either way. Wanted: Frizen, *75 Years of IFMA, 1917–1992*
+(1992); Wheaton College, Billy Graham Center Archives, collection 352.
+
+---
+
 ## 2026-11-08 — ERA 10 GATE: Mark takes every recommendation (history, 1906 to c. 2010)
 
 **Decided (Mark: "take every recommendation").** Applied to all 79 gate questions on the era 10 gate
