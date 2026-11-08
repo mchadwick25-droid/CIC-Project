@@ -405,24 +405,35 @@ it, never by deleting it.
     the old descriptions" (2026-11-08): the era 6 pass rewrote the long description of all 23 era-6
     movements, and each has a recording in `cft-website/audio/tree/`. All 23 now play text that no
     longer matches the page. A paid voice run, for Mark.
-74. **Well-known facts with no vendored source, era 9 part 1 (2026-11-08).** Added to the method
+74. **"Continues as" with no graded link (2026-11-08).** 36 movements carry `continuesAs` with no
+    matching "continued as" link: 4 in eras 3 to 5 (Armenia after Avarayr, the Carolingian reform,
+    the Cyrillo-Methodian mission, Athonite monasticism; see "Two continues as fields name entries
+    the evidence only influenced" and "The Armenian continues as chain skips a movement"), 30 in eras
+    7 to 9 and 2 in era 10. The map's card now marks each "continued as · not yet graded", and names
+    the checked link where the pair has one of another kind. The era 7 to 9 passes and P2-L11 close
+    them; era 10 waits for P2-L10.
+75. **The tree's own pages have no light theme (2026-11-08).** The movement pages and the about,
+    method, data, privacy and support pages are dark only; a browser set to light shows them dark.
+    Seen while checking P2-M and P2-D. P2-K2's light-theme check covers it, with the map's
+    ("The map's light theme is unfinished", 2026-11-06).
+76. **Well-known facts with no vendored source, era 9 part 1 (2026-11-08).** Added to the method
     question in "Well-known facts with no vendored source" (2026-11-07). Left standing as written: the
     Primitive Methodists and AME Zion, the 1844 Methodist split, Keswick, Spurgeon's Tabernacle, the
     slavery cause of the 1845 Baptist split, Landmarkism, the 1832 Stone-Campbell union, the
     Victorian Church of England's Gorham case, Essays and Reviews and first Lambeth Conference, the
     New Apostolic Church's size, Newman's 2019 canonization, the Quaker Nobel Prize of 1947.
-75. **Page recordings read old descriptions, era 9 part 1 (2026-11-08).** As in "Page recordings
+77. **Page recordings read old descriptions, era 9 part 1 (2026-11-08).** As in "Page recordings
     read the old descriptions" (2026-11-08): four recorded pages now play a description this pass
     rewrote: `the-haugean-awakening`, `the-reveil-and-inner-mission-awakening`,
     `confessional-lutheran-revival-emigrations`, `russian-evangelicals-stundists`. A paid voice run,
     for Mark.
-76. **Era 7's St Thomas entry and the Northeast India churches (2026-11-08).**
+78. **Era 7's St Thomas entry and the Northeast India churches (2026-11-08).**
     `st-thomas-christians-under-portuguese-pressure-d` says "the modern Kerala and Northeast India
     churches descend from it". The northeast hill churches came from Welsh and American missions;
     only the Mar Thoma half of `northeast-india-revivals-and-the-mar-thoma-refor` descends from the
     St Thomas Christians. Era 7's branch draws a "continued as" link between the two. For era 7's
     owner.
-77. **Text owners' items from era 9 part 1 (2026-11-08).** Not changed, because no vendored text
+79. **Text owners' items from era 9 part 1 (2026-11-08).** Not changed, because no vendored text
     settles them or another entry owns them:
     - `the-chinese-church-indigenous-and-suffering` (era 10) says its churches "owed nothing to the
       foreign missions"; era 9 now draws a "gave rise to" link from the mission churches to it.
@@ -437,7 +448,7 @@ it, never by deleting it.
       Carey's own Enquiry (vendored, lines 798-799) gives the Moravians first place.
     - `dispensational-prophecy-culture` (era 10) says it "grew out of" Brethren teaching; the era 9
       link is "influenced".
-78. **Two possible links that no text names, era 9 part 1 (2026-11-08).** Kuyper's 1891 edition of
+80. **Two possible links that no text names, era 9 part 1 (2026-11-08).** Kuyper's 1891 edition of
     Voetius's catechism lectures (a possible Dutch Further Reformation influence on Dutch
     neo-Calvinism) and Conybeare tracing Stundism to Spener's Pietism (lines 14615-14621). Not
     drafted: no movement text names them.
