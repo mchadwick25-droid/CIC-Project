@@ -778,10 +778,11 @@
    "to": "byzantine-church-after-1054",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In July 1054 Cardinal Humbert and two other papal legates issued a written excommunication of Patriarch Michael Cerularius of Constantinople. The text calls him a patriarch in name only and says heresies are sown among his followers every day.",
+   "note": "In July 1054 Cardinal Humbert and two other envoys of the pope cast the patriarch of Constantinople, Michael Cerularius, out of the church. Their written sentence calls him a patriarch in name only. It says the seeds of heresy are sown among his followers every day. Crusaders took Constantinople in 1204. Pope Innocent III then treated its church as his own. In 1205 he wrote that it had lately come back into unity with Rome.",
    "sources": [
     {
      "kind": "primary",
+     "source_id": null,
      "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
      "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
      "lines": "9952-9954",
@@ -791,12 +792,37 @@
     },
     {
      "kind": "primary",
+     "source_id": null,
      "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
      "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
      "lines": "9987-9988",
      "locus": "no. 228, closing anathema",
      "quote": "et  omnes  sequaces  eorum  in  praefatis  erroribus et  praesumptionibus,  sint  anathema  Maranatha",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the archbishop of Kalocsa, 3 May 1205 (Register, year 8, letter 40), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7329-7330",
+     "locus": "Reg. VIII ep. 40",
+     "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem, eam nolumus suo iure privari.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the bishops of Padua and Ceneda (Register, year 12, letter 94, 1209), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7698-7699",
+     "locus": "Reg. XII ep. 94",
+     "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha electio- nem confirmasset ipsius et in Epum consecrasset,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
     }
    ],
    "citation_specificity": "A",
@@ -8968,8 +8994,8 @@
    "from": "athonite-and-comnenian-byzantine-monasticism",
    "to": "kievan-rus-christianity-1054-1240",
    "type": "influenced",
-   "confidence": "Inferential-Thin",
-   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, tells how Anthony took his vows on Mount Athos and came home to begin the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.",
    "sources": [
     {
      "kind": "secondary",
@@ -8988,7 +9014,7 @@
    "from": "athonite-and-comnenian-byzantine-monasticism",
    "to": "the-georgian-golden-age",
    "type": "influenced",
-   "confidence": "Inferential-Thin",
+   "confidence": "Dominant Modern Reconstruction",
    "note": "In 1849 Marie-Félicité Brosset, who edited the Georgian chronicles, wrote that under King Bagrat III the Georgian monastery on Athos was home to learned translators. They put scripture and the best Greek books of theology into Georgian. This rests on that one modern summary.",
    "sources": [
     {
@@ -9076,8 +9102,8 @@
    "from": "the-dominican-order",
    "to": "the-carmelites",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "In 1247 two men sent by the pope revised the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations notes that both were Dominicans. Their letter is already sent to 'the order of the friars of blessed Mary of Mount Carmel'.",
+   "confidence": "Inferential-Thin",
+   "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. No text we hold says the Dominicans shaped the order, so this tie is thin.",
    "sources": [
     {
      "kind": "primary",
@@ -9097,6 +9123,16 @@
      "lines": "22024-22026",
      "locus": "the delegates' letter, salutation",
      "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the revised Carmelite Rule (1247), salutation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21980-21983",
+     "locus": "Innocent IV's confirmation, salutation",
+     "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
      "license": "public-domain"
     },
     {
@@ -9479,7 +9515,7 @@
    "to": "the-humiliati",
    "type": "argued against",
    "confidence": "Inferential-Thin",
-   "note": "In 1184 Pope Lucius III condemned the Waldensians for claiming the right to preach. John Foxe, writing in the 1500s, reports a chronicler's claim that Lucius rejected the Humiliati with them. This rests on that late report.",
+   "note": "In 1184 Pope Lucius III condemned the Waldensians for claiming the right to preach. John Foxe, writing in the 1500s, reports a chronicler's claim that Lucius rejected the Humiliati with them. Foxe himself doubted another part of that story, about the friars approved in their place. This rests on that late report.",
    "sources": [
     {
      "kind": "primary",
@@ -9735,7 +9771,7 @@
    "to": "the-franciscan-movement",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes that a companion of John of Parma, head of the order from 1248, praised Joachim far beyond measure in a sermon. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.",
+   "note": "Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes of a companion of John of Parma, head of the order from 1248. In a sermon, this friar praised Joachim far beyond measure. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.",
    "sources": [
     {
      "kind": "primary",
@@ -9849,7 +9885,7 @@
    "to": "latin-papal-church-avignon-to-lateran-v",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power can be judged by God alone, not by any human. The same see carried the same claims across 1300.",
+   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claims across 1300.",
    "sources": [
     {
      "kind": "primary",
@@ -10003,7 +10039,7 @@
    "to": "byzantine-church-after-1054",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. In it Nerses lists what the Greeks asked of him, from belief in two natures in Christ to the fourth council.",
+   "note": "Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. It lists what the Greeks asked of him, among them belief in two natures in Christ and honor for the fourth council.",
    "sources": [
     {
      "kind": "primary",
@@ -10129,7 +10165,7 @@
    "to": "armenian-cilicia-after-the-kingdom",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Hethum, lord of Korikos, kept a table of the years. It records that in 1292 the Mamluk sultan al-Ashraf took Hromkla, where the Armenian patriarchs lived, and seized Catholicos Stephen. Gregory VII was then made catholicos. The same line of church leaders went on into the next century.",
+   "note": "Hethum, lord of Korikos, kept a table of the years. It says that in 1292 the Mamluk sultan al-Ashraf took Hromkla, where the Armenian patriarchs lived. He seized Stephen, the catholicos or head of the church, and Gregory VII was raised in his place. An unnamed writer carried the Constable Sempad's chronicle on to 1331. He says that in 1322 the king and most of the bishops chose Constantin of Lampron, bishop of Sis, as the next catholicos.",
    "sources": [
     {
      "kind": "primary",
@@ -10150,6 +10186,30 @@
      "locus": "the same years",
      "quote": "Le seigneur Grégoire [VII, surnommé] le don des prêtres, fut élevé à la dignité de catholicos.",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Constable Sempad, Chronicle, with its anonymous continuation (1286-1331), in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "72319",
+     "locus": "year 771 of the Armenian era (1321-1322)",
+     "quote": "Cette même année mourut le seigneur Constantin de Césarée, catholicos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Constable Sempad, Chronicle, with its anonymous continuation (1286-1331), in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "72320-72321",
+     "locus": "year 771 of the Armenian era (1321-1322)",
+     "quote": "on lui donna pour successeur, par ordre du roi Léon et de la majorité des évêques, le seigneur Constantin [III] de Lampron, évêque de Sis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Dulaurier (ed.), preliminary note to the Constable Sempad's chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)"
     }
    ],
    "citation_specificity": "A",
@@ -10207,7 +10267,7 @@
    "to": "maronite-christianity",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. We do not hold his history, so this link rests on modern historians of the Maronites.",
+   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. We do not hold his history, so this rests on modern historians of the Maronites.",
    "sources": [
     {
      "kind": "secondary",
@@ -10288,19 +10348,9 @@
    "from": "byzantine-church-after-1054",
    "to": "latin-papal-church-gregorian",
    "type": "in contact with",
-   "confidence": "Documented",
-   "note": "At the Second Council of Lyon in 1274, Emperor Michael VIII offered Pope Gregory X a profession of faith. In it the Greek side accepted the full primacy of the Roman church. Pope Clement IV had first put the text to him in 1267. No text we hold tells how the union was refused at home.",
+   "confidence": "Widely Accepted",
+   "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. No text we hold shows how the Greek church received the union.",
    "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), heading",
-     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
-     "lines": "14504",
-     "locus": "Denzinger nos. 461-466, heading",
-     "quote": "Professio fidei Michaelis Palaeologi",
-     "license": "public-domain"
-    },
     {
      "kind": "primary",
      "source_id": null,
@@ -10314,62 +10364,16 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Bannwart's note to the profession of Michael VIII, in Denzinger, Enchiridion symbolorum (1911)",
-     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
-     "lines": "14515-14517",
-     "locus": "Denzinger no. 461, editor's note",
-     "quote": "Haec hdei professio anno 1267 a CLENIENTE IV Michaeli Palaeologo proposita ct ab hoc in Con- cilio LUGDUN. II GREGORIO X oblata est.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
      "work": "First Vatican Council, Pastor aeternus, ch. 4 (1870), on the Greeks' profession at Lyon, in Schaff, The Creeds of Christendom, vol. 2 (1878), English",
      "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
      "lines": "23524-23530",
      "locus": "Pastor aeternus, ch. 4",
      "quote": "with the approval of the Second Council of Lyons, the Greeks professed that the holy Roman Church enjoys su- preme and full primacy and pre- eminence over the whole Catholic Church,",
      "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
-   "id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
-   "from": "latin-papal-church-gregorian",
-   "to": "byzantine-church-after-1054",
-   "type": "argued against",
-   "confidence": "Widely Accepted",
-   "note": "Crusaders took Constantinople in 1204, and Pope Innocent III then treated its church as Rome's own. In 1205 he wrote that it had lately come back into unity with Rome. By 1209 he called the Latin patriarch of the city \"our venerable brother\". A Russian church history of 1838 says the Latins drove the Greek emperors and patriarchs out.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Innocent III, letter to the archbishop of Kalocsa, 3 May 1205 (Register, year 8, letter 40), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
-     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
-     "lines": "7329-7330",
-     "locus": "Reg. VIII ep. 40",
-     "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem, eam nolumus suo iure privari.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Innocent III, letter to the bishops of Padua and Ceneda (Register, year 12, letter 94, 1209), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
-     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
-     "lines": "7698-7699",
-     "locus": "Reg. XII ep. 94",
-     "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha electio- nem confirmasset ipsius et in Epum consecrasset,",
-     "license": "public-domain"
     },
     {
      "kind": "secondary",
-     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
-    },
-    {
-     "kind": "secondary",
-     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+     "work": "Clemens Bannwart (ed.), Denzinger, Enchiridion symbolorum, 11th ed. (1911), heading and note to nos. 461-466 (the profession of Michael VIII)"
     }
    ],
    "citation_specificity": "A",
@@ -10523,7 +10527,7 @@
    "to": "the-georgian-golden-age",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Brosset, who edited the Georgian chronicles in the 1800s, lists the heads of the Georgian church across the year 1000. One died under King Bagrat III, before 1014. Another, Giorgi of Tao, served under Bagrat IV. Brosset also says the Bagratid family lived in Tao and Klarjeti. Bagrat III, who was adopted by one of them, ruled a united kingdom by 1008.",
+   "note": "The Georgian church carried on across the year 1000. Brosset, who edited the Georgian chronicles in the 1800s, lists its heads in those years. One died under King Bagrat III, before 1014. Another, Giorgi of Tao, served under Bagrat IV. Brosset also says the Bagratid family lived in Tao and Klarjeti. Bagrat III, adopted by one of them, ruled a united kingdom by 1008.",
    "sources": [
     {
      "kind": "secondary",
@@ -10551,7 +10555,7 @@
    "to": "latin-papal-church-gregorian",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters 'concerning the matter of Jerusalem'. He then gave communion to the king of England in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.",
+   "note": "Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters 'concerning the matter of Jerusalem'. He then gave communion to the king of England, probably in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.",
    "sources": [
     {
      "kind": "primary",
@@ -10668,14 +10672,8 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
-     "source_id": null,
-     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (1725), ch. 56, Timothy II, summarizing Abdisho of Nisibis",
-     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
-     "lines": "93989-93994",
-     "locus": "Bibl. Orient. III.1, ch. 56",
-     "quote": "Patriarcha , in lo- ti cum Jaballaha:, qui 31 dic 13. Novembris anni Gra-corum 1629. Chridi 1317. obiit , fulTcclus fuit mcnle Februario anni ChrilH 1318.",
-     "license": "public-domain"
+     "kind": "secondary",
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), ch. 56, Timothy II, summarizing Abdisho of Nisibis"
     }
    ],
    "citation_specificity": "A",
@@ -10803,7 +10801,7 @@
    "to": "zagwe-and-early-solomonic-ethiopian-christianity",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Ethiopian church's book of saints says Cyril, the sixty-seventh patriarch of Alexandria, sent a bishop named Severus to Ethiopia. Around 1200, under the Zagwe kings, a Coptic survey still says the head bishop came from Alexandria. A later Life of Takla Haymanot says the crown passed from the old royal line to the Zagwe.",
+   "note": "Cyril was the sixty-seventh patriarch of Alexandria. The Ethiopian church's book of saints, written down after his time, says he sent a bishop to Ethiopia. Its translator reads the bishop's name, with a query, as Severus. Around 1200, under the Zagwe kings, a Coptic survey still says the head bishop came from Alexandria. A later Life of Takla Haymanot says the crown passed from the old royal line to the Zagwe.",
    "sources": [
     {
      "kind": "primary",
@@ -10855,7 +10853,7 @@
    "to": "the-ethiopian-monastic-flowering",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Life of the monk Takla Haymanot says he was made a deacon as a boy by Bishop Gerlos, 'in the kingdom of Zaga'. The same Life says Yekuno Amlak 'brought back the kingdom from the Zague'. The kings changed, but the church and its bishops went on.",
+   "note": "The Life of the monk Takla Haymanot says that at fifteen he was made a deacon by Bishop Gerlos, 'in the kingdom of Zaga'. The same Life says Yekuno Amlak 'brought back the kingdom from the Zague'. The Life was written down after the saint's time, and some of its dates do not fit. It still shows one church carrying its saint across the change of kings.",
    "sources": [
     {
      "kind": "primary",
@@ -10886,6 +10884,46 @@
      "locus": "colophon",
      "quote": "It went out in the days of Zagua, and they did not translate it because this book says : Those who reign not being Israelites are transgressors of the Law.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "E. A. Wallis Budge, introduction to The Life and Miracles of Takla Haymanot (1906)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "from": "franciscan-order-era-6",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1438 Pope Eugenius IV confirmed a letter from William of Casale, the head of the Franciscan order. William had made Bernardino of Siena, a friar of the same order, vicar of all its houses in Italy that kept the strict 'observance'. So the Observant friars grew up inside the order. No text we hold shows how their first houses began.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34646-34648",
+     "locus": "no. 385",
+     "quote": "dilectus filius Guillelmus de Ca- sali, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34650-34653",
+     "locus": "no. 385",
+     "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Ulricus Huntemann, preface to Bullarium Franciscanum, Nova Series I (Quaracchi, 1929)"
     }
    ],
    "citation_specificity": "A",
@@ -21993,7 +22031,7 @@
    "c2": null,
    "sourcing": "Rich textually; community texture moderate",
    "floorNote": "No question",
-   "relationsSummary": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+   "relationsSummary": "A bridge between the cloister and the schools. The reformed canons that Norbert founded in 1120 or 1121, known as Premonstratensians, belong to the same family.",
    "why": "Canons regular lived under a rule like monks but kept working in the world — serving churches, running hospitals, teaching — and the abbey of Saint-Victor in Paris became the movement's greatest school after William of Champeaux withdrew there in 1108. Hugh of St Victor argued that every art and science, rightly ordered, leads toward wisdom, while Richard of St Victor mapped the stages of contemplation more carefully than anyone before him in the Latin West. Adam of St Victor supplied the abbey's own sung liturgy, the sequences that outlasted the school itself.",
    "entry": null,
    "sources": [
@@ -22027,7 +22065,7 @@
      "type": "reference"
     }
    ],
-   "longDescription": "Canons regular were clergy who lived in community under a rule — usually the Rule of St Augustine. But who, unlike monks, kept working in the world: serving churches, running hospitals, teaching. The most influential of their houses was the abbey of Saint-Victor on the left bank of Paris, where the master William of Champeaux withdrew from the schools in 1108 and where his successors built a way of learning that refused to choose between the classroom and the cloister. Hugh of St Victor argued in the Didascalicon that every art and science, rightly ordered, leads toward wisdom; Richard of St Victor mapped the stages of contemplation more carefully than anyone in the Latin West had yet done. Adam of St Victor wrote the sequences the abbey sang. The school's line ran down to Thomas Gallus, who died in 1246, and the abbey itself no longer stands.",
+   "longDescription": "Canons regular were clergy who lived in community under a rule, usually the Rule of St Augustine. But unlike monks, they kept working in the world: serving churches, running hospitals, teaching. The most influential of their houses was the abbey of Saint-Victor on the left bank of Paris. There the master William of Champeaux withdrew from the schools in 1108. His successors built a way of learning that refused to choose between the classroom and the cloister. Hugh of St Victor argued in the Didascalicon that every art and science, rightly ordered, leads toward wisdom. Richard of St Victor mapped the stages of contemplation more carefully than anyone in the Latin West had yet done. Adam of St Victor wrote the sequences the abbey sang. The school's line ran down to Thomas Gallus, who died in 1246. The abbey itself no longer stands.",
    "teaser": "Paris and the abbey of Saint-Victor, 1108 to 1246 — clergy under a rule who would not choose between the cloister and the classroom, and worked out a theology of contemplation in the middle of a university town.",
    "voices": [
     "William of Champeaux — the Paris master who withdrew to Saint-Victor in 1108 and began the school there",
@@ -22104,7 +22142,7 @@
    "c2": null,
    "sourcing": "Rich, with a famous layered-hagiography problem — sources built up over time in overlapping layers of legend and memory.",
    "floorNote": "No question",
-   "relationsSummary": "Sibling and rival of the Dominicans. Parent of the Spirituals, and through its later order of the Observants. Its lay third order, the Order of Penance of 1221, belongs inside its own story.",
+   "relationsSummary": "Sibling and rival of the Dominicans, and parent of the Spirituals. Its lay third order, the Order of Penance, dates from 1221. The Observants grew up later inside the same order.",
    "why": "Francis of Assisi gave away a merchant's inheritance to preach and care for lepers in the streets of Italy's fast-growing towns, and by 1209 the friars who joined him owned nothing, begged, and worked rather than withdrawing behind monastery walls. Clare of Assisi built the movement's women's branch and wrote the first monastic rule known to have been composed by a woman. Within a generation of Francis's death in 1226 the order was fighting bitterly over how literally his poverty had been meant, a quarrel serious enough that his own brothers rewrote his life story more than once.",
    "entry": null,
    "sources": [
@@ -22442,7 +22480,7 @@
    "c2": null,
    "sourcing": "Moderate-to-rich: founders' typika, Symeon the New Theologian's corpus",
    "floorNote": "No question",
-   "relationsSummary": "Likely heir of the monks who fought for icons; its way of prayer fed hesychasm",
+   "relationsSummary": "Perhaps heir of the monks who fought for icons, though the tie is thin; its way of prayer fed hesychasm",
    "why": "In 963 the monk Athanasios founded the Great Lavra on Mount Athos with imperial backing, and the peninsula grew into a federation of monasteries each governed by its own written charter, a typikon setting down everything from diet to liturgy. In Constantinople in the same period, Symeon the New Theologian preached that God could be known directly and consciously, in experienced light, and was pushed out of his monastery for insisting on it. Between them, these houses shaped the disciplines of interior prayer that the next century would gather up and name hesychasm.",
    "entry": null,
    "sources": [
@@ -22481,7 +22519,7 @@
    "streams": [
     "hesychast-philokalia"
    ],
-   "longDescription": "In 963 the monk Athanasios, with the backing of a Byzantine emperor, founded the Great Lavra on the mountainous peninsula of Athos in northern Greece, and the loose scatter of hermits already living there began to take the shape it has kept ever since. A self-governing federation of monasteries, each running on a written charter, a typikon, in which its founder set down exactly what the house was for, down to the diet, the liturgy and the charity. In Constantinople in the same period Symeon the New Theologian preached to his monks that God can be known directly and consciously, in experienced light, and was pushed out of his monastery for pressing the claim so hard. Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+   "longDescription": "In 963 the monk Athanasios founded the Great Lavra on the mountain peninsula of Athos in northern Greece. Later accounts say a Byzantine emperor backed him. The loose scatter of hermits already living there began to take the shape it has kept ever since. Athos became a self-governing league of monasteries. Each ran on a written charter, called a typikon. In it the founder set down exactly what the house was for, down to the diet, the liturgy and the charity. In Constantinople at the same time, Symeon the New Theologian preached to his monks. He taught that God can be known directly and consciously, in experienced light. He pressed the claim so hard that he was pushed out of his monastery. Between them, the houses of Athos and the monasteries of the capital kept the practice of inner prayer alive. The next century would gather it up and name it hesychasm.",
    "teaser": "Mount Athos and Constantinople, 963 to 1300 — a mountain of monasteries governed by their founders' written charters, and the monks who insisted God could be known directly and not merely believed in.",
    "voices": [
     "Athanasios the Athonite — founder of the Great Lavra in 963 and effectively the organizer of Athonite monasticism",
@@ -22602,7 +22640,7 @@
    "c2": null,
    "sourcing": "RICH in first-person women's voice - the rarest commodity in the whole atlas (Hadewijch, Mechthild, Porete)",
    "floorNote": "No question",
-   "relationsSummary": "Lay women's movement outside every standard structure; suppression pressure is part of its own story",
+   "relationsSummary": "A lay women's movement that fitted none of the church's usual forms. Church leaders suspected it. In 1312 the Council of Vienne condemned errors it laid on beguines.",
    "why": "From the late twelfth century, women across the Low Countries and the Rhineland lived religious lives with no vows, no rule and no enclosure. They kept their own property or worked in cloth, and they nursed the sick. Many lived in walled courtyard communities called beguinages. Some of them wrote, and that is what makes them extraordinary. Hadewijch left visions and letters. Mechthild of Magdeburg wrote the Flowing Light of the Godhead, and Marguerite Porete the Mirror of Simple Souls. These are among the very few medieval accounts of religious life told from the inside, by the women who lived it. Porete was burned in Paris in 1310. Two years later the Council of Vienne condemned errors it laid on beguines and beghards.",
    "entry": null,
    "sources": [
@@ -22750,7 +22788,7 @@
    "c2": null,
    "sourcing": "Hostile-source problem early (inquisition registers), genuine internal literature later",
    "floorNote": "No plain-reading doctrinal question - discipline, not doctrine, was the charge",
-   "relationsSummary": "The map's clearest 'dissent that survived' thread - joins the Reformed tradition in 1532",
+   "relationsSummary": "Dissenters condemned in 1184. They held on in the Alpine valleys, and in 1532 they joined the Reformed churches.",
    "why": "Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. He was condemned in 1184 only for preaching without a license. Driven from the cities, the movement held on in the Alpine valleys between France and Italy. It lived through three and a half centuries of persecution there, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and joined the Reformed churches. That carried a line of protest from twelfth-century Lyon into the Reformation. Scholars disagree, though, about how unbroken that line was.",
    "entry": null,
    "sources": [
@@ -23005,7 +23043,7 @@
    "streams": [
     "eastern-catholic-uniate"
    ],
-   "longDescription": "The Maronites take their name from a Syriac monk, Maron, and from the monastery built around his memory. By the medieval period they were a distinct church of the West Syriac liturgical family, concentrated in the mountains and gorges of Lebanon, where their monasteries and hermitages were cut straight into the cliffs. Their early history is unusually hard to recover, because much of what is told about it was written down later and under argument. Specifically over whether the community had once held that Christ had only one will, a position the wider church had rejected. What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182, and in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union.",
+   "longDescription": "The Maronites take their name from a Syriac monk, Maron, and from the monastery built around his memory. By the Middle Ages they were a church of their own, in the West Syriac family of worship. They lived mostly in the mountains and gorges of Lebanon, where they cut their monasteries and hermit cells straight into the cliffs. Their early history is unusually hard to recover. Much of what is told about it was written down later, by people arguing about it. The question was whether the community had once held that Christ had only one will, a view the wider church had rejected. What is clear is that when the crusaders came, the Maronites joined in communion with Rome. William of Tyre describes the union around 1182. In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. After it, a papal bull set out the terms of the union.",
    "teaser": "Mount Lebanon, consolidating through this era — a Syriac church of cliffside monasteries whose own early history is fought over, and the one Eastern church to enter a lasting communion with Rome in the Middle Ages.",
    "voices": [
     "Maron — the Syriac hermit of late antiquity the church is named for",
@@ -23226,7 +23264,7 @@
    "c2": null,
    "sourcing": "Inquisition records plus the movement's own surviving ritual",
    "floorNote": "By every account we have, they taught that the visible material world was not the good God's making, and that Christ only appeared to have a body — both outside the common Christian creed. Their own voice has not survived to test it against.",
-   "relationsSummary": "Target of crusade and inquisition - which the map names without softening",
+   "relationsSummary": "Target of a papal crusade from 1209 and then of the inquisition. Together these destroyed them.",
    "why": "From the 1140s, communities in Languedoc with their own ministers and their own initiation rite taught that the visible material world was not the good God's making, a dualism that placed them outside the councils' Christianity. In 1209 the papacy launched a crusade against them, and at the siege of Montségur in 1244 roughly two hundred of their ministers walked into a fire rather than recant; the last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them, and historians still argue over how much of 'Catharism' was ever a coherent movement at all.",
    "entry": null,
    "sources": [
@@ -23261,7 +23299,7 @@
      "note": "Biller is a leading voice on one side of the live debate, not a neutral summary of it; read alongside Sennis."
     }
    ],
-   "longDescription": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers, their own initiation rite, and a teaching that the visible material world was not the work of the good God. A dualism that placed them outside Christianity as the councils had defined it. In Languedoc they had noble protection and something close to a parallel church, and in 1209 the papacy launched a crusade against them: two decades of war, then inquisition, then the siege of Montségur in 1244, where roughly two hundred of their ministers walked into a fire rather than recant. The last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them, and historians now argue seriously about how much of 'Catharism' was a coherent movement at all and how much was a category assembled by inquisitors out of scattered local dissent.",
+   "longDescription": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers and their own rite of entry. They taught that the visible world of matter was not the work of the good God. This dualism placed them outside Christianity as the councils had defined it. In Languedoc they had noble protection and something close to a parallel church. In 1209 the papacy launched a crusade against them. Two decades of war followed, then the inquisition, then the siege of Montségur in 1244. There about two hundred of their ministers walked into a fire rather than recant. Their ministers were called the perfect. The last known perfect of Languedoc, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them. Historians now argue hard about how much of 'Catharism' was one movement at all. Some of it may have been a label that inquisitors built out of scattered local dissent.",
    "teaser": "Languedoc, c. 1143 to 1321 — a dissenting church with its own ministers and its own initiation, destroyed by crusade and inquisition, and known almost entirely through the records of the men who destroyed it.",
    "voices": [
     "Guilhabert de Castres — the most prominent Cathar bishop of Languedoc in the movement's strongest years",
@@ -23384,7 +23422,7 @@
    "c2": null,
    "sourcing": "A reading-program more than a community",
    "floorNote": "Joachim submitted his writings to Rome, and Rome took him up on it: the Fourth Lateran Council in 1215 condemned his book on the Trinity while leaving his person and his monastery in good standing. The later expectation of a coming age of the Spirit was condemned in its most extreme forms, not in his.",
-   "relationsSummary": "Where it became communal, it lives inside the Franciscan Spirituals' story",
+   "relationsSummary": "Where it took root in communities, they were those of the Franciscan Spirituals.",
    "why": "Joachim of Fiore, a Calabrian abbot, read history as moving through three ages — of the Father, the Son and the Holy Spirit, with the third not far off — and died in 1202 before any of it arrived. The current his reading started spread especially among Franciscans, who saw their own movement described in it, until a 1254 book making the claim explicit was condemned and the current fixed on 1260 as the year the new age would open. When the year passed without incident, the expectation did not simply vanish — it fed into the bitter Franciscan quarrel over poverty that followed.",
    "entry": null,
    "sources": [
@@ -23690,7 +23728,7 @@
    "c2": null,
    "sourcing": "Moderate-to-rich: typika, royal saints' lives (zhitija - a native genre), chrysobulls",
    "floorNote": "No question",
-   "relationsSummary": "These churches grew out of Byzantine monasticism on Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. They may also have carried hesychast prayer into the Slavic lands, but no text we hold yet shows it.",
+   "relationsSummary": "Serbian monastic life grew out of the monasteries of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also have carried hesychast prayer into the Slavic lands, but no text we hold yet shows it.",
    "why": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne to become a monk. He joined his son Rastko, already a monk on Mount Athos as Sava, and together they founded the Serbian house of Hilandar. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria a restored patriarchate at Tarnovo gathered its own school of writers around the cult of hermits like John of Rila. Both churches may have carried hesychast prayer from Greek into the Slavic world and on to Russia, though no text we hold yet shows it.",
    "entry": null,
    "sources": [
@@ -23977,7 +24015,7 @@
    "c2": null,
    "sourcing": "Rich: Humbert's bull, Dictatus Papae, Investiture Contest dossiers, Lateran I-IV constitutions, Innocent III's registers",
    "floorNote": "No question (Chalcedonian-Latin)",
-   "relationsSummary": "The western side of the Great Schism: Leo IX's reform circle, the Investiture Contest, the Lateran councils, and the rise of the papal monarchy, in lasting tension with the Byzantine church. This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista — along with the rise of the universities, scholastic theology, and the crusading ransom orders.",
+   "relationsSummary": "The western side of the Great Schism. It runs from Leo IX's reform circle through the Investiture Contest and the Lateran councils to the rise of the papal monarchy. All of it stood in lasting tension with the Byzantine church. The age also saw the national churches of Anselm and Becket's England, of Capetian France and of the Reconquista. It saw the rise of the universities, of scholastic theology and of the crusading ransom orders.",
    "why": "In the mid-eleventh century, reformers around Pope Leo IX set out to free the church from lay lords. These lords chose its bishops and sold its offices. The reformers ended by claiming for the papacy a power no bishop of Rome had held before. Gregory VII's Dictatus Papae of 1075 declared that the pope may depose emperors. The Investiture Contest followed. In 1077 the German king Henry IV stood barefoot for three days at the gate of Canossa. What came after was a working papal monarchy. Canon law was gathered in Gratian's Decretum, and legates and councils reached across the Latin West. Under Innocent III, the Fourth Lateran Council of 1215 made law for the whole Latin church. Its rules ran from how the eucharist is defined to a rule that every Christian confess once a year.",
    "entry": null,
    "continuesAs": "latin-papal-church-avignon-to-lateran-v",
@@ -23990,7 +24028,7 @@
     "Gratian — the canonist whose Decretum, compiled around 1140, gave the Western church a usable body of law",
     "Innocent III — under whom the papal monarchy reached its widest reach, and who summoned the Fourth Lateran Council in 1215"
    ],
-   "legacy": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has a trained body of canon law, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council made Jews and Muslims in Christian lands wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
+   "legacy": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council made Jews and Muslims in Christian lands wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
    "experienceToday": [
     {
      "text": "Rome, Italy — the Archbasilica of St John Lateran, the pope's own cathedral and the setting of the great Lateran councils of 1123, 1139, 1179 and 1215",
@@ -24219,7 +24257,7 @@
    "streams": [
     "oriental-orthodox"
    ],
-   "longDescription": "After the Seljuk conquest of the Armenian homeland, Armenians resettled in Cilicia on the Mediterranean coast, where a principality grew into a kingdom — Levon I was crowned in 1198. And the Armenian church went with them. In 1151 the catholicos moved his seat to Hromkla, a fortress above the Euphrates, and there Nerses Shnorhali, 'the Gracious', wrote the finest Armenian religious poetry of the age and conducted a long and remarkably generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches. The reunion never happened. The Cilician church spent the following century negotiating instead with the Latin crusader states next door. A closeness that some Armenians welcomed and others resented deeply, and that shaped the church's arguments with itself for generations.",
+   "longDescription": "After the Seljuks took the Armenian homeland, Armenians moved to Cilicia, on the coast of the Mediterranean Sea. There a small state grew into a kingdom, and Levon I was crowned in 1198. The Armenian church went with them. In 1151 its head, the catholicos, moved his seat to Hromkla, a fortress above the Euphrates. There Nerses Shnorhali, 'the Gracious', wrote the finest Armenian church poetry of his day. He and Manuel I, the Byzantine emperor, wrote each other long and remarkably generous letters. They wrote about how the Armenian and Greek churches might be one again. That never happened. In the next century the church in Cilicia dealt instead with the Latin crusader states next door. Some Armenians were glad of that closeness, and others deeply resented it. For a long time it shaped the church's arguments with itself.",
    "teaser": "Cilicia, on the Mediterranean coast, c. 1080 to 1300 — an Armenian church in exile that became a kingdom's church, whose greatest poet spent his life writing letters trying to end a seven-hundred-year division.",
    "voices": [
     "Nerses Shnorhali — catholicos, poet and hymn-writer, whose letters to Emperor Manuel I are the era's most serious attempt at reunion between the Armenian and Byzantine churches",
@@ -24807,7 +24845,7 @@
     "The awlad al-Assal — four brothers of one Cairo family, al-Safi, al-Mu'taman, al-As'ad and al-Amjad, whose canon law, theology, biblical scholarship and Coptic grammars are the heart of this period's achievement",
     "Cyril III ibn Laqlaq — patriarch from 1235 to 1243, a cultivated and contentious man who reorganized the church's government around himself"
    ],
-   "legacy": "The Coptic Orthodox Church is very much alive. It is the largest Christian community in the Middle East, and it runs unbroken through this period. Some of the work done here may have traveled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, is usually traced to al-Safi's canons, but we have not yet checked this against the Ethiopian text. The brothers' grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, the patriarch's seat for most of this period, still stands and is still in use.",
+   "legacy": "The Coptic Orthodox Church is very much alive. It is the largest Christian community in the Middle East, and it runs unbroken through this period. Some of the work done here may have traveled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, may owe a debt to al-Safi's canons. No text we hold yet shows that line. The brothers' grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, the patriarch's seat for most of this period, still stands and is still in use.",
    "experienceToday": [
     {
      "text": "Old Cairo, Egypt — the Hanging Church of St Mary, built over a Roman gatehouse and the residence of the Coptic patriarchs through most of this period",
@@ -24881,9 +24919,9 @@
    "sourcing": "Moderate, verified: condemned in Ad abolendam (1184), reconciled by Innocent III (1201) as three orders; rule and order documents survive",
    "floorNote": "No question",
    "relationsSummary": "Lay wool-workers who lived a life of penance. Later writers say they were condemned with the Waldensians in 1184, and then taken back into the church. If so, they are the Waldensians' mirror image: the same condemnation, the opposite outcome.",
-   "why": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress and work with their hands. They refused the oaths and violence that feudal society expected, and called themselves the Humiliati, 'the humbled ones.' Later writers say they were condemned with the Waldensians in 1184 for preaching without leave. If so, they then took the opposite path. Pope Innocent III took them back in 1201 and made them three orders. Two were religious. The third was for married lay people who stayed in ordinary working life. They were a real presence in the towns of northern Italy for about two centuries. In 1571 a papal bull shut down the order of Humiliati brothers.",
+   "why": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress and work with their hands. They refused the oaths and violence that feudal society expected, and called themselves the Humiliati, 'the humbled ones.' Later writers say they were condemned with the Waldensians in 1184 for preaching without leave. If so, they then took the opposite path. Pope Innocent III took them back around 1200 and made them three orders. Two were religious. The third was for married lay people who stayed in ordinary working life. They were a real presence in the towns of northern Italy for about two centuries. In 1571 a papal bull shut down the order of Humiliati brothers.",
    "entry": null,
-   "longDescription": "In twelfth-century Lombardy, groups of lay wool-workers and weavers began to live a simple, demanding life of penance. They wore plain dress and worked with their hands. They refused the oaths and the violence that feudal society expected. They called themselves the Humiliati, 'the humbled ones.' In 1184 Pope Lucius III condemned the Waldensians for preaching without leave. Later writers say he condemned the Humiliati with them. If so, their story then took the opposite turn. The Waldensians stayed apart for good, but Pope Innocent III took the Humiliati back in 1201. He made them three recognized orders. Two were religious orders. The third was for married lay people who stayed in ordinary working life under a shared rule. For about two centuries they were a real presence in the towns of northern Italy. Their rule and community records still survive. In 1571 a papal bull shut down the order of Humiliati brothers.",
+   "longDescription": "In twelfth-century Lombardy, groups of lay wool-workers and weavers began to live a simple, demanding life of penance. They wore plain dress and worked with their hands. They refused the oaths and the violence that feudal society expected. They called themselves the Humiliati, 'the humbled ones.' In 1184 Pope Lucius III condemned the Waldensians for preaching without leave. Later writers say he condemned the Humiliati with them. If so, their story then took the opposite turn. The Waldensians stayed apart for good, but Pope Innocent III took the Humiliati back around 1200. He made them three recognized orders. Two were religious orders. The third was for married lay people who stayed in ordinary working life under a shared rule. For about two centuries they were a real presence in the towns of northern Italy. Their rule and community records still survive. In 1571 a papal bull shut down the order of Humiliati brothers.",
    "teaser": "Lombardy, c. 1170 to 1300 — lay wool-workers who traded feudal violence and oath-taking for penitence and plain labor, condemned alongside the Waldensians and then, unlike them, welcomed back.",
    "sources": [
     {

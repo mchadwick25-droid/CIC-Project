@@ -2514,7 +2514,7 @@
    "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
    "other_id": "latin-papal-church-gregorian",
    "disposition": "link",
-   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
    "prose_change": null,
    "reason": "'The Latin sack of Constantinople in 1204 and the exile to Nicaea': the papal church took over the see (Innocent III's letters of 1205 and 1209). New Widely Accepted link."
   },
@@ -2602,7 +2602,7 @@
    "sentence": "But the estrangement between the Greek and Latin churches did not heal, and it hardened catastrophically in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years.",
    "other_id": "latin-papal-church-gregorian",
    "disposition": "link",
-   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
    "prose_change": 6,
    "reason": "The crusaders installed a Latin patriarch and drove the imperial church to Nicaea: new link from the papal church (Innocent III's letters; Mouravieff on the expulsion). Sentence rewritten for reading level only."
   },
@@ -2657,7 +2657,7 @@
    "sentence": "The estrangement hardened in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years before its return in 1261.",
    "other_id": "latin-papal-church-gregorian",
    "disposition": "link",
-   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
    "prose_change": 7,
    "reason": "1204 and the Latin patriarch: new link. Crusading army: no movement."
   },
@@ -7849,7 +7849,8 @@
   "latin-papal-church-gregorian--the-franciscan-movement: drafted by B and D; B kept (its quote, the opening of the Earlier Rule, names Innocent III itself; D's Testament quote names only 'the lord pope', with the pope supplied by a 1906 introduction).",
   "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age: drafted by A (influenced) and E (in contact with); A kept, as E itself recommended: A's source shows translation work at the Georgian house on Athos, E's only a Life's title.",
   "church-of-the-east-under-the-mongols--syriac-renaissance (F, in contact with): dropped. No relationship sentence in the four text fields names it; only the documented stories do, so it is out of this pass's scope.",
-  "The two existing links on the Gregorian papacy and Byzantine pair are owned by D; E listed them as kept without redrafting."
+  "The two existing links on the Gregorian papacy and Byzantine pair are owned by D; E listed them as kept without redrafting.",
+  "latin-papal-church-gregorian--byzantine-church-after-1054--2 (E, 1204) was dropped in revision round 1 (R1-04) and its evidence folded into latin-papal-church-gregorian--byzantine-church-after-1054; the 3 dispositions that cited it now point to that link."
  ],
  "release": null
 }
