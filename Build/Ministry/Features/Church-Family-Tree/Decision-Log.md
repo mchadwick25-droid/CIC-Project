@@ -486,6 +486,32 @@ Hakkari mountains", the reading ruling 1 set aside. The reviewer's own replaceme
 story grows out of the Church of the East after Timur.") is applied word for word; no fourth round.
 File: `Build/Ministry/Operations/Audits/2026-11-08_era-6-rulings/Opus_Review_Round3_TargetedRecheck.json`.
 
+## 2026-11-08 — Tree pages re-voiced after era 9 (ruling 7 carried out)
+
+**Done (Mark: "run the sample, same voice and settings", then "run the rest").** Every tree
+recording whose fingerprint no longer matched its page's text was re-voiced, as ruling 7 of the
+era 6 rulings set out.
+
+**Settings, as printed by every request.** Voice `onwK4e9ZLuTAKqWW03F9` (Daniel), model
+`eleven_multilingual_v2`, output `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker
+boost on: the settings of the last tree run (front-end decision log, 2026-09-29, "Daniel
+re-narration redone with the right voice"). Voice and model were passed on the command; none was
+read from the environment.
+
+**Sample.** Three pages (the Church of the East after Timur, the Franciscan order of era 6,
+Lollardy), 3,057 characters, 1,345 credits. Mark approved by ear.
+
+**Run.** 152 pages, 151,529 characters, under the approved cap of 152,000; 66,671 credits by the
+API's `character-cost` headers. All 152 request lines carry the same voice, model and settings; no
+failures. Sizes sit at 563-650 bytes per character across the 155 new files, so none is truncated.
+Every manifest entry for them records the voice, model, format and text fingerprint.
+
+**Result.** No tree recording is stale. 280 of 301 tree pages show a Listen player; the rest are
+built worlds, which play their own story, or pages with no recording.
+
+**Limits.** The voice cannot be confirmed from ElevenLabs' side with this key; it rests on the
+voice id in each request, the sizes, and Mark's ear on the sample.
+
 ## 2026-11-08 — Whole-set rulings
 
 **Decided (Mark, one question at a time, after the whole-set review of eras 1 to 9, P2-L11).**
