@@ -11,7 +11,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "relationsSummary",
-   "sentence": "Augustine's long shadow",
+   "sentence": "Augustine's long shadow inside the Tridentine church",
    "other_id": "latin-pastoral-congregational-christianity",
    "disposition": "link",
    "link_id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
@@ -21,7 +21,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "relationsSummary",
-   "sentence": "Augustine's long shadow",
+   "sentence": "Augustine's long shadow inside the Tridentine church",
    "other_id": "the-tridentine-church",
    "disposition": "not-a-relationship",
    "link_id": null,
@@ -31,7 +31,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Port-Royal was a Cistercian convent",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
    "other_id": "latin-pastoral-congregational-christianity",
    "disposition": "link",
    "link_id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
@@ -41,7 +41,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Port-Royal was a Cistercian convent",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
    "other_id": "the-society-of-jesus",
    "disposition": "link",
    "link_id": "the-society-of-jesus--port-royal-jansenism",
@@ -51,7 +51,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Port-Royal was a Cistercian convent",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -61,7 +61,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "And in its orbit stood Blaise Pascal",
+   "sentence": "And in its orbit stood Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so effectively that the mockery outlived the quarrel.",
    "other_id": "the-society-of-jesus",
    "disposition": "link",
    "link_id": "port-royal-jansenism--the-society-of-jesus",
@@ -71,7 +71,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Rome condemned five propositions",
+   "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
@@ -81,7 +81,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Rome condemned five propositions",
+   "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -91,7 +91,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "longDescription",
-   "sentence": "Louis XIV lost patience",
+   "sentence": "Louis XIV lost patience: the nuns were dispersed in 1709 and the buildings pulled down, down to digging up the cemetery.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -101,7 +101,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "why",
-   "sentence": "The convent of Port-Royal, reformed into severity",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
    "other_id": "the-society-of-jesus",
    "disposition": "link",
    "link_id": "the-society-of-jesus--port-royal-jansenism",
@@ -111,7 +111,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "why",
-   "sentence": "The convent of Port-Royal, reformed into severity",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
    "other_id": "the-society-of-jesus",
    "disposition": "link",
    "link_id": "port-royal-jansenism--the-society-of-jesus",
@@ -121,7 +121,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "why",
-   "sentence": "The convent of Port-Royal, reformed into severity",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -131,7 +131,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "why",
-   "sentence": "When a core of the nuns refused to sign",
+   "sentence": "When a core of the nuns refused to sign a formulary swearing to a matter of fact they said they had no way of knowing, Louis XIV had them dispersed in 1709 and the buildings pulled down to the cemetery.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -141,7 +141,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "legacy",
-   "sentence": "The quarrel outlived the abbey too",
+   "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "not-a-relationship",
    "link_id": null,
@@ -151,7 +151,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "legacy",
-   "sentence": "The quarrel outlived the abbey too",
+   "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
    "other_id": "the-society-of-jesus",
    "disposition": "qualify",
    "link_id": null,
@@ -161,7 +161,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "legacy",
-   "sentence": "The small Church of Utrecht",
+   "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
    "other_id": "church-of-utrecht",
    "disposition": "link",
    "link_id": "port-royal-jansenism--church-of-utrecht",
@@ -171,7 +171,7 @@
   {
    "movement": "port-royal-jansenism",
    "field": "legacy",
-   "sentence": "The small Church of Utrecht",
+   "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
    "other_id": "old-catholic-churches-union-of-utrecht",
    "disposition": "link",
    "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
@@ -191,7 +191,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "longDescription",
-   "sentence": "It was hugely popular until it was not",
+   "sentence": "It was hugely popular until it was not; Molinos was arrested in 1685 and sixty-eight propositions drawn from his work were condemned in 1687.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -201,7 +201,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "longDescription",
-   "sentence": "The quarrel then moved to France",
+   "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -211,7 +211,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "longDescription",
-   "sentence": "The quarrel then moved to France",
+   "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -221,7 +221,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "longDescription",
-   "sentence": "Guyon spent years in confinement",
+   "sentence": "Guyon spent years in confinement, including in the Bastille; Fénelon's defense of her was condemned by Rome in 1699, and he read out his own submission from his own pulpit.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -231,7 +231,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "why",
-   "sentence": "Miguel de Molinos taught a prayer",
+   "sentence": "Miguel de Molinos taught a prayer of total interior passivity — stop even asking, and let God act — until he was arrested in 1685 and dozens of his propositions condemned.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -241,7 +241,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "why",
-   "sentence": "The argument moved to France",
+   "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -251,7 +251,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "why",
-   "sentence": "The argument moved to France",
+   "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -261,7 +261,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
-   "sentence": "The condemnation ended quietism",
+   "sentence": "The condemnation ended quietism as a movement inside Catholicism, but not the texts.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
@@ -271,7 +271,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
-   "sentence": "Guyon's writings had a long second life",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
    "other_id": "german-pietism-spener-francke-halle",
    "disposition": "link",
    "link_id": "quietist-controversy-molinos-guyon--german-pietism-spener-francke-halle",
@@ -281,7 +281,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
-   "sentence": "Guyon's writings had a long second life",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
    "other_id": "the-quakers-religious-society-of-friends",
    "disposition": "link",
    "link_id": "quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends",
@@ -291,7 +291,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
-   "sentence": "Guyon's writings had a long second life",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
    "other_id": "the-methodist-revival",
    "disposition": "link",
    "link_id": "quietist-controversy-molinos-guyon--the-methodist-revival",
@@ -301,7 +301,7 @@
   {
    "movement": "quietist-controversy-molinos-guyon",
    "field": "legacy",
-   "sentence": "So that a condemned French Catholic widow",
+   "sentence": "So that a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -311,7 +311,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "relationsSummary",
-   "sentence": "This church grew out of the Jansenist quarrel",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
    "other_id": "port-royal-jansenism",
    "disposition": "link",
    "link_id": "port-royal-jansenism--church-of-utrecht",
@@ -321,7 +321,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "relationsSummary",
-   "sentence": "This church grew out of the Jansenist quarrel",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--church-of-utrecht",
@@ -331,7 +331,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "relationsSummary",
-   "sentence": "This church grew out of the Jansenist quarrel",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -341,7 +341,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "relationsSummary",
-   "sentence": "The small communion that resulted survived",
+   "sentence": "The small communion that resulted survived and became the root of the later Old Catholic Union of Utrecht.",
    "other_id": "old-catholic-churches-union-of-utrecht",
    "disposition": "link",
    "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
@@ -351,7 +351,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "longDescription",
-   "sentence": "The Catholic Church in the Dutch Republic",
+   "sentence": "The Catholic Church in the Dutch Republic was a church without legal standing, tolerated in hidden chapels, and its clergy had absorbed a good deal of the Jansenist temper of the age.",
    "other_id": "port-royal-jansenism",
    "disposition": "link",
    "link_id": "port-royal-jansenism--church-of-utrecht",
@@ -361,7 +361,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "longDescription",
-   "sentence": "When Rome refused for years",
+   "sentence": "When Rome refused for years to confirm any archbishop for Utrecht, the cathedral chapter fell back on what it held to be its own ancient right and, in 1723, elected Cornelius Steenoven itself.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--church-of-utrecht",
@@ -371,7 +371,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "longDescription",
-   "sentence": "A French missionary bishop",
+   "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -381,7 +381,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "longDescription",
-   "sentence": "A French missionary bishop",
+   "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--church-of-utrecht",
@@ -391,7 +391,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "why",
-   "sentence": "When Rome refused for years",
+   "sentence": "When Rome refused for years to confirm an archbishop for the tolerated but legally unrecognized Catholic church of the Dutch Republic, its cathedral chapter fell back on what it held to be its own ancient right and elected Cornelius Steenoven itself in 1723.",
    "other_id": "catholic-church-ancien-regime",
    "disposition": "link",
    "link_id": "catholic-church-ancien-regime--church-of-utrecht",
@@ -401,7 +401,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "why",
-   "sentence": "A French missionary bishop",
+   "sentence": "A French missionary bishop, Dominique Varlet — already in trouble with Rome himself — consecrated him the following year, giving the small church a valid succession and a permanent breach with the papacy in the same act, though it kept the Catholic faith in everything else.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -411,7 +411,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "legacy",
-   "sentence": "When the First Vatican Council defined",
+   "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
    "other_id": null,
    "disposition": "out-of-scope",
    "link_id": null,
@@ -421,7 +421,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "legacy",
-   "sentence": "When the First Vatican Council defined",
+   "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
    "other_id": "old-catholic-churches-union-of-utrecht",
    "disposition": "link",
    "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
@@ -431,7 +431,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "legacy",
-   "sentence": "The resulting Old Catholic churches bound themselves",
+   "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
    "other_id": "old-catholic-churches-union-of-utrecht",
    "disposition": "link",
    "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
@@ -441,7 +441,7 @@
   {
    "movement": "church-of-utrecht",
    "field": "legacy",
-   "sentence": "The resulting Old Catholic churches bound themselves",
+   "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
    "other_id": "victorian-church-of-england",
    "disposition": "out-of-scope",
    "link_id": null,
@@ -461,7 +461,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "longDescription",
-   "sentence": "After Louis XIV outlawed Protestantism",
+   "sentence": "After Louis XIV outlawed Protestantism in 1685, the Protestants of the Cévennes were left with no pastors, no churches and no legal existence.",
    "other_id": "the-huguenots",
    "disposition": "link",
    "link_id": "the-huguenots--camisard-prophetism",
@@ -471,7 +471,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "longDescription",
-   "sentence": "Bands of peasants known as Camisards",
+   "sentence": "Bands of peasants known as Camisards fought royal troops through the mountains for two years, led by men like Jean Cavalier, a baker's apprentice of twenty, with prophets traveling alongside the fighters and directing them.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -481,7 +481,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "longDescription",
-   "sentence": "The rising was broken by 1704",
+   "sentence": "The rising was broken by 1704 and the last resistance ended by 1710; some of the prophets escaped to London, where they caused a fresh sensation as the 'French Prophets'.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -491,7 +491,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "why",
-   "sentence": "After Protestantism was outlawed in France",
+   "sentence": "After Protestantism was outlawed in France in 1685, ordinary people in the Cévennes — many of them children and young women with no pastors left to guide them — began falling into trance and speaking as they believed the Spirit directed.",
    "other_id": "the-huguenots",
    "disposition": "link",
    "link_id": "the-huguenots--camisard-prophetism",
@@ -501,7 +501,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "legacy",
-   "sentence": "The Camisards left no church of their own",
+   "sentence": "The Camisards left no church of their own — French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine.",
    "other_id": "church-of-the-desert-huguenots",
    "disposition": "link",
    "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
@@ -511,7 +511,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "legacy",
-   "sentence": "The exiles in London published sworn accounts",
+   "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -521,7 +521,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "legacy",
-   "sentence": "The exiles in London published sworn accounts",
+   "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
    "other_id": "the-methodist-revival",
    "disposition": "qualify",
    "link_id": "camisard-prophetism--the-methodist-revival",
@@ -531,7 +531,7 @@
   {
    "movement": "camisard-prophetism",
    "field": "legacy",
-   "sentence": "In the Cévennes the memory was never allowed to fade",
+   "sentence": "In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
    "other_id": "church-of-the-desert-huguenots",
    "disposition": "not-a-relationship",
    "link_id": null,
@@ -541,7 +541,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "relationsSummary",
-   "sentence": "This is the story of what survived",
+   "sentence": "This is the story of what survived after Louis XIV's 1685 Revocation of the Edict of Nantes outlawed French Protestantism.",
    "other_id": "the-huguenots",
    "disposition": "link",
    "link_id": "the-huguenots--church-of-the-desert-huguenots",
@@ -551,7 +551,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "relationsSummary",
-   "sentence": "The Camisard prophetic uprising belongs",
+   "sentence": "The Camisard prophetic uprising belongs to this same story's opening decades.",
    "other_id": "camisard-prophetism",
    "disposition": "link",
    "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
@@ -561,7 +561,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "longDescription",
-   "sentence": "When Louis XIV revoked the Edict of Nantes",
+   "sentence": "When Louis XIV revoked the Edict of Nantes in 1685, French Protestantism was simply abolished.",
    "other_id": "the-huguenots",
    "disposition": "link",
    "link_id": "the-huguenots--church-of-the-desert-huguenots",
@@ -571,7 +571,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "longDescription",
-   "sentence": "Its churches were pulled down",
+   "sentence": "Its churches were pulled down, its pastors expelled, its people forbidden to emigrate and required to attend Mass.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -581,7 +581,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "longDescription",
-   "sentence": "He held a synod, restored ordained ministry",
+   "sentence": "He held a synod, restored ordained ministry and discipline, discouraged the prophesying that had led to the Camisard rising, and founded a seminary at Lausanne to train pastors who went back over the border knowing they could hang for it.",
    "other_id": "camisard-prophetism",
    "disposition": "link",
    "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
@@ -591,7 +591,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "legacy",
-   "sentence": "It survived, and it is the direct ancestor",
+   "sentence": "It survived, and it is the direct ancestor of the Reformed Church in France.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -601,7 +601,7 @@
   {
    "movement": "church-of-the-desert-huguenots",
    "field": "legacy",
-   "sentence": "In the Cévennes the memory is deliberately kept",
+   "sentence": "In the Cévennes the memory is deliberately kept: the Musée du Désert stands in a Camisard leader's birthplace, and an assembly gathers there every September.",
    "other_id": "camisard-prophetism",
    "disposition": "not-a-relationship",
    "link_id": null,

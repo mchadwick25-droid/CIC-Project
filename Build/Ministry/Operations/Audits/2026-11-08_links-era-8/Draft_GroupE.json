@@ -576,7 +576,7 @@
    "to": "the-old-believers",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Archpriest Avvakum, the Old Believers' great voice, was ordained in the Muscovite church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later, and his translators date that to about 1644. His spiritual father was Ivan Neronov of St Basil's in Moscow.",
+   "note": "Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Moscow church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was Ivan Neronov of St Basil's in Moscow.",
    "sources": [
     {
      "kind": "primary",
@@ -690,7 +690,7 @@
    "to": "the-old-believers",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The council's record says Avvakum and the priest Lazar would not repent and called the council unorthodox. So the patriarchs of Alexandria and Antioch, with the patriarch of Moscow and the council, laid them under anathema once more. An official history of 1838 says the council rejected their case on the sign of the cross and the Creed.",
+   "note": "The council's record says Avvakum and the priest Lazar would not repent and called the council false to the faith. So the council, with the patriarchs of Alexandria, Antioch and Moscow, laid them under anathema once more. A history of 1838 by an official of the Synod says the council threw out their case on the cross and the Creed.",
    "sources": [
     {
      "kind": "primary",
@@ -727,7 +727,7 @@
    "verification_state": "verified-direct",
    "named_in_text": "the-old-believers longDescription ('the council of 1666-67 anathematized them') and why ('was anathematized for it in 1666'); russian-church-nikon-to-holy-synod longDescription ('the council of 1666-67 that condemned his opponents') and why",
    "major": true,
-   "outcome": "A church council in Moscow, sitting with the patriarchs of Alexandria and Antioch, laid Archpriest Avvakum and the priest Lazar under anathema.",
+   "outcome": "A Moscow church council, with two Eastern patriarchs on it, laid a solemn curse on Avvakum and the priest Lazar.",
    "outcome_kind": "council-law",
    "outcome_evidence": {
     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
@@ -747,7 +747,7 @@
    "to": "russian-church-nikon-to-holy-synod",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Imprisoned at Pustozersk, Avvakum and his fellow prisoners gave an official a written statement. In it they declared the visiting Patriarch Paisius and his fellows accursed, as a gathering of heretics, and called Nikon the maker of the heresy. Avvakum also wrote that his own excommunication came from heretics.",
+   "note": "In prison at Pustozersk, Avvakum and the men held with him wrote out a statement for an officer. It named the visiting Patriarch Paisius and his fellows as cursed, a gathering of heretics. It called Nikon the maker of the heresy. Avvakum also wrote that the ban on him came from heretics.",
    "sources": [
     {
      "kind": "primary",
@@ -774,9 +774,9 @@
      "source_id": null,
      "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
      "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
-     "lines": "NOTFOUND",
+     "lines": "3758-3759",
      "locus": "Life, at Mezen",
-     "quote": "But as to my excommunication, it came from heretics",
+     "quote": "But as to my excommunica- tion, it came from heretics",
      "license": "public-domain"
     }
    ],
@@ -797,7 +797,7 @@
    "to": "the-old-believers",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. In 1800 Tsar Paul I approved their sixteen conditions, after Metropolitan Plato had examined them, so that they could keep the old books under priests of the church. The arrangement became known as Edinoverie.",
+   "note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie.",
    "sources": [
     {
      "kind": "secondary",
@@ -868,7 +868,7 @@
    "to": "russian-church-nikon-to-holy-synod",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Nikon's council in Moscow says it wrote to the Eastern patriarchs and to Mount Athos about the service books, and had their written answers. It then corrected the book of sacraments from old Greek manuscripts. An official history of 1838 says Patriarch Paisius of Constantinople urged Nikon to follow the rule of the great Church of Constantinople.",
+   "note": "Nikon's council in Moscow says it wrote to the Eastern patriarchs and to Mount Athos about the service books. It had their answers in writing. It then corrected the book of sacraments from old Greek copies. A history of 1838 says Patriarch Paisius of Constantinople urged Nikon to keep to the rule of the great Church of Constantinople.",
    "sources": [
     {
      "kind": "primary",
@@ -925,7 +925,7 @@
    "verification_state": "verified-direct",
    "named_in_text": "russian-church-nikon-to-holy-synod longDescription ('to correct Russian service books against Greek models'); the-old-believers longDescription ('against contemporary Greek practice')",
    "major": true,
-   "outcome": "In 1656 a council in Moscow ruled that only the service book corrected from old Greek copies could be used for the sacraments.",
+   "outcome": "In 1656 a council in Moscow ruled that priests could use only the service book corrected from old Greek copies.",
    "outcome_kind": "rule-changed",
    "outcome_evidence": {
     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
@@ -947,7 +947,7 @@
    "to": "the-kyiv-mohyla-orthodox-revival",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In the 1680s the see of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as metropolitan of Kyiv, and the patriarchs of Constantinople and Jerusalem confirmed the change by letter. A Greek Catholic historian of 1880 says that after the peace of 1686 Kyiv became a simple diocese of the Moscow patriarchate.",
+   "note": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow.",
    "sources": [
     {
      "kind": "secondary",
@@ -1042,7 +1042,7 @@
    "to": "the-optina-elders-and-russian-ascetic-renewal",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Leonid, the first Optina elder, entered the Optina hermitage in Kaluga diocese in 1797. In 1804 the bishop of Orel made him head of the Beloberezh hermitage. In 1829 he moved into the new skete, or small hermitage, at Optina, and its abbot gave him the spiritual care of the brothers.",
+   "note": "Leonid, the first Optina elder, joined the Optina monastery in the diocese of Kaluga in 1797. In 1804 the bishop of Orel put him in charge of the Beloberezh hermitage. In 1829 he moved to the new skete at Optina, a small hermitage next to the monastery. There the abbot gave him the care of the brothers' souls.",
    "sources": [
     {
      "kind": "primary",
@@ -1092,7 +1092,7 @@
    "to": "russian-church-synodal-century",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Holy Synod that Peter the Great set up in 1721 still governed the church in the following century. An account of the church in 1830, printed in English in 1842, says the Synod still worked under Peter's Spiritual Regulation. Andrei Mouravieff, who wrote his history in 1838, was an official of the same Synod.",
+   "note": "The Holy Synod that Peter the Great set up in 1721 still ran the church a century later. An account of the church in 1830 says the Synod still worked under Peter's law of 1721, the Spiritual Regulation. Andrei Mouravieff, who wrote his history in 1838, was an official of the same Synod.",
    "sources": [
     {
      "kind": "primary",
@@ -1132,7 +1132,7 @@
    "to": "ruthenian-uniate-18th-century",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1794 Victor Sadkowski, the Orthodox archbishop of Minsk, issued a letter urging the Uniates to return to Orthodoxy. Priests he sent, escorted by Russian officials and soldiers, took over parish churches where even a few people agreed. Two Greek Catholic historians, writing in 1862 and 1880, tell this from the Uniate side.",
+   "note": "In 1794 Victor Sadkowski, the Orthodox archbishop of Minsk, sent out a letter. It urged the Uniates to come back to the Orthodox church. Priests he sent took over parish churches where even a few people agreed, with Russian officials and soldiers at their side. Two Greek Catholic historians tell this from the Uniate side, in 1862 and 1880.",
    "sources": [
     {
      "kind": "secondary",
@@ -1179,7 +1179,7 @@
    "verification_state": "named-not-rechecked",
    "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('forced-reversion campaigns of 1794-96 stripped away most of its parishes'), longDescription and why ('campaigns of forced reversion from 1794')",
    "major": true,
-   "outcome": "In 1795 Catherine II ordered by decree that Uniates whose forebears had joined the union after 1595 must return to Orthodoxy.",
+   "outcome": "In 1795 Catherine II ruled that all those whose families had joined the union after 1595 must go back to the Russian church.",
    "outcome_kind": "council-law",
    "outcome_evidence": {
     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
@@ -1204,7 +1204,7 @@
    "to": "the-hesychast-revival-paisius-and-the-philokalia",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "The Philokalia, first printed in 1782, carries Gregory Palamas's letter to the nun Xenia and passages from his defense of the hesychasts. Its 1893 Athens edition lists both in its contents. Paisius also put a work of Palamas on prayer into Slavonic, which the Optina monastery later printed.",
+   "note": "The Philokalia, first printed in 1782, carries two works by Gregory Palamas. Its 1893 Athens edition lists his letter to the nun Xenia. It also lists parts of his defense of the hesychasts, monks who prayed in stillness. Paisius put a work of Palamas on prayer into Slavonic as well. The monks of Optina later printed it.",
    "sources": [
     {
      "kind": "primary",
@@ -1573,30 +1573,30 @@
    "movement": "the-old-believers",
    "field": "legacy",
    "old": "Old Belief is still practiced. Several Old Believer churches exist today — in Russia, Romania, the Baltic states, Alaska, Oregon and South America — some with their own bishops, some with no clergy at all, keeping pre-Nikonian chant, icons and books. Their stubbornness preserved a whole layer of medieval Russian religious culture that the official church had modernized away. Old icon-painting styles, znamenny chant and manuscript practices survived in these communities and were later recovered from them by collectors and scholars. Russian literature never let the schism go either; the raskol runs through the nineteenth-century novel as the standing question of what faithfulness actually costs.",
-   "new": "Old Belief is still practiced. Several Old Believer churches exist today — in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all, and they keep pre-Nikonian chant, icons and books. Their stubbornness preserved a whole layer of medieval Russian religious culture that the official church had modernized away. Old icon-painting styles, znamenny chant and manuscript practices survived in these communities, and collectors and scholars later recovered them from there. Avvakum's own Life, the movement's founding book, reached English readers in 1924.",
+   "new": "Old Belief is still practiced. Old Believer churches exist today in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all. All keep the chant, icons and books of the time before Nikon. Their stubbornness saved a whole layer of medieval Russian church culture that the official church had modernized away. Old styles of icon painting, znamenny chant and the copying of books by hand lived on in these groups. Collectors and scholars later found them there. Avvakum's own Life, the founding book of the movement, came out in English in 1924.",
    "reason": "The closing claim that 'the raskol runs through the nineteenth-century novel' has no source in the library (no Dostoevsky, no Melnikov-Pechersky) and is cut; listed in wants. Replaced by a literary fact the library holds: the Harrison-Mirrlees English Life of 1924 (title page, lines 21-27). The long first sentence is split for reading level; every other fact is kept.",
-   "fre_after": 40.6,
-   "fk_after": 11.5
+   "fre_after": 63.2,
+   "fk_after": 7.6
   },
   {
    "n": 1,
    "movement": "russian-church-nikon-to-holy-synod",
    "field": "legacy",
    "old": "The synodal arrangement lasted until 1917, and the church restored the patriarchate almost as soon as the empire fell. The whole shape of modern Russian church-and-state relations was set in this period and is still argued about. Its Alaskan mission planted an Orthodox Christianity that survives among Native communities there to this day, the only Orthodox church established in North America before the nineteenth century. And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
-   "new": "The synodal arrangement lasted until 1917, and the church restored the patriarchate almost as soon as the empire fell. The whole shape of modern Russian church-and-state relations was set in this period and is still argued about. Its Alaskan mission planted an Orthodox Christianity that survives among Native communities there to this day. It was the only Orthodox church established in North America before the nineteenth century. And the church lived with a lasting tension: an official church tied to the state, with an intense spiritual life running alongside and underneath it. The first elders of Optina, in the following century, were trained in this church's own monasteries.",
+   "new": "The synodal system lasted until 1917, and the church brought back the patriarch almost as soon as the empire fell. The bond between church and state in modern Russia took its shape in this period, and people still argue about it. Its mission to Alaska planted an Orthodox faith that lives on among Native communities there today. It was the only Orthodox church founded in North America before the nineteenth century. The church also lived with a lasting tension. It was an official church tied to the state, with an intense spiritual life running beside and beneath it. The first elders of Optina, in the next century, were trained in this church's own monasteries.",
    "reason": "'Produced ... the sharp religious searching of Russian literature' has no source in the library and is cut (wants). 'The tension it created ... produced the Optina elders' is causal and unshown; restated as what Optina's 1847 preface shows, that Leonid entered Optina in 1797 and served under the bishop of Orel (link russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal). The tension itself is kept as the church's condition. The Alaskan sentence is split for reading level; its facts are unchanged and unsourced (see the Alaska link).",
-   "fre_after": 45.6,
-   "fk_after": 11.4
+   "fre_after": 60.9,
+   "fk_after": 8.8
   },
   {
    "n": 2,
    "movement": "the-hesychast-revival-paisius-and-the-philokalia",
    "field": "why",
    "old": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore, and set his community to translating it into Slavonic at Neamț in Moldavia. Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
-   "new": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore. He set his community to translating it into Slavonic at Neamț in Moldavia. Printed as the Philokalia at Venice in 1782, and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers. Paisius's own disciples, back in Russia, trained the first of the Optina elders.",
+   "new": "In 1746 a young monk named Paisius Velichkovsky searched the libraries of the monasteries on Mount Athos. He was looking for old Greek teaching on inward prayer that almost nobody read anymore. At Neamț in Moldavia he set his monks to putting it into Slavonic. The Greek texts were printed as the Philokalia at Venice in 1782. Paisius's own Slavonic version came out at Moscow in 1793. The book carried a monk's teaching on the Jesus Prayer out to ordinary readers. Paisius's own disciples, back in Russia, trained the first of the Optina elders.",
    "reason": "'Fed directly into ... The Way of a Pilgrim' has no source in the library and is cut (wants). 'Fed directly into the elders of Optina' is kept and made exact: Optina's 1847 preface shows Paisius's disciples Theodore and Cleopas training Leonid (link to the Optina elders). Long sentences split for reading level.",
-   "fre_after": 43.5,
-   "fk_after": 12.4
+   "fre_after": 61.6,
+   "fk_after": 7.9
   },
   {
    "n": 3,
