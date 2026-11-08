@@ -1,0 +1,278 @@
+{
+ "group": "M",
+ "movements": [
+  "oneida-community",
+  "spiritualism-new-thought",
+  "american-unitarianism-universalism-consolidations"
+ ],
+ "dispositions": [
+  {
+   "movement": "oneida-community",
+   "field": "longDescription",
+   "sentence": "Outside campaigning and internal strain finished it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the campaigners. The census-cited Klaw (Without Sin, 1993) and Foster (Religion and Sexuality, 1984), and the entry's own voices list (John Mears's campaign), carry it; no Oneida text is vendored, so it is left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did."
+  },
+  {
+   "movement": "oneida-community",
+   "field": "why",
+   "sentence": "Under outside pressure Noyes left for Canada in 1879, and in 1881 the community voted itself out of existence and became a joint-stock company instead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the outside pressure. Same support as the longDescription sentence; left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did. Its date for the vote (1881) disagrees with the longDescription (1880); see escalations."
+  },
+  {
+   "movement": "oneida-community",
+   "field": "legacy",
+   "sentence": "Oneida Limited became one of the best-known tableware manufacturers in the world, and its flatware sat on ordinary tables for generations without the faintest hint of where it came from.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The company is not a census movement. Its 1881 joint-stock reorganization is the entry's own fact, carried by the census-cited Klaw and Foster; nothing vendored. No link."
+  },
+  {
+   "movement": "oneida-community",
+   "field": "legacy",
+   "sentence": "As a religious body it left nothing — no successor community, no continuing church, no doctrinal descendants.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A negative claim. Checked: no other census movement's text names Oneida or Noyes, so nothing in the tree claims descent from it. Kept."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "longDescription",
+   "sentence": "A family of teachers descended from the Maine healer Phineas Quimby who held that mind governs matter and that right thinking heals.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Quimby is a person, not a census movement. The census cites Quimby's manuscripts (1921) and Albanese, A Republic of Mind and Spirit (2007), for the New Thought line; neither is vendored or read here. Left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did. Quimby Manuscripts listed in wants."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "longDescription",
+   "sentence": "Both borrowed Christian vocabulary heavily and grew in the same nineteenth-century soil as the revivals, but neither is a Christian tradition; they are named here only because visitors reasonably ask where they fit.",
+   "other_id": "the-second-great-awakening-and-camp-meeting-worl",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory left this unmatched; 'the revivals' is the Second Great Awakening. The sentence claims a shared setting only, not descent or contact, and shared time and place alone fit no link type. The awakening's own text does not name Spiritualism, so part 2 decides. Kept as a setting statement; the census-cited Braude and Albanese treat that setting (not read here)."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "longDescription",
+   "sentence": "Both borrowed Christian vocabulary heavily and grew in the same nineteenth-century soil as the revivals, but neither is a Christian tradition; they are named here only because visitors reasonably ask where they fit.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Christian vocabulary' names no movement. The claim matches the entry's own floor note and the census-cited Albanese; kept."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "longDescription",
+   "sentence": "Spiritualism's public credibility took a heavy blow in 1888, when Margaret Fox declared before an audience in New York that she and her sister had produced the original raps by cracking their toe joints — a confession she withdrew a year later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Margaret Fox is a person. The 1888 confession and 1889 recantation are named in the census source list; no text of either is vendored, so it is left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did. Davenport's 1888 book listed in wants."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "why",
+   "sentence": "Both movements borrowed heavily from Christian vocabulary but grew up alongside the churches rather than inside them, and neither teaches specifically Christian doctrine.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The churches' names no movement. Matches the floor note; kept."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "why",
+   "sentence": "Running alongside it was New Thought, a family of teachers descended from the Maine healer Phineas Quimby who held that right thinking heals.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same claim as the longDescription Quimby sentence; same support and same open item."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "legacy",
+   "sentence": "Spiritualist churches still exist in Britain and the United States, and the effort to test their claims scientifically produced the Society for Psychical Research in 1882 and, indirectly, a whole field of investigation.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Society for Psychical Research is not a census movement. The census source list names SPR investigations; nothing vendored, so the 1882 founding is left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did. SPR Proceedings vol. 1 listed in wants."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "legacy",
+   "sentence": "New Thought became ongoing denominations — Unity, Religious Science and their relatives — but its far larger legacy escaped religion altogether.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Checked: no census movement for Unity or Religious Science. The entry's own voices list and source list name the Fillmores' Unity (1889). Kept."
+  },
+  {
+   "movement": "spiritualism-new-thought",
+   "field": "legacy",
+   "sentence": "Its language of mind over circumstance runs straight into twentieth-century positive-thinking, self-help and prosperity literature read by millions who have never heard of Quimby.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names literature, not a church. Checked: the era-10 Global South Pentecostal entry discusses prosperity teaching but does not name New Thought, and this sentence does not name those churches, so no link. The census-cited Albanese carries the New Thought to positive-thinking line (not read here)."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "relationsSummary",
+   "sentence": "William Ellery Channing's 1819 Baltimore sermon named and defined the movement, and the American Unitarian Association organized on 25 May 1825.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Missed by the inventory. 'Named' is not supported: the vendored sermon never uses the word 'Unitarian', and the 1815 Boston reprint of Belsham shows the Boston clergy already 'reported to be Unitarians'. Rewritten to 'set out what the liberals held', with the sermon's own objection to the Trinity (line 408). The 1825 date is the entry's own fact, under the open well-known-facts item."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "relationsSummary",
+   "sentence": "The Universalists built their own conventions on a separate track.",
+   "other_id": "american-unitarianism-universalism-consolidations",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Self-reference: the Universalist strand of this same entry. The Winchester Centennial (1903) names the Universalists' State and General Conventions (line 703) and the General Convention's 1870 reorganization (lines 1410-1412). Kept in substance; reworded for reading level in the same prose change."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "relationsSummary",
+   "sentence": "A third strain, the Transcendentalists, pushed past Christian doctrine altogether.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No census movement for the Transcendentalists. 'Pushed past Christian doctrine altogether' goes beyond the entry's own longDescription ('further than most of their elders wanted to go'), and no Transcendentalist text is vendored. Brought into line with that sentence. Emerson's Address and Norton's reply listed in wants."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "sentence": "Two movements that had grown up separately in New England spent this century turning themselves into organized denominations.",
+   "other_id": "early-american-unitarians-universalists",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. The earlier growth is the era-8 American Unitarians and Universalists entry, whose own text names this continuation (the American Unitarian Association in 1825, the Universalists consolidating their conventions). Era 8 owns it."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "sentence": "In 1819 William Ellery Channing preached an ordination sermon in Baltimore that gave liberal Congregationalists both a name and a platform, and in 1825 they founded the American Unitarian Association.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Liberal Congregationalists have no separate census movement. 'A name' is not supported: the vendored sermon never uses 'Unitarian', and the 1815 Boston reprint of Belsham (lines 171-175) shows the Boston clergy complaining they were already 'reported to be Unitarians'. Rewritten: the label was in use by 1815; the sermon gave a platform and objected to the Trinity (Channing, line 408)."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "sentence": "Ralph Waldo Emerson left the ministry and told Harvard's divinity students in 1838 to look for religion in intuition and nature rather than historical revelation, and the Transcendentalists carried that further than most of their elders wanted to go.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Emerson is a person and the Transcendentalists have no census movement. The 1838 Address is named in the entry's own sourcing; no text of it is vendored, so it is left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did. Reworded for reading level only, in the same prose change."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "sentence": "What held the movements together was less a shared creed than a shared refusal of creeds, along with a strong practical bent — toward schools, prisons, asylums and abolition.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Missed by the inventory (not a relationship, but wrong for one side). The vendored Winchester Centennial (1903) shows the Universalists kept the 1803 Winchester Profession and in 1870, on reorganizing the General Convention, made it 'a condition of fellowship' (lines 1410-1413). Rewritten so the refusal of creeds is the Unitarians' only."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "why",
+   "sentence": "The Universalists built their movement on a single conviction, that God would in the end save everyone, while the Unitarians organized around William Ellery Channing's 1819 sermon and an explicit rejection of the Trinity.",
+   "other_id": "american-unitarianism-universalism-consolidations",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Self-reference. Supported: the Winchester Profession's second article, that God 'will finally restore the whole family of mankind to holiness and happiness' (Winchester Centennial, lines 126-132), and Channing's 'We object to the doctrine of the Trinity' (sermon, line 408)."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "why",
+   "sentence": "A generation later, Ralph Waldo Emerson pushed further still, leaving the pulpit to tell Harvard's divinity students in 1838 to seek religion in intuition and nature rather than historical revelation.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Emerson is a person. Same support as the longDescription sentence; left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did."
+  },
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "legacy",
+   "sentence": "Both bodies survived, and in 1961 merged into the Unitarian Universalist Association, still a functioning denomination in North America.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the 1961 body. The era-8 entry states the same merger. Nothing vendored; left under the open Open-Gaps item 'Well-known facts with no vendored source', as earlier eras did."
+  }
+ ],
+ "links": [],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "relationsSummary",
+   "old": "William Ellery Channing's 1819 Baltimore sermon named and defined the movement, and the American Unitarian Association organized on 25 May 1825. The Universalists built their own conventions on a separate track. A third strain, the Transcendentalists, pushed past Christian doctrine altogether.",
+   "new": "In 1819 William Ellery Channing gave a sermon in Baltimore. It set out what the liberals held, and it spoke out against the Trinity. On 25 May 1825 they formed the American Unitarian Association. The Universalists built their conventions on a track of their own. A third strain went further still. The Transcendentalists left more Christian doctrine behind than most of their elders would.",
+   "reason": "'Named' the movement is not supported: the vendored 1819 sermon never uses the word 'Unitarian', and the 1815 Boston reprint of Belsham shows the label already in use. The sermon's own objection to the Trinity (line 408) replaces it. 'Pushed past Christian doctrine altogether' is brought into line with the entry's own longDescription. The Universalist sentence and the 1825 date are kept. Whole field rewritten for reading level."
+  },
+  {
+   "n": 1,
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "old": "Two movements that had grown up separately in New England spent this century turning themselves into organized denominations. In 1819 William Ellery Channing preached an ordination sermon in Baltimore that gave liberal Congregationalists both a name and a platform, and in 1825 they founded the American Unitarian Association. The Universalists, who taught that God would in the end save everyone, built their own conventions on a separate track. Within a generation the Unitarian side produced a third thing it had not expected. Ralph Waldo Emerson left the ministry and told Harvard's divinity students in 1838 to look for religion in intuition and nature rather than historical revelation, and the Transcendentalists carried that further than most of their elders wanted to go. What held the movements together was less a shared creed than a shared refusal of creeds, along with a strong practical bent — toward schools, prisons, asylums and abolition.",
+   "new": "Two movements had grown up apart in New England. In this century both grew into organized churches. By 1815 the liberal clergy of Boston's Congregational churches were already being called Unitarians. Many of them complained of the name. In 1819 William Ellery Channing preached at an ordination in Baltimore. His sermon gave these liberals a platform. It also spoke out against the Trinity. In 1825 they founded the American Unitarian Association. The Universalists taught that God would in the end save everyone. They built their conventions on a track of their own. Within a generation the Unitarian side produced a third thing it had not looked for. Ralph Waldo Emerson left the ministry. In 1838 he told Harvard's divinity students to look for religion in their own souls and in nature, not in a revelation fixed in the past. The Transcendentalists took that further than most of their elders wanted to go. The two movements did not treat creeds alike. The Unitarians bound no one to a creed. The Universalists kept a short one, the Winchester Profession of 1803. In 1870 they made it a test of fellowship. Both had a strong practical bent. They worked hard for schools, prisons and asylums, and to end slavery.",
+   "reason": "Two corrections. 'A name' goes: the label was in use by 1815 (Belsham's Boston reprint, lines 171-175), before the 1819 sermon, which itself never uses it. 'A shared refusal of creeds' was wrong for the Universalists, who kept the 1803 Winchester Profession and in 1870 made it a condition of fellowship (Winchester Centennial, lines 1410-1413). Emerson's 1838 Address and the Transcendentalists are kept as they stood. 'Soul' is Emerson's own word in the Address as the entry's documented story reports it. Whole field rewritten for reading level."
+  }
+ ],
+ "wants": [
+  "Ralph Waldo Emerson, An Address Delivered before the Senior Class in Divinity College, Cambridge (Boston, 1838), and Andrews Norton, A Discourse on the Latest Form of Infidelity (Cambridge, MA, 1839): for the 1838 Address and the Transcendentalists' distance from Unitarian doctrine",
+  "American Unitarian Association, First Annual Report (Boston, 1826), or another public-domain record of its founding on 25 May 1825",
+  "Theodore Parker, A Discourse of the Transient and Permanent in Christianity (Boston, 1841): for how far the Transcendentalists left Christian doctrine",
+  "John Humphrey Noyes, Bible Communism (1848) and History of American Socialisms (1870), and the Oneida Community's First Annual Report (1849): the community's own record, for its founding and teaching",
+  "The Oneida Community's announcement of the end of complex marriage (American Socialist, 28 August 1879) and the 1880-81 reorganization papers: would settle the 1880 vote versus 1881 company date",
+  "Reuben Briggs Davenport, The Death-Blow to Spiritualism (New York, 1888): prints Margaret Fox's 1888 confession",
+  "Andrew Jackson Davis, The Principles of Nature (1847), and Emma Hardinge Britten, Modern American Spiritualism (1870): Spiritualism's own record",
+  "Horatio W. Dresser, ed., The Quimby Manuscripts (New York, 1921): for New Thought's descent from Quimby",
+  "Proceedings of the Society for Psychical Research, vol. 1 (London, 1882-83): for the Society's founding and aims"
+ ],
+ "escalations": [
+  "Oneida dates disagree inside one entry: the longDescription has the community vote itself out in 1880 and reorganize on 1 January 1881; the why says it 'voted itself out of existence' in 1881; the floor note says 'in 1881 it dissolved itself'. No vendored text settles it (wants list). I did not rewrite: the fix needs a source, and touching the field means a whole-field reading-level rewrite.",
+  "Broken sentences in public text, not touched in a links pass: Oneida longDescription ('...married to every other. Submitted to a formal system of group criticism, and from 1869...') and the Unitarian-Universalist legacy ('...humane treatment of prisoners and the mentally ill. Long outlived the theological arguments...'). Both read as a bad split.",
+  "Floor question for Mark, not a prose fix: the Unitarian-Universalist floor note and status line call the Universalist side 'arguably floor-clean' and say much of it 'would sit comfortably inside Nicene bounds'. The vendored Winchester Centennial (1903) says the Universalists' belief in one God 'made us Unitarian before Unitarians were known as a distinct sect' (lines 1296-1298), and that by 1803 their ministers were 'already overwhelmingly Unitarian' following Hosea Ballou (lines 1858-1861). The same volume also affirms Father, Son and Holy Spirit as 'pivotal points' (lines 1290-1293). The floor note should be weighed against this.",
+  "Same entry, outside the four fields: the status line prints an internal atlas code ('VII.27'), and the teaser's 'liberal churches that made a principle of having no creed' carries the same Universalist creed error corrected in the longDescription.",
+  "Oneida and Spiritualism / New Thought have the placeholder '-' as their relations summary.",
+  "Not drafted, for whoever links Christian Science: the Spiritualism / New Thought source list notes the contested question of Mary Baker Eddy's debt to Quimby, but neither entry's four fields names the other, so no link was drafted here."
+ ]
+}

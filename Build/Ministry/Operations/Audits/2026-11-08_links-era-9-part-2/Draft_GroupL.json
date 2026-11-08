@@ -1,0 +1,172 @@
+{
+ "group": "L",
+ "movements": [
+  "latter-day-saints-lds",
+  "jehovah-s-witnesses-bible-students",
+  "christadelphians",
+  "christian-science"
+ ],
+ "dispositions": [
+  {
+   "movement": "latter-day-saints-lds",
+   "field": "longDescription",
+   "sentence": "Its members were driven out of Ohio, then Missouri, then Illinois, where a mob killed Smith in the Carthage jail in 1844.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "States and mobs have no movement of their own. Missouri's 1838 expulsion and Illinois's 1846 exodus after the 1844 Carthage killing are standard, carried by the movement's cited Bushman and Shipps; nothing is vendored. Reviewer note: the 1838 departure from Ohio followed internal dissent and lawsuits more than expulsion, so 'driven out' compresses it; it is the movement's own framing and not wrong enough to rewrite. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "latter-day-saints-lds",
+   "field": "longDescription",
+   "sentence": "The nineteenth-century church practiced plural marriage openly from 1852, which brought decades of federal prosecution before its president formally renounced the practice in 1890 and Utah entered the Union six years later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The federal government has no movement of its own. The 1852 public announcement, the 1880s prosecutions, the 1890 Manifesto and 1896 statehood are standard and match the movement's cited federal prosecution records and Bushman; nothing is vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "latter-day-saints-lds",
+   "field": "why",
+   "sentence": "Driven out of Ohio, Missouri, and Illinois, where a mob killed Smith in 1844, his followers crossed the plains under Brigham Young from 1847 and built the Salt Lake settlements largely from scratch.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same facts and same note as the longDescription sentence on Ohio, Missouri and Illinois: no movement for states or mobs; 'driven out' of Ohio compresses a departure amid dissent and lawsuits. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "longDescription",
+   "sentence": "In the early 1870s a young Pittsburgh clothing merchant named Charles Taze Russell gathered a small circle to study the Bible without reference to inherited denominational teaching, and in 1879 began a magazine, Zion's Watch Tower and Herald of Christ's Presence.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No movement for 'inherited denominational teaching'. But 'without reference to' states the circle's own aim as fact. The movement's cited scholars (Penton, Apocalypse Delayed; Chryssides) show Russell drawing on Adventist preachers, and the Society's own Proclaimers history (1993) is said to name them; none is vendored, so this is named, not rechecked. Qualified to an aim."
+  },
+  {
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "longDescription",
+   "sentence": "The name Jehovah's Witnesses, and the tightly centralized organization the movement is known for today, came later — after Russell's death in 1916, under his successor Joseph Franklin Rutherford.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Names a person, not a movement relationship. Rutherford's succession (1916-17) is standard and in the movement's cited Chryssides and Penton; nothing is vendored. Kept in the rewritten field."
+  },
+  {
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "why",
+   "sentence": "In the early 1870s, Pittsburgh clothing merchant Charles Taze Russell gathered a small circle to study the Bible apart from inherited denominational teaching, and in 1879 began the magazine that grew into an international network of Bible Students.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same claim as the longDescription sentence, same reason: 'apart from inherited denominational teaching' states an aim as achieved fact, against the Adventist debt the movement's cited scholars show. Qualified to an aim."
+  },
+  {
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "legacy",
+   "sentence": "Its members' refusals — of military service, of flag salutes, of blood transfusions — produced a long series of court cases, and some of the resulting judgments, particularly in the United States, became landmark free-speech and religious-liberty precedents that now protect everyone.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "US courts have no movement of their own. The court record (twentieth century) is standard and outside every vendored text and the movement's own source list. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); twentieth-century case reports in wants."
+  },
+  {
+   "movement": "christian-science",
+   "field": "legacy",
+   "sentence": "Its position on medical treatment has also been the subject of repeated legal and public debate over the years, particularly where children are concerned.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Courts and the public have no movement of their own. The child-treatment cases are twentieth-century and outside every vendored text; the sentence states the debate without a verdict. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "christadelphians",
+   "field": "longDescription",
+   "sentence": "He concluded that most of what the churches taught had been added long after the apostles, and set out the alternative in Elpis Israel in 1848.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic 'the churches', no movement. It reports Thomas's own conclusion, attributed to him, which Elpis Israel states; the book is not vendored (in wants). Reviewer note: the first edition is usually dated 1849 (written 1848); could not check here, so left as the movement's own source list dates it."
+  },
+  {
+   "movement": "christadelphians",
+   "field": "longDescription",
+   "sentence": "And in 1864 adopted the name Christadelphians, brothers of Christ, largely so they could claim conscientious-objector status in the American Civil War.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The US state and the war have no movement of their own. The 1864 naming for draft exemption is in the movement's own source list (the conscientious-objection filings) and Lippy; nothing is vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07). Reviewer note: the sentence lacks a subject (it opens 'And in 1864 adopted'); a hygiene defect, flagged not fixed."
+  },
+  {
+   "movement": "christadelphians",
+   "field": "why",
+   "sentence": "His followers organized into small congregations called ecclesias, with no clergy and members teaching and presiding in turn, and in 1864 took the name Christadelphians largely so they could claim conscientious-objector status in the American Civil War.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same fact as the longDescription sentence on the 1864 name. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "christadelphians",
+   "field": "why",
+   "sentence": "John Thomas, an English doctor who survived a shipwreck on his way to America in 1832, resolved to work out the Bible's teaching for himself rather than take it on any church's authority, and set it out in Elpis Israel in 1848.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic 'any church', no movement. States Thomas's own resolve, attributed to him; Elpis Israel is not vendored (in wants). Same 1848/1849 date note as the longDescription sentence."
+  },
+  {
+   "movement": "christadelphians",
+   "field": "legacy",
+   "sentence": "Christadelphians were among the recognized objectors in both world wars, and their case files are part of the legal record of conscience in Britain and the United States.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "British and US states have no movement of their own. Twentieth-century tribunal records are outside every vendored text. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07)."
+  }
+ ],
+ "links": [],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "longDescription",
+   "old": "In the early 1870s a young Pittsburgh clothing merchant named Charles Taze Russell gathered a small circle to study the Bible without reference to inherited denominational teaching, and in 1879 began a magazine, Zion's Watch Tower and Herald of Christ's Presence. Around the magazine grew an international network of readers who called themselves Bible Students, distributed Russell's six-volume Studies in the Scriptures by the million, worked door to door as colporteurs, and gathered for annual conventions from 1893. The movement was built on printing and personal distribution from the very start, which is why its record of itself is unusually complete for a body of its size. The name Jehovah's Witnesses, and the tightly centralized organization the movement is known for today, came later — after Russell's death in 1916, under his successor Joseph Franklin Rutherford.",
+   "new": "In the early 1870s Charles Taze Russell, a young clothing merchant in Pittsburgh, gathered a small circle to study the Bible. They aimed to read it for themselves, free of the teaching handed down by the churches. In 1879 Russell began a magazine, Zion's Watch Tower and Herald of Christ's Presence. A network of readers in many countries grew up around it. They called themselves Bible Students. They handed out Russell's six-volume Studies in the Scriptures by the million. They went door to door as colporteurs, traveling sellers of religious books. From 1893 they met each year at large conventions. The movement was built on print and on handing books from person to person from the very start. That is why its record of itself is so full for a body of its size. The name Jehovah's Witnesses came later, and so did the tightly run central body the movement is known for today. Both came after Russell's death in 1916, under his successor, Joseph Franklin Rutherford.",
+   "reason": "'Without reference to inherited denominational teaching' stated the circle's aim as fact; the movement's cited scholars (Penton; Chryssides) show Russell drawing on Adventist preachers. Now an aim. Every other fact kept; long sentences split to meet the reading target, and 'colporteurs' explained."
+  },
+  {
+   "n": 1,
+   "movement": "jehovah-s-witnesses-bible-students",
+   "field": "why",
+   "old": "In the early 1870s, Pittsburgh clothing merchant Charles Taze Russell gathered a small circle to study the Bible apart from inherited denominational teaching, and in 1879 began the magazine that grew into an international network of Bible Students. They distributed Russell's six-volume Studies in the Scriptures by the million and worked door to door as colporteurs, building a record of their own growth unusually complete for a movement of its size. The name Jehovah's Witnesses and the centralized organization it is known for today came only after Russell's death in 1916.",
+   "new": "In the early 1870s Charles Taze Russell, a clothing merchant in Pittsburgh, gathered a small circle to study the Bible. They aimed to read it free of the teaching handed down by the churches. In 1879 he began the magazine that grew into a network of Bible Students in many countries. They handed out Russell's six-volume Studies in the Scriptures by the million. They went door to door as colporteurs, traveling sellers of religious books. In doing so they built a record of their own growth that is unusually full for a movement of its size. The name Jehovah's Witnesses, and the central body the movement is known for today, came only after Russell's death in 1916.",
+   "reason": "Same qualification as the longDescription change: the 'apart from inherited denominational teaching' claim becomes the circle's aim. Other facts kept; sentences split to meet the reading target."
+  }
+ ],
+ "wants": [
+  "Joseph Smith, The Book of Mormon (Palmyra, 1830) and the Doctrine and Covenants (1835): the movement's founding texts; none of its record is vendored.",
+  "Charles Taze Russell, Zion's Watch Tower and Herald of Christ's Presence (1879-) and Studies in the Scriptures vol. 1 (1886): would test the circle's sources and the Adventist debt.",
+  "John Thomas, Elpis Israel (first edition, London, 1849): would test the 1848 date and Thomas's own account of his break with church teaching.",
+  "Mary Baker Eddy, Science and Health (Boston, 1875, first edition): the movement's founding text.",
+  "Robert Roberts, Christendom Astray / Twelve Lectures (1862; 1884), with the Birmingham Statement of Faith (1886, amended 1898).",
+  "Twentieth-century court and tribunal reports (US Jehovah's Witnesses cases; Christian Science child-treatment cases; British and US objector tribunals) would test the legacy claims; most fall after the era and may not be public domain."
+ ],
+ "escalations": [
+  "Not urgent, for Mark: none of the four texts names another movement on the map, so this group drafts no links. Three well-attested ties go unnamed: John Thomas's years in the Stone-Campbell movement and his break with Alexander Campbell; Russell's debt to Adventist preachers (Wendell, Storrs, Barbour); and Eddy's 1862 treatment by Phineas Quimby, whose role is disputed. Each would be a cross-part link to a part-1 movement or to Spiritualism / New Thought. Adding them means adding text, so it is a cross-world decision, not a drafter's.",
+  "Hygiene, flagged not fixed: all four have the placeholder '-' as relationsSummary, and the Christadelphians longDescription has a subjectless sentence ('And in 1864 adopted the name...')."
+ ]
+}

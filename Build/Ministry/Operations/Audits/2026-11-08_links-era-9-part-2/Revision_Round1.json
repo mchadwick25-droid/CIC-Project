@@ -1,0 +1,1685 @@
+{
+ "round": 1,
+ "date": "2026-11-08",
+ "findings": [
+  {
+   "n": 1,
+   "action": "fixed",
+   "what": "Note and outcome now say the 1862 concordat kept Catholicism as the state religion. The major call (rule-changed) and the outcome rest on article 3, quoted verbatim in major.evidence (Mirbt 25590-25594): all teaching to conform to Catholic doctrine, bishops alone to choose the books for religion and morals. Article 1 kept as a source for 'kept'.",
+   "why": "Mirbt 25584: 'esse perget', shall continue to be. Article 3 sets the school and textbook rules in the future tense, a settlement fixed by the two authorities. Every fact in the outcome comes from article 3 and the heading on the link (signed at Rome, 26 Sept. 1862, line 25581). The 1878 abrogation (line 25582) is flagged; nothing claims the concordat lasted."
+  },
+  {
+   "n": 2,
+   "action": "fixed-differently",
+   "what": "The undated patronage line is dropped. The note now cites Leo XIII's grant of the coronation of the Guadalupe image, set for 12 October 1895 (editors' note, lines 8725-8727), with the prologue's 'in the name of the Supreme Pontiff and by his order' (lines 251-253).",
+   "why": "The same editors' note (lines 8722-8724) dates the patronage confirmation to Benedict XIV in 1754, a colonial act, which confirms the reviewer's point. The editors' note adds what the prologue lacks: the pope's name and the date."
+  },
+  {
+   "n": 3,
+   "action": "fixed",
+   "what": "The Philippine 'broke with' link is removed. The four dispositions that pointed to it (relationsSummary, longDescription, why, legacy) now say kept-as-is, giving the reason. Whether the Iglesia Filipina Independiente needs its own entry goes to escalations.",
+   "why": "The breaking church has no entry of its own, and the rupture runs inside the Philippine entry, most of which stayed Catholic. The sentences themselves are supported by Achútegui and Bernad and by Schumacher (repo-cited), so no prose change is needed."
+  },
+  {
+   "n": 4,
+   "action": "fixed-differently",
+   "what": "The link is kept, not held. It is regraded Widely Accepted to Dominant Modern Reconstruction. Budge's 1928 table is relabeled secondary but keeps its file, lines and verbatim quote. The note now says the tree has no Coptic stage between 1300 and 1854. The missing middle movement is escalated as a map gap.",
+   "why": "Lead's ruling: no waiting. The type's test is that the same see continues. Budge's numbered line (85 in 1363 to 110 in 1854, nothing missing) shows that, but it is a modern compilation. No vendored original witness covers the span: Quatremère's al-Maqrizi extracts cover single fifteenth-century successions, and their dates clash with Budge. The Ethiopian 1650-1855 gap is escalated with it."
+  },
+  {
+   "n": 5,
+   "action": "fixed",
+   "what": "Regraded Documented to Inferential-Thin. The note now says the evidence covers one colonial Mexican devotion and is thin for the wider region.",
+   "why": "Neither entry's source list, and no other repo-cited work found, treats the colonial-to-republican continuity of popular Catholicism across the region. Taylor (1996) and CHC vol. 7 are colonial in scope. So the reviewer's fallback applies."
+  },
+  {
+   "n": 6,
+   "action": "fixed",
+   "what": "Drafted the-optina-elders-and-russian-ascetic-renewal 'continued as' the-russian-new-martyrs-and-the-catacomb-church, at Inferential-Thin. The note says the sources stop long before 1917. Disposition 8's reason is corrected.",
+   "why": "The continuesAs field names the later entry, the same basis as the Coptic, Catholic and Ethiopian continuations. A search of cic/texts for Optina and Kozelsk finds nothing after 1912. The loose type fit (a monastery carried into a whole persecuted church) is escalated as layout."
+  },
+  {
+   "n": 7,
+   "action": "fixed",
+   "what": "Drafted catholic-church-long-nineteenth-century 'in contact with' church-of-the-east-chaldean-consolidation, Documented, on Badger 1852. It is major (rule-changed): Rome confirmed Mutran Hanna only if he made none of his relatives bishops. Outcome added.",
+   "why": "Badger 8646-8650 (recognition and condition), 8749-8753 (pallium, in Kas Michael's account), 7331-7334 ('Consequent abolition of hereditary succession') and 8755-8760. The match follows the Haiti and Latin America practice. No vendored text dates the act to 1830, so neither the note nor the outcome gives a year."
+  },
+  {
+   "n": 8,
+   "action": "fixed",
+   "what": "Drafted victorian-church-of-england 'gave rise to' and catholic-church-long-nineteenth-century 'gave rise to' east-african-christianity-uganda-martyrs, both Dominant Modern Reconstruction. Dispositions 194 and 197 are corrected.",
+   "why": "The East African text alone names both missions, so part 2 owns both links. The Victorian text names no African mission, and no part-1 text names Buganda (checked across all movement texts). No vendored text covers the missions. The links rest on Hastings 1994 and Ward 1991, which are cited in the repo in this movement's source list in the atlas prototype. Ward and Wild-Wood, and Peterson, cover only the later revival, so they are not used."
+  },
+  {
+   "n": 9,
+   "action": "fixed-differently",
+   "what": "Drafted the-kollyvades-and-greek-renewal 'influenced' russian-church-synodal-century at Widely Accepted, not Inferential-Thin. It rests on a vendored witness the reviewer did not name. Theophan's Russian version, which no source on the link shows, is left out of the note and listed in wants. Disposition 17 is corrected.",
+   "why": "The 1847 Optina preface (lines 99-101, 118-123, 130-133) shows the Russian Church having Paisius's Slavonic translation from the Greek checked at the Alexander Nevsky Academy. It was then printed at the Moscow Synodal Press, and printed again through Philaret of Moscow's efforts. That is the Russian Church using the anthology in this period. It falls short of Documented: the preface does not name the 1782 Venice printing, and Paisius worked partly from manuscripts."
+  },
+  {
+   "n": 10,
+   "action": "fixed-differently",
+   "what": "All three notes now speak of the evidence: 'Beyond that book the evidence is thin'; 'The sources cited show the diocese being founded, but nothing of it after 1842'; 'That tie rests on their work' (the historians'). No note in the file keeps holdings wording.",
+   "why": "The reviewer's Alaska wording ('Its later moves to San Francisco and New York are not shown') would still state those moves as fact, and no source on the link shows them. Every note in the file was also checked for holdings wording; none is left."
+  },
+  {
+   "n": 11,
+   "action": "fixed",
+   "what": "Every note now has three sentences or fewer: links 0, 3, 5, 10, 12, 13, 23, 24, 25, 26 and 27, and the rewritten 17 and 19. Each stays within about 25 words a sentence.",
+   "why": "Counted by sentence-ending punctuation, ignoring initials (F. C., W. A., E. A.)."
+  },
+  {
+   "n": 12,
+   "action": "fixed-differently",
+   "what": "'they and the Old Catholics agreed on the Filioque'.",
+   "why": "American usage. The reviewer's 'agreed on a statement on the Filioque' would make the sentence 26 words long, so it is cut."
+  },
+  {
+   "n": 13,
+   "action": "fixed",
+   "what": "Outcome: 'In 1839 the Russian Holy Synod took the Greek Catholic bishops, priests and people of Russia's western lands into the Russian Church. The emperor confirmed it.'",
+   "why": "Matches the source's 'western districts of Russia' and 'confirmed by the supreme resolution of His Majesty'."
+  },
+  {
+   "n": 14,
+   "action": "fixed",
+   "what": "The note now says Binns's history carries the church. The Kebra Nagast manuscript shows only that the line of Christian kings ran on.",
+   "why": "Budge 1922, lines 1128-1221, is about kings, envoys and the manuscript."
+  },
+  {
+   "n": 15,
+   "action": "fixed",
+   "what": "The quote now ends at 'expounded Catholic teaching' (lines 40413-40414).",
+   "why": "The next words run into OCR noise ('soci- CLICS) wea'). There is no clean clause end later."
+  },
+  {
+   "n": 16,
+   "action": "fixed",
+   "what": "New prose change on the Optina legacy: 'made available to Russian readers'. The whole field is split to the reading target.",
+   "why": "It now matches prose changes 0 and 1."
+  },
+  {
+   "n": 17,
+   "action": "fixed-differently",
+   "what": "'Many complaints were made that the label slandered them.'",
+   "why": "The source says 'Many complaints have been made', so the reviewer's 'Some' understates it. Neither form names who made the complaints."
+  },
+  {
+   "n": 18,
+   "action": "fixed",
+   "what": "'It became their standard example of a church that held together with no clergy and no protection at all.'",
+   "why": "'Example' is no stronger than the old text's 'a standard illustration'."
+  },
+  {
+   "n": 19,
+   "action": "fixed",
+   "what": "The Budge 1898 source now has its file, lines 534-536 and a verbatim quote, and is labeled as Budge's own comment. The note's last sentence now cites Budge's comment, so it no longer stands as a bare claim.",
+   "why": "This is the source shape the brief requires, and the quote check now covers it."
+  }
+ ],
+ "links": [
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "from": "desert-monasticism",
+   "to": "the-kollyvades-and-greek-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice, a book of old Greek writings on prayer. It opens with counsels credited to Antony the Great. It also holds works by Evagrius and by John Cassian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893, ed. Tzelatis), title page: the Venice edition",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "38-40",
+     "locus": "Philokalia I, title page",
+     "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίότου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), editor's dedication to the fathers of Athos: Nikodemos and Macarius as its first editors",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "147-153",
+     "locus": "Philokalia I, dedication",
+     "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιόλίων τὸν αὐτοῦ βίον καταδαπα- νήσας, καὶ δὴ καὶ εἰς τὰν τῆς παρούσης βίδλου οὐκ ἐλάχιστα εἰσενέγκας καὶ κα- ταθαλών, ὅτε ταύτην σὺν τῷ τῆς Κοριν- θίας ᾿Αγίῳ Μακαρίῳ ἐξεδίδου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: the prooimion, then Antony",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58621-58628",
+     "locus": "Philokalia I, contents (Antony)",
+     "quote": "Προοίμιον εἰς τὴν παροῦσαν Βίδλον Φύλ. Τοῦ ἐν ᾿Αγίοις Πατρὸς ἡμῶν ᾿Αν- τωνίου τοῦ Μεγάλου, παραινέσεις περὶ ἤθους ἀνθρώπων, καὶ χρη- στῆς πολιτείας ἐν χεφαλαίοις ἑχατὸν ἑόδομιήχοντα.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), heading of Antony's counsels",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "1017-1020",
+     "locus": "Philokalia I, Antony",
+     "quote": "ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ ΠΑΡΑΙΝΈΣΕΙΣ ΠΕΡῚ ἩΘΟΥ͂Σ ἈΝΘΡΏΠΩΝ, ΚΑΙ ΧΡΗΣΤῊΗΣ ΠΟΛΊΤΕΙΑΣ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Isaiah the Anchorite",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58630-58632",
+     "locus": "Philokalia I, contents (Isaiah)",
+     "quote": "Τοῦ ᾿Αγίου Ἡσαΐου τοῦ ᾿Αναχω- ρητοῦ περὶ τηρήσεως νοὸς Κεφα- λαια εἴκοσι ἑπτά.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Evagrius",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58634-58636",
+     "locus": "Philokalia I, contents (Evagrius)",
+     "quote": "Εὐαγρίου Μοναχοῦ ὑποτύπωσις Νο- ναχικὴ διδάσχουσα πῶς δεῖ ἀ-- σχεῖν, χαὶ ἡσυχάζειν.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: John Cassian",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58646-58647",
+     "locus": "Philokalia I, contents (Cassian)",
+     "quote": "Τοῦ ᾿Αγίου Κασσιανοῦ τοῦ Ῥω- μαίου Λόγος, πρὸς Κάστορα,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bingaman and Nassif (eds.), The Philokalia: A Classic Text of Orthodox Spirituality (Oxford University Press, 2012), for the Venice printing of 1782",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "named_in_text": "not named in the Kollyvades text; an existing link from eras 1-5 touching this movement",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The sources show a compilation that took up older writings; a compilation is not an institutional act."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Re-read the Venice title-page line, the dedication naming Nikodemos with Macarius, and the contents lines for Antony, Isaiah, Evagrius and Cassian in the 1893 volume: they still show the claim.",
+    "The 170 chapters 'of Antony' are of doubtful authorship; the note already says 'credited to Antony', which is right."
+   ],
+   "change_reason": "Round 1 (finding 11): note cut from four sentences to three; id, ends, type, grade and sources unchanged."
+  },
+  {
+   "id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1839 the Holy Synod printed an account of the Greek Catholics of its western lands. It called their union with Rome 'the schism'. The Synod received their bishops, clergy and people into the Russian Church, and the emperor confirmed it that March.",
+   "outcome": "In 1839 the Russian Holy Synod took the Greek Catholic bishops, priests and people of Russia's western lands into its church. The emperor confirmed it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19780-19782",
+     "locus": "Notes, IV, heading",
+     "quote": "IV. An account of the re-union of the Uniates with the Orthodox Church in the Russian Empire. St. Petersburg Synodal Press, 1839. Printed by the direction of the Most Holy Synod.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19788-19791",
+     "locus": "Notes, IV",
+     "quote": "The schism, which has been called the Unia, began in the western districts of Russia in 1 596, through the defection of some part of the clergy at a council held at Brest-Litofsky from the orthodox faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20203-20209",
+     "locus": "Notes, IV",
+     "quote": "decided to receive the bishops, the priesthood, and the whole flock hitherto belonging to the Greek Uniate Church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20220-20226",
+     "locus": "Notes, IV",
+     "quote": "the report of the Synod was confirmed by the supreme resolution of His Majesty, written with his own hand: \"m I thank God, and accept it.\"",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-synodal-century longDescription and why ('a policy of religious uniformity that pressed hard on ... Eastern Catholics'); the Greek Catholic movement's relationsSummary also names it",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20203-20210",
+     "text": "decided to receive the bishops, the priesthood, and the whole flock hitherto belonging to the Greek Uniate Church into the full and entire communion of the Holy Orthodox, Catholic, Eastern Church, and into an inseparable union with the Church of All the Russias,"
+    },
+    "reason": "The Synod decided to receive the whole Greek Uniate church into the Russian Church, and the emperor confirmed it: a settlement changed by an authority."
+   },
+   "wants": [
+    "A Greek Catholic or Roman account of the Polotsk act of 1839, so the other side is heard in its own words"
+   ],
+   "drafter_flags": [
+    "This is the Synod's own official account, printed by its direction; it presents the transfer as willing. The Greek Catholic movement's text says some of the later Chełm transfer was forced. The note does not call the 1839 act voluntary.",
+    "Type: 'argued against' rests on the account naming the union 'the schism' and on the Synod's act ending it in Russia. The bishops' own Polotsk act (lines 20420-20424) shows the Greek Catholic side seeking reunion, so 'broke with' is not used.",
+    "'Greek Catholics of its western lands' renders the account's 'Greek Uniates inhabiting the western districts of Russia' (lines 20225-20226)."
+   ],
+   "change_reason": "Round 1 (finding 13): outcome reworded to the source's 'western districts of Russia' and 'confirmed'."
+  },
+  {
+   "id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1861 the Russian Church sent the monk Nikolai to Hakodate in Japan. He built a Japanese Orthodox church, served mostly by Japanese priests, one of three kinds of Christian church in Meiji Japan. This rests on modern histories.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, ed., Handbook of Christianity in Japan (Leiden, 2003)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kennosuke Nakamura, Senkyōshi Nikorai to Meiji Nihon (Tokyo, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "russian-church-synodal-century relationsSummary ('Sent missions ... to Japan (from 1861, under Nikolai)'), longDescription and legacy",
+   "wants": [
+    "Nikolai of Japan's diaries (1870-1911) or his reports to the Synod, or a pre-1930 English account of the Orthodox mission in Japan"
+   ],
+   "drafter_flags": [
+    "No vendored text names Nikolai or the Japan mission. Both secondary works are cited in the repo (the Japanese movement's story on Nikolai) but were not opened here; the grade is the highest the repo supports, though the facts themselves are not in dispute among historians.",
+    "Type: the Japanese movement has three strands (Catholic, Protestant, Orthodox). Only the Orthodox strand came out of the Russian Church; the note says so. A reviewer may prefer 'influenced'."
+   ],
+   "change_reason": "Round 1 (finding 11): note cut to three sentences; 'What we know' reworded to speak of the evidence."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "action": "new",
+   "from": "the-optina-elders-and-russian-ascetic-renewal",
+   "to": "emigre-orthodoxy-and-the-paris-school",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The Russian exiles took Optina's memory abroad, and in 1926 a press in Paris printed a book on its past by Sergii Chetverikov. Beyond that book the evidence is thin. The Paris thinkers had other roots too, such as Bulgakov.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergii Chetverikov, Optina Pustyn': istoricheskii ocherk (Paris: YMCA Press, 1926)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "unverified",
+   "named_in_text": "the-optina-elders-and-russian-ascetic-renewal relationsSummary ('Its spirituality carried forward into twentieth-century émigré Orthodox theology') and legacy ('carried into the émigré theology of twentieth-century Paris')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A teaching taken up abroad; no institutional act."
+   },
+   "wants": [
+    "Sergii Chetverikov, Optina Pustyn' (Paris, YMCA Press, 1926), found on archive.org and public domain by date under the project's rule, not yet vendored",
+    "A Paris-school text that names Optina, if one enters the public domain"
+   ],
+   "drafter_flags": [
+    "Chetverikov's book is known here only from the Paisius source dossier (title, place, date); it was not opened. It is really a primary witness of émigré reception, listed as secondary because it is not vendored.",
+    "The era-10 source research notes that the Paris school's roots run at least as much through Bulgakov and Berdyaev as through Optina; the émigré movement's own text says the same.",
+    "Era 10 has not run, so this era-9-named link is ours."
+   ],
+   "change_reason": "Round 1 (findings 10, 11): 'the proof we have' replaced by a statement about the evidence; note cut to three sentences."
+  },
+  {
+   "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "action": "new",
+   "from": "alaskan-mission-herman-veniaminov",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "named_in_text": [
+    "alaskan-mission-herman-veniaminov legacy"
+   ],
+   "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. The sources cited show the diocese being founded, but nothing of it after 1842. So the line to the later church is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's note on the dioceses (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19190-19193",
+     "locus": "Notes, list of sees, translator's addition of 1842",
+     "quote": "To the above list are further to be added the following dioceses, which have been erected since 1830: — 1. Simbirsk; 2. Polotsk; 3. Tomsk; 4. The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "unverified",
+   "wants": [
+    "A vendored or repo-cited history of the Russian diocese in America: its seat moved to San Francisco (1872) and New York (1905), the Metropolia, and the 1970 autocephaly of the Orthodox Church in America",
+    "The 1970 tomos of autocephaly granted to the Orthodox Church in America, in a vendored text"
+   ],
+   "drafter_flags": [
+    "The line from the Alaska diocese to the OCA is standard history, but no vendored text and no repo-cited secondary traces it, so it is graded Inferential-Thin. A repo-cited history would lift it to Widely Accepted.",
+    "Sixty-four-year gap between the two movements (1906-1970); 'gave rise to' rather than 'continued as' for that reason."
+   ],
+   "change_reason": "Round 1 (finding 10): 'We hold a record' replaced by a statement about the evidence. The reviewer's wording named the moves to San Francisco and New York as fact; no source on the link shows them, so they are left out of the note (still in wants)."
+  },
+  {
+   "id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   "action": "new",
+   "from": "armenian-christianity-zartonk",
+   "to": "the-armenian-church-after-the-genocide-medz-yegh",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "named_in_text": [
+    "armenian-christianity-zartonk legacy"
+   ],
+   "note": "Malachia Ormanian, once patriarch of Constantinople, wrote a book on his church that came out in English in 1912. He showed it still run by a national assembly, and put its people at about four million. Raymond Kévorkian's 2011 history follows the same church through the genocide of 1915.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "6916-6919",
+     "locus": "ch. on the lay element in administration",
+     "quote": "By virtue of this constitution, the chief direction of affairs was entrusted to a national assembly invested with legislative powers and control,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "9028-9029",
+     "locus": "ch. 'The External Aspect', p. 213",
+     "quote": "To-day they are no more than four millions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Raymond Kévorkian, The Armenian Genocide: A Complete History (I.B. Tauris, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Grigoris Balakian, Armenian Golgotha (Armenian original, 1922), in a vendored edition, as an eyewitness of 1915 from inside the church",
+    "Raymond Kévorkian (2011), read and cited by page for the fate of the Patriarchate of Constantinople in 1915"
+   ],
+   "drafter_flags": [
+    "Ormanian's book is a French work of 1910 by the patriarch of 1896-1908, a synthesis rather than a document, but a witness to the church's state in his own day.",
+    "No vendored text covers the years after 1912; the continuity past 1915 rests on Kévorkian (cited in the repo's era-10 source research, not read here). Graded Widely Accepted on that basis; if the reviewer will not accept an unread secondary, drop to Inferential-Thin.",
+    "A nine-year gap separates the entries (1906-1915)."
+   ],
+   "change_reason": "Round 1 (finding 11): note cut to three sentences; no fact changed."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "old-catholic-churches-union-of-utrecht",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In August 1870 a declaration signed at Nuremberg refused to accept the new Vatican decrees. In 1889 five Old Catholic bishops met at Utrecht and rejected them in writing. In 1893 Pope Leo XIII cast out Gerard Gul, the new archbishop of Utrecht, and said all who backed him were in schism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nuremberg Declaration, 26 August 1870, in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911), no. 585",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "30946-30970",
+     "locus": "Mirbt no. 585",
+     "quote": "Diese Sätze vermögen wir nicht als Aussprüche eines wahrhaft ökumenischen Konzils anzuerkennen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Declaration of Utrecht, 24 September 1889, in Mirbt, Quellen (1911), no. 588: heading and signatories",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31196-31199",
+     "locus": "Mirbt no. 588, heading",
+     "quote": "Unterzeichnet von den zu einer Konferenz in Utrecht versammelten altkath. Bischöfen:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Declaration of Utrecht, 24 September 1889, art. 2, in Mirbt, Quellen (1911), no. 588",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31208-31211",
+     "locus": "Mirbt no. 588, art. 2",
+     "quote": "Als mit dem Glauben der alten lürche in Widerspruch stehend und die kirchliche Verfassung zerstörend ver- werfen mr die vatikanischen Dekrete vom 18. Juli 1870 über die Unfehlbarkeit und den Universal-Episkopat oder die kirchliche Allgewalt des römischen Papstes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mirbt, Quellen (1911), no. 533, editor's note on the election of Gerard Gul, 1892",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "27796-27798",
+     "locus": "Mirbt no. 533",
+     "quote": "am 24. Febr. 1892 der Kanoniker Gerard Gul von dem Kapitel gewählt, am 11. Mai durch den Bischof Casper Kinkel konsekriert und durch folgendes Schreiben verflucht:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo XIII, letter Dolentes equidem animo, 28 February 1893, in Mirbt, Quellen (1911), no. 533",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "27808-27810",
+     "locus": "Mirbt no. 533",
+     "quote": "eos onmes et singulos excommunicamus, ana- thematizamus, atque ab ecclesiae communione segregatos et prorsus schismaticos habendos et evitandos esse constituimus, edicimus, pronuntiamus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Albert Howard, The Pope and the Professor: Pius IX, Ignaz von Döllinger, and the Quandary of the Modern Age (Oxford, 2017)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.relationsSummary",
+    "old-catholic-churches-union-of-utrecht.longDescription",
+    "old-catholic-churches-union-of-utrecht.why",
+    "catholic-church-long-nineteenth-century.legacy"
+   ],
+   "wants": [
+    "Döllinger's letter to Archbishop Scherr (28 March 1871) and the Munich decree of excommunication (17 April 1871): the 1871 rupture the text names, not vendored"
+   ],
+   "drafter_flags": [
+    "Both sides recorded the rupture in vendored text: the Old Catholic side in 1870 and 1889, Rome's side in Leo XIII's 1893 excommunication of the Utrecht archbishop and all who adhered to him. The 1871 excommunication of Döllinger, which the text names, is not vendored; it rests on Howard 2017 and Moss 1948, cited in the entry's own story but not rechecked.",
+    "Considered 'gave rise to' as well (the Catholic legacy says the Catholics who could not accept 1870 'became the Old Catholics'). Kept one link: the rupture is what both sides' texts record.",
+    "Mirbt's OCR spells 'lürche' (Kirche) and 'mr' (wir); quoted as printed."
+   ],
+   "change_reason": "Round 1 (finding 11): last two sentences joined; no fact changed."
+  },
+  {
+   "old_index": null,
+   "id": "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+   "action": "new",
+   "from": "old-catholic-churches-union-of-utrecht",
+   "to": "victorian-church-of-england",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Döllinger called a meeting at Bonn in 1874 to work for church unity. English members came, among them Bishop Harold Browne of Winchester and Dean Howson of Chester. When they met again in 1875, Howson spoke for some evangelical Anglicans on one point about the Lord's Supper.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Fourteen Theses of the Bonn Union Conference, 1874",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43862-43864",
+     "locus": "Bonn Conference 1874, headnote",
+     "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr. Dijlliuger, of Munich (in behalf of a Christian Union Committee of the Old Catholic Congress), and held in the University at Bonn, Sept. 14-16,1874.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote: members of the 1874 Bonn Conference",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43868-43869",
+     "locus": "Bonn Conference 1874, list of members",
+     "quote": "3. English Episcopalians: Bishop Edward Hauold Beowne, of Win- chester, Dean J. S. Howson, of Chester",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), note 3 to art. XIV of the Bonn Theses, with Howson's protest of 1875",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "44414-44420",
+     "locus": "Bonn Theses art. XIV, n. 3",
+     "quote": "Dean Ilowson, of Chester, at the second Bonn Conference, held a year afterwards, entered, in behalf of some evangelical Anglicans, the following protest against a possible Romanizing interpretation of this Article",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reunion conference with shared theses that bound no church; no council act, split or rule change."
+   },
+   "wants": [
+    "Bonn Agreement of 1931 (text): the full communion the text names; it falls after both movements' dates"
+   ],
+   "drafter_flags": [
+    "Schaff's OCR mangles names ('Hauold Beowne' = Harold Browne; 'Ilowson' = Howson); the note uses the correct spellings.",
+    "The 1931 Bonn Agreement is outside both movements' date ranges and has no later Church of England entry; it is left in the prose, supported by Moss 1948 (repo-cited, not rechecked)."
+   ],
+   "change_reason": "Round 1 (finding 11): note cut to three sentences; no fact changed."
+  },
+  {
+   "old_index": null,
+   "id": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies",
+   "action": "new",
+   "from": "old-catholic-churches-union-of-utrecht",
+   "to": "orthodoxy-after-1821-balkan-autocephalies",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Greek Orthodox members, among them Professor Rhossis of Athens, sat at the Bonn meeting Döllinger called in 1874. At the second meeting, in 1875, they and the Old Catholics agreed on the Filioque, a phrase the West added to the Creed. It leaned toward the Greek view.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Fourteen Theses of the Bonn Union Conference, 1874",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43862-43864",
+     "locus": "Bonn Conference 1874, headnote",
+     "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr. Dijlliuger, of Munich (in behalf of a Christian Union Committee of the Old Catholic Congress), and held in the University at Bonn, Sept. 14-16,1874.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote: members of the 1874 Bonn Conference",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43866-43868",
+     "locus": "Bonn Conference 1874, list of members",
+     "quote": "2. Orthodox Russians and Greeks : Jon. Janysohew, Rector of the Ecclesiastical Academy of St. Petersburg, Alexandek Kieejew, Tueodob ton Sükhotin, Aksenifs Tatciialoff, Professor Ruossis, of Athens.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bonn Conference 1874, preliminary thesis on the Filioque, in Schaff, Creeds of Christendom vol. 2 (1877)",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43893-43895",
+     "locus": "Bonn 1874, preliminary thesis",
+     "quote": "'We agree that the way in which the \"Fili- oque\" was inserted in the Nicene Creed was illegal",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Old Catholic Agreement on the Filioque, 1875",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "44446-44448",
+     "locus": "Bonn 1875, headnote",
+     "quote": "At the second Düllinger Union Conference between Old Catholics, Orientals, and Anglo-Catholics, held at Bonn, Prussia, Aug. 10-16, 1S75, the following agreement on the old Filioque Controversy, essen- tially in favor of the Greek view, was adopted",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reunion conference whose agreement still awaited the churches' sanction (Schaff, 44448-44449); no council act, split or rule change."
+   },
+   "wants": [
+    "Reusch's official reports of the 1874 and 1875 Bonn conferences (full lists of Greek participants and whom they represented)"
+   ],
+   "drafter_flags": [
+    "Schaff lists 'Orthodox Russians and Greeks' and names Professor Rhossis ('Ruossis', OCR) of Athens; he does not say which church each Greek represented. Matched to the Balkan/Greek Orthodox entry; a reviewer may judge this match too broad.",
+    "The note's gloss of the Filioque ('a phrase the West added to the Creed') rests on the 1874 thesis that it 'was inserted in the Nicene Creed'."
+   ],
+   "change_reason": "Round 1 (findings 11, 12): 'agreed a statement' (British usage) becomes 'agreed on the Filioque', which also brings the sentence under the length rule."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "the-catholic-church-pius-x-to-the-council",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In February 1906 Pope Pius X wrote to the bishops, clergy and people of France about the new law that cut church from state. He called Leo XIII his illustrious predecessor and pointed to his teaching on church and state. The same Roman see and church carried on into the new century.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906 (Vehementer nos), English in Anderson, Constitutions and Documents of France (2nd ed., 1908), no. 138B",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40322-40337",
+     "locus": "Anderson no. 138B, address",
+     "quote": "To the archbishops, bishops, clergy and people of France.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906, in Anderson (1908), no. 138B",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40413-40414",
+     "locus": "Anderson no. 138B",
+     "quote": "Our illustrious predeccessor, Leo XIII, especially, has frequently and splendidly expounded Catholic teaching",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906, in Anderson (1908), no. 138B, subscription",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40632",
+     "locus": "Anderson no. 138B, end",
+     "quote": "Signed, Pius X, Pope,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "catholic-church-long-nineteenth-century.continuesAs field",
+    "catholic-church-long-nineteenth-century.legacy"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "The second quote ends mid-word ('soci-') at the line break; the vendored line ends there. A reviewer may prefer it cut at 'Catholic teaching'.",
+    "The OCR spells 'predeccessor'; quoted as printed, and the note does not quote it."
+   ],
+   "change_reason": "Round 1 (finding 15): second quote now ends at a clause boundary ('expounded Catholic teaching'), not mid-word."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "nineteenth-century-latin-american-catholicism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1862 Pius IX and Ecuador signed a pact in Rome that kept the state's faith Catholic. It tied every school to church teaching and let bishops alone pick the books for religion. In 1895 Pope Leo XIII ordered Mexico's Guadalupe image to be crowned in his name, part of a pull toward Rome that historians call \"Romanization.\"",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mirbt, Quellen (1911), no. 503: heading of the Concordat between Pius IX and the Republic of Ecuador, concluded at Rome, 26 September 1862",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25580-25582",
+     "locus": "Mirbt no. 503, heading",
+     "quote": "Das am 26. Sept. 1862 in Rom abgeschlossene Konkordat:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 1, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25584-25586",
+     "locus": "Mirbt no. 503, art. 1",
+     "quote": "Religio catholica apostolica Romana esse perget religio reipublicae Aequatoris",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 3, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25590-25594",
+     "locus": "Mirbt no. 503, art. 3",
+     "quote": "luventutis institutio in universitatibus, collegiis, facultatibus, scholis tarn publicis quam privatis erit sane conformis doc- trinae religio nis catholica e.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 3, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25592-25594",
+     "locus": "Mirbt no. 503, art. 3",
+     "quote": "Episcopi unice iure pollebunt designandi libros seu textus qui adhibendi sunt ad ecclesiasticas scientias tradendas atque ad institu- tionem, quae religionem moresque spectant.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Editors' note to Florencia, La Estrella del Norte de México (Guadalajara, 1895), on Leo XIII's grant of the coronation",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "8722-8727",
+     "locus": "ch. note (1), p. 177",
+     "quote": "Últimamente el Sr. León XIII, concedió nuero oficia y la Coronación que ha de hacerse de la Imagen de Guadalupe, el próxi- mo 12 de octubre del corriente año de 1895.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "251-253",
+     "locus": "Prólogo",
+     "quote": "Dentro de pocos días será una rea- lidad la Coronación de la Imagen de María Santísima de Guadalupe que se hará á nombre del Sumo Pontífice y por su mandato.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth P. Serbin, Needs of the Heart: A Social and Cultural History of Brazil's Clergy and Seminaries (Notre Dame, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "nineteenth-century-latin-american-catholicism.relationsSummary",
+    "nineteenth-century-latin-american-catholicism.longDescription"
+   ],
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25590-25594",
+     "text": "luventutis institutio in universitatibus, collegiis, facultatibus, scholis tarn publicis quam privatis erit sane conformis doc- trinae religio nis catholica e. Episcopi unice iure pollebunt designandi libros seu textus qui adhibendi sunt ad ecclesiasticas scientias tradendas atque ad institu- tionem, quae religionem moresque spectant."
+    },
+    "reason": "Article 3 of a concordat made by the pope and the republic sets rules by authority: all teaching shall conform to Catholic doctrine, and bishops alone shall choose the books for religion and morals. Article 1 only continues ('esse perget') the existing state religion, so the call no longer rests on it."
+   },
+   "outcome": "In 1862 Pope Pius IX and Ecuador agreed that every school would follow Catholic teaching. Only bishops would choose the books used to teach religion.",
+   "wants": [
+    "Acta et decreta Concilii Plenarii Americae Latinae (Rome, 1899/1900): the 1899 council the text names",
+    "Papal letters on recognition of the new republics' bishops (Leo XII, Gregory XVI), for 'Rome's slow recognition'"
+   ],
+   "drafter_flags": [
+    "Round 1: article 1 says Catholicism 'esse perget', shall continue to be, the state religion. The note now says 'kept', and the major call rests on article 3 (lines 25590-25594), which lays down new school and textbook rules in the future tense. The concordat's text does not say what rule stood before it; the call rests on its being a settlement fixed by the two authorities.",
+    "Article 3 also gives bishops the right to ban books and binds the government to keep such books out (lines 25594-25599). The outcome keeps to the school and textbook clauses.",
+    "Mirbt notes the concordat was set aside on 28 June 1878 (lines 25581-25582); neither note nor outcome claims it lasted.",
+    "The Guadalupe patronage decree in the prologue (lines 220-222) is undated, and the editors' note (lines 8722-8724) dates the confirmation of the patronage to Benedict XIV in 1754, which is colonial. It is dropped. The note now uses the dated Roman act of this period: Leo XIII's grant of the coronation, set for 12 October 1895 (lines 8725-8727), done 'in the name of the Supreme Pontiff and by his order' (lines 251-253).",
+    "'Rome (Holy See)' is matched to the long-nineteenth-century Catholic entry, as for Haiti and the Chaldean recognition.",
+    "Serbin 2006 is repo-cited for Brazil's 'Romanizing bishops'; not rechecked."
+   ],
+   "change_reason": "Round 1 (findings 1, 2): note and outcome no longer say the concordat made Catholicism the state religion (art. 1 continues it); the major call and outcome rest on art. 3, quoted in major.evidence. The undated patronage line is replaced by Leo XIII's dated grant of the 1895 coronation."
+  },
+  {
+   "old_index": null,
+   "id": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   "action": "new",
+   "from": "colonial-latin-american-devotional-catholicism",
+   "to": "nineteenth-century-latin-american-catholicism",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "In 1895 a priest in Guadalajara reprinted a book on the Guadalupe image written in the 1600s. He wrote that Mexican love for Our Lady of Guadalupe grew warmer in his own day. That shows one colonial devotion living on in the new Mexico, but for the rest of the region the evidence is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco de Florencia SJ, La Estrella del Norte de México, title page of the Guadalajara edition of 1895",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "96-100",
+     "locus": "title page",
+     "quote": "ESCRITA EN EL SIGLO XVII POR U P.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "218-220",
+     "locus": "Prólogo",
+     "quote": "Presenciamos con júbilo en nuestros días, que cada vez es más ferviente y obsequiosa la devoción de los mexicanos hacia la San- tísima Virgen María, bajo el título de Guadalupe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "258-262",
+     "locus": "Prólogo",
+     "quote": "No hemos podido hacer otra cosa en nuestra pe- quenez, sino reimprimir la apreciabilísima Historia Guadalupana escrita por el P. Francisco de Florencia, cuya obra es muy escasa.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "nineteenth-century-latin-american-catholicism.longDescription",
+    "nineteenth-century-latin-american-catholicism.why",
+    "nineteenth-century-latin-american-catholicism.legacy"
+   ],
+   "wants": [
+    "A nineteenth-century cofradía book or pastoral visitation from Spanish America or Brazil, for continuity beyond Mexico"
+   ],
+   "drafter_flags": [
+    "The inventory missed this: the text's 'much older popular Catholicism' and the confraternities and feasts that 'carried on much as before' name the colonial devotional world.",
+    "Round 1 (finding 5): regraded from Documented to Inferential-Thin. The vendored evidence is one Mexican devotion and its colonial book. Neither entry's source list, nor any other repo-cited work found, treats the colonial-to-republican continuity of popular Catholicism across the region, so Widely Accepted is out of reach. The note now says what the evidence covers.",
+    "De la Rosa is a canon of Guadalajara cathedral (lines 109-117); the note calls him 'a priest'. The era-8 text does not name this relationship, so it is not era 8's."
+   ],
+   "change_reason": "Round 1 (finding 5): regraded Documented to Inferential-Thin; the note says the evidence covers one Mexican devotion."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "action": "remove",
+   "change_reason": "Round 1 (finding 3): wrong pair. The church that broke from Rome, the Iglesia Filipina Independiente, has no entry of its own; it sits inside the Philippine Catholic entry, most of whose church stayed Catholic, and the one Catholic-side act in the note (the 1899 excommunication) came from the archbishop of Manila, inside that same entry. A 'broke with' link would tell the map that the Philippine church as a whole split from Rome. Never published, so it is dropped, not retired. Whether the Independent Church needs its own entry is escalated."
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "coptic-revival-under-cyril-iv",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A list of the Coptic patriarchs of Alexandria, printed by E. A. Wallis Budge in 1928, runs as one numbered line from the 1300s to 1854. It counts the reformer who took office in 1854 as the 110th, naming him Cyril V, though most lists call him Cyril IV. This tree shows no other Coptic stage between 1300 and 1854, so the line here spans five centuries and rests on modern lists.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 85-86 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2827-2831",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 85-86",
+     "quote": "THE JACOBITE PATRIARCHS OF ALEXANDRIA 85 John X 1363-1369 86 Gabriel IV 1370-1378",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 108-110 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2855-2857",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 108-110",
+     "quote": "108 Mark VIII 1796-1809 tog Peter VII 1809-1852 110 Cyril V 1854-1861",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "coptic-revival-under-cyril-iv relationsSummary ('Continuation of the long Egyptian lane')",
+    "coptic-christianity-fatimid-to-mamluk legacy ('it runs unbroken through this period'; does not name the later movement)"
+   ],
+   "wants": [
+    "The History of the Patriarchs of the Coptic Church, its later continuations (fourteenth to nineteenth centuries): the line of patriarchs from the original side, not a modern table"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 4): Budge's 1928 table is an editor's compilation, so it is now listed as a secondary (with its file, lines and a verbatim quote, as the Conybeare source on the Old Believers link is) and the grade is Dominant Modern Reconstruction. No vendored original witness was found for the see across 1300-1854: Quatremère 1811 quotes al-Maqrizi on single fifteenth-century successions only (e.g. lines 9703-9707), and its year for the death of Matthew does not match Budge's table, so it is not cited.",
+    "The type's test, continuity of the same see, is what Budge's numbered line shows: entries 85 to 110 run without a missing number, though OCR garbles nos. 99-101 (lines 2843-2845).",
+    "Lead's guidance: kept without waiting for a ruling, and the missing middle Coptic movement is escalated as a map gap. The note says plainly that no Coptic stage stands between.",
+    "OCR reads '109' as 'tog'; the quote keeps the OCR exactly.",
+    "Budge names the 1854-1861 patriarch 'Cyril V'; most modern lists, and this movement's own text, call him Cyril IV. The note says so."
+   ],
+   "change_reason": "Round 1 (finding 4): regraded Widely Accepted to Dominant Modern Reconstruction, Budge's table now a secondary; the note says the tree has no Coptic stage between; map gap escalated. Kept per the lead, not held."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "the-coptic-monastic-and-sunday-school-revival",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The same Coptic church carried Cyril IV's work on into the next century. Historians trace its Sunday-school movement back to the schools of this time. Habib Girgis taught from the 1890s, and around 1918 he built the movement across the whole church.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bishop Suriel, Habib Girgis: Coptic Orthodox Educator and a Light in the Darkness (SVS Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "coptic-revival-under-cyril-iv continuesAs field, relationsSummary ('parent of the Sunday School revival'), longDescription ('the schools that would eventually produce the twentieth-century Sunday School movement'), why ('laid the ground for the Sunday School movement') and legacy ('grew out of Cyril's schools, formally organized from 1918')",
+    "the-coptic-monastic-and-sunday-school-revival relationsSummary and longDescription (Habib Girgis, 'organized around 1918'; does not name the earlier movement)"
+   ],
+   "wants": [
+    "Habib Girgis's own writings and the records of the General Sunday School Committee (c. 1918), Arabic",
+    "Records of Cyril IV's Patriarchal school (1855) and of the majlis milli (1874)"
+   ],
+   "drafter_flags": [
+    "No vendored text covers the Coptic church after 1895, so the link rests on the repo-cited secondaries only. The continuity of the church itself is not in doubt; once a primary on Girgis's schools is vendored it can go to Widely Accepted.",
+    "Girgis teaching from the 1890s and the 1918 organization come from the era-10 source research (Suriel verified there at the year level); no page number is given.",
+    "A 34-year gap (1906 to the 1940s) lies between the two movements; the era-10 movement's own text already names Girgis inside it."
+   ],
+   "change_reason": "Round 1 (finding 11): note cut to three sentences; no fact changed."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "ethiopian-christianity-tewodros-to-menelik",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A panel painted in Cairo in 1894 shows the funeral of King John of Ethiopia, with Bishop Athanasius riding behind him. Its writing calls the king 'the son of Abba Cyril', the Coptic patriarch who sits 'on the throne of Mark'. Budge wrote in 1898 that this patriarch had always appointed the head of the Ethiopian church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), painted in Cairo, 1894, described and its inscription translated by E. A. Wallis Budge, The Lives of Maba' Seyon and Gabra Krestos (1898), chapter on the illustrations",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1703-1709",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii",
+     "quote": "wooden panel upon which is depicted the funeral of King John.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), painted in Cairo, 1894, described and its inscription translated by E. A. Wallis Budge, The Lives of Maba' Seyon and Gabra Krestos (1898), chapter on the illustrations",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1708-1709",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii",
+     "quote": "After the king rides Bishop Athanasius,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), Budge's note on its date (1898)",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1718",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii, note 1",
+     "quote": "It was painted by an Abyssinian artist living in Cairo in 1894.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), inscription in the tablet, trans. Budge (1898)",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1732-1734",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxiii",
+     "quote": "the King of Kings, John of Ethiopia, the King of Zion, the son of Abba Cyril, the Archbishop, who sitteth on the throne of Mark, the orthodox one",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Lives of Maba' Seyon and Gabra Krestos (1898), on the abun (Budge's own comment)",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "534-536",
+     "locus": "Introduction, on Frumentius and the abun",
+     "quote": "thus it came to pass that for centuries the Abuna, or head of the Ethiopian church, was always appointed by the patriarch of the Coptic Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Binns, The Orthodox Church of Ethiopia: A History (I.B. Tauris, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "ethiopian-christianity-tewodros-to-menelik longDescription ('its church still receiving its head, the abun, from the Coptic patriarch in Egypt'), why ('had to receive its own head, the abun, from the Coptic patriarch in Egypt') and legacy ('ending sixteen centuries of taking its head from Alexandria')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A standing tie between two churches shown by an inscription; no council, split or changed rule in the link's own sources."
+   },
+   "wants": [
+    "A record of Cyril IV's own mission to Tewodros in 1856-57 (patriarchate records or a contemporary account)",
+    "A royal chronicle of Yohannes IV, for the four bishops sent from Alexandria in 1881"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: the inscription names the patriarch as the king's spiritual father but is not a letter or meeting. Budge's 1898 remark that the abun 'was always appointed by the patriarch of the Coptic Church' is his own comment and is listed as a secondary.",
+    "The 'Abba Cyril' of the inscription is the patriarch of King John's reign (Cyril V, from 1874), not Cyril IV, who died in 1861; the note says only that he was the head of the Coptic church, which the phrase 'throne of Mark' supports. Budge's own list numbers patriarchs differently; see the Coptic continued-as link.",
+    "The panel was painted after John's death in 1889 (the inscription asks the Redeemer to 'receive him'). The note says 1894 and 'funeral'.",
+    "Cyril IV's 1856 journey to Tewodros is well known but not in any vendored text, so it is not in the note; in wants."
+   ],
+   "change_reason": "Round 1 (findings 11, 19): note cut to three sentences, its last sentence now tied to Budge's 1898 comment; that source given file, lines and a verbatim quote instead of a file named inside the work string."
+  },
+  {
+   "id": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity",
+   "from": "ethiopian-christianity-tewodros-to-menelik",
+   "to": "modern-ethiopian-and-eritrean-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "John Binns's history traces the same Ethiopian church on into the twentieth century. A royal book shows the line of Christian kings running on too: British soldiers took a copy of the Kebra Nagast from Magdala in 1868. It went back to King John in 1872, and Menelik II later showed it to a French envoy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Queen of Sheba and her only son Menyelek (Kebra Nagast) (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1128-1131",
+     "locus": "Introduction, p. xxv",
+     "quote": "the great collection of Ethiopic manuscripts, which the British Army brought away from Makdala after the defeat and suicide of King Theodore, was brought to the British Museum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "King John IV, letter to Earl Granville, 10 August 1872, quoted by Budge (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1142-1143",
+     "locus": "Introduction, p. xxv",
+     "quote": "On 10 Aug., 1872, Prince Kasa, who was subsequently crowned as King John IV, wrote to Earl Granville",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to the Kebra Nagast (1922), on the return of the manuscript",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1173-1174",
+     "locus": "Introduction, p. xxvi",
+     "quote": "the manuscript was restored to him on 14 December, 1872.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hugues Le Roux's account of his visit to Menelik II, as given by Budge (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1177-1179",
+     "locus": "Introduction, p. xxvi",
+     "quote": "M. Hugues Le Roux, a French envoy from the President of the French Republic to Menyelek II, King of Ethiopia, went to Addis Alem",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Binns, The Orthodox Church of Ethiopia: A History (I.B. Tauris, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "ethiopian-christianity-tewodros-to-menelik continuesAs field and legacy ('both things this century settled are still in place'; 'first Ethiopian bishops in 1929 and its own patriarch in 1959')",
+    "modern-ethiopian-and-eritrean-christianity longDescription ('entered the twentieth century as an ancient national church under a Coptic hierarchy')"
+   ],
+   "wants": [
+    "A royal chronicle of Menelik II (Gabra Sellase), for the church and court across 1900"
+   ],
+   "drafter_flags": [
+    "The vendored evidence runs 1868-1872 and to Menelik's reign, but Le Roux's visit is not dated in the file, so nothing here shows the year 1900 itself. The continuity of the church across 1900 rests on Binns (repo-cited, not page-checked).",
+    "Le Roux's account, as Budge gives it, says this is the same manuscript the British took and an ambassador returned to Emperor John (file lines 1205-1221, in French)."
+   ],
+   "change_reason": "Round 1 (findings 11, 14): the manuscript's story now shows only the kings' line; the church's continuity rests on Binns, as the reviewer asked. Three sentences."
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "from": "east-african-christianity-uganda-martyrs",
+   "to": "the-east-african-revival-balokole",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The East African Revival began around 1930 among Anglicans in Rwanda and Uganda, and from 1935 it held large meetings at Kabale. Historians see it growing out of the churches that missions and Baganda converts had built. That tie rests on their work.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward and Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival: A History of Dissent, c. 1935-1972 (Cambridge University Press, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "east-african-christianity-uganda-martyrs relationsSummary ('The revival movement that swept the same churches decades later grew out of this same soil') and legacy ('the revival that swept these same churches from the 1930s grew out of the same soil')",
+    "the-east-african-revival-balokole longDescription ('led by Africans inside the mission Anglicanism that had planted the church')"
+   ],
+   "wants": [
+    "Joe Church, Quest for the Highest (1981): the revival's start at Gahini, from the missionary side (in copyright)",
+    "Revival testimonies from the Kabale conventions (from 1935)"
+   ],
+   "drafter_flags": [
+    "Era 10 has not run, so this pair is drafted here although the revival's own text also speaks of 'mission Anglicanism'.",
+    "The revival began at Gahini in Rwanda, whose mission dates from the 1920s, after this movement's end; the tie runs through the Anglican church of Uganda. No secondary page is cited for the tie itself."
+   ],
+   "change_reason": "Round 1 (findings 10, 11): 'No text from either side is held here' replaced by a statement about the evidence; three sentences."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+   "action": "new",
+   "from": "the-optina-elders-and-russian-ascetic-renewal",
+   "to": "the-russian-new-martyrs-and-the-catacomb-church",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. The sources cited stop long before 1917. They say nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "333-336",
+     "locus": "preface, note on Leonid",
+     "quote": "начали приходить къ нему изъ разныхъ городовъ и селеній разнаго званія люди, изъ дворянъ, купцовъ, мѣщанъ и просто- народія — обоего пола",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Irina Paert, Spiritual Elders: Charisma and Tradition in Russian Orthodoxy (DeKalb, IL, 2010), cited for the Optina eldership, not for its fate after 1917",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-optina-elders-and-russian-ascetic-renewal continuesAs field",
+    "the-russian-new-martyrs-and-the-catacomb-church relationsSummary ('the Optina tradition carried through catastrophe'; era-10 text, era 10 has not run)"
+   ],
+   "wants": [
+    "Sergii Chetverikov, Optina Pustyn' (Paris, YMCA Press, 1926): the monastery's history to its closure",
+    "A Soviet or church record of Optina's closure (1918, or 1923 in most accounts) and of its monks' fate",
+    "The acts of the 2000 Jubilee Council canonization, for the Optina elders and monks named among the new martyrs"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 6): drafted. The continuesAs field names the later entry, as for the Coptic, Catholic and Ethiopian continuations this pass drafted, so the earlier reason ('this text does not name that movement') did not hold.",
+    "No vendored or repo-cited source found carries Optina past 1917 (search of cic/texts for Optina and Kozelsk). Hence Inferential-Thin, said plainly in the note.",
+    "Type fit is loose: the later entry is the whole Russian Church under Soviet rule, not the Optina community alone. The map's own continuesAs makes the claim; escalated as a layout question.",
+    "Paert is repo-cited (atlas prototype source list) and not rechecked; it is listed for the eldership only."
+   ],
+   "change_reason": "New (finding 6): the Optina continuesAs field names the new-martyrs entry; graded Inferential-Thin on the evidence."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "church-of-the-east-chaldean-consolidation",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "George Percy Badger, a clergyman who lived at Mosul, wrote in 1852 that the Pope recognized Mutran Hanna as head of all the Chaldeans. Rome let him act as patriarch only if he made none of his relatives bishops, and later sent him the pallium. Badger judged that this ended the old rule of passing the office down in one family.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852), ch. on the Chaldeans",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8645-8647",
+     "locus": "vol. 1, p. 164",
+     "quote": "Monsignor Trioche took part with Mutran Hanna, who was soon after recognized by the Pope as supreme head over all the Chaldeans.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852), ch. on the Chaldeans",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8648-8650",
+     "locus": "vol. 1, p. 164",
+     "quote": "He was now, moreover, permitted to use a seal of office, and to exercise all the functions of patriarch, provided he abstained from admitting any of his relations to the episcopal order.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kas Michael of Rabban Hormuzd, account of the monks' deputation to Rome, as given by Badger (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8749-8753",
+     "locus": "vol. 1, p. 167",
+     "quote": "a pallium was sent to him from Rome with which he was invested at Baghdad a little more than a year before his death, which took place in that city, a.d. 1841.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852), ch. on the Chaldeans",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8755-8760",
+     "locus": "vol. 1, p. 167",
+     "quote": "This was eflFectually to abrogate the order of succession to the Patriarchate which had so long obtained among the Nestorians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852), chapter summary",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7331-7334",
+     "locus": "vol. 1, chapter heads",
+     "quote": "The monks appeal to Rome against Mutran Hanna, who is confirmed in his dignity, but not allowed to conse- crate any of his relations to the Episcopal office. — Consequent abolition of hereditary succession.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852), note on Mutran Hanna's name",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8072-8074",
+     "locus": "vol. 1, note",
+     "quote": "His Christian name as we have seen was Hormuzd, but according to a prac- tice common in the East as well as the West it was changed to Hanna, or Yohannan, at his ordination.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "church-of-the-east-chaldean-consolidation relationsSummary and longDescription ('In 1830 Rome confirmed John Hormizd as patriarch of Babylon')"
+   ],
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8648-8650",
+     "text": "He was now, moreover, permitted to use a seal of office, and to exercise all the functions of patriarch, provided he abstained from admitting any of his relations to the episcopal order."
+    },
+    "reason": "Rome confirmed the patriarch on a condition that barred his relatives from the episcopate; Badger records the consequence as the abolition of hereditary succession (lines 7333-7334, 8755-8760). A practice changed by an authority, carried out over the following years."
+   },
+   "outcome": "Rome recognized Mutran Hanna as head of the Chaldeans on one condition: he must make none of his kin bishops. That ended passing the office down in one family.",
+   "wants": [
+    "The papal brief or Propaganda decree confirming John Hormizd (dated 1830 in standard accounts), in a vendored edition"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 7): drafted. 'Rome' is matched to the long-nineteenth-century Catholic entry, as for Haiti and Latin America.",
+    "Badger gives no year for the recognition; the text's 1830 is not in any vendored source found, so the note and outcome give no year. The pallium came 'a little more than a year before his death', in 1841.",
+    "Badger writes as an Anglican witness hostile to Rome's claims; the facts he reports (recognition, condition, pallium) are the acts, and the judgment on hereditary succession is attributed to him in the note.",
+    "Mutran Hanna is John Hormizd: Badger, lines 8020-8024 and 8072-8074.",
+    "Documented: the quotes show the exchange itself (recognition, condition, pallium), partly in Kas Michael's own account."
+   ],
+   "change_reason": "New (finding 7): Rome's recognition of John Hormizd, named in both Chaldean fields; major on the condition that ended hereditary succession."
+  },
+  {
+   "id": "victorian-church-of-england--east-african-christianity-uganda-martyrs",
+   "action": "new",
+   "from": "victorian-church-of-england",
+   "to": "east-african-christianity-uganda-martyrs",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1877 the Church Missionary Society, an Anglican body from England, sent men to the kingdom of Buganda. Their first converts, mostly young men at the king's court, became the first Anglican church there. Modern histories tell this, Adrian Hastings's among them.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, 'A History of Christianity in Uganda', in Zablon Nthamburi, ed., From Mission to Church: A Handbook of Christianity in East Africa (Nairobi, 1991)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "east-african-christianity-uganda-martyrs relationsSummary ('The Church Missionary Society ... reached Buganda in 1877') and longDescription ('Anglican missionaries arrived in 1877')"
+   ],
+   "wants": [
+    "Alexander Mackay or other CMS missionaries' letters from Buganda, 1877-1890 (e.g. in the Church Missionary Intelligencer, or A. M. Mackay by his sister, 1890)",
+    "R. P. Ashe, Two Kings of Uganda (1889)"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 8): drafted. The CMS is an Anglican society of the Church of England, and the East African text alone names the mission (the Victorian Church of England text speaks only of 'a mission network abroad'), so the link is part 2's.",
+    "No vendored text covers the Buganda mission. Hastings and Ward are repo-cited in the atlas prototype's source list for this movement; neither was rechecked and no page is cited."
+   ],
+   "change_reason": "New (finding 8): the 1877 CMS mission to Buganda, named in the East African text."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "east-african-christianity-uganda-martyrs",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1879 the White Fathers, a French Catholic mission, reached the kingdom of Buganda. Their converts formed the Catholic church there, and some died with Anglican pages in the killings of 1885 to 1887. Modern histories tell this, Adrian Hastings's among them.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "east-african-christianity-uganda-martyrs relationsSummary ('the Catholic White Fathers reached Buganda in ... 1879') and longDescription ('French Catholic White Fathers in 1879')"
+   ],
+   "wants": [
+    "The White Fathers' Buganda diaries or Lourdel's letters, 1879-1890, in a public-domain printing",
+    "J. P. Thoonen, Black Martyrs (1941), or the 1920 beatification acts, for the Catholic martyrs"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 8): drafted. The earlier reason, that the Catholic entry 'does not name Africa', is not the ownership test: the East African text alone names the relationship. The Catholic entry's 'growth of missionary Catholicism' covers it, and this pass matched the French mission at Nagasaki to the same entry.",
+    "Hastings is repo-cited in the atlas prototype's source list for this movement; not rechecked, no page cited."
+   ],
+   "change_reason": "New (finding 8): the 1879 White Fathers mission to Buganda, named in the East African text."
+  },
+  {
+   "id": "the-kollyvades-and-greek-renewal--russian-church-synodal-century",
+   "action": "new",
+   "from": "the-kollyvades-and-greek-renewal",
+   "to": "russian-church-synodal-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1782 the Kollyvades printed the Philokalia, a Greek book on prayer, and Paisius Velichkovsky put it into Slavonic. A book of 1847 from Optina says the Synod's press in Moscow first printed it. Then, through the work of Philaret of Moscow, it was printed there again.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), editor's dedication to the fathers of Athos: Nikodemos and Macarius as its first editors",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "147-153",
+     "locus": "Philokalia I, dedication",
+     "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιόλίων τὸν αὐτοῦ βίον καταδαπα- νήσας, καὶ δὴ καὶ εἰς τὰν τῆς παρούσης βίδλου οὐκ ἐλάχιστα εἰσενέγκας καὶ κα- ταθαλών, ὅτε ταύτην σὺν τῷ τῆς Κοριν- θίας ᾿Αγίῳ Μακαρίῳ ἐξεδίδου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "99-101",
+     "locus": "preface, on the Dobrotolubie",
+     "quote": "Имъ переведена съ Греческаго книга г Добро- толюбіе , въ которой собраны иисанія й4-хъ Богомуд¬ рыхъ Отцевъ и Подвижниковъ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "118-123",
+     "locus": "preface, on the Dobrotolubie",
+     "quote": "Наконецъ ученикъ Старца Аѳанасій доставилъ Высокопреосвященному Митрополиту и Греческій под¬ линникъ и Старцевъ переводъ сей книги, который, по назначенію Митрополита, сначала былъ разсматриваемъ знающими Греческій языкъ учителями Александро- невской Академіи",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "130-133",
+     "locus": "preface, on the Dobrotolubie",
+     "quote": "и напечатанъ въ Московской Синодальной Ти¬ пографіи , въ первый разъ въ 1703 году; потомъ , усерднымъ стараніемъ Высокопреосвященнѣйшаго Фи¬ ларета , Архіепископа (нынѣ Митрополита)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bingaman and Nassif (eds.), The Philokalia: A Classic Text of Orthodox Spirituality (Oxford University Press, 2012), for the Venice printing of 1782 and its Slavonic version",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-kollyvades-and-greek-renewal legacy ('Paisius Velichkovsky translated it into Slavonic in 1793, Theophan the Recluse into Russian later in the century')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A translation printed and reprinted by the other side; a text taken up is not an institutional act."
+   },
+   "wants": [
+    "Theophan the Recluse, Dobrotolubie (Russian, Moscow, 1877-1890), in a vendored edition",
+    "The Slavonic Dobrotolubie (Moscow, 1793) and its nineteenth-century reprints, title pages with dates"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 9): drafted. The Kollyvades legacy names the anthology's passage into Slavonic and Russian; the Russian Church's own text does not, so the link is part 2's.",
+    "The 1847 preface shows the Metropolitan of St Petersburg having the translation checked by teachers of the Alexander Nevsky Academy, then printing at the Moscow Synodal Press, and a reprint through the efforts of Philaret, 'Archbishop (now Metropolitan)' of Moscow, which places it inside this church's period. The OCR years are unreliable ('1703' for 1793; '1839' and '1853' in a book of 1847, lines 140-141), so the note gives no reprint year.",
+    "Widely Accepted, not Documented: the preface says Paisius translated 'from the Greek the book Dobrotolubie' but does not name the Venice printing or its editors, and Paisius worked partly from manuscripts; the tie of his version to the 1782 Philokalia rests on Bingaman and Nassif (repo-cited, not page-checked) with the 1893 dedication naming Nikodemos and Macarius as its editors.",
+    "Theophan's Russian version (1877-90), which the Kollyvades legacy names, is listed in the Optina entry's own sources and the hesychasm dossier but is not vendored and is not shown by any source on this link, so the note leaves it out; it is in wants."
+   ],
+   "change_reason": "New (finding 9): the Kollyvades' Philokalia taken up by the Russian Church, named in the Kollyvades legacy; the vendored Optina preface shows the Synodal printings."
+  }
+ ],
+ "prose_changes": [
+  {
+   "movement": "american-unitarianism-universalism-consolidations",
+   "field": "longDescription",
+   "old": "Two movements that had grown up separately in New England spent this century turning themselves into organized denominations. In 1819 William Ellery Channing preached an ordination sermon in Baltimore that gave liberal Congregationalists both a name and a platform, and in 1825 they founded the American Unitarian Association. The Universalists, who taught that God would in the end save everyone, built their own conventions on a separate track. Within a generation the Unitarian side produced a third thing it had not expected. Ralph Waldo Emerson left the ministry and told Harvard's divinity students in 1838 to look for religion in intuition and nature rather than historical revelation, and the Transcendentalists carried that further than most of their elders wanted to go. What held the movements together was less a shared creed than a shared refusal of creeds, along with a strong practical bent — toward schools, prisons, asylums and abolition.",
+   "new": "Two movements had grown up apart in New England. In this century both grew into organized churches. By 1815 the liberal clergy of Boston's Congregational churches were already being called Unitarians. Many complaints were made that the label slandered them. In 1819 William Ellery Channing preached at an ordination in Baltimore. His sermon gave these liberals a platform. It also spoke out against the Trinity. In 1825 they founded the American Unitarian Association. The Universalists taught that God would in the end save everyone. They built their conventions on a track of their own. Within a generation the Unitarian side produced a third thing it had not looked for. Ralph Waldo Emerson left the ministry. In 1838 he told Harvard's divinity students to seek religion in their own souls and in nature. They were not to look for it in a revelation fixed in the past. The Transcendentalists took that further than most of their elders wanted to go. The two movements did not treat creeds alike. The Unitarians bound no one to a creed. The Universalists kept a short one, the Winchester Profession of 1803. In 1870 they made it a test of fellowship. Both had a strong practical bent. They worked hard for schools, prisons and asylums, and to end slavery.",
+   "reason": "Round 1 (finding 17): Belsham's 1815 Boston reprint says 'Many complaints have been made that the Boston Clergy have been \"slanderously reported\" to be Unitarians' (lines 171-173). It does not say who complained, so 'Many of them complained of the name' becomes 'Many complaints were made that the label slandered them', which keeps the source's 'many' (the reviewer's 'Some' would weaken it). Otherwise the text of prose change 19 stands. To keep the paragraph at the reading target, the Emerson sentence is split in two; its content is unchanged.",
+   "replaces_n": 19
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "legacy",
+   "old": "Christianity is still the majority faith of Madagascar, and the churches grown from this period remain among the island's largest institutions. In Antananarivo four memorial churches stand on the sites where believers were killed, built by the people who had survived them. The story traveled further than the island did. The Malagasy persecution became one of the most retold missionary narratives of the nineteenth century, a standard illustration in sermons and mission magazines wherever the question was whether a church could hold together with no clergy and no protection at all.",
+   "new": "Most people in Madagascar are still Christians. The churches grown from this time remain among the island's largest bodies. Four memorial churches stand in the capital, Antananarivo, on the spots where believers were killed. The story also went far beyond the island. Sermons and mission magazines told it again and again in the 1800s. It became their standard example of a church that held together with no clergy and no protection at all.",
+   "reason": "Round 1 (finding 18): 'their standard proof' went beyond the old text's 'a standard illustration'; now 'their standard example'. Otherwise the text of prose change 14 stands.",
+   "replaces_n": 14
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "legacy",
+   "old": "The Soviet state closed Optina in 1918 and killed or scattered its monks, but the monastery was returned to the church in 1987 and is active again, receiving thousands of pilgrims a year, with the elders now canonized. The books it printed did more traveling than the monks. The Philokalic spirituality it made available in Russian carried into the émigré theology of twentieth-century Paris and from there into English, and The Way of a Pilgrim, with its Jesus Prayer, became one of the very few Orthodox devotional books widely read in the West — J. D. Salinger built a novel around it in 1961.",
+   "new": "The Soviet state closed Optina in 1918 and killed or scattered its monks. The monastery was given back to the church in 1987 and is active again. It receives thousands of pilgrims a year, and its elders are now saints. The books it printed did more traveling than the monks. The Philokalic spirituality it made available to Russian readers carried into the émigré theology of twentieth-century Paris, and from there into English. The Way of a Pilgrim, with its Jesus Prayer, became one of the very few Orthodox devotional books widely read in the West. J. D. Salinger built a novel around it in 1961.",
+   "reason": "Round 1 (finding 16): prose changes 0 and 1 dropped 'into Russian', since Optina's books were Slavonic translations printed for Russian readers; the legacy's 'made available in Russian' now matches: 'made available to Russian readers'. Long sentences split for the reading target ('canonized' becomes 'are now saints'); no other fact changed.",
+   "replaces_n": null
+  }
+ ],
+ "dispositions": [
+  {
+   "n": 8,
+   "disposition": "link",
+   "link_id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+   "reason": "The Soviet state is not a movement. The Optina continuesAs field names the new-martyrs entry: drafted 'continued as' at Inferential-Thin, since no source found carries Optina past 1917. The 1918 closure date is still unchecked in a vendored text (1923 in most accounts)."
+  },
+  {
+   "n": 17,
+   "disposition": "link",
+   "link_id": "the-kollyvades-and-greek-renewal--russian-church-synodal-century",
+   "reason": "Names the anthology's passage into the Russian Church: 'influenced' link, Widely Accepted on the 1847 Optina preface (Synodal Press printings) and Bingaman and Nassif. Theophan's Russian Dobrotolubie (1877-90) is in wants."
+  },
+  {
+   "n": 64,
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation",
+   "reason": "Rome is the long-nineteenth-century Catholic entry, as for Haiti and Latin America: 'in contact with' link on Badger 1852 (8646-8650, 8749-8760), major on the condition that ended hereditary succession. The 1830 date has no vendored source."
+  },
+  {
+   "n": 159,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "The 1902 church's break with Rome is supported (Achútegui and Bernad; Schumacher; repo-cited), but the breaking church has no entry of its own and sits inside this one, most of which stayed Catholic, so no 'broke with' link fits; escalated whether it needs an entry. The 1947 Declaration has no census party."
+  },
+  {
+   "n": 165,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "Supported by Achútegui and Bernad (repo-cited). No link: the Iglesia Filipina Independiente has no entry of its own, and the rupture runs inside this entry; escalated."
+  },
+  {
+   "n": 166,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "As for the longDescription sentence: supported, no link, because the breaking church has no entry and the rupture is internal to this one; escalated."
+  },
+  {
+   "n": 167,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "'The Catholic Church it broke from' has the Iglesia Filipina Independiente as subject, which has no entry; the rupture runs inside this entry, so no link. Supported by Achútegui and Bernad. The later Filipino hierarchy falls after 1906."
+  },
+  {
+   "n": 194,
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--east-african-christianity-uganda-martyrs; catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs",
+   "reason": "The CMS and the White Fathers are missions of the Victorian Church of England and the long-nineteenth-century Catholic Church; this text alone names them, so part 2 drafts both 'gave rise to' links, Dominant Modern Reconstruction on Hastings and Ward (repo-cited)."
+  },
+  {
+   "n": 197,
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--east-african-christianity-uganda-martyrs; catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs",
+   "reason": "Same two links as the summary. Krapf is a person; his 1844 landing stays under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  }
+ ],
+ "escalations": [
+  "Philippine Independent Church (Iglesia Filipina Independiente): it broke from Rome in 1902 and still exists, but it has no entry of its own. It sits inside the Philippine Catholic entry for 1872-1906, most of whose church stayed Catholic, so no 'broke with' link fits either pair. Should it get its own entry (era 9 into era 10)? Logged, not a stop.",
+  "Map gap, Coptic: no Coptic movement sits between the Fatimid-to-Mamluk entry (to about 1300) and the revival under Cyril IV (from 1854). The 'continued as' link now spans about 550 years at Dominant Modern Reconstruction, and its note says no stage stands between. A middle movement (Ottoman-era Coptic church, with the archons) would close it. The same gap exists for Ethiopia, 1650-1855, where no link is drafted because neither text names the other. Should both gaps be filled?",
+  "Layout, Optina: the Optina continuesAs points a monastic renewal movement to the whole Russian Church under Soviet rule, while the Russian synodal-century entry has no continuesAs of its own. The new Inferential-Thin link follows the field as it stands. Should the Russian synodal church continue as the new-martyrs entry instead, or as well?"
+ ]
+}
