@@ -1,0 +1,1316 @@
+{
+ "group": "C",
+ "movements": [
+  "dutch-further-reformation-and-refuge-culture",
+  "the-remonstrants-and-dort",
+  "the-waldensian-reformed-union",
+  "czech-churches-last-century",
+  "scandinavian-reformation-kingdoms",
+  "anti-trinitarian-currents-servetus-polish-brethr"
+ ],
+ "dispositions": [
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "relationsSummary",
+   "sentence": "Its practical piety later fed into German Pietism",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "dutch-further-reformation-and-refuge-culture--german-pietism-spener-francke-halle",
+   "prose_change": 0,
+   "reason": "Reitz (1717) retells Lodenstein's life from Dutch sources. Sentence split; the Pietism half kept."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "relationsSummary",
+   "sentence": "through the Dutch Reformed diaspora, reached South Africa and North America",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No census movement for the diaspora churches; no vendored or repo-cited source shows the piety reaching either place (the 1840 American constitution shows the church, not this piety)."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "longDescription",
+   "sentence": "English separatists, French and Flemish refugees, Jews expelled from Iberia, and books that could be published nowhere else.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "English separatists and Iberian Jews have no census movement. Checked: Brandt vol. 3 lines 52079-52082 (Remonstrants note that Puritans, Brownists and Jews were tolerated) and McGlothlin lines 2716-2731 (separatist congregations at Amsterdam and Leiden). The sentence is a fragment; flagged, not changed."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "longDescription",
+   "sentence": "French and Flemish refugees",
+   "other_id": "the-huguenots",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory's the-huguenots corrected: the French-speaking refugee churches of the Republic are the Walloon churches (Brandt vol. 3 line 2312, 'the Walloon or French churches'), mostly from the southern Netherlands, which have no census movement. The Huguenot movement is the church inside France, and no source shows contact with this movement."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "longDescription",
+   "sentence": "Inside the Reformed church itself a movement of preachers pressed for something beyond correct doctrine",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "prose_change": null,
+   "reason": "Voetius's catechism lessons: Dutch Reformed hold Calvin's views. Typed 'influenced', not 'descends from'."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "why",
+   "sentence": "home to English separatists, French and Flemish refugees, and Jews expelled from Iberia",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "why",
+   "sentence": "Inside its own Reformed church, preachers pressed for a precise, examined daily godliness",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "legacy",
+   "sentence": "Translated into German, this Dutch practical divinity fed directly into German Pietism",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "dutch-further-reformation-and-refuge-culture--german-pietism-spener-francke-halle",
+   "prose_change": 1,
+   "reason": "'directly' removed; 'Translated' made 'Retold'."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "legacy",
+   "sentence": "through the Dutch Reformed diaspora it reached South Africa and North America",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "legacy",
+   "sentence": "put ideas into circulation across Europe that had nowhere else to go",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no party."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "relationsSummary",
+   "sentence": "The sharpest internal contest inside Reformed Protestantism in this era",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Places the quarrel inside the Dutch Reformed church; the Swiss cities' part is carried by the Dort contact link. The Synod of Dort (inventory 'condemned by', no entry) is part of this movement itself."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "longDescription",
+   "sentence": "The Dutch Reformed minister Jacobus Arminius",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory matched 'Dutch Reformed church' to the Further Reformation; it names the church Arminius served, not that piety movement."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "longDescription",
+   "sentence": "The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe, condemned the Remonstrance and answered it with five canons of its own.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-remonstrants-and-dort",
+   "prose_change": null,
+   "reason": "Zurich, Bern, Basel, Schaffhausen and Geneva sent deputies (Scott, Hales, Brandt). The condemnation itself is internal to this movement. The paragraph's 'Asking the government to allow their view.' is a fragment; flagged, not changed."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "legacy",
+   "sentence": "The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition worldwide",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No census movement for the later Dutch Reformed churches. Supported by the 1840 Reformed Dutch Church constitution (subscription formula); 'worldwide' narrowed to the attested reach."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "legacy",
+   "sentence": "the five points they answer are still taught in Reformed churches as the shorthand summary of Calvinism",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Misstates which five points (the Remonstrant articles are what the Canons answer) and has no vendored or repo-cited source for the modern teaching use."
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "field": "legacy",
+   "sentence": "'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-remonstrants-and-dort--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Wesley reads Episcopius on Dort (1741) and names The Arminian Magazine."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "relationsSummary",
+   "sentence": "Medieval dissent grafted into Reformed Protestantism without losing its own memory.",
+   "other_id": "the-waldensians",
+   "disposition": "link",
+   "link_id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "The medieval descent runs through the existing chain: the-waldensians--waldensians-in-the-alps (Widely Accepted) and waldensians-in-the-alps--the-waldensian-reformed-union (Contested, kept). No direct era-5 to era-7 link drawn."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "relationsSummary",
+   "sentence": "grafted into Reformed Protestantism",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "Farel among the ministers at Chanforan; pastors from Switzerland; the French Bible of 1535."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "relationsSummary",
+   "sentence": "The community was granted full civil emancipation in Italy in 1848.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no party. Not checked against a source; no vendored text carries the 1848 Letters Patent."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "longDescription",
+   "sentence": "The Waldensians had already survived three centuries of suppression as an underground movement of lay preachers when, in 1532, their representatives met at Chanforan",
+   "other_id": "waldensians-in-the-alps",
+   "disposition": "link",
+   "link_id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "Existing link kept."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "longDescription",
+   "sentence": "agreed to join the young Reformed churches. And to pay for a new French translation of the Bible, which appeared in 1535 as the Olivétan Bible.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "New link. 'And to pay for ...' is a fragment; flagged, not changed."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "longDescription",
+   "sentence": "which drew protests from across Protestant Europe and a famous sonnet from John Milton.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Protestant Europe' is no single movement. Morland (1658) prints Cromwell's letters and the Swiss mediation (Book III), which supports the protests. Milton's sonnet is cited by work in the repo (Atlas river prototype) but not vendored; wanted."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "why",
+   "sentence": "they joined the young Reformed churches at a meeting in the Alpine valleys of Piedmont and paid for a new French Bible",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "why",
+   "sentence": "an atrocity that drew protests across Protestant Europe and a sonnet from John Milton.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "legacy",
+   "sentence": "since 1979 in union with Italian Methodists",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The union is 1979; the Methodist census movement ends in 1906, so no census movement is the party, and no vendored or repo-cited source carries it."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "legacy",
+   "sentence": "with a sister church in Argentina and Uruguay",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No census movement; no vendored or repo-cited source."
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "field": "legacy",
+   "sentence": "its sheer longevity made it a standing reference point for later Protestants looking for a church older than the Reformation",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single movement. Supported by Perrin's own title (History of the Old Waldenses anterior to the Reformation, 1618/1624) and Morland (1658)."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "relationsSummary",
+   "sentence": "A non-Roman national church in its last century of survival",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the church; names no act toward Rome."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "relationsSummary",
+   "sentence": "led to the 1627-28 suppression, when Comenius led the Unity of the Brethren into exile",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Habsburg rulers have no census movement. Checked: Historie o tezkych protivenstvich, mandates of 31 July 1627 and 18 August 1628 (lines 8069, 8258); Cranz (line 4800) has Comenius retiring to Holland and England."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "relationsSummary",
+   "sentence": "A remnant survived underground and later became the seed of the Moravian Church at Herrnhut.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": null,
+   "reason": "Cranz (1771): hidden seed near Fulnek, the 1722 emigration, Jablonsky's consecration of Nitschmann."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "longDescription",
+   "sentence": "A century before Martin Luther, Bohemia already had its own reform-minded national church",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of dates, not a claim of contact."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "longDescription",
+   "sentence": "the Utraquists, who insisted that the laity receive both bread and wine at communion, and the Unity of the Brethren who grew alongside them. Surviving as a tolerated, functioning body long after the Hussite wars that gave it birth.",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": null,
+   "reason": "Inventory's three rows (Utraquists, Unity, Hussite wars) are one continuity claim. The Unity's decrees run across 1517. 'Surviving as ...' is a fragment; flagged, not changed."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "longDescription",
+   "sentence": "by 1627-28 the Habsburgs had outlawed the church outright",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "why",
+   "sentence": "a demand that outlived the Hussite wars that produced it",
+   "other_id": "the-hussite-and-bohemian-brethren-movement",
+   "disposition": "link",
+   "link_id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "why",
+   "sentence": "by 1627-28 the Habsburgs had outlawed the church outright",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "field": "legacy",
+   "sentence": "in 1722 their descendants found refuge on a German nobleman's estate at Herrnhut — becoming the seed of the modern Moravian Church",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "relationsSummary",
+   "sentence": "Two established national churches emerged",
+   "other_id": "scandinavian-conversion-christianity",
+   "disposition": "link",
+   "link_id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "Existing Inferential-Thin continuity link kept."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "relationsSummary",
+   "sentence": "which committed the kingdom to the unaltered Augsburg Confession",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "Ordinance approved by Luther; Uppsala 1593 on the Augsburg Confession (Anjou). 'Unaltered' is not in the lines cited."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "relationsSummary",
+   "sentence": "Denmark-Norway's decisive break in 1536/37",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "scandinavian-reformation-kingdoms--the-tridentine-church",
+   "prose_change": null,
+   "reason": "Ordinance of 1537 against the 'papist bishops'; Anjou on the jailing of 1536."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "relationsSummary",
+   "sentence": "Iceland's Reformation was complete by 1550.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dates an event. No vendored text covers Iceland in 1550; Diplomatarium Islandicum wanted."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "longDescription",
+   "sentence": "Sweden's break began at the Diet of Västerås in 1527, when Gustav Vasa took the church's property and its independence",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "scandinavian-reformation-kingdoms--the-tridentine-church",
+   "prose_change": null,
+   "reason": "As in the summary; Anjou on Rome's refusals to confirm elected bishops."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "longDescription",
+   "sentence": "the church ordinance drawn up with Luther's colleague Johannes Bugenhagen reorganized the churches of Denmark, Norway and Iceland at a stroke",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "The ordinance names Bugenhagen ('Doct: Pomerano', line 1318) and Luther's approval."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "longDescription",
+   "sentence": "Icelandic resistance ended in 1550 with the execution of the island's last Catholic bishop.",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An event inside the Danish realm, not a claim between movements. Not in any vendored text; wanted."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "why",
+   "sentence": "Sweden's break began at the Diet of Västerås in 1527",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "scandinavian-reformation-kingdoms--the-tridentine-church",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "why",
+   "sentence": "wasn't completed until the Uppsala Synod of 1593 committed the kingdom to the unaltered Augsburg Confession",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "why",
+   "sentence": "Icelandic resistance ended only in 1550, with the execution of the island's last Catholic bishop.",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "field": "legacy",
+   "sentence": "These became the Lutheran churches of Denmark, Norway, Sweden, Finland and Iceland",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "Inventory's 'descends from' typed 'influenced': the churches grew out of the medieval sees, not out of Wittenberg's congregations."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "relationsSummary",
+   "sentence": "Michael Servetus was burned by Geneva's own council in 1553",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "prose_change": null,
+   "reason": "Geneva registers and Calvin's letters."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "relationsSummary",
+   "sentence": "the Polish Brethren were expelled from Poland in 1658",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Polish crown and diet have no census movement. Checked: Rees (1818) lines 1842-1847 (accusation at the Diet of Warsaw, 1658) and 1990-2000 (the exiles' dispersal)."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "longDescription",
+   "sentence": "was burned at Geneva in 1553 with the city council's approval and Calvin's agreement",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "longDescription",
+   "sentence": "Poland expelled the Brethren in 1658",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "why",
+   "sentence": "was burned at Geneva in 1553",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "legacy",
+   "sentence": "where their writings fed into Dutch and English rational theology",
+   "other_id": "the-remonstrants-and-dort",
+   "disposition": "qualify",
+   "link_id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
+   "prose_change": 4,
+   "reason": "Inventory's Further Reformation corrected to the Remonstrants, whom Rees names. Inferential-Thin link; the influence is qualified in the text."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "legacy",
+   "sentence": "English rational theology",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No census movement for English Socinians. Bidle's London translation of the Life of Socinus (1653) and Rees line 2000 ('some passed over to England') show the writings and some exiles reaching England, not their effect; qualified."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "legacy",
+   "sentence": "at some distance, into later Unitarianism",
+   "other_id": "early-american-unitarians-universalists",
+   "disposition": "qualify",
+   "link_id": "anti-trinitarian-currents-servetus-polish-brethr--early-american-unitarians-universalists",
+   "prose_change": 4,
+   "reason": "Belsham (1815) names Boston's creeds 'Socinian'. Inferential-Thin; the clause already hedged and is kept as 'may have'."
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "legacy",
+   "sentence": "Their argument for religious toleration — made by people with the most to lose from its absence — outlasted their communities.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no party."
+  }
+ ],
+ "links": [
+  {
+   "id": "dutch-further-reformation-and-refuge-culture--german-pietism-spener-francke-halle",
+   "action": "new",
+   "from": "dutch-further-reformation-and-refuge-culture",
+   "to": "german-pietism-spener-francke-halle",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1717 the German Pietist Johann Henrich Reitz printed the life of a Dutch preacher, Jodocus van Lodenstein of Utrecht. Reitz took it from a Dutch pastor's preface and from Lodenstein's own sermons. It names his teacher, Gisbertus Voetius.",
+   "outcome_considered": "A German retelling of a Dutch preacher's life is a text taken up by the other side. No listed source shows a church act, split or changed rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johann Henrich Reitz, Historie der Wiedergebohrnen, part IV (1717)",
+     "file": "cic/texts/reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt",
+     "lines": "935-937",
+     "locus": "part IV, second Historie, heading",
+     "quote": "Von Jodoco von Lodenſtein / auß erwaͤhltem Lehrer und Prediger in Utrecht.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johann Henrich Reitz, Historie der Wiedergebohrnen, part IV (1717)",
+     "file": "cic/texts/reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt",
+     "lines": "940-944",
+     "locus": "part IV, second Historie, opening",
+     "quote": "Hiſtorie iſt genommen / theils auß der Vorrede des Hollaͤndiſchen Predigers zu 8 Nieuvvendam, Everhardi yan E Hooght, ie er vor Zehen Predigten",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johann Henrich Reitz, Historie der Wiedergebohrnen, part IV (1717)",
+     "file": "cic/texts/reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt",
+     "lines": "1002-1003",
+     "locus": "part IV, second Historie",
+     "quote": "Anno 1652. kam er nach Utrecht; allwo er noch feinen frommen Lehrmeiſter Voetius fand",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "dutch-further-reformation-and-refuge-culture relationsSummary ('Its practical piety later fed into German Pietism') and legacy ('Translated into German, this Dutch practical divinity fed directly into German Pietism'); both after prose changes 0 and 1",
+   "drafter_flags": [
+    "cic/corpus-map assigns Reitz to both german-pietism-spener-francke-halle and radical-pietism-and-the-brethren-dunkers-ephrata; Reitz is often classed as a radical Pietist. Reviewer: confirm the party.",
+    "Lodenstein (1620-1677) worked mostly after this movement's 1650 end date; he is a core Nadere Reformatie figure, but the link rests on a later member of the movement.",
+    "The OCR drops the initial D of 'Diese' ('Jeſe Hiſtorie'); the quote keeps it as printed in the file.",
+    "No vendored text shows Spener or Francke reading Dutch authors (Pia Desideria's list of recommended books names English, not Dutch, writers). 'directly' was dropped from the legacy for that reason."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 62.6,
+   "fk": 7.7
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "dutch-further-reformation-and-refuge-culture",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Gisbertus Voetius taught at Utrecht. His lessons on the Heidelberg Catechism were printed in 1662. Asked if the Dutch Reformed held Calvin's views, he said yes, but Calvin was not their head.",
+   "outcome_considered": "Holding Calvin's teaching is a teaching taken up, not an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gisbertus Voetius, Catechisatie over den Heidelbergschen Catechismus (Poudroyen's edition of 1662, reissued by A. Kuyper, 1891), vol. 1",
+     "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+     "lines": "20622-20623",
+     "locus": "lessons on the name of Christian",
+     "quote": "V. Maer , seggen sy , ghy gevoelt in de stucken der Religie als Calvinus?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gisbertus Voetius, Catechisatie over den Heidelbergschen Catechismus (Poudroyen's edition of 1662, reissued by A. Kuyper, 1891), vol. 1",
+     "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+     "lines": "20625",
+     "locus": "lessons on the name of Christian",
+     "quote": "A. Dat is soo , maer daerom en is hy ons hooft niet.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "dutch-further-reformation-and-refuge-culture longDescription ('Inside the Reformed church itself a movement of preachers pressed for something beyond correct doctrine')",
+   "drafter_flags": [
+    "also named in the-reformed-cities-zurich-and-geneva (relationsSummary 'Parent of the ... Dutch ... traditions'; legacy 'the Dutch Reformed')",
+    "Inventory read the clause as 'descends from'. 'influenced' is drafted: the Further Reformation grew inside the Dutch church, not out of the Swiss cities' own congregations.",
+    "Voetius taught from 1634; the lessons were printed in 1662, after the movement's 1650 end date."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 70.8,
+   "fk": 5.9
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-remonstrants-and-dort",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-remonstrants-and-dort",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1618 the Dutch government asked Zurich, Bern, Basel, Schaffhausen and Geneva to send men to the Synod of Dort. Geneva sent two, John Diodati and Theodore Tronchin, and the Swiss sent five. Speaking for Geneva, Diodati said the Remonstrants should go.",
+   "outcome_considered": "The listed sources show the Swiss and Genevan deputies attending and speaking. The sentence on the Remonstrants was passed later by the synod and the States-General, in passages not listed here.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Articles of the Synod of Dort, with the History of Events published by the authority of the States-General, trans. Thomas Scott (1831)",
+     "file": "cic/texts/synod-of-dort_articles-with-history-of-events_scott1831.txt",
+     "lines": "4458-4463",
+     "locus": "Synod's preface, History of Preceding Events",
+     "quote": "to the four reformed republics of Helvetia, (Switzerland,) the Tigurine, Bernessian, Basilian, and Schaphusian ; to the Illustrious and generous the counts of Correspondentia and Wedevarica ; to the republics of Geneva, Bremen, and Emden, in which they requested, that they would deign to send from them to this Synod",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Hales, Letters from the Synod of Dort to Sir Dudley Carleton (1618-19; printed 1765)",
+     "file": "cic/texts/hales_letters-from-the-synod-of-dort_1765.txt",
+     "lines": "360-362",
+     "locus": "letter from Dort, November 1618",
+     "quote": "Those of Geneva told us, that in the churches in their cities they had every Sunday four sermons",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "2300-2302",
+     "locus": "Book XXXIII, the deputies at Dort",
+     "quote": "Those from Swisserland, John Facob Breylingerus, Mark Rut- meijerus, Sebastian Bechius, Wolfgang Maijerus, and John Conrad Cocchius. On tae behalf of the City of Geneva, were Fobn Deodatus, and Theodore Tronchin.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "13200-13203",
+     "locus": "the Remonstrants before the Synod, 1619",
+     "quote": "Deodarus faid, in the name of those of Geneva - * That the dodrines of the Remonstrants might be sufficiently learned * from the Conference at the Hague, and their books. Let them go then, said he, as * unworthy to appear any longer at the Synod",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-remonstrants-and-dort longDescription ('The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe')",
+   "drafter_flags": [
+    "May also be named in the-reformed-cities-zurich-and-geneva's text; the merge should check.",
+    "'in contact with' chosen over 'argued against': this movement takes in the synod itself, so the Swiss and Genevan deputies sat inside the event. Diodati's speech could also carry an 'argued against' link from the Reformed cities if the reviewer prefers.",
+    "Brandt (the Remonstrant historian, Dutch 1671-1704, English 1722) is entered as secondary; the OCR misreads names ('Deodarus', 'Breylingerus') and the quotes keep them."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 60.9,
+   "fk": 8.2
+  },
+  {
+   "id": "the-remonstrants-and-dort--the-methodist-revival",
+   "action": "new",
+   "from": "the-remonstrants-and-dort",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In July 1741 John Wesley picked up the works of Simon Episcopius by mistake and read their account of the Synod of Dort. 'What a scene is here disclosed!' he wrote. Later he drew up plans for a magazine he called The Arminian Magazine.",
+   "outcome_considered": "Reading Episcopius and taking up the Arminian name are texts and a label taken up. No listed source shows a council, split or rule changed by it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "28695-28698",
+     "locus": "6 July 1741",
+     "quote": "Looking for a book in our College Library, I took down, by mistake, the works of Episcopius,2 which, opening on an account of the Synod of Dort, I believed it might be useful to read it through.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "28698",
+     "locus": "6 July 1741",
+     "quote": "But what a scene is here disclosed !",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 6 (1909)",
+     "file": "cic/texts/wesley-j_journal-v6_curnock1909.txt",
+     "lines": "10223",
+     "locus": "August, year illegible in the OCR running head",
+     "quote": "drew up proposals for T}ie Arminian Magazine}-",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-remonstrants-and-dort legacy ('Arminian ... taken up a century later by John Wesley and through him by the whole Methodist family')",
+   "drafter_flags": [
+    "Curnock's note (lines 28726-28746) calls Episcopius the Arminians' leader at the synod, but the two-column OCR interleaves it with another note, so it is not quoted. Calder's Memoirs of Episcopius (vendored) would carry his role.",
+    "The OCR of the vol. 6 entry reads 'T}ie Arminian Magazine}-'; kept as printed. The running head's year is illegible ('ITT?'), so the note gives no year.",
+    "'the whole Methodist family' in the legacy is broader than this link, which reaches only the eighteenth-century revival."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 74.5,
+   "fk": 5.6
+  },
+  {
+   "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "action": "keep",
+   "named_in": "the-waldensian-reformed-union relationsSummary ('Medieval dissent grafted into Reformed Protestantism without losing its own memory') and longDescription ('The Waldensians had already survived three centuries of suppression ...')",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "Both primary quotes re-checked verbatim at their lines (Morland 7947-7949, Perrin 5232-5234)."
+   ],
+   "change_reason": "Keep: both primary quotes check, the note states the scholarly disagreement plainly, and Contested matches it. 'continued as' is major by type, so no outcome test applies."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-waldensian-reformed-union",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "A man of Angrogne, caught standing guard, said the ministers met at Chanforan included a red-bearded 'M. Farel'. The pastor Pierre Gilles, writing in 1644, calls them pastors who kept coming from Switzerland. In 1535 the valleys paid to print a French Bible.",
+   "outcome_considered": "Visiting pastors and a Bible printed at the valleys' cost are teaching and a text taken up. The listed sources do not give the assembly's own decisions.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pierre Gilles, Histoire ecclesiastique des Eglises Vaudoises (Geneva 1644; Pignerol 1881), vol. 1",
+     "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt",
+     "lines": "2445-2447",
+     "locus": "year 1535, depositions taken by Bersour",
+     "quote": "bourgade des Chanforans au milieu d'Angrogne, et dit qu'entre les autres il y en avoit un qui s'appe- loit M. Farel. qui avoit la barbe rouge",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pierre Gilles, Histoire ecclesiastique des Eglises Vaudoises (Geneva 1644; Pignerol 1881), vol. 1",
+     "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt",
+     "lines": "2450-2452",
+     "locus": "year 1535, depositions taken by Bersour",
+     "quote": "C'estoyent des Pasteurs qui continuoyent de venir des quartiers de Suisse",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Waldenses anterior to the Reformation (English translation, 1624; Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "16865",
+     "locus": "Part I, on the French Bible of 1535",
+     "quote": "to be printed at their own charge, in the year 1535",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-waldensian-reformed-union relationsSummary ('grafted into Reformed Protestantism') and longDescription ('agreed to join the young Reformed churches. And to pay for a new French translation of the Bible')",
+   "drafter_flags": [
+    "Guillaume Farel came from Bern's lands (Gilles 2653-2654 quotes an opponent saying so); he reached Geneva only later. The link joins the valleys to the Swiss Reformed as the census's Zurich-Geneva movement carries them. Reviewer: confirm that reading.",
+    "Gilles gives the deposition under 1535 and does not date the Chanforan gathering itself, so the note gives no year for it.",
+    "Inventory listed this relationship twice (relationsSummary and longDescription); one link covers both."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 73.3,
+   "fk": 5.6
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "action": "new",
+   "from": "the-hussite-and-bohemian-brethren-movement",
+   "to": "czech-churches-last-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Unity of the Brethren met in synod every year from its founding, its editor Antonin Gindely wrote in 1864. Its decree of 1531 opens with the brethren agreeing 'as one man' to serve one Lord. Its rulings, old and new, were gathered into one book.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dekrety Jednoty bratrske (the Unity of the Brethren's synod decrees), ed. Antonin Gindely (Prague, 1865)",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "241-242",
+     "locus": "opening heading of the collected decrees",
+     "quote": "Počínají se usouzení neb dekreta Jednoty Bratrské sebraná, spolu stará i nová",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dekrety Jednoty bratrske (the Unity of the Brethren's synod decrees), ed. Antonin Gindely (Prague, 1865)",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "7732-7735",
+     "locus": "decree of 1531",
+     "quote": "Léta Páiié 1531. Všickni za jednoho člověka smluvili jsme se, abychom spolu jediného Pána služebníci",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antonin Gindely, preface to Dekrety Jednoty bratrske (1865)",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "153-155",
+     "locus": "preface",
+     "quote": "Jelikož Bratří od založení Jednoty až do posledního času svého ročně jednou a někdy i dva- kráte se scházívali",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "czech-churches-last-century longDescription ('the Utraquists ... and the Unity of the Brethren who grew alongside them. Surviving as a tolerated, functioning body long after the Hussite wars that gave it birth') and why ('a demand that outlived the Hussite wars that produced it')",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "Covers the Unity's half of the movement only. No vendored source was found for the Utraquist consistory's own continuity across 1517.",
+    "Gindely's preface (lines 157-158) says a brother compiled the synods in 1617; the note keeps to the heading's 'old and new' and gives no year for the compiling."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names; the inventory listed it three times (Utraquists, Unity, Hussite wars).",
+   "fre": 68.9,
+   "fk": 7.3
+  },
+  {
+   "id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "action": "new",
+   "from": "czech-churches-last-century",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The Moravian Church's own history of 1771 says a hidden 'seed of the Brethren' lived on near Fulnek, where Comenius had been pastor. In 1722 the Neisser brothers left with their families, led by Christian David. In 1735 Daniel Jablonsky, a bishop of the old Unity since 1699, made David Nitschmann a bishop.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren (1771), trans. B. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4784-4786",
+     "locus": "Modern History, 1722-1727, section 2",
+     "quote": "In Fulnek , formerly the cure of Comenius, the laft Bo- hemian-Moravian bifhop, and in the circumjacent vil¬ lages, a numerous feed of the Brethren ftill lay hid;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren (1771), trans. B. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "1946-1947",
+     "locus": "Ancient History, note",
+     "quote": "And the prefent Brethren from Moravia come from villages about Fulneck, where Comenius was minifter",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren (1771), trans. B. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4976-4980",
+     "locus": "Modern History, 1722",
+     "quote": "Jacob Neifer , cutlers by trade, with their wives and four children, their coufin Michael Jaefchke , and a girl, Mar¬ tha Neijftr , daughter of the Sifter of Auguftin Neifter’ s wife, fet out on their journey, on the Wednefday in Whitfun- week 1722; and, under the guidance of Chriftian David,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren (1771), trans. B. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4323-4325",
+     "locus": "Ancient History, Part IV, list of bishops",
+     "quote": "Daniel Ernejl JablonJky , fon of Peter , chaplain in ordinary at the court of Berlin, at the fynod of LilTa, March ioth.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren (1771), trans. B. La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4362-4365",
+     "locus": "Ancient History, Part IV, list of bishops",
+     "quote": "David Nitfchmann , confecrated in 1735 by Ja’blonfky at Berlin, bifhop of the Moravian Brethren, &c.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "czech-churches-last-century relationsSummary ('A remnant survived underground and later became the seed of the Moravian Church at Herrnhut') and legacy ('their descendants found refuge ... at Herrnhut — becoming the seed of the modern Moravian Church')",
+   "drafter_flags": [
+    "Every source is the Renewed Unity's own history, written to show its descent. How many Herrnhut settlers came from old Unity families is the church's claim; no independent secondary work is repo-cited. Reviewer: Documented rests on named people and a dated consecration in a dated text; consider Widely Accepted if a secondary is wanted.",
+    "Inventory listed this twice (relationsSummary, legacy); one link covers both."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 60.8,
+   "fk": 8.8
+  },
+  {
+   "id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "action": "keep",
+   "named_in": "scandinavian-reformation-kingdoms relationsSummary ('Two established national churches emerged')",
+   "drafter_flags": [
+    "All six quotes re-checked verbatim at their lines. The note runs to six sentences, past the three-sentence norm (it scores FRE 65.4, FK 7.7); reviewer may shorten it."
+   ],
+   "change_reason": "Keep: quotes check, Inferential-Thin matches a single 1850s history across four centuries, and 'continued as' is major by type."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "King Christian III's church law of 1537 says he sent its draft to Martin Luther. Luther and the other Wittenberg teachers approved it. At the Uppsala council of 1593, Sweden's chancellor said the realm would stand on the Augsburg Confession of 1530.",
+   "outcome": "Christian III issued the ordinance, approved at Wittenberg, as church law for the kingdom of Denmark and his duchies in 1537.",
+   "outcome_locus": "Ordinatio 1537, king's preface, lines 102-119: the king ordered the ordinance drawn up for 'Daniae Regno & Ducatibus nostris', sent it to Luther, and Luther with the Wittenberg theologians approved it; the work is the issued ordinance itself.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "109-112",
+     "locus": "king's preface",
+     "quote": "Danc acceptam miſimus ad Reuerendʒ patrem Doctorem Martinum Lutherũ /",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "118-122",
+     "locus": "king's preface",
+     "quote": "Is cum alite qui Wittenbergæ ſũt Theolo gis eam appꝛo⸗ bauit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "102-106",
+     "locus": "king's preface",
+     "quote": "Conuocatis igitur Doctoꝛibus et pꝛœ dicatoꝛibus GEccleſiarum ex Dante Regno z Ducatibus noſtris mandaui⸗ mus vt ordinationẽ aliquã ſacram nobis conſcriberent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "24794-24795",
+     "locus": "the council of Uppsala",
+     "quote": "he declared that they desired to be rooted and grounded on the Augsburgh Confession of the year 1530,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "25637",
+     "locus": "the council of Uppsala, close",
+     "quote": "being March 19, 1593, in the castle of Upsala,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "scandinavian-reformation-kingdoms relationsSummary ('committed the kingdom to the unaltered Augsburg Confession'), longDescription ('the church ordinance drawn up with Luther's colleague Johannes Bugenhagen') and legacy ('These became the Lutheran churches')",
+   "drafter_flags": [
+    "The OCR reads 'Danc' for 'Hanc', 'alite' for 'aliis' and 'Dante' for 'Daniae'; quotes keep the file's text.",
+    "'unaltered' in the census text is not in the Anjou lines cited (Anjou line 11228 uses 'unaltered' of an earlier context). The Uppsala decree text itself is not vendored; wanted.",
+    "Bugenhagen ('Doct: Pomerano') is named in the ordinance at line 1318; not cited, since the approval passage carries the link."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names (three inventory rows: Augsburg, Luther, Lutheran churches).",
+   "fre": 67.8,
+   "fk": 7.0,
+   "outcome_fre": 55.4,
+   "outcome_fk": 10.5
+  },
+  {
+   "id": "scandinavian-reformation-kingdoms--the-tridentine-church",
+   "action": "new",
+   "from": "scandinavian-reformation-kingdoms",
+   "to": "the-tridentine-church",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In Sweden the quarrel grew when Rome would not confirm bishops the cathedral chapters chose, the historian Anjou writes. Denmark broke harder. In 1536 its bishops were jailed, and its church law of 1537 charged the 'papist bishops' with tyranny.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "1881-1883",
+     "locus": "on fees for letters",
+     "quote": "Non liciat hoc noſtris Prafectis quod hactenꝰ nó licuit Papiſticis Epiſco⸗ pie nifi cũ ſũmo erimine tyrannidis et",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "4389-4390",
+     "locus": "Swedish sees before the Reformation",
+     "quote": "chapter, if not approved by the pope, was to be recalled, and of no validity",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14087-14088",
+     "locus": "Denmark and Norway, 1536",
+     "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "scandinavian-reformation-kingdoms relationsSummary ('Denmark-Norway's decisive break in 1536/37'), longDescription ('Gustav Vasa took the church's property and its independence'; 'arrested the bishops outright in 1536') and why",
+   "drafter_flags": [
+    "Only the Scandinavian side's record is vendored (the Danish ordinance); Rome's side comes through Anjou's account of papal refusals. Hence Widely Accepted, not Documented; a papal document would raise it.",
+    "Icelandic resistance and the 1550 execution are in no vendored text (Diplomatarium Islandicum vol. 11 is a lead in the source dossier, not vendored)."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 64.9,
+   "fk": 7.4
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "anti-trinitarian-currents-servetus-polish-brethr",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1546 Calvin wrote to Farel that if Servetus came to Geneva, he would not leave alive. In August 1553 he hoped for a death sentence. On 27 October the city council took advice from Bern, Basel, Zurich and Schaffhausen, then had Servetus burned alive.",
+   "outcome": "In October 1553 Geneva's council condemned Servetus for 'great errors and blasphemies' and ordered him and his books burned.",
+   "outcome_locus": "Calvini Opera 8, Small Council register of 26 October 1553 (lines 54352-54361) and the pastors' register of 27 October (lines 54708-54714), both listed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, Letters, vol. 2, ed. Jules Bonnet (English, 1858)",
+     "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt",
+     "lines": "1781-1782",
+     "locus": "to Farel, 13 February 1546",
+     "quote": "for if he shall come, I shall never permit him to depart alive, provided my authority be of any avail.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, Letters, vol. 2, ed. Jules Bonnet (English, 1858)",
+     "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt",
+     "lines": "19433-19435",
+     "locus": "to Farel, August 1553",
+     "quote": "I hope that sentence of death will at least be passed upon him ; but I desire that the severity of the punishment may be mitigated.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Calvini Opera, vol. 8, ed. Baum, Cunitz and Reuss (1870): extracts from the Geneva registers on the trial of Servetus",
+     "file": "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt",
+     "lines": "54357-54361",
+     "locus": "Small Council register, 26 October 1553",
+     "quote": "considere les grands erreurs et blaffemes — est este arreste II soit oondampne a estre mene en Champel et ia estre brusle tout vyfe et soit exequute a demain et 866 livres brusles.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Calvini Opera, vol. 8, ed. Baum, Cunitz and Reuss (1870): extracts from the Geneva registers on the trial of Servetus",
+     "file": "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt",
+     "lines": "54713-54717",
+     "locus": "Company of Pastors' register, 27 October 1553",
+     "quote": "Vendredy 27 iour doctobre Messeigneurs aians receu ladvis des Eglises de Berne, Basle, Zurich et chafouz, touchant le faict de Servet, Condamne- rent ledict Servet a estre mene en Champey et la estre brusle tout vif.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "anti-trinitarian-currents-servetus-polish-brethr relationsSummary ('Michael Servetus was burned by Geneva's own council in 1553') and longDescription ('burned at Geneva in 1553 with the city council's approval and Calvin's agreement')",
+   "drafter_flags": [
+    "May also be named in the-reformed-cities-zurich-and-geneva's text; the merge should check.",
+    "The register's OCR reads 'oondampne', 'ia', '866 livres' (for 'ses livres'); quotes keep the file's text, and the outcome's 'his books' reads '866' as 'ses'.",
+    "The Bonnet letters are an 1858 English translation; the Latin and French originals are in Calvini Opera (vols. 12 and 14, not vendored)."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names (two inventory rows).",
+   "fre": 61.7,
+   "fk": 8.1,
+   "outcome_fre": 33.5,
+   "outcome_fk": 13.1
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
+   "action": "new",
+   "from": "anti-trinitarian-currents-servetus-polish-brethr",
+   "to": "the-remonstrants-and-dort",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "After Poland expelled the Brethren in 1658, some went to Holland. There, the Unitarian historian Thomas Rees wrote in 1818, they merged into the Remonstrant and Mennonite churches and spread their views through the press. What they changed in Remonstrant thinking rests on that one late account.",
+   "outcome_considered": "Exiles joining Remonstrant congregations is a following, not a church act; no listed source shows a ruling or split.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3314-3316",
+     "locus": "Historical Introduction",
+     "quote": "became amalgamated with the Re monstrants and the Mennonites, or the Low Artni- nians and Baptists of Holland.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3318-3320",
+     "locus": "Historical Introduction",
+     "quote": "The asylum afforded them in the Dutch states fur nished them with favourable opportunities for the dis semination of their sentiments through the press.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in": "anti-trinitarian-currents-servetus-polish-brethr legacy ('scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology'); after prose change 3",
+   "drafter_flags": [
+    "The inventory matched 'Dutch rational theology' to the Dutch Further Reformation; that movement is the pietist current, not rational theology. The Remonstrants are the Dutch party Rees names.",
+    "Both movements end in 1650 in the census, and the merging Rees describes follows 1658. The influence lands on the Remonstrant church after its census window.",
+    "Rees (1818) is entered as secondary, with file and quote, as era-5 precedent does for vendored histories. No primary is vendored for the merging; Bibliotheca Fratrum Polonorum or Limborch's writings are wanted."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 61.9,
+   "fk": 8.4
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--early-american-unitarians-universalists",
+   "action": "new",
+   "from": "anti-trinitarian-currents-servetus-polish-brethr",
+   "to": "early-american-unitarians-universalists",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1815 the English Unitarian Thomas Belsham printed the creeds of Boston's liberal Christians. He wrote that churchmen would call them 'Socinian'. That shows a likeness in belief, not a line back to the Polish Brethren.",
+   "outcome_considered": "A shared label is a teaching named, not an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Belsham, American Unitarianism; or, a brief history (Boston, 1815)",
+     "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+     "lines": "415-416",
+     "locus": "on the creeds of the Boston correspondents",
+     "quote": "Vhe above Creeds are strictly Unitarian ; or more properly what divines in this country would denominate Socinian.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "anti-trinitarian-currents-servetus-polish-brethr legacy ('and, at some distance, into later Unitarianism'); after prose change 3",
+   "drafter_flags": [
+    "The OCR reads 'Vhe' for 'The'. Belsham wrote in London; 'this country' is England.",
+    "Inferential-Thin: the evidence shows the name, not transmission. A reviewer may prefer to qualify the clause and draw no link."
+   ],
+   "change_reason": "New link for a relationship the movement's own text names.",
+   "fre": 64.5,
+   "fk": 7.2
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "relationsSummary",
+   "old": "Historians still debate whether this is a distinct tradition or simply the devotional intensity of Dutch Reformed church life at the time. Its practical piety later fed into German Pietism and, through the Dutch Reformed diaspora, reached South Africa and North America.",
+   "new": "Historians still debate whether this is a distinct tradition or simply the devotional intensity of Dutch Reformed church life at the time. Its practical piety later fed into German Pietism. It may also have reached South Africa and North America with Dutch Reformed emigrants, but no early record shows how.",
+   "reason": "The Pietism tie now has a Documented link (Reitz, 1717). No vendored or repo-cited source shows the piety itself reaching South Africa or North America, so that clause is qualified.",
+   "fre_after": 44.4,
+   "fk_after": 11.2
+  },
+  {
+   "n": 1,
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "field": "legacy",
+   "old": "Its books traveled. Translated into German, this Dutch practical divinity fed directly into German Pietism, and through the Dutch Reformed diaspora it reached South Africa and North America. The refuge culture left the wider mark. The Republic's habit of tolerating in private what it would not endorse in public, and its printing trade, put ideas into circulation across Europe that had nowhere else to go.",
+   "new": "Its books traveled. Retold in German, this Dutch practical divinity fed into German Pietism. It may also have gone with Dutch Reformed emigrants to South Africa and North America, though no early record shows it. The refuge culture left the wider mark. The Republic's habit of tolerating in private what it would not endorse in public, and its printing trade, put ideas into circulation across Europe that had nowhere else to go.",
+   "reason": "'Translated' and 'directly' outrun the evidence: Reitz retells a Dutch life in German, and no vendored text shows Spener or Francke drawing on Dutch writers. The diaspora clause is qualified as in the summary.",
+   "fre_after": 54.7,
+   "fk_after": 9.2
+  },
+  {
+   "n": 2,
+   "movement": "the-remonstrants-and-dort",
+   "field": "legacy",
+   "old": "Both sides outlived the quarrel. The Remonstrant Brotherhood still exists as a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition worldwide, and the five points they answer are still taught in Reformed churches as the shorthand summary of Calvinism. 'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
+   "new": "Both sides outlived the quarrel. The Remonstrant Brotherhood still exists as a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition, sworn to by its ministers as far away as North America. 'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
+   "reason": "The 1840 constitution of the Reformed Dutch Church of North America has ministers subscribe the Heidelberg Catechism, the Belgic Confession and the Canons (lines 357-365), which supports the three standards and their reach. 'The five points they answer' are the Remonstrant articles, not Calvinism's summary, and the modern teaching use has no vendored or repo-cited source; the clause is removed.",
+   "fre_after": 44.0,
+   "fk_after": 11.7
+  },
+  {
+   "n": 3,
+   "movement": "the-waldensian-reformed-union",
+   "field": "legacy",
+   "old": "The Waldensian Church still exists — since the nineteenth century out of the valleys and across Italy, with a sister church in Argentina and Uruguay, and since 1979 in union with Italian Methodists. Its valleys remain a place of pilgrimage for Protestants, and its sheer longevity made it a standing reference point for later Protestants looking for a church older than the Reformation.",
+   "new": "The Waldensian Church still exists, and since the nineteenth century it has spread out of the valleys and across Italy. Its valleys remain a place of pilgrimage for Protestants, and its sheer longevity made it a standing reference point for later Protestants looking for a church older than the Reformation.",
+   "reason": "The sister church in Argentina and Uruguay and the 1979 union with Italian Methodists have no vendored or repo-cited source, and the union falls after every census movement (the Methodist entry ends in 1906). Removed, as the era-5 pass removed the same union from the Waldensians' legacy.",
+   "fre_after": 44.4,
+   "fk_after": 13.3
+  },
+  {
+   "n": 4,
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "legacy",
+   "old": "The Transylvanian church still exists, now the Hungarian Unitarian Church in Romania and Hungary, and is very likely the oldest continuously existing Unitarian body in the world. The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology and, at some distance, into later Unitarianism. Their argument for religious toleration — made by people with the most to lose from its absence — outlasted their communities.",
+   "new": "The Transylvanian church still exists, now the Hungarian Unitarian Church in Romania and Hungary, and is very likely the oldest continuously existing Unitarian body in the world. The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond. In Holland many joined the Remonstrant and Mennonite churches and used the Dutch presses. Their writings may have fed Dutch and English rational theology, and at some distance later Unitarianism, though the trail is faint. Their argument for religious toleration — made by people with the most to lose from its absence — outlasted their communities.",
+   "reason": "Rees (1818) shows the exiles merging into Remonstrant and Mennonite congregations and printing in Holland; that is stated. The wider influence rests on that one late history and on Belsham's naming, so it is qualified.",
+   "fre_after": 38.3,
+   "fk_after": 12.5
+  }
+ ],
+ "wants": [
+  "Spener, Pia Desideria and letters, or Francke, on Dutch authors read in German (Teellinck, Lodenstein, Brakel in German translation), to document a direct Further Reformation tie to Halle Pietism",
+  "An early record of Further Reformation piety among Dutch Reformed settlers at the Cape or in New Netherland (e.g. Frelinghuysen's sermons)",
+  "The Acta of the Synod of Dort (Latin, 1620), for the foreign deputies' subscriptions to the Canons and the sentence on the Remonstrants",
+  "John Milton, Sonnet 18, 'On the Late Massacre in Piedmont' (1655), in a public-domain edition",
+  "A source for the Waldensian Church in Argentina and Uruguay and for the 1979 Waldensian-Methodist union (twentieth-century, likely out of window)",
+  "The Uppsala decree of 1593 (Uppsala möte) in its own text, for 'the unaltered Augsburg Confession'",
+  "Diplomatarium Islandicum vols. 10-11 (Jon Arason's letters) and an account of his execution in 1550",
+  "A papal or curial document on the Danish or Swedish break (1527-1537), to show Rome's side of the rupture",
+  "Bibliotheca Fratrum Polonorum (Amsterdam, 1665-) or Limborch's writings, to show Socinian influence on the Remonstrants from a primary text",
+  "A source for the Utraquist consistory's continuity across 1517 (e.g. Utraquist consistory acts), to cover the other half of the Czech movement"
+ ],
+ "escalations": []
+}
