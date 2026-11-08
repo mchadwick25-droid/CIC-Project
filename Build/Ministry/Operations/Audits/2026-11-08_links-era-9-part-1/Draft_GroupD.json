@@ -794,7 +794,7 @@
    "to": "taiping-heavenly-kingdom",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1832 the Chinese preacher Liang Fa published a Christian tract. Years later Hong Xiuquan reread it and decided that his visions meant he was God's second son. Jonathan Spence's history of the Taiping tells this story, and no text by Liang Fa or Hong has yet been checked for it here.",
+   "note": "In 1832 the Chinese preacher Liang Fa published a Christian tract. Years later Hong Xiuquan reread it and decided that his visions meant he was God's second son. Jonathan Spence's history of the Taiping tells the story this way.",
    "sources": [
     {
      "kind": "secondary",
@@ -833,7 +833,7 @@
    "drafter_flags": [
     "Part 2 movement (Taiping); part 1 owns it because this entry's text names it.",
     "Spence and Reilly are cited in the repo (Taiping source lists in the atlas prototype); I have not seen their pages. No primary is vendored.",
-    "The last sentence says plainly that no primary has been checked; the reviewer may prefer to drop it as process language. If dropped, the note still stands on Spence."
+    "No primary is vendored; the grade, not the note, carries that."
    ],
    "change_reason": "New. The tract-to-Taiping claim in the longDescription gets a link at the grade the repo-cited scholarship supports."
   },
@@ -897,7 +897,7 @@
    "to": "african-initiated-churches-harrist-aladura-zioni",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Samuel Ajayi Crowther became the first African Anglican bishop in 1864, and in 1890 his own mission society forced him aside. Andrew Walls and Lamin Sanneh read that treatment as a lesson African Christians did not forget. In their reading it is one root of the churches Africans founded for themselves in the following decades.",
+   "note": "In 1890 his own mission society pushed Samuel Ajayi Crowther aside. He had been the first African Anglican bishop since 1864. Andrew Walls and Lamin Sanneh see that as a lesson African Christians did not forget. In their view it is one root of the churches Africans later founded for themselves.",
    "sources": [
     {
      "kind": "secondary",
@@ -946,7 +946,7 @@
    "drafter_flags": [
     "cross-era: era 10 (not yet run; the AIC entry also names 'mission churches' as parents, a separate claim left for the era-10 owner)",
     "Walls and Sanneh are cited in the repo (census sources and atlas prototype); I have not seen their pages. The claim that Crowther's removal fed the independent churches is their reading, not a vendored fact.",
-    "The AIC entry's named churches (Harrist, Aladura, Zionist, Kimbanguist) are mostly later and elsewhere; the Lagos secessions of the 1890s, which Walls ties most directly to Crowther, are not named in either entry. Hence 'one root', not 'gave rise to'."
+    "The AIC entry's named churches (Harrist, Aladura, Zionist, Kimbanguist) are mostly later and elsewhere; the Lagos secessions of the 1890s, the most direct reaction to the Niger crisis on my understanding (not checked in any repo source), are not named in either entry. Hence 'one root', not 'gave rise to'."
    ],
    "change_reason": "New. The legacy's Crowther-to-independent-churches claim gets a link at the grade repo-cited scholarship supports."
   },
@@ -957,7 +957,7 @@
    "to": "the-ecumenical-movement-and-the-wcc",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The 1910 World Missionary Conference at Edinburgh, the summit of the student mission movement, set up a continuation committee to carry on its work. In October 1921 that work passed to the new International Missionary Council. Brian Stanley's history of the conference traces this line into the World Council of Churches.",
+   "note": "In 1910 the World Missionary Conference met at Edinburgh. It was the high point of the student mission drive. It set up a committee to carry on its work. In October 1921 that work passed to a new body, the International Missionary Council. Brian Stanley's history of the meeting traces this line on to the World Council of Churches.",
    "sources": [
     {
      "kind": "secondary",
@@ -992,7 +992,7 @@
    ],
    "citation_specificity": "C",
    "verification_state": "named-not-rechecked",
-   "named_in_text": "the-student-volunteer-movement-and-edinburgh-191 relationsSummary ('Edinburgh's continuation committee carried its work into the International Missionary Council'; after prose change 2) and legacy",
+   "named_in_text": "the-student-volunteer-movement-and-edinburgh-191 relationsSummary ('A committee set up at Edinburgh kept its work going'; after prose change 2) and legacy",
    "wants": [
     "World Missionary Conference, 1910, Report of Commission VIII and vol. IX, The History and Records of the Conference (Edinburgh and London, 1910), public domain: the Continuation Committee's appointment and the delegates' speeches; would lift this to Documented",
     "John R. Mott, The Evangelization of the World in This Generation (1900), public domain"
@@ -1011,7 +1011,7 @@
    "to": "indonesian-christianity-the-independent-century",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Batak church of North Sumatra, which gave itself a written order in 1881, is the same church, the HKBP, that became fully independent in 1930. The Javanese and eastern island churches carried on into the twentieth century as well. Jan Aritonang and Karel Steenbrink's history of Christianity in Indonesia tells both chapters.",
+   "note": "The Batak church of North Sumatra gave itself a written order in 1881. It is the same church, the HKBP, that became fully free of the mission in 1930. The churches of Java and the eastern islands also lived on into the next century. Jan Aritonang and Karel Steenbrink tell both parts of the story in their history of Indonesia's churches.",
    "sources": [
     {
      "kind": "secondary",
@@ -1053,7 +1053,7 @@
    "to": "northeast-india-and-mar-thoma-twentieth-century",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "In the 1860s an English chaplain in Kerala watched the reforming bishop Mar Athanasius lead his party against a rival bishop sent from Antioch. That reforming party is the Mar Thoma Church that carried on through the twentieth century. The Khasi, Mizo and Naga hill churches carried on too, as Robert Frykenberg's history of Christianity in India shows.",
+   "note": "In the 1860s an English chaplain in Kerala saw a bishop sent from Antioch at work there. That bishop had been sent to check the reforming bishop Mar Athanasius. The reform party lived on as the Mar Thoma Church of the next century. The hill churches of the northeast lived on too, as Robert Frykenberg's history of Christianity in India shows.",
    "sources": [
     {
      "kind": "primary",
@@ -1106,14 +1106,14 @@
    "to": "the-malankara-churches-orthodox-and-jacobite",
    "type": "broke with",
    "confidence": "Widely Accepted",
-   "note": "In 1847 the Patriarch of Antioch condemned Mathew Mar Athanasius, the reforming bishop in Kerala, and ordered that 'none shall pray with him'. A rival bishop came from Antioch to check the reform. A royal court verdict in 1889 then left the reformers and the larger body loyal to Antioch as separate churches.",
+   "note": "In 1847 the Patriarch of Antioch condemned Mathew Mar Athanasius, the reforming bishop in Kerala. He ordered that 'none shall pray with him'. A rival bishop came from Antioch to check the reform. Then a royal court verdict in 1889 left the two sides as separate churches.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
      "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847 on the dismissal of Athanasius Matthew, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
      "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
-     "lines": "2633-2636",
+     "lines": "2632-2636",
      "locus": "The Patriarch's Letter (May, 1847)",
      "quote": "And thus again do we anathematize the audacious Matthew, as our Father the blessed Patriarch anathematized him. And no man shall in any wise have authority to receive him, or to hear his words, and none shall pray with him or consort with him on any ground whatsoever.",
      "license": "public-domain"
@@ -1123,9 +1123,9 @@
      "source_id": null,
      "work": "The same letter (1847), on the charges against him",
      "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
-     "lines": "2574-2577",
+     "lines": "2574-2576",
      "locus": "The Patriarch's Letter (May, 1847)",
-     "quote": "the accursed Matthew had acted impiously, and was a heretic, and had changed his profession, and had abolished the fasts and the customs and the Canons Apostolic, and had taught new customs at his own pleasure,",
+     "quote": "the accursed Matthew had acted impiously, and was a heretic, and had changed his profession, and had abolished the fasts and the customs",
      "license": "public-domain"
     },
     {
@@ -1170,7 +1170,7 @@
    "movement": "the-missionary-movement-s-native-churches-seramp",
    "field": "relationsSummary",
    "old": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South. Converts also became missionaries in their own right — Lott Carey's mission to Liberia in 1821, sent by Black American churches, is one example.",
-   "new": "These churches grew out of Protestant mission societies, which learned from earlier Pietist, Moravian and Methodist missions. William Carey's 1792 appeal, which led to the Baptist mission in India, held up the Moravians and the Methodists as models. The churches the societies planted became parents of the Christian traditions now flourishing across the global South. Converts also became missionaries in their own right, like the Polynesian teachers who carried the faith from island to island.",
+   "new": "These churches grew out of Protestant mission societies. The societies learned from earlier Pietist, Moravian and Methodist missions. In 1792 William Carey wrote the appeal that led to the Baptist mission in India. In it he held up the Moravians and the Methodists as models. The churches the societies planted became parents of the faith that now grows fast across the global South. Their own converts soon went out to spread it too. Teachers from Polynesia carried it from island to island.",
    "reason": "'Descend from ... Catholic mission lines' is removed: the four wings named here are Protestant mission churches, and the one vendored text, Carey's Enquiry, cites Catholic missionaries only as proof the work was possible, not as a line of descent. The Moravian and Methodist claims are kept and now carried by Documented links from Carey's Enquiry. 'Pietist' is kept; era 8 owns that link. The Lott Carey example is removed: he was sent from America to Liberia, outside this entry's four regions, the Black Church entry does not name him, and no vendored or repo-cited source supports the sentence. The example is replaced by the Polynesian teachers, already in the description and why. Whole field rewritten."
   },
   {
@@ -1178,15 +1178,15 @@
    "movement": "the-missionary-movement-s-native-churches-seramp",
    "field": "legacy",
    "old": "Much of the Christianity of Africa, Asia and the Pacific descends from these churches, and the global South is now the numerical center of the faith: the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window. The translation work left a second legacy nobody planned. Hundreds of languages given a written form, a grammar and a printed literature for the first time, which preserved them as much as it preserved anything doctrinal. And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
-   "new": "Much of the Christianity of Africa, Asia and the Pacific descends from these churches, and the global South is now the numerical center of the faith. The Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all trace their roots to these years. The translation work left a second legacy nobody planned. Hundreds of languages were given a written form, a grammar and a printed literature for the first time, which preserved them as much as it preserved anything doctrinal. And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
-   "reason": "'All run back through this window' is map-layout language; rewritten as 'trace their roots to these years'. The fragment 'Hundreds of languages given a written form' gets its verb. The Chinese church and Crowther claims are kept, each carried by a Dominant Modern Reconstruction link to its era-10 entry."
+   "new": "Much of the Christianity of Africa, Asia and the Pacific comes from these churches. The global South is now the faith's center by numbers. The Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all trace their roots to these years. The translation work left a second legacy nobody planned. Hundreds of languages got a written form, a grammar and printed books for the first time. That kept them alive as much as it kept any teaching alive. And the way Crowther was treated in his last years became a lesson African Christians learned well. It is one of the roots of the independent African churches of the next century.",
+   "reason": "'All run back through this window' is map-layout language; rewritten as 'trace their roots to these years'. The fragment 'Hundreds of languages given a written form' gets its verb. The Chinese church and Crowther claims are kept, each carried by a Dominant Modern Reconstruction link to its era-10 entry. The rest is reworded into shorter sentences to meet the reading target; no fact is added or dropped."
   },
   {
    "n": 2,
    "movement": "the-student-volunteer-movement-and-edinburgh-191",
    "field": "relationsSummary",
    "old": "Known by its watchword, \"the evangelization of the world in this generation.\" The 1910 World Missionary Conference at Edinburgh was its summit, and it became the parent of both the modern ecumenical movement and the independent evangelical missionary agencies that followed. It continued seamlessly into the International Missionary Council, founded in October 1921.",
-   "new": "Known by its watchword, \"the evangelization of the world in this generation.\" The 1910 World Missionary Conference at Edinburgh was its summit. Both the modern ecumenical movement and many later evangelical mission agencies claim that gathering as an ancestor. Edinburgh's continuation committee carried its work into the International Missionary Council, founded in October 1921.",
+   "new": "Known by its watchword, \"the evangelization of the world in this generation.\" Its high point came at Edinburgh in 1910, at a great world meeting on mission. Two later movements claim that meeting as their root. One is the modern ecumenical movement, which works to bring churches together. The other is the wide world of evangelical mission groups that came later. A committee set up at Edinburgh kept its work going. In October 1921 it handed that work to a new body, the International Missionary Council.",
    "reason": "'It continued seamlessly into the International Missionary Council' says the Student Volunteer Movement itself became the council. The entry's own legacy, and the ecumenical entry, say Edinburgh's continuation committee did, while the SVM went on by itself and faded by mid-century. 'Parent of both ... and the independent evangelical missionary agencies' is softened to the claim of ancestry the legacy already makes. Stanley 2009 (repo-cited) for both; the ecumenical claim is carried by a Dominant Modern Reconstruction link."
   },
   {
@@ -1194,24 +1194,24 @@
    "movement": "the-student-volunteer-movement-and-edinburgh-191",
    "field": "legacy",
    "old": "Edinburgh's continuation committee became the International Missionary Council in 1921 and fed into the World Council of Churches in 1948: the modern ecumenical movement dates its own beginning to that room. The same generation's evangelistic energy went the other way, into the independent missionary agencies that multiplied through the twentieth century, so that one gathering is claimed as an ancestor by two movements that spent the following century largely apart. The Student Volunteer Movement itself never recovered from the First World War and had effectively ended by mid-century.",
-   "new": "Edinburgh's continuation committee became the International Missionary Council in 1921, and the council joined the World Council of Churches in 1961: the modern ecumenical movement dates its own beginning to that room. The same generation's evangelistic energy went the other way, into the independent missionary agencies that multiplied through the twentieth century, so that one gathering is claimed as an ancestor by two movements that spent the following century largely apart. The Student Volunteer Movement itself never recovered from the First World War and had effectively ended by mid-century.",
-   "reason": "'Fed into the World Council of Churches in 1948' reads as the missionary council joining at the council's founding. The ecumenical entry's own text says the International Missionary Council merged in at New Delhi in 1961; the field now says so. Rest unchanged."
+   "new": "The committee set up at Edinburgh became the International Missionary Council in 1921. In 1961 the council joined the World Council of Churches. The modern ecumenical movement dates its own start to that room in Edinburgh. The same generation's zeal for preaching also went the other way. It went into the independent mission groups that grew all through the twentieth century. So two movements that spent the next hundred years mostly apart both claim one meeting as their root. The Student Volunteer Movement itself never got over the First World War. By the middle of the century it had in effect come to an end.",
+   "reason": "'Fed into the World Council of Churches in 1948' reads as the missionary council joining at the council's founding. The ecumenical entry's own text says the International Missionary Council merged in at New Delhi in 1961; the field now says so. The rest is reworded into shorter sentences to meet the reading target; no fact is added or dropped."
   },
   {
    "n": 4,
    "movement": "indonesian-christianity",
    "field": "legacy",
    "old": "Indonesia now has one of the largest Christian populations of any Muslim-majority country in the world, numbering in the tens of millions, and the Batak church founded in this window counts several million members on its own. A fact that would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain, one of them carrying Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
-   "new": "Indonesia now has one of the largest Christian populations of any Muslim-majority country in the world, numbering in the tens of millions, and the Batak church founded in these years counts several million members on its own. That would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain, one of them carrying Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
-   "reason": "'Founded in this window' is map-layout language; now 'founded in these years'. The fragment 'A fact that would surprise...' gets a subject. Rest unchanged; the 'next chapter' claim is carried by the continuation link."
+   "new": "Indonesia now has one of the largest Christian populations of any Muslim-majority country, in the tens of millions. The Batak church founded in these years counts several million members on its own. That would surprise most people's mental map of where Lutherans live. The schools, colleges and hospitals that grew out of the mission remain, and one of them bears Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest of the twentieth century, belongs to the next chapter of the same story.",
+   "reason": "'Founded in this window' is map-layout language; now 'founded in these years'. The fragment 'A fact that would surprise...' gets a subject. Light rewording for the reading target; the 'next chapter' claim is carried by the continuation link."
   },
   {
    "n": 5,
    "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
    "field": "relationsSummary",
    "old": "The Mar Thoma Church is an ancient-rite church that added evangelical reform, continuing the St. Thomas Christian tradition of Kerala. After the 1889 court verdict split the community, the larger Malankara Orthodox (Jacobite) body carried on as a separate tradition. Independent revivals in the Khasi, Mizo and Naga hills, meanwhile, made those regions among the most thoroughly Christian on earth.",
-   "new": "The Mar Thoma Church is an ancient-rite church that added evangelical reform, continuing the St. Thomas Christian tradition of Kerala. The reform split the community. In 1847 the Patriarch of Antioch condemned its leading bishop, and after a royal court verdict in 1889 the larger body, loyal to Antioch, carried on as a separate Malankara church. Independent revivals in the Khasi, Mizo and Naga hills, meanwhile, made those regions among the most thoroughly Christian on earth.",
-   "reason": "'The larger Malankara Orthodox (Jacobite) body' names a division that came only in 1912, when that body itself split into Orthodox and Jacobite wings. The field now names the body by its loyalty to Antioch and adds the 1847 anathema, which the vendored patriarchal letter documents (Philipos, ed. Howard 1869). The 1889 verdict rests on Frykenberg and the entry's own description. 'Continuing the St. Thomas Christian tradition' is kept; eras 6 and 7 own that link."
+   "new": "The Mar Thoma Church is an ancient-rite church that added evangelical reform. It carries on the St. Thomas Christian tradition of Kerala. The reform split the community. In 1847 the Patriarch of Antioch condemned its leading bishop. After a royal court verdict in 1889, the larger body, loyal to Antioch, went on as a separate church. Meanwhile, in the Khasi, Mizo and Naga hills, independent revivals made those regions among the most Christian on earth.",
+   "reason": "'The larger Malankara Orthodox (Jacobite) body' names a division that came only in 1912, when that body itself split into Orthodox and Jacobite wings. The field now names the body by its loyalty to Antioch and adds the 1847 anathema, which the vendored patriarchal letter documents (Philipos, ed. Howard 1869). The 1889 verdict rests on Frykenberg and the entry's own description. 'Continuing the St. Thomas Christian tradition' is kept; eras 6 and 7 own that link. The rest is split into shorter sentences for the reading target."
   }
  ],
  "wants": [
