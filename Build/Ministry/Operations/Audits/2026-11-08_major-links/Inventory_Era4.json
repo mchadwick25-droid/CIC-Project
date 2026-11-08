@@ -1,0 +1,848 @@
+{
+  "era": 4,
+  "links": [
+    {
+      "id": "anglo-saxon-christianity--carolingian-reform-christianity",
+      "from": "anglo-saxon-christianity",
+      "from_name": "Anglo-Saxon Christianity",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "carolingian-reform-christianity",
+      "to_name": "Carolingian Reform Christianity",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "English churchmen helped lead the Frankish reform from the start. In 742 Carloman, a ruler of the Franks, set the English missionary Boniface as archbishop over the bishops of his realm. Alcuin of York later wrote that he had come to Francia to help King Charles in the Catholic faith.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+          "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "lines": "2248-2250",
+          "locus": "Capitulary of 742, c. 1",
+          "quote": "et constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Boniface, Letter to Cuthbert, archbishop of Canterbury (747), in The English Correspondence of Saint Boniface, trans. E. Kylie (1911)",
+          "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+          "lines": "7039-7042",
+          "locus": "Letter XLII (Kylie), to Cuthbert of Canterbury, 747",
+          "quote": "at the command of the Roman pontiff and the request of the rulers of the Franks and Gauls, I undertook to gather and exhort a synod in the hope of restoring the law of Christ."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Alcuin of York, Against Elipandus I.16, in Alcuini Opera Omnia, Migne PL 100-101 (1863)",
+          "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+          "lines": "18630-18632",
+          "locus": "Adversus Elipandum I.16",
+          "quote": "Non ego illum corrum- pere veni in Franciam, qui corrumpi non potest, sed adjuvare in fide catholica,"
+        }
+      ]
+    },
+    {
+      "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "from": "carolingian-reform-christianity",
+      "from_name": "Carolingian Reform Christianity",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "cluniac-reform-monasticism",
+      "to_name": "Cluniac Reform Monasticism",
+      "to_era": 4,
+      "confidence": "Inferential-Thin",
+      "note": "From 742 the Frankish reformers ordered monks and nuns to live by the Rule of Benedict. Cluny, founded around 910, was a house of Benedictine monks. The link rests on that shared Rule, not on any named founder who passed from one to the other.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+          "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+          "lines": "2324-2325",
+          "locus": "Capitulary of 742, c. 7",
+          "quote": "Et ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordinare et vivere,"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+          "file": null,
+          "lines": null,
+          "locus": "Introduction: the monks of Cluny called 'Bénédictins français de Cluny' (file lines 297-299, 899-900)",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+      "from": "carolingian-reform-christianity",
+      "from_name": "Carolingian Reform Christianity",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "latin-papal-church-gregorian",
+      "to_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "to_era": 5,
+      "confidence": "Widely Accepted",
+      "note": "In the ninth century a forger in the Frankish lands made a collection of fake early papal letters, the False Decretals. In 1081 Pope Gregory VII quoted one of them, a letter said to be from Pope Julius, to argue that Rome could judge earthly rulers. His modern editor traced that letter to the forged collection.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory VII, Letter to Bishop Hermann of Metz (1081), Register VIII.21, in C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911)",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "10864-10865",
+          "locus": "Gregory VII, Reg. VIII.21 (to Hermann of Metz, 15 March 1081); Mirbt no. 252",
+          "quote": "Item Julius papa, Orientalibus episcopis scribens, de potestate eiusdem sanctae et apostolicae sedis ait"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., Tübingen, 1911), note to no. 252: the Julius letter identified as 'Decretales Pseudo-Isidorianae ed. PHinschius ... 464'",
+          "file": null,
+          "lines": null,
+          "locus": "file line 10877",
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Ante-Nicene Fathers vol. 8, American ed. A. Cleveland Coxe (1886), Introductory Notice to The Decretals: 'the manufactured product of the ninth century', quoting Dupin that 'some German or Frenchman began this imposture'",
+          "file": null,
+          "lines": null,
+          "locus": "file lines 57101-57103, 57393-57399",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+      "from": "cluniac-reform-monasticism",
+      "from_name": "Cluniac Reform Monasticism",
+      "from_era": 4,
+      "type": "in contact with",
+      "to": "latin-papal-church-gregorian",
+      "to_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In January 1077 Pope Gregory VII lifted his ban on King Henry IV at Canossa. Gregory's own report says the abbot of Cluny, Hugh, helped confirm the king's sworn promises. The record of the oath lists the abbot among those present on the king's side.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory VII, Report on Henry IV's penance at Canossa (1077), Register IV.12, in C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911)",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "10442",
+          "locus": "Gregory VII, Reg. IV.12 (to the German princes, January 1077); Mirbt no. 236",
+          "quote": "Quarum etiam confirmationem per manus abbatis Cluniacensis (sc. Hugonis)"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Oath of Henry IV at Canossa (28 January 1077), Register IV.12a, in Mirbt (1911)",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "10485-10486",
+          "locus": "Gregory VII, Reg. IV.12a (Henry IV's oath, witness list)",
+          "quote": "Item ex parte regis interfuerunt : Bremensis archi- episcopus ^, et episcopi Vercellensis ^ et Osnabrugensis ^ et abbas Cluniacensis"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+          "file": null,
+          "lines": null,
+          "locus": "Introduction: the Cluniac monks as the instruments Gregory VII used to bring the Roman liturgy into Spain (file lines 293-299)",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+      "from": "cyrillo-methodian-slavic-christianity",
+      "from_name": "Cyrillo-Methodian Slavic Christianity",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "kievan-rus-christianity",
+      "to_name": "Kievan Rus' Christianity",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: the brothers' translation 'became afterwards a most blessed instrument for the conversion of the Russians'",
+          "file": null,
+          "lines": null,
+          "locus": "ch. I, file lines 905-907",
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Robert Pinkerton, note in Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814): the Slavonic Bible 'made in the ninth century, by two learned Greeks, Cyril and Methodius'; 'The present version in use among the Russians is that of Ostrog'",
+          "file": null,
+          "lines": null,
+          "locus": "file lines 3150-3154",
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary for the ninth century: the Rus' annals 'began to be written and recorded' after Michael 'had sent the Sclavonian characters into Bulgaria' (which the same passage dates [898])",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 7871-7878",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+      "from": "byzantine-imperial-church-heraclian-iconoclast",
+      "from_name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "iconophile-byzantine-monasticism",
+      "to_name": "Iconophile Byzantine Monasticism",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "In 754 a council called by the emperor Constantine V banned holy images. At its close the bishops cursed John of Damascus as a teacher of impiety, calling him by his family name, Mansur. Later historians write that the emperor then pressed the monks to obey. Many fled, they say, and some were killed.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "39454",
+          "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+          "quote": "The divine Kings Constantine and Leo said:"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "39464-39465",
+          "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+          "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mansur"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "39469-39471",
+          "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+          "quote": "To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema!"
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "C. J. Hefele, History of the Councils, vol. V, p. 308; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39497-39521",
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "W. M. Sinclair, article on the emperor Constantine V, Smith and Wace, Dictionary of Christian Biography; quoted in H. R. Percival's excursus on the synod of 754, NPNF ser. 2 vol. 14 (1900)",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39530-39550 (the file prints the article as 'sub voce Constantinus VI')",
+          "quote": null
+        },
+        {
+          "index": 5,
+          "kind": "secondary",
+          "work": "Adolf Harnack, History of Dogma, vol. V (Eng. tr.), p. 325; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39552-39575",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+      "from": "iconophile-byzantine-monasticism",
+      "from_name": "Iconophile Byzantine Monasticism",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "byzantine-imperial-church-heraclian-iconoclast",
+      "to_name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "to_era": 4,
+      "confidence": "Widely Accepted",
+      "note": "John of Damascus answered those who \"find fault with us\" for honoring images, and the iconoclast council of 754 cursed his teaching. Monks also sat at the council of 787 that reversed it. Harnack wrote that the resistance came from the ranks of the monks.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "John of Damascus, Exposition of the Orthodox Faith IV.16, 'Concerning Images' (NPNF ser. 2 vol. 9)",
+          "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+          "lines": "36232-36234",
+          "locus": "De fide orth. IV.16",
+          "quote": "find fault with us for worshipping and honouring the image of our Saviour and that of our Lady,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "39464-39465",
+          "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+          "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mansur"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Second Council of Nicaea (787), Acts, Session I (NPNF ser. 2 vol. 14)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "38728-38730",
+          "locus": "Nicaea II, Act I (Sabbas of Stoudios)",
+          "quote": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: According to the Apostolic precepts and the Ecumenical Synods he is worthy to be received back."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Adolf Harnack, History of Dogma, vol. V (Eng. tr.), p. 325; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39552-39575",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+      "from": "iconophile-byzantine-monasticism",
+      "from_name": "Iconophile Byzantine Monasticism",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "byzantine-imperial-church-macedonian",
+      "to_name": "The Byzantine Imperial Church (Macedonian Era)",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "Photius, patriarch from 858, read and praised the work of two iconophile writers. One was the patriarch Nicephorus, the other Sergius the Confessor. His notes on Sergius speak of the lawless and vile acts of Constantine V. His church kept a feast each year for the victory of the icons.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Photius, Bibliotheca, codex 66 (trans. J. H. Freese, 1920)",
+          "file": "cic/texts/photius_library-v1_freese1920.txt",
+          "lines": "5383-5384",
+          "locus": "Bibl. cod. 66",
+          "quote": "Read the Historical Epitome of Nicephorus patriarch of Constantinople."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Photius, Bibliotheca, codex 66 (trans. J. H. Freese, 1920)",
+          "file": "cic/texts/photius_library-v1_freese1920.txt",
+          "lines": "5400-5402",
+          "locus": "Bibl. cod. 66",
+          "quote": "Speaking generally, he throws into the shade all historians who have preceded him ;"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Photius, Bibliotheca, codex 67 (trans. J. H. Freese, 1920)",
+          "file": "cic/texts/photius_library-v1_freese1920.txt",
+          "lines": "5408-5410",
+          "locus": "Bibl. cod. 67",
+          "quote": "Read the History of Sergius the Confessor.^ It begins with the reign of the emperor Michael,^ and then goes back to the lawless and abominable acts of Copronymus."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "J. H. Freese, The Library of Photius, vol. I (1920), notes to codices 66-67",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/photius_library-v1_freese1920.txt lines 5386-5390, 5419-5426",
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Adolf Harnack, History of Dogma, vol. IV, p. 328; quoted in Percival's excursus on the reception of Nicaea II, NPNF ser. 2 vol. 14 (1900)",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 41546-41571",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "from": "iconophile-byzantine-monasticism",
+      "from_name": "Iconophile Byzantine Monasticism",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "kievan-rus-christianity-1054-1240",
+      "to_name": "Kievan Rus' Christianity, 1054-1240",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Mouravieff's history of the Russian church draws on the chronicler Nestor. It says Theodosius of the Kyiv Caves wrote out the rule of the Stoudios house for his monks. A monk from Constantinople had brought it. Other Rus' houses then took it as their model.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), ch. on the first monasteries",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1599-1616",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+      "from": "byzantine-imperial-church-heraclian-iconoclast",
+      "from_name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "paulicians",
+      "to_name": "Paulicians",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Franjo Rački, a Croatian historian writing in 1869, tells of a persecution of the Paulicians under the emperor Michael I, from 811 to 813. He says it failed to root them out. This rests on his history alone.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 99: 'Nastala proti njim progonstva za cara Mihajla (811 — 13) ... niesu jih mogla izkorieniti'",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 856-857",
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian--paulicians",
+      "from": "byzantine-imperial-church-macedonian",
+      "from_name": "The Byzantine Imperial Church (Macedonian Era)",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "paulicians",
+      "to_name": "Paulicians",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "After 843 the empress Theodora had the Paulicians hunted, and the patriarch Photius wrote against them. Peter of Sicily, sent to Tephrike by Basil I, wrote a book against them to warn the new church in Bulgaria. In 970 John Tzimiskes moved Paulicians from Asia to Plovdiv.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866",
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 104",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 1159-1166",
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104",
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "paulicians--bogomils",
+      "from": "paulicians",
+      "from_name": "Paulicians",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "bogomils",
+      "to_name": "Bogomils",
+      "to_era": 4,
+      "confidence": "Contested",
+      "note": "Peter of Sicily, a Byzantine envoy at Tephrike around 870, wrote that the Paulicians meant to send preachers to Bulgaria. Older historians, and some modern ones, built a line from them to the Bogomils on reports like this. Others point out that the Armenian sources show no dualism, and doubt the line. No Paulician or Bogomil text settles it.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866",
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104",
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census bogomils sources (note: the classic monograph, its 'Neo-Manichaean' framing); not read",
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Yuri Stoyanov, The Other God: Dualist Religions from Antiquity to the Cathar Heresy (Yale, 2000)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census bogomils sources (note: modern synthesis of the dualist line); not read",
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Nina G. Garsoian, The Paulician Heresy (1967)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census paulicians sources (note: argues the Greek and Armenian source-traditions diverge, the Armenian lacking the dualism); not read",
+          "quote": null
+        },
+        {
+          "index": 5,
+          "kind": "secondary",
+          "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "bogomils--cathars-albigensians",
+      "from": "bogomils",
+      "from_name": "Bogomils",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "cathars-albigensians",
+      "to_name": "Cathars / Albigensians",
+      "to_era": 5,
+      "confidence": "Contested",
+      "note": "Around 1250 the inquisitor Rainerius Sacconi, once a Cathar himself, listed the Cathar churches. He said all of them came from two churches in the Balkans, Bulgaria and Dugunthia. Historians still argue over how much passed west. Some doubt that the Cathars were one movement at all.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Rainerius Sacconi, Summa de Catharis (1250), the list of Cathar churches, as printed by Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 161",
+          "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+          "lines": "4328-4330",
+          "locus": "Summa de Catharis, 'Quot sunt ecclesiae Catharorum'",
+          "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, p. xxxv note and pp. lii-liii",
+          "file": null,
+          "lines": null,
+          "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1343-1350, 1838-1848",
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Yuri Stoyanov, The Other God: Dualist Religions from Antiquity to the Cathar Heresy (Yale, 2000)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census bogomils sources (note: modern synthesis including the claimed Bogomil-Cathar link); not read",
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census cathars-albigensians sources (note: the coherence debate, Pegg and Moore against Biller and others); not read",
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+          "file": null,
+          "lines": null,
+          "locus": "repo-cited: census bogomils sources (note: still the standard narrative; its framing faces newer skepticism); not read",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+      "from": "church-of-the-east-under-the-abbasids",
+      "from_name": "The Church of the East under the Abbasids",
+      "from_era": 4,
+      "type": "in contact with",
+      "to": "st-thomas-christians-of-india",
+      "to_name": "St. Thomas Christians of India",
+      "to_era": 4,
+      "confidence": "Widely Accepted",
+      "note": "Around 800 the head of the church, Timothy, named the Indians among the peoples in his care. In the 850s a later head, Theodosius, made a church law for the far-off metropolitans, India's among them. Each was to write to the patriarch every six years. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Timothy I, letter to the monks of Mar Maron (trans. Mingana from his own manuscript)",
+          "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+          "lines": "1688-1691",
+          "locus": "Mingana 1926, p. 34",
+          "quote": "among the Indians, the Chinese, the Tibetans, the Turks, and in all the provinces under the jurisdiction of this Patriarchal See,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+          "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+          "lines": "34477-34478",
+          "locus": "Bibl. Orient. III.2, p. DXVII",
+          "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+          "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+          "lines": "34484-34485",
+          "locus": "Bibl. Orient. III.2, p. DXVII",
+          "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno ."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+          "file": null,
+          "lines": null,
+          "locus": "file lines 1694-1696 (Theodosius names the archbishops of India), 3891-3899 (Sabrisho on the Kollam plates)",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+      "from": "byzantine-imperial-church-heraclian-iconoclast",
+      "from_name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "from_era": 4,
+      "type": "argued against",
+      "to": "melkite-arabic-christianity",
+      "to_name": "Melkite Arabic Christianity",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "In 754 a council of bishops at Constantinople backed the emperor's ban on icons and cursed John of Damascus. It used his family name, Mansur. Its closing cries damn him as a man 'who has an evil name and Saracen opinions'.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Council of Hieria (754), closing acclamations, as given in NPNF 2nd ser. vol. 14 (ed. Percival)",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "39468-39469",
+          "locus": "Hieria 754, acclamations",
+          "quote": "Anathema to Mansur, who has an evil name and Saracen opinions!"
+        }
+      ]
+    },
+    {
+      "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+      "from": "coptic-christianity-under-early-islam",
+      "from_name": "Coptic Christianity under Early Islam",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "makurian-nubian-christianity",
+      "to_name": "Makurian Nubian Christianity",
+      "to_era": 4,
+      "confidence": "Widely Accepted",
+      "note": "Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. A Coptic history of the 700s says the patriarch in Egypt ordained the chief bishop of Makuria. Coptic monks and Coptic books were common in Nubia.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I (Kha'il), trans. Evetts, Patrologia Orientalis 5",
+          "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+          "lines": "7181-7183",
+          "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
+          "quote": "and he has in his country an orthodox bishop whom the patriarch ordains as metropolitan, and who ordains for the king tlie bishops and the priests in that land."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+          "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+          "lines": "7139-7141",
+          "locus": "Pt. I, ch. XVIII (Michael I)",
+          "quote": "He was the orthodox Ethiopian king of Al-Mukurrah;"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+          "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+          "lines": "4441-4442",
+          "locus": "Griffith 1913, 'The alphabet'",
+          "quote": "The Old Nubian alphabet is essentially the Coptic’ reinforced by a few extra letters (for the peculiar sounds of the language)"
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+          "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+          "lines": "4431-4432",
+          "locus": "Griffith 1913, introduction",
+          "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,"
+        }
+      ]
+    },
+    {
+      "id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+      "from": "coptic-christianity-under-early-islam",
+      "from_name": "Coptic Christianity under Early Islam",
+      "from_era": 4,
+      "type": "in contact with",
+      "to": "post-aksumite-ethiopian-christianity",
+      "to_name": "Post-Aksumite Ethiopian Christianity",
+      "to_era": 4,
+      "confidence": "Documented",
+      "note": "Around 687 the Coptic patriarch Isaac wrote to the king of the Abyssinians, urging peace with Nubia. Abu Salih says the patriarchs wrote to the kings of Abyssinia twice a year. The last to do so was Zacharias, until the caliph al-Hakim forbade it.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "History of the Patriarchs of the Coptic Church of Alexandria, Isaac (686-689), trans. Evetts, Patrologia Orientalis 5",
+          "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+          "lines": "1412-1413",
+          "locus": "Pt. I, ch. XVI (Isaac, 41st patriarch)",
+          "quote": "In those days the patriarch addressed letters to the king of the Abys- sinians and the king of the Nubians, bidding them make peace together"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Abu Salih (attrib.), Churches and Monasteries of Egypt, Abyssinia section (trans. Evetts, 1895)",
+          "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+          "lines": "14518-14521",
+          "locus": "fol. 106b-107a (Evetts p. 290)",
+          "quote": "The fathers and patriarchs used to write letters to the kings of Abyssinia and Nubia, twice in the year ; and the last of them who did so was Zacharias, the sixty-fourth patriarch ; for Al-Hakim forbad the practice, which ceased from that time until now."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+          "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+          "lines": "7179-7181",
+          "locus": "Pt. I, ch. XVIII (Michael I)",
+          "quote": "for the patriarch of the Jacobites in Egvpt exercises authority over him, and over all the kings of the Abyssi- nians and the Nubians;"
+        }
+      ]
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+      "from": "athonite-and-comnenian-byzantine-monasticism",
+      "from_name": "Athonite & Comnenian Byzantine Monasticism",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "georgian-revival-tao-klarjeti",
+      "to_name": "Georgian Revival — Tao-Klarjeti and Athos",
+      "to_era": 4,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Georgian monks founded the monastery of Iviron on Mount Athos in the late 900s. Brosset, a historian writing in 1849, puts the founding at about 976, though others date it to between 980 and 983. He says its scholars put the holy books and the best Greek theology into Georgian.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (St Petersburg, 1849)",
+          "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+          "lines": "2896-2898",
+          "locus": "Brosset 1849, Introduction, p. LVIII",
+          "quote": "enfin l'histoire de S. Ewthym et celle de la fondation du couvent Ibérien du mont Athos, vers l'an 976, nous servent de points de repère;"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+          "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+          "lines": "2965",
+          "locus": "Brosset 1849, Introduction, p. LX",
+          "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa-"
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+      "from": "byzantine-imperial-church-macedonian",
+      "from_name": "The Byzantine Imperial Church (Macedonian Era)",
+      "from_era": 4,
+      "type": "influenced",
+      "to": "athonite-and-comnenian-byzantine-monasticism",
+      "to_name": "Athonite & Comnenian Byzantine Monasticism",
+      "to_era": 5,
+      "confidence": "Inferential-Thin",
+      "note": "Robert Curzon, an English visitor to Athos in the 1830s, cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. This rests on that one late report. It is secondhand.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Robert Curzon, Visits to Monasteries in the Levant (1849), chapter on the Great Lavra",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}
