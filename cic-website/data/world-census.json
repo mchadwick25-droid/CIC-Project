@@ -12541,7 +12541,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Susanna Winkworth, Historical Introduction to the Theologia Germanica (1854; 1893 printing)"
+     "work": "Susanna Winkworth, Historical Introduction to the Theologia Germanica (1854; 1893 printing)",
+     "file": "cic/texts/theologia-germanica_theologia-germanica_winkworth1893.txt",
+     "lines": "1391-1393",
+     "locus": "Historical Introduction",
+     "quote": "writings of the “Friends of God” in England"
     }
    ],
    "citation_specificity": "A",
@@ -12683,7 +12687,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)"
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4970-4973",
+     "quote": "The seventh chapter is directed mainly against the errors of Luther, especially on the formal cause of justifi cation ;",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -12803,7 +12811,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Howard Wiegner Kriebel, The Schwenkfelders in Pennsylvania (1904)"
+     "work": "Howard Wiegner Kriebel, The Schwenkfelders in Pennsylvania (1904)",
+     "file": "cic/texts/kriebel_schwenkfelders-in-pennsylvania_1904.txt",
+     "lines": "563-566",
+     "locus": "ch. I, 'Schwenkfeld versus Luther'",
+     "quote": "The want of harmony between the theories of Luther and Schwenkfeld, recognizable in the two letters written by the latter in 1524, became an open and endless discord between the parties themselves a year later."
     }
    ],
    "citation_specificity": "A",
@@ -12955,7 +12967,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "G. W. Sprott and Thomas Leishman (eds.), The Book of Common Order of the Church of Scotland ... and the Directory (1868), introduction"
+     "work": "G. W. Sprott and Thomas Leishman (eds.), The Book of Common Order of the Church of Scotland ... and the Directory (1868), introduction",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "604-606",
+     "locus": "Introduction",
+     "quote": "The Book of Geneva thus remodelled is known as Knox's Liturgy, or ' Book of Common Order,' and it embodied the law of the Church as to worship from 1564 till 1645."
     }
    ],
    "citation_specificity": "A",
@@ -12993,7 +13009,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Philip Schaff, headnote to the Confessio Fidei Gallicana, in The Creeds of Christendom, vol. III (1877)"
+     "work": "Philip Schaff, headnote to the Confessio Fidei Gallicana, in The Creeds of Christendom, vol. III (1877)",
+     "file": "cic/texts/schaff_gallican-confession-fra-eng_1877.txt",
+     "lines": "14-15",
+     "locus": "headnote",
+     "quote": "This Confession was prepared by Calvin and his pnpil, De Cuandiett, revised and approved by a synod at Paris, 1559,"
     }
    ],
    "citation_specificity": "A",
@@ -13084,17 +13104,29 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)"
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "406-407",
+     "locus": "Introduction",
+     "quote": "who were in many respects the forerunners of the Baptists."
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)"
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2745-2748",
+     "locus": "Part II, The English Baptists",
+     "quote": "But there were im- portant differences about such questions as the oath, war, civil magistracy, and other things, and consequently these Englishmen began baptism anew."
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)"
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2775-2779",
+     "locus": "Part II, The English Baptists",
+     "quote": "He and some others, therefore, applied to the Mennonites for admission to their communion.^ Helwys, Morton, and other members of his church disagreed with their pastor on this point, and the church was disrupted about 1609."
     }
    ],
    "citation_specificity": "A",
@@ -13131,12 +13163,20 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)"
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "16313-16315",
+     "locus": "ch. on the Ephrata Society",
+     "quote": "Braght's Bbitigc Schau-Platz, the Mennonites' Martyr book, was published here in 1748/'^"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)"
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1300-1306",
+     "locus": "ch. 'The Pietistic Pathfinders'",
+     "quote": "authority as Dr. Benjamin Rush, who asserts that the Tunkers are a branch of the Mennonites.^')"
     }
    ],
    "citation_specificity": "A",
@@ -13173,12 +13213,17 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "John Strype, Annals of the Reformation, vol. II, part II (1824 Oxford ed.)"
+     "work": "John Strype, Annals of the Reformation, vol. II, part II (1824 Oxford ed.)",
+     "file": "cic/texts/strype_annals-of-the-reformation-v2-pt2_1824.txt",
+     "lines": "14914-14918",
+     "locus": "Book II, ch. XVII, anno 1579",
+     "quote": "The sect called the family of love appeared"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Thomas Fuller, The Church History of Britain, vol. IV, ed. J. S. Brewer (1845), editor's footnote citing the proclamation of 1580 (Wilkins, Concilia IV.297)"
+     "work": "Thomas Fuller, The Church History of Britain, vol. IV, ed. J. S. Brewer (1845), editor's footnote citing the proclamation of 1580 (Wilkins, Concilia IV.297)",
+     "locus": "cited in Build/worlds/_cross-world/dossiers/family-of-love-and-spiritualists-franck-niclaes_Source_Readiness_Dossier.md, line 63"
     }
    ],
    "citation_specificity": "A",
@@ -13225,7 +13270,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Henry Walter, introduction to Tyndale's Prologue to Romans, in Tyndale, Doctrinal Treatises (Parker Society, 1848)"
+     "work": "Henry Walter, introduction to Tyndale's Prologue to Romans, in Tyndale, Doctrinal Treatises (Parker Society, 1848)",
+     "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+     "lines": "30816-30817",
+     "locus": "Editor's introduction to the Prologue to Romans",
+     "quote": "for the greater part of it is in fact a paraphrase, and sometimes a literal translation, of Luther's preface to the Romans,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13262,7 +13312,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)"
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1102-1104",
+     "locus": "Introduction",
+     "quote": "Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13321,7 +13376,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)"
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "557-559",
+     "locus": "Introduction",
+     "quote": "On July 7 two clergy, John Field and Thomas Wilcox, were sent to Newgate on the charge of being its writers*;",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13380,7 +13440,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)"
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "557-559",
+     "locus": "Introduction",
+     "quote": "On July 7 two clergy, John Field and Thomas Wilcox, were sent to Newgate on the charge of being its writers*;",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13567,7 +13632,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)"
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1097-1100",
+     "locus": "Introduction",
+     "quote": "in the eyes of the men of the time they were important as adding to the plea the support of Gualter and Beza, two of the leaders of foreign protestantism, whose names carried great weight.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13668,12 +13738,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)"
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2695-2699",
+     "locus": "English Baptist confessions, introduction",
+     "quote": "Some English Puritans came, in the latter part of the sixteenth century, to regard the English Church as un- scriptural, hopelessly corrupt, and incapable of reform. They, therefore, left it and set up independent congre- gations,",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)"
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2739-2742",
+     "locus": "English Baptist confessions, introduction",
+     "quote": "In 1608 or 1609 John Smyth, the pastor of the second church at Amsterdam, and a large part of his congregation had come to recognize the unscripturalness of infant baptism",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13827,12 +13907,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)"
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "2300-2302",
+     "locus": "Book XXXIII, the deputies at Dort",
+     "quote": "Those from Swisserland, John Facob Breylingerus, Mark Rut- meijerus, Sebastian Bechius, Wolfgang Maijerus, and John Conrad Cocchius. On tae behalf of the City of Geneva, were Fobn Deodatus, and Theodore Tronchin.",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)"
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "13200-13203",
+     "locus": "the Remonstrants before the Synod, 1619",
+     "quote": "Deodarus faid, in the name of those of Geneva - * That the dodrines of the Remonstrants might be sufficiently learned * from the Conference at the Hague, and their books. Let them go then, said he, as * unworthy to appear any longer at the Synod",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13953,7 +14043,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Antonin Gindely, preface to Dekrety Jednoty bratrske (1865)"
+     "work": "Antonin Gindely, preface to Dekrety Jednoty bratrske (1865)",
+     "file": "cic/texts/unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt",
+     "lines": "153-155",
+     "locus": "preface",
+     "quote": "Jelikož Bratří od založení Jednoty až do posledního času svého ročně jednou a někdy i dva- kráte se scházívali",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14042,12 +14137,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)"
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "4389-4390",
+     "locus": "Swedish sees before the Reformation",
+     "quote": "chapter, if not approved by the pope, was to be recalled, and of no validity",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)"
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14087-14088",
+     "locus": "Denmark and Norway, 1536",
+     "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14117,12 +14222,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)"
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3314-3316",
+     "locus": "Historical Introduction",
+     "quote": "became amalgamated with the Re monstrants and the Mennonites, or the Low Artni- nians and Baptists of Holland.",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)"
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3318-3320",
+     "locus": "Historical Introduction",
+     "quote": "The asylum afforded them in the Dutch states fur nished them with favourable opportunities for the dis semination of their sentiments through the press.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14201,22 +14316,38 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Ignatius of Loyola, Letters and Instructions, editors' note to Letter XX (O'Leary and Goodier, 1914)"
+     "work": "Ignatius of Loyola, Letters and Instructions, editors' note to Letter XX (O'Leary and Goodier, 1914)",
+     "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+     "lines": "5842-5845",
+     "quote": "On the 18th of May, 1546, the Jesuit Fathers Laynez and Salmeron arrived in Trent, having been appointed to be the theologians of the Pope by Paul III.",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)"
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4900-4902",
+     "quote": "Only five theologians supported this system, which was impugned by the rest, and especially, in a very able argument, by Lainez, of the Society of Jesus.",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)"
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4973-4975",
+     "quote": "It also aims at the opinion of Seripando, on the intrinsic and extrinsic application of the merits of Christ, in justification;",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Sforza Pallavicino, S.J., Istoria del Concilio di Trento, part 1 (Rome, 1664)"
+     "work": "Sforza Pallavicino, S.J., Istoria del Concilio di Trento, part 1 (Rome, 1664)",
+     "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt",
+     "lines": "43575-43576",
+     "quote": "erano arriuaci s poc’anzi due Teologi della Tua nazione, mandati colà dal Poncefìce,Dicgo Lainez,ed Alfonfo Salmerones",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14274,7 +14405,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)"
+     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "497-502",
+     "quote": "In them the Council of Trent is to be seen translated into provincial and diocesan administration for the reform of all orders of the Church.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14331,7 +14466,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)"
+     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "758-761",
+     "quote": "there will be the life of St. Charles as tie pattern, and the mind of St. Charles as the rule, of sacerdotal perfection.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -14421,7 +14560,11 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Benedict Zimmerman, introduction to Teresa of Avila, The Book of the Foundations, trans. Lewis (1913)"
+     "work": "Benedict Zimmerman, introduction to Teresa of Avila, The Book of the Foundations, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "1209-1213",
+     "quote": "until the Council of Trent radically changed these matters. They had been so ingrained in the minds and customs of the times that the introduction of the Reform decreed by the Council taxed the ingenuity of the General to the utmost.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15000,7 +15143,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Publisher's preface to the reader, Cyrilli Lucaris Confessio Christianae fidei (1645)"
+     "work": "Publisher's preface to the reader, Cyrilli Lucaris Confessio Christianae fidei (1645)",
+     "file": "cic/texts/lucaris_confessio-and-synodal-censures-lat_1645.txt",
+     "lines": "44-50",
+     "locus": "Preface",
+     "quote": "Vm primum ante fexdecim aut lcirciter annos in lucem prodiit Cyrilli Patriarcha Conftantino- politani Confeffio fidei , ita ad h amuffim cum praecipuis Calvini II ^ placitis confentiens , ut ex illius Chriftianz | - seligionis Inftitutione defcripta videri pof-",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15027,7 +15175,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Thomas Smith, Collectanea de Cyrillo Lucario (London, 1707), preface"
+     "work": "Thomas Smith, Collectanea de Cyrillo Lucario (London, 1707), preface",
+     "file": "cic/texts/smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt",
+     "lines": "697-698",
+     "locus": "Preface",
+     "quote": "illorum eleemosynis, dum Rome in Collegio Greco vixerint, pridem emutriti,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15182,7 +15335,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. J. Overbeck, preface to the same edition (1898)"
+     "work": "J. J. Overbeck, preface to the same edition (1898)",
+     "file": "cic/texts/mogila_orthodox-confession_overbeck1898.txt",
+     "lines": "161-163",
+     "locus": "Editor's preface",
+     "quote": "Subsequently  the  Synod  of  Jassy  examined  it, and  in  1643  the  four  Patriarchs  approved  and  recommended it  as  a  safe  and  faithful  guide  for  all  Orthodox  Christians.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15209,12 +15367,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)"
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "9017-9019",
+     "locus": "Patriarch Joseph",
+     "quote": "the  Tsar  begged  Silvester  Kossoff the  metropolitan  of  Kieff  to  send  him  some  monks  from  his illustrious  Academy,",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)"
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "11766-11769",
+     "locus": "Patriarch Adrian; Stephen Yavorsky",
+     "quote": "This  was  Stephen  Yavorsky.  The  penetration  of Peter  had  discovered  his  merit  when  he  was  sent  to  the capital  by  Barlaam,  the  metropolitan  of  Kieff,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15231,12 +15399,22 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "S. T. Golubev, Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Kyiv, 1883)"
+     "work": "S. T. Golubev, Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Kyiv, 1883)",
+     "file": "cic/texts/golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt",
+     "lines": "18351-18355",
+     "locus": "On the Mohyla college in the Lavra",
+     "quote": "тотъ внёшнй блескъ схоластической науки, т риторическя Фразы и »хитрор$е‹, которые были присущи за- падно-европейскимъ, въ особенности 1езуитекимъ коллемямъ,—есразу же пустили глубове корни и",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Robert Pinkerton, preliminary memoir to Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814)"
+     "work": "Robert Pinkerton, preliminary memoir to Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814)",
+     "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+     "lines": "660-663",
+     "locus": "Preliminary memoir",
+     "quote": "on  the  foundation  of  an academy  at  Kieff,  after  the  manner  of  the  Po- lish schools,  the  Latin  became  the  classical  lan- guage,",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
@@ -15269,7 +15447,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)"
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "6069-6070",
+     "locus": "The patriarchs, Job",
+     "quote": "Jeremiah  solemnly  performed  the  consecration,  assisted  by  the synod,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15306,7 +15489,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "F. C. Conybeare, Russian Dissenters (Cambridge, Mass., 1921)"
+     "work": "F. C. Conybeare, Russian Dissenters (Cambridge, Mass., 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "1977-1978",
+     "locus": "Conditions leading to the schism",
+     "quote": "The  Stoglav  Council had  enjoined  the  use  of  the  two  fingers  only.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15343,7 +15531,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)"
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4082-4085",
+     "locus": "ch. XV, The Return to Etchmiadzin",
+     "quote": "external  and  internal  troubles,  which  lasted  until the  election  of  Movses  III.  of  Tathev  (1629). More  than  thirty  dignitaries  succeeded  in  turn to  the  title  of  patriarch  or  coadjutor,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15410,7 +15603,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book IV on the first session of the synod"
+     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book IV on the first session of the synod",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "3646-3649",
+     "locus": "Book IV",
+     "quote": "they were  being  separated  from  the  Patriarch  of Babylon,  who  had  governed  them  for  so  many years,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15521,7 +15719,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Michael Geddes, A Short History of the Church of Malabar (1694), on the sending of Mar Abraham"
+     "work": "Michael Geddes, A Short History of the Church of Malabar (1694), on the sending of Mar Abraham",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "3370-3374",
+     "locus": "Short History",
+     "quote": "they fent fecretly to Mar Simeon, Patriarch of Baby- lon, defiring him to order them a new Arch-Bi- fhop, who ftraightwaysfent them one Mar Abra- ham,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15568,7 +15771,12 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book VI ch. 1 on the Jesuit prelates and the revolt of 1653"
+     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book VI ch. 1 on the Jesuit prelates and the revolt of 1653",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "18311-18312",
+     "locus": "Book VI ch. 1",
+     "quote": "He  was  followed  by  Francis Garcia,  another  Jesuit,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15615,12 +15823,14 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), narrative chapters on the Syrian church after 1653"
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), narrative chapters on the Syrian church after 1653",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "George Broadley Howard, The Christians of St. Thomas and their Liturgies (1864), chap. III on the later history"
+     "work": "George Broadley Howard, The Christians of St. Thomas and their Liturgies (1864), chap. III on the later history",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15667,7 +15877,8 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)"
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15724,7 +15935,8 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)"
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15761,7 +15973,8 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)"
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15798,17 +16011,28 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92"
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101046",
+     "locus": "no. 91",
+     "quote": "Simeon  qui  & Dcnha , co- gnomento Bar-Mama , Simeonis  cu- jus fupri  fafla  eft mentio,  ex  fratre nepos,  anno  Chrifti  IJ52.  Sedem invafit",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)"
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII"
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7345-7347",
+     "locus": "chap. VII",
+     "quote": "Thus it was that when the Patriarch Shimun bar Mama died in the year 1552, his nephew, Shi- mun Dinkha, claimed the succession as of right.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15846,17 +16070,28 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92"
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101071-101076",
+     "locus": "no. 92",
+     "quote": "Die 20.  Februarii  Icquentis  anni  profef- fionem  fidei  cmilit,  & 9.  Aprilis  i Julio  III.  Summo  Pontifice  Chal- dxorum  ecclefii  Mulal  Patriarcha proclamatus  fuit .",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92"
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101046",
+     "locus": "no. 91",
+     "quote": "Simeon  qui  & Dcnha , co- gnomento Bar-Mama , Simeonis  cu- jus fupri  fafla  eft mentio,  ex  fratre nepos,  anno  Chrifti  IJ52.  Sedem invafit",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852), chap. XI, quoting Mosheim"
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852), chap. XI, quoting Mosheim",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -15903,12 +16138,18 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)"
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII"
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7459-7461",
+     "locus": "chap. VII",
+     "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
