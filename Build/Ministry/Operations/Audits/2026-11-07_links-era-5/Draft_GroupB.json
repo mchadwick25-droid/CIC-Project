@@ -1,0 +1,1164 @@
+{
+ "group": "B",
+ "movements": [
+  "the-franciscan-movement",
+  "the-dominican-order",
+  "the-beguines",
+  "the-humiliati",
+  "free-spirit-heresy"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "sentence": "Sibling-rival of the Dominicans",
+   "other_id": "the-dominican-order",
+   "disposition": "link",
+   "link_id": "the-dominican-order--the-franciscan-movement",
+   "prose_change": 0,
+   "reason": "New Widely Accepted contact link (the founders' meeting in the Mirror of Perfection; Lea for the rivalry). Prose split into sentences for reading level."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "sentence": "parent of Observants and Spirituals",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "qualify",
+   "link_id": "the-franciscan-movement--franciscan-order-era-6",
+   "prose_change": 0,
+   "reason": "The Observance began in 1368 inside the order as it continued after 1300 (franciscan-order-era-6). New continued-as link to that movement; the sentence now says the parentage runs through the later order. The direct link franciscan-order-era-6 to the Observants belongs to the era-6 pass."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "sentence": "parent of Observants and Spirituals",
+   "other_id": "fraticelli-spiritual-franciscan-rigorists",
+   "disposition": "link",
+   "link_id": "the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 0,
+   "reason": "Inventory's other_id (franciscan-order-era-6) corrected: the census movement that carries the Spirituals is fraticelli-spiritual-franciscan-rigorists. Documented from Clareno's Historia (Celestine V, 1294) and John XXII's letter of 1325."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "sentence": "its lay third order (Order of Penance, 1221) rides inside its own story",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The third order has no census movement and the sentence says it belongs inside this one. Not a relationship between movements; the 1221 date is not checked here (no vendored text)."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "By 1209 others had joined him and Pope Innocent III gave the group verbal approval.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "prose_change": null,
+   "reason": "New Documented contact link: the opening of Francis's Earlier Rule, quoted by Clareno, says Innocent III granted and confirmed the life."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "Clare of Assisi built the movement's women's branch",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Clare's women's branch has no census movement; it is part of this movement's own story. Out of the links' reach."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "a third order let married lay people live a version of the same discipline without leaving ordinary life",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The third order has no census movement."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "What made the movement new was that it did not withdraw behind walls",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A contrast with cloistered monasticism in general, not a claim about any one movement."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "A fight that eventually split it into Spirituals and Conventuals",
+   "other_id": "fraticelli-spiritual-franciscan-rigorists",
+   "disposition": "link",
+   "link_id": "the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": null,
+   "reason": "The Spirituals half is carried by the new gave-rise-to link. The Conventuals have no census movement of their own; the eventual split happened inside franciscan-order-era-6, carried by the new continued-as link."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "longDescription",
+   "sentence": "A fight that eventually split it into Spirituals and Conventuals",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "the-franciscan-movement--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "The split into Conventuals and Observants, and the 1517 division, sit in the later order; the continued-as link carries the chain."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "why",
+   "sentence": "Clare of Assisi built the movement's women's branch",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the women's branch."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "why",
+   "sentence": "rather than withdrawing behind monastery walls",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A contrast with monastic life in general."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "legacy",
+   "sentence": "with a lay third order alongside them",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the third order; a present-day description."
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "field": "legacy",
+   "sentence": "The Stations of the Cross, spread through Europe largely by Franciscans",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A devotional practice, not a movement. Added by the drafter (the inventory left it out); no vendored check made, and it is not a relationship claim."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "relationsSummary",
+   "sentence": "Sibling-rival of the Franciscans",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "the-dominican-order--the-franciscan-movement",
+   "prose_change": null,
+   "reason": "Same link as the Franciscan summary."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "relationsSummary",
+   "sentence": "parent of the German convent-mysticism tradition",
+   "other_id": "rhineland-mysticism-and-the-friends-of-god",
+   "disposition": "link",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "New Documented gave-rise-to: Eckhart signs as a friar of the Order of Preachers; Suso's Life names Elsbeth Stagel as a Dominican nun who wrote down his teaching."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "longDescription",
+   "sentence": "concluded that the church was losing the argument with dissenters",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "the-dominican-order--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Added by the drafter: the inventory found no other party, but the Languedoc dissenters of Dominic's day were chiefly the Cathars, and the legacy's 'inquisitorial personnel' is the same relationship. Documented from Bernard Gui's handbook (1309-1324). The text does not name the Cathars, so no prose change; the Waldensians were also among the dissenters but are not linked (not named)."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "longDescription",
+   "sentence": "planted itself immediately in the new universities at Paris and Bologna",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Universities are not census movements."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "longDescription",
+   "sentence": "Its convents of women, in the German lands especially",
+   "other_id": "rhineland-mysticism-and-the-friends-of-god",
+   "disposition": "link",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "The convents are part of the order; their writing is carried by the Rhineland link (Stagel at Töss)."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "why",
+   "sentence": "concluded that the church was losing arguments with dissenters",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "the-dominican-order--cathars-albigensians",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "why",
+   "sentence": "planted immediately in the new universities at Paris and Bologna",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Universities are not census movements."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "why",
+   "sentence": "The order's convents of women, especially in the German lands",
+   "other_id": "rhineland-mysticism-and-the-friends-of-god",
+   "disposition": "link",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "legacy",
+   "sentence": "Their German convents fed the mystical writing associated with Meister Eckhart, Johannes Tauler and Henry Suso.",
+   "other_id": "rhineland-mysticism-and-the-friends-of-god",
+   "disposition": "link",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "Inventory read this as 'influenced'; the Rhineland preachers were themselves Dominican friars, so 'gave rise to' is the fitting type, and the Rhineland summary says 'Dominican line'."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "legacy",
+   "sentence": "The order also supplied the church with much of its inquisitorial personnel",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "the-dominican-order--cathars-albigensians",
+   "prose_change": null,
+   "reason": "The Inquisition has no census movement; the order's inquisitors against the Cathars are carried by the new argued-against link. No other target named."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "legacy",
+   "sentence": "university theology that Albert the Great and Thomas Aquinas produced inside the order",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added by the drafter: Albert and Thomas are inside the order and have no movement; not a relationship between movements."
+  },
+  {
+   "movement": "the-dominican-order",
+   "field": "legacy",
+   "sentence": "The rosary's spread through Europe was carried largely by Dominicans",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A devotional practice, not a movement. Its 'legend rather than history' line is already hedged."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "relationsSummary",
+   "sentence": "Lay women's movement outside every standard structure",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A description, not a claim about another movement."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "relationsSummary",
+   "sentence": "suppression pressure is part of its own story",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "prose_change": null,
+   "reason": "Added by the drafter: the council that applied the pressure was Clement V's (the Avignon papacy, a census movement), not a body without an entry as the inventory supposed."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "longDescription",
+   "sentence": "began living religious lives without joining any order",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A contrast with religious orders in general."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "longDescription",
+   "sentence": "in 1312 the Council of Vienne moved against the beguine life itself",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "prose_change": 5,
+   "reason": "Inventory's 'no census entry' corrected: the council was Clement V's, so the Avignon papal church carries it. Vendored texts show only the condemnation of errors laid on beguines and beghards; the decree against the beguine status itself is wanted. Sentence qualified; whole paragraph rewritten for reading level."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "why",
+   "sentence": "two years later the Council of Vienne moved against the beguine life itself",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "prose_change": 6,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-beguines",
+   "field": "longDescription",
+   "sentence": "Porete was burned in Paris in 1310",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added by the drafter for completeness: the text names no one who burned her (the inquisitor, William of Paris, was a Dominican, but the beguine text does not say so), so no link is drafted."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "relationsSummary",
+   "sentence": "Beguine suppression used it as a charge",
+   "other_id": "the-beguines",
+   "disposition": "link",
+   "link_id": "the-beguines--free-spirit-heresy",
+   "prose_change": null,
+   "reason": "New Contested gave-rise-to: the decree laid the errors on beguines and beghards; Lerner denied an organized sect. The charge itself is also carried by latin-papal-church-avignon-to-lateran-v--the-beguines."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "relationsSummary",
+   "sentence": "Beguine suppression used it as a charge",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "prose_change": null,
+   "reason": "The suppressing body is the Avignon papal church."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "longDescription",
+   "sentence": "listed eight errors said to be held by a 'sect of the Free Spirit'",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+   "prose_change": 7,
+   "reason": "New Documented argued-against link from the decree's own errors (Denzinger 471-478). The sentence quoted 'sect of the Free Spirit' as the decree's words; the vendored edition names beguines and beghards instead. Corrected in one sentence, and the following fragment made a sentence."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "longDescription",
+   "sentence": "Interrogators then went looking for people who held them",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inquisitors are not a census movement; the claim about how the questions shaped answers is the Lerner reading the entry already attributes, left as it stands."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "longDescription",
+   "sentence": "much of it among beguines and beghards",
+   "other_id": "the-beguines",
+   "disposition": "link",
+   "link_id": "the-beguines--free-spirit-heresy",
+   "prose_change": null,
+   "reason": "Carried by the Contested link. Beghards have no census movement (no-entry for that half)."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "why",
+   "sentence": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to a 'sect of the Free Spirit,'",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+   "prose_change": 8,
+   "reason": "As in the long description; paragraph rewritten whole for reading level."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "why",
+   "sentence": "much of it among beguines and beghards",
+   "other_id": "the-beguines",
+   "disposition": "link",
+   "link_id": "the-beguines--free-spirit-heresy",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "legacy",
+   "sentence": "against religious women living outside enclosure",
+   "other_id": "the-beguines",
+   "disposition": "link",
+   "link_id": "the-beguines--free-spirit-heresy",
+   "prose_change": null,
+   "reason": "The charge's use against beguine women is carried by the Contested link and by the Vienne link. 'Two centuries afterwards' rests on Lerner's later-medieval study (named, not read); flagged, not qualified."
+  },
+  {
+   "movement": "free-spirit-heresy",
+   "field": "legacy",
+   "sentence": "which stayed available for two centuries afterwards against mystical writing",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Mystical writing' is no single movement. Possible later targets (Rhineland mystics, inquisition-record sects of era 6) are not named here."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "relationsSummary",
+   "sentence": "condemned alongside the Waldensians and then re-absorbed",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-gregorian--the-humiliati",
+   "prose_change": 1,
+   "reason": "The condemning party is the papacy (Lucius III), not the Waldensians; the Waldensians are a fellow defendant, so no Humiliati-Waldensian link (no meeting or exchange is claimed). The naming of the Humiliati in 1184 rests on Foxe's late report: new Inferential-Thin link, sentence qualified."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "relationsSummary",
+   "sentence": "the mirror image of the Waldensians themselves",
+   "other_id": "the-waldensians",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "A comparison of two outcomes, not a relationship between the movements; kept, conditional on the 1184 report."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "longDescription",
+   "sentence": "In 1184 they were condemned alongside the Waldensians for preaching without official permission",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-gregorian--the-humiliati",
+   "prose_change": 2,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "longDescription",
+   "sentence": "Pope Innocent III reconciled them in 1201, organizing them into three recognized orders.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-humiliati--2",
+   "prose_change": 2,
+   "reason": "New Dominant Modern Reconstruction contact link (Catholic Encyclopedia; Giussano 1884 translator's note). Both give 1200 or about 1200, not 1201; the date and 'three orders' are left as non-relationship detail and flagged."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "longDescription",
+   "sentence": "until the movement was formally suppressed by papal bull in 1571",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-humiliati",
+   "prose_change": 2,
+   "reason": "New Documented argued-against link (Pius V's bull in the Bullarium Romanum). The bull abolished the brothers' order; the women's houses lived on, so the sentence now says so."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "why",
+   "sentence": "Condemned alongside the Waldensians in 1184 for preaching without permission",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "qualify",
+   "link_id": "latin-papal-church-gregorian--the-humiliati",
+   "prose_change": 3,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "why",
+   "sentence": "Pope Innocent III reconciled them in 1201",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-humiliati--2",
+   "prose_change": 3,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "why",
+   "sentence": "until the movement was suppressed by papal bull in 1571",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-humiliati",
+   "prose_change": 3,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-humiliati",
+   "field": "legacy",
+   "sentence": "when the order was suppressed by papal bull in 1571, its distinct identity ended with it",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-humiliati",
+   "prose_change": 4,
+   "reason": "Same link. 'Its distinct identity ended with it' was too strong: the Catholic Encyclopedia says the nuns' houses were not affected. Qualified."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-dominican-order--the-franciscan-movement",
+   "action": "new",
+   "from": "the-dominican-order",
+   "to": "the-franciscan-movement",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A Franciscan book, the Mirror of Perfection, tells how Francis and Dominic met in Rome before the cardinal bishop of Ostia. Its date is disputed. In it Dominic wishes that their two orders could become one. In 1888 the historian Henry Charles Lea called them rival orders.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Mirror of Perfection (Speculum perfectionis), ch. 43 (trans. Sebastian Evans, 1899)",
+     "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt",
+     "lines": "3036-3040",
+     "locus": "Speculum perfectionis 43",
+     "quote": "to wit, the Blessed Francis and the Blessed Dominic, were both together before the Lord Bishop of Ostia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Mirror of Perfection (Speculum perfectionis), ch. 43 (trans. Sebastian Evans, 1899)",
+     "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt",
+     "lines": "3117-3119",
+     "locus": "Speculum perfectionis 43",
+     "quote": "“Brother Francis, I would that thy Religion and mine should be made",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (New York, 1888)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-franciscan-movement relationsSummary ('Sibling-rival of the Dominicans'); the-dominican-order relationsSummary ('Sibling-rival of the Franciscans')",
+   "wants": [
+    "Thomas of Celano, Second Life of Francis 148-150, the earliest telling of the meeting, in a vendored edition",
+    "Humbert of Romans and John of Parma's joint letter of 1255 urging peace between the two orders, as documentary evidence of contact and rivalry"
+   ],
+   "drafter_flags": [
+    "Not Documented: the meeting rests on a hagiographic collection whose date (Sabatier's 1227 against a later fourteenth-century date) is contested, so it cannot carry the founders' meeting as fact; the contact between the two orders is beyond doubt, hence Widely Accepted with Lea as the secondary.",
+    "Lea, vol. 3, lines 2685-2687 of cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt: 'unless it may have been jealousy of the Dominicans, the aid of the Inquisition was not called in, and the inquisitors withheld their hands from o£Fenders of the rival Order.' Lea is vendored and placed in cic/corpus-map/franciscan-order-era-6.yaml; listed as secondary, so no quote field.",
+    "The quote's second line ends mid-sentence ('should be made'); the sentence runs on after a page header ('70 Saint Francis of Assisi one'). Reviewer: check the clause boundary is acceptable or drop the second quote."
+   ],
+   "change_reason": "New. Both movements' summaries call the orders sibling-rivals; no link existed."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-franciscan-movement",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Francis's first Rule opens by saying he asked Pope Innocent III to grant and confirm this way of life. The pope, it says, granted and confirmed it for Francis and his brothers. Angelo Clareno copied the passage into his commentary on the Rule in the 1320s.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis of Assisi, Earlier Rule (Regula non bullata), opening, as quoted in Angelo Clareno, Expositio regulae fratrum minorum (ed. Oliger, 1912)",
+     "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+     "lines": "4872-4875",
+     "locus": "Regula non bullata, prologue",
+     "quote": "Hec est vita evangelij Ihesu Christi quam fr. Franciscus pefiit a domino papa (d) Innocentio concedi sibi et confirmari, et dominus papa concessit et confirmavit sibi et suis fratribus habitis et futuris.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-franciscan-movement longDescription ('Pope Innocent III gave the group verbal approval'); latin-papal-church-gregorian longDescription ('authorized the new friars')",
+   "wants": [
+    "Francis of Assisi, Testament ('the Lord Pope confirmed it for me'), in a vendored edition",
+    "Thomas of Celano, First Life 32-33, for the 1209/1210 audience with Innocent III"
+   ],
+   "drafter_flags": [
+    "OCR keeps 'pefiit' (petiit) and the apparatus mark '(d)'; both quoted as printed.",
+    "Clareno's own narrative of the audience is at lines 4917-4924 ('accessit ^ ad dominum Innocentium tertium, tunc summum ponti- ficem'), not used because of the stray '^'.",
+    "'Verbal' in the prose is not shown by this source; it is the standard reading (no written bull until 1223) and is left as it stands.",
+    "The latin-papal-church-gregorian drafter may draft the same pair from 'authorized the new friars': merge check."
+   ],
+   "change_reason": "New. The Franciscan text names Innocent III's approval; no link existed."
+  },
+  {
+   "id": "the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists",
+   "action": "new",
+   "from": "the-franciscan-movement",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1294 Pope Celestine V freed Brother Liberato and a companion from obedience to their Franciscan superiors. To keep the peace, he told them to call themselves poor hermits, not Friars Minor. In 1325 Pope John XXII wrote against some brothers of the order 'who call themselves Spirituals'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (ed. Ehrle, Archiv für Litteratur- und Kirchengeschichte des Mittelalters 2, 1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "17313-17314",
+     "locus": "Historia septem tribulationum, sixth tribulation",
+     "quote": "Et absolvit fratrem Liberatum ab omni fratrum obediencia et socium eius,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum, as quoted by Ehrle (Archiv 2, 1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "6214-6216",
+     "locus": "Historia septem tribulationum, sixth tribulation",
+     "quote": "et quod propter pacem et honorem fratrum minorum et ordinis non vocent se fratres minores, sed fratres suos et pauperes heremitas",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, letter to King Robert of Sicily, 4 February 1325 (ed. Ehrle, Archiv 4, 1888)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt",
+     "lines": "3714-3717",
+     "locus": "Ehrle, 'Die Spiritualen', Archiv 4",
+     "quote": "Constitutionem, fili carissime, non contra fratrum minorum ordinem, sed contra nonnullos, /ex] illis fra- tribus, qui se Spirituales nominant",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-franciscan-movement relationsSummary ('parent of ... Spirituals') and longDescription ('split it into Spirituals and Conventuals'); fraticelli-spiritual-franciscan-rigorists relationsSummary ('Rupture inside the Franciscan family')",
+   "wants": [],
+   "drafter_flags": [
+    "Inventory guessed franciscan-order-era-6 for 'Spirituals'; the census entry that carries the Spirituals by name is fraticelli-spiritual-franciscan-rigorists.",
+    "The second Clareno quote is Ehrle's note quoting the Historia from another manuscript ('recommendavit nos'); the edited text at lines 17319-17321 reads 'non vocent?) se fratres minores' with a footnote mark, so the clean note was used. Same words otherwise.",
+    "The 'sixth tribulation' locus follows Ehrle's arrangement of the Historia; reviewer may prefer 'Archiv 2, p. 308' style if the page is checked."
+   ],
+   "change_reason": "New. The Franciscan text names the Spirituals as its offspring; no link existed."
+  },
+  {
+   "id": "the-franciscan-movement--franciscan-order-era-6",
+   "action": "new",
+   "from": "the-franciscan-movement",
+   "to": "franciscan-order-era-6",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Francis's Rule of 1223 binds the brothers to obey Francis and his successors. The same Order of Friars Minor carried on past 1300. In 1325 Pope John XXII wrote that his ruling was not against the order itself, only against some of its brothers.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis of Assisi, Later Rule (Regula bullata, 1223), ch. 1, as quoted in Angelo Clareno, Expositio regulae fratrum minorum (ed. Oliger, 1912)",
+     "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+     "lines": "4869-4870",
+     "locus": "Regula bullata 1",
+     "quote": "Et alij fratres teneantur fratri Francisco et eius successoribus obedire.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, letter to King Robert of Sicily, 4 February 1325 (ed. Ehrle, Archiv 4, 1888)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt",
+     "lines": "3714-3716",
+     "locus": "Ehrle, 'Die Spiritualen', Archiv 4",
+     "quote": "Constitutionem, fili carissime, non contra fratrum minorum ordinem,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "franciscan-order-era-6 relationsSummary ('between the earlier Franciscan movement (ending 1300) and the 1517 division'); the-franciscan-movement relationsSummary (the Observants, via the prose change) and its status note ('the later entry that receives it')",
+   "wants": [],
+   "drafter_flags": [
+    "Neither movement carries a continuesAs field; this link supplies the evidence if the merge sets one. Era 6's pass should draft franciscan-order-era-6 gave rise to observant-reform-and-popular-preaching, which the rewritten Franciscan summary now relies on."
+   ],
+   "change_reason": "New. The era-6 Franciscan order is this movement carried past 1300; the Franciscan summary's 'parent of Observants' runs through it."
+  },
+  {
+   "id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "action": "new",
+   "from": "the-dominican-order",
+   "to": "rhineland-mysticism-and-the-friends-of-god",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1326 Meister Eckhart answered his accusers as Brother Eckhart of the Order of Preachers. Henry Suso's Life names his spiritual daughter, Elsbeth Stagel, as a Dominican nun at Töss. She drew his teaching out of him and wrote it down.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Meister Eckhart, Latin defence (Rechtfertigungsschrift), Cologne, 1326 (ed. Daniels, 1923)",
+     "file": "cic/texts/eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt",
+     "lines": "847",
+     "locus": "Rechtfertigungsschrift, opening",
+     "quote": "Ego irater Ekardus ordinis predicatorum prefatus respondeo:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Henry Suso, The Life of the Servant, ch. 35 (trans. Knox, 1865)",
+     "file": "cic/texts/suso_life-of-blessed-henry-suso_knox1865.txt",
+     "lines": "5342-5345",
+     "locus": "Life of Suso 35",
+     "quote": "The Servitor had at this time a spiritual daughter, of the Order of Friars Preachers, in an enclosed convent at Tosse.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Henry Suso, The Life of the Servant, ch. 35 (trans. Knox, 1865)",
+     "file": "cic/texts/suso_life-of-blessed-henry-suso_knox1865.txt",
+     "lines": "5380-5383",
+     "locus": "Life of Suso 35",
+     "quote": "She drew from him secretly the way in which he broke through created things to arrive at God, and she wrote it down,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-dominican-order relationsSummary ('parent of the German convent-mysticism tradition') and legacy ('Their German convents fed the mystical writing associated with Meister Eckhart, Johannes Tauler and Henry Suso'); rhineland-mysticism-and-the-friends-of-god relationsSummary ('Dominican line')",
+   "wants": [
+    "Tauler's sermons in a vendored text that names his Dominican profession in his own or a contemporary's words (Winkworth 1907 says so only in the editor's life)"
+   ],
+   "drafter_flags": [
+    "OCR 'irater' for 'frater' quoted as printed.",
+    "The second Suso quote ends at a comma; the sentence runs on 'as has been already related.' Reviewer may prefer to end at 'wrote it down'."
+   ],
+   "change_reason": "New. The Dominican text names the German convent mysticism as its offspring; no link existed."
+  },
+  {
+   "id": "the-dominican-order--cathars-albigensians",
+   "action": "new",
+   "from": "the-dominican-order",
+   "to": "cathars-albigensians",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Bernard Gui signed himself in 1309 as a friar of the Order of Preachers and inquisitor of heresy in France. His handbook for inquisitors sets out the errors of 'the Manichaeans of modern times'. That was his name for the Cathars.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bernard Gui, letter to the seneschal of Agen, 1309, in his Practica (Manuel de l'inquisiteur, ed. Mollat, 1926, vol. 1)",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "894-897",
+     "locus": "Practica, introduction (Mollat)",
+     "quote": "frater Bernardus Guidonis, ordinis Predicatorum, inquisitor heretice pravitatis in regno Francie per sedem aposto- licam deputatus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bernard Gui, Practica inquisitionis, part 5 (Manuel de l'inquisiteur, ed. Mollat, 1926, vol. 1)",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "3725",
+     "locus": "Practica V.1",
+     "quote": "[1.] DE ERRORIBUS MANICHEORUM MODERNI TEMPORIS",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Guillaume Mollat, introduction to Bernard Gui, Manuel de l'inquisiteur, vol. 1 (Paris, 1926), on Gui's 'manichei moderni temporis' as the Cathars of his day",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-dominican-order longDescription and why ('losing the argument with dissenters' in Languedoc) and legacy ('supplied the church with much of its inquisitorial personnel'). The text does not name the Cathars.",
+   "wants": [
+    "Jordan of Saxony, Libellus de principiis ordinis praedicatorum, for Dominic's preaching against the heretics of Languedoc from 1206",
+    "The Toulouse canonization testimonies of 1233 (Lehner 1964 is cited in the census but not vendored)"
+   ],
+   "drafter_flags": [
+    "Gui's evidence is from 1309-1324, after this movement's 1300 end date; no later Dominican movement exists, so the order's inquisitors fall here. Reviewer: confirm the out-of-window evidence is acceptable for a pre-1300 relationship, or lower to Widely Accepted.",
+    "Locus 'Practica V.1' uses a Roman-numeral.number form; it sits only in locus, which the brief allows.",
+    "Mollat's identification (lines 1665-1667: 'sur les Cathares de son temps ou, suivant son expression caractéristique, sur les Néo-Mani- chéens (manichei moderni temporisi)') is the editor's, hence listed as secondary.",
+    "The same dissenters included the Waldensians (Gui's handbook treats them next); the Dominican text does not name them, so no link drafted. The Cathars' drafter may draft this pair from the Cathar side: merge check."
+   ],
+   "change_reason": "New. The Dominican text's 'dissenters' and 'inquisitorial personnel' carry this relationship without naming the Cathars."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-beguines",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At the Council of Vienne in 1311-12, Pope Clement V condemned eight errors about the soul made perfect. The standard collection of church decrees files them as the errors of beguines and beghards. Antoninus of Florence wrote in the 1400s that these people had risen up in Germany.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14792-14793",
+     "locus": "Denzinger 471",
+     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoninus of Florence, Chronicon, quoted in Mansi, Sacrorum conciliorum collectio 25 (1903 reprint), note to the Council of Vienne",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "39817-39819",
+     "locus": "Mansi 25, Council of Vienne, note hh",
+     "quote": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui infur- rexerunt in Alemannia,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-beguines relationsSummary ('suppression pressure is part of its own story'), longDescription and why ('the Council of Vienne moved against the beguine life itself', now qualified); free-spirit-heresy relationsSummary ('Beguine suppression used it as a charge')",
+   "wants": [
+    "The full text of Ad nostrum (its opening names 'begardi' and women 'quae beguinae vulgariter appellantur'), e.g. Friedberg, Corpus iuris canonici II, Clementines V.3.3",
+    "Cum de quibusdam mulieribus (Clementines III.11.1), the Vienne decree against the beguine status itself, in any vendored edition: would let the beguine text again say the council moved against the beguine life itself"
+   ],
+   "drafter_flags": [
+    "Documented on an edition's heading and a fifteenth-century report, not on the decree's own words naming beguines (its opening is not vendored). Reviewer: confirm Documented, or lower to Widely Accepted with Lerner/Simons as secondary.",
+    "Mansi OCR 'ogo er- tores' (octo errores) and the long-s 'infur-' quoted as printed.",
+    "Era 6 movement (cross-era, not era 4)."
+   ],
+   "change_reason": "New. The beguine and Free Spirit texts both name the Vienne condemnation."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "free-spirit-heresy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Vienne in 1311-12 condemned eight errors about the perfect soul. One said that people who live 'in the spirit of liberty' owe no obedience to any human. Robert Lerner's 1972 study argued that no organized sect ever held them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, error 3, in Denzinger-Bannwart, Enchiridion symbolorum (1911), no. 473",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14808",
+     "locus": "Denzinger 473",
+     "quote": "spiritu libertatis, non sunt humanae subiecti oboedientiae,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart (1911), no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14792-14793",
+     "locus": "Denzinger 471",
+     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "free-spirit-heresy longDescription and why (the decree of 1312 and its eight errors)",
+   "wants": [],
+   "drafter_flags": [
+    "Lerner is cited in the census sources and in Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_PreStep0_Survey_V0_1.md; not read. His conclusion is given as the census states it.",
+    "Era 6 movement (cross-era, not era 4)."
+   ],
+   "change_reason": "New. The Free Spirit text is built on this decree; no link existed."
+  },
+  {
+   "id": "the-beguines--free-spirit-heresy",
+   "action": "new",
+   "from": "the-beguines",
+   "to": "free-spirit-heresy",
+   "type": "gave rise to",
+   "confidence": "Contested",
+   "note": "Scholars disagree whether a Free Spirit sect grew out of the beguines. The Council of Vienne laid its eight errors on beguines and beghards in Germany. Robert Lerner's 1972 study found no organized sect, only a range of mystical piety, much of it among beguines, and a charge laid on it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoninus of Florence, Chronicon, quoted in Mansi, Sacrorum conciliorum collectio 25 (1903 reprint), note to the Council of Vienne",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "39817-39819",
+     "locus": "Mansi 25, Council of Vienne, note hh",
+     "quote": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui infur- rexerunt in Alemannia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "free-spirit-heresy relationsSummary ('Beguine suppression used it as a charge'), longDescription and why ('much of it among beguines and beghards') and legacy ('against religious women living outside enclosure'); the-beguines sources (Porete's 'theology of the soul's freedom also overlaps with the Free Spirit heresy')",
+   "wants": [
+    "Lerner 1972 actually read, for the exact shape of his conclusion",
+    "Marguerite Porete, The Mirror of Simple Souls, in a vendored edition (Babinsky 1993 is cited, not vendored; the Old French is not vendored), to set the condemned propositions beside her own words"
+   ],
+   "drafter_flags": [
+    "Type choice for reviewer: no other type fits a relationship one side asserts (the decree) and the other denies (Lerner). 'Argued against' would run the wrong way (the Free Spirit did not act against the beguines). If the reviewer judges that a link here gives a construct too much substance, remove it; the Vienne-against-beguines link carries the charge on its own.",
+    "Lerner not read; named-not-rechecked, specificity B."
+   ],
+   "change_reason": "New. The Free Spirit text names the beguines four times; this states the disputed tie plainly."
+  },
+  {
+   "id": "the-tridentine-church--the-humiliati",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "the-humiliati",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1571 Pope Pius V shut down the order of Humiliati brothers by bull. The bull names Cardinal Charles Borromeo as the order's protector, sent to reform it. The bull did not cover the women's houses.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "92832-92835",
+     "locus": "Bullarium Romanum 2, Pius V, const. 119",
+     "quote": "extinguimus & abolemus Ordinem pradi- &ortm Fratrum Humiliatorum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "92588-92591",
+     "locus": "Bullarium Romanum 2, Pius V, const. 119, § 1",
+     "quote": "CA- ROLUS Tit. S. Praxedis presbyter Cardinalis Bor- romaus hujus Ordinis Prote&or, & Apoftolice Se- dis delegatus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Catholic Encyclopedia, vol. 7 (1910), 'Humiliati' (newadvent.org/cathen/07543a.htm)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-humiliati longDescription, why and legacy ('suppressed by papal bull in 1571')",
+   "wants": [],
+   "drafter_flags": [
+    "OCR long-s and ligature errors ('pradi- &ortm', 'Prote&or', 'Apoftolice') quoted as printed.",
+    "The constitution number 'CXIX' (line 92611) is read from a margin; reviewer may check. Catholic Encyclopedia gives the date 8 February 1571; the bull's own margin reads 'ANNO 1571' (line 92601-92602).",
+    "The women's-houses sentence rests on the Catholic Encyclopedia (repo-cited in the census; read 2026-11-07), not on the bull.",
+    "Era 7 movement (cross-era, not era 4)."
+   ],
+   "change_reason": "New. All three Humiliati fields name the 1571 bull."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-humiliati",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "In 1184 Pope Lucius III condemned the Waldensians for claiming the right to preach. John Foxe, writing in the 1500s, reports a chronicler's claim that Lucius rejected the Humiliati with them. This rests on that late report.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837), on the Waldenses of Provence, reporting Paulus Aemilius",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "38608-38611",
+     "locus": "Acts and Monuments, History of Merindol and Cabrieres",
+     "quote": "of these Pauperes cle Lugduno, and Humiliati, and dividing these 1547. two orders from the Albigenses, reporteth that the two former orders were rejected by the pope Lucius III.,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-humiliati relationsSummary, longDescription and why ('condemned alongside the Waldensians in 1184')",
+   "wants": [
+    "Lucius III, Ad abolendam (Verona, 1184), which names 'eos qui se Humiliatos vel Pauperes de Lugduno falso nomine mentiuntur': Mansi 22 or Friedberg, Corpus iuris canonici II (X 5.7.9). With it this becomes Documented and the qualified sentences can be restored."
+   ],
+   "drafter_flags": [
+    "Foxe's line carries the marginal year '1547.' and the OCR 'cle' (de) inside the quote, printed as is; reviewer may prefer a shorter quote from line 38610-38611 alone ('reporteth that the two former orders were rejected by the pope Lucius III.,'), which no longer names the Humiliati by itself.",
+    "Montet (lines 2249-2250: '« Ils s'arrogent le droit de prêcher, » avait dit Lucius III en 1184') supports the 1184 decree against the Waldensians only; listed as secondary.",
+    "The Catholic Encyclopedia article cited in the census does not mention the 1184 condemnation at all (read 2026-11-07); it says the Humiliati helped combat the Cathars.",
+    "Standard scholarship holds this as fact (Ad abolendam names them). Graded thin only because nothing vendored or repo-cited carries the decree."
+   ],
+   "change_reason": "New. All three Humiliati fields name the 1184 condemnation; graded at what the vendored evidence bears."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati--2",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-humiliati",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Catholic Encyclopedia, vol. 7 (1910), 'Humiliati' (newadvent.org/cathen/07543a.htm)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo, vol. 1 (English translation, London, 1884), translator's note 'Origin of the Frati Umiliati', citing Tiraboschi, Vetera Humiliatorum monumenta (1766)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-humiliati longDescription and why ('Pope Innocent III reconciled them in 1201'); latin-papal-church-gregorian longDescription (Innocent III's reign)",
+   "wants": [
+    "Innocent III's letters of 1201 to the Humiliati (Incumbit nobis; Non omni spiritui; Diligentiam pii patris), e.g. in Tiraboschi, Vetera Humiliatorum monumenta II (1767), for the date and the three orders"
+   ],
+   "drafter_flags": [
+    "Giussano's note (cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt lines 12177-12179: 'Their order was approved by Inno- cent III. in 1200, and increased so much that in the Milanese province alone they soon had two hundred and twenty houses.') is a translator's note, hence secondary.",
+    "Both sources give 1200 or about 1200; the census says 1201 and 'three recognized orders'. Neither source shows 1201 or the three orders. Left unchanged as non-relationship detail; flagged for the entry's owner (see Open-Gaps question on well-known facts without a vendored source).",
+    "Typed 'in contact with' to match the Franciscan approval link; an approval could also be read as 'influenced'."
+   ],
+   "change_reason": "New. The Humiliati text names Innocent III's reconciliation."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "old": "Sibling-rival of the Dominicans; parent of Observants and Spirituals; its lay third order (Order of Penance, 1221) rides inside its own story",
+   "new": "Sibling and rival of the Dominicans. Parent of the Spirituals, and through its later order of the Observants. Its lay third order, the Order of Penance of 1221, belongs inside its own story.",
+   "reason": "The Observance began in 1368, inside the order as it ran on after 1300, which is a separate movement on the tree; the new wording says the parentage runs through it. The Spirituals arose before 1300 (Celestine V's grant of 1294) and are linked directly. Split into sentences for reading level; every fact kept.",
+   "fre_after": 63.8,
+   "fk_after": 7.0
+  },
+  {
+   "n": 1,
+   "movement": "the-humiliati",
+   "field": "relationsSummary",
+   "old": "Lay penitential wool-workers condemned alongside the Waldensians and then re-absorbed - the mirror image of the Waldensians themselves: the same 1184 condemnation, the opposite outcome.",
+   "new": "Lay wool-workers who lived a life of penance. Later writers say they were condemned with the Waldensians in 1184, and then taken back into the church. If so, they are the Waldensians' mirror image: the same condemnation, the opposite outcome.",
+   "reason": "No vendored or repo-cited text shows the 1184 decree naming the Humiliati. The only vendored witness is Foxe's sixteenth-century report of a chronicler (Acts and Monuments vol. 4, lines 38608-38611), and the census's own Catholic Encyclopedia source does not mention the condemnation. The claim is kept, said to rest on report. Rewritten whole for reading level.",
+   "fre_after": 64.3,
+   "fk_after": 7.6
+  },
+  {
+   "n": 2,
+   "movement": "the-humiliati",
+   "field": "longDescription",
+   "old": "In twelfth-century Lombardy, groups of lay wool-workers and weavers began living out a simple, demanding vision of penitence — plain dress, manual labor, and a rejection of the oath-taking and violence expected of feudal society. And called themselves the Humiliati, 'the humbled ones.' In 1184 they were condemned alongside the Waldensians for preaching without official permission, but where the Waldensians' story became one of lasting separation, theirs took the opposite turn. Pope Innocent III reconciled them in 1201, organizing them into three recognized orders. Two religious, one for married lay people who stayed in ordinary working life under a shared rule. For roughly two centuries afterward they remained a real presence in northern Italian towns, their rule and community records still surviving, until the movement was formally suppressed by papal bull in 1571.",
+   "new": "In twelfth-century Lombardy, groups of lay wool-workers and weavers began to live a simple, demanding life of penance. They wore plain dress and worked with their hands. They refused the oaths and the violence that feudal society expected. They called themselves the Humiliati, 'the humbled ones.' In 1184 Pope Lucius III condemned the Waldensians for preaching without leave. Later writers say he condemned the Humiliati with them. If so, their story then took the opposite turn. The Waldensians stayed apart for good, but Pope Innocent III took the Humiliati back in 1201. He made them three recognized orders. Two were religious orders. The third was for married lay people who stayed in ordinary working life under a shared rule. For about two centuries they were a real presence in the towns of northern Italy. Their rule and community records still survive. In 1571 a papal bull shut down the order of Humiliati brothers.",
+   "reason": "Two relationship claims corrected. The 1184 decree against the Waldensians is supported (Montet 1885, lines 2249-2250); its naming of the Humiliati rests on Foxe's late report. The 1571 bull abolished the order of brothers ('Ordinem Fratrum Humiliatorum', Bullarium Romanum 2, lines 92832-92835), and the Catholic Encyclopedia says the women's houses were not affected, so 'the movement was formally suppressed' was too broad. 'Two centuries ... until 1571' also read as 370 years of presence; now two sentences. The fragment 'And called themselves...' is joined back. Rewritten whole for reading level, with plainer words where they keep the sense ('penance' for 'penitence', 'without leave' for 'without official permission', 'took them back' for 'reconciled them', 'shut down' for 'suppressed'); every other fact kept.",
+   "fre_after": 63.0,
+   "fk_after": 7.2
+  },
+  {
+   "n": 3,
+   "movement": "the-humiliati",
+   "field": "why",
+   "old": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress, manual labor and a rejection of the oath-taking and violence expected of feudal society, calling themselves the Humiliati, 'the humbled ones.' Condemned alongside the Waldensians in 1184 for preaching without permission, they took the opposite path: Pope Innocent III reconciled them in 1201, organizing them into three orders, two religious and one for married lay people who stayed in ordinary working life. They remained a real presence in northern Italian towns for roughly two centuries, until the movement was suppressed by papal bull in 1571.",
+   "new": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress and work with their hands. They refused the oaths and violence that feudal society expected, and called themselves the Humiliati, 'the humbled ones.' Later writers say they were condemned with the Waldensians in 1184 for preaching without leave. If so, they then took the opposite path. Pope Innocent III took them back in 1201 and made them three orders. Two were religious. The third was for married lay people who stayed in ordinary working life. They were a real presence in the towns of northern Italy for about two centuries. In 1571 a papal bull shut down the order of Humiliati brothers.",
+   "reason": "The same two corrections as the long description: the 1184 naming rests on report, and the 1571 bull abolished the brothers' order, not the whole movement. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 68.3,
+   "fk_after": 6.9
+  },
+  {
+   "n": 4,
+   "movement": "the-humiliati",
+   "field": "legacy",
+   "old": "No clear record survives of lasting influence beyond their own two centuries — when the order was suppressed by papal bull in 1571, its distinct identity ended with it.",
+   "new": "No clear record survives of their lasting influence beyond their own two centuries. In 1571 a papal bull shut down the brothers' order, and with it the movement mostly lost its own identity. Some houses of Humiliati nuns lived on.",
+   "reason": "The Catholic Encyclopedia (the census's own source, read 2026-11-07) says the women's congregation was not affected by the 1571 bull and that five houses remained in Italy when it wrote. 'Its distinct identity ended with it' was too strong.",
+   "fre_after": 63.5,
+   "fk_after": 7.6
+  },
+  {
+   "n": 5,
+   "movement": "the-beguines",
+   "field": "longDescription",
+   "old": "From the late twelfth century, women in the towns of the Low Countries and the Rhineland began living religious lives without joining any order: no lifelong vows, no rule, no enclosure. They kept their own property or worked — often in cloth — lived alone or in walled courtyard communities called beguinages, prayed, and nursed the sick and the dying. Some of them wrote, and that is what makes them extraordinary on any map of medieval Christianity: Hadewijch's visions and letters, Mechthild of Magdeburg's Flowing Light of the Godhead, Marguerite Porete's Mirror of Simple Souls are among the very few medieval accounts of a religious life told from the inside by the women actually living it. Because they fitted no category, they attracted suspicion: Porete was burned in Paris in 1310, and in 1312 the Council of Vienne moved against the beguine life itself.",
+   "new": "From the late twelfth century, women in the towns of the Low Countries and the Rhineland began to live religious lives without joining any order. They took no lifelong vows, kept no rule and lived under no enclosure. They kept their own property or worked, often in cloth. Some lived alone, others in walled courtyard communities called beguinages. They prayed, and nursed the sick and the dying. Some of them wrote, and that is what makes them extraordinary on any map of medieval Christianity. Hadewijch wrote visions and letters. Mechthild of Magdeburg wrote The Flowing Light of the Godhead, and Marguerite Porete wrote The Mirror of Simple Souls. These are among the very few medieval accounts of a religious life told from the inside, by the women living it. Because they fitted no category, they drew suspicion. Porete was burned in Paris in 1310. In 1312 the Council of Vienne condemned errors it laid on beguines and beghards.",
+   "reason": "The vendored evidence (Denzinger 471, lines 14792-14793; Antoninus in Mansi 25, lines 39817-39819) shows the council condemning errors it attributed to beguines and beghards. The decree against the beguine status itself (Cum de quibusdam mulieribus) is not vendored or repo-cited; it is in the wants list, and with it the sentence can again say the council moved against the beguine life itself. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 60.2,
+   "fk_after": 8.1
+  },
+  {
+   "n": 6,
+   "movement": "the-beguines",
+   "field": "why",
+   "old": "Beginning in the late twelfth century, women across the Low Countries and the Rhineland lived religious lives with no vows, no rule and no enclosure, keeping their own property or working in cloth and nursing the sick in walled courtyard communities called beguinages. Some of them wrote, which is what makes them extraordinary: Hadewijch's visions and letters, Mechthild of Magdeburg's Flowing Light of the Godhead, and Marguerite Porete's Mirror of Simple Souls are among the very few medieval accounts of religious life told from the inside by the women living it. Porete was burned in Paris in 1310, and two years later the Council of Vienne moved against the beguine life itself.",
+   "new": "From the late twelfth century, women across the Low Countries and the Rhineland lived religious lives with no vows, no rule and no enclosure. They kept their own property or worked in cloth, and they nursed the sick. Many lived in walled courtyard communities called beguinages. Some of them wrote, and that is what makes them extraordinary. Hadewijch left visions and letters. Mechthild of Magdeburg wrote the Flowing Light of the Godhead, and Marguerite Porete the Mirror of Simple Souls. These are among the very few medieval accounts of religious life told from the inside, by the women who lived it. Porete was burned in Paris in 1310. Two years later the Council of Vienne condemned errors it laid on beguines and beghards.",
+   "reason": "As in the long description. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 60.6,
+   "fk_after": 8.2
+  },
+  {
+   "n": 7,
+   "movement": "free-spirit-heresy",
+   "field": "longDescription",
+   "old": "The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by a 'sect of the Free Spirit'. Chiefly that a soul perfected in this life becomes incapable of sin and needs neither the church nor the virtues any longer.",
+   "new": "The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by beguines and beghards in Germany. Their core claim was that a soul made perfect in this life can no longer sin, and needs neither the church nor the virtues any longer. One error spoke of people living 'in the spirit of liberty'.",
+   "reason": "The vendored text of the eight errors (Denzinger 471-478) heads them 'Errores Beguardorum et Beguinarum', and Antoninus of Florence places them 'in Alemannia' (Mansi 25, lines 39817-39819). No vendored text has the decree calling them a 'sect of the Free Spirit'; the quotation marks presented a later label as the decree's words. The third error's 'spiritu libertatis' (Denzinger 473, line 14808) is now quoted instead. The fragment 'Chiefly that...' is made a sentence.",
+   "fre_after": 61.8,
+   "fk_after": 9.4
+  },
+  {
+   "n": 8,
+   "movement": "free-spirit-heresy",
+   "field": "why",
+   "old": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to a 'sect of the Free Spirit,' chiefly that a soul perfected in this life needs neither the church nor the virtues any longer — and interrogators then went looking for people who held them, finding them because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed; what existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+   "new": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+   "reason": "As in the long description. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 62.3,
+   "fk_after": 8.8
+  }
+ ],
+ "wants": [
+  "Cum de quibusdam mulieribus (Clementines III.11.1), the Vienne decree against the beguine status itself, in any vendored edition: would let the beguine text again say the council moved against the beguine life itself",
+  "Francis of Assisi, Testament ('the Lord Pope confirmed it for me'), in a vendored edition",
+  "Humbert of Romans and John of Parma's joint letter of 1255 urging peace between the two orders, as documentary evidence of contact and rivalry",
+  "Innocent III's letters of 1201 to the Humiliati (Incumbit nobis; Non omni spiritui; Diligentiam pii patris), e.g. in Tiraboschi, Vetera Humiliatorum monumenta II (1767), for the date and the three orders",
+  "Jordan of Saxony, Libellus de principiis ordinis praedicatorum, for Dominic's preaching against the heretics of Languedoc from 1206",
+  "Lerner 1972 actually read, for the exact shape of his conclusion",
+  "Lucius III, Ad abolendam (Verona, 1184), which names 'eos qui se Humiliatos vel Pauperes de Lugduno falso nomine mentiuntur': Mansi 22 or Friedberg, Corpus iuris canonici II (X 5.7.9). With it this becomes Documented and the qualified sentences can be restored.",
+  "Marguerite Porete, The Mirror of Simple Souls, in a vendored edition (Babinsky 1993 is cited, not vendored; the Old French is not vendored), to set the condemned propositions beside her own words",
+  "Tauler's sermons in a vendored text that names his Dominican profession in his own or a contemporary's words (Winkworth 1907 says so only in the editor's life)",
+  "The Toulouse canonization testimonies of 1233 (Lehner 1964 is cited in the census but not vendored)",
+  "The full text of Ad nostrum (its opening names 'begardi' and women 'quae beguinae vulgariter appellantur'), e.g. Friedberg, Corpus iuris canonici II, Clementines V.3.3",
+  "Thomas of Celano, First Life 32-33, for the 1209/1210 audience with Innocent III",
+  "Thomas of Celano, Second Life of Francis 148-150, the earliest telling of the meeting, in a vendored edition"
+ ],
+ "escalations": [
+  "Method question, not blocking: the Humiliati's condemnation in Ad abolendam (1184) is standard scholarship, but nothing vendored or repo-cited carries the decree, and the census's own source does not mention it. Per the era-1 precedent I qualified it in three fields and graded the link Inferential-Thin. This is the same open question logged in era 2 ('well-known facts with no vendored source'). If Mark prefers a vendoring request first, the three Humiliati prose changes can wait for Mansi 22 or Friedberg.",
+  "Entry text that was wrong rather than unsupported, fixed in one sentence each: free-spirit-heresy quoted 'sect of the Free Spirit' as the words of Ad nostrum (the vendored edition heads the errors as those of beguines and beghards); the-humiliati said 'the movement' was suppressed in 1571 (the bull abolished the brothers' order; the nuns lived on). Logged here so the entry owner sees both.",
+  "For the merge, not Mark: possible duplicate drafts from other groups on latin-papal-church-gregorian--the-franciscan-movement (the papal text's 'authorized the new friars'), the-dominican-order--cathars-albigensians (the Cathar text), and anything on the-waldensians / latin-papal-church-gregorian (the Waldensian text's 1184 condemnation)."
+ ]
+}

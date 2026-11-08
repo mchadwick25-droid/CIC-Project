@@ -286,3 +286,58 @@ it, never by deleting it.
       (Mingana, about 824, not 849); Lund's archbishopric (Anjou, 1103, not 1104).
     - The late Anglo-Saxon `why` and description state the tenth-century refounding outright (see
       "Well-known facts with no vendored source", 2026-11-07).
+51. **Cistercians and Cluny (2026-11-08).** The era 5 pass removed every Cluny claim from
+    `cistercian-monasticism`: its own text has the founders leave Molesme, and no vendored text ties
+    Cîteaux to Cluny. The era 4 `cluniac-reform-monasticism` text still says the Cistercians reacted
+    against Cluny. For the era 4 owner.
+52. **Well-known facts with no vendored source, era 5 (2026-11-08).** Added to the method question in
+    "Well-known facts with no vendored source" (2026-11-07). Era 5 sentences left standing as written,
+    each with its wanted text on the era 5 list: the Carmelites' move west, Molesme, the Lavra's
+    founding in 963; Lateran IV's dress rule for Jews and Muslims, the Council of Troyes and the
+    Templar rule (1129), the Protestant orders of St John, Rhodes and Malta, the reach of William of
+    Tyre's history; Dante placing Joachim in paradise, the crown's annexation of Languedoc, the
+    Waldensian name; the memory of 1204 in the Orthodox churches, John Paul II's words in 2001 (the
+    drafter doubts "apology" is the exact word), the contested Kyiv Lavra and Kyiv's political weight.
+    Two of these (Troyes, the orders of St John) touch bodies with no movement of their own.
+53. **No movement for the Bulgarian church of the Second Empire (2026-11-08).** The Tarnovo synod of
+    1211 against the Bogomils cannot be linked. A census-structure question for Mark, low urgency.
+54. **Long-gap links to modern churches (2026-11-08).** The Georgian golden age and the Serbian and
+    Bulgarian monasteries are not linked to their modern entries (the Georgian church restored in
+    1917; the modern Balkan churches, era 9), with centuries and other entries between. Whether such
+    links should exist is a mapping ruling for Mark.
+55. **No link type for church jurisdiction (2026-11-08).** A patriarch appointing another church's head
+    bishop is drawn as "influenced" (Caesarea to Armenia, Constantinople to Kyiv) or as "in contact
+    with" (Alexandria and Aksum; the Coptic patriarch and Ethiopia). A method question for Mark.
+56. **No Syriac Orthodox movement after 1300 (2026-11-08).** `syriac-renaissance` has nothing to
+    continue as. Portfolio structure, for Mark, low urgency.
+57. **The Abbasid Church of the East has no continuesAs (2026-11-08).**
+    `church-of-the-east-under-the-abbasids` (era 4) has `continuesAs` null, though the era 5 pass
+    added its "continued as" link to `church-of-the-east-under-the-mongols`. A data fix for the era 4
+    owner.
+58. **Humiliati sources (2026-11-08).** Innocent III's letters of 1201 (Tiraboschi) and the decree Ad
+    abolendam of 1184 (Mansi 22, or Friedberg) are not vendored. They would settle the approval year,
+    now "around 1200", and the three qualified sentences on 1184.
+59. **The Franciscan order and the Observants, held for P2-L6 (2026-11-08).** Eugenius IV's 1438
+    letter making Bernardino of Siena vicar of the Observant houses (Bullarium Franciscanum, new
+    series I, no. 385, lines 34646-34653) documents `franciscan-order-era-6` gave rise to
+    `observant-reform-and-popular-preaching`. Drafted in the era 5 pass, dropped there because both
+    ends are era 6. The era 5 Franciscan text is carried by
+    `the-franciscan-movement--observant-reform-and-popular-preaching` (influenced).
+60. **Two more out-of-era link notes use "we hold" (2026-11-08).** Besides the one in "An era-2 link
+    note uses internal wording" (2026-11-07): `desert-monasticism--iconophile-byzantine-monasticism`
+    and `antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce`. Era 5
+    cleared every case touching its own movements. For P2-L11.
+61. **Page recordings read the old descriptions (2026-11-08).** The tree pages play a recording of
+    each movement's description, and the link passes rewrite descriptions. In era 5, 16 recorded
+    pages now play text that no longer matches the page: `cistercian-monasticism`,
+    `canons-regular-victorine-school`, `athonite-and-comnenian-byzantine-monasticism`,
+    `the-beguines`, `the-waldensians`, `zagwe-and-early-solomonic-ethiopian-christianity`,
+    `maronite-christianity`, `military-religious-orders-templars-hospitallers`,
+    `cathars-albigensians`, `free-spirit-heresy`, `serbian-and-bulgarian-medieval-monasticism`,
+    `byzantine-church-after-1054`, `latin-papal-church-gregorian`, `armenian-cilicia`,
+    `latin-church-of-outremer`, `the-humiliati`. Eras 1 to 3 likely have the same drift. The
+    recording manifest stores no hash of the text it was made from, so nothing catches it. Fixing it
+    is a paid voice run: sample first, Mark's approval by ear, settings passed and printed. For Mark.
+62. **"Silent since 622" is fixed (2026-11-08).** The era 5 pass removed the claim from
+    `the-georgian-golden-age`; its summary now says it carries on from the Tao-Klarjeti revival.
+    This closes "The Georgian Golden Age says 'silent since 622'" (2026-11-08).

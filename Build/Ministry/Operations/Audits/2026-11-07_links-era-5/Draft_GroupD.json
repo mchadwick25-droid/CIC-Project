@@ -1,0 +1,1504 @@
+{
+ "group": "D",
+ "movements": [
+  "latin-papal-church-gregorian",
+  "military-religious-orders-templars-hospitallers",
+  "latin-church-of-outremer",
+  "maronite-christianity",
+  "armenian-cilicia"
+ ],
+ "dispositions": [
+  {
+   "movement": "maronite-christianity",
+   "field": "relationsSummary",
+   "sentence": "West Syriac liturgical family",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A classification of the Maronite liturgy, not a claim that the community came from another church. The inventory's match (syriac-orthodox-west-syriac-christianity) would make the miaphysite Syriac Orthodox church the Maronites' parent, which no source says; Maron's monastery was Chalcedonian. The classification itself holds: Hayton (1307) says 'The Maronites follow the Jacobite rite' (cic/texts/hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt line 1020)."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "relationsSummary",
+   "sentence": "unique early union with Rome",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--maronite-christianity",
+   "prose_change": null,
+   "reason": "Union with the papacy (1215). No vendored primary; Dominant Modern Reconstruction on the census-listed Maronite histories."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "longDescription",
+   "sentence": "By the medieval period they were a distinct church of the West Syriac liturgical family",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same liturgical classification as the summary; supported by Hayton (1307), line 1020."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "longDescription",
+   "sentence": "Specifically over whether the community had once held that Christ had only one will, a position the wider church had rejected.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Monothelitism has no census movement of its own (the Heraclian Byzantine entry carries the compromise in its own text). The text already presents this as an argument, not a fact. A hostile witness supports that it was said: Michael the Syrian, Syriac Orthodox patriarch (d. 1199), writes that the Maronites 'confessent une seule volonté dans le Christ' but accept Chalcedon (cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt lines 39339-39341). No change. The fragment opening this sentence ('Specifically over...') is a readability defect outside this pass's relationship scope; flagged."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "longDescription",
+   "sentence": "What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--maronite-christianity",
+   "prose_change": null,
+   "reason": "The c. 1182 union was made inside the crusader states and is described by William, archbishop of Tyre. William is not vendored: Dominant Modern Reconstruction. 'What is clear' is strong for a reconstruction, but the union's occurrence is not disputed, only the earlier history; left."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "longDescription",
+   "sentence": "in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--maronite-christianity",
+   "prose_change": null,
+   "reason": "Named contact with the papacy at Lateran IV. No vendored primary (Mansi XXII and the bull are not vendored; Duwayhi is second-witness only)."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "why",
+   "sentence": "When the crusaders arrived, the Maronites entered communion with Rome — William of Tyre describes the union around 1182",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--maronite-christianity",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "why",
+   "sentence": "in 1215 the patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council to settle its terms",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--maronite-christianity",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "legacy",
+   "sentence": "made the Maronites the working model for later Eastern Catholic churches",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "An influence claim on later Eastern Catholic churches (no single census movement; the Melkite Greek Catholic entry of era 8 calls the Maronite union 'kin-shape'). No vendored or repo-cited source shows the Maronite union served as a model; rewritten as a shared pattern."
+  },
+  {
+   "movement": "maronite-christianity",
+   "field": "legacy",
+   "sentence": "one of the largest Eastern Catholic churches, the largest Christian community in Lebanon, and with a worldwide diaspora",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day description, not a relationship."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "relationsSummary",
+   "sentence": "These orders fused monastic vows with arms, something the church had never authorized before",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A claim about the orders' novelty, naming no other movement. Not vendored: Bernard's 'new kind of knighthood' (De laude novae militiae) would support it; listed in wants."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "relationsSummary",
+   "sentence": "Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood",
+   "other_id": "cistercian-monasticism",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "prose_change": null,
+   "reason": "Missed by the inventory: a relationship carried by a person. Bernard was the Cistercians' leading abbot. Text not vendored: Dominant Modern Reconstruction."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "relationsSummary",
+   "sentence": "The Hospitallers continued after the fall of Acre in 1291, moving their base to Rhodes in 1310 and remaining there into the sixteenth century.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The order's own continuation; the census has no later entry for it. The inventory's match (latin-church-of-outremer) names no exchange. Hayton's editors in RHC Doc. arm. II mention 'la conquête de Rhodes par les Hospitaliers' (line 22466) in passing."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "sentence": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The pilgrim hospital of Jerusalem has no census movement. The inventory's match, jerusalem-liturgical-pilgrimage-christianity, ends c. 450 and cannot be meant. The Hospitallers' Rule (King 1934, in the census sources) is not vendored; listed in wants. No change."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "sentence": "were given a rule at the Council of Troyes in 1129",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The council has no census movement. Not vendored (no Mansi XXI, no Rule of the Temple); listed in wants. Left standing; see escalations."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "sentence": "Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood",
+   "other_id": "cistercian-monasticism",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "sentence": "lost their reason for existing when Acre fell in 1291",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An event (Acre's fall), not an exchange with the Latin church of Outremer. The inventory read it as contact with Outremer; no meeting or act is claimed."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "sentence": "The Templars were arrested in France in 1307, made to confess under torture, and suppressed in 1312.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+   "prose_change": 9,
+   "reason": "The inventory had no actor. Clement V's bull Vox in excelso (1312) abolishes the order; Clement is the Avignon-era papacy (era 6). Prose now names him so the link is named in the text."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why",
+   "sentence": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why",
+   "sentence": "were given a monastic rule at the Council of Troyes in 1129",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why",
+   "sentence": "Bernard of Clairvaux defended the fusion of vows and arms in his In Praise of the New Knighthood",
+   "other_id": "cistercian-monasticism",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why",
+   "sentence": "the Templars were arrested, tortured into confession, and suppressed by 1312",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+   "prose_change": 10,
+   "reason": "As in the description; prose names Clement V."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "legacy",
+   "sentence": "The Hospitallers moved to Rhodes, then Malta, and continue today as the Sovereign Military Order of Malta",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The same order's later history; no census entry for it."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "legacy",
+   "sentence": "alongside Protestant orders of St John in Britain and Germany out of which St John Ambulance grew",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Protestant orders of St John or St John Ambulance. Checked: no vendored or repo-cited source for either. Left standing rather than qualified; see escalations (the open question on well-known facts with no vendored source)."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "legacy",
+   "sentence": "The Templars did not survive, and their destruction left a very long afterlife in legend and conspiracy writing",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reception in legend, naming no movement."
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "legacy",
+   "sentence": "round churches in Europe built in imitation of the Holy Sepulchre",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Architecture, not a relationship between movements."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "The western side of the Great Schism",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "Existing Documented link (Humbert's bull of 1054) kept; the existing 'broke with' link on the reverse pair also kept."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "in lasting tension with the Byzantine church",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "Existing Documented 'broke with' link kept; its note already says only the Latin record is held."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "the Investiture Contest",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The emperors and lay lords have no census movement. The claim is supported: Gregory VII's excommunication of Henry IV (Mirbt no. 235) and the Canossa report (no. 236)."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Says what this entry covers, not an exchange with another movement; no era-5 English, French or Iberian movement exists. 'Carries' reads as cataloguing language in public text; flagged as a hygiene item, not changed."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "sentence": "along with the rise of the universities, scholastic theology, and the crusading ransom orders",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Scope statement, no movement named. 'Crusading ransom orders' (the Trinitarians and Mercedarians ransomed captives) is a loose label; flagged, not changed."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "set out to free the church from the lay lords who appointed its bishops and sold its offices",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Lay lords have no census movement. Supported in outline by the Roman synods against lay investiture in Mirbt nos. 237-250."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "Gregory VII's Dictatus Papae of 1075 asserted, among much else, that the pope alone could depose an emperor.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No census movement for the emperors. Dictatus Papae 12 (Mirbt line 11202-11203) says the pope may depose emperors; 'alone' is not in that clause. Made exact."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "produced the extraordinary scene of Emperor Henry IV waiting in the snow outside Canossa",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No census movement for Henry IV. Gregory VII's own report (Mirbt no. 236, lines 10429-10431) has Henry, then king, barefoot and in wool for three days before the castle gate; no vendored text mentions snow. Rewritten to what the letter says."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "authorized the new friars",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "prose_change": 1,
+   "reason": "Francis's Testament: 'the lord pope confirmed it for me' (Mirbt no. 294). Prose now names Francis's friars."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "authorized the new friars",
+   "other_id": "the-dominican-order",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The plural takes in the Dominicans. No vendored or repo-cited source shows Innocent III approving them; their own entry dates their approval to 1216, after Innocent's death. The sentence now names Francis's friars only. No link drafted."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "called crusades",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--latin-church-of-outremer",
+   "prose_change": null,
+   "reason": "Clermont 1095 (Mirbt no. 256) and the first Latin patriarchs named by the 1869 editor: 'gave rise to' at Widely Accepted."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "sentence": "in 1215 legislated at the Fourth Lateran Council for the whole Latin church",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The council is this movement's own act. The confession rule is supported (Mirbt no. 279, line 12400: 'saltem semel in anno fideliter confiteatur')."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "why",
+   "sentence": "Gregory VII's Dictatus Papae of 1075 asserted that the pope alone could depose an emperor, producing the Investiture Contest and the scene of Emperor Henry IV waiting in the snow at Canossa",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the description: 'may depose emperors', and barefoot for three days with no snow."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "why",
+   "sentence": "with canon law codified in Gratian's Decretum",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A description of the movement's own law; Gratian is not vendored."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "why",
+   "sentence": "Under Innocent III, the Fourth Lateran Council of 1215 legislated for the whole Latin church",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "sentence": "the same council imposed distinguishing dress on Jews and Muslims living in Christian territory",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Jewish and Muslim communities. Checked: Lateran IV c. 68 is not vendored (Mirbt prints only selected canons, nos. 277-282, and c. 68 is not among them; Mansi XXII is not held) and no repo source cites it. Left standing rather than softened; see escalations."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "sentence": "the machinery of inquisition took its permanent form in these decades",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The inquisition has no census movement (the Cathar entry names it in its own text). Lateran IV c. 3 on heretics and episcopal inquisition is vendored (Mirbt no. 278, from line 12332)."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "sentence": "The claims made here are also the ones the Reformation would eventually be a protest against.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+   "prose_change": 3,
+   "reason": "'The Reformation' has no single movement; Calvin's Institutes IV.11.13 attack Gregory VII by name. The sentence now names Calvin. No Lutheran link: no vendored Luther text names Gregory VII."
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "sentence": "The same institution continued into the next era through Avignon and the Fifth Lateran Council.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": null,
+   "reason": "Period split of the same see; Boniface VIII reigns across 1300 and repeats Gregory VII's claim."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "relationsSummary",
+   "sentence": "The Armenian church in exile became a kingdom's church: the catholicosate moved to the fortress of Hromkla in 1151",
+   "other_id": "bagratid-armenian-christianity",
+   "disposition": "link",
+   "link_id": "bagratid-armenian-christianity--armenian-cilicia",
+   "prose_change": null,
+   "reason": "Kirakos traces the patriarchal see from Greater Armenia to Hromkla. Cross-era (era 4)."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "relationsSummary",
+   "sentence": "Nerses Shnorhali carried on ecumenical correspondence with the Byzantine emperor seeking reunion between the Armenian and Greek churches",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "Vartan and Michael the Syrian document the exchange."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "relationsSummary",
+   "sentence": "Levon I was crowned king in 1198. The kingdom itself fell in 1375.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dates and events. Kirakos (lines 50065-50072) has the crown sent by the emperor and the pope; the text does not name them, so no link."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "longDescription",
+   "sentence": "After the Seljuk conquest of the Armenian homeland, Armenians resettled in Cilicia",
+   "other_id": "bagratid-armenian-christianity",
+   "disposition": "link",
+   "link_id": "bagratid-armenian-christianity--armenian-cilicia",
+   "prose_change": null,
+   "reason": "Continuation of the same church; see the summary."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "longDescription",
+   "sentence": "And the Armenian church went with them. In 1151 the catholicos moved his seat to Hromkla",
+   "other_id": "bagratid-armenian-christianity",
+   "disposition": "link",
+   "link_id": "bagratid-armenian-christianity--armenian-cilicia",
+   "prose_change": null,
+   "reason": "As above. 'And the Armenian church went with them.' is a sentence fragment; flagged as a readability item outside this pass's scope."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "longDescription",
+   "sentence": "conducted a long and remarkably generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "As above. 'Remarkably generous' is the census's own judgment of tone; the vendored witnesses show the exchange, not its tone; left."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "longDescription",
+   "sentence": "The Cilician church spent the following century negotiating instead with the Latin crusader states next door.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--latin-church-of-outremer",
+   "prose_change": null,
+   "reason": "Kirakos documents Gregory III's reception by the Franks and their patriarch at Jerusalem."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "why",
+   "sentence": "the catholicos moved his seat to the fortress of Hromkla in 1151",
+   "other_id": "bagratid-armenian-christianity",
+   "disposition": "link",
+   "link_id": "bagratid-armenian-christianity--armenian-cilicia",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "why",
+   "sentence": "carried on a long, generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "why",
+   "sentence": "negotiating instead with the neighboring Latin crusader states",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--latin-church-of-outremer",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "legacy",
+   "sentence": "the catholicosate established here still exists as the Catholicosate of Cilicia, now seated at Antelias in Lebanon",
+   "other_id": "armenian-cilicia-after-the-kingdom",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--armenian-cilicia-after-the-kingdom",
+   "prose_change": 11,
+   "reason": "Continuation into the era-6 entry, whose own legacy names the same catholicosate. 'Established here' corrected to 'seated here' (Kirakos: the see was moved, not founded). The inventory's match (armenian-christianity-new-julfa) is the Etchmiadzin line, not this one."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "legacy",
+   "sentence": "one of the two catholicosates of the Armenian church",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A description of the present church; the other catholicosate is not named."
+  },
+  {
+   "movement": "armenian-cilicia",
+   "field": "legacy",
+   "sentence": "Shnorhali's hymns and prayers are still sung and prayed",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reception of one author's work, naming no movement."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "relationsSummary",
+   "sentence": "A transplanted Latin church with its own hierarchy",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--latin-church-of-outremer",
+   "prose_change": null,
+   "reason": "Missed by the inventory: the Latin church that was transplanted is the Gregorian papal church, which called the crusade."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "relationsSummary",
+   "sentence": "patriarchates of Jerusalem (1099, Greek patriarch expelled - the Schism lived on the ground) and Antioch",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "prose_change": 4,
+   "reason": "Michael the Syrian documents the Latins' act against a named Greek patriarch at Antioch. The Jerusalem expulsion in 1099 has no vendored support and the text is corrected to what the sources show."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "relationsSummary",
+   "sentence": "moves to Acre 1187, falls with it 1291",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dates and events."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "erecting a Latin patriarchate of Jerusalem and expelling the Greek patriarch, and then another at Antioch",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "prose_change": 5,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "with the canons of the Holy Sepulchre at its center",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Part of the movement itself, not another party."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "The Greek part is carried by the Antioch link."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim",
+   "other_id": "syriac-renaissance",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names the Syriac Christians only as part of the population ruled, with no meeting, letter or act; overlap of time and place alone does not make an 'in contact with' link. The inventory's match (syriac-orthodox-under-islam) ends in 1054; the era-5 Syriac Orthodox entry is syriac-renaissance, whose own text names the crusader states, so its drafter owns that pair. No vendored text here documents a named exchange (Michael the Syrian's tome 3, which would, is not held; listed in wants)."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim",
+   "other_id": "armenian-cilicia",
+   "disposition": "link",
+   "link_id": "armenian-cilicia--latin-church-of-outremer",
+   "prose_change": null,
+   "reason": "The Armenian part is carried by Kirakos's account of the catholicos at Jerusalem."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Muslim population has no census movement. A description of the population; no change."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "why",
+   "sentence": "installing a Latin patriarchate and expelling the Greek patriarch",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "prose_change": 6,
+   "reason": "As in the summary; the unsupported Jerusalem expulsion is dropped here."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "why",
+   "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim",
+   "other_id": "syriac-renaissance",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "legacy",
+   "sentence": "the Latin patriarchate of Jerusalem became a title without a diocese and stayed that way for more than five centuries, until it was restored as a working see in 1847",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The same office's later history; no census entry for the restored patriarchate."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "legacy",
+   "sentence": "William of Tyre's history became the standard Western account of the crusades for centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A reception claim naming no movement. Checked: William's history is not vendored and no repo source states its reception. Left standing; see escalations."
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "legacy",
+   "sentence": "The long memory of Outremer among Eastern Christians, who experienced it as occupation rather than liberation, is part of the legacy too.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "'Eastern Christians' as a whole has no movement, and the vendored witnesses disagree: Michael the Syrian (the Greek patriarch thrown out of Antioch) and Kirakos (friendship of the Franks of Jerusalem with the Armenians). Rewritten to report both."
+  }
+ ],
+ "links": [
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "action": "keep",
+   "from": "latin-papal-church-gregorian",
+   "to": "byzantine-church-after-1054",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "latin-papal-church-gregorian relationsSummary ('the western side of the Great Schism ... in lasting tension with the Byzantine church')",
+   "wants": [],
+   "drafter_flags": [
+    "Shared pair with group E (byzantine-church-after-1054); owned here per the brief."
+   ],
+   "change_reason": "Keep. Both Mirbt no. 228 quotes rechecked: lines 9952-9954 and 9987-9988 match after whitespace squash. Humbert's bull is a text directed at Michael Cerularius by name, so 'argued against' at Documented holds."
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "action": "keep",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "broke with",
+   "confidence": "Documented",
+   "named_in_text": "latin-papal-church-gregorian relationsSummary ('the western side of the Great Schism')",
+   "wants": [
+    "The Byzantine synodal edict of 1054 against the legates (Will, Acta et scripta, 1861, or another public-domain edition), so this break has a primary from the Greek side as well"
+   ],
+   "drafter_flags": [
+    "Shared pair with group E; owned here per the brief.",
+    "The type asks for a rupture both sides recorded. All three quotes are Humbert's Latin account (Mirbt no. 227); the third shows Michael's reaction, and the note already says only the Latin side's record is held. I searched cic/texts for Cerularius / Caerularius / Kerularios and found no vendored Greek edict. Kept as published; the want above would close the gap."
+   ],
+   "change_reason": "Keep. Quotes rechecked at lines 9904, 9907-9908 and 9918-9919. The note states the one-sided evidence plainly; ids stay in alphabetical order for a symmetric type."
+  },
+  {
+   "id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power can be judged by God alone, not by any human. The same see carried the same claims across 1300.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory VII, Dictatus Papae (1075), Register II.55a, in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 255",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "11209",
+     "locus": "Dictatus Papae 19",
+     "quote": "Quod a nemine ipse iudicari debeat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface VIII, bull Unam sanctam (18 November 1302), in Mirbt, Quellen, 3rd ed. (1911), no. 309",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13593-13594",
+     "locus": "Unam sanctam",
+     "quote": "Ergo si deviat terrena potestas, iudicabitur a potestate spirituah; sed si deviat spiri- tuahs minor, a suo superiori; si vero suprema, a solo Deo, non ab homine poterit iudicari;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), editor's heading to nos. 307-309",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13432",
+     "locus": "heading before no. 307",
+     "quote": "Papst Bonifatius VIIl. (1294—1303)."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-papal-church-gregorian legacy ('The same institution continued into the next era through Avignon and the Fifth Lateran Council.')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 6. The era-6 entry's own text is drafted in a later pass; check there for a duplicate.",
+    "Continuity rests on the same see acting on both sides of 1300 (the same pope, Boniface VIII, reigns across the split) and repeating Gregory VII's claim. Mirbt's note on the Dictatus names Cardinal Deusdedit as a possible author of the list; the note keeps 'Gregory VII's Dictatus Papae' as the census text does, since Mirbt prints it from Gregory's Register.",
+    "Quote keeps the OCR forms 'spirituah', 'spiri- tuahs' exactly as the file prints them."
+   ],
+   "change_reason": "New. The legacy names the continuation into the Avignon-to-Lateran V entry; a period split of the same see, shown by the papal texts on either side of 1300."
+  },
+  {
+   "id": "latin-papal-church-gregorian--latin-church-of-outremer",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "latin-church-of-outremer",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "At Clermont in 1095 Pope Urban II decreed that the journey to free the church of Jerusalem would count in place of all penance. After the crusade, Latin clergy filled the new sees in the East. The first Latin patriarch of Antioch had come as chaplain to the bishop of Le Puy. The see of Jerusalem went to the archbishop of Pisa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Urban II, Council of Clermont (1095), canon 2, in Mirbt, Quellen, 3rd ed. (1911), no. 256",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "11226-11227",
+     "locus": "Clermont 1095, c. 2",
+     "quote": "Quicumque pro sola devotione, non pro honoris vel pecmiiae adeptione, ad li- berandam ecclesianiDei lerusalem profectus fuerit, iter illud pro omni poenitentia reputetur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "15578-15581",
+     "locus": "note to Matthew of Edessa, on the patriarchs of Antioch",
+     "quote": "Les croisés nommèrent à sa place Bernard de Valence, évêque d'Arta, en Épire, qui avail suivi à la croisade l'évêque du Puy, Adhémar, en qualité de chapelain."
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "15582-15584",
+     "locus": "note to Matthew of Edessa, on the patriarchs of Jerusalem",
+     "quote": "Lors de la prise de Jérusalem par les Franks, le patriarcat de cette ville fut donné à Daimbert où Dagobert,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-papal-church-gregorian longDescription ('called crusades'); latin-church-of-outremer relationsSummary ('A transplanted Latin church with its own hierarchy')",
+   "wants": [
+    "William of Tyre, Historia rerum in partibus transmarinis gestarum, in RHC Historiens occidentaux I (1844), for the election of the first Latin patriarchs of Jerusalem and Antioch in his own words (Dulaurier cites Book VI, ch. 23)"
+   ],
+   "drafter_flags": [
+    "The named people (Bernard of Valence, Daimbert of Pisa) come from the 1869 editor's note, which cites William of Tyre; William is not vendored. That is why this is Widely Accepted, not Documented.",
+    "The note says 'the see of Jerusalem went to the archbishop of Pisa', as the editor does. Arnulf of Chocques was chosen first in 1099 and set aside; the editor does not mention him and neither does the note.",
+    "Quote keeps the OCR forms 'pecmiiae', 'ecclesianiDei lerusalem' and 'avail' exactly as printed.",
+    "Possible duplicate: the Outremer entry is also in this group, so no other group should draft this pair."
+   ],
+   "change_reason": "New. The Latin papal text names the crusades it called, and the Outremer text calls itself a transplanted Latin church; Clermont plus the named first patriarchs carry 'gave rise to' at Widely Accepted."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-franciscan-movement",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In his Testament, Francis of Assisi says he had a short, simple form of life written down for his first brothers, 'and the lord pope confirmed it for me'. His 1906 English editor dates this to 1210 and names the pope as Innocent III.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis of Assisi, Testament, in Mirbt, Quellen, 3rd ed. (1911), no. 294",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "12894-12895",
+     "locus": "Testament 4",
+     "quote": "Et ego paucis verbis et simplicibus feci scribi, et dominus papa confirmavit mihi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "William Heywood (trans.), The Little Flowers of the Glorious Messer St. Francis (1906), introduction",
+     "file": "cic/texts/fioretti_little-flowers-of-st-francis_heywood1906.txt",
+     "lines": "788-789",
+     "locus": "introduction",
+     "quote": "This was in 1210; the “Lord Pope” was that Innocent III."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-papal-church-gregorian longDescription ('approved Francis of Assisi's first friars', after prose change 1); the-franciscan-movement longDescription ('Pope Innocent III gave the group verbal approval')",
+   "wants": [],
+   "drafter_flags": [
+    "Possible duplicate: the-franciscan-movement's own text names Innocent III's approval, so its drafter may also draft this pair. Merge should keep one.",
+    "Type 'in contact with': a papal confirmation is a documented exchange; no influence is claimed. The Testament does not name the pope; the 1906 introduction does."
+   ],
+   "change_reason": "New. The Latin papal text names the papacy's approval of the friars; Francis's own Testament documents it."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "latin-papal-church-gregorian",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In his Institutes, John Calvin of Geneva wrote against Pope Gregory VII by name. He said Gregory, once called Hildebrand, was the one who first won the popes the rank of emperors. He called him 'an impure and wicked man'. The popes after him, Calvin wrote, went on to rule the emperors.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, Institutes of the Christian Religion IV.11, chapter summary (trans. Beveridge, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+     "lines": "10172-10175",
+     "locus": "Institutes IV.11, argument of section 13",
+     "quote": "When, and by what means, the Roman' Pontiffs attained to imperial dignity. Hildebrand its founder.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, Institutes IV.11.13 (trans. Beveridge, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+     "lines": "10823-10825",
+     "locus": "Institutes IV.11.13",
+     "quote": "At length Hildebrand, who took the name of Gre- gory VII., an impure and wicked man, betrayed his sinister intentions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, Institutes IV.11.13 (trans. Beveridge, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+     "lines": "10826-10829",
+     "locus": "Institutes IV.11.13",
+     "quote": "He gained this much, hoAvever, that his successors were not only able to shake off the yoke with impunity, but also to bring the emperors into subjection to them.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-papal-church-gregorian legacy ('The Reformation would later protest against these same claims. John Calvin ...', after prose change 3)",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. Check the era-7 pass for a duplicate on this pair.",
+    "The legacy says 'the Reformation' in general; Calvin is the one Reformer found in cic/texts attacking the Gregorian papacy by name. No Lutheran link drafted: no vendored Luther text names Gregory VII or Unam sanctam.",
+    "Quotes keep the OCR forms 'Roman'' and 'hoAvever' exactly as printed."
+   ],
+   "change_reason": "New. The legacy names the Reformation's protest against these claims; Calvin's Institutes attack Gregory VII by name."
+  },
+  {
+   "id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "action": "new",
+   "from": "cistercian-monasticism",
+   "to": "military-religious-orders-templars-hospitallers",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Bernard of Clairvaux, the Cistercians' best-known abbot, wrote In Praise of the New Knighthood in defense of the Templars. He argued that a knight who killed in this cause was killing evil, not a man. We do not hold the text itself, so this rests on the modern history of the order.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Malcolm Barber, The New Knighthood: A History of the Order of the Temple (Cambridge University Press, 1994)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "military-religious-orders-templars-hospitallers relationsSummary, longDescription and why ('Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood')",
+   "wants": [
+    "Bernard of Clairvaux, De laude novae militiae (PL 182, Migne 1854, or the Leclercq-Rochais Opera vol. 3), to document Bernard's defense of the Templars and the 'malicide' passage directly; with it this link could be Documented"
+   ],
+   "drafter_flags": [
+    "Missed by the inventory: a relationship carried by a person (Bernard).",
+    "Barber is cited only in the census's own source list for this movement (cic-website/data/world-census.json), not in records/, Build/ or cic/. Era-2 round 2 accepted a census-listed secondary under the anti-fabrication rule. Not read.",
+    "No primary for the Council of Troyes either (Bernard's part there is not claimed)."
+   ],
+   "change_reason": "New. The military orders' text names Bernard's defense three times; the defense text is not vendored, so the grade stays at Dominant Modern Reconstruction."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "military-religious-orders-templars-hospitallers",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In March 1312 Pope Clement V issued the bull Vox in excelso, with the approval of a church council. It abolished the order of the Temple for ever. No one was to join it, wear its habit or pass himself off as a Templar, on pain of excommunication.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement V, bull Vox in excelso (22 March 1312), in Mirbt, Quellen, 3rd ed. (1911), no. 310",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13649-13651",
+     "locus": "Vox in excelso",
+     "quote": "districtius inhibentes, ne quis dictum ordinem de caetero intrare, vel eius habitum suscipere vel portare aut pro templario gerere se praesumat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading and source line to no. 310",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13621",
+     "locus": "headnote to no. 310",
+     "quote": "Bulle „Vox in excelso\"\" vom 22. März 1312:"
+    },
+    {
+     "kind": "secondary",
+     "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading to no. 310",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13619",
+     "locus": "heading to no. 310",
+     "quote": "Papst Clemens T., Aufhebung des Templeiordens."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "military-religious-orders-templars-hospitallers longDescription and why ('In 1312 Pope Clement V abolished the order', after prose changes 9 and 10); latin-papal-church-avignon-to-lateran-v relationsSummary ('the Templar trial')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 6. The era-6 entry names 'the Templar trial' in its own text; check that pass for a duplicate.",
+    "The pope's name and the date come from Mirbt's heading (OCR 'Clemens T.' for 'Clemens V.'); the bull's operative clause is the primary. The council is named as Vienne only in Mirbt's gloss '(sc. Viennensi)', so the note says 'a church council'.",
+    "The Hospitallers are not touched by this bull; the note names only the Temple."
+   ],
+   "change_reason": "New. The military orders' text gives the suppression without an actor; the bull is an act directed at the order by name."
+  },
+  {
+   "id": "armenian-cilicia--byzantine-church-after-1054",
+   "action": "new",
+   "from": "armenian-cilicia",
+   "to": "byzantine-church-after-1054",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. In it Nerses lists what the Greeks asked of him, from belief in two natures in Christ to the fourth council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "50854-50855",
+     "locus": "years 617-621 of the Armenian era",
+     "quote": "L'empereur Manuel ayant envoyé demander aux deux frères leur profession de foi, ils rédigèrent une exposition de notre croyance,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "50856-50857",
+     "locus": "years 617-621 of the Armenian era",
+     "quote": "ils voulurent opérer la réunion de notre nation [avec les Grecs], mais cette œuvre resta inachevée,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "46197-46198",
+     "locus": "Nerses's letter to Michael",
+     "quote": "Le seigneur Nersès m'écrivit en ces termes : «On me demande de reconnaître « deux natures en Jésus-Christ, et d'honorer Île quatrième concile,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-cilicia relationsSummary, longDescription and why (Nerses Shnorhali's correspondence with Manuel I about reuniting the Armenian and Greek churches)",
+   "wants": [
+    "Nerses Shnorhali's letters to Manuel I (the Encyclical and letters, Armenian ed. St Petersburg 1788, or a public-domain translation), so the correspondence can be quoted from Nerses's own side"
+   ],
+   "drafter_flags": [
+    "Possible duplicate: the byzantine-church-after-1054 drafter (group E) may find this pair from the Byzantine side.",
+    "Vartan's '[avec les Grecs]' is the translator's bracket, kept as printed. 'Île quatrième concile' is OCR for 'le', kept as printed.",
+    "Michael's letter does not itself name Manuel; Vartan does. The note keeps each claim with its own source."
+   ],
+   "change_reason": "New. The Cilician text names Nerses's correspondence with Manuel; two thirteenth- and twelfth-century witnesses document it."
+  },
+  {
+   "id": "armenian-cilicia--latin-church-of-outremer",
+   "action": "new",
+   "from": "armenian-cilicia",
+   "to": "latin-church-of-outremer",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Kirakos of Gandzak wrote a history of Armenia in the 1200s. He tells how Catholicos Gregory III went on pilgrimage. At Antioch the people led him to the throne of Saint Peter. In Jerusalem, Kirakos says, the Franks and their patriarch made their bond with the Armenians stronger than ever.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49652-49653",
+     "locus": "Gregory III's pilgrimage",
+     "quote": "S'étant mis en route pour la sainte cité de Jérusalem, afin d'aller adorer les lieux consacrés par la vie du Sauveur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49735-49737",
+     "locus": "Gregory III at Antioch",
+     "quote": "le con- duisirent avec une pompe solennelle au trône de l'apôtre saint Pierre, où üls le firent asseoir.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49737-49739",
+     "locus": "Gregory III at Jerusalem",
+     "quote": "À son arrivée à Jérusalem, les Franks, maîtres de cette ville, ainsi que leur patriarche, resserrèrent, à cause de lui, et plus fortement que jamais, les liens d'amitié qui les unissaient à notre nation;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-cilicia longDescription and why ('negotiating ... with the neighboring Latin crusader states'); latin-church-of-outremer longDescription (its mostly non-Latin population, 'Armenian' among them)",
+   "wants": [
+    "William of Tyre, Book XV ch. 18, in RHC Historiens occidentaux I (1844), for the Latin council at Jerusalem attended by the Armenian catholicos, from the Latin side"
+   ],
+   "drafter_flags": [
+    "No date in the note: Kirakos gives none for the visit, and the 1869 editor's '1136' (line 28906) disagrees with the usual date for that Latin council. The Antioch reception is by 'all the inhabitants' (line 49653), so the note does not say the Latin patriarch of Antioch received him.",
+    "The Cilician text's 'some Armenians welcomed and others resented deeply' is not carried by this link; Kirakos's account of 1198 (lines 50121-50131: the bishops refused the papal legate's conditions and King Levon gave only an outward submission) supports the resentment but involves the pope and emperor, not the crusader states. A Cilicia-papacy link would need the Cilician text to name the papacy; flagged, not drafted.",
+    "Quotes keep the OCR forms 'con- duisirent' and 'üls' exactly as printed."
+   ],
+   "change_reason": "New. The Cilician text names its dealings with the crusader states, and the Outremer text names its Armenian subjects; Kirakos documents a named meeting."
+  },
+  {
+   "id": "bagratid-armenian-christianity--armenian-cilicia",
+   "action": "new",
+   "from": "bagratid-armenian-christianity",
+   "to": "armenian-cilicia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Kirakos of Gandzak tells what became of the Armenian patriarchs' seat. The Greeks drew King Gagik and the catholicos Peter away, and the seat then left Greater Armenia. It stood for a time at Sebaste and at Dzovk. Catholicos Gregory III then moved it to the fortress of Hromkla.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49390",
+     "locus": "Gregory III and the patriarchal see",
+     "quote": "lorsque les Grecs eurent attiré chez eux le roi Kakig et le seigneur Pierre”, dès",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49472-49473",
+     "locus": "Gregory III and the patriarchal see",
+     "quote": "le siége patriarcal cessa d'être fixé dans l'Orient (la Grande Arménie), et, pas- sant sous la dépendance des Grecs, il fut établi tantôt à Sébaste,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "49388-49389",
+     "locus": "Gregory III and the patriarchal see",
+     "quote": "Ce fut lui qui transféra la résidence patriarcale dans la forteresse de Hr'om-gla.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-cilicia relationsSummary ('The Armenian church in exile became a kingdom's church: the catholicosate moved to the fortress of Hromkla in 1151') and longDescription ('the Armenian church went with them'); bagratid-armenian-christianity legacy ('carried on into the Armenian kingdom of Cilicia')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 4. The Bagratid entry's own legacy names this continuation; the parallel era-4 pass may draft the same pair. Merge should keep one.",
+    "The sentence is split across a page break in the file (lines 49390 and 49472), so it is quoted as three pieces at their own lines.",
+    "'Dzovk””' is printed with footnote marks; the quote stops before it.",
+    "The note does not repeat the year 1151, which Kirakos does not give in this passage."
+   ],
+   "change_reason": "New. The same patriarchal see, traced by a thirteenth-century Armenian historian from the last Bagratid king's time to Hromkla."
+  },
+  {
+   "id": "armenian-cilicia--armenian-cilicia-after-the-kingdom",
+   "action": "new",
+   "from": "armenian-cilicia",
+   "to": "armenian-cilicia-after-the-kingdom",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Hethum, lord of Korikos, kept a table of the years. It records that in 1292 the Mamluk sultan al-Ashraf took Hromkla, where the Armenian patriarchs lived, and seized Catholicos Stephen. Gregory VII was then made catholicos. The same line of church leaders went on into the next century.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hethum of Korikos, Chronological Table, with its continuation, in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "55154-55155",
+     "locus": "year 741 of the Armenian era (1292-1293)",
+     "quote": "Aschraf prit la forteresse de Hr'om-gla, résidence des patriarches d'Arménie, et fit prisonnier le seigneur Étienne, catholicos *.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hethum of Korikos, Chronological Table, with its continuation, in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "55181-55184",
+     "locus": "the same years",
+     "quote": "Le seigneur Grégoire [VII, surnommé] le don des prêtres, fut élevé à la dignité de catholicos.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-cilicia legacy ('the catholicosate seated here still exists as the Catholicosate of Cilicia', after prose change 11); armenian-cilicia-after-the-kingdom legacy ('The see at Sis ... continues as the Catholicosate of Cilicia')",
+   "wants": [
+    "A text placing Gregory VII's see at Sis after 1293 (e.g. the continuation of Sempad's chronicle, RHC Doc. arm. I from line 67474, read for the move), to show the step from Hromkla to Sis directly"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6. The era-6 entry's legacy names the same catholicosate; check that pass for a duplicate.",
+    "The year 1292 is the editor's conversion of year 741 of the Armenian era (8 January 1292 - 6 January 1293), printed at line 55151; the note says 1292.",
+    "Gregory VII's bracketed name '[VII, surnommé]' is the editor's, kept as printed. The '*' after 'catholicos' is a footnote mark, kept as printed."
+   ],
+   "change_reason": "New. The Cilician legacy names the catholicosate's continuation; Hethum's table shows the succession across the loss of Hromkla."
+  },
+  {
+   "id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "action": "new",
+   "from": "latin-church-of-outremer",
+   "to": "byzantine-church-after-1054",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Michael the Syrian, a Syriac patriarch who lived through these events, tells how the prince of Antioch brought back a Greek patriarch, Athanasius, from Constantinople. The Latin patriarch, Aimery, left the city and cut its people off from the church. After an earthquake in 1170, Aimery told them to throw the Greek patriarch out 'with contempt' as an intruder.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "45620-45623",
+     "locus": "the prince of Antioch's return from captivity",
+     "quote": "Il ramena de chez les Grecs, en qua- lité de patriarche d'Antioche, un nommé Athanase, et l'introduisit dans cette ville.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "45622-45623",
+     "locus": "the prince of Antioch's return from captivity",
+     "quote": "Le patriarche frank Aimeric, témoin de cette intrusion, en sortit aussitôt pour venir se fixer à Koceïr“, et excommunia les habitants d'Antioche.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "46510-46511",
+     "locus": "the earthquake at Antioch",
+     "quote": "Il leur dit : « Chassez avec « mépris le patriarche grec [Athanase|, qui est un intrus. »",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "15575-15578",
+     "locus": "note to Matthew of Edessa, on John, Greek patriarch of Antioch",
+     "quote": "Cependant, au bout de deux ans, Jean, voyant qu'un patriarche grec ne pouvait convenir dans une ville possédée par les Latins, se retira à Constantinople."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-church-of-outremer relationsSummary ('a later one was thrown out in 1170 ... the Schism lived on the ground', after prose change 4), longDescription and why",
+   "wants": [
+    "Michael the Syrian, Chronique, tome 3 (Chabot 1905), the Syriac original's account of Athanasius and Aimery at Antioch; only the Armenian version's extract is vendored"
+   ],
+   "drafter_flags": [
+    "Possible duplicate: group E (byzantine-church-after-1054) may draft this pair from the Byzantine side; this group owns the Outremer text that names it.",
+    "The year 1170 rests on the 1869 editors' dating of the chronicle year (1481 of the Greeks = October 1169 - 1170, line 45850); the earthquake is 29 June of 'cette même année' (line 46446). The Athanasius return is dated by context only (the prince's release), so the note gives no year for it.",
+    "'[Athanase|' is printed with a bar for the bracket; kept as printed.",
+    "The census text's 'expelling the Greek patriarch' of Jerusalem in 1099 is not supported by anything vendored: the editor's note says only that Jerusalem's patriarchate went to Daimbert. See prose changes 4-6."
+   ],
+   "change_reason": "New. The Outremer text names the Greek patriarch's removal as the Schism lived on the ground; Michael documents an act by the Latin patriarch directed at a Greek patriarch by name."
+  },
+  {
+   "id": "latin-church-of-outremer--maronite-christianity",
+   "action": "new",
+   "from": "latin-church-of-outremer",
+   "to": "maronite-christianity",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. We do not hold his history, so this link rests on modern historians of the Maronites.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "maronite-christianity longDescription and why ('when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182')",
+   "wants": [
+    "William of Tyre, Historia, Book XXII ch. 8, in RHC Historiens occidentaux I (1844, public domain), for the Maronite union with the Latin patriarch of Antioch in William's own words"
+   ],
+   "drafter_flags": [
+    "Moosa and Salibi are cited only in the census's own source list for this movement; neither was read. Moosa's counter-history is itself contested by Maronite traditionalists (the census says so).",
+    "Duwayhi's Maronite history (cic/texts/duwayhi_...shartuni1890.txt) covers the union but its header says SECOND WITNESS ONLY, do not quote; not used.",
+    "The note does not name the Latin patriarch of Antioch (Aimery), whom William's account is usually said to name, because nothing vendored shows it."
+   ],
+   "change_reason": "New. The Maronite text names the crusaders' arrival and William of Tyre's account; the union was made with the Latin church in the crusader states. No vendored primary, so Dominant Modern Reconstruction."
+  },
+  {
+   "id": "latin-papal-church-gregorian--maronite-christianity",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "maronite-christianity",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. A papal bull then set out the terms of the union. We do not hold the bull or the council's acts, so this rests on modern historians of the Maronites.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "maronite-christianity relationsSummary ('unique early union with Rome'), longDescription and why (Jeremiah al-Amshitti at the Fourth Lateran Council)",
+   "wants": [
+    "Innocent III's bull to the Maronite patriarch Jeremiah (1215), in a vendored edition (e.g. Anaissi, Bullarium Maronitarum, 1911, if public domain), to document the union's terms",
+    "The acts of the Fourth Lateran Council (Mansi XXII, not vendored; only Mansi tomes 2-7, 10, 25-27, 31-32, 35 and 46 are), for the patriarch's presence"
+   ],
+   "drafter_flags": [
+    "Neither secondary was read. Duwayhi's Arabic history names Jeremiah at the Lateran council (e.g. file lines 12100-12102) but is marked SECOND WITNESS ONLY; not quoted.",
+    "Mansi 32 (Lateran V, 1516) has a Maronite patriarch's letter recalling gifts from earlier popes 'Innocentius item' (line 98873); it does not say which Innocent, so it is not used here. It may serve the era-6 Maronite continuation."
+   ],
+   "change_reason": "New. The Maronite text names the union with Rome and the 1215 visit; no vendored primary, so Dominant Modern Reconstruction."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "latin-papal-church-gregorian",
+   "field": "longDescription",
+   "old": "In the middle of the eleventh century a circle of reformers around Pope Leo IX set out to free the church from the lay lords who appointed its bishops and sold its offices. And ended by claiming for the papacy an authority no bishop of Rome had exercised before. Gregory VII's Dictatus Papae of 1075 asserted, among much else, that the pope alone could depose an emperor. The resulting Investiture Contest ran for half a century and produced the extraordinary scene of Emperor Henry IV waiting in the snow outside Canossa. What followed was a working papal monarchy. Canon law codified, legates everywhere, a run of great councils at the Lateran, and under Innocent III, who reigned from 1198 to 1216, a papacy that arbitrated between kings, authorized the new friars, called crusades, and in 1215 legislated at the Fourth Lateran Council for the whole Latin church — from the definition of the eucharist to the requirement that every Christian confess once a year.",
+   "new": "In the middle of the eleventh century, a circle of reformers around Pope Leo IX set out to free the church from lay lords. These lords chose its bishops and sold its offices. The reformers ended by claiming for the papacy a power no bishop of Rome had held before. Gregory VII's Dictatus Papae of 1075 declared, among much else, that the pope may depose emperors. The Investiture Contest that followed ran for half a century. Its most famous scene came in 1077. The German king Henry IV stood barefoot for three days at the gate of Canossa, begging the pope's pardon. What followed was a working papal monarchy. Canon law was gathered into codes, papal legates went everywhere, and great councils met at the Lateran. Innocent III, pope from 1198 to 1216, judged between kings, approved Francis of Assisi's first friars and called crusades. In 1215 his Fourth Lateran Council made law for the whole Latin church. Its rules ran from how the eucharist is defined to a rule that every Christian confess once a year.",
+   "reason": "Three claims made more precise. 'The pope alone could depose an emperor': Dictatus Papae 12 (Mirbt no. 255, line 11202-11203) says only that he may depose emperors ('Quod illi liceat imperatores deponere'). 'Emperor Henry IV waiting in the snow': Gregory VII's own report (Mirbt no. 236, lines 10429-10431) has Henry, then king, barefoot and in wool for three days before the castle gate, begging mercy; no vendored text mentions snow. 'Authorized the new friars': Francis's Testament documents the pope's approval of the Franciscans (new link); no vendored or repo-cited source shows Innocent III approving the Dominicans, who were approved in 1216 (the Dominican entry's own date), so the sentence now names Francis's friars only. The whole paragraph was rewritten for reading level (it opened with a sentence fragment, 'And ended by claiming...'); every other fact is kept.",
+   "fre_after": 60.5,
+   "fk_after": 8.4
+  },
+  {
+   "n": 2,
+   "movement": "latin-papal-church-gregorian",
+   "field": "why",
+   "old": "A circle of reformers around Pope Leo IX set out in the mid-eleventh century to free the church from lay lords who appointed its bishops and sold its offices, and ended by claiming for the papacy an authority no bishop of Rome had held before — Gregory VII's Dictatus Papae of 1075 asserted that the pope alone could depose an emperor, producing the Investiture Contest and the scene of Emperor Henry IV waiting in the snow at Canossa. What followed was a working papal monarchy, with canon law codified in Gratian's Decretum and legates and councils across Latin Christendom. Under Innocent III, the Fourth Lateran Council of 1215 legislated for the whole Latin church, from the definition of the eucharist to a requirement that every Christian confess once a year.",
+   "new": "In the mid-eleventh century, reformers around Pope Leo IX set out to free the church from lay lords. These lords chose its bishops and sold its offices. The reformers ended by claiming for the papacy a power no bishop of Rome had held before. Gregory VII's Dictatus Papae of 1075 declared that the pope may depose emperors. The Investiture Contest followed. In 1077 the German king Henry IV stood barefoot for three days at the gate of Canossa. What came after was a working papal monarchy. Canon law was gathered in Gratian's Decretum, and legates and councils reached across the Latin West. Under Innocent III, the Fourth Lateran Council of 1215 made law for the whole Latin church. Its rules ran from how the eucharist is defined to a rule that every Christian confess once a year.",
+   "reason": "Same two corrections as in the description: Dictatus Papae 12 says the pope may depose emperors (not 'alone'), and Gregory VII's report has the king barefoot for three days at Canossa, with no snow. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 61.5,
+   "fk_after": 8.0
+  },
+  {
+   "n": 3,
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "old": "It never stopped: this is the Roman Catholic Church, and the institutional shape worked out here — a legally defined papal primacy, a professional canon law, a college of cardinals electing the pope, general councils legislating for the whole church — is substantially the shape it still has. Fourth Lateran's requirements of annual confession and Easter communion formed lay Catholic practice for the next seven centuries. So did darker parts of the same program: the same council imposed distinguishing dress on Jews and Muslims living in Christian territory, and the machinery of inquisition took its permanent form in these decades. The claims made here are also the ones the Reformation would eventually be a protest against. The same institution continued into the next era through Avignon and the Fifth Lateran Council.",
+   "new": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has a trained body of canon law, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council made Jews and Muslims in Christian lands wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
+   "reason": "The Reformation sentence now names the protest the vendored sources show: Calvin, Institutes IV.11.13, names Hildebrand (Gregory VII) as founder of the popes' imperial dignity (new link from the Reformed cities). The rest of the paragraph is rewritten for reading level with every fact kept. The canon on Jews' and Muslims' dress (Lateran IV c. 68) has no vendored source and is left standing; see escalations.",
+   "fre_after": 68.8,
+   "fk_after": 7.0
+  },
+  {
+   "n": 4,
+   "movement": "latin-church-of-outremer",
+   "field": "relationsSummary",
+   "old": "A transplanted Latin church with its own hierarchy: patriarchates of Jerusalem (1099, Greek patriarch expelled - the Schism lived on the ground) and Antioch; moves to Acre 1187, falls with it 1291",
+   "new": "A transplanted Latin church with its own hierarchy. Latin patriarchs ruled at Jerusalem from 1099 and at Antioch, where the Greek patriarch withdrew about 1100 and a later one was thrown out in 1170. The Schism lived on the ground. The patriarchate moved to Acre in 1187 and fell with it in 1291.",
+   "reason": "'Greek patriarch expelled' at Jerusalem in 1099 is not supported by anything vendored: the 1869 editor's note (RHC Doc. arm. I, lines 15582-15584) says only that the patriarchate of Jerusalem was given to Daimbert. What the sources do show is at Antioch: the Greek patriarch John withdrew about two years after 1098 (the same note, lines 15575-15578), and Michael the Syrian records the Latins throwing out the Greek patriarch Athanasius after the 1170 earthquake (lines 46510-46511). The sentence now says that, and keeps 'the Schism lived on the ground', which those acts carry.",
+   "fre_after": 74.8,
+   "fk_after": 5.8
+  },
+  {
+   "n": 5,
+   "movement": "latin-church-of-outremer",
+   "field": "longDescription",
+   "old": "When the First Crusade took Jerusalem in 1099 the conquerors did not simply add a diocese. They built a whole Latin church on top of an existing Christian landscape, erecting a Latin patriarchate of Jerusalem and expelling the Greek patriarch, and then another at Antioch. For nearly two centuries this transplanted hierarchy ran parishes, cathedrals and an enormous pilgrim traffic to the holy places, with the canons of the Holy Sepulchre at its center and a distinctive liturgy shaped by processions to the sites themselves. It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — and its dealings with those communities ranged from workable accommodation to plain dispossession. When Jerusalem was lost in 1187 the patriarchate moved to Acre, and when Acre fell in 1291 the church of Outremer ended with it.",
+   "new": "When the First Crusade took Jerusalem in 1099, the conquerors did not simply add a diocese. They built a whole Latin church on top of an older Christian landscape. They set up a Latin patriarch in Jerusalem, and then another at Antioch. There the Greek patriarch soon left for Constantinople. For nearly two centuries this transplanted church ran parishes and cathedrals. It also served a huge flow of pilgrims to the holy places. The canons of the Holy Sepulchre stood at its center, with a liturgy shaped by processions to the sites themselves. Most of the people it ruled were not Latin. They were Greek, Syriac, Armenian and Muslim. Its dealings with them ran from workable peace to plain dispossession. When Jerusalem was lost in 1187 the patriarchate moved to Acre. When Acre fell in 1291, the church of Outremer ended with it.",
+   "reason": "Same correction as the summary: 'expelling the Greek patriarch' of Jerusalem is replaced by what the vendored editor's note supports, the Greek patriarch of Antioch's withdrawal to Constantinople. Rewritten whole for reading level; every other fact kept ('workable accommodation' becomes 'workable peace').",
+   "fre_after": 65.7,
+   "fk_after": 7.0
+  },
+  {
+   "n": 6,
+   "movement": "latin-church-of-outremer",
+   "field": "why",
+   "old": "When the First Crusade took Jerusalem in 1099, the conquerors built a whole Latin church on top of an existing Christian landscape, installing a Latin patriarchate and expelling the Greek patriarch, with the canons of the Holy Sepulchre at its center and a liturgy shaped by processions to the holy places themselves. It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — with dealings that ranged from workable accommodation to outright dispossession. When Jerusalem was lost in 1187 the patriarchate moved to Acre, and when Acre fell in 1291 the church of Outremer ended with it.",
+   "new": "When the First Crusade took Jerusalem in 1099, the conquerors built a whole Latin church on top of an older Christian landscape. A Latin patriarch took the see. The canons of the Holy Sepulchre stood at its center, with a liturgy shaped by processions to the holy places themselves. Most of the people it ruled were not Latin. They were Greek, Syriac, Armenian and Muslim. Its dealings with them ran from workable peace to outright dispossession. When Jerusalem was lost in 1187 the patriarchate moved to Acre. When Acre fell in 1291, the church of Outremer ended with it.",
+   "reason": "'Installing a Latin patriarchate and expelling the Greek patriarch': the expulsion at Jerusalem is not supported by any vendored source (see the summary change), so it is dropped here; the Latin patriarch stays. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 66.9,
+   "fk_after": 6.9
+  },
+  {
+   "n": 7,
+   "movement": "latin-church-of-outremer",
+   "field": "legacy",
+   "old": "It left no continuing institution in the East. When Acre fell, the Latin patriarchate of Jerusalem became a title without a diocese and stayed that way for more than five centuries, until it was restored as a working see in 1847. What survived instead is stone and story. The church of the Holy Sepulchre, largely rebuilt in this period, is substantially the building pilgrims enter today, and crusader castles and churches from Acre to Cyprus are among the best-preserved medieval buildings in the region. William of Tyre's history became the standard Western account of the crusades for centuries. The long memory of Outremer among Eastern Christians, who experienced it as occupation rather than liberation, is part of the legacy too.",
+   "new": "It left no lasting church in the East. When Acre fell, the Latin patriarch of Jerusalem kept the title but lost the diocese. It stayed that way for more than five centuries, until the see came back to life in 1847. What survived instead is stone and story. The church of the Holy Sepulchre, largely rebuilt in this period, is mostly the building pilgrims enter today. Crusader castles and churches from Acre to Cyprus are among the best-kept medieval buildings in the region. William of Tyre's history became the standard Western account of the crusades for centuries. Eastern Christians remembered Outremer in different ways, and that memory is part of the legacy too. A Syriac chronicle tells how the Latins threw a Greek patriarch out of Antioch. An Armenian history recalls how the Franks of Jerusalem made their bond with the Armenians stronger than ever.",
+   "reason": "'Eastern Christians, who experienced it as occupation rather than liberation' spoke for all Eastern Christians with no source; the vendored witnesses disagree with each other. Michael the Syrian records the Latins throwing a Greek patriarch out of Antioch (RHC Doc. arm. I, lines 46510-46511); Kirakos of Gandzak records the Franks and their patriarch strengthening their friendship with the Armenians (lines 49737-49739). The sentence now reports both. Rewritten whole for reading level; every other fact kept. William of Tyre's reception sentence has no vendored source and is left standing; see escalations.",
+   "fre_after": 61.4,
+   "fk_after": 8.3
+  },
+  {
+   "n": 8,
+   "movement": "maronite-christianity",
+   "field": "legacy",
+   "old": "The Maronite Church is very much alive: one of the largest Eastern Catholic churches, the largest Christian community in Lebanon, and with a worldwide diaspora. The union begun here has held for eight centuries and made the Maronites the working model for later Eastern Catholic churches — communion with the papacy alongside a Syriac liturgy and a patriarch of their own. The Qadisha valley, where the monasteries and hermitages are carved into the cliff faces, remains a place of pilgrimage and is protected as world heritage.",
+   "new": "The Maronite Church is very much alive. It is one of the largest Eastern Catholic churches and the largest Christian community in Lebanon. It also has a worldwide diaspora. The union begun here has held for eight centuries. It joined communion with the pope to a Syriac liturgy and a patriarch of the church's own. Later Eastern Catholic churches would share that pattern. The Qadisha valley, where monks carved their monasteries and hermit cells into the cliffs, is still a place of pilgrimage. It is protected as world heritage.",
+   "reason": "'Made the Maronites the working model for later Eastern Catholic churches' is an influence claim no vendored or repo-cited source supports. The sentence now says only that later Eastern Catholic churches shared the pattern, which is a likeness, not a line of descent. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 61.5,
+   "fk_after": 7.4
+  },
+  {
+   "n": 9,
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "longDescription",
+   "old": "In the decades after the First Crusade, two kinds of institution fused into something the church had never authorized before. The Hospitallers began as a hospital in Jerusalem caring for pilgrims — they called the sick 'our lords the sick' — and only later took on a military role. The Templars began as a small band of knights guarding the pilgrim roads, took monastic vows, and were given a rule at the Council of Troyes in 1129. Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood, arguing that a man who killed in this cause was not a homicide but, in his coinage, a malicide — a killer of evil. Both orders grew enormously rich, ran castles, estates and banking networks from the Latin East across Europe, and lost their reason for existing when Acre fell in 1291. The Templars were arrested in France in 1307, made to confess under torture, and suppressed in 1312.",
+   "new": "In the decades after the First Crusade, two kinds of institution fused into something the church had never authorized before. The Hospitallers began as a hospital in Jerusalem caring for pilgrims. They called the sick 'our lords the sick', and only later took on a military role. The Templars began as a small band of knights guarding the pilgrim roads. They took monastic vows and were given a rule at the Council of Troyes in 1129. Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood. He argued that a man who killed in this cause was not a homicide but, in his own coined word, a malicide: a killer of evil. Both orders grew enormously rich. They ran castles, estates and banking networks from the Latin East across Europe, and lost their reason for existing when Acre fell in 1291. The Templars were arrested in France in 1307 and made to confess under torture. In 1312 Pope Clement V abolished their order for ever.",
+   "reason": "'Suppressed in 1312' now names who suppressed the order: Clement V's bull Vox in excelso (Mirbt no. 310) abolishes it 'perpetuo' (new link from the Avignon-era papacy). Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 64.1,
+   "fk_after": 8.0
+  },
+  {
+   "n": 10,
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why",
+   "old": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims, calling the sick 'our lords the sick,' and only later took on a military role, while the Templars began as knights guarding the pilgrim roads and were given a monastic rule at the Council of Troyes in 1129. Bernard of Clairvaux defended the fusion of vows and arms in his In Praise of the New Knighthood, arguing that a knight who killed in this cause was not a homicide but a 'malicide' — a killer of evil. Both orders grew rich running castles, estates and banking networks, and when Acre fell in 1291 the Templars were arrested, tortured into confession, and suppressed by 1312.",
+   "new": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims. They called the sick 'our lords the sick', and only later took on a military role. The Templars began as knights guarding the pilgrim roads and were given a monastic rule at the Council of Troyes in 1129. Bernard of Clairvaux defended this joining of vows and arms in his In Praise of the New Knighthood. He argued that a knight who killed in this cause was not a homicide but a 'malicide', a killer of evil. Both orders grew rich running castles, estates and banking networks. After Acre fell in 1291, the Templars were arrested and tortured into confession. In 1312 Pope Clement V abolished their order.",
+   "reason": "'Suppressed by 1312' now names Clement V, as in the description. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 62.3,
+   "fk_after": 8.2
+  },
+  {
+   "n": 11,
+   "movement": "armenian-cilicia",
+   "field": "legacy",
+   "old": "The Armenian Apostolic Church continues, and this period is a load-bearing part of it: the catholicosate established here still exists as the Catholicosate of Cilicia, now seated at Antelias in Lebanon, one of the two catholicosates of the Armenian church. Shnorhali's hymns and prayers are still sung and prayed, and his long penitential prayer cycle remains one of the most used devotional texts in Armenian. The manuscript illumination produced in Cilicia in these years, Roslin's above all, is among the treasures of medieval art.",
+   "new": "The Armenian Apostolic Church goes on, and this period is a load-bearing part of it. The catholicosate seated here still exists as the Catholicosate of Cilicia. It is now based at Antelias in Lebanon, and it is one of the two catholicosates of the Armenian church. Shnorhali's hymns and prayers are still sung and prayed. His long cycle of prayers of repentance is still one of the most used prayer texts in Armenian. The painted books made in Cilicia in these years, Roslin's above all, are among the great treasures of medieval art.",
+   "reason": "'The catholicosate established here': Kirakos of Gandzak says the patriarchal see was moved to Hromkla from Greater Armenia by way of Sebaste and Dzovk (RHC Doc. arm. I, lines 49388-49390, 49472-49473), so it was seated here, not founded here. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 62.2,
+   "fk_after": 8.5
+  }
+ ],
+ "wants": [
+  "The Byzantine synodal edict of 1054 against the legates (Will, Acta et scripta, 1861, or another public-domain edition), so this break has a primary from the Greek side as well",
+  "William of Tyre, Historia rerum in partibus transmarinis gestarum, in RHC Historiens occidentaux I (1844), for the election of the first Latin patriarchs of Jerusalem and Antioch in his own words (Dulaurier cites Book VI, ch. 23)",
+  "Bernard of Clairvaux, De laude novae militiae (PL 182, Migne 1854, or the Leclercq-Rochais Opera vol. 3), to document Bernard's defense of the Templars and the 'malicide' passage directly; with it this link could be Documented",
+  "Nerses Shnorhali's letters to Manuel I (the Encyclical and letters, Armenian ed. St Petersburg 1788, or a public-domain translation), so the correspondence can be quoted from Nerses's own side",
+  "William of Tyre, Book XV ch. 18, in RHC Historiens occidentaux I (1844), for the Latin council at Jerusalem attended by the Armenian catholicos, from the Latin side",
+  "A text placing Gregory VII's see at Sis after 1293 (e.g. the continuation of Sempad's chronicle, RHC Doc. arm. I from line 67474, read for the move), to show the step from Hromkla to Sis directly",
+  "Michael the Syrian, Chronique, tome 3 (Chabot 1905), the Syriac original's account of Athanasius and Aimery at Antioch; only the Armenian version's extract is vendored",
+  "William of Tyre, Historia, Book XXII ch. 8, in RHC Historiens occidentaux I (1844, public domain), for the Maronite union with the Latin patriarch of Antioch in William's own words",
+  "Innocent III's bull to the Maronite patriarch Jeremiah (1215), in a vendored edition (e.g. Anaissi, Bullarium Maronitarum, 1911, if public domain), to document the union's terms",
+  "The acts of the Fourth Lateran Council (Mansi XXII, not vendored; only Mansi tomes 2-7, 10, 25-27, 31-32, 35 and 46 are), for the patriarch's presence",
+  "Bernard of Clairvaux, De laude novae militiae (PL 182), also for the relationsSummary's 'something the church had never authorized before' (Bernard's 'novum militiae genus')",
+  "The Rule of the Temple in a public-domain edition (Henri de Curzon, La Règle du Temple, 1886), for the Council of Troyes in 1129",
+  "The Hospitallers' Rule of Raymond du Puy in a public-domain edition (e.g. Delaville Le Roulx, Cartulaire général des Hospitaliers, 1894), for 'our lords the sick' and the hospital in Jerusalem",
+  "Lateran IV, canon 68, in a vendored edition (Mansi XXII or another public-domain text), for the dress rule for Jews and Muslims",
+  "A repo-cited source on the Protestant orders of St John and the founding of St John Ambulance, if that legacy line is to be sourced",
+  "A repo-cited modern work on the reception of William of Tyre's history, if the Outremer legacy line is to be sourced",
+  "Michael the Syrian, Chronique, tome 3 (Chabot 1905), for Michael's own dealings with the Latin church of Outremer (would let the Syriac Orthodox side of the crusader states be linked)",
+  "Honorius III's bulls of 1216-1217 confirming the Order of Preachers, in a vendored edition, if the Latin papal text is to name the Dominicans' approval again"
+ ],
+ "escalations": [
+  "For Mark (the open item 'Well-known facts with no vendored source', logged in Open-Gaps in the era-2 pass): five no-entry claims in this group are standard history but have no vendored or repo-cited source. They are Lateran IV's dress rule for Jews and Muslims, the Council of Troyes's rule for the Templars (1129), the Protestant orders of St John and St John Ambulance, the Hospitallers at Rhodes and Malta, and William of Tyre's reception. The brief says to qualify such claims. I left them standing, because 'may have' on a council canon that is well known would mislead readers, and on the dress rule it would soften one of the darker facts the text rightly states. Each is listed in wants. Whether 'qualify' reaches these is the open question; I did not settle it here.",
+  "Not an escalation, for the reviewer's attention: the Outremer text was wrong, not just unsupported, in saying the Greek patriarch of Jerusalem was expelled in 1099. Nothing vendored supports it, and the 1869 editor's note says only that the see went to Daimbert. The fix is one sentence in each of three fields (prose changes 4-6), so it stayed inside the drafting pass and was not escalated.",
+  "Hygiene, not mine to fix: the Latin papal relationsSummary's 'This era's story also carries...' reads as cataloguing language in public text, and 'crusading ransom orders' is a loose label. The Maronite description has a sentence fragment ('Specifically over whether...') and the Cilician description another ('And the Armenian church went with them.'). Flagged for the entry owners."
+ ]
+}

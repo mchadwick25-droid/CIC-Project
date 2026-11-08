@@ -1,0 +1,187 @@
+{
+  "round": 2,
+  "kind": "targeted recheck",
+  "verdict": "revise",
+  "counts": {
+    "blocking": 0,
+    "substantial": 1,
+    "minor": 3
+  },
+  "findings": [
+    {
+      "id": "R2-01",
+      "target": "franciscan-order-era-6--observant-reform-and-popular-preaching (new link, scope) and the-franciscan-movement.relationsSummary",
+      "severity": "substantial",
+      "issue": "This link is not in scope for the era-5 pass. Both ends are era-6 movements (franciscan-order-era-6, 1300-1517; observant-reform-and-popular-preaching, 1368-1517). The launch prompt allows a link to another era only 'when this era's movement is the one whose text names it'. That rule admits links with one end in era 5. It does not admit a link between two movements of a later era. The era-6 order's own summary names 'the Observant wing' as one of its branches, so P2-L6 will inventory this pair. Drawing it now changes the converged plan without a change order. The error started in round 1: R1-07 proposed this exact pair. The link itself is sound. Its two quotes match lines 34646-34648 and 34650-34653, and the reviser was right to drop the preface locus (191-192) as editorial. Would a different pair carry the era-5 claim better? Yes, but not as 'gave rise to'. A the-franciscan-movement --gave rise to--> observant-reform-and-popular-preaching link would be anachronistic: the era-5 movement ends in 1300, the Observance starts at Brugliano in 1368, and no named person passes from one to the other. 'Influenced' on that pair is Documented in the same vendored volume, because the later side names the earlier side's work, the Rule of Francis. Eugenius IV's letter of 28 August 1440 (no. 485) speaks of friars Minor at a hermitage in the diocese of Astorga living 'sub observantia regulae beati Francisci'. The era-5 sentence then needs to say what that link shows. 'Grew up later inside the same order' is a claim about the era-6 order, and the era-6 order's own text already carries it.",
+      "evidence": "Launch prompt, Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Phase2_Links_Era_Launch_2026-11-07.md:22-23. Census: franciscan-order-era-6 era 6, 1300-1517, relationsSummary '...the Fraticelli and the Observant wing are its two named branches'; observant-reform-and-popular-preaching era 6, 1368-1517, longDescription 'It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368, and spread across the Franciscans, Dominicans, Augustinians and Benedictines alike'; the-franciscan-movement era 5, 1209-1300. cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt:34628-34630 (no. 385 heading, 'Confirmat litteras Guillelmi de Casali'), 34646-34653; 42597-42602 (no. 485, 28 August 1440; the heading 'in domum O. F. M. de observantia' is the editor's and is not used); 42614-42616 ('in quo plures ex fratribus Minoribus sub observan- tia regulae beati Francisci degunt pro praesenti,').",
+      "fix": "Option (a), recommended. (1) Remove franciscan-order-era-6--observant-reform-and-popular-preaching from edges. It is new in this pass and not on main, so it needs no retiredLinks entry. Log its sources and note in for_open_gaps for P2-L6: 'Franciscan order and the Observants (2026-11-08): the 1438 confirmation of Bernardino of Siena as vicar of the Observant houses, Bullarium Franciscanum NS I no. 385, lines 34646-34653, documents franciscan-order-era-6 gave rise to observant-reform-and-popular-preaching. Drafted in P2-L5, held for P2-L6.' (2) Add a new link: from 'the-franciscan-movement', to 'observant-reform-and-popular-preaching', type 'influenced', confidence 'Documented', citation_specificity 'A', verification_state 'verified-direct'. Sources: primary, work 'Eugenius IV, letter to the abbot of Santa María de Carracedo, Florence, 28 August 1440, on the hermitage at Caboca de Alva, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 485', file 'cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt', lines '42614-42616', locus 'no. 485', quote 'in quo plures ex fratribus Minoribus sub observan- tia regulae beati Francisci degunt pro praesenti,', license 'public-domain'; primary, the existing no. 385 entry at lines 34650-34653 with its existing quote. Note: 'In 1440 Pope Eugenius IV wrote of a hermitage in Spain where Franciscan friars lived. He said they lived under the observance of the Rule of blessed Francis. In 1438 he had confirmed Bernardino of Siena as head of the order's Observant houses in Italy. That letter says the houses were set up 'under the holy name of observance'.' (Reading Ease 60.3, FK 8.4; sentences of 15, 13, 17 and 14 words.) (3) In the-franciscan-movement.relationsSummary, replace 'The Observants grew up later inside the same order.' with 'Later the Observants kept its rule to the letter.' (Field Reading Ease 64.1.) Point that sentence's disposition at the new link id. Option (b): keep the era-6 link only if Mark rules it a change order to the launch prompt's scope. Then log it for P2-L6 to count as an existing link, and apply R2-02's change to its note."
+    },
+    {
+      "id": "R2-02",
+      "target": "'No text we hold' and 'We do not hold' in this pass's public text (notes and prose changed this round, plus the same wording in unchanged era-5 notes and prose)",
+      "severity": "minor",
+      "issue": "These phrases describe the project's library, not the evidence. The era-3 review (R1-14, R2-05, R3) ruled them internal language, and Open-Gaps 40 logs the same fault in an era-2 note. Round 1 missed them and itself proposed this wording in R1-01, R1-03, R1-05, R1-06 and R1-17. The revision kept that wording and added one more in the new Observant note. The era-3 cure ('No source from the time...') would be wrong for several of these. For Serbian and Bulgarian hesychasm, for the Fetha Nagast and for the Kyivan chronicle, sources of the time do exist; they are only not vendored. To say none exists would be a new false claim. So each replacement below says what the cited source does or does not show, or that the source behind it is not quoted. None of them claims that no source exists. One fix applied once is the root-cause fix, so the unchanged era-5 instances are listed too.",
+      "evidence": "Build/Ministry/Operations/Audits/2026-11-07_links-era-3/Opus_Review_Round1.json R1-14; Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md item 40; Drafting_Brief.md 'No internal language ... no build or cataloguing commentary'. Census notes and fields listed in fix.",
+      "fix": "Replace each old string with the new one. Changed this round: (1) the-dominican-order--the-carmelites note: 'No text we hold says the Dominicans shaped the order, so this tie is thin.' -> 'Neither letter says that the Dominicans shaped the order. So this tie is thin.' (63.5). (2) byzantine-church-after-1054--latin-papal-church-gregorian--2 note: 'No text we hold shows how the Greek church received the union.' -> 'The profession does not show how the Greek church received the union.' (75.9). (3) athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240 note: 'No earlier text we hold tells the story.' -> 'It names no earlier witness for the story.' (62.2; the revision's own check of Mouravieff 1555-1563 found no earlier witness named). (4) latin-church-of-outremer--maronite-christianity note: 'We do not hold his history, so this rests on modern historians of the Maronites.' -> 'This rests on modern historians of the Maronites, not on his own text.' (65.9). (5) serbian-and-bulgarian-medieval-monasticism.relationsSummary: 'but no text we hold yet shows it.' -> 'but no source here shows it.' (62.6, FK 9.7). (6) coptic-christianity-fatimid-to-mamluk.legacy: 'may owe a debt to al-Safi's canons. No text we hold yet shows that line.' -> 'may owe a debt to al-Safi's canons. No source quoted here shows that line.' (71.2). (7) franciscan-order-era-6--observant-reform-and-popular-preaching note, only if R2-01 option (b) is taken: 'No text we hold shows how their first houses began.' -> 'The letter does not say how their first houses began.' (64.7). Same wording, unchanged this round: (8) early-benedictine-italian-monasticism--cistercian-monasticism: 'No early Cistercian text we hold says so in their own words.' -> 'No early Cistercian text quoted here says so in their own words.' (70.7). (9) iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism: 'But no text we hold shows the monks of Athos drawing on the monks who fought for icons.' -> 'But no source quoted here shows the monks of Athos drawing on the monks who fought for icons.' (60.6). (10) byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism: 'That is the only text we hold on the emperor's part in the founding. It is late and secondhand.' -> 'This rests on that one late report. It is secondhand.' (63.5). (11) cistercian-monasticism--military-religious-orders-templars-hospitallers: 'We do not hold the text itself, so this rests on the modern history of the order.' -> 'This rests on the modern history of the order, not on Bernard's own text.' (76.6). (12) latin-papal-church-gregorian--maronite-christianity: 'We do not hold the bull or the council's acts, so this rests on modern historians of the Maronites.' -> 'This rests on modern historians of the Maronites, not on the bull or the council's acts.' (69.8). (13) iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240: 'We do not yet hold the Kyivan texts it draws on.' -> 'The Kyiv texts it draws on are not quoted here.' (61.3). (14) kievan-rus-christianity--kievan-rus-christianity-1054-1240: 'We do not yet hold the Kyivan chronicle behind this account.' -> 'It draws on a Kyivan chronicle not quoted here.' (61.2). (15) serbian-and-bulgarian-medieval-monasticism.longDescription: 'No text we hold yet traces that road.' -> 'No source quoted here traces that road.' (61.3). (16) its why: 'though no text we hold yet shows it.' -> 'though no source quoted here shows it.' (61.1). (17) its legacy: 'No text we hold yet traces the route.' -> 'No source quoted here shows the way it went.' (60.5). Scores are Reading Ease for the whole field after the change; no sentence in any of them is over 25 words."
+    },
+    {
+      "id": "R2-03",
+      "target": "the-waldensians.relationsSummary (prose change 7, R1-16)",
+      "severity": "minor",
+      "issue": "The new summary reads 'They held on in the Alpine valleys, and in 1532 they joined the Reformed churches.' The two 'they's make the dissenters of 1184 and the Waldensians of 1532 one body, which is the disputed point. The link that carries the 1532 step (waldensians-in-the-alps--the-waldensian-reformed-union) is graded Contested, and the entry's own longDescription and why both say scholars disagree about how unbroken the line was. The reviser rightly avoided 'survived', but the sentence still states the contested continuity as settled. Round 1's own example ('who survived in the Alps and joined') had the same fault.",
+      "evidence": "Census the-waldensians.relationsSummary, .longDescription ('though scholars disagree about how unbroken it was'), .why; link waldensians-in-the-alps--the-waldensian-reformed-union (continued as, Contested); link the-waldensians--waldensians-in-the-alps (continued as, Widely Accepted).",
+      "fix": "Replace the field with: 'Dissenters condemned in 1184. They held on in the Alpine valleys. In 1532 the Waldensians there joined the Reformed churches. Scholars disagree about how far it was one unbroken line.' (Reading Ease 63.8, FK 6.1.)"
+    },
+    {
+      "id": "R2-04",
+      "target": "Revision_Round1.json for_open_gaps, last item (dispositions)",
+      "severity": "minor",
+      "issue": "The item asks for the three byzantine-church-after-1054 dispositions to be repointed from the dropped --2 link. That is already done in this same commit: Drafting_Record.json now cites latin-papal-church-gregorian--byzantine-church-after-1054 at all three, and its merge notes record the change. The R1-04 'why' also says the record still needs the change. If the item is copied into Open-Gaps, it logs a gap that does not exist.",
+      "evidence": "git diff 6df4f63e HEAD -- Drafting_Record.json (three link_id changes and a new merge note); grep finds no '--2' id for that pair left in the record outside the merge note.",
+      "fix": "Drop the last for_open_gaps item. Do not carry it into Open-Gaps."
+    }
+  ],
+  "rechecked": [
+    {
+      "finding": "R1-01",
+      "status": "fixed",
+      "note": "Inferential-Thin, A, verified-direct in the census. Innocent IV's salutation (21980-21983, 'hermits of blessed Mary of Mount Carmel') is added as primary, and both delegates' quotes match 22021-22026. Zimmerman (21996-22002) says only 'both Dominicans', sent by the pope. Joining the two hermits/friars sentences is fine. The last sentence needs R2-02 (1)."
+    },
+    {
+      "finding": "R1-02",
+      "status": "fixed (departure accepted)",
+      "note": "The departure is stronger than my proposal, and it holds. The year-771 entry (heading 72263, 31 Dec 1321 - 30 Dec 1322) gives the death of Constantin of Caesarea, catholicos, at 72319. At 72320-72321 it gives the choice of 'Constantin [III] de Lampron, évêque de Sis', 'par ordre du roi Léon et de la majorité des évêques'. Dulaurier's preliminary note (67704-67705) dates the continuator from 1286 to 1331. It says Dulaurier's own insertions are bracketed (67712-67725), and this passage is not, apart from '[III]'. So a primary shows the see on the far side of 1300, which is the era-1 bar, and Documented stands. The note matches its sources. Leaving out 71499 was right."
+    },
+    {
+      "finding": "R1-03",
+      "status": "fixed",
+      "note": "Widely Accepted. The heading ('Professio fidei Michaelis Palaeologi', 14504) and Bannwart's note (14515-14517: 'anno 1267 a CLEMENTE IV Michaeli Palaeologo proposita et ab hoc in Concilio LUGDUN. II GREGORIO X oblata est') are now one secondary. Moving the heading too was correct. The profession quote (14629-14632) and Vatican I (Schaff 23524-23530) match. The new note credits the editor. Changing 'refused' to 'received' leaves the note neutral. The movement prose's refusal sentences rest, as the drafter disposed them, on Open-Gaps 24 with Pachymeres and Gregoras in wants, so there is no new conflict. The last sentence needs R2-02 (2)."
+    },
+    {
+      "finding": "R1-04",
+      "status": "fixed",
+      "note": "The --2 link is gone from edges. Its two Theiner letters (7329-7330, 'nuper ad apostolice sedis redierit unitatem'; 7698-7699, the Latin patriarch of Constantinople) and Mouravieff are on the 1054 link, which stays Documented on Mirbt 9952-9954 and 9987-9988. The whole-note rewrite reads at 63.1, and 'cast ... out of the church' is accurate for the excommunication. The reviser's view of the type is acceptable: the 1205 letter acts on 'ipsa Constantinopolitana ecclesia' by name, and the note says what Innocent did without calling it hostile. The three dispositions are repointed (see R2-04)."
+    },
+    {
+      "finding": "R1-05",
+      "status": "fixed",
+      "note": "The Athos origin is now claimed for Serbian monastic life only. 'The monasteries of Mount Athos' is a fair improvement. The hesychast sentence needs R2-02 (5)."
+    },
+    {
+      "finding": "R1-06",
+      "status": "partly fixed",
+      "note": "The build narration and the unsourced 'usually traced' are gone. The departure, 'may owe a debt' in place of 'is said to draw on', is right: it does not report an unnamed consensus. But the reason sentence 'No text we hold yet shows that line' is the same kind of library talk. See R2-02 (6)."
+    },
+    {
+      "finding": "R1-07",
+      "status": "superseded by R2-01",
+      "note": "The departure on the locus is right. Huntemann's preface (185-195) is editorial, and the reviser cites it as secondary. The papal letter (34646-34653) is the better primary. The departure on the summary wording is also right: my 'is part of its own story' was the very phrase R1-16 asked to remove. But the pair I proposed is outside the launch prompt's scope. See R2-01."
+    },
+    {
+      "finding": "R1-08",
+      "status": "fixed",
+      "note": "Both links are Dominant Modern Reconstruction. The Kyiv note's 28-word sentence is split, and no sentence in it is over 25 words. The Georgian note is unchanged at Reading Ease 60.0, which meets the floor. The Kyiv note's last sentence needs R2-02 (3)."
+    },
+    {
+      "finding": "R1-09",
+      "status": "fixed",
+      "note": "'Perhaps heir ..., though the tie is thin' is in the census (85.0)."
+    },
+    {
+      "finding": "R1-10",
+      "status": "fixed (departure accepted)",
+      "note": "Assemani is secondary. Documented rests on Sliba (Gismondi 11219-11221, 11225). Assemani 93984-93996 cites 'Ebedje[su]' and gives Timothy II, February 1318. The existing note already says 'The scholar Assemani, writing in 1725', so a reword was not needed."
+    },
+    {
+      "finding": "R1-11",
+      "status": "fixed",
+      "note": "'At fifteen' matches 5538-5539 ('when the boy had completed the fifteenth year of his age'). Budge's introduction backs 'written down after the saint's time' (3015-3031: Gabra Maskal's work lost, then rebuilt by Kama) and 'some of its dates do not fit' (2971-2981: the Benjamin synchronism gives a seventh-century birth). Budge is rightly a secondary. 82.5."
+    },
+    {
+      "finding": "R1-12",
+      "status": "fixed (departure accepted)",
+      "note": "'Written down after his time' is the honest form of what the vendored text shows: it records Cyril's death (35415-35416), and the vendored volumes lack Budge's dating introduction. 'With a query' matches 35445-35447, 'sAwiROS (severus ?)'. 68.5."
+    },
+    {
+      "finding": "R1-13",
+      "status": "fixed",
+      "note": "'probably in Gascony'. 64.7."
+    },
+    {
+      "finding": "R1-14",
+      "status": "fixed (departure accepted)",
+      "note": "Foxe 38608-38616: the doubt ('which seemeth not to be true') falls on the two orders said to be approved in their place, because Lucius was twenty years before Innocent III. The reviser's sentence names that part, which is more exact than my wording. 67.8."
+    },
+    {
+      "finding": "R1-15",
+      "status": "fixed",
+      "note": "Both the-humiliati fields say 'around 1200'. Giussano 12177-12178 gives 1200."
+    },
+    {
+      "finding": "R1-16",
+      "status": "fixed, except the Waldensian summary (R2-03)",
+      "note": "The departure, rewriting whole paragraphs instead of only joining fragments, was needed: the joined fields would have stayed below 60. I compared each rewrite with its old text. Every fact is kept, and no relationship claim is added. The Athonite emperor clause is now 'Later accounts say a Byzantine emperor backed him', which matches the Inferential-Thin link. 'The perfect' is now explained before it is used. The beguine summary's 'Church leaders suspected it' rests on the entry's own 'they drew suspicion'. All rewritten fields score 60.7 to 69.2, and no sentence is over 25 words. The Waldensian summary states a Contested continuity as settled (R2-03)."
+    },
+    {
+      "finding": "R1-17",
+      "status": "fixed as proposed; wording still internal",
+      "note": "'this link rests on' is gone. The rest of the sentence, which round 1 proposed, still says 'We do not hold his history'. See R2-02 (4)."
+    },
+    {
+      "finding": "R1-18",
+      "status": "fixed",
+      "note": "'among them belief in two natures in Christ and honor for the fourth council' matches 46197-46198. 65.5."
+    },
+    {
+      "finding": "R1-19",
+      "status": "fixed",
+      "note": "68.8."
+    },
+    {
+      "finding": "R1-20",
+      "status": "fixed",
+      "note": "The note now opens with the claim. No fact is added. 64.8."
+    },
+    {
+      "finding": "R1-21",
+      "status": "fixed",
+      "note": "Joachimite 68.7, papacy 79.3. No sentence is over 25 words."
+    },
+    {
+      "finding": "TW-1 (Observants)",
+      "status": "superseded by R2-01",
+      "note": "The gap is closed by a link outside this era's scope. R2-01 option (a) closes it inside scope."
+    },
+    {
+      "finding": "TW-2 (Dominicans and Carmelites)",
+      "status": "fixed",
+      "note": "The note says why the link stands alone. Leaving both movements' summaries silent on a thin tie is right."
+    },
+    {
+      "finding": "TW-3 (Lavra and the emperor)",
+      "status": "fixed",
+      "note": "'Later accounts say a Byzantine emperor backed him.'"
+    },
+    {
+      "finding": "TW-4 (Cluny and the Cistercians)",
+      "status": "logged",
+      "note": "It is in for_open_gaps for the era-4 owner."
+    },
+    {
+      "finding": "TW-5 (reverse check)",
+      "status": "fixed",
+      "note": "The --2 dispositions are repointed. The new link is named in the Franciscan summary. Under R2-01 (a), the summary's disposition moves to the new link id."
+    }
+  ],
+  "checked": {
+    "method": "I diffed cic-website/data/world-census.json at HEAD (0eb42483) against the round-1 commit (6df4f63e). 17 edges changed, 1 was removed (the --2 link) and 1 was added (the Observant link). 14 movements changed, in relationsSummary, longDescription, why and legacy only. Every revision link matches the census field for field (from, to, type, confidence, note, citation_specificity, verification_state, number of sources). Every prose change's new text is present and its old text is gone. node tools/validate-census.mjs --base main: 0 errors, 2 warnings (shortName length, outside this era).",
+    "sources_read": "rhc-armeniens t1 55151-55184, 63488-63521, 67470-67480, 67700-67728, 72255-72325; denzinger 14500-14520, 14625-14634; schaff creeds v2 23520-23531; theiner 7300-7332, 7680-7700; mouravieff 2348-2356; bullarium-franciscanum NS1 1-12, 185-195, 34600-34675, 41880-41895, 42596-42665 (with a grep for 'regula beati Francisci' and 'observan'); teresa foundations 21976-22027; foxe v4 38604-38616; gadla-takla-haymanot 2968-2982, 3015-3032, 5534-5544; ethiopian synaxarium 35410-35448; assemani BO III.1 93984-93996. I also grepped cic/texts for a vendored witness to the refusal of Lyon (Pachymeres, Gregoras, Bekkos) and found none in Byzantine narrative form.",
+    "prose": "I scored every changed note and field with engine.m7.turn_readability.score_turn. All are at Reading Ease 60 or above, the lowest being 60.0 (the unchanged Georgian note on a regraded link). No sentence in them is over 25 words. Every replacement text in this file scores 60 or above, with FK at 10 or below.",
+    "internal_language": "I grepped every era-5 note and field for 'we hold', 'we do not hold', 'we have not', map, catalog, census, entry, story and record. 'We hold' forms are R2-02. The beguine longDescription ('on any map of medieval Christianity') and the Athonite legacy ('the whole map of Christian history') use 'map' figuratively, are unchanged, and are not flagged.",
+    "precedent": "On 'No text we hold' as internal language: era-3 Opus_Review_Round1 R1-14 (minor), its round-2 and round-3 rechecks, and Open-Gaps 40."
+  },
+  "noted_outside_scope": [
+    "Some census source lists show the same secondary more than once, because the line-level entries in the drafting record collapse to one work string: athonite--kievan-rus (Mouravieff, twice), joachimite--franciscan-movement (Lea and Denifle, twice each), georgian-revival--georgian-golden-age (Brosset, four times). It is a display defect, mechanical, and outside this recheck. It should be de-duplicated at the next apply.",
+    "observant-reform-and-popular-preaching.relationsSummary (era 6) carries build language ('A merge/split test vs. the mendicant traditions, in the Phase One record's own style ... process honesty'). It is for P2-L6."
+  ]
+}

@@ -1,0 +1,2136 @@
+{
+  "era": 5,
+  "date": "2026-11-07",
+  "movements": [
+    {
+      "id": "cistercian-monasticism",
+      "name": "Cistercian Monasticism",
+      "dates": "1098-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Reform child of Cluny; shapes later mysticism",
+          "other": "Cluny (Cluniac reform)",
+          "other_id": "cluniac-reform-monasticism",
+          "claim": "descent: presented as a reform child of Cluny."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Reform child of Cluny; shapes later mysticism",
+          "other": "Later Western mysticism",
+          "other_id": "rhineland-mysticism-and-the-friends-of-god",
+          "claim": "influenced: shapes later mysticism.",
+          "match_note": "Generic 'later mysticism'; Rhineland mysticism is the nearest census entry, not named in the text."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme because they thought Benedictine life had grown too comfortable — Cluny and the other rich houses above all.",
+          "other": "Abbey of Molesme",
+          "other_id": null,
+          "claim": "contrast/origin: the founders left Molesme.",
+          "match_note": "No census entry for Molesme."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme because they thought Benedictine life had grown too comfortable — Cluny and the other rich houses above all.",
+          "other": "Cluny and the other rich Benedictine houses",
+          "other_id": "cluniac-reform-monasticism",
+          "claim": "contrast: reformers rejected the comfort of Cluny and the rich houses."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And settled in a marshy clearing called Cîteaux to keep the Rule of St Benedict as plainly as they could: bare churches, simple food, no elaborate liturgy, and their own hands in the fields.",
+          "other": "Benedictine life (Rule of St Benedict)",
+          "other_id": "early-benedictine-italian-monasticism",
+          "claim": "contrast/continuation: keep the Benedictine Rule more plainly than the Benedictine houses around them.",
+          "match_note": "Benedictine tradition; census entry is the early Benedictine/Italian record."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1098 a group of monks left Cluny's own tradition behind, walking out of the abbey of Molesme to keep the Rule of St Benedict plainly at Cîteaux: bare churches, manual labor, and no elaborate liturgy.",
+          "other": "Cluny's own tradition (Cluniac reform)",
+          "other_id": "cluniac-reform-monasticism",
+          "claim": "contrast: break away from Cluny's tradition."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1098 a group of monks left Cluny's own tradition behind, walking out of the abbey of Molesme to keep the Rule of St Benedict plainly at Cîteaux: bare churches, manual labor, and no elaborate liturgy.",
+          "other": "Benedictine life (Rule of St Benedict)",
+          "other_id": "early-benedictine-italian-monasticism",
+          "claim": "contrast/continuation: keep the Benedictine Rule more plainly.",
+          "match_note": "Benedictine tradition; nearest census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The order is still here: Cistercian and Trappist houses keep the same rule today.",
+          "other": "Trappist houses",
+          "other_id": null,
+          "claim": "continuation: Trappist houses keep the same rule today.",
+          "match_note": "Trappists are not a census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Bernard's sermons on the Song of Songs and Aelred's Spiritual Friendship shaped nearly every later Western tradition of contemplative prayer and warm, affectionate devotion.",
+          "other": "Later Western tradition of contemplative prayer",
+          "other_id": null,
+          "claim": "influenced: shaped later contemplative prayer and devotion.",
+          "match_note": "Generic tradition; no single census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "carthusian-life",
+      "name": "Carthusian Life",
+      "dates": "1084 onward",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The desert revived inside the Latin West",
+          "other": "Desert monasticism (desert fathers and mothers)",
+          "other_id": "desert-monasticism",
+          "claim": "continuation: presented as a revival of the desert life inside the Latin West."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "canons-regular-victorine-school",
+      "name": "Canons Regular / Victorine School",
+      "dates": "1108-1246",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+          "other": "Monastic cloister and the schools",
+          "other_id": null,
+          "claim": "contrast/bridge: links the cloister with the schools (generic).",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+          "other": "Premonstratensians (Norbert's reformed canons)",
+          "other_id": null,
+          "claim": "contains/related: Premonstratensians ride inside this canons-regular family's story.",
+          "match_note": "No census entry for the Premonstratensians."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Canons regular were clergy who lived in community under a rule — usually the Rule of St Augustine.",
+          "other": "Rule of St Augustine (Augustinian canons)",
+          "other_id": null,
+          "claim": "descent: canons regular usually lived under the Rule of St Augustine.",
+          "match_note": "Rule, not a census movement."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The abbey is gone, but the way of life is not: canons regular still exist, and Norbert's Premonstratensians remain an order today.",
+          "other": "Premonstratensians (Norbert's reformed canons)",
+          "other_id": null,
+          "claim": "continuation: the Premonstratensians remain an order today.",
+          "match_note": "No census entry for the Premonstratensians."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-franciscan-movement",
+      "name": "The Franciscan Movement",
+      "dates": "1209-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Dominicans; parent of Observants and Spirituals; its lay third order (Order of Penance, 1221) rides inside its own story",
+          "other": "Dominicans",
+          "other_id": "the-dominican-order",
+          "claim": "contrast/rivalry: sibling-rival of the Dominicans."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Dominicans; parent of Observants and Spirituals; its lay third order (Order of Penance, 1221) rides inside its own story",
+          "other": "Observants",
+          "other_id": "observant-reform-and-popular-preaching",
+          "claim": "descent: parent of the Observant reform."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Dominicans; parent of Observants and Spirituals; its lay third order (Order of Penance, 1221) rides inside its own story",
+          "other": "Spirituals",
+          "other_id": "franciscan-order-era-6",
+          "claim": "descent: parent of the Spirituals.",
+          "match_note": "Spirituals are covered by the era-6 Franciscan order record; text names only 'Spirituals'."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Dominicans; parent of Observants and Spirituals; its lay third order (Order of Penance, 1221) rides inside its own story",
+          "other": "Franciscan lay third order (Order of Penance)",
+          "other_id": null,
+          "claim": "membership: has a lay third order.",
+          "match_note": "No census entry for the third order."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By 1209 others had joined him and Pope Innocent III gave the group verbal approval.",
+          "other": "Papacy under Innocent III",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contact/approval: Innocent III gave verbal approval to the group."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Clare of Assisi built the movement's women's branch and wrote her own Form of Life, the first monastic rule known to have been composed by a woman, and a third order let married lay people live a version of the same discipline without leaving ordinary life.",
+          "other": "Clare's women's branch (Poor Clares)",
+          "other_id": null,
+          "claim": "membership: the movement's women's branch.",
+          "match_note": "No census entry; Poor Clares not named in the text."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What made the movement new was that it did not withdraw behind walls — the friars owned nothing, begged, worked, and preached in the streets of the fast-growing commercial towns.",
+          "other": "Monastic withdrawal behind walls",
+          "other_id": null,
+          "claim": "contrast: did not withdraw behind monastery walls.",
+          "match_note": "Generic monasticism; no single census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Clare of Assisi built the movement's women's branch and wrote her own Form of Life, the first monastic rule known to have been composed by a woman, and a third order let married lay people live a version of the same discipline without leaving ordinary life.",
+          "other": "Franciscan lay third order",
+          "other_id": null,
+          "claim": "membership: a third order for married lay people.",
+          "match_note": "No census entry for the third order."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A fight that eventually split it into Spirituals and Conventuals, and that also produced repeated rewritings of his own life story, by his own brothers, within living memory of him.",
+          "other": "Spirituals",
+          "other_id": "franciscan-order-era-6",
+          "claim": "descent/split: the order split into Spirituals and Conventuals.",
+          "match_note": "Spirituals covered by the era-6 Franciscan order record."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A fight that eventually split it into Spirituals and Conventuals, and that also produced repeated rewritings of his own life story, by his own brothers, within living memory of him.",
+          "other": "Conventuals",
+          "other_id": null,
+          "claim": "descent/split: the order split into Conventuals.",
+          "match_note": "No census entry for the Conventuals."
+        },
+        {
+          "field": "why",
+          "sentence": "Clare of Assisi built the movement's women's branch and wrote the first monastic rule known to have been composed by a woman.",
+          "other": "Clare's women's branch (Poor Clares)",
+          "other_id": null,
+          "claim": "membership: the movement's women's branch.",
+          "match_note": "No census entry; Poor Clares not named in the text."
+        },
+        {
+          "field": "why",
+          "sentence": "Francis of Assisi gave away a merchant's inheritance to preach and care for lepers in the streets of Italy's fast-growing towns, and by 1209 the friars who joined him owned nothing, begged, and worked rather than withdrawing behind monastery walls.",
+          "other": "Monastic withdrawal behind walls",
+          "other_id": null,
+          "claim": "contrast: friars did not withdraw behind monastery walls.",
+          "match_note": "Generic monasticism; no single census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Franciscans are still one of the largest religious families in the world, in several branches, with a lay third order alongside them.",
+          "other": "Franciscan lay third order",
+          "other_id": null,
+          "claim": "membership: a lay third order alongside the branches.",
+          "match_note": "No census entry for the third order."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-dominican-order",
+      "name": "The Dominican Order",
+      "dates": "1216-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Franciscans; parent of the German convent-mysticism tradition",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "contrast/rivalry: sibling-rival of the Franciscans."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling-rival of the Franciscans; parent of the German convent-mysticism tradition",
+          "other": "German convent mysticism",
+          "other_id": "rhineland-mysticism-and-the-friends-of-god",
+          "claim": "descent: parent of the German convent-mysticism tradition.",
+          "match_note": "Nearest census entry for German convent mysticism."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Dominic de Guzmán was a Spanish cathedral canon who, traveling through Languedoc, concluded that the church was losing the argument with dissenters because its own preachers arrived on horseback with baggage while their opponents walked and fasted.",
+          "other": "Dissenters (unnamed)",
+          "other_id": null,
+          "claim": "contrast/opposition: the church was losing its argument with dissenters.",
+          "match_note": "Dissenters are not named in the text; the Cathars are a possible referent but the text does not say so."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Approved in 1216, the Order of Preachers wrote itself a constitution of unusual sophistication — elected superiors, representative chapters, and a clause stating that the rule did not bind under sin, so that it could never get in the way of study — and planted itself immediately in the new universities at Paris and Bologna.",
+          "other": "Universities of Paris and Bologna",
+          "other_id": null,
+          "claim": "contact: planted itself in the universities of Paris and Bologna.",
+          "match_note": "Universities are not a census entry type."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Its convents of women, in the German lands especially, became one of the very few settings in medieval Europe where women wrote theology and were read.",
+          "other": "Dominican convents of women",
+          "other_id": null,
+          "claim": "membership: convents of women, especially in the German lands.",
+          "match_note": "No census entry; part of the order."
+        },
+        {
+          "field": "why",
+          "sentence": "Dominic de Guzmán, a Spanish cathedral canon, concluded that the church was losing arguments with dissenters because its preachers traveled with baggage while their opponents walked and fasted — so he built an order backwards from that single purpose: friars trained in theology, poor and mobile, planted immediately in the new universities at Paris and Bologna.",
+          "other": "Universities of Paris and Bologna",
+          "other_id": null,
+          "claim": "contact: planted in the universities of Paris and Bologna.",
+          "match_note": "Universities are not a census entry type."
+        },
+        {
+          "field": "why",
+          "sentence": "The order's convents of women, especially in the German lands, became one of the few places in medieval Europe where women wrote theology and were read.",
+          "other": "Dominican convents of women",
+          "other_id": null,
+          "claim": "membership: convents of women, especially in the German lands.",
+          "match_note": "No census entry; part of the order."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Their German convents fed the mystical writing associated with Meister Eckhart, Johannes Tauler and Henry Suso.",
+          "other": "German convent mysticism",
+          "other_id": "rhineland-mysticism-and-the-friends-of-god",
+          "claim": "influenced: German convents fed the mystical writing of Eckhart, Tauler and Suso.",
+          "match_note": "Nearest census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The order also supplied the church with much of its inquisitorial personnel, which belongs to the same inheritance and is not separable from it.",
+          "other": "Inquisition",
+          "other_id": null,
+          "claim": "membership/contact: supplied much of the inquisitorial personnel.",
+          "match_note": "Inquisition is an institution, not a census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The rosary's spread through Europe was carried largely by Dominicans, though the traditional story that Dominic himself received it is legend rather than history.",
+          "other": "Rosary devotion",
+          "other_id": null,
+          "claim": "influenced: carried the rosary's spread through Europe; the origin story is legend.",
+          "match_note": "Devotional practice, not a census movement."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism",
+      "name": "Athonite & Comnenian Byzantine Monasticism",
+      "dates": "c. 963-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Heir of the iconophile tradition; parent of hesychasm",
+          "other": "Iconophile Byzantine monasticism",
+          "other_id": "iconophile-byzantine-monasticism",
+          "claim": "descent: heir of the iconophile tradition."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Heir of the iconophile tradition; parent of hesychasm",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced/descent: parent of hesychasm."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+          "other": "Constantinopolitan monasteries (the capital's monasteries)",
+          "other_id": null,
+          "claim": "contact: Athonite and capital monasteries together carried interior prayer.",
+          "match_note": "No census entry for the capital's monasteries as a group."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: carried disciplines the next century named hesychasm."
+        },
+        {
+          "field": "why",
+          "sentence": "Between them, these houses shaped the disciplines of interior prayer that the next century would gather up and name hesychasm.",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: shaped disciplines of interior prayer later named hesychasm."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The prayer practices formed here fed directly into hesychasm and the Palamite theology of the next century, and from there into the whole later devotional life of Orthodoxy — the Jesus Prayer, and eventually the Philokalia.",
+          "other": "Hesychasm and Palamite theology",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: prayer practices fed directly into hesychasm and Palamism."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The prayer practices formed here fed directly into hesychasm and the Palamite theology of the next century, and from there into the whole later devotional life of Orthodoxy — the Jesus Prayer, and eventually the Philokalia.",
+          "other": "Philokalia",
+          "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+          "claim": "influenced: the later devotional life led to the Philokalia.",
+          "match_note": "Philokalia revival is the era-8 record; the text names the Philokalia only."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+          "other": "Georgian founders (Tao-Klarjeti, Athos)",
+          "other_id": "georgian-revival-tao-klarjeti",
+          "claim": "influenced: Georgian founders adapted Athonite typika."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+          "other": "Serbian and Bulgarian founders",
+          "other_id": "serbian-and-bulgarian-medieval-monasticism",
+          "claim": "influenced: Serbian and Bulgarian founders adapted Athonite typika."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+          "other": "Russian founders",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "influenced: Russian founders adapted Athonite typika.",
+          "match_note": "Russian monastic founders; nearest census entry is the Muscovite monastic record."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-beguines",
+      "name": "The Beguines",
+      "dates": "c. 1190-1310",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Lay women's movement outside every standard structure; suppression pressure is part of its own story",
+          "other": "Religious orders (standard structures)",
+          "other_id": null,
+          "claim": "contrast: lived outside every standard religious structure.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "From the late twelfth century, women in the towns of the Low Countries and the Rhineland began living religious lives without joining any order: no lifelong vows, no rule, no enclosure.",
+          "other": "Religious orders",
+          "other_id": null,
+          "claim": "contrast: did not join any order; no vows, no rule.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Because they fitted no category, they attracted suspicion: Porete was burned in Paris in 1310, and in 1312 the Council of Vienne moved against the beguine life itself.",
+          "other": "Council of Vienne (1312)",
+          "other_id": null,
+          "claim": "opposition: in 1312 the Council of Vienne moved against the beguine life.",
+          "match_note": "Council of Vienne is a council-backed body without a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "Porete was burned in Paris in 1310, and two years later the Council of Vienne moved against the beguine life itself.",
+          "other": "Council of Vienne (1312)",
+          "other_id": null,
+          "claim": "opposition: moved against the beguine life.",
+          "match_note": "Council of Vienne is a council-backed body without a census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-waldensians",
+      "name": "The Waldensians",
+      "dates": "c. 1173 onward",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The map's clearest 'dissent that survived' thread - joins the Reformed tradition in 1532",
+          "other": "Reformed tradition",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "descent/joining: joins the Reformed tradition in 1532.",
+          "match_note": "Reformed tradition; nearest census entry is the Reformed cities record."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What he would not do was stop preaching without a license, and in 1184 the bull Ad abolendam condemned him and his followers for exactly that.",
+          "other": "Papacy (bull Ad abolendam, 1184)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: condemned by the papal bull Ad abolendam in 1184."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1532 its representatives met the Reformers at Chanforan and threw in with the Reformed tradition.",
+          "other": "Reformers at Chanforan (Reformed tradition)",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "contact/joining: met the Reformers at Chanforan and joined the Reformed tradition.",
+          "match_note": "Reformers not named; nearest census entry is the Reformed cities record."
+        },
+        {
+          "field": "why",
+          "sentence": "Around 1173 a rich merchant of Lyon named Valdes gave away his property, had Scripture translated into the language people actually spoke, and began preaching in the streets — his confession of faith was entirely orthodox, and he was condemned in 1184 only for preaching without a license.",
+          "other": "Papacy (condemnation, 1184)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: condemned in 1184 for preaching without a license.",
+          "match_note": "Condemning body not named in this field; the 1184 bull in longDescription is the papal Ad abolendam."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition, carrying a line of protest from twelfth-century Lyon straight into the Reformation.",
+          "other": "Reformers at Chanforan (Reformed tradition)",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "contact/joining: met the Reformers and joined the Reformed tradition.",
+          "match_note": "Reformers not named; nearest census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition, carrying a line of protest from twelfth-century Lyon straight into the Reformation.",
+          "other": "Reformation",
+          "other_id": null,
+          "claim": "continuation: carried a line of protest into the Reformation.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists.",
+          "other": "Italy's Methodists",
+          "other_id": null,
+          "claim": "merger: now united with Italy's Methodists.",
+          "match_note": "No census entry for Italian Methodists."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists.",
+          "other": "Reformed tradition",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "joining: joined the Reformed tradition in 1532."
+        },
+        {
+          "field": "legacy",
+          "sentence": "One of the very few medieval movements condemned by Rome that never disappeared and never had to be reconstructed out of its enemies' files.",
+          "other": "Rome (papacy)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: condemned by Rome."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its long habit of vernacular Scripture and lay preaching anticipated, and then joined, the Reformation.",
+          "other": "Reformation",
+          "other_id": null,
+          "claim": "influence: anticipated and then joined the Reformation.",
+          "match_note": "Generic; no single census entry."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "the-waldensians--waldensians-in-the-alps",
+          "from": "the-waldensians",
+          "to": "waldensians-in-the-alps",
+          "type": "continued as",
+          "confidence": "Widely Accepted"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "zagwe-and-early-solomonic-ethiopian-christianity",
+      "name": "Zagwe Ethiopian Christianity",
+      "dates": "c. 1137-1270",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Continuation of Aksum; formal dependence on the Coptic patriarchate",
+          "other": "Aksum (Aksumite Christianity)",
+          "other_id": "aksumite-christianity",
+          "claim": "continuation: a continuation of Aksum.",
+          "match_note": "Census has both aksumite-christianity-conversion-era and aksumite-christianity; best candidate given the Zagwe era is later."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Continuation of Aksum; formal dependence on the Coptic patriarchate",
+          "other": "Coptic patriarchate",
+          "other_id": "coptic-christianity-fatimid-to-mamluk",
+          "claim": "dependence: formally dependent on the Coptic patriarchate.",
+          "match_note": "Best candidate; the Coptic patriarchate record covers this era."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After the old Aksumite kingdom faded, a dynasty called the Zagwe ruled the Ethiopian highlands from the twelfth century, and under them the Ethiopian church went on doing what it had done for eight hundred years — with one striking peculiarity of constitution: its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarchate in Egypt, so a wholly independent kingdom kept its senior churchman permanently on loan from another country.",
+          "other": "Aksumite Christianity",
+          "other_id": "aksumite-christianity",
+          "claim": "continuation: follows the old Aksumite kingdom's church.",
+          "match_note": "Best candidate; see rs note."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After the old Aksumite kingdom faded, a dynasty called the Zagwe ruled the Ethiopian highlands from the twelfth century, and under them the Ethiopian church went on doing what it had done for eight hundred years — with one striking peculiarity of constitution: its head bishop, the abun, was not Ethiopian but a monk sent from the Coptic patriarchate in Egypt, so a wholly independent kingdom kept its senior churchman permanently on loan from another country.",
+          "other": "Coptic patriarchate",
+          "other_id": "coptic-christianity-fatimid-to-mamluk",
+          "claim": "dependence: the abun was a monk sent from the Coptic patriarchate.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The dynasty's most famous achievement is the group of eleven churches cut downward out of solid rock at the town now called Lalibela, after the king who commissioned them, laid out to recall Jerusalem at a time when Jerusalem itself had become unreachable.",
+          "other": "Jerusalem (liturgical-pilgrimage Christianity)",
+          "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+          "claim": "influenced: the Lalibela churches were laid out to recall Jerusalem.",
+          "match_note": "Best candidate for Jerusalem's liturgical tradition."
+        },
+        {
+          "field": "why",
+          "sentence": "Under the Zagwe dynasty, the Ethiopian church kept its head bishop, the abun, permanently on loan as a monk sent from the Coptic patriarchate in Egypt, even though the kingdom itself was fully independent.",
+          "other": "Coptic patriarchate",
+          "other_id": "coptic-christianity-fatimid-to-mamluk",
+          "claim": "dependence: the abun was a monk sent from the Coptic patriarchate.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "why",
+          "sentence": "Its most famous achievement is the group of eleven churches carved downward out of solid rock at Lalibela, laid out to recall Jerusalem at a time when the real Jerusalem had become unreachable.",
+          "other": "Jerusalem (liturgical-pilgrimage Christianity)",
+          "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+          "claim": "influenced: the Lalibela churches recall Jerusalem.",
+          "match_note": "Best candidate."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "maronite-christianity",
+      "name": "Maronite Christianity",
+      "dates": "c. 1100-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "West Syriac liturgical family; unique early union with Rome",
+          "other": "West Syriac liturgical family",
+          "other_id": "syriac-orthodox-west-syriac-christianity",
+          "claim": "membership: part of the West Syriac liturgical family.",
+          "match_note": "Best candidate for the West Syriac family."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "West Syriac liturgical family; unique early union with Rome",
+          "other": "Rome (papacy)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contact/joining: an early union with Rome."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the medieval period they were a distinct church of the West Syriac liturgical family, concentrated in the mountains and gorges of Lebanon, where their monasteries and hermitages were cut straight into the cliffs.",
+          "other": "West Syriac liturgical family",
+          "other_id": "syriac-orthodox-west-syriac-christianity",
+          "claim": "membership: a distinct West Syriac church.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Specifically over whether the community had once held that Christ had only one will, a position the wider church had rejected.",
+          "other": "Monothelitism (one-will teaching)",
+          "other_id": null,
+          "claim": "opposition/contrast: the community may once have held a one-will view the wider church rejected.",
+          "match_note": "Heresy with no census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182, and in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union.",
+          "other": "Crusaders (Latin crusader states)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: the crusaders' arrival brought communion with Rome.",
+          "match_note": "Best candidate for the crusader states."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182, and in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union.",
+          "other": "Rome (papacy)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "joining: entered communion with Rome."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182, and in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union.",
+          "other": "Fourth Lateran Council (1215)",
+          "other_id": null,
+          "claim": "contact: traveled to the Fourth Lateran Council to settle the union's terms.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "When the crusaders arrived, the Maronites entered communion with Rome — William of Tyre describes the union around 1182, and in 1215 the patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council to settle its terms.",
+          "other": "Crusaders (Latin crusader states)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: crusaders' arrival brought communion with Rome.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "why",
+          "sentence": "When the crusaders arrived, the Maronites entered communion with Rome — William of Tyre describes the union around 1182, and in 1215 the patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council to settle its terms.",
+          "other": "Fourth Lateran Council (1215)",
+          "other_id": null,
+          "claim": "contact: traveled to Rome for the Fourth Lateran Council.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The union begun here has held for eight centuries and made the Maronites the working model for later Eastern Catholic churches — communion with the papacy alongside a Syriac liturgy and a patriarch of their own.",
+          "other": "Eastern Catholic churches",
+          "other_id": null,
+          "claim": "influence: a working model for later Eastern Catholic churches.",
+          "match_note": "Generic; no single census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "military-religious-orders-templars-hospitallers",
+      "name": "Military-Religious Orders (Templars, Hospitallers)",
+      "dates": "1120-1291",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "These orders fused monastic vows with arms, something the church had never authorized before, and Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood.",
+          "other": "The church (unauthorized fusion of vows and arms)",
+          "other_id": null,
+          "claim": "contrast: the church had never authorized this fusion before.",
+          "match_note": "Generic; no census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Hospitallers continued after the fall of Acre in 1291, moving their base to Rhodes in 1310 and remaining there into the sixteenth century.",
+          "other": "Latin church of Outremer (Acre)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "continuation: continued after the fall of Acre in 1291.",
+          "match_note": "Acre fall is the end of the Outremer church."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Templars began as a small band of knights guarding the pilgrim roads, took monastic vows, and were given a rule at the Council of Troyes in 1129.",
+          "other": "Council of Troyes (1129)",
+          "other_id": null,
+          "claim": "descent/membership: given a monastic rule at the Council of Troyes.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Both orders grew enormously rich, ran castles, estates and banking networks from the Latin East across Europe, and lost their reason for existing when Acre fell in 1291.",
+          "other": "Latin church of Outremer (Acre)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: Acre's fall in 1291 ended the reason for the orders."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Templars were arrested in France in 1307, made to confess under torture, and suppressed in 1312.",
+          "other": "Suppressing authority (1312, unnamed)",
+          "other_id": null,
+          "claim": "opposition: suppressed by 1312.",
+          "match_note": "The suppressing authority is not named in the field."
+        },
+        {
+          "field": "why",
+          "sentence": "Both orders grew rich running castles, estates and banking networks, and when Acre fell in 1291 the Templars were arrested, tortured into confession, and suppressed by 1312.",
+          "other": "Suppressing authority (1312, unnamed)",
+          "other_id": null,
+          "claim": "opposition: suppressed by 1312.",
+          "match_note": "The suppressing authority is not named in the field."
+        },
+        {
+          "field": "why",
+          "sentence": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims, calling the sick 'our lords the sick,' and only later took on a military role, while the Templars began as knights guarding the pilgrim roads and were given a monastic rule at the Council of Troyes in 1129.",
+          "other": "Pilgrim hospital in Jerusalem",
+          "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+          "claim": "origin: began as a hospital in Jerusalem caring for pilgrims.",
+          "match_note": "Best candidate; the text names the hospital only."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Hospitallers moved to Rhodes, then Malta, and continue today as the Sovereign Military Order of Malta, a hospitaller body with a legal personality of its own, alongside Protestant orders of St John in Britain and Germany out of which St John Ambulance grew — the medical vocation outlived the military one by many centuries.",
+          "other": "Protestant orders of St John (Britain and Germany)",
+          "other_id": null,
+          "claim": "continuation/related: alongside Protestant orders of St John.",
+          "match_note": "No census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Hospitallers moved to Rhodes, then Malta, and continue today as the Sovereign Military Order of Malta, a hospitaller body with a legal personality of its own, alongside Protestant orders of St John in Britain and Germany out of which St John Ambulance grew — the medical vocation outlived the military one by many centuries.",
+          "other": "St John Ambulance",
+          "other_id": null,
+          "claim": "descent: St John Ambulance grew out of the Protestant orders of St John.",
+          "match_note": "No census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "cathars-albigensians",
+      "name": "Cathars / Albigensians",
+      "dates": "c. 1143-1321",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Target of crusade and inquisition - which the map names without softening",
+          "other": "Papacy (launched the 1209 crusade)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: targeted by a crusade the papacy launched.",
+          "match_note": "The papal crusade is credited to the papacy in the longDescription."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Target of crusade and inquisition - which the map names without softening",
+          "other": "Papal inquisition",
+          "other_id": null,
+          "claim": "opposition: targeted by inquisition.",
+          "match_note": "Inquisition is an institution, not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A dualism that placed them outside Christianity as the councils had defined it.",
+          "other": "Church councils (defined Christianity)",
+          "other_id": null,
+          "claim": "contrast: a dualism placing them outside Christianity as the councils defined it.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In Languedoc they had noble protection and something close to a parallel church, and in 1209 the papacy launched a crusade against them: two decades of war, then inquisition, then the siege of Montségur in 1244, where roughly two hundred of their ministers walked into a fire rather than recant.",
+          "other": "Papacy (1209 crusade)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: the papacy launched a crusade against them."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In Languedoc they had noble protection and something close to a parallel church, and in 1209 the papacy launched a crusade against them: two decades of war, then inquisition, then the siege of Montségur in 1244, where roughly two hundred of their ministers walked into a fire rather than recant.",
+          "other": "Papal inquisition",
+          "other_id": null,
+          "claim": "opposition: inquisition followed the crusade.",
+          "match_note": "Inquisition is an institution, not a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1209 the papacy launched a crusade against them, and at the siege of Montségur in 1244 roughly two hundred of their ministers walked into a fire rather than recant; the last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321.",
+          "other": "Papacy (1209 crusade)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: the papacy launched a crusade against them."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Albigensian Crusade attached Languedoc to the French crown, and the papal inquisition was built in the 1230s largely to deal with this problem and then became a permanent institution that long outlived its original target.",
+          "other": "French crown (Capetian France)",
+          "other_id": null,
+          "claim": "contact: the crusade attached Languedoc to the French crown.",
+          "match_note": "Polity, no census entry; included because the text ties the crusade to a church-level conflict."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Albigensian Crusade attached Languedoc to the French crown, and the papal inquisition was built in the 1230s largely to deal with this problem and then became a permanent institution that long outlived its original target.",
+          "other": "Papal inquisition",
+          "other_id": null,
+          "claim": "opposition: built largely to deal with the Cathars.",
+          "match_note": "Inquisition is an institution, not a census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "joachimite-current",
+      "name": "Joachimite Current",
+      "dates": "1202-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Where it became communal, it lives inside the Franciscan Spirituals' story",
+          "other": "Franciscan Spirituals",
+          "other_id": "franciscan-order-era-6",
+          "claim": "contains/descent: lives inside the Franciscan Spirituals' story.",
+          "match_note": "Spirituals covered by the era-6 Franciscan order record."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It was a way of reading the Bible and the calendar together, and it spread especially among Franciscans, who found in it a description of their own movement.",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "influenced: spread especially among Franciscans."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1254 a young friar published an Introduction to the Eternal Gospel that made the claim explicit and scandalous, and it was condemned.",
+          "other": "Condemnation (1254, authority unnamed)",
+          "other_id": null,
+          "claim": "opposition: a 1254 book was condemned.",
+          "match_note": "Condemning authority not named."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Some let it go, and some carried the expectation on into the bitter Franciscan quarrel over poverty, where it did most of its later work.",
+          "other": "Franciscan quarrel over poverty",
+          "other_id": "franciscan-order-era-6",
+          "claim": "contact/conflict: the expectation fed into the Franciscan poverty quarrel.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "why",
+          "sentence": "The current his reading started spread especially among Franciscans, who saw their own movement described in it, until a 1254 book making the claim explicit was condemned and the current fixed on 1260 as the year the new age would open.",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "influenced: Franciscans saw their own movement described in it."
+        },
+        {
+          "field": "why",
+          "sentence": "When the year passed without incident, the expectation did not simply vanish — it fed into the bitter Franciscan quarrel over poverty that followed.",
+          "other": "Franciscan quarrel over poverty",
+          "other_id": "franciscan-order-era-6",
+          "claim": "contact/conflict: fed into the Franciscan poverty quarrel.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "legacy",
+          "sentence": "No community descends from it, and the Florensian order Joachim founded was absorbed long ago.",
+          "other": "Florensians (Joachim's order)",
+          "other_id": null,
+          "claim": "descent: Joachim's Florensian order was absorbed.",
+          "match_note": "No census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "In Franciscan reform movements, in radical politics, and in the recurring modern language of a 'third age' or a new spiritual era.",
+          "other": "Franciscan reform movements",
+          "other_id": "fraticelli-spiritual-franciscan-rigorists",
+          "claim": "influenced: the current shaped Franciscan reform movements.",
+          "match_note": "Generic; the Fraticelli are the nearest census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "In Franciscan reform movements, in radical politics, and in the recurring modern language of a 'third age' or a new spiritual era.",
+          "other": "Radical politics",
+          "other_id": null,
+          "claim": "influenced: shaped radical politics.",
+          "match_note": "Generic; no census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "free-spirit-heresy",
+      "name": "'Free Spirit' Heresy",
+      "dates": "13th-14th c.",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Beguine suppression used it as a charge",
+          "other": "The beguines",
+          "other_id": "the-beguines",
+          "claim": "opposition: beguine suppression used the Free Spirit charge."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by a 'sect of the Free Spirit'.",
+          "other": "Council of Vienne (1312, decree Ad nostrum)",
+          "other_id": null,
+          "claim": "opposition: the Council listed eight errors of a 'sect of the Free Spirit'.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Interrogators then went looking for people who held them, and found them, because the questions supplied the answers.",
+          "other": "Inquisitors (interrogators)",
+          "other_id": null,
+          "claim": "opposition: interrogators sought people holding the errors.",
+          "match_note": "Institution, not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it.",
+          "other": "The beguines",
+          "other_id": "the-beguines",
+          "claim": "contact/contains: much of the mystical piety was among beguines."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it.",
+          "other": "Beghards",
+          "other_id": null,
+          "claim": "contact: mystical piety was also among beghards.",
+          "match_note": "No census entry for beghards."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to a 'sect of the Free Spirit,' chiefly that a soul perfected in this life needs neither the church nor the virtues any longer — and interrogators then went looking for people who held them, finding them because the questions supplied the answers.",
+          "other": "Council of Vienne (1312, decree Ad nostrum)",
+          "other_id": null,
+          "claim": "opposition: the Council listed eight errors.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed; what existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it.",
+          "other": "The beguines",
+          "other_id": "the-beguines",
+          "claim": "contact: mystical piety was among beguines."
+        },
+        {
+          "field": "why",
+          "sentence": "Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed; what existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it.",
+          "other": "Beghards",
+          "other_id": null,
+          "claim": "contact: mystical piety was among beghards.",
+          "match_note": "No census entry for beghards."
+        },
+        {
+          "field": "legacy",
+          "sentence": "What the episode left behind is the charge itself, which stayed available for two centuries afterwards against mystical writing and against religious women living outside enclosure.",
+          "other": "Religious women outside enclosure (beguines)",
+          "other_id": "the-beguines",
+          "claim": "opposition: the charge was used against religious women living outside enclosure.",
+          "match_note": "Best candidate; the text does not name beguines in this sentence."
+        },
+        {
+          "field": "legacy",
+          "sentence": "What the episode left behind is the charge itself, which stayed available for two centuries afterwards against mystical writing and against religious women living outside enclosure.",
+          "other": "Mystical writing",
+          "other_id": null,
+          "claim": "opposition: the charge was used against mystical writing.",
+          "match_note": "Generic tradition; no census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-georgian-golden-age",
+      "name": "The Georgian Golden Age",
+      "dates": "c. 1000-1245",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+          "other": "Georgian Christianity",
+          "other_id": "georgian-christianity",
+          "claim": "continuation: a continuation of the Georgian church.",
+          "match_note": "Best candidate; era-3 record."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+          "other": "Byzantine monasticism",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "contact: partner of Byzantine monasticism.",
+          "match_note": "Best candidate: the Athonite/Comnenian record is the Byzantine monastic record of this era."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "David IV, called the Builder, broke the Seljuk hold at the battle of Didgori in 1121, and in 1106 had begun the monastery of Gelati, which was also an academy: philosophy, astronomy, rhetoric and Greek taught alongside the liturgy, with the Neoplatonist Ioane Petritsi among its scholars.",
+          "other": "Gelati (academy-monastery)",
+          "other_id": null,
+          "claim": "self/contact: a monastery that was also an academy.",
+          "match_note": "Place, not a census entry; described as part of this age."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Georgian Orthodox Church is still the national church of Georgia, in a line running straight through this period.",
+          "other": "Georgian Orthodox Church",
+          "other_id": "the-georgian-orthodox-church-restored",
+          "claim": "continuation: the church continues as the national church of Georgia.",
+          "match_note": "Best candidate; the restored Georgian Orthodox Church record is the later era."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "serbian-and-bulgarian-medieval-monasticism",
+      "name": "Serbian & Bulgarian Medieval Monasticism",
+      "dates": "c. 1170-1396",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+          "other": "Byzantium",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "descent: children of Byzantium.",
+          "match_note": "Best candidate; the Byzantine Church after 1054 record."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+          "other": "Mount Athos",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "descent: children of Mount Athos."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: carried hesychasm into the Slavic lands."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+          "other": "Kyiv",
+          "other_id": "kievan-rus-christianity-1054-1240",
+          "claim": "contact: lies between Kyiv and Moscow in the lane.",
+          "match_note": "Lane-structure statement; not a historical relationship."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+          "other": "Moscow",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "contact: lies between Kyiv and Moscow in the lane.",
+          "match_note": "Lane-structure statement."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When the Serbian ruler Stefan Nemanja abdicated in 1196 and became a monk, and his youngest son Rastko — already a monk on Mount Athos under the name Sava — joined him there, the two founded Hilandar, a Serbian house on the Holy Mountain.",
+          "other": "Mount Athos",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "origin: Sava was a monk on Mount Athos."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When the Serbian ruler Stefan Nemanja abdicated in 1196 and became a monk, and his youngest son Rastko — already a monk on Mount Athos under the name Sava — joined him there, the two founded Hilandar, a Serbian house on the Holy Mountain.",
+          "other": "Hilandar (Serbian house on Mount Athos)",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "membership: the Serbian house of Hilandar on the Holy Mountain.",
+          "match_note": "Hilandar is an Athos house."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "From it the shape of Serbian church life was set: Athonite charters adapted for Serbian monasteries, and a ruling family that produced its own saints and then wrote their lives.",
+          "other": "Athonite charters",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "influenced: Athonite charters adapted for Serbian monasteries."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In Bulgaria the restored patriarchate at Tarnovo did something comparable, gathering a literary school around it and the cult of hermits like John of Rila.",
+          "other": "Patriarchate of Tarnovo",
+          "other_id": null,
+          "claim": "membership: a restored Bulgarian patriarchate at Tarnovo gathered a literary school.",
+          "match_note": "Bulgarian patriarchate; no census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Both churches were the road by which hesychast prayer traveled out of Greek and into Slavonic, and from there eventually to Russia.",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: hesychast prayer traveled out of Greek into Slavonic."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Both churches were the road by which hesychast prayer traveled out of Greek and into Slavonic, and from there eventually to Russia.",
+          "other": "Russia (Russian church)",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "influenced: hesychast prayer eventually reached Russia.",
+          "match_note": "Nearest census entry is the Muscovite record."
+        },
+        {
+          "field": "why",
+          "sentence": "When the Serbian ruler Stefan Nemanja abdicated in 1196 to become a monk, his son Rastko — already a monk on Mount Athos as Sava — joined him there, and together they founded the Serbian house of Hilandar.",
+          "other": "Hilandar (Serbian house on Mount Athos)",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "membership: the Serbian house of Hilandar.",
+          "match_note": "Hilandar is an Athos house."
+        },
+        {
+          "field": "why",
+          "sentence": "Both churches carried hesychast prayer out of Greek and into the Slavic world, eventually reaching Russia.",
+          "other": "Hesychasm",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "influenced: carried hesychast prayer into the Slavic world."
+        },
+        {
+          "field": "why",
+          "sentence": "Both churches carried hesychast prayer out of Greek and into the Slavic world, eventually reaching Russia.",
+          "other": "Russia (Russian church)",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "influenced: hesychast prayer eventually reached Russia.",
+          "match_note": "Nearest census entry is the Muscovite record."
+        },
+        {
+          "field": "legacy",
+          "sentence": "While Hilandar remains one of the twenty ruling monasteries of Mount Athos.",
+          "other": "Mount Athos",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "membership: Hilandar is one of the ruling monasteries of Mount Athos."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Tarnovo school's revised Slavonic texts, and the hesychast spirituality carried inside them, traveled north and shaped Russian church life for centuries, and the zhitija, the lives of the royal saints, are foundational texts of Serbian literature to this day.",
+          "other": "Russian church life",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "influenced: the Tarnovo school's texts shaped Russian church life.",
+          "match_note": "Nearest census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "byzantine-church-after-1054",
+      "name": "The Byzantine Church after the Schism",
+      "dates": "1054-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+          "other": "Latin papal church (western side of the Schism)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contrast: the eastern side of the Great Schism."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+          "other": "Latin crusading army (sack of 1204)",
+          "other_id": null,
+          "claim": "opposition: a Latin crusading army sacked Constantinople in 1204.",
+          "match_note": "Crusade is not a census entry; the sack is a Latin-army action."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+          "other": "Second Council of Lyon (1274)",
+          "other_id": null,
+          "claim": "contact: union with Rome offered at Lyon in 1274 and rejected.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This church remained in lasting tension with the Latin papal church in Rome.",
+          "other": "Latin papal church (Rome)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contrast: lasting tension with the Latin papal church."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia during the liturgy and walked out.",
+          "other": "Papacy (papal legate, 1054)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: a papal legate excommunicated the patriarch."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "But the estrangement between the Greek and Latin churches did not heal, and it hardened catastrophically in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years.",
+          "other": "Latin crusading army and Latin patriarch",
+          "other_id": null,
+          "claim": "opposition: a crusading army sacked the city and installed a Latin patriarch.",
+          "match_note": "Crusade and Latin patriarchate are not census entries."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1274, needing Western help against his enemies, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon.",
+          "other": "Second Council of Lyon (1274)",
+          "other_id": null,
+          "claim": "contact: union with Rome accepted at Lyon in 1274.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia and walked out, and the patriarch Michael Cerularius condemned him in return — though neither man believed at the time that he had divided Christendom permanently.",
+          "other": "Papacy (papal legate, 1054)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "opposition: a papal legate excommunicated the patriarch."
+        },
+        {
+          "field": "why",
+          "sentence": "The estrangement hardened in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years before its return in 1261.",
+          "other": "Latin crusading army and Latin patriarch",
+          "other_id": null,
+          "claim": "opposition: sacked the city and installed a Latin patriarch.",
+          "match_note": "Crusade and Latin patriarchate are not census entries."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1274, needing Western help, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon, but his own clergy and monks refused it and the union collapsed.",
+          "other": "Second Council of Lyon (1274)",
+          "other_id": null,
+          "claim": "contact: union with Rome accepted at Lyon in 1274.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "This is the eastern half of a division that has still not been repaired: the Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate of Constantinople remains the first see among them.",
+          "other": "Eastern Orthodox churches",
+          "other_id": null,
+          "claim": "continuation: Eastern Orthodox churches trace continuity through this church.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "This is the eastern half of a division that has still not been repaired: the Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate of Constantinople remains the first see among them.",
+          "other": "Ecumenical Patriarchate of Constantinople",
+          "other_id": null,
+          "claim": "continuation: remains the first see among Eastern Orthodox churches.",
+          "match_note": "No census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The sack of 1204 left a memory that shaped Orthodox attitudes to the West for centuries; Pope John Paul II offered an apology for it in 2001, nearly eight hundred years later.",
+          "other": "Papacy (Pope John Paul II's apology, 2001)",
+          "other_id": null,
+          "claim": "contact: the papacy offered an apology for the 1204 sack.",
+          "match_note": "A later papacy; the medieval Latin papal church record is the nearest census entry, so this is left null."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the pattern set in 1274 — union agreed by an emperor and refused by his own clergy and people — would repeat at Florence in 1439 with the same result.",
+          "other": "Council of Florence (1439)",
+          "other_id": null,
+          "claim": "opposition/contrast: the same pattern repeated at the Council of Florence.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The same church continued into the next era through the Palaiologan period.",
+          "other": "Byzantine church (Palaiologan period)",
+          "other_id": "byzantine-church-palaiologan",
+          "claim": "continuation: continued into the next era through the Palaiologan period."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+          "from": "latin-papal-church-gregorian",
+          "to": "byzantine-church-after-1054",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+          "from": "byzantine-church-after-1054",
+          "to": "latin-papal-church-gregorian",
+          "type": "broke with",
+          "confidence": "Documented"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "latin-papal-church-gregorian",
+      "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "dates": "c. 1049-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The western side of the Great Schism: Leo IX's reform circle, the Investiture Contest, the Lateran councils, and the rise of the papal monarchy, in lasting tension with the Byzantine church.",
+          "other": "Byzantine church (eastern side of the Schism)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contrast: the western side of the Great Schism."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The western side of the Great Schism: Leo IX's reform circle, the Investiture Contest, the Lateran councils, and the rise of the papal monarchy, in lasting tension with the Byzantine church.",
+          "other": "Investiture Contest (lay lords and empire)",
+          "other_id": null,
+          "claim": "opposition: the Investiture Contest with lay rulers and the empire.",
+          "match_note": "Conflict, not a census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista — along with the rise of the universities, scholastic theology, and the crusading ransom orders.",
+          "other": "National churches of England, France and Iberia",
+          "other_id": null,
+          "claim": "contact: national churches of the age, in tension with the papacy.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista — along with the rise of the universities, scholastic theology, and the crusading ransom orders.",
+          "other": "Universities and scholastic theology",
+          "other_id": null,
+          "claim": "contact: universities and scholastic theology in this era.",
+          "match_note": "Not a census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista — along with the rise of the universities, scholastic theology, and the crusading ransom orders.",
+          "other": "Crusading ransom orders",
+          "other_id": null,
+          "claim": "contact: the crusading ransom orders.",
+          "match_note": "The ransom orders are not in the census; the military orders record is the nearest, but the text does not name it."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In the middle of the eleventh century a circle of reformers around Pope Leo IX set out to free the church from the lay lords who appointed its bishops and sold its offices.",
+          "other": "Lay lords (lay investiture)",
+          "other_id": null,
+          "claim": "opposition: sought to free the church from lay lords who appointed bishops.",
+          "match_note": "Not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Gregory VII's Dictatus Papae of 1075 asserted, among much else, that the pope alone could depose an emperor.",
+          "other": "Holy Roman emperors (imperial authority)",
+          "other_id": null,
+          "claim": "opposition: asserted the pope alone could depose an emperor.",
+          "match_note": "Not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The resulting Investiture Contest ran for half a century and produced the extraordinary scene of Emperor Henry IV waiting in the snow outside Canossa.",
+          "other": "Emperor Henry IV (imperial authority)",
+          "other_id": null,
+          "claim": "opposition: the Investiture Contest set the pope against the emperor at Canossa.",
+          "match_note": "Imperial authority, not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Canon law codified, legates everywhere, a run of great councils at the Lateran, and under Innocent III, who reigned from 1198 to 1216, a papacy that arbitrated between kings, authorized the new friars, called crusades, and in 1215 legislated at the Fourth Lateran Council for the whole Latin church — from the definition of the eucharist to the requirement that every Christian confess once a year.",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "contact/approval: authorized the new friars.",
+          "match_note": "The new friars are the Franciscans and Dominicans."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Canon law codified, legates everywhere, a run of great councils at the Lateran, and under Innocent III, who reigned from 1198 to 1216, a papacy that arbitrated between kings, authorized the new friars, called crusades, and in 1215 legislated at the Fourth Lateran Council for the whole Latin church — from the definition of the eucharist to the requirement that every Christian confess once a year.",
+          "other": "Dominicans",
+          "other_id": "the-dominican-order",
+          "claim": "contact/approval: authorized the new friars.",
+          "match_note": "The new friars are the Franciscans and Dominicans."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Canon law codified, legates everywhere, a run of great councils at the Lateran, and under Innocent III, who reigned from 1198 to 1216, a papacy that arbitrated between kings, authorized the new friars, called crusades, and in 1215 legislated at the Fourth Lateran Council for the whole Latin church — from the definition of the eucharist to the requirement that every Christian confess once a year.",
+          "other": "Crusades",
+          "other_id": null,
+          "claim": "influence: called crusades.",
+          "match_note": "Not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Canon law codified, legates everywhere, a run of great councils at the Lateran, and under Innocent III, who reigned from 1198 to 1216, a papacy that arbitrated between kings, authorized the new friars, called crusades, and in 1215 legislated at the Fourth Lateran Council for the whole Latin church — from the definition of the eucharist to the requirement that every Christian confess once a year.",
+          "other": "Fourth Lateran Council (1215)",
+          "other_id": null,
+          "claim": "influence: legislated for the whole Latin church at the Fourth Lateran Council.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "A circle of reformers around Pope Leo IX set out in the mid-eleventh century to free the church from lay lords who appointed its bishops and sold its offices, and ended by claiming for the papacy an authority no bishop of Rome had held before — Gregory VII's Dictatus Papae of 1075 asserted that the pope alone could depose an emperor, producing the Investiture Contest and the scene of Emperor Henry IV waiting in the snow at Canossa.",
+          "other": "Investiture Contest (lay lords and empire)",
+          "other_id": null,
+          "claim": "opposition: the Investiture Contest.",
+          "match_note": "Conflict, not a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "Under Innocent III, the Fourth Lateran Council of 1215 legislated for the whole Latin church, from the definition of the eucharist to a requirement that every Christian confess once a year.",
+          "other": "Fourth Lateran Council (1215)",
+          "other_id": null,
+          "claim": "influence: legislated for the whole Latin church.",
+          "match_note": "Council-backed body with no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "So did darker parts of the same program: the same council imposed distinguishing dress on Jews and Muslims living in Christian territory, and the machinery of inquisition took its permanent form in these decades.",
+          "other": "Jews and Muslims in Christian territory",
+          "other_id": null,
+          "claim": "opposition: the council imposed distinguishing dress on Jews and Muslims.",
+          "match_note": "Religious communities, not a census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "So did darker parts of the same program: the same council imposed distinguishing dress on Jews and Muslims living in Christian territory, and the machinery of inquisition took its permanent form in these decades.",
+          "other": "Inquisition",
+          "other_id": null,
+          "claim": "influence: the inquisition took its permanent form.",
+          "match_note": "Institution, not a census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The claims made here are also the ones the Reformation would eventually be a protest against.",
+          "other": "The Reformation",
+          "other_id": null,
+          "claim": "opposition: the Reformation protested these claims.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The same institution continued into the next era through Avignon and the Fifth Lateran Council.",
+          "other": "Avignon and Fifth Lateran Council (papal church)",
+          "other_id": "latin-papal-church-avignon-to-lateran-v",
+          "claim": "continuation: continued through Avignon and the Fifth Lateran Council."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+          "from": "latin-papal-church-gregorian",
+          "to": "byzantine-church-after-1054",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+          "from": "byzantine-church-after-1054",
+          "to": "latin-papal-church-gregorian",
+          "type": "broke with",
+          "confidence": "Documented"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "kievan-rus-christianity-1054-1240",
+      "name": "Kievan Rus' Christianity, 1054-1240",
+      "dates": "1054-1240",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery, with native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople.",
+          "other": "Kievan Rus' Christianity",
+          "other_id": "kievan-rus-christianity",
+          "claim": "continuation: continues Rus' Christianity's first generations."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery, with native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople.",
+          "other": "Byzantine church (Constantinople)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contact/authority: Greek metropolitans sent from Constantinople."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The church was formally a metropolitanate of Constantinople, usually headed by a Greek, but native metropolitans appeared and a native literature and a native calendar of saints grew up around the princely dynasty.",
+          "other": "Byzantine church (Constantinople)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "membership: formally a metropolitanate of Constantinople."
+        },
+        {
+          "field": "why",
+          "sentence": "Out of that monastery came bishops, chronicles and a native literature, even though the church was formally headed by Greek metropolitans sent from Constantinople.",
+          "other": "Byzantine church (Constantinople)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "membership: headed by Greek metropolitans from Constantinople."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Caves Monastery survived the sack and is still there — the Kyiv Pechersk Lavra, with its underground galleries of relics — one of the most important monastic sites in the Orthodox world and, in the twenty-first century, contested ground between rival Ukrainian church jurisdictions.",
+          "other": "Kyiv Pechersk Lavra (contested jurisdictions)",
+          "other_id": null,
+          "claim": "contested: the Caves Monastery is contested ground between rival Ukrainian jurisdictions.",
+          "match_note": "Present-day rival jurisdictions; no single census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Caves Monastery survived the sack and is still there — the Kyiv Pechersk Lavra, with its underground galleries of relics — one of the most important monastic sites in the Orthodox world and, in the twenty-first century, contested ground between rival Ukrainian church jurisdictions.",
+          "other": "Rival Ukrainian church jurisdictions",
+          "other_id": null,
+          "claim": "contrast: rival Ukrainian church jurisdictions claim the Caves Monastery.",
+          "match_note": "Present-day; no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a question with live political weight to this day, and the century of Mongol rule that followed 1240 leaves a real gap in the record between this church and the Muscovy that later claimed it.",
+          "other": "Muscovy (Moscow claim)",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "descent claim: Muscovy later claimed the legacy.",
+          "match_note": "Nearest census entry for Muscovy."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a question with live political weight to this day, and the century of Mongol rule that followed 1240 leaves a real gap in the record between this church and the Muscovy that later claimed it.",
+          "other": "Muscovy",
+          "other_id": "muscovite-monastic-christianity",
+          "claim": "descent claim: Muscovy later claimed the Kyivan legacy.",
+          "match_note": "Nearest census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "armenian-cilicia",
+      "name": "Armenian Christianity in Cilicia",
+      "dates": "c. 1080-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Armenian church in exile became a kingdom's church: the catholicosate moved to the fortress of Hromkla in 1151, Nerses Shnorhali carried on ecumenical correspondence with the Byzantine emperor seeking reunion between the Armenian and Greek churches, and Levon I was crowned king in 1198.",
+          "other": "Bagratid Armenian Christianity (Armenian homeland church)",
+          "other_id": "bagratid-armenian-christianity",
+          "claim": "continuation/displacement: the Armenian church moved into exile from its homeland.",
+          "match_note": "Best candidate for the Armenian homeland church before exile."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Armenian church in exile became a kingdom's church: the catholicosate moved to the fortress of Hromkla in 1151, Nerses Shnorhali carried on ecumenical correspondence with the Byzantine emperor seeking reunion between the Armenian and Greek churches, and Levon I was crowned king in 1198.",
+          "other": "Byzantine church (Greek church)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contact: sought reunion between the Armenian and Greek churches."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After the Seljuk conquest of the Armenian homeland, Armenians resettled in Cilicia on the Mediterranean coast, where a principality grew into a kingdom — Levon I was crowned in 1198.",
+          "other": "Armenian homeland church (before Cilicia)",
+          "other_id": "bagratid-armenian-christianity",
+          "claim": "continuation: Armenians resettled in Cilicia after the conquest of the homeland.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1151 the catholicos moved his seat to Hromkla, a fortress above the Euphrates, and there Nerses Shnorhali, 'the Gracious', wrote the finest Armenian religious poetry of the age and conducted a long and remarkably generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches.",
+          "other": "Byzantine church (Greek church)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contact: reunion talks with the Greek church."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Cilician church spent the following century negotiating instead with the Latin crusader states next door.",
+          "other": "Latin crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: negotiated with the neighboring Latin crusader states.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "why",
+          "sentence": "There Nerses Shnorhali, 'the Gracious,' wrote the finest Armenian religious poetry of the age and carried on a long, generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches — a reunion that never happened.",
+          "other": "Byzantine church (Greek church)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contact: reunion talks with the Greek church."
+        },
+        {
+          "field": "why",
+          "sentence": "The Cilician church spent the following century negotiating instead with the neighboring Latin crusader states, a closeness some Armenians welcomed and others resented deeply.",
+          "other": "Latin crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: negotiated with the neighboring Latin crusader states.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Armenian Apostolic Church continues, and this period is a load-bearing part of it: the catholicosate established here still exists as the Catholicosate of Cilicia, now seated at Antelias in Lebanon, one of the two catholicosates of the Armenian church.",
+          "other": "Catholicosate of Etchmiadzin (other catholicosate)",
+          "other_id": "armenian-christianity-new-julfa",
+          "claim": "contrast/relation: one of two catholicosates of the Armenian church.",
+          "match_note": "Best candidate: Etchmiadzin is the other catholicosate, covered by the New Julfa record."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "syriac-renaissance",
+      "name": "The Syriac Renaissance",
+      "dates": "1054-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The West Syriac church's intellectual summit, reached under Muslim rule and during the crusader period.",
+          "other": "West Syriac church (Syriac Orthodox)",
+          "other_id": "syriac-orthodox-under-islam",
+          "claim": "membership: the West Syriac church's summit.",
+          "match_note": "Best candidate; the Syriac Orthodox under Islam record."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The West Syriac church's intellectual summit, reached under Muslim rule and during the crusader period.",
+          "other": "Crusader period (Latin crusader states)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: the summit was reached during the crusader period.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Syriac Orthodox Church lived under Muslim rule, and for a while alongside the crusader states, in the country between the Euphrates and the Tigris.",
+          "other": "Syriac Orthodox Church under Islam",
+          "other_id": "syriac-orthodox-under-islam",
+          "claim": "membership: lived under Muslim rule."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Syriac Orthodox Church lived under Muslim rule, and for a while alongside the crusader states, in the country between the Euphrates and the Tigris.",
+          "other": "Crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: lived alongside the crusader states.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "why",
+          "sentence": "Living under Muslim rule, and for a while alongside the crusader states, the Syriac Orthodox Church produced its best writing in four hundred years in this period.",
+          "other": "Syriac Orthodox Church under Islam",
+          "other_id": "syriac-orthodox-under-islam",
+          "claim": "membership: lived under Muslim rule."
+        },
+        {
+          "field": "why",
+          "sentence": "Living under Muslim rule, and for a while alongside the crusader states, the Syriac Orthodox Church produced its best writing in four hundred years in this period.",
+          "other": "Crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: lived alongside the crusader states.",
+          "match_note": "Best candidate."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "church-of-the-east-under-the-mongols",
+      "name": "The Church of the East under the Mongols",
+      "dates": "c. 1220-1317",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Church of the East gained new access at the Mongol court: Rabban Bar Sauma's embassy to Europe in 1287, and the election of his former pupil as Patriarch Yahballaha III, who held the office from 1281 until his death in 1317.",
+          "other": "Europe (Rome and western courts)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contact: an embassy to Europe, which reached Rome.",
+          "match_note": "Europe is not a census entry; Rome is the named site, so the Latin papal church record is a best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Church of the East had spread far into Central Asia centuries earlier, and when the Mongols swept west a good many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in this tradition, as were several of the great khans' wives and mothers.",
+          "other": "Church of the East in Central Asia (Silk Road)",
+          "other_id": "the-church-of-the-east-on-the-silk-road",
+          "claim": "influenced: the church had spread far into Central Asia.",
+          "match_note": "Best candidate for the Central Asian Church of the East."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Church of the East had spread far into Central Asia centuries earlier, and when the Mongols swept west a good many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in this tradition, as were several of the great khans' wives and mothers.",
+          "other": "Kerait and Öngüd peoples",
+          "other_id": null,
+          "claim": "membership: peoples already Christian in the Church of the East tradition.",
+          "match_note": "Peoples, not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "For a few decades the church that Latin Europe called Nestorian had extraordinary access: tolerated and sometimes favored at the Mongol court, and in 1281 a monk who had traveled the whole width of Asia from China was elected its catholicos as Yahballaha III.",
+          "other": "Nestorian (Latin Europe's label)",
+          "other_id": null,
+          "claim": "contrast/naming: Latin Europe's name for this church.",
+          "match_note": "Label, not a census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "His teacher, Rabban Bar Sauma, had set out with him on pilgrimage toward Jerusalem and ended up instead as the Ilkhan's ambassador to the West, reaching Rome and the courts of France and England and writing the journey down — one of the very few medieval descriptions of Europe by a traveler from Asia.",
+          "other": "Rome (papacy)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contact: the embassy reached Rome."
+        },
+        {
+          "field": "why",
+          "sentence": "When the Mongols swept west, many of the peoples they absorbed — the Kerait and the Öngüd among them — were already Christian in the Church of the East tradition, as were several of the great khans' wives and mothers, giving the church real access at the Mongol court.",
+          "other": "Kerait and Öngüd peoples",
+          "other_id": null,
+          "claim": "membership: peoples already Christian in the Church of the East tradition.",
+          "match_note": "Peoples, not a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In 1281 a monk who had traveled the whole width of Asia from China was elected catholicos as Yahballaha III, while his teacher Rabban Bar Sauma ended up as the Ilkhan's ambassador to the West, reaching Rome and the courts of France and England and writing the journey down.",
+          "other": "Rome (papacy)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "contact: the embassy reached Rome."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Mongol elite in Persia turned to Islam within a generation of Yahballaha's death, and the fourteenth century brought the catastrophe — Timur's campaigns above all — that reduced a church once stretching from Cyprus to China to a mountain remnant in Hakkari.",
+          "other": "Islam (Mongol elite's conversion)",
+          "other_id": null,
+          "claim": "opposition/contrast: the Mongol elite turned to Islam, ending the church's court favor.",
+          "match_note": "Religion, not a census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-carmelites",
+      "name": "The Carmelites",
+      "dates": "c. 1206-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "contrast/peer: one of the mendicant orders alongside the Franciscans."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+          "other": "Dominicans",
+          "other_id": "the-dominican-order",
+          "claim": "contrast/peer: one of the mendicant orders alongside the Dominicans."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+          "other": "Papacy (Innocent IV approved the Rule)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "approval: the Rule was approved in 1247."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+          "other": "Crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: migrated west as the crusader states contracted."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Some time between 1206 and 1214 a group of Latin hermits living in a wadi on Mount Carmel above the bay from crusader Acre asked Albert, the patriarch of Jerusalem — who kept his seat at Acre — for a written way of life.",
+          "other": "Crusader Acre (Latin church of Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: hermits lived above crusader Acre."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Some time between 1206 and 1214 a group of Latin hermits living in a wadi on Mount Carmel above the bay from crusader Acre asked Albert, the patriarch of Jerusalem — who kept his seat at Acre — for a written way of life.",
+          "other": "Latin patriarchate of Jerusalem",
+          "other_id": "latin-church-of-outremer",
+          "claim": "authority: Albert, Latin patriarch of Jerusalem, gave the rule.",
+          "match_note": "Latin patriarchate is the Outremer church; Albert is a person, the patriarchate is the institution."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+          "other": "Franciscans",
+          "other_id": "the-franciscan-movement",
+          "claim": "contrast/peer: adapted into a mendicant order alongside the Franciscans."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+          "other": "Dominicans",
+          "other_id": "the-dominican-order",
+          "claim": "contrast/peer: adapted into a mendicant order alongside the Dominicans."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+          "other": "Papacy (Innocent IV, 1247)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "approval: the revised Rule was approved in 1247."
+        },
+        {
+          "field": "why",
+          "sentence": "As the crusader states contracted, the hermits moved into England, France and Italy, where their rule was adapted into a mendicant order and approved by Innocent IV in 1247.",
+          "other": "Crusader states (Outremer)",
+          "other_id": "latin-church-of-outremer",
+          "claim": "contact: the hermits moved west as the crusader states contracted."
+        },
+        {
+          "field": "why",
+          "sentence": "As the crusader states contracted, the hermits moved into England, France and Italy, where their rule was adapted into a mendicant order and approved by Innocent IV in 1247.",
+          "other": "Papacy (Innocent IV, 1247)",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "approval: the rule was approved in 1247."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The sixteenth-century Spanish reform that produced Teresa of Ávila and John of the Cross grew directly out of this rule, and their writings became the standard vocabulary of Western contemplative prayer.",
+          "other": "Carmelite reform (Spanish mystics)",
+          "other_id": "carmelite-reform-and-spanish-mystics",
+          "claim": "descent: the Spanish reform grew directly out of this rule."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "balkan-bogomil-continuation",
+      "name": "Balkan Bogomilism, 1054-1300",
+      "dates": "1054-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+          "other": "Bogomils",
+          "other_id": "bogomils",
+          "claim": "continuation: a continuation of the earlier Bogomil current."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+          "other": "Synod at Tarnovo (1211)",
+          "other_id": null,
+          "claim": "opposition: the Tarnovo synod anathematized them in 1211.",
+          "match_note": "Council-backed synod with no census entry."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+          "other": "Cathars (claimed descent)",
+          "other_id": "cathars-albigensians",
+          "claim": "descent (claimed, disputed): claimed parent of the Cathars; not an established line."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Bogomils began in tenth-century Bulgaria and were still there, and in Byzantine territory, throughout this period.",
+          "other": "Bogomils",
+          "other_id": "bogomils",
+          "claim": "continuation: the Bogomils began in tenth-century Bulgaria."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1211 a synod at Tarnovo anathematized them again.",
+          "other": "Synod at Tarnovo (1211)",
+          "other_id": null,
+          "claim": "opposition: anathematized again in 1211.",
+          "match_note": "Council-backed synod with no census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "By this period the Bogomils, who began in tenth-century Bulgaria, held no church buildings, no clergy in the ordinary sense and no sacraments as the wider church understood them, teaching that the material world and the visible church alike belonged to an evil power.",
+          "other": "The wider church",
+          "other_id": null,
+          "claim": "contrast: no church buildings, clergy, or sacraments as the wider church understood them.",
+          "match_note": "Generic; no single census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "By this period the Bogomils, who began in tenth-century Bulgaria, held no church buildings, no clergy in the ordinary sense and no sacraments as the wider church understood them, teaching that the material world and the visible church alike belonged to an evil power.",
+          "other": "Bogomils",
+          "other_id": "bogomils",
+          "claim": "continuation: began in tenth-century Bulgaria."
+        },
+        {
+          "field": "why",
+          "sentence": "A synod at Tarnovo anathematized them again in 1211, and not one line survives that a Bogomil wrote about themselves.",
+          "other": "Synod at Tarnovo (1211)",
+          "other_id": null,
+          "claim": "opposition: anathematized again in 1211.",
+          "match_note": "Council-backed synod with no census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Medieval writers, and many modern ones, have treated the Bogomils as the source of the Western dualist movements, the Cathars especially, and the English word 'bugger' descends by way of 'Bulgar' from that association.",
+          "other": "Cathars (claimed descent)",
+          "other_id": "cathars-albigensians",
+          "claim": "descent (disputed): treated as the source of the Cathars."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Bosnian Church, often bundled in with them in older accounts, is now generally handled by scholars as a separate question.",
+          "other": "The Bosnian Church",
+          "other_id": "the-bosnian-church",
+          "claim": "contact/grouping: bundled with the Bogomils in older accounts; now treated separately."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "latin-church-of-outremer",
+      "name": "The Latin Church of Outremer",
+      "dates": "1099-1291",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A transplanted Latin church with its own hierarchy: patriarchates of Jerusalem (1099, Greek patriarch expelled - the Schism lived on the ground) and Antioch; moves to Acre 1187, falls with it 1291",
+          "other": "Byzantine church (Greek patriarch expelled)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "opposition: the Greek patriarch was expelled; the Schism lived on the ground."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A transplanted Latin church with its own hierarchy: patriarchates of Jerusalem (1099, Greek patriarch expelled - the Schism lived on the ground) and Antioch; moves to Acre 1187, falls with it 1291",
+          "other": "Latin patriarchate of Antioch",
+          "other_id": null,
+          "claim": "membership: a Latin patriarchate at Antioch.",
+          "match_note": "No census entry for the Antioch patriarchate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "They built a whole Latin church on top of an existing Christian landscape, erecting a Latin patriarchate of Jerusalem and expelling the Greek patriarch, and then another at Antioch.",
+          "other": "Byzantine church (Greek patriarch expelled)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "opposition: expelled the Greek patriarch."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "For nearly two centuries this transplanted hierarchy ran parishes, cathedrals and an enormous pilgrim traffic to the holy places, with the canons of the Holy Sepulchre at its center and a distinctive liturgy shaped by processions to the sites themselves.",
+          "other": "Canons of the Holy Sepulchre",
+          "other_id": null,
+          "claim": "membership: the canons of the Holy Sepulchre at its center.",
+          "match_note": "No census entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — and its dealings with those communities ranged from workable accommodation to plain dispossession.",
+          "other": "Greek Christians (Byzantine church)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "contact/governance: governed a Greek population."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — and its dealings with those communities ranged from workable accommodation to plain dispossession.",
+          "other": "Syriac Christians",
+          "other_id": "syriac-orthodox-under-islam",
+          "claim": "contact/governance: governed a Syriac population.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — and its dealings with those communities ranged from workable accommodation to plain dispossession.",
+          "other": "Armenian Christians",
+          "other_id": null,
+          "claim": "contact/governance: governed an Armenian population.",
+          "match_note": "No census entry for Jerusalem's Armenian community."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — and its dealings with those communities ranged from workable accommodation to plain dispossession.",
+          "other": "Muslim population",
+          "other_id": null,
+          "claim": "contact/governance: governed a Muslim population.",
+          "match_note": "Religious community, not a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "When the First Crusade took Jerusalem in 1099, the conquerors built a whole Latin church on top of an existing Christian landscape, installing a Latin patriarchate and expelling the Greek patriarch, with the canons of the Holy Sepulchre at its center and a liturgy shaped by processions to the holy places themselves.",
+          "other": "Byzantine church (Greek patriarch expelled)",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "opposition: expelled the Greek patriarch."
+        },
+        {
+          "field": "why",
+          "sentence": "It governed a population that was mostly not Latin — Greek, Syriac, Armenian, Muslim — with dealings that ranged from workable accommodation to outright dispossession.",
+          "other": "Syriac Christians",
+          "other_id": "syriac-orthodox-under-islam",
+          "claim": "contact/governance: governed a Syriac population.",
+          "match_note": "Best candidate."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The long memory of Outremer among Eastern Christians, who experienced it as occupation rather than liberation, is part of the legacy too.",
+          "other": "Eastern Christians",
+          "other_id": null,
+          "claim": "opposition: Eastern Christians experienced Outremer as occupation.",
+          "match_note": "Generic; no single census entry."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "coptic-christianity-fatimid-to-mamluk",
+      "name": "Coptic Christianity, Fatimid to Mamluk",
+      "dates": "c. 1054-1300",
+      "relationships": [
+        {
+          "field": "longDescription",
+          "sentence": "In the thirteenth century a single Cairo family, the sons of al-Assal, produced a body of work — canon law, theology, biblical scholarship, philosophy, and Coptic grammars and dictionaries written in Arabic to keep the old language from being lost entirely — that amounted to a renaissance of Coptic learning in a new tongue.",
+          "other": "Family of al-Assal (Cairo)",
+          "other_id": null,
+          "claim": "descent/membership: the al-Assal family produced a renaissance of Coptic learning.",
+          "match_note": "Family, not a census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In the thirteenth century, one Cairo family — the four sons of al-Assal — turned that shift into a renaissance, writing canon law, theology, biblical scholarship and Coptic grammars and dictionaries in Arabic to keep the old language from being lost.",
+          "other": "Family of al-Assal (Cairo)",
+          "other_id": null,
+          "claim": "descent/membership: the al-Assal family produced a Coptic renaissance.",
+          "match_note": "Family, not a census entry."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The work done here lasted: the al-Assal brothers' canonical collections stayed authoritative in the Coptic church for centuries and were carried south into Ethiopia, where the Fetha Nagast, the law book of the Ethiopian state into the twentieth century, derives from al-Safi's canons.",
+          "other": "Ethiopian church (Fetha Nagast)",
+          "other_id": null,
+          "claim": "influence: canonical collections carried into Ethiopia.",
+          "match_note": "Ethiopian church; census candidates are several, so left null."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-humiliati",
+      "name": "The Humiliati",
+      "dates": "c. 1170-1300",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Lay penitential wool-workers condemned alongside the Waldensians and then re-absorbed - the mirror image of the Waldensians themselves: the same 1184 condemnation, the opposite outcome.",
+          "other": "The Waldensians",
+          "other_id": "the-waldensians",
+          "claim": "opposition: condemned alongside the Waldensians."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And called themselves the Humiliati, 'the humbled ones.' In 1184 they were condemned alongside the Waldensians for preaching without official permission, but where the Waldensians' story became one of lasting separation, theirs took the opposite turn.",
+          "other": "The Waldensians",
+          "other_id": "the-waldensians",
+          "claim": "opposition: condemned alongside the Waldensians in 1184."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Pope Innocent III reconciled them in 1201, organizing them into three recognized orders.",
+          "other": "Papacy under Innocent III",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "approval: Innocent III reconciled them in 1201."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "For roughly two centuries afterward they remained a real presence in northern Italian towns, their rule and community records still surviving, until the movement was formally suppressed by papal bull in 1571.",
+          "other": "Papacy (papal bull, 1571)",
+          "other_id": "the-tridentine-church",
+          "claim": "opposition: suppressed by papal bull in 1571.",
+          "match_note": "1571 falls in the Tridentine era; the Tridentine Church record is the nearest census entry."
+        },
+        {
+          "field": "why",
+          "sentence": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress, manual labor and a rejection of the oath-taking and violence expected of feudal society, calling themselves the Humiliati, 'the humbled ones.' Condemned alongside the Waldensians in 1184 for preaching without permission, they took the opposite path: Pope Innocent III reconciled them in 1201, organizing them into three orders, two religious and one for married lay people who stayed in ordinary working life.",
+          "other": "The Waldensians",
+          "other_id": "the-waldensians",
+          "claim": "opposition: condemned alongside the Waldensians."
+        },
+        {
+          "field": "why",
+          "sentence": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress, manual labor and a rejection of the oath-taking and violence expected of feudal society, calling themselves the Humiliati, 'the humbled ones.' Condemned alongside the Waldensians in 1184 for preaching without permission, they took the opposite path: Pope Innocent III reconciled them in 1201, organizing them into three orders, two religious and one for married lay people who stayed in ordinary working life.",
+          "other": "Papacy under Innocent III",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "approval: reconciled in 1201."
+        },
+        {
+          "field": "why",
+          "sentence": "They remained a real presence in northern Italian towns for roughly two centuries, until the movement was suppressed by papal bull in 1571.",
+          "other": "Papacy (papal bull, 1571)",
+          "other_id": "the-tridentine-church",
+          "claim": "opposition: suppressed by papal bull in 1571.",
+          "match_note": "Nearest census entry is the Tridentine Church record."
+        },
+        {
+          "field": "legacy",
+          "sentence": "No clear record survives of lasting influence beyond their own two centuries — when the order was suppressed by papal bull in 1571, its distinct identity ended with it.",
+          "other": "Papacy (papal bull, 1571)",
+          "other_id": "the-tridentine-church",
+          "claim": "opposition: suppressed by papal bull in 1571.",
+          "match_note": "Nearest census entry is the Tridentine Church record."
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    }
+  ]
+}

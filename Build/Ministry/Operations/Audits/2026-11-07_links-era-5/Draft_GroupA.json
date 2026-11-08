@@ -1,0 +1,1356 @@
+{
+ "group": "A",
+ "movements": [
+  "cistercian-monasticism",
+  "carthusian-life",
+  "canons-regular-victorine-school",
+  "athonite-and-comnenian-byzantine-monasticism",
+  "the-carmelites"
+ ],
+ "dispositions": [
+  {
+   "movement": "cistercian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Reform child of Cluny; shapes later mysticism",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Descent from Cluny misstates the founding (the founders left Molesme) and no vendored text supports any Cistercian-Cluny tie. Wanted: Bernard's Apologia, Exordium Parvum."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Reform child of Cluny; shapes later mysticism",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "prose_change": 0,
+   "reason": "'Shapes later mysticism' kept as 'Bernard's writings fed later Western prayer', carried by the Documented link (Rolle and Hilton quote Bernard). The inventory's guess, Rhineland mysticism, is not named and was not linked."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Reform child of Cluny; shapes later mysticism",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "prose_change": 0,
+   "reason": "The new summary names it a reform of Benedictine life; Inferential-Thin link."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "longDescription",
+   "sentence": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme because they thought Benedictine life had grown too comfortable — Cluny and the other rich houses above all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Molesme has no census entry. The departure from Molesme rests on the Exordium Parvum, which is named in the entry's sources but not vendored; left as the entry's own founding account (wanted)."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "longDescription",
+   "sentence": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme because they thought Benedictine life had grown too comfortable — Cluny and the other rich houses above all.",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Cluny and the other rich houses above all' removed; no vendored source."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "longDescription",
+   "sentence": "And settled in a marshy clearing called Cîteaux to keep the Rule of St Benedict as plainly as they could:",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "prose_change": 1,
+   "reason": "Rule of St Benedict; Inferential-Thin link. The sentence fragment is repaired in the same change."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "longDescription",
+   "sentence": "The order never ended, and its writers — Bernard on the Song of Songs, Aelred of Rievaulx on friendship — stayed among the most-read spiritual authors of the Latin West for centuries afterward.",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "prose_change": 1,
+   "reason": "General reception claim with no single party; the English mystics link shows one documented case. Kept."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "why",
+   "sentence": "In 1098 a group of monks left Cluny's own tradition behind, walking out of the abbey of Molesme to keep the Rule of St Benedict plainly at Cîteaux:",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Left Cluny's own tradition behind' removed; the founders left Molesme and no vendored text ties them to Cluny."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "why",
+   "sentence": "In 1098 a group of monks left Cluny's own tradition behind, walking out of the abbey of Molesme to keep the Rule of St Benedict plainly at Cîteaux:",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "prose_change": 2,
+   "reason": "Rule of St Benedict; Inferential-Thin link."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "why",
+   "sentence": "Bernard's sermons and Aelred of Rievaulx's writing on friendship stayed among the most-read spiritual works in the West for centuries afterward.",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "prose_change": null,
+   "reason": "Same general reception claim as the description; kept (the field is rewritten for reading level only)."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "legacy",
+   "sentence": "Cistercian and Trappist houses keep the same rule today.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Trappists have no census entry; a present-day fact, kept."
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "legacy",
+   "sentence": "Bernard's sermons on the Song of Songs and Aelred's Spiritual Friendship shaped nearly every later Western tradition of contemplative prayer and warm, affectionate devotion.",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "prose_change": 3,
+   "reason": "Rewritten to the documented reception (Rolle and Hilton quote Bernard). Aelred's later readership is kept as description only; the vendored PL 40 shows a pseudo-Augustinian abridgement of his Spiritual Friendship (lines 58908-58930) but no census party."
+  },
+  {
+   "movement": "carthusian-life",
+   "field": "relationsSummary",
+   "sentence": "The desert revived inside the Latin West",
+   "other_id": "desert-monasticism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No vendored text links the Carthusians to the desert monks. Wanted: Guigo I, Consuetudines (PL 153)."
+  },
+  {
+   "movement": "carthusian-life",
+   "field": "longDescription",
+   "sentence": "Guigo I, the fifth prior, wrote the customs down around 1127 — cell, silence, and a strict cap on how many could live in any one house — and Guigo II's Ladder of Monks, a short account of reading, meditating, praying and resting in God, became one of the most widely used descriptions of prayer in the Western church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'One of the most widely used descriptions of prayer in the Western church': a general reception claim with no single party. McCann's note (fourteenth-century English translation) supports its spread; left as written."
+  },
+  {
+   "movement": "carthusian-life",
+   "field": "longDescription",
+   "sentence": "The one great exception was Hugh, prior of the English charterhouse at Witham and then bishop of Lincoln, whose chaplain wrote him up in unusual detail.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Hugh of Lincoln's career and biography; the English church has no era-5 census entry and no relationship between movements is claimed."
+  },
+  {
+   "movement": "carthusian-life",
+   "field": "legacy",
+   "sentence": "Its longest reach is Guigo II's Ladder of Monks:",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "carthusian-life--the-english-mystics-and-devout",
+   "prose_change": 5,
+   "reason": "Rewritten to the reception a vendored text supports (Cloud ch. 35 and McCann's note); Inferential-Thin."
+  },
+  {
+   "movement": "carthusian-life",
+   "field": "why",
+   "sentence": "Guigo II's short treatise, the Ladder of Monks, describes reading, meditating, praying and resting in God, and became one of the most widely used accounts of prayer in the Western church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same general reception claim as the description; left as written."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "relationsSummary",
+   "sentence": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Bridge between cloister and the schools' characterizes the school; no census entry stands for 'the schools' (the Paris masters). The Premonstratensians clause is a scoping note about this entry's own contents."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "relationsSummary",
+   "sentence": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Premonstratensians have no census entry; the entry's statusDescription places them inside this one. Not a claim needing a link."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "longDescription",
+   "sentence": "Canons regular were clergy who lived in community under a rule — usually the Rule of St Augustine.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Augustine has no movement of his own (era-2 Open-Gaps). Underhill's introduction to Hilton (lines 291-294) confirms Hugh and Richard were Augustinian canons; left as written."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "longDescription",
+   "sentence": "The most influential of their houses was the abbey of Saint-Victor on the left bank of Paris, where the master William of Champeaux withdrew from the schools in 1108 and where his successors built a way of learning that refused to choose between the classroom and the cloister.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "William's withdrawal from the Paris schools is an event in this movement's own founding; no census party."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "legacy",
+   "sentence": "canons regular still exist, and Norbert's Premonstratensians remain an order today.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry; a present-day fact, kept."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "legacy",
+   "sentence": "Hugh's insistence that the arts and sciences belong inside the search for God, and Richard's stage-by-stage analysis of contemplation, were read and quarried by nearly everyone who wrote on prayer in the later Middle Ages — Bonaventure most of all.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "canons-regular-victorine-school--the-franciscan-movement",
+   "prose_change": 6,
+   "reason": "Bonaventure followed Richard (McCann 1924); Widely Accepted. 'Most of all' dropped as unsupported."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "legacy",
+   "sentence": "Hugh's insistence that the arts and sciences belong inside the search for God, and Richard's stage-by-stage analysis of contemplation, were read and quarried by nearly everyone who wrote on prayer in the later Middle Ages — Bonaventure most of all.",
+   "other_id": "the-english-mystics-and-devout",
+   "disposition": "link",
+   "link_id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+   "prose_change": 6,
+   "reason": "'Nearly everyone who wrote on prayer' kept on Underhill's reading; the English mystics are now named and carried by the Documented Cloud link."
+  },
+  {
+   "movement": "canons-regular-victorine-school",
+   "field": "legacy",
+   "sentence": "And the abbey's sequences stayed in the liturgy long after the school that composed them had gone quiet.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Liturgical survival of Adam's sequences; no census party."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Heir of the iconophile tradition; parent of hesychasm",
+   "other_id": "iconophile-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "prose_change": 7,
+   "reason": "Inferential-Thin link (Nicetas of Stoudios as Symeon's disciple); summary softened to 'likely heir'."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Heir of the iconophile tradition; parent of hesychasm",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": 7,
+   "reason": "Documented 'influenced' link; 'parent' becomes 'fed' to match the type."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "In 963 the monk Athanasios, with the backing of a Byzantine emperor, founded the Great Lavra on the mountainous peninsula of Athos in northern Greece, and the loose scatter of hermits already living there began to take the shape it has kept ever since.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Inventory missed this. Imperial backing of the 963 founding: Inferential-Thin link on Curzon's secondhand report. Sentence left as written."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "In Constantinople in the same period Symeon the New Theologian preached to his monks that God can be known directly and consciously, in experienced light, and was pushed out of his monastery for pressing the claim so hard.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Pushed out of his monastery' names no other party; no vendored text says who exiled Symeon. Left as written (a fact about this movement's own figure)."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The capital's monasteries are this entry's own Comnenian half, not another movement."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "longDescription",
+   "sentence": "Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": null,
+   "reason": "Documented link (Telikoudes names Symeon's chapters; the Hagioritic Tome)."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "why",
+   "sentence": "In 963 the monk Athanasios founded the Great Lavra on Mount Athos with imperial backing, and the peninsula grew into a federation of monasteries each governed by its own written charter, a typikon setting down everything from diet to liturgy.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "prose_change": null,
+   "reason": "Same Inferential-Thin link as the description."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "why",
+   "sentence": "Between them, these houses shaped the disciplines of interior prayer that the next century would gather up and name hesychasm.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": null,
+   "reason": "Documented link."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "The prayer practices formed here fed directly into hesychasm and the Palamite theology of the next century, and from there into the whole later devotional life of Orthodoxy — the Jesus Prayer, and eventually the Philokalia.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": 8,
+   "reason": "Documented link; sentence split for reading level, claim kept."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "The prayer practices formed here fed directly into hesychasm and the Palamite theology of the next century, and from there into the whole later devotional life of Orthodoxy — the Jesus Prayer, and eventually the Philokalia.",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": 8,
+   "reason": "Documented: the Philokalia prints Symeon the New Theologian."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+   "other_id": "the-georgian-golden-age",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "prose_change": 8,
+   "reason": "No source for Georgian founders adapting Athonite typika. Rewritten to what Brosset (1849) says: Georgian translators at Iviron. Inferential-Thin. Inventory guessed georgian-revival-tao-klarjeti; see the link's flags."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No vendored text shows Serbian or Bulgarian founders adapting Athonite charters (the Miklosich charters are vendored but the OCR is too poor to locate or quote). Removed from this entry; the Serbian entry's own text carries Sava and Hilandar for its group. Wanted: Domentijan's or Teodosije's Life of Sava, or Sava's Karyes and Hilandar typika."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+   "other_id": "kievan-rus-christianity-1054-1240",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "prose_change": 8,
+   "reason": "Inventory's other_id (muscovite-monastic-christianity) corrected. Mouravieff (1838) shows Anthony tonsured on Athos but the Kyiv rule Studite; rewritten to the Anthony tie; Inferential-Thin."
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "sentence": "Mount Athos never stopped.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Continuity of Athos itself to the present; no other party. Kept, reworded for reading level."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary",
+   "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'One of the mendicant orders alongside the Franciscans' classifies the order; it claims no contact or influence, and no vendored text shows one."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary",
+   "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+   "other_id": "the-dominican-order",
+   "disposition": "link",
+   "link_id": "the-dominican-order--the-carmelites",
+   "prose_change": null,
+   "reason": "The classing with the Dominicans is description, but a documented tie lies behind it: the two Dominicans who revised the rule in 1247 (Widely Accepted)."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary",
+   "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--the-carmelites",
+   "prose_change": null,
+   "reason": "Albert's rule; Documented."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary",
+   "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-carmelites",
+   "prose_change": null,
+   "reason": "Innocent IV's 1247 approval; Documented."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary",
+   "sentence": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'After migrating west in the 1230s and 1240s as the crusader states contracted' is an event in the order's own history and its setting, not a relationship between the two churches. No vendored text dates the move; left as written and flagged under the open ruling on well-known facts without a vendored source (see escalations; wanted text listed)."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "longDescription",
+   "sentence": "Some time between 1206 and 1214 a group of Latin hermits living in a wadi on Mount Carmel above the bay from crusader Acre asked Albert, the patriarch of Jerusalem — who kept his seat at Acre — for a written way of life.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "link",
+   "link_id": "latin-church-of-outremer--the-carmelites",
+   "prose_change": null,
+   "reason": "Albert's rule (Documented). 'Who kept his seat at Acre' is not in a vendored text; flagged in the link, not repeated in its note."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "longDescription",
+   "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-carmelites",
+   "prose_change": null,
+   "reason": "Documented."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "longDescription",
+   "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+   "other_id": "the-dominican-order",
+   "disposition": "link",
+   "link_id": "the-dominican-order--the-carmelites",
+   "prose_change": null,
+   "reason": "The Dominican revisers stand behind 'adapted ... alongside the Dominicans'; Widely Accepted."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "longDescription",
+   "sentence": "As the crusader states contracted the hermits moved west, into England, France and Italy, where a hermit's rule made little sense in a town — so the life was adapted into a mendicant order alongside the Franciscans and Dominicans, and Innocent IV approved the revised Rule in 1247.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Classification alongside the Franciscans; no contact or influence claimed."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "longDescription",
+   "sentence": "The order kept the mountain in its name and in its self-understanding, and traced its origins, in its own later retellings, all the way back to the prophet Elijah.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The order's own later self-understanding, already marked as later retelling. Teresa's Foundations (e.g. line 15195, 'Elias, our father') shows the sixteenth-century form of it."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "why",
+   "sentence": "As the crusader states contracted, the hermits moved into England, France and Italy, where their rule was adapted into a mendicant order and approved by Innocent IV in 1247.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-carmelites",
+   "prose_change": null,
+   "reason": "Documented."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "why",
+   "sentence": "As the crusader states contracted, the hermits moved into England, France and Italy, where their rule was adapted into a mendicant order and approved by Innocent IV in 1247.",
+   "other_id": "latin-church-of-outremer",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Move west as the crusader states contracted: same as the summary; flagged, left as written."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "legacy",
+   "sentence": "The sixteenth-century Spanish reform that produced Teresa of Ávila and John of the Cross grew directly out of this rule, and their writings became the standard vocabulary of Western contemplative prayer.",
+   "other_id": "carmelite-reform-and-spanish-mystics",
+   "disposition": "link",
+   "link_id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "prose_change": null,
+   "reason": "Documented in Teresa's own Life."
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "legacy",
+   "sentence": "The brown scapular, one of the most widespread Catholic devotional objects, comes from the order.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Simon Stock and the scapular: no census entry, and the text already calls the vision story a later legend."
+  }
+ ],
+ "links": [
+  {
+   "id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "action": "new",
+   "from": "cistercian-monasticism",
+   "to": "the-english-mystics-and-devout",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Richard Rolle, the Yorkshire hermit who died in 1349, quotes 'S. Bernard' on fasting and keeping watch. Walter Hilton's Scale of Perfection quotes Bernard too. In 1914 Evelyn Underhill named Bernard as one of the three masters who shaped Rolle most.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Rolle, The Form of Perfect Living, rendered into modern English by Geraldine E. Hodgson (1910)",
+     "file": "cic/texts/rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt",
+     "lines": "583-585",
+     "locus": "The Form of Perfect Living",
+     "quote": "And S. Bernard says: \"Fasting and waking hinder not spiritual goods, but help, if they be done with _discretion_; without that, they are vices.\"",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Walter Hilton, The Scale of Perfection, ed. Evelyn Underhill (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "4964-4967",
+     "locus": "Scale of Perfection (on the command to love God with all the heart)",
+     "quote": "for this intent, as Saint Bernard sayeth, that we should know thereby our feebleness and then meekly cry mercy, and we shall have it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Evelyn Underhill, introduction to Richard Rolle, The Fire of Love and The Mending of Life, ed. Frances M. M. Comper (1914)",
+     "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt",
+     "lines": "752-754",
+     "locus": "Introduction",
+     "quote": "here conforming to the doctrine of the three great masters of the spiritual life whose writings had influenced him most, St. Bernard, Richard of St, Victor, and St. Bonaventura.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "601-603",
+     "locus": "Introduction",
+     "quote": "as regards his mystical teaching further depends on St. Bernard and St. Bonaventura ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cistercian-monasticism relationsSummary ('Bernard's writings fed later Western prayer') and legacy ('the English writers Richard Rolle and Walter Hilton still quoted Bernard by name'), both after prose changes 0 and 3",
+   "wants": [
+    "Bernard of Clairvaux, Sermons on the Song of Songs and De diligendo Deo, in a vendored edition (Eales 1889-96 or PL 182-183), to check whether the sayings Rolle and Hilton credit to Bernard are his own"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The two sayings are credited to Bernard by Rolle and Hilton; I could not check them against Bernard's own works (not vendored). Medieval writers often credit pseudo-Bernardine texts to him. The link rests on their naming him, which the Documented test for 'influenced' asks for, plus Underhill's reading.",
+    "Rolle's wording is Hodgson's 1910 modern English; Hilton's is Underhill's modern spelling. The quote keeps Hodgson's underscores (italics) exactly as the file prints them."
+   ],
+   "change_reason": "New. Replaces the unsourced 'shapes later mysticism' and 'shaped nearly every later Western tradition' with one documented reception."
+  },
+  {
+   "id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+   "action": "new",
+   "from": "canons-regular-victorine-school",
+   "to": "the-english-mystics-and-devout",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The English author of The Cloud of Unknowing also put Denis's Mystical Theology into English. He wrote that he had 'much followed' the Abbot of Saint Victor's reading of it. His 1924 editor says this was Thomas, abbot at Vercelli, a Victorine canon who died in 1246. He also shows the Cloud taking much from Richard of St Victor.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Anonymous author of The Cloud of Unknowing, prologue to Denis Hid Divinity (his English version of the Mystical Theology), ed. Justin McCann (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "12899-12904",
+     "locus": "Denis Hid Divinity, prologue",
+     "quote": "I have not only followed the naked letter of the text, but for to declare the hardness of it, I have much followed the sentence of the Abbot of Saint Victor*, a noble and a worthy expositor of this same book.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "443-447",
+     "locus": "Introduction",
+     "quote": "Thomas, Abbot of St Andrew’s, Vercelli, from its foundation in 1219 until his death in 1246, a Canon Regular of the Congregation of St Victor,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "540-546",
+     "locus": "Introduction",
+     "quote": "To him several chapters of the Cloud are very closely in- debted, and there are many incidental borrowings, some of which are mentioned in the notes to this edition. Moreover, the author’s Benjamin is a free rendering of Richard’s Benjamin Minor.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "606-608",
+     "locus": "Introduction (on Richard of St Victor)",
+     "quote": "From him Hilton, like the rest of the English school, takes his psychology en bloc.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "canons-regular-victorine-school legacy ('so did the English mystics of the fourteenth century', after prose change 6; the old 'nearly everyone who wrote on prayer in the later Middle Ages' is kept and is Underhill's reading)",
+   "wants": [
+    "Richard of St Victor, Benjamin Minor (PL 196), in a vendored edition, to set beside the Cloud author's Benjamin"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The asterisk after 'Saint Victor' is the file's footnote mark and is part of the quote. McCann's 'in- debted' and 'Benjamin is' quote keeps the file's line-break hyphen and curly apostrophes exactly.",
+    "The census calls the last Victorine 'Thomas Gallus'; McCann and the Cloud's footnote call him Thomas of St Victor, abbot of Vercelli, d. 1246. Same man; the note uses McCann's description."
+   ],
+   "change_reason": "New. Documents the Victorine reading of later English prayer named in the legacy."
+  },
+  {
+   "id": "canons-regular-victorine-school--the-franciscan-movement",
+   "action": "new",
+   "from": "canons-regular-victorine-school",
+   "to": "the-franciscan-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Bonaventure, the Franciscan friar and teacher, wrote a Journey of the Mind into God. It turns on a pattern of three that Richard of St Victor had used: outside us, within us and above us. In 1924 Justin McCann, who edited The Cloud of Unknowing, called Bonaventure 'a disciple of Richard' in his teaching on prayer.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bonaventure, Itinerarium mentis in Deum, cap. 5, as quoted in Justin McCann's note to The Cloud of Unknowing ch. 32 (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "3990-3993",
+     "locus": "Itinerarium 5 (Quaracchi vol. 5, p. 308), in McCann's note",
+     "quote": "Quoniam autem contingit contemplari Deum non solum extra nos et intra nos, verum etiam supra nos : extra per vestigium, intra per imaginem et supra per lumen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard of St Victor, Benjamin Minor, cap. 55, as quoted in the same note",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "3995-3996",
+     "locus": "Benjamin Minor 55, in McCann's note",
+     "quote": "Extra nos corpo- ralia, intra nos spiritualia, supra nos divina.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "3996-3998",
+     "locus": "note to the Cloud, on the three ways of seeing God",
+     "quote": "St Bonaventure in his mystical teaching is a disciple of Richard.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "5849-5850",
+     "locus": "note to the Cloud, on the flash of light",
+     "quote": "St Bonaventure in his Itinerarium mentis in Deum follows Richard closely,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "canons-regular-victorine-school legacy ('Bonaventure followed Richard closely', after prose change 6; the old text read 'Bonaventure most of all')",
+   "wants": [
+    "Bonaventure, De reductione artium ad theologiam (Quaracchi vol. 5, 1891), where he names Hugh and Richard of St Victor himself; this would lift the link to Documented",
+    "Bonaventure, Itinerarium mentis in Deum, in a vendored edition"
+   ],
+   "drafter_flags": [
+    "The two primary quotes are Bonaventure's and Richard's own Latin, but quoted inside McCann's note; I did not see either work itself. The quotes show the shared three-part pattern; McCann supplies the reading. Graded Widely Accepted, not Documented, because no vendored text has Bonaventure name Richard.",
+    "The Richard quote keeps the file's 'corpo- ralia' line-break hyphen exactly."
+   ],
+   "change_reason": "New. Documents the Bonaventure clause of the legacy at the level the vendored evidence allows; 'most of all' dropped as unsupported."
+  },
+  {
+   "id": "carthusian-life--the-english-mystics-and-devout",
+   "action": "new",
+   "from": "carthusian-life",
+   "to": "the-english-mystics-and-devout",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The Cloud of Unknowing, written in fourteenth-century England, names reading, thinking and praying as a beginner's tools. Its author says another man described them better in another book. His 1924 editor thinks that book is probably the Ladder of Guigo II, prior of the Grande Chartreuse. The author names no one, so this rests on the editor's judgment.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "6387-6390",
+     "locus": "Cloud ch. 35",
+     "quote": "NEVERTHELESS there be means in the which a contemplative prentice should be occupied, the which be these: Lesson, Meditation, and Orison.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "6426-6427",
+     "locus": "Cloud ch. 35 (after a page break and footnote)",
+     "quote": "written in another book by another man much better than I can tell thee;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "6399-6402",
+     "locus": "note to ch. 35",
+     "quote": "The book referred to is probably the Scala Claustralium of Guigo II, prior of the Grande Chartreuse towards the end of the twelfth century.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "6406-6409",
+     "locus": "note to ch. 35",
+     "quote": "It was translated into English in the fourteenth century as ‘‘ a ladder of four rungs, by the which ladder men may well climb to heaven ”",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carthusian-life legacy ('put into English in the fourteenth century ... The author of The Cloud of Unknowing seems to have known them', after prose change 5)",
+   "wants": [
+    "Guigo II, Scala claustralium (the Ladder of Monks), in a vendored edition (PL 184 or PL 40), and the Middle English 'Ladder of four rungs' (MS Douce 322), to compare the Cloud's ch. 35 directly"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The english-mystics entry's own text also names the Carthusians, for a different claim: that they copied and kept these texts. That is for the era-6 pass; if it is documented it may need its own second link on this pair (id ending --2).",
+    "The second Cloud quote begins mid-sentence because McCann's footnote and a page break split the sentence in the file; its start ('Of these three thou shalt find') is at line 6391.",
+    "Graded Inferential-Thin: the Cloud names no book or author, and McCann says only 'probably'."
+   ],
+   "change_reason": "New. Replaces the unsourced claim that the Ladder 'passed into the general devotional vocabulary of the West' with the one reception a vendored text supports."
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "action": "new",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "cistercian-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text we hold says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "D. Oswald Hunter Blair, note on the Rule's provisions for silence, in The Rule of St. Benedict (1907)",
+     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+     "lines": "10527-10529",
+     "locus": "editor's note",
+     "quote": "the early constitu- tions both of the Carthusian and Cistercian Orders explicitly legislate for conversations at regular times.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cistercian-monasticism longDescription and why ('to keep the Rule of St Benedict'), relationsSummary ('A plainer reform of Benedictine life', after prose change 0); early-benedictine-italian-monasticism legacy ('it stands behind the Cluniacs, the Cistercians ...')",
+   "wants": [
+    "The Exordium Parvum and Carta Caritatis (e.g. Guignard, Les monuments primitifs de la règle cistercienne, 1878, public domain), which state the founders' aim to keep the Rule of St Benedict; with them this link could be Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 3",
+    "A true and basic relationship carried here by thin evidence only: no early Cistercian text is vendored. The Rule itself is vendored but cannot show its later readers.",
+    "Quote keeps the file's 'constitu- tions' line-break hyphen exactly."
+   ],
+   "change_reason": "New. The movement's text names the Rule of St Benedict three times; this is the only vendored support found."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "hesychasm-and-the-palamite-synthesis",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Kallistos Telikoudes, a teacher of hesychast prayer, told monks to read chapters on prayer. He named 'especially' those of the New Theologian. That is Symeon, an abbot in Constantinople around the year 1000. The hesychasts' own case also went out from Athos, as the Tome of the Holy Mountain.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kallistos Telikoudes, chapters on quiet (Greek with Latin), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "32624-32625",
+     "locus": "Telikoudes, on the five works of quiet (Greek column)",
+     "quote": "μάνιστα τοῦ νέου Θεολόγου,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory Palamas and the monks of Athos, the Hagioritic Tome on behalf of the hesychasts, Latin heading in Migne, PG 150 (1865)",
+     "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+     "lines": "68790-68793",
+     "locus": "Tomus Hagioriticus, heading",
+     "quote": "HAGIORITICUS TOMUS DE QUIETISTIS",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite relationsSummary ('its way of prayer fed hesychasm'), longDescription and why (the disciplines 'the following century would gather up and name hesychasm'), legacy ('fed straight into hesychasm'); hesychasm relationsSummary ('Heir of Athonite line') and longDescription ('On Mount Athos monks had long practiced hesychia')",
+   "wants": [
+    "A clean text or translation of Gregory Palamas, Triads in Defence of the Holy Hesychasts (I.2.12 names Nikephoros the Athonite), to document the Athonite source of the method in Palamas's own words",
+    "A source placing Nikephoros the Monk, the author of On Sobriety (PG 147 from line 38202), on Mount Athos in the thirteenth century"
+   ],
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The Greek OCR reads 'μάνιστα' for 'μάλιστα' ('especially'); the quote keeps the file's reading exactly. The parallel Latin at lines 32562-32563 reads 'praesertim juve- nis Theologi', i.e. 'especially of the young (New) Theologian'. The same sentence goes on to name Hesychius and Nikephoros, but that part of the OCR is too garbled to quote ('Havjlov, xat Ntxnz6poo').",
+    "Telikoudes's date was not checked in a vendored source; the note calls him 'a teacher of hesychast prayer' without a date. The corpus map files him under the fourteenth-century hesychasm entry.",
+    "Type: hesychasm's statusDescription says it 'succeeds from the Athonite entry as a direct continuation'. I chose 'influenced' because the quotable evidence is a later writer naming an earlier one's work. A 'continued as' link for the Athonite houses into the fourteenth century would need its own evidence (e.g. a clean Hagioritic Tome with its signatories); I did not draft one. Reviewer may weigh this.",
+    "The Tome quote is Migne's Latin heading only; it shows the Holy Mountain's name on the hesychasts' defence, not its date. 1340-41 comes from the corpus map, so the note gives no date."
+   ],
+   "change_reason": "New. The movement's text names hesychasm in all four fields."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "the-hesychast-revival-paisius-and-the-philokalia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Philokalia, a book of writings on prayer first printed in 1782, carries work by Symeon the New Theologian. Its 1893 Athens edition lists a talk on faith by 'our holy father Symeon the New Theologian'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), table of contents",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "74199-74202",
+     "locus": "vol. 2, table of contents",
+     "quote": "Ὁσίου Πατρὸς ἡμῶν Συμεὼν τοῦ νέου Θεολόγου λόγος περὶ πίστεως",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite legacy ('and in time the Philokalia'); the-hesychast-revival-paisius-and-the-philokalia text (Paisius on Athos; Macarius and Nicodemus on Athos assembling the anthology)",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 8",
+    "OCR prints a Cyrillic 'Тов' before the quoted words and a stray quotation mark after them; both are outside the quote.",
+    "The 1782 date comes from the file header ('first printed Venice, 1782'), not from the quoted line."
+   ],
+   "change_reason": "New. The legacy names the Philokalia; the anthology itself carries Symeon's work."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The Philokalia calls Nicetas Stethatos a priest of the Stoudios monastery in Constantinople, the house of Theodore the Studite. It makes him the closest pupil of Symeon the New Theologian, around 1030. That ties Stoudios to Symeon's circle. But no text we hold shows the monks of Athos drawing on the monks who fought for icons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), preface to Nicetas Stethatos",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "23139-23144",
+     "locus": "vol. 2, life of Nicetas Stethatos",
+     "quote": "Ἰχήτας ὁ Ὁσιώτατος Πρεσόύτε-- ρος τῆς Στουδίων Μονῆς, ὁ хо! Στηθᾶτος ἐπιχαλούμενος, Ἦν ἐν ἔτει ἀπὸ Χριστοῦ χιλιοστῷ τρια- χοστῷ, μαθητὴς χρηματίσας Συ - μεὼν τοῦ νέου Θεολόγου",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite relationsSummary ('Likely heir of the monks who fought for icons', after prose change 7); iconophile-byzantine-monasticism relationsSummary ('parent of Athonite monasticism') and legacy ('continues directly as Athonite monasticism')",
+   "wants": [
+    "The Typikon of Athanasios for the Great Lavra (e.g. Meyer, Die Haupturkunden für die Geschichte der Athosklöster, 1894), which draws on the Studite rule; with it this link could rise",
+    "Niketas Stethatos, Life of Symeon the New Theologian, in a vendored edition, for Symeon's own years at Stoudios"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4",
+    "The quote keeps heavy OCR damage exactly: 'Ἰχήτας' for 'Νικήτας', 'Πρεσόύτε--' for 'Πρεσβύτε-', a Cyrillic 'хо!' for 'καὶ', and line-break hyphens. A reviewer should read the page image before relying on it. Lines 23139-23144 are the whole span.",
+    "The iconophile entry's own text claims a direct continuation; that is the era-4 drafter's to weigh. I graded only what this one passage shows."
+   ],
+   "change_reason": "New. The relationsSummary names the iconophile tradition; no stronger vendored evidence was found, so the summary is softened to match."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Robert Curzon, an English visitor to Athos in the 1830s, cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That is the only text we hold on the emperor's part in the founding. It is late and secondhand.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Curzon, Visits to Monasteries in the Levant (1849), chapter on the Great Lavra",
+     "file": "cic/texts/curzon_visits-to-monasteries-in-the-levant_1849.txt",
+     "lines": "8704-8705",
+     "locus": "Mount Athos chapters, St Laura",
+     "quote": "St. Laura was founded by Nicephorus Phocas, and restored by Neagulus, Waywode of Bessarabia.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite longDescription ('with the backing of a Byzantine emperor') and why ('with imperial backing'); not in the inventory",
+   "wants": [
+    "The Typikon or Life of Athanasios of Athos (e.g. Meyer 1894; or the Vitae duae antiquae, Noret 1982 if public domain), naming Nikephoros Phokas as patron"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4",
+    "Curzon passes on Johannes Comnenus's account of 1701 (lines 8702-8703); a late, secondhand source for a tenth-century event. Graded Inferential-Thin for that reason.",
+    "Typed 'influenced' on the precedent that imperial sponsorship of a church act is 'influenced' (era-2 README). The census has no entry for the emperor himself; the Macedonian imperial church (843-1054) is the nearest party."
+   ],
+   "change_reason": "New. A relationship the inventory missed: the founding under imperial patronage."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, tells how Anthony took his vows on Mount Athos and came home to begin the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1557-1563",
+     "locus": "The first monasteries",
+     "quote": "An individual named Anthony, a native of Luhetch9, travelling abroad, visited Mount Athos, and conceived a desire to finish his days there in the monastic state : but the hegumen who gave him the tonsure,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1599-1603",
+     "locus": "The first monasteries",
+     "quote": "wrote out for them the Rule of the Studium Monastery, the strictest of all in Constantinople,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite legacy ('Anthony, who began the Caves Monastery at Kyiv, had taken his vows on the Holy Mountain', after prose change 8, which replaces 'Russian founders'); kievan-rus-christianity-1054-1240 longDescription ('begun by a hermit named Anthony')",
+   "wants": [
+    "The Kyiv Primary Chronicle (entry for 1051) in a vendored edition, e.g. the Laurentian text in PSRL vol. 1 (1846), and the Kyiv Caves Paterikon, for Anthony's tonsure on Athos"
+   ],
+   "drafter_flags": [
+    "Possible same-era duplicate: the Kievan Rus' 1054-1240 entry belongs to another era-5 group; its drafter may draft this pair from the Caves Monastery side.",
+    "The inventory guessed muscovite-monastic-christianity for 'Russian founders'; the evidence found is for Kyiv, so the prose now names Kyiv. 'Luhetch9' keeps the file's footnote digit.",
+    "The same source says the Caves rule was the Studite rule from Constantinople, not an Athonite charter. That is why the old 'Athonite typika were adapted by ... Russian founders' could not stand."
+   ],
+   "change_reason": "New. Replaces the unsupported 'Russian founders adapted Athonite typika' with the one tie a vendored text carries."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "the-georgian-golden-age",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1849 Marie-Félicité Brosset, who edited the Georgian chronicles, wrote that under King Bagrat III the Georgian monastery on Athos was home to learned translators. They put scripture and the best Greek books of theology into Georgian. This rests on that one modern summary.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, introduction to Histoire de la Géorgie, première partie (1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2965-2967",
+     "locus": "Introduction",
+     "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa- vants interprèles des livres saints et des plus belles productions de la théologie grecque,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "athonite legacy ('At Iviron, the Georgian house on Athos, monks put scripture and Greek books of theology into Georgian', after prose change 8, which replaces 'Georgian ... founders')",
+   "wants": [
+    "The Georgian Life of John and Euthymius of Athos (by George the Athonite), in a vendored translation, for the Iviron translators and their books"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4 (alternative party): Iviron was founded c. 980-983, inside georgian-revival-tao-klarjeti's window, and that entry's text names it. I chose the Golden Age because Brosset ties the translators to Bagrat III, and the books served the church of the united kingdom. Reviewer may prefer the Tao-Klarjeti entry.",
+    "OCR reads 'Atbos' for 'Athos', 'interprèles' for 'interprètes', with a 'sa- vants' line break; the quote keeps them exactly.",
+    "Brosset's own Bagrat III dates are not given in these lines; the note gives none."
+   ],
+   "change_reason": "New. Replaces the unsupported 'Georgian founders adapted Athonite typika' with what a vendored text says."
+  },
+  {
+   "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "action": "new",
+   "from": "the-carmelites",
+   "to": "carmelite-reform-and-spanish-mystics",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Teresa of Ávila wrote that her reformed nuns kept 'the rule of our Lady of Carmel, not the rule of the Mitigation'. She meant the rule as it was revised under Pope Innocent IV. Her editor dates his approval to 1247, though she gives 1248.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Ávila, Life, ch. 36 §27, trans. David Lewis, ed. Benedict Zimmerman (1904)",
+     "file": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+     "lines": "19258-19262",
+     "locus": "Life 36.27",
+     "quote": "We keep the rule of our Lady of Carmel, not the rule of the Mitigation, but as it was settled by Fr. Hugo, Cardinal of Santa Sabina, and given in the year 1248, in the fifth year of the pontificate of Innocent IV., Pope.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, note to the Rule, in Teresa of Ávila, The Book of the Foundations, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22414-22415",
+     "locus": "note to the Rule's dating clause",
+     "quote": "IV correspond to 1247 not 1248 as is frequently, though erroneously, stated,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-carmelites legacy ('The sixteenth-century Spanish reform ... grew directly out of this rule'); carmelite-reform-and-spanish-mystics relationsSummary ('connects to the medieval Carmelite order')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "Type: 'gave rise to' was considered, since Teresa was herself a Carmelite nun. But the reform came from the sixteenth-century order, not from the 1206-1300 communities this entry covers; the tie to this entry is the rule, so 'influenced'.",
+    "The note's 'Her editor' is Zimmerman, editor of both the 1904 Life and the 1913 Foundations; the dating note is in the Foundations volume."
+   ],
+   "change_reason": "New. The legacy's one named descendant, documented in Teresa's own words."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-carmelites",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-carmelites",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Pope Innocent IV wrote to 'the prior and brethren, hermits of blessed Mary of Mount Carmel'. At their request two delegates had explained, corrected and softened their rule, and he confirmed the result. His letter is dated at Lyons in the fifth year of his reign, which was 1247.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), trans. in Teresa of Ávila, The Book of the Foundations, Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21980-21983",
+     "locus": "bull of Innocent IV, salutation",
+     "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22014-22017",
+     "locus": "bull of Innocent IV",
+     "quote": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22409-22410",
+     "locus": "bull of Innocent IV, dating clause",
+     "quote": "Given at Lyons, October 1, in the fifth year of our pontificate.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22414-22415",
+     "locus": "note to the Rule's dating clause",
+     "quote": "IV correspond to 1247 not 1248 as is frequently, though erroneously, stated,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-carmelites relationsSummary ('later approved as a formal Rule in 1247'), longDescription and why ('Innocent IV approved the revised Rule in 1247')",
+   "wants": [],
+   "drafter_flags": [
+    "The 1247 bull is printed from the Bullarium Carmelitanum (1715) in Lewis's English (footnote at line 21994); I read the English only."
+   ],
+   "change_reason": "New. The papal approval named three times in the text."
+  },
+  {
+   "id": "the-dominican-order--the-carmelites",
+   "action": "new",
+   "from": "the-dominican-order",
+   "to": "the-carmelites",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1247 two men sent by the pope revised the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations notes that both were Dominicans. Their letter is already sent to 'the order of the friars of blessed Mary of Mount Carmel'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hugh of Saint-Cher and William of Tortosa, letter to the Carmelites with the revised Rule (1247), in Innocent IV's confirmation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22021-22023",
+     "locus": "the delegates' letter, salutation",
+     "quote": "Friar Hugh, by the Divine compassion cardinal priest of Santa Sabina, and friar William, by the same compas- sion bishop of Tortosa,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "same letter",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22024-22026",
+     "locus": "the delegates' letter, salutation",
+     "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21999-22001",
+     "locus": "note to the bull",
+     "quote": "The Pope com- missioned Hugh of S. Cher, cardinal of Santa Sabina and the bishop of Tortosa, both Dominicans, to make the corrections required,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-carmelites relationsSummary and longDescription ('adapted into a mendicant order alongside the Franciscans and Dominicans')",
+   "wants": [],
+   "drafter_flags": [
+    "New relationship found in the sources, not in the inventory. The text names the Dominicans only as fellow mendicants; this link carries the documented tie behind that sentence.",
+    "Graded Widely Accepted, not Documented: the primary letter calls Hugh and William 'friar' but does not name their order; Zimmerman's note says they were Dominicans.",
+    "Quotes keep the file's line-break hyphens ('compas- sion', 'com- missioned')."
+   ],
+   "change_reason": "New. The Dominican revisers of the 1247 Rule."
+  },
+  {
+   "id": "latin-church-of-outremer--the-carmelites",
+   "action": "new",
+   "from": "latin-church-of-outremer",
+   "to": "the-carmelites",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Carmelites' rule opens as a letter from 'Albert, by the grace of God patriarch of Jerusalem'. He wrote to Brocard and the other hermits who lived 'by the well of Elias on Mount Carmel'. Albert was the Latin patriarch of the crusader kingdom. The editor of Teresa's Foundations says he was killed in 1214.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Albert of Jerusalem, Rule for the hermits of Mount Carmel (1206-1214), opening, as revised in 1247 and kept by the nuns of Alcalá, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22056-22061",
+     "locus": "Rule of Albert, salutation",
+     "quote": "Albert, by the grace of God patriarch of Jerusalem, to our beloved children in Christ, Brocard and the other brethren, hermits, who live under his obedience by the well of Elias on Mount Carmel, health in Jesus Christ, and the blessing of the Holy Ghost.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, note to the bull of Innocent IV, in The Book of the Foundations (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21995-21997",
+     "locus": "note to the bull",
+     "quote": "The primitive rule given by Albert, patriarch of Jerusalem, who was murdered in 1214, was confirmed by Honorius III in the year 1226.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-carmelites relationsSummary ('received a rule of life from Albert, patriarch of Jerusalem'), longDescription ('asked Albert, the patriarch of Jerusalem — who kept his seat at Acre')",
+   "wants": [],
+   "drafter_flags": [
+    "The rule text printed is the 1247 revision as kept at Alcalá (heading, lines 22050-22052); the salutation is Albert's.",
+    "The quote runs 41 words, just over the ~40 guide, to keep the salutation whole.",
+    "The note's 'Latin patriarch of the crusader kingdom' rests on the date (1206-1214) and the Outremer entry, not on the quoted words. 'Kept his seat at Acre' is not in a vendored text and is not repeated in the note."
+   ],
+   "change_reason": "New. The rule's own opening names the patriarch and the hermits."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "cistercian-monasticism",
+   "field": "relationsSummary",
+   "old": "Reform child of Cluny; shapes later mysticism",
+   "new": "A plainer reform of Benedictine life, begun at Cîteaux in 1098. Bernard's writings fed later Western prayer.",
+   "reason": "'Reform child of Cluny' misstates the founding: the entry's own description has the founders leave Molesme, not Cluny, and no vendored text ties the Cistercians to Cluny at all (Bernard's Apologia and the Exordium Parvum are not vendored; listed in wants). 'Shapes later mysticism' is kept in plainer words and now carried by the documented link to the English mystics. Whole field rewritten.",
+   "fre_after": 63.8,
+   "fk_after": 6.5
+  },
+  {
+   "n": 1,
+   "movement": "cistercian-monasticism",
+   "field": "longDescription",
+   "old": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme because they thought Benedictine life had grown too comfortable — Cluny and the other rich houses above all. And settled in a marshy clearing called Cîteaux to keep the Rule of St Benedict as plainly as they could: bare churches, simple food, no elaborate liturgy, and their own hands in the fields. Within a generation the reform had a constitution, the Carta Caritatis, binding every daughter house to the mother house through annual visitation and a yearly general chapter, and after Bernard of Clairvaux arrived in 1113 the order spread across Europe at extraordinary speed. Much of the actual labor was done by lay brothers, the conversi, who took vows but lived a separate, largely manual life alongside the choir monks on farms called granges. The order never ended, and its writers — Bernard on the Song of Songs, Aelred of Rievaulx on friendship — stayed among the most-read spiritual authors of the Latin West for centuries afterward.",
+   "new": "In 1098 a group of monks walked out of the great Burgundian abbey of Molesme. They thought Benedictine life there had grown too comfortable. They settled in a marshy clearing called Cîteaux to keep the Rule of St Benedict as plainly as they could. That meant bare churches, simple food, no elaborate liturgy, and their own hands in the fields. Within a generation the reform had a constitution, the Carta Caritatis. It bound every daughter house to its mother house through yearly visits and a yearly general chapter. After Bernard of Clairvaux arrived in 1113, the order spread across Europe at extraordinary speed. Much of the actual labor was done by lay brothers, the conversi. They took vows but lived a separate, largely manual life beside the choir monks, on farms called granges. The order never ended. Its writers, Bernard on the Song of Songs and Aelred of Rievaulx on friendship, stayed among the most-read spiritual authors of the Latin West for centuries.",
+   "reason": "The clause 'Cluny and the other rich houses above all' is removed: no vendored or repo-read source supports it (wants: Exordium Parvum, Bernard's Apologia). The sentence fragment 'And settled ...' is joined into a full sentence. The rest of the paragraph is split into shorter sentences for reading level; every other fact is kept.",
+   "fre_after": 61.0,
+   "fk_after": 8.4
+  },
+  {
+   "n": 2,
+   "movement": "cistercian-monasticism",
+   "field": "why",
+   "old": "In 1098 a group of monks left Cluny's own tradition behind, walking out of the abbey of Molesme to keep the Rule of St Benedict plainly at Cîteaux: bare churches, manual labor, and no elaborate liturgy. The reform grew fast after Bernard of Clairvaux joined in 1113, and much of the actual work was done by lay brothers, the conversi, farming the order's granges alongside the choir monks. Bernard's sermons and Aelred of Rievaulx's writing on friendship stayed among the most-read spiritual works in the West for centuries afterward.",
+   "new": "In 1098 a group of monks walked out of the abbey of Molesme. They went to keep the Rule of St Benedict plainly at Cîteaux, with bare churches, manual labor and no elaborate liturgy. The reform grew fast after Bernard of Clairvaux joined in 1113. Much of the actual work was done by lay brothers, the conversi, who farmed the order's granges beside the choir monks. Bernard's sermons and Aelred of Rievaulx's writing on friendship stayed among the most-read spiritual works in the West for centuries.",
+   "reason": "'Left Cluny's own tradition behind' is removed. The founders walked out of Molesme, and no vendored text ties them to Cluny's tradition. Sentences shortened; facts kept.",
+   "fre_after": 66.4,
+   "fk_after": 8.3
+  },
+  {
+   "n": 3,
+   "movement": "cistercian-monasticism",
+   "field": "legacy",
+   "old": "The order is still here: Cistercian and Trappist houses keep the same rule today. Its buildings became a style of their own — the bare, unpainted, superbly proportioned church that architects still simply call Cistercian, of which Fontenay in Burgundy survives almost complete. Its writers stayed in circulation for centuries. Bernard's sermons on the Song of Songs and Aelred's Spiritual Friendship shaped nearly every later Western tradition of contemplative prayer and warm, affectionate devotion. And the granges left a mark on European farming, water management and land clearance that outlasted the monks who worked them.",
+   "new": "The order is still here. Cistercian and Trappist houses keep the same rule today. Its buildings became a style of their own: the bare, unpainted, finely shaped church that architects still simply call Cistercian. Fontenay in Burgundy survives almost whole. Its writers were read for centuries. Bernard's sermons on the Song of Songs and Aelred's Spiritual Friendship fed a warm, loving strand of Western prayer. Two hundred years on, the English writers Richard Rolle and Walter Hilton still quoted Bernard by name. And the granges left a mark on European farming, on water and on the clearing of land that outlasted the monks who worked them.",
+   "reason": "'Shaped nearly every later Western tradition of contemplative prayer' claimed more than any vendored source shows. It is replaced by the documented reception: Rolle and Hilton quote Bernard by name (new link to the English mystics). Paragraph rewritten for reading level; the Trappist, Fontenay and granges facts kept.",
+   "fre_after": 63.3,
+   "fk_after": 7.7
+  },
+  {
+   "n": 4,
+   "movement": "carthusian-life",
+   "field": "relationsSummary",
+   "old": "The desert revived inside the Latin West",
+   "new": "A hermit life of cell and silence in the Latin West, kept in much the same shape since 1084",
+   "reason": "'The desert revived inside the Latin West' claims descent from the Egyptian desert monks. No vendored text, Carthusian or other, draws that line (Guigo I's Customs are not vendored; listed in wants). Removed; the summary now describes the life itself.",
+   "fre_after": 89.9,
+   "fk_after": 5.2
+  },
+  {
+   "n": 5,
+   "movement": "carthusian-life",
+   "field": "legacy",
+   "old": "The order is still living and still small, which is exactly what it intended. Its longest reach is Guigo II's Ladder of Monks: the four-step pattern of reading, meditating, praying and resting in God passed into the general devotional vocabulary of the West and is still taught today, often by people who have never heard of the Carthusians. The charterhouse plan — a great cloister ringed by individual cells and gardens — became a recognizable building type across Europe, and several former charterhouses now serve as museums and galleries. The liqueur the monks of the Grande Chartreuse still make has kept the name in ordinary circulation long after most people forgot what it belonged to.",
+   "new": "The order is still living and still small, which is exactly what it intended. Its longest reach is Guigo II's Ladder of Monks. Its four steps of reading, meditating, praying and resting in God were put into English in the fourteenth century. The author of The Cloud of Unknowing seems to have known them. The pattern is still taught today, often by people who have never heard of the Carthusians. The charterhouse plan, a great cloister ringed by single cells and gardens, became a familiar building type across Europe. Several former charterhouses now serve as museums and galleries. The monks of the Grande Chartreuse still make a liqueur, which keeps the name in everyday use long after most people forgot what it belonged to.",
+   "reason": "'Passed into the general devotional vocabulary of the West' replaced by the reception a vendored text supports: McCann (1924) reports a fourteenth-century English translation of the Ladder and thinks the Cloud's author probably knew it (new Inferential-Thin link). 'Still taught today' kept. Paragraph rewritten for reading level; charterhouse and liqueur facts kept.",
+   "fre_after": 65.6,
+   "fk_after": 8.0
+  },
+  {
+   "n": 6,
+   "movement": "canons-regular-victorine-school",
+   "field": "legacy",
+   "old": "The abbey is gone, but the way of life is not: canons regular still exist, and Norbert's Premonstratensians remain an order today. The Victorines' real bequest was intellectual. Hugh's insistence that the arts and sciences belong inside the search for God, and Richard's stage-by-stage analysis of contemplation, were read and quarried by nearly everyone who wrote on prayer in the later Middle Ages — Bonaventure most of all. And the abbey's sequences stayed in the liturgy long after the school that composed them had gone quiet.",
+   "new": "The abbey is gone, but the way of life is not. Canons regular still exist, and Norbert's Premonstratensians remain an order today. The Victorines' real bequest was intellectual. Hugh taught that the arts and sciences belong inside the search for God. Richard mapped contemplation stage by stage. Nearly everyone who wrote on prayer in the later Middle Ages read them and borrowed from them. Bonaventure followed Richard closely, and so did the English mystics of the fourteenth century. And the abbey's sequences stayed in the liturgy long after the school that wrote them had gone quiet.",
+   "reason": "'Nearly everyone who wrote on prayer in the later Middle Ages' is kept: Underhill (1923) says Richard 'affected every spiritual writer of the later Middle Ages'. 'Bonaventure most of all' is softened to 'followed Richard closely' (McCann 1924); no source ranks him first. The English mystics are named, carried by the new Documented link. Paragraph rewritten for reading level.",
+   "fre_after": 61.6,
+   "fk_after": 7.7
+  },
+  {
+   "n": 7,
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "relationsSummary",
+   "old": "Heir of the iconophile tradition; parent of hesychasm",
+   "new": "Likely heir of the monks who fought for icons; its way of prayer fed hesychasm",
+   "reason": "'Heir of the iconophile tradition' rests only on a thin tie (Inferential-Thin link via Nicetas of Stoudios), so it is softened to 'likely heir'. 'Iconophile' is glossed as 'the monks who fought for icons' for readers. 'Parent of hesychasm' becomes 'its way of prayer fed hesychasm', matching the 'influenced' link.",
+   "fre_after": 78.8,
+   "fk_after": 6.0
+  },
+  {
+   "n": 8,
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "legacy",
+   "old": "Mount Athos never stopped. Its monasteries have been continuously occupied since this period, still governed by their own charters, and it is one of the very few places on the whole map of Christian history where a visitor can find something doing today what it was doing a thousand years ago. The prayer practices formed here fed directly into hesychasm and the Palamite theology of the next century, and from there into the whole later devotional life of Orthodoxy — the Jesus Prayer, and eventually the Philokalia. Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe.",
+   "new": "Mount Athos never stopped. Its monasteries have been lived in without a break since this period, and their own charters still govern them. It is one of very few places on the whole map of Christian history where a visitor can find something doing today what it did a thousand years ago. The ways of prayer formed here fed straight into hesychasm and the Palamite theology of the next century. From there they passed into the whole later prayer life of Orthodoxy: the Jesus Prayer, and in time the Philokalia. Monks formed on Athos also carried its life outward. Anthony, who began the Caves Monastery at Kyiv, had taken his vows on the Holy Mountain. At Iviron, the Georgian house on Athos, monks put scripture and Greek books of theology into Georgian.",
+   "reason": "The closing sentence ('Athonite typika were adapted by Georgian, Serbian, Bulgarian and Russian founders, exporting a model of monastic government across Eastern Europe') is replaced. No vendored text shows any of those founders adapting an Athonite charter. Mouravieff (1838) says the Kyiv Caves rule was the Studite rule from Constantinople. What the sources do show is now stated: Anthony of Kyiv took his vows on Athos, and Georgian monks at Iviron translated Greek books (new Inferential-Thin links). The Serbian and Bulgarian claim is removed; the Serbian entry's own text carries Sava and Hilandar. Paragraph rewritten for reading level.",
+   "fre_after": 61.3,
+   "fk_after": 8.8
+  }
+ ],
+ "wants": [
+  "The Exordium Parvum, Exordium Cistercii and Carta Caritatis in a public-domain edition (e.g. Guignard, Les monuments primitifs de la règle cistercienne, Dijon 1878), for the founders' leaving Molesme to keep the Rule of St Benedict; would lift early-benedictine-italian-monasticism--cistercian-monasticism to Documented",
+  "Bernard of Clairvaux, Apologia ad Guillelmum (PL 182; English in Eales, Life and Works of St Bernard, 1889-96), and Peter the Venerable, Letter 28 to Bernard (PL 189), to document a Cistercian-Cluniac link from both sides before any Cluny claim returns",
+  "Bernard of Clairvaux, Sermons on the Song of Songs and De diligendo Deo (PL 182-183 or Eales), to check the sayings Rolle and Hilton credit to him",
+  "Guigo I, Consuetudines Cartusiae (PL 153), to test whether the Carthusian founders tied their life to the desert fathers, before 'the desert revived' can return",
+  "Guigo II, Scala claustralium (PL 184 or PL 40) and the Middle English 'ladder of four rungs' (MS Douce 322), to test the Cloud's ch. 35 reference directly",
+  "Adam of Eynsham, Magna Vita S. Hugonis (Rolls Series 37, ed. Dimock 1864), named in the Carthusian entry's sources",
+  "Bonaventure, De reductione artium ad theologiam (Quaracchi vol. 5, 1891), where he names Hugh and Richard of St Victor; would lift the Victorine-Franciscan link to Documented",
+  "Richard of St Victor, Benjamin Minor and Benjamin Major (PL 196)",
+  "Gregory Palamas, Triads in Defence of the Holy Hesychasts, in a clean text or translation, for his own appeal to Athonite teachers (I.2.12 on Nikephoros)",
+  "A source placing Nikephoros the Monk (On Sobriety, PG 147) on Mount Athos in the thirteenth century",
+  "The Typikon of Athanasios for the Great Lavra and the Lives of Athanasios (e.g. Meyer, Die Haupturkunden für die Geschichte der Athosklöster, 1894), for the founding, imperial patronage and any Studite model",
+  "Niketas Stethatos, Life of Symeon the New Theologian, in a vendored edition",
+  "The Kyiv Primary Chronicle (entry for 1051; e.g. PSRL vol. 1, 1846) and the Kyiv Caves Paterikon, for Anthony's tonsure on Athos",
+  "The Georgian Life of John and Euthymius of Athos, in a vendored translation, for the Iviron translators",
+  "Domentijan's or Teodosije's Life of Sava (e.g. Daničić's editions, 1860s), or Sava's Karyes and Hilandar typika in a readable text, before a Serbian adaptation of Athonite charters can be stated (the vendored Miklosich, Monumenta Serbica, is too garbled to quote)",
+  "A source for the Carmelite hermits' move west in the 1230s and 1240s (e.g. the order's early chronicles, or a repo-cited modern history), and for Albert keeping his seat at Acre"
+ ],
+ "escalations": [
+  "Open ruling, not new: the Carmelites' move west 'as the crusader states contracted' (summary, description, why), the Cistercian founders' leaving Molesme, and Athanasios founding the Lavra in 963 are standard facts with no vendored source. I left them, as the era-2 draft did, under the open Open-Gaps item 'Well-known facts with no vendored source'. I did qualify or remove every relationship claim that lacked support.",
+  "Two-entry consistency (for the merge, not a stop): this draft removes every Cluny claim from the Cistercian entry, since nothing vendored supports it and 'reform child of Cluny' misstates the founding. The era-4 Cluny entry still says 'the Cistercians above all' reacted against Cluny, in its summary and legacy. The era-4 drafter should treat that claim the same way, or the two entries will disagree until Bernard's Apologia is vendored."
+ ]
+}
