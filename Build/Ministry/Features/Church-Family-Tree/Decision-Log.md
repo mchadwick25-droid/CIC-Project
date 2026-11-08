@@ -551,20 +551,22 @@ congress.
 
 1. Era 10 runs 1906–2010. The boundary with era 9 stays at 1906 (Azusa Street), so era 9's frozen
    end does not move.
-2. "Living" on the tree means living as of 2010, and the method page will say so plainly. Era 10
-   makes no claims about the years after 2010.
+2. History runs to 2010, and nothing after 2010 is mapped. The living-tradition marker means alive
+   today, in every era: the tree's one statement about the present. Mark set "as of 2000", then "as
+   of 2010", then corrected it in the same sitting (relayed): "no i think alive today means now, not
+   16 years ago".
 3. Era 10 is identified and sourced by the same Step 0 standard as eras 1 to 9. The per-world
    construction standard does not apply.
-4. The Living-Era Protocol Addendum V1.0 no longer governs era 10, which now has no present-tense
-   claims. Its rules on describing texts rather than people, and on dating statements, may still
-   guide tone.
+4. The Living-Era Protocol Addendum V1.0 governs the living marker, and only it: dated own-voice
+   evidence (R2), the Contemporary-Documented / Contemporary-Reported grades (R3) and present-tense
+   humility (R4). No other present-tense claim enters an entry.
 
 The survey also widens to Christian movements and trends outside formal church bodies (Bible
 translation, campus ministries, church planting, world missions and the like). The unit is the
 movement, never the organization; how such entries are marked is a gate question.
 
 After 2010 (Mark, "yes, pass that to era 10", relayed): the tree says nothing past 2010 and says
-so plainly; a movement active in 2010 keeps its living mark but claims nothing about today. A
+so plainly. The living mark, as finally ruled, means alive today (rule 2). A
 later decade joins once it is about fifteen years in the past (2010–2020 around 2035), under the
 same standard, as a numbered data release. A "since 2010" note and a rolling cut-off were
 declined. The reader-facing line, for the method page and the era 10 band once the gate rules:
