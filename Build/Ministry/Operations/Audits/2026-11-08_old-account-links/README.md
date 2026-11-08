@@ -13,6 +13,7 @@ Ruling: Church Family Tree Decision-Log, "Dominant links on two or three old acc
 
 1. **Draft** (Opus): `Draft_Followup.json`.
 2. **Review round 1** (a separate Opus 5.5 agent, full): `Opus_Review_Round1.json`. Revise: 2 high, 3 medium, 2 low, all applied.
+3. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`. **Pass**: 0 findings.
 
 No model call was metered.
 
