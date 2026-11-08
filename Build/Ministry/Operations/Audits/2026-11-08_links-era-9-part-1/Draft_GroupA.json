@@ -837,16 +837,6 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Minutes of the Methodist Conferences, vol. 1 (Wesleyan Conference Office, 1862), Advertisement",
-     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
-     "lines": "116-118",
-     "locus": "Advertisement, class II, on Warren v. Burton (1835)",
-     "quote": "duced  during  the  Chancery  proceedings  of  1835,",
-     "license": "public-domain"
-    },
-    {
      "kind": "secondary",
      "source_id": null,
      "work": "David Hempton, Methodism: Empire of the Spirit (Yale, 2005)",
@@ -864,7 +854,7 @@
     "Journal of the General Conference of the Methodist Episcopal Church, 1844, for the American side of the continuity and the 1844 split"
    ],
    "drafter_flags": [
-    "The world build already treats nineteenth-century Methodism as the Methodist revival's continuation (Build/worlds/meth/Doc_02_Source_Ecology.md, 'continuesAs target'). The vendored evidence is British only; American continuity rests on Jesse Lee (to 1809) and general knowledge. The second quote is a weak supporting line (the 1835 court case shows the Conference acting in the 1830s); the reviewer may drop it."
+    "The world build already treats nineteenth-century Methodism as the Methodist revival's continuation (Build/worlds/meth/Doc_02_Source_Ecology.md, 'continuesAs target'). The vendored evidence is British only; American continuity rests on Jesse Lee (to 1809) and general knowledge. The same preface (lines 113-122) also records the 1835 Chancery case Warren v. Burton, in which the courts recognized the Conference's 1797 Code; not quoted, since the OCR line breaks fall mid-word."
    ],
    "change_reason": "New: the period split between the two Methodist movements had no link."
   },
@@ -993,7 +983,7 @@
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Gastón Espinosa, William J. Seymour and the Origins of Global Pentecostalism (Duke, 2014)",
+     "work": "Gastón Espinosa, William J. Seymour (Duke, 2014)",
      "file": null,
      "lines": null,
      "quote": null
