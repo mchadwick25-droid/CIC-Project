@@ -267,3 +267,14 @@ it, never by deleting it.
     note uses internal wording" (2026-11-07): `desert-monasticism--iconophile-byzantine-monasticism`
     and `antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce`. Era 5
     cleared every case touching its own movements. For P2-L11.
+51. **Page recordings read the old descriptions (2026-11-08).** The tree pages play a recording of
+    each movement's description, and the link passes rewrite descriptions. In era 5, 16 recorded
+    pages now play text that no longer matches the page: `cistercian-monasticism`,
+    `canons-regular-victorine-school`, `athonite-and-comnenian-byzantine-monasticism`,
+    `the-beguines`, `the-waldensians`, `zagwe-and-early-solomonic-ethiopian-christianity`,
+    `maronite-christianity`, `military-religious-orders-templars-hospitallers`,
+    `cathars-albigensians`, `free-spirit-heresy`, `serbian-and-bulgarian-medieval-monasticism`,
+    `byzantine-church-after-1054`, `latin-papal-church-gregorian`, `armenian-cilicia`,
+    `latin-church-of-outremer`, `the-humiliati`. Eras 1 to 3 likely have the same drift. The
+    recording manifest stores no hash of the text it was made from, so nothing catches it. Fixing it
+    is a paid voice run: sample first, Mark's approval by ear, settings passed and printed. For Mark.
