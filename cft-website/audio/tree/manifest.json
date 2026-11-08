@@ -85,9 +85,12 @@
  },
  "apocryphal-and-pseudepigraphal-literature": {
   "file": "apocryphal-and-pseudepigraphal-literature.mp3",
-  "bytes": 804197,
-  "md5": "5b59a6382abb538499b9854a770c5392",
-  "text_sha256": "066c43a3e608e639bbe977aa5db972409518bfc5b5f455532744224118540d91"
+  "bytes": 912238,
+  "chars": 1522,
+  "text_sha256": "6ffad7493a672e75b9053c07cf1b3de67cd78294a6ff157dbc53f9491bf7930d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "apollinarian-christianity": {
   "file": "apollinarian-christianity.mp3",
@@ -589,9 +592,12 @@
  },
  "greek-apologists-second-century": {
   "file": "greek-apologists-second-century.mp3",
-  "bytes": 647044,
-  "md5": "11de53bac8a5adc6be931eff8b40b81b",
-  "text_sha256": "993ba8f5e76ddaf20d2bb7b80828ef41a7662ea59f4c7cb457cf931e4020207b"
+  "bytes": 732098,
+  "chars": 1226,
+  "text_sha256": "34f8a6c7c98abc13605ca64ab7b79f52849d3b29aba35224f7a9d6a28c5f1d16",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "haitian-church-rupture-to-concordat": {
   "file": "haitian-church-rupture-to-concordat.mp3",
@@ -727,9 +733,12 @@
  },
  "latin-apologists": {
   "file": "latin-apologists.mp3",
-  "bytes": 1542731,
-  "md5": "4cb48da43be1881921531fb4e22c50fc",
-  "text_sha256": "e668724b10c1fd20e30c5b295d43fa5ab5687b0d0d85e6b689a9dcb405aecb79"
+  "bytes": 1601871,
+  "chars": 2630,
+  "text_sha256": "7bc6dcb9055b9af6ff651249c4fcd04d84a38b5d6a73036c5fcd683ac2faa4af",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "latin-church-of-outremer": {
   "file": "latin-church-of-outremer.mp3",
@@ -796,9 +805,12 @@
  },
  "marcion-marcionism": {
   "file": "marcion-marcionism.mp3",
-  "bytes": 635550,
-  "md5": "3f02ec227128dfe77b469b465d44b0b4",
-  "text_sha256": "5ed2e73026da690ae9dcc6032f68ce8369c9022b349ef546e6919c4dce97c279"
+  "bytes": 695736,
+  "chars": 1167,
+  "text_sha256": "91ae68dae2065d3f6c7915fa47f01f9eba2df88b5eda041512a7e84acf0ab8dd",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "maronite-christianity-era-6": {
   "file": "maronite-christianity-era-6.mp3",
@@ -1672,9 +1684,12 @@
  },
  "valentinian-and-other-gnostic-christianities": {
   "file": "valentinian-and-other-gnostic-christianities.mp3",
-  "bytes": 667733,
-  "md5": "556e57e4f9e68390b92123e6c210ba40",
-  "text_sha256": "e9d894adc69b73ed5d16080d8fd6e99272b041bfb6f9beeed9f000de3ad1fcba"
+  "bytes": 764699,
+  "chars": 1224,
+  "text_sha256": "76fccd0a644ff7cf34d3d9e147c16c833439962760820051659501221f70ffb6",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "victorian-church-of-england": {
   "file": "victorian-church-of-england.mp3",
