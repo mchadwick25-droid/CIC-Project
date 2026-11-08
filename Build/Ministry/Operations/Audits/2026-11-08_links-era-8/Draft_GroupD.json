@@ -1,0 +1,1399 @@
+{
+ "group": "D",
+ "movements": [
+  "catholic-church-ancien-regime",
+  "restoration-georgian-church-of-england",
+  "shakers",
+  "swedenborgian-new-church",
+  "the-antonian-movement-in-kongo",
+  "colonial-latin-american-devotional-catholicism"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "field": "relationsSummary",
+   "sentence": "Christianity already two centuries African producing its own prophetess - crushed at the stake",
+   "other_id": "kongo-christianity-afonso-to-1650",
+   "disposition": "link",
+   "link_id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "prose_change": null,
+   "reason": "Widely Accepted 'gave rise to'. Zucchelli (in Kongo to 1704) shows the Christian kingdom on the eve of the movement; Thornton for the consensus reading. The 1650 end date of the Kongo entry is bridged in the drafter flags. Prose unchanged."
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "field": "longDescription",
+   "sentence": "By 1700 the Kingdom of Kongo had been Christian for two centuries — its kings baptized, its capital São Salvador full of churches, its catechism printed in Kikongo.",
+   "other_id": "kongo-christianity-afonso-to-1650",
+   "disposition": "link",
+   "link_id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "prose_change": null,
+   "reason": "Widely Accepted 'gave rise to'. Zucchelli (in Kongo to 1704) shows the Christian kingdom on the eve of the movement; Thornton for the consensus reading. The 1650 end date of the Kongo entry is bridged in the drafter flags. Prose unchanged."
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "field": "longDescription",
+   "sentence": "Two Capuchin missionaries persuaded the restored king to arrest her, and in July 1706 she was burned as a heretic.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the Capuchins. The only record of their part, Bernardo da Gallo's and Lorenzo da Lucca's relations, is not vendored (listed in wants). The sentence follows the census's own reading of those reports and stays as written."
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "field": "longDescription",
+   "sentence": "In 1704 a young noblewoman named Kimpa Vita, baptized Beatriz, announced that she had died and been possessed by Saint Anthony of Padua, and that he now spoke through her.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Saint Anthony of Padua is the saint she said spoke through her, not a movement. No link."
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "field": "why",
+   "sentence": "In 1704 a young noblewoman, Kimpa Vita, announced that Saint Anthony spoke through her and led thousands of followers back to reoccupy the ruined capital, insisting Christ and the saints should be understood as Kongolese rather than European — a claim that ended with her burned at the stake in 1706.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Saint Anthony of Padua is the saint she said spoke through her, not a movement. No link."
+  },
+  {
+   "movement": "shakers",
+   "field": "relationsSummary",
+   "sentence": "Radical edge of the era's prophetic currents",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "camisard-prophetism--shakers",
+   "prose_change": 0,
+   "reason": "The unnamed 'prophetic currents' are, by the Shakers' own 1810 account, the French Prophets; summary rewritten to name them and linked (Documented, flagged as resting on the Shakers' later word)."
+  },
+  {
+   "movement": "shakers",
+   "field": "longDescription",
+   "sentence": "The Shakers began among a small group of dissenters in Manchester who worshipped with shaking, dancing and ecstatic speech, and were transformed by one of them.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "the-quakers-religious-society-of-friends--shakers",
+   "prose_change": 0,
+   "reason": "The 'Manchester dissenters' were, by Youngs (1810), the Wardley society, whose leaders had left the Quakers. Linked as 'gave rise to'; the description's wording ('dissenters') stays true and is unchanged; the summary now names the Quakers."
+  },
+  {
+   "movement": "shakers",
+   "field": "longDescription",
+   "sentence": "Their published confession identified Christ's second appearing with Ann Lee herself, which set them apart from the churches around them, and their dancing worship gave them the name their neighbors used.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic: 'set them apart from the churches around them' names no body. No link."
+  },
+  {
+   "movement": "shakers",
+   "field": "why",
+   "sentence": "The Shakers grew from a small circle of Manchester dissenters who worshipped with shaking, dancing and ecstatic speech, transformed by one of them, Ann Lee, who had buried four children and came to believe celibacy was the way out of the world's fallenness.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "the-quakers-religious-society-of-friends--shakers",
+   "prose_change": 0,
+   "reason": "The 'Manchester dissenters' were, by Youngs (1810), the Wardley society, whose leaders had left the Quakers. Linked as 'gave rise to'; the description's wording ('dissenters') stays true and is unchanged; the summary now names the Quakers."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "longDescription",
+   "sentence": "Emanuel Swedenborg was a Swedish mining engineer, anatomist and member of the House of Nobles who, in his mid-fifties, began having visions and spent the rest of his life writing an enormous body of theological work in Latin — accounts of heaven and hell, of the inner meaning of Scripture, and of a Christianity in which God is one person, Jesus Christ, rather than three.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A doctrine Swedenborg rejected, not a movement. No entry to link."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "why",
+   "sentence": "Emanuel Swedenborg was a Swedish scientist who, in his mid-fifties, began having visions and spent the rest of his life writing an enormous body of theology in Latin — describing heaven and hell, the inner meaning of Scripture, and a God who is one person, Jesus Christ, rather than three.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A doctrine Swedenborg rejected, not a movement. No entry to link."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "William Blake is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ralph Waldo Emerson is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Honoré de Balzac is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Charles Baudelaire is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "W. B. Yeats is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Helen Keller is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "legacy",
+   "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "John Chapman (Johnny Appleseed) is a person with no entry. Statement of reading or adherence left as written; not a lineage claim between movements."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "relationsSummary",
+   "sentence": "This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form.",
+   "other_id": "new-spain-and-andes-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "prose_change": null,
+   "reason": "Documented 'continued as' (Turibius and Rose of Lima; Florencia 1688). Prose unchanged."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "relationsSummary",
+   "sentence": "It is the popular piety that the twentieth-century base communities later re-read \"from below.\" The California missions, founded from 1769 under Junípero Serra, belong within this same New Spain-wide devotional world.",
+   "other_id": "latin-american-base-communities",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No vendored text shows the base communities drawing on colonial piety, and no repo-cited secondary work says so. Qualified as interpretation; no link."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "relationsSummary",
+   "sentence": "It is the popular piety that the twentieth-century base communities later re-read \"from below.\" The California missions, founded from 1769 under Junípero Serra, belong within this same New Spain-wide devotional world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No entry for the California missions; Palou's life of Serra is vendored. Sentence kept (moved within the rewritten summary)."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Once the first missionary generation had passed, Catholicism in Spanish America settled into being the ordinary religion of whole societies, and its real institutions were local: the cofradías, lay confraternities that maintained an altar or an image, buried their members and paid for their funerals, organized by trade, by parish and often by race — with indigenous confraternities and Black brotherhoods running their own devotional life.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Groups inside this movement, not separate entries. No link."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Its saints were homegrown: Rose of Lima, canonized in 1671 as the first saint of the Americas, and Martín de Porres, the mixed-race Dominican lay brother of the same city.",
+   "other_id": "the-dominican-order",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Martín de Porres's order is a fact of his life, not a relationship between movements; the Dominican entry covers 1216-1300. No link."
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "legacy",
+   "sentence": "And this popular piety was the ground the base communities of the twentieth century stood on when they began reading Scripture from below.",
+   "other_id": "latin-american-base-communities",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No vendored text shows the base communities drawing on colonial piety, and no repo-cited secondary work says so. Qualified as interpretation; no link."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Cum occasione 1653, the Formulary 1664, Unigenitus 1713). The Port-Royal entry ends in 1710; Unigenitus itself ties Quesnel to Jansen's condemned propositions. Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Dominus ac Redemptor 1773; Sollicitudo 1814). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "French Revolution: event, law or group with no entry. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person or state, not a movement. The 1801 concordat is quoted on the continued-as link. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Not 'continued as': the restored Society is the same order with no later entry. The 1814 restoration is carried in the note of the 'argued against' link on the 1773 suppression."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+   "other_id": "quietist-controversy-molinos-guyon",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Coelestis Pastor 1687; Cum alias 1699 with Fénelon's submission). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Cum occasione 1653, the Formulary 1664, Unigenitus 1713). The Port-Royal entry ends in 1710; Unigenitus itself ties Quesnel to Jansen's condemned propositions. Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No Redemptorist entry; Liguori's letters are vendored. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "relationsSummary",
+   "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for Catholic Enlightenment thought. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Cum occasione 1653, the Formulary 1664, Unigenitus 1713). The Port-Royal entry ends in 1710; Unigenitus itself ties Quesnel to Jansen's condemned propositions. Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "French parlements and bishops: event, law or group with no entry. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Dominus ac Redemptor 1773; Sollicitudo 1814). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Dominus ac Redemptor 1773; Sollicitudo 1814). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "Then came the Revolution: church property nationalized, clergy required to swear to a Civil Constitution that split them into jurors and refractories, thousands killed or driven abroad, and Pope Pius VI carried off to die a French prisoner in 1799.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Civil Constitution of the Clergy: event, law or group with no entry. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person or state, not a movement. The 1801 concordat is quoted on the continued-as link. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "longDescription",
+   "sentence": "His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Not 'continued as': the restored Society is the same order with no later entry. The 1814 restoration is carried in the note of the 'argued against' link on the 1773 suppression."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "why",
+   "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) set off a fifty-year political crisis in France, and within decades the Catholic monarchies themselves turned on the church's most effective order, forcing the pope to suppress the Jesuits altogether in 1773.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Cum occasione 1653, the Formulary 1664, Unigenitus 1713). The Port-Royal entry ends in 1710; Unigenitus itself ties Quesnel to Jansen's condemned propositions. Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "why",
+   "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) set off a fifty-year political crisis in France, and within decades the Catholic monarchies themselves turned on the church's most effective order, forcing the pope to suppress the Jesuits altogether in 1773.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Dominus ac Redemptor 1773; Sollicitudo 1814). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "why",
+   "sentence": "Then came the Revolution — church property seized, clergy split by a forced oath, and Pope Pius VI dying a French prisoner in 1799 — until his successor Pius VII signed a concordat with Napoleon, was imprisoned by him in turn, and lived to restore the Jesuits in 1814.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person or state, not a movement. The 1801 concordat is quoted on the continued-as link. Left as written."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "legacy",
+   "sentence": "The ultramontane Catholicism of the nineteenth century is the direct product of this catastrophe.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--catholic-church-long-nineteenth-century",
+   "prose_change": 2,
+   "reason": "The continuity is Documented (continued-as link: Pius VII's concordats of 1801 and 1817). 'Direct product' is a causal reading with no source; qualified in the rewritten legacy."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "legacy",
+   "sentence": "The suppression and restoration of the Jesuits, the loss of the church lands, and the concordat as a way of settling with a secular state all set terms the church has operated under ever since.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Documented 'argued against' (Dominus ac Redemptor 1773; Sollicitudo 1814). Prose unchanged."
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "field": "legacy",
+   "sentence": "The suppression and restoration of the Jesuits, the loss of the church lands, and the concordat as a way of settling with a secular state all set terms the church has operated under ever since.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person or state, not a movement. The 1801 concordat is quoted on the continued-as link. Left as written."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The restoration of the bishops in 1660, the Act of Uniformity of 1662, and the Great Ejection of roughly two thousand ministers defined church and dissent in a single stroke.",
+   "other_id": "english-old-dissent",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Documented 'broke with': the Act of Uniformity and Baxter record the Ejection from both sides. Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The Toleration Act of 1689 produced the nonjurors, and the church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No nonjuror entry. The summary wrongly said the Toleration Act produced them; corrected to the oath of 1689 (Ken's letters)."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The Toleration Act of 1689 produced the nonjurors, and the church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No entry for the SPCK or SPG; Humphreys' history of the SPG (1730) is vendored. Founding facts stay as written."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "This is the church that Methodism grew up inside, and eventually out of.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Documented 'gave rise to' (Wesley's Journal; Conference minutes 1744 and 1795). Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "longDescription",
+   "sentence": "About two thousand refused and were ejected from their livings on a single day, creating English Dissent as a permanent fact.",
+   "other_id": "english-old-dissent",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Documented 'broke with': the Act of Uniformity and Baxter record the Ejection from both sides. Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The nonjurors, several hundred clergy including the Archbishop of Canterbury, who would not swear allegiance to William and Mary in 1689 while James II lived, and walked out rather than break an oath.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No nonjuror entry. The account here (refusing the oath to William and Mary) is right and stays."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "longDescription",
+   "sentence": "But it was also the church of the Prayer Book as ordinary people actually knew it, of parish registers and charity schools, and of the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the SPCK or SPG; Humphreys' history of the SPG (1730) is vendored. Founding facts stay as written."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "longDescription",
+   "sentence": "And it was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Documented 'gave rise to' (Wesley's Journal; Conference minutes 1744 and 1795). Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "why",
+   "sentence": "When the monarchy returned in 1660, so did the bishops and the Prayer Book, and the Act of Uniformity of 1662 forced out about two thousand ministers who wouldn't accept both, creating English Dissent as a permanent fact in a single day.",
+   "other_id": "english-old-dissent",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Documented 'broke with': the Act of Uniformity and Baxter record the Ejection from both sides. Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "why",
+   "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the SPCK or SPG; Humphreys' history of the SPG (1730) is vendored. Founding facts stay as written."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "why",
+   "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No nonjuror entry. The account here (refusing the oath to William and Mary) is right and stays."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "why",
+   "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Documented 'gave rise to' (Wesley's Journal; Conference minutes 1744 and 1795). Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "legacy",
+   "sentence": "Its missionary societies planted congregations across the Atlantic world and became the institutional seed of the worldwide Anglican Communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No Anglican Communion entry; the Victorian Church of England entry carries the 1867 Lambeth Conference. Left as written."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "legacy",
+   "sentence": "And the ejection it caused in 1662 gave England a permanent Nonconformist tradition that shaped its politics for two centuries.",
+   "other_id": "english-old-dissent",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Documented 'broke with': the Act of Uniformity and Baxter record the Ejection from both sides. Prose unchanged."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "longDescription",
+   "sentence": "When the monarchy came back in 1660 so did the bishops and the Prayer Book, and the Act of Uniformity of 1662 required every minister to accept both.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Missed by the inventory: the return of the bishops and Prayer Book is the continuation of the Elizabethan church (its continuesAs pair). Documented from the 1662 Act and preface."
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "field": "legacy",
+   "sentence": "It continues as the Church of England, and a great deal of what people recognize as Anglican comes from this stretch: the 1662 Prayer Book, still the church's legal standard.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--victorian-church-of-england",
+   "prose_change": null,
+   "reason": "Missed by the inventory: the continuesAs successor. Documented, thin (1706 Prayer Book rubric with Griffiths 1859)."
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "field": "relationsSummary",
+   "sentence": "-",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The field holds only a dash placeholder. No relationship is named; see escalations."
+  }
+ ],
+ "links": [
+  {
+   "id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "port-royal-jansenism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1653 Pope Innocent X condemned five statements taken from a book by Cornelius Jansen. In 1664 Rome required an oath that rejected them. In 1713 the bull Unigenitus tied the teaching of Pasquier Quesnel to the same five.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent X, constitution Cum occasione (31 May 1653), the five condemned propositions, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), nos. 1092-1096",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "21920-21922",
+     "locus": "Denzinger-Bannwart 1092-1096, heading",
+     "quote": "[Excerpti ex «Augustino» et damnati in Constit. «Cum occasione», 31. Maii 1653.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander VII, constitution Regiminis apostolici (15 February 1664), the Formulary, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 1099",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22057-22060",
+     "locus": "Denzinger-Bannwart 1099",
+     "quote": "et quinque propositiones ex Cornelii lansenii libro, cui nomen Augustinus, excerptas, et in sensu ab eodem auctore intento, prout illas per dictas Constitutiones Sedes Apostolica dam- navit, sincero animo reicio ac damno, et ita iuro",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement XI, bull Unigenitus (8 September 1713), contemporary English translation printed with the Latin",
+     "file": "cic/texts/clement-xi_unigenitus-lat-eng_1713.txt",
+     "lines": "1973-1976",
+     "locus": "Unigenitus, the censure clause",
+     "quote": "and chiefly thoſe which are contained in the infamous Propoſitions of Janſenins, and even taken in that Senſe, thoſe Propoſitions were condemned in.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "catholic-church-ancien-regime relationsSummary ('the bull Unigenitus, and the Jansenist crisis it set off in France'; 'a Jansenist current'), longDescription and why ('Rome's condemnation of Jansenism in the bull Unigenitus (1713)'); port-royal-jansenism longDescription ('Rome condemned five propositions said to be contained in Jansen's Augustinus')",
+   "major": true,
+   "outcome": "In 1653 Pope Innocent X condemned five claims from a book by Cornelius Jansen, and in 1664 Rome made people swear to reject them.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "22052-22060",
+    "text": "[Ex Coiistit. «Regiminis apostolici», 15. Febr. 1664.] 1513 «Ego N. Constitutioni apostolicae INNOCENTII X, datae 1099 die 31. Maii 1653, et Constitutioni ALEXANDRI VII, datae (97i) die 16. Octobris 1656, Summorum Pontificum me subicio, et quinque propositiones ex Cornelii lansenii libro, cui nomen Augustinus, excerptas, et in sensu ab eodem auctore intento, prout illas per dictas Constitutiones Sedes Apostolica dam- navit, sincero animo reicio ac damno, et ita iuro"
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Possible duplicate: the Port-Royal drafter (era 8, another group) may draft the same pair. Merge on this id.",
+    "Unigenitus condemned Quesnel, who is not named in the Port-Royal entry and wrote after its core years. The bull itself ties his propositions to 'the infamous Propositions of Jansenius' (OCR 'Janſenins'), which is why it stands here as the third source. The 1653 and 1664 acts carry the link on their own.",
+    "The outcome's '1664' and 'sworn rejection' come from the Formulary (Regiminis apostolici, dated 15 Feb 1664 in Denzinger's heading two lines above the evidence; 'et ita iuro' closes the formula). Denzinger's text is Latin; the note and outcome paraphrase it.",
+    "OCR keeps 'lansenii' for 'Iansenii' and the hyphen break 'dam- navit'; quotes are verbatim to the file."
+   ],
+   "change_reason": "New. The entry names Rome's condemnation of Jansenism three times and had no link."
+  },
+  {
+   "id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "quietist-controversy-molinos-guyon",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1687 Rome condemned sixty-eight errors drawn from the work of Miguel de Molinos. In 1699 Pope Innocent XII condemned Fénelon's book, the Maxims of the Saints. Fénelon accepted the ruling in a letter to his own diocese.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent XI, decree of 28 August and constitution Coelestis Pastor (19 November 1687), the errors of Molinos, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), nos. 1221-1288, heading",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22846-22848",
+     "locus": "Denzinger-Bannwart 1221, heading",
+     "quote": "[Damnati in Decreto 28. Aug. et in Constit. «Coelestis Pastor», 19. Nov. 1687.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent XI, Coelestis Pastor (1687), the censure after the sixty-eighth error, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 1288",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23293-23295",
+     "locus": "Denzinger-Bannwart 1288, censure",
+     "quote": "Damnatae tanquam haereticae, suspectae, erroneae, scandalosae, blasphemae, piarum aurium offensivae, temerariae, christianae disciplinae relaxativae, eversivae, et seditiosae respective.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Fénelon, Mandement of submission to the brief Cum alias (1699), in the 1699 dossier printed with Innocent XII's brief",
+     "file": "cic/texts/innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt",
+     "lines": "914-916",
+     "locus": "Fénelon's Mandement",
+     "quote": "Enfin N. S. P, le Pape a condamné ce livre ayec.les 23. propofitions, qui en ont été extrai- tes , par un Brefdatté du 12. de Mars",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Fénelon, Mandement of submission to the brief Cum alias (1699), in the 1699 dossier printed with Innocent XII's brief",
+     "file": "cic/texts/innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt",
+     "lines": "978-981",
+     "locus": "Fénelon's Mandement",
+     "quote": "Nous adhérons à ce Bref , Mes très-Cher* Frères , tant pour le texte du livre que pour le* 23. proportions , Amplement , abfolumcnt , & fans ombre de reltri&ion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "catholic-church-ancien-regime relationsSummary ('The same period held the Quietist controversy'); quietist-controversy-molinos-guyon longDescription ('sixty-eight propositions drawn from his work were condemned in 1687'; 'Fénelon's defense of her was condemned by Rome in 1699')",
+   "major": true,
+   "outcome": "Rome condemned sixty-eight errors of Miguel de Molinos in 1687, and a book by Fénelon in 1699.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "23288-23295",
+    "text": "68. In mundo non est facultas nec iurisdictio ad prae- 1288 cipiendum, ut manifestentur epistolae directoris quoad inter- num animae : et ideo opus est animadvertere, quod hoc est insultus satanae, etc. Damnatae tanquam haereticae, suspectae, erroneae, scandalosae, blasphemae, piarum aurium offensivae, temerariae, christianae disciplinae relaxativae, eversivae, et seditiosae respective."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Possible duplicate: the Quietist drafter (era 8, another group) may draft the same pair.",
+    "The book's title, 'Explication des Maximes des Saints', and Innocent XII as author of the brief come from the 1699 dossier's own title (file line 1) and its text ('le Pape a condamné ce livre'); 'Maxims of the Saints' in the note is the usual English short title.",
+    "The ancien-regime entry only says the period 'held' the controversy; the link makes Rome's part in it explicit. The entry's prose does not need changing for that."
+   ],
+   "change_reason": "New. Rome's two condemnations are the documented tie between the two entries."
+  },
+  {
+   "id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "the-society-of-jesus",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1773 Pope Clement XIV shut down the Society of Jesus by his own power as pope. His order says the kings of France, Spain, Portugal and Sicily had already thrown it out. In 1814 Pius VII brought the order back.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement XIV, brief Dominus ac Redemptor (21 July 1773), English from the London Chronicle, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "1273-1276",
+     "locus": "Dominus ac Redemptor, narrative of the expulsions",
+     "quote": "the Kings of France, Spain, Portugal, \" and Sicily, found themselves reduced to the necessity of expel- \" line; and driving from their states, kingdoms, and provinces, these \" very companions of Jesus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement XIV, brief Dominus ac Redemptor (21 July 1773), English from the London Chronicle, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "1362-1366",
+     "locus": "Dominus ac Redemptor, the suppression clause",
+     "quote": "After a mature deliberation, we do, out of \" our certain knowledge, and the fulness of our apostolical power, \" suppress and aeolish the said company",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull Sollicitudo omnium ecclesiarum (7 August 1814), English from the Orthodox Journal, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "145-146",
+     "locus": "Sollicitudo omnium ecclesiarum",
+     "quote": "had been members of the Company of Jesus, suppressed by \" Clement XIV. of happy memory",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull Sollicitudo omnium ecclesiarum (7 August 1814), English from the Orthodox Journal, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "450-452",
+     "locus": "Sollicitudo omnium ecclesiarum, the restoring clause",
+     "quote": "in order that the said States may freely and lawfully receive all \" those who shall wish to be admitted into the regular order of \" the Company of Jesus",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "catholic-church-ancien-regime relationsSummary ('the expulsion and suppression of the Jesuits between 1759 and 1773'; 'the Jesuits restored in 1814'), longDescription, why and legacy",
+   "major": true,
+   "outcome": "In 1773 Pope Clement XIV shut down the Society of Jesus, after the kings of France, Spain, Portugal and Sicily had thrown it out.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+    "lines": "1362-1366",
+    "text": "After a mature deliberation, we do, out of \" our certain knowledge, and the fulness of our apostolical power, \" suppress and aeolish the said company"
+   },
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The Society's own entry ends in 1650; the suppression is the act of the later Roman see on the same order.",
+    "The inventory read 'the Jesuits restored in 1814' as 'continued as'. It is not: the restored Society is the same order and has no later entry of its own. The restoration is carried in this note instead.",
+    "The English of the 1773 brief is a newspaper translation of 1773 reprinted in 1814; the OCR reads 'aeolish' for 'abolish', and the editor's quotation marks open every line. Quotes keep both.",
+    "The year 1773 is in the work field (the brief's date), from the file's own header and the editor's note."
+   ],
+   "change_reason": "New. The entry names the expulsion, suppression and restoration of the Jesuits four times and had no link."
+  },
+  {
+   "id": "catholic-church-ancien-regime--catholic-church-long-nineteenth-century",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "catholic-church-long-nineteenth-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Pope Pius VII made a concordat with France in 1801 that let the Catholic religion be practiced freely there. In 1817 the same pope signed a concordat with Bavaria. One papacy carried the church across 1815.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between the French government and Pius VII (15 July 1801), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 466",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "23897",
+     "locus": "Mirbt no. 466, heading",
+     "quote": "Convention entre le gouvernement fran^ais et sa saintete Pie VII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between the French government and Pius VII (15 July 1801), art. 1, in Mirbt, Quellen, 3rd ed. (1911), no. 466",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "23924",
+     "locus": "Concordat of 1801, art. 1",
+     "quote": "La religion catholique, apostolique et romaine sera librement exercee en France.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat of Pius VII with King Maximilian Joseph of Bavaria (5 June 1817), in Mirbt, Quellen, 3rd ed. (1911), no. 475",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "24410",
+     "locus": "Mirbt no. 475, heading",
+     "quote": "Konkordat mit König Maximilian Joseph von Baiern vom 5. Juni 1817.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat of Pius VII with Bavaria (1817), Mirbt's running head, in Mirbt, Quellen, 3rd ed. (1911), p. 336",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "24550",
+     "locus": "Mirbt p. 336, running head",
+     "quote": "Pius VII., Konkordat mit Bayern 1817.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "catholic-church-ancien-regime legacy ('what emerged after 1815'; 'what emerged after 1815'; after prose change 2, 'The same line of popes carried it into the nineteenth century'); its continuesAs field",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9. The era-9 drafter may draft the same pair from the other side.",
+    "Two of the four quotes are Mirbt's editorial headings, not the treaties' own words. They date the 1817 concordat and name Pius VII as its party. The 1801 heading is the treaty's own title as Mirbt prints it.",
+    "Mirbt's OCR keeps 'fran^ais', 'saintete' and 'exercee' without accents; quotes are verbatim to the file."
+   ],
+   "change_reason": "New. The movement's continuesAs field names this successor, and no link carried it."
+  },
+  {
+   "id": "english-old-dissent--restoration-georgian-church-of-england",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "restoration-georgian-church-of-england",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1662 removed every minister who would not accept the Prayer Book by St Bartholomew's Day. Richard Baxter, who would not conform, wrote that about two thousand were then 'silenced and cast out.' Many of their people kept to their old pastors in private.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "786-788",
+     "locus": "Act of Uniformity, the assent clause",
+     "quote": "before the Feaft of S«int Bartholomew , which (hall be in the Year of our Lord God, Ore thoufar.d fix hun- dred fixty and two",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "816-817",
+     "locus": "Act of Uniformity, the deprivation clause",
+     "quote": "(hall IpfofaClo be deprived of all his Spiritual Promotions",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged by J. M. Lloyd Thomas as The Autobiography of Richard Baxter (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10801-10803",
+     "locus": "Part Two, 'His fatal day'",
+     "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged by J. M. Lloyd Thomas as The Autobiography of Richard Baxter (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10813-10816",
+     "locus": "Part Two, 'His fatal day'",
+     "quote": "The people were hereupon unavoidably divided among themselves. For some would have nothing to do with these imposed pastors, but would in private attend their former pastors only.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "restoration-georgian-church-of-england relationsSummary ('the Great Ejection of roughly two thousand ministers defined church and dissent'), longDescription and why ('creating English Dissent as a permanent fact'), legacy ('the ejection it caused in 1662 gave England a permanent Nonconformist tradition'); english-old-dissent relationsSummary and longDescription",
+   "wants": [
+    "Edmund Calamy, An Account of the Ministers ... Ejected or Silenced after the Restoration (1702/1713), or Calamy Revised (1934 is in copyright; the 1775 Palmer Nonconformist's Memorial would do), for the named ejected ministers and their gathered congregations"
+   ],
+   "drafter_flags": [
+    "Possible duplicate: the English Old Dissent drafter (era 8, another group) may draft this pair, perhaps as 'gave rise to'. I chose 'broke with': the Act and Baxter record the rupture from both sides, and the Elizabethan entry already claims to be the parent of the dissenting churches, so 'gave rise to' from the Restoration church would overstate it.",
+    "Baxter is quoted from Lloyd Thomas's 1925 modern-spelling abridgement. The full 1696 folio is vendored (baxter_reliquiae-baxterianae_sylvester1696.txt); I did not check the passage there.",
+    "The Act's quotes keep the 1706 OCR ('(hall IpfofaClo', 'Ore thoufar.d fix hun- dred fixty and two')."
+   ],
+   "change_reason": "New. The entry's central claim, the Ejection that made Dissent, had no link."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-methodist-revival",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "John Wesley called himself a member of the Church of England. At his first Conference, in June 1744, the preachers denied that they separated from it. By 1795 the Methodist Conference itself decided who could give communion in its chapels.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 5 (1909-1916), his address at Aberdeen",
+     "file": "cic/texts/wesley-j_journal-v5_curnock1909.txt",
+     "lines": "9267-9268",
+     "locus": "Journal, at Aberdeen",
+     "quote": "I am a member of the Church of England ; but I love good men of every Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1 (1862), the Conference of June 1744, Wednesday 27 June",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "779-781",
+     "locus": "Conference of 1744, Q. 7 on discipline",
+     "quote": "Q. 7. Do we separate from the Church? A. We conceive not : we hold communion therewith",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1 (1862), the Large Minutes",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "64836-64839",
+     "locus": "Large Minutes, on God's design in raising up the preachers",
+     "quote": "A. To reform the nation, and, in particular, the Church; to spread scriptu- ral holiness over the land.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1 (1862), Articles of Agreement for General Pacification (1795)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49562-49563",
+     "locus": "Plan of Pacification, art. 6",
+     "quote": "The Lord's Supper shall be administered by those 07ihj who are authorized by the Conference",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "restoration-georgian-church-of-england relationsSummary ('the church that Methodism grew up inside, and eventually out of'), longDescription and why ('the church John and Charles Wesley were born in, ordained in, and never meant to leave'); the-methodist-revival relationsSummary and longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "The 1744 date rests on the minutes' own day heading ('WEDNESDAY, June 27,', file line 729) and the page head '1744. 5' (line 715); the running head '6 1745.' falls inside the answer at a page break.",
+    "The Plan of Pacification shows the Conference ruling on its own sacraments, the step out of the parish system; it does not itself say 'separate'. The census Methodist entry carries the separation after 1791.",
+    "OCR '07ihj' for 'only' in the 1795 quote is kept."
+   ],
+   "change_reason": "New. The entry's named relationship to Methodism had no link."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--victorian-church-of-england",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "victorian-church-of-england",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The 1662 Prayer Book has a sermon or a homily follow the Creed at communion. In 1859 an Oxford editor said this rule stood 'nearly the same as we have it at the present day.' The same book and church carried on past 1815.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of Common Prayer (1662 text, Oxford printing of 1706), the Communion",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "23765-23767",
+     "locus": "Communion, rubric after the Creed",
+     "quote": "Then fhall follow the Sermon , or one of the Homilies already fet forth , or here - | after to be fet forth by Authority,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Griffiths (ed.), The Two Books of Homilies appointed to be read in Churches (Oxford, 1859), editor's preface",
+     "file": "cic/texts/church-of-england_two-books-of-homilies_griffiths1859.txt",
+     "lines": "808-809",
+     "locus": "Preface, on the Second Book",
+     "quote": "nearly the same as we have it at the present day",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "restoration-georgian-church-of-england legacy ('It continues as the Church of England'; 'the 1662 Prayer Book, still the church's legal standard'); its continuesAs field",
+   "wants": [
+    "A vendored Victorian Church of England text that names the 1662 Prayer Book in force after 1815 (for example a 19th-century printing of the Book itself, or Keble's or Newman's Tracts for the Times)"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9. The era-9 drafter may draft the same pair.",
+    "Thin but direct: Griffiths compares Edward VI's 1552 rubric with the book 'as we have it at the present day' (1859). The 1706 printing shows the same rubric in the 1662 book. Together they show one Prayer Book in use on both sides of 1815; neither names 1815."
+   ],
+   "change_reason": "New. The movement's continuesAs field names this successor, and no link carried it."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "restoration-georgian-church-of-england",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1662 rests the restored Prayer Book on the one first authorized under Edward VI. The new book's preface appeals to the Church of England's practice since its liturgy was first compiled. The church of 1660 was the old church restored.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), preamble, printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "230-232",
+     "locus": "Act of Uniformity, preamble",
+     "quote": "Authorised by Aft of Parliament holden in the Fifth and Sixth Years of ourfaid late Sovereign Lord King Edward the Sixth,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of Common Prayer (1662 text, Oxford printing of 1706), The Preface",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "1488-1490",
+     "locus": "The Preface",
+     "quote": "been the Wifdom of the Church of England, 8 ever fince the firlt compiling of Her Publick Litu - 1 gy",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "restoration-georgian-church-of-england longDescription and why ('When the monarchy came back in 1660 so did the bishops and the Prayer Book'); the-english-reformation-and-elizabethan-settleme longDescription ('revised in 1552, 1559 and 1662') and its continuesAs field",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The era-7 drafter may draft the same pair; it is the predecessor's continuesAs pair.",
+    "The preface quote keeps the OCR's stray '8' and '1' and the break 'Litu - 1 gy'; the opening 'It hath' is garbled ('\"■\"Thath'), so the quote starts at 'been'."
+   ],
+   "change_reason": "New. The continuesAs pair into this movement had no link; the movement's text names the return of the bishops and the Prayer Book."
+  },
+  {
+   "id": "camisard-prophetism--shakers",
+   "action": "new",
+   "from": "camisard-prophetism",
+   "to": "shakers",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Shakers' own confession of 1810 says a few French Prophets reached England about 1706. It says James and Jane Wardley, whose society near Manchester later took Ann Lee as its Mother, received 'the spirit of the French prophets.' This rests on the Shakers' own account, written about sixty years after the Wardleys began.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "971-973",
+     "locus": "Introduction, sect. V",
+     "quote": "However, a few of those French prophets came over to England about the year 1706, and opened their testimony ia and about London, which was a means of great awakening,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "984-987",
+     "locus": "Introduction, sect. VI",
+     "quote": "James Wardley, a taylor by trade, and Jane his wife, who wrought at the same occupation, had belonged to the so- ciety of people called Quakers ; but receiving the spirit of the French prophets",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "1112-1115",
+     "locus": "Introduction, sect. X",
+     "quote": "through Anne Lee, that extraordinary woman, concerning whom, so many strange things have been conjectured ; and who, at that time, was received by the society as their spirit- ual Mother",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "shakers relationsSummary (after prose change 0: 'taken up the spirit of the French Prophets'); camisard-prophetism longDescription ('some of the prophets escaped to London, where they caused a fresh sensation as the French Prophets')",
+   "major": false,
+   "minor_reason": "A spirit and a way of worship taken up by others; no council, split or authority's ruling is involved.",
+   "wants": [
+    "A contemporary record of the Wardley society in the 1740s-1760s (none is vendored), to test the Shakers' later account of a French Prophet origin"
+   ],
+   "drafter_flags": [
+    "Graded Documented because the later side names the earlier one, which is what the method asks of 'influenced'. But the only witness is the Shakers' own confession, written about 1808-1810, some sixty years after 1747 and a century after 1706. No vendored text shows the Wardleys meeting a French Prophet. Reviewer may prefer Contested; I could not cite the other side from vendored material.",
+    "Repo-cited secondary works on this question exist (Clarke Garrett, Spirit Possession and Popular Religion: From the Camisards to the Shakers, 1987; Stephen J. Stein, The Shaker Experience in America, 1992; Hillel Schwartz, The French Prophets, 1980; all cited in Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html). I have not seen what they say on the Wardley link, so I did not cite them.",
+    "New relationship the inventory missed: the Shaker entry's 'era's prophetic currents' becomes this named link after prose change 0."
+   ],
+   "change_reason": "New. Replaces the unnamed 'era's prophetic currents' with the tie the Shakers themselves recorded."
+  },
+  {
+   "id": "the-quakers-religious-society-of-friends--shakers",
+   "action": "new",
+   "from": "the-quakers-religious-society-of-friends",
+   "to": "shakers",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The Shakers' confession of 1810 says James and Jane Wardley had belonged to the Quakers and then separated from them. Their society began near Manchester about 1747 and later took Ann Lee as its Mother. The source is the Shakers' own account, written sixty years on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "984-987",
+     "locus": "Introduction, sect. VI",
+     "quote": "James Wardley, a taylor by trade, and Jane his wife, who wrought at the same occupation, had belonged to the so- ciety of people called Quakers ; but receiving the spirit of the French prophets",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "988-990",
+     "locus": "Introduction, sect. VI",
+     "quote": "by which they were separated from that community, they continued for several years, disconnected from every denom- ination.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "980-982",
+     "locus": "Introduction, sect. V",
+     "quote": "This work began in Bolton and Manchester, in the county of Lancashire, ill England, about the year 1747.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin Seth Youngs, The Testimony of Christ's Second Appearing, 2nd ed. (1810), Introduction",
+     "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "lines": "1112-1115",
+     "locus": "Introduction, sect. X",
+     "quote": "through Anne Lee, that extraordinary woman, concerning whom, so many strange things have been conjectured ; and who, at that time, was received by the society as their spirit- ual Mother",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "shakers relationsSummary (after prose change 0: 'They had left the Quakers'); longDescription and why ('a small group of dissenters in Manchester')",
+   "wants": [
+    "A contemporary record of the Wardley society, or a Quaker meeting record naming the Wardleys (none vendored)"
+   ],
+   "drafter_flags": [
+    "Same caution as the French Prophets link: one witness, the Shakers' own, written about sixty years later. Graded Documented by the method's test (named people passing from one body to the other, in a dated text).",
+    "The text calls the Wardleys a tailor and his wife; 'Shaking Quakers' as a nickname is in the same introduction (lines 1059-1063) but is not used here.",
+    "New relationship the inventory missed ('Manchester dissenters' had no match)."
+   ],
+   "change_reason": "New. Names the 'Manchester dissenters' the entry speaks of, by the Shakers' own account."
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "action": "new",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "the-antonian-movement-in-kongo",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Antonian movement grew up among Kongo's own Christians. The friar Antonio Zucchelli, who worked there until 1704, tells of a king, Pedro IV, who could not yet be crowned in the ruined capital. John Thornton's standard study reads the movement of Beatriz Kimpa Vita as part of the faith of Kongo.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio Zucchelli da Gradisca, Merckwürdige Missions- und Reise-Beschreibung nach Congo (German, 1715; Italian 1712)",
+     "file": "cic/texts/zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt",
+     "lines": "11515-11517",
+     "locus": "Relation on the Kongo nobility",
+     "quote": "Selbſt der ietzige Don Pietro Agog Ro⸗ ſada, erwehlter König von Congo kan uns zum Beyſpiel dienen, als den unſere Mißionarien niemahlen darzu bereden konnen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio Zucchelli da Gradisca, Merckwürdige Missions- und Reise-Beschreibung nach Congo (German, 1715; Italian 1712)",
+     "file": "cic/texts/zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt",
+     "lines": "17797-17803",
+     "locus": "Relation on the war for the throne",
+     "quote": "noch ſich in der Haupt⸗Stadt dieſes Königreichs, welches Sanct Salvator iſt konnen kroͤhnen laſſen, welche dahero verwuͤ⸗ get, und einer Wulſteney ähnlicher ſiehet als einer Stadt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John K. Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-antonian-movement-in-kongo relationsSummary ('Christianity already two centuries African producing its own prophetess'), longDescription and why ('By 1700 the Kingdom of Kongo had been Christian for two centuries'); kongo-christianity-afonso-to-1650 relationsSummary ('the later prophetic movement of Dona Beatriz (1704) is its own entry')",
+   "wants": [
+    "Bernardo da Gallo's relation to Propaganda Fide on Dona Beatriz and her trial (1710), and Lorenzo da Lucca's relations (1706-1707), in any public-domain edition; the only contemporary record of the movement. Would let this link be Documented."
+   ],
+   "drafter_flags": [
+    "cross-era: era 7. The Kongo entry ends in 1650; the movement is 1704-1706. The link bridges half a century on the ground that the same kingdom's Christianity continued; Zucchelli (1698-1704) shows it still there.",
+    "Thornton is cited in the repo (Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html, as 'The standard study'); I have not read it. The note's 'reads ... within this Kongolese Christianity' is the repo's description of its thesis, not a checked passage. Hence named-not-rechecked.",
+    "Zucchelli's German OCR keeps 'Agog Ro⸗ ſada' and 'verwuͤ⸗ get' (for 'verwüstet', laid waste); quotes are verbatim. The first quote shows the missionaries working with Pedro IV as a Christian king; the second shows the capital uncrowned and waste."
+   ],
+   "change_reason": "New. The entry's first relationship, its rise inside Kongo's two-century-old Christianity, had no link."
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "action": "new",
+   "from": "new-spain-and-andes-mission-born-christianity",
+   "to": "colonial-latin-american-devotional-catholicism",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Turibius, archbishop of Lima, urged the young Rose of Lima to enter a convent of St Clare. Her English life of 1855 says she lived in a New World 'where the faith was only just beginning to spring up.' In 1688 the Jesuit Francisco de Florencia traced the Guadalupe devotion in Mexico back to 1531.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Life of Saint Rose of Lima, ed. F. W. Faber (1847; American edition, Philadelphia, 1855)",
+     "file": "cic/texts/faber-fw_life-of-saint-rose-of-lima_1855.txt",
+     "lines": "1411-1413",
+     "locus": "on her choice of a religious life",
+     "quote": "Turibius, the archbishop of Lima, requested her to enter a convent of S. Clare,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Life of Saint Rose of Lima, ed. F. W. Faber (1847; American edition, Philadelphia, 1855)",
+     "file": "cic/texts/faber-fw_life-of-saint-rose-of-lima_1855.txt",
+     "lines": "7945-7948",
+     "locus": "on her miracles",
+     "quote": "S. Rose, a nun of the third order of S. Dominic, in the New World, where the faith was only just beginning to spring up",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco de Florencia, La Estrella del Norte de México (written 1688; Guadalajara edition of 1895), author's prologue",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "281-283",
+     "locus": "Prólogo del autor",
+     "quote": "y en ella aclara- da su constante tradición, desde el año de 1531 hasta el presente de 1688",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "colonial-latin-american-devotional-catholicism relationsSummary ('This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form'); longDescription ('Once the first missionary generation had passed'); new-spain-and-andes-mission-born-christianity relationsSummary ('colonial Latin American devotional Catholicism continues it')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7.",
+    "Data note for the merge: both entries call this a continuation, but new-spain-and-andes-mission-born-christianity has no continuesAs field set. Setting continuesAs to colonial-latin-american-devotional-catholicism would make the record agree with both texts; that is a movement-field change outside this draft.",
+    "Turibius's own dates (archbishop 1581-1606) are not in the quoted lines, so the note does not give them. Villagómez's 1662 beatification digest for him is vendored but its OCR is too garbled to quote cleanly.",
+    "Florencia's claim of an unbroken tradition from 1531 is his own; the note reports it as his. The apparition's early documentation is debated, which is why the note says 'traced' and does not state it as fact."
+   ],
+   "change_reason": "New. Both entries name the continuation, and no link carried it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "shakers",
+   "field": "relationsSummary",
+   "old": "Radical edge of the era's prophetic currents",
+   "new": "By the Shakers' own account, the society began near Manchester about 1747 with James and Jane Wardley. They had left the Quakers and taken up the spirit of the French Prophets. Ann Lee later became its leader.",
+   "reason": "'Radical edge of the era's prophetic currents' named no one. The Shakers' own confession (Youngs, 1810) names the Quakers and the French Prophets as the Wardleys' background; both are entries, now linked. The sentence says plainly that this is the Shakers' own account. Whole field rewritten.",
+   "fre_after": 70.1,
+   "fk_after": 6.5
+  },
+  {
+   "n": 1,
+   "movement": "restoration-georgian-church-of-england",
+   "field": "relationsSummary",
+   "old": "The restoration of the bishops in 1660, the Act of Uniformity of 1662, and the Great Ejection of roughly two thousand ministers defined church and dissent in a single stroke. The Toleration Act of 1689 produced the nonjurors, and the church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701. This is the church that Methodism grew up inside, and eventually out of.",
+   "new": "The bishops came back in 1660. Then the Act of Uniformity of 1662 and the Great Ejection of roughly two thousand ministers defined church and dissent in a single stroke. In 1689 several hundred clergy, the nonjurors, refused the new oath to William and Mary and lost their posts. The church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701. This is the church that Methodism grew up inside, and eventually out of.",
+   "reason": "Wrong fact: 'The Toleration Act of 1689 produced the nonjurors'. The nonjurors came from refusing the oath of allegiance to William and Mary, as the entry's own longDescription says; Thomas Ken's letters (vendored, ken_prose-works-with-letters_round1838.txt) speak of his 'refusal being deprived by the state'. The Toleration Act clause is dropped. Whole field rewritten; every other fact kept.",
+   "fre_after": 64.5,
+   "fk_after": 7.9
+  },
+  {
+   "n": 2,
+   "movement": "catholic-church-ancien-regime",
+   "field": "legacy",
+   "old": "It survived, which was not obvious in 1799. The Revolution stripped away the wealth and political entanglement that had defined the church for centuries, and what emerged after 1815 was poorer, more clerical and far more oriented toward Rome. The ultramontane Catholicism of the nineteenth century is the direct product of this catastrophe. The suppression and restoration of the Jesuits, the loss of the church lands, and the concordat as a way of settling with a secular state all set terms the church has operated under ever since. Its parish churches, seminaries and religious orders across Europe are still, physically, largely those of this period.",
+   "new": "It survived, which was not obvious in 1799. The Revolution stripped away the wealth and political ties that had defined the church for centuries. What came out after 1815 was poorer, more clerical and far more turned toward Rome. The same line of popes carried it into the nineteenth century, when Catholics looked to Rome as never before. How much this crisis shaped that later church is a judgment, not a recorded fact. The loss of the Jesuits and their return set terms the church still works under. So did the loss of church lands, and the concordat as a way to make peace with a secular state. Its parish churches, seminaries and religious orders across Europe are still, physically, largely those of this period.",
+   "reason": "'The ultramontane Catholicism of the nineteenth century is the direct product of this catastrophe' states a causal reading as fact; no vendored text or repo-cited secondary work supports it. The continuity itself is documented (Pius VII signed concordats in 1801 and 1817; continued-as link), so that is what the field now asserts, with the causal claim qualified. One long sentence also split. Whole field rewritten; every other fact kept.",
+   "fre_after": 64.0,
+   "fk_after": 8.2
+  },
+  {
+   "n": 3,
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "relationsSummary",
+   "old": "This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form. It is the popular piety that the twentieth-century base communities later re-read \"from below.\" The California missions, founded from 1769 under Junípero Serra, belong within this same New Spain-wide devotional world.",
+   "new": "This is the settled, everyday form of the mission faith that came before it in Spanish America. The missions Junípero Serra began in California from 1769 belong to this same world of devotion in New Spain. Much later, the base communities of the twentieth century grew among people raised in this piety. How much they drew on it is a matter of judgment.",
+   "reason": "'It is the popular piety that the twentieth-century base communities later re-read \"from below\"' states an influence that no vendored text shows; neither entry's sources name the other. Qualified, not removed: the base communities did grow among the same Catholic poor. The Serra sentence is kept and moved up. Whole field rewritten.",
+   "fre_after": 61.9,
+   "fk_after": 8.5
+  },
+  {
+   "n": 4,
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "field": "legacy",
+   "old": "This is a living tradition rather than a closed one. Latin America holds the largest Catholic population on earth, and the devotional shape the faith took in these centuries — the shrine, the patronal feast, the confraternity, the image carried in procession — is still how it is practiced by most of its people. Guadalupe's basilica in Mexico City is the most visited Marian shrine in the world. And this popular piety was the ground the base communities of the twentieth century stood on when they began reading Scripture from below.",
+   "new": "This is a living tradition, not a closed one. Latin America holds the largest Catholic population on earth. The shape the faith took in these centuries is still how most of its people practice it. That means the shrine, the patron saint's feast, the confraternity and the image carried in procession. Guadalupe's basilica in Mexico City is the most visited shrine to Mary in the world. The base communities of the twentieth century began reading Scripture from below. They grew among people formed by this piety, though how far they built on it is a matter of judgment, not record.",
+   "reason": "Same unsupported influence claim as the summary ('this popular piety was the ground the base communities ... stood on'), qualified the same way. Whole field rewritten; every other fact kept.",
+   "fre_after": 60.4,
+   "fk_after": 8.4
+  }
+ ],
+ "wants": [
+  "A contemporary record of the Wardley society in the 1740s-1760s (none is vendored), to test the Shakers' later account of a French Prophet origin",
+  "A contemporary record of the Wardley society, or a Quaker meeting record naming the Wardleys (none vendored)",
+  "A vendored Victorian Church of England text that names the 1662 Prayer Book in force after 1815 (for example a 19th-century printing of the Book itself, or Keble's or Newman's Tracts for the Times)",
+  "Bernardo da Gallo's relation to Propaganda Fide on Dona Beatriz and her trial (1710), and Lorenzo da Lucca's relations (1706-1707), in any public-domain edition; the only contemporary record of the movement. Would let this link be Documented.",
+  "Edmund Calamy, An Account of the Ministers ... Ejected or Silenced after the Restoration (1702/1713), or Calamy Revised (1934 is in copyright; the 1775 Palmer Nonconformist's Memorial would do), for the named ejected ministers and their gathered congregations",
+  "Bernardo da Gallo and Lorenzo da Lucca on the Capuchins' part in the arrest and burning of Dona Beatriz (1706), for the Antonian entry's Capuchin sentence",
+  "A source showing the base communities of the 1960s-1990s drawing on colonial popular piety (for example Cardenal's Solentiname conversations naming a confraternity or patronal feast), if the qualified sentence is ever to stand as fact"
+ ],
+ "escalations": [
+  "Not a stop, for the merge: swedenborgian-new-church has relationsSummary '-' (a dash placeholder). Its texts name no movement relationship I could link, and writing a summary is more than a one-sentence fix. Its own vendored sources do carry one documented exchange that the prose never mentions: Joseph Priestley's Letters to the Members of the New Jerusalem Church (1791) and the replies by Hindmarsh (1792) and Proud (1791). If Mark wants a link there, the matching entry would be English or American Unitarianism, which is a cross-entry decision.",
+  "Not a stop: new-spain-and-andes-mission-born-christianity has no continuesAs although both entries' texts describe the continuation now linked. Setting it is a movement-field change outside this draft."
+ ]
+}

@@ -79,15 +79,16 @@ applied to every shared file, not only the census.
 | P2-L4 | Links, era 4; data release 8 | none | merged (#1541) |
 | P2-L5 | Links, era 5; data release 9 | none | merged (#1542) |
 | P2-L6 | Links, era 6; data release 11 | none | merged (#1544) |
-| P2-L7…L8 | Links, one era per chunk | none | in progress |
-| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 12 | none | part 1 in review; part 2 in progress |
+| P2-L7 | Links, era 7; data release 12 | none | merged (#1546) |
+| P2-L8 | Links, era 8; data release 13 | none | merged (#1547) |
+| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14 | none | part 1 in review; part 2 reviewed, to follow as data release 15 |
 | P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
 | P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |
 | P2-S | Find-your-church search | none | todo |
-| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | todo |
+| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | done (2026-11-08); awaiting Mark's ruling (`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`) |
 | P2-G2 | Schema additions | none | todo |
 | P2-G3 | The agreed entries | narration sample, by ear | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |

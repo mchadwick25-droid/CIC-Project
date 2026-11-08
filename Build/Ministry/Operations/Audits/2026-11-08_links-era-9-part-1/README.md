@@ -28,17 +28,17 @@ After review, the spelling check flagged one note: Carey's book title "Enquiry".
 
 ## Counts
 
-- Links touching a part-1 movement: 41. This pass added 35 and rewrote the notes of 3 (Holiness to Azusa Street; Stone-Campbell to the Churches of Christ and to the Disciples, for reading level). 3 were already on main and unchanged (from the era 8 movements). No link retired; every published ID stands.
-- Census links in all: 364 before this pass (after era 6, merged first as data release 11), 399 after. Data release 12 (2026-11-08). Era 6's links touch no part-1 movement, and none of this pass's links repeats one of them.
-- Grades of the links added: Dominant Modern Reconstruction 22, Documented 6, Widely Accepted 5, Inferential-Thin 2. Most of this lane's own texts (the founders' sermons, minutes and confessions) are not vendored; see wanted texts.
-- Types of the links added: influenced 15, gave rise to 9, continued as 6, broke with 3, argued against 2.
+- Links touching a part-1 movement: 45. This pass added 34 and rewrote the notes of 3 (Holiness to Azusa Street; Stone-Campbell to the Churches of Christ and to the Disciples, for reading level). 8 were already on main and unchanged: 3 from earlier passes, and 5 that eras 7 and 8 drew into part-1 movements (from the St Thomas Christians, the Methodist revival, the Quakers, the Baptists and the Georgian Church of England). No link retired; every published ID stands.
+- Census links in all: 506 before this pass (after eras 6, 7 and 8, data releases 11 to 13), 540 after. Data release 14 (2026-11-08). One drafted link was already published by era 8 and was set aside (below).
+- Grades of the links added: Dominant Modern Reconstruction 22, Documented 5, Widely Accepted 5, Inferential-Thin 2. Most of this lane's own texts (the founders' sermons, minutes and confessions) are not vendored; see wanted texts.
+- Types of the links added: influenced 15, gave rise to 9, continued as 5, broke with 3, argued against 2.
 - Dispositions of the named relationships (drafting, 351): no-entry 135, kept-as-is 94, link 76, qualify 30, out-of-scope 9, remove 7. "no-entry" means the other party has no census movement; its claim was still checked, and qualified where no vendored or repo-cited source supports it.
 - Prose: 28 movement fields changed. Every changed paragraph, and every new or rewritten link note, scores Reading Ease 60 or more and FK grade 10 or less with `engine.m7.turn_readability.score_turn` (`Readability_Scores.json`, 66 scored, 0 failing).
 - Quote check: `node tools/validate-census.mjs --base <main's census> --atlas cft-website/index.html --tree cft-website/tree`, 0 errors. Every primary quote appears verbatim at its stated lines. Several keep the edition's OCR errors exactly (McNemar's "fiinccre"); each is in the link's drafter flags.
 
 ## Major links
 
-- Major by type (links touching part 1, after this pass): 21. Gave rise to 12, continued as 6, broke with 3.
+- Major by type (links touching part 1, after this pass): 27. Gave rise to 15, continued as 9, broke with 3. Of these, this pass added 17 (gave rise to 9, continued as 5, broke with 3) and rewrote the notes of 3 "gave rise to" links.
 - Major by outcome: **0**. No `outcome` field was added.
 - Judged and found minor (17 "influenced" or "argued against" links; reasons in `Drafting_Record.json` and `Revision_Round1.json`, field `major`):
 
@@ -100,8 +100,8 @@ Every link added or changed is named in the text of one of its movements (`named
 
 ## Merge with other sessions
 
-- Eras 6, 7 and 8 run at the same time. Relationships their own movements' texts name were left to them (9 dispositions "out-of-scope"). This pass drew two era-8-to-era-9 links that only the era-9 text names: `the-methodist-revival--nineteenth-century-methodism` and `the-baptists--nineteenth-century-baptists` (both "continued as"). Era 8's branch had not applied any link when this pass applied.
-- Era 7's branch carries `st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor` ("continued as"). Its era-7 text says the Kerala and Northeast India churches descend from the St Thomas Christians. The northeast hill churches came from Welsh and American missions; only the Mar Thoma half descends. Flagged for era 7's owner, not touched (Open-Gaps, "Era 7's St Thomas entry and the Northeast India churches", 2026-11-08).
+- Eras 6, 7 and 8 ran at the same time and merged first (data releases 11, 12 and 13); this part took 14. Relationships their own movements' texts name were left to them (9 dispositions "out-of-scope"). This pass drew two era-8-to-era-9 links that only the era-9 text names. Era 8 had published one of them, `the-methodist-revival--nineteenth-century-methodism` (continued as, Widely Accepted), so it stands and this pass's Documented draft was set aside; the stronger evidence is logged for P2-L11 (Open-Gaps, "Era 8 and era 9 drew the same Methodist link", 2026-11-08). The other, `the-baptists--nineteenth-century-baptists`, also closes era 8's `continuesAs` gap for the Baptists.
+- Era 7 (data release 12) published `st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor` ("continued as"), and removed its own text's claim that the Northeast India churches descend from the St Thomas Christians. Only the Mar Thoma half of the era-9 movement does; the hill churches came from Welsh and American missions. Whether "continued as" fits the whole movement is logged for P2-L11 (Open-Gaps, "Era 7's St Thomas link into the Northeast India churches", 2026-11-08).
 - The link work now covers eras 1 to 9, and era 10 is deferred (Decision-Log, "The link work covers eras 1 to 9", 2026-11-08). Era 10's movements stay on the map, so the links era-9 text names to them stand: 14 links, 11 new and 3 already on main. They run to the Black Church of the twentieth century, Azusa Street (two), the Churches of Christ, the Disciples, the Seventh-day Adventists, dispensational prophecy culture, the Chinese church, the African initiated churches, the ecumenical movement, independent Indonesia, twentieth-century Northeast India and Mar Thoma, the Malankara churches, and the Communist-era persecuted churches.
 
 ## Open items

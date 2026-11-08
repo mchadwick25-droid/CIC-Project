@@ -1,0 +1,41 @@
+{
+ "round": 3,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 1,
+  "round2_fixed": 3,
+  "round2_partly": 0,
+  "round2_not_fixed": 0
+ },
+ "round2_status": [
+  {
+   "id": "R2-01",
+   "status": "fixed",
+   "note": "origin/main is an ancestor of HEAD (merge e59dc89e). The validator with --base origin/main's census, --atlas and --tree gives 0 errors and 2 warnings (both old shortName warnings, eras 1-2). All 364 edge ids on origin/main are present at HEAD (442 edges). No edge id occurs twice. Each of the eight main_stands ids is byte-identical to origin/main's text, as is hieronymian-ascetic-literary--the-tridentine-church, which changed on main only. Main's Humiliati outcome stands. Only eight origin/main edges differ at HEAD, and none of them was changed on main since the merge base: they are this pass's own edits. Every edge this pass changed before the merge (ff88aec9) is at HEAD as it was, apart from the two R2-02/R2-03 rewrites. No movement changed on both sides, and no change from either side is lost. retiredLinks is unchanged (0 on both). The revision's eight main_stands differ from the review's seven: it adds the two continued-as ids both sides drew new (church-of-the-east schism 1552, Ethiopian monastic) and leaves out hieronymian, which only main changed. That is correct."
+  },
+  {
+   "id": "R2-02",
+   "status": "fixed",
+   "note": "The census note is the reviewer's text word for word (FRE 62.1, FK 9.2). Type influenced, grade Dominant Modern Reconstruction and the three sources are unchanged. Golubev 18351-18355 and Pinkerton 660-663 are verbatim at their lines with whitespace squashed."
+  },
+  {
+   "id": "R2-03",
+   "status": "fixed",
+   "note": "Ludolf now cites 10019-10022 with the reviewer's 35-word quote. It is verbatim at those lines with whitespace squashed."
+  }
+ ],
+ "findings": [
+  {
+   "id": "R3-01",
+   "target": "the 'Outcome test, adoption by vote' open question (Revision_Round1.json for_open_gaps entry; audit README and Open-Gaps still to be written)",
+   "severity": "minor",
+   "issue": "The R2-01 fix asked for a sentence recording that origin/main already publishes an outcome on hieronymian--tridentine, so the class stands split before Mark rules. No file of this pass records it. The Revision_Round1 entry is unchanged and still reads as if all six links of the class lack outcomes. Revision_Round2 does not mention it. The split is now live data at HEAD: hieronymian-ascetic-literary--the-tridentine-church carries main's outcome ('The Council of Trent made the old Latin Vulgate the authentic text for public lectures, debates, sermons and teaching. No one could reject it.'). The four links of the same class have none, and neither does kyiv--ottoman. That link is not this pass's to change, so main's outcome rightly stands. But the inconsistency must reach Mark in writing.",
+   "evidence": "grep for 'one with an outcome', 'one to five' and 'PR #1544' in the audit folder finds only Revision_Round2's merge line. Revision_Round1.json line 2093 is unchanged. census edge hieronymian-ascetic-literary--the-tridentine-church has outcome; lutheran--scandinavian, geneva--scottish, geneva--huguenots and geneva--dutch have none. P2-ML README line 55 lists hieronymian--tridentine as rule-changed.",
+   "fix": "In the era-7 audit README and in the Open-Gaps entry for 'Outcome test, adoption by vote (2026-11-08, for Mark)', add after its last sentence: 'Origin/main (era 6, PR #1544; the P2-ML major-links pass) already publishes an outcome on hieronymian--tridentine, so the class stands one with an outcome and five without until Mark rules. Main's outcome is left in place because it is not this pass's to change; Mark's ruling settles all six alike.'"
+  }
+ ],
+ "checked": "Read CLAUDE.md, Era7_Brief, Opus_Review_Round2_TargetedRecheck and Revision_Round2. (1) git merge-base --is-ancestor origin/main HEAD: true. Ran node tools/validate-census.mjs --base <origin/main census> --atlas cft-website/index.html --tree cft-website/tree: 0 errors, 2 warnings. Compared edges by id across the merge base, the pre-merge branch (ff88aec9), origin/main and HEAD, both parsed and as raw byte slices of the file. Compared movements three ways for changes lost or in conflict. (2) Opened Golubev, Pinkerton and Ludolf at the cited lines and checked each quote with whitespace squashed. Scored the R2-02 note with engine.m7.turn_readability. (3) Searched the audit folder and Build/ for a record of the hieronymian outcome split (R3-01). (4) Grouped every edge touching an era-7 movement by unordered pair. Nine pairs carry two or three edges. None mixes a main-new edge with a branch-new edge. Each is a different type or direction that earlier rounds reviewed. For each of the 12 main-new era-7-touching edges, I checked the other edges of its era-7 end against era-6 parties and same-tradition parties. I also searched every note and outcome for the main edges' key facts (Imitation, Theologia Deutsch, Cloud of Unknowing, Wyclif's Wicket and Amersham, Hus, Lateran, Scholarios, Stoglav, Debra Libanos, Etchmiadzin, Simon). Each fact sits on only one era-7-touching edge. No relationship is drawn twice under different ids. I did not recheck anything outside these four items."
+}

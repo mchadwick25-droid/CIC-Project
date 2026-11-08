@@ -1,0 +1,670 @@
+{
+ "sweep": "P2-G1",
+ "date": "2026-11-08",
+ "open_gaps_rulings": [
+  {
+   "subject": "No entry for the church of Alexandria, 4th-5th century",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the census get an entry for the see of Athanasius and Cyril?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add an entry",
+     "effect": "The census gains an Alexandria entry for the 4th-5th century, and the Aksumite and Cyrilline links point at it."
+    },
+    {
+     "key": "B",
+     "label": "No entry; keep the school only",
+     "effect": "The Aksumite and Cyrilline texts stay without that link, and the school's entry is not bent to carry it."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "The entry says no link can carry the 'children of Alexandria' claim without bending the school's entry, and the sources are already gathered in the era 2 links audit. The main candidate list carries the full treatment.",
+   "urgency": "before launch",
+   "candidate_numbers": [
+    2
+   ]
+  },
+  {
+   "subject": "Two Egyptian Miaphysite entries from the same year",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Merge the two Cyrilline Egyptian entries, split them clearly, or leave them joined by a link?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Merge into one entry (451-642)",
+     "effect": "One entry survives and one ID is retired; the era 3 links already attach only to the era-3 entry."
+    },
+    {
+     "key": "B",
+     "label": "Keep both, split by date",
+     "effect": "Each entry gets its own non-overlapping span and its own content."
+    },
+    {
+     "key": "C",
+     "label": "Keep both as they are",
+     "effect": "The sourced 'continued as' link joins them; nothing changes."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "Both describe the same church from the same year, and era 3 already attaches its links to the era-3 entry alone. The entry gives no evidence for a clean date split. The main candidate list carries the full treatment.",
+   "urgency": "before launch",
+   "candidate_numbers": [
+    1
+   ]
+  },
+  {
+   "subject": "Well-known facts with no vendored source",
+   "date": "2026-11-07",
+   "also": [
+    "Well-known facts with no vendored source, era 5 (2026-11-08)",
+    "Well-known facts with no vendored source, era 6 (2026-11-08)"
+   ],
+   "kind": "method",
+   "census_candidate": false,
+   "question": "Does the 'qualify' rule reach plain facts that are not relationships and have no vendored source?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Hold as written",
+     "effect": "Such sentences stand; wanted texts stay on each era's list (the practice in eras 3 to 6)."
+    },
+    {
+     "key": "B",
+     "label": "Extend the rule",
+     "effect": "Each such sentence needs a source or is softened or removed before launch."
+    },
+    {
+     "key": "C",
+     "label": "Hold as written, then clear the lists",
+     "effect": "Sentences stand now; the wanted texts are vendored ahead of need and each sentence is rechecked against them."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The entry says these stand as written, with the wanted texts listed per era, and nothing says they are doubted. Source acquisition is already meant to run ahead of need. The cautious path keeps the text and works down the lists, rather than removing facts unchecked.",
+   "urgency": "before launch",
+   "sitting_number": 109
+  },
+  {
+   "subject": "Which entry owns an emperor's act against the Nicenes, 337-378",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "mapping",
+   "census_candidate": false,
+   "question": "What one rule decides which entry holds an emperor's act against the Nicenes?",
+   "options": [
+    {
+     "key": "A",
+     "label": "By the actor: the imperial church holds emperors' acts",
+     "effect": "Valens's deposition of Gregory of Nyssa would move from the Homoian church to the imperial church."
+    },
+    {
+     "key": "B",
+     "label": "By the church the emperor backed",
+     "effect": "Constantius II's exile of Hilary would move to the Homoian church."
+    },
+    {
+     "key": "C",
+     "label": "No rule; each link stands on its own sources",
+     "effect": "Both links stay where they are, and the page says the mapping is case by case."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The entry says each link already stands on its sources and that one rule should cover both, but it does not say which rule the sources favor. Moving either link needs a source check this sweep has not done.",
+   "urgency": "before launch",
+   "sitting_number": 110
+  },
+  {
+   "subject": "The two early Persian entries overlap",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": false,
+   "question": "How should the two early Persian entries' dates be set, given 27 shared years?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Merge into one entry",
+     "effect": "One entry covers 300-651; one ID is retired."
+    },
+    {
+     "key": "B",
+     "label": "Keep both, remove the overlap",
+     "effect": "The first entry ends and the second begins at the synod of 424."
+    },
+    {
+     "key": "C",
+     "label": "Keep both and the overlap",
+     "effect": "Nothing changes; the 'continued as' link keeps standing on the synod of 424."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The link rests on the synod of 424, which the entry says stands. The entry does not show what the two texts say for 424-451, so any date cut needs the entry owner's read first.",
+   "urgency": "low",
+   "sitting_number": 111
+  },
+  {
+   "subject": "Ambrose's Milan and the imperial church overlap",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": false,
+   "question": "Does the standalone Ambrose entry stay separate from the imperial church entry?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Keep separate",
+     "effect": "The standalone entry and its 'argued against' link to the imperial entry stand."
+    },
+    {
+     "key": "B",
+     "label": "Fold Ambrose into the imperial entry",
+     "effect": "The standalone entry is retired; its content moves into the imperial entry."
+    },
+    {
+     "key": "C",
+     "label": "Keep separate, trim the imperial entry",
+     "effect": "Ambrose's stand is told once, in his own entry, and the imperial entry points to it."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "The standalone entry already links to the imperial entry, so the overlap is declared and nothing is lost. Folding or trimming changes two published entries on the strength of one overlap.",
+   "urgency": "low",
+   "sitting_number": 112
+  },
+  {
+   "subject": "Augustine has no movement of his own",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Is Augustine's home the Latin pastoral entry, or does he need his own entry?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Give him his own entry",
+     "effect": "Era 2's links from Ambrose, Jerome, Hilary, the Donatists, the Pelagians and the Gallic monks are re-pointed to it. The project's person-profile rule (2026-11-06) may fit."
+    },
+    {
+     "key": "B",
+     "label": "Keep him under the Latin pastoral entry",
+     "effect": "The links stay; the entry's own text, which says it is not the councils and controversies, is a poor home for them."
+    },
+    {
+     "key": "C",
+     "label": "Keep the links, add a note",
+     "effect": "Links stay and the note on each says why the target is only the nearest entry."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "The target entry's own text says it is congregational life, 'not the councils and not the controversies', which does not fit these links. The person-profile rule covers someone with writing of their own and no lasting movement. The main candidate list carries the full treatment.",
+   "urgency": "before launch",
+   "candidate_numbers": [
+    10
+   ]
+  },
+  {
+   "subject": "No link type for communion",
+   "date": "2026-11-07",
+   "also": [
+    "No link type for church jurisdiction (2026-11-08)",
+    "No link type for an authority's acts on another body's own order (2026-11-08)"
+   ],
+   "kind": "method",
+   "census_candidate": false,
+   "question": "Does the method gain a link type for communion, jurisdiction or an authority's acts on another body, or do these stay under the six types?",
+   "options": [
+    {
+     "key": "A",
+     "label": "No new type; explain the convention",
+     "effect": "'In contact with' and 'influenced' stay; the method page says how communion, jurisdiction and such acts are drawn."
+    },
+    {
+     "key": "B",
+     "label": "Add one type for communion only",
+     "effect": "Aksum-Alexandria and Egyptian-Syriac Orthodox links are retyped."
+    },
+    {
+     "key": "C",
+     "label": "Add one type for jurisdiction and acts on another body",
+     "effect": "Caesarea-Armenia, Constantinople-Kyiv, the Church of the East's catholicos and the St Thomas Christians, and the five unlinked Ite vos-type sentences get a home."
+    },
+    {
+     "key": "D",
+     "label": "Add both types",
+     "effect": "Communion and jurisdiction each get a type; a method change and a numbered release."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "The entries say a new type would change the method, and the existing links are held at the grades their evidence reaches. This is a method change, so the cautious path is to document the convention now and revisit after launch.",
+   "urgency": "before launch",
+   "sitting_number": 113
+  },
+  {
+   "subject": "Caucasian Albania's end date",
+   "date": "2026-11-07",
+   "also": [],
+   "kind": "data-owner",
+   "census_candidate": false,
+   "question": "What end date does the Caucasian Albania entry carry, and what does the Bagratid summary say about it?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Extend the end date",
+     "effect": "The entry's end moves to the abolition of the see in the early nineteenth century, per Brosset and Ormanian; the owner sets the year from them."
+    },
+    {
+     "key": "B",
+     "label": "Keep 705, reword the Bagratid summary",
+     "effect": "The summary drops 'absorbs ... after 705' and says the see lived on inside the Armenian church."
+    },
+    {
+     "key": "C",
+     "label": "Leave both, record only",
+     "effect": "Nothing changes now."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The vendored histories show the see living on inside the Armenian church, so the 'absorbs after 705' wording is the part they contradict. The entry does not say whether the movement itself continued, and that needs the owner.",
+   "urgency": "before launch",
+   "sitting_number": 114
+  },
+  {
+   "subject": "No medieval English or Scandinavian successor entry",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the Scandinavian link to the Reformation kingdoms stand until a medieval entry exists?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add medieval entries",
+     "effect": "Late Anglo-Saxon and Scandinavian churches each gain a successor; the link is redrawn."
+    },
+    {
+     "key": "B",
+     "label": "Keep the link as it is",
+     "effect": "It stands, graded Inferential-Thin, resting on the see of Skara and stating Denmark's break of 1536-37."
+    },
+    {
+     "key": "C",
+     "label": "Remove the link",
+     "effect": "No successor is shown until an entry exists."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The link rests on the see of Skara at both ends and says plainly what it is, with a thin grade. Removing it loses that; adding entries is on the main candidate list.",
+   "urgency": "before launch",
+   "candidate_numbers": [
+    17,
+    18
+   ]
+  },
+  {
+   "subject": "Two 'continues as' fields name entries the evidence only influenced",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "data-owner",
+   "census_candidate": false,
+   "question": "Clear the two 'continues as' fields so they match the 'influenced' links?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Clear both fields",
+     "effect": "Carolingian and Cyrillo-Methodian entries no longer say they continue as the Gregorian papal church and Kievan Rus."
+    },
+    {
+     "key": "B",
+     "label": "Keep both fields",
+     "effect": "The data fields stay; the links stay typed 'influenced'."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "The entry says the Carolingian gap is 160 years with Cluny between, and what passed to Kyiv was books and letters, not a community. The links are already typed 'influenced', so the fields should say the same.",
+   "urgency": "before launch",
+   "sitting_number": 115
+  },
+  {
+   "subject": "Links the sources support but no text names",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "mapping",
+   "census_candidate": false,
+   "question": "Do we write new prose so that three sourced links can be drawn?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Write prose and draw all three",
+     "effect": "Alcuin's Against Elipandus, Lützow (1910) and Férotin (1912) each carry a link."
+    },
+    {
+     "key": "B",
+     "label": "Draw the Alcuin link only",
+     "effect": "The Documented Carolingian 'argued against' Mozarabic link is drawn; the other two stay held."
+    },
+    {
+     "key": "C",
+     "label": "Draw none",
+     "effect": "The three stay on the wanted list."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "Alcuin's text is vendored and would carry a Documented link. The entry gives no grade for the other two, so they wait for a reading.",
+   "urgency": "low",
+   "sitting_number": 116
+  },
+  {
+   "subject": "The Bogomil entries overlap",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": false,
+   "question": "How should `bogomils` and `balkan-bogomil-continuation` be separated?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Merge into one entry",
+     "effect": "Basil's burning and the Cathar link sit in one place; one ID is retired."
+    },
+    {
+     "key": "B",
+     "label": "Keep both, split the dates",
+     "effect": "The overlap goes; the Cathar link stays on `bogomils`."
+    },
+    {
+     "key": "C",
+     "label": "Keep both as they are",
+     "effect": "Nothing changes."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The Cathar link sits on `bogomils`, whose text names it three times. The entry does not show how the dates would split cleanly, so a cut needs the owner's read.",
+   "urgency": "low",
+   "sitting_number": 117
+  },
+  {
+   "subject": "No Melkite entry between 1009 and 1724",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the census get a Melkite entry for 1009-1724?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add an entry",
+     "effect": "The 'gave rise to' link no longer spans seven centuries."
+    },
+    {
+     "key": "B",
+     "label": "Keep the long link",
+     "effect": "It stands; its note already says it spans seven centuries."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The note already states the span. The entry names no sources for a 1009-1724 entry. The main candidate list carries the full treatment.",
+   "urgency": "low",
+   "candidate_numbers": [
+    19
+   ]
+  },
+  {
+   "subject": "Dominant Modern Reconstruction on old secondary works",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "method",
+   "census_candidate": false,
+   "question": "What does the grade 'Dominant Modern Reconstruction' mean when it rests on old works?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Keep the grade, define it",
+     "effect": "The method page says the grade can rest on older works that retell a medieval narrative."
+    },
+    {
+     "key": "B",
+     "label": "Vendor the medieval texts",
+     "effect": "The twelve links are regraded as the primary texts arrive."
+    },
+    {
+     "key": "C",
+     "label": "Drop the twelve to Inferential-Thin",
+     "effect": "Standard facts would read as thin."
+    }
+   ],
+   "recommendation": "A",
+   "reason": "Both reviewers held that the grade understates, and that dropping to Inferential-Thin would call standard facts thin. Vendoring (B) needs texts the Library does not yet hold.",
+   "urgency": "before launch",
+   "sitting_number": 118
+  },
+  {
+   "subject": "No movement for the Bulgarian church of the Second Empire",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the census get an entry for that church so the Tarnovo synod of 1211 can be linked?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add an entry",
+     "effect": "The synod against the Bogomils is linked to it."
+    },
+    {
+     "key": "B",
+     "label": "Leave unlinked",
+     "effect": "The synod stays in the prose only."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The entry rates this low urgency and gives no sources for an entry. The main candidate list carries the full treatment.",
+   "urgency": "low",
+   "candidate_numbers": [
+    20
+   ]
+  },
+  {
+   "subject": "Long-gap links to modern churches",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "mapping",
+   "census_candidate": false,
+   "question": "Should links reach across centuries to modern entries, such as the Georgian church restored in 1917?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Draw them, noting the span",
+     "effect": "Georgian golden age and the Serbian and Bulgarian monasteries link to their modern entries at the grade evidence reaches."
+    },
+    {
+     "key": "B",
+     "label": "Do not draw them",
+     "effect": "The gap stays, with centuries and other entries between."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The entry names centuries and other entries in between and no source for the step. The cautious path draws nothing the evidence has not reached.",
+   "urgency": "low",
+   "sitting_number": 119
+  },
+  {
+   "subject": "No Syriac Orthodox movement after 1300",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the census get a Syriac Orthodox entry after 1300?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add an entry",
+     "effect": "`syriac-renaissance` gets a 'continued as' target."
+    },
+    {
+     "key": "B",
+     "label": "Leave as is",
+     "effect": "`syriac-renaissance` keeps no continuation."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The entry rates it low urgency and names no sources for a later entry. The main candidate list carries the full treatment.",
+   "urgency": "low",
+   "candidate_numbers": [
+    21
+   ]
+  },
+  {
+   "subject": "Page recordings read the old descriptions",
+   "date": "2026-11-08",
+   "also": [
+    "Page recordings read the old descriptions, era 6 (2026-11-08)"
+   ],
+   "kind": "paid-run",
+   "census_candidate": false,
+   "question": "When do we re-record pages whose descriptions changed, given that this is a paid run?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Sample now, then run the 39 known pages",
+     "effect": "A sample of a few pages is re-voiced first; Mark approves by ear; the rest follow with settings passed and printed."
+    },
+    {
+     "key": "B",
+     "label": "Wait until descriptions stop changing",
+     "effect": "The manifest gets a hash of its source text first (no spend); then one sampled, ear-approved run covers every era."
+    },
+    {
+     "key": "C",
+     "label": "Hold the recordings off drifted pages",
+     "effect": "No spend; pages without a matching recording show none until re-voiced."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "Link passes keep rewriting descriptions, so a run now may be paid for twice. Eras 1 to 3 likely drift too. Whatever Mark picks, the sample comes first and every paid setting is passed explicitly and printed, per CLAUDE.md.",
+   "urgency": "before launch",
+   "sitting_number": 120
+  },
+  {
+   "subject": "The Church of the East's 'Hakkari' name",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "data-owner",
+   "census_candidate": false,
+   "question": "Do we rename `church-of-the-east-timur-to-hakkari`?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Rename it",
+     "effect": "The title drops 'Hakkari Remnant'; the era 7 summary of the 1552 schism is rewritten."
+    },
+    {
+     "key": "B",
+     "label": "Keep the title, fix the era 7 summary",
+     "effect": "The summary stops leaning on the title; the teaser already says what the title leaves out."
+    },
+    {
+     "key": "C",
+     "label": "Keep both as they are",
+     "effect": "Nothing changes."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The corrected fields place the patriarchs at Gazarta and Mosul with survivors in Hakkari, so the title is part right. A new name is not in the sources the entry cites.",
+   "urgency": "low",
+   "sitting_number": 121
+  },
+  {
+   "subject": "The Council of Basel sits under the papacy",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Does the census get a conciliar-movement entry?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add an entry",
+     "effect": "The Compacts of Basel link's 'from' changes (a retired ID and a new one)."
+    },
+    {
+     "key": "B",
+     "label": "Keep it under the papacy",
+     "effect": "The link stays as drawn."
+    }
+   ],
+   "recommendation": "B",
+   "reason": "The entry rates this low urgency. The link is drawn and stands. The main candidate list carries the full treatment.",
+   "urgency": "low",
+   "candidate_numbers": [
+    22
+   ]
+  },
+  {
+   "subject": "No Carthusian movement after 1300",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": true,
+   "question": "Do we extend `carthusian-life` past 1300 or add a later Carthusian entry?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Extend the entry past 1300",
+     "effect": "The copying of The Cloud of Unknowing and Hilton's Scale can be drawn as a link."
+    },
+    {
+     "key": "B",
+     "label": "Add a later Carthusian entry",
+     "effect": "The same link, with a separate entry for the later house."
+    },
+    {
+     "key": "C",
+     "label": "Leave as is",
+     "effect": "The English mystics text states the copying without a link."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The copying is documented, but the entry names no source for where the entry should end. The main candidate list carries the full treatment.",
+   "urgency": "low",
+   "candidate_numbers": [
+    23
+   ]
+  },
+  {
+   "subject": "The inquisition-record sects and the Free Spirit overlap",
+   "date": "2026-11-08",
+   "also": [],
+   "kind": "census-structure",
+   "census_candidate": false,
+   "question": "Do we split the Adamites and Free Spirit entries by evidence?",
+   "options": [
+    {
+     "key": "A",
+     "label": "Split by evidence",
+     "effect": "The Adamites sit in one entry and the Free Spirit in the other."
+    },
+    {
+     "key": "B",
+     "label": "Merge them",
+     "effect": "One entry; one ID is retired."
+    },
+    {
+     "key": "C",
+     "label": "Keep both, add a note",
+     "effect": "No lineage link fits the overlap, and a note says so."
+    }
+   ],
+   "recommendation": "C",
+   "reason": "The entry names the overlap and the shared Vienne decree but not which trials belong where. The census owner has to sort that before any split.",
+   "urgency": "low",
+   "sitting_number": 122
+  }
+ ]
+}
