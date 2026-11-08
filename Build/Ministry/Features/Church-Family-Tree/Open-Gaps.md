@@ -405,3 +405,72 @@ it, never by deleting it.
     the old descriptions" (2026-11-08): the era 6 pass rewrote the long description of all 23 era-6
     movements, and each has a recording in `cft-website/audio/tree/`. All 23 now play text that no
     longer matches the page. A paid voice run, for Mark.
+74. **"Continues as" with no graded link (2026-11-08).** 36 movements carry `continuesAs` with no
+    matching "continued as" link: 4 in eras 3 to 5 (Armenia after Avarayr, the Carolingian reform,
+    the Cyrillo-Methodian mission, Athonite monasticism; see "Two continues as fields name entries
+    the evidence only influenced" and "The Armenian continues as chain skips a movement"), 30 in eras
+    7 to 9 and 2 in era 10. The map's card now marks each "continued as · not yet graded", and names
+    the checked link where the pair has one of another kind. The era 7 to 9 passes and P2-L11 close
+    them; era 10 waits for P2-L10.
+75. **The tree's own pages have no light theme (2026-11-08).** The movement pages and the about,
+    method, data, privacy and support pages are dark only; a browser set to light shows them dark.
+    Seen while checking P2-M and P2-D. P2-K2's light-theme check covers it, with the map's
+    ("The map's light theme is unfinished", 2026-11-06).
+76. **Outcome test, adoption by vote (2026-11-08, for Mark).** Does a church body adopting another
+    side's confession, catechism or worship order by its own vote count as "a rule ... changed by an
+    authority" (major) or as "a text taken up" (minor)? Era-7 review round 1 (R1-05) ruled it a text
+    taken up, and the era 7 pass dropped four outcomes: `lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms`
+    (Uppsala 1593), `the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk` (General
+    Assembly 1562), `the-reformed-cities-zurich-and-geneva--the-huguenots` (Paris synod 1559) and
+    `the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture` (Emden 1571).
+    Two more links of the class carry none in era 7's view: `hieronymian-ascetic-literary--the-tridentine-church`
+    (Trent's Vulgate decree) and `the-kyiv-mohyla-orthodox-revival--orthodoxy-under-the-ottomans-parish-millet-and-n`
+    (the patriarchs' 1643 decree on Mohyla's Confession). Main (era 6, PR #1544; the P2-ML major-links
+    pass) already publishes an outcome on `hieronymian-ascetic-literary--the-tridentine-church`, so the
+    class stands one with an outcome and five without until Mark rules. Main's outcome is left in place
+    because it is not the era 7 pass's to change; Mark's ruling settles all six alike.
+77. **Sentence fragments in era-7 prose (2026-11-08).** Fragments left by an earlier sentence split
+    (e.g. "Asking the government to allow their view.") remain in long descriptions and legacies the
+    era 7 pass did not otherwise rewrite: the Dutch Further Reformation, Remonstrants, Waldensian union,
+    Czech churches, Zurich and Geneva (two), English Reformation (two), Scottish Kirk, Huguenots
+    (legacy), recusants (long description and legacy), Puritanism (two), Jesuits, Ottoman Orthodoxy,
+    Philippines, Kyiv-Mohyla (two), Carmelite reform (two) and the Tridentine church (legacy). Not
+    relationship claims. For the census owner, or P2-L11.
+78. **Long link notes, era 7 (2026-11-08).** Some notes the era 7 pass did not otherwise touch run past
+    three sentences: `the-anabaptist-movements--the-baptists` and `puritanism--the-baptists` (five
+    each), `scandinavian-conversion-christianity--scandinavian-reformation-kingdoms` (four). Trim when
+    next touched. For P2-L11.
+79. **The validator does not check secondary quotes (2026-11-08).** `tools/validate-census.mjs` checks
+    quotes only on primary sources. Secondary sources may carry a file, lines and quote (137 now
+    do), and those go unchecked. Every era-7 secondary quote was checked by hand in revision 1 and
+    review round 2. The validator should check them too. For the validator's owner (P2-ML).
+80. **Wanted texts that would lift three era-7 links (2026-11-08).** John Thornton, The Kongolese
+    Saint Anthony (1998), read at a locus (`kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo`
+    is Inferential-Thin until then); Stephen Turnbull (1998) or Christal Whelan (1996), read at a
+    locus (`kirishitan-japan--japanese-christianity-hidden-emergence-meiji`); Kenneth Mills, Cambridge
+    History of Christianity vol. 6 ch. 27 (`new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism`);
+    and the English royal proclamation against the Family of Love, dated 1580 only by Fuller's 1845
+    editor. Full list: the era 7 audit README.
+81. **A label movement with no links of its own (2026-11-08).** `mission-born-christianities-kirishitan-japan-kon`
+    is a label over four regional movements. The era 7 pass drew every relationship it names on the
+    regional movement instead, so the label stands alone in the tree. The review agreed. Whether a
+    label should show as joined is a display question, for Mark. The only other label is
+    `progressive-christianity` (era 10).
+82. **Page recordings read the old descriptions, era 7 (2026-11-08).** As in "Page recordings read the
+    old descriptions" (2026-11-08): the era 7 pass rewrote the long description of four era-7
+    movements (the Anabaptists, the Family of Love, the St Thomas Christians under Portuguese pressure,
+    the Carmelite reform), and each has a recording in `cft-website/audio/tree/`. All four now play
+    text that no longer matches the page. A paid voice run, for Mark.
+83. **"Held for later link passes, from era 6" (2026-11-08), era 7's part closed.** The era 7 pass drew
+    `czech-churches-last-century--the-moravian-church-at-herrnhut` and removed the Waldensian union's
+    Italian Methodist and Argentina-Uruguay clause for want of a source. The 1552 Chaldean line's union
+    with Rome in the nineteenth century joins two era-9 movements and is held for P2-L9.
+    For "'Continues as' with no graded link" (2026-11-08): eight of the nine era-7 `continuesAs`
+    fields now have a matching "continued as" link. The ninth, `czech-churches-last-century` to
+    `the-moravian-church-at-herrnhut`, is drawn as "gave rise to": the Renewed Unity's own history
+    shows named people and a bishop passing on, not the same community carried forward.
+84. **"Outcome test, adoption by vote" (2026-11-08) is closed.** Mark ruled adoption by vote minor
+    (Decision-Log, "Major links: a church body adopting another's text by vote is minor",
+    2026-11-08). The four era-7 outcomes stay dropped, and the Vulgate outcome on
+    `hieronymian-ascetic-literary--the-tridentine-church` is removed. P2-L11 checks eras 1 to 6 for
+    other outcomes of the class.

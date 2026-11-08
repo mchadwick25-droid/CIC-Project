@@ -12,7 +12,7 @@
    {
     "heading": "What it covers",
     "paragraphs": [
-     "The tree covers 300 movements. Each movement has its own page.",
+     "The tree covers {{movementCount}} movements. Each movement has its own page.",
      "The tree also holds 62 short gap stories. Each is a real, documented episode that never became a movement of its own.",
      "A river's width shows how many recorded movements in that family were active at the time. It does not measure membership or size."
     ]
@@ -20,10 +20,11 @@
    {
     "heading": "How the links work",
     "paragraphs": [
-     "Colored lines join traditions where the sources record a link. The tree shows 86 links of six kinds.",
+     "Colored lines join traditions where the sources record a link. The tree shows {{linkCount}} links of six kinds.",
      "Each link carries a confidence grade.",
      "Documented. Widely Accepted. Dominant Modern Reconstruction. Contested. Inferential-Thin.",
      "Each link also names its sources. A short quotation is checked word for word against the source text.",
+     "The [method page](method.html) explains how each link is made, checked and graded.",
      "Each movement names its place. Where that place lies in a country today, the tree names the country too, checked against a standard gazetteer, Wikidata or Pleiades. Some broad or historical regions show the place alone.",
      "Many movements have a spoken narration. The voice is synthesized."
     ]
@@ -33,7 +34,8 @@
     "paragraphs": [
      "Every claim has been checked with the help of AI. No independent scholar has yet reviewed any of them. Academic review is the project's biggest need.",
      "Movement and link IDs are permanent. A removed link keeps its ID on a retired list. A renamed movement keeps a redirect from its old address.",
-     "Each release of the data has a number and a date. The full data file is public at https://www.churchfamilytree.com/data/world-census.json."
+     "Each release of the data has a number and a date. The full data file is public at https://www.churchfamilytree.com/data/world-census.json.",
+     "The [data and citation page](data.html) shows how to cite the tree and download its data."
     ]
    },
    {
@@ -45,6 +47,269 @@
      "The Faithways Studio license policy covers use of the tree and its data.",
      "License policy: https://churchinconversation.com/license",
      "Contact: info@churchinconversation.com"
+    ]
+   }
+  ]
+ },
+ "method": {
+  "title": "How the tree is made",
+  "description": "How the Church Family Tree draws, sources, checks and grades each link between Christian movements.",
+  "sections": [
+   {
+    "heading": "Checked by AI, not yet by scholars",
+    "paragraphs": [
+     "Every claim and every link on the tree has been checked by AI models against the sources, working to our written method. None of it has yet been reviewed by an independent scholar.",
+     "When that review happens, the release will say which parts were reviewed and by whom. Academic review is the project's biggest need. The [data and citation page](data.html#review) says how to help."
+    ]
+   },
+   {
+    "heading": "How a link is made",
+    "paragraphs": [
+     "A link starts in a movement's own text. Each movement's page tells its story and names the movements it touched.",
+     "Every relationship that text names becomes a link. If the sources cannot support it, the text drops it or says plainly that it is uncertain.",
+     "An AI model drafts each link. It gives the link a kind, a grade, a short note and its sources.",
+     "Most sources are old texts kept as files in the project's library. A quoted source names its file and the exact lines.",
+     "A script then checks every quotation, word for word, against that file. A quotation that does not match fails, and so does its link.",
+     "Next, a second AI model reviews the work on its own. It is given the data and the sources, not the first model's reasoning. It checks each kind, grade, note and quotation.",
+     "The review runs both ways. Every relationship in the text must have its link, and every link must match the text.",
+     "Work that fails goes back for changes, for at most three rounds of review. Anything still open after the third round goes to the project lead to decide."
+    ]
+   },
+   {
+    "heading": "Six kinds of link",
+    "paragraphs": [
+     "Each link reads as a sentence: one movement, the kind of link, then the other movement. There are six kinds."
+    ],
+    "terms": [
+     {
+      "term": "Gave rise to",
+      "text": "The second movement grew out of the first. Its people, communities or institutions came from the first one."
+     },
+     {
+      "term": "Continued as",
+      "text": "The same community, carried on into a later movement on the tree. This is often the same church in a later age, or under a new name."
+     },
+     {
+      "term": "Influenced",
+      "text": "Ideas, texts or practices passed from the first movement to the second. This can happen with or without contact between them."
+     },
+     {
+      "term": "Argued against",
+      "text": "The first movement wrote or acted against the second, by name. The arrow points away from the critic. When both sides wrote against each other, the tree draws two links."
+     },
+     {
+      "term": "Broke with",
+      "text": "A break that both sides recorded. It runs both ways, so it has no arrow."
+     },
+     {
+      "term": "In contact with",
+      "text": "A recorded meeting, letter or shared event. It claims no influence. Living at the same time is not enough to count as contact."
+     }
+    ]
+   },
+   {
+    "heading": "Five grades of confidence",
+    "paragraphs": [
+     "Each link has a grade. The grade says how sure the record is of the link itself, not of the events its note mentions. A council that names a group can document an argument, for example. It does not, by itself, show that one movement grew out of another."
+    ],
+    "terms": [
+     {
+      "term": "Documented",
+      "text": "A primary source, written at the time or by the people involved, shows the link itself. Its words are quoted and checked against the file. If that text is not in the library, the link cannot be Documented."
+     },
+     {
+      "term": "Widely Accepted",
+      "text": "A primary source shows the facts underneath the link, and modern scholars broadly agree on what they mean. The link names at least one of those modern works."
+     },
+     {
+      "term": "Dominant Modern Reconstruction",
+      "text": "The leading account modern scholars have pieced together from the evidence. The link names the works it comes from."
+     },
+     {
+      "term": "Contested",
+      "text": "Scholars disagree. The link gives sources for each side, and its note says what the disagreement is."
+     },
+     {
+      "term": "Inferential-Thin",
+      "text": "The evidence is thin, and the note says so. The link names what little it rests on."
+     }
+    ]
+   },
+   {
+    "heading": "Reading confidence at a glance",
+    "paragraphs": [
+     "On the map, a line's color shows the kind of link, and its pattern shows the grade."
+    ],
+    "terms": [
+     {
+      "term": "Solid line",
+      "line": {
+       "pattern": "solid"
+      },
+      "text": "Documented."
+     },
+     {
+      "term": "Long dashes",
+      "line": {
+       "pattern": "long-dash"
+      },
+      "text": "Widely Accepted, or Dominant Modern Reconstruction. These two grades share the same long dashes, so the name on the card tells them apart."
+     },
+     {
+      "term": "Short dashes",
+      "line": {
+       "pattern": "short-dash"
+      },
+      "text": "Contested."
+     },
+     {
+      "term": "Dots",
+      "line": {
+       "pattern": "dots"
+      },
+      "text": "Inferential-Thin."
+     },
+     {
+      "term": "Green",
+      "line": {
+       "pattern": "solid",
+       "color": "grow"
+      },
+      "text": "Gave rise to, or continued as."
+     },
+     {
+      "term": "Amber",
+      "line": {
+       "pattern": "solid",
+       "color": "influence"
+      },
+      "text": "Influenced."
+     },
+     {
+      "term": "Red",
+      "line": {
+       "pattern": "solid",
+       "color": "conflict"
+      },
+      "text": "Argued against, or broke with."
+     },
+     {
+      "term": "Gray",
+      "line": {
+       "pattern": "solid",
+       "color": "contact"
+      },
+      "text": "In contact with."
+     }
+    ],
+    "after": [
+     "Point at a line, or tap it, to read the link with its grade spelled out.",
+     "A dotted gold thread joins a movement to the one it continues as in another river. Point at it, too, to see that link's grade.",
+     "Every movement's card on the map, and every movement's page, lists its links. Each link there shows its grade by name."
+    ]
+   },
+   {
+    "heading": "Major links",
+    "paragraphs": [
+     "The map opens with no lines. Under Connections, the Major links switch draws only the major ones.",
+     "Three kinds of link are always major: gave rise to, continued as and broke with. They trace lineage and recorded breaks.",
+     "Any other link is major only when its own sources show an act of authority. That can be a council, canon, synod or law that condemned, deposed or shut out a group or its teaching.",
+     "It can also be a split into a separate church, or a rule or settlement that an authority changed. Such a link carries one sentence on that lasting result, drawn from its sources.",
+     "A teaching or book that passed from one side to the other does not, by itself, make a link major.",
+     "Minor links are not hidden for good. Every link stays on its movement's card and page. Pick a movement on the map to see all of its links."
+    ]
+   },
+   {
+    "heading": "What the tree does not claim",
+    "paragraphs": [
+     "A link claims only what its kind says. \"In contact with\" claims no influence. \"Influenced\" claims no shared community.",
+     "Two movements alive at the same time are not linked for that reason alone.",
+     "A river's width shows how many recorded movements in that family were active at the time. It does not measure membership or size.",
+     "Each movement's page also tells its story. Some sentences there give well-known background facts that are not yet tied to a source in the library. The links carry the quoted evidence.",
+     "No grade on the tree has yet been confirmed by an independent scholar."
+    ]
+   },
+   {
+    "heading": "What is still to come",
+    "paragraphs": [
+     "Links are built one era at a time. Each era ships as its own numbered release of the data.",
+     "The tenth era, {{latestEraTitle}} ({{latestEraDates}}), is not yet linked, because its traditions are still being built. Its movements stay on the map, but the full set of their links is not yet drawn.",
+     "Today the tree holds {{linkCount}} links among {{movementCount}} movements."
+    ]
+   }
+  ]
+ },
+ "data": {
+  "title": "Data and citation",
+  "description": "The Church Family Tree's public data file, its current release, its permanent IDs and how to cite it.",
+  "sections": [
+   {
+    "heading": "The current release",
+    "paragraphs": [
+     "All of the tree's data sits in one public file. The current file is release {{releaseNumber}}, dated {{releaseDate}}.",
+     "It holds {{movementCount}} movements and {{linkCount}} links. Each release has a number and a date, so a citation can name the exact version it used."
+    ]
+   },
+   {
+    "heading": "Download the data",
+    "paragraphs": [
+     "The same file sits at two addresses. Neither one sends you on to another address, so a script can fetch it straight away.",
+     "https://www.churchfamilytree.com/data/world-census.json",
+     "https://churchinconversation.com/data/world-census.json"
+    ]
+   },
+   {
+    "heading": "IDs that never change",
+    "paragraphs": [
+     "Every movement and every link has an ID. Once we publish an ID, we never change it or use it again.",
+     "If a link is removed or merged, its ID moves to a retired list in the file. That list gives the date, the reason and any replacement.",
+     "If a movement is renamed, its old address leads to the new page.",
+     "Each movement page's earlier address, on churchinconversation.com, still works. It sends you, in one step, to the same page here."
+    ]
+   },
+   {
+    "heading": "How to cite the tree",
+    "paragraphs": [
+     "Name the release you used. These examples use real IDs and the current release."
+    ],
+    "citations": [
+     {
+      "label": "The tree",
+      "text": "From the Church Family Tree by Faithways Studio, Inc., release {{releaseNumber}} ({{releaseDate}}), CC BY-NC 4.0. https://www.churchfamilytree.com"
+     },
+     {
+      "label": "A movement",
+      "text": "“{{exampleMovementName}}.” Church Family Tree, Faithways Studio, Inc., release {{releaseNumber}} ({{releaseDate}}). https://www.churchfamilytree.com/tree/{{exampleMovementId}}"
+     },
+     {
+      "label": "A link",
+      "text": "“{{exampleLinkSentence}}” ({{exampleLinkGrade}}). Church Family Tree, Faithways Studio, Inc., release {{releaseNumber}} ({{releaseDate}}), link {{exampleLinkId}}. https://www.churchfamilytree.com/tree/{{exampleLinkPage}}#{{exampleLinkId}}"
+     },
+     {
+      "label": "A release of the data",
+      "text": "Faithways Studio, Inc. Church Family Tree data, release {{releaseNumber}} ({{releaseDate}}). CC BY-NC 4.0. https://www.churchfamilytree.com/data/world-census.json"
+     }
+    ],
+    "after": [
+     "A movement's ID is the last part of its page address. A link's ID joins the IDs of its two movements with two hyphens. A second link between the same pair ends in --2.",
+     "A link's address is either movement's page, then # and the link's ID. It opens the page at that link."
+    ]
+   },
+   {
+    "heading": "License",
+    "paragraphs": [
+     "Our data and our writing are free to reuse for non-commercial purposes, with credit. The license is CC BY-NC 4.0, from Creative Commons. The Faithways Studio license policy gives the full terms: https://churchinconversation.com/license",
+     "Churches, ministries and scholars can do more under our Ministry and Scholarship Permission. To ask for it, fill in the short request form: https://tally.so/r/kb97Br"
+    ]
+   },
+   {
+    "id": "review",
+    "heading": "Help review the tree",
+    "paragraphs": [
+     "Our data has been checked by AI, but not yet by scholars. Academic review is the project's biggest need.",
+     "If you teach or research church history, theology or the early sources, we would like to hear from you. Write to info@churchinconversation.com.",
+     "The license policy explains how review works: https://churchinconversation.com/license#partnerships",
+     "To report an error, use the \"Report a problem\" button on any page, or write to the same address."
     ]
    }
   ]
@@ -142,6 +407,10 @@
  "give": {
   "once": null,
   "monthly": null
+ },
+ "citationExamples": {
+  "movement": "desert-monasticism",
+  "link": "alexandria-catechetical--desert-monasticism"
  },
  "analyticsToken": null
 }

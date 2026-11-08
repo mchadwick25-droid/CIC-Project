@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -88,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -165,7 +171,7 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>Sources</h2>
-    <ul class="sources-list"><li><a href="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People" target="_blank" rel="noopener noreferrer">Bede, Ecclesiastical History of the English People (ed./trans. Colgrave &amp; Mynors, Oxford Medieval Texts, 1969; Penguin trans. also in print)</a> <span class="source-type">(primary)</span> — <span class="source-note">The single richest narrative source of the era in the West; standard edition, cheap translations everywhere.</span></li><li>The Letters of St Boniface (trans. Ephraim Emerton, 1940; repr. Columbia, 2000 with introduction by T. F. X. Noble) <span class="source-type">(primary)</span> — <span class="source-note">The Boniface circle&#039;s correspondence, including the women&#039;s letters (Leoba to Boniface).</span></li><li>C. H. Talbot, The Anglo-Saxon Missionaries in Germany (1954): Lives of Willibrord, Boniface, Sturm, Leoba, Lebuin + the Hodoeporicon of Willibald <span class="source-type">(primary)</span> — <span class="source-note">English translations of the mission-circle hagiography, including Rudolf of Fulda&#039;s Life of Leoba - the fullest portrait of an Anglo-Saxon woman religious; on archive.org.</span></li><li>Henry Mayr-Harting, The Coming of Christianity to Anglo-Saxon England (3rd ed. 1991) <span class="source-type">(secondary)</span> — <span class="source-note">The classic synthesis of the conversion and the converging Roman/Irish streams.</span></li><li>John Blair, The Church in Anglo-Saxon Society (Oxford, 2005) <span class="source-type">(secondary)</span> — <span class="source-note">The modern ground-level account (minsters, landscape, ordinary practice) - counterweight to great-men narrative.</span></li><li>Cambridge History of Christianity, vol. 3, ch. 5: &#039;Germanic Christianities, 600-1100&#039; (Lesley Abrams) <span class="source-type">(reference)</span> — <span class="source-note">From the vol. 3 TOC; covers the Anglo-Saxon world.</span></li></ul>
+    <ul class="sources-list"><li><a href="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People" target="_blank" rel="noopener noreferrer">Bede, Ecclesiastical History of the English People (ed./trans. Colgrave &amp; Mynors, Oxford Medieval Texts, 1969; Penguin trans. also in print)</a> <span class="source-type">(primary)</span> — <span class="source-note">The single richest narrative source of the era in the West; standard edition, cheap translations everywhere.</span></li><li>The Letters of St Boniface (trans. Ephraim Emerton, 1940; repr. Columbia, 2000 with introduction by T. F. X. Noble) <span class="source-type">(primary)</span> — <span class="source-note">The Boniface circle&#039;s correspondence, including the women&#039;s letters (Leoba to Boniface).</span></li><li>C. H. Talbot, The Anglo-Saxon Missionaries in Germany (1954): Lives of Willibrord, Boniface, Sturm, Leoba, Lebuin + the Hodoeporicon of Willibald <span class="source-type">(primary)</span> — <span class="source-note">English translations of the mission-circle hagiography, including Rudolf of Fulda&#039;s Life of Leoba - the fullest portrait of an Anglo-Saxon woman religious; on archive.org.</span></li><li>Henry Mayr-Harting, The Coming of Christianity to Anglo-Saxon England (3rd ed. 1991) <span class="source-type">(secondary)</span> — <span class="source-note">The classic synthesis of the conversion and the converging Roman/Irish streams.</span></li><li>John Blair, The Church in Anglo-Saxon Society (Oxford, 2005) <span class="source-type">(secondary)</span> — <span class="source-note">The modern ground-level account (minsters, landscape, ordinary practice) - counterweight to great-men narrative.</span></li><li>Cambridge History of Christianity, vol. 3, ch. 5: &#039;Germanic Christianities, 600-1100&#039; (Lesley Abrams) <span class="source-type">(reference)</span> — <span class="source-note">From the vol. 3 TOC; covers the Anglo-Saxon world.</span></li><li>Alcuin, poem on the sack of Lindisfarne (De rerum humanarum vicissitudine et clade Lindisfarnensis monasterii), in Migne, Patrologia Latina 100-101 (1863) <span class="source-type">(primary)</span> — <span class="source-note">Alcuin&#039;s lament to the bishop and monks of Lindisfarne for the day a pagan band came suddenly by ship. A contemporary witness to the raid that closes this period.</span></li></ul>
   </section>
 </div>
 
@@ -174,6 +180,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -88,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -134,12 +140,6 @@ li{margin-bottom:.5rem}
 <li id="byzantine-church-after-1054--byzantine-church-palaiologan"><a href="byzantine-church-palaiologan.html">The Byzantine Church, Palaiologan Era</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">The church of Constantinople kept its records and its rulings across the year 1300. In 1324 its synod settled a dispute by a decision made long before at Nymphaion, under Patriarch Arsenios. The patriarchs&#039; register also copies a ruling of his from 1256, found in the church&#039;s old books.</span></li>
 </ul>
 </div>
-<div class="lineage-section link-influence">
-<h3>Influenced</h3>
-<ul class="lineage-list">
-<li id="byzantine-church-after-1054--kievan-rus-christianity-1054-1240"><a href="kievan-rus-christianity-1054-1240.html">Kievan Rus&#039; Christianity, 1054-1240</a> <span class="lineage-confidence">Dominant Modern Reconstruction</span> — <span class="confidence-note">The church of Rus&#039; was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.</span></li>
-</ul>
-</div>
 <div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
@@ -164,6 +164,7 @@ li{margin-bottom:.5rem}
 <ul class="lineage-list">
 <li id="armenian-cilicia--byzantine-church-after-1054"><a href="armenian-cilicia.html">Armenian Christianity in Cilicia</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. It lists what the Greeks asked of him, among them belief in two natures in Christ and honor for the fourth council.</span></li>
 <li id="byzantine-church-after-1054--latin-papal-church-gregorian--2"><a href="latin-papal-church-gregorian.html">The Latin Papal Church (Gregorian Reform to Innocent III)</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. The profession does not show how the Greek church received the union.</span></li>
+<li id="byzantine-church-after-1054--kievan-rus-christianity-1054-1240"><a href="kievan-rus-christianity-1054-1240.html">Kievan Rus&#039; Christianity, 1054-1240</a> <span class="lineage-confidence">Dominant Modern Reconstruction</span> <span class="lineage-major">Major</span> — <span class="confidence-note">The church of Rus&#039; was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.</span><span class="lineage-outcome"><i>Lasting result:</i> In 1124 the patriarch John made Nicetas the chief bishop of Rus&#039;.</span></li>
 </ul>
 </div>
 
@@ -180,6 +181,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

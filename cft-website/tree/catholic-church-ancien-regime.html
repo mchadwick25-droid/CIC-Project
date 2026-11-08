@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -88,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -127,7 +133,13 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
+    <div class="lineage-section link-grow">
+<h3>Continues</h3>
+<ul class="lineage-list">
+<li id="the-tridentine-church--catholic-church-ancien-regime"><a href="the-tridentine-church.html">The Tridentine Church</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 1699 the bishops of the Paris province met to accept a ruling by Pope Innocent XII. Their archbishop said the church of France had received &#039;the faith of the Council of Trent&#039; without exception. Trent&#039;s rules for church order, he added, were not yet received everywhere there.</span></li>
+</ul>
+</div>
+<div class="lineage-section link-influence">
 <h3>Influenced By</h3>
 <ul class="lineage-list">
 <li id="latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime"><a href="latin-papal-church-avignon-to-lateran-v.html">The Latin Papal Church (Avignon to Fifth Lateran)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The French clergy appealed to the Council of Constance in their Articles, which Rome turned down in 1682. They held that its decrees on the power of general councils, made in its fourth and fifth sessions, still stand firm. A papal decree condemned the Articles in 1690.</span></li>
@@ -147,6 +159,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

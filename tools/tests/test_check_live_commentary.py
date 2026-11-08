@@ -421,6 +421,14 @@ def test_flagged_for_mark_and_needing_a_ruling_route(tmp_path):
         assert hits and hits[0].category == "ROUTE", text
 
 
+def test_todo_cue_needs_a_word_boundary(tmp_path):
+    # Spanish "Todos" in a verbatim source quote is not a TODO marker.
+    text = '"quote": "Todos estos diez y siete fueron repartidos por las principales provincias"\n'
+    assert not _hits_for(text, tmp_path, "cic/corpus-map/witt.map.md")
+    hits = _hits_for("TODO: check the second edition.\n", tmp_path, "cic/corpus-map/witt.map.md")
+    assert hits and hits[0].category == "ROUTE"
+
+
 def test_era_gate_freeze_narration_rewrites(tmp_path):
     # cic-website/data/world-census.json's own "at the Freeze"/"at the gate"
     # construction - previously invisible (no ruling number, no date, no
