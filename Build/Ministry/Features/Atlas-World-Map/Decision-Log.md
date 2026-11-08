@@ -13,6 +13,53 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Change order: era 10 becomes history, 1906–2000
+
+**Decided (Mark, 2026-11-08: "lets make era 10 historical and go from 1905 to 2000"; "Living as
+of 2000"; "we are using the standard we used to identify and source the 300 worlds in the family
+tree"; "converged, auto mode").** Four rulings:
+
+1. **Era 10 is historical, 1906–2000.** The era 9/10 boundary stays at 1906, the Azusa Street
+   revival. Mark said "1905" loosely; moving the boundary would shift the frozen end of era 9
+   (1815–1906). Nothing in the record makes 1906 wrong.
+2. **"Living" means living as of 2000.** The tree's method page will say so plainly. Era 10 makes
+   no claims about today.
+3. **One standard for all ten eras.** Era 10 is identified and sourced by the same Step 0 standard
+   used for the census's movements in eras 1 to 9: Section A, Section B's five criteria, the tiers,
+   and the five `formation_confidence` grades. The per-world construction standard (Doc_01 to
+   Doc_09, tradition voices) does not apply.
+4. **The Living-Era Protocol Addendum V1.0 no longer governs era 10.** Era 10 now has no
+   present-tense claims for it to govern. Its rules on describing published texts rather than
+   people, and on dating every statement, may still guide tone.
+
+**What this amends in the frozen era 10 record** (this log's 2026-08-14 entry, "ERA 10 FROZEN by
+Mark", and `Design/StepZero-Eras/CiC_Step0_Era10_V1_0.md`):
+
+- the era's span, "1906–present", becomes 1906–2000;
+- Q1's ratification of the addendum stands as a record of what governed the V1.0 run, but the
+  addendum's present-tense regime (its R3 contemporary-attestation grades, R5's open ends, R7's
+  recency floor) stops governing era 10;
+- Q2's dated-reading clause on living rows ("a dated reading of a living tradition") gives way to
+  plain historical copy dated to 2000;
+- Q4's "era-boundary-is-present" date reading gives way to an end of 2000 for a body still active
+  in 2000;
+- Q9's retention of IX.31 (Deconstruction) by hand-selection, and IX.36's and IX.49's post-1990
+  windows, are re-opened, because they fall wholly or mostly after 2000;
+- Q12's held IX.50 remains for Mark's direct ruling, now judged as history to 2000.
+
+Everything else in the frozen record stands until the V2.0 gate rules on it. The V1.0 record and
+its reviews are kept as they are.
+
+**Heart reasoning.** The tree's eras 1 to 9 hold history to a single standard. Era 10's present
+tense needed a second regime, and that regime could not reach the rigor the other nine have. A
+fixed end in 2000 lets era 10 meet the same bar instead of a softer one.
+
+**Next action.** Step 0 re-run as history: `Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md` and its
+reviews, then Mark's gate. The census does not change until he rules. The era 10 link pass
+(P2-L10) and the living work (P2-V) wait for that ruling.
+
+---
+
 ## 2026-11-08 — Era 8 change order: census 300→301 (Armenian Apostolic Church, VII.24a)
 
 **What changed.** Mark ruled: "add an era-8 Armenian Apostolic movement". The era 8 links pass

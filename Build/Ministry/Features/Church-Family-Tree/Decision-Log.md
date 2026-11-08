@@ -539,3 +539,28 @@ Each was shown with options and a recommendation as an artifact.
 (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and
 `tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
 Applied as P2-L11b, data release 19.
+
+## 2026-11-08 — Era 10 becomes history, 1906–2000 (change order)
+
+**Decided (Mark: "lets make era 10 historical and go from 1905 to 2000"; "Living as of 2000";
+"we are using the standard we used to identify and source the 300 worlds in the family tree";
+"converged, auto mode").**
+
+1. Era 10 runs 1906–2000. The boundary with era 9 stays at 1906 (Azusa Street), so era 9's frozen
+   end does not move.
+2. "Living" on the tree means living as of 2000, and the method page will say so plainly. Era 10
+   makes no claims about today.
+3. Era 10 is identified and sourced by the same Step 0 standard as eras 1 to 9. The per-world
+   construction standard does not apply.
+4. The Living-Era Protocol Addendum V1.0 no longer governs era 10, which now has no present-tense
+   claims. Its rules on describing texts rather than people, and on dating statements, may still
+   guide tone.
+
+**Change order.** This amends the era 10 freeze of 2026-08-14 (Atlas World Map Decision-Log, "ERA
+10 FROZEN by Mark", and `CiC_Step0_Era10_V1_0.md`): the span, the dated-reading clause on living
+rows, the "present" end dates, and the retention of the post-1990 rows. The full list is in the
+Atlas World Map Decision-Log entry of the same date ("Change order: era 10 becomes history").
+
+It also amends this log's entry "The link work covers eras 1 to 9" (2026-11-08) in one respect:
+era 10's traditions are now re-surveyed as history first, and P2-L10 waits for Mark's gate ruling
+on that re-survey. The census is unchanged until then.
