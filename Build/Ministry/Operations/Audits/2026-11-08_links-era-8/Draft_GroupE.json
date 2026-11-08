@@ -1,0 +1,1627 @@
+{
+ "group": "E",
+ "movements": [
+  "the-old-believers",
+  "russian-church-nikon-to-holy-synod",
+  "the-hesychast-revival-paisius-and-the-philokalia",
+  "ruthenian-uniate-18th-century"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms.",
+   "other_id": "russian-church-stoglav-to-nikon",
+   "disposition": "link",
+   "link_id": "russian-church-stoglav-to-nikon--the-old-believers",
+   "prose_change": null,
+   "reason": "Documented 'gave rise to': Avvakum was ordained in the pre-reform church (Life 1710-1711; translators' table, c. 1644)."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers",
+   "prose_change": null,
+   "reason": "'The enduring counterpart' is carried by the Documented 'broke with' link (council record and Avvakum both record the anathema); the inventory's 'argued against' is drafted separately in both directions."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "Edinoverie, established in 1800, sits on the boundary shared between the two churches.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--3",
+   "prose_change": null,
+   "reason": "No entry for Edinoverie itself; the arrangement is a relationship between the two churches. Linked 'in contact with', Dominant Modern Reconstruction on Conybeare (1921): the 1799 request and Paul I's sanction of 27 October 1800."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "In 1846 the priestly Old Believers restored their own episcopate through the Belokrinitsa hierarchy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Belokrinitsa hierarchy (an era-9 event). Supported: Conybeare's chapter 'The Austrian Hierarchy' (conybeare 5939 onward; 'at Bielo-Krinits', 6125; Ambrose, 'formerly been metropoli- tan of Serajevo in Bosnia', 6178-6179)."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "longDescription",
+   "sentence": "In the 1650s Patriarch Nikon set out to correct the Russian service books and rituals against contemporary Greek practice — two fingers in the sign of the cross became three, the spelling of Jesus's name changed, processions reversed direction.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "the-old-believers--russian-church-nikon-to-holy-synod",
+   "prose_change": null,
+   "reason": "The refusal of Nikon's corrections is carried by the Documented 'argued against' from the Old Believers (Avvakum's Pustozersk statement naming Paisius and Nikon) and by 'broke with'. The Greek models in the sentence are linked from the Synodal entry's side to Ottoman Orthodoxy."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "longDescription",
+   "sentence": "And a great part of the Russian church refused.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers",
+   "prose_change": null,
+   "reason": "The 'broke with' link."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "longDescription",
+   "sentence": "To them the old rite was not a detail but the faith itself, handed down and now being altered by a church they concluded had fallen; the council of 1666-67 anathematized them, and the state hunted them for generations.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   "prose_change": null,
+   "reason": "Documented 'argued against' from the council: the record of the anathema on Avvakum and Lazar before the patriarchs of Alexandria and Antioch (Subbotin II 998-999)."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "longDescription",
+   "sentence": "To them the old rite was not a detail but the faith itself, handed down and now being altered by a church they concluded had fallen; the council of 1666-67 anathematized them, and the state hunted them for generations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The state is not a movement. Supported: Conybeare on 'the Tsaritsa Sophia's ukase of 1685' and its burnings (conybeare 4039-4044)."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "why",
+   "sentence": "When Patriarch Nikon corrected the Russian service books in the 1650s — changing how the faithful crossed themselves and how Jesus's name was spelled — a large part of the church refused to accept it as a mere detail and was anathematized for it in 1666.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   "prose_change": null,
+   "reason": "Refusal and anathema carried by the 'argued against' and 'broke with' links. 'In 1666' fits the record: Avvakum was stripped and anathematized on 13 May of the year 174 (7174, 1666; Subbotin II 917-919)."
+  },
+  {
+   "movement": "the-old-believers",
+   "field": "legacy",
+   "sentence": "Russian literature never let the schism go either; the raskol runs through the nineteenth-century novel as the standing question of what faithfulness actually costs.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No source in the library for the schism in the nineteenth-century novel. Cut; wants list Melnikov-Pechersky and Dostoevsky."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "Patriarch Nikon's reforms of 1652 and the council of 1666-67 are the establishment side of the story whose other side is the Old Believers, a related but separate tradition born of the same split rather than a successor to this one.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers",
+   "prose_change": null,
+   "reason": "'A related but separate tradition born of the same split' is the 'broke with' link; the sentence already denies succession, which fits."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "Peter the Great left the patriarchal office empty from 1700 and replaced it with the Holy Synod in 1721.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A ruler, not a movement. Supported: 'In place of the patriarch, the Ecclesiastical Regulation instituted a spiritual college called the Synod' (mouravieff 19002-19003); the Regulation itself is vendored (spiritual-regulation files)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "The state secularized monastic lands in 1764, and in 1686 the Kyiv metropolia was transferred into this church's jurisdiction.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The state, not a movement. Supported: 'The ordinance of 1764 took away from the monasteries, and from the episcopal sees, all their property in peasants and villages' (mouravieff 19007-19009)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "The state secularized monastic lands in 1764, and in 1686 the Kyiv metropolia was transferred into this church's jurisdiction.",
+   "other_id": "the-kyiv-mohyla-orthodox-revival",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+   "prose_change": null,
+   "reason": "Linked 'in contact with' with a major outcome (the patriarchs' letters confirming Kyiv's dependence on Moscow); Dominant Modern Reconstruction on Mouravieff and Pelesz. No type names a transfer of jurisdiction; see the link's flags."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak, and in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers.",
+   "other_id": "alaskan-mission-herman-veniaminov",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "Inferential-Thin: no source in the library for the 1794 mission; the only trace is the 1842 list of dioceses. Prose facts left as well-known unsourced facts; wants listed."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "relationsSummary",
+   "sentence": "In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak, and in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--3",
+   "prose_change": null,
+   "reason": "Edinoverie: the 'in contact with' link (Conybeare 5521-5537). 'It established' is fair: Metropolitan Plato examined the terms and the tsar sanctioned them."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Patriarch Nikon, elected in 1652, set out to correct Russian service books against Greek models and to assert the priesthood's authority over the tsar's.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod",
+   "prose_change": null,
+   "reason": "Documented 'influenced': the 1656 council's act on consulting the Eastern patriarchs and Athos and translating from old Greek books. The inventory's match (byzantine-church-after-1054) is wrong by four centuries and is not linked."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers",
+   "prose_change": null,
+   "reason": "'Split the church permanently': the 'broke with' link."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   "prose_change": null,
+   "reason": "'The council of 1666-67 that condemned his opponents': the council's 'argued against' link. The opponents are named in the record (Avvakum, Lazar, Epiphanius)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Catherine II completed the process in 1764 by confiscating the monastic estates.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the summary row: mouravieff 19007-19009."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The church became, in effect, a department of the imperial government and stayed one for two hundred years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The state, not a movement. Supported by Conybeare's judgment of the same years: 'the Orthodox Church was subordinated to the State. It was a mere department of it.' (conybeare 5502-5504)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Yet the same church produced Tikhon of Zadonsk's gentle devotional writing, a serious seminary system, and in 1794 sent monks from Valaam across the Pacific to Alaska.",
+   "other_id": "alaskan-mission-herman-veniaminov",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "As the summary row. Tikhon of Zadonsk belongs to this entry (his Nastavleniia are vendored)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "why",
+   "sentence": "Patriarch Nikon tried to correct Russia's service books and assert the church's authority over the tsar in the 1650s, and lost both fights — deposed by the same council that condemned the split his reforms caused.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   "prose_change": null,
+   "reason": "The council's 'argued against' link; Nikon's own deposition is internal to this entry (Ligarides/Palmer vendored)."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "why",
+   "sentence": "Peter the Great settled the larger argument by leaving the patriarchal office empty after 1700 and abolishing it in 1721, replacing it with a Holy Synod watched over by a state official, yet the same church still produced Tikhon of Zadonsk's widely read devotional writing and sent monks from Valaam across the Pacific to Alaska in 1794.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the summary row."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "why",
+   "sentence": "Peter the Great settled the larger argument by leaving the patriarchal office empty after 1700 and abolishing it in 1721, replacing it with a Holy Synod watched over by a state official, yet the same church still produced Tikhon of Zadonsk's widely read devotional writing and sent monks from Valaam across the Pacific to Alaska in 1794.",
+   "other_id": "alaskan-mission-herman-veniaminov",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "As the summary row."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "legacy",
+   "sentence": "The synodal arrangement lasted until 1917, and the church restored the patriarchate almost as soon as the empire fell.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--russian-church-synodal-century",
+   "prose_change": null,
+   "reason": "Not in the inventory. Documented 'continued as': the Synod still governing under the 1721 Regulation in 1830 and 1838."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "legacy",
+   "sentence": "Its Alaskan mission planted an Orthodox Christianity that survives among Native communities there to this day, the only Orthodox church established in North America before the nineteenth century.",
+   "other_id": "alaskan-mission-herman-veniaminov",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "prose_change": 1,
+   "reason": "Inventory said 'continued as'; the mission is a new body, so 'gave rise to', Inferential-Thin. Sentence split for reading level, facts unchanged."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "legacy",
+   "sentence": "And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": 1,
+   "reason": "Documented 'gave rise to' (Leonid in Optina 1797, posted by the bishop of Orel 1804, to the Optina skete 1829). The causal 'tension ... produced' is restated as the documented path."
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "legacy",
+   "sentence": "And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'The sharp religious searching of Russian literature' has no source in the library; cut, wants listed."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "relationsSummary",
+   "sentence": "Revival of the Palamite line; direct source of the Optina tradition",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": null,
+   "reason": "Documented 'influenced' (Palamas in the Philokalia's contents and in Paisius's Slavonic translations). Inventory's 'continued as' rejected: no continuous community across four centuries. 'Revival' in the prose is fair and stays."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "relationsSummary",
+   "sentence": "Revival of the Palamite line; direct source of the Optina tradition",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": null,
+   "reason": "Documented 'gave rise to': Paisius's disciples trained Leonid, who took the Optina skete in 1829 (Optina preface, 1847). 'Direct source' holds."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "longDescription",
+   "sentence": "In 1746 a young Ukrainian monk named Paisius Velichkovsky arrived on Mount Athos and began working through its monastery libraries for the old Greek texts on inner prayer that almost nobody was reading any more.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": null,
+   "reason": "Existing Documented 'influenced' link kept (Symeon the New Theologian in the Philokalia). The inventory's 'in contact with' is not drafted: the Athos of 1746 is centuries past that entry's end (1300)."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "longDescription",
+   "sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Macarius of Corinth and Nicodemus are this movement's own people, not the era-5 Athonite movement. Supported: the 1893 dedication names Nikodemos, who issued the book 'σὺν τῷ τῆς Κορινθίας ᾿Αγίῳ Μακαρίῳ' (philokalia v1 147-153)."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "longDescription",
+   "sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A monastery, not a movement. Supported: the Optina preface on Paisius's house in Moldavia and the disciples who left it for Russia in 1801 (zhitie 260-266)."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "why",
+   "sentence": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore, and set his community to translating it into Slavonic at Neamț in Moldavia.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": 2,
+   "reason": "As the longDescription row. Field rewritten for other reasons (prose change 2); the Athos sentence keeps its facts."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "why",
+   "sentence": "Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": 2,
+   "reason": "Kept and made exact: 'Paisius's own disciples, back in Russia, trained the first of the Optina elders'."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "why",
+   "sentence": "Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Way of a Pilgrim is a text, not a movement, and no source in the library shows the tie. Cut; wants list the Kazan edition of 1881."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "sentence": "And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": 3,
+   "reason": "Kept as 'In Russia it fed the elders of Optina, whose own press printed Paisius's life and writings at Moscow in 1847'."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "sentence": "And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Way of a Pilgrim and Dostoevsky's novels: no census movements and no source in the library. Cut; wants listed."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "sentence": "Twentieth-century Orthodox theology in the West drew on it heavily, and the Jesus Prayer is now practiced far outside the monasteries the texts were written in.",
+   "other_id": "emigre-orthodoxy-and-the-paris-school",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No source in the library shows the Paris school's use of the Philokalia (twentieth-century texts are outside the public-domain window). Cut rather than linked; the Jesus Prayer clause stays."
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "sentence": "Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A present-day fact about a monastery, not a relationship. Not checked: no source in the library for the relics or the 1988 canonization."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "relationsSummary",
+   "sentence": "The Synod of Zamość in 1720 consolidated the church, importing Latin devotional practices into its Byzantine rite, at what became its numerical peak.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "Documented 'influenced', major: the synod's decrees say they follow the fathers of Trent; its feast list includes Corpus Christi (Mansi 137965-137967, 142049)."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "relationsSummary",
+   "sentence": "The partitions of Poland between 1772 and 1795 placed most of its people under Catherine II's Russia, whose forced-reversion campaigns of 1794-96 stripped away most of its parishes within two years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The state, not a movement. Supported: Pelesz on the partitions and the treaty of 14 October 1795 (pelesz 40838-40845)."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "relationsSummary",
+   "sentence": "The partitions of Poland between 1772 and 1795 placed most of its people under Catherine II's Russia, whose forced-reversion campaigns of 1794-96 stripped away most of its parishes within two years.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "Not in the inventory as a church link. The forced reversion was carried by the Orthodox archbishop Victor Sadkowski and the Holy Synod (Harasiewicz 38950-38969; Pelesz 41274-41275): 'argued against', Dominant Modern Reconstruction, major on Catherine's 1795 decrees."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "relationsSummary",
+   "sentence": "Austrian Galicia became the church's real zone of survival.",
+   "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "disposition": "link",
+   "link_id": "ruthenian-uniate-18th-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "Documented 'continued as': the 1807 bull restoring the Halych metropolia at Lviv for the same sees."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands — today's Ukraine and Belarus — was at its numerical height, holding the loyalty of most of the peasantry of the eastern Polish-Lithuanian Commonwealth.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "link",
+   "link_id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "Documented 'continued as' (inventory's 'descent' is not a census type): the 1807 bull runs from the Brest council to Zamość; the 1772 Apollogia claims Clement VIII's union and its own Zamość synod."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "The Synod of Zamość in 1720 consolidated it and also latinized it, importing Roman devotional practices into a Byzantine rite and settling its identity as something distinctly its own rather than a temporary arrangement.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "As the summary row."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "Then the political ground vanished: the partitions of Poland between 1772 and 1795 handed most of the church's people to Catherine II's Russia, which regarded the union as an amputation to be reversed, and campaigns of forced reversion from 1794 stripped it of the great majority of its parishes within two years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Catherine's Russia as a state: no movement. Supported: Pelesz says Catherine held that they 'alle Schismatiker sein werden' (pelesz 41110-41111) and gives the losses to 1796 (41434-41435)."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "Then the political ground vanished: the partitions of Poland between 1772 and 1795 handed most of the church's people to Catherine II's Russia, which regarded the union as an amputation to be reversed, and campaigns of forced reversion from 1794 stripped it of the great majority of its parishes within two years.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "The church's part in the campaigns: the 'argued against' link."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "What survived did so in Austrian Galicia, where the Habsburgs raised the Greek Catholic clergy's status and paid for their education.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Habsburg state, not a movement. Supported in outline: Pelesz's section 'Zustand der Union in Oesterreich (1772-1808)' (pelesz 41845) and the church of St Barbara in Vienna, Latin-rite until 1773 and Greek Catholic since (43788-43789)."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "why",
+   "sentence": "When the partitions of Poland handed most of its people to Catherine II's Russia, which treated the union as an amputation to be reversed, forced-reversion campaigns from 1794 stripped away the great majority of its parishes within two years — leaving Austrian Galicia, where the Habsburgs funded the clergy's education, as the church's real survival zone.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription rows (state, Habsburgs)."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "why",
+   "sentence": "When the partitions of Poland handed most of its people to Catherine II's Russia, which treated the union as an amputation to be reversed, forced-reversion campaigns from 1794 stripped away the great majority of its parishes within two years — leaving Austrian Galicia, where the Habsburgs funded the clergy's education, as the church's real survival zone.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "link",
+   "link_id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "As the longDescription row."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "legacy",
+   "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+   "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "disposition": "link",
+   "link_id": "ruthenian-uniate-18th-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "The 'continued as' link to the Galician entry."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "legacy",
+   "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Stalin's suppression of 1946 is a state act of the twentieth century; outside the library's window and not checked."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "legacy",
+   "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The underground continues the era-9 Galician church, not this entry directly; that pair is era 9 to era 10."
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "field": "legacy",
+   "sentence": "The Belarusian and central Ukrainian branches, dissolved in this period and again in 1839, did not recover.",
+   "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A fate of this church's own branches, not a tie to another movement. 'Dissolved in this period' is supported by Pelesz on the losses to 1796 (41434); the 1839 Synod of Polotsk belongs to the era-9 entry."
+  }
+ ],
+ "links": [
+  {
+   "id": "russian-church-stoglav-to-nikon--the-old-believers",
+   "action": "new",
+   "from": "russian-church-stoglav-to-nikon",
+   "to": "the-old-believers",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Moscow church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was Ivan Neronov of St Basil's in Moscow.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1710-1711",
+     "locus": "Life, opening narrative",
+     "quote": "at the age of twenty I was ordained deacon and, after two years, priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jane Harrison and Hope Mirrlees, 'Life and Times of Avvakum' (chronological table), in The Life of the Archpriest Avvakum by Himself (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1138",
+     "locus": "Chronological table",
+     "quote": "c. 1644. Avvakum ordained priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "2107-2109",
+     "locus": "Life, Nikon's Lenten letter",
+     "quote": "In Lent he sent a pastoral letter to St. Basil’s Minster, to John Neronov. Now he was my ghostly father",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "10527-10529",
+     "locus": "ch. XII, Joasaph II",
+     "quote": "The acts themselves of the Council of the Hundred Chapters, which had been the foundation of the vain subtleties in question, were annulled",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-old-believers relationsSummary ('The Old Believers grew out of Muscovite Christianity')",
+   "wants": [
+    "The acts of the Moscow council of 1666-67 (printed in Dopolneniia k Aktam istoricheskim, vol. V, which Subbotin cites), for the council's own revocation of the Stoglav"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "'c. 1644' is the 1924 translators' chronology, not Avvakum's words; Avvakum gives only his age. The Muscovite entry ends in 1650, so the ordination falls inside it.",
+    "Mouravieff (an official of the Holy Synod, 1838) is the establishment's view that the Stoglav was the ground of the old-rite case; listed as secondary.",
+    "'ghostly father' is the 1924 English; the note says 'spiritual father'."
+   ],
+   "change_reason": "New. Documents 'grew out of Muscovite Christianity' through a named priest of the pre-reform church."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-old-believers",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "the-old-believers",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Both sides recorded the break. The council's record says Avvakum was stripped of his priesthood and laid under anathema in the cathedral on 13 May. Avvakum wrote that the bishops cursed him and the deacon Fyodor, and that he cursed them back.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the council of 1666-67 on Avvakum, Lazar and the deacon Fyodor, in N. I. Subbotin, Materialy dlia istorii raskola, vol. II (1875)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+     "lines": "917-919",
+     "locus": "Materialy II, council record on Avvakum",
+     "quote": "и за то он Аввакум в прошлом во 1714 году маия въ 13 день въ соборной апостольской перкви священнаго сана изверженъ и проклятъ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "4440-4442",
+     "locus": "Life, the shearing in the cathedral",
+     "quote": "they sheared me and the deacon Theodor, and then they cursed us and I cursed them back.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "3227-3229",
+     "locus": "ch. on the council of 1667",
+     "quote": "The excommimications pronounced against the dissidents were superfluous, for most of them had already withdrawn from communion with the Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-old-believers relationsSummary ('the enduring counterpart to the official church's Nikonian reforms') and longDescription ('a great part of the Russian church refused'); russian-church-nikon-to-holy-synod relationsSummary ('a related but separate tradition born of the same split') and longDescription ('the corrections split the church permanently')",
+   "drafter_flags": [
+    "The council record's '1714' is the OCR's reading of the year 174 (7174, that is 1666); the quote keeps the OCR exactly. The note gives the day and month only.",
+    "Conybeare's 'excommimications' is the file's OCR and is kept in the quote.",
+    "Avvakum's translators write 'Theodor'; the note uses the usual English 'Fyodor'."
+   ],
+   "change_reason": "New. The schism as a rupture recorded by the council and by its chief target."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "the-old-believers",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The council's record says Avvakum and the priest Lazar would not repent and called the council false to the faith. So the council, with the patriarchs of Alexandria, Antioch and Moscow, laid them under anathema once more. A history of 1838 by an official of the Synod says the council threw out their case on the cross and the Creed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the council of 1666-67 on Avvakum, Lazar and the deacon Fyodor, in N. I. Subbotin, Materialy dlia istorii raskola, vol. II (1875)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+     "lines": "981-984",
+     "locus": "Materialy II, council record, session before the patriarchs",
+     "quote": "быша перед святзйшими патриархи, перед Паисиемъ папою и патриархомъ александрйскимь и судиею вселенскимъ, и перед Макариемъ патриархомъ ан- тиохискимъ и всего востока,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the council of 1666-67 on Avvakum, Lazar and the deacon Fyodor, in N. I. Subbotin, Materialy dlia istorii raskola, vol. II (1875)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+     "lines": "998-999",
+     "locus": "Materialy II, council record, the anathema",
+     "quote": "И святфйшия патрархи 1 вес освященный собор паки Аввакума и Лазаря проклятию предаша.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "10516-10520",
+     "locus": "ch. XII, Joasaph II (margin date 1667)",
+     "quote": "the vain glosses of the Monk Capito and the Popes Lazarus, Habbakuk, and Nicetas, respecting the position of the fingers, and the correct form of the Cross, the Name of Jesus, the Creed, and the Double Alleluia,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-old-believers longDescription ('the council of 1666-67 anathematized them') and why ('was anathematized for it in 1666'); russian-church-nikon-to-holy-synod longDescription ('the council of 1666-67 that condemned his opponents') and why",
+   "major": true,
+   "outcome": "A Moscow church council, with two Eastern patriarchs on it, laid a solemn curse on Avvakum and the priest Lazar.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+    "lines": "998-999",
+    "text": "И святфйшия патрархи 1 вес освященный собор паки Аввакума и Лазаря проклятию предаша."
+   },
+   "drafter_flags": [
+    "The council record is the persecutors' document and the defendants' words in it are reported under duress, as the corpus map warns.",
+    "Mouravieff's 'Popes' means parish priests (Russian pop); his margin dates the passage 1667."
+   ],
+   "change_reason": "New. The council's own anathema on the old-rite leaders."
+  },
+  {
+   "id": "the-old-believers--russian-church-nikon-to-holy-synod",
+   "action": "new",
+   "from": "the-old-believers",
+   "to": "russian-church-nikon-to-holy-synod",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In prison at Pustozersk, Avvakum and the men held with him wrote out a statement for an officer. It named the visiting Patriarch Paisius and his fellows as cursed, a gathering of heretics. It called Nikon the maker of the heresy. Avvakum also wrote that the ban on him came from heretics.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "5086-5089",
+     "locus": "Life, the Pustozersk statement",
+     "quote": "We keep the tradition of the holy Fathers unaltered, and we proclaim as accursed Paisius the Patriarch of Palestine with his fellows as an assembly of heretics",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "5091",
+     "locus": "Life, the Pustozersk statement",
+     "quote": "about Nikon, the fabricator of this heresy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "3758-3759",
+     "locus": "Life, at Mezen",
+     "quote": "But as to my excommunica- tion, it came from heretics",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-old-believers longDescription ('a church they concluded had fallen') and why ('refused to accept it as a mere detail')",
+   "major": false,
+   "minor_reason": "A written protest by prisoners; the cited lines show no council, split into a separate body, or rule changed by the Old Believers' side.",
+   "drafter_flags": [
+    "Avvakum calls Paisius 'the Patriarch of Palestine'; the council record names him pope and patriarch of Alexandria. The note says 'the visiting Patriarch Paisius' to avoid the slip."
+   ],
+   "change_reason": "New. The old-rite side's own written rejection of the council, by name."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-old-believers--3",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "the-old-believers",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5522-5525",
+     "locus": "'The Concessions of Paul I'",
+     "quote": "The occasion was a request made in 1799 by the Old beUevers of Moscow that the Church would supply them with Priests and Holy Chrism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5533-5536",
+     "locus": "'The Concessions of Paul I'",
+     "quote": "formu- lated sixteen conditions under which they would renew com- munion, which after examination by Plato were sanctioned by the Tsar Paul I, Oct. 27, 1800.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5861",
+     "locus": "'The Concessions of Paul I'",
+     "quote": "ledinovierie, as it is caUed,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Notes to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842), on the monasteries in 1830",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19640-19641",
+     "locus": "Notes, the dissenters' monasteries",
+     "quote": "Only three or four have in the course of the last century returned into the bosom of the Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-old-believers relationsSummary ('Edinoverie, established in 1800, sits on the boundary shared between the two churches'); russian-church-nikon-to-holy-synod relationsSummary ('in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers')",
+   "major": true,
+   "outcome": "In 1800 Tsar Paul I approved terms that let Old Believers who joined the official church keep using the old books.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+    "lines": "5535-5538",
+    "text": "sanctioned by the Tsar Paul I, Oct. 27, 1800. Of these conditions, some old, some new, the chief were the remission of the anathemas of 1666-7 and permission to use the old books."
+   },
+   "wants": [
+    "The rules of Edinoverie approved by Paul I on 27 October 1800, with Metropolitan Plato's replies (Polnoe sobranie zakonov Rossiiskoi imperii, first series), to lift this to Documented"
+   ],
+   "drafter_flags": [
+    "Conybeare calls the people who joined 'Uniats'; the note does not use that word, to avoid confusion with the Greek Catholics.",
+    "Secondary only: the 1800 rules themselves are not in the library. Verification state is named-not-rechecked for that reason, though I read every quoted line.",
+    "Conybeare lists remission of the 1666-67 anathemas among the 'chief' conditions. I left it out of the note and the outcome: I cannot check from the library whether that condition was granted."
+   ],
+   "change_reason": "New. The 1800 arrangement both entries name."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-1650-1821",
+   "to": "russian-church-nikon-to-holy-synod",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Nikon's council in Moscow says it wrote to the Eastern patriarchs and to Mount Athos about the service books. It had their answers in writing. It then corrected the book of sacraments from old Greek copies. A history of 1838 says Patriarch Paisius of Constantinople urged Nikon to keep to the rule of the great Church of Constantinople.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moscow council of October 1656 on the corrected Potrebnik (book of sacraments), in N. I. Subbotin, Materialy dlia istorii raskola, vol. I (1874)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+     "lines": "428-431",
+     "locus": "Materialy I, the council's act",
+     "quote": "и послахомъ ко вселенскимъ патрархомъ, и во святую Авонскую гору; и пуемше оть вселенскихь патрарховъ и оть святыя горы письмены извфшене,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moscow council of October 1656 on the corrected Potrebnik (book of sacraments), in N. I. Subbotin, Materialy dlia istorii raskola, vol. I (1874)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+     "lines": "435-437",
+     "locus": "Materialy I, the council's act",
+     "quote": "и преведше отъ греческихь древлеписанныхь книгъ на хармахъ святую книгу Потребникъ, прочтохомъ ю на собор со всякимъ прилфжнымъ вниманемъ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "N. I. Subbotin, editor's introduction to Materialy dlia istorii raskola, vol. I (1874)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+     "lines": "178-179",
+     "locus": "Introduction",
+     "quote": "состоявшееся на соборф, бывшемъ въ октябрв мфеяцЪ 7165 (1656) года.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moscow council of October 1656 on the corrected Potrebnik (book of sacraments), in N. I. Subbotin, Materialy dlia istorii raskola, vol. I (1874)",
+     "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+     "lines": "448-450",
+     "locus": "Materialy I, the council's act",
+     "quote": "да нектому кто начнеть развЪ сея исправленыя книги дЪй- ствовати церковныхь таинетвъ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "9330-9332",
+     "locus": "ch. on Nikon, Paisius's epistle",
+     "quote": "Paisius entreated him not to depart in any respect from the rule of the great Church of Constantinople ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-nikon-to-holy-synod longDescription ('to correct Russian service books against Greek models'); the-old-believers longDescription ('against contemporary Greek practice')",
+   "major": true,
+   "outcome": "In 1656 a council in Moscow ruled that priests could use only the service book corrected from old Greek copies.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+    "lines": "448-450",
+    "text": "да нектому кто начнеть развЪ сея исправленыя книги дЪй- ствовати церковныхь таинетвъ;"
+   },
+   "drafter_flags": [
+    "The inventory matched 'Greek models' to the Byzantine church of 1054-1300. The Greek authorities Nikon consulted were the Ottoman-era patriarchs and Athos of the 1650s, so this link goes to the era-8 Ottoman Orthodoxy entry instead; no link to the era-5 entry.",
+    "Date: the editor dates the council October 7165, that is 1656 (line 176); the act's own dating line reads '1657' in the OCR (line 466). The outcome follows the editor.",
+    "Major judgment: the influence was answered by a council ruling that changed the rite; I counted that as a rule changed by an authority. A reviewer may judge it a practice merely taken up.",
+    "Same-era link: the Ottoman Orthodoxy entry's own text does not name Russia; another group may hold that entry."
+   ],
+   "change_reason": "New. Grounds 'against Greek models' in the council's own act."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "the-kyiv-mohyla-orthodox-revival",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "11400-11402",
+     "locus": "ch. on Joachim",
+     "quote": "decided that the new metropolitan of Kieff should go for consecration to the patriarch of Moscow, and should be in full dependence upon him,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "11424-11427",
+     "locus": "ch. on Joachim",
+     "quote": "two patriarchs, Dionysius of Constantinople and the learned Dositheus of Jerusalem, acknowledged by letters patent in due form the final union of the hierarchy of Kieff and all the South with that of Great Russia.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "21846-21850",
+     "locus": "vol. 2, on the Orthodox metropolia of Kyiv",
+     "quote": "Doch nachdem zwischen Polen und Russland (1686) der sog. ewige Friede geschlossen wurde, verlor diese Metropolie für die Schismatiker ganz ihre Bedeutung, und sie wurde dem Moskauer Patriarchat als eine einfache Diöcese einverleibt,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "russian-church-nikon-to-holy-synod relationsSummary ('in 1686 the Kyiv metropolia was transferred into this church's jurisdiction')",
+   "major": true,
+   "outcome": "Two Eastern patriarchs confirmed by letter that the church of Kyiv now came under the patriarch of Moscow.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+    "lines": "11424-11427",
+    "text": "two patriarchs, Dionysius of Constantinople and the learned Dositheus of Jerusalem, acknowledged by letters patent in due form the final union of the hierarchy of Kieff and all the South with that of Great Russia."
+   },
+   "wants": [
+    "The patriarchal letters of 1686-87 transferring the Kyiv metropolia (Dionysius IV of Constantinople, Dositheus of Jerusalem) in a published edition, to lift this to Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "Type: none of the six types names a transfer of jurisdiction. 'continued as' would make the Synodal church the successor of the Kyiv revival, which overstates; 'in contact with' with a stated outcome is the narrowest true claim. Reviewer may prefer otherwise.",
+    "Both sources are nineteenth-century histories from opposite sides (a Synod official; a Greek Catholic priest who calls the Orthodox 'schismatics'); no primary is in the library.",
+    "The Kyiv-Mohyla entry's legacy ('supplied Russia with its educated clergy for a century') names a separate influence link from that side; that is the era-7 drafters' to draft."
+   ],
+   "change_reason": "New. The 1686 transfer of the Kyiv see named in the Synodal entry."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "alaskan-mission-herman-veniaminov",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The sources here do not record the first mission to Alaska in 1794 or name Herman among its monks. They show only a later stage: by 1842 the Russian church counted a diocese of the Aleutian Islands, Kamchatka and Russian America. The tie rests on that thin evidence.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Translator's bracketed note to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19193",
+     "locus": "Notes, list of dioceses",
+     "quote": "The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "unverified",
+   "named_in_text": "russian-church-nikon-to-holy-synod relationsSummary ('In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak'), longDescription, why and legacy ('Its Alaskan mission planted an Orthodox Christianity')",
+   "wants": [
+    "A primary account of the Kodiak mission of 1794 (for example the mission's letters, or Valaam's own history of the American mission), to support the 1794 date, the Valaam origin and Herman's place in it"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The prose facts (1794, Valaam, Herman) have no source in the library. I left them as written, as the other eras did with well-known unsourced facts (Open-Gaps item 'Well-known facts with no vendored source').",
+    "The quote shows a diocese created after 1830, so it falls in the era-9 church, not this one; it supports only that the Alaskan church belonged to the Russian church."
+   ],
+   "change_reason": "New. The Alaskan mission named four times in the Synodal entry, graded as thin as the library allows."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Leonid, the first Optina elder, joined the Optina monastery in the diocese of Kaluga in 1797. In 1804 the bishop of Orel put him in charge of the Beloberezh hermitage. In 1829 he moved to the new skete at Optina, a small hermitage next to the monastery. There the abbot gave him the care of the brothers' souls.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "286-288",
+     "locus": "Preface, note on Leonid",
+     "quote": "Первона¬ чально поступилъ Калужской Епархіи въ Козельскую Вве¬ денскую Оптнну пустынь, въ 1797 году;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "294-296",
+     "locus": "Preface, note on Leonid",
+     "quote": "въ 1804 году, по волѣ Преосвященнѣйшаго До- сиѳея, Епископа Орловскаго и Сѣвскаго, опредѣленъ во оной пустыни Строителемъ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "Preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-nikon-to-holy-synod legacy (after prose change 1: 'The first elders of Optina, in the following century, were trained in this church's own monasteries'; formerly 'the tension it created ... produced both the Optina elders')",
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The era-9 Optina entry calls itself 'a renewal movement within the wider Russian Orthodox Church'; strictly its parent church in 1821-1906 is the era-9 Synodal century entry. Leonid's entry into Optina in 1797 and his posting in 1804 fall inside this entry's dates, which is why the link starts here.",
+    "Two 'gave rise to' links reach Optina from era 8 (this one and the Paisian revival); they record different things, the house and the teaching."
+   ],
+   "change_reason": "New. Replaces 'the tension it created ... produced the Optina elders' with the documented path of the first elder."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--russian-church-synodal-century",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "russian-church-synodal-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Holy Synod that Peter the Great set up in 1721 still ran the church a century later. An account of the church in 1830 says the Synod still worked under Peter's law of 1721, the Spiritual Regulation. Andrei Mouravieff, who wrote his history in 1838, was an official of the same Synod.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An account of the Russian hierarchy in 1830, quoted in the notes to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "18995-18997",
+     "locus": "Notes, II, the state of the Russian hierarchy in 1830",
+     "quote": "upon which the Synod still proceeds in all that it does, being bound how- ever at the same time to conform to the Ecclesiastical Regulation enacted in the year 1721, under Peter I.,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), title page of Blackmore's English (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "23-25",
+     "locus": "Title page",
+     "quote": "UNDER-PROCURATOR OF THE MOST HOLY GOVERNING SYNOD, ST. PETERSBURGH, 1838.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-nikon-to-holy-synod legacy ('The synodal arrangement lasted until 1917')",
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Not in the inventory; the legacy names the continuation without naming the era-9 entry. The era-9 drafters may draft the same pair from their side; merge by id.",
+    "The 1830 account is anonymous; the 1842 notes say its writer 'was a layman, and not a member himself of the Russian Church' (lines 18986-18988)."
+   ],
+   "change_reason": "New. The same synodal church carried into the era-9 entry."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1794 Victor Sadkowski, the Orthodox archbishop of Minsk, sent out a letter. It urged the Uniates to come back to the Orthodox church. Priests he sent took over parish churches where even a few people agreed, with Russian officials and soldiers at their side. Two Greek Catholic historians tell this from the Uniate side, in 1862 and 1880.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "38950-38952",
+     "locus": "Annales, under Catherine II",
+     "quote": "praefatus Árchieppus \"Victor sub die 26. Maji 1794. in Sluck impressam publicabat encyclieam epistolam ad univer- .gum clerum et populum unitum directam,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "38965-38967",
+     "locus": "Annales, under Catherine II",
+     "quote": "ac ubi vel minima pars communita- tis ad id prona inveniebatur, illico Ecclesiani parochialem recipiebant, illique praeficiebant presbyterum nonunitum,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "41274-41275",
+     "locus": "vol. 2, the union under Catherine II",
+     "quote": "Im Jahre 1794 stellte der Synod dem Erzbischof von Minsk, Victor Sadkowski, Priester zur Verfügung",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "41250-41254",
+     "locus": "vol. 2, the union under Catherine II",
+     "quote": "Jahre 1795 hat Catharina in mehreren Ukasen befohlen, dass alle Jene, deren Vorfahren erstnach dem Jahre 1595, also vor 200 Jahren, die Union angenommen hatten, zum Schisma zurückkehren.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('forced-reversion campaigns of 1794-96 stripped away most of its parishes'), longDescription and why ('campaigns of forced reversion from 1794')",
+   "major": true,
+   "outcome": "In 1795 Catherine II ruled that all those whose families had joined the union after 1595 must go back to the Russian church.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+    "lines": "41250-41254",
+    "text": "Jahre 1795 hat Catharina in mehreren Ukasen befohlen, dass alle Jene, deren Vorfahren erstnach dem Jahre 1595, also vor 200 Jahren, die Union angenommen hatten, zum Schisma zurückkehren."
+   },
+   "wants": [
+    "Archbishop Victor Sadkowski's encyclical of 26 May 1794 and the Holy Synod's orders of 1794-95, from the Orthodox side, to lift this from two Uniate histories to Documented"
+   ],
+   "drafter_flags": [
+    "Not in the inventory, which treated the campaigns as the state's only. The sources name the Orthodox archbishop and the Holy Synod as the church's part in them, so the link runs from the Synodal church.",
+    "The outcome names a state decree (Catherine's ukases), not a church act; the church's own act in the sources is the Synod's supplying priests. Reviewer may prefer to mark this minor.",
+    "Both sources are Greek Catholic and hostile: Pelesz calls the Orthodox 'Schismatiker'. The note keeps neutral words and says whose account it is.",
+    "Harasiewicz's '1794. in Sluck' keeps the OCR exactly, including the stray quotation mark before 'Victor'."
+   ],
+   "change_reason": "New. The Orthodox church's part in the forced reversion named in the Uniate entry."
+  },
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+   "action": "new",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "the-hesychast-revival-paisius-and-the-philokalia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Philokalia, first printed in 1782, carries two works by Gregory Palamas. Its 1893 Athens edition lists his letter to the nun Xenia. It also lists parts of his defense of the hesychasts, monks who prayed in stillness. Paisius put a work of Palamas on prayer into Slavonic as well. The monks of Optina later printed it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), table of contents",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "73482-73484",
+     "locus": "vol. 2, table of contents",
+     "quote": "βίου τοῦ Θεσσαλονίκης, λόγος πρὸς τὴν σεμνοτάτην ἐν μοναζούσαις ξέ- νὴν, περὶ παθῶν, ха! ἀρετῶν,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), table of contents",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "73496-73497",
+     "locus": "vol. 2, table of contents",
+     "quote": "Ех τῶν τοῦ αὐτοῦ λόγων ὑπὲρ τῶν ἱερῶς ἡσυχαζόντων,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paisius Velichkovsky, Vostorgnutye klasy (Optina edition, Moscow, 1849), table of contents",
+     "file": "cic/texts/paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt",
+     "lines": "9835-9836",
+     "locus": "Table of contents",
+     "quote": "Иже во Святыхъ Отца нашего Григорйя Паламы Арх!- епископа Оессалонитскаго, 0 молитвь",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('Revival of the Palamite line')",
+   "major": false,
+   "minor_reason": "Texts compiled and translated; the cited lines show no council, split or rule change.",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "Type changed from the inventory's 'continued as': four centuries and no continuous community lie between the two, and the sources show texts carried, not the same community.",
+    "Greek OCR: the TOC line reads 'Γρηγο- βίου' for Gregory (the quote starts at 'βίου' and keeps the OCR); 'ха!' and 'Ех' are Cyrillic OCR letters for καὶ and Ἐκ. The note's reading (the letter to Xenia; the defense of the hesychasts) is from the legible words 'πρὸς τὴν σεμνοτάτην ἐν μοναζούσαις ξένην' and 'ὑπὲρ τῶν ἱερῶς ἡσυχαζόντων'.",
+    "The Slavonic TOC line is the 1849 Optina book's contents; that the translations are Paisius's comes from its title page, which the OCR garbles (lines 14-40)."
+   ],
+   "change_reason": "New. Grounds 'Revival of the Palamite line' in the anthology's and Paisius's own contents."
+  },
+  {
+   "id": "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "the-hesychast-revival-paisius-and-the-philokalia",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Two monks, Theodore and Cleopas, lived for years in Paisius's monastery and took their vows from him. After they went to Russia in 1801 they trained Leonid, who moved in 1829 to the skete at Optina and took charge of the brothers' spiritual care. Optina printed this account in its 1847 edition of Paisius's Life.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "262-264",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "пожившіе много лѣтъ въ обители Старца Паѵсія и принявшіе отъ него постриженіе въ монашескій образъ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "265-266",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "вышли въ Рос¬ сію въ 1801 году.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "277-279",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "Отъ нихъ получили образованіе въ прохожденіи духовныхъ по¬ двиговъ и умнаго дѣланія: Іеромонахъ Леонидъ (**),",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "Preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and Writings of Paisius Velichkovsky (Moscow, 1847), title page",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "29-32",
+     "locus": "Title page",
+     "quote": "Изданіе Козельской Иведепскоіі ОПТННОЙ ПУСТЫНИ.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('direct source of the Optina tradition'), why and legacy (after prose changes 2 and 3)",
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Type: the inventory proposed 'influenced'. The preface names people passing from Paisius's house to Optina, which is the 'gave rise to' test; the Optina printing of Paisius is the influence, and it is carried here as a source rather than a second link.",
+    "The era-9 Optina entry ('Grew out of the Philokalia tradition') names the same pair; the era-9 drafters may draft it too. Merge by id.",
+    "The title page OCR reads 'Иведепскоіі ОПТННОЙ' for 'Введенской Оптиной'; the quote keeps the OCR."
+   ],
+   "change_reason": "New. The documented teacher-to-pupil chain from Neamț to Optina."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "the-hesychast-revival-paisius-and-the-philokalia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Philokalia, a book of writings on prayer first printed in 1782, carries work by Symeon the New Theologian. Its 1893 Athens edition lists a talk on faith by 'our holy father Symeon the New Theologian'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), table of contents",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "74199-74202",
+     "locus": "vol. 2, table of contents",
+     "quote": "Ὁσίου Πατρὸς ἡμῶν Συμεὼν τοῦ νέου Θεολόγου λόγος περὶ πίστεως",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": "the-hesychast-revival-paisius-and-the-philokalia longDescription and why ('working through its monastery libraries for the old Greek texts on inner prayer')",
+   "major": false,
+   "minor_reason": "A writer's text taken into an anthology; no council, split or rule change.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 5",
+    "Quote re-checked against the file at the stated lines: found.",
+    "Symeon the New Theologian is named in the Athonite entry's own description, so he belongs to that entry. The inventory's 'in contact with Mount Athos' is not drafted: Paisius's Athos of 1746 lies centuries after this entry ends (1300) and inside his own movement's story."
+   ],
+   "change_reason": "Kept. Checked; the claim and quote hold."
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Pope Pius VII's bull of 1807 traces one line of church. It begins with the union that Michael, metropolitan of Kyiv, and the Ruthenian bishops agreed at a council in Brest, and runs on to their synod at Zamość in 1720. A Uniate plea of about 1772 claims rights both from Clement VIII, the pope of the union, and from 'its own' Zamość synod.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37073-37074",
+     "locus": "Bull, narrative",
+     "quote": "cum Miehael Tertius Kioviensis Metropolita assentientibus alis Episcopis Ruthenis concilio eoaecto in civitate Brestiae,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37095-37097",
+     "locus": "Bull, narrative",
+     "quote": "de speciali assensu felicis recordationis Clementis Papae un- decimi Predecessoris Nostri coaeta in civitate Zamosciae Synodo Nationali Ruthena",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Metropolitan's statement citing the bull, in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "41140-41141",
+     "locus": "Annales, after 1808",
+     "quote": "Juxta Literas apostolieas Papae Pii VII, quae incipiunt ,ln universalis Ecclesiae regimine^ an. incarn. Dnicae 1807",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])",
+     "file": "cic/texts/anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt",
+     "lines": "2295-2299",
+     "locus": "Apollogia, on the Uniates' rights",
+     "quote": "ź Konftytucyi Apoftolfkich Jnnocente- go IV. Klemensa VIII. Pawła V. Ur- bana VIII. Benedykta XIII. y XIV. iuż to z Synodu fwoiego Zamoyfkie- go od S. Stolicy approbowanego ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull of Benedict XIII confirming the synod of Zamość, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "133978-133980",
+     "locus": "Synodus provincialis Ruthenorum, papal confirmation",
+     "quote": "Exponi_ fiquidem nobis nuper fecit venerabilis Fra- ter modernus metropolita Ruffie, quod ipfe una cum venerabilibus Fratribus epifcopis Ruthenis unitis",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ruthenian-uniate-18th-century longDescription and why ('A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands')",
+   "drafter_flags": [
+    "cross-era: era 7",
+    "Inventory said 'descent'; the census types have no 'descent'. The sources show the same hierarchy and see across the period split, which is the 'continued as' test.",
+    "OCR kept exactly: 'Miehael' (Michael), 'alis' (aliis), 'eoaecto' (coacto); Polish long s read as f in the Apollogia ('Konftytucyi', 'fwoiego').",
+    "The bull is a Roman document; the Apollogia is the Uniates' own voice. That Clement VIII was the pope of the union comes from the bull (lines 37062-37082)."
+   ],
+   "change_reason": "New. The period split between the Brest and eighteenth-century entries."
+  },
+  {
+   "id": "ruthenian-uniate-18th-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "action": "new",
+   "from": "ruthenian-uniate-18th-century",
+   "to": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1807 Pope Pius VII freed the Ruthenian sees of Lviv, Chełm and Przemyśl, until then under the metropolitan of Kyiv. He made the bishop of Lviv also bishop of the ancient see of Halych, with Chełm and Przemyśl under him. A Lviv canon's history of 1862 follows this same hierarchy under Austrian rule from 1808.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37196-37198",
+     "locus": "Bull, operative clause",
+     "quote": "momoratas Ecclesias Episcopales Rutheni ritus Leopoliensem, Kelmensem et Premisliensem antea ejusdem Metropolitanae Ecclesiae Kijoviensis suffraganeas",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37207-37210",
+     "locus": "Bull, operative clause",
+     "quote": "Leopoliensi Zcelesiae titulum alterius Ecclesiae Haliciensis simili faculta. te uniat, ac perpetius futuris temporibus unitum esse ac fore declaret,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Metropolitan's statement citing the bull, in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "41140-41145",
+     "locus": "Annales, after 1808",
+     "quote": "Juxta Literas apostolieas Papae Pii VII, quae incipiunt ,ln universalis Ecclesiae regimine^ an. incarn. Dnicae 1807 octava Kalendas Martii duas Eppales Ecclesias Chelmensem et Premisliensem ritus graeci uniti in suffraganeas Ecclesiae Archieppali Leopoliensi et Halieiensi ejusdem ritus assignua- .tas fuisse,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862), contents",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "1054-1056",
+     "locus": "Contents, ch. 7",
+     "quote": "De statu hierarchiae ruthenae unitae (graeco-catholicae) sub regimine austriaco ab an. 1808 seu a restauratione Me- tropoliae Halieiensis",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('Austrian Galicia became the church's real zone of survival') and legacy ('The Galician remnant ... The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century')",
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The Harasiewicz quote at 41140-41144 is longer than 40 words; it can be cut at '1807' if the reviewer prefers. Its OCR (',ln', '^', 'assignua- .tas') is kept.",
+    "Harasiewicz was himself vicar general of Lviv (line 1059); his chapter heading is listed as secondary."
+   ],
+   "change_reason": "New. The period split into the era-9 Galician entry, by the same sees."
+  },
+  {
+   "id": "the-tridentine-church--ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Ruthenian synod at Zamość in 1720 wrote that it followed in the footsteps of the fathers of the Council of Trent. Those present professed that they received the Council of Trent. The synod barred parish priests from keeping feasts outside its list, and that list included Corpus Christi, a feast of the Latin church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "133984-133985",
+     "locus": "Papal confirmation",
+     "quote": "fynodum provincialem Ruthénam in Civitate Zamofcie Anno MDCCXX. celebravit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "137965-137967",
+     "locus": "Decrees, on books",
+     "quote": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "135553",
+     "locus": "Professions of faith",
+     "quote": "Pariter veneror, & fufcipio Tridentinam",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "141783-141787",
+     "locus": "Decrees, on feasts",
+     "quote": "prohibet fynodus parochis {ub graviflima poena arbitrio ordinarii, ne preter diem  Dominicam, alia fefta ce lebrent » aut populo denuncient, quam ca, que fequuntur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "142049",
+     "locus": "Decrees, the movable feasts",
+     "quote": "Feftum Corporis, Chrifti Domini.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('importing Latin devotional practices into its Byzantine rite') and longDescription and why ('importing Roman devotional practices into a Byzantine rite')",
+   "major": true,
+   "outcome": "At Zamość in 1720 the Ruthenian synod made church laws that it said followed the Council of Trent.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "137965-137967",
+    "text": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,"
+   },
+   "drafter_flags": [
+    "cross-era: era 7",
+    "The Tridentine entry ends in 1650. The tie is the synod's own appeal to Trent, not contact with the church of 1517-1650. The Roman authorities of 1720 (the nuncio Grimaldi presided; Benedict XIII confirmed in 1724) belong to the era-8 Catholic ancien-régime entry; I did not draft that pair, since the four fields do not name Rome as an actor.",
+    "The professions quote is 'Tridentinam' with the noun 'synodum' on the next, garbled line; the note's wording follows the sense.",
+    "That Corpus Christi is a Latin feast is general knowledge, not shown in the quoted lines.",
+    "Major judgment: a synod's own law following Trent, counted as a rule changed by an authority. A reviewer may judge it a practice merely taken up.",
+    "Long s read as f throughout the Mansi OCR ('fynodus', 'Feftum'), kept exactly."
+   ],
+   "change_reason": "New. Grounds 'importing Latin devotional practices' in the synod's own decrees."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-old-believers",
+   "field": "legacy",
+   "old": "Old Belief is still practiced. Several Old Believer churches exist today — in Russia, Romania, the Baltic states, Alaska, Oregon and South America — some with their own bishops, some with no clergy at all, keeping pre-Nikonian chant, icons and books. Their stubbornness preserved a whole layer of medieval Russian religious culture that the official church had modernized away. Old icon-painting styles, znamenny chant and manuscript practices survived in these communities and were later recovered from them by collectors and scholars. Russian literature never let the schism go either; the raskol runs through the nineteenth-century novel as the standing question of what faithfulness actually costs.",
+   "new": "Old Belief is still practiced. Old Believer churches exist today in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all. All keep the chant, icons and books of the time before Nikon. Their stubbornness saved a whole layer of medieval Russian church culture that the official church had modernized away. Old styles of icon painting, znamenny chant and the copying of books by hand lived on in these groups. Collectors and scholars later found them there. Avvakum's own Life, written in his prison, came out in English in 1924.",
+   "reason": "The closing claim that 'the raskol runs through the nineteenth-century novel' has no source in the library (no Dostoevsky, no Melnikov-Pechersky) and is cut; listed in wants. Replaced by a literary fact the library holds: the Harrison-Mirrlees English Life of 1924, written at Pustozersk (title page, lines 26-28; the longDescription already places the Life in his underground prison). The long first sentence is split for reading level; every other fact is kept.",
+   "fre_after": 63.4,
+   "fk_after": 7.6
+  },
+  {
+   "n": 1,
+   "movement": "russian-church-nikon-to-holy-synod",
+   "field": "legacy",
+   "old": "The synodal arrangement lasted until 1917, and the church restored the patriarchate almost as soon as the empire fell. The whole shape of modern Russian church-and-state relations was set in this period and is still argued about. Its Alaskan mission planted an Orthodox Christianity that survives among Native communities there to this day, the only Orthodox church established in North America before the nineteenth century. And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
+   "new": "The synodal system lasted until 1917, and the church brought back the patriarch almost as soon as the empire fell. The bond between church and state in modern Russia took its shape in this period, and people still argue about it. Its mission to Alaska planted an Orthodox faith that lives on among Native communities there today. It was the only Orthodox church founded in North America before the nineteenth century. The church also lived with a lasting tension. It was an official church tied to the state, with an intense spiritual life running beside and beneath it. The first elders of Optina, in the next century, were trained in this church's own monasteries.",
+   "reason": "'Produced ... the sharp religious searching of Russian literature' has no source in the library and is cut (wants). 'The tension it created ... produced the Optina elders' is causal and unshown; restated as what Optina's 1847 preface shows, that Leonid entered Optina in 1797 and served under the bishop of Orel (link russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal). The tension itself is kept as the church's condition. The Alaskan sentence is split for reading level; its facts are unchanged and unsourced (see the Alaska link).",
+   "fre_after": 60.9,
+   "fk_after": 8.8
+  },
+  {
+   "n": 2,
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "why",
+   "old": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore, and set his community to translating it into Slavonic at Neamț in Moldavia. Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+   "new": "In 1746 a young monk named Paisius Velichkovsky searched the libraries of the monasteries on Mount Athos. He was looking for old Greek teaching on inward prayer that almost nobody read anymore. At Neamț in Moldavia he set his monks to putting it into Slavonic. The Greek texts were printed as the Philokalia at Venice in 1782. Paisius's own Slavonic version came out at Moscow in 1793. The book carried a monk's teaching on the Jesus Prayer out to ordinary readers. Paisius's own disciples, back in Russia, trained the first of the Optina elders.",
+   "reason": "'Fed directly into ... The Way of a Pilgrim' has no source in the library and is cut (wants). 'Fed directly into the elders of Optina' is kept and made exact: Optina's 1847 preface shows Paisius's disciples Theodore and Cleopas training Leonid (link to the Optina elders). Long sentences split for reading level.",
+   "fre_after": 61.6,
+   "fk_after": 7.9
+  },
+  {
+   "n": 3,
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "old": "This is one of the clearest cases anywhere of a book changing a church. The Philokalia is still in print and still read — the standard English translation has been appearing volume by volume since 1979. And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels. Twentieth-century Orthodox theology in the West drew on it heavily, and the Jesus Prayer is now practiced far outside the monasteries the texts were written in. Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+   "new": "This is one of the clearest cases anywhere of a book changing a church. The Philokalia is still in print and still read — the standard English translation has been appearing volume by volume since 1979. In Russia it fed the elders of Optina, whose own press printed Paisius's life and writings at Moscow in 1847. The Jesus Prayer is now practiced far outside the monasteries the texts were written in. Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+   "reason": "Cut, for want of any source in the library: The Way of a Pilgrim, 'the spiritual world of Dostoevsky's novels', and 'Twentieth-century Orthodox theology in the West drew on it heavily' (all in wants). The Optina claim is kept and grounded in the 1847 Optina edition (title page, line 29-38). Other facts kept as written.",
+   "fre_after": 63.9,
+   "fk_after": 8.5
+  }
+ ],
+ "wants": [
+  "The acts of the Moscow council of 1666-67 (Dopolneniia k Aktam istoricheskim, vol. V, cited by Subbotin), for the council's own anathema and its revocation of the Stoglav",
+  "The rules of Edinoverie approved by Paul I, 27 October 1800, with Metropolitan Plato's replies (Polnoe sobranie zakonov Rossiiskoi imperii, first series)",
+  "The patriarchal letters of 1686-87 on the Kyiv metropolia (Dionysius IV of Constantinople; Dositheus of Jerusalem) in a published edition",
+  "A primary account of the Kodiak mission of 1794 (the mission's letters, or Valaam's own history of the American mission)",
+  "Archbishop Victor Sadkowski's encyclical of 26 May 1794 and the Holy Synod's orders of 1794-95, from the Orthodox side",
+  "Otkrovennye rasskazy strannika dukhovnomu svoemu ottsu (The Way of a Pilgrim), Kazan edition of 1881, to check its use of the Philokalia (Dobrotolubie)",
+  "Dostoevsky, The Brothers Karamazov (1880; Constance Garnett's English, 1912), for the Optina tie and the novel's monastic world",
+  "P. I. Melnikov-Pechersky, V lesakh (1871-74) and Na gorakh (1875-81), for the Old Believers in the nineteenth-century novel"
+ ],
+ "escalations": [
+  "Type gap (method question, not a stop for this draft): none of the six link types names a transfer of jurisdiction, as in 1686 when the Kyiv see passed under Moscow. I drafted it 'in contact with' with a stated outcome. If Mark wants such transfers shown differently, that is a method change.",
+  "Two-entry consistency for the merge: this draft cuts The Way of a Pilgrim, Dostoevsky and the Paris school from the Paisian revival's prose for want of any source in the library. The era-9 Optina entry still says Dostoevsky drew on Optina for The Brothers Karamazov and that its spirituality carried into émigré theology; the era-9 and era-10 drafters should treat those claims the same way, or the entries will disagree until the texts are vendored.",
+  "Cross-era duplicates likely: era-9 drafters may draft the same ids from their side (Paisian revival to Optina; Synodal church to its era-9 continuation; eighteenth-century Uniate church to the Galician entry). The era-7 drafters may draft Kyiv-Mohyla to the Synodal church from Kyiv's legacy ('supplied Russia with its educated clergy'), a different claim from the 1686 link here. The Stoglav entry's 'belongs to the next chapter' names a 'continued as' into the Synodal church that no era-8 text names; I did not draft it."
+ ]
+}

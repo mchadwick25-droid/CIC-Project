@@ -1,0 +1,1627 @@
+{
+ "group": "B",
+ "movements": [
+  "the-evangelical-awakening-in-new-england",
+  "the-welsh-revival-tradition",
+  "the-baptists",
+  "english-old-dissent",
+  "early-american-unitarians-universalists"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "puritanism--the-evangelical-awakening-in-new-england",
+   "prose_change": 0,
+   "reason": "Carried as influence (Documented): Edwards's Religious Affections cites the New England Puritan Thomas Shepard by work and page. Descent is not graded: Northampton's own earlier pastors (Stoddard, ordained 1672) fall after the puritanism entry's dates. Summary reworded to 'grew out of New England's Puritan churches'."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+   "other_id": "the-second-great-awakening-and-camp-meeting-worl",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No vendored text ties the frontier revivals to the awakening (McNemar's Kentucky Revival, the only vendored text for the later entry, names neither Edwards nor Whitefield). Qualified: 'may owe it a debt ... no text we hold yet shows a direct tie'. Wanted: a Second Awakening source that names Edwards or the 1740s revival."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "the-evangelical-awakening-in-new-england--the-baptists",
+   "prose_change": 0,
+   "reason": "'Parent of the missionary movement' made concrete: Carey's 1792 Enquiry holds up Brainerd as a model (Documented influence on the Baptists). No census entry for 'the missionary movement' as such; the era-9 Serampore entry is about the native churches, not the societies."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Tennents are persons with no census entry; the dossier places Gilbert Tennent's sermons inside this movement. Kept as written."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Hanover, Virginia has no census entry. The 'historians are divided' sentence is the entry's own open question (statusDescription); kept, reworded only for reading level."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "sentence": "Through the Black and Native Christian writing it produced, it stands among the parent traditions of the Black Church in America.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No vendored text ties the awakening to the first Black congregations. Wheatley's 1770 elegy shows Whitefield's preaching reaching a Black Christian writer, but it falls after the window and its preacher is the Methodist revival's. Qualified as 'may owe it a debt'; no link drafted. The Methodist revival's group may link Whitefield and Wheatley from its own text."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a general one, with itinerants crossing parish lines and crowds gathering in the open air.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-evangelical-awakening-in-new-england",
+   "prose_change": 1,
+   "reason": "Whitefield is named in the Methodist entry's own text; Chauncy (1743) says itinerant preaching had its rise from him, and Whitefield's journal records Northampton. Documented influence."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Chauncy is a person; the Old Lights have no census entry (they are the standing Congregational order, inside the same churches). Kept as written, with 'enthusiasm' glossed."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Faction inside New England Congregationalism; no census entry. Chauncy's Seasonable Thoughts (vendored) documents it."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The Separate congregations have no census entry. Chauncy documents 'the disorderly Separations of the present Day' (lines 5170-5171). Kept."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+   "other_id": "the-baptists",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'A great many of them becoming Baptist': no vendored or repo-cited source traces Separates into Baptist churches (Backus's History and the Separate church records are not vendored; the dossier lists them). Qualified: 'Many may later have become Baptist, though no text we hold yet traces them.' Wanted: Backus, A History of New-England with particular reference to the Baptists (1777-96)."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "sentence": "It also produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'The first substantial body of Christian writing by Black and Native people' is a superlative no vendored source states, and the published works (Occom 1772, Wheatley 1773) fall after the window. Reworded: 'Black and Native Christians of its world also began to write', naming Wheatley and Occom. No link (see the relationsSummary disposition)."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "why",
+   "sentence": "The awakening split New England's churches between defenders and critics of the revival, and produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Same correction as the description."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "sentence": "It left no church of its own — the awakening ran through existing Congregational parishes and broke some of them — but it reshaped American religion permanently.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "New England Congregational parishes have no census entry (English Old Dissent covers the English bodies only). Kept."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "sentence": "It made the revival meeting and the itinerant preacher normal instruments, filled the Baptist churches with Separate converts, and produced in Edwards the most substantial theologian America has yet made, still argued over three centuries later.",
+   "other_id": "the-baptists",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Filled the Baptist churches with Separate converts': unsupported, as above. Qualified with the reason."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "sentence": "It seeded the first generation of Black and Native Christian writing in North America.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Seeded the first generation of Black and Native Christian writing' reduced to what the texts show; see above."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "sentence": "And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "the-evangelical-awakening-in-new-england--the-baptists",
+   "prose_change": 3,
+   "reason": "'The missionary societies of the following century traced their impulse back to it, often explicitly' is wider than the evidence: the one vendored case is Carey (1792, the same century), who names Brainerd. Rewritten to that case and carried by the Documented link."
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "sentence": "And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "the-evangelical-awakening-in-new-england--the-baptists",
+   "prose_change": 3,
+   "reason": "Carey names Brainerd, not Edwards's Life; the legacy now says Carey held up Brainerd and that Edwards wrote Brainerd's life from his diary (the vendored Life of Brainerd, 1793 printing)."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "relationsSummary",
+   "sentence": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-welsh-revival-tradition",
+   "prose_change": 9,
+   "reason": "'Sibling of Methodism' carried as contact (Harris meets Whitefield, Cardiff 1739) between parallel beginnings (the 1834 History: raised up 'at the same time as Whitefield and the Wesleys'). Reworded as 'a sister movement'."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "relationsSummary",
+   "sentence": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+   "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "No vendored text from 1904-05 names the eighteenth-century revival or its hymns, and the later entry's own text stresses that its revivals 'none of them descended from the others'. Qualified with the reason. Wanted: W. T. Stead, The Revival in the West (1905), or the Western Mail reports, which may name Pantycelyn's hymns."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "longDescription",
+   "sentence": "The Welsh revival began independently of England and in its own language: in 1735 Howell Harris, a schoolmaster from Trefeca, and Daniel Rowland, a curate at Llangeitho, were converted within months of each other and began preaching to whoever would gather.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-welsh-revival-tradition",
+   "prose_change": null,
+   "reason": "'Began independently of England' is supported by the 1834 History (lines 591-595) and by Harris's own 1735 dates; it is not itself a relationship. Kept; carried with the contact link."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "The Presbyterian Church of Wales has no census entry. The 1811 ordinations are documented (1834 History) and carried by the broke-with link to the Church of England. Kept."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Nonconformity becoming the ordinary religion of Wales is a statement of scale, not a link between entries. Kept (no vendored source states it; open item 'Well-known facts with no vendored source')."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-welsh-revival-tradition",
+   "prose_change": 10,
+   "reason": "The inventory's 'displaced the established church' is a statement of scale; the documented relationship is the 1811 separation, carried as broke with (Documented, one side vendored)."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "Its Sunday schools taught a great part of the nation to read Welsh, which is one reason the language came through industrialization alive.",
+   "other_id": "the-sunday-school-and-bible-institute-movement",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "The legacy speaks of the Welsh revival's own Sunday schools, not of Raikes's movement; neither entry's text names the other and no vendored text ties Thomas Charles's schools to Raikes. No link. The literacy claim itself has no vendored source (open item 'Well-known facts with no vendored source'); kept."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+   "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "'Runs straight on to the revival of 1904-05': qualified, as in the summary."
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "sentence": "And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Welsh choral culture has no census entry; 'less obviously but just as really' asserted a tie no source shows, folded into the same 'may' clause."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "relationsSummary",
+   "sentence": "The Baptists grew out of Puritan-Separatist ferment in England.",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "puritanism--the-baptists",
+   "prose_change": 4,
+   "reason": "Documented: Smyth (1609) says his people went 'from Puritanisme to Brownisme, & from Brownisme to true Christian baptisme'."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "relationsSummary",
+   "sentence": "They arrived at Anabaptist-like convictions about believer's baptism largely on their own — historians are divided on how much direct contact there was between the two movements.",
+   "other_id": "the-anabaptist-movements",
+   "disposition": "link",
+   "link_id": "the-anabaptist-movements--the-baptists",
+   "prose_change": 4,
+   "reason": "Contact is documented (Smyth's application to the Waterlander Mennonites); influence on the 1609 baptism stays an open question, said plainly. The summary now separates the two."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "relationsSummary",
+   "sentence": "From the Baptists came William Carey's missionary movement and the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "link",
+   "link_id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": 4,
+   "reason": "Carey's society is the Baptists' own (Rippon, 1792 resolutions); its descent to the Serampore churches is Inferential-Thin on the vendored evidence. Summary now says 'Carey's mission'."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "relationsSummary",
+   "sentence": "From the Baptists came William Carey's missionary movement and the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-baptists--the-black-church-in-america",
+   "prose_change": 4,
+   "reason": "Existing link kept after checking its quotes."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "sentence": "They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol for preaching without a license and wrote Grace Abounding there.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-baptists",
+   "prose_change": 5,
+   "reason": "Documented: Bunyan's indictment (Relation of the Imprisonment) and Whitley on the 1664 Conventicle Act. Major outcome link (law)."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "sentence": "In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+   "other_id": "the-evangelical-awakening-in-new-england",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Grew explosively out of the awakening': Rippon's 1790 letters show rapid New England Baptist growth (500 added since 1788, lines 8731-8734) but nothing vendored ties it to the awakening's converts. Qualified: 'grew fast late in the eighteenth century. The awakening may have fed them many converts, though no text we hold yet shows it.' The documented awakening-to-Baptist tie is Carey's use of Brainerd."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "sentence": "In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "link",
+   "link_id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": 5,
+   "reason": "Rippon prints the 1792 Kettering resolutions and the society's letter sending Carey and Thomas to India. 'A small association of ministers' kept as 'a small group of ministers'."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "why",
+   "sentence": "The churches that grew from that governed themselves in writing, week by week, in minute books and covenants — John Bunyan wrote Grace Abounding during twelve years in Bedford gaol for preaching without a license — and in 1792 a shoemaker named William Carey persuaded a small association of ministers to found a missionary society before sailing for India himself.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "link",
+   "link_id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": null,
+   "reason": "Same as the description; the why field is unchanged."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "legacy",
+   "sentence": "The tradition's argument that no magistrate has authority over belief passed into Rhode Island's founding under Roger Williams and, through a long line of Baptist petitioning, into the American constitutional settlement on religion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Roger Williams and Rhode Island have no census entry. Whitley's note (General Baptist minutes vol. I, lines 10242-10244) mentions the Rhode Island charter 'on the lines drafted by Roger Williams'. Kept."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "legacy",
+   "sentence": "The tradition's argument that no magistrate has authority over belief passed into Rhode Island's founding under Roger Williams and, through a long line of Baptist petitioning, into the American constitutional settlement on religion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No census entry. Backus's Appeal (1773, vendored) is one Baptist petition of the kind meant. Kept, reworded."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "legacy",
+   "sentence": "Carey's society opened the era of Protestant foreign missions and was quickly imitated across the denominations.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "qualify",
+   "link_id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": 6,
+   "reason": "'Opened the era of Protestant foreign missions' is contradicted by Carey's own Enquiry, which names the Danish mission at Tranquebar (1706), the Moravians and John Eliot before him (lines 768-805). 'Quickly imitated across the denominations' has no vendored source. Rewritten: not the first, but the start of Baptist work abroad."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "legacy",
+   "sentence": "And the Black Baptist churches founded by Liele, George and their successors became one of the central institutions of African American life, and the ground from which the civil rights movement later grew.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-baptists--the-black-church-in-america",
+   "prose_change": 6,
+   "reason": "Existing link; kept."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "legacy",
+   "sentence": "And the Black Baptist churches founded by Liele, George and their successors became one of the central institutions of African American life, and the ground from which the civil rights movement later grew.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The civil rights movement has no census entry (the twentieth-century Black Church entry carries it). The clause is kept; the published Black Church entry's own text says the same."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": 7,
+   "reason": "Documented broke with: the Act of Uniformity (as printed in the 1706 Prayer Book) and Baxter's account of Bartholomew Day."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Eighteenth-century English Arianism has no census entry. Kept."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+   "other_id": "early-american-unitarians-universalists",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "The English Presbyterian drift to Unitarianism is not the American body. No link; see the escalation on Essex Street and English Unitarianism."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+   "other_id": "the-evangelical-awakening-in-new-england",
+   "disposition": "link",
+   "link_id": "the-evangelical-awakening-in-new-england--english-old-dissent",
+   "prose_change": 7,
+   "reason": "'Reinvigorated by the eighteenth-century revival' is a broad claim no vendored or repo-cited source makes, and Curnock notes Doddridge was almost the only leading Dissenter friendly to Wesley. Rewritten to what the texts show: Watts helped publish Edwards's narrative; Doddridge had Wesley teach his students. Carried by two Documented links (this one and the Methodist contact)."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+   "other_id": "the-quakers-religious-society-of-friends",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "'Together with the Quakers ... the wider family of English Dissent' is a classification, not a link type. No contact between Presbyterian or Congregational ministers and Quakers is shown in the vendored Old Dissent texts (Baxter wrote The Quakers' Catechism against them, lines 7003-7007, which the text does not claim). Kept as written."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "sentence": "Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "english-old-dissent--the-baptists",
+   "prose_change": 7,
+   "reason": "The classification is kept; the Baptist side is carried by a documented shared event (Salters' Hall, 1719), now named in the summary."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "longDescription",
+   "sentence": "Isaac Watts, a Congregational minister, broke the convention that only the Psalms could be sung in worship and wrote hymns instead, which is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "A practice, not a movement. Kept; Watts's Hymns and Spiritual Songs and Psalms of David Imitated are vendored."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "longDescription",
+   "sentence": "The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "As above."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "longDescription",
+   "sentence": "The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+   "other_id": "early-american-unitarians-universalists",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "As above."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "why",
+   "sentence": "About two thousand ministers were put out of the Church of England on a single day in 1662, and the Presbyterian and Congregationalist traditions that grew from the ejection built their own dissenting academies, teaching mathematics and modern languages when Oxford and Cambridge largely didn't.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "english-old-dissent--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Same link; why field unchanged."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "why",
+   "sentence": "Isaac Watts, one of their ministers, broke the old rule that only the Psalms could be sung in worship and wrote hymns instead, while a 1719 meeting at Salters' Hall split the tradition quietly: many English Presbyterian congregations drifted over the following century toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above; why unchanged."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "why",
+   "sentence": "Isaac Watts, one of their ministers, broke the old rule that only the Psalms could be sung in worship and wrote hymns instead, while a 1719 meeting at Salters' Hall split the tradition quietly: many English Presbyterian congregations drifted over the following century toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox.",
+   "other_id": "early-american-unitarians-universalists",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above; why unchanged."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "legacy",
+   "sentence": "English Congregationalism ran on into the United Reformed Church and the Congregational Federation, carrying the gathered-church principle into the modern world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The United Reformed Church and the Congregational Federation have no census entry. Kept."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "legacy",
+   "sentence": "The Presbyterian congregations that had moved toward Unitarianism became the core of British Unitarianism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "British Unitarianism has no census entry; see escalations."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "relationsSummary",
+   "sentence": "In 1785 King's Chapel in Boston revised its prayer book to remove the Trinity.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--early-american-unitarians-universalists",
+   "prose_change": null,
+   "reason": "King's Chapel's 1785 preface documents an Anglican congregation 'torn from that King and Church' revising the Prayer Book. Carried as gave rise to (Documented)."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "relationsSummary",
+   "sentence": "English Unitarian precedent came earlier still, with the opening of the Essex Street Chapel in London in 1774.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "English Unitarianism has no census entry, and which world owns Essex Street is an open corpus-map ruling (english-old-dissent.yaml, 'needs-ruling'). The precedent is documented: King's Chapel's preface says it drew on Lindsey's reformed Prayer Book (lines 208-213), and Belsham (1815) prints Freeman's letters to Lindsey. Kept as written; see escalations."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "relationsSummary",
+   "sentence": "Both threads only became formal denominations later, with the American Unitarian Association founded in 1825.",
+   "other_id": "american-unitarianism-universalism-consolidations",
+   "disposition": "link",
+   "link_id": "early-american-unitarians-universalists--american-unitarianism-universalism-consolidations",
+   "prose_change": null,
+   "reason": "The period split, carried as continued as (Documented on the Universalist side)."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "longDescription",
+   "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "New England Congregationalism has no census entry. Kept. (Chauncy and Mayhew, whose works the Library places in both this movement and the awakening's, bridge the two; not named in either text.)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "longDescription",
+   "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Lindsey is a person; see the Essex Street disposition."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "longDescription",
+   "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--early-american-unitarians-universalists",
+   "prose_change": null,
+   "reason": "Inventory proposed 'in contact with'; the preface documents more: the congregation itself left the Church of England's prayer book and order. Retyped to gave rise to."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "why",
+   "sentence": "John Murray, an English preacher who believed God would finally save everyone, gathered a Universalist congregation at Gloucester, Massachusetts in 1779, while in 1785 King's Chapel in Boston — an Anglican congregation left leaderless by the Revolution — revised its own prayer book to remove the Trinity, years before either movement had an actual denomination.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--early-american-unitarians-universalists",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "legacy",
+   "sentence": "Both became denominations in the following decade — the American Unitarian Association in 1825, the Universalists consolidating their conventions.",
+   "other_id": "american-unitarianism-universalism-consolidations",
+   "disposition": "link",
+   "link_id": "early-american-unitarians-universalists--american-unitarianism-universalism-consolidations",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "legacy",
+   "sentence": "And in 1961 the two merged into the Unitarian Universalist Association, which continues.",
+   "other_id": "american-unitarianism-universalism-consolidations",
+   "disposition": "link",
+   "link_id": "early-american-unitarians-universalists--american-unitarianism-universalism-consolidations",
+   "prose_change": null,
+   "reason": "The 1961 merger is the later entry's own story; it falls under the same continued-as link. No 1961 text vendored; the claim is the era-9 entry's to carry."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "legacy",
+   "sentence": "Harvard, the Transcendentalists, and a great deal of American reform work in education, prisons and abolition came out of this milieu.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Transcendentalists sit inside the era-9 consolidations entry, not their own. Kept."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "legacy",
+   "sentence": "Harvard, the Transcendentalists, and a great deal of American reform work in education, prisons and abolition came out of this milieu.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic; no census entry."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "legacy",
+   "sentence": "King's Chapel in Boston still uses a descendant of its 1785 prayer book.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A congregation; no census entry. Kept."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "legacy",
+   "sentence": "Watts's and Doddridge's hymns are sung every week in churches that have never heard of Old Dissent.",
+   "other_id": "the-evangelical-awakening-in-new-england",
+   "disposition": "link",
+   "link_id": "english-old-dissent--the-evangelical-awakening-in-new-england",
+   "prose_change": null,
+   "reason": "Missed by the inventory (person-carried: Watts). Sarah Edwards's 1742 narrative has Watts's hymns read at the height of the Northampton revival. Documented influence; legacy unchanged."
+  },
+  {
+   "movement": "english-old-dissent",
+   "field": "legacy",
+   "sentence": "Watts's and Doddridge's hymns are sung every week in churches that have never heard of Old Dissent.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "english-old-dissent--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Missed by the inventory (person-carried: Doddridge). Wesley's journal, September 1745, records his visit to Doddridge's academy. Documented contact; also carries the rewritten 'revival' clause (prose changes 7 and 8)."
+  },
+  {
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "sentence": "John Bunyan spent twelve years in Bedford gaol for preaching without a license and wrote Grace Abounding there.",
+   "other_id": "english-old-dissent",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Library places Bunyan's Relation provisionally with Old Dissent too (a shared persecution). Neither text claims a Baptist-Old Dissent tie through Bunyan; the shared-event link is Salters' Hall."
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "field": "longDescription",
+   "sentence": "John Murray, an English preacher who had absorbed the doctrine that God will finally save everyone, arrived in America in 1770 and gathered a congregation at Gloucester, Massachusetts in 1779",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Murray and the source of his doctrine (James Relly, unnamed in the text) have no census entry. Kept. Murray's Records of the Life (vendored) may show an earlier tie to Whitefield's Methodists; not named in the text, not linked."
+  }
+ ],
+ "links": [
+  {
+   "id": "puritanism--the-baptists",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-baptists",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1609 John Smyth, pastor of the English exiles in Amsterdam, defended his people's path. They had gone, he wrote, from Puritanism to Brownism, the old name for Separatism, and then to true baptism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Smyth, The Character of the Beast (1609), ed. W. T. Whitley, Works vol. II (1915)",
+     "file": "cic/texts/smyth_works-v2_whitley1915.txt",
+     "lines": "12580-12583",
+     "locus": "The Character of the Beast, Smyth's answer to Richard Clifton",
+     "quote": "that we should fal from the profession of Puritanisme to Brownisme, & from Brown- isme to true Christian baptisme, is not simply evil or reprovable in it self",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists relationsSummary ('grew out of Puritan-Separatist ferment in England'); puritanism legacy ('much of the Baptist tradition come straight out of it')",
+   "wants": [
+    "Thomas Helwys, A Declaration of Faith (1611) and A Short Declaration of the Mistery of Iniquity (1612) in a clean edition, for the Helwys side of the same passage out of Separatism"
+   ],
+   "drafter_flags": [
+    "The quote keeps the file's line-break hyphen 'Brown- isme' exactly, as the validator joins lines with a space.",
+    "'Brownism' is Smyth's own word for the Separatists. The note glosses it; the puritanism entry's own text does not name the Separatists, but its legacy claims 'much of the Baptist tradition'. Graded on Smyth's own dated statement that his people passed from Puritanism through Separatism to believers' baptism."
+   ],
+   "change_reason": "New. Documents the Baptists' own stated descent from Puritanism."
+  },
+  {
+   "id": "the-anabaptist-movements--the-baptists",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "the-baptists",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "After their new baptism in Amsterdam, John Smyth and his people asked to join the Waterlander Mennonite church there. Their request, in Latin, says they were wrong to baptize themselves. It is still kept in the Mennonite archives in Amsterdam.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Smyth and others, Application for union with the Waterlander church in Amsterdam (c. 1610), ed. W. T. Whitley (1915)",
+     "file": "cic/texts/smyth_works-v2_whitley1915.txt",
+     "lines": "18434-18437",
+     "locus": "Application for Union with the Waterlander Church",
+     "quote": "Nomina Anglorum qui hunc errorem suum agnoscunt, ejusque penitentiam agunt, viz: quod inceperint seipsos baptisare, contra ordinem a Christo constitutum: quique jam cupiunt hinc verae Christi ecclesiae vniri",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. T. Whitley, editor's note on the Application for Union, Works of John Smyth vol. II (1915)",
+     "file": "cic/texts/smyth_works-v2_whitley1915.txt",
+     "lines": "23053-23054",
+     "locus": "Notes, 'Application for Union'",
+     "quote": "presented to the Waterlander Mennonite church in Amsterdam, and preserved in the archives of the united",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists relationsSummary ('historians are divided on how much direct contact there was between the two movements')",
+   "major": false,
+   "minor_reason": "The application asked for union; neither source shows a body deciding on it or a church changing a rule.",
+   "wants": [
+    "The Waterlander church's own minutes or replies on the English applicants (Doopsgezinde archives, Amsterdam), and Hans de Ries's correspondence, to show the Mennonite side of the contact",
+    "W. H. Burgess, John Smith the Se-Baptist, Thomas Helwys, and the first Baptist church in England (1911), already listed as a lead in the Baptist source dossier, for a secondary account of the contact question"
+   ],
+   "drafter_flags": [
+    "The Waterlanders are a Mennonite body; the Anabaptist entry's own text names the Low Countries congregations 'gathered by ... Menno Simons'. I took them as inside that entry.",
+    "Contact after Smyth's self-baptism is documented. Whether Anabaptist ideas shaped the self-baptism itself is the real dispute; no vendored or repo-cited secondary work states either side, so I claim only contact and keep the prose's 'historians are divided' on influence.",
+    "Whitley's 1915 note is printed in the same vendored file; I list it as secondary with its file and quote, as the era-5 drafts did for editors' introductions."
+   ],
+   "change_reason": "New. Replaces the unspecified 'contact disputed' with the one contact the vendored sources show."
+  },
+  {
+   "id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "action": "new",
+   "from": "the-baptists",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "In 1792 Baptist ministers at Kettering formed a society to spread the gospel among the heathen. It sent William Carey and John Thomas to India, with a letter to Indian believers Thomas had known. The churches that grew from that mission appear only in later records we do not yet hold.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "29336-29339",
+     "locus": "Register, founding of the Baptist mission society",
+     "quote": "Refolutions at a meeting of Minifters of the Particular Baptift denomination, held at Kettering , in Northampton /hire > Oct. 2, 1792.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, letter of the society at Leicester",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "40627-40631",
+     "locus": "Register, letter 'to Ram Ram Boshoo, Parbotee'",
+     "quote": "The Society for propagating the Gofpel among the Heathen, to Ram Ram Bojhoo , Parbotee , and all in India , who call upon the Name of Jefus Chritt :our Lord, both their’s and our’s.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, letter of the society at Leicester",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "40660-40662",
+     "locus": "Register, letter 'to Ram Ram Boshoo, Parbotee'",
+     "quote": "For thefe puroofes we recommend to you our much efteemed brethren Thomas and Carey",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists relationsSummary ('From the Baptists came William Carey's missionary movement'), longDescription and why (Carey's society and his sailing for India); the Serampore entry is the nearest match for Carey's mission",
+   "wants": [
+    "Periodical Accounts relative to the Baptist Missionary Society (from 1800), for the first Serampore baptisms (Krishna Pal, 1800) and the Serampore church",
+    "Carey's and Ward's Serampore letters and journals in a public-domain edition"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Graded Inferential-Thin, not higher: the Register shows the society founded and sending Carey and Thomas to India with a letter to Indian believers, but nothing vendored shows the Serampore churches themselves, and no repo-cited secondary work covers them.",
+    "The receiving entry's own text names Pietist, Moravian, Methodist and Catholic lines, not the Baptists. The Baptist tie comes from the Baptist entry's text only.",
+    "The quotes keep the file's OCR exactly ('Chritt :our', 'puroofes', spaced commas)."
+   ],
+   "change_reason": "New. Carries the Carey clause at the level the vendored evidence allows."
+  },
+  {
+   "id": "the-baptists--the-black-church-in-america",
+   "action": "keep",
+   "from": "the-baptists",
+   "to": "the-black-church-in-america",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "George Liele was baptized in a Baptist church in Georgia, and its white members called him to preach. David George recalled that \"Brother Palmer formed us into a church\" at Silver Bluff. Historians treat such Black Baptist congregations as one root of the Black Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "26766-26767",
+     "locus": "Register, 'An account of George Liele'",
+     "quote": "the  fame  minifter,  the  Rev. Matthew  Moore,  baptized  me",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "26777-26780",
+     "locus": "Register, 'An account of George Liele'",
+     "quote": "the  white  brethren feeing  my  endeavours,  and  that  the  word  of  the  Lord  feemed to  be  bleffed,  gave  me  a  call  at  a  quarterly  meeting  to preach  before  the  congregation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, David George's narrative",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "37528-37530",
+     "locus": "Register, 'An account of the life of Mr. David George'",
+     "quote": "Bro¬ ther  Palmer  formed  us  into  a  church,  and  gave  us  the  Lord’s fuppei  at  Silver  Bluff.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Albert J. Raboteau, Slave Religion: The 'Invisible Institution' in the Antebellum South (Oxford University Press, 1978; updated 2004)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Milton C. Sernett (ed.), African American Religious History: A Documentary Witness (Duke University Press, 2nd ed. 1999)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-baptists relationsSummary ('the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America') and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Checked: all three primary quotes are verbatim in the Rippon file at the stated lines, and they show Liele baptized and called to preach in a Baptist church and David George's congregation formed at Silver Bluff. The two secondary works are already in the published link. Its verification_state stays named-not-rechecked because the 'one root' reading rests on the secondary works, which I did not re-read."
+   ],
+   "change_reason": "Kept unchanged after checking its quotes."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-baptists",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-baptists",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "John Bunyan was charged at Bedford for staying away from the parish church and for holding unlawful meetings. A new law of 1664 banned any religious meeting of more than four people outside Church of England practice. For three years the General Baptists could hold no open assembly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Bunyan, A Relation of the Imprisonment of Mr. John Bunyan (written 1660s; printed 1765), ed. John Brown (1907)",
+     "file": "cic/texts/bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt",
+     "lines": "5668-5673",
+     "locus": "Relation of the Imprisonment, his examination at the Bedford quarter sessions",
+     "quote": "That John Bunyan of the town of Bedford, labourer, being a person of such and such conditions, he hath (since such a time) devilishly and perniciously abstained from coming to church to hear divine service, and is a common upholder of several unlawful meetings and conventicles",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. T. Whitley, editor's note in Minutes of the General Assembly of the General Baptist Churches, vol. I (1909)",
+     "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+     "lines": "10246-10249",
+     "locus": "Notes on the Standard Confession and the assemblies of the 1660s",
+     "quote": "in 1664 a new Conventicle Act was passed, strengthening the Act of Elizabeth, and rendering all religious meetings of more than four people illegal, unless they were in accordance with the practice of the Church of England.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. T. Whitley, editor's note in Minutes of the General Assembly of the General Baptist Churches, vol. I (1909)",
+     "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+     "lines": "10249-10250",
+     "locus": "Notes on the Standard Confession and the assemblies of the 1660s",
+     "quote": "During the three years for which it was passed, no Assembly could meet openly, so probably none was held till 1668.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists longDescription ('They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol')",
+   "major": true,
+   "outcome": "A law of 1664 banned any religious meeting of more than four people that did not follow the ways of the Church of England.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+    "lines": "10246-10249",
+    "text": "in 1664 a new Conventicle Act was passed, strengthening the Act of Elizabeth, and rendering all religious meetings of more than four people illegal, unless they were in accordance with the practice of the Church of England."
+   },
+   "wants": [
+    "The Conventicle Act of 1664 (16 Car. II c. 4) and the Act of 1670, from Statutes of the Realm vol. V, to replace Whitley's summary with the statute's own words",
+    "The Bedford church book (Bunyan Meeting), in a public-domain edition, for the congregation's own record of the persecution"
+   ],
+   "drafter_flags": [
+    "The acts against Bunyan and the 1664 Act were the restored state's, enforcing the restored church's worship. The link treats them as the Restoration church's act, as that entry's own text does for the Act of Uniformity. A reviewer may prefer to say this is the church-state settlement, not the church alone.",
+    "Bunyan's own place among the Baptists is debated (his Bedford church did not make baptism a test of membership); the census counts him a Baptist and the corpus map places Grace Abounding with them. Whitley's note on the General Baptists carries the Baptist side independently of Bunyan.",
+    "The outcome evidence is Whitley's 1909 editorial summary of the Act, not the statute. It is printed in a vendored file and is a source on this link, but it is secondary; flagged for the reviewer's judgment on 'major'."
+   ],
+   "change_reason": "New. Documents the persecution the Baptist text names."
+  },
+  {
+   "id": "the-evangelical-awakening-in-new-england--the-baptists",
+   "action": "new",
+   "from": "the-evangelical-awakening-in-new-england",
+   "to": "the-baptists",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1792 the Baptist William Carey pleaded for a mission to the heathen. He praised David Brainerd's work among the Indians from about 1743. He named Brainerd, with Paul and Elliot of New England, as a model for missionaries.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry into the Obligations of Christians (1792)",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "772-775",
+     "locus": "Enquiry, section III, the success of former undertakings",
+     "quote": "About the year 1743, Mr. David Brainerd was sent a missionary to some more Indians, where he preached, and prayed, and after some time an extraordinary work of conversion was wrought",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry into the Obligations of Christians (1792)",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "1716-1719",
+     "locus": "Enquiry, section V, the duty of Christians",
+     "quote": "what an _harvest_ must await such characters as PAUL, and ELLIOT, and BRAINERD, and others, who have given themselves wholly to the work of the Lord.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-evangelical-awakening-in-new-england legacy ('the missionary societies ... traced their impulse back to it ... through Edwards's Life of David Brainerd'); the-baptists longDescription and legacy (Carey's society)",
+   "major": false,
+   "minor_reason": "Carey takes up Brainerd's example in a book; no body acts on it in these sources.",
+   "wants": [
+    "Jonathan Edwards, An Humble Attempt to promote explicit Agreement and visible Union of God's People in extraordinary Prayer (1747), and Sutcliff's 1789 Northampton reprint, for the Baptist prayer call that Carey's footnote ('Edwards on Prayer, ... lately re-printed by Mr. Sutcliffe') cites"
+   ],
+   "drafter_flags": [
+    "Carey also has a footnote 'See Edwards on Prayer, on this subject, lately re-printed by Mr. Sutcliffe' (lines 279-280). It does not say which Edwards, so I left it out of the sources and the note; the Humble Attempt is wanted.",
+    "Carey names Brainerd, not Edwards's Life of Brainerd. The note says only what Carey says.",
+    "The Baptist entry's text also says the American Baptists 'grew explosively out of the awakening' (the Separates). No vendored or repo-cited source carries that; it is qualified in prose changes 2, 3 and 5, not linked."
+   ],
+   "change_reason": "New. The one documented strand of the awakening's influence on the Baptists."
+  },
+  {
+   "id": "the-methodist-revival--the-evangelical-awakening-in-new-england",
+   "action": "new",
+   "from": "the-methodist-revival",
+   "to": "the-evangelical-awakening-in-new-england",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1743 Charles Chauncy of Boston, a critic of the revival, wrote that preaching from town to town began, in those parts, with George Whitefield. Whitefield's own journal tells how he preached at Northampton. Jonathan Edwards wept the whole time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Charles Chauncy, Seasonable Thoughts on the State of Religion in New-England (1743)",
+     "file": "cic/texts/chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt",
+     "lines": "4353-4355",
+     "locus": "Part I, on itinerant preaching",
+     "quote": "I fhall firjt mention Itinerant Preaching. This had its Rife ( at left in thefe Parts ) from Mr. WHITEFIELD ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Whitefield, The Two First Parts of his Life, with his Journals (1756)",
+     "file": "cic/texts/whitefield_two-first-parts-of-his-life-with-journals_1756.txt",
+     "lines": "17797-17799",
+     "locus": "Journal, Northampton, Sunday 19 October",
+     "quote": "Preached this Morning good Mr. Edwards wept during the whole Time of Exercife.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-evangelical-awakening-in-new-england longDescription ('When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a general one, with itinerants crossing parish lines')",
+   "major": false,
+   "minor_reason": "A practice taken up across parishes; no body or law changed a rule in these sources.",
+   "wants": [],
+   "drafter_flags": [
+    "Whitefield is named in the Methodist entry's own text as Wesley's fellow field preacher; I took him as that movement's. The awakening dossier records the open portfolio question whether Britain and New England are one tradition or two; if ruled one, this link would need review.",
+    "Chauncy writes as a hostile witness, which strengthens the point: even a critic credits Whitefield with starting itinerancy 'in these parts'.",
+    "OCR quirks kept exactly ('firjt', 'at left', 'Ocl.')."
+   ],
+   "change_reason": "New. Documents the Whitefield claim in the awakening's own description."
+  },
+  {
+   "id": "puritanism--the-evangelical-awakening-in-new-england",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-evangelical-awakening-in-new-england",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his 1746 book on the signs of true faith, Jonathan Edwards quotes Thomas Shepard again and again. Shepard was a minister at Cambridge in early New England. Edwards cites his Parable of the Ten Virgins by part and page.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonathan Edwards, A Treatise concerning Religious Affections (Boston, 1746)",
+     "file": "cic/texts/edwards_treatise-concerning-religious-affections_kneeland1746.txt",
+     "lines": "10143",
+     "locus": "Religious Affections, Part III",
+     "quote": "Mr. Shepard, in his Parable of the ten Virgins, Part II. p. 15. ſays,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-evangelical-awakening-in-new-england relationsSummary ('grew out of New England Puritanism'); puritanism legacy ('its insistence on personal conversion runs directly into the evangelical revivals of the following century')",
+   "major": false,
+   "minor_reason": "A teacher's books followed by a later writer; no institutional act.",
+   "wants": [
+    "Thomas Shepard, The Parable of the Ten Virgins (1660), in a vendored edition, to set beside Edwards's citations"
+   ],
+   "drafter_flags": [
+    "Edwards cites Shepard by name at least ten times in the vendored Affections (lines 3924, 5222, 5578, 5644, 5685, 6542, 6717, 9527, 10143 and others); one clean citation is quoted.",
+    "Shepard belongs to the puritanism entry by the Library's own corpus map (shepard_autobiography_adams1832.txt). The note's 'minister at Cambridge in early New England' rests on that file's title.",
+    "'Grew out of' (descent) is not graded: Edwards's Northampton church and Stoddard's ministry (Faithful Narrative, lines 1098-1225) are post-1660 New England, outside the puritanism entry's dates. Influence is what the evidence shows."
+   ],
+   "change_reason": "New. Documents the Puritan line the awakening's text names, as influence."
+  },
+  {
+   "id": "english-old-dissent--the-evangelical-awakening-in-new-england",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "the-evangelical-awakening-in-new-england",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Early in 1742, at the height of the revival in Northampton, Sarah Edwards heard a friend read a hymn by Isaac Watts. She wrote that it moved her so strongly she leaped from her chair. Words from another of his hymns had moved her too.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sarah Edwards, narrative of 1742, in S. E. Dwight, Memoir of President Edwards (1830)",
+     "file": "cic/texts/edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+     "lines": "9324-9327",
+     "locus": "Memoir, Mrs. Edwards's narrative",
+     "quote": "Mr. Buell then read a melting hymn of Dr. Watts,^ concerning the loveliness of Christ, the enjoyments and employments of heaven, and the christian's earnest desire of heavenly things",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sarah Edwards, narrative of 1742, in S. E. Dwight, Memoir of President Edwards (1830)",
+     "file": "cic/texts/edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+     "lines": "9282",
+     "locus": "Memoir, Mrs. Edwards's narrative",
+     "quote": "words of one of Dr. Watts's Hosannas powerfully affected me",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-old-dissent legacy ('Watts's and Doddridge's hymns are sung every week in churches that have never heard of Old Dissent'); longDescription (Watts's hymns)",
+   "major": false,
+   "minor_reason": "Hymns taken up by readers elsewhere; no institutional act.",
+   "wants": [
+    "Sarah Edwards's narrative as first printed (in Edwards, Some Thoughts concerning the present Revival, 1742, unnamed), to check the Watts passages against the 1742 text"
+   ],
+   "drafter_flags": [
+    "Dwight prints Sarah Edwards's own first-person narrative, dated from 'Tuesday night, Jan. 19, 1742' (line 9016). The footnote mark '^' after 'Watts,' is the file's and is kept in the quote.",
+    "Edwards's Some Thoughts (1742, lines 7631-7660) defends singing 'Hymns of humane Composure' without naming Watts; not cited."
+   ],
+   "change_reason": "New. Documents Watts's hymns at the heart of the Northampton revival."
+  },
+  {
+   "id": "the-evangelical-awakening-in-new-england--english-old-dissent",
+   "action": "new",
+   "from": "the-evangelical-awakening-in-new-england",
+   "to": "english-old-dissent",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Two London ministers, Isaac Watts and John Guyse, read Jonathan Edwards's first short report of the Northampton revival. They told its story to large crowds. Then they printed his full account in London in 1737, with their own preface.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonathan Edwards, A Faithful Narrative of the Surprizing Work of God (London, 1737)",
+     "file": "cic/texts/edwards_faithful-narrative-of-the-surprising-work-of-god_1737.txt",
+     "lines": "8790-8793",
+     "locus": "Faithful Narrative, Edwards's closing remarks",
+     "quote": "When J firſt heard of the Notice the Rev*. Dr. Watts and Dr. Guy/e took of God's Mercies to us, I took occaſion to inform our. Congregation of it",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "S. E. Dwight, Memoir of President Edwards (1830)",
+     "file": "cic/texts/edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+     "lines": "7246-7249",
+     "locus": "Memoir, on the Narrative of 1736-37",
+     "quote": "forwarded to the Rev. Dr. Watts and the Rev. Dr. Guyse, in London, those gentlemen discovered so much inte- rest in the facts recited, detailing them on several occasions before large assemblies",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "S. E. Dwight, Memoir of President Edwards (1830)",
+     "file": "cic/texts/edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+     "lines": "7251-7253",
+     "locus": "Memoir, on the Narrative of 1736-37",
+     "quote": "This was published in London, under the title of \" Narrative of Surprising Conversions,\" with an Introduction by Dr. Watts and Dr. Guyse",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-old-dissent relationsSummary and longDescription ('the Congregationalists ... were reinvigorated by the eighteenth-century revival', rewritten in prose changes 7 and 8)",
+   "major": false,
+   "minor_reason": "London ministers took up and published a text; no institutional act.",
+   "wants": [
+    "A clean edition of the 1737 London Faithful Narrative with the Watts-Guyse preface (the vendored scan's preface is garbled and its signatures read 'JOHN « GUYSED. D.' and 'IsAAc N AT TS')"
+   ],
+   "drafter_flags": [
+    "The 1737 file's preface (lines 238-1000) is by Watts and Guyse but its OCR is scrambled; I quoted Edwards's own closing remarks, which name them, and Dwight's 1830 memoir for the London publication.",
+    "Watts and Guyse were London Independents (Congregationalists); the Old Dissent entry covers them. Dwight is a descendant and editor, so his account is listed as secondary.",
+    "This and the reverse link on the same pair are separately evidenced: Old Dissent's hymns in Northampton, and Northampton's narrative in London."
+   ],
+   "change_reason": "New. Carries the 'revival' clause of the Old Dissent text with the documented case."
+  },
+  {
+   "id": "english-old-dissent--the-methodist-revival",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "the-methodist-revival",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In September 1745 John Wesley called on Philip Doddridge at his academy in Northampton, England. It was the hour when Doddridge taught the young men in his care, and he asked Wesley to take his place.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. III (1909)",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "12206-12207",
+     "locus": "Journal, 9-10 September 1745",
+     "quote": "I left London, and the next morning called on Dr. Doddridge,3 at Northampton.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. III (1909)",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "12207-12210",
+     "locus": "Journal, 9-10 September 1745",
+     "quote": "It was about the hour when he was accustomed to expound a portion of Scripture to the young gentlemen under his care. He desired me to take his place.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-old-dissent relationsSummary and longDescription ('reinvigorated by the eighteenth-century revival', rewritten in prose changes 7 and 8); legacy (Doddridge)",
+   "major": false,
+   "minor_reason": "A single visit; no institutional act.",
+   "wants": [
+    "Doddridge's Correspondence and Diary (ed. Humphreys, 1829-31), for Doddridge's side of his dealings with Wesley and Whitefield"
+   ],
+   "drafter_flags": [
+    "The '3' after 'Doddridge,' is Curnock's footnote mark, kept in the quote. Curnock's footnote (lines 12229-12231) adds that Doddridge was then 'almost the only leading Dissenter who maintained friendly relations with Wesley', which cuts against any broad claim that Dissent as a whole was 'reinvigorated' by Methodism; the prose now says only what the evidence shows.",
+    "The month comes from the journal's running head ('Sept. 1745', line 12139)."
+   ],
+   "change_reason": "New. Documents one Old Dissent meeting with the Methodist revival."
+  },
+  {
+   "id": "english-old-dissent--restoration-georgian-church-of-england",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "restoration-georgian-church-of-england",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1662 set a deadline: St Bartholomew's Day. A minister who had not accepted the Prayer Book and a bishop's ordination by then would lose his post. Richard Baxter wrote that when the day came, about 1,800 or 2,000 ministers were cast out.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), as printed in the Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "1015-1018",
+     "locus": "Act of Uniformity, clause on episcopal ordination",
+     "quote": "from and after the Feaft of Saint Bartholomew, which (hall be in the Year of our Lord, One thoufand fix hundred fixty and two, no Perfon, who now is Incumbent",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), as printed in the Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "1028-1030",
+     "locus": "Act of Uniformity, clause on episcopal ordination",
+     "quote": "and all his Ecclefiaftical Promotions (hall be void, as if he were naturally dead.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae, abridged by J. M. Lloyd Thomas (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10801-10803",
+     "locus": "Reliquiae, Part II, the Act of Uniformity",
+     "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-old-dissent relationsSummary ('ejected from the Church of England in 1662'), longDescription and why; restoration-georgian-church-of-england relationsSummary and longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Both sides are vendored: the Act itself (the church-state side) and Baxter, the leading ejected minister. The Act's quotes keep the 1706 printing's OCR exactly ('(hall', 'Feaft').",
+    "Baxter gives 1,800 to 2,000; the census says 'roughly two thousand'. The note gives Baxter's figure."
+   ],
+   "change_reason": "New. Documents the 1662 rupture both entries name."
+  },
+  {
+   "id": "english-old-dissent--the-baptists",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "the-baptists",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1719 Dissenting ministers met at Salters' Hall in London over a dispute about tests of faith. A pamphlet of that year says one speaker asked if they had come to be contradicted by 'Anabaptist teachers'. Some of the other side, it explains, were Baptists.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "[John Shute Barrington], An Account of the Late Proceedings of the Dissenting Ministers at Salters-Hall (3rd ed., 1719)",
+     "file": "cic/texts/barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719.txt",
+     "lines": "464-468",
+     "locus": "Account, on the meeting of February-March 1719",
+     "quote": "did another allo atk, Ve- ther they came there tg be comraditted by Anabaptiſt Teachers £ Becauic, it ſeems, ſome of the oppotite Side were uf that Perſwalion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-old-dissent relationsSummary ('Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent'); Salters' Hall",
+   "major": false,
+   "minor_reason": "A shared meeting; the meeting had no authority to bind churches, and no split or rule change is shown in this source.",
+   "wants": [
+    "The subscribing side's account of Salters' Hall (e.g. An Authentick Account of Several Things done and agreed upon by the Dissenting Ministers lately assembled at Salters-Hall, 1719) and the lists of subscribers and non-subscribers, which name the Baptist ministers on each side"
+   ],
+   "drafter_flags": [
+    "The OCR of this 1719 microfilm is poor; the quote is copied exactly as the file reads ('allo atk, Ve- ther', 'tg be comraditted', 'Becauic'). It says: 'did another also ask, Whether they came there to be contradicted by Anabaptist Teachers? Because, it seems, some of the opposite Side were of that Persuasion.'",
+    "The pamphlet is addressed to the Baptist minister John Gale (title, line 1), which further shows Baptists inside the Salters' Hall exchange.",
+    "The Quakers clause in the same sentence is a classification, not a relationship; see dispositions."
+   ],
+   "change_reason": "New. Documents the Baptist side of the 'wider family of English Dissent' with a shared event."
+  },
+  {
+   "id": "the-methodist-revival--the-welsh-revival-tradition",
+   "action": "new",
+   "from": "the-methodist-revival",
+   "to": "the-welsh-revival-tradition",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Howell Harris, a leader of the Welsh revival, first met George Whitefield at Cardiff in March 1739. The Welsh Methodists later wrote that God raised up Harris and Daniel Rowland at the same time as Whitefield and the Wesleys.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Howell Harris, A Brief Account of the Life of Howell Harris (Trevecka, 1791)",
+     "file": "cic/texts/harris-howell_brief-account-of-the-life-with-letters_1791.txt",
+     "lines": "1205-1207",
+     "locus": "Brief Account, the journey through South Wales to Cardiff",
+     "quote": "where I was much refreflied by the fight of Mr^ Whitefield — this was th? firft time I met him to con« Vjerfe face to face",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The History, Constitution, Rules of Discipline, and Confession of Faith of the Calvinistic Methodists in Wales (2nd ed., 1834)",
+     "file": "cic/texts/calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt",
+     "lines": "592-595",
+     "locus": "History, quoting Joseph Williams's diary of 1746",
+     "quote": "raised up the Rev. Daniel Rowlands, in Cardiganshire, and Mr. Howel Harris, in Brecknockshire, at the same time as Whitefield and the Wesleys appeared in England",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-welsh-revival-tradition relationsSummary ('Sibling of Methodism'); longDescription ('began independently of England')",
+   "major": false,
+   "minor_reason": "A meeting of leaders; no institutional act in these sources.",
+   "wants": [
+    "Whitefield's Journal for March 1739 (Cardiff), already listed among the Methodist dossier's leads, for Whitefield's own side of the meeting Harris footnotes"
+   ],
+   "drafter_flags": [
+    "Harris's footnote (lines 1208-1215) quotes Whitefield's journal for Cardiff, 'March 7, and 8, 1739'; the date in the note comes from there. OCR kept exactly.",
+    "The 1834 History's sentence is a diary entry of Joseph Williams of Kidderminster (1746) quoted by the Welsh connexion; listed as secondary. It supports 'began at the same time', the sibling claim, not influence either way.",
+    "Possible duplicate: the era-8 group drafting the Methodist revival may draft the same pair from its own text."
+   ],
+   "change_reason": "New. Documents the 'sibling' claim as contact between parallel movements."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-welsh-revival-tradition",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-welsh-revival-tradition",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Many Welsh Calvinistic Methodists did not want their children baptized in the Church of England. So in 1811 the movement ordained its own preachers to give the sacraments. It ordained eight in North Wales in June and thirteen in the South in August.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The History, Constitution, Rules of Discipline, and Confession of Faith of the Calvinistic Methodists in Wales (2nd ed., 1834)",
+     "file": "cic/texts/calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt",
+     "lines": "1059-1061",
+     "locus": "History, the ordinations of 1811 (Thomas Charles's considerations)",
+     "quote": "in many of our Societies, there are several very unwilling that their children should be baptized in the Church of England by its ministers",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The History, Constitution, Rules of Discipline, and Confession of Faith of the Calvinistic Methodists in Wales (2nd ed., 1834)",
+     "file": "cic/texts/calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt",
+     "lines": "1096-1100",
+     "locus": "History, the ordinations of 1811",
+     "quote": "In .June, 1811, eight were therefore ordained in the form and manner described in the annexed Brief View, &c. And in August of the same year, thirteen were ordained in South Wales after the same manner.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-welsh-revival-tradition legacy ('It became a church: the Calvinistic Methodists ordained their own ministers in 1811')",
+   "wants": [
+    "A Church of England response to the 1811 ordinations (e.g. the bishops' or clergy's reaction, or the later Welsh church histories), so the rupture is shown from both sides"
+   ],
+   "drafter_flags": [
+    "Only the Welsh side is vendored. 'Broke with' asks ideally for both sides; graded Documented on the connexion's own dated record of ordaining outside the Church because members would not take its sacraments. A reviewer may prefer Widely Accepted pending the other side, but no repo-cited secondary work exists to support that grade.",
+    "The same History (lines 553-559) records William Williams leaving the Established Church in 1743 after the bishop refused to ordain him priest; not used, since the entry's text names 1811."
+   ],
+   "change_reason": "New. Documents the separation the Welsh legacy names."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--early-american-unitarians-universalists",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "early-american-unitarians-universalists",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "King's Chapel in Boston was a Church of England congregation. In 1785, 'torn from that King and Church', it printed its own prayer book. It took most of the text from the Book of Common Prayer. But it left out the Gloria Patri, the old praise of Father, Son and Spirit, and it prayed to God the Father alone, through Christ.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Liturgy, collected principally from the Book of Common Prayer, for the use of the First Episcopal Church in Boston (1785)",
+     "file": "cic/texts/kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt",
+     "lines": "98-101",
+     "locus": "Preface",
+     "quote": "Being torn from that King and Church, the Society for whofe ufe this Liturgy is publilhed, think themfelves at liberty, and well juftified even by the declarations of the Church of England",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Liturgy, collected principally from the Book of Common Prayer, for the use of the First Episcopal Church in Boston (1785)",
+     "file": "cic/texts/kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt",
+     "lines": "165-170",
+     "locus": "Preface",
+     "quote": "The Gloria Patri, made and introduced into the Liturgy of the Church of Rome by the decree of Pope Damafiis, towards the latter part of the fourth century, and adopted into the Book of Common Prayer, is not in this Liturgy.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-american-unitarians-universalists relationsSummary ('King's Chapel in Boston revised its prayer book to remove the Trinity'), longDescription and why ('an Anglican congregation left leaderless by the Revolution')",
+   "wants": [
+    "The Episcopal side: Bishop Seabury's and Bishop Provoost's refusal to ordain James Freeman (1787), and the congregation's own ordination of him, so the departure is shown from both sides"
+   ],
+   "drafter_flags": [
+    "Graded on one congregation: the first Unitarian church in America came out of a Church of England parish, by its own record. The movement's other root, inside New England Congregationalism, has no census entry and is not claimed here.",
+    "The note glosses the Gloria Patri as 'the old praise of Father, Son and Spirit'; that is what the hymn says, not something the preface states.",
+    "Belsham's American Unitarianism (1815, vendored) prints Freeman's letters on King's Chapel to Theophilus Lindsey; that bears on the 'English precedent' clause, which has no census entry yet (see escalations)."
+   ],
+   "change_reason": "New. Documents the King's Chapel sentence as descent from the Church of England."
+  },
+  {
+   "id": "early-american-unitarians-universalists--american-unitarianism-universalism-consolidations",
+   "action": "new",
+   "from": "early-american-unitarians-universalists",
+   "to": "american-unitarianism-universalism-consolidations",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1803 a meeting of Universalists at Winchester, New Hampshire, agreed on a short statement of what they believed. A hundred years later their church marked the date with a book. It calls the Universalists of 1903 the heirs in spirit of the men of Winchester.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Winchester Centennial, 1803-1903 (Universalist Publishing House, 1903)",
+     "file": "cic/texts/universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt",
+     "lines": "214-215",
+     "locus": "Introduction",
+     "quote": "is itself a contribution to the future history of the Universalist Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Winchester Centennial, 1803-1903 (Universalist Publishing House, 1903)",
+     "file": "cic/texts/universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt",
+     "lines": "218-220",
+     "locus": "Introduction",
+     "quote": "know something of the temper and spirit of the spiritual de- scendants of the Winchester Fathers after one hundred years of the Profession adopted in 1803.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-american-unitarians-universalists relationsSummary ('Both threads only became formal denominations later, with the American Unitarian Association founded in 1825'), legacy ('Both became denominations in the following decade')",
+   "wants": [
+    "The constitution and first annual report of the American Unitarian Association (1825-26), to document the Unitarian thread's continuity as well as the Universalist one"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Documents the Universalist thread only: the same convention's own church, a century on, calling itself the heirs of 1803. The Unitarian thread (King's Chapel to the AUA of 1825) has no vendored continuity text; Channing's 1819 Baltimore sermon is vendored but does not name King's Chapel or the earlier liberals. The census's own split of the two movements at 1815/1819 is a period split, which is what 'continued as' expresses."
+   ],
+   "change_reason": "New. The period-split continuation both entries' texts describe."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "old": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement. It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one. Through the Black and Native Christian writing it produced, it stands among the parent traditions of the Black Church in America.",
+   "new": "The awakening grew out of New England's Puritan churches. Jonathan Edwards built on their books. George Whitefield, the English Methodist preacher, made it normal to preach from town to town. It also reached the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia. Historians do not agree whether that was the same movement or another one. William Carey, who began the Baptist mission to India, held up its missionary David Brainerd as a model. Later American revivals and the Black Church may owe it a debt too. But no text we hold yet shows a direct tie.",
+   "reason": "Three claims corrected. 'Parent of later American revival culture' and 'among the parent traditions of the Black Church' have no vendored support and are now said plainly as possibilities. 'Parent of the missionary movement' is made concrete (Carey and Brainerd, documented). Whitefield's role (documented through Chauncy) is added because the text's own description names it. Puritan descent is kept as 'grew out of New England's Puritan churches'. The Tennents and Hanover sentence and its open question are kept. Rewritten whole for reading level.",
+   "fre_after": 62.3,
+   "fk_after": 7.8
+  },
+  {
+   "n": 1,
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "old": "It began in the winter of 1734-35 in Northampton, Massachusetts, where the town's minister, Jonathan Edwards, watched an ordinary Connecticut Valley congregation come apart and remake itself in a wave of conversions. And then did something unusual: he wrote down what had happened, case by case, including a young woman the town had thought beyond hope and a four-year-old girl. When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a general one, with itinerants crossing parish lines and crowds gathering in the open air. It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist. It also produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+   "new": "It began in the winter of 1734-35 in Northampton, Massachusetts. There the town's minister, Jonathan Edwards, watched an ordinary church in the Connecticut Valley come apart and remake itself in a wave of conversions. Then he did something unusual: he wrote down what had happened, case by case. His cases included a young woman the town had thought beyond hope and a four-year-old girl. The English preacher George Whitefield toured the colonies from 1739, and scattered local revivals became a general one. Preachers crossed parish lines, and crowds met in the open air. The awakening split New England's churches. The New Lights defended it. The Old Lights, led by Charles Chauncy of Boston, attacked it as 'enthusiasm', false claims to the Spirit, and disorder. Hundreds of Separate congregations broke away. Many may later have become Baptist, though no text we hold yet traces them. Black and Native Christians of its world also began to write. Among them were the poet Phillis Wheatley and the preacher Samson Occom.",
+   "reason": "Two claims qualified. 'A great many of them becoming Baptist' has no vendored or repo-cited source and is now a stated possibility. 'The first substantial body of Christian writing by Black and Native people in the colonies' is a superlative no source in hand states, and the published works (Occom 1772, Wheatley 1773) fall after the window; it now says Black and Native Christians of its world began to write, naming Wheatley and Occom. The sentence fragment 'And then did something unusual' is repaired. 'Enthusiasm' kept and glossed. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 61.6,
+   "fk_after": 7.9
+  },
+  {
+   "n": 2,
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "why",
+   "old": "When an ordinary Massachusetts congregation began converting in waves during the winter of 1734–35, its pastor Jonathan Edwards did something unusual: he wrote down what happened case by case, including a four-year-old girl and a young woman the town had thought beyond hope. The awakening split New England's churches between defenders and critics of the revival, and produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+   "new": "In the winter of 1734-35, people in an ordinary Massachusetts church began to turn to God in waves. Its pastor, Jonathan Edwards, did something unusual. He wrote down what happened case by case, including a four-year-old girl and a young woman the town had thought beyond hope. The awakening split New England's churches between those who stood up for the revival and those who attacked it. Black and Native Christians of its world also began to write. Among them were the poet Phillis Wheatley and the minister Samson Occom.",
+   "reason": "Same correction as the description for the Black and Native writing claim. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 65.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 3,
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "old": "It left no church of its own — the awakening ran through existing Congregational parishes and broke some of them — but it reshaped American religion permanently. It made the revival meeting and the itinerant preacher normal instruments, filled the Baptist churches with Separate converts, and produced in Edwards the most substantial theologian America has yet made, still argued over three centuries later. It seeded the first generation of Black and Native Christian writing in North America. And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+   "new": "It left no church of its own. The awakening ran through the old parish churches and broke some of them. But it reshaped American religion for good. It made the revival meeting and the traveling preacher normal tools of church life. The Separate congregations it threw off may have filled many Baptist churches, though no text we hold yet shows it. In Edwards it gave America its most substantial theologian, still argued over three centuries later. Black and Native Christians of its world began to write. And the missionary movement looked back to it. In 1792 William Carey, pleading for a Baptist mission, held up David Brainerd as a model. Edwards had written Brainerd's life from his diary.",
+   "reason": "Three claims corrected. 'Filled the Baptist churches with Separate converts' is now a stated possibility. 'The missionary societies of the following century traced their impulse back to it, often explicitly' is reduced to the documented case: Carey in 1792 holding up Brainerd. 'Seeded the first generation of Black and Native Christian writing' is reduced to 'began to write'. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 65.5,
+   "fk_after": 7.0
+  },
+  {
+   "n": 4,
+   "movement": "the-baptists",
+   "field": "relationsSummary",
+   "old": "The Baptists grew out of Puritan-Separatist ferment in England. They arrived at Anabaptist-like convictions about believer's baptism largely on their own — historians are divided on how much direct contact there was between the two movements. From the Baptists came William Carey's missionary movement and the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America.",
+   "new": "The Baptists grew out of Puritan and Separatist ferment in England. In 1609 John Smyth wrote that his people had moved from Puritanism to Separatism, and then to the baptism of believers. They seem to have reached that belief largely on their own. Historians are divided on how much the Anabaptists shaped it. Soon after, Smyth and his followers asked to join a Mennonite church in Amsterdam. From the Baptists came William Carey's mission and the Black Baptist churches. Those churches in turn became one of the founding traditions of the Black Church in America.",
+   "reason": "The contact sentence was wrong in shape: contact is documented (Smyth's application to the Waterlander Mennonites), while the dispute is over influence on the 1609 baptism. The two are now separated. Smyth's own 1609 statement of the Puritan-Separatist descent is added. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 60.9,
+   "fk_after": 8.1
+  },
+  {
+   "n": 5,
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "old": "In 1609 an exiled English congregation in Amsterdam concluded that baptism belonged to believers who could profess faith for themselves, and its pastor John Smyth baptized himself and then the rest — the beginning of the English Baptists. Two streams developed, General Baptists holding that Christ died for all and Particular Baptists holding to a Calvinist election, and both organized as gathered churches. Bodies of ordinary people who covenanted together, chose their own ministers, disciplined their own members and wrote it all down in minute books, week after week. They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol for preaching without a license and wrote Grace Abounding there. And they became one of the strongest voices in English for liberty of conscience. In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+   "new": "In 1609 an exiled English congregation in Amsterdam decided that baptism belonged to believers who could profess faith for themselves. Its pastor, John Smyth, baptized himself and then the rest. That was the start of the English Baptists. Two streams grew up. General Baptists held that Christ died for all. Particular Baptists held, with Calvin, that God had chosen who would be saved. Both formed gathered churches: bodies of ordinary people who made a covenant together and chose their own ministers. They disciplined their own members and wrote it all down in minute books, week after week. They were persecuted hard under the Restoration. John Bunyan spent twelve years in Bedford jail for preaching without a license and wrote Grace Abounding there. They became one of the strongest voices in English for freedom of conscience. In America they grew fast late in the eighteenth century. The awakening may have fed them many converts, though no text we hold yet shows it. The movement turned outward in 1792. That year a shoemaker named William Carey persuaded a small group of ministers to found a mission society. Then he sailed for India himself.",
+   "reason": "'In America they grew explosively out of the awakening' has no vendored source for the tie to the awakening (Rippon shows the growth, not its origin); qualified with the reason. Rewritten whole for reading level (it scored below the floor); every other fact kept. 'Gaol' given its American spelling.",
+   "fre_after": 63.2,
+   "fk_after": 7.4
+  },
+  {
+   "n": 6,
+   "movement": "the-baptists",
+   "field": "legacy",
+   "old": "Baptists are now one of the largest Protestant families in the world. The tradition's argument that no magistrate has authority over belief passed into Rhode Island's founding under Roger Williams and, through a long line of Baptist petitioning, into the American constitutional settlement on religion. Carey's society opened the era of Protestant foreign missions and was quickly imitated across the denominations. And the Black Baptist churches founded by Liele, George and their successors became one of the central institutions of African American life, and the ground from which the civil rights movement later grew.",
+   "new": "Baptists are now one of the largest Protestant families in the world. The tradition held that no ruler has power over what people believe. That idea passed into the founding of Rhode Island under Roger Williams. Through many years of Baptist pleas to the state, it also shaped how the American constitution treats religion. Carey's was not the first Protestant mission. Carey himself named the Danes at Tranquebar and the Moravians before him. But his society sent Carey and John Thomas to India, and Baptist work abroad grew from there. The Black Baptist churches begun by Liele, George and those who came after became a pillar of Black life in America. They were also the ground from which the civil rights movement later grew.",
+   "reason": "'Carey's society opened the era of Protestant foreign missions and was quickly imitated across the denominations' is contradicted by Carey's own Enquiry, which names the Danish mission at Tranquebar and the Moravians before him, and the imitation has no vendored source. Rewritten to what the texts show. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 61.9,
+   "fk_after": 8.1
+  },
+  {
+   "n": 7,
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "old": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival. Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+   "new": "About two thousand ministers were put out of the Church of England in 1662. They built a lasting tradition. It gave England its own schools, the dissenting academies. It also gave Isaac Watts, who changed how English churches sang. In 1719 its ministers met at Salters' Hall in London. After that, many Presbyterian churches drifted away from the Trinity. They moved first toward Arian and then toward Unitarian views. The Congregationalists kept the old faith and took up the new revival. Watts helped print Jonathan Edwards's story of the awakening in New England. Philip Doddridge asked John Wesley to teach his students. With the Quakers and the Baptists, it makes up the wider family of English Dissent. Baptist ministers sat at Salters' Hall too.",
+   "reason": "'Reinvigorated by the eighteenth-century revival' is a broad claim no source in hand makes; Curnock even notes Doddridge was almost the only leading Dissenter friendly to Wesley. Rewritten to the documented contacts (Watts and Edwards's narrative; Doddridge and Wesley) and the Baptist presence at Salters' Hall. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 61.3,
+   "fk_after": 7.2
+  },
+  {
+   "n": 8,
+   "movement": "english-old-dissent",
+   "field": "longDescription",
+   "old": "On St Bartholomew's Day 1662 about two thousand ministers who could not accept the restored Prayer Book and episcopal ordination were put out of the Church of England, and English Presbyterianism and Congregationalism became permanently separate traditions rather than parties inside one church. Barred from the universities, they built their own: the dissenting academies, which taught mathematics, science and modern languages when Oxford and Cambridge largely did not, and educated a striking share of the country's scientists, manufacturers and reformers. Their other great contribution was sung. Isaac Watts, a Congregational minister, broke the convention that only the Psalms could be sung in worship and wrote hymns instead, which is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'. The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+   "new": "On St Bartholomew's Day 1662, about two thousand ministers were put out of the Church of England. They could not accept the restored Prayer Book, or the rule that only bishops could ordain. From then on, Presbyterians and Congregationalists were churches of their own, not parties inside one church. Barred from the universities, they built their own schools. These dissenting academies taught math, science and modern languages when Oxford and Cambridge mostly did not. They trained a striking share of the nation's scientists, factory owners and reformers. Their other great gift was sung. Isaac Watts, a Congregational minister, broke the rule that only the Psalms could be sung in worship, and wrote hymns instead. That is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'. The tradition also had a fault line. At Salters' Hall in London in 1719, most of the ministers would not make others sign a statement on the Trinity. Over the next century many Presbyterian churches moved away from the Trinity. They went first toward Arian and then toward Unitarian views. The Congregationalists kept the old faith and took up the revival of the 1730s and 1740s.",
+   "reason": "Same 'reinvigorated' correction as the summary, as 'took up the revival of the 1730s and 1740s'. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 62.7,
+   "fk_after": 8.0
+  },
+  {
+   "n": 9,
+   "movement": "the-welsh-revival-tradition",
+   "field": "relationsSummary",
+   "old": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+   "new": "A sister movement to English Methodism. It began at the same time, kept in touch with its leaders, and ran in its own language. Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but no text we hold yet traces the line.",
+   "reason": "'Sibling of Methodism' kept as 'a sister movement', now with what the texts show (parallel beginnings, contact between leaders). 'Parent of the 1904 revival' has no vendored support, and the 1904 entry's own text stresses independent beginnings; qualified with the reason. The old text was a fragment list; now full sentences.",
+   "fre_after": 77.2,
+   "fk_after": 6.3
+  },
+  {
+   "n": 10,
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "old": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half. Its Sunday schools taught a great part of the nation to read Welsh, which is one reason the language came through industrialization alive. And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+   "new": "It became a church. The Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales. The revival's wider effect made Nonconformity, the religion of the chapels, and not the established church, the ordinary religion of Wales for a century and a half. Its Sunday schools taught a great part of the nation to read Welsh. That is one reason the language came through the age of mines and mills alive. The singing it created may run on to the revival of 1904-05 and into Welsh choral music. But no text we hold yet traces that line.",
+   "reason": "'The singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture' asserted ties no source shows; qualified with the reason. Rewritten whole for reading level; every other fact kept.",
+   "fre_after": 65.4,
+   "fk_after": 7.7
+  }
+ ],
+ "wants": [
+  "Thomas Helwys, A Declaration of Faith (1611) and A Short Declaration of the Mistery of Iniquity (1612) in a clean edition, for the Helwys side of the same passage out of Separatism",
+  "The Waterlander church's own minutes or replies on the English applicants (Doopsgezinde archives, Amsterdam), and Hans de Ries's correspondence, to show the Mennonite side of the contact",
+  "W. H. Burgess, John Smith the Se-Baptist, Thomas Helwys, and the first Baptist church in England (1911), already listed as a lead in the Baptist source dossier, for a secondary account of the contact question",
+  "Periodical Accounts relative to the Baptist Missionary Society (from 1800), for the first Serampore baptisms (Krishna Pal, 1800) and the Serampore church",
+  "Carey's and Ward's Serampore letters and journals in a public-domain edition",
+  "The Conventicle Act of 1664 (16 Car. II c. 4) and the Act of 1670, from Statutes of the Realm vol. V, to replace Whitley's summary with the statute's own words",
+  "The Bedford church book (Bunyan Meeting), in a public-domain edition, for the congregation's own record of the persecution",
+  "Jonathan Edwards, An Humble Attempt to promote explicit Agreement and visible Union of God's People in extraordinary Prayer (1747), and Sutcliff's 1789 Northampton reprint, for the Baptist prayer call that Carey's footnote ('Edwards on Prayer, ... lately re-printed by Mr. Sutcliffe') cites",
+  "Thomas Shepard, The Parable of the Ten Virgins (1660), in a vendored edition, to set beside Edwards's citations",
+  "Sarah Edwards's narrative as first printed (in Edwards, Some Thoughts concerning the present Revival, 1742, unnamed), to check the Watts passages against the 1742 text",
+  "A clean edition of the 1737 London Faithful Narrative with the Watts-Guyse preface (the vendored scan's preface is garbled and its signatures read 'JOHN « GUYSED. D.' and 'IsAAc N AT TS')",
+  "Doddridge's Correspondence and Diary (ed. Humphreys, 1829-31), for Doddridge's side of his dealings with Wesley and Whitefield",
+  "The subscribing side's account of Salters' Hall (e.g. An Authentick Account of Several Things done and agreed upon by the Dissenting Ministers lately assembled at Salters-Hall, 1719) and the lists of subscribers and non-subscribers, which name the Baptist ministers on each side",
+  "Whitefield's Journal for March 1739 (Cardiff), already listed among the Methodist dossier's leads, for Whitefield's own side of the meeting Harris footnotes",
+  "A Church of England response to the 1811 ordinations (e.g. the bishops' or clergy's reaction, or the later Welsh church histories), so the rupture is shown from both sides",
+  "The Episcopal side: Bishop Seabury's and Bishop Provoost's refusal to ordain James Freeman (1787), and the congregation's own ordination of him, so the departure is shown from both sides",
+  "The constitution and first annual report of the American Unitarian Association (1825-26), to document the Unitarian thread's continuity as well as the Universalist one",
+  "Isaac Backus, A History of New-England, with particular reference to the Denomination of Christians called Baptists (1777-96), for the Separates who became Baptists; would let the awakening-to-Baptist growth claim be linked",
+  "A Second Great Awakening text that names Edwards, Whitefield or the 1740s revival (e.g. Finney's Lectures on Revivals of Religion, 1835), to test 'parent of later American revival culture'",
+  "W. T. Stead, The Revival in the West (1905), or the Western Mail's 1904-05 reports, to test the Welsh revival's tie to the hymns and habits of 1735-1815",
+  "Thomas Charles's own account of the Welsh Sunday schools (in Jones's Cofiant, 1816, vendored in Welsh only) in English, or a public-domain English life of Charles, for the Sunday-school literacy claim"
+ ],
+ "escalations": [
+  "Portfolio ruling needed (cross-world): the 'English Unitarian precedent' (Essex Street Chapel, Lindsey, Belsham) is documented in vendored texts as shaping King's Chapel (its 1785 preface credits Lindsey's reformed Prayer Book; Belsham 1815 prints Freeman's letters to Lindsey), but no census entry owns English Unitarianism, and the corpus map marks Essex Street 'needs-ruling' between Old Dissent and others. If Essex Street is ruled part of english-old-dissent, a Documented english-old-dissent -> early-american-unitarians-universalists 'influenced' link can be drafted at once. Left as no-entry until then.",
+  "Open ruling, not new: several non-relationship facts in these entries have no vendored source (Welsh Sunday schools teaching the nation to read; Nonconformity as Wales's ordinary religion; the dissenting academies' share of scientists; Baptist petitioning into the American constitutional settlement; 'hundreds' of Separate congregations). I left them, as earlier eras did, under the open Open-Gaps item 'Well-known facts with no vendored source'. Every relationship claim without support was qualified or removed.",
+  "Cross-group overlap to check at merge: the-methodist-revival--the-welsh-revival-tradition and the-methodist-revival--the-evangelical-awakening-in-new-england may also be drafted by the group holding the Methodist revival, from its own text. Keep one id per pair and type."
+ ]
+}

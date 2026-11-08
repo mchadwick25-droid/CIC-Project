@@ -1,0 +1,176 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 1,
+  "minor": 0
+ },
+ "resolved": [
+  {
+   "id": "R1-01",
+   "status": "resolved",
+   "note": "Note now says Wesley toured the orphan house; new quote 'He was not in town. However, we were at length admitted into the Orphan House,' verbatim at 1371-1372. FRE 70.3, FK 7.3."
+  },
+  {
+   "id": "R1-02",
+   "status": "resolved",
+   "note": "Fixed differently, and correctly. 'varied ... from the discipline ... by constraint' is Wesley's own admission (24774-24776, verbatim). 'he may' at 24838-24839. The 1795 terms (trustees, stewards and leaders, Conference consent) match 49535-49541. 'Its leaders' for 'the majority of the Stewards and Leaders' is a fair plain-English cut. FRE 72.3, FK 7.0."
+  },
+  {
+   "id": "R1-03",
+   "status": "resolved",
+   "note": "Three Walsh v1 passages added, all verbatim (15063-15064, 15131-15132, 15141-15143). 'Ottoman officers' fits 'chouashes'. 'Seized ... in his own church': the crowd was gathered 'in the church and precincts of the patriarchate', and he had just given his blessing, so this is a fair reading. FRE 66.2, FK 7.4."
+  },
+  {
+   "id": "R1-04",
+   "status": "resolved",
+   "note": "B7 and B8 now say 'some of their leaders'; B8 names Watts and Doddridge. Scores 61.9/7.2 and 63.9/7.7."
+  },
+  {
+   "id": "R1-05",
+   "status": "resolved",
+   "note": "'often went to the prayer meeting ... heard talk of the church's future' matches Petersen 577-585. Brumbaugh's denial is cited (922-924, verbatim) and stated in the note. FRE 64.9, FK 7.9."
+  },
+  {
+   "id": "R1-06",
+   "status": "resolved",
+   "note": "Build language gone. 'No record from those first years' is fair: the churches came after Rippon's 1790-1793 span. FRE 67.2, FK 8.2."
+  },
+  {
+   "id": "R1-07",
+   "status": "resolved",
+   "note": "Says what the 1842 list shows and does not show. FRE 75.1, FK 6.5."
+  },
+  {
+   "id": "R1-08",
+   "status": "resolved",
+   "note": "Fixed differently, and better than my round-1 text. 'I learned from them' (line 591) makes it the Welsh leaders' report at second hand. Williams of Kidderminster, 1746, Trevecca: lines 570-575. Quote verbatim, 38 words. FRE 76.6, FK 6.1."
+  },
+  {
+   "id": "R1-09",
+   "status": "resolved",
+   "note": "Fixed differently, and correctly. Philadelphia (elders Roberts and Birch) and Baltimore ('white preachers and trustees ... driven away') are kept apart, as in Allen 959-980. The April 1816 meeting and the AME name match 984-994. FRE 63.2, FK 7.0. That the Philadelphia elders were white is implied, not stated, in this passage. It is safe and not a finding."
+  },
+  {
+   "id": "R1-10",
+   "status": "resolved",
+   "note": "Matches Large Minutes 1106-1109 ('salvation from all sin, by the love of God and man filling the heart'). FRE 77.5, FK 6.3."
+  },
+  {
+   "id": "R1-11",
+   "status": "resolved",
+   "note": "One sentence, 26 words, FRE 73.2, FK 9.0. Evidence verbatim."
+  },
+  {
+   "id": "R1-12",
+   "status": "resolved",
+   "note": "One sentence, 23 words, FRE 69.1, FK 9.1. Evidence verbatim."
+  },
+  {
+   "id": "R1-13",
+   "status": "resolved",
+   "note": "Names the feast rule and Corpus Christi. 25 words, FRE 66.2, FK 10.0. Every quote on the link is verbatim."
+  },
+  {
+   "id": "R1-14",
+   "status": "resolved",
+   "note": "Fixed differently. The truncated quote is dropped and the misreading flag corrected. The new naming quote 'Don Pietro Aqua Roſata' (17794-17795) is verbatim. 'Until 1704' is not in a cited quote but is in the same work (departure 11 Sept. 1704, line 25171; content note line 9). Acceptable. FRE 63.1, FK 8.1."
+  },
+  {
+   "id": "R1-15",
+   "status": "resolved",
+   "note": "'in the Russian church'. FRE 63.9, FK 7.5."
+  },
+  {
+   "id": "R1-16",
+   "status": "resolved",
+   "note": "The lead sentence states the claim. FRE 63.4, FK 8.8. (My sentence counter reads 38 words only because '.'' ends a quoted sentence; the real longest sentence is 21 words.)"
+  },
+  {
+   "id": "R1-17",
+   "status": "resolved",
+   "note": "All three notes split; the Optina facts match the 1847 preface (Theodore and Cleopas, vows from Paisius, 'вышли въ Россію въ 1801', Leonid, Optina skete 1829: lines 262-279, 327-332). Scores 71.6/6.5, 77.6/6.2, 65.9/8.1."
+  },
+  {
+   "id": "R1-18",
+   "status": "resolved",
+   "note": "All four quotes are now under 40 words and verbatim. Splitting Bunyan at the clause boundary keeps the 'unlawful meetings' charge the note states. That is better than my cut."
+  },
+  {
+   "id": "R1-19",
+   "status": "resolved",
+   "note": "'linked that quarrel to the killing'; the devotions sentence is split. Whole field FRE 63.8, FK 7.5."
+  },
+  {
+   "id": "R1-20",
+   "status": "resolved",
+   "note": "'put out ... at Moscow in 1847'. Whole field FRE 64.6, FK 8.4."
+  },
+  {
+   "id": "R1-21",
+   "status": "resolved",
+   "note": "Passive restored, no actor added. Whole field FRE 63.5, FK 7.6."
+  },
+  {
+   "id": "R1-22",
+   "status": "resolved",
+   "note": "'back' dropped. Whole field FRE 61.2, FK 7.9."
+  },
+  {
+   "id": "R1-23",
+   "status": "not resolved",
+   "note": "The build language is gone and the wording varies. But two of the seven new clauses state something false about scholarship: B0 'But no direct tie has been traced' and B9 'but that line has not been traced'. See R2-01. A0, B1, B3, B5 and B10 are fine."
+  },
+  {
+   "id": "R1-24",
+   "status": "resolved",
+   "note": "Fixed differently. The note names the justices (Bunyan 5665-5666, 'those Justices') and Parliament; the Bunyan quotes are verbatim. Outcome unchanged. FRE 63.8, FK 8.0."
+  }
+ ],
+ "extra_tasks": [
+  {
+   "id": "T-01",
+   "status": "correct",
+   "note": "Moravian longDescription, why and teaser no longer carry the unsourced superlative. 'Lutherans trained at Halle had reached India in 1706' rests on Carey's Enquiry line 780 and Guericke (A4). The new text is accurate, keeps the movement's own picture, and scores 62.5/8.0, 63.4/7.8 and 75.5/7.1. The 13 August 1727 and 'choirs' sourcing question is logged in open_items, which is right."
+  },
+  {
+   "id": "T-02",
+   "status": "correct, with one carry-over",
+   "note": "No 'we hold', 'we do not yet hold', 'the sources here' or 'records we do not yet hold' is left in any era-8 movement field or in the note, outcome or minor_reason of any link touching an era-8 movement. The two replacement clauses in R2-01 are a new defect of a different kind: false claims about scholarship, not build language. The pre-existing era-8 statusDescription lines ('Proposed for a future survey ... Not yet reviewed') were not changed by this pass. They are outside this recheck."
+  },
+  {
+   "id": "T-03",
+   "status": "correct",
+   "note": "All three Jesuit links carry the same flag on the 1540-1650 window. The Philippine dispositions now rest on their own ground (a Crown act on the church's own order). The Port-Royal legacy disposition rests on the missing source. The open item names era 7 as owner."
+  }
+ ],
+ "findings": [
+  {
+   "id": "R2-01",
+   "target": "the-evangelical-awakening-in-new-england.relationsSummary (B0); the-welsh-revival-tradition.relationsSummary (B9)",
+   "severity": "substantial",
+   "issue": "These replacements for 'no text we hold' turn a gap in the project's library into a claim about the whole of scholarship. A reader takes 'no direct tie has been traced' as 'historians have not traced it'. That is false. Historians have long traced the awakening's ties to later American revivals, and to Black conversion: Samuel Davies's Hanover work, which this same field names, is a standard case. It is also more than the method's 'qualify with the reason' allows: the honest reason is uncertainty about how direct the tie was, not that nobody has traced it. B9's 'that line has not been traced' has the same fault. Continuity from the 18th-century Welsh revival to 1904-05 is widely discussed, and the 1904 entry argues for independent beginnings. Both are new problems, and the round-1 fix brought them in.",
+   "fix": {
+    "B0_last_two_sentences": "Later American revivals and the Black Church may owe it a debt too. How direct that debt was is hard to say.",
+    "B0_whole_field": "The awakening grew out of New England's Puritan churches. Jonathan Edwards built on their books. George Whitefield, the English Methodist preacher, made it normal to preach from town to town. It also reached the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia. Historians do not agree whether that was the same movement or another one. William Carey, who began the Baptist mission to India, held up its missionary David Brainerd as a model. Later American revivals and the Black Church may owe it a debt too. How direct that debt was is hard to say.",
+    "B0_score": "FRE 62.0, FK 7.8",
+    "B9_last_sentence": "Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but how far is hard to say.",
+    "B9_whole_field": "A sister movement to English Methodism. It began at the same time, kept in touch with its leaders, and ran in its own language. Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but how far is hard to say.",
+    "B9_score": "FRE 78.5, FK 6.0",
+    "note": "'Hard to say' states the uncertainty and makes no claim about what scholars have or have not done. If 'still argued' is preferred, it is also true for both: Butler's 1982 'interpretative fiction' thesis for B0, and the 1904 entry's own stress on independent beginnings for B9. It scores 60.8/7.9 and 76.2/6.2."
+   }
+  }
+ ],
+ "checked": {
+  "links_rechecked": 24,
+  "prose_changes_rechecked": 16,
+  "quotes": "Every primary and secondary quote on the 24 changed links (85 quotes) is verbatim at its stated lines: lines joined with single spaces, whitespace collapsed, substring test. 0 failures. All 5 outcome_evidence texts are verbatim.",
+  "source_context_read": "Wesley 1785 sect. 3 and 9 and 1795 art. I (minutes 24768-24871, 49528-49553); Walsh v1 15060-15145 and v2 16376-16381; Calvinistic Methodists 1834, 560-597; Harris 1203-1211; Allen 186-193 and 955-996; Zucchelli 17788-17805 and the 1704 date; Bunyan 5662-5674; Paisius 1847, 258-282 and 327-333; Large Minutes 1100-1112; Carey Enquiry 780.",
+  "readability": "Every changed note, outcome and field scores FRE >= 60 and FK <= 10 with engine.m7.turn_readability.score_turn. Lowest: Melkite note 60.0/8.6, Moravian link note 60.3/8.4, B0 60.5/7.9. Highest FK: Zamość outcome 10.0. Outcomes are all one sentence, 30 words or fewer.",
+  "applied": "All 24 links and 16 prose changes in Revision_Round1.json match census_r1.json and combined_r1.json exactly (note, sources, outcome, field text).",
+  "build_language_scan": "Regex over all era-8 movement fields (except sources) and the note, outcome and minor_reason of every link touching an era-8 movement. No 'we hold', 'we do not yet hold', 'sources here' or 'texts in hand'-type phrasing. Hits found only the R2-01 clauses, pre-existing statusDescription process lines outside this pass, and false positives ('the texts were written in', 'we have it at the present day' inside a quote).",
+  "validator": "node tools/validate-census.mjs census_r1.json --base cic-website/data/world-census.json: 300 movements, 399 edges, 10 eras, 0 errors, 2 warnings (pre-existing shortName length, eras 3/4)."
+ }
+}

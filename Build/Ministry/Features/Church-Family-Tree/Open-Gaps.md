@@ -474,3 +474,69 @@ it, never by deleting it.
     2026-11-08). The four era-7 outcomes stay dropped, and the Vulgate outcome on
     `hieronymian-ascetic-literary--the-tridentine-church` is removed. P2-L11 checks eras 1 to 6 for
     other outcomes of the class.
+85. **No Armenian Apostolic movement for 1650-1815 (2026-11-08).** The Armenian lane runs from New
+    Julfa through `armenian-christianity-era-8`, which covers the Mekhitarists and the Armenian
+    Catholic patriarchate, into the Zartonk. That entry's own text treats the Apostolic Church as the
+    other, larger body, so the era 8 pass drew no "continued as" link along the Armenian line. Options:
+    add an era-8 Apostolic movement (the drafter's recommendation), widen this one, or accept the
+    lane as it stands. Portfolio structure, for Mark. Ruled the same day (Mark: "add an era-8
+    Armenian Apostolic movement"); built in its own pull request after the era 8 pass.
+86. **No movement owns English Unitarianism (2026-11-08).** Essex Street Chapel (1774) and the
+    English Unitarian precedent have no census movement; the corpus map marks it as needing a ruling.
+    If it is ruled part of `english-old-dissent`, a Documented "influenced" link from Old Dissent to
+    `early-american-unitarians-universalists` is ready to draft. The Swedenborgian summary is a bare
+    dash, and its own sources record an exchange with Priestley's Unitarians (1791-92); the same
+    ruling decides where that goes. For Mark.
+87. **No link type for a transfer of jurisdiction (2026-11-08).** The move of the Kyiv metropolis
+    under Moscow (1686) is drawn as "in contact with", with an outcome, because none of the six types
+    names a change of jurisdiction. Adding a type is a method change, for Mark.
+88. **The Society of Jesus ends in 1650 (2026-11-08).** `the-society-of-jesus` (era 7) runs
+    1540-1650, but era 8 links to it for Pascal's letters (1656) and the suppression (1773). Each of
+    those links carries a note of the mismatch. Extend the entry or add a later Jesuit movement: for
+    the era 7 owner and Mark.
+89. **Build wording in other eras' public text, found in era 8 (2026-11-08).** Link notes:
+    `desert-monasticism--iconophile-byzantine-monasticism` ("no text we hold"),
+    `palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza`
+    ("No text we hold"), `antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce`
+    ("No source we hold"). Fields: `the-franciscan-movement` statusDescription ("sources here"),
+    `greek-apologists-second-century` sourcing. Adds to "Two more out-of-era link notes use 'we
+    hold'" (2026-11-08). For P2-L11.
+90. **Page recordings read the old descriptions, era 8 (2026-11-08).** As in "Page recordings read
+    the old descriptions" (2026-11-08): the era 8 pass rewrote the long description of
+    `english-old-dissent`, `the-baptists`, `the-evangelical-awakening-in-new-england` and
+    `the-moravian-church-at-herrnhut`, and each has a recording. A paid voice run, for Mark.
+91. **Held for later link passes, from era 8 (2026-11-08).**
+    - `the-methodist-revival` summary names Pentecostalism "through Holiness": eras 9-10.
+    - The era-9 Optina movement still carries the Dostoevsky and emigre claims the era 8 pass cut
+      from the Paisian revival for want of a source. Era 9.
+    - `new-spain-and-andes-mission-born-christianity` has no `continuesAs`, though era 8 drew its
+      "continued as" link to `colonial-latin-american-devotional-catholicism`. A data fix, era 7.
+    - The era-7 Dutch and Czech movements state as fact the ties to German Pietism and the Moravians
+      that era 8 qualified. Era 7.
+    - `philippine-catholicism-era-8` is named "Era-8 Segment", which is build wording in public text.
+      For the census owner.
+92. **The rest of "Held for later link passes, from era 6" (2026-11-08) closed by era 8.** Era 7
+    drew the Czech-to-Moravian link (see "'Held for later link passes, from era 6', era 7's part
+    closed"). Era 8 draws `the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal`
+    (gave rise to, Documented). The Old Believers' "grew out of Muscovite Christianity" now has a
+    link, era 7's `russian-church-stoglav-to-nikon--the-old-believers`, but it is "influenced"; see
+    "Era 7 and era 8 typed three links differently" below. "'Continues as' with no graded link"
+    (2026-11-08) now stands at 18 movements. Three are era 8's: the Paisian revival (its Optina link
+    is "gave rise to"), `the-baptists`, and `armenian-christianity-era-8`, which the Armenian
+    Apostolic movement re-routes.
+93. **Well-known facts with no vendored source, era 8 (2026-11-08).** Added to the method question
+    in "Well-known facts with no vendored source" (2026-11-07). Left as written in era 8: the Valaam
+    mission to Alaska in 1794 and Herman's part in it, and the Moravian communion of 13 August 1727
+    and the "choirs". The era 8 pass qualified or removed every relationship claim that lacked a
+    source; these are events, not relationships.
+94. **Era 7 and era 8 typed three links differently (2026-11-08).** Era 7 published first, so its
+    versions stand; era 8's drafts are kept in its audit (`Final.json`, `merge_notes`). Czech
+    churches to the Moravians: era 7 "gave rise to", era 8 "continued as" (Contested). Anabaptists
+    and Baptists: era 7 "influenced" (Contested), era 8 "in contact with" (Documented, Smyth's
+    application to the Waterlanders). The Russian church before Nikon to the Old Believers: era 7
+    "influenced", era 8 "gave rise to" (Documented); the Old Believers' summary says "grew out of".
+    For P2-L11.
+95. **The Armenian line after the new movement (2026-11-08).** Era 7 drew
+    `armenian-christianity-new-julfa--armenian-christianity-era-8` (continued as) on the line of
+    Apostolic catholicoi. Once the Armenian Apostolic movement is added, that evidence belongs to it:
+    the follow-up retires the link with a replacement to the new movement.
