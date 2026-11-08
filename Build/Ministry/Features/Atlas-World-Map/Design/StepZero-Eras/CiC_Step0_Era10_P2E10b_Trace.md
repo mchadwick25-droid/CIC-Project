@@ -2,6 +2,22 @@
 
 Companion to `CiC_Step0_Era10_P2E10b_Proposed.json`. Each new sentence in that file is listed here with the evidence it rests on. "E" and "item" numbers are the evidence lists in `CiC_Step0_Era10_Movements_V1_0.md`, under the candidate named. "SectionA_Research" is `CiC_Step0_Era10_P2E10b_SectionA_Research.md` (2026-11-08). "repo" marks a relation that rests on census text (release 21), as the movements record's own Overlap lines do; these are flagged, since census text is counted apart from verified items.
 
+## Revision log (after Round 2)
+
+Against `CiC_Step0_Era10_P2E10b_Review_Round2.md`. The mechanical fixes only; S2-2 is held for Mark.
+
+- **S2-1** Done. IX.54 floorNote is the review's text: "Citygate Network, the name the union took later ... The only copy seen was undated and recent."
+- **S2-2** Not acted on. IX.53 stays held, pending Mark (Open-Gaps, "IX.53, faith missions, held").
+- **M2-1** Done. IX.57 statusDescription: "hands on to the Vineyard, formed in 1982."
+- **M2-2** Done. IX.16 legacy: "Court records were part of these bodies' public record too." The last sentence is deleted.
+- **M2-3** Done. IX.52 `why` and `longDescription` say "the Lambeth Conference".
+- **M2-4** Done. Open-Gaps entries 127 to 131: the `kind` question, Pueblo and the arena, the IX.53 hold, the Vineyard publisher's dated copy, the 2012 AGRM capture.
+- **C2-1** Done. IX.52 legacy now reads "Kevin Ward found that by 2006 most of its members belonged to churches outside the West."
+- **C2-2** Done. IX.24 "At the 1974 Congress", matching release 21.
+- **C2-3** Done. IX.52 longDescription: "a moral obligation", Resolution 15's word.
+- **C2-4** Done. IX.55 floorNote: "leaders, directors and staff".
+- **C2-5** Done. IX.16 relationsSummary: "Three separately founded bodies share this entry."
+
 ## Revision log (after Round 1)
 
 Against `CiC_Step0_Era10_P2E10b_Review_Round1.md`, with the thread's direction of 2026-11-08 and `CiC_Step0_Era10_P2E10b_SectionA_Research.md`.

@@ -738,3 +738,23 @@ it, never by deleting it.
     removed "The Apostle Pleads Guilty", and New Calvinism's first ("The Sunday After") the
     removed "The Year Mars Hill Came Apart". These two must be dealt with before the release
     reaches the live site. Re-voicing is a paid batch: sample first, Mark's approval by ear.
+127. **The `kind` field on the era 10 rows, IX.57 included (2026-11-08).** P2-E10b carries the
+    question of whether the field fits the new rows, in `_meta.kind` of the proposal. P2-E10c
+    rules on the field. Owner: the P2-E10c thread.
+128. **Pueblo and the arena in IX.58 (2026-11-08).** "From Boulder" was dropped as untraced. Pueblo and
+    the arena are traced to E2's article only as the Movements review (Round 1, M-12) read it.
+    The item text for E2 in `CiC_Step0_Era10_Movements_V1_0.md` should record them from the
+    article itself. Owner: the Movements record's thread.
+129. **IX.53, faith missions, held (2026-11-08).** The row is held out of data release 22: no
+    carrier's statement of faith was found, so Section A cannot be assessed. The line named in
+    G-56(a), Wycliffe in IX.53, is held with it. Two items are wanted: a carrier's dated
+    statement of faith, and the Round 1 fixes (M5 E4) carried in the held note. The hold waits on
+    Mark: hold the row, or build it under G-57(a) with a "not yet assessed" floorNote
+    (Round 2, S2-2). If built, `totalEntries` is 308 and Pre-Survey Candidate 226.
+130. **A dated copy of the Vineyard statement of faith (2026-11-08).** The IX.57 floorNote dates
+    the board's adoption to November 1994 from copies published by others (bible.ca,
+    religionfacts). The Vineyard publisher's own dated copy is wanted; the 2002 and 2009 captures
+    are the leads.
+131. **An earlier date for the IX.54 statement of faith (2026-11-08).** The only copy seen is
+    Citygate Network's live page, undated, earliest capture 2025. The 2012 capture of
+    agrm.org/agrm/Statement_of_Faith.asp, contents unseen, is the lead for an earlier date.
