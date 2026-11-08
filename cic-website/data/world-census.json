@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 16,
+   "number": 17,
    "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -293,7 +293,7 @@
    "to": "desert-monasticism",
    "type": "gave rise to",
    "confidence": "Contested",
-   "note": "Scholars disagree whether desert monasticism grew out of Alexandria's Christian teaching. Samuel Rubenson reads Antony's letters as Origenist. Athanasius, bishop of Alexandria, shows Antony as an Egyptian raised at home by Christian parents, who visited Alexandria during a persecution.",
+   "note": "Scholars disagree on whether the desert monks grew out of Christian teaching at Alexandria. Samuel Rubenson reads Antony's letters as the work of a man shaped by Origen's ideas. But Athanasius, bishop of Alexandria, paints Antony as an Egyptian. His parents were Christians, and he grew up at home with them. He went to the city when the martyrs were led there.",
    "sources": [
     {
      "kind": "primary",
@@ -320,7 +320,7 @@
      "work": "Samuel Rubenson, The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995; Lund University Press, 1990)"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -329,7 +329,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome wrote that the Roman ascetic Marcella learned of Antony and of Pachomius's monasteries from Athanasius and other Alexandrian exiles in Rome. He also described Paula going into the monks' cells at Nitria in Egypt. In Letter 22 he says Antony made the hermit life famous.",
+   "note": "Jerome says Marcella, a Roman ascetic, heard of Antony from Athanasius. He and other men in exile from Alexandria told her in Rome. They told her too of the houses for monks that Pachomius set up. Jerome tells how Paula went into the monks' cells at Nitria in Egypt. In Letter 22 he says Antony made the hermit life famous.",
    "sources": [
     {
      "kind": "primary",
@@ -371,7 +371,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In his preface to Job, written in 392, Jerome defends his new translation by pointing to Origen. Origen had marked every Old Testament book with obeli and asterisks to show where the old Greek text fell short.",
+   "note": "In 392 Jerome wrote a preface to his new version of Job. In it he defends his work by pointing to Origen. Origen had marked every Old Testament book with signs called obeli and asterisks. They showed where the old Greek text fell short.",
    "sources": [
     {
      "kind": "primary",
@@ -393,7 +393,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome, writing in the 390s, calls Gregory of Nazianzus his instructor in the Scriptures. He recalls asking Gregory to explain a phrase in Luke, and Gregory joked his way out of answering.",
+   "note": "Jerome, writing in the 390s, calls Gregory of Nazianzus his teacher in the Scriptures. He recalls asking Gregory to explain a phrase in Luke. Gregory made a joke and got out of answering.",
    "sources": [
     {
      "kind": "primary",
@@ -424,7 +424,7 @@
    "to": "the-church-of-the-east-under-persia",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Barhadbeshabba, writing about 600, says Ephrem opened a school at Edessa after Nisibis passed to Persia in 363. He says Narsai later founded the school at Nisibis, drawing many students from Edessa. Sources differ on when Narsai left Edessa.",
+   "note": "Barhadbeshabba wrote about the year 600. He says Ephrem set up a school at Edessa after Nisibis passed to Persia in 363. Later, he says, Narsai set up the school at Nisibis, and many came to it from Edessa to learn. Sources differ on when Narsai left Edessa.",
    "sources": [
     {
      "kind": "primary",
@@ -448,9 +448,9 @@
      "kind": "primary",
      "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
      "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
-     "lines": "20738-20739",
+     "lines": "20738-20743",
      "locus": "Cause of the Foundation of the Schools, Narsai at Nisibis",
-     "quote": "Barsauma put, par ces paroles et autres semblables, calmer l'esprit de Narsaï, qui voulut bien fonder une école à Nisibe.",
+     "quote": "Barsauma put, par ces paroles et autres semblables, calmer l'esprit de Narsaï, qui voulut bien fonder une école à Nisibe. Il ordonna aussitôt de préparer tout ce dont a besoin une école. En peu de temps, il y attira de nombreux frères, de sorte que non seulement les frères persans et syriens venaient à lui, mais encore la plupart des frères qui étaient dans l’école d’Édesse.",
      "license": "public-domain"
     },
     {
@@ -478,7 +478,7 @@
    "to": "iconophile-byzantine-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double monasteries to keep Basil's rule. Its acts record images of 'the fathers and cultivators of the desert', but no text we hold shows iconophile monks drawing on Egypt directly.",
+   "note": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double houses of monks and nuns to keep Basil's rule. In its acts, a bishop honors images of 'the fathers and cultivators of the desert'. But none of these texts shows the monks who fought for icons drawing on Egypt itself.",
    "sources": [
     {
      "kind": "primary",
@@ -518,7 +518,7 @@
    "to": "early-benedictine-italian-monasticism",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Benedict's Rule tells monks to read 'the Lives of the Fathers' at their evening gatherings. Its closing chapter names the Fathers' Lives and Basil's Rule as models of monastic life. Its editor, Cardinal Gasquet, reads them as the Lives of the Fathers of the Desert.",
+   "note": "Benedict's Rule tells monks to read 'the Lives of the Fathers' when they meet in the evening. Its last chapter names the Fathers' Lives and Basil's Rule as models for monks. Its editor, Cardinal Gasquet, takes these to be the Lives of the Desert Fathers.",
    "sources": [
     {
      "kind": "primary",
@@ -552,7 +552,7 @@
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "An eighth-century Irish monk on the Continent, mixing fact with legend, traced the Irish daily office to Antony, Paul, Macarius and other early hermits. Warren, who edited the Bangor Antiphonary in 1895, judged this single late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
+   "note": "An Irish monk on the Continent wrote in the eighth century, mixing fact with legend. He traced the Irish daily prayers back to Antony, Paul, Macarius and other early hermits. Warren edited the Bangor Antiphonary in 1895. He judged this one late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul.",
    "sources": [
     {
      "kind": "primary",
@@ -577,7 +577,7 @@
    "to": "coptic-christianity-under-early-islam",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "A Coptic manuscript copied in 1006 ends with a prayer for two monks of the Church of Saint Mercurius, near Edfu. It asks that they share the inheritance of the 'coenobite fathers' Pachomius, Theodorus, Palamon, Petronius and Horsiesios.",
+   "note": "A Coptic book copied by hand in 1006 ends with a prayer for two monks. They were monks of the Church of Saint Mercurius, near Edfu. The prayer asks that they share the inheritance of the 'coenobite fathers'. It names Pachomius, Theodorus, Palamon, Petronius and Horsiesios.",
    "sources": [
     {
      "kind": "primary",
@@ -598,7 +598,7 @@
    "to": "alexandria-catechetical",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The History of the Patriarchs of the Coptic Church is attributed to Severus ibn al-Muqaffa, a tenth-century bishop. It says Patriarch Demetrius cut Origen off for his books, and calls Origen's later treatises blasphemous. Yet the same History honors Dionysius, who had directed the studies at Alexandria, as a patriarch.",
+   "note": "The History of the Patriarchs of the Coptic Church is said to be by Severus ibn al-Muqaffa, a bishop of the 900s. It says Patriarch Demetrius cut Origen off for his books. It calls the books Origen wrote later blasphemous. Yet the same work honors Dionysius as a patriarch. Dionysius had once run the studies at Alexandria.",
    "sources": [
     {
      "kind": "primary",
@@ -837,7 +837,7 @@
    "to": "latin-papal-church-gregorian",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. Only the Latin side's record of this break is quoted here.",
+   "note": "Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. This account of the break comes from the Latin side alone.",
    "sources": [
     {
      "kind": "primary",
@@ -1082,7 +1082,7 @@
    "to": "gallic-monastic-ascetic-christianity",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Cassian wrote his Institutes at the request of a Gallic bishop, to set out the monastic customs he had seen throughout Egypt and Palestine. Gennadius says he later founded two monasteries at Marseilles.",
+   "note": "A bishop in Gaul asked Cassian to write his Institutes. In them Cassian set out the customs of the monks he had seen across Egypt and Palestine. Gennadius says he later founded two monasteries at Marseilles.",
    "sources": [
     {
      "kind": "primary",
@@ -1114,7 +1114,7 @@
    "to": "early-benedictine-italian-monasticism",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Benedict's Rule tells monks to read the 'Collationes' at evening gatherings and names the 'Institutes' as models. Cassian's two works have those titles. Gennadius says Cassian founded two monasteries at Marseilles.",
+   "note": "Benedict's Rule tells monks to read the 'Collationes' when they meet in the evening. It also names the 'Institutes' as models. These are the titles of Cassian's two books. Gennadius says Cassian set up two houses for monks at Marseilles.",
    "sources": [
     {
      "kind": "primary",
@@ -1158,7 +1158,7 @@
    "to": "insular-irish-monastic-christianity",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "A single eighth-century Irish account names Cassian and the monks of Lérins as links in the chain that reached Ireland. Beyond that, there is only Patrick's own wish, in his Confession, to visit the brethren in Gaul. Warren, the 1895 editor of the Bangor Antiphonary, held that Ireland's Eastern features came through Gaul.",
+   "note": "One Irish account of the eighth century names Cassian and the monks of Lérins in the chain that reached Ireland. Beyond that, there is only Patrick's wish, in his Confession, to visit the brothers in Gaul. Warren edited the Bangor Antiphonary in 1895. He held that Ireland's Eastern features came by way of Gaul.",
    "sources": [
     {
      "kind": "primary",
@@ -1192,7 +1192,7 @@
    "to": "merovingian-gallic-christianity",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Venantius Fortunatus, a poet of Merovingian Gaul, praises the Rule of Caesarius of Arles. Caesarius came from Lérins and became bishop of Arles. Gennadius records Faustus, first abbot of Lérins, who became bishop of Riez.",
+   "note": "Venantius Fortunatus was a poet of Merovingian Gaul. He praises the Rule of Caesarius of Arles. Caesarius came from Lérins and became bishop of Arles. Gennadius tells of Faustus, the first abbot of Lérins, who became bishop of Riez.",
    "sources": [
     {
      "kind": "primary",
@@ -1218,7 +1218,7 @@
      "work": "Ralph W. Mathisen, Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (CUA Press, 1989)"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -1227,7 +1227,7 @@
    "to": "anomoean-eunomian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "After Basil died, Gregory of Nyssa wrote a full treatise in reply to Eunomius, taking over the controversy from Basil. Gregory of Nazianzus opened his Theological Orations with a speech against the Eunomians.",
+   "note": "After Basil died, Gregory of Nyssa took up his quarrel with Eunomius. He wrote a long book to answer him. The first of the Theological Orations of Gregory of Nazianzus is a talk against the Eunomians.",
    "sources": [
     {
      "kind": "primary",
@@ -1269,7 +1269,7 @@
    "to": "anomoean-eunomian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "A law of 19 July 381 forbade Eunomians and Arians to build churches. Canon 1 of the Council of Constantinople, held that year at Theodosius's summons, condemned the Eunomians by name. A law of 383 also banned their assemblies.",
+   "note": "A law of 19 July 381 forbade the Eunomians and Arians to build churches. That year the Council of Constantinople met at the call of Theodosius. Its first canon condemned the Eunomians by name. A law of 383 also banned their meetings.",
    "sources": [
     {
      "kind": "primary",
@@ -1384,7 +1384,7 @@
    "to": "pneumatomachian-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Basil's On the Holy Spirit answers those who say the Spirit may not be ranked with the Father and the Son. Gregory of Nyssa's treatise on the Spirit is titled Against the Followers of Macedonius.",
+   "note": "Basil wrote On the Holy Spirit. It answers those who say the Spirit may not be ranked with the Father and the Son. Gregory of Nyssa also wrote on the Spirit. His book is titled Against the Followers of Macedonius.",
    "sources": [
     {
      "kind": "primary",
@@ -1521,7 +1521,7 @@
    "to": "apollinarian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Canon 1 of the Council of Constantinople (381) anathematized the Apollinarians by name. A law of March 388 barred them from city walls, from the company of honest citizens and from the communion of the saints.",
+   "note": "The Council of Constantinople met in 381. Its first canon cursed the Apollinarians by name. A law of March 388 barred them from the walls of cities. It also cut them off from the company of honest citizens and from the communion of the saints.",
    "sources": [
     {
      "kind": "primary",
@@ -1554,7 +1554,7 @@
    "to": "modalist-monarchianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In Against Praxeas, Tertullian names Praxeas and charges that he 'crucified the Father'. He replies to those who call the order of the Trinity a division of the Unity.",
+   "note": "In Against Praxeas, Tertullian names Praxeas. He charges that Praxeas 'crucified the Father'. He also answers those who think that if the Trinity has an order, its unity is split.",
    "sources": [
     {
      "kind": "primary",
@@ -1584,7 +1584,7 @@
    "to": "modalist-monarchianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Dionysius, bishop of Rome in the 260s, wrote against the Sabellians, as Athanasius later quoted him. Earlier, Hippolytus says Bishop Callistus excommunicated Sabellius. Hippolytus also accused Callistus of backing the modalists, so his account is openly hostile.",
+   "note": "Dionysius was bishop of Rome in the 260s. He wrote against the Sabellians. Athanasius later quoted him. Earlier, Hippolytus says, the bishop of Rome, Callistus, cut Sabellius off from the church. But Hippolytus also blamed Callistus for backing the same views. So he was a foe of the man he writes about.",
    "sources": [
     {
      "kind": "primary",
@@ -1632,7 +1632,7 @@
    "to": "bardaisanite-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Ephraim the Syrian wrote Prose Refutations against Mani, Marcion and Bardaisan. In them he names Bardaisan and attacks his teaching on the soul, space and matter.",
+   "note": "Ephraim the Syrian wrote Prose Refutations against Mani, Marcion and Bardaisan. In them he names Bardaisan. He attacks what Bardaisan taught on the soul, on space and on matter.",
    "sources": [
     {
      "kind": "primary",
@@ -1654,7 +1654,7 @@
    "to": "roman-church-third-century",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "Irenaeus lists the Roman bishops down to Eleutherius in the 180s. Hippolytus shows Zephyrinus leading the same church a generation later. Peter Lampe argues Rome had no single ruling bishop until about 189 to 199.",
+   "note": "Irenaeus lists the bishops of Rome down to Eleutherius in the 180s. Hippolytus shows Zephyrinus at the head of the same church about a generation on. But Peter Lampe argues that Rome had no single bishop in charge until about 189 to 199.",
    "sources": [
     {
      "kind": "primary",
@@ -1689,7 +1689,7 @@
    "to": "novatianism",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Eusebius reports that Novatus, a Roman presbyter, led those who denied the lapsed any hope of salvation. Editors identify him with Novatian. A Roman synod around 251 declared him and his followers strangers to the church.",
+   "note": "Eusebius says Novatus, a priest at Rome, led those who held that the lapsed had no hope of salvation. Editors take him to be Novatian. A synod at Rome around 251 declared him and his followers strangers to the church.",
    "sources": [
     {
      "kind": "primary",
@@ -1721,7 +1721,7 @@
    "to": "palestinian-ascetic-monasticism-early",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome's Life of Hilarion says Hilarion set out for the Egyptian desert and stayed about two months with Antony. It adds that no monk was known in Palestine or Syria before Hilarion.",
+   "note": "Jerome's Life of Hilarion says Hilarion set out for the Egyptian desert to see Antony. He stayed with him about two months. It adds that no one knew of a monk in Palestine or Syria before Hilarion.",
    "sources": [
     {
      "kind": "primary",
@@ -1753,7 +1753,7 @@
    "to": "chalcedonian-monasticism-judean-desert-and-gaza",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. No text we hold ties the later monks to the earlier, so this rests on place and sequence alone.",
+   "note": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. Neither text ties the later monks to the first ones, so this rests on place and sequence alone.",
    "sources": [
     {
      "kind": "primary",
@@ -1775,7 +1775,7 @@
      "license": "public-domain"
     }
    ],
-   "citation_specificity": "C",
+   "citation_specificity": "A",
    "verification_state": "unverified"
   },
   {
@@ -1784,7 +1784,7 @@
    "to": "alexandria-catechetical",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Clement of Alexandria praises Tatian's Address to the Greeks as an accurate account of the age of Moses. Tatian belongs among the second-century Greek apologists.",
+   "note": "Clement of Alexandria praises Tatian's Address to the Greeks. He says it gives an accurate account of the age of Moses. Tatian was one of the Greek apologists of the second century.",
    "sources": [
     {
      "kind": "primary",
@@ -1806,7 +1806,7 @@
    "to": "gallic-monastic-ascetic-christianity",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Sulpicius Severus says Martin sought out Bishop Hilary of Poitiers and lived with him for a time, and that Hilary made him an exorcist. After Hilary's return from exile, Martin set up a monastery near the town. Sulpicius also says Martin had already founded one at Milan.",
+   "note": "Sulpicius Severus says Martin sought out Bishop Hilary of Poitiers and lived with him for a time. Hilary made him an exorcist. When Hilary came back from his exile, Martin set up a house for monks near the town. He had set one up at Milan before that.",
    "sources": [
     {
      "kind": "primary",
@@ -1858,7 +1858,7 @@
    "to": "homoian-arian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers, writing On the Councils to the bishops of Gaul and Britain, praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.",
+   "note": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers wrote On the Councils to the bishops of Gaul and Britain. He praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.",
    "sources": [
     {
      "kind": "primary",
@@ -1890,7 +1890,7 @@
    "to": "gallic-nicene-episcopate",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "Hilary of Poitiers, a bishop in Gaul, was exiled after Saturninus won over the emperor. Hilary adds that bishops who opposed the imposed creed were driven into exile.",
+   "note": "Hilary of Poitiers was a bishop in Gaul. He says he was sent into exile after Saturninus won over the emperor. He adds that bishops who stood against the creed forced on the churches were driven out too.",
    "sources": [
     {
      "kind": "primary",
@@ -1926,7 +1926,7 @@
    "to": "imperial-juridical-christianity",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "In On the Councils, Hilary tells the Eastern bishops that Arian bishops misled the emperor into imposing a form of faith on the churches. Hilary opposed that imperial creed.",
+   "note": "In On the Councils, Hilary writes to the Eastern bishops. He says Arian bishops misled the emperor into forcing a form of faith on the churches. Hilary stood against the emperor's creed.",
    "sources": [
     {
      "kind": "primary",
@@ -1984,7 +1984,7 @@
    "to": "anatolian-church-third-century",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Eusebius says the brothers Gregory and Athenodorus studied under Origen for five years. Both then became bishops in Pontus. Gregory's farewell speech to Origen is traditionally his, though some scholars dispute its authorship.",
+   "note": "Eusebius says the brothers Gregory and Athenodorus studied under Origen for five years. Then both became bishops in Pontus. Gregory is said to have made a speech to Origen as he left him. Some scholars doubt that it is his.",
    "sources": [
     {
      "kind": "primary",
@@ -2016,7 +2016,7 @@
    "to": "palestinian-church-pre-constantinian",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Eusebius reports that Origen moved from Alexandria to Caesarea about 231, leaving the catechetical school to Heraclas. Eusebius adds that Pamphilus, a martyr of his own time, collected a library of Origen's works.",
+   "note": "Eusebius says that Origen left Alexandria for Caesarea about 231. He left his school in the hands of Heraclas. Eusebius adds that Pamphilus, a martyr of his own day, built up a store of Origen's books.",
    "sources": [
     {
      "kind": "primary",
@@ -2048,7 +2048,7 @@
    "to": "jerusalem-liturgical-pilgrimage-christianity",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Eusebius saw in the library at Aelia, as Jerusalem was then called, the letters that Bishop Alexander had gathered. Constantine later wrote to Macarius about building the Church of the Saviour. This rests on those two passages; neither traces the bishops between them.",
+   "note": "In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. He names the next bishops of the city down to Hermon. He says their chair was kept there until his own time. Later, Constantine wrote to Macarius, its bishop, about building the Church of the Savior. The see carried on, but that the new pilgrim church was the same community is only an inference.",
    "sources": [
     {
      "kind": "primary",
@@ -2062,6 +2062,26 @@
     },
     {
      "kind": "primary",
+     "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VII.32.29 (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "43142-43143",
+     "locus": "HE VII.32.29",
+     "quote": "received the episcopate of the church of Jerusalem after the bishop Hymenæus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VII.32.29 (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "43152-43154",
+     "locus": "HE VII.32.29",
+     "quote": "the last before the persecution in our day, succeeded to the apostolic chair, which has been preserved there until the present time.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
      "source_id": "ijc.source.eusebius-vita-constantini",
      "work": "Eusebius, Life of Constantine, Book 3 ch. 30 (heading in the NPNF edition)",
      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
@@ -2071,7 +2091,7 @@
      "license": "public-domain"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "verified-direct"
   },
   {
@@ -2080,7 +2100,7 @@
    "to": "imperial-juridical-christianity",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Eusebius says he drew material for his Church History from the library at Aelia (Jerusalem) that Bishop Alexander founded. The letters in it were kept until his own time.",
+   "note": "Eusebius says he drew on a library at Aelia, or Jerusalem, for his Church History. Bishop Alexander had founded it. The letters kept there had lasted to his own time.",
    "sources": [
     {
      "kind": "primary",
@@ -2112,7 +2132,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome lists Victorinus of Pettau in his catalog of Christian writers and judges his works noble in thought but weak in style. In Against Helvidius he cites Victorinus as an authority on the Lord's brothers.",
+   "note": "Jerome lists Victorinus of Pettau in his catalog of Christian writers. He judges his works noble in thought but weak in style. In Against Helvidius he calls on Victorinus as a witness on the Lord's brothers.",
    "sources": [
     {
      "kind": "primary",
@@ -2143,7 +2163,7 @@
    "to": "homoian-arian-christianity",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "Athanasius lists Ursacius of Singidunum and Valens of Mursa, bishops in the Danubian provinces, among the leaders of the Arian party. Modern scholars count them among the chief architects of the Homoian settlement.",
+   "note": "Athanasius names Ursacius of Singidunum and Valens of Mursa as leaders of the Arian party. Both were bishops in the lands along the Danube. Today scholars see them as two of the men who did most to shape the Homoian settlement.",
    "sources": [
     {
      "kind": "primary",
@@ -2169,7 +2189,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "The translation's editors say Jerome and Rufinus belonged to a company of young ascetics at Aquileia in the early 370s. Rufinus recalled being baptized in a monastery by Chromatius, Jovinus and Eusebius. In 374 Jerome wrote to the same three men from the desert.",
+   "note": "W. H. Fremantle wrote the introduction to Rufinus's works in English in 1892. He says Jerome and Rufinus were part of a group of young ascetics at Aquileia in the early 370s. Rufinus recalled being baptized in a monastery by Chromatius, Jovinus and Eusebius. In 374 Jerome wrote to the same three men from the desert.",
    "sources": [
     {
      "kind": "primary",
@@ -2204,7 +2224,7 @@
      "work": "W. H. Fremantle, introduction on the life and works of Rufinus, in Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "verified-direct"
   },
   {
@@ -2213,7 +2233,7 @@
    "to": "aquileian-christianity",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Rufinus translated Origen into Latin, and the editors of his works say he did much of this at Aquileia. In his preface to the First Principles, written in 397, he says he is continuing a task Jerome began. A preface of 410 recalls his promise to put Origen's work on the Law of Moses into Latin for his people.",
+   "note": "Rufinus put Origen into Latin. The editors of his works say he did much of this at Aquileia. In his preface to First Principles, written in 397, he says he is carrying on a task Jerome began. A preface of 410 recalls his promise to put Origen's work on the Law of Moses into Latin for his people.",
    "sources": [
     {
      "kind": "primary",
@@ -2248,7 +2268,7 @@
    "to": "aquileian-christianity",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Ambrose of Milan and Valerian of Aquileia both sat at the Council of Aquileia, opened on 3 September 381. Ambrose says the western bishops met there on the emperor's order, and the Acts show him questioning Palladius.",
+   "note": "Ambrose of Milan and Valerian of Aquileia both sat at the Council of Aquileia. It opened on 3 September 381. Ambrose says the bishops of the West met there on the emperor's order. The Acts show him as he put questions to Palladius.",
    "sources": [
     {
      "kind": "primary",
@@ -2287,7 +2307,7 @@
    "to": "antiochene-exegetical-christianity-chrysostom-ce",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. No source we hold links his work to Diodore, Theodore or Chrysostom. The tie to the later Antiochene teachers is an inference, not a report.",
+   "note": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. Jerome does not tie his work to Diodore, Theodore or Chrysostom. The tie to these later teachers at Antioch is an inference, not a report.",
    "sources": [
     {
      "kind": "primary",
@@ -2309,7 +2329,7 @@
    "to": "homoian-arian-christianity",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist', naming their teacher Lucian of Antioch. Philostorgius lists Lucian's disciples, among them Leontius, later bishop of Antioch, and a Eudoxius. Both reports come from Arius's own side.",
+   "note": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist'. Lucian of Antioch had taught them both. Philostorgius lists Lucian's pupils. Among them were Leontius, who was later bishop of Antioch, and one Eudoxius. Both these reports come from Arius's own side.",
    "sources": [
     {
      "kind": "primary",
@@ -2351,7 +2371,7 @@
    "to": "latin-apologists",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In Against the Valentinians, Tertullian lists 'Justin, philosopher and martyr' among earlier writers whose books refuted heresy. This shows a Latin apologist knew a Greek apologist's work.",
+   "note": "In Against the Valentinians, Tertullian names 'Justin, philosopher and martyr'. He puts him with the earlier writers who wrote against heresy. So one apologist who wrote in Latin knew the work of one who wrote in Greek.",
    "sources": [
     {
      "kind": "primary",
@@ -2372,7 +2392,7 @@
    "to": "latin-apologists",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In his Divine Institutes, Lactantius says Tertullian had already argued the same cause in full in his book called the Apology.",
+   "note": "Lactantius wrote the Divine Institutes. In it he says Tertullian had already argued the same cause in full. He did so in his book called the Apology.",
    "sources": [
     {
      "kind": "primary",
@@ -2402,7 +2422,7 @@
    "to": "imperial-juridical-christianity",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Jerome reports that Lactantius, a Latin apologist, tutored Crispus, Constantine's son, in Gaul in his old age. No source here shows how far his argument shaped the court.",
+   "note": "Jerome says that Lactantius, a Latin apologist, was tutor to Crispus, the son of Constantine. He did this in Gaul, when he was very old. Jerome does not say how far his case for the faith shaped the court.",
    "sources": [
     {
      "kind": "primary",
@@ -2496,7 +2516,7 @@
    "to": "byzantine-imperial-church-justinianic",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In June 595 Gregory wrote to Emperor Maurice that John, patriarch of Constantinople, was trying to be called universal bishop. He says the title is a new name, taken against the Gospel and the canons.",
+   "note": "In June 595 Gregory wrote to Emperor Maurice. He said John, the patriarch of Constantinople, was trying to be called universal bishop. Gregory calls the title a new name. He says John took it against the Gospel and the canons.",
    "sources": [
     {
      "kind": "primary",
@@ -2559,7 +2579,7 @@
    "to": "homoian-arian-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The Council of Constantinople met in 381 at the emperor Theodosius's summons. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Imperial laws of 381 and 383 also name the Arians when they bar heretics from building churches or holding assemblies.",
+   "note": "The Council of Constantinople met in 381 at the call of the emperor Theodosius. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Laws of 381 and 383 also name the Arians. They bar heretics from building churches or from meeting.",
    "sources": [
     {
      "kind": "primary",
@@ -2612,7 +2632,7 @@
    "to": "alexandria-catechetical",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In Letter 84 Jerome calls Origen's doctrines poisonous and says they do violence to the Holy Scriptures. He adds that his own commentaries show he has always opposed them.",
+   "note": "In Letter 84 Jerome calls Origen's teachings poisonous. He says they do violence to the Holy Scriptures. He adds that his own commentaries show he has always opposed them.",
    "sources": [
     {
      "kind": "primary",
@@ -2642,7 +2662,7 @@
    "to": "pelagianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book of Pelagius that defended human nature against the grace of God.",
+   "note": "Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book by Pelagius. That book stood up for human nature against the grace of God.",
    "sources": [
     {
      "kind": "primary",
@@ -2733,7 +2753,7 @@
    "to": "waldensians-in-the-alps",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "Bernard Gui, an inquisitor writing in the 1320s, says the Waldensians' first error, contempt for church authority, still continues. His editor adds that Gui's prosecutions drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement carried on in the Alps after 1300.",
+   "note": "Bernard Gui was an inquisitor writing in the 1320s. He says the first error of the Waldensians still goes on: contempt for the church's authority. His editor adds that Gui's trials drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement went on in the Alps in the 1300s.",
    "sources": [
     {
      "kind": "primary",
@@ -2770,7 +2790,7 @@
    "to": "donatism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Augustine, bishop of Hippo, wrote a long book to the Donatists after the 411 conference at Carthage between their bishops and his. He lists it in his Retractations. Bishop Optatus of Milevis had earlier written against the Donatist bishop Parmenian.",
+   "note": "Augustine, bishop of Hippo, wrote a long book to the Donatists. He wrote it after their bishops and his met at Carthage in 411. He lists it in his Retractations. Earlier, Bishop Optatus of Milevis had written against the Donatist bishop Parmenian.",
    "sources": [
     {
      "kind": "primary",
@@ -2802,7 +2822,7 @@
    "to": "latin-pastoral-congregational-christianity",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "Optatus quotes Parmenian, the Donatist bishop of Carthage, saying that a stained minister cannot wash away sins in baptism. Optatus also says the Donatists re-baptized the faithful. The Donatists applied this rule to Catholic clergy.",
+   "note": "Optatus quotes Parmenian, who led the Donatists at Carthage as their bishop. He said that 'one who was stained' could not wash away sins in baptism. Optatus says the Donatists baptized the faithful a second time. They used this rule on the clergy of the Catholic side.",
    "sources": [
     {
      "kind": "primary",
@@ -2839,7 +2859,7 @@
    "to": "donatism",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Cyprian of Carthage was a leading African authority in the 250s. Augustine tells the Donatists that they keep quoting Cyprian's letters, his opinion and his council. He asks why they use Cyprian's authority to defend their schism.",
+   "note": "Cyprian of Carthage was a leading voice of the church in Africa in the 250s. Augustine tells the Donatists that they keep quoting Cyprian's letters, his opinion and his council. He asks why they use Cyprian's authority to defend their split.",
    "sources": [
     {
      "kind": "primary",
@@ -2861,7 +2881,7 @@
    "to": "donatism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Emperor Constantine granted the Donatists judges, who heard their case at Rome with Miltiades, the city's bishop. Optatus, a Catholic bishop, reports that a Donatist bishop then appealed. Constantine replied: 'Oh, mad daring of their fury!'",
+   "note": "Emperor Constantine gave the Donatists judges. They heard the case at Rome with Miltiades, its bishop. Optatus, a Catholic bishop, says one of the Donatist bishops then made an appeal. Constantine wrote back: 'Oh, mad daring of their fury!'",
    "sources": [
     {
      "kind": "primary",
@@ -2890,6 +2910,16 @@
      "locus": "Book I",
      "quote": "There were present Miltiades,191 Bishop of the city of Rome",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "don.source.optatus-against-the-donatists",
+     "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "285",
+     "locus": "Book I, ch. 25 (the Roman verdict)",
+     "quote": "Donatus was condemned by the verdict of so many Bishops, and that Caecilian was cleared by the judgement of so great an authority.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -2902,7 +2932,7 @@
    "to": "imperial-juridical-christianity",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "Optatus says that agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus opposed Donatus, so this is a hostile report.",
+   "note": "Optatus says two agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus was Donatus's foe, so this is a hostile report.",
    "sources": [
     {
      "kind": "primary",
@@ -3100,18 +3130,8 @@
    "to": "cyrilline-miaphysite-egyptian-christianity",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "In October 451 the Council of Chalcedon deposed Dioscorus, bishop of Alexandria. He had been called three times to answer his accusers, and each time he would not come. The historian Evagrius quotes a petition to Emperor Leo. It says Timothy Aelurus broke from the Catholic church right after the council. A Miaphysite chronicle of the 500s tells the other side. In it, clergy, monks and people broke off from the new bishop's communion.",
+   "note": "The historian Evagrius quotes a petition from Egypt's bishops to Emperor Leo. It says Timothy Aelurus broke from the Catholic church right after the Council of Chalcedon. The other side kept its own record of the split. John of Ephesus records that Bishop Theodosius would not accept the council. So the emperor drove him from his throne.",
    "sources": [
-    {
-     "kind": "primary",
-     "source_id": "ijc.source.chalcedon-acts",
-     "work": "Council of Chalcedon, Condemnation Sent to Dioscorus, in Percival, The Seven Ecumenical Councils (NPNF 2.14)",
-     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-     "lines": "20082-20084",
-     "locus": "Chalcedon, 'The Condemnation Sent by the Holy and Ecumenical Synod to Dioscorus'",
-     "quote": "We do you to wit that on the thirteenth day of the month of October you were deposed from the episcopate and made a stranger to all ecclesiastical order",
-     "license": "public-domain"
-    },
     {
      "kind": "primary",
      "source_id": null,
@@ -3120,26 +3140,6 @@
      "lines": "3675-3678",
      "locus": "Evagrius, HE II.8, the petition of the Egyptian bishops and Alexandrian clergy to Emperor Leo",
      "quote": "Timotheus, immediately after the holy synod at Chalcedon, being at that time a presbyter, severed himself from the Catholic church and faith",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book III, ch. 2 (trans. Hamilton and Brooks, 1899)",
-     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-     "lines": "2539-2541",
-     "locus": "Chron. III.2",
-     "quote": "perceiving that the faith had been polluted, both by the unjust deposition of Dioscorus and the oppressive conduct of Proterius and his wickedness,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Chronicle of Pseudo-Zachariah of Mitylene, Book III, ch. 2 (trans. Hamilton and Brooks, 1899)",
-     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-     "lines": "2542-2543",
-     "locus": "Chron. III.2",
-     "quote": "and severed themselves from his communion.",
      "license": "public-domain"
     },
     {
@@ -3162,7 +3162,7 @@
    "to": "persian-church-of-the-east-early",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "The acts of the 410 Synod of Seleucia-Ctesiphon call Bishop Marutha of Maipherqat the mediator of peace between East and West. The Persian bishops then agreed to follow the western forms of worship that Isaac and Marutha had taught them.",
+   "note": "In 410 a synod met at Seleucia-Ctesiphon. Its acts call Bishop Marutha of Maipherqat the go-between for peace between East and West. The Persian bishops then agreed to follow the western forms of worship that Isaac and Marutha had taught them.",
    "sources": [
     {
      "kind": "primary",
@@ -3184,8 +3184,7 @@
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "outcome": "In a canon, the Persian bishops made a pledge. They would serve the liturgy in the western way that Bishops Isaac and Marutha had taught them."
+   "verification_state": "verified-direct"
   },
   {
    "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
@@ -3193,7 +3192,7 @@
    "to": "lollardy",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In 1409 Archbishop Thomas Arundel issued constitutions for England that ban unapproved writings of John Wickliff. They speak of a province 'defiled with a new and damnable name of Lollardy'. In 1415 the Council of Constance condemned forty-five articles of Wyclif.",
+   "note": "In 1409 Archbishop Thomas Arundel issued church rules for England. They ban any of John Wyclif's writings that the church has not cleared. They speak of a province 'defiled with a new and damnable name of Lollardy'. In 1415 the Council of Constance condemned forty-five articles of Wyclif.",
    "sources": [
     {
      "kind": "primary",
@@ -3208,14 +3207,15 @@
      "kind": "primary",
      "work": "Fillastre, Gesta concilii Constanciensis, session of 6 July 1415, in Finke, Acta Concilii Constanciensis II",
      "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
-     "lines": "2573-2574",
+     "lines": "2570-2574",
      "locus": "Fillastre Gesta, entry for 6 July (pp. 47-48)",
-     "quote": "Primo de Wiclef condempnavit XLV articulos",
+     "quote": "sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti, illius damp- nanda memoria atque super ferenda sentencia contra magistrum Johannem Hus Boemum. Et tulit sequentem sentenciam: Primo de Wiclef condempnavit XLV articulos",
      "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "verified-direct",
+   "outcome": "In July 1415 the Council of Constance sat to judge the errors of John Wyclif. It condemned forty-five of his articles."
   },
   {
    "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
@@ -3245,7 +3245,8 @@
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "verified-direct",
+   "outcome": "On 6 July 1415 the Council of Constance condemned Jan Hus as a heretic. It stripped him of his orders and handed him to the secular court."
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement--latin-papal-church-avignon-to-lateran-v",
@@ -3274,7 +3275,7 @@
    "to": "the-hussite-and-bohemian-brethren-movement",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "The English editor of Hus's On the Church reports that Hus took paragraph after paragraph from Wyclif's treatise on the same subject. On 6 July the Council of Constance condemned Wyclif's errors and sentenced Hus the same day. Wyclif's teaching began Lollardy, but this shows his influence on Hus, not that English Lollard communities shaped the Bohemians.",
+   "note": "David Schaff put Hus's On the Church into English. He reports that Hus took paragraph after paragraph from Wyclif's book on the same subject. On 6 July 1415 the Council of Constance condemned Wyclif's errors. It sentenced Hus the same day. Wyclif's teaching began Lollardy. But this shows his influence on Hus, not that English Lollard groups shaped the Bohemians.",
    "sources": [
     {
      "kind": "primary",
@@ -3311,7 +3312,7 @@
    "to": "latin-pastoral-congregational-christianity",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome reports that Cyprian read Tertullian every day and asked for him as 'the master'. Jerome had this from an old man who had been Cyprian's secretary. Augustine later called Tertullian's many works eloquent and still read.",
+   "note": "Jerome says Cyprian read Tertullian every day and asked for him as 'the master'. Jerome had this from an old man who had been Cyprian's secretary. Augustine later said that many of Tertullian's works were still read, and that they were very well written.",
    "sources": [
     {
      "kind": "primary",
@@ -3400,7 +3401,7 @@
    "to": "cappadocian-nicene-pastoral-monastic-tradition",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "The fifth-century historian Socrates says Basil and Gregory of Nazianzus studied Origen's works and drew their reading of Scripture from them. They then used Origen against the Arians. Around 382 Gregory sent a friend 'the volume of the Philocalia of Origen'. The editors of both men's letters credit that anthology to the two of them.",
+   "note": "Socrates, a historian of the fifth century, says Basil and Gregory of Nazianzus studied Origen's works. They drew their reading of Scripture from them. Then they used Origen against the Arians. Around 382 Gregory sent a friend 'the volume of the Philocalia of Origen'. The editors of both men's letters credit that book to the two of them.",
    "sources": [
     {
      "kind": "primary",
@@ -3455,7 +3456,7 @@
    "to": "ambrosian-milan-standalone",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In a letter of 400, Jerome says Ambrose had lately taken over Origen's work on the six days of creation. He adds that Ambrose's version followed Hippolytus and Basil more than Origen.",
+   "note": "Jerome wrote a letter in 400. In it he says Ambrose had just taken over Origen's work on the six days of creation. But he adds that Ambrose's version took more from Hippolytus and Basil than from Origen.",
    "sources": [
     {
      "kind": "primary",
@@ -3485,7 +3486,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Jerome says Pamphilus copied most of Origen's works by hand, and that the copies were still in the library at Caesarea. He owned twenty-five volumes in Pamphilus's hand. Writing against Rufinus, he says he found Eusebius's Apology for Origen in that library.",
+   "note": "Jerome says Pamphilus copied most of Origen's works by hand. The copies were still kept at Caesarea, in its library. Jerome owned twenty-five books in Pamphilus's own hand. In his book against Rufinus, he says he found the Apology for Origen by Eusebius in that same library.",
    "sources": [
     {
      "kind": "primary",
@@ -3517,7 +3518,7 @@
    "to": "byzantine-imperial-church-heraclian-iconoclast",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In 692 the Council in Trullo at Constantinople confirmed a list of older church canons as binding. The list includes the canons of Gregory the Wonderworker, bishop of Neocaesarea.",
+   "note": "In 692 the Council in Trullo met at Constantinople. It set its seal on a list of older church canons. The list takes in the canons of Gregory the Wonderworker, bishop of Neocaesarea.",
    "sources": [
     {
      "kind": "primary",
@@ -3539,8 +3540,7 @@
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "outcome": "At Constantinople, the Council in Trullo set its seal on the canons of Gregory the Wonderworker. It put them with those of the great councils."
+   "verification_state": "verified-direct"
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
@@ -3548,7 +3548,7 @@
    "to": "alexandria-catechetical",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In his Commentary on Matthew, Origen reports a tradition from the Gospel of Peter and the Book of James, now called the Protevangelium. It says the brothers of Jesus were Joseph's sons by an earlier wife. Origen shares its aim of honoring Mary's virginity.",
+   "note": "In his Commentary on Matthew, Origen cites a tradition from the Gospel of Peter and the Book of James. That book is now called the Protevangelium. It says the brothers of Jesus were sons of Joseph by a wife he had before Mary. Origen shares its aim, which is to honor Mary's virginity.",
    "sources": [
     {
      "kind": "primary",
@@ -3622,7 +3622,7 @@
    "to": "manichaeism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Ephraim the Syrian addressed prose discourses to Hypatius against Mani, Marcion and Bardaisan. In one he says he has 'opposed Mani also with a true refutation', attacking Mani's picture of God as a land of light.",
+   "note": "Ephraim the Syrian wrote prose discourses to Hypatius against Mani, Marcion and Bardaisan. In one he says he has 'opposed Mani also with a true refutation'. He attacks Mani's picture of God as a land of light.",
    "sources": [
     {
      "kind": "primary",
@@ -3654,7 +3654,7 @@
    "to": "marcion-marcionism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Eusebius, writing in the early fourth century, says Bardaisan wrote dialogues in Syriac against Marcion's followers. He adds that Bardaisan's pupils translated them into Greek.",
+   "note": "Eusebius wrote early in the 300s. He says Bardaisan wrote dialogues in Syriac against the followers of Marcion. He adds that Bardaisan's pupils put them into Greek.",
    "sources": [
     {
      "kind": "primary",
@@ -3686,7 +3686,7 @@
    "to": "syriac-edessa-nisibis",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret, writing in the fifth century, say Ephraim answered the songs of Bardaisan's son Harmonius with orthodox songs to the same music.",
+   "note": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret wrote in the 400s. They say Ephraim answered the songs of Harmonius, the son of Bardaisan. He wrote orthodox songs to the same music.",
    "sources": [
     {
      "kind": "primary",
@@ -3776,7 +3776,7 @@
    "to": "ebionite-nazoraean-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In On First Principles, written at Alexandria, Origen rejects the Ebionites' reading of Jesus' words about the lost sheep of Israel. He mocks their name as meaning 'poor in understanding'.",
+   "note": "Origen wrote On First Principles at Alexandria. In it he rejects how the Ebionites read Jesus' words about the lost sheep of Israel. He mocks their name as meaning 'poor in understanding'.",
    "sources": [
     {
      "kind": "primary",
@@ -3857,7 +3857,7 @@
    "to": "persian-church-of-the-east-early",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Chronicle of Edessa names Jacob and Vologesh as bishops of Nisibis before 363. That year the city passed to Persia, and Ephrem withdrew to Edessa. At the Persian church's synod of 410, Osee of Nisibis signed the acts and was named second metropolitan.",
+   "note": "The Chronicle of Edessa names Jacob and Vologesh as bishops of Nisibis before 363. That year the city passed to Persia, and Ephrem moved to Edessa. In 410 the Persian church held a synod. Osee of Nisibis signed it. The synod made him the second of its chief bishops.",
    "sources": [
     {
      "kind": "primary",
@@ -3923,7 +3923,7 @@
    "to": "syriac-orthodox-west-syriac-christianity",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "The Chronicle of Edessa says Paul, the city's bishop, would not accept the synod of Chalcedon and was removed in 522. That December his successor expelled the monks who also refused it. Jacob Baradaeus was later consecrated bishop for Edessa, but these few notices are thin evidence for a line of descent.",
+   "note": "The Chronicle of Edessa says Paul, the city's bishop, would not accept the synod of Chalcedon. He was removed in 522. That December the new bishop drove out the monks who also refused it. Later Jacob Baradaeus was made bishop for Edessa. But these few notes are thin evidence for a line of descent.",
    "sources": [
     {
      "kind": "primary",
@@ -3974,7 +3974,7 @@
    "to": "montanism-the-new-prophecy",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "An anonymous writer of about 192, quoted by Eusebius, says the faithful of Asia met many times to examine the Phrygian prophets' teaching. They rejected it as heresy and cut its followers off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.",
+   "note": "Eusebius quotes a writer of about 192 whose name is lost. He says the faithful of Asia met many times to test what the prophets of Phrygia taught. They found it to be heresy, and cut those who held it off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.",
    "sources": [
     {
      "kind": "primary",
@@ -4046,7 +4046,7 @@
    "to": "montanism-the-new-prophecy",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Constantine sent an edict to the heretics, preserved in Eusebius's Life of Constantine. It names 'ye who are called Cataphrygians', a common name for the Montanists. It forbids their meetings and takes away the houses where they gathered.",
+   "note": "Constantine sent an edict to the heretics, kept in Eusebius's Life of Constantine. It names 'ye who are called Cataphrygians', a common name for the Montanists. It forbids their meetings. It takes away the houses where they met.",
    "sources": [
     {
      "kind": "primary",
@@ -4079,7 +4079,7 @@
    "to": "montanism-the-new-prophecy",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Procopius, a hostile witness to Justinian, says the emperor ordered heresies such as the Montanists' to be given up. He reports that the Montanists of Phrygia shut themselves in their churches and burned them. A law of Justinian also names the Montanists.",
+   "note": "Procopius was a hostile witness to Justinian. He says the emperor told groups such as the Montanists to give up their beliefs. He says the Montanists of Phrygia shut themselves in their churches. Then they set them on fire. A law of Justinian also names them.",
    "sources": [
     {
      "kind": "primary",
@@ -4119,7 +4119,7 @@
    "to": "novatianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Cyprian of Carthage refused communion to envoys who brought word that Novatian had been made bishop. He later wrote that Novatian 'is not in the Church'. Augustine asked whether repentance had been fully taught 'before the Novatians opposed'.",
+   "note": "Envoys came to Cyprian of Carthage with word that Novatian had been made bishop. Cyprian would not take them into communion. He later wrote that Novatian 'is not in the Church'. Augustine asked whether repentance had been fully taught 'before the Novatians opposed'.",
    "sources": [
     {
      "kind": "primary",
@@ -4161,7 +4161,7 @@
    "to": "novatianism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The eighth canon of the Council of Nicaea, in 325, set terms for receiving 'those who call themselves Cathari', the Novatianists. Their clergy had first to promise in writing to follow the teaching of the Catholic Church.",
+   "note": "In 325 the Council of Nicaea set terms, in its eighth canon, for receiving 'those who call themselves Cathari'. These were the Novatianists. Their clergy had first to promise in writing to follow the teaching of the Catholic Church.",
    "sources": [
     {
      "kind": "primary",
@@ -4194,7 +4194,7 @@
    "to": "novatianism",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Constantine summoned Acesius, a Novatianist bishop, to the Council of Nicaea. Acesius told him the council had decided nothing new, yet kept his church apart. Socrates had the story from Auxanon, a Novatianist presbyter who went to Nicaea with Acesius.",
+   "note": "Constantine called Acesius, a bishop of the Novatians, to the Council of Nicaea. Acesius told him the council had laid down nothing new. Yet he kept his church apart. Socrates had the story from Auxanon, a Novatian priest. As a young man, Auxanon went to Nicaea with Acesius.",
    "sources": [
     {
      "kind": "primary",
@@ -4300,7 +4300,7 @@
    "to": "marcion-marcionism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Tertullian says Marcion gave money to the church at Rome, which later rejected him and his gift together. Irenaeus, who knew Polycarp of Smyrna, says Polycarp turned many in Rome away from Marcion. He also records Polycarp calling Marcion 'the first-born of Satan' to his face.",
+   "note": "Tertullian says Marcion gave money to the church at Rome. Later the church threw out both him and his gift. Irenaeus knew Polycarp of Smyrna. He says Polycarp turned many in Rome away from Marcion. He also tells how Polycarp called Marcion 'the first-born of Satan' to his face.",
    "sources": [
     {
      "kind": "primary",
@@ -4352,7 +4352,7 @@
    "to": "valentinian-and-other-gnostic-christianities",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Tertullian wrote a treatise Against the Valentinians and traces the school to its founder. He says Valentinus had hoped to become a bishop and broke with the church when a confessor was chosen instead.",
+   "note": "Tertullian wrote a book Against the Valentinians. He traces the school back to its founder. He says Valentinus had hoped to become a bishop. When a confessor was chosen instead, Valentinus broke with the church.",
    "sources": [
     {
      "kind": "primary",
@@ -4382,7 +4382,7 @@
    "to": "valentinian-and-other-gnostic-christianities",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Irenaeus says Valentinus came to Rome under bishop Hyginus and stayed until Anicetus. He says Polycarp of Smyrna, visiting Rome, turned many away from Valentinus and Marcion to the church. Tertullian adds that the Roman church expelled Valentinus more than once.",
+   "note": "Irenaeus says Valentinus came to Rome when Hyginus was bishop. He stayed until the time of Anicetus. Polycarp of Smyrna came to Rome, he says, and turned many from Valentinus and Marcion to the church. Tertullian adds that the church at Rome threw Valentinus out more than once.",
    "sources": [
     {
      "kind": "primary",
@@ -4424,7 +4424,7 @@
    "to": "valentinian-and-other-gnostic-christianities",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Justin, in his Dialogue with Trypho, names the Valentinians and Basilidians among groups who wrongly call themselves Christians. Tertullian later lists Justin among the writers who had already refuted the Valentinians.",
+   "note": "In his Dialogue with Trypho, Justin names the Valentinians and the Basilidians. He puts them with the groups who call themselves Christians but are not. Later, Tertullian lists Justin with the writers who had already written against them.",
    "sources": [
     {
      "kind": "primary",
@@ -4455,7 +4455,7 @@
    "to": "anomoean-eunomian-christianity",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Philostorgius, a historian on the Eunomian side, says Aetius studied under three pupils of Lucian of Antioch. They were Athanasius of Anazarbus, Antonius of Tarsus, and Leontius, then a presbyter at Antioch. His history survives only in Photius's summary.",
+   "note": "Philostorgius wrote history on the side of Eunomius. He says Aetius learned from three pupils of Lucian of Antioch. They were Athanasius of Anazarbus, Antonius of Tarsus, and Leontius, then a priest at Antioch. Only Photius's short version of his book is left.",
    "sources": [
     {
      "kind": "primary",
@@ -4487,7 +4487,7 @@
    "to": "antiochene-church-third-century",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Eusebius says bishops from many provinces gathered at Antioch to deal with Paul of Samosata. Among the most eminent he names Gregory and his brother Athenodorus, pastors of the churches in Pontus.",
+   "note": "Eusebius says bishops from many lands met at Antioch to deal with Paul of Samosata. Among the best known he names Gregory and his brother Athenodorus. They were pastors of the churches in Pontus.",
    "sources": [
     {
      "kind": "primary",
@@ -4508,6 +4508,16 @@
      "locus": "HE VII.28.1",
      "quote": "Athenodorus, pastors of the churches in Pontus;",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VII.29.1 (trans. McGiffert, NPNF2 1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "41953-41954",
+     "locus": "HE VII.29.1 (the final synod at Antioch)",
+     "quote": "his false doctrine clearly shown before all, and he was excommunicated from the Catholic Church under heaven.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -4520,7 +4530,7 @@
    "to": "roman-church-third-century",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "The bishops who deposed Paul of Samosata at Antioch addressed their letter to Dionysius, bishop of Rome, and to Maximus of Alexandria.",
+   "note": "A council of bishops at Antioch put Paul of Samosata out of office. They wrote of it to Dionysius, bishop of Rome, and to Maximus of Alexandria.",
    "sources": [
     {
      "kind": "primary",
@@ -4564,7 +4574,7 @@
    "to": "ebionite-nazoraean-current",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Eusebius of Caesarea finished his Church History around 324, under Constantine. In it he says the evil demon brought the Ebionites over to his own purposes. They were rightly named, he writes, for their 'poor and mean opinions concerning Christ'.",
+   "note": "Eusebius of Caesarea wrote his Church History under Constantine, and it was done around 324. In it he says the evil demon won the Ebionites over to his own ends. The name fit them, he writes, for they held 'poor and mean opinions concerning Christ'.",
    "sources": [
     {
      "kind": "primary",
@@ -4653,7 +4663,7 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
      "work": "Axel Moberg, introduction to The Book of the Himyarites (1924), on the date of the work",
      "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
@@ -4766,7 +4776,7 @@
    "to": "cyrilline-miaphysite-egyptian-tradition",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "In 457 the party in Alexandria that rejected Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril, and Cyril ordained him. A much later Coptic history says the letters of a later head of the church, Peter, were kept at the Monastery of Macarius.",
+   "note": "In 457 the party in Alexandria that rejected Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril, and Cyril ordained him.",
    "sources": [
     {
      "kind": "primary",
@@ -4787,16 +4797,6 @@
      "locus": "Chron. IV.1",
      "quote": "they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
      "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Peter (trans. Evetts, PO 1)",
-     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-     "lines": "35554-35555",
-     "locus": "Hist. Patr., Peter III",
-     "quote": "All his epistles are preserved in the Monastery of Father Macarius;",
-     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -4808,7 +4808,7 @@
    "to": "roman-church-gregorian",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the link rests on the likeness of the two lists.",
+   "note": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the tie rests on the likeness of the two lists.",
    "sources": [
     {
      "kind": "primary",
@@ -5119,6 +5119,16 @@
      "lines": "44183",
      "locus": "Ep. 51.13",
      "quote": "I dare not offer the sacrifice if you intend to be present.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.ambrose-epistles",
+     "work": "Ambrose, Letter 41 (To his sister), §28 (trans. de Romestin, NPNF 2.10)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "43982-43986",
+     "locus": "Ep. 41.28 (the emperor’s promise)",
+     "quote": "he said that he would amend the edict. I went on at once to say that he must end the whole investigation, lest the Count should use the opportunity of the investigation to do any injury to the Christians. He promised that it should be so.",
      "license": "public-domain"
     }
    ],
@@ -5459,7 +5469,7 @@
    "to": "the-church-of-the-east-under-persia",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Barhadbeshabba wrote about the year 600. He says Theodore's commentaries were put into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East spoke up for 'the books and the teaching of saint Theodore' against those who attacked him.",
+   "note": "Barhadbeshabba wrote about the year 600. He says Theodore's commentaries were put into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East met. It defended 'the books and the teaching of saint Theodore' against those who attacked him.",
    "sources": [
     {
      "kind": "primary",
@@ -5628,6 +5638,16 @@
      "locus": "Gesta Concilii Aquileiensis, opening",
      "quote": "cum epifcopis , Aqui- lejenfium civitatis Valeriano, Ambrofio ,",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Aquileia (381), Acts: the sentence on Palladius",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "60892-60895",
+     "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3, the sentence on Palladius",
+     "quote": "pronuncio illum facerdo- tio indignum & * carendum; & in loco ejus catholicus ordinetur, Omnes epifcop! dixerunr: Anathema Palladio .",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -5778,7 +5798,7 @@
    "to": "hieronymian-ascetic-literary",
    "type": "argued against",
    "confidence": "Inferential-Thin",
-   "note": "In 416 or 417, Jerome's monasteries at Bethlehem were attacked and burned, and his deacon was killed. Augustine wrote that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it had not named the man behind it, though he saw no doubt about who was guilty. So the charge rests on report, not on a named act.",
+   "note": "In 416 or 417, Jerome's monasteries at Bethlehem were attacked and burned, and his deacon was killed. Augustine wrote that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it had not named the man behind it. Yet he saw no doubt about who was guilty. So the charge rests on report, not on a named act.",
    "sources": [
     {
      "kind": "primary",
@@ -5821,7 +5841,7 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
      "work": "W. H. Fremantle, Prolegomena to Jerome, chronology of the Pelagian years (NPNF 2.6, 1893), an editor's dating",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
@@ -6351,7 +6371,7 @@
    "to": "gothic-and-vandal-homoian-christianity",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. Socrates, writing in the fifth century, says many Goths took up this faith for the sake of the emperor Valens, and that many still held it in his day.",
+   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. Socrates wrote in the fifth century. He says many Goths took up this faith for the sake of the emperor Valens. Many still held it in his day.",
    "sources": [
     {
      "kind": "primary",
@@ -6508,7 +6528,7 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
      "work": "W. H. Fremantle, introduction to Jerome's Dialogue against the Luciferians (NPNF 2.6)",
      "file": "cic/texts/npnf206_jerome-principal-works.xml",
@@ -7841,7 +7861,7 @@
    "to": "church-of-caucasian-albania",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Elias led the church of Armenia as its catholicos from 703 to 717. He worked to keep Albania in the Armenian communion. When Nerses Bakur, head of the church in Albania, leaned towards Chalcedon, he was removed and Simeon was put in his place. This rests on modern histories of the Armenian church.",
+   "note": "Elias led the church of Armenia as its catholicos from 703 to 717. He worked to keep Albania in the Armenian communion. When Nerses Bakur, head of the church in Albania, leaned toward Chalcedon, he was removed and Simeon was put in his place. This rests on modern histories of the Armenian church.",
    "sources": [
     {
      "kind": "secondary",
@@ -8489,7 +8509,7 @@
      "license": null
     }
    ],
-   "citation_specificity": "C",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -8814,6 +8834,26 @@
      "locus": "HE III.25",
      "quote": "he is the door-keeper, whom I will not contradict, but will, as far as I know and am able, in all things obey his decrees",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8215-8218",
+     "locus": "HE III.25, close",
+     "quote": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.26 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8227-8232",
+     "locus": "HE III.26",
+     "quote": "Colman, perceiving that his doctrine was rejected, and his sect despised, took with him such as would not comply with the Catholic Easter and the tonsure (for there was much controversy about that also), and went back into Scotland,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -9135,7 +9175,7 @@
    "to": "cluniac-reform-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "From 742 the Frankish reformers ordered monks and nuns to live by the Rule of Benedict. Cluny, founded around 910, was a house of Benedictine monks. The link rests on that shared Rule, not on any named founder who passed from one to the other.",
+   "note": "From 742 the Frankish reformers ordered monks and nuns to live by the Rule of Benedict. Cluny, founded around 910, was a house of Benedictine monks. The tie rests on that shared Rule, not on any named founder who passed from one to the other.",
    "sources": [
     {
      "kind": "primary",
@@ -9880,7 +9920,7 @@
    "to": "balkan-bogomil-continuation",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Franjo Rački, in 1869, saw one Bogomil movement here. He traced it from Bulgaria in the 900s to the Bogomils put on trial in the Byzantine capital around 1100. In 1250 Rainerius Sacconi still named a church of Bulgaria among the Cathar churches. No Bogomil text of their own shows the line.",
+   "note": "In 1869 Franjo Rački saw these Bogomils as one movement. He traced it from Bulgaria in the 900s to the Bogomils put on trial in the Byzantine capital around 1100. In 1250 Rainerius Sacconi still named a church of Bulgaria among the Cathar churches. No Bogomil text of their own shows the line.",
    "sources": [
     {
      "kind": "secondary",
@@ -10665,7 +10705,7 @@
      "license": "public-domain"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "verified-direct"
   },
   {
@@ -10828,7 +10868,7 @@
    "to": "cistercian-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text quoted here says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
+   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. The tie rests on a 1907 editor of the Rule, not on the early Cistercians' own words. Oswald Hunter Blair notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
    "sources": [
     {
      "kind": "secondary",
@@ -11088,7 +11128,7 @@
    ],
    "citation_specificity": "A",
    "verification_state": "verified-direct",
-   "outcome": "Albert, patriarch of Jerusalem, gave the Carmelite friars their rule. Later the friars asked the pope to explain, correct and soften it."
+   "outcome": "The hermits on Mount Carmel got their rule from Albert, the patriarch of Jerusalem. It was written as a letter to them."
   },
   {
    "id": "the-dominican-order--the-franciscan-movement",
@@ -11197,7 +11237,7 @@
    "to": "franciscan-order-era-6",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Francis's Rule of 1223 binds the brothers to obey Francis and his successors. The same Order of Friars Minor carried on past 1300. In 1325 Pope John XXII wrote that his ruling was not against the order itself, only against some of its brothers.",
+   "note": "Francis's Rule of 1223 binds the brothers to obey Francis and his successors. The same Order of Friars Minor carried on into the 1300s. In 1325 Pope John XXII wrote that his ruling was not against the order itself, only against some of its brothers.",
    "sources": [
     {
      "kind": "primary",
@@ -11394,7 +11434,7 @@
      "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -11651,7 +11691,7 @@
    "to": "balkan-bogomil-continuation",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. Here it comes as Franjo Rački told it in 1869.",
+   "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. We have it from Franjo Rački, who told it in 1869.",
    "sources": [
     {
      "kind": "secondary",
@@ -11791,7 +11831,7 @@
    "to": "latin-papal-church-avignon-to-lateran-v",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claims across 1300.",
+   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claim from Gregory to Boniface.",
    "sources": [
     {
      "kind": "primary",
@@ -12172,7 +12212,7 @@
    "to": "byzantine-church-palaiologan",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The church of Constantinople kept its records and its rulings across the year 1300. In 1324 its synod settled a dispute by a decision made long before at Nymphaion, under Patriarch Arsenios. The patriarchs' register also copies a ruling of his from 1256, found in the church's old books.",
+   "note": "The church of Constantinople kept its records and its rulings from one century to the next. In 1324 its synod settled a dispute by a decision made long before at Nymphaion, under Patriarch Arsenios. The patriarchs' register also copies a ruling of his from 1256, found in the church's old books.",
    "sources": [
     {
      "kind": "primary",
@@ -12248,7 +12288,7 @@
    "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
    "from": "byzantine-church-after-1054",
    "to": "kievan-rus-christianity-1054-1240",
-   "type": "influenced",
+   "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
    "note": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.",
    "sources": [
@@ -12343,7 +12383,7 @@
      "work": "Dimitri Obolensky, Six Byzantine Portraits (Oxford, 1988), the portrait of Sava"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -13396,6 +13436,16 @@
      "locus": "Part I, on the Waldenses of Dauphiné",
      "quote": "The method of harvissing the Waldenses by war was never known till that time ; but Albert de (.'apitaneis. Archdeacon of Cremona,senl against them by Pope Innocent VIII., began to desire the aid and assistance of the King's Lieutenant in Dauphiny",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Waldenses (1618; English, Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "4636-4641",
+     "locus": "Part I, on the Waldenses of Dauphiné (Ploieri at Embrun, 1489)",
+     "quote": "who began to exhibit fresh informations against the Waldenses of Fraissiniere, in the year 1489. He cited them to appear before him at Ambrun, and for not appearing, he excommuni- cated and anathematized them, and at last condemned them, as contuma- cious heretics and backsliders, to be delivered to the secular power, and their goods to be confiscated.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -13662,7 +13712,7 @@
    "to": "the-tridentine-church",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "In 1546 the Council of Trent enforced a penalty on unapproved religious books 'imposed in a canon of the last Council of Lateran'. In 1551 it renewed and enlarged a law that Pope Clement V had issued at the Council of Vienne. The same church carried its own laws across 1517.",
+   "note": "In 1546 the Council of Trent enforced a penalty on unapproved religious books 'imposed in a canon of the last Council of Lateran'. In 1551 it renewed and enlarged a law that Pope Clement V had issued at the Council of Vienne. The same church carried its own laws on into the age of the Reformation.",
    "sources": [
     {
      "kind": "primary",
@@ -15406,7 +15456,7 @@
    "to": "the-english-reformation-and-elizabethan-settleme",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' Archbishop Parker also cited Martyr and Bullinger when he argued for the rules.",
+   "note": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' In 1566 Archbishop Parker had cited Martyr and Bullinger too, to press the clergy to conform.",
    "sources": [
     {
      "kind": "primary",
@@ -15684,7 +15734,7 @@
    "type": "argued against",
    "confidence": "Documented",
    "note": "The Act of Uniformity of 1559 fined anyone who stayed away from the parish church twelve pence each time. In January 1586 a London court found priests guilty of treason. They had been made priests in France by the Pope's authority and had then stayed in England.",
-   "outcome": "In 1586 London courts found priests guilty of treason under a law of the last parliament. Their crime was being made priests abroad and then staying in England.",
+   "outcome": "In January 1586 a London court condemned priests for treason. They had been made priests in France by the Pope's authority. They then stayed in England past a forty-day limit.",
    "sources": [
     {
      "kind": "primary",
@@ -15756,38 +15806,6 @@
      "lines": "1097-1100",
      "locus": "Introduction",
      "quote": "in the eyes of the men of the time they were important as adding to the plea the support of Gualter and Beza, two of the leaders of foreign protestantism, whose names carried great weight.",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
-   "id": "puritanism--restoration-georgian-church-of-england",
-   "from": "puritanism",
-   "to": "restoration-georgian-church-of-england",
-   "type": "broke with",
-   "confidence": "Documented",
-   "note": "The Act of Uniformity of 1662 took away the posts of every minister who would not state his assent to the Prayer Book. Richard Baxter wrote that on St Bartholomew's Day, 24 August 1662, about 1,800 or 2,000 ministers 'were silenced and cast out.'",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
-     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
-     "lines": "813-817",
-     "locus": "Act of Uniformity (1662)",
-     "quote": "negleft or re- fufe to do the fame within the Time afore faid, or (in cafe cf fuch Impediment) within one Month after fuch Impediment removed, (hall IpfofaClo be deprived of all his Spiritual Promotions",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged ed. J. M. Lloyd Thomas (1925)",
-     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
-     "lines": "10801-10803",
-     "locus": "Part Two, 1662",
-     "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.",
      "license": "public-domain"
     }
    ],
@@ -16427,7 +16445,8 @@
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "verified-direct",
+   "outcome": "In 1540 Pope Paul III gave the Society of Jesus his approval in a bull. He used his power as pope to confirm it."
   },
   {
    "id": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
@@ -16679,7 +16698,7 @@
      "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)"
     }
    ],
-   "citation_specificity": "C",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -16842,7 +16861,7 @@
      "license": "public-domain"
     }
    ],
-   "citation_specificity": "C",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -16851,7 +16870,7 @@
    "to": "japanese-christianity-hidden-emergence-meiji",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "A Franciscan report of the 1620s says the ban of 1614 sent every missionary out of Japan. The English trader Richard Cocks noted the same thing in 1615. The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin.",
+   "note": "A Franciscan report of the 1620s says the ban of 1614 exiled every missionary from Japan. Yet most of them stayed on in hiding, it adds, and kept the faith alive. The English trader Richard Cocks noted the ban in 1615. The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin.",
    "sources": [
     {
      "kind": "primary",
@@ -16861,6 +16880,16 @@
      "lines": "6913-6914",
      "locus": "annex, running head 'Mémorial Sotelo'",
      "quote": "religiosi quoque omnes generali Imperatoris edicto relegati;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+     "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+     "lines": "6921-6922",
+     "locus": "annex, running head 'Mémorial Sotelo'",
+     "quote": "quorum labore, doctrina et exemplo fides in multis fidelibus egerrima conservatur",
      "license": "public-domain"
     },
     {
@@ -16884,7 +16913,7 @@
      "work": "Christal Whelan, trans., The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden Christians (Honolulu, 1996), introduction"
     }
    ],
-   "citation_specificity": "B",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -17549,7 +17578,7 @@
    "type": "argued against",
    "confidence": "Documented",
    "note": "In 1599 the Archbishop of Goa, Aleixo de Menezes, held a synod at Diamper and bound it to the Council of Trent. Its decrees called the community's Syriac books the work of Nestorian heretics. They forbade anyone to read them and ordered them destroyed.",
-   "outcome": "The synod condemned the community's Syriac books and ordered them destroyed. It also bound the church to the rules of the Council of Trent.",
+   "outcome": "The synod said many Syriac books came from Nestorian heretics. It forbade all Christians to read them and ordered them destroyed.",
    "sources": [
     {
      "kind": "primary",
@@ -17714,9 +17743,9 @@
    "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
    "from": "st-thomas-christians-under-portuguese-pressure-d",
    "to": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "type": "continued as",
+   "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "In 1787 'all the Church people of Malankara' signed a document recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam told the same story of his church. He wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685.",
+   "note": "In 1787 'all the Church people of Malankara' signed a paper recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685. The Mar Thoma reform grew inside this church. In 1847 the Patriarch of Antioch wrote about the reforming bishop Matthew. His predecessor, he said, had sent a bishop to keep 'all the flock of Mar Thomas' from him. The hill churches of the northeast are not part of this line.",
    "sources": [
     {
      "kind": "primary",
@@ -17766,6 +17795,16 @@
      "lines": "3054-3058",
      "locus": "chap. III, the oath of 1653",
      "quote": "in the year 1653, fifty- four years after the Synod of Diamper had been held, a number of their leading men assembled in the church of Alan ghat, and there solemnly bound themselves by oath,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847, on the earlier Patriarch Elias sending Mar Koorillos, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2593-2595",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,",
      "license": "public-domain"
     }
    ],
@@ -19926,7 +19965,7 @@
    "to": "catholic-church-long-nineteenth-century",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Pope Pius VII made a concordat with France in 1801 that let the Catholic religion be practiced freely there. In 1817 the same pope signed a concordat with Bavaria. One papacy carried the church across 1815.",
+   "note": "Pope Pius VII made a concordat with France in 1801 that let the Catholic religion be practiced freely there. In 1817 the same pope signed a concordat with Bavaria. So one pope led the same church in both years.",
    "sources": [
     {
      "kind": "primary",
@@ -19978,7 +20017,7 @@
    "to": "victorian-church-of-england",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The 1662 Prayer Book has a sermon or a homily follow the Creed at communion. In 1859 an Oxford editor said this rule stood 'nearly the same as we have it at the present day.' The same book and church carried on past 1815.",
+   "note": "The 1662 Prayer Book has a sermon or a homily follow the Creed at communion. In 1859 an Oxford editor said this rule stood 'nearly the same as we have it at the present day.' The same book and church carried on into the 1800s.",
    "sources": [
     {
      "kind": "primary",
@@ -20389,7 +20428,7 @@
    "to": "alaskan-mission-herman-veniaminov",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. That shows the Alaskan church as part of the Russian church. But this list of 1842 says nothing of the first mission of 1794, or of Herman, so the tie is thin.",
+   "note": "By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. An English book of that year lists it among the dioceses set up since 1830. That shows the Alaskan church as part of the Russian church. But the list says nothing of the first mission of 1794, or of Herman, so the tie is thin.",
    "sources": [
     {
      "kind": "secondary",
@@ -20916,7 +20955,7 @@
    ],
    "citation_specificity": "A",
    "verification_state": "verified-direct",
-   "outcome": "In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730."
+   "outcome": "In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave. Its envoy confirmed him in 1730."
   },
   {
    "id": "armenian-christianity-era-8--catholic-church-ancien-regime",
@@ -21283,7 +21322,7 @@
    "to": "catholic-church-long-nineteenth-century",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1837 Alexander Campbell held a public debate with a Catholic bishop, John Purcell. It went on for days, and the movement printed the whole of it. The link rests on one modern work, a reference book on the movement.",
+   "note": "In 1837 Alexander Campbell held a public debate with a Catholic bishop, John Purcell. It went on for days, and the movement printed the whole of it. This rests on one modern work, a reference book on the movement.",
    "sources": [
     {
      "kind": "secondary",
@@ -21357,7 +21396,7 @@
    "to": "restorationist-apocalyptic-ferment-and-adventism",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "William Miller's followers of the 1830s and 1840s came from many American churches, in the decades of the great frontier revivals. The evidence is thin. The link rests on that timing and on modern books on Miller and on Adventist belief.",
+   "note": "William Miller's followers of the 1830s and 1840s came from many American churches, in the decades of the great frontier revivals. The evidence is thin. The tie rests on that timing and on modern books on Miller and on Adventist belief.",
    "sources": [
     {
      "kind": "secondary",
@@ -21389,7 +21428,7 @@
    "to": "seventh-day-adventist-church-twentieth-century",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. It carried on past 1906 as the same church. Its 1931 statement of belief settled its long debate over the Trinity. This rests on George Knight's modern history of Adventist belief.",
+   "note": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. It carried on into the twentieth century as the same church. Its 1931 statement of belief settled its long debate over the Trinity. This rests on George Knight's modern history of Adventist belief.",
    "sources": [
     {
      "kind": "secondary",
@@ -21507,7 +21546,7 @@
    "to": "the-salvation-army",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Holiness teachers said that God can make a believer truly holy in this life, and at once. The historians Norman Murdoch and Melvin Dieter show the Booths taking up this teaching. The link rests on their modern studies.",
+   "note": "Holiness teachers said that God can make a believer truly holy in this life, and at once. The historians Norman Murdoch and Melvin Dieter show the Booths taking up this teaching. This rests on their modern studies.",
    "sources": [
     {
      "kind": "secondary",
@@ -21539,7 +21578,7 @@
    "to": "the-sunday-school-and-bible-institute-movement",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "John Nelson Darby split the Bible's story into ages he called dispensations. In 1970 the historian Ernest Sandeen traced how Bible schools in America came to teach this plan. The link rests on his book.",
+   "note": "John Nelson Darby split the Bible's story into ages he called dispensations. In 1970 the historian Ernest Sandeen traced how Bible schools in America came to teach this plan. This rests on his book.",
    "sources": [
     {
      "kind": "secondary",
@@ -22057,7 +22096,7 @@
    "to": "the-reveil-and-inner-mission-awakening",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The historian Timothy Stunt finds Moravian roots in the awakening that broke out in Geneva after 1815. The link rests on his book.",
+   "note": "The historian Timothy Stunt finds Moravian roots in the awakening that broke out in Geneva after 1815. This rests on his book.",
    "sources": [
     {
      "kind": "secondary",
@@ -22247,7 +22286,7 @@
    "to": "the-black-church-in-the-twentieth-century",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1816 Black Methodists in Philadelphia and Baltimore formed a church of their own, the African Methodist Episcopal Church. It lived on past 1906, as did the AME Zion Church and the Black Baptist churches. Historians see the Black church of the next century, which led much of the civil rights movement, as the same tradition carried on.",
+   "note": "In 1816 Black Methodists in Philadelphia and Baltimore formed a church of their own. It was the African Methodist Episcopal Church. It lived on in the next century, as did the AME Zion Church and the Black Baptist churches. Historians see the Black church of that century as the same tradition carried on. That church led much of the civil rights movement.",
    "sources": [
     {
      "kind": "primary",
@@ -22268,7 +22307,7 @@
      "quote": null
     }
    ],
-   "citation_specificity": "C",
+   "citation_specificity": "A",
    "verification_state": "named-not-rechecked"
   },
   {
@@ -22510,7 +22549,7 @@
    "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. The sources cited show the diocese being founded, but nothing of it after 1842. So the line to the later church is thin.",
+   "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. A list of 1842 shows the diocese being founded, but nothing of it after that. So the line to the later church is thin.",
    "sources": [
     {
      "kind": "primary",
@@ -22723,7 +22762,7 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
      "work": "Mirbt, Quellen (1911), no. 533, editor's note on the election of Gerard Gul, 1892",
      "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
@@ -22954,7 +22993,7 @@
    "to": "nineteenth-century-latin-american-catholicism",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "In 1862 Pius IX and Ecuador signed a pact in Rome that kept the state's faith Catholic. It tied every school to church teaching and let bishops alone pick the books for religion. In 1895 Mexico's Guadalupe image was to be crowned in the name of Pope Leo XIII and by his order, part of a pull toward Rome that historians call \"Romanization.\"",
+   "note": "In 1862 Pius IX and Ecuador signed a pact in Rome that kept the state's faith Catholic. It tied every school to church teaching and let bishops alone pick the books for religion. In 1895 Mexico's image of Guadalupe was to be crowned in the name of Pope Leo XIII, by his order. Historians call this pull toward Rome 'Romanization'.",
    "sources": [
     {
      "kind": "primary",
@@ -23451,7 +23490,7 @@
    "to": "the-russian-new-martyrs-and-the-catacomb-church",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. The sources cited stop long before 1917. They say nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
+   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
    "sources": [
     {
      "kind": "primary",
@@ -23724,7 +23763,7 @@
    "to": "armenian-christianity-zartonk",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The same church carried on past 1815 under the same head. Ephraim, who took his seat at Etchmiadzin in 1810, still led it in 1817, when he backed a Russian society's plan to print the Armenian Bible. In Constantinople, talks with the Catholic party begun in 1810 started again in 1816.",
+   "note": "The same church carried on under the same head. Ephraim took his seat at Etchmiadzin in 1810. He still led the church in 1817, when he backed a Russian society's plan to print the Armenian Bible. In Constantinople, talks with the Catholic party begun in 1810 started again in 1816.",
    "sources": [
     {
      "kind": "primary",
@@ -62972,6 +63011,12 @@
    "date": "2026-11-08",
    "reason": "Its evidence is the line of Apostolic catholicoi after 1650, which now belongs to the Armenian Apostolic Church, 1650-1815. The Mekhitarist and Armenian Catholic movement does not continue the New Julfa church.",
    "replacedBy": "armenian-christianity-new-julfa--armenian-apostolic-church-era-8"
+  },
+  {
+   "id": "puritanism--restoration-georgian-church-of-england",
+   "date": "2026-11-08",
+   "reason": "The 1662 ejection is carried by the Old Dissent link on the same evidence (the Act of Uniformity and Baxter). The Puritanism movement ends in 1660; the ejected ministers of 1662 are the start of Old Dissent.",
+   "replacedBy": "english-old-dissent--restoration-georgian-church-of-england"
   }
  ],
  "retiredMovements": []
