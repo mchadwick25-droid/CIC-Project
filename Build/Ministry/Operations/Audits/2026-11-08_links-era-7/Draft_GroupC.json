@@ -987,8 +987,8 @@
    "type": "influenced",
    "confidence": "Documented",
    "note": "King Christian III's church law of 1537 says he sent its draft to Martin Luther. Luther and the other Wittenberg teachers approved it. At the Uppsala council of 1593, Sweden's chancellor said the realm would stand on the Augsburg Confession of 1530.",
-   "outcome": "Christian III issued the ordinance, approved at Wittenberg, as church law for the kingdom of Denmark and his duchies in 1537.",
-   "outcome_locus": "Ordinatio 1537, king's preface, lines 102-119: the king ordered the ordinance drawn up for 'Daniae Regno & Ducatibus nostris', sent it to Luther, and Luther with the Wittenberg theologians approved it; the work is the issued ordinance itself.",
+   "outcome": "In 1537 Christian III made his church ordinance law for Denmark and his duchies.",
+   "outcome_locus": "Ordinatio 1537, king's preface, lines 102-122: the king ordered the ordinance drawn up for 'Daniae Regno & Ducatibus nostris', sent it to Luther, and Luther with the Wittenberg theologians approved it; the work is the issued ordinance itself.",
    "sources": [
     {
      "kind": "primary",
@@ -1052,8 +1052,8 @@
    "change_reason": "New link for a relationship the movement's own text names (three inventory rows: Augsburg, Luther, Lutheran churches).",
    "fre": 67.8,
    "fk": 7.0,
-   "outcome_fre": 55.4,
-   "outcome_fk": 10.5
+   "outcome_fre": 76.5,
+   "outcome_fk": 5.8
   },
   {
    "id": "scandinavian-reformation-kingdoms--the-tridentine-church",
@@ -1114,7 +1114,7 @@
    "type": "argued against",
    "confidence": "Documented",
    "note": "In 1546 Calvin wrote to Farel that if Servetus came to Geneva, he would not leave alive. In August 1553 he hoped for a death sentence. On 27 October the city council took advice from Bern, Basel, Zurich and Schaffhausen, then had Servetus burned alive.",
-   "outcome": "In October 1553 Geneva's council condemned Servetus for 'great errors and blasphemies' and ordered him and his books burned.",
+   "outcome": "In 1553 Geneva's council judged Servetus guilty of great errors and blasphemies. It had him and his books burned.",
    "outcome_locus": "Calvini Opera 8, Small Council register of 26 October 1553 (lines 54352-54361) and the pastors' register of 27 October (lines 54708-54714), both listed.",
    "sources": [
     {
@@ -1169,8 +1169,8 @@
    "change_reason": "New link for a relationship the movement's own text names (two inventory rows).",
    "fre": 61.7,
    "fk": 8.1,
-   "outcome_fre": 33.5,
-   "outcome_fk": 13.1
+   "outcome_fre": 61.4,
+   "outcome_fk": 6.9
   },
   {
    "id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
@@ -1254,50 +1254,50 @@
    "movement": "dutch-further-reformation-and-refuge-culture",
    "field": "relationsSummary",
    "old": "Historians still debate whether this is a distinct tradition or simply the devotional intensity of Dutch Reformed church life at the time. Its practical piety later fed into German Pietism and, through the Dutch Reformed diaspora, reached South Africa and North America.",
-   "new": "Historians still debate whether this is a distinct tradition or simply the devotional intensity of Dutch Reformed church life at the time. Its practical piety later fed into German Pietism. It may also have reached South Africa and North America with Dutch Reformed emigrants, but no early record shows how.",
+   "new": "Historians still argue whether this was a tradition of its own or just the fervor of Dutch church life at the time. Its practical piety later fed into German Pietism. It may also have gone to South Africa and North America with Dutch Reformed emigrants, but no early account shows how.",
    "reason": "The Pietism tie now has a Documented link (Reitz, 1717). No vendored or repo-cited source shows the piety itself reaching South Africa or North America, so that clause is qualified.",
-   "fre_after": 44.4,
-   "fk_after": 11.2
+   "fre_after": 63.5,
+   "fk_after": 8.6
   },
   {
    "n": 1,
    "movement": "dutch-further-reformation-and-refuge-culture",
    "field": "legacy",
    "old": "Its books traveled. Translated into German, this Dutch practical divinity fed directly into German Pietism, and through the Dutch Reformed diaspora it reached South Africa and North America. The refuge culture left the wider mark. The Republic's habit of tolerating in private what it would not endorse in public, and its printing trade, put ideas into circulation across Europe that had nowhere else to go.",
-   "new": "Its books traveled. Retold in German, this Dutch practical divinity fed into German Pietism. It may also have gone with Dutch Reformed emigrants to South Africa and North America, though no early record shows it. The refuge culture left the wider mark. The Republic's habit of tolerating in private what it would not endorse in public, and its printing trade, put ideas into circulation across Europe that had nowhere else to go.",
+   "new": "Its books traveled. Retold in German, this Dutch practical divinity fed into German Pietism. It may also have gone with Dutch Reformed emigrants to South Africa and North America, though no early account shows it. The refuge culture left the wider mark. The Republic would tolerate in private what it would not endorse in public. That habit, and its printing trade, sent ideas across Europe that had nowhere else to go.",
    "reason": "'Translated' and 'directly' outrun the evidence: Reitz retells a Dutch life in German, and no vendored text shows Spener or Francke drawing on Dutch writers. The diaspora clause is qualified as in the summary.",
-   "fre_after": 54.7,
-   "fk_after": 9.2
+   "fre_after": 62.6,
+   "fk_after": 7.5
   },
   {
    "n": 2,
    "movement": "the-remonstrants-and-dort",
    "field": "legacy",
    "old": "Both sides outlived the quarrel. The Remonstrant Brotherhood still exists as a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition worldwide, and the five points they answer are still taught in Reformed churches as the shorthand summary of Calvinism. 'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
-   "new": "Both sides outlived the quarrel. The Remonstrant Brotherhood still exists as a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition, sworn to by its ministers as far away as North America. 'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
+   "new": "Both sides outlived the quarrel. The Remonstrant Brotherhood is still a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three Dutch Reformed standards of faith. Ministers swore to them as far away as North America. 'Arminian' became a lasting label in English theology. John Wesley took it up a century later, and the whole Methodist family took it from him.",
    "reason": "The 1840 constitution of the Reformed Dutch Church of North America has ministers subscribe the Heidelberg Catechism, the Belgic Confession and the Canons (lines 357-365), which supports the three standards and their reach. 'The five points they answer' are the Remonstrant articles, not Calvinism's summary, and the modern teaching use has no vendored or repo-cited source; the clause is removed.",
-   "fre_after": 44.0,
-   "fk_after": 11.7
+   "fre_after": 60.3,
+   "fk_after": 7.7
   },
   {
    "n": 3,
    "movement": "the-waldensian-reformed-union",
    "field": "legacy",
    "old": "The Waldensian Church still exists — since the nineteenth century out of the valleys and across Italy, with a sister church in Argentina and Uruguay, and since 1979 in union with Italian Methodists. Its valleys remain a place of pilgrimage for Protestants, and its sheer longevity made it a standing reference point for later Protestants looking for a church older than the Reformation.",
-   "new": "The Waldensian Church still exists, and since the nineteenth century it has spread out of the valleys and across Italy. Its valleys remain a place of pilgrimage for Protestants, and its sheer longevity made it a standing reference point for later Protestants looking for a church older than the Reformation.",
+   "new": "The Waldensian Church still exists. Since the nineteenth century it has spread out of the valleys and across Italy. Its valleys remain a place of pilgrimage for Protestants. And its sheer age made it a standing point of reference for later Protestants, who looked to it as a church older than the Reformation.",
    "reason": "The sister church in Argentina and Uruguay and the 1979 union with Italian Methodists have no vendored or repo-cited source, and the union falls after every census movement (the Methodist entry ends in 1906). Removed, as the era-5 pass removed the same union from the Waldensians' legacy.",
-   "fre_after": 44.4,
-   "fk_after": 13.3
+   "fre_after": 64.1,
+   "fk_after": 7.6
   },
   {
    "n": 4,
    "movement": "anti-trinitarian-currents-servetus-polish-brethr",
    "field": "legacy",
    "old": "The Transylvanian church still exists, now the Hungarian Unitarian Church in Romania and Hungary, and is very likely the oldest continuously existing Unitarian body in the world. The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology and, at some distance, into later Unitarianism. Their argument for religious toleration — made by people with the most to lose from its absence — outlasted their communities.",
-   "new": "The Transylvanian church still exists, now the Hungarian Unitarian Church in Romania and Hungary, and is very likely the oldest continuously existing Unitarian body in the world. The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond. In Holland many joined the Remonstrant and Mennonite churches and used the Dutch presses. Their writings may have fed Dutch and English rational theology, and at some distance later Unitarianism, though the trail is faint. Their argument for religious toleration — made by people with the most to lose from its absence — outlasted their communities.",
+   "new": "The church in Transylvania still exists. Today it is the Hungarian Unitarian Church, in Romania and Hungary. It is very likely the oldest Unitarian church in the world with an unbroken past. The Polish Brethren were expelled in 1658 and scattered into the Netherlands and beyond. In Holland many joined the Remonstrants and the Mennonites, and they used the Dutch presses. Their books may have fed Dutch and English rational theology. At some distance they may have fed later Unitarians too, but the trail is faint. Their case for toleration outlasted them. It came from people with the most to lose without it.",
    "reason": "Rees (1818) shows the exiles merging into Remonstrant and Mennonite congregations and printing in Holland; that is stated. The wider influence rests on that one late history and on Belsham's naming, so it is qualified.",
-   "fre_after": 38.3,
-   "fk_after": 12.5
+   "fre_after": 61.8,
+   "fk_after": 7.5
   }
  ],
  "wants": [
