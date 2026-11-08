@@ -332,8 +332,8 @@
     },
     {
      "field": "longDescription",
-     "old": "No living person and no present-day community is named here: what is known is thinnest and least safe to make public exactly where the growth has been greatest,",
-     "new": "No living person and no specific community is named here: what is known is thinnest and least safe to make public exactly where the growth was greatest,"
+     "old": "No living person and no present-day community is named here: what is known is thinnest and least safe to make public exactly where the growth has been greatest, and that is",
+     "new": "No living person and no specific community is named here. What is known is thinnest and least safe to make public exactly where the growth was greatest. That is"
     },
     {
      "field": "legacy",
@@ -360,11 +360,6 @@
      "field": "floorNote",
      "old": "how each of these bodies stands doctrinally remains",
      "new": "how each of these bodies stood doctrinally remains"
-    },
-    {
-     "field": "longDescription",
-     "old": "No living person and no specific community is named here: what is known is thinnest and least safe to make public exactly where the growth was greatest, and that is",
-     "new": "No living person and no specific community is named here. What is known is thinnest and least safe to make public exactly where the growth was greatest. That is"
     }
    ],
    "links": "1 (the-missionary-movement-s-native-churches-seramp → IX.5) — fine history.",
