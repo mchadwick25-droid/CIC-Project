@@ -1,0 +1,1032 @@
+{
+ "group": "I",
+ "movements": [
+  "catholic-church-long-nineteenth-century",
+  "old-catholic-churches-union-of-utrecht",
+  "haitian-church-rupture-to-concordat",
+  "nineteenth-century-latin-american-catholicism"
+ ],
+ "dispositions": [
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "relationsSummary",
+   "sentence": "From Gregory XVI to Leo XIII, this era saw Pius IX define the Immaculate Conception in 1854, issue the Syllabus of Errors, and see the First Vatican Council define papal infallibility, followed by the end of the Papal States.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Events, not movement relationships. Supported: Schaff vol. 2 prints the 1854 Immaculate Conception decree, the 1864 Syllabus and the Vatican decrees of 18 July 1870; Mirbt no. 510 is Pius IX's protest at the end of the Papal States, 1870."
+  },
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "relationsSummary",
+   "sentence": "Leo XIII faced the Kulturkampf in Germany and issued Rerum Novarum.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The German state has no census movement. Mirbt nos. 516 (Pius IX on the Prussian Kulturkampf, 1875) and 529-530 (Leo XIII and Prussia, 1887) support it. Rerum Novarum is not vendored (wanted)."
+  },
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "relationsSummary",
+   "sentence": "The century also saw the Marian apparitions at Lourdes and a broader wave of devotion to Rome, alongside the growth of missionary Catholicism, the Catholic immigrant church in the United States, and the restoration of the Catholic hierarchy in England in 1850.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the English hierarchy or the US immigrant church. Lourdes rests on Laurentin and Harris, cited in the entry's own story. The 1850 English hierarchy and the US immigrant church have no vendored or repo-cited source; left as standard facts and listed in wants (see escalations)."
+  },
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "longDescription",
+   "sentence": "Weeks before Italian troops entered Rome and ended the Papal States.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Italian state has no census movement. Mirbt no. 510 (Pius IX's protest at the end of the Papal States, 1870) supports it. The sentence is a fragment (see escalations)."
+  },
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "legacy",
+   "sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council.",
+   "other_id": "old-catholic-churches-union-of-utrecht",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "The Old Catholic rupture; Documented broke-with link from both sides' texts (1870, 1889, 1893)."
+  },
+  {
+   "movement": "catholic-church-long-nineteenth-century",
+   "field": "legacy",
+   "sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council",
+   "prose_change": null,
+   "reason": "'Questions taken up again at the Second Vatican Council' points to the later church; with the continuesAs field this is the continued-as link (Pius X's 1906 encyclical names Leo XIII as predecessor). The council itself has no census movement."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "Formed when German, Swiss and Austrian Catholics rejected the First Vatican Council's definition of papal infallibility.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "The rejection is in the Nuremberg Declaration (1870) and the Declaration of Utrecht (1889), both vendored in Mirbt."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "Ignaz von Döllinger was excommunicated in 1871, and Utrecht consecrated Joseph Hubert Reinkens as the first bishop of the German Old Catholics in 1873.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "Döllinger's 1871 excommunication is part of the same rupture; not vendored, it rests on Howard 2017 and Moss 1948 (repo-cited). The inventory said the Catholic text does not name it; the Catholic legacy names the Old Catholic break."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "Ignaz von Döllinger was excommunicated in 1871, and Utrecht consecrated Joseph Hubert Reinkens as the first bishop of the German Old Catholics in 1873.",
+   "other_id": "church-of-utrecht",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the Church of Utrecht's own legacy names the bishops it supplied to the Old Catholics."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "In 1889 five bishops signed the Declaration of Utrecht, founding the Union of Utrecht.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory missed it. Mirbt no. 588 prints the Declaration of 24 September 1889 and its five signatories (Heykamp, Rinkel, Diependaal, Reinkens, Herzog)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "There had been a small church at Utrecht out of communion with Rome since an eighteenth-century quarrel over Jansenism left it electing its own archbishops.",
+   "other_id": "church-of-utrecht",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the Church of Utrecht's text names its continuation in the Old Catholics."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "There had been a small church at Utrecht out of communion with Rome since an eighteenth-century quarrel over Jansenism left it electing its own archbishops.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory said no match; Port-Royal Jansenism's own legacy names the Church of Utrecht as 'the root of the Old Catholic churches', so era 8 owns it."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "It stayed a Dutch curiosity until 1870, when the First Vatican Council defined papal infallibility and a body of German, Swiss and Austrian Catholics — professors, priests and laypeople, with the church historian Ignaz von Dollinger at their head — refused to accept it.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "The refusal of 1870; Nuremberg Declaration (Mirbt no. 585)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "Excommunicated, they needed bishops, and Utrecht had them: Joseph Hubert Reinkens was consecrated for the German Old Catholics in 1873 by a bishop of that line.",
+   "other_id": "church-of-utrecht",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it (Church of Utrecht legacy names it)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "In 1889 five bishops signed the Declaration of Utrecht, binding these churches into a union that professed the faith of the undivided church of the first thousand years and rejected the papal claims of 1870.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "Declaration of Utrecht art. 1 professes the faith of 'der ungeteilten Kirche des ersten Jahrtausends' and art. 2 rejects the Vatican decrees (Mirbt no. 588)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "longDescription",
+   "sentence": "And then went on to drop compulsory celibacy for clergy and to put the liturgy into the language of the people.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a relationship. Dropping compulsory celibacy and the vernacular liturgy are not in the vendored texts; Moss 1948 (repo-cited) is the standard history, not rechecked. The sentence is a fragment (see escalations)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "why",
+   "sentence": "When German, Swiss and Austrian Catholics refused the pope's new claim to infallibility in 1870, an old Dutch church at Utrecht, out of communion with Rome since an eighteenth-century dispute but still holding valid bishops, consecrated one of their own.",
+   "other_id": "church-of-utrecht",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns the Utrecht consecration (Church of Utrecht legacy names it)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "why",
+   "sentence": "When German, Swiss and Austrian Catholics refused the pope's new claim to infallibility in 1870, an old Dutch church at Utrecht, out of communion with Rome since an eighteenth-century dispute but still holding valid bishops, consecrated one of their own.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "The 1870 refusal; broke-with link."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "why",
+   "sentence": "The five bishops who signed the 1889 Declaration of Utrecht professed the faith of the undivided church of the first thousand years, then dropped required celibacy for priests and put the liturgy into the language of the people.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The undivided church of the first thousand years is not a movement; Mirbt no. 588 art. 1 supports it. Celibacy and vernacular liturgy as above (not rechecked; Moss 1948)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "legacy",
+   "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+   "prose_change": 1,
+   "reason": "Bonn 1874-75 with Church of England members (Schaff). 'One of the earliest such agreements ... and a model for many since' has no vendored or repo-cited source and is removed; 'among the first modern meetings' is restated as Schaff's 'first attempt to formularize the doctrinal consensus'."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "legacy",
+   "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+   "prose_change": 1,
+   "reason": "Inventory said 'Orthodox theologians' is generic; Schaff names the Rector of the St Petersburg Ecclesiastical Academy."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "legacy",
+   "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "link",
+   "link_id": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies",
+   "prose_change": 1,
+   "reason": "Greek members, among them Professor Rhossis of Athens, and the 1875 Filioque agreement (Schaff)."
+  },
+  {
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "legacy",
+   "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The 1931 Bonn Agreement has no Church of England entry in its period; kept as a fact, supported by Moss 1948 (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "relationsSummary",
+   "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+   "prose_change": 2,
+   "reason": "Inventory marked Rome as no census movement; matched to the Catholic entry. The field is internal verification language and is rewritten in plain words."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "relationsSummary",
+   "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Haitian state and Vodou have no census movement. Greene 1993 and Nicholls 1979 (repo-cited, not rechecked) cover the state-run church and the schism years. Folded into the rewrite."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "longDescription",
+   "sentence": "Rome would not recognize the new state, the French clergy had fled or been killed, and for more than half a century no properly appointed bishop and almost no seminary-trained priest arrived.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+   "prose_change": null,
+   "reason": "Rome's refusal; broke-with link (DMR)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "longDescription",
+   "sentence": "Rome would not recognize the new state, the French clergy had fled or been killed, and for more than half a century no properly appointed bishop and almost no seminary-trained priest arrived.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "French clergy have no census movement; rests on Greene 1993 (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "longDescription",
+   "sentence": "The state filled the gap, appointing its own clergy, and the parishes were served by men of irregular standing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Haitian state; Greene 1993 and Nicholls 1979 (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "longDescription",
+   "sentence": "In that long vacancy Haitian religious life took the shape it has largely kept: Catholic sacraments, feast days and saints woven together with Vodou practice inherited from West Africa, held by most Haitians as one thing rather than two.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Vodou is a practice, not a census movement; Greene 1993 (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "longDescription",
+   "sentence": "The rupture formally ended on 28 March 1860, when Haiti and the Holy See signed a concordat restoring a regular hierarchy.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+   "prose_change": null,
+   "reason": "The 1860 concordat; its text is not vendored (wanted)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "why",
+   "sentence": "For fifty-six years after independence, Haiti's parishes were served by men of irregular standing, some genuine priests under suspension, some who had simply taken the title, since Rome refused to recognize the new republic at all.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+   "prose_change": null,
+   "reason": "Rome's refusal to recognize the republic; broke-with link."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "why",
+   "sentence": "In that long vacancy, Catholic sacraments and feast days wove together with Vodou practice inherited from West Africa into a religious life most Haitians have held as one thing rather than two.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Vodou; Greene 1993 (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "legacy",
+   "sentence": "The creole religious world formed during the schism is also still there, and the church's relationship to it — stretches of quiet accommodation alternating with campaigns to stamp it out, most violently the anti-superstition drives of the 1940s — has been one of the defining questions of Haitian religion ever since.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The 1940s campaigns are church campaigns, not a census movement; Greene 1993 covers the twentieth-century church (repo-cited, not rechecked)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "relationsSummary",
+   "sentence": "Independence brought the patronato fights and Rome's slow recognition of the new governments.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Inventory said Rome is not a census movement; matched to the Catholic entry. Rome's dealings with the republics are evidenced by the Ecuador concordat of 1862 (Mirbt no. 503); slow recognition itself is not vendored (wanted)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "relationsSummary",
+   "sentence": "Liberal and clerical factions clashed, most sharply in Mexico's Reforma.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Factions and the Mexican state have no census movement. No vendored or repo-cited source for the Reforma; left as a standard fact and wanted (see escalations)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "relationsSummary",
+   "sentence": "Rome pursued the Romanization of the continent's church, culminating in the 1899 Latin American Plenary Council.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Romanization: Widely Accepted influenced link (Ecuador concordat, 1895 Mexican preface, Serbin 2006). The 1899 council's acts are wanted."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "relationsSummary",
+   "sentence": "Brazil's imperial church faced its own conflicts with the state.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Brazilian state has no census movement; Barman 1999 and Serbin 2006, cited in the entry's own story, support it (not rechecked)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "The Spanish crown had run the church in its American empire under a papal grant, appointing the bishops and collecting the tithes.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Spanish crown has no census movement. Mirbt prints Inter caetera (1493), a papal grant to Ferdinand and Isabella (line 14930); the patronato grant itself is not checked."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "When the colonies won independence the new republics claimed exactly the same right, and Rome — which had backed the crown — took decades to recognize either the governments or their nominees, leaving dioceses vacant and seminaries shut for a generation.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Rome's slow recognition folds into the influenced link; not itself vendored (wanted)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "Sharpest in Mexico, where the Reform laws of the 1850s stripped the church of its property and drove it out of public life, and loudest in Brazil, where two bishops were tried and imprisoned in the 1870s.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mexican and Brazilian states have no census movement. Brazil's imprisoned bishops rest on Barman 1999 and Serbin 2006 (repo-cited); the Reform laws have no vendored or repo-cited source (see escalations). The sentence is a fragment."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "Rome answered by tightening its grip, importing European clergy and religious orders, rebuilding seminaries on Roman lines, and in 1899 summoning the bishops of the whole continent to Rome for a first Latin American Plenary Council.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Romanization; influenced link. European clergy and orders have no census movement."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "Underneath all of it the devotional life of ordinary Catholics — confraternities, patronal feasts, pilgrimage shrines, household saints — carried on much as before, often with very few priests.",
+   "other_id": "colonial-latin-american-devotional-catholicism",
+   "disposition": "link",
+   "link_id": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Inventory missed it: the colonial devotional world carried on; Documented continued-as link from the 1895 Guadalupe reprint."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "why",
+   "sentence": "When Spanish America's new republics claimed the same right to appoint bishops the Spanish crown once held, Rome took a generation to recognize either the governments or their nominees, leaving dioceses vacant and seminaries shut.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Rome's slow recognition; influenced link. The Spanish crown is no-entry (as above)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "why",
+   "sentence": "Mexico's Reform laws stripped the church of its property in the 1850s and Brazil imprisoned two of its own bishops in the 1870s, while ordinary Catholics kept their confraternities, patronal feasts and household saints going with far fewer priests than Europe had.",
+   "other_id": "colonial-latin-american-devotional-catholicism",
+   "disposition": "link",
+   "link_id": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   "prose_change": null,
+   "reason": "Confraternities, patronal feasts and household saints kept going: continued-as link. Mexico and Brazil as above (no-entry)."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "legacy",
+   "sentence": "This is the century that made Latin America's church what it is: a Roman-aligned hierarchy laid over a much older popular Catholicism, with far fewer priests per head than Europe had, and a long habit of arguing with the state.",
+   "other_id": "colonial-latin-american-devotional-catholicism",
+   "disposition": "link",
+   "link_id": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   "prose_change": 3,
+   "reason": "'A much older popular Catholicism'; continued-as link."
+  },
+  {
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "legacy",
+   "sentence": "The 1899 council was the first time the continent's bishops met as a single body, and the continental conferences that followed — Rio in 1955, Medellin in 1968 — grew from that precedent.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The continental conferences have no census movement. 'Grew from that precedent' is a causal claim with no vendored or repo-cited source; restated as a sequence. The 1899 acts are wanted."
+  }
+ ],
+ "links": [
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "old-catholic-churches-union-of-utrecht",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In August 1870 a declaration signed at Nuremberg refused to accept the new Vatican decrees. In 1889 five Old Catholic bishops met at Utrecht and rejected them in writing. In 1893 Pope Leo XIII cast out Gerard Gul, the new archbishop of Utrecht. He declared all who backed Gul to be in schism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nuremberg Declaration, 26 August 1870, in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911), no. 585",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "30946-30970",
+     "locus": "Mirbt no. 585",
+     "quote": "Diese Sätze vermögen wir nicht als Aussprüche eines wahrhaft ökumenischen Konzils anzuerkennen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Declaration of Utrecht, 24 September 1889, in Mirbt, Quellen (1911), no. 588: heading and signatories",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31196-31199",
+     "locus": "Mirbt no. 588, heading",
+     "quote": "Unterzeichnet von den zu einer Konferenz in Utrecht versammelten altkath. Bischöfen:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Declaration of Utrecht, 24 September 1889, art. 2, in Mirbt, Quellen (1911), no. 588",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31208-31211",
+     "locus": "Mirbt no. 588, art. 2",
+     "quote": "Als mit dem Glauben der alten lürche in Widerspruch stehend und die kirchliche Verfassung zerstörend ver- werfen mr die vatikanischen Dekrete vom 18. Juli 1870 über die Unfehlbarkeit und den Universal-Episkopat oder die kirchliche Allgewalt des römischen Papstes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mirbt, Quellen (1911), no. 533, editor's note on the election of Gerard Gul, 1892",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "27796-27798",
+     "locus": "Mirbt no. 533",
+     "quote": "am 24. Febr. 1892 der Kanoniker Gerard Gul von dem Kapitel gewählt, am 11. Mai durch den Bischof Casper Kinkel konsekriert und durch folgendes Schreiben verflucht:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo XIII, letter Dolentes equidem animo, 28 February 1893, in Mirbt, Quellen (1911), no. 533",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "27808-27810",
+     "locus": "Mirbt no. 533",
+     "quote": "eos onmes et singulos excommunicamus, ana- thematizamus, atque ab ecclesiae communione segregatos et prorsus schismaticos habendos et evitandos esse constituimus, edicimus, pronuntiamus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Albert Howard, The Pope and the Professor: Pius IX, Ignaz von Döllinger, and the Quandary of the Modern Age (Oxford, 2017)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.relationsSummary",
+    "old-catholic-churches-union-of-utrecht.longDescription",
+    "old-catholic-churches-union-of-utrecht.why",
+    "catholic-church-long-nineteenth-century.legacy"
+   ],
+   "wants": [
+    "Döllinger's letter to Archbishop Scherr (28 March 1871) and the Munich decree of excommunication (17 April 1871): the 1871 rupture the text names, not vendored"
+   ],
+   "drafter_flags": [
+    "Both sides recorded the rupture in vendored text: the Old Catholic side in 1870 and 1889, Rome's side in Leo XIII's 1893 excommunication of the Utrecht archbishop and all who adhered to him. The 1871 excommunication of Döllinger, which the text names, is not vendored; it rests on Howard 2017 and Moss 1948, cited in the entry's own story but not rechecked.",
+    "Considered 'gave rise to' as well (the Catholic legacy says the Catholics who could not accept 1870 'became the Old Catholics'). Kept one link: the rupture is what both sides' texts record.",
+    "Mirbt's OCR spells 'lürche' (Kirche) and 'mr' (wir); quoted as printed."
+   ],
+   "change_reason": "New link: the Catholic–Old Catholic rupture named in both movements' texts had no link."
+  },
+  {
+   "old_index": null,
+   "id": "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+   "action": "new",
+   "from": "old-catholic-churches-union-of-utrecht",
+   "to": "victorian-church-of-england",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Döllinger called a meeting at Bonn in 1874 to work for church unity. English members came. Among them were Bishop Harold Browne of Winchester and Dean Howson of Chester. When they met again in 1875, Howson spoke for some evangelical Anglicans on one article about the Lord's Supper.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Fourteen Theses of the Bonn Union Conference, 1874",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43862-43864",
+     "locus": "Bonn Conference 1874, headnote",
+     "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr. Dijlliuger, of Munich (in behalf of a Christian Union Committee of the Old Catholic Congress), and held in the University at Bonn, Sept. 14-16,1874.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote: members of the 1874 Bonn Conference",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43868-43869",
+     "locus": "Bonn Conference 1874, list of members",
+     "quote": "3. English Episcopalians: Bishop Edward Hauold Beowne, of Win- chester, Dean J. S. Howson, of Chester",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), note 3 to art. XIV of the Bonn Theses, with Howson's protest of 1875",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "44414-44420",
+     "locus": "Bonn Theses art. XIV, n. 3",
+     "quote": "Dean Ilowson, of Chester, at the second Bonn Conference, held a year afterwards, entered, in behalf of some evangelical Anglicans, the following protest against a possible Romanizing interpretation of this Article",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reunion conference with shared theses that bound no church; no council act, split or rule change."
+   },
+   "wants": [
+    "Bonn Agreement of 1931 (text): the full communion the text names; it falls after both movements' dates"
+   ],
+   "drafter_flags": [
+    "Schaff's OCR mangles names ('Hauold Beowne' = Harold Browne; 'Ilowson' = Howson); the note uses the correct spellings.",
+    "The 1931 Bonn Agreement is outside both movements' date ranges and has no later Church of England entry; it is left in the prose, supported by Moss 1948 (repo-cited, not rechecked)."
+   ],
+   "change_reason": "New link: the Bonn conferences with Church of England members, named in the Old Catholic legacy."
+  },
+  {
+   "old_index": null,
+   "id": "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+   "action": "new",
+   "from": "old-catholic-churches-union-of-utrecht",
+   "to": "russian-church-synodal-century",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Russian Orthodox members sat at the Bonn conference Döllinger called in 1874. Among them was the head of the church's academy at St Petersburg. On one article, the Greek and Russian members held back their consent until they could look into it further.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Fourteen Theses of the Bonn Union Conference, 1874",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43862-43864",
+     "locus": "Bonn Conference 1874, headnote",
+     "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr. Dijlliuger, of Munich (in behalf of a Christian Union Committee of the Old Catholic Congress), and held in the University at Bonn, Sept. 14-16,1874.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote: members of the 1874 Bonn Conference",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43866-43867",
+     "locus": "Bonn Conference 1874, list of members",
+     "quote": "2. Orthodox Russians and Greeks : Jon. Janysohew, Rector of the Ecclesiastical Academy of St. Petersburg",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), note 1 to art. IX of the Bonn Theses",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "44283-44286",
+     "locus": "Bonn Theses art. IX, n. 1",
+     "quote": "but the Greek and Russian members expressed doubts, and withheld their consent till further investigation.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reunion conference; no council act, split or rule change."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "The text says only 'Orthodox theologians'; the inventory marked this 'no census movement'. Schaff names the Rector of the St Petersburg Ecclesiastical Academy (Janyschew), so the Russian church is matched."
+   ],
+   "change_reason": "New link: the Bonn conferences' Russian Orthodox members, named generically in the Old Catholic legacy."
+  },
+  {
+   "old_index": null,
+   "id": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies",
+   "action": "new",
+   "from": "old-catholic-churches-union-of-utrecht",
+   "to": "orthodoxy-after-1821-balkan-autocephalies",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Greek Orthodox members, among them Professor Rhossis of Athens, sat at the Bonn meeting Döllinger called in 1874. At the second meeting in 1875, they and the Old Catholics agreed a statement on the Filioque, a phrase the West added to the Creed. It leaned toward the Greek view.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Fourteen Theses of the Bonn Union Conference, 1874",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43862-43864",
+     "locus": "Bonn Conference 1874, headnote",
+     "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr. Dijlliuger, of Munich (in behalf of a Christian Union Committee of the Old Catholic Congress), and held in the University at Bonn, Sept. 14-16,1874.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote: members of the 1874 Bonn Conference",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43866-43868",
+     "locus": "Bonn Conference 1874, list of members",
+     "quote": "2. Orthodox Russians and Greeks : Jon. Janysohew, Rector of the Ecclesiastical Academy of St. Petersburg, Alexandek Kieejew, Tueodob ton Sükhotin, Aksenifs Tatciialoff, Professor Ruossis, of Athens.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bonn Conference 1874, preliminary thesis on the Filioque, in Schaff, Creeds of Christendom vol. 2 (1877)",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "43893-43895",
+     "locus": "Bonn 1874, preliminary thesis",
+     "quote": "'We agree that the way in which the \"Fili- oque\" was inserted in the Nicene Creed was illegal",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Schaff, Creeds of Christendom vol. 2 (1877), headnote to the Old Catholic Agreement on the Filioque, 1875",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "44446-44448",
+     "locus": "Bonn 1875, headnote",
+     "quote": "At the second Düllinger Union Conference between Old Catholics, Orientals, and Anglo-Catholics, held at Bonn, Prussia, Aug. 10-16, 1S75, the following agreement on the old Filioque Controversy, essen- tially in favor of the Greek view, was adopted",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "old-catholic-churches-union-of-utrecht.legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reunion conference whose agreement still awaited the churches' sanction (Schaff, 44448-44449); no council act, split or rule change."
+   },
+   "wants": [
+    "Reusch's official reports of the 1874 and 1875 Bonn conferences (full lists of Greek participants and whom they represented)"
+   ],
+   "drafter_flags": [
+    "Schaff lists 'Orthodox Russians and Greeks' and names Professor Rhossis ('Ruossis', OCR) of Athens; he does not say which church each Greek represented. Matched to the Balkan/Greek Orthodox entry; a reviewer may judge this match too broad.",
+    "The note's gloss of the Filioque ('a phrase the West added to the Creed') rests on the 1874 thesis that it 'was inserted in the Nicene Creed'."
+   ],
+   "change_reason": "New link: the Bonn conferences' Greek Orthodox members, named generically in the Old Catholic legacy."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "the-catholic-church-pius-x-to-the-council",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In February 1906 Pope Pius X wrote to the bishops, clergy and people of France about the new law that cut church from state. He called Leo XIII his illustrious predecessor and pointed to his teaching on church and state. The same Roman see and church carried on into the new century.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906 (Vehementer nos), English in Anderson, Constitutions and Documents of France (2nd ed., 1908), no. 138B",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40322-40337",
+     "locus": "Anderson no. 138B, address",
+     "quote": "To the archbishops, bishops, clergy and people of France.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906, in Anderson (1908), no. 138B",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40413-40415",
+     "locus": "Anderson no. 138B",
+     "quote": "Our illustrious predeccessor, Leo XIII, especially, has frequently and splendidly expounded Catholic teaching on the relations which should subsist between the two soci-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius X, encyclical of 11 February 1906, in Anderson (1908), no. 138B, subscription",
+     "file": "cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
+     "lines": "40632",
+     "locus": "Anderson no. 138B, end",
+     "quote": "Signed, Pius X, Pope,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "catholic-church-long-nineteenth-century.continuesAs field",
+    "catholic-church-long-nineteenth-century.legacy"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "The second quote ends mid-word ('soci-') at the line break; the vendored line ends there. A reviewer may prefer it cut at 'Catholic teaching'.",
+    "The OCR spells 'predeccessor'; quoted as printed, and the note does not quote it."
+   ],
+   "change_reason": "New link: the continuesAs field and the legacy name the twentieth-century church as this one's continuation."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "nineteenth-century-latin-american-catholicism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1862 Pius IX signed a concordat with Ecuador that made the Catholic faith the state religion. A Mexican preface of 1895 says Rome had named Our Lady of Guadalupe as Mexico's chief patron. Historians call this growth of Rome's hold on the church there \"Romanization.\"",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 1, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25580-25586",
+     "locus": "Mirbt no. 503, art. 1",
+     "quote": "art. 1. Religio catholica apostolica Romana esse perget religio reipublicae Aequatoris atque inibi sarta tecta perpetuo con- servabitur cum omnibus iis iuribus et praerogativis",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "220-222",
+     "locus": "Prólogo",
+     "quote": "La Santa Sede ha ordenado que con esta advocación reconozcamos á la Virgen Santísima como Patrona Principal de México",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth P. Serbin, Needs of the Heart: A Social and Cultural History of Brazil's Clergy and Seminaries (Notre Dame, 2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "nineteenth-century-latin-american-catholicism.relationsSummary",
+    "nineteenth-century-latin-american-catholicism.longDescription"
+   ],
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25584-25586",
+     "text": "art. 1. Religio catholica apostolica Romana esse perget religio reipublicae Aequatoris atque inibi sarta tecta perpetuo con- servabitur cum omnibus iis iuribus et praerogativis"
+    },
+    "reason": "A concordat between the pope and a republic, a settlement setting the church's legal standing by authority."
+   },
+   "outcome": "In 1862 Pope Pius IX and Ecuador signed a concordat in Rome that made Catholicism the faith of the state.",
+   "wants": [
+    "Acta et decreta Concilii Plenarii Americae Latinae (Rome, 1899/1900): the 1899 council the text names",
+    "Papal letters on recognition of the new republics' bishops (Leo XII, Gregory XVI), for 'Rome's slow recognition'"
+   ],
+   "drafter_flags": [
+    "The inventory marked 'Rome (Holy See)' as no census movement; Rome's church in this era is this Catholic entry, so the relationship is matched to it.",
+    "The 1899 Plenary Council and Rome's slow recognition of the republics are not vendored; the link rests on the Ecuador concordat, the 1895 Mexican preface and Serbin 2006 (repo-cited for Brazil's 'Romanizing bishops', not rechecked).",
+    "Mirbt notes the Ecuador concordat was abrogated on 28 June 1878 (line 25581-25582); the outcome sentence does not claim it lasted."
+   ],
+   "change_reason": "New link: Rome's Romanization of the Latin American church, named in the Latin American text."
+  },
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "haitian-church-rupture-to-concordat",
+   "type": "broke with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Historians describe a long break between Haiti and Rome after independence in 1804. Rome would not recognize the new state, and the government named its own clergy. A concordat signed on 28 March 1860 ended the break and set up a regular hierarchy.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Anne Greene, The Catholic Church in Haiti: Political and Social Change (East Lansing, 1993)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Nicholls, From Dessalines to Duvalier: Race, Colour and National Independence in Haiti (Cambridge, 1979)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "haitian-church-rupture-to-concordat.relationsSummary",
+    "haitian-church-rupture-to-concordat.longDescription",
+    "haitian-church-rupture-to-concordat.why"
+   ],
+   "wants": [
+    "Concordat between the Holy See and the Republic of Haiti, 28 March 1860",
+    "Haitian state acts appointing clergy, 1804-1860",
+    "Any papal document on Haiti before 1860"
+   ],
+   "drafter_flags": [
+    "Nothing on Haiti is vendored. The link rests on Greene 1993 and Nicholls 1979, cited in the entry's own story and not rechecked.",
+    "Type is a judgment: the breach was Rome's refusal to recognize the state plus the state's own appointments, not a declared schism on either side. 'In contact with' (the 1860 concordat) is the alternative; 'broke with' follows the entry's own 'schism' and 'rupture'.",
+    "The inventory marked 'Rome (Holy See)' as no census movement; matched to the Catholic entry."
+   ],
+   "change_reason": "New link: the Haitian schism from Rome and the 1860 concordat, named in all three Haitian fields."
+  },
+  {
+   "old_index": null,
+   "id": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   "action": "new",
+   "from": "colonial-latin-american-devotional-catholicism",
+   "to": "nineteenth-century-latin-american-catholicism",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1895 a priest in Guadalajara reprinted a book on the Guadalupe image written in the 1600s. He wrote that Mexican love for Our Lady of Guadalupe was still growing in his day. A devotion at the heart of colonial Mexico lived on in the new nation.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco de Florencia SJ, La Estrella del Norte de México, title page of the Guadalajara edition of 1895",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "96-100",
+     "locus": "title page",
+     "quote": "ESCRITA EN EL SIGLO XVII POR U P.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "218-220",
+     "locus": "Prólogo",
+     "quote": "Presenciamos con júbilo en nuestros días, que cada vez es más ferviente y obsequiosa la devoción de los mexicanos hacia la San- tísima Virgen María, bajo el título de Guadalupe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "258-262",
+     "locus": "Prólogo",
+     "quote": "No hemos podido hacer otra cosa en nuestra pe- quenez, sino reimprimir la apreciabilísima Historia Guadalupana escrita por el P. Francisco de Florencia, cuya obra es muy escasa.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "nineteenth-century-latin-american-catholicism.longDescription",
+    "nineteenth-century-latin-american-catholicism.why",
+    "nineteenth-century-latin-american-catholicism.legacy"
+   ],
+   "wants": [
+    "A nineteenth-century cofradía book or pastoral visitation from Spanish America or Brazil, for continuity beyond Mexico"
+   ],
+   "drafter_flags": [
+    "The inventory missed this: the text's 'much older popular Catholicism' and the confraternities and feasts that 'carried on much as before' name the colonial devotional world.",
+    "The evidence is Mexican and about one devotion (Guadalupe); it shows the later church taking up a colonial devotion and its colonial book as its own. A reviewer may judge Documented too high for a continent-wide continuity and prefer Inferential-Thin.",
+    "De la Rosa is a canon of Guadalajara cathedral (lines 109-117); the note calls him 'a priest'. The era-8 text does not name this relationship, so it is not era 8's."
+   ],
+   "change_reason": "New link: the colonial devotional church carried into the nineteenth-century republics, named in the Latin American text."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "field": "legacy",
+   "old": "The Union of Utrecht is still there: a small communion of national churches in the Netherlands, Germany, Switzerland, Austria, Poland and the Czech lands. Its most consequential work turned out to be ecumenical. The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+   "new": "The Union of Utrecht is still there. It is a small family of national churches in the Netherlands, Germany, Switzerland, Austria, Poland and the Czech lands. Its most lasting work turned out to be ecumenical. In 1874 and 1875 Dollinger called meetings at Bonn that brought Old Catholic, Anglican and Orthodox theologians to one table. Their theses were a first attempt to set down the faith all three held in common. In 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement.",
+   "reason": "Removed 'one of the earliest such agreements between separated Western churches, and a model for many since' (no vendored or repo-cited source). 'Among the first modern meetings' restated as Schaff's 'first attempt to formularize the doctrinal consensus of Old Catholics, Greeks, and Anglo-Catholics' (Schaff vol. 2, lines 43852-43854). Split for readability."
+  },
+  {
+   "n": 2,
+   "movement": "haitian-church-rupture-to-concordat",
+   "field": "relationsSummary",
+   "old": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+   "new": "Haiti's church was cut off from Rome for the whole time after independence in 1804. Almost no priests trained under Rome arrived, and the state ran the church. In that gap a religious life that joined Catholic and Vodou practice took shape. A concordat signed on 28 March 1860 ended the break.",
+   "reason": "The field was internal verification and era-placement language ('verified', 'disclosed', 'the story is indivisible'). Rewritten in plain words with the same facts, which the longDescription already states."
+  },
+  {
+   "n": 3,
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "field": "legacy",
+   "old": "This is the century that made Latin America's church what it is: a Roman-aligned hierarchy laid over a much older popular Catholicism, with far fewer priests per head than Europe had, and a long habit of arguing with the state. The 1899 council was the first time the continent's bishops met as a single body, and the continental conferences that followed — Rio in 1955, Medellin in 1968 — grew from that precedent. Latin America is still home to the largest share of the world's Catholics.",
+   "new": "This is the century that made Latin America's church what it is: a Roman-aligned hierarchy laid over a much older popular Catholicism, with far fewer priests per head than Europe had, and a long habit of arguing with the state. The 1899 council in Rome was the first time the continent's bishops met as a single body. They met again as a continent at Rio in 1955 and at Medellin in 1968. Latin America is still home to the largest share of the world's Catholics.",
+   "reason": "'The continental conferences that followed ... grew from that precedent' is a causal claim with no vendored or repo-cited source; restated as a sequence of meetings."
+  }
+ ],
+ "wants": [
+  "Declaration of Utrecht 1889 is vendored (Mirbt no. 588); still wanted: Döllinger's letter of 28 March 1871 and the excommunication decree of 17 April 1871",
+  "Concordat between the Holy See and Haiti, 28 March 1860, and any Haitian state acts on clergy, 1804-1860",
+  "Acta et decreta Concilii Plenarii Americae Latinae (1899/1900)",
+  "Papal letters on recognizing the Spanish American republics and their bishops (Leo XII, Gregory XVI)",
+  "Mexican Reform laws (Ley Lerdo 1856, Constitution of 1857, laws of 1859-60)",
+  "Leo XIII, Rerum Novarum (1891); the brief Universalis Ecclesiae (1850) restoring the English hierarchy",
+  "Bonn Agreement of 1931; Reusch's reports of the 1874 and 1875 Bonn conferences",
+  "Old Catholic synodal acts on clerical celibacy and the vernacular liturgy",
+  "A nineteenth-century cofradía book or pastoral visitation from Spanish America or Brazil"
+ ],
+ "escalations": [
+  "Several no-entry facts have no vendored or repo-cited source but are not in doubt: the 1850 English hierarchy, the US immigrant church, Rerum Novarum, Mexico's Reform laws, Rome's slow recognition of the republics, and Old Catholic celibacy and vernacular reforms. I left them as written and listed them in wants rather than hedge settled facts with 'may have'. Mark to rule whether that is right.",
+  "Four fields carry sentence fragments that need more than a one-sentence fix and were not touched: Catholic 19th c. longDescription ('Weeks before Italian troops...'), Old Catholic longDescription ('And then went on to drop...'), Haitian longDescription ('Some genuine priests...', 'And began a much longer argument...'), Latin American longDescription ('Sharpest in Mexico...'). These are full-paragraph rewrites."
+ ]
+}

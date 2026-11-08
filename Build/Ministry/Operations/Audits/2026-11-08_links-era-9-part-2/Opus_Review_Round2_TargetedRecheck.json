@@ -1,0 +1,47 @@
+{
+ "round": 2,
+ "kind": "targeted-recheck",
+ "date": "2026-11-08",
+ "verdict": "revise",
+ "counts": {"blocking": 0, "substantial": 1, "minor": 1},
+ "closed": [
+  {"n": 1, "status": "closed", "check": "Mirbt 25581-25594 reread. Art. 1 'esse perget' is now 'kept'. Art. 3 quotes are verbatim (OCR kept) and the line ranges are right. The outcome (all schooling to conform to Catholic doctrine; bishops alone choose the books for religion and morals) matches art. 3. The major call (rule-changed) on art. 3 is sound. The 1878 abrogation is flagged, and nothing claims the concordat lasted."},
+  {"n": 2, "status": "closed, but the replacement sentence brings in a new dating error (finding 1 below)", "check": "The undated patronage line is gone. Florencia 8722-8727 and 251-253 reread. The quotes are verbatim, and Benedict XIV 1754 is correctly read as colonial."},
+  {"n": 3, "status": "closed", "check": "The Philippine 'broke with' link is dropped. Dispositions 159, 165, 166 and 167 now give the stated reason, and the escalation is logged."},
+  {"n": 4, "status": "closed (fixed-differently is sound), but the new note brings in internal wording (finding 2 below)", "check": "Budge 1928 lines 2827-2831 and 2855-2857 reread. The quotes are verbatim, and the numbered line runs 85 to 110 with no gap (99-101 are garbled by OCR). Regrading to DMR with Budge as a secondary plus Meinardus is what round 1 asked for if the link was kept. The Coptic and Ethiopian gaps are now escalated together."},
+  {"n": 5, "status": "closed", "check": "Regraded to Inferential-Thin. The note says the evidence covers one Mexican devotion. The quotes at 96-100, 218-220 and 258-262 are verbatim."},
+  {"n": 6, "status": "closed", "check": "The Optina 'continued as' new-martyrs link is drafted at Inferential-Thin. The note says the sources stop before 1917. The reason now matches the other continuesAs links, and the type fit is escalated."},
+  {"n": 7, "status": "closed", "check": "Badger 8645-8650, 8749-8760 and 7331-7334 reread. Recognition, the condition and the pallium are verbatim. Badger lived at Mosul (line 770). Documented, in contact with, alphabetical direction and rule-changed on the condition are all sound. No year is given."},
+  {"n": 8, "status": "closed", "check": "Both 'gave rise to' links are drafted at DMR on repo-cited Hastings and Ward. Ownership checked: the four Victorian Church of England fields say only 'a mission network abroad' and 'overseas missions', with no Uganda, Buganda or Africa. The relationship is named only in the East African text, so it is part 2's. The note facts (1877 CMS, 1879 White Fathers, court converts, killings 1885-87) match the East African entry's own text."},
+  {"n": 9, "status": "closed (fixed-differently is sound)", "check": "Optina 1847 preface 95-141 reread. The Synod's Moscow press printing and the reprint through Philaret 'Archbishop (now Metropolitan) of Moscow' are verbatim. WA, not Documented, is justified. Theophan is left out of the note and listed in wants."},
+  {"n": 10, "status": "closed", "check": "A scan of all link and prose strings finds no 'we hold', 'held here' or 'our' wording in notes (apart from a quote). The reviser's Alaska wording is sounder than round 1's."},
+  {"n": 11, "status": "closed", "check": "The listed notes are at three sentences or fewer."},
+  {"n": 12, "status": "closed", "check": "'agreed on the Filioque' is fine."},
+  {"n": 13, "status": "closed", "check": "The outcome reads as specified."},
+  {"n": 14, "status": "closed", "check": "The kings' line rests on the manuscript, and the church's continuity rests on Binns."},
+  {"n": 15, "status": "closed", "check": "The quote ends at 'expounded Catholic teaching'."},
+  {"n": 16, "status": "closed", "check": "The Optina legacy now reads 'made available to Russian readers'. The splits add no fact."},
+  {"n": 17, "status": "closed (fixed-differently is sound)", "check": "Belsham 1815 lines 170-172: 'Many complaints have been [made] that the Boston Clergy have been \"slanderously reported\" to be Unitarians.' The new sentence keeps 'many' and names no complainant."},
+  {"n": 18, "status": "closed", "check": "'their standard example' reads as specified."},
+  {"n": 19, "status": "closed", "check": "Budge 1898 lines 534-536 give the quote verbatim, with file and lines, labeled secondary."}
+ ],
+ "findings": [
+  {
+   "n": 1,
+   "severity": "substantial",
+   "target": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism (note, last sentence)",
+   "issue": "Unsupported date. 'In 1895 Pope Leo XIII ordered ...' dates the papal order to 1895. Neither cited source dates it. The editors' note says only that Leo XIII granted the coronation 'Últimamente' (lately), and that the coronation was to take place on 12 October 1895. The prologue says it would be done in the Pope's name and by his order. Standard accounts date the grant to 1887. Also, both sources speak of the coronation as still to come, so the note should not state a past order in 1895.",
+   "evidence": "florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt 8725-8727: 'Últimamente el Sr. León XIII, concedió nuero oficia y la Coronación que ha de hacerse de la Imagen de Guadalupe, el próximo 12 de octubre del corriente año de 1895.' Lines 251-253: 'Dentro de pocos días será una realidad la Coronación ... que se hará á nombre del Sumo Pontífice y por su mandato.'",
+   "fix": "Replace the note's last sentence with: In 1895 Mexico's Guadalupe image was to be crowned in the name of Pope Leo XIII and by his order, part of a pull toward Rome that historians call \"Romanization.\""
+  },
+  {
+   "n": 2,
+   "severity": "minor",
+   "target": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv (note, last sentence)",
+   "issue": "Internal wording in a participant-facing note: 'This tree shows no other Coptic stage ...'. The brief bars 'this tree' wording.",
+   "evidence": "Revision_Round1.json links[13].note.",
+   "fix": "Replace the note's last sentence with: No other Coptic stage is set out between 1300 and 1854, so this line spans five centuries and rests on modern lists."
+  }
+ ],
+ "fabrication_found": false
+}

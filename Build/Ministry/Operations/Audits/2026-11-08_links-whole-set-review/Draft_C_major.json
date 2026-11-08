@@ -1,0 +1,769 @@
+{
+ "theme": "MAJ: major links (narrowed test, institutional acts only; adoption by vote is minor)",
+ "checked": "All 91 links that carry outcome: every quote re-found verbatim at its lines (91/91 links, 0 misses), each outcome read against the vendored file around its cited lines, and P2-ML's Final.json evidence lines for eras 1-5 compared with each link's listed sources (8 off the link: 4 secondary-only links whose vendored secondaries do show the act, and 4 real gaps). All 91 outcomes scored with score_turn (all pass; 1 sentence of 26 words), word counts (all <=30) and a British-spelling scan (none). For consistency: 101 judged-type links without outcome whose note or quotes contain act words (condemn, council, synod, decree, bull, law, banish, depose and so on), read against P2-ML's reasons and the era 6-9 outcome_considered and minor_reason records; plus a script listing every judged-type link in eras 1-9 that no pass judged for outcome (4 found, all era 6, 'on main (earlier)'). The 7 outcome_no_primary links in mech.json were each checked.",
+ "findings": [
+  {
+   "fid": "MAJ-01",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement"
+   ],
+   "eras": [
+    6,
+    5,
+    3
+   ],
+   "finding": "The Council of Constance's sentence on Hus (condemned for heresy, degraded, handed to the secular court) is shown by this link's own quote, yet the link carries no outcome. It was never judged: it was on main before era 6, and the era-6 pass judged only links it drafted (its README table marks it 'on main (earlier)'), while P2-ML covered only eras 1-5. Comparable council condemnations are major elsewhere: the Council of Vienne on the beguines and the Free Spirit (same papal movement, era 6), Lateran IV on Joachim's book (era 5), Constantinople II on Theodore of Mopsuestia (era 3), Aquileia on Palladius (era 2).",
+   "evidence": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt:2577-2580 (on the link): 'Item eadem die tulit sentenciam contra magistrum Johannem Hus pre- sentem ipsumque de heresi condempnavit, degradavit et tradidit curie seculari.'; date at 2570 'que fuit VI. Julii'. Build/Ministry/Operations/Audits/2026-11-08_links-era-6/README.md table: status 'on main (earlier)'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+      "field": "outcome",
+      "new": "On 6 July 1415 the Council of Constance condemned Jan Hus as a heretic. It stripped him of his orders and handed him to the secular court."
+     }
+    ],
+    "readability": [
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+      "fre": 68.9,
+      "fk": 6.7
+     }
+    ]
+   },
+   "doubts": "Hus's condemnation could be read as an act on a person rather than on the movement; but eras 1-5 marked comparable sentences on single teachers (Marcion, Valentinus, Palladius, Theodore) major."
+  },
+  {
+   "fid": "MAJ-02",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--lollardy"
+   ],
+   "eras": [
+    6,
+    5
+   ],
+   "finding": "Same gap as MAJ-01: never judged for outcome (on main before era 6; outside P2-ML's eras). Its own sources show the Council of Constance condemning forty-five articles of Wyclif, whose teaching the tree treats as Lollardy's (note on lollardy--the-hussite-and-bohemian-brethren-movement: 'Wyclif's teaching began Lollardy'). The same papal movement's Vienne condemnation of the beguines' errors is major (era 6), as is Lateran IV's condemnation of Joachim's book (era 5).",
+   "evidence": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt:2570-2574: 'sedit concilium super erroribus magistri Johannis Wiclef ... Primo de Wiclef condempnavit XLV articulos'. The link now quotes only 2573-2574; the fix widens that one source to 2570-2574 so 'sat to judge the errors' is inside the quote.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+      "field": "outcome",
+      "new": "In July 1415 the Council of Constance sat to judge the errors of John Wyclif. It condemned forty-five of his articles."
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "work": "Constitutions of Thomas Arundel (1409), as printed in Foxe, Acts and Monuments, vol. III (Cattley-Townsend, 1837)",
+        "file": "cic/texts/foxe_acts-and-monuments-v3_cattley-townsend1837.txt",
+        "lines": "20197-20198",
+        "locus": "Foxe III, 'The cruel Constitutions of Arundel' (marginal date A.D. 1409), closing 'Finally' clause",
+        "quote": "our province being infected with divers and imfruitful doc- trines, and defiled with a new and damnable name of Lollardy",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "work": "Fillastre, Gesta concilii Constanciensis, session of 6 July 1415, in Finke, Acta Concilii Constanciensis II",
+        "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+        "lines": "2570-2574",
+        "locus": "Fillastre Gesta, entry for 6 July (pp. 47-48)",
+        "quote": "sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti, illius damp- nanda memoria atque super ferenda sentencia contra magistrum Johannem Hus Boemum. Et tulit sequentem sentenciam: Primo de Wiclef condempnavit XLV articulos",
+        "license": "public-domain"
+       }
+      ]
+     }
+    ],
+    "readability": [
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+      "fre": 71.3,
+      "fk": 5.9
+     }
+    ]
+   },
+   "doubts": "Arundel's 1409 constitutions (also on the link) are a second institutional act, but the quoted line shows only the 'damnable name of Lollardy' phrase, not the ban, so the outcome rests on Constance alone."
+  },
+  {
+   "fid": "MAJ-03",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "the-society-of-jesus--the-tridentine-church"
+   ],
+   "eras": [
+    7,
+    5,
+    8
+   ],
+   "finding": "This link's own sources include Paul III's bull Regimini militantis (1540) approving and confirming the Society, but it carries no outcome. Era 7's minor reason speaks only of the justification decree and does not weigh the bull. Elsewhere a pope approving and confirming an order is major: Innocent III and the Franciscans, Innocent III and the Humiliati, Innocent IV and the Carmelite rule (all era 5). The Jesuits' own suppression in 1773 is major (era 8). No other link carries the 1540 approval.",
+   "evidence": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt:2115-2117 (on the link): 'apostolica auctoritate, tenore prae¬ sentium ex certa scientia approba¬ mus, confirmamus et benedicimus,'; :1554 'Regimini militantis, 27 Sept. 1540.' Era-7 reason: Build/Ministry/Operations/Audits/2026-11-08_links-era-7/Drafting_Record.json (outcome_considered for this id).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "the-society-of-jesus--the-tridentine-church",
+      "field": "outcome",
+      "new": "In 1540 Pope Paul III gave the Society of Jesus his approval in a bull. He used his power as pope to confirm it."
+     }
+    ],
+    "readability": [
+     {
+      "id": "the-society-of-jesus--the-tridentine-church",
+      "fre": 81.1,
+      "fk": 4.8
+     }
+    ]
+   },
+   "doubts": "The link runs from the Jesuits to the Tridentine church (influenced); the approval is the papacy's act on the Jesuits. Era 5's approval links are papacy-to-order 'in contact with', but the test asks only whether a source on the link shows the act."
+  },
+  {
+   "fid": "MAJ-04",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "imperial-juridical-christianity--persian-church-of-the-east-early"
+   ],
+   "eras": [
+    2,
+    7,
+    8
+   ],
+   "finding": "The outcome is the 410 synod's own canon adopting the western order of worship taught by Isaac and Marutha. That is a church body adopting another side's worship order by its own vote, which the ruling of 2026-11-08 ('adoption by vote is minor') makes minor. P2-ML judged it before that ruling and itself called it 'Practice taken up by synod' (Opus_Review_Round1.json). The same class was dropped elsewhere: the Scottish General Assembly 1562 and Paris 1559 (era 7), the Moscow council of 1656 on the corrected service book and Zamość 1720 (era 8), Trent's Vulgate decree (removed from P2-ML's own set).",
+   "evidence": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:17202-17204: 'nous exercerons tous uniformément le ministère selon le ministère occidental que les évèques Isaac et Marouta nous ont enseigné'. Build/Ministry/Operations/Audits/2026-11-08_major-links/Opus_Review_Round1.json line 541: 'Practice taken up by synod: the Persian bishops adopt the western order of worship'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+      "field": "outcome",
+      "new": null
+     }
+    ]
+   },
+   "doubts": "The 410 synod also took the Nicene canons, under the Persian king, but that is not what the outcome names and no quote on the link shows the king's order."
+  },
+  {
+   "fid": "MAJ-05",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast"
+   ],
+   "eras": [
+    1,
+    4,
+    2,
+    7,
+    8
+   ],
+   "finding": "The outcome is Trullo canon 2 'setting its seal' on the canons of Gregory the Wonderworker: a council adopting another's set text by its own vote. The ruling makes that minor, and the comparable cases were dropped: Trent declaring Jerome's Vulgate authentic (outcome removed from this same P2-ML set), the Eastern patriarchs commending Mohyla's Confession (era 7, minor), Zamość 1720 'made laws it said followed the Council of Trent' and Moscow 1656 on the corrected book (era 8, dropped).",
+   "evidence": "cic/texts/npnf214_seven-ecumenical-councils.xml:26731-26732 'But we set our seal likewise upon all the other holy canons set forth by our holy and blessed Fathers'; 26742-26745 '... of Gregory the Wonder-worker, Bishop of Neocæsarea;'. P2-ML Final.json reason: 'Trullo canon 2 makes Gregory's canons church law. Review: keep.' (judged before the adoption-by-vote ruling).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+      "field": "outcome",
+      "new": null
+     }
+    ]
+   },
+   "doubts": "Real distinction available: Gregory's text is itself a set of canons, so ratifying it makes rules binding, where Trent's Vulgate was a text for reading. If Mark reads 'set text' as excluding canons, keep the outcome and record that reading; either way the call should be made once and applied to both cases."
+  },
+  {
+   "fid": "MAJ-06",
+   "kind": "major-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+    "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+    "armenian-christianity-before-the-bagratids--church-of-caucasian-albania"
+   ],
+   "eras": [
+    8,
+    3
+   ],
+   "finding": "A prelate deposed and exiled by a ruler's or official's act, with no council or law named, is major in era 3 but minor in era 8. Era 3: Reparatus of Carthage 'lost his office and was exiled' (Victor of Tunnuna names no council) and Nerses Bakur of Albania 'was removed' (P2-ML: 'the source names no deciding body. Review: keep.'), both major as council-law. Era 8: the vizier had Patriarch Avedik beaten, stripped of his robes and banished, judged minor because 'no council, law, split or changed rule is shown'. One of the two readings must give way.",
+   "evidence": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:19068-19070 'officio sumptibusque privatus Euchaida exilio relegatur'; cic/texts/ormanian_church-of-armenia_gregory1912.txt:2906-2907 'He was immediately removed and replaced by Simeon'; cic/texts/chamich_history-of-armenia-v2_avdall1827.txt:21314-21319 'ordered him to be bastinadoed, then to be stripped of his patriarchal robes,'; Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/Final.json minor_reason.",
+   "fix": {
+    "action": "escalate_mark",
+    "readability": [
+     {
+      "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+      "fre": 63.8,
+      "fk": 8.0
+     }
+    ]
+   },
+   "doubts": "Options: (A) a deposition by any authority, church or state, counts as 'deposing' under (a): give Avedik the drafted outcome above (sources already on the link; the link is DMR on later Catholic histories). (B) (a) needs a council, canon, synod or law: remove the outcomes from Reparatus and Nerses Bakur. (C) keep both and record why a vizier's order differs. Recommend A: the rule names 'deposing', and era 8's README already counts state acts that work as law. Escalated because the choice sets how the test reads, not because one era misapplied it."
+  },
+  {
+   "fid": "MAJ-07",
+   "kind": "outcome-unsupported",
+   "severity": "substantial",
+   "links": [
+    "anatolian-church-third-century--antiochene-church-third-century"
+   ],
+   "eras": [
+    1
+   ],
+   "finding": "The outcome's act ('a last synod cut him off from communion') is not shown by any source listed on the link. The link cites HE VII.27.2 and VII.28.1 (the gathering, and Gregory and Athenodorus among those present). P2-ML's own evidence for the act is HE VII.29 (lines 41933-41936), which is not on the link.",
+   "evidence": "Link sources: npnf201 lines 41859-41861 and 41874. Act: cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:41953-41954 'his false doctrine clearly shown before all, and he was excommunicated from the Catholic Church under heaven.' P2-ML Final.json evidence lines 41933-41936 (chapter heading).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "anatolian-church-third-century--antiochene-church-third-century",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": "syr.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History VII.27.2 (trans. McGiffert, NPNF2 1)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "41859-41861",
+        "locus": "HE VII.27.2",
+        "quote": "But all the other pastors of the churches from all directions, made haste to assemble at Antioch, as against a despoiler of the flock of Christ.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "syr.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History VII.28.1 (trans. McGiffert, NPNF2 1). The clause reads 'the brothers Gregory and Athenodorus, pastors of the churches in Pontus'; an editor's footnote after 'Gregory' (line 41872) splits it, so the quote gives the part after the note",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "41874",
+        "locus": "HE VII.28.1",
+        "quote": "Athenodorus, pastors of the churches in Pontus;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "syr.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History VII.29.1 (trans. McGiffert, NPNF2 1)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "41953-41954",
+        "locus": "HE VII.29.1 (the final synod at Antioch)",
+        "quote": "his false doctrine clearly shown before all, and he was excommunicated from the Catholic Church under heaven.",
+        "license": "public-domain"
+       }
+      ]
+     }
+    ]
+   },
+   "doubts": "This adds a primary source the outcome already relied on (same work, same file); it is not new evidence."
+  },
+  {
+   "fid": "MAJ-08",
+   "kind": "outcome-unsupported",
+   "severity": "substantial",
+   "links": [
+    "aquileian-christianity--homoian-arian-christianity"
+   ],
+   "eras": [
+    2
+   ],
+   "finding": "The outcome (Palladius found unworthy of the priesthood, a Catholic to be ordained in his place) rests on the Acts' sentence, which is not among the link's quotes. The link quotes only Valerian's opinion and the list of bishops. P2-ML's evidence (60888-60911) is off the link.",
+   "evidence": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt:60892-60895 'pronuncio illum facerdo- tio indignum & * carendum; & in loco ejus catholicus ordinetur, Omnes epifcop! dixerunr: Anathema Palladio .' Link quotes: 60919-60922, 59746-59747.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "aquileian-christianity--homoian-arian-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Council of Aquileia (381), Acts: Valerian speaking",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+        "lines": "60919-60922",
+        "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3",
+        "quote": "Valerianus epifcopus dixit: mihi quidem videtur, quia qui Arium defendir, Avianus eft: qui blafphemias ipfius non conde- mnat, ipfe blafphemus eft .",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Council of Aquileia (381), Acts: list of bishops present",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+        "lines": "59746-59747",
+        "locus": "Gesta Concilii Aquileiensis, opening",
+        "quote": "cum epifcopis , Aqui- lejenfium civitatis Valeriano, Ambrofio ,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Council of Aquileia (381), Acts: the sentence on Palladius",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+        "lines": "60892-60895",
+        "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3, the sentence on Palladius",
+        "quote": "pronuncio illum facerdo- tio indignum & * carendum; & in loco ejus catholicus ordinetur, Omnes epifcop! dixerunr: Anathema Palladio .",
+        "license": "public-domain"
+       }
+      ]
+     }
+    ]
+   },
+   "doubts": "The OCR is broken across columns just before 60891, so the speaker of 'pronuncio' is not clear in the file; the outcome says 'the bishops', which the 'Omnes episcopi dixerunt: Anathema Palladio' line supports."
+  },
+  {
+   "fid": "MAJ-09",
+   "kind": "outcome-unsupported",
+   "severity": "substantial",
+   "links": [
+    "anglo-saxon-christianity--insular-irish-monastic-christianity"
+   ],
+   "eras": [
+    4,
+    3
+   ],
+   "finding": "Neither act the outcome names (all present resolving to keep the Catholic Easter; Colman leaving for Scotland with those who would not) is in the link's quotes, which end at the king's words (8204-8207). Both lie in the same work at 8215-8232, the lines P2-ML's evidence used.",
+   "evidence": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt:8215-8218 and 8227-8232 (quoted in the fix). P2-ML Final.json evidence: 8214-8231.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8003-8005",
+        "locus": "HE III.25",
+        "quote": "Then Wilfrid, being ordered by the king to speak, delivered himself thus : — \" The Easter which we observe, we saw celebrated by all at Rome",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8017-8021",
+        "locus": "HE III.25",
+        "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8136-8137",
+        "locus": "HE III.25",
+        "quote": "but what have you to do with him, since you do not observe his decrees ?",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8204-8207",
+        "locus": "HE III.25",
+        "quote": "he is the door-keeper, whom I will not contradict, but will, as far as I know and am able, in all things obey his decrees",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8215-8218",
+        "locus": "HE III.25, close",
+        "quote": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bede, Ecclesiastical History of the English Nation III.26 (Giles/Jane 1903)",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8227-8232",
+        "locus": "HE III.26",
+        "quote": "Colman, perceiving that his doctrine was rejected, and his sect despised, took with him such as would not comply with the Catholic Easter and the tonsure (for there was much controversy about that also), and went back into Scotland,",
+        "license": "public-domain"
+       }
+      ]
+     }
+    ]
+   },
+   "doubts": "Cross-era check: Whitby is close to the 'adoption by vote' class (an assembly taking up another side's Easter). I left it major because the king decided first and the others assented, more like Charlemagne's 802 order than Uppsala 1593's own vote. If Mark reads it as adoption, the outcome goes."
+  },
+  {
+   "fid": "MAJ-10",
+   "kind": "outcome-unsupported",
+   "severity": "substantial",
+   "links": [
+    "latin-church-of-outremer--the-carmelites"
+   ],
+   "eras": [
+    5
+   ],
+   "finding": "The outcome's second sentence ('Later the friars asked the pope to explain, correct and soften it') rests on Innocent IV's bull, which is not on this link (P2-ML evidence 22026-22034 is off the link). It also repeats the act already carried by latin-papal-church-gregorian--the-carmelites. And 'friars' is wrong for Albert's time: his rule is addressed to 'hermits', and the link's own note on the Dominican tie says the pope's letter of 1247 still calls them hermits.",
+   "evidence": "Link's only primary: cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt:22056-22061 'Albert, by the grace of God patriarch of Jerusalem, to our beloved children in Christ, Brocard and the other brethren, hermits, who live under his obedience by the well of Elias on Mount Carmel'. P2-ML evidence: 22026-22034 (the bull).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "latin-church-of-outremer--the-carmelites",
+      "field": "outcome",
+      "new": "The hermits on Mount Carmel got their rule from Albert, the patriarch of Jerusalem. It was written as a letter to them."
+     }
+    ],
+    "readability": [
+     {
+      "id": "latin-church-of-outremer--the-carmelites",
+      "fre": 72.6,
+      "fk": 5.9
+     }
+    ]
+   },
+   "doubts": ""
+  },
+  {
+   "fid": "MAJ-11",
+   "kind": "major-inconsistency",
+   "severity": "minor",
+   "links": [
+    "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d"
+   ],
+   "eras": [
+    7,
+    8
+   ],
+   "finding": "The major call stands on the book condemnation, but the outcome's second sentence ('It also bound the church to the rules of the Council of Trent') names the synod receiving Trent by its own vote. Era 8 dropped exactly that act as minor for Zamość 1720 ('made laws it said followed the Council of Trent'). The outcome should name only the act that meets the test.",
+   "evidence": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt:31939-31940 'CONDEMNS MANY SYRIAN BOOKS, FORBIDS ALL CHRISTIANS TO READ THEM, AND COMMANDS THAT THEY BE DESTROYED.'; 31948-31951 'books writ in the Syrian tongue by Nestorian heretics'. Era 8 dropped outcome: Build/Ministry/Operations/Audits/2026-11-08_links-era-8/Final.json (the-tridentine-church--ruthenian-uniate-18th-century).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+      "field": "outcome",
+      "new": "The synod said many Syriac books came from Nestorian heretics. It forbade all Christians to read them and ordered them destroyed."
+     }
+    ],
+    "readability": [
+     {
+      "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+      "fre": 63.2,
+      "fk": 7.0
+     }
+    ]
+   },
+   "doubts": "'Many Syriac books' follows the decree heading; the old outcome's 'the community's Syriac books' was the note's wording."
+  },
+  {
+   "fid": "MAJ-12",
+   "kind": "outcome-unsupported",
+   "severity": "minor",
+   "links": [
+    "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism"
+   ],
+   "eras": [
+    7
+   ],
+   "finding": "'Under a law of the last parliament' and 'London courts' go past the source. The record dates the offence by a deadline: remaining 'after the tearme of xl'y days after the Sefsion of the last parliament'. It names no law, and it is one session of one court.",
+   "evidence": "cic/texts/catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt:15384-15386 'Nicholas Devorax alias Woodfen condempned for treason in being made a Seminarie priest at Reymes in ffrance by authoritie of the B. of Rome' (context continues: 'and in remayninge here after the tearme of xl'y days after the Sefsion of the last parliament').",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+      "field": "outcome",
+      "new": "In January 1586 a London court condemned priests for treason. They had been made priests in France by the Pope's authority. They then stayed in England past a forty-day limit."
+     }
+    ],
+    "readability": [
+     {
+      "id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+      "fre": 75.4,
+      "fk": 5.2
+     }
+    ]
+   },
+   "doubts": "The forty-day clause sits just past the quoted lines (same entry); widen the quote to the end of the entry if the reviewer wants it inside."
+  },
+  {
+   "fid": "MAJ-13",
+   "kind": "quote",
+   "severity": "minor",
+   "links": [
+    "imperial-juridical-christianity--donatism",
+    "ambrosian-milan-standalone--imperial-juridical-christianity",
+    "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+    "syriac-edessa-nisibis--the-church-of-the-east-under-persia"
+   ],
+   "eras": [
+    2,
+    6,
+    1
+   ],
+   "finding": "In four outcomes the act or a named fact sits a few lines outside every quote on the link, in the same work: the Roman verdict on Donatus and Caecilian (Optatus line 285; the link quotes 273, 275, 287); Theodosius's promise to amend the edict and end the inquiry (Ambrose Ep. 41, 43982-43986; the link quotes 43989-43990); the 1489 Embrun sentence (Perrin 4636-4641; the link quotes 4593-4598); and 'most of the students from the school of Edessa' (Barhadbeshabba 20740-20743; the link quotes 20738-20739).",
+   "evidence": "Quotes as given in the fix, each checked character for character against the vendored file at the stated lines.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "imperial-juridical-christianity--donatism",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": "don.source.optatus-against-the-donatists",
+        "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+        "file": "cic/texts/optatus_against-the-donatists.txt",
+        "lines": "287",
+        "locus": "Book I, ch. 25 (Constantine's reply to Donatus's appeal)",
+        "quote": "Oh, mad daring of their fury! A Bishop has thought fit to appeal to us, as is done in the lawsuits of the Pagans.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+        "file": "cic/texts/optatus_against-the-donatists.txt",
+        "lines": "273",
+        "locus": "Book I",
+        "quote": "Nevertheless, he granted them judges----Maternus from the city of Cologne, Reticius from the city of Autun, Marinus of Aries.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+        "file": "cic/texts/optatus_against-the-donatists.txt",
+        "lines": "275",
+        "locus": "Book I",
+        "quote": "There were present Miltiades,191 Bishop of the city of Rome",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "don.source.optatus-against-the-donatists",
+        "work": "Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I",
+        "file": "cic/texts/optatus_against-the-donatists.txt",
+        "lines": "285",
+        "locus": "Book I, ch. 25 (the Roman verdict)",
+        "quote": "Donatus was condemned by the verdict of so many Bishops, and that Caecilian was cleared by the judgement of so great an authority.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.ambrose-epistles",
+        "work": "Ambrose, Letter 40 (To Theodosius), §6 (trans. de Romestin, NPNF 2.10)",
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+        "lines": "43163-43165",
+        "locus": "Ep. 40.6",
+        "quote": "A report was made by the military Count of the East that a synagogue had been burnt, and that this was done at the instigation of the Bishop.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.ambrose-epistles",
+        "work": "Ambrose, Letter 41 (To his sister), §28 (trans. de Romestin, NPNF 2.10)",
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+        "lines": "43989-43990",
+        "locus": "Ep. 41.28",
+        "quote": "And so I went to the altar, whither I should not have gone unless he had given me a distinct promise.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.ambrose-epistles",
+        "work": "Ambrose, Letter 51 (To Theodosius after the massacre at Thessalonica), §13 (trans. de Romestin, NPNF 2.10)",
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+        "lines": "44183",
+        "locus": "Ep. 51.13",
+        "quote": "I dare not offer the sacrifice if you intend to be present.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.ambrose-epistles",
+        "work": "Ambrose, Letter 41 (To his sister), §28 (trans. de Romestin, NPNF 2.10)",
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+        "lines": "43982-43986",
+        "locus": "Ep. 41.28 (the emperor’s promise)",
+        "quote": "he said that he would amend the edict. I went on at once to say that he must end the whole investigation, lest the Count should use the opportunity of the investigation to do any injury to the Christians. He promised that it should be so.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bull of Innocent VIII, through his legate Albert de Capitaneis (1487), Latin and English, in Samuel Morland, The History of the Evangelical Churches of the Valleys of Piemont (1658)",
+        "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+        "lines": "22808-22811",
+        "locus": "Morland, Book I, 'The Bull of Pope Innocent for the Extirpation of the Waldenses' (1487)",
+        "quote": "proceed to the execution thereof againfl the forenamed Waldenfes, and all other Hereticks whatfoevery to rife «p in Arms againfl them",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bull of Innocent VIII (1487), in Morland (1658)",
+        "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+        "lines": "22859-22866",
+        "locus": "Morland, Book I, the bull of 1487",
+        "quote": "procuring that they may be exterminated anddeflroyed. And if you ftiall think it expedient, to caufe, exhort, and induce all the faithful in thofe parts, by fit Preachers of Gods word,preach- ing the Crofs or the Croifado,to fight manfully againft the fame HeretickSj",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Jean-Paul Perrin, History of the Old Waldenses (1618; English, Philadelphia 1847)",
+        "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+        "lines": "4593-4598",
+        "locus": "Part I, on the Waldenses of Dauphiné",
+        "quote": "The method of harvissing the Waldenses by war was never known till that time ; but Albert de (.'apitaneis. Archdeacon of Cremona,senl against them by Pope Innocent VIII., began to desire the aid and assistance of the King's Lieutenant in Dauphiny",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Jean-Paul Perrin, History of the Old Waldenses (1618; English, Philadelphia 1847)",
+        "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+        "lines": "4636-4641",
+        "locus": "Part I, on the Waldenses of Dauphiné (Ploieri at Embrun, 1489)",
+        "quote": "who began to exhibit fresh informations against the Waldenses of Fraissiniere, in the year 1489. He cited them to appear before him at Ambrun, and for not appearing, he excommuni- cated and anathematized them, and at last condemned them, as contuma- cious heretics and backsliders, to be delivered to the secular power, and their goods to be confiscated.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+        "lines": "20437-20438",
+        "locus": "Ephrem at Edessa",
+        "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+        "lines": "20441-20442",
+        "locus": "the school after Ephrem",
+        "quote": "Après sa mort, l’école, loin de tomber en décadence, fit de considérables progrès, grâce à l’activité de ses disciples",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+        "lines": "20738-20743",
+        "locus": "Cause of the Foundation of the Schools, Narsai at Nisibis",
+        "quote": "Barsauma put, par ces paroles et autres semblables, calmer l'esprit de Narsaï, qui voulut bien fonder une école à Nisibe. Il ordonna aussitôt de préparer tout ce dont a besoin une école. En peu de temps, il y attira de nombreux frères, de sorte que non seulement les frères persans et syriens venaient à lui, mais encore la plupart des frères qui étaient dans l’école d’Édesse.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "syr.source.chronicle-of-edessa",
+        "work": "Chronicle of Edessa, section 73",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+        "lines": "189",
+        "locus": "Chron. Edessa 73 (An. 800 = 489)",
+        "quote": "An. 800, the school of the Persians was eradicated from Edessa.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)"
+       }
+      ]
+     }
+    ]
+   },
+   "doubts": "For Barhadbeshabba the fix widens the existing Narsai source (20738-20739 to 20738-20743) instead of adding one."
+  },
+  {
+   "fid": "MAJ-14",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "catholic-church-ancien-regime--melkite-greek-catholic-church"
+   ],
+   "eras": [
+    8
+   ],
+   "finding": "The outcome is one sentence of 26 words, past the ~25-word limit. Split in two, every fact kept.",
+   "evidence": "Current outcome: 'In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730.'",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+      "field": "outcome",
+      "new": "In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave. Its envoy confirmed him in 1730."
+     }
+    ],
+    "readability": [
+     {
+      "id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+      "fre": 84.8,
+      "fk": 4.3
+     }
+    ]
+   },
+   "doubts": ""
+  },
+  {
+   "fid": "MAJ-15",
+   "kind": "other",
+   "severity": "minor",
+   "links": [
+    "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia"
+   ],
+   "eras": [
+    2,
+    3
+   ],
+   "finding": "P2-ML's README 'Wanted texts' tells a later pass to cite canon 2 of the 585 synod and 're-judge the link as major' (round-2 finding R2-04, which called it 'a synod's rule of the Trent kind'). Under the later adoption-by-vote ruling, a synod binding its clergy to another side's writings is minor, and Trent's own decree was removed. The wants entry now points the wrong way.",
+   "evidence": "Build/Ministry/Operations/Audits/2026-11-08_major-links/README.md, Wanted texts: 'Cite canon 2 of the 585 synod (lines 26710-26718 of its vendored file) ... then re-judge the link as major (round-2 finding R2-04).'",
+   "fix": {
+    "action": "none"
+   },
+   "doubts": "The audit file is not mine to edit; flagged so its owner can reword the wants entry (cite the canon, keep the link minor)."
+  }
+ ],
+ "checked_and_fine": [
+  "outcome_no_primary (mech.json), 7 links: Dvin 554 (Ormanian 2550-2556), Nerses Bakur (Ormanian 2902-2907), Humiliati approval 1200 (Giussano 12177-12179), Basil the Bogomil burned (Rački 1735-1752), Edinoverie 1800 (Conybeare 5533-5536), Kyiv to Moscow 1686 (Mouravieff 11424-11427) and Catherine II 1795 (Pelesz 41250-41254). In each, a vendored secondary on the link states the act; all are graded DMR. Nerses Bakur is still part of MAJ-06.",
+  "Charlemagne 802 and Carloman 742 imposing the Rule of Benedict: a ruler's order binding other houses, not a body adopting a text by its own vote. Major stands.",
+  "Borromean Milan 1565 (provincial council taxes benefices to found a seminary, at Trent's order): a new funding rule made by an authority in obedience to a higher council. It differs from Zamość 1720, where the synod received Trent and adopted Latin feasts. Major stands, though it is the nearest case to the adoption class after MAJ-04/05.",
+  "Florence 1439 (major, era 6) against Lyon 1274 (minor, era 5): Lyon's link shows only a Greek profession of faith, while Florence's shows a council decree with a stated rule (leavened or unleavened bread). Consistent.",
+  "Kyiv synod 1628 on Smotrytsky's Apology (era 7, minor): the source has an envoy reporting the synod's opinion before any sentence. Era 1's Montanist meetings show the act itself ('rejected them as heretical' and expulsion). Consistent.",
+  "Readmissions by an authority: Nicaea II receiving iconoclast bishops (era 4), Dioscorus receiving separated parties (era 3), the Basel legates receiving the Prague masters (era 6) and the Synod receiving the Uniates in 1839 (era 9) are all major. Oura 1865 (era 9, minor) shows no act by any authority. Consistent.",
+  "'One bishop's excommunication does not count' (Callistus and Sabellius, Demetrius and Origen, the 1054 legates, eras 1-5; Ethiopia, era 7) against Rome expelling Marcion and Valentinus (era 1, major): P2-ML ruled 'the church' expelling them differs from one bishop's act, and round 1 settled it inside era 1. Not cross-era, so not re-opened.",
+  "Duplicates rule: Jerusalem 1672 against the Huguenots (era 8), Hieria 754 against the Melkites (era 4) and lollardy--hussites (era 6) stay minor because the same act sits on another link. Applied alike.",
+  "Era 7 confessions (Augsburg 1530 and the Formula of Concord condemning Anabaptists and Zwinglians) minor; synodal condemnations (the two synods on Lucaris's Confession, Jerusalem 1672) major. A confession is not a council act. Consistent.",
+  "Remaining outcomes in eras 6-9 (Zurich 1527, Edward VI 1547, Scotland 1560, Exsurge 1520, Trent 1547 canon 13, Servetus 1553, Brest 1595, Job made patriarch, Sulaqa 1553, Diamper's patriarch decree, Conventicle Act 1664, Jansenism 1653/1664, Quietism 1687/1699, the Camisards 1715, the Jesuits 1773, Avvakum 1667, Melkites 1729, Armenians 1742, the Uniates 1839, Ecuador 1862, Mutran Hanna, the sultan's law on Catholic Armenians, Tabor 1452, Basel 1434, the fraticelli, Ad conditorem 1322, the Palamite tome 1341, Jonah 1448, the Maronites 1445, Eckhart 1329, Templars 1312): each act is in a quote on the link, or within the cited lines, and is of a kind other eras mark major.",
+  "Remaining era 1-5 outcomes not named in findings: each act is inside a cited line range (some quotes are partial, but the cited lines contain the clause), and the sentence keeps to the source.",
+  "Outcome display: the site prints the outcome as 'Lasting result:' under the note, so outcomes that lean on the note ('The bull also...', 'The question split...') read correctly."
+ ]
+}

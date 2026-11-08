@@ -1,0 +1,13 @@
+{
+ "round": 3,
+ "kind": "targeted-recheck",
+ "date": "2026-11-08",
+ "verdict": "pass",
+ "counts": {"blocking": 0, "substantial": 0, "minor": 0},
+ "closed": [
+  {"n": 1, "status": "closed", "check": "The Latin American note's last sentence matches the round-2 fix word for word. Florencia 251-253 ('se hará á nombre del Sumo Pontífice y por su mandato', still to come) and 8725-8727 (coronation set for 12 October 1895) support it. No date is now given for the papal grant itself. It reads plainly."},
+  {"n": 2, "status": "closed", "check": "The Coptic note's last sentence matches the round-2 fix word for word. The 'this tree' wording is gone, and nothing new is claimed."}
+ ],
+ "findings": [],
+ "fabrication_found": false
+}

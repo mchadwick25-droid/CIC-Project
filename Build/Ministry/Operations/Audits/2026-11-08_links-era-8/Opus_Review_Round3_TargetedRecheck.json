@@ -1,0 +1,25 @@
+{
+ "round": 3,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 0
+ },
+ "resolved": [
+  {
+   "id": "R2-01",
+   "status": "resolved",
+   "note": "Both fields carry the round-2 whole-field text exactly. B0 ends 'Later American revivals and the Black Church may owe it a debt too. How direct that debt was is hard to say.' B9 ends 'may lie behind the Welsh revival of 1904-05, but how far is hard to say.' Neither now claims anything about what historians have or have not traced. Each states the real uncertainty, how direct the debt was, and presents the tie as possible, not settled. This fits the B9 1904 entry's stress on independent beginnings. No build language. Scores by engine.m7.turn_readability.score_turn: B0 FRE 62.0, FK 7.8 (102 words); B9 FRE 78.5, FK 6.0 (45 words). No failures."
+  }
+ ],
+ "findings": [],
+ "checked": {
+  "fields_rechecked": ["the-evangelical-awakening-in-new-england.relationsSummary", "the-welsh-revival-tradition.relationsSummary"],
+  "readability": "Both pass FRE >= 60 and FK <= 10. score_turn flags below_floor for both (FK under grade 8). That is not a fail under the task bar or CLAUDE.md ('too-simple isn't the risk'), and it matches other round-2 fields that passed. Not a finding.",
+  "build_language_scan": "Regex for 'we hold', 'sources here', 'texts in hand', 'traced', 'vendored', 'corpus', 'library' over both fields: no hits.",
+  "diff": "A recursive JSON diff of census_r1.json against census_r2.json (movements and edges matched by id where present, all other keys compared in full) finds exactly 2 differences: the two relationsSummary fields above. Nothing else changed.",
+  "validator": "node tools/validate-census.mjs census_r2.json --base cic-website/data/world-census.json: 300 movements, 399 edges, 10 eras, 0 errors, 2 warnings (the same pre-existing shortName-length warnings as round 2)."
+ }
+}

@@ -1,0 +1,888 @@
+{
+ "group": "G",
+ "movements": [
+  "the-optina-elders-and-russian-ascetic-renewal",
+  "the-kollyvades-and-greek-renewal",
+  "orthodoxy-after-1821-balkan-autocephalies",
+  "russian-church-synodal-century"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the Philokalia tradition of ascetic prayer and became the world Dostoevsky drew on for The Brothers Karamazov.",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the Paisian revival's own text calls itself the 'direct source of the Optina tradition'. Era 6 has also drafted links into Optina from the Palamite and Muscovite monastic movements."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the Philokalia tradition of ascetic prayer and became the world Dostoevsky drew on for The Brothers Karamazov.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dostoevsky is a person, not a movement. The 1878 visit and Zosima are supported by Dunlop, Staretz Amvrosy (1972), and Stanton (1995), both cited in the repo."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "relationsSummary",
+   "sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era.",
+   "other_id": "emigre-orthodoxy-and-the-paris-school",
+   "disposition": "link",
+   "link_id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "prose_change": null,
+   "reason": "Era 10 has not run; drafted as Inferential-Thin."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "relationsSummary",
+   "sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": null,
+   "reason": "Both texts name it; the Optina press preface of 1847 documents it."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "longDescription",
+   "sentence": "Peasants, students, landowners and novelists queued outside the cell of Father Ambrose...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal to the movement. The 1847 Optina preface shows the same pattern under Leonid: people of every rank came to his cell."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "longDescription",
+   "sentence": "They were also publishers: from the 1840s, with the Slavophile thinker Ivan Kireevsky, Optina ran a press that put the Greek ascetic fathers into Russian and made a monastic literature available to laypeople for the first time.",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Era 8 owns the Paisian pair. The vendored Optina books of 1847 and 1849 are Paisius's Church Slavonic translations with a Russian preface, so 'into Russian' becomes 'for Russian readers'. 'For the first time' goes: Paisius's Slavonic Philokalia was printed in Moscow in 1793, and the 1847 preface says so. Kireevsky is kept, as all of the movement's secondary works give it, but he is not named in the vendored books."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "longDescription",
+   "sentence": "Dostoevsky came in 1878 after the death of his small son, and turned what he found there into the elder Zosima.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A person, not a movement; Dunlop (1972) and Stanton (1995) are cited in the repo."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "why",
+   "sentence": "From the 1840s the monastery also ran a press, putting the Greek ascetic fathers into Russian for laypeople for the first time.",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same fix as in the long description."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "legacy",
+   "sentence": "The Soviet state closed Optina in 1918 and killed or scattered its monks...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Soviet state is not a movement. Not checked in a vendored text: the monastery was turned into a farming cooperative in 1918 and finally shut in 1923 in most accounts, so a reviewer may want '1918' looked at. The Optina record's own continuation field points to the Russian new martyrs; that link is left for era 10, since this text does not name that movement."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "legacy",
+   "sentence": "The Philokalic spirituality it made available in Russian carried into the émigré theology of twentieth-century Paris and from there into English...",
+   "other_id": "emigre-orthodoxy-and-the-paris-school",
+   "disposition": "link",
+   "link_id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "prose_change": null,
+   "reason": "Same relationship as in the relations summary."
+  },
+  {
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "legacy",
+   "sentence": "J. D. Salinger built a novel around it in 1961.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person, not a movement. Franny and Zooey (1961) is well known but no repo source cites it; flagged for the reviewer."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "relationsSummary",
+   "sentence": "A sibling movement to the Paisian revival among Slavic Orthodox monks, part of the same broader eighteenth-century wave of ascetic renewal but a separate development within Greek Orthodoxy.",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the Paisian revival's text names Macarius of Corinth, Nicodemus and the Venice Philokalia of 1782. Supported: Onouphrios's Life of Nikodemos in the 1900 Synaxaristes says Nikodemos wished to go to Paisius in Moldavia but was prevented."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "longDescription",
+   "sentence": "...in 1782 published in Venice the Philokalia, an anthology of Greek ascetic writers on prayer...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own act. The 1893 Philokalia's title page names the Venice edition and its dedication names Nikodemos and Macarius as editors (lines 38-40, 147-153)."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "longDescription",
+   "sentence": "...and then wrote up their deaths in a New Martyrologion in 1799.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Onouphrios's Life of Nikodemos (Synaxaristes, 1900, vol. 1, line 1155) lists the New Martyrologion among his works; the year is not in that passage."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "longDescription",
+   "sentence": "For their trouble the Kollyvades were driven off Athos and scattered through the islands.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mount Athos is a place, not a movement. Not found in the vendored texts; the movement's repo-cited secondary works (Cavarnos 1974; Kitromilides) were not opened. Flagged; no prose change."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "why",
+   "sentence": "Under Ottoman rule they also prepared, deliberately and pastorally, people who expected to be executed for refusing to convert...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ottoman rule is a state, not a movement; the Ottoman-era Orthodox movement's text does not name the Kollyvades."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "legacy",
+   "sentence": "Paisius Velichkovsky translated it into Slavonic in 1793...",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it; its text names the Slavonic version printed in Moscow in 1793. Supported: the 1847 Optina preface says Paisius translated the Dobrotolubie from Greek and it was first printed at the Synodal press in Moscow (OCR reads '1703')."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "legacy",
+   "sentence": "...Theophan the Recluse into Russian later in the century...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person. Theophan's Russian Dobrotolubie (1877-90) is listed in the Paisius source dossier."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "legacy",
+   "sentence": "The movement is generally read as the seed of the modern Greek Orthodox revival, and its leading figures have since been canonized by the church that once expelled them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the modern Greek revival. The sentence already states it as a reading. Not checked in a vendored text; flagged."
+  },
+  {
+   "movement": "the-kollyvades-and-greek-renewal",
+   "field": "(all)",
+   "sentence": "existing link from desert monasticism",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "prose_change": null,
+   "reason": "Existing link kept; quotes re-read."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "relationsSummary",
+   "sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches...",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the Ottoman-era movement's text ends with the hanging of 1821 and names the resentment that shaped every Balkan church after."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "relationsSummary",
+   "sentence": "...Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movements for the national churches. The Tomos of 29 June 1850 is quoted in Gedeon, Kanonikai diataxeis I (1888), lines 14686-14687; 1833 is supported by Frazee (1969) and 1870 by Meininger (1970), both repo-cited; 1879 and 1885 not checked in a vendored text."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "relationsSummary",
+   "sentence": "A council in 1872 condemned phyletism...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An event, not a movement. Meininger (1970) and Kitromilides (2007) are cited in the repo; the acts of 1872 are not vendored (wanted)."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "Under Ottoman rule the Orthodox of the Balkans had been governed as a single religious community answering to the Patriarch of Constantinople.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Era 8 owns the pair; the sentence is kept in the rewrite."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "The Greek revolt of 1821 — which opened with the hanging of Patriarch Gregory V at the gate of his own residence — broke that arrangement apart...",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Wrong order. Walsh, an eyewitness at Constantinople, first hears of Ypsilantis's rising in Moldavia (lines 14453-14466) and only later describes the hanging on Easter Sunday, 22 April (lines 15063-15064, 15133-15147). The revolt did not open with the hanging; the hanging came weeks into it."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "why",
+   "sentence": "The Greek revolt of 1821 began with the hanging of the Patriarch of Constantinople at his own gate...",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Same order error, same evidence (Walsh 1836)."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "legacy",
+   "sentence": "These are the churches that make up Orthodoxy today...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movements for the national churches. Flag: Constantinople did not recognize the Bulgarian Exarchate until 1945, so 'date their modern independence to this century' is the Bulgarian reading."
+  },
+  {
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "legacy",
+   "sentence": "Wherever Orthodox jurisdictions overlap on the same ground, as they do throughout the diaspora...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no particular movement; the American Orthodoxy movement (era 10) is not named here."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "Governed under Metropolitan Filaret of Moscow and, later, the state-appointed ober-procurator Konstantin Pobedonostsev.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "People, not movements. Conybeare (1921) names 'Pobedonostseff, Procurator of the holy Synod' (line 2170)."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai)...",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Japan: new link. The Altai peoples have no movement; the 1842 translator's preface praises the church's 'missions in Siberia' (line 220-221)."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "The Optina elders' renewal movement grew within this church, and Alaska was one of its missions.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": null,
+   "reason": "New link."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "The Optina elders' renewal movement grew within this church, and Alaska was one of its missions.",
+   "other_id": "alaskan-mission-herman-veniaminov",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "New link."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "It stood in tension with the separate Old Believer Belokrinitsa hierarchy, founded in 1846, and with the evangelical Stundist movement that broke from it.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--the-old-believers",
+   "prose_change": null,
+   "reason": "The inventory missed the Old Believers movement. Conybeare (1921) records the Belokrinitsa founding in October 1846 (lines 6211-6223)."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "It stood in tension with the separate Old Believer Belokrinitsa hierarchy, founded in 1846, and with the evangelical Stundist movement that broke from it.",
+   "other_id": "russian-evangelicals-stundists",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Part 1 owns it: the Stundist movement's own text names the Russian Orthodox Church and Pobedonostsev."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "For this whole century the Russian Orthodox Church had no patriarch. It was governed by a Holy Synod...",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns any continuation link: the eighteenth-century Russian Church's legacy names the synodal arrangement lasting until 1917. Missed by the inventory."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "Missions went out to the Altai peoples, to Alaska and to Japan.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "Covered by the Alaska and Japan links."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "Monasteries and their elders drew crowds, and a parish priest, John of Kronstadt, became the most sought-after confessor in the empire.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": null,
+   "reason": "Covered by the Optina link; John of Kronstadt is a person (Kizenko 2000, repo-cited)."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "...a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike.",
+   "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "Eastern Catholics: the Synod's account of 1839 documents it. Old Believers: new link. Evangelicals: part 1 owns it."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "why",
+   "sentence": "...used the same church to enforce religious uniformity on Old Believers, Eastern Catholics and evangelicals alike.",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--the-old-believers",
+   "prose_change": null,
+   "reason": "Same as the long description."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "When toleration was finally decreed in 1905, the church immediately began preparing the council that would give it back its own head.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Moscow Council of 1917-18 is an event, not a movement. Conybeare (1921) mentions the 1905 'proclamation of liberty of conscience' (lines 5925-5926). A continuation into the Russian new martyrs (era 10) is not named here; left for era 10."
+  },
+  {
+   "movement": "russian-church-synodal-century",
+   "field": "legacy",
+   "sentence": "The preparatory work of 1905-06 became the Moscow Council of 1917-18, which restored the patriarchate...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as above."
+  }
+ ],
+ "links": [
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "from": "desert-monasticism",
+   "to": "the-kollyvades-and-greek-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice. It gathers old Greek writings on prayer and on guarding the mind. It opens with counsels credited to Antony the Great. It also holds works by Evagrius and by John Cassian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893, ed. Tzelatis), title page: the Venice edition",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "38-40",
+     "locus": "Philokalia I, title page",
+     "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίότου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), editor's dedication to the fathers of Athos: Nikodemos and Macarius as its first editors",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "147-153",
+     "locus": "Philokalia I, dedication",
+     "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιόλίων τὸν αὐτοῦ βίον καταδαπα- νήσας, καὶ δὴ καὶ εἰς τὰν τῆς παρούσης βίδλου οὐκ ἐλάχιστα εἰσενέγκας καὶ κα- ταθαλών, ὅτε ταύτην σὺν τῷ τῆς Κοριν- θίας ᾿Αγίῳ Μακαρίῳ ἐξεδίδου.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: the prooimion, then Antony",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58621-58628",
+     "locus": "Philokalia I, contents (Antony)",
+     "quote": "Προοίμιον εἰς τὴν παροῦσαν Βίδλον Φύλ. Τοῦ ἐν ᾿Αγίοις Πατρὸς ἡμῶν ᾿Αν- τωνίου τοῦ Μεγάλου, παραινέσεις περὶ ἤθους ἀνθρώπων, καὶ χρη- στῆς πολιτείας ἐν χεφαλαίοις ἑχατὸν ἑόδομιήχοντα.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), heading of Antony's counsels",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "1017-1020",
+     "locus": "Philokalia I, Antony",
+     "quote": "ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ ΠΑΡΑΙΝΈΣΕΙΣ ΠΕΡῚ ἩΘΟΥ͂Σ ἈΝΘΡΏΠΩΝ, ΚΑΙ ΧΡΗΣΤῊΗΣ ΠΟΛΊΤΕΙΑΣ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Isaiah the Anchorite",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58630-58632",
+     "locus": "Philokalia I, contents (Isaiah)",
+     "quote": "Τοῦ ᾿Αγίου Ἡσαΐου τοῦ ᾿Αναχω- ρητοῦ περὶ τηρήσεως νοὸς Κεφα- λαια εἴκοσι ἑπτά.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: Evagrius",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58634-58636",
+     "locus": "Philokalia I, contents (Evagrius)",
+     "quote": "Εὐαγρίου Μοναχοῦ ὑποτύπωσις Νο- ναχικὴ διδάσχουσα πῶς δεῖ ἀ-- σχεῖν, χαὶ ἡσυχάζειν.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, vol. 1 (Athens, 1893), table of contents: John Cassian",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "58646-58647",
+     "locus": "Philokalia I, contents (Cassian)",
+     "quote": "Τοῦ ᾿Αγίου Κασσιανοῦ τοῦ Ῥω- μαίου Λόγος, πρὸς Κάστορα,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bingaman and Nassif (eds.), The Philokalia: A Classic Text of Orthodox Spirituality (Oxford University Press, 2012), for the Venice printing of 1782",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": "not named in the Kollyvades text; an existing link from eras 1-5 touching this movement",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The sources show a compilation that took up older writings; a compilation is not an institutional act."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Re-read the Venice title-page line, the dedication naming Nikodemos with Macarius, and the contents lines for Antony, Isaiah, Evagrius and Cassian in the 1893 volume: they still show the claim.",
+    "The 170 chapters 'of Antony' are of doubtful authorship; the note already says 'credited to Antony', which is right."
+   ],
+   "change_reason": "Kept: the quotes still match the vendored Philokalia and the note says only what they show."
+  },
+  {
+   "id": "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Optina was a monastery of the Russian Church in the diocese of Kaluga. An Optina book of 1847 says the monk Leonid moved into its hermitage in 1829. The abbot gave him the care of the brothers' souls, and soon nobles, merchants and common people came to him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "285-288",
+     "locus": "preface, note on Leonid",
+     "quote": "Первона¬ чально поступилъ Калужской Епархіи въ Козельскую Вве¬ денскую Оптнну пустынь, въ 1797 году;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "333-336",
+     "locus": "preface, note on Leonid",
+     "quote": "начали приходить къ нему изъ разныхъ городовъ и селеній разнаго званія люди, изъ дворянъ, купцовъ, мѣщанъ и просто- народія — обоего пола",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-synodal-century relationsSummary ('The Optina elders' renewal movement grew within this church') and longDescription ('Monasteries and their elders drew crowds'); the-optina-elders-and-russian-ascetic-renewal relationsSummary ('a renewal movement within the wider Russian Orthodox Church of the same era')",
+   "wants": [
+    "Erast, Istoricheskoe opisanie Kozel'skoi Optinoi pustyni (1902), named in the Paisius dossier, for the founding of the skete in 1821 under the diocesan bishop"
+   ],
+   "drafter_flags": [
+    "Pre-reform Cyrillic OCR, quoted as it stands ('Оптнну', 'Вве¬ денскую').",
+    "The same 1847 preface also shows the Paisian line reaching Optina (Leonid taught by Paisius's disciple Theodore). That pair belongs to era 8 and era 6; this link claims only that the eldership grew inside the Russian Church's own monasteries.",
+    "Arrow: the Russian Church of 1815-1906 is the parent body; Optina's elders were its monks in a diocesan house."
+   ],
+   "change_reason": "New: both movements' own texts name the renewal growing within the Russian Church."
+  },
+  {
+   "id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1839 the Holy Synod printed an account of the Greek Catholics of its western lands. It called their union with Rome 'the schism'. The Synod received their bishops, clergy and people into the Russian Church, and the emperor confirmed it that March.",
+   "outcome": "In 1839 the Russian Holy Synod took the Greek Catholic bishops, priests and people of the west into the Russian Church. The emperor signed off on it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19780-19782",
+     "locus": "Notes, IV, heading",
+     "quote": "IV. An account of the re-union of the Uniates with the Orthodox Church in the Russian Empire. St. Petersburg Synodal Press, 1839. Printed by the direction of the Most Holy Synod.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19788-19791",
+     "locus": "Notes, IV",
+     "quote": "The schism, which has been called the Unia, began in the western districts of Russia in 1 596, through the defection of some part of the clergy at a council held at Brest-Litofsky from the orthodox faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20203-20209",
+     "locus": "Notes, IV",
+     "quote": "decided to receive the bishops, the priesthood, and the whole flock hitherto belonging to the Greek Uniate Church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20220-20226",
+     "locus": "Notes, IV",
+     "quote": "the report of the Synod was confirmed by the supreme resolution of His Majesty, written with his own hand: \"m I thank God, and accept it.\"",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-synodal-century longDescription and why ('a policy of religious uniformity that pressed hard on ... Eastern Catholics'); the Greek Catholic movement's relationsSummary also names it",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20203-20210",
+     "text": "decided to receive the bishops, the priesthood, and the whole flock hitherto belonging to the Greek Uniate Church into the full and entire communion of the Holy Orthodox, Catholic, Eastern Church, and into an inseparable union with the Church of All the Russias,"
+    },
+    "reason": "The Synod decided to receive the whole Greek Uniate church into the Russian Church, and the emperor confirmed it: a settlement changed by an authority."
+   },
+   "wants": [
+    "A Greek Catholic or Roman account of the Polotsk act of 1839, so the other side is heard in its own words"
+   ],
+   "drafter_flags": [
+    "This is the Synod's own official account, printed by its direction; it presents the transfer as willing. The Greek Catholic movement's text says some of the later Chełm transfer was forced. The note does not call the 1839 act voluntary.",
+    "Type: 'argued against' rests on the account naming the union 'the schism' and on the Synod's act ending it in Russia. The bishops' own Polotsk act (lines 20420-20424) shows the Greek Catholic side seeking reunion, so 'broke with' is not used.",
+    "'Greek Catholics of its western lands' renders the account's 'Greek Uniates inhabiting the western districts of Russia' (lines 20225-20226)."
+   ],
+   "change_reason": "New: the Synodal text names Eastern Catholics, and the 1839 Synod account documents the act."
+  },
+  {
+   "id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "alaskan-mission-herman-veniaminov",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1842 an English chaplain in Russia praised the Russian Church's missions in Siberia and the Aleutian Islands. He wrote that a new diocese had just been founded in the islands. Its first bishop was the missionary Veniaminov, long at work among the native peoples.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "R. W. Blackmore, translator's preface to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "220-224",
+     "locus": "Translator's preface",
+     "quote": "missions in Siberia, and the Aleoutine Islands, in which last a new diocese has lately been founded, and the pious and zealous missionary, Veniamineff, who has so long laboured among the natives, has been appointed their first Bishop",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-synodal-century relationsSummary ('Alaska was one of its missions'), longDescription ('Missions went out ... to Alaska') and legacy ('the missionary churches begun in this period ... in Alaska')",
+   "wants": [
+    "Ioann Veniaminov's own reports or his Notes on the Islands of the Unalaska District (1840), or the Synod's act creating the diocese of Kamchatka, the Kurile and Aleutian Islands (1840)"
+   ],
+   "drafter_flags": [
+    "The witness is an Anglican chaplain, not the Synod, but he writes in 1842 from Kronstadt and names the diocese and Veniaminov's appointment.",
+    "The earlier Valaam mission of 1794 belongs to the eighteenth-century Russian Church; this link covers the 1824-1906 mission only."
+   ],
+   "change_reason": "New: the Synodal text names Alaska as one of its missions."
+  },
+  {
+   "id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1861 the Russian Church sent the monk Nikolai to Hakodate in Japan. He built a Japanese Orthodox church, served mostly by Japanese priests. It was one of three kinds of Christian church in Meiji Japan. What we know of this comes from modern histories.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, ed., Handbook of Christianity in Japan (Leiden, 2003)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kennosuke Nakamura, Senkyōshi Nikorai to Meiji Nihon (Tokyo, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "russian-church-synodal-century relationsSummary ('Sent missions ... to Japan (from 1861, under Nikolai)'), longDescription and legacy",
+   "wants": [
+    "Nikolai of Japan's diaries (1870-1911) or his reports to the Synod, or a pre-1930 English account of the Orthodox mission in Japan"
+   ],
+   "drafter_flags": [
+    "No vendored text names Nikolai or the Japan mission. Both secondary works are cited in the repo (the Japanese movement's story on Nikolai) but were not opened here; the grade is the highest the repo supports, though the facts themselves are not in dispute among historians.",
+    "Type: the Japanese movement has three strands (Catholic, Protestant, Orthodox). Only the Orthodox strand came out of the Russian Church; the note says so. A reviewer may prefer 'influenced'."
+   ],
+   "change_reason": "New: the Synodal text and the Japanese movement's text both name Nikolai's mission of 1861."
+  },
+  {
+   "id": "russian-church-synodal-century--the-old-believers",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "the-old-believers",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Notes to an English history of the Russian Church, printed in 1842, call the Old Believers 'the Schism'. They count 19,833 Russian dissenters who joined the state church in 1839. In 1921 F. C. Conybeare wrote of harsh laws against them under Pobedonostsev.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (on the monasteries)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19637-19640",
+     "locus": "Notes, monasteries of the dissenters",
+     "quote": "Most of these were founded in the seventeenth century, after the formation of the Schism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (on the monasteries)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19652-19654",
+     "locus": "Notes, monasteries of the dissenters",
+     "quote": "it is not enough for them to be offered the election of their own clergy and priors, but they must be wholly independent of the bishop and of the synod",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (Church statistics for 1839)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19687-19692",
+     "locus": "Notes, statistics",
+     "quote": "In 1839, the number of conversions to the Church was as follows: Of Latins, 2,120 (being as many again as had been usual in the preceding years), from different forms of Protestantism 378, Jews 351, Mahometans 441, Heathens 2,601 ; of native Russian dissenters or schismatics 19,833",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Cambridge, MA, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5810-5816",
+     "locus": "ch. on the Popovtsy",
+     "quote": "It would seem as if the policy of the Russian Government all through was that of which Pobedonostsev under Alexander III secured the ratification by law, namely that if any member of any family, man, woman or child, any- where in the Russian dominions, joined the Orthodox Church, the entire family should be regarded officially as such.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-church-synodal-century relationsSummary ('in tension with the separate Old Believer Belokrinitsa hierarchy'), longDescription and why ('pressed hard on Old Believers')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Conybeare's law under Pobedonostsev is a hedged secondary report ('It would seem'), and the Synod's veto he reports is from 1812, before this church's period; no act on these sources passes."
+   },
+   "wants": [
+    "A Synod or state text of 1815-1906 on the Old Believers in a vendored edition (for example the 1883 law on Old Believers, or Pobedonostsev's reports as ober-procurator)"
+   ],
+   "drafter_flags": [
+    "The inventory shelved Old Believers as having no movement; the Old Believers movement exists (era 8, 1666-1815) and its own text names the Belokrinitsa hierarchy of 1846 but not this church, so the link is ours.",
+    "The 1842 notes are unsigned; they may be the translator's rather than Mouravieff's. They speak from the official church's side either way, so the grade is Widely Accepted, not Documented.",
+    "Conybeare also records the founding at Belokrinitsa in 1846 (lines 6211-6223) and Nicholas I's demand that Austria remove Ambrose (lines 6343-6348); that is the tsar's act, so it is not used in the note.",
+    "Dates: the Old Believers movement ends at 1815 and this church begins there; the link covers the Old Believers' continuing life under this church."
+   ],
+   "change_reason": "New: the Synodal text names the Old Believers and Belokrinitsa; the inventory missed the movement."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "action": "new",
+   "from": "the-optina-elders-and-russian-ascetic-renewal",
+   "to": "emigre-orthodoxy-and-the-paris-school",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Optina's memory went abroad with the Russian exiles. In 1926 a press in Paris printed a book on the monastery's past by Sergii Chetverikov. Beyond that, the proof we have is thin. The Paris thinkers also had other roots, such as the work of Bulgakov.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergii Chetverikov, Optina Pustyn': istoricheskii ocherk (Paris: YMCA Press, 1926)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "unverified",
+   "named_in_text": "the-optina-elders-and-russian-ascetic-renewal relationsSummary ('Its spirituality carried forward into twentieth-century émigré Orthodox theology') and legacy ('carried into the émigré theology of twentieth-century Paris')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A teaching taken up abroad; no institutional act."
+   },
+   "wants": [
+    "Sergii Chetverikov, Optina Pustyn' (Paris, YMCA Press, 1926), found on archive.org and public domain by date under the project's rule, not yet vendored",
+    "A Paris-school text that names Optina, if one enters the public domain"
+   ],
+   "drafter_flags": [
+    "Chetverikov's book is known here only from the Paisius source dossier (title, place, date); it was not opened. It is really a primary witness of émigré reception, listed as secondary because it is not vendored.",
+    "The era-10 source research notes that the Paris school's roots run at least as much through Bulgakov and Berdyaev as through Optina; the émigré movement's own text says the same.",
+    "Era 10 has not run, so this era-9-named link is ours."
+   ],
+   "change_reason": "New: the Optina text names the émigré theology as its heir; graded thin on the evidence in hand."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "longDescription",
+   "old": "At a small monastery in the forest near Kozelsk, south of Moscow, a hermitage founded in 1821 became the center of something Russian Orthodoxy had never had at this scale. Elders — startsy — who kept the door open to anyone who walked up to it. Peasants, students, landowners and novelists queued outside the cell of Father Ambrose, and the elders who could not see everyone answered by letter, leaving thousands of pages of spiritual direction addressed not to monks but to ordinary people trying to live ordinary lives. They were also publishers: from the 1840s, with the Slavophile thinker Ivan Kireevsky, Optina ran a press that put the Greek ascetic fathers into Russian and made a monastic literature available to laypeople for the first time. Dostoevsky came in 1878 after the death of his small son, and turned what he found there into the elder Zosima.",
+   "new": "At a small monastery in the forest near Kozelsk, south of Moscow, a hermitage was founded in 1821. It became the center of something Russian Orthodoxy had never had at this scale. Elders, called startsy, kept the door open to anyone who walked up to it. Peasants, students, landowners and novelists queued outside the cell of Father Ambrose. The elders could not see everyone, so they answered by letter. They left thousands of pages of spiritual advice. They wrote not to monks but to ordinary people trying to live ordinary lives. They were also publishers. From the 1840s, working with the Slavophile thinker Ivan Kireevsky, Optina ran a press. It printed the Greek monastic fathers for Russian readers. Dostoevsky came in 1878 after the death of his small son. He turned what he found there into the elder Zosima.",
+   "reason": "The vendored Optina books of 1847 and 1849 are Church Slavonic translations, and Paisius's Slavonic Philokalia had been printed in Moscow in 1793, so 'into Russian' and 'for the first time' go. Sentences shortened to the reading target; no other fact changed."
+  },
+  {
+   "n": 1,
+   "movement": "the-optina-elders-and-russian-ascetic-renewal",
+   "field": "why",
+   "old": "At a forest hermitage founded in 1821 near Kozelsk, elders known as startsy kept their door open to anyone who came, and those they could not see in person they answered in thousands of pages of letters written to ordinary people rather than to monks. From the 1840s the monastery also ran a press, putting the Greek ascetic fathers into Russian for laypeople for the first time. Dostoevsky came in 1878 after the death of his small son, and turned what he found there into the elder Zosima.",
+   "new": "At a forest hermitage founded in 1821 near Kozelsk, elders known as startsy kept their door open to anyone who came. Those they could not see in person, they answered by letter. They wrote thousands of pages to ordinary people rather than to monks. From the 1840s the monastery also ran a press. It printed the Greek monastic fathers for Russian readers. Dostoevsky came in 1878 after the death of his small son. He turned what he found there into the elder Zosima.",
+   "reason": "Same fix as the long description: the press printed Slavonic translations for Russian readers, and not for the first time. Sentences shortened to the reading target."
+  },
+  {
+   "n": 2,
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "old": "Under Ottoman rule the Orthodox of the Balkans had been governed as a single religious community answering to the Patriarch of Constantinople. The Greek revolt of 1821 — which opened with the hanging of Patriarch Gregory V at the gate of his own residence — broke that arrangement apart, and as each new nation won independence its church claimed self-government. Greece declared its church self-governing in 1833 and was formally recognized by Constantinople in 1850, Bulgaria won an imperial decree creating a national exarchate in 1870, Serbia was recognized in 1879 and Romania in 1885. In 1872 a council at Constantinople condemned phyletism — organizing the church by ethnic nation rather than by place — even as national churches went on multiplying anyway. What the century produced was not one church breaking up so much as a family of them, each with its own synod, its own language of worship, and its own claim on a people.",
+   "new": "Under Ottoman rule, the Orthodox of the Balkans were governed as one religious community. That community answered to the Patriarch of Constantinople. The Greek revolt of 1821 broke this order apart. Weeks after the rising began, Patriarch Gregory V was hanged at the gate of his own home. As each new nation won its freedom, its church claimed the right to govern itself. Greece declared its church free in 1833, and Constantinople formally accepted it in 1850. Bulgaria won a decree from the sultan in 1870 that set up a national church, the exarchate. Serbia won its own church in 1879 and Romania in 1885. In 1872 a council at Constantinople condemned phyletism, which means building the church around a nation rather than a place. Even so, national churches kept on spreading. The century did not simply break one church apart. It made a family of churches. Each had its own synod, its own language of worship and its own claim on a people.",
+   "reason": "The revolt did not open with the hanging. Walsh, at Constantinople in 1821, hears of the rising in Moldavia first and describes the hanging later, on Easter Sunday, 22 April (Walsh 1836, lines 14453-14466, 15063-15064). Sentences shortened to the reading target; no other fact changed."
+  },
+  {
+   "n": 3,
+   "movement": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "why",
+   "old": "The Greek revolt of 1821 began with the hanging of the Patriarch of Constantinople at his own gate, and by the century's end Greece, Bulgaria, Serbia and Romania had each won their own self-governing church. In 1872 a council at Constantinople condemned the practice of organizing churches by nationality rather than by place, even as it kept happening anyway.",
+   "new": "Weeks after the Greek revolt broke out in 1821, the Patriarch of Constantinople was hanged at his own gate. By the end of the century, Greece, Bulgaria, Serbia and Romania had each won a church that ran itself. In 1872 a council at Constantinople condemned the practice of building churches by nation rather than by place. It kept happening anyway.",
+   "reason": "Same order error and the same evidence (Walsh 1836). Sentences shortened to the reading target."
+  }
+ ],
+ "wants": [
+  "A Greek Catholic or Roman account of the Polotsk act of 1839, so the other side is heard in its own words",
+  "A Paris-school text that names Optina, if one enters the public domain",
+  "A Synod or state text of 1815-1906 on the Old Believers in a vendored edition (for example the 1883 law on Old Believers, or Pobedonostsev's reports as ober-procurator)",
+  "Acts of the Council of Constantinople, September 1872, with the definition on phyletism (named in the national-churches story; not vendored)",
+  "Erast, Istoricheskoe opisanie Kozel'skoi Optinoi pustyni (1902), named in the Paisius dossier, for the founding of the skete in 1821 under the diocesan bishop",
+  "Ioann Veniaminov's own reports or his Notes on the Islands of the Unalaska District (1840), or the Synod's act creating the diocese of Kamchatka, the Kurile and Aleutian Islands (1840)",
+  "Nikolai of Japan's diaries (1870-1911) or his reports to the Synod, or a pre-1930 English account of the Orthodox mission in Japan",
+  "Sergii Chetverikov, Optina Pustyn' (Paris, YMCA Press, 1926), found on archive.org and public domain by date under the project's rule, not yet vendored",
+  "The Greek royal decree of 23 July / 4 August 1833 declaring the Church of Greece autocephalous",
+  "The imperial firman of 1870 creating the Bulgarian Exarchate",
+  "Theophan the Recluse, Dobrotolubie v russkom perevode (1877-90), public domain by date, not vendored"
+ ],
+ "escalations": []
+}

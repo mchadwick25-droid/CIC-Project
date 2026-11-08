@@ -1,0 +1,888 @@
+{
+ "group": "H",
+ "movements": [
+  "alaskan-mission-herman-veniaminov",
+  "armenian-christianity-zartonk",
+  "church-of-the-east-chaldean-consolidation",
+  "ruthenian-greek-catholic-polotsk-to-galicia"
+ ],
+ "dispositions": [
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "relationsSummary",
+   "sentence": "After Russia sold Alaska in 1867, the church stayed on as a native church under its own Alaska Native clergy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Russian state is not a movement. The 1867 sale is standard history; no vendored text covers it or the native clergy after it (in wants). Kept."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "relationsSummary",
+   "sentence": "Veniaminov reached Unalaska in 1824 and created Aleut and Tlingit alphabets and translations.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Not in a vendored text; the Tlingit alphabet is doubtful (see escalations)."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "longDescription",
+   "sentence": "Herman, a lay monk who had come with the first mission in 1794, spent his last decades alone on Spruce Island near Kodiak, running a school and an orphanage for Alutiiq children and quarreling with the trading company over its treatment of them.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the eighteenth-century Russian church's own text names the 1794 Valaam mission and Herman. The inventory missed this match."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "longDescription",
+   "sentence": "Herman, a lay monk who had come with the first mission in 1794, spent his last decades alone on Spruce Island near Kodiak, running a school and an orphanage for Alutiiq children and quarreling with the trading company over its treatment of them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Russian-American Company is not a movement. Herman's letters to the company are named in the census story but not vendored (in wants). Kept."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "longDescription",
+   "sentence": "Widowed, he became a monk, was made bishop in 1840 as Innocent, and rose eventually to be Metropolitan of Moscow.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+   "prose_change": null,
+   "reason": "Blackmore (1842) records the new Aleutian diocese and Veniaminov as its first bishop. His later rise to Moscow (1868) is not in a vendored text (in wants); kept as standard history."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "longDescription",
+   "sentence": "When Russia sold Alaska in 1867 and the Russians went home, the church stayed, in the hands of Alaska Native clergy and lay readers who kept the services going in their own languages.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State, not a movement. Not in a vendored text; kept as standard history."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "why",
+   "sentence": "Herman, a hermit monk on Spruce Island, spent his last decades fighting the Russian trading company over its treatment of the Alutiiq children in the school and orphanage he ran for them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Company, not a movement. Herman's letters are not vendored (in wants). Kept."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "why",
+   "sentence": "Ioann Veniaminov, arriving at nearby Unalaska in 1824, gave Aleut its first alphabet and translated Scripture into it, and when Russia sold Alaska in 1867 and went home, the church he helped build stayed on, kept alive by Alaska Native clergy in their own languages.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State, not a movement. Kept as standard history; Veniaminov's writings are in wants."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "legacy",
+   "sentence": "The mission also became the root of Orthodoxy in North America as a whole.",
+   "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "disposition": "link",
+   "link_id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": null,
+   "reason": "New Inferential-Thin 'gave rise to'; only the diocese's founding is vendored."
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "legacy",
+   "sentence": "The diocese Veniaminov founded moved its seat to San Francisco and then to New York, and is the ancestor of today's Orthodox Church in America.",
+   "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "disposition": "link",
+   "link_id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": null,
+   "reason": "Same link. The moves to San Francisco and New York are standard history but not in a held source (in wants); kept rather than qualified, since nothing contradicts them."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "relationsSummary",
+   "sentence": "Converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for the American Board mission or the Armenian Evangelical Church; the part-1 missionary movement's text does not name them. Issaverdens (1875, file lines 13392-13398) records Patriarch Matthew anathematizing the Protestant leaders and cutting them off, and a firman making them a separate body (13430-13437). Ormanian (1912, 9157-9159) says American missionaries brought Protestantism in. Kept."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "relationsSummary",
+   "sentence": "Converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dates: the 1846 founding is not dated in a vendored text; Ormanian (4711-4714) dates the Protestant millet to 1847. 1847 recognition and the 1850 imperial charter are both standard (the census story gives both), so 1850 is not wrong. Kept; flagged."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "relationsSummary",
+   "sentence": "The century ended in the Hamidian massacres of 1894-96.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An event, not a movement. No vendored text names the 1894-96 massacres (Ormanian speaks only of 'periodic massacres', 9032). Kept as established history; contemporary reports in wants."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "The century also divided the community: converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850, while an Armenian Catholic patriarchate continued alongside.",
+   "other_id": "armenian-christianity-era-8",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the eighteenth-century Armenian movement carries the Catholic patriarchate (1742) and its legacy names the Zartonk. The inventory did not match it. Era 8 should hold the 'continued as' link between the two entries."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "Its central document is the Armenian National Constitution of 1863, which seated lay delegates in a national assembly and limited what the Patriarch of Constantinople could do alone, an unusual experiment in giving a laity formal power over its own hierarchy.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ormanian (1912): the constitution drafted 1860, sanctioned by the Ottoman government in 1863, with a national assembly and two councils assisting the patriarch (file lines 4795-4803, 6912-6919)."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "And it ended in blood — the Hamidian massacres of 1894-96 killed tens of thousands and emptied whole districts.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Event, not a movement. Not in a vendored text; 'tens of thousands' is the low end of standard estimates. Kept; in wants."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "legacy",
+   "sentence": "The Armenian Evangelical Church founded in 1846 and the Armenian Catholic Church are both still here, small and continuous.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Armenian Evangelical Church. Present-day statement; kept."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "legacy",
+   "sentence": "The Armenian Evangelical Church founded in 1846 and the Armenian Catholic Church are both still here, small and continuous.",
+   "other_id": "armenian-christianity-era-8",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns the Armenian Catholic line (its own text names the Zartonk)."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "legacy",
+   "sentence": "The habit of lay representation written into the 1863 constitution survived into the Apostolic Church's later governance.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ormanian (1912, 6912-6919) describes the national assembly still governing c. 1910."
+  },
+  {
+   "movement": "armenian-christianity-zartonk",
+   "field": "legacy",
+   "sentence": "And the awakening's institutions — its schools, presses and newspapers — carried a national literature and a national self-understanding that the catastrophe of the following decade would scatter across the world but not extinguish.",
+   "other_id": "the-armenian-church-after-the-genocide-medz-yegh",
+   "disposition": "link",
+   "link_id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   "prose_change": null,
+   "reason": "New 'continued as' to era 10 (Widely Accepted on Ormanian plus a repo-cited secondary)."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "relationsSummary",
+   "sentence": "John Hormizd was confirmed as Chaldean patriarch in 1830, consolidating the modern Chaldean Catholic Church as a single body in communion with Rome.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Badger (1852, v1, file lines 8646-8647) prints Hormizd's own account that he was recognized by the Pope as head over all the Chaldeans, and later sent a pallium (8747-8752). Badger gives no year; the 1830 date is standard but not in a vendored text (in wants)."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "relationsSummary",
+   "sentence": "The line that stayed independent kept its seat at Qudshanis and became known as the Assyrian Church of the East.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 6 owns it: the Hakkari entry's own text names the two lines running to the present. Maclean and Browne (1892, 9509-9511) place the patriarch at Qudshanis."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "relationsSummary",
+   "sentence": "John Hormizd was confirmed as Chaldean patriarch in 1830, consolidating the modern Chaldean Catholic Church as a single body in communion with Rome.",
+   "other_id": "church-of-the-east-schism-of-1552",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 7 owns it: the 1552 schism's text names 'the Chaldean consolidation as the continuation', and the era-7 session has drafted that 'continued as' link (lead's note). No objection to it. The inventory missed this match."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "In 1830 Rome confirmed John Hormizd as patriarch of Babylon, consolidating the Chaldean Catholic Church as a single body.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above (Badger 8646-8647); Rome is not a separate movement link here."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "American Congregationalist missionaries settled at Urmia in the 1830s and gave the region a printing press and schools in the spoken Syriac of the day.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for the Urmia mission. Badger (1852, 14321-14323) names Scripture 'published by the American Dissenters at Ooroomiah'; Maclean and Browne (1892, 252-262) name its schools, vernacular translations and press. Kept."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "From 1886 the Archbishop of Canterbury sent a mission expressly instructed to strengthen the ancient church rather than convert its members.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "church-of-the-east-chaldean-consolidation--victorian-church-of-england",
+   "prose_change": null,
+   "reason": "New Documented 'in contact with' (Maclean and Browne 1892, preface)."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "The line that stayed independent kept its seat in the mountain village of Qudshanis in Hakkari, its patriarchate passing from uncle to nephew, and its people came to be known as the Assyrian Church of the East.",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 6 owns it. Maclean and Browne (9142-9144) support the nephew succession."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "why",
+   "sentence": "This was once a missionary church whose bishops reached from Baghdad as far as China; by the nineteenth century it had shrunk to a mountain village in Hakkari and a rival line recognized by Rome in 1830 as the Chaldean Catholic Church.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Shrunk to a mountain village' overstates: the village was the patriarch's seat, and the church held the Hakkari tribes and the Urmia plain (Maclean and Browne 9509-9515). Rewritten to say the patriarch lived there."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "why",
+   "sentence": "When the Archbishop of Canterbury sent a mission to the remaining Assyrian line in 1886, he instructed it to strengthen the ancient church rather than convert its people.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "church-of-the-east-chaldean-consolidation--victorian-church-of-england",
+   "prose_change": 1,
+   "reason": "Same link; sentence split for reading level in the same prose change."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "legacy",
+   "sentence": "The Assyrian Church of the East, driven out of the Hakkari mountains during the First World War, spent most of the twentieth century with its patriarch abroad and only returned the seat to Erbil in 2015.",
+   "other_id": "the-sayfo-and-the-syriac-diaspora",
+   "disposition": "link",
+   "link_id": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+   "prose_change": null,
+   "reason": "New 'continued as' to era 10; Wigram (1929) documents the 1915 flight. The 2015 return to Erbil is not in a held source; kept as recent fact."
+  },
+  {
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "legacy",
+   "sentence": "The Urmia press left a quieter legacy: printing Scripture and schoolbooks in the language people actually spoke helped make modern Aramaic a written literary language, which it has remained.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for the mission. Its vernacular printing is in Maclean and Browne (252-262) and Badger (14321-14323); the long-term literary claim is modest and kept."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "relationsSummary",
+   "sentence": "The Synod of Polotsk in 1839 dissolved the union with Rome across the Russian Empire, transferring roughly a million and a half people to Russian Orthodoxy; the Chełm eparchy followed in 1875.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 7 owns it: the Union of Brest entry's own text names the nineteenth-century suppression."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "relationsSummary",
+   "sentence": "The Synod of Polotsk in 1839 dissolved the union with Rome across the Russian Empire, transferring roughly a million and a half people to Russian Orthodoxy; the Chełm eparchy followed in 1875.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "New Documented 'argued against' with a major outcome: the 1839 Synodal Act, Synod decree and tsar's endorsement are vendored in Blackmore (1842); Pelesz (1880) gives the 1875 Chełm suppression."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "relationsSummary",
+   "sentence": "The church survived only under Austrian rule in Galicia, where it became the institutional engine of Ukrainian national life, especially under Metropolitan Andrey Sheptytsky from 1900.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Austrian state, not a movement. Pelesz (1880, 74262-74264) says only the part under Austria survived unharmed. Sheptytsky's early years are not in a vendored text (in wants). Kept."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "relationsSummary",
+   "sentence": "It stood in natural tension with the Russian Orthodox Church, which absorbed the dissolved dioceses.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "Millions of Belarusians and Ukrainians worshipped in the Byzantine rite while in communion with Rome, an arrangement dating from a union of 1596.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Era 7 owns it. The sentence is split for reading level in the same prose change; no fact changed."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "What survived did so under Austrian rule in Galicia, where the Greek Catholic Church became not only a church but the institutional backbone of Ukrainian national life.",
+   "other_id": "ruthenian-uniate-18th-century",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Era 8 owns the 'continued as' from the eighteenth-century Ruthenian entry: its own legacy names the nineteenth century and the 1839 dissolution. The inventory missed this match."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy, and roughly a million and a half people were transferred with a stroke of the pen.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": 2,
+   "reason": "Same link. Blackmore prints the Act signed by 'Joseph, Bishop of Lithuania' (Semashko, so named by Pelesz 56256) and gives 1,600,000 (230-231)."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "The remaining eparchy of Chelm followed in 1875, with resistance in some villages broken by force.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No movement for the Chełm eparchy. Pelesz (1880, 59195-59208) reports troops firing on unarmed villagers at Pratulin and killings at Drelów. Spelling made 'Chełm' to match the summary."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "Its clergy the schoolteachers, editors and co-operative organizers of a people who had almost no other leadership.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "A verbless fragment; given its verb. No fact changed."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "sentence": "At the turn of the century Andrey Sheptytsky took the metropolitan see of Lviv and began the long tenure that would carry the church through everything the next fifty years brought.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "A person, not a movement. Not in a vendored text (Pelesz is 1880). Kept as standard history; split for reading level."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "why",
+   "sentence": "At the Synod of Polotsk in 1839, bishops declared their church reunited with Russian Orthodoxy and roughly a million and a half Eastern-rite Catholics were transferred by decree; a further eparchy followed in 1875, some of it by force.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "prose_change": null,
+   "reason": "Same link; supported as above."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "why",
+   "sentence": "Under Austrian rule in Galicia the church survived instead, its priests doubling as the schoolteachers, editors and cooperative organizers of a Ukrainian people who had almost no other leadership of their own.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State, not a movement; survival under Austria in Pelesz (74262-74264). Kept."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "legacy",
+   "sentence": "The Ukrainian Greek Catholic Church is the largest Eastern Catholic church in the world today, and everything it survived afterwards — Soviet liquidation in 1946, four decades underground, its re-emergence in 1989.",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "disposition": "link",
+   "link_id": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+   "prose_change": 3,
+   "reason": "New 'continued as' to era 10. The sentence ran on into a fragment ('Rested on the Galician base...'); joined into whole sentences in the prose change."
+  },
+  {
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "legacy",
+   "sentence": "In the lands where the union was dissolved by decree, it never came back.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Era 7 owns it (the Union of Brest text names the suppression); era 8's Ruthenian text also names the 1839 dissolution."
+  }
+ ],
+ "links": [
+  {
+   "id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": [
+    "ruthenian-greek-catholic-polotsk-to-galicia relationsSummary",
+    "ruthenian-greek-catholic-polotsk-to-galicia longDescription",
+    "ruthenian-greek-catholic-polotsk-to-galicia why",
+    "russian-church-synodal-century longDescription (Eastern Catholics)"
+   ],
+   "note": "In February 1839 the Greek Catholic bishops of Russia met at Polotsk and asked to join the Russian church. In March its Holy Synod took their whole church in, and the tsar approved. A Greek Catholic writer said in 1880 that the Chełm diocese was suppressed in 1875.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), appended official documents of 1839: decree of the Most Holy Synod",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20650-20653",
+     "locus": "Notes, Synodal decree of 1839, art. 1 (printed p. 445)",
+     "quote": "To receive the bishops, clergy, and spiritual flocks, of the hitherto called Greek Uniate Church, into full and complete communion with the Holy Orthodox, Catholic, Eastern Church, and so as to be integrally and inseparably incorporated with the Church of All the Russias",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), appended official documents of 1839: the tsar's endorsement",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20709",
+     "locus": "Notes, document V (printed p. 446)",
+     "quote": "\" I thank God, and accept it.\"",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), appended official documents of 1839: Synodal Act of Polotsk",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20446-20452",
+     "locus": "Notes, document I (printed p. 442)",
+     "quote": "Given, in the divinely-preserved city of Polotsk, in the year seven thou- sand three hundred and forty-seven, from the creation of the world ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "52014-52016",
+     "locus": "vol. 2, on the tsar as head of the Russian church",
+     "quote": "Als Oberhaupt der russischen Kirche hat Nicolaus die katholischen Ruthenen seiner Kirche einverleibt, und in gleicher. Eigenschaft hat Alexander II. einen Heiligen canonisirt und 1875 die Chelmer Diöcese unterdrückt;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20650-20653",
+     "text": "To receive the bishops, clergy, and spiritual flocks, of the hitherto called Greek Uniate Church, into full and complete communion with the Holy Orthodox, Catholic, Eastern Church, and so as to be integrally and inseparably incorporated with the Church of All the Russias"
+    },
+    "reason": "The Holy Synod's 1839 decree, ratified by the tsar, ended the Greek Catholic Church in Russia as a separate body and placed its dioceses under the Synod."
+   },
+   "outcome": "In 1839 the Holy Synod of the Russian church took in the Greek Catholic Church of Russia as part of itself. The tsar gave his approval.",
+   "wants": [
+    "The Russian acts of the 1875 'reunion' of the Chełm eparchy, in a vendored edition, to document 1875 from the Russian side",
+    "Pope Gregory XVI's allocution of 22 November 1839 against the Polotsk act (Pelesz cites it near file line 56735), vendored in its own text"
+   ],
+   "drafter_flags": [
+    "Type choice: the Synod's act was framed as a welcome, not an attack, but it ended the Greek Catholic Church in Russia as a separate church by name; Pelesz, from the Greek Catholic side, calls it apostasy and forced suppression. 'argued against' (acted against) fits better than 'broke with' (the rupture was with Rome, not with the Russian church). Reviewer to confirm.",
+    "The figure of about 1.6 million is Blackmore's (file lines 230-231); the census's 'roughly a million and a half' is consistent.",
+    "Pelesz is marked secondary for 1839 (his own header calls the book a secondary account); for 1875 he is a contemporary witness.",
+    "Pratulin: Pelesz (lines 59203-59207) gives 15 dead; the census story gives thirteen. Not changed here (stories are outside this pass); flagged for the story's owner."
+   ],
+   "change_reason": "New link: the movement's own text names the Russian church absorbing the dissolved dioceses; the 1839 documents are vendored."
+  },
+  {
+   "id": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "alaskan-mission-herman-veniaminov",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "named_in_text": [
+    "alaskan-mission-herman-veniaminov longDescription",
+    "russian-church-synodal-century relationsSummary",
+    "russian-church-synodal-century longDescription"
+   ],
+   "note": "In 1842 an English chaplain in Russia wrote that the Russian church had just set up a new diocese in the Aleutian Islands. Its first bishop was 'Veniamineff', a missionary who had long worked there. The same book lists a new see for the Aleutians, Kamchatka and Russian America.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's preface",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "220-224",
+     "locus": "Translator's preface",
+     "quote": "their missions in Siberia, and the Aleoutine Islands, in which last a new diocese has lately been founded, and the pious and zealous missionary, Veniamineff, who has so long laboured among the natives, has been appointed their first Bishop",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's note on the dioceses (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19190-19193",
+     "locus": "Notes, list of sees, translator's addition of 1842",
+     "quote": "To the above list are further to be added the following dioceses, which have been erected since 1830: — 1. Simbirsk; 2. Polotsk; 3. Tomsk; 4. The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [
+    "Ioann Veniaminov's own writings (his Notes on the Islands of the Unalaska District, 1840, and his Aleut catechism) in a vendored edition, to document his Aleut alphabet and translations",
+    "A vendored record of Innocent Veniaminov's election as Metropolitan of Moscow (1868), which no text held here covers"
+   ],
+   "drafter_flags": [
+    "Overlap with era 8: the Alaskan mission began with the Valaam monks of 1794, sent by the eighteenth-century Russian church, which era 8 owns. This link claims only that the nineteenth-century Russian church founded the diocese the mission became. Reviewer to check against era 8's link so the two read together.",
+    "The preface's opening quote starts mid-sentence at 'their missions'; it begins at a phrase boundary within a list."
+   ],
+   "change_reason": "New link: the movement's text names Veniaminov's rise in the Russian church, and the Russian church's own text names Alaska as its mission."
+  },
+  {
+   "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "action": "new",
+   "from": "alaskan-mission-herman-veniaminov",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "named_in_text": [
+    "alaskan-mission-herman-veniaminov legacy"
+   ],
+   "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. The evidence here is thin. We hold a record of the diocese's founding, but nothing on its later moves to San Francisco and New York.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's note on the dioceses (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19190-19193",
+     "locus": "Notes, list of sees, translator's addition of 1842",
+     "quote": "To the above list are further to be added the following dioceses, which have been erected since 1830: — 1. Simbirsk; 2. Polotsk; 3. Tomsk; 4. The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "unverified",
+   "wants": [
+    "A vendored or repo-cited history of the Russian diocese in America: its seat moved to San Francisco (1872) and New York (1905), the Metropolia, and the 1970 autocephaly of the Orthodox Church in America",
+    "The 1970 tomos of autocephaly granted to the Orthodox Church in America, in a vendored text"
+   ],
+   "drafter_flags": [
+    "The line from the Alaska diocese to the OCA is standard history, but no vendored text and no repo-cited secondary traces it, so it is graded Inferential-Thin. A repo-cited history would lift it to Widely Accepted.",
+    "Sixty-four-year gap between the two movements (1906-1970); 'gave rise to' rather than 'continued as' for that reason."
+   ],
+   "change_reason": "New link to era 10, named in the movement's legacy."
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation--victorian-church-of-england",
+   "action": "new",
+   "from": "church-of-the-east-chaldean-consolidation",
+   "to": "victorian-church-of-england",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "named_in_text": [
+    "church-of-the-east-chaldean-consolidation longDescription",
+    "church-of-the-east-chaldean-consolidation why"
+   ],
+   "note": "In 1892 two members of the 'Archbishop of Canterbury's Assyrian Mission' described their years in Kurdistan and northern Persia. They wrote that the Archbishop sent the mission at the people's repeated request. Its aim was to help restore their old church, not to draw them away from it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (London, 1892), preface",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "210-216",
+     "locus": "Preface, pp. vii-viii",
+     "quote": "in the work of the \"Archbishop of Canterbury’s Assyrian Mission,” which has been sent out by his Grace, at the repeated request of the people them¬ selves, not to draw them away from their own old Church and customs, but to give them the means of restoring that old Church once more to a state of efficiency.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (London, 1892), ch. on letters and poetry",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "5900-5901",
+     "locus": "poem of welcome, translated from the vernacular Syriac",
+     "quote": "May the Lord bless the Archbishop of Canterbury He has sent to us three birds ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A mission and an exchange of welcome; no council, split or changed rule appears in the sources."
+   },
+   "wants": [
+    "Archbishop Benson's 1886 letter of instruction to the Assyrian Mission, in a vendored text, to document the 1886 date and the instruction in his own words"
+   ],
+   "drafter_flags": [
+    "The 1886 start date in the movement's text is not stated in the vendored body text (the 1892 book speaks of five years' work); kept, with the letter of 1886 in wants.",
+    "The second quote's 'u May' OCR prefix is excluded; the quote starts at 'May'."
+   ],
+   "change_reason": "New link: the movement's text alone names the Canterbury mission (the Victorian church's text does not), so part 2 drafts it."
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+   "action": "new",
+   "from": "church-of-the-east-chaldean-consolidation",
+   "to": "the-sayfo-and-the-syriac-diaspora",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "named_in_text": [
+    "church-of-the-east-chaldean-consolidation legacy"
+   ],
+   "note": "In 1892 two Anglican missionaries described the patriarch Mar Shimun living at Qudshanis in the Hakkari mountains. In 1929 W. A. Wigram, a former head of their mission, told how the Hakkari Assyrians were driven from their valleys in 1915 and fled to Persia. A 2006 study by David Gaunt covers the wartime killing of these Christians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (London, 1892), list of the clergy",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "9509-9511",
+     "locus": "ch. on the Eastern Syrian clergy, p. 195",
+     "quote": "1. Mar Shimun (Simon. Baptismal nameRuil or Reuben), Patriarch and Catholicos of the East, who resides at Qudshanis (Kochanis).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929), ch. 'The Great War, and After'",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "9756-9760",
+     "locus": "ch. on the Great War, pp. 213-214",
+     "quote": "A fourth attempt had better success, and the nation was driven from the valleys, and forced to take refuge on one of the great series of mountain plateaux, that form the summer pastures of the country.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929), ch. 'The Great War, and After'",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "9841-9843",
+     "locus": "ch. on the Great War, p. 215",
+     "quote": "In Persia the nation was safe for the moment, though their position was anomalous by any system of international law.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Gaunt, Massacres, Resistance, Protectors: Muslim-Christian Relations in Eastern Anatolia During World War I (2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "David Gaunt (2006), read and cited by page for the 1915 flight of the Hakkari Assyrians",
+    "Surma d'Mar Shimun, Assyrian Church Customs and the Murder of Mar Shimun (1920), in a vendored edition, as an inside witness for 1915-18"
+   ],
+   "drafter_flags": [
+    "Wigram's chapter dates the flight to September 1915 at file line 9764, a few lines before the first Wigram quote.",
+    "The later entry covers the Syriac Orthodox wing too, and the Chaldean half of this movement only in part; 'continued as' here carries the Assyrian (Mar Shimun) line. Reviewer to confirm the type fits a partial continuation.",
+    "Gaunt 2006 is cited in the repo's era-10 source research (CiC_Step0_Era10_Sources_Research_E.md) as verified to title level only; not read for this link."
+   ],
+   "change_reason": "New link to era 10, named in the movement's legacy (driven out of Hakkari in the First World War)."
+  },
+  {
+   "id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   "action": "new",
+   "from": "armenian-christianity-zartonk",
+   "to": "the-armenian-church-after-the-genocide-medz-yegh",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "named_in_text": [
+    "armenian-christianity-zartonk legacy"
+   ],
+   "note": "Malachia Ormanian, once patriarch of Constantinople, wrote a book on his church that came out in English in 1912. He showed it still run by a national assembly under its constitution. He put its faithful at about four million. Raymond Kévorkian's 2011 history follows the same church through the genocide of 1915.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "6916-6919",
+     "locus": "ch. on the lay element in administration",
+     "quote": "By virtue of this constitution, the chief direction of affairs was entrusted to a national assembly invested with legislative powers and control,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "9028-9029",
+     "locus": "ch. 'The External Aspect', p. 213",
+     "quote": "To-day they are no more than four millions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Raymond Kévorkian, The Armenian Genocide: A Complete History (I.B. Tauris, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Grigoris Balakian, Armenian Golgotha (Armenian original, 1922), in a vendored edition, as an eyewitness of 1915 from inside the church",
+    "Raymond Kévorkian (2011), read and cited by page for the fate of the Patriarchate of Constantinople in 1915"
+   ],
+   "drafter_flags": [
+    "Ormanian's book is a French work of 1910 by the patriarch of 1896-1908, a synthesis rather than a document, but a witness to the church's state in his own day.",
+    "No vendored text covers the years after 1912; the continuity past 1915 rests on Kévorkian (cited in the repo's era-10 source research, not read here). Graded Widely Accepted on that basis; if the reviewer will not accept an unread secondary, drop to Inferential-Thin.",
+    "A nine-year gap separates the entries (1906-1915)."
+   ],
+   "change_reason": "New link to era 10, named in the movement's legacy (the catastrophe of the following decade)."
+  },
+  {
+   "id": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+   "action": "new",
+   "from": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "to": "the-ukrainian-greek-catholic-underground",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "named_in_text": [
+    "ruthenian-greek-catholic-polotsk-to-galicia legacy"
+   ],
+   "note": "In 1880 Julian Pelesz, a Greek Catholic priest, wrote that only the part of his church under Austria had come through unharmed. That church in Galicia was dissolved by a staged synod at Lviv in 1946, and it lived on underground. Bohdan Bociurkiw's 1996 study tells that story.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880), closing pages",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "74262-74264",
+     "locus": "vol. 2, conclusion",
+     "quote": "Nur ein Theil davon, der unter das gnädige Scepter Oesterreichs gekommen ist, ist unversehrt geblieben, und die Union hat hier einen Haltpunkt gefunden",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939-1950) (CIUS, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Metropolitan Andrey Sheptytsky's pastoral letters (1899 onward) in a vendored edition, to carry the same church across 1906-1946",
+    "Bociurkiw (1996), read and cited by page for the 1946 Lviv synod"
+   ],
+   "drafter_flags": [
+    "Pelesz is marked primary here as a witness to his own church in 1880; his own file header calls the book a secondary account of earlier history.",
+    "A forty-year gap (1906-1946) separates the entries; Sheptytsky's tenure (1900/01-1944) spans it. Bociurkiw is cited in the repo's era-10 source research, not read here."
+   ],
+   "change_reason": "New link to era 10, named in the movement's legacy (Soviet liquidation, underground, 1989)."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "church-of-the-east-chaldean-consolidation",
+   "field": "why",
+   "old": "This was once a missionary church whose bishops reached from Baghdad as far as China; by the nineteenth century it had shrunk to a mountain village in Hakkari and a rival line recognized by Rome in 1830 as the Chaldean Catholic Church. When the Archbishop of Canterbury sent a mission to the remaining Assyrian line in 1886, he instructed it to strengthen the ancient church rather than convert its people.",
+   "new": "This was once a missionary church whose bishops reached from Baghdad as far as China. By the nineteenth century its patriarch lived in a mountain village in Hakkari. A rival line, which Rome recognized in 1830, had become the Chaldean Catholic Church. In 1886 the Archbishop of Canterbury sent a mission to the remaining Assyrian line. He told it to strengthen the old church, not to convert its people.",
+   "reason": "'Shrunk to a mountain village' overstated the church's size: the village was the patriarch's seat (Maclean and Browne 1892). Sentences split to reach the reading target; every other fact kept."
+  },
+  {
+   "n": 2,
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "longDescription",
+   "old": "Millions of Belarusians and Ukrainians worshipped in the Byzantine rite while in communion with Rome, an arrangement dating from a union of 1596. In the Russian Empire it was abolished by decree. At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy, and roughly a million and a half people were transferred with a stroke of the pen. The remaining eparchy of Chelm followed in 1875, with resistance in some villages broken by force. What survived did so under Austrian rule in Galicia, where the Greek Catholic Church became not only a church but the institutional backbone of Ukrainian national life. Its clergy the schoolteachers, editors and co-operative organizers of a people who had almost no other leadership. At the turn of the century Andrey Sheptytsky took the metropolitan see of Lviv and began the long tenure that would carry the church through everything the next fifty years brought.",
+   "new": "Millions of Belarusians and Ukrainians worshipped in the Byzantine rite while in communion with Rome. The arrangement dated from a union of 1596. In the Russian Empire it was ended by decree. At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy. Roughly a million and a half people were moved with a stroke of the pen. The remaining eparchy, Chełm, followed in 1875, and in some villages soldiers broke the resistance by force. What survived did so under Austrian rule in Galicia. There the Greek Catholic Church became more than a church. It was the backbone of Ukrainian national life. Its priests were the teachers, editors and co-op organizers of a people who had almost no other leaders. At the turn of the century Andrey Sheptytsky took the see of Lviv as its metropolitan. His long tenure would carry the church through all that the next fifty years brought.",
+   "reason": "The fragment 'Its clergy the schoolteachers...' is given a verb. 'Chelm' spelled 'Chełm' as in the summary. 'Broken by force' made active: Pelesz (1880) reports soldiers firing on villagers at Pratulin. Long sentences split for the reading target; no fact added or dropped."
+  },
+  {
+   "n": 3,
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "field": "legacy",
+   "old": "The Ukrainian Greek Catholic Church is the largest Eastern Catholic church in the world today, and everything it survived afterwards — Soviet liquidation in 1946, four decades underground, its re-emergence in 1989. Rested on the Galician base built in this century. In the lands where the union was dissolved by decree, it never came back. The church's habit of carrying a national culture as well as a liturgy, formed here, is still one of the most distinctive things about it.",
+   "new": "The Ukrainian Greek Catholic Church is the largest Eastern Catholic church in the world today. All it survived later rested on the base it built in Galicia in this century: Soviet liquidation in 1946, four decades underground, and its return to the open in 1989. In the lands where the union was ended by decree, it never came back. The church's habit of carrying a national culture as well as a liturgy took shape here. It is still one of the most distinctive things about it.",
+   "reason": "The first sentence ran on into a fragment ('Rested on the Galician base built in this century'); joined into whole sentences. No fact changed."
+  }
+ ],
+ "wants": [
+  "Ioann (Innocent) Veniaminov's own writings, including his Notes on the Islands of the Unalaska District (1840) and his Aleut catechism, in a vendored edition",
+  "Herman of Alaska's letters to the Russian-American Company managers, and Semyon Yanovsky's letter of 1865, in a vendored edition",
+  "A vendored or repo-cited history of the Russian diocese in America to 1970 (seat to San Francisco 1872 and New York 1905; Innocent's election as Metropolitan of Moscow 1868)",
+  "The 1846 bull of excommunication and the 1 July 1846 covenant of the Evangelical Church of Armenians, and the Missionary Herald reports of 1846-47, in vendored texts",
+  "The text of the Armenian National Constitution (1860/1863) in a vendored edition",
+  "Contemporary reports on the massacres of 1894-96 (for example the British parliamentary papers on Turkey of 1895-96) in a vendored text",
+  "Grigoris Balakian, Armenian Golgotha (Armenian original, 1922), and Kévorkian (2011) read by page",
+  "The papal act confirming John Hormizd as patriarch of Babylon (1830), in a vendored text, to date the confirmation Badger leaves undated",
+  "Archbishop Benson's 1886 letter of instruction to the Assyrian Mission, in a vendored text",
+  "David Gaunt (2006) read by page; Surma d'Mar Shimun (1920) vendored",
+  "The Russian acts of the 1875 Chełm 'reunion', and Gregory XVI's allocution of 22 November 1839, in vendored texts",
+  "Metropolitan Andrey Sheptytsky's early pastoral letters (1899-1906) in a vendored edition; Bociurkiw (1996) read by page"
+ ],
+ "escalations": [
+  "Alaskan mission, relationsSummary: 'created Aleut and Tlingit alphabets' may overstate. Veniaminov's Aleut alphabet is standard; a Tlingit alphabet of his is doubtful, and the description and why name only Aleut. No vendored text settles it either way, so it is not rewritten here; the movement's owner should check it against Veniaminov's own writings.",
+  "Not drafted, for the era-10 or Russian-church owners to consider: Wigram (1929, file lines 8063-8068) records the Urmia Assyrians' 1896 submission to a Russian Orthodox mission. Neither movement's text names it, so no link is drafted."
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "round": 2,
+ "note": "Applied by script, as the reviewer wrote it (R2-01, the whole-field text).",
+ "findings": [
+  {
+   "id": "R2-01",
+   "action": "fixed",
+   "what": "B0 and B9 take the reviewer's whole-field text."
+  }
+ ],
+ "links": [],
+ "prose_changes": [
+  {
+   "n": "B0",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "old": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement. It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one. Through the Black and Native Christian writing it produced, it stands among the parent traditions of the Black Church in America.",
+   "new": "The awakening grew out of New England's Puritan churches. Jonathan Edwards built on their books. George Whitefield, the English Methodist preacher, made it normal to preach from town to town. It also reached the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia. Historians do not agree whether that was the same movement or another one. William Carey, who began the Baptist mission to India, held up its missionary David Brainerd as a model. Later American revivals and the Black Church may owe it a debt too. How direct that debt was is hard to say.",
+   "reason": "Three claims corrected. 'Parent of later American revival culture' and 'among the parent traditions of the Black Church' have no vendored support and are now said plainly as possibilities. 'Parent of the missionary movement' is made concrete (Carey and Brainerd, documented). Whitefield's role (documented through Chauncy) is added because the text's own description names it. Puritan descent is kept as 'grew out of New England's Puritan churches'. The Tennents and Hanover sentence and its open question are kept. Rewritten whole for reading level. Round 1: R1-23: build language removed; the debt stays qualified. Round 2 (R2-01): last sentence replaced with the reviewer's wording, which states the uncertainty without a claim about what scholars have or have not traced.",
+   "fre_after": 62.0,
+   "fk_after": 7.8,
+   "group": "B"
+  },
+  {
+   "n": "B9",
+   "movement": "the-welsh-revival-tradition",
+   "field": "relationsSummary",
+   "old": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+   "new": "A sister movement to English Methodism. It began at the same time, kept in touch with its leaders, and ran in its own language. Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but how far is hard to say.",
+   "reason": "'Sibling of Methodism' kept as 'a sister movement', now with what the texts show (parallel beginnings, contact between leaders). 'Parent of the 1904 revival' has no vendored support, and the 1904 entry's own text stresses independent beginnings; qualified with the reason. The old text was a fragment list; now full sentences. Round 1: R1-23: build language removed. Round 2 (R2-01): last sentence replaced with the reviewer's wording, which states the uncertainty without a claim about what scholars have or have not traced.",
+   "fre_after": 78.5,
+   "fk_after": 6.0,
+   "group": "B"
+  }
+ ]
+}
