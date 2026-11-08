@@ -464,7 +464,7 @@
    "to": "st-thomas-christians-under-portuguese-pressure-d",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "In 1504 a bishop named Jacob wrote that the patriarch Elijah had made four bishops for India. Jacob was one of them. In 1599 the Synod of Diamper said all this church's bishops had come 'from Babylon', the seat of the Church of the East. A Malankara paper of 1787 says Syriac bishops led them until Mar Abraham died in 1596.",
+   "note": "In 1504 a bishop named Jacob wrote that the patriarch Elijah had made four bishops for India. Jacob was one of them. The Synod of Diamper in 1599 called this church 'subject' to the patriarchs of Babylon, heads of the Church of the East. A Malankara paper of 1787 says Syriac bishops led them until Mar Abraham died in 1596.",
    "sources": [
     {
      "kind": "primary",
@@ -474,6 +474,16 @@
      "lines": "2061-2063",
      "locus": "note of 1504",
      "quote": "And  this  Father  Mar  Elijah  ordained  the  following bishops  for  India  :  Mar  Yahb  Alaha,  and  Mar  Thomas  as  arch¬ bishops,  and  Mar  Dinha  and  me,  the  humble  Jacob,  as  bishops,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31663-31665",
+     "locus": "Session III, Decree VIII",
+     "quote": "whereas  the  Patri- archs of  Babylon,  to  whom  this  church  was  subject,  are Nestorians,",
      "license": "public-domain"
     },
     {
@@ -528,8 +538,8 @@
    "action": "new",
    "citation_specificity": "A",
    "verification_state": "verified-direct",
-   "fre": 73.6,
-   "fk": 6.5
+   "fre": 70.3,
+   "fk": 6.9
   },
   {
    "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
@@ -1005,7 +1015,7 @@
    "to": "church-of-the-east-schism-of-1552",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "The patriarchs of the Church of the East ran in one line into the 1550s. Andreas Masius, who met Sulaqa in Rome, wrote that the patriarch died in 1551 with no metropolitan left to consecrate a successor. He blamed the dead man's wish to keep the office in his own family.",
+   "note": "The patriarchs of the Church of the East ran in one line into the 1550s, passing from uncle to nephew. Andreas Masius, who met Sulaqa in Rome, wrote that the patriarch died in 1551 with no metropolitan left to consecrate a successor. The dead man's nephew then took the see.",
    "sources": [
     {
      "kind": "primary",
@@ -1015,6 +1025,16 @@
      "lines": "107816-107820",
      "locus": "vol. 1, p. 523ff., Masius's letter",
      "quote": "Anno autem poft Chriflum natum 1551. evenifet , ut mortuo ipforum Patriarcha , atque alho Sulaca five Siud nomine electo, ne unus quidem \"effet AMetrapolitanus reliquus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghislain de Busbecq on Sulaqa at Rome, as quoted in J. S. Assemani, Bibliotheca Orientalis, vol. 1 (Rome, 1719), chap. 47 'Joannes Sulaca Chaldaeorum Patriarcha'",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt",
+     "lines": "107599-107601",
+     "locus": "vol. 1, Assemani introducing Masius",
+     "quote": "Ejus ordinationem defcribit An- dreas Mafius, qui eundem Romæ vidit & alloguutus eft",
      "license": "public-domain"
     },
     {
@@ -1051,7 +1071,7 @@
    "named_in": "relationsSummary: 'Told within the Church of the East, Timur to Hakkari'; longDescription: 'its highest office had become hereditary, passing from uncle to nephew inside a single family'",
    "drafter_flags": [
     "cross-era: era 6",
-    "Masius's phrase on the family is in the lines that follow the quote (107820-107826, broken by blank lines in the OCR); it was not quoted for that reason. The OCR is very noisy ('alho', 'AMetrapolitanus').",
+    "Masius also blames the dead patriarch's wish to keep the office in his family (lines 107820-107826, broken by blank lines in the OCR); not quoted or used in the note for that reason. The nephew's succession rests on Assemani no. 91 and Wigram. The OCR is very noisy ('alho', 'AMetrapolitanus').",
     "Masius gives 1551 for the patriarch's death, Wigram 1552; the note follows Masius.",
     "Assemani and Lamy are later Roman-side compilations, treated as secondary."
    ],
@@ -1059,7 +1079,7 @@
    "action": "new",
    "citation_specificity": "A",
    "verification_state": "verified-direct",
-   "fre": 73.2,
+   "fre": 72.9,
    "fk": 7.2
   },
   {
@@ -1146,7 +1166,7 @@
    "to": "church-of-the-east-chaldean-consolidation",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "Two patriarchs of the Church of the East still ruled in the 1800s, one in the Hakkari mountains and one on the plain near Mosul. English visitors writing in 1852 and 1892 traced both to the disputed election of the sixteenth century. They disagree about which line came from Sulaqa.",
+   "note": "Two patriarchs of the Church of the East still ruled in the 1800s, one in the Hakkari mountains and one on the plain near Mosul. English visitors writing in 1852 and 1892 traced both to the disputed election of the sixteenth century. Later writers disagree about which line came from Sulaqa.",
    "sources": [
     {
      "kind": "primary",
@@ -1209,8 +1229,8 @@
    "action": "new",
    "citation_specificity": "A",
    "verification_state": "verified-direct",
-   "fre": 67.2,
-   "fk": 7.9
+   "fre": 64.2,
+   "fk": 8.4
   }
  ],
  "prose_changes": [
