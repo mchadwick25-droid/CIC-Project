@@ -1,0 +1,5933 @@
+{
+ "groups": [
+  {
+   "group": "Would raise links to Documented",
+   "items": [
+    {
+     "text": "1846 bull of excommunication and 1846 covenant of the Evangelical Church of Armenians; Missionary Herald reports 1846-47",
+     "why": "Would document the 1846 break",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "1847 and 1876 Malankara documents, in full",
+     "why": "Would document the Malankara split from the church's own texts",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "1883 law on Old Believers; Synod or state texts on the Old Believers (1815-1906)",
+     "why": "Would document the state's treatment of the Old Believers",
+     "links": [
+      "russian-church-synodal-century--the-old-believers"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "1931 Seventh-day Adventist Yearbook statement of twenty-two beliefs",
+     "why": "Would document the Adventist statement of belief",
+     "links": [
+      "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "1961 Initiative Group letters; Council of Prisoners' Relatives bulletins (1964-)",
+     "why": "Would document the Initsiativniki split from their own side",
+     "links": [
+      "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "A Debate on the Roman Catholic Religion between Alexander Campbell and John B. Purcell (1837)",
+     "why": "Would document the Campbell-Purcell debate",
+     "links": [
+      "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Abdisho of Nisibis, preface to the synod of Timothy II (1318), readable edition",
+     "why": "Would document the 1318 synod",
+     "links": [
+      "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Abraham Kuyper, Het conflict gekomen (1886) and Lectures on Calvinism (1898)",
+     "why": "Would document the Doleantie and sphere sovereignty",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "ACO ser. 2, vol. 1 (Riedinger), the Lateran acts of 649",
+     "why": "Would replace the long-s OCR for the African letters of 646",
+     "links": [
+      "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast"
+     ],
+     "eras": [
+      "era 3",
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Act of Supremacy (1534) and Act in Restraint of Appeals (1533)",
+     "why": "Would document the English side of the break",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Acta Ecclesiae Mediolanensis in later use outside Milan, and a cleaner OCR of the 1582 or 1599 printing",
+     "why": "Would raise the Milan-to-Trident link and fix the seminary decree",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Acta et decreta Concilii Plenarii Americae Latinae (1899/1900)",
+     "why": "Would document the 1899 council",
+     "links": [
+      "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Acta of the Synod of Dort (Latin, 1620)",
+     "why": "Would document the foreign deputies' subscriptions",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Acts of the 2000 Jubilee Council canonization of the Optina elders and monks",
+     "why": "Would document the canonization",
+     "links": [
+      "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Acts of the Council of Constantinople, September 1872, the definition on phyletism",
+     "why": "Would document the phyletism definition",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Acts of the Fourth Lateran Council (Mansi XXII), including canon 68 on dress",
+     "why": "Would document the patriarch's presence and the dress rule",
+     "links": [
+      "latin-papal-church-gregorian--maronite-christianity"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Acts of the Moscow council of 1666-67 (Dopolneniia k Aktam istoricheskim, vol. V)",
+     "why": "Would give the council's own anathema and revocation of the Stoglav",
+     "links": [
+      "russian-church-stoglav-to-nikon--the-old-believers"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Acts of the Second Council of Nicaea (787), session 7 acclamations (Mansi XIII)",
+     "why": "Would document the council's honor of John of Damascus",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Ad nostrum, full text (Clementines V.3.3)",
+     "why": "Would show the decree naming the beguines",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+      "latin-papal-church-avignon-to-lateran-v--the-beguines"
+     ],
+     "eras": [
+      "era 5",
+      "era 6"
+     ]
+    },
+    {
+     "text": "Adam of Bremen, Gesta Hammaburgensis",
+     "why": "Would document English bishops in Norway and Sweden and the sees before 1104",
+     "links": [
+      "late-anglo-saxon-christianity--scandinavian-conversion-christianity",
+      "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Adam of Eynsham, Magna Vita S. Hugonis (Dimock 1864)",
+     "why": "Would document the Carthusian founding",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Agnellus, Liber Pontificalis Ecclesiae Ravennatis",
+     "why": "Would document the Arian Baptistery, Theoderic's churches and Gothic reconsecration",
+     "links": [
+      "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity"
+     ],
+     "eras": [
+      "era 2",
+      "era 3"
+     ]
+    },
+    {
+     "text": "Aldhelm's letter to Geraint of Dumnonia on the British Easter and tonsure",
+     "why": "Would document the letter Bede means",
+     "links": [
+      "anglo-saxon-christianity--british-welsh-christianity--2"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Alexander IV's letters of 1255 condemning the Introductorius (D'Argentré I)",
+     "why": "Would document the condemnation",
+     "links": [
+      "latin-papal-church-gregorian--joachimite-current"
+     ],
+     "eras": [
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Alexander Mackay and CMS letters from Buganda (1877-1890), or Mackay by his sister (1890)",
+     "why": "Would document Buganda from the CMS side",
+     "links": [
+      "victorian-church-of-england--east-african-christianity-uganda-martyrs"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Alexandrian text naming Justin for the 'seeds of the Word' argument",
+     "why": "Would document the Justin link from a vendored source",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Alfred's prose preface to the Pastoral Care (Sweet, EETS 1871)",
+     "why": "Would make the Gregory-to-Alfred link Documented",
+     "links": [
+      "roman-church-gregorian--late-anglo-saxon-christianity"
+     ],
+     "eras": [
+      "era 3",
+      "era 4",
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Ambrose's Hexaemeron or Exposition of Luke, vendored edition",
+     "why": "Would show Ambrose's own use of Origen",
+     "links": [
+      "alexandria-catechetical--ambrosian-milan-standalone"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Ambrose, Jerome or Gregory of Nyssa naming Methodius's Banquet on virginity",
+     "why": "Would document a Methodius reception link",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Ambrose, Letter 24 (Maurist 30), on his embassy to Maximus",
+     "why": "Would document Ambrose's objection to the execution of heretics",
+     "links": [
+      "ambrosian-milan-standalone--priscillianist-asceticism"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "AME General Conference minutes or Doctrines and Discipline from both sides of 1906",
+     "why": "Would show the same church before and after 1906",
+     "links": [
+      "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "American Unitarian Association, First Annual Report (Boston, 1826)",
+     "why": "Would document the founding of 25 May 1825",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Andrew Jackson Davis, The Principles of Nature (1847); Emma Hardinge Britten, Modern American Spiritualism (1870)",
+     "why": "Would give Spiritualism's own record",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Anglo-Saxon Chronicle (D and E texts; Plummer-Earle 1892-99)",
+     "why": "Would document Lindisfarne, the Danish invasions and s.a. 964",
+     "links": [
+      "anglo-saxon-christianity--late-anglo-saxon-christianity",
+      "early-benedictine-italian-monasticism--late-anglo-saxon-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Anna Komnene, Alexiad XV (Reifferscheid 1884; Dawes 1928)",
+     "why": "Would document the Bogomil name at Constantinople and Basil's trial",
+     "links": [
+      "bogomils--balkan-bogomil-continuation",
+      "byzantine-church-after-1054--balkan-bogomil-continuation"
+     ],
+     "eras": [
+      "era 4",
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Annales regni Francorum entry for 750/751 on Boniface anointing Pippin (clean text)",
+     "why": "Would document the anointing sentence",
+     "links": [
+      "anglo-saxon-christianity--carolingian-reform-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Antiochus Strategos, The Capture of Jerusalem (614), vendored translation",
+     "why": "Would document the survivors writing down the losses",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Any papal document on Haiti before 1860",
+     "why": "Would document the Haitian papal record",
+     "links": [
+      "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Arakel of Tabriz, History (Brosset 1874), on the 1604-05 deportation",
+     "why": "Would document the deportation and its numbers",
+     "links": [],
+     "eras": [
+      "armenian-apostolic era 8",
+      "era 7"
+     ]
+    },
+    {
+     "text": "Archbishop Victor Sadkowski's encyclical of 26 May 1794 and the Holy Synod's orders of 1794-95",
+     "why": "Would document the 1794 step from the Orthodox side",
+     "links": [
+      "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Ari Þorgilsson, Íslendingabók, public-domain edition or translation",
+     "why": "Would document the Althing decision of 1000",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Armenian National Constitution (1860/1863)",
+     "why": "Would document the constitution's text",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Armenian patriarchate of Constantinople's eighteenth-century registers and encyclicals",
+     "why": "Would document the Constantinople patriarchate's own record",
+     "links": [],
+     "eras": [
+      "armenian-apostolic era 8"
+     ]
+    },
+    {
+     "text": "Asser, Life of King Alfred (Stevenson 1904; Cook 1906)",
+     "why": "Would document Alfred's life from Asser",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Augustine, De haeresibus 86, clean edition",
+     "why": "Would replace the PL 42 OCR so the census quote can be checked",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Augustinian Hermits' Saxon congregation in the 1520s",
+     "why": "Would document what happened to its houses in Lutheran lands",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Bar Hebraeus, Ecclesiastical Chronicle vol. II (Abbeloos and Lamy 1874)",
+     "why": "Would document the patriarchs of Antioch after 1083. Note: Vols I and III are vendored; vol. II is not.",
+     "links": [
+      "syriac-orthodox-under-islam--syriac-renaissance"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bardaisan's dialogues against Marcionites, or Theodoret, Haer. fab. I.22",
+     "why": "Would document Bardaisan against Marcion",
+     "links": [
+      "bardaisanite-current--marcion-marcionism"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Barton W. Stone, The Biography of Eld. Barton Warren Stone (1847), Cane Ridge",
+     "why": "Would show the Stone wing from its own leader's pen",
+     "links": [
+      "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Bedford church book (Bunyan Meeting), public-domain edition",
+     "why": "Would document the congregation's record of persecution",
+     "links": [
+      "restoration-georgian-church-of-england--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Benedict XIII's briefs of 1725 on Steenoven's election and Barchman Wuytiers",
+     "why": "Would show the rupture from Rome in its own words",
+     "links": [
+      "catholic-church-ancien-regime--church-of-utrecht"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Benedict XIV's 1742 act confirming Abraham Ardzivian as Catholic patriarch of Cilicia",
+     "why": "Would rest the founding act on its own text",
+     "links": [
+      "armenian-apostolic-church-era-8--armenian-christianity-era-8",
+      "armenian-christianity-era-8--catholic-church-ancien-regime"
+     ],
+     "eras": [
+      "armenian-apostolic era 8",
+      "era 8"
+     ]
+    },
+    {
+     "text": "Benson's 1886 letter of instruction to the Assyrian Mission",
+     "why": "Would document the 1886 instruction in Benson's words",
+     "links": [
+      "church-of-the-east-chaldean-consolidation--victorian-church-of-england"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Bernard of Clairvaux, Apologia ad Guillelmum; Peter the Venerable, Letter 28",
+     "why": "Would document the Cistercian break with Cluny",
+     "links": [],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bernard of Clairvaux, De laude novae militiae (PL 182)",
+     "why": "Would document Bernard's defense of the Templars and the 'novum militiae genus'",
+     "links": [
+      "cistercian-monasticism--military-religious-orders-templars-hospitallers"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bernard Petitjean's letter of March 1865 reporting the Oura meeting",
+     "why": "Would document the Oura meeting",
+     "links": [
+      "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Bernard Petitjean's letters of March 1865 on the Urakami Christians",
+     "why": "Would document the Kirishitan to hidden-Christian link",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Bernard's or Ulrich's customary of Cluny (Ordo Cluniacensis)",
+     "why": "Would show Cluny living by the Rule",
+     "links": [
+      "early-benedictine-italian-monasticism--cluniac-reform-monasticism"
+     ],
+     "eras": [
+      "era 3",
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Bernardo da Gallo's and Lorenzo da Lucca's relations on Dona Beatriz (1706-10)",
+     "why": "Would document the Antonian movement from its only contemporary record",
+     "links": [
+      "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo"
+     ],
+     "eras": [
+      "era 7",
+      "era 8"
+     ]
+    },
+    {
+     "text": "Bishops of India's 1504 letter to the patriarch, full English translation and Syriac",
+     "why": "Would document the 1504 letter",
+     "links": [
+      "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517"
+     ],
+     "eras": [
+      "era 6",
+      "era 7"
+     ]
+    },
+    {
+     "text": "Bishops Seabury and Provoost's refusal to ordain James Freeman (1787), and the congregation's ordination",
+     "why": "Would show the departure from both sides",
+     "links": [
+      "restoration-georgian-church-of-england--early-american-unitarians-universalists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Bonaventure, De reductione artium ad theologiam (Quaracchi 1891)",
+     "why": "Would document Bonaventure's naming of Hugh and Richard of St Victor",
+     "links": [
+      "canons-regular-victorine-school--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bonaventure, Itinerarium mentis in Deum",
+     "why": "Would document Bonaventure's Victorine debt",
+     "links": [
+      "canons-regular-victorine-school--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Boniface's letter to Pope Zacharias of 742 (Tangl 1916) and the Clausula de unctione Pippini (MGH SRM 1)",
+     "why": "Would document the Pippin anointing from the sources. Note: Kylie 1911 (English Boniface letters) is vendored; check whether it carries the 742 letter.",
+     "links": [
+      "merovingian-gallic-christianity--carolingian-reform-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Book of Letters (Girk' T'łt'oc'): Dvin 554, Dvin 506, Abraham-Kiwrion correspondence, Elias's letters",
+     "why": "Would document the Armenian councils and letters in a readable translation",
+     "links": [
+      "armenian-christianity-after-avarayr--armenian-christianity-before-the-bagratids",
+      "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+      "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+      "armenian-christianity-after-avarayr--georgian-christianity",
+      "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+      "armenian-christianity-before-the-bagratids--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Boverius, Annales Capuccinorum (1632)",
+     "why": "Would document the Capuchins' break from the Observants",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Brut y Tywysogion, public-domain edition",
+     "why": "Would document the Welsh sees after 954",
+     "links": [
+      "british-welsh-christianity--medieval-welsh-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Bull 'Benedictus sit Deus' (7 August 1445), clean edition with its dating clause",
+     "why": "Would document the bull's date and terms",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Bull Id nostri cordis (27 April 1487), critical edition",
+     "why": "Would check Morland's copy",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Březová's 1421 chapter on the Adamites, in a public-domain English; Kaminsky and Fudge (in copyright)",
+     "why": "Would let a reader check the Adamite account",
+     "links": [
+      "taborite-radicalism--inquisition-record-sects-adamites-and-kin",
+      "the-hussite-and-bohemian-brethren-movement--taborite-radicalism"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "C. I. Scofield, The Scofield Reference Bible (1909)",
+     "why": "Would document the dispensational notes",
+     "links": [
+      "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Cambrai and Paris copies of Julian of Norwich's Long Text and their provenance",
+     "why": "Would document Julian's text and its nuns' provenance",
+     "links": [
+      "the-english-mystics-and-devout--recusant-english-catholicism"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Canons of the Aachen councils of 816-817 and of the councils of 813 (MGH Concilia aevi Karolini I)",
+     "why": "Would document the empire-wide Benedictine and Pastoral Rule legislation",
+     "links": [
+      "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+      "roman-church-gregorian--carolingian-reform-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Cassian, Conference XIII, in a vendored edition",
+     "why": "Would give the Marseilles position in its own words",
+     "links": [
+      "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Cathedral chapter's acts of 1723-1725 and Varlet's Apologie (1727)",
+     "why": "Would document the Utrecht chapter's acts from its own side",
+     "links": [
+      "catholic-church-ancien-regime--church-of-utrecht"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Catherine Booth, Female Ministry; or, Woman's Right to Preach the Gospel (1859)",
+     "why": "Would document the Booths' Holiness argument",
+     "links": [
+      "nineteenth-century-methodism--the-salvation-army",
+      "the-holiness-movement--the-salvation-army"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Cerularius's synodal edict of July 1054, and the Byzantine synodal edict against the legates (Will 1861)",
+     "why": "Would give the see's own side of 1054 and the 1965 sentence",
+     "links": [
+      "byzantine-church-after-1054--latin-papal-church-gregorian",
+      "byzantine-imperial-church-macedonian--byzantine-church-after-1054"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Chantries Act 1547 (1 Edw. VI c. 14), public-domain Statutes of the Realm",
+     "why": "Would document the guild dissolution from the act",
+     "links": [
+      "the-english-reformation-and-elizabethan-settleme--late-medieval-lay-parish-piety"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Charles Dallet, Histoire de l'Église de Corée (1874)",
+     "why": "Would document the Korean church's origins and persecutions",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Charter of Niquinta (Saint-Félix council, 1167)",
+     "why": "Would document the Balkan bishop among the Languedoc Cathars",
+     "links": [
+      "balkan-bogomil-continuation--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Christopher Rush, A Short Account of the Rise and Progress of the African M. E. Church (1843)",
+     "why": "Would document the AME Zion separation of 1821",
+     "links": [
+      "nineteenth-century-methodism--the-black-church-in-america"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Church of England record of the Methodist separation (1790s charge or visitation return)",
+     "why": "Would show the rupture from both sides",
+     "links": [
+      "restoration-georgian-church-of-england--the-methodist-revival--2"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Church of England response to the 1811 ordinations",
+     "why": "Would show the rupture from both sides",
+     "links": [
+      "restoration-georgian-church-of-england--the-welsh-revival-tradition"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Citable source for the Iglesia Filipina Independiente's 1961 concordat with the Episcopal Church",
+     "why": "Would document the 1961 concordat",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Clean Annales Cambriae and clean Chronicle of 754",
+     "why": "Would replace rough OCR for two annals. Note: A rough Rolls Series text is vendored.",
+     "links": [
+      "british-welsh-christianity--medieval-welsh-christianity",
+      "nicene-visigothic-iberia--mozarabic-christianity"
+     ],
+     "eras": [
+      "era 3",
+      "era 4"
+     ]
+    },
+    {
+     "text": "Clean edition of Nikephoros Kallistos's Enarratio",
+     "why": "Would replace the garbled PG 147 OCR",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Clean edition of the 1737 London Faithful Narrative with the Watts-Guyse preface",
+     "why": "Would replace the garbled preface scan",
+     "links": [
+      "the-evangelical-awakening-in-new-england--english-old-dissent"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Clean edition of Victor of Tunnuna's Chronicle",
+     "why": "Would replace the rough MGH and Mommsen OCR. Note: A rough MGH text is vendored; the clean edition is not.",
+     "links": [
+      "latin-africa-under-byzantium--byzantine-imperial-church-justinianic"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Clean edition or translation of Sebeos (Thomson 1999 or Patkanian 1879)",
+     "why": "Would replace Macler's OCR. Note: Macler's 1904 OCR is vendored; a clean text is not.",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Clean Greek text of the Florentine Definition with its signatures",
+     "why": "Would give the Florence step a clean primary",
+     "links": [
+      "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Clean Latin text of the Collatio cum Maximino",
+     "why": "Would fix the Maximinus answer the PL 42 OCR mangles",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Clean text of Eusebius HE VII.28.1 (Hymenaeus and Theotecnus at the Antioch synods)",
+     "why": "Would document a Palestinian contact link",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Clean text of the Gesta Collationis Carthaginiensis (411)",
+     "why": "Would confirm the 279 and 286 bishop counts",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Clement XI's bull of 1708 suppressing Port-Royal des Champs and the 1709 dispersal orders",
+     "why": "Would document the suppression text",
+     "links": [
+      "catholic-church-ancien-regime--port-royal-jansenism"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Cluny's foundation charter of 909/910 (Bruel 1876)",
+     "why": "Would show the house placed under the Rule of Saint Benedict",
+     "links": [
+      "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "cluniac-reform-monasticism--latin-papal-church-gregorian",
+      "early-benedictine-italian-monasticism--cluniac-reform-monasticism"
+     ],
+     "eras": [
+      "era 3",
+      "era 4",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Codex Justinianus 1.5.20 and John of Ephesus on the Montanists at Pepuza",
+     "why": "Would document Justinian's campaign against the Montanists",
+     "links": [
+      "byzantine-imperial-church-justinianic--montanism-the-new-prophecy"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Coleridge's Xavier quotes checked against Monumenta Xaveriana I",
+     "why": "Would check the quotes against the Spanish",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Cologne trial acts (Théry, Archives d'histoire doctrinale 1926) and the bull In agro dominico",
+     "why": "Would document the Cologne stage directly",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Columbanus, Letters II and V (MGH Epp. III, Gundlach)",
+     "why": "Would document the Easter dispute in Gaul",
+     "links": [
+      "insular-irish-monastic-christianity--roman-church-gregorian"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Committee of Ministers decision of 4 July 1894 on the Stundist sect, with the Synod's request",
+     "why": "Would document the Orthodox state act against the Stundists",
+     "links": [
+      "russian-church-synodal-century--russian-evangelicals-stundists",
+      "russian-church-synodal-century--russian-evangelicals-stundists--2"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Concordat between the Holy See and Haiti (28 March 1860); Haitian state acts on clergy, 1804-1860",
+     "why": "Would document the Haitian church's status",
+     "links": [
+      "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Conrad Grebel's letters (1524-1525)",
+     "why": "Would give the Anabaptists' own record of the break with Zwingli",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Constitution and first annual report of the American Unitarian Association (1825-26)",
+     "why": "Would document the Unitarian thread",
+     "links": [
+      "early-american-unitarians-universalists--american-unitarianism-universalism-consolidations"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Contemporary record of Avedik's fall (French embassy dispatches or the patriarchate's own account)",
+     "why": "Would document Avedik's fall from a contemporary record",
+     "links": [
+      "armenian-christianity-era-8--armenian-apostolic-church-era-8"
+     ],
+     "eras": [
+      "armenian-apostolic era 8"
+     ]
+    },
+    {
+     "text": "Contemporary reports on the massacres of 1894-96 (British parliamentary papers, 1895-96)",
+     "why": "Would document the 1894-96 massacres",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Continuation of Sempad's chronicle (RHC Doc. arm. I) on the see at Sis after 1293",
+     "why": "Would show the step from Hromkla to Sis",
+     "links": [
+      "armenian-cilicia--armenian-cilicia-after-the-kingdom"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Conventicle Act of 1664 (16 Car. II c. 4) and Act of 1670, Statutes of the Realm vol. V",
+     "why": "Would replace Whitley's summary with the statute's words",
+     "links": [
+      "restoration-georgian-church-of-england--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Cornelius's letter to Fabius (Eusebius HE VI.43.5-20)",
+     "why": "Would document the Roman rupture over Novatian",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Corpus Schwenckfeldianorum vols II-III (1524-1530)",
+     "why": "Would give Schwenckfeld's account of the 1525 visit",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Cosmas the Priest, Sermon against the Heretics (Popruzhenko 1907)",
+     "why": "Would document Cosmas's attack on the Bogomils",
+     "links": [
+      "bogomils--balkan-bogomil-continuation"
+     ],
+     "eras": [
+      "era 4",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Cum de quibusdam mulieribus (Clementines III.11.1), Vienne decree",
+     "why": "Would show the council moving against the beguine status",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--the-beguines"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Cummian's De controversia paschali (c. 632)",
+     "why": "Would give the Irish side of the Easter dispute",
+     "links": [
+      "anglo-saxon-christianity--insular-irish-monastic-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Cyril IV's mission to Tewodros, 1856-57",
+     "why": "Would document the mission",
+     "links": [
+      "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Cyril IV's own reforms, in an Arabic or translated edition",
+     "why": "Would document Cyril IV's reforms from his own side",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Cyril IV's patriarchal school (1855), majlis milli (1874) and al-Watan (1877-) records",
+     "why": "Would document Cyril IV's reforms",
+     "links": [
+      "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Cyril of Scythopolis, Life of Euthymius, readable edition (ch. 6-8, Pharan)",
+     "why": "Would show a named monk moving from Pharan to the Judean desert foundations. Note: The Cotelier 1681 text is vendored but too corrupt to quote.",
+     "links": [
+      "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Cyril of Scythopolis, Life of Sabas",
+     "why": "Would document Sabas's embassies and the Origenist split",
+     "links": [
+      "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Danish 1537 Ordinatio ecclesiastica in readable text, naming the old-see superintendents",
+     "why": "Would document the superintendents in the old sees",
+     "links": [
+      "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Danish Church Ordinance of 1537/1539 drawn up with Bugenhagen",
+     "why": "Would document the Danish-Norwegian side of the Scandinavian link",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Dated Stundist record of the break; Stundist petitions of 1894-1905 (Bonch-Bruevich, Materialy)",
+     "why": "Would give the Stundist break in its own words",
+     "links": [
+      "russian-church-synodal-century--russian-evangelicals-stundists"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Dated witness to the 1341 synod (Kantakouzenos's History or Gregoras)",
+     "why": "Would carry the year on the palamite link",
+     "links": [
+      "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Diplomatarium Islandicum vols 10-11 (Jon Arason's letters) and an account of his execution (1550)",
+     "why": "Would document Arason's execution",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Disputation with Pyrrhus, Latin text with a clean column",
+     "why": "Would quote its African setting",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Doddridge's Correspondence and Diary (Humphreys 1829-31)",
+     "why": "Would give Doddridge's side of his dealings with Wesley and Whitefield",
+     "links": [
+      "english-old-dissent--the-methodist-revival"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Dongola throne-hall inscription of 1317 (Arabic), edition",
+     "why": "Would document the mosque conversion",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Dorotheus's Instructions in a clean English or Greek text",
+     "why": "Would document the Dorotheus Instructions directly",
+     "links": [
+      "desert-monasticism--chalcedonian-monasticism-judean-desert-and-gaza"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Duwayhi's history of the Maronite patriarchs in a clean scan",
+     "why": "Would document the patriarchal line across 1300",
+     "links": [
+      "maronite-christianity--maronite-christianity-era-6"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Döllinger's letter to Archbishop Scherr (28 March 1871) and the Munich excommunication decree (17 April 1871)",
+     "why": "Would document the 1871 rupture",
+     "links": [
+      "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Early record of Further Reformation piety among Dutch settlers (Frelinghuysen's sermons)",
+     "why": "Would document Dutch piety in the Americas",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Edition of Victorinus's Commentary on the Apocalypse with Jerome's recension",
+     "why": "Would document the reissue directly",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Edmund Calamy, An Account of the Ministers ... Ejected or Silenced (1702/1713)",
+     "why": "Would document the ejected ministers",
+     "links": [
+      "english-old-dissent--restoration-georgian-church-of-england"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Edwards, An Humble Attempt (1747) and Sutcliff's 1789 reprint",
+     "why": "Would document the Baptist prayer concert",
+     "links": [
+      "the-evangelical-awakening-in-new-england--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Emerson, Divinity School Address (Boston, 1838); Andrews Norton, A Discourse on the Latest Form of Infidelity",
+     "why": "Would document the Transcendentalist break",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Ephraim's Hymns against Heresies, full vendored translation",
+     "why": "Would quote Ephraim's complaint about Bardaisan directly",
+     "links": [
+      "bardaisanite-current--syriac-edessa-nisibis"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Epiphanius's Life of Sergius (vendored edition)",
+     "why": "Would document the hesychast side of Sergius's circle",
+     "links": [
+      "hesychasm-and-the-palamite-synthesis--muscovite-monastic-christianity"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Epiphanius, Panarion 29-30 (Nazoraeans and Ebionites)",
+     "why": "Would document the Ebionite sources",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Epiphanius, Panarion 73.12, or Hilary, De synodis 81 and 86 (Ancyra appeal against Paul)",
+     "why": "Would quote the Ancyra appeal from a readable text. Note: PG 42 Greek-Latin OCR is vendored; the readable text is not.",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Erast, Istoricheskoe opisanie Kozel'skoi Optinoi pustyni (1902)",
+     "why": "Would document the founding of the Optina skete in 1821",
+     "links": [
+      "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Esteves Pereira, Chronica de Susenyos (Lisbon 1892-1900)",
+     "why": "Would give the Ethiopian court's account of the conversion and the 1632 restoration",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Eulogius, Memoriale sanctorum; Paulus Alvarus, Indiculus luminosus",
+     "why": "Would support the Córdoba martyr sentences",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Euthymius Zigabenus, Panoplia dogmatica (titles 23 and 27) and Gieseler's Narratio de Bogomilis",
+     "why": "Would document the medieval tie between Bogomils and Paulicians",
+     "links": [
+      "bogomils--balkan-bogomil-continuation",
+      "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "paulicians--bogomils"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Excerpts of Gerard's Introductorius outside the Protocol of Anagni",
+     "why": "Would quote Gerard in his own text",
+     "links": [
+      "joachimite-current--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Exordium Parvum, Exordium Cistercii and Carta Caritatis (Guignard 1878)",
+     "why": "Would document the founders' aim to keep the Rule of Saint Benedict",
+     "links": [
+      "early-benedictine-italian-monasticism--cistercian-monasticism"
+     ],
+     "eras": [
+      "era 3",
+      "era 5",
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Father Bernard Meynier, Le Port-Royal et Genève (1656)",
+     "why": "Would show the Jesuit side in its own words",
+     "links": [
+      "the-society-of-jesus--port-royal-jansenism"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Faustus of Byzantium and Agathangelos, Langlois tome I (1867)",
+     "why": "Would document the consecration of Gregory's successors at Caesarea",
+     "links": [
+      "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "First edition of Thomas Ellwood's History of the Life (1714)",
+     "why": "Would check the Spiritual Guide report. Note: Crump's 1900 edition is vendored; the 1714 first edition is not.",
+     "links": [
+      "quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "First Observant hermitage at Brugliano (Paoluccio Trinci, 1368)",
+     "why": "Would document the 1368 grant",
+     "links": [
+      "franciscan-order-era-6--observant-reform-and-popular-preaching"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Fliedner's Kaiserswerth annals; contemporary account of Nightingale's 1851 stay",
+     "why": "Would document Kaiserswerth",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Francis of Assisi, Testament",
+     "why": "Would document the papal confirmation of the Rule",
+     "links": [
+      "latin-papal-church-gregorian--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Gadla Ewostatewos, the acts of the 1450 council of Debre Mitmaq, and modern study",
+     "why": "Would document the Ewostathian side of the Sabbath quarrel",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Gadla Lalibela (Perruchon 1892)",
+     "why": "Would document the Zagwe king's Life and the Jerusalem churches",
+     "links": [
+      "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Genesios or Theophanes Continuatus on the fall of Tephrike (878)",
+     "why": "Would date the fall of Tephrike",
+     "links": [
+      "byzantine-imperial-church-macedonian--paulicians"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Geneva Bible (1560) prefatory matter or Livre des Anglois of the Geneva English congregation",
+     "why": "Would document the Geneva-to-Puritan line",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Gennadios Scholarios's own account of his election",
+     "why": "Would document the 1448-1450s election from his side",
+     "links": [
+      "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "George Morel's memoir and letter to Oecolampadius (1530)",
+     "why": "Would document the Alpine Waldensians' outward conformity",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "George the Hagiorite, Life of John and Euthymius; Actes d'Iviron I (Lefort 1985)",
+     "why": "Would document Iviron's founding from its own side",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+      "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 4",
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Georgian or Greek text of c. 600 recording the Georgian church's acceptance of Chalcedon",
+     "why": "Would document the Georgian Chalcedon acceptance",
+     "links": [
+      "byzantine-imperial-church-justinianic--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Giorgi Merchule, Life of Grigol of Khandzta",
+     "why": "Would show the revival from inside the Georgian church",
+     "links": [
+      "georgian-christianity--georgian-revival-tao-klarjeti",
+      "georgian-revival-tao-klarjeti--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 3",
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Gorham judgment (1850), Essays and Reviews (1860), Lambeth Conference encyclical (1867)",
+     "why": "Would give the Victorian Church of England's own texts",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Gottfried Arnold, Unparteiische Kirchen- und Ketzer-Historie (1699-1700)",
+     "why": "Would document the radical Pietists' manifesto",
+     "links": [
+      "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Greek Catholic or Roman account of the Polotsk act of 1839",
+     "why": "Would hear the other side of the Polotsk act",
+     "links": [
+      "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Greek royal decree of 1833 declaring the Church of Greece autocephalous",
+     "why": "Would document the Greek autocephaly",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Gregory of Nazianzus, Letter 115, clean Greek text",
+     "why": "Would quote 'and the same from holy Basil' correctly. Note: PG 37 Greek-Latin is vendored; check its Letter 115 text.",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Gregory of Nyssa's own letters on his deposition and return (Epp. 6, 18, 22)",
+     "why": "Would give Gregory's side of the deposition",
+     "links": [
+      "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Gregory Palamas, Triads in Defence of the Holy Hesychasts (I.2.12)",
+     "why": "Would document Palamas's appeal to Athonite teachers. Note: PG 150 Greek-Latin OCR is vendored; a clean text is not.",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Gregory the Great's Register I-VII (Ewald-Hartmann Latin), with Register tomus II",
+     "why": "Would check the numbering of the Donatist letters and the count of letters. Note: Books VIII-XIV are vendored; I-VII are not.",
+     "links": [],
+     "eras": [
+      "era 2",
+      "era 3"
+     ]
+    },
+    {
+     "text": "Gregory the Great's Register XIII.47-50 on the Spanish depositions",
+     "why": "Would test the 'doing wrong' wording from Gregory's own words",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Grigoris Balakian, Armenian Golgotha (1922)",
+     "why": "Would give an eyewitness of 1915 from inside the church",
+     "links": [
+      "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Guaman Poma, Nueva corónica y buen gobierno (1615), public-domain transcription",
+     "why": "Would document the Andean Christian witness",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "H. B. Kendall, Primitive Methodist Church (1905-06), or Hugh Bourne's writings",
+     "why": "Would document Mow Cop and the Primitive Methodist connexion",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Habib Girgis's writings and General Sunday School Committee records (c. 1918)",
+     "why": "Would document the Arabic Sunday-school movement",
+     "links": [
+      "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Harford (ed.), The Keswick Convention (1907)",
+     "why": "Would document Keswick's British wing",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Hendrik de Cock's Verdediging (1833); Acte van Afscheiding (Ulrum 1834)",
+     "why": "Would document the Dutch secession",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Herman of Alaska's letters and Semyon Yanovsky's letter of 1865",
+     "why": "Would document the Alaska mission from primary letters",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Hilary, Contra Auxentium, in English or a located passage in PL 10",
+     "why": "Would document Hilary's attack on Auxentius",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "History of the Patriarchs of the Coptic Church, later continuations (14th-19th centuries)",
+     "why": "Would document the line of patriarchs",
+     "links": [
+      "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "History of the Patriarchs of the Egyptian Church, vols 2-4, and Life of Cyril II",
+     "why": "Would document the patriarchs' dealings with Ethiopia and the Zagwe-era metropolitans",
+     "links": [
+      "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+      "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+      "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "History of the Russian diocese in America to 1970 (seat moves 1872 and 1905; Metropolia)",
+     "why": "Would document the diocese's history",
+     "links": [
+      "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "HKBP church order of 1881; Rhenish Mission reports from the Batak field",
+     "why": "Would document the church's own order and the Batak mission",
+     "links": [
+      "indonesian-christianity--indonesian-christianity-the-independent-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Hochmann von Hochenau's Confession of Faith (1702), clean edition",
+     "why": "Would let Hochmann's Halle awakening rest on his own words",
+     "links": [
+      "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Homoian record of the Council of Aquileia (Scholia Arriana, Palladius)",
+     "why": "Would give the condemned party's side of the 381 links",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Honorius III's bulls of 1216-1217 confirming the Order of Preachers",
+     "why": "Would document the papal approval of the Dominicans",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Horatio W. Dresser, ed., The Quimby Manuscripts (1921)",
+     "why": "Would document New Thought's descent from Quimby",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Hospitallers' Rule of Raymond du Puy (Delaville Le Roulx 1894)",
+     "why": "Would document the hospital's rule",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Huarochirí manuscript, public-domain edition, or Francisco de Ávila's account",
+     "why": "Would document the manuscript's commissioning",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Humbert of Romans and John of Parma's joint letter of 1255",
+     "why": "Would document the rivalry between the two orders",
+     "links": [
+      "the-dominican-order--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Hymns Ancient and Modern (1861); J. M. Neale, Hymns of the Eastern Church (1862)",
+     "why": "Would document the Oxford hymn translations",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Imperial firman of 1870 creating the Bulgarian Exarchate",
+     "why": "Would document the Exarchate",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Innocent III's bull to the Maronite patriarch Jeremiah (1215), Anaissi 1911",
+     "why": "Would document the union terms",
+     "links": [
+      "latin-papal-church-gregorian--maronite-christianity"
+     ],
+     "eras": [
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Innocent III's letters of 1201 to the Humiliati (Tiraboschi 1767)",
+     "why": "Would document the 1201 letters",
+     "links": [
+      "latin-papal-church-gregorian--the-humiliati--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Innocent III's letters of 1208-1209 calling the crusade, or Peter of Vaux-de-Cernay's Historia Albigensis",
+     "why": "Would document 1209 from a primary side",
+     "links": [
+      "latin-papal-church-gregorian--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Innocent III's letters on Thomas Morosini as Latin patriarch (Register VII-VIII); Villehardouin",
+     "why": "Would give the crusaders' side of the Latin patriarchate",
+     "links": [
+      "latin-papal-church-gregorian--byzantine-church-after-1054--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Interrogatio Iohannis with the Carcassonne colophon",
+     "why": "Would document the Interrogatio in a vendored edition",
+     "links": [
+      "balkan-bogomil-continuation--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Ioann Veniaminov's writings and reports: Notes on the Islands of the Unalaska District (1840), Aleut catechism, Synod act creating the diocese of Kamchatka",
+     "why": "Would document Veniaminov and the diocese from primary texts",
+     "links": [
+      "russian-church-synodal-century--alaskan-mission-herman-veniaminov"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Isaac Backus, A History of New-England (1777-96)",
+     "why": "Would document the Separates who became Baptists",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Ishoyahb III's letters (ed. Duval, CSCO)",
+     "why": "Would document the catholicate across the conquest in his own words",
+     "links": [
+      "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "J. F. Schön and Samuel Crowther, Journals of the Niger Expedition of 1841 (1842)",
+     "why": "Would document the 1841 Niger expedition",
+     "links": [
+      "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "J. L. Krapf, Travels, Researches and Missionary Labours (1860)",
+     "why": "Would document the East African coast mission from 1844",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "J. N. Darby, Collected Writings (ed. Kelly), prophetic volumes; W. B. Neatby, History of the Plymouth Brethren (1901)",
+     "why": "Would document the Darby line",
+     "links": [
+      "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+      "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "J. P. Thoonen, Black Martyrs (1941), or the 1920 beatification acts",
+     "why": "Would document the Catholic martyrs",
+     "links": [
+      "catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "James Sibree, Madagascar and its People (1870)",
+     "why": "Would document the church after 1869",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Jelling stone inscription, public-domain reading",
+     "why": "Would document Harald Bluetooth's 'made the Danes Christian'",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Jerome on consulting the Hexapla at Caesarea (Commentary on Titus 3.9; Psalms commentary), and the Hexapla's survival there",
+     "why": "Would document the Hexapla step of the Palestinian contact",
+     "links": [
+      "palestinian-church-pre-constantinian--hieronymian-ascetic-literary"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Jerome's Chronicle (Arnobius and his bishop)",
+     "why": "Would document the Arnobius story if it is cited",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Jerome's Commentary on Ezekiel, preface to Book I ('the scorpion lies buried')",
+     "why": "Would document Jerome's last word on Rufinus",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Jerome's prologue to Anatolius on Victorinus's Commentary on the Apocalypse",
+     "why": "Would document Jerome's revision of Victorinus",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Jesuit letter or relation from Malabar, 1653-54, on the revolt against Archbishop Garcia",
+     "why": "Would give the Jesuit side of the Malabar pressure",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Joe Church, Quest for the Highest (1981)",
+     "why": "Would document the Gahini revival from the missionary side",
+     "links": [
+      "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Joeli Bulu, The Autobiography of a Native Minister in the South Seas (1871)",
+     "why": "Would document the Wesleyan line into the Pacific churches",
+     "links": [
+      "the-methodist-revival--the-missionary-movement-s-native-churches-seramp"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "John Catholicos (Hovhannes Draskhanakerttsi), History of Armenia (Saint-Martin 1841)",
+     "why": "Would give the catholicate across the 880s and the Albanian event in one narrative",
+     "links": [
+      "armenian-christianity-before-the-bagratids--bagratid-armenian-christianity",
+      "armenian-christianity-before-the-bagratids--church-of-caucasian-albania"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "John Henry Newman, Apologia Pro Vita Sua (1864)",
+     "why": "Would give the movement's own account of its start and its older high-church debts",
+     "links": [
+      "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+      "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "John Humphrey Noyes, Bible Communism (1848); History of American Socialisms (1870); Oneida First Annual Report (1849)",
+     "why": "Would give the community's own record",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "John of Beth Aphthonia's or Zacharias's Life of Severus",
+     "why": "Would document Severus's years and death in Egypt",
+     "links": [
+      "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "John of Capistrano's report and the Breslau trial records of 1453 (Eschenloer)",
+     "why": "Would document the Observant persecution of Breslau's Jews",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "John of Damascus, On the Divine Images (Allies 1898)",
+     "why": "Would document the argument from John's side",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "John R. Mott, The Evangelization of the World in This Generation (1900)",
+     "why": "Would document the mission movement's own statement",
+     "links": [
+      "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "John VIII's letter Industriae tuae (880) on the Slavonic liturgy",
+     "why": "Would support the papal approval of Slavonic books",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "John Wesley, An Extract of the Life of Madame Guion (1776), with his preface",
+     "why": "Would document the 1776 step from Wesley's own text",
+     "links": [
+      "quietist-controversy-molinos-guyon--the-methodist-revival"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "John XXII's 1326 condemnation of Olivi's Apocalypse commentary (Bullarium Franciscanum)",
+     "why": "Would show the papacy treating the Spirituals' reading. Note: Bullarium Franciscanum v5 is vendored and mentions Olivi often; check for the 1326 condemnation.",
+     "links": [
+      "joachimite-current--franciscan-order-era-6"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Jonas, Life of Columban, Book II (Council of Macon, Luxeuil)",
+     "why": "Would show the Frankish church adopting the rule",
+     "links": [
+      "insular-irish-monastic-christianity--merovingian-gallic-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Jordan of Saxony, Libellus de principiis ordinis praedicatorum",
+     "why": "Would document Dominic's preaching against Languedoc heretics",
+     "links": [
+      "the-dominican-order--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Joseph John Gurney's and John Wilbur's writings (Wilbur's Journal, 1859)",
+     "why": "Would document the second Quaker division",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Joseph Smith, The Book of Mormon (1830) and the Doctrine and Covenants (1835)",
+     "why": "Would document the founding texts",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Journal of the General Conference of the Methodist Episcopal Church, 1844",
+     "why": "Would document the 1844 split from the American side",
+     "links": [
+      "the-methodist-revival--nineteenth-century-methodism"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Kabale convention revival testimonies (from 1935)",
+     "why": "Would document the revival testimonies",
+     "links": [
+      "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Kartlis Tskhovreba for the seventh and eighth centuries, readable translation",
+     "why": "Would document the Georgian annals in translation",
+     "links": [
+      "georgian-christianity--georgian-revival-tao-klarjeti",
+      "georgian-revival-tao-klarjeti--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 3",
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Keble's 1836 edition of Hooker, vol. 1, with the editor's preface",
+     "why": "Would document the Tractarian reading of the older divines. Note: The vendored Keble printing is 1850 and omits the 1836 preface.",
+     "links": [
+      "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Kekelidze's 1912 Russian edition of the Georgian Jerusalem lectionary",
+     "why": "Would document the Georgian lectionary",
+     "links": [
+      "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Kyiv Caves Paterikon and Primary Chronicle (s.a. 1051), vendored edition",
+     "why": "Would document Ilarion's cave and Anthony's settling from the Rus' side",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "kievan-rus-christianity--kievan-rus-christianity-1054-1240"
+     ],
+     "eras": [
+      "era 4",
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Lactantius's loss of his chair at Nicomedia (text or repo-cited secondary)",
+     "why": "Would document the Lactantius claim",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888)",
+     "why": "Would narrate the Albigensian crusade and the 1230s inquisition. Note: Vol. III is vendored; vol. I is not.",
+     "links": [
+      "latin-papal-church-gregorian--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Lea, A History of the Inquisition, vol. II (1887), on the Free Spirit and the Adamites",
+     "why": "Would document the Free Spirit and Adamites",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Legible edition of the Passio Marculi",
+     "why": "Would confirm the parade through towns and the cliff at Nova Petra",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Leo of Ostia, Chronicle of Monte Cassino (MGH SS 7)",
+     "why": "Would document the Saracen destruction of 883",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Leo X, Ite vos (29 May 1517), Bullarium Romanum vol. V",
+     "why": "Would document the division of the order",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Leo XIII, Quae mari sinico (1902)",
+     "why": "Would document the Philippine reorganization",
+     "links": [
+      "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Leo XIII, Rerum Novarum (1891); brief Universalis Ecclesiae (1850)",
+     "why": "Would document the English hierarchy's restoration",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Letter of the council of Carthage of 535 (Reparatus) on receiving Arian clergy",
+     "why": "Would document the African reception of Arian clergy",
+     "links": [
+      "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Liang Fa, Good Words to Admonish the Age (1832)",
+     "why": "Would document the tract Hong read",
+     "links": [
+      "the-missionary-movement-s-native-churches-seramp--taiping-heavenly-kingdom"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Life of Clement of Ohrid (Theophylact)",
+     "why": "Would document the Ohrid and Preslav schools",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Life of Constantine and Life of Methodius (Old Church Slavonic), public-domain text",
+     "why": "Would document the emperor's sending of the brothers in 862",
+     "links": [
+      "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Life of John of Damascus at the laura of Sabas (Greek Life)",
+     "why": "Would place John of Damascus at Mar Saba",
+     "links": [
+      "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Life of Stephen the Younger (PG 100 or public-domain text)",
+     "why": "Would document the 765 martyrdom",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Littmann, Deutsche Aksum-Expedition IV (1913), for Ezana's inscriptions",
+     "why": "Would document Ezana's own inscriptions",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Lucius III, Ad abolendam (Verona 1184), naming the Humiliati and Poor of Lyon",
+     "why": "Would document the Humiliati condemnation",
+     "links": [
+      "latin-papal-church-gregorian--the-humiliati",
+      "latin-papal-church-gregorian--the-waldensians"
+     ],
+     "eras": [
+      "era 5",
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Luther's letters to Schwenckfeld (1526, 1543) in a vendored edition",
+     "why": "Would give Luther's side of the break",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Mamluk sources or modern study on the Kesrwan campaigns of 1305 (Lammens, Salibi)",
+     "why": "Would document the 1305 campaigns",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Manichaean-era Theodosian Code 16.5 laws naming the Montanists (clean critical text)",
+     "why": "Would document the Montanist laws from a clean text",
+     "links": [
+      "imperial-juridical-christianity--montanism-the-new-prophecy"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Mansi 24, Michael VIII's letter to Gregory X and the Lyon II acts",
+     "why": "Would name the emperor and council in a primary",
+     "links": [
+      "byzantine-church-after-1054--latin-papal-church-gregorian--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Margaret Oliphant, Life of Edward Irving (1862); Robert Baxter, Narrative of Facts (1833); Catholic Apostolic liturgy (1842-)",
+     "why": "Would document the Irvingite and Catholic Apostolic line",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Marguerite Porete, The Mirror of Simple Souls, vendored edition",
+     "why": "Would set the condemned propositions beside her words",
+     "links": [
+      "the-beguines--free-spirit-heresy"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Martin V's crusade bull against the Hussites (1420)",
+     "why": "Would document the papal crusade",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Martyrium Arethae (acts of the Najran martyrs)",
+     "why": "Would document Timothy of Alexandria urging the Aksumite king to war",
+     "links": [
+      "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Mary Baker Eddy, Science and Health (1875)",
+     "why": "Would document the founding text",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Masius's letter to Busbecq and Sulaqa's profession of 1553",
+     "why": "Would document the 1552-1553 events from primary letters",
+     "links": [
+      "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Matteo Ricci, Tianzhu shiyi (1603), with a record of its reading in Chosŏn Korea",
+     "why": "Would document the Korean reading of Ricci",
+     "links": [
+      "china-mission-born-christianity--korean-catholic-origins"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Matthew of Edessa's complete Chronicle (Dulaurier 1858)",
+     "why": "Would document the 1045 annexation and the catholicoi",
+     "links": [
+      "bagratid-armenian-christianity--armenian-cilicia"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Medieval bishop lists of Skara or Lund; Scriptores rerum Suecicarum; Norway's and Iceland's sees",
+     "why": "Would document the sees across the Reformation",
+     "links": [
+      "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Mendes, Expeditio Aethiopica, Books III-IV",
+     "why": "Would document the 1626 submission and 1633 expulsion. Note: Books I-II are vendored; III-IV are not.",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Menno Simons or the Dordrecht Confession (1632) beside Mack; Durnbaugh 1958",
+     "why": "Would show which Anabaptist teaching the Brethren took up. Note: Menno Simons's complete works (Funk 1871) are vendored; Durnbaugh is not.",
+     "links": [
+      "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Methodist Episcopal Discipline of 1784 and Asbury's journal",
+     "why": "Would document the Methodist founding texts behind the American links. Note: Asbury's journal (1821) is vendored; the 1784 Discipline is not.",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Methodist Episcopal record of the Bethel dispute from the white elders' side (John Emory's circular)",
+     "why": "Would give the Bethel break from the white elders' side",
+     "links": [
+      "nineteenth-century-methodism--the-black-church-in-america"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Methodist New Connexion Conference minutes for 1861 (Booth's resignation)",
+     "why": "Would document the New Connexion break",
+     "links": [
+      "nineteenth-century-methodism--the-salvation-army"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Metropolitan Andrey Sheptytsky's pastoral letters (1899-1906)",
+     "why": "Would carry the church across 1906-1946",
+     "links": [
+      "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Mexican Reform laws (Ley Lerdo 1856; Constitution of 1857; laws of 1859-60)",
+     "why": "Would document the Reform laws",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Michael of Cesena's appeals of 1328 and protest of 1338",
+     "why": "Would give the minister general's own voice",
+     "links": [
+      "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Michael the Syrian, Chronicle Books XII-XXI (Chabot vol. III 1905)",
+     "why": "Would document Michael's own patriarchate. Note: Book X is in vendored tome 2; Books XII-XXI are not.",
+     "links": [
+      "syriac-orthodox-west-syriac-christianity--syriac-renaissance"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Michael the Syrian, Chronique tome 3 (Chabot 1905), on Athanasius and Aimery at Antioch and Outremer",
+     "why": "Would give the Syriac side of the Latin states",
+     "links": [
+      "latin-church-of-outremer--byzantine-church-after-1054"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Minutes and epistles of the Philadelphia and Ohio Yearly Meetings (1827-28); Elias Hicks, Sermons (1828) and Journal (1832)",
+     "why": "Would document the Quaker separation from both parties",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Minutes of the Millerite conferences",
+     "why": "Would document the Millerite movement from its own decisions",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Missouri Synod's 1847 constitution or Walther's Der Lutheraner",
+     "why": "Would document the movement's subscription to the confessions",
+     "links": [
+      "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Modern English translation of the Cologne Mani Codex",
+     "why": "Would document Mani's upbringing among the baptizers",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Movses Dasxuranci, History of the Caucasian Albanians, usable edition",
+     "why": "Would document the removal of Nerses Bakur",
+     "links": [
+      "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+      "armenian-christianity-before-the-bagratids--church-of-caucasian-albania"
+     ],
+     "eras": [
+      "era 3",
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Mrs Howard Taylor, Pastor Hsi: One of China's Christians (1903)",
+     "why": "Would document Pastor Xi's self-led congregations",
+     "links": [
+      "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "National Baptist Convention proceedings (c. 1895-1915)",
+     "why": "Would document the Baptist side and the 1915 split",
+     "links": [
+      "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "National Camp Meeting Association reports; Penuel (1869)",
+     "why": "Would document the first camp meetings",
+     "links": [
+      "the-second-great-awakening-and-camp-meeting-worl--the-holiness-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Neercassel's correspondence with Arnauld",
+     "why": "Would document the friendship from the letters",
+     "links": [
+      "port-royal-jansenism--church-of-utrecht"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Nerses Shnorhali's letters to Manuel I",
+     "why": "Would quote the correspondence from Nerses's side",
+     "links": [
+      "armenian-cilicia--byzantine-church-after-1054"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Nestor's Life of Theodosius of the Caves or Primary Chronicle under 1074",
+     "why": "Would document the Studite rule arriving in Kyiv",
+     "links": [
+      "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Nicholas IV's letters of 1288 to Arghun and Yahballaha III (Langlois)",
+     "why": "Would give the papal side of the meeting",
+     "links": [
+      "church-of-the-east-under-the-mongols--latin-papal-church-gregorian"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Niketas Choniates, History, on the sack of 1204",
+     "why": "Would document the 1204 sack",
+     "links": [
+      "latin-papal-church-gregorian--byzantine-church-after-1054--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Niketas Stethatos, Life of Symeon the New Theologian",
+     "why": "Would document Symeon's Stoudite training",
+     "links": [
+      "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Nikolai of Japan's diaries (1870-1911), reports to the Synod, pre-1930 English account of the Japan mission",
+     "why": "Would document the Japan mission from Nikolai's side",
+     "links": [
+      "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Nineteenth-century account of the Saxon emigration of 1838-39 (Vehse 1840)",
+     "why": "Would document the Saxon company's own cause",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Nineteenth-century cofradía book or pastoral visitation from Spanish America or Brazil",
+     "why": "Would show continuity beyond Mexico",
+     "links": [
+      "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Nineteenth-century Quaker text (Elias Hicks, Joseph John Gurney, 1827-28 separation minutes)",
+     "why": "Would document the Quaker separation",
+     "links": [
+      "the-quakers-religious-society-of-friends--nineteenth-century-quakerism-separations"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Nozaleda's decree excommunicating Aglipay (29 April 1899) and the Iglesia Filipina Independiente's founding proclamation (1902)",
+     "why": "Would document the schism's start",
+     "links": [
+      "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Numismatic catalogue or study of Aksumite coinage (Munro-Hay)",
+     "why": "Would document Ezana's conversion through coinage",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Odilo of Cluny's All Souls statute and the 1041 Truce of God letter (MGH Const. I)",
+     "why": "Would support the Odilo sentences",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Old Believer text appealing to the Muscovite fathers or the Stoglav (Avvakum's Life)",
+     "why": "Would document the Old Believers' appeal",
+     "links": [
+      "muscovite-monastic-christianity--the-old-believers"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Old Catholic synodal acts on clerical celibacy and the vernacular liturgy",
+     "why": "Would document the Old Catholic positions",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Old Nubian texts in a clean edition",
+     "why": "Would show the Coptic letters from the Nubian texts",
+     "links": [
+      "coptic-christianity-under-early-islam--makurian-nubian-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Oneida announcement ending complex marriage (American Socialist, 28 August 1879) and the 1880-81 papers",
+     "why": "Would settle the 1880 vote",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Oriental Orthodox joint declarations (1984 Syriac Orthodox-Catholic statement; 1989-1990 agreed statements)",
+     "why": "Would cite the Cyrilline dialogue sentence directly",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Pachymeres or Gregoras, Book V and after; Gregoras vol. 1",
+     "why": "Would give the Byzantine record of the patriarchs and the refusal of union. Note: Gregoras vols 2-3 are vendored; vol. 1 and Pachymeres are not.",
+     "links": [
+      "byzantine-church-after-1054--byzantine-church-palaiologan",
+      "byzantine-church-after-1054--latin-papal-church-gregorian--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Papal act confirming John Hormizd as patriarch of Babylon (1830)",
+     "why": "Would date the confirmation",
+     "links": [
+      "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Papal letters on recognizing the new republics' bishops (Leo XII, Gregory XVI)",
+     "why": "Would document Rome's slow recognition",
+     "links": [
+      "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Papal letters on the Bosnian heretics (Gregory IX) and the Franciscan vicariate of Bosnia (1340)",
+     "why": "Would document the condemnation and the friars' founding documents",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--the-bosnian-church"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Papal or curial document on the Danish or Swedish break (1527-1537)",
+     "why": "Would show Rome's side of the rupture",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Paris Parlement's arrêt and other public-domain primaries on the expulsion of the Jesuits (1757-1765)",
+     "why": "Would document the expulsion from a primary",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Paris-school text naming Optina, once public domain",
+     "why": "Would document the Paris school's Optina",
+     "links": [
+      "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Patriarchal acts (sigillia) of 1766 and 1767 abolishing Peć and Ohrid",
+     "why": "Would document the abolitions from a primary. Note: Gedeon vol. 1 is vendored; vol. 2 is not.",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Patriarchal letters of 1686-87 transferring the Kyiv metropolia (Dionysius IV; Dositheus)",
+     "why": "Would lift the Kyiv entry to Documented",
+     "links": [
+      "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Patriarchs of Antioch between 1009 and 1724 (patriarchal list or chronicle)",
+     "why": "Would show the Melkite see continuing to 1724",
+     "links": [
+      "melkite-arabic-christianity--melkite-greek-catholic-church"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Patriarchs' circular letter of 1724-25 deposing and excommunicating Cyril VI Tanas (Greek text)",
+     "why": "Would give the deposition in its Greek text",
+     "links": [
+      "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Paul III's bull against Henry VIII (1538), clean edition",
+     "why": "Would give the Brutum Fulmen text in a readable copy",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Periodical Accounts of the Baptist Missionary Society (from 1800); Carey and Ward's Serampore letters",
+     "why": "Would document the first Serampore baptisms",
+     "links": [
+      "the-baptists--the-missionary-movement-s-native-churches-seramp"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Peter Cartwright, Autobiography (1856); James B. Finley, Autobiography (1853)",
+     "why": "Would give the circuit riders' own account of the camp meetings",
+     "links": [
+      "the-methodist-revival--the-second-great-awakening-and-camp-meeting-worl"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Peter John Olivi, Lectura super Apocalypsim",
+     "why": "Would document Olivi's use of Joachim from his own text",
+     "links": [
+      "joachimite-current--franciscan-order-era-6"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Peter the Venerable's letters or Toledan Collection preface",
+     "why": "Would support the Qur'an translation and the Abelard shelter",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Philadelphia Baptist Association minutes (Gillette, 1851), 1800-1830",
+     "why": "Would show the association on both sides of 1815",
+     "links": [
+      "the-baptists--nineteenth-century-baptists"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Phoebe Palmer, The Way of Holiness (1843), Entire Devotion to God (1845); Guide to Holiness (1839-)",
+     "why": "Would let the Holiness links from Methodism be re-graded",
+     "links": [
+      "nineteenth-century-methodism--the-holiness-movement",
+      "the-second-great-awakening-and-camp-meeting-worl--the-holiness-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Photius, Homily 17 (apse mosaic, 867), public-domain edition",
+     "why": "Would document the 'imposters had been answered' line",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Pierre Nicole, Réfutation des principales erreurs des quiétistes (1695)",
+     "why": "Would document an 'argued against' link from Port-Royal's side",
+     "links": [
+      "port-royal-jansenism--quietist-controversy-molinos-guyon"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Pierre Poiret's editions of Guyon or Tersteegen's translations",
+     "why": "Would document German Pietist reading of Guyon",
+     "links": [
+      "quietist-controversy-molinos-guyon--german-pietism-spener-francke-halle"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Premillennial Essays of the 1878 New York prophetic conference; the Niagara Creed (1878)",
+     "why": "Would document the 1878 prophetic conference",
+     "links": [
+      "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Primary account of the Kodiak mission of 1794 (mission letters; Valaam's history)",
+     "why": "Would support the 1794 date and the Valaam origin",
+     "links": [
+      "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Primary for the capture of Tabor in 1452 (Aeneas Sylvius; Old Czech Annals)",
+     "why": "Would give the outcome a contemporary text",
+     "links": [
+      "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Primary witnesses for the 1448 election (Russian chronicles, Basil II's letter) and Acta patriarchatus vol. 2",
+     "why": "Would give the 1448 step and the Rus' metropolitans primary witnesses",
+     "links": [
+      "byzantine-church-palaiologan--muscovite-monastic-christianity"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Priscillian's Würzburg Tractates on the Manichaean charge at his trial",
+     "why": "Would document the accusation at the trial",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Proceedings of the Society for Psychical Research, vol. 1 (1882-83)",
+     "why": "Would document the Society's founding",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Prussian Union documents of 1817 and the Old Lutheran persecution record",
+     "why": "Would document the Prussian merger and the 1838 emigration",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Quaker writer of the period naming Guyon or Molinos in his own words",
+     "why": "Would document a Quaker reading of the quietists",
+     "links": [
+      "quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "R. P. Ashe, Two Kings of Uganda (1889); Mackay of Uganda (1890)",
+     "why": "Would document Buganda and the martyrs from the missionary side",
+     "links": [
+      "victorian-church-of-england--east-african-christianity-uganda-martyrs"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Rainerius Sacconi, Summa de Catharis (Dondaine 1939 or public-domain translation)",
+     "why": "Would quote Sacconi directly",
+     "links": [
+      "balkan-bogomil-continuation--cathars-albigensians",
+      "bogomils--cathars-albigensians"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Raymond of Capua's reform letters of 1390",
+     "why": "Would document the Dominican Observance",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Record of Innocent Veniaminov's election as Metropolitan of Moscow (1868)",
+     "why": "Would document the election",
+     "links": [
+      "russian-church-synodal-century--alaskan-mission-herman-veniaminov"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Regularis Concordia (c. 970), public-domain edition or translation",
+     "why": "Would document the English Benedictine reform rule",
+     "links": [
+      "early-benedictine-italian-monasticism--late-anglo-saxon-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Reuben Briggs Davenport, The Death-Blow to Spiritualism (1888)",
+     "why": "Would document Margaret Fox's 1888 confession",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Reusch's official reports of the 1874 and 1875 Bonn conferences",
+     "why": "Would list the Greek participants and whom they represented",
+     "links": [
+      "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Review and Herald (1850-), 1863 General Conference records, 1872 Declaration of Fundamental Principles",
+     "why": "Would document the Adventist bodies from their own records",
+     "links": [
+      "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Ricci's Italian commentaries (Tacchi Venturi 1911-13) or a better scan of Trigault 1615",
+     "why": "Would give a cleaner text of the China mission's beginnings",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Richard of St Victor, Benjamin Minor and Benjamin Major (PL 196)",
+     "why": "Would set the Victorine text beside the Cloud author's Benjamin",
+     "links": [
+      "canons-regular-victorine-school--the-english-mystics-and-devout"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Rimbert, Vita Anskarii, public-domain translation (Robinson 1921)",
+     "why": "Would document Anskar's mission from his own disciple",
+     "links": [
+      "carolingian-reform-christianity--scandinavian-conversion-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Robert Roberts, Christendom Astray (1862; 1884) and the Birmingham Statement of Faith (1886)",
+     "why": "Would document the Birmingham statement",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Rosenius's Pietisten (from 1842); Paavo Ruotsalainen's letters",
+     "why": "Would document the wider Nordic revivals",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Royal chronicle of Fasilides, public-domain edition",
+     "why": "Would document the 1633-34 expulsion from the Ethiopian side",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Royal chronicle of Menelik II (Gabra Sellase), church and court across 1900",
+     "why": "Would document the court's church",
+     "links": [
+      "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Royal chronicle of Yohannes IV (four bishops from Alexandria, 1881); Tewodros II; Boru Meda council (1878)",
+     "why": "Would document the Ethiopian court's account",
+     "links": [
+      "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Royal proclamation of 3 October 1580 against the Family of Love",
+     "why": "Would document the 1580 proclamation directly",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Rufinus's preface to his Latin translation of Basil",
+     "why": "Would document the Basil translations from Rufinus's side",
+     "links": [
+      "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Rufinus, Church History X.9-10, or a clean read of the Schwartz-Mommsen Latin",
+     "why": "Would document Frumentius's earliest account. Note: The Schwartz-Mommsen Latin is vendored; the English is not.",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Rule of the Temple (Henri de Curzon, 1886), for the Council of Troyes (1129)",
+     "why": "Would document the Templars' rule",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Rules of Edinoverie approved by Paul I (27 October 1800), with Metropolitan Plato's replies",
+     "why": "Would lift the Edinoverie entry to Documented",
+     "links": [
+      "russian-church-nikon-to-holy-synod--the-old-believers--3"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Russian acts of the 1875 Chełm reunion; Gregory XVI's allocution of 22 November 1839 against the Polotsk act",
+     "why": "Would document the two reunions from their own texts",
+     "links": [
+      "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Russian Baptist accounts of the 1884 founding congress; Modest Korff, Am Zarenhof (1927)",
+     "why": "Would document the failed St Petersburg union",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Russian Holy Synod's acts of 1839, in their own edition",
+     "why": "Would document the Synod's 1839 act from its own text",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Russian Primary Chronicle (Laurentian text), vendored public-domain edition",
+     "why": "Would document the Slavonic letters (s.a. 898), the envoys (987), Vladimir's baptism (988), the Greek clergy and the metropolitans",
+     "links": [
+      "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+      "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+      "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+      "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240"
+     ],
+     "eras": [
+      "era 4",
+      "era 5",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Sacrosanctum Concilium (1963) and Missale Romanum (1969)",
+     "why": "Would document the Tridentine Missal's revision",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Salimbene de Adam, Chronicle (MGH SS 32)",
+     "why": "Would give a Franciscan's account of Joachite expectation",
+     "links": [
+      "joachimite-current--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Sava's Life of Symeon (Stefan Nemanja) and the Hilandar and Karyes typika; Domentijan's or Teodosije's Life of Sava",
+     "why": "Would document Athonite charters adapted for Serbian monasteries",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Second Helvetic Confession ch. XI, clean Latin or German text",
+     "why": "Would replace the garbled OCR that names Schwenckfeld",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Serampore Form of Agreement (1805) and Carey's Serampore letters (public-domain edition)",
+     "why": "Would show the Moravian model at work in the Serampore church",
+     "links": [
+      "the-moravian-church-at-herrnhut--the-missionary-movement-s-native-churches-seramp"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Sergii Chetverikov, Optina Pustyn' (Paris, 1926)",
+     "why": "Would document Optina's history",
+     "links": [
+      "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+      "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Simeon of Erevan's Partavjar and letters or encyclicals of the catholicoi of Etchmiadzin",
+     "why": "Would document the Etchmiadzin side of the 1700s",
+     "links": [
+      "armenian-apostolic-church-era-8--catholic-church-ancien-regime"
+     ],
+     "eras": [
+      "armenian-apostolic era 8"
+     ]
+    },
+    {
+     "text": "Smotrytsky's Apologia (1628) or the Lithos (1644)",
+     "why": "Would document the union's case against Orthodox Kyiv",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Snorri Sturluson, Heimskringla (Olaf sagas), public-domain translation",
+     "why": "Would document the English clergy with the two Olafs",
+     "links": [
+      "late-anglo-saxon-christianity--scandinavian-conversion-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Source for AME Zion Church's founding in 1821 (Christopher Rush, 1843)",
+     "why": "Would document the founding",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Soviet or church record of Optina's closure (1918 or 1923) and its monks' fate",
+     "why": "Would document Optina's closure",
+     "links": [
+      "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Spener, Pia Desideria and letters; Dutch authors read in German (Teellinck, Lodenstein, Brakel)",
+     "why": "Would document a direct Further Reformation tie to Halle",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Statute 27 Eliz. c. 2 (1585) against Jesuits and seminary priests",
+     "why": "Would document the statute",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Stefan Nemanja's Hilandar founding charter, quotable text (Miklosich 1858)",
+     "why": "Would document the founding charter",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Stefano Infessura, Diario della città di Roma (1467)",
+     "why": "Would document Paul II's penance of the fraticelli",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Stephen of Taron (Asoghik), Universal History III (Dulaurier 1883; Macler 1917)",
+     "why": "Would document Trdat's repair of the dome",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Subscribing side's account of Salters' Hall (1719)",
+     "why": "Would show the subscribing side's account",
+     "links": [
+      "english-old-dissent--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Sulaqa's profession of 1553 and the Roman consistorial acts",
+     "why": "Would document the profession from the Roman side",
+     "links": [
+      "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Surma d'Mar Shimun, Assyrian Church Customs and the Murder of Mar Shimun (1920)",
+     "why": "Would give an inside witness for 1915-18",
+     "links": [
+      "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Sylvester Kossov, Exegesis (Kyiv, 1635), or the Mohyla college statutes",
+     "why": "Would give a primary witness to the Jesuit model",
+     "links": [
+      "the-society-of-jesus--the-kyiv-mohyla-orthodox-revival"
+     ],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Synod at Constantinople usually dated 1484 formally repudiating Florence",
+     "why": "Would document the formal repudiation",
+     "links": [
+      "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Synod's own minute of 21 August 1715, or the earliest extant rules (1716-1717)",
+     "why": "Would document the first synod's rule",
+     "links": [
+      "church-of-the-desert-huguenots--camisard-prophetism"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Synodikon of Orthodoxy (843), public-domain text",
+     "why": "Would document the restoring synod from the church's own side",
+     "links": [
+      "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian"
+     ],
+     "eras": [
+      "era 4",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Tacitus, Agricola 24, or a vendored text saying Ireland lay outside the Empire",
+     "why": "Would document the Irish outside-the-Empire claim",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Tamara Grdzelidze, Georgian Monks on Mount Athos (2009), read and cited by page",
+     "why": "Would document Georgian monks on Athos",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+      "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 4",
+      "era 5"
+     ]
+    },
+    {
+     "text": "Tauler's sermons naming his Dominican profession",
+     "why": "Would document Tauler's Dominican profession",
+     "links": [
+      "the-dominican-order--rhineland-mysticism-and-the-friends-of-god"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Text of the Compacts (Archiv český III; Mansi XXIX-XXX)",
+     "why": "Would quote the chalice concession from the council's words",
+     "links": [
+      "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Text recording Joseph Hubert Reinkens's 1873 consecration by an Utrecht-line bishop",
+     "why": "Would document 'Utrecht supplied them'",
+     "links": [
+      "church-of-utrecht--old-catholic-churches-union-of-utrecht"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "The Apostolic Faith (Los Angeles, 1906-1908) and Frank Bartleman, How Pentecost Came to Los Angeles (1925)",
+     "why": "Would let both links into Azusa Street be re-graded",
+     "links": [
+      "the-black-church-in-america--azusa-street-and-early-pentecostalism"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "The Book of Margery Kempe in full, with a description of the Mount Grace manuscript",
+     "why": "Would document the Kempe facts",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Theodore Hamberg, The Visions of Hung-Siu-tshuen (Hong Kong, 1854)",
+     "why": "Would document Hong's reading of Liang Fa's tract",
+     "links": [
+      "the-missionary-movement-s-native-churches-seramp--taiping-heavenly-kingdom"
+     ],
+     "eras": [
+      "era 9 part 1",
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Theodore of Mopsuestia's surviving comments against allegory (Galatians 4:24, Swete 1880)",
+     "why": "Would document Theodore's stance from his own text",
+     "links": [
+      "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Theodore Parker, A Discourse of the Transient and Permanent in Christianity (1841)",
+     "why": "Would test how far the Transcendentalists left Christian doctrine",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Theodore the Studite, letters or Antirrhetici (PG 99); Patriarch Nicephorus, Antirrhetici (PG 100)",
+     "why": "Would document a monk and patriarch writing against the iconoclasts",
+     "links": [
+      "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Theodore's Syriac-only works (Mingana, Catechetical Homilies, 1932-33)",
+     "why": "Would document 'survives only in Syriac' directly",
+     "links": [
+      "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Theophan the Recluse, Dobrotolubie v russkom perevode (1877-90)",
+     "why": "Would document the Russian Philokalia",
+     "links": [
+      "the-kollyvades-and-greek-renewal--russian-church-synodal-century"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Theophanes, Chronographia (de Boor 1883), on Constantine V and Michael I (Paulicians, monks)",
+     "why": "Would document the iconoclast measures",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+      "byzantine-imperial-church-heraclian-iconoclast--paulicians"
+     ],
+     "eras": [
+      "era 4",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Thomas Campbell, Declaration and Address (1809)",
+     "why": "Would document the Campbell wing's separate origin",
+     "links": [
+      "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Thomas Charles's account of the Welsh Sunday schools (Jones's Cofiant, 1816), in English",
+     "why": "Would document Sunday-school literacy",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Thomas Fuller, The Church History of Britain, vol. IV (1845), Familist passage",
+     "why": "Would document the 1580 proclamation in Fuller's text",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Thomas Helwys, A Declaration of Faith (1611) and A Short Declaration (1612), clean edition",
+     "why": "Would give the Helwys side of the passage out of Separatism",
+     "links": [
+      "puritanism--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Thomas of Celano, First Life 32-33",
+     "why": "Would document the 1209/1210 audience with Innocent III",
+     "links": [
+      "latin-papal-church-gregorian--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Thomas of Celano, Second Life of Francis 148-150",
+     "why": "Would document the earliest telling of the meeting",
+     "links": [
+      "the-dominican-order--the-franciscan-movement"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Thomas of Metsoph's own account of the 1441 council and his chronicle",
+     "why": "Would give the 1441 move a primary witness",
+     "links": [
+      "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Thomas Shepard, The Parable of the Ten Virgins (1660)",
+     "why": "Would set Shepard beside Edwards's citations",
+     "links": [
+      "puritanism--the-evangelical-awakening-in-new-england"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Toledo III acts, public-domain English or cleaner Latin",
+     "why": "Would document the Filioque council",
+     "links": [
+      "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Tomes of 1347 and 1351 (Palamite councils), clean edition",
+     "why": "Would quote the later councils' rulings",
+     "links": [
+      "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Tomos of 1970 granting autocephaly to the Orthodox Church in America",
+     "why": "Would document the autocephaly",
+     "links": [
+      "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Toulouse canonization testimonies of 1233 (Lehner 1964)",
+     "why": "Would document Dominic's Languedoc preaching",
+     "links": [
+      "the-dominican-order--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Tracts for the Times (1833-41), Tracts 1 and 90; Keble's Assize Sermon 'National Apostasy' (1833)",
+     "why": "Would document the Oxford Movement's own texts",
+     "links": [
+      "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Travancore Royal Court judgment of 1889 (Seminary case); Abraham Malpan's revised liturgy (1836)",
+     "why": "Would document the final rupture and the Mar Thoma side",
+     "links": [
+      "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Troitski, Refutation of the errors of Stundism (Kiev 1890); Rozhdestvenski (St Petersburg 1889)",
+     "why": "Would give the Orthodox texts themselves",
+     "links": [
+      "russian-church-synodal-century--russian-evangelicals-stundists--2"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Tsar Boril's Synodikon (1211)",
+     "why": "Would document the Tarnovo anathema",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Typikon and Life of Athanasios the Athonite (Meyer 1894)",
+     "why": "Would document the Stoudite rule on Athos and Nikephoros Phokas as patron",
+     "links": [
+      "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+      "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism"
+     ],
+     "eras": [
+      "era 4",
+      "era 5",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Typikon of Gregory Pakourianos for Petritsoni (1083), Dumbarton Oaks 2000",
+     "why": "Would document the Georgian Athonite typikon",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "U.S. Bureau of the Census, Religious Bodies: 1906 (Washington, 1910), and Lipscomb's letters",
+     "why": "Would document the separate listing of the Churches of Christ",
+     "links": [
+      "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+      "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Ukhtanes of Edessa, History of the Separation of the Georgians from the Armenians (Brosset 1870)",
+     "why": "Would document the break as the Brosset note cites it",
+     "links": [
+      "armenian-christianity-before-the-bagratids--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Uppsala decree of 1593 in its own text",
+     "why": "Would document 'the unaltered Augsburg Confession'",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Utraquist source across 1517 (consistory acts or Bohemian Confession of 1575)",
+     "why": "Would show the Utraquist half of the continuation",
+     "links": [
+      "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century"
+     ],
+     "eras": [
+      "era 6",
+      "era 7"
+     ]
+    },
+    {
+     "text": "Utrecht dossier pieces citing Arnauld (Recueil de divers témoignages, 1763)",
+     "why": "Would document the 1725 citations of Arnauld. Note: The Recueil de divers témoignages (1763) is vendored; check whether it meets the clean-text want.",
+     "links": [
+      "port-royal-jansenism--church-of-utrecht"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Uyghur khagan Bogu's adoption of Manichaeism (Karabalgasun inscription in translation)",
+     "why": "Would replace a secondhand report for the Uyghur adoption",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Valdes's profession of faith (1180)",
+     "why": "Would document the orthodox confession from Valdes's side",
+     "links": [
+      "latin-papal-church-gregorian--the-waldensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Vatican I constitutions (1870), public-domain edition",
+     "why": "Would document the 1870 definitions the Old Catholic entry names",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Vendored history of the Russian Baptist and Evangelical Christian unions, 1884-1944",
+     "why": "Would document the unions",
+     "links": [
+      "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Vendored Irish annal (Ulster or Tigernach) naming Irish houses and abbots on both sides of 664",
+     "why": "Would document Irish houses across the Easter settlement",
+     "links": [
+      "insular-irish-monastic-christianity--medieval-irish-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Vendored Methodist text after 1815 (Wesleyan Conference Minutes or Methodist Episcopal Discipline, 1820s)",
+     "why": "Would carry the same bodies into the later period",
+     "links": [
+      "the-methodist-revival--nineteenth-century-methodism"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Vendored primary text placing Sergius in office before and after 622 (Chronicon Paschale, Theophanes)",
+     "why": "Would document Sergius in office on both sides of 622",
+     "links": [
+      "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Vendored text on Montségur (1244) and Bélibaste (1321), e.g. the Fournier register",
+     "why": "Would document the last Cathar strongholds",
+     "links": [
+      "latin-papal-church-gregorian--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Vendored Victorian Church of England text naming the 1662 Prayer Book in force after 1815",
+     "why": "Would document the Prayer Book's use after 1815",
+     "links": [
+      "restoration-georgian-church-of-england--victorian-church-of-england"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Venice 1782 first edition of the Philokalia (title page and prooimion)",
+     "why": "Would document the fourteenth-century fathers named there",
+     "links": [
+      "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "W. E. B. Du Bois (ed.), The Negro Church (1903)",
+     "why": "Would survey the same bodies on the eve of 1906",
+     "links": [
+      "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "W. H. Burgess, John Smith the Se-Baptist, Thomas Helwys (1911)",
+     "why": "Would give a secondary account of the contact",
+     "links": [
+      "the-anabaptist-movements--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "W. T. Whitley, The Works of John Smyth, vol. I (1915)",
+     "why": "Would document Smyth's Puritan years",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Wadding, Annales Minorum, ann. 1368 (nos. 10-13), on Brugliano",
+     "why": "Would give the 1368 grant a primary",
+     "links": [
+      "franciscan-order-era-6--observant-reform-and-popular-preaching"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Waterlander church minutes on the English applicants; Hans de Ries's correspondence",
+     "why": "Would show the Mennonite side of the contact",
+     "links": [
+      "the-anabaptist-movements--the-baptists"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Welsh bishops' professions of obedience to Canterbury (Eadmer; Gerald of Wales)",
+     "why": "Would document the twelfth-century Welsh obedience",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Welsh Calvinistic Methodist foreign mission reports for the Khasi hills (nineteenth century)",
+     "why": "Would document the hill churches' side",
+     "links": [
+      "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Wesley's Christian Library (1749-55), vendored edition",
+     "why": "Would show Methodist preachers reading the Puritans",
+     "links": [
+      "puritanism--the-methodist-revival"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "White Fathers' Buganda diaries or Lourdel's letters (1879-1890)",
+     "why": "Would document the Catholic side of Buganda",
+     "links": [
+      "catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Whitefield's Journal for March 1739 (Cardiff)",
+     "why": "Would give Whitefield's side of the meeting. Note: Whitefield's 1756 'Two First Parts ... with Journals' is vendored; check for the March 1739 journal.",
+     "links": [
+      "the-methodist-revival--the-welsh-revival-tradition"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "William Booth, In Darkest England and the Way Out (1890)",
+     "why": "Would document the Army's founding text",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "William Ellis, History of Madagascar (1838) and Madagascar Revisited (1867)",
+     "why": "Would document the 1835 ban and the persecution",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "William Miller, Evidence from Scripture and History of the Second Coming of Christ (Troy, 1836)",
+     "why": "Would document Miller's own argument",
+     "links": [
+      "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "William of Tyre, Historia rerum in partibus transmarinis gestarum (RHC 1844)",
+     "why": "Would document the first Latin patriarchs, the Armenian catholicos at Jerusalem, and the Maronite union",
+     "links": [
+      "armenian-cilicia--latin-church-of-outremer",
+      "latin-church-of-outremer--maronite-christianity",
+      "latin-papal-church-gregorian--latin-church-of-outremer"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "World Missionary Conference, 1910, Report of Commission VIII and vol. IX (Edinburgh, 1910)",
+     "why": "Would document the Continuation Committee and the Azariah and Chinese delegates",
+     "links": [
+      "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Xi'an stele of 781, reliable translation of its Syriac lines (Legge or Saeki)",
+     "why": "Would quote the catholicos's name and the 635 arrival from the stele",
+     "links": [
+      "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road"
+     ],
+     "eras": [
+      "era 3",
+      "era 4"
+     ]
+    },
+    {
+     "text": "Zartonk-era Armenian text naming Mekhitarist editions or dictionaries as its basis",
+     "why": "Would lift the entry to Documented",
+     "links": [
+      "armenian-christianity-era-8--armenian-christianity-zartonk"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Zinzendorf's writings on Herrnhut's founding; Brotherly Agreement and Statutes of Herrnhut (1727)",
+     "why": "Would show the Spener debt in the Herrnhut documents",
+     "links": [
+      "czech-churches-last-century--the-moravian-church-at-herrnhut",
+      "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Ælfric's Catholic Homilies (Thorpe 1844-46) and Wulfstan's Sermo Lupi (1014)",
+     "why": "Would document the Anglo-Saxon homiletic witnesses",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Æthelwold's Old English account of King Edgar's monasteries; Wulfstan of Winchester's Life of Æthelwold",
+     "why": "Would document Edgar's monastic foundations",
+     "links": [
+      "early-benedictine-italian-monasticism--late-anglo-saxon-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Would test a contested or thin claim",
+   "items": [
+    {
+     "text": "1834 Act of Secession (Acte van Afscheiding) and da Costa's Bezwaren (1823)",
+     "why": "Would test how far the Dutch awakening and the secession were linked",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Any text from 1054-1300 naming Christians of Kollam or Malabar",
+     "why": "Would close the gap in the Kollam link",
+     "links": [
+      "st-thomas-christians-of-india--st-thomas-christians-1300-1517"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Any text saying Basil's grandmother Macrina was taught by Gregory Thaumaturgus's disciples",
+     "why": "Would test a thin claim about Macrina's teachers",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Balavariani and Euthymius of Athos as the source of Barlaam and Josaphat",
+     "why": "Would test the 'may have' link",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Bernard of Clairvaux, Sermons on the Song of Songs and De diligendo Deo",
+     "why": "Would test whether the sayings Rolle and Hilton credit to Bernard are his",
+     "links": [
+      "cistercian-monasticism--the-english-mystics-and-devout"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bibliotheca Fratrum Polonorum or Limborch's writings",
+     "why": "Would test Socinian influence on the Remonstrants",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Bociurkiw (1996), read and cited by page, for the 1946 Lviv synod",
+     "why": "Would test the 1946 Lviv synod claim",
+     "links": [
+      "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Byzantine synodal or patriarchal text of 1054-1240 naming a metropolitan of Kyiv",
+     "why": "Would test the metropolitan line",
+     "links": [
+      "byzantine-church-after-1054--kievan-rus-christianity-1054-1240"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "C. H. Spurgeon, the Down-Grade articles (The Sword and the Trowel, 1887)",
+     "why": "Would test the Down-Grade account",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Carmelite hermits to friars in the 1240s; Albert keeping his seat at Acre",
+     "why": "Would test the Carmelite move west and the friars' change",
+     "links": [
+      "the-dominican-order--the-carmelites"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Chalcedonian-side account of the 540s embassy to the Makurians (John of Biclarum)",
+     "why": "Would test the Nubian embassy claim",
+     "links": [
+      "byzantine-imperial-church-justinianic--nubian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Charles Taze Russell, Zion's Watch Tower (1879-) and Studies in the Scriptures vol. 1 (1886)",
+     "why": "Would test the circle's sources",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Contemporary record of the Wardley society in the 1740s-1760s, or a Quaker record naming the Wardleys",
+     "why": "Would test the Shakers' account of a French Prophet origin",
+     "links": [
+      "camisard-prophetism--shakers",
+      "the-quakers-religious-society-of-friends--shakers"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Court and tribunal reports (Jehovah's Witnesses, Christian Science, objector tribunals), twentieth century",
+     "why": "Would test the legal side of the claim",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Dated witness to the Armenian translation of Timothy Aelurus's Refutation or the Book of Letters (451-554)",
+     "why": "Would test the transmission of Egyptian texts to Armenia",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "David Gaunt, Massacres, Resistance, Protectors (2006), read and cited by page",
+     "why": "Would test the 1915 flight of the Hakkari Assyrians",
+     "links": [
+      "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Dongola and the year 652 of the Baqt (al-Maqrizi on the Baqt; Welsby 2002)",
+     "why": "Would test the 652 date for Dongola",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Earlier witness to John of the Sedre's patriarchate across the conquest",
+     "why": "Would test the patriarchal continuity across the conquest",
+     "links": [
+      "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Early history of the Geneva awakening naming its Moravian contacts (Bost, Mémoires)",
+     "why": "Would test the Moravian contacts of the Geneva awakening",
+     "links": [
+      "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Erasmus's Compendium vitae (Deventer schooling)",
+     "why": "Would test the Erasmus-Brethren link from a primary",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Faras bishop list or other text of the Nubian church, 652-697",
+     "why": "Would test the Nubian church between 652 and 697",
+     "links": [
+      "nubian-christianity--makurian-nubian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Finney, Lectures on Revivals of Religion (1835)",
+     "why": "Would test 'parent of later American revival culture'",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Finney, Lectures on Revivals of Religion (1835), or another text naming Edwards and Whitefield",
+     "why": "Would test 'parent of later American revival culture'",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Frances Young, Biblical Exegesis and the Formation of Christian Culture (1997), read",
+     "why": "Would test the modern view of the Antioch-Alexandria contrast",
+     "links": [
+      "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Frend, The Rise of the Monophysite Movement (1972), read and cited by page",
+     "why": "Would test the same Syriac Orthodox link",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Garsoian or other modern study of the Armenian church's tie to Caesarea",
+     "why": "Would test the Armenian-Caesarea tie",
+     "links": [
+      "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Georgian-side text recording the break",
+     "why": "Would test the Armenian-Georgian break from the Georgian side",
+     "links": [
+      "armenian-christianity-before-the-bagratids--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "German Pietist text naming a Dutch precisian source (Teellinck, Lodenstein, Voetius, Labadie)",
+     "why": "Would test the Dutch clause before it returns as fact",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Gildas fragments as cited by Columbanus, and the Irish catalogue of saints",
+     "why": "Would test the wider Irish reception of Columbanus",
+     "links": [
+      "british-welsh-christianity--insular-irish-monastic-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Gippert et al., The Caucasian Albanian Palimpsests of Mount Sinai (2008), read",
+     "why": "Would test the 1996 identification and the Udi connection",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Gregory VII's letters of 1076 on Latin Christian communities in North Africa",
+     "why": "Would test the date of the end of North African Latin churches",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Guidi, Il Fetha Nagast (1897-1899); al-Safi ibn al-Assal, Nomocanon",
+     "why": "Would test the Fetha Nagast's derivation",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Guigo I, Consuetudines Cartusiae (PL 153)",
+     "why": "Would test whether the Carthusians tied their life to the desert fathers",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Guigo II, Scala claustralium, and the Middle English Ladder of four rungs (MS Douce 322)",
+     "why": "Would test the Cloud's chapter 35 reference",
+     "links": [
+      "carthusian-life--the-english-mystics-and-devout"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Hiram Edson's manuscript account of 23 October 1844",
+     "why": "Would test the Edson account of the 1844 disappointment",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "J. R. Graves and J. M. Pendleton, An Old Landmark Re-set (1854)",
+     "why": "Would test the Landmark succession teaching",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "John Thomas, Elpis Israel (London, 1849)",
+     "why": "Would test the 1848 date and Thomas's break",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Lang, Lives and Legends of the Georgian Saints (1956), or the Martyrdom of Shushanik",
+     "why": "Would test the husband's apostasy and the date",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Lerner 1972, read for the exact shape of his conclusion",
+     "why": "Would test the Lerner conclusion",
+     "links": [
+      "the-beguines--free-spirit-heresy"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Levison, England and the Continent in the Eighth Century (1946)",
+     "why": "Would test Boniface and the Frankish reform synods",
+     "links": [
+      "anglo-saxon-christianity--carolingian-reform-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Luther's letter of 1522 on his Magdeburg year",
+     "why": "Would test the Brethren-of-the-Common-Life tie",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Lutheran court records and opinions punishing Anabaptists (Saxon trials 1530; Melanchthon)",
+     "why": "Would test the Lutheran part of the persecution sentence",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Mateus Cardoso, Kikongo Doutrina Christãa (1624)",
+     "why": "Would test a possible 'influenced' Jesuit link",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Menze, Justinian and the Making of the Syrian Orthodox Church (2008)",
+     "why": "Would test the Syriac Orthodox link beyond Inferential-Thin",
+     "links": [
+      "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity"
+     ],
+     "eras": [
+      "era 1",
+      "era 3"
+     ]
+    },
+    {
+     "text": "Modern account of the Herrnhut refugees' origins (Atwood, Community of the Cross)",
+     "why": "Would test the refugee origins before any higher grade",
+     "links": [
+      "czech-churches-last-century--the-moravian-church-at-herrnhut"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Modern study of how the eight thoughts became Gregory's seven sins",
+     "why": "Would test the eight-thoughts claim and could raise a link to Widely Accepted",
+     "links": [
+      "desert-monasticism--roman-church-gregorian"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern study of penitentials and the rise of private confession (McNeill and Gamer 1938)",
+     "why": "Would test the confession claim",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Modern study of the 416 attack on the Bethlehem monasteries",
+     "why": "Would test the attribution to Pelagius's followers",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern study of the Gothic Homoian church's continuity from Ulfila",
+     "why": "Would test the 'continued as' link against a consensus reading",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern study of the Pseudo-Isidorian Decretals and their use by the Gregorian reformers",
+     "why": "Would test the Decretals claim beyond the 1886 polemic",
+     "links": [
+      "carolingian-reform-christianity--latin-papal-church-gregorian"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Modern study of Valens's church policy",
+     "why": "Would test the Homoian reading of Valens",
+     "links": [
+      "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern work comparing Pentecostal Christianity with Montanism",
+     "why": "Would test the Montanism comparison, if the claim returns",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Modern work dating the Gospel of the Nativity of Mary (Carolingian abridgement)",
+     "why": "Would test the dating of the Nativity of Mary",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Modern work on the Codex Argenteus and Theoderic's court",
+     "why": "Would test the Codex Argenteus attribution",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern work on the origin of the Testaments of the Twelve Patriarchs",
+     "why": "Would test the Jewish or Christian origin claim",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Moody Bible Institute founding records (1886) and early curricula (1886-1900); Emma Dryer's letters",
+     "why": "Would test the Bible-institute founding claim",
+     "links": [
+      "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Munro-Hay (1991), Phillipson (2012) and Welsby (2002), read and cited by page",
+     "why": "Would test the 'continued as' links from Aksum and Nubia",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Nikephoros the Monk, On Sobriety, placed on Athos in the thirteenth century",
+     "why": "Would test the Athonite date of Nikephoros",
+     "links": [
+      "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Otkrovennye rasskazy (The Way of a Pilgrim), Kazan 1881",
+     "why": "Would test its use of the Philokalia",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Papal or curial response to the Scottish Parliament's act of August 1560",
+     "why": "Would test a 'broke with' description for the Kirk and Rome",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Peter of Sicily, Historia Manichaeorum, and Photius, Contra Manichaeos",
+     "why": "Would test the polemic on the Paulicians and the planned mission to Bulgaria",
+     "links": [
+      "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+      "byzantine-imperial-church-macedonian--paulicians",
+      "paulicians--bogomils"
+     ],
+     "eras": [
+      "era 4",
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Printed source on Kyiv academy graduates in the Russian episcopate, 1650-1750",
+     "why": "Would test 'supplied Russia with its educated clergy'",
+     "links": [
+      "the-kyiv-mohyla-orthodox-revival--russian-church-nikon-to-holy-synod"
+     ],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Printers of Hendrik Niclaes's books (Plantin correspondence, Familist imprints)",
+     "why": "Would test the 'Dutch printers' claim",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Proceedings of the Southern Baptist Convention (Augusta, 1845)",
+     "why": "Would test the slavery cause of the split",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Public-domain modern study arguing against a Lollard contribution to the English Reformation",
+     "why": "Would test the disagreement on both sides",
+     "links": [
+      "lollardy--the-english-reformation-and-elizabethan-settleme"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Public-domain study of the Ambrosian rite's origins (Duchesne, Christian Worship)",
+     "why": "Would test which parts of the rite go back to Ambrose",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Rapp, Studies in Medieval Georgian Historiography (2003)",
+     "why": "Would test the Georgian historiography claim",
+     "links": [
+      "georgian-revival-tao-klarjeti--the-georgian-golden-age"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Rapp, The Sasanian World through Georgian Eyes (2014)",
+     "why": "Would test the 609-780 gap",
+     "links": [
+      "georgian-christianity--georgian-revival-tao-klarjeti"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Raymond Kévorkian (2011), read and cited by page",
+     "why": "Would test the fate of the Patriarchate of Constantinople in 1915",
+     "links": [
+      "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Record of the 1890-91 Niger crisis and the Lagos 'African Church' secessions of 1891",
+     "why": "Would test the claimed reaction to the Niger crisis",
+     "links": [
+      "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Repo-cited modern study of the English mission to Scandinavia",
+     "why": "Would test the English mission claim (none found)",
+     "links": [
+      "late-anglo-saxon-christianity--scandinavian-conversion-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Repo-cited modern study of the Latin patriarchate of Constantinople",
+     "why": "Would test the consensus reading against Mouravieff",
+     "links": [
+      "latin-papal-church-gregorian--byzantine-church-after-1054--2"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Repo-cited modern study of the tenth-century English Benedictine reform",
+     "why": "Would test the reform claim (none found)",
+     "links": [
+      "early-benedictine-italian-monasticism--late-anglo-saxon-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Repo-cited secondary on the Georgian lectionary and Jerusalem worship",
+     "why": "Would test the Georgian lectionary link",
+     "links": [
+      "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Repo-cited study on the Rule of the Master's priority over the Rule of Benedict",
+     "why": "Would test the priority claim",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Repo-cited work on the Bogomil-Cathar question (Sennis, ed., Cathars in Question, 2016)",
+     "why": "Would test both sides of the Bogomil-Cathar dispute",
+     "links": [
+      "balkan-bogomil-continuation--cathars-albigensians"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Repo-cited work on the reception of William of Tyre's history",
+     "why": "Would test the Outremer legacy line",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Robert Raikes's Gloucester Journal notice (1783) and Arminian Magazine letter (1785)",
+     "why": "Would test the 1780 start and the four women teachers",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Rosemary Moore, The Light in Their Consciences (2000)",
+     "why": "Would test the modern reading before the note adds it",
+     "links": [
+      "puritanism--the-quakers-religious-society-of-friends"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Rosenwein, Rhinoceros Bound (1982), or a modern study of Cluny's origins",
+     "why": "Would test whether Cluny's origins can be graded Widely Accepted",
+     "links": [
+      "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "cluniac-reform-monasticism--latin-papal-church-gregorian"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Sarah Edwards's narrative as first printed (1742) and the Watts passages",
+     "why": "Would check the Watts passages against the 1742 text",
+     "links": [
+      "english-old-dissent--the-evangelical-awakening-in-new-england"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Sebastian Moll, The Arch-Heretic Marcion (2010), on the 144 arrival or expulsion",
+     "why": "Would test the Marcion arrival-versus-expulsion argument",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Secondary on Victorinus's reception by Tyconius and Augustine",
+     "why": "Would test the reception claim (none yet found)",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Secondary work stating the Nisibis-to-Persian-church continuity directly",
+     "why": "Would test the Nisibis-to-Persia continuity",
+     "links": [
+      "syriac-edessa-nisibis--persian-church-of-the-east-early"
+     ],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Seventh- or eighth-century text on the Aksumite church's clergy after 615",
+     "why": "Would test the post-615 Aksumite claim",
+     "links": [
+      "aksumite-christianity--post-aksumite-ethiopian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Shimun line text before 1600 and Giamil, Genuinae relationes (1902)",
+     "why": "Would test the Roman documents for the Shimun line",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Source for Egeria's date in the early 380s beyond the editors' argument",
+     "why": "Would test the date of Egeria's travels",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Source for Euthymius of Tarnovo's exile (1393) and the Bulgarian church after Tarnovo",
+     "why": "Would test the Tarnovo summary",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Source for St Thomas Christians' privileges from Hindu rulers in 1300-1517",
+     "why": "Would test the privileges sentence",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Source for the restoration of the Serbian Patriarchate of Pec in 1557",
+     "why": "Would test the Ottoman Orthodoxy summary",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Source on later Byzantine-rite unions (Uzhhorod 1646) modeled on Brest",
+     "why": "Would test the modeled-on-Brest claim",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Source on the Inquisition and John of the Cross in his lifetime",
+     "why": "Would test the Inquisition claim",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Studite Hypotyposis (rule) itself",
+     "why": "Would tie the Kyiv rule to Theodore's house",
+     "links": [
+      "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240"
+     ],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Syriac text of the 1301 Cranganore colophon (Vat. Syr. 22)",
+     "why": "Would test Mingana's 'Yahb Alaha V.' numbering against Yahballaha III",
+     "links": [
+      "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Tarisappalli (Kollam) copper plates in an edition and translation, with the c. 849 dating",
+     "why": "Would test the dating of the bishop's grant",
+     "links": [
+      "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Text giving Novel 42's date in its own words",
+     "why": "Would test the year 536 for Novel 42",
+     "links": [
+      "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Text naming a bishop of Aksum or Ethiopia between 615 and 900",
+     "why": "Would test the Aksumite see on the later side",
+     "links": [
+      "aksumite-christianity--post-aksumite-ethiopian-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Text of 451-615 naming a bishop of Aksum consecrated by Alexandria",
+     "why": "Would test the Aksumite consecration claim",
+     "links": [
+      "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Text tracing the London French Prophets' circle from the Camisard exiles (1706-1730s)",
+     "why": "Would test whether this woman belonged to the circle",
+     "links": [
+      "camisard-prophetism--the-methodist-revival"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Theodore Abu Qurrah's works, in translation",
+     "why": "Would test the mixed-audience claim and the Mar Saba link",
+     "links": [
+      "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity"
+     ],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Theophanes, Chronographia AM 6214, on Montanist survival into the eighth century",
+     "why": "Would test the claim that Montanism survived to the eighth century",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Uniform Lesson records (1872)",
+     "why": "Would test the Sunday-school lesson claim",
+     "links": [],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Vendored Ibn Ishaq account of the first Muslim emigration to Aksum",
+     "why": "Would restore the 615 sentence as fact",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Vendored text or study on the Macedonius attribution",
+     "why": "Would test the attribution",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Vendored text placing Georgian monks on Sinai and at the Black Mountain before 1000",
+     "why": "Would test the pre-1000 Georgian presence",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Vendored text tying the Kerala Christians of 849-1054 to the Persian church",
+     "why": "Would test the Kerala link before 651",
+     "links": [
+      "the-church-of-the-east-under-persia--st-thomas-christians-of-india"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "W. H. Summers, The Lollards of the Chiltern Hills (1906); Strype",
+     "why": "Would test shared families between Lollards and early evangelicals",
+     "links": [
+      "lollardy--the-english-reformation-and-elizabethan-settleme"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "W. T. Stead, The Revival in the West (1905); Western Mail reports 1904-05",
+     "why": "Would test the Welsh revival's tie to 1735-1815",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Whitney R. Cross, The Burned-over District (1950)",
+     "why": "Would test the classic reading of the Millerite link",
+     "links": [
+      "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Would test a major-link outcome",
+   "items": [
+    {
+     "text": "1255 Anagni protocol or Alexander IV's condemnation of the Introductorius",
+     "why": "Would test the Joachite condemnation link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "A text of the African councils of 416 and 418, or Zosimus's letter, condemning Pelagius",
+     "why": "Would test the Augustine-Pelagius lines",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Acts of the Council of Aquileia (381), with its sentence on Palladius",
+     "why": "Would test the Ambrose line on Palladius",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Acts of the Lateran synod of 649 condemning Paul of Constantinople",
+     "why": "Would test the African link to Paul",
+     "links": [],
+     "eras": [
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Anna Komnene, Alexiad 15, on the trial and burning of Basil the Bogomil",
+     "why": "Would test the Bogomil trial in the major link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Bernard Gui, Liber sententiarum (sentences against Cathars)",
+     "why": "Would test the Dominican-Cathar link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Cluny's foundation charter (910) and the Carolingian reform",
+     "why": "Would test whether Cluny took the Rule through the Carolingian reform",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Cluny's own customaries showing Cluny living by the Rule of Benedict",
+     "why": "Would test the Cluny-Benedict claim",
+     "links": [],
+     "eras": [
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Confessions IX.6 or Paulinus's Life of Ambrose naming Ambrose as Augustine's baptizer",
+     "why": "Would test the Ambrose-Augustine link",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Cosmas the Priest, Sermon against the Bogomils; Interrogatio Iohannis",
+     "why": "Would test what passed from Paulicians to Bogomils to Cathars",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Dated text of the Armenian custom of consecration at Caesarea, independent of Moses of Khoren",
+     "why": "Would test the Caesarea consecration custom",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Early Cistercian foundation texts on keeping the Rule of Benedict",
+     "why": "Would test the Cistercian Rule claim",
+     "links": [],
+     "eras": [
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Eusebius, Church History VII.30.19 on Aurelian's ruling for the church house at Antioch",
+     "why": "Would test the Antioch church-house claim",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Gratian's Decretum or a later canon collection taking the False Decretals into church law",
+     "why": "Would test the Decretals' reception",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Innocent III's bull Quia divinae sapientiae (1216) to the Maronites",
+     "why": "Would test the Maronite union link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Justinian's edict against Origen (543) or the anathemas of 553",
+     "why": "Would test the Jerome, Methodius and Coptic lines against Origen",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Law against the Manichaeans (Diocletian's rescript; Theodosian Code XVI.5)",
+     "why": "Would test the Ephraim and Augustine lines against Mani",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Lucius III, Ad abolendam (1184), naming the Humiliati and Poor of Lyon",
+     "why": "Would test the Humiliati condemnation link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Paterik of the Kyiv Caves on Anthony and Athos",
+     "why": "Would test the Athonite origin of Anthony",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Peter of Sicily's History of the Paulicians and Anna Comnena's Alexiad on the Paulician settlers at Philippopolis",
+     "why": "Would test the Philippopolis settlement",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Primary for Kievan Rus' adopting Slavonic letters and books",
+     "why": "Would test the Slavonic books claim in the major link",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Primary Georgian witness (Life of John and Euthymius) for the Iviron translators",
+     "why": "Would test the Iviron translators link",
+     "links": [],
+     "eras": [
+      "major links era 5"
+     ]
+    },
+    {
+     "text": "Source for what Paul and Macarius's mission to Africa (347) imposed on the Donatists",
+     "why": "Would test the 347 mission claim",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Source showing Caesarius of Arles's Rule drawing on Lérins practice",
+     "why": "Would test the Lérins line in the major link",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Synodikon of Orthodoxy (843), to test the iconophile feast in the Macedonian-era church",
+     "why": "Would test the Macedonian-era claim",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Syriac or Greek source naming the Philocalia's compilers",
+     "why": "Would test the Philocalia's compilers beyond the NPNF prolegomena",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    },
+    {
+     "text": "Text recording the result of Pope Gregory's ordered council on the Donatists in Numidia",
+     "why": "Would test the Donatist council claim",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Text showing the Merovingian church adopting Hilary's teaching or practice",
+     "why": "Would test the Hilary claim beyond praise",
+     "links": [],
+     "eras": [
+      "major links era 2"
+     ]
+    },
+    {
+     "text": "Theophanes' Chronicle on the Paulicians under Michael I (811-813)",
+     "why": "Would test the persecution claim",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Typikon of Athanasius for the Great Lavra; Athonite foundation acts",
+     "why": "Would test imperial founding of Athonite houses",
+     "links": [],
+     "eras": [
+      "major links era 4"
+     ]
+    },
+    {
+     "text": "Vendored Movses Dasxuranci (Dowsett) for the removal of Nerses Bakur",
+     "why": "Would test the Nerses Bakur removal",
+     "links": [],
+     "eras": [
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Vendored Sweet's edition of Alfred's preface to the Pastoral Care",
+     "why": "Would test the Alfred link in the major link",
+     "links": [],
+     "eras": [
+      "major links era 3"
+     ]
+    },
+    {
+     "text": "Verdict of Marcellinus after the 411 Carthage conference, or the Theodosian Code laws against the Donatists",
+     "why": "Would test the Donatist lines in the major link",
+     "links": [],
+     "eras": [
+      "major links era 1"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Would support a movement's prose",
+   "items": [
+    {
+     "text": "Byron's letters of 1816-17 on his study at San Lazzaro",
+     "why": "Would support the Armenian legacy's stated fact",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Calvin's preface to the French Chrysostom homilies (Calvini Opera 9)",
+     "why": "Would support the expository-preaching sentence in the Reformed-cities prose",
+     "links": [
+      "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva"
+     ],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Central African Christians among the enslaved in the Americas (seventeenth century)",
+     "why": "Would support the Atlantic claim in the legacy",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Church of England's Common Worship calendar",
+     "why": "Would settle the Julian commemoration",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Conybeare, The Key of Truth (1898)",
+     "why": "Would support the Paulician legacy sentence",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Dante, Paradiso 12 (Joachim)",
+     "why": "Would support the Joachim sentence",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Euthymius of Tarnovo's writings or Slavonic translations of hesychast texts",
+     "why": "Would restore the 'traveled north to Russia' sentence",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "George MacLeod's writings or Ferguson 1988 on the Iona Community's claim on Columba",
+     "why": "Would support the movement's prose on Columba",
+     "links": [
+      "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona"
+     ],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Hauge's own writings (Betragtning over Verdens Daarlighed, 1796; Testament, 1821)",
+     "why": "Would support the Pietist-forebears prose if the sentence is restored",
+     "links": [
+      "german-pietism-spener-francke-halle--the-haugean-awakening"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "José Burgos, Manifiesto (1864), or another Filipino secular clergy text",
+     "why": "Would show the era-8 to era-9 continuity in the clergy's words",
+     "links": [
+      "philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay"
+     ],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "José Rizal, El Filibusterismo (1891), dedication to Gómez, Burgos and Zamora",
+     "why": "Would support the Filipino clergy prose",
+     "links": [],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Kallistos's Life of Gregory of Sinai (Pomjalovskij 1894)",
+     "why": "Would restore the hesychast sentences of the Serbian and Bulgarian entry",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Laestadius's sermons (postillas) and Ens Ropandes Röst i Öknen (1852-54)",
+     "why": "Would support the Pietist-writers sentence",
+     "links": [
+      "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    },
+    {
+     "text": "Luther's letter to Spalatin, February 1520 ('we are all Hussites')",
+     "why": "Would support the Hussite-Luther line in the prose",
+     "links": [
+      "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations"
+     ],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Luther's preface to Romans (1522) set against Tyndale's Prologue",
+     "why": "Would support the prose comparing the two prefaces",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Milton, Sonnet 18, 'On the Late Massacre in Piedmont' (1655)",
+     "why": "Would support the Piedmont prose",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Modern work on the Gothic Bible as the earliest substantial Germanic text",
+     "why": "Would support the Gothic Bible sentence",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern work on the reception of Basil's argument from prayer and of Gregory's 'what is not assumed'",
+     "why": "Would support two legacy claims",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Modern work on the Vulgate's reception and Hebrew principle",
+     "why": "Would support the 'back-to-the-sources' claim if it returns",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Moravian mission-scale claims ('more missionaries in twenty years')",
+     "why": "Would support the comparative mission sentence",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Reception of the Spiritual Exercises among Protestants; Teresa and John among Protestant readers",
+     "why": "Would support the legacy line on reception",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Records of French refugee churches (London, Berlin, Amsterdam, Cape Town, Charleston)",
+     "why": "Would support the Huguenot legacy",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Relief Acts 1778-1829, hierarchy of 1850, canonization of 1970",
+     "why": "Would support the return of English Catholicism sentence",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    },
+    {
+     "text": "Repo-cited source on Renaissance humanists' use of Carolingian minuscule and cathedral schools",
+     "why": "Would support two legacy lines",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Repo-cited source on the Protestant orders of St John and St John Ambulance",
+     "why": "Would support the legacy line",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Repo-cited work on the Typikon of Saint Sabas in later Orthodox worship",
+     "why": "Would support the legacy claim",
+     "links": [],
+     "eras": [
+      "era 3"
+     ]
+    },
+    {
+     "text": "Source for Lérins as a monastery today and Martin as patron saint of France",
+     "why": "Would support two legacy lines",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Source for the epithet 'Queen of Translations' for the Armenian Bible",
+     "why": "Would support the Armenian Bible sentence",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Source for the Ethiopian church's own patriarchate in 1959",
+     "why": "Would keep the post-Aksumite closing sentence sourced",
+     "links": [],
+     "eras": [
+      "era 2",
+      "era 4"
+     ]
+    },
+    {
+     "text": "Source for the Florensian order's merger into the Cistercians (1570)",
+     "why": "Would support the Florensian legacy clause",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Source for the Waldensian Church's union with the Italian Methodists (1975-1979)",
+     "why": "Would support the Waldensian legacy clause",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Source on Cardinal Cisneros endowing the Mozarabic chapel at Toledo",
+     "why": "Would support the Mozarabic sentence",
+     "links": [],
+     "eras": [
+      "era 4"
+     ]
+    },
+    {
+     "text": "Source showing the 1960s-1990s base communities drawing on colonial popular piety (Cardenal, Solentiname)",
+     "why": "Would support the base-community prose",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Text of John Paul II's Athens address (4 May 2001) on the sack of 1204",
+     "why": "Would settle the wording of the apology sentence",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "The Way of a Pilgrim, public-domain edition",
+     "why": "Would support the hesychasm legacy line",
+     "links": [],
+     "eras": [
+      "era 6"
+     ]
+    },
+    {
+     "text": "Thomas Aquinas on grace (Summa I-II, qq. 109-114)",
+     "why": "Would keep the Pelagian legacy sentence's citation",
+     "links": [],
+     "eras": [
+      "era 2"
+     ]
+    },
+    {
+     "text": "Vendored source for the Treaty of Paris (1229) or the crown's annexation of Languedoc",
+     "why": "Would support the Cathar legacy sentence",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Wichern's Denkschrift on the Inner Mission (1849); Merle d'Aubigné and Malan texts",
+     "why": "Would support the awakening's Pietist forebears prose",
+     "links": [
+      "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening"
+     ],
+     "eras": [
+      "era 9 part 1"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Other",
+   "items": [
+    {
+     "text": "Bar Hebraeus, Chronography (Budge 1932): the Mongol queens and the Kerait",
+     "why": "Other: Mongol-court detail",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Bonn Agreement of 1931 (text)",
+     "why": "Other: falls after both movements' dates",
+     "links": [
+      "old-catholic-churches-union-of-utrecht--victorian-church-of-england"
+     ],
+     "eras": [
+      "era 9 part 2"
+     ]
+    },
+    {
+     "text": "Dostoevsky, The Brothers Karamazov (1880; Garnett 1912)",
+     "why": "Other: monastic world in the novel",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Golden Legend or other medieval text on reception of apocryphal Acts, Dormition narratives and Revelation of Paul",
+     "why": "Other: reception of apocrypha, not a stated claim",
+     "links": [],
+     "eras": [
+      "era 1"
+     ]
+    },
+    {
+     "text": "Melnikov-Pechersky, V lesakh and Na gorakh",
+     "why": "Other: Old Believers in the novel",
+     "links": [],
+     "eras": [
+      "era 8"
+     ]
+    },
+    {
+     "text": "Source for the dispute over the Kyiv Pechersk Lavra",
+     "why": "Other: recent dispute, not a stated claim",
+     "links": [],
+     "eras": [
+      "era 5"
+     ]
+    },
+    {
+     "text": "Waldensian Church in Argentina and Uruguay; 1979 Waldensian-Methodist union",
+     "why": "Other: out of window, not a stated claim",
+     "links": [],
+     "eras": [
+      "era 7"
+     ]
+    }
+   ]
+  }
+ ],
+ "met": [
+  {
+   "text": "Annales Bertiniani entries naming Anskar and Hamburg",
+   "met_note": "prudentius-troyes_annales-bertiniani_waitz1883.txt (Waitz 1883) is vendored; locate and quote only.",
+   "links": [
+    "carolingian-reform-christianity--scandinavian-conversion-christianity"
+   ],
+   "eras": [
+    "era 4"
+   ]
+  },
+  {
+   "text": "Michael the Syrian, Chronicle book X, on the Peter of Callinicus-Damian schism and the 616 reunion",
+   "met_note": "michael-the-syrian_chronique-tome2-livres-viii-xi (Chabot 1901, books VIII-XI) is vendored; book X is covered.",
+   "links": [
+    "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity"
+   ],
+   "eras": [
+    "era 3"
+   ]
+  },
+  {
+   "text": "Wesley's Queries humbly proposed to Count Zinzendorf (1755)",
+   "met_note": "wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt is vendored.",
+   "links": [
+    "the-moravian-church-at-herrnhut--the-methodist-revival"
+   ],
+   "eras": [
+    "era 8"
+   ]
+  },
+  {
+   "text": "Paris synod letter c. 360 (Hilary, Collectanea antiariana A I)",
+   "met_note": "hilary_collectanea-antiariana-parisina (Feder 1916, CSEL 65) is vendored; locate and quote only.",
+   "links": [],
+   "eras": [
+    "era 2"
+   ]
+  },
+  {
+   "text": "Alcuin's letters to Higbald and to King Æthelred on the raid",
+   "met_note": "alcuin_opera-omnia-letters_migne-pl100-101 is vendored; locate and quote only.",
+   "links": [
+    "anglo-saxon-christianity--late-anglo-saxon-christianity"
+   ],
+   "eras": [
+    "era 4"
+   ]
+  },
+  {
+   "text": "Life of a Scetis abbot, or Zachariah Rhetor, on Egyptian monks' refusal of Chalcedon (451-642)",
+   "met_note": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt is vendored; the reading remains.",
+   "links": [
+    "desert-monasticism--cyrilline-miaphysite-egyptian-christianity"
+   ],
+   "eras": [
+    "era 3"
+   ]
+  },
+  {
+   "text": "Armenian councils of Sis (1307) and Adana (1316), Mansi 25",
+   "met_note": "Mansi 25 (vendored) holds the Sis and Adana councils; this is a citation, not an acquisition.",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom"
+   ],
+   "eras": [
+    "era 6"
+   ]
+  },
+  {
+   "text": "Allen, Life, Experience and Gospel Labors (1880)",
+   "met_note": "allen-richard_life-experience-and-gospel-labors_1880.txt is vendored; this is a README-only item for the African Methodist break.",
+   "links": [],
+   "eras": [
+    "era 9 part 1"
+   ]
+  },
+  {
+   "text": "Declaration of Utrecht 1889 (Mirbt no. 588)",
+   "met_note": "Vendored in mirbt_quellen (Mirbt no. 588); the Döllinger letter of 1871 and the 1871 excommunication decree remain wanted (kept in the main list).",
+   "links": [],
+   "eras": [
+    "era 9 part 2"
+   ]
+  },
+  {
+   "text": "Cite canon 2 of the 585 synod (lines 26710-26718 of its vendored file)",
+   "met_note": "Vendored; a citation to add to the re-judgement, not a text to acquire.",
+   "links": [],
+   "eras": [
+    "major links"
+   ]
+  }
+ ],
+ "counts": {
+  "raw": 2932,
+  "merged": 625,
+  "met": 10
+ }
+}

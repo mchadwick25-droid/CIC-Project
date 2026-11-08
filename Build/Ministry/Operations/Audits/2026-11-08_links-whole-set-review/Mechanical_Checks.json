@@ -1,0 +1,2141 @@
+{
+ "summary": {
+  "multi_link_pair": 42,
+  "shared_quote": 64,
+  "continued_as_lane_change": 5,
+  "continued_as_era_gap": 6,
+  "lineage_cycles": 0,
+  "continuesAs_without_link": 7,
+  "continued_as_link_not_in_continuesAs": 22,
+  "thin_with_verified_primary": 22,
+  "outcome_no_primary": 7,
+  "note_readability_fail": 82,
+  "note_internal_words": 37,
+  "note_long_sentence": 13,
+  "outcome_long_sentence": 1
+ },
+ "multi_link_pair": [
+  [
+   [
+    "alexandria-catechetical--hieronymian-ascetic-literary",
+    "influenced",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "hieronymian-ascetic-literary--alexandria-catechetical",
+    "argued against",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+    "argued against",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "latin-papal-church-gregorian--byzantine-church-after-1054",
+    "argued against",
+    "Documented",
+    "era-5"
+   ],
+   [
+    "byzantine-church-after-1054--latin-papal-church-gregorian",
+    "broke with",
+    "Documented",
+    "era-5"
+   ],
+   [
+    "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+    "in contact with",
+    "Widely Accepted",
+    "era-5"
+   ]
+  ],
+  [
+   [
+    "syriac-edessa-nisibis--bardaisanite-current",
+    "argued against",
+    "Documented",
+    "era-1"
+   ],
+   [
+    "bardaisanite-current--syriac-edessa-nisibis",
+    "influenced",
+    "Documented",
+    "era-1"
+   ]
+  ],
+  [
+   [
+    "imperial-juridical-christianity--gallic-nicene-episcopate",
+    "argued against",
+    "Widely Accepted",
+    "era-2"
+   ],
+   [
+    "gallic-nicene-episcopate--imperial-juridical-christianity",
+    "argued against",
+    "Widely Accepted",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "alexandria-catechetical--anatolian-church-third-century",
+    "influenced",
+    "Documented",
+    "era-1"
+   ],
+   [
+    "anatolian-church-third-century--alexandria-catechetical",
+    "argued against",
+    "Documented",
+    "era-1"
+   ]
+  ],
+  [
+   [
+    "aquileian-christianity--hieronymian-ascetic-literary",
+    "influenced",
+    "Widely Accepted",
+    "era-2"
+   ],
+   [
+    "aquileian-christianity--hieronymian-ascetic-literary--2",
+    "broke with",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "roman-church-gregorian--byzantine-imperial-church-justinianic",
+    "argued against",
+    "Documented",
+    "era-3"
+   ],
+   [
+    "byzantine-imperial-church-justinianic--roman-church-gregorian",
+    "in contact with",
+    "Documented",
+    "era-3"
+   ]
+  ],
+  [
+   [
+    "imperial-juridical-christianity--homoian-arian-christianity",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "imperial-juridical-christianity--homoian-arian-christianity--2",
+    "influenced",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "latin-pastoral-congregational-christianity--pelagianism",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "pelagianism--latin-pastoral-congregational-christianity",
+    "argued against",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "insular-irish-monastic-christianity--anglo-saxon-christianity",
+    "gave rise to",
+    "Documented",
+    "era-4"
+   ],
+   [
+    "anglo-saxon-christianity--insular-irish-monastic-christianity",
+    "argued against",
+    "Documented",
+    "era-4"
+   ]
+  ],
+  [
+   [
+    "latin-pastoral-congregational-christianity--donatism",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "donatism--latin-pastoral-congregational-christianity",
+    "argued against",
+    "Widely Accepted",
+    "era-2"
+   ],
+   [
+    "latin-pastoral-congregational-christianity--donatism--2",
+    "influenced",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "donatism--latin-pastoral-congregational-christianity--2",
+    "broke with",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "donatism--latin-pastoral-congregational-christianity--3",
+    "influenced",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "imperial-juridical-christianity--donatism",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "donatism--imperial-juridical-christianity",
+    "argued against",
+    "Widely Accepted",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+    "in contact with",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+    "gave rise to",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement",
+    "argued against",
+    "Documented",
+    "era-6"
+   ],
+   [
+    "the-hussite-and-bohemian-brethren-movement--latin-papal-church-avignon-to-lateran-v",
+    "argued against",
+    "Documented",
+    "era-6"
+   ],
+   [
+    "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2",
+    "in contact with",
+    "Documented",
+    "era-6"
+   ]
+  ],
+  [
+   [
+    "imperial-juridical-christianity--novatianism",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "imperial-juridical-christianity--novatianism--2",
+    "in contact with",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+    "in contact with",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+    "argued against",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+    "in contact with",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+    "argued against",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+    "argued against",
+    "Documented",
+    "era-2"
+   ],
+   [
+    "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+    "argued against",
+    "Documented",
+    "era-2"
+   ]
+  ],
+  [
+   [
+    "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+    "influenced",
+    "Documented",
+    "era-3"
+   ],
+   [
+    "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+    "in contact with",
+    "Documented",
+    "era-3"
+   ]
+  ],
+  [
+   [
+    "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity",
+    "broke with",
+    "Documented",
+    "era-3"
+   ],
+   [
+    "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+    "argued against",
+    "Documented",
+    "era-3"
+   ]
+  ],
+  [
+   [
+    "anglo-saxon-christianity--british-welsh-christianity",
+    "in contact with",
+    "Documented",
+    "era-4"
+   ],
+   [
+    "anglo-saxon-christianity--british-welsh-christianity--2",
+    "argued against",
+    "Documented",
+    "era-4"
+   ],
+   [
+    "british-welsh-christianity--anglo-saxon-christianity",
+    "influenced",
+    "Documented",
+    "era-4"
+   ]
+  ],
+  [
+   [
+    "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+    "argued against",
+    "Documented",
+    "era-4"
+   ],
+   [
+    "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+    "argued against",
+    "Widely Accepted",
+    "era-4"
+   ]
+  ],
+  [
+   [
+    "latin-papal-church-gregorian--the-humiliati",
+    "argued against",
+    "Inferential-Thin",
+    "era-5"
+   ],
+   [
+    "latin-papal-church-gregorian--the-humiliati--2",
+    "in contact with",
+    "Dominant Modern Reconstruction",
+    "era-5"
+   ]
+  ],
+  [
+   [
+    "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
+    "gave rise to",
+    "Documented",
+    "era-6"
+   ],
+   [
+    "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
+    "argued against",
+    "Documented",
+    "era-6"
+   ]
+  ],
+  [
+   [
+    "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+    "broke with",
+    "Documented",
+    "era-6"
+   ],
+   [
+    "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists--2",
+    "argued against",
+    "Documented",
+    "era-6"
+   ]
+  ],
+  [
+   [
+    "latin-papal-church-avignon-to-lateran-v--franciscan-order-era-6",
+    "argued against",
+    "Documented",
+    "era-6"
+   ],
+   [
+    "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v",
+    "argued against",
+    "Documented",
+    "era-6"
+   ]
+  ],
+  [
+   [
+    "lutheran-wittenberg-and-its-congregations--the-tridentine-church",
+    "argued against",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "lutheran-wittenberg-and-its-congregations--schwenckfelders",
+    "broke with",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "lutheran-wittenberg-and-its-congregations--schwenckfelders--2",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "the-english-reformation-and-elizabethan-settleme--puritanism",
+    "gave rise to",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "puritanism--the-english-reformation-and-elizabethan-settleme",
+    "argued against",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+    "influenced",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "tridentine-parish-renewal-borromean-milan--the-tridentine-church",
+    "influenced",
+    "Widely Accepted",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "orthodoxy-under-the-ottomans-parish-millet-and-n--the-reformed-cities-zurich-and-geneva",
+    "argued against",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-reformed-cities-zurich-and-geneva--orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "influenced",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "the-kyiv-mohyla-orthodox-revival--russian-church-nikon-to-holy-synod",
+    "influenced",
+    "Widely Accepted",
+    "era-8"
+   ],
+   [
+    "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+    "in contact with",
+    "Dominant Modern Reconstruction",
+    "era-8"
+   ]
+  ],
+  [
+   [
+    "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+    "broke with",
+    "Documented",
+    "era-7"
+   ],
+   [
+    "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+    "argued against",
+    "Documented",
+    "era-7"
+   ]
+  ],
+  [
+   [
+    "restoration-georgian-church-of-england--the-methodist-revival",
+    "gave rise to",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "restoration-georgian-church-of-england--the-methodist-revival--2",
+    "broke with",
+    "Widely Accepted",
+    "era-8"
+   ]
+  ],
+  [
+   [
+    "english-old-dissent--the-evangelical-awakening-in-new-england",
+    "influenced",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "the-evangelical-awakening-in-new-england--english-old-dissent",
+    "influenced",
+    "Documented",
+    "era-8"
+   ]
+  ],
+  [
+   [
+    "port-royal-jansenism--the-society-of-jesus",
+    "argued against",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "the-society-of-jesus--port-royal-jansenism",
+    "argued against",
+    "Documented",
+    "era-8"
+   ]
+  ],
+  [
+   [
+    "russian-church-nikon-to-holy-synod--the-old-believers",
+    "broke with",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "russian-church-nikon-to-holy-synod--the-old-believers--2",
+    "argued against",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "the-old-believers--russian-church-nikon-to-holy-synod",
+    "argued against",
+    "Documented",
+    "era-8"
+   ],
+   [
+    "russian-church-nikon-to-holy-synod--the-old-believers--3",
+    "in contact with",
+    "Dominant Modern Reconstruction",
+    "era-8"
+   ]
+  ],
+  [
+   [
+    "russian-church-synodal-century--russian-evangelicals-stundists",
+    "broke with",
+    "Dominant Modern Reconstruction",
+    "era-9-part-1"
+   ],
+   [
+    "russian-church-synodal-century--russian-evangelicals-stundists--2",
+    "argued against",
+    "Dominant Modern Reconstruction",
+    "era-9-part-1"
+   ]
+  ],
+  [
+   [
+    "armenian-apostolic-church-era-8--armenian-christianity-era-8",
+    "broke with",
+    "Widely Accepted",
+    "armenian-apostolic-era-8"
+   ],
+   [
+    "armenian-apostolic-church-era-8--armenian-christianity-era-8--2",
+    "argued against",
+    "Documented",
+    "armenian-apostolic-era-8"
+   ],
+   [
+    "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+    "argued against",
+    "Dominant Modern Reconstruction",
+    "armenian-apostolic-era-8"
+   ]
+  ],
+  [
+   [
+    "armenian-apostolic-church-era-8--catholic-church-ancien-regime",
+    "argued against",
+    "Documented",
+    "armenian-apostolic-era-8"
+   ],
+   [
+    "catholic-church-ancien-regime--armenian-apostolic-church-era-8",
+    "argued against",
+    "Documented",
+    "armenian-apostolic-era-8"
+   ]
+  ]
+ ],
+ "shared_quote": [
+  {
+   "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+   "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il pass",
+   "links": [
+    "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+    "syriac-edessa-nisibis--persian-church-of-the-east-early"
+   ]
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+   "quote": "et legat unus Collationes, vel Vitas Patrum, aut certe aliquid quod aedificet au",
+   "links": [
+    "desert-monasticism--early-benedictine-italian-monasticism",
+    "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism"
+   ]
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+   "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives",
+   "links": [
+    "desert-monasticism--early-benedictine-italian-monasticism",
+    "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism"
+   ]
+  },
+  {
+   "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+   "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  ",
+   "links": [
+    "the-methodist-revival--the-black-church-in-america",
+    "nineteenth-century-methodism--the-black-church-in-america",
+    "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "quote": "Scythian by race, ordained deacon by bishop John the Great, at Constantinople, a",
+   "links": [
+    "desert-monasticism--gallic-monastic-ascetic-christianity",
+    "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism"
+   ]
+  },
+  {
+   "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+   "quote": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris f",
+   "links": [
+    "imperial-juridical-christianity--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+   "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, a",
+   "links": [
+    "imperial-juridical-christianity--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--pneumatomachian-current",
+    "imperial-juridical-christianity--homoian-arian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "quote": "the Eunomians or Anomæans, the Arians or Eudoxians, the Semi-Arians or Pneumatom",
+   "links": [
+    "imperial-juridical-christianity--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--apollinarian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "quote": "Bishops out of different provinces assembled by the grace of God in Constantinop",
+   "links": [
+    "imperial-juridical-christianity--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "quote": "For as yet there were no monasteries in Palestine, nor had anyone known a monk i",
+   "links": [
+    "desert-monasticism--palestinian-ascetic-monasticism-early",
+    "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "quote": "which was established by Alexander, who at that time presided over that church.",
+   "links": [
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "palestinian-church-pre-constantinian--imperial-juridical-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+   "quote": "cum epifcopis , Aqui- lejenfium civitatis Valeriano, Ambrofio ,",
+   "links": [
+    "ambrosian-milan-standalone--aquileian-christianity",
+    "aquileian-christianity--homoian-arian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/anf03_tertullian.xml",
+   "quote": "not only those who have lived before us, but those also who were contemporary wi",
+   "links": [
+    "greek-apologists-second-century--latin-apologists",
+    "greek-apologists-second-century--valentinian-and-other-gnostic-christianities"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books <i>Against Por",
+   "links": [
+    "anatolian-church-third-century--alexandria-catechetical",
+    "anatolian-church-third-century--hieronymian-ascetic-literary"
+   ]
+  },
+  {
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "quote": "The same king Oswald, asking- a bishop of the Scottish nation, had Aidan sent hi",
+   "links": [
+    "insular-irish-monastic-christianity--anglo-saxon-christianity",
+    "anglo-saxon-christianity--late-anglo-saxon-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+   "quote": "besonders Konrad Grebel und (Felix) Manz sollen von ihrem « disputieren und fürn",
+   "links": [
+    "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+    "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "quote": "We do you to wit that on the thirteenth day of the month of October you were dep",
+   "links": [
+    "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+    "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+   "quote": "he expelled the Oriental monks, and all the monks their allies who were like the",
+   "links": [
+    "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+    "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "quote": "Some are called Marcians, and some Valentinians, and some Basilidians, and some ",
+   "links": [
+    "greek-apologists-second-century--marcion-marcionism",
+    "greek-apologists-second-century--valentinian-and-other-gnostic-christianities"
+   ]
+  },
+  {
+   "file": "cic/texts/anf03_tertullian.xml",
+   "quote": "until on account of their ever restless curiosity, with which they even infected",
+   "links": [
+    "post-apostolic-house-church--marcion-marcionism",
+    "post-apostolic-house-church--valentinian-and-other-gnostic-christianities"
+   ]
+  },
+  {
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "quote": "He it was who, coming to Rome in the time of Anicetus caused many to turn away f",
+   "links": [
+    "post-apostolic-house-church--marcion-marcionism",
+    "post-apostolic-house-church--valentinian-and-other-gnostic-christianities"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "quote": "To this creed Ulfilas bishop of the Goths gave his assent, although he had previ",
+   "links": [
+    "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity--2"
+   ]
+  },
+  {
+   "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+   "quote": "teneo fidem que Arimini! a trecentis et triginta episcopis, non solum exposita, ",
+   "links": [
+    "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity--2"
+   ]
+  },
+  {
+   "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+   "quote": "videlicet aut 427, aut 428.",
+   "links": [
+    "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+    "imperial-juridical-christianity--homoian-arian-christianity--2"
+   ]
+  },
+  {
+   "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+   "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίό",
+   "links": [
+    "desert-monasticism--the-kollyvades-and-greek-renewal",
+    "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia"
+   ]
+  },
+  {
+   "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+   "quote": "Ἐξ ὑμῶν Νικόδημος ὁ ἀοίδιμος ὁ εἰς τὴν ἔκδοσιν τοσούτων ἱερῶν καὶ θεοζι- λῶν βιό",
+   "links": [
+    "desert-monasticism--the-kollyvades-and-greek-renewal",
+    "the-kollyvades-and-greek-renewal--russian-church-synodal-century"
+   ]
+  },
+  {
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "quote": "And besides these there are also in this northern region five believing peoples,",
+   "links": [
+    "armenian-christianity-after-avarayr--armenian-christianity-before-the-bagratids",
+    "armenian-christianity-after-avarayr--georgian-christianity",
+    "armenian-christianity-after-avarayr--church-of-caucasian-albania"
+   ]
+  },
+  {
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "quote": "Tenaient le parti de Chalcldoine le catholicos de G^orgie et d'Albanie avec beau",
+   "links": [
+    "georgian-christianity--georgian-revival-tao-klarjeti",
+    "armenian-christianity-before-the-bagratids--georgian-christianity",
+    "byzantine-imperial-church-justinianic--georgian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+   "quote": "Et ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordin",
+   "links": [
+    "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+    "carolingian-reform-christianity--cluniac-reform-monasticism"
+   ]
+  },
+  {
+   "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+   "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+   "links": [
+    "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+    "scandinavian-reformation-kingdoms--the-tridentine-church"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mans",
+   "links": [
+    "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+    "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast"
+   ]
+  },
+  {
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "quote": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: Accor",
+   "links": [
+    "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+    "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism"
+   ]
+  },
+  {
+   "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+   "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habue",
+   "links": [
+    "bogomils--cathars-albigensians",
+    "bogomils--balkan-bogomil-continuation",
+    "balkan-bogomil-continuation--cathars-albigensians"
+   ]
+  },
+  {
+   "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+   "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , Indi",
+   "links": [
+    "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+    "st-thomas-christians-of-india--st-thomas-christians-1300-1517"
+   ]
+  },
+  {
+   "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+   "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto ",
+   "links": [
+    "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+    "st-thomas-christians-of-india--st-thomas-christians-1300-1517"
+   ]
+  },
+  {
+   "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+   "quote": "The fathers and patriarchs used to write letters to the kings of Abyssinia and N",
+   "links": [
+    "coptic-christianity-under-early-islam--coptic-christianity-fatimid-to-mamluk",
+    "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+   "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from ",
+   "links": [
+    "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+    "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity"
+   ]
+  },
+  {
+   "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+   "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the pr",
+   "links": [
+    "latin-papal-church-gregorian--the-carmelites",
+    "the-dominican-order--the-carmelites"
+   ]
+  },
+  {
+   "file": "cic/texts/eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt",
+   "quote": "Ego irater Ekardus ordinis predicatorum prefatus respondeo:",
+   "links": [
+    "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+    "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god"
+   ]
+  },
+  {
+   "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+   "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--the-beguines",
+    "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+    "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin"
+   ]
+  },
+  {
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+   "quote": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui in",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--the-beguines",
+    "the-beguines--free-spirit-heresy"
+   ]
+  },
+  {
+   "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+   "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, ",
+   "links": [
+    "latin-papal-church-gregorian--the-waldensians",
+    "latin-papal-church-gregorian--cathars-albigensians"
+   ]
+  },
+  {
+   "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+   "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domoru",
+   "links": [
+    "the-franciscan-movement--observant-reform-and-popular-preaching",
+    "franciscan-order-era-6--observant-reform-and-popular-preaching"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt",
+   "quote": "Иже во Святыхъ Отца нашего Григорйя Паламы Арх!- епископа Оессалонитскаго,",
+   "links": [
+    "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+    "hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+   "quote": "на книги С». Григорія Синаита, Фило- оея Синайскаго, Исихія Пресвитера и Нила Со",
+   "links": [
+    "hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal",
+    "muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+   "quote": "ОПТННОЙ ПУСТЫНИ.",
+   "links": [
+    "hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal",
+    "muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal"
+   ]
+  },
+  {
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+   "quote": "orator patriarche Maronitarum montis Libani prefentat & legit mandatum in",
+   "links": [
+    "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+    "maronite-christianity--maronite-christianity-era-6"
+   ]
+  },
+  {
+   "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+   "quote": "On July 7 two clergy, John Field and Thomas Wilcox, were sent to Newgate on the ",
+   "links": [
+    "the-english-reformation-and-elizabethan-settleme--puritanism",
+    "the-english-reformation-and-elizabethan-settleme--puritanism--2"
+   ]
+  },
+  {
+   "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+   "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand mini",
+   "links": [
+    "puritanism--restoration-georgian-church-of-england",
+    "puritanism--english-old-dissent",
+    "english-old-dissent--restoration-georgian-church-of-england"
+   ]
+  },
+  {
+   "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+   "quote": "Upon this our forefathers assembled at Muttan- cherry, and took an oath that nei",
+   "links": [
+    "st-thomas-christians-under-portuguese-pressure-d--the-society-of-jesus",
+    "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor"
+   ]
+  },
+  {
+   "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+   "quote": "Above forty years ago, I began preaching in the fields ; and that for two reason",
+   "links": [
+    "restoration-georgian-church-of-england--the-methodist-revival",
+    "restoration-georgian-church-of-england--the-methodist-revival--2"
+   ]
+  },
+  {
+   "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+   "quote": "quinque propositiones ex Cornelii lansenii libro, cui nomen Augustinus, excerpta",
+   "links": [
+    "latin-pastoral-congregational-christianity--port-royal-jansenism",
+    "catholic-church-ancien-regime--port-royal-jansenism"
+   ]
+  },
+  {
+   "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+   "quote": "to publish in Paris such a scandalous book, with the name of your Father Meynier",
+   "links": [
+    "port-royal-jansenism--the-society-of-jesus",
+    "the-society-of-jesus--port-royal-jansenism"
+   ]
+  },
+  {
+   "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+   "quote": "Blaise Pascal was at this time in the thirty-fourth year of his age, and intimat",
+   "links": [
+    "port-royal-jansenism--the-society-of-jesus",
+    "port-royal-jansenism--quietist-controversy-molinos-guyon"
+   ]
+  },
+  {
+   "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+   "quote": "James Wardley, a taylor by trade, and Jane his wife, who wrought at the same occ",
+   "links": [
+    "camisard-prophetism--shakers",
+    "the-quakers-religious-society-of-friends--shakers"
+   ]
+  },
+  {
+   "file": "cic/texts/youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+   "quote": "through Anne Lee, that extraordinary woman, concerning whom, so many strange thi",
+   "links": [
+    "camisard-prophetism--shakers",
+    "the-quakers-religious-society-of-friends--shakers"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+   "quote": "Первона¬ чально поступилъ Калужской Епархіи въ Козельскую Вве¬ денскую Оптнну пу",
+   "links": [
+    "russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal",
+    "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+   "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Нас",
+   "links": [
+    "russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal",
+    "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+    "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+    "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+   ]
+  },
+  {
+   "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+   "quote": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic pat",
+   "links": [
+    "armenian-christianity-era-8--catholic-church-ancien-regime",
+    "armenian-apostolic-church-era-8--armenian-christianity-era-8"
+   ]
+  },
+  {
+   "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+   "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarc",
+   "links": [
+    "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+    "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite"
+   ]
+  },
+  {
+   "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+   "quote": "начали приходить къ нему изъ разныхъ городовъ и селеній разнаго званія люди, изъ",
+   "links": [
+    "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+    "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+   ]
+  },
+  {
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "quote": "To the above list are further to be added the following dioceses, which have bee",
+   "links": [
+    "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+    "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave"
+   ]
+  },
+  {
+   "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+   "quote": "A conference of divines friendly to the reunion of Christendom was called by Dr.",
+   "links": [
+    "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+    "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+    "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies"
+   ]
+  },
+  {
+   "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+   "quote": "2. Orthodox Russians and Greeks : Jon. Janysohew, Rector of the Ecclesiastical A",
+   "links": [
+    "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+    "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies"
+   ]
+  }
+ ],
+ "continued_as_lane_change": [
+  [
+   "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "5 Latin West & Catholicism",
+   "6 Protestant & Evangelical"
+  ],
+  [
+   "post-apostolic-house-church--roman-church-third-century",
+   "Origin (pre-lane)",
+   "5 Latin West & Catholicism"
+  ],
+  [
+   "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "5 Latin West & Catholicism",
+   "6 Protestant & Evangelical"
+  ],
+  [
+   "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "5 Latin West & Catholicism",
+   "6 Protestant & Evangelical"
+  ],
+  [
+   "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "1 Syriac East & Asia",
+   "1<->6 bridge (Syriac East / Protestant)"
+  ]
+ ],
+ "continued_as_era_gap": [
+  [
+   "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   4,
+   7
+  ],
+  [
+   "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   4,
+   6
+  ],
+  [
+   "makurian-nubian-christianity--terminal-christian-nubia",
+   4,
+   6
+  ],
+  [
+   "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   7,
+   9
+  ],
+  [
+   "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   7,
+   9
+  ],
+  [
+   "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   5,
+   9
+  ]
+ ],
+ "lineage_cycles": [],
+ "continuesAs_without_link": [
+  [
+   "armenian-christianity-after-avarayr",
+   "bagratid-armenian-christianity",
+   []
+  ],
+  [
+   "carolingian-reform-christianity",
+   "latin-papal-church-gregorian",
+   [
+    [
+     "carolingian-reform-christianity--latin-papal-church-gregorian",
+     "influenced"
+    ]
+   ]
+  ],
+  [
+   "cyrillo-methodian-slavic-christianity",
+   "kievan-rus-christianity",
+   [
+    [
+     "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+     "influenced"
+    ]
+   ]
+  ],
+  [
+   "athonite-and-comnenian-byzantine-monasticism",
+   "hesychasm-and-the-palamite-synthesis",
+   [
+    [
+     "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+     "influenced"
+    ]
+   ]
+  ],
+  [
+   "czech-churches-last-century",
+   "the-moravian-church-at-herrnhut",
+   [
+    [
+     "czech-churches-last-century--the-moravian-church-at-herrnhut",
+     "gave rise to"
+    ]
+   ]
+  ],
+  [
+   "the-hesychast-revival-paisius-and-the-philokalia",
+   "the-optina-elders-and-russian-ascetic-renewal",
+   [
+    [
+     "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+     "gave rise to"
+    ]
+   ]
+  ],
+  [
+   "the-student-volunteer-movement-and-edinburgh-191",
+   "the-ecumenical-movement-and-the-wcc",
+   [
+    [
+     "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+     "gave rise to"
+    ]
+   ]
+  ]
+ ],
+ "continued_as_link_not_in_continuesAs": [
+  [
+   "post-apostolic-house-church--roman-church-third-century",
+   null
+  ],
+  [
+   "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+   null
+  ],
+  [
+   "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   null
+  ],
+  [
+   "armenian-christianity-after-avarayr--armenian-christianity-before-the-bagratids",
+   "bagratid-armenian-christianity"
+  ],
+  [
+   "armenian-christianity-before-the-bagratids--bagratid-armenian-christianity",
+   null
+  ],
+  [
+   "british-welsh-christianity--medieval-welsh-christianity",
+   null
+  ],
+  [
+   "insular-irish-monastic-christianity--medieval-irish-christianity",
+   null
+  ],
+  [
+   "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   null
+  ],
+  [
+   "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   null
+  ],
+  [
+   "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   null
+  ],
+  [
+   "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   null
+  ],
+  [
+   "makurian-nubian-christianity--terminal-christian-nubia",
+   null
+  ],
+  [
+   "the-franciscan-movement--franciscan-order-era-6",
+   null
+  ],
+  [
+   "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   null
+  ],
+  [
+   "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   null
+  ],
+  [
+   "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   null
+  ],
+  [
+   "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   null
+  ],
+  [
+   "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+   null
+  ],
+  [
+   "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   null
+  ],
+  [
+   "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+   null
+  ],
+  [
+   "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+   null
+  ],
+  [
+   "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   null
+  ]
+ ],
+ "thin_with_verified_primary": [
+  "desert-monasticism--insular-irish-monastic-christianity",
+  "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+  "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+  "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+  "latin-apologists--imperial-juridical-christianity",
+  "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+  "desert-monasticism--roman-church-gregorian",
+  "pelagianism--hieronymian-ascetic-literary",
+  "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+  "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+  "carolingian-reform-christianity--cluniac-reform-monasticism",
+  "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+  "carthusian-life--the-english-mystics-and-devout",
+  "the-dominican-order--the-carmelites",
+  "latin-papal-church-gregorian--the-humiliati",
+  "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+  "anti-trinitarian-currents-servetus-polish-brethr--early-american-unitarians-universalists",
+  "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+  "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+  "the-baptists--the-missionary-movement-s-native-churches-seramp",
+  "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+  "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+ ],
+ "outcome_no_primary": [
+  "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+  "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+  "latin-papal-church-gregorian--the-humiliati--2",
+  "byzantine-church-after-1054--balkan-bogomil-continuation",
+  "russian-church-nikon-to-holy-synod--the-old-believers--3",
+  "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+  "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century"
+ ],
+ "note_readability_fail": [
+  [
+   "alexandria-catechetical--desert-monasticism",
+   13.6,
+   14.6
+  ],
+  [
+   "desert-monasticism--hieronymian-ascetic-literary",
+   41.2,
+   11.2
+  ],
+  [
+   "alexandria-catechetical--hieronymian-ascetic-literary",
+   57.0,
+   9.8
+  ],
+  [
+   "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   53.1,
+   9.8
+  ],
+  [
+   "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   38.8,
+   10.9
+  ],
+  [
+   "desert-monasticism--iconophile-byzantine-monasticism",
+   51.6,
+   10.4
+  ],
+  [
+   "desert-monasticism--early-benedictine-italian-monasticism",
+   56.3,
+   9.1
+  ],
+  [
+   "desert-monasticism--insular-irish-monastic-christianity",
+   46.7,
+   11.3
+  ],
+  [
+   "desert-monasticism--coptic-christianity-under-early-islam",
+   50.9,
+   10.8
+  ],
+  [
+   "coptic-christianity-under-early-islam--alexandria-catechetical",
+   42.8,
+   11.6
+  ],
+  [
+   "desert-monasticism--gallic-monastic-ascetic-christianity",
+   46.5,
+   10.9
+  ],
+  [
+   "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   40.8,
+   10.1
+  ],
+  [
+   "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   58.5,
+   9.6
+  ],
+  [
+   "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   52.6,
+   9.0
+  ],
+  [
+   "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   31.1,
+   13.0
+  ],
+  [
+   "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   54.8,
+   8.5
+  ],
+  [
+   "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   58.5,
+   9.4
+  ],
+  [
+   "imperial-juridical-christianity--apollinarian-christianity",
+   44.0,
+   11.2
+  ],
+  [
+   "tertullian-s-voice--modalist-monarchianism",
+   55.0,
+   9.2
+  ],
+  [
+   "roman-church-third-century--modalist-monarchianism",
+   16.0,
+   14.1
+  ],
+  [
+   "syriac-edessa-nisibis--bardaisanite-current",
+   57.0,
+   8.5
+  ],
+  [
+   "post-apostolic-house-church--roman-church-third-century",
+   47.0,
+   9.4
+  ],
+  [
+   "roman-church-third-century--novatianism",
+   42.7,
+   10.2
+  ],
+  [
+   "desert-monasticism--palestinian-ascetic-monasticism-early",
+   58.4,
+   9.1
+  ],
+  [
+   "greek-apologists-second-century--alexandria-catechetical",
+   44.0,
+   10.4
+  ],
+  [
+   "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   48.7,
+   10.4
+  ],
+  [
+   "gallic-nicene-episcopate--homoian-arian-christianity",
+   58.5,
+   8.7
+  ],
+  [
+   "imperial-juridical-christianity--gallic-nicene-episcopate",
+   35.5,
+   11.8
+  ],
+  [
+   "gallic-nicene-episcopate--imperial-juridical-christianity",
+   49.2,
+   10.0
+  ],
+  [
+   "alexandria-catechetical--anatolian-church-third-century",
+   34.2,
+   11.2
+  ],
+  [
+   "alexandria-catechetical--palestinian-church-pre-constantinian",
+   26.7,
+   13.5
+  ],
+  [
+   "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   48.7,
+   10.0
+  ],
+  [
+   "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   52.1,
+   9.6
+  ],
+  [
+   "danubian-latin-christianity--hieronymian-ascetic-literary",
+   48.9,
+   10.8
+  ],
+  [
+   "danubian-latin-christianity--homoian-arian-christianity",
+   36.3,
+   12.3
+  ],
+  [
+   "aquileian-christianity--hieronymian-ascetic-literary",
+   42.8,
+   10.9
+  ],
+  [
+   "alexandria-catechetical--aquileian-christianity",
+   59.9,
+   9.6
+  ],
+  [
+   "ambrosian-milan-standalone--aquileian-christianity",
+   48.9,
+   10.8
+  ],
+  [
+   "antiochene-church-third-century--homoian-arian-christianity",
+   45.7,
+   9.9
+  ],
+  [
+   "greek-apologists-second-century--latin-apologists",
+   30.2,
+   12.4
+  ],
+  [
+   "tertullian-s-voice--latin-apologists",
+   40.5,
+   12.8
+  ],
+  [
+   "latin-apologists--imperial-juridical-christianity",
+   56.7,
+   8.8
+  ],
+  [
+   "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   55.2,
+   9.8
+  ],
+  [
+   "imperial-juridical-christianity--homoian-arian-christianity",
+   47.6,
+   10.1
+  ],
+  [
+   "hieronymian-ascetic-literary--alexandria-catechetical",
+   53.6,
+   9.3
+  ],
+  [
+   "latin-pastoral-congregational-christianity--pelagianism",
+   54.9,
+   9.6
+  ],
+  [
+   "the-waldensians--waldensians-in-the-alps",
+   49.7,
+   10.0
+  ],
+  [
+   "latin-pastoral-congregational-christianity--donatism",
+   48.3,
+   9.8
+  ],
+  [
+   "donatism--latin-pastoral-congregational-christianity",
+   39.6,
+   10.7
+  ],
+  [
+   "latin-pastoral-congregational-christianity--donatism--2",
+   57.1,
+   8.4
+  ],
+  [
+   "imperial-juridical-christianity--donatism",
+   51.1,
+   8.4
+  ],
+  [
+   "donatism--imperial-juridical-christianity",
+   57.2,
+   8.2
+  ],
+  [
+   "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   57.7,
+   8.2
+  ],
+  [
+   "imperial-juridical-christianity--persian-church-of-the-east-early",
+   55.4,
+   10.5
+  ],
+  [
+   "latin-papal-church-avignon-to-lateran-v--lollardy",
+   45.3,
+   10.3
+  ],
+  [
+   "lollardy--the-hussite-and-bohemian-brethren-movement",
+   50.4,
+   10.9
+  ],
+  [
+   "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   57.1,
+   8.4
+  ],
+  [
+   "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   51.4,
+   9.5
+  ],
+  [
+   "alexandria-catechetical--ambrosian-milan-standalone",
+   49.2,
+   10.2
+  ],
+  [
+   "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   48.7,
+   10.0
+  ],
+  [
+   "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   38.5,
+   11.4
+  ],
+  [
+   "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   49.7,
+   10.0
+  ],
+  [
+   "syriac-edessa-nisibis--manichaeism",
+   47.6,
+   11.1
+  ],
+  [
+   "bardaisanite-current--marcion-marcionism",
+   38.5,
+   11.0
+  ],
+  [
+   "bardaisanite-current--syriac-edessa-nisibis",
+   41.6,
+   11.8
+  ],
+  [
+   "alexandria-catechetical--ebionite-nazoraean-current",
+   50.6,
+   9.9
+  ],
+  [
+   "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   47.6,
+   10.1
+  ],
+  [
+   "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   45.3,
+   11.2
+  ],
+  [
+   "post-apostolic-house-church--montanism-the-new-prophecy",
+   36.9,
+   11.7
+  ],
+  [
+   "imperial-juridical-christianity--montanism-the-new-prophecy",
+   51.5,
+   9.2
+  ],
+  [
+   "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   47.6,
+   10.1
+  ],
+  [
+   "latin-pastoral-congregational-christianity--novatianism",
+   53.7,
+   8.9
+  ],
+  [
+   "imperial-juridical-christianity--novatianism",
+   59.3,
+   9.5
+  ],
+  [
+   "imperial-juridical-christianity--novatianism--2",
+   41.0,
+   10.9
+  ],
+  [
+   "post-apostolic-house-church--marcion-marcionism",
+   57.7,
+   9.1
+  ],
+  [
+   "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+   57.7,
+   9.4
+  ],
+  [
+   "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+   40.3,
+   11.0
+  ],
+  [
+   "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+   30.1,
+   12.9
+  ],
+  [
+   "antiochene-church-third-century--anomoean-eunomian-christianity",
+   35.3,
+   11.6
+  ],
+  [
+   "anatolian-church-third-century--antiochene-church-third-century",
+   37.3,
+   12.0
+  ],
+  [
+   "antiochene-church-third-century--roman-church-third-century",
+   30.7,
+   14.4
+  ],
+  [
+   "imperial-juridical-christianity--ebionite-nazoraean-current",
+   50.5,
+   9.4
+  ]
+ ],
+ "note_internal_words": [
+  [
+   "desert-monasticism--iconophile-byzantine-monasticism",
+   [
+    "record"
+   ]
+  ],
+  [
+   "the-holiness-movement--azusa-street-and-early-pentecostalism",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "byzantine-church-after-1054--latin-papal-church-gregorian",
+   [
+    "record"
+   ]
+  ],
+  [
+   "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   [
+    "census",
+    "movement"
+   ]
+  ],
+  [
+   "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   [
+    "census",
+    "movement"
+   ]
+  ],
+  [
+   "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   [
+    "links"
+   ]
+  ],
+  [
+   "alexandria-catechetical--palestinian-church-pre-constantinian",
+   [
+    "library"
+   ]
+  ],
+  [
+   "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   [
+    "library"
+   ]
+  ],
+  [
+   "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   [
+    "library"
+   ]
+  ],
+  [
+   "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+   [
+    "links"
+   ]
+  ],
+  [
+   "the-waldensians--waldensians-in-the-alps",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   [
+    "library"
+   ]
+  ],
+  [
+   "latin-pastoral-congregational-christianity--manichaeism",
+   [
+    "record"
+   ]
+  ],
+  [
+   "desert-monasticism--roman-church-gregorian",
+   [
+    "link"
+   ]
+  ],
+  [
+   "british-welsh-christianity--medieval-welsh-christianity",
+   [
+    "record"
+   ]
+  ],
+  [
+   "carolingian-reform-christianity--cluniac-reform-monasticism",
+   [
+    "link"
+   ]
+  ],
+  [
+   "cluniac-reform-monasticism--latin-papal-church-gregorian",
+   [
+    "record"
+   ]
+  ],
+  [
+   "bogomils--cathars-albigensians",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "bogomils--balkan-bogomil-continuation",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "balkan-bogomil-continuation--cathars-albigensians",
+   [
+    "link"
+   ]
+  ],
+  [
+   "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   [
+    "record"
+   ]
+  ],
+  [
+   "restoration-georgian-church-of-england--the-welsh-revival-tradition",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "russian-church-nikon-to-holy-synod--the-old-believers",
+   [
+    "record"
+   ]
+  ],
+  [
+   "russian-church-nikon-to-holy-synod--the-old-believers--2",
+   [
+    "record"
+   ]
+  ],
+  [
+   "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "the-second-great-awakening-and-camp-meeting-worl--the-holiness-movement",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "nineteenth-century-methodism--the-holiness-movement",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+   [
+    "link",
+    "movement"
+   ]
+  ],
+  [
+   "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+   [
+    "link"
+   ]
+  ],
+  [
+   "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   [
+    "Movement"
+   ]
+  ],
+  [
+   "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   [
+    "Movement"
+   ]
+  ],
+  [
+   "the-holiness-movement--the-salvation-army",
+   [
+    "link"
+   ]
+  ],
+  [
+   "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+   [
+    "link"
+   ]
+  ],
+  [
+   "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+   [
+    "link"
+   ]
+  ],
+  [
+   "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+   [
+    "movement"
+   ]
+  ],
+  [
+   "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   [
+    "movement"
+   ]
+  ]
+ ],
+ "note_long_sentence": [
+  [
+   "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   26
+  ],
+  [
+   "pelagianism--hieronymian-ascetic-literary",
+   27
+  ],
+  [
+   "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   29
+  ],
+  [
+   "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+   35
+  ],
+  [
+   "puritanism--the-english-reformation-and-elizabethan-settleme",
+   33
+  ],
+  [
+   "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+   31
+  ],
+  [
+   "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+   27
+  ],
+  [
+   "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   27
+  ],
+  [
+   "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   31
+  ],
+  [
+   "restoration-georgian-church-of-england--victorian-church-of-england",
+   29
+  ],
+  [
+   "camisard-prophetism--shakers",
+   39
+  ],
+  [
+   "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   30
+  ],
+  [
+   "armenian-apostolic-church-era-8--armenian-christianity-zartonk",
+   26
+  ]
+ ],
+ "outcome_long_sentence": [
+  [
+   "catholic-church-ancien-regime--melkite-greek-catholic-church",
+   26
+  ]
+ ]
+}
