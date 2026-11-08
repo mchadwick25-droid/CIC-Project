@@ -1,0 +1,198 @@
+{
+ "round": 2,
+ "date": "2026-11-08",
+ "note": "Both round-2 findings applied as the reviewer wrote them, by script.",
+ "findings": [
+  {
+   "n": 1,
+   "action": "fixed"
+  },
+  {
+   "n": 2,
+   "action": "fixed"
+  }
+ ],
+ "links": [
+  {
+   "old_index": null,
+   "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "nineteenth-century-latin-american-catholicism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1862 Pius IX and Ecuador signed a pact in Rome that kept the state's faith Catholic. It tied every school to church teaching and let bishops alone pick the books for religion. In 1895 Mexico's Guadalupe image was to be crowned in the name of Pope Leo XIII and by his order, part of a pull toward Rome that historians call \"Romanization.\"",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mirbt, Quellen (1911), no. 503: heading of the Concordat between Pius IX and the Republic of Ecuador, concluded at Rome, 26 September 1862",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25580-25582",
+     "locus": "Mirbt no. 503, heading",
+     "quote": "Das am 26. Sept. 1862 in Rom abgeschlossene Konkordat:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 1, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25584-25586",
+     "locus": "Mirbt no. 503, art. 1",
+     "quote": "Religio catholica apostolica Romana esse perget religio reipublicae Aequatoris",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 3, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25590-25594",
+     "locus": "Mirbt no. 503, art. 3",
+     "quote": "luventutis institutio in universitatibus, collegiis, facultatibus, scholis tarn publicis quam privatis erit sane conformis doc- trinae religio nis catholica e.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Concordat between Pius IX and the Republic of Ecuador, 26 September 1862, art. 3, in Mirbt, Quellen (1911), no. 503",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25592-25594",
+     "locus": "Mirbt no. 503, art. 3",
+     "quote": "Episcopi unice iure pollebunt designandi libros seu textus qui adhibendi sunt ad ecclesiasticas scientias tradendas atque ad institu- tionem, quae religionem moresque spectant.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Editors' note to Florencia, La Estrella del Norte de México (Guadalajara, 1895), on Leo XIII's grant of the coronation",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "8722-8727",
+     "locus": "ch. note (1), p. 177",
+     "quote": "Últimamente el Sr. León XIII, concedió nuero oficia y la Coronación que ha de hacerse de la Imagen de Guadalupe, el próxi- mo 12 de octubre del corriente año de 1895.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Agustín de la Rosa, prologue to Florencia, La Estrella del Norte de México (Guadalajara, 1895)",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "251-253",
+     "locus": "Prólogo",
+     "quote": "Dentro de pocos días será una rea- lidad la Coronación de la Imagen de María Santísima de Guadalupe que se hará á nombre del Sumo Pontífice y por su mandato.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth P. Serbin, Needs of the Heart: A Social and Cultural History of Brazil's Clergy and Seminaries (Notre Dame, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "nineteenth-century-latin-american-catholicism.relationsSummary",
+    "nineteenth-century-latin-american-catholicism.longDescription"
+   ],
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "25590-25594",
+     "text": "luventutis institutio in universitatibus, collegiis, facultatibus, scholis tarn publicis quam privatis erit sane conformis doc- trinae religio nis catholica e. Episcopi unice iure pollebunt designandi libros seu textus qui adhibendi sunt ad ecclesiasticas scientias tradendas atque ad institu- tionem, quae religionem moresque spectant."
+    },
+    "reason": "Article 3 of a concordat made by the pope and the republic sets rules by authority: all teaching shall conform to Catholic doctrine, and bishops alone shall choose the books for religion and morals. Article 1 only continues ('esse perget') the existing state religion, so the call no longer rests on it."
+   },
+   "outcome": "In 1862 Pope Pius IX and Ecuador agreed that every school would follow Catholic teaching. Only bishops would choose the books used to teach religion.",
+   "wants": [
+    "Acta et decreta Concilii Plenarii Americae Latinae (Rome, 1899/1900): the 1899 council the text names",
+    "Papal letters on recognition of the new republics' bishops (Leo XII, Gregory XVI), for 'Rome's slow recognition'"
+   ],
+   "drafter_flags": [
+    "Round 1: article 1 says Catholicism 'esse perget', shall continue to be, the state religion. The note now says 'kept', and the major call rests on article 3 (lines 25590-25594), which lays down new school and textbook rules in the future tense. The concordat's text does not say what rule stood before it; the call rests on its being a settlement fixed by the two authorities.",
+    "Article 3 also gives bishops the right to ban books and binds the government to keep such books out (lines 25594-25599). The outcome keeps to the school and textbook clauses.",
+    "Mirbt notes the concordat was set aside on 28 June 1878 (lines 25581-25582); neither note nor outcome claims it lasted.",
+    "The Guadalupe patronage decree in the prologue (lines 220-222) is undated, and the editors' note (lines 8722-8724) dates the confirmation of the patronage to Benedict XIV in 1754, which is colonial. It is dropped. The note now uses the dated Roman act of this period: Leo XIII's grant of the coronation, set for 12 October 1895 (lines 8725-8727), done 'in the name of the Supreme Pontiff and by his order' (lines 251-253).",
+    "'Rome (Holy See)' is matched to the long-nineteenth-century Catholic entry, as for Haiti and the Chaldean recognition.",
+    "Serbin 2006 is repo-cited for Brazil's 'Romanizing bishops'; not rechecked."
+   ],
+   "change_reason": "Round 2 finding 1, applied as written: the 1895 date belongs to the coronation, not to the papal order."
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "coptic-revival-under-cyril-iv",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A list of the Coptic patriarchs of Alexandria, printed by E. A. Wallis Budge in 1928, runs as one numbered line from the 1300s to 1854. It counts the reformer who took office in 1854 as the 110th, naming him Cyril V, though most lists call him Cyril IV. No other Coptic stage is set out between 1300 and 1854, so this line spans five centuries and rests on modern lists.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 85-86 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2827-2831",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 85-86",
+     "quote": "THE JACOBITE PATRIARCHS OF ALEXANDRIA 85 John X 1363-1369 86 Gabriel IV 1370-1378",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 108-110 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2855-2857",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 108-110",
+     "quote": "108 Mark VIII 1796-1809 tog Peter VII 1809-1852 110 Cyril V 1854-1861",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "coptic-revival-under-cyril-iv relationsSummary ('Continuation of the long Egyptian lane')",
+    "coptic-christianity-fatimid-to-mamluk legacy ('it runs unbroken through this period'; does not name the later movement)"
+   ],
+   "wants": [
+    "The History of the Patriarchs of the Coptic Church, its later continuations (fourteenth to nineteenth centuries): the line of patriarchs from the original side, not a modern table"
+   ],
+   "drafter_flags": [
+    "Round 1 (finding 4): Budge's 1928 table is an editor's compilation, so it is now listed as a secondary (with its file, lines and a verbatim quote, as the Conybeare source on the Old Believers link is) and the grade is Dominant Modern Reconstruction. No vendored original witness was found for the see across 1300-1854: Quatremère 1811 quotes al-Maqrizi on single fifteenth-century successions only (e.g. lines 9703-9707), and its year for the death of Matthew does not match Budge's table, so it is not cited.",
+    "The type's test, continuity of the same see, is what Budge's numbered line shows: entries 85 to 110 run without a missing number, though OCR garbles nos. 99-101 (lines 2843-2845).",
+    "Lead's guidance: kept without waiting for a ruling, and the missing middle Coptic movement is escalated as a map gap. The note says plainly that no Coptic stage stands between.",
+    "OCR reads '109' as 'tog'; the quote keeps the OCR exactly.",
+    "Budge names the 1854-1861 patriarch 'Cyril V'; most modern lists, and this movement's own text, call him Cyril IV. The note says so."
+   ],
+   "change_reason": "Round 2 finding 2, applied as written: internal wording removed."
+  }
+ ],
+ "prose_changes": []
+}
