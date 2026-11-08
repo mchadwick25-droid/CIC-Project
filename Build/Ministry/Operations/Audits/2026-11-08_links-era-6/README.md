@@ -18,7 +18,7 @@ All three rounds of the cap used. No finding is open.
 ## Counts
 
 - Links touching an era-6 movement: 69. This pass added 43; 26 were already on main from earlier passes (the era 5 pass drew 18 of them). No published link changed or retired; every ID stands.
-- Census links in all: 321 before this pass, 364 after it. Data release 10 (2026-11-08).
+- Census links in all: 321 before this pass, 364 after it. Data release 11 (2026-11-08); see "Merge with main" below.
 - Grades of the links this pass added: Documented 40, Inferential-Thin 2, Widely Accepted 1.
 - Types of the links this pass added: influenced 13, argued against 12, continued as 9, in contact with 6, gave rise to 2, broke with 1.
 - Dispositions of the named relationships (drafting, 399): link 119, not-a-claim 102, no-entry 79, existing 38, qualify 36, remove 13, out-of-scope 12. "no-entry" means the other party has no census movement; its claim was still checked.
@@ -27,11 +27,11 @@ All three rounds of the cap used. No finding is open.
 
 ## Major links
 
-The rule: "gave rise to", "continued as" and "broke with" are major by type. An "influenced", "argued against" or "in contact with" link is major only when one of its own sources shows an institutional act: (a) a council, canon, synod or law condemning, deposing or excluding a group or its teaching; (b) a split into a separate church or body; (c) a rule, practice or settlement changed by an authority. A teaching or text merely taken up does not count. This is the narrower test the era 1 thread (P2-ML) relayed on 2026-11-08 as Mark's ruling; the launch prompt's earlier wording also counted a teaching taken up by the other side. The narrower test was used throughout, since it can only give fewer outcomes, never an overstated one.
+The rule: "gave rise to", "continued as" and "broke with" are major by type. An "influenced", "argued against" or "in contact with" link is major only when one of its own sources shows an institutional act: (a) a council, canon, synod or law condemning, deposing or excluding a group or its teaching; (b) a split into a separate church or body; (c) a rule, practice or settlement changed by an authority. A teaching or text merely taken up does not count. This is the narrowed test of the change order in the Decision-Log (2026-11-08), which the P2-ML thread relayed while this pass was drafting; the launch prompt's earlier wording also counted a teaching taken up by the other side. The narrowed test was used throughout.
 
-Of the 69 links touching era 6, 37 are major:
+Of the 69 links touching era 6, 40 are major:
 - By type, 25: continued as 19, gave rise to 5, broke with 1.
-- By outcome, 12: argued against 7, in contact with 4, influenced 1. By basis: (a) 5, (c) 7, (b) 0.
+- By outcome, 15: argued against 10, in contact with 4, influenced 1. Of these, 12 were judged in this pass (by basis: (a) 5, (c) 7, (b) 0) and 3 by the P2-ML pass over eras 1 to 5 (the papacy against the beguines, the Free Spirit and the Templars, all on the Council of Vienne).
 
 Outcome links, with the lines that show the act:
 - `latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god`: basis (a), a council, canon, synod or law condemning a group; shown at `cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:15306-15311`.
@@ -70,7 +70,11 @@ Influenced, argued-against and in-contact links judged minor, with the reason:
 - `church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517`: A scribe's closing note shows that the patriarch was recognized. It records no council, no split and no changed rule.
 - `latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom`: The 1342 council answered the charges, but no source here shows a lasting union, a split or a changed rule. The editor says Rome found the answer wanting and sent new envoys in 1346.
 
-The 20 era-5 links that reach into era 6 were judged by the era 5 pass and are not rejudged here; a later pass covers outcomes on links drawn before the rule.
+The 26 links already on main were judged by the P2-ML pass and are not rejudged here.
+
+## Merge with main
+
+The P2-ML pass (major links over eras 1 to 5) merged first as mchadwick25-droid/CIC-Project#1543 and took data release 10; this pass takes 11. The census was rebuilt from main's and this pass's three records were applied to it again (`Drafting_Record.json`, `Revision_Round1.json`, `Revision_Round2.json`); every prose change still matched its old text, and the result equals git's automatic merge. Map and tree pages were regenerated after the merge.
 
 ## Merge with era 7
 

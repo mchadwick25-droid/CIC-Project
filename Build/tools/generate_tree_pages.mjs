@@ -84,6 +84,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -247,6 +249,12 @@ const LINEAGE_HEADINGS = [
   ['in contact with', 'both', 'In Contact With', 'contact'],
 ];
 
+// Major links (Decision-Log 2026-11-08): lineage and breaks by type, any other link by its outcome.
+const MAJOR_BY_TYPE = new Set(['gave rise to', 'continued as', 'broke with']);
+function isMajorEdge(edge) {
+  return MAJOR_BY_TYPE.has(edge.type) || (typeof edge.outcome === 'string' && edge.outcome.trim() !== '');
+}
+
 function buildLineageHtml(movementId, movement) {
   const incoming = edgesTo.get(movementId) || [];
   const outgoing = edgesFrom.get(movementId) || [];
@@ -263,7 +271,9 @@ function buildLineageHtml(movementId, movement) {
       const other = movementMap.get(otherId);
       html += `<li id="${escapeHtml(edge.id)}"><a href="${other.id}.html">${escapeHtml(other.name)}</a>`;
       html += ` <span class="lineage-confidence">${escapeHtml(edge.confidence)}</span>`;
+      if (isMajorEdge(edge)) html += ` <span class="lineage-major">Major</span>`;
       if (edge.note) html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
+      if (edge.outcome) html += `<span class="lineage-outcome"><i>Lasting result:</i> ${escapeHtml(edge.outcome)}</span>`;
       html += '</li>\n';
     });
     html += '</ul>\n</div>\n';

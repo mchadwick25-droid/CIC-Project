@@ -40,3 +40,18 @@ test('the support page carries the not-a-nonprofit line word for word', () => {
   const page = fs.readFileSync(path.join(root, 'cft-website/support.html'), 'utf8');
   assert.ok(page.includes(`<p>${line}</p>`));
 });
+
+test('major links are marked, and a link with an outcome shows its lasting result', () => {
+  const c = structuredClone(census);
+  const judged = c.edges.find(e => e.type === 'argued against');
+  judged.outcome = 'The council condemned the group by name.';
+  const lineage = c.edges.find(e => e.type === 'continued as');
+  const minor = c.edges.find(e => e.type === 'influenced' && !e.outcome && e.from !== judged.from && e.from !== lineage.from);
+  const read = generate(c);
+  const item = (page, id) => page.match(new RegExp(`<li id="${id}">[\\s\\S]*?</li>`))[0];
+  const judgedItem = item(read(`tree/${judged.from}.html`), judged.id);
+  assert.match(judgedItem, /class="lineage-major">Major</);
+  assert.match(judgedItem, /<i>Lasting result:<\/i> The council condemned the group by name\./);
+  assert.match(item(read(`tree/${lineage.from}.html`), lineage.id), /class="lineage-major">Major</);
+  assert.doesNotMatch(item(read(`tree/${minor.from}.html`), minor.id), /lineage-major|Lasting result/);
+});
