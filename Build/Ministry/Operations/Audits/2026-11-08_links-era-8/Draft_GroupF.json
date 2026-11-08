@@ -1,0 +1,1176 @@
+{
+ "group": "F",
+ "movements": [
+  "orthodoxy-under-the-ottomans-1650-1821",
+  "melkite-greek-catholic-church",
+  "armenian-christianity-era-8",
+  "philippine-catholicism-era-8"
+ ],
+ "dispositions": [
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": 0,
+   "reason": "'Second act' names the era-7 Ottoman entry; Documented continuity link (the 1672 synod adopts the earlier Constantinople decrees)."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": "the-tridentine-church",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The synod answered Calvinists, not Trent; no vendored text has it address Trent. 'Answer to the Council of Trent' removed; the comparison with Western confessions kept."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
+   "prose_change": 0,
+   "reason": "'Answered French Calvinists' now named in the summary; Documented, major (council-law)."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--the-huguenots",
+   "prose_change": 0,
+   "reason": "The synod's named trigger, Claude of Charenton; Documented."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Phanariots: no entry. Kept as description."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Peć patriarchate abolished in 1766 was the one restored in 1557, inside the era-7 Ottoman entry; the medieval monastic entry ends in 1396 and is not the party. Ohrid has no entry. Kept as stated facts; no vendored text for the 1766-67 acts (wants)."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "sentence": "The Serbian Great Migration of 1690 placed the Karlovci church outside the Ottoman millet system from that date.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Karlovci church and the 1690 migration: no entry. Kept."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "For a century and a half after 1650 the Orthodox church of the Ottoman Empire was both a church and an arm of the state: the Ecumenical Patriarch in Constantinople answered to the Sultan for the obedience of all Orthodox subjects, collected their taxes and judged their marriages and inheritances.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Sultan is the state, not a movement."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "And it came increasingly to be held under the influence of the Phanariots, the wealthy Greek families of Constantinople's Phanar quarter who supplied the empire's interpreters and the princes of its Danubian provinces.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Phanariots: no entry. Charon (lines 43054-43057) confirms their hold on the Antioch see from 1724; kept."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "In 1672 the Synod of Jerusalem, under Patriarch Dositheus, issued a confession answering the Calvinist ideas that had been circulating under an Orthodox name — the East's own equivalent of the West's confessional settlements.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
+   "prose_change": null,
+   "reason": "Supported as written ('answering the Calvinist ideas that had been circulating under an Orthodox name' = the Lucar Confession). No change."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "That power also worked against its neighbors: the Serbian patriarchate of Peć was abolished in 1766 and the archbishopric of Ohrid in 1767, both absorbed into Constantinople.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary: the medieval entry is not the party; no entry for the 1766 Peć see or Ohrid. Unchanged."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "It ended violently — when the Greek revolt broke out in 1821, Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies",
+   "prose_change": null,
+   "reason": "The revolt is an event with no entry; Gregory V's hanging and the see's continuation are carried by the continued-as link (Walsh)."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "why",
+   "sentence": "In 1672 the Synod of Jerusalem answered Calvinist ideas that had been spreading under an Orthodox name, and the arrangement ended violently in 1821, when Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate — a gate that has stayed welded shut ever since.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
+   "prose_change": null,
+   "reason": "Supported as written. No change."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "legacy",
+   "sentence": "The arrangement kept Orthodox Christianity intact through centuries of Muslim rule, at the price of tying the church to a foreign state and of Greek ecclesiastical dominance over Slavs and Arabs.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Slavs and Arabs are peoples, not entries. Kept, with Paisii (1762) as an attested case."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "legacy",
+   "sentence": "When the empire's Christian provinces became nations in the nineteenth century, each took its own church with it, and the pattern of national Orthodox churches that exists today is the direct result.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies",
+   "prose_change": 1,
+   "reason": "Type is 'continued as' (the same see carried into the era-9 entry, as the census's own continuation says), not a separate gave-rise-to for each national church. 'Direct result' softened to 'grew out of'."
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "legacy",
+   "sentence": "A resentment that shaped every Balkan church that came after.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Shaped every Balkan church' has no vendored support and was a fragment. Replaced by Paisii's attested 1762 complaint; no influence link drafted."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Damascus party has no entry; it is the movement itself at its start."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": 2,
+   "reason": "Typed 'broke with', not 'argued against': both sides' acts are in Mansi 46 (the patriarchs' excommunication reported in 1729; Sylvester's 1726 profession). Documented."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": "melkite-arabic-christianity",
+   "disposition": "link",
+   "link_id": "melkite-arabic-christianity--melkite-greek-catholic-church",
+   "prose_change": 2,
+   "reason": "Existing gave-rise-to link checked and kept."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Kin-shape' is a comparison, not a claimed tie; rephrased plainly without cataloguing words. No vendored text ties Brest to the 1724 events."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": "maronite-christianity",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Same as Brest: a comparison. The era-5 Maronite entry is not shown to have shaped 1724."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": 2,
+   "reason": "'The Orthodox side continues within Ottoman-era Orthodoxy' is where the Orthodox half sits, not a continuation of this movement. Carried by the broke-with link; restated plainly."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "When the Patriarch of Antioch died in 1724, the Christians of Damascus elected Cyril VI Tanas, who favored union with Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Damascus electors are the movement itself."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "Constantinople refused to accept him and consecrated a rival, Sylvester, a Greek monk from Cyprus.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": null,
+   "reason": "Supported by Mansi 46 (lines 3413-3427). Unchanged."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "What followed was the permanent division of one Arabic-speaking, Byzantine-rite community into two churches — one in communion with Rome, recognized by the pope in 1729, and one with Constantinople — sharing the same liturgy, the same language and frequently the same families.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+   "prose_change": null,
+   "reason": "'Recognized by the pope in 1729': the 1729 Propaganda decree and Benedict XIII's brief of 13 August 1729. The era's Catholic Church entry is the party. Documented, major."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "The Catholic side, based at Damascus, Aleppo and the monasteries of Mount Lebanon, was pressed hard by Ottoman authorities acting on Orthodox complaints, and was not granted a recognized civil standing of its own until well into the nineteenth century.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": null,
+   "reason": "'Ottoman authorities acting on Orthodox complaints' is supported: the patriarchs obtained the Porte's commands against Cyril (Mansi 46, lines 3426-3427 and following). Folded into the broke-with link rather than a separate argued-against link on the same evidence."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "The Catholic side, based at Damascus, Aleppo and the monasteries of Mount Lebanon, was pressed hard by Ottoman authorities acting on Orthodox complaints, and was not granted a recognized civil standing of its own until well into the nineteenth century.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ottoman authorities are the state, not a movement."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "why",
+   "sentence": "When the Patriarch of Antioch died in 1724, Damascus elected Cyril VI Tanas, who favored union with Rome, but Constantinople refused to accept him and consecrated a rival instead — permanently splitting one Arabic-speaking, Byzantine-rite community into two churches that share the same liturgy, language, and often the same families to this day.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": null,
+   "reason": "Supported. Unchanged."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "why",
+   "sentence": "Rome recognized Cyril's line in 1729, and the resulting Melkite Greek Catholic church was pressed hard by Ottoman authorities for generations before gaining any recognized civil standing of its own.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+   "prose_change": null,
+   "reason": "Supported by the 1729 decree. Unchanged."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "why",
+   "sentence": "Rome recognized Cyril's line in 1729, and the resulting Melkite Greek Catholic church was pressed hard by Ottoman authorities for generations before gaining any recognized civil standing of its own.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ottoman authorities: the state."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "legacy",
+   "sentence": "The Greek Orthodox Patriarchate of Antioch continues alongside it.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "disposition": "link",
+   "link_id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": 3,
+   "reason": "The Orthodox patriarchate of Antioch is the other half of the split; no separate entry. A present-day fact, kept."
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "field": "legacy",
+   "sentence": "The split also fixed a pattern that recurs across the Christian East — an Eastern-rite church in union with Rome standing beside its Orthodox mother church, with all the ordinary difficulty that creates.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Fixed a pattern' overstated: the pattern predates 1724 (Brest 1596, the Maronites). Now 'one more case of a familiar pattern'."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "relationsSummary",
+   "sentence": "Inside the Ottoman millet system, tension grew between the Armenian Apostolic Church and Armenians in communion with Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Armenian Apostolic Church of 1650-1815 has no entry of its own (see escalations). The tension is supported by Ormanian (lines 4440-4470), an Apostolic patriarch's account. Unchanged."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "relationsSummary",
+   "sentence": "In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in 1750.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "armenian-christianity-era-8--catholic-church-ancien-regime",
+   "prose_change": null,
+   "reason": "Benedict XIV's 1742 act; the era's Catholic Church entry is the party. Documented contact, major (split)."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "longDescription",
+   "sentence": "Driven out of Ottoman territory, he and his monks were given the small island of San Lazzaro in the Venetian lagoon in 1717, and turned it into one of the great centers of Armenian learning — a press, a library of thousands of manuscripts, and the dictionaries and translations that effectively created modern Armenian lexicography.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ottoman authorities and Venice are states. Ormanian (lines 4474-4486) has Mekhitar leave the Morea as the Venetians withdrew and settle at San Lazzaro in 1717; consistent. Unchanged."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "longDescription",
+   "sentence": "Meanwhile, inside the Ottoman capital, the growing number of Armenians in communion with Rome created a problem the millet system had no room for.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The millet system is a state arrangement."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "longDescription",
+   "sentence": "In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in Mount Lebanon in 1750.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "armenian-christianity-era-8--catholic-church-ancien-regime",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "longDescription",
+   "sentence": "The Armenian Apostolic Church remained overwhelmingly the larger body, but from that point there were two Armenian churches, and the argument between them was fought out in the politics of Constantinople.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No era-8 entry for the Apostolic Church; see escalations."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "why",
+   "sentence": "Meanwhile, inside the Ottoman capital, Armenians in communion with Rome grew numerous enough that Benedict XIV confirmed a separate Armenian Catholic patriarch in 1742, seated at Bzommar in Mount Lebanon from 1750.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "armenian-christianity-era-8--catholic-church-ancien-regime",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "legacy",
+   "sentence": "The Mekhitarist monastery on San Lazzaro degli Armeni continues, with a library of some four and a half thousand Armenian manuscripts, and receives visitors by arrangement — Lord Byron rowed out to it in 1816 to learn Armenian and helped the monks with a grammar.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Lord Byron is a person with no entry; his 1816 visit is a present-day-style fact. I found no vendored text for it; left as description and listed in wants."
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "field": "legacy",
+   "sentence": "And the Mekhitarists' printing and philology laid much of the groundwork for the nineteenth-century Armenian cultural revival, the Zartonk.",
+   "other_id": "armenian-christianity-zartonk",
+   "disposition": "link",
+   "link_id": "armenian-christianity-era-8--armenian-christianity-zartonk",
+   "prose_change": null,
+   "reason": "Widely Accepted influence link (Boré 1837; Ormanian). Prose already says 'much of the groundwork', which the evidence carries. Unchanged."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "This continues the story of Philippine Catholicism into the period when the friar-parish system matured.",
+   "other_id": "philippine-catholicism",
+   "disposition": "link",
+   "link_id": "philippine-catholicism--philippine-catholicism-era-8",
+   "prose_change": null,
+   "reason": "Documented continuity (the Recollect chronicle on the 1654-56 visitation attempt)."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The British occupation is a state event."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Friars versus bishops is a dispute inside this movement, not between two entries (Blair and Robertson v36, v42, v50 document it)."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Jesuits were one of this church's own orders; their 1768 expulsion was a Spanish crown act. The Society's census entry ends in 1650 and is not a party to the expulsion."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "The unresolved question of native Filipino clergy sharpened over this period, building toward the crisis of 1872.",
+   "other_id": "philippine-catholicism-gomburza-to-aglipay",
+   "disposition": "link",
+   "link_id": "philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": null,
+   "reason": "Continued-as link, Widely Accepted (1771 Franciscan letter; Pardo de Tavera 1899)."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Augustinians and Recollects: orders inside this church, no entries."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+   "other_id": "the-dominican-order",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Dominicans here are members of this church; the census Dominican entry ends in 1300."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same: members, and the census entry ends in 1300."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Members; the Society's entry ends in 1650."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "The century's strains were institutional: a long fight over whether bishops could inspect the friars' parishes, the British occupation of Manila in 1762-64, the expulsion of the Jesuits in 1768, and above all the question of whether Filipino secular priests could hold parishes at all.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "The century's strains were institutional: a long fight over whether bishops could inspect the friars' parishes, the British occupation of Manila in 1762-64, the expulsion of the Jesuits in 1768, and above all the question of whether Filipino secular priests could hold parishes at all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Filipino secular priests: a group inside this church. Supported (Blair and Robertson v50, lines 7080-7082)."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "why",
+   "sentence": "By the mid-seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, built parish by parish around Spanish friars who were often the only European in town and the only one who could preach in the local language.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Spanish friars: members."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "why",
+   "sentence": "Filipino Christianity found its own voice inside that arrangement in the pasyon, a long verse account of Christ's passion chanted by ordinary people through Holy Week in their own houses — the earliest surviving text dates to 1704 — even as the century's real strain built around whether Filipino priests, and not only Spanish friars, could ever hold parishes of their own.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Filipino priests: a group inside this church."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "legacy",
+   "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+   "other_id": "philippine-catholicism-gomburza-to-aglipay",
+   "disposition": "link",
+   "link_id": "philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": 4,
+   "reason": "Gomburza tie carried by the continued-as link (Pardo de Tavera)."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "legacy",
+   "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The national revolution has no entry, and no vendored text ties the clergy question to it; qualified as a common reading."
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "legacy",
+   "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+   "other_id": "philippine-catholicism-gomburza-to-aglipay",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The 1902 break from Rome lies inside the era-9 entry (both sides era 9 or later); qualified in the prose, no link here."
+  }
+ ],
+ "links": [
+  {
+   "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "to": "orthodoxy-under-the-ottomans-1650-1821",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Synod of Jerusalem of 1672 copied into its own acts the decrees of earlier synods at Constantinople against the late Patriarch Cyril Lucar. It said it agreed with them in all things. The church of the 1670s took its own earlier rulings as its own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "3016-3020",
+     "locus": "Acts, before the decree of the Synod of Constantinople",
+     "quote": "And here are set forth the Acts of the Synods copied out of the codex which is with us, for confirmation of what hath been said ; with which we ourselves also agree in all things.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "3022-3025",
+     "locus": "Decree of the Synod of Constantinople against Lucar's chapters (as copied in the 1672 acts)",
+     "quote": "THE DECREE OF THE SYNOD HOLDEN IN CON- STANTINOPLE, AGAINST THE HERETICAL CHAPTERS OF CYRIL LUCAR, BY DIVINE PERMISSION PATRIARCH OF CONSTANTINOPLE.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "3098-3101",
+     "locus": "Decree of the Synod of Constantinople, first anathema",
+     "quote": "To Cyril, surnamed Lucar, who in the title of his lawless chapters calumniously averreth that the whole Eastern Church of Christ thinketh as the Calvinists do. Anathema !",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "orthodoxy-under-the-ottomans-1650-1821 relationsSummary ('the second act of Orthodoxy under Ottoman rule', after prose change 0)",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The era-7 drafter may draft the same pair from the other side (the era-7 entry carries the continuation). Merge, do not duplicate.",
+    "The 1672 synod is at Jerusalem, not Constantinople; it shows the same Ottoman Orthodox church adopting the earlier Constantinople decrees, which is the continuity claimed. The Constantinople synods' dates (1638, 1642) are not stated in the quoted lines and are left out of the note."
+   ],
+   "change_reason": "New. The entry calls itself the 'second act' of Ottoman Orthodoxy; no link joined the two periods."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-1650-1821",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1672 the Synod of Jerusalem met under Patriarch Dositheus 'against the Calvinists'. Its acts said that as long as they followed Calvin as their leader, they could never share the faith of the Eastern Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "332-338",
+     "locus": "Title of the acts",
+     "quote": "THE SYNOD OF JERUSALEM AGAINST THE CALVINISTS, HOLDEN IN THE YEAR 1672, UNDER DOSITHEUS, PATRIARCH OF JERUSALEM.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "579-583",
+     "locus": "Shield of Orthodoxy, preamble",
+     "quote": "so it is impossible for our adversaries, so long as they follow Calvin the heresiarch, as a leader, to be at one with the Eastern Church in what concerneth faith.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "orthodoxy-under-the-ottomans-1650-1821 longDescription and why ('answering the Calvinist ideas'), relationsSummary after prose change 0",
+   "major": true,
+   "outcome": "In 1672 the Synod of Jerusalem met against the Calvinists and ruled that their faith could not be the faith of the Eastern Church.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+    "lines": "579-583",
+    "text": "so it is impossible for our adversaries, so long as they follow Calvin the heresiarch, as a leader, to be at one with the Eastern Church in what concerneth faith."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7 (the Reformed cities entry ends 1650; the synod answers Calvin's teaching by name and his followers of the 1670s).",
+    "The synod's direct targets were the Lucar Confession and French Calvinists; a second link to the Huguenots carries the French side. This one carries the condemnation of Calvin's teaching itself.",
+    "English is Robertson's 1899 translation of the Greek acts."
+   ],
+   "change_reason": "New. The entry's 'answering the Calvinist ideas' had no link; the inventory's target (the Reformed cities) is right because the acts name Calvin."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821--the-huguenots",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-1650-1821",
+   "to": "the-huguenots",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Synod of Jerusalem of 1672 named what moved it to meet. Calvinists in France were saying, in speech and in print, that the Eastern Church believed as they did. The synod singled out Claude, a Calvinist minister at Charenton, as the source.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Jerusalem under Dositheus (1672), Acts and Decrees, tr. J. N. W. B. Robertson (London, 1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "457-460",
+     "locus": "Shield of Orthodoxy, preamble",
+     "quote": "do these heretics, as appeareth from a certain Claud, a minister t of the Calvinists at Charenton, endeavour to malign us ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "orthodoxy-under-the-ottomans-1650-1821 relationsSummary ('answered French Calvinists', after prose change 0)",
+   "major": false,
+   "minor_reason": "The synod refutes a French minister's claim about the Eastern Church; its condemnation is of Calvinist teaching as a whole, which the link to Calvin's Geneva carries.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7 (the Huguenots entry runs to 1685; Jean Claude ministered at Charenton until the Revocation).",
+    "The 't' after 'minister' is the file's footnote dagger as OCR'd; it is kept in the quote exactly.",
+    "The entry's own text named only 'Calvinist ideas'; prose change 0 adds 'French Calvinists' so the link is named. Reviewer may prefer to drop this link and keep only the Calvin one."
+   ],
+   "change_reason": "New. The synod's own stated trigger, carried by a named person (Claude of Charenton) the inventory missed."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-1650-1821",
+   "to": "orthodoxy-after-1821-balkan-autocephalies",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "At Easter 1821 the Sultan's government hanged Patriarch Gregory V at his own gate. Robert Walsh, chaplain to the British embassy, wrote that Eugenius was then put in his place. The same see carried on into the age of the national churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Walsh, A Residence at Constantinople, vol. 2 (London, 1836)",
+     "file": "cic/texts/walsh_residence-at-constantinople-v2_1836.txt",
+     "lines": "16379-16380",
+     "locus": "On the patriarchs",
+     "quote": "On the execution of Gregory, Eugenius was appointed in his place,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "orthodoxy-under-the-ottomans-1650-1821 legacy ('each took its own church with it', after prose change 1); relationsSummary (Gregory V's hanging)",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9. The era-9 drafter may draft the same pair; merge.",
+    "Walsh shows the see continuing past 1821, which is what 'continued as' claims. He does not describe the later national churches; the note keeps that to one plain clause, which the era-9 entry itself states."
+   ],
+   "change_reason": "New. The entry's continuation into the era-9 national churches had no link."
+  },
+  {
+   "id": "melkite-greek-catholic-church--orthodoxy-under-the-ottomans-1650-1821",
+   "action": "new",
+   "from": "melkite-greek-catholic-church",
+   "to": "orthodoxy-under-the-ottomans-1650-1821",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In 1724 Damascus chose Cyril VI Tanas as patriarch. The heads of the Greek churches at Constantinople and Jerusalem chose a rival, Sylvester, and got the Sultan's court to back him. They cast Cyril out of the church. In 1726 Sylvester told Catholics to swear to a creed that held to only seven councils.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "3413-3416",
+     "locus": "Restrictus causae Melchitarum, Propaganda particular congregations, 1729",
+     "quote": "Divulgatasi la consecrazione di Cirillo, olim Sera- fino, non si può credere, quanto vivamente dispia- cesse ai patriarchi scismatici di Costantinopoli e di Gerusalemme,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "3426-3427",
+     "locus": "Restrictus causae Melchitarum, 1729",
+     "quote": "gli si ottenne dalla Porta la conferma nella dignità patriarcale ad esclusione di Cirillo",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "3482-3485",
+     "locus": "Restrictus causae Melchitarum, 1729",
+     "quote": "i detti patriarchi con lettera cir- colare e imprecatoria? pubblicarono per degradato e scommunicato, coi suoi consecratori e con altri vescovi e curati suoi aderenti;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "18410-18411",
+     "locus": "Appendix XXVIII: Sylvester's profession of faith proposed to the Catholics, 1726",
+     "quote": "2° Ammetto solamente i sette concilii ecumenici, a cui presiedeva solamente lo Spirito Santo.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cyrille Charon (Korolevsky), Histoire des patriarcats melkites, tomes II-III (Rome, 1910-1911)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-greek-catholic-church relationsSummary, longDescription, why ('Constantinople refused to accept him and consecrated a rival'); legacy (the two churches side by side)",
+   "wants": [
+    "The patriarchs' own circular letter of 1724-25 deposing and excommunicating Cyril VI, in its Greek text (Mansi 46 reports it from Rome's side; its footnote points to the Greek profession in Ekklesiastike Aletheia, t. IX, Constantinople 1889, p. 117), for the Orthodox side in its own words"
+   ],
+   "drafter_flags": [
+    "Both sides are in Mansi 46, but both reach us through Rome's archive: the 1729 summary reports the Orthodox acts, and Sylvester's 1726 profession survives in an Italian copy in the Propaganda files. The Orthodox side's own Greek text is not vendored (wants).",
+    "Mansi's word 'scismatici' and the heading 'Haeretica fidei professio' are Rome's labels; the note avoids them.",
+    "OCR keeps 'dispia- cesse', 'cir- colare' and 'imprecatoria?' as printed; the quotes copy them exactly.",
+    "The note's 'the patriarchs of Constantinople and Jerusalem chose' follows Mansi (lines 3413-3427), which places the election of Sylvester at Constantinople. The entry says 'Constantinople consecrates Sylvester'; the two agree."
+   ],
+   "change_reason": "New. The split itself, named in every field, had no link."
+  },
+  {
+   "id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "melkite-greek-catholic-church",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1729 Rome's mission council ruled that nothing stood in the way of Cyril's consecration as Greek patriarch of Antioch. It set a condition: he must swear to change none of the Greek rites without Rome's consent. In 1730 the pope's envoy, the Capuchin Dorotheus, confirmed him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "10444-10445",
+     "locus": "Decree of the particular congregation of Propaganda, 1729",
+     "quote": "„Nihil obstare validae et licitae consecrationi Cyrilli in patriarcham Antiochenum Graecorum;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "10451-10455",
+     "locus": "Decree of the particular congregation of Propaganda, 1729",
+     "quote": "ita tamen, ut delegatus dictam confirmationem nomine sanctae sedis minime impertiatur, nisi post- quam praefatus Cyrillus emiserit coram ipso, sive coram eius subdelegato, professionem fidei catholi- cae ac iuramentum non immutandi in se suisque",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "19417-19419",
+     "locus": "Acts of the national synod of 25 April 1730",
+     "quote": "His habitis, delegatus apostolicus eundem Cyrillum confirmavit in patriarcham Graecorum Antiochenum sub tali declaratione et clausulis:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-greek-catholic-church longDescription ('recognized by the pope in 1729') and why ('Rome recognized Cyril's line in 1729')",
+   "major": true,
+   "outcome": "In 1729 Rome approved Cyril as patriarch, if he swore to change no Greek rites without its consent. Its envoy confirmed him in 1730.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+    "lines": "10444-10455",
+    "text": "„Nihil obstare validae et licitae consecrationi Cyrilli in patriarcham Antiochenum Graecorum; proindeque concedendam esse eidem, si sanctissimo placuerit, petitam confirmationem in forma commis- saria per litteras apostolicas in forma brevis diri- gendas"
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Type: 'in contact with' because Rome did not found the Melkite Catholic body; it ruled on and confirmed a patriarch the Damascus party had already elected. A reviewer could argue for 'influenced' (the oath on rites); I kept the weaker type.",
+    "Major judgment: the congregation's ruling set a binding condition (no change to Greek rites without Rome) and was carried out in 1730 (line 19417). I chose 'rule-changed' as the nearest kind; 'split' is arguable. Reviewer to confirm.",
+    "Census pair: the era's Catholic Church entry is the nearest party for Rome; its own text does not mention the Melkites."
+   ],
+   "change_reason": "New. 'Recognized by the pope in 1729' named Rome's act but had no link; the inventory left it as 'no single census entry'."
+  },
+  {
+   "id": "melkite-arabic-christianity--melkite-greek-catholic-church",
+   "action": "keep",
+   "from": "melkite-arabic-christianity",
+   "to": "melkite-greek-catholic-church",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Melkite Greek Catholic Church began with a split in the church of Antioch in 1724. Historians of the Melkite churches trace that Arabic-speaking church back to these centuries. This rests on modern histories. No text from the time spans the seven centuries between.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Cyrille Charon (Korolevsky), Histoire des patriarcats melkites, tomes II-III (Rome, 1910-1911), vendored as cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Sidney H. Griffith, The Church in the Shadow of the Mosque (Princeton, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "melkite-greek-catholic-church relationsSummary ('the patriarchate of Antioch split'), longDescription ('one Arabic-speaking, Byzantine-rite community')",
+   "wants": [],
+   "drafter_flags": [
+    "Checked, kept unchanged. Charon is vendored and confirms the Antiochian Melkite hierarchy before 1724 (e.g. the 1715 hierarchy list, lines 34518-34525, and the 1724 split, lines 49832-49836), but nothing vendored spans 1009 to 1724, so the grade stays a modern reconstruction as the note says."
+   ],
+   "change_reason": "Kept; checked against Charon."
+  },
+  {
+   "id": "armenian-christianity-era-8--catholic-church-ancien-regime",
+   "action": "new",
+   "from": "armenian-christianity-era-8",
+   "to": "catholic-church-ancien-regime",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1742 Pope Benedict XIV wrote to Abbot Mekhitar in Venice to thank him for a printed Armenian Bible. The Armenian church leader Malachia Ormanian says that in the same year the pope gave the Armenians in union with Rome a church of their own. Its patriarch was placed under Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XIV to Mekhitar, 22 September 1742, as printed in Minas Nurikhan, The Life and Times of Abbot Mechitar, tr. John McQuillan (Venice, 1915)",
+     "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "lines": "14772-14775",
+     "locus": "Documents: papal letter of 22 September 1742",
+     "quote": "We received yesterday from the hands of the Secre- tary of Propaganda the worthy present, so welcomed by Us, of the Armenian Bible, and We return you heartfelt thanks .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4533-4536",
+     "locus": "ch. on the eighteenth century, pp. 86-87",
+     "quote": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic patriarchate which was officially subject to the Roman Curia (1742).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Minas Nurikhan, The Life and Times of Abbot Mechitar, tr. John McQuillan (Venice, 1915)",
+     "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "lines": "1664-1667",
+     "locus": "Introduction",
+     "quote": "This Catholic movement gave rise to the . insti- tution of the Armenian-Catholic Patriarchate of Ci- licia by the Sovereign Pontiff, Benedict XIV, in 1742, with many privileges.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-christianity-era-8 relationsSummary, longDescription, why ('Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia')",
+   "major": true,
+   "outcome": "In 1742 Pope Benedict XIV gave the Armenians in union with Rome a church of their own. Its patriarch was placed under Rome.",
+   "outcome_kind": "split",
+   "outcome_evidence": {
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "4533-4536",
+    "text": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic patriarchate which was officially subject to the Roman Curia (1742)."
+   },
+   "wants": [
+    "Benedict XIV's own act of 1742 confirming Abraham Ardzivian (Abraham Petros I) as Catholic patriarch of Cilicia, in a vendored Bullarium or collection, so the founding act rests on its own text rather than on Ormanian and Nurikhan"
+   ],
+   "drafter_flags": [
+    "The primary (the 1742 letter) documents contact; the patriarchate itself rests on two secondary works from opposite sides (Ormanian, an Apostolic patriarch; Nurikhan, a Mekhitarist), which agree. The outcome rests on Ormanian, a source on the link.",
+    "Ormanian names the first patriarch 'Abraham Ardzivian (1740)'; the entry calls him Abraham Petros I. Same man; the note avoids both names to stay short.",
+    "'Armeho-' is the file's OCR for 'Armeno-'; kept exactly.",
+    "The letter's year: Nurikhan prints it dated 22 September 1742, after a Bible printed 1733-35. Kept as printed."
+   ],
+   "change_reason": "New. Benedict XIV's 1742 act, named in three fields, had no link; the inventory left it as 'no single census entry'."
+  },
+  {
+   "id": "armenian-christianity-era-8--armenian-christianity-zartonk",
+   "action": "new",
+   "from": "armenian-christianity-era-8",
+   "to": "armenian-christianity-zartonk",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1837 a French scholar wrote that Mekhitar's monks took the books they printed at San Lazzaro to much of Asia. Later the Armenian church leader Malachia Ormanian praised all they had done for the Armenian language and its books.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugène Boré, Le couvent de Saint-Lazare à Venise (Paris, 1837)",
+     "file": "cic/texts/bore_couvent-de-saint-lazare-a-venise-fra_1837.txt",
+     "lines": "1846-1849",
+     "locus": "ch. IV, on the missions",
+     "quote": "En portant le flambeau de la foi , ils répandent aussi les lumières de la science, au moyen des livres imprimés dans le couvent de Saint-Lazare.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4506-4510",
+     "locus": "ch. on the eighteenth century, p. 86",
+     "quote": "it is a grateful task to pay homage to the Mekhitarists of Venice and of Vienna for the great services they have rendered to the nation by enriching so profusely the Armenian language and literature.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-christianity-era-8 legacy ('laid much of the groundwork for the nineteenth-century Armenian cultural revival, the Zartonk')",
+   "major": false,
+   "minor_reason": "Books and scholarship taken up by a later movement; no council, split or ruling.",
+   "wants": [
+    "A Zartonk-era Armenian text (Constantinople or Tiflis press, school or newspaper, 1815-1906) that names Mekhitarist editions or dictionaries as its basis, to lift this to Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9.",
+    "Boré (1837) is a witness from the Zartonk century to the Mekhitarist books' spread, not the revival naming them; Ormanian is a late voice (patriarch 1896-1908, writing 1910-12) and stands here as secondary. Neither alone is the 'later side names the earlier' test, hence Widely Accepted, not Documented.",
+    "The census also carries this pair as the Armenian lane's period continuation. A 'continued as' link for it is not named in the entry's text and is not drafted here; see escalations."
+   ],
+   "change_reason": "New. The legacy's Zartonk claim had no link."
+  },
+  {
+   "id": "philippine-catholicism--philippine-catholicism-era-8",
+   "action": "new",
+   "from": "philippine-catholicism",
+   "to": "philippine-catholicism-era-8",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A Recollect chronicle printed in 1743 tells how bishops first tried, in 1654-56, to inspect the friars who served as parish priests. It calls the friars' way of running their parishes the practice 'always followed' in the islands. The same orders and parishes carried on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Diego de Santa Theresa, Historia general de los religiosos descalzos de San Agustín, part III (Barcelona, 1743), tr. in Blair and Robertson, The Philippine Islands, vol. 36 (1906)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v36_1906.txt",
+     "lines": "3800-3801",
+     "locus": "Decade VII, book II, ch. II, year 1656 (editors' bracketed summary)",
+     "quote": "[In 1654 the first mutterings of the storm caused by the visitation of the regulars by the bishops break in the Philippines.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Diego de Santa Theresa, Historia general de los religiosos descalzos de San Agustín, part III (Barcelona, 1743), tr. in Blair and Robertson, The Philippine Islands, vol. 36 (1906)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v36_1906.txt",
+     "lines": "3810-3814",
+     "locus": "Decade VII, book II, ch. II, § I, no. 719",
+     "quote": "The system that they have always followed in the spiritual administration of the missions and villages which they have formed at the cost of their sweat is the same as that observed in América in the beginning by various apostolic privileges.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "philippine-catholicism-era-8 relationsSummary ('This continues the story of Philippine Catholicism')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The era-7 drafter may draft the same pair; merge.",
+    "Line 3800-3801 is Blair and Robertson's bracketed summary of the chronicle, not the chronicle's words; the chronicle's own words are the second quote. The phrase 'always followed' in the note is from the chapter heading (line 3792), 'Relation of the practice that has always been followed in the spiritual administration of the islands'.",
+    "The quote is in English translation (Robertson's), not Santa Theresa's Spanish."
+   ],
+   "change_reason": "New. The entry says it continues the earlier Philippine entry; no link joined them."
+  },
+  {
+   "id": "philippine-catholicism-era-8--philippine-catholicism-gomburza-to-aglipay",
+   "action": "new",
+   "from": "philippine-catholicism-era-8",
+   "to": "philippine-catholicism-gomburza-to-aglipay",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "A Franciscan wrote that in 1771 soldiers took the Augustinian friars' parishes and gave them to thirty-one Filipino priests. In 1899 the Filipino writer T. H. Pardo de Tavera traced the long fight over Filipino priests. He tied it to the deaths of three priests: Burgos, Zamora and Gomez.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Franciscan's letter on the provincial council of 1771, tr. in Blair and Robertson, The Philippine Islands, vol. 50 (1907)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v50_1907.txt",
+     "lines": "7080-7082",
+     "locus": "Franciscan letter on the council of 1771",
+     "quote": "a large body of soldiery, sent therefor from the city of Manila by the governor, gave to thirty-one Indian clerics [160] the parishes of the Augustinian fathers,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. H. Pardo de Tavera, annotations to the Memoria de Anda y Salazar (Manila, 1899), as given in Blair and Robertson, The Philippine Islands, vol. 50 (1907), note 76",
+     "file": "cic/texts/blair-robertson_philippine-islands-v50_1907.txt",
+     "lines": "8441-8444",
+     "locus": "editors' note 76",
+     "quote": "for three of their most distinguished and revered members, Fathers Burgos, Zamora, and Gomez, were executed under the calumnious accusation of being leaders of the rebellion,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. H. Pardo de Tavera, annotations to the Memoria de Anda y Salazar (Manila, 1899), as given in Blair and Robertson, vol. 50, note 76",
+     "file": "cic/texts/blair-robertson_philippine-islands-v50_1907.txt",
+     "lines": "8412-8413",
+     "locus": "editors' note 76",
+     "quote": "It was not only in those times [of Anda] that the situation of the Filipino cleric was so melancholy and abject;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "philippine-catholicism-era-8 relationsSummary ('building toward the crisis of 1872'); legacy (Gomburza, after prose change 4)",
+   "wants": [
+    "A Filipino secular clergy text from the era-9 side, e.g. José Burgos's Manifiesto (1864) in defense of the Filipino clergy, to show the quarrel's continuity in that clergy's own words and lift this to Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9. The era-9 drafter may draft the same pair; merge.",
+    "'Indian clerics' in the 1771 letter means native secular priests (editors' note 160: 'clerici ... always means secular'). The note says 'Filipino secular priests'.",
+    "Pardo de Tavera dates the Cavite rising to 1870 in these lines; the executions were in 1872. The note gives no date, so as not to repeat his slip or contradict the entry.",
+    "Pardo de Tavera's words reach us in Blair and Robertson's English rendering of his Spanish notes ('either translated in full, or condensed', note 68)."
+   ],
+   "change_reason": "New. The entry's continuation into the Gomburza era had no link."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "old": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767. The Serbian Great Migration of 1690 placed the Karlovci church outside the Ottoman millet system from that date. The story ends with Patriarch Gregory V hanged at the Patriarchate's gate at Easter 1821.",
+   "new": "This is the second act of Orthodoxy under Ottoman rule. In 1672 the Synod of Jerusalem, led by Patriarch Dositheus, answered French Calvinists. They had claimed that the Eastern Church shared their faith. Its confession was the East's own statement of faith, to set beside those of the West. This century also saw the most neomartyrs, and the rise of the Phanariot families. In 1766 Constantinople did away with the Serbian patriarchate of Peć. A year later it did the same to the archbishopric of Ohrid. After the Great Migration of the Serbs in 1690, their church at Karlovci lay outside the Ottoman millet system. The story ends at Easter 1821, when Patriarch Gregory V was hanged at his own gate.",
+   "reason": "'The East's own answer to the Council of Trent' misstated what the synod answered: its acts say it met 'against the Calvinists', prompted by French Calvinists' claims (Dositheus, Robertson 1899, lines 332-338, 457-460). It never addresses Trent. The comparison with Western confessions is kept, as the longDescription already makes it. 'Second act' now reads in plain words. Every other fact kept. Whole field rewritten.",
+   "fre_after": 62.0,
+   "fk_after": 7.8
+  },
+  {
+   "n": 1,
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "legacy",
+   "old": "The arrangement kept Orthodox Christianity intact through centuries of Muslim rule, at the price of tying the church to a foreign state and of Greek ecclesiastical dominance over Slavs and Arabs. A resentment that shaped every Balkan church that came after. When the empire's Christian provinces became nations in the nineteenth century, each took its own church with it, and the pattern of national Orthodox churches that exists today is the direct result. Gregory V's gate at the Phanar has never been opened since 1821: it is welded shut and painted black, and the patriarchate is still there behind it.",
+   "new": "The arrangement kept Orthodox Christianity intact through centuries of Muslim rule. The price was a church tied to a foreign state, with Greek church leaders ruling over Slavs and Arabs. That rule bred resentment. In 1762 the Bulgarian monk Paisii of Hilendar wrote that his people suffered much wrong from Greek bishops. When the empire's Christian provinces became nations in the nineteenth century, each took its own church with it. Today's pattern of national Orthodox churches grew out of that break-up. Gregory V's gate at the Phanar has never been opened since 1821. It is welded shut and painted black, and the patriarchate is still there behind it.",
+   "reason": "'A resentment that shaped every Balkan church that came after' was a fragment and an unsupported sweep. It is replaced by one attested case: Paisii of Hilendar, Istoriia slavianobolgarskaia (1762), lines 6883-6884 ('много насишш неправ-Ьдно . с5 грчески владицп', much unjust violence from Greek bishops), and his complaint of 'гръцка архиерейска власть' quoted by his editor at lines 1046-1047. 'The direct result' is softened to 'grew out of'; the break-up itself is the era-9 entry's own subject. Whole field rewritten.",
+   "fre_after": 62.0,
+   "fk_after": 7.9
+  },
+  {
+   "n": 2,
+   "movement": "melkite-greek-catholic-church",
+   "field": "relationsSummary",
+   "old": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+   "new": "When Patriarch Athanasius III died in 1724, the party at Damascus chose Cyril VI Tanas, who favored union with Rome. Constantinople consecrated a rival, Sylvester, instead. The see of Antioch split for good, and the Melkite Greek Catholic Church began. It is still alive today. The split took a shape seen before, in the Union of Brest and in the Maronites' union with Rome. The Orthodox side of the split stayed part of Orthodoxy under the Ottomans.",
+   "reason": "'Kin-shape ... both seated' was cataloguing language ('seated' means 'has an entry'). It now says plainly that the split followed an earlier pattern; no link is claimed, since neither Brest nor the Maronites is shown to have shaped the 1724 events. 'Continues within the later history of Ottoman-era Orthodoxy' is restated plainly. Whole field rewritten.",
+   "fre_after": 60.4,
+   "fk_after": 8.0
+  },
+  {
+   "n": 3,
+   "movement": "melkite-greek-catholic-church",
+   "field": "legacy",
+   "old": "Both churches are alive. The Melkite Greek Catholic Church has a patriarch of Antioch today, is present across the Middle East and in a large diaspora in the Americas, Europe and Australia, and worships in Arabic in the Byzantine rite while in communion with Rome. The Greek Orthodox Patriarchate of Antioch continues alongside it. The split also fixed a pattern that recurs across the Christian East — an Eastern-rite church in union with Rome standing beside its Orthodox mother church, with all the ordinary difficulty that creates. Through Aleppo's presses and schools, the Melkites became significant carriers of Arabic Christian literature.",
+   "new": "Both churches are alive. The Melkite Greek Catholic Church has a patriarch of Antioch today. It is found across the Middle East and in large communities abroad, in the Americas, Europe and Australia. It worships in Arabic in the Byzantine rite, in communion with Rome. The Greek Orthodox Patriarchate of Antioch lives on beside it. The split gave the Christian East one more case of a familiar pattern. An Eastern-rite church in union with Rome stands beside the Orthodox church it came from, with all the everyday strain that brings. Through Aleppo's presses and schools, the Melkites became major carriers of Arabic Christian writing.",
+   "reason": "'The split also fixed a pattern' claimed the 1724 split set a pattern that the Union of Brest (1596) and the Maronite union had already set; the entry's own summary calls those earlier. Now 'one more case of a familiar pattern'. Every other fact kept. Whole field rewritten.",
+   "fre_after": 62.2,
+   "fk_after": 7.8
+  },
+  {
+   "n": 4,
+   "movement": "philippine-catholicism-era-8",
+   "field": "legacy",
+   "old": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world, and the devotional culture of these centuries is still recognizably what is practiced — the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902. The friar churches themselves survive: four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
+   "new": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world. Its devotions are still much as they were in these centuries: the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The period left one question open: could Filipino priests run Filipino parishes? Writing in 1899, a Filipino scholar traced that quarrel to the execution of three priests in 1872. They are remembered as Gomburza. The quarrel is also often tied to the national revolution. It is tied as well to the Philippine church that broke from Rome in 1902. The friar churches still stand. Four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
+   "reason": "The tie from the clergy question to Gomburza now rests on Pardo de Tavera's 1899 notes (Blair and Robertson v50, lines 8412-8413, 8441-8444). 'Fed directly into the national revolution and into the independent Philippine church' has no vendored source and is qualified as a common reading. Every other fact kept. Whole field rewritten.",
+   "fre_after": 63.3,
+   "fk_after": 7.5
+  }
+ ],
+ "wants": [
+  "The patriarchal acts (sigillia) of 1766 and 1767 abolishing the patriarchate of Peć and the archbishopric of Ohrid, e.g. from Gedeon, Kanonikai diataxeis, vol. 2, or a Serbian documentary collection, to support the stated facts in the Ottoman Orthodoxy entry",
+  "The circular of the patriarchs of Constantinople and Jerusalem (1724-25) deposing and excommunicating Cyril VI Tanas, in Greek (Mansi 46 cites Ekklesiastike Aletheia, t. IX, Constantinople 1889, p. 117 for a related profession)",
+  "Benedict XIV's 1742 act confirming Abraham Ardzivian (Abraham Petros I) as Armenian Catholic patriarch of Cilicia, in a vendored Bullarium",
+  "A Zartonk-era Armenian text naming Mekhitarist editions or dictionaries as its basis",
+  "José Burgos, Manifiesto que a la noble nación española dirigen los leales filipinos (1864), or another Filipino secular clergy text, for the era-8 to era-9 continuity",
+  "A source for Lord Byron's 1816 study at San Lazzaro (e.g. Byron's letters of 1816-17 in a public-domain edition), for the Armenian legacy's stated fact"
+ ],
+ "escalations": [
+  "Census structure (portfolio-level, for Mark): the Armenian Apostolic Church from 1650 to 1815 has no entry. The census routes the Armenian lane through 'Armenian Christianity — the Mekhitarists and the Catholic Patriarchate' (New Julfa continues into it, and it continues into the Zartonk), yet that entry's own text treats the Apostolic Church as the other, larger body. A 'continued as' link from New Julfa or into the Zartonk would claim the Catholic and Mekhitarist story is the same community as the Apostolic Church. I drafted neither; the Zartonk tie is drafted only as 'influenced'. Mekhitar did come out of the Apostolic Church: Nurikhan has him go to Etchmiadzin with the Catholicos's delegate in 1692 (lines 2866-2868). Options: (a) add an era-8 Apostolic Church entry; (b) widen this entry's scope and text; (c) keep the structure and accept 'continued as' links across the lane. Recommendation: (a).",
+  "Not a stop, for the merge: two fragments outside my change scope stay in the Philippine longDescription ('Which became the great grievance of the century that followed.') and the Armenian longDescription ('To gather, edit and print the Armenian inheritance for a people scattered across empires.'). Neither carries a relationship claim, so I did not rewrite those fields. The Philippine entry's name, 'Era-8 Segment', is cataloguing language in a public name. All sixteen fields score below the reading target; I rewrote only the five that needed a relationship fix.",
+  "Not a stop: Charon (lines 49832, 35059) numbers the patriarch who died in 1724 'Athanase IV Dabbas'; the entry says Athanasius III. Both numberings are in use. Prose change 2 keeps the entry's 'III'; a reviewer may prefer to drop the numeral."
+ ]
+}
