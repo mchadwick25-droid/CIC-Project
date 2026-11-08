@@ -170,6 +170,11 @@
      "field": "sourcing",
      "old": "oral-history projects still gathering",
      "new": "oral-history projects add to them"
+    },
+    {
+     "field": "documentedStories[1].text",
+     "old": "Luwum's statue stands over the west door of Westminster Abbey.",
+     "new": "In 1998 Luwum's statue was set over the west door of Westminster Abbey."
     }
    ],
    "links": "1 (east-african-christianity-uganda-martyrs → IX.3) — fine history.",
@@ -690,7 +695,7 @@
    "end": 2010,
    "datesV1": "1940s-present (1940–2026)",
    "living": true,
-   "livingReason": "Alive today. Settled on dated evidence. Settled on a verified 2017 own-voice text. The Sunday schools and monasteries are the church's own institutions, not a separate current. Evidence: Bishop Suriel, Habib Girgis (SVS Press, 2017): the church's own voice, a Coptic bishop's study; verified; The 21 Libya martyrs entered in the church's synaxarium (2015): own voice; [S]; Girgis canonized (2013): own voice; [S]; Mosebach, The 21 (ET 2019): literary journalism; [S]. Grade: CR (Contemporary-Reported); newest dated item 2019, newest verified 2017. Settled (§2d).",
+   "livingReason": "Alive today. The Sunday schools and monasteries are the church's own institutions, not a separate current. Dated evidence: Bishop Suriel, Habib Girgis (SVS Press, 2017): the church's own voice, a Coptic bishop's study; verified. The study is of Habib Girgis, who died in 1951, so under the §2d rule it does not describe the present by itself. The 21 Libya martyrs entered in the church's synaxarium (2015): own voice; [S]; Girgis canonized (2013): own voice; [S]; Mosebach, The 21 (ET 2019): literary journalism; [S]. Grade: CR (Contemporary-Reported); newest dated item 2019, newest verified 2017. Uncertain, group L-1 (§2d; G-5).",
    "tier": "Tier 2",
    "tierV1": "Tier 2",
    "sourcingGrade": "Rich",
@@ -1026,6 +1031,11 @@
      "field": "sourcing",
      "old": "Moderate (recent, self-documenting,",
      "new": "Moderate (from the 1960s on, self-documenting,"
+    },
+    {
+     "field": "legacy",
+     "old": "the question it keeps open rather than the institutions it has built",
+     "new": "the question it kept open rather than the institutions it built"
     }
    ],
    "links": "0.",
@@ -2043,6 +2053,16 @@
      "field": "statusDescription",
      "old": "are named only minimally for now, since",
      "new": "are named only minimally, since"
+    },
+    {
+     "field": "voices[1]",
+     "old": "part of the record it keeps of itself",
+     "new": "part of the record it kept of itself"
+    },
+    {
+     "field": "documentedStories[1].caveat",
+     "old": "The retelling has been remarkably stable.",
+     "new": "The retelling stayed remarkably stable."
     }
    ],
    "sourceNotes": [
@@ -3846,7 +3866,7 @@
    "start": 1990,
    "end": 2010,
    "living": true,
-   "livingReason": "Alive today. A church body, or a set of them, with no recorded end; the gap is in the citation. No independent counter of any kind (V1.0). Newest evidence is fifteen years old. Evidence: First Fruits of Zion statements on the cost of its 2009 change, dated 2010-11: own voice (status as recorded in the V2.0 IX.49 note); 119 Ministries, c. 2010: [S]. Grade: CR (Contemporary-Reported); newest dated item 2011, none verified. Uncertain, group L-1 (§2d; G-5).",
+   "livingReason": "Alive today. A church body, or a set of them, with no recorded end; the gap is in the citation. No independent counter of any kind (V1.0). Newest evidence is fifteen years old. Evidence: First Fruits of Zion statements on the cost of its 2009 change, dated 2010-11 [S]: own voice (status as recorded in the V2.0 IX.49 note); 119 Ministries, c. 2010: [S]. Grade: CR (Contemporary-Reported); newest dated item 2011, none verified. Uncertain, group L-1 (§2d; G-5).",
    "tier": "Tier 3 (unchanged)",
    "sourcingGrade": "Thin",
    "registerEdits": [
@@ -3920,6 +3940,12 @@
      "old": "the two traditions' own publications draw that distinction themselves",
      "new": "the two traditions' own publications drew that distinction themselves",
      "action": "R2-S2: undated present tense about later reception"
+    },
+    {
+     "field": "sourcing",
+     "old": "Much of the record lives on platforms that can disappear.",
+     "new": "Much of the record was kept on fragile platforms.",
+     "gate": "G-46"
     }
    ],
    "sourceNotes": [

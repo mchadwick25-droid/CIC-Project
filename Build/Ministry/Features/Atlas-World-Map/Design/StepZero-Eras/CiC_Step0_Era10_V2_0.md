@@ -65,6 +65,21 @@ answered below, one line each.
 - No line of the record, and no `livingReason`, ties the living mark to 2010.
 
 
+## Revision log (after Round 3)
+
+Round 3 (`CiC_Step0_Era10_V2_Review_Round3.md`) found no substantial defect, three minor groups (M-1 to M-5) and three cosmetic defects. Each is answered below, one line each.
+
+- **M-1** fixed, as the review gives. Five new substring edits: IX.3 (Luwum's statue, dated 1998), IX.26 (`voices[1]` and `documentedStories[1].caveat`), IX.13 (`legacy`) and IX.49 (`sourcing`, gated under G-46). The scan's word list gains `keeps`, `has been`, `stands over` and `lives on`.
+- **M-2** fixed, as the review gives. §4E's verdicts are "folded" (9 rows), "left out: no source" (11) and "left out: partial base" (M2, M5 and the liturgical movement, M11). M9 stays a defined movement. The count paragraph and the Summary name the three values. The counts are unchanged.
+- **M-3** fixed, the review's first option. IX.10 moves to uncertain, group B (L-1). Its 2017 study is of Habib Girgis, who died in 1951, so under the §2d rule it does not describe the present. Recount: 6 settled and 42 uncertain among the 48 kept rows (48 uncertain with the six drafts, 24 in group B). The Summary, §2d, G-5, IX.10's `livingReason` and its §2 line are updated.
+- **M-4** fixed, as the review gives. G-50 (a) and §2d L-3 give IX.28's own record of dispersal as the reason for false, and state that this departs from L-2's tradition rule.
+- **M-5** fixed. IX.3's Wanted note no longer ties the living mark to 2010. §2d points to each entry's `livingReason` in the JSON for the newest verified year and the items.
+- **C-1** fixed. Each §2 "Register" count follows the JSON, with the new M-1 edits added (IX.3, IX.13, IX.26, IX.49).
+- **C-2** fixed. IX.49's `livingReason` marks the First Fruits of Zion statements [S].
+- **C-3** fixed. §2d gives the map from the table's group letters to L-1 to L-4 before the table.
+
+**Check after revision** (`apply3.py` and `scan3.py`, against census release 19). All 453 substring edits apply exactly once, in order. All 19 structural operations match exactly one item. With the 10 gated edits left out, the other 443 still apply. The repo validator, run as CI runs it, gives 0 errors on the edited copy, under G-8 (a) and (b) alike, with the same two shortName warnings. The widened scan, now with `keeps`, `has been`, `stands over` and `lives on`, finds no year after 2010 (POST2010 0), 98 dated hits and 114 allowed hits. Five hits are not yet allowed: two in IX.2 and one each in IX.24, IX.38 and IX.49. Each is a past or narrative line in a dated story, or the page or a source describing itself, and none says where a tradition stands today. Each was read at assembly and allowed with that reason: IX.2 "this map keeps them together" (the page describing its method), IX.2 "has been the face of the Welsh revival" (a 1906 story), IX.24 "has been exporting" (reported speech, 1974), IX.38 "the convention's own history keeps his visit" (a source described), IX.49 "has been hidden by translation" (a 1937 story). The scan passes.
+
 ## 0. What governs this run
 
 - **The window is 1906 to about 2010** (ruling 1). The era opens with Azusa Street (1906) and the
@@ -111,12 +126,12 @@ reviews the record (round 1 full, later rounds targeted rechecks, three rounds a
 | Proposed for dropping | 1 (IX.31, Deconstruction: every anchor is dated 2015 or later) |
 | End "present" → "c. 2010" | 32 (IX.18's "contemporary" included). The display reads "<start>–c. 2010" for every body active at the era's end (39 with the drafts); the numeric `end` is 2010 (G-2) |
 | Other date changes | 1 (IX.28: c. 1990–2015 → c. 1990–c. 2010) |
-| Living (alive today) | 44 yes · 4 no (IX.6, IX.17, IX.28, IX.34) among the 48 kept rows; IX.31 is proposed for retirement and carries no flag. 7 flags settled on dated evidence, 41 uncertain, in four groups at G-5 (§2d). The six new drafts are marked yes, all uncertain. One change from the census: IX.28, yes → no (recommended; G-50) |
-| Register edits to participant-facing text | 448 substring edits, each exact and unique in its field as it stands when it runs, applied in sequence without conflict; plus 19 structural operations (18 whole-item removals and the IX.31 retirement) |
+| Living (alive today) | 44 yes · 4 no (IX.6, IX.17, IX.28, IX.34) among the 48 kept rows; IX.31 is proposed for retirement and carries no flag. 6 flags settled on dated evidence, 42 uncertain, in four groups at G-5 (§2d). The six new drafts are marked yes, all uncertain. One change from the census: IX.28, yes → no (recommended; G-50) |
+| Register edits to participant-facing text | 453 substring edits, each exact and unique in its field as it stands when it runs, applied in sequence without conflict; plus 19 structural operations (18 whole-item removals and the IX.31 retirement) |
 | New entries drafted | 1 ready for the gate (Iglesia ni Cristo split), plus IX.50 held for Mark's direct ruling |
 | Skeletons, not for entry yet | 4 (Bible translation movements; the Anglican Communion in the twentieth century; the independent mission movement; student and campus movements) |
 | Movements outside church bodies assessed | 13 groups and the unreached-peoples line (§4C), and six renewal movements beside IX.45 (§4D) |
-| Tested as defined movements (§4E) | 24 candidates: 1 defined movement (the ecumenical movement, already IX.46), 9 folded into existing entries, 14 left out for now. The Christian Right is cross-referenced to IX.50 only |
+| Tested as defined movements (§4E) | 24 candidates: 1 defined movement (the ecumenical movement, already IX.46), 9 folded into existing entries (verdict "folded"), 14 left out for now (11 "left out: no source", 3 "left out: partial base"). The Christian Right is cross-referenced to IX.50 only |
 | Gate questions | 55 numbered (§6), G-1 to G-55. G-49 is withdrawn, so 54 are open |
 
 **Tiers (V2.0):** Tier 1 (11): IX.1 · IX.4 · IX.5 · IX.6 · IX.11 · IX.23 · IX.24 · IX.33 · IX.34 ·
@@ -331,7 +346,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** Continuation of the fellowships inside Anglicanism through 2010: Widely Accepted, [S] — carried, not upgraded.; Luwum's death date (16/17 Feb 1977): [S] in V1.0 — carried.
 
-**Register:** 7 edits (listed in the JSON); 7 edits: the 'persist … to this day', 'still sung today', 'remains its best-known martyr' and 'still gathering' lines put in the past; the dated-reading clause removed; the 'only recently' phrase made timeless.
+**Register:** 8 edits (listed in the JSON); 7 edits: the 'persist … to this day', 'still sung today', 'remains its best-known martyr' and 'still gathering' lines put in the past; the dated-reading clause removed; the 'only recently' phrase made timeless.
 
 **Links touching it:** 1 (east-african-christianity-uganda-martyrs → IX.3) — fine history.
 
@@ -339,7 +354,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Open questions for Mark:** none
 
-**Wanted:** A dated record that the fellowships were active in the 2000s (e.g. a convention record) would lift the living-as-of-2010 call off [S]; Ward & Wild-Wood (2012, verified) may already carry it — to check.
+**Wanted:** A dated record that the fellowships were active in the 2000s (e.g. a convention record) would show the fellowships still meeting after 2010, the evidence the living mark lacks (§2d L-2); Ward & Wild-Wood (2012, verified) may already carry it — to check.
 
 #### IX.4 — African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) (`african-initiated-churches-harrist-aladura-zioni`)
 **Disposition:** keep — the four-family row with per-body notes stays the census's deliberate design; end moves 2026 → 2010. · **Tier:** Tier 1 (V1.0: Tier 1) · **Dates:** 1880s-c. 2010 (1880–2010) (V1.0: 1880s-present (1880–2026)) · **Living (alive today):** yes. Family row. The Kimbanguist leg has independent dated evidence. The Harrist and Aladura legs have no per-body source after 2010; the family mark rests on WCE 2019. Grade: CD (2021). Settled. Evidence: §2d.
@@ -373,7 +388,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** Scale: Contested — Pew (2011 publication), official TSPM/CCC figures and movement claims differ.; The 1998 Confession's text and signatories: [S] — carried; signatories stay unnamed for safety.
 
-**Register:** 11 edits (listed in the JSON): 'to today', 'ever since', 'has gone on since', 'present-day community', 'still faces today' and the present-tense scale lines put in the past; the Pew figure kept, labeled as a study published later, in 2011; the floorNote's 'stands doctrinally' put in the past; the dated-reading clause removed. The CRI 2009 lines stand unchanged. After Round 2: 1 more (the Little Flock story teaser, "whose books would be read").
+**Register:** 12 edits (listed in the JSON): 'to today', 'ever since', 'has gone on since', 'present-day community', 'still faces today' and the present-tense scale lines put in the past; the Pew figure kept, labeled as a study published later, in 2011; the floorNote's 'stands doctrinally' put in the past; the dated-reading clause removed. The CRI 2009 lines stand unchanged. After Round 2: 1 more (the Little Flock story teaser, "whose books would be read").
 
 **Links touching it:** 1 (the-missionary-movement-s-native-churches-seramp → IX.5) — fine history.
 
@@ -394,7 +409,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** none beyond the [S] flags carried.
 
-**Register:** 3 edits (listed in the JSON); 3 edits: the 'not a dated reading like the living traditions' sentence recast as plain history; two present-tense reception lines ('is a confessional text', 'is read') put in the past. After Round 2: 2 more (the legacy's two reception lines put in the past).
+**Register:** 5 edits (listed in the JSON); 3 edits: the 'not a dated reading like the living traditions' sentence recast as plain history; two present-tense reception lines ('is a confessional text', 'is read') put in the past. After Round 2: 2 more (the legacy's two reception lines put in the past).
 
 **Links touching it:** 0.
 
@@ -436,7 +451,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** The base communities' contraction in the 1990s and continuation into 2010: Widely Accepted, [S] — carried.
 
-**Register:** 7 edits (listed in the JSON); 7 edits: 'contracted after the 1990s' corrected to 'in the 1990s' (matching the row's own status line); 'lives on/continue … today' put in the past; Romero's 2018 canonization, Cardenal's 2019 reinstatement and the 2022 beatification removed (gaps left); the dated-reading clause removed. After Round 2: 2 more ("you can read" and "can be read" put in the past).
+**Register:** 9 edits (listed in the JSON); 7 edits: 'contracted after the 1990s' corrected to 'in the 1990s' (matching the row's own status line); 'lives on/continue … today' put in the past; Romero's 2018 canonization, Cardenal's 2019 reinstatement and the 2022 beatification removed (gaps left); the dated-reading clause removed. After Round 2: 2 more ("you can read" and "can be read" put in the past).
 
 **Links touching it:** 0.
 
@@ -457,7 +472,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** Optina → Paris link: Inferential-Thin, as the edge already grades it.; Sophia question 'still open in 2010': Widely Accepted.; Skobtsova's 2004 canonization: [S] in V1.0 — carried.
 
-**Register:** 4 edits (listed in the JSON); 4 edits: 'still put into students' hands' and 'today descends' put in the past; 'still open' in story[0] dated to 2010; the dated-reading clause removed. The 2004 canonizations now fall inside the era and stay. After Round 2: 1 more (Schmemann's voice, "came to be read").
+**Register:** 5 edits (listed in the JSON); 4 edits: 'still put into students' hands' and 'today descends' put in the past; 'still open' in story[0] dated to 2010; the dated-reading clause removed. The 2004 canonizations now fall inside the era and stay. After Round 2: 1 more (Schmemann's voice, "came to be read").
 
 **Links touching it:** 1 (the-optina-elders-and-russian-ascetic-renewal → IX.9) — fine history.
 
@@ -468,7 +483,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 **Wanted:** none
 
 #### IX.10 — The Coptic Monastic & Sunday-School Revival (`the-coptic-monastic-and-sunday-school-revival`)
-**Disposition:** keep — end moves 2026 → 2010; the Girgis start fork stays as frozen (keep 1940s + disclose). · **Tier:** Tier 2 (V1.0: Tier 2) · **Dates:** 1940s-c. 2010 (1940–2010) (V1.0: 1940s-present (1940–2026)) · **Living (alive today):** yes. Settled on a verified 2017 own-voice text. The Sunday schools and monasteries are the church's own institutions, not a separate current. Grade: CR (2019). Settled. Evidence: §2d.
+**Disposition:** keep — end moves 2026 → 2010; the Girgis start fork stays as frozen (keep 1940s + disclose). · **Tier:** Tier 2 (V1.0: Tier 2) · **Dates:** 1940s-c. 2010 (1940–2010) (V1.0: 1940s-present (1940–2026)) · **Living (alive today):** yes. The Sunday schools and monasteries are the church's own institutions, not a separate current. Its verified 2017 text studies Habib Girgis, who died in 1951, so it does not count alone for the present. Grade: CR (2019). Uncertain, group L-1 (G-5). Evidence: §2d.
 
 **Section A:** A1: no question. A3: none. Unchanged.
 
@@ -478,7 +493,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** The 1918 Sunday School Committee: [S], since the two research runs diverge (the survey verified it; the sources run could not page-verify it) — the church's traditional date. No date string rests on it.; Matthew the Poor's readership outside Egypt by 2010: Widely Accepted (English Orthodox Prayer Life, SVS 2003, inside the era).
 
-**Register:** 10 edits and 2 removals (listed in the JSON): the 2015 Libya martyrs removed from teaser, why, longDescription and legacy, and their voice and source items removed whole (gaps left; the 'names its dead' imagery kept, past tense); Girgis's 2013 canonization removed; Shenouda 'published steadily from then to 2010'; the legacy put in 2010 terms; the dated-reading clause removed. After Round 2: 2 more (Matthew the Poor's reception, in longDescription and his voice).
+**Register:** 12 edits and 2 removals (listed in the JSON): the 2015 Libya martyrs removed from teaser, why, longDescription and legacy, and their voice and source items removed whole (gaps left; the 'names its dead' imagery kept, past tense); Girgis's 2013 canonization removed; Shenouda 'published steadily from then to 2010'; the legacy put in 2010 terms; the dated-reading clause removed. After Round 2: 2 more (Matthew the Poor's reception, in longDescription and his voice).
 
 **Links touching it:** 1 (coptic-revival-under-cyril-iv → IX.10) — fine history.
 
@@ -499,7 +514,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** 'By the end of the century the Assembleias de Deus were the largest Protestant body in Latin America' (story[0]): Widely Accepted on self-counts; no independent count cited.; Scale totals: Contested by definition; the definitional spread is the datum.
 
-**Register:** 10 edits and 1 removal (listed in the JSON): 'to today'/'present edge' put in 2010 terms; the prosperity argument put in the past; the hundreds-of-millions and 'now largely Global South' lines recast to 2010; the CD/CR 'contemporary register' language retired; the dated-reading clause removed; story[1] (2014 conviction) removed whole (G-13). After Round 2: 1 more (the legacy's scholarship line put in the past).
+**Register:** 11 edits and 1 removal (listed in the JSON): 'to today'/'present edge' put in 2010 terms; the prosperity argument put in the past; the hundreds-of-millions and 'now largely Global South' lines recast to 2010; the CD/CR 'contemporary register' language retired; the dated-reading clause removed; story[1] (2014 conviction) removed whole (G-13). After Round 2: 1 more (the legacy's scholarship line put in the past).
 
 **Links touching it:** 0.
 
@@ -541,7 +556,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** UMJC and MJAA statements: Documented as texts; year-pinning [S] — carried.
 
-**Register:** 12 edits (listed in the JSON): 'to today'/'living return' set to 2010; 'recent' dropped from the sourcing line; 'is recent', 'is argued', 'ever since', 'has governed … since' and the present-tense legacy and story lines put in the past; the floorNote's 'a living body can change' clause recast; the dated-reading clause removed. The 2005 texts and the 2008 ruling now fall inside the era and stay.
+**Register:** 13 edits (listed in the JSON): 'to today'/'living return' set to 2010; 'recent' dropped from the sourcing line; 'is recent', 'is argued', 'ever since', 'has governed … since' and the present-tense legacy and story lines put in the past; the floorNote's 'a living body can change' clause recast; the dated-reading clause removed. The 2005 texts and the 2008 ruling now fall inside the era and stay.
 
 **Links touching it:** 0.
 
@@ -562,7 +577,7 @@ Proposals only; nothing in the census is changed. Every register edit is in the 
 
 **Confidence notes:** Roger's murder 16 Aug 2005 and the Alois succession: [S] in V1.0 — carried.
 
-**Register:** 10 edits (listed in the JSON): the Taizé–Iona order corrected ("two years later"); the 2023 Matthew handover removed from statusDescription, why, longDescription, legacy, voices and story[0]; 'to today', 'still going', 'have been held every year since' put in 2010 terms; the floorNote's 'well past their founders' deaths' dated to 2010; the dated-reading clause removed. After Round 2: 1 more (John Bell's voice, "came to be sung").
+**Register:** 11 edits (listed in the JSON): the Taizé–Iona order corrected ("two years later"); the 2023 Matthew handover removed from statusDescription, why, longDescription, legacy, voices and story[0]; 'to today', 'still going', 'have been held every year since' put in 2010 terms; the floorNote's 'well past their founders' deaths' dated to 2010; the dated-reading clause removed. After Round 2: 1 more (John Bell's voice, "came to be sung").
 
 **Links touching it:** 1 (insular-irish-monastic-christianity → IX.14) — its 'still held' refers to Bede's eighth century; fine history.
 
@@ -657,7 +672,7 @@ Status sentence: "This status is a dated reading of a living tradition, not a pe
 **Section A:** No question (A1 passes; no A3 question exists). **Section B:** B1 Moderate-to-rich (Gaunt 2006 and Let Them Not Return 2017 verified — later scholarship on 1915; Naayem 1921 and the 1919 memoranda [S]). B2 strong: catastrophe, dispersal, re-gathered institutions. B3 unique: the Syriac lane's only era-10 row. B4 strong (descendant communities; trauma-informed care). B5 n/a.
 **Sourcing (B1 grade):** Moderate-to-rich. **Confidence notes:** 'By 2010 … parish registers recorded families…' and 'by 2010 the families … lived more in Södertälje and Chicago than in Anatolia' re-date the record's present claims: Widely Accepted, with no counter staged.
 **Church or movement/trend: church (two church families carried together).**
-**Register:** 10 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, relationsSummary, statusDescription, teaser, voices. *Let Them Not Return* (2017) is restored to the legacy, labeled as later (G-4); the 2015 commemorations stay out. Atto's voice is labeled as a later account. The three 'erasure' lines are drafted for Q1, conditional on G-42. After Round 2: 1 more (the diaspora parishes' voice put in the past).
+**Register:** 11 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, relationsSummary, statusDescription, teaser, voices. *Let Them Not Return* (2017) is restored to the legacy, labeled as later (G-4); the 2015 commemorations stay out. Atto's voice is labeled as a later account. The three 'erasure' lines are drafted for Q1, conditional on G-42. After Round 2: 1 more (the diaspora parishes' voice put in the past).
 **Links touching it:** 1 (VIII.40→IX.19, continued as, Widely Accepted). Note is dated and past-tense — clean.
 **Source notes:** (1) Gaunt 2006 and Gaunt/Atto/Barthoma 2017: verified; later scholarship on 1915 — keep. (2) Atto 2011, Brock 2001: [S] — keep the flag. (3) The '2015 centenary commemoration records' (reference item): flag/drop — a post-2010 event. (4) Library: cic/texts/wigram_assyrians-and-their-neighbours_1929.txt bears directly (it covers the Hakkari expulsion of 1915 and the 1918 aftermath; an outside witness, an Anglican mission head; already cited on the VIII.40→IX.19 link). cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt and cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt are pre-Sayfo background only.
 **Open questions for Mark:** Q1 (IX.19) — The teaser, relationsSummary and legacy say the map's 1300–1915 silence is one 'living Syriac communities' read (or 'experience') as erasure. That is a present-day claim about readers. Options: (a) keep it as a map-level disclosure, dropping 'living' and putting the verb in the past ('experienced as erasure'); (b) recast it to map-voice only, with no claim about readers; (c) remove it. Recommendation: (a), drafted as three conditional edits. It keeps the E9 named-gap ruling's language without a claim about today. In §6 as G-42.
@@ -690,7 +705,7 @@ Status sentence: "This status is a dated reading of a living tradition, not a pe
 **Section A:** No question. **Section B:** B1 Rich (post-1991 archives and both sides' 1927 documents; [S]). B2 strong. B3 unique. B4 solid. B5 n/a. The August 2000 canonization and the May 2007 Act of Canonical Communion and Butovo consecration all fall inside the era and stay. End 1991 is a real documented terminus and stays.
 **Sourcing (B1 grade):** Rich. **Confidence notes:** 'In 2010 the division of 1927 was still visible in the calendar' rests on the record's own facts (Kirill canonized August 2000, Joseph not; ROCOR's 1981 act). Documented.
 **Church or movement/trend: church.**
-**Register:** 7 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, statusDescription, voices. After Round 2: 2 more (story 1's caveat, "still open in 2010", and the legacy's "had to build").
+**Register:** 9 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, statusDescription, voices. After Round 2: 2 more (story 1's caveat, "still open in 2010", and the legacy's "had to build").
 **Links touching it:** 1 (VIII.11→IX.22, continued as, Inferential-Thin). Clean.
 **Source notes:** (1) Story 0 source 'the Act of Canonical Communion, 17 May 2007': in era — keep. (2) The Jubilee Council (Aug 2000): in era — keep. (3) Library: cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt (on the VIII.11 link) is pre-era. cic/texts/conybeare_russian-dissenters_1921.txt covers pre-1917 dissent and does not bear on the catacomb church.
 **Open questions for Mark:** Q1 (IX.22) — Story 0's counts ('more than nine hundred … over three hundred canonized') are undated in the record and may include canonizations after 2010. Options: (a) keep them, put into the past tense, with a date check before publish (drafted); (b) cut the counts and leave the gap. Recommendation: (b) unless the check confirms a 2010-or-earlier figure.
@@ -723,7 +738,7 @@ Status sentence: "This status is a dated reading of a living tradition, not a pe
 **Section A:** No question. Carrier device: named carrier bodies, each dated (RCCG 1952 / UK 1980s / Jesus House 1994; KICC 1992; Embassy of God 1994 [all S]). There is no single confession, and that is recorded. **Section B:** B1 Moderate (ter Haar 1998, Adogame 2013, the 2005 Charity Commission report; all [S]). B2 moderate. B3 unique. B4 solid. B5 n/a. Both stories stay inside the era (1994–2004; 2002–2005).
 **Sourcing (B1 grade):** Moderate. **Confidence notes:** 'By 2010 the direction of Christian mission had reversed' re-dates the record's claim — Widely Accepted. The 'largest congregation' claims stay framed as the churches' own counts.
 **Church or movement/trend: movement/trend (reverse mission) carried by named church bodies — a trend row with churches as its carriers.**
-**Register:** 13 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, relationsSummary, sourcing, statusDescription, teaser, voices, why. Both story caveats now read that the page describes only dated public acts, with no 'living person' line. Adogame's voice is labeled as a later account. After Round 2: 1 more (story 1's teaser, "The founder stays on as pastor.").
+**Register:** 14 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, relationsSummary, sourcing, statusDescription, teaser, voices, why. Both story caveats now read that the page describes only dated public acts, with no 'living person' line. Adogame's voice is labeled as a later account. After Round 2: 1 more (story 1's teaser, "The founder stays on as pastor.").
 **Links touching it:** 0.
 **Source notes:** (1) All items: in-era events. Keep. Adogame 2013 is later scholarship — keep. (2) The 'largest congregation' reference item: keep as a disclosure that the claims are self-reported.
 **Open questions for Mark:** Q1 (IX.25) — Two story details are undated and may fall after 2010: KICC's moves 'to larger premises in east London and then to Chatham' (cut from the draft and marked for a date check), and how Adelaja's 2009 proceedings ended (the caveat now stops at 2010 knowledge). Recommendation: cut both unless a date check confirms they fall in or before 2010.
@@ -734,7 +749,7 @@ Status sentence: "This status is a dated reading of a living tradition, not a pe
 **Section A:** A1/A3: the mangai question stays open, put to the church's own published hymns, prayers and creed (the faithful angels and the Mangai [S]). The service-book edition dates are [S]-debt, and an in-era assessment must cite an edition dated 2010 or earlier. c2: the office-run is held open (the office persisted by succession through the century, which cuts toward the community limb). The composite tail is named minimally: Silas Eto's CFC (1960 [S]). **Section B:** B1 Moderate (Henderson 1972 and Newman 2006 verified). B2 strong. B3 unique. B4 solid. B5 n/a.
 **Sourcing (B1 grade):** Moderate. **Confidence notes:** 'In 2010 … a fixture of the political calendar' re-dates a present claim; Widely Accepted (Newman 2006 covers the period).
 **Church or movement/trend: church (with a composite tail of Pacific churches).**
-**Register:** 9 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, statusDescription, teaser, voices. The statusDescription's 'for now' is cut.
+**Register:** 11 edits (in the JSON); fields touched: documentedStories, legacy, longDescription, statusDescription, teaser, voices. The statusDescription's 'for now' is cut.
 **Links touching it:** 0.
 **Source notes:** (1) All items: pre-2010 events. Newman 2006 is a later publication — keep. Te Ara is the reference layer — keep. (2) The Pacific-family item stays the base's thinnest leg ([S]).
 **Open questions for Mark:** none
@@ -756,7 +771,7 @@ Status sentence: "This status is a dated reading of a living tradition, not a pe
 **Section A:** A3 per community, never by label (unchanged; the floorNote is put in past tense). The movement's own dated texts carry it (Tomlinson 1995; McLaren 2001/2004; Bell 2005; Tickle 2008 [all S]). **Section B:** B1 Rich and self-documenting (books, conference records, the 2002– blogs; Carson 2005 as hostile-adjacent dating; Marti & Ganiel 2014 later; all [S]). B2 moderate (a conversation across congregations, with its own communities and networks). B3 distinct from IX.18 (a body-level conversation, not a label). B4 strong — Mark named the 'emergent church'. B5 n/a. Only Love Wins (2011), the 2011 story and the wind-down (c. 2013) fall after 2010.
 **Sourcing (B1 grade):** Rich (self-documenting; platform-fragile). **Confidence notes:** End 2010 is the era's close, not a terminus; the 2015 'judgment end' is retired. Network dates (YLN/Terra Nova c. 1997–2001; Emergent Village from c. 2001) stay [S]. The link-rot and Internet Archive lines were notes about the archive's condition today, not the tradition's history; they are recast in the past (X3, G-46).
 **Church or movement/trend: movement/trend, not a church body — a conversation across existing congregations, a few communities of its own, and loose networks (Emergent Village). It belongs with the 'movements and trends' class if Mark creates one.**
-**Register:** 14 edits and 1 removal (in the JSON); fields touched: documentedStories, floorNote, legacy, longDescription, relationsSummary, statusDescription, teaser, voices, why. Story 1 (2011) is removed whole (G-39). The archive-condition lines in teaser, voices[4] and legacy are recast in the past (G-46). Story 0's caveat drops its 'living person' line. After Round 2: 2 more (the archive note recast in `why` and `sourcing`, under G-46).
+**Register:** 16 edits and 1 removal (in the JSON); fields touched: documentedStories, floorNote, legacy, longDescription, relationsSummary, statusDescription, teaser, voices, why. Story 1 (2011) is removed whole (G-39). The archive-condition lines in teaser, voices[4] and legacy are recast in the past (G-46). Story 0's caveat drops its 'living person' line. After Round 2: 2 more (the archive note recast in `why` and `sourcing`, under G-46).
 **Links touching it:** 0.
 **Source notes:** (1) The movement's-own-books item: keep Tomlinson 1995, McLaren 2001/2004, Bell 2005, Tickle 2008; flag/drop Love Wins (2011) and 'the split it provoked'. (2) The blog layer: keep from 2002, scoped to 2010. (3) The end-anchor 'wind-down' item: flag — it documents c. 2013, after the era. (4) Carson 2005, Marti & Ganiel 2014, Walker 1985/1998, Tomlinson 2008: keep. (5) Story 1's sources (2011): drop with the story.
 **Open questions for Mark:** Q1 (IX.28, the 'emergent church' Mark named) — Under the 2010 cut-off most of its life falls inside the era (Holy Joe's 1990; Tomlinson 1995; YLN c. 1997; Emergent Village c. 2001–; McLaren 2001/2004; Bell 2005; Tickle 2008). Options: (a) keep it, c. 1990–c. 2010, with its living mark set at G-50 (drafted); (b) drop or defer it as mainly later — no longer true; (c) fold it into IX.18. Recommendation: (a), firmly. Only Love Wins (2011) and the wind-down fall outside. Q2 (IX.28) — Church or movement/trend? Judgment: movement/trend. It never formed a church body; it ran through existing congregations, a few communities of its own and loose networks. Q3 (IX.28) — Tier. Options: (a) keep Tier 3 (the V1.0 'smaller frame'); (b) raise it to Tier 2, now that its whole documented arc to 2010 sits inside the era with rich own-voice texts. Recommendation: (b), mildly. B1 is rich and B4 is Mark-named, while B2 (a conversation, not a lived world) is the honest brake.
@@ -998,7 +1013,7 @@ V1.0 tier signals for these candidates: T1 for IX.34, IX.35 and IX.43; T3 for IX
 **Section B:** B1 moderate-to-rich. B2 a full world: autocephaly, the St Herman canonization, the EOC reception. B3 receives IX.9; distinct from IX.22. B4 seekers and deconstructing Christians, with the post-2010 wave set aside. B5 small. The 1970–2010 story is solid and stands without the post-2000 wave.
 **Sourcing (B1 grade):** Moderate-to-rich: 1987 and 1989 verified; 1970 [S]; Stokoe & Kishkovsky 1995; memoirs [S]; Ancient Faith media from 2004; Slagle 2011 (a post-2010 study of 2000s conversions, flagged).
 **Confidence notes:** The validity of the 1970 autocephaly is Contested, with Constantinople's objection stated. That stays.
-**Register:** 13 edits and 1 removal. Ancient Faith Radio (2004) stays, re-dated "from 2004". Hanegraaff (2017) and "the deconstruction era's channels" come out of why, teaser, longDescription and relationsSummary, and the Hanegraaff source item is removed whole. Slagle's study is labeled as later: "The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011." The Hanegraaff voice is replaced from the row's own story by Patriarch Alexy I (1970). "And continue to" becomes "went on withholding recognition through the century". After Round 2: 1 more (Mathewes-Green's voice, "became one of").
+**Register:** 14 edits and 1 removal. Ancient Faith Radio (2004) stays, re-dated "from 2004". Hanegraaff (2017) and "the deconstruction era's channels" come out of why, teaser, longDescription and relationsSummary, and the Hanegraaff source item is removed whole. Slagle's study is labeled as later: "The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011." The Hanegraaff voice is replaced from the row's own story by Patriarch Alexy I (1970). "And continue to" becomes "went on withholding recognition through the century". After Round 2: 1 more (Mathewes-Green's voice, "became one of").
 **Links touching it:** 1 (Alaskan mission → IX.48, graded Inferential-Thin). Past tense.
 **Open questions for Mark:** 1. Name. (a) Keep "& the Convert Wave"; 1987 was a wave [recommended]. (b) "& the Convert Stream". In §6 as G-45. The row's overlayCurrent:true is a site-wide question (G-7), flagged rather than ruled here.
 **Wanted:** A pre-2010 jurisdictional report on convert numbers (not PD).
@@ -1010,7 +1025,7 @@ V1.0 tier signals for these candidates: T1 for IX.34, IX.35 and IX.43; T3 for IX
 **Section B:** B1 thin. B2 thin but real: Sabbath and feast-keeping, study groups, one documented internal argument. B3 distinct from IX.13. B4 participants will ask. B5 no counter exists.
 **Sourcing (B1 grade):** Thin: FFOZ 1992 and 2009 verified; Hegg 2009; The Faith 1937 [S]; Melton 2009; Nickels 1977/1999.
 **Confidence notes:** none beyond the [S] dates.
-**Register:** 13 edits. "Since the 1990s … has taken up" becomes "From the 1990s … took up", in why and longDescription. Identity statements move to the past. The legacy is dated to 2010. "Have marked the current's two wings since" becomes "by 2010 … marked". The map-voice lines on platform fragility stay. Story 0's caveat drops "are living". After Round 2: 1 more (the relationsSummary's "drew that distinction").
+**Register:** 15 edits. "Since the 1990s … has taken up" becomes "From the 1990s … took up", in why and longDescription. Identity statements move to the past. The legacy is dated to 2010. "Have marked the current's two wings since" becomes "by 2010 … marked". The map-voice lines on platform fragility stay. Story 0's caveat drops "are living". After Round 2: 1 more (the relationsSummary's "drew that distinction").
 **Links touching it:** 0.
 **Open questions for Mark:** 1. Disposition. (a) Keep with end 2010, Tier 3, as V1.0 leaned [recommended]. (b) Fold into named lines elsewhere (V1.0 found the IX.13 host too costly). (c) Drop.
 **Wanted:** The Faith (Warren, Ohio), from 1937. Rights are unclear (check renewal); for the source-research thread. FFOZ's 2010 statement on the cost of the change, by date.
@@ -1050,10 +1065,11 @@ looked up for this pass; every item below is already in the repo, and every [S] 
 skeletons, and IX.50, held for Mark). IX.31 is proposed for retirement under G-8 and carries no flag.
 
 - 50 true, 4 false (IX.6, IX.17, IX.28, IX.34). Of the 48 kept rows, 44 are true and 4 false.
-- 7 settled (IX.4, IX.10, IX.11, IX.15, IX.39, IX.46, IX.48). 47 uncertain: 23 in group B,
-  12 in C1, 9 in C2, 3 in C3.
+- 6 settled (IX.4, IX.11, IX.15, IX.39, IX.46, IX.48). 48 uncertain, the six drafts included: 24 in group B, 12 in C1, 9 in C2, 3 in C3.
 - One flag differs from the census: IX.28, the emerging church, true → false (recommended, not
   decided). The six drafts have no census row.
+
+The table's group letters map to the questions below: B = L-1, C1 = L-2, C2 = L-3, C3 = L-4.
 
 | atlasId | name | flag | evidence (year) | grade | confidence | change vs census |
 |---|---|---|---|---|---|---|
@@ -1066,7 +1082,7 @@ skeletons, and IX.50, held for Mark). IX.31 is proposed for retirement under G-8
 | IX.7 | Catholic Lay Renewal Traditions | true | L'Arche reports (2020, 2023) [S]; three of four bodies none | CR (2023) | uncertain (B) | no |
 | IX.8 | Latin American Base Communities | true | None after 2010 (in-era claim itself [S]) | none (—) | uncertain (C1) | no |
 | IX.9 | Emigre Orthodoxy & the Paris School | true | None after 2010 (Arjakovsky 2013 is history) | none (—) | uncertain (C1) | no |
-| IX.10 | The Coptic Monastic & Sunday-School Revival | true | Suriel (2017); synaxarium (2015) [S]; Mosebach (2019) [S] | CR (2019) | settled | no |
+| IX.10 | The Coptic Monastic & Sunday-School Revival | true | Suriel (2017); synaxarium (2015) [S]; Mosebach (2019) [S] | CR (2019) | uncertain (B) | no |
 | IX.11 | Global South Pentecostal Christianity | true | WCE 3rd ed. (2019), Pew (2011) | CD (2019) | settled | no |
 | IX.12 | Persecuted-Church Traditions of the Communist Era | true | None after 2010 (in-era claim [S]) | none (—) | uncertain (C1) | no |
 | IX.13 | Messianic Judaism | true | Pew (2013) [S]; Rudolph & Willitts (2013) | CR (2013) | uncertain (B) | no |
@@ -1112,27 +1128,26 @@ skeletons, and IX.50, held for Mark). IX.31 is proposed for retirement under G-8
 | — | The Anglican Communion (D-E5, skeleton) | true | None after 2010 (GAFCON 2008 [S]) | none (—) | uncertain (B) | new |
 | IX.50 | The Christian Right (held for Mark) | true | Whitehead & Perry (2020) et al.; BJC/FFRF (2022) | CD (2022) | uncertain (C2) | new |
 
-Grades in the table show the year of the newest dated item, verified or not. `living.json` also
-gives the newest *verified* year and every item in full.
+Grades in the table show the year of the newest dated item, verified or not. Each entry's `livingReason` in the proposed-edits JSON also gives the newest verified year and every item in full.
 
 #### The uncertain cases
 
 Each group is one question for Mark, with options and a recommendation. The entries a group
 holds are listed so a single answer covers them. Any entry can be pulled out and ruled alone.
 
-**L-1. Group B: church bodies with a citation gap (23).** IX.5, IX.7, IX.13, IX.14, IX.16, IX.19,
+**L-1. Group B: church bodies with a citation gap (24).** IX.5, IX.7, IX.10, IX.13, IX.14, IX.16, IX.19,
 IX.20, IX.23, IX.24, IX.25, IX.26, IX.27, IX.30, IX.37, IX.38, IX.40, IX.41, IX.42, IX.43, IX.44,
 IX.49, Iglesia ni Cristo, and the Anglican skeleton. Each names a church or a set of churches. The
 repo records no end for any of them. What it lacks is a recent, verified, dated source. Nine have
 no dated item after 2010 at all (IX.26, IX.37, IX.38, IX.40, IX.41, IX.42, IX.43, Iglesia ni Cristo,
 the Anglican skeleton). The others rest on items that are old (IX.5's Pew count of 2011, IX.13,
 IX.25, IX.27, IX.49) or still [S] (the rest).
-- (a) Mark all 23 alive, graded as the table shows. Send each one's dated source to the wanted list
+- (a) Mark all 24 alive, graded as the table shows. Send each one's dated source to the wanted list
   (W26 for the nine with none), so the gap is closed at the source-research pass. **Recommended.** Withholding the mark would say,
   wrongly, that these churches are not alive.
-- (b) Mark only those with a dated item after 2010 now (14). Hold the other nine until a dated
+- (b) Mark only those with a dated item after 2010 now (15). Hold the other nine until a dated
   source is cited.
-- (c) Hold all 23 until each has a verified source from 2016 or later.
+- (c) Hold all 24 until each has a verified source from 2016 or later.
 
 **L-2. Group C1: an episode or window of a living tradition (12).** IX.1, IX.2, IX.3, IX.8,
 IX.9, IX.12, IX.21, IX.22, IX.33, IX.35, IX.45, IX.47. Each row tells an episode that ended
@@ -1160,8 +1175,7 @@ evidence differs.
 - **IX.28, the emerging church.** Its newest record is its own wind-down: Emergent Village
   wound down c. 2013 [S], and the census itself says "the conversation dissipated". The census
   routes its continuation to IX.18 and IX.31, and IX.31 is proposed for
-  retirement (G-8). (a) False: the repo
-  holds no dated evidence that it is alive today, and its own record says it dispersed.
+  retirement (G-8). (a) False: its own record shows it dispersing (Emergent Village wound down c. 2013 [S]; release 19: 'the conversation dissipated'), and the tradition it fed already has its own row, IX.18. This departs from L-2's tradition rule; (b) applies that rule instead.
   **Recommended.** (b) True, as V1.0's gate left it ("living:true stands"), on the rule that
   decline is not an end. (c) Hold until a dated source settles it. Option (a) reverses a V1.0
   gate ruling, so it is a change order and is named as one here (G-50).
@@ -1530,36 +1544,35 @@ needs Section A, B1–B5 and a tier, and most of these still lack a base.
 
 | Candidate | Tests shown in the repo | Verdict | Reason |
 |---|---|---|---|
-| M1 Bible translation, 20th century | none | trend: left out or folded | No 20th-century beginning, carrier, name or study is cited. It is unsourced, not shown to be diffuse. The cross-era theme thread carries it; D-E4 stays held (G-30). |
-| M2 Student and campus movements | 2 | trend: left out or folded | The carriers are named, but no founding date or study for them is cited. VIII.25 ends the one defined student movement by mid-century. D-E3 stays held (G-31). |
-| M3 The church-growth school and church planting | 1, 2, 3 | trend: left out or folded | Folded into IX.30. McGavran (1970), Willow Creek, Saddleback and Acts 29 are its carriers, and IX.30 calls it "the church-growth school". No repo study treats it as a movement, and the 2026-07-16 rule keeps a school of thought inside the communities that carry it (G-33). |
-| M3 Church Planting Movements (CPM) | none | trend: left out or folded | No source at all. A named line in M5 once sourced (G-33). |
-| M4 Mass evangelism | 2 | trend: left out or folded | Folded: named lines in IX.24 and IX.33, as VIII.2's ruling did for revivalism. No crusade date is cited (G-34). |
-| M5 The independent mission movement | 1, 3, 4 | trend: left out or folded | Edinburgh 1910 is its root, and VIII.25's legacy names it as one of "two movements" from that meeting. Walls, *The Missionary Movement in Christian History* (1996) [S], studies the wider missionary movement. But no twentieth-century carrier is in the repo: the CIM (VIII.7) ends at 1906, and YWAM and OM are not cited. Unsourced on carriers, not diffuse. D-E2 stays held; re-test once a base names them (G-32). |
-| M5 Unreached peoples and the 10/40 Window | none | trend: left out or folded | No source at all. A named line inside M5 once sourced (G-32). |
-| M6 Children's and Sunday-school ministries after 1900 | 1, 2, 3 (Coptic strand only) | trend: left out or folded | The Coptic Sunday-school movement (1918 committee) is folded in IX.10. The Western strand has no source, and VIII.24 ends c. 1900 (G-35). |
-| M7 Relief and development | none | trend: left out or folded | No carrier is in the repo. Integral mission is a line in IX.24 (G-36). |
-| M8 Christian broadcasting | 2 | trend: left out or folded | Folded: named lines on the rows that hold its carriers (Herald of Truth, IX.41; Vesper Chimes, IX.16; Grace to You, D-Q4). No beginning, name or study is cited (G-36, G-18). |
+| M1 Bible translation, 20th century | none | left out: no source | No 20th-century beginning, carrier, name or study is cited. It is unsourced, not shown to be diffuse. The cross-era theme thread carries it; D-E4 stays held (G-30). |
+| M2 Student and campus movements | 2 | left out: partial base | The carriers are named, but no founding date or study for them is cited. VIII.25 ends the one defined student movement by mid-century. D-E3 stays held (G-31). |
+| M3 The church-growth school and church planting | 1, 2, 3 | folded | Folded into IX.30. McGavran (1970), Willow Creek, Saddleback and Acts 29 are its carriers, and IX.30 calls it "the church-growth school". No repo study treats it as a movement, and the 2026-07-16 rule keeps a school of thought inside the communities that carry it (G-33). |
+| M3 Church Planting Movements (CPM) | none | left out: no source | No source at all. A named line in M5 once sourced (G-33). |
+| M4 Mass evangelism | 2 | folded | Folded: named lines in IX.24 and IX.33, as VIII.2's ruling did for revivalism. No crusade date is cited (G-34). |
+| M5 The independent mission movement | 1, 3, 4 | left out: partial base | Edinburgh 1910 is its root, and VIII.25's legacy names it as one of "two movements" from that meeting. Walls, *The Missionary Movement in Christian History* (1996) [S], studies the wider missionary movement. But no twentieth-century carrier is in the repo: the CIM (VIII.7) ends at 1906, and YWAM and OM are not cited. Unsourced on carriers, not diffuse. D-E2 stays held; re-test once a base names them (G-32). |
+| M5 Unreached peoples and the 10/40 Window | none | left out: no source | No source at all. A named line inside M5 once sourced (G-32). |
+| M6 Children's and Sunday-school ministries after 1900 | 1, 2, 3 (Coptic strand only) | folded | The Coptic Sunday-school movement (1918 committee) is folded in IX.10. The Western strand has no source, and VIII.24 ends c. 1900 (G-35). |
+| M7 Relief and development | none | left out: no source | No carrier is in the repo. Integral mission is a line in IX.24 (G-36). |
+| M8 Christian broadcasting | 2 | folded | Folded: named lines on the rows that hold its carriers (Herald of Truth, IX.41; Vesper Chimes, IX.16; Grace to You, D-Q4). No beginning, name or study is cited (G-36, G-18). |
 | M9 The ecumenical movement | 1, 2, 3, 4 | **defined movement** | Already IX.46. The IMC (1921) and the WCC (1948) carry it. VIII.25's legacy: "The modern ecumenical movement dates its own start to that room in Edinburgh." Stanley (2009) on Edinburgh 1910, cited on VIII.25, studies that start. |
-| M10 Communities (Taizé, Iona, L'Abri, new monastic) | 1, 2 (Taizé and Iona) | trend: left out or folded | Taizé and Iona are communities, already a row (IX.14). L'Abri and the new monastic communities have no source (D-P15). |
-| M11 The liturgical movement | 3 | trend: left out or folded | Named once, in IX.47. No beginning, carrier or study is cited. It is still the strongest further gap (G-36). |
-| M11 The Oxford Group / Moral Re-Armament | none | trend: left out or folded | No source (G-36). |
-| M11 Keswick and the "deeper life" movement after 1906 | none after 1906 | trend: left out or folded | VIII.4 holds it to 1906. Nothing after 1906 is cited (G-36). |
-| M11 The Bible-conference and Bible-institute network after 1906 | 2 | trend: left out or folded | Folded into IX.29 and IX.33, which hold its conferences and print (G-36). |
-| M12 Rescue missions | none | trend: left out or folded | No source; its start probably lies in era 9 (G-37). |
-| M13 Christian day schools and homeschooling | none | trend: left out or folded | No source (G-35). |
-| Healing revivals and Latter Rain | none | trend: left out or folded | No source (§4D; G-55). |
-| The Third Wave | 1, 2, 3 | trend: left out or folded | Folded into IX.45. The Vineyard (1982) and Wimber carry it, and IX.45's copy names it. No repo study treats it as a movement, and IX.45's window closes at its start (§4D; G-52). |
-| The Toronto Blessing | none | trend: left out or folded | No source (§4D; G-52). |
-| Word of Faith and the prosperity gospel | 2, 3, 4 | trend: left out or folded | Folded: named lines in IX.11 and IX.45, as V1.0 ruled. Bowler (2013) calls it a movement, but no source dates its beginning (§4D; G-54). |
-| Contemporary worship and Christian music | 2 | trend: left out or folded | Folded into IX.45 and IX.30. No source names it as a movement (§4D; G-53). |
-| Promise Keepers and other men's movements | none | trend: left out or folded | No source (§4D; G-55). |
+| M10 Communities (Taizé, Iona, L'Abri, new monastic) | 1, 2 (Taizé and Iona) | folded | Taizé and Iona are communities, already a row (IX.14). L'Abri and the new monastic communities have no source (D-P15). |
+| M11 The liturgical movement | 3 | left out: partial base | Named once, in IX.47. No beginning, carrier or study is cited. It is still the strongest further gap (G-36). |
+| M11 The Oxford Group / Moral Re-Armament | none | left out: no source | No source (G-36). |
+| M11 Keswick and the "deeper life" movement after 1906 | none after 1906 | left out: no source | VIII.4 holds it to 1906. Nothing after 1906 is cited (G-36). |
+| M11 The Bible-conference and Bible-institute network after 1906 | 2 | folded | Folded into IX.29 and IX.33, which hold its conferences and print (G-36). |
+| M12 Rescue missions | none | left out: no source | No source; its start probably lies in era 9 (G-37). |
+| M13 Christian day schools and homeschooling | none | left out: no source | No source (G-35). |
+| Healing revivals and Latter Rain | none | left out: no source | No source (§4D; G-55). |
+| The Third Wave | 1, 2, 3 | folded | Folded into IX.45. The Vineyard (1982) and Wimber carry it, and IX.45's copy names it. No repo study treats it as a movement, and IX.45's window closes at its start (§4D; G-52). |
+| The Toronto Blessing | none | left out: no source | No source (§4D; G-52). |
+| Word of Faith and the prosperity gospel | 2, 3, 4 | folded | Folded: named lines in IX.11 and IX.45, as V1.0 ruled. Bowler (2013) calls it a movement, but no source dates its beginning (§4D; G-54). |
+| Contemporary worship and Christian music | 2 | folded | Folded into IX.45 and IX.30. No source names it as a movement (§4D; G-53). |
+| Promise Keepers and other men's movements | none | left out: no source | No source (§4D; G-55). |
 | The Christian Right | not tested here | — | IX.50, Mark's direct ruling (§3, G-15). |
 
-**Count.** 24 candidates are tested. 1 is a defined movement on the repo as it stands: the
-ecumenical movement, already IX.46. 9 fold into existing entries. 14 are left out for now: 11
-have no source at all, and 3 have a partial base (M2's carrier names, M5's root and name, the
-liturgical movement's name). The mission movement comes closest; it lacks only its
+These three values subdivide the change order's outcome 'trend: left out or folded'; no candidate in the table is shown by its sources to be a diffuse trend.
+
+**Count.** 24 candidates are tested. 1 is a defined movement on the repo as it stands: the ecumenical movement, already IX.46. 9 fold into existing entries, verdict "folded". 14 are left out for now: 11 carry the verdict "left out: no source", as they have no source at all, and 3 carry "left out: partial base" (M2's carrier names, M5's root and name, the liturgical movement's name). The mission movement comes closest; it lacks only its
 twentieth-century carriers.
 
 ## 5. The era record, the method-page line and the date display
@@ -1631,9 +1644,8 @@ Round 1, and G-50 to G-55 after Round 2. No number moved. G-49 is withdrawn and 
   published after 2010 at all. **Rec. (a).** Pew's count must be checked for the year it describes.
 - **G-5. The living marker: alive today** (§2d; rulings 2 and 4). The mark now says one thing:
   the tradition is alive today. Each flag cites dated evidence (R2) and carries a CD or CR grade
-  (R3). Of 54 flags, 50 are true and 4 false. Seven are settled: IX.4, IX.10, IX.11, IX.15, IX.39,
-  IX.46, IX.48. The other 47 are uncertain, in four groups:
-  **L-1, church bodies with a citation gap (23):** IX.5, 7, 13, 14, 16, 19, 20, 23, 24, 25, 26,
+  (R3). Of 54 flags, 50 are true and 4 false. Six are settled: IX.4, IX.11, IX.15, IX.39, IX.46, IX.48. The other 48 are uncertain, in four groups:
+  **L-1, church bodies with a citation gap (24):** IX.5, 7, 10, 13, 14, 16, 19, 20, 23, 24, 25, 26,
   27, 30, 37, 38, 40, 41, 42, 43, 44, 49, Iglesia ni Cristo, the Anglican skeleton.
   **L-2, an episode or window of a living tradition (12):** IX.1, 2, 3, 8, 9, 12, 21, 22, 33, 35,
   45, 47.
@@ -1642,8 +1654,7 @@ Round 1, and G-50 to G-55 after Round 2. No number moved. G-49 is withdrawn and 
   **L-4, closed traditions (3):** IX.6, 17, 34.
   One flag changes from the census: IX.28, true → false, which reverses V1.0's gate ruling and is
   named as a change order (G-50). (a) Adopt §2d as drafted: L-1 and L-2 true, each evidence gap
-  sent to the wanted list; L-3 and L-4 as recommended entry by entry. (b) Adopt the seven settled
-  flags and L-1 now; hold L-2 to L-4 for P2-V. (c) Hold all 47 for P2-V. Each group can also be
+  sent to the wanted list; L-3 and L-4 as recommended entry by entry. (b) Adopt the six settled flags and L-1 now; hold L-2 to L-4 for P2-V. (c) Hold all 48 for P2-V. Each group can also be
   ruled on its own, with the options §2d gives it. **Rec. (a).** It keeps the mark on every
   tradition the record shows alive. It also keeps eras 1 to 9's practice for episodes, and names
   each gap rather than hiding it. Where the mark's evidence lives is G-51.
@@ -1828,7 +1839,7 @@ Round 1, and G-50 to G-55 after Round 2. No number moved. G-49 is withdrawn and 
   out until a census counter is cited. **Rec. (a).**
 - **G-45. IX.48's name** (IX.48 Q1). (a) keep "Autocephaly & the Convert Wave"; (b) "& the Convert
   Stream". **Rec. (a)**: the 1987 reception was a wave.
-- **G-46. Notes on the archive's own condition** (§2b X3; IX.28). (a) keep them as present-day
+- **G-46. Notes on the archive's own condition** (§2b X3; IX.28; IX.49 `sourcing`). (a) keep them as present-day
   sourcing notes, which breaks the "What follows 2010" ruling; (b) recast them in the past
   (drafted, conditional, in the teaser, `why`, `sourcing`, `voices[4]` and `legacy`). **Rec. (b)**: they are claims
   about today, which the "What follows 2010" ruling rules out.
@@ -1846,10 +1857,9 @@ Round 1, and G-50 to G-55 after Round 2. No number moved. G-49 is withdrawn and 
   ("living:true stands"), so it is named as a change order. The newest dated record is the
   movement's own wind-down: Emergent Village wound down c. 2013 [S], and release 19's legacy says
   "the conversation dissipated". The census routes its continuation to IX.18 and IX.31, and IX.31
-  is proposed for retirement (G-8). (a) false: the repo holds no dated evidence that it is alive
-  today; (b) true, as V1.0 ruled, on the rule that decline is not an end; (c) hold until a dated
+  is proposed for retirement (G-8). (a) false: its own record shows it dispersing (Emergent Village wound down c. 2013 [S]; release 19: 'the conversation dissipated'), and the tradition it fed already has its own row, IX.18; (b) true, as V1.0 ruled, on the rule that decline is not an end; (c) hold until a dated
   source settles it. **Rec. (a).** Its history text does not change: it was active at the era's
-  end, and its dates read c. 1990–c. 2010.
+  end, and its dates read c. 1990–c. 2010. This departs from L-2's tradition rule; (b) applies that rule instead.
 - **G-51. Where the living mark's evidence lives** (§2d). Ruling 1 keeps post-2010 facts out of
   the history text, and G-4, G-24, G-26 and G-40 take them out of prose and `sources[]`. Several
   are the only dated evidence a flag has: IX.4's 2021 WCC act, IX.10's 2015 martyrs, IX.27's 2015
