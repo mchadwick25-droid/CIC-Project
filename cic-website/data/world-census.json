@@ -22,7 +22,7 @@
   "schemaVersion": 2,
   "release": {
    "number": 8,
-   "date": "2026-11-07"
+   "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
   "license": {
@@ -8907,7 +8907,7 @@
    "to": "scandinavian-reformation-kingdoms",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "The see of Skara in Sweden dates from Sigfrid, the missionary who baptized King Olof Skötkonung, the historian Anjou writes. Its bishop left in 1529. The cathedral's provost, Sven, was chosen in his place, and a church council at Uppsala backed him in 1530. Denmark broke harder. In 1536 the bishops in Copenhagen were jailed, and the church law of 1537 set a superintendent over each diocese instead. This rests on one history from the 1850s, with four centuries between the two ends, so the line is thin.",
+   "note": "The see of Skara in Sweden dates from Sigfrid, the missionary who baptized King Olof Skötkonung, the historian Anjou writes. Its bishop left in 1529. The cathedral's provost, Sven, was chosen in his place, and the council that met at Uppsala in 1530 backed him. Denmark broke harder. In 1536 the bishops in Copenhagen were jailed, and the church law of 1537 set a superintendent over each diocese instead. This rests on one history from the 1850s, with four centuries between the two ends, so the line is thin.",
    "sources": [
     {
      "kind": "secondary",
@@ -9392,7 +9392,7 @@
    "to": "byzantine-imperial-church-heraclian-iconoclast",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "John of Damascus answered those who \"find fault with us\" for honouring images, and the iconoclast council of 754 cursed his teaching. Monks also sat at the council of 787 that reversed it. Harnack wrote that the resistance came from the ranks of the monks.",
+   "note": "John of Damascus answered those who \"find fault with us\" for honoring images, and the iconoclast council of 754 cursed his teaching. Monks also sat at the council of 787 that reversed it. Harnack wrote that the resistance came from the ranks of the monks.",
    "sources": [
     {
      "kind": "primary",
@@ -9819,7 +9819,7 @@
    "to": "kievan-rus-christianity",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Mouravieff's history of the Russian church tells how Prince Vladimir was baptised at Cherson, a city that was then the emperors'. He went home to Kyiv with Greek clergy. Later the patriarch sent Theopemptus to lead the church there.",
+   "note": "Mouravieff's history of the Russian church tells how Prince Vladimir was baptized at Cherson, a city that was then the emperors'. He went home to Kyiv with Greek clergy. Later the patriarch sent Theopemptus to lead the church there.",
    "sources": [
     {
      "kind": "secondary",
@@ -20449,7 +20449,7 @@
    "c2": null,
    "sourcing": "Rich institutional: Constantinople III acta, Maximus the Confessor's corpus, Nicaea II acta (787); the iconoclast establishment survives mainly in hostile quotation - a problem it shares with the Iconophile monastic movement's own record.",
    "floorNote": "No question (Chalcedonian); carries the monothelete crisis and Constantinople III (680-681) inside its own story",
-   "relationsSummary": "The church of the crisis centuries. Heraclius fought his wars, and his compromise on the will of Christ failed against the stand of Maximus the Confessor. Then the iconoclast emperors turned on holy images. Councils backed them, such as Hieria in 754, where 338 bishops met. The monks who defended the icons were the ones they persecuted. It ends with the Triumph of Orthodoxy in 843.",
+   "relationsSummary": "The church of the crisis centuries. Heraclius fought his wars and sought a compromise on the will of Christ. Maximus the Confessor stood against it, and it later collapsed. Then the iconoclast emperors turned on holy images. Councils backed them, such as Hieria in 754, where 338 bishops met. The monks who defended the icons were the ones they persecuted. It ends with the Triumph of Orthodoxy in 843.",
    "why": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death. A century later the same imperial church tried twice to purge religious images from worship, a struggle that ran from Leo III's first iconoclasm through the Council of Nicaea's restoration of icons in 787 to a second round of destruction, closed for good only in 843.",
    "entry": null,
    "continuesAs": "byzantine-imperial-church-macedonian",

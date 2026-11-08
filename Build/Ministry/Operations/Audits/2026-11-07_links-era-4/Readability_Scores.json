@@ -1,39 +1,63 @@
 {
+ "scored_with": "engine.m7.turn_readability.score_turn",
  "paragraphs": [
+  {
+   "movement": "medieval-irish-christianity",
+   "field": "why",
+   "fre_before": 41.6,
+   "fre_after": 62.9,
+   "fk_after": 9.2,
+   "words": 20,
+   "passed": true
+  },
+  {
+   "movement": "medieval-welsh-christianity",
+   "field": "why",
+   "fre_before": 70.0,
+   "fre_after": 75.8,
+   "fk_after": 7.2,
+   "words": 20,
+   "passed": true
+  },
+  {
+   "movement": "church-of-the-east-under-the-abbasids",
+   "field": "why",
+   "fre_before": 88.4,
+   "fre_after": 71.1,
+   "fk_after": 5.8,
+   "words": 42,
+   "passed": true
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "fre_before": 35.5,
+   "fre_after": 61.8,
+   "fk_after": 7.7,
+   "words": 100,
+   "passed": true
+  },
   {
    "movement": "anglo-saxon-christianity",
    "field": "relationsSummary",
-   "paragraph": null,
    "fre_before": 24.4,
-   "fre_after": 65.7,
-   "fk_after": 7.6,
+   "fre_after": 62.7,
+   "fk_after": 8.0,
    "words": 29,
    "passed": true
   },
   {
-   "movement": "late-anglo-saxon-christianity",
-   "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": 20.3,
-   "fre_after": 61.2,
-   "fk_after": 7.3,
-   "words": 43,
-   "passed": true
-  },
-  {
-   "movement": "scandinavian-conversion-christianity",
-   "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": 39.3,
-   "fre_after": 67.5,
-   "fk_after": 6.6,
-   "words": 34,
+   "movement": "anglo-saxon-christianity",
+   "field": "legacy",
+   "fre_before": 46.5,
+   "fre_after": 60.4,
+   "fk_after": 7.7,
+   "words": 92,
    "passed": true
   },
   {
    "movement": "carolingian-reform-christianity",
    "field": "relationsSummary",
-   "paragraph": null,
    "fre_before": null,
    "fre_after": 68.3,
    "fk_after": 7.6,
@@ -43,7 +67,6 @@
   {
    "movement": "carolingian-reform-christianity",
    "field": "legacy",
-   "paragraph": null,
    "fre_before": 40.6,
    "fre_after": 60.7,
    "fk_after": 8.5,
@@ -51,69 +74,8 @@
    "passed": true
   },
   {
-   "movement": "cluniac-reform-monasticism",
-   "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": 32.5,
-   "fre_after": 61.6,
-   "fk_after": 8.5,
-   "words": 78,
-   "passed": true
-  },
-  {
-   "movement": "cluniac-reform-monasticism",
-   "field": "legacy",
-   "paragraph": null,
-   "fre_before": 49.1,
-   "fre_after": 62.6,
-   "fk_after": 8.9,
-   "words": 126,
-   "passed": true
-  },
-  {
-   "movement": "cyrillo-methodian-slavic-christianity",
-   "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": null,
-   "fre_after": 63.5,
-   "fk_after": 7.6,
-   "words": 13,
-   "passed": true
-  },
-  {
-   "movement": "cyrillo-methodian-slavic-christianity",
-   "field": "legacy",
-   "paragraph": null,
-   "fre_before": 39.8,
-   "fre_after": 61.6,
-   "fk_after": 8.5,
-   "words": 92,
-   "passed": true
-  },
-  {
-   "movement": "kievan-rus-christianity",
-   "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": 63.5,
-   "fre_after": 72.3,
-   "fk_after": 6.3,
-   "words": 25,
-   "passed": true
-  },
-  {
-   "movement": "mozarabic-christianity",
-   "field": "legacy",
-   "paragraph": null,
-   "fre_before": 44.6,
-   "fre_after": 60.2,
-   "fk_after": 8.1,
-   "words": 104,
-   "passed": true
-  },
-  {
    "movement": "iconophile-byzantine-monasticism",
    "field": "relationsSummary",
-   "paragraph": null,
    "fre_before": null,
    "fre_after": null,
    "fk_after": null,
@@ -123,7 +85,6 @@
   {
    "movement": "iconophile-byzantine-monasticism",
    "field": "legacy",
-   "paragraph": null,
    "fre_before": 36.0,
    "fre_after": 61.4,
    "fk_after": 9.1,
@@ -131,29 +92,62 @@
    "passed": true
   },
   {
-   "movement": "bogomils",
-   "field": "longDescription",
-   "paragraph": null,
-   "fre_before": 37.8,
-   "fre_after": 61.1,
-   "fk_after": 8.7,
-   "words": 142,
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "relationsSummary",
+   "fre_before": null,
+   "fre_after": 63.5,
+   "fk_after": 7.6,
+   "words": 13,
    "passed": true
   },
   {
-   "movement": "church-of-the-east-under-the-abbasids",
-   "field": "why",
-   "paragraph": null,
-   "fre_before": 88.4,
-   "fre_after": 71.1,
-   "fk_after": 5.8,
-   "words": 42,
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "fre_before": 39.8,
+   "fre_after": 61.6,
+   "fk_after": 8.5,
+   "words": 92,
+   "passed": true
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "relationsSummary",
+   "fre_before": 63.5,
+   "fre_after": 72.3,
+   "fk_after": 6.3,
+   "words": 25,
+   "passed": true
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "fre_before": 44.6,
+   "fre_after": 61.2,
+   "fk_after": 8.0,
+   "words": 107,
+   "passed": true
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "fre_before": 32.5,
+   "fre_after": 61.5,
+   "fk_after": 7.5,
+   "words": 70,
+   "passed": true
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "legacy",
+   "fre_before": 49.1,
+   "fre_after": 62.6,
+   "fk_after": 8.9,
+   "words": 126,
    "passed": true
   },
   {
    "movement": "st-thomas-christians-of-india",
    "field": "relationsSummary",
-   "paragraph": null,
    "fre_before": null,
    "fre_after": 71.8,
    "fk_after": 6.7,
@@ -161,29 +155,71 @@
    "passed": true
   },
   {
-   "movement": "syriac-orthodox-under-islam",
+   "movement": "paulicians",
    "field": "relationsSummary",
-   "paragraph": null,
-   "fre_before": 19.8,
-   "fre_after": 69.3,
-   "fk_after": 6.5,
+   "fre_before": null,
+   "fre_after": 72.6,
+   "fk_after": 5.9,
+   "words": 22,
+   "passed": true
+  },
+  {
+   "movement": "bogomils",
+   "field": "longDescription",
+   "fre_before": 37.8,
+   "fre_after": 61.1,
+   "fk_after": 8.7,
+   "words": 142,
+   "passed": true
+  },
+  {
+   "movement": "bogomils",
+   "field": "legacy",
+   "fre_before": 41.9,
+   "fre_after": 61.2,
+   "fk_after": 8.4,
+   "words": 88,
+   "passed": true
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary",
+   "fre_before": 39.3,
+   "fre_after": 67.5,
+   "fk_after": 6.6,
    "words": 34,
    "passed": true
   },
   {
-   "movement": "melkite-arabic-christianity",
+   "movement": "scandinavian-conversion-christianity",
    "field": "legacy",
-   "paragraph": null,
-   "fre_before": 35.5,
-   "fre_after": 61.8,
-   "fk_after": 7.7,
-   "words": 100,
+   "fre_before": 37.5,
+   "fre_after": 61.9,
+   "fk_after": 7.6,
+   "words": 108,
+   "passed": true
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "relationsSummary",
+   "fre_before": -6.0,
+   "fre_after": 64.0,
+   "fk_after": 6.7,
+   "words": 69,
+   "passed": true
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "fre_before": 29.8,
+   "fre_after": 83.8,
+   "fk_after": 4.2,
+   "words": 45,
    "passed": true
   },
   {
    "movement": "bagratid-armenian-christianity",
    "field": "longDescription",
-   "paragraph": null,
    "fre_before": 51.0,
    "fre_after": 63.4,
    "fk_after": 8.0,
@@ -193,7 +229,6 @@
   {
    "movement": "bagratid-armenian-christianity",
    "field": "why",
-   "paragraph": null,
    "fre_before": 26.0,
    "fre_after": 61.3,
    "fk_after": 8.1,
@@ -201,9 +236,26 @@
    "passed": true
   },
   {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "relationsSummary",
+   "fre_before": 19.8,
+   "fre_after": 69.3,
+   "fk_after": 6.5,
+   "words": 34,
+   "passed": true
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "fre_before": 20.3,
+   "fre_after": 63.8,
+   "fk_after": 7.2,
+   "words": 46,
+   "passed": true
+  },
+  {
    "movement": "georgian-revival-tao-klarjeti",
    "field": "longDescription",
-   "paragraph": null,
    "fre_before": 35.0,
    "fre_after": 61.7,
    "fk_after": 8.0,
@@ -213,7 +265,6 @@
   {
    "movement": "georgian-revival-tao-klarjeti",
    "field": "why",
-   "paragraph": null,
    "fre_before": 14.1,
    "fre_after": 64.2,
    "fk_after": 7.9,
@@ -235,12 +286,6 @@
    "passed": true
   },
   {
-   "link": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
-   "fre": 65.2,
-   "fk": 7.6,
-   "passed": true
-  },
-  {
    "link": "carolingian-reform-christianity--scandinavian-conversion-christianity",
    "fre": 69.2,
    "fk": 7.1,
@@ -254,8 +299,8 @@
   },
   {
    "link": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
-   "fre": 72.5,
-   "fk": 6.7,
+   "fre": 65.4,
+   "fk": 7.7,
    "passed": true
   },
   {
@@ -284,32 +329,32 @@
   },
   {
    "link": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
-   "fre": 64.0,
-   "fk": 8.6,
+   "fre": 65.7,
+   "fk": 7.6,
    "passed": true
   },
   {
    "link": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
-   "fre": 64.9,
-   "fk": 8.1,
+   "fre": 66.1,
+   "fk": 7.8,
    "passed": true
   },
   {
    "link": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
-   "fre": 67.8,
-   "fk": 6.8,
+   "fre": 62.7,
+   "fk": 7.4,
    "passed": true
   },
   {
    "link": "byzantine-imperial-church-macedonian--byzantine-church-after-1054",
-   "fre": 61.9,
-   "fk": 8.6,
+   "fre": 61.5,
+   "fk": 7.7,
    "passed": true
   },
   {
    "link": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
-   "fre": 61.9,
-   "fk": 7.4,
+   "fre": 60.9,
+   "fk": 8.1,
    "passed": true
   },
   {
@@ -326,8 +371,8 @@
   },
   {
    "link": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
-   "fre": 64.2,
-   "fk": 8.4,
+   "fre": 63.1,
+   "fk": 8.3,
    "passed": true
   },
   {
@@ -338,8 +383,8 @@
   },
   {
    "link": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
-   "fre": 63.0,
-   "fk": 7.9,
+   "fre": 67.8,
+   "fk": 6.8,
    "passed": true
   },
   {
@@ -350,8 +395,8 @@
   },
   {
    "link": "paulicians--bogomils",
-   "fre": 62.5,
-   "fk": 8.6,
+   "fre": 62.3,
+   "fk": 8.2,
    "passed": true
   },
   {
@@ -392,14 +437,14 @@
   },
   {
    "link": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
-   "fre": 64.4,
-   "fk": 7.8,
+   "fre": 67.7,
+   "fk": 7.4,
    "passed": true
   },
   {
    "link": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
-   "fre": 61.2,
-   "fk": 7.3,
+   "fre": 61.3,
+   "fk": 7.9,
    "passed": true
   },
   {
@@ -458,8 +503,8 @@
   },
   {
    "link": "bagratid-armenian-christianity--armenian-cilicia",
-   "fre": 66.8,
-   "fk": 8.2,
+   "fre": 68.6,
+   "fk": 7.8,
    "passed": true
   },
   {
@@ -470,8 +515,8 @@
   },
   {
    "link": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
-   "fre": 63.5,
-   "fk": 7.6,
+   "fre": 66.2,
+   "fk": 7.8,
    "passed": true
   }
  ]
