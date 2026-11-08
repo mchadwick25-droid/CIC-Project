@@ -405,3 +405,14 @@ it, never by deleting it.
     the old descriptions" (2026-11-08): the era 6 pass rewrote the long description of all 23 era-6
     movements, and each has a recording in `cft-website/audio/tree/`. All 23 now play text that no
     longer matches the page. A paid voice run, for Mark.
+74. **"Continues as" with no graded link (2026-11-08).** 36 movements carry `continuesAs` with no
+    matching "continued as" link: 4 in eras 3 to 5 (Armenia after Avarayr, the Carolingian reform,
+    the Cyrillo-Methodian mission, Athonite monasticism; see "Two continues as fields name entries
+    the evidence only influenced" and "The Armenian continues as chain skips a movement"), 30 in eras
+    7 to 9 and 2 in era 10. The map's card now marks each "continued as · not yet graded", and names
+    the checked link where the pair has one of another kind. The era 7 to 9 passes and P2-L11 close
+    them; era 10 waits for P2-L10.
+75. **The tree's own pages have no light theme (2026-11-08).** The movement pages and the about,
+    method, data, privacy and support pages are dark only; a browser set to light shows them dark.
+    Seen while checking P2-M and P2-D. P2-K2's light-theme check covers it, with the map's
+    ("The map's light theme is unfinished", 2026-11-06).
