@@ -809,7 +809,7 @@
     "Both sides are in Mansi 46, but both reach us through Rome's archive: the 1729 summary reports the Orthodox acts, and Sylvester's 1726 profession survives in an Italian copy in the Propaganda files. The Orthodox side's own Greek text is not vendored (wants).",
     "Mansi's word 'scismatici' and the heading 'Haeretica fidei professio' are Rome's labels; the note avoids them.",
     "OCR keeps 'dispia- cesse', 'cir- colare' and 'imprecatoria?' as printed; the quotes copy them exactly.",
-    "The note's 'the patriarchs of Constantinople and Jerusalem chose' follows Mansi (lines 3413-3427), which places the election of Sylvester at Constantinople. The entry says 'Constantinople consecrates Sylvester'; the two agree."
+    "The note's 'the heads of the Greek churches at Constantinople and Jerusalem chose a rival' follows Mansi (lines 3413-3427), which places the election of Sylvester at Constantinople. The entry says 'Constantinople consecrates Sylvester'; the two agree."
    ],
    "change_reason": "New. The split itself, named in every field, had no link."
   },
@@ -1060,7 +1060,7 @@
    "to": "philippine-catholicism-gomburza-to-aglipay",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "A Franciscan wrote that in 1771 soldiers took the Augustinian friars' parishes and gave them to thirty-one Filipino priests. In 1899 the Filipino writer T. H. Pardo de Tavera traced the long fight over Filipino priests. He tied it to the deaths of three priests: Burgos, Zamora and Gomez.",
+   "note": "A Franciscan wrote that in 1771 soldiers took the Augustinian friars' parishes and gave them to thirty-one Filipino priests. In 1899 the Filipino writer T. H. Pardo de Tavera traced the long fight over Filipino priests. He tied it to the execution of three priests: Burgos, Zamora and Gomez.",
    "sources": [
     {
      "kind": "primary",
@@ -1101,7 +1101,7 @@
    ],
    "drafter_flags": [
     "cross-era: era 9. The era-9 drafter may draft the same pair; merge.",
-    "'Indian clerics' in the 1771 letter means native secular priests (editors' note 160: 'clerici ... always means secular'). The note says 'Filipino secular priests'.",
+    "'Indian clerics' in the 1771 letter means native secular priests (editors' note 160: 'clerici ... always means secular'). The note says 'Filipino priests'; these were secular priests, not friars.",
     "Pardo de Tavera dates the Cavite rising to 1870 in these lines; the executions were in 1872. The note gives no date, so as not to repeat his slip or contradict the entry.",
     "Pardo de Tavera's words reach us in Blair and Robertson's English rendering of his Spanish notes ('either translated in full, or condensed', note 68)."
    ],
@@ -1154,10 +1154,10 @@
    "movement": "philippine-catholicism-era-8",
    "field": "legacy",
    "old": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world, and the devotional culture of these centuries is still recognizably what is practiced — the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902. The friar churches themselves survive: four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
-   "new": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world. Its devotions are still much as they were in these centuries: the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The period left one question open: could Filipino priests run Filipino parishes? Writing in 1899, a Filipino scholar traced that quarrel to the execution of three priests in 1872. They are remembered as Gomburza. The quarrel is also often tied to the national revolution. It is tied as well to the Philippine church that broke from Rome in 1902. The friar churches still stand. Four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
+   "new": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world. Its devotions are still much as they were in these centuries: the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The period left one question open: could Filipino priests run Filipino parishes? Writing in 1899, a Filipino scholar traced that quarrel to the execution of three priests in 1872. They are remembered as Gomburza. The quarrel is also often tied to the national revolution. It is tied as well to the independent Philippine church that broke from Rome in 1902. The friar churches still stand. Four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
    "reason": "The tie from the clergy question to Gomburza now rests on Pardo de Tavera's 1899 notes (Blair and Robertson v50, lines 8412-8413, 8441-8444). 'Fed directly into the national revolution and into the independent Philippine church' has no vendored source and is qualified as a common reading. Every other fact kept. Whole field rewritten.",
-   "fre_after": 63.3,
-   "fk_after": 7.5
+   "fre_after": 61.5,
+   "fk_after": 7.8
   }
  ],
  "wants": [
