@@ -259,6 +259,8 @@ it, never by deleting it.
     in both. The Cathar link sits on `bogomils`, whose text names it three times. Mark's call.
     - 2026-11-08: the Cathar link is now on `balkan-bogomil-continuation` only; the one on
       `bogomils` is retired (Decision-Log, "Whole-set rulings"). The entries' overlap stays open.
+    - 2026-11-08: closed. Split by date: `bogomils` covers c. 950–1054 and hands the rest to
+      `balkan-bogomil-continuation` (Decision-Log, "The two Bogomil entries are split by date"; data release 21).
 45. **No Melkite entry between 1009 and 1724 (2026-11-08).** The Melkite legacy says the communion
     continues, and the only later entry is the 1724 split, so its "gave rise to" link spans seven
     centuries (the note says so). Mark's call.
@@ -711,3 +713,6 @@ it, never by deleting it.
     study is cited in the repo for their reading (Decision-Log, "Dominant links on two or three old
     accounts"). Any of them can go back to Dominant Modern Reconstruction once its study is read and
     cited. The list, with the study each needs: `Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md`.
+123. **The Bogomils page needs re-voicing (2026-11-08).** Its description changed in data release 21,
+    so its recording no longer matches and the Listen button is hidden. It joins the next paid
+    re-voicing batch: sample first, approved by ear, every setting passed and printed.
