@@ -8816,34 +8816,6 @@
    "verification_state": "verified-direct"
   },
   {
-   "id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
-   "from": "early-benedictine-italian-monasticism",
-   "to": "late-anglo-saxon-christianity",
-   "type": "influenced",
-   "confidence": "Inferential-Thin",
-   "note": "Dunstan, Oswald and Æthelwold were bishops of the late Anglo-Saxon church, as the reformer John Foxe recalled. A modern editor of Benedict's Rule says English nuns and others kept the Rule and had it put into English. Neither source tells of the refounding in the tenth century. So this tie rests on thin evidence.",
-   "sources": [
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837)",
-     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
-     "lines": "10969-10971",
-     "quote": "Thus Odo, Dunstan, Oswold, Ethelwold, Adel- lnus, and Lanfranc, although they fetched their palls afterward from"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "F. A. Gasquet, introduction to The Rule of Saint Benedict (1925)",
-     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
-     "lines": "593-595",
-     "quote": "For the benefit of nuns in England who followed the Rule, and of others, the work was several times translated into English during the"
-    }
-   ],
-   "citation_specificity": "C",
-   "verification_state": "named-not-rechecked"
-  },
-  {
    "id": "carolingian-reform-christianity--scandinavian-conversion-christianity",
    "from": "carolingian-reform-christianity",
    "to": "scandinavian-conversion-christianity",
@@ -8935,7 +8907,7 @@
    "to": "scandinavian-reformation-kingdoms",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Anjou says the see of Skara dates from Sigfrid, who baptized the Swedish king Olof Skötkonung. He traces its bishops to the close of the Middle Ages. Lund became an archbishopric in 1103, and an archbishop of Lund was still in office in 1517. This rests on one later account, so the claim of an unbroken line is thin.",
+   "note": "The see of Skara in Sweden dates from Sigfrid, the missionary who baptized King Olof Skötkonung, the historian Anjou writes. Its bishop left in 1529. The cathedral's provost, Sven, was chosen in his place, and a church council at Uppsala backed him in 1530. Denmark broke harder. In 1536 the bishops in Copenhagen were jailed, and the church law of 1537 set a superintendent over each diocese instead. This rests on one history from the 1850s, with four centuries between the two ends, so the line is thin.",
    "sources": [
     {
      "kind": "secondary",
@@ -8950,24 +8922,46 @@
      "source_id": null,
      "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
      "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
-     "lines": "1002-1004",
-     "quote": "At the close of the middle ages, the bishops of the see of Skara were of less importance in the state than those of Upsala,"
+     "lines": "11660-11661",
+     "quote": "After bishop Magnus of Skara, in 1529, abandoned his see, it was placed under the care of its provost, master Sven,",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
     },
     {
      "kind": "secondary",
      "source_id": null,
      "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
      "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
-     "lines": "406-408",
-     "quote": "until its primacy over the Swedish church was transferred from Bremen to the archbishopric of Lund, created in the year 1103."
+     "lines": "11667-11670",
+     "quote": "as in Skara was the case with the abovenamed master Sven, whose election was still further fortified by the recognition of the council, which, in 1530, sat at Upsala.",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
     },
     {
      "kind": "secondary",
      "source_id": null,
      "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
      "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
-     "lines": "718",
-     "quote": "commissioned, in 1517, Bergcr, archbishop of Lund,"
+     "lines": "14087-14088",
+     "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1536"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14168-14169",
+     "quote": "the superintendents who were now put in the places of the bishops,",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1537"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537), 'De Superintendentibus et Praepositis'",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "3408-3409",
+     "locus": "Ordinatio 1537, De Superintendentibus",
+     "quote": "conſeruatores in ſingulis diqceſibus ſin⸗ guli ſint /",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -9136,19 +9130,9 @@
    "from": "cyrillo-methodian-slavic-christianity",
    "to": "kievan-rus-christianity",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. The Rus' annals, as Herberstein retold them, say the Rus' only began to write down their past once the Slavonic letters came. Later church histories say the brothers' Slavonic Bible helped bring the Russians to the faith.",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came.",
    "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
-     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
-     "lines": "7874-7878",
-     "locus": "Notes upon Russia, ch. on the origins of the Russians",
-     "quote": "then first, not only the occurrences of the period, but also those which they had heard from their ancestors and retained through long memory, began to be written and recorded in their annals.",
-     "license": "public-domain"
-    },
     {
      "kind": "secondary",
      "source_id": null,
@@ -9168,42 +9152,49 @@
      "locus": "file lines 3150-3154",
      "quote": null,
      "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary for the ninth century: the Rus' annals 'began to be written and recorded' after Michael 'had sent the Sclavonian characters into Bulgaria' (which the same passage dates [898])",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 7871-7878"
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "named-not-rechecked"
   },
   {
    "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
    "from": "kievan-rus-christianity",
    "to": "kievan-rus-christianity-1054-1240",
    "type": "continued as",
-   "confidence": "Widely Accepted",
-   "note": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. That cave grew into the Caves Monastery of the two centuries after 1054. Herberstein, retelling the Rus' annals, says Russia has kept the faith of Christ since Vladimir's baptism.",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. Mouravieff, a Russian church historian writing in 1838, calls that cave the seed of the Caves Monastery and of every religious house in Russia. Herberstein retold the Rus' annals in 1549. He says Russia has kept the faith of Christ since Vladimir's baptism.",
    "sources": [
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
-     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
-     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
-     "lines": "8287-8288",
-     "locus": "Notes upon Russia, on Vladimir",
-     "quote": "since which time Russia has continued in the faith of Christ.",
-     "license": "public-domain"
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "ch. II, file lines 1497-1498, 1541-1566"
     },
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Ilarion, priest at Berestovo, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'",
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary: Vladimir's baptism, 'since which time Russia has continued in the faith of Christ' (the same sentence dates the baptism 6469 (961))",
      "file": null,
      "lines": null,
-     "locus": "ch. II, file lines 1540-1566",
      "quote": null,
-     "license": null
+     "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 8282-8288"
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "named-not-rechecked"
   },
   {
    "id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
@@ -9211,7 +9202,7 @@
    "to": "byzantine-imperial-church-macedonian",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The see of Constantinople ran on through 843 with no break. A later Byzantine list of its patriarchs names John, an iconoclast whom the empress Theodora threw out. Next it names Methodius, a monk. Photius, patriarch from 858, read the acts of the 787 council as the day the iconoclasts lost.",
+   "note": "The see of Constantinople ran on through 843 with no break. A later Byzantine list of its patriarchs names John, an iconoclast whom the empress Theodora threw out. Next it names Methodius, a monk. Photius, patriarch from 858, wrote that at the council of 787 the iconoclasts were defeated.",
    "sources": [
     {
      "kind": "primary",
@@ -9271,7 +9262,7 @@
    "to": "byzantine-church-after-1054",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Michael Cerularius was patriarch of Constantinople when the pope's envoys came in 1054, and he kept the post until 1058. A later Byzantine list of the city's patriarchs runs on with no break. It goes from Photius in the ninth century to patriarchs under the emperor Manuel in the twelfth.",
+   "note": "Michael Cerularius was patriarch of Constantinople when the pope's envoys came in 1054. He kept the post until 1058. A later Byzantine list of the city's patriarchs names them in order. It runs from Photius in the ninth century to the patriarchs who served under the emperor Manuel in the twelfth.",
    "sources": [
     {
      "kind": "primary",
@@ -9332,7 +9323,7 @@
    "to": "iconophile-byzantine-monasticism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In 754 a council called by the emperor Constantine V banned holy images. At its close the bishops cursed John of Damascus, by his family name Mansur, as a teacher of impiety. The emperor then pressed the monks to obey. Many fled, and some were killed.",
+   "note": "In 754 a council called by the emperor Constantine V banned holy images. At its close the bishops cursed John of Damascus as a teacher of impiety, calling him by his family name, Mansur. Later historians write that the emperor then pressed the monks to obey. Many fled, they say, and some were killed.",
    "sources": [
     {
      "kind": "primary",
@@ -9512,7 +9503,7 @@
    "to": "athonite-and-comnenian-byzantine-monasticism",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Stoudios, the house Theodore led, still had its monks two centuries later. The Philokalia's compilers name Niketas Stethatos, a priest-monk there around 1030, as a close disciple of Symeon the New Theologian. No text we hold shows Athos's founders taking up the Stoudite way, so this line is thin.",
+   "note": "Stoudios, the house Theodore led, still had its monks two centuries later. The Philokalia's compilers name Niketas Stethatos, a priest-monk there around 1030, as a close disciple of Symeon the New Theologian. No source shows Athos's founders taking up the Stoudite way, so this line is thin.",
    "sources": [
     {
      "kind": "primary",
@@ -9565,25 +9556,16 @@
    "to": "paulicians",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Franjo Rački, writing in 1869, tells of a purge of the Paulicians under the emperor Michael I, from 811 to 813. Arthur Evans, in 1877, adds that Constantine V moved a body of them from Armenia into Thrace. Both draw on later Byzantine chronicles.",
+   "note": "Franjo Rački, a Croatian historian writing in 1869, tells of a persecution of the Paulicians under the emperor Michael I, from 811 to 813. He says it failed to root them out. This rests on his history alone.",
    "sources": [
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 99: 'Nastala proti njim progonstva za cara Mihajla (811 — 13) ... niesu jih mogla izkorieniti'",
      "file": null,
      "lines": null,
      "quote": null,
-     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
-     "file": null,
-     "lines": null,
-     "quote": null,
-     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 856-857"
     },
     {
      "kind": "secondary",
@@ -9652,7 +9634,7 @@
    "to": "bogomils",
    "type": "influenced",
    "confidence": "Contested",
-   "note": "Peter of Sicily, a Byzantine envoy at Tephrike around 870, wrote that the Paulicians meant to send preachers to Bulgaria. Older historians built a line from them to the Bogomils on reports like this. Later studies doubt that the Paulicians were dualists at all, so the line cannot be shown.",
+   "note": "Peter of Sicily, a Byzantine envoy at Tephrike around 870, wrote that the Paulicians meant to send preachers to Bulgaria. Older historians, and some modern ones, built a line from them to the Bogomils on reports like this. Others point out that the Armenian sources show no dualism, and doubt the line. No Paulician or Bogomil text settles it.",
    "sources": [
     {
      "kind": "secondary",
@@ -9671,6 +9653,24 @@
      "lines": null,
      "quote": null,
      "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: the classic monograph, its 'Neo-Manichaean' framing); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Yuri Stoyanov, The Other God: Dualist Religions from Antiquity to the Cathar Heresy (Yale, 2000)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: modern synthesis of the dualist line); not read"
     },
     {
      "kind": "secondary",
@@ -9934,7 +9934,7 @@
    "to": "st-thomas-christians-of-india",
    "type": "in contact with",
    "confidence": "Widely Accepted",
-   "note": "Around 800 the church's head, Timothy, named the Indians among the peoples in his care. A later Malabar chronicle says bishops came to Kollam when the head of the church sent them. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
+   "note": "Around 800 the head of the church, Timothy, named the Indians among the peoples in his care. In the 850s a later head, Theodosius, made a church law for the far-off metropolitans, India's among them. Each was to write to the patriarch every six years. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
    "sources": [
     {
      "kind": "primary",
@@ -9949,11 +9949,21 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Malabar Syriac chronicle of the Christians of St Thomas (trans. Mingana)",
-     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
-     "lines": "2237-2239",
-     "locus": "Mingana 1926, p. 44-45",
-     "quote": "to which Syrian bishops and Metropolitans used to come by order of the Catholicos who sent them.",
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34477-34478",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34484-34485",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno .",
      "license": "public-domain"
     },
     {
@@ -9961,7 +9971,9 @@
      "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
      "file": null,
      "lines": null,
-     "quote": null
+     "quote": null,
+     "source_id": null,
+     "locus": "file lines 1694-1696 (Theodosius names the archbishops of India), 3891-3899 (Sabrisho on the Kollam plates)"
     }
    ],
    "citation_specificity": "A",
@@ -9973,8 +9985,38 @@
    "to": "st-thomas-christians-1300-1517",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "A Malabar manuscript of 1301 names the metropolitan of 'the holy see of the Apostle St. Thomas'. At Kollam in the fourteenth century, the papal envoy Marignolli found the pepper gardens owned by 'the Christians of St. Thomas'. Few texts survive from the centuries between, so the link rests on place and name.",
+   "note": "In the 850s a church law of the patriarch Theodosius told the far-off metropolitans, India's among them, to write to him every six years. A Malabar manuscript of 1301 names Jacob, metropolitan of 'the holy see of the Apostle St. Thomas'. At Kollam in the fourteenth century, the papal envoy Marignolli found the pepper gardens owned by 'the Christians of St. Thomas'. Few texts survive from the centuries between, so the line rests on place, name and office.",
    "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34471",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "fimul habetur Canon Tlicodofii Patriarchx’ in ha:c verba.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34477-34478",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34484-34485",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno .",
+     "license": "public-domain"
+    },
     {
      "kind": "primary",
      "source_id": null,
@@ -10000,7 +10042,9 @@
      "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
      "file": null,
      "lines": null,
-     "quote": null
+     "quote": null,
+     "source_id": null,
+     "locus": "file lines 1694-1696 (Theodosius names the archbishops of India), 3533-3535 (the 1301 colophon)"
     }
    ],
    "citation_specificity": "A",
@@ -10371,7 +10415,7 @@
    "to": "armenian-cilicia",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Matthew of Edessa says Khatchig, head of the Armenian church, died in exile in 1065. He grieved for the lost crown of the Bagratid kings and for the high office handed down from Saint Gregory. Later Matthew shows Basil in that same office, leaving Ani with his bishops in the early 1100s.",
+   "note": "Matthew of Edessa says Khatchig, head of the Armenian church, died in exile in 1065. He grieved for the lost crown of the Bagratid kings and for the high office handed down from Saint Gregory. When Peter held that office, Matthew adds, it had rich lands given by the Armenian kings. Later Matthew shows Basil in the same office, leaving Ani with his bishops in the early 1100s.",
    "sources": [
     {
      "kind": "primary",
@@ -10391,6 +10435,16 @@
      "lines": "4941-4943",
      "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
      "quote": "la couronne arrachée à la dynastie des Bagratides, le royaume assujetti aux Grecs perfides, le suprême pontificat, héritage de saint Grégoire lHuminateur, dégradé par la pauvreté.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), in Dulaurier's French, RHC Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4943-4945",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "Car lorsque le seigneur Pierre exer- çait ces hautes fonctions, 11 avait'à sa disposition le riche patrimoine donné par nos souverains aux catholicos,",
      "license": "public-domain"
     },
     {
@@ -10465,7 +10519,7 @@
    "to": "georgian-revival-tao-klarjeti",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Georgian monks founded the monastery of Iviron on Mount Athos in the late 900s. Brosset, a historian writing in 1849, dates the founding to about 976. He says its scholars put the holy books and the best Greek theology into Georgian.",
+   "note": "Georgian monks founded the monastery of Iviron on Mount Athos in the late 900s. Brosset, a historian writing in 1849, puts the founding at about 976, though others date it to between 980 and 983. He says its scholars put the holy books and the best Greek theology into Georgian.",
    "sources": [
     {
      "kind": "secondary",
@@ -17193,7 +17247,7 @@
    "sourcing": "Thin so far: one work is vendored - the Lives from the Book of Lismore, a late compilation.",
    "floorNote": "",
    "relationsSummary": "",
-   "why": "Ireland from the end of the Insular and Irish Monastic Christianity entry in 664 to 1169.",
+   "why": "The church in Ireland from 664, the year of the Synod of Whitby, to 1169, when the Anglo-Norman invasion began.",
    "entry": null,
    "longDescription": "",
    "teaser": "Ireland, c. 664 to 1169.",
@@ -18345,7 +18399,7 @@
    "sourcing": "Thin so far: three works are vendored - Annales Cambriae (to 954), the Historia Brittonum (attributed to Nennius) and the Lives of the Cambro-British saints.",
    "floorNote": "",
    "relationsSummary": "",
-   "why": "Wales from the end of the British and Welsh Christianity entry in 768 to 1282.",
+   "why": "The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.",
    "entry": null,
    "longDescription": "",
    "teaser": "Wales, c. 768 to 1282.",
@@ -18861,7 +18915,7 @@
    "c2": null,
    "sourcing": "Rich for the era: Bede; Boniface circle's letters including women's correspondence (Leoba)",
    "floorNote": "No question",
-   "relationsSummary": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. It became a parent of the Carolingian reform.",
+   "relationsSummary": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. Its churchmen later helped lead the Carolingian reform.",
    "why": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664. Within a century a church that had itself just been converted was sending its own missionaries back across the Channel, among them Boniface into Germany and the abbess Leoba, whose one surviving letter is a rare case of a woman's own words reaching us directly from the period.",
    "entry": null,
    "sources": [
@@ -18908,7 +18962,7 @@
     "Boniface — the West Saxon missionary who reorganized the church in Germany and was killed in Frisia in 754",
     "Leoba — abbess in Boniface's circle; one surviving letter, and four lines of Latin verse, are all that come down from her in her own name"
    ],
-   "legacy": "The same church continued: this story runs straight on into the late Anglo-Saxon church that survived the Viking wars and was rebuilt under Alfred and the reforming bishops. Beyond that succession, it left the books. The Lindisfarne Gospels and the Codex Amiatinus came out of these monasteries. Bede's history shaped how the English told their own story for a thousand years and gave the Western world the habit of dating years from the Incarnation; and the mission into Germany reorganized the continental church so thoroughly that the Carolingian reform grew directly out of it.",
+   "legacy": "The same church continued. Its story runs straight on into the late Anglo-Saxon church. That church survived the Viking wars and was rebuilt under Alfred and the reforming bishops. Beyond that succession, it left the books. The Lindisfarne Gospels and the Codex Amiatinus came out of these monasteries. Bede's history shaped how the English told their own story for a thousand years. It also gave the Western world the habit of dating years from the Incarnation. And its missionaries in Germany, Boniface above all, helped the Carolingian kings reform the Frankish church.",
    "experienceToday": [
     {
      "text": "Lindisfarne Priory, Holy Island, Northumberland — the site raided in 793, with its Anglo-Saxon stonework, cared for by English Heritage",
@@ -19684,7 +19738,7 @@
     "Flora and Maria — two of the martyrs, whose imprisonment and death Eulogius recorded at length",
     "Reccafred — the bishop who opposed the martyrs' course and had Eulogius imprisoned"
    ],
-   "legacy": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlived the people who kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day.",
+   "legacy": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlasted most of the people who had kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day.",
    "experienceToday": [
     {
      "text": "The Mozarabic Chapel, Toledo Cathedral, Spain — where the Hispano-Mozarabic rite is still sung at a daily Mass",
@@ -19783,7 +19837,7 @@
    "c2": null,
    "sourcing": "Rich institutionally (customaries, charters); interior ordinary voice moderate",
    "floorNote": "No question",
-   "relationsSummary": "Cluny kept the Rule of Benedict, which the Carolingian reform had pressed on Frankish monks. No named founder, though, ties it to that reform. It may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
+   "relationsSummary": "Cluny kept the Rule of Benedict. The Carolingian reform had pressed that Rule on Frankish monks. Cluny may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable. He led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
    "why": "In 909 or 910 a duke of Aquitaine endowed the monastery of Cluny and renounced all rights over it, placing it directly under the pope so that no local lord could control its abbot or its money. Freed from that grip, Cluny grew into a network of hundreds of houses across Europe built around a liturgy sung at a length no earlier Western monastery had attempted, and its abbot Odilo spread the commemoration of the dead on All Souls' Day and worked to limit private warfare.",
    "entry": null,
    "sources": [
@@ -20041,7 +20095,7 @@
    "c2": null,
    "sourcing": "Known almost wholly through hostile heresiology",
    "floorNote": "Their opponents accuse them of dualism — of holding that the visible world was made by an evil power rather than by God — and of denying that Christ was divine by nature rather than adopted. Because no Paulician account of their own belief survives, those charges can be neither confirmed nor cleared. The same difficulty attaches to other movements of the period who are known only through the writings of their enemies.",
-   "relationsSummary": "Deported en masse by Byzantium - also a victim story",
+   "relationsSummary": "The Byzantine emperors moved them from their homes in large numbers. Most of what we know of them comes from their enemies.",
    "why": "Byzantine heresy hunters describe the Paulicians as rejecting the Old Testament, the cross and the sacraments, though whether that is what the movement itself believed or what its enemies needed it to believe cannot now be settled, since no Paulician account of their own faith survives. What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
    "entry": null,
    "sources": [
@@ -20198,7 +20252,7 @@
     "Cosmas the Priest — their earliest and most detailed opponent, whose sermon against them is the main source for what they taught",
     "Basil the Physician — a Bogomil teacher burned in Constantinople under the emperor Alexios I, around 1100"
    ],
-   "legacy": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike. Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy. Medieval writers asserted the connection, and historians still argue about how much of it is real. What it did not leave is a text of its own. Every surviving account of Bogomil belief was written by someone opposing it."
+   "legacy": "Historians trace the movement on into the Bogomils of the Balkans in the 1100s and 1200s. It died out only under Ottoman rule and pressure from both Catholics and Orthodox. Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy. Medieval writers claimed the link, and historians still argue about how much of it is real. What it did not leave is a text of its own. Every account of Bogomil belief that survives was written by someone who opposed it."
   },
   {
    "id": "scandinavian-conversion-christianity",
@@ -20288,7 +20342,7 @@
     "Þorgeir Ljósvetningagoði — Iceland's pagan law-speaker, who in the year 1000 gave the ruling that the whole island would become Christian",
     "Adam of Bremen — the German cleric whose history of the archbishops of Hamburg-Bremen is the fullest contemporary description of the Christian north"
    ],
-   "legacy": "These conversions became the national churches of Denmark, Norway, Sweden and Iceland, which have existed continuously ever since. Often the same dioceses and the same cathedral sites, reformed rather than replaced at the Reformation. The period left a physical record too. The Jelling stones still stand in Denmark, hundreds of Christian rune stones survive across Sweden, and St Olaf's shrine at Nidaros made Trondheim the great pilgrimage destination of the medieval north. Iceland's later saga writers also preserved the memory of the conversion in the words of the converted rather than of the missionaries.",
+   "legacy": "These conversions founded what became the national churches of Denmark, Norway, Sweden and Iceland. In Sweden the Reformation often kept the old sees and cathedrals and reformed them. Denmark broke more sharply. In 1536 it jailed its bishops and handed their work to new men. The period left a physical record too. The Jelling stones still stand in Denmark, and hundreds of Christian rune stones survive across Sweden. St Olaf's shrine at Nidaros made Trondheim the great goal of pilgrims in the medieval north. Iceland's later saga writers also kept the memory of the conversion. They told it in the words of the converted, not of the missionaries.",
    "experienceToday": [
     {
      "text": "Þingvellir National Park, Iceland — the assembly site where the Althing decided in the year 1000 that Iceland would become Christian, now a UNESCO World Heritage Site",
@@ -20395,7 +20449,7 @@
    "c2": null,
    "sourcing": "Rich institutional: Constantinople III acta, Maximus the Confessor's corpus, Nicaea II acta (787); the iconoclast establishment survives mainly in hostile quotation - a problem it shares with the Iconophile monastic movement's own record.",
    "floorNote": "No question (Chalcedonian); carries the monothelete crisis and Constantinople III (680-681) inside its own story",
-   "relationsSummary": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+   "relationsSummary": "The church of the crisis centuries. Heraclius fought his wars, and his compromise on the will of Christ failed against the stand of Maximus the Confessor. Then the iconoclast emperors turned on holy images. Councils backed them, such as Hieria in 754, where 338 bishops met. The monks who defended the icons were the ones they persecuted. It ends with the Triumph of Orthodoxy in 843.",
    "why": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death. A century later the same imperial church tried twice to purge religious images from worship, a struggle that ran from Leo III's first iconoclasm through the Council of Nicaea's restoration of icons in 787 to a second round of destruction, closed for good only in 843.",
    "entry": null,
    "continuesAs": "byzantine-imperial-church-macedonian",
@@ -20521,7 +20575,7 @@
    "c2": null,
    "sourcing": "Rich institutional: Photius's corpus (Bibliotheca, homilies, encyclicals), conciliar records of 861/867/879-880, imperial legislation; the 1054 exchange documented from both sides",
    "floorNote": "No question (Chalcedonian)",
-   "relationsSummary": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "relationsSummary": "The church of the restored icons. It saw Photius twice made patriarch, the Photian schism, and the first round of the Filioque dispute. It sent missions to Bulgaria in 864 and, with Cyril and Methodius, to the Slavs. It ends with the break of 1054.",
    "why": "With icons restored in 843, the Byzantine church sent missions that converted Bulgaria, Moravia and eventually Rus', while in Constantinople the patriarch Photius — a layman raised straight to the office, and a reader who cataloged nearly three hundred books now otherwise lost — sharpened the Eastern case against the Latin church's addition of the Filioque to the Creed. That dispute, and others over jurisdiction among the newly converted Slavs, hardened for a century until 1054, when a papal delegation and the patriarch excommunicated each other inside Hagia Sophia.",
    "entry": null,
    "continuesAs": "byzantine-church-after-1054",
@@ -20997,7 +21051,7 @@
    "c2": null,
    "sourcing": "Rich: Alfred's own prefaces, the Benedictine Reform documents (Regularis Concordia c. 973), Aelfric and Wulfstan's homiletic corpus, the Anglo-Saxon Chronicle",
    "floorNote": "No question",
-   "relationsSummary": "It came through the Viking age and revived under Alfred. Then the bishops Dunstan, Aethelwold and Oswald rebuilt its monasteries on the Benedictine rule. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
+   "relationsSummary": "It came through the Viking age and revived under Alfred. The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
    "why": "The Viking wars nearly destroyed English Christianity, and when Alfred of Wessex set out to rebuild it, he complained he could barely find a priest south of the Thames able to translate a Latin letter, so he launched a program translating essential books into English instead. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Benedictine rule, and Ælfric wrote well over a hundred English sermons so ordinary congregations could hear careful teaching in their own tongue, while Archbishop Wulfstan, preaching in 1014 as Danish invasions closed in, told the English their own sins had brought the disaster on them.",
    "entry": null,
    "longDescription": "The Viking wars nearly killed English Christianity. Monasteries were destroyed, whole dioceses lapsed, and when Alfred of Wessex set out to rebuild he complained that he could hardly find a priest south of the Thames able to translate a Latin letter. His answer was a translation program — Gregory the Great's Pastoral Care and other essential books put into English so that clergy could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald, refounded the monasteries on the Benedictine rule and produced an agreed customary for the whole country. The vernacular stayed central throughout: Ælfric wrote well over a hundred sermons in English so that ordinary congregations could hear careful teaching in their own tongue, and Archbishop Wulfstan, preaching in 1014 as the Danish invasions closed in, told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent development.",
