@@ -540,25 +540,32 @@ Each was shown with options and a recommendation as an artifact.
 `tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
 Applied as P2-L11b, data release 19.
 
-## 2026-11-08 — Era 10 becomes history, 1906–2000 (change order)
+## 2026-11-08 — Era 10 becomes history, 1906–2010 (change order)
 
 **Decided (Mark: "lets make era 10 historical and go from 1905 to 2000"; "Living as of 2000";
 "we are using the standard we used to identify and source the 300 worlds in the family tree";
-"converged, auto mode").**
+"converged, auto mode").** Later in the same sitting Mark moved the end to 2010, relayed to this
+thread from the era 1 thread: era 10 becomes a century of global Christianity, from Azusa Street
+(1906) and Edinburgh 1910 to the 2010 centenary meetings, Edinburgh 2010 and Lausanne's Cape Town
+congress.
 
-1. Era 10 runs 1906–2000. The boundary with era 9 stays at 1906 (Azusa Street), so era 9's frozen
+1. Era 10 runs 1906–2010. The boundary with era 9 stays at 1906 (Azusa Street), so era 9's frozen
    end does not move.
-2. "Living" on the tree means living as of 2000, and the method page will say so plainly. Era 10
-   makes no claims about today.
+2. "Living" on the tree means living as of 2010, and the method page will say so plainly. Era 10
+   makes no claims about the years after 2010.
 3. Era 10 is identified and sourced by the same Step 0 standard as eras 1 to 9. The per-world
    construction standard does not apply.
 4. The Living-Era Protocol Addendum V1.0 no longer governs era 10, which now has no present-tense
    claims. Its rules on describing texts rather than people, and on dating statements, may still
    guide tone.
 
+The survey also widens to Christian movements and trends outside formal church bodies (Bible
+translation, campus ministries, church planting, world missions and the like). The unit is the
+movement, never the organization; how such entries are marked is a gate question.
+
 **Change order.** This amends the era 10 freeze of 2026-08-14 (Atlas World Map Decision-Log, "ERA
 10 FROZEN by Mark", and `CiC_Step0_Era10_V1_0.md`): the span, the dated-reading clause on living
-rows, the "present" end dates, and the retention of the post-1990 rows. The full list is in the
+rows, the "present" end dates, and the retention of the most recent rows. The full list is in the
 Atlas World Map Decision-Log entry of the same date ("Change order: era 10 becomes history").
 
 It also amends this log's entry "The link work covers eras 1 to 9" (2026-11-08) in one respect:
