@@ -69552,9 +69552,9 @@ function openPanel(m){
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
     const audioKey=m.id+'-'+item.dataset.storyIdx;
-    docStoryAudioKeys().then(keys=>{
+    docStoryAudioCurrent(audioKey,s.text).then(current=>{
       const slot=item.querySelector('.docstory h4');
-      if(keys.has(audioKey)&&slot&&!item.querySelector('.narration'))slot.insertAdjacentHTML('afterend',
+      if(current&&slot&&!item.querySelector('.narration'))slot.insertAdjacentHTML('afterend',
         '<div class="narration"><audio controls preload="none" src="audio/docstories/'+esc(audioKey)+'.mp3"></audio>'
         +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>');
       const na=item.querySelector('.narration audio');
@@ -69570,10 +69570,14 @@ function openPanel(m){
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
 }
-let _docStoryAudioKeys=null;
-function docStoryAudioKeys(){
-  if(!_docStoryAudioKeys)_docStoryAudioKeys=fetch('audio/docstories/manifest.json').then(r=>r.ok?r.json():{}).then(j=>new Set(Object.keys(j))).catch(()=>new Set());
-  return _docStoryAudioKeys;
+let _docStoryManifest=null;
+function docStoryManifest(){
+  if(!_docStoryManifest)_docStoryManifest=fetch('audio/docstories/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+  return _docStoryManifest;
+}
+async function docStoryAudioCurrent(key,text){
+  const man=await docStoryManifest(), e=man[key];
+  return !!(e&&e.hash&&text&&(await sha256Hex(text)).slice(0,16)===e.hash);
 }
 function openPanelStory(s){
   hideTip();
