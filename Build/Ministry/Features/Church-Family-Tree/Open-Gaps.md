@@ -700,3 +700,6 @@ it, never by deleting it.
     edition; Martin V's bulls on the Observants and the full Constance decree; a source for the
     Allied bombing of Monte Cassino (1944); Lea, Inquisition of the Middle Ages, vol. II, p. 549
     (Capistrano at Breslau). The full list is in the audit README.
+121. **"One paid re-voicing batch after era 9" (2026-11-08) is closed.** All 155 stale tree
+    recordings were re-voiced (3 in the sample, 152 in the run); none is stale now. Decision-Log,
+    "Tree pages re-voiced after era 9", 2026-11-08.
