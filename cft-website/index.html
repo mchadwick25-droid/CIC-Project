@@ -59474,6 +59474,17 @@ function startNarration(a){
 }
 let worldAudio=null;
 fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).then(j=>{worldAudio=j;}).catch(()=>{worldAudio={};});
+const treeAudioCurrent=new Set();
+async function sha256Hex(text){
+  const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+fetch('audio/tree/manifest.json').then(r=>r.ok?r.json():{}).then(async man=>{
+  for(const m of DATA.movements){
+    const e=man[m.id];
+    if(e&&e.text_sha256&&m.longDescription&&await sha256Hex(m.longDescription)===e.text_sha256)treeAudioCurrent.add(m.id);
+  }
+}).catch(()=>{});
 function narrPlayerHTML(url,attrs){
   return '<div class="narration"'+(attrs||'')+'><audio controls preload="none" src="'+esc(url)+'"></audio>'
     +'<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>';
@@ -59607,8 +59618,8 @@ function openPanel(m){
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
   if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
-    +'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
-    +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
+    +(treeAudioCurrent.has(m.id)?'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
+    +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>':'')
     +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   if(m.documentedStories&&m.documentedStories.length){
     h+='<h3>Documented stories</h3><div class="docstories-row">'+m.documentedStories.map((s,i)=>{
