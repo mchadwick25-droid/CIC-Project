@@ -1,0 +1,520 @@
+{
+ "group": "2",
+ "links": [
+  {
+   "id": "desert-monasticism--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "Jerome reports learning and admiring; no recorded adoption"
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "personal teaching relationship; no recorded result"
+  },
+  {
+   "id": "desert-monasticism--iconophile-byzantine-monasticism",
+   "decision": "minor",
+   "reason": "the canon imposes Basil's rule, not an Egyptian one; no source shows a desert text taken up",
+   "doubt": "Canon 20 is a lasting rule, but it adopts Basil's rule, not the desert's."
+  },
+  {
+   "id": "desert-monasticism--early-benedictine-italian-monasticism",
+   "decision": "major",
+   "outcome": "Benedict's Rule had one monk read the Conferences or the Lives of the Fathers aloud to the whole community each evening.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "6836-6841",
+    "text": "sedeant omnes in unum, et legat unus Collationes, vel Vitas Patrum"
+   },
+   "reason": "the Rule writes the Lives of the Fathers into the community's set evening reading: a practice taken up, not just reading",
+   "doubt": "That 'Vitas Patrum' means the desert Lives rests on Gasquet (secondary, per the note). The same Rule line also carries the Cassian link; a reviewer may judge set reading too close to 'just reading'."
+  },
+  {
+   "id": "desert-monasticism--insular-irish-monastic-christianity",
+   "decision": "minor",
+   "reason": "single late legendary account and secondary judgment; no recorded adoption"
+  },
+  {
+   "id": "desert-monasticism--coptic-christianity-under-early-islam",
+   "decision": "minor",
+   "reason": "a colophon prayer naming the founders; veneration, not a recorded result"
+  },
+  {
+   "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+   "decision": "major",
+   "outcome": "Cassian set down Egypt's monastic customs so Bishop Castor could establish them in his new monastery in Gaul, a province then without monasteries.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "16433-16446",
+    "text": "you are anxious that the institutions of the East and especially of Egypt should be established in your province, which is at present without monasteries,"
+   },
+   "reason": "Egyptian monastic customs adopted for a new monastery in Gaul at a bishop's request",
+   "doubt": "Castor's name and Gaul come from the NPNF endnote inside the same lines (16435-16437)."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+   "decision": "major",
+   "outcome": "Benedict's Rule had one monk read the Conferences aloud to the whole community each evening, and again before Compline on fast days.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "6836-6846",
+    "text": "mox accedant ad lectionem Collationum, ut diximus"
+   },
+   "reason": "the Rule makes the Collationes set community reading: a text taken up into a rule",
+   "doubt": "That 'Collationes' means Cassian's Conferences rests on the title match stated in the note; the Rule names no author."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "decision": "minor",
+   "reason": "a single late account and a wish to visit; no recorded result"
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+   "decision": "minor",
+   "reason": "praise of Caesarius's Rule and career moves; no source shows the Lérins practice taken up",
+   "doubt": "Caesarius's Rule might show Lérins practice taken up, but the cited verse only praises it."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "decision": "major",
+   "outcome": "An imperial law of July 381 forbade Eunomians to build churches in town or country and seized any land where they did.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "7064",
+    "text": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris fabricandarum ecclesiarum copiam habere praecipimus."
+   },
+   "reason": "law excluding the group; also condemned by name in Canon 1 of 381"
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "decision": "major",
+   "outcome": "The bishops whom Theodosius gathered at Constantinople anathematized the Semi-Arians, also called Pneumatomachi, in their first canon.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "13965-13976",
+    "text": "and that of the Semi-Arians or Pneumatomachi"
+   },
+   "reason": "council canon condemning the group by name"
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "decision": "minor",
+   "reason": "polemic letters only; no recorded result"
+  },
+  {
+   "id": "imperial-juridical-christianity--apollinarian-christianity",
+   "decision": "major",
+   "outcome": "A law of March 388 drove the Apollinarians from the cities and stripped their bishops of the title of bishop.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "7080",
+    "text": "nulla his episcoporum faciendorum praebeatur auctoritas; ipsi quoque episcopi nomine destituti appellationem dignitatis huius amittant."
+   },
+   "reason": "law excluding the group and removing its bishops' rank"
+  },
+  {
+   "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+   "decision": "major",
+   "outcome": "Hilarion brought the monk's way of life to Palestine, where no monasteries had stood, and was the first to train men in it there.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "30347-30350",
+    "text": "For as yet there were no monasteries in Palestine, nor had anyone known a monk in Syria before the saintly Hilarion. It was he who originated this mode of life and devotion, and who first trained men to it in that province."
+   },
+   "reason": "monastic practice taken up in Palestine by a disciple of Antony",
+   "doubt": "That Hilarion learned it from Antony comes from source 0 (Life of Hilarion 3), not these lines."
+  },
+  {
+   "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "decision": "minor",
+   "reason": "personal mentoring and a monastery Martin founded himself; no teaching or rule taken up"
+  },
+  {
+   "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "decision": "major",
+   "outcome": "The bishops of Gaul refused communion to Saturninus and condemned the creed sent to them from Sirmium as soon as it arrived.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+    "lines": "7773-7779",
+    "text": "you had denied him communion for the whole three years ago until now. I equally rejoiced that the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned"
+   },
+   "reason": "a body of bishops condemning the Homoian creed and excluding its champion from communion",
+   "doubt": "This is Hilary's own report to the bishops, not a synodal act."
+  },
+  {
+   "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "decision": "major",
+   "outcome": "Bishops who opposed the creed the emperor imposed on the churches were driven into exile, and Hilary of Poitiers was among them.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+    "lines": "9519-9523",
+    "text": "imposed a form of faith upon the churches. Opposing bishops they drove into exile."
+   },
+   "reason": "exile of the opposing bishops: an exclusion carried out under imperial authority",
+   "doubt": "Hilary's own account; Hilary's exile is at lines 7773-7775 (source 0). The same passage says the emperor later admitted his error, so 'lasting' is arguable."
+  },
+  {
+   "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "Hilary's protest only; no recorded result"
+  },
+  {
+   "id": "aquileian-christianity--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "shared ascetic circle and letters; no recorded result"
+  },
+  {
+   "id": "ambrosian-milan-standalone--aquileian-christianity",
+   "decision": "minor",
+   "reason": "a meeting both attended; the council's sentence belongs to the argued-against links"
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "decision": "major",
+   "outcome": "An imperial law of July 383 banned Arians, along with Eunomians and other groups, from meeting or gathering any crowd.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "7074",
+    "text": "eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant"
+   },
+   "reason": "law excluding the group; also condemned by name in Canon 1 of 381"
+  },
+  {
+   "id": "imperial-juridical-christianity--donatism",
+   "decision": "major",
+   "outcome": "A council of nineteen bishops at Rome, granted by Constantine, condemned Donatus and cleared his rival Caecilian.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/optatus_against-the-donatists.txt",
+    "lines": "273-285",
+    "text": "It is, therefore, sufficient, that Donatus was condemned by the verdict of so many Bishops, and that Caecilian was cleared by the judgement of so great an authority."
+   },
+   "reason": "church council under imperial grant condemned the Donatist leader",
+   "doubt": "Optatus is a hostile Catholic witness."
+  },
+  {
+   "id": "donatism--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "Donatus's outburst only; the passage records no result"
+  },
+  {
+   "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+   "decision": "major",
+   "outcome": "The Persian bishops agreed to serve the liturgy by the western order that Bishops Isaac and Marutha had taught them at Seleucia.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "17202-17204",
+    "text": "nous exercerons tous uniformément le ministère selon le ministère occidental que les évèques Isaac et Marouta nous ont enseigné"
+   },
+   "reason": "a synod adopted the western liturgical order: practice taken up"
+  },
+  {
+   "id": "desert-monasticism--roman-church-gregorian",
+   "decision": "minor",
+   "reason": "rests on a likeness of lists; Gregory names no source"
+  },
+  {
+   "id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "decision": "minor",
+   "reason": "an imperial letter about building; the sources record no rule or teaching changed"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+   "decision": "minor",
+   "reason": "pilgrimage and a remark; no recorded result"
+  },
+  {
+   "id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+   "decision": "minor",
+   "reason": "visits and worship; no recorded result"
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "Jerome writing a Life after Epiphanius; literary, no recorded result"
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "decision": "major",
+   "outcome": "A law of July 381 ordered every church handed to bishops in communion with Helladius of Caesarea and Gregory of Nyssa, among others.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "6887",
+    "text": "in pontica dioecesi helladio episcopo caesariensi et otreio meliteno et gregorio episcopo nysseno"
+   },
+   "reason": "law making communion with named Cappadocian bishops the legal test for holding churches",
+   "doubt": "Shares Codex Theodosianus 16.1.3 with the Antiochene link; the law's command ('episcopis tradi omnes ecclesias') is on the same line."
+  },
+  {
+   "id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "decision": "major",
+   "outcome": "Gregory's opponents expelled him from his see at Nyssa and put a rival in his place.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+    "lines": "40975-40976",
+    "text": "They have expelled my brother from Nyssa, and into his place have introduced hardly a man"
+   },
+   "reason": "deposition of a bishop and a rival installed",
+   "doubt": "Basil's letter does not name who deposed him or say it was a synod; the Homoian identity rests on the 1894 editors' headnote. The deposition was later undone."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "letters and service; no recorded result"
+  },
+  {
+   "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "decision": "major",
+   "outcome": "Ambrose won a promise from Theodosius to amend his edict on the burned synagogue and to end the whole investigation.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+    "lines": "43970-43990",
+    "text": "he said that he would amend the edict. I went on at once to say that he must end the whole investigation,"
+   },
+   "reason": "imperial order changed as a result of Ambrose's stand",
+   "doubt": "Ambrose's own account to his sister. The synagogue is named at line 43971."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "decision": "minor",
+   "reason": "education and an implied consecration custom; the sources only imply it, and their date is disputed"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+   "decision": "major",
+   "outcome": "A law of July 381 ordered every church handed to bishops in communion with Diodore of Tarsus and others it named.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "6887",
+    "text": "in orientis partibus pelagio episcopo laodicensi et diodoro episcopo tarsensi"
+   },
+   "reason": "law making communion with an Antiochene leader a legal test for holding churches",
+   "doubt": "The note's main subject is Chrysostom's appointment; the major result rests on the 381 law naming Diodore."
+  },
+  {
+   "id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "decision": "major",
+   "outcome": "After synods condemned John Chrysostom, his followers, called Johannites, left the church and held their own assemblies apart.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "18487-18495",
+    "text": "from that time held their assemblies apart in various places, and were from him denominated ‘Johannites.’"
+   },
+   "reason": "condemnation and exile followed by a separate body forming"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--antiochene-exegetical-christianity-chrysostom-ce",
+   "decision": "major",
+   "outcome": "The Second Council of Constantinople cursed Theodore of Mopsuestia and all who defended him or called his reading of Scripture orthodox.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "23937-23939",
+    "text": "if anyone does not anathematize him or his impious writings, as well as all those who protect or defend him, or who assert that his exegesis is orthodox,"
+   },
+   "reason": "council condemnation of the teacher and his writings"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   "decision": "major",
+   "outcome": "A synod of the Church of the East defended the books and teaching of Theodore and refuted those who spread lies about him.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "26570-26571",
+    "text": "Apologie pour les livres et la doctrine de saint Théodore, et réfatation des hérétiques qui lui firent une réputation mensongère."
+   },
+   "reason": "a synod formally took up Theodore's books and teaching"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "decision": "minor",
+   "reason": "Calvin quoting and criticizing; no adoption"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "decision": "minor",
+   "reason": "citation as a witness; quoting, not adoption"
+  },
+  {
+   "id": "aquileian-christianity--homoian-arian-christianity",
+   "decision": "major",
+   "outcome": "At Aquileia the bishops condemned Palladius, judged him unworthy of the priesthood and ordered a Catholic bishop ordained in his place.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+    "lines": "60888-60911",
+    "text": "pronuncio illum facerdo- tio indignum & * carendum; & in loco ejus catholicus ordinetur, Omnes epifcop! dixerunr: Anathema Palladio ."
+   },
+   "reason": "council condemned and deposed the Homoian bishop",
+   "doubt": "OCR text interleaves two columns; the sentence is spoken by Ambrose with the bishops' assent. The note also names Secundianus, not shown in these lines."
+  },
+  {
+   "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "decision": "minor",
+   "reason": "the cited lines show questioning and a sermon declaration; no sentence within the cited passage",
+   "doubt": "The Aquileia sentence deposing Palladius, spoken by Ambrose, is at lines 60888-60911 of the Mansi file, about 150 lines past the cited line, beyond the 60-line window. A reviewer may judge it should count."
+  },
+  {
+   "id": "pelagianism--hieronymian-ascetic-literary",
+   "decision": "minor",
+   "reason": "reported violence resting on rumor; no condemnation or settlement"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "decision": "major",
+   "outcome": "The Council of Trent declared the old Latin Vulgate the authentic text for public lectures, debates, sermons and expositions, and let no one reject it.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "12477-12482",
+    "text": "the  said  old  and  Vulgate  edition,  which,  by the  lengthened  usage  of  so  many  ages,  has  been  approved  of  in the  Church,  be,  in  public  lectures,  disputations,  sermons,  and expositions,  held  as  authentic"
+   },
+   "reason": "a later council adopted the text as authentic",
+   "doubt": "That the Vulgate is Jerome's version rests on Waterworth's essay (source 2, in file) and Augustine (source 1), not the decree itself."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity",
+   "decision": "minor",
+   "reason": "translation into Latin; making texts available, not a recorded adoption",
+   "doubt": "Rufinus's translations could be argued as a text taken up; Gennadius shows only translation."
+  },
+  {
+   "id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+   "decision": "minor",
+   "reason": "later praise and legend; no recorded result"
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--donatism",
+   "decision": "major",
+   "outcome": "Justinian forbade Donatists, Arians, Jews and pagans to keep meeting places or hold rites in the manner of the church.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+    "lines": "52635-52637",
+    "text": "Neque enim Iudaeos neque paganos neque Donatistas neque Árianos neque alios quoscumque haereticos vel speluncas habere vel quaedam quasi ritu ecclesiastico facere patimur,"
+   },
+   "reason": "imperial law excluding the group"
+  },
+  {
+   "id": "roman-church-gregorian--donatism",
+   "decision": "minor",
+   "reason": "Gregory ordered an inquiry; the sources record no result from it"
+  },
+  {
+   "id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "decision": "major",
+   "outcome": "Once the case was reported to the palace, the emperor decreed that Priscillian and his friends be put to death.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "11673-11674",
+    "text": "the emperor decreed that Priscillian and his friends should be put to death."
+   },
+   "reason": "imperial sentence executing the group's leaders"
+  },
+  {
+   "id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "decision": "minor",
+   "reason": "refusal to meet; no recorded result"
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+   "decision": "minor",
+   "reason": "a plea that failed; no recorded result"
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "decision": "major",
+   "outcome": "Ulfila, bishop of the Goths, gave his assent to the creed of Constantinople, though he had once held to the creed of Nicaea.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "9604-9610",
+    "text": "To this creed Ulfilas bishop of the Goths gave his assent, although he had previously adhered to that of Nicæa;"
+   },
+   "reason": "the imperial council's creed taken up by the Homoian Gothic bishop",
+   "doubt": "Maximinus holding the Ariminum creed decades later (source 3) is further support."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+   "decision": "minor",
+   "reason": "polemic only; the condemnation described is the Homoians' act, not a result of Jerome's argument"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "decision": "major",
+   "outcome": "Bishop Leontius of Antioch suspended Aetius from the diaconate after Flavian and Diodore threatened to break communion with him.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "10450-10455",
+    "text": "They further threatened that they would withdraw from his communion, travel to the western empire, and publish his plots to the world. Leontius was now alarmed, and suspended Aetius from his sacred office,"
+   },
+   "reason": "the protest led to Aetius being removed from office",
+   "doubt": "The same lines say Leontius kept favoring Aetius, so how lasting this was is open."
+  },
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "decision": "major",
+   "outcome": "Counsels credited to Antony the Great stand first, after the preface, in the Philokalia, the Greek collection of writings on prayer.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+    "lines": "58621-58628",
+    "text": "Τοῦ ἐν ᾿Αγίοις Πατρὸς ἡμῶν ᾿Αν- τωνίου τοῦ Μεγάλου, παραινέσεις"
+   },
+   "reason": "the Kollyvades editors took desert texts into their own anthology",
+   "doubt": "The compilers (Nikodemos and Macarius) and the 1782 Venice printing are in other sources (1 and 7), not these lines. Arguably compiling is closer to reading than adopting."
+  },
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "decision": "minor",
+   "reason": "letters kept and a patriarch's flight; no teaching or rule shown taken up"
+  },
+  {
+   "id": "desert-monasticism--chalcedonian-monasticism-judean-desert-and-gaza",
+   "decision": "minor",
+   "reason": "Dorotheus quoting the elders; quoting, not a recorded adoption"
+  },
+  {
+   "id": "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity",
+   "decision": "minor",
+   "reason": "rests on one secondary edition; no file and the note states no result"
+  }
+ ],
+ "wants": [
+  "An edition of the acts of the Council of Aquileia (381) with its sentence on Palladius close to Ambrose's questioning, or a clean text of the sentence, for the Ambrose link.",
+  "A text recording the result of Pope Gregory's ordered council on the Donatists in Numidia.",
+  "A source for what Paul and Macarius's mission to Africa (347) imposed on the Donatists.",
+  "A source showing Caesarius of Arles's Rule drawing on Lérins practice.",
+  "A dated text of the Armenian custom of consecration at Caesarea, independent of Moses of Khoren.",
+  "A text showing the Merovingian church adopting Hilary's teaching or practice, not just praising him."
+ ]
+}

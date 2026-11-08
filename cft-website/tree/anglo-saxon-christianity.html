@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -128,14 +136,14 @@ li{margin-bottom:.5rem}
     <div class="lineage-section link-grow">
 <h3>Grew Out Of</h3>
 <ul class="lineage-list">
-<li id="roman-church-gregorian--anglo-saxon-christianity"><a href="roman-church-gregorian.html">The Roman Church in the Age of Gregory the Great</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Bede reports that Pope Gregory sent Augustine and several other monks to preach to the English in 596. They landed on the Isle of Thanet, in King Ethelbert&#039;s Kent, nearly forty strong.</span></li>
-<li id="insular-irish-monastic-christianity--anglo-saxon-christianity"><a href="insular-irish-monastic-christianity.html">Insular / Irish Monastic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Bede reports that King Oswald asked the Irish for a bishop, and they sent him Aidan, a monk of Iona, in 635. Bede adds that the English were taught the rules of monastic life by their Irish masters. The Roman mission of 597 was a second, separate source of English Christianity.</span></li>
+<li id="roman-church-gregorian--anglo-saxon-christianity"><a href="roman-church-gregorian.html">The Roman Church in the Age of Gregory the Great</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Bede reports that Pope Gregory sent Augustine and several other monks to preach to the English in 596. They landed on the Isle of Thanet, in King Ethelbert&#039;s Kent, nearly forty strong.</span></li>
+<li id="insular-irish-monastic-christianity--anglo-saxon-christianity"><a href="insular-irish-monastic-christianity.html">Insular / Irish Monastic Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Bede reports that King Oswald asked the Irish for a bishop, and they sent him Aidan, a monk of Iona, in 635. Bede adds that the English were taught the rules of monastic life by their Irish masters. The Roman mission of 597 was a second, separate source of English Christianity.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-grow">
 <h3>Continued As</h3>
 <ul class="lineage-list">
-<li id="anglo-saxon-christianity--late-anglo-saxon-christianity"><a href="late-anglo-saxon-christianity.html">Late Anglo-Saxon Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Alcuin wrote a poem to the monks of Lindisfarne after the Vikings sacked their island. He told the surviving brothers not to let the attack break their spirit. He called Cuthbert the glory of their church and urged them to keep praying. The community he wrote to was the one Aidan had founded.</span></li>
+<li id="anglo-saxon-christianity--late-anglo-saxon-christianity"><a href="late-anglo-saxon-christianity.html">Late Anglo-Saxon Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Alcuin wrote a poem to the monks of Lindisfarne after the Vikings sacked their island. He told the surviving brothers not to let the attack break their spirit. He called Cuthbert the glory of their church and urged them to keep praying. The community he wrote to was the one Aidan had founded.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-influence">
@@ -147,14 +155,14 @@ li{margin-bottom:.5rem}
 <div class="lineage-section link-influence">
 <h3>Influenced</h3>
 <ul class="lineage-list">
-<li id="anglo-saxon-christianity--carolingian-reform-christianity"><a href="carolingian-reform-christianity.html">Carolingian Reform Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">English churchmen helped lead the Frankish reform from the start. In 742 Carloman, a ruler of the Franks, set the English missionary Boniface as archbishop over the bishops of his realm. Alcuin of York later wrote that he had come to Francia to help King Charles in the Catholic faith.</span></li>
+<li id="anglo-saxon-christianity--carolingian-reform-christianity"><a href="carolingian-reform-christianity.html">Carolingian Reform Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">English churchmen helped lead the Frankish reform from the start. In 742 Carloman, a ruler of the Franks, set the English missionary Boniface as archbishop over the bishops of his realm. Alcuin of York later wrote that he had come to Francia to help King Charles in the Catholic faith.</span><span class="lineage-outcome"><i>Lasting result:</i> In 742 Carloman, on the advice of Boniface and his fellow bishops, ordered a church synod each year. Its aim was to restore church law and correct Christian practice.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
 <li id="anglo-saxon-christianity--british-welsh-christianity--2"><a href="british-welsh-christianity.html">British and Welsh Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Laurentius, who followed Augustine, wrote to the British clergy and urged them into Catholic unity. Later, Bede reports, Aldhelm wrote a book against the way they fixed the date of Easter. Bede himself complained about the Britons. They would not share the faith with the English, he said, yet still held to their errors.</span></li>
-<li id="anglo-saxon-christianity--insular-irish-monastic-christianity"><a href="insular-irish-monastic-christianity.html">Insular / Irish Monastic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">At Whitby in 664, Bede says, the English priest Wilfrid argued against the Easter kept by Bishop Colman and his Irish clergy. He said Rome, Italy, Gaul, Africa, Asia and Egypt kept the Roman date, and he called the other side obstinate. King Oswy then chose to follow Peter, who held the keys of heaven.</span></li>
+<li id="anglo-saxon-christianity--insular-irish-monastic-christianity"><a href="insular-irish-monastic-christianity.html">Insular / Irish Monastic Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">At Whitby in 664, Bede says, the English priest Wilfrid argued against the Easter kept by Bishop Colman and his Irish clergy. He said Rome, Italy, Gaul, Africa, Asia and Egypt kept the Roman date, and he called the other side obstinate. King Oswy then chose to follow Peter, who held the keys of heaven.</span><span class="lineage-outcome"><i>Lasting result:</i> In 664 the king and all at the debate decided to follow the Catholic Easter. Bishop Colman went back to Scotland with those who would not.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-contact">
@@ -177,6 +185,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

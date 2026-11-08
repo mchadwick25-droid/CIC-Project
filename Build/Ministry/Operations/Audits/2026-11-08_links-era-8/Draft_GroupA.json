@@ -1,0 +1,1519 @@
+{
+ "group": "A",
+ "movements": [
+  "german-pietism-spener-francke-halle",
+  "radical-pietism-and-the-brethren-dunkers-ephrata",
+  "the-moravian-church-at-herrnhut",
+  "the-methodist-revival",
+  "the-quakers-religious-society-of-friends"
+ ],
+ "dispositions": [
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Lutheran devotion has no entry (the Wittenberg entry ends in 1580). The claim stays and is now shown: Pia Desideria first came out as Spener's preface to Arndt's postil (spener_pia-desideria-deu_koehler1841.txt lines 863-864)."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No vendored Pietist text names a Dutch precisian source; Spener's Pia Desideria cites Arndt, not Dutch writers, and the only Dutch tie found (Francke sending Neubauer to see Dutch orphan houses, Guericke lines 6424-6425) is not precisianism. No repo-cited secondary I could check makes the claim. Qualified in the prose with the reason; no link drafted. Wanted: Teellinck, Lodenstein or Voetius named in a German Pietist text."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut",
+   "prose_change": 0,
+   "reason": "Kept as influence, not descent: 'shaped the Moravian Church'. Documented through Zinzendorf (Spener his godfather, Halle his school, Spener's idea the root of Herrnhut)."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No entry for a wider missionary movement (the Serampore entry begins in 1793 and no vendored text ties it to Halle). Reworded to the entry's own documented claim, Halle's 1706 mission."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "sentence": "Württemberg Pietism, associated with Johann Albrecht Bengel, belongs within this same movement.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Classifies Württemberg Pietism as part of this movement; not a tie between entries. Wording lightly simplified."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "longDescription",
+   "sentence": "Pietism gave German Protestantism the conversion narrative as a genre and a great body of new hymnody, and through Halle's graduates it launched one of the first organized Protestant missions sent out from Europe, when Bartholomäus Ziegenbalg and Heinrich Plütschau sailed for the Danish trading post at Tranquebar in South India in 1706.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Tranquebar mission has no entry; the 1706 sailing and Halle's choice of Plütschau and Ziegenbalg are in Guericke (lines 8344-8357) and Ziegenbalg's letters."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "longDescription",
+   "sentence": "What followed was less a new church than a renewal movement inside the Lutheran state churches, and its center became Halle, where August Hermann Francke built an orphanage that grew into a complex of schools, a printing house and a Bible institute, funded by donations and tied to correspondents across Europe, Russia, India and North America.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Places Pietism inside the Lutheran state churches; no entry for them as a whole."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "why",
+   "sentence": "That conviction built an orphanage at Halle that grew into schools, a press, and a network reaching across Europe, and sent Bartholomäus Ziegenbalg to Tranquebar in South India in 1706, one of the first organized Protestant missions out of Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same Tranquebar mission; no entry."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut",
+   "prose_change": 1,
+   "reason": "Now 'grew up close to it', with Zinzendorf's Spener and Halle ties stated; carried by the Documented influence link."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-methodist-revival",
+   "prose_change": 1,
+   "reason": "Wesley's own 1738 visit to Halle and Whitefield's use of Francke's orphan house document a direct influence; the legacy now says so instead of 'through them'."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Unsupported superlative ('first sustained institutional base') replaced with Halle's documented role in the 1706 Danish mission (Guericke)."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "sentence": "Pietism never became a denomination of its own — it stayed inside the Lutheran churches and eventually dissolved as a distinct party — but almost everything it touched outlived it.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "States Pietism stayed inside the Lutheran churches; no entry. Kept in plainer words."
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "sentence": "Its habits — small groups meeting midweek to read Scripture, and the expectation that a Christian can tell the story of their own conversion — are now so ordinary across evangelical Protestantism that their origin is easy to miss.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Evangelical Protestantism as a whole has no entry; a general reception claim, kept."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "relationsSummary",
+   "sentence": "Between Pietism and Anabaptism - a real uniqueness test",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": 2,
+   "reason": "The internal 'uniqueness test' summary is rewritten; its Pietism side is the gave-rise-to link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "relationsSummary",
+   "sentence": "Between Pietism and Anabaptism - a real uniqueness test",
+   "other_id": "the-anabaptist-movements",
+   "disposition": "link",
+   "link_id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": 2,
+   "reason": "Its Anabaptist side is the influenced link (Mack on the 'former baptists')."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "longDescription",
+   "sentence": "Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it — separatists who held that the true church had fallen away centuries earlier and that no state establishment could be mended.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": null,
+   "reason": "The inventory read this as 'broke with' Pietism, but 'walked out of it' refers to the Lutheran church. The sentence names descent from Pietism (a 'radical wing'), drafted as gave rise to. No broke-with link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "longDescription",
+   "sentence": "Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it — separatists who held that the true church had fallen away centuries earlier and that no state establishment could be mended.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Walking out of the Lutheran church: no entry for the Lutheran church as a whole."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "longDescription",
+   "sentence": "In 1708, at Schwarzenau in the little county of Wittgenstein — one of the few German territories that would leave separatists alone — eight of them baptized one another in the river Eder and became the Brethren, joining Pietist inwardness to Anabaptist convictions: baptism only for believers, plain living, and refusal of the sword.",
+   "other_id": "the-anabaptist-movements",
+   "disposition": "link",
+   "link_id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": null,
+   "reason": "Widely Accepted influence link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "longDescription",
+   "sentence": "In 1708, at Schwarzenau in the little county of Wittgenstein — one of the few German territories that would leave separatists alone — eight of them baptized one another in the river Eder and became the Brethren, joining Pietist inwardness to Anabaptist convictions: baptism only for believers, plain living, and refusal of the sword.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": null,
+   "reason": "Pietist inwardness carried by the gave-rise-to link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "why",
+   "sentence": "In 1708, eight separatists waded into the river Eder at Schwarzenau in Germany and baptized one another, joining Pietist inward renewal to Anabaptist convictions — baptism only for believing adults, plain living, and refusal to bear arms.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "why",
+   "sentence": "In 1708, eight separatists waded into the river Eder at Schwarzenau in Germany and baptized one another, joining Pietist inward renewal to Anabaptist convictions — baptism only for believing adults, plain living, and refusal to bear arms.",
+   "other_id": "the-anabaptist-movements",
+   "disposition": "link",
+   "link_id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": null,
+   "reason": "Same influenced link."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "legacy",
+   "sentence": "Descend directly from the Schwarzenau baptisms, and they carried the plain-dress, peace-church strand of American Christianity alongside the Mennonites and the Quakers.",
+   "other_id": "the-anabaptist-movements",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Alongside the Mennonites' places the Brethren beside them as peace churches; it claims no contact or influence. Brumbaugh records Krefeld Mennonites joining the Brethren (lines 2508-2512), but the entry does not name that."
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "legacy",
+   "sentence": "Descend directly from the Schwarzenau baptisms, and they carried the plain-dress, peace-church strand of American Christianity alongside the Mennonites and the Quakers.",
+   "other_id": "the-quakers-religious-society-of-friends",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Alongside the Quakers' is a parallel, not a claimed contact; overlapping place and time alone do not qualify."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "sentence": "This community is a direct renewal of the old Bohemian Unity of the Brethren, carried across the hidden century between its suppression in 1627 and the refugees' arrival at Herrnhut in 1722.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": 4,
+   "reason": "The old Unity's last century is the Czech churches entry, whose continuesAs field already names Herrnhut; the inventory's Hussite entry is one step earlier and continues as it. Contested continued-as link; the summary now frames 'direct renewal' as the community's own view."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "sentence": "This community is a direct renewal of the old Bohemian Unity of the Brethren, carried across the hidden century between its suppression in 1627 and the refugees' arrival at Herrnhut in 1722.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": 4,
+   "reason": "Same link; 1627 suppression kept."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "sentence": "Its episcopal succession was renewed through the Jablonski-Nitschmann consecration of 1735, tying it formally back to the old Unity.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": 4,
+   "reason": "The 1735 consecration is an event, not an entry; it is evidence on the continued-as link (Cranz lines 4362-4365, 9365-9368)."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "sentence": "It had a decisive influence on John Wesley, and began sending missionaries decades before any other Protestant body did.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-moravian-church-at-herrnhut--the-methodist-revival",
+   "prose_change": 4,
+   "reason": "Documented influence link (Wesley on Böhler; Wesley at Herrnhut)."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "sentence": "It had a decisive influence on John Wesley, and began sending missionaries decades before any other Protestant body did.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "'Decades before any other Protestant body' is wrong: Halle's Danish mission reached Tranquebar in 1706. Reworded to 'from 1732 it sent missionaries far overseas'."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The remnant of the Unity of the Brethren, which had survived underground for nearly a century after the Habsburgs outlawed the Czech reform church.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": null,
+   "reason": "Remnant of the Unity: Cranz's 'seed of the Brethren' near Fulnek supports the refugees' descent; the continuity of the church itself is the Contested link."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The remnant of the Unity of the Brethren, which had survived underground for nearly a century after the Habsburgs outlawed the Czech reform church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Habsburg state has no entry; not a church relationship."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Count Nikolaus von Zinzendorf let them settle on his estate, the village they built was called Herrnhut, and after years of quarreling among the refugees and the other seekers who joined them, a communion service on 13 August 1727 became the moment the community always afterwards dated its renewal from.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut",
+   "prose_change": null,
+   "reason": "Zinzendorf has no entry of his own; the person carries the Pietism-Herrnhut influence link (inventory missed this)."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "From 1732 they began sending missionaries — to the enslaved people of St Thomas, to Greenland, to Suriname, to the Native congregations of Pennsylvania and New York.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mission fields have no entries."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "why",
+   "sentence": "In 1722 a handful of refugee families slipped out of Bohemia, remnants of a reformed church that had survived underground for nearly a century, and built the village of Herrnhut on a Saxon nobleman's land.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": null,
+   "reason": "Same continued-as link."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "why",
+   "sentence": "The community kept prayer running in shifts around the clock, wrote up its life in a diary every single day, and from 1732 sent out missionaries — to the enslaved of St Thomas, to Greenland, to Suriname — on a scale no other Protestant body approached for another two centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mission fields have no entries. The comparison 'on a scale no other Protestant body approached for another two centuries' is unsourced; logged in escalations, not rewritten."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "legacy",
+   "sentence": "Its most consequential single contact was with a young Anglican priest: John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-moravian-church-at-herrnhut--the-methodist-revival",
+   "prose_change": null,
+   "reason": "The meeting at sea and in London is carried by the Documented influence link; no separate in-contact link on the same evidence."
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "legacy",
+   "sentence": "Its most consequential single contact was with a young Anglican priest: John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The contact named is with Wesley the person, carried by the Moravian-Methodist link; the sentence claims no tie with the Church of England as a body. (The 1749 Act of Parliament recognizing the Moravian Church, vendored as moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt, is not named in the entry.)"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "legacy",
+   "sentence": "And the hidden-seed story ended well: a church suppressed in Bohemia in 1627 has descendants in every continent.",
+   "other_id": "czech-churches-last-century",
+   "disposition": "link",
+   "link_id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "prose_change": 5,
+   "reason": "Inventory pointed to the Hussite entry; the 1627 church is the Czech churches entry. Qualified as 'as the Moravians tell it' to match the Contested link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "puritanism--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Widely Accepted influence link; 'grew from' read as influence and left."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "the-moravian-church-at-herrnhut--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Documented influence link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Documented gave-rise-to link (societies inside the Church; 'we are not Dissenters from the Church now')."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-holiness-movement",
+   "prose_change": null,
+   "reason": "Existing influenced link checked and kept."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The claim runs through Holiness ('through Holiness'); the Holiness-to-Pentecostal tie joins eras 9 and 10 and belongs to those drafts. No direct Methodist-Pentecostal link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-black-church-in-america",
+   "prose_change": null,
+   "reason": "Existing Documented gave-rise-to link checked and kept."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The AME Church has no entry of its own; it is carried within the Black Church link (Allen, 1816)."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "relationsSummary",
+   "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "AME Zion has no entry. Its 1821 founding has no vendored source; left as a standard fact and listed in wants."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "longDescription",
+   "sentence": "John Wesley was an Oxford-trained Church of England priest whose methodical little religious society had earned him a mocking nickname and whose mission to Georgia had ended in failure.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Same gave-rise-to link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "longDescription",
+   "sentence": "Shut out of many pulpits, he and George Whitefield preached in fields and at pit-heads to crowds of thousands.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Whitefield has no entry; he carries part of the Pietism-Methodist influence link (Francke's orphan house)."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "longDescription",
+   "sentence": "Wesley meant all of this to renew the Church of England from inside and insisted to the end that he had not left it.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "prose_change": null,
+   "reason": "Wesley's 1785 'Of Separation from the Church' supports both 'renew from inside' and 'had not left it'."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "longDescription",
+   "sentence": "After his death in 1791 the connexion became a separate church anyway.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "prose_change": null,
+   "reason": "Broke-with link, Widely Accepted (Methodist-side evidence only)."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "why",
+   "sentence": "In May 1738, John Wesley felt his heart 'strangely warmed' at a meeting in London and began preaching holiness and assurance to crowds shut out of ordinary church pulpits, so he and George Whitefield preached in open fields instead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Whitefield has no entry."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "prose_change": null,
+   "reason": "Same broke-with link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--nineteenth-century-methodism",
+   "prose_change": null,
+   "reason": "The British connexion after 1791 and the 1784 American church are the continued-as link for the census continuesAs pair (not in the inventory)."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-holiness-movement",
+   "prose_change": null,
+   "reason": "Same existing link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Holiness to Pentecostalism joins eras 9 and 10."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "Now the fastest-growing form of Christianity on earth.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A claim about Pentecostalism's present size, not a Methodist relationship; it joins no era-8 entry. Unsourced; logged in escalations."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "Richard Allen's African Methodist Episcopal Church, founded in 1816, made Methodism one of the foundations of the Black Church in America.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-black-church-in-america",
+   "prose_change": null,
+   "reason": "Same existing link."
+  },
+  {
+   "movement": "the-methodist-revival",
+   "field": "legacy",
+   "sentence": "Richard Allen's African Methodist Episcopal Church, founded in 1816, made Methodism one of the foundations of the Black Church in America.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "AME Church: no entry; inside the Black Church link."
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "field": "relationsSummary",
+   "sentence": "Radical child of the Puritan ferment; parent-influence on abolition",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "puritanism--the-quakers-religious-society-of-friends",
+   "prose_change": 3,
+   "reason": "Documented gave-rise-to link (Nayler from an Independent church; Baptists gathered; Penn's account)."
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "field": "relationsSummary",
+   "sentence": "Radical child of the Puritan ferment; parent-influence on abolition",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Abolition has no entry. The claim is kept in plain words; the London Yearly Meeting epistles carry the Society's campaign against the slave trade."
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "field": "legacy",
+   "sentence": "The Religious Society of Friends is a living body on both sides of the Atlantic, though it divided in the nineteenth century into unprogrammed, evangelical and pastoral branches that persist to this day.",
+   "other_id": "nineteenth-century-quakerism-separations",
+   "disposition": "link",
+   "link_id": "the-quakers-religious-society-of-friends--nineteenth-century-quakerism-separations",
+   "prose_change": null,
+   "reason": "Continued-as link for the census continuesAs pair."
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "field": "legacy",
+   "sentence": "Quaker campaigning was central to abolition in Britain and America, Quaker refusal to swear or to fight helped push conscience into English law, and Pennsylvania began as a Quaker experiment in governing without an established church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Abolition has no entry; no link."
+  }
+ ],
+ "links": [
+  {
+   "id": "german-pietism-spener-francke-halle--the-moravian-church-at-herrnhut",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Count Zinzendorf, who let the refugees settle at Herrnhut, had Spener as a godfather and went to school under Francke at Halle. He said the Herrnhut community first grew from 'Spener's idea of planting little churches in the great church'. His colleague August Spangenberg recorded both in his life of the count.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "1524-1526",
+     "locus": "on his birth and baptism, 1700",
+     "quote": "The sponsors at his baptism were the Electoral Princesses of Saxony and the Palatinate, and the Rev. Dr. Spener.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "1734-1736",
+     "locus": "page headed 'At School in Halle'",
+     "quote": "He was there rather harshly treated, in consequence of singular, though well-meant instructions, sent respecting him to Professor Franke.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "3379-3381",
+     "locus": "page headed 'Religious Efforts', on Berthelsdorf and Upper Lusatia, quoting Zinzendorf",
+     "quote": "That which first gave rise to the institutions in Upper Lusatia, was Spener's idea of planting little churches in the great church,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "german-pietism-spener-francke-halle relationsSummary ('It shaped the Moravian Church at Herrnhut', after prose change 0) and legacy ('The Moravians at Herrnhut grew up close to it', after prose change 1)",
+   "major": false,
+   "minor_reason": "Ideas and schooling passed on; no council, split or ruling is shown.",
+   "wants": [
+    "Zinzendorf's own writings on Herrnhut's founding and the Brotherly Agreement of 12 May 1727, in a public-domain edition, to show the Spener debt in the Herrnhut documents themselves"
+   ],
+   "drafter_flags": [
+    "The 'little churches in the great church' saying is Zinzendorf's, quoted by Spangenberg (a Moravian bishop and Zinzendorf's colleague), in Jackson's abridged 1838 English. It is primary for what Zinzendorf said, but reaches us through an insider biography.",
+    "Typed 'influenced', not 'gave rise to' as the old summary said: the refugees came from the old Unity, and Pietism reached Herrnhut through its patron. The descent claim sits with the continued-as link from the Czech churches."
+   ],
+   "change_reason": "New. Documents the Pietism-Herrnhut tie the summary and legacy name; retypes the summary's 'gave rise to' as influence."
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--the-methodist-revival",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1738 John Wesley went to Halle and called on the younger Francke. He wrote that August Hermann Francke's 'name is indeed as precious ointment'. George Whitefield read Francke's account of the Halle orphan house and saw it as the pattern for his own orphan house in Georgia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1328-1331",
+     "locus": "Journal, July 1738 (journey to Herrnhut)",
+     "quote": "I then thought of sending in a note to Professor Francke, the son of that August Hermann Francke whose name is indeed as precious ointment.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1331",
+     "locus": "Journal, July 1738",
+     "quote": "Oh may I follow him, as he did Christ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Whitefield, A Continuation of the Reverend Mr. Whitefield's Journal, in The Two First Parts of His Life, with His Journals (1756)",
+     "file": "cic/texts/whitefield_two-first-parts-of-his-life-with-journals_1756.txt",
+     "lines": "11272-11275",
+     "locus": "Journal, on the planned Georgia orphan house",
+     "quote": "Profeflbr Frank's Account of the Orphan-HoufS at Hall, near Glaucha. — It fecms, in many Cir- cumftances, to be fo exactly parallel to my pre- sent Undertaking for the Poor of Georgia,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "german-pietism-spener-francke-halle legacy ('John Wesley learned from the Moravians, and in 1738 he went to Halle himself. George Whitefield took Francke's orphan house as the model', after prose change 1); the old legacy read 'and through them John Wesley'",
+   "major": false,
+   "minor_reason": "Reading and a visit; no institutional act.",
+   "wants": [],
+   "drafter_flags": [
+    "Whitefield's quote keeps the 1756 OCR exactly ('Profeflbr', 'HoufS', 'fecms', long s read as f), including the dash.",
+    "The old legacy said Pietism reached Wesley only 'through' the Moravians. Wesley's own visit to Halle and Whitefield's use of Francke show a direct tie too, so the legacy now says both."
+   ],
+   "change_reason": "New. Documents the Wesley clause of the legacy, with Whitefield's orphan house added from his own journal."
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Johann Wilhelm Petersen, later a leading radical Pietist, first heard hopes for the church's future at a meeting in Spener's house. Alexander Mack, who founded the Brethren in 1708, wrote that they had once lived 'among the pietists'. A Brethren historian wrote in 1899 that Francke woke Ernst Christoph Hochmann to faith at Halle. He adds that Hochmann shaped Mack more than anyone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johann Wilhelm Petersen, Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)",
+     "file": "cic/texts/petersen-jw_leben-deu_1717.txt",
+     "lines": "577-579",
+     "locus": "Leben, on Spener's collegium pietatis",
+     "quote": "welchen ich in dem Collegio pietatis, welches der Herr D. Spener in ſeinemHau⸗ fe angeſtellet hatte, offtmahls reden hörete,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander Mack, answers to Eberhard Ludwig Gruber's questions to the New Baptists, in A Short and Plain View of the Outward, yet Sacred Rights and Ordinances (Philadelphia, 1810)",
+     "file": "cic/texts/mack-alexander_rights-and-ordinances_1810.txt",
+     "lines": "4802-4804",
+     "locus": "answer to Question 36",
+     "quote": "we readily acknowledge it to have been the case as long as we were among the pietists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1345-1347",
+     "locus": "chapter with running head 'The Pietistic Pathfinders', on Hochmann",
+     "quote": "At Halle Hochmann was \"awakened\" by August Hermann Francke, a pupil of Spener.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1284-1287",
+     "locus": "chapter with running head 'The Pietistic Pathfinders', on Hochmann and Mack",
+     "quote": "More than all others combined did Ernst Christoph Hochmann influence the mind and conduct of the founder of the Church of the German Baptist Breth- ren.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas Shantz, An Introduction to German Pietism (Johns Hopkins, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "radical-pietism-and-the-brethren-dunkers-ephrata longDescription ('Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it') and relationsSummary ('Radical Pietism grew out of German Pietism', after prose change 2)",
+   "wants": [
+    "Hochmann von Hochenau's own Confession of Faith (1702) is only in Brumbaugh's garbled German facsimile and English translation; a clean edition would let Hochmann's Halle awakening rest on his own words",
+    "Gottfried Arnold, Unparteiische Kirchen- und Ketzer-Historie (1699-1700), the radical Pietists' manifesto, named in the census sources but not vendored"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: Petersen and Mack are primary, but the clearest person-carried tie (Francke awakening Hochmann at Halle) is in Brumbaugh, a secondary historian citing Goebel.",
+    "Brumbaugh also wrote (lines 921-924): 'That any of the founders were Pietists is not true.' Mack's own words ('as long as we were among the pietists') say otherwise. The note follows Mack and does not repeat Brumbaugh's denial; the reviewer may want it named.",
+    "Shantz is cited in the census sources for the Pietism entry; named-not-rechecked, no page.",
+    "Petersen's quote keeps the Fraktur OCR exactly: long s, 'ſeinemHau⸗ fe' with the double hyphen and the 'f' for long s.",
+    "The Mack 'Question 36' answer sits in the 1810 volume under 'Eberhard Ludwig Gruber's Enquiries ... with plain answers ... by one of their members'. The file header says the 1810 volume lacks the Ground-Searching Questions; the text shows these answers are in it. The header may need a look (not my thread)."
+   ],
+   "change_reason": "New. The radical wing's descent from Pietism, named in the entry's description."
+  },
+  {
+   "id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Alexander Mack, the founder of the Brethren, answered a critic's questions about his church. He wrote that the Baptists of his own day had drifted from the 'former baptists'. Their teaching, he said, was 'perfectly similar to ours'. A Brethren historian in 1899 counted the Brethren among the last of the Anabaptist groups to arise.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander Mack, answers to Eberhard Ludwig Gruber's questions to the New Baptists, in A Short and Plain View of the Outward, yet Sacred Rights and Ordinances (Philadelphia, 1810)",
+     "file": "cic/texts/mack-alexander_rights-and-ordinances_1810.txt",
+     "lines": "4744-4746",
+     "locus": "Question 33",
+     "quote": "Do you not regard your congre- gation as superior to other baptists, either in the present or former ages ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander Mack, answers to Eberhard Ludwig Gruber's questions to the New Baptists, in A Short and Plain View of the Outward, yet Sacred Rights and Ordinances (Philadelphia, 1810)",
+     "file": "cic/texts/mack-alexander_rights-and-ordinances_1810.txt",
+     "lines": "4755-4757",
+     "locus": "answer to Question 33",
+     "quote": "we can nevertheless vouch for their doc- trine to be perfectly similar to ours, and not contrary to the gospel.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "887-891",
+     "locus": "opening chapter, on the Anabaptist sects",
+     "quote": "These Ana- baptists were broken into many sects, depending largely upon their interpretation of the Scriptures and their remove from Ecclesiasticism and civic control. The Taufers were among the latest sects to arise.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "radical-pietism-and-the-brethren-dunkers-ephrata longDescription and why ('joining Pietist inwardness to Anabaptist convictions'); relationsSummary ('They joined Pietist inward faith to Anabaptist ways', after prose change 2)",
+   "major": false,
+   "minor_reason": "A teaching taken up; no council, split or ruling is shown.",
+   "wants": [
+    "Menno Simons or the Dordrecht Confession (1632) in a vendored edition, beside Mack, to show which Anabaptist teaching the Brethren took up; Durnbaugh, European Origins of the Brethren (1958), for the 1708 accounts"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "Graded Widely Accepted, not Documented: Mack names the 'former baptists' and claims their teaching, but does not say the Brethren learned it from them. Brumbaugh is the secondary; he also rejects Benjamin Rush's claim that the Brethren were 'a branch of the Mennonites' (lines 1305-1306), which the note does not claim.",
+    "'Baptists' in Mack's English means the Täufer (Anabaptists and Mennonites), not English Baptists; the note keeps his word in quotes."
+   ],
+   "change_reason": "New. The Anabaptist side of the Brethren's founding, named in description and why."
+  },
+  {
+   "id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "action": "new",
+   "from": "czech-churches-last-century",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "continued as",
+   "confidence": "Contested",
+   "note": "The Moravians' own history, by David Cranz, says a hidden 'seed of the Brethren' lived on near Fulnek in Moravia. In 1735 the old Unity's senior bishop, Daniel Ernst Jablonski, made David Nitschmann a bishop. Yet Zinzendorf first meant Herrnhut to renew the Lutheran church. So how far it was the old Unity reborn is open to question.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4784-4786",
+     "locus": "Modern History, Part I, section 2",
+     "quote": "In Fulnek , formerly the cure of Comenius, the laft Bo- hemian-Moravian bifhop, and in the circumjacent vil¬ lages, a numerous feed of the Brethren ftill lay hid;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "9365-9368",
+     "locus": "Modern History, on the 1735 consecration",
+     "quote": "The count had already carried on a correfpondence with Dr. JablonJky, then the eldeft bilhop, or fenior, of the Brethren’s Unity, about the renewal of the epifcopal ordination.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4362-4365",
+     "locus": "Ancient History, Part IV, list of bishops, no. 67",
+     "quote": "David Nitfchmann , confecrated in 1735 by Ja’blonfky at Berlin, bifhop of the Moravian Brethren, &c.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "3379-3381",
+     "locus": "page headed 'Religious Efforts', quoting Zinzendorf",
+     "quote": "That which first gave rise to the institutions in Upper Lusatia, was Spener's idea of planting little churches in the great church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "3403-3407",
+     "locus": "page headed 'Religious Efforts'",
+     "quote": "The Count having in view Spener's idea of a reformation of the church, took it for granted, that its accomplishment was to be by means of a faithful repetition and promulgation of Luther's evangelical doctrines, as contained in the Holy Scrip- tures, and the Augsburg Confession.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-moravian-church-at-herrnhut relationsSummary ('saw itself as the old Bohemian Unity of the Brethren made new', after prose change 4), longDescription and why ('the remnant of the Unity of the Brethren'), legacy ('the hidden-seed story, as the Moravians tell it', after prose change 5)",
+   "wants": [
+    "The Brotherly Agreement and Statutes of Herrnhut (1727) and the 13 August 1727 account, in a public-domain edition",
+    "A modern account of the Herrnhut refugees' origins (e.g. Atwood, Community of the Cross, cited in the census sources) checked in the repo before any higher grade"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7. The census continuesAs field already pairs these two; this is its link.",
+    "Cranz is the Unity's own official history, so it speaks for one side. Spangenberg, also a Moravian, supplies the other: Zinzendorf's own aim was Spener's 'little churches in the great church' and Luther's doctrine. I did not cite a modern scholar for the disagreement because I found none in the repo that I could check; the note words it as 'open to question', grounded in those two texts.",
+    "Cranz quotes keep the OCR exactly ('Fulnek ,', 'bifhop', 'vil¬ lages', 'JablonJky', 'Ja’blonfky')."
+   ],
+   "change_reason": "New. The continuity the census already asserts, graded at the level its own sources allow."
+  },
+  {
+   "id": "the-moravian-church-at-herrnhut--the-methodist-revival",
+   "action": "new",
+   "from": "the-moravian-church-at-herrnhut",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In March 1738 the Moravian Peter Böhler convinced John Wesley, by Wesley's own account, 'of the want of that faith whereby alone we are saved'. That summer Wesley traveled to Herrnhut, 'to see the place where the Christians live'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 1 (1909)",
+     "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+     "lines": "25026-25029",
+     "locus": "Journal, 4-5 March 1738",
+     "quote": "Peter Bohler,2 by whom (in the hand of the great God) I was, on Sunday the 5th, clearly convinced of unbelief, of the want of that faith whereby alone we are saved.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 1 (1909), Curnock's note",
+     "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+     "lines": "24550-24552",
+     "locus": "note on Peter Böhler",
+     "quote": "his first episcopal act was the ordination of Peter Bohler to the Moravian ministry,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1226-1228",
+     "locus": "Journal, July 1738, at Weimar",
+     "quote": "asked what we were going so far as Herrnhut for. I answered, ' To see the place where the Christians live.'",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-moravian-church-at-herrnhut relationsSummary ('It had a deep effect on John Wesley', after prose change 4) and legacy (Wesley met Moravians at sea and in London); the-methodist-revival relationsSummary ('Moravian influence')",
+   "major": false,
+   "minor_reason": "Teaching passed person to person; no institutional act.",
+   "wants": [
+    "Wesley's later break with the Moravians (Fetter Lane, 1740) and his Queries humbly proposed to Count Zinzendorf (1755, vendored as wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt) are not named in either entry; if they are, a separate argued-against link would be in order"
+   ],
+   "drafter_flags": [
+    "The Böhler quote keeps Curnock's footnote mark '2' after 'Bohler' as the file prints it. Wesley's text names Böhler but not his church; Curnock's note supplies 'Moravian'.",
+    "This single link also carries the legacy's 'met Moravians in a storm at sea and again in London'; I did not add a separate in-contact link on the same evidence. The storm passage (v1 lines 6942-6960) calls them 'the Germans'; Curnock's notes identify them."
+   ],
+   "change_reason": "New. Documents the Moravian influence both entries name."
+  },
+  {
+   "id": "puritanism--the-methodist-revival",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1747 John Wesley read The History of the Puritans. He wrote with anger of the persecution that drove 'those venerable men' out of the Church. Historians of Methodism, Henry Rack among them, see a Puritan strand in the Wesleys' family and faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 3 (1909)",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "16522-16523",
+     "locus": "Journal, March 1747",
+     "quote": "In some of the following days I snatched a few hours to read The History of the Puritans?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 3 (1909)",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "16523-16525",
+     "locus": "Journal, March 1747",
+     "quote": "I stand in amaze : First, at the execrable spirit of persecution which drove those vener- able men out of the Church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Rack, Reasonable Enthusiasm: John Wesley and the Rise of Methodism (1989; 3rd ed. 2002)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-methodist-revival relationsSummary ('Methodism grew from Puritan piety')",
+   "major": false,
+   "minor_reason": "Reading and family heritage; no institutional act.",
+   "wants": [
+    "Wesley's Christian Library (1749-55), with its abridged Puritan authors, in a vendored edition; this would show Methodist preachers set to read Puritans (the Large Minutes order the Christian Library read, lines 979-981) and could lift the link to Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "The '?' after 'Puritans' is the file's OCR of a footnote mark; kept exactly.",
+    "Rack is cited in the census sources for this entry; named-not-rechecked, no page. I am confident the book treats the Wesleys' Puritan family background, but did not see it.",
+    "Wesley reading and praising the Puritans shows sympathy, not descent. 'Grew from' in the summary is read as influence; I left the summary's wording, since it is a fair plain-language gloss of influence."
+   ],
+   "change_reason": "New. The Puritan clause of the summary, graded at the level the vendored evidence allows."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-methodist-revival",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Methodism began as societies of people inside the Church of England, gathered by John Wesley. In 1766 the preachers' conference said, 'we are not Dissenters from the Church now'. In 1785 Wesley recalled how these 'little companies' had spread through the three kingdoms.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "4912-4913",
+     "locus": "Minutes, 1766",
+     "quote": "And as we are not Dissenters from the Church now, so we will do nothing willingly which tends to a separation from it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24784-24785",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 4",
+     "quote": "These little companies [societies they were called) gradually spread through the three kingdoms.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24777-24779",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 3",
+     "quote": "Above forty years ago, I began preaching in the fields ; and that for two reasons : First, I was not suffered to preach in the churches.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-methodist-revival relationsSummary ('inside the Church of England') and longDescription ('Church of England priest', 'renew the Church of England from inside')",
+   "wants": [],
+   "drafter_flags": [
+    "Same-era (8) pair with the Georgian Church of England entry, whose own summary says 'the church that Methodism grew up inside, and eventually out of'. If another group drafts that entry's links, the two drafts should be merged to one link per type.",
+    "Two links on this pair (gave rise to, broke with) are both drafted; each rests on its own passages."
+   ],
+   "change_reason": "New. Methodism's origin inside the Church of England, in Wesley's and the Conference's own words."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-methodist-revival",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1785 Wesley wrote that he had not left the Church of England, though he had broken its rules. He had preached in the fields because its pulpits were shut to him. In 1795 the Methodist Conference agreed that its own chapels could hold the Lord's Supper, a long step toward a separate church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24777-24779",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 3",
+     "quote": "Above forty years ago, I began preaching in the fields ; and that for two reasons : First, I was not suffered to preach in the churches.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24838-24839",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 9",
+     "quote": "If anyone is pleased to call this separating from the Church, he may.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24869-24870",
+     "locus": "Wesley, note of 1786",
+     "quote": "\" But, for all this, is it not possible there may be such a sepa- ration after you are dead ? \" Undoubtedly it is.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49532",
+     "locus": "Minutes, 1795, Plan of Pacification",
+     "quote": "ARTICLES OF AGREEMENT FOR GENERAL PACIFICATION.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49549-49552",
+     "locus": "Minutes, 1795, Plan of Pacification, I.3",
+     "quote": "Provided, nevertheless, that in Mount-Pleasant chapel in Liverpool, and in all other chapels where the Lord's Supper has been already peaceably administered, the administration of it shall be continued in future.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Rack, Reasonable Enthusiasm: John Wesley and the Rise of Methodism (1989; 3rd ed. 2002)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Hempton, Methodism: Empire of the Spirit (Yale, 2005)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-methodist-revival longDescription ('After his death in 1791 the connexion became a separate church anyway') and legacy ('The British connexion separated from the Church of England after Wesley's death')",
+   "wants": [
+    "A Church of England record of the separation (a bishop's charge or visitation return on the Methodists, 1790s), so the rupture is shown from both sides as the Documented test asks"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: every primary here is Methodist, and the separation came by steps, with no single dated break. The secondary works (census-cited, named-not-rechecked) carry the reading that 1795 was the decisive step.",
+    "The id takes '--2' because the gave-rise-to link on the same pair holds the base id; both are new in this draft, so the merger may assign them either way.",
+    "Major by type."
+   ],
+   "change_reason": "New. The separation both Methodist fields name, graded honestly for one-sided evidence."
+  },
+  {
+   "id": "the-methodist-revival--nineteenth-century-methodism",
+   "action": "new",
+   "from": "the-methodist-revival",
+   "to": "nineteenth-century-methodism",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Wesley died in 1791. The Methodist Conference he had built kept meeting and ruling its preachers. In America the Methodists had already formed their own church at Baltimore in 1784. They called it the Methodist Episcopal Church, and Jesse Lee carried its story on to 1809.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "33769-33770",
+     "locus": "Minutes, Manchester, 26 July 1791",
+     "quote": "It may be expected, that the Conference make some observa- tions on the death of Mr. Wesley ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jesse Lee, A Short History of the Methodists in the United States of America (1810)",
+     "file": "cic/texts/lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt",
+     "lines": "4174-4175",
+     "locus": "ch. on 1784, the Christmas Conference",
+     "quote": "December 27th, 1784—The thirteenth conference began in Baltimore,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jesse Lee, A Short History of the Methodists in the United States of America (1810)",
+     "file": "cic/texts/lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt",
+     "lines": "4179-4180",
+     "locus": "ch. on 1784, the Christmas Conference",
+     "quote": "At this conference we formed ourselves into a regular church, by the name of The Methodist Episcopal Church ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Hempton, Methodism: Empire of the Spirit (Yale, 2005)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-methodist-revival legacy ('The British connexion separated ... American Methodism organized itself as a church in 1784'); the census continuesAs field pairs the two",
+   "wants": [
+    "A vendored Methodist text from after 1815 (Wesleyan Conference Minutes or the Methodist Episcopal Discipline of the 1820s) to show the same bodies carried into the later period; this would lift the link to Documented"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The vendored texts stop at 1809/1810, inside this entry's own span; the continuity past 1815 rests on Hempton (census-cited, named-not-rechecked). Hence Widely Accepted.",
+    "The Methodist Episcopal Discipline of 1798 (methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt) is also vendored if a reviewer wants a second American witness."
+   ],
+   "change_reason": "New. The link for the census continuesAs pair."
+  },
+  {
+   "id": "the-quakers-religious-society-of-friends--nineteenth-century-quakerism-separations",
+   "action": "new",
+   "from": "the-quakers-religious-society-of-friends",
+   "to": "nineteenth-century-quakerism-separations",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The London Yearly Meeting of the Quakers sent a letter to its local meetings almost every year from 1675. In 1805 it was still weighing 'the present state of our religious society'. The same body came into the nineteenth century whole, and then split.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "London Yearly Meeting, A Collection of the Epistles from the Yearly Meeting of Friends in London, 1675-1805 (Baltimore, 1806)",
+     "file": "cic/texts/london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt",
+     "lines": "480",
+     "locus": "Epistle I, 1675",
+     "quote": "These are to signify, that at two sundry meetings in London ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "London Yearly Meeting, A Collection of the Epistles from the Yearly Meeting of Friends in London, 1675-1805 (Baltimore, 1806)",
+     "file": "cic/texts/london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt",
+     "lines": "21692-21694",
+     "locus": "Epistle CXXVIII, 1805",
+     "quote": "in contemplating the present state of our religious society, we have been enabled to attend to various subjects in which its welfare is involved,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen W. Angell and Pink Dandelion (eds.), The Oxford Handbook of Quaker Studies (2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-quakers-religious-society-of-friends legacy ('it divided in the nineteenth century into unprogrammed, evangelical and pastoral branches'); the census continuesAs field pairs the two",
+   "wants": [
+    "Any nineteenth-century Quaker text (Elias Hicks's sermons or Journal, 1832; Joseph John Gurney; a yearly meeting's minutes on the 1827-28 separation) in a vendored edition; none is held, so the separations themselves rest on secondary work"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "128 epistles cover 1675-1805, so 'almost every year', not 'every year'.",
+    "The 1805 epistle is inside this entry's span; continuity past 1815 and the separations rest on the Oxford Handbook (census-cited, named-not-rechecked)."
+   ],
+   "change_reason": "New. The link for the census continuesAs pair."
+  },
+  {
+   "id": "puritanism--the-quakers-religious-society-of-friends",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-quakers-religious-society-of-friends",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "George Fox's Journal says James Nayler was put out of an Independent church when he took up Fox's message. Fox also won many from 'a company of shattered Baptists' in Nottinghamshire. William Penn told the Quakers' rise as the next step after the Puritan groups of the English Reformation.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Fox, Journal (Ellwood text), ed. Norman Penney / Pickard edition, vol. 1 (1901)",
+     "file": "cic/texts/fox_journal-v1_ellwood-text-pickard1901.txt",
+     "lines": "6412-6414",
+     "locus": "Journal, at Wakefield",
+     "quote": "I went to a steeple-house, where James Naylor had been a member of an Independent church; but upon his receiving truth, he was excommunicated.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Fox, Journal (Ellwood text), ed. Norman Penney / Pickard edition, vol. 1 (1901)",
+     "file": "cic/texts/fox_journal-v1_ellwood-text-pickard1901.txt",
+     "lines": "3672-3674",
+     "locus": "Journal, in Nottinghamshire",
+     "quote": "Returning into NOTTINGHAMSHIRE, I found there a company of shattered Baptists, and others; and the Lord’s power wrought mightily, and gathered many of them.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Penn, A Brief Account of the Rise and Progress of the People called Quakers (1694; 1834 edition)",
+     "file": "cic/texts/penn_brief-account-of-the-rise-and-progress-of-the-quakers_1834.txt",
+     "lines": "347-350",
+     "locus": "ch. I",
+     "quote": "God was therefore pleased in England to shift us from vessel to vessel; and the next remove humbled the ministry, so that they were more strict in preaching, devout in praying, and zealous for keeping the Lord's day,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-quakers-religious-society-of-friends relationsSummary ('Radical child of the Puritan ferment'; after prose change 3, 'grew out of the most radical edge of the Puritan upheaval ... Many of the first Friends came from Independent and Baptist churches')",
+   "wants": [
+    "Rosemary Moore, The Light in Their Consciences (2000), cited in the census sources, checked in the repo before the note adds a modern reading"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "The Puritan entry's own legacy counts Congregationalism (Independents) and much of the Baptist tradition as coming 'straight out of it', so Fox's Independents and Baptists fall within it.",
+    "Fox's Journal here is the Ellwood text in the Pickard 1901 printing (the file name says so); the Penney 1911 edition is also vendored. The note and loci give no year for either passage.",
+    "Fox's 'Lord’s' keeps the file's curly apostrophe."
+   ],
+   "change_reason": "New. The Quakers' descent from the Puritan churches, named in the summary."
+  },
+  {
+   "id": "the-methodist-revival--the-holiness-movement",
+   "from": "the-methodist-revival",
+   "to": "the-holiness-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In his Large Minutes, Wesley told preachers to urge believers to \"go on to perfection\": salvation from all sin through love filling the heart. Nineteenth-century Holiness writers took up this teaching and presented it as Wesley's own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "John Wesley, Minutes of Several Conversations (the Large Minutes)",
+     "file": "cic/texts/wesley-j_large-minutes_1850.txt",
+     "lines": "1106-1109",
+     "locus": "Large Minutes, on Christian perfection",
+     "quote": "Strongly  and  explicitly  exhort  all  believers  to  go  on to  perfection.  We  all  agree  to  defend  this  doctrine ; meaning  thereby,  salvation  from  all  sin,  by  the  love of  God  and  man  filling  the  heart.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "action": "keep",
+   "named_in_text": "the-methodist-revival relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The summary calls Methodism the 'parent' of the Holiness movement. The Holiness movement grew among nineteenth-century Methodists; from this entry the tie is the perfection teaching, which this link carries. Left as is.",
+    "Phoebe Palmer's Way of Holiness (1843), named in the Holiness census sources, is not vendored; it would show a Holiness writer citing Wesley and could lift this to Documented."
+   ],
+   "change_reason": "Checked: the Large Minutes quote is verbatim at lines 1106-1109; 'influenced' at Widely Accepted is right, since no Holiness text is vendored and the reading rests on Dieter and Synan (census-cited).",
+   "major": false,
+   "minor_reason": "A teaching taken up by later writers; no institutional act."
+  },
+  {
+   "id": "the-methodist-revival--the-black-church-in-america",
+   "from": "the-methodist-revival",
+   "to": "the-black-church-in-america",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard Allen joined a Methodist society in Delaware. In April 1816, after clashes with white preachers and trustees, delegates from Philadelphia and Baltimore united as the African Methodist Episcopal Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "190-192",
+     "locus": "Life Experience, early life",
+     "quote": "I  joined  the  Methodist society  and  met  in  class  at  Benjamin  Wells's,  in  the forest,  Delaware  state.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "986-987",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "which  induced  us,  in  April  1816,  to  call  a  gen- eral meeting,  by  way  of  Conference.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "992-994",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  body,  under  the  name  of  the  Af- rican Methodist  Episcopal  Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": "the-methodist-revival relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9"
+   ],
+   "change_reason": "Checked: all three Allen quotes are verbatim at their lines and show a named person passing from a Methodist society to the founding of the AME Church in 1816. Documented is right."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "old": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement. Württemberg Pietism, associated with Johann Albrecht Bengel, belongs within this same movement.",
+   "new": "Pietism grew out of Lutheran devotion. Spener's Pia Desideria first came out as a preface to a book of sermons by Johann Arndt. Pietism may also owe something to the strict Dutch Reformed piety called precisianism. But no early Pietist text we hold names a Dutch source. Pietism shaped the Moravian Church at Herrnhut, and it sent some of the first Protestant missions out of Europe. Pietism in Württemberg, linked with Johann Albrecht Bengel, belongs to this same movement.",
+   "reason": "'Gave rise in turn to the Moravian Church' overstates: the Herrnhut refugees came from the old Unity, and Pietism reached them through Zinzendorf (now the influenced link). 'The influence of Dutch Reformed precisianism' is stated as fact, but no vendored Pietist text names a Dutch source, so it is qualified with the reason. 'Gave rise to the wider Protestant missionary movement' becomes 'sent some of the first Protestant missions out of Europe', the entry's own claim and supported by Guericke on Tranquebar. The Lutheran root is kept and now shown: Pia Desideria began as a preface to Arndt's postil. Old field scored FRE 27; whole field rewritten.",
+   "fre_after": 62.2,
+   "fk_after": 7.9
+  },
+  {
+   "n": 1,
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "legacy",
+   "old": "Pietism never became a denomination of its own — it stayed inside the Lutheran churches and eventually dissolved as a distinct party — but almost everything it touched outlived it. The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle. And the Halle foundations themselves are still standing and still working in Saxony-Anhalt, orphanage buildings, library, cabinet of curiosities and all. Its habits — small groups meeting midweek to read Scripture, and the expectation that a Christian can tell the story of their own conversion — are now so ordinary across evangelical Protestantism that their origin is easy to miss.",
+   "new": "Pietism never became a church of its own. It stayed inside the Lutheran churches and in time faded as a separate party. But almost everything it touched outlived it. The Moravians at Herrnhut grew up close to it. Their patron, Count Zinzendorf, was Spener's godson and went to school at Halle. John Wesley learned from the Moravians, and in 1738 he went to Halle himself. George Whitefield took Francke's orphan house as the model for his own in Georgia. Halle also chose and backed the first missionaries the king of Denmark sent to India, in 1706. The Halle foundations still stand and still work in Saxony-Anhalt: the orphanage buildings, the library, the cabinet of curiosities and all. Its habits are now so ordinary across evangelical Protestantism that their origin is easy to miss. Small groups meet midweek to read Scripture. A Christian is expected to tell the story of their own conversion.",
+   "reason": "'Through them John Wesley' is replaced by what the sources show: Wesley learned from the Moravians and also went to Halle himself in 1738; Whitefield modeled his Georgia orphan house on Francke's (both in the new influenced link). The unsupported superlative 'the Protestant missionary movement's first sustained institutional base was at Halle' becomes Halle's documented role in choosing and backing the 1706 Danish mission (Guericke). Zinzendorf's Spener and Halle ties are added to carry the Moravian link. Every other fact kept; the old field scored FRE 27 and FK 16.5, so it is rewritten whole in shorter sentences.",
+   "fre_after": 61.3,
+   "fk_after": 7.8
+  },
+  {
+   "n": 2,
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "field": "relationsSummary",
+   "old": "Between Pietism and Anabaptism - a real uniqueness test",
+   "new": "Radical Pietism grew out of German Pietism, among people who left the state churches. Out of it came the Brethren. They joined Pietist inward faith to Anabaptist ways: baptism for believers only, plain living and refusal of the sword.",
+   "reason": "The old text, 'a real uniqueness test', is internal build language, not public prose. Rewritten as the two relationships the entry names: descent from German Pietism and the taking up of Anabaptist ways, both now linked.",
+   "fre_after": 61.3,
+   "fk_after": 7.9
+  },
+  {
+   "n": 3,
+   "movement": "the-quakers-religious-society-of-friends",
+   "field": "relationsSummary",
+   "old": "Radical child of the Puritan ferment; parent-influence on abolition",
+   "new": "The Quakers grew out of the most radical wing of the Puritan upheaval in England. Many of the first Friends came from Independent and Baptist churches. Later, their campaigning did much to end slavery.",
+   "reason": "'Radical child of the Puritan ferment; parent-influence on abolition' is note-form, and 'parent-influence' is jargon. Rewritten in full sentences. The Puritan descent is now shown by Fox's Journal (Independents and Baptists who became Friends). The abolition claim is kept in plain words; the London Yearly Meeting epistles from the 1750s on carry the Society's campaign against the slave trade, and abolition has no entry to link to.",
+   "fre_after": 63.5,
+   "fk_after": 7.2
+  },
+  {
+   "n": 4,
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "relationsSummary",
+   "old": "This community is a direct renewal of the old Bohemian Unity of the Brethren, carried across the hidden century between its suppression in 1627 and the refugees' arrival at Herrnhut in 1722. Its episcopal succession was renewed through the Jablonski-Nitschmann consecration of 1735, tying it formally back to the old Unity. It had a decisive influence on John Wesley, and began sending missionaries decades before any other Protestant body did.",
+   "new": "This community saw itself as the old Bohemian Unity of the Brethren made new. In its own telling, the Unity was suppressed in 1627 and survived in hiding for a century. Then its refugees reached Herrnhut in 1722. In 1735 the old Unity's senior bishop, Daniel Ernst Jablonski, made David Nitschmann a bishop. That tied the new church formally to the old one. Yet its patron, Count Zinzendorf, was a Lutheran Pietist. At first he meant Herrnhut as a gathering inside the Lutheran church. It had a deep effect on John Wesley. From 1732 it sent missionaries far overseas.",
+   "reason": "'A direct renewal of the old Bohemian Unity' presents the community's own reading as settled; the continued-as link is Contested, since Zinzendorf first meant Herrnhut as a Lutheran Pietist gathering (Spangenberg). Now framed as the community's own view, with the other side stated. 'Began sending missionaries decades before any other Protestant body did' is wrong: Halle's Danish mission reached Tranquebar in 1706 (the Pietism entry's own text; Guericke), 26 years before 1732. Now 'from 1732 it sent missionaries far overseas'. The Jablonski-Nitschmann consecration is kept and spelled out from Cranz. Old field scored FRE 27; rewritten whole.",
+   "fre_after": 63.4,
+   "fk_after": 7.0
+  },
+  {
+   "n": 5,
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "legacy",
+   "old": "The Moravian Church is a living worldwide body, and far larger outside Europe than in it. The great majority of its members are in Tanzania and the Caribbean, the long fruit of the mission work begun in 1732. Its most consequential single contact was with a young Anglican priest: John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints. The Losungen, a book of daily Scripture texts drawn by lot at Herrnhut and printed every year since 1731, is still published and read in dozens of languages. One of the longest unbroken publishing runs in the world. And the hidden-seed story ended well: a church suppressed in Bohemia in 1627 has descendants in every continent.",
+   "new": "The Moravian Church is a living worldwide body, and far larger outside Europe than in it. Most of its members are in Tanzania and the Caribbean, the long fruit of the mission work begun in 1732. Its most important single contact was with a young Anglican priest. John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints. The Losungen is a book of daily Bible texts, drawn by lot at Herrnhut and printed every year since 1731. It is still published and read in dozens of languages, one of the longest unbroken publishing runs in the world. And the hidden-seed story, as the Moravians tell it, ended well. A church suppressed in Bohemia in 1627 has descendants on every continent.",
+   "reason": "The closing 'hidden-seed story ended well' states the contested continuity as fact; now 'as the Moravians tell it'. The rest of the field is kept fact for fact, broken into shorter sentences (old field FRE 54.7, FK 10.7); the fragment 'One of the longest unbroken publishing runs in the world.' is joined to its sentence.",
+   "fre_after": 62.4,
+   "fk_after": 8.5
+  }
+ ],
+ "wants": [
+  "A Church of England record of the separation (a bishop's charge or visitation return on the Methodists, 1790s), so the rupture is shown from both sides as the Documented test asks",
+  "A modern account of the Herrnhut refugees' origins (e.g. Atwood, Community of the Cross, cited in the census sources) checked in the repo before any higher grade",
+  "A vendored Methodist text from after 1815 (Wesleyan Conference Minutes or the Methodist Episcopal Discipline of the 1820s) to show the same bodies carried into the later period; this would lift the link to Documented",
+  "Any nineteenth-century Quaker text (Elias Hicks's sermons or Journal, 1832; Joseph John Gurney; a yearly meeting's minutes on the 1827-28 separation) in a vendored edition; none is held, so the separations themselves rest on secondary work",
+  "Gottfried Arnold, Unparteiische Kirchen- und Ketzer-Historie (1699-1700), the radical Pietists' manifesto, named in the census sources but not vendored",
+  "Hochmann von Hochenau's own Confession of Faith (1702) is only in Brumbaugh's garbled German facsimile and English translation; a clean edition would let Hochmann's Halle awakening rest on his own words",
+  "Menno Simons or the Dordrecht Confession (1632) in a vendored edition, beside Mack, to show which Anabaptist teaching the Brethren took up; Durnbaugh, European Origins of the Brethren (1958), for the 1708 accounts",
+  "Rosemary Moore, The Light in Their Consciences (2000), cited in the census sources, checked in the repo before the note adds a modern reading",
+  "The Brotherly Agreement and Statutes of Herrnhut (1727) and the 13 August 1727 account, in a public-domain edition",
+  "Wesley's Christian Library (1749-55), with its abridged Puritan authors, in a vendored edition; this would show Methodist preachers set to read Puritans (the Large Minutes order the Christian Library read, lines 979-981) and could lift the link to Documented",
+  "Wesley's later break with the Moravians (Fetter Lane, 1740) and his Queries humbly proposed to Count Zinzendorf (1755, vendored as wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt) are not named in either entry; if they are, a separate argued-against link would be in order",
+  "Zinzendorf's own writings on Herrnhut's founding and the Brotherly Agreement of 12 May 1727, in a public-domain edition, to show the Spener debt in the Herrnhut documents themselves",
+  "A vendored source for the AME Zion Church's founding in 1821 (e.g. Christopher Rush, A Short Account of the Rise and Progress of the African Methodist Episcopal Church in America, 1843)",
+  "A German Pietist text that names a Dutch precisian source (Teellinck, Lodenstein, Voetius or Labadie), to support the Dutch clause before it returns as fact; Spener's correspondence or Theodor Undereyck would be likely places",
+  "A source for the comparative mission claims in the Moravian description and why ('more missionaries in twenty years than the whole of Protestant Europe had sent in two centuries'; 'on a scale no other Protestant body approached for another two centuries')"
+ ],
+ "escalations": [
+  "Not a stop: the Moravian description and why still carry two unsourced comparisons ('more missionaries in twenty years than the whole of Protestant Europe had sent in two centuries'; 'on a scale no other Protestant body approached for another two centuries'). The second is probably wrong, since nineteenth-century societies sent far more. Each is a one-sentence fix, but it is not a relationship claim, so I logged it rather than rewrote it. Suggested fix: drop the comparison, keep 'from 1732'.",
+  "Not a stop: the Methodist legacy's fragment 'Now the fastest-growing form of Christianity on earth.' is unsourced and not a Methodist relationship. Left for the era-10 or doc-hygiene owner.",
+  "Cross-group merge: the Georgian Church of England entry (era 8, possibly another group's) says 'This is the church that Methodism grew up inside, and eventually out of.' This draft holds both links on that pair (gave rise to, base id; broke with, --2). If another group drafts the same pair, keep one of each.",
+  "Cross-era consistency: the era-7 Dutch Further Reformation entry says its practical divinity 'fed directly into German Pietism'. This draft qualifies that tie on the Pietism side for lack of any vendored or checkable source. The era-7 drafter should treat it the same way, or the two entries will disagree.",
+  "Cross-era consistency: the era-7 Czech churches entry's legacy calls the remnant 'the seed of the modern Moravian Church' as fact. The link here is Contested; the era-7 drafter may want to frame it as the Moravians' own account too.",
+  "Library header (not my thread): mack-alexander_rights-and-ordinances_1810.txt says the 1810 volume lacks the Ground-Searching Questions, but lines 3846 onward print Gruber's questions with Mack's answers."
+ ]
+}

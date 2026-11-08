@@ -75,15 +75,20 @@ applied to every shared file, not only the census.
 | P1e | Repoint Church in Conversation's links; verify; note for the researcher | none | merged (#1532) |
 | P2-L1 | Links, era 1; data release 4 | none | merged (#1537) |
 | P2-L2 | Links, era 2; data release 6 | none | merged (#1539) |
-| P2-L3 | Links, era 3; data release 7 | none | in review |
+| P2-L3 | Links, era 3; data release 7 | none | merged (#1540) |
 | P2-L4 | Links, era 4; data release 8 | none | merged (#1541) |
-| P2-L5 | Links, era 5; data release 9 | none | in review |
-| P2-L6…L10 | Links, one era per chunk | none | todo |
+| P2-L5 | Links, era 5; data release 9 | none | merged (#1542) |
+| P2-L6 | Links, era 6; data release 11 | none | merged (#1544) |
+| P2-L7 | Links, era 7; data release 12 | none | merged (#1546) |
+| P2-L8 | Links, era 8; data release 13 | none | merged (#1547) |
+| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14 | none | part 1 in review; part 2 reviewed, to follow as data release 15 |
+| P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
-| P2-M | Method page, confidence at a glance | none | todo |
-| P2-D | Data and citation page | none | todo |
+| P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
+| P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
+| P2-D | Data and citation page | none | in review (one pull request with P2-M) |
 | P2-S | Find-your-church search | none | todo |
-| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | todo |
+| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | done (2026-11-08); awaiting Mark's ruling (`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`) |
 | P2-G2 | Schema additions | none | todo |
 | P2-G3 | The agreed entries | narration sample, by ear | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |
@@ -260,6 +265,16 @@ Exact steps, given in chat when P1a has merged:
   reviewed by an independent scholar; confidence shown at a glance on every link.
 - **P2-D, data and citation page.** The release, the permanence promise, how to cite, the
   license link, the request form (`https://tally.so/r/kb97Br`) and the invitation to review.
+- **P2-M and P2-D, as built (2026-11-08).** `cft-website/method.html` and `data.html`, written by
+  `Build/tools/generate_tree_pages.mjs` from `tree_site_pages.json`. The release number and date,
+  the movement and link counts and the latest era's name and dates are read from the census at
+  build time; the citation examples name a real movement and link, and the build fails if either
+  ID is missing. Linked from the map's Key panel footer, the about page and every page footer;
+  in the tree's sitemap. The about page's movement and link counts are now read from the census
+  too (it said 86 links). Confidence at a glance: the map's card showed "Continues as" with no
+  grade, and the gold "continues as" thread had none either. Both now show the grade of the
+  matching "continued as" link, or "not yet graded" where there is none. The map's Major links
+  note now follows the narrowed test (2026-11-08 change order).
 - **P2-S, search.** A new list of everyday names (the census's informal names are titles),
   sourced, and the search box on the map.
 - **P2-G1, gap sweep.** Read only, by Haiku and Sonnet, of the Library's dossiers, NEEDS-RULING

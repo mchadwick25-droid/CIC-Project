@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -134,9 +142,9 @@ li{margin-bottom:.5rem}
 <div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
-<li id="post-apostolic-house-church--montanism-the-new-prophecy"><a href="post-apostolic-house-church.html">Post-Apostolic Household-Church Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">An anonymous writer of about 192, quoted by Eusebius, says the faithful of Asia met many times to examine the Phrygian prophets&#039; teaching. They rejected it as heresy and cut its followers off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.</span></li>
-<li id="imperial-juridical-christianity--montanism-the-new-prophecy"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Constantine sent an edict to the heretics, preserved in Eusebius&#039;s Life of Constantine. It names &#039;ye who are called Cataphrygians&#039;, a common name for the Montanists. It forbids their meetings and takes away the houses where they gathered.</span></li>
-<li id="byzantine-imperial-church-justinianic--montanism-the-new-prophecy"><a href="byzantine-imperial-church-justinianic.html">The Byzantine Imperial Church (Justinianic)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Procopius, a hostile witness to Justinian, says the emperor ordered heresies such as the Montanists&#039; to be given up. He reports that the Montanists of Phrygia shut themselves in their churches and burned them. A law of Justinian also names the Montanists.</span></li>
+<li id="post-apostolic-house-church--montanism-the-new-prophecy"><a href="post-apostolic-house-church.html">Post-Apostolic Household-Church Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">An anonymous writer of about 192, quoted by Eusebius, says the faithful of Asia met many times to examine the Phrygian prophets&#039; teaching. They rejected it as heresy and cut its followers off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.</span><span class="lineage-outcome"><i>Lasting result:</i> Meetings of the faithful across Asia judged the New Prophecy to be heresy. Its followers were thrown out of the church and barred from communion.</span></li>
+<li id="imperial-juridical-christianity--montanism-the-new-prophecy"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Constantine sent an edict to the heretics, preserved in Eusebius&#039;s Life of Constantine. It names &#039;ye who are called Cataphrygians&#039;, a common name for the Montanists. It forbids their meetings and takes away the houses where they gathered.</span><span class="lineage-outcome"><i>Lasting result:</i> Constantine&#039;s law said the Montanists could not meet, not even in a private house. It urged them to join the catholic Church instead.</span></li>
+<li id="byzantine-imperial-church-justinianic--montanism-the-new-prophecy"><a href="byzantine-imperial-church-justinianic.html">The Byzantine Imperial Church (Justinianic)</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Procopius, a hostile witness to Justinian, says the emperor ordered heresies such as the Montanists&#039; to be given up. He reports that the Montanists of Phrygia shut themselves in their churches and burned them. A law of Justinian also names the Montanists.</span><span class="lineage-outcome"><i>Lasting result:</i> Justinian ordered the Montanists to give up their faith, Procopius says. He threatened those who held out with losing the right to leave property to their families.</span></li>
 </ul>
 </div>
 
@@ -153,6 +161,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

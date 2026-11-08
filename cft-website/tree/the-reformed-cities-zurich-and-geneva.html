@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -127,33 +135,50 @@ li{margin-bottom:.5rem}
     <div class="lineage-section link-grow">
 <h3>Gave Rise To</h3>
 <ul class="lineage-list">
-<li id="the-reformed-cities-zurich-and-geneva--the-anabaptist-movements"><a href="the-anabaptist-movements.html">The Anabaptist Movements</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In February 1525 a man tried in Zurich said Felix Manz had baptized him. In 1527 Zwingli wrote of the Baptists: &#039;They have gone out from us.&#039; This is the Swiss branch only. Historians hold that Anabaptists in South Germany, Moravia and the Netherlands had other roots too.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-anabaptist-movements"><a href="the-anabaptist-movements.html">The Anabaptist Movements</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In February 1525 a man tried in Zurich said Felix Manz had baptized him. In 1527 Zwingli wrote of the Baptists: &#039;They have gone out from us.&#039; This is the Swiss branch only. Historians hold that Anabaptists in South Germany, Moravia and the Netherlands had other roots too.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-influence">
 <h3>Influenced By</h3>
 <ul class="lineage-list">
-<li id="latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva"><a href="latin-pastoral-congregational-christianity.html">Latin Pastoral-Congregational Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In his Institutes, Calvin appeals to Augustine&#039;s authority on election and the grace of God. He writes that he could build a whole volume from Augustine&#039;s words and need no others.</span></li>
+<li id="latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva"><a href="latin-pastoral-congregational-christianity.html">Latin Pastoral-Congregational Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In his Institutes, Calvin calls on Augustine as his guide on grace and on God&#039;s choice of the saved. He says he could fill a whole book with Augustine&#039;s words alone and need no others.</span></li>
 <li id="antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva"><a href="antiochene-exegetical-christianity-chrysostom-ce.html">Antiochene Exegetical Christianity (Chrysostom-centered)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Calvin&#039;s Institutes quote Chrysostom with delight: &#039;The foundation of our philosophy is humility.&#039; Yet Calvin also faults him and the other Greek Fathers. He says they gave the human will too much power.</span></li>
+</ul>
+</div>
+<div class="lineage-section link-influence">
+<h3>Influenced</h3>
+<ul class="lineage-list">
+<li id="the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk"><a href="the-scottish-reformation-and-kirk.html">The Scottish Reformation &amp; Kirk</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">John Knox studied in Geneva and went to preach to the English exiles at Frankfurt at John Calvin&#039;s command. He then went back to Geneva, and from there, by way of Dieppe, to Scotland.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-huguenots"><a href="the-huguenots.html">The Huguenots</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Calvin wrote from Geneva in May 1559, just before the French churches met in synod at Paris. His letter names the ministers Geneva was sending to help them. Two of them were a man called Arnold and Peter Gilbert.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme"><a href="the-english-reformation-and-elizabethan-settleme.html">The English Reformation &amp; Elizabethan Settlement</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England&#039;s teaching did not differ from his &#039;by a nail&#039;s breadth.&#039; Archbishop Parker also cited Martyr and Bullinger when he argued for the rules.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--puritanism"><a href="puritanism.html">Puritanism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The Admonition to the Parliament of 1572 sends the Archbishop of York to read the &#039;learned Epistle&#039; Theodore Beza wrote him. Letters from Beza, a minister at Geneva, and from Rudolph Gualter of Zurich were printed with it. They gave the Puritan case the weight of two famous names.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture"><a href="dutch-further-reformation-and-refuge-culture.html">Dutch Further Reformation &amp; Refuge Culture</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Gisbertus Voetius was professor of theology at Utrecht. His lessons on the Heidelberg Catechism were printed in 1662. Asked if the Dutch Reformed held Calvin&#039;s views, he said yes, but Calvin was not their head.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union"><a href="the-waldensian-reformed-union.html">The Waldensian-Reformed Union</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">A man of Angrogne, caught standing guard, said the ministers met at Chanforan included a red-bearded &#039;M. Farel&#039;. The pastor Pierre Gilles, writing in 1644, calls them pastors who kept coming from Switzerland. In 1535 the valleys paid to print a French Bible.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--orthodoxy-under-the-ottomans-parish-millet-and-n"><a href="orthodoxy-under-the-ottomans-parish-millet-and-n.html">Orthodoxy under the Ottomans - Parish, Millet &amp; Neomartyrs</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Cyril Lucaris wrote to the pastors and teachers of Geneva as Patriarch of Constantinople. In that letter he called Calvin a most holy and wise teacher, now with the saints. A Latin copy of his Confession, printed in 1645, said it was so close to Calvin that it could have been copied from him.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
 <h3>Argued Against</h3>
 <ul class="lineage-list">
-<li id="the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2"><a href="the-anabaptist-movements.html">The Anabaptist Movements</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Zurich&#039;s council ordered Conrad Grebel and Felix Manz in January 1525 to stop disputing over baptism. Zwingli&#039;s 1527 Refutation of the Tricks of the Catabaptists accuses the Baptists of dividing and betraying the church.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2"><a href="the-anabaptist-movements.html">The Anabaptist Movements</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In January 1525 Zurich&#039;s council told Conrad Grebel and Felix Manz to stop arguing about baptism. Two years later it sentenced Manz to be drowned for baptizing adults again. That same year Zwingli wrote that the Baptists had split and betrayed the church.</span><span class="lineage-outcome"><i>Lasting result:</i> Zurich&#039;s council made a second baptism a crime punished by drowning. On 5 January 1527 it sentenced Felix Manz to die that way.</span></li>
 <li id="the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian"><a href="latin-papal-church-gregorian.html">The Latin Papal Church (Gregorian Reform to Innocent III)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In his Institutes, John Calvin of Geneva wrote against Pope Gregory VII by name. He said Gregory, once called Hildebrand, was the one who first won the popes the rank of emperors. He called him &#039;an impure and wicked man&#039;. The popes after him, Calvin wrote, went on to rule the emperors.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--schwenckfelders"><a href="schwenckfelders.html">Schwenckfelders</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Heinrich Bullinger wrote the Second Helvetic Confession in 1566. It rejects the subtle arguments of Schwenckfeld by name. Its Latin adds, &quot;we are not Schwenckfeldians.&quot; It also denies that Christ&#039;s body was made divine and lost in God.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr"><a href="anti-trinitarian-currents-servetus-polish-brethr.html">Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians)</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 1546 Calvin wrote to Farel that if Servetus came to Geneva, he would not leave alive. In August 1553 he hoped for a death sentence. On 27 October the city council took advice from Bern, Basel, Zurich and Schaffhausen, then had Servetus burned alive.</span><span class="lineage-outcome"><i>Lasting result:</i> In 1553 Geneva&#039;s council judged Servetus guilty of great errors and blasphemies. It had him and his books burned.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
 <h3>Opposed By</h3>
 <ul class="lineage-list">
-<li id="lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2"><a href="lutheran-wittenberg-and-its-congregations.html">Lutheran Wittenberg &amp; Its Congregations</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The Lutheran Formula of Concord (1577) has a chapter on the Lord&#039;s Supper that names the &#039;Zwinglian teachers&#039;. It says they separated from the Augsburg Confession when it was presented. The chapter goes on to condemn the &#039;Sacramentarians&#039;.</span></li>
+<li id="lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2"><a href="lutheran-wittenberg-and-its-congregations.html">Lutheran Wittenberg &amp; Its Congregations</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The Lutheran Formula of Concord of 1577 has a chapter on the Lord&#039;s Supper. It names the &#039;Zwinglian teachers&#039; and says they broke away when the Augsburg Confession was first read out. The chapter then condemns the &#039;Sacramentarians&#039;.</span></li>
+<li id="orthodoxy-under-the-ottomans-parish-millet-and-n--the-reformed-cities-zurich-and-geneva"><a href="orthodoxy-under-the-ottomans-parish-millet-and-n.html">Orthodoxy under the Ottomans - Parish, Millet &amp; Neomartyrs</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Two synods of the Greek church condemned the Confession printed in Cyril Lucaris&#039;s name. The first condemned him for saying the whole Eastern Church thought as Calvin did. The second met under Patriarch Parthenius. It condemned &#039;Calvin&#039;s heresy&#039; and every part of the book.</span><span class="lineage-outcome"><i>Lasting result:</i> Two synods of the Greek church condemned the book in Lucaris&#039;s name as Calvin&#039;s teaching and put it under a curse.</span></li>
+<li id="orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva"><a href="orthodoxy-under-the-ottomans-1650-1821.html">Orthodoxy under the Ottomans — the Second Act</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 1672 the Synod of Jerusalem met under Patriarch Dositheus &#039;against the Calvinists&#039;. Its acts said that as long as they followed Calvin as their leader, they could never share the faith of the Eastern Church.</span><span class="lineage-outcome"><i>Lasting result:</i> In 1672 the Synod of Jerusalem met against the Calvinists and ruled that their faith could not be the faith of the Eastern Church.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-contact">
 <h3>In Contact With</h3>
 <ul class="lineage-list">
-<li id="lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva"><a href="lutheran-wittenberg-and-its-congregations.html">Lutheran Wittenberg &amp; Its Congregations</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In October 1529 Zwingli traveled to Marburg for a colloquy with Luther and Melanchthon on the Lord&#039;s Supper. Two Zurich writers record it: Zwingli himself, who says he preached there, and his friend Myconius.</span></li>
+<li id="lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva"><a href="lutheran-wittenberg-and-its-congregations.html">Lutheran Wittenberg &amp; Its Congregations</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Zwingli made the long journey to Marburg to meet Luther and Melanchthon and talk about the Lord&#039;s Supper. Two Zurich writers tell of it: Zwingli himself, who in 1530 recalled the sermon he preached there, and his friend Myconius.</span></li>
+<li id="the-reformed-cities-zurich-and-geneva--the-remonstrants-and-dort"><a href="the-remonstrants-and-dort.html">The Remonstrants and Dort</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1618 the Dutch government asked Zurich, Bern, Basel, Schaffhausen and Geneva to send men to the Synod of Dort. Geneva sent two, John Diodati and Theodore Tronchin, and the Swiss sent five. Speaking for Geneva, Diodati said the Remonstrants should go.</span></li>
 </ul>
 </div>
 
@@ -170,6 +195,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

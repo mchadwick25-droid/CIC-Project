@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -125,7 +133,27 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    
+    <div class="lineage-section link-influence">
+<h3>Influenced</h3>
+<ul class="lineage-list">
+<li id="quietist-controversy-molinos-guyon--german-pietism-spener-francke-halle"><a href="german-pietism-spener-francke-halle.html">German Pietism - Spener, Francke, Halle</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1687 Rome censured Molinos. Soon after, the young August Hermann Francke put his Spiritual Guide into Latin at Leipzig. Critics later said Francke had taken in Molinos&#039;s ideas. He replied that reading and translating Molinos had not been the start of his conversion.</span></li>
+<li id="quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends"><a href="the-quakers-religious-society-of-friends.html">The Quakers (Religious Society of Friends)</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">A Quaker memoir of 1821, the life of Mary Penington, carried a book list. It offered Guyon&#039;s Life and her Short Method of Prayer. Ellwood&#039;s editor wrote in 1900 that Quaker booksellers sold Molinos. Woolman&#039;s editor wrote in 1922 that he read the French quietist writers in English.</span></li>
+<li id="quietist-controversy-molinos-guyon--the-methodist-revival"><a href="the-methodist-revival.html">The Methodist Revival</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">John Wesley read Guyon&#039;s Short Method of Prayer in 1742 and dismissed her as a &#039;poor Quietist&#039;. By 1770 he wrote that she was a woman of &#039;excellent piety&#039;. In 1776 he wrote a preface for a shortened Life of her.</span></li>
+</ul>
+</div>
+<div class="lineage-section link-conflict">
+<h3>Opposed By</h3>
+<ul class="lineage-list">
+<li id="catholic-church-ancien-regime--quietist-controversy-molinos-guyon"><a href="catholic-church-ancien-regime.html">The Catholic Church of the Ancien Régime</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 1687 Rome condemned errors drawn from the writings of Miguel de Molinos. In France, Bossuet tried in person to show Fénelon the errors in Guyon&#039;s books. In 1699 Rome condemned twenty-three propositions from Fénelon&#039;s Maxims of the Saints, and Fénelon condemned them himself in a pastoral letter.</span><span class="lineage-outcome"><i>Lasting result:</i> In 1687 Rome condemned errors drawn from Molinos, and in 1699 it condemned 23 claims from a book by Fénelon.</span></li>
+</ul>
+</div>
+<div class="lineage-section link-contact">
+<h3>In Contact With</h3>
+<ul class="lineage-list">
+<li id="port-royal-jansenism--quietist-controversy-molinos-guyon"><a href="port-royal-jansenism.html">Port-Royal Jansenism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In her own Life, Jeanne Guyon tells of visiting Pierre Nicole, who had often spoken against her. She says they read her Short Method through together and he found no error in it. Nicole was one of the Port-Royal circle, a close colleague of Arnauld and Pascal.</span></li>
+</ul>
+</div>
+
   </section>
 
   <section>
@@ -139,6 +167,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

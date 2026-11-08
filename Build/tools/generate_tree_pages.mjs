@@ -72,7 +72,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -84,6 +84,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -107,6 +109,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>`;
 
 const ANALYTICS_TOKEN = siteContent.analyticsToken;
@@ -133,6 +141,8 @@ function siteFooter(up) {
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="${up}about.html">About</a>
+      <a href="${up}method.html">Method</a>
+      <a href="${up}data.html">Data and citation</a>
       <a href="${up}privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="${up}support.html">Support the tree</a>
@@ -247,6 +257,12 @@ const LINEAGE_HEADINGS = [
   ['in contact with', 'both', 'In Contact With', 'contact'],
 ];
 
+// Major links (Decision-Log 2026-11-08): lineage and breaks by type, any other link by its outcome.
+const MAJOR_BY_TYPE = new Set(['gave rise to', 'continued as', 'broke with']);
+function isMajorEdge(edge) {
+  return MAJOR_BY_TYPE.has(edge.type) || (typeof edge.outcome === 'string' && edge.outcome.trim() !== '');
+}
+
 function buildLineageHtml(movementId, movement) {
   const incoming = edgesTo.get(movementId) || [];
   const outgoing = edgesFrom.get(movementId) || [];
@@ -263,7 +279,9 @@ function buildLineageHtml(movementId, movement) {
       const other = movementMap.get(otherId);
       html += `<li id="${escapeHtml(edge.id)}"><a href="${other.id}.html">${escapeHtml(other.name)}</a>`;
       html += ` <span class="lineage-confidence">${escapeHtml(edge.confidence)}</span>`;
+      if (isMajorEdge(edge)) html += ` <span class="lineage-major">Major</span>`;
       if (edge.note) html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
+      if (edge.outcome) html += `<span class="lineage-outcome"><i>Lasting result:</i> ${escapeHtml(edge.outcome)}</span>`;
       html += '</li>\n';
     });
     html += '</ul>\n</div>\n';
@@ -397,21 +415,81 @@ census.movements.forEach(movement => {
 });
 
 
-// The tree's own pages: about, privacy, support
+// The tree's own pages: about, method, data, privacy, support
+const LONG_DATE = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const release = census.meta.release;
+if (!release || !Number.isInteger(release.number) || !/^\d{4}-\d{2}-\d{2}$/.test(release.date)) {
+  throw new Error('census meta.release needs a whole number and a YYYY-MM-DD date');
+}
+const releaseDate = LONG_DATE.format(new Date(`${release.date}T00:00:00Z`));
+const latestEra = census.eras.reduce((a, b) => (b.num > a.num ? b : a));
+function mustFind(list, id, what) {
+  const found = list.find(x => x.id === id);
+  if (!found) throw new Error(`citation example: no ${what} with ID ${id} in the census`);
+  return found;
+}
+const exampleMovement = mustFind(census.movements, siteContent.citationExamples.movement, 'movement');
+const exampleLink = mustFind(census.edges, siteContent.citationExamples.link, 'link');
+const nameOf = id => movementMap.get(id).name;
+const facts = {
+  releaseNumber: String(release.number),
+  releaseDate,
+  movementCount: String(census.movements.length),
+  linkCount: String(census.edges.length),
+  latestEraTitle: latestEra.title,
+  latestEraDates: latestEra.dates,
+  exampleMovementId: exampleMovement.id,
+  exampleMovementName: exampleMovement.name,
+  exampleLinkId: exampleLink.id,
+  exampleLinkSentence: `${nameOf(exampleLink.from)} ${exampleLink.type} ${nameOf(exampleLink.to)}`,
+  exampleLinkGrade: exampleLink.confidence,
+  exampleLinkPage: exampleLink.to,
+};
+function fill(text) {
+  return text.replace(/\{\{(\w+)\}\}/g, (_, key) => {
+    if (!(key in facts)) throw new Error(`site page text names an unknown fact: ${key}`);
+    return facts[key];
+  });
+}
+function linkify(text) {
+  return escapeHtml(fill(text))
+    .replace(/\[([^\]]+)\]\(([a-z0-9-]+\.html(?:#[a-z0-9-]+)?)\)/g, '<a href="$2">$1</a>')
+    .replace(/(?<!href=")(https:\/\/[^\s<]+[^\s<.,;:)])/g, '<a href="$1">$1</a>')
+    .replace(/([a-z]+@[a-z.]+\.[a-z]+)/g, '<a href="mailto:$1">$1</a>');
+}
+const LINE_PATTERNS = { solid: '', 'long-dash': '6,3', 'short-dash': '2,3', dots: '1,4' };
+function lineSample(item) {
+  if (!item.line) return '';
+  const dash = LINE_PATTERNS[item.line.pattern];
+  if (dash === undefined) throw new Error(`unknown line pattern: ${item.line.pattern}`);
+  const stroke = item.line.color ? `var(--link-${item.line.color})` : 'var(--text)';
+  return `<svg width="34" height="10" viewBox="0 0 34 10" aria-hidden="true" focusable="false"><line x1="1" y1="5" x2="33" y2="5" stroke="${stroke}" stroke-width="2"${dash ? ` stroke-dasharray="${dash}"` : ''}/></svg>`;
+}
+function sectionBody(sec, extra) {
+  let html = sec.paragraphs.map(p => `  <p>${linkify(p)}</p>`).join('\n');
+  if (sec.terms) {
+    html += `\n  <dl class="terms">\n${sec.terms.map(t => `    <dt>${lineSample(t)}${escapeHtml(fill(t.term))}</dt>\n    <dd>${linkify(t.text)}</dd>`).join('\n')}\n  </dl>`;
+  }
+  if (sec.citations) {
+    html += '\n' + sec.citations.map(c => `  <p class="cite-label">${escapeHtml(fill(c.label))}</p>\n  <p class="cite">${linkify(c.text)}</p>`).join('\n');
+  }
+  if (sec.after) html += '\n' + sec.after.map(p => `  <p>${linkify(p)}</p>`).join('\n');
+  if (sec.extra === 'give') html += '\n' + extra;
+  return html;
+}
 function sitePage(key, extra = '') {
   const page = siteContent[key];
-  const linkify = t => escapeHtml(t).replace(/(https:\/\/[^\s<]+[^\s<.,;:)])/g, '<a href="$1">$1</a>').replace(/([a-z]+@[a-z.]+\.[a-z]+)/g, '<a href="mailto:$1">$1</a>');
-  const body = page.sections.map(sec => `<section>
+  const body = page.sections.map(sec => `<section${sec.id ? ` id="${sec.id}"` : ''}>
   <h2>${escapeHtml(sec.heading)}</h2>
-${sec.paragraphs.map(p => `  <p>${linkify(p)}</p>`).join('\n')}
-${sec.extra === 'give' ? extra : ''}</section>`).join('\n');
+${sectionBody(sec, extra)}
+</section>`).join('\n');
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(page.title)} — Church Family Tree</title>
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+${page.description ? `<meta name="description" content="${escapeHtml(fill(page.description))}">\n` : ''}<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -433,7 +511,8 @@ const give = siteContent.give || {};
 const giveButtons = give.once && give.monthly
   ? `  <div class="give"><a href="${give.once}">Give once</a><a href="${give.monthly}">Give monthly</a></div>\n`
   : '';
-for (const key of ['about', 'privacy', 'support']) {
+const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support'];
+for (const key of SITE_PAGES) {
   fs.writeFileSync(path.join(outRoot, 'cft-website', `${key}.html`), sitePage(key, giveButtons), 'utf-8');
 }
 
@@ -455,9 +534,7 @@ const sitemapUrls = [
 fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemapXml(sitemapUrls), 'utf-8');
 const treeSitemapUrls = [
   'https://www.churchfamilytree.com/',
-  'https://www.churchfamilytree.com/about.html',
-  'https://www.churchfamilytree.com/privacy.html',
-  'https://www.churchfamilytree.com/support.html',
+  ...SITE_PAGES.map(key => `https://www.churchfamilytree.com/${key}.html`),
   ...census.movements.map(m => `https://www.churchfamilytree.com/tree/${m.id}`)
 ];
 fs.writeFileSync(path.join(outRoot, 'cft-website/sitemap.xml'), sitemapXml(treeSitemapUrls), 'utf-8');

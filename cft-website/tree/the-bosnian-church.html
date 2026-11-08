@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -120,12 +128,18 @@ li{margin-bottom:.5rem}
       <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     
-    <div class="reading"><p>Between Catholic Hungary and Orthodox Serbia, medieval Bosnia had a church of its own. Its members called themselves krstjani, Christians. It used a Slavonic liturgy, and it had its own hierarchy headed by a djed, a &#039;grandfather&#039;, with gosts and starci under him and communities called hiže, houses, scattered through the countryside. Rome repeatedly condemned it as heretical and periodically sent friars against it, while Bosnia&#039;s own rulers protected and made use of it. What its members actually believed remains genuinely disputed. The long-standing identification of them with Bogomil dualism has been rejected by most historians since the 1970s, and the one substantial document written from inside — the will of Gost Radin, made in 1466 — reads like conventional Christianity, with a cross drawn down its margin. Bosnia fell to the Ottomans in 1463, and the church did not outlast the kingdom.</p></div>
+    <div class="reading"><p>Between Catholic Hungary and Orthodox Serbia, medieval Bosnia had a church of its own. Its members called themselves krstjani, Christians. It used a Slavonic liturgy and had its own leaders. At the head was a djed, a &#039;grandfather&#039;, with gosts and starci under him. Its communities, called hiže, or houses, were scattered through the countryside. Rome condemned it as heretical again and again, and from time to time sent friars against it. Bosnia&#039;s own rulers protected it and made use of it. What its members actually believed is still in real dispute. Since the 1970s most historians have rejected the long-held view that they were Bogomil dualists. The one major document written from inside is the will of Gost Radin, made in 1466. It reads like ordinary Christianity, with a cross drawn down its margin. Bosnia fell to the Ottomans in 1463, and the church did not outlast the kingdom.</p></div>
   </section>
 
   <section>
     <h2>In Its Own Record</h2>
-    
+    <div class="lineage-section link-conflict">
+<h3>Opposed By</h3>
+<ul class="lineage-list">
+<li id="latin-papal-church-avignon-to-lateran-v--the-bosnian-church"><a href="latin-papal-church-avignon-to-lateran-v.html">The Latin Papal Church (Avignon to Fifth Lateran)</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">About 1370 Pope Urban V wrote that many heretics lived in Bosnia. He told the archbishops of Split and Dubrovnik to cut off from the church anyone who sheltered them or traded with them. In 1451 Pope Nicholas V called the Bosnian lord Stephen a &#039;faithless Patarene&#039;. An 1877 history says Roman writers always gave that name to the dissenters of Bosnia.</span></li>
+</ul>
+</div>
+
   </section>
 
   <section>
@@ -139,6 +153,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

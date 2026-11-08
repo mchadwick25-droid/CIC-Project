@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -125,7 +133,21 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>In Its Own Record</h2>
-    
+    <div class="lineage-section link-grow">
+<h3>Grew Out Of</h3>
+<ul class="lineage-list">
+<li id="russian-church-nikon-to-holy-synod--the-optina-elders-and-russian-ascetic-renewal"><a href="russian-church-nikon-to-holy-synod.html">The Russian Church — Nikon to the Holy Synod</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Leonid, the first Optina elder, joined the Optina monastery in the diocese of Kaluga in 1797. In 1804 the bishop of Orel put him in charge of the Beloberezh hermitage. In 1829 he moved to the new skete at Optina, a small hermitage next to the monastery. There the abbot gave him the care of the brothers&#039; souls.</span></li>
+<li id="the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal"><a href="the-hesychast-revival-paisius-and-the-philokalia.html">The Hesychast Revival - Paisius &amp; the Philokalia</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Two monks, Theodore and Cleopas, lived for years in Paisius&#039;s monastery and took their vows from him. They went to Russia in 1801 and trained Leonid. In 1829 Leonid moved to the skete at Optina and took charge of the brothers&#039; spiritual care. Optina put out this account in its 1847 edition of Paisius&#039;s Life.</span></li>
+</ul>
+</div>
+<div class="lineage-section link-influence">
+<h3>Influenced By</h3>
+<ul class="lineage-list">
+<li id="hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal"><a href="hesychasm-and-the-palamite-synthesis.html">Hesychasm &amp; the Palamite Synthesis</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The monks of Optina printed two books of the old prayer teachers, in 1847 and 1849. One holds a preface to the book of Gregory of Sinai. The other holds Gregory Palamas on prayer, in the Slavonic of Paisius Velichkovsky.</span></li>
+<li id="muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal"><a href="muscovite-monastic-christianity.html">Muscovite Monastic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1847 the monks of Optina printed the life and writings of the elder Paisius Velichkovsky. The book carries a preface to the book of Nil Sorsky, and it calls Nil &#039;the light of Russia&#039;.</span></li>
+</ul>
+</div>
+
   </section>
 
   <section>
@@ -139,6 +161,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

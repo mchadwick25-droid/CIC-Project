@@ -51,7 +51,7 @@ li{margin-bottom:.5rem}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
-.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
@@ -63,6 +63,8 @@ li{margin-bottom:.5rem}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
 .lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
 .sources-list{list-style:none;padding:0}
 .sources-list li{margin:0 0 .75rem;padding:0}
@@ -86,6 +88,12 @@ li{margin-bottom:.5rem}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
 </style>
 <link rel="stylesheet" href="../assets/feedback.css">
 </head>
@@ -128,19 +136,20 @@ li{margin-bottom:.5rem}
     <div class="lineage-section link-grow">
 <h3>Continues</h3>
 <ul class="lineage-list">
-<li id="church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols"><a href="church-of-the-east-under-the-abbasids.html">The Church of the East under the Abbasids</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">The same office carried on as the Mongols came west. Bar Hebraeus lived through these years. He records that the catholicos Sabrisho Bar Masihi held it for thirty-one years and died in 1256. Makkikha of Nisibis took his place.</span></li>
+<li id="church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols"><a href="church-of-the-east-under-the-abbasids.html">The Church of the East under the Abbasids</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">The same office carried on as the Mongols came west. Bar Hebraeus lived through these years. He records that the catholicos Sabrisho Bar Masihi held it for thirty-one years and died in 1256. Makkikha of Nisibis took his place.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-grow">
 <h3>Continued As</h3>
 <ul class="lineage-list">
-<li id="church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari"><a href="church-of-the-east-timur-to-hakkari.html">The Church of the East — Timur&#039;s Catastrophe and the Hakkari Remnant</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">A history of the church&#039;s heads, written in the fourteenth century, says Yahballaha III died in November 1317. It adds that his seat then stood empty for three months and eight days. The scholar Assemani, writing in 1725, says Timothy II, bishop of Mosul and Arbela, was chosen in February 1318.</span></li>
+<li id="church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari"><a href="church-of-the-east-timur-to-hakkari.html">The Church of the East — Timur&#039;s Catastrophe and the Hakkari Remnant</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">A history of the church&#039;s heads, written in the fourteenth century, says Yahballaha III died in November 1317. It adds that his seat then stood empty for three months and eight days. The scholar Assemani, writing in 1725, says Timothy II, bishop of Mosul and Arbela, was chosen in February 1318.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-contact">
 <h3>In Contact With</h3>
 <ul class="lineage-list">
 <li id="church-of-the-east-under-the-mongols--latin-papal-church-gregorian"><a href="latin-papal-church-gregorian.html">The Latin Papal Church (Gregorian Reform to Innocent III)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters &#039;concerning the matter of Jerusalem&#039;. He then gave communion to the king of England, probably in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.</span></li>
+<li id="church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517"><a href="st-thomas-christians-1300-1517.html">St Thomas Christians, 1300-1517</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">In 1301 a scribe in Malabar finished a book of Paul&#039;s letters for the church. His closing note names the patriarch Yahballaha, &#039;the Turk&#039;, as head of the Church of the East, and Jacob as metropolitan of India. It shows the Indian church honoring its patriarch. But no letter or meeting from these years survives, so the tie rests on this note alone.</span></li>
 </ul>
 </div>
 
@@ -157,6 +166,8 @@ li{margin-bottom:.5rem}
     <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
       <a href="../privacy.html">Privacy</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="../support.html">Support the tree</a>

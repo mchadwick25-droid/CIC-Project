@@ -1,0 +1,1857 @@
+{
+ "round": 1,
+ "links": [
+  {
+   "id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "action": "regrade",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "In 1301 a scribe in Malabar finished a book of Paul's letters for the church. His closing note names the patriarch Yahballaha, 'the Turk', as head of the Church of the East, and Jacob as metropolitan of India. It shows the Indian church honoring its patriarch. But no letter or meeting from these years survives, so the tie rests on this note alone.",
+   "outcome_considered": "A scribe's closing note shows that the patriarch was recognized. It records no council, no split and no changed rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3524-3528",
+     "locus": "Mingana 1926, p. 69 (fol. 93b)",
+     "quote": "in the time of the great pilot and director of the holy Catholic Church of the East,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3527-3529",
+     "locus": "Mingana 1926, p. 69 (fol. 93b)",
+     "quote": "our blessed -and holy Father Mar Yahb Alaha V., the Turk, Catholicos Patriarch of the East",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3519-3520",
+     "locus": "Mingana 1926, p. 69",
+     "quote": "The colophon, which informs us that it was written in A.D. 1301, is as follows:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "st-thomas-christians-1300-1517 relationsSummary ('A note in a book copied in 1301 shows the community still tied to its patriarch in Mesopotamia', after the round-1 revision), longDescription and why ('names the patriarch Yahballaha III in its colophon')",
+   "wants": [
+    "The Syriac text of the 1301 colophon (Vat. Syr. 22), to check Mingana's numbering 'Yahb Alaha V.' against the usual 'Yahballaha III'"
+   ],
+   "drafter_flags": [
+    "Type is a judgement call: the colophon is commemoration, not a meeting or letter. Graded Widely Accepted rather than Documented for that reason; Mingana is the secondary that prints and frames it. A reviewer may prefer to fold this into the existing continuation from st-thomas-christians-of-india, which already cites the same colophon for Jacob.",
+    "Mingana numbers the patriarch 'Yahb Alaha V.'; the movement text says Yahballaha III. The note avoids a numeral. Same man (the date 1301 and 'the Turk' fit the Ongud patriarch of 1281-1317).",
+    "The file reads 'follows:2' (a footnote mark); the quote stops before it.",
+    "Revision R1-01: regraded to Inferential-Thin. The colophon is commemoration, not an exchange, and Mingana's framing line gives no consensus reading of contact. Kept as a thin link, not folded into the continuation, because the St Thomas text names the tie."
+   ],
+   "change_reason": "R1-01: Widely Accepted to Inferential-Thin. The only evidence is a scribe's colophon honoring the patriarch; it records no meeting, letter or exchange, and the one secondary only introduces it. Note now says the tie rests on the note alone.",
+   "finding": "R1-01"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church",
+   "action": "regrade",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-bosnian-church",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "About 1370 Pope Urban V wrote that many heretics lived in Bosnia. He told the archbishops of Split and Dubrovnik to cut off from the church anyone who sheltered them or traded with them. In 1451 Pope Nicholas V called the Bosnian lord Stephen a 'faithless Patarene'. An 1877 history says Roman writers always gave that name to the dissenters of Bosnia.",
+   "outcome_considered": "Urban V's letter orders excommunications, but it is a ruling in a letter and no source shows it carried out; Nicholas V's act targets one lord.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Urban V to the archbishops of Split and Dubrovnik, register year 8 (1369-70), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863), no. 366",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "22706-22707",
+     "locus": "no. 366",
+     "quote": "quod  in  partibus  Dosne  a vestris  civitatibus  et  dioccsibus  non  remotis  quam  plures  heretici commorantur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicholas V, bull against Stephen, count in the kingdom of Bosnia (1451), in Theiner, vol. 1 (1863), no. 582",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "32370",
+     "locus": "no. 582",
+     "quote": "quod  Stephanus  Comes  in  Regno  Bosne,  perfidus  patarenus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), footnote",
+     "file": "cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt",
+     "lines": "1825-1826",
+     "locus": "Evans 1877, footnote 2",
+     "quote": "Patarenes,'  the  name  by  which  the  Bogomiles  of  Bosnia  and  other Sclavonic  lands  are  always  called  by  Poman  writers,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-bosnian-church relationsSummary ('condemned by Rome as heretical'), longDescription ('Rome repeatedly condemned it as heretical and periodically sent friars against it') and why ('Rome repeatedly condemned them as heretics')",
+   "wants": [
+    "A papal letter of the 1230s-1300 on the Bosnian heretics (Gregory IX's crusade letters), for the condemnation before 1300 that belongs to the Gregorian papacy",
+    "A clean edition of the Franciscan vicariate of Bosnia's founding documents, for 'sent friars against it'"
+   ],
+   "drafter_flags": [
+    "CROSS-GROUP: the papacy is group C's movement; de-duplicate at merge.",
+    "The papal letters say 'heretics in Bosnia' and 'Patarene'; that these name the krstjani of the Bosnian Church is the standard reading, not something the letters say in the church's own terms. The reviewer may weigh whether Documented holds for the pair or whether Widely Accepted is safer (no repo-cited secondary I read states the identification).",
+    "The year: Theiner heads the page 'URBANI PP. V. ANXO VIII.'; Urban's eighth year ran from November 1369 to November 1370, hence 'about 1370'. Theiner's own year digits are garbled ('13«').",
+    "OCR kept: 'Dosne' for Bosne, 'dioccsibus'. The file uses double spaces between words, kept in the quotes.",
+    "Condemnation before 1300 (from the 1230s) would join the Gregorian papacy (era 5) to this movement; no vendored text of that period was located, so no such link is drafted.",
+    "Revision R1-02: Evans's footnote is quoted verbatim with its OCR 'Poman' (Roman) and the file's double spaces; the review's quotation silently corrected it. The note does not take up Evans's Bogomil label, which the movement text rejects."
+   ],
+   "change_reason": "R1-02: Documented to Widely Accepted. Neither letter names the Bosnian Church; the identification of Bosnia's 'heretics' and 'Patarenes' with the krstjani comes from a secondary (Evans 1877, read at lines 1825-1826), as era-5 practice holds such links.",
+   "finding": "R1-02"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "inquisition-record-sects-adamites-and-kin",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In December 1367 at Erfurt, a beghard called John Hartmann was questioned by Walter Kerling, named by the pope's authority to try heresy. Kerling put to him the first article of Ad nostrum, a decree of the Council of Vienne. In 1887 Wilhelm Wattenbach noted that the questions kept to the decree point by point. Such answers, he wrote, were often forced. But he judged that Hartmann's answers went far beyond the questions, and that the man seemed to believe them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5775-5777",
+     "locus": "Instrument of 1367, opening",
+     "quote": "coram venerabili viro et religioso fratre Waltero Corlink,’ ordinis Predicatorum, saere theologie professore® et inquisitore heretice pra- vitatis auetoritate apostolica in certis partibus Almannie deputato,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann, Erfurt, 1367, ed. Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5795-5796",
+     "locus": "Instrument of 1367, first question",
+     "quote": "et sie interrogatus a predicto inquisitore' de primo artieulo in Clementinis de? heretieis ‘Ad nostrum’,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Council of Vienne (1311-12), editor's heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14788",
+     "locus": "Denzinger, Council of Vienne",
+     "quote": "Conc. YIENNENSE 1311—1312.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, editor's heading in Denzinger-Bannwart (1911), no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14792-14793",
+     "locus": "Denzinger 471",
+     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5717-5719",
+     "locus": "commentary before the 1367 instrument",
+     "quote": "dass hier genau nach dem Schema der Clementinen V, 3, 3 gefragt wird, was ja einen gewissen Zweifel begründen kann, weil oft genug die Bejahung solcher Fragepunkte erzwungen ist.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5719-5723",
+     "locus": "commentary before the 1367 instrument",
+     "quote": "Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und ent- halten eine Fülle ganz individueller Züge. Der Inquisit scheint, wie das ja auch in anderen Fällen bezeugt wird, von der Wahrheit seines Wahnes wirklich überzeugt zu sein,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "inquisition longDescription ('A list of errors condemned at the Council of Vienne circulated among inquisitors as a template'); why (the same)",
+   "wants": [
+    "Lea, History of the Inquisition, vol. II (1887), which treats the Free Spirit and the Adamites; the shelf holds vol. III only",
+    "Ad nostrum in the Clementines (Friedberg, Corpus iuris canonici II, 1881), not on the host per the source dossier"
+   ],
+   "drafter_flags": [
+    "OCR errors kept: 'Corlink' (Kerling), 'saere', 'professore®', 'auetoritate', 'sie' (sic), 'artieulo', 'de?', 'heretieis', and Denzinger's 'YIENNENSE'.",
+    "Wattenbach's next sentence (lines 5719-5722) says this man's answers went well beyond the questions, and he judged them credible. The note says the answers were 'often forced', which is Wattenbach's general remark, not his verdict on Hartmann. The reviewer may want the note to add his verdict.",
+    "Lerner is named, not read; he cannot raise the grade, and the grade rests on the 1367 record.",
+    "The outcome test: Ad nostrum is a council decree condemning teaching (basis a), and this link's own primary sources show it in use in 1367. The same decree is the outcome basis of the existing link to the Free Spirit heresy; flagged in case the reviewer thinks one decree should carry only one outcome.",
+    "The inquisition entry (from 1350) and the Free Spirit entry (1250-1400) both cover the German Free Spirit trials; see escalations."
+   ],
+   "change_reason": "R1-03: outcome removed (the Vienne decree was laid on beguines and beghards before this group's window and is carried on their links; the 1367 hearing is not an institutional act). R1-04: note now gives Wattenbach's verdict on this case (lines 5719-5723) as well as his general caution. R1-20: Denzinger's headings are editorial, now kind secondary. Grade stays Documented on the 1367 notarial record.",
+   "outcome_considered": "The council's decree of 1311-12 was laid on beguines and beghards, before this group's time, and is carried on their own links. The 1367 hearing questioned one man and changed no rule.",
+   "finding": "R1-03, R1-04, R1-20"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "maronite-christianity-era-6",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1445 Elias, the Maronite bishop on Cyprus, sent his envoy Isaac to Pope Eugenius IV to profess the Roman faith. In 1516 the Maronite patriarch of Mount Lebanon sent men to pledge his obedience at the Fifth Lateran Council. The patriarch, Peter, wrote that popes before him, Eugenius among them, had sent his church gifts.",
+   "outcome": "In 1445 a bull of Pope Eugenius IV took the Maronites of Cyprus into union. It said no one was to call their bishop, priests or people heretics.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt:29209-29216",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, bull 'Benedictus sit Deus' on the union of the Chaldeans and Maronites of Cyprus (1445), with Raynaldus's narrative, in Raynaldus, Annales ecclesiastici 28 (ed. Theiner, 1874)",
+     "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt",
+     "lines": "62418-62423",
+     "locus": "Annales 1445, para. 21",
+     "quote": "Eliam eiiiscoiium Maronitarum ad profitcndaiu omniuni nomine coram Romano Pontifice Catholicam veritatcm, illique rite ac dcmisse ohedientiam dcferendam designarinl. Suscepit legationem Timotheus; Elias vero suo nomine Isaac misit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.2 (Rome, 1728), De Syris Nestorianis, summarizing the bull of 1445",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "29209-29216",
+     "locus": "Bibl. Orient. III.2, p. CCCCXXXIV",
+     "quote": "Exftat ejufdem Eugenii \" BullaDat. VII. Non. Aug.anno 1445. iibirclataipfius Ti- mothei profeflione , nec non Ifaaci nuncii Elia; epifeopi Maronitarum in Cypro , jubet Pontifex ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.2 (Rome, 1728), quoting the bull of 1445",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "29213-29216",
+     "locus": "Bibl. Orient. III.2, p. CCCCXXXIV",
+     "quote": "In primis ejuod nemo pra- 'diilos Chaldteorum Metropolitam y Maronitarum epifeopum y eorun- demque clericos C?” populos , neque ex populo iSf Clero quempiam de ctetero audeat bereticos appellare",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Fifth Lateran Council (1516), in Mansi, Sacrorum conciliorum collectio 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "63569-63570",
+     "locus": "Mansi 32, Lateran V, the session of December 1516",
+     "quote": "orator patriarche Maronitarum montis Libani prefentat & legit mandatum in",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Fifth Lateran Council (1516), in Mansi 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "63581-63582",
+     "locus": "Mansi 32, Lateran V",
+     "quote": "Obedientia per di@os oratores Maronitaram praftatur fandiflimo pontifici.,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Peter, patriarch of the Maronites, letter to Leo X (1516), in Mansi 32",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "lines": "98870-98872",
+     "locus": "Mansi 32, Epistola patriarchae Maronitarum ad Leonem X",
+     "quote": "mifecunt alias {anéti patres: antiqui predeceflo- res fan@titatis veltre , quorum unus, uti memi- nimus , fuitFugenius,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "maronite-christianity-era-6 relationsSummary ('received into union at the Council of Florence on 7 August 1445, and affirmed again during the Fifth Lateran Council in 1516'), longDescription and why (the same), legacy ('remains in full communion with Rome')",
+   "wants": [
+    "The bull of 7 August 1445 in a clean edition with its own dating clause (the date comes from Assemani; Raynaldus's extract does not print it)"
+   ],
+   "drafter_flags": [
+    "PAPACY LINK (group C de-duplication): this touches latin-papal-church-avignon-to-lateran-v.",
+    "Outcome basis (c), a settlement by an authority: the bull's ban on calling the Cypriot Maronites heretics is quoted by Assemani at the outcome locus. Assemani is a 1728 secondary quoting the bull; Raynaldus prints the bull's opening and Timothy's profession but the extract read does not reach the clause.",
+    "The 1445 bull was issued in the council 'Lateranensis' (Raynaldus, lines 62424 and 62556), the Council of Florence after its move to Rome; the movement text's 'Council of Florence' is kept with that gloss.",
+    "Lateran V session date: the nearby schedule is dated 1516, '14 Kal. Jan.' (Mansi 32, about lines 63589-63592); the note says 1516 only.",
+    "The same bull received the Chaldeans (Church of the East) of Cyprus under Timothy of Tarsus. Neither Church of the East text names Cyprus, so no link was drafted for it."
+   ],
+   "change_reason": "R1-15: outcome cut from 30 words to 28; the date and the ban are unchanged and stay at the Assemani locus.",
+   "finding": "R1-15"
+  },
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "action": "rewrite",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "byzantine-church-palaiologan",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "A synod at Constantinople ruled on the quarrel over the monks' prayer. Its tome found the monks above Barlaam's charges against them. It warned that Barlaam would be cut off from the church unless he repented.",
+   "outcome": "A synod at Constantinople ruled for the hesychast monks. It said Barlaam would be cut off from the church unless he repented.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt:14786-14823",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome against Barlaam and Akindynos (Constantinople, 1341), Greek, in Migne, PG 151 (1865), from Dositheos's Tomos agapes",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14261",
+     "locus": "Tomus synodicus I, running head",
+     "quote": "TOMUS SYNODICUS I.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome (1341), in Migne, PG 151 (1865)",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14790-14791",
+     "locus": "Tomus synodicus I, ch. 51 (the finding for the monks)",
+     "quote": "μοναχοὶ ἀπεδείχθησαν ἀνώτεροι τῆς χατηγορίας αὐτοῦ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome (1341), in Migne, PG 151 (1865)",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14821-14823",
+     "locus": "Tomus synodicus I, the sentence on Barlaam",
+     "quote": "εἰ δ᾽ οὖν, ἀποχήρυχτος ἔσται καὶ ἀποτετμημένος τῇ; ἁγίας τοῦ Χριστοῦ χαθολε- vs xal ἀποστολιχῆς Ἐχχλησίας,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "hesychasm longDescription ('settled by councils at Constantinople in 1341, 1347 and 1351, which vindicated Palamas') and why ('a case that church councils upheld'); byzantine-church-palaiologan relationsSummary ('receives the hesychast councils synodally', after prose change 2 'Its synods ruled for the hesychast monks') and longDescription ('Synods at Constantinople in 1341, 1347 and 1351 ruled in favor of the hesychast monks')",
+   "wants": [
+    "A clean edition or translation of the tomes of 1347 and 1351 (Norman Russell's Translated Texts for Byzantinists volume is in copyright) to document the later councils' rulings in quotable form",
+    "A dated witness to the synod of 1341 (John Kantakouzenos's History or Nikephoros Gregoras), to carry the year on this link"
+   ],
+   "drafter_flags": [
+    "The date 1341 is not in the quoted lines; the tome is the first of the three printed as 'Tomi synodici tres in causa Palamitarum' (line 14266 onward), and the 1341 date comes from the movement text and the corpus map. The quotes show the finding and the sentence, not the year.",
+    "OCR errors kept exactly: 'χατηγορίας' (κατηγορίας), 'ἀποχήρυχτος', 'τῇ;' for τῆς, 'χαθολε- vs xal' for καθολικῆς καὶ.",
+    "Type: 'influenced' (the patriarchal synod took up the hesychasts' teaching as its own ruling). The tome condemns Barlaam, not the other party, so 'argued against' does not fit this pair."
+   ],
+   "change_reason": "R1-16: the year 1341 is not in any source on the link (Migne prints the tome without a date), so it is taken out of the outcome and also out of the note. The review allowed the note to keep it; a note is held to the same rule of saying only what its sources show, and the movement text already carries the year.",
+   "finding": "R1-16"
+  },
+  {
+   "id": "byzantine-church-palaiologan--muscovite-monastic-christianity",
+   "action": "rewrite",
+   "from": "byzantine-church-palaiologan",
+   "to": "muscovite-monastic-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1354 the patriarch's council at Constantinople made Alexis metropolitan, the chief bishop, of Kyiv and all Rus'. Later the Greeks' dealings with Rome made Moscow wait. In 1448 the Russian bishops met at the grand prince's call and made Jonah their chief bishop themselves.",
+   "outcome": "In 1448, at the grand prince's call, the Russian bishops made Jonah their chief bishop. They stopped waiting for Constantinople and acted on their own.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:3946-3957",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople, June 1354, in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 151",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "15801",
+     "locus": "no. 151, date line",
+     "quote": "CLI. (6862—1354) iunio ind. VII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of June 1354, Miklosich and Müller, vol. 1, no. 151",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "15905-15906",
+     "locus": "no. 151 (Alexis made metropolitan)",
+     "quote": "κατέστησεν ἀρτίως τοῦτον δὴ τὸν χύριον ᾿Αλέξιον sic τέλειον μηξρο- κολίτην Κυέβου xai πάσης Ῥωσίας,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 31 (St Jonah)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "3946-3951",
+     "locus": "ch. 31",
+     "quote": "But reports  concerning  the  relations  which  Constantinople  then had  with  Rome,  caused  the  Great  Prince  to  delay  his embassy.  Waiting  more  favourable  circumstances,  St.  Jonah governed  the  Church  for  five  years  without  being  synodically appointed.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), ch. 31",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "3956-3957",
+     "locus": "ch. 31",
+     "quote": "these  instituted Jonah  as  metropolitan  of  all  Russia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), table of contents",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "631",
+     "locus": "contents, list of metropolitans",
+     "quote": "St.  Jonah 31st  Met A.D.  1448",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite longDescription ('in 1448, Russian bishops chose their own metropolitan without waiting on Constantinople', after prose change 5) and legacy ('the hesychast prayer this generation received from the Greeks')",
+   "wants": [
+    "A primary for the 1448 election: the Russian chronicles (PSRL) or Grand Prince Basil II's letter to Constantinople, so the 1448 step does not rest on Mouravieff alone",
+    "Miklosich and Müller, Acta patriarchatus, vol. 2 (1402 onward), for Constantinople's own record of the Rus' metropolitans after 1402"
+   ],
+   "drafter_flags": [
+    "Grade: Documented rests on the 1354 synodal act (a named act of one side directed at the other). The 1448 step is carried by Mouravieff, a secondary read at its lines; it does not raise the grade.",
+    "Herberstein (envoy 1517 and 1526) wrote that 'The Russian metropolitans hold their authority from the Patriarch of Constantinople' (herberstein file 9773-9774). That outsider's statement cuts against the 1448 independence. The reviewer may weigh it; the prose's 'the beginning of an independent Russian church' is kept, with Mouravieff's 'Our involuntary separation from Constantinople, after its fall' (lines 4087-4088) behind it.",
+    "Type: 'in contact with', not 'broke with': no vendored text records a rupture from Constantinople's side, and Mouravieff calls the separation 'involuntary'.",
+    "Outcome: a practice changed by an authority (basis c), the council of Russian bishops installing their own metropolitan; the outcome rests on Mouravieff, one of the link's own sources, within the cited lines."
+   ],
+   "change_reason": "R1-17: Mouravieff (3946-3957) says Moscow did wait, five years, and then the bishops acted; the outcome now says so. Kept 'at the grand prince's call' (Basil convoked them, line 3949) so the act's authority is named.",
+   "finding": "R1-17"
+  },
+  {
+   "id": "muscovite-monastic-christianity--russian-church-stoglav-to-nikon",
+   "action": "rewrite",
+   "from": "muscovite-monastic-christianity",
+   "to": "russian-church-stoglav-to-nikon",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Herberstein, the emperor's envoy, came to Moscow in 1517. While he was there, he says, the chief bishop was a holy man he calls Bartholomew. Daniel later took his place. Herberstein says such bishops were once chosen by a meeting of bishops, abbots and priors.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigismund von Herberstein, Notes upon Russia, trans. Major, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9806-9808",
+     "locus": "on the choosing of metropolitans",
+     "quote": "When  I  was  the  Emperor  Maxi- milian's ambassador  at  Moscow,  Bartholomew,  a  man  of  holy life,  was  the  metropolitan ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Herberstein, Notes upon Russia, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9820-9821",
+     "locus": "on the choosing of metropolitans",
+     "quote": "One Daniel  succeeded  him  as  metropolitan,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Herberstein, Notes upon Russia, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9800-9802",
+     "locus": "on the choosing of metropolitans",
+     "quote": "Metropolitans  and  bishops  were  formerly  chosen  at  an assembly  of  all  the  archbishops,  bishops,  abbots,  and  priors of  monasteries ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), table of contents",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "648-650",
+     "locus": "contents, list of metropolitans",
+     "quote": "Barlaam 37th  Met A.D.  1511 97.  Daniel 38th  Met A.D.  1522",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "R. H. Major, title page of Notes upon Russia, vol. 1 (Hakluyt Society, 1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "201-202",
+     "locus": "title page",
+     "quote": "Ambassador  from  the  Court  of  Germany  to  the  Grand  Prince  Vasiley Ivanovich,  in  the  years  1517  and  1526.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite legacy ('Almost everything that follows in Russian Christianity runs back through here'); russian-church-stoglav-to-nikon longDescription ('In the century and a half after 1517 the Russian Church became something new')",
+   "wants": [],
+   "drafter_flags": [
+    "CROSS-ERA: the era-7 session may draft this continuation from the Stoglav side; de-duplicate at merge.",
+    "Herberstein's 'Bartholomew' is the metropolitan Mouravieff lists as Barlaam (1511); Daniel follows in 1522 in Mouravieff's list. The note keeps Herberstein's name and says so.",
+    "Herberstein's first embassy (for Maximilian) is dated 1517 in the file's introduction, not in the quoted lines; the line names 'the Emperor Maximilian's ambassador at Moscow'."
+   ],
+   "change_reason": "R1-18: Herberstein says only that Bartholomew was metropolitan while he was envoy, not that he met him. Added the editor's title page (lines 201-202) as a secondary for the year 1517, which no source on the link gave before.",
+   "finding": "R1-18"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "armenian-cilicia-after-the-kingdom",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1341 Pope Benedict XII sent the Armenians a long list of errors he said they held. A council of the Armenian church met in 1342 under the catholicos Mekhitar and King Constantine to answer it. An eighteenth-century editor adds that an earlier king, Leo, had asked the pope for help against the Saracens. He was told to renounce the errors first.",
+   "outcome_considered": "The 1342 council answered the charges, but no source here shows a lasting union, a split or a changed rule. The editor says Rome found the answer wanting and sent new envoys in 1346.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XII, libellus 'Cum dudum' on the errors of the Armenians (1341), in Denzinger, Enchiridion symbolorum (ed. Bannwart, 1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15376-15378",
+     "locus": "Denzinger 532 sqq, Errores Armenorum",
+     "quote": "Errores Armenorum '. [Ex libello alam diidum» ad Arinenos transmisso, a. 1341.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XII, libellus 'Cum dudum' on the errors of the Armenians (1341), in Denzinger, Enchiridion symbolorum (ed. Bannwart, 1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15380",
+     "locus": "Denzinger 532",
+     "quote": "Item quod Armeni dicunt et tenent, quod peccatum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Armenian council of 1342 (answers to Benedict XII's libellus), in Mansi, Sacrorum conciliorum collectio 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109840-109844",
+     "locus": "Mansi 25, col. 1185-1186, Armenorum concilium",
+     "quote": "& regem Armenorum , petendo ab eis, ut cum fynodo antiftitum ecclefie Armenorum fupra- {criptos errores predi&i libelli audirent, cum examinatione condemnarent tamquam inimicos catholice fidei,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109832",
+     "locus": "Mansi 25, col. 1185, opening of the acts (right column)",
+     "quote": "divina Catholicon omnium Armenorum, de vo-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edmond Martène, preliminary note to the acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109790",
+     "locus": "Mansi 25, col. 1185, Observatio praevia",
+     "quote": "Leo vex Armenorunt , miffis ad Benedittum papam XII, legatis , auxitium ab eo poftulaffer",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edmond Martène, preliminary note to the acts of the Armenian council of 1342, in Mansi 25",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+     "lines": "109791",
+     "locus": "Mansi 25, col. 1185, Observatio praevia",
+     "quote": "adverfus Sarracenos, a quibus graviffimas clades acceperat; refpondit pontifes nullam ab eccle-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia (trans. Gregory, 1912), ch. XIV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "3899-3903",
+     "locus": "ch. XIV, Leanings towards Unity",
+     "quote": "The Armenian Church, however, suc ceeded in keeping herself definitively free from Roman Catholic principles. She maintained her administrative independence and her doctrinal individuality,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "armenian-cilicia-after-the-kingdom longDescription ('repeated attempts to seal a union with Rome, pressed by kings who needed western help, were resisted'), why ('a Latin Europe pressing for union with Rome, a union its own clergy and people repeatedly resisted')",
+   "wants": [
+    "The Armenian council of Sis of 1307 and Adana of 1316 are in Mansi 25 (file lines 12653, 61813) and show the kings pressing union; a reviewer may want a second, 'in contact with' link drawn from them only if a papal act at those councils is shown."
+   ],
+   "drafter_flags": [
+    "PAPACY LINK (group C de-duplication): this touches latin-papal-church-avignon-to-lateran-v.",
+    "Martène's note calls the king Leo, but the 1342 acts name King Constantine; the note follows the acts for 1342 and says only 'the king' for the request. Martène is an 18th-century editor (secondary).",
+    "OCR: Denzinger's 'alam diidum' is 'Cum dudum', 'Arinenos' is 'Armenos'; Mansi's two-column OCR interleaves columns, so quotes are single-column runs only.",
+    "Not drafted: the Council of Florence's Decree for the Armenians (1439, Exultate Deo; Denzinger 695 and Mansi 31 file lines about 98348-99030). The Armenian text does not name Florence; if group C draws a Florence-Armenian link it should go to this movement."
+   ],
+   "change_reason": "R1-18: Martène names the king who asked for help as Leo (Mansi 25 line 109790); the note now says so, so the request is not read as Constantine's.",
+   "finding": "R1-18"
+  },
+  {
+   "id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+   "action": "rewrite",
+   "from": "franciscan-order-era-6",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "After Pope Clement V died, friars at Narbonne and Béziers left the order's unity and the obedience of their superiors. So says the order's own dossier on the case. Angelo Clareno, the Spirituals' historian, tells the other side. The friars of the order handed twenty-five of them to the inquisitor, and four were burned.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dossier of the Franciscan Community on the Narbonne and Béziers 'rebels', part IV ch. 1, ed. Franz Ehrle, 'Zur Vorgeschichte des Concils von Vienne', Archiv für Literatur- und Kirchengeschichte des Mittelalters III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1582-1583",
+     "locus": "ALKG III p. 36",
+     "quote": "ab ordinis unitate et suorum superiorum obedientia recesserunt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis Minorum, ed. Franz Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters II (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "7855-7858",
+     "locus": "ALKG II p. 146",
+     "quote": "illos autem XXV tradiderunt in manibus inquisitoris, ex quibus quatuor com- busti sunt pro eo, quod asserebant regulam s. Francisci esse idem, quod ewangelium Christi;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "fraticelli-spiritual-franciscan-rigorists relationsSummary ('Rupture inside the Franciscan family'); franciscan-order-era-6 relationsSummary ('the Spirituals crisis'; 'the Fraticelli ... its two named branches') and longDescription ('The Spirituals ... were ordered to conform; four were burned')",
+   "wants": [],
+   "drafter_flags": [
+    "Symmetric type: ids in alphabetical order (franciscan < fraticelli).",
+    "The order's side is a contents list of a Community dossier; Ehrle prints it from a manuscript. It says 'eodem summo pontifice ex hac vita vocato' (OCR 'voeato', not quoted), i.e. after Clement V's death; the year is not in the quote, so the note gives none.",
+    "Clareno names the agents only as 'fratres'; the note says 'the friars of the order', which his context (the order's prisons, 'iusticie ordinis') supports."
+   ],
+   "change_reason": "R1-19: first sentence (28 words) split.",
+   "finding": "R1-19"
+  },
+  {
+   "id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists--2",
+   "action": "rewrite",
+   "from": "franciscan-order-era-6",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The order's head, Michael of Cesena, sent two friars to Pope John XXII with five requests. The first asked that the fraticelli's way of life be wiped out. A cardinal wrote in 1335 that John had banned the sect at the friars' request.",
+   "outcome": "At the friars' own request, Pope John XXII banned the fraticelli and their way of life for good. Anyone who kept to it was cut off from the church.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt:1634-1637",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dossier of the Franciscan Community, part IV ch. 7, ed. Franz Ehrle, ALKG III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1619",
+     "locus": "ALKG III p. 37",
+     "quote": "missi a reverendo patre fratre Michaele generali ministro",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same dossier, part IV ch. 7",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1621-1622",
+     "locus": "ALKG III p. 37",
+     "quote": "ibi scriptas, in quarum prima petitur, quod status fratricellorum cassetur;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cardinal Gaucelinus, letter of 19 June 1335 (Paris, BN lat. 10981), quoted by Ehrle in his note, ALKG III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1634-1635",
+     "locus": "ALKG III p. 37 n. 1",
+     "quote": "Ad instantiam fratrum ordinis minorum fel. rec. Joannes papa XXII revocavit et perpetue prohibitioni subiecit sectam et statum Fratricellorum,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 longDescription ('The Spirituals, who wanted the Rule kept to the letter, were ordered to conform'); fraticelli-spiritual-franciscan-rigorists relationsSummary ('Rupture inside the Franciscan family')",
+   "wants": [],
+   "drafter_flags": [
+    "Separate from the broke-with link on the same pair: that one is the rupture both sides recorded; this one is the order's own petition against the fraticelli by name, with its own evidence.",
+    "Line 1620 of the first quote's span carries an OCR margin number; the quote is taken from text that avoids it. The cardinal's letter is a later witness (1335), quoted in a modern editor's note."
+   ],
+   "change_reason": "R1-19: outcome sentence (27 words) split. The excommunication is at the outcome locus (Ehrle 1636-1637, 'in ipsos excommunicationis sententiam promulgando').",
+   "finding": "R1-19"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--franciscan-order-era-6",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "franciscan-order-era-6",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In December 1322 Pope John XXII ruled that the goods given to the Friars Minor no longer belonged to the Roman church. In 1328 he ordered the arrest of the minister general, Michael of Cesena, and William of Ockham, who had fled his court. Days later he removed Michael from office.",
+   "outcome": "In 1322 Pope John XXII gave up the Roman church's claim to own the friars' goods, and let no one run them in its name.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt:38692-38696",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John XXII, Ad conditorem canonum (8 December 1322), editor's heading, Bullarium Franciscanum V, no. 486, ed. Eubel (1898)",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "38692-38694",
+     "locus": "no. 486",
+     "quote": "Declarat, bonorum in ordine Min. acquisitorum domi¬ nium non amplius ad ecclesiam Romanam, sed ad ordi¬ nem ipsum spectare,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, Ad conditorem canonum, text, Bullarium Franciscanum V, no. 486",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "40381-40385",
+     "locus": "no. 486",
+     "quote": "nullum ius seu dominium aliquod occasione ordinationis praedictae seu cuiuslibet alterius a quocumque praedecessorum nostrorum super hoc specialiter editae sanctae Romanae ecclesiae acqui¬ ratur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John XXII, letter of 28 May 1328, editor's calendar, Bullarium Franciscanum V, no. 711",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "3122-3124",
+     "locus": "no. 711 (calendar)",
+     "quote": "Michaelem de Caesena, Bonagratiam de Pergamo, Guilelmum de Occham ord. Min., a curia Romana fugitivos, capi iubet.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John XXII, letter of 6 June 1328, editor's calendar, Bullarium Franciscanum V, no. 714",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "3130",
+     "locus": "no. 714 (calendar)",
+     "quote": "Michaelem de Caesena privat ministeriatu generali ord. Min.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 longDescription and why ('in 1323 John XXII declared it heretical ... which put the order's own official self-understanding on the wrong side of the law'; 'Michael of Cesena fled the papal court with William of Ockham rather than accept it')",
+   "wants": [],
+   "drafter_flags": [
+    "The two 1328 items are Eubel's calendar entries for the papal letters, read in the same edition; the full text of no. 714 is at lines 54483 onward.",
+    "Cum inter nonnullos (1323, no. 518, line 41928) is the decree the movement text describes, but it names no order, so it is not used as evidence of an act against the order; it supports the prose fix ('to insist', for 'pertinaciter affirmare').",
+    "OCR keeps the line-end mark '¬' in two quotes exactly as printed."
+   ],
+   "change_reason": "R1-20: Eubel's heading (38692-38694) and calendar entries (3122-3124, 3130) are the editor's summaries, now kind secondary. The arrest and deposition of Michael of Cesena rest on them; the grade stands on the bull's text (40381-40385).",
+   "finding": "R1-20"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "rhineland-mysticism-and-the-friends-of-god",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1326 Meister Eckhart answered charges of heresy at Cologne. On 27 March 1329 Pope John XXII condemned twenty-eight of his articles in a bull, In agro dominico. Seventeen were called heresy. By then Eckhart was dead, and he had taken back any errors put before the pope.",
+   "outcome": "In 1329 Pope John XXII condemned twenty-eight articles from Eckhart's teaching, and any of his books that held them.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:15306-15311",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Meister Eckhart, Latin defence (Rechtfertigungsschrift), Cologne, 1326 (ed. Daniels, 1923)",
+     "file": "cic/texts/eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt",
+     "lines": "847",
+     "locus": "Rechtfertigungsschrift, opening",
+     "quote": "Ego irater Ekardus ordinis predicatorum prefatus respondeo:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (27 March 1329), heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 501",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15162",
+     "locus": "Denzinger, Errores Ekardi, heading",
+     "quote": "[Recensiti et damnati in Const. «In agro dominico», 27. Mart. 1329.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (1329), sentence, in Denzinger-Bannwart (1911), no. 529",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15306-15308",
+     "locus": "Denzinger 529",
+     "quote": "quindecim primos articulos et duos alios ul- timos tanquam haercticos, dictos vero alios undecim tanquam male sonantcs, temerarios, et suspectos de hacresi,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (1329), sentence, in Denzinger-Bannwart (1911), no. 529",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15309-15311",
+     "locus": "Denzinger 529",
+     "quote": "hbros quoshbet seu opuscula eiusdem Ekardi, prae- fatos articulos seu eorum aliquem continentes, damnamus et reprobamus expresse.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Clemens Bannwart, note to Denzinger, Enchiridion symbolorum (1911), on the Errores Ekardi",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15219-15220",
+     "locus": "editor's note",
+     "quote": "Errores suos ad Papam delatos iam ante sententiam datam revocavit.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "rhineland longDescription ('got him put on trial for heresy ... in 1329 a papal bull condemned twenty-eight propositions'); why ('tried for heresy and, after his death, condemned by papal bull'); legacy ('the church that condemned him')",
+   "wants": [
+    "The Cologne trial acts (Théry's edition, Archives d'histoire doctrinale 1926) and the full bull In agro dominico in a public-domain edition with English, to document the Cologne stage directly"
+   ],
+   "drafter_flags": [
+    "OCR errors kept as printed: 'irater' (frater), 'haercticos', 'sonantcs', 'hacresi', 'hbros quoshbet', and the line-break hyphens 'ul- timos', 'prae- fatos'.",
+    "Twenty-eight is fifteen plus two condemned as heretical and eleven as suspect (Denzinger 529); the note's 'seventeen of them as heretical' follows that count.",
+    "The Cologne proceedings were the archbishop's, not the pope's. The link joins them to the papal bull as one case of the Latin church; the reviewer may prefer the note to say so.",
+    "Denzinger's note gives Eckhart's death as 1327 (line 15220); the note does not give a year."
+   ],
+   "change_reason": "R1-20: Denzinger's heading (15162), which carries the date 27 March 1329, is editorial, now kind secondary. The grade stands on the bull's sentence (15306-15311).",
+   "finding": "R1-20"
+  },
+  {
+   "id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "action": "rewrite",
+   "from": "byzantine-church-palaiologan",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "At Florence in 1439 the Greek delegates signed one decree of union with the pope's council, written half in Latin and half in Greek. The pope asked whether Mark of Ephesus had signed. Told he had not, he said: 'Then we achieved nothing.'",
+   "outcome": "The council's decree let each church keep its own custom. Priests could use leavened or unleavened bread at the altar, as the East or the West did.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:14276-14278",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sylvester Syropoulos, memoir of the Council of Florence, Latin of Creyghton (The Hague, 1660)",
+     "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt",
+     "lines": "47634-47637",
+     "locus": "sect. 10, ch. 8 (the signing of the Definition)",
+     "quote": "Definitionem adpor- tavit Secundinus, fcriptum in membranse πος dietate primá Latiné, & in alter. medietate membranze ejufdem Grecé",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sylvester Syropoulos, memoir of the Council of Florence, Latin of Creyghton (1660)",
+     "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt",
+     "lines": "47968-47971",
+     "locus": "sect. 10 (the pope signs and asks after Mark of Ephesus)",
+     "quote": "num Ephefius Definitioni fubfcripfif- fet: cumque audiiffet Ephefium non fubfcrip- fiffe : Ergo, inquit, nibil preftitimus:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Eugene IV and the Council of Florence, bull Laetentur caeli (6 July 1439), in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 324",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "14255",
+     "locus": "no. 324, heading",
+     "quote": "Bulle  „Laetentur  coeW'  v.  6.  Juli  1439:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull Laetentur caeli (1439), in Mirbt, Quellen, 3rd ed. (1911), no. 324",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "14276-14278",
+     "locus": "no. 324, sect. 4 (the bread)",
+     "quote": "in  azymo  sive  fermentato  pane  triticeo  corpus  Christi  veraciter  confici;  sacerdotes- que  in  altero  ipsorum  domini  corpus  conficere  debere,  unumquemque  scihcet  iuxta  suae ecclesiae  sive  occidentahs  sive  orientahs  consuetudinem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leonard of Chios, letter to Nicholas V on the capture of Constantinople (1453), in Migne, PG 159 (1866)",
+     "file": "cic/texts/chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt",
+     "lines": "54517-54518",
+     "locus": "the union celebrated in the City, 12 December 1452",
+     "quote": "celebrareturque secundo idus Decembris, Spiridionis episcopi sancti die.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "byzantine-church-palaiologan relationsSummary ('signs Florence (1439)'), longDescription ('in 1439 signed a union with Rome at the Council of Florence ... Mark of Ephesus refused to sign'), why (the same) and legacy ('The union of Florence ...')",
+   "wants": [
+    "A clean Greek text of the Florentine Definition with its signatures (Mansi 31's Greek columns are garbled in the vendored OCR)",
+    "A source for the formal repudiation of Florence at Constantinople (the synod usually dated 1484)"
+   ],
+   "drafter_flags": [
+    "CROSS-GROUP: the papacy (latin-papal-church-avignon-to-lateran-v) is group C's movement. Group C may draft this pair from the Florence side; de-duplicate at merge.",
+    "Type: 'in contact with' (a named council and a decree both sides signed). The union was rejected at home and never took hold; an influence claim would need the Greek side to have kept Latin teaching, which the sources deny (Leonard, PG 159 lines 54757-54758: 'Celebrarunt unionem Greci voce, sed opere negabant.').",
+    "Outcome test: the decree is a settlement made by a council (basis c), and Leonard shows it was proclaimed in Constantinople in December 1452. It was repudiated later. The reviewer may judge whether a settlement that did not last meets the test.",
+    "OCR kept in Syropoulos: long s as f, 'membranse πος dietate' (membranae medietate), 'nibil preftitimus' (nihil praestitimus). Mirbt OCR: 'scihcet', 'occidentahs', 'orientahs'."
+   ],
+   "change_reason": "R1-20: Mirbt's heading (14255) is editorial, now kind secondary. The grade stands on Syropoulos and the bull's text.",
+   "finding": "R1-20"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "catholic-church-ancien-regime",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The French clergy appealed to the Council of Constance in their Articles, which Rome turned down in 1682. They held that its decrees on the power of general councils, made in its fourth and fifth sessions, still stand firm. A papal decree condemned the Articles in 1690.",
+   "outcome_considered": "The Articles take up Constance's decrees, which is a teaching taken up and does not count. The 1690 condemnation is Rome's act against the Articles, not a result of the influence.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Articles of the French clergy (Gallican Articles), art. 2, Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), no. 1323",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23508-23509",
+     "locus": "Dz 1323",
+     "quote": "simul valeant atque immota consistant sanctae oecumenicae Synodi CONSTANTIENSIS a Sede Apostolica comprobata",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same article",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23513",
+     "locus": "Dz 1323",
+     "quote": "quae sessione quarta et quinta continentur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Denzinger, heading to nos. 1322-1326",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23464-23466",
+     "locus": "Dz 1322-1326, heading",
+     "quote": "Articuli (erronei) cleri Gallicani (de potestate Pontificis) '^ [Damnati in Constit. «Inter muhiplices», 4. Aug, 1690.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Clemens Bannwart, footnote to the Gallican Articles, Denzinger, Enchiridion symbolorum (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23484",
+     "locus": "Denzinger, footnote 2 to the heading before no. 1322",
+     "quote": "Reiecti  ab  Innocentio  Al  per  htteras  in  forma  Brevis  11.  Apr.  1682,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "latin-papal-church-avignon-to-lateran-v legacy ('The conciliar claim ... resurfacing in Gallicanism')",
+   "wants": [],
+   "drafter_flags": [
+    "Gallicanism has no movement of its own; catholic-church-ancien-regime carries 'the Gallican Articles' in its text, so it is the party.",
+    "The 1682 date comes from Denzinger's footnote ('Reiecti ab Innocentio XI ... 11. Apr. 1682', line 23484), read but not quoted; the third quote keeps OCR 'muhiplices' and the stray '^'.",
+    "Revision R1-21: the footnote is at line 23484 (the review said 23483, where the footnote's first line stands). OCR 'Al' is XI, 'htteras' is litteras."
+   ],
+   "change_reason": "R1-20: Denzinger's heading (23464-23466), which carries the 1690 condemnation, is editorial, now kind secondary. R1-21: added Bannwart's footnote (line 23484), the source for 'which Rome turned down in 1682'.",
+   "finding": "R1-20, R1-21"
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "old": "The writings outlived their authors by way of a long silence. Margery Kempe's Book was known only from a few short printed extracts. Then, in 1934, the one surviving copy turned up in a family's private library. Julian's book lived on in just a handful of copies until Serenus Cressy printed it in 1670. Most people came to read it only in the twentieth century. Both are now among the most read of all medieval English religious books. Julian's cell was pulled down centuries ago. Its footings were found after bombing in the war, and the cell was built again. Once more it is a place people travel to pray in.",
+   "new": "The writings outlived their authors by way of a long silence. Margery Kempe's Book was known only from a few short printed extracts. Then, in 1934, the one surviving copy turned up in a family's private library. Julian's book lived on in just a handful of copies until Serenus Cressy printed it in 1670. Most people came to read it only in the twentieth century. Both are now among the most read of all medieval English religious books. Julian is remembered each May in the Church of England's calendar. Julian's cell was pulled down centuries ago. Its footings were found after bombing in the war, and the cell was built again. Once more it is a place people travel to pray in.",
+   "reason": "R1-05: restored a plain fact removed for want of a source. It is not a relationship claim and stays under the open item 'Well-known facts with no vendored source'.",
+   "finding": "R1-05",
+   "fre_after": 69.2,
+   "fk_after": 6.6
+  },
+  {
+   "n": 1,
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "old": "Along the Rhine a generation of Dominican preachers — Meister Eckhart, Johannes Tauler, Henry Suso — began preaching in German to convents of nuns and to devout lay people, and in doing so had to invent a vocabulary for the inner life that the language did not yet have. Eckhart pushed furthest, speaking of the ground of the soul and of a birth of God within it in terms that got him put on trial for heresy. He died before the case closed, and in 1329 a papal bull condemned twenty-eight propositions drawn from his work, which is how his memory reached everyone who came after. Around Strasbourg and Basel a mixed circle of clergy and laypeople who called themselves Gottesfreunde, the Friends of God, carried the same piety outside the cloister, and out of that milieu came the anonymous Theologia Deutsch. Much of what survives survives because women preserved it. Nuns took sermons down as they were delivered, convents compiled sister-books recording their own communities' lives, and Elsbeth Stagel worked with Suso on the book of his own life.",
+   "new": "Along the Rhine, a generation of Dominican preachers began to preach in German. Meister Eckhart, Johannes Tauler and Henry Suso spoke to convents of nuns and to devout lay people. To do it, they had to invent words for the inner life that German did not yet have. Eckhart pushed furthest. He spoke of the ground of the soul, and of a birth of God within it. His words got him put on trial for heresy. He died before the case closed. In 1329 a papal bull condemned twenty-eight articles drawn from his work, and that is how his memory reached everyone who came after. Around Strasbourg and Basel, a mixed circle of clergy and lay people called themselves Gottesfreunde, the Friends of God. They carried the same piety outside the cloister. Out of that circle came the Theologia Deutsch, a book whose author is unknown. Much of what survives does so because women kept it. Nuns took sermons down as they were preached. Convents wrote sister-books about the lives of their own communities. And Elsbeth Stagel worked with Suso on the book of his own life.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 73.1,
+   "fk_after": 6.2
+  },
+  {
+   "n": 2,
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "old": "Dominican preachers here had to invent a German vocabulary for the inner life the language did not yet have, and Meister Eckhart pushed it furthest, speaking of a 'birth of God' within the soul in terms that got him tried for heresy and, after his death, condemned by papal bull. Much of what survives does so because nuns wrote sermons down as they were preached and compiled their own convents' sister-books. Out of the same circle came the Theologia Deutsch, a book Martin Luther printed twice and said had taught him more about God than almost anything but the Bible and Augustine.",
+   "new": "Dominican preachers here had to invent a German vocabulary for the inner life, one the language did not yet have. Meister Eckhart pushed it furthest. He spoke of a 'birth of God' within the soul, in terms that got him tried for heresy. After his death a papal bull condemned his teaching. Much of what survives does so because nuns wrote sermons down as they were preached, and wrote their own convents' sister-books. Out of the same circle came the Theologia Deutsch. Martin Luther printed it twice. He said it had taught him more about God than almost anything but the Bible and Augustine.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 73.5,
+   "fk_after": 6.3
+  },
+  {
+   "n": 3,
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "old": "It began with Geert Grote, a wealthy and worldly Deventer scholar who gave up his career, opened his own house to a group of devout women, and started preaching repentance in the towns of the IJssel valley. After his death in 1384 his followers organized: Brothers and Sisters of the Common Life, living together and supporting themselves by copying manuscripts and other ordinary work, without vows and without leaving ordinary society, alongside a stricter branch of canons at Windesheim. What held them together was less a doctrine than a method — a plain, interior, methodical devotion, and the habit of keeping a rapiarium, a personal notebook of gathered passages to return to. One such gathering, worked up by Thomas à Kempis at a house near Zwolle, became the Imitation of Christ. The houses also took in schoolboys and shaped the Latin schools of towns like Deventer and Zwolle, which is how the movement's formation reached far more people than ever joined it.",
+   "new": "It began with Geert Grote, a wealthy and worldly scholar of Deventer. He gave up his career and opened his own house to a group of devout women. Then he began preaching repentance in the towns of the IJssel valley. After his death in 1384 his followers organized. The Brothers and Sisters of the Common Life lived together and paid their way by copying books and other ordinary work. They took no vows and did not leave ordinary society. Beside them stood a stricter branch, the canons of Windesheim. What held them together was less a doctrine than a method: a plain, inward and orderly devotion. Each of them kept a rapiarium, a personal notebook of gathered passages to return to. One such gathering, worked up by Thomas à Kempis at a house near Zwolle, became the Imitation of Christ. The houses also took in schoolboys and shaped the Latin schools of towns like Deventer and Zwolle. That is how the movement's way of shaping lives reached far more people than ever joined it.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 63.4,
+   "fk_after": 8.0
+  },
+  {
+   "n": 4,
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "relationsSummary",
+   "old": "Heir of the Athonite line. Parent of the Philokalia line of the 1700s, which the Optina elders took up in the 1800s.",
+   "new": "Heir of the Athonite line. Its writings fed the Philokalia of the 1700s, which the Optina elders took up in the 1800s.",
+   "reason": "R1-07: 'Parent' claimed descent; the link to the Philokalia is 'influenced' (texts gathered and translated).",
+   "finding": "R1-07",
+   "fre_after": 76.5,
+   "fk_after": 5.3
+  },
+  {
+   "n": 5,
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "longDescription",
+   "old": "On Mount Athos monks had long practiced hesychia, stillness. Sitting alone, controlling the breath, and repeating the Jesus Prayer until it continued of itself — and some of them reported seeing an uncreated light. When the Calabrian scholar Barlaam ridiculed the practice, Gregory Palamas, an Athonite monk who later became archbishop of Thessalonica, answered him in the Triads. God is unknowable in his essence and yet genuinely given in his energies, so what the praying monk meets is God himself and not some created substitute. The argument ran for two decades and was settled by councils at Constantinople in 1341, 1347 and 1351, which vindicated Palamas and made the hesychast position the standard of Orthodox theology. Beside it stands a very different voice. Nicholas Cabasilas, a layman of Thessalonica, who wrote The Life in Christ to show that the same life in God was given through the sacraments to people who would never enter a monastery.",
+   "new": "On Mount Athos monks had long practiced hesychia, or stillness. They sat alone, held the breath steady, and repeated the Jesus Prayer until it went on by itself. Some of them said they saw an uncreated light. The Calabrian scholar Barlaam mocked the practice. Gregory Palamas, an Athonite monk who later became archbishop of Thessalonica, answered him in the Triads. God cannot be known in his essence, he argued, and yet he is truly given in his energies. So what the praying monk meets is God himself, not some created stand-in. The argument ran for two decades. Councils at Constantinople in 1341, 1347 and 1351 settled it in Palamas's favor, and the hesychast view became the standard of Orthodox theology. Beside it stands a very different voice. Nicholas Cabasilas, a layman of Thessalonica, wrote The Life in Christ. He showed that the same life in God came through the sacraments to people who would never enter a monastery.",
+   "reason": "R1-06: two sentence fragments made whole sentences, and the field brought to the reading target. The review's text, used unchanged; no fact added or dropped.",
+   "finding": "R1-06",
+   "fre_after": 60.2,
+   "fk_after": 8.1
+  },
+  {
+   "n": 6,
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "why",
+   "old": "Monks on Mount Athos practiced hesychia, sitting in stillness and repeating the Jesus Prayer until some reported seeing an uncreated light. When the scholar Barlaam mocked the practice, Gregory Palamas defended it by arguing that God is unknowable in his essence yet truly given in his energies, a case that church councils upheld between 1341 and 1351. Alongside the monks, the layman Nicholas Cabasilas wrote The Life in Christ to show that the same life in God reached people who would never enter a monastery.",
+   "new": "Monks on Mount Athos practiced hesychia, or stillness. They sat in silence and repeated the Jesus Prayer, and some said they saw an uncreated light. The scholar Barlaam mocked the practice. Gregory Palamas defended it. God cannot be known in his essence, he argued, yet he is truly given in his energies. Church councils upheld his case between 1341 and 1351. Beside the monks, the layman Nicholas Cabasilas wrote The Life in Christ. He showed that the same life in God reached people who would never enter a monastery.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 65.5,
+   "fk_after": 6.8
+  },
+  {
+   "n": 7,
+   "movement": "lollardy",
+   "field": "relationsSummary",
+   "old": "Contested influence line to the English Reformation",
+   "new": "Later English Protestants claimed the Lollards as their own. How far the Lollards fed the English break with Rome is still argued.",
+   "reason": "R1-08: 'Contested influence line' was a label that read as a grade and contradicted the Documented link. The link stays Documented (Foxe and Tyndale name and use the Lollards' work); the open question of how far is stated as a sentence.",
+   "finding": "R1-08",
+   "fre_after": 76.5,
+   "fk_after": 5.3
+  },
+  {
+   "n": 8,
+   "movement": "lollardy",
+   "field": "longDescription",
+   "old": "Lollardy grew out of the teaching of the Oxford theologian John Wycliffe — who attacked church wealth and papal authority, denied transubstantiation, and argued that scripture should be available in English. But it quickly became something much wider than him. Its adherents were mostly ordinary people: weavers, smiths, tailors, wives and widows who owned or shared vernacular scripture, met in one another's houses to read it aloud, and doubted images, pilgrimage and the priest's power over the sacrament. The response was severe. Burning for heresy was made law in England in 1401, Archbishop Arundel's constitutions of 1409 forbade unlicensed translation of scripture into English, and Sir John Oldcastle's failed rising in 1414 made Lollardy treason as well as heresy. After that the movement went underground and survived as scattered household networks into the 1520s. Almost everything we know about those households comes from the records their prosecutors kept — because to convict someone you first had to write down what they said.",
+   "new": "Lollardy grew out of the teaching of John Wycliffe, an Oxford theologian. He attacked the church's wealth and the pope's authority. He denied transubstantiation, the belief that the bread and wine become Christ's body and blood. And he said the Bible should be open to all in English. But the movement soon became much wider than him. Most of its followers were ordinary people. They were weavers, smiths, tailors, wives and widows who owned or shared the Bible in English. They met in one another's houses to read it aloud. They doubted images, pilgrimage and the priest's power over the sacrament. The response was severe. In 1401 burning for heresy became law in England. In 1409 Archbishop Arundel's rules banned any English Bible made without a license. Sir John Oldcastle's failed rising in 1414 made Lollardy treason as well as heresy. After that the movement went underground. It lived on in scattered households, linked to each other, into the 1520s. Almost everything known about them comes from the records kept by those who tried them. To convict someone, you first had to write down what they said.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added. 'Transubstantiation' is glossed where it is first used.",
+   "finding": "R1-25",
+   "fre_after": 63.4,
+   "fk_after": 7.1
+  },
+  {
+   "n": 9,
+   "movement": "lollardy",
+   "field": "why",
+   "old": "Lollardy grew out of Oxford theologian John Wycliffe's attacks on church wealth and papal authority into a movement carried mainly by ordinary people: weavers, smiths, tailors, wives, and widows who met in each other's houses to read scripture aloud in English. England made burning for heresy the law in 1401 and drove the movement underground after a failed rising in 1414, yet the trial records built to convict Lollards ended up preserving some of the fullest surviving statements of what ordinary medieval believers actually thought. Around two hundred and fifty manuscripts of the Wycliffite Bible still survive, more than of any other Middle English text.",
+   "new": "Lollardy began with John Wycliffe, a scholar at Oxford. He attacked the wealth of the church and the power of the pope. His teaching grew into a movement carried mainly by ordinary people. Weavers, smiths, tailors, wives and widows met in each other's houses to read the Bible aloud in English. In 1401 England made burning the law for heresy. After a failed rising in 1414, the movement was driven underground. Yet the trial records made to convict them ended up keeping some of the fullest accounts of what ordinary believers of the time thought. Around two hundred and fifty handwritten copies of the Wycliffite Bible still survive. That is more than of any other Middle English text.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 61.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 10,
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "longDescription",
+   "old": "Jan Hus preached reform in Czech at Prague's Bethlehem Chapel for more than a decade before the Council of Constance burned him as a heretic in 1415. The shock turned a university movement into a national one. Its emblem was the chalice — the insistence that ordinary lay people, and not only priests, should receive the wine at communion. And its program was set out in the Four Articles of Prague in 1420. When crusades were called against Bohemia, the Hussite armies under Jan Žižka and then Prokop the Bald beat them one after another, and in 1436 the Compacts of Basel conceded what no other medieval dissent ever won: legal recognition. Out of that settlement two bodies grew. The Utraquist church held the parishes and, under George of Poděbrady, for a time the crown itself. And from 1457 the Unity of the Brethren, a smaller, stricter, pacifist body formed at Kunvald under the influence of the layman Petr Chelčický, which by 1501 had printed what is often called the first hymnbook in a European vernacular.",
+   "new": "Jan Hus preached reform in Czech at Prague's Bethlehem Chapel for more than ten years. Then in 1415 the Council of Constance burned him as a heretic. The shock turned a university movement into a national one. Its emblem was the chalice. It stood for the demand that ordinary lay people, and not only priests, should receive the wine at communion. Its program was set out in the Four Articles of Prague in 1420. Crusades were called against Bohemia, and the Hussite armies under Jan Žižka and then Prokop the Bald beat them one after another. In 1436 the Compacts of Basel granted what no other medieval dissent ever won: legal recognition. Two bodies grew out of that settlement. The Utraquist church held the parishes, and for a time, under George of Poděbrady, the crown itself. Then from 1457 came the Unity of the Brethren. It was a smaller, stricter, pacifist body, formed at Kunvald under the influence of the layman Petr Chelčický. By 1501 it had printed what is often called the first hymnbook in a European vernacular.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 64.4,
+   "fk_after": 7.7
+  },
+  {
+   "n": 11,
+   "movement": "the-hussite-and-bohemian-brethren-movement",
+   "field": "why",
+   "old": "Jan Hus preached reform in Czech for over a decade before being burned as a heretic in 1415, and the shock turned a university movement into a national one built around a single demand: that ordinary lay people, not only priests, should receive the wine at communion. Hussite armies beat back crusade after crusade, and in 1436 Bohemia won something no other medieval dissent ever had, legal recognition for its own church. A stricter, pacifist branch, the Unity of the Brethren, printed what is often called the first hymnbook in a European vernacular by 1501.",
+   "new": "Jan Hus preached reform in Czech for over ten years. Then in 1415 he was burned as a heretic. The shock turned a movement of the university into one of the whole nation. It was built around one demand: that ordinary lay people, not only priests, should receive the wine at communion. Hussite armies beat back crusade after crusade. In 1436 Bohemia won what no other medieval dissent ever had: legal recognition for its own church. A stricter branch, the Unity of the Brethren, was pacifist. By 1501 it had printed what is often called the first hymnbook in a European vernacular.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 61.0,
+   "fk_after": 7.8
+  },
+  {
+   "n": 12,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "relationsSummary",
+   "old": "A continuation of the earlier Aksumite and Zagwe Christian tradition, carried forward under the new Solomonic dynasty.",
+   "new": "This is the old Christian faith of Aksum and of the Zagwe kings. It was carried on under a new royal line, the Solomonic dynasty.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 79.1,
+   "fk_after": 5.3
+  },
+  {
+   "n": 13,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "old": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The court chronicle of the emperor Zara Yaqob says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "reason": "R1-05: restored the plain facts removed for want of a source: the Ewostathians persecuted for generations, and Zara Yaqob's concession at a council in 1450. They are not relationships between movements and stay under the open item 'Well-known facts with no vendored source'. The court chronicle's order is kept beside them.",
+   "finding": "R1-05",
+   "fre_after": 61.3,
+   "fk_after": 7.7
+  },
+  {
+   "n": 14,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "old": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The emperor Zara Yaqob, his court chronicle says, ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "reason": "R1-05: as the longDescription; the restored facts stay under the open item 'Well-known facts with no vendored source'.",
+   "finding": "R1-05",
+   "fre_after": 61.2,
+   "fk_after": 8.4
+  },
+  {
+   "n": 15,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "legacy",
+   "old": "This is a living church. The Ethiopian Orthodox Tewahedo Church still keeps the outcome of the Sabbath argument, still sings the Marian hymnody Zara Yaqob's reign promoted, still worships in Ge'ez, and still traces its great monastic houses to the founders of these centuries. The manuscripts of the period — illuminated gospels, gadl lives of the saints, hymn collections — form one of the largest bodies of medieval Christian literature produced outside Europe. The tradition carried on through the wars and upheavals of the century that followed into the church of tens of millions of members it is today.",
+   "new": "This is a living church. The Ethiopian Orthodox Tewahedo Church still keeps the outcome of the Sabbath argument. It still sings the hymns to Mary that Zara Yaqob's reign promoted, and it still worships in Ge'ez. Its great monasteries still trace themselves to the founders of these centuries. The manuscripts of the period include painted gospel books, gadl lives of the saints, and collections of hymns. Together they form one of the largest bodies of medieval Christian writing made outside Europe. The tradition came through the wars and upheavals of the next century. It lives on in today's church of tens of millions of members.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 64.6,
+   "fk_after": 7.5
+  },
+  {
+   "n": 16,
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "old": "Child of the Kievan and hesychast lines. Its way of prayer came back in the nineteenth-century elders of Optina. The Old Believers' schism may also have roots in its church, though only one modern history draws that line.",
+   "new": "Child of the Kievan and hesychast lines. Its way of prayer came back in the nineteenth-century elders of Optina. The Old Believers' schism may also have roots in its church. A 1921 history of the Russian dissenters traces it there.",
+   "reason": "R1-14: 'only one modern history draws that line' was a claim about the whole field that is not true of it; the sentence now names the one reading the Inferential-Thin link rests on (Conybeare 1921).",
+   "finding": "R1-14",
+   "fre_after": 69.8,
+   "fk_after": 6.0
+  },
+  {
+   "n": 17,
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "old": "Almost everything that follows in Russian Christianity runs back through here. Sergius's foundation is still a working lavra and a spiritual center of the Russian Orthodox Church; the hesychast prayer this generation received from the Greeks resurfaced in the elder movement of the nineteenth century. And the argument between possessors and non-possessors about monastic wealth has been re-fought in Russian religious writing ever since. Rublev's Trinity became the most famous icon ever painted.",
+   "new": "Almost everything that follows in Russian Christianity runs back through here. Sergius's monastery is still at work. It is a lavra, a great monastery, and a spiritual heart of the Russian church. This generation took hesychast prayer from the Greeks. That prayer came back in the elders of the nineteenth century. The quarrel between possessors and non-possessors over the wealth of monks has been fought again in Russian writing on faith ever since. Rublev's Trinity became the most famous icon ever painted.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.3,
+   "fk_after": 7.8
+  },
+  {
+   "n": 18,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "old": "The Observance began as an argument inside the religious orders: that the Rule should be kept as it was written, not as generations of dispensation had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368, and spread across the Franciscans, Dominicans, Augustinians and Benedictines alike, until reformed houses formed rival provinces alongside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the piazza for sermon cycles that ran for weeks. The forty-five sermons he preached at Siena in 1427 were taken down as he spoke by a listener in the crowd, asides and audience reactions included, which is about as close as anyone gets to hearing a medieval sermon rather than reading one. John of Capistrano did the same across central Europe. The movement's darker side belongs in the same account: Capistrano's preaching also drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "new": "The Observance began as an argument inside the religious orders. Its friars said the Rule should be kept as it was written. It should not be kept as years of exceptions had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. In the end, reformed houses formed rival provinces beside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the square to hear him for weeks on end. In 1427 he preached forty-five sermons at Siena. A listener in the crowd took them down as he spoke, with his asides and the crowd's reactions. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. John of Capistrano did the same across central Europe. The movement's dark side belongs in the same story. Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added. The Capistrano and Breslau sentence is kept as written (R1-24).",
+   "finding": "R1-25",
+   "fre_after": 62.0,
+   "fk_after": 7.4
+  },
+  {
+   "n": 19,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "old": "The Observance began small, with Paoluccio Trinci's handful of friars keeping the Rule strictly at Brugliano in 1368, before spreading across the Franciscans, Dominicans, Augustinians, and Benedictines alike. Its public face was mass preaching: the forty-five sermons Bernardino of Siena gave in 1427 were taken down live by a listener in the crowd, asides and all, about as close as anyone gets to hearing rather than reading a medieval sermon. Its legacy is mixed: it left behind the low-interest pawn-banks called monti di pietà, still trading today, but John of Capistrano's preaching also drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "new": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added. The Capistrano and Breslau sentence is kept (R1-24).",
+   "finding": "R1-25",
+   "fre_after": 63.4,
+   "fk_after": 7.3
+  },
+  {
+   "n": 20,
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "relationsSummary",
+   "old": "This is the religion of the ordinary laity — the everyday practice every other tradition on this map reaches only at its edges. Something like it was built again a generation later in the intensely parish-centered Catholicism of Carlo Borromeo's Milan.",
+   "new": "This is the faith of ordinary lay people, lived day by day. Most other traditions touch it only at the edges. A generation later, something like it was built again in Milan, in the parish life led by Carlo Borromeo.",
+   "reason": "R1-11: map talk ('every other tradition on this map') removed. The review's text scored 58.4; the last clause is reordered to reach the target.",
+   "finding": "R1-11",
+   "fre_after": 62.2,
+   "fk_after": 7.9
+  },
+  {
+   "n": 21,
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "longDescription",
+   "old": "For most people in late-medieval England, Christianity was the parish. The mass seen from the nave, the yearly round of feasts and processions, the guild you joined, the light you paid to keep burning before an image, the church ale that funded the roof. It was not passive. Churchwardens — ordinary laymen, elected and accountable to their neighbors. Collected and spent the money, and their accounts show parishes rebuilding naves, raising towers, buying vestments and hiring carvers on their own initiative. Books of hours, soon printed by the thousand, put the same daily prayers into the hands of any household that could afford them, and sermon collections like John Mirk's Festial tell us roughly what the pew was hearing. Almost none of these people wrote about what they believed. What survives instead is the record of what they did with their money and their time — a different kind of evidence, and in some ways a more candid one.",
+   "new": "For most people in late-medieval England, Christianity was the parish. It meant the mass seen from the nave, the yearly round of feasts and processions, and the guild you joined. It meant the light you paid to keep burning before an image, and the church ale that funded the roof. It was not passive. Churchwardens were ordinary laymen, elected and accountable to their neighbors. They collected and spent the money. Their accounts show parishes rebuilding naves, raising towers, buying vestments and hiring carvers on their own initiative. Books of hours, soon printed by the thousand, put the same daily prayers into the hands of any household that could afford them. Sermon collections like John Mirk's Festial show roughly what people in the pews were hearing. Almost none of these people wrote about what they believed. What survives instead is the record of what they did with their money and their time. It is a different kind of evidence, and in some ways a more honest one.",
+   "reason": "R1-13: two sentence fragments made whole sentences ('The mass seen from the nave...'; 'Churchwardens — ordinary laymen... Collected and spent'). The rest split for reading level (R1-25); no fact added.",
+   "finding": "R1-13",
+   "fre_after": 69.1,
+   "fk_after": 7.1
+  },
+  {
+   "n": 22,
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "why",
+   "old": "For most people in late-medieval England, Christianity was the parish: the mass seen from the nave, the guild joined, the light paid for before an image, the church ale that funded the roof. Ordinary laymen elected as churchwardens managed the money and, on their own initiative, rebuilt naves, raised towers, and hired carvers, while cheap printed books of hours put the same daily prayers into any household that could afford them. Almost none of these people wrote about what they believed; what survives instead is the record of what they did with their money and their time.",
+   "new": "For most people in late-medieval England, Christianity was the parish. It was the mass seen from the nave and the guild joined. It was the light paid for before an image, and the church ale that funded the roof. Ordinary laymen elected as churchwardens managed the money. On their own initiative they rebuilt naves, raised towers and hired carvers. Cheap printed books of hours put the same daily prayers into any household that could afford them. Almost none of these people wrote about what they believed. What survives instead is the record of what they did with their money and their time.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 68.1,
+   "fk_after": 7.0
+  },
+  {
+   "n": 23,
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "legacy",
+   "old": "Much of it is still standing. The great parish churches of East Anglia, the Cotswolds and the West Country were built or rebuilt in these decades out of ordinary parishioners' giving, and their towers, painted screens and carved roofs are the largest surviving artifact of late-medieval lay religion anywhere. Most of the rest was deliberately taken apart. The English Reformation abolished the guilds and chantries, whitewashed the paintings and broke up the images, so that what we know of the practice comes largely from accounts that record first its purchase and then its destruction. Something like it was built again elsewhere: the intensely parish-centered Catholicism of Carlo Borromeo's Milan, a generation later, ran on the same instincts under very different rules.",
+   "new": "Much of it is still standing. In these decades the great parish churches of East Anglia, the Cotswolds and the West Country were built or rebuilt. Ordinary people paid for them. Their towers, painted screens and carved roofs are the largest things left anywhere of lay religion in the late Middle Ages. Most of the rest was taken apart on purpose. The English Reformation abolished the guilds and chantries. It whitewashed the paintings and broke up the images. So much of what is known of the old practice comes from accounts. They record first what was bought, and then how it was destroyed. Something like it was built again elsewhere. A generation later, the parish-centered faith of Carlo Borromeo's Milan ran on the same instincts under very different rules.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 66.6,
+   "fk_after": 6.9
+  },
+  {
+   "n": 24,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "relationsSummary",
+   "old": "-",
+   "new": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421. In 1367 a papal judge of heresy put the Council of Vienne's list of errors to a man he questioned.",
+   "reason": "R1-12: the field was '-' though two links touch the movement. Written from the two links. The review's 'to the men they questioned' is narrowed to the one man the 1367 record shows.",
+   "finding": "R1-12",
+   "fre_after": 67.8,
+   "fk_after": 6.8
+  },
+  {
+   "n": 25,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "old": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. The Bohemian Adamites of 1421 — described as a naked, communal, apocalyptic band on an island in southern Bohemia — appear in the chronicles of people who despised them and in the account of a later outside observer, and the Taborites destroyed them, so no voice from inside survives at all. The wider 'heresy of the Free Spirit' works much the same way. A list of errors condemned at the Council of Vienne circulated among inquisitors as a template, and much of what later depositions 'found' matches that template closely enough that historians since Robert Lerner's work in 1972 have concluded a good deal of it was produced by the questioning rather than discovered by it. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided, extracted under coercion, and shaped in advance by the questions.",
+   "new": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. Take the Bohemian Adamites of 1421. They are described as a naked band on an island in southern Bohemia, who shared everything and waited for the end of the world. They appear in the chronicles of people who despised them, and in the account of a later outside observer. The Taborites destroyed them, so no voice from inside survives at all. The wider 'heresy of the Free Spirit' works in much the same way. A list of errors condemned at the Council of Vienne passed among inquisitors as a template. Much of what later questioning 'found' matches that template closely. Since Robert Lerner's work in 1972, historians have concluded that a good deal of it was made by the questioning rather than found by it. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided. It was forced out of people, and shaped in advance by the questions.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 66.4,
+   "fk_after": 7.7
+  },
+  {
+   "n": 26,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "why",
+   "old": "The Bohemian Adamites of 1421, described in hostile chronicles as a naked, communal, apocalyptic band on an island, and wiped out by the Taborites, left no voice of their own behind. The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne that circulated among inquisitors as a template, and historians since Robert Lerner's 1972 study have concluded that much of what later depositions 'found' was produced by that template rather than discovered by it. Some of these people were certainly real; what they are recorded as believing may say more about their interrogators than about them.",
+   "new": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne. That list passed among inquisitors as a template. Since Robert Lerner's study of 1972, historians have concluded that the template made much of what later questioning 'found'. Some of these people were certainly real. What they are recorded as believing may say more about their questioners than about them.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.6,
+   "fk_after": 8.1
+  },
+  {
+   "n": 27,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "legacy",
+   "old": "Nothing institutional survives, and in some cases there may have been nothing to survive: several of these 'sects' may never have existed in the form the records describe. What they left instead is a caution that historians now take seriously. That a confident, detailed list of what a group believed can be an artifact of the procedure that produced it rather than a description of anybody's faith.",
+   "new": "Nothing institutional survives. In some cases there may have been nothing to survive, since several of these 'sects' may never have existed in the form the records describe. What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith.",
+   "reason": "R1-13: the sentence fragment 'That a confident, detailed list...' made a whole sentence (the review's wording); the field brought to the reading target.",
+   "finding": "R1-13",
+   "fre_after": 65.6,
+   "fk_after": 8.0
+  },
+  {
+   "n": 28,
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "old": "In 1309 Clement V settled the papal court at Avignon, and for nearly seventy years the popes governed the Latin church from the Rhône rather than the Tiber, building the largest Gothic palace in Europe and an administration to match. The return to Rome in 1377 produced something worse. A disputed election the following year left two popes, an attempt to fix it in 1409 left three, and the schism divided every kingdom, university and religious order in the West for a generation. It was ended not by a pope but by a council. Constance, which removed the rival claimants, elected Martin V in 1417, and declared that a general council holds its authority immediately from Christ. The decades after that were a contest over whether that was true, settled in the papacy's favor by the 1440s. The popes who followed rebuilt Rome, founded the Vatican Library, commissioned the Sistine Chapel and began the new St Peter's. The Fifth Lateran Council, which decreed a program of reform that changed very little, closed on 16 March 1517 — seven months before Luther's theses.",
+   "new": "In 1309 Clement V settled the papal court at Avignon. For nearly seventy years the popes governed the Latin church from the Rhône rather than the Tiber. They built the largest Gothic palace in Europe, and an administration to match. The return to Rome in 1377 led to something worse. A disputed election the next year left two popes. An attempt to fix it in 1409 left three. For a generation the schism divided every kingdom, university and religious order in the West. It was ended not by a pope but by a council. The Council of Constance removed the rival claimants and elected Martin V in 1417. It also declared that a general council holds its authority directly from Christ. The decades after that were a contest over whether this was true. By the 1440s it was settled in the papacy's favor. The popes who followed rebuilt Rome. They founded the Vatican Library, commissioned the Sistine Chapel and began the new St Peter's. The Fifth Lateran Council decreed a program of reform that changed very little. It closed on 16 March 1517, seven months before Luther's theses.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.7,
+   "fk_after": 7.6
+  },
+  {
+   "n": 29,
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "why",
+   "old": "In 1309 the popes moved their court to Avignon for nearly seventy years, and when they finally returned to Rome a disputed election left the Latin church with two rival popes, then three. The schism was ended not by a pope but by the Council of Constance, which deposed the rivals, elected Martin V in 1417, and declared that a general council holds its authority directly from Christ, a claim the papacy spent the next generation working to defeat. The Renaissance popes who followed rebuilt Rome around the Vatican Library, the Sistine Chapel, and the new St Peter's, and the Fifth Lateran Council closed its own reform program, having changed very little, just seven months before Luther posted his theses.",
+   "new": "In 1309 the popes moved their court to Avignon, and they stayed for nearly seventy years. When they finally went back to Rome, a disputed election left the Latin church with two rival popes. Then it had three. The split was ended not by a pope but by the Council of Constance. The council deposed the rivals and elected Martin V in 1417. It also declared that a general council holds its authority directly from Christ. The papacy spent the next generation working to defeat that claim. The Renaissance popes who followed rebuilt Rome around the Vatican Library, the Sistine Chapel and the new St Peter's. The Fifth Lateran Council closed its own plan of reform, having changed very little. That was just seven months before Luther posted his theses.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 61.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 30,
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "old": "In its last century and a half the Byzantine church governed the shrinking remnant of an empire and still did some of its most consequential work. Synods at Constantinople in 1341, 1347 and 1351 ruled in favor of the hesychast monks and made Gregory Palamas's theology the standard of Orthodoxy. Then came the harder question. With the Ottomans closing in, the emperor and the patriarch went to Italy and in 1439 signed a union with Rome at the Council of Florence, in exchange for military help that never adequately came. Mark of Ephesus refused to sign. At home the union was rejected by monks, by much of the clergy and by the city, and when it was finally proclaimed in Hagia Sophia in December 1452 it was met with open hostility. Five months later, on 29 May 1453, Constantinople fell. The same era produced the Palaiologan revival in art — the mosaics of the Chora church, the painted churches of Mystras. Some of the finest work Byzantium ever did, made while the state around it was collapsing.",
+   "new": "In its last century and a half, the Byzantine church governed the shrinking remnant of an empire. Even so, it did some of its most lasting work. Synods at Constantinople in 1341, 1347 and 1351 ruled for the hesychast monks. They made Gregory Palamas's theology the standard of Orthodoxy. Then came the harder question. The Ottomans were closing in. The emperor and the patriarch went to Italy, and in 1439 they signed a union with Rome at the Council of Florence. They did it in exchange for military help, which never came in enough strength. Mark of Ephesus refused to sign. At home the union was rejected by monks, by much of the clergy and by the city. When it was at last proclaimed in Hagia Sophia in December 1452, it met open hostility. Five months later, on 29 May 1453, Constantinople fell. The same era produced the Palaiologan revival in art: the mosaics of the Chora church and the painted churches of Mystras. They are some of the finest work Byzantium ever did, made while the state around it was collapsing.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added. The closing fragment ('Some of the finest work...') is made a whole sentence.",
+   "finding": "R1-25",
+   "fre_after": 64.1,
+   "fk_after": 7.4
+  },
+  {
+   "n": 31,
+   "movement": "byzantine-church-palaiologan",
+   "field": "why",
+   "old": "With the Ottomans closing in, the Byzantine emperor and patriarch signed a union with Rome at the Council of Florence in 1439 in exchange for military help that never adequately came; Mark of Ephesus alone among the Greek bishops present refused to sign, and the union was rejected at home by monks, clergy, and the city itself. Constantinople fell five months after the union was finally proclaimed in Hagia Sophia, on 29 May 1453. The same dying empire produced some of Byzantium's finest art, the mosaics of the Chora church and the painted churches of Mystras among them.",
+   "new": "With the Ottomans closing in, the Byzantine emperor and patriarch signed a union with Rome at the Council of Florence in 1439. They did it in exchange for military help, which never came in enough strength. Mark of Ephesus alone among the Greek bishops present refused to sign. At home the union was rejected by monks, clergy and the city itself. It was finally proclaimed in Hagia Sophia, and five months later, on 29 May 1453, Constantinople fell. The same dying empire produced some of Byzantium's finest art. Among it are the mosaics of the Chora church and the painted churches of Mystras.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 61.2,
+   "fk_after": 8.3
+  },
+  {
+   "n": 32,
+   "movement": "waldensians-in-the-alps",
+   "field": "relationsSummary",
+   "old": "The scattered communities that the barbes — traveling lay preachers — connected on foot; survived Pope Innocent VIII's 1487 crusade bull and the Cattaneo crusade that followed it. This thread leads into the 1532 Synod of Chanforan, where the Waldensians formally united with the Reformation.",
+   "new": "These were scattered communities. The barbes, lay preachers who went on foot, linked them together. They lived through Pope Innocent VIII's call to crusade in 1487, and the Cattaneo crusade that came after it. This thread leads to the Synod of Chanforan in 1532. There the Waldensians formally joined the Reformation.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 62.2,
+   "fk_after": 7.0
+  },
+  {
+   "n": 33,
+   "movement": "waldensians-in-the-alps",
+   "field": "longDescription",
+   "old": "A century and more after being condemned, the Waldensians had become something no medieval dissent was supposed to be: a durable, organized, underground church. Its members lived openly as ordinary Catholic parishioners and privately as something else, in the high valleys of the Cottian Alps between Piedmont and Dauphiné, and in scattered communities in Provence, in Calabria and Apulia, in Germany and Bohemia. What held it together were the barbes — 'uncles'. Itinerant preachers who traveled in pairs, memorized large amounts of scripture in the vernacular, carried small hand-copied books, and worked a circuit of the households. Their existence was known and repeatedly attacked; in 1487 Innocent VIII proclaimed a crusade against them, and the campaign that followed tore through valleys on both sides of the Alps. They survived it.",
+   "new": "A century and more after they were condemned, the Waldensians had become something no medieval dissent was supposed to be. They were a lasting, organized church, kept out of sight. In public its members lived as ordinary Catholics of their parish. In private they were something else. They lived in the high valleys of the Cottian Alps, between Piedmont and Dauphiné. There were scattered groups too in Provence, in Calabria and Apulia, and in Germany and Bohemia. What held the church together were the barbes, the 'uncles'. These were preachers who went from place to place in pairs. They knew long parts of the Bible by heart in their own tongue. They carried small books copied by hand, and they made a round of the households. People knew they existed, and they were attacked again and again. In 1487 Innocent VIII called a crusade against them. The campaign that followed tore through valleys on both sides of the Alps. They survived it.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added. The fragment 'Itinerant preachers who...' is made a whole sentence.",
+   "finding": "R1-25",
+   "fre_after": 70.1,
+   "fk_after": 6.3
+  },
+  {
+   "n": 34,
+   "movement": "waldensians-in-the-alps",
+   "field": "why",
+   "old": "A century after being condemned, the Waldensians had become something no medieval dissenting movement was supposed to be: a durable, organized underground church, its members living openly as Catholic parishioners and privately as something else. It was held together by the barbes, itinerant preachers who traveled in pairs, memorized scripture in the vernacular, and carried small hand-copied books on a circuit of scattered households across the Alps. They survived a crusade Pope Innocent VIII called against them in 1487, and in 1532 joined the Protestant Reformation outright.",
+   "new": "A century after they were condemned, the Waldensians had become something no medieval dissent was supposed to be. They were a lasting, organized church, kept out of sight. In public its members lived as Catholics of their parish, and in private as something else. The barbes held it together. They were preachers who went from place to place in pairs. They knew the Bible by heart in their own tongue. They carried small books copied by hand on a round of scattered households across the Alps. They survived a crusade Pope Innocent VIII called against them in 1487. In 1532 they joined the Protestant Reformation outright.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 66.6,
+   "fk_after": 6.8
+  },
+  {
+   "n": 35,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "teaser",
+   "old": "From Mesopotamia to the Kurdish mountains, 1317 to 1517 — the collapse of the most widely spread church in the medieval world into a handful of highland valleys.",
+   "new": "From Mesopotamia to the Kurdish mountains, 1317 to 1517. The most widely spread church of the Middle Ages shrinks to a remnant on the upper Tigris and in the highland valleys.",
+   "reason": "R1-23: 'into a handful of highland valleys' overstated: the patriarchs of the late 1400s lived at Gazarta and Mosul on the upper Tigris (Mingana 1799-1802, 1866-1867), as the corrected fields say. The name is not changed (a question for Mark).",
+   "finding": "R1-23",
+   "fre_after": 63.8,
+   "fk_after": 8.0
+  },
+  {
+   "n": 36,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "relationsSummary",
+   "old": "Patriarch Yahballaha III died in 1317 as anti-Christian persecution closed in, and Timur's campaigns between the 1380s and 1405 destroyed the church's lowland dioceses. Survivors held out in the Hakkari mountains — along with the community in India, the one province Timur's armies never reached. In 1552 the church split when part of it entered communion with Rome.",
+   "new": "The patriarch Yahballaha III died in 1317, as persecution of Christians closed in. Timur's campaigns, from the 1380s to 1405, destroyed the church's lowland dioceses. Survivors held out in the Hakkari mountains. So did the community in India, the one province Timur's armies never reached. In 1552 the church split, when part of it entered communion with Rome.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.3,
+   "fk_after": 7.6
+  },
+  {
+   "n": 37,
+   "movement": "terminal-christian-nubia",
+   "field": "relationsSummary",
+   "old": "The Nubian story's actual end: Dongola's throne hall becomes a mosque (1317), Makuria fragments, the successor kingdom of Dotawo persists to King Joel (documented 1484), then the record falls silent (a possible Queen Gaua c. 1520s carried as live-scholarship nuance)",
+   "new": "The end of Christian Nubia. In 1317 Dongola's throne hall became a mosque, and the kingdom of Makuria broke apart. The smaller kingdom of Dotawo lasted until King Joel, named in a document of 1484. Then the written record falls silent. A queen named Gaua may have ruled there in the 1520s, but this is uncertain.",
+   "reason": "R1-09: build narration ('carried as live-scholarship nuance') removed and the label made sentences. The review's text, with the queen's name kept so no claim is dropped.",
+   "finding": "R1-09",
+   "fre_after": 72.1,
+   "fk_after": 5.9
+  },
+  {
+   "n": 38,
+   "movement": "terminal-christian-nubia",
+   "field": "longDescription",
+   "old": "Christian Nubia had been a going concern since the sixth century: kingdoms with cathedrals and bishops, a literature in Old Nubian, Greek and Coptic, and treaties that kept Muslim Egypt at a distance. Its ending took four centuries and left an unusually physical record. In 1317 the throne hall of the royal palace at Dongola was converted into a mosque, and the stone that records it is still legible. Makuria fragmented after that, and a smaller successor kingdom, Dotawo, persisted downstream around Gebel Adda and Qasr Ibrim, still issuing documents in Old Nubian, still with a king and a bishop. The last of them anyone can name is King Joel, documented in 1484. After that the record simply stops — no conquest, no massacre, no final synod; just documents that cease, and a population that over the following generations became Muslim.",
+   "new": "Christian Nubia had been a going concern since the sixth century. It had kingdoms with cathedrals and bishops, and a literature in Old Nubian, Greek and Coptic. Its treaties kept Muslim Egypt at a distance. Its ending took four centuries and left an unusually physical record. In 1317 the throne hall of the royal palace at Dongola was turned into a mosque. The stone that records it can still be read. After that Makuria broke apart. A smaller kingdom that followed it, Dotawo, held on downstream around Gebel Adda and Qasr Ibrim. It still issued documents in Old Nubian, and it still had a king and a bishop. The last of its kings anyone can name is King Joel, recorded in 1484. After that the record simply stops. There was no conquest, no massacre and no final synod. The documents just cease, and over the following generations the people became Muslim.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 68.6,
+   "fk_after": 6.5
+  },
+  {
+   "n": 39,
+   "movement": "terminal-christian-nubia",
+   "field": "why",
+   "old": "Christian Nubia had held the Nile above Egypt since the sixth century, with cathedrals, bishops, and a literature written in Old Nubian, Greek, and Coptic. Its ending took four centuries: the throne hall of the royal palace at Dongola was converted into a mosque in 1317, the kingdom of Makuria fragmented, and a smaller successor kingdom, Dotawo, held on downstream, still issuing documents in Old Nubian under its own king and bishop. The last ruler anyone can name, King Joel, is documented in 1484, and after that the record simply falls silent, no conquest, no massacre, just a population that gradually became Muslim.",
+   "new": "Christian Nubia had held the Nile above Egypt since the sixth century. It had cathedrals, bishops, and a literature written in Old Nubian, Greek and Coptic. Its ending took four centuries. In 1317 the throne hall of the royal palace at Dongola was turned into a mosque, and the kingdom of Makuria broke apart. A smaller kingdom that followed it, Dotawo, held on downstream. It still issued documents in Old Nubian under its own king and bishop. The last ruler anyone can name, King Joel, is recorded in 1484. After that the record simply falls silent. There was no conquest and no massacre, just a people who slowly became Muslim.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 67.0,
+   "fk_after": 6.9
+  },
+  {
+   "n": 40,
+   "movement": "terminal-christian-nubia",
+   "field": "legacy",
+   "old": "No church continued and no community carried the tradition forward. What survived is material, and was very nearly lost as well. When the Aswan High Dam was built in the 1960s an international rescue campaign lifted the wall paintings out of the cathedral at Faras before the reservoir covered it, and exceptionally dry conditions at Qasr Ibrim preserved a large archive of Old Nubian, Greek, Coptic and Arabic documents. Because of that salvage, a Christian civilization that left no descendants is better documented now than it was a century ago, and its painting can be seen in museums in Warsaw and Khartoum.",
+   "new": "No church continued, and no community carried the tradition forward. What survived is material, and it was very nearly lost as well. In the 1960s the Aswan High Dam was built. Before its lake covered the cathedral at Faras, an international rescue campaign lifted out the wall paintings. At Qasr Ibrim, very dry conditions kept a large archive of documents in Old Nubian, Greek, Coptic and Arabic. Because of that rescue, a Christian civilization that left no descendants is better known now than it was a century ago. Its paintings can be seen in museums in Warsaw and Khartoum.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.0,
+   "fk_after": 8.4
+  },
+  {
+   "n": 41,
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "old": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "new": "The Franciscan order from 1300 to its division in 1517. The Spirituals were crushed, and four were burned at Marseille in 1318. Conventuals and Observants then pulled apart, until Pope Leo X split the order in two on 29 May 1517. The fraticelli broke away from it, and the Observants grew up inside it.",
+   "reason": "R1-10: cataloguing language ('the period between the earlier Franciscan movement (ending 1300)', 'its two named branches') replaced by sentences. The review's text; each clause matches a link (broke with the fraticelli, gave rise to the Observants).",
+   "finding": "R1-10",
+   "fre_after": 64.9,
+   "fk_after": 7.2
+  },
+  {
+   "n": 42,
+   "movement": "the-bosnian-church",
+   "field": "relationsSummary",
+   "old": "The autonomous church of medieval Bosnia, condemned by Rome as heretical but defended by its own kings. It ended with the Ottoman conquest: Bosnia fell in 1463, and Gost Radin's testament of 1466 is its last substantial surviving document. The old identification of the church with Bogomil dualism is rejected by most current scholarship.",
+   "new": "This was the independent church of medieval Bosnia. Rome condemned it as heretical, but its own kings defended it. It ended with the Ottoman conquest. Bosnia fell in 1463, and Gost Radin's will of 1466 is its last major surviving document. Most scholars today reject the old view that the church held the dualist faith of the Bogomils.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 65.5,
+   "fk_after": 6.9
+  },
+  {
+   "n": 43,
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "old": "Between Catholic Hungary and Orthodox Serbia, medieval Bosnia had a church of its own. Its members called themselves krstjani, Christians. It used a Slavonic liturgy, and it had its own hierarchy headed by a djed, a 'grandfather', with gosts and starci under him and communities called hiže, houses, scattered through the countryside. Rome repeatedly condemned it as heretical and periodically sent friars against it, while Bosnia's own rulers protected and made use of it. What its members actually believed remains genuinely disputed. The long-standing identification of them with Bogomil dualism has been rejected by most historians since the 1970s, and the one substantial document written from inside — the will of Gost Radin, made in 1466 — reads like conventional Christianity, with a cross drawn down its margin. Bosnia fell to the Ottomans in 1463, and the church did not outlast the kingdom.",
+   "new": "Between Catholic Hungary and Orthodox Serbia, medieval Bosnia had a church of its own. Its members called themselves krstjani, Christians. It used a Slavonic liturgy and had its own leaders. At the head was a djed, a 'grandfather', with gosts and starci under him. Its communities, called hiže, or houses, were scattered through the countryside. Rome condemned it as heretical again and again, and from time to time sent friars against it. Bosnia's own rulers protected it and made use of it. What its members actually believed is still in real dispute. Since the 1970s most historians have rejected the long-held view that they were Bogomil dualists. The one major document written from inside is the will of Gost Radin, made in 1466. It reads like ordinary Christianity, with a cross drawn down its margin. Bosnia fell to the Ottomans in 1463, and the church did not outlast the kingdom.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 65.0,
+   "fk_after": 7.3
+  },
+  {
+   "n": 44,
+   "movement": "the-bosnian-church",
+   "field": "why",
+   "old": "Medieval Bosnia had a church of its own, standing between Catholic Hungary and Orthodox Serbia. Its members called themselves simply krstjani, 'Christians,' worshipped in Slavonic, and were organized under a djed, a 'grandfather,' with gosts and starci beneath him. Rome repeatedly condemned them as heretics while Bosnia's own kings protected them, but what they actually believed remains genuinely disputed: the old identification with Bogomil dualism has been rejected by most historians since the 1970s, and the one substantial document written from inside, Gost Radin's 1466 will, reads like conventional Christianity, a cross drawn down its margin.",
+   "new": "Medieval Bosnia had a church of its own, between Catholic Hungary and Orthodox Serbia. Its members called themselves just krstjani, which means Christians. They worshipped in Slavonic. They were led by a djed, a 'grandfather', with gosts and starci beneath him. Rome condemned them as heretics again and again, while Bosnia's own kings protected them. But what they truly believed is still in real dispute. Since the 1970s most historians have rejected the old view that they were Bogomil dualists. The one major text written from inside is Gost Radin's will of 1466. It reads like ordinary Christianity. A cross is drawn down its margin.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 65.3,
+   "fk_after": 6.7
+  },
+  {
+   "n": 45,
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "old": "Nothing continued. After the Ottoman conquest the krstjani vanish from the written sources within a generation or two. Many seem to have become Muslims; no surviving text shows where the rest went. No later church claims descent from them. What remains is on parchment and stone. Charters and grave inscriptions name djeds and gosts. And there are the stećci, the great carved limestone tombstones of medieval Bosnia and its neighbors. Catholics and Orthodox raised those too, and the once-popular idea that they are a Bosnian Church monument is no longer accepted. The church's other legacy is the argument about it, which is still running.",
+   "new": "Nothing continued. After the Ottoman conquest the krstjani vanish from the written sources within a generation or two. Many seem to have become Muslims. Where the rest went is not clear. No later church claims descent from them. What remains is on parchment and stone. Charters and grave inscriptions name djeds and gosts. And there are the stećci, the great carved limestone tombstones of medieval Bosnia and its neighbors. Catholics and Orthodox raised those too, and the once-popular idea that they are a Bosnian Church monument is no longer accepted. The church's other legacy is the argument about it, which is still running.",
+   "reason": "R1-14: 'no surviving text shows' spoke for every surviving text. The review proposed 'the sources at hand do not show', which still narrates the build; the sentence now states the plain uncertainty.",
+   "finding": "R1-14",
+   "fre_after": 67.3,
+   "fk_after": 6.5
+  },
+  {
+   "n": 46,
+   "movement": "armenian-cilicia-after-the-kingdom",
+   "field": "legacy",
+   "old": "Etchmiadzin has been the Mother See of the Armenian Apostolic Church ever since 1441, and remains so today. The see at Sis, whose holder did not move, kept its own succession and continues as the Catholicosate of Cilicia, based since the 1930s at Antelias in Lebanon. The two sees still in communion with one another. The manuscripts of these centuries, colophons and all, form the core of the Matenadaran collection in Yerevan, and the colophon habit has left historians one of the most detailed running records of ordinary catastrophe and survival anywhere in the medieval world.",
+   "new": "Since 1441 Etchmiadzin has been the Mother See of the Armenian Apostolic Church, and it still is today. The see at Sis, whose holder did not move, kept its own line. It goes on as the Catholicosate of Cilicia, based since the 1930s at Antelias in Lebanon. The two sees are still in communion with one another. The books of these centuries, with their colophons, form the core of the Matenadaran collection in Yerevan. Scribes kept up the habit of writing those notes. So historians have one of the most detailed day-by-day records of ordinary disaster and survival anywhere in the medieval world.",
+   "reason": "R1-13: the fragment 'The two sees still in communion' made a sentence; the field brought to the reading target (R1-25); no fact added.",
+   "finding": "R1-13",
+   "fre_after": 60.8,
+   "fk_after": 8.5
+  },
+  {
+   "n": 47,
+   "movement": "maronite-christianity-era-6",
+   "field": "longDescription",
+   "old": "The Maronites were a Syriac-speaking church of the Lebanese mountains. Their patriarch was based in the Qadisha valley, and they had communities on Cyprus as well. For most of this period the church survived largely by being hard to reach. Its monasteries and rock-cut hermit cells were tucked into a gorge that armies found costly to enter. Its tie to Rome, claimed since the crusades, was confirmed twice in this era. On 7 August 1445 a bull of Pope Eugenius IV received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 envoys of the Maronite patriarch pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all. The Roman documents of this era tell it another way. The bull of 1445 says the Maronites of Cyprus had held that Christ had only one will.",
+   "new": "The Maronites were a Syriac-speaking church of the Lebanese mountains. Their patriarch was based in the Qadisha valley, and they had communities on Cyprus as well. The fourteenth century opened badly. Around 1305 Mamluk campaigns against the Kesrwan drove Christians from their homes. For most of this period the church survived largely by being hard to reach. Its monasteries and rock-cut hermit cells were tucked into a gorge that armies found costly to enter. Its tie to Rome, claimed since the crusades, was confirmed twice in this era. On 7 August 1445 a bull of Pope Eugenius IV received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 envoys of the Maronite patriarch pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all. The Roman documents of this era tell it another way. The bull of 1445 says the Maronites of Cyprus had held that Christ had only one will.",
+   "reason": "R1-05: restored the Mamluk campaigns against the Kesrwan around 1305, removed for want of a source. A plain fact, not a relationship between movements; it stays under the open item 'Well-known facts with no vendored source'.",
+   "finding": "R1-05",
+   "fre_after": 62.2,
+   "fk_after": 8.1
+  },
+  {
+   "n": 48,
+   "movement": "maronite-christianity-era-6",
+   "field": "why",
+   "old": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch in the Qadisha valley. They survived this era largely by being hard to reach. Their monasteries and rock-cut hermit cells were tucked into places that armies found too costly to enter. Their long-claimed friendship with Rome was made formal in this era. In 1445 a papal bull received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "new": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch in the Qadisha valley. They survived Mamluk campaigns against the Kesrwan around 1305, and the rest of this era, largely by being hard to reach. Their monasteries and rock-cut hermit cells were tucked into places that armies found too costly to enter. Their long-claimed friendship with Rome was made formal in this era. In 1445 a papal bull received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+   "reason": "R1-05: as the longDescription.",
+   "finding": "R1-05",
+   "fre_after": 60.2,
+   "fk_after": 8.9
+  },
+  {
+   "n": 49,
+   "movement": "maronite-christianity-era-6",
+   "field": "legacy",
+   "old": "It is a living church. The Maronite Church remains in full communion with Rome, is the largest Christian body in Lebanon, and has a worldwide diaspora. Its patriarch still carries the title of Antioch, and the Syriac liturgy of these centuries is still in use in developed form. The Qadisha valley stayed the patriarchate's refuge for centuries afterward, and its monasteries and hermitages are still there.",
+   "new": "It is a living church. The Maronite Church is still in full communion with Rome. It is the largest Christian body in Lebanon, and it has members all over the world. Its patriarch still carries the title of Antioch. The Syriac liturgy of these centuries is still in use, in a later, fuller form. The Qadisha valley stayed the patriarch's refuge for centuries afterward, and its monasteries and hermitages are still there.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 65.4,
+   "fk_after": 7.1
+  },
+  {
+   "n": 50,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "relationsSummary",
+   "old": "A manuscript colophon from 1301 shows the community's link to its patriarch in Mesopotamia still held, and later correspondence with the catholicos confirms the link continued. Like the remnant that survived in the Hakkari mountains, this was one of the few provinces of the Church of the East that Timur's campaigns never reached.",
+   "new": "A note in a book copied in 1301 shows the community still tied to its patriarch in Mesopotamia. A delegation in 1490 and a letter in 1504 show the tie held later too. Timur's armies never reached this province.",
+   "reason": "R1-22: 'one of the few provinces ... like the remnant in the Hakkari mountains' conflicted with the corrected Church of the East text ('the one province Timur never reached'). The review's text; it names the 1490 delegation and 1504 letter that the link with the later patriarchate carries.",
+   "finding": "R1-22",
+   "fre_after": 65.4,
+   "fk_after": 7.1
+  },
+  {
+   "n": 51,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "longDescription",
+   "old": "On the pepper coast of south-west India there had been Christians for longer than anyone could document. They traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East and got their bishops from its patriarch, far away in Mesopotamia. In this window they come into focus. A Syriac book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. Its closing note names the patriarch Yahballaha III, which shows the link intact. The community was no small minority on the margins. A papal envoy at Kollam in the mid-1300s found that its people owned the pepper gardens and ran the public weighing-house. By the late 1400s the church's home in Mesopotamia lay in ruins, and the link took real effort to keep. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community, and the arrival of Portuguese ships.",
+   "new": "On the pepper coast of south-west India there had been Christians for longer than anyone could document. They traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East and got their bishops from its patriarch, far away in Mesopotamia. In this window they come into focus. A Syriac book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. Its closing note names the patriarch Yahballaha III, which shows the link intact. The community was no small minority on the margins. It was an established trading group of high standing, with privileges from Hindu rulers and a headman of its own. A papal envoy at Kollam in the mid-1300s found that its people owned the pepper gardens and ran the public weighing-house. By the late 1400s the church's home in Mesopotamia lay in ruins, and the link took real effort to keep. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community, and the arrival of Portuguese ships.",
+   "reason": "R1-05: restored the privileges from Hindu rulers and the community's own headman, removed for want of a source. A plain fact, not a relationship between movements; it stays under the open item 'Well-known facts with no vendored source'. Marignolli's pepper gardens are kept beside it.",
+   "finding": "R1-05",
+   "fre_after": 66.2,
+   "fk_after": 7.6
+  },
+  {
+   "n": 52,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why",
+   "old": "Christians on India's Malabar coast traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East. They got their bishops from a patriarch far away in Mesopotamia. A book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. It names the patriarch Yahballaha III, which shows the link still held. The community was a trading group of high standing that owned the pepper gardens around Kollam. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community and the first Portuguese ships.",
+   "new": "Christians on India's Malabar coast traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East. They got their bishops from a patriarch far away in Mesopotamia. A book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. It names the patriarch Yahballaha III, which shows the link still held. The community was a trading group of high standing, with privileges from local Hindu rulers. Its people owned the pepper gardens around Kollam. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community and the first Portuguese ships.",
+   "reason": "R1-05: as the longDescription.",
+   "finding": "R1-05",
+   "fre_after": 61.8,
+   "fk_after": 7.4
+  },
+  {
+   "n": 53,
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "legacy",
+   "old": "The community is still here. The centuries after 1517 brought Portuguese pressure, the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653, which between them divided the St Thomas Christians into the several churches they remain — Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others — together numbering several million people in Kerala and around the world. Syriac is still used liturgically among them, and the claim of apostolic origin from Thomas that this era's documents already take for granted is still the community's defining self-description.",
+   "new": "The community is still here. After 1517 came pressure from the Portuguese. Then came the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653. Between them, these split the St Thomas Christians into the several churches they are now. They include the Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others. Together they have several million members, in Kerala and far beyond. Syriac is still used when they worship. The texts of this era already take it as known that the apostle Thomas founded the church. That is still how the community sees itself.",
+   "reason": "R1-25: the field failed the reading target. Rewritten in shorter sentences and plainer words, keeping the movement's voice, imagery and every claim; no fact added.",
+   "finding": "R1-25",
+   "fre_after": 60.9,
+   "fk_after": 7.6
+  }
+ ],
+ "finding_dispositions": [
+  {
+   "finding": "R1-01",
+   "action": "regrade",
+   "note": "Inferential-Thin with the review's note, split into two sentences for the 25-word limit. Kept as a link: the St Thomas text names the tie, so a thin link is the honest form."
+  },
+  {
+   "finding": "R1-02",
+   "action": "regrade",
+   "note": "Widely Accepted; Evans 1877 (lines 1825-1826) added as a secondary, read at its lines. The quote keeps the file's OCR 'Poman' and double spaces; the review had silently corrected it to 'Roman'. Note as proposed."
+  },
+  {
+   "finding": "R1-03",
+   "action": "rewrite",
+   "note": "Outcome, outcome_basis and outcome_locus removed; outcome_considered as proposed."
+  },
+  {
+   "finding": "R1-04",
+   "action": "rewrite",
+   "note": "Note as proposed. Wattenbach's verdict added as a secondary at lines 5719-5723; the review's lines (5717-5722, quote at 5719-5721) were one line early, checked with grep -n."
+  },
+  {
+   "finding": "R1-05",
+   "action": "prose",
+   "note": "Restored all four sets of plain facts in the fields named (Maronite longDescription and why; Ethiopian longDescription and why; St Thomas longDescription and why; English mystics legacy). The Kesrwan stays out of the Maronite relationsSummary. Ethiopian wording uses 'persecuted', the old field's own word, rather than the review's 'hunted'. Each restored fact is listed in restored_facts for the Open-Gaps item."
+  },
+  {
+   "finding": "R1-06",
+   "action": "prose",
+   "note": "Review's text used unchanged (FRE 60.2, FK 8.1)."
+  },
+  {
+   "finding": "R1-07",
+   "action": "prose",
+   "note": "Review's text used unchanged."
+  },
+  {
+   "finding": "R1-08",
+   "action": "prose",
+   "note": "Link kept Documented; relationsSummary as proposed."
+  },
+  {
+   "finding": "R1-09",
+   "action": "prose",
+   "note": "Review's text, with the queen's name, Gaua, kept so the field drops no claim."
+  },
+  {
+   "finding": "R1-10",
+   "action": "prose",
+   "note": "Review's text used unchanged."
+  },
+  {
+   "finding": "R1-11",
+   "action": "prose",
+   "note": "Map talk removed. The review's text scored 58.4; reordered to reach 60+ with the same claims."
+  },
+  {
+   "finding": "R1-12",
+   "action": "prose",
+   "note": "Written from the two links. The review said papal judges put the list 'to the men they questioned'; the link's record shows one man in 1367, so the sentence says that."
+  },
+  {
+   "finding": "R1-13",
+   "action": "prose",
+   "note": "All four fragments fixed. The parish longDescription and the Armenian legacy were also brought to the reading target in the same change (one change per field)."
+  },
+  {
+   "finding": "R1-14",
+   "action": "prose",
+   "note": "Muscovite summary as proposed. Bosnian legacy: the review's 'the sources at hand do not show' still narrates the build, so the sentence is now 'Where the rest went is not clear.'"
+  },
+  {
+   "finding": "R1-15",
+   "action": "rewrite",
+   "note": "Outcome as proposed (28 words)."
+  },
+  {
+   "finding": "R1-16",
+   "action": "rewrite",
+   "note": "Outcome as proposed. The year is also taken out of the note, which the review would have let keep it: a note too says only what its sources show, and no source on the link dates the tome. A dated witness is added to wants."
+  },
+  {
+   "finding": "R1-17",
+   "action": "rewrite",
+   "note": "Outcome reworded so it no longer says Moscow did not wait. Kept 'at the grand prince's call' (Mouravieff line 3949, Basil convoked the bishops) so the authority behind the act is named."
+  },
+  {
+   "finding": "R1-18",
+   "action": "rewrite",
+   "note": "Both notes as proposed. Herberstein: added the editor's title page (lines 201-202, 'in the years 1517 and 1526') as a secondary, since no source on the link gave the year 1517."
+  },
+  {
+   "finding": "R1-19",
+   "action": "rewrite",
+   "note": "Note and outcome split as proposed. The outcome's excommunication was checked at Ehrle 1636-1637."
+  },
+  {
+   "finding": "R1-20",
+   "action": "rewrite",
+   "note": "Editors' headings and calendar entries changed to kind 'secondary' on all five links; lines and quotes kept. No grade changes: each link keeps a primary text quote."
+  },
+  {
+   "finding": "R1-21",
+   "action": "rewrite",
+   "note": "Bannwart's footnote added. It is at line 23484, not 23483 (grep -n)."
+  },
+  {
+   "finding": "R1-22",
+   "action": "prose",
+   "note": "Review's text used unchanged; the 1490 delegation and 1504 letter are carried by the link to the later patriarchate."
+  },
+  {
+   "finding": "R1-23",
+   "action": "prose",
+   "note": "Teaser rewritten as proposed. No rename; the name question is in for_mark."
+  },
+  {
+   "finding": "R1-24",
+   "action": "none",
+   "note": "Left standing as written, per the review. Listed in restored_facts as a case left standing under the same open item. The Observant longDescription and why were split for reading level (R1-25) with the sentence's claim unchanged."
+  },
+  {
+   "finding": "R1-25",
+   "action": "prose",
+   "note": "Every field the finding lists was rewritten to FRE 60+ and FK 10 or less, keeping each movement's voice, imagery and claims, with no fact added. The only additions are glosses of terms (transubstantiation, lavra). Where a field had a relationship claim, it was already carried by a link or a disposition, so none needed qualifying, with one exception. 'Sent friars against it' (Bosnian longDescription) has no source on the papacy-Bosnia link. It is kept as a plain fact and listed for the same open item."
+  },
+  {
+   "finding": "two-way gap 1",
+   "action": "out-of-scope",
+   "note": "the-old-believers.relationsSummary ('grew out of Muscovite Christianity') is not an era-6 field; held for the era-7/8 pass, which should qualify it or draw a sourced link from the era-7 Russian church. Listed in for_mark."
+  },
+  {
+   "finding": "two-way gap 2",
+   "action": "prose",
+   "note": "inquisition-record-sects-adamites-and-kin.relationsSummary written (R1-12)."
+  },
+  {
+   "finding": "two-way gap 3",
+   "action": "out-of-scope",
+   "note": "the-waldensian-reformed-union.legacy (era 7) still carries the Methodist union and the South American church; held for the era-7 pass."
+  },
+  {
+   "finding": "two-way gap 4",
+   "action": "out-of-scope",
+   "note": "the-church-of-the-east-schism-of-1552.relationsSummary leans on the 'Hakkari' title; held for the era-7 pass if Mark renames."
+  },
+  {
+   "finding": "two-way gap 5",
+   "action": "none",
+   "note": "The review's confirmation that all other links and relationships are named or disposed; the only exception (R1-05) is fixed."
+  }
+ ],
+ "restored_facts": [
+  {
+   "movement": "maronite-christianity-era-6",
+   "fields": [
+    "longDescription",
+    "why"
+   ],
+   "fact": "Mamluk campaigns against the Kesrwan around 1305 drove Christians from their homes.",
+   "status": "restored",
+   "wants": "A repo-cited Mamluk source or modern study (e.g. Salibi) for the Kesrwan campaigns of 1305"
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "fields": [
+    "longDescription",
+    "why"
+   ],
+   "fact": "The Ewostathians were persecuted for their Sabbath for generations, until Zara Yaqob gave way at a council in 1450.",
+   "status": "restored",
+   "wants": "Gadla Ewostatewos; the acts of the 1450 council; a repo-cited modern study (e.g. Taddesse Tamrat)"
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "fields": [
+    "longDescription",
+    "why"
+   ],
+   "fact": "The St Thomas Christians were an established trading group of high standing, with privileges from Hindu rulers and a headman of their own.",
+   "status": "restored",
+   "wants": "A repo-citable source for the community's privileges and headman in 1300-1517"
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "fields": [
+    "legacy"
+   ],
+   "fact": "Julian is remembered each May in the Church of England's calendar.",
+   "status": "restored",
+   "wants": "The Common Worship calendar"
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "fields": [
+    "longDescription",
+    "why"
+   ],
+   "fact": "John of Capistrano's preaching drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "status": "left standing (R1-24)",
+   "wants": "John of Capistrano's report and the Breslau trial records of 1453"
+  },
+  {
+   "movement": "the-bosnian-church",
+   "fields": [
+    "longDescription"
+   ],
+   "fact": "Rome from time to time sent friars against the Bosnian Church.",
+   "status": "left standing (R1-25 check)",
+   "wants": "A clean edition of the Franciscan vicariate of Bosnia's founding documents"
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "fields": [
+    "longDescription",
+    "why",
+    "legacy"
+   ],
+   "fact": "Margery Kempe's life facts (brewer's wife, fourteen children, dictation, the 1934 manuscript); Julian's cell rebuilt after wartime bombing.",
+   "status": "left standing (group A)"
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "fields": [
+    "legacy"
+   ],
+   "fact": "Most of the houses closed during the Reformation.",
+   "status": "left standing (group A)"
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "fields": [
+    "relationsSummary",
+    "longDescription",
+    "why"
+   ],
+   "fact": "The 1317 Dongola inscription recording the throne hall's conversion to a mosque.",
+   "status": "left standing",
+   "wants": "An edition of the 1317 Dongola inscription"
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "fields": [
+    "longDescription",
+    "why",
+    "relationsSummary",
+    "legacy"
+   ],
+   "fact": "Leo X's Ite vos (29 May 1517) divided the order.",
+   "status": "left standing"
+  }
+ ],
+ "for_mark": [
+  "Church of the East name (R1-23): the movement is titled '... and the Hakkari Remnant', but its own corrected fields put the late-15th-century patriarchs at Gazarta and Mosul on the upper Tigris, with survivors in the Hakkari mountains. The teaser is fixed; whether to rename the movement (and the era-7 schism-of-1552 summary that leans on the title) is your call. Not renamed.",
+  "Well-known facts with no vendored source (Open-Gaps item, still open): era 6 now applies the era-5 practice throughout. Four removed facts are restored and six more cases are left standing; all are listed in restored_facts for a dated sub-entry.",
+  "For the era-7/8 pass: the-old-believers.relationsSummary says it 'grew out of Muscovite Christianity', but the only link is Inferential-Thin influenced (Conybeare 1921). The-waldensian-reformed-union.legacy still carries the Methodist union and South American church that eras 5 and 6 removed."
+ ],
+ "wants": [
+  "A dated witness to the 1341 synod at Constantinople (John Kantakouzenos's History or Nikephoros Gregoras), to carry the year on hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+  "The Syriac text of the 1301 colophon (Vat. Syr. 22)",
+  "A repo-cited Mamluk source or modern study (e.g. Salibi) for the Kesrwan campaigns of 1305",
+  "Gadla Ewostatewos; the acts of the 1450 council; a repo-cited modern study (e.g. Taddesse Tamrat)",
+  "A repo-citable source for the community's privileges and headman in 1300-1517",
+  "The Common Worship calendar",
+  "John of Capistrano's report and the Breslau trial records of 1453",
+  "A clean edition of the Franciscan vicariate of Bosnia's founding documents",
+  "An edition of the 1317 Dongola inscription"
+ ]
+}

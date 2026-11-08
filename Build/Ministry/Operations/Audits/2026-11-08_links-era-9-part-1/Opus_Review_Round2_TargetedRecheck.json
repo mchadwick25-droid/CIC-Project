@@ -1,0 +1,37 @@
+{
+ "round": 2,
+ "kind": "targeted-recheck",
+ "date": "2026-11-08",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 1
+ },
+ "closed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+ "findings": [
+  {
+   "n": 1,
+   "severity": "minor",
+   "target": "Revision_Round1.json links (all 19): action field",
+   "issue": "Every changed link now carries \"action\": \"revise\". In the Drafting_Record all 19 were \"action\": \"new\", none of them is a published link (no id found outside the audit folders), and \"revise\" is not in the main brief's action vocabulary (keep | retype | regrade | rewrite | remove | split | new). Earlier eras' revision files keep \"new\" for new links. A merge that reads \"revise\" may look for a published link to change and either fail or drop the link. This is mechanical and changes no content, so it can be applied without re-review.",
+   "evidence": "Drafting_Record.json links[].action = 'new' for all 19 ids; Revision_Round1.json links[].action = 'revise'; Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md line 119; 2026-11-07_links-era-1/Revision_Round1.json and era-3 use 'new'.",
+   "fix": "In Revision_Round1.json, set \"action\": \"new\" on all 19 link objects (replace every \"action\": \"revise\" with \"action\": \"new\"). Nothing else changes."
+  }
+ ],
+ "recheck_notes": [
+  "F1 (alternative sound): Whitehouse 11286-11288 dates the Anyira visit to 1853; 11327-11334 say Mar Kurillos Joyakin was 'also then living' a few miles off, sent to check Mar Athanasius; 11351-11358 describe crossing the fields to his cottage and his being 'civil and polite to some of us'. 'Wrote of a bishop from Antioch who lived there in 1853' is accurate and more careful than 'met'. The broke-with link's flag now says 1853.",
+  "F2: 18757-18764 quote verified verbatim; 19088-19092 'still widely used' verified. Note now limits the kept confession to America and states English disuse.",
+  "F7 (alternative sound): Lee 12534-12537 'in some cases ... unite in carrying on the same meeting'; 'In some cases ... joined to run the same one' is the closer rendering. Asbury 8408-8410 'every circuit in the district' matched.",
+  "F8 (alternative sound): Carey 804-806 'labouring amongst the Caribbs and Negroes' in the West Indies; 'the Black people of the islands' adds no enslavement claim.",
+  "F13 (alternative sound): Philipos 2593-2595 (Elias sent Mar Koorillos 'that he might expel the reprobate Matthew') verified verbatim; 2632-2633 'as our Father the blessed Patriarch anathematized him' supports 'repeated his predecessor's curse'.",
+  "F14 (alternative sound): Jacobs 225-227 quote verified; header line 3 gives the General Council imprint; preface signed Philadelphia, 27 February 1911 (305-308). Dropping the 215-216 Mother Synod quote is correct.",
+  "F15 (alternative sound): each rewritten note names only works on its own link (Foster/Blowers encyclopedia; Rowe and Knight; Knight; Aarflot and Shaw; Pentikainen and Hepokoski; Hope and Ward; Conybeare). No 'we hold' / 'this collection' / 'here' wording remains.",
+  "F16, F17: Stunt, Pentikainen and Hepokoski citations match full forms found in cft-website census text; Inferential-Thin kept on Laestadius with a correct reason.",
+  "F20: McNemar letter dated 'Turtle-Creek, June 15, 1807' at line 5914.",
+  "Prose: all 7 new texts read as full sentences; Stone-Campbell limited to Stone's side in why, legacy and relationsSummary; 'universities' restored; Haugean fragments repaired with every fact kept.",
+  "Readability: engine/m7/turn_readability.py score_turn on all 19 notes and 7 prose texts: no failures (FK 5.9-9.1, FRE 60.0-71.5). Several sit below the grade-8 floor, which the standard treats as advisory, not a defect.",
+  "No link's id, from, to or type changed against the Drafting_Record; none of the 19 is a published link."
+ ],
+ "fabrication_found": false
+}
