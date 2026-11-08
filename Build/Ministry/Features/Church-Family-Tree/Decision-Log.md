@@ -540,6 +540,57 @@ Each was shown with options and a recommendation as an artifact.
 `tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
 Applied as P2-L11b, data release 19.
 
+## 2026-11-08 — Era 10 becomes history, 1906–2010 (change order)
+
+**Decided (Mark: "lets make era 10 historical and go from 1905 to 2000"; "Living as of 2000";
+"we are using the standard we used to identify and source the 300 worlds in the family tree";
+"converged, auto mode").** Later in the same sitting Mark moved the end to 2010, relayed to this
+thread from the era 1 thread: era 10 becomes a century of global Christianity, from Azusa Street
+(1906) and Edinburgh 1910 to the 2010 centenary meetings, Edinburgh 2010 and Lausanne's Cape Town
+congress.
+
+1. Era 10 runs 1906 to about 2010, written "c. 2010" in the era band and dates. Mark: "yes era 10
+   ends in 2010 (about) living traditions are alive today. the other eras do not need the 2010
+   perspective, its there era and today (2026)" (relayed). The boundary with era 9 stays at 1906
+   (Azusa Street), so era 9's frozen
+   end does not move.
+2. Era 10's history runs to about 2010, and nothing after it is mapped. Eras 1 to 9 are not tied to
+   2010: each covers its own span. In every era the living-tradition marker means alive today
+   (2026), the tree's one statement about the present. Mark set "as of 2000", then "as
+   of 2010", then corrected it in the same sitting (relayed): "no i think alive today means now, not
+   16 years ago".
+3. Era 10 is identified and sourced by the same Step 0 standard as eras 1 to 9. The per-world
+   construction standard does not apply.
+4. The Living-Era Protocol Addendum V1.0 governs the living marker, and only it: dated own-voice
+   evidence (R2), the Contemporary-Documented / Contemporary-Reported grades (R3) and present-tense
+   humility (R4). No other present-tense claim enters an entry.
+
+The survey also widens to Christian movements and trends outside formal church bodies (Bible
+translation, campus ministries, church planting, world missions and the like). The unit is the
+movement, never the organization; how such entries are marked is a gate question. Mark tightened it: "it needs to be a defined movement, not just a trend". A candidate needs a
+recognizable beginning, identifiable carriers, a name its participants or contemporaries used, and
+recognition as a movement in a cited source; a diffuse trend becomes a named line or is left out.
+
+After 2010 (Mark, "yes, pass that to era 10", relayed): the tree says nothing past 2010 and says
+so plainly. The living mark, as finally ruled, means alive today (rule 2). A
+later decade joins once it is about fifteen years in the past (2010–2020 around 2035), under the
+same standard, as a numbered data release. A "since 2010" note and a rolling cut-off were
+declined. The reader-facing line, for the method page and the era 10 band once the gate rules:
+"The tree's history runs to 2010. Movements since then will be added as they become history."
+
+Mark's own wording of the rule (relayed from the era 1 thread): "anything after is a living
+tradition or new, but not mapped. 2010 back is historical and treated that way except with a
+living tradition marker".
+
+**Change order.** This amends the era 10 freeze of 2026-08-14 (Atlas World Map Decision-Log, "ERA
+10 FROZEN by Mark", and `CiC_Step0_Era10_V1_0.md`): the span, the dated-reading clause on living
+rows, the "present" end dates, and the retention of the most recent rows. The full list is in the
+Atlas World Map Decision-Log entry of the same date ("Change order: era 10 becomes history").
+
+It also amends this log's entry "The link work covers eras 1 to 9" (2026-11-08) in one respect:
+era 10's traditions are now re-surveyed as history first, and P2-L10 waits for Mark's gate ruling
+on that re-survey. The census is unchanged until then.
+
 ## 2026-11-08 — Dominant links on two or three old accounts
 
 **Decided (Mark: "add the modern studies for the eight links", then "a").** Eight links graded
@@ -557,4 +608,4 @@ Applied as P2-L11c, data release 20. Review added one more link of the same kind
 1 to 9, is approved to proceed, together with its two follow-ups: the five whole-set rulings
 (P2-L11b, data release 19) and the Dominant links on old accounts (P2-L11c, data release 20). This
 is the work's own approval, not a closure: nothing closes before Phase Five boundary testing and
-the full-system review. Era 10's links wait for its traditions (P2-L10).
+the full-system review. Era 10's links wait for Mark's era 10 gate (P2-E10, then P2-L10).

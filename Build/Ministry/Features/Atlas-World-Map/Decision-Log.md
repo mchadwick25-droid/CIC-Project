@@ -13,6 +13,101 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Change order: era 10 becomes history, 1906–2010
+
+**Decided (Mark, 2026-11-08: "lets make era 10 historical and go from 1905 to 2000"; "Living as
+of 2000"; "we are using the standard we used to identify and source the 300 worlds in the family
+tree"; "converged, auto mode").** Later in the same sitting Mark moved the end from 2000 to 2010.
+That change reached this thread relayed from the era 1 thread, which gave his reason: era 10
+becomes "a century of global Christianity", with a bookend at each end. It opens near Azusa Street
+(1906) and the Edinburgh missionary conference (1910). It closes with the 2010 centenary meetings,
+Edinburgh 2010 and Lausanne's Cape Town congress, and still leaves about sixteen years of
+historical distance. The rulings as they now stand:
+
+1. **Era 10 is historical, 1906 to about 2010.** Mark: "yes era 10 ends in 2010 (about) living
+   traditions are alive today. the other eras do not need the 2010 perspective, its there era and
+   today (2026)" (relayed from the era 1 thread). The era band and the dates write the end as
+   "c. 2010", not a hard boundary. The era 9/10 boundary stays at 1906, the Azusa Street
+   revival. Mark said "1905" loosely; moving the boundary would shift the frozen end of era 9
+   (1815–1906). Nothing in the record makes 1906 wrong.
+2. **The living marker means alive today (2026), in every era.** Era 10's history runs to about
+   2010, and nothing after it is mapped. Eras 1 to 9 are not referenced to 2010 at all: each covers
+   its own span, and its living marker, like era 10's, means alive today. The marker is the tree's
+   one statement about the present. Mark
+   first set "living as of 2000", then "as of 2010", then corrected it in the same sitting, relayed
+   from the era 1 thread: "no i think alive today means now, not 16 years ago". The entry's text and
+   dates stay historical to about 2010.
+3. **One standard for all ten eras.** Era 10 is identified and sourced by the same Step 0 standard
+   used for the census's movements in eras 1 to 9: Section A, Section B's five criteria, the tiers,
+   and the five `formation_confidence` grades. The per-world construction standard (Doc_01 to
+   Doc_09, tradition voices) does not apply.
+4. **The Living-Era Protocol Addendum V1.0 governs the living marker, and only it.** Its dated
+   own-voice evidence (R2), its Contemporary-Documented / Contemporary-Reported grades (R3) and its
+   present-tense humility (R4) apply to the "alive today" claim, in every era. No other
+   present-tense claim enters an entry. Its rules on describing published texts rather than
+   people, and on dating every statement, may still guide tone.
+
+The same sitting also widened the survey, again relayed from the era 1 thread, to Christian
+movements and trends outside formal church bodies: Bible translation, campus ministries, church
+planting, post-war world missions with the unreached-peoples and 10/40 Window work, children's and
+Sunday-school ministries, rescue missions, Christian schools and homeschooling, and their kin. The
+unit is the movement, never the organization. How such an entry is told apart from a church
+entry is a question for the gate. Mark then tightened it (relayed): "it needs to be a defined movement, not just a trend". A
+candidate qualifies only if its sources show a recognizable beginning, identifiable carriers
+(people, networks or bodies), a name or self-understanding by which participants or contemporaries
+knew it as a movement, and recognition as a movement in a vendored text or a repo-cited secondary.
+A diffuse trend fails, even when it is real and widespread; it may become a named line inside a
+defined movement, or be left out with the reason stated.
+
+**What follows 2010 (Mark, 2026-11-08, "yes, pass that to era 10", relayed from the era 1
+thread).**
+
+1. The tree says nothing past 2010, and says so plainly. The method page and the era 10 band both
+   state that the history ends in 2010. (As first relayed, "living" meant as of 2010; Mark's later
+   correction makes the living mark mean alive today, ruling 2 above.)
+2. Later decades join once they become history, by the rule that set 2010: a period joins the tree
+   once it is about fifteen years in the past. 2010–2020, for example, would be added around 2035,
+   under the same Step 0 standard, either as an extension of era 10 or as an era 11. Each addition
+   is a numbered data release, so nothing already published changes meaning.
+3. Two options were considered and declined: a "since 2010" note on living entries, which is
+   present-tense ground and would go stale; and a rolling cut-off, which would break the promise
+   that a release is a fixed version.
+4. The reader-facing line, for the method page and the era 10 band: "The tree's history runs to
+   2010. Movements since then will be added as they become history." It lands with the era 10
+   census changes after the gate, not in this run.
+
+Mark's own wording of the rule (relayed from the era 1 thread): "anything after is a living
+tradition or new, but not mapped. 2010 back is historical and treated that way except with a
+living tradition marker".
+
+**What this amends in the frozen era 10 record** (this log's 2026-08-14 entry, "ERA 10 FROZEN by
+Mark", and `Design/StepZero-Eras/CiC_Step0_Era10_V1_0.md`):
+
+- the era's span, "1906–present", becomes 1906–2010;
+- Q1's ratification of the addendum stands, narrowed: it now governs only the living marker (R2,
+  R3, R4), in every era; its open ends (R5) and recency floor (R7) no longer govern era 10's rows;
+- Q2's dated-reading clause on living rows ("a dated reading of a living tradition") gives way to
+  plain historical copy dated to 2010;
+- Q4's "era-boundary-is-present" date reading gives way to an end of 2010 for a body still active
+  in 2010;
+- Q9's retention of IX.31 (Deconstruction) by hand-selection is re-opened, because its story falls
+  mostly after 2010;
+- Q12's held IX.50 remains for Mark's direct ruling, now judged as history to 2010.
+
+Everything else in the frozen record stands until the V2.0 gate rules on it. The V1.0 record and
+its reviews are kept as they are.
+
+**Heart reasoning.** The tree's eras 1 to 9 hold history to a single standard. Era 10's present
+tense needed a second regime, and that regime could not reach the rigor the other nine have. A
+fixed end lets era 10 meet the same bar instead of a softer one, and the 2010 bookend gives the
+era a shape of its own: a century from one Edinburgh conference to the next.
+
+**Next action.** Step 0 re-run as history: `Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md` and its
+reviews, then Mark's gate. The census does not change until he rules. The era 10 link pass
+(P2-L10) and the living work (P2-V) wait for that ruling.
+
+---
+
 ## 2026-11-08 — Era 8 change order: census 300→301 (Armenian Apostolic Church, VII.24a)
 
 **What changed.** Mark ruled: "add an era-8 Armenian Apostolic movement". The era 8 links pass
