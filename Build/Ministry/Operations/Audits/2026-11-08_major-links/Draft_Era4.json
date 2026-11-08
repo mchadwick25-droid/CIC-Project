@@ -1,0 +1,193 @@
+{
+ "group": "era-4",
+ "links": [
+  {
+   "id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "decision": "major",
+   "outcome": "In 742 Carloman, advised by Boniface and his fellow bishops, ordered a church synod every year to restore church law and correct Christian practice.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+    "lines": "2248-2251",
+    "text": "constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri. Statuimus per annos singulos synodum congregare, ut nobis praesentibus cano- num decreta et aecclesiae iura restaurentur et relegio christiana emendetur."
+   },
+   "reason": "rule changed: the 742 capitulary, issued on the counsel of Boniface and the bishops he led (lines 2225-2230), decrees yearly synods and church reforms",
+   "doubt": "Boniface's English origin rests on the reviewed note, not these lines; the counsel clause is at lines 2225-2230 ('congregavi, id est Bonifatium arcluepiscopum ... ut mihi consilium dedissent')."
+  },
+  {
+   "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+   "decision": "minor",
+   "reason": "shared Rule only; no source shows Cluny took the Rule or anything else from the Carolingian reformers"
+  },
+  {
+   "id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+   "decision": "minor",
+   "reason": "one writer quoting another: Gregory VII cites a forged decretal as authority in a letter; no lasting result is shown in these sources",
+   "doubt": "Arguably a text taken up (used as legal authority); a reviewer may weigh it, but the lines show only a citation in one argument."
+  },
+  {
+   "id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+   "decision": "minor",
+   "reason": "meeting with no recorded result of the Cluny-papacy contact itself: Abbot Hugh served as one guarantor of Henry IV's oath",
+   "doubt": "Mirbt 10426-10431 records the absolution, but it is the pope's settlement with Henry, not a result between Cluny and the papacy, and 10435-10436 says the whole case was still left open ('totius negocii causa suspensa est')."
+  },
+  {
+   "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "decision": "major",
+   "outcome": "The Slavonic Scriptures of Cyril and Methodius later became the means by which missionaries won the Russians to the faith in their own tongue.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+    "lines": "905-910",
+    "text": "This translation of the word of God became afterwards a most blessed instrument for the conversion of the Russians, for the missionaries were by it enabled to expound the truths of the gospel to the heathens in their native dialect,"
+   },
+   "reason": "text taken up: the brothers' Slavonic translation was the tool of the Russian conversion; the reviewed note also states the Rus' took their books and letters from the mission",
+   "doubt": "Source is listed as secondary with no file; its own entry names the vendored Mouravieff file, so the lines were read there. A 1838 church history, not a primary; Pinkerton's note (Platon, lines 3149-3154) adds that the Russians still used the Slavonic Bible in its Ostrog edition."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "decision": "major",
+   "outcome": "The iconoclast council of 754 declared John of Damascus deposed and cursed, along with the patriarch Germanus and George.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "39469-39472",
+    "text": "To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema! The Trinity has deposed these three!"
+   },
+   "reason": "council condemning a teaching: Hieria anathematized and declared deposed John of Damascus"
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+   "decision": "major",
+   "outcome": "At the Second Council of Nicaea in 787, the Studite abbot Sabbas backed taking back a former iconoclast bishop who now honored images.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "38728-38730",
+    "text": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: According to the Apostolic precepts and the Ecumenical Synods he is worthy to be received back."
+   },
+   "reason": "settlement changed: the 787 council, with a monastic leader voting, set the reception of repentant iconoclast bishops (Theodore of Myra, Theodosius, lines 38663-38667)",
+   "doubt": "The bishop received is Theodosius, whose confession honoring images runs from line 38667; the full reversal of iconoclasm (Session VII) is not in the cited lines."
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+   "decision": "minor",
+   "reason": "reading and praising only: Photius reads and commends iconophile historians; the icon feast is not shown in the cited lines"
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "decision": "major",
+   "outcome": "Theodosius's version of the Stoudios rule became the model for monasteries across Rus', many of them founded by monks from the Kyiv Caves.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+    "lines": "1609-1612",
+    "text": "it passed afterwards as a model into all the religious houses of our country, many of which were founded by monks from the Pechersky,"
+   },
+   "reason": "rule taken up: the Studite rule, written out by Theodosius (lines 1599-1603), became the model for Rus' monasteries; the reviewed note states the same",
+   "doubt": "Source is listed as secondary with no file; the passage was read in the vendored Mouravieff file (same work as the previous link's source). Mouravieff (1838) retells Nestor; not a primary."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "decision": "minor",
+   "reason": "persecution that, per the note, failed to root the Paulicians out; no lasting result shown"
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--paulicians",
+   "decision": "minor",
+   "reason": "polemic and persecution; the 970 resettlement to Plovdiv is a state removal, not one of the listed kinds of result",
+   "doubt": "The Tzimiskes resettlement is a lasting consequence in the reviewed note; a reviewer may judge whether a forced transfer of a group counts."
+  },
+  {
+   "id": "paulicians--bogomils",
+   "decision": "minor",
+   "reason": "contested line of descent; the secondary sources show no teaching or text taken up"
+  },
+  {
+   "id": "bogomils--cathars-albigensians",
+   "decision": "minor",
+   "reason": "claim of origin only: Sacconi says the Cathar churches came from Bulgaria and Dugunthia, but no adopted teaching or text is shown, and the line is contested",
+   "doubt": "Rački 4328-4329 'Et omnes habuerunt originem de duabus ultimis' could be read as a body formed from the Balkan churches; marked minor because the claim is Contested."
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "decision": "major",
+   "outcome": "The patriarch Theodosius made a church law binding the metropolitans of India, China and other far lands to send letters of communion every six years.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+    "lines": "34477-34485",
+    "text": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,"
+   },
+   "reason": "rule made: a patriarchal canon (lines 34471-34485) fixed how India's metropolitan answered to the patriarch",
+   "doubt": "The binding clause itself is at 34484-34485 ('mittant literas confenfionis ... ad Patriar- cham femelfepcto quoque anno'); OCR is poor. The note already states this canon, so the outcome adds little beyond it; a reviewer may judge whether a jurisdiction canon counts as a lasting result."
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+   "decision": "major",
+   "outcome": "The iconoclast council of 754 cursed John of Damascus as a betrayer of Christ and an enemy of the empire, and declared him deposed.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "39468-39472",
+    "text": "Anathema to Mansur, who has an evil name and Saracen opinions! To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema! The Trinity has deposed these three!"
+   },
+   "reason": "council condemning a teaching: Hieria anathematized and declared deposed John of Damascus",
+   "doubt": "Evidence cites source 0 (lines 39468-39469) running into the following lines 39470-39472 of the same passage."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "decision": "major",
+   "outcome": "The patriarch of Alexandria ordained Makuria's metropolitan, who in turn ordained its bishops and priests, and chose a successor whenever one died.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+    "lines": "7181-7185",
+    "text": "he has in his country an orthodox bishop whom the patriarch ordains as metropolitan, and who ordains for the king tlie bishops and the priests in that land. And when the metropolitan dies, the patriarch of Alexandria appoints another for him,"
+   },
+   "reason": "practice taken up: Makuria's church order depended on the Coptic patriarch; Griffith (lines 4431-4442) adds the Coptic alphabet used for Old Nubian"
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "decision": "major",
+   "outcome": "A later Coptic patriarch had his metropolitan end polygamy among the Abyssinians, who from then on each took only one wife, Abu Salih reports.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+    "lines": "14554-14556",
+    "text": "and after this the Abyssinians refrained from following their former custom, and began to have each of them one wife only."
+   },
+   "reason": "practice changed: within the cited passage (14527-14556) the patriarch orders the metropolitan to end polygamy, and the Abyssinians comply",
+   "doubt": "Abu Salih names the patriarch as Sinuthius (67th); the editor's note (14546-14549) says it was Cyril II, about 1086, which may fall late for era 4. The same passage says the patriarch also set Egyptian rites for consecrating churches."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "decision": "major",
+   "outcome": "Under King Bagrat III, scholars at the Georgian house on Mount Athos put Scripture and the finest Greek theology into Georgian; copies survived into the 1800s.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+    "lines": "2965-2967",
+    "text": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa- vants interprèles des livres saints et des plus belles productions de la théologie grecque, versions dont prieurs copies, faites quelques années plus tard, ornent notre Musée asiatique;"
+   },
+   "reason": "texts taken up: Iviron's Georgian monks translated Greek Scripture and theology into Georgian (secondary source with its own vendored file)",
+   "doubt": "Brosset (1849) is a secondary history; the translations are well attested elsewhere but only his summary is cited here."
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "decision": "minor",
+   "reason": "imperial founding of a monastery on one late secondhand report; no listed kind of result shown",
+   "doubt": "Curzon line 8704 'St. Laura was founded by Nicephorus Phocas' is the only support; Inferential-Thin."
+  }
+ ],
+ "wants": [
+  "Cluny's foundation charter (910), to show whether Cluny took the Rule of Benedict through the Carolingian reform",
+  "Gratian's Decretum or another later canon collection showing the False Decretals taken into church law",
+  "The Synodikon of Orthodoxy (843), to show the iconophile feast and condemnations adopted by the Macedonian-era church",
+  "Theophanes' Chronicle on the Paulicians under Michael I, a primary for the persecution of 811-813",
+  "Peter of Sicily's History of the Paulicians and Anna Comnena's Alexiad on the Paulician settlers at Philippopolis",
+  "Cosmas the Priest, Sermon against the Bogomils, and the Interrogatio Iohannis, to test what (if anything) passed from Paulicians to Bogomils to Cathars",
+  "The Typikon of Athanasius for the Great Lavra or Athonite foundation acts, for imperial founding of Athonite houses",
+  "A primary for Kievan Rus' adopting Slavonic letters and books (the Russian Primary Chronicle)"
+ ]
+}
