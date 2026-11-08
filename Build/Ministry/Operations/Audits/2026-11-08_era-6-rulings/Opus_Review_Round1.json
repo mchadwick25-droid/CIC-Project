@@ -1,0 +1,131 @@
+{
+ "round": 1,
+ "kind": "full",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 7,
+  "minor": 7,
+  "links_checked": 11,
+  "facts_checked": 53,
+  "prose_changes_checked": 21,
+  "retired_links_checked": 1
+ },
+ "fabrication_found": false,
+ "findings": [
+  {
+   "id": "R1-01",
+   "severity": "substantial",
+   "target": "edge coptic-christianity-under-early-islam--makurian-nubian-christianity--2 (note sentence 3, outcome)",
+   "problem": "The source states a standing rule in the present tense; the note and outcome turn it into one past event ('When that bishop died ... chose and ordained another'; 'chose a new one when he died'). No source shows a particular death and replacement.",
+   "evidence": "chronicle-of-seert_...scher-dib1910.txt:7181-7185: 'he has in his country an orthodox bishop whom the patriarch ordains as metropolitan ... And when the metropolitan dies, the patriarch of Alexandria appoints another for him, whom he chooses, and ordains him for that people.' Context 7130-7140 places it under Michael I (744-768).",
+   "proposed_fix": "note: replace 'When that bishop died, the patriarch of Alexandria chose and ordained another.' with 'Whenever a chief bishop died, it says, the patriarch of Alexandria chose and ordained the next.' (note FRE 62.5, FK 8.6). outcome: 'In the mid-700s the patriarch in Egypt chose and ordained each chief bishop of Makuria.' (15 words; FRE 69.0, FK 7.6)."
+  },
+  {
+   "id": "R1-02",
+   "severity": "substantial",
+   "target": "edges coptic-christianity-under-early-islam--makurian-nubian-christianity and cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era (the influenced links kept beside the new in-contact links)",
+   "problem": "Ruling 2 says these jurisdiction links are re-typed because 'influenced' claims ideas passed where the sources show an appointment. The drafter added a second, in-contact link for the appointment, which the method allows, but left the appointment evidence on the influenced links. The same act is now drawn twice, once as influence. Both are the examples Open-Gaps 'No link type for church jurisdiction' (2026-11-08) names. The drafter flagged both and did not touch them.",
+   "evidence": "Makuria influenced note sentence 2 'A Coptic history of the 700s says the patriarch in Egypt ordained the chief bishop of Makuria.' with HP sources 7181-7183, 7139-7141 and Griffith 4431-4432 ('became dependent on the ... patriarch'). Cappadocia influenced note sentences 2-3 ('a later head was put in place without the archbishop of Caesarea. That implies earlier heads had been.') with Langlois 22694-22695. What is real influence: Griffith 4432-4433 'thereafter Coptic monks and Coptic books abounded in Nubia', 4441-4442 (alphabet); Langlois 20944-20945 (Nerses a student at Caesarea); Ormanian 1872-1875 (schools of Caesarea and Edessa the only centres open to Armenia).",
+   "proposed_fix": "Makuria influenced: note -> 'Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. Coptic monks and Coptic books were common in Nubia.' (FRE 68.9, FK 6.7). Drop the two History of the Patriarchs sources; change the Griffith 4431-4432 source to lines 4432-4433, quote 'there- after Coptic monks and Coptic books abounded in Nubia'; keep 4441-4442. With no primary left, regrade Widely Accepted -> Dominant Modern Reconstruction. Cappadocia influenced: note -> 'Moses of Khoren says the young Nerses was then a student at Caesarea in Cappadocia. Nerses later became head of the Armenian church. Ormanian, a modern historian of that church, says only Caesarea and Edessa had schools that Armenians could reach then. When Moses wrote is disputed. Scholars date him anywhere from the fifth to the eighth century.' (FRE 60.9, FK 7.7). Move the Langlois 22694-22695 source (Moses III.39) to the new armenian-christianity-conversion-era--cappadocian-nicene-pastoral-monastic-tradition link; grade of the influenced link stays Widely Accepted (Moses primary + Ormanian)."
+  },
+  {
+   "id": "R1-03",
+   "severity": "substantial",
+   "target": "movement inquisition-record-sects-adamites-and-kin (sources, sourcing)",
+   "problem": "Ruling 5 splits the two movements by evidence, but this movement's source list still offers the Free Spirit's evidence as its own: the John of Brünn and Schweidnitz (1332) interrogations and Ad nostrum as 'the template'. Its sourcing line reads 'Heresiological artifacts in the Free Spirit pattern'. Both are public (the map panel shows sourcing and sources). After the rewrite no sentence in the movement rests on them; the drafter passed this to Mark instead of settling it.",
+   "evidence": "Census sources[1] 'Free Spirit-pattern interrogations: John of Bruenn's deposition; the Schweidnitz beguine interrogations (1332)'; sources[2] 'The heresiological template itself: Ad nostrum ...'. The same two items already sit on free-spirit-heresy.sources. The new voices line rests on Brezova 54889-54894 (Zizka's articles sent to Prague 'post eorum interfeccionem'), checked.",
+   "proposed_fix": "Remove sources[1] and sources[2] from inquisition-record-sects-adamites-and-kin. Replace sourcing with 'Known only from hostile chronicles'. Keep the Brezova/Aeneas Sylvius entry, Lerner (support for the parallel sentence) and the Cambridge reference."
+  },
+  {
+   "id": "R1-04",
+   "severity": "substantial",
+   "target": "movement free-spirit-heresy (why, longDescription)",
+   "problem": "'They found them, because the questions supplied the answers' is a blanket causal claim. The papal church's link to this movement now cites Wattenbach on the 1367 Erfurt case: the answers went far beyond the questions and the man seemed truly convinced. Lerner's thesis, as the movement itself states it, is that no organized sect existed, not that every answer was supplied. The sentence must be narrowed so the movement and its own link agree.",
+   "evidence": "wattenbach_...1887.txt:5719-5723: 'Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und enthalten eine Fülle ganz individueller Züge. Der Inquisit scheint ... von der Wahrheit seines Wahnes wirklich überzeugt zu sein'; his caution at 5717-5719 is about the questions following the Clementine schema.",
+   "proposed_fix": "why: replace 'They found them, because the questions supplied the answers.' with 'They found them, often because the questions supplied the answers.' (field FRE 61.8, FK 8.9). longDescription: replace 'and found them, because the questions supplied the answers.' with 'and found them, often because the questions supplied the answers.' (field FRE 61.4, FK 9.5). The two 26-28-word sentences the fields already had were there before this change."
+  },
+  {
+   "id": "R1-05",
+   "severity": "substantial",
+   "target": "movement the-english-mystics-and-devout (longDescription); drafter for_mark 'brewer's wife'",
+   "problem": "Settled, not passed on: 'a brewer's wife' is wrong. Margery's own Book says she herself took up brewing (for three or four years) and failed. Her husband John Kempe was a burgess of Lynn, not a brewer. The Book also names her as the daughter of John Brunham, five times mayor of Lynn. The Book (Windeatt) is on the movement's own source list but is not vendored. The correction rests on the Book, ch. 2 and the Proem/ch. 1, which every edition prints.",
+   "evidence": "The Book of Margery Kempe I.2 ('she began to brew, and was one of the greatest brewers in the town of N. for three or four years'); I.1 and later chapters on her father John of Burnham, mayor of Lynn. Not vendored; add to wants.",
+   "proposed_fix": "Replace 'Margery Kempe was a brewer's wife from Bishop's Lynn who could not write.' with 'Margery Kempe, a mayor's daughter from Bishop's Lynn, ran a brewery of her own for a few years. She could not write.' (field FRE 66.8, FK 7.1). Add to wants: a public-domain text of The Book of Margery Kempe."
+  },
+  {
+   "id": "R1-06",
+   "severity": "substantial",
+   "target": "movement late-anglo-saxon-christianity (longDescription sentences 1-2)",
+   "problem": "The rewrite moves the field's own judgment into Alfred's mouth: 'The Viking wars nearly killed English Christianity, by Alfred of Wessex's account.' Alfred's preface to the Pastoral Care says that learning had fallen away and that the churches had been ravaged and burned. It does not say Christianity nearly died. The 'reported' form must name what the witness reports, not more.",
+   "evidence": "Alfred, preface to the Pastoral Care (not vendored; wanted per the draft): 'Swæ clæne hio wæs oðfeallenu on Angelcynne ...' (learning had so utterly decayed) and 'ær ðæm ðe hit eall forhergod wære ond forbærned' (before it was all ravaged and burned).",
+   "proposed_fix": "Replace 'The Viking wars nearly killed English Christianity, by Alfred of Wessex's account. He wrote that the churches had been ravaged and burned.' with 'In the Viking wars, Alfred of Wessex wrote, the churches were ravaged and burned, and learning all but died out.' (with R1-08's change too, field FRE 63.5, FK 8.1)."
+  },
+  {
+   "id": "R1-07",
+   "severity": "substantial",
+   "target": "movement paulicians (why, longDescription); fact 21 marked 'sourced'",
+   "problem": "The fact is marked sourced, but the rewrite says more than the source shows. Evans (quoting Gibbon) shows Byzantine persecution, people condemned to the flames, and the Tephrike state and its fall. It does not show armies, or people driven from their homes (his 'transplantation' is Constantine V's resettlement in Thrace, another event). Separately, in why, 'they raided the empire's lands until it fell in 878' now makes 'it' read as the empire.",
+   "evidence": "evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt:1092-1097: 'when the persecution of Byzantium had provoked the Paulicians ... when the Roman Emperor fled before the heretics whom his mother had condemned to the flames, and Tephrice became the capital of a free-state'; 1086-1090 transplantation under Constantine V; 1107 'The fall of the Paulician free-state of Tephrice'.",
+   "proposed_fix": "why: replace 'Imperial armies killed them and drove them from their homes.' with 'The empire persecuted them, and many were burned.' and 'until it fell in 878.' with 'until the town fell in 878.' (field FRE 60.9, FK 7.6). longDescription: replace 'Imperial armies killed and uprooted them in large numbers.' with 'The empire persecuted them, and many were burned.' (field FRE 62.4, FK 8.2)."
+  },
+  {
+   "id": "R1-08",
+   "severity": "minor",
+   "target": "movement late-anglo-saxon-christianity (why, longDescription); drafter for_mark 'barely find a priest'",
+   "problem": "Settled: the fact is plain and stands, but the wording understates Alfred. He says he could not think of a single one south of the Thames, not that he could barely find one. 'Priest' goes slightly past his words: he speaks of men who could understand their services or translate a Latin letter.",
+   "evidence": "Alfred, preface to the Pastoral Care: 'Swæ feawa hiora wæron ðæt ic furðum anne anlepne ne mæg geðencean be suðan Temese ða ða ic to rice feng' (so few that I cannot think of even one south of the Thames when I came to the throne). Not vendored.",
+   "proposed_fix": "why: replace 'When he set out to rebuild, he complained he could barely find a priest south of the Thames able to translate a Latin letter.' with 'When he set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter.' (24 words; field FRE 65.9, FK 8.3). longDescription: replace 'When Alfred set out to rebuild, he complained that he could hardly find a priest south of the Thames able to translate a Latin letter.' with 'When Alfred set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter.'"
+  },
+  {
+   "id": "R1-09",
+   "severity": "minor",
+   "target": "movement early-benedictine-italian-monasticism (legacy)",
+   "problem": "'Later records add the Saracens, an earthquake, and Allied bombing in 1944' names no witness, and it makes a filmed and photographed event of 1944 sound like late tradition. The 'reported' form weakens it beyond the evidence. The earthquake is not violence and needs no hedge.",
+   "evidence": "Ruling 6 asks for a named witness. The Saracen sack (883) is told in the abbey's own Chronicle of Monte Cassino (Leo of Ostia), which is not vendored.",
+   "proposed_fix": "Replace 'Later records add the Saracens, an earthquake, and Allied bombing in 1944.' with 'The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and in 1944 Allied bombing destroyed it.' (field FRE 65.1, FK 7.1)."
+  },
+  {
+   "id": "R1-10",
+   "severity": "minor",
+   "target": "movement the-ethiopian-monastic-flowering (why)",
+   "problem": "The rewritten sentence runs to 27 words.",
+   "evidence": "'The lives of their own saints say they were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450.'",
+   "proposed_fix": "Replace with 'The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way.' (field FRE 64.3, FK 7.7)."
+  },
+  {
+   "id": "R1-11",
+   "severity": "minor",
+   "target": "edge coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity (outcome)",
+   "problem": "Abu Salih states a standing practice ('A metropolitan is sent'). The outcome 'Around 1200 the patriarch in Egypt sent the head bishop' reads as one act. The drafter flagged this.",
+   "evidence": "abu-salih_...evetts1895.txt:14287-14288.",
+   "proposed_fix": "outcome: 'Around 1200 the head bishop of the church in Abyssinia came from the patriarch in Egypt, who sent each one.' (20 words; FRE 71.8, FK 8.0)."
+  },
+  {
+   "id": "R1-12",
+   "severity": "minor",
+   "target": "movement church-of-the-east-schism-of-1552 (relationsSummary, statusDescription), ruling 1",
+   "problem": "The rename was carried out right, but both edited fields fail the reading target (relationsSummary FRE 17.1 / FK 18.8 in one 52-word sentence; statusDescription FRE 55.0 / FK 14.8). statusDescription also carries cataloguing language ('candidate tradition', 'the entry that follows'). CLAUDE.md asks that a change to a live field also clear what is already wrong in it.",
+   "evidence": "score_turn on the census fields as they now stand.",
+   "proposed_fix": "relationsSummary: 'Opponents of rule by one family elected Yohannan Sulaqa as patriarch. He went to Rome and was consecrated in St Peter's in 1553. He was martyred in 1555. A second line of patriarchs began with him, and the church has had two rival heads ever since. In Malabar, the Coonan Cross Oath was the same church's other trial of the seventeenth century. The story is told within the Church of the East after Timur, and the Chaldean line carries it on.' (FRE 69.2, FK 6.9). statusDescription: 'The schism of 1552 is not counted as a tradition of its own. It is told as the closing chapter of the Church of the East after Timur. The Chaldean line carries on in the movement that follows.' (FRE 82.3, FK 4.8)."
+  },
+  {
+   "id": "R1-13",
+   "severity": "minor",
+   "target": "movement church-of-the-east-timur-to-hakkari (informalName), ruling 1",
+   "problem": "The display name and place label follow the ruling. But the public informalName still reads 'The Mountain Remnant of Asia's Great Church'. That is the wording Mark was shown and declined, for the reason the ruling gives: the patriarchs sat at Gazarta and Mosul on the upper Tigris. The site uses informalName (cic-website/assets/chooser.js:48, 51).",
+   "evidence": "Decision-Log 2026-11-08 ruling 1, 'Shown with: keep the name; \"the Mountain Remnant\"'; the movement's own longDescription: 'The patriarchs of the late fifteenth century lived on the upper Tigris, at Gazarta and Mosul.'",
+   "proposed_fix": "informalName: 'The Northern Remnant of Asia's Great Church'."
+  },
+  {
+   "id": "R1-14",
+   "severity": "minor",
+   "target": "Open-Gaps closure for ruling 2",
+   "problem": "Ruling 2 draws only Leo X's division. Open-Gaps 'No link type for an authority's acts on another body's own order' (2026-11-08) also names acts by Martin V, Eugenius IV and the councils on the Observants' government, five sentences in all, left unlinked. If the gap is marked settled, those sentences drop out of tracking.",
+   "evidence": "Open-Gaps.md entry 66; drafter for_mark item 2 (Eugenius IV's 1438 letter, Bullarium Franciscanum n.s. I no. 385, lines 34646-34653).",
+   "proposed_fix": "When marking entries 55 and 66 settled, append a new numbered entry: the remaining authority acts on the Observants (Martin V, Eugenius IV 1438, the councils) to be drawn as in-contact links with outcomes under ruling 2, for the owner of the next links pass."
+  }
+ ],
+ "quotes_rechecked": 54,
+ "notes": "Validator: node tools/validate-census.mjs --base <origin/main census> gives 0 errors and 2 shortName warnings that were there before. The census matches the three drafts exactly: 26 movement fields, 10 changed edges, 3 new edges, 1 retired link. Every quote on the 11 drafted links (42) and on the 12 ruling 6 fact sources matches its file at the stated lines. Context reads: Mouravieff 1720-1730, 1920-1930, 2290-2298; Langlois 5094-5106, 5210-5220; Ormanian 1660-1700, 1740-1760, 1795-1805; HP 7130-7190; Glassberger 37420-37520 and preface 528-545; NPNF Reg. I.77 33795-33815; Teresa 21984-22018; Bullarium 85925-85960, 86170-86192; Lea III index 37338-37380; Evans 1084-1110; Fermendzin 1326-1340; Brezova 54870-54900; Griffith 4425-4450; Alcuin 64368-64376. Ruling 2: Kyiv and the Carmelites are rightly re-typed; both are authority acts (consecration by the patriarch; papal approval of a corrected rule at the order's request). The Numidia-Gregory outcome is sound under (c): Reg. I.77 keeps the Numidian custom for primates and bars bishops who had come from the Donatists. Ite vos is adequately sourced. The chronicle names the bull of union and gives its content ('unum corpus ... unimus', 37513-37515), along with the bull of concord. The editors' preface (536-539) gives the result: two separate orders in 1517. The OCR '1317' is answered by the editors' footnote and preface. Persia-St Thomas left as influenced: the reason given is half right. Movement dates that do not overlap do rule out in contact with, because the 550 act falls before the 849 movement. That fact does not make influence true. The link stands only because it is Inferential-Thin and its note says plainly that no source ties Cosmas to the Kerala church. Keeping it is defensible; retiring it is a fair P2-L11 question. No finding. Ruling 5: the retirement entry is well formed, and its replacedBy link exists and carries the 1367 case. The Free Spirit link's rewrite is sound; 'judged sincere' is a fair, slightly firm reading of Wattenbach's 'scheint ... wirklich überzeugt'. Two-way check passes: the era 6 movement keeps one link (Taborites), which its text names. The Free Spirit sentence is a comparison, not a claimed tie. Ruling 6: the classification of all 53 facts is accepted (35 plain, 18 guarded). Breslau: the Lea vol. III index line ('Jews ... burned by Capistrano in Breslau, ii. 549') is Lea's own statement, read at vendored lines. With the 1447 letter (Capistrano made enforcer of the decrees on Jews and Muslims 'in omnibus Italiae partibus') it is enough to count as sourced, though thin: vol. II p. 549 should stay wanted. The rewritten Breslau sentences claim no more than the two sources show. John Paul II 2001: settled as stands. In Athens on 4 May 2001 he said the sack 'fills Catholics with deep regret' and begged forgiveness for Catholic sins against the Orthodox. It was widely reported as an apology; 'voiced deep regret' would be more exact but is not required. Kesrwan: Duwayhi dates the march 1307, and the text says 'around 1305'. That is a date, not a guarded fact, and it is left. Outside this review's findings: cft-website/index.html embeds an older census copy (292 entries) that still shows 'the Hakkari Remnant', the old schism text and the retired link. This is the known embedded-data exception (tools/embedded-world-data-baseline.txt) and needs its re-sync. Public text in all changed fields is in American spelling and has no build narration, apart from R1-12. Every changed field passes Reading Ease >= 60 and FK <= 10, apart from R1-12. One new sentence runs past 25 words (R1-10)."
+}
