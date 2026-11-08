@@ -19,23 +19,26 @@ Ownership between the parts: part 1 owns any relationship a part-1 text names. T
 4. **Revision** (Opus): `Revision_Round1.json`. All 21 findings fixed, 8 of them differently from the proposed fix, with reasons. 19 links rewritten, 7 prose changes (six supersede drafting changes, one new). No published link's ID, ends or type changed.
 5. **Review round 2** (separate Opus agent, targeted recheck): `Opus_Review_Round2_TargetedRecheck.json`. Pass: 0 blocking, 0 substantial, 1 minor (the revised links were labeled "revise" in the audit file, though unpublished). Relabeled "new" in `Revision_Round1.json` as written; the census is unaffected.
 
-Two of the three rounds of the cap were used. No finding is open.
+6. **Added link** (Opus): `Revision_Round2_Addition.json`. Main's Open-Gaps entry 74 ("Continues as" with no graded link, 2026-11-08) asks each era pass to close its movements' `continuesAs` fields that have no graded link. One part-1 movement had one: `the-black-church-in-america` to `the-black-church-in-the-twentieth-century`. It is drawn as "continued as" at Dominant Modern Reconstruction (Allen's narrative of the 1816 founding, lines 992-994, and Sernett's documentary history; no vendored text reaches past 1906).
+7. **Review round 3** (separate Opus agent, targeted recheck of the added link): `Opus_Review_Round3_TargetedRecheck.json`. Pass: 0 findings.
+
+All three rounds of the cap were used. No finding is open.
 
 After review, the spelling check flagged one note: Carey's book title "Enquiry". The title is now set in quotes so it keeps the edition's spelling (Decision-Log 77); no words changed (`Spelling_Fix.json`).
 
 ## Counts
 
-- Links touching a part-1 movement: 40. This pass added 34 and rewrote the notes of 3 (Holiness to Azusa Street; Stone-Campbell to the Churches of Christ and to the Disciples, for reading level). 3 were already on main and unchanged (from the era 8 movements). No link retired; every published ID stands.
-- Census links in all: 364 before this pass (after era 6, merged first as data release 11), 398 after. Data release 12 (2026-11-08). Era 6's links touch no part-1 movement, and none of this pass's links repeats one of them.
-- Grades of the links added: Dominant Modern Reconstruction 21, Documented 6, Widely Accepted 5, Inferential-Thin 2. Most of this lane's own texts (the founders' sermons, minutes and confessions) are not vendored; see wanted texts.
-- Types of the links added: influenced 15, gave rise to 9, continued as 5, broke with 3, argued against 2.
+- Links touching a part-1 movement: 41. This pass added 35 and rewrote the notes of 3 (Holiness to Azusa Street; Stone-Campbell to the Churches of Christ and to the Disciples, for reading level). 3 were already on main and unchanged (from the era 8 movements). No link retired; every published ID stands.
+- Census links in all: 364 before this pass (after era 6, merged first as data release 11), 399 after. Data release 12 (2026-11-08). Era 6's links touch no part-1 movement, and none of this pass's links repeats one of them.
+- Grades of the links added: Dominant Modern Reconstruction 22, Documented 6, Widely Accepted 5, Inferential-Thin 2. Most of this lane's own texts (the founders' sermons, minutes and confessions) are not vendored; see wanted texts.
+- Types of the links added: influenced 15, gave rise to 9, continued as 6, broke with 3, argued against 2.
 - Dispositions of the named relationships (drafting, 351): no-entry 135, kept-as-is 94, link 76, qualify 30, out-of-scope 9, remove 7. "no-entry" means the other party has no census movement; its claim was still checked, and qualified where no vendored or repo-cited source supports it.
-- Prose: 28 movement fields changed. Every changed paragraph, and every new or rewritten link note, scores Reading Ease 60 or more and FK grade 10 or less with `engine.m7.turn_readability.score_turn` (`Readability_Scores.json`, 65 scored, 0 failing).
+- Prose: 28 movement fields changed. Every changed paragraph, and every new or rewritten link note, scores Reading Ease 60 or more and FK grade 10 or less with `engine.m7.turn_readability.score_turn` (`Readability_Scores.json`, 66 scored, 0 failing).
 - Quote check: `node tools/validate-census.mjs --base <main's census> --atlas cft-website/index.html --tree cft-website/tree`, 0 errors. Every primary quote appears verbatim at its stated lines. Several keep the edition's OCR errors exactly (McNemar's "fiinccre"); each is in the link's drafter flags.
 
 ## Major links
 
-- Major by type (links touching part 1, after this pass): 20. Gave rise to 12, continued as 5, broke with 3.
+- Major by type (links touching part 1, after this pass): 21. Gave rise to 12, continued as 6, broke with 3.
 - Major by outcome: **0**. No `outcome` field was added.
 - Judged and found minor (17 "influenced" or "argued against" links; reasons in `Drafting_Record.json` and `Revision_Round1.json`, field `major`):
 
@@ -99,7 +102,7 @@ Every link added or changed is named in the text of one of its movements (`named
 
 - Eras 6, 7 and 8 run at the same time. Relationships their own movements' texts name were left to them (9 dispositions "out-of-scope"). This pass drew two era-8-to-era-9 links that only the era-9 text names: `the-methodist-revival--nineteenth-century-methodism` and `the-baptists--nineteenth-century-baptists` (both "continued as"). Era 8's branch had not applied any link when this pass applied.
 - Era 7's branch carries `st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor` ("continued as"). Its era-7 text says the Kerala and Northeast India churches descend from the St Thomas Christians. The northeast hill churches came from Welsh and American missions; only the Mar Thoma half descends. Flagged for era 7's owner, not touched (Open-Gaps, "Era 7's St Thomas entry and the Northeast India churches", 2026-11-08).
-- The link work now covers eras 1 to 9, and era 10 is deferred (Decision-Log, "The link work covers eras 1 to 9", 2026-11-08). Era 10's movements stay on the map, so the links era-9 text names to them stand: 13 links, 10 new and 3 already on main. They run to Azusa Street (two), the Churches of Christ, the Disciples, the Seventh-day Adventists, dispensational prophecy culture, the Chinese church, the African initiated churches, the ecumenical movement, independent Indonesia, twentieth-century Northeast India and Mar Thoma, the Malankara churches, and the Communist-era persecuted churches.
+- The link work now covers eras 1 to 9, and era 10 is deferred (Decision-Log, "The link work covers eras 1 to 9", 2026-11-08). Era 10's movements stay on the map, so the links era-9 text names to them stand: 14 links, 11 new and 3 already on main. They run to the Black Church of the twentieth century, Azusa Street (two), the Churches of Christ, the Disciples, the Seventh-day Adventists, dispensational prophecy culture, the Chinese church, the African initiated churches, the ecumenical movement, independent Indonesia, twentieth-century Northeast India and Mar Thoma, the Malankara churches, and the Communist-era persecuted churches.
 
 ## Open items
 

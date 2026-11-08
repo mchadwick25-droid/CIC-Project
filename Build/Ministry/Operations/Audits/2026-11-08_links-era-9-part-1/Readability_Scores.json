@@ -546,5 +546,13 @@
   "fre": 65.54557142857144,
   "fk": 6.899428571428572,
   "words": 58
+ },
+ {
+  "link": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+  "field": "note",
+  "scored": true,
+  "fre": 60.98833333333336,
+  "fk": 9.390000000000004,
+  "words": 58
  }
 ]
