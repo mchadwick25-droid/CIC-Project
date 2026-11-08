@@ -77,8 +77,9 @@ applied to every shared file, not only the census.
 | P2-L2 | Links, era 2; data release 6 | none | merged (#1539) |
 | P2-L3 | Links, era 3; data release 7 | none | in review |
 | P2-L4 | Links, era 4; data release 8 | none | merged (#1541) |
-| P2-L5 | Links, era 5; data release 9 | none | in review |
-| P2-L6…L10 | Links, one era per chunk | none | todo |
+| P2-L5 | Links, era 5; data release 9 | none | merged (#1542) |
+| P2-L6 | Links, era 6; data release 10 | none | in review |
+| P2-L7…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-M | Method page, confidence at a glance | none | todo |
 | P2-D | Data and citation page | none | todo |
