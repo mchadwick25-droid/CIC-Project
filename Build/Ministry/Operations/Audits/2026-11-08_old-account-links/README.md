@@ -4,7 +4,7 @@ Ruling: Church Family Tree Decision-Log, "Dominant links on two or three old acc
 
 ## What changed
 
-- **Six links to Inferential-Thin:** Cluny, Alfred's Pastoral Care, the Slavonic books in Rus', the Humiliati, Edinoverie, and Kyiv's passing to Moscow in 1686. Each note now names the older accounts it rests on and says it has not yet been checked against a modern study.
+- **Six links to Inferential-Thin:** Cluny, Alfred's Pastoral Care, the Slavonic books in Rus', the Humiliati, Edinoverie, and Kyiv's passing to Moscow in 1686. Each note now names the older accounts it rests on and says no modern study of it has been consulted.
 - **One more link to Inferential-Thin**, found by review (finding C1-05): Coptic Egypt to Makuria, resting on Griffith's one account of 1913. Ruling 1 of "Whole-set rulings" covers it.
 - **Two links keep Dominant**, each with the modern study the repo already cites for the same events: Skinner (2009) on the 1794 Ruthenian reunion campaign; Frazee (1983) on the Avedik affair. Both are cited in the repo from reference summaries; neither book has been read.
 - **Quotes under ruling 3:** the Cluny link's two editors (Hunter Blair 1907, Gasquet) and the Alfred link's Barmby (1895) are in the Library, so they now carry their lines and a checked quote.

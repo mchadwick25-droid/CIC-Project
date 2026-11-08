@@ -85,7 +85,7 @@ applied to every shared file, not only the census.
 | P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14, part 2 (the other lanes) data release 15 | none | part 1 merged (#1545); part 2 in review |
 | Era 6 rulings | Mark's seven rulings on the era 6 questions carried out; data release 18 | none | in review |
 | P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
-| P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552) |
+| P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |
 | P2-L11c | Dominant links on two or three old accounts; data release 20 | none (3-round cap) | in review |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |

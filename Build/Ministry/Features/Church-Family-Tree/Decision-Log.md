@@ -550,3 +550,11 @@ Frazee (1983) on the Avedik affair. The other six have none anywhere in the repo
 Inferential-Thin and their wanted studies are listed. Options shown: Thin and list the wanted
 studies (recommended); cite modern studies from outside the repo, unread; leave them Dominant.
 Applied as P2-L11c, data release 20. Review added one more link of the same kind (Coptic Egypt to Makuria, on Griffith 1913 alone), also made Inferential-Thin.
+
+## 2026-11-08 — The whole-set review is approved to proceed
+
+**Decided (Mark: "approve the full review").** P2-L11, the whole-set review of the links for eras
+1 to 9, is approved to proceed, together with its two follow-ups: the five whole-set rulings
+(P2-L11b, data release 19) and the Dominant links on old accounts (P2-L11c, data release 20). This
+is the work's own approval, not a closure: nothing closes before Phase Five boundary testing and
+the full-system review. Era 10's links wait for its traditions (P2-L10).
