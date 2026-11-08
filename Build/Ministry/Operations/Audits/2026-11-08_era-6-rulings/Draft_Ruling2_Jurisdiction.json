@@ -1,0 +1,545 @@
+{
+ "part": "ruling 2",
+ "links": [
+  {
+   "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "from": "byzantine-church-after-1054",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "885-888",
+     "locus": "on the tie to the see of Constantinople",
+     "quote": "Hence  the  indissoluble  connection of  the  Russian  with  the  Greek  Church,  and  the  dependence of  her  Metropolitans  during  six  centuries  upon  the  Patri- archal  throne  of  Constantinople,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1727",
+     "locus": "on the metropolitan John II",
+     "quote": "who  was  appointed  by  the  Patriarch  Eustratius4,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1927-1928",
+     "locus": "on the metropolitan Nicetas (1124)",
+     "quote": "consecrated  to  be  metropolitan  by  the  Patriarch  John,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2295-2297",
+     "locus": "on the metropolitan Matthew",
+     "quote": "The  new  metropolitan,  Matthew,  was  a  witness  of  this calaroity-  He  was  sent  from  Constantinople  shortly  before its  capture  by  the  crusaders,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "In 1124 the patriarch John made Nicetas the chief bishop of Rus'.",
+   "action": "retype",
+   "outcome_basis": "c",
+   "outcome_locus": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1927-1928",
+   "change_reason": "Re-typed from influenced (ruling 2, 2026-11-08): the source shows chief bishops named and sent by the patriarch, not ideas passed. Same ID (alphabetical). The two duplicate unlocated Mouravieff entries now carry vendored lines and quotes; outcome added under (c).",
+   "drafter_flags": [
+    "Mouravieff is a secondary history (1838); the outcome rests on it at lines read, so the grade stays Dominant Modern Reconstruction.",
+    "The marginal year 1124 stands beside the Nicetas sentence in the scan (line 1928)."
+   ]
+  },
+  {
+   "id": "armenian-christianity-conversion-era--cappadocian-nicene-pastoral-monastic-tradition",
+   "from": "armenian-christianity-conversion-era",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A Life of Nerses says he was made head of his church at Caesarea, in Cappadocia. It says the Armenians went there for this until the Council of Chalcedon. But Malachia Ormanian, a historian of their church, says Caesarea never ruled over it.",
+   "outcome": "At Caesarea, many bishops met and made Nerses the head of the church of Great Armenia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, anonymous, ch. III, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5103-5105",
+     "locus": "Vie de saint Nersès III",
+     "quote": "afin de consacrer avec pompe le grand Nersès comme catholicos de la Grand^Arménie,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, ch. IV-V (Langlois II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5214-5219",
+     "locus": "Vie de saint Nersès IV-V",
+     "quote": "C'est pour cette raison que les Arméniens allèrent demander leur consécration à Césarée jusqu'au concile de Chalcédoine.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Victor Langlois, note 7 to Moses of Khoren, History of Armenia III.39 (Collection des historiens de l'Arménie II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22732-22734",
+     "locus": "Moses of Khoren III.39, note 7",
+     "quote": "Les successeurs de saint Grégoire jusqu'à l'avéna- ment de Schahag furent consacrés à Césarée;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912), ch. IV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1750-1752",
+     "locus": "ch. IV, 'Formation of the Ecclesiastical Hierarchy'",
+     "quote": "At  no  period  has  the  see  of  Caesarea,  nor  that  of Antioch  or  Constantinople,  exercised  any  authority or  jurisdiction  in  Armenia  properly  so  called  ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "outcome_basis": "c",
+   "outcome_locus": "langlois_collection-historiens-armenie-tome2-fra_1869.txt:5097-5105, 5218-5219",
+   "change_reason": "New (ruling 2): the consecration of Armenia's head bishop at Caesarea, an authority act, drawn as in contact with beside the existing influenced link, which keeps its separate schooling evidence.",
+   "drafter_flags": [
+    "The Life's date is uncertain: Langlois's heading puts it in the fifth century, but his own introduction (lines 4480-4500) names a tenth-century Life by the priest Mesrob drawn from older material. Hence Widely Accepted, not Documented.",
+    "The Life names the consecrator 'Ensèbe' (OCR for Eusèbe, line 5098); the outcome reads it as Eusebius. Nerses's date (c. 353) is not stated in these lines and is left out.",
+    "The existing influenced link keeps its Moses III.39 sentence about Shahak installed without Caesarea; Mark may want it moved here later. Not touched.",
+    "Langlois's note gives Faustus of Byzantium III.12, 16 as its ground; Faustus is not vendored."
+   ]
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity--2",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "makurian-nubian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "A Coptic history of the 700s describes the king of Makuria in Nubia. It says the patriarch in Egypt ordained his chief bishop, who then ordained the bishops and priests of the land. When that bishop died, the patriarch of Alexandria chose and ordained another.",
+   "outcome": "The patriarch in Egypt named and ordained the chief bishop of Makuria, and chose a new one when he died.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7139-7141",
+     "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
+     "quote": "He  was  the  orthodox  Ethiopian  king of  Al-Mukurrah;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7181-7183",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "and  he  has  in  his  country  an  orthodox  bishop  whom the  patriarch  ordains  as  metropolitan,  and  who  ordains  for  the  king  tlie bishops  and  the  priests  in  that  land.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7183-7185",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "And  when  the  metropolitan  dies,  the patriarch  of  Alexandria  appoints  another  for  him,  wliom  he  chooses,  and  or- dains  him  for  that  people.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4431-4432",
+     "locus": "Griffith 1913, introduction",
+     "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "outcome_basis": "c",
+   "outcome_locus": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:7181-7185",
+   "change_reason": "New (ruling 2): the patriarch's ordination of Makuria's chief bishop, an authority act, drawn as in contact with. The existing influenced link keeps its alphabet, monks and books evidence and is left as it stands.",
+   "drafter_flags": [
+    "The existing influenced link repeats the ordination sentence; Mark may want it trimmed there later. Not touched.",
+    "The file is the mixed Patrologia Orientalis 5 volume; Evetts's English History of the Patriarchs is the part quoted, as on the existing link."
+   ]
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Around 1200 a Coptic survey of Egypt's churches says the head bishop of Abyssinia is sent 'from the patriarch of Alexandria'. 'Abd al-Latif, writing in the same years, tells of an envoy from the Abyssinian king. The envoy reported the bishop's death and asked for a new one. A note in the Kebra Nagast names a Coptic book of 'the throne of Mark' in King Lalibela's time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105a",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "'Abd al-Latif, quoted in Evetts's note to the Churches and Monasteries of Egypt (1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14351-14353",
+     "locus": "note to fol. 105a (A.H. 596 = A.D. 1200)",
+     "quote": "In the month of Shawwal an envoy arrived from the king of the Abyssinians, bearing a letter which contained the announcement of the death of their metro- politan, and requested the appointment of his successor",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15301-15304",
+     "locus": "colophon",
+     "quote": "We have turned [this book] into Arabic from a Coptic manuscript [belonging to] the throne of Mark the Evangelist, the teacher, the Father of us all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15306-15308",
+     "locus": "colophon",
+     "quote": "in the days of Gabra Maskal the king, who is called Lalibala, in the days of Abba George, the good bishop.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "Around 1200 the patriarch in Egypt sent the head bishop of the church in Abyssinia.",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt:14287-14288",
+   "change_reason": "Outcome added (ruling 2): the link's own source shows the patriarch sending the head bishop of the Abyssinian church. Nothing else changed.",
+   "drafter_flags": [
+    "Abu Salih states the sending as standing practice ('is sent'); the 1200 envoy (line 14351-14353) shows a request for a successor, not the appointment itself."
+   ]
+  },
+  {
+   "id": "church-of-the-east-timur-to-hakkari--st-thomas-christians-1300-1517",
+   "from": "church-of-the-east-timur-to-hakkari",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1490 three Christians set out from India to ask the patriarch Simeon for bishops. He made two monks bishops and sent them back with the Indians. In 1504 a later group of bishops wrote to the patriarch from Malabar that its Christians had welcomed them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1797-1800",
+     "locus": "Mingana 1926, pp. 36-37 (Assemani, Bibl. Orient. III.1, p. 590)",
+     "quote": "In the year one thousand eight hundred and one of Alexander (a.D. 1490), three believing Christian men came from the remote countries of India to the Catholicos Mar Simeon, Patriarch of the East, in order to bring bishops to their countries.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1821-1826",
+     "locus": "Mingana 1926, p. 37",
+     "quote": "the Catholicos ordained both of them bishops in the Church of St. George. He named one Thomas and the other John, and he wrote to them admirable letters patent sealed with his own seal.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1825-1826",
+     "locus": "Mingana 1926, p. 37",
+     "quote": "he despatched  them  to  India  in  the  company  of  the  Indians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1894-1899",
+     "locus": "Mingana 1926, p. 38, the letter of 1504",
+     "quote": "All the Christians of this side were greatly pleased with us, and our Father Mar John is still alive and hale and sends thee his greetings.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "After Indian Christians came to him in 1490, the patriarch Simeon ordained two monks as bishops and sent them to India.",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "mingana_early-spread-of-christianity-in-india_mingana1926.txt:1797-1800, 1821-1826",
+   "change_reason": "Outcome added (ruling 2): the link's own source shows the patriarch ordaining and sending bishops for India. One source added at the lines that show the sending, which the note already stated.",
+   "drafter_flags": []
+  },
+  {
+   "id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "from": "latin-africa-under-byzantium",
+   "to": "roman-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop. But he barred bishops who had come over from the Donatists from that rank.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "33808-33811",
+     "locus": "Reg. I.77",
+     "quote": "And we, indeed, according to the tenour of your representation, allow your custom (so long as it clearly makes no claim to the prejudice of the catholic faith) to remain undisturbed, whether as to constituting primates or as to other points;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory the Great, Register I.77, To all the Bishops of Numidia (NPNF 2.12, Barmby)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "33811-33813",
+     "locus": "Reg. I.77",
+     "quote": "save that with respect to those who attain to the episcopate from among the Donatists, we by all means forbid them to be advanced to the dignity of primacy,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "Pope Gregory let the Numidian bishops keep their old way to pick a head bishop, but not one who had been a Donatist.",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "npnf212_leo-great-gregory-great.xml:33808-33813",
+   "change_reason": "Outcome added (ruling 2): Gregory's letter sets a rule for another church's choice of its senior bishop. Nothing else changed.",
+   "drafter_flags": []
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-carmelites",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-carmelites",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Pope Innocent IV wrote to 'the prior and brethren, hermits of blessed Mary of Mount Carmel'. At their request two delegates had explained, corrected and softened their rule, and he confirmed the result. His letter is dated at Lyons in the fifth year of his reign, which was 1247.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), trans. in Teresa of Ávila, The Book of the Foundations, Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21980-21983",
+     "locus": "bull of Innocent IV, salutation",
+     "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22014-22017",
+     "locus": "bull of Innocent IV",
+     "quote": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22409-22410",
+     "locus": "bull of Innocent IV, dating clause",
+     "quote": "Given at Lyons, October 1, in the fifth year of our pontificate.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "In 1247 the pope had the rule of the Carmelites made milder at their own request, and then he confirmed it.",
+   "action": "retype",
+   "outcome_basis": "c",
+   "outcome_locus": "teresa-of-avila_book-of-foundations_lewis1913.txt:22014-22017",
+   "change_reason": "Re-typed from influenced (ruling 2): the letter shows a pope approving and correcting another body's rule at its request, an authority act, not ideas passed. Same ID (alphabetical). Outcome kept in substance, made one sentence.",
+   "drafter_flags": [
+    "Teresa's later reform (the-carmelites--carmelite-reform-and-spanish-mystics, influenced) is genuine influence and is left alone."
+   ]
+  },
+  {
+   "id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v--2",
+   "from": "franciscan-order-era-6",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "An Observant chronicle says that in 1517 Pope Leo X issued two bulls for the Franciscans. One joined all the reformed friars into a single body. The other set terms between the head of the whole order and the head of the Conventual friars. The chronicle's editors wrote in 1887 that Leo had made two separate orders.",
+   "outcome": "In 1517 Pope Leo X made the reformed friars one body under their own head, set apart from the Conventual friars.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37436-37438",
+     "locus": "ann. 1517 (p. 557)",
+     "quote": "ele- ctus  est  et  tandem  a sanctissimo  domino  nostro,  domino  Leone  X.  Summo  Pontifice , confirmatus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37441-37443",
+     "locus": "ann. 1517 (p. 557)",
+     "quote": "altera  vocatur  Bulla Concordiae  inter  Generalem  Ministrum  lotius  Ordinis  et  Generalem  Magistrum,  Fra- trum Conventualium  eiusdem  Ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887), summary of the bull of union",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37513-37515",
+     "locus": "ann. 1517 (p. 558)",
+     "quote": "Ex quibus  omnibus  supradictis  unum  corpus  insimul  facientes,  eosdem  ad  invicem  per- petuo unimus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Quaracchi editors, preface to Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "536-539",
+     "locus": "Praefatio, p. XIV",
+     "quote": "Leo  X.  a.  1517 melius  esse  iudicavit,  attenta  inveterata  a saeculis  diversitate observantiae,  duos  distinctos  Ordines  perfecte  separatos  con- stituere,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. III (1888), ch. II",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "3358-3360",
+     "locus": "vol. III p. 65",
+     "quote": "until  it  was  finally  absorbed  into  the  latter  in  the  re- organization  of  1517  under  Leo  X.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "outcome_basis": "c (with b: the Conventuals left as a separate body)",
+   "outcome_locus": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:37440-37443, 37513-37517; 536-539",
+   "change_reason": "New (ruling 2): Leo X's settlement of 1517 (Ite vos and the bull of concord) drawn as in contact with between the order and the papal church. Next free suffix on the pair (franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v is argued against).",
+   "drafter_flags": [
+    "Ite vos's own text is not vendored. The chronicle summarizes it and names it the bull of union, beginning 'Jit' vos in vineam meam' (OCR for Ite vos, line 37441); quotes are kept as printed, including 'lotius' for totius.",
+    "The chronicle's year line reads '1317' (OCR for 1517, line 37425); the editors' footnote (line 37468) and preface give 1517. The note and outcome give the year, not the day.",
+    "Glassberger was writing in 1508 (preface, line 106), so the 1517 entry may be a continuation in the same codex. The preface does not say who wrote it; the note says 'an Observant chronicle', not Glassberger by name.",
+    "The 29 May 1517 date of Ite vos is not in these lines and is not used."
+   ]
+  }
+ ],
+ "retired_links": [],
+ "prose_changes": [],
+ "wants": [
+  "Leo X, Ite vos (29 May 1517) and Omnipotens Deus (bull of concord), in a public-domain Latin edition: Bullarium Romanum (Turin ed.) vol. V, or Wadding, Annales Minorum ad an. 1517 nn. XX-XXX (the Glassberger editors cite both, line 37468). Would let the link quote the bull itself and give the day.",
+  "Faustus of Byzantium, History of Armenia III.12, 16 (Langlois, Collection I), on consecration of Armenia's heads at Caesarea; Langlois tome I is not vendored."
+ ],
+ "for_mark": [
+  "the-church-of-the-east-under-persia--st-thomas-christians-of-india (influenced, Inferential-Thin) rests only on Cosmas's bishop at Kalyan 'appointed from Persia', an authority act. It cannot be re-typed to in contact with: the two movements do not overlap (424-651 and 849-1054), and Cosmas does not tie the act to the Kerala church. Options: (a) leave it as a thin influence claim, as now; (b) retire it, since the Abbasid link (church-of-the-east-under-the-abbasids--st-thomas-christians-of-india) already carries the documented tie; (c) recast it as continued as on a different pair. Recommend (a) for now, with (b) as a P2-L11 question.",
+  "Open-Gaps 'No link type for an authority's acts on another body's own order' (2026-11-08) also names Martin V, Eugenius IV and the councils setting the Observants' government, left unlinked. Ruling 2 now covers them: a latin-papal-church-avignon-to-lateran-v and observant-reform-and-popular-preaching in contact with link could rest on Eugenius IV's 1438 letter (Bullarium Franciscanum n.s. I, no. 385, lines 34646-34653). Not drawn here, as it is outside this brief.",
+  "Ruling 2 settles Open-Gaps 'No link type for church jurisdiction' (2026-11-08) and 'No link type for an authority's acts on another body's own order' (2026-11-08); both can be marked settled when this is applied."
+ ],
+ "notes": "Ruling 2 carried out on every link found whose sources show an authority act on another body. Two re-typed from influenced to in contact with with IDs unchanged (both already alphabetical), so nothing retired. Two new second links where the influenced link also carries real influence. Three in contact with links gain outcomes. Ite vos drawn from the vendored Observant chronicle and its 1887 editors' preface. No movement text calls a re-typed relationship influence, so no prose changes.",
+ "minor_no_outcome": [
+  {
+   "id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "reason": "Its sources show a request that the patriarch write to the Aksumite king (Najran, 520s), not an appointment or other act done; Frumentius is not on this link."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+   "reason": "Its sources show letters urging peace and a statement that the patriarch 'exercises authority' over the kings (7179-7181), not a dated appointment; al-Hakim's ban on the letters is a caliph's act, not a church authority's."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+   "reason": "Inferential-Thin; a 1301 colophon naming the patriarch and Jacob as metropolitan shows honor, not the act of appointing him."
+  },
+  {
+   "id": "latin-papal-church-gregorian--maronite-christianity",
+   "reason": "The 1215 union bull is not vendored; both sources are named-not-rechecked secondaries, so no source on the link shows the act at lines."
+  },
+  {
+   "id": "latin-church-of-outremer--maronite-christianity",
+   "reason": "William of Tyre is not read at vendored lines; secondaries only, named-not-rechecked."
+  }
+ ],
+ "checked_left_as_is": [
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "why": "Influenced stands: Nerses studied at Caesarea and Ormanian names Caesarea's schools as Armenia's centers of learning (1872-1875); Ormanian also says the Armenian liturgy followed Basil's of Caesarea (2057-2059). The consecration is drawn as the new second link."
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "why": "Influenced stands: the Coptic alphabet, monks and books (Griffith). The ordination is drawn as the new --2 link."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--georgian-christianity",
+   "why": "Influenced stands: Chalcedon's acts and Leo's Tome passed to Georgia (Issaverdens, Ormanian)."
+  },
+  {
+   "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+   "why": "Influenced stands: the friars kept 'the observance of the Rule of blessed Francis'; the Rule is what passed."
+  },
+  {
+   "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   "why": "Influenced stands: Trullo took Gregory's canons into its own law."
+  },
+  {
+   "id": "the-dominican-order--the-carmelites",
+   "why": "The two Dominicans acted as papal delegates, not for their order; the link is an Inferential-Thin influence claim and says so."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati--2",
+   "why": "In contact with, outcome already set. Its Giussano secondary is vendored and shows the act (giussano_life-of-st-charles-borromeo-v1_1884.txt:12176-12178, 'Their order was approved by Innocent III. in 1200'); the link does not yet carry those lines, and its outcome is two sentences. Not changed here; for the owner of the major-links pass."
+  },
+  {
+   "id": "several in contact with links with outcomes already (cappadocian/antiochene--imperial-juridical, abbasids--st-thomas, palaiologan--muscovite, latin-papal-church-gregorian--the-franciscan-movement, avignon--maronite-era-6)",
+   "why": "Already carry an outcome from their own sources; not re-opened."
+  },
+  {
+   "id": "gave rise to links with a mission or appointment (macedonian--kievan-rus, roman-church-gregorian--anglo-saxon, insular--anglo-saxon, cyrilline--nubian-christianity)",
+   "why": "People passing between the bodies is shown, so the lineage type stands."
+  }
+ ]
+}
