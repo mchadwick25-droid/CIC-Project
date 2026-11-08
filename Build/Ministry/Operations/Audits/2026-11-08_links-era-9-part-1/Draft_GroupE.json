@@ -1,0 +1,1017 @@
+{
+ "group": "E",
+ "movements": [
+  "the-haugean-awakening",
+  "laestadianism-and-the-nordic-revivals",
+  "the-reveil-and-inner-mission-awakening",
+  "confessional-lutheran-revival-emigrations"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-haugean-awakening",
+   "field": "relationsSummary",
+   "sentence": "Child of Pietism inside the Lutheran establishment",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-haugean-awakening",
+   "prose_change": 0,
+   "reason": "Linked as 'influenced', Dominant Modern Reconstruction on the named Hauge biographies; summary reworded to say it is their reading."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "relationsSummary",
+   "sentence": "Child of Pietism inside the Lutheran establishment",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "longDescription",
+   "sentence": "Which was against the law, because Norway's Conventicle Act reserved religious meetings to the parish clergy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A law, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "longDescription",
+   "sentence": "He wrote thirty-three books and tracts, walked thousands of miles, and founded mills, paper works and trading businesses to support the network of \"friends\" that grew around him; the state answered by arresting him in 1804 and keeping him in prison and under prosecution for most of the following decade.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "longDescription",
+   "sentence": "The movement long outlasted the man: after his death in 1824 the friends' societies went on meeting and trading, and in 1842 the Conventicle Act itself was repealed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A law, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "why",
+   "sentence": "In 1796 a Norwegian farmer's son named Hans Nielsen Hauge had a religious experience in his father's field and set out on foot to preach, defying a law that reserved religious meetings to the parish clergy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A law, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "why",
+   "sentence": "He wrote thirty-three books and founded mills and trading businesses to support the network of \"friends\" that grew around him, while the state answered by imprisoning him for most of the following decade.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "why",
+   "sentence": "Those friends' societies kept meeting and trading long after his death in 1824, until the law he had defied was finally repealed in 1842.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A law, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "legacy",
+   "sentence": "Haugean piety became one of the permanent layers of Norwegian Lutheranism: a lay preaching culture, a network of mission societies and prayer houses, and a suspicion of clerical monopoly that outlived the law it was reacting against.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for Norwegian or Norwegian-American Lutheranism. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "legacy",
+   "sentence": "Haugean piety became one of the permanent layers of Norwegian Lutheranism: a lay preaching culture, a network of mission societies and prayer houses, and a suspicion of clerical monopoly that outlived the law it was reacting against.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A law, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "legacy",
+   "sentence": "Norwegian emigrants carried it into the American Midwest, where Haugean congregations became one of the founding strands of Norwegian-American Lutheranism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for Norwegian or Norwegian-American Lutheranism. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "sentence": "Laestadianism is part of Pietism's long line in the Lutheran north, marked by its practice of spoken absolution between believers, and its communities are still alive today.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals",
+   "prose_change": 4,
+   "reason": "Linked as 'influenced', Inferential-Thin; summary reworded to 'often counted as a late branch of Pietism'."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "sentence": "The Swedish low-church revivals led by Carl Olof Rosenius, whose mission society formed in 1856, and P. P. Waldenström, whose Mission Covenant Church formed in 1878, are counted alongside it as part of the same broader Nordic revival movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Person or body with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "sentence": "The Swedish low-church revivals led by Carl Olof Rosenius, whose mission society formed in 1856, and P. P. Waldenström, whose Mission Covenant Church formed in 1878, are counted alongside it as part of the same broader Nordic revival movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Person or body with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "sentence": "The Swedish low-church revivals led by Carl Olof Rosenius, whose mission society formed in 1856, and P. P. Waldenström, whose Mission Covenant Church formed in 1878, are counted alongside it as part of the same broader Nordic revival movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Person or body with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "sentence": "The Swedish low-church revivals led by Carl Olof Rosenius, whose mission society formed in 1856, and P. P. Waldenström, whose Mission Covenant Church formed in 1878, are counted alongside it as part of the same broader Nordic revival movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Person or body with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "longDescription",
+   "sentence": "Lars Levi Laestadius was a Swedish Lutheran pastor and a serious botanist, of partly Sami descent, serving parishes in Lapland that were being destroyed by alcohol — and in 1844 a conversation with a young Sami woman he called Mary changed his preaching entirely.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "longDescription",
+   "sentence": "It was never only his: the same century brought Paavo Ruotsalainen's awakening in Finland and, in Sweden, the low-church revivals of Carl Olof Rosenius and P. P. Waldenström — a wider family of Nordic revivals, not just one man's movement.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "longDescription",
+   "sentence": "It was never only his: the same century brought Paavo Ruotsalainen's awakening in Finland and, in Sweden, the low-church revivals of Carl Olof Rosenius and P. P. Waldenström — a wider family of Nordic revivals, not just one man's movement.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "longDescription",
+   "sentence": "It was never only his: the same century brought Paavo Ruotsalainen's awakening in Finland and, in Sweden, the low-church revivals of Carl Olof Rosenius and P. P. Waldenström — a wider family of Nordic revivals, not just one man's movement.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "why",
+   "sentence": "Lars Levi Laestadius, a Swedish Lutheran pastor and botanist of partly Sami descent, had his preaching changed entirely by an 1844 conversation with a young Sami woman he called Mary, and the revival that followed carried fierce, local-language preaching and an end to drinking through Sami and Finnish parishes.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "why",
+   "sentence": "The same century's low-church revivals in Sweden, led by Carl Olof Rosenius and P. P. Waldenström, are counted as part of the same Nordic movement.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "why",
+   "sentence": "The same century's low-church revivals in Sweden, led by Carl Olof Rosenius and P. P. Waldenström, are counted as part of the same Nordic movement.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person, not a movement relationship. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "legacy",
+   "sentence": "The mission society Rosenius helped inspire and the Mission Covenant Church, whose American cousin became the Evangelical Covenant Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Church or institution with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source. Field reworded to remove internal wording."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "legacy",
+   "sentence": "The mission society Rosenius helped inspire and the Mission Covenant Church, whose American cousin became the Evangelical Covenant Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Church or institution with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source. Field reworded to remove internal wording."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "legacy",
+   "sentence": "The mission society Rosenius helped inspire and the Mission Covenant Church, whose American cousin became the Evangelical Covenant Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Church or institution with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source. Field reworded to remove internal wording."
+  },
+  {
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "legacy",
+   "sentence": "Laestadian communities are alive across northern Finland, Sweden and Norway and among emigrant descendants in the American upper Midwest, now divided into several distinct and generally conservative branches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Church or institution with no movement of its own. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source. Field reworded to remove internal wording."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "relationsSummary",
+   "sentence": "Child of Pietist/Moravian lines",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening",
+   "prose_change": 1,
+   "reason": "Linked as 'influenced', Dominant Modern Reconstruction on Hope; summary reworded to say modern historians trace it."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "relationsSummary",
+   "sentence": "Child of Pietist/Moravian lines",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+   "prose_change": 1,
+   "reason": "Linked as 'influenced', Dominant Modern Reconstruction on Stunt (unread, flagged); summary reworded."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "After the Napoleonic wars a wave of personal religious awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany — in Geneva against a comfortable rationalist establishment, in the Netherlands to the point of secession from the state church in 1834, everywhere with an insistence that faith had to be felt and not merely inherited.",
+   "other_id": "dutch-neo-calvinism-secession-churches",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No vendored or repo-cited source shows the awakening produced the 1834 secession; now said to come in the same years. No link: overlapping dates alone do not qualify."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "After the Napoleonic wars a wave of personal religious awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany — in Geneva against a comfortable rationalist establishment, in the Netherlands to the point of secession from the state church in 1834, everywhere with an insistence that faith had to be felt and not merely inherited.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No movement for the Dutch state church; handled in the qualified sentence."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg (1833) grew into the Inner Mission, a whole program of organized Christian social work.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "An institution or person, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg (1833) grew into the Inner Mission, a whole program of organized Christian social work.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "An institution or person, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "At Kaiserswerth in 1836 Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses and teachers, and one of its visitors in 1851 was Florence Nightingale.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "sentence": "At Kaiserswerth in 1836 Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses and teachers, and one of its visitors in 1851 was Florence Nightingale.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "why",
+   "sentence": "After the Napoleonic wars, awakened piety across Switzerland, France, the Netherlands, and Germany turned quickly into institutions: Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg, opened in 1833, grew into a whole program of organized Christian social work.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An institution or person, not a movement. Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "why",
+   "sentence": "At Kaiserswerth in 1836, Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses, and one of its visitors in 1851 was Florence Nightingale.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "sentence": "The German Diakonie — the Protestant social-service network the Inner Mission became — is still one of the largest welfare providers in Europe, and the deaconess model spread across the Protestant world and into the professionalization of nursing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Percival's note (npnf214 lines 5412-5415) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "sentence": "The German Diakonie — the Protestant social-service network the Inner Mission became — is still one of the largest welfare providers in Europe, and the deaconess model spread across the Protestant world and into the professionalization of nursing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Percival's note (npnf214 lines 5412-5415) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "sentence": "The Dutch secession of 1834 grew into a major strand of Reformed Christianity in the Netherlands and, through emigration, in North America.",
+   "other_id": "dutch-neo-calvinism-secession-churches",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The secession's later growth is the Dutch Reformed movement's own story (its text names the churches); the awakening's tie to it is now stated as uncertain. No link drafted, no evidence."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "sentence": "The Dutch secession of 1834 grew into a major strand of Reformed Christianity in the Netherlands and, through emigration, in North America.",
+   "other_id": "dutch-neo-calvinism-secession-churches",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The secession's later growth is the Dutch Reformed movement's own story (its text names the churches); the awakening's tie to it is now stated as uncertain. No link drafted, no evidence."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "The Prussian Union of 1817 forced a merger of Lutheran and Reformed congregations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "The Old Lutherans who refused were persecuted, leading to the Saxon emigration of 1838 and the founding of the Missouri Synod in 1847.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "The Old Lutherans who refused were persecuted, leading to the Saxon emigration of 1838 and the founding of the Missouri Synod in 1847.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "The Old Lutherans who refused were persecuted, leading to the Saxon emigration of 1838 and the founding of the Missouri Synod in 1847.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "In Germany the same instinct produced Neo-Lutheranism at Erlangen and Wilhelm Löhe's Neuendettelsau institutions, while Lutherans who emigrated to Australia shared the same root.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "In Germany the same instinct produced Neo-Lutheranism at Erlangen and Wilhelm Löhe's Neuendettelsau institutions, while Lutherans who emigrated to Australia shared the same root.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "sentence": "In Germany the same instinct produced Neo-Lutheranism at Erlangen and Wilhelm Löhe's Neuendettelsau institutions, while Lutherans who emigrated to Australia shared the same root.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "In 1817 the king of Prussia ordered his Lutheran and Reformed subjects into a single united church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "These Old Lutherans were fined, had their services broken up and their pastors imprisoned — and rather than conform, whole congregations emigrated.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "Some went to South Australia in 1838 under Pastor August Kavel.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "A Saxon company sailed for Missouri the same year and had to depose its own leader for immorality within months of landing.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "Out of that chastened remnant, under the young pastor C. F. W. Walther, came the Missouri Synod of 1847.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "Out of that chastened remnant, under the young pastor C. F. W. Walther, came the Missouri Synod of 1847.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "A church that made subscription to the Lutheran confessions the condition of fellowship, and built its own schools, seminaries and German-language press to keep them.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
+   "prose_change": 7,
+   "reason": "The Lutheran confessions are the Wittenberg reformers' documents; linked as 'influenced', Documented on Jacobs's 1911 preface."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "In Germany the same instinct produced a scholarly renewal at Erlangen, and at Neuendettelsau, Wilhelm Lohe's training of pastors and deaconesses for emigrant congregations overseas.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "sentence": "When Prussia's king ordered Lutheran and Reformed congregations merged in 1817, some Lutherans chose exile over compliance, sailing for Missouri and South Australia rather than sign.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "sentence": "When Prussia's king ordered Lutheran and Reformed congregations merged in 1817, some Lutherans chose exile over compliance, sailing for Missouri and South Australia rather than sign.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "sentence": "The Saxon company that reached Missouri had to depose its own leader for misconduct within months of landing, and it was out of that chastened remnant that C. F. W. Walther built the Missouri Synod of 1847, a church that made subscribing to the old confessions the actual condition of belonging.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "sentence": "The Saxon company that reached Missouri had to depose its own leader for misconduct within months of landing, and it was out of that chastened remnant that C. F. W. Walther built the Missouri Synod of 1847, a church that made subscribing to the old confessions the actual condition of belonging.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "sentence": "The Saxon company that reached Missouri had to depose its own leader for misconduct within months of landing, and it was out of that chastened remnant that C. F. W. Walther built the Missouri Synod of 1847, a church that made subscribing to the old confessions the actual condition of belonging.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "The Saxon emigration and the Missouri Synod did not come out of the Prussian persecution; the false cause is removed. No vendored source covers either emigration; escalated."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "legacy",
+   "sentence": "The churches this produced are on three continents still: the Lutheran Church-Missouri Synod and the Wisconsin Synod in North America, the Lutheran Church of Australia, and the independent Lutheran churches of Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "legacy",
+   "sentence": "The churches this produced are on three continents still: the Lutheran Church-Missouri Synod and the Wisconsin Synod in North America, the Lutheran Church of Australia, and the independent Lutheran churches of Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "legacy",
+   "sentence": "The churches this produced are on three continents still: the Lutheran Church-Missouri Synod and the Wisconsin Synod in North America, the Lutheran Church of Australia, and the independent Lutheran churches of Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "legacy",
+   "sentence": "The churches this produced are on three continents still: the Lutheran Church-Missouri Synod and the Wisconsin Synod in North America, the Lutheran Church of Australia, and the independent Lutheran churches of Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+  },
+  {
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "sentence": "A church that made subscription to the Lutheran confessions the condition of fellowship, and built its own schools, seminaries and German-language press to keep them.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
+   "prose_change": 7,
+   "reason": "Missed by the inventory: the Lutheran confessions are the Wittenberg Reformation's documents. Linked as 'influenced', Documented on Jacobs's 1911 preface."
+  },
+  {
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "sentence": "The German Diakonie — the Protestant social-service network the Inner Mission became — is still one of the largest welfare providers in Europe, and the deaconess model spread across the Protestant world and into the professionalization of nursing.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Not named in the text, but Percival's note (npnf214 lines 5412-5413) says 'The Methodists have adopted the system successfully'. A possible link to nineteenth-century Methodism is flagged for the reviewer, not drafted, since the text names no Methodist body."
+  }
+ ],
+ "links": [
+  {
+   "id": "german-pietism-spener-francke-halle--the-haugean-awakening",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-haugean-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Hans Nielsen Hauge began preaching in Norway in 1796, inside the Lutheran state church. His modern biographers place his revival in the line of Lutheran Pietism. This rests on their books, not on Hauge's own words.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andreas Aarflot, Hans Nielsen Hauge: His Life and Message (Augsburg, 1979)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Joseph Shaw, Pulpit Under the Sky (1955)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-haugean-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence of teaching and piety only; no listed source shows a council, split or rule change."
+   },
+   "wants": [
+    "Hauge's own writings in a public-domain edition (Norwegian or English), e.g. Betragtning over Verdens Daarlighed (1796) or his Testament to his Friends (1821), naming the Pietist books he read; would let this be graded on his own words"
+   ],
+   "drafter_flags": [
+    "Both secondary works are named only in the movement's own source list; I have not read them and cite no page. The claim that they place Hauge in the Pietist line is the standard reading, but it is unchecked.",
+    "No vendored text mentions Hauge at all (grep for Hauge finds only unrelated medieval place names)."
+   ],
+   "change_reason": "New: the movement's summary calls it a child of Pietism; no link existed. Typed 'influenced', not 'gave rise to', because no source shows named Pietist people or bodies passing into the Haugean network."
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "laestadianism-and-the-nordic-revivals",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Lars Levi Laestadius began his revival in Swedish Lapland in 1844, as a Lutheran pastor. It is often counted as a late branch of Pietism in the Lutheran north. The evidence is thin, since no text here shows what Laestadius took from Pietist writers.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Juha Pentikäinen, Laestadius scholarship, including the critical edition of Fragments of Lappish Mythology (title and year not given in the repo)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Warren Hepokoski, surveys of the Laestadian movement (title and year not given in the repo)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "D",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "laestadianism-and-the-nordic-revivals",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "Laestadius's sermons (postillas) or Ens Ropandes Röst i Öknen (1852-54) in a public-domain edition, for any use of Pietist writers; a repo-citable modern study of Laestadianism with full title and year"
+   ],
+   "drafter_flags": [
+    "The two secondary works are named only loosely in the movement's own source list, with no titles or years; I could not identify them precisely, so the grade is Inferential-Thin, not Dominant Modern Reconstruction.",
+    "'No text here' in the note means no source on this link; reviewer may prefer 'no source cited'."
+   ],
+   "change_reason": "New: the summary places Laestadianism in Pietism's long line; no link existed. Graded Inferential-Thin because no vendored text and no fully identified secondary supports it."
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-reveil-and-inner-mission-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "After 1815 a wave of awakening swept through Protestant churches in Switzerland, France, the Netherlands and Germany. Modern writers trace it back to older Pietism. This rests on their books, not on the awakening's own words.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nicholas Hope, German and Scandinavian Protestantism 1700-1918 (OUP, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. R. Ward, The Protestant Evangelical Awakening (CUP, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-reveil-and-inner-mission-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "Wichern's Denkschrift on the Inner Mission (1849) or Merle d'Aubigné / Malan texts in a public-domain edition, for the awakening naming its Pietist forebears"
+   ],
+   "drafter_flags": [
+    "Hope and Ward are named in the census source lists (Hope for this movement, Ward for Pietism); unread here, no page cited. Ward's book covers the earlier awakening, so Hope is the closer fit."
+   ],
+   "change_reason": "New: the summary calls the movement a child of Pietist lines; no link existed. 'Influenced', since no source shows named people passing from Halle to the 1815 awakenings."
+  },
+  {
+   "id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+   "action": "new",
+   "from": "the-moravian-church-at-herrnhut",
+   "to": "the-reveil-and-inner-mission-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Modern historians find Moravian roots in the awakening that began in Switzerland and France after 1815. This rests on their books, not on the awakening's own words.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy C. F. Stunt, From Awakening to Secession (T&T Clark, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-reveil-and-inner-mission-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "A public-domain early history of the Geneva awakening (e.g. Bost's Mémoires or a nineteenth-century history of the Société des Amis) naming its Moravian contacts"
+   ],
+   "drafter_flags": [
+    "Stunt is named only in this movement's census source list; unread here. I believe it treats Moravian contacts in Geneva, but I have not checked this. If the reviewer cannot confirm, regrade to Inferential-Thin."
+   ],
+   "change_reason": "New: the summary calls the movement a child of Moravian lines; no link existed."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "confessional-lutheran-revival-emigrations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1911 Henry Eyster Jacobs, who taught at a Lutheran seminary in Philadelphia, wrote a preface to the Book of Concord. He said the Lutheran Church in America was built on these old confessions. He also saw a wide return to them in his own day.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Henry Eyster Jacobs, preface to The Book of Concord, People's Edition (Philadelphia, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "215-216",
+     "locus": "Preface (1911)",
+     "quote": "Upon  the  basis  of  all  these  Confessions  the  foundations  of  the Lutheran  Church  in  America  were  laid.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Henry Eyster Jacobs, preface to The Book of Concord, People's Edition (Philadelphia, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "225-227",
+     "locus": "Preface (1911)",
+     "quote": "With  a  widespread  and  all  but  general  return  towards  the confessional  position  of  the  Fathers,  a  period  of  new  life  and promise  for  our  Church  in  America  has  begun.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": {
+    "movement": "confessional-lutheran-revival-emigrations",
+    "field": "longDescription"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The confessions are taken up as a standard; that is reception, not a council, split or rule change."
+   },
+   "wants": [
+    "The Missouri Synod's 1847 constitution or Walther's Der Lutheraner in a public-domain edition, for the movement's own subscription to the confessions"
+   ],
+   "drafter_flags": [
+    "Jacobs wrote for the General Council, not the Missouri Synod the movement's text centres on. His words document the American confessional revival returning to the Wittenberg confessions, which is the relationship claimed, but the reviewer should judge whether the General Council falls inside this movement.",
+    "Not in the inventory: the text names 'the Lutheran confessions', the Wittenberg reformers' own documents, and the inventory listed them as no-entry."
+   ],
+   "change_reason": "New: the text says the Missouri Synod made subscription to the Lutheran confessions its condition of fellowship; no link to the Wittenberg Reformation existed."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-haugean-awakening",
+   "field": "relationsSummary",
+   "old": "Child of Pietism inside the Lutheran establishment",
+   "new": "A lay revival inside Norway's Lutheran state church. Modern biographers place it in the line of Pietism.",
+   "reason": "'Child of Pietism' claims descent; the only support is modern biographies, so the line is stated as their reading."
+  },
+  {
+   "n": 1,
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "relationsSummary",
+   "old": "Child of Pietist/Moravian lines",
+   "new": "Modern historians trace it to older Pietist and Moravian lines.",
+   "reason": "'Child of' claims descent; the support is modern histories only, so it is stated as their reading."
+  },
+  {
+   "n": 2,
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "longDescription",
+   "old": "After the Napoleonic wars a wave of personal religious awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany — in Geneva against a comfortable rationalist establishment, in the Netherlands to the point of secession from the state church in 1834, everywhere with an insistence that faith had to be felt and not merely inherited. What distinguished it was what it built. Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg (1833) grew into the Inner Mission, a whole program of organized Christian social work. At Kaiserswerth in 1836 Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses and teachers, and one of its visitors in 1851 was Florence Nightingale. By the time the generation was over, awakened piety in these countries had turned into a permanent network of hospitals, orphanages, schools and training houses.",
+   "new": "After the Napoleonic wars a wave of personal awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany. In Geneva it rose against a comfortable rationalist establishment. In the Netherlands it came in the same years as a split from the state church in 1834. Everywhere it held that faith had to be felt and not just inherited. What set it apart was what it built. In Hamburg in 1833, Johann Hinrich Wichern opened the Rauhes Haus for street children. It grew into the Inner Mission, a whole program of Christian social work. At Kaiserswerth in 1836, Theodor and Friederike Fliedner opened a house for deaconesses. It trained women as nurses and teachers. One of its visitors in 1851 was Florence Nightingale. By the end of that generation, awakened faith in these lands had built a lasting web of hospitals, schools, orphan homes and training houses.",
+   "reason": "'To the point of secession' makes the 1834 Dutch secession the awakening's own outcome; no vendored or repo-cited source shows how far the awakening caused it, so the sentence now says only that they came in the same years. Long sentences split to meet the reading target; every other fact kept."
+  },
+  {
+   "n": 3,
+   "movement": "the-reveil-and-inner-mission-awakening",
+   "field": "legacy",
+   "old": "The German Diakonie — the Protestant social-service network the Inner Mission became — is still one of the largest welfare providers in Europe, and the deaconess model spread across the Protestant world and into the professionalization of nursing. The Dutch secession of 1834 grew into a major strand of Reformed Christianity in the Netherlands and, through emigration, in North America. And Wichern left one thing almost everyone has met without knowing it. He made the first Advent wreath at the Rauhes Haus in 1839, so the children in his care could count the days to Christmas.",
+   "new": "The Inner Mission became the German Diakonie, a Protestant social-service network. It is still one of the largest welfare groups in Europe. The deaconess model spread across the Protestant world and helped shape nursing as a profession. In the Netherlands, the secession of 1834 grew into a major strand of Reformed Christianity, and emigrants carried it to North America. How far the awakening shaped that secession is less clear. And Wichern left one thing almost everyone has met without knowing it. He made the first Advent wreath at the Rauhes Haus in 1839, so the children in his care could count the days to Christmas.",
+   "reason": "The Dutch secession's growth was told as this awakening's legacy; its tie to the awakening is unsourced, so that uncertainty is now stated plainly. The secession's own story belongs to the Dutch Reformed movement. Sentences split for the reading target."
+  },
+  {
+   "n": 4,
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "relationsSummary",
+   "old": "Laestadianism is part of Pietism's long line in the Lutheran north, marked by its practice of spoken absolution between believers, and its communities are still alive today. The Swedish low-church revivals led by Carl Olof Rosenius, whose mission society formed in 1856, and P. P. Waldenström, whose Mission Covenant Church formed in 1878, are counted alongside it as part of the same broader Nordic revival movement.",
+   "new": "Laestadianism is often counted as a late branch of Pietism in the Lutheran north. It is marked by spoken absolution between believers, and its communities are still alive today. The Swedish low-church revivals are counted alongside it, as part of the same wider Nordic revival. Carl Olof Rosenius led one, and the mission society he helped inspire formed in 1856. P. P. Waldenström led another, and the Mission Covenant Church came out of it in 1878.",
+   "reason": "'Part of Pietism's long line' is stated as a common classification, since no vendored source and no fully identified secondary supports it. Sentences split and words shortened for the reading target; facts kept."
+  },
+  {
+   "n": 5,
+   "movement": "laestadianism-and-the-nordic-revivals",
+   "field": "legacy",
+   "old": "Laestadian communities are alive across northern Finland, Sweden and Norway and among emigrant descendants in the American upper Midwest, now divided into several distinct and generally conservative branches. It is one of very few European revival movements with a substantial indigenous constituency, and Sami has remained a language of its preaching. The Swedish revivals in the same entry left their own institutions. The mission society Rosenius helped inspire and the Mission Covenant Church, whose American cousin became the Evangelical Covenant Church.",
+   "new": "Laestadian groups still meet across the far north of Finland, Sweden and Norway. They meet in the upper Midwest of the United States too, among the heirs of those who left. Today they form a number of branches, and most hold to the old ways. Few revivals in Europe have won so many indigenous people, and Sami is still a tongue of its preaching. The Swedish revivals left their own bodies as well. One is the mission society Rosenius helped inspire. Another is the Mission Covenant Church. Its cousin in America took the name Evangelical Covenant Church.",
+   "reason": "Removed internal wording ('in the same entry') and repaired a sentence fragment about the Swedish institutions. Sentences split for the reading target; every fact kept."
+  },
+  {
+   "n": 6,
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "relationsSummary",
+   "old": "The Prussian Union of 1817 forced a merger of Lutheran and Reformed congregations. The Old Lutherans who refused were persecuted, leading to the Saxon emigration of 1838 and the founding of the Missouri Synod in 1847. In Germany the same instinct produced Neo-Lutheranism at Erlangen and Wilhelm Löhe's Neuendettelsau institutions, while Lutherans who emigrated to Australia shared the same root.",
+   "new": "In 1817 the Prussian Union forced Lutheran and Reformed churches to merge. Old Lutherans who would not join were hounded, and some left for Australia. In 1838 a separate group of Saxon Lutherans sailed for America. Out of that group came the Missouri Synod in 1847. In Germany the same instinct led to a new school of Lutheran thought at Erlangen. It also drove the work of Wilhelm Löhe at Neuendettelsau.",
+   "reason": "The old text made the Prussian persecution the cause of the Saxon emigration and the Missouri Synod. The Saxon company came from Saxony, outside the Prussian Union, so the false cause is removed. No vendored source covers either emigration (see escalation)."
+  },
+  {
+   "n": 7,
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "longDescription",
+   "old": "In 1817 the king of Prussia ordered his Lutheran and Reformed subjects into a single united church. Many Lutherans complied; some would not, holding that a confession of faith is not something a state can merge. These Old Lutherans were fined, had their services broken up and their pastors imprisoned — and rather than conform, whole congregations emigrated. Some went to South Australia in 1838 under Pastor August Kavel. A Saxon company sailed for Missouri the same year and had to depose its own leader for immorality within months of landing. Out of that chastened remnant, under the young pastor C. F. W. Walther, came the Missouri Synod of 1847. A church that made subscription to the Lutheran confessions the condition of fellowship, and built its own schools, seminaries and German-language press to keep them. In Germany the same instinct produced a scholarly renewal at Erlangen, and at Neuendettelsau, Wilhelm Lohe's training of pastors and deaconesses for emigrant congregations overseas.",
+   "new": "In 1817 the king of Prussia ordered his Lutheran and Reformed subjects into one united church. Many Lutherans went along. Some would not. They held that a state cannot merge a confession of faith. These Old Lutherans were fined, their services were broken up and their pastors were jailed. Rather than give in, whole churches left. Some went to South Australia in 1838 under Pastor August Kavel. A separate group of Saxon Lutherans sailed for Missouri the same year. Within months of landing it had to depose its own leader for immorality. Out of that chastened remnant, under the young pastor C. F. W. Walther, came the Missouri Synod of 1847. It made assent to the Lutheran confessions the test of fellowship. It built its own schools, seminaries and German-language press to keep them. In Germany the same instinct led to a revival of scholarship at Erlangen. At Neuendettelsau, Wilhelm Löhe trained pastors and deaconesses for German churches overseas.",
+   "reason": "The Saxon company read as one of the persecuted Prussian congregations; it is now marked as separate. Also repaired a sentence fragment ('A church that made...') and restored the umlaut in Löhe. Sentences split for the reading target; every other fact kept."
+  },
+  {
+   "n": 8,
+   "movement": "confessional-lutheran-revival-emigrations",
+   "field": "why",
+   "old": "When Prussia's king ordered Lutheran and Reformed congregations merged in 1817, some Lutherans chose exile over compliance, sailing for Missouri and South Australia rather than sign. The Saxon company that reached Missouri had to depose its own leader for misconduct within months of landing, and it was out of that chastened remnant that C. F. W. Walther built the Missouri Synod of 1847, a church that made subscribing to the old confessions the actual condition of belonging.",
+   "new": "When Prussia's king ordered Lutheran and Reformed churches merged in 1817, some Lutherans chose exile instead. Whole congregations sailed for South Australia rather than give in. A separate group of Saxon Lutherans reached Missouri in the same years. Within months it had to depose its own leader for misconduct. Out of that chastened remnant C. F. W. Walther built the Missouri Synod of 1847. It was a church where you belonged only if you signed the old confessions.",
+   "reason": "The old text had Prussian Lutherans 'sailing for Missouri' to escape the merger; the Missouri company was Saxon, outside the Prussian Union. The false cause is removed. Sentences split for the reading target."
+  }
+ ],
+ "wants": [
+  "A public-domain early history of the Geneva awakening (e.g. Bost's Mémoires or a nineteenth-century history of the Société des Amis) naming its Moravian contacts",
+  "A public-domain nineteenth-century account of the Saxon emigration of 1838-39 (e.g. Vehse, Die Stephan'sche Auswanderung nach Amerika, 1840), for the Saxon company's own cause and the deposing of its leader",
+  "Fliedner's Kaiserswerth annals or a contemporary account of Florence Nightingale's 1851 stay at Kaiserswerth",
+  "Hauge's own writings in a public-domain edition (Norwegian or English), e.g. Betragtning over Verdens Daarlighed (1796) or his Testament to his Friends (1821), naming the Pietist books he read; would let this be graded on his own words",
+  "Laestadius's sermons (postillas) or Ens Ropandes Röst i Öknen (1852-54) in a public-domain edition, for any use of Pietist writers; a repo-citable modern study of Laestadianism with full title and year",
+  "Rosenius's Pietisten (from 1842) and Paavo Ruotsalainen's letters, for the wider Nordic revivals",
+  "The 1834 Act of Secession (Acte van Afscheiding of Wederkeering) and da Costa's Bezwaren tegen den geest der eeuw (1823), to test how far the Dutch awakening and the secession were linked",
+  "The Missouri Synod's 1847 constitution or Walther's Der Lutheraner in a public-domain edition, for the movement's own subscription to the confessions",
+  "The Prussian Union documents of 1817 and the Old Lutheran persecution record in a public-domain edition, for the Prussian merger and the 1838 emigration to South Australia",
+  "Wichern's Denkschrift on the Inner Mission (1849) or Merle d'Aubigné / Malan texts in a public-domain edition, for the awakening naming its Pietist forebears"
+ ],
+ "escalations": [
+  "Confessional Lutheran text was wrong, not just unsupported, in three fields: it made the Prussian Union's persecution the cause of the 1838 Saxon emigration and the Missouri Synod. The Saxon company left the Kingdom of Saxony, outside the Prussian Union. I removed the false cause and marked the Saxon company 'separate' in each field. The true cause of the Saxon emigration is not stated, because no vendored source covers it; Mark may want it written in once a source is vendored.",
+  "Dutch awakening and the 1834 secession: the awakening's text made the secession its own outcome and legacy. I reworded both fields to say they came in the same years and that the tie is unclear, and drafted no link. The Dutch Reformed movement's group may hold evidence either way; reconcile at merge.",
+  "None of the four movements has any vendored primary text of its own. Every Pietist and Moravian link here rests on secondary works named only in the movement source lists and unread in this pass."
+ ]
+}
