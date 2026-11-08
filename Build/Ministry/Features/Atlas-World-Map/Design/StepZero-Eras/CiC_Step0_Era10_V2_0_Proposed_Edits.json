@@ -1,10 +1,16 @@
 {
  "_meta": {
   "label": "Proposed census edits for era 10 re-run as history (1906-2010). Apply ONLY what Mark approves at the era 10 gate.",
-  "record": "CiC_Step0_Era10_V2_0.md",
+  "record": "CiC_Step0_Era10_V2_0.md (revised after Round 1)",
   "censusRelease": 19,
-  "registerEditRule": "each old is an exact, unique substring of the named field in census release 19; edits apply in listed order",
-  "statusSentence": "removed on every row (G-3 option a)"
+  "registerEditRule": "each old is an exact, unique substring of the named field as it stands when the edit runs: census release 19 with the entry's earlier edits on that field already applied; registerEdits apply in listed order, entry by entry; array indices in a field path (documentedStories[1], voices[4]) refer to the arrays of release 19, before any structural operation",
+  "statusSentence": "removed on every row (G-3 option a)",
+  "structuralOps": {
+   "rule": "structural operations run outside the substring rule, after every registerEdit in the file has applied. They run in listed order, entry by entry. No registerEdit touches an item that a structural operation removes.",
+   "removeItem": "{op: 'removeItem', field, match…}: deletes one whole item from the named array of the entry. documentedStories items are matched by matchTitle (the exact title in release 19); sources items by matchWork (the exact work string in release 19); voices items by matchValue (the exact voice string in release 19). Each match must find exactly one item.",
+   "retireEntry": "{op: 'retireEntry'}: moves the whole movement object for this atlasId, unchanged, from movements[] to retiredMovements[], as the census does for a dropped row.",
+   "gate": "each structural operation names the G-question that governs it; apply it only if Mark accepts that option"
+  }
  },
  "entries": [
   {
@@ -200,7 +206,7 @@
     {
      "field": "statusDescription",
      "old": "The Kimbanguist church's dated documentary arc - 2005 doctrine, the 2008 Nkamba reversal, the 2021 ecumenical exclusion - is disclosed as a real divergence, not harmonized away.",
-     "new": "The Kimbanguist church's dated documentary arc - its 2005 doctrine and the 2008 Nkamba reversal - is disclosed as a real divergence, not harmonized away."
+     "new": "The Kimbanguist church's dated documentary arc runs from its 2005 doctrine to the 2008 Nkamba reversal. It is disclosed as a real divergence, not harmonized away."
     },
     {
      "field": "statusDescription",
@@ -250,7 +256,7 @@
     {
      "field": "floorNote",
      "old": "The Kimbanguist church's own teaching has shifted over time and is described here by its dated texts: a moderate official doctrine stated in 2005 was revoked at a 2008 assembly in favor of a different teaching — that Kimbangu himself was the Holy Spirit incarnate, and his three sons incarnations of the Trinity — a position that led to the church's exclusion from the World Council of Churches in 2021 (it had been the first African-initiated church admitted, in 1969).",
-     "new": "The Kimbanguist church's own teaching shifted over time and is described here by its dated texts. A moderate official doctrine stated in 2005 was revoked at a 2008 assembly in favor of a different teaching: that Kimbangu himself was the Holy Spirit incarnate, and his three sons incarnations of the Trinity. In 1969 it had been the first African-initiated church admitted to the World Council of Churches.",
+     "new": "The Kimbanguist church's own teaching shifted over time and is described here by its dated texts. A moderate official doctrine was stated in 2005. A 2008 assembly revoked it in favor of a different teaching. That teaching held that Kimbangu himself was the Holy Spirit incarnate, and his three sons incarnations of the Trinity. In 1969 it had been the first African-initiated church admitted to the World Council of Churches.",
      "pendingQuestion": 1
     },
     {
@@ -332,7 +338,7 @@
     {
      "field": "legacy",
      "old": "It is a living church and, by any count, a very large one — though how large is genuinely contested. A Pew study in 2011 put the number of Christians in China at around 67 million, while official Three-Self figures and the movements' own claims fall elsewhere, and the spread between them is itself worth knowing. The founder corpora are read far outside China.",
-     "new": "By 2010 it was a very large church by any count, though how large was genuinely contested. A Pew study in 2011 put the number of Christians in China at around 67 million. Official Three-Self figures and the movements' own claims fell elsewhere, and the spread between them is itself worth knowing. The founder corpora were read far outside China.",
+     "new": "By 2010 it was a very large church by any count, though how large was genuinely contested. A Pew study published later, in 2011, estimated about 67 million Christians in China. Official Three-Self figures and the movements' own claims fell elsewhere, and the spread between them is itself worth knowing. The founder corpora were read far outside China.",
      "pendingQuestion": 1
     },
     {
@@ -349,11 +355,21 @@
      "field": "floorNote",
      "old": "in keeping with the real safety concerns this tradition still faces today.",
      "new": "because naming them could put real people at risk."
+    },
+    {
+     "field": "floorNote",
+     "old": "how each of these bodies stands doctrinally remains",
+     "new": "how each of these bodies stood doctrinally remains"
+    },
+    {
+     "field": "longDescription",
+     "old": "No living person and no specific community is named here: what is known is thinnest and least safe to make public exactly where the growth was greatest, and that is",
+     "new": "No living person and no specific community is named here. What is known is thinnest and least safe to make public exactly where the growth was greatest. That is"
     }
    ],
    "links": "1 (the-missionary-movement-s-native-churches-seramp → IX.5) — fine history.",
    "sourceNotes": [
-    "FLAG: Pew 2011 (c. 67M) is a 2011 publication; the repo does not pin the year its estimate refers to. Keep, worded as 'a Pew study in 2011'; if its reference year is after 2010, drop.",
+    "FLAG: Pew 2011 (c. 67M) is a 2011 publication; the repo does not pin the year its estimate refers to. Keep, worded as 'a Pew study published later, in 2011'; if its reference year is after 2010, drop.",
     "Keep the excluded-by-safety source note; its 'present-day state' wording should read 'living, non-public believers'.",
     "V1.0 [S] flags carried: founder-corpus editions [S]; Jesus Family records [S]; TSPM records [S]; Bays [S]. Lian Xi and TJC 1917 verified.",
     "Library: none."
@@ -363,7 +379,7 @@
     "The November 1998 house-church Confession of Faith — the published text, to pin its wording (not PD; published)."
    ],
    "questions": [
-    "Q1 — The Pew 2011 count sits one year past the era's end as a publication. Options: (a) keep it as 'a Pew study in 2011' (as drafted), treating it as a count of the era's last years; (b) drop it and leave the scale contest without a figure. Recommendation: (a), once its reference year is checked as 2010 or earlier."
+    "Q1 — The Pew count was published in 2011, one year past the era's end. Options: (a) keep it, labeled as a later study ('a Pew study published later, in 2011'), as G-4(a) allows (drafted); (b) drop it and leave the scale contest without a figure. Recommendation: (a). The year the count describes is not pinned in the repo, so it must be checked before publication; if it describes a year after 2010, take (b). Carried to §6 under G-4."
    ]
   },
   {
@@ -434,7 +450,7 @@
     {
      "field": "statusDescription",
      "old": "The L'Arche founder-abuse record carries its own dates: the movement's own commissioned inquiry of 2020 and the independent Study Commission report of 2023.",
-     "new": "The L'Arche founder-abuse record rests on later documents the movement itself published: its commissioned inquiry of 2020 and the independent Study Commission report of 2023."
+     "new": "The L'Arche founder-abuse record rests on later documents the movement itself published. These are its commissioned inquiry of 2020 and the independent Study Commission report of 2023."
     },
     {
      "field": "statusDescription",
@@ -454,7 +470,7 @@
     {
      "field": "why",
      "old": "L'Arche's own telling includes the abuse committed by Vanier himself, documented in inquiries the movement commissioned and published in 2020 and 2023.",
-     "new": "L'Arche's story includes the abuse committed by Vanier himself across decades of his leadership, documented later in inquiries the movement commissioned and published in 2020 and 2023."
+     "new": "L'Arche's story includes the abuse committed by Vanier himself across decades of his leadership. Later inquiries, which the movement commissioned and published in 2020 and 2023, documented it."
     },
     {
      "field": "longDescription",
@@ -482,11 +498,14 @@
      "new": "all four had institutionalized beyond their individual founders, in documented form."
     },
     {
-     "field": "documentedStories[1].title",
-     "old": "What L’Arche Found About Its Founder",
-     "new": "",
-     "action": "remove-story",
-     "pendingQuestion": 1
+     "field": "voices[5]",
+     "old": "whose members have carried the movement on, and whose organization commissioned and published",
+     "new": "whose members carried the movement on from 1964, and whose organization later commissioned and published"
+    },
+    {
+     "field": "floorNote",
+     "old": "and carries its own dates — the movement's own commissioned inquiry in 2020 and an independent report in 2023, both of which it published itself.",
+     "new": "and carries its own dates in later documents. These are the movement's own commissioned inquiry of 2020 and an independent report of 2023, both of which it published itself."
     }
    ],
    "links": "0.",
@@ -502,6 +521,14 @@
    "questions": [
     "Q1 — Story[1], 'What L'Arche Found About Its Founder' (2020–2023), narrates post-2010 events (the 2019 death, the inquiry, the publications) about conduct inside the era. Options: (a) remove it from era 10 and keep the abuse record in the summary fields only; (b) re-center it on what the reports found about 1952–2005, using only facts already in the story, with the reports cited as later sources; (c) keep it as a declared exception. Recommendation: (b); until rewritten, (a).",
     "Q2 — c2 as of 2010: narrow the statusWord's 'likely-cleared per body' for L'Arche (founder living and leading in 2010) and for Focolare (founder status not on file)? Options: (a) narrow to 'cleared for the Catholic Worker; L'Arche untested in 2010; Focolare to confirm'; (b) keep, reading 'institutionalized' as institutional form only. Recommendation: (a)."
+   ],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "What L’Arche Found About Its Founder",
+     "gate": "G-13"
+    }
    ]
   },
   {
@@ -537,12 +564,12 @@
     {
      "field": "legacy",
      "old": "The base communities contracted after the 1990s, and the movement is no longer what it was — but the tradition lives on: the pastoral practice, the small reading groups and the communities' own heirs continue inside Latin American church life. Romero was canonized in 2018. The Solentiname volumes remain in print in several languages.",
-     "new": "The base communities contracted in the 1990s, and the movement was no longer what it had been — but the tradition lived on: the pastoral practice, the small reading groups and the communities' own heirs continued inside Latin American church life. The Solentiname volumes went into several languages."
+     "new": "The base communities contracted in the 1990s, and the movement was no longer what it had been. But the tradition lived on. Its pastoral practice, its small reading groups and the communities' own heirs continued inside Latin American church life. The Solentiname volumes went into several languages."
     },
     {
      "field": "relationsSummary",
      "old": "The base communities themselves contracted after the 1990s, but the pastoral practice they pioneered, and the communities' own heirs, continue inside Latin American church life today.",
-     "new": "The base communities themselves contracted in the 1990s, but the pastoral practice they pioneered, and the communities' own heirs, continued inside Latin American church life."
+     "new": "The base communities themselves contracted in the 1990s. But the pastoral practice they pioneered, and the communities' own heirs, continued inside Latin American church life."
     },
     {
      "field": "voices[0]",
@@ -599,7 +626,7 @@
     {
      "field": "legacy",
      "old": "Schmemann's For the Life of the World is still put into students' hands in every tradition, and Lossky is still the book people are given when they ask what Orthodox theology actually says.",
-     "new": "Schmemann's For the Life of the World was put into students' hands in every tradition, and Lossky became the book people were given when they asked what Orthodox theology actually says."
+     "new": "Schmemann's For the Life of the World was put into students' hands in every tradition. Lossky became the book people were given when they asked what Orthodox theology actually says."
     },
     {
      "field": "relationsSummary",
@@ -638,7 +665,7 @@
    "sectionB": "B1 Rich — both renewal streams wrote copiously; Suriel (verified) and CHC vol. 5 ch. 21 (verified) carry it in English. The new-martyrs leg (2015) and Girgis's canonization (2013) fall after 2010 and drop, which costs the row a vivid strand but not its base. B2 Full lived world: catechesis, monastic life, patriarchal conflict with the state (1981–85). B3 The map's longest unbroken lane; distinct. B4 Orthodox, Copts and diaspora, historians, seekers drawn to the desert. B5 Tiebreak only.",
    "sourcing": "Rich — Girgis's Arabic corpus and the Sunday-school organization (c. 1918; divergence disclosed); Matthew the Poor and the St Macarius corpus; Kyrillos VI papers (1959–71); Shenouda III's books (from 1971); Suriel (2017, verified); Hasan (2003) [S]; CHC vol. 5 ch. 21 (O'Mahony, verified at E9).",
    "confidenceNotes": [
-    "The 1918 Sunday School Committee: Contested at the verification level (survey verified; sources run could not page-verify) — the church's traditional date. No date string rests on it.",
+    "The 1918 Sunday School Committee: [S], since the two research runs diverge (the survey verified it; the sources run could not page-verify it) — the church's traditional date. No date string rests on it.",
     "Matthew the Poor's readership outside Egypt by 2010: Widely Accepted (English Orthodox Prayer Life, SVS 2003, inside the era)."
    ],
    "registerEdits": [
@@ -660,7 +687,7 @@
     {
      "field": "longDescription",
      "old": "was patriarch from 1971 until 2012 and published steadily throughout. And the church has gone on adding to its martyrology in the present century: the twenty-one Copts killed in Libya on 15 February 2015 were entered in the synaxarium and given an icon in the same year.",
-     "new": "became patriarch in 1971 and published steadily for four decades."
+     "new": "became patriarch in 1971 and published steadily from then to 2010."
     },
     {
      "field": "legacy",
@@ -683,12 +710,6 @@
      "new": "patriarch from 1971, and a prolific writer throughout"
     },
     {
-     "field": "voices[4]",
-     "old": "The twenty-one — the Coptic laborers killed in Libya on 15 February 2015, added to the church's own synaxarium and given an icon the same year",
-     "new": "",
-     "action": "remove-item"
-    },
-    {
      "field": "documentedStories[0].text",
      "old": ", and was canonized by the Holy Synod in June 2013, the church's first modern saint who was neither martyr nor monk.",
      "new": "."
@@ -708,7 +729,21 @@
    "wanted": [
     "Habib Girgis, al-Karma (from 1907) — PD by date (Arabic) — for the source-research thread; the organizing record of 1918 would settle the date divergence."
    ],
-   "questions": []
+   "questions": [],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "voices",
+     "matchValue": "The twenty-one — the Coptic laborers killed in Libya on 15 February 2015, added to the church's own synaxarium and given an icon the same year",
+     "gate": "G-24"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "The new martyrs: the 21 Libya martyrs (15 Feb 2015) - the church's own synaxarium addition and icon (2015); Mosebach, The 21 (ET 2019)",
+     "gate": "G-26"
+    }
+   ]
   },
   {
    "atlasId": "IX.11",
@@ -749,7 +784,7 @@
     {
      "field": "why",
      "old": "These churches argue fiercely among themselves over prosperity teaching, and that argument is on the public record in their own sermons and in the published critiques of the Lausanne movement and African evangelical theologians who reject it.",
-     "new": "These churches argued fiercely among themselves over prosperity teaching. The argument is on the public record in their own sermons, and in the published critiques of the Lausanne movement and of African evangelical theologians who rejected it."
+     "new": "These churches argued fiercely among themselves over prosperity teaching. The argument is on the public record in their own sermons. It is also in the published critiques of the Lausanne movement and of African evangelical theologians who rejected it."
     },
     {
      "field": "longDescription",
@@ -759,7 +794,7 @@
     {
      "field": "legacy",
      "old": "This is the map's present edge rather than a finished story. Numbers here need care: the figures in the hundreds of millions that circulate come partly from denominational self-counts and partly from surveys using different definitions of who is being counted, and the spread between them tells you as much as the totals do.",
-     "new": "In 2010 this was the map's growing edge, not a finished story. Counts of it need care. The very large totals combine denominational self-counts with surveys that define who is being counted in different ways, and the spread between them tells you as much as the totals do."
+     "new": "In 2010 this was the map's growing edge, not a finished story. Counts of it need care. The very large totals combine denominational self-counts with surveys that define who is being counted in different ways. The spread between them tells you as much as the totals do."
     },
     {
      "field": "legacy",
@@ -779,14 +814,7 @@
     {
      "field": "floorNote",
      "old": "Scale claims about this family ride the contemporary register: the 600-million-class totals are self-report or definitional aggregate until an independent counter is named, and the definitional spread is itself the real datum.",
-     "new": "Scale claims about this family are self-report or definitional aggregate unless an independent count is named, and the definitional spread is itself the real datum."
-    },
-    {
-     "field": "documentedStories[1].title",
-     "old": "The Founder of the Largest Church Is Convicted",
-     "new": "",
-     "action": "remove-story",
-     "pendingQuestion": 1
+     "new": "Scale claims about this family are self-report or definitional aggregate unless an independent count is named. The definitional spread is itself the real datum."
     }
    ],
    "links": "0.",
@@ -801,6 +829,14 @@
    ],
    "questions": [
     "Q1 — Story[1], 'The Founder of the Largest Church Is Convicted' (2014): the 2002 share purchase and 2008 retirement fall inside the era, but the complaint (2011), charge (2013), conviction (2014) and death (2021) do not. Options: (a) remove it from era 10; (b) cut it back to its in-era facts (founding, cell groups, 2008 retirement), dropping the conviction — the story then loses its point; (c) keep it as a declared exception. Recommendation: (a)."
+   ],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "The Founder of the Largest Church Is Convicted",
+     "gate": "G-13"
+    }
    ]
   },
   {
@@ -918,7 +954,7 @@
     {
      "field": "documentedStories[1].text",
      "old": "The ruling has governed the movement's standing in Israel since. Messianic Jews call the judgment the proof that they are judged as Jews and excluded as such; the rabbinate and the court call it the boundary the people have always kept.",
-     "new": "The ruling governed the movement's standing in Israel in the decades that followed. Messianic Jews called the judgment the proof that they were judged as Jews and excluded as such; the rabbinate and the court called it the boundary the people had always kept."
+     "new": "The ruling governed the movement's standing in Israel in the decades that followed. Messianic Jews called the judgment the proof that they were judged as Jews and excluded as such. The rabbinate and the court called it the boundary the people had always kept."
     },
     {
      "field": "longDescription",
@@ -934,6 +970,11 @@
      "field": "floorNote",
      "old": " A living body can change its confession; these are dated readings of published statements.",
      "new": " These are readings of dated, published statements."
+    },
+    {
+     "field": "sourcing",
+     "old": "Moderate (recent, self-documenting,",
+     "new": "Moderate (from the 1960s on, self-documenting,"
     }
    ],
    "links": "0.",
@@ -995,12 +1036,12 @@
     {
      "field": "legacy",
      "old": "Both communities are still going and both still take visitors. Taizé's European meetings have been held every year since 1978, and Iona's Wild Goose material, much of it by John Bell, is in hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they leave: Taizé's continuation under Alois and then Matthew is one of the clearest documented cases anywhere on this map of a community outliving the person who began it.",
-     "new": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978, and Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they leave: Taizé's continuation under Alois is one of the clearest documented cases anywhere on this map of a community outliving the person who began it."
+     "new": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978. Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they left. Taizé's continuation under Alois is one of the clearest documented cases on this map of a community outliving the person who began it."
     },
     {
      "field": "floorNote",
      "old": "The person-defined question here is cleanly resolved rather than open: this is a completed founder-to-successor transition, not a movement still centered on one living founder's unique authority — both Taizé and Iona's communities have continued institutionally well past their founders' deaths.",
-     "new": "The person-defined question here is cleanly resolved rather than open: this is a completed founder-to-successor transition, not a movement still centered on one living founder's unique authority. By 2010 both Taizé and the Iona Community had continued institutionally past their founders."
+     "new": "The person-defined question here is cleanly resolved rather than open. This was a completed founder-to-successor transition, not a movement still centered on one living founder's unique authority. By 2010 both Taizé and the Iona Community had continued institutionally past their founders."
     },
     {
      "field": "voices[2]",
@@ -1083,7 +1124,7 @@
     {
      "field": "legacy",
      "old": "These are living churches with congregations worldwide, and their distinguishing practice — baptism in the name of Jesus — is what a visitor notices first. Their scale is hard to fix: the figures in circulation are the bodies' own,",
-     "new": "By 2010 these were living churches with congregations worldwide, and their distinguishing practice — baptism in the name of Jesus — was what a visitor noticed first. Their scale was hard to fix: the figures in circulation were the bodies' own,"
+     "new": "By 2010 these were living churches with congregations worldwide. Their distinguishing practice — baptism in the name of Jesus — was what a visitor noticed first. Their scale was hard to fix: the figures in circulation were the bodies' own,"
     },
     {
      "field": "documentedStories[0].text",
@@ -1151,20 +1192,13 @@
     {
      "field": "legacy",
      "old": "All four continue, and all four have passed through at least one succession — Iglesia ni Cristo twice, in 1963 and 2009; The Way through two changes of leadership; the Unification Church into a contested succession after Sun Myung Moon's death in 2012; La Luz del Mundo in 1964 and again in 2014. Iglesia ni Cristo's own counts run to millions and it is the largest church founded in the Philippines; no independent count is cited here. Court records are part of these bodies' public record too: The Way's leadership changes ran alongside litigation, and La Luz del Mundo's current leader was convicted in California in 2022 following a guilty plea.",
-     "new": "All four were still active in 2010. Iglesia ni Cristo had passed through two successions, in 1963 and 2009; La Luz del Mundo through one, in 1964; The Way through two changes of leadership after its founder. The Unification Church was still led by its founder. Iglesia ni Cristo's own counts ran to millions, and it was the largest church founded in the Philippines; no independent count is cited here. Court records are part of these bodies' public record too: The Way's leadership changes ran alongside litigation, and in 1982 a federal jury convicted Sun Myung Moon of filing false tax returns.",
+     "new": "All four were still active in 2010. Iglesia ni Cristo had passed through two successions, in 1963 and 2009. La Luz del Mundo had passed through one, in 1964, and The Way through two changes of leadership after its founder. The Unification Church was still led by its founder. Iglesia ni Cristo's own counts ran to millions, and it was the largest church founded in the Philippines. No independent count is cited here. Court records are part of these bodies' public record too. The Way's leadership changes ran alongside litigation, and in 1982 a federal jury convicted Sun Myung Moon of filing false tax returns.",
      "pendingQuestion": 1
     },
     {
      "field": "floorNote",
      "old": "Iglesia ni Cristo was registered in 1914 and teaches that its founder was God's authorized messenger; the other three bodies each carry their own founder-authority claim in their own published teaching. None of the four affirms the Trinity or Christ's divinity in the historic creeds' sense on its own account.",
-     "new": "Iglesia ni Cristo was registered in 1914 and taught that its founder was God's authorized messenger; the other three bodies each carried their own founder-authority claim in their own published teaching. On their own published texts up to 2010, none of the four affirmed the Trinity or Christ's divinity in the historic creeds' sense."
-    },
-    {
-     "field": "documentedStories[0].title",
-     "old": "The Apostle Pleads Guilty",
-     "new": "",
-     "action": "remove-story",
-     "pendingQuestion": 1
+     "new": "Iglesia ni Cristo was registered in 1914 and taught that its founder was God's authorized messenger. The other three bodies each carried their own founder-authority claim in their own published teaching. On their own published texts up to 2010, none of the four affirmed the Trinity or Christ's divinity in the historic creeds' sense."
     }
    ],
    "links": "0.",
@@ -1181,6 +1215,14 @@
    "questions": [
     "Q1 — Removing the 2022 LLDM conviction (legacy, sources, story[0]). V1.0 called it 'part of any honest telling'; under ruling 2 it lies after 2010, and the man led only from 2014. Options: (a) remove it and story[0], replacing the legacy's court-record example with the 1982 Moon conviction already in story[1] (as drafted); (b) keep it as a declared exception. Recommendation: (a).",
     "Q2 — The INC row-split (V1.0's banked, un-executed lean). History to 2010 does not change the grounds. Options: (a) carry it banked to the V2.0 gate unchanged; (b) close it now as 'keep packed'. Recommendation: (a) — it still needs a drafted row before it can be applied."
+   ],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "The Apostle Pleads Guilty",
+     "gate": "G-13"
+    }
    ]
   },
   {
@@ -1258,7 +1300,7 @@
     {
      "field": "teaser",
      "old": "Global, contemporary — a label spanning mainline progressive congregations, post-evangelical networks and everything between, deliberately never judged as one category since the same label falls on both sides of the map's own floor.",
-     "new": "Global, c. 1990 to 2010 — a label spanning mainline progressive congregations, post-evangelical networks and everything between, deliberately never judged as one category, since the same label could fall on both sides of the map's own floor."
+     "new": "Global, c. 1990 to 2010 — a label spanning mainline progressive congregations, post-evangelical networks and everything between. It is never judged as one category, since the same label could fall on both sides of the map's own floor."
     },
     {
      "field": "why",
@@ -1278,7 +1320,7 @@
     {
      "field": "longDescription",
      "old": "This is a label rather than a movement, and the map treats it as one. 'Progressive Christianity' is used by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another, and the communities it covers differ from each other as much as they differ from anyone else. Some of them are old mainline parishes with a century of denominational history behind them; some are congregations founded in the last decade; some are simply readers of particular books. There are organizations that give the label a content: the Center for Progressive Christianity, founded in 1994, publishes a set of points that it has revised more than once, and each revision is its own dated document. But no confession, no founder and no membership covers the label as a whole — which is exactly why this map never judges it as a category, and asks about a specific community's own published statement instead.",
-     "new": "This is a label rather than a movement, and the map treats it as one. By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another. The communities it covered differed from each other as much as they differed from anyone else. Some were old mainline parishes with a century of denominational history behind them; some were congregations founded in the 2000s; some were simply readers of particular books. Some organizations gave the label a content: the Center for Progressive Christianity, founded in 1994, published a set of points and revised it, and each version is its own dated document. But no confession, no founder and no membership covered the label as a whole. That is why this map never judges it as a category, and asks about a specific community's own published statement instead."
+     "new": "This is a label rather than a movement, and the map treats it as one. By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another. The communities it covered differed from each other as much as they differed from anyone else. Some were old mainline parishes with a century of denominational history behind them. Some were congregations founded in the 2000s, and some were simply readers of particular books. Some organizations gave the label a content. The Center for Progressive Christianity, founded in 1994, published a set of points and revised it. Each version is its own dated document. But no confession, no founder and no membership covered the label as a whole. That is why this map never judges it as a category, and asks about a specific community's own published statement instead."
     },
     {
      "field": "legacy",
@@ -1288,7 +1330,17 @@
     {
      "field": "legacy",
      "old": "And it has a documented movement expression in the emerging church of the 1990s and 2000s, which is where most of the writing and conference records actually are. The label itself is doing something a movement cannot: giving very different congregations a word they can find each other by.",
-     "new": "And it had a documented movement expression in the emerging church of the 1990s and 2000s, which is where most of the writing and conference records are. The label itself did something a movement could not: it gave very different congregations a word they could find each other by."
+     "new": "And it had a documented movement expression in the emerging church of the 1990s and 2000s. That is where most of the writing and conference records are. The label itself did something a movement could not: it gave very different congregations a word they could find each other by."
+    },
+    {
+     "field": "statusDescription",
+     "old": "so no single finding is made on it, now or ever.",
+     "new": "so no single finding is made on it."
+    },
+    {
+     "field": "statusDescription",
+     "old": "Its illustrations carry their own dates, its reasoning rests on published statements rather than communities in the aggregate, and it now has the history it lacked.",
+     "new": "Its illustrations carry their own dates, and its reasoning rests on published statements rather than communities in the aggregate."
     }
    ],
    "sourceNotes": [
@@ -1339,7 +1391,7 @@
     {
      "field": "legacy",
      "old": "The lane is alive and the communities are still here, mostly somewhere other than where they started. Their scholarship has become substantial in a single generation — Gaunt's 2006 study, the collection Let Them Not Return (2017), and the centenary commemorations of 2015 that put the Sayfo into public view in Europe.",
-     "new": "In 2010 the lane was alive, and its communities lived mostly somewhere other than where they started. By then the Sayfo had its standard scholarly study, David Gaunt's of 2006, built on archives and the survivors' oral histories."
+     "new": "In 2010 the lane was alive, and its communities lived mostly somewhere other than where they started. By then the Sayfo had its standard scholarly study, David Gaunt's of 2006, built on archives and the survivors' oral histories. The edited collection Let Them Not Return followed later, in 2017."
     },
     {
      "field": "legacy",
@@ -1350,6 +1402,29 @@
      "field": "documentedStories[0].text",
      "old": "and the villages Naayem's witnesses named are now more fully inhabited in Södertälje and Chicago than in Anatolia.",
      "new": "and by 2010 the families of the villages Naayem's witnesses named lived more in Södertälje and Chicago than in Anatolia."
+    },
+    {
+     "field": "voices[4]",
+     "old": "(2011) is a Syriac scholar's account of what the dispersal did",
+     "new": "(2011) is a later account, by a Syriac scholar, of what the dispersal did"
+    },
+    {
+     "field": "teaser",
+     "old": "that its living communities read as erasure.",
+     "new": "that its communities experienced as erasure.",
+     "gate": "G-42"
+    },
+    {
+     "field": "legacy",
+     "old": "that living Syriac Christians read, understandably, as erasure.",
+     "new": "that Syriac Christians experienced, understandably, as erasure.",
+     "gate": "G-42"
+    },
+    {
+     "field": "relationsSummary",
+     "old": "a silence living Syriac communities experience as erasure",
+     "new": "a silence Syriac communities experienced as erasure",
+     "gate": "G-42"
     }
    ],
    "sourceNotes": [
@@ -1418,7 +1493,7 @@
     {
      "field": "legacy",
      "old": "Both churches are living, and the Tawahedo is one of the largest ancient churches anywhere, with its own canon, calendar, liturgical language and fasting discipline intact after a century that took the state away twice. The evangelical movement that grew beside it is now a large minority in its own right, and the two have an unresolved relationship that any honest account has to name. The Derg-era martyrology is part of the church's own liturgical memory. Ethiopia's patriarchal disputes ran on after 1991 and were reconciled in 2018; Eritrea's church remains under severe pressure.",
-     "new": "In 2010 both churches were living. The Tawahedo was one of the largest ancient churches anywhere, with its own canon, calendar, liturgical language and fasting discipline intact after a century that took the state away twice. By then the evangelical movement that grew beside it was a large minority in its own right, and the relationship between the two was unresolved. The Derg-era martyrology became part of the church's own liturgical memory. Ethiopia's patriarchal disputes ran on after 1991 and were still unresolved in 2010; Eritrea's church was under severe pressure."
+     "new": "In 2010 both churches were living. The Tawahedo was one of the largest ancient churches anywhere. Its own canon, calendar, liturgical language and fasting discipline were intact after a century that took the state away twice. By then the evangelical movement that grew beside it was a large minority in its own right. The relationship between the two was unresolved. The Derg-era martyrology became part of the church's own liturgical memory. Ethiopia's patriarchal disputes ran on after 1991 and were still unresolved in 2010; Eritrea's church was under severe pressure."
     },
     {
      "field": "documentedStories[0].text",
@@ -1432,15 +1507,15 @@
     },
     {
      "field": "relationsSummary",
-     "old": "continuation of a lane that previously ended at 1500",
-     "new": "continuation of VIII.49's re-founded empire church; the lane's true disclosed silence is 1650–1855",
-     "action": "CONDITIONAL on IX.20 Q1 — the V1.0 banked replacement text"
+     "old": "; continuation of a lane that previously ended at 1500",
+     "new": ". Continues the Ethiopian church of Tewodros and Menelik. The tree has no entry for Ethiopian Christianity between 1650 and 1855.",
+     "action": "CONDITIONAL on G-21 (IX.20 Q1): D-P7's replacement text, not the V1.0 banked text"
     },
     {
      "field": "teaser",
      "old": "continuing a lane the map had previously left off at 1500.",
      "new": "continuing the re-founded empire church of the century before.",
-     "action": "CONDITIONAL on IX.20 Q1"
+     "action": "CONDITIONAL on G-21 (IX.20 Q1)"
     }
    ],
    "sourceNotes": [
@@ -1454,7 +1529,7 @@
     "EECMY, 'On the Interrelation between Proclamation of the Gospel and Human Development' (1972) — rights check; the row's key own-voice document."
    ],
    "questions": [
-    "Q1 (IX.20) — The banked V1.0 replacement for the stale '…ended at 1500' line was to be 'applied whenever the row is next opened' (Mark's, Frozen-adjacent). Does this re-run count as opening it? Options: (a) yes — apply the banked text to relationsSummary, plus the matching teaser fix (both drafted, marked CONDITIONAL in the JSON); (b) no — keep it banked. Recommendation: (a). The row is being rewritten anyway, and the stale line is now false twice over."
+    "Q1 (IX.20) — The stale relationsSummary line ('…a lane that previously ended at 1500') is false: VI.25 (1517–1650) and VIII.49 (1855–1900) both exist. V1.0 banked a replacement to be 'applied whenever the row is next opened', but that banked text narrates process ('chain written at the E9 Freeze') and cannot go into a live field. Options: (a) apply D-P7's text instead — 'Continues the Ethiopian church of Tewodros and Menelik. The tree has no entry for Ethiopian Christianity between 1650 and 1855.' — plus the matching teaser fix (both drafted, CONDITIONAL in the JSON); (b) keep the line banked. Recommendation: (a). This re-run opens the row, and the stale line is false. Carried to §6 as G-21."
    ],
    "datesV1": "1900-present",
    "_v1start": 1900,
@@ -1607,7 +1682,7 @@
     {
      "field": "why",
      "old": "The disagreement over the older Latin rite has never fully settled, and the church has kept restating its own position in dated documents: Ecclesia Dei in 1988, Summorum Pontificum in 2007, Traditionis Custodes in 2021.",
-     "new": "The disagreement over the older Latin rite had not settled by 2010, and the church kept restating its own position in dated documents: Ecclesia Dei in 1988, Summorum Pontificum in 2007."
+     "new": "The disagreement over the older Latin rite had not settled by 2010. The church kept restating its own position in dated documents: Ecclesia Dei in 1988, Summorum Pontificum in 2007."
     },
     {
      "field": "longDescription",
@@ -1632,7 +1707,7 @@
     {
      "field": "legacy",
      "old": "This is how most of the world's Catholics have worshipped for two generations, which makes it one of the largest continuous formation traditions on the map. The restored catechumenate has become the ordinary route by which adults enter the Catholic Church. The vernacular liturgy and lay ministries have been so thoroughly absorbed that they now read as normal rather than as a change. The argument over the older rite is unresolved and is carried, on this map, on its own dated documents rather than described as a mood.",
-     "new": "By 2010 this was how most of the world's Catholics had worshipped for more than forty years, which makes it one of the largest continuous formation traditions on the map. By then the restored catechumenate had become the ordinary route by which adults entered the Catholic Church. The vernacular liturgy and lay ministries had been absorbed so fully that they read as normal rather than as a change. In 2010 the argument over the older rite was unresolved, and this map carries it on its own dated documents rather than describing it as a mood."
+     "new": "By 2010 this was how most of the world's Catholics had worshipped for more than forty years. That makes it one of the largest continuous formation traditions on the map. By then the restored catechumenate had become the ordinary route by which adults entered the Catholic Church. The vernacular liturgy and lay ministries had been absorbed so fully that they read as normal rather than as a change. In 2010 the argument over the older rite was unresolved. This map carries it on its own dated documents rather than describing it as a mood."
     },
     {
      "field": "documentedStories[0].text",
@@ -1648,6 +1723,11 @@
      "field": "documentedStories[1].caveat",
      "old": "Whether the Society is in schism is a question on which Rome's own statements since 2009 have varied, and the page does not settle it.",
      "new": "Whether the Society was in schism is a question the page does not settle."
+    },
+    {
+     "field": "statusDescription",
+     "old": "rests on dated documents, not a present-day description of a feeling.",
+     "new": "rests on dated documents."
     }
    ],
    "sourceNotes": [
@@ -1694,7 +1774,7 @@
     {
      "field": "longDescription",
      "old": "which is why 'integral mission' is a Lausanne word. The movement has restated itself twice more since, in the Manila Manifesto of 1989 and the Cape Town Commitment of 2010, and again at Seoul in 2024 — a chain of dated statements of what it takes itself to be, unusual in its consistency.",
-     "new": "which is why 'integral mission' became a Lausanne word. The movement restated itself twice more, in the Manila Manifesto of 1989 and the Cape Town Commitment of 2010 — a chain of dated statements of what it took itself to be, unusual in its consistency."
+     "new": "which is why 'integral mission' became a Lausanne word. The movement restated itself twice more, in the Manila Manifesto of 1989 and the Cape Town Commitment of 2010. Together they form a chain of dated statements of what it took itself to be, unusual in its consistency."
     },
     {
      "field": "relationsSummary",
@@ -1714,7 +1794,7 @@
     {
      "field": "legacy",
      "old": "It is a living network rather than a church, and that is the point: it convenes, publishes and connects, and the churches doing the work belong to other bodies entirely. Its covenant is still the most widely subscribed evangelical statement of the last fifty years, and 'integral mission' — evangelism and social action held together — has become mainstream evangelical language largely because of what the Global South delegates said in 1974.",
-     "new": "In 2010 it was a living network rather than a church, and that was the point: it convened, published and connected, and the churches doing the work belonged to other bodies entirely. Its 1974 covenant became the network's shared statement, and by 2010 'integral mission' — evangelism and social action held together — had become mainstream evangelical language, largely because of what the Global South delegates said in 1974."
+     "new": "In 2010 it was a living network rather than a church, and that was the point. It convened, published and connected, and the churches doing the work belonged to other bodies entirely. Its 1974 covenant became the network's shared statement. By 2010 'integral mission', evangelism and social action held together, had become mainstream evangelical language. That was largely because of what the Global South delegates said in 1974."
     }
    ],
    "sourceNotes": [
@@ -1756,7 +1836,7 @@
     {
      "field": "relationsSummary",
      "old": "Within a single lifetime, the direction of Christian mission has reversed: churches once planted in Africa by European missionaries are now planting congregations back among Europeans. It continues a pattern",
-     "new": "Within a single lifetime, the direction of Christian mission reversed: by 2010 churches once planted in Africa by European missionaries were planting congregations back among Europeans. It continued a pattern"
+     "new": "Within a single lifetime, the direction of Christian mission reversed. By 2010 churches once planted in Africa by European missionaries were planting congregations back among Europeans. It continued a pattern"
     },
     {
      "field": "why",
@@ -1771,7 +1851,7 @@
     {
      "field": "longDescription",
      "old": "The phrase that has attached to them, reverse mission, describes a real inversion: churches once planted by European missionaries now planting congregations back among Europeans.",
-     "new": "The phrase that attached to them, reverse mission, described a real inversion: churches once planted by European missionaries were planting congregations back among Europeans."
+     "new": "The phrase that attached to them, reverse mission, described a real inversion. Churches once planted by European missionaries were planting congregations back among Europeans."
     },
     {
      "field": "teaser",
@@ -1781,7 +1861,7 @@
     {
      "field": "legacy",
      "old": "This is a current still in progress rather than a finished chapter, and it is not one confession: the churches involved come from several different African traditions and answer to their own bodies. Claims that one or another is the largest congregation in Britain or in Europe circulate widely and rest mostly on the churches' own counts. What is clear is that the direction of Christian mission has reversed within living memory, and that European Christianity's growing edge is often African. It is also the map's newest instance of its oldest pattern: the faith traveling with people who have been scattered.",
-     "new": "In 2010 this was a current in progress rather than a finished chapter, and it was not one confession: the churches involved came from several different African traditions and answered to their own bodies. Claims that one or another was the largest congregation in Britain or in Europe circulated widely and rested mostly on the churches' own counts. What is clear is that by 2010 the direction of Christian mission had reversed within living memory, and that by then European Christianity's growing edge was often African. It is also the map's newest instance of its oldest pattern: the faith traveling with people who have been scattered."
+     "new": "In 2010 this was a current in progress rather than a finished chapter, and it was not one confession. The churches involved came from several different African traditions and answered to their own bodies. Claims that one or another was the largest congregation in Britain or in Europe circulated widely and rested mostly on the churches' own counts. What is clear is that by 2010 the direction of Christian mission had reversed within living memory. By then European Christianity's growing edge was often African. It is also the map's newest instance of its oldest pattern: the faith traveling with people who have been scattered."
     },
     {
      "field": "documentedStories[0].caveat",
@@ -1793,6 +1873,21 @@
      "old": "and the church continued to grow, moving to larger premises in east London and then to Chatham.",
      "new": "and the church continued to grow.",
      "action": "date check: the moves are undated and may fall after 2010"
+    },
+    {
+     "field": "documentedStories[0].caveat",
+     "old": "He is a living person and only his dated public acts are described.",
+     "new": "The page describes only his dated public acts."
+    },
+    {
+     "field": "documentedStories[1].caveat",
+     "old": "The founder is a living person; the page describes",
+     "new": "The page describes"
+    },
+    {
+     "field": "voices[4]",
+     "old": "(2013) is the standard scholarly account",
+     "new": "(2013) is a later scholarly account"
     }
    ],
    "sourceNotes": [
@@ -1851,7 +1946,7 @@
     {
      "field": "legacy",
      "old": "Te Haahi Rātana is a living church and a continuing force in New Zealand public life; the annual gathering at Rātana Pā is a fixture of the political calendar, and the alliance made in 1936 is still referred to by both sides.",
-     "new": "In 2010 Te Haahi Rātana was a living church and still a force in New Zealand public life. The annual gathering at Rātana Pā was a fixture of the political calendar, and both sides still referred to the alliance made in 1936."
+     "new": "In 2010 Te Haahi Rātana was a living church and still a force in New Zealand public life. The annual gathering at Rātana Pā was a fixture of the political calendar. Both sides still referred to the alliance made in 1936."
     },
     {
      "field": "documentedStories[1].text",
@@ -1861,7 +1956,12 @@
     {
      "field": "documentedStories[1].text",
      "old": "The four gifts are still shown: the tiki and feather were kept by Savage's family and later returned to the movement, and the potato and the watch survive in memory and in the annual retelling.",
-     "new": "The four gifts were not lost: the tiki and feather were kept by Savage's family and later returned to the movement, and the potato and the watch survived in memory and in the annual retelling."
+     "new": "The four gifts were not lost. The tiki and feather were kept by Savage's family and later returned to the movement. The potato and the watch survived in memory and in the annual retelling."
+    },
+    {
+     "field": "statusDescription",
+     "old": "are named only minimally for now, since",
+     "new": "are named only minimally, since"
     }
    ],
    "sourceNotes": [
@@ -1919,20 +2019,19 @@
      "new": "Anatolia to Armenia and the worldwide diaspora, 1915 to 2010 — a church carrying the Medz Yeghern forward through dispersal, the Soviet decades and the Cold War split between its two sees."
     },
     {
-     "field": "voices[4]",
-     "old": "The canonization of 23 April 2015 — the church's own liturgical act for roughly 1.5 million victims",
-     "new": "",
-     "action": "remove item (2015 event)"
-    },
-    {
      "field": "legacy",
      "old": "The church is alive in Armenia and in a diaspora that now outnumbers it, and it is one of the oldest continuously existing churches anywhere — the Caucasus lane on this map runs from the fourth century straight through to it. The 2015 canonization gave the genocide a liturgical place rather than only a historical one. The Cold War split between Etchmiadzin and Antelias has eased but shaped generations of diaspora life. And the whole record of this century has to be handled the way its own communities handle it: as living memory, not distant history.",
-     "new": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home, and it was one of the oldest continuously existing churches anywhere — the Caucasus lane on this map runs from the fourth century straight through to it. The Cold War split between Etchmiadzin and Antelias had eased by 2010, but it shaped generations of diaspora life. And the whole record of this century has to be handled the way its own communities handled it: as living memory, not distant history."
+     "new": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home. It was one of the oldest continuously existing churches anywhere. The Caucasus lane on this map runs from the fourth century straight through to it. The Cold War split between Etchmiadzin and Antelias had eased by 2010, but it shaped generations of diaspora life. And the whole record of this century has to be handled the way its own communities handled it: as living memory, not distant history."
     },
     {
      "field": "documentedStories[1].text",
      "old": "The church counts Khoren among its martyrs of the Soviet period,",
      "new": "The church came to count Khoren among its martyrs of the Soviet period,"
+    },
+    {
+     "field": "documentedStories[1].text",
+     "old": "The church has held from the first that he was strangled",
+     "new": "The church held from the first that he was strangled"
     }
    ],
    "sourceNotes": [
@@ -1949,7 +2048,21 @@
    ],
    "datesV1": "1915-present",
    "_v1start": 1915,
-   "_v1end": 2026
+   "_v1end": 2026,
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "voices",
+     "matchValue": "The canonization of 23 April 2015 — the church's own liturgical act for roughly 1.5 million victims",
+     "gate": "G-22"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "The 2015 canonization of the genocide's victims (23 Apr 2015, Etchmiadzin) - the church's own canonization rite and documents",
+     "gate": "G-26"
+    }
+   ]
   },
   {
    "atlasId": "IX.28",
@@ -1968,7 +2081,7 @@
     {
      "field": "statusDescription",
      "old": "Its window ends in 2015 - a judgment, stated plainly as one, not a documented terminus; no institutional end exists to point to.",
-     "new": "Its window ends at the era's close in 2010, while the conversation was still active; no institutional end falls inside the era."
+     "new": "Its window ends at the era's close in 2010, while the conversation was still active. No institutional end falls inside the era."
     },
     {
      "field": "statusDescription",
@@ -2018,10 +2131,27 @@
      "new": "In 2010 the conversation was still active, and Emergent Village was still its principal network. The map closes it at 2010 because the era closes there, not because anything ended. Its questions fed the broader progressive current."
     },
     {
-     "field": "documentedStories[1].text",
-     "old": "Rob Bell had founded Mars Hill Bible Church in Grandville, Michigan in 1999, and by 2011 it drew some ten thousand people a week; his short films and his book Velvet Elvis (2005) had made him the emerging conversation's most widely known preacher. In late February 2011 his publisher released a promotional video for a book not yet in print, Love Wins, in which Bell asked whether a God who would send Gandhi to hell for ever could be called good, and said that the answer many Christians gave to that question was what kept people out of churches. On 26 February John Piper, pastor of Bethlehem Baptist Church in Minneapolis and the elder statesman of the Reformed resurgence, posted three words on Twitter, 'Farewell Rob Bell', with a link to a critical review of a book neither of them had yet read in public. The book appeared on 15 March and reached the bestseller lists; its argument, that scripture leaves open the hope that all will finally be reconciled, was not new, but the venue was. Time magazine put the question on its cover in April. In September 2011 Bell announced that he would leave Mars Hill, and he preached there for the last time in December, moving to California to write and to work in television. Emergent Village, the conversation's principal network, wound down over the next two years. Afterwards it was common to date the end of the emerging church to that spring.",
-     "new": "",
-     "action": "drop whole story (February–December 2011; after the era)"
+     "field": "teaser",
+     "old": "conference records now fragile with the platforms that carried them.",
+     "new": "conference records kept on fragile platforms.",
+     "gate": "G-46"
+    },
+    {
+     "field": "voices[4]",
+     "old": ", now largely link-rotted and surviving through the Internet Archive",
+     "new": ", kept on platforms that later decayed",
+     "gate": "G-46"
+    },
+    {
+     "field": "legacy",
+     "old": "It also leaves a preservation problem worth naming: a movement that documented itself almost entirely on platforms is one whose archive decays with them, and the Internet Archive is doing more to preserve it than any library.",
+     "new": "It also left a preservation problem. A movement that documented itself almost entirely on platforms kept an archive that decayed with them.",
+     "gate": "G-46"
+    },
+    {
+     "field": "documentedStories[0].caveat",
+     "old": "; he is a living person and the page describes only his published acts and writings.",
+     "new": "; the page describes only his dated published acts and writings."
     }
    ],
    "sourceNotes": [
@@ -2041,7 +2171,15 @@
    ],
    "datesV1": "c. 1990-2015",
    "_v1start": 1990,
-   "_v1end": 2015
+   "_v1end": 2015,
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "Farewell, Rob Bell",
+     "gate": "G-39"
+    }
+   ]
   },
   {
    "atlasId": "IX.29",
@@ -2095,7 +2233,12 @@
     {
      "field": "legacy",
      "old": "It also produced its own opposition: the reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, is in large part a reaction against the chart. The scholarship on it is now substantial, from Sandeen and Weber to Boyer's When Time Shall Be No More (1992) and Hummel's study of 2023.",
-     "new": "It also produced its own opposition: the reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992)."
+     "new": "It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023."
+    },
+    {
+     "field": "statusDescription",
+     "old": "rests on those dated texts, not an undated present-tense claim.",
+     "new": "rests on those dated texts."
     }
    ],
    "sourceNotes": [
@@ -2168,19 +2311,13 @@
     {
      "field": "legacy",
      "old": "The model is everywhere and is now simply what many people picture when they picture a church: a stage, a band, a sermon in plain speech, and a small-group system underneath. Its worship music is sung in congregations that have no idea where it came from. The past decade has also put a series of collapses on the public record — the dissolution of Mars Hill in 2014, the investigation into Ravi Zacharias published in 2021, and Hillsong's governance crises of 2021 and 2022 — and those documents are now part of the movement's own record too. So is the scholarship: the Hartford Institute's research and Kate Bowler's Blessed (2013) study it as a serious subject rather than a curiosity.",
-     "new": "By 2010 the model was everywhere, and for many people it was simply what a church looked like: a stage, a band, a sermon in plain speech, and a small-group system underneath. Its worship music was sung in congregations that had no idea where it came from. By then the Hartford Institute's research studied it as a serious subject rather than a curiosity."
+     "new": "By 2010 the model was everywhere. For many people it was simply what a church looked like: a stage, a band, a sermon in plain speech, and a small-group system underneath. Its worship music was sung in congregations that had no idea where it came from. By then the Hartford Institute's research studied it as a serious subject rather than a curiosity. Kate Bowler's Blessed (2013) later did the same."
     },
     {
      "field": "documentedStories[0].caveat",
      "old": " In 2018 the founder resigned after allegations of misconduct toward women were published, which an independent advisory group appointed by the church's governing bodies found credible in a report of February 2019; he is a living person and the page states the published record only.",
-     "new": " He is a living person and the page states the published record only.",
-     "action": "remove the 2018–2019 events (after the era)"
-    },
-    {
-     "field": "documentedStories[1].text",
-     "old": "Ravi Zacharias died on 19 May 2020, mourned across the evangelical world as its most eloquent defender of the faith; his ministry, RZIM, had offices on several continents. In September 2020 an online publication reported the accounts of three women who had worked at day spas Zacharias co-owned in the Atlanta suburbs, describing sexual harassment and abuse. RZIM's board first defended him, then commissioned the law firm Miller & Martin to investigate. On 9 February 2021 the board published the firm's report in full. It found, from interviews with more than fifty witnesses and from Zacharias's own phones, that he had over many years engaged in sexual misconduct with multiple women, including massage therapists in the United States and Asia, that he had used ministry funds to support some of them, and that a Canadian woman who had accused him in 2017 of soliciting explicit images, and whom he had sued and bound with a non-disclosure agreement, had been telling the truth. The board's statement accompanying the report apologized to the women, said the board had been wrong to defend him, and acknowledged that the ministry's structure had made him unaccountable. Within months RZIM had ceased its apologetics work; its publisher withdrew his books; the institutions that bore his name removed it. The report remains published, which is the part of the story the movement can claim: the record was kept by the body that had most reason to bury it.",
-     "new": "",
-     "action": "drop whole story (May 2020 – February 2021; after the era)"
+     "new": " The page states only the dated published record.",
+     "action": "remove the 2018 resignation (a post-2010 event) and the 2019 advisory report (the record does not date the conduct it examined inside the era) — G-4(a)"
     }
    ],
    "sourceNotes": [
@@ -2191,11 +2328,25 @@
    ],
    "wanted": [],
    "questions": [
-    "Q1 (IX.30) — Story 0's caveat named the founder's 2018 resignation and the 2019 report. They are removed as after the era. Options: (a) remove them (drafted) — the era makes no claims after 2010; (b) keep a caveat line on safeguarding grounds. Recommendation: (a), but flag it for the Facilitator/safety owner, since the story celebrates a figure whose later record is public."
+    "Q1 (IX.30) — Story 0's caveat named the founder's 2018 resignation and the 2019 report. The resignation is a post-2010 event. The report is a later inquiry, but the record does not date the conduct it examined inside the era, so G-4(a) does not keep it. Options: (a) remove both (drafted); (b) keep a caveat line on safeguarding grounds. Recommendation: (a), but flag it for the Facilitator/safety owner, since the story celebrates a figure whose later record is public. Carried to §6 under G-4."
    ],
    "datesV1": "c. 1975-present",
    "_v1start": 1975,
-   "_v1end": 2026
+   "_v1end": 2026,
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "The Report the Board Published",
+     "gate": "G-39"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "The memoir and collapse records: the Ravi Zacharias investigation report (2021, commissioned and published); Mars Hill's dissolution (2014) and CT's The Rise and Fall of Mars Hill podcast (2021); Hillsong's 2021-22 crises",
+     "gate": "G-26"
+    }
+   ]
   },
   {
    "atlasId": "IX.31",
@@ -2221,7 +2372,13 @@
    ],
    "datesV1": "c. 2010s-present",
    "_v1start": 2010,
-   "_v1end": 2026
+   "_v1end": 2026,
+   "structuralOps": [
+    {
+     "op": "retireEntry",
+     "gate": "G-8"
+    }
+   ]
   },
   {
    "atlasId": "IX.32",
@@ -2231,7 +2388,7 @@
    "start": 1990,
    "end": 2010,
    "living": true,
-   "livingReason": "A teaching current active in 2010 (Wright's Simply Christian 2006 and Surprised by Hope 2008; Willard; church curricula). P2-V flag: yes depends on reading 'living' as the tradition the entry names, not its episode window. It never had a body or members.",
+   "livingReason": "A teaching current active in 2010 (Wright's Surprised by Hope 2008, verified, and Simply Christian 2006 [S]; Willard; church curricula). P2-V flag: yes depends on reading 'living' as the tradition the entry names, not its episode window. It never had a body or members.",
    "tier": "Tier 2",
    "tierV1": "Tier 2",
    "sourcingGrade": "Moderate-to-rich",
@@ -2251,7 +2408,7 @@
     {
      "field": "sourcing",
      "old": "Rich and growing: major accessible corpora (Wright, McKnight, Willard), BibleProject's video/podcast/classroom ecosystem reaching tens of millions, church curricula adoption; though, as with other movements built on digital platforms, this record is only as durable as the platforms themselves.",
-     "new": "Rich in accessible corpora: dated books by Newbigin, Willard and Wright, with church curricula adoption; no standard monograph treats this current as a current"
+     "new": "Rich in accessible corpora: dated books by Newbigin, Willard and Wright, with church curricula adoption. No standard monograph on it as a current had appeared by 2010."
     },
     {
      "field": "floorNote",
@@ -2295,21 +2452,9 @@
      "new": "North America and the UK, c. 1990 to 2010 — a reading of the Bible as one story fulfilled in Jesus, carried from Newbigin through Willard to Wright's academic and popular books."
     },
     {
-     "field": "voices[3]",
-     "old": "Scot McKnight — whose The King Jesus Gospel (2011) pressed the argument about what the gospel actually is",
-     "new": "",
-     "action": "remove item (McKnight 2011)"
-    },
-    {
-     "field": "voices[4]",
-     "old": "Tim Mackie and Jon Collins — co-founders of BibleProject in 2014, whose videos and classroom are where most people meet this reading now",
-     "new": "",
-     "action": "remove item (BibleProject 2014)"
-    },
-    {
      "field": "legacy",
      "old": "What it has done is give a generation an alternative to reading the Bible as a chart of the future: story rather than scheme, which puts it in direct rivalry with the dispensational reading culture carried elsewhere here. It has also become a common re-rooting place for people who left evangelical churches and wanted somewhere to stand. No standard scholarly account of it yet exists, which is itself worth saying: it is being described here earlier than the literature has caught up.",
-     "new": "What it did was give a generation an alternative to reading the Bible as a chart of the future: story rather than scheme, which put it in direct rivalry with the dispensational reading culture carried elsewhere here. No standard scholarly account of it had appeared by 2010, which is itself worth saying."
+     "new": "What it did was give a generation an alternative to reading the Bible as a chart of the future: story rather than scheme. That put it in direct rivalry with the dispensational reading culture carried elsewhere here. No standard scholarly account of it had appeared by 2010, which is itself worth saying."
     },
     {
      "field": "legacy",
@@ -2317,10 +2462,14 @@
      "new": "In 2010 it was a teaching current"
     },
     {
-     "field": "documentedStories[1].text",
-     "old": "Tim Mackie and Jon Collins had met as students at Multnomah Bible College in Portland, Oregon; Mackie went on to a doctorate in Hebrew Bible and taught at Western Seminary, Collins into video production and advertising. In 2014, working in a borrowed studio and financed at first by their own money and a crowdfunding campaign, they made two short animated videos summarizing Genesis, drawn as a single unfolding sketch, narrated in Mackie's voice, with the premise that the book was one movement in a larger story that runs from creation to Jesus and outward. They posted them free on YouTube. The decision that the material would never be sold, and never carry a denominational label, was made at the start and has held; the organization is funded by donations. Over the following five years the studio produced overviews of every book of the Bible, series on its themes, on how to read its literary forms, and on words that translations flatten, together with a podcast; the videos were translated by volunteer teams into dozens of languages. By 2019, by the platform's own count, they had been viewed more than a hundred million times, and pastors from Pentecostal to Catholic reported using them in classrooms. What it made accessible was not new, and its founders say so: it is the reading of the Bible as a unified story, taught in the academy for a generation, drawn so that a teenager could see it.",
-     "new": "",
-     "action": "drop whole story (2014–2019; after the era)"
+     "field": "statusDescription",
+     "old": "Its named carriers confirm the framing this row already had. Its note on the doctrinal floor now rests on that dated carrier list, not an undated present-tense claim.",
+     "new": "Its note on the doctrinal floor rests on its dated carrier texts."
+    },
+    {
+     "field": "floorNote",
+     "old": "No plain-reading question — and the claim now rests on this current's dated carrier texts rather than on a present-tense characterization of its voices:",
+     "new": "No plain-reading question. The claim rests on this current's dated carrier texts:"
     }
    ],
    "sourceNotes": [
@@ -2336,7 +2485,39 @@
    ],
    "datesV1": "c. 1990-present",
    "_v1start": 1990,
-   "_v1end": 2026
+   "_v1end": 2026,
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "Free, and About the Whole Story",
+     "gate": "G-39"
+    },
+    {
+     "op": "removeItem",
+     "field": "voices",
+     "matchValue": "Scot McKnight — whose The King Jesus Gospel (2011) pressed the argument about what the gospel actually is",
+     "gate": "G-10"
+    },
+    {
+     "op": "removeItem",
+     "field": "voices",
+     "matchValue": "Tim Mackie and Jon Collins — co-founders of BibleProject in 2014, whose videos and classroom are where most people meet this reading now",
+     "gate": "G-10"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "Scot McKnight, The King Jesus Gospel: The Original Good News Revisited (Zondervan, 2011)",
+     "gate": "G-26"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "BibleProject, founded 2014 by Tim Mackie and Jon Collins; video, podcast and classroom materials",
+     "gate": "G-26"
+    }
+   ]
   },
   {
    "atlasId": "IX.33",
@@ -2376,6 +2557,12 @@
      "field": "legacy",
      "old": "remains the standard account.",
      "new": "became the standard account."
+    },
+    {
+     "field": "statusDescription",
+     "old": "Proposed for a future survey; not yet reviewed.",
+     "new": "Tiered Strong (Tier 1). It is assessed on its own dated texts, from The Fundamentals (1910–15) to the naming of 1920.",
+     "gate": "G-43"
     }
    ],
    "sourceNotes": [
@@ -2556,6 +2743,16 @@
      "field": "documentedStories[1].text",
      "old": " He died of pancreatic cancer on 19 May 2023, having said in his last public months that he had never been so happy or so ready.",
      "new": ""
+    },
+    {
+     "field": "documentedStories[1].caveat",
+     "old": "; Keller's last words are as reported publicly by his family. He is a public figure now dead, and the page does not assess his theology.",
+     "new": ". He was a public figure, and the page does not assess his theology."
+    },
+    {
+     "field": "voices[1]",
+     "old": "(1986) is the current's most-cited earlier text",
+     "new": "(1986) was the current's most-cited earlier text"
     }
    ],
    "sourceNotes": [
@@ -2570,6 +2767,20 @@
    "questions": [
     "documentedStories[0], \"The Year Mars Hill Came Apart\" (March-October 2014), is wholly post-2010. Options: (a) remove the story from the row, and leave its slot empty until a 1998-2010 story is drafted from cited sources [recommended]; (b) keep it as a disclosed one-step-past note. Recommend (a): era 10 makes no claims after 2010.",
     "Under the 2000 cut-off this row was a drop. Under the 2010 ruling it keeps a real 1998-2010 story (naming 2006, TGC 2007, T4G 2006). Confirm keep at Tier 2. The MacArthur placement question (V1.0 Q3; Strange Fire 2013 is post-2010) stays open as V1.0 left it."
+   ],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "documentedStories",
+     "matchTitle": "The Year Mars Hill Came Apart",
+     "gate": "G-11"
+    },
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "Christianity Today, The Rise and Fall of Mars Hill (podcast, Mike Cosper, 2021, 12 episodes)",
+     "gate": "G-26"
+    }
    ]
   },
   {
@@ -2632,7 +2843,7 @@
     {
      "field": "documentedStories[0].text",
      "old": "Both books are still read, and the church they describe is still there.",
-     "new": "Neither book ended the argument, and the church they describe went on."
+     "new": "The church they describe went on."
     },
     {
      "field": "documentedStories[1].teaser",
@@ -2788,7 +2999,7 @@
     {
      "field": "why",
      "old": "reopening a division fought out ever since in India's civil courts, most recently in a Supreme Court ruling of 2017, over parishes, properties and endowments.",
-     "new": "reopening the division. It was fought out in India's civil courts in the decades that followed, over parishes, properties and endowments, up to a Supreme Court ruling of 1995."
+     "new": "reopening the division. It was fought out in India's civil courts in the decades that followed, over parishes, properties and endowments. The fight ran up to a Supreme Court ruling of 1995."
     },
     {
      "field": "teaser",
@@ -2813,12 +3024,12 @@
     {
      "field": "legacy",
      "old": "Both churches are alive, both are substantial, and both have gone worldwide with the Kerala diaspora, with parishes across many countries.",
-     "new": "In 2010 both churches were alive and substantial, and both had gone worldwide with the Kerala diaspora, with parishes across many countries."
+     "new": "In 2010 both churches were alive and substantial. Both had gone worldwide with the Kerala diaspora, with parishes across many countries."
     },
     {
      "field": "legacy",
      "old": "They carry the St Thomas tradition's liturgical life forward, and their continued existence is why that tradition is not only a matter of the distant past.",
-     "new": "They carried the St Thomas tradition's liturgical life into the new century, and their survival is why that tradition was not only a matter of the distant past."
+     "new": "They carried the St Thomas tradition's liturgical life into the new century. Their survival is why that tradition was not only a matter of the distant past."
     },
     {
      "field": "legacy",
@@ -2848,7 +3059,7 @@
     {
      "field": "documentedStories[0].text",
      "old": "A century of litigation, from the Vattipanam suit onward, has turned on whether a deposed patriarch's consecration was valid, and the courts have answered more than once.",
-     "new": "The litigation that followed, from the Vattipanam suit onward, turned on whether a deposed patriarch's consecration was valid, and the courts answered more than once."
+     "new": "The litigation that followed, from the Vattipanam suit onward, turned on whether a deposed patriarch's consecration was valid. The courts answered more than once."
     },
     {
      "field": "documentedStories[1].text",
@@ -2928,7 +3139,12 @@
     {
      "field": "documentedStories[0].text",
      "old": "The church has held from the first that he was murdered; suspicion has pointed to Russian agents, to Georgian political factions and to opponents inside the church, and the archives have not settled it. He is commemorated as a hieromartyr, and the question of who killed him is left open in the church's own account.",
-     "new": "The church held from the first that he was murdered. Suspicion pointed to Russian agents, to Georgian political factions and to opponents inside the church, and the archives did not settle it. The church's own account leaves open the question of who killed him."
+     "new": "The church held from the first that he was murdered. Suspicion pointed to Russian agents, to Georgian political factions and to opponents inside the church. The archives did not settle it. The church's own account leaves open the question of who killed him."
+    },
+    {
+     "field": "legacy",
+     "old": "The English-language scholarship on the modern Georgian church remains thin, and that thinness is named rather than papered over.",
+     "new": "English-language scholarship on the modern Georgian church was thin, and this map names that thinness rather than papering over it."
     }
    ],
    "sourceNotes": [
@@ -2986,7 +3202,7 @@
     {
      "field": "longDescription",
      "old": "They confess the content of the historic creeds while refusing to make subscription to any creed a test, and they say so plainly.",
-     "new": "They confessed the content of the historic creeds while refusing to make subscription to any creed a test, and they said so plainly."
+     "new": "They confessed the content of the historic creeds while refusing to make subscription to any creed a test. They said so plainly."
     },
     {
      "field": "legacy",
@@ -3139,6 +3355,11 @@
      "field": "documentedStories[1].text",
      "old": "a Black Christ with arms outstretched, which is in the wall now.",
      "new": "a Black Christ with arms outstretched, which was set into the wall."
+    },
+    {
+     "field": "legacy",
+     "old": "and until now nothing carried it.",
+     "new": "and no entry carried it before this one."
     }
    ],
    "sourceNotes": [
@@ -3322,12 +3543,12 @@
     {
      "field": "why",
      "old": "It is a council of churches rather than a church itself, with no authority over its members and no confession of its own; Orthodox churches belong to it, while the Roman Catholic Church works alongside it without joining.",
-     "new": "It was a council of churches rather than a church itself, with no authority over its members and no confession of its own. Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining."
+     "new": "It was a council of churches rather than a church itself. It had no authority over its members and no confession of its own. Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining."
     },
     {
      "field": "longDescription",
      "old": "It is a council of churches, not a church: it has no authority over its members and no confession of its own, and each member body keeps its own. Orthodox churches are members. The Roman Catholic Church is not, and works with it in other ways.",
-     "new": "It was a council of churches, not a church: it had no authority over its members and no confession of its own, and each member body kept its own. Orthodox churches were members. The Roman Catholic Church was not, and worked with it in other ways."
+     "new": "It was a council of churches, not a church. It had no authority over its members and no confession of its own, and each member body kept its own. Orthodox churches were members. The Roman Catholic Church was not, and worked with it in other ways."
     },
     {
      "field": "legacy",
@@ -3456,7 +3677,7 @@
     {
      "field": "legacy",
      "old": "This is a living and currently growing edge of a very old church. It is jurisdictionally plural — several overlapping jurisdictions on the same soil, which is an anomaly by Orthodoxy's own canons and a fact of North American life.",
-     "new": "In 2010 this was a living edge of a very old church. It was jurisdictionally plural — several overlapping jurisdictions on the same soil, which was an anomaly by Orthodoxy's own canons and a fact of North American life."
+     "new": "In 2010 this was a living edge of a very old church. It was jurisdictionally plural, with several overlapping jurisdictions on the same soil. That was an anomaly by Orthodoxy's own canons and a fact of North American life."
     },
     {
      "field": "legacy",
@@ -3477,6 +3698,11 @@
      "field": "documentedStories[1].text",
      "old": "the Greek Archdiocese and most of the other Orthodox churches in America followed, and continue to.",
      "new": "the Greek Archdiocese and most of the other Orthodox churches in America followed, and went on withholding recognition through the century."
+    },
+    {
+     "field": "legacy",
+     "old": "Amy Slagle's fieldwork of 2011 remains the one dedicated scholarly study.",
+     "new": "The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011."
     }
    ],
    "sourceNotes": [
@@ -3491,6 +3717,14 @@
    ],
    "questions": [
     "Name. \"Autocephaly & the Convert Wave\": the 1987 reception was a wave by any measure, so the name can stand. Options: (a) keep the name [recommended]; (b) \"Autocephaly & the Convert Stream\". Also: overlayCurrent is true on this row; whether that flag survives the history ruling is a site-wide question, not this row's."
+   ],
+   "structuralOps": [
+    {
+     "op": "removeItem",
+     "field": "sources",
+     "matchWork": "Hank Hanegraaff's chrismation, Palm Sunday, 9 April 2017 (St Nektarios, Charlotte)",
+     "gate": "G-26"
+    }
    ]
   },
   {
@@ -3564,6 +3798,11 @@
      "field": "documentedStories[0].text",
      "old": "The ministry did not reverse itself, and the two positions have marked the current's two wings since.",
      "new": "The ministry did not reverse itself, and by 2010 the two positions marked the current's two wings."
+    },
+    {
+     "field": "documentedStories[0].caveat",
+     "old": "The principals are living and are described only by what they published.",
+     "new": "The principals are described only by what they published."
     }
    ],
    "sourceNotes": [
@@ -3625,26 +3864,26 @@
    "chip": "psc",
    "glyph": "flq",
    "statusWord": "Floor Question carried — finding recorded on the church's own dated texts; register retained",
-   "statusDescription": "Split out of the earlier four-body entry. The church is assessed on its own published teaching. Its legitimacy claim rests on its founder's office, and it passed through changes of leader in 1963 and 2009.",
+   "statusDescription": "The church is assessed on its own published teaching. Its legitimacy claim rested on its founder's office, and it passed through changes of leader in 1963 and 2009.",
    "living": true,
    "overlayCurrent": false,
    "c2": "record",
    "sourcing": "Moderate: the church's own records, including its 1914 registration and its magazine Pasugo from February 1939. Independent scholarship is thin.",
-   "floorNote": "Iglesia ni Cristo was registered in 1914. Its own teaching presents its founder, Felix Manalo, as God's messenger for the last days. It honors Jesus as Lord and Savior but teaches that he is not God. On its own account, then, it does not affirm the Trinity or Christ's divinity in the creeds' sense.",
-   "relationsSummary": "Founded in the Philippines, where Catholicism had shaped the country for three centuries. It was carried on the register with three other bodies until it was given an entry of its own.",
-   "why": "Iglesia ni Cristo was registered in the Philippines on 27 July 1914. Its own history presents Felix Manalo as God's messenger for the last days. Its magazine Pasugo has set out its teaching since February 1939. By its own counts it is the largest church founded in the Philippines, though no independent count is cited here.",
+   "floorNote": "Iglesia ni Cristo was registered in 1914. Its own teaching presented its founder, Felix Manalo, as God's messenger for the last days. It honored Jesus as Lord and Savior but taught that he was not God. On its own published texts up to 2010, then, it did not affirm the Trinity or Christ's divinity in the creeds' sense.",
+   "relationsSummary": "Founded in the Philippines, where Catholicism had shaped the country for three centuries.",
+   "why": "Iglesia ni Cristo was registered in the Philippines on 27 July 1914. Its own history presented Felix Manalo as God's messenger for the last days. Its magazine Pasugo carried its teaching from February 1939. By its own counts it was the largest church founded in the Philippines in 2010. No independent count is cited here.",
    "entry": null
   },
   {
    "_draft": {
     "key": "D-E2",
-    "proposal": "D-P13 (M5)",
+    "proposal": "D-P13 (M5) - SKELETON; held until a source base is staged (G-31/G-32)",
     "kind_proposed": "current (pending D-Q8)",
-    "tier": "Tier 1 or 2 signal",
+    "tier": "Tier 2 signal pending base",
     "section_A": "No confession of its own; assessed through its carriers' dated statements (D-Q10). None staged.",
     "B": {
      "B1": "Moderate to 1974 in-repo; Thin after (YWAM, OM, frontier missions, unreached-peoples literature all wanted)",
-     "B2": "Rich as judgment - mission households, training, prayer letters, sending churches",
+     "B2": "Not yet assessable: no source is cited (the judgment held for when a base exists: rich - mission households, training, prayer letters, sending churches)",
      "B3": "High - VIII.25's legacy names this current and nothing in era 10 receives it",
      "B4": "Strong",
      "B5": "Large"
@@ -3672,7 +3911,8 @@
     "wanted": [
      "W11",
      "W23 (M5)"
-    ]
+    ],
+    "status": "skeleton - do not enter until a base exists"
    },
    "id": "the-independent-mission-movement",
    "atlasId": null,
@@ -3691,12 +3931,12 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "statusWord": "Candidate — Era 10 Step 0 re-run (pending Mark's gate)",
+   "statusWord": "Skeleton — not ready for the gate",
    "statusDescription": "A movement carried by mission agencies across many churches, not a church itself. Its sources are strong to 1974 and thin after it. That later half needs a source base before the entry is ready.",
    "living": true,
    "overlayCurrent": true,
    "c2": null,
-   "sourcing": "Moderate to 1974 (Edinburgh 1910 records, Stanley's histories, the International Missionary Council from 1921); thin for the later decades, where the agencies' own records are not yet staged.",
+   "sourcing": "Moderate to 1974: the Edinburgh 1910 records, Stanley's histories and the International Missionary Council from 1921. Thin for the later decades, where the agencies' own records are not yet staged.",
    "floorNote": "No question. The movement has no confession of its own; it is assessed through the published statements of the agencies that carried it.",
    "relationsSummary": "One of the two currents that came out of Edinburgh in 1910. The other became the International Missionary Council in 1921 and joined the World Council of Churches in 1961. This one went into independent mission agencies. In 1974 Billy Graham's organization called the Lausanne Congress, where Latin American voices argued for integral mission.",
    "why": "The World Missionary Conference at Edinburgh in 1910 sent the zeal of a student generation two ways. One stream built the councils that became the ecumenical movement. The other went into independent mission agencies, which grew all through the twentieth century.",
@@ -3705,13 +3945,13 @@
   {
    "_draft": {
     "key": "D-E3",
-    "proposal": "D-P12 (M2)",
+    "proposal": "D-P12 (M2) - SKELETON; held until a source base is staged (G-31/G-32)",
     "kind_proposed": "current (pending D-Q8)",
-    "tier": "Tier 2 signal",
+    "tier": "Tier 2 signal pending base",
     "section_A": "Through carriers' dated statements (D-Q10); none staged.",
     "B": {
      "B1": "Thin-to-moderate in-repo",
-     "B2": "Moderate-to-rich as judgment - small groups, camps, conferences, discipleship method",
+     "B2": "Not yet assessable: no source is cited (the judgment held for when a base exists: moderate-to-rich - small groups, camps, conferences, discipleship method)",
      "B3": "High - receiver of VIII.25",
      "B4": "Strong",
      "B5": "Large"
@@ -3733,7 +3973,8 @@
     "wanted": [
      "W23 (M2)"
     ],
-    "note": "why kept minimal on purpose: no repo source describes the campus movements' practices or influence; those lines wait for the base."
+    "note": "why kept minimal on purpose: no repo source describes the campus movements' practices or influence; nothing is added until a base exists.",
+    "status": "skeleton - do not enter until a base exists"
    },
    "id": "student-and-campus-movements",
    "atlasId": null,
@@ -3752,7 +3993,7 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "statusWord": "Candidate — Era 10 Step 0 re-run (pending Mark's gate)",
+   "statusWord": "Skeleton — not ready for the gate",
    "statusDescription": "A movement carried by student organizations across many churches, not a church itself. The founding dates of its carriers are not yet sourced, so the entry waits on a source base.",
    "living": true,
    "overlayCurrent": true,
@@ -3760,7 +4001,7 @@
    "sourcing": "Thin to moderate: the Student Volunteer Movement's histories cover its decline; the later campus organizations' own records are not yet staged.",
    "floorNote": "No question. The movement has no confession of its own; it is assessed through the published statements of the organizations that carried it.",
    "relationsSummary": "Took up the campus work of the Student Volunteer Movement, which never recovered from the First World War. In the late 1960s a group of Campus Crusade staff left to look for the early church and later became Orthodox.",
-   "why": "The Student Volunteer Movement never recovered from the First World War, and by mid-century it had in effect ended. Other student movements took up campus work in its place. Their story still needs its own sources before it can be told here.",
+   "why": "The Student Volunteer Movement never recovered from the First World War, and by mid-century it had in effect ended. Other student movements took up campus work in its place.",
    "entry": null
   },
   {
@@ -3772,7 +4013,7 @@
     "section_A": "Not assessable on dated texts - carriers' statements not staged.",
     "B": {
      "B1": "Thin in-repo",
-     "B2": "Moderate as judgment",
+     "B2": "Not yet assessable: no source is cited (the judgment held for when a base exists: moderate)",
      "B3": "High",
      "B4": "Strong",
      "B5": "Large"
@@ -3823,7 +4064,7 @@
     "section_A": "Clears A1 directly (Anglican formularies; per-body as usual) - dated texts not staged for this era",
     "B": {
      "B1": "Thin in-repo",
-     "B2": "Rich as judgment",
+     "B2": "Not yet assessable: no source is cited (the judgment held for when a base exists: rich)",
      "B3": "High - receiver of VIII.30 and VIII.5",
      "B4": "Strong",
      "B5": "Large"
@@ -3872,12 +4113,12 @@
   {
    "_draft": {
     "key": "D-E6",
-    "proposal": "D-Q7 branch (i) - IX.50 revised as history to 2000. MARK'S DIRECT RULING; nothing decided.",
+    "proposal": "D-Q7 branch (i) - IX.50 revised as history to 2010. MARK'S DIRECT RULING; nothing decided.",
     "kind_proposed": "current (if D-Q8 adopts one)",
     "tier": "Tier 3",
     "section_A": "No independent confession to test - provisional; all three legs [S] (founders' circle, Falwell 'coalition of moralists', Whitehead & Perry definition)",
     "B": {
-     "B1": "Moderate-to-rich: Dallas 21 Aug 1980, MM dissolved 1989, Christian Coalition 1989 (all verified); MM founded 6 Jun 1979 [S]; independent scholarship (Whitehead & Perry 2020, Du Mez 2020, Stewart 2020, Gorski 2019/2020) as histories of the pre-2000 current",
+     "B1": "Moderate-to-rich: eight dated anchors, seven verified - Dallas 21 Aug 1980 [date to re-check, see dateNote], MM dissolved 1989, Christian Coalition 1989 (all verified); MM founded 6 Jun 1979 [S]; independent scholarship (Whitehead & Perry 2020, Du Mez 2020, Stewart 2020, Gorski 2019/2020) as later histories of the 1979-2010 current; Limbaugh 1988 and Fox 1996 (verified, media carriers only); Faith and Freedom Coalition 2009 and Falwell's death 2007 (verified)",
      "B2": "Thin - unchanged, the crux",
      "B3": "Real",
      "B4": "Strong",
@@ -3896,7 +4137,9 @@
     "restored_2010": [
      "Faith and Freedom Coalition founded 14 May 2009 by Reed (verified)",
      "Falwell d. 15 May 2007 (verified)"
-    ]
+    ],
+    "idNote": "The id still reads 'christian-right-and-christian-nationalism'. Ids are permanent, so it must be settled before first publication, together with the naming sub-option of G-15.",
+    "dateNote": "V1.0 carries the Dallas briefing as 21 August 1980 (verified). Reagan's address is usually dated 22 August; the briefing ran 21-22 August. The participant text says only 'August 1980'. Re-check before any finer date is published."
    },
    "id": "christian-right-and-christian-nationalism",
    "atlasId": "IX.50",
@@ -3920,10 +4163,10 @@
    "living": true,
    "overlayCurrent": true,
    "c2": null,
-   "sourcing": "Moderate to rich: the 1980 Dallas briefing, the founding of the Christian Coalition in 1989 and of the Faith and Freedom Coalition in 2009 and the end of the Moral Majority in 1989 are documented; the Moral Majority's 1979 founding date is not yet verified. Later historians (Du Mez, Whitehead and Perry, Stewart, Gorski) studied the movement independently.",
-   "floorNote": "There is no confession of its own to test. The movement was built as a coalition: its first leaders included Catholics, a Jew and fundamentalist Baptists, joined by shared political and moral aims rather than a shared creed. This reading is provisional until its sources are verified.",
-   "relationsSummary": "Drew heavily on fundamentalist and evangelical churches (IX.33, IX.24) without becoming any one of them. Its organizations were the Moral Majority (1979–1989), the Christian Coalition (from 1989) and the Faith and Freedom Coalition (from 2009). Rush Limbaugh's national radio program from 1988 and Fox News from 1996 carried its shared story as media outlets, not as churches.",
-   "why": "In August 1980, at a briefing in Dallas, the candidate Ronald Reagan told the evangelical leaders on the platform: 'I know this is a nonpartisan gathering, and so I know that you can't endorse me, but I only brought that up because I want you to know that I endorse you and what you're doing.' The Moral Majority had been founded the year before. It closed in 1989, and the Christian Coalition was founded the same year. In 2009 Ralph Reed, the Christian Coalition's first executive director, founded the Faith and Freedom Coalition.",
+   "sourcing": "Moderate to rich. The 1980 Dallas briefing is documented. So are the Christian Coalition's founding and the Moral Majority's end, both in 1989, and the Faith and Freedom Coalition's founding in 2009. The Moral Majority's 1979 founding date is not yet verified. Later historians (Du Mez, Whitehead and Perry, Stewart, Gorski) studied the movement independently.",
+   "floorNote": "There is no confession of its own to test. The movement was built as a coalition. Its first leaders included Catholics, a Jew and fundamentalist Baptists, joined by shared political and moral aims rather than a shared creed. This reading is provisional until its sources are verified.",
+   "relationsSummary": "Drew heavily on fundamentalist and evangelical churches without becoming any one of them. Its organizations were the Moral Majority (1979–1989), the Christian Coalition (from 1989) and the Faith and Freedom Coalition (from 2009). Rush Limbaugh's national radio program from 1988 and Fox News from 1996 carried its shared story as media outlets, not as churches.",
+   "why": "In August 1980 the candidate Ronald Reagan spoke at a briefing in Dallas. He told the evangelical leaders on the platform: 'I know this is a nonpartisan gathering, and so I know that you can't endorse me, but I only brought that up because I want you to know that I endorse you and what you're doing.' The Moral Majority had been founded the year before. It closed in 1989, and the Christian Coalition was founded the same year. In 2009 Ralph Reed, the Christian Coalition's first executive director, founded the Faith and Freedom Coalition.",
    "entry": null
   }
  ]
