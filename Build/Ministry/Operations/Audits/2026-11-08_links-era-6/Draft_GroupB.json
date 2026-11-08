@@ -89,7 +89,13 @@
     "OCR: 'coining' for 'coming' (16704), 'Hubs' for 'Huss' (42043), 'Lnther' for 'Luther' (53513), 'Wickliffc' (Tyndale 29439), 'Wickliff s' (18612). Kept exactly.",
     "Tonstal's letter carries no date in this edition; the note leaves it out."
    ],
-   "change_reason": "New. Carries the contested influence line the Lollard summary names, with the 1521 Lincoln trials and Foxe's own claim of continuity."
+   "change_reason": "New. Carries the contested influence line the Lollard summary names, with the 1521 Lincoln trials and Foxe's own claim of continuity.",
+   "readability": {
+    "note": {
+     "fre_after": 60.5,
+     "fk_after": 8.4
+    }
+   }
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
@@ -98,7 +104,7 @@
    "to": "czech-churches-last-century",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Unity of the Brethren met in synod once or twice a year from its founding and recorded its decrees. In 1617 a brother sorted them by the Unity's periods, from \"the beginning of the Unity\" onward. The Moravian historian David Cranz traced the same church from 1457 to its scattering in 1627.",
+   "note": "The Unity of the Brethren met in synod once or twice a year from its founding and wrote down its decrees. In 1617 a brother sorted them by the Unity's periods, from \"the beginning of the Unity\" onward. The Moravian historian David Cranz traced the same church from 1457 to its scattering in 1627.",
    "sources": [
     {
      "kind": "primary",
@@ -140,7 +146,13 @@
     "Cranz's quote is the Part I heading; the next lines (1131-1134) give Part IV 'until their Dispersion in 1627'; the note's 1627 rests there. Cranz's long-s OCR is clean at these lines.",
     "The source shows the Unity's continuity; the Utraquist side is in the census text but not in a vendored primary across 1517 (see wants). The grade is for the community the link names, which the czech entry treats as one Utraquist-and-Unity church."
    ],
-   "change_reason": "New. The movement's continuesAs points here, but no link carried it."
+   "change_reason": "New. The movement's continuesAs points here, but no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 65.2,
+     "fk_after": 8.4
+    }
+   }
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism",
@@ -202,7 +214,13 @@
     "OCR: 'iíe m«Mi' (Czech, for 'se mohli') and the footnote marks '*)' are kept exactly. Cranz's long s ('firft', 'dodfrine', 'worfhip', 'fervice', 'Zifka', 'Hufs’s') and the hyphen mark 'fol¬' kept.",
     "Březová was a Prague master writing within the Hussite movement; the brethren he names are 'favoring the communion of the chalice', the Hussite mark."
    ],
-   "change_reason": "New. The Taborite entry calls itself the Hussites' radical wing; no link carried it."
+   "change_reason": "New. The Taborite entry calls itself the Hussites' radical wing; no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 74.6,
+     "fk_after": 7.9
+    }
+   }
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement--taborite-radicalism--2",
@@ -211,7 +229,7 @@
    "to": "taborite-radicalism",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Tabor's own chronicle says the Prague masters attacked its priests for dropping vestments and the Roman rite. It records a dispute between them in 1421. In 1434 Prague's Old Town and its allies marched against the Taborites, and in 1452 the Utraquist regent George of Poděbrady took Tabor.",
+   "note": "Tabor's own chronicle says the Prague masters attacked its priests for dropping vestments and the Roman rite. It tells of a dispute between them in 1421. In 1434 Prague's Old Town and its allies marched against the Taborites, and in 1452 the Utraquist regent George of Poděbrady took Tabor.",
    "outcome": "In 1452 George of Poděbrady, regent of Bohemia, took Tabor. He forced the moderate Utraquist service on the town.",
    "outcome_basis": "c",
    "outcome_locus": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt:10138-10149",
@@ -269,7 +287,17 @@
     "OCR: 'boc' for 'hoc', 'lentantes' for 'tentantes' (26565), 'sectani' for 'sectam' (64533), 'ommiserant' kept. Lützow's line-break hyphen 'church- service' kept.",
     "The Taborite side also wrote against the Prague masters (Chronicon line 25950-25951). The census text names only the Hussite majority's acts, so no reverse link was drafted."
    ],
-   "change_reason": "New. Carries the text's 'moderate Hussites destroyed it' (Lipany, 1434) and the fall of the town (1452)."
+   "change_reason": "New. Carries the text's 'moderate Hussites destroyed it' (Lipany, 1434) and the fall of the town (1452).",
+   "readability": {
+    "note": {
+     "fre_after": 64.9,
+     "fk_after": 8.1
+    },
+    "outcome": {
+     "fre_after": 63.6,
+     "fk_after": 6.7
+    }
+   }
   },
   {
    "id": "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2",
@@ -344,7 +372,17 @@
     "Cranz dates the Compacts' grant at Basel to 1433; Palacký dates their sealing at Iglau (Jihlava) to July 1436. Both are right for different stages; the note uses Palacký's date for the end of the war, matching the census text's 1436.",
     "OCR: 'nniversis', 'clictis' (for 'dictis'), 'ecclesiasticain', 'concUü' (for 'concilii'), 'Christianain paceni cos' (for 'Christianam pacem eos'), 'Bafil', 'CompaPata'. Kept exactly."
    ],
-   "change_reason": "New. The Hussite text names the Compacts of Basel; no link carried the settlement."
+   "change_reason": "New. The Hussite text names the Compacts of Basel; no link carried the settlement.",
+   "readability": {
+    "note": {
+     "fre_after": 64.9,
+     "fk_after": 7.4
+    },
+    "outcome": {
+     "fre_after": 74.1,
+     "fk_after": 6.3
+    }
+   }
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations",
@@ -397,7 +435,13 @@
     "Documented on the type's test: the later side names the earlier one's work and judges it. The link does not claim Hus shaped Luther's theology in detail.",
     "The Wace-Buchheim 1885 translation of the same passage is also vendored (luther_first-principles-reformation_wace-buchheim1885.txt, lines 6980-6982); the Jacobs edition was used because a world source record already exists for it."
    ],
-   "change_reason": "New. Replaces the unsourced 'we are all Hussites without knowing it' with Luther's own 1520 words, now carried by a link."
+   "change_reason": "New. Replaces the unsourced 'we are all Hussites without knowing it' with Luther's own 1520 words, now carried by a link.",
+   "readability": {
+    "note": {
+     "fre_after": 61.7,
+     "fk_after": 9.1
+    }
+   }
   },
   {
    "id": "latin-papal-church-avignon-to-lateran-v--waldensians-in-the-alps",
@@ -407,7 +451,7 @@
    "type": "argued against",
    "confidence": "Documented",
    "note": "In 1487 Pope Innocent VIII sent his legate Albert de Capitaneis against the Waldenses. The bull called on rulers to take up arms against them. Troops raised at the legate's request then wiped out the Waldensians of the valley of Loyse in Dauphiné.",
-   "outcome": "A papal bull of 1487 ordered the Waldenses rooted out by force. In 1489 a court at Embrun judged those of Fraissinière to be heretics and ordered their goods seized.",
+   "outcome": "A papal bull of 1487 ordered the Waldenses rooted out by force. In 1489 a court at Embrun judged those of Fraissinière heretics and ordered their goods seized.",
    "outcome_basis": "a",
    "outcome_locus": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt:22808-22866; cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt:4593-4645",
    "sources": [
@@ -455,7 +499,17 @@
     "Group C owns the papacy's own text. If group C drafts this pair from the papal side, the merge should keep one.",
     "OCR: long s throughout Morland ('againfl', 'Waldenfes', 'whatfoevery', '«p', 'HeretickSj', 'anddeflroyed'); Perrin '(.'apitaneis', 'Cremona,senl', 'harvissing'. Kept exactly."
    ],
-   "change_reason": "New. The Alpine Waldensian text names the 1487 bull three times; no link carried it."
+   "change_reason": "New. The Alpine Waldensian text names the 1487 bull three times; no link carried it.",
+   "readability": {
+    "note": {
+     "fre_after": 63.7,
+     "fk_after": 7.9
+    },
+    "outcome": {
+     "fre_after": 61.5,
+     "fk_after": 8.0
+    }
+   }
   }
  ],
  "dispositions": [
@@ -1279,5 +1333,6 @@
   "B: Held for the era-7/8 pass: czech-churches-last-century to the-moravian-church-at-herrnhut (continued as). The Hussite text's 'renewed as the Moravian Church' rests on that step, which this pass cannot draw (both ends outside era 6).",
   "B: For the reviewer, not a stop: the Council of Basel is counted under latin-papal-church-avignon-to-lateran-v. If the project wants the conciliar movement told apart from the papacy, the Compacts link's 'from' would change.",
   "B: Possible duplicates with group C (papacy's own text): the 1487 bull against the Alpine Waldensians and the Compacts of Basel. If group C drafts either pair, the merge should keep one."
- ]
+ ],
+ "self_check": "grep -iE 'we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we' over every link note, every outcome and every prose_changes 'new' field: 0 hits (two earlier hits, 'recorded' and 'records' in two notes, were reworded). Quote check (whitespace-squashed substring at the stated lines, as tools/validate-census.mjs does): 27 of 27 primary and secondary quotes found. Every note, outcome and changed paragraph scores FRE >= 60 and FK <= 10 with engine.m7.turn_readability.score_turn; every 'old' matches the live field exactly; JSON parses."
 }
