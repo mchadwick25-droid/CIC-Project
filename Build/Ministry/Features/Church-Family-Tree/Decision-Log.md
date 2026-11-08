@@ -363,3 +363,31 @@ records, which hold the compilers contested, are left as they are; this is a rul
 tree's text, not a records change. Applied in data release 5 to `alexandria-catechetical`'s
 legacy and the `alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition` link
 note.
+
+## 2026-11-08 — Major links: a switch, and what makes a link major
+
+**Decided (Mark: "we need a way to prioritize and scale"; "prioritize the top few that click on
+and off (things with historical implementations, not just a squabble)"; "still off, but yes a
+major links"; test M2; "converged, auto mode").** The map still opens with no lines. Connections
+gains a "Major links" switch, off by default, that draws only major links. Picking a movement
+still lights all of its own links, and every link stays on its card and tree page.
+
+A link is major when:
+- its type is "gave rise to", "continued as" or "broke with"; or
+- its type is "influenced", "argued against" or "in contact with", and one of its own listed
+  sources shows a lasting outcome beyond the quarrel: a council, canon or law condemning a
+  group; a split into a separate church; a teaching, text or practice taken up by the other
+  side; or a rule or practice changed. Such a link carries `outcome`, one plain sentence naming
+  that result from its own sources.
+
+**Options shown** (artifact "Taming the tree's lines"): A lines on demand; B lineage spine plus
+lines on demand; C key links per era; D detail by zoom. Then, for the test: M1 type only; M2
+type plus a sourced outcome; M3 a ranked top ten per era. Recommended B, then M2. Mark took a
+switch (from C) with the M2 test.
+
+**Why M2.** It catches consequential arguments and influence (a council condemning a group, the
+Reformers reading Augustine), while every major mark stays tied to a source the review checks.
+A ranked top ten would have made comparative claims no source can carry.
+
+**Scope.** Eras 6 to 10 mark outcomes while drafting (launch prompt step 4b). Eras 1 to 5 get
+one pass (P2-ML), with the map switch, after eras 4 and 5 merge.

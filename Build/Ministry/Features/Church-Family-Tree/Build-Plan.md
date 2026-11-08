@@ -78,6 +78,7 @@ applied to every shared file, not only the census.
 | P2-L3 | Links, era 3; data release 7 | none | in review |
 | P2-L4…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
+| P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5 | none (3-round cap) | in progress |
 | P2-M | Method page, confidence at a glance | none | todo |
 | P2-D | Data and citation page | none | todo |
 | P2-S | Find-your-church search | none | todo |
