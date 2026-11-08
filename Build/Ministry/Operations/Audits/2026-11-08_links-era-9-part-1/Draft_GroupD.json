@@ -1,0 +1,1235 @@
+{
+ "group": "D",
+ "movements": [
+  "the-missionary-movement-s-native-churches-seramp",
+  "the-student-volunteer-movement-and-edinburgh-191",
+  "indonesian-christianity",
+  "northeast-india-revivals-and-the-mar-thoma-refor"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Era 8 owns it: the Pietism entry's own text names the wider Protestant missionary movement. 'Pietist' kept in the rewritten field. Carey's Enquiry (lines 780-782) names the Danish mission of Ziegenbalg at Tranquebar, for the era-8 owner."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South.",
+   "other_id": "the-moravian-church-at-herrnhut",
+   "disposition": "link",
+   "link_id": "the-moravian-church-at-herrnhut--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": 0,
+   "reason": "Documented 'influenced': Carey's Enquiry names the Moravians as unequalled in mission. 'Descend from' retyped as influence; no vendored text shows Moravian people passing into these churches."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
+   "prose_change": 0,
+   "reason": "Documented 'influenced': Carey's Enquiry cites Wesley's West Indies mission. 'Descend from' retyped as influence."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Catholic mission lines': the four wings are Protestant mission churches; Carey cites 'popish missionaries' (line 250) only as proof the work was possible. No census entry for a nineteenth-century Catholic mission line is named. Removed."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Parents of the Christian traditions now flourishing across the global South': a general claim supported by the repo-cited Sanneh, Translating the Message, and the census sources; the specific era-10 descents are carried by the Chinese church and AIC links."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "Converts also became missionaries in their own right — Lott Carey's mission to Liberia in 1821, sent by Black American churches, is one example.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Lott Carey was a Black American Baptist sent to Liberia, outside this entry's four regions, not a convert of these churches; the Black Church entry does not name him; no vendored or repo-cited source. Example replaced with the Polynesian teachers."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "sentence": "Converts also became missionaries in their own right — Lott Carey's mission to Liberia in 1821, sent by Black American churches, is one example.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Same clause (Lott Carey's mission to Liberia): removed with the above."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Between 1793 and 1906 European and American missionary societies planted churches across India, West Africa, the Pacific and the China coast.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own frame. Carey's Enquiry (1792, vendored) documents the appeal that led to the Baptist Missionary Society; the rest is standard and in the repo-cited Stanley (CHC vol. 8)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Samuel Ajayi Crowther, enslaved as a boy in Yorubaland and freed by an anti-slavery patrol, translated the Bible into Yoruba and in 1864 became the first African Anglican bishop, only for the next generation of the same society to force him aside in 1890.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person, not a movement relationship. Standard facts, in the repo-cited Walls 1992; Crowther's journals not vendored (open item 'Well-known facts with no vendored source'; listed in wants)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Samuel Ajayi Crowther, enslaved as a boy in Yorubaland and freed by an anti-slavery patrol, translated the Bible into Yoruba and in 1864 became the first African Anglican bishop, only for the next generation of the same society to force him aside in 1890.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Crowther forced aside by the CMS in 1890: same support (Walls 1992); the same claim drives the AIC link."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Liang Fa's tract: a person and a text; Spence 1996 (repo-cited)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Hong's reading of the tract: carried by the Taiping link (Spence)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland.",
+   "other_id": "taiping-heavenly-kingdom",
+   "disposition": "link",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--taiping-heavenly-kingdom",
+   "prose_change": null,
+   "reason": "Dominant Modern Reconstruction 'influenced' on Spence and Reilly; Hamberg 1854 wanted. Part 1 owns it because this text names it."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Pastor Xi: a person; Mrs Howard Taylor's CIM biography is named in the census sources; not vendored (wanted)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "why",
+   "sentence": "Samuel Ajayi Crowther, freed as a boy from a slave ship, translated the Bible into Yoruba and in 1864 became the first African bishop in the Anglican Communion, only to be forced aside by his own missionary society in 1890.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; Walls 1992 (repo-cited)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "why",
+   "sentence": "Samuel Ajayi Crowther, freed as a boy from a slave ship, translated the Bible into Yoruba and in 1864 became the first African bishop in the Anglican Communion, only to be forced aside by his own missionary society in 1890.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; Walls 1992 (repo-cited)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "why",
+   "sentence": "In the Pacific it was Polynesian teachers, not Europeans, who carried the faith from island to island, often at the cost of their lives, while in China the former opium addict known as Pastor Xi built a network of congregations he led himself.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; Taylor's biography named in census sources (wanted)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "why",
+   "sentence": "Across India, West Africa, the Pacific, and the China coast, churches planted by foreign missions were run and spread almost immediately by converts the missions had not planned for.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own thesis; Sanneh, Translating the Message (repo-cited)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Nigeria: map-layout wording ('this window') rewritten; the descent itself is standard (Sanneh, repo-cited)."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "South India: same rewrite."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Pacific: same rewrite."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window.",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "link",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "prose_change": 1,
+   "reason": "Dominant Modern Reconstruction 'gave rise to' on Bays and Lian Xi; wording rewritten in the same prose change."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "link",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": null,
+   "reason": "Dominant Modern Reconstruction 'influenced' on Walls and Sanneh. Era 10 not yet run, so ours."
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "sentence": "And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The lesson drawn from Crowther's treatment: carried by the AIC link; text unchanged."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "relationsSummary",
+   "sentence": "The 1910 World Missionary Conference at Edinburgh was its summit, and it became the parent of both the modern ecumenical movement and the independent evangelical missionary agencies that followed.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 2,
+   "reason": "Dominant Modern Reconstruction 'gave rise to' (Stanley 2009). 'Parent of' softened to 'claim as an ancestor', as the legacy already says."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "relationsSummary",
+   "sentence": "The 1910 World Missionary Conference at Edinburgh was its summit, and it became the parent of both the modern ecumenical movement and the independent evangelical missionary agencies that followed.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No-entry: no census movement for the independent agencies (Lausanne-era evangelicalism is not named). Softened to 'many later evangelical mission agencies claim that gathering as an ancestor' (Stanley 2009, repo-cited)."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "relationsSummary",
+   "sentence": "It continued seamlessly into the International Missionary Council, founded in October 1921.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "qualify",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 2,
+   "reason": "The SVM itself did not become the council; Edinburgh's continuation committee carried the work. Rewritten; the relationship is the same 'gave rise to' link."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "longDescription",
+   "sentence": "V. S. Azariah of India asked the room, to its face, for friends rather than masters, and Cheng Jingyi of China told it that the Chinese church wanted to be one church and had no use for European denominational divisions.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person's speech; Edinburgh 1910's published records are named in the census sources and in Stanley 2009 (repo-cited); not vendored (wanted)."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "longDescription",
+   "sentence": "V. S. Azariah of India asked the room, to its face, for friends rather than masters, and Cheng Jingyi of China told it that the Chinese church wanted to be one church and had no use for European denominational divisions.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Cheng Jingyi's speech: same support."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "why",
+   "sentence": "V. S. Azariah of India asked for friends rather than masters, and Cheng Jingyi of China asked for one Chinese church free of European denominational divisions.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same support (Stanley 2009)."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "why",
+   "sentence": "V. S. Azariah of India asked for friends rather than masters, and Cheng Jingyi of China asked for one Chinese church free of European denominational divisions.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same support (Stanley 2009)."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "longDescription",
+   "sentence": "Cheng Jingyi of China told it that the Chinese church wanted to be one church and had no use for European denominational divisions.",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reports what Cheng said in 1910 about the Chinese church of his day, not a relationship to the era-10 entry (which begins in the 1920s). No link; supported as above."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "why",
+   "sentence": "Cheng Jingyi of China asked for one Chinese church free of European denominational divisions.",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same: a 1910 speech, not a movement relationship."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "legacy",
+   "sentence": "Edinburgh's continuation committee became the International Missionary Council in 1921 and fed into the World Council of Churches in 1948: the modern ecumenical movement dates its own beginning to that room.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 3,
+   "reason": "Continuation committee to the council: the 'gave rise to' link."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "legacy",
+   "sentence": "Edinburgh's continuation committee became the International Missionary Council in 1921 and fed into the World Council of Churches in 1948: the modern ecumenical movement dates its own beginning to that room.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "qualify",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 3,
+   "reason": "'Fed into the WCC in 1948': the council merged in 1961 (the ecumenical entry's own text). Date corrected."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "legacy",
+   "sentence": "Edinburgh's continuation committee became the International Missionary Council in 1921 and fed into the World Council of Churches in 1948: the modern ecumenical movement dates its own beginning to that room.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "kept-as-is",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 3,
+   "reason": "'Dates its own beginning to that room': the ecumenical entry's own text opens with Edinburgh 1910; Stanley 2009."
+  },
+  {
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "legacy",
+   "sentence": "The same generation's evangelistic energy went the other way, into the independent missionary agencies that multiplied through the twentieth century",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the agencies; the claim of ancestry is in Stanley 2009 (repo-cited). Kept."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Ludwig Nommensen's mission gave rise to the HKBP, among the largest Lutheran bodies on earth.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inside the movement (the HKBP is this entry's own church); Aritonang & Steenbrink (repo-cited). No link."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Ludwig Nommensen's mission gave rise to the HKBP, among the largest Lutheran bodies on earth.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Duplicate inventory row; same reason."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The Timor revival of 1965-71 belongs to the same story.",
+   "other_id": "indonesian-christianity-the-independent-century",
+   "disposition": "link",
+   "link_id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+   "prose_change": null,
+   "reason": "The period split: 'continued as', Dominant Modern Reconstruction (Aritonang & Steenbrink; no Indonesian text vendored). Inventory missed the era-10 entry."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity had been present in the eastern Indonesian islands since the Portuguese and the Dutch East India Company",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Carey's Enquiry (1792, vendored) lines 735 ('the Portuguese in Asia') and 783-796 (Dutch East India Company churches at Batavia, Amboyna, Java and Sumatra) support it."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity had been present in the eastern Indonesian islands since the Portuguese and the Dutch East India Company",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dutch East India Company: Carey 1792 lines 783-796 ('The Dutch East-India Company likewise having extended their commerce, built the city of Batavia, and a church was opened there')."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "German missionaries reached the Batak highlands of North Sumatra in 1861, where Ludwig Nommensen spent more than fifty years.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mission history; Aritonang & Steenbrink (repo-cited). Not a census relationship."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "German missionaries reached the Batak highlands of North Sumatra in 1861, where Ludwig Nommensen spent more than fifty years.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; same support."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "The church that grew there gave itself a written order in 1881",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own church; same support. The 1881 order is wanted."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "a Javanese teacher known as Kiai Sadrach gathered thousands of followers",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; Partonadi 1990 (repo-cited)."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "Which the Dutch missions regarded with deep suspicion at the time",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Partonadi 1990; the census caveat names the 1882 investigation and 1893 break in hostile mission records."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "longDescription",
+   "sentence": "Almost everything written about all of this in the period was written by the missions",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A sourcing statement; the census source notes say the same."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "why",
+   "sentence": "German missionaries reached the Batak highlands of North Sumatra in 1861",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the description."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "why",
+   "sentence": "the church that grew there gave itself a written order in 1881",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the description."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "why",
+   "sentence": "a teacher known as Kiai Sadrach gathered thousands of followers",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Partonadi 1990."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "why",
+   "sentence": "which the Dutch missions regarded with deep suspicion at the time",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Partonadi 1990."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "legacy",
+   "sentence": "one of them carrying Nommensen's name",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An institution's name; standard; Aritonang & Steenbrink."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "legacy",
+   "sentence": "The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
+   "other_id": "indonesian-christianity-the-independent-century",
+   "disposition": "link",
+   "link_id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+   "prose_change": 4,
+   "reason": "Carried by the continuation link; field rewritten only for the 'window' wording elsewhere in it."
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "legacy",
+   "sentence": "the Batak church founded in this window counts several million members on its own.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Map-layout wording ('this window') rewritten as 'these years'; the following fragment fixed."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "relationsSummary",
+   "sentence": "The Mar Thoma Church is an ancient-rite church that added evangelical reform, continuing the St. Thomas Christian tradition of Kerala.",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Era 7 owns it: the St Thomas Christians under Portuguese Pressure entry names the Mar Thoma church among its heirs (the era-6 St Thomas entry does too). Inventory gave no id. Sentence kept."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "relationsSummary",
+   "sentence": "After the 1889 court verdict split the community, the larger Malankara Orthodox (Jacobite) body carried on as a separate tradition.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": 5,
+   "reason": "'Broke with', Widely Accepted: the 1847 patriarchal anathema (vendored) and Whitehouse 1873 (vendored) plus Frykenberg for 1889. Sentence rewritten: 'Malankara Orthodox (Jacobite)' names the 1912 division too early."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "In 1836 a teacher at the seminary in Kottayam, Abraham Malpan, revised the Syriac liturgy",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Howard 1864 lines 6105-6108 record that in 1836 some catanars adopted an office 'much modified' from their own; Whitehouse 1873 lines 14754-14756 shows the Malpan Abraham of Maramaniar acting as a reformer. Howard credits the missionaries with the push; flagged for the reviewer, text left as is."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "putting the service into Malayalam so ordinary people could follow it",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Duplicate inventory row. Whitehouse 1873 lines 14763-14766 shows worship in the people's language urged from 1818; the Malpan's Malayalam liturgy itself is not in a vendored text (Malpan's revised liturgy wanted)."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "The reform divided the ancient community, and after decades of argument and litigation a royal court verdict in 1889 separated the two parties for good.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": null,
+   "reason": "Same 'broke with' link."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "while the larger body continued as the Malankara church.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": null,
+   "reason": "Same link; the sentence is accurate as written (no 1912 names)."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "small congregations planted by Welsh and American missions",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Welsh Calvinistic Methodist mission (Khasi hills, from 1841) belongs to the denomination of the Welsh Revival Tradition entry, which ends in 1815 and is not named; no vendored source. Kept; possible future link, mission records wanted."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "longDescription",
+   "sentence": "small congregations planted by Welsh and American missions",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "American Baptist mission (Naga hills): no census entry named; Downs 1992 (repo-cited). Kept."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "why",
+   "sentence": "In 1836 a seminary teacher named Abraham Malpan revised Kerala's ancient Syriac liturgy into Malayalam",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the description (Howard 1864 lines 6105-6108)."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "why",
+   "sentence": "keeping the old rite but reforming it from within",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Duplicate inventory row; same."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "legacy",
+   "sentence": "Mizoram and Nagaland are today among the most thoroughly Christian regions on earth, Presbyterian and Baptist respectively",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Present-day fact; Downs 1992 and Frykenberg 2008 (repo-cited)."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "legacy",
+   "sentence": "Presbyterian and Baptist respectively",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same."
+  },
+  {
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "legacy",
+   "sentence": "The Mar Thoma Syrian Church is still here, with dioceses in India and among Indian communities abroad",
+   "other_id": "northeast-india-and-mar-thoma-twentieth-century",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "prose_change": null,
+   "reason": "Added (inventory missed it): the period split, 'continued as', Widely Accepted; the era-10 entry's own text says it continues this one."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-moravian-church-at-herrnhut--the-missionary-movement-s-native-churches-seramp",
+   "action": "new",
+   "from": "the-moravian-church-at-herrnhut",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "William Carey's 1792 Enquiry led to the founding of the Baptist Missionary Society, and Carey went on to lead its mission at Serampore in India. In the Enquiry he wrote that 'none of the moderns have equalled the Moravian Brethren' in mission work. He held up their missions in Greenland and Labrador as proof that the work could be done.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens (1792), Sect. II",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "798-801",
+     "locus": "Sect. II",
+     "quote": "But none of the moderns have equalled the Moravian Brethren in this good work; they have sent missions to Greenland, Labrador, and several of the West-Indian Islands, which have been blessed for good.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry (1792), Sect. I",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "251-255",
+     "locus": "Sect. I",
+     "quote": "Have not the missionaries of the _Unitas Fratrum_, or Moravian Brethren, encountered the scorching heat of Abyssinia, and the frozen climes of Greenland, and Labrador, their difficult languages, and savage manners?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, The History of the Baptist Missionary Society, 1792-1992 (Edinburgh, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp relationsSummary ('learned from earlier Pietist, Moravian and Methodist missions'; after prose change 0)",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A writer taking up another body's example; no council, split or changed rule."
+   },
+   "wants": [
+    "Serampore Form of Agreement (1805) and Carey's Serampore letters in a public-domain edition, to show the Moravian model at work in the Serampore church itself, not only in Carey's appeal"
+   ],
+   "drafter_flags": [
+    "cross-era: era 8 (the Moravian entry does not name this link; era-9 text alone does, so it is ours)",
+    "The quote shows Carey, founder of the Serampore mission, naming Moravian work as his model. It does not show Moravian people passing into these churches, so the old 'descend from' is drafted as 'influenced', not 'gave rise to'.",
+    "That Carey led the BMS mission at Serampore is a standard fact; the file header says only that the Enquiry led to the BMS. Stanley 1992 is cited in the repo (river-prototype source list); not rechecked."
+   ],
+   "change_reason": "New. Replaces the unsourced 'descend from ... Moravian mission lines' with the documented use of the Moravian example by the founder of the Serampore mission."
+  },
+  {
+   "id": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
+   "action": "new",
+   "from": "the-methodist-revival",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his 1792 appeal for a mission society, William Carey pointed to John Wesley's mission in the West Indies. He wrote that he had 'seen pleasing accounts of their success' among the Caribs and enslaved Africans there. Carey went on to lead the Baptist mission at Serampore in India.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens (1792), Sect. II",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "804-806",
+     "locus": "Sect. II",
+     "quote": "The late Mr. Wesley lately made an effort in the West-Indies, and some of their ministers are now labouring amongst the Caribbs and Negroes, and I have seen pleasing accounts of their success.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp relationsSummary ('learned from earlier Pietist, Moravian and Methodist missions'; after prose change 0)",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A writer citing another body's work as encouragement; no institutional act."
+   },
+   "wants": [
+    "Joeli Bulu, The Autobiography of a Native Minister in the South Seas (1871), for the Wesleyan Methodist line into the Pacific island churches; would support a stronger 'gave rise to' from Methodism for the Pacific wing"
+   ],
+   "drafter_flags": [
+    "cross-era: era 8 (the Methodist Revival entry does not name this link)",
+    "Reviewer check: this meets the Documented test for 'influenced' (the later side naming the earlier one's work), but Carey's mention is brief. The much larger Methodist share in these churches (Wesleyan missions in Tonga, Fiji and Sierra Leone) is not in any vendored text.",
+    "'enslaved Africans' renders Carey's 'Negroes'; the West Indian Methodist converts of 1792 were overwhelmingly enslaved people. Reviewer may prefer 'Africans'."
+   ],
+   "change_reason": "New. Replaces the unsourced 'descend from ... Methodist mission lines' with Carey's documented citing of Methodist mission work."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--taiping-heavenly-kingdom",
+   "action": "new",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "taiping-heavenly-kingdom",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1832 the Chinese preacher Liang Fa published a Christian tract. Years later Hong Xiuquan reread it and decided that his visions meant he was God's second son. Jonathan Spence's history of the Taiping tells this story, and no text by Liang Fa or Hong has yet been checked for it here.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jonathan D. Spence, God's Chinese Son: The Taiping Heavenly Kingdom of Hong Xiuquan (New York, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas H. Reilly, The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire (Seattle, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp longDescription ('Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A tract read by the founder of another movement; no institutional act."
+   },
+   "wants": [
+    "Theodore Hamberg, The Visions of Hung-Siu-tshuen, and Origin of the Kwang-si Insurrection (Hong Kong, 1854), public domain: Hong's own account, via his cousin Hong Rengan, of reading Liang Fa's tract; would lift this to Documented",
+    "Liang Fa, Good Words to Admonish the Age (Quanshi liangyan, 1832), in a public-domain edition or translation"
+   ],
+   "drafter_flags": [
+    "Part 2 movement (Taiping); part 1 owns it because this entry's text names it.",
+    "Spence and Reilly are cited in the repo (Taiping source lists in the atlas prototype); I have not seen their pages. No primary is vendored.",
+    "The last sentence says plainly that no primary has been checked; the reviewer may prefer to drop it as process language. If dropped, the note still stands on Spence."
+   ],
+   "change_reason": "New. The tract-to-Taiping claim in the longDescription gets a link at the grade the repo-cited scholarship supports."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "action": "new",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "the-chinese-church-indigenous-and-suffering",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "China's independent churches of the 1920s, such as the True Jesus Church and Watchman Nee's assemblies, grew up beside the older mission churches. Historians Daniel Bays and Lian Xi trace them to Chinese believers first formed in that mission world. The new churches' own founders stressed their freedom from the foreign missions.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel Bays, A New History of Christianity in China (Wiley-Blackwell, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lian Xi, Redeemed by Fire: The Rise of Popular Christianity in Modern China (Yale, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 30 'Christianity in East Asia: China, Korea and Japan' (Bays & Grayson)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp legacy ('the Chinese church ... trace their roots to these years'; after prose change 1)",
+   "wants": [
+    "Mrs Howard Taylor, Pastor Hsi: One of China's Christians (1903), public domain, for Pastor Xi's self-led congregations as an early case of Chinese-led church life"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; era-9 text names it, so it is ours)",
+    "Two-entry tension: the Chinese church entry says its 1920s churches 'owed nothing to the foreign missions'. The note keeps both sides: descent of people, and the founders' stress on independence. See escalations.",
+    "'first formed in that mission world' is my summary of Bays and Lian Xi; not rechecked against their pages."
+   ],
+   "change_reason": "New. The legacy's claim that the Chinese church runs back through the mission-era churches gets a link at the grade repo-cited scholarship supports."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+   "action": "new",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Samuel Ajayi Crowther became the first African Anglican bishop in 1864, and in 1890 his own mission society forced him aside. Andrew Walls and Lamin Sanneh read that treatment as a lesson African Christians did not forget. In their reading it is one root of the churches Africans founded for themselves in the following decades.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andrew F. Walls, 'Samuel Ajayi Crowther (1807-1891): Foremost African Christian of the Nineteenth Century', International Bulletin of Missionary Research 16 (1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lamin Sanneh, Translating the Message (Orbis, 1989; 2nd ed. 2009)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 7, 'Christianity in Africa' (Sanneh)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp legacy ('the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "No listed source is vendored; nothing shows a council, split or rule change on the page."
+   },
+   "wants": [
+    "Samuel Crowther, journals of the 1841 Niger Expedition (in J. F. Schön and S. Crowther, Journals, London 1842), public domain",
+    "A public-domain record of the 1890-91 Niger crisis and the Lagos 'African Church' secessions of 1891, to document the claimed reaction"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the AIC entry also names 'mission churches' as parents, a separate claim left for the era-10 owner)",
+    "Walls and Sanneh are cited in the repo (census sources and atlas prototype); I have not seen their pages. The claim that Crowther's removal fed the independent churches is their reading, not a vendored fact.",
+    "The AIC entry's named churches (Harrist, Aladura, Zionist, Kimbanguist) are mostly later and elsewhere; the Lagos secessions of the 1890s, which Walls ties most directly to Crowther, are not named in either entry. Hence 'one root', not 'gave rise to'."
+   ],
+   "change_reason": "New. The legacy's Crowther-to-independent-churches claim gets a link at the grade repo-cited scholarship supports."
+  },
+  {
+   "id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "the-student-volunteer-movement-and-edinburgh-191",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The 1910 World Missionary Conference at Edinburgh, the summit of the student mission movement, set up a continuation committee to carry on its work. In October 1921 that work passed to the new International Missionary Council. Brian Stanley's history of the conference traces this line into the World Council of Churches.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, The World Missionary Conference, Edinburgh 1910 (Eerdmans, 2009)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. Howard Hopkins, John R. Mott, 1865-1955: A Biography (Grand Rapids, 1979)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 34 'Missions and empire, c.1873-1914' (Stanley)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-student-volunteer-movement-and-edinburgh-191 relationsSummary ('Edinburgh's continuation committee carried its work into the International Missionary Council'; after prose change 2) and legacy",
+   "wants": [
+    "World Missionary Conference, 1910, Report of Commission VIII and vol. IX, The History and Records of the Conference (Edinburgh and London, 1910), public domain: the Continuation Committee's appointment and the delegates' speeches; would lift this to Documented",
+    "John R. Mott, The Evangelization of the World in This Generation (1900), public domain"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the ecumenical entry's text names Edinburgh, but era 10 links named by era-9 text are ours)",
+    "The entry carries a continuesAs pointer to the ecumenical entry. 'Continued as' would claim the same community. The Student Volunteer Movement did not become the council; Edinburgh's committee's work did, and the SVM went on by itself until mid-century. So this is drafted as 'gave rise to'. See escalations.",
+    "Stanley 2009 and Hopkins 1979 are cited in the repo; I have not seen their pages."
+   ],
+   "change_reason": "New. 'Parent of the modern ecumenical movement' and 'continued seamlessly into the International Missionary Council' become one link at the grade repo-cited scholarship supports."
+  },
+  {
+   "id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+   "action": "new",
+   "from": "indonesian-christianity",
+   "to": "indonesian-christianity-the-independent-century",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Batak church of North Sumatra, which gave itself a written order in 1881, is the same church, the HKBP, that became fully independent in 1930. The Javanese and eastern island churches carried on into the twentieth century as well. Jan Aritonang and Karel Steenbrink's history of Christianity in Indonesia tells both chapters.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jan Sihar Aritonang and Karel Steenbrink, eds., A History of Christianity in Indonesia (Brill, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sutarman S. Partonadi, Sadrach's Community and Its Contextual Roots (Rodopi, 1990)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "indonesian-christianity relationsSummary and legacy ('The Timor revival ... belongs to the next chapter of the same story'); also the entry's continuesAs pointer",
+   "wants": [
+    "The HKBP church order of 1881, or Rhenish Mission reports from the Batak field (Berichte der Rheinischen Missionsgesellschaft, nineteenth century, public domain), to document the church's continuity from mission to independent church"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run)",
+    "No Indonesian source of any kind is vendored, so even the plain continuity of the same church rests on the secondary history. Aritonang & Steenbrink and Partonadi are cited in the census sources; not rechecked."
+   ],
+   "change_reason": "New. The period split from 1906 gets its continuation link."
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "action": "new",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "northeast-india-and-mar-thoma-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In the 1860s an English chaplain in Kerala watched the reforming bishop Mar Athanasius lead his party against a rival bishop sent from Antioch. That reforming party is the Mar Thoma Church that carried on through the twentieth century. The Khasi, Mizo and Naga hill churches carried on too, as Robert Frykenberg's history of Christianity in India shows.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "ch. on the churches of the north (visit to Mar Kurillos at Chilasherry)",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Frederick S. Downs, History of Christianity in India vol. V pt. 5: North East India (CHAI, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "northeast-india-revivals-and-the-mar-thoma-refor legacy ('The Mar Thoma Syrian Church is still here'; 'The hill churches did more than survive'); also the entry's continuesAs pointer",
+   "wants": [
+    "Welsh Calvinistic Methodist foreign mission records for the Khasi hills (e.g. the Society's annual reports, nineteenth century, public domain), to document the hill churches' side of the continuity"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the era-10 entry's own text says it continues this one)",
+    "Whitehouse is an Anglican observer, not a Mar Thoma voice; he is used here as a dated primary witness that the reform party existed as a body. Continuity into the twentieth century rests on Frykenberg and Downs (cited in the census sources; not rechecked). Hence Widely Accepted, not Documented.",
+    "verification_state is named-not-rechecked because the continuity itself rests on secondary works; the Whitehouse lines I read directly."
+   ],
+   "change_reason": "New. The period split from 1906 gets its continuation link."
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "action": "new",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "the-malankara-churches-orthodox-and-jacobite",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1847 the Patriarch of Antioch condemned Mathew Mar Athanasius, the reforming bishop in Kerala, and ordered that 'none shall pray with him'. A rival bishop came from Antioch to check the reform. A royal court verdict in 1889 then left the reformers and the larger body loyal to Antioch as separate churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847 on the dismissal of Athanasius Matthew, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2633-2636",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And thus again do we anathematize the audacious Matthew, as our Father the blessed Patriarch anathematized him. And no man shall in any wise have authority to receive him, or to hear his words, and none shall pray with him or consort with him on any ground whatsoever.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same letter (1847), on the charges against him",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2574-2577",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "the accursed Matthew had acted impiously, and was a heretic, and had changed his profession, and had abolished the fasts and the customs and the Canons Apostolic, and had taught new customs at his own pleasure,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "visit to Mar Kurillos at Chilasherry",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "northeast-india-revivals-and-the-mar-thoma-refor relationsSummary (after prose change 5) and longDescription ('The reform divided the ancient community ... a royal court verdict in 1889 separated the two parties for good ... while the larger body continued as the Malankara church')",
+   "wants": [
+    "The Travancore Royal Court of Final Appeal judgment of 1889 in the Seminary case, in a public-domain printing, to document the final rupture; with a Mar Thoma-side record (e.g. Mathew Mar Athanasius's or Thomas Mar Athanasius's own letters) for the reformers' side"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the Malankara entry also names the 1889 separation, so both sides' entries agree)",
+    "The rupture is documented from the patriarchal side in 1847 (the anathema, vendored, verified line by line) and by an outside witness in the 1860s (Whitehouse, an Anglican sympathetic to the reformers). The 1889 verdict that made it final is not vendored; it rests on Frykenberg and the census text. Hence Widely Accepted, not Documented.",
+    "The Malankara entry begins in 1912. It is the only entry for the body the reformers left, and its own summary names the 1889 separation, so the link joins them.",
+    "Philipos's Q. 74 answer (lines 2216-2241) gives the Jacobite side's account of Mathew's consecration in hostile terms; not quoted in the note."
+   ],
+   "change_reason": "New. The 1889 split named in summary and description gets a symmetric rupture link."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "old": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South. Converts also became missionaries in their own right — Lott Carey's mission to Liberia in 1821, sent by Black American churches, is one example.",
+   "new": "These churches grew out of Protestant mission societies, which learned from earlier Pietist, Moravian and Methodist missions. William Carey's 1792 appeal, which led to the Baptist mission in India, held up the Moravians and the Methodists as models. The churches the societies planted became parents of the Christian traditions now flourishing across the global South. Converts also became missionaries in their own right, like the Polynesian teachers who carried the faith from island to island.",
+   "reason": "'Descend from ... Catholic mission lines' is removed: the four wings named here are Protestant mission churches, and the one vendored text, Carey's Enquiry, cites Catholic missionaries only as proof the work was possible, not as a line of descent. The Moravian and Methodist claims are kept and now carried by Documented links from Carey's Enquiry. 'Pietist' is kept; era 8 owns that link. The Lott Carey example is removed: he was sent from America to Liberia, outside this entry's four regions, the Black Church entry does not name him, and no vendored or repo-cited source supports the sentence. The example is replaced by the Polynesian teachers, already in the description and why. Whole field rewritten."
+  },
+  {
+   "n": 1,
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "legacy",
+   "old": "Much of the Christianity of Africa, Asia and the Pacific descends from these churches, and the global South is now the numerical center of the faith: the Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all run back through this window. The translation work left a second legacy nobody planned. Hundreds of languages given a written form, a grammar and a printed literature for the first time, which preserved them as much as it preserved anything doctrinal. And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
+   "new": "Much of the Christianity of Africa, Asia and the Pacific descends from these churches, and the global South is now the numerical center of the faith. The Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all trace their roots to these years. The translation work left a second legacy nobody planned. Hundreds of languages were given a written form, a grammar and a printed literature for the first time, which preserved them as much as it preserved anything doctrinal. And the treatment of Crowther in his last years became a lesson African Christians drew directly. It is one of the roots of the independent African church movements of the following century.",
+   "reason": "'All run back through this window' is map-layout language; rewritten as 'trace their roots to these years'. The fragment 'Hundreds of languages given a written form' gets its verb. The Chinese church and Crowther claims are kept, each carried by a Dominant Modern Reconstruction link to its era-10 entry."
+  },
+  {
+   "n": 2,
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "relationsSummary",
+   "old": "Known by its watchword, \"the evangelization of the world in this generation.\" The 1910 World Missionary Conference at Edinburgh was its summit, and it became the parent of both the modern ecumenical movement and the independent evangelical missionary agencies that followed. It continued seamlessly into the International Missionary Council, founded in October 1921.",
+   "new": "Known by its watchword, \"the evangelization of the world in this generation.\" The 1910 World Missionary Conference at Edinburgh was its summit. Both the modern ecumenical movement and many later evangelical mission agencies claim that gathering as an ancestor. Edinburgh's continuation committee carried its work into the International Missionary Council, founded in October 1921.",
+   "reason": "'It continued seamlessly into the International Missionary Council' says the Student Volunteer Movement itself became the council. The entry's own legacy, and the ecumenical entry, say Edinburgh's continuation committee did, while the SVM went on by itself and faded by mid-century. 'Parent of both ... and the independent evangelical missionary agencies' is softened to the claim of ancestry the legacy already makes. Stanley 2009 (repo-cited) for both; the ecumenical claim is carried by a Dominant Modern Reconstruction link."
+  },
+  {
+   "n": 3,
+   "movement": "the-student-volunteer-movement-and-edinburgh-191",
+   "field": "legacy",
+   "old": "Edinburgh's continuation committee became the International Missionary Council in 1921 and fed into the World Council of Churches in 1948: the modern ecumenical movement dates its own beginning to that room. The same generation's evangelistic energy went the other way, into the independent missionary agencies that multiplied through the twentieth century, so that one gathering is claimed as an ancestor by two movements that spent the following century largely apart. The Student Volunteer Movement itself never recovered from the First World War and had effectively ended by mid-century.",
+   "new": "Edinburgh's continuation committee became the International Missionary Council in 1921, and the council joined the World Council of Churches in 1961: the modern ecumenical movement dates its own beginning to that room. The same generation's evangelistic energy went the other way, into the independent missionary agencies that multiplied through the twentieth century, so that one gathering is claimed as an ancestor by two movements that spent the following century largely apart. The Student Volunteer Movement itself never recovered from the First World War and had effectively ended by mid-century.",
+   "reason": "'Fed into the World Council of Churches in 1948' reads as the missionary council joining at the council's founding. The ecumenical entry's own text says the International Missionary Council merged in at New Delhi in 1961; the field now says so. Rest unchanged."
+  },
+  {
+   "n": 4,
+   "movement": "indonesian-christianity",
+   "field": "legacy",
+   "old": "Indonesia now has one of the largest Christian populations of any Muslim-majority country in the world, numbering in the tens of millions, and the Batak church founded in this window counts several million members on its own. A fact that would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain, one of them carrying Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
+   "new": "Indonesia now has one of the largest Christian populations of any Muslim-majority country in the world, numbering in the tens of millions, and the Batak church founded in these years counts several million members on its own. That would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain, one of them carrying Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
+   "reason": "'Founded in this window' is map-layout language; now 'founded in these years'. The fragment 'A fact that would surprise...' gets a subject. Rest unchanged; the 'next chapter' claim is carried by the continuation link."
+  },
+  {
+   "n": 5,
+   "movement": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "field": "relationsSummary",
+   "old": "The Mar Thoma Church is an ancient-rite church that added evangelical reform, continuing the St. Thomas Christian tradition of Kerala. After the 1889 court verdict split the community, the larger Malankara Orthodox (Jacobite) body carried on as a separate tradition. Independent revivals in the Khasi, Mizo and Naga hills, meanwhile, made those regions among the most thoroughly Christian on earth.",
+   "new": "The Mar Thoma Church is an ancient-rite church that added evangelical reform, continuing the St. Thomas Christian tradition of Kerala. The reform split the community. In 1847 the Patriarch of Antioch condemned its leading bishop, and after a royal court verdict in 1889 the larger body, loyal to Antioch, carried on as a separate Malankara church. Independent revivals in the Khasi, Mizo and Naga hills, meanwhile, made those regions among the most thoroughly Christian on earth.",
+   "reason": "'The larger Malankara Orthodox (Jacobite) body' names a division that came only in 1912, when that body itself split into Orthodox and Jacobite wings. The field now names the body by its loyalty to Antioch and adds the 1847 anathema, which the vendored patriarchal letter documents (Philipos, ed. Howard 1869). The 1889 verdict rests on Frykenberg and the entry's own description. 'Continuing the St. Thomas Christian tradition' is kept; eras 6 and 7 own that link."
+  }
+ ],
+ "wants": [
+  "Theodore Hamberg, The Visions of Hung-Siu-tshuen, and Origin of the Kwang-si Insurrection (Hong Kong, 1854), public domain: Hong Xiuquan's account of reading Liang Fa's tract",
+  "Liang Fa, Good Words to Admonish the Age (1832), in a public-domain edition or translation",
+  "J. F. Schon and Samuel Crowther, Journals ... of the Expedition up the Niger in 1841 (London, 1842), public domain; and a public-domain record of the 1890-91 Niger crisis",
+  "Mrs Howard Taylor, Pastor Hsi: One of China's Christians (1903), public domain",
+  "Joeli Bulu, The Autobiography of a Native Minister in the South Seas (1871), public domain",
+  "Serampore Form of Agreement (1805) and Carey's Serampore letters, public domain",
+  "World Missionary Conference, 1910, the nine volumes, especially vol. IX, The History and Records of the Conference (1910), public domain: the Continuation Committee and the Azariah and Cheng Jingyi speeches",
+  "John R. Mott, The Evangelization of the World in This Generation (1900), public domain",
+  "Rhenish Mission reports from the Batak field and the HKBP church order of 1881, public domain",
+  "The Travancore Royal Court judgment of 1889 in the Seminary case, and Abraham Malpan's revised liturgy of 1836, in public-domain printings",
+  "Welsh Calvinistic Methodist foreign mission reports on the Khasi hills (nineteenth century), public domain"
+ ],
+ "escalations": [
+  "continuesAs pointer, Student Volunteer Movement: the entry's continuesAs field points to the Ecumenical Movement entry, which a 'continued as' reading would make the same community. It is not: Edinburgh's continuation committee's work became the International Missionary Council, and the SVM went on alone until mid-century. Drafted as 'gave rise to'. Whether the map keeps that continuesAs pointer is a structure decision outside the four text fields, for Mark or the merge.",
+  "Two-entry tension for the era-10 owner: the Chinese church entry says its 1920s churches 'owed nothing to the foreign missions', while this draft links the mission-era churches to it as 'gave rise to' (Bays, Lian Xi). The note keeps both sides; the era-10 owner should check its own wording.",
+  "Era-7 text, for its owner (not a stop here): the St Thomas Christians under Portuguese Pressure entry says 'the modern Kerala and Northeast India churches descend from it'. The northeast hill churches came from Welsh and American missions, not from the St Thomas Christians; only the Mar Thoma half of this entry descends from them."
+ ]
+}

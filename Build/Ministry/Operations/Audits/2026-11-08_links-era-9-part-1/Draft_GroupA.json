@@ -615,7 +615,7 @@
    "to": "azusa-street-and-early-pentecostalism",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Historians trace the Azusa Street revival of 1906 to the Holiness movement. They point to its teaching on sanctification and to leaders who came out of Holiness churches.",
+   "note": "Historians trace the 1906 Azusa Street revival to the Holiness movement. They point to its teaching on a second work of the Spirit, and to leaders who came out of Holiness churches.",
    "sources": [
     {
      "kind": "secondary",
@@ -632,7 +632,7 @@
    ],
    "citation_specificity": "C",
    "verification_state": "named-not-rechecked",
-   "action": "keep",
+   "action": "rewrite",
    "named_in_text": [
     "the-holiness-movement relationsSummary and legacy ('the immediate parent of Pentecostalism'; 'came out of Holiness circles into the Azusa Street revival of 1906')",
     "azusa-street-and-early-pentecostalism relationsSummary, longDescription and why"
@@ -641,158 +641,7 @@
    "drafter_flags": [
     "Era 10 has not run, so this pair is part 1's. The Apostolic Faith (1906-08) and Seymour's Doctrines and Discipline (1915) would let it be re-graded; listed in wants."
    ],
-   "change_reason": "Kept unchanged. No Holiness or Azusa Street text is vendored, so Dominant Modern Reconstruction on the repo-cited secondary works is the right grade."
-  },
-  {
-   "id": "the-methodist-revival--the-holiness-movement",
-   "from": "the-methodist-revival",
-   "to": "the-holiness-movement",
-   "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "In his Large Minutes, Wesley told preachers to urge believers to \"go on to perfection\": salvation from all sin through love filling the heart. Nineteenth-century Holiness writers took up this teaching and presented it as Wesley's own.",
-   "sources": [
-    {
-     "kind": "primary",
-     "work": "John Wesley, Minutes of Several Conversations (the Large Minutes)",
-     "file": "cic/texts/wesley-j_large-minutes_1850.txt",
-     "lines": "1106-1109",
-     "locus": "Large Minutes, on Christian perfection",
-     "quote": "Strongly  and  explicitly  exhort  all  believers  to  go  on to  perfection.  We  all  agree  to  defend  this  doctrine ; meaning  thereby,  salvation  from  all  sin,  by  the  love of  God  and  man  filling  the  heart.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)"
-    },
-    {
-     "kind": "secondary",
-     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "named-not-rechecked",
-   "action": "keep",
-   "named_in_text": [
-    "the-holiness-movement relationsSummary, longDescription and why ('Methodism's teaching on Christian perfection')",
-    "the-methodist-revival relationsSummary and legacy"
-   ],
-   "wants": [],
-   "drafter_flags": [
-    "Era 8 owns this link. Quote checked by script only."
-   ],
-   "change_reason": "Out of scope: era 8 owns it, since the Methodist revival's own text names the Holiness movement. Listed only because it touches this group's movement; no change proposed.",
-   "major": {
-    "major": false,
-    "kind": null,
-    "evidence": null,
-    "reason": "A teaching taken up by later writers; no institutional act in its sources."
-   }
-  },
-  {
-   "id": "the-baptists--the-black-church-in-america",
-   "from": "the-baptists",
-   "to": "the-black-church-in-america",
-   "type": "gave rise to",
-   "confidence": "Widely Accepted",
-   "note": "George Liele was baptized in a Baptist church in Georgia, and its white members called him to preach. David George recalled that \"Brother Palmer formed us into a church\" at Silver Bluff. Historians treat such Black Baptist congregations as one root of the Black Church.",
-   "sources": [
-    {
-     "kind": "primary",
-     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
-     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
-     "lines": "26766-26767",
-     "locus": "Register, 'An account of George Liele'",
-     "quote": "the  fame  minifter,  the  Rev. Matthew  Moore,  baptized  me",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "work": "John Rippon, The Baptist Annual Register for 1790-1793, account of George Liele",
-     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
-     "lines": "26777-26780",
-     "locus": "Register, 'An account of George Liele'",
-     "quote": "the  white  brethren feeing  my  endeavours,  and  that  the  word  of  the  Lord  feemed to  be  bleffed,  gave  me  a  call  at  a  quarterly  meeting  to preach  before  the  congregation",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "work": "John Rippon, The Baptist Annual Register for 1790-1793, David George's narrative",
-     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
-     "lines": "37528-37530",
-     "locus": "Register, 'An account of the life of Mr. David George'",
-     "quote": "Bro¬ ther  Palmer  formed  us  into  a  church,  and  gave  us  the  Lord’s fuppei  at  Silver  Bluff.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "Albert J. Raboteau, Slave Religion: The 'Invisible Institution' in the Antebellum South (Oxford University Press, 1978; updated 2004)"
-    },
-    {
-     "kind": "secondary",
-     "work": "Milton C. Sernett (ed.), African American Religious History: A Documentary Witness (Duke University Press, 2nd ed. 1999)"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "named-not-rechecked",
-   "action": "keep",
-   "named_in_text": [
-    "the-black-church-in-america relationsSummary and longDescription (Silver Bluff, First African Baptist in Savannah)",
-    "the-baptists legacy"
-   ],
-   "wants": [],
-   "drafter_flags": [
-    "Era 8 owns this link. Quotes checked by script only."
-   ],
-   "change_reason": "Out of scope: era 8 owns it, since the Baptists' own text names the Black Church. Listed only because it touches this group's movement; no change proposed."
-  },
-  {
-   "id": "the-methodist-revival--the-black-church-in-america",
-   "from": "the-methodist-revival",
-   "to": "the-black-church-in-america",
-   "type": "gave rise to",
-   "confidence": "Documented",
-   "note": "Richard Allen joined a Methodist society in Delaware. In April 1816, after clashes with white preachers and trustees, delegates from Philadelphia and Baltimore united as the African Methodist Episcopal Church.",
-   "sources": [
-    {
-     "kind": "primary",
-     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
-     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
-     "lines": "190-192",
-     "locus": "Life Experience, early life",
-     "quote": "I  joined  the  Methodist society  and  met  in  class  at  Benjamin  Wells's,  in  the forest,  Delaware  state.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
-     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
-     "lines": "986-987",
-     "locus": "Rise and Progress of the AME Church",
-     "quote": "which  induced  us,  in  April  1816,  to  call  a  gen- eral meeting,  by  way  of  Conference.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
-     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
-     "lines": "992-994",
-     "locus": "Rise and Progress of the AME Church",
-     "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  body,  under  the  name  of  the  Af- rican Methodist  Episcopal  Church.",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "action": "keep",
-   "named_in_text": [
-    "the-black-church-in-america relationsSummary, longDescription and why (Richard Allen, the walkout and the 1816 founding)",
-    "the-methodist-revival relationsSummary and legacy"
-   ],
-   "wants": [],
-   "drafter_flags": [
-    "Era 8 owns this link. The 1816 founding also falls inside nineteenth-century Methodism's window; that rupture is drafted separately here as a 'broke with' link on a different pair."
-   ],
-   "change_reason": "Out of scope: era 8 owns it, since the Methodist revival's own text names the Black Church. Listed only because it touches this group's movement; no change proposed."
+   "change_reason": "Note rewritten for reading level (it scored below the target) and to name the teaching; from, to, type, grade and sources unchanged. No Holiness or Azusa Street text is vendored, so Dominant Modern Reconstruction on the repo-cited secondary works is the right grade."
   },
   {
    "id": "the-methodist-revival--the-second-great-awakening-and-camp-meeting-worl",
@@ -801,7 +650,7 @@
    "to": "the-second-great-awakening-and-camp-meeting-worl",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "Jesse Lee, a Methodist preacher, wrote in 1810 that Methodist, Presbyterian and Baptist ministers ran the new camp meetings together. In 1805 Bishop Francis Asbury hoped for a camp meeting in every circuit. The revival grew in part out of Methodist preaching and societies.",
+   "note": "In 1810 Jesse Lee, a Methodist preacher, wrote that ministers of three churches ran the new camp meetings side by side: Methodist, Presbyterian and Baptist. In 1805 Bishop Francis Asbury hoped there would be one in every circuit. So the revival grew in part out of Methodist work.",
    "sources": [
     {
      "kind": "primary",
@@ -864,7 +713,7 @@
    "to": "the-stone-campbell-restoration-movement",
    "type": "gave rise to",
    "confidence": "Documented",
-   "note": "Richard McNemar, a preacher in the Kentucky revival, wrote its history in 1808. He names Barton W. Stone among five ministers who left the Synod of Kentucky. Many of the revival's converts joined their new body, the start of the Stone side of the Stone-Campbell movement.",
+   "note": "Richard McNemar, a preacher in the Kentucky revival, wrote its history in 1808. He names Barton W. Stone as one of five ministers who left the Synod of Kentucky. Many of the revival's converts joined them. This was the start of the Stone side of the Stone-Campbell movement.",
    "sources": [
     {
      "kind": "primary",
@@ -928,7 +777,7 @@
    "to": "the-holiness-movement",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Holiness movement grew from Methodist teaching in the 1830s, not straight from the frontier revivals. Historians of the movement show it taking over their camp meeting, and Holiness camp meetings were organized nationally from 1867.",
+   "note": "The Holiness movement grew from Methodist teaching in the 1830s, not straight out of the frontier revivals. But historians show that it took over their camp meeting. From 1867 Holiness camp meetings were run on a national scale.",
    "sources": [
     {
      "kind": "secondary",
@@ -975,7 +824,7 @@
    "to": "nineteenth-century-methodism",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "In 1862 the Wesleyan Methodist Conference reprinted the minutes of John Wesley's conferences. Its preface says the yearly minutes had appeared in an unbroken series from 1765 to its own day. The same connexion ran on past Wesley's death into the nineteenth century.",
+   "note": "In 1862 the Methodist Conference in London reprinted the minutes of John Wesley's first meetings. Its preface says the yearly minutes had come out in an unbroken series from 1765 to that day. The same body went on past Wesley's death.",
    "sources": [
     {
      "kind": "primary",
@@ -1026,7 +875,7 @@
    "to": "the-holiness-movement",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Historians trace the Holiness movement to New York Methodists of the 1830s, above all Phoebe Palmer. Her parlor meeting and her books turned Methodist teaching on holiness into a step any believer could take at once.",
+   "note": "Historians trace the Holiness movement to New York Methodists of the 1830s, above all Phoebe Palmer. She made the old Methodist hope of a holy life into a step that any believer could take at once.",
    "sources": [
     {
      "kind": "secondary",
@@ -1067,7 +916,7 @@
    "to": "the-black-church-in-america",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "Richard Allen tells how white Methodist elders fought Bethel church in Philadelphia for its pulpit. One elder published a letter that disowned its members, and a lawsuit followed that Bethel won. In April 1816 Black Methodists from Philadelphia and Baltimore formed the African Methodist Episcopal Church.",
+   "note": "Richard Allen tells how white Methodist elders fought his Bethel church for its pulpit. One elder sent out a letter that cast its members out. Another took Bethel to court and lost. In April 1816 Black Methodists from Bethel and from Baltimore formed a church of their own, the African Methodist Episcopal Church.",
    "sources": [
     {
      "kind": "primary",
@@ -1131,7 +980,7 @@
    "to": "azusa-street-and-early-pentecostalism",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Azusa Street revival began in Los Angeles in 1906 under William J. Seymour, a Black Holiness preacher. Historians of the revival trace much of its worship, its song and its testimony to Black church traditions.",
+   "note": "The Azusa Street revival began in Los Angeles in 1906. Its leader, William J. Seymour, was a Black Holiness preacher. Historians trace much of its worship, its songs and its testimony to the Black church.",
    "sources": [
     {
      "kind": "secondary",
@@ -1186,7 +1035,7 @@
    "movement": "the-second-great-awakening-and-camp-meeting-worl",
    "field": "relationsSummary",
    "old": "Child of Methodist/Edwardsean lines; parent of Restorationist and Holiness traditions",
-   "new": "Grew out of frontier revivals that Methodist preachers helped to run. The Stone-Campbell Restoration movement came out of it, and the later Holiness movement took up its camp meeting.",
+   "new": "It grew out of frontier revivals that Methodist preachers helped to lead. The Stone-Campbell movement came out of it. Later, the Holiness movement took up its camp meeting.",
    "reason": "'Edwardsean lines' removed: no vendored text shows the frontier revival using Edwards (Finney's Lectures, not vendored, would test it; in wants). 'Parent of Holiness' qualified to the camp meeting the Holiness movement took up, since Holiness's own text puts its start in Methodist teaching. Short code-style summary rewritten as plain sentences."
   },
   {
@@ -1194,16 +1043,16 @@
    "movement": "the-second-great-awakening-and-camp-meeting-worl",
    "field": "why",
    "old": "At Cane Ridge in August 1801, crowds estimated as high as twenty thousand camped in the woods for a week of preaching, weeping, and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier, and by the 1830s Charles Finney was teaching revival as a method that could be worked deliberately rather than simply awaited. Two later movements, the Stone-Campbell Restoration and the Holiness movement, grew directly out of this ferment.",
-   "new": "At Cane Ridge in August 1801, crowds estimated as high as twenty thousand camped in the woods for a week of preaching, weeping, and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier, and by the 1830s Charles Finney was teaching revival as a method that could be worked deliberately rather than simply awaited. The Stone-Campbell Restoration movement grew directly out of this ferment, and the later Holiness movement took up its camp meeting.",
-   "reason": "'The Holiness movement grew directly out of this ferment' overstates the evidence: Holiness grew from Methodist teaching in the 1830s and later took up the camp meeting. Stone-Campbell claim kept; it is documented by McNemar."
+   "new": "At Cane Ridge in August 1801, crowds put as high as twenty thousand camped in the woods for a week of preaching, weeping and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier. By the 1830s Charles Finney was teaching revival as a method. It could be worked for on purpose, he said, not just waited for. The Stone-Campbell Restoration movement grew straight out of this ferment. The later Holiness movement took up its camp meeting.",
+   "reason": "'The Holiness movement grew directly out of this ferment' overstates the evidence: Holiness grew from Methodist teaching in the 1830s and later took up the camp meeting. Stone-Campbell claim kept; it is documented by McNemar. The rest of the paragraph is split into shorter sentences to reach the reading target (it scored 40); no fact added or dropped."
   },
   {
    "n": 2,
    "movement": "the-second-great-awakening-and-camp-meeting-worl",
    "field": "legacy",
    "old": "It made revivalism a permanent feature of American religion rather than an occasional event, and handed on a whole toolkit still in use — the protracted meeting, the altar call, the anxious bench, the campground and its choruses. Two traditions came directly out of its ferment: the Stone-Campbell Restoration movement and, by way of Methodism's perfectionist wing, the Holiness movement and eventually Pentecostalism. Its campgrounds outlived the frontier, turning into summer resorts, Chautauqua assemblies and conference centers that are still in use.",
-   "new": "It made revivalism a permanent feature of American religion rather than an occasional event, and handed on a whole toolkit still in use — the protracted meeting, the altar call, the anxious bench, the campground and its choruses. The Stone-Campbell Restoration movement came directly out of its ferment. The Holiness movement, which grew from Methodist teaching, later held camp meetings of its own, and Pentecostalism grew in turn from Holiness. Many of its campgrounds outlived the frontier.",
-   "reason": "Holiness descent qualified to match the evidence (Methodist origin, camp meeting taken up). The campgrounds-into-Chautauqua claim removed: no vendored or repo-cited source supports it; the plain fact that campgrounds outlasted the frontier is kept."
+   "new": "It made revival a lasting part of American religion, not a rare event. It handed on a whole toolkit that is still in use: the protracted meeting, the altar call, the anxious bench, the campground and its choruses. The Stone-Campbell Restoration movement came straight out of its ferment. The Holiness movement grew from Methodist teaching, but it later held camp meetings of its own. And out of Holiness came Pentecostalism. Many of its old campgrounds outlived the frontier, and some are still in use.",
+   "reason": "Holiness descent qualified to match the evidence (Methodist origin, camp meeting taken up). The campgrounds-into-Chautauqua claim removed: no vendored or repo-cited source supports it; the plain fact that campgrounds outlasted the frontier is kept. The opening sentences are shortened to reach the reading target (the field scored 23); 'permanent feature' becomes 'lasting part', every listed practice kept."
   }
  ],
  "wants": [
