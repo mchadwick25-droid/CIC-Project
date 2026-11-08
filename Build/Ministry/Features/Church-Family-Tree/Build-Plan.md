@@ -87,7 +87,7 @@ applied to every shared file, not only the census.
 | P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |
 | P2-S | Find-your-church search | none | todo |
-| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | todo |
+| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | done (2026-11-08); awaiting Mark's ruling (`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`) |
 | P2-G2 | Schema additions | none | todo |
 | P2-G3 | The agreed entries | narration sample, by ear | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |
