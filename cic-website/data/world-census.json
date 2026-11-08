@@ -14955,6 +14955,26 @@
     {
      "kind": "secondary",
      "source_id": null,
+     "work": "Ulric Huntemann, note 1 to no. 1007, quoting the papal register, Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "79964-79965",
+     "locus": "no. 1007, note 1",
+     "quote": "Item similis bulla de verbo ad verbum, excepto quod ubi superius est hoc vocabulum witramontanis in alia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulric Huntemann, note 1 to no. 1007 (continued), Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80034",
+     "locus": "no. 1007, note 1",
+     "quote": "est cismontanis et econtra;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
      "work": "Ulric Huntemann, preface to Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
      "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
      "lines": "196-198",
@@ -21052,7 +21072,7 @@
     "Gregory the Great — pope from 590 to 604, monk, the only narrator of Benedict's life, and the writer of more than 850 surviving letters",
     "The anonymous author of the Rule of the Master — the longer, older rule Benedict abbreviated; the writer's name is unknown"
    ],
-   "legacy": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and in 1944 Allied bombing destroyed it. Monks live there now.",
+   "legacy": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and Allied bombing in 1944 is reported to have destroyed it. Monks live there now.",
    "experienceToday": [
     {
      "text": "The Abbey of Monte Cassino, Italy — Benedict's own foundation of around 529, destroyed and rebuilt many times over and again a working monastery",
