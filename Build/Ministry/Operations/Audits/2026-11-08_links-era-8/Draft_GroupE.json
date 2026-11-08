@@ -505,7 +505,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "The Habsburg state, not a movement. Supported in outline: Pelesz's section 'Zustand der Union in Oesterreich (1772-1808)' (pelesz 41845) and the Greek Catholic church of St Barbara in Vienna, given in 1773-74 (43788)."
+   "reason": "The Habsburg state, not a movement. Supported in outline: Pelesz's section 'Zustand der Union in Oesterreich (1772-1808)' (pelesz 41845) and the church of St Barbara in Vienna, Latin-rite until 1773 and Greek Catholic since (43788-43789)."
   },
   {
    "movement": "ruthenian-uniate-18th-century",
@@ -1421,7 +1421,7 @@
     "cross-era: era 7",
     "Inventory said 'descent'; the census types have no 'descent'. The sources show the same hierarchy and see across the period split, which is the 'continued as' test.",
     "OCR kept exactly: 'Miehael' (Michael), 'alis' (aliis), 'eoaecto' (coacto); Polish long s read as f in the Apollogia ('Konftytucyi', 'fwoiego').",
-    "The bull is a Roman document; the Apollogia is the Uniates' own voice. That Clement VIII was the pope of the union comes from the bull (lines 37062-37073)."
+    "The bull is a Roman document; the Apollogia is the Uniates' own voice. That Clement VIII was the pope of the union comes from the bull (lines 37062-37082)."
    ],
    "change_reason": "New. The period split between the Brest and eighteenth-century entries."
   },
@@ -1573,9 +1573,9 @@
    "movement": "the-old-believers",
    "field": "legacy",
    "old": "Old Belief is still practiced. Several Old Believer churches exist today — in Russia, Romania, the Baltic states, Alaska, Oregon and South America — some with their own bishops, some with no clergy at all, keeping pre-Nikonian chant, icons and books. Their stubbornness preserved a whole layer of medieval Russian religious culture that the official church had modernized away. Old icon-painting styles, znamenny chant and manuscript practices survived in these communities and were later recovered from them by collectors and scholars. Russian literature never let the schism go either; the raskol runs through the nineteenth-century novel as the standing question of what faithfulness actually costs.",
-   "new": "Old Belief is still practiced. Old Believer churches exist today in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all. All keep the chant, icons and books of the time before Nikon. Their stubbornness saved a whole layer of medieval Russian church culture that the official church had modernized away. Old styles of icon painting, znamenny chant and the copying of books by hand lived on in these groups. Collectors and scholars later found them there. Avvakum's own Life, the founding book of the movement, came out in English in 1924.",
-   "reason": "The closing claim that 'the raskol runs through the nineteenth-century novel' has no source in the library (no Dostoevsky, no Melnikov-Pechersky) and is cut; listed in wants. Replaced by a literary fact the library holds: the Harrison-Mirrlees English Life of 1924 (title page, lines 21-27). The long first sentence is split for reading level; every other fact is kept.",
-   "fre_after": 63.2,
+   "new": "Old Belief is still practiced. Old Believer churches exist today in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all. All keep the chant, icons and books of the time before Nikon. Their stubbornness saved a whole layer of medieval Russian church culture that the official church had modernized away. Old styles of icon painting, znamenny chant and the copying of books by hand lived on in these groups. Collectors and scholars later found them there. Avvakum's own Life, written in his prison, came out in English in 1924.",
+   "reason": "The closing claim that 'the raskol runs through the nineteenth-century novel' has no source in the library (no Dostoevsky, no Melnikov-Pechersky) and is cut; listed in wants. Replaced by a literary fact the library holds: the Harrison-Mirrlees English Life of 1924, written at Pustozersk (title page, lines 26-28; the longDescription already places the Life in his underground prison). The long first sentence is split for reading level; every other fact is kept.",
+   "fre_after": 63.4,
    "fk_after": 7.6
   },
   {
