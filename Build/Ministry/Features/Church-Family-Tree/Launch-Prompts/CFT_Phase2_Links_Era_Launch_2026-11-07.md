@@ -49,9 +49,11 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
    says why it stands alone. List both directions in the audit README.
 4b. **Major links (Mark, 2026-11-08).** "Gave rise to", "continued as" and "broke with" are
    major by type and need nothing more. An "influenced", "argued against" or "in contact with"
-   link is major only when one of its own listed sources shows a lasting outcome beyond the
-   quarrel: a council, canon or law condemning a group; a split into a separate church; a
-   teaching, text or practice taken up by the other side; or a rule or practice changed. Such a
+   link is major only when one of its own listed sources shows an institutional act beyond the
+   quarrel: a council, canon, synod or law condemning, deposing or excluding a group or its
+   teaching; a split into a separate church or body; or a rule, practice or settlement changed by
+   an authority. A teaching, text or practice merely taken up by the other side is not enough
+   (change order, Decision-Log 2026-11-08). Such a
    link carries `outcome`: one plain public sentence naming that result, every fact drawn from
    a source already on the link, under about 30 words. Leave the field off when the test is not
    met. The drafting record gives each outcome its source locus and lists the links judged

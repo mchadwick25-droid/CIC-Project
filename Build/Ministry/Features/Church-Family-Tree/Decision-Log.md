@@ -391,3 +391,12 @@ A ranked top ten would have made comparative claims no source can carry.
 
 **Scope.** Eras 6 to 10 mark outcomes while drafting (launch prompt step 4b). Eras 1 to 5 get
 one pass (P2-ML), with the map switch, after eras 4 and 5 merge.
+
+**Change order (2026-11-08, Mark: "Drop 'taken up'").** After review, the M2 test made 151 of
+the 302 links in eras 1-5 major (74 by type, 77 by outcome), about 30 per era, far more than
+"the top few". The test is narrowed. A link of the three judged types is major only when its own
+sources show an institutional act: a council, canon, synod or law condemning, deposing or
+excluding a group or its teaching; a split into a separate church or body; or a rule, practice
+or settlement changed by an authority. A teaching, text or practice merely taken up by the
+other side no longer counts; those links stay on the cards, minor. Options shown with it: keep
+M2 (151 lines), type only (74), and two levels of line weight.
