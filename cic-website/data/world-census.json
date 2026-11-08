@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 20,
+   "number": 21,
    "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -34379,7 +34379,7 @@
    "name": "Bogomils",
    "shortName": "Bogomils",
    "informalName": "The Bogomils",
-   "dates": "10th c. onward",
+   "dates": "c. 950–1054",
    "start": 950,
    "end": 1054,
    "region": "Bulgaria, Balkans",
@@ -34409,8 +34409,8 @@
    "c2": null,
    "sourcing": "Hostile sources plus later adjacent texts",
    "floorNote": "The sources — all of them written by opponents — describe a dualist teaching: that the visible world and the human body were made not by God but by a fallen power. If that description is accurate, it would set the Bogomils outside the Nicene Creed's opening confession of God as maker of all things visible and invisible. No Bogomil statement of their own belief survives to test the charge against, so the question is left open here rather than treated as settled.",
-   "relationsSummary": "Parent-influence claimed for the Cathars",
-   "why": "Named for a mid-tenth-century Bulgarian priest, the Bogomils are known almost entirely through a sermon a rival priest, Cosmas, wrote against them, describing ascetics who rejected church buildings, icons, the sacraments and infant baptism because they held that the material world had been made not by God but by a fallen power. The movement spread through the Balkans into Byzantium, where a teacher named Basil was burned in Constantinople around 1100, and medieval writers later claimed it influenced the Cathars of the West, though that claim rests on the same hostile sources and cannot be confirmed.",
+   "relationsSummary": "Lives on after 1054 as Balkan Bogomilism. Some say it came from the Paulicians, but this is debated.",
+   "why": "The Bogomils are named for a Bulgarian priest of the mid-tenth century. They are known almost entirely through a sermon that a rival priest, Cosmas, wrote against them. He describes ascetics who rejected church buildings, icons, the sacraments and infant baptism. They held, he says, that the material world was made not by God but by a fallen power. The movement spread through the Balkans into Byzantium.",
    "entry": null,
    "sources": [
     {
@@ -34444,14 +34444,13 @@
     }
    ],
    "continuesAs": "balkan-bogomil-continuation",
-   "longDescription": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century. The earliest account of them is a long sermon written against them by another priest, Cosmas. It describes ascetics who rejected almost all that the visible church was made of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who gave them. Behind that refusal, the sources say, lay a belief that God did not make the material world or the human body. A fallen power made them, so the whole machinery of bodily religion was a mistake. The movement spread from Bulgaria through the Balkans and into Byzantium. There, around 1100, its best-known teacher, a man called Basil, was burned in Constantinople. As with the Paulicians, none of their own writing survives. All we know of them comes from the people who argued against them.",
+   "longDescription": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century. The earliest account of them is a long sermon written against them by another priest, Cosmas. It describes ascetics who rejected almost all that the visible church was made of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who gave them. Behind that refusal, the sources say, lay a belief that God did not make the material world or the human body. A fallen power made them, so the whole machinery of bodily religion was a mistake. The movement spread from Bulgaria through the Balkans and into Byzantium. Its story after 1054 continues as Balkan Bogomilism. As with the Paulicians, none of their own writing survives. All we know of them comes from the people who argued against them.",
    "teaser": "Bulgaria and the Balkans, from the tenth century — ascetics who refused churches, crosses and sacraments as belonging to a world they believed God had not made, and who are described entirely by their opponents.",
    "voices": [
     "Bogomil — the Bulgarian priest whose name the movement carries; nothing written by him survives",
-    "Cosmas the Priest — their earliest and most detailed opponent, whose sermon against them is the main source for what they taught",
-    "Basil the Physician — a Bogomil teacher burned in Constantinople under the emperor Alexios I, around 1100"
+    "Cosmas the Priest — their earliest and most detailed opponent, whose sermon against them is the main source for what they taught"
    ],
-   "legacy": "Historians trace the movement on into the Bogomils of the Balkans in the 1100s and 1200s. It died out only under Ottoman rule and pressure from both Catholics and Orthodox. Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy. Medieval writers claimed the link, and historians still argue about how much of it is real. What it did not leave is a text of its own. Every account of Bogomil belief that survives was written by someone who opposed it."
+   "legacy": "Historians trace the movement on after 1054 into the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. That page also takes up the claim that they shaped the Cathars of the West. The Bogomils left no text of their own. Every account of their belief that survives was written by someone who opposed it."
   },
   {
    "id": "scandinavian-conversion-christianity",
