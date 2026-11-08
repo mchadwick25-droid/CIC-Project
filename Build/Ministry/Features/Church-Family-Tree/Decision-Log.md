@@ -363,3 +363,54 @@ records, which hold the compilers contested, are left as they are; this is a rul
 tree's text, not a records change. Applied in data release 5 to `alexandria-catechetical`'s
 legacy and the `alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition` link
 note.
+
+## 2026-11-08 — Major links: a switch, and what makes a link major
+
+**Decided (Mark: "we need a way to prioritize and scale"; "prioritize the top few that click on
+and off (things with historical implementations, not just a squabble)"; "still off, but yes a
+major links"; test M2; "converged, auto mode").** The map still opens with no lines. Connections
+gains a "Major links" switch, off by default, that draws only major links. Picking a movement
+still lights all of its own links, and every link stays on its card and tree page.
+
+A link is major when:
+- its type is "gave rise to", "continued as" or "broke with"; or
+- its type is "influenced", "argued against" or "in contact with", and one of its own listed
+  sources shows a lasting outcome beyond the quarrel: a council, canon or law condemning a
+  group; a split into a separate church; a teaching, text or practice taken up by the other
+  side; or a rule or practice changed. Such a link carries `outcome`, one plain sentence naming
+  that result from its own sources.
+
+**Options shown** (artifact "Taming the tree's lines"): A lines on demand; B lineage spine plus
+lines on demand; C key links per era; D detail by zoom. Then, for the test: M1 type only; M2
+type plus a sourced outcome; M3 a ranked top ten per era. Recommended B, then M2. Mark took a
+switch (from C) with the M2 test.
+
+**Why M2.** It catches consequential arguments and influence (a council condemning a group, the
+Reformers reading Augustine), while every major mark stays tied to a source the review checks.
+A ranked top ten would have made comparative claims no source can carry.
+
+**Scope.** Eras 6 to 10 mark outcomes while drafting (launch prompt step 4b). Eras 1 to 5 get
+one pass (P2-ML), with the map switch, after eras 4 and 5 merge.
+
+**Change order (2026-11-08, Mark: "Drop 'taken up'").** After review, the M2 test made 151 of
+the 302 links in eras 1-5 major (74 by type, 77 by outcome), about 30 per era, far more than
+"the top few". The test is narrowed. A link of the three judged types is major only when its own
+sources show an institutional act: a council, canon, synod or law condemning, deposing or
+excluding a group or its teaching; a split into a separate church or body; or a rule, practice
+or settlement changed by an authority. A teaching, text or practice merely taken up by the
+other side no longer counts; those links stay on the cards, minor. Options shown with it: keep
+M2 (151 lines), type only (74), and two levels of line weight.
+
+**Cap ruling (2026-11-08, Mark: "Use the reviewer's fix").** The major-links pass reached its
+three-round review cap with one substantial finding open (round 3, R3-01): the Carmelite 1247
+outcome sentence had the friars ask for confirmation of a rule already corrected, where the
+source has them ask for the correction itself. The reviewer's own replacement sentence is applied
+word for word; no fourth round. File:
+`Build/Ministry/Operations/Audits/2026-11-08_major-links/Opus_Review_Round3_TargetedRecheck.json`.
+
+## 2026-11-08 — The link work covers eras 1 to 9
+
+**Decided (Mark: "we have not build out era 10 traditions, so lets consider the tree to be eras 1 - 9 completed").**
+Phase 2's per-era link passes cover eras 1 to 9. Era 10's traditions are not yet built, so
+P2-L10 waits until they are. Era 10's movements stay on the map as they are. P2-L11, the
+whole-set review, covers the links of eras 1 to 9.

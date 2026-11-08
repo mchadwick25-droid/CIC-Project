@@ -1,0 +1,1378 @@
+{
+ "group": "D",
+ "movements": [
+  "hesychasm-and-the-palamite-synthesis",
+  "byzantine-church-palaiologan",
+  "muscovite-monastic-christianity",
+  "the-bosnian-church"
+ ],
+ "links": [
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "action": "new",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "byzantine-church-palaiologan",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1341 a synod at Constantinople ruled on the quarrel over the monks' prayer. Its tome found the monks above Barlaam's charges against them. It warned that Barlaam would be cut off from the church unless he repented.",
+   "outcome": "In 1341 a synod at Constantinople ruled for the hesychast monks. It said Barlaam would be cut off from the church unless he repented.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt:14786-14823",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome against Barlaam and Akindynos (Constantinople, 1341), Greek, in Migne, PG 151 (1865), from Dositheos's Tomos agapes",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14261",
+     "locus": "Tomus synodicus I, running head",
+     "quote": "TOMUS SYNODICUS I.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome (1341), in Migne, PG 151 (1865)",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14790-14791",
+     "locus": "Tomus synodicus I, ch. 51 (the finding for the monks)",
+     "quote": "μοναχοὶ ἀπεδείχθησαν ἀνώτεροι τῆς χατηγορίας αὐτοῦ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First synodal tome (1341), in Migne, PG 151 (1865)",
+     "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "lines": "14821-14823",
+     "locus": "Tomus synodicus I, the sentence on Barlaam",
+     "quote": "εἰ δ᾽ οὖν, ἀποχήρυχτος ἔσται καὶ ἀποτετμημένος τῇ; ἁγίας τοῦ Χριστοῦ χαθολε- vs xal ἀποστολιχῆς Ἐχχλησίας,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "hesychasm longDescription ('settled by councils at Constantinople in 1341, 1347 and 1351, which vindicated Palamas') and why ('a case that church councils upheld'); byzantine-church-palaiologan relationsSummary ('receives the hesychast councils synodally', after prose change 2 'Its synods ruled for the hesychast monks') and longDescription ('Synods at Constantinople in 1341, 1347 and 1351 ruled in favor of the hesychast monks')",
+   "wants": [
+    "A clean edition or translation of the tomes of 1347 and 1351 (Norman Russell's Translated Texts for Byzantinists volume is in copyright) to document the later councils' rulings in quotable form"
+   ],
+   "drafter_flags": [
+    "The date 1341 is not in the quoted lines; the tome is the first of the three printed as 'Tomi synodici tres in causa Palamitarum' (line 14266 onward), and the 1341 date comes from the movement text and the corpus map. The quotes show the finding and the sentence, not the year.",
+    "OCR errors kept exactly: 'χατηγορίας' (κατηγορίας), 'ἀποχήρυχτος', 'τῇ;' for τῆς, 'χαθολε- vs xal' for καθολικῆς καὶ.",
+    "Type: 'influenced' (the patriarchal synod took up the hesychasts' teaching as its own ruling). The tome condemns Barlaam, not the other party, so 'argued against' does not fit this pair."
+   ],
+   "change_reason": "New. The two movements' texts both name the councils; no link on main joins them."
+  },
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+   "action": "new",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "the-hesychast-revival-paisius-and-the-philokalia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Philokalia is a book of the old prayer teachers. It was first printed at Venice, and it holds the work of Gregory Palamas. Paisius Velichkovsky also put a piece by Palamas on prayer into Slavonic.",
+   "outcome_considered": "The sources show texts gathered into an anthology and translated. That is a text taken up by the other side, not an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia of the holy neptic fathers, compiled by Macarius of Corinth and Nikodemos the Hagiorite, 2nd ed. (Athens, 1893), vol. 2",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "39954",
+     "locus": "running head over the Palamas texts",
+     "quote": "ΤΟΥ ΕΝ ΑΓΊΟΙΣ ΠΑΤΡῸΣ ἩΜΩΝ ΓΡΗΓΟΡΙΟΥ͂ ΤΟΥ͂ ΘΕΣΣΑΛΟΝΙΚῊΣ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia, 2nd ed. (Athens, 1893), vol. 1, title page",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
+     "lines": "38-40",
+     "locus": "title page (chapters missing from the Venice edition)",
+     "quote": "τὰ ἐκ τῆς ἐν Βενετίᾳ ἐκδόδεως ἐλλείποντα κεφάλαια τοῦ μακαρίου Πατριάρχου Καλλίότου",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paisius Velichkovsky, Slavonic translations from the Fathers (Vostorgnutye klasy), Optina edition (Moscow, 1849), table of contents",
+     "file": "cic/texts/paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt",
+     "lines": "9835-9836",
+     "locus": "contents: Gregory Palamas on prayer",
+     "quote": "Иже во Святыхъ Отца нашего Григорйя Паламы Арх!- епископа Оессалонитскаго,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "hesychasm relationsSummary ('parent of the Philokalia line', after prose change 0) and legacy ('gathered into one book, the Philokalia ... Paisius Velichkovsky ... put Palamas on prayer into Slavonic', after prose change 1); the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('Revival of the Palamite line')",
+   "wants": [
+    "The Venice 1782 first edition of the Philokalia (title page and Nikodemos's prooimion naming the fourteenth-century fathers)"
+   ],
+   "drafter_flags": [
+    "The OCR of vol. 2 mixes Cyrillic letters into Greek capitals in other heads; line 39954 is clean. 'Of Thessalonica' is Palamas's title as archbishop; the note leaves the title out.",
+    "The 1782 date is in the file header, not in a quoted line; the note says only 'first printed at Venice', which line 38 shows ('τῆς ἐν Βενετίᾳ ἐκδόδεως', OCR 'ἐκδόδεως' for ἐκδόσεως).",
+    "Vostorgnutye klasy OCR: 'Григорйя', 'Арх!- епископа', 'Оессалонитскаго' (Ѳессалонитскаго) kept as printed."
+   ],
+   "change_reason": "New. Named in the hesychasm text; no link on main."
+  },
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--muscovite-monastic-christianity",
+   "action": "new",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "muscovite-monastic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Nil Sorsky's rule for his hermitage quotes Gregory of Sinai on the Jesus Prayer. Nil also says he saw hermits living in twos and threes with his own eyes, on Mount Athos and near Constantinople.",
+   "outcome_considered": "The sources show Nil following another writer and copying a way of life. No council, split or ruling by an authority is shown.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nil Sorsky, Ustav (Rule) on skete life, ed. Borovkova-Maikova (St Petersburg, 1912)",
+     "file": "cic/texts/nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt",
+     "lines": "2858-2859",
+     "locus": "Ustav, ch. 2, on the words of the Jesus Prayer",
+     "quote": "еже есть и удобнфе новоначалнымъ, рече Гргоре Синаить.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nil Sorsky, Ustav on skete life, ed. Borovkova-Maikova (1912)",
+     "file": "cic/texts/nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt",
+     "lines": "5774-5776",
+     "locus": "Ustav, ch. 11, on living with one or two companions",
+     "quote": "яко же‘ и самовидцы быхомъ въ святи гор$ АфонстВи и въ странахъ Цариграда,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite relationsSummary ('Child of Kievan + hesychast lines', kept after prose change 4) and legacy ('the hesychast prayer this generation received from the Greeks'); movement sources note Nil's writings as 'the hesychast tradition transplanted north'",
+   "wants": [
+    "Epiphanius's Life of Sergius in a vendored edition, for the hesychast side of Sergius's own circle"
+   ],
+   "drafter_flags": [
+    "OCR kept: 'удобнфе', 'Гргоре Синаить', 'гор$ АфонстВи', a stray quotation mark in 'яко же‘'. The chapter numbers in the loci are from the content note's order, not checked against the edition's own headings; the line loci are exact.",
+    "The Athos passage shows Nil's own eyewitness of Athonite and Constantinopolitan hermits in his century; it does not name the fourteenth-century hesychasts. The Gregory of Sinai quote carries the movement tie."
+   ],
+   "change_reason": "New. Named in the Muscovite text; no link on main."
+  },
+  {
+   "id": "hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "hesychasm-and-the-palamite-synthesis",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The monks of Optina printed two books of the old prayer teachers, in 1847 and 1849. One holds a preface to the book of Gregory of Sinai. The other holds Gregory Palamas on prayer, in the Slavonic of Paisius Velichkovsky.",
+   "outcome_considered": "The sources show texts printed and read, not an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and writings of the Moldavian elder Paisius Velichkovsky, Optina edition (Moscow, 1847), title page",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "22-23",
+     "locus": "title page",
+     "quote": "на книги С». Григорія Синаита, Фило- оея Синайскаго, Исихія Пресвитера и Нила Сорскаго,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and writings of Paisius Velichkovsky, Optina edition (Moscow, 1847), title page imprint",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "32",
+     "locus": "title page, publisher",
+     "quote": "ОПТННОЙ ПУСТЫНИ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paisius Velichkovsky, Vostorgnutye klasy, Optina edition (Moscow, 1849), contents",
+     "file": "cic/texts/paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt",
+     "lines": "9835-9836",
+     "locus": "contents: Gregory Palamas on prayer",
+     "quote": "Иже во Святыхъ Отца нашего Григорйя Паламы Арх!- епископа Оессалонитскаго,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "hesychasm legacy ('into the nineteenth-century monastic revival', after prose change 1 'In the 1800s the monks of Optina printed his work for Russian readers'); hesychasm relationsSummary after prose change 0",
+   "wants": [],
+   "drafter_flags": [
+    "The 1849 volume's Optina imprint is in the file header (publisher field), not in a quoted line; the 1847 title page quote shows the Optina imprint directly.",
+    "OCR kept: 'С».' for Св., 'Фило- оея', 'ОПТННОЙ' for ОПТИНОЙ.",
+    "The link passes through the Paisian revival (era 8), which carried the texts; a separate Philokalia-to-Optina link would join two other eras and is out of scope here."
+   ],
+   "change_reason": "New. Named in the hesychasm legacy; no link on main."
+  },
+  {
+   "id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "action": "new",
+   "from": "byzantine-church-palaiologan",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "At Florence in 1439 the Greek delegates signed one decree of union with the pope's council, written half in Latin and half in Greek. The pope asked whether Mark of Ephesus had signed. Told he had not, he said: 'Then we achieved nothing.'",
+   "outcome": "The council's decree let each church keep its own custom. Priests could use leavened or unleavened bread at the altar, as the East or the West did.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:14276-14278",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sylvester Syropoulos, memoir of the Council of Florence, Latin of Creyghton (The Hague, 1660)",
+     "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt",
+     "lines": "47634-47637",
+     "locus": "sect. 10, ch. 8 (the signing of the Definition)",
+     "quote": "Definitionem adpor- tavit Secundinus, fcriptum in membranse πος dietate primá Latiné, & in alter. medietate membranze ejufdem Grecé",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sylvester Syropoulos, memoir of the Council of Florence, Latin of Creyghton (1660)",
+     "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt",
+     "lines": "47968-47971",
+     "locus": "sect. 10 (the pope signs and asks after Mark of Ephesus)",
+     "quote": "num Ephefius Definitioni fubfcripfif- fet: cumque audiiffet Ephefium non fubfcrip- fiffe : Ergo, inquit, nibil preftitimus:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugene IV and the Council of Florence, bull Laetentur caeli (6 July 1439), in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 324",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "14255",
+     "locus": "no. 324, heading",
+     "quote": "Bulle  „Laetentur  coeW'  v.  6.  Juli  1439:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull Laetentur caeli (1439), in Mirbt, Quellen, 3rd ed. (1911), no. 324",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "14276-14278",
+     "locus": "no. 324, sect. 4 (the bread)",
+     "quote": "in  azymo  sive  fermentato  pane  triticeo  corpus  Christi  veraciter  confici;  sacerdotes- que  in  altero  ipsorum  domini  corpus  conficere  debere,  unumquemque  scihcet  iuxta  suae ecclesiae  sive  occidentahs  sive  orientahs  consuetudinem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leonard of Chios, letter to Nicholas V on the capture of Constantinople (1453), in Migne, PG 159 (1866)",
+     "file": "cic/texts/chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt",
+     "lines": "54517-54518",
+     "locus": "the union celebrated in the City, 12 December 1452",
+     "quote": "celebrareturque secundo idus Decembris, Spiridionis episcopi sancti die.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "byzantine-church-palaiologan relationsSummary ('signs Florence (1439)'), longDescription ('in 1439 signed a union with Rome at the Council of Florence ... Mark of Ephesus refused to sign'), why (the same) and legacy ('The union of Florence ...')",
+   "wants": [
+    "A clean Greek text of the Florentine Definition with its signatures (Mansi 31's Greek columns are garbled in the vendored OCR)",
+    "A source for the formal repudiation of Florence at Constantinople (the synod usually dated 1484)"
+   ],
+   "drafter_flags": [
+    "CROSS-GROUP: the papacy (latin-papal-church-avignon-to-lateran-v) is group C's movement. Group C may draft this pair from the Florence side; de-duplicate at merge.",
+    "Type: 'in contact with' (a named council and a decree both sides signed). The union was rejected at home and never took hold; an influence claim would need the Greek side to have kept Latin teaching, which the sources deny (Leonard, PG 159 lines 54757-54758: 'Celebrarunt unionem Greci voce, sed opere negabant.').",
+    "Outcome test: the decree is a settlement made by a council (basis c), and Leonard shows it was proclaimed in Constantinople in December 1452. It was repudiated later. The reviewer may judge whether a settlement that did not last meets the test.",
+    "OCR kept in Syropoulos: long s as f, 'membranse πος dietate' (membranae medietate), 'nibil preftitimus' (nihil praestitimus). Mirbt OCR: 'scihcet', 'occidentahs', 'orientahs'."
+   ],
+   "change_reason": "New. Named in the Palaiologan text; no link on main joins these movements."
+  },
+  {
+   "id": "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "action": "new",
+   "from": "byzantine-church-palaiologan",
+   "to": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "After the conquest of 1453 the sultan told the Christians to make a patriarch in their own way, since the old one had died. The bishops chose George Scholarios, still a layman, and named him Gennadios. A Greek chronicle under the name of George Sphrantzes tells the story.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle under the name of George Sphrantzes (Chronicon maius), book 3, ch. 11, Latin, ed. Bekker (Bonn, 1838)",
+     "file": "cic/texts/sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt",
+     "lines": "17471-17472",
+     "locus": "book 3, ch. 11 (the sultan orders a patriarch made)",
+     "quote": "idem imperavit, ut patriarcham pro more suo crearent; vetus enim mortuus erat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle under the name of George Sphrantzes, book 3, ch. 11, Greek, ed. Bekker (1838)",
+     "file": "cic/texts/sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt",
+     "lines": "17480-17481",
+     "locus": "book 3, ch. 11 (Scholarios made patriarch)",
+     "quote": "σοφώτατον κὺρ Γεώργιον τὸν Σχολάριον λαϊκὸν ἔτι ὄντα εἰς πατριάρχην ἐχειροτόνησαν, ὃν καὶ Γεννάδιον ἐπωνόμασαν.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "byzantine-church-palaiologan relationsSummary ('hands directly to Ottoman-era Orthodoxy, which begins in 1453', after prose change 2 'went on, under a new patriarch, as the church of the Orthodox under Ottoman rule') and legacy ('the sultan had Gennadios Scholarios made patriarch'); orthodoxy-under-the-ottomans relationsSummary ('A continuation of Byzantine Orthodoxy after Constantinople fell in 1453')",
+   "wants": [
+    "Gennadios Scholarios's own account of his election (his writings in PG 160 hold the confessions for Mehmed II; the election passage was not located)"
+   ],
+   "drafter_flags": [
+    "Possible cross-era duplicate: the era-7 session may draft this pair from the Ottoman side.",
+    "The longer chronicle printed under Sphrantzes's name is widely held to be a sixteenth-century expansion by Makarios Melissenos; that view is not in a repo-cited secondary I read, so the note names it only as 'a Greek chronicle under the name of George Sphrantzes'. The reviewer may want a date caveat; continuity is also carried by the chronicle's 'pro more suo' and 'ὡς τάξις καὶ νόμος ἦν' (line 17491)."
+   ],
+   "change_reason": "New. Named in both texts; no link on main."
+  },
+  {
+   "id": "byzantine-church-palaiologan--muscovite-monastic-christianity",
+   "action": "new",
+   "from": "byzantine-church-palaiologan",
+   "to": "muscovite-monastic-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1354 the patriarch's council at Constantinople made Alexis metropolitan, the chief bishop, of Kyiv and all Rus'. Later the Greeks' dealings with Rome made Moscow wait. In 1448 the Russian bishops met at the grand prince's call and made Jonah their chief bishop themselves.",
+   "outcome": "In 1448 the Russian bishops made Jonah their chief bishop themselves. They did not wait for Constantinople to install him.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:3946-3957",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople, June 1354, in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 151",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "15801",
+     "locus": "no. 151, date line",
+     "quote": "CLI. (6862—1354) iunio ind. VII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of June 1354, Miklosich and Müller, vol. 1, no. 151",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "15905-15906",
+     "locus": "no. 151 (Alexis made metropolitan)",
+     "quote": "κατέστησεν ἀρτίως τοῦτον δὴ τὸν χύριον ᾿Αλέξιον sic τέλειον μηξρο- κολίτην Κυέβου xai πάσης Ῥωσίας,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 31 (St Jonah)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "3946-3951",
+     "locus": "ch. 31",
+     "quote": "But reports  concerning  the  relations  which  Constantinople  then had  with  Rome,  caused  the  Great  Prince  to  delay  his embassy.  Waiting  more  favourable  circumstances,  St.  Jonah governed  the  Church  for  five  years  without  being  synodically appointed.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), ch. 31",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "3956-3957",
+     "locus": "ch. 31",
+     "quote": "these  instituted Jonah  as  metropolitan  of  all  Russia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), table of contents",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "631",
+     "locus": "contents, list of metropolitans",
+     "quote": "St.  Jonah 31st  Met A.D.  1448",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite longDescription ('in 1448, Russian bishops chose their own metropolitan without waiting on Constantinople', after prose change 5) and legacy ('the hesychast prayer this generation received from the Greeks')",
+   "wants": [
+    "A primary for the 1448 election: the Russian chronicles (PSRL) or Grand Prince Basil II's letter to Constantinople, so the 1448 step does not rest on Mouravieff alone",
+    "Miklosich and Müller, Acta patriarchatus, vol. 2 (1402 onward), for Constantinople's own record of the Rus' metropolitans after 1402"
+   ],
+   "drafter_flags": [
+    "Grade: Documented rests on the 1354 synodal act (a named act of one side directed at the other). The 1448 step is carried by Mouravieff, a secondary read at its lines; it does not raise the grade.",
+    "Herberstein (envoy 1517 and 1526) wrote that 'The Russian metropolitans hold their authority from the Patriarch of Constantinople' (herberstein file 9773-9774). That outsider's statement cuts against the 1448 independence. The reviewer may weigh it; the prose's 'the beginning of an independent Russian church' is kept, with Mouravieff's 'Our involuntary separation from Constantinople, after its fall' (lines 4087-4088) behind it.",
+    "Type: 'in contact with', not 'broke with': no vendored text records a rupture from Constantinople's side, and Mouravieff calls the separation 'involuntary'.",
+    "Outcome: a practice changed by an authority (basis c), the council of Russian bishops installing their own metropolitan; the outcome rests on Mouravieff, one of the link's own sources, within the cited lines."
+   ],
+   "change_reason": "New. Named in the Muscovite text; no link on main."
+  },
+  {
+   "id": "muscovite-monastic-christianity--russian-church-stoglav-to-nikon",
+   "action": "new",
+   "from": "muscovite-monastic-christianity",
+   "to": "russian-church-stoglav-to-nikon",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Herberstein, the emperor's envoy, came to Moscow in 1517. He met its chief bishop, whom he calls Bartholomew, and Daniel later took his place. Herberstein says such bishops were once chosen by a meeting of bishops, abbots and priors.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigismund von Herberstein, Notes upon Russia, trans. Major, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9806-9808",
+     "locus": "on the choosing of metropolitans",
+     "quote": "When  I  was  the  Emperor  Maxi- milian's ambassador  at  Moscow,  Bartholomew,  a  man  of  holy life,  was  the  metropolitan ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Herberstein, Notes upon Russia, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9820-9821",
+     "locus": "on the choosing of metropolitans",
+     "quote": "One Daniel  succeeded  him  as  metropolitan,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Herberstein, Notes upon Russia, vol. 1 (1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9800-9802",
+     "locus": "on the choosing of metropolitans",
+     "quote": "Metropolitans  and  bishops  were  formerly  chosen  at  an assembly  of  all  the  archbishops,  bishops,  abbots,  and  priors of  monasteries ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1842), table of contents",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "648-650",
+     "locus": "contents, list of metropolitans",
+     "quote": "Barlaam 37th  Met A.D.  1511 97.  Daniel 38th  Met A.D.  1522",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite legacy ('Almost everything that follows in Russian Christianity runs back through here'); russian-church-stoglav-to-nikon longDescription ('In the century and a half after 1517 the Russian Church became something new')",
+   "wants": [],
+   "drafter_flags": [
+    "CROSS-ERA: the era-7 session may draft this continuation from the Stoglav side; de-duplicate at merge.",
+    "Herberstein's 'Bartholomew' is the metropolitan Mouravieff lists as Barlaam (1511); Daniel follows in 1522 in Mouravieff's list. The note keeps Herberstein's name and says so.",
+    "Herberstein's first embassy (for Maximilian) is dated 1517 in the file's introduction, not in the quoted lines; the line names 'the Emperor Maximilian's ambassador at Moscow'."
+   ],
+   "change_reason": "New. A period-split continuation named by the Muscovite legacy; no link on main."
+  },
+  {
+   "id": "muscovite-monastic-christianity--the-old-believers",
+   "action": "new",
+   "from": "muscovite-monastic-christianity",
+   "to": "the-old-believers",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "F. C. Conybeare's 1921 history of the Russian dissenters looks for the roots of the Old Believer schism in older Moscow. He names Joseph of Volokolamsk and his disciples as the men who built its church nationalism. The tie rests on this one reading.",
+   "outcome_considered": "The only source is a modern history's reading; it shows no council, split or ruling linking the two.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (1921), ch. 'Conditions leading to the schism'",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "2244-2247",
+     "locus": "Conditions leading to the schism",
+     "quote": "Three  men  above  others  had  worked  for  this  triumph  of nationaUsm  in  the  ecclesiastical  sphere,  Joseph  Sanin,  prior  and founder  of  the  Volokolam  monasterj^  and  his  disciples  Daniel and  Macarius,  both  metropoUtans  of  Moscow.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite relationsSummary ('parent of the Old Believers' tradition', after prose change 4 'The Old Believers' schism may also have roots in its church, though only one modern history draws that line'); the-old-believers relationsSummary ('The Old Believers grew out of Muscovite Christianity')",
+   "wants": [
+    "An Old Believer text appealing to the Muscovite fathers or the Stoglav (e.g. Avvakum's Life) in a vendored edition"
+   ],
+   "drafter_flags": [
+    "OCR kept: 'nationaUsm', 'monasterj^', 'metropoUtans'.",
+    "The Old Believers' own text says they 'grew out of Muscovite Christianity'. The census's era-6 movement ends in 1517 and the schism comes in the 1660s, after the era-7 Russian church; a 'gave rise to' link would skip that church. Kept as a thin influence."
+   ],
+   "change_reason": "New. Named in both texts; no link on main."
+  },
+  {
+   "id": "muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "muscovite-monastic-christianity",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1847 the monks of Optina printed the life and writings of the elder Paisius Velichkovsky. The book carries a preface to the book of Nil Sorsky, and it calls Nil 'the light of Russia'.",
+   "outcome_considered": "The source shows a text printed and praised, not an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and writings of Paisius Velichkovsky, Optina edition (Moscow, 1847), title page",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "22-23",
+     "locus": "title page",
+     "quote": "на книги С». Григорія Синаита, Фило- оея Синайскаго, Исихія Пресвитера и Нила Сорскаго,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and writings of Paisius Velichkovsky, Optina edition (1847), title page imprint",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "32",
+     "locus": "title page, publisher",
+     "quote": "ОПТННОЙ ПУСТЫНИ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and writings of Paisius Velichkovsky, Optina edition (1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "1967-1968",
+     "locus": "the Life (Nil on tears)",
+     "quote": "Богоносный Отецъ нашъ, Россійское свѣтило, Нилъ Сорскій,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "muscovite relationsSummary ('later renewal', after prose change 4 'the nineteenth-century elders of Optina') and legacy ('resurfaced in the elder movement of the nineteenth century'); the-optina-elders relationsSummary ('Grew out of the Philokalia tradition of ascetic prayer')",
+   "wants": [],
+   "drafter_flags": [
+    "Who speaks at lines 1967-1968 (the Neamt brethren compiling the Life, or Paisius quoted in it) was not settled; the note credits the book, not a person.",
+    "The preface on Nil's book is by Basil of Poiana Marului (title page, lines 22-26), an eighteenth-century elder of Paisius's circle; Optina printed it."
+   ],
+   "change_reason": "New. Named in the Muscovite text; no link on main."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-bosnian-church",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "About 1370 Pope Urban V wrote that many heretics lived in Bosnia. He told the archbishops of Split and Dubrovnik to cut off from the church anyone who sheltered them or traded with them. In 1451 Pope Nicholas V called the Bosnian lord Stephen a 'faithless Patarene'.",
+   "outcome_considered": "Urban V's letter orders excommunications, but it is a ruling in a letter and no source shows it carried out; Nicholas V's act targets one lord.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Urban V to the archbishops of Split and Dubrovnik, register year 8 (1369-70), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863), no. 366",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "22706-22707",
+     "locus": "no. 366",
+     "quote": "quod  in  partibus  Dosne  a vestris  civitatibus  et  dioccsibus  non  remotis  quam  plures  heretici commorantur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicholas V, bull against Stephen, count in the kingdom of Bosnia (1451), in Theiner, vol. 1 (1863), no. 582",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "32370",
+     "locus": "no. 582",
+     "quote": "quod  Stephanus  Comes  in  Regno  Bosne,  perfidus  patarenus,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-bosnian-church relationsSummary ('condemned by Rome as heretical'), longDescription ('Rome repeatedly condemned it as heretical and periodically sent friars against it') and why ('Rome repeatedly condemned them as heretics')",
+   "wants": [
+    "A papal letter of the 1230s-1300 on the Bosnian heretics (Gregory IX's crusade letters), for the condemnation before 1300 that belongs to the Gregorian papacy",
+    "A clean edition of the Franciscan vicariate of Bosnia's founding documents, for 'sent friars against it'"
+   ],
+   "drafter_flags": [
+    "CROSS-GROUP: the papacy is group C's movement; de-duplicate at merge.",
+    "The papal letters say 'heretics in Bosnia' and 'Patarene'; that these name the krstjani of the Bosnian Church is the standard reading, not something the letters say in the church's own terms. The reviewer may weigh whether Documented holds for the pair or whether Widely Accepted is safer (no repo-cited secondary I read states the identification).",
+    "The year: Theiner heads the page 'URBANI PP. V. ANXO VIII.'; Urban's eighth year ran from November 1369 to November 1370, hence 'about 1370'. Theiner's own year digits are garbled ('13«').",
+    "OCR kept: 'Dosne' for Bosne, 'dioccsibus'. The file uses double spaces between words, kept in the quotes.",
+    "Condemnation before 1300 (from the 1230s) would join the Gregorian papacy (era 5) to this movement; no vendored text of that period was located, so no such link is drafted."
+   ],
+   "change_reason": "New. Named in all three Bosnian fields; no link on main."
+  }
+ ],
+ "dispositions": [
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "relationsSummary",
+   "sentence": "Heir of Athonite line;",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "existing",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": 0,
+   "reason": "The era-5 link (influenced, Documented: Telikoudes naming Symeon; the Hagioritic Tome) carries it. Wording tidied in prose change 0."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "relationsSummary",
+   "sentence": "parent of the Philokalia line (Eras 7-8)",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": 0,
+   "reason": "New Documented influenced link (the Philokalia prints Palamas; Paisius's Slavonic Palamas). '(Eras 7-8)' removed: navigation language, and the Philokalia line is the 1700s."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "longDescription",
+   "sentence": "On Mount Athos monks had long practiced hesychia, stillness.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "existing",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": null,
+   "reason": "Carried by the era-5 Athonite link."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "longDescription",
+   "sentence": "When the Calabrian scholar Barlaam ridiculed the practice, Gregory Palamas, an Athonite monk who later became archbishop of Thessalonica, answered him in the Triads.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Barlaam has no census movement. Checked: the synodal tome of 1341 (PG 151 lines 14785-14791) says Barlaam spoke blasphemously about the monks' prayer and the light of Tabor. Palamas as an Athonite monk is carried by the existing Athonite link."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "longDescription",
+   "sentence": "The argument ran for two decades and was settled by councils at Constantinople in 1341, 1347 and 1351, which vindicated Palamas and made the hesychast position the standard of Orthodox theology.",
+   "other_id": "byzantine-church-palaiologan",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "prose_change": null,
+   "reason": "New Documented influenced link from the 1341 tome, with an outcome (the synod's ruling and its sentence on Barlaam)."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "longDescription",
+   "sentence": "Beside it stands a very different voice. Nicholas Cabasilas, a layman of Thessalonica, who wrote The Life in Christ to show that the same life in God was given through the sacraments to people who would never enter a monastery.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Cabasilas is a voice within the movement, not another party."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "why",
+   "sentence": "Monks on Mount Athos practiced hesychia, sitting in stillness and repeating the Jesus Prayer until some reported seeing an uncreated light.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "existing",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "prose_change": null,
+   "reason": "Carried by the era-5 Athonite link."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "why",
+   "sentence": "When the scholar Barlaam mocked the practice, Gregory Palamas defended it by arguing that God is unknowable in his essence yet truly given in his energies, a case that church councils upheld between 1341 and 1351.",
+   "other_id": "byzantine-church-palaiologan",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "prose_change": null,
+   "reason": "The councils: the new hesychasm-to-Palaiologan link. Barlaam: no census movement; checked in the 1341 tome as above."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "why",
+   "sentence": "Alongside the monks, the layman Nicholas Cabasilas wrote The Life in Christ to show that the same life in God reached people who would never enter a monastery.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A voice within the movement."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "It became, and remains, the mainstream of Orthodox theology and prayer.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Orthodox theology and prayer' is the whole later tradition, no single movement. The 1341 tome (synodal ruling) and the Philokalia and Optina links show the line it names; kept."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "Palamas was declared a saint in 1368, and the second Sunday of Great Lent is still kept in his memory across the Orthodox world.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "About the movement's own figure, not a relationship. Split into two sentences for reading level."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "The texts of the hesychast masters were gathered in 1782 into the Philokalia",
+   "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia",
+   "prose_change": 1,
+   "reason": "New Documented influenced link."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "which carried the practice into Russia and Romania",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No vendored or repo-cited source for the spread 'into Russia and Romania' as such; replaced by what the Optina books show: Paisius, an elder in Moldavia, put Palamas into Slavonic, and Optina printed it."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "into the nineteenth-century monastic revival",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": 1,
+   "reason": "New Documented influenced link from the Optina editions of 1847 and 1849. The Philokalia line's own tie to Optina joins two other eras and is out of scope (see the out-of-scope row)."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "into the nineteenth-century monastic revival",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Philokalia line (the-hesychast-revival-paisius-and-the-philokalia, era 8) to the Optina elders (era 9): joins two movements of other eras; held for those passes."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "through the anonymous Russian book The Way of a Pilgrim. Into the hands of ordinary readers who had never seen a monastery.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The Way of a Pilgrim has no census movement and no vendored or repo-cited source; the clause (also a broken sentence) is removed."
+  },
+  {
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "sentence": "The Jesus Prayer is prayed today by a great many people who have never heard of the fourteenth-century controversy that defended it.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "A general present-day remark; reworded for reading level."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "sentence": "receives the hesychast councils synodally (the Hesychast movement and its theology are treated separately)",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "prose_change": 2,
+   "reason": "New hesychasm-to-Palaiologan link. The parenthesis is a build note and is removed."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "sentence": "signs Florence (1439)",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 2,
+   "reason": "New Documented in-contact link (Syropoulos; Laetentur caeli; Leonard of Chios). Flagged for de-duplication with group C."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "sentence": "and repudiates it at home",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Before 1453 the patriarchal church itself proclaimed the union in the City (Leonard of Chios, PG 159 lines 54517-54518); it was monks, clergy and people who rejected it (Leonard 54757-54758). Rewritten so."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "sentence": "falls with the City (29 May 1453)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Ottomans have no census movement. The fall is the subject of Leonard of Chios's letter of 15 August 1453 (PG 159 from line 54400)."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "sentence": "hands directly to Ottoman-era Orthodoxy, which begins in 1453 - a clean two-way handoff.",
+   "other_id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "prose_change": 2,
+   "reason": "New Documented continued-as link (the chronicle under Sphrantzes's name on Gennadios's election). 'A clean two-way handoff' is a build note and is removed."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "sentence": "Synods at Constantinople in 1341, 1347 and 1351 ruled in favor of the hesychast monks and made Gregory Palamas's theology the standard of Orthodoxy.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan",
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "sentence": "With the Ottomans closing in, the emperor and the patriarch went to Italy and in 1439 signed a union with Rome at the Council of Florence, in exchange for military help that never adequately came.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": null,
+   "reason": "The Florence link. The military-help clause names no movement; left as written."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "sentence": "Mark of Ephesus refused to sign.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person, no census movement. Checked: Syropoulos (lines 47968-47971) has the pope ask whether Mark had signed and hear that he had not."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "sentence": "At home the union was rejected by monks, by much of the clergy and by the city, and when it was finally proclaimed in Hagia Sophia in December 1452 it was met with open hostility.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the opponents. Checked: Leonard of Chios dates the celebration of the union to 12 December (lines 54517-54518) and says the Greeks kept it in word and denied it in deed (54757-54758)."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "longDescription",
+   "sentence": "Five months later, on 29 May 1453, Constantinople fell.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Ottomans have no census movement; Leonard's letter is the witness."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "why",
+   "sentence": "With the Ottomans closing in, the Byzantine emperor and patriarch signed a union with Rome at the Council of Florence in 1439 in exchange for military help that never adequately came;",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": null,
+   "reason": "The Florence link."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "why",
+   "sentence": "Mark of Ephesus alone among the Greek bishops present refused to sign, and the union was rejected at home by monks, clergy, and the city itself.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persons, no movement. Checked in Syropoulos (Mark did not sign, 47968-47971; the bishop of Stauropolis was absent, 47669-47672) and Leonard (54757-54758)."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "why",
+   "sentence": "Constantinople fell five months after the union was finally proclaimed in Hagia Sophia, on 29 May 1453.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "legacy",
+   "sentence": "Within months of the conquest the sultan installed Gennadios Scholarios as patriarch, and the church became the governing institution of the Orthodox population under Ottoman rule for the next four centuries",
+   "other_id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "prose_change": 3,
+   "reason": "The continued-as link. Paragraph rewritten whole for reading level."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "legacy",
+   "sentence": "a continuous line reaching the Ecumenical Patriarchate of today.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The present-day patriarchate has no single movement; the line runs through later eras' Orthodox movements and their own continuations."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "legacy",
+   "sentence": "The union of Florence was formally repudiated and is still a live memory in Orthodox-Catholic relations.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": "byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 3,
+   "reason": "A formal repudiation has no vendored or repo-cited source (wanted: the synod usually dated 1484). Leonard of Chios supports 'never truly took up'. Rewritten."
+  },
+  {
+   "movement": "byzantine-church-palaiologan",
+   "field": "legacy",
+   "sentence": "And the scholars who left for Italy, Bessarion among them, carried Greek manuscripts and Greek teaching with them into the Renaissance.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Italy and the Renaissance have no census movement. Checked: Bessarion's gift of his library to the Venetian senate is listed in the PG 161 elenchus (lines 522-525)."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Kievan",
+   "other_id": "kievan-rus-christianity-1054-1240",
+   "disposition": "existing",
+   "link_id": "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity",
+   "prose_change": 4,
+   "reason": "Carried by the existing gave-rise-to link (synodal act no. 158; Herberstein)."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "+ hesychast lines;",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--muscovite-monastic-christianity",
+   "prose_change": 4,
+   "reason": "New Documented influenced link (Nil Sorsky quoting Gregory of Sinai)."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "parent of the Old Believers' tradition",
+   "other_id": "the-old-believers",
+   "disposition": "link",
+   "link_id": "muscovite-monastic-christianity--the-old-believers",
+   "prose_change": 4,
+   "reason": "New Inferential-Thin influenced link (Conybeare 1921). 'Parent' qualified to 'may also have roots in its church', since one modern history is the only source."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "sentence": "and later renewal",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": 4,
+   "reason": "New Documented influenced link (Optina's 1847 edition carries the preface to Nil Sorsky's book). The vague 'later renewal' is named as the Optina elders."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Within a generation the monastery that grew up around him had sent out disciples who founded dozens more, pushing ever deeper into the northern forests in what later Russians called the northern Thebaid.",
+   "other_id": "desert-monasticism",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A later name, not a claim of descent from the Egyptian monks. Checked: Muravyov's 'Russkaia Fivaida na severe' is cited in the Nil Sorsky edition (line 260). Mouravieff (lines 3191-3197) names Sergius's disciples and their houses."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Nil Sorsky and the non-possessors held that monasteries should own no land and no peasants and should live by their own labor, while Joseph of Volotsk and the possessors held that endowed monasteries could feed the poor, train clergy and carry the church's work.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Both parties are inside the movement. Checked: the Nil edition's bibliography (lines 294-297) lists studies of the quarrel between the Josephites and the Beloozero elders over monastic property."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "The possessors won it at the council of 1503.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No vendored or repo-cited source for a council of 1503 deciding the quarrel. Mouravieff (lines 4479-4489) shows the outcome: soon after Simon became metropolitan in 1496, the grand prince meant to take church lands and the metropolitan dissuaded him. Rewritten so."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "In the middle of all this, in 1448, Russian bishops elected their own metropolitan without waiting on Constantinople — the beginning of an independent Russian church.",
+   "other_id": "byzantine-church-palaiologan",
+   "disposition": "link",
+   "link_id": "byzantine-church-palaiologan--muscovite-monastic-christianity",
+   "prose_change": 5,
+   "reason": "New Documented in-contact link (the 1354 synodal act; Mouravieff on Jonah), with an outcome. Wording kept, split for reading level."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "why",
+   "sentence": "Sergius of Radonezh withdrew into the forests north of Moscow in the 1340s to live alone, and within a generation his monastery's disciples had founded dozens more, pushing deep into what Russians called the northern Thebaid.",
+   "other_id": "desert-monasticism",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "why",
+   "sentence": "The era's sharpest argument was over monastic wealth: Nil Sorsky and the non-possessors wanted monks poor and silent, Joseph of Volotsk and the possessors wanted monasteries endowed and socially useful,",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Inside the movement; checked as above."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "why",
+   "sentence": "and the possessors won at a council in 1503.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Almost everything that follows in Russian Christianity runs back through here.",
+   "other_id": "russian-church-stoglav-to-nikon",
+   "disposition": "link",
+   "link_id": "muscovite-monastic-christianity--russian-church-stoglav-to-nikon",
+   "prose_change": null,
+   "reason": "New Documented continued-as link (Herberstein on the metropolitans Bartholomew and Daniel). Flagged for the era-7 session."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Sergius's foundation is still a working lavra and a spiritual center of the Russian Orthodox Church;",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The present-day church has no single movement. The Trinity Lavra printed the 1910 Maxim the Greek edition (file name), so the house was working then; the present day is general knowledge, left as written."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "the hesychast prayer this generation received from the Greeks",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "link",
+   "link_id": "hesychasm-and-the-palamite-synthesis--muscovite-monastic-christianity",
+   "prose_change": null,
+   "reason": "The hesychasm-to-Muscovite link (Gregory of Sinai in Nil's rule; Nil on Athos and near Constantinople). The Palaiologan contact link also stands."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "resurfaced in the elder movement of the nineteenth century.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "muscovite-monastic-christianity--the-optina-elders-and-russian-ascetic-renewal",
+   "prose_change": null,
+   "reason": "The Muscovite-to-Optina link."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "And the argument between possessors and non-possessors about monastic wealth has been re-fought in Russian religious writing ever since.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement. Checked: the Nil edition's bibliography lists nineteenth- and twentieth-century studies of the quarrel (lines 294-320, e.g. Rozanov 1877, Golubinsky 1902)."
+  },
+  {
+   "movement": "muscovite-monastic-christianity",
+   "field": "legacy",
+   "sentence": "Rublev's Trinity became the most famous icon ever painted.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A judgment, not a relationship."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "relationsSummary",
+   "sentence": "condemned by Rome as heretical",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church",
+   "prose_change": null,
+   "reason": "New Documented argued-against link (Urban V c. 1370; Nicholas V 1451). Flagged for group C."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "relationsSummary",
+   "sentence": "but defended by its own kings.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Bosnian rulers have no movement. Checked: Theiner (line 294, contents) has Ban Kulin as 'haereticorum fautorem'; Nicholas V's bull (line 32370) has the lord Stephen as a Patarene."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "relationsSummary",
+   "sentence": "It ended with the Ottoman conquest: Bosnia fell in 1463",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Ottomans have no movement. The Ecthesis chronica index points to the conquest ('Bosniam occupat, cralem occidit'); its text pages were not read."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "relationsSummary",
+   "sentence": "The old identification of the church with Bogomil dualism is rejected by most current scholarship.",
+   "other_id": "balkan-bogomil-continuation",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Denies a relationship, so no link is drawn (era-5 precedent, Drafting_Record 'Bogomil' disposition). Checked: Rački (1869-70) argues the identification; Truhelka (1911, lines 812-821) argues against it from the cross and Trinitarian opening of Radin's testament; Fine (1975) and Šanjek (1976) are named in the Bosnian dossier and the map files (in copyright, unread)."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "sentence": "Between Catholic Hungary and Orthodox Serbia, medieval Bosnia had a church of its own.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Geography, not a relationship claim."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "sentence": "Rome repeatedly condemned it as heretical and periodically sent friars against it",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church",
+   "prose_change": null,
+   "reason": "The papacy-to-Bosnian link. The friars: Theiner's volume carries the Franciscan mission (content note), but no letter sending friars was quoted; wanted."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "sentence": "while Bosnia's own rulers protected and made use of it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "sentence": "The long-standing identification of them with Bogomil dualism has been rejected by most historians since the 1970s",
+   "other_id": "balkan-bogomil-continuation",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary; Fine 1975 and Šanjek 1976 are the repo-named works for 'since the 1970s'."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "sentence": "Bosnia fell to the Ottomans in 1463, and the church did not outlast the kingdom.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "why",
+   "sentence": "Medieval Bosnia had a church of its own, standing between Catholic Hungary and Orthodox Serbia.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Geography."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "why",
+   "sentence": "Rome repeatedly condemned them as heretics while Bosnia's own kings protected them",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church",
+   "prose_change": null,
+   "reason": "The papacy-to-Bosnian link; the kings as above."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "why",
+   "sentence": "the old identification with Bogomil dualism has been rejected by most historians since the 1970s",
+   "other_id": "balkan-bogomil-continuation",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "sentence": "After the Ottoman conquest the krstjani disappear from the record within a generation or two, absorbed into Islam, Catholicism and Orthodoxy",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement for Islam; Catholicism and Orthodoxy name no single movement. Evans (1877, lines 2456-2462) supports the turn to Islam; nothing vendored or repo-cited shows the rest. Qualified."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "sentence": "and no later church claims descent from them.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "A denial of descent."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "sentence": "Though those were raised by Catholics and Orthodox as well, and the once-popular idea that they are specifically a Bosnian Church monument is no longer accepted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement. The Bosnian dossier names the stećci studies (Wenzel 1965; Bešlagić 2016; in copyright, unread). The fragment is mended."
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "sentence": "The church's other legacy is the argument about it, which became part of Bosnian national self-understanding in the twentieth century and is still running.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "'Part of Bosnian national self-understanding in the twentieth century' has no vendored or repo-cited source; that clause is removed and 'the argument is still running' kept (Rački, Truhelka and the modern works show the argument)."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "relationsSummary",
+   "old": "Heir of Athonite line; parent of the Philokalia line (Eras 7-8)",
+   "new": "Heir of the Athonite line. Parent of the Philokalia line of the 1700s, which the Optina elders took up in the 1800s.",
+   "reason": "'(Eras 7-8)' is navigation language, and the Philokalia line belongs to the 1700s, not to two eras; the Optina tie is drawn from the Optina books.",
+   "fre_after": 76.5,
+   "fk_after": 5.3
+  },
+  {
+   "n": 1,
+   "movement": "hesychasm-and-the-palamite-synthesis",
+   "field": "legacy",
+   "old": "It became, and remains, the mainstream of Orthodox theology and prayer. Palamas was declared a saint in 1368, and the second Sunday of Great Lent is still kept in his memory across the Orthodox world. The texts of the hesychast masters were gathered in 1782 into the Philokalia, which carried the practice into Russia and Romania, into the nineteenth-century monastic revival, and — through the anonymous Russian book The Way of a Pilgrim. Into the hands of ordinary readers who had never seen a monastery. The Jesus Prayer is prayed today by a great many people who have never heard of the fourteenth-century controversy that defended it.",
+   "new": "It became, and remains, the mainstream of Orthodox theology and prayer. Palamas was declared a saint in 1368. The second Sunday of Great Lent is still kept in his memory across the Orthodox world. In 1782 the writings of its masters were gathered into one book, the Philokalia, and printed at Venice. Paisius Velichkovsky, an elder in Moldavia, put Palamas on prayer into Slavonic. In the 1800s the monks of Optina printed his work for Russian readers. Today many people pray the Jesus Prayer who have never heard of the old quarrel that defended it.",
+   "reason": "The Way of a Pilgrim and the spread 'into Russia and Romania' have no vendored or repo-cited source; the clause is replaced by the steps the Optina books show (Paisius's Slavonic Palamas, printed by Optina in 1849). The broken sentence ('. Into the hands') is mended.",
+   "fre_after": 60.5,
+   "fk_after": 8.1
+  },
+  {
+   "n": 2,
+   "movement": "byzantine-church-palaiologan",
+   "field": "relationsSummary",
+   "old": "The patriarchal institution of the empire's last century and a half: receives the hesychast councils synodally (the Hesychast movement and its theology are treated separately), signs Florence (1439) and repudiates it at home, falls with the City (29 May 1453); hands directly to Ottoman-era Orthodoxy, which begins in 1453 - a clean two-way handoff.",
+   "new": "The patriarchal church of the empire's last century and a half. Its synods ruled for the hesychast monks in 1341, 1347 and 1351. It signed the union of Florence in 1439, which monks, clergy and people at home rejected. It fell with the City on 29 May 1453 and went on, under a new patriarch, as the church of the Orthodox under Ottoman rule.",
+   "reason": "The old summary carried build notes ('treated separately', 'a clean two-way handoff') and said the patriarchal church 'repudiates' Florence at home; before 1453 the church itself proclaimed the union (Leonard of Chios, December 1452), while monks, clergy and people rejected it.",
+   "fre_after": 69.6,
+   "fk_after": 7.2
+  },
+  {
+   "n": 3,
+   "movement": "byzantine-church-palaiologan",
+   "field": "legacy",
+   "old": "The patriarchate outlived the empire. Within months of the conquest the sultan installed Gennadios Scholarios as patriarch, and the church became the governing institution of the Orthodox population under Ottoman rule for the next four centuries — a continuous line reaching the Ecumenical Patriarchate of today. The union of Florence was formally repudiated and is still a live memory in Orthodox-Catholic relations. And the scholars who left for Italy, Bessarion among them, carried Greek manuscripts and Greek teaching with them into the Renaissance.",
+   "new": "The church outlived the empire. Soon after the conquest the sultan had Gennadios Scholarios made patriarch. For four centuries the church led the Orthodox under Ottoman rule. Its line runs on to the patriarch in Istanbul today. The Greeks never truly took up the union of Florence. It is still a sore memory between Orthodox and Catholics. Some scholars left for Italy, Bessarion among them. They took Greek books and Greek learning with them into the Renaissance.",
+   "reason": "A formal repudiation has no vendored or repo-cited source. Leonard of Chios, writing to the pope in 1453, says the Greeks kept the union in word and denied it in deed.",
+   "fre_after": 64.1,
+   "fk_after": 6.7
+  },
+  {
+   "n": 4,
+   "movement": "muscovite-monastic-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Kievan + hesychast lines; parent of the Old Believers' tradition and later renewal",
+   "new": "Child of the Kievan and hesychast lines. Its way of prayer came back in the nineteenth-century elders of Optina. The Old Believers' schism may also have roots in its church, though only one modern history draws that line.",
+   "reason": "'Parent of the Old Believers' tradition' rests on one modern reading (Conybeare 1921), so it is qualified; 'later renewal' is named as the Optina elders, whose own books carry Nil Sorsky.",
+   "fre_after": 70.0,
+   "fk_after": 6.7
+  },
+  {
+   "n": 5,
+   "movement": "muscovite-monastic-christianity",
+   "field": "longDescription",
+   "old": "Sergius of Radonezh withdrew into the woods north of Moscow in the 1340s to live alone. Within a generation the monastery that grew up around him had sent out disciples who founded dozens more, pushing ever deeper into the northern forests in what later Russians called the northern Thebaid. The texts followed — Epiphanius the Wise's life of Sergius, the skete rules of Nil Sorsky. And so did the art, since Andrei Rublev's Trinity was painted in Sergius's memory for his own monastery. The period also produced the sharpest argument in Russian church history. Nil Sorsky and the non-possessors held that monasteries should own no land and no peasants and should live by their own labor, while Joseph of Volotsk and the possessors held that endowed monasteries could feed the poor, train clergy and carry the church's work. The possessors won it at the council of 1503. In the middle of all this, in 1448, Russian bishops elected their own metropolitan without waiting on Constantinople — the beginning of an independent Russian church.",
+   "new": "Sergius of Radonezh withdrew into the woods north of Moscow in the 1340s to live alone. A monastery grew up around him. Within a generation his disciples had founded dozens more, pushing ever deeper into the northern forests. Later Russians called this the northern Thebaid. The texts followed: Epiphanius the Wise's life of Sergius, and the skete rules of Nil Sorsky. So did the art. Andrei Rublev painted his Trinity in Sergius's memory, for Sergius's own monastery. The same years saw the sharpest quarrel in Russian church history. Nil Sorsky and the non-possessors held that monasteries should own no land and no peasants. Monks should live by their own work. Joseph of Volotsk and the possessors held that rich monasteries could feed the poor, train clergy and carry the church's work. The monasteries kept their lands. Soon after 1496 Grand Prince Ivan planned to take them, but the metropolitan talked him out of it. In the middle of all this, in 1448, Russian bishops chose their own metropolitan without waiting on Constantinople. It was the beginning of an independent Russian church.",
+   "reason": "No vendored or repo-cited source carries a council of 1503 deciding the quarrel. Mouravieff's history shows the outcome: soon after Simon became metropolitan (1496), the grand prince meant to take church lands and the metropolitan dissuaded him.",
+   "fre_after": 62.1,
+   "fk_after": 7.6
+  },
+  {
+   "n": 6,
+   "movement": "muscovite-monastic-christianity",
+   "field": "why",
+   "old": "Sergius of Radonezh withdrew into the forests north of Moscow in the 1340s to live alone, and within a generation his monastery's disciples had founded dozens more, pushing deep into what Russians called the northern Thebaid. The era's sharpest argument was over monastic wealth: Nil Sorsky and the non-possessors wanted monks poor and silent, Joseph of Volotsk and the possessors wanted monasteries endowed and socially useful, and the possessors won at a council in 1503. Andrei Rublev painted his Trinity icon, now the most famous icon ever made, for Sergius's own monastery.",
+   "new": "Sergius of Radonezh withdrew into the forests north of Moscow in the 1340s to live alone. Within a generation his disciples had founded dozens more houses, deep in what Russians called the northern Thebaid. The era's sharpest quarrel was over what monks should own. Nil Sorsky and the non-possessors wanted monks poor and silent. Joseph of Volotsk and the possessors wanted monasteries rich enough to serve the people. In the end the monasteries kept their lands. Andrei Rublev painted his Trinity for Sergius's own monastery. It is now the most famous icon ever made.",
+   "reason": "As in the long description: the council of 1503 has no vendored or repo-cited source; the monasteries keeping their lands has.",
+   "fre_after": 61.2,
+   "fk_after": 7.7
+  },
+  {
+   "n": 7,
+   "movement": "the-bosnian-church",
+   "field": "legacy",
+   "old": "Nothing continued. After the Ottoman conquest the krstjani disappear from the record within a generation or two, absorbed into Islam, Catholicism and Orthodoxy, and no later church claims descent from them. What remains is inscriptional and archaeological: charters and grave inscriptions naming djeds and gosts, and the stećci, the great carved limestone tombstones of medieval Bosnia and its neighbors. Though those were raised by Catholics and Orthodox as well, and the once-popular idea that they are specifically a Bosnian Church monument is no longer accepted. The church's other legacy is the argument about it, which became part of Bosnian national self-understanding in the twentieth century and is still running.",
+   "new": "Nothing continued. After the Ottoman conquest the krstjani vanish from the written sources within a generation or two. Many seem to have become Muslims; no surviving text shows where the rest went. No later church claims descent from them. What remains is on parchment and stone. Charters and grave inscriptions name djeds and gosts. And there are the stećci, the great carved limestone tombstones of medieval Bosnia and its neighbors. Catholics and Orthodox raised those too, and the once-popular idea that they are a Bosnian Church monument is no longer accepted. The church's other legacy is the argument about it, which is still running.",
+   "reason": "Absorption 'into Islam, Catholicism and Orthodoxy': Evans (1877, lines 2456-2462) supports the turn to Islam, citing Montalbano; no vendored or repo-cited source shows the others, so that part is qualified. 'Part of Bosnian national self-understanding in the twentieth century' has no vendored or repo-cited source and is removed. The sentence fragment ('. Though those were raised') is mended.",
+   "fre_after": 64.8,
+   "fk_after": 7.1
+  }
+ ],
+ "wants": [
+  "A clean Greek text of the Florentine Definition with its signatures (Mansi 31's Greek columns are garbled in the vendored OCR)",
+  "A clean edition of the Franciscan vicariate of Bosnia's founding documents, for 'sent friars against it'",
+  "A clean edition or translation of the tomes of 1347 and 1351 (Norman Russell's Translated Texts for Byzantinists volume is in copyright) to document the later councils' rulings in quotable form",
+  "A papal letter of the 1230s-1300 on the Bosnian heretics (Gregory IX's crusade letters), for the condemnation before 1300 that belongs to the Gregorian papacy",
+  "A primary for the 1448 election: the Russian chronicles (PSRL) or Grand Prince Basil II's letter to Constantinople, so the 1448 step does not rest on Mouravieff alone",
+  "A source for the formal repudiation of Florence at Constantinople (the synod usually dated 1484)",
+  "A source for the formal repudiation of the union of Florence (synod at Constantinople usually dated 1484)",
+  "An Old Believer text appealing to the Muscovite fathers or the Stoglav (e.g. Avvakum's Life) in a vendored edition",
+  "Epiphanius's Life of Sergius in a vendored edition, for the hesychast side of Sergius's own circle",
+  "Gennadios Scholarios's own account of his election (his writings in PG 160 hold the confessions for Mehmed II; the election passage was not located)",
+  "Miklosich and Müller, Acta patriarchatus, vol. 2 (1402 onward), for Constantinople's own record of the Rus' metropolitans after 1402",
+  "Papal letters sending Franciscans to Bosnia (the vicariate of 1340), in a clean edition",
+  "The Venice 1782 first edition of the Philokalia (title page and Nikodemos's prooimion naming the fourteenth-century fathers)",
+  "The Way of a Pilgrim in a public-domain edition, if the hesychasm legacy is to name it again"
+ ],
+ "escalations": [],
+ "self_check": "Ran the brief's grep (we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we, case-insensitive) over every note, outcome, outcome_considered and new prose field: two hits on the first pass ('we have achieved nothing' in a translated papal quote; 'from the record' in the Bosnian legacy), both reworded; second pass 0 hits. Every primary and secondary quote re-checked by script against its stated lines (joined with single spaces): 0 failures, none over 40 words. Every prose 'old' matches the current field exactly; every changed field scores FRE 60+ and FK 10 or less."
+}
