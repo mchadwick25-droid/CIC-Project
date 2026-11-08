@@ -14,6 +14,8 @@ Ruling: Church Family Tree Decision-Log, "Dominant links on two or three old acc
 1. **Draft** (Opus): `Draft_Followup.json`.
 2. **Review round 1** (a separate Opus 5.5 agent, full): `Opus_Review_Round1.json`. Revise: 2 high, 3 medium, 2 low, all applied.
 3. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`. **Pass**: 0 findings.
+4. **Wording.** The commentary check flagged round 1's sentence "It has not yet been checked against a modern study" as process narration on a live surface. The six notes now say "No modern study of it has been consulted."
+5. **Review round 3** (separate Opus 5.5, targeted, of that change): `Opus_Review_Round3_TargetedRecheck.json`. **Pass**: 0 findings. All three rounds of the cap were used.
 
 No model call was metered.
 
