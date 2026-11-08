@@ -111,7 +111,7 @@
   {
    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "field": "legacy",
-   "sentence": "The millet arrangement ... also shaped the way Balkan national identities later formed around their churches.",
+   "sentence": "The millet arrangement, under which a religious community handled much of its own law and taxation, also shaped the way Balkan national identities later formed around their churches.",
    "other_id": "orthodoxy-after-1821-balkan-autocephalies",
    "disposition": "qualify",
    "link_id": null,
@@ -431,7 +431,7 @@
   {
    "movement": "armenian-christianity-new-julfa",
    "field": "longDescription",
-   "sentence": "Caught between the Ottoman and Safavid empires ... in 1604-05 Shah Abbas I, pursuing a scorched-earth strategy against the Ottomans, deported the population of Julfa and much of eastern Armenia into Persia, and many died on the road.",
+   "sentence": "Caught between the Ottoman and Safavid empires, Armenians lived through one of the great forced migrations of their history: in 1604-05 Shah Abbas I, pursuing a scorched-earth strategy against the Ottomans, deported the population of Julfa and much of eastern Armenia into Persia, and many died on the road.",
    "other_id": null,
    "disposition": "no-entry",
    "link_id": null,
@@ -519,8 +519,8 @@
    "to": "the-reformed-cities-zurich-and-geneva",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "Two synods of the Greek church condemned the Confession printed in Cyril Lucaris's name. The first condemned him for claiming that the whole Eastern Church thought like Calvin. The second, under Patriarch Parthenius, condemned 'Calvin's heresy' and every chapter of the book.",
-   "outcome": "Two synods of the Greek church condemned Lucaris's Confession as Calvin's teaching and placed it under anathema.",
+   "note": "Two synods of the Greek church condemned the Confession printed in Cyril Lucaris's name. The first condemned him for saying the whole Eastern Church thought as Calvin did. The second met under Patriarch Parthenius. It condemned 'Calvin's heresy' and every part of the book.",
+   "outcome": "Two synods of the Greek church condemned the book in Lucaris's name as Calvin's teaching and put it under a curse.",
    "outcome_locus": "Censures printed in the 1645 Confessio volume: Cyril of Beroea's synod, lines 2594-2598 (the anathema); Parthenius's synod, lines 4180-4189 (synod convened, Calvin's heresy and the chapters condemned and anathematized).",
    "sources": [
     {
@@ -553,10 +553,10 @@
     "The Parthenius synod's text was printed at Iasi (line 5611) and is signed among others by Mohyla's three Kyivan delegates (lines 5605-5609); not used here."
    ],
    "change_reason": "New. The councils that condemned Lucaris's Calvinist Confession had no link.",
-   "fre": 51.6,
-   "fk": 9.5,
-   "outcome_fre": 35.3,
-   "outcome_fk": 12.6
+   "fre": 61.1,
+   "fk": 7.5,
+   "outcome_fre": 68.7,
+   "outcome_fk": 8.9
   },
   {
    "id": "the-reformed-cities-zurich-and-geneva--orthodoxy-under-the-ottomans-parish-millet-and-n",
@@ -565,7 +565,7 @@
    "to": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Cyril Lucaris wrote to the pastors and teachers of Geneva as Patriarch of Constantinople. In that letter he called Calvin a most holy and wise teacher, now with the saints. A Latin edition of his Confession, printed in 1645, said it was so close to Calvin that it could have been copied from Calvin's own book.",
+   "note": "Cyril Lucaris wrote to the pastors and teachers of Geneva as Patriarch of Constantinople. In that letter he called Calvin a most holy and wise teacher, now with the saints. A Latin copy of his Confession, printed in 1645, said it was so close to Calvin that it could have been copied from him.",
    "outcome_considered": "The listed sources show one patriarch taking up Calvin's teaching, which by the stricter test does not count. The councils that condemned it carry the lasting result, on the argued-against link from this church.",
    "sources": [
     {
@@ -609,8 +609,8 @@
     "Orthodox writers after 1638 (Dositheus's Synod of Jerusalem, 1672) denied that Lucaris wrote the Confession. That later dispute is not in the listed sources, so the note does not raise it; the reviewer may want it stated."
    ],
    "change_reason": "New. 'Calvinist-sounding Confession' had no link to the Reformed movement.",
-   "fre": 63.6,
-   "fk": 8.9
+   "fre": 66.0,
+   "fk": 8.4
   },
   {
    "id": "the-tridentine-church--orthodoxy-under-the-ottomans-parish-millet-and-n",
@@ -662,7 +662,7 @@
    "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
    "type": "broke with",
    "confidence": "Documented",
-   "note": "At Brest on 8 October 1596 the metropolitan of Kyiv and his bishops placed themselves under Pope Clement VIII. A rival synod met in the same town. Three days later Nikephoros, envoy of the patriarch's throne in Constantinople, declared them cast out as traitors to the faith.",
+   "note": "At Brest on 8 October 1596 the metropolitan of Kyiv and his bishops placed themselves under Pope Clement VIII. A rival synod met in the same town. Three days later Nikephoros, who spoke for the patriarch in Constantinople, said they were cast out as traitors to the faith.",
    "sources": [
     {
      "kind": "primary",
@@ -704,8 +704,8 @@
     "Quotes keep the OCR's doubled spaces, soft hyphens and 'НикиФоръ' with a Latin capital F, exactly as printed."
    ],
    "change_reason": "New. The double synod of Brest had no link.",
-   "fre": 56.3,
-   "fk": 9.1
+   "fre": 62.5,
+   "fk": 8.3
   },
   {
    "id": "the-tridentine-church--the-union-of-brest-and-ruthenian-greek-catholic-",
@@ -760,8 +760,8 @@
    "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "In his own notes Petro Mohyla called the union a wicked falling away from the faith. In August 1628 a synod at Kyiv's Caves monastery questioned Meletius Smotrytsky about his Apology. Rome had welcomed his turn toward it that spring. The synod's envoy told him the book was against the faith and impious from start to finish.",
-   "outcome": "In 1628 an Orthodox synod in Kyiv judged Smotrytsky's pro-union Apology to be against the faith and impious.",
+   "note": "In his own notes Petro Mohyla called the union a wicked falling away from the faith. In August 1628 a synod at the Caves monastery in Kyiv met Meletius Smotrytsky. It asked about his Apology, a book that leaned toward Rome. The synod's envoy told him the whole book was against the faith and wicked.",
+   "outcome": "In 1628 an Orthodox synod in Kyiv judged that Smotrytsky's book for the union was against the faith and wicked.",
    "outcome_locus": "Susza, Saulus et Paulus, lines 3738-3752 (the Caves synod's envoys; 'synodum a capite ad calcem censere eam contrariam et impiam'), with the year from the Roman letter of 6 April 1628 at lines 3697-3712.",
    "sources": [
     {
@@ -791,7 +791,7 @@
      "file": "cic/texts/susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt",
      "lines": "3701-3703",
      "locus": "Life of Smotrytsky",
-     "quote": "uihil ex istis partibus Sanctitati Suae signi- « ficari potuisse gratius, quam conversionem Me- a letii.",
+     "quote": "uihil ex istis partibus Sanctitati Suae signi- « ficari potuisse gratius, quam conversionem Me- « letii.",
      "license": "public-domain"
     }
    ],
@@ -805,10 +805,10 @@
     "Mohyla's note uses 'Rossiia' for Rus'; the year of the episode is left blank in the edition ('Въ лѣто “')."
    ],
    "change_reason": "New. 'The response to the Union of Brest' had no link.",
-   "fre": 58.2,
-   "fk": 8.6,
-   "outcome_fre": 47.6,
-   "outcome_fk": 11.1
+   "fre": 60.0,
+   "fk": 8.2,
+   "outcome_fre": 62.9,
+   "outcome_fk": 9.2
   },
   {
    "id": "the-kyiv-mohyla-orthodox-revival--orthodoxy-under-the-ottomans-parish-millet-and-n",
@@ -817,7 +817,7 @@
    "to": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "type": "influenced",
    "confidence": "Documented",
-   "note": "Mohyla's circle in Kyiv sent its statement of the faith to the church of Constantinople to be judged. The patriarch's envoys and three Kyiv scholars revised it together in Moldavia. In March 1643 the four Eastern patriarchs told every Orthodox Christian to read and accept the book.",
+   "note": "Mohyla's circle in Kyiv sent its statement of the faith to the church of Constantinople to be judged. The patriarch's envoys and three Kyiv scholars worked on it together in Moldavia. In March 1643 the four Eastern patriarchs told every Orthodox Christian to read it and take it to heart.",
    "outcome_considered": "The patriarchs adopted a Kyivan text as set reading. By the stricter test a text taken up by the other side does not count as an outcome.",
    "sources": [
     {
@@ -859,8 +859,8 @@
     "Mohyla's three delegates also signed the 1642 censure of Lucaris printed at Iasi (lucaris_confessio-and-synodal-censures-lat_1645.txt lines 5605-5612), a second, unnamed contact between the two churches; not drafted."
    ],
    "change_reason": "New. The Iasi revision and the patriarchs' approval had no link.",
-   "fre": 57.0,
-   "fk": 9.1
+   "fre": 62.5,
+   "fk": 8.6
   },
   {
    "id": "the-kyiv-mohyla-orthodox-revival--russian-church-nikon-to-holy-synod",
@@ -869,7 +869,7 @@
    "to": "russian-church-nikon-to-holy-synod",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Thomas Consett, an English chaplain in Russia, wrote in 1729 that the Russians still used Mohyla's Slavonic service book. A Russian church history says the tsar asked the metropolitan of Kyiv for monks from his academy. Stephen Yavorsky, sent to Moscow from Kyiv, later headed the Russian church under Peter the Great.",
+   "note": "Thomas Consett, an English chaplain in Russia, wrote in 1729 that the Russians still used Mohyla's Slavonic service book. A Russian church history says the tsar asked the head of the church in Kyiv for monks from his school. Stephen Yavorsky, sent to Moscow from Kyiv, later led the Russian church under Peter the Great.",
    "outcome_considered": "A service book and trained clergy taken up by the Russian church; no council, law or ruling shown in the listed sources.",
    "sources": [
     {
@@ -915,8 +915,8 @@
     "A printed source (Russian or English) on Kyiv academy graduates in the Russian episcopate, 1650-1750, to test 'supplied Russia with its educated clergy for a century'."
    ],
    "change_reason": "New. The Kyivan influence on the Russian church had no link.",
-   "fre": 51.9,
-   "fk": 10.2
+   "fre": 66.4,
+   "fk": 8.5
   },
   {
    "id": "the-society-of-jesus--the-kyiv-mohyla-orthodox-revival",
@@ -925,7 +925,7 @@
    "to": "the-kyiv-mohyla-orthodox-revival",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Historians describe the Kyiv college as built on the pattern of the Jesuit colleges in Poland. In 1883 Stefan Golubev wrote that its school learning and its rhetoric came straight from Western colleges, the Jesuit ones above all. The college's own rules, which might show this directly, are not in print.",
+   "note": "Historians say the Kyiv college was built on the pattern of the Jesuit colleges in Poland. In 1883 Stefan Golubev wrote that its school learning and its style of speech came straight from Western colleges, the Jesuit ones above all. The college's own rules, which might show this plainly, are not in print.",
    "outcome_considered": "A school model taken up by Orthodox Kyiv, with no act of any authority behind it in the listed sources.",
    "sources": [
     {
@@ -969,8 +969,8 @@
     "Sylvester Kossov, Exegesis (Kyiv, 1635), or the Mohyla college's statutes, for a primary witness to the Jesuit model."
    ],
    "change_reason": "New. 'On the Jesuit model' had no link.",
-   "fre": 61.3,
-   "fk": 8.8
+   "fre": 67.2,
+   "fk": 8.2
   },
   {
    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--russian-church-stoglav-to-nikon",
@@ -979,8 +979,8 @@
    "to": "russian-church-stoglav-to-nikon",
    "type": "in contact with",
    "confidence": "Documented",
-   "note": "Patriarch Jeremias II of Constantinople came to Moscow in 1588. Giles Fletcher, the English envoy, wrote that the metropolitan of Moscow was made patriarch. He thought the Greek had handed over his own see. A later Russian church history says Jeremias himself consecrated Job.",
-   "outcome": "Jeremias II consecrated Metropolitan Job as the first Patriarch of Moscow, and Moscow became a new patriarchate.",
+   "note": "Patriarch Jeremias II of Constantinople came to Moscow in 1588. Giles Fletcher, the English envoy, wrote that the head of the Moscow church was made a patriarch. He thought the Greek had handed over his own see. A later Russian church history says Jeremias himself consecrated Job.",
+   "outcome": "In Moscow, Jeremias II made Job the first patriarch of the Russian church, and Moscow gained a patriarch of its own.",
    "outcome_locus": "Mouravieff lines 6040-6070 (election of Job, Jeremiah performs the consecration); Fletcher lines 10233-10247 (the metropolitan of Moscow made patriarch).",
    "sources": [
     {
@@ -1012,10 +1012,10 @@
     "Fletcher misread the event as a transfer of Constantinople's see; the note says so. Mouravieff (1838) is a Russian official's history, listed as secondary."
    ],
    "change_reason": "New. The creation of the Moscow patriarchate had no link.",
-   "fre": 52.3,
-   "fk": 8.6,
-   "outcome_fre": 30.3,
-   "outcome_fk": 13.3
+   "fre": 62.7,
+   "fk": 7.4,
+   "outcome_fre": 68.7,
+   "outcome_fk": 8.9
   },
   {
    "id": "russian-church-stoglav-to-nikon--the-old-believers",
@@ -1077,7 +1077,7 @@
    "to": "armenian-christianity-new-julfa",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The see of Etchmiadzin kept its catholicoi through the Persian centuries. Zakaria, a deacon of Kanaker who wrote in the 1600s, names a catholicos given the see by the Turkmen ruler Jihan Shah. He later shows Catholicos Philippos building its bell tower. The church historian Ormanian counts more than thirty holders of the title before 1629.",
+   "note": "The see of Etchmiadzin kept its chief bishops, the catholicoi, through the Persian years. Zakaria, a deacon who wrote in the 1600s, names one who got the see from the Turkmen ruler Jihan Shah. He later shows Catholicos Philippos building its bell tower. The church historian Ormanian counts more than thirty men who held the title before 1629.",
    "sources": [
     {
      "kind": "primary",
@@ -1120,8 +1120,8 @@
     "Zakaria's catholicos of the 1460s is dated by Brosset's note (line 705), not by the quoted lines; the note says only 'Jihan Shah'. The years 1441-1517 are a gap between the two movements' dates; continuity of the see across it is not in doubt in either source."
    ],
    "change_reason": "New. The continuation of the Etchmiadzin see had no link.",
-   "fre": 51.4,
-   "fk": 9.5
+   "fre": 64.7,
+   "fk": 7.8
   }
  ],
  "prose_changes": [
@@ -1130,20 +1130,20 @@
    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "field": "relationsSummary",
    "old": "A continuation of Byzantine Orthodoxy after Constantinople fell in 1453, following on from the earlier fall of Tarnovo, when the patriarch Euthymius went into exile and the Balkan despotate's church carried on. The Patriarchate of Peć was restored in 1557. The controversy around Patriarch Cyril Lucaris — his Greek College ties, his Calvinist-sounding Confession of 1629, his death in 1638, and the church councils that later repudiated his teaching — belongs to the church's own story, not just to the man.",
-   "new": "A continuation of Byzantine Orthodoxy after Constantinople fell in 1453. The quarrel over Patriarch Cyril Lucaris belongs to the church's own story, not just to the man. His enemies included Greeks trained at the Greek College in Rome. His Confession of 1629 sounded Calvinist. He died in 1638, and church councils later condemned his teaching.",
-   "reason": "Removed the Tarnovo clause and the Pec sentence (no vendored or repo-cited source; the despotate clause was also unclear). 'His Greek College ties' corrected: the Greek College men were Lucaris's opponents (Smith 1707), not his own school. Split for reading level.",
-   "fre_after": 51.5,
-   "fk_after": 8.7
+   "new": "The Byzantine church carried on after Constantinople fell in 1453. The fight over Patriarch Cyril Lucaris is part of the church's own story, not just the man's. His enemies included Greeks trained at the Greek College in Rome. His Confession of 1629 sounded like Calvin. He died in 1638, and church councils later condemned his teaching.",
+   "reason": "Opening reworded as a sentence. Removed the Tarnovo clause and the Pec sentence (no vendored or repo-cited source; the despotate clause was also unclear). 'His Greek College ties' corrected: the Greek College men were Lucaris's opponents (Smith 1707), not his own school. Split for reading level.",
+   "fre_after": 65.2,
+   "fk_after": 6.8
   },
   {
    "n": 1,
    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "field": "legacy",
    "old": "This is the church that came through. The Ecumenical Patriarchate is still at the Phanar in Istanbul, and the Orthodox churches of Greece, Bulgaria, Serbia and Romania all passed through these centuries. The neomartyrs are commemorated in the Orthodox calendar to this day. The millet arrangement, under which a religious community handled much of its own law and taxation, also shaped the way Balkan national identities later formed around their churches.",
-   "new": "This is the church that came through. The Ecumenical Patriarchate is still at the Phanar in Istanbul. The Orthodox churches of Greece, Bulgaria, Serbia and Romania all passed through these centuries. The neomartyrs are remembered in the Orthodox calendar to this day. Under the millet system, each religious community ran much of its own law and taxes. That may have shaped how Balkan nations later formed around their churches. The sources for these centuries do not show that later step.",
+   "new": "This is the church that came through. The Ecumenical Patriarchate is still at the Phanar in Istanbul. The Orthodox churches of Greece, Bulgaria, Serbia and Romania all passed through these centuries. The neomartyrs are remembered in the Orthodox calendar to this day. Under the millet system, each faith ran much of its own law and taxes. That may have shaped how Balkan nations later grew up around their churches. The sources for these centuries do not show that later step.",
    "reason": "The millet-to-national-churches claim has no vendored or repo-cited source; qualified with the reason.",
-   "fre_after": 58.8,
-   "fk_after": 7.9
+   "fre_after": 65.2,
+   "fk_after": 7.0
   },
   {
    "n": 2,
@@ -1160,30 +1160,30 @@
    "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
    "field": "legacy",
    "old": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church, and it became the model for the Byzantine-rite unions that followed, one branch of the wider family of Eastern Catholic churches — Eastern in worship, in communion with Rome — that now exists around the world. Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere.",
-   "new": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church. Both belong to the wider family of Eastern Catholic churches around the world. They worship in Eastern ways and are in communion with Rome. The Russian Empire suppressed the church in the nineteenth century, and the Soviet Union did so again in 1946. The Ukrainian church survived underground. It came back in 1989 as the largest Eastern Catholic church anywhere.",
+   "new": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church. Both belong to the wider family of Eastern Catholic churches around the world. They worship in Eastern ways and are in communion with Rome. The Russian Empire put down the church in the nineteenth century, and the Soviet Union did so again in 1946. The Ukrainian church lived on in secret. It came back in 1989 as the largest Eastern Catholic church anywhere.",
    "reason": "'Became the model for the Byzantine-rite unions that followed' has no vendored or repo-cited source; removed. Last sentence split for reading level.",
-   "fre_after": 54.8,
-   "fk_after": 8.6
+   "fre_after": 61.0,
+   "fk_after": 7.9
   },
   {
    "n": 4,
    "movement": "the-kyiv-mohyla-orthodox-revival",
    "field": "legacy",
    "old": "The Kyiv Mohyla Academy became the leading school of the Orthodox Slavic world and supplied Russia with its educated clergy for a century. One reason Peter the Great's church reforms have a distinctly Kyivan accent. Mohyla's Confession was accepted well beyond Ukraine and remained a standard Orthodox reference text into modern times. The academy itself, closed under Soviet rule, was refounded in 1991 and is now a leading Ukrainian university.",
-   "new": "The Kyiv Mohyla Academy became the leading school of the Orthodox Slavic world. Moscow drew on its learning. The tsar asked Kyiv for monks from the academy. Later Stephen Yavorsky, sent to Moscow from Kyiv, headed the Russian church under Peter the Great. Mohyla's Confession was accepted well beyond Ukraine. The four Eastern patriarchs approved it in 1643, and it stayed a standard Orthodox reference book into modern times. The academy was closed under Soviet rule. It was founded again in 1991 and is now a leading Ukrainian university.",
+   "new": "The Kyiv Mohyla Academy became the leading school of the Orthodox Slavic world. Moscow drew on its learning. The tsar asked Kyiv for monks from the academy. Later Stephen Yavorsky, sent to Moscow from Kyiv, led the Russian church under Peter the Great. Mohyla's Confession was read far beyond Ukraine. The four Eastern patriarchs approved it in 1643, and it stayed a standard Orthodox guide into modern times. The academy was shut under Soviet rule. It opened again in 1991 and is now one of the best universities in Ukraine.",
    "reason": "'Supplied Russia with its educated clergy for a century' and the 'Kyivan accent' of Peter's reforms outrun the sources (Consett, Mouravieff); replaced with what they show. The fragment 'One reason ...' was not a sentence. Added the 1643 approval that the Confession link documents.",
-   "fre_after": 52.9,
-   "fk_after": 8.6
+   "fre_after": 60.1,
+   "fk_after": 7.6
   },
   {
    "n": 5,
    "movement": "armenian-christianity-new-julfa",
    "field": "relationsSummary",
    "old": "Shah Abbas deports about 300,000 Armenians (1604-05, the Great Migration); New Julfa rises at Isfahan from 1605 - churches within years, and the merchant network that funds the church; Etchmiadzin's catholicoi continue under Safavid rule.",
-   "new": "In 1604-05 Shah Abbas forced the Armenians of Julfa and much of eastern Armenia into Persia. New Julfa grew up across the river from Isfahan. Churches rose there within a few years, and its traders paid for the church. The catholicoi of Etchmiadzin carried on under Safavid rule.",
+   "new": "In 1604-05 Shah Abbas forced the Armenians of Julfa and much of eastern Armenia into Persia. New Julfa grew up across the river from Isfahan. Churches rose there within a few years, and its traders paid for the church. The heads of the church at Etchmiadzin carried on under Safavid rule.",
    "reason": "'About 300,000' and the name 'the Great Migration' have no vendored or repo-cited source (Seth gives about twelve thousand families reaching Isfahan; Zakaria and Chamich give no total). Number removed; fragments made into sentences.",
-   "fre_after": 59.9,
-   "fk_after": 7.8
+   "fre_after": 67.2,
+   "fk_after": 7.0
   }
  ],
  "wants": [
