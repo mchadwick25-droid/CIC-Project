@@ -570,6 +570,10 @@ same standard, as a numbered data release. A "since 2010" note and a rolling cut
 declined. The reader-facing line, for the method page and the era 10 band once the gate rules:
 "The tree's history runs to 2010. Movements since then will be added as they become history."
 
+Mark's own wording of the rule (relayed from the era 1 thread): "anything after is a living
+tradition or new, but not mapped. 2010 back is historical and treated that way except with a
+living tradition marker".
+
 **Change order.** This amends the era 10 freeze of 2026-08-14 (Atlas World Map Decision-Log, "ERA
 10 FROZEN by Mark", and `CiC_Step0_Era10_V1_0.md`): the span, the dated-reading clause on living
 rows, the "present" end dates, and the retention of the most recent rows. The full list is in the

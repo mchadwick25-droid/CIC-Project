@@ -61,6 +61,10 @@ thread).**
    2010. Movements since then will be added as they become history." It lands with the era 10
    census changes after the gate, not in this run.
 
+Mark's own wording of the rule (relayed from the era 1 thread): "anything after is a living
+tradition or new, but not mapped. 2010 back is historical and treated that way except with a
+living tradition marker".
+
 **What this amends in the frozen era 10 record** (this log's 2026-08-14 entry, "ERA 10 FROZEN by
 Mark", and `Design/StepZero-Eras/CiC_Step0_Era10_V1_0.md`):
 
