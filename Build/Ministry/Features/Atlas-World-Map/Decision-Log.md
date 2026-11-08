@@ -24,14 +24,19 @@ becomes "a century of global Christianity", with a bookend at each end. It opens
 Edinburgh 2010 and Lausanne's Cape Town congress, and still leaves about sixteen years of
 historical distance. The rulings as they now stand:
 
-1. **Era 10 is historical, 1906–2010.** The era 9/10 boundary stays at 1906, the Azusa Street
+1. **Era 10 is historical, 1906 to about 2010.** Mark: "yes era 10 ends in 2010 (about) living
+   traditions are alive today. the other eras do not need the 2010 perspective, its there era and
+   today (2026)" (relayed from the era 1 thread). The era band and the dates write the end as
+   "c. 2010", not a hard boundary. The era 9/10 boundary stays at 1906, the Azusa Street
    revival. Mark said "1905" loosely; moving the boundary would shift the frozen end of era 9
    (1815–1906). Nothing in the record makes 1906 wrong.
-2. **The living marker means alive today.** History runs to 2010, and nothing after 2010 is mapped.
-   The living-tradition marker is the tree's one statement about the present, in every era. Mark
+2. **The living marker means alive today (2026), in every era.** Era 10's history runs to about
+   2010, and nothing after it is mapped. Eras 1 to 9 are not referenced to 2010 at all: each covers
+   its own span, and its living marker, like era 10's, means alive today. The marker is the tree's
+   one statement about the present. Mark
    first set "living as of 2000", then "as of 2010", then corrected it in the same sitting, relayed
    from the era 1 thread: "no i think alive today means now, not 16 years ago". The entry's text and
-   dates stay historical to 2010.
+   dates stay historical to about 2010.
 3. **One standard for all ten eras.** Era 10 is identified and sourced by the same Step 0 standard
    used for the census's movements in eras 1 to 9: Section A, Section B's five criteria, the tiers,
    and the five `formation_confidence` grades. The per-world construction standard (Doc_01 to

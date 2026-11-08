@@ -549,10 +549,14 @@ thread from the era 1 thread: era 10 becomes a century of global Christianity, f
 (1906) and Edinburgh 1910 to the 2010 centenary meetings, Edinburgh 2010 and Lausanne's Cape Town
 congress.
 
-1. Era 10 runs 1906–2010. The boundary with era 9 stays at 1906 (Azusa Street), so era 9's frozen
+1. Era 10 runs 1906 to about 2010, written "c. 2010" in the era band and dates. Mark: "yes era 10
+   ends in 2010 (about) living traditions are alive today. the other eras do not need the 2010
+   perspective, its there era and today (2026)" (relayed). The boundary with era 9 stays at 1906
+   (Azusa Street), so era 9's frozen
    end does not move.
-2. History runs to 2010, and nothing after 2010 is mapped. The living-tradition marker means alive
-   today, in every era: the tree's one statement about the present. Mark set "as of 2000", then "as
+2. Era 10's history runs to about 2010, and nothing after it is mapped. Eras 1 to 9 are not tied to
+   2010: each covers its own span. In every era the living-tradition marker means alive today
+   (2026), the tree's one statement about the present. Mark set "as of 2000", then "as
    of 2010", then corrected it in the same sitting (relayed): "no i think alive today means now, not
    16 years ago".
 3. Era 10 is identified and sourced by the same Step 0 standard as eras 1 to 9. The per-world
