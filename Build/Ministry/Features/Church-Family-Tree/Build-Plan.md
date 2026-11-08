@@ -81,8 +81,8 @@ applied to every shared file, not only the census.
 | P2-L6 | Links, era 6; data release 11 | none | merged (#1544) |
 | P2-L7 | Links, era 7; data release 12 | none | merged (#1546) |
 | P2-L8 | Links, era 8; data release 13 | none | merged (#1547) |
-| P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling) | none (3-round cap) | in review; data release 15 or 16, whichever is next |
-| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14 | none | part 1 in review; part 2 reviewed, to follow as data release 15 |
+| P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling); data release 16 | none (3-round cap) | in review |
+| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14, part 2 (the other lanes) data release 15 | none | part 1 merged (#1545); part 2 in review |
 | P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |

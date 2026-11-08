@@ -581,18 +581,64 @@ it, never by deleting it.
     part 1 merged, so it stands and era 9's draft was set aside. Era 9's draft was Documented: the
     1862 reprint of the Methodist Conference minutes says the yearly minutes had come out in an
     unbroken series from 1765 (era 9 part 1 drafting record). A possible upgrade, for P2-L11.
-102. **"No Armenian Apostolic movement for 1650-1815" and "The Armenian line after the new
+102. **The Philippine Independent Church has no entry (2026-11-08).** It broke from Rome in 1902 and
+    still exists, but it sits inside `philippine-catholicism-gomburza-to-aglipay`. The era 9 pass
+    drew no "broke with" link, since a body cannot break with an entry that contains it. Whether it
+    needs its own entry is a portfolio question for Mark.
+103. **Coptic and Ethiopian map gaps (2026-11-08).** No Coptic movement sits between
+    `coptic-christianity-fatimid-to-mamluk` (to about 1300) and `coptic-revival-under-cyril-iv`
+    (from 1854); the era 9 "continued as" link spans the gap at Dominant Modern Reconstruction, on
+    modern lists of patriarchs. No Ethiopian movement sits between 1650 and 1855; not bridged.
+    Portfolio layout, for Mark.
+104. **Optina's continuesAs (2026-11-08).** `the-optina-elders-and-russian-ascetic-renewal` points
+    its `continuesAs` at the whole Russian Church under Soviet rule, while
+    `russian-church-synodal-century` has none of its own. The era 9 link follows the field at
+    Inferential-Thin. A layout question for the census owner.
+105. **Optina's émigré claim is stated as fact (2026-11-08).** The Optina summary and legacy say its
+    spirituality "carried forward" into émigré theology in Paris; the link drawn for it is
+    Inferential-Thin, and era 8 cut the same claim from the Paisian revival for want of a source
+    ("Held for later link passes, from era 8", 2026-11-08). The era 9 part 2 cap was used before
+    this was weighed. For P2-L11. The Dostoevsky visit of 1878 rests on repo-cited secondaries
+    (Dunlop 1972, Stanton 1995) and stands.
+106. **A floor question on the Universalists (2026-11-08).** The floor note and status line of
+    `american-unitarianism-universalism-consolidations` call the Universalists "arguably
+    floor-clean" and say much of it "would sit comfortably inside Nicene bounds". The vendored 1903
+    Universalist centennial volume calls them Unitarian in their doctrine of God. The status line
+    also prints an internal atlas code. For Mark.
+107. **Well-known facts with no vendored source, era 9 part 2 (2026-11-08).** Added to the method
+    question in "Well-known facts with no vendored source" (2026-11-07): the 1850 English hierarchy,
+    the US immigrant church, Rerum Novarum, Mexico's Reform laws, Rome's slow recognition of the
+    Latin American republics.
+108. **Page recordings read old descriptions, era 9 part 2 (2026-11-08).** As in "Page recordings
+    read the old descriptions" (2026-11-08): six recorded pages now play a description this pass
+    rewrote: `the-optina-elders-and-russian-ascetic-renewal`, `jehovah-s-witnesses-bible-students`,
+    `orthodoxy-after-1821-balkan-autocephalies`, `american-unitarianism-universalism-consolidations`,
+    `ruthenian-greek-catholic-polotsk-to-galicia`, `ethiopian-christianity-tewodros-to-menelik`. A
+    paid voice run, for Mark.
+109. **Text owners' items from era 9 part 2 (2026-11-08).** Not changed in a links pass:
+    - `alaskan-mission-herman-veniaminov` summary: "Tlingit alphabets" may overstate; the
+      description and why name only the Aleut alphabet.
+    - `oneida-community` dates the dissolution to 1880, 1881 or both in different fields.
+    - Sentence fragments: `catholic-church-long-nineteenth-century`, `old-catholic-churches-union-of-utrecht`,
+      `oneida-community` and `christadelphians` descriptions; the Unitarian-Universalist legacy.
+    - The placeholder "-" as relations summary: `latter-day-saints-lds`,
+      `jehovah-s-witnesses-bible-students`, `christadelphians`, `christian-science`,
+      `oneida-community`, `spiritualism-new-thought`.
+110. **Possible links that no text names, era 9 part 2 (2026-11-08).** Not drafted: the Urmia
+    Assyrians' 1896 submission to the Russian church (Wigram 1929); John Thomas's years in the
+    Stone-Campbell movement; Russell and the Adventists; Eddy and Quimby.
+111. **"No Armenian Apostolic movement for 1650-1815" and "The Armenian line after the new
     movement" are closed (2026-11-08).** Mark ruled to add the movement. `armenian-apostolic-church-era-8`
     (VII.24a) now carries the Apostolic line from New Julfa to the Zartonk, and era 7's New Julfa
     link to the Mekhitarist movement is retired with a replacement. Audit:
     `Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/`.
-103. **The Armenian Apostolic movement's library bucket (2026-11-08).** `cic/corpus-map/` has no
+112. **The Armenian Apostolic movement's library bucket (2026-11-08).** `cic/corpus-map/` has no
     `armenian-apostolic-church-era-8.yaml`. The Apostolic works now under
     `armenian-christianity-era-8` (Ormanian, Chamich's Part VII, Zakaria and Abraham of Crete,
     Rycaut) belong with it, through their `_staging` files. Abraham of Crete's row also says he
     attended Nadir Shah's accession; in his own chapters 43-44 he left before it and heard of it
     afterward. For the Library thread.
-104. **The new movement and the map's own list (2026-11-08).** Like the eight movements added since
+113. **The new movement and the map's own list (2026-11-08).** Like the eight movements added since
     the map was built, `armenian-apostolic-church-era-8` has a tree page but no record in the map's
     embedded movement list, which `atlas-sync` only updates and never adds to. For the map's owner.
 

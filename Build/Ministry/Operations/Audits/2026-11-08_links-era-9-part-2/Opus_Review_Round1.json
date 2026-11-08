@@ -1,0 +1,254 @@
+{
+ "round": 1,
+ "kind": "full",
+ "date": "2026-11-08",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 1,
+  "substantial": 8,
+  "minor": 10
+ },
+ "findings": [
+  {
+   "n": 1,
+   "severity": "blocking",
+   "target": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism (note, outcome, major.evidence)",
+   "issue": "False claim. The note says the 1862 concordat 'made the Catholic faith the state religion' and the outcome says it 'made Catholicism the faith of the state'. Article 1 says the opposite: 'esse perget', Catholicism 'shall continue to be' the religion of the republic. The concordat confirmed an existing status. The major evidence (art. 1, lines 25584-25586) therefore shows no rule changed.",
+   "evidence": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt 25584: 'Religio catholica apostolica Romana esse perget religio reipublicae Aequatoris'. Article 3 (lines 25590-25599) is the real change: all teaching in universities, colleges and schools must conform to Catholic doctrine, bishops alone choose the textbooks for religion and morals, and bishops may ban books, which the government must keep out.",
+   "fix": "Rewrite the note and outcome to say the concordat kept Catholicism as the state religion and gave the bishops control over religious schoolbooks and the power to ban books. Move major.evidence to article 3 (quote verbatim from lines 25590-25599). The major call can stand on article 3 (rule-changed)."
+  },
+  {
+   "n": 2,
+   "severity": "substantial",
+   "target": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism (note, second sentence)",
+   "issue": "The note uses the 1895 preface's line that the Holy See 'ha ordenado' Guadalupe as chief patron as evidence of nineteenth-century Romanization. The preface does not date that act, so it cannot show a Roman act in this period. The same preface does record one: the coming coronation of the image 'a nombre del Sumo Pontífice y por su mandato'.",
+   "evidence": "florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt 220-222 (undated patronage) and 252-253 (coronation 'que se hará á nombre del Sumo Pontífice y por su mandato').",
+   "fix": "Cite and describe the 1895 coronation by papal mandate (lines 252-253) instead of the undated patronage decree, or say plainly that the preface does not date the decree."
+  },
+  {
+   "n": 3,
+   "severity": "substantial",
+   "target": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay (broke with)",
+   "issue": "Wrong type for these two movements. The breaking body, the Iglesia Filipina Independiente, has no entry of its own. It sits inside the Philippine Catholic entry, most of which stayed Catholic. On the map, 'broke with' (major by type) says the Philippine church as a whole split from Rome. The one Catholic-side act in the note, the 1899 excommunication, came from the archbishop of Manila, who belongs to the Philippine movement itself. So the rupture runs inside the entry, not between the two entries. The drafter flags this too.",
+   "evidence": "Philippine legacy: 'The Catholic Church it broke from remained the country's majority faith'; longDescription: 'a substantial minority of Filipino Catholics followed it'. The note: 'In 1899 the archbishop of Manila cut the priest Gregorio Aglipay off from the church.'",
+   "fix": "Remove the link. Give the three dispositions that point to it a stated reason: the breaking church has no entry, and the rupture is internal to this one. Add an escalation for Mark on whether the Iglesia Filipina Independiente should get an entry of its own."
+  },
+  {
+   "n": 4,
+   "severity": "substantial",
+   "target": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv (continued as, Widely Accepted)",
+   "issue": "This 'continued as' spans about 550 years (1300 to 1854) with no movement between. The earlier text names no later entry ('it runs unbroken through this period'). The later text named only a map 'lane' until this pass's own rewrite. The drafter has escalated whether the gap should be bridged at all, a portfolio-level decision, yet drafted the link as if that were settled. The parallel Ethiopian gap is treated the other way. The grade also rests on Budge's 1928 table of patriarchs, an editor's compilation, not a witness. The drafter concedes it may be only DMR.",
+   "evidence": "Budge 1928 table, ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt 2827-2857, a modern numbered list. Escalation K, 'Map gaps'. Precedent: long-gap 'continued as' links exist on main (Scandinavian 423 years, Inferential-Thin; St Thomas 246 years, Widely Accepted), so the type alone is not ruled out.",
+   "fix": "Hold the link until Mark rules on the K escalation, and treat the Coptic and Ethiopian gaps the same way. If he keeps it, grade it Dominant Modern Reconstruction (Budge as a secondary with Meinardus 1999) unless a vendored witness to the see's continuity is cited."
+  },
+  {
+   "n": 5,
+   "severity": "substantial",
+   "target": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism (continued as, Documented)",
+   "issue": "Over-graded. The link claims the colonial devotional church of all Spanish America carried on as the nineteenth-century church. The only primary is one Guadalajara canon's 1895 reprint of a seventeenth-century Guadalupe book, saying the devotion is growing. That shows one Mexican devotion continuing. It does not show the continuity of the continent-wide community the link claims. The drafter flags this.",
+   "evidence": "florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt 96-100, 218-220, 258-262.",
+   "fix": "Regrade to Widely Accepted, with a repo-cited secondary on the colonial-to-republican continuity of popular Catholicism (from either entry's own source list). If none exists, regrade to Inferential-Thin and say in the note that the evidence covers one Mexican devotion."
+  },
+  {
+   "n": 6,
+   "severity": "substantial",
+   "target": "the-optina-elders-and-russian-ascetic-renewal continuesAs (disposition 8)",
+   "issue": "Two-way gap, handled inconsistently. The Optina entry's continuesAs field names the-russian-new-martyrs-and-the-catacomb-church. That era-10 entry's own summary says 'the Optina tradition carried through catastrophe', and the Optina legacy names the 1918 closure. Era 10 has not run, so this pair is part 2's. The record leaves it 'for era 10' because 'this text does not name that movement'. Yet for the Coptic, Catholic and Ethiopian entries, this same pass treated the continuesAs field as naming the link and drafted one.",
+   "evidence": "Census: Optina continuesAs = the-russian-new-martyrs-and-the-catacomb-church. New martyrs relationsSummary: '...the Optina tradition carried through catastrophe'. Disposition 8 reason.",
+   "fix": "Draft the link at the grade the evidence supports. If no vendored or repo-cited source carries Optina past 1917, the grade is Inferential-Thin. Or give a reason that also holds for the three continuesAs links this pass did draft."
+  },
+  {
+   "n": 7,
+   "severity": "substantial",
+   "target": "church-of-the-east-chaldean-consolidation and catholic-church-long-nineteenth-century (disposition 64)",
+   "issue": "Two-way gap. Both Chaldean texts name Rome confirming John Hormizd as patriarch in 1830. Elsewhere this pass matched 'Rome' to the long-nineteenth-century Catholic entry (Haiti, Latin America). Here it says 'Rome is not a separate movement link here', with no reason why this case differs. Badger's vendored text prints Hormizd's own account of his recognition by the pope and the pallium sent later.",
+   "evidence": "Chaldean relationsSummary and longDescription ('In 1830 Rome confirmed John Hormizd...'). Disposition 64 cites Badger 1852 v1, lines 8646-8647 and 8747-8752.",
+   "fix": "Draft a link (likely 'in contact with', catholic-church-long-nineteenth-century first alphabetically) on Badger. Judge the major call: a papal confirmation of a patriarch may pass as rule-changed if the cited lines show the act. Or state a reason consistent with the Haiti and Latin America matches."
+  },
+  {
+   "n": 8,
+   "severity": "substantial",
+   "target": "east-african-christianity-uganda-martyrs (dispositions 194, 197)",
+   "issue": "Two-way gap with a wrong reason. The East African texts name Anglican (Church Missionary Society) missionaries reaching Buganda in 1877 and the French Catholic White Fathers in 1879, whose converts became this church. These are missions of two census movements: the Victorian Church of England ('a mission network abroad') and the long-nineteenth-century Catholic Church ('the growth of missionary Catholicism'). The record calls them 'mission societies, not movements' and says the Catholic entry 'does not name Africa'. That second point is not the ownership test: the East African text alone names the relationship, so part 2 drafts it. This pass matched the French mission church at Nagasaki to the same Catholic entry.",
+   "evidence": "East African relationsSummary: 'The Church Missionary Society and the Catholic White Fathers reached Buganda in 1877 and 1879. Anglican and Catholic pages together became the Uganda Martyrs'. Victorian CoE and Catholic long-19th texts as quoted above.",
+   "fix": "Draft two 'gave rise to' links: victorian-church-of-england to east-african-christianity-uganda-martyrs, and catholic-church-long-nineteenth-century to east-african-christianity-uganda-martyrs. Grade each at what repo-cited sources support (Ward and Wild-Wood and Peterson are already in the record; check the entry's own source list). Or give a correct reason."
+  },
+  {
+   "n": 9,
+   "severity": "substantial",
+   "target": "the-kollyvades-and-greek-renewal legacy (disposition 17)",
+   "issue": "Two-way gap with a wrong reason. The legacy names Theophan the Recluse putting the Philokalia into Russian. Theophan was a bishop of the nineteenth-century Russian Church, a part-2 movement whose text does not name this. So the Kollyvades' anthology taken up by the Russian Church is a named 'influenced' relationship, and it is this pass's. The disposition dismisses it as 'A person'.",
+   "evidence": "Kollyvades legacy: 'Paisius Velichkovsky translated it into Slavonic in 1793, Theophan the Recluse into Russian later in the century'. The disposition's own note: Theophan's Russian Dobrotolubie (1877-90) is listed in the Paisius source dossier.",
+   "fix": "Draft the-kollyvades-and-greek-renewal 'influenced' russian-church-synodal-century at the grade the evidence supports (Inferential-Thin if only the dossier listing is in hand; list Theophan's Dobrotolubie in wants). Or give a reason that holds."
+  },
+  {
+   "n": 10,
+   "severity": "minor",
+   "target": "notes of the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school, alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave, east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "issue": "Three notes talk about the project's own holdings, which the note rules bar: 'the proof we have is thin'; 'We hold a record of the diocese's founding, but nothing on its later moves'; 'No text from either side is held here.'",
+   "evidence": "The three notes as drafted.",
+   "fix": "State the evidence, not the holdings: 'Beyond that book, the evidence is thin.' / 'An 1842 record shows the diocese being founded. Its later moves to San Francisco and New York are not shown in the sources cited.' / 'The tie rests on modern histories.'"
+  },
+  {
+   "n": 11,
+   "severity": "minor",
+   "target": "13 notes (e.g. desert-monasticism--the-kollyvades..., russian-church-synodal-century--the-old-believers, church-of-the-east-chaldean-consolidation--the-sayfo..., the coptic and ethiopian links)",
+   "issue": "The note rule is one to three sentences. About thirteen notes run to four sentences.",
+   "evidence": "Sentence counts of the notes in Drafting_Record.json.",
+   "fix": "Merge or cut to three sentences, keeping each within about 25 words."
+  },
+  {
+   "n": 12,
+   "severity": "minor",
+   "target": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies (note)",
+   "issue": "'Agreed a statement' is British usage; the project writes American English.",
+   "evidence": "Note, second sentence.",
+   "fix": "'they and the Old Catholics agreed on a statement'."
+  },
+  {
+   "n": 13,
+   "severity": "minor",
+   "target": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia (outcome)",
+   "issue": "'Of the west' could be read as Western Europe, and 'signed off on it' is casual for the register.",
+   "evidence": "Source: 'Greek Uniates inhabiting the western districts of Russia' (lines 20225-20226); 'confirmed by the supreme resolution of His Majesty'.",
+   "fix": "'...took the Greek Catholic bishops, priests and people of Russia's western lands into the Russian Church. The emperor confirmed it.'"
+  },
+  {
+   "n": 14,
+   "severity": "minor",
+   "target": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity (note)",
+   "issue": "'One book shows the thread' overstates. The Kebra Nagast story shows the crown's continuity from Tewodros to Menelik, not the church's. The church's continuity rests on Binns.",
+   "evidence": "kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt 1128-1221 speaks of kings, envoys and the manuscript.",
+   "fix": "Say the manuscript's story shows the line of Christian kings running on, and keep the church claim to what Binns supports."
+  },
+  {
+   "n": 15,
+   "severity": "minor",
+   "target": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council (second quote)",
+   "issue": "The quote ends mid-word ('soci-'), against the rule that quotes end at a clause boundary.",
+   "evidence": "anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt 40413-40415.",
+   "fix": "End the quote at 'expounded Catholic teaching', or extend the lines to the end of the clause."
+  },
+  {
+   "n": 16,
+   "severity": "minor",
+   "target": "the-optina-elders-and-russian-ascetic-renewal legacy",
+   "issue": "The prose changes remove 'into Russian' from the longDescription and why as unsupported. The legacy keeps the same claim ('The Philokalic spirituality it made available in Russian'), so the entry now contradicts itself.",
+   "evidence": "Prose changes 0 and 1; Optina legacy.",
+   "fix": "Add a prose change: 'made available to Russian readers'."
+  },
+  {
+   "n": 17,
+   "severity": "minor",
+   "target": "prose change 19 (american-unitarianism-universalism-consolidations longDescription)",
+   "issue": "'Many of them complained of the name' says more than the source. The 1815 reprint says complaints were made that the Boston clergy had been 'slanderously reported' to be Unitarians. It does not say who made them.",
+   "evidence": "belsham_american-unitarianism-brief-history_1815.txt 171-175.",
+   "fix": "'Some called the label a slander.'"
+  },
+  {
+   "n": 18,
+   "severity": "minor",
+   "target": "prose change 14 (malagasy-christianity legacy)",
+   "issue": "'Their standard proof' is stronger than the old text's 'a standard illustration', and no source supports the stronger word.",
+   "evidence": "Old and new legacy text.",
+   "fix": "'It became their standard example of a church that held together with no clergy and no protection at all.'"
+  },
+  {
+   "n": 19,
+   "severity": "minor",
+   "target": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik (sources)",
+   "issue": "One source names a vendored file and its lines inside the 'work' string, with file and lines left null. That breaks the source shape and hides it from the quote check.",
+   "evidence": "Secondary 'E. A. Wallis Budge, introduction to The Lives of Maba' Seyon and Gabra Krestos (1898), on the abun (vendored: ..., lines 534-536)'.",
+   "fix": "Give it file, lines and a verbatim quote (as with the Conybeare source on the Old Believers link), or drop the file reference from the work string."
+  }
+ ],
+ "two_way_gaps": [
+  "the-optina-elders-and-russian-ascetic-renewal continuesAs the-russian-new-martyrs-and-the-catacomb-church: named by the continuesAs field and by the era-10 text; no link (finding 6).",
+  "catholic-church-long-nineteenth-century / church-of-the-east-chaldean-consolidation: Rome's 1830 confirmation of John Hormizd, named in the Chaldean relationsSummary and longDescription; no link (finding 7).",
+  "victorian-church-of-england -> east-african-christianity-uganda-martyrs: the 1877 Anglican (CMS) mission, named in the East African relationsSummary and longDescription; no link (finding 8).",
+  "catholic-church-long-nineteenth-century -> east-african-christianity-uganda-martyrs: the 1879 White Fathers mission, named in the same fields; no link (finding 8).",
+  "the-kollyvades-and-greek-renewal -> russian-church-synodal-century: Theophan's Russian Philokalia, named in the Kollyvades legacy; no link (finding 9).",
+  "If finding 3 is applied: the Philippine legacy's 'The Catholic Church it broke from' needs a stated reason in place of the removed link."
+ ],
+ "major_links_check": [
+  {
+   "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "A compilation taking up older writings; no institutional act."
+  },
+  {
+   "id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "drafted_major": true,
+   "your_call": true,
+   "reason": "The Synod decided to receive the whole Greek Uniate church into the Russian Church, and the emperor confirmed it (Blackmore 1842, 20203-20226). A settlement changed by authority."
+  },
+  {
+   "id": "russian-church-synodal-century--the-old-believers",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "Conybeare's Pobedonostsev law is hedged ('It would seem') and is a state measure on family status; Nicholas I's suppression (line 5794) is the tsar's act. Borderline, but the minor call is defensible."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "Reception of a spirituality abroad; no act."
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation--victorian-church-of-england",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "A mission sent on request; no council, split or rule change."
+  },
+  {
+   "id": "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "Reunion conference theses bound no church."
+  },
+  {
+   "id": "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "Reunion conference; no act."
+  },
+  {
+   "id": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "The 1875 Filioque agreement still awaited the churches' sanction (Schaff 44448-44449)."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+   "drafted_major": true,
+   "your_call": true,
+   "reason": "Major, but on article 3 (bishops' control of religious schoolbooks and power to ban books, lines 25590-25599), not on article 1, which only continues Catholicism as state religion (finding 1)."
+  },
+  {
+   "id": "china-mission-born-christianity--korean-catholic-origins",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "Books read by a later community."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "A meeting; no act in the cited sources."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "drafted_major": false,
+   "your_call": false,
+   "reason": "A standing tie shown by an inscription. The abun's appointment by the patriarch could be an act, but no source on the link shows a dated appointment."
+  }
+ ],
+ "fabrication_found": false,
+ "checked_and_upheld": [
+  "Every quote passes the verbatim check (check_drafts.py: 0 failures). Spot re-reads at Mouravieff 210-232, 19630-19660, 19780-19795 and 20190-20232; Conybeare 5790-5822; the Optina 1847 preface 270-340; Ormanian 6905-6925 and 9015-9035; Wigram 9750-9770 and its header (formerly head of the Archbishop's mission); Budge 1928 2770-2860; Kebra Nagast 1125-1225; Mirbt 25570-25600 and 27790-27812; Walsh v1 14450-14468 and 15058-15068; Channing 400-412; Belsham 160-185; Winchester Centennial 1400-1416.",
+  "All secondary works cited are already cited elsewhere in the repo (grep: Meinardus, Guirguis and van Doorn-Harder, Suriel, Binns, Mullins, Nakamura, Baker and Rausch, Grayson, Turnbull, Whelan, Achutegui and Bernad, Schumacher, Greene, Nicholls, Serbin, Howard, Moss, Bociurkiw, Kevorkian, Gaunt, Ward and Wild-Wood, Peterson, Chetverikov, Bingaman and Nassif).",
+  "Arrow order is alphabetical on every symmetric link. No link drafts a relationship that an era 6-8 text or a part-1 text names (the Victorian Church of England text names neither Bonn nor the Assyrian mission; the Ming China entry does not name Korea; the colonial Latin American entry does not name the nineteenth-century church).",
+  "Prose changes 0-9, 11-13 and 15-16 hold: the 1821 order correction (Walsh), the Channing 'name' correction (the 1819 sermon never uses 'Unitarian'; Belsham 1815 does), the Universalist creed correction (Winchester Centennial 1410-1413), the Tewodros and Yohannes corrections, and the fragment repairs. Every inventory match has a disposition."
+ ]
+}
