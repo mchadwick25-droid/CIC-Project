@@ -259,6 +259,8 @@ it, never by deleting it.
     in both. The Cathar link sits on `bogomils`, whose text names it three times. Mark's call.
     - 2026-11-08: the Cathar link is now on `balkan-bogomil-continuation` only; the one on
       `bogomils` is retired (Decision-Log, "Whole-set rulings"). The entries' overlap stays open.
+    - 2026-11-08: closed. Split by date: `bogomils` covers c. 950–1054 and hands the rest to
+      `balkan-bogomil-continuation` (Decision-Log, "The two Bogomil entries are split by date"; data release 21).
 45. **No Melkite entry between 1009 and 1724 (2026-11-08).** The Melkite legacy says the communion
     continues, and the only later entry is the 1724 split, so its "gave rise to" link spans seven
     centuries (the note says so). Mark's call.
@@ -711,25 +713,28 @@ it, never by deleting it.
     study is cited in the repo for their reading (Decision-Log, "Dominant links on two or three old
     accounts"). Any of them can go back to Dominant Modern Reconstruction once its study is read and
     cited. The list, with the study each needs: `Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md`.
-123. **IX.16 still describes Iglesia ni Cristo after the split (2026-11-08).** Data release 21 adds
+123. **The Bogomils page needs re-voicing (2026-11-08).** Its description changed in data release 21,
+    so its recording no longer matches and the Listen button is hidden. It joins the next paid
+    re-voicing batch: sample first, approved by ear, every setting passed and printed.
+124. **IX.16 still describes Iglesia ni Cristo after the split (2026-11-08).** Data release 21 adds
     `iglesia-ni-cristo` (IX.51) under G-14, but the era 10 edits carry no IX.16 text that takes
     Iglesia ni Cristo out. Its name, shortName ("Iglesia ni Cristo"), teaser, why, longDescription,
     floorNote, legacy, voices and first source still name it, and its statusDescription still calls
     the split "a real, open question, not yet acted on". The three-body text is drafted and reviewed
     in P2-E10b. IX.16's id stays as published.
-124. **Iglesia ni Cristo row: fields not in the draft (2026-11-08).** D-E1 drafted no `placeLabel`,
+125. **Iglesia ni Cristo row: fields not in the draft (2026-11-08).** D-E1 drafted no `placeLabel`,
     `modernCountries`, `regions`, `sources`, `longDescription`, `teaser`, `voices`, `legacy` or
     `documentedStories`. Release 21 takes each from IX.16's own copy: its Philippines place and
     country, "Greater Asia", its Iglesia ni Cristo source and "CHC vol. 9", its two Iglesia ni Cristo
     voices, D-E1's `why` as the description, its legacy sentences on the successions and counts, and
     a teaser cut from its teaser's words. The row still needs one link toward Philippine Catholicism
     (VIII.39), for P2-L10. For review in P2-E10b.
-125. **IX.31's old page and its place on the map (2026-11-08).** IX.31 is retired with no redirect
+126. **IX.31's old page and its place on the map (2026-11-08).** IX.31 is retired with no redirect
     (G-8 (a)). The page generator does not remove pages, so `cft-website/tree/deconstruction-and-ex-vangelical-communities.html`
     still serves the old entry, and the map's embedded list still draws it (`atlas-sync` never
     removes). What the old address serves (the old page, a short "retired" page, or nothing) is
     for Mark.
-126. **Recordings made stale by data release 21 (2026-11-08).** No paid run was made. Tree pages:
+127. **Recordings made stale by the era 10 census pass (data release 22) (2026-11-08).** No paid run was made. Tree pages:
     36 era 10 recordings no longer match their text, so their pages and map cards hide the Listen
     player; Iglesia ni Cristo has none; IX.31's recording is left with no movement. Documented
     stories: 25 more recordings no longer match their text. Two now sit under the wrong story,
@@ -738,31 +743,31 @@ it, never by deleting it.
     removed "The Apostle Pleads Guilty", and New Calvinism's first ("The Sunday After") the
     removed "The Year Mars Hill Came Apart". These two must be dealt with before the release
     reaches the live site. Re-voicing is a paid batch: sample first, Mark's approval by ear.
-127. **The `kind` field on the era 10 rows, IX.57 included (2026-11-08).** P2-E10b carries the
+128. **The `kind` field on the era 10 rows, IX.57 included (2026-11-08).** P2-E10b carries the
     question of whether the field fits the new rows, in `_meta.kind` of the proposal. P2-E10c
     rules on the field. Owner: the P2-E10c thread.
-128. **Pueblo and the arena in IX.58 (2026-11-08).** "From Boulder" was dropped as untraced. Pueblo and
+129. **Pueblo and the arena in IX.58 (2026-11-08).** "From Boulder" was dropped as untraced. Pueblo and
     the arena are traced to E2's article only as the Movements review (Round 1, M-12) read it.
     The item text for E2 in `CiC_Step0_Era10_Movements_V1_0.md` should record them from the
     article itself. Owner: the Movements record's thread.
-129. **IX.53, faith missions, held (2026-11-08).** The row is held out of data release 22: no
+130. **IX.53, faith missions, held (2026-11-08).** The row is held out of data release 22: no
     carrier's statement of faith was found, so Section A cannot be assessed. The line named in
     G-56(a), Wycliffe in IX.53, is held with it. Two items are wanted: a carrier's dated
     statement of faith, and the Round 1 fixes (M5 E4) carried in the held note. The hold waits on
     Mark: hold the row, or build it under G-57(a) with a "not yet assessed" floorNote
     (Round 2, S2-2). If built, `totalEntries` is 308 and Pre-Survey Candidate 226.
-130. **A dated copy of the Vineyard statement of faith (2026-11-08).** The IX.57 floorNote dates
+131. **A dated copy of the Vineyard statement of faith (2026-11-08).** The IX.57 floorNote dates
     the board's adoption to November 1994 from copies published by others (bible.ca,
     religionfacts). The Vineyard publisher's own dated copy is wanted; the 2002 and 2009 captures
     are the leads.
-131. **An earlier date for the IX.54 statement of faith (2026-11-08).** The only copy seen is
+132. **An earlier date for the IX.54 statement of faith (2026-11-08).** The only copy seen is
     Citygate Network's live page, undated, earliest capture 2025. The 2012 capture of
     agrm.org/agrm/Statement_of_Faith.asp, contents unseen, is the lead for an earlier date.
-132. **The wrong-story playback in entry 126 is closed by the map's fingerprint check (2026-11-08).**
+133. **The wrong-story playback in entry 127 is closed by the map's fingerprint check (2026-11-08).**
     The map now plays a documented-story recording only when the SHA-256 fingerprint of the story
     text it shows matches the manifest's `hash`, using the same fingerprint as the generator
     (commit "Map: play a documented-story recording only when its fingerprint matches the story
-    text shown"). The two shifted recordings in entry 126 are hidden, not misplayed. Still open:
+    text shown"). The two shifted recordings in entry 127 are hidden, not misplayed. Still open:
     264 story recordings and 36 tree recordings no longer match their text and stay hidden until
     re-voiced. About 242 of the story recordings were already mismatched before this work, and the
     live site, which lacks this check, may still be playing them under changed text until this

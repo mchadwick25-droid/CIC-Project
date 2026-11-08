@@ -620,6 +620,17 @@ is cited in full with its verification state, and [S] never counts as verified. 
 10 re-run brief, which allowed only vendored texts and works the repo already cited. Full entry:
 Atlas World Map Decision-Log, same date.
 
+## 2026-11-08 — The two Bogomil entries are split by date
+
+**Decided (Mark: "a").** `bogomils` (era 4) covers the movement from about 950 to 1054: its
+Bulgarian founder, Cosmas's sermon, the spread into Byzantium. It hands its later story to
+`balkan-bogomil-continuation` (era 5, 1054-1300): Basil's burning, Zigabenos, Tarnovo 1211 and
+the Cathar claim. Its date label becomes "c. 950–1054", and its summary, description, why, legacy
+and voices are trimmed to match. No ID, page or link changes. Options shown: split by date
+(recommended), merge into one entry for 950-1300, leave both. Settles "The Bogomil entries
+overlap" (Open-Gaps, 2026-11-08). Data release 21. The page's recording no longer matches its
+description, so its Listen button is hidden until the next re-voicing batch, which needs its own
+sample approval.
 ## 2026-11-08 — Era 10 gate: every recommendation taken
 
 **Decided (Mark: "take every recommendation").** All 79 gate questions are ruled by their stated

@@ -1,4 +1,10 @@
-# Era 10 census pass (P2-E10a): data release 21 — 2026-11-08
+# Era 10 census pass (P2-E10a and P2-E10b): data release 22 — 2026-11-08
+
+**Release numbers.** On the branch this work was numbered release 21 (P2-E10a) and then release 22
+(P2-E10b). Neither was published. Main published release 21 first (the Bogomil split), so both
+passes ship together as data release 22. "Release 21" below and in the P2-E10b proposal means the
+branch's own working state, not the published release 21. Open-Gaps entries from this work were
+renumbered 124 to 133 on merge, because main's Bogomils entry took 123.
 
 Ruling: Mark, era 10 gate, "take every recommendation" (`Build/Ministry/Features/Atlas-World-Map/Decision-Log.md`, "ERA 10 GATE"). G-15 (IX.50) is not ruled; nothing was added for it.
 
@@ -31,7 +37,7 @@ In `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08): IX.16
 - **New rows.** IX.52 (The Anglican Communion), IX.54 (rescue missions), IX.55 (the Christian homeschool movement), IX.56 (the liturgical movement), IX.57 (the Third Wave), IX.58 (Promise Keepers).
 - **Register edits.** 46 edits on existing rows, among them the whole-field rewrites of IX.16 (now three bodies) and the named lines on IX.24, IX.30, IX.33 and IX.45.
 - **Counts.** `meta.totalEntries` 307; Pre-Survey Candidate 225. `meta.release` is 22, dated 2026-11-08.
-- **Held.** IX.53 (faith missions, with the Wycliffe line of G-56(a)) is not built. Round 2's S2-2 waits on Mark. Open-Gaps 127 to 131 track it and the other carried items.
+- **Held.** IX.53 (faith missions, with the Wycliffe line of G-56(a)) is not built. Round 2's S2-2 waits on Mark. Open-Gaps 129 to 132 track it and the other carried items.
 
 ## Checks
 

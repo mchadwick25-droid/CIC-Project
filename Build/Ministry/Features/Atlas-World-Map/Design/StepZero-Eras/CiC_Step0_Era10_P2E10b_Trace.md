@@ -11,7 +11,7 @@ Against `CiC_Step0_Era10_P2E10b_Review_Round2.md`. The mechanical fixes only; S2
 - **M2-1** Done. IX.57 statusDescription: "hands on to the Vineyard, formed in 1982."
 - **M2-2** Done. IX.16 legacy: "Court records were part of these bodies' public record too." The last sentence is deleted.
 - **M2-3** Done. IX.52 `why` and `longDescription` say "the Lambeth Conference".
-- **M2-4** Done. Open-Gaps entries 127 to 131: the `kind` question, Pueblo and the arena, the IX.53 hold, the Vineyard publisher's dated copy, the 2012 AGRM capture.
+- **M2-4** Done. Open-Gaps entries 128 to 132 (numbered 127 to 131 before the merge with main): the `kind` question, Pueblo and the arena, the IX.53 hold, the Vineyard publisher's dated copy, the 2012 AGRM capture.
 - **C2-1** Done. IX.52 legacy now reads "Kevin Ward found that by 2006 most of its members belonged to churches outside the West."
 - **C2-2** Done. IX.24 "At the 1974 Congress", matching release 21.
 - **C2-3** Done. IX.52 longDescription: "a moral obligation", Resolution 15's word.
