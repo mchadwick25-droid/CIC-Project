@@ -1,0 +1,2265 @@
+{
+  "date": "2026-11-08",
+  "note": "Final state after review round 2: Revision_Round1.json with the five round-2 minor fixes applied.",
+  "final": [
+    {
+      "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Jerome used Origen's critical signs in his translation; no council, split or rule change shown."
+    },
+    {
+      "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+      "major": true,
+      "kind": "split",
+      "outcome": "Narsai founded a new school at Nisibis in Persian lands, and most of the students from the school of Edessa came to him.",
+      "evidence": {
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+        "lines": "20739-20743",
+        "text": "il y attira de nombreux frères, de sorte que non seulement les frères persans et syriens venaient à lui, mais encore la plupart des frères qui étaient dans l’école d’Édesse."
+      },
+      "change": "kept",
+      "reason": "A new school at Nisibis draws away most of the Edessa school's students. Review: keep."
+    },
+    {
+      "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Demetrius's act belongs to his third-century see, centuries before this Coptic movement (642-1013); and it is one bishop's excommunication."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Calvin adopts Augustine's teaching; a writer following another."
+    },
+    {
+      "id": "tertullian-s-voice--modalist-monarchianism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "roman-church-third-century--modalist-monarchianism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "One bishop's excommunication (Callistus), reported only by his rival Hippolytus, who says it was done to clear Callistus's name. Not a council, canon, synod or law, and no source shows it held. Rulings: excommunication by one bishop; single hostile witness."
+    },
+    {
+      "id": "syriac-edessa-nisibis--bardaisanite-current",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "greek-apologists-second-century--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "one writer praising another"
+    },
+    {
+      "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Basil keeps Gregory's doxology form; no act changing it is shown."
+    },
+    {
+      "id": "alexandria-catechetical--anatolian-church-third-century",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Study and later office; no teaching shown taken up."
+    },
+    {
+      "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A move and a library; collecting is not taking up. Ruling: compilation (a library is minor)."
+    },
+    {
+      "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Eusebius drew on a library; reading only"
+    },
+    {
+      "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "cataloguing and citing only"
+    },
+    {
+      "id": "alexandria-catechetical--aquileian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "One translator's work: Rufinus renders Origen on Numbers 'for the use of our people' (58981-58999). The lines show a text made available, not a church taking it into its Scripture, worship, rule or law. Ruling: translation."
+    },
+    {
+      "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "the tie is stated in the note as inference; no result"
+    },
+    {
+      "id": "greek-apologists-second-century--latin-apologists",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "knowing another's books; no result"
+    },
+    {
+      "id": "tertullian-s-voice--latin-apologists",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "citing an earlier work; no result"
+    },
+    {
+      "id": "latin-apologists--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a tutor's post; no shown effect"
+    },
+    {
+      "id": "anatolian-church-third-century--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--pelagianism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Polemic; the African councils and Zosimus are not in these sources (in wants)."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--donatism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Treatise after the conference; 'uicti' is Augustine's word, the verdict itself is not in these sources (already in wants)."
+    },
+    {
+      "id": "donatism--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Argument over baptism; the split is carried by the 'broke with' link of this pair."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--donatism--2",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Appeal to an authority: the Donatists cite Cyprian's letters, opinion and council for their schism (10206-10208). The window (to 10150) shows Cyprian's council on rebaptism but not the Donatists adopting that practice. Ruling: appealing to an authority."
+    },
+    {
+      "id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Cyprian reading Tertullian as 'master': regard and reading. Ruling: quoting an authority."
+    },
+    {
+      "id": "tertullian-s-voice--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "reading and judging; no result"
+    },
+    {
+      "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Basil and Gregory draw their exegesis from Origen; adopting a method."
+    },
+    {
+      "id": "alexandria-catechetical--ambrosian-milan-standalone",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Jerome says Ambrose's version followed Hippolytus and Basil rather than Origen; no adoption."
+    },
+    {
+      "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "copying and finding books in a library; no result"
+    },
+    {
+      "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "The Council in Trullo at Constantinople set its seal on the canons of Gregory the Wonderworker, alongside those of the great councils.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "26731-26745",
+        "text": "Likewise too the Canons [i.e. the decretal letters] of Dionysius, formerly Archbishop of the great city of Alexandria; and of Peter, Archbishop of Alexandria and Martyr; of Gregory the Wonder-worker, Bishop of Neocæsarea;"
+      },
+      "change": "kept",
+      "reason": "Trullo canon 2 makes Gregory's canons church law. Review: keep."
+    },
+    {
+      "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "reporting a tradition; no shown adoption"
+    },
+    {
+      "id": "syriac-edessa-nisibis--marcion-marcionism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "syriac-edessa-nisibis--manichaeism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "bardaisanite-current--marcion-marcionism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; translation was by Bardaisan's own pupils"
+    },
+    {
+      "id": "bardaisanite-current--syriac-edessa-nisibis",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Ephraim reuses the Bardaisanite tunes; a practice adopted, not imposed."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--manichaeism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "alexandria-catechetical--ebionite-nazoraean-current",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Meetings of the faithful across Asia judged the New Prophecy heretical, and its followers were expelled from the church and barred from communion.",
+      "evidence": {
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+        "lines": "11308",
+        "text": "declared them to be spurious, and rejected them as heretical, they were in consequence of that expelled from the Church and debarred from communion."
+      },
+      "change": "kept",
+      "reason": "Synods of Asia judged the teaching heretical and expelled its followers. Review: keep."
+    },
+    {
+      "id": "montanism-the-new-prophecy--tertullian-s-voice",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Blocking finding resolved by demotion: the review's basis (teaching taken up) falls, and the lines show only a withdrawal 'from the carnally-minded', which the file's own note (51076-51078) says may mean leaving only the Roman bishop's communion; no separate church shown."
+    },
+    {
+      "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Constantine's law banned Montanist meetings even in private houses and urged them to join the catholic Church instead.",
+      "evidence": {
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "66124-66130",
+        "text": "forbid the holding of your superstitious and senseless meetings, not in public merely, but in any private house or place whatsoever. Let those of you, therefore, who are desirous of embracing the true and pure religion, take the far better course of entering the catholic Church,"
+      },
+      "change": "kept",
+      "reason": "Constantine's law bans the group's meetings. Review: keep."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Justinian ordered the Montanists to give up their faith, Procopius says, and threatened holdouts with losing the right to leave property to their families.",
+      "evidence": {
+        "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+        "lines": "2168-2173",
+        "text": "Justinian ordered all these beliefs to be abandoned in favour of the old religion, and threatened the recusants with legal disability to transmit their property to their wives and children by will."
+      },
+      "change": "kept",
+      "reason": "Justinian's order against the group, with legal penalties. Review: keep."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--novatianism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Cyprian refusing communion to Novatian's envoys is the quarrel itself. The 'we' who decided is Cyprian's letter; the colleagues in 32599 are waiting for envoys, not shown acting. Ruling: excommunication by one bishop. The lasting result (Nicaea canon 8) is on the imperial-juridical link."
+    },
+    {
+      "id": "imperial-juridical-christianity--novatianism",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "The Council of Nicaea let Novatianist clergy keep their rank if they promised in writing to follow the teaching of the Catholic Church.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "3772-3775",
+        "text": "it is before all things necessary that they should profess in writing that they will observe and follow the dogmas of the Catholic and Apostolic Church;"
+      },
+      "change": "kept",
+      "reason": "Nicaea canon 8 sets the terms for receiving Novatianist clergy. Review: keep."
+    },
+    {
+      "id": "imperial-juridical-christianity--novatianism--2",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Acesius at Nicaea; his church stayed apart as before."
+    },
+    {
+      "id": "tertullian-s-voice--marcion-marcionism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "greek-apologists-second-century--marcion-marcionism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "post-apostolic-house-church--marcion-marcionism",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The church later threw Marcion out, Tertullian says, and turned away the money he had given it along with him.",
+      "evidence": {
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "29239-29241",
+        "text": "he contributed money to the Catholic church, which along with himself was afterwards rejected,"
+      },
+      "change": "rewritten-round2",
+      "reason": "The Roman church, acting as a body, rejects Marcion; not one bishop alone. Review: keep."
+    },
+    {
+      "id": "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic; Valentinus's break was with the church, not a result of Tertullian's argument"
+    },
+    {
+      "id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The church at Rome expelled Valentinus more than once, Tertullian says, for spreading his ideas among its members.",
+      "evidence": {
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "21338-21339",
+        "text": "until on account of their ever restless curiosity, with which they even infected the brethren, they were more than once expelled."
+      },
+      "change": "kept",
+      "reason": "The Roman church, acting as a body, expels Valentinus more than once. Review: keep."
+    },
+    {
+      "id": "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Study under Lucian's pupils; no teaching shown taken up."
+    },
+    {
+      "id": "anatolian-church-third-century--antiochene-church-third-century",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The meetings at Antioch over Paul of Samosata, which Gregory and Athenodorus joined, ended when a final synod excommunicated him.",
+      "evidence": {
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "41933-41936",
+        "text": "Malchion, a Presbyter from the Sophists, was excommunicated."
+      },
+      "change": "rewritten",
+      "reason": "A synod excommunicates Paul of Samosata. Review rewrite applied."
+    },
+    {
+      "id": "antiochene-church-third-century--roman-church-third-century",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A synodal letter addressed to Rome; the deposition is the Antiochene synod's act, on the Anatolian link."
+    },
+    {
+      "id": "anatolian-church-third-century--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "cataloguing only"
+    },
+    {
+      "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: a translation of Scripture; translations no longer count."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; a lost book, no recorded result"
+    },
+    {
+      "id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A conversion; none of the four kinds, and the lines do not say Ambrose baptized him."
+    },
+    {
+      "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "The Oea bishop's use of Jerome's version was taken up and then reversed (32540-32556). Ruling: soon reversed."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Argument over translation; no result."
+    },
+    {
+      "id": "palestinian-church-pre-constantinian--aquileian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Translation of a history to be read to people in a crisis (58738-58748). Commissioned by a bishop, but for one season's reading, not the church's Scripture, worship, rule or law; no lasting use shown. Ruling: translation."
+    },
+    {
+      "id": "apocryphal-and-pseudepigraphal-literature--aquileian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "One translator's work for 'our countrymen' (58596-58601), addressed to Gaudentius; no church shown taking it up. Ruling: translation."
+    },
+    {
+      "id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Augustine quoting Hilary. Ruling: quoting an authority."
+    },
+    {
+      "id": "donatism--latin-pastoral-congregational-christianity--3",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Augustine adopts Tyconius's rules; a writer following another."
+    },
+    {
+      "id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "objection only; no recorded result"
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "reply only; no recorded result"
+    },
+    {
+      "id": "pelagianism--latin-pastoral-congregational-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "citing and revering; no result"
+    },
+    {
+      "id": "desert-monasticism--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Jerome reports learning and admiring; no recorded adoption"
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "personal teaching relationship; no recorded result"
+    },
+    {
+      "id": "desert-monasticism--iconophile-byzantine-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Canon 20 imposes Basil's rule, not a desert one."
+    },
+    {
+      "id": "desert-monasticism--early-benedictine-italian-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: set reading in a monastic rule; the review's set-reading ruling falls."
+    },
+    {
+      "id": "desert-monasticism--insular-irish-monastic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "single late legendary account and secondary judgment; no recorded adoption"
+    },
+    {
+      "id": "desert-monasticism--coptic-christianity-under-early-islam",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a colophon prayer naming the founders; veneration, not a recorded result"
+    },
+    {
+      "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Egyptian customs written down for a new Gallic house; no authority's rule change shown."
+    },
+    {
+      "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: set reading in a monastic rule; the review's set-reading ruling falls."
+    },
+    {
+      "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a single late account and a wish to visit; no recorded result"
+    },
+    {
+      "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Praise of a rule; no uptake shown."
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "An imperial law of July 381 forbade Eunomians to build churches in town or country and seized any land where they did.",
+      "evidence": {
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+        "lines": "7064",
+        "text": "nullum eunomianorum atque arrianorum vel ex dogmate aeti in civitate vel agris fabricandarum ecclesiarum copiam habere praecipimus."
+      },
+      "change": "kept",
+      "reason": "Law of 381 excluding the Eunomians. Review: keep."
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; no recorded result"
+    },
+    {
+      "id": "imperial-juridical-christianity--pneumatomachian-current",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The bishops whom Theodosius gathered at Constantinople anathematized the Semi-Arians, also called Pneumatomachi, in their first canon.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "13965-13976",
+        "text": "and that of the Semi-Arians or Pneumatomachi"
+      },
+      "change": "kept",
+      "reason": "Canon 1 of Constantinople 381 anathematizes the group. Review: keep."
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic letters only; no recorded result"
+    },
+    {
+      "id": "imperial-juridical-christianity--apollinarian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "A law of March 388 drove the Apollinarians from the cities and stripped their bishops of the title of bishop.",
+      "evidence": {
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+        "lines": "7080",
+        "text": "nulla his episcoporum faciendorum praebeatur auctoritas; ipsi quoque episcopi nomine destituti appellationem dignitatis huius amittant."
+      },
+      "change": "kept",
+      "reason": "Law of 388 excluding the Apollinarians. Review: keep."
+    },
+    {
+      "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Hilarion brings the monk's life to Palestine; a new foundation, not a split or an authority's act."
+    },
+    {
+      "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Martin's own foundation after time with Hilary; no rule or teaching of Hilary's shown taken up."
+    },
+    {
+      "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The bishops of Gaul refused communion to Saturninus and condemned the creed sent to them from Sirmium as soon as it arrived.",
+      "evidence": {
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+        "lines": "7773-7779",
+        "text": "you had denied him communion for the whole three years ago until now. I equally rejoiced that the impious and infidel creed which was sent straightway to you from Sirmium was not only not accepted by you, but condemned"
+      },
+      "change": "kept",
+      "reason": "The bishops of Gaul as a body condemn the Sirmium creed. Review: keep."
+    },
+    {
+      "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Exile of opposing bishops, Hilary among them (9519-9523). The same passage says the emperor later admitted his error, and Hilary returned; no lasting result shown. Ruling: exile soon reversed."
+    },
+    {
+      "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Hilary's protest only; no recorded result"
+    },
+    {
+      "id": "aquileian-christianity--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "shared ascetic circle and letters; no recorded result"
+    },
+    {
+      "id": "ambrosian-milan-standalone--aquileian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a meeting both attended; the council's sentence belongs to the argued-against links"
+    },
+    {
+      "id": "imperial-juridical-christianity--homoian-arian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "An imperial law of July 383 banned Arians, along with Eunomians and other groups, from meeting or gathering any crowd.",
+      "evidence": {
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+        "lines": "7074",
+        "text": "eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant"
+      },
+      "change": "kept",
+      "reason": "Law of 383 banning Arian meetings. Review: keep."
+    },
+    {
+      "id": "imperial-juridical-christianity--donatism",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "A council of nineteen bishops at Rome, granted by Constantine, condemned Donatus and cleared his rival Caecilian.",
+      "evidence": {
+        "file": "cic/texts/optatus_against-the-donatists.txt",
+        "lines": "273-285",
+        "text": "It is, therefore, sufficient, that Donatus was condemned by the verdict of so many Bishops, and that Caecilian was cleared by the judgement of so great an authority."
+      },
+      "change": "kept",
+      "reason": "Council at Rome condemns Donatus. Review: keep."
+    },
+    {
+      "id": "donatism--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Donatus's outburst; no result in the passage."
+    },
+    {
+      "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "In a canon, the Persian bishops bound themselves to serve the liturgy by the western order that Bishops Isaac and Marutha had taught them.",
+      "evidence": {
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+        "lines": "17201-17204",
+        "text": "Des règles et des canons qui concernent le ministère, les saints mystères, el les fêtes glorteuses de Notre Sauveur. — Maintenant et désormais, nous exercerons tous uniformément le ministère selon le ministère occidental que les évèques Isaac et Marouta nous ont enseigné"
+      },
+      "change": "rewritten",
+      "reason": "A synod canon changes the Persian church's liturgical order. The sentence now names the canon, the act itself."
+    },
+    {
+      "id": "desert-monasticism--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "rests on a likeness of lists; Gregory names no source"
+    },
+    {
+      "id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "An imperial letter about building a church; none of the four kinds."
+    },
+    {
+      "id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "pilgrimage and a remark; no recorded result"
+    },
+    {
+      "id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "visits and worship; no recorded result"
+    },
+    {
+      "id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Jerome writing a Life after Epiphanius; literary, no recorded result"
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "A law of July 381 ordered every church handed to bishops in communion with Helladius of Caesarea and Gregory of Nyssa, among others.",
+      "evidence": {
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+        "lines": "6887",
+        "text": "in pontica dioecesi helladio episcopo caesariensi et otreio meliteno et gregorio episcopo nysseno"
+      },
+      "change": "kept",
+      "reason": "Law of 381 makes communion with named bishops the test for holding churches. Review: keep."
+    },
+    {
+      "id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Gregory's expulsion from Nyssa (40975-40976): Basil names no agent and no synod, the Homoian identity rests on editors' headnotes, and the expulsion was later undone. Ruling: exile soon reversed."
+    },
+    {
+      "id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "letters and service; no recorded result"
+    },
+    {
+      "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "Ambrose won a promise from Theodosius to amend his edict on the burned synagogue and to end the whole investigation.",
+      "evidence": {
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+        "lines": "43970-43990",
+        "text": "he said that he would amend the edict. I went on at once to say that he must end the whole investigation,"
+      },
+      "change": "kept",
+      "reason": "Theodosius amends his edict and ends the inquiry. Review: keep."
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Consecration custom only implied, by a source of disputed date."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "A law of July 381 ordered every church handed to bishops in communion with Diodore of Tarsus and others it named.",
+      "evidence": {
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+        "lines": "6887",
+        "text": "in orientis partibus pelagio episcopo laodicensi et diodoro episcopo tarsensi"
+      },
+      "change": "kept",
+      "reason": "Law of 381 makes communion with Diodore a test for holding churches. Review: keep."
+    },
+    {
+      "id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+      "major": true,
+      "kind": "split",
+      "outcome": "After synods condemned John Chrysostom, his followers, called Johannites, left the church and held their own assemblies apart.",
+      "evidence": {
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "18487-18495",
+        "text": "from that time held their assemblies apart in various places, and were from him denominated ‘Johannites.’"
+      },
+      "change": "kept",
+      "reason": "The Johannites hold their own assemblies apart. Review: keep."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--antiochene-exegetical-christianity-chrysostom-ce",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The Second Council of Constantinople cursed Theodore of Mopsuestia and all who defended him or called his reading of Scripture orthodox.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "23937-23939",
+        "text": "if anyone does not anathematize him or his impious writings, as well as all those who protect or defend him, or who assert that his exegesis is orthodox,"
+      },
+      "change": "kept",
+      "reason": "Constantinople II anathematizes Theodore and his defenders. Review: keep."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Beyond the window: canon 2's decree binding all clergy not to reject Theodore's writings, on pain of excommunication (26710-26718), lies past the listed lines (26570-26585). It is a synod's rule of the Trent kind, so add a wants entry to cite 26710-26718 in this link's sources, then re-judge it as major."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Calvin quotes and faults Chrysostom; no adoption."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Chrysostom called as a witness. Ruling: quoting an authority (contrast Calvin on Augustine)."
+    },
+    {
+      "id": "aquileian-christianity--homoian-arian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "At Aquileia the bishops condemned Palladius, judged him unworthy of the priesthood and ordered a Catholic bishop ordained in his place.",
+      "evidence": {
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+        "lines": "60888-60911",
+        "text": "pronuncio illum facerdo- tio indignum & * carendum; & in loco ejus catholicus ordinetur, Omnes epifcop! dixerunr: Anathema Palladio ."
+      },
+      "change": "kept",
+      "reason": "Council of Aquileia deposes Palladius. Review: keep."
+    },
+    {
+      "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "The Aquileia sentence lies about 150 lines past the cited line, beyond the window; it is carried as major on the Aquileian link. Rulings: window; duplicates."
+    },
+    {
+      "id": "pelagianism--hieronymian-ascetic-literary",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "reported violence resting on rumor; no condemnation or settlement"
+    },
+    {
+      "id": "hieronymian-ascetic-literary--the-tridentine-church",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "The Council of Trent declared the old Latin Vulgate the authentic text for public lectures, debates, sermons and expositions, and let no one reject it.",
+      "evidence": {
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+        "lines": "12477-12482",
+        "text": "the  said  old  and  Vulgate  edition,  which,  by the  lengthened  usage  of  so  many  ages,  has  been  approved  of  in the  Church,  be,  in  public  lectures,  disputations,  sermons,  and expositions,  held  as  authentic"
+      },
+      "change": "kept",
+      "reason": "Trent decrees the Vulgate authentic and binding for public use; a council's rule, not mere use. Review: keep."
+    },
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Rufinus translating Basil and Gregory: one translator's work. Ruling: translation."
+    },
+    {
+      "id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "later praise and legend; no recorded result"
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--donatism",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Justinian forbade Donatists, Arians, Jews and pagans to keep meeting places or hold rites in the manner of the church.",
+      "evidence": {
+        "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+        "lines": "52635-52637",
+        "text": "Neque enim Iudaeos neque paganos neque Donatistas neque Árianos neque alios quoscumque haereticos vel speluncas habere vel quaedam quasi ritu ecclesiastico facere patimur,"
+      },
+      "change": "kept",
+      "reason": "Justinian's law excludes the Donatists. Review: keep."
+    },
+    {
+      "id": "roman-church-gregorian--donatism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Gregory orders a council of inquiry (35571-35573); no result recorded. Ruling: ruling in a letter."
+    },
+    {
+      "id": "imperial-juridical-christianity--priscillianist-asceticism",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Once the case was reported to the palace, the emperor decreed that Priscillian and his friends be put to death.",
+      "evidence": {
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+        "lines": "11673-11674",
+        "text": "the emperor decreed that Priscillian and his friends should be put to death."
+      },
+      "change": "kept",
+      "reason": "Imperial sentence of death on the group's leaders. Review: keep."
+    },
+    {
+      "id": "ambrosian-milan-standalone--priscillianist-asceticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "refusal to meet; no recorded result"
+    },
+    {
+      "id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a plea that failed; no recorded result"
+    },
+    {
+      "id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Ulfila personally assents to a creed; no act by an authority on this link's parties shown."
+    },
+    {
+      "id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic only; the condemnation described is the Homoians' act, not a result of Jerome's argument"
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Aetius's suspension, but the same lines say Leontius 'continued to show him marked favour' (10455-10456). Ruling: exile or suspension soon reversed."
+    },
+    {
+      "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: a compilation (the Philokalia); the review's compilation ruling falls."
+    },
+    {
+      "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "letters kept and a patriarch's flight; no teaching or rule shown taken up"
+    },
+    {
+      "id": "desert-monasticism--chalcedonian-monasticism-judean-desert-and-gaza",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Dorotheus quoting the elders. Ruling: quoting an authority."
+    },
+    {
+      "id": "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A Georgian lectionary following Jerusalem would be a practice taken up, but it rests on one file-less modern edition. Ruling: secondary evidence."
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Gregory praises the rule; no adoption by Rome."
+    },
+    {
+      "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic letter; no recorded result in these lines"
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "On Severus's advice, Dioscorus of Alexandria won back men who had long refused communion, and they joined the Egyptian church.",
+      "evidence": {
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+        "lines": "5202-5214",
+        "text": "as far as was possible he complied with my advice and satisfied those who were separated"
+      },
+      "change": "kept",
+      "reason": "The patriarch of Alexandria receives a long-separated party back into communion. Review: keep."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--nubian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "embassy refused; the sources record no change on either side"
+    },
+    {
+      "id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "request for a letter only; no letter or result attested"
+    },
+    {
+      "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Reparatus of Carthage lost his office and was sent into exile for refusing to condemn the Three Chapters, and his own envoy was made bishop in his place.",
+      "evidence": {
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+        "lines": "19068-19071",
+        "text": "Reparatus archiepiscopus plurimis calumniis inipetitus pro eo, quod damnationi trium memoratorum capitulorum assensimi non praebuit, officio sumptibusque privatus Euchaida exilio relegatur, ct Primosus diaconus apocrisarius eius"
+      },
+      "change": "rewritten",
+      "reason": "Reparatus deposed and replaced over the Three Chapters. Review rewrite applied."
+    },
+    {
+      "id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Appeal and protest; the cited passage asks for condemnation but records none."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Justinian's law ordered every copy of Severus's writings burned and barred him from the capital and its district.",
+      "evidence": {
+        "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+        "lines": "56691-56695",
+        "text": "sed sint profana et aliena ab ecclesia catholica igneque comburantur a possidentibus"
+      },
+      "change": "kept",
+      "reason": "Justinian's law condemns Severus's writings and bars him. Review: keep."
+    },
+    {
+      "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Communion letters between allies; no change."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia--syriac-orthodox-west-syriac-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A statement for a court debate; no recorded result."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "report of a church and bishop; no tie or result shown"
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "The synod's act on the monks' petition lies about 100 lines on. Ruling: window."
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "A synod at Dvin in 554, under Catholicos Nerses II, confirmed the Armenian church's refusal of Chalcedon and proclaimed the faith of Ephesus against it.",
+      "evidence": {
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+        "lines": "2550-2556",
+        "text": "at the synod of Douine (554), at which the faith, as decreed at Ephesus, was emphatically proclaimed in opposition to Nestorian errors and Chalcedonian claims."
+      },
+      "change": "kept",
+      "reason": "Synod of Dvin 554 rejects Chalcedon. Review: keep."
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--georgian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Ormanian (vendored, 2502-2509) states a joint rejection of Chalcedon at Dvin in 506, but the reviewed note does not. Ruling: secondary evidence needs both. Worth adding to wants."
+    },
+    {
+      "id": "armenian-christianity-after-avarayr--church-of-caucasian-albania",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Same as the Georgian Dvin 506 link."
+    },
+    {
+      "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Nerses Bakur, head of the Albanian church, was removed for leaning toward communion with the Greek church, and Simeon took his place.",
+      "evidence": {
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+        "lines": "2902-2907",
+        "text": "Their patriarch, Nerses Bakour, tempted by the example of Kurion, inclined to the side of communion with the Greek Church. He was immediately removed and replaced by Simeon."
+      },
+      "change": "kept",
+      "reason": "Albania's head deposed and replaced; the source names no deciding body. Review: keep."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--georgian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Georgia's head sides with Chalcedon; no council, split or rule change in the cited lines."
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--carolingian-reform-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "In 802 Charlemagne ordered that whatever monasteries did against the Rule of Saint Benedict be put right by that rule.",
+      "evidence": {
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+        "lines": "7794-7805",
+        "text": "quicquid in monasteriis seu in 15 monachis contra regula sancti Benedicti factum fuisset, hoc ipsud iuxta ipsam regulam sancti Benedicti emendare fecissent."
+      },
+      "change": "kept",
+      "reason": "Charlemagne orders monasteries corrected by Benedict's Rule. Review: keep."
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Editors' commentary; no Cluniac text."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "The emperor's judgment came in a private audience, reported only by Gregory, a party to the dispute; Eutychius's recantation is hearsay ('as I learnt from their relation', 8501-8503). No council or law, and no lasting result in either church. Ruling: single hostile witness."
+    },
+    {
+      "id": "merovingian-gallic-christianity--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "letters and a warning on simony; no recorded result"
+    },
+    {
+      "id": "nicene-visigothic-iberia--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Friendship and praise; the Gothic conversion is not shown to come from the contact."
+    },
+    {
+      "id": "latin-africa-under-byzantium--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "A ruling in a letter (33811-33819) with no sign it was carried out; the letter mostly leaves the Numidian custom as it was. Ruling: ruling in a letter."
+    },
+    {
+      "id": "roman-church-gregorian--carolingian-reform-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "No authority shown: the list says clergy were ordered to learn these texts, but its editor says who issued it is wholly uncertain (16095-16097). Unlike Trent's decree, no council, synod or ruler is named."
+    },
+    {
+      "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Alfred's translation; translations no longer count."
+    },
+    {
+      "id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "argument and hostility; Clovis's war is military, not a church result"
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Justinian barred every Christian outside the orthodox faith from baptism and the other sacraments, and Arian soldiers in the Roman army joined a mutiny over it.",
+      "evidence": {
+        "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+        "lines": "4260-4271",
+        "text": "For the Emperor Justinian did not allow any Christian who did not espouse the orthodox faith to receive baptism or any other sacrament."
+      },
+      "change": "kept",
+      "reason": "Justinian's rule excludes Arians from the sacraments. Review: keep."
+    },
+    {
+      "id": "insular-irish-monastic-christianity--merovingian-gallic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: founders adopt Columbanus's rule for their houses; no authority's act."
+    },
+    {
+      "id": "insular-irish-monastic-christianity--roman-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "polemic letter; no reply or result survives"
+    },
+    {
+      "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "rests on place alone; no result shown"
+    },
+    {
+      "id": "british-welsh-christianity--insular-irish-monastic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "one writer citing another"
+    },
+    {
+      "id": "anglo-saxon-christianity--british-welsh-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Refusal at a meeting; nothing changed."
+    },
+    {
+      "id": "anglo-saxon-christianity--british-welsh-christianity--2",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: Britons persuaded by a book to adopt the Catholic Easter; persuasion, not an authority's act on them."
+    },
+    {
+      "id": "british-welsh-christianity--anglo-saxon-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Bede citing Gildas as a historian"
+    },
+    {
+      "id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "In 589 the third council of Toledo cursed anyone who still held to the faith and communion that came from Arius.",
+      "evidence": {
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+        "lines": "36900-36904",
+        "text": "Omnis ergo, qui fidem et communio- nem ab Ario venientem, et hucusque a no- bis retentam adhuc tenere desiderat et de to- ta.cordis intentione non damnat, anathe- ma sit."
+      },
+      "change": "kept",
+      "reason": "Toledo III anathematizes the Arian faith. Review: keep."
+    },
+    {
+      "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "In 664 the king and all present at the debate resolved to follow the Catholic Easter, and Bishop Colman went back to Scotland with those who would not.",
+      "evidence": {
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "lines": "8214-8231",
+        "text": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better."
+      },
+      "change": "rewritten",
+      "reason": "The king and assembly at Whitby change the Easter practice. The sentence now names who decided (the king, with all present assenting); Whitby dropped, as the name is not in the window (8100-8290)."
+    },
+    {
+      "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "editor's note only; no early Cistercian text cited"
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "later writer using earlier chronicles as sources"
+    },
+    {
+      "id": "anglo-saxon-christianity--carolingian-reform-christianity",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "In 742 Carloman, advised by Boniface and his fellow bishops, ordered a church synod every year to restore church law and correct Christian practice.",
+      "evidence": {
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+        "lines": "2248-2251",
+        "text": "constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri. Statuimus per annos singulos synodum congregare, ut nobis praesentibus cano- num decreta et aecclesiae iura restaurentur et relegio christiana emendetur."
+      },
+      "change": "kept",
+      "reason": "Carloman decrees yearly synods on Boniface's counsel. Review: keep."
+    },
+    {
+      "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "shared Rule only; no source shows Cluny took the Rule or anything else from the Carolingian reformers"
+    },
+    {
+      "id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Gregory VII cites a forged decretal in one letter. Ruling: quoting an authority."
+    },
+    {
+      "id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Hugh guarantees the oath; the result is between pope and king, and the case was left open (10435-10436)."
+    },
+    {
+      "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: a translation used in mission; translations no longer count."
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The iconoclast council of 754 declared John of Damascus deposed and cursed, along with Germanus of Constantinople and George.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "39469-39472",
+        "text": "To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema! The Trinity has deposed these three!"
+      },
+      "change": "rewritten-round2",
+      "reason": "The 754 council deposes and anathematizes John of Damascus. Review: keep."
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-heraclian-iconoclast",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "At the Second Council of Nicaea, bishops who had opposed images read confessions venerating them, and the synod received them back.",
+      "evidence": {
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "38661-38733",
+        "text": "Theodore, bishop of Myra, then read the same confession, and was received."
+      },
+      "change": "rewritten",
+      "reason": "Nicaea II receives former iconoclast bishops on their confession. The sentence now names the council's act (receiving them back); '787' dropped, as the date stands only in the title page (37859), beyond the window; Sabbas dropped."
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--byzantine-imperial-church-macedonian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Photius reads and praises; the icon feast is not in the cited lines."
+    },
+    {
+      "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: the Stoudios rule copied as a model; a rule adopted, not imposed."
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "persecution that, per the note, failed to root the Paulicians out; no lasting result shown"
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian--paulicians",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Polemic and a forced resettlement; a transfer of people is none of the four kinds."
+    },
+    {
+      "id": "paulicians--bogomils",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "contested line of descent; the secondary sources show no teaching or text taken up"
+    },
+    {
+      "id": "bogomils--cathars-albigensians",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Sacconi's claim of origin is the claim of the link itself, not a result; Contested."
+    },
+    {
+      "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "The patriarch Theodosius made a church law binding the metropolitans of India, China and other far lands to send letters of communion every six years.",
+      "evidence": {
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+        "lines": "34477-34485",
+        "text": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno ."
+      },
+      "change": "kept",
+      "reason": "A patriarch's canon binds India's metropolitan. Review: keep."
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Duplicate of the 754 curse on the iconophile link (39468-39472). The council condemns the honoring of images, named in John of Damascus; it does not condemn Melkite Christianity as a body. Ruling: duplicates."
+    },
+    {
+      "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Describes a standing arrangement (the patriarch ordains Makuria's metropolitan, 7181-7185), not its making. Treated like the Rus' and Zagwe jurisdiction links, which are minor. Ruling: standing jurisdiction."
+    },
+    {
+      "id": "coptic-christianity-under-early-islam--post-aksumite-ethiopian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "The polygamy reform is by the 67th patriarch per Abu Salih, or Cyril II about 1086 per the editor (14546-14549). Either way it falls after this Coptic movement ends in 1013, so it is not this link's parties. The twice-yearly letters were ended by al-Hakim, an outside act."
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: translations by the Georgian Athos house; translations no longer count."
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "One secondhand report of 1701, quoted in 1849, on an Inferential-Thin link; a result cannot be firmer than the link it sits on."
+    },
+    {
+      "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Duplicate: the 1054 sentence is the event the 'broke with' link between the same two movements already carries (Mirbt 9904-9919). A second line for one act. Also a legates' sentence, not a council or law. Rulings: duplicates; excommunication by one bishop."
+    },
+    {
+      "id": "cistercian-monasticism--the-english-mystics-and-devout",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "quoting and admiring only; no teaching or practice shown taken up"
+    },
+    {
+      "id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "one writer following another's reading of a text; no lasting result shown beyond use"
+    },
+    {
+      "id": "canons-regular-victorine-school--the-franciscan-movement",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "One writer using another's pattern. Ruling: quoting an authority."
+    },
+    {
+      "id": "carthusian-life--the-english-mystics-and-devout",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "unnamed borrowing identified only by an editor's guess; no result shown"
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "A teacher telling monks to read Symeon is advice, not a rule. Ruling: set reading (a rule, not advice)."
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: a compilation (the Philokalia); the review's compilation ruling falls."
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: an Athos-trained monk founds a house; a foundation, not a split from the other party."
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "Duplicate of the era 4 Georgian link, which carries the same Brosset sentence with lines (2965-2968). Brosset places Bagrat III at the end of the 900s (460), before this movement begins in 1000. Ruling: duplicates."
+    },
+    {
+      "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: the reformed nuns keep the older rule; no authority's act in the cited lines."
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-carmelites",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "At the Carmelites' request in 1247, Pope Innocent IV confirmed a corrected and softened version of their rule.",
+      "evidence": {
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22014-22017",
+        "text": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid"
+      },
+      "change": "rewritten-round2",
+      "reason": "Innocent IV confirms the corrected rule. Review: keep."
+    },
+    {
+      "id": "the-dominican-order--the-carmelites",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "The revisers acted as papal delegates; the change is on the papal link."
+    },
+    {
+      "id": "latin-church-of-outremer--the-carmelites",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "Albert, patriarch of Jerusalem, gave the Carmelite friars their rule, which their order later asked the pope to explain, correct and soften.",
+      "evidence": {
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22026-22034",
+        "text": "humbly begging our lord the Pope graciously to explain and correct certain matters of your rule formerly delivered unto you by Albert, of happy memory, patriarch of Jeru- salem, and at the same time to mitigate certain austerities"
+      },
+      "change": "rewritten",
+      "reason": "The patriarch of Jerusalem gives the order its rule. Recast as the patriarch's act of giving the rule; '1247' and 'hermits' dropped as not in these lines."
+    },
+    {
+      "id": "the-dominican-order--the-franciscan-movement",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a meeting and a wish for union, with no recorded result"
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-franciscan-movement",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "Pope Innocent III granted and confirmed Francis's way of life for him and for all his brothers, present and future.",
+      "evidence": {
+        "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+        "lines": "4873-4875",
+        "text": "dominus papa concessit et confirmavit sibi et suis fratribus habitis et futuris."
+      },
+      "change": "kept",
+      "reason": "Innocent III confirms Francis's way of life. Review: keep."
+    },
+    {
+      "id": "the-dominican-order--cathars-albigensians",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Handbook of errors; Gui's sentences are not among the sources."
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The Council of Vienne formally condemned eight errors that it charged to the beguines and beghards of Germany.",
+      "evidence": {
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+        "lines": "39817-39819",
+        "text": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui infur- rexerunt in Alemannia"
+      },
+      "change": "kept",
+      "reason": "Council of Vienne condemns errors charged to the beguines. Review: keep."
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The Council of Vienne in 1311-12 ruled as error the claim that those who live in the spirit of liberty owe no human obedience.",
+      "evidence": {
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "14788-14808",
+        "text": "Conc. YIENNENSE 1311—1312. Oecumenicum XV (Templarii aboliti). Errores Beguardorum et Beguinarum (de statu perfectionis)"
+      },
+      "change": "kept",
+      "reason": "Council of Vienne condemns the free-spirit teaching. Review: keep."
+    },
+    {
+      "id": "the-tridentine-church--the-humiliati",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Pope Pius V abolished the order of Humiliati brothers, along with its general, its provincial heads and all its statutes.",
+      "evidence": {
+        "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+        "lines": "92832-92838",
+        "text": "extinguimus & abolemus Ordinem pradi- &ortm Fratrum Humiliatorum, & officium Prepo- fiti Generalis, ac Provincialium,& quicumque alia minifleria Ordinis fic fuppre(fi, necnon omnia & quacumque fatuta, confnetudines, & decreta"
+      },
+      "change": "kept",
+      "reason": "Papal bull abolishes the order. Review: keep."
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-humiliati",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Foxe's late report of a chronicler, partly doubted by Foxe himself; the 1184 decree is not in hand."
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-humiliati--2",
+      "major": true,
+      "kind": "rule-changed",
+      "outcome": "Pope Innocent III approved the Humiliati in 1200, and the order soon grew to 220 houses in the province of Milan alone.",
+      "evidence": {
+        "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+        "lines": "12177-12179",
+        "text": "Their order was approved by Inno- cent III. in 1200, and increased so much that in the Milanese province alone they soon had two hundred and twenty houses."
+      },
+      "change": "rewritten",
+      "reason": "Innocent III approves the order. Review rewrite applied."
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-waldensians",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "A church council at Rome, held before the Lateran council, judged Valdes's followers schismatics and then condemned them as heretics.",
+      "evidence": {
+        "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+        "lines": "4900-4903",
+        "text": "Demum vero in quodam concilio, quod fuit Rome ante Lateranense concilium? celebratum, cum essent perti- naces, fuerunt scismatict judicati et deinde ut heretici condempnati."
+      },
+      "change": "kept",
+      "reason": "Council at Rome condemns the Waldensians. Review: keep."
+    },
+    {
+      "id": "latin-papal-church-gregorian--cathars-albigensians",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "In 1179 the Third Lateran Council cut off the Cathars and all who defended or sheltered them, and barred anyone from housing them.",
+      "evidence": {
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "13198-13200",
+        "text": "eos et defensores et receptatores eoruni anathemati decernimus subiacere, et sub anathemate prohibemus, ne quis eos in domibus vel in terra sua"
+      },
+      "change": "kept",
+      "reason": "Lateran III anathematizes the Cathars. Review: keep."
+    },
+    {
+      "id": "balkan-bogomil-continuation--cathars-albigensians",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-narrowed",
+      "reason": "Taken up: a text carried from Bulgaria; a text adopted, no institutional act."
+    },
+    {
+      "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "Emperor Alexios I had the Bogomil leader Basil burned in the Hippodrome and kept his many followers in prison until they died.",
+      "evidence": {
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "1735-1752",
+        "text": "Ovo odobrivši napokon i sam Alexij poslije novih opomena naloži, da se lomača pripravi u trkalištu."
+      },
+      "change": "promoted",
+      "reason": "Imperial sentence on the group's leader and followers. Review promote applied."
+    },
+    {
+      "id": "joachimite-current--the-franciscan-movement",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Praise in a sermon; Gerard's book is one friar's, on a secondary note."
+    },
+    {
+      "id": "joachimite-current--franciscan-order-era-6",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a historian of the Spirituals using Joachim's scheme; one writer drawing on another, no rule or practice shown changed"
+    },
+    {
+      "id": "latin-papal-church-gregorian--joachimite-current",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "The Fourth Lateran Council in 1215 condemned and rejected the treatise Joachim wrote against Peter Lombard on the Trinity.",
+      "evidence": {
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "13944-13946",
+        "text": "Damnamus ergo et reprobamus libellum seu tractatum, 39 (358) quem Abbas loachim edidit contra Magistrum Petrum Lombardum, de unitate seu essentia Trinitatis,"
+      },
+      "change": "kept",
+      "reason": "Lateran IV condemns Joachim's treatise. Review: keep."
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Polemic only."
+    },
+    {
+      "id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "praise and defense of the Templars, resting on a modern history; no result shown"
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+      "major": true,
+      "kind": "council-law",
+      "outcome": "In 1312 Pope Clement V, with the Council of Vienne's approval, did away with the Templars' order, habit and name for ever.",
+      "evidence": {
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13646-13649",
+        "text": "praefatum tempH ordinem et eius statum, habitum atque 30 nomen irrefragabih et perpetuo vahtura tollimus sanctione, ac perpetuae prohibitioni subiieimus, saero eoncilio (sc. Viennensi) approbante,"
+      },
+      "change": "kept",
+      "reason": "Clement V with the Council of Vienne abolishes the order. Review: keep."
+    },
+    {
+      "id": "armenian-cilicia--byzantine-church-after-1054",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Union talks never finished."
+    },
+    {
+      "id": "armenian-cilicia--latin-church-of-outremer",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "a pilgrimage and a closer bond; no rule, union or settlement recorded"
+    },
+    {
+      "id": "latin-church-of-outremer--byzantine-church-after-1054",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "The Greek patriarch, put in by the prince, was thrown out and the Latin patriarch came back (46510-46516). The see went back to where it stood before; nothing lasting changed. Ruling: soon reversed."
+    },
+    {
+      "id": "latin-church-of-outremer--maronite-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "File-less secondary (Moosa, Salibi); neither is vendored, and William of Tyre's text is not in hand, so the review cannot check it. Ruling: secondary evidence. Also the same union as the papal link."
+    },
+    {
+      "id": "latin-papal-church-gregorian--maronite-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "demoted-review",
+      "reason": "File-less secondary only; the bull and the council's acts are not in hand and neither modern work is vendored. Ruling: secondary evidence."
+    },
+    {
+      "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "The Lyon profession; no lasting union shown."
+    },
+    {
+      "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Standing jurisdiction described, not made. Ruling: standing jurisdiction."
+    },
+    {
+      "id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "An embassy and an exchange of communion; no result."
+    },
+    {
+      "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Standing practice of sending a bishop. Ruling: standing jurisdiction."
+    },
+    {
+      "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+      "major": false,
+      "kind": null,
+      "outcome": null,
+      "evidence": null,
+      "change": "kept",
+      "reason": "Internal to one order; no uptake across the link."
+    }
+  ],
+  "totals": {
+    "major": 50,
+    "minor": 178
+  },
+  "wants": [
+    "Cite canon 2 of the 585 synod (lines 26710-26718 of its vendored file) on antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia, then re-judge the link as major (round-2 finding R2-04)."
+  ]
+}
