@@ -144,6 +144,10 @@ it, never by deleting it.
       Dorotheus as standard reading, Mar Saba and Saint Catherine's still inhabited (the Judean
       and Gaza monks); Monte Cassino's later destructions, including the bombing of 1944 (the
       Benedictines); the Arian buildings still standing in Ravenna (the Gothic churches).
+    - 2026-11-08: the era 4 pass meets the same question in the late Anglo-Saxon (the tenth-century
+      monastic reform, Alfred, Ælfric and Wulfstan), Scandinavian, Cluniac (the Cistercian break) and
+      Byzantine texts (Stephen the Younger, Tephrike, the 1965 revocation). Held as written, wants listed
+      in `Build/Ministry/Operations/Audits/2026-11-07_links-era-4/README.md`. Still Mark's call.
 25. **Which entry owns an emperor's act against the Nicenes, 337-378 (2026-11-07).** Constantius II's
     exile of Hilary sits under the imperial church; Valens's deposition of Gregory of Nyssa sits under
     the Homoian church. Each link stands on its sources, but one rule should cover both. A mapping
@@ -201,12 +205,17 @@ it, never by deleting it.
     church. Both are held as "in contact with" at the grade their evidence reaches (the Aksum one
     Inferential-Thin, since no letter from those years survives). A new type would change the
     method. Mark's call.
+    - 2026-11-08: era 4 meets the same gap as jurisdiction: the Church of the East's catholicos sent
+      the St Thomas Christians their bishops. Held as "in contact with" (Widely Accepted). One ruling
+      should cover communion and jurisdiction together.
 35. **Caucasian Albania's end date (2026-11-07).** `church-of-caucasian-albania` ends at 705, and
     `bagratid-armenian-christianity` says it "absorbs" the catholicosate after 705. The vendored
     histories (Brosset 1876, Ormanian 1912) show the see living on inside the Armenian church,
     with a catholicos installed in 1701/2, until it was abolished in the early nineteenth century.
     The era 3 pass took the year 705 out of the Albanian prose. The dates belong to the entry's
     owner, for Mark's ruling.
+    - 2026-11-08: the era 4 pass also left the Bagratid summary's "absorbs the story of Caucasian
+      Albania's catholicosate after 705" as written, for the same ruling.
 36. **The Armenian "continues as" chain skips a movement (2026-11-07).**
     `armenian-christianity-after-avarayr` continues as `bagratid-armenian-christianity`, skipping
     `armenian-christianity-before-the-bagratids` (c. 554-884), which has no "continues as" of its
@@ -218,19 +227,70 @@ it, never by deleting it.
     reader of Thomson's English Sebeos (1999), which is not vendored.
 38. **No "continued as" link from the Irish monasteries to medieval Ireland (2026-11-07).** The
     census splits Ireland at 664, but neither era-3 text names the continuation. For the era 4 pass.
+    - 2026-11-08: fixed in the era 4 pass. A "continued as" link (Documented) rests on Bede IV.4 and
+      V.15 and Adomnán's line of abbots. The medieval Irish text is still a one-line stub: it names
+      the continuation only by starting at 664, where the earlier entry ends. Closed.
 39. **Whitby in the Anglo-Saxon text (2026-11-07).** The era 3 pass added the Whitby link (the
     Anglo-Saxon church "argued against" the Irish, Bede III.25). `anglo-saxon-christianity` also
     names Whitby; the era 4 pass should count that link as named there.
+    - 2026-11-08: done in the era 4 pass. Era 3's Whitby link is counted as named in the Anglo-Saxon
+      text, and era 4 kept it as published. Closed.
 40. **An era-2 link note uses internal wording (2026-11-07).** The note of
     `palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza` says
     "No text we hold ties the later monks to the earlier". The era 3 review proposed "No source
     from the time ties the later monks to the earlier, so this rests on place and sequence alone."
     The link is era 2's, so era 3 left it. For P2-L11.
-41. **Cistercians and Cluny (2026-11-08).** The era 5 pass removed every Cluny claim from
+41. **No medieval English or Scandinavian successor entry (2026-11-08).** Late Anglo-Saxon ends at
+    1066 and Scandinavian conversion at 1104, and no entry carries either church on. The Scandinavian
+    "continued as" link therefore runs to the Reformation kingdoms (1527). It rests on the see of
+    Skara at both ends and states Denmark's break of 1536-37, graded Inferential-Thin. Whether it
+    should stand until a medieval entry exists is a census-structure call. Mark's call.
+42. **Two "continues as" fields name entries the evidence only influenced (2026-11-08).**
+    `carolingian-reform-christianity` continues as `latin-papal-church-gregorian` (160 years apart,
+    Cluny between), and `cyrillo-methodian-slavic-christianity` continues as `kievan-rus-christianity`
+    (what passed was books and letters, not a community). The era 4 links are typed "influenced".
+    Should the fields be cleared? For Mark or the entry owner.
+43. **Links the sources support but no text names (2026-11-08).** Alcuin's *Against Elipandus*
+    (vendored, PL 100-101) would carry a Documented Carolingian "argued against" Mozarabic link.
+    Lützow (1910) names the Salzburg clergy who opposed Methodius; Férotin (1912) names Cluny's monks
+    in the replacing of the Mozarabic rite. Each needs new prose first. Mark's call.
+44. **The Bogomil entries overlap (2026-11-08).** `bogomils` runs from the tenth century on, and
+    `balkan-bogomil-continuation` covers 1054-1300. Basil's burning (c. 1100) and the Cathar link fall
+    in both. The Cathar link sits on `bogomils`, whose text names it three times. Mark's call.
+45. **No Melkite entry between 1009 and 1724 (2026-11-08).** The Melkite legacy says the communion
+    continues, and the only later entry is the 1724 split, so its "gave rise to" link spans seven
+    centuries (the note says so). Mark's call.
+46. **The Abbasid Church of the East is a stub (2026-11-08).** `church-of-the-east-under-the-abbasids`
+    has empty relations summary, description and legacy; the era 4 pass rewrote only its `why`. For
+    the entry owner.
+47. **The Georgian Golden Age says "silent since 622" (2026-11-08).** `the-georgian-golden-age` (era 5)
+    calls its tradition silent since 622, against the revival entry's monasteries and Iviron, now
+    joined by a "continued as" link. For the era 5 entry owner.
+48. **Dominant Modern Reconstruction on old secondary works (2026-11-08).** Twelve era 4 links carry
+    this grade, several on nineteenth- and early twentieth-century works (Rački 1869, Evans 1877,
+    Mouravieff 1838, Lützow 1910, Brosset 1849). Some of those works retell a medieval narrative
+    rather than reconstruct anything. Both reviewers held that the grade understates rather than
+    overstates, and that dropping to Inferential-Thin would call standard facts thin. A method
+    ruling: what the grade means when it rests on old works, or vendor the medieval texts. Mark's call.
+49. **Two source rules applied in era 4 (2026-11-08).** (a) A retelling centuries later (Herberstein
+    1549, the Kyiv Synopsis 1674, the Malabar chronicle after 1580) is not a primary for ninth- or
+    tenth-century events; it is listed as a secondary. (b) A canon's own text carried in a later
+    collection (Theodosius, 853-858, in Assemani's printing) counts as a primary, at Widely Accepted
+    when it reaches us only in translation. Both reviewers agreed. They change no method rule, but
+    later eras should apply them the same way; P2-L11 should check earlier eras against them.
+50. **Era-4 text outside the links pass (2026-11-08).** Left for each entry's owner:
+    - The Silk Road description ends on a sentence fragment.
+    - The Kievan description's "Envoys…" sentence has no main verb.
+    - The Cluniac summary describes Peter the Venerable, after the entry's 909-1109 window.
+    - Dates the vendored texts give differently: Alopen's arrival (636, not 635); the Kollam plates
+      (Mingana, about 824, not 849); Lund's archbishopric (Anjou, 1103, not 1104).
+    - The late Anglo-Saxon `why` and description state the tenth-century refounding outright (see
+      "Well-known facts with no vendored source", 2026-11-07).
+51. **Cistercians and Cluny (2026-11-08).** The era 5 pass removed every Cluny claim from
     `cistercian-monasticism`: its own text has the founders leave Molesme, and no vendored text ties
     Cîteaux to Cluny. The era 4 `cluniac-reform-monasticism` text still says the Cistercians reacted
     against Cluny. For the era 4 owner.
-42. **Well-known facts with no vendored source, era 5 (2026-11-08).** Added to the method question in
+52. **Well-known facts with no vendored source, era 5 (2026-11-08).** Added to the method question in
     "Well-known facts with no vendored source" (2026-11-07). Era 5 sentences left standing as written,
     each with its wanted text on the era 5 list: the Carmelites' move west, Molesme, the Lavra's
     founding in 963; Lateran IV's dress rule for Jews and Muslims, the Council of Troyes and the
@@ -239,35 +299,35 @@ it, never by deleting it.
     Waldensian name; the memory of 1204 in the Orthodox churches, John Paul II's words in 2001 (the
     drafter doubts "apology" is the exact word), the contested Kyiv Lavra and Kyiv's political weight.
     Two of these (Troyes, the orders of St John) touch bodies with no movement of their own.
-43. **No movement for the Bulgarian church of the Second Empire (2026-11-08).** The Tarnovo synod of
+53. **No movement for the Bulgarian church of the Second Empire (2026-11-08).** The Tarnovo synod of
     1211 against the Bogomils cannot be linked. A census-structure question for Mark, low urgency.
-44. **Long-gap links to modern churches (2026-11-08).** The Georgian golden age and the Serbian and
+54. **Long-gap links to modern churches (2026-11-08).** The Georgian golden age and the Serbian and
     Bulgarian monasteries are not linked to their modern entries (the Georgian church restored in
     1917; the modern Balkan churches, era 9), with centuries and other entries between. Whether such
     links should exist is a mapping ruling for Mark.
-45. **No link type for church jurisdiction (2026-11-08).** A patriarch appointing another church's head
+55. **No link type for church jurisdiction (2026-11-08).** A patriarch appointing another church's head
     bishop is drawn as "influenced" (Caesarea to Armenia, Constantinople to Kyiv) or as "in contact
     with" (Alexandria and Aksum; the Coptic patriarch and Ethiopia). A method question for Mark.
-46. **No Syriac Orthodox movement after 1300 (2026-11-08).** `syriac-renaissance` has nothing to
+56. **No Syriac Orthodox movement after 1300 (2026-11-08).** `syriac-renaissance` has nothing to
     continue as. Portfolio structure, for Mark, low urgency.
-47. **The Abbasid Church of the East has no continuesAs (2026-11-08).**
+57. **The Abbasid Church of the East has no continuesAs (2026-11-08).**
     `church-of-the-east-under-the-abbasids` (era 4) has `continuesAs` null, though the era 5 pass
     added its "continued as" link to `church-of-the-east-under-the-mongols`. A data fix for the era 4
     owner.
-48. **Humiliati sources (2026-11-08).** Innocent III's letters of 1201 (Tiraboschi) and the decree Ad
+58. **Humiliati sources (2026-11-08).** Innocent III's letters of 1201 (Tiraboschi) and the decree Ad
     abolendam of 1184 (Mansi 22, or Friedberg) are not vendored. They would settle the approval year,
     now "around 1200", and the three qualified sentences on 1184.
-49. **The Franciscan order and the Observants, held for P2-L6 (2026-11-08).** Eugenius IV's 1438
+59. **The Franciscan order and the Observants, held for P2-L6 (2026-11-08).** Eugenius IV's 1438
     letter making Bernardino of Siena vicar of the Observant houses (Bullarium Franciscanum, new
     series I, no. 385, lines 34646-34653) documents `franciscan-order-era-6` gave rise to
     `observant-reform-and-popular-preaching`. Drafted in the era 5 pass, dropped there because both
     ends are era 6. The era 5 Franciscan text is carried by
     `the-franciscan-movement--observant-reform-and-popular-preaching` (influenced).
-50. **Two more out-of-era link notes use "we hold" (2026-11-08).** Besides the one in "An era-2 link
+60. **Two more out-of-era link notes use "we hold" (2026-11-08).** Besides the one in "An era-2 link
     note uses internal wording" (2026-11-07): `desert-monasticism--iconophile-byzantine-monasticism`
     and `antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce`. Era 5
     cleared every case touching its own movements. For P2-L11.
-51. **Page recordings read the old descriptions (2026-11-08).** The tree pages play a recording of
+61. **Page recordings read the old descriptions (2026-11-08).** The tree pages play a recording of
     each movement's description, and the link passes rewrite descriptions. In era 5, 16 recorded
     pages now play text that no longer matches the page: `cistercian-monasticism`,
     `canons-regular-victorine-school`, `athonite-and-comnenian-byzantine-monasticism`,
@@ -278,3 +338,6 @@ it, never by deleting it.
     `latin-church-of-outremer`, `the-humiliati`. Eras 1 to 3 likely have the same drift. The
     recording manifest stores no hash of the text it was made from, so nothing catches it. Fixing it
     is a paid voice run: sample first, Mark's approval by ear, settings passed and printed. For Mark.
+62. **"Silent since 622" is fixed (2026-11-08).** The era 5 pass removed the claim from
+    `the-georgian-golden-age`; its summary now says it carries on from the Tao-Klarjeti revival.
+    This closes "The Georgian Golden Age says 'silent since 622'" (2026-11-08).
