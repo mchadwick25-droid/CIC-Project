@@ -800,8 +800,8 @@
    "type": "influenced",
    "confidence": "Documented",
    "note": "A book of worship used by the Kirk prints its confession as the one 'used in the English Congregation at Geneva.' It says the Church of Scotland received and approved it. John Knox had been one of that Geneva congregation's ministers.",
-   "outcome": "In December 1562 the General Assembly ruled that all its churches must use one order for the sacraments, weddings and burials. It was to be the order of the Kirk of Geneva.",
-   "outcome_locus": "Booke of the Universall Kirk (Peterkin 1839), lines 1200-1211 (Session Fifth, last of December 1562).",
+   "outcome": "In 1562 the General Assembly made one rule for all its churches. They must follow the order of the Kirk of Geneva for the sacraments, weddings and burials.",
+   "outcome_locus": "Booke of the Universall Kirk (Peterkin 1839), lines 1200-1211: Session Fifth, holden the last of December 1562.",
    "sources": [
     {
      "kind": "primary",
@@ -846,8 +846,8 @@
    "change_reason": "New. Sources 'Child of Geneva' (qualified to 'Shaped by Geneva') and the Reformed confession.",
    "fre": 63.7,
    "fk": 7.9,
-   "outcome_fre": 62.8,
-   "outcome_fk": 8.3
+   "outcome_fre": 64.7,
+   "outcome_fk": 7.6
   },
   {
    "id": "the-scottish-reformation-and-kirk--the-tridentine-church",

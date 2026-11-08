@@ -1,0 +1,1287 @@
+{
+ "group": "G",
+ "movements": [
+  "st-thomas-christians-under-portuguese-pressure-d",
+  "ethiopian-christianity-gragn-to-fasilides",
+  "church-of-the-east-schism-of-1552"
+ ],
+ "dispositions": [
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the earlier Thomas Christian tradition",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 0,
+   "reason": "Documented continuity: the 1504 note, the Diamper acts and the 1787 community document."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "relationsSummary",
+   "sentence": "the 1653 oath's lines become today's Kerala churches",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "prose_change": 0,
+   "reason": "The 1787 Malankara document and Philipos (1869) carry the 1653 party into the nineteenth-century Kerala churches."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "relationsSummary",
+   "sentence": "the modern Kerala and Northeast India churches descend from it",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Wrong for Northeast India: the era-9 entry's own description has the hill churches planted by Welsh and American missions. The Kerala half stays, carried by the link to the era-9 entry."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "longDescription",
+   "sentence": "had for centuries received their bishops from the Church of the East",
+   "other_id": "church-of-the-east-schism-of-1552",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 1,
+   "reason": "In the window the tie runs to the contemporary Church of the East entry (Gouvea's 'Mar Simon', Diamper Decree VIII). The centuries before 1517 sit between the two era-6 entries (St Thomas 1300-1517 and Timur to Hakkari), out of scope here; the inventory's other_id was the era-6 entry."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "longDescription",
+   "sentence": "in 1599 Archbishop Aleixo de Menezes convened a synod at Diamper that placed the community under Latin jurisdiction, revised its liturgy, and ordered its Syriac books corrected or burned",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 1,
+   "reason": "The Diamper acts (Hough App. A) bind the diocese to Trent and condemn the Syriac books. Sentence kept in substance, split for readability."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "longDescription",
+   "sentence": "swore they would no longer obey the Jesuits",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--the-society-of-jesus",
+   "prose_change": 1,
+   "reason": "Sebastiani (1666) and the 1787 document. The scene at the stone cross is qualified as tradition."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "why",
+   "sentence": "had worshipped in Syriac under bishops from the Church of the East for centuries",
+   "other_id": "church-of-the-east-schism-of-1552",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 2,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "why",
+   "sentence": "until a 1599 synod placed them under Latin jurisdiction and ordered their Syriac books corrected or burned",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 2,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "why",
+   "sentence": "swore they would no longer obey the Jesuits",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--the-society-of-jesus",
+   "prose_change": 2,
+   "reason": "As in the description; rope scene qualified as tradition."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "legacy",
+   "sentence": "Those who returned to Rome became the Syro-Malabar Catholic Church, now one of the largest Eastern Catholic churches in the world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the Syro-Malabar Church. Checked: Philipos (1869, lines 2161-2164) says the churches not won back 'still continue Romish' with a Syriac liturgy; Sebastiani's mission (1657-58) shows the return to Rome under way. Kept."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "legacy",
+   "sentence": "Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "prose_change": null,
+   "reason": "Mar Thoma and the nineteenth-century Malankara church are the era-9 entry."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "legacy",
+   "sentence": "Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "prose_change": null,
+   "reason": "The era-10 Malankara entry is the same Kerala community after 1912, reached through the era-9 entry; no direct era-7 to era-10 link is drawn. The era-9 to era-10 step belongs to those eras' passes."
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "legacy",
+   "sentence": "All of them still worship in liturgies descended from the Syriac tradition Diamper set out to correct, and the bent cross at Mattancherry is still there.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes worship today, not a tie to another entry."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "sentence": "Ahmad Gragn's jihad devastates the church (1529-43)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Adal forces have no census entry. Checked: the Futuh al-Habasha (Basset 1897) and Castanhoso record the campaigns and church burnings."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "sentence": "Wayna Daga (1543) saves it",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Portuguese forces have no entry. Castanhoso (Whiteway 1902) narrates the battle of Wainadega, 1543."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "sentence": "the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "prose_change": 3,
+   "reason": "Telles on the disputations and the emperor's conversion."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "sentence": "Fasilides's restoration and expulsion of the Jesuits (1632)",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "prose_change": 3,
+   "reason": "Telles (the proclamation) and Lobo (expelled 1634). Date corrected."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "sentence": "the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "An interpretive reading of the era. The concrete pressure it names reached Ethiopia through the Jesuit mission, carried by the two Jesuit links; a separate Rome link would duplicate them."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "From 1529 the armies of Ahmad ibn Ibrahim al-Ghazi — remembered as Gragn, the left-handed — swept through the highlands, burning churches and monasteries and destroying manuscripts on a scale that still limits what can be known about earlier Ethiopian history.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the Adal sultanate. Checked against the Futuh al-Habasha and Basset's notes (e.g. the burning of Debre Libanos). Kept."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "The invasion was broken only at the battle of Wayna Daga in 1543, with Portuguese help.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the Portuguese expedition. Castanhoso and the letters in Whiteway (1902) support it. Kept."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it, provoking a revolt so fierce that he abdicated in 1632.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "prose_change": null,
+   "reason": "The Jesuit disputations and conversion (Telles)."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it, provoking a revolt so fierce that he abdicated in 1632.",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Catholicism' names the faith the Jesuits brought; the tie is carried by the Jesuit links. 'Abdicated' is not checked against a vendored text (Telles and Ludolf describe the succession of Fasilides, not a formal abdication); left as an open well-known fact."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "His son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Lobo, Telles."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "longDescription",
+   "sentence": "His son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar.",
+   "other_id": "the-ethiopian-monastic-flowering",
+   "disposition": "link",
+   "link_id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "prose_change": null,
+   "reason": "'Restored the ancient church' names the church's continuity with its pre-1517 self."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "why",
+   "sentence": "The Portuguese help that won that battle brought Jesuits who later converted Emperor Susenyos to Catholicism",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "why",
+   "sentence": "his son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "why",
+   "sentence": "From 1529 the armies of Ahmad ibn Ibrahim al-Ghazi, remembered as Gragn, burned Ethiopian churches, monasteries and manuscripts",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "legacy",
+   "sentence": "The Ethiopian Orthodox Tewahedo Church survives as one of the largest of the Oriental Orthodox churches, with tens of millions of members, still keeping its own calendar, its Ge'ez liturgy, its long fasts and the tabot at the center of every church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Oriental Orthodox churches' is a family, not an entry. The church's survival to today runs through the era-9 and era-10 Ethiopian entries; no era-8 Ethiopian entry exists, and an era-7 to era-9 link is not named here. Note for the era-9 pass."
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "legacy",
+   "sentence": "And the memory of this period — an invasion survived, a foreign form of the faith refused — remains part of how the church understands itself.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "'A foreign form of the faith refused' is the break with the Jesuits."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "sentence": "he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555)",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--the-tridentine-church",
+   "prose_change": 4,
+   "reason": "Masius and Assemani. 'St Peter's' unsupported, dropped; 'martyred' made neutral."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "sentence": "the Chaldean line begins and the communion carries two rival patriarchates ever after",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "prose_change": 4,
+   "reason": "The two lines continue into the era-9 entry. 'The Chaldean line begins' is dropped as contested (see the legacy)."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "sentence": "kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "prose_change": 4,
+   "reason": "Gouvea and Diamper show the Malabar church under the patriarch until 1599. The century is corrected: the 1552 schism is sixteenth-century."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "sentence": "Told within the Church of the East, Timur to Hakkari",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "prose_change": 4,
+   "reason": "Masius and the patriarch lists carry the hereditary line into the schism. Cataloguing wording replaced."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "sentence": "with the Chaldean consolidation as the continuation",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "prose_change": 4,
+   "reason": "As above."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "longDescription",
+   "sentence": "once a communion that had reached as far as China",
+   "other_id": "the-church-of-the-east-on-the-silk-road",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the same church's former reach; the chain from the Silk Road entry runs through existing continued-as links in eras 4 to 6."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "longDescription",
+   "sentence": "its highest office had become hereditary, passing from uncle to nephew inside a single family",
+   "other_id": "church-of-the-east-timur-to-hakkari",
+   "disposition": "link",
+   "link_id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "prose_change": null,
+   "reason": "Masius; Assemani no. 91 ('ex fratre nepos')."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "longDescription",
+   "sentence": "In 1552 a party opposed to that arrangement elected a monastery superior, Yohannan Sulaqa, and sent him to Rome.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--the-tridentine-church",
+   "prose_change": null,
+   "reason": "Masius; Assemani 1725. Masius gives 1551 for the patriarch's death and the election; Assemani early 1552. Kept."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "longDescription",
+   "sentence": "The line he had begun continued anyway, and from that point the ancient communion has carried two rival patriarchates — a division that has never fully healed.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "prose_change": null,
+   "reason": "Badger, Maclean-Browne, Lamy, Wigram."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "why",
+   "sentence": "traveled to Rome, was consecrated patriarch there in 1553",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--the-tridentine-church",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "why",
+   "sentence": "beginning a division into two rival patriarchates that has never fully healed",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "link",
+   "link_id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "prose_change": null,
+   "reason": "As in the description."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "sentence": "The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East",
+   "other_id": "the-tridentine-church",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Which line left Rome is disputed in the cited sources (Lamy against Badger and Wigram), and the drift falls after 1650. No 'broke with' link is drawn; the sentence is attributed to the 1877 Catholic list and the other account named."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "sentence": "continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No separate entry for the Assyrian Church of the East; its nineteenth-century form is in the era-9 consolidation entry."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "sentence": "while the older line he had challenged entered communion with Rome in the nineteenth century",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Joins the era-9 Chaldean consolidation to the era-9 Catholic Church; for the era-9 pass."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "sentence": "became the Chaldean Catholic Church, today the largest Christian body in Iraq",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "The continuity is carried by the continued-as link; which line became Chaldean is qualified as contested."
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "sentence": "the two churches have been in formal dialogue since the 1990s",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A tie between two present-day churches with no separate entries; a 1990s fact that no pre-1930 text can carry. Left under the open Open-Gaps item on well-known facts with no vendored source."
+  }
+ ],
+ "links": [
+  {
+   "id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "st-thomas-christians-1300-1517",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1504 a bishop named Jacob wrote that the patriarch Elijah had made four bishops for India. Jacob was one of them. In 1599 the Synod of Diamper said all this church's bishops had come 'from Babylon', the seat of the Church of the East. A Malankara paper of 1787 says Syriac bishops led them until Mar Abraham died in 1596.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Note of the bishops of India, 1504, in English translation in A. Mingana, The Early Spread of Christianity in India (1926)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "2061-2063",
+     "locus": "note of 1504",
+     "quote": "And  this  Father  Mar  Elijah  ordained  the  following bishops  for  India  :  Mar  Yahb  Alaha,  and  Mar  Thomas  as  arch¬ bishops,  and  Mar  Dinha  and  me,  the  humble  Jacob,  as  bishops,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "34293-34295",
+     "locus": "Session V, Decree I",
+     "quote": "all  the  bishops  that came  hither  from  Babylon  having  been  schismatics  and  Nes- torian  heretics,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "29991-29992",
+     "locus": "Session I, opening",
+     "quote": "the see  being  vacant  by  the  death  of  the  Archbishop  Mar  Abraham,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19295-19297",
+     "locus": "Appendix E",
+     "quote": "Upon this Chaldaic Syrian Bishops ruled over us up to the time of the death of the Metropolitan Mar Abraham,! which took place in the East Church of AngamAle in the year 1596.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book IV on the first session of the synod",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "3646-3649",
+     "locus": "Book IV",
+     "quote": "they were  being  separated  from  the  Patriarch  of Babylon,  who  had  governed  them  for  so  many years,",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'A continuation of the earlier Thomas Christian tradition'; longDescription/why: 'had for centuries received their bishops from the Church of the East'",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The 1504 note is read in Mingana's 1926 English; the Syriac is not vendored. Mingana's file is public domain by date (header).",
+    "Diamper is a hostile witness, but here it states the community's long dependence on bishops from Babylon, which it set out to end. The 1787 document is the community's own voice, in Whitehouse's English.",
+    "The 1517-1599 years (Mar Jacob, Mar Joseph, Mar Abraham) fall in no census entry; the Diamper acts and the 1787 document bridge them."
+   ],
+   "change_reason": "New: names the continuity the summary states, on the 1504 note, the Diamper acts and the 1787 Malankara document.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 73.6,
+   "fk": 6.5
+  },
+  {
+   "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "the-tridentine-church",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1599 the Archbishop of Goa, Aleixo de Menezes, held a synod at Diamper and bound it to the Council of Trent. Its decrees called the community's Syriac books the work of Nestorian heretics. They forbade anyone to read them and ordered them destroyed.",
+   "outcome": "The synod condemned the community's Syriac books and ordered them destroyed. It also bound the church to the rules of the Council of Trent.",
+   "outcome_locus": "Hough App. A, Session III Decree XIV heading and text, lines 31939-31951; Session III Decree XXI, lines 32704-32708 (both listed below).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "30340-30343",
+     "locus": "Session II, Decree I (profession of faith according to the Council of Trent)",
+     "quote": "That  this  Synod  may  in  all  things  govern  itself  according to  the  directions  of  the  holy  canons,  and  tread  in  the  footsteps of  the  holy  general  councils,  and  particularly  of  the  holy  coun- cil of  Trent,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31939-31940",
+     "locus": "Session III, Decree XIV, heading",
+     "quote": "CONDEMNS  MANY  SYRIAN  BOOKS,  FORBIDS  ALL  CHRISTIANS  TO READ  THEM,  AND  COMMANDS  THAT  THEY  BE  DESTROYED.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31948-31951",
+     "locus": "Session III, Decree XIV",
+     "quote": "the  Synod  knowing  that  this  bishopric  is  full  of  books  writ in  the  Syrian  tongue  by  Nestorian  heretics,  and  persons  of other  devilish  sects,  which  abound  with  heresies,  blasphemies and  false  doctrines,  doth  command",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "32704-32708",
+     "locus": "Session III, Decree XXI",
+     "quote": "doth  embrace  the  last  holy *H*  and  sacred  council  of  Trent,  and  does  not  only  believe  and confess  all  that  was  determined  and  approved  of  therein,  and reject  and  anathematize  all  that  that  council  rejected  and  con- demned;",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "longDescription: 'in 1599 Archbishop Aleixo de Menezes convened a synod at Diamper that placed the community under Latin jurisdiction, revised its liturgy, and ordered its Syriac books corrected or burned'; why: 'a 1599 synod placed them under Latin jurisdiction'",
+   "drafter_flags": [
+    "Era-7 to era-7 link: the-tridentine-church is in another group; draft here because this movement's text names the synod. The merge should check for a duplicate if the Tridentine drafter also drew Diamper.",
+    "Diamper was a diocesan synod under the Augustinian archbishop of Goa, not a Roman act; it is placed under the Tridentine Church because its own decrees bind the diocese to Trent (Decrees I of Session II and XXI of Session III).",
+    "Session numbering: the profession-of-faith decree at line 30340 follows the SESSION II header at 30310."
+   ],
+   "change_reason": "New: Diamper's decrees name the community's books and bind it to Trent.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 60.5,
+   "fk": 8.4,
+   "outcome_fre": 64.2,
+   "outcome_fk": 7.3
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Until 1599 the Malabar church named the patriarch of the Church of the East at every Mass. A Portuguese book of 1606 tells of priests at Diamper who mourned 'our Patriarch of Babylon, who governed us so many years.' They called him Mar Simon.",
+   "outcome": "The Synod of Diamper banned the Malabar church from naming or obeying the Patriarch of Babylon. The penalty was to be cut off from the church.",
+   "outcome_locus": "Hough App. A, Session III Decree VIII, heading at lines 31641-31643 and text at 31663-31665 (both listed).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Gouvea, Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Coimbra, 1606)",
+     "file": "cic/texts/gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+     "lines": "10194",
+     "locus": "Book I, the first day of the synod",
+     "quote": "A menhàm fe dà fim pera féprcao noffo Patriarcha de Babylonia,quenosgouernoutãtos annos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Gouvea, Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Coimbra, 1606)",
+     "file": "cic/texts/gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+     "lines": "10195-10197",
+     "locus": "Book I, the first day of the synod",
+     "quote": "Ia nam nomearemos no officio diuino ? & naMifía MarSimon,como nomeauàmos (que afsim fechamaua o Patriarcha,quc então goucrna-' ua).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31641-31643",
+     "locus": "Session III, Decree VIII, heading",
+     "quote": "FORBIDS  THE  ACKNOWLEDGING  OF  THE  PATRIARCH  OF  BABYLON, OR  ANT  SUPREME  PASTOR,  BUT  THE  POPE  OF  ROME,  UPON FAIN    OF    EXCOMMUNICATION.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31663-31665",
+     "locus": "Session III, Decree VIII",
+     "quote": "whereas  the  Patri- archs of  Babylon,  to  whom  this  church  was  subject,  are Nestorians,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Geddes, A Short History of the Church of Malabar (1694), on the sending of Mar Abraham",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "3370-3374",
+     "locus": "Short History",
+     "quote": "they fent fecretly to Mar Simeon, Patriarch of Baby- lon, defiring him to order them a new Arch-Bi- fhop, who ftraightwaysfent them one Mar Abra- ham,",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "St Thomas longDescription/why: 'received their bishops from the Church of the East'; 1552 relationsSummary: 'kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal'",
+   "drafter_flags": [
+    "Also named in church-of-the-east-schism-of-1552 (same group).",
+    "Gouvea's Portuguese is a garbled OCR text layer; the quotes are verbatim from it. They read: 'Tomorrow an end is put for ever to our Patriarch of Babylon, who governed us so many years. Now we shall not name Mar Simon in the divine office and the Mass, as we used to (for so the Patriarch who then governed was called).'",
+    "Which line 'Mar Simon' of 1599 belonged to (Sulaqa's successors or the hereditary line) is not said; the note does not say.",
+    "'In contact with' is the closest type for a church province's tie to its patriarch, as for the era-4 Abbasid link to the same community."
+   ],
+   "change_reason": "New: the Malabar church's tie to the patriarch in the window, and Diamper's cutting of it.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 72.3,
+   "fk": 6.7,
+   "outcome_fre": 70.0,
+   "outcome_fk": 6.7
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--the-society-of-jesus",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "the-society-of-jesus",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In 1653 the Malabar Christians swore they would never again accept the Jesuit archbishop, Francisco Garcia. A Carmelite envoy sent by Rome wrote down the oath in 1666. The community's own paper of 1787 says their forefathers swore to have nothing more to do with the Jesuits.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giuseppe di Santa Maria Sebastiani, O.C.D., Prima speditione all'Indie Orientali (Rome, 1666)",
+     "file": "cic/texts/sebastiani_prima-speditione-indie-orientali-ita_1666.txt",
+     "lines": "663-666",
+     "locus": "Book I, chap. 2",
+     "quote": "Recarono tanto efacerbati per quello i Popoli della Serra , che radunati nella Chiefa di quel luogo giurarono ne SS.Euan- gelij dinanzi ad vn Crocififlò pollo fopra l’Altare,che mai più riconofcerebbcro per loro Prelato D.Francefco Garzia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19303-19305",
+     "locus": "Appendix E",
+     "quote": "Upon this our forefathers assembled at Muttan- cherry, and took an oath that neither they themselves, nor their descendants, should ever have anything to do with the Paulists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19299-19300",
+     "locus": "Appendix E",
+     "quote": "Then the Paulists (Jesuits) stopped the arrival of other Syrians, and oppressed our people,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Hough, The History of Christianity in India, vol. 2 (1839), Book VI ch. 1 on the Jesuit prelates and the revolt of 1653",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "18311-18312",
+     "locus": "Book VI ch. 1",
+     "quote": "He  was  followed  by  Francis Garcia,  another  Jesuit,",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "longDescription: 'swore they would no longer obey the Jesuits'; why: 'swore they would no longer obey the Jesuits'",
+   "drafter_flags": [
+    "Era-7 to era-7 link: the-society-of-jesus is in another group; the merge should check for a duplicate.",
+    "No Jesuit-authored account of 1653 is vendored. The Roman side is the Carmelite delegate Sebastiani (in Malabar 1657-58), the community side its 1787 document. Graded Documented on these two; a reviewer may prefer Widely Accepted until a Jesuit letter is found (in wants).",
+    "Sebastiani places the oath inside the church, before a crucifix on the altar, and against Garcia by name. The rope-and-stone-cross scene is tradition; the movement text is qualified to say so (prose changes 1 and 2).",
+    "The 1787 document says 'Paulists'; the bracket '(Jesuits)' is in the printed English."
+   ],
+   "change_reason": "New: the oath of 1653, on the Carmelite and the community's own accounts.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 61.2,
+   "fk": 8.4
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1787 'all the Church people of Malankara' signed a document recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam told the same story of his church. He wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19286-19289",
+     "locus": "Appendix E, heading",
+     "quote": "THE DOCUMENT signed by all the Church people of Malankara (beginning with Angamdle) who were assembled in the Large Church of Anga- mdle, on the first of February (old reckoning) in the year of our Lord, 1787,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19303-19305",
+     "locus": "Appendix E",
+     "quote": "Upon this our forefathers assembled at Muttan- cherry, and took an oath that neither they themselves, nor their descendants, should ever have anything to do with the Paulists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869), answer to Q. 69",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2159-2161",
+     "locus": "Q. 69",
+     "quote": "After  this,  in  1685,  Mar  Evanious  the  Bishop  came from  Antioch,  and  with  much  difficulty  redeemed  the  now existing  Syrian  churches  from  the  Portuguese;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), narrative chapters on the Syrian church after 1653",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George Broadley Howard, The Christians of St. Thomas and their Liturgies (1864), chap. III on the later history",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'the 1653 oath's lines become today's Kerala churches'; legacy: 'Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches'",
+   "drafter_flags": [
+    "Era 9, not era 6: no cross-era flag needed. There is no era-8 Malabar entry, so the link spans 1665-1836.",
+    "The era-9 entry also covers the Northeast India hill revivals, which have no tie to this community; the link concerns only its Kerala half.",
+    "Philipos dates the return of the churches to 1685 (Mar Evanious from Antioch) and says all Syrians were Roman for 86 years after 1599. That is his community's memory and does not match the 1653 date; the note quotes him without the 86-year claim.",
+    "Whitehouse and Howard are cited as narratives, without loci."
+   ],
+   "change_reason": "New: the line from the 1653 party to the nineteenth-century Kerala churches.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 63.1,
+   "fk": 8.3
+  },
+  {
+   "id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "from": "the-ethiopian-monastic-flowering",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In the 1520s a Portuguese priest came to the monastery of Debre Libanos. Its head was the first churchman in the land after the bishop. That bishop, Abuna Marcos, ordained all of Ethiopia's priests. A century later a Jesuit wrote that many of the new Catholics longed to go back to 'the Church of Alexandria'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Alvares, Narrative of the Portuguese Embassy to Abyssinia, 1520-1527, trans. Lord Stanley of Alderley (Hakluyt Society, 1881)",
+     "file": "cic/texts/alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt",
+     "lines": "7619-7621",
+     "locus": "chap. 96 (lxvi in the OCR), the burial of the Ichege of Debre Libanos",
+     "quote": "This  Ichee  of  this  monastery  is  the greatest  prelate  there  is  in  these  kingdoms,  exclusive  of the  Abima  Marcos,  who  is  over  all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Alvares, Narrative of the Portuguese Embassy to Abyssinia, 1520-1527, trans. Lord Stanley of Alderley (Hakluyt Society, 1881)",
+     "file": "cic/texts/alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt",
+     "lines": "3500-3502",
+     "locus": "on the orders of the clergy",
+     "quote": "All  are  ordained  by  the  Abima  Markos, for  in  all  the  kingdoms  of  Ethiopia  there  is  no  other  bishop or  person  who  ordains.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome Lobo, S.J., A Voyage to Abyssinia, Samuel Johnson's English from Le Grand's French (1735)",
+     "file": "cic/texts/lobo_voyage-to-abyssinia_johnson1735.txt",
+     "lines": "3537-3540",
+     "locus": "the persecution under Sultan Segued",
+     "quote": "many of the Abyssins who had done the same, waited only for an opportunity of making public profession of the ancient erroneous opinions, and of re-uniting themselves to the Church of Alexandria.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "longDescription: 'reasserted itself', 'restored the ancient church'; legacy: 'The Ethiopian Orthodox Tewahedo Church survives'",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The inventory lists no relationship here; drafted because the text's 'restored the ancient church' names the church's own past. The merge may drop it if the era-6 drafters drew the same pair.",
+    "Alvares does not name Takla Haymanot as the founder of Debre Libanos; the tie to the era-6 monastic movement rests on that being the era-6 entry's own house, which its sources show.",
+    "Chapter numbering in the Alvares OCR is unclear; the locus names the chapter by its title."
+   ],
+   "change_reason": "New: the church's continuity across the Gragn wars, on Alvares and Lobo.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 63.7,
+   "fk": 7.8
+  },
+  {
+   "id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "from": "ethiopian-christianity-gragn-to-fasilides",
+   "to": "the-society-of-jesus",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "A Jesuit history gives the emperor's words ending the Catholic years: 'we restore you the Faith of your Fore-Fathers.' The Jesuit Jerome Lobo wrote that his order was 'expelled in 1634'. He says the court planned to hand the priests over to the Turks.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "18963-18964",
+     "locus": "Book II, the restoration proclamation",
+     "quote": "at length Proclamation was made in these Words, Hear, Hear, we first. gave you this Faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "18967",
+     "locus": "Book II, the restoration proclamation",
+     "quote": "for which Reason we restore you the Faith of your Fore- Fathers.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome Lobo, S.J., A Voyage to Abyssinia, Samuel Johnson's English from Le Grand's French (1735)",
+     "file": "cic/texts/lobo_voyage-to-abyssinia_johnson1735.txt",
+     "lines": "1667-1669",
+     "locus": "Lobo's introduction",
+     "quote": "Sultan Segued, who called us into his dominions in the year 1625, from whence we were expelled in 1634.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome Lobo, S.J., A Voyage to Abyssinia, Samuel Johnson's English from Le Grand's French (1735)",
+     "file": "cic/texts/lobo_voyage-to-abyssinia_johnson1735.txt",
+     "lines": "3657-3658",
+     "locus": "the expulsion",
+     "quote": "At length they came to a resolution of giving us up to the Turks,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'Fasilides's restoration and expulsion of the Jesuits (1632)'; longDescription: 'His son Fasilides expelled the Jesuits, restored the ancient church'; legacy: 'a foreign form of the faith refused'",
+   "drafter_flags": [
+    "Era-7 to era-7 link: the-society-of-jesus is in another group; the merge should check for a duplicate.",
+    "Both quotes are Jesuit. The Ethiopian side is the emperor's own proclamation, but only as Telles gives it; the court chronicle of Susenyos (Pereira) is not vendored (in wants). A reviewer may prefer Widely Accepted.",
+    "Telles's OCR is rough ('we first. gave you', 'pul'); quotes are as found.",
+    "Lobo's 1634 is the date of the final expulsion; the summary's '(1632)' is corrected in prose change 3."
+   ],
+   "change_reason": "New: the restoration of 1632 and the expulsion of 1634.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 75.4,
+   "fk": 6.6
+  },
+  {
+   "id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "from": "the-society-of-jesus",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Jesuit priests argued against Ethiopian teaching in public debates. A Jesuit history says the emperor, won over, let all his people take up 'the Faith the Fathers preach'd'. It adds that many great men took the Catholic faith in public.",
+   "outcome_considered": "The emperor's decrees for the Catholic faith followed the debates, but his own proclamation of 1632 reversed them and no decree lasted. The lasting rupture is carried by the separate 'broke with' link. A bishop's excommunication of converts does not count.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15957-15959",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "The Emperor, and many more be- ing now convinc'd of the Truth ot the Catholick Faith, aud many great Men publickly professing it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15971-15973",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "Proclamation should be made, to give Leave to all Per- sous to embrace the Faith the Fathers preach d, and had been justi- yd in the publick Disputations, which was accordingly done.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682), Book III on the church and its contentions with the Jesuits (file ludolf_new-history-of-ethiopia_jp1682.txt)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "longDescription: 'That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it'; relationsSummary: 'the Jesuit interlude ends in Susenyos's Catholicism (1622)'",
+   "drafter_flags": [
+    "Era-7 to era-7 link: the-society-of-jesus is in another group; the merge should check for a duplicate.",
+    "Two links on this pair (argued against, broke with); each rests on its own passages.",
+    "The OCR line 15960 says the proclamation banned teaching 'but one Nature in Christ'; it is not quoted because the margin note runs into it."
+   ],
+   "change_reason": "New: the Jesuit disputations and the conversion they produced.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 64.3,
+   "fk": 7.6
+  },
+  {
+   "id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "from": "church-of-the-east-timur-to-hakkari",
+   "to": "church-of-the-east-schism-of-1552",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The patriarchs of the Church of the East ran in one line into the 1550s. Andreas Masius, who met Sulaqa in Rome, wrote that the patriarch died in 1551 with no metropolitan left to consecrate a successor. He blamed the dead man's wish to keep the office in his own family.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghislain de Busbecq on Sulaqa at Rome, as quoted in J. S. Assemani, Bibliotheca Orientalis, vol. 1 (Rome, 1719), chap. 47 'Joannes Sulaca Chaldaeorum Patriarcha'",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt",
+     "lines": "107816-107820",
+     "locus": "vol. 1, p. 523ff., Masius's letter",
+     "quote": "Anno autem poft Chriflum natum 1551. evenifet , ut mortuo ipforum Patriarcha , atque alho Sulaca five Siud nomine electo, ne unus quidem \"effet AMetrapolitanus reliquus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101046",
+     "locus": "no. 91",
+     "quote": "Simeon  qui  & Dcnha , co- gnomento Bar-Mama , Simeonis  cu- jus fupri  fafla  eft mentio,  ex  fratre nepos,  anno  Chrifti  IJ52.  Sedem invafit",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7345-7347",
+     "locus": "chap. VII",
+     "quote": "Thus it was that when the Patriarch Shimun bar Mama died in the year 1552, his nephew, Shi- mun Dinkha, claimed the succession as of right.",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'Told within the Church of the East, Timur to Hakkari'; longDescription: 'its highest office had become hereditary, passing from uncle to nephew inside a single family'",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "Masius's phrase on the family is in the lines that follow the quote (107820-107826, broken by blank lines in the OCR); it was not quoted for that reason. The OCR is very noisy ('alho', 'AMetrapolitanus').",
+    "Masius gives 1551 for the patriarch's death, Wigram 1552; the note follows Masius.",
+    "Assemani and Lamy are later Roman-side compilations, treated as secondary."
+   ],
+   "change_reason": "New: the hereditary patriarchate carried into the schism.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 73.2,
+   "fk": 7.2
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552--the-tridentine-church",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "the-tridentine-church",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Andreas Masius wrote that Sulaqa's supporters sent him to Rome with letters. A Vatican scholar's list of 1725 says he made a profession of faith there in February 1553. Pope Julius III then proclaimed him patriarch of the Chaldeans.",
+   "outcome": "Pope Julius III made Sulaqa patriarch in 1553 while his rival held the old see, so the church had two rival patriarchs.",
+   "outcome_locus": "Assemani 1725, lines 101042-101046 (Bar-Mama 'Sedem invasit', 1552) and 101071-101076 (Sulaqa proclaimed by Julius III), both listed; 30 lines apart.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghislain de Busbecq on Sulaqa at Rome, as quoted in J. S. Assemani, Bibliotheca Orientalis, vol. 1 (Rome, 1719), chap. 47 'Joannes Sulaca Chaldaeorum Patriarcha'",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt",
+     "lines": "107829-107832",
+     "locus": "vol. 1, Masius's letter",
+     "quote": "eum quem fibi ut dixi , Patriarcham defi- pgnuarant Sulacam cum literis Kamam ablegaverunt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghislain de Busbecq on Sulaqa at Rome, as quoted in J. S. Assemani, Bibliotheca Orientalis, vol. 1 (Rome, 1719), chap. 47 'Joannes Sulaca Chaldaeorum Patriarcha'",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt",
+     "lines": "107599-107601",
+     "locus": "vol. 1, Assemani introducing Masius",
+     "quote": "Ejus ordinationem defcribit An- dreas Mafius, qui eundem Romæ vidit & alloguutus eft",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101071-101076",
+     "locus": "no. 92",
+     "quote": "Die 20.  Februarii  Icquentis  anni  profef- fionem  fidei  cmilit,  & 9.  Aprilis  i Julio  III.  Summo  Pontifice  Chal- dxorum  ecclefii  Mulal  Patriarcha proclamatus  fuit .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis, vol. 3 part 1 (Rome, 1725), dated series of the patriarchs of the East, nos. 89-92",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101046",
+     "locus": "no. 91",
+     "quote": "Simeon  qui  & Dcnha , co- gnomento Bar-Mama , Simeonis  cu- jus fupri  fafla  eft mentio,  ex  fratre nepos,  anno  Chrifti  IJ52.  Sedem invafit",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852), chap. XI, quoting Mosheim",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'he professes at Rome (1553), is consecrated in St Peter's'; longDescription: 'sent him to Rome. He made a profession of faith there, was consecrated patriarch in 1553'; why: 'traveled to Rome, was consecrated patriarch there in 1553'",
+   "drafter_flags": [
+    "Era-7 to era-7 link: the-tridentine-church is in another group; the merge should check for a duplicate.",
+    "Masius's 'Kamam' is the OCR for 'Romam'; quoted as found. Line 107599 is Assemani's sentence saying Masius saw and spoke with Sulaqa at Rome.",
+    "The note's 'patriarch of the Chaldeans' renders Assemani's 'Chaldaeorum ecclesiae Musal Patriarcha'.",
+    "No vendored source names St Peter's as the place of consecration; the summary is rewritten without it (prose change 4).",
+    "Abdisho IV's profession at Rome in 1562 (Assemani 101088-101095) and his written acceptance of Trent's decrees (Assemani 1719, lines 107547-107551) would carry a Trent-specific tie; not used, to keep the link on what the text names."
+   ],
+   "change_reason": "New: Sulaqa at Rome, and the two patriarchates that followed.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 66.3,
+   "fk": 7.1,
+   "outcome_fre": 68.7,
+   "outcome_fk": 8.9
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "church-of-the-east-chaldean-consolidation",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Two patriarchs of the Church of the East still ruled in the 1800s, one in the Hakkari mountains and one on the plain near Mosul. English visitors writing in 1852 and 1892 traced both to the disputed election of the sixteenth century. They disagree about which line came from Sulaqa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852), chap. XI",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7901-7903",
+     "locus": "chap. XI",
+     "quote": "According  to  their  account,  this  Shimoon  was  recognized  by them,  and  from  him  the  patriarchate  has  descended  to  the  pre- sent occupant  Mar  Shimoon,  the  eleventh  of  that  name.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (1892), Introductory",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "807-809",
+     "locus": "Introductory",
+     "quote": "A disputed succession to the patriarchate divided them into two parts in the sixteenth century.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (1892), Introductory",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "815-818",
+     "locus": "Introductory",
+     "quote": "This last body, after many fluctuations, has allied itself with the Church of Rome, and is known as the “ Uniat Chaldean Church.”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series II and III of the patriarchs (file barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 29078-29460)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7459-7461",
+     "locus": "chap. VII",
+     "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain.",
+     "license": "public-domain"
+    }
+   ],
+   "named_in": "relationsSummary: 'the Chaldean line begins and the communion carries two rival patriarchates ever after', 'with the Chaldean consolidation as the continuation'; longDescription: 'the ancient communion has carried two rival patriarchates'; legacy: 'became the Chaldean Catholic Church'",
+   "drafter_flags": [
+    "No era-8 Church of the East entry, so the link spans 1650-1815.",
+    "Which line is which is Contested in the cited sources: Lamy (1877) runs Sulaqa's line to the later Shimun patriarchs of Qudshanis; Badger (1852) reports the mountain church's own claim to descend from Sulaqa's rival, and Wigram (1929) agrees with Badger. The continuity of the divided communion is not in dispute, so the link is Widely Accepted and the note names the disagreement. The legacy is qualified (prose change 5).",
+    "Badger and Maclean-Browne are primary for the nineteenth-century church they saw, secondary for the sixteenth-century history."
+   ],
+   "change_reason": "New: the two patriarchal lines carried into the nineteenth-century entry.",
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 67.2,
+   "fk": 7.9
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "relationsSummary",
+   "old": "A continuation of the earlier Thomas Christian tradition; the 1653 oath's lines become today's Kerala churches, and the modern Kerala and Northeast India churches descend from it.",
+   "new": "It carries on the older church of the St Thomas Christians. The split that came after the 1653 oath still shapes the churches of Kerala. Its heirs are the Syro-Malabar Catholics and the Malankara and Mar Thoma churches.",
+   "reason": "'the modern Kerala and Northeast India churches descend from it' is wrong for Northeast India: the era-9 entry's own text says the hill churches were planted by Welsh and American missions. The Kerala part is kept and carried by the links from the earlier Thomas Christians and to the nineteenth-century Kerala churches; the heirs are named as in the legacy field. Whole field rewritten to pass the readability floor.",
+   "fre_after": 67.1,
+   "fk_after": 7.1
+  },
+  {
+   "n": 1,
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "longDescription",
+   "old": "The Christians of the Malabar coast traced their church to the apostle Thomas and had for centuries received their bishops from the Church of the East, worshipping in Syriac. The Portuguese found this puzzling and then intolerable, and in 1599 Archbishop Aleixo de Menezes convened a synod at Diamper that placed the community under Latin jurisdiction, revised its liturgy, and ordered its Syriac books corrected or burned. Half a century of resentment came to a head on 3 January 1653, when a crowd gathered at a stone cross in Mattancherry, tied ropes to it and swore they would no longer obey the Jesuits. The Coonan Cross Oath, so called because the cross was said to have bent under the strain.",
+   "new": "The Christians of the Malabar coast traced their church to the apostle Thomas. For centuries they had worshipped in Syriac and taken their bishops from the Church of the East. The Portuguese found this puzzling and then intolerable. In 1599 Archbishop Aleixo de Menezes held a synod at Diamper. It placed the community under Latin rule, revised its liturgy, and ordered its Syriac books corrected or burned. Half a century of resentment came to a head on 3 January 1653. At Mattancherry a crowd swore they would no longer obey the Jesuits or the Jesuit archbishop, Francisco Garcia. Tradition says they tied ropes to a stone cross as they swore. This is the Coonan Cross Oath, named for a cross said to have bent under the strain.",
+   "reason": "The oath sentence stated the rope-and-stone-cross scene as fact. Sebastiani (1666, lines 663-666) puts the oath in the church before a crucifix and names Archbishop Garcia; the 1787 community document says only that they assembled at Mattancherry. The scene is now marked as tradition, Garcia is named, and the final fragment ('The Coonan Cross Oath, so called...') is made a sentence. The first two sentences were split to bring the field to the readability floor; substance unchanged.",
+   "fre_after": 60.5,
+   "fk_after": 8.2
+  },
+  {
+   "n": 2,
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "field": "why",
+   "old": "The Christians of the Malabar coast traced their church to the apostle Thomas and had worshipped in Syriac under bishops from the Church of the East for centuries, until a 1599 synod placed them under Latin jurisdiction and ordered their Syriac books corrected or burned. Resentment broke open in 1653, when a crowd gathered at a stone cross, tied ropes to it, and swore they would no longer obey the Jesuits — the Coonan Cross Oath, named for a cross said to have bent under the strain.",
+   "new": "The Christians of the Malabar coast traced their church to the apostle Thomas. For centuries they had worshipped in Syriac under bishops from the Church of the East. Then a 1599 synod placed them under Latin jurisdiction and ordered their Syriac books corrected or burned. Resentment broke open in 1653, when a crowd at Mattancherry swore they would no longer obey the Jesuits. Tradition says they tied ropes to a stone cross as they swore. The Coonan Cross Oath is named for a cross said to have bent under the strain.",
+   "reason": "Same correction as the description: the rope-and-stone-cross scene is tradition (Sebastiani places the oath in the church). Long sentences split for the readability floor; substance unchanged.",
+   "fre_after": 67.3,
+   "fk_after": 7.6
+  },
+  {
+   "n": 3,
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "field": "relationsSummary",
+   "old": "Ahmad Gragn's jihad devastates the church (1529-43); Wayna Daga (1543) saves it; the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt, and Fasilides's restoration and expulsion of the Jesuits (1632) - the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+   "new": "Ahmad Gragn's jihad lays waste to the church from 1529 to 1543, until the battle of Wayna Daga saves it. Then the Jesuits come. Emperor Susenyos turns Catholic in 1622, his people revolt, and the old faith comes back in 1632. His son Fasilides drives out the Jesuits in 1634. It is the era turned upside down: here the Counter-Reformation is the outside force pressing on an old church.",
+   "reason": "The old text dated the expulsion of the Jesuits to 1632; Lobo (lines 1667-1669) gives 1634, and Telles has the old faith restored by proclamation first. Whole field rewritten from note form into sentences to pass the readability floor; every event and the 'inversion' reading are kept.",
+   "fre_after": 68.7,
+   "fk_after": 6.9
+  },
+  {
+   "n": 4,
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "old": "Opponents of hereditary succession elect Yohannan Sulaqa; he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555) - the Chaldean line begins and the communion carries two rival patriarchates ever after; kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal. Told within the Church of the East, Timur to Hakkari, with the Chaldean consolidation as the continuation.",
+   "new": "Opponents of the hereditary succession elect Yohannan Sulaqa. Rome makes him patriarch in 1553, and he is killed at home in 1555. From then on the communion has two rival patriarchs. In Malabar, the same communion's Indian church faced its own crisis under Portuguese rule, which ended in the Coonan Cross Oath of 1653. The story grows out of the Church of the East of Timur's age and the Hakkari mountains. The Chaldean consolidation of the 1800s carries it on.",
+   "reason": "Four fixes. 'Consecrated in St Peter's': no cited source names the church. 'The Chaldean line begins' contradicts the legacy field and the sources' dispute over which line became Chaldean. 'The same communion's other seventeenth-century ordeal' makes the 1552 schism seventeenth-century. 'Told within ... with ... as the continuation' was cataloguing language; it now states the relationships. 'Martyred' (the Roman sources' word) is made neutral: Badger and Wigram report other accounts of his death. Whole field rewritten for the readability floor.",
+   "fre_after": 60.9,
+   "fk_after": 8.0
+  },
+  {
+   "n": 5,
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "legacy",
+   "old": "The division is still the shape of the communion, though not in the way the 1552 parties would have guessed. The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil, while the older line he had challenged entered communion with Rome in the nineteenth century and became the Chaldean Catholic Church, today the largest Christian body in Iraq. Both still use the East Syriac liturgy, including the ancient Anaphora of Addai and Mari, and the two churches have been in formal dialogue since the 1990s.",
+   "new": "The division is still the shape of the communion, though not in the way the 1552 parties would have guessed. Two churches came out of it, and their histories disagree about which line is which. A Catholic list of patriarchs from 1877 has Sulaqa's line drift back out of communion with Rome. On that reading it continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil. The older line he had challenged entered communion with Rome in the nineteenth century. It became the Chaldean Catholic Church, today the largest Christian body in Iraq. But in the 1840s the mountain church itself traced its patriarchs to Sulaqa's rival. Both still use the East Syriac liturgy, including the ancient Anaphora of Addai and Mari. The two churches have been in formal dialogue since the 1990s.",
+   "reason": "The text stated as settled which line became which church. The cited sources disagree: Lamy (1877, series III, through Simeon XV at Qudshanis) runs Sulaqa's line to the mountain patriarchs; Badger (1852, lines 7897-7903) reports the mountain church's own claim to descend from Sulaqa's rival, and Wigram (1929, lines 7438-7461) puts Sulaqa's line on the plain. The reading is kept, attributed, and the other account named. Long sentences split for the readability floor.",
+   "fre_after": 63.3,
+   "fk_after": 8.3
+  }
+ ],
+ "wants": [
+  "F. M. Esteves Pereira, Chronica de Susenyos, Rei de Ethiopia (Lisbon, 1892-1900), Ge'ez and Portuguese: the Ethiopian court's own account of the conversion and the restoration of 1632; would give the Ethiopian side of ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus.",
+  "The royal chronicle of Fasilides in any public-domain edition, for the expulsion of the Jesuits (1633-34) from the Ethiopian side.",
+  "Mendes, Expeditio Aethiopica, Books III-IV (Rerum Aethiopicarum Scriptores Occidentales IX), for the 1626 submission and the 1633 expulsion in the patriarch's own words.",
+  "A Jesuit letter or relation from Malabar of 1653-54 on the revolt against Archbishop Garcia, for the Jesuit side of st-thomas-christians-under-portuguese-pressure-d--the-society-of-jesus.",
+  "The Syriac of the 1504 note of the bishops of India (Assemani BO III.1, or the Vatican manuscript), to check Mingana's English.",
+  "Any text of the Shimun (mountain) line before 1600, and Giamil, Genuinae relationes inter Sedem Apostolicam et Assyriorum Orientalium seu Chaldaeorum Ecclesiam (Rome, 1902), for the Roman documents of 1552-53 in full; the dossier records both as not found."
+ ],
+ "escalations": []
+}
