@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 19,
+   "number": 20,
    "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -7993,8 +7993,8 @@
    "from": "early-benedictine-italian-monasticism",
    "to": "cluniac-reform-monasticism",
    "type": "influenced",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls it practically the only rule for monks in the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+   "confidence": "Inferential-Thin",
+   "note": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls the Rule practically the only rule for monks in the West from the ninth to the twelfth century. This rests on these two early twentieth-century editors, not on Cluny's own texts. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -8216,8 +8216,8 @@
    "from": "roman-church-gregorian",
    "to": "late-anglo-saxon-christianity",
    "type": "influenced",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. We have this from James Barmby, Gregory's translator, who wrote in 1895.",
+   "confidence": "Inferential-Thin",
+   "note": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. This rests on two older works: an 1871 edition of Alfred's English text, and James Barmby, Gregory's translator, writing in 1895. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -9284,8 +9284,8 @@
    "from": "cyrillo-methodian-slavic-christianity",
    "to": "kievan-rus-christianity",
    "type": "influenced",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came.",
+   "confidence": "Inferential-Thin",
+   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came. This rests on these later accounts and one more from 1814. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -11647,8 +11647,8 @@
    "from": "latin-papal-church-gregorian",
    "to": "the-humiliati",
    "type": "in contact with",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses.",
+   "confidence": "Inferential-Thin",
+   "note": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses. This rests on two older accounts, from 1884 and 1910. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -20595,8 +20595,8 @@
    "from": "russian-church-nikon-to-holy-synod",
    "to": "the-old-believers",
    "type": "in contact with",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie.",
+   "confidence": "Inferential-Thin",
+   "note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie. This rests on two older accounts, from 1842 and 1921. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -20710,8 +20710,8 @@
    "from": "russian-church-nikon-to-holy-synod",
    "to": "the-kyiv-mohyla-orthodox-revival",
    "type": "in contact with",
-   "confidence": "Dominant Modern Reconstruction",
-   "note": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow.",
+   "confidence": "Inferential-Thin",
+   "note": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow. This rests on that history and a Russian one of 1838. No modern study is at hand.",
    "sources": [
     {
      "kind": "secondary",
@@ -20901,6 +20901,11 @@
      "locus": "vol. 2, the union under Catherine II",
      "quote": "Jahre 1795 hat Catharina in mehreren Ukasen befohlen, dass alle Jene, deren Vorfahren erstnach dem Jahre 1595, also vor 200 Jahren, die Union angenommen hatten, zum Schisma zurückkehren.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Barbara Skinner, The Western Front of the Eastern Church (DeKalb, IL, 2009)"
     }
    ],
    "citation_specificity": "A",
@@ -24369,6 +24374,11 @@
      "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 85",
      "quote": "The Catholics, in their turn, took advantage of the influence of the French ambassadors to coerce the patriarchate.",
      "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Charles A. Frazee, Catholics and Sultans: The Church and the Ottoman Empire, 1453–1923 (Cambridge, 1983)"
     }
    ],
    "citation_specificity": "A",
