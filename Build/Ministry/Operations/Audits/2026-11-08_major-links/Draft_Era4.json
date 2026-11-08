@@ -81,10 +81,10 @@
    "evidence": {
     "source_index": 0,
     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
-    "lines": "1609-1612",
+    "lines": "1610-1613",
     "text": "it passed afterwards as a model into all the religious houses of our country, many of which were founded by monks from the Pechersky,"
    },
-   "reason": "rule taken up: the Studite rule, written out by Theodosius (lines 1599-1603), became the model for Rus' monasteries; the reviewed note states the same",
+   "reason": "rule taken up: the Studite rule, written out by Theodosius (lines 1598-1602), became the model for Rus' monasteries; the reviewed note states the same",
    "doubt": "Source is listed as secondary with no file; the passage was read in the vendored Mouravieff file (same work as the previous link's source). Mouravieff (1838) retells Nestor; not a primary."
   },
   {
@@ -167,7 +167,7 @@
    "evidence": {
     "source_index": 1,
     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
-    "lines": "2965-2967",
+    "lines": "2965-2968",
     "text": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa- vants interprèles des livres saints et des plus belles productions de la théologie grecque, versions dont prieurs copies, faites quelques années plus tard, ornent notre Musée asiatique;"
    },
    "reason": "texts taken up: Iviron's Georgian monks translated Greek Scripture and theology into Georgian (secondary source with its own vendored file)",
