@@ -89,7 +89,7 @@ applied to every shared file, not only the census.
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |
 | P2-L11c | Dominant links on two or three old accounts; data release 20 | none (3-round cap) | merged (#1556) |
-| Bogomil split | The two Bogomil entries split by date (Mark: "a"); data release 21 | none (3-round cap) | in review |
+| Bogomil split | The two Bogomil entries split by date (Mark: "a"); data release 21 | none (3-round cap) | in review (pull request open) |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
 | P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |
