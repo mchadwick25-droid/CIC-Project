@@ -331,9 +331,12 @@
  },
  "church-of-the-east-timur-to-hakkari": {
   "file": "church-of-the-east-timur-to-hakkari.mp3",
-  "bytes": 607547,
-  "md5": "5158d1911a3ce4b14453811cd3cda86c",
-  "text_sha256": "8d46bb0d7ad5ef1790f45d98349186f6c8e9ea9096392ee3c77b103374613c22"
+  "bytes": 625518,
+  "chars": 985,
+  "text_sha256": "becc069aeddb5a1cfee277af37e2bc8828008188a68bb9d3f1440390c8a5ef84",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "church-of-the-east-under-the-mongols": {
   "file": "church-of-the-east-under-the-mongols.mp3",
@@ -523,9 +526,12 @@
  },
  "franciscan-order-era-6": {
   "file": "franciscan-order-era-6.mp3",
-  "bytes": 609010,
-  "md5": "9c57171bff55162d73bb2b5e33bc3296",
-  "text_sha256": "be222bc5222749f8686bb8cf8912fdaba3110a3d4849f5396998267569f2a8bf"
+  "bytes": 617995,
+  "chars": 961,
+  "text_sha256": "8af1b0bfd5ca301efa03c81b753cc0100d4db902883ced9632093ded147e2f21",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "fraticelli-spiritual-franciscan-rigorists": {
   "file": "fraticelli-spiritual-franciscan-rigorists.mp3",
@@ -763,9 +769,12 @@
  },
  "lollardy": {
   "file": "lollardy.mp3",
-  "bytes": 616115,
-  "md5": "9b624827d0728a3bb96516ecf070c4d7",
-  "text_sha256": "3e3fe73af859c5d5374c5a1224702edbe90285950e2bad17e4f3f0fc9c51471c"
+  "bytes": 684869,
+  "chars": 1111,
+  "text_sha256": "31c6e4b4ea2a39f2b0275eac334b33e2484e1814567eac226538b17a11fd7b10",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "makurian-nubian-christianity": {
   "file": "makurian-nubian-christianity.mp3",
