@@ -1,6 +1,6 @@
 # Applying the whole-set rulings (P2-L11b), 2026-11-08
 
-The whole-set review of eras 1 to 9 (`../2026-11-08_links-whole-set-review/`) held five questions for Mark. He ruled on each, one at a time, from options with a recommendation. The rulings are in the Church Family Tree's Decision-Log, "Whole-set rulings" (2026-11-08). This pass applies them as data release 18.
+The whole-set review of eras 1 to 9 (`../2026-11-08_links-whole-set-review/`) held five questions for Mark. He ruled on each, one at a time, from options with a recommendation. The rulings are in the Church Family Tree's Decision-Log, "Whole-set rulings" (2026-11-08). This pass applies them as data release 19, on top of the era 6 rulings (#1553, release 18).
 
 ## The rulings and what changed
 
@@ -17,7 +17,7 @@ The whole-set review of eras 1 to 9 (`../2026-11-08_links-whole-set-review/`) he
 
 Also amended: the Drafting Brief (`../2026-11-06_census-lineage-rigor/Drafting_Brief.md`) for rulings 1 to 3.
 
-## Counts (release 17 to 18)
+## Counts (release 17 to 19, this pass only)
 
 - Links changed: 77, including 1 retired.
 - Fields changed: 47 check states, 32 source lists, 9 notes, 8 grades, 1 outcome.
@@ -26,7 +26,7 @@ Also amended: the Drafting Brief (`../2026-11-06_census-lineage-rigor/Drafting_B
 
 1. **Draft** (Opus): `Draft_Rulings_1_4.json` for rulings 1 and 4. Ruling 3's restored sources came from era 5's own drafts (`Ruling3_Restored_Sources.json`). Rulings 2 and 5 were applied by script.
 2. **Review round 1** (a separate Opus 5.5 agent, full): `Opus_Review_Round1.json`. Revise: 3 substantial, 3 minor. Applied: `Revision_Round1.json`.
-3. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`.
+3. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`. **Pass**: 0 findings; all six round-1 findings resolved.
 
 No model call was metered.
 

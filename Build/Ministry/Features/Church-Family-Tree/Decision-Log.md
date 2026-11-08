@@ -435,6 +435,56 @@ Apostolic movement (recommended), widen the Mekhitarist movement, or accept the 
 Mark took the first. Built as P2-L8a; the census change order is recorded in the map's own
 Decision-Log (2026-11-08, "Era 8 change order: census 300→301").
 
+## 2026-11-08 — Rulings on the era 6 open questions
+
+Mark ruled on the seven questions the era 6 links pass logged in Open-Gaps (2026-11-08), one at
+a time, each shown with three options and a recommendation. He took the recommendation each time
+("a").
+
+1. **The Church of the East's "Hakkari" name.** Rename the display name to "The Church of the
+   East — Timur's Catastrophe and the Northern Remnant", with the place label and the era 7
+   schism summary to match. The ID and page address stay. Why: the patriarchs of the late
+   fifteenth century sat at Gazarta and Mosul on the upper Tigris; only the survivors were in the
+   Hakkari mountains. "Northern" covers both; "Hakkari" outran the sources. Shown with: keep the
+   name; "the Mountain Remnant".
+2. **An authority's acts on another body's own order, and church jurisdiction.** Drawn as
+   "in contact with", with an `outcome` naming the act where the link's own sources show it. The
+   jurisdiction links now drawn as "influenced" (a patriarch appointing another church's head
+   bishop) are re-typed. Leo X's division of the Franciscan order (1517) is drawn this way. Why:
+   "influenced" claims ideas passed where the sources show an appointment; the outcome field
+   already counts a rule or settlement changed by an authority. Shown with: a seventh type, "had
+   authority over"; leave as is. Settles "No link type for church jurisdiction" (2026-11-08) too.
+3. **The councils of Constance and Basel.** They stay inside the papal church's movement
+   (`latin-papal-church-avignon-to-lateran-v`), whose own text tells them as part of its story;
+   every note names the council that acted. Shown with: a movement for the councils; renaming the
+   movement "The Latin Church".
+4. **The Carthusians after 1300.** A later Carthusian movement goes on the list for the gap
+   sweep and the agreed-entries release (P2-G1, P2-G3), split by era as the Waldensians were.
+   Until then the era 6 text states the copying of The Cloud and the Scale with no link. Shown
+   with: stretching `carthusian-life` past 1300; leaving it.
+5. **The inquisition-record sects and the Free Spirit.** Split by evidence. The era 6 movement
+   keeps the Adamites and other groups known only from hostile records, and points to the Free
+   Spirit instead of retelling it. The 1367 case moves onto the existing link from the papal
+   church to the Free Spirit; the link it came from is retired. Why: the Free Spirit was mostly
+   a charge, the Adamites a real band; the 1367 suspect belongs to the Free Spirit story. Shown
+   with: merging the two movements; leaving both.
+6. **Well-known facts with no vendored source.** A standard, undisputed fact that is not a
+   relationship may stand without a source in the Library, with its wanted text listed. The
+   guard: a fact that charges someone with violence or persecution, gives a number, or is
+   disputed needs a source, or is stated as what is reported. Settles "Well-known facts with no
+   vendored source" (2026-11-07). Shown with: every fact needs a source; all stand until P2-L11.
+7. **Page recordings that read old text.** Each recording stores a fingerprint of the text it
+   was made from; a page whose text has changed hides its Listen button until it is re-voiced.
+   One paid re-voicing batch runs after the era 9 links pass, sample first and approved by ear,
+   settings passed and printed. Why: no page plays corrected errors, and re-voicing is paid for
+   once. Shown with: re-voice eras 5 and 6 now; leave the recordings until the end.
+
+**Cap ruling (2026-11-08, Mark: "a").** The era 6 rulings work reached its three-round review cap
+with one substantial finding open (round 3, R3-01): era 7's rewrite of the 1552 schism's summary,
+merged during review, said the story "grows out of the Church of the East of Timur's age and the
+Hakkari mountains", the reading ruling 1 set aside. The reviewer's own replacement sentence ("The
+story grows out of the Church of the East after Timur.") is applied word for word; no fourth round.
+File: `Build/Ministry/Operations/Audits/2026-11-08_era-6-rulings/Opus_Review_Round3_TargetedRecheck.json`.
 
 ## 2026-11-08 — Whole-set rulings
 
@@ -462,4 +512,4 @@ Each was shown with options and a recommendation as an artifact.
 **Change order.** Rulings 1 to 3 amend the Drafting Brief
 (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and
 `tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
-Applied as P2-L11b, data release 18.
+Applied as P2-L11b, data release 19.

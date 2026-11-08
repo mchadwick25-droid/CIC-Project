@@ -1,0 +1,660 @@
+{
+ "part": "Revision round 1: era 6 rulings (rulings 1, 2, 5, 6)",
+ "links": [
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity--2",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "makurian-nubian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "A Coptic history of the 700s describes the king of Makuria in Nubia. It says the patriarch in Egypt ordained his chief bishop, who then ordained the bishops and priests of the land. Whenever a chief bishop died, it says, the patriarch of Alexandria chose and ordained the next.",
+   "outcome": "In the mid-700s the patriarch in Egypt chose and ordained each chief bishop of Makuria.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7139-7141",
+     "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
+     "quote": "He  was  the  orthodox  Ethiopian  king of  Al-Mukurrah;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7181-7183",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "and  he  has  in  his  country  an  orthodox  bishop  whom the  patriarch  ordains  as  metropolitan,  and  who  ordains  for  the  king  tlie bishops  and  the  priests  in  that  land.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7183-7185",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "And  when  the  metropolitan  dies,  the patriarch  of  Alexandria  appoints  another  for  him,  wliom  he  chooses,  and  or- dains  him  for  that  people.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4431-4432",
+     "locus": "Griffith 1913, introduction",
+     "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:7181-7185",
+   "change_reason": "R1-01: the source states a standing rule, not one death and replacement. The note and outcome now say so.",
+   "drafter_flags": []
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "makurian-nubian-christianity",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. After the Arab conquest of Egypt, says the scholar F. Ll. Griffith, Coptic monks and Coptic books abounded in Nubia.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4441-4442",
+     "quote": "The Old Nubian alphabet is essentially the Coptic’ reinforced by a few extra letters (for the peculiar sounds of the language)",
+     "locus": "Griffith 1913, 'The alphabet'",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4431-4433",
+     "locus": "Griffith 1913, introduction",
+     "quote": "after the Moslem conquest of Egypt, and there- after Coptic monks and Coptic books abounded in Nubia",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R1-02, ruling 2: the patriarch's ordaining of Makuria's chief bishop is an act of authority, drawn on the in-contact link (--2). This link keeps only what passed: the alphabet, monks and books. With no primary source left, the grade is Griffith's reconstruction.",
+   "drafter_flags": []
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "armenian-christianity-conversion-era",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Moses of Khoren says the young Nerses was then a student at Caesarea in Cappadocia. Nerses later became head of the Armenian church. Ormanian, a modern historian of that church, says only Caesarea and Edessa had schools that Armenians could reach then. When Moses wrote is disputed. Scholars date him anywhere from the fifth to the eighth century.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moses of Khoren, History of Armenia III.16, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "20944-20945",
+     "locus": "Hist. III.16",
+     "quote": "qui étudiait alors à Césarée,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1872-1875",
+     "locus": "ch. V, 'The Armenian Church in the Fourth Century'",
+     "quote": "the famous schools of Caesarea in Cappadocia and of Edessa in Osroene were the only centres of enlightenment accessible to Armenia at that time.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R1-02, ruling 2: the line on a head put in place without Caesarea is evidence of consecration, an act of authority. It moves to the in-contact link with its source. This link keeps the schooling at Caesarea. The grade stays Widely Accepted (Moses as primary, Ormanian as secondary).",
+   "drafter_flags": []
+  },
+  {
+   "id": "armenian-christianity-conversion-era--cappadocian-nicene-pastoral-monastic-tradition",
+   "from": "armenian-christianity-conversion-era",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A Life of Nerses says he was made head of his church at Caesarea, in Cappadocia. It says the Armenians went there for this until the Council of Chalcedon. Moses of Khoren says the king later put a new head in Nerses's place without the archbishop of Caesarea. But Malachia Ormanian, a historian of their church, says Caesarea never ruled over it.",
+   "outcome": "At Caesarea, many bishops met and made Nerses the head of the church of Great Armenia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, anonymous, ch. III, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5103-5105",
+     "locus": "Vie de saint Nersès III",
+     "quote": "afin de consacrer avec pompe le grand Nersès comme catholicos de la Grand^Arménie,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, ch. IV-V (Langlois II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5214-5219",
+     "locus": "Vie de saint Nersès IV-V",
+     "quote": "C'est pour cette raison que les Arméniens allèrent demander leur consécration à Césarée jusqu'au concile de Chalcédoine.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moses of Khoren, History of Armenia III.39, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22694-22695",
+     "locus": "Hist. III.39",
+     "quote": "place de Nersès, sans l'intervention du grand ar- chevêque de Césarée",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Victor Langlois, note 7 to Moses of Khoren, History of Armenia III.39 (Collection des historiens de l'Arménie II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22732-22734",
+     "locus": "Moses of Khoren III.39, note 7",
+     "quote": "Les successeurs de saint Grégoire jusqu'à l'avéna- ment de Schahag furent consacrés à Césarée;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912), ch. IV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1750-1752",
+     "locus": "ch. IV, 'Formation of the Ecclesiastical Hierarchy'",
+     "quote": "At  no  period  has  the  see  of  Caesarea,  nor  that  of Antioch  or  Constantinople,  exercised  any  authority or  jurisdiction  in  Armenia  properly  so  called  ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt:5103-5105",
+   "change_reason": "R1-02: Moses III.39 moves here from the influenced link, with a note sentence it supports. Langlois's note 7 on the same passage was already here.",
+   "drafter_flags": []
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Around 1200 a Coptic survey of Egypt's churches says the head bishop of Abyssinia is sent 'from the patriarch of Alexandria'. 'Abd al-Latif, writing in the same years, tells of an envoy from the Abyssinian king. The envoy reported the bishop's death and asked for a new one. A note in the Kebra Nagast names a Coptic book of 'the throne of Mark' in King Lalibela's time.",
+   "outcome": "Around 1200 the head bishop of the church in Abyssinia came from the patriarch in Egypt, who sent each one.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105a",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "'Abd al-Latif, quoted in Evetts's note to the Churches and Monasteries of Egypt (1895)",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14351-14353",
+     "locus": "note to fol. 105a (A.H. 596 = A.D. 1200)",
+     "quote": "In the month of Shawwal an envoy arrived from the king of the Abyssinians, bearing a letter which contained the announcement of the death of their metro- politan, and requested the appointment of his successor",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15301-15304",
+     "locus": "colophon",
+     "quote": "We have turned [this book] into Arabic from a Coptic manuscript [belonging to] the throne of Mark the Evangelist, the teacher, the Father of us all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15306-15308",
+     "locus": "colophon",
+     "quote": "in the days of Gabra Maskal the king, who is called Lalibala, in the days of Abba George, the good bishop.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt:14287-14288",
+   "change_reason": "R1-11: Abu Salih states a standing practice; the outcome no longer reads as one act.",
+   "drafter_flags": []
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--observant-reform-and-popular-preaching",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1415 the Council of Constance named a vicar general over the Observant friars of France, Burgundy and Touraine. In 1443 Pope Eugenius IV confirmed two vicars general for the Observants, one for each side of the Alps. The head of the Franciscans had named them at the pope's wish. In 1446 the pope ruled that the Observants would elect their own vicars general every three years. He said he was following rules of the Council of Constance and of Pope Martin V.",
+   "outcome": "In 1446 Pope Eugenius IV ruled that the Observants would choose their own leaders, and the head of the order had to confirm them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1415, ed. Quaracchi, Analecta Franciscana II (1887), the decree of the Council of Constance on the Observants",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18533-18534",
+     "locus": "ann. 1415",
+     "quote": "per  Fratres  de  Observantia  Provinciarum Franciae,  Burgundiae  et  Turoniae",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1415, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18553-18555",
+     "locus": "ann. 1415",
+     "quote": "quem  instituit  sacrum  concilium  in  Vicarium  Genera- lem super  Fratres  de  Observantia  in  Provinciis  superius  nomi- natis commorantes,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Quaracchi editors, note 3 to Glassberger's chronicle, ann. 1415, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18589",
+     "locus": "ann. 1415, note 3",
+     "quote": "Cfr.  Wadding.,  1.  c.  ad  an.  1415,  n.  VII;  ibi  habetur  integra  ordinatio,  quae  hic  indicatur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam (Siena, 1 August 1443), confirming the minister general's letters naming vicars general of the Observants; Bullarium Franciscanum, nova series I, no. 705, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "56705-56710",
+     "locus": "no. 705",
+     "quote": "Sane pridem ex Nostra dispositione dilectus filius Antonius de Rusconibus, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, no. 705 (1443), Bullarium Franciscanum, nova series I, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "56712-56718",
+     "locus": "no. 705",
+     "quote": "filios Iohannem de Capistrano domorum, loco- rum et conventuum citramontanarum, necnon Iohannem de Mauberto, eiusdem ordinis profes- sores, domorum, locorum et conventuum omnium et singulorum ultramontanarum partium dicti ordinis sub sacro observantiae nomine consti- tutarum vicarios generales fecit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra ordinis Minorum religio (Rome, 23 July 1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "79991-79997",
+     "locus": "no. 1007",
+     "quote": "Antonius de Rusconibus, sacrae theo- logiae professor ac ordinis Minorum generalis minister, Nobis suadentibus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80016-80019",
+     "locus": "no. 1007",
+     "quote": "inhaerentes constitutionibus et sta- tutis super huiusmodi dispositionibus editis sacri Constantiensis concilii et fel. rec. Martini pa- pae V, praedecessoris Nostri,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80024-80026",
+     "locus": "no. 1007",
+     "quote": "ut deinceps vicarius generalis ipso- rum fratrum de observantia ultramontanus circa; finem triennii,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80058-80065",
+     "locus": "no. 1007",
+     "quote": "et eligere sint adstricti unum religiosum eiusdem ordinis in eorum similem vicarium generalem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80063-80066",
+     "locus": "no. 1007",
+     "quote": "ipse vero generalis minister infra triduum a praesentatione sibi facta praedictum electum (*) confirmare te- neatur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulric Huntemann, preface to Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "196-198",
+     "locus": "Praefatio",
+     "quote": "Eugenius IV sepa- rationem perficere decrevit, statuens, ut fratribus observantiae duo vicarii generales praesint, alter cismontanis, alter ultramontanis,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt:80016-80066",
+   "change_reason": "R1-14, rulings 2 and 3: the papal church's acts on the Observants' own government, drawn as in contact with. The Council of Constance acts inside the papal church's movement, and the note names it. Martin V's own acts are named only as Eugenius cites them; his bulls are wanted.",
+   "drafter_flags": [
+    "Ut sacra no. 1007 is the bull for the Observants beyond the Alps; the editors' note (lines 79964-79965) records a twin bull for the near side. The note says 'the Observants' for both.",
+    "Wadding dates Ut sacra 11 January 1446 (editors' note, lines 80040-80041); the edition prints 23 July 1446. The year is the same either way."
+   ]
+  }
+ ],
+ "retired_links": [],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "sources",
+   "old": [
+    {
+     "work": "The Bohemian 'Adamites' of 1421: accounts in Lawrence of Brezova's chronicle and later in Aeneas Sylvius; partial English via Fudge's Hussite-crusade volume",
+     "type": "primary",
+     "note": "Hostile, and doubly filtered: a community exterminated by Zizka's own Taborites — radicals describing the radicals they killed. No inside voice survives."
+    },
+    {
+     "work": "Free Spirit-pattern interrogations: John of Bruenn's deposition; the Schweidnitz beguine interrogations (1332)",
+     "type": "primary",
+     "note": "A hostile, coerced source: answers shaped by the questioners' own template for what heresy should look like — the same pattern seen in other Free Spirit cases."
+    },
+    {
+     "work": "The heresiological template itself: Ad nostrum (Vienne, 1312; trans. in Tanner, Decrees of the Ecumenical Councils, 1990) and circulating inquisitors' error-lists",
+     "type": "primary",
+     "note": "A hostile construction: the template document that could generate a 'sect' on paper, whether or not one existed in practice."
+    },
+    {
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (California, 1972)",
+     "type": "secondary",
+     "note": "The scholarly consensus: such \"sects\" are substantially constructs of the persecutors' own template. For the Adamite case, modern Hussite scholarship (Kaminsky; Fudge) weighs how much reality lay under the atrocity stories."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 4, ch. 23 'Repression and power' (Arnold); cf. ch. 12 'Christians and heretics' (Biller)",
+     "type": "reference",
+     "note": "A close fit with the repression chapter: the absence of any inside voice is the central fact these sources show, since no self-standing account from within these groups survives."
+    }
+   ],
+   "new": [
+    {
+     "work": "The Bohemian 'Adamites' of 1421: accounts in Lawrence of Brezova's chronicle and later in Aeneas Sylvius; partial English via Fudge's Hussite-crusade volume",
+     "type": "primary",
+     "note": "Hostile, and doubly filtered: a community exterminated by Zizka's own Taborites — radicals describing the radicals they killed. No inside voice survives."
+    },
+    {
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (California, 1972)",
+     "type": "secondary",
+     "note": "The scholarly consensus: such \"sects\" are substantially constructs of the persecutors' own template. For the Adamite case, modern Hussite scholarship (Kaminsky; Fudge) weighs how much reality lay under the atrocity stories."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 4, ch. 23 'Repression and power' (Arnold); cf. ch. 12 'Christians and heretics' (Biller)",
+     "type": "reference",
+     "note": "A close fit with the repression chapter: the absence of any inside voice is the central fact these sources show, since no self-standing account from within these groups survives."
+    }
+   ],
+   "reason": "R1-03, ruling 5: the John of Brünn and Schweidnitz interrogations and Ad nostrum are the Free Spirit's evidence, and already sit on free-spirit-heresy. No sentence here rests on them now.",
+   "fre_after": null,
+   "fk_after": null
+  },
+  {
+   "n": 2,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "sourcing",
+   "old": "Heresiological artifacts in the Free Spirit pattern",
+   "new": "Known only from hostile chronicles",
+   "reason": "R1-03, ruling 5: the old line described the Free Spirit pattern, not these groups.",
+   "fre_after": null,
+   "fk_after": null
+  },
+  {
+   "n": 3,
+   "movement": "free-spirit-heresy",
+   "field": "why",
+   "old": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+   "new": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, often because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards. There was also a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+   "reason": "R1-04: the 1367 Erfurt case on this movement's own link (Wattenbach) shows answers going far past the questions. Lerner's point is that no organized sect existed. Same pass: a 28-word sentence split, as CLAUDE.md asks of a field being edited.",
+   "fre_after": 63.762807377049214,
+   "fk_after": 8.154221311475407
+  },
+  {
+   "n": 4,
+   "movement": "free-spirit-heresy",
+   "field": "longDescription",
+   "old": "In the early fourteenth century the church declared that a sect existed. The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by beguines and beghards in Germany. Their core claim was that a soul made perfect in this life can no longer sin, and needs neither the church nor the virtues any longer. One error spoke of people living 'in the spirit of liberty'. Interrogators then went looking for people who held them, and found them, because the questions supplied the answers. Modern research, above all Robert Lerner's study of 1972, concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. The movement named here probably was not real; the charge and its victims certainly were.",
+   "new": "In the early fourteenth century the church declared that a sect existed. The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by beguines and beghards in Germany. Their core claim was that a soul made perfect in this life can no longer sin. Such a soul needs neither the church nor the virtues any longer. One error spoke of people living 'in the spirit of liberty'. Interrogators then went looking for people who held them, and found them, often because the questions supplied the answers. Modern research, above all Robert Lerner's study of 1972, concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards. There was also a charge that could be laid against any part of it. The movement named here probably was not real; the charge and its victims certainly were.",
+   "reason": "R1-04, as in why. Same pass: a 28-word sentence split. Same pass: a 26-word sentence split.",
+   "fre_after": 65.34663375796183,
+   "fk_after": 8.045101910828027
+  },
+  {
+   "n": 5,
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "old": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe was a brewer's wife from Bishop's Lynn who could not write. Her own book says she bore fourteen children. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "new": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe, a mayor's daughter from Bishop's Lynn, ran a brewery of her own for a few years. She could not write. Her own book says she bore fourteen children. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "reason": "R1-05: her Book (I.2) says she brewed herself for three or four years; it names her father, not her husband, as a man of rank (mayor of Lynn). A plain fact under ruling 6; the Book is wanted.",
+   "fre_after": 66.84881311576355,
+   "fk_after": 7.0871890394088695
+  },
+  {
+   "n": 6,
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "old": "The Viking wars nearly killed English Christianity, by Alfred of Wessex's account. He wrote that the churches had been ravaged and burned. Whole dioceses lapsed. When Alfred set out to rebuild, he complained that he could hardly find a priest south of the Thames able to translate a Latin letter. His answer was a program of translation. Gregory the Great's Pastoral Care and other books the clergy needed were put into English, so that they could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later came a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald. They refounded the monasteries on the Rule of Benedict and drew up one agreed customary for the whole country. The English language stayed central throughout. Ælfric wrote sermons in English, well over a hundred by his editors' count, so that ordinary people could hear careful teaching in their own tongue. Archbishop Wulfstan preached in 1014 as the Danish invasions closed in. He told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent growth.",
+   "new": "In the Viking wars, Alfred of Wessex wrote, the churches were ravaged and burned, and learning all but died out. Whole dioceses lapsed. When Alfred set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter. His answer was a program of translation. Gregory the Great's Pastoral Care and other books the clergy needed were put into English, so that they could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later came a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald. They refounded the monasteries on the Rule of Benedict and drew up one agreed customary for the whole country. The English language stayed central throughout. Ælfric wrote sermons in English, well over a hundred by his editors' count, so that ordinary people could hear careful teaching in their own tongue. Archbishop Wulfstan preached in 1014 as the Danish invasions closed in. He told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent growth.",
+   "reason": "R1-06: the reported form now says only what Alfred's preface to the Pastoral Care says (learning decayed; churches ravaged and burned). R1-08: Alfred says he could not think of a single one south of the Thames, and speaks of men, not only priests.",
+   "fre_after": 63.47204591220299,
+   "fk_after": 8.056230366492148
+  },
+  {
+   "n": 7,
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why",
+   "old": "In the Viking wars, by Alfred of Wessex's own account, England's churches were ravaged and burned. When he set out to rebuild, he complained he could barely find a priest south of the Thames able to translate a Latin letter. So he set out to put the books the clergy most needed into English. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Rule of Benedict. Ælfric wrote English sermons, well over a hundred by his editors' count, so that ordinary people could hear sound teaching in their own tongue. Archbishop Wulfstan preached in 1014, as Danish invasions closed in. He told the English that their own sins had brought the disaster on them.",
+   "new": "In the Viking wars, by Alfred of Wessex's own account, England's churches were ravaged and burned. When he set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter. So he set out to put the books the clergy most needed into English. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Rule of Benedict. Ælfric wrote English sermons, well over a hundred by his editors' count, so that ordinary people could hear sound teaching in their own tongue. Archbishop Wulfstan preached in 1014, as Danish invasions closed in. He told the English that their own sins had brought the disaster on them.",
+   "reason": "R1-08, as in longDescription.",
+   "fre_after": 65.87915966386558,
+   "fk_after": 8.29378151260504
+  },
+  {
+   "n": 8,
+   "movement": "paulicians",
+   "field": "why",
+   "old": "Byzantine heresy hunters say the Paulicians rejected the Old Testament, the cross and the sacraments. Whether they truly believed that, or their enemies needed them to, cannot now be settled. No account of their faith in their own words survives. What is certain is what happened to them. Imperial armies killed them and drove them from their homes. The survivors built a fortified state at Tephrike on the frontier. By Byzantine accounts they raided the empire's lands until it fell in 878.",
+   "new": "Byzantine heresy hunters say the Paulicians rejected the Old Testament, the cross and the sacraments. Whether they truly believed that, or their enemies needed them to, cannot now be settled. No account of their faith in their own words survives. What is certain is what happened to them. The empire persecuted them and condemned them to the flames. The survivors built a fortified state at Tephrike on the frontier. By Byzantine accounts they raided the empire's lands until the town fell in 878.",
+   "reason": "R1-07: Evans (quoting Gibbon, lines 1092-1097) shows persecution and condemnation to the flames, not armies or uprooting. R1-07: 'it' read as the empire.",
+   "fre_after": 60.823048780487824,
+   "fk_after": 7.685888501742163
+  },
+  {
+   "n": 9,
+   "movement": "paulicians",
+   "field": "longDescription",
+   "old": "The Paulicians appear in the record from the seventh to the ninth century, in Armenia and eastern Anatolia. Almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters say the movement rejected the Old Testament, the cross, the sacraments and the honor paid to Mary. They say it held that the world was split between a good power and an evil one. Whether they truly believed that, or their enemies needed them to, cannot now be settled. What is not in doubt is what was done to them. Imperial armies killed and uprooted them in large numbers. The survivors built a fortified state of their own at Tephrike on the frontier, and made common cause with the Arabs. By Byzantine accounts they raided the empire's lands until the fortress fell in 878. Later emperors forced whole Paulician groups to move to the Balkans.",
+   "new": "The Paulicians appear in the record from the seventh to the ninth century, in Armenia and eastern Anatolia. Almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters say the movement rejected the Old Testament, the cross, the sacraments and the honor paid to Mary. They say it held that the world was split between a good power and an evil one. Whether they truly believed that, or their enemies needed them to, cannot now be settled. What is not in doubt is what was done to them. The empire persecuted them and condemned them to the flames. The survivors built a fortified state of their own at Tephrike on the frontier, and made common cause with the Arabs. By Byzantine accounts they raided the empire's lands until the fortress fell in 878. Later emperors forced whole Paulician groups to move to the Balkans.",
+   "reason": "R1-07, as in why.",
+   "fre_after": 62.25646644295304,
+   "fk_after": 8.277375838926176
+  },
+  {
+   "n": 10,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "old": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. Later records add the Saracens, an earthquake, and Allied bombing in 1944. Monks live there now.",
+   "new": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and in 1944 Allied bombing destroyed it. Monks live there now.",
+   "reason": "R1-09: the Saracen attack names its witness (the Chronicle of Monte Cassino, wanted). The earthquake is not violence; the 1944 bombing is an admitted, recorded act (see for_mark).",
+   "fre_after": 65.09020338983052,
+   "fk_after": 7.112000000000002
+  },
+  {
+   "n": 11,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "old": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "reason": "R1-10: a 27-word sentence split.",
+   "fre_after": 64.30491726618706,
+   "fk_after": 7.743230215827339
+  },
+  {
+   "n": 12,
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "relationsSummary",
+   "old": "Opponents of hereditary succession elect Yohannan Sulaqa; he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555) - the Chaldean line begins and the communion carries two rival patriarchates ever after; kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal. Told within the Church of the East after Timur, with the Chaldean consolidation as the continuation.",
+   "new": "Opponents of rule by one family elected Yohannan Sulaqa as patriarch. He went to Rome and was consecrated in St Peter's in 1553. He was martyred in 1555. A second line of patriarchs began with him, and the church has had two rival heads ever since. In Malabar, the Coonan Cross Oath was the same church's other trial of the seventeenth century. The story is told within the Church of the East after Timur, and the Chaldean line carries it on.",
+   "reason": "R1-12: one 52-word sentence failed the reading target; split, with every event kept.",
+   "fre_after": 69.24804852320675,
+   "fk_after": 6.871582278481011
+  },
+  {
+   "n": 13,
+   "movement": "church-of-the-east-schism-of-1552",
+   "field": "statusDescription",
+   "old": "Not counted as a candidate tradition of its own: the schism of 1552 is told as the closing arc of the Church of the East after Timur, and the Chaldean line continues in the entry that follows it.",
+   "new": "The schism of 1552 is not counted as a tradition of its own. It is told as the closing chapter of the Church of the East after Timur. The Chaldean line carries on in the movement that follows.",
+   "reason": "R1-12: failed the reading target and carried cataloguing words ('candidate tradition', 'entry').",
+   "fre_after": 82.27882882882884,
+   "fk_after": 4.847027027027028
+  },
+  {
+   "n": 14,
+   "movement": "church-of-the-east-timur-to-hakkari",
+   "field": "informalName",
+   "old": "The Mountain Remnant of Asia's Great Church",
+   "new": "The Northern Remnant of Asia's Great Church",
+   "reason": "R1-13, ruling 1: 'Mountain Remnant' was the wording shown and declined, since the patriarchs sat at Gazarta and Mosul on the upper Tigris. One word changed, to match the ruled display name.",
+   "fre_after": null,
+   "fk_after": null
+  }
+ ],
+ "wants": [
+  "The Book of Margery Kempe, in a public-domain text or a repo-cited study: for her own brewing (I.2) and her father, mayor of Lynn.",
+  "Alfred, preface to the Old English Pastoral Care (Sweet, EETS 45 and 50, 1871): for the decay of learning, the churches ravaged and burned, and 'not even one south of the Thames'.",
+  "The Chronicle of Monte Cassino (Leo of Ostia), e.g. ed. Wattenbach, MGH Scriptores VII (1846): for the Saracen attack of 883.",
+  "The Council of Constance's decree on the Observants, Supplicationibus personarum (1415), in full: Wadding, Annales Minorum ad an. 1415, n. VII (the editors' note at Glassberger line 18589); Glassberger prints only its opening.",
+  "Martin V's bulls on the Observants, including his approval of the Martinian constitutions (1430): Bullarium Franciscanum VII, ed. Eubel (1904). Only Eugenius IV's citation of them is in the Library."
+ ],
+ "for_mark": [
+  "To report (ruling 1): the Church of the East movement's informal name, shown on the site, changes from 'The Mountain Remnant of Asia's Great Church' to 'The Northern Remnant of Asia's Great Church'. 'Mountain Remnant' was the option you declined, for the reason ruling 1 gives. One word changed.",
+  "Ruling 6 reading, Monte Cassino: 'in 1944 Allied bombing destroyed it' stands as a plain fact with no Library source. It is read as an act admitted and recorded by those who did it, not a charge laid against them. If you want it held to the guard, it becomes 'is reported to have destroyed it' until a source is vendored.",
+  "Open-Gaps, ruling 2: with the new link from the papal church to the Observants (Constance 1415, Eugenius IV 1443 and 1446), 'No link type for church jurisdiction' and 'No link type for an authority's acts on another body's own order' (both 2026-11-08) can be marked settled. A new numbered entry should keep Martin V's own bulls on the Observants and the full Constance decree as wanted texts, so the link can quote them when they arrive."
+ ],
+ "finding_dispositions": [
+  {
+   "finding": "R1-01",
+   "action": "fixed as proposed",
+   "note": "Note and outcome take the reviewer's wording; outcome_basis c."
+  },
+  {
+   "finding": "R1-02",
+   "action": "fixed, two small departures",
+   "note": "Makuria influenced link: as proposed, regraded to Dominant Modern Reconstruction. The Griffith source runs 4431-4433 so its quote carries 'after the Moslem conquest of Egypt', and the note names Griffith, since the grade is his reconstruction. Cappadocia influenced link: note as proposed; the Ormanian source gets its locus (ch. V) and license. The moved Moses III.39 source gets a note sentence on the in-contact link, so it supports something said there."
+  },
+  {
+   "finding": "R1-03",
+   "action": "fixed as proposed",
+   "note": "sources[1] and sources[2] removed; sourcing is 'Known only from hostile chronicles'."
+  },
+  {
+   "finding": "R1-04",
+   "action": "fixed as proposed, plus splits",
+   "note": "'often' added in why and longDescription. The two older sentences past 25 words in these fields are split in the same pass."
+  },
+  {
+   "finding": "R1-05",
+   "action": "fixed as proposed",
+   "note": "The Book of Margery Kempe added to wants."
+  },
+  {
+   "finding": "R1-06",
+   "action": "fixed as proposed",
+   "note": "Done with R1-08 in the same field."
+  },
+  {
+   "finding": "R1-07",
+   "action": "fixed, departing in one phrase",
+   "note": "'many were burned' becomes 'condemned them to the flames': the source shows a condemnation, not a count, and 'many' is a number under ruling 6. 'until the town fell' as proposed."
+  },
+  {
+   "finding": "R1-08",
+   "action": "fixed as proposed",
+   "note": "Both fields. Alfred's preface added to wants."
+  },
+  {
+   "finding": "R1-09",
+   "action": "fixed as proposed",
+   "note": "The 1944 reading under ruling 6 is passed to Mark. Chronicle of Monte Cassino added to wants."
+  },
+  {
+   "finding": "R1-10",
+   "action": "fixed as proposed",
+   "note": ""
+  },
+  {
+   "finding": "R1-11",
+   "action": "fixed as proposed",
+   "note": "outcome_basis c, locus Abu Salih 14287-14288."
+  },
+  {
+   "finding": "R1-12",
+   "action": "fixed as proposed",
+   "note": "Both fields replaced whole."
+  },
+  {
+   "finding": "R1-13",
+   "action": "fixed as proposed",
+   "note": "One word, listed for Mark."
+  },
+  {
+   "finding": "R1-14",
+   "action": "fixed, beyond the proposal",
+   "note": "The acts could be drawn from vendored sources, so a new in-contact link is drafted: Constance 1415 (Glassberger), Eugenius IV 1443 (no. 705) and Ut sacra 1446 (no. 1007), outcome under (c). The Open-Gaps entry the reviewer proposes is passed on in for_mark, since this file edits no repo file; it now covers the wanted Martin V bulls and the full Constance decree."
+  }
+ ],
+ "notes": "Every quote on the six links checked against its file at the stated lines (whitespace-normalized match). Every changed field and every changed note or outcome scored by engine.m7.turn_readability.score_turn; none fails and no sentence passes 25 words. The informalName is too short to score. The ruling 5 retirement is already applied and is not repeated here."
+}

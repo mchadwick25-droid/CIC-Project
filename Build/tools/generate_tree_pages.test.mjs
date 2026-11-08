@@ -5,15 +5,16 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import crypto from 'node:crypto';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
 
-function generate(c) {
+function generate(c, audio = null) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-pages-'));
   const file = path.join(dir, 'census.json');
   fs.writeFileSync(file, JSON.stringify(c));
-  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir], { stdio: 'ignore' });
+  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : [])], { stdio: 'ignore' });
   return name => fs.readFileSync(path.join(dir, 'cft-website', name), 'utf8');
 }
 
@@ -59,6 +60,24 @@ test('major links are marked, and a link with an outcome shows its lasting resul
   assert.match(judgedItem, /<i>Lasting result:<\/i> The council condemned the group by name\./);
   assert.match(item(read(`tree/${lineage.from}.html`), lineage.id), /class="lineage-major">Major</);
   assert.doesNotMatch(item(read(`tree/${minor.from}.html`), minor.id), /lineage-major|Lasting result/);
+});
+
+test('the Listen block shows only when the recording matches the page text', () => {
+  const m = census.movements.find(x => x.longDescription && !fs.existsSync(path.join(root, `cic-website/data/worlds/${x.id}.json`)));
+  const sha = t => crypto.createHash('sha256').update(t, 'utf8').digest('hex');
+  const withManifest = entry => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-'));
+    fs.writeFileSync(path.join(dir, 'manifest.json'), JSON.stringify(entry ? { [m.id]: entry } : {}));
+    return generate(census, dir)(`tree/${m.id}.html`);
+  };
+  const base = { file: `${m.id}.mp3`, bytes: 1, md5: 'x' };
+  const match = withManifest({ ...base, text_sha256: sha(m.longDescription) });
+  assert.match(match, /class="narration"/);
+  assert.match(match, /narration-player\.js/);
+  for (const stale of [withManifest({ ...base, text_sha256: sha('older text') }), withManifest(base), withManifest(null)]) {
+    assert.doesNotMatch(stale, /class="narration"/);
+    assert.doesNotMatch(stale, /narration-player\.js/);
+  }
 });
 
 test('the data page reads its release number, date and counts from the census', () => {

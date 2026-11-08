@@ -53,3 +53,12 @@ No metered model call was made.
 ## Not done here
 
 No entry was drafted, and no census, Library shelf or site file changed. Wanted texts named in the list are not added to `Build/worlds/_cross-world/download-queue-seed.yaml`; that is the source-research thread's work once Mark has ruled.
+
+## Already ruled (2026-11-08)
+
+After this sweep was written, Mark ruled on the era 6 open questions (Decision-Log, "Rulings on the
+era 6 open questions", 2026-11-08). These rows are settled and need no second ruling: candidate 22
+(the conciliar movement stays inside the papal church's movement), candidate 23 (a later Carthusian
+movement is made in P2-G3), 109 (well-known facts), 113 in part (jurisdiction and
+authority acts; communion stays open), 120 (page recordings), 121 (the "Hakkari" name) and 122 (the
+Free Spirit overlap).
