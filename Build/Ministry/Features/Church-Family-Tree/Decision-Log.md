@@ -539,3 +539,14 @@ Each was shown with options and a recommendation as an artifact.
 (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and
 `tools/validate-census.mjs`. Ruling 4 widens the 2026-11-08 major-links test by one act.
 Applied as P2-L11b, data release 19.
+
+## 2026-11-08 — Dominant links on two or three old accounts
+
+**Decided (Mark: "add the modern studies for the eight links", then "a").** Eight links graded
+Dominant Modern Reconstruction rested on two or three accounts written before 1930, which ruling 1
+of "Whole-set rulings" (one account) did not reach. Two have a modern study already cited in the
+repo for the same events, and it is added: Skinner (2009) on the 1794 Ruthenian reunion campaign,
+Frazee (1983) on the Avedik affair. The other six have none anywhere in the repo, so they become
+Inferential-Thin and their wanted studies are listed. Options shown: Thin and list the wanted
+studies (recommended); cite modern studies from outside the repo, unread; leave them Dominant.
+Applied as P2-L11c.
