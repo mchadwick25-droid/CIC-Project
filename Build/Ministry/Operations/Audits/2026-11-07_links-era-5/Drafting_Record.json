@@ -643,8 +643,8 @@
    "field": "relationsSummary",
    "sentence": "parent of Observants and Spirituals",
    "other_id": "observant-reform-and-popular-preaching",
-   "disposition": "qualify",
-   "link_id": "the-franciscan-movement--franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "the-franciscan-movement--observant-reform-and-popular-preaching",
    "prose_change": 0,
    "reason": "The Observance began in 1368 inside the order as it continued after 1300 (franciscan-order-era-6). New continued-as link to that movement; the sentence now says the parentage runs through the later order. The direct link franciscan-order-era-6 to the Observants belongs to the era-6 pass."
   },
@@ -7850,7 +7850,8 @@
   "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age: drafted by A (influenced) and E (in contact with); A kept, as E itself recommended: A's source shows translation work at the Georgian house on Athos, E's only a Life's title.",
   "church-of-the-east-under-the-mongols--syriac-renaissance (F, in contact with): dropped. No relationship sentence in the four text fields names it; only the documented stories do, so it is out of this pass's scope.",
   "The two existing links on the Gregorian papacy and Byzantine pair are owned by D; E listed them as kept without redrafting.",
-  "latin-papal-church-gregorian--byzantine-church-after-1054--2 (E, 1204) was dropped in revision round 1 (R1-04) and its evidence folded into latin-papal-church-gregorian--byzantine-church-after-1054; the 3 dispositions that cited it now point to that link."
+  "latin-papal-church-gregorian--byzantine-church-after-1054--2 (E, 1204) was dropped in revision round 1 (R1-04) and its evidence folded into latin-papal-church-gregorian--byzantine-church-after-1054; the 3 dispositions that cited it now point to that link.",
+  "Revision round 2 (R2-01): the Franciscan summary sentence on the Observants now points to the-franciscan-movement--observant-reform-and-popular-preaching; the era-6 pair link drafted in revision round 1 was dropped and held for P2-L6."
  ],
  "release": null
 }

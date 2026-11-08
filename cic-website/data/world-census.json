@@ -8887,7 +8887,7 @@
    "to": "cistercian-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text we hold says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
+   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text quoted here says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
    "sources": [
     {
      "kind": "secondary",
@@ -8957,7 +8957,7 @@
    "to": "athonite-and-comnenian-byzantine-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "The Philokalia calls Nicetas Stethatos a priest of the Stoudios monastery in Constantinople, the house of Theodore the Studite. It makes him the closest pupil of Symeon the New Theologian, around 1030. That ties Stoudios to Symeon's circle. But no text we hold shows the monks of Athos drawing on the monks who fought for icons.",
+   "note": "The Philokalia calls Nicetas Stethatos a priest of the Stoudios monastery in Constantinople, the house of Theodore the Studite. It makes him the closest pupil of Symeon the New Theologian, around 1030. That ties Stoudios to Symeon's circle. But no source quoted here shows the monks of Athos drawing on the monks who fought for icons.",
    "sources": [
     {
      "kind": "primary",
@@ -8979,7 +8979,7 @@
    "to": "athonite-and-comnenian-byzantine-monasticism",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "Robert Curzon, an English visitor to Athos in the 1830s, cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That is the only text we hold on the emperor's part in the founding. It is late and secondhand.",
+   "note": "Robert Curzon, an English visitor to Athos in the 1830s, cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. This rests on that one late report. It is secondhand.",
    "sources": [
     {
      "kind": "secondary",
@@ -8995,7 +8995,7 @@
    "to": "kievan-rus-christianity-1054-1240",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.",
+   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. It names no earlier witness for the story.",
    "sources": [
     {
      "kind": "secondary",
@@ -9103,7 +9103,7 @@
    "to": "the-carmelites",
    "type": "influenced",
    "confidence": "Inferential-Thin",
-   "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. No text we hold says the Dominicans shaped the order, so this tie is thin.",
+   "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. Neither letter says that the Dominicans shaped the order. So this tie is thin.",
    "sources": [
     {
      "kind": "primary",
@@ -9993,7 +9993,7 @@
    "to": "military-religious-orders-templars-hospitallers",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Bernard of Clairvaux, the Cistercians' best-known abbot, wrote In Praise of the New Knighthood in defense of the Templars. He argued that a knight who killed in this cause was killing evil, not a man. We do not hold the text itself, so this rests on the modern history of the order.",
+   "note": "Bernard of Clairvaux, the Cistercians' best-known abbot, wrote In Praise of the New Knighthood in defense of the Templars. He argued that a knight who killed in this cause was killing evil, not a man. This rests on the modern history of the order, not on Bernard's own text.",
    "sources": [
     {
      "kind": "secondary",
@@ -10267,7 +10267,7 @@
    "to": "maronite-christianity",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. We do not hold his history, so this rests on modern historians of the Maronites.",
+   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. This rests on modern historians of the Maronites, not on his own text.",
    "sources": [
     {
      "kind": "secondary",
@@ -10287,7 +10287,7 @@
    "to": "maronite-christianity",
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. A papal bull then set out the terms of the union. We do not hold the bull or the council's acts, so this rests on modern historians of the Maronites.",
+   "note": "In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. A papal bull then set out the terms of the union. This rests on modern historians of the Maronites, not on the bull or the council's acts.",
    "sources": [
     {
      "kind": "secondary",
@@ -10349,7 +10349,7 @@
    "to": "latin-papal-church-gregorian",
    "type": "in contact with",
    "confidence": "Widely Accepted",
-   "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. No text we hold shows how the Greek church received the union.",
+   "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. The profession does not show how the Greek church received the union.",
    "sources": [
     {
      "kind": "primary",
@@ -10405,7 +10405,7 @@
    "to": "kievan-rus-christianity-1054-1240",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Theodosius, abbot of the Caves Monastery at Kyiv, gave his monks the rule of the Stoudios monastery in Constantinople. A Russian church history of 1838 says a monk who came with the new metropolitan, George, brought the rule from that city. We do not yet hold the Kyivan texts it draws on.",
+   "note": "Theodosius, abbot of the Caves Monastery at Kyiv, gave his monks the rule of the Stoudios monastery in Constantinople. A Russian church history of 1838 says a monk who came with the new metropolitan, George, brought the rule from that city. The Kyiv texts it draws on are not quoted here.",
    "sources": [
     {
      "kind": "secondary",
@@ -10421,7 +10421,7 @@
    "to": "kievan-rus-christianity-1054-1240",
    "type": "continued as",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "The Caves Monastery at Kyiv spans the year 1054. A Russian church history of 1838 says that the priest Hilarion, later the city's chief bishop, first prayed in a cave there. The hermit Anthony then settled in Hilarion's empty cave, and Theodosius later gave the growing community its rule. We do not yet hold the Kyivan chronicle behind this account.",
+   "note": "The Caves Monastery at Kyiv spans the year 1054. A Russian church history of 1838 says that the priest Hilarion, later the city's chief bishop, first prayed in a cave there. The hermit Anthony then settled in Hilarion's empty cave, and Theodosius later gave the growing community its rule. It draws on a Kyivan chronicle not quoted here.",
    "sources": [
     {
      "kind": "secondary",
@@ -10894,21 +10894,21 @@
    "verification_state": "verified-direct"
   },
   {
-   "id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
-   "from": "franciscan-order-era-6",
+   "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+   "from": "the-franciscan-movement",
    "to": "observant-reform-and-popular-preaching",
-   "type": "gave rise to",
+   "type": "influenced",
    "confidence": "Documented",
-   "note": "In 1438 Pope Eugenius IV confirmed a letter from William of Casale, the head of the Franciscan order. William had made Bernardino of Siena, a friar of the same order, vicar of all its houses in Italy that kept the strict 'observance'. So the Observant friars grew up inside the order. No text we hold shows how their first houses began.",
+   "note": "In 1440 Pope Eugenius IV wrote of a hermitage in Spain where Franciscan friars lived. He said they lived under the observance of the Rule of blessed Francis. In 1438 he had confirmed Bernardino of Siena as head of the order's Observant houses in Italy. That letter says the houses were set up 'under the holy name of observance'.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "work": "Eugenius IV, letter to the abbot of Santa María de Carracedo, Florence, 28 August 1440, on the hermitage at Caboca de Alva, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 485",
      "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
-     "lines": "34646-34648",
-     "locus": "no. 385",
-     "quote": "dilectus filius Guillelmus de Ca- sali, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "lines": "42614-42616",
+     "locus": "no. 485",
+     "quote": "in quo plures ex fratribus Minoribus sub observan- tia regulae beati Francisci degunt pro praesenti,",
      "license": "public-domain"
     },
     {
@@ -10920,10 +10920,6 @@
      "locus": "no. 385",
      "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,",
      "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "work": "Ulricus Huntemann, preface to Bullarium Franciscanum, Nova Series I (Quaracchi, 1929)"
     }
    ],
    "citation_specificity": "A",
@@ -22142,7 +22138,7 @@
    "c2": null,
    "sourcing": "Rich, with a famous layered-hagiography problem — sources built up over time in overlapping layers of legend and memory.",
    "floorNote": "No question",
-   "relationsSummary": "Sibling and rival of the Dominicans, and parent of the Spirituals. Its lay third order, the Order of Penance, dates from 1221. The Observants grew up later inside the same order.",
+   "relationsSummary": "Sibling and rival of the Dominicans, and parent of the Spirituals. Its lay third order, the Order of Penance, dates from 1221. Later the Observants kept its rule to the letter.",
    "why": "Francis of Assisi gave away a merchant's inheritance to preach and care for lepers in the streets of Italy's fast-growing towns, and by 1209 the friars who joined him owned nothing, begged, and worked rather than withdrawing behind monastery walls. Clare of Assisi built the movement's women's branch and wrote the first monastic rule known to have been composed by a woman. Within a generation of Francis's death in 1226 the order was fighting bitterly over how literally his poverty had been meant, a quarrel serious enough that his own brothers rewrote his life story more than once.",
    "entry": null,
    "sources": [
@@ -22788,7 +22784,7 @@
    "c2": null,
    "sourcing": "Hostile-source problem early (inquisition registers), genuine internal literature later",
    "floorNote": "No plain-reading doctrinal question - discipline, not doctrine, was the charge",
-   "relationsSummary": "Dissenters condemned in 1184. They held on in the Alpine valleys, and in 1532 they joined the Reformed churches.",
+   "relationsSummary": "Dissenters condemned in 1184. They held on in the Alpine valleys. In 1532 the Waldensians there joined the Reformed churches. Scholars disagree about how far it was one unbroken line.",
    "why": "Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. He was condemned in 1184 only for preaching without a license. Driven from the cities, the movement held on in the Alpine valleys between France and Italy. It lived through three and a half centuries of persecution there, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and joined the Reformed churches. That carried a line of protest from twelfth-century Lyon into the Reformation. Scholars disagree, though, about how unbroken that line was.",
    "entry": null,
    "sources": [
@@ -23728,8 +23724,8 @@
    "c2": null,
    "sourcing": "Moderate-to-rich: typika, royal saints' lives (zhitija - a native genre), chrysobulls",
    "floorNote": "No question",
-   "relationsSummary": "Serbian monastic life grew out of the monasteries of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also have carried hesychast prayer into the Slavic lands, but no text we hold yet shows it.",
-   "why": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne to become a monk. He joined his son Rastko, already a monk on Mount Athos as Sava, and together they founded the Serbian house of Hilandar. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria a restored patriarchate at Tarnovo gathered its own school of writers around the cult of hermits like John of Rila. Both churches may have carried hesychast prayer from Greek into the Slavic world and on to Russia, though no text we hold yet shows it.",
+   "relationsSummary": "Serbian monastic life grew out of the monasteries of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also have carried hesychast prayer into the Slavic lands, but no source here shows it.",
+   "why": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne to become a monk. He joined his son Rastko, already a monk on Mount Athos as Sava, and together they founded the Serbian house of Hilandar. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria a restored patriarchate at Tarnovo gathered its own school of writers around the cult of hermits like John of Rila. Both churches may have carried hesychast prayer from Greek into the Slavic world and on to Russia, though no source quoted here shows it.",
    "entry": null,
    "sources": [
     {
@@ -23765,7 +23761,7 @@
    "streams": [
     "hesychast-philokalia"
    ],
-   "longDescription": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne and became a monk. His youngest son, Rastko, was already a monk on Mount Athos under the name Sava, and Nemanja joined him there. Together they founded Hilandar, a Serbian house on the Holy Mountain. From it the shape of Serbian church life was set. Athonite charters were adapted for Serbian monasteries, and a ruling family produced its own saints and then wrote their lives. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria the restored patriarchate at Tarnovo did much the same. It gathered a school of writers around it, and the cult of hermits like John of Rila. Both churches may have been the road by which hesychast prayer passed from Greek into Slavonic, and from there to Russia. No text we hold yet traces that road. At the end of the fourteenth century the Ottoman advance overran Bulgaria, and Serbia followed within two generations.",
+   "longDescription": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne and became a monk. His youngest son, Rastko, was already a monk on Mount Athos under the name Sava, and Nemanja joined him there. Together they founded Hilandar, a Serbian house on the Holy Mountain. From it the shape of Serbian church life was set. Athonite charters were adapted for Serbian monasteries, and a ruling family produced its own saints and then wrote their lives. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria the restored patriarchate at Tarnovo did much the same. It gathered a school of writers around it, and the cult of hermits like John of Rila. Both churches may have been the road by which hesychast prayer passed from Greek into Slavonic, and from there to Russia. No source quoted here traces that road. At the end of the fourteenth century the Ottoman advance overran Bulgaria, and Serbia followed within two generations.",
    "teaser": "The Balkans, c. 1170 to 1396 — Serbian and Bulgarian monasteries that took their rule from Mount Athos, wrote their own kings into the calendar of saints, and carried hesychast prayer into the Slavic world.",
    "voices": [
     "Stefan Nemanja — the Serbian ruler who abdicated, became the monk Symeon, and died at Hilandar",
@@ -23774,7 +23770,7 @@
     "John of Rila — the tenth-century Bulgarian hermit whose monastery became the center of Bulgarian monastic life",
     "Euthymius of Tarnovo — the last medieval Bulgarian patriarch and head of the Tarnovo literary school, who revised the Slavonic liturgical books"
    ],
-   "legacy": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches. So do their buildings, which are among the most visited in the region. Nemanja is buried at Studenica, and Rila is still Bulgaria's largest monastery. Hilandar is still one of the twenty ruling monasteries of Mount Athos. The legacy in books outran the politics. The Tarnovo school's revised Slavonic texts, with the hesychast prayer inside them, may have traveled north to shape the church in Russia. No text we hold yet traces the route. The zhitija, the lives of the royal saints, are still founding texts of Serbian writing.",
+   "legacy": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches. So do their buildings, which are among the most visited in the region. Nemanja is buried at Studenica, and Rila is still Bulgaria's largest monastery. Hilandar is still one of the twenty ruling monasteries of Mount Athos. The legacy in books outran the politics. The Tarnovo school's revised Slavonic texts, with the hesychast prayer inside them, may have traveled north to shape the church in Russia. No source quoted here shows the way it went. The zhitija, the lives of the royal saints, are still founding texts of Serbian writing.",
    "experienceToday": [
     {
      "text": "Kraljevo district, Serbia — Studenica Monastery, founded by Stefan Nemanja in the late twelfth century, with its white marble churches and Byzantine frescoes",
@@ -24845,7 +24841,7 @@
     "The awlad al-Assal — four brothers of one Cairo family, al-Safi, al-Mu'taman, al-As'ad and al-Amjad, whose canon law, theology, biblical scholarship and Coptic grammars are the heart of this period's achievement",
     "Cyril III ibn Laqlaq — patriarch from 1235 to 1243, a cultivated and contentious man who reorganized the church's government around himself"
    ],
-   "legacy": "The Coptic Orthodox Church is very much alive. It is the largest Christian community in the Middle East, and it runs unbroken through this period. Some of the work done here may have traveled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, may owe a debt to al-Safi's canons. No text we hold yet shows that line. The brothers' grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, the patriarch's seat for most of this period, still stands and is still in use.",
+   "legacy": "The Coptic Orthodox Church is very much alive. It is the largest Christian community in the Middle East, and it runs unbroken through this period. Some of the work done here may have traveled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, may owe a debt to al-Safi's canons. No source quoted here shows that line. The brothers' grammars and dictionaries are much of the reason the Coptic language is recoverable at all today. The Hanging Church in Old Cairo, the patriarch's seat for most of this period, still stands and is still in use.",
    "experienceToday": [
     {
      "text": "Old Cairo, Egypt — the Hanging Church of St Mary, built over a Roman gatehouse and the residence of the Coptic patriarchs through most of this period",
