@@ -642,3 +642,27 @@ it, never by deleting it.
     the map was built, `armenian-apostolic-church-era-8` has a tree page but no record in the map's
     embedded movement list, which `atlas-sync` only updates and never adds to. For the map's owner.
 
+114. **Four whole-set rulings for Mark, eras 1 to 9 (2026-11-08).** The whole-set review held
+    them; each is a reading of a method rule. (a) A link resting only on one 19th- or early-20th-century
+    account is Dominant Modern Reconstruction in 10 links and Inferential-Thin in 4. (b) What
+    `verified-direct` means, and whether a vendored secondary source may carry file, lines and quote;
+    six secondary-only links are marked A and verified-direct with nothing behind them. (c) A bishop
+    deposed by a ruler with no council named is major in era 3, minor in era 8. (d) The Bogomil-to-Cathar
+    link is drawn from both Bogomil entries (see "The Bogomil entries overlap", 2026-11-08). Audit:
+    `Build/Ministry/Operations/Audits/2026-11-08_links-whole-set-review/`.
+115. **Census owner's items from the whole-set review (2026-11-08).** Movement fields, not links:
+    - Six `continuesAs` fields name a successor the links type as "influenced" or "gave rise to"
+      (Carolingian to the Gregorian papacy, Cyrillo-Methodian to Kievan Rus', Athonite to the
+      Palamite synthesis, the Czech churches to Herrnhut, Paisius to Optina, Edinburgh 1910 to the
+      WCC). 21 "continued as" links start at a movement with no `continuesAs`.
+      `armenian-christianity-after-avarayr` points past the movement between it and the Bagratids.
+    - `the-old-believers` summary says they "grew out of Muscovite Christianity"; the restored
+      link runs from the Russian church before Nikon's reforms.
+    - The Anomoean summary says the council of 381 "formally cursed" that party; the links say
+      "condemned".
+    - House punctuation in link notes: single and double quote marks both in use, and the full
+      stop both inside and outside the closing mark.
+116. **No entry for the Malankara church, 1665-1912 (2026-11-08).** The era 7 St Thomas Christians
+    link into era 9 is now "gave rise to": the era 9 entry also holds the Northeast India hill
+    churches. No movement carries the larger body between the Coonan Cross and 1912. A census
+    question for Mark.

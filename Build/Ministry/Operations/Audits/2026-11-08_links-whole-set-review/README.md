@@ -1,4 +1,70 @@
-# Wanted texts, merged
+# Whole-set review of the links, eras 1 to 9 (P2-L11), 2026-11-08
+
+Each era's links were reviewed only inside that era. This pass looked across all of eras 1 to 9 for what no single era could see. Base: `main` at 6fd6b43a (data release 16), after eras 6 to 9, the era 9 split, the major-links pass (#1543) and the Armenian Apostolic follow-up (#1551) had merged. Era 10 is out of scope (Decision-Log, "The link work covers eras 1 to 9", 2026-11-08). Output: data release 17.
+
+## Steps and rounds
+
+1. **Inventory** (a script): `Inventory.json`. 575 links touch eras 1 to 9, each with type, grade, outcome, note, sources and the era folder that drafted it. A second script ran the mechanical cross-checks: `Mechanical_Checks.json` (pairs with more than one link, quotes shared between links, "continued as" chains, `continuesAs` mismatches, reading scores, long sentences).
+2. **Cross-era drafts** (Opus, one agent per theme, each in its own scratch directory): `Draft_A_structure.json` (duplicates, contradictions, chains), `Draft_B_grades.json` (type and grade consistency), `Draft_C_major.json` (major links and outcomes), `Draft_D_notes.json` (register, reading level, spelling), `Draft_E_quotes.json` (44 quotes read in context). Merged in `Findings_Record.json` with the fix list that was applied.
+3. **Review round 1** (a separate Opus 5.5 agent, full): `Opus_Review_Round1.json`. Revise: 0 blocking, 2 substantial, 9 minor. Applied: `Revision_Round1.json`.
+4. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`. Revise: 0 blocking, 1 substantial, 2 minor. Applied: `Revision_Round2.json`.
+5. **Review round 3** (separate Opus 5.5, targeted): `Opus_Review_Round3_TargetedRecheck.json`. **Pass**: 0 findings. All three rounds of the cap were used; the pass cleared on the third.
+
+No model call was metered. All drafting and review ran in-session.
+
+## Counts
+
+- Links in scope: 575 at the start; 575 at the end (one retired, one restored).
+- Findings in the cross-era drafts: 43 (20 substantial, 23 minor, none blocking). Applied: 30. Held for Mark: 7. Logged for the census owner: 4. Logged with no change: 2.
+- Review findings: 14 in rounds 1 and 2, all applied.
+- Links changed: 138. Fields changed: 118 notes, 21 source lists, 13 citation specificities, 10 outcomes, 2 types.
+- Retired: `puritanism--restoration-georgian-church-of-england`, replaced by the English Old Dissent link (`retiredLinks`).
+- Restored: `russian-church-stoglav-to-nikon--the-old-believers--2` (gave rise to, Documented), drafted and reviewed in era 8 but dropped at its merge by an ID collision.
+- Major links by outcome: 91 to 92 (three added, where the sources show a council or papal act; two removed as adoption by vote).
+
+## Findings by kind
+
+| Kind | Found | What was done |
+|---|---|---|
+| Note (reading level, internal language, spelling, self-standing) | 8 | 82 early-era notes that failed Reading Ease 60 or FK 10 rewritten, every fact kept; 15 notes that spoke of "texts we hold" rewritten; 5 long sentences split; 2 British spellings. House punctuation (quote marks) logged for the owner. |
+| Major-link inconsistency | 7 | Outcomes added where the link's own sources show a council act (Constance on Hus and on Wyclif; the 1540 approval of the Jesuits). Two removed under "adoption by vote is minor" (the 410 Persian synod; Trullo canon 2). One sentence split. One held for Mark. |
+| Outcome not shown by its own sources | 5 | Verbatim quotes added from the same works (Paul of Samosata, Aquileia, Whitby, four more); the Carmelite Outremer and Diamper outcomes narrowed; the recusant outcome corrected. |
+| Duplicate or overlap | 4 | The 1662 ejection retired from one of its two links; the 451 rupture and a Macarius quote no longer told twice. The Bogomil-to-Cathar pair held for Mark. |
+| Type or grade inconsistency | 4 | One "influenced" retyped to "in contact with", as seven like links are; 13 citation specificities set to A where a line-located quote stands. Two held for Mark. |
+| Other | 7 | Source shape for vendored secondaries held for Mark; four editors' statements relabeled secondary, as other eras label them. |
+| Quote in context | 3 | A clipped Sotelo quote that reversed its sense is replaced, and the note now says what the source says. The Palestine-to-Jerusalem note now gives the real reason it is thin. One logged. |
+| continuesAs | 3 | Logged for the census owner. |
+| Chain | 1 | The St Thomas Christians link into era 9 retyped from "continued as" to "gave rise to", with the 1847 letter added. |
+| Contradiction | 1 | The Old Believers' "grew out of" claim had no link; the era-8 link restored. |
+
+Every finding, with its evidence and status: `Findings_Record.json`.
+
+## Checks
+
+- Every changed note and outcome scores Reading Ease 60 or more and FK 10 or less with `engine.m7.turn_readability.score_turn`; none has a sentence past 25 words.
+- `validate-census.mjs --base` (release 16) `--atlas --tree`: 0 errors; no link ID gone without a `retiredLinks` entry.
+- `engine.m6.cli check` and `atlas-check --edges-only`: clean. `build_tree_site.mjs`: 0 mismatched.
+
+## Open items
+
+Held for Mark (each needs a reading of a method rule or a census question, not a fix this pass could make):
+
+1. **A lone nineteenth-century account (GRD-04).** A link resting only on one 19th- or early-20th-century account that states the tie is Dominant Modern Reconstruction in 10 links (Mouravieff, Brosset, Rački, Lutzow; eras 4-5) and Inferential-Thin in 4 (Curzon, Anjou, Conybeare, Rees; eras 4-7). The reviewer recommends Inferential-Thin for all.
+2. **What "verified-direct" means, and the shape of a vendored secondary source (GRD-06, GRD-01 to 03).** The Drafting Brief has verified-direct mean the quote shows the relationship; most eras use it to mean the lines were read and match. The Brief gives secondary sources no file, lines or quote; eras 4, 7, 8 and 9 keep them on vendored secondaries, and era 5 removed them, which leaves six secondary-only links marked A and verified-direct with nothing behind them.
+3. **A bishop deposed by a ruler, no council named (MAJ-06).** Major in era 3 (Reparatus of Carthage, Nerses Bakur), minor in era 8 (Avedik).
+4. **The Bogomil-to-Cathar link drawn twice (STR-02).** Part of "The Bogomil entries overlap" (Open-Gaps, 2026-11-08).
+
+For the census owner (movement fields, not links):
+
+- Six `continuesAs` fields name a successor the links type as "influenced" or "gave rise to"; 21 "continued as" links start at a movement with no `continuesAs`; the Armenian after-Avarayr field skips the movement between (STR-07 to STR-09).
+- The Old Believers' summary says "grew out of Muscovite Christianity"; the restored link runs from the Russian church before Nikon.
+- The Anomoean summary says the council "formally cursed" that party; the links now say "condemned".
+- House punctuation: 131 notes quote with single marks, 7 with double; the full stop sits outside the closing mark in about 88 places and inside in about 19.
+- No entry covers the Malankara church between 1665 and 1912 (STR-03).
+
+Logged, no change: the Lutheran confessional revival link rests on Jacobs's 1911 preface, after the movement's end (an era 9 call, QUO-03); P2-ML's wanted-texts line asking to re-judge the 585 synod link as major is now ruled out by "adoption by vote is minor" (MAJ-15).
+
+## Wanted texts, merged across eras 1 to 9
 
 Source: the "Wanted texts" section of each of the twelve audit READMEs, and every `wants` array in their Draft, Drafting_Record, Revision, Final and Draft_Era JSON files (Build/Ministry/Operations/Audits/, 2026-11-07 to 2026-11-08).
 
@@ -7,7 +73,7 @@ Counts: 2932 raw want entries (JSON wants plus README bullets, repeated across d
 Links are the link ids each want was attached to. "no link id" means the want was not tied to a link in its source.
 
 
-## Would raise links to Documented (438)
+### Would raise links to Documented (438)
 
 - 1846 bull of excommunication and 1846 covenant of the Evangelical Church of Armenians; Missionary Herald reports 1846-47. Unlocks: would document the 1846 break. Links: no link id. Eras: era 9 part 2.
 - 1847 and 1876 Malankara documents, in full. Unlocks: would document the Malankara split from the church's own texts. Links: no link id. Eras: era 9 part 1.
@@ -296,7 +362,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Nineteenth-century cofradía book or pastoral visitation from Spanish America or Brazil. Unlocks: would show continuity beyond Mexico. Links: colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism. Eras: era 9 part 2.
 - Nineteenth-century Quaker text (Elias Hicks, Joseph John Gurney, 1827-28 separation minutes). Unlocks: would document the Quaker separation. Links: the-quakers-religious-society-of-friends--nineteenth-century-quakerism-separations. Eras: era 8.
 - Nozaleda's decree excommunicating Aglipay (29 April 1899) and the Iglesia Filipina Independiente's founding proclamation (1902). Unlocks: would document the schism's start. Links: catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay. Eras: era 9 part 2.
-- Numismatic catalogue or study of Aksumite coinage (Munro-Hay). Unlocks: would document Ezana's conversion through coinage. Links: no link id. Eras: era 2.
+- Numismatic catalog or study of Aksumite coinage (Munro-Hay). Unlocks: would document Ezana's conversion through coinage. Links: no link id. Eras: era 2.
 - Odilo of Cluny's All Souls statute and the 1041 Truce of God letter (MGH Const. I). Unlocks: would support the Odilo sentences. Links: no link id. Eras: era 4.
 - Old Believer text appealing to the Muscovite fathers or the Stoglav (Avvakum's Life). Unlocks: would document the Old Believers' appeal. Links: muscovite-monastic-christianity--the-old-believers. Eras: era 6.
 - Old Catholic synodal acts on clerical celibacy and the vernacular liturgy. Unlocks: would document the Old Catholic positions. Links: no link id. Eras: era 9 part 2.
@@ -448,7 +514,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Ælfric's Catholic Homilies (Thorpe 1844-46) and Wulfstan's Sermo Lupi (1014). Unlocks: would document the Anglo-Saxon homiletic witnesses. Links: no link id. Eras: era 4.
 - Æthelwold's Old English account of King Edgar's monasteries; Wulfstan of Winchester's Life of Æthelwold. Unlocks: would document Edgar's monastic foundations. Links: early-benedictine-italian-monasticism--late-anglo-saxon-christianity. Eras: era 4.
 
-## Would test a contested or thin claim (109)
+### Would test a contested or thin claim (109)
 
 - 1834 Act of Secession (Acte van Afscheiding) and da Costa's Bezwaren (1823). Unlocks: would test how far the Dutch awakening and the secession were linked. Links: no link id. Eras: era 9 part 1.
 - Any text from 1054-1300 naming Christians of Kollam or Malabar. Unlocks: would close the gap in the Kollam link. Links: st-thomas-christians-of-india--st-thomas-christians-1300-1517. Eras: era 4.
@@ -478,7 +544,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Garsoian or other modern study of the Armenian church's tie to Caesarea. Unlocks: would test the Armenian-Caesarea tie. Links: cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era. Eras: era 2.
 - Georgian-side text recording the break. Unlocks: would test the Armenian-Georgian break from the Georgian side. Links: armenian-christianity-before-the-bagratids--georgian-christianity. Eras: era 3.
 - German Pietist text naming a Dutch precisian source (Teellinck, Lodenstein, Voetius, Labadie). Unlocks: would test the Dutch clause before it returns as fact. Links: no link id. Eras: era 8.
-- Gildas fragments as cited by Columbanus, and the Irish catalogue of saints. Unlocks: would test the wider Irish reception of Columbanus. Links: british-welsh-christianity--insular-irish-monastic-christianity. Eras: era 3.
+- Gildas fragments as cited by Columbanus, and the Irish catalog of saints. Unlocks: would test the wider Irish reception of Columbanus. Links: british-welsh-christianity--insular-irish-monastic-christianity. Eras: era 3.
 - Gippert et al., The Caucasian Albanian Palimpsests of Mount Sinai (2008), read. Unlocks: would test the 1996 identification and the Udi connection. Links: no link id. Eras: era 3.
 - Gregory VII's letters of 1076 on Latin Christian communities in North Africa. Unlocks: would test the date of the end of North African Latin churches. Links: no link id. Eras: era 1.
 - Guidi, Il Fetha Nagast (1897-1899); al-Safi ibn al-Assal, Nomocanon. Unlocks: would test the Fetha Nagast's derivation. Links: no link id. Eras: era 5.
@@ -560,7 +626,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - W. T. Stead, The Revival in the West (1905); Western Mail reports 1904-05. Unlocks: would test the Welsh revival's tie to 1735-1815. Links: no link id. Eras: era 8.
 - Whitney R. Cross, The Burned-over District (1950). Unlocks: would test the classic reading of the Millerite link. Links: the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism. Eras: era 9 part 1.
 
-## Would test a major-link outcome (33)
+### Would test a major-link outcome (33)
 
 - 1255 Anagni protocol or Alexander IV's condemnation of the Introductorius. Unlocks: would test the Joachite condemnation link. Links: no link id. Eras: major links era 5.
 - A text of the African councils of 416 and 418, or Zosimus's letter, condemning Pelagius. Unlocks: would test the Augustine-Pelagius lines. Links: no link id. Eras: major links era 1.
@@ -596,7 +662,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Vendored Sweet's edition of Alfred's preface to the Pastoral Care. Unlocks: would test the Alfred link in the major link. Links: no link id. Eras: major links era 3.
 - Verdict of Marcellinus after the 411 Carthage conference, or the Theodosian Code laws against the Donatists. Unlocks: would test the Donatist lines in the major link. Links: no link id. Eras: major links era 1.
 
-## Would support a movement's prose (38)
+### Would support a movement's prose (38)
 
 - Byron's letters of 1816-17 on his study at San Lazzaro. Unlocks: would support the Armenian legacy's stated fact. Links: no link id. Eras: era 8.
 - Calvin's preface to the French Chrysostom homilies (Calvini Opera 9). Unlocks: would support the expository-preaching sentence in the Reformed-cities prose. Links: antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva. Eras: era 2.
@@ -637,7 +703,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Vendored source for the Treaty of Paris (1229) or the crown's annexation of Languedoc. Unlocks: would support the Cathar legacy sentence. Links: no link id. Eras: era 5.
 - Wichern's Denkschrift on the Inner Mission (1849); Merle d'Aubigné and Malan texts. Unlocks: would support the awakening's Pietist forebears prose. Links: german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening. Eras: era 9 part 1.
 
-## Other (7)
+### Other (7)
 
 - Bar Hebraeus, Chronography (Budge 1932): the Mongol queens and the Kerait. Unlocks: Other: Mongol-court detail. Links: no link id. Eras: era 5.
 - Bonn Agreement of 1931 (text). Unlocks: Other: falls after both movements' dates. Links: old-catholic-churches-union-of-utrecht--victorian-church-of-england. Eras: era 9 part 2.
@@ -647,7 +713,7 @@ Links are the link ids each want was attached to. "no link id" means the want wa
 - Source for the dispute over the Kyiv Pechersk Lavra. Unlocks: Other: recent dispute, not a stated claim. Links: no link id. Eras: era 5.
 - Waldensian Church in Argentina and Uruguay; 1979 Waldensian-Methodist union. Unlocks: Other: out of window, not a stated claim. Links: no link id. Eras: era 7.
 
-## Already vendored under cic/texts/ (met)
+### Already vendored under cic/texts/ (met)
 
 Dropped from the main list. Each named work is vendored under cic/texts/ in the edition the want names, or the want only asks to locate and quote a vendored text. Partial matches stay in the main list with a note.
 
