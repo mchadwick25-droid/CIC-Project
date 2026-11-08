@@ -1,0 +1,1343 @@
+{
+ "group": "E",
+ "movements": [
+  "byzantine-church-after-1054",
+  "kievan-rus-christianity-1054-1240",
+  "serbian-and-bulgarian-medieval-monasticism",
+  "the-georgian-golden-age"
+ ],
+ "dispositions": [
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "'The eastern side of the Great Schism': the 1054 rupture. Existing broke-with link, owned by group D; kept."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "The 1054 excommunication behind the schism. Existing argued-against link, owned by group D; kept."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "prose_change": null,
+   "reason": "'The Latin sack of Constantinople in 1204 and the exile to Nicaea': the papal church took over the see (Innocent III's letters of 1205 and 1209). New Widely Accepted link."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The crusading army that sacked the city (the Fourth Crusade) has no movement. Checked: Mouravieff (1838, lines 2296-2297, 2353-2354) supports the capture and the expulsion; the sack itself is the movement's own documented story (Choniates, not vendored, in wants). Left standing."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "prose_change": null,
+   "reason": "'The union with Rome offered at the Council of Lyon in 1274 and then rejected': new Documented in-contact link on Michael VIII's profession of faith (Denzinger)."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "The eastern side of the Great Schism, under Patriarch Michael Cerularius: the Komnenian dynasty's restoration, the Latin sack of Constantinople in 1204 and the exile to Nicaea, the return to the capital in 1261, and the union with Rome offered at the Council of Lyon in 1274 and then rejected.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The Komnenian dynasty's restoration' and 'the return to the capital in 1261' are events in this church's own history, not relationships."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "relationsSummary",
+   "sentence": "This church remained in lasting tension with the Latin papal church in Rome.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "'Lasting tension with the Latin papal church': carried by group D's broke-with link and by the two new links (1204, 1274)."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia during the liturgy and walked out.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "prose_change": null,
+   "reason": "The legate's bull on the altar. Group D's argued-against and broke-with links (Humbert's bull and account, Mirbt nos. 227-228)."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "The patriarch, Michael Cerularius, condemned him in return.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "The patriarch's counter-condemnation. Group D's broke-with link says we hold only the Latin record; Walsh (1836, vendored secondary, lines 17266-17267) supports this sentence. Flagged for group D; prose left."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "Neither man believed he had divided Christendom, and for a long time nobody treated the breach as final.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "What the two men believed has no vendored or repo-cited source. Rewritten to 'It was not yet a final break', which the documented union talks of 1274 support."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "But the estrangement between the Greek and Latin churches did not heal, and it hardened catastrophically in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "prose_change": 6,
+   "reason": "The crusaders installed a Latin patriarch and drove the imperial church to Nicaea: new link from the papal church (Innocent III's letters; Mouravieff on the expulsion). Sentence rewritten for reading level only."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "But the estrangement between the Greek and Latin churches did not heal, and it hardened catastrophically in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The crusading army has no movement; see the relationsSummary row."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "In 1274, needing Western help against his enemies, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "prose_change": 6,
+   "reason": "Union accepted at Lyon: new Documented in-contact link. Rewritten for reading level only."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "sentence": "His own clergy and monks refused it, and the union collapsed.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "prose_change": 6,
+   "reason": "The refusal of the union at home has no vendored source; the Lyon note says so plainly. The sentence stands as a well-known event (as with the Open-Gaps item 'Well-known facts with no vendored source', 2026-11-07); Pachymeres and Gregoras Book V are in wants. 'Collapsed' becomes 'fell apart'."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "why",
+   "sentence": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia and walked out, and the patriarch Michael Cerularius condemned him in return — though neither man believed at the time that he had divided Christendom permanently.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": 7,
+   "reason": "1054: group D's two links. The clause on what 'neither man believed' is removed as unsourced (prose change 7)."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "why",
+   "sentence": "The estrangement hardened in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years before its return in 1261.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "prose_change": 7,
+   "reason": "1204 and the Latin patriarch: new link. Crusading army: no movement."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "why",
+   "sentence": "In 1274, needing Western help, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon, but his own clergy and monks refused it and the union collapsed.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "prose_change": 7,
+   "reason": "Lyon 1274: new in-contact link; the refusal at home as in the description."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "sentence": "This is the eastern half of a division that has still not been repaired: the Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate of Constantinople remains the first see among them.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "prose_change": null,
+   "reason": "The unrepaired division: group D's broke-with link."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "sentence": "This is the eastern half of a division that has still not been repaired: the Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate of Constantinople remains the first see among them.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate ... remains the first see' states present-day standing. The next step of the continuity is carried by the new continued-as link to the Palaiologan church."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "sentence": "The sack of 1204 left a memory that shaped Orthodox attitudes to the West for centuries; Pope John Paul II offered an apology for it in 2001, nearly eight hundred years later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Two modern claims with no census movement and no vendored or repo-cited source: the sack 'shaped Orthodox attitudes to the West for centuries', and 'Pope John Paul II offered an apology for it in 2001'. Not qualified; escalated (see escalations), with the text of the 2001 address in wants. The word 'apology' may overstate what the Pope said; not changed without a source."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "sentence": "And the pattern set in 1274 — union agreed by an emperor and refused by his own clergy and people — would repeat at Florence in 1439 with the same result.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of two events, not a relationship between movements. The Florence union of 1439 belongs to the Palaiologan church, whose own text tells it (Mansi 31, Doukas and Syropoulos are vendored for that pass)."
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "sentence": "The same church continued into the next era through the Palaiologan period.",
+   "other_id": "byzantine-church-palaiologan",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--byzantine-church-palaiologan",
+   "prose_change": null,
+   "reason": "New Documented continued-as link: the patriarchal register of the 1320s cites and copies rulings of Patriarch Arsenios from the 1250s."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "relationsSummary",
+   "sentence": "A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery, with native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "'A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery': new continued-as link (Mouravieff on the Caves community across 1054). Inventory guess confirmed."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "relationsSummary",
+   "sentence": "A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery, with native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "'Native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople': new influenced link (Mouravieff). The native metropolitans (Hilarion 1051, Clement 1147) are in Mouravieff; left standing."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "relationsSummary",
+   "sentence": "It ended with the Mongol sack of Kyiv in 1240.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Mongols have no movement. Checked: Mouravieff's contents give the Kyivan period of the metropolitans 'till the invasion of the Tartars, A.D. 1072, to A.D. 1240' (lines 603-605)."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "longDescription",
+   "sentence": "In the two centuries after Yaroslav the Wise died in 1054, the Christianity that had arrived in Rus' only two generations earlier put down roots of its own.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "The Christianity that arrived two generations earlier 'put down roots of its own': continued-as link."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "longDescription",
+   "sentence": "Its center was the Caves Monastery at Kyiv, begun by a hermit named Anthony in a hillside cave above the Dnieper and turned into a community by Theodosius, its third abbot, who gave it a Byzantine rule and a distinctive emphasis on humility, manual work and care for the poor.",
+   "other_id": "iconophile-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "'Gave it a Byzantine rule': Mouravieff says it was the rule of the Stoudios monastery, brought by a monk with the metropolitan George. New influenced link (inventory gave no other party). Anthony's tonsure on Athos is not in this text, so no Athos link here."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "longDescription",
+   "sentence": "Out of that monastery came bishops, chronicles, and a book of stories about its own monks.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Bishops, chronicles and the Paterik came out of the monastery itself: not a relationship to another movement."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "longDescription",
+   "sentence": "The church was formally a metropolitanate of Constantinople, usually headed by a Greek, but native metropolitans appeared and a native literature and a native calendar of saints grew up around the princely dynasty.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "'Formally a metropolitanate of Constantinople, usually headed by a Greek': new influenced link."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "longDescription",
+   "sentence": "It ended abruptly: the Mongols sacked Kyiv in 1240.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongols: no movement; checked as in the relationsSummary row."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "why",
+   "sentence": "In the two centuries after Yaroslav the Wise died in 1054, the Kyiv Caves Monastery grew from a hermit's hillside cave — dug by Anthony — into a community under its abbot Theodosius, who gave it a Byzantine rule built on humility, manual work and care for the poor.",
+   "other_id": "iconophile-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "Theodosius's 'Byzantine rule': the Studite-rule link."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "why",
+   "sentence": "Out of that monastery came bishops, chronicles and a native literature, even though the church was formally headed by Greek metropolitans sent from Constantinople.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "'Formally headed by Greek metropolitans sent from Constantinople': the influenced link."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "why",
+   "sentence": "It ended abruptly when the Mongols sacked Kyiv in 1240.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongols: no movement."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "sentence": "The Caves Monastery survived the sack and is still there — the Kyiv Pechersk Lavra, with its underground galleries of relics — one of the most important monastic sites in the Orthodox world and, in the twenty-first century, contested ground between rival Ukrainian church jurisdictions.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Contested ground between rival Ukrainian church jurisdictions': the modern Ukrainian churches have no movement, and no vendored or repo-cited source carries the dispute. Not qualified; escalated with the 2001 apology. Reworded for reading level only."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "sentence": "The literature this church produced, the Primary Chronicle above all, is the foundation document of East Slavic history, and the cult of Boris and Gleb, princes venerated precisely for not fighting back, became a distinctive strand in Slavic sanctity.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "The Primary Chronicle and the cult of Boris and Gleb are this church's own legacy, not relationships. Reworded for reading level only."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "sentence": "Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a question with live political weight to this day, and the century of Mongol rule that followed 1240 leaves a real gap in the record between this church and the Muscovy that later claimed it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Who inherits Kyiv's legacy ... is a question with live political weight': a statement about modern states and churches, none of which has a movement. Unsourced; included in the escalation on modern claims."
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "sentence": "Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a question with live political weight to this day, and the century of Mongol rule that followed 1240 leaves a real gap in the record between this church and the Muscovy that later claimed it.",
+   "other_id": "muscovite-monastic-christianity",
+   "disposition": "link",
+   "link_id": "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity",
+   "prose_change": 5,
+   "reason": "'The Muscovy that later claimed it': new Documented gave-rise-to link (the 14th-century synodal act on the move of the see from Kyiv to Vladimir; Herberstein on Moscow). 'A real gap in the record' understated that evidence and is rewritten (prose change 5); the thin record of the Mongol century is kept."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+   "prose_change": 1,
+   "reason": "'Children of ... Athos': new gave-rise-to link (Hilandar; Paisii 1762 and Obolensky, Dominant Modern Reconstruction)."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Children of Byzantium' beyond Athos has no vendored source (Sava's consecration in 1219 at Nicaea is not in a text we hold). The rewritten sentence names Byzantine monasticism on Athos only."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Carried hesychasm into the Slavic lands': no vendored or repo-cited source. Qualified with the reason ('may also have ... no text we hold yet shows it')."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+   "other_id": "muscovite-monastic-christianity",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Fixes the Slavic lane's Kyiv-to-Moscow jump' is a note about the map's layout, not a historical claim. Removed. The inventory's two 'contact' rows (Kyiv, Moscow) come from this phrase."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "When the Serbian ruler Stefan Nemanja abdicated in 1196 and became a monk, and his youngest son Rastko — already a monk on Mount Athos under the name Sava — joined him there, the two founded Hilandar, a Serbian house on the Holy Mountain.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+   "prose_change": 2,
+   "reason": "Sava a monk on Athos; Hilandar founded there: the gave-rise-to link. Rewritten whole for reading level, and the order corrected: Nemanja joined Sava on Athos (Paisii; the movement's own documented story), not the other way round."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "From it the shape of Serbian church life was set: Athonite charters adapted for Serbian monasteries, and a ruling family that produced its own saints and then wrote their lives.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+   "prose_change": 2,
+   "reason": "'Athonite charters adapted for Serbian monasteries': within the same link, graded on Obolensky (not read). The typika themselves are in wants; the sentence is kept."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "Sava secured an autocephalous Serbian church in 1219 and became its first archbishop.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The 1219 autocephaly names no other party; who granted it is not in a vendored text. Reworded ('self-governing')."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "In Bulgaria the restored patriarchate at Tarnovo did something comparable, gathering a literary school around it and the cult of hermits like John of Rila.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Tarnovo patriarchate, its school and the cult of John of Rila are inside this movement."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "Both churches were the road by which hesychast prayer traveled out of Greek and into Slavonic, and from there eventually to Russia.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Hesychast prayer passing from Greek into Slavonic: no vendored or repo-cited source. Qualified with the reason."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "Both churches were the road by which hesychast prayer traveled out of Greek and into Slavonic, and from there eventually to Russia.",
+   "other_id": "muscovite-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'And from there eventually to Russia': no vendored or repo-cited source. Qualified in the same sentence."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "sentence": "And Bulgaria was overrun by the Ottoman advance at the end of the fourteenth century, with Serbia following within two generations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Ottoman state has no movement. Not checked against a vendored text (dates of 1393-96 and 1459 are standard); reworded for reading level only."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "sentence": "When the Serbian ruler Stefan Nemanja abdicated in 1196 to become a monk, his son Rastko — already a monk on Mount Athos as Sava — joined him there, and together they founded the Serbian house of Hilandar.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+   "prose_change": 3,
+   "reason": "Hilandar on Athos: the gave-rise-to link; order of who joined whom corrected."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "sentence": "Sava secured an autocephalous Serbian church in 1219 and became its first archbishop, while in Bulgaria a restored patriarchate at Tarnovo gathered its own literary school around the cult of hermits like John of Rila.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Autocephaly and Tarnovo: internal events, as in the description."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "sentence": "Both churches carried hesychast prayer out of Greek and into the Slavic world, eventually reaching Russia.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Hesychast prayer into the Slavic world: qualified, no source."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "sentence": "Both churches carried hesychast prayer out of Greek and into the Slavic world, eventually reaching Russia.",
+   "other_id": "muscovite-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Eventually reaching Russia': qualified, no source."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "sentence": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "States that the Serbian and Bulgarian Orthodox Churches survive. The modern churches sit in orthodoxy-after-1821-balkan-autocephalies (era 9), with Ottoman-era entries between; whether to draw a long-gap link is a mapping question, escalated with the Georgian case. Not drafted."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "sentence": "While Hilandar remains one of the twenty ruling monasteries of Mount Athos.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Hilandar's present standing on Athos is a present-day fact; the founding relationship is carried by the gave-rise-to link. The sentence was a fragment ('While ...') and is fixed."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "sentence": "The Tarnovo school's revised Slavonic texts, and the hesychast spirituality carried inside them, traveled north and shaped Russian church life for centuries, and the zhitija, the lives of the royal saints, are foundational texts of Serbian literature to this day.",
+   "other_id": "muscovite-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "'Traveled north and shaped Russian church life for centuries': no vendored or repo-cited source. Qualified with the reason."
+  },
+  {
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "sentence": "The Tarnovo school's revised Slavonic texts, and the hesychast spirituality carried inside them, traveled north and shaped Russian church life for centuries, and the zhitija, the lives of the royal saints, are foundational texts of Serbian literature to this day.",
+   "other_id": "hesychasm-and-the-palamite-synthesis",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "'The hesychast spirituality carried inside them': qualified in the same sentence."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+   "other_id": "georgian-revival-tao-klarjeti",
+   "disposition": "link",
+   "link_id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "prose_change": 0,
+   "reason": "'A continuation of the Georgian church': new continued-as link from the Tao-Klarjeti revival, which is this entry's direct predecessor (its continuesAs points here). The inventory's other_id (georgian-christianity, c. 330-609) was wrong."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+   "other_id": "georgian-christianity",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Restoring a tradition silent since 622' comes from the map survey written before the census had any Georgian entry after 609. The Tao-Klarjeti entry now covers c. 780-1000, so the claim is wrong as well as a layout note. Removed."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+   "other_id": "athonite-and-comnenian-byzantine-monasticism",
+   "disposition": "link",
+   "link_id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "prose_change": 0,
+   "reason": "'Partner of Byzantine monasticism': new Inferential-Thin in-contact link (Brosset names the Life of St Giorgi of Mount Athos, d. 1067). The prose is narrowed to what that shows: Georgian monks still lived on Athos. Group A has drafted a better-evidenced link on the same pair (influenced; Brosset 2965-2967); see that link's flags."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "longDescription",
+   "sentence": "David IV, called the Builder, broke the Seljuk hold at the battle of Didgori in 1121, and in 1106 had begun the monastery of Gelati, which was also an academy: philosophy, astronomy, rhetoric and Greek taught alongside the liturgy, with the Neoplatonist Ioane Petritsi among its scholars.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Seljuks have no movement. Checked: Brosset's introduction (lines 3084-3086) reports the founding of Gelati (line 3084) and David's victory of 1120 or 1121 over Ilghazi (lines 3085-3086). Gelati as an academy, and Ioane Petritsi, describe this age itself: no relationship."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "longDescription",
+   "sentence": "Under his great-granddaughter Tamar the kingdom reached its widest extent, its churches were covered in frescoes, and its language was given a literature to match.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Tamar's kingdom, frescoes and literature: description, not relationship."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "longDescription",
+   "sentence": "The age ended not in decline but in conquest — after the Mongol invasions Georgia became a tributary state, and the death of Queen Rusudan in 1245 closes the age.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Mongols have no movement. Not checked against a vendored text; left standing."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "why",
+   "sentence": "David IV, called the Builder, broke the Seljuk hold on Georgia at the battle of Didgori in 1121 and founded the monastery of Gelati in 1106 as an academy where philosophy, astronomy and rhetoric were taught alongside the liturgy, with the Neoplatonist Ioane Petritsi among its scholars.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Seljuks: no movement; checked as in the description. Gelati: no relationship."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "why",
+   "sentence": "The age ended not through decline but through conquest, closing with the Mongol submission and Queen Rusudan's death in 1245.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mongols: no movement."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "legacy",
+   "sentence": "The Georgian Orthodox Church is still the national church of Georgia, in a line running straight through this period.",
+   "other_id": "the-georgian-orthodox-church-restored",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The church of 1245-1917 that carries the 'line running straight through' has no movement; the restored church begins in 1917. Checked: Mouravieff (1838, lines 801-805) supports the church's continuity until it was absorbed into the Russian church. A direct link from this age to 1917 would skip six centuries; escalated as a mapping question, not drafted."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "legacy",
+   "sentence": "Gelati survives, with its twelfth-century mosaic of the Virgin and centuries of wall painting, and David the Builder is buried at its gate.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Gelati's survival, its mosaic and David's burial: description."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "legacy",
+   "sentence": "What the age produced in Georgian — the chronicles, the hymnody, the translations made at Gelati, and beside them Rustaveli's great secular poem — remains the foundation of the national literature.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The age's literature, including Rustaveli: description."
+  },
+  {
+   "movement": "the-georgian-golden-age",
+   "field": "legacy",
+   "sentence": "The hymn traditionally attributed to King Demetre I, 'Thou Art a Vineyard', is still sung in Georgian churches and concert halls today.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Thou Art a Vineyard' and its attribution to Demetre I: a text and its present use, not a relationship; the entry already marks the attribution as traditional."
+  }
+ ],
+ "links": [
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "action": "keep",
+   "from": "latin-papal-church-gregorian",
+   "to": "byzantine-church-after-1054",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "byzantine-church-after-1054 relationsSummary, longDescription and why; latin-papal-church-gregorian relationsSummary",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "owned by group D"
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+   "action": "keep",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "broke with",
+   "confidence": "Documented",
+   "named_in_text": "byzantine-church-after-1054 relationsSummary, longDescription and why; latin-papal-church-gregorian relationsSummary",
+   "wants": [],
+   "drafter_flags": [
+    "For group D, not acted on here: Walsh, Residence at Constantinople vol. 2 (1836; cic/texts/walsh_residence-at-constantinople-v2_1836.txt, lines 17266-17267) says 'The patriarch excommunicated the legate'. It is a vendored secondary for the Greek side of 1054, which the broke-with note says we lack. Michael Cerularius's own synodal edict is still not vendored."
+   ],
+   "change_reason": "owned by group D"
+  },
+  {
+   "id": "byzantine-church-after-1054--byzantine-church-palaiologan",
+   "action": "new",
+   "from": "byzantine-church-after-1054",
+   "to": "byzantine-church-palaiologan",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The church of Constantinople kept its records and its rulings across the year 1300. In 1324 its synod settled a dispute by a decision made long before at Nymphaion, under Patriarch Arsenios. The patriarchs' register also copies a ruling of his from 1256, found in the church's old books.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople, 19 September 1324, in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 58",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "5531-5532",
+     "locus": "no. 58 (1324), on the dispute over a monastery claimed by Mitylene",
+     "quote": "πρὸ χρόνων ὅτι πλείστων κατὰ τὸ Νύμφαιον ἐπὶ τοῦ ἀοιδίμου àv «ατριάρχάις κῦρ ᾿Αρσενίου",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople, September 1324 (Patriarch Esaias), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 59, with the older acts copied after it",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "5940-5942",
+     "locus": "no. 59 (1324), note on the copied act of Patriarch Arsenios",
+     "quote": "συνοδικὴ πρᾶξις τοῦ ἀοιδίμου ἐν κατριάρχαις κῦρ ᾿Αρσενίου καφαγεγραμμένη εὑροϑεῖσα ἐν τοῖς παλαιοῖς κωδικίοις τοῦ ἱεροῦ χαρτοφυλακείοῃ τῆς ἁγιωτάτης μεγάλης τοῦ ϑεοῦ ἐκπλησίας,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), editors' heading to the older act copied after no. 59",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "5804-5806",
+     "locus": "no. 59, 'Acta antiquiora', act 1 (1256)",
+     "quote": "Acta antiquiora de eadem r e. 1. (6764—1256) martioind. XIV. — - U Decisto Patriarchae Aroenii.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-church-after-1054 legacy ('The same church continued into the next era through the Palaiologan period'); continuesAs",
+   "wants": [
+    "Pachymeres or Gregoras, Book V and after (Gregoras vol. 1 is not vendored), for the patriarchs between 1261 and 1300 in a narrative source"
+   ],
+   "drafter_flags": [
+    "The Greek OCR is rough; every quote keeps the file's errors exactly (àv, «ατριάρχάις, καφαγεγραμμένη, χαρτοφυλακείοῃ, ἐκπλησίας; 'Decisto Patriarchae Aroenii' for Decisio Patriarchae Arsenii). Checked by squash against the stated lines.",
+    "The year 1256 is the editors' (their heading gives 6764 = 1256); the Greek of the copied act names March, indiction 14, and Patriarch Arsenios at Nymphaion (lines 5807-5809, too garbled to quote).",
+    "The editors print the numbers as Roman numerals (LVIII, LIX); the locus uses Arabic numbers."
+   ],
+   "change_reason": "New. The legacy text and continuesAs name the Palaiologan church; no link existed. The patriarchal register of the 1320s cites and copies rulings of Patriarch Arsenios from the 1250s: the same see and archive across the period split.",
+   "note_fre": 62.5,
+   "note_fk": 8.3
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "action": "new",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "At the Second Council of Lyon in 1274, Emperor Michael VIII offered Pope Gregory X a profession of faith. In it the Greek side accepted the full primacy of the Roman church. Pope Clement IV had first put the text to him in 1267. No text we hold tells how the union was refused at home.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), heading",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14504",
+     "locus": "Denzinger nos. 461-466, heading",
+     "quote": "Professio fidei Michaelis Palaeologi",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), on the Roman primacy",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14629-14632",
+     "locus": "Denzinger no. 466",
+     "quote": "quem se ab ipso Domino in beato PETRO Apostolorum principe sive vertice, cuius Romanus Pontifex est successor, cum potestatis plenitudine recepisse veraciter et humiliter recognoscit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bannwart's note to the profession of Michael VIII, in Denzinger, Enchiridion symbolorum (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14515-14517",
+     "locus": "Denzinger no. 461, editor's note",
+     "quote": "Haec hdei professio anno 1267 a CLENIENTE IV Michaeli Palaeologo proposita ct ab hoc in Con- cilio LUGDUN. II GREGORIO X oblata est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First Vatican Council, Pastor aeternus, ch. 4 (1870), on the Greeks' profession at Lyon, in Schaff, The Creeds of Christendom, vol. 2 (1878), English",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "23524-23530",
+     "locus": "Pastor aeternus, ch. 4",
+     "quote": "with the approval of the Second Council of Lyons, the Greeks professed that the holy Roman Church enjoys su- preme and full primacy and pre- eminence over the whole Catholic Church,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-church-after-1054 relationsSummary ('the union with Rome offered at the Council of Lyon in 1274 and then rejected'), longDescription and why",
+   "wants": [
+    "Mansi, Sacrorum conciliorum collectio vol. 24 (Lyon 1274 acta, Michael VIII's letter at col. 70-71); only vols 25 onward are vendored",
+    "George Pachymeres or Nikephoros Gregoras (vol. 1, Book V) for the refusal of the union in Constantinople, so the Byzantine side has its own record"
+   ],
+   "drafter_flags": [
+    "Pair shared with group D (who own the two links already on it). The Latin entry's own text does not name Lyon (checked), so D is unlikely to have drafted this; the merge should still check for a second --2 on this pair.",
+    "Bannwart's note is OCR-damaged ('hdei' for fidei, 'CLENIENTE' for CLEMENTE, 'ct' for et); the quote keeps it. The Vatican I quote keeps Schaff's line-end hyphens ('su- preme', 'pre- eminence').",
+    "Documented rests on the profession itself (a 1274 document, printed by Denzinger) and its heading. Its offering at Lyon to Gregory X is stated by the 1911 editor and by Vatican I, not in a 13th-century witness we hold; the reviewer may judge that enough or lower the grade.",
+    "The census prose 'His own clergy and monks refused it, and the union collapsed' has no vendored source (left standing as a well-known event, as with Open-Gaps 'Well-known facts with no vendored source', 2026-11-07); the note says plainly that we hold no text for it. Mouravieff (1838, lines 2649-2657) says the Russian church avoided Patriarch John Bekkos as favourable to Rome until Joseph was restored in 1283, which is indirect."
+   ],
+   "change_reason": "New. The movement's text names the 1274 union with Rome three times; no link carried it. Typed 'in contact with' (a named shared event), not 'broke with' or 'influenced'.",
+   "note_fre": 77.2,
+   "note_fk": 5.8
+  },
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "byzantine-church-after-1054",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Crusaders took Constantinople in 1204, and Pope Innocent III then treated its church as Rome's own. In 1205 he wrote that it had lately come back into unity with Rome. By 1209 he called the Latin patriarch of the city \"our venerable brother\". A Russian church history of 1838 says the Latins drove the Greek emperors and patriarchs out.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the archbishop of Kalocsa, 3 May 1205 (Register, year 8, letter 40), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7329-7330",
+     "locus": "Reg. VIII ep. 40",
+     "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem, eam nolumus suo iure privari.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the bishops of Padua and Ceneda (Register, year 12, letter 94, 1209), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7698-7699",
+     "locus": "Reg. XII ep. 94",
+     "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha electio- nem confirmasset ipsius et in Epum consecrasset,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2353-2354",
+     "quote": "after their expulsion from - Constantinople by the Latins."
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2296-2297",
+     "quote": "He was sent from Constantinople shortly before its capture by the crusaders,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-church-after-1054 relationsSummary ('the Latin sack of Constantinople in 1204 and the exile to Nicaea'), longDescription and why ('installed a Latin patriarch')",
+   "wants": [
+    "Niketas Choniates, History, on the sack of 1204 (the movement's own documented story cites it; not vendored)",
+    "Innocent III's letters on the election of Thomas Morosini as Latin patriarch (Register VII-VIII), and Villehardouin, for the crusaders' side",
+    "A repo-cited modern study of the Latin patriarchate of Constantinople, to replace Mouravieff as the secondary for the consensus reading"
+   ],
+   "drafter_flags": [
+    "Type choice for the reviewer: the papacy did not sack the city; the relationship drafted is Rome taking over the see of Constantinople and treating it as its own (an act directed at the Byzantine church by name). If the reviewer prefers, this can be folded into group D's existing argued-against note as a second episode instead of standing as a second link on the same direction.",
+    "Widely Accepted rests on two primary letters and Mouravieff (1838) as the vendored secondary for the reading that the Greeks were expelled. Mouravieff is an official Russian Synod historian; a modern repo-cited study is wanted.",
+    "The Mouravieff quote at 2353-2354 keeps a page-break hyphen ('from - Constantinople'). The Theiner quotes keep the line-end hyphens and 'Epum' (episcopum).",
+    "Pair shared with group D. The Latin entry's text does not name 1204 (checked)."
+   ],
+   "change_reason": "New. The movement's text names the 1204 sack and the Latin patriarch; no link carried it. The crusading army has no movement; the papal church that took over the see does.",
+   "note_fre": 62.1,
+   "note_fk": 8.0
+  },
+  {
+   "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "byzantine-church-after-1054",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1802-1805",
+     "quote": "metropolitans themselves, who were always appointed at Con- stantinople, depended in spiritual matters upon the patriarch, and so preserved the infant Church of Russia in unbroken connection with the Church of Greece."
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2296-2297",
+     "quote": "He was sent from Constantinople shortly before its capture by the crusaders,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity-1054-1240 relationsSummary ('the usual Greek ones sent from Constantinople'), longDescription ('formally a metropolitanate of Constantinople') and why",
+   "wants": [
+    "The Russian Primary Chronicle (Povest' vremennykh let), PSRL vol. 1 or 2, or an English translation, for the metropolitans sent from Constantinople",
+    "A Byzantine synodal or patriarchal text of 1054-1240 naming a metropolitan of Kyiv"
+   ],
+   "drafter_flags": [
+    "Typed 'influenced', following the era-2 precedent for Caesarea's consecration of Armenia's heads (cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era). The relationship is jurisdiction, which none of the six types names exactly.",
+    "Graded Dominant Modern Reconstruction because the only vendored support is Mouravieff (1838), a secondary narrative. The facts are standard; the chronicle that would make this Documented is not vendored. verified-direct records that I read the quoted Mouravieff lines; there is no primary.",
+    "Mouravieff's 'always appointed at Constantinople' overstates: he himself reports the native metropolitans Hilarion (1051) and Clement (1147) chosen in Rus'. The note says 'appointed' without 'always', and the movement's own text already names the native metropolitans."
+   ],
+   "change_reason": "New. The Kyivan text names Constantinople as the source of its metropolitans in three fields; no link existed.",
+   "note_fre": 61.9,
+   "note_fk": 8.6
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Theodosius, abbot of the Caves Monastery at Kyiv, gave his monks the rule of the Stoudios monastery in Constantinople. A Russian church history of 1838 says a monk who came with the new metropolitan, George, brought the rule from that city. We do not yet hold the Kyivan texts it draws on.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1600-1603",
+     "quote": "wrote out for them the Rule of the Studium Monastery, the strictest of all in Constantinople, which a monk, who came with George the new metropolitan, had brought with him from that city."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity-1054-1240 longDescription and why ('gave it a Byzantine rule'); iconophile-byzantine-monasticism legacy ('Theodore's reorganization of Stoudios also shaped later Byzantine and Slavic monastic rules')",
+   "wants": [
+    "Nestor's Life of Theodosius of the Caves, or the Primary Chronicle under 1074, in a vendored edition, for the Studite rule's arrival in Kyiv",
+    "The Studite Hypotyposis (rule) itself, to tie the rule Kyiv received to Theodore's house"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4 (iconophile-byzantine-monasticism's legacy names Slavic rules; the era-4 pass may draft this or a link from it to kievan-rus-christianity).",
+    "Which movement owns the rule: the Kyivan text says only 'a Byzantine rule'. Mouravieff says it was the rule of the Stoudios monastery, which the iconophile entry claims as Theodore's house. The rule came from the 11th-century Stoudios, which falls in athonite-and-comnenian-byzantine-monasticism's dates (c. 963-1300, 'Athos, Constantinople'). If the reviewer reads the 11th-century house as Comnenian, retarget to athonite-and-comnenian-byzantine-monasticism.",
+    "Cross-group: athonite-and-comnenian-byzantine-monasticism's legacy says Athonite typika were adapted by Russian founders, and Mouravieff (lines 1557-1563) says Anthony of the Caves was tonsured on Athos and 'brought with him the blessing of the Holy Mountain'. The Kyivan text does not name Athos, so I drafted no Athos link; the group drafting the Athonite entry may.",
+    "Mouravieff only (secondary), so Dominant Modern Reconstruction; verified-direct records that I read the quoted lines.",
+    "Group A drafts athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240 (influenced, Inferential-Thin) on Mouravieff 1557-1563 and 1599-1603, the second being my source too. Different pair, so not a duplicate, but the same Studite-rule passage now supports both; the merge may want only one movement to own the rule (see the retarget flag above)."
+   ],
+   "change_reason": "New. Both the Kyivan text and the iconophile legacy name the rule's passage to the Slavs; no link existed.",
+   "note_fre": 61.9,
+   "note_fk": 8.9
+  },
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "kievan-rus-christianity",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Caves Monastery at Kyiv spans the year 1054. A Russian church history of 1838 says that the priest Hilarion, later the city's chief bishop, first prayed in a cave there. The hermit Anthony then settled in Hilarion's empty cave, and Theodosius later gave the growing community its rule. We do not yet hold the Kyivan chronicle behind this account.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1540-1542",
+     "quote": "The Metropolitan Hilarion when he was as yet only priest of the Church of the holy Apostles in Berestoff,"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1565-1567",
+     "quote": "but in the deserted cave of Hilarion. There Anthony established himself;"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1599-1601",
+     "quote": "Theodosius seeing the brethren continually multiplying around him and already amounting to a hundred, wrote out for them the Rule of the Studium Monastery,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity-1054-1240 relationsSummary ('A continuation of Rus' Christianity's first generations') and longDescription; kievan-rus-christianity legacy ('The same church continued without a break...'); continuesAs",
+   "wants": [
+    "The Russian Primary Chronicle and the Kyiv Caves Paterik in a vendored edition, for the Caves community and the metropolitans of Kyiv on both sides of 1054"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4 (kievan-rus-christianity's legacy and continuesAs name this continuation; the era-4 pass is likely to draft the same link. Merge must keep one.)",
+    "Mouravieff only (secondary), so Dominant Modern Reconstruction. The quote at 1540-1542 starts mid-line after 'namesakes.'; it is a whole clause.",
+    "The note says Hilarion 'first prayed in a cave there': Mouravieff says he 'was accustomed to retire for seclusion and prayer' and 'dug himself out a dark cave' (lines 1543-1551; the cave line carries margin junk, so it is not quoted)."
+   ],
+   "change_reason": "New. Both texts name the continuation and continuesAs joins them; no link existed.",
+   "note_fre": 60.8,
+   "note_fk": 8.4
+  },
+  {
+   "id": "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity",
+   "action": "new",
+   "from": "kievan-rus-christianity-1054-1240",
+   "to": "muscovite-monastic-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "A ruling of the patriarch's council in Constantinople, from the 1300s, says Kyiv had long held the cathedral of the chief bishop of Rus'. When Kyiv fell into ruin, the bishops moved their seat to Vladimir. Herberstein, an envoy to Moscow in the 1500s, wrote that the seat had since moved on to Moscow.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "16499-16500",
+     "locus": "no. 158, opening",
+     "quote": "τὸ Κύεβον ἐπονομαζόμενον, ἐν ᾧ ἦν ἄνω- ϑεν ἡ χαϑολικὴ ἐκχλησία τῆς μητροπόλεως,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "16507",
+     "locus": "no. 158, the move to Vladimir",
+     "quote": "μετῴκησαν εἰς τὴν ἁγιωτάτην αὐτῆς ἐὀπκισχοπὴν Βλανδιμήρου,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+     "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+     "lines": "16509-16511",
+     "locus": "no. 158, Theognostos and two before him",
+     "quote": "μετῴκισαν δὲ ἐν αὐτῇ τοῦτον τὸν τρόπον ὅ τε ἱεξρώτατος μητροπολίτης Ῥωσίας, «üóp Θεόγνωστος ἐχεῖνος, καὶ πρὸ αὐτοῦ ἕτεροι δύο,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigismund von Herberstein, Rerum Moscoviticarum commentarii (1549), trans. R. H. Major, Notes upon Russia, vol. 1 (Hakluyt Society, 1851)",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "9762-9763",
+     "locus": "'Religion'",
+     "quote": "The metropolitan formerly resided in Kiev, afterwards in Vladimir, but now in Moscow.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2689-2691",
+     "quote": "he transferred the ancient metropolitical throne to the new capital, still keeping the former title of metropolitan of Kieff and of all Russia ;"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity-1054-1240 legacy ('the Muscovy that later claimed it'); muscovite-monastic-christianity relationsSummary ('Child of Kievan + hesychast lines')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 6 (muscovite-monastic-christianity's 'Child of Kievan' names the same relationship; the era-6 pass may draft it).",
+    "Documented rests on the see itself passing from Kyiv to Vladimir and then Moscow, in a dated 14th-century synodal act and a 16th-century witness. If the reviewer reads the Muscovite entry as the monastic movement of Sergius only, not the Moscow church, this should drop: the see's move would then be background, not descent.",
+    "The act carries no year in the edition ('Sine anno'); it names Theognostos as the late metropolitan and his successor as newly raised, so it is after his death (Mouravieff's list puts his successor Alexis in 1353). The note says only 'from the fourteenth century'.",
+    "The act blames Kyiv's ruin on 'the confusion of the time' and the attack of the neighbouring 'Alamanoi' (line 16503); who they are is not settled here, so the note says only that Kyiv fell into ruin.",
+    "Greek OCR errors kept exactly (χαϑολικὴ ἐκχλησία, ἐὀπκισχοπὴν Βλανδιμήρου, «üóp, ἱεξρώτατος).",
+    "Another passage of the same act (line 16547) says a rival, Theodoritos, went to Tarnovo for an uncanonical consecration as metropolitan of Kyiv. That is evidence of the Tarnovo patriarchate's reach into Rus', for whoever drafts Bulgarian-Rus' links later; not drafted here (my texts do not name it)."
+   ],
+   "change_reason": "New. The Kyivan legacy names Muscovy's later claim and the Muscovite summary names Kyiv as parent; no link existed. The prose 'real gap in the record' is adjusted to match (prose change 5).",
+   "note_fre": 71.1,
+   "note_fk": 7.8
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "serbian-and-bulgarian-medieval-monasticism",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Serbian ruler Stefan Nemanja became a monk. With his son Sava he founded Hilandar, a Serbian house on Mount Athos. Paisii, a monk of Hilandar writing in 1762, says Nemanja came to the Holy Mountain and built the monastery. We do not yet hold the founding charter or Sava's own writings, so this rests on a modern study of Sava.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paisii of Hilendar, Istoriia slavianobolgarskaia (1762), ed. Yordan Ivanov (Sofia, 1914)",
+     "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+     "lines": "5691-5692",
+     "locus": "Paisii, on the Serbian kings (manuscript fol. 39)",
+     "quote": "Неманъ жнпанъ сталъ монахъ прнпшелъ въ Ст''а гора , съградплъ Ххландаръ монастиръ",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Dimitri Obolensky, Six Byzantine Portraits (Oxford, 1988), the portrait of Sava",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "serbian-and-bulgarian-medieval-monasticism relationsSummary ('Children of Byzantium/Athos'), longDescription, why and legacy (Hilandar); athonite-and-comnenian-byzantine-monasticism legacy ('Athonite typika were adapted by ... Serbian, Bulgarian ... founders')",
+   "wants": [
+    "Sava's Life of Symeon (Stefan Nemanja) and the Hilandar and Karyes typika in a vendored edition or translation",
+    "Stefan Nemanja's Hilandar founding charter in a quotable text (Miklosich, Monumenta Serbica, 1858, is vendored but its OCR is marked second witness only, not to be quoted)",
+    "Domentijan's or Teodosije's Life of Sava",
+    "The Evergetis typikon and Sava's Hilandar typikon side by side (e.g. Byzantine Monastic Foundation Documents), to document 'Athonite charters adapted for Serbian monasteries'"
+   ],
+   "drafter_flags": [
+    "Paisii writes 560 years after the founding, and the OCR is badly damaged ('жнпанъ' for жупанъ, 'прнпшелъ' for пришелъ, 'Ххландаръ' for Хиландаръ); the quote keeps it exactly. It is a late witness to the tradition, not evidence of the founding; the grade rests on Obolensky.",
+    "Obolensky is cited in the movement's own sources ('Includes a standard scholarly portrait of Sava'); I have not read it, hence named-not-rechecked and specificity B.",
+    "Cross-group: athonite-and-comnenian-byzantine-monasticism's legacy names Serbian and Bulgarian founders; its drafter may make the same link.",
+    "'Children of Byzantium' beyond Athos (e.g. Sava's consecration as archbishop at Nicaea in 1219) has no vendored source; the relationsSummary now names Athos only (prose change 1)."
+   ],
+   "change_reason": "New. The Serbian text names Athos and Hilandar in every field; no link existed.",
+   "note_fre": 64.7,
+   "note_fk": 8.0
+  },
+  {
+   "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "action": "new",
+   "from": "georgian-revival-tao-klarjeti",
+   "to": "the-georgian-golden-age",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Brosset, who edited the Georgian chronicles in the 1800s, lists the heads of the Georgian church across the year 1000. One died under King Bagrat III, before 1014. Another, Giorgi of Tao, served under Bagrat IV. Brosset also says the Bagratid family lived in Tao and Klarjeti. Bagrat III, who was adopted by one of them, ruled a united kingdom by 1008.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2587-2588",
+     "quote": "Suimon, mort sous le roi ttagral 111, donc avant l'an 1014, et remplacé par Melkisadec; Okropir, Giorgi du Tao, sous BagratlV , 1028 — 1072;"
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2906-2907",
+     "quote": "les Bagratides, résidant plutôt que régnant dans le Tao et dans le Clardjeth,"
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2914-2915",
+     "quote": "Comme il avait adopté déjà le jeune Bagrat et voulait en faire l'héritier de ses domaines,"
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2919-2921",
+     "quote": "la mort de Bagrat-le-Sot, en 994, suivie de celle de son père Gourgen, en 1008, et de l'extinction des derniers rejetons de la race bagratide, le laissa seul maître du royaume uni aphkhazo-karthle."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-georgian-golden-age relationsSummary ('A continuation of the Georgian church'); georgian-revival-tao-klarjeti relationsSummary and legacy ('leads directly into the Georgian Golden Age'); continuesAs",
+   "wants": [
+    "Kartlis Tskhovreba (the Georgian Chronicles) in a vendored translation, e.g. Brosset's French text volume (Histoire de la Géorgie, part I, text) or Thomson, Rewriting Caucasian History (1996), for the catholicoi and the Bagratid union",
+    "The Life of Grigol of Khandzta by Giorgi Merchule, for the Tao-Klarjeti side"
+   ],
+   "drafter_flags": [
+    "cross-era: era 4 (georgian-revival-tao-klarjeti's text and continuesAs name this; the era-4 pass is likely to draft it. Merge must keep one.)",
+    "The vendored Brosset file is the volume of his introduction and tables (the header calls it the chronicle; it is the editor's survey), so every source is marked secondary. Graded Dominant Modern Reconstruction on that basis; Brosset says the five names come only from an old manuscript of the Annals he owned.",
+    "OCR kept exactly ('ttagral 111' for Bagrat III, 'BagratlV' for Bagrat IV). The note says 'adopted by one of them': Brosset names the adopter as David the Kuropalates, a nephew of Bagrat the Simple; that he was of the Tao line is implied, not stated, in the lines quoted."
+   ],
+   "change_reason": "New. Replaces the old summary's 'restoring a tradition silent since 622', which predates the Tao-Klarjeti entry (prose change 0).",
+   "note_fre": 62.9,
+   "note_fk": 7.4
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "action": "new",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "the-georgian-golden-age",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "Georgian monks still lived on Mount Athos in this age. Brosset, the nineteenth-century editor of the Georgian chronicles, lists among Georgian writings the Life of St Giorgi of Mount Athos, who died in 1067. That single mention is thin evidence. We do not yet hold the Georgian Lives of the abbots of Athos.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2232-2233",
+     "quote": "dans les ouvrages géorgiens , comme la vie de S. Giorgi du mont Athos , mort en 1067 ,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-georgian-golden-age relationsSummary ('partner of Byzantine monasticism'); athonite-and-comnenian-byzantine-monasticism legacy ('Athonite typika were adapted by Georgian ... founders')",
+   "wants": [
+    "Tamara Grdzelidze (trans.), Georgian Monks on Mount Athos: Two Eleventh-Century Lives of the Hegoumenoi of Iviron (2009), cited in the movement's sources, for Giorgi the Hagiorite and Iviron in this period",
+    "The typikon of Gregory Pakourianos for Petritsoni (1083), in Byzantine Monastic Foundation Documents (Dumbarton Oaks, 2000), cited in the movement's sources"
+   ],
+   "drafter_flags": [
+    "Symmetric type, ids in alphabetical order (athonite < the-georgian).",
+    "Brosset gives 1067 for Giorgi's death; most modern accounts give 1065. The note follows the source and does not claim more.",
+    "Iviron's founding (980-983) belongs to the Tao-Klarjeti entry, whose region already includes 'Mount Athos (Iviron)'. This link claims only contact in the golden-age window.",
+    "Cross-group: the Athonite entry's legacy names Georgian founders; its drafter may make an Athonite-Georgian link (possibly to the Tao-Klarjeti entry instead).",
+    "Duplicate pair with group A: Draft_GroupA drafts athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age as 'influenced' (Inferential-Thin) on Brosset lines 2965-2967, where the Georgian house on Athos 'vit fleurir les savants interprètes' of scripture and Greek theology under Bagrat III. That passage carries the 'partner' claim better than mine. Recommend the merge keep group A's link and drop this one; the disposition rows for 'partner of Byzantine monasticism' and prose change 0 then point to group A's id. Prose change 0 ('Georgian monks still lived on Mount Athos, among the Byzantine houses there') fits either."
+   ],
+   "change_reason": "New. The Georgian summary names Byzantine monasticism as partner; no link existed. Graded Inferential-Thin: one mention in a 19th-century introduction.",
+   "note_fre": 67.3,
+   "note_fk": 7.2
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-georgian-golden-age",
+   "field": "relationsSummary",
+   "old": "A continuation of the Georgian church - restoring a tradition silent since 622; partner of Byzantine monasticism.",
+   "new": "This is the Georgian church, carried on from the monastic revival of Tao-Klarjeti. Georgian monks still lived on Mount Athos, among the Byzantine houses there.",
+   "reason": "'Restoring a tradition silent since 622' is a map-building note written before the census had a Georgian entry after 609. The census now holds the Tao-Klarjeti revival (c. 780-1000), whose own text and continuesAs lead into this age, so the claim is wrong as well as internal. The church's continuity is carried by a new continued-as link from Tao-Klarjeti (Brosset's list of catholicoi across 1000). 'Partner of Byzantine monasticism' is narrowed to what the thin evidence shows (Georgian monks on Athos; new Inferential-Thin contact link).",
+   "fre_after": 60.2,
+   "fk_after": 8.1
+  },
+  {
+   "n": 1,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "old": "Children of Byzantium/Athos; carried hesychasm into the Slavic lands; fixes the Slavic lane's Kyiv-to-Moscow jump",
+   "new": "These churches grew out of Byzantine monasticism on Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. They may also have carried hesychast prayer into the Slavic lands, but no text we hold yet shows it.",
+   "reason": "'Fixes the Slavic lane's Kyiv-to-Moscow jump' is a cataloguing note about the map, not a historical claim: removed. 'Children of Byzantium/Athos' is carried by the new gave-rise-to link from Athonite monasticism (Hilandar); 'Byzantium' apart from Athos has no source here (who granted the 1219 autocephaly is not in a vendored text), so the sentence names Athos. The hesychast claim has no vendored or repo-cited source and is qualified with the reason.",
+   "fre_after": 64.7,
+   "fk_after": 9.5
+  },
+  {
+   "n": 2,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "old": "When the Serbian ruler Stefan Nemanja abdicated in 1196 and became a monk, and his youngest son Rastko — already a monk on Mount Athos under the name Sava — joined him there, the two founded Hilandar, a Serbian house on the Holy Mountain. From it the shape of Serbian church life was set: Athonite charters adapted for Serbian monasteries, and a ruling family that produced its own saints and then wrote their lives. Sava secured an autocephalous Serbian church in 1219 and became its first archbishop. In Bulgaria the restored patriarchate at Tarnovo did something comparable, gathering a literary school around it and the cult of hermits like John of Rila. Both churches were the road by which hesychast prayer traveled out of Greek and into Slavonic, and from there eventually to Russia. And Bulgaria was overrun by the Ottoman advance at the end of the fourteenth century, with Serbia following within two generations.",
+   "new": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne and became a monk. His youngest son, Rastko, was already a monk on Mount Athos under the name Sava, and Nemanja joined him there. Together they founded Hilandar, a Serbian house on the Holy Mountain. From it the shape of Serbian church life was set. Athonite charters were adapted for Serbian monasteries, and a ruling family produced its own saints and then wrote their lives. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria the restored patriarchate at Tarnovo did much the same. It gathered a school of writers around it, and the cult of hermits like John of Rila. Both churches may have been the road by which hesychast prayer passed from Greek into Slavonic, and from there to Russia. No text we hold yet traces that road. At the end of the fourteenth century the Ottoman advance overran Bulgaria, and Serbia followed within two generations.",
+   "reason": "Relationship to hesychasm and to Muscovite Russia with no vendored or repo-cited source (no Slavonic translation, no Life of Gregory of Sinai, no Tarnovo text in the Library): qualified with the reason. The paragraph is rewritten whole for reading level (it scored Reading Ease 47). The opening sentence had Sava joining his father; Paisii (1762) and the movement's own documented story have Nemanja coming to Athos, where Sava already was, so the order is put right. 'Autocephalous' becomes 'self-governing'. No other fact changed.",
+   "fre_after": 62.0,
+   "fk_after": 8.3
+  },
+  {
+   "n": 3,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "old": "When the Serbian ruler Stefan Nemanja abdicated in 1196 to become a monk, his son Rastko — already a monk on Mount Athos as Sava — joined him there, and together they founded the Serbian house of Hilandar. Sava secured an autocephalous Serbian church in 1219 and became its first archbishop, while in Bulgaria a restored patriarchate at Tarnovo gathered its own literary school around the cult of hermits like John of Rila. Both churches carried hesychast prayer out of Greek and into the Slavic world, eventually reaching Russia.",
+   "new": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne to become a monk. He joined his son Rastko, already a monk on Mount Athos as Sava, and together they founded the Serbian house of Hilandar. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria a restored patriarchate at Tarnovo gathered its own school of writers around the cult of hermits like John of Rila. Both churches may have carried hesychast prayer from Greek into the Slavic world and on to Russia, though no text we hold yet shows it.",
+   "reason": "Same claim and same reason as the longDescription change. Rewritten whole for reading level (Reading Ease 40); the same who-joined-whom order fixed as in the description.",
+   "fre_after": 62.2,
+   "fk_after": 9.4
+  },
+  {
+   "n": 4,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "old": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches. So do their buildings, which are among the most visited in the region — Studenica, where Nemanja is buried, and Rila, still Bulgaria's largest monastery. While Hilandar remains one of the twenty ruling monasteries of Mount Athos. The literary legacy outran the politics. The Tarnovo school's revised Slavonic texts, and the hesychast spirituality carried inside them, traveled north and shaped Russian church life for centuries, and the zhitija, the lives of the royal saints, are foundational texts of Serbian literature to this day.",
+   "new": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches. So do their buildings, which are among the most visited in the region. Nemanja is buried at Studenica, and Rila is still Bulgaria's largest monastery. Hilandar is still one of the twenty ruling monasteries of Mount Athos. The legacy in books outran the politics. The Tarnovo school's revised Slavonic texts, with the hesychast prayer inside them, may have traveled north to shape the church in Russia. No text we hold yet traces the route. The zhitija, the lives of the royal saints, are still founding texts of Serbian writing.",
+   "reason": "'Traveled north and shaped Russian church life' is a relationship to Muscovite Christianity with no vendored or repo-cited source: qualified with the reason. 'While Hilandar remains...' was a sentence fragment, fixed in the same paragraph; the 49-word closing sentence is split. No fact dropped.",
+   "fre_after": 60.1,
+   "fk_after": 7.9
+  },
+  {
+   "n": 5,
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "old": "The Caves Monastery survived the sack and is still there — the Kyiv Pechersk Lavra, with its underground galleries of relics — one of the most important monastic sites in the Orthodox world and, in the twenty-first century, contested ground between rival Ukrainian church jurisdictions. The literature this church produced, the Primary Chronicle above all, is the foundation document of East Slavic history, and the cult of Boris and Gleb, princes venerated precisely for not fighting back, became a distinctive strand in Slavic sanctity. Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a question with live political weight to this day, and the century of Mongol rule that followed 1240 leaves a real gap in the record between this church and the Muscovy that later claimed it.",
+   "new": "The Caves Monastery survived the sack and is still there. Today it is the Kyiv Pechersk Lavra, with underground passages full of relics, and one of the great monasteries of the Orthodox world. In our own century it is also claimed by rival Ukrainian churches. The writings this church left, above all the Primary Chronicle, are the founding record of East Slavic history. Boris and Gleb, princes honored as saints because they did not fight back, set a pattern of holiness of their own among the Slavs. Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a live political question to this day. The century of Mongol rule after 1240 left few records. What ran through it was the see of the metropolitan. It moved north to Vladimir and then to Moscow, and Moscow later claimed Kyiv's legacy as its own.",
+   "reason": "'A real gap in the record between this church and the Muscovy' understated the evidence: a fourteenth-century synodal act of Constantinople (Miklosich-Muller I, no. 158) says the metropolitans of Kyiv and all Rus' moved their seat to Vladimir, and Herberstein says it then moved to Moscow. Carried by the new Documented gave-rise-to link to Muscovite Christianity. The thin record of the Mongol century is kept. The 46-word sentence is split. The paragraph is rewritten whole for reading level (Reading Ease 36); every other fact kept.",
+   "fre_after": 61.1,
+   "fk_after": 8.6
+  },
+  {
+   "n": 6,
+   "movement": "byzantine-church-after-1054",
+   "field": "longDescription",
+   "old": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia during the liturgy and walked out. The patriarch, Michael Cerularius, condemned him in return. Neither man believed he had divided Christendom, and for a long time nobody treated the breach as final. But the estrangement between the Greek and Latin churches did not heal, and it hardened catastrophically in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years. The Byzantines returned in 1261. In 1274, needing Western help against his enemies, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon. His own clergy and monks refused it, and the union collapsed.",
+   "new": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia during the liturgy and walked out. The patriarch, Michael Cerularius, condemned him in return. It was not yet a final break. But the split between the Greek and Latin churches did not heal, and in 1204 it turned to disaster. A crusading army sacked Constantinople and set up a Latin patriarch. The church of the empire was driven out to Nicaea for nearly sixty years. The Byzantines won back their city in 1261. In 1274 Emperor Michael VIII needed help from the West against his enemies, so he accepted union with Rome at the Second Council of Lyon. His own clergy and monks refused it, and the union fell apart.",
+   "reason": "What the two men believed has no vendored or repo-cited source. The milder point stands on the documented union talks at Lyon in 1274 (Denzinger, Michael VIII's profession; new in-contact link), so the sentence now says only that. The paragraph is rewritten whole for reading level (Reading Ease 46); every other fact kept.",
+   "fre_after": 63.0,
+   "fk_after": 7.9
+  },
+  {
+   "n": 7,
+   "movement": "byzantine-church-after-1054",
+   "field": "why",
+   "old": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia and walked out, and the patriarch Michael Cerularius condemned him in return — though neither man believed at the time that he had divided Christendom permanently. The estrangement hardened in 1204, when a crusading army sacked Constantinople, installed a Latin patriarch, and drove the imperial church into exile at Nicaea for nearly sixty years before its return in 1261. In 1274, needing Western help, Emperor Michael VIII accepted union with Rome at the Second Council of Lyon, but his own clergy and monks refused it and the union collapsed.",
+   "new": "In July 1054 a papal legate laid a bull of excommunication on the altar of Hagia Sophia and walked out. The patriarch, Michael Cerularius, condemned him in return. It was not yet a final break. The rift grew hard in 1204, when a crusading army sacked Constantinople and set up a Latin patriarch. The church of the empire was driven out to Nicaea for nearly sixty years, until it came home in 1261. In 1274 Emperor Michael VIII needed help from the West, so he accepted union with Rome at the Second Council of Lyon. His own clergy and monks refused it, and the union fell apart.",
+   "reason": "Same reason as the longDescription change: the two men's beliefs are unsourced; 'not yet a final break' rests on the documented Lyon union talks of 1274. The patriarch's counter-condemnation is supported by Walsh (1836, vendored secondary, lines 17262-17265), noted for group D. Rewritten whole for reading level (Reading Ease 41); every other fact kept.",
+   "fre_after": 65.4,
+   "fk_after": 7.8
+  }
+ ],
+ "wants": [
+  "Pachymeres or Gregoras, Book V and after (Gregoras vol. 1 is not vendored), for the patriarchs between 1261 and 1300 in a narrative source",
+  "Mansi, Sacrorum conciliorum collectio vol. 24 (Lyon 1274 acta, Michael VIII's letter at col. 70-71); only vols 25 onward are vendored",
+  "George Pachymeres or Nikephoros Gregoras (vol. 1, Book V) for the refusal of the union in Constantinople, so the Byzantine side has its own record",
+  "Niketas Choniates, History, on the sack of 1204 (the movement's own documented story cites it; not vendored)",
+  "Innocent III's letters on the election of Thomas Morosini as Latin patriarch (Register VII-VIII), and Villehardouin, for the crusaders' side",
+  "A repo-cited modern study of the Latin patriarchate of Constantinople, to replace Mouravieff as the secondary for the consensus reading",
+  "The Russian Primary Chronicle (Povest' vremennykh let), PSRL vol. 1 or 2, or an English translation, for the metropolitans sent from Constantinople",
+  "A Byzantine synodal or patriarchal text of 1054-1240 naming a metropolitan of Kyiv",
+  "Nestor's Life of Theodosius of the Caves, or the Primary Chronicle under 1074, in a vendored edition, for the Studite rule's arrival in Kyiv",
+  "The Studite Hypotyposis (rule) itself, to tie the rule Kyiv received to Theodore's house",
+  "The Russian Primary Chronicle and the Kyiv Caves Paterik in a vendored edition, for the Caves community and the metropolitans of Kyiv on both sides of 1054",
+  "Sava's Life of Symeon (Stefan Nemanja) and the Hilandar and Karyes typika in a vendored edition or translation",
+  "Stefan Nemanja's Hilandar founding charter in a quotable text (Miklosich, Monumenta Serbica, 1858, is vendored but its OCR is marked second witness only, not to be quoted)",
+  "Domentijan's or Teodosije's Life of Sava",
+  "The Evergetis typikon and Sava's Hilandar typikon side by side (e.g. Byzantine Monastic Foundation Documents), to document 'Athonite charters adapted for Serbian monasteries'",
+  "Kartlis Tskhovreba (the Georgian Chronicles) in a vendored translation, e.g. Brosset's French text volume (Histoire de la Géorgie, part I, text) or Thomson, Rewriting Caucasian History (1996), for the catholicoi and the Bagratid union",
+  "The Life of Grigol of Khandzta by Giorgi Merchule, for the Tao-Klarjeti side",
+  "Tamara Grdzelidze (trans.), Georgian Monks on Mount Athos: Two Eleventh-Century Lives of the Hegoumenoi of Iviron (2009), cited in the movement's sources, for Giorgi the Hagiorite and Iviron in this period",
+  "The typikon of Gregory Pakourianos for Petritsoni (1083), in Byzantine Monastic Foundation Documents (Dumbarton Oaks, 2000), cited in the movement's sources",
+  "Kallistos's Life of Gregory of Sinai (ed. Pomjalovskij, 1894), for Paroria and Gregory's Bulgarian disciples, so the hesychast sentences of the Serbian and Bulgarian entry can be restored",
+  "Euthymius of Tarnovo's writings or the 14th-century Slavonic translations of hesychast texts, or a repo-cited modern study of the South Slavic books reaching Russia, so the 'traveled north to Russia' claims can stand unqualified",
+  "The text of Pope John Paul II's address in Athens (4 May 2001) on the sack of 1204, before the Byzantine legacy's 'offered an apology' is kept or reworded",
+  "A source for the twenty-first-century dispute over the Kyiv Pechersk Lavra between rival Ukrainian churches"
+ ],
+ "escalations": [
+  "Modern relationship claims with no census movement and no vendored or repo-cited source. byzantine-church-after-1054 legacy: the sack of 1204 'shaped Orthodox attitudes to the West for centuries' and 'Pope John Paul II offered an apology for it in 2001'. kievan-rus-christianity-1054-1240 legacy: the Caves Monastery is 'contested ground between rival Ukrainian church jurisdictions', and who inherits Kyiv's legacy 'is a question with live political weight'. The brief says to qualify such claims, but turning matters of public record into 'may have' would mislead the other way. I left them standing and listed the wanted sources. This extends the open method question in Open-Gaps ('Well-known facts with no vendored source', 2026-11-07) from facts to relationship claims; it is Mark's call. One possible wording issue: from memory, and unverified, the 2001 address expressed deep regret for the sack and asked forgiveness, rather than being an apology in so many words. I have not changed it without a source.",
+  "Long-gap continuity to modern churches (cross-era mapping). the-georgian-golden-age legacy says the Georgian Orthodox Church runs 'in a line running straight through this period' to today. The Caucasus lane has no Georgian entry between 1245 and the-georgian-orthodox-church-restored (1917). serbian-and-bulgarian-medieval-monasticism legacy says 'Both churches survive'. The modern churches sit in orthodoxy-after-1821-balkan-autocephalies (era 9), with Ottoman-era entries between. I drafted no link for either, because a direct link would claim continuity across centuries the census does not hold. Whether such links should be drawn, or the gap entries made, is Mark's call (compare Open-Gaps items on census structure, 2026-11-07)."
+ ]
+}

@@ -76,7 +76,9 @@ applied to every shared file, not only the census.
 | P2-L1 | Links, era 1; data release 4 | none | merged (#1537) |
 | P2-L2 | Links, era 2; data release 6 | none | merged (#1539) |
 | P2-L3 | Links, era 3; data release 7 | none | in review |
-| P2-L4…L10 | Links, one era per chunk | none | todo |
+| P2-L4 | Links, era 4; data release 8 | none | merged (#1541) |
+| P2-L5 | Links, era 5; data release 9 | none | in review |
+| P2-L6…L10 | Links, one era per chunk | none | todo |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5 | none (3-round cap) | in progress |
 | P2-M | Method page, confidence at a glance | none | todo |

@@ -1,0 +1,1042 @@
+{
+ "group": "D",
+ "movements": [
+  "the-church-of-the-east-on-the-silk-road",
+  "church-of-the-east-under-the-abbasids",
+  "st-thomas-christians-of-india",
+  "melkite-arabic-christianity",
+  "syriac-orthodox-under-islam"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the Syriac Church of the East - one of the longest single lineages in this history, running from Edessa to Xi'an.",
+   "other_id": "the-church-of-the-east-under-persia",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "prose_change": null,
+   "reason": "New continued-as link: the synod collection shows the same office of catholicos and patriarch of the East in 585 and in 676, under Arab rule."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "relationsSummary",
+   "sentence": "A continuation of the Syriac Church of the East - one of the longest single lineages in this history, running from Edessa to Xi'an.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "prose_change": null,
+   "reason": "The lineage from Edessa is carried by the chain of continued-as links already published (syriac-edessa-nisibis--persian-church-of-the-east-early, persian-church-of-the-east-early--the-church-of-the-east-under-persia) plus the new one into this entry. No direct link across four centuries is drafted; the sentence claims a lineage, which the chain states."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "longDescription",
+   "sentence": "A Syriac-speaking church whose bishops sat in Persia had, by the seventh century, sent monks the whole width of Asia: in 635 a missionary the Chinese records call Alopen reached the Tang capital of Chang'an and was received at the imperial court, and toleration for his religion was proclaimed three years later.",
+   "other_id": "the-church-of-the-east-under-persia",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "prose_change": null,
+   "reason": "Added (not in the inventory): 'a Syriac-speaking church whose bishops sat in Persia' names the Persian church as the sending church, which is the same continuity as the relationsSummary."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "longDescription",
+   "sentence": "A Syriac-speaking church whose bishops sat in Persia had, by the seventh century, sent monks the whole width of Asia: in 635 a missionary the Chinese records call Alopen reached the Tang capital of Chang'an and was received at the imperial court, and toleration for his religion was proclaimed three years later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Tang court has no entry. Checked: the vendored texts put Alopen's arrival in 636, not 635 (Assemani, Bibl. Or. III.2, file line 35905, 'annoClirifti 6^6' read with the reign; Bar Hebraeus editors' note, vol. III file lines 9519-9523, 'jam ab anno Christi 636'; Budge 1928 intro, file line 1882, 'arrived therein 636'), and Assemani reports the edict in the emperor's twelfth year. The stele's own 'ninth year of Zhenguan' (635) is the modern reading (Nicolini-Zani, named in the census sources) but the stele is not vendored. Left as is; a stele translation is added to wants."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "longDescription",
+   "sentence": "The reach closes visibly in 845, when an imperial edict aimed at foreign religions ordered clergy out of their monasteries and the Chinese church stops appearing in the sources.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Tang government has no entry. Checked: Budge 1928 intro (file lines 1862-1868, citing Saeki) gives the persecution of monks and nuns 'about A.D. 845-46' and 'the Emperor Wu-tsung in 845'. Secondary only; adequate for prose."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "longDescription",
+   "sentence": "Though the same communion carried on in Persia and Central Asia.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   "prose_change": null,
+   "reason": "New continued-as link: Bar Hebraeus shows the catholicate at Seleucia running from 832 through 853."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "why",
+   "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same edict as the longDescription; checked against Budge 1928 intro."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "why",
+   "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   "prose_change": null,
+   "reason": "Same continuity as the longDescription."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "why",
+   "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "prose_change": null,
+   "reason": "'Would reach east again under the Mongols' runs through the Abbasid period: carried by L2 then the new abbasids-to-mongols continued-as link. No direct Silk Road-to-Mongol link, which would skip four centuries."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "legacy",
+   "sentence": "The Church of the East continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   "prose_change": null,
+   "reason": "Same continuity."
+  },
+  {
+   "movement": "the-church-of-the-east-on-the-silk-road",
+   "field": "legacy",
+   "sentence": "The Church of the East continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "prose_change": null,
+   "reason": "Same chain as in the why field."
+  },
+  {
+   "movement": "church-of-the-east-under-the-abbasids",
+   "field": "why",
+   "sentence": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+   "other_id": "the-church-of-the-east-on-the-silk-road",
+   "disposition": "link",
+   "link_id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   "prose_change": 0,
+   "reason": "Stub's named predecessor; continued-as link drafted. The why text is rewritten to drop the internal word 'entry'."
+  },
+  {
+   "movement": "church-of-the-east-under-the-abbasids",
+   "field": "why",
+   "sentence": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+   "other_id": "church-of-the-east-under-the-mongols",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "prose_change": 0,
+   "reason": "Stub's named successor; continued-as link drafted."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Heir to the Judean Desert monastic tradition; the first church to think in Arabic.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity",
+   "prose_change": null,
+   "reason": "New gave-rise-to link, graded Dominant Modern Reconstruction: no vendored text places John of Damascus or later Melkite writers at Mar Saba; the reading rests on Griffith (repo-cited, not read)."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "When the Arab conquests cut Palestine and Syria off from Constantinople, the Chalcedonian Christians of those provinces — Melkites, 'the emperor's people', as their neighbors labeled them — found themselves a minority under a new government and, within a few generations, doing something no church had done before: praying, arguing and writing theology in Arabic.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Cut off from Constantinople' is a political separation by conquest, not a church relationship of any of the six types; the two stayed in one communion. The Byzantine entry's own text owns the loss of Syria and Palestine ('within a decade had lost Syria, Palestine and Egypt to the Arab armies'). No link."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "When the Arab conquests cut Palestine and Syria off from Constantinople, the Chalcedonian Christians of those provinces — Melkites, 'the emperor's people', as their neighbors labeled them — found themselves a minority under a new government and, within a few generations, doing something no church had done before: praying, arguing and writing theology in Arabic.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Arab government has no entry. The minority status under Muslim rule is the movement's own frame, supported in general by Griffith (repo-cited). No change."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "Their intellectual heart was the monastic world of the Judean desert, above all the monastery of Mar Saba, where John of Damascus, from a family that had served in the Muslim administration, wrote the great defense of religious images that Byzantine emperors could not silence because he lived beyond their reach.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity",
+   "prose_change": null,
+   "reason": "Same as the relationsSummary."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "Their intellectual heart was the monastic world of the Judean desert, above all the monastery of Mar Saba, where John of Damascus, from a family that had served in the Muslim administration, wrote the great defense of religious images that Byzantine emperors could not silence because he lived beyond their reach.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link: the 754 council's acclamations curse 'Mansur' (NPNF 14, lines 39468-39469)."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "A generation later Theodore Abu Qurrah was writing theology in Arabic for a mixed audience of Christians and Muslims, and anonymous works such as the treatise now called On the Triune Nature of God were explaining the Trinity in the vocabulary of the world around them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Muslim readers are not a census movement. Checked: no vendored text of Abu Qurrah; Griffith (repo-cited, ch. 3 per the river prototype) is the support. Claim left as is; Abu Qurrah's works added to wants."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "longDescription",
+   "sentence": "The window closes hard in 1009, when the caliph al-Hakim ordered the Church of the Holy Sepulchre razed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Al-Hakim and the Fatimid state have no entry. Checked: Elias of Nisibis, writing 1018/19, under the Arab year 400 (1009-10): 'Eo AI Hakim rex Aegypti ecclesiam magnam Hierosolymis sitam erui iussit' (cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt, lines 8485-8486). Supported."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "why",
+   "sentence": "Cut off from Constantinople by the Arab conquests, the Chalcedonian Christians of Palestine and Syria became the first church to pray and argue theology in Arabic.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same political separation as the longDescription; no link."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "why",
+   "sentence": "From the monastery of Mar Saba, John of Damascus wrote his defense of religious images beyond the reach of the Byzantine emperors trying to suppress them, and a generation later Theodore Abu Qurrah was writing Arabic theology for an audience of Christians and Muslims alike.",
+   "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "disposition": "link",
+   "link_id": "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity",
+   "prose_change": null,
+   "reason": "Same Mar Saba claim."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "why",
+   "sentence": "From the monastery of Mar Saba, John of Damascus wrote his defense of religious images beyond the reach of the Byzantine emperors trying to suppress them, and a generation later Theodore Abu Qurrah was writing Arabic theology for an audience of Christians and Muslims alike.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+   "prose_change": null,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "sentence": "The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Greek Orthodox patriarchates of Antioch and Jerusalem have no entry after 1009 (see escalations). Charon's history of the Melkite patriarchates (vendored, 1911) supports the continuity in general."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "sentence": "The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church.",
+   "other_id": "melkite-greek-catholic-church",
+   "disposition": "link",
+   "link_id": "melkite-arabic-christianity--melkite-greek-catholic-church",
+   "prose_change": null,
+   "reason": "New gave-rise-to link, Dominant Modern Reconstruction (Charon, Griffith)."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "sentence": "John of Damascus's defense of images became the settled theology of icons for the whole Orthodox world — he was vindicated by name at the council that restored them in 787.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The 787 vindication by name is not in any vendored or repo-cited text. Rewritten to what NPNF 14 shows: 754 cursed him by name and 787 overturned that council. The Nicaea II acclamations (Mansi XIII) go to wants."
+  },
+  {
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "sentence": "And his systematic Exposition of the Orthodox Faith was translated into Latin and read by Western theologians for centuries afterward.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Western theologians are not one movement. Checked: Lequien's prologue, NPNF 9 lines 27529-27533, names Burgundio of Pisa's Latin translation under Eugenius III and its use by later Latin theologians. Supported; kept in the rewritten paragraph."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "relationsSummary",
+   "sentence": "Daughter/partner of the Church of the East",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "qualify",
+   "link_id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "prose_change": 1,
+   "reason": "'Daughter' claims descent no vendored text shows; rewritten to the jurisdiction the texts do show. The new in-contact link carries it."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "longDescription",
+   "sentence": "On the Malabar coast of India there was, long before any European arrived, a Christian community that traced itself to the apostle Thomas, worshipped in Syriac, and received its bishops from the patriarch of the Church of the East in Mesopotamia — an Indian church inside an Asian communion, on nobody's European line at all.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "prose_change": null,
+   "reason": "New in-contact link (Widely Accepted): Timothy's letter and the Malabar chronicle in Mingana 1926."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "longDescription",
+   "sentence": "What it left of itself in this period is mostly not writing but objects and documents drawn up by others: granite crosses carved with inscriptions in Pahlavi, the language of Persia, and above all a set of copper plates issued around 849 in which a local ruler grants land and trading privileges to a church at Kollam and names the Christians as a recognized community with standing among their neighbors.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The local ruler has no entry. Checked: Mingana 1926 (file lines 3850-3866) describes the Kollam charter: a grant near Quilon transferred 'to the Tarasa Church and community', with Pahlavi and Arabic signatures. He dates it 'about the year 824'; the census says around 849, the modern dating, also given in the census source list. Left as is; the plates' own edition is added to wants. The crosses are described by Mingana at file lines 3733-3745."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "why",
+   "sentence": "On India's Malabar coast, a Christian community that traced itself to the apostle Thomas worshipped in Syriac and received its bishops from the patriarch of the Church of the East in Mesopotamia.",
+   "other_id": "church-of-the-east-under-the-abbasids",
+   "disposition": "link",
+   "link_id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "prose_change": null,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "why",
+   "sentence": "What survives from this period is not writing in their own words but objects made by and for them — granite crosses carved with Persian inscriptions, and a set of copper plates from around 849 recording a local ruler's grant of land and standing to the church at Kollam.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same grant; same check and the same date caveat."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "legacy",
+   "sentence": "Its descendants are the St Thomas Christians of Kerala.",
+   "other_id": "st-thomas-christians-1300-1517",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   "prose_change": null,
+   "reason": "New continued-as link (Widely Accepted): the 1301 colophon and Marignolli at Kollam on the later side; Mingana on the earlier."
+  },
+  {
+   "movement": "st-thomas-christians-of-india",
+   "field": "legacy",
+   "sentence": "Today divided among several churches, after Portuguese pressure in the sixteenth century and the ruptures that followed, but continuous with this one, and still using Syriac liturgical traditions.",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Portuguese pressure belongs to the 1300-1517 and 1599-1665 entries, whose own texts name Diamper and the Coonan Cross. This entry reaches it only through the continued-as chain."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "relationsSummary",
+   "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Islamic state has no entry. Checked: Michael XI.3-4 (file lines 31987-32010) on the Arabs leaving each confession its churches. 'Dhimmi' is replaced by the plain 'protected community' in the rewritten field."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "relationsSummary",
+   "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Al-Ma'mun has no entry. Checked: Bar Hebraeus, Chron. Eccl. I (file lines 21798-21811): the caliph Mamon 'Mandavit autem Calipha patriarchm secum proficisci in /Egyptum'. Kept in the rewritten field."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "relationsSummary",
+   "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+   "other_id": "melkite-arabic-christianity",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Cleanly distinct from the Melkite monastery of Mar Saba' claims no relationship; it is a note on how the entries are shelved. Removed with the rest of the shelving language ('rides inside')."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "longDescription",
+   "sentence": "For the West Syriac church the Arab conquest lifted a weight.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "prose_change": null,
+   "reason": "Added (not in the inventory): the sentence and the next name the same church's pre-conquest past, and the era-3 entry's continuesAs points here. Michael the Syrian documents the patriarchate running across the conquest."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "longDescription",
+   "sentence": "They had been the losing side under Byzantine emperors who wanted Chalcedon enforced, and under the caliphs they became simply one protected community among others — taxed, but not pressed to change their confession.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Had been the losing side' is the pre-conquest past, owned by the era-3 West Syriac entry and the Byzantine entries. Cross-group note for the group drafting byzantine-imperial-church-heraclian-iconoclast (era 4) and for era 3: Michael XI.3 (file lines 31966-31980) has Heraclius, not Justinian, ordering noses and ears cut for those who would not adhere to Chalcedon, so the Heraclian-era imperial church (era 4) is the better 'from' party for the 620s-630s."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "longDescription",
+   "sentence": "They had been the losing side under Byzantine emperors who wanted Chalcedon enforced, and under the caliphs they became simply one protected community among others — taxed, but not pressed to change their confession.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The caliphs have no entry. Supported by Michael XI.4 on the Arabs leaving each confession its churches."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "longDescription",
+   "sentence": "Dionysius of Tel Mahre, patriarch and historian, traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle that later writers mined for centuries; Moses bar Kepha explained the liturgy and the Scriptures for his clergy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Al-Ma'mun has no entry; checked against Bar Hebraeus as above."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "longDescription",
+   "sentence": "Dionysius of Tel Mahre, patriarch and historian, traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle that later writers mined for centuries; Moses bar Kepha explained the liturgy and the Scriptures for his clergy.",
+   "other_id": "syriac-renaissance",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "prose_change": null,
+   "reason": "Added (not in the inventory): 'later writers mined for centuries' names the Syriac Renaissance chroniclers. Bar Hebraeus quotes Dionysius ('Ait autem Mar Dionysius', Chron. Eccl. I, file line 21079); carried in the continued-as link's note."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "why",
+   "sentence": "Having been the losing side under Byzantine emperors who wanted Chalcedon enforced, the West Syriac church found under the caliphs the room to become one protected community among others, and used it productively: Jacob of Edessa revised the Syriac Bible and wrote the first grammar of his own language, while the patriarch Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle later writers drew on for centuries.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "why",
+   "sentence": "Having been the losing side under Byzantine emperors who wanted Chalcedon enforced, the West Syriac church found under the caliphs the room to become one protected community among others, and used it productively: Jacob of Edessa revised the Syriac Bible and wrote the first grammar of his own language, while the patriarch Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle later writers drew on for centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same al-Ma'mun journey; checked."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "legacy",
+   "sentence": "The same church continued directly into the Syriac Renaissance of the following centuries and exists today as the Syriac Orthodox Church of Antioch, with its own patriarch and a large worldwide diaspora.",
+   "other_id": "syriac-renaissance",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "prose_change": null,
+   "reason": "New continued-as link: Bar Hebraeus's numbered series of patriarchs of Antioch runs from 898 to 1074."
+  },
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "field": "legacy",
+   "sentence": "The same church continued directly into the Syriac Renaissance of the following centuries and exists today as the Syriac Orthodox Church of Antioch, with its own patriarch and a large worldwide diaspora.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The modern Syriac Orthodox Church of Antioch has no entry; the claim is a present-day fact carried by the renaissance entry's own legacy."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "the-church-of-the-east-on-the-silk-road",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The synods of the Church of the East give their leader the same title before and after the Arab conquest. Ishoyahb held a synod in 585 as catholicos and patriarch of the East. George signed with that title in 676, in the 57th year of Arab rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Ishoyahb I (585), heading (trans. Chabot)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "25962",
+     "locus": "Syn. Or., Synod of Ishoyahb I",
+     "quote": "SYNODE DE MAR ISO YAHB, CATHOLICOS, PATRIARCHE DE L'ORIENT;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32111",
+     "locus": "Syn. Or., Synod of George I",
+     "quote": "Et dans ce mois de iyar, de la 57° année de l'empire des ArabesU,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32119",
+     "locus": "Syn. Or., Synod of George I",
+     "quote": "Moi, Guiwareuis, par la grâce de Dieu catholicos, patriarche de FOrient;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-on-the-silk-road relationsSummary ('A continuation of the Syriac Church of the East') and longDescription ('A Syriac-speaking church whose bishops sat in Persia'); the-church-of-the-east-under-persia continuesAs field and longDescription ('the church carried straight on under new rulers')",
+   "wants": [],
+   "drafter_flags": [
+    "OCR forms kept as printed: 'ArabesU' (a footnote mark run into the word), 'Guiwareuis' for Guiwarguis, 'FOrient' for l'Orient.",
+    "The year 585 for Ishoyahb's synod is Chabot's own dating (file line 26071, 'H doit donc être placé à l'été de 585'); the heading's own date line is garbled ('[ A. D. 85. [', line 25958).",
+    "The two periods overlap (635-651). The link rests on the office of catholicos continuing across the Sasanian fall, shown by the synod collection itself, which carries both synods."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Silk Road text's 'A continuation of the Syriac Church of the East'.",
+   "fre_after": 75.1,
+   "fk_after": 6.5
+  },
+  {
+   "id": "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+   "action": "new",
+   "from": "the-church-of-the-east-on-the-silk-road",
+   "to": "church-of-the-east-under-the-abbasids",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The line of church leaders at Seleucia ran straight through 845. Bar Hebraeus, writing four centuries later, lists them in order. Sabrisho took office in 832. Abraham came next, and then Theodosius, ordained at Seleucia about 853.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II (Eastern catholicoi), Sabrisho II (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "10821-10827",
+     "locus": "Chron. Eccl. II, Sabrisho II",
+     "quote": "Post ilium sedit Sabarjesus, antea episcopus Haran , dein metropolita Darnasci, ac denique Seleucise catho- licus constitutus, anno Arabum du- centesimo decimo septimo (inchoato 6 Febr. 832),",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Abraham II",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "10829-10830",
+     "locus": "Chron. Eccl. II, Abraham II",
+     "quote": "Successit illi Abraham secundus, e monasterie Beth- Abe,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Theodosius",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "10963-10967",
+     "locus": "Chron. Eccl. II, Theodosius",
+     "quote": "Obiit etiam Abraham catholicus, officio functus tredecim annos, eique successit Theodosius ex Beth-Garmai, Seleuciae ordinatus dominica secunda jejunii dominici,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas of Marga, Book of Governors IV (trans. Budge)",
+     "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+     "lines": "20158-20160",
+     "locus": "Book of Governors IV",
+     "quote": "David' was elected to be Metropolitan of Beth Sinaye^ — now I have learned concerning this man from the Epistles",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-on-the-silk-road longDescription ('the same communion carried on in Persia and Central Asia'), why and legacy ('continued from its Mesopotamian heartland'); church-of-the-east-under-the-abbasids why ('from the end of the Silk Road ... in 845')",
+   "wants": [],
+   "drafter_flags": [
+    "Bar Hebraeus wrote in the thirteenth century from earlier sources; the record shows the succession, not a contemporary witness to it.",
+    "Theodosius's ordination falls in the Arab year 238 (from 23 June 852) on the second Sunday of Lent, so early 853; the note says 'about 853'.",
+    "OCR kept as printed: 'ilium', 'Darnasci', 'Seleucise', 'monasterie', and the line-break hyphens 'catho- licus', 'du- centesimo', 'Beth- Abe' (the validator does not join them).",
+    "Thomas of Marga (written 840) is included to tie the Silk Road side to the same catholicate: a monk of his monastery made metropolitan of Beth Sinaye (China), known from Timothy's letters. The superscript '^' and the stray apostrophe after David are OCR footnote marks.",
+    "Doc-hygiene, not changed: the Silk Road longDescription ends on a fragment ('Though the same communion carried on in Persia and Central Asia.'). Fixing it means rewriting the whole paragraph to score, which this pass did not attempt."
+   ],
+   "change_reason": "New: the Silk Road text names the communion carrying on after 845, and the Abbasid stub names the Silk Road period as its predecessor.",
+   "fre_after": 61.4,
+   "fk_after": 6.8
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+   "action": "new",
+   "from": "church-of-the-east-under-the-abbasids",
+   "to": "church-of-the-east-under-the-mongols",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The same office carried on as the Mongols came west. Bar Hebraeus lived through these years. He records that the catholicos Sabrisho Bar Masihi held it for thirty-one years and died in 1256. Makkikha of Nisibis took his place.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Sabrisho V Bar Masihi",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "21141-21143",
+     "locus": "Chron. Eccl. II, Sabrisho Bar Masihi",
+     "quote": "ordinatus est Sabarjesus catho- licus Bar-Masihi, antea Dakukfe me- tropolita,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Sabrisho V Bar Masihi",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "21150-21157",
+     "locus": "Chron. Eccl. II, Sabrisho Bar Masihi",
+     "quote": "Obiit autein die sabbati, 23 a in mense quarto anni Arabum sexcentesimi quinqua- gesimi quarti (inchoati 30 Jan. 1256), officio functus annis uno et triginta,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.bar-hebraeus-chronicon-ecclesiasticum",
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum II, Makkikha II",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "21156-21157",
+     "locus": "Chron. Eccl. II, Makkikha",
+     "quote": "Successit illi Ma- chicha, metropolita Nisibis.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-east-under-the-abbasids why ('to the start of the Mongol ... in 1220'); the-church-of-the-east-on-the-silk-road why and legacy ('would reach east again under the Mongols')",
+   "wants": [],
+   "drafter_flags": [
+    "The ordination year of Sabrisho V (1226) sits in the garbled Syriac column and an editors' note (file lines 19878-19880), not in a clean Latin line, so the note gives only the thirty-one years and the death in 1256. Thirty-one years back from 1256 brings the reign to about 1225, after the 1220 boundary but under the same office that ran before it.",
+    "OCR kept as printed: 'autein', 'Dakukfe', '23 a', and the hyphens 'catho- licus', 'quinqua- gesimi', 'Ma- chicha'.",
+    "Bar Hebraeus (1226-1286, per the file header) is close to contemporary for 1256."
+   ],
+   "change_reason": "New: the Abbasid stub names the Mongol period as its successor; the Silk Road text's 'reach east again under the Mongols' runs through this link.",
+   "fre_after": 73.3,
+   "fk_after": 5.5
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "action": "new",
+   "from": "church-of-the-east-under-the-abbasids",
+   "to": "st-thomas-christians-of-india",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "Around 800 the church's head, Timothy, named the Indians among the peoples in his care. A later Malabar chronicle says bishops came to Kollam when the head of the church sent them. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Timothy I, letter to the monks of Mar Maron (trans. Mingana from his own manuscript)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1688-1691",
+     "locus": "Mingana 1926, p. 34",
+     "quote": "among the Indians, the Chinese, the Tibetans, the Turks, and in all the provinces under the jurisdiction of this Patriarchal See,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malabar Syriac chronicle of the Christians of St Thomas (trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "2237-2239",
+     "locus": "Mingana 1926, p. 44-45",
+     "quote": "to which Syrian bishops and Metropolitans used to come by order of the Catholicos who sent them.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "st-thomas-christians-of-india relationsSummary ('Daughter/partner of the Church of the East'), longDescription and why ('received its bishops from the patriarch of the Church of the East in Mesopotamia')",
+   "wants": [
+    "An edition and translation of the Tarisappalli (Kollam) copper plates themselves, with the modern dating to c. 849, so the bishop's name can be quoted from the grant and not from Mingana's reading of it"
+   ],
+   "drafter_flags": [
+    "Neither primary quote falls inside 849-1054. Timothy's letter is about 800, before the window; the Malabar chronicle is a late tradition that Mingana himself calls 'very late' and unreliable in its early dates. So this is graded Widely Accepted, not Documented.",
+    "Mingana dates the Kollam charter 'about the year 824' (file line 3857); the census prose and its source list say c. 849. The note gives no date.",
+    "Type: 'in contact with' understates the tie. The texts show the Indian church under the catholicos's jurisdiction, which none of the six types names. See escalations.",
+    "Timothy's letter was unpublished when Mingana wrote; he translates it from a manuscript in his own collection (file lines 1692-1693). It is not otherwise vendored."
+   ],
+   "change_reason": "New: the St Thomas text names the Church of the East's patriarch as the source of its bishops.",
+   "fre_after": 64.4,
+   "fk_after": 7.8
+  },
+  {
+   "id": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   "action": "new",
+   "from": "st-thomas-christians-of-india",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "A Malabar manuscript of 1301 names the metropolitan of 'the holy see of the Apostle St. Thomas'. At Kollam in the fourteenth century, the papal envoy Marignolli found the pepper gardens owned by 'the Christians of St. Thomas'. Few texts survive from the centuries between, so the link rests on place and name.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3533-3535",
+     "locus": "Mingana 1926, p. 61",
+     "quote": "And in the time of bishop Mar Jacob, Metropolitan and director of the holy see of the Apostle St. Thomas, that is to say, our director and the director of all the holy Church of Christian India.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Marignolli, Recollections of Eastern Travel (trans. Yule, rev. Cordier)",
+     "file": "cic/texts/cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt",
+     "lines": "11061-11063",
+     "locus": "Marignolli, at Columbum",
+     "quote": "nor are the Saracens the proprietors but the Christians of St. Thomas. And these latter are the masters of the public steel-yard,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "st-thomas-christians-of-india legacy ('Its descendants are the St Thomas Christians of Kerala ... continuous with this one'); st-thomas-christians-1300-1517 longDescription ('there had been Christians for longer than anyone could document')",
+   "wants": [
+    "Any text from 1054-1300 naming the Christians of Kollam or Malabar, or a bishop sent to them, which would close the gap and could lift this link to Documented"
+   ],
+   "drafter_flags": [
+    "Both primary quotes are on the later side. The earlier side (the Kollam church of c. 849) rests on Mingana's account of the copper plates, a secondary reading. Hence Widely Accepted.",
+    "Marignolli's stay at Columbum (Quilon, Kollam) is in the 1340s by Yule's chronology; the note says only 'the fourteenth century'.",
+    "Check the 1301 quote's line span: the colophon wraps across lines 3533-3535."
+   ],
+   "change_reason": "New: the St Thomas legacy names the Kerala community as its descendants and as continuous with it.",
+   "fre_after": 61.2,
+   "fk_after": 7.3
+  },
+  {
+   "id": "chalcedonian-monasticism-judean-desert-and-gaza--melkite-arabic-christianity",
+   "action": "new",
+   "from": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "to": "melkite-arabic-christianity",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Mar Saba was one of the Judean desert houses founded before 614. Chalcedonian monks still lived there under Arab rule. Modern historians place John of Damascus among them. They trace the first Christian theology in Arabic to these monks. This rests on modern histories, not on a text from the time.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Sidney H. Griffith, The Church in the Shadow of the Mosque (Princeton, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "melkite-arabic-christianity relationsSummary ('Heir to the Judean Desert monastic tradition'), longDescription ('Their intellectual heart was the monastic world of the Judean desert, above all the monastery of Mar Saba') and why ('From the monastery of Mar Saba')",
+   "wants": [
+    "The Greek Life of John of Damascus, or another early text placing him at the laura of Sabas",
+    "Theodore Abu Qurrah's works in translation (Lamoreaux 2005, named in the census sources), if public domain is ever cleared, or another Arabic Melkite text that names Mar Saba"
+   ],
+   "drafter_flags": [
+    "No vendored text places John of Damascus at Mar Saba (searched 'Sabas', 'Mar Saba', 'Saint-Sabas' across cic/texts). The NPNF 9 volume carries his Exposition with Lequien's prologue, which says nothing of Mar Saba.",
+    "Griffith is cited in the repo (census sources; Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html, chs. 2-3) but was never read here. No page number.",
+    "'Founded before 614' rests on the Judean desert entry's own text, which names Mar Saba as one of its houses."
+   ],
+   "change_reason": "New: the Melkite text names the Judean desert monastic tradition as its heir's parent and Mar Saba as its intellectual home.",
+   "fre_after": 66.4,
+   "fk_after": 6.5
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "melkite-arabic-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 754 a council of bishops at Constantinople backed the emperor's ban on icons and cursed John of Damascus. It used his family name, Mansur. Its closing cries damn him as a man 'who has an evil name and Saracen opinions'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Hieria (754), closing acclamations, as given in NPNF 2nd ser. vol. 14 (ed. Percival)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39468-39469",
+     "locus": "Hieria 754, acclamations",
+     "quote": "Anathema to Mansur, who has an evil name and Saracen opinions!",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-arabic-christianity longDescription ('the great defense of religious images that Byzantine emperors could not silence because he lived beyond their reach') and why ('beyond the reach of the Byzantine emperors trying to suppress them'); byzantine-imperial-church-heraclian-iconoclast longDescription ('a council of 338 bishops endorsed the policy in 754')",
+   "wants": [
+    "John of Damascus, On the Divine Images (Allies 1898, named in the NPNF 14 note at line 38289), to document the argument from his side and allow a second link in the other direction"
+   ],
+   "drafter_flags": [
+    "The editor's gloss in the same passage identifies Mansur with John Damascene ('Mansur [μανσουρ, John Damascene]', lines 39465-39466); the anathema itself names only Mansur.",
+    "The editor notes the acclamations 'are not given in full' (line 39472-39473); the quoted line is as printed.",
+    "Cross-group: byzantine-imperial-church-heraclian-iconoclast is an era-4 movement drafted by another group, and its own text names the 754 council. The merge should dedupe if that group drafts the same pair.",
+    "Only the imperial side is linked. John's own treatises against the iconoclasts are not vendored, so no melkite-to-imperial 'argued against' link is drafted."
+   ],
+   "change_reason": "New: the Melkite text names the Byzantine emperors' attempt to silence John of Damascus.",
+   "fre_after": 60.1,
+   "fk_after": 8.2
+  },
+  {
+   "id": "melkite-arabic-christianity--melkite-greek-catholic-church",
+   "action": "new",
+   "from": "melkite-arabic-christianity",
+   "to": "melkite-greek-catholic-church",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Melkite Greek Catholic Church began with a split in the church of Antioch in 1724. Historians of the Melkite churches trace that Arabic-speaking church back to these centuries. This rests on modern histories. No text from the time spans the seven centuries between.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Cyrille Charon (Korolevsky), Histoire des patriarcats melkites, tomes II-III (Rome, 1910-1911), vendored as cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Sidney H. Griffith, The Church in the Shadow of the Mosque (Princeton, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "melkite-arabic-christianity legacy ('after an eighteenth-century division, in the Melkite Greek Catholic Church'); melkite-greek-catholic-church longDescription ('the permanent division of one Arabic-speaking, Byzantine-rite community into two churches')",
+   "wants": [
+    "A text of the patriarchs of Antioch between 1009 and 1724 (for example a Melkite patriarchal list or chronicle) that would show the same see continuing"
+   ],
+   "drafter_flags": [
+    "Charon's history treats the Melkite patriarchates as one continuous body 'depuis le schisme monophysite du sixième siècle jusqu'à nos jours' (title, file line 1) and discusses the Antiochene Melkite rite's byzantinization in the eleventh to thirteenth centuries (file lines 21222-21227). The vendored tomes II-III cover 1833-1855 and institutions; tome I, which would carry the medieval narrative, was never published (header).",
+    "No census entry covers the Antiochian or Jerusalem Orthodox (Melkite) church between 1009 and 1724, so this link spans seven centuries. Raised as a census-structure question in escalations.",
+    "Grade could be argued as Widely Accepted; I found no vendored primary for the early side of the continuity, so kept it at Dominant Modern Reconstruction."
+   ],
+   "change_reason": "New: the Melkite legacy names the Melkite Greek Catholic Church as one of its continuations.",
+   "fre_after": 70.7,
+   "fk_after": 6.1
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "action": "new",
+   "from": "syriac-orthodox-west-syriac-christianity",
+   "to": "syriac-orthodox-under-islam",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Michael the Syrian, patriarch from 1166, tells how the patriarch Athanasius stood up to Heraclius over Chalcedon. He says God then sent the Arabs to set his church free. Athanasius died in 631, and his pupil John took his place. The same line ran on under the caliphs.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI.3 (trans. Chabot)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "31968-31969",
+     "locus": "Chron. XI.3",
+     "quote": "L'empereur s'en étant allé à Mabboug, le patriarche Mar Athanasius alla le trouver, avec douze évêques",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI.3",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "31987-31990",
+     "locus": "Chron. XI.3",
+     "quote": "voyant la méchanceté des Romains qui, partout où ils dominaient, pillaient cruellement nos églises et nos monastères et nous condamnaient sans pitié, amena de la région du Sud les fils d'Ismaël, pour nous délivrer par eux",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI.5",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "32307-32311",
+     "locus": "Chron. XI.5",
+     "quote": "En l'an 942 mourut et reposa le patriarche Mar Athanasius '. Il fut dé- posé dans le couvent des Garoumavê*. A sa place, on ordonna Jean^, son dis- ciple,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle XI",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "34603-34609",
+     "locus": "Chron. XI",
+     "quote": "Notre Eglise orthodoxe avait pour pa- triarche Theodorus, du monastère de Qennésrè ; il dirigea le gouvernement de l'Eglise pendant 18 ans, et mourut* en l'an 978. On ordonna Severus,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-under-islam longDescription ('For the West Syriac church the Arab conquest lifted a weight. They had been the losing side under Byzantine emperors who wanted Chalcedon enforced'); syriac-orthodox-west-syriac-christianity continuesAs field and legacy ('It continued under Muslim rule')",
+   "wants": [],
+   "drafter_flags": [
+    "Inventory missed this: the longDescription names the same church's pre-conquest past, and the era-3 entry's continuesAs points here. Era 3 is not yet linked; the merge should dedupe if that pass drafts the same pair.",
+    "Years are Seleucid: 942 = 630/31, 978 = 666/67. The note says 631 and 'the 660s'.",
+    "OCR marks kept as printed (' * ^ in 'Athanasius '', 'Garoumavê*', 'Jean^', 'mourut*'). The XI.3 deliverance sentence breaks across a page with footnotes; the quote stops at the page end ('pour nous délivrer par eux'), before 'des mains des Romains' on line 32002.",
+    "Michael wrote in the twelfth century, from earlier sources; his first person ('nous', 'Notre Eglise') is itself evidence of the church's self-continuity."
+   ],
+   "change_reason": "New: gives the era-3 continuesAs pairing a sourced link; the era-4 text names the church's pre-conquest past.",
+   "fre_after": 75.6,
+   "fk_after": 5.6
+  },
+  {
+   "id": "syriac-orthodox-under-islam--syriac-renaissance",
+   "action": "new",
+   "from": "syriac-orthodox-under-islam",
+   "to": "syriac-renaissance",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Bar Hebraeus lists the patriarchs of Antioch as one numbered series. It runs from Dionysius, chosen in 898, to Basil, made patriarch in 1074. He also quotes Dionysius of Tel Mahre's own account of a journey to Egypt.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum I (patriarchs of Antioch), no. 68 (Latin trans. Abbeloos and Lamy)",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "22798-22803",
+     "locus": "Chron. Eccl. I, no. 68",
+     "quote": "68. Post Theodoaium, Dionysius. Eodem anno quo obiit Mar Theo- dosius, synodum habuerunt episcopi in Reth-Botin, civitatis Haran coenobio,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum I, no. 82",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "25823-25824",
+     "locus": "Chron. Eccl. I, no. 82",
+     "quote": "82. Post Mar Joannem Bar Susan, Mar Basilius.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum I, no. 82",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "25894-25896",
+     "locus": "Chron. Eccl. I, no. 82",
+     "quote": "nppellaruntque Basiliura, anno 1385 {Chr. 1074) mense Conun pos- teriore {Januario) in Hesenmansur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bar Hebraeus, Chronicon Ecclesiasticum I, Dionysius of Tel Mahre",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "lines": "21076-21079",
+     "locus": "Chron. Eccl. I, Dionysius I",
+     "quote": "nullum An- tiochi® patriarcham visum fuisse in jEgypto. Ait autem Mar Dionysius :",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-orthodox-under-islam continuesAs field and legacy ('continued directly into the Syriac Renaissance'), longDescription and why ('a chronicle that later writers mined for centuries'); syriac-renaissance longDescription (Michael and Bar Hebraeus as its writers)",
+   "wants": [],
+   "drafter_flags": [
+    "No. 68's election year is 'anni 1209' Seleucid (line 22803) = 897/98; the note says 898.",
+    "OCR kept as printed: 'Theodoaium', 'nppellaruntque', 'Basiliura', '{Chr. 1074)', '{Januario)', 'tiochi®', 'jEgypto'.",
+    "Bar Hebraeus is himself a Syriac Renaissance writer (the renaissance entry names him), so his quoting of Dionysius also documents the 'later writers mined' claim."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link.",
+   "fre_after": 65.4,
+   "fk_after": 7.1
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "church-of-the-east-under-the-abbasids",
+   "field": "why",
+   "old": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+   "new": "The Church of the East from 845 to 1220. These are the years after its mission in Tang China faded and before the Mongols came west. Its head was still ordained in Mesopotamia. Theodosius, for one, was ordained at Seleucia about 853.",
+   "reason": "The stub showed readers internal words ('the Silk Road entry', 'the Mongol entry'). The new text names the same two boundaries in plain words and adds one sourced fact: Bar Hebraeus records Theodosius ordained at Seleucia in the Arab year 238 (Chron. Eccl. II, file lines 10963-10967).",
+   "fre_after": 71.1,
+   "fk_after": 5.8
+  },
+  {
+   "n": 1,
+   "movement": "st-thomas-christians-of-india",
+   "field": "relationsSummary",
+   "old": "Daughter/partner of the Church of the East",
+   "new": "Part of the Church of the East, whose leader in Mesopotamia sent its bishops.",
+   "reason": "'Daughter' claims the Indian church came out of the Persian one. No vendored text shows that, and the community's own tradition traces it to the apostle Thomas. What the texts show is jurisdiction: bishops sent by the catholicos (Timothy's letter and the Malabar chronicle, in Mingana 1926). The slash shorthand also read as a catalogue note.",
+   "fre_after": 71.8,
+   "fk_after": 6.7
+  },
+  {
+   "n": 2,
+   "movement": "syriac-orthodox-under-islam",
+   "field": "relationsSummary",
+   "old": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+   "new": "The West Syriac church, living as a protected people under the caliphs. Its patriarch, the historian Dionysius of Tel Mahre, went on a journey with the caliph al-Ma'mun. Its monks kept its learning alive.",
+   "reason": "The old text was a shelving note ('West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba'): it told readers how entries were filed, not a relationship. The distinction is dropped; the monasteries keep their place. 'Dhimmi' becomes 'protected community', the phrase the longDescription already uses. The al-Ma'mun journey stands: Bar Hebraeus records the caliph ordering the patriarch to go with him into Egypt (Chron. Eccl. I, file lines 21798-21811).",
+   "fre_after": 69.3,
+   "fk_after": 6.5
+  },
+  {
+   "n": 3,
+   "movement": "melkite-arabic-christianity",
+   "field": "legacy",
+   "old": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church. John of Damascus's defense of images became the settled theology of icons for the whole Orthodox world — he was vindicated by name at the council that restored them in 787. And his systematic Exposition of the Orthodox Faith was translated into Latin and read by Western theologians for centuries afterward. Mar Saba, where he wrote, is still a working monastery.",
+   "new": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion lives on in the Greek Orthodox churches of Antioch and Jerusalem. After a split in the 1700s, it also lives on in the Melkite Greek Catholic Church. John of Damascus's case for images became the settled teaching on icons in the Orthodox world. A council in 754 cursed him by name. The council of 787 that brought back the icons undid its work. His Exposition of the Orthodox Faith was put into Latin, and Western scholars read it for centuries. Mar Saba, where he wrote, is still a working monastery.",
+   "reason": "No vendored or repo-cited text shows the council of 787 naming John of Damascus. What the vendored NPNF 14 does show is the 754 council cursing him as 'Mansur' (lines 39468-39469) and 787 reversing that council (the Byzantine entry's own text; NPNF 14 line 39487). The sentence now says that. The Latin line stands: Lequien's prologue names Burgundio's twelfth-century translation and its Western readers (NPNF 9, lines 27529-27533). The paragraph was re-cut into shorter sentences to score.",
+   "fre_after": 61.8,
+   "fk_after": 7.7
+  }
+ ],
+ "wants": [
+  "An English translation of the Xi'an stele (Legge 1888 or Saeki 1916/1937, if public domain), to quote the arrival in 'the ninth year of Zhenguan' (635) and the edict of toleration; the vendored Assemani Latin and the Budge and Bar Hebraeus editors' notes give 636",
+  "An edition and translation of the Tarisappalli (Kollam) copper plates with the modern dating to c. 849, so the bishop's name and the grant can be quoted from the plates and not from Mingana's 1926 reading (he dates them about 824)",
+  "Any text from 1054-1300 naming the Christians of Kollam or Malabar, or a bishop sent to them",
+  "The Greek Life of John of Damascus, or another early text placing him at the laura of Sabas",
+  "John of Damascus, On the Divine Images (Allies 1898, named in NPNF 14), to document his argument against the iconoclast emperors from his own side",
+  "The acts of the Second Council of Nicaea (787), session 7 acclamations (Mansi XIII), if the legacy is to say again that the council honored John of Damascus by name",
+  "Theodore Abu Qurrah's works in a vendored translation, for the 'mixed audience of Christians and Muslims' claim",
+  "A text of the Melkite patriarchs of Antioch between 1009 and 1724 (patriarchal list or chronicle), to show the see continuing to the 1724 split"
+ ],
+ "escalations": [
+  "Method (link types): the Church of the East's tie to the St Thomas Christians is jurisdiction, bishops sent by the catholicos. None of the six types names that. I drafted 'in contact with', which says 'no influence claimed' and understates it. The same gap will recur (Aksum and Alexandria in era 2, Nubia and Ethiopia with Alexandria, the Mongol-era provinces). Whether to add a type such as 'under the jurisdiction of', or rule that 'in contact with' covers it, is a method decision.",
+  "Census structure: no entry covers the Melkite (Greek Orthodox) patriarchates of Antioch and Jerusalem between 1009 and 1724. The Melkite legacy says the communion 'continues', and the only later entry is the 1724 split, so the gave-rise-to link spans seven centuries.",
+  "Census structure (known stub): church-of-the-east-under-the-abbasids has empty relationsSummary, longDescription and legacy, and its why named other entries in internal words. I proposed a plain why (prose change 0) but did not write the empty fields; that is the entry owner's work. The vendored Bar Hebraeus (vol. III), Mari and Amr (Gismondi Latin) and Elias of Nisibis would support it."
+ ]
+}
