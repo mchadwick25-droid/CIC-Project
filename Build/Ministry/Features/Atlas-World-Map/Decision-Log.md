@@ -52,7 +52,12 @@ movements and trends outside formal church bodies: Bible translation, campus min
 planting, post-war world missions with the unreached-peoples and 10/40 Window work, children's and
 Sunday-school ministries, rescue missions, Christian schools and homeschooling, and their kin. The
 unit is the movement, never the organization. How such an entry is told apart from a church
-entry is a question for the gate.
+entry is a question for the gate. Mark then tightened it (relayed): "it needs to be a defined movement, not just a trend". A
+candidate qualifies only if its sources show a recognizable beginning, identifiable carriers
+(people, networks or bodies), a name or self-understanding by which participants or contemporaries
+knew it as a movement, and recognition as a movement in a vendored text or a repo-cited secondary.
+A diffuse trend fails, even when it is real and widespread; it may become a named line inside a
+defined movement, or be left out with the reason stated.
 
 **What follows 2010 (Mark, 2026-11-08, "yes, pass that to era 10", relayed from the era 1
 thread).**

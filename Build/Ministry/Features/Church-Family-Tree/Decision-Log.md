@@ -567,7 +567,9 @@ congress.
 
 The survey also widens to Christian movements and trends outside formal church bodies (Bible
 translation, campus ministries, church planting, world missions and the like). The unit is the
-movement, never the organization; how such entries are marked is a gate question.
+movement, never the organization; how such entries are marked is a gate question. Mark tightened it: "it needs to be a defined movement, not just a trend". A candidate needs a
+recognizable beginning, identifiable carriers, a name its participants or contemporaries used, and
+recognition as a movement in a cited source; a diffuse trend becomes a named line or is left out.
 
 After 2010 (Mark, "yes, pass that to era 10", relayed): the tree says nothing past 2010 and says
 so plainly. The living mark, as finally ruled, means alive today (rule 2). A
