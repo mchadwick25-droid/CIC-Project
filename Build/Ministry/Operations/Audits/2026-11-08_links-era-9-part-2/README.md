@@ -4,7 +4,7 @@ Launch prompt: `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Ph
 
 ## Era 9 runs as two pull requests
 
-Era 9 has 51 movements, split by lane, each part with its own rounds and its own three-round cap. Part 1 (`../2026-11-08_links-era-9-part-1/`, the Protestant and Evangelical lane and the Syriac East / Protestant bridge, 24 movements) merged first as data release 12. This is part 2: every other era-9 lane, 27 movements (Greek East, Caucasus, Africa, Latin West, the Greek East / Latin West bridge, the Syriac East, and the movements beyond the floor). Part 1 owns any relationship a part-1 text names; part 2 drafted a cross-part relationship only when part-2 text alone names it.
+Era 9 has 51 movements, split by lane, each part with its own rounds and its own three-round cap. Part 1 (`../2026-11-08_links-era-9-part-1/`, the Protestant and Evangelical lane and the Syriac East / Protestant bridge, 24 movements) merged first as data release 14 (mchadwick25-droid/CIC-Project#1545), after eras 7 and 8. This is part 2: every other era-9 lane, 27 movements (Greek East, Caucasus, Africa, Latin West, the Greek East / Latin West bridge, the Syriac East, and the movements beyond the floor). Part 1 owns any relationship a part-1 text names; part 2 drafted a cross-part relationship only when part-2 text alone names it.
 
 ## Rounds
 
@@ -19,8 +19,8 @@ All three rounds of the cap were used. No finding is open.
 
 ## Counts
 
-- Links touching a part-2 movement: 38. This pass added 31 and rewrote the note of 1 (`desert-monasticism--the-kollyvades-and-greek-renewal`); the era-6 links into the Optina elders and part 1's links into the Catholic Church, the Taiping and the Chaldeans stand as merged. No link retired; every published ID stands.
-- Census links in all: 399 before this pass (after part 1, data release 12), 430 after. Data release 13 (2026-11-08).
+- Links touching a part-2 movement: 51. This pass added 31 and rewrote the note of 1 (`desert-monasticism--the-kollyvades-and-greek-renewal`). The other 19 came from eras 6, 7 and 8 and from part 1, and stand as merged; none repeats a pair this pass drew. No link retired; every published ID stands.
+- Census links in all: 540 before this pass (after part 1, data release 14), 571 after. Data release 15 (2026-11-08).
 - Grades of the links added: Documented 10, Dominant Modern Reconstruction 9, Widely Accepted 8, Inferential-Thin 4.
 - Types of the links added: continued as 9, gave rise to 7, in contact with 7, influenced 4, argued against 2, broke with 2.
 - Dispositions of the named relationships (drafting, 250): no-entry 95, link 69, kept-as-is 36, out-of-scope 28, qualify 22. Revision round 1 restated 9 of them (`Revision_Round1.json`, `dispositions`).
@@ -63,12 +63,12 @@ Every link added or changed is named in the text of one of its movements (`named
 
 ## Merge with other sessions
 
-- Era 6 (data release 11) drew two links into the Optina elders; they stand, and this pass drew none on those pairs. Era 7's branch draws `kirishitan-japan` to the Meiji Japanese church and `church-of-the-east-schism-of-1552` to the Chaldeans; those pairs were left to era 7. Era-8-owned relationships (their own text names them) were left out (28 out-of-scope dispositions in all, including part 1's).
+- Eras 6, 7 and 8 and part 1 merged first (data releases 11 to 14). Era 6 drew two links into the Optina elders; era 7 drew `kirishitan-japan` to the Meiji Japanese church and `church-of-the-east-schism-of-1552` to the Chaldeans; era 8 drew 12 links (continued as, gave rise to and influenced) from its own entries into 11 part-2 movements, among them the Russian church, the Ruthenian Greek Catholics, the Armenians, the Philippines, the Church of Utrecht and the Paisian revival to Optina. All stand, and this pass drew none on those pairs. Era-8-owned relationships (their own text names them) were left out.
 - Era 10 is deferred (Decision-Log, "The link work covers eras 1 to 9", 2026-11-08), but its movements stay on the map. The links era-9 text names into era 10 stand, among them the four "continued as" links that close this part's `continuesAs` fields.
 
 ## Open items
 
-Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08):
+Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md`, entries 102-110 (2026-11-08):
 
 - The Philippine Independent Church has no entry of its own; it sits inside the Philippine Catholic entry. Whether it needs one is a portfolio question for Mark.
 - Map gaps: no Coptic movement between about 1300 and 1854 (the link now spans it on modern lists), and no Ethiopian movement between 1650 and 1855 (not bridged).
@@ -77,6 +77,7 @@ Logged in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08)
 - Well-known facts with no vendored source, era 9 part 2: added to the open method question.
 - Page recordings now read old descriptions on 6 part-2 pages. A paid voice run, for Mark.
 - Text owners' items: the Alaskan "Tlingit alphabets"; Oneida's 1880 or 1881 dissolution; sentence fragments in the Catholic, Old Catholic, Oneida, Christadelphian and Unitarian-Universalist texts; the placeholder "-" relations summaries of four beyond-the-floor entries.
+- Optina's émigré claim stays stated as fact while its link is Inferential-Thin (era 8 cut the same claim from the Paisian revival); the cap was used before it was weighed. For P2-L11.
 - Possible links that no text names, not drafted: the Urmia Assyrians' 1896 submission to the Russian church; John Thomas and the Stone-Campbell movement; Russell and the Adventists; Eddy and Quimby.
 
 ## Wanted texts
