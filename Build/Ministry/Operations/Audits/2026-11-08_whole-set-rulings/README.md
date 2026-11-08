@@ -28,6 +28,9 @@ Also amended: the Drafting Brief (`../2026-11-06_census-lineage-rigor/Drafting_B
 2. **Review round 1** (a separate Opus 5.5 agent, full): `Opus_Review_Round1.json`. Revise: 3 substantial, 3 minor. Applied: `Revision_Round1.json`.
 3. **Review round 2** (separate Opus 5.5, targeted): `Opus_Review_Round2_TargetedRecheck.json`. **Pass**: 0 findings; all six round-1 findings resolved.
 
+4. **Merge with main.** The era 6 rulings (#1553) merged first and took release 18, so this pass takes release 19. Only two links were changed by both: the Carmelite link keeps #1553's type, outcome and quotes plus the restored Zimmerman quote; the Kievan metropolitans link keeps #1553's outcome and four Mouravieff quotes plus ruling 1's grade, note and one more quote. Script: `Merge_With_Era6_Rulings.py`.
+5. **Review round 3** (separate Opus 5.5, targeted, of the merge): `Opus_Review_Round3_TargetedRecheck.json`. **Pass**: 0 findings. All three rounds of the cap were used.
+
 No model call was metered.
 
 ## Open
