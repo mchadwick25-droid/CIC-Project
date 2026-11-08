@@ -1,5 +1,5 @@
 {
- "group": "era-4",
+ "group": "4",
  "links": [
   {
    "id": "anglo-saxon-christianity--carolingian-reform-christianity",
@@ -117,10 +117,10 @@
     "source_index": 1,
     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
     "lines": "34477-34485",
-    "text": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,"
+    "text": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno ."
    },
    "reason": "rule made: a patriarchal canon (lines 34471-34485) fixed how India's metropolitan answered to the patriarch",
-   "doubt": "The binding clause itself is at 34484-34485 ('mittant literas confenfionis ... ad Patriar- cham femelfepcto quoque anno'); OCR is poor. The note already states this canon, so the outcome adds little beyond it; a reviewer may judge whether a jurisdiction canon counts as a lasting result."
+   "doubt": "India is named at 34477-34478 ('reliqui Metropoli ta Cbina , India'); OCR is poor. The note already states this canon, so the outcome adds little beyond it; a reviewer may judge whether a jurisdiction canon counts as a lasting result."
   },
   {
    "id": "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity",
