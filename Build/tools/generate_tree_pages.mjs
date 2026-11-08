@@ -19,6 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
+import { narrationTextFor, recordingMatchesText } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -29,7 +30,7 @@ createRequire(import.meta.url)(path.join(rootDir, 'cic-website/assets/place-line
 const { formatPlace } = globalThis.CFTPlace;
 const treeDir = path.join(outRoot, 'cft-website/tree');
 const websiteDir = path.join(outRoot, 'cic-website');
-const audioDir = path.join(rootDir, 'cft-website/audio/tree');
+const audioDir = argAt('--audio') || path.join(rootDir, 'cft-website/audio/tree');
 
 // Read census data
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
@@ -298,14 +299,16 @@ function hasOwnWorldStory(movementId) {
 const treeManifestPath = path.join(audioDir, 'manifest.json');
 const treeAudioManifest = fs.existsSync(treeManifestPath) ? JSON.parse(fs.readFileSync(treeManifestPath, 'utf-8')) : {};
 
-function hasNarration(movementId) {
-  if (hasOwnWorldStory(movementId)) return false;
-  return Boolean(treeAudioManifest[movementId]);
+// The Listen player shows only while the recording's stored fingerprint
+// matches the text the page now reads.
+function hasNarration(movement) {
+  if (hasOwnWorldStory(movement.id)) return false;
+  return recordingMatchesText(treeAudioManifest[movement.id], narrationTextFor(movement, { dataDir: worldsDataDir }));
 }
 
 function generatePageHtml(movement) {
   const isBuilt = builtWorlds.has(movement.id);
-  const narrated = hasNarration(movement.id);
+  const narrated = hasNarration(movement);
 
   // Get description for meta tag - use sourcing as fallback
   const metaDesc = truncateDescription(
