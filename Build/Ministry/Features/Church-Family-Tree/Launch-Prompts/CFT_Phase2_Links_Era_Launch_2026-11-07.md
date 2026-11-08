@@ -16,7 +16,8 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
   - one of the five grades;
   - a plain note;
   - sources, with a vendored locus and a verbatim quote wherever a source is primary;
-  - `citation_specificity` and `verification_state`.
+  - `citation_specificity` and `verification_state`;
+  - `outcome`, for a major link of the judged types (step 4b).
 - A relationship the vendored sources do not support is qualified in the prose ("may have",
   with the reason) or taken out. Never left standing as fact.
 - A link to a movement in another era is in scope when this era's movement is the one whose
@@ -46,6 +47,18 @@ link, or the text stops claiming it. The text is the movement's `relationsSummar
 4. **Two-way check.** Every relationship named in the prose has a link, or its sentence was
    qualified or removed. Every link is named somewhere in its movements' text, or its note
    says why it stands alone. List both directions in the audit README.
+4b. **Major links (Mark, 2026-11-08).** "Gave rise to", "continued as" and "broke with" are
+   major by type and need nothing more. An "influenced", "argued against" or "in contact with"
+   link is major only when one of its own listed sources shows an institutional act beyond the
+   quarrel: a council, canon, synod or law condemning, deposing or excluding a group or its
+   teaching; a split into a separate church or body; or a rule, practice or settlement changed by
+   an authority. A teaching, text or practice merely taken up by the other side is not enough
+   (change order, Decision-Log 2026-11-08). Such a
+   link carries `outcome`: one plain public sentence naming that result, every fact drawn from
+   a source already on the link, under about 30 words. Leave the field off when the test is not
+   met. The drafting record gives each outcome its source locus and lists the links judged
+   minor; the reviewer checks each outcome like any other claim, within the same rounds. The
+   audit README counts major links by type and by outcome.
 5. **Review (a second, separate Opus 5.5 agent).** Brief it with the census, the sources and
    the drafting record, not with the drafters' conclusions, so its read is independent. Round 1
    is a full review. Later rounds are targeted rechecks of what

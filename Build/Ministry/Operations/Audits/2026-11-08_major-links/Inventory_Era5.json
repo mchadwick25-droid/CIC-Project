@@ -1,0 +1,1781 @@
+{
+  "era": 5,
+  "links": [
+    {
+      "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "byzantine-church-after-1054",
+      "to_name": "The Byzantine Church after the Schism",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In July 1054 Cardinal Humbert and two other envoys of the pope cast the patriarch of Constantinople, Michael Cerularius, out of the church. Their written sentence calls him a patriarch in name only. It says the seeds of heresy are sown among his followers every day. Crusaders took Constantinople in 1204. Pope Innocent III then treated its church as his own. In 1205 he wrote that it had lately come back into unity with Rome.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "9952-9954",
+          "locus": "no. 228, Humbert's bull of excommunication",
+          "quote": "Quan- tum autem  ad  Mchaelem,  abusive  dictum  patriarcham,  et  eius  stultitiae  fautores,  nimia zizania  haereseon  quotidie  seminantur  in  medio  eius."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "9987-9988",
+          "locus": "no. 228, closing anathema",
+          "quote": "et  omnes  sequaces  eorum  in  praefatis  erroribus et  praesumptionibus,  sint  anathema  Maranatha"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Innocent III, letter to the archbishop of Kalocsa, 3 May 1205 (Register, year 8, letter 40), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+          "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+          "lines": "7329-7330",
+          "locus": "Reg. VIII ep. 40",
+          "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem, eam nolumus suo iure privari."
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Innocent III, letter to the bishops of Padua and Ceneda (Register, year 12, letter 94, 1209), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+          "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+          "lines": "7698-7699",
+          "locus": "Reg. XII ep. 94",
+          "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha electio- nem confirmasset ipsius et in Epum consecrasset,"
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "cistercian-monasticism--the-english-mystics-and-devout",
+      "from": "cistercian-monasticism",
+      "from_name": "Cistercian Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-english-mystics-and-devout",
+      "to_name": "The English Mystics and Devout",
+      "to_era": 6,
+      "confidence": "Documented",
+      "note": "Richard Rolle, the Yorkshire hermit who died in 1349, quotes 'S. Bernard' on fasting and keeping watch. Walter Hilton's Scale of Perfection quotes Bernard too. In 1914 Evelyn Underhill named Bernard as one of the three masters who shaped Rolle most.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Richard Rolle, The Form of Perfect Living, rendered into modern English by Geraldine E. Hodgson (1910)",
+          "file": "cic/texts/rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt",
+          "lines": "583-585",
+          "locus": "The Form of Perfect Living",
+          "quote": "And S. Bernard says: \"Fasting and waking hinder not spiritual goods, but help, if they be done with _discretion_; without that, they are vices.\""
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Walter Hilton, The Scale of Perfection, ed. Evelyn Underhill (1923)",
+          "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+          "lines": "4964-4967",
+          "locus": "Scale of Perfection (on the command to love God with all the heart)",
+          "quote": "for this intent, as Saint Bernard sayeth, that we should know thereby our feebleness and then meekly cry mercy, and we shall have it."
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Evelyn Underhill, introduction to Richard Rolle, The Fire of Love and The Mending of Life, ed. Frances M. M. Comper (1914)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+      "from": "canons-regular-victorine-school",
+      "from_name": "Canons Regular / Victorine School",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-english-mystics-and-devout",
+      "to_name": "The English Mystics and Devout",
+      "to_era": 6,
+      "confidence": "Documented",
+      "note": "The English author of The Cloud of Unknowing also put Denis's Mystical Theology into English. He wrote that he had 'much followed' the Abbot of Saint Victor's reading of it. His 1924 editor says this was Thomas, abbot at Vercelli, a Victorine canon who died in 1246. He also shows the Cloud taking much from Richard of St Victor.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Anonymous author of The Cloud of Unknowing, prologue to Denis Hid Divinity (his English version of the Mystical Theology), ed. Justin McCann (1924)",
+          "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+          "lines": "12899-12904",
+          "locus": "Denis Hid Divinity, prologue",
+          "quote": "I have not only followed the naked letter of the text, but for to declare the hardness of it, I have much followed the sentence of the Abbot of Saint Victor*, a noble and a worthy expositor of this same book."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "canons-regular-victorine-school--the-franciscan-movement",
+      "from": "canons-regular-victorine-school",
+      "from_name": "Canons Regular / Victorine School",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-franciscan-movement",
+      "to_name": "The Franciscan Movement",
+      "to_era": 5,
+      "confidence": "Widely Accepted",
+      "note": "Bonaventure, the Franciscan friar and teacher, wrote a Journey of the Mind into God. It turns on a pattern of three that Richard of St Victor had used: outside us, within us and above us. In 1924 Justin McCann, who edited The Cloud of Unknowing, called Bonaventure 'a disciple of Richard' in his teaching on prayer.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bonaventure, Itinerarium mentis in Deum, cap. 5, as quoted in Justin McCann's note to The Cloud of Unknowing ch. 32 (1924)",
+          "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+          "lines": "3990-3993",
+          "locus": "Itinerarium 5 (Quaracchi vol. 5, p. 308), in McCann's note",
+          "quote": "Quoniam autem contingit contemplari Deum non solum extra nos et intra nos, verum etiam supra nos : extra per vestigium, intra per imaginem et supra per lumen"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Richard of St Victor, Benjamin Minor, cap. 55, as quoted in the same note",
+          "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+          "lines": "3995-3996",
+          "locus": "Benjamin Minor 55, in McCann's note",
+          "quote": "Extra nos corpo- ralia, intra nos spiritualia, supra nos divina."
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "carthusian-life--the-english-mystics-and-devout",
+      "from": "carthusian-life",
+      "from_name": "Carthusian Life",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-english-mystics-and-devout",
+      "to_name": "The English Mystics and Devout",
+      "to_era": 6,
+      "confidence": "Inferential-Thin",
+      "note": "The Cloud of Unknowing, written in fourteenth-century England, names reading, thinking and praying as a beginner's tools. Its author says another man described them better in another book. His 1924 editor thinks that book is probably the Ladder of Guigo II, prior of the Grande Chartreuse. The author names no one, so this rests on the editor's judgment.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+          "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+          "lines": "6387-6390",
+          "locus": "Cloud ch. 35",
+          "quote": "NEVERTHELESS there be means in the which a contemplative prentice should be occupied, the which be these: Lesson, Meditation, and Orison."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+          "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+          "lines": "6426-6427",
+          "locus": "Cloud ch. 35 (after a page break and footnote)",
+          "quote": "written in another book by another man much better than I can tell thee;"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+      "from": "athonite-and-comnenian-byzantine-monasticism",
+      "from_name": "Athonite & Comnenian Byzantine Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "hesychasm-and-the-palamite-synthesis",
+      "to_name": "Hesychasm & the Palamite Synthesis",
+      "to_era": 6,
+      "confidence": "Documented",
+      "note": "Kallistos Telikoudes, a teacher of hesychast prayer, told monks to read chapters on prayer. He named 'especially' those of the New Theologian. That is Symeon, an abbot in Constantinople around the year 1000. The hesychasts' own case also went out from Athos, as the Tome of the Holy Mountain.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Kallistos Telikoudes, chapters on quiet (Greek with Latin), in Migne, PG 147 (1865)",
+          "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+          "lines": "32624-32625",
+          "locus": "Telikoudes, on the five works of quiet (Greek column)",
+          "quote": "μάνιστα τοῦ νέου Θεολόγου,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Gregory Palamas and the monks of Athos, the Hagioritic Tome on behalf of the hesychasts, Latin heading in Migne, PG 150 (1865)",
+          "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+          "lines": "68790-68793",
+          "locus": "Tomus Hagioriticus, heading",
+          "quote": "HAGIORITICUS TOMUS DE QUIETISTIS"
+        }
+      ]
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+      "from": "athonite-and-comnenian-byzantine-monasticism",
+      "from_name": "Athonite & Comnenian Byzantine Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-hesychast-revival-paisius-and-the-philokalia",
+      "to_name": "The Hesychast Revival - Paisius & the Philokalia",
+      "to_era": 8,
+      "confidence": "Documented",
+      "note": "The Philokalia, a book of writings on prayer first printed in 1782, carries work by Symeon the New Theologian. Its 1893 Athens edition lists a talk on faith by 'our holy father Symeon the New Theologian'.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), table of contents",
+          "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+          "lines": "74199-74202",
+          "locus": "vol. 2, table of contents",
+          "quote": "Ὁσίου Πατρὸς ἡμῶν Συμεὼν τοῦ νέου Θεολόγου λόγος περὶ πίστεως"
+        }
+      ]
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "from": "athonite-and-comnenian-byzantine-monasticism",
+      "from_name": "Athonite & Comnenian Byzantine Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "kievan-rus-christianity-1054-1240",
+      "to_name": "Kievan Rus' Christianity, 1054-1240",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. It names no earlier witness for the story.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+      "from": "athonite-and-comnenian-byzantine-monasticism",
+      "from_name": "Athonite & Comnenian Byzantine Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-georgian-golden-age",
+      "to_name": "The Georgian Golden Age",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "In 1849 Marie-Félicité Brosset, who edited the Georgian chronicles, wrote that under King Bagrat III the Georgian monastery on Athos was home to learned translators. They put scripture and the best Greek books of theology into Georgian. This rests on that one modern summary.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Marie-Félicité Brosset, introduction to Histoire de la Géorgie, première partie (1849)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+      "from": "the-carmelites",
+      "from_name": "The Carmelites",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "carmelite-reform-and-spanish-mystics",
+      "to_name": "The Carmelite Reform and the Spanish Mystics",
+      "to_era": 7,
+      "confidence": "Documented",
+      "note": "Teresa of Ávila wrote that her reformed nuns kept 'the rule of our Lady of Carmel, not the rule of the Mitigation'. She meant the rule as it was revised under Pope Innocent IV. Her editor dates his approval to 1247, though she gives 1248.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Teresa of Ávila, Life, ch. 36 §27, trans. David Lewis, ed. Benedict Zimmerman (1904)",
+          "file": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+          "lines": "19258-19262",
+          "locus": "Life 36.27",
+          "quote": "We keep the rule of our Lady of Carmel, not the rule of the Mitigation, but as it was settled by Fr. Hugo, Cardinal of Santa Sabina, and given in the year 1248, in the fifth year of the pontificate of Innocent IV., Pope."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Benedict Zimmerman, note to the Rule, in Teresa of Ávila, The Book of the Foundations, trans. Lewis (1913)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-carmelites",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-carmelites",
+      "to_name": "The Carmelites",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Pope Innocent IV wrote to 'the prior and brethren, hermits of blessed Mary of Mount Carmel'. At their request two delegates had explained, corrected and softened their rule, and he confirmed the result. His letter is dated at Lyons in the fifth year of his reign, which was 1247.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), trans. in Teresa of Ávila, The Book of the Foundations, Lewis (1913)",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "21980-21983",
+          "locus": "bull of Innocent IV, salutation",
+          "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "22014-22017",
+          "locus": "bull of Innocent IV",
+          "quote": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "22409-22410",
+          "locus": "bull of Innocent IV, dating clause",
+          "quote": "Given at Lyons, October 1, in the fifth year of our pontificate."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-dominican-order--the-carmelites",
+      "from": "the-dominican-order",
+      "from_name": "The Dominican Order",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-carmelites",
+      "to_name": "The Carmelites",
+      "to_era": 5,
+      "confidence": "Inferential-Thin",
+      "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. Neither letter says that the Dominicans shaped the order. So this tie is thin.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Hugh of Saint-Cher and William of Tortosa, letter to the Carmelites with the revised Rule (1247), in Innocent IV's confirmation, trans. Lewis (1913)",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "22021-22023",
+          "locus": "the delegates' letter, salutation",
+          "quote": "Friar Hugh, by the Divine compassion cardinal priest of Santa Sabina, and friar William, by the same compas- sion bishop of Tortosa,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "same letter",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "22024-22026",
+          "locus": "the delegates' letter, salutation",
+          "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Innocent IV, letter of confirmation of the revised Carmelite Rule (1247), salutation, trans. Lewis (1913)",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "21980-21983",
+          "locus": "Innocent IV's confirmation, salutation",
+          "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-church-of-outremer--the-carmelites",
+      "from": "latin-church-of-outremer",
+      "from_name": "The Latin Church of Outremer",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-carmelites",
+      "to_name": "The Carmelites",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "The Carmelites' rule opens as a letter from 'Albert, by the grace of God patriarch of Jerusalem'. He wrote to Brocard and the other hermits who lived 'by the well of Elias on Mount Carmel'. Albert was the Latin patriarch of the crusader kingdom. The editor of Teresa's Foundations says he was killed in 1214.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Albert of Jerusalem, Rule for the hermits of Mount Carmel (1206-1214), opening, as revised in 1247 and kept by the nuns of Alcalá, trans. Lewis (1913)",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+          "lines": "22056-22061",
+          "locus": "Rule of Albert, salutation",
+          "quote": "Albert, by the grace of God patriarch of Jerusalem, to our beloved children in Christ, Brocard and the other brethren, hermits, who live under his obedience by the well of Elias on Mount Carmel, health in Jesus Christ, and the blessing of the Holy Ghost."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Benedict Zimmerman, note to the bull of Innocent IV, in The Book of the Foundations (1913)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-dominican-order--the-franciscan-movement",
+      "from": "the-dominican-order",
+      "from_name": "The Dominican Order",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "the-franciscan-movement",
+      "to_name": "The Franciscan Movement",
+      "to_era": 5,
+      "confidence": "Widely Accepted",
+      "note": "A Franciscan book, the Mirror of Perfection, tells how Francis and Dominic met in Rome before the cardinal bishop of Ostia. Its date is disputed. In it Dominic wishes that their two orders could become one. In 1888 the historian Henry Charles Lea called them rival orders.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "The Mirror of Perfection (Speculum perfectionis), ch. 43 (trans. Sebastian Evans, 1899)",
+          "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt",
+          "lines": "3036-3040",
+          "locus": "Speculum perfectionis 43",
+          "quote": "to wit, the Blessed Francis and the Blessed Dominic, were both together before the Lord Bishop of Ostia"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "The Mirror of Perfection (Speculum perfectionis), ch. 43 (trans. Sebastian Evans, 1899)",
+          "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt",
+          "lines": "3117-3119",
+          "locus": "Speculum perfectionis 43",
+          "quote": "“Brother Francis, I would that thy Religion and mine should be made"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (New York, 1888)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-franciscan-movement",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "the-franciscan-movement",
+      "to_name": "The Franciscan Movement",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Francis's first Rule opens by saying he asked Pope Innocent III to grant and confirm this way of life. The pope, it says, granted and confirmed it for Francis and his brothers. Angelo Clareno copied the passage into his commentary on the Rule in the 1320s.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Francis of Assisi, Earlier Rule (Regula non bullata), opening, as quoted in Angelo Clareno, Expositio regulae fratrum minorum (ed. Oliger, 1912)",
+          "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+          "lines": "4872-4875",
+          "locus": "Regula non bullata, prologue",
+          "quote": "Hec est vita evangelij Ihesu Christi quam fr. Franciscus pefiit a domino papa (d) Innocentio concedi sibi et confirmari, et dominus papa concessit et confirmavit sibi et suis fratribus habitis et futuris."
+        }
+      ]
+    },
+    {
+      "id": "the-dominican-order--cathars-albigensians",
+      "from": "the-dominican-order",
+      "from_name": "The Dominican Order",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "cathars-albigensians",
+      "to_name": "Cathars / Albigensians",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Bernard Gui signed himself in 1309 as a friar of the Order of Preachers and inquisitor of heresy in France. His handbook for inquisitors sets out the errors of 'the Manichaeans of modern times'. That was his name for the Cathars.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Bernard Gui, letter to the seneschal of Agen, 1309, in his Practica (Manuel de l'inquisiteur, ed. Mollat, 1926, vol. 1)",
+          "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+          "lines": "894-897",
+          "locus": "Practica, introduction (Mollat)",
+          "quote": "frater Bernardus Guidonis, ordinis Predicatorum, inquisitor heretice pravitatis in regno Francie per sedem aposto- licam deputatus"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Bernard Gui, Practica inquisitionis, part 5 (Manuel de l'inquisiteur, ed. Mollat, 1926, vol. 1)",
+          "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+          "lines": "3725",
+          "locus": "Practica V.1",
+          "quote": "[1.] DE ERRORIBUS MANICHEORUM MODERNI TEMPORIS"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Guillaume Mollat, introduction to Bernard Gui, Manuel de l'inquisiteur, vol. 1 (Paris, 1926), on Gui's 'manichei moderni temporis' as the Cathars of his day",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+      "from": "latin-papal-church-avignon-to-lateran-v",
+      "from_name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+      "from_era": 6,
+      "type": "argued against",
+      "to": "the-beguines",
+      "to_name": "The Beguines",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "At the Council of Vienne in 1311-12, Pope Clement V condemned eight errors about the soul made perfect. The standard collection of church decrees files them as the errors of beguines and beghards. Antoninus of Florence wrote in the 1400s that these people had risen up in Germany.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), no. 471",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14792-14793",
+          "locus": "Denzinger 471",
+          "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Antoninus of Florence, Chronicon, quoted in Mansi, Sacrorum conciliorum collectio 25 (1903 reprint), note to the Council of Vienne",
+          "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+          "lines": "39817-39819",
+          "locus": "Mansi 25, Council of Vienne, note hh",
+          "quote": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui infur- rexerunt in Alemannia,"
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+      "from": "latin-papal-church-avignon-to-lateran-v",
+      "from_name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+      "from_era": 6,
+      "type": "argued against",
+      "to": "free-spirit-heresy",
+      "to_name": "'Free Spirit' Heresy",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "The Council of Vienne in 1311-12 condemned eight errors about the perfect soul. One said that people who live 'in the spirit of liberty' owe no obedience to any human. Robert Lerner's 1972 study argued that no organized sect ever held them.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Council of Vienne, Ad nostrum, error 3, in Denzinger-Bannwart, Enchiridion symbolorum (1911), no. 473",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14808",
+          "locus": "Denzinger 473",
+          "quote": "spiritu libertatis, non sunt humanae subiecti oboedientiae,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart (1911), no. 471",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14792-14793",
+          "locus": "Denzinger 471",
+          "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-tridentine-church--the-humiliati",
+      "from": "the-tridentine-church",
+      "from_name": "The Tridentine Church",
+      "from_era": 7,
+      "type": "argued against",
+      "to": "the-humiliati",
+      "to_name": "The Humiliati",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In 1571 Pope Pius V shut down the order of Humiliati brothers by bull. The bull names Cardinal Charles Borromeo as the order's protector, sent to reform it. The bull did not cover the women's houses.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+          "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+          "lines": "92832-92835",
+          "locus": "Bullarium Romanum 2, Pius V, const. 119",
+          "quote": "extinguimus & abolemus Ordinem pradi- &ortm Fratrum Humiliatorum"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+          "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+          "lines": "92588-92591",
+          "locus": "Bullarium Romanum 2, Pius V, const. 119, § 1",
+          "quote": "CA- ROLUS Tit. S. Praxedis presbyter Cardinalis Bor- romaus hujus Ordinis Prote&or, & Apoftolice Se- dis delegatus"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Catholic Encyclopedia, vol. 7 (1910), 'Humiliati' (newadvent.org/cathen/07543a.htm)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-humiliati",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "the-humiliati",
+      "to_name": "The Humiliati",
+      "to_era": 5,
+      "confidence": "Inferential-Thin",
+      "note": "In 1184 Pope Lucius III condemned the Waldensians for claiming the right to preach. John Foxe, writing in the 1500s, reports a chronicler's claim that Lucius rejected the Humiliati with them. Foxe himself doubted another part of that story, about the friars approved in their place. This rests on that late report.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837), on the Waldenses of Provence, reporting Paulus Aemilius",
+          "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+          "lines": "38608-38611",
+          "locus": "Acts and Monuments, History of Merindol and Cabrieres",
+          "quote": "of these Pauperes cle Lugduno, and Humiliati, and dividing these 1547. two orders from the Albigenses, reporteth that the two former orders were rejected by the pope Lucius III.,"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-humiliati--2",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "the-humiliati",
+      "to_name": "The Humiliati",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Catholic Encyclopedia, vol. 7 (1910), 'Humiliati' (newadvent.org/cathen/07543a.htm)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo, vol. 1 (English translation, London, 1884), translator's note 'Origin of the Frati Umiliati', citing Tiraboschi, Vetera Humiliatorum monumenta (1766)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--the-waldensians",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "the-waldensians",
+      "to_name": "The Waldensians",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "The inquisitor Bernard Gui, writing about 1320, tells the story. The archbishop of Lyon told Valdes's followers to stop preaching. They refused, so they were cut off from the church and driven from the city. Later a church council judged them heretics. A papal decree from the reign of Gregory IX names the 'Poor of Lyon' among the heretics it condemns.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14315-14317",
+          "locus": "Denzinger no. 444",
+          "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+          "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+          "lines": "4897-4899",
+          "locus": "Part V, 'De secta Valdensium', ch. 1",
+          "quote": "et, moniti ut desiste- rent, inobedientes et contumaces effecti sunt; et exinde excommunicati ab illa civitate et patria sunt expulsi."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+          "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+          "lines": "4900-4903",
+          "locus": "Part V, 'De secta Valdensium', ch. 1",
+          "quote": "Demum vero in quodam concilio, quod fuit Rome ante Lateranense concilium? celebratum, cum essent perti- naces, fuerunt scismatict judicati et deinde ut heretici condempnati."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--cathars-albigensians",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "cathars-albigensians",
+      "to_name": "Cathars / Albigensians",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In 1179 a great church council at Rome condemned the heretics of Gascony and the lands around Albi and Toulouse, 'whom some call Cathars'. A later papal decree puts the Cathars first among the heretics it condemns. In 1209 the papacy went further and sent crusading armies against them.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "13191-13195",
+          "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+          "quote": "Eapropter, quia in Gas- conia, Albegesio et partibus Tolosanis et aliis locis ita haereticorum, quos aUi Catharos, aUi Patarenos, aUi PubUcanos, aUi aliis nominibus vocant, invaluit damnata perversitas"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "13198-13199",
+          "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+          "quote": "eos et defensores et receptatores eoruni anathemati decernimus subiacere"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14315-14317",
+          "locus": "Denzinger no. 444",
+          "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur"
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 5,
+          "kind": "secondary",
+          "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 6,
+          "kind": "secondary",
+          "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 7,
+          "kind": "secondary",
+          "work": "Cambridge History of Christianity vol. 4, ch. 12 'Christians and heretics' (Biller)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "balkan-bogomil-continuation--cathars-albigensians",
+      "from": "balkan-bogomil-continuation",
+      "from_name": "Balkan Bogomilism, 1054-1300",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "cathars-albigensians",
+      "to_name": "Cathars / Albigensians",
+      "to_era": 5,
+      "confidence": "Contested",
+      "note": "About 1250 Rainier Sacconi, an Italian inquisitor, wrote that all the Cathar churches came from two in the east. He named them as Bulgaria and Dugunthia. The Cathars of Concorezzo, in Italy, had a secret book. A note in one copy says their bishop Nazarius brought it from Bulgaria. Scholars still argue over whether such hostile reports show a real link.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Rainier Sacconi, Summa de Catharis et Pauperibus de Lugduno (c. 1250), on the sixteen Cathar churches, as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869)",
+          "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+          "lines": "4328-4330",
+          "locus": "Sacconi, 'Quot sunt ecclesiae Catharorum' (Rački, Rad VII, notes to the Cathar churches)",
+          "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Colophon of the Interrogatio Iohannis (the 'Secret Supper'), Carcassonne inquisition manuscript, as printed in Franjo Rački, 'Bogomili i Patareni', part 2, Rad JAZU X (1870)",
+          "file": "cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt",
+          "lines": "4661-4663",
+          "locus": "Rački, Rad X, on the books of the Bogomils and Patarenes",
+          "quote": "hoc est secretum hereticorum de Concorezio, portatum de Bulgaria Nazario suo episcopo, plenum erroribus."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Everwin of Steinfeld, letter to Bernard of Clairvaux (c. 1143), as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869), note",
+          "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+          "lines": "474-476",
+          "locus": "Everwin, Ep. ad Bernardum (Mabillon, Vetera analecta III, 457), cited by Rački",
+          "quote": "Hane haeresim usque ad hac tempora occultatam fuisse a temporibus inartyrum, et pennansisse in Graecia et quibusdam aliis terris."
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "from": "byzantine-church-after-1054",
+      "from_name": "The Byzantine Church after the Schism",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "balkan-bogomil-continuation",
+      "to_name": "Balkan Bogomilism, 1054-1300",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. Here it comes as Franjo Rački told it in 1869.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "joachimite-current--the-franciscan-movement",
+      "from": "joachimite-current",
+      "from_name": "Joachimite Current",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "the-franciscan-movement",
+      "to_name": "The Franciscan Movement",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes of a companion of John of Parma, head of the order from 1248. In a sermon, this friar praised Joachim far beyond measure. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fifth tribulation, Latin text printed by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+          "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+          "lines": "15462-15469",
+          "locus": "Historia, on the trial of John of Parma (Ehrle, Archiv 2, p. 276)",
+          "quote": "Fuit autem racio tercia | persecucionis duorum sermonum conscriptio faeta a duobus quibusdam fratris Johannis sociis b), quorum primus per excessum et, ut ita dicam, sine sale laudabat abbatis Joachim doctrinam pariter et personam,"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 5,
+          "kind": "secondary",
+          "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "joachimite-current--franciscan-order-era-6",
+      "from": "joachimite-current",
+      "from_name": "Joachimite Current",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "franciscan-order-era-6",
+      "to_name": "The Franciscan Order — Spirituals Crisis to the Great Division",
+      "to_era": 6,
+      "confidence": "Documented",
+      "note": "The strict friars known as the Spirituals saw their order's troubles in the light of Joachim's ages. Their own writer of history, Angelo Clareno, used a prophecy that Joachim had praised. He made it point to Peter John Olivi, the teacher they followed. In 1886 the scholar Franz Ehrle wrote that Clareno's whole plan of the order's trials rests on Joachim's ideas.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fol. 42a, quoted by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+          "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+          "lines": "6185-6188",
+          "locus": "Historia, fol. 42a (Ehrle, Archiv 2, p. 115, note 2)",
+          "quote": "Denique tota prima pars prophecie sancti Cirilli, quam abbas Joachim immensis laudibus effert, fratrem Petrum Johannem principalissime tangit et sue nativitatis locum et ordinem."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Franz Ehrle, 'Die Spiritualen, ihr Verhältniss zum Franziskanerorden und zu den Fraticellen', Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Franz Ehrle, 'Petrus Johannis Olivi, sein Leben und seine Schriften', Archiv für Literatur- und Kirchengeschichte des Mittelalters 3 (1887)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Georges Mollat (ed.), Bernard Gui, Manuel de l'inquisiteur, vol. 1 (1926), note on the Beguins' reading of Olivi",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 4,
+          "kind": "secondary",
+          "work": "David Burr, The Spiritual Franciscans: From Protest to Persecution in the Century after Saint Francis (Penn State, 2001)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--joachimite-current",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "joachimite-current",
+      "to_name": "Joachimite Current",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In 1215 a great church council at Rome condemned a small book Joachim had written against Peter Lombard's teaching on the Trinity. In 1254 a friar's book built on Joachim's works caused alarm in Paris. A papal panel met at Anagni in 1255 to judge it, and the book was condemned.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Fourth Lateran Council (1215), chapter 2, 'On the error of Abbot Joachim', in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 431",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "13944-13946",
+          "locus": "Lateran IV, ch. 2 (Denzinger no. 431)",
+          "quote": "Damnamus ergo et reprobamus libellum seu tractatum, 39 (358) quem Abbas loachim edidit contra Magistrum Petrum Lombardum, de unitate seu essentia Trinitatis,"
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+      "from": "the-reformed-cities-zurich-and-geneva",
+      "from_name": "The Reformed Cities - Zurich & Geneva",
+      "from_era": 7,
+      "type": "argued against",
+      "to": "latin-papal-church-gregorian",
+      "to_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In his Institutes, John Calvin of Geneva wrote against Pope Gregory VII by name. He said Gregory, once called Hildebrand, was the one who first won the popes the rank of emperors. He called him 'an impure and wicked man'. The popes after him, Calvin wrote, went on to rule the emperors.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "John Calvin, Institutes of the Christian Religion IV.11, chapter summary (trans. Beveridge, 1845)",
+          "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+          "lines": "10172-10175",
+          "locus": "Institutes IV.11, argument of section 13",
+          "quote": "When, and by what means, the Roman' Pontiffs attained to imperial dignity. Hildebrand its founder."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "John Calvin, Institutes IV.11.13 (trans. Beveridge, 1845)",
+          "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+          "lines": "10823-10825",
+          "locus": "Institutes IV.11.13",
+          "quote": "At length Hildebrand, who took the name of Gre- gory VII., an impure and wicked man, betrayed his sinister intentions."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "John Calvin, Institutes IV.11.13 (trans. Beveridge, 1845)",
+          "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+          "lines": "10826-10829",
+          "locus": "Institutes IV.11.13",
+          "quote": "He gained this much, hoAvever, that his successors were not only able to shake off the yoke with impunity, but also to bring the emperors into subjection to them."
+        }
+      ]
+    },
+    {
+      "id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+      "from": "cistercian-monasticism",
+      "from_name": "Cistercian Monasticism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "military-religious-orders-templars-hospitallers",
+      "to_name": "Military-Religious Orders (Templars, Hospitallers)",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "Bernard of Clairvaux, the Cistercians' best-known abbot, wrote In Praise of the New Knighthood in defense of the Templars. He argued that a knight who killed in this cause was killing evil, not a man. This rests on the modern history of the order, not on Bernard's own text.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Malcolm Barber, The New Knighthood: A History of the Order of the Temple (Cambridge University Press, 1994)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+      "from": "latin-papal-church-avignon-to-lateran-v",
+      "from_name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+      "from_era": 6,
+      "type": "argued against",
+      "to": "military-religious-orders-templars-hospitallers",
+      "to_name": "Military-Religious Orders (Templars, Hospitallers)",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "In March 1312 Pope Clement V issued the bull Vox in excelso, with the approval of a church council. It abolished the order of the Temple for ever. No one was to join it, wear its habit or pass himself off as a Templar, on pain of excommunication.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Clement V, bull Vox in excelso (22 March 1312), in Mirbt, Quellen, 3rd ed. (1911), no. 310",
+          "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+          "lines": "13649-13651",
+          "locus": "Vox in excelso",
+          "quote": "districtius inhibentes, ne quis dictum ordinem de caetero intrare, vel eius habitum suscipere vel portare aut pro templario gerere se praesumat."
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading and source line to no. 310",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading to no. 310",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "armenian-cilicia--byzantine-church-after-1054",
+      "from": "armenian-cilicia",
+      "from_name": "Armenian Christianity in Cilicia",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "byzantine-church-after-1054",
+      "to_name": "The Byzantine Church after the Schism",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. It lists what the Greeks asked of him, among them belief in two natures in Christ and honor for the fourth council.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "50854-50855",
+          "locus": "years 617-621 of the Armenian era",
+          "quote": "L'empereur Manuel ayant envoyé demander aux deux frères leur profession de foi, ils rédigèrent une exposition de notre croyance,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "50856-50857",
+          "locus": "years 617-621 of the Armenian era",
+          "quote": "ils voulurent opérer la réunion de notre nation [avec les Grecs], mais cette œuvre resta inachevée,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "46197-46198",
+          "locus": "Nerses's letter to Michael",
+          "quote": "Le seigneur Nersès m'écrivit en ces termes : «On me demande de reconnaître « deux natures en Jésus-Christ, et d'honorer Île quatrième concile,"
+        }
+      ]
+    },
+    {
+      "id": "armenian-cilicia--latin-church-of-outremer",
+      "from": "armenian-cilicia",
+      "from_name": "Armenian Christianity in Cilicia",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "latin-church-of-outremer",
+      "to_name": "The Latin Church of Outremer",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Kirakos of Gandzak wrote a history of Armenia in the 1200s. He tells how Catholicos Gregory III went on pilgrimage. At Antioch the people led him to the throne of Saint Peter. In Jerusalem, Kirakos says, the Franks and their patriarch made their bond with the Armenians stronger than ever.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "49652-49653",
+          "locus": "Gregory III's pilgrimage",
+          "quote": "S'étant mis en route pour la sainte cité de Jérusalem, afin d'aller adorer les lieux consacrés par la vie du Sauveur,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "49735-49737",
+          "locus": "Gregory III at Antioch",
+          "quote": "le con- duisirent avec une pompe solennelle au trône de l'apôtre saint Pierre, où üls le firent asseoir."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Kirakos of Gandzak (Guiragos de Kantzag), History of Armenia, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "49737-49739",
+          "locus": "Gregory III at Jerusalem",
+          "quote": "À son arrivée à Jérusalem, les Franks, maîtres de cette ville, ainsi que leur patriarche, resserrèrent, à cause de lui, et plus fortement que jamais, les liens d'amitié qui les unissaient à notre nation;"
+        }
+      ]
+    },
+    {
+      "id": "latin-church-of-outremer--byzantine-church-after-1054",
+      "from": "latin-church-of-outremer",
+      "from_name": "The Latin Church of Outremer",
+      "from_era": 5,
+      "type": "argued against",
+      "to": "byzantine-church-after-1054",
+      "to_name": "The Byzantine Church after the Schism",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Michael the Syrian, a Syriac patriarch who lived through these events, tells how the prince of Antioch brought back a Greek patriarch, Athanasius, from Constantinople. The Latin patriarch, Aimery, left the city and cut its people off from the church. After an earthquake in 1170, Aimery told them to throw the Greek patriarch out 'with contempt' as an intruder.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "45620-45623",
+          "locus": "the prince of Antioch's return from captivity",
+          "quote": "Il ramena de chez les Grecs, en qua- lité de patriarche d'Antioche, un nommé Athanase, et l'introduisit dans cette ville."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "45622-45623",
+          "locus": "the prince of Antioch's return from captivity",
+          "quote": "Le patriarche frank Aimeric, témoin de cette intrusion, en sortit aussitôt pour venir se fixer à Koceïr“, et excommunia les habitants d'Antioche."
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+          "lines": "46510-46511",
+          "locus": "the earthquake at Antioch",
+          "quote": "Il leur dit : « Chassez avec « mépris le patriarche grec [Athanase|, qui est un intrus. »"
+        },
+        {
+          "index": 3,
+          "kind": "secondary",
+          "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-church-of-outremer--maronite-christianity",
+      "from": "latin-church-of-outremer",
+      "from_name": "The Latin Church of Outremer",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "maronite-christianity",
+      "to_name": "Maronite Christianity",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. This rests on modern historians of the Maronites, not on his own text.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "latin-papal-church-gregorian--maronite-christianity",
+      "from": "latin-papal-church-gregorian",
+      "from_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "maronite-christianity",
+      "to_name": "Maronite Christianity",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. A papal bull then set out the terms of the union. This rests on modern historians of the Maronites, not on the bull or the council's acts.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+      "from": "byzantine-church-after-1054",
+      "from_name": "The Byzantine Church after the Schism",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "latin-papal-church-gregorian",
+      "to_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "to_era": 5,
+      "confidence": "Widely Accepted",
+      "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. The profession does not show how the Greek church received the union.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), on the Roman primacy",
+          "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+          "lines": "14629-14632",
+          "locus": "Denzinger no. 466",
+          "quote": "quem se ab ipso Domino in beato PETRO Apostolorum principe sive vertice, cuius Romanus Pontifex est successor, cum potestatis plenitudine recepisse veraciter et humiliter recognoscit."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "First Vatican Council, Pastor aeternus, ch. 4 (1870), on the Greeks' profession at Lyon, in Schaff, The Creeds of Christendom, vol. 2 (1878), English",
+          "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+          "lines": "23524-23530",
+          "locus": "Pastor aeternus, ch. 4",
+          "quote": "with the approval of the Second Council of Lyons, the Greeks professed that the holy Roman Church enjoys su- preme and full primacy and pre- eminence over the whole Catholic Church,"
+        },
+        {
+          "index": 2,
+          "kind": "secondary",
+          "work": "Clemens Bannwart (ed.), Denzinger, Enchiridion symbolorum, 11th ed. (1911), heading and note to nos. 461-466 (the profession of Michael VIII)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+      "from": "byzantine-church-after-1054",
+      "from_name": "The Byzantine Church after the Schism",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "kievan-rus-christianity-1054-1240",
+      "to_name": "Kievan Rus' Christianity, 1054-1240",
+      "to_era": 5,
+      "confidence": "Dominant Modern Reconstruction",
+      "note": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        },
+        {
+          "index": 1,
+          "kind": "secondary",
+          "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+          "file": null,
+          "lines": null,
+          "locus": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+      "from": "church-of-the-east-under-the-mongols",
+      "from_name": "The Church of the East under the Mongols",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "latin-papal-church-gregorian",
+      "to_name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters 'concerning the matter of Jerusalem'. He then gave communion to the king of England, probably in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma before the cardinals in Rome",
+          "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+          "lines": "7149-7152",
+          "locus": "ch. 7 (Rabban Sawma in Italy)",
+          "quote": "The Mongols and the Catholicus of the East have sent me to Mar Papa concerning the matter of Jerusalem; and they have sent letters with me."
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma at the court of the king of England",
+          "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+          "lines": "7648-7651",
+          "locus": "ch. 7 (Rabban Sawma goes to the king of England)",
+          "quote": "the king commanded Rabban Sawma to celebrate the Eucharist, and he performed the Glorious Mysteries ; and the king and his officers of state stood up, and the king partook of the Sacrament,"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma's return to Rome",
+          "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+          "lines": "7855-7857",
+          "locus": "ch. 7 (Rabban Sawma in Rome)",
+          "quote": "And RABBAN SAwm4A rejoiced greatly in receiving the Eucharistic Mystery from the hand of MAR PApA."
+        }
+      ]
+    },
+    {
+      "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+      "from": "coptic-christianity-fatimid-to-mamluk",
+      "from_name": "Coptic Christianity, Fatimid to Mamluk",
+      "from_era": 5,
+      "type": "in contact with",
+      "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+      "to_name": "Zagwe Ethiopian Christianity",
+      "to_era": 5,
+      "confidence": "Documented",
+      "note": "Around 1200 a Coptic survey of Egypt's churches says the head bishop of Abyssinia is sent 'from the patriarch of Alexandria'. 'Abd al-Latif, writing in the same years, tells of an envoy from the Abyssinian king. The envoy reported the bishop's death and asked for a new one. A note in the Kebra Nagast names a Coptic book of 'the throne of Mark' in King Lalibela's time.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+          "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+          "lines": "14287-14288",
+          "locus": "fol. 105a",
+          "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "'Abd al-Latif, quoted in Evetts's note to the Churches and Monasteries of Egypt (1895)",
+          "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+          "lines": "14351-14353",
+          "locus": "note to fol. 105a (A.H. 596 = A.D. 1200)",
+          "quote": "In the month of Shawwal an envoy arrived from the king of the Abyssinians, bearing a letter which contained the announcement of the death of their metro- politan, and requested the appointment of his successor"
+        },
+        {
+          "index": 2,
+          "kind": "primary",
+          "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+          "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+          "lines": "15301-15304",
+          "locus": "colophon",
+          "quote": "We have turned [this book] into Arabic from a Coptic manuscript [belonging to] the throne of Mark the Evangelist, the teacher, the Father of us all."
+        },
+        {
+          "index": 3,
+          "kind": "primary",
+          "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+          "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+          "lines": "15306-15308",
+          "locus": "colophon",
+          "quote": "in the days of Gabra Maskal the king, who is called Lalibala, in the days of Abba George, the good bishop."
+        }
+      ]
+    },
+    {
+      "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+      "from": "the-franciscan-movement",
+      "from_name": "The Franciscan Movement",
+      "from_era": 5,
+      "type": "influenced",
+      "to": "observant-reform-and-popular-preaching",
+      "to_name": "Observant Reform & Popular Preaching",
+      "to_era": 6,
+      "confidence": "Documented",
+      "note": "In 1440 Pope Eugenius IV wrote of a hermitage in Spain where Franciscan friars lived. He said they lived under the observance of the Rule of blessed Francis. In 1438 he had confirmed Bernardino of Siena as head of the order's Observant houses in Italy. That letter says the houses were set up 'under the holy name of observance'.",
+      "outcome_now": null,
+      "sources": [
+        {
+          "index": 0,
+          "kind": "primary",
+          "work": "Eugenius IV, letter to the abbot of Santa María de Carracedo, Florence, 28 August 1440, on the hermitage at Caboca de Alva, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 485",
+          "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+          "lines": "42614-42616",
+          "locus": "no. 485",
+          "quote": "in quo plures ex fratribus Minoribus sub observan- tia regulae beati Francisci degunt pro praesenti,"
+        },
+        {
+          "index": 1,
+          "kind": "primary",
+          "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+          "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+          "lines": "34650-34653",
+          "locus": "no. 385",
+          "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,"
+        }
+      ]
+    }
+  ]
+}
