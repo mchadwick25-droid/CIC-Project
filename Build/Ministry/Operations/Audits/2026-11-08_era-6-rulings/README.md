@@ -20,7 +20,7 @@ Mark ruled on the seven questions the era 6 links pass logged (`Build/Ministry/F
 4. **Review round 2** (separate Opus agent, targeted recheck): `Opus_Review_Round2_TargetedRecheck.json`. Revise: 1 substantial (Monte Cassino 1944 is a guarded fact), 1 minor (the editors' twin-bull note added as a source on the Observants link).
 5. **Revision** (by script, as written): `Revision_Round2.json`.
 6. **Merge with main**: era 7 (data release 12) and other work merged first. The census was rebuilt from main's and every record applied again. One revision change (the 1552 schism summary's readability) was superseded by era 7's own rewrite of that field, which meets the reading target.
-7. **Review round 3** (separate Opus agent, targeted recheck): `Opus_Review_Round3_TargetedRecheck.json`.
+7. **Review round 3** (separate Opus agent, targeted recheck): `Opus_Review_Round3_TargetedRecheck.json`. Revise: 1 substantial (R3-01), from the merge: era 7's schism summary leaned on "the Hakkari mountains" again. The cap was reached with it open; Mark ruled to apply the reviewer's sentence as written, with no fourth round (Decision-Log, cap ruling, 2026-11-08).
 
 ## Checks
 

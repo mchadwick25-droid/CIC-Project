@@ -470,3 +470,10 @@ a time, each shown with three options and a recommendation. He took the recommen
    One paid re-voicing batch runs after the era 9 links pass, sample first and approved by ear,
    settings passed and printed. Why: no page plays corrected errors, and re-voicing is paid for
    once. Shown with: re-voice eras 5 and 6 now; leave the recordings until the end.
+
+**Cap ruling (2026-11-08, Mark: "a").** The era 6 rulings work reached its three-round review cap
+with one substantial finding open (round 3, R3-01): era 7's rewrite of the 1552 schism's summary,
+merged during review, said the story "grows out of the Church of the East of Timur's age and the
+Hakkari mountains", the reading ruling 1 set aside. The reviewer's own replacement sentence ("The
+story grows out of the Church of the East after Timur.") is applied word for word; no fourth round.
+File: `Build/Ministry/Operations/Audits/2026-11-08_era-6-rulings/Opus_Review_Round3_TargetedRecheck.json`.
