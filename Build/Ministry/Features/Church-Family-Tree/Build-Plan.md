@@ -86,8 +86,9 @@ applied to every shared file, not only the census.
 | Era 6 rulings | Mark's seven rulings on the era 6 questions carried out; data release 18 | none | in review |
 | P2-E10 | Era 10 re-run as history, 1906 to c. 2010 (change order, 2026-11-08): Step 0 V2.0 and three review rounds | Mark's era 10 gate (https://claude.ai/artifact/GFC5yzuc4wHdChbF2CLFKw) | merged; awaiting Mark's ruling; census unchanged until then |
 | P2-L10 | Links, era 10 | Mark's era 10 gate ruling (P2-E10) | deferred (Mark, 2026-11-08) |
-| P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552) |
-| P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | in review |
+| P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
+| P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |
+| P2-L11c | Dominant links on two or three old accounts; data release 20 | none (3-round cap) | in review |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
 | P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |

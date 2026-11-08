@@ -590,3 +590,22 @@ Atlas World Map Decision-Log entry of the same date ("Change order: era 10 becom
 It also amends this log's entry "The link work covers eras 1 to 9" (2026-11-08) in one respect:
 era 10's traditions are now re-surveyed as history first, and P2-L10 waits for Mark's gate ruling
 on that re-survey. The census is unchanged until then.
+
+## 2026-11-08 — Dominant links on two or three old accounts
+
+**Decided (Mark: "add the modern studies for the eight links", then "a").** Eight links graded
+Dominant Modern Reconstruction rested on two or three accounts written before 1930, which ruling 1
+of "Whole-set rulings" (one account) did not reach. Two have a modern study already cited in the
+repo for the same events, and it is added: Skinner (2009) on the 1794 Ruthenian reunion campaign,
+Frazee (1983) on the Avedik affair. The other six have none anywhere in the repo, so they become
+Inferential-Thin and their wanted studies are listed. Options shown: Thin and list the wanted
+studies (recommended); cite modern studies from outside the repo, unread; leave them Dominant.
+Applied as P2-L11c, data release 20. Review added one more link of the same kind (Coptic Egypt to Makuria, on Griffith 1913 alone), also made Inferential-Thin.
+
+## 2026-11-08 — The whole-set review is approved to proceed
+
+**Decided (Mark: "approve the full review").** P2-L11, the whole-set review of the links for eras
+1 to 9, is approved to proceed, together with its two follow-ups: the five whole-set rulings
+(P2-L11b, data release 19) and the Dominant links on old accounts (P2-L11c, data release 20). This
+is the work's own approval, not a closure: nothing closes before Phase Five boundary testing and
+the full-system review. Era 10's links wait for Mark's era 10 gate (P2-E10, then P2-L10).
