@@ -627,3 +627,18 @@ it, never by deleting it.
 110. **Possible links that no text names, era 9 part 2 (2026-11-08).** Not drafted: the Urmia
     Assyrians' 1896 submission to the Russian church (Wigram 1929); John Thomas's years in the
     Stone-Campbell movement; Russell and the Adventists; Eddy and Quimby.
+111. **"No Armenian Apostolic movement for 1650-1815" and "The Armenian line after the new
+    movement" are closed (2026-11-08).** Mark ruled to add the movement. `armenian-apostolic-church-era-8`
+    (VII.24a) now carries the Apostolic line from New Julfa to the Zartonk, and era 7's New Julfa
+    link to the Mekhitarist movement is retired with a replacement. Audit:
+    `Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/`.
+112. **The Armenian Apostolic movement's library bucket (2026-11-08).** `cic/corpus-map/` has no
+    `armenian-apostolic-church-era-8.yaml`. The Apostolic works now under
+    `armenian-christianity-era-8` (Ormanian, Chamich's Part VII, Zakaria and Abraham of Crete,
+    Rycaut) belong with it, through their `_staging` files. Abraham of Crete's row also says he
+    attended Nadir Shah's accession; in his own chapters 43-44 he left before it and heard of it
+    afterward. For the Library thread.
+113. **The new movement and the map's own list (2026-11-08).** Like the eight movements added since
+    the map was built, `armenian-apostolic-church-era-8` has a tree page but no record in the map's
+    embedded movement list, which `atlas-sync` only updates and never adds to. For the map's owner.
+

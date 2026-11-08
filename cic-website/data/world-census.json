@@ -3,7 +3,7 @@
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 300,
+  "totalEntries": 301,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
@@ -14,14 +14,14 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 219,
+   "Pre-Survey Candidate": 220,
    "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1
   },
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 15,
+   "number": 16,
    "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -18102,48 +18102,6 @@
    "verification_state": "verified-direct"
   },
   {
-   "id": "armenian-christianity-new-julfa--armenian-christianity-era-8",
-   "from": "armenian-christianity-new-julfa",
-   "to": "armenian-christianity-era-8",
-   "type": "continued as",
-   "confidence": "Widely Accepted",
-   "note": "Zakaria, a deacon who wrote in the 1600s, says Jacob of Julfa came after Catholicos Philippos as head of the church. The historian Ormanian dates Jacob's rule from 1655 to 1680. He then follows the line of chief patriarchs on through the 1700s.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Zakaria of Kanaker, Mémoires historiques sur les Sofis, French translation by M.-F. Brosset, Collection d'historiens arméniens, vol. 2 (St Petersburg, 1876)",
-     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
-     "lines": "3214-3216",
-     "locus": "the saints of Kanaker: Philippos",
-     "quote": "Jacob de Djoulfa, qui succéda au catholicos Philippos, emmena au saint Edchmiadzin l’évêque son homonyme",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)",
-     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
-     "lines": "4373-4374",
-     "locus": "ch. XV",
-     "quote": "Hacob IV. of Djoulfa (1655-1680), who suc ceeded him, followed in the same path.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)",
-     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
-     "lines": "4578-4581",
-     "locus": "ch. XV",
-     "quote": "The ten supreme patriarchs who succeeded Yeghiazar of Aintab, from Nahapet of Edessa (1691-1705) to Hacob V. of Schamakhi (1759-1763),",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
    "from": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "to": "orthodoxy-under-the-ottomans-1650-1821",
@@ -23713,6 +23671,361 @@
      "locus": null,
      "quote": null,
      "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-christianity-new-julfa--armenian-apostolic-church-era-8",
+   "from": "armenian-christianity-new-julfa",
+   "to": "armenian-apostolic-church-era-8",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The line of catholicoi at Etchmiadzin ran on without a break. Philippos held the see until 1655, and Hacob IV of Julfa followed him and carried on his work. Zakaria of Kanaker, a deacon of the time, shows Hacob at the see and records his death in Constantinople in 1680.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zakaria of Kanaker, Historical Memoirs (17th century), French trans. Brosset (1876)",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "6533-6534",
+     "locus": "part II, ch. XLVI, death of the catholicos Iacob",
+     "quote": "Le grand pontife Iacob étant retourné de Qazouïn à son siége du S. Edch- miadzin,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zakaria of Kanaker, Historical Memoirs (17th century), French trans. Brosset (1876)",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "6546-6547",
+     "locus": "part II, ch. XLVI",
+     "quote": "vint à Constantinople, où il paya encore quelque chose, après quoi il tomba malade et passa dans le Seigneur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4373-4374",
+     "locus": "ch. XVII, A Period of Awakening, p. 82",
+     "quote": "Hacob IV. of Djoulfa (1655-1680), who suc ceeded him, followed in the same path.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-apostolic-church-era-8--armenian-christianity-zartonk",
+   "from": "armenian-apostolic-church-era-8",
+   "to": "armenian-christianity-zartonk",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The same church carried on past 1815 under the same head. Ephraim, who took his seat at Etchmiadzin in 1810, still led it in 1817, when he backed a Russian society's plan to print the Armenian Bible. In Constantinople, talks with the Catholic party begun in 1810 started again in 1816.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johannes Avdall, continuation to Chamich's History of Armenia (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "24081",
+     "locus": "ch. XXX, the year 1810",
+     "quote": "In 1810 Ephraim proceeded to Etchmiatchin",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johannes Avdall, continuation to Chamich's History of Armenia (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "24694-24695",
+     "locus": "ch. XXXI, the Bible Society of Russia, the year 1817",
+     "quote": "the Society communicated their intention to his holiness Ephraim,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4677-4680",
+     "locus": "ch. XIX, A Survey of the Nineteenth Century, p. 90",
+     "quote": "Later on another took its place (1816), for the purpose of bringing about a con ference between the theologians of the two dis sentient confessions of faith.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-apostolic-church-era-8--armenian-christianity-era-8",
+   "from": "armenian-apostolic-church-era-8",
+   "to": "armenian-christianity-era-8",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "Two Armenian bishops, one of them Abraham Ardzivian, went over to Rome. Malachia Ormanian, a later Armenian patriarch, calls this a defection. In 1742 the pope approved a new Catholic see with Abraham at its head. A Catholic history says the other bishops of Sis met and said his election did not count. They chose a rival. As late as 1783, a Catholic Armenian wrote that his people still could not have churches of their own in Ottoman lands.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni de Serpos, Dissertazione polemico-critica sopra due dubbj di coscienza concernenti gli Armeni cattolici (Venice, 1783)",
+     "file": "cic/texts/serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt",
+     "lines": "375-379",
+     "locus": "opening of the argument, p. 3",
+     "quote": "gli Armeni Cattolici di Oliente nè in Costantinopoli, nè in alcun’ altra parte o Cit- tk deli’ Impero Ottomano non anno còlia permissio- ne del Sovrano, riè tampòco aver possono Chiese sepa- rate di rito Cattolica,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4469-4472",
+     "locus": "ch. XVIII, p. 85",
+     "quote": "The bishops Melcon Tasbasian and Abraham Ardzivian openly declared in its favour at these places. This defection soon brought on itself the coercive measures of the patriarchate.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4526-4527",
+     "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 86",
+     "quote": "The first incumbent was the bishop Abraham Ardzivian (1740),",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4533-4536",
+     "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 86",
+     "quote": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic patriarchate which was officially subject to the Roman Curia (1742).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+     "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "lines": "10808-10813",
+     "locus": "p. 292, on the Armeno-Catholic pontificate",
+     "quote": "For the bishops of the pon- tificate who had not taken part in his elec- tion finding that it had only been sup- ported by few of the bishops, held an as- sembly and declaring it invalid, elected one Michael.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-apostolic-church-era-8--armenian-christianity-era-8--2",
+   "from": "armenian-apostolic-church-era-8",
+   "to": "armenian-christianity-era-8",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The patriarch's side in the capital moved against Armenians who had joined Rome. Malachia Ormanian, a later patriarch, writes that it got the Ottoman government to act against them. Catholic writers say the patriarch John gave the priest Gomidas up to the Turks. In 1783 a Catholic Armenian wrote that by the sultan's law his people had to obey the patriarch. The same law let him punish them hard if they did not.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni de Serpos, Dissertazione polemico-critica sopra due dubbj di coscienza concernenti gli Armeni cattolici (Venice, 1783)",
+     "file": "cic/texts/serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt",
+     "lines": "384-387",
+     "locus": "opening of the argument, p. 3",
+     "quote": "che 'per le sanzio- ni Sovrane sono forzati ad ubbidir somtriessamente al Patriarca :ddla Nazione residente in Costantinopoli, autorizzato perciò ànchè' ad in- fligger, pene ^vissime contra i- renitenti ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4450-4453",
+     "locus": "ch. XVIII, A Survey of the Eighteenth Century, pp. 84-85",
+     "quote": "Such were the origin and the meaning of the measures which were instigated by the patri archate and imposed by the government against those Armenians who had become Catholics ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+     "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "lines": "10106-10111",
+     "locus": "p. 273, on Der Gomidas",
+     "quote": "excited the resentment of John the Patriarch against him, who thrust him into the hands of the Turks, charging him as being a follower of the Franks or Europeans and an enemy to the State.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21449-21453",
+     "locus": "ch. XXIII, the pontificates of Alexander I and Astwazatur",
+     "quote": "who, incurring the anger of the patriarch Johannes, was martyred’ by means of the latter, who could urge nothing more against him than that he openly professed a respect for the Roman Catholic persuasion.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "By the sultan's law, Armenians who joined Rome still had to obey the patriarch, and he could punish them hard if they did not."
+  },
+  {
+   "id": "armenian-apostolic-church-era-8--catholic-church-ancien-regime",
+   "from": "armenian-apostolic-church-era-8",
+   "to": "catholic-church-ancien-regime",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Before he became head of the church, Alexander of Julfa wrote a book against the pope's power and the Council of Chalcedon. Once elected, he sent the pope a respectful letter in the nation's name. Yet a Jesuit report of the time says he waged a secret war on the Catholics. Later Simeon of Erevan, who held the same seat, wrote a book that poked fun at what Rome taught.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses, Mémoires du Levant, tome III (Paris, 1780): the Jesuit memoirs on Armenia",
+     "file": "cic/texts/lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt",
+     "lines": "3366-3368",
+     "locus": "ch. on the patriarchs, after Nahabiet (d. 1706)",
+     "quote": "Alexandre , Evêque d’Ifpaham , lui fuccéda : il fit une guerre fecrete^aux Catholiques ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "23318-23323",
+     "locus": "ch. XXIX, the pontiff Simon",
+     "quote": "He wrote a work called Pastavichar (or. the payer of debts), in which he hazarded a few satirical strokes against the Roman Ca- tholic persuasion.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21372-21376",
+     "locus": "ch. XXIII, the pontificates of Alexander I and Astwazatur",
+     "quote": "Alexander had distinguished himself asa violent opposer of all concessions to the Pope; and had written a book expressly to prove the nullity of his power, and the absurdity of being bound by the council of Chalcedon.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21367-21369",
+     "locus": "ch. XXIII, the pontificates of Alexander I and Astwazatur",
+     "quote": "act after this event was to address the Pope of Rome, in the name of the whole nation, to signify their entire obedience to his church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+     "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "lines": "10057-10060",
+     "locus": "p. 272, Alexander of Julpha",
+     "quote": "his first act was to ad- dress, in the name of the whole nation, a respectful letter to the Pope notifying his election to the pontificate.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+   "from": "armenian-christianity-era-8",
+   "to": "armenian-apostolic-church-era-8",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Malachia Ormanian, a later patriarch, writes that the Catholics, in turn, used the French envoys to coerce the patriarch. Catholic writers tell what happened to Avedik, who held that seat. He had fined a man on the French envoy's staff for no good reason. The envoy complained, and so did thirty leading Armenians. Then the vizier had Avedik beaten, stripped of his robes and sent off to an island.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21303-21310",
+     "locus": "ch. XXII, the patriarch Avietick",
+     "quote": "having presumed to levy a fine without cause upon an Armenian attached to the suite of the French ambassador, the latter complained | of ‘him to the government.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21311-21314",
+     "locus": "ch. XXII, the patriarch Avietick",
+     "quote": "thirty of the most considerable amongst the Armenians preferred a complaint to the Vizier, ‘charging Avietick with an abuse of power to an extraordinary extent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+     "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+     "lines": "21314-21319",
+     "locus": "ch. XXII, the patriarch Avietick",
+     "quote": "The Vizier upon these two complaints summoned the patriarch before him, and asking him how he durst presume to annoy the French ambassador by persecuting one of his suite, ordered him to be bastinadoed, then to be stripped of his patriarchal robes,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+     "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "lines": "10006-10009",
+     "locus": "pp. 270-271, on the patriarch Avedik",
+     "quote": "ordered him to be bastinadoed, then to be stripped of his patriarchal robes and to be banished to the island of Tenedos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4473-4475",
+     "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 85",
+     "quote": "The Catholics, in their turn, took advantage of the influence of the French ambassadors to coerce the patriarchate.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "catholic-church-ancien-regime--armenian-apostolic-church-era-8",
+   "from": "catholic-church-ancien-regime",
+   "to": "armenian-apostolic-church-era-8",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Jesuit missionaries wrote that the Armenians' chief error was to confess only one nature in Christ. They called it the root of their schism. Missionaries from Rome, led by Father Clement Galano, worked in the sultan's capital to win Armenians to their side.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses, Mémoires du Levant, tome III (Paris, 1780): the Jesuit memoirs on Armenia",
+     "file": "cic/texts/lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt",
+     "lines": "4845-4848",
+     "locus": "chapter 'Des erreurs des Arméniens'",
+     "quote": "L’Erreur capitale des Arméniens <? & qui eft l’origine & le fondement de leur fchlfme, eft de ne reconnoître qu’une feule, nature en Jefus-Chrift.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4377-4379",
+     "locus": "ch. XVII, A Period of Awakening, p. 82",
+     "quote": "Missionaries from Rome, under the direction of father Clement Galano, had come to win over to their cause a body of Armenians.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -44377,7 +44690,7 @@
    "relationsSummary": "In 1604-05 Shah Abbas forced the Armenians of Julfa and much of eastern Armenia into Persia. New Julfa grew up across the river from Isfahan. Churches rose there within a few years, and its traders paid for the church. The heads of the church at Etchmiadzin carried on under Safavid rule.",
    "why": "In 1604-05, Shah Abbas I deported the population of Julfa and much of eastern Armenia into Persia as part of a scorched-earth campaign, and many died on the road. Survivors resettled across the river from Isfahan in New Julfa, where Armenian merchants built a trading network stretching from Amsterdam to Manila and used it to fund a new cathedral, the Vank, while the mother see at Etchmiadzin worked to rebuild itself under Safavid rule.",
    "entry": null,
-   "continuesAs": "armenian-christianity-era-8",
+   "continuesAs": "armenian-apostolic-church-era-8",
    "streams": [
     "oriental-orthodox"
    ],
@@ -48199,11 +48512,82 @@
    ]
   },
   {
+   "id": "armenian-apostolic-church-era-8",
+   "atlasId": "VII.24a",
+   "era": 8,
+   "name": "Armenian Apostolic Church — Etchmiadzin and Constantinople",
+   "shortName": "Armenian Apostolic",
+   "informalName": "The Church of the Mother See and the Capital",
+   "dates": "1650-1815",
+   "start": 1650,
+   "end": 1815,
+   "region": "Etchmiadzin, Constantinople, Isfahan (New Julfa)",
+   "placeLabel": "Etchmiadzin · Constantinople and beyond",
+   "modernCountries": [
+    {
+     "country": "Armenia",
+     "countryId": "Q399",
+     "place": "Etchmiadzin",
+     "placeId": "Q1294648",
+     "pleiadesId": "327730568"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Caucasus",
+    "Asia Minor"
+   ],
+   "lane": "2 Caucasus",
+   "laneLabel": "Caucasus",
+   "laneOrder": 2,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for later study. Not yet reviewed.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin to moderate. The texts at hand are one catholicos's own story of 1736, a deacon's chronicle up to the 1690s, and Jesuit and Catholic Armenian writings of the time. Later histories come from both sides. No records of the see at Etchmiadzin or of the patriarchate in the capital are yet in hand.",
+   "floorNote": "No question — this is one of the ancient Oriental Orthodox churches. It differs from the churches of Chalcedon on how to speak of Christ as God and man, not on whether he is God.",
+   "relationsSummary": "The head of the church, the catholicos, sat at Etchmiadzin under Persian rule. A patriarch in the sultan's capital led the Armenians of the Ottoman lands. By the sultan's law, even those who joined Rome had to obey him. Catholic missions won over a party of Armenians, and the patriarch fought back hard. The Catholic party used the French ambassadors against him in turn. In 1742 the pope approved a patriarch of their own for the Armenian Catholics. Late in the century, Armenian leaders began to look to Russia.",
+   "why": "For a century and a half, the main Armenian church was led from two places. Its supreme head, the catholicos, lived at Etchmiadzin, and the Persian court had to approve each election. In the Ottoman capital a patriarch led a strong Armenian community, and that city became the center of the nation. This church kept most Armenians in its fold while Rome's missions worked to win them. It also renewed itself, with new schools, a printing press and a turn toward Russia.",
+   "entry": null,
+   "continuesAs": "armenian-christianity-zartonk",
+   "streams": [
+    "oriental-orthodox"
+   ],
+   "longDescription": "Two seats led the Armenian Apostolic Church in these years. The catholicos lived at Etchmiadzin, in lands ruled from Persia. The Persian court had to approve his election. A patriarch led the Armenians of Constantinople, and that city became the center of the nation. Catholic missionaries worked hard to win Armenians to Rome. One of their party once seized the patriarch's seat, but the people drove him out. At the same time a rival bishop had himself proclaimed supreme patriarch of the sultan's lands, against Etchmiadzin. In 1664 the catholicos Hacob IV went to Constantinople to restore order. He died there on a second journey in 1680. The quarrel grew bitter. The patriarch's side had the Ottoman government act against Armenians who had become Catholics. The Catholic side, for its part, used the French ambassadors against the patriarch. In 1703 the patriarch Avedik was put in prison when the French ambassador stepped in. Later he was carried off to France, where he died. Catholic writers record that in 1707 the patriarch John handed the priest Gomidas to the Turks, accusing him of following the Franks. \"I am a Christian and a follower of St. Gregory the Illuminator, Armenian by birth,\" Gomidas told them. He was beheaded. In 1742 the pope approved a separate Armenian Catholic patriarchate. Even so, a Catholic Armenian wrote in 1783 that his people still had to obey the patriarch. They still went to his churches to baptize, marry and bury. In 1722 Afghan armies reached Isfahan, and the Armenians of New Julfa had to ransom their town more than once. In 1736 the catholicos Abraham of Crete went to Nadir's camp on the Mughan plain, where an assembly asked Nadir to rule Persia. Abraham was one of three men chosen to speak for the Armenians, and he came home with seven written orders he had asked for. From 1763 to 1780 the catholicos Simeon of Erevan founded a college, brought in printing and built a paper mill. He also opened the church's first ties with the Russian empire. As Persian rule grew harsher, Armenians began to look to the czar. In 1810 a new catholicos, Ephraim, came to Etchmiadzin under a guard of Russian soldiers.",
+   "teaser": "Etchmiadzin and Constantinople, 1650 to 1815 — the main Armenian church. It was led from a holy see under Persian rule and from the sultan's capital, and it held its people while Rome worked to win them.",
+   "voices": [
+    "Hacob IV of Julfa — head of the church from 1655 to 1680, who went to the sultan's capital in 1664 to restore order",
+    "Gomidas — a priest put to death in 1707; Catholic writers say his own patriarch turned him over to the Turks",
+    "Abraham of Crete — catholicos from 1734 to 1737, who wrote his own account of Nadir Shah's rise to the throne in 1736",
+    "Simeon of Erevan — head of the church from 1763 to 1780, who set up a school, a press and the first ties with Russia",
+    "Zakaria Pokouzian — patriarch in the sultan's capital from 1773 to 1799, who taught his priests himself and put them in charge of schools"
+   ],
+   "legacy": "Much of what this church built in these years lasted. Simeon of Erevan's new church calendar met protest at first. Within a short time, every Armenian church used it. Pupils of the patriarch Zakaria founded the college at Armash, which gave the church many later patriarchs and bishops. In the next century, elected councils came to share in running the patriarchate in the capital. In 1860 a written Armenian statute was drawn up to set the bounds of each council's work.",
+   "experienceToday": [
+    {
+     "text": "Etchmiadzin Cathedral, Vagharshapat, Armenia — the mother church of the Armenian Apostolic Church and a UNESCO World Heritage site",
+     "url": "https://en.wikipedia.org/wiki/Etchmiadzin_Cathedral"
+    }
+   ],
+   "documentedStories": []
+  },
+  {
    "id": "armenian-christianity-era-8",
    "atlasId": "VII.24",
    "era": 8,
    "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
-   "shortName": "Armenia 18th c.",
+   "shortName": "Armenian Catholics",
    "informalName": "The Church of San Lazzaro and Bzommar",
    "dates": "c. 1700-1815",
    "start": 1700,
@@ -48244,17 +48628,16 @@
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Moderate: Mekhitarist scholarship is itself part of the source base, built on San Lazzaro's press and manuscript collection; the 1742 patriarchate's own records; and documentation of millet politics in the Ottoman capital.",
-   "floorNote": "Two Armenian churches appear together here: the ancient Armenian Apostolic Church, which stands outside the Chalcedonian definition of Christ's two natures, and the Armenian Catholic line established in 1742.",
+   "floorNote": "No question — the Armenian Catholic line, set up in 1742, is an Eastern Catholic church in union with Rome.",
    "relationsSummary": "Mekhitar of Sebaste founded his congregation in 1701 and settled it on San Lazzaro in Venice in 1717, where it became the diaspora's scholarly engine. Inside the Ottoman millet system, tension grew between the Armenian Apostolic Church and Armenians in communion with Rome. In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in 1750.",
    "why": "In 1701 Mekhitar of Sebaste founded a congregation devoted to gathering, editing, and printing the Armenian inheritance for a people scattered across empires, and settled it on the island of San Lazzaro in Venice in 1717, where its press and library of thousands of manuscripts effectively created modern Armenian lexicography. Meanwhile, inside the Ottoman capital, Armenians in communion with Rome grew numerous enough that Benedict XIV confirmed a separate Armenian Catholic patriarch in 1742, seated at Bzommar in Mount Lebanon from 1750.",
    "entry": null,
-   "continuesAs": "armenian-christianity-zartonk",
+   "continuesAs": null,
    "streams": [
-    "oriental-orthodox",
     "eastern-catholic-uniate"
    ],
    "longDescription": "Mekhitar of Sebaste founded a religious congregation in 1701 with a purpose as much scholarly as devotional. To gather, edit and print the Armenian inheritance for a people scattered across empires. Driven out of Ottoman territory, he and his monks were given the small island of San Lazzaro in the Venetian lagoon in 1717, and turned it into one of the great centers of Armenian learning — a press, a library of thousands of manuscripts, and the dictionaries and translations that effectively created modern Armenian lexicography. Meanwhile, inside the Ottoman capital, the growing number of Armenians in communion with Rome created a problem the millet system had no room for. In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in Mount Lebanon in 1750. The Armenian Apostolic Church remained overwhelmingly the larger body, but from that point there were two Armenian churches, and the argument between them was fought out in the politics of Constantinople.",
-   "teaser": "Constantinople, Venice and Mount Lebanon, about 1700 to 1815 — a scattered people's church that built its scholarly engine on a Venetian island and acquired a second hierarchy it had not asked for.",
+   "teaser": "Constantinople, Venice and Mount Lebanon, about 1700 to 1815 — the Armenians who joined Rome. They built a home of learning on an island at Venice and, in 1742, got a patriarch of their own.",
    "voices": [
     "Mekhitar of Sebaste — founded his congregation in 1701 and settled it on the island of San Lazzaro in Venice in 1717",
     "Abraham Petros I Ardzivian — confirmed by Benedict XIV in 1742 as the first Armenian Catholic patriarch of Cilicia",
@@ -62583,6 +62966,13 @@
    ]
   }
  ],
- "retiredLinks": [],
+ "retiredLinks": [
+  {
+   "id": "armenian-christianity-new-julfa--armenian-christianity-era-8",
+   "date": "2026-11-08",
+   "reason": "Its evidence is the line of Apostolic catholicoi after 1650, which now belongs to the Armenian Apostolic Church, 1650-1815. The Mekhitarist and Armenian Catholic movement does not continue the New Julfa church.",
+   "replacedBy": "armenian-christianity-new-julfa--armenian-apostolic-church-era-8"
+  }
+ ],
  "retiredMovements": []
 }
