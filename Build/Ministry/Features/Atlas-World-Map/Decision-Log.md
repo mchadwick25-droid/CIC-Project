@@ -13,6 +13,41 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Change order: evidence for recent movements (era 10)
+
+**Decided (Mark, in this thread: "yes as the writings are current or recent history so its more
+reliable than 2000 years ago yes on 3"; and, on the same point: "we have to be able to tell an
+accurate story, but use different criteria").** The four marks of a defined movement stay as ruled
+earlier today: a recognizable beginning, identifiable carriers, a name or self-understanding as a
+movement, and recognition as a movement in a study. What changes is what counts as evidence for a
+movement whose sources fall after the Library's public-domain reach (roughly 1930).
+
+- **A movement's own dated founding texts** may show its beginning, its carriers and its name: a
+  charter, a first statement of purpose, the first issue of its magazine, its first conference
+  report. Each is cited by title, date and publisher.
+- **A standard scholarly reference work** may show that historians recognize it as a movement.
+  It need not be vendored in the Library. It is cited by author, title, publisher and year.
+- **Both together** are required for a "defined movement" verdict. Each item carries its
+  verification state: verified when its bibliographic details were confirmed in this run, and
+  [S] otherwise. An [S] item never counts as verified. Claims are graded with the usual five
+  `formation_confidence` grades. The story each entry tells must stay accurate: the criteria for
+  admitting evidence change, the bar for what an entry may claim does not.
+
+**What this amends.** The era 10 re-run brief of 2026-11-08, which allowed only vendored texts
+and secondary works the repo already cited. Under that rule 11 of the 14 movements left out at
+§4E of `CiC_Step0_Era10_V2_0.md` failed only because no source had ever been gathered for them.
+The never-invent rule is unchanged: no source, date, name or page enters without being found.
+
+**Heart reasoning.** Mark: recent movements left their own writings, and recent history is
+better documented than the ancient world, not worse. A rule built for the first centuries was
+quietly excluding the twentieth century's best-recorded movements.
+
+**Next action.** A sourcing pass on the 24 movement candidates and the four held drafts, re-tested
+under this rule, recorded as its own document beside the V2.0 record, with its own reviews. Then
+the gate page is updated. The census does not change until Mark rules.
+
+---
+
 ## 2026-11-08 — Change order: era 10 becomes history, 1906–2010
 
 **Decided (Mark, 2026-11-08: "lets make era 10 historical and go from 1905 to 2000"; "Living as

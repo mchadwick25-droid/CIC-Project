@@ -609,3 +609,13 @@ Applied as P2-L11c, data release 20. Review added one more link of the same kind
 (P2-L11b, data release 19) and the Dominant links on old accounts (P2-L11c, data release 20). This
 is the work's own approval, not a closure: nothing closes before Phase Five boundary testing and
 the full-system review. Era 10's links wait for Mark's era 10 gate (P2-E10, then P2-L10).
+## 2026-11-08 — Evidence for recent movements (change order)
+
+**Decided (Mark: "yes as the writings are current or recent history so its more reliable than 2000
+years ago yes on 3"; "we have to be able to tell an accurate story, but use different criteria").**
+A movement after about 1930 shows the four marks of a defined movement by two kinds of evidence
+together: its own dated founding texts (beginning, carriers, name) and a standard scholarly
+reference work that recognizes it as a movement. Neither needs to be vendored in the Library. Each
+is cited in full with its verification state, and [S] never counts as verified. This amends the era
+10 re-run brief, which allowed only vendored texts and works the repo already cited. Full entry:
+Atlas World Map Decision-Log, same date.
