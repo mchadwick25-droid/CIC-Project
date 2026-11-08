@@ -84,7 +84,10 @@ applied to every shared file, not only the census.
 | P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling); data release 16 | none (3-round cap) | in review |
 | P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14, part 2 (the other lanes) data release 15 | none | part 1 merged (#1545); part 2 in review |
 | Era 6 rulings | Mark's seven rulings on the era 6 questions carried out; data release 18 | none | in review |
-| P2-E10 | Era 10 re-run as history, 1906 to c. 2010 (change order, 2026-11-08): Step 0 V2.0 and three review rounds; the movements re-tested under the recent-movement evidence rule (Movements V1.0, two review rounds) | Mark's era 10 gate (https://claude.ai/artifact/GFC5yzuc4wHdChbF2CLFKw) | merged; awaiting Mark's ruling; census unchanged until then |
+| P2-E10 | Era 10 re-run as history, 1906 to c. 2010 (change order, 2026-11-08): Step 0 V2.0 and three review rounds; the movements re-tested under the recent-movement evidence rule (Movements V1.0, two review rounds) | Mark's era 10 gate (https://claude.ai/artifact/GFC5yzuc4wHdChbF2CLFKw) | ruled (Mark: "take every recommendation"; G-15 held); carried out as P2-E10a to c |
+| P2-E10a | Era 10 census pass: the ruled edits on the existing rows, IX.31 retired, Iglesia ni Cristo split; data release | none | in progress |
+| P2-E10b | Era 10 new rows (Anglican Communion, six movements) and named lines, drafted and reviewed | none (3-round cap) | todo |
+| P2-E10c | `kind` "cross-church movement" and its band; the method-page line; the era band text | Mark sees screenshots on the preview | todo |
 | P2-L10 | Links, era 10 | Mark's era 10 gate ruling (P2-E10) | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |

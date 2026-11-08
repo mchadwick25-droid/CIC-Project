@@ -619,3 +619,12 @@ reference work that recognizes it as a movement. Neither needs to be vendored in
 is cited in full with its verification state, and [S] never counts as verified. This amends the era
 10 re-run brief, which allowed only vendored texts and works the repo already cited. Full entry:
 Atlas World Map Decision-Log, same date.
+
+## 2026-11-08 — Era 10 gate: every recommendation taken
+
+**Decided (Mark: "take every recommendation").** All 79 gate questions are ruled by their stated
+recommendations. The one exception is G-15: IX.50 (the Christian Right) has no recommendation and
+stays held for Mark's direct answer. G-49 was withdrawn. Full entry, with what the ruling does:
+Atlas World Map Decision-Log, "ERA 10 GATE", same date. The work runs as P2-E10a (the census pass
+on the existing rows), P2-E10b (new rows and named lines) and P2-E10c (the `kind` field and its
+drawing, the method-page line, the era band). Then P2-L10 and P2-V.
