@@ -1,0 +1,1255 @@
+{
+ "group": "A",
+ "movements": [
+  "the-english-mystics-and-devout",
+  "rhineland-mysticism-and-the-friends-of-god",
+  "devotio-moderna-brethren-of-the-common-life",
+  "late-medieval-lay-parish-piety",
+  "inquisition-record-sects-adamites-and-kin"
+ ],
+ "links": [
+  {
+   "id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "rhineland-mysticism-and-the-friends-of-god",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Martin Luther printed the Theologia Deutsch at Wittenberg, part of it in 1516 and a fuller text in 1518. In his preface he wrote that, next to the Bible and Augustine, no book had taught him more of God, Christ and man. In 1521 he cited Tauler on purgatory.",
+   "outcome_considered": "Luther printed and praised the book, which shows a text taken up by the other side; no source on this link shows a council, a split or a changed rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, preface to the Theologia Deutsch, in Susanna Winkworth's English translation, Theologia Germanica (1893 printing)",
+     "file": "cic/texts/theologia-germanica_theologia-germanica_winkworth1893.txt",
+     "lines": "453-458",
+     "locus": "Historical Introduction, pp. xxi, Luther's preface (signed 'Dr. Martin Luther, Augustinian of Wittemberg')",
+     "quote": "next to the Bible and St. Augustine, no book hath ever come into my hands, whence I have learnt, or would wish to learn more of what God, and Christ, and man and all things are;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, An Argument in Defense of All the Articles Wrongly Condemned in the Roman Bull (1521), art. 37, in Works of Martin Luther, Philadelphia Edition, vol. 3 (1930)",
+     "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+     "lines": "6011-6012",
+     "locus": "Defense of All the Articles, art. 37 (on purgatory)",
+     "quote": "Tauler® has much to say about it,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franz Pfeiffer, introduction to Theologia deutsch (1851)",
+     "file": "cic/texts/theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt",
+     "lines": "240-241",
+     "locus": "Einleitung, on the early printings",
+     "quote": "Anfänglich erſchien bloß ein Theil desſelben (ungeführ ein Viertheil des Ganzen) zu Wittenberg bei Joh. Grünenberg 1516.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franz Pfeiffer, introduction to Theologia deutsch (1851)",
+     "file": "cic/texts/theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt",
+     "lines": "261-262",
+     "locus": "Einleitung, on the 1518 edition",
+     "quote": "Dieſe erſchien im Jahre 1518 mit einer neuen, ſeitdem in den meiſten Drucken wiederholten Vorrede Luthers,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "rhineland relationsSummary ('(via Theologia Deutsch) Luther'); why ('a book Martin Luther printed twice and said had taught him more about God than almost anything but the Bible and Augustine'); legacy ('the Theologia Deutsch reached Martin Luther, who printed it twice', and Tauler read by Protestants)",
+   "wants": [],
+   "drafter_flags": [
+    "The page that opens Winkworth's Historical Introduction (p. xix) is missing from the scan, so the start of Luther's preface is not in the file. The preface is the one Pfeiffer (lines 261-266) says Luther added in 1518; the note does not give its year.",
+    "The Luther Works vol. 3 quote keeps the OCR footnote mark '®' after 'Tauler'.",
+    "Pfeiffer's long s is the character U+017F, kept in the quotes."
+   ],
+   "change_reason": "New link. The Rhineland text names Luther's reception of the Theologia Deutsch three times; Luther's own preface and his 1521 citation of Tauler document it."
+  },
+  {
+   "id": "rhineland-mysticism-and-the-friends-of-god--devotio-moderna-brethren-of-the-common-life",
+   "action": "new",
+   "from": "rhineland-mysticism-and-the-friends-of-god",
+   "to": "devotio-moderna-brethren-of-the-common-life",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Johannes Busch kept the chronicle of the Windesheim canons. He tells how their prior, at the council of Constance, gladly visited the cell of the friar who wrote the Clock of Eternal Wisdom. The chronicle's 1886 editor names that friar as Henry Suso. A 1902 editor of Thomas a Kempis lists Suso among the writers Thomas took sayings from.",
+   "outcome_considered": "The sources show reverence for Suso and borrowing from his books, not a council, a split or a changed rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johannes Busch, Chronicon Windeshemense, ed. Karl Grube (1886)",
+     "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+     "lines": "20491-20493",
+     "locus": "Chronicon Windeshemense, on the prior of Windesheim's return from the Council of Constance",
+     "quote": "quanto affectu cellam illius devoti tratris ordinis predicatorum, qui Horologium eteiiie sapiencic instinctu sancti spiritus ediderat",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Karl Grube, note to Busch, Chronicon Windeshemense (1886)",
+     "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+     "lines": "20526",
+     "locus": "editor's footnote to the same passage",
+     "quote": "Es ist hiermit der 13G5 verstorbene Heinrich Suso gemeint.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Joseph Pohl, ed., Thomae Hemerken a Kempis Opera omnia, vol. 2 (1902), list of authors Thomas drew on",
+     "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+     "lines": "24441-24442",
+     "locus": "editor's index of sources",
+     "quote": "auctorum, e quibus Thomas sive sententias sive dicta mutuatus est,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Joseph Pohl, ed., Thomae Hemerken a Kempis Opera omnia, vol. 2 (1902), list of authors Thomas drew on",
+     "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+     "lines": "24449",
+     "locus": "editor's index of sources",
+     "quote": "lohannes Schoonhoven, Henricus Suso, Wilhelmus Vomken,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "rhineland relationsSummary ('feeds Devotio Moderna'); legacy ('The Devotio Moderna in the Low Countries grew in its wake', rewritten in prose change 4 as 'honored Henry Suso and drew on his books')",
+   "wants": [],
+   "drafter_flags": [
+    "OCR errors kept in the Busch quote: 'tratris' (fratris), 'eteiiie sapiencic' (eterne sapiencie). Grube's note has '13G5' for 1365; the note gives no date.",
+    "Pohl's edition is credited from the file header; check the editor's name against the title page before publication.",
+    "The census text claimed the Devotio Moderna 'grew in its wake'. The sources show honor and borrowing, not descent, so the prose is qualified and the link is 'influenced'. Ruusbroec, whom Groote visited, is not part of this Rhineland entry and was not used."
+   ],
+   "change_reason": "New link. Named in the Rhineland summary and legacy; documented by a Windesheim chronicle and Thomas a Kempis's editor."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "rhineland-mysticism-and-the-friends-of-god",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1326 Meister Eckhart answered charges of heresy at Cologne. On 27 March 1329 Pope John XXII condemned twenty-eight of his articles in a bull, In agro dominico. Seventeen were called heresy. By then Eckhart was dead, and he had taken back any errors put before the pope.",
+   "outcome": "In 1329 Pope John XXII condemned twenty-eight articles from Eckhart's teaching, and any of his books that held them.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:15306-15311",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Meister Eckhart, Latin defence (Rechtfertigungsschrift), Cologne, 1326 (ed. Daniels, 1923)",
+     "file": "cic/texts/eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt",
+     "lines": "847",
+     "locus": "Rechtfertigungsschrift, opening",
+     "quote": "Ego irater Ekardus ordinis predicatorum prefatus respondeo:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (27 March 1329), heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 501",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15162",
+     "locus": "Denzinger, Errores Ekardi, heading",
+     "quote": "[Recensiti et damnati in Const. «In agro dominico», 27. Mart. 1329.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (1329), sentence, in Denzinger-Bannwart (1911), no. 529",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15306-15308",
+     "locus": "Denzinger 529",
+     "quote": "quindecim primos articulos et duos alios ul- timos tanquam haercticos, dictos vero alios undecim tanquam male sonantcs, temerarios, et suspectos de hacresi,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, In agro dominico (1329), sentence, in Denzinger-Bannwart (1911), no. 529",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15309-15311",
+     "locus": "Denzinger 529",
+     "quote": "hbros quoshbet seu opuscula eiusdem Ekardi, prae- fatos articulos seu eorum aliquem continentes, damnamus et reprobamus expresse.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Clemens Bannwart, note to Denzinger, Enchiridion symbolorum (1911), on the Errores Ekardi",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "15219-15220",
+     "locus": "editor's note",
+     "quote": "Errores suos ad Papam delatos iam ante sententiam datam revocavit.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "rhineland longDescription ('got him put on trial for heresy ... in 1329 a papal bull condemned twenty-eight propositions'); why ('tried for heresy and, after his death, condemned by papal bull'); legacy ('the church that condemned him')",
+   "wants": [
+    "The Cologne trial acts (Théry's edition, Archives d'histoire doctrinale 1926) and the full bull In agro dominico in a public-domain edition with English, to document the Cologne stage directly"
+   ],
+   "drafter_flags": [
+    "OCR errors kept as printed: 'irater' (frater), 'haercticos', 'sonantcs', 'hacresi', 'hbros quoshbet', and the line-break hyphens 'ul- timos', 'prae- fatos'.",
+    "Twenty-eight is fifteen plus two condemned as heretical and eleven as suspect (Denzinger 529); the note's 'seventeen of them as heretical' follows that count.",
+    "The Cologne proceedings were the archbishop's, not the pope's. The link joins them to the papal bull as one case of the Latin church; the reviewer may prefer the note to say so.",
+    "Denzinger's note gives Eckhart's death as 1327 (line 15220); the note does not give a year."
+   ],
+   "change_reason": "New link. Named three times in the Rhineland text; the bull's own sentence documents it."
+  },
+  {
+   "id": "devotio-moderna-brethren-of-the-common-life--the-society-of-jesus",
+   "action": "new",
+   "from": "devotio-moderna-brethren-of-the-common-life",
+   "to": "the-society-of-jesus",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Johannes Busch, a canon of Windesheim, wrote that his brother canon Thomas a Kempis made the Imitation of Christ. Ignatius of Loyola's Spiritual Exercises tell those who make them to read it from the second week on. A Jesuit who knew Ignatius said he kept just two books on his table: the New Testament and Thomas a Kempis.",
+   "outcome_considered": "The sources show the Imitation set as reading and kept by Ignatius, a text taken up by the other side; that does not meet the test.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johannes Busch, Chronicon Windeshemense, ed. Karl Grube (1886)",
+     "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+     "lines": "5413-5415",
+     "locus": "Chronicon Windeshemense, on the last days of a prior of Windesheim",
+     "quote": "unus frator Thomas de Kerapis vir probate vite, qui plures devotos tractatulos** composuit, videlicet „qui sequitur me\" de imitacione Christi cum aliis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius of Loyola, The Spiritual Exercises, trans. Elder Mullan (1914)",
+     "file": "cic/texts/ignatius-loyola_spiritual-exercises_mullan1914.txt",
+     "lines": "2216-2219",
+     "locus": "Second Week, notes to the Call of the King",
+     "quote": "For the Second Week and so on, it is very helpful to read at intervals in the books of the Imitation of Christ, or of the Gospels, and of lives of Saints.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Responsio P. Manarei ad quaedam Lancicii postulata, in Monumenta Ignatiana, Scripta de Sancto Ignatio, vol. 1 (1904)",
+     "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
+     "lines": "24344-24347",
+     "locus": "Manare's reply to Lancicius, part 1, no. 18",
+     "quote": "nam in cubiculo suo s^cretiori ordinarie super men- sam alios libros non habebat, quam nouum Testamentum et Thomam de Kempis, quem solebat appellare perdicem libroruro spiritualium.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "devotio relationsSummary ('Jesuit pedagogy'); why ('fed into Jesuit formation'); legacy ('fed into Jesuit formation a century later'); all rewritten in prose changes 5-7",
+   "wants": [],
+   "drafter_flags": [
+    "OCR errors kept: 'frator' (frater), 'Kerapis' (Kempis), 'tractatulos**' (footnote marks), 's^cretiori', 'libroruro'.",
+    "Benham's 1886 preface (kempis_imitation-of-christ_benham1886.txt, lines 487-512) doubts that Kempis wrote the Imitation. Busch is a contemporary witness for Thomas; the movement text already credits Thomas. The reviewer may want the note to name the dispute.",
+    "The census text spoke of Jesuit 'pedagogy'. No source shows the Brethren's schools shaping Jesuit schooling, so the prose now speaks of prayer and reading only.",
+    "The Jesuit witness is named 'Manare' from the heading 'Responsio P. Manarei'; his first name is not in the source and is left out."
+   ],
+   "change_reason": "New link. Named in all three Devotio fields; the Spiritual Exercises and an early Jesuit witness document the Imitation's place in Jesuit prayer."
+  },
+  {
+   "id": "the-english-mystics-and-devout--recusant-english-catholicism",
+   "action": "new",
+   "from": "the-english-mystics-and-devout",
+   "to": "recusant-english-catholicism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1629 Augustine Baker, an English monk at Cambrai, wrote a guide to The Cloud of Unknowing for the English nuns there. He said his copy came from one that English Carthusians took abroad when they left England under Henry VIII. In 1670 Serenus Cressy, who had become a monk with the English at Douai, printed Julian's book.",
+   "outcome_considered": "The sources show the books copied, explained and printed by English Catholics abroad, a text taken up by the other side; that does not meet the test.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine Baker, commentary on The Cloud of Unknowing (1629), ch. 1, ed. Justin McCann (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "14298-14302",
+     "locus": "Baker, commentary on the Cloud, ch. 1",
+     "quote": "It is said that the copy, from which our said copy was taken, was brought over into these parts out of England by the English Carthusians, when they forsook their country upon the schism of King Henry the Eighth.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "705-709",
+     "locus": "Introduction, on Baker's commentary",
+     "quote": "The commentary was written by Father Baker in the year 1629, when he was living at Cambrai gnd acting as spiritual director to the community of English Benedictine nuns then settled in that town,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Grace Warrack, notes on manuscripts and editions, Revelations of Divine Love (1901)",
+     "file": "cic/texts/julian-of-norwich_revelations-of-divine-love_warrack1901.txt",
+     "lines": "280",
+     "locus": "Notes on Manuscripts and Editions",
+     "quote": "Benedictine Serenus de Cressy, and published in 1670",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Preface to the 1843 reprint of Cressy's XVI Revelations of Divine Love",
+     "file": "cic/texts/julian-of-norwich_sixteen-revelations-of-divine-love_cressy1843.txt",
+     "lines": "191-194",
+     "locus": "Preface, life of Cressy",
+     "quote": "took upon him the habit of the Benedictine order in the college of the English monks at that place : changing his name to Serenus De Cressey.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "english-mystics legacy ('circulated quietly among Carthusians and English exiles'; rewritten in prose change 3 to name Cressy's printing); relationsSummary as rewritten in prose change 0 ('English Catholics in exile copied and kept their books')",
+   "wants": [
+    "The Cambrai and Paris copies of Julian's Long Text and their provenance among the English Benedictine nuns (e.g. a public-domain description of Paris BN Anglais 40 and Sloane 2499), to document Julian's circulation among the exiles directly"
+   ],
+   "drafter_flags": [
+    "OCR error kept in McCann: 'gnd' (and).",
+    "The recusant entry describes English Catholics at home, in household churches. Baker and Cressy were English Benedictines on the continent. The link treats the exiled houses as part of the same English Catholic community; the reviewer may prefer a no-entry reading.",
+    "Cressy printed Julian in 1670, after the recusant entry's window (to 1650). The Documented grade rests on Baker's commentary of 1629, inside the window."
+   ],
+   "change_reason": "New link. The legacy names the 'English exiles'; Baker's commentary and Cressy's printing document the reception."
+  },
+  {
+   "id": "taborite-radicalism--inquisition-record-sects-adamites-and-kin",
+   "action": "new",
+   "from": "taborite-radicalism",
+   "to": "inquisition-record-sects-adamites-and-kin",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Hussite writer Laurence of Březová tells of a band of men and women cast out of Tabor for the Picard heresy. They settled on an island near Veselí. He says Jan Žižka, the blind captain of the Taborites, sent their articles to Prague after they were killed. Lützow's 1914 history says Žižka wiped them out almost at once.",
+   "outcome_considered": "The sources show the band killed, but no council, split or changed rule; the destruction of a group is not one of the kinds the test counts.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Laurence of Březová, Historia Hussitica, for 1421, ed. Jaroslav Goll (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "54882-54884",
+     "locus": "Historia Hussitica, 1421, on the Picards of the island",
+     "quote": "a fratrura cohabitacioue 1 Thabor repulsi insulam inter Wesele et Hra- cz Henrici sítam iubnbitHare ceperunt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Laurence of Březová, Historia Hussitica, for 1421, ed. Jaroslav Goll (1893)",
+     "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt",
+     "lines": "54892-54894",
+     "locus": "Historia Hussitica, 1421, introducing the articles",
+     "quote": "quos Ziska» cecus*') Tbaboritarum vapitaneus, Pragensibus post eorura iuterfeecio- nem in scriptis destinavit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Count Lützow, The Hussite Wars (1914)",
+     "file": "cic/texts/lutzow_hussite-wars_1914.txt",
+     "lines": "315-317",
+     "locus": "Preface, p. xi",
+     "quote": "entered Bohemia as strangers, and were almost immediately extirpated by the Hussite general, 2izka.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "inquisition longDescription ('the Taborites destroyed them'); why ('wiped out by the Taborites')",
+   "wants": [
+    "Kaminsky (1967) and Fudge (2002) on the Adamites are in copyright; a public-domain English version of Březová's 1421 chapter would let a participant read it"
+   ],
+   "drafter_flags": [
+    "OCR errors kept: 'fratrura cohabitacioue 1 Thabor' (fratrum cohabitacione in Thabor), 'iubnbitHare', 'Ziska» cecus*')', 'vapitaneus' (capitaneus), 'eorura iuterfeecio- nem', and Lützow's '2izka' for Žižka.",
+    "Březová calls the band followers of the 'Picard heresy'; Goll's note (line 1671) calls the articles those of the Adamites. The note keeps the chronicler's word.",
+    "Lützow says the Adamites had no tie to Hussitism and came as strangers; Březová says they were cast out of Tabor. The two disagree on where the band came from, not on who destroyed it. The note gives both without resolving it.",
+    "The outcome test does not count the destruction of a group; flagged in case the reviewer reads it otherwise.",
+    "Another drafter group, drafting the Taborite entry, may draft the same pair; merge accordingly."
+   ],
+   "change_reason": "New link. Named twice in the inquisition text; Březová's chronicle documents it."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "inquisition-record-sects-adamites-and-kin",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In December 1367 at Erfurt, a beghard called John Hartmann was questioned by Walter Kerling, named by the pope's authority to try heresy. Kerling put to him the first article of Ad nostrum, a decree of the Council of Vienne. In 1887 Wilhelm Wattenbach noted that the questions kept to the decree point by point. He added that such answers were often forced.",
+   "outcome": "The Council of Vienne condemned errors it laid on beguines and beghards. In 1367 a papal inquisitor still put that decree to a suspect, point by point.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:14788-14793",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5775-5777",
+     "locus": "Instrument of 1367, opening",
+     "quote": "coram venerabili viro et religioso fratre Waltero Corlink,’ ordinis Predicatorum, saere theologie professore® et inquisitore heretice pra- vitatis auetoritate apostolica in certis partibus Almannie deputato,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann, Erfurt, 1367, ed. Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5795-5796",
+     "locus": "Instrument of 1367, first question",
+     "quote": "et sie interrogatus a predicto inquisitore' de primo artieulo in Clementinis de? heretieis ‘Ad nostrum’,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne (1311-12), heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14788",
+     "locus": "Denzinger, Council of Vienne",
+     "quote": "Conc. YIENNENSE 1311—1312.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart (1911), no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14792-14793",
+     "locus": "Denzinger 471",
+     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5717-5719",
+     "locus": "commentary before the 1367 instrument",
+     "quote": "dass hier genau nach dem Schema der Clementinen V, 3, 3 gefragt wird, was ja einen gewissen Zweifel begründen kann, weil oft genug die Bejahung solcher Fragepunkte erzwungen ist.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "inquisition longDescription ('A list of errors condemned at the Council of Vienne circulated among inquisitors as a template'); why (the same)",
+   "wants": [
+    "Lea, History of the Inquisition, vol. II (1887), which treats the Free Spirit and the Adamites; the shelf holds vol. III only",
+    "Ad nostrum in the Clementines (Friedberg, Corpus iuris canonici II, 1881), not on the host per the source dossier"
+   ],
+   "drafter_flags": [
+    "OCR errors kept: 'Corlink' (Kerling), 'saere', 'professore®', 'auetoritate', 'sie' (sic), 'artieulo', 'de?', 'heretieis', and Denzinger's 'YIENNENSE'.",
+    "Wattenbach's next sentence (lines 5719-5722) says this man's answers went well beyond the questions, and he judged them credible. The note says the answers were 'often forced', which is Wattenbach's general remark, not his verdict on Hartmann. The reviewer may want the note to add his verdict.",
+    "Lerner is named, not read; he cannot raise the grade, and the grade rests on the 1367 record.",
+    "The outcome test: Ad nostrum is a council decree condemning teaching (basis a), and this link's own primary sources show it in use in 1367. The same decree is the outcome basis of the existing link to the Free Spirit heresy; flagged in case the reviewer thinks one decree should carry only one outcome.",
+    "The inquisition entry (from 1350) and the Free Spirit entry (1250-1400) both cover the German Free Spirit trials; see escalations."
+   ],
+   "change_reason": "New link. Named twice in the inquisition text; a 1367 inquisition record shows the Vienne decree used as the questionnaire."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--late-medieval-lay-parish-piety",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "late-medieval-lay-parish-piety",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Edward VI's royal orders of 1547 told churches to take away shrines, rolls of wax, pictures and paintings. Nothing of them was to stay 'in walls, glass-windows, or elsewhere'. The orders' 1910 editors add that a law of the same year closed the guilds and ended the chantries.",
+   "outcome": "In 1547 King Edward VI ordered shrines, pictures and paintings taken out of churches. No memory of them was to be left.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt:6313-6317",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Royal Injunctions of Edward VI (1547), no. 28, in Frere and Kennedy, Visitation Articles and Injunctions, vol. II (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "6313-6315",
+     "locus": "Royal Injunctions 1547, no. 28",
+     "quote": "trindles or rolls of wax, pictures, paintings, and all other monuments of feigned miracles, pilgrimages, idolatry, and superstitition:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Royal Injunctions of Edward VI (1547), no. 28, in Frere and Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "6315-6317",
+     "locus": "Royal Injunctions 1547, no. 28",
+     "quote": "so that there remain no memory of the same in walls, glass-windows,1 or elsewhere within their churches or houses.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Running head of the Royal Injunctions of Edward VI, in Frere and Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "6130",
+     "locus": "page head, section XIX",
+     "quote": "1547] Royal Injunctions of Edward VI",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and W. P. M. Kennedy, notes to Visitation Articles and Injunctions, vol. II (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "9503-9504",
+     "locus": "editors' note to the Second Royal Injunctions",
+     "quote": "Fraternities, brotherhoods, guilds, with their property, were transferred to the King, and Chantries were abolished by I Ed .VI, c. 14, 1547.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and W. P. M. Kennedy, notes to Visitation Articles and Injunctions, vol. II (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "7846",
+     "locus": "editors' note",
+     "quote": "S. George's was specially exempt from the Chantry Act, 1547",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "late-medieval-lay-parish-piety legacy ('The English Reformation abolished the guilds and chantries, whitewashed the paintings and broke up the images')",
+   "wants": [
+    "The Chantries Act 1547 (1 Edw. VI c. 14) in a public-domain Statutes of the Realm volume, to document the dissolution of the guilds from the act itself"
+   ],
+   "drafter_flags": [
+    "OCR kept: 'superstitition', the footnote mark in 'glass-windows,1', and 'I Ed .VI'. The note's own quotation drops the footnote mark ('glass-windows,'); the reviewer should accept that or cut the quotation marks.",
+    "The injunction's opening words are interleaved with a margin note at line 6311-6312 ('No. iS.ibid., ... and note.'), so the quotes start at line 6313.",
+    "The guild and chantry act is shown only by the editors' notes, so it is in the note but not the outcome.",
+    "'Whitewashed' in the legacy is not in the injunction's words ('no memory ... in walls'); left as a fair reading, not changed."
+   ],
+   "change_reason": "New link. Named in the parish-piety legacy; the 1547 royal injunctions document it."
+  }
+ ],
+ "dispositions": [
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "relationsSummary",
+   "sentence": "Carthusians copied and preserved these texts (documented transmission)",
+   "other_id": "carthusian-life",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Carthusians who copied these books lived in the fifteenth and sixteenth centuries; the census Carthusian movement ends in 1300, and no later Carthusian movement exists. The claim is supported for the Cloud and Hilton's Scale (McCann 1924, lines 630-661; Underhill 1923, lines 1670-1676; Baker, lines 14298-14302). The existing carthusian-life link (Guigo's Ladder, Inferential-Thin) is a different, earlier tie and stands. Summary rewritten to name the linked ties."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "relationsSummary",
+   "sentence": "Carthusians copied and preserved these texts (documented transmission)",
+   "other_id": "cistercian-monasticism",
+   "disposition": "existing",
+   "link_id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "prose_change": 0,
+   "reason": "Not named in the old summary; the rewritten summary names Bernard, carried by the existing Documented link."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "relationsSummary",
+   "sentence": "Carthusians copied and preserved these texts (documented transmission)",
+   "other_id": "canons-regular-victorine-school",
+   "disposition": "existing",
+   "link_id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+   "prose_change": 0,
+   "reason": "Not named in the old summary; the rewritten summary names the canons of Saint Victor, carried by the existing Documented link."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "sentence": "Across a single century a scattering of English men and women began writing about the inner life of prayer in their own language rather than in Latin — Richard Rolle the Yorkshire hermit with his Fire of Love, Walter Hilton with the Scale of Perfection, and the anonymous author of The Cloud of Unknowing, all writing for recluses and devout lay people rather than for scholars.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Names the movement's own writers and readers; no tie to another movement."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "sentence": "Julian of Norwich, an anchoress enclosed in a cell beside a Norwich parish church, spent decades revising an account of sixteen revelations she had received during a near-fatal illness, arriving at the line she is still known for: that all shall be well.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "A place, not a party. Harford 1911 (lines 236-241) supports the cell beside the church of St Julian. Inventory's 'doubtful' row confirmed as not a claim."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "sentence": "Margery Kempe, a brewer's wife and mother of fourteen from Bishop's Lynn who could not write, dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The examiners are not named and no party is claimed. Kempe's full Book is not vendored (only the 1501 extract, in Gardner 1910); her life facts stay under the open Open-Gaps item for well-known facts without a vendored source. Wants: the Book of Margery Kempe."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "sentence": "That any of it reaches us at all is largely owed to Carthusian monks, who copied the texts and kept them safe.",
+   "other_id": "carthusian-life",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Overstated. Vendored texts show Carthusian copies of the Cloud and the Scale only (McCann 1924; Underhill 1923). Rewritten to say so. No in-window Carthusian movement exists (see the summary row)."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "why",
+   "sentence": "Julian of Norwich, enclosed for decades in a cell beside a Norwich church, kept revising her account of sixteen revelations until it reached the line she is still known for: that all shall be well.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "why",
+   "sentence": "Margery Kempe, a mother of fourteen who could not write, dictated a book about her pilgrimages, her uncontrollable public weeping, and the heresy examinations she survived.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "why",
+   "sentence": "Both voices reach us mainly because Carthusian monks copied and preserved the texts.",
+   "other_id": "carthusian-life",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No vendored text ties the Carthusians to Julian or Kempe. Replaced with Cressy's 1670 printing of Julian, which the sources show."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "sentence": "Margery Kempe's Book was known only from a few short printed extracts until the single surviving manuscript was identified in a private family library in 1934, and Julian's Revelations circulated quietly among Carthusians and English exiles for centuries before reaching a wide readership in the twentieth.",
+   "other_id": "carthusian-life",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Julian among the Carthusians: unsupported, removed. The extracts are supported (Gardner 1910, lines 513-524)."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "sentence": "Margery Kempe's Book was known only from a few short printed extracts until the single surviving manuscript was identified in a private family library in 1934, and Julian's Revelations circulated quietly among Carthusians and English exiles for centuries before reaching a wide readership in the twentieth.",
+   "other_id": "recusant-english-catholicism",
+   "disposition": "link",
+   "link_id": "the-english-mystics-and-devout--recusant-english-catholicism",
+   "prose_change": 3,
+   "reason": "The 'English exiles' are English Catholics abroad: Baker's 1629 commentary on the Cloud for the Cambrai nuns and Cressy's 1670 printing of Julian. Not in the inventory (which had 'English exiles' with no entry)."
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "sentence": "Julian is commemorated each May in the Church of England's calendar, and her cell — destroyed centuries ago, its foundations uncovered after wartime bombing and rebuilt — is again a place people travel to pray in.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The present-day Church of England is not the era-7 movement (inventory's guess corrected). No vendored or repo-cited source carries the calendar commemoration, so the clause is removed (wants: Common Worship calendar). The cell clause is kept."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "relationsSummary",
+   "sentence": "Dominican line;",
+   "other_id": "the-dominican-order",
+   "disposition": "existing",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "Carried by the existing Documented 'gave rise to' link (Eckhart as a friar preacher; Stagel a Dominican nun)."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "relationsSummary",
+   "sentence": "feeds Devotio Moderna and (via Theologia Deutsch) Luther",
+   "other_id": "devotio-moderna-brethren-of-the-common-life",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--devotio-moderna-brethren-of-the-common-life",
+   "prose_change": null,
+   "reason": "New Documented influenced link: Busch's chronicle (prior of Windesheim visiting Suso's cell) and Pohl's list of Thomas's sources."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "relationsSummary",
+   "sentence": "feeds Devotio Moderna and (via Theologia Deutsch) Luther",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "prose_change": null,
+   "reason": "New Documented influenced link: Luther's preface to the Theologia Deutsch and his 1521 citation of Tauler."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "sentence": "Along the Rhine a generation of Dominican preachers — Meister Eckhart, Johannes Tauler, Henry Suso — began preaching in German to convents of nuns and to devout lay people, and in doing so had to invent a vocabulary for the inner life that the language did not yet have.",
+   "other_id": "the-dominican-order",
+   "disposition": "existing",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "sentence": "Eckhart pushed furthest, speaking of the ground of the soul and of a birth of God within it in terms that got him put on trial for heresy.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "Inventory left the party unnamed; the trial and the bull are one case of the Latin church against Eckhart. Carried by the new Documented argued-against link (Eckhart's Cologne defense of 1326; In agro dominico)."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "sentence": "He died before the case closed, and in 1329 a papal bull condemned twenty-eight propositions drawn from his work, which is how his memory reached everyone who came after.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "Documented by the bull's sentence (Denzinger 529: fifteen plus two heretical, eleven suspect) and Denzinger's note that he died before it."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "sentence": "Around Strasbourg and Basel a mixed circle of clergy and laypeople who called themselves Gottesfreunde, the Friends of God, carried the same piety outside the cloister, and out of that milieu came the anonymous Theologia Deutsch.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Friends of God are part of this movement. The Theologia's preface (Winkworth 1893, lines 2196-2203) speaks of the true Friends of God and names the author as a priest of the Teutonic Order at Frankfurt."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "longDescription",
+   "sentence": "Nuns took sermons down as they were delivered, convents compiled sister-books recording their own communities' lives, and Elsbeth Stagel worked with Suso on the book of his own life.",
+   "other_id": "the-dominican-order",
+   "disposition": "existing",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "Stagel's part is in the existing link's Suso quotes; the nuns are part of this movement."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "sentence": "Dominican preachers here had to invent a German vocabulary for the inner life the language did not yet have, and Meister Eckhart pushed it furthest, speaking of a 'birth of God' within the soul in terms that got him tried for heresy and, after his death, condemned by papal bull.",
+   "other_id": "the-dominican-order",
+   "disposition": "existing",
+   "link_id": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "As in the summary."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "sentence": "Dominican preachers here had to invent a German vocabulary for the inner life the language did not yet have, and Meister Eckhart pushed it furthest, speaking of a 'birth of God' within the soul in terms that got him tried for heresy and, after his death, condemned by papal bull.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "sentence": "Much of what survives does so because nuns wrote sermons down as they were preached and compiled their own convents' sister-books.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The nuns are part of this movement."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "sentence": "Out of the same circle came the Theologia Deutsch, a book Martin Luther printed twice and said had taught him more about God than almost anything but the Bible and Augustine.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "prose_change": null,
+   "reason": "Luther's preface (Winkworth, lines 453-458) and Pfeiffer on the 1516 and 1518 printings."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "why",
+   "sentence": "Out of the same circle came the Theologia Deutsch, a book Martin Luther printed twice and said had taught him more about God than almost anything but the Bible and Augustine.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Augustine is a standard of comparison in Luther's praise, not a tie of this movement."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "sentence": "The Devotio Moderna in the Low Countries grew in its wake, and the Theologia Deutsch reached Martin Luther, who printed it twice — a partial text in 1516 and a fuller one in 1518.",
+   "other_id": "devotio-moderna-brethren-of-the-common-life",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--devotio-moderna-brethren-of-the-common-life",
+   "prose_change": 4,
+   "reason": "'Grew in its wake' claimed descent; the sources show honor and borrowing, so the clause is qualified (prose change) and carried by the influenced link."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "sentence": "The Devotio Moderna in the Low Countries grew in its wake, and the Theologia Deutsch reached Martin Luther, who printed it twice — a partial text in 1516 and a fuller one in 1518.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 4,
+   "reason": "Dates supported by Pfeiffer 1851 (lines 240-241, 261-262)."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "sentence": "And wrote that apart from the Bible and Augustine no book had taught him more about God and about himself.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 4,
+   "reason": "Fragment joined into a sentence; 'about himself' corrected to Luther's 'God, and Christ, and man'."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "sentence": "Tauler's sermons went on being read by Catholics and Protestants alike for centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No single movement. Supported: Winkworth 1907 (lines 845-860) on Luther's recommendation of Tauler and Surius's Latin edition of 1548; Luther's own citation in 1521 (on the Luther link)."
+  },
+  {
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "sentence": "Eckhart, condemned in his own lifetime, was rediscovered in the nineteenth century and has been read ever since by philosophers, theologians and religious writers well outside the church that condemned him.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--rhineland-mysticism-and-the-friends-of-god",
+   "prose_change": 4,
+   "reason": "'Condemned in his own lifetime' was wrong (the bull followed his death) and is corrected. The rediscovery is not a tie to a movement; Pfeiffer's 1857 edition of Eckhart is vendored."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "relationsSummary",
+   "sentence": "Parent-influence on both Luther's schooling and Jesuit pedagogy - a rare both-directions ancestor",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No vendored or repo-cited source shows Luther's schooling with the Brethren. Qualified as uncertain. Wants: Luther's own later letter on his Magdeburg year."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "relationsSummary",
+   "sentence": "Parent-influence on both Luther's schooling and Jesuit pedagogy - a rare both-directions ancestor",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "devotio-moderna-brethren-of-the-common-life--the-society-of-jesus",
+   "prose_change": 5,
+   "reason": "New Documented influenced link (Busch on Thomas; Spiritual Exercises; Manare). 'Pedagogy' unsupported, rewritten as prayer."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "After his death in 1384 his followers organized: Brothers and Sisters of the Common Life, living together and supporting themselves by copying manuscripts and other ordinary work, without vows and without leaving ordinary society, alongside a stricter branch of canons at Windesheim.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Windesheim is part of this movement, not another entry. Supported by Busch's Chronicon Windeshemense (vendored)."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "One such gathering, worked up by Thomas à Kempis at a house near Zwolle, became the Imitation of Christ.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal to the movement. Busch (lines 5410-5415) names Thomas of Mount St Agnes near Zwolle as its author."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "The houses also took in schoolboys and shaped the Latin schools of towns like Deventer and Zwolle, which is how the movement's formation reached far more people than ever joined it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the schools. Supported by Thomas a Kempis's Life of Florentius (Founders, lines 6270-6280: a scholar at Deventer under Master John Boheme) and Arthur's 1905 introduction (lines 995-1030)."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "Their schools shaped Erasmus and touched Luther's own education, and the same disciplined, interior devotion later fed into Jesuit formation.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Erasmus has no census entry. Supported: Beza, Histoire ecclésiastique, editors' note (lines 693-694, 'l'école des Frères de la vie commune, à Deventer'); Neale 1858 (lines 4803-4806)."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "Their schools shaped Erasmus and touched Luther's own education, and the same disciplined, interior devotion later fed into Jesuit formation.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No source; removed from this field and kept, qualified, in the legacy."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "Their schools shaped Erasmus and touched Luther's own education, and the same disciplined, interior devotion later fed into Jesuit formation.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "devotio-moderna-brethren-of-the-common-life--the-society-of-jesus",
+   "prose_change": 6,
+   "reason": "Rewritten to what the sources show."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "sentence": "Erasmus was educated at Deventer, Luther spent a school year at Magdeburg in a household connected with the Brethren, and the ordered, interior, personal devotion the movement taught fed into Jesuit formation a century later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Erasmus: as in the why."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "sentence": "Erasmus was educated at Deventer, Luther spent a school year at Magdeburg in a household connected with the Brethren, and the ordered, interior, personal devotion the movement taught fed into Jesuit formation a century later.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No vendored or repo-cited source; 'may have ... the tie is unsure'. A link would join the movement to a 1517 church through a boy's school year, which is not what the six types describe in any case."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "sentence": "Erasmus was educated at Deventer, Luther spent a school year at Magdeburg in a household connected with the Brethren, and the ordered, interior, personal devotion the movement taught fed into Jesuit formation a century later.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "devotio-moderna-brethren-of-the-common-life--the-society-of-jesus",
+   "prose_change": 7,
+   "reason": "As in the why."
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "sentence": "The houses themselves did not survive the century they helped bring about; most dissolved during the Reformation.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "An event in the movement's own history, not a tie to one movement. No vendored source checked shows the closures; left under the open Open-Gaps item for well-known facts without a vendored source (see escalations)."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "relationsSummary",
+   "sentence": "This is the religion of the ordinary laity — the everyday practice every other tradition on this map reaches only at its edges.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A general framing, no party."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "relationsSummary",
+   "sentence": "Something like it was built again a generation later in the intensely parish-centered Catholicism of Carlo Borromeo's Milan.",
+   "other_id": "tridentine-parish-renewal-borromean-milan",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An analogy: 'something like it was built again'. No influence, contact or descent is claimed, and none of the six types fits. The source dossier notes no Milan file was opened for this tie. Left as written."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "longDescription",
+   "sentence": "The mass seen from the nave, the yearly round of feasts and processions, the guild you joined, the light you paid to keep burning before an image, the church ale that funded the roof.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Guilds have no census entry. Supported by Toulmin Smith, English Gilds (1870, vendored) and Frere and Kennedy's notes (lines 6365-6428)."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "longDescription",
+   "sentence": "Books of hours, soon printed by the thousand, put the same daily prayers into the hands of any household that could afford them, and sermon collections like John Mirk's Festial tell us roughly what the pew was hearing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mirk's Festial is vendored (mirk_festial-enm_erbe1905.txt). Not a tie to another movement."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "why",
+   "sentence": "For most people in late-medieval England, Christianity was the parish: the mass seen from the nave, the guild joined, the light paid for before an image, the church ale that funded the roof.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "legacy",
+   "sentence": "The English Reformation abolished the guilds and chantries, whitewashed the paintings and broke up the images, so that what we know of the practice comes largely from accounts that record first its purchase and then its destruction.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--late-medieval-lay-parish-piety",
+   "prose_change": null,
+   "reason": "New Documented argued-against link with an outcome: the Royal Injunctions of 1547, no. 28; the editors' notes on the Chantry Act."
+  },
+  {
+   "movement": "late-medieval-lay-parish-piety",
+   "field": "legacy",
+   "sentence": "Something like it was built again elsewhere: the intensely parish-centered Catholicism of Carlo Borromeo's Milan, a generation later, ran on the same instincts under very different rules.",
+   "other_id": "tridentine-parish-renewal-borromean-milan",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary: an analogy, not a claimed tie."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "relationsSummary",
+   "sentence": "-",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Empty summary. The two new links could fill it; not written here, since nothing in the field names a tie (see escalations)."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "sentence": "The Bohemian Adamites of 1421 — described as a naked, communal, apocalyptic band on an island in southern Bohemia — appear in the chronicles of people who despised them and in the account of a later outside observer, and the Taborites destroyed them, so no voice from inside survives at all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The hostile chronicler is Laurence of Březová, whose 1421 chapter is vendored (lines 54877-55125: the island, the nakedness 'like Adam with Eve', the angels of vengeance). The outside observer is Aeneas Sylvius Piccolomini, Historia Bohemica, ch. 'De Adamitis' (vendored; Lützow 1914, lines 305-317). Not ties to another movement."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "sentence": "The Bohemian Adamites of 1421 — described as a naked, communal, apocalyptic band on an island in southern Bohemia — appear in the chronicles of people who despised them and in the account of a later outside observer, and the Taborites destroyed them, so no voice from inside survives at all.",
+   "other_id": "taborite-radicalism",
+   "disposition": "link",
+   "link_id": "taborite-radicalism--inquisition-record-sects-adamites-and-kin",
+   "prose_change": null,
+   "reason": "New Documented argued-against link (Březová; Lützow)."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "sentence": "The wider 'heresy of the Free Spirit' works much the same way.",
+   "other_id": "free-spirit-heresy",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of evidence, not a tie of lineage or contact. The two entries overlap in what they cover; see escalations."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "sentence": "A list of errors condemned at the Council of Vienne circulated among inquisitors as a template, and much of what later depositions 'found' matches that template closely enough that historians since Robert Lerner's work in 1972 have concluded a good deal of it was produced by the questioning rather than discovered by it.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "prose_change": null,
+   "reason": "New Documented argued-against link with an outcome: the 1367 Erfurt record of an inquisitor questioning from Ad nostrum, and Wattenbach's 1887 comment."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "sentence": "A list of errors condemned at the Council of Vienne circulated among inquisitors as a template, and much of what later depositions 'found' matches that template closely enough that historians since Robert Lerner's work in 1972 have concluded a good deal of it was produced by the questioning rather than discovered by it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Historians are not a movement. Lerner (1972) is repo-cited but not read here; Wattenbach (1887, lines 5717-5719) already notes that answers to such question lists were often forced. Left as written."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "why",
+   "sentence": "The Bohemian Adamites of 1421, described in hostile chronicles as a naked, communal, apocalyptic band on an island, and wiped out by the Taborites, left no voice of their own behind.",
+   "other_id": "taborite-radicalism",
+   "disposition": "link",
+   "link_id": "taborite-radicalism--inquisition-record-sects-adamites-and-kin",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "why",
+   "sentence": "The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne that circulated among inquisitors as a template, and historians since Robert Lerner's 1972 study have concluded that much of what later depositions 'found' was produced by that template rather than discovered by it.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "why",
+   "sentence": "The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne that circulated among inquisitors as a template, and historians since Robert Lerner's 1972 study have concluded that much of what later depositions 'found' was produced by that template rather than discovered by it.",
+   "other_id": "free-spirit-heresy",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "legacy",
+   "sentence": "Nothing institutional survives, and in some cases there may have been nothing to survive: several of these 'sects' may never have existed in the form the records describe.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No party named."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-english-mystics-and-devout",
+   "field": "relationsSummary",
+   "old": "Carthusians copied and preserved these texts (documented transmission)",
+   "new": "These writers drew on Bernard and on the canons of Saint Victor. Later, Carthusian monks and English Catholics in exile copied and kept their books.",
+   "reason": "'(documented transmission)' was a label, not a sentence, and the old summary named only the Carthusians. The new summary names the ties the links carry: Bernard and the Victorines (existing links) and the English Catholics abroad (new link). The Carthusian copying of the Cloud and the Scale is supported (McCann 1924, lines 630-661; Underhill 1923, lines 1670-1676) but the later Carthusians have no census movement in window. Whole field rewritten.",
+   "fre_after": 65.6,
+   "fk_after": 7.2
+  },
+  {
+   "n": 1,
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "old": "Across a single century a scattering of English men and women began writing about the inner life of prayer in their own language rather than in Latin — Richard Rolle the Yorkshire hermit with his Fire of Love, Walter Hilton with the Scale of Perfection, and the anonymous author of The Cloud of Unknowing, all writing for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich, an anchoress enclosed in a cell beside a Norwich parish church, spent decades revising an account of sixteen revelations she had received during a near-fatal illness, arriving at the line she is still known for: that all shall be well. Margery Kempe, a brewer's wife and mother of fourteen from Bishop's Lynn who could not write, dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. The closest thing the period leaves us to an ordinary believer's own life story. That any of it reaches us at all is largely owed to Carthusian monks, who copied the texts and kept them safe.",
+   "new": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe was a brewer's wife from Bishop's Lynn, a mother of fourteen who could not write. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "reason": "'That any of it reaches us at all is largely owed to Carthusian monks' outruns the evidence: vendored texts show Carthusian copies of the Cloud and Hilton's Scale only, not of Julian, Rolle or Kempe. The sentence now says what they show. The fragment 'The closest thing ...' is made a full sentence. Long sentences are split for reading level; every other fact is kept.",
+   "fre_after": 63.9,
+   "fk_after": 7.7
+  },
+  {
+   "n": 2,
+   "movement": "the-english-mystics-and-devout",
+   "field": "why",
+   "old": "Julian of Norwich, enclosed for decades in a cell beside a Norwich church, kept revising her account of sixteen revelations until it reached the line she is still known for: that all shall be well. Margery Kempe, a mother of fourteen who could not write, dictated a book about her pilgrimages, her uncontrollable public weeping, and the heresy examinations she survived. Both voices reach us mainly because Carthusian monks copied and preserved the texts.",
+   "new": "Julian of Norwich lived for decades shut in a cell beside a Norwich church. She kept on reworking her account of sixteen revelations. In the end it reached the line she is still known for: that all shall be well. Margery Kempe, a mother of fourteen, could not write. She told scribes a book about her pilgrimages, her weeping in public that she could not stop, and the questioning for heresy she came through. Julian's longer book was first printed in 1670, by an English monk named Serenus Cressy.",
+   "reason": "'Both voices reach us mainly because Carthusian monks copied and preserved the texts' has no support: no vendored text ties the Carthusians to Julian or to Kempe. Replaced with what the sources show for Julian (Cressy's printing of 1670: Warrack 1901, line 280; Cressy 1843 preface, lines 191-194). Sentences split and plainer words used for reading level.",
+   "fre_after": 70.8,
+   "fk_after": 7.0
+  },
+  {
+   "n": 3,
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "old": "The writings outlived their authors by way of a long silence. Margery Kempe's Book was known only from a few short printed extracts until the single surviving manuscript was identified in a private family library in 1934, and Julian's Revelations circulated quietly among Carthusians and English exiles for centuries before reaching a wide readership in the twentieth. Both are now among the most read of all medieval English religious books. Julian is commemorated each May in the Church of England's calendar, and her cell — destroyed centuries ago, its foundations uncovered after wartime bombing and rebuilt — is again a place people travel to pray in.",
+   "new": "The writings outlived their authors by way of a long silence. Margery Kempe's Book was known only from a few short printed extracts. Then, in 1934, the one surviving copy turned up in a family's private library. Julian's book lived on in just a handful of copies until Serenus Cressy printed it in 1670. Most people came to read it only in the twentieth century. Both are now among the most read of all medieval English religious books. Julian's cell was pulled down centuries ago. Its footings were found after bombing in the war, and the cell was built again. Once more it is a place people travel to pray in.",
+   "reason": "Julian circulating 'among Carthusians' is unsupported (no vendored text shows it); the Carthusian evidence is for the Cloud. Replaced with Cressy's printing of 1670, which is carried by the new link to recusant English Catholicism. 'Julian is commemorated each May in the Church of England's calendar' is removed: no vendored or repo-cited source carries it (wants: the Common Worship calendar). The cell sentence is kept in plainer words.",
+   "fre_after": 70.4,
+   "fk_after": 6.5
+  },
+  {
+   "n": 4,
+   "movement": "rhineland-mysticism-and-the-friends-of-god",
+   "field": "legacy",
+   "old": "Its influence ran far past its own century. The Devotio Moderna in the Low Countries grew in its wake, and the Theologia Deutsch reached Martin Luther, who printed it twice — a partial text in 1516 and a fuller one in 1518. And wrote that apart from the Bible and Augustine no book had taught him more about God and about himself. Tauler's sermons went on being read by Catholics and Protestants alike for centuries. Eckhart, condemned in his own lifetime, was rediscovered in the nineteenth century and has been read ever since by philosophers, theologians and religious writers well outside the church that condemned him.",
+   "new": "Its influence ran far past its own century. In the Low Countries, the Devotio Moderna honored Henry Suso and drew on his books. The Theologia Deutsch reached Martin Luther, who printed it twice: a partial text in 1516 and a fuller one in 1518. He wrote that apart from the Bible and Augustine, no book had taught him more about God, Christ and man. Tauler's sermons went on being read by Catholics and Protestants alike for centuries. Eckhart, condemned after his death, was rediscovered in the nineteenth century. Since then philosophers, theologians and religious writers have read him, far outside the church that condemned him.",
+   "reason": "Three fixes. 'Eckhart, condemned in his own lifetime' was wrong: the bull came in 1329, after his death (Denzinger note, line 15220; the entry's own description and why say the same). 'The Devotio Moderna ... grew in its wake' claimed descent; the sources show honor for Suso and borrowing from him (new Documented link), so it is qualified. Luther's words were 'God, and Christ, and man and all things', not 'about himself', and the fragment 'And wrote that ...' is joined into a sentence. The last sentence is split for reading level.",
+   "fre_after": 60.5,
+   "fk_after": 8.5
+  },
+  {
+   "n": 5,
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "relationsSummary",
+   "old": "Parent-influence on both Luther's schooling and Jesuit pedagogy - a rare both-directions ancestor",
+   "new": "Its Imitation of Christ shaped Jesuit prayer, and its schools taught Erasmus. A tie to Luther's schooling is uncertain.",
+   "reason": "'Parent-influence on both Luther's schooling and Jesuit pedagogy - a rare both-directions ancestor' was map shorthand. The Jesuit tie is now carried by a Documented link and shown as prayer, not schooling (no source shows the schools shaping Jesuit pedagogy). Erasmus at the Brethren's Deventer school has vendored support (Beza, Histoire ecclésiastique, editors' note, lines 693-694; Neale 1858, lines 4800-4806). No vendored text shows Luther's year at Magdeburg, so that tie is called uncertain.",
+   "fre_after": 63.6,
+   "fk_after": 6.7
+  },
+  {
+   "n": 6,
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "old": "Geert Grote gave up a wealthy career to gather devout men and women into households that lived in common without ever taking vows, supporting themselves by copying manuscripts. Their habit of keeping a personal notebook of gathered readings, a rapiarium, produced Thomas a Kempis's Imitation of Christ, the most copied Christian book after the Bible. Their schools shaped Erasmus and touched Luther's own education, and the same disciplined, interior devotion later fed into Jesuit formation.",
+   "new": "Geert Grote gave up a rich career to gather devout men and women into shared homes. They lived in common without ever taking vows, and paid their way by copying books by hand. Each kept a private notebook of passages to return to, called a rapiarium. That habit produced Thomas a Kempis's Imitation of Christ, the most copied Christian book after the Bible. Their schools shaped Erasmus. Ignatius of Loyola, who founded the Jesuits, kept the Imitation on his desk. His Spiritual Exercises tell those who make them to read it.",
+   "reason": "Luther removed from this field: no vendored or repo-cited source shows his schooling 'touched' by the Brethren (wants: Luther's own later letter on his Magdeburg year). The legacy keeps the claim in qualified form. 'Fed into Jesuit formation' is replaced by what the sources show (Spiritual Exercises; Manare). Sentences split for reading level.",
+   "fre_after": 62.6,
+   "fk_after": 7.8
+  },
+  {
+   "n": 7,
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "old": "The Imitation of Christ never stopped circulating. After the Bible it is the most widely copied and printed Christian book of the era, and it is still in print in dozens of languages. The movement's schooling shaped people who then went in opposite directions. Erasmus was educated at Deventer, Luther spent a school year at Magdeburg in a household connected with the Brethren, and the ordered, interior, personal devotion the movement taught fed into Jesuit formation a century later. The houses themselves did not survive the century they helped bring about; most dissolved during the Reformation.",
+   "new": "The Imitation of Christ never stopped being read. After the Bible it is the most copied and printed Christian book of the era. It is still in print in dozens of languages. The movement's schools shaped people who then went in opposite directions. Erasmus was educated at Deventer. Luther may have spent a school year at Magdeburg in a house linked with the Brethren, but the tie is unsure. A century after the Imitation was written, Ignatius of Loyola kept it on his desk. His Spiritual Exercises tell those who make them to read it. The houses themselves did not outlast the century they helped bring about. Most closed during the Reformation.",
+   "reason": "'Luther spent a school year at Magdeburg in a household connected with the Brethren' is qualified to 'may have ... the tie is unsure': no vendored source shows it. The Jesuit sentence now says what the Documented link shows. Sentences split and plainer words used for reading level; every other fact is kept.",
+   "fre_after": 63.3,
+   "fk_after": 7.2
+  }
+ ],
+ "wants": [
+  "Ad nostrum in the Clementines (Friedberg, Corpus iuris canonici II, 1881), not on the host per the source dossier",
+  "Kaminsky (1967) and Fudge (2002) on the Adamites are in copyright; a public-domain English version of Březová's 1421 chapter would let a participant read it",
+  "Lea, History of the Inquisition, vol. II (1887), which treats the Free Spirit and the Adamites; the shelf holds vol. III only",
+  "The Cambrai and Paris copies of Julian's Long Text and their provenance among the English Benedictine nuns (e.g. a public-domain description of Paris BN Anglais 40 and Sloane 2499), to document Julian's circulation among the exiles directly",
+  "The Chantries Act 1547 (1 Edw. VI c. 14) in a public-domain Statutes of the Realm volume, to document the dissolution of the guilds from the act itself",
+  "The Cologne trial acts (Théry's edition, Archives d'histoire doctrinale 1926) and the full bull In agro dominico in a public-domain edition with English, to document the Cologne stage directly",
+  "The Book of Margery Kempe in full (the 1934 manuscript's text; modern editions are in copyright), with a public-domain description of the manuscript's Mount Grace ownership, for the Kempe facts and any Carthusian tie",
+  "The Church of England's Common Worship calendar (or a public-domain list of its commemorations), before any Julian commemoration returns",
+  "Luther's own later account of his school year at Magdeburg (his letter of 1522, in a public-domain edition of his letters), to test the Brethren tie before it is stated as fact",
+  "Erasmus's own account of his Deventer schooling (the Compendium vitae, in a public-domain edition), to lift the Erasmus claim from editors' notes to a primary witness"
+ ],
+ "escalations": [
+  "A: Census structure (portfolio, not a stop): no Carthusian movement covers 1300-1550, so the documented Carthusian copying of the Cloud and Hilton's Scale cannot be drawn as a link; carthusian-life ends in 1300. Prose now states the copying as fact without a link (no-entry). A decision on extending carthusian-life or adding a later Carthusian entry is Mark's.",
+  "A: Census structure (portfolio, not a stop): inquisition-record-sects-adamites-and-kin (1350-1500) and free-spirit-heresy (1250-1400) both cover the German Free Spirit trials and rest on the same Vienne decree; their texts say nearly the same thing about Lerner and the template. No lineage link fits. Whether the two entries should be split by evidence (Adamites here, Free Spirit there) is for a cross-world decision.",
+  "A: Open ruling, not new: Margery Kempe's life facts (brewer's wife, fourteen children, dictation, the 1934 manuscript), the Devotio houses closing in the Reformation, and Julian's cell rebuilt after wartime bombing have no vendored source. Left, as era 5 did, under the open Open-Gaps item 'Well-known facts with no vendored source'. Every relationship claim without support was qualified or removed.",
+  "A: The inquisition entry's relationsSummary is '-'. The two new links (Tabor, the papal inquisitors) would support one; no prose was drafted because no sentence named a tie. Flag for the merge."
+ ],
+ "self_check": "Ran the regex we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we (case-insensitive) over every note, outcome and new prose field: 0 hits. Also checked for British spellings and double full stops: none. Every primary and secondary quote re-checked against its file and lines with the validator's whitespace-squash rule: all found. Every disposition sentence is a verbatim substring of its current field; every prose 'old' equals the current field. No new link id or pair is already on main. Readability (score_turn): every new note, outcome and changed field scores FRE 60 or more and FK 10 or less."
+}
