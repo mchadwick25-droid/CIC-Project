@@ -666,3 +666,37 @@ it, never by deleting it.
     link into era 9 is now "gave rise to": the era 9 entry also holds the Northeast India hill
     churches. No movement carries the larger body between the Coonan Cross and 1912. A census
     question for Mark.
+117. **The era 6 open questions are ruled (2026-11-08).** Mark ruled on all seven (Decision-Log,
+    "Rulings on the era 6 open questions", 2026-11-08). Carried out in
+    `Build/Ministry/Operations/Audits/2026-11-08_era-6-rulings/`, data release 18. This closes:
+    - "The Church of the East's 'Hakkari' name" (2026-11-08): renamed "…and the Northern Remnant";
+      the informal name, region, place label and the 1552 schism's status line follow.
+    - "No link type for church jurisdiction" and "No link type for an authority's acts on another
+      body's own order" (both 2026-11-08): drawn as "in contact with", with an outcome where the
+      link's own sources show the act. Two links re-typed from "influenced", four authority links added
+      (among them Leo X's division of the Franciscans and the papal acts on the Observants), and
+      outcomes set on three existing "in contact with" links.
+    - "The Council of Basel sits under the papacy" (2026-11-08): stays as it is.
+    - "The inquisition-record sects and the Free Spirit overlap" (2026-11-08): split by evidence.
+      `latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin` is
+      retired into the papal church's link to the Free Spirit, which now carries the 1367 case.
+    - "Well-known facts with no vendored source" (2026-11-07) and its era 5 and era 6 additions
+      (2026-11-08): plain facts stand with their wanted text listed; 18 guarded facts were sourced
+      or restated as reported, Breslau among them.
+    - "Page recordings read the old descriptions" (2026-11-08) and its era 6 and era 7 entries:
+      each recording now carries a fingerprint of its text, and a page whose text changed hides its
+      player. 143 recordings were stale when the fingerprints were written. The paid re-voicing
+      batch runs once, after the era 9 links pass (see the next entry).
+118. **One paid re-voicing batch after era 9 (2026-11-08).** Per ruling 7: every recording whose
+    fingerprint no longer matches its page is re-voiced in one batch after the P2-L9 merge. Sample
+    first, Mark's approval by ear, every setting passed and printed. Until then those pages show no
+    Listen player. For Mark, when era 9 merges.
+119. **The Carthusians after 1300 go to the new-entries batch (2026-11-08).** Per ruling 4, a later
+    Carthusian movement, split by era as the Waldensians were, is made in the agreed-entries release
+    (P2-G3). It is already candidate 23 in the gap sweep
+    (`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`). Until then the English mystics
+    text states the Carthusian copying of The Cloud and the Scale with no link.
+120. **Wanted texts from the era 6 rulings (2026-11-08).** Leo X's Ite vos (1517) in a vendored
+    edition; Martin V's bulls on the Observants and the full Constance decree; a source for the
+    Allied bombing of Monte Cassino (1944); Lea, Inquisition of the Middle Ages, vol. II, p. 549
+    (Capistrano at Breslau). The full list is in the audit README.

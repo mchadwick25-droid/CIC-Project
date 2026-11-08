@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2,
   "release": {
-   "number": 17,
+   "number": 18,
    "date": "2026-11-08"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -5191,7 +5191,7 @@
    "to": "armenian-christianity-conversion-era",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Moses of Khoren says the young Nerses, later head of the Armenian church, was then a student at Caesarea in Cappadocia. He also notes that a later head was put in place without the archbishop of Caesarea. That implies earlier heads had been. When Moses himself wrote is disputed, with dates from the fifth to the eighth century.",
+   "note": "Moses of Khoren says the young Nerses was then a student at Caesarea in Cappadocia. Nerses later became head of the Armenian church. Ormanian, a modern historian of that church, says only Caesarea and Edessa had schools that Armenians could reach then. When Moses wrote is disputed. Scholars date him anywhere from the fifth to the eighth century.",
    "sources": [
     {
      "kind": "primary",
@@ -5204,21 +5204,14 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Moses of Khoren, History of Armenia III.39 (Langlois II, 1869)",
-     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
-     "lines": "22694-22695",
-     "locus": "Hist. III.39",
-     "quote": "place de Nersès, sans l'intervention du grand ar- chevêque de Césarée",
-     "license": "public-domain"
-    },
-    {
      "kind": "secondary",
+     "source_id": null,
      "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912)",
      "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
      "lines": "1872-1875",
-     "quote": "the famous schools of Caesarea in Cappadocia and of Edessa in Osroene were the only centres of enlightenment accessible to Armenia at that time."
+     "locus": "ch. V, 'The Armenian Church in the Fourth Century'",
+     "quote": "the famous schools of Caesarea in Cappadocia and of Edessa in Osroene were the only centres of enlightenment accessible to Armenia at that time.",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -8160,6 +8153,7 @@
    "type": "in contact with",
    "confidence": "Documented",
    "note": "Gregory wrote to all the bishops of Numidia, answering a request they had sent to his predecessor. He let them keep their old customs for choosing a senior bishop. But he barred bishops who had come over from the Donatists from that rank.",
+   "outcome": "Pope Gregory let the Numidian bishops keep their old way to pick a head bishop, but not one who had been a Donatist.",
    "sources": [
     {
      "kind": "primary",
@@ -10379,37 +10373,17 @@
    "from": "coptic-christianity-under-early-islam",
    "to": "makurian-nubian-christianity",
    "type": "influenced",
-   "confidence": "Widely Accepted",
-   "note": "Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. A Coptic history of the 700s says the patriarch in Egypt ordained the chief bishop of Makuria. Coptic monks and Coptic books were common in Nubia.",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. After the Arab conquest of Egypt, says the scholar F. Ll. Griffith, Coptic monks and Coptic books abounded in Nubia.",
    "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I (Kha'il), trans. Evetts, Patrologia Orientalis 5",
-     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
-     "lines": "7181-7183",
-     "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
-     "quote": "and he has in his country an orthodox bishop whom the patriarch ordains as metropolitan, and who ordains for the king tlie bishops and the priests in that land.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
-     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
-     "lines": "7139-7141",
-     "locus": "Pt. I, ch. XVIII (Michael I)",
-     "quote": "He was the orthodox Ethiopian king of Al-Mukurrah;",
-     "license": "public-domain"
-    },
     {
      "kind": "secondary",
      "source_id": null,
      "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
      "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
      "lines": "4441-4442",
-     "quote": "The Old Nubian alphabet is essentially the Coptic’ reinforced by a few extra letters (for the peculiar sounds of the language)",
      "locus": "Griffith 1913, 'The alphabet'",
+     "quote": "The Old Nubian alphabet is essentially the Coptic’ reinforced by a few extra letters (for the peculiar sounds of the language)",
      "license": "public-domain"
     },
     {
@@ -10417,9 +10391,9 @@
      "source_id": null,
      "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
      "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
-     "lines": "4431-4432",
-     "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,",
+     "lines": "4431-4433",
      "locus": "Griffith 1913, introduction",
+     "quote": "after the Moslem conquest of Egypt, and there- after Coptic monks and Coptic books abounded in Nubia",
      "license": "public-domain"
     }
    ],
@@ -11014,9 +10988,10 @@
    "id": "latin-papal-church-gregorian--the-carmelites",
    "from": "latin-papal-church-gregorian",
    "to": "the-carmelites",
-   "type": "influenced",
+   "type": "in contact with",
    "confidence": "Documented",
    "note": "Pope Innocent IV wrote to 'the prior and brethren, hermits of blessed Mary of Mount Carmel'. At their request two delegates had explained, corrected and softened their rule, and he confirmed the result. His letter is dated at Lyons in the fifth year of his reign, which was 1247.",
+   "outcome": "In 1247 the pope had the rule of the Carmelites made milder at their own request, and then he confirmed it.",
    "sources": [
     {
      "kind": "primary",
@@ -11050,12 +11025,17 @@
     },
     {
      "kind": "secondary",
-     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)"
+     "source_id": null,
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "outcome": "In 1247 the Carmelites asked Pope Innocent IV to correct and soften their rule. He had this done, and then he confirmed it."
+   "verification_state": "verified-direct"
   },
   {
    "id": "the-dominican-order--the-carmelites",
@@ -11380,7 +11360,8 @@
    "to": "free-spirit-heresy",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "The Council of Vienne in 1311-12 condemned eight errors about the perfect soul. One said that people who live 'in the spirit of liberty' owe no obedience to any human. Robert Lerner's 1972 study argued that no organized sect ever held them.",
+   "note": "The Council of Vienne in 1311-12 condemned eight errors about the perfect soul. One said that people who live 'in the spirit of liberty' owe no obedience to any human. Robert Lerner's 1972 study argued that no organized sect ever held them. In 1367 a papal judge at Erfurt put all eight to a beghard, John Hartmann, whose answers Wilhelm Wattenbach judged sincere in 1887.",
+   "outcome": "The Council of Vienne in 1311-12 ruled as error the claim that those who live in the spirit of liberty owe no human obedience.",
    "sources": [
     {
      "kind": "primary",
@@ -11393,9 +11374,9 @@
      "license": "public-domain"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
-     "work": "Council of Vienne, Ad nostrum, heading in Denzinger-Bannwart (1911), no. 471",
+     "work": "Council of Vienne, Ad nostrum, editor's heading in Denzinger-Bannwart (1911), no. 471",
      "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
      "lines": "14792-14793",
      "locus": "Denzinger 471",
@@ -11404,12 +11385,117 @@
     },
     {
      "kind": "secondary",
-     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)"
+     "source_id": null,
+     "work": "Council of Vienne (1311-12), editor's heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14788",
+     "locus": "Denzinger, Council of Vienne",
+     "quote": "Conc. YIENNENSE 1311—1312.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5768",
+     "locus": "Instrument of 1367, dating clause",
+     "quote": "In nomine Domini Amen. Anno ejusdem' M° ece° Ixvij°,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5775-5778",
+     "locus": "Instrument of 1367, opening",
+     "quote": "coram venerabili viro et religioso fratre Waltero Corlink,’ ordinis Predicatorum, saere theologie professore® et inquisitore heretice pra- vitatis auetoritate apostolica in certis partibus Almannie deputato, quidam beghardus nomine Johannes’ Hartmanni",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5792-5793",
+     "locus": "Instrument of 1367, first question",
+     "quote": "Interrogatus a dieto Walthero' inquisitore, in quo consistat” libertas spiritus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5795-5796",
+     "locus": "Instrument of 1367, question on the first article",
+     "quote": "et sie interrogatus a predicto inquisitore' de primo artieulo in Clementinis de? heretieis ‘Ad nostrum’,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5967",
+     "locus": "Instrument of 1367, question on the eighth article",
+     "quote": "Item de 8° artieulo qui ineipit: ‘Oetavo quod in elevacione’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "4613",
+     "locus": "p. 517, title",
+     "quote": "Uber die Secte der Brüder vom freien Geiste.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5701-5703",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "das Notariatsinstrument über das Verhör des Johannes Hart- manni aus Aschmansteten vor dem bekannten Walter Kerling” in Erfurt, am 26. December 1367.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5717-5719",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "dass hier genau nach dem Schema der Clementinen V, 3, 3 gefragt wird, was ja einen gewissen Zweifel begründen kann, weil oft genug die Bejahung solcher Fragepunkte erzwungen ist.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5719-5723",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und ent- halten eine Fülle ganz individueller Züge. Der Inquisit scheint, wie das ja auch in anderen Fällen bezeugt wird, von der Wahrheit seines Wahnes wirklich überzeugt zu sein,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "outcome": "The Council of Vienne in 1311-12 ruled as error the claim that those who live in the spirit of liberty owe no human obedience."
+   "verification_state": "verified-direct"
   },
   {
    "id": "the-beguines--free-spirit-heresy",
@@ -12291,14 +12377,47 @@
    "type": "in contact with",
    "confidence": "Dominant Modern Reconstruction",
    "note": "The church of Rus' was a province of the church of Constantinople. Mouravieff, a Russian church historian writing in 1838, says its chief bishops were named at Constantinople and answered to the patriarch there. One of them, Matthew, was sent from the city just before the crusaders took it.",
+   "outcome": "In 1124 the patriarch John made Nicetas the chief bishop of Rus'.",
    "sources": [
     {
      "kind": "secondary",
-     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "885-888",
+     "locus": "on the tie to the see of Constantinople",
+     "quote": "Hence  the  indissoluble  connection of  the  Russian  with  the  Greek  Church,  and  the  dependence of  her  Metropolitans  during  six  centuries  upon  the  Patri- archal  throne  of  Constantinople,",
+     "license": "public-domain"
     },
     {
      "kind": "secondary",
-     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1727",
+     "locus": "on the metropolitan John II",
+     "quote": "who  was  appointed  by  the  Patriarch  Eustratius4,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1927-1928",
+     "locus": "on the metropolitan Nicetas (1124)",
+     "quote": "consecrated  to  be  metropolitan  by  the  Patriarch  John,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "2295-2297",
+     "locus": "on the metropolitan Matthew",
+     "quote": "The  new  metropolitan,  Matthew,  was  a  witness  of  this calaroity-  He  was  sent  from  Constantinople  shortly  before its  capture  by  the  crusaders,",
+     "license": "public-domain"
     }
    ],
    "citation_specificity": "A",
@@ -12503,6 +12622,7 @@
    "type": "in contact with",
    "confidence": "Documented",
    "note": "Around 1200 a Coptic survey of Egypt's churches says the head bishop of Abyssinia is sent 'from the patriarch of Alexandria'. 'Abd al-Latif, writing in the same years, tells of an envoy from the Abyssinian king. The envoy reported the bishop's death and asked for a new one. A note in the Kebra Nagast names a Coptic book of 'the throne of Mark' in King Lalibela's time.",
+   "outcome": "Around 1200 the head bishop of the church in Abyssinia came from the patriarch in Egypt, who sent each one.",
    "sources": [
     {
      "kind": "primary",
@@ -12924,88 +13044,6 @@
      "locus": "Preface, p. xi",
      "quote": "entered Bohemia as strangers, and were almost immediately extirpated by the Hussite general, 2izka.",
      "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
-   "id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
-   "from": "latin-papal-church-avignon-to-lateran-v",
-   "to": "inquisition-record-sects-adamites-and-kin",
-   "type": "argued against",
-   "confidence": "Documented",
-   "note": "In December 1367 at Erfurt, a beghard called John Hartmann was questioned by Walter Kerling, named by the pope's authority to try heresy. Kerling put to him the first article of Ad nostrum, a decree of the Council of Vienne. In 1887 Wilhelm Wattenbach noted that the questions kept to the decree point by point. Such answers, he wrote, were often forced. But he judged that Hartmann's answers went far beyond the questions, and that the man seemed to believe them.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
-     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
-     "lines": "5775-5777",
-     "locus": "Instrument of 1367, opening",
-     "quote": "coram venerabili viro et religioso fratre Waltero Corlink,’ ordinis Predicatorum, saere theologie professore® et inquisitore heretice pra- vitatis auetoritate apostolica in certis partibus Almannie deputato,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Notarial record of the examination of John Hartmann, Erfurt, 1367, ed. Wattenbach (1887)",
-     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
-     "lines": "5795-5796",
-     "locus": "Instrument of 1367, first question",
-     "quote": "et sie interrogatus a predicto inquisitore' de primo artieulo in Clementinis de? heretieis ‘Ad nostrum’,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Council of Vienne (1311-12), editor's heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 471",
-     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
-     "lines": "14788",
-     "locus": "Denzinger, Council of Vienne",
-     "quote": "Conc. YIENNENSE 1311—1312.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Council of Vienne, Ad nostrum, editor's heading in Denzinger-Bannwart (1911), no. 471",
-     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
-     "lines": "14792-14793",
-     "locus": "Denzinger 471",
-     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste (1887)",
-     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
-     "lines": "5717-5719",
-     "locus": "commentary before the 1367 instrument",
-     "quote": "dass hier genau nach dem Schema der Clementinen V, 3, 3 gefragt wird, was ja einen gewissen Zweifel begründen kann, weil oft genug die Bejahung solcher Fragepunkte erzwungen ist.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste (1887)",
-     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
-     "lines": "5719-5723",
-     "locus": "commentary before the 1367 instrument",
-     "quote": "Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und ent- halten eine Fülle ganz individueller Züge. Der Inquisit scheint, wie das ja auch in anderen Fällen bezeugt wird, von der Wahrheit seines Wahnes wirklich überzeugt zu sein,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
-     "file": null,
-     "lines": null,
-     "locus": null,
-     "quote": null,
-     "license": null
     }
    ],
    "citation_specificity": "A",
@@ -14282,6 +14320,7 @@
    "type": "in contact with",
    "confidence": "Documented",
    "note": "In 1490 three Christians set out from India to ask the patriarch Simeon for bishops. He made two monks bishops and sent them back with the Indians. In 1504 a later group of bishops wrote to the patriarch from Malabar that its Christians had welcomed them.",
+   "outcome": "After Indian Christians came to him in 1490, the patriarch Simeon ordained two monks as bishops and sent them to India.",
    "sources": [
     {
      "kind": "primary",
@@ -14301,6 +14340,16 @@
      "lines": "1821-1826",
      "locus": "Mingana 1926, p. 37",
      "quote": "the Catholicos ordained both of them bishops in the Church of St. George. He named one Thomas and the other John, and he wrote to them admirable letters patent sealed with his own seal.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1825-1826",
+     "locus": "Mingana 1926, p. 37",
+     "quote": "he despatched  them  to  India  in  the  company  of  the  Indians.",
      "license": "public-domain"
     },
     {
@@ -24161,6 +24210,328 @@
    ],
    "citation_specificity": "A",
    "verification_state": "verified-direct"
+  },
+  {
+   "id": "armenian-christianity-conversion-era--cappadocian-nicene-pastoral-monastic-tradition",
+   "from": "armenian-christianity-conversion-era",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A Life of Nerses says he was made head of his church at Caesarea, in Cappadocia. It says the Armenians went there for this until the Council of Chalcedon. Moses of Khoren says the king later put a new head in Nerses's place without the archbishop of Caesarea. But Malachia Ormanian, a historian of their church, says Caesarea never ruled over it.",
+   "outcome": "At Caesarea, many bishops met and made Nerses the head of the church of Great Armenia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, anonymous, ch. III, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5103-5105",
+     "locus": "Vie de saint Nersès III",
+     "quote": "afin de consacrer avec pompe le grand Nersès comme catholicos de la Grand^Arménie,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Saint Nerses, ch. IV-V (Langlois II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "5214-5219",
+     "locus": "Vie de saint Nersès IV-V",
+     "quote": "C'est pour cette raison que les Arméniens allèrent demander leur consécration à Césarée jusqu'au concile de Chalcédoine.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moses of Khoren, History of Armenia III.39, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22694-22695",
+     "locus": "Hist. III.39",
+     "quote": "place de Nersès, sans l'intervention du grand ar- chevêque de Césarée",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Victor Langlois, note 7 to Moses of Khoren, History of Armenia III.39 (Collection des historiens de l'Arménie II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22732-22734",
+     "locus": "Moses of Khoren III.39, note 7",
+     "quote": "Les successeurs de saint Grégoire jusqu'à l'avéna- ment de Schahag furent consacrés à Césarée;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912), ch. IV",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1750-1752",
+     "locus": "ch. IV, 'Formation of the Ecclesiastical Hierarchy'",
+     "quote": "At  no  period  has  the  see  of  Caesarea,  nor  that  of Antioch  or  Constantinople,  exercised  any  authority or  jurisdiction  in  Armenia  properly  so  called  ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--makurian-nubian-christianity--2",
+   "from": "coptic-christianity-under-early-islam",
+   "to": "makurian-nubian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "A Coptic history of the 700s describes the king of Makuria in Nubia. It says the patriarch in Egypt ordained his chief bishop, who then ordained the bishops and priests of the land. Whenever a chief bishop died, it says, the patriarch of Alexandria chose and ordained the next.",
+   "outcome": "In the mid-700s the patriarch in Egypt chose and ordained each chief bishop of Makuria.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7139-7141",
+     "locus": "Pt. I, ch. XVIII (Michael I, 744-768)",
+     "quote": "He  was  the  orthodox  Ethiopian  king of  Al-Mukurrah;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7181-7183",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "and  he  has  in  his  country  an  orthodox  bishop  whom the  patriarch  ordains  as  metropolitan,  and  who  ordains  for  the  king  tlie bishops  and  the  priests  in  that  land.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "lines": "7183-7185",
+     "locus": "Pt. I, ch. XVIII (Michael I)",
+     "quote": "And  when  the  metropolitan  dies,  the patriarch  of  Alexandria  appoints  another  for  him,  wliom  he  chooses,  and  or- dains  him  for  that  people.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction",
+     "file": "cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt",
+     "lines": "4431-4432",
+     "locus": "Griffith 1913, introduction",
+     "quote": "The Nubian church became dependent on the Monophysite Coptic patriarch of Alexandria after the Moslem conquest of Egypt,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v--2",
+   "from": "franciscan-order-era-6",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "An Observant chronicle says that in 1517 Pope Leo X issued two bulls for the Franciscans. One joined all the reformed friars into a single body. The other set terms between the head of the whole order and the head of the Conventual friars. The chronicle's editors wrote in 1887 that Leo had made two separate orders.",
+   "outcome": "In 1517 Pope Leo X made the reformed friars one body under their own head, set apart from the Conventual friars.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37436-37438",
+     "locus": "ann. 1517 (p. 557)",
+     "quote": "ele- ctus  est  et  tandem  a sanctissimo  domino  nostro,  domino  Leone  X.  Summo  Pontifice , confirmatus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37441-37443",
+     "locus": "ann. 1517 (p. 557)",
+     "quote": "altera  vocatur  Bulla Concordiae  inter  Generalem  Ministrum  lotius  Ordinis  et  Generalem  Magistrum,  Fra- trum Conventualium  eiusdem  Ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1517, ed. Quaracchi, Analecta Franciscana II (1887), summary of the bull of union",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "37513-37515",
+     "locus": "ann. 1517 (p. 558)",
+     "quote": "Ex quibus  omnibus  supradictis  unum  corpus  insimul  facientes,  eosdem  ad  invicem  per- petuo unimus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Quaracchi editors, preface to Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "536-539",
+     "locus": "Praefatio, p. XIV",
+     "quote": "Leo  X.  a.  1517 melius  esse  iudicavit,  attenta  inveterata  a saeculis  diversitate observantiae,  duos  distinctos  Ordines  perfecte  separatos  con- stituere,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. III (1888), ch. II",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "3358-3360",
+     "locus": "vol. III p. 65",
+     "quote": "until  it  was  finally  absorbed  into  the  latter  in  the  re- organization  of  1517  under  Leo  X.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--observant-reform-and-popular-preaching",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1415 the Council of Constance named a vicar general over the Observant friars of France, Burgundy and Touraine. In 1443 Pope Eugenius IV confirmed two vicars general for the Observants, one for each side of the Alps. The head of the Franciscans had named them at the pope's wish. In 1446 the pope ruled that the Observants would elect their own vicars general every three years. He said he was following rules of the Council of Constance and of Pope Martin V.",
+   "outcome": "In 1446 Pope Eugenius IV ruled that the Observants would choose their own leaders, and the head of the order had to confirm them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1415, ed. Quaracchi, Analecta Franciscana II (1887), the decree of the Council of Constance on the Observants",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18533-18534",
+     "locus": "ann. 1415",
+     "quote": "per  Fratres  de  Observantia  Provinciarum Franciae,  Burgundiae  et  Turoniae",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of Nicholas Glassberger, Observant friar, ann. 1415, ed. Quaracchi, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18553-18555",
+     "locus": "ann. 1415",
+     "quote": "quem  instituit  sacrum  concilium  in  Vicarium  Genera- lem super  Fratres  de  Observantia  in  Provinciis  superius  nomi- natis commorantes,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Quaracchi editors, note 3 to Glassberger's chronicle, ann. 1415, Analecta Franciscana II (1887)",
+     "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "lines": "18589",
+     "locus": "ann. 1415, note 3",
+     "quote": "Cfr.  Wadding.,  1.  c.  ad  an.  1415,  n.  VII;  ibi  habetur  integra  ordinatio,  quae  hic  indicatur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam (Siena, 1 August 1443), confirming the minister general's letters naming vicars general of the Observants; Bullarium Franciscanum, nova series I, no. 705, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "56705-56710",
+     "locus": "no. 705",
+     "quote": "Sane pridem ex Nostra dispositione dilectus filius Antonius de Rusconibus, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, no. 705 (1443), Bullarium Franciscanum, nova series I, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "56712-56718",
+     "locus": "no. 705",
+     "quote": "filios Iohannem de Capistrano domorum, loco- rum et conventuum citramontanarum, necnon Iohannem de Mauberto, eiusdem ordinis profes- sores, domorum, locorum et conventuum omnium et singulorum ultramontanarum partium dicti ordinis sub sacro observantiae nomine consti- tutarum vicarios generales fecit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra ordinis Minorum religio (Rome, 23 July 1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "79991-79997",
+     "locus": "no. 1007",
+     "quote": "Antonius de Rusconibus, sacrae theo- logiae professor ac ordinis Minorum generalis minister, Nobis suadentibus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80016-80019",
+     "locus": "no. 1007",
+     "quote": "inhaerentes constitutionibus et sta- tutis super huiusmodi dispositionibus editis sacri Constantiensis concilii et fel. rec. Martini pa- pae V, praedecessoris Nostri,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80024-80026",
+     "locus": "no. 1007",
+     "quote": "ut deinceps vicarius generalis ipso- rum fratrum de observantia ultramontanus circa; finem triennii,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80058-80065",
+     "locus": "no. 1007",
+     "quote": "et eligere sint adstricti unum religiosum eiusdem ordinis in eorum similem vicarium generalem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ut sacra (1446), Bullarium Franciscanum, nova series I, no. 1007, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80063-80066",
+     "locus": "no. 1007",
+     "quote": "ipse vero generalis minister infra triduum a praesentatione sibi facta praedictum electum (*) confirmare te- neatur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulric Huntemann, note 1 to no. 1007, quoting the papal register, Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "79964-79965",
+     "locus": "no. 1007, note 1",
+     "quote": "Item similis bulla de verbo ad verbum, excepto quod ubi superius est hoc vocabulum witramontanis in alia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulric Huntemann, note 1 to no. 1007 (continued), Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "80034",
+     "locus": "no. 1007, note 1",
+     "quote": "est cismontanis et econtra;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulric Huntemann, preface to Bullarium Franciscanum, nova series I (Quaracchi, 1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "196-198",
+     "locus": "Praefatio",
+     "quote": "Eugenius IV sepa- rationem perficere decrevit, statuens, ut fratribus observantiae duo vicarii generales praesint, alter cismontanis, alter ultramontanis,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
   }
  ],
  "movements": [
@@ -30248,7 +30619,7 @@
     "Gregory the Great — pope from 590 to 604, monk, the only narrator of Benedict's life, and the writer of more than 850 surviving letters",
     "The anonymous author of the Rule of the Master — the longer, older rule Benedict abbreviated; the writer's name is unknown"
    ],
-   "legacy": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time. Monks live there now.",
+   "legacy": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and Allied bombing in 1944 is reported to have destroyed it. Monks live there now.",
    "experienceToday": [
     {
      "text": "The Abbey of Monte Cassino, Italy — Benedict's own foundation of around 529, destroyed and rebuilt many times over and again a working monastery",
@@ -32566,6 +32937,11 @@
      "work": "Cambridge History of Christianity, vol. 3, ch. 5: 'Germanic Christianities, 600-1100' (Lesley Abrams)",
      "type": "reference",
      "note": "From the vol. 3 TOC; covers the Anglo-Saxon world."
+    },
+    {
+     "work": "Alcuin, poem on the sack of Lindisfarne (De rerum humanarum vicissitudine et clade Lindisfarnensis monasterii), in Migne, Patrologia Latina 100-101 (1863)",
+     "type": "primary",
+     "note": "Alcuin's lament to the bishop and monks of Lindisfarne for the day a pagan band came suddenly by ship. A contemporary witness to the raid that closes this period."
     }
    ],
    "continuesAs": "late-anglo-saxon-christianity",
@@ -32845,7 +33221,7 @@
    "sourcing": "Rich: Theodore the Studite's huge pastoral corpus; iconoclast side survives only in hostile quotation (named problem)",
    "floorNote": "No question",
    "relationsSummary": "Heir of Greek monastic lines; forerunner of Athonite monasticism",
-   "why": "Twice over a century, Byzantine emperors tried to purge Christian worship of images, and both times monks led the resistance, arguing that a God who had become visible in a human being could rightly be painted. Stephen the Younger was killed for the argument in 765, and Theodore of Stoudios was beaten, imprisoned and exiled more than once before icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+   "why": "Twice over a century, Byzantine emperors tried to purge Christian worship of images. Both times monks led the resistance. They argued that a God who had become visible in a human being could rightly be painted. Stephen the Younger's Life says he was killed for the argument in 765. Theodore of Stoudios, by his own letters' account, was beaten, imprisoned and exiled more than once. Icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
    "entry": null,
    "sources": [
     {
@@ -32883,7 +33259,7 @@
    "streams": [
     "hesychast-philokalia"
    ],
-   "longDescription": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images, and both times the strongest organized resistance came from the monasteries. The monks argued that because God had genuinely become a human being who could be seen, he could be depicted — that refusing the image was, in the end, refusing the Incarnation. And they paid for the argument. Stephen the Younger was killed in 765, and Theodore, abbot of the great Stoudios monastery in Constantinople, was beaten, imprisoned and exiled more than once while still producing letters, talks to his monks, and treatises on the holy icons. Images were restored once at the Council of Nicaea in 787 and finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy. One thing is worth knowing about the story as we have it. The winning side wrote the record, and the iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
+   "longDescription": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images. Both times the strongest organized resistance came from the monasteries. The monks argued that God had truly become a human being who could be seen, so he could be painted. To refuse the image was, in the end, to refuse the Incarnation. And they paid for the argument. Stephen the Younger, his Life says, was killed in 765. Theodore, abbot of the great Stoudios monastery in Constantinople, tells in his own letters how he was beaten, imprisoned and exiled more than once. Through it all he kept writing letters, talks to his monks, and treatises on the holy icons. Images were restored once at the Council of Nicaea in 787, and for good in 843. The Orthodox churches still keep that day as the Triumph of Orthodoxy. One thing is worth knowing about the story as we have it. The winning side wrote the record. The iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
    "teaser": "Constantinople and Bithynia, 726 to 843 — monks who argued that a God who had taken a human face could be painted, and were beaten, exiled and killed for saying so.",
    "voices": [
     "John of Damascus — whose three treatises in defense of images, written safely outside the empire, gave the movement its theology",
@@ -33713,7 +34089,7 @@
    "sourcing": "Known almost wholly through hostile heresiology",
    "floorNote": "Their opponents accuse them of dualism — of holding that the visible world was made by an evil power rather than by God — and of denying that Christ was divine by nature rather than adopted. Because no Paulician account of their own belief survives, those charges can be neither confirmed nor cleared. The same difficulty attaches to other movements of the period who are known only through the writings of their enemies.",
    "relationsSummary": "The Byzantine emperors moved them from their homes in large numbers. Most of what we know of them comes from their enemies.",
-   "why": "Byzantine heresy hunters describe the Paulicians as rejecting the Old Testament, the cross and the sacraments, though whether that is what the movement itself believed or what its enemies needed it to believe cannot now be settled, since no Paulician account of their own faith survives. What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+   "why": "Byzantine heresy hunters say the Paulicians rejected the Old Testament, the cross and the sacraments. Whether they truly believed that, or their enemies needed them to, cannot now be settled. No account of their faith in their own words survives. What is certain is what happened to them. The empire persecuted them and condemned them to the flames. The survivors built a fortified state at Tephrike on the frontier. By Byzantine accounts they raided the empire's lands until the town fell in 878.",
    "entry": null,
    "sources": [
     {
@@ -33747,7 +34123,7 @@
      "type": "reference"
     }
    ],
-   "longDescription": "The Paulicians appear in the record between the seventh and ninth centuries in Armenia and eastern Anatolia, and almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters describe a movement that rejected the Old Testament, the cross, the sacraments and the veneration of Mary, and held a dualist view of the world. Whether that is what the Paulicians believed, or what their enemies needed them to believe, cannot now be settled. What is not in doubt is what was done to them. Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878. Later emperors deported whole Paulician populations to the Balkans.",
+   "longDescription": "The Paulicians appear in the record from the seventh to the ninth century, in Armenia and eastern Anatolia. Almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters say the movement rejected the Old Testament, the cross, the sacraments and the honor paid to Mary. They say it held that the world was split between a good power and an evil one. Whether they truly believed that, or their enemies needed them to, cannot now be settled. What is not in doubt is what was done to them. The empire persecuted them and condemned them to the flames. The survivors built a fortified state of their own at Tephrike on the frontier, and made common cause with the Arabs. By Byzantine accounts they raided the empire's lands until the fortress fell in 878. Later emperors forced whole Paulician groups to move to the Balkans.",
    "teaser": "Armenia and the Byzantine frontier, c. 650 to 878 — a movement described only by the people who destroyed it, which ended up holding a fortress state of its own against the empire that hunted it.",
    "voices": [
     "Constantine-Silvanus — named in Byzantine sources as the movement's founder in the seventh century, and reported killed by the authorities",
@@ -33915,7 +34291,7 @@
    "sourcing": "Moderate: rune stones and Adam of Bremen contemporaneously; the vivid sagas are 13th-c. retrospectives (tier care)",
    "floorNote": "No question",
    "relationsSummary": "Frankish missions came first, led from Hamburg and then Bremen. Missions from England probably came later. In the year 1000 Iceland chose to become Christian by a public vote at its assembly, the Althing.",
-   "why": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once. Iceland took a different road: in the year 1000 the pagan law-speaker Þorgeir, after a night's deliberation, ruled at the island's own assembly that all Icelanders would be baptized, a whole community changing religion by public decision rather than by force.",
+   "why": "Christianity came to Scandinavia through kings as much as missionaries. Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian. The Norwegian king Olaf Haraldsson was killed in battle. He was honored as a saint almost at once, and later writers made him a martyr for the faith. Iceland took a different road. In the year 1000 the pagan law-speaker Þorgeir thought it over for a night. Then he ruled at the island's own assembly that all Icelanders would be baptized. A whole people changed its faith by public decision rather than by force.",
    "entry": null,
    "sources": [
     {
@@ -33950,7 +34326,7 @@
      "note": "Both chapters are from the vol. 3 TOC; Abrams is the scholar of Scandinavian conversion - a direct fit."
     }
    ],
-   "longDescription": "Christianity came north in fits and starts over nearly three centuries. A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results. Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once. Iceland took a different road: in the year 1000 the question was put to the Althing, the island's assembly, and the pagan law-speaker Þorgeir, after a night's deliberation, ruled that all Icelanders should be baptized, with some old practices tolerated privately for a time — a whole community changing religion by public decision rather than by conquest. The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany. The sagas that tell these stories most vividly were written down two centuries later.",
+   "longDescription": "Christianity came north in fits and starts over nearly three centuries. A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results. Then came the kings. Harald Bluetooth set up a great carved stone at Jelling claiming that he had 'made the Danes Christian'. In Norway there were the two Olafs. As the sagas tell it, their methods included force, and one of them was killed in battle and venerated as a saint almost at once. Iceland took a different road. In the year 1000 the question was put to the Althing, the island's assembly. The pagan law-speaker Þorgeir thought it over for a night. Then he ruled that all Icelanders should be baptized, though some old practices were allowed in private for a time. A whole community changed its religion by public decision rather than by conquest. The window closes in 1104, when the northern church received its own archbishop at Lund. It stopped being mission ground run from Germany. The sagas that tell these stories most vividly were written down two centuries later.",
    "teaser": "Denmark, Norway, Sweden and Iceland, c. 826 to 1104 — one of the very few conversions anywhere that a whole people is recorded as having settled by public decision at its own assembly.",
    "voices": [
     "Anskar — the Frankish monk whose ninth-century missions to Denmark and Sweden opened the north, and whose life was written by his successor Rimbert",
@@ -34669,9 +35045,9 @@
    "sourcing": "Rich: Alfred's own prefaces, the Benedictine Reform documents (Regularis Concordia c. 973), Aelfric and Wulfstan's homiletic corpus, the Anglo-Saxon Chronicle",
    "floorNote": "No question",
    "relationsSummary": "It came through the Viking age and revived under Alfred. The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
-   "why": "The Viking wars nearly destroyed English Christianity, and when Alfred of Wessex set out to rebuild it, he complained he could barely find a priest south of the Thames able to translate a Latin letter, so he launched a program translating essential books into English instead. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Benedictine rule, and Ælfric wrote well over a hundred English sermons so ordinary congregations could hear careful teaching in their own tongue, while Archbishop Wulfstan, preaching in 1014 as Danish invasions closed in, told the English their own sins had brought the disaster on them.",
+   "why": "In the Viking wars, by Alfred of Wessex's own account, England's churches were ravaged and burned. When he set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter. So he set out to put the books the clergy most needed into English. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Rule of Benedict. Ælfric wrote English sermons, well over a hundred by his editors' count, so that ordinary people could hear sound teaching in their own tongue. Archbishop Wulfstan preached in 1014, as Danish invasions closed in. He told the English that their own sins had brought the disaster on them.",
    "entry": null,
-   "longDescription": "The Viking wars nearly killed English Christianity. Monasteries were destroyed, whole dioceses lapsed, and when Alfred of Wessex set out to rebuild he complained that he could hardly find a priest south of the Thames able to translate a Latin letter. His answer was a translation program — Gregory the Great's Pastoral Care and other essential books put into English so that clergy could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald, refounded the monasteries on the Benedictine rule and produced an agreed customary for the whole country. The vernacular stayed central throughout: Ælfric wrote well over a hundred sermons in English so that ordinary congregations could hear careful teaching in their own tongue, and Archbishop Wulfstan, preaching in 1014 as the Danish invasions closed in, told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent development.",
+   "longDescription": "In the Viking wars, Alfred of Wessex wrote, the churches were ravaged and burned, and learning all but died out. Whole dioceses lapsed. When Alfred set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter. His answer was a program of translation. Gregory the Great's Pastoral Care and other books the clergy needed were put into English, so that they could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later came a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald. They refounded the monasteries on the Rule of Benedict and drew up one agreed customary for the whole country. The English language stayed central throughout. Ælfric wrote sermons in English, well over a hundred by his editors' count, so that ordinary people could hear careful teaching in their own tongue. Archbishop Wulfstan preached in 1014 as the Danish invasions closed in. He told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent growth.",
    "teaser": "England, c. 793 to 1066 — a church rebuilt twice, once by a king who could barely find a literate priest and once by monks, and unusual in Europe for preaching and writing in the language people actually spoke.",
    "voices": [
     "Alfred the Great — king who launched a program of translating essential books into English and revived learning after the Viking wars",
@@ -36772,7 +37148,7 @@
    "sourcing": "Substantially a construct of its persecutors (scholarly consensus since Lerner)",
    "floorNote": "Cannot be assessed - the 'movement' may never have existed as described",
    "relationsSummary": "Beguine suppression used it as a charge",
-   "why": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+   "why": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, often because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards. There was also a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
    "entry": null,
    "sources": [
     {
@@ -36805,7 +37181,7 @@
      "type": "reference"
     }
    ],
-   "longDescription": "In the early fourteenth century the church declared that a sect existed. The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by beguines and beghards in Germany. Their core claim was that a soul made perfect in this life can no longer sin, and needs neither the church nor the virtues any longer. One error spoke of people living 'in the spirit of liberty'. Interrogators then went looking for people who held them, and found them, because the questions supplied the answers. Modern research, above all Robert Lerner's study of 1972, concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards, and a charge that could be laid against any part of it. The movement named here probably was not real; the charge and its victims certainly were.",
+   "longDescription": "In the early fourteenth century the church declared that a sect existed. The decree Ad nostrum, issued at the Council of Vienne in 1312, listed eight errors said to be held by beguines and beghards in Germany. Their core claim was that a soul made perfect in this life can no longer sin. Such a soul needs neither the church nor the virtues any longer. One error spoke of people living 'in the spirit of liberty'. Interrogators then went looking for people who held them, and found them, often because the questions supplied the answers. Modern research, above all Robert Lerner's study of 1972, concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards. There was also a charge that could be laid against any part of it. The movement named here probably was not real; the charge and its victims certainly were.",
    "teaser": "The Rhineland and the Low Countries, thirteenth and fourteenth centuries — a heresy that was defined before anyone had been found holding it, and that most historians now think never existed as an organized movement at all.",
    "voices": [
     "Marguerite Porete — burned at Paris in 1310, and the one person condemned under this charge who left a substantial book in her own voice; she never used the label, and whether her Mirror of Simple Souls teaches what Ad nostrum condemned is precisely the disputed question",
@@ -37261,7 +37637,7 @@
     "Gratian — the canonist whose Decretum, compiled around 1140, gave the Western church a usable body of law",
     "Innocent III — under whom the papal monarchy reached its widest reach, and who summoned the Fourth Lateran Council in 1215"
    ],
-   "legacy": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council made Jews and Muslims in Christian lands wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
+   "legacy": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council's canons ordered Jews and Muslims in Christian lands to wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
    "experienceToday": [
     {
      "text": "Rome, Italy — the Archbasilica of St John Lateran, the pope's own cathedral and the setting of the great Lateran councils of 1123, 1139, 1179 and 1215",
@@ -38242,7 +38618,7 @@
     }
    ],
    "teaser": "England, c. 1330 to 1440 — hermits, anchoresses and a weeping townswoman who wrote about God in English, in the first person, when almost nobody else did.",
-   "longDescription": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe was a brewer's wife from Bishop's Lynn, a mother of fourteen who could not write. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "longDescription": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe, a mayor's daughter from Bishop's Lynn, ran a brewery of her own for a few years. She could not write. Her own book says she bore fourteen children. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
    "voices": [
     "Richard Rolle — Yorkshire hermit whose Fire of Love helped make devotional writing in English popular",
     "Walter Hilton — Augustinian canon whose Scale of Perfection became the era's standard guide to the interior life",
@@ -39053,7 +39429,7 @@
    "sourcing": "RICH: royal chronicles, saints' lives in quantity (royal-sponsorship gravity needs care)",
    "floorNote": "No question",
    "relationsSummary": "This is the old Christian faith of Aksum and of the Zagwe kings. It was carried on under a new royal line, the Solomonic dynasty.",
-   "why": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "why": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
    "entry": null,
    "sources": [
     {
@@ -39091,7 +39467,7 @@
     "oriental-orthodox"
    ],
    "teaser": "The Ethiopian highlands, c. 1270 to 1517 — an independent Christian kingdom whose monks argued with its emperors, and often won.",
-   "longDescription": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "longDescription": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
    "voices": [
     "Tekle Haymanot — the monastic founder whose Shewan network of houses carried the church across the expanding kingdom",
     "Ewostatewos — whose insistence on keeping both Saturday and Sunday as Sabbaths made his followers a persecuted movement for a century, until the church conceded",
@@ -39346,7 +39722,7 @@
    "sourcing": "Rich: Bernardino's sermon-cycles taken down as spoken - near-transcripts of mass lay formation",
    "floorNote": "No creedal question. Nor does the movement stand or fall with a single figure: it had many founders across several orders, and its claim rested on keeping the Rule strictly rather than on any leader's person. Savonarola, the one Observant whose following really did gather around himself, is the exception rather than the pattern.",
    "relationsSummary": "A reform of the friars' orders that began inside the Franciscan order in 1368 and spread to other orders. In Spain it worked against the background of the converso crisis, from the pogroms of 1391 to the expulsion of 1492.",
-   "why": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "why": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano also drove the persecution of Jewish communities. In 1447 the pope made him enforcer of the papal laws restricting Jews and Muslims in Italy. The most notorious case was at Breslau in 1453, where Jews were burned.",
    "entry": null,
    "sources": [
     {
@@ -39378,10 +39754,15 @@
      "work": "Cambridge History of Christianity vol. 4, ch. 29 'Observant reform in religious orders' (Roest); cf. ch. 30 'Public purity and discipline' (Rusconi)",
      "type": "reference",
      "note": "A dedicated chapter by the Companion's co-editor - a direct fit."
+    },
+    {
+     "work": "Bullarium Franciscanum, nova series, vol. I (1431-1455), ed. Ulric Hüntemann (Quaracchi, 1929)",
+     "type": "primary",
+     "note": "Papal letters of Bernardino's and Capistrano's years, in Latin. Among them is Nicholas V's letter of June 1447, which renews the decrees restricting Jews and Muslims in Italy and makes Capistrano their enforcer."
     }
    ],
    "teaser": "Italy and Spain, c. 1368 to 1517 — friars who went back to the strict rule, and then preached it to whole cities standing in the square.",
-   "longDescription": "The Observance began as an argument inside the religious orders. Its friars said the Rule should be kept as it was written. It should not be kept as years of exceptions had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. In the end, reformed houses formed rival provinces beside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the square to hear him for weeks on end. In 1427 he preached forty-five sermons at Siena. A listener in the crowd took them down as he spoke, with his asides and the crowd's reactions. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. John of Capistrano did the same across central Europe. The movement's dark side belongs in the same story. Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "longDescription": "The Observance began as an argument inside the religious orders. Its friars said the Rule should be kept as it was written. It should not be kept as years of exceptions had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. In the end, reformed houses formed rival provinces beside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the square to hear him for weeks on end. In 1427 he preached forty-five sermons at Siena. A listener in the crowd took them down as he spoke, with his asides and the crowd's reactions. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. John of Capistrano did the same across central Europe. The movement's dark side belongs in the same story. Capistrano also drove the persecution of Jewish communities. In 1447 the pope made him enforcer of the papal laws restricting Jews and Muslims in Italy. The most notorious case was at Breslau in 1453, where Jews were burned.",
    "voices": [
     "Paoluccio Trinci — began the Franciscan Observance with a few friars at Brugliano in 1368",
     "Bernardino of Siena — the movement's great preacher, whose Siena sermons of 1427 survive as a listener's near-transcript",
@@ -39844,26 +40225,16 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Heresiological artifacts in the Free Spirit pattern",
+   "sourcing": "Known only from hostile chronicles",
    "floorNote": "Cannot be assessed",
-   "relationsSummary": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421. In 1367 a papal judge of heresy put the Council of Vienne's list of errors to a man he questioned.",
-   "why": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne. That list passed among inquisitors as a template. Since Robert Lerner's study of 1972, historians have concluded that the template made much of what later questioning 'found'. Some of these people were certainly real. What they are recorded as believing may say more about their questioners than about them.",
+   "relationsSummary": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421.",
+   "why": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The 'heresy of the Free Spirit' in Germany is a parallel case. Some of these people were certainly real. What they are recorded as believing may say more about their enemies than about them.",
    "entry": null,
    "sources": [
     {
      "work": "The Bohemian 'Adamites' of 1421: accounts in Lawrence of Brezova's chronicle and later in Aeneas Sylvius; partial English via Fudge's Hussite-crusade volume",
      "type": "primary",
      "note": "Hostile, and doubly filtered: a community exterminated by Zizka's own Taborites — radicals describing the radicals they killed. No inside voice survives."
-    },
-    {
-     "work": "Free Spirit-pattern interrogations: John of Bruenn's deposition; the Schweidnitz beguine interrogations (1332)",
-     "type": "primary",
-     "note": "A hostile, coerced source: answers shaped by the questioners' own template for what heresy should look like — the same pattern seen in other Free Spirit cases."
-    },
-    {
-     "work": "The heresiological template itself: Ad nostrum (Vienne, 1312; trans. in Tanner, Decrees of the Ecumenical Councils, 1990) and circulating inquisitors' error-lists",
-     "type": "primary",
-     "note": "A hostile construction: the template document that could generate a 'sect' on paper, whether or not one existed in practice."
     },
     {
      "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (California, 1972)",
@@ -39877,9 +40248,9 @@
     }
    ],
    "teaser": "Central Europe, the fourteenth and fifteenth centuries — groups that may have been movements, or may have been what the interrogators already expected to find.",
-   "longDescription": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. Take the Bohemian Adamites of 1421. They are described as a naked band on an island in southern Bohemia, who shared everything and waited for the end of the world. They appear in the chronicles of people who despised them, and in the account of a later outside observer. The Taborites destroyed them, so no voice from inside survives at all. The wider 'heresy of the Free Spirit' works in much the same way. A list of errors condemned at the Council of Vienne passed among inquisitors as a template. Much of what later questioning 'found' matches that template closely. Since Robert Lerner's work in 1972, historians have concluded that a good deal of it was made by the questioning rather than found by it. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided. It was forced out of people, and shaped in advance by the questions.",
+   "longDescription": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. Take the Bohemian Adamites of 1421. They are described as a naked band on an island in southern Bohemia, who shared everything and waited for the end of the world. They appear in the chronicles of people who despised them, and in the account of a later outside observer. The Taborites destroyed them, so no voice from inside survives at all. The 'heresy of the Free Spirit' in Germany is a parallel case. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided. It comes from their enemies, and it may have been shaped by what those enemies expected to find.",
    "voices": [
-    "No voice from inside any of these groups survives. Every name we have — John of Brünn, the beguines interrogated at Schweidnitz in 1332, the Adamites of 1421 — reaches us only as a defendant in someone else's record, answering questions written before they were asked"
+    "No voice from inside any of these groups survives. The Adamites of 1421 reach us only through their enemies. Their beliefs come down as a list of errors that Žižka, the Taborite captain, sent to Prague after they were killed"
    ],
    "legacy": "Nothing institutional survives. In some cases there may have been nothing to survive, since several of these 'sects' may never have existed in the form the records describe. What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith."
   },
@@ -40237,14 +40608,14 @@
    "id": "church-of-the-east-timur-to-hakkari",
    "atlasId": "V.17",
    "era": 6,
-   "name": "The Church of the East — Timur's Catastrophe and the Hakkari Remnant",
+   "name": "The Church of the East — Timur's Catastrophe and the Northern Remnant",
    "shortName": "CoE after Timur",
-   "informalName": "The Mountain Remnant of Asia's Great Church",
+   "informalName": "The Northern Remnant of Asia's Great Church",
    "dates": "1317-1517",
    "start": 1317,
    "end": 1517,
-   "region": "Mesopotamia, then the Hakkari-Van-Urmia triangle",
-   "placeLabel": "Mesopotamia · Hakkari-Van-Urmia triangle",
+   "region": "Mesopotamia, then the Upper Tigris and the Hakkari-Van-Urmia triangle",
+   "placeLabel": "Upper Tigris · Hakkari-Van-Urmia triangle",
    "modernCountries": [
     {
      "country": "Turkey",
@@ -45048,13 +45419,13 @@
    "chip": "exc",
    "glyph": "a5",
    "statusWord": "Named within another tradition's story",
-   "statusDescription": "Not counted as a candidate tradition of its own: the schism of 1552 is told as the closing arc of the Church of the East from Timur to Hakkari, and the Chaldean line continues in the entry that follows it.",
+   "statusDescription": "The schism of 1552 is not counted as a tradition of its own. It is told as the closing chapter of the Church of the East after Timur. The Chaldean line carries on in the movement that follows.",
    "living": false,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Thin: mostly succession lists and colophons. Sulaqa's profession of faith and consecration at Rome are documented from the Roman side.",
    "floorNote": "No question — both patriarchal lines belong to the same ancient communion and share the same faith.",
-   "relationsSummary": "Opponents of the hereditary succession elect Yohannan Sulaqa. Rome makes him patriarch in 1553, and he is killed at home in 1555. From then on the communion has two rival patriarchs. In Malabar, the same communion's Indian church faced its own crisis under Portuguese rule, which ended in the Coonan Cross Oath of 1653. The story grows out of the Church of the East of Timur's age and the Hakkari mountains. The Chaldean consolidation of the 1800s carries it on.",
+   "relationsSummary": "Opponents of the hereditary succession elect Yohannan Sulaqa. Rome makes him patriarch in 1553, and he is killed at home in 1555. From then on the communion has two rival patriarchs. In Malabar, the same communion's Indian church faced its own crisis under Portuguese rule, which ended in the Coonan Cross Oath of 1653. The story grows out of the Church of the East after Timur. The Chaldean consolidation of the 1800s carries it on.",
    "why": "By the sixteenth century, the Church of the East's highest office had become hereditary, passing from uncle to nephew within a single family. In 1552 a dissenting party elected a monastery superior, Yohannan Sulaqa, who traveled to Rome, was consecrated patriarch there in 1553, and was arrested and killed on his return home in 1555 — beginning a division into two rival patriarchates that has never fully healed.",
    "entry": null,
    "streams": [
@@ -63109,6 +63480,12 @@
    "date": "2026-11-08",
    "reason": "The 1662 ejection is carried by the Old Dissent link on the same evidence (the Act of Uniformity and Baxter). The Puritanism movement ends in 1660; the ejected ministers of 1662 are the start of Old Dissent.",
    "replacedBy": "english-old-dissent--restoration-georgian-church-of-england"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "date": "2026-11-08",
+   "reason": "The 1367 Erfurt suspect belongs to the Free Spirit story, not to the Adamites and other groups of this era. His case is carried by the papal church's link to the Free Spirit.",
+   "replacedBy": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy"
   }
  ],
  "retiredMovements": []

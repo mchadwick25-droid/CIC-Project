@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
+import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -279,4 +279,17 @@ test('requireApprovedRun: refuses a run with no approved name or no cap', () => 
 test('requireApprovedRun: refuses a run that plans more characters than its cap', () => {
   assert.throws(() => requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 101), /plans 101 characters, over its --char-cap of 100/);
   requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 100);
+});
+
+test('narrationFingerprint: sha256 of the UTF-8 text', () => {
+  assert.equal(narrationFingerprint('abc'), 'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');
+  assert.notEqual(narrationFingerprint('caf\u00e9'), narrationFingerprint('cafe'));
+});
+
+test('recordingMatchesText: match, mismatch and missing fingerprint', () => {
+  const text = 'The story of x.';
+  assert.equal(recordingMatchesText({ file: 'x.mp3', text_sha256: narrationFingerprint(text) }, text), true);
+  assert.equal(recordingMatchesText({ file: 'x.mp3', text_sha256: narrationFingerprint(text) }, `${text} Edited.`), false);
+  assert.equal(recordingMatchesText({ file: 'x.mp3' }, text), false);
+  assert.equal(recordingMatchesText(undefined, text), false);
 });

@@ -59,6 +59,7 @@
  *   --char-cap <n>     Required (except --dry-run). The approved character limit;
  *                      a run that plans more refuses to start.
  */
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -167,6 +168,20 @@ export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn =
     }
   }
   return movement.longDescription;
+}
+
+/** sha256 (hex) of the exact narration text, as UTF-8 - the fingerprint a recording stores. */
+export function narrationFingerprint(text) {
+  return crypto.createHash('sha256').update(text, 'utf8').digest('hex');
+}
+
+/**
+ * True when a manifest entry's stored `text_sha256` equals the fingerprint of
+ * the text the movement narrates now. A missing entry or missing fingerprint
+ * is not current.
+ */
+export function recordingMatchesText(entry, text) {
+  return Boolean(entry && entry.text_sha256 && typeof text === 'string' && entry.text_sha256 === narrationFingerprint(text));
 }
 
 /**
@@ -319,7 +334,7 @@ async function run() {
       const text = narrationTextFor(movement);
       const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT });
       fs.writeFileSync(audioPathFor(movement.id), audio);
-      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT };
+      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, text_sha256: narrationFingerprint(text), voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT };
       fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + '\n');
       succeeded++;
       credits += cost;
