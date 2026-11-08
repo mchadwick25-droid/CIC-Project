@@ -590,3 +590,14 @@ Atlas World Map Decision-Log entry of the same date ("Change order: era 10 becom
 It also amends this log's entry "The link work covers eras 1 to 9" (2026-11-08) in one respect:
 era 10's traditions are now re-surveyed as history first, and P2-L10 waits for Mark's gate ruling
 on that re-survey. The census is unchanged until then.
+
+## 2026-11-08 — Evidence for recent movements (change order)
+
+**Decided (Mark: "yes as the writings are current or recent history so its more reliable than 2000
+years ago yes on 3"; "we have to be able to tell an accurate story, but use different criteria").**
+A movement after about 1930 shows the four marks of a defined movement by two kinds of evidence
+together: its own dated founding texts (beginning, carriers, name) and a standard scholarly
+reference work that recognizes it as a movement. Neither needs to be vendored in the Library. Each
+is cited in full with its verification state, and [S] never counts as verified. This amends the era
+10 re-run brief, which allowed only vendored texts and works the repo already cited. Full entry:
+Atlas World Map Decision-Log, same date.
