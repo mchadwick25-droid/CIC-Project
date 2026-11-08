@@ -549,4 +549,4 @@ repo for the same events, and it is added: Skinner (2009) on the 1794 Ruthenian 
 Frazee (1983) on the Avedik affair. The other six have none anywhere in the repo, so they become
 Inferential-Thin and their wanted studies are listed. Options shown: Thin and list the wanted
 studies (recommended); cite modern studies from outside the repo, unread; leave them Dominant.
-Applied as P2-L11c.
+Applied as P2-L11c, data release 20. Review added one more link of the same kind (Coptic Egypt to Makuria, on Griffith 1913 alone), also made Inferential-Thin.

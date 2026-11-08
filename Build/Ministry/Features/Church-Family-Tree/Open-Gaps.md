@@ -707,3 +707,7 @@ it, never by deleting it.
 121. **"One paid re-voicing batch after era 9" (2026-11-08) is closed.** All 155 stale tree
     recordings were re-voiced (3 in the sample, 152 in the run); none is stale now. Decision-Log,
     "Tree pages re-voiced after era 9", 2026-11-08.
+122. **Seven links wait for a modern study (2026-11-08).** Graded Inferential-Thin because no modern
+    study is cited in the repo for their reading (Decision-Log, "Dominant links on two or three old
+    accounts"). Any of them can go back to Dominant Modern Reconstruction once its study is read and
+    cited. The list, with the study each needs: `Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md`.
