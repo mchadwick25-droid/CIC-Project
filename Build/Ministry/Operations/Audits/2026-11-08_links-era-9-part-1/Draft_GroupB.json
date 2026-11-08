@@ -1,0 +1,876 @@
+{
+ "group": "B",
+ "movements": [
+  "the-stone-campbell-restoration-movement",
+  "restorationist-apocalyptic-ferment-and-adventism",
+  "nineteenth-century-baptists",
+  "the-sunday-school-and-bible-institute-movement"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "relationsSummary",
+   "sentence": "Child of the Awakening + Presbyterian line",
+   "other_id": "the-second-great-awakening-and-camp-meeting-worl",
+   "disposition": "link",
+   "link_id": "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
+   "prose_change": null,
+   "reason": "Documented by McNemar's 1808 history of the Kentucky revival (Stone wing)."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "relationsSummary",
+   "sentence": "Child of the Awakening + Presbyterian line",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No American Presbyterian movement on the map. McNemar (lines 1963-1965) shows Stone's group leaving 'the Presbyterian church'; the Campbells' Seceder Presbyterian roots need the Declaration and Address (wanted)."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "On opposite sides of the Appalachians, two sets of Presbyterians came independently to the same conclusion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Stone's side supported by McNemar (lines 1963-1969); the Campbell side is not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "Barton W. Stone and his colleagues dissolved their own presbytery in 1804 with a document called the Last Will and Testament of the Springfield Presbytery.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: McNemar's 1808 volume reprints the Last Will and Testament of Springfield Presbytery (from line 6480) and names it at line 5789."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "Five years later Thomas Campbell published the Declaration and Address, and with his son Alexander built a movement around the plea for no creed but the Bible and no name but Christian.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person and a text, not a movement relationship. Declaration and Address (1809) is not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "In 1832 the two groups shook hands and merged.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An internal union, no separate entry. The 1832 merger is not in any vendored text. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "Debating was their native genre — Alexander Campbell argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop, and published the transcripts himself — and by 1906, when the federal religious census listed the Churches of Christ separately for the first time, a movement founded to end division had recorded a division of its own.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No Presbyterian movement on the map for these debates; the transcripts are named in the movement's own source list (Campbell-McCalla 1823, Campbell-Rice 1843) and wanted."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "Debating was their native genre — Alexander Campbell argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop, and published the transcripts himself — and by 1906, when the federal religious census listed the Churches of Christ separately for the first time, a movement founded to end division had recorded a division of its own.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+   "prose_change": null,
+   "reason": "New argued-against link to the nineteenth-century Catholic Church (the Campbell-Purcell debate, 1837); DMR, transcript wanted."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "longDescription",
+   "sentence": "Debating was their native genre — Alexander Campbell argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop, and published the transcripts himself — and by 1906, when the federal religious census listed the Churches of Christ separately for the first time, a movement founded to end division had recorded a division of its own.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "prose_change": null,
+   "reason": "Existing gave-rise-to link; note rewritten for reading level."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "why",
+   "sentence": "In 1804 Barton Stone dissolved his own Presbyterian presbytery rather than keep a denominational name, and five years later Thomas Campbell published a plea for \"no creed but the Bible and no name but Christian.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported by McNemar, as above."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "why",
+   "sentence": "In 1804 Barton Stone dissolved his own Presbyterian presbytery rather than keep a denominational name, and five years later Thomas Campbell published a plea for \"no creed but the Bible and no name but Christian.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person and text; not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "why",
+   "sentence": "The two movements merged in 1832, and Alexander Campbell argued their case in public debates that ran for days and that he then published himself.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal union; not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "why",
+   "sentence": "The two movements merged in 1832, and Alexander Campbell argued their case in public debates that ran for days and that he then published himself.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person; the Catholic debate is carried by the new argued-against link."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "why",
+   "sentence": "By 1906, a movement founded to end division had recorded one of its own, when the federal census counted the Churches of Christ separately for the first time.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "prose_change": null,
+   "reason": "Existing link; note rewritten for reading level."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "legacy",
+   "sentence": "Three living streams descend from it — the Churches of Christ, the Christian Church (Disciples of Christ), and the Christian Churches and Churches of Christ — together numbering several million people worldwide, along with the colleges, journals and mission agencies they built.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "prose_change": null,
+   "reason": "Existing link; note rewritten for reading level."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "legacy",
+   "sentence": "Three living streams descend from it — the Churches of Christ, the Christian Church (Disciples of Christ), and the Christian Churches and Churches of Christ — together numbering several million people worldwide, along with the colleges, journals and mission agencies they built.",
+   "other_id": "disciples-of-christ-and-independent-christian-churches",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Existing link, note rewritten to stand alone."
+  },
+  {
+   "movement": "the-stone-campbell-restoration-movement",
+   "field": "legacy",
+   "sentence": "Three living streams descend from it — the Churches of Christ, the Christian Church (Disciples of Christ), and the Christian Churches and Churches of Christ — together numbering several million people worldwide, along with the colleges, journals and mission agencies they built.",
+   "other_id": "disciples-of-christ-and-independent-christian-churches",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "The independent Christian Churches are part of the Disciples entry; carried by the same link."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "relationsSummary",
+   "sentence": "Child of the Awakening's ferment",
+   "other_id": "the-second-great-awakening-and-camp-meeting-worl",
+   "disposition": "qualify",
+   "link_id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+   "prose_change": 3,
+   "reason": "Inferential-Thin link; summary cut back to the timing (no vendored Millerite text)."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "longDescription",
+   "sentence": "In the 1830s and 40s, thousands of Americans across denominations followed Baptist farmer William Miller's calculation that Christ would return around 1844 — and when the date passed without incident, in what believers still call the Great Disappointment, most walked away disillusioned.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names Miller's own church, not a relationship between movements (the Baptist entry does not name Miller). Miller's Evidence (1836) is not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "longDescription",
+   "sentence": "A determined remnant didn't: they reread their calculations, concluded the date had marked something other than Christ's visible return, and built lasting communities around that reinterpretation, most enduringly the Seventh-day Adventist Church and a cluster of related Adventist bodies.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "link",
+   "link_id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "prose_change": null,
+   "reason": "New continued-as link to the twentieth-century Adventist church; DMR."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "longDescription",
+   "sentence": "A determined remnant didn't: they reread their calculations, concluded the date had marked something other than Christ's visible return, and built lasting communities around that reinterpretation, most enduringly the Seventh-day Adventist Church and a cluster of related Adventist bodies.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single entry for the other Adventist bodies; Advent Christian records wanted. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "why",
+   "sentence": "A remnant did not: Hiram Edson, reinterpreting the date's meaning in a vision on his own farm the morning after, helped build what became the Seventh-day Adventist Church.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person. Edson's manuscript is named in the movement's sources as retrospective; not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "why",
+   "sentence": "A remnant did not: Hiram Edson, reinterpreting the date's meaning in a vision on his own farm the morning after, helped build what became the Seventh-day Adventist Church.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "link",
+   "link_id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Carried by the continued-as link."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "legacy",
+   "sentence": "This ferment became an ongoing denomination — the Seventh-day Adventist Church, now a global body of tens of millions, along with smaller related Adventist bodies that trace back to the same movement.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "link",
+   "link_id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Carried by the continued-as link. 'Tens of millions' sits loosely with the later entry's own count of some twenty-two million; left as written."
+  },
+  {
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "legacy",
+   "sentence": "This ferment became an ongoing denomination — the Seventh-day Adventist Church, now a global body of tens of millions, along with smaller related Adventist bodies that trace back to the same movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single entry; left as written."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "relationsSummary",
+   "sentence": "A pair of lay-formation methods that worked at industrial scale, from Robert Raikes's Sunday schools (from 1780) to D. L. Moody's Bible institute model (from 1886).",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names people, not movements. Raikes's notices are not vendored; Curnock's note to Wesley's Journal (v5, lines 5914-5917) dates Raikes's Gloucester start fourteen years after 1769, i.e. 1783, the year of the newspaper notice, against the text's 1780. Left standing; flagged. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "relationsSummary",
+   "sentence": "A pair of lay-formation methods that worked at industrial scale, from Robert Raikes's Sunday schools (from 1780) to D. L. Moody's Bible institute model (from 1886).",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person. Moody's institute (1886) is not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "longDescription",
+   "sentence": "In 1780 a Gloucester newspaper proprietor named Robert Raikes hired four women to teach the town's factory children to read on Sunday — their one free day — and then publicized the results in his own paper.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for Raikes."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "longDescription",
+   "sentence": "The idea traveled with extraordinary speed, and by the middle of the nineteenth century Sunday schools were teaching literacy along with religion to millions of working-class children in Britain and America, staffed overwhelmingly by unpaid women volunteers and organized by unions that supplied lessons, prizes and books at industrial scale.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported in part: the American Sunday School Union was publishing books in Philadelphia by 1830-31 (american-sunday-school-union_memoirs-of-francke_1831.txt, lines 1-4, 53-56)."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "longDescription",
+   "sentence": "A century after Raikes the same instinct produced the Bible institute: schools like D. L. Moody's in Chicago, opened in 1886, that took ordinary lay people rather than university graduates and trained them in a year or two as evangelists, teachers and missionaries.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for Moody."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "why",
+   "sentence": "In 1780, a Gloucester newspaper owner named Robert Raikes hired four women to teach the town's factory children to read on their one free day, and publicized the results in his own paper until the idea spread across Britain and America.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for Raikes."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "why",
+   "sentence": "A century later the same instinct produced the Bible institute — schools like D. L. Moody's in Chicago, opened in 1886, that trained ordinary lay people as evangelists and missionaries in a year or two.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for Moody."
+  },
+  {
+   "movement": "the-sunday-school-and-bible-institute-movement",
+   "field": "legacy",
+   "sentence": "The Bible institutes turned into colleges, and their graduates staffed the twentieth-century missionary agencies, radio ministries and publishing houses that carried evangelical Christianity around the world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A general reception claim with no single party; left as written. The sentence before it ('graded, standardized lesson series invented in the 1870s') is escalated."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "relationsSummary",
+   "sentence": "Spurgeon preached to thousands weekly at the Metropolitan Tabernacle.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person. No Spurgeon text is vendored; McGlothlin confirms him as a Baptist Union minister who died in 1892. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "relationsSummary",
+   "sentence": "The Southern Baptist Convention formed in 1845 out of the split over slavery.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported in part: McGlothlin prints the Convention's address 'at its organization in 1845' (lines 19100-19105). The slavery cause is not vendored. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "relationsSummary",
+   "sentence": "Landmarkism traced an unbroken Baptist succession back to the apostles, and the Down-Grade Controversy divided British Baptists late in the century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "McGlothlin names the 'Landmark' Baptists and J. M. Pendleton (lines 19185-19192); the succession teaching is not in a vendored text. Left standing as written under the open method question 'Well-known facts with no vendored source' (2026-11-07); its text is on the wanted list."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "relationsSummary",
+   "sentence": "Landmarkism traced an unbroken Baptist succession back to the apostles, and the Down-Grade Controversy divided British Baptists late in the century.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Baptist Union has no entry. 'Divided British Baptists' qualified to Spurgeon leaving the Union, per McGlothlin."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "longDescription",
+   "sentence": "Late in life he broke with the Baptist Union over what he called the Down-Grade, convinced his fellow ministers were quietly giving up the doctrines they had been ordained to preach.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: 'Spurgeon withdrew from the Union' (McGlothlin, lines 18773-18775). McGlothlin dates the withdrawal 1888; the common date is October 1887, so no year is added."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "longDescription",
+   "sentence": "In America the family split in 1845, when Baptists in the South, refused a slaveholding missionary appointment, formed the Southern Baptist Convention.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for the Southern Baptist Convention."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "longDescription",
+   "sentence": "In America the family split in 1845, when Baptists in the South, refused a slaveholding missionary appointment, formed the Southern Baptist Convention.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same 1845 split as the row above."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "longDescription",
+   "sentence": "Running alongside was Landmarkism, which held that only true Baptist congregations were churches at all and traced an unbroken Baptist succession back to the apostles.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above for Landmarkism."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "why",
+   "sentence": "Late in life he broke with fellow Baptists over what he called the Down-Grade, certain they were quietly abandoning doctrines they had been ordained to preach, in the same decades that saw American Baptists split in 1845 after Southern churches were refused a slaveholding missionary appointment.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Break with the Union supported; 'by the century's end' and 'the same decades' corrected."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "why",
+   "sentence": "Late in life he broke with fellow Baptists over what he called the Down-Grade, certain they were quietly abandoning doctrines they had been ordained to preach, in the same decades that saw American Baptists split in 1845 after Southern churches were refused a slaveholding missionary appointment.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same field; the 1845 split now dated as four decades earlier."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "sentence": "The Southern Baptist Convention became the largest Protestant denomination in the United States, and the Baptist Union of Great Britain and its counterparts continue.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A present-day fact; left as written."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "sentence": "The Southern Baptist Convention became the largest Protestant denomination in the United States, and the Baptist Union of Great Britain and its counterparts continue.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A present-day fact; left as written."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "sentence": "Spurgeon's sermons have never gone out of print, and the Down-Grade Controversy became a template for the fundamentalist-modernist battles of the century after.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No vendored or repo-cited source for the 'template' claim; no link drafted."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "sentence": "The era also produced two of Baptist history's most consequential lines: the Black Baptist churches of America, and the overseas mission movement that Baptists largely began.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Black Baptist churches began before 1815 (Rippon's register, 1790-1793); their founding link is the existing era-8 the-baptists--the-black-church-in-america. No vendored text shows a separate nineteenth-century tie, so no new link."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "sentence": "The era also produced two of Baptist history's most consequential lines: the Black Baptist churches of America, and the overseas mission movement that Baptists largely began.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Carey's society (1792) began before this era, and the era-8 Baptist text names it, so era 8 owns that link. 'Largely began' overclaims against Carey's own Enquiry. Inventory had no match; the party is the-missionary-movement-s-native-churches-seramp."
+  },
+  {
+   "movement": "nineteenth-century-baptists",
+   "field": "longDescription",
+   "sentence": "Baptists began the century as a scattering of self-governing congregations and ended it as one of the largest Protestant families in the English-speaking world, without ever agreeing to be governed from anywhere.",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "the-baptists--nineteenth-century-baptists",
+   "prose_change": null,
+   "reason": "Missed by the inventory: the earlier Baptist entry carried into this one. New continued-as link, Widely Accepted on McGlothlin."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
+   "action": "new",
+   "from": "the-second-great-awakening-and-camp-meeting-worl",
+   "to": "the-stone-campbell-restoration-movement",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard McNemar preached in the Kentucky revival. In 1808 he told how he, Barton W. Stone and three other revival ministers left the Presbyterian church. He wrote that the six men who signed their Last Will and Testament worked 'in the meridian light of the Kentucky Revival'. The Campbells came to the same plea on their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard McNemar, The Kentucky Revival (Cincinnati, 1807; Albany reprint, 1808)",
+     "file": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt",
+     "lines": "1963-1969",
+     "locus": "Part II, p. 42 (the withdrawal of 1803 and the forming of the Springfield Presbytery)",
+     "quote": "the dissenting ministers voluntarily withdrew from under the jurisdiction of the Presbyterian church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard McNemar, The Kentucky Revival (1808), preface to the Observations on Church Government by the Presbytery of Springfield",
+     "file": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt",
+     "lines": "5804-5806",
+     "locus": "Preface to the Observations on Church Government",
+     "quote": "they were written in the meridian light of the Kentucky Revival, by those six men whose names are annexed to the Last Will and Testament",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-stone-campbell-restoration-movement relationsSummary ('Child of the Awakening'); also named by the-second-great-awakening-and-camp-meeting-worl why and legacy",
+   "wants": [
+    "Barton W. Stone, autobiography (1847), with his Cane Ridge eyewitness account, to show the Stone wing from its own leader's pen",
+    "Thomas Campbell, Declaration and Address (1809), for the Campbell wing's separate origin"
+   ],
+   "drafter_flags": [
+    "Duplicate expected: the awakening's own text names this link, and another part-1 group may draft it; resolve at merge.",
+    "The evidence covers the Stone wing only. The note says the Campbells came to the plea on their own, which is the movement's own text ('independently'); no vendored text documents the Campbell side.",
+    "McNemar wrote as a convert to the Shakers, after he had left his Springfield colleagues; his account of the withdrawal is a participant's but not a neutral one.",
+    "The quotes keep the 1808 OCR exactly. Lines 1968-1969 name Marshall, Dunlavy, McNemar, Stone and Thompson; the name line itself carries OCR quote marks, so it is not quoted.",
+    "The five ministers who withdrew in 1803 became six signers of the 1804 Last Will (David Purviance was added); the note keeps the two numbers apart."
+   ],
+   "change_reason": "New. The movement's own summary names the awakening as its parent; McNemar's 1808 history documents the Stone wing leaving the Presbyterian synod out of the Kentucky revival."
+  },
+  {
+   "id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "action": "rewrite",
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "churches-of-christ-twentieth-century",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Stone-Campbell movement split in two in the early 1900s. One side, the Churches of Christ, sing in worship with no instruments. The 1906 United States census of churches listed them as a body of their own for the first time.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-stone-campbell-restoration-movement longDescription, why and legacy",
+   "wants": [
+    "U.S. Bureau of the Census, Religious Bodies: 1906 (Washington, 1910), the separate listing itself, and David Lipscomb's letters to the Bureau; would lift this to Documented"
+   ],
+   "drafter_flags": [
+    "No vendored text for the 1906 listing; the grade stays at the two repo-cited histories."
+   ],
+   "change_reason": "Note rewritten for reading level only (the old note scored below the floor); facts, type and grade unchanged. Nothing vendored lifts the grade."
+  },
+  {
+   "id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "action": "rewrite",
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "disciples-of-christ-and-independent-christian-churches",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Stone-Campbell movement split in two in the early 1900s. The Disciples of Christ were the side that kept instruments in worship and kept their national mission societies. The 1906 United States census of churches listed the other side, the Churches of Christ, on its own.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-stone-campbell-restoration-movement legacy ('the Christian Church (Disciples of Christ), and the Christian Churches and Churches of Christ')",
+   "wants": [
+    "U.S. Bureau of the Census, Religious Bodies: 1906 (Washington, 1910)"
+   ],
+   "drafter_flags": [
+    "The fact that the Disciples kept instruments and national organizations comes from the Disciples entry's own text, carried by Foster's encyclopedia; not rechecked in a vendored file."
+   ],
+   "change_reason": "Note rewritten to stand alone: the old note began 'came out of the same ... division', which leans on the sibling link. Type and grade unchanged."
+  },
+  {
+   "id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+   "action": "new",
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "catholic-church-long-nineteenth-century",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1837 Alexander Campbell held a public debate with a Roman Catholic bishop, John Purcell. It ran for days, and the movement printed the whole record itself. We do not hold that record, so this link rests on later histories of the movement.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-stone-campbell-restoration-movement longDescription ('argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A public debate; no council, split or changed rule, and no vendored source at all."
+   },
+   "wants": [
+    "A Debate on the Roman Catholic Religion between Alexander Campbell and John B. Purcell (Cincinnati, 1837); would lift this to Documented"
+   ],
+   "drafter_flags": [
+    "Purcell's name comes from the movement's own source list (the Campbell-Purcell debate, 1837); I have not seen Foster's entry on it.",
+    "'It ran for days' follows the entry's 'for days at a stretch'; the length of this debate is not checked."
+   ],
+   "change_reason": "New. The text names the debate against a Catholic bishop; the arrow runs from the critic."
+  },
+  {
+   "id": "the-baptists--nineteenth-century-baptists",
+   "action": "new",
+   "from": "the-baptists",
+   "to": "nineteenth-century-baptists",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Baptist churches kept their old confession of faith in use after 1815. W. J. McGlothlin, a Baptist historian, wrote in 1911 that new American printings of the Philadelphia Confession came out in 1813, 1831 and 1850. He also wrote that the two old wings of English Baptists slowly drew closer.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Southern Baptist Convention, address 'to the Brethren in the United States' (1845), as printed in W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19100-19105",
+     "locus": "American Baptists, the Southern Baptist Convention's address of 1845",
+     "quote": "We have constructed for our basis no new creed, acting in this matter upon a Baptist aversion for all creeds but the Bible.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19071-19086",
+     "locus": "American Baptists, I. The Philadelphia Confession",
+     "quote": "A fourth edition appeared in 1850, and there may have been others.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19088-19092",
+     "locus": "American Baptists, I. The Philadelphia Confession",
+     "quote": "it is still widely used, and in the South is probably the most influential of all Confessions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "18763-18764",
+     "locus": "The English Baptists, the Baptist Union declaration of 1888",
+     "quote": "The Arminian and Calvinistic wings by degrees approached each other.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nineteenth-century-baptists longDescription ('Baptists began the century as a scattering of self-governing congregations'); not listed in the inventory",
+   "wants": [
+    "Philadelphia Baptist Association minutes (A. D. Gillette, ed., 1851) across 1800-1830, to show the same association meeting on both sides of 1815; would lift this to Documented"
+   ],
+   "drafter_flags": [
+    "Missed by the inventory. The era-8 Baptist text does not name its nineteenth-century continuation, so this falls to the era-9 text.",
+    "Only the 1845 address is a primary text, and it shows Baptist self-description rather than continuity itself; the continuity rests on McGlothlin (1911, vendored), hence Widely Accepted, not Documented.",
+    "McGlothlin's 1813 and 1850 editions are Charleston Association printings; the 1831 one is Daniel Sheppard's. The note says 'new American printings' to cover all three."
+   ],
+   "change_reason": "New. A period split between the two Baptist entries, with no link between them on main."
+  },
+  {
+   "id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+   "action": "new",
+   "from": "the-second-great-awakening-and-camp-meeting-worl",
+   "to": "restorationist-apocalyptic-ferment-and-adventism",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "William Miller's followers of the 1830s and 1840s came from many American churches, in the decades of the great frontier revivals. No text in this collection shows how far the revivals fed the movement. The link rests on that timing and on modern histories of Miller.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David L. Rowe, God's Strange Work: William Miller and the End of the World (Eerdmans, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George R. Knight, A Search for Identity: The Development of Seventh-day Adventist Beliefs (Review and Herald, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "restorationist-apocalyptic-ferment-and-adventism relationsSummary ('Child of the Awakening's ferment'), qualified by prose change 3",
+   "wants": [
+    "William Miller, Evidence from Scripture and History of the Second Coming of Christ (Troy, 1836; archive.org item WilliamMillerEvidenceFromScriptureAndHistoryOfTheSecondComingOf), and early numbers of Signs of the Times (1840-)",
+    "Whitney R. Cross, The Burned-over District (1950) is the classic reading of this link, but it is not cited anywhere in the repo, so I did not cite it"
+   ],
+   "drafter_flags": [
+    "No Millerite or Adventist text is vendored. Rowe and Knight are the movement's own repo-cited histories; I have not seen what they say on the revivals.",
+    "The awakening's own text says it was 'parent of Restorationist' traditions, which may mean this movement or Stone-Campbell; check at merge."
+   ],
+   "change_reason": "New. The movement's own summary names the awakening as its parent; nothing vendored supports more than timing."
+  },
+  {
+   "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "action": "new",
+   "from": "restorationist-apocalyptic-ferment-and-adventism",
+   "to": "seventh-day-adventist-church-twentieth-century",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. It carried on past 1906 as the same church. Its 1931 statement of belief settled its long debate over the Trinity. We hold none of its own records, so this rests on modern histories.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George R. Knight, A Search for Identity: The Development of Seventh-day Adventist Beliefs (Review and Herald, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "restorationist-apocalyptic-ferment-and-adventism longDescription, why and legacy ('This ferment became an ongoing denomination')",
+   "wants": [
+    "Review and Herald (1850-), the 1863 General Conference records and the 1872 Declaration of Fundamental Principles",
+    "The 1931 Seventh-day Adventist Yearbook statement of twenty-two beliefs"
+   ],
+   "drafter_flags": [
+    "This entry also covers the wider Millerite ferment and other Adventist bodies, so the later entry continues only its Seventh-day Adventist strand. If the reviewer reads that as a new body, 'gave rise to' is the alternative.",
+    "The 1931 statement is asserted by both entries; it is not vendored."
+   ],
+   "change_reason": "New. The later Adventist entry describes itself as this one carried forward; era 10 has not run, so the link is drafted here."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "nineteenth-century-baptists",
+   "field": "relationsSummary",
+   "old": "Spurgeon preached to thousands weekly at the Metropolitan Tabernacle. The Southern Baptist Convention formed in 1845 out of the split over slavery. Landmarkism traced an unbroken Baptist succession back to the apostles, and the Down-Grade Controversy divided British Baptists late in the century.",
+   "new": "Spurgeon preached to thousands each week at the Metropolitan Tabernacle in London. In 1845 the split over slavery gave birth to the Southern Baptist Convention. Landmarkism traced an unbroken line of true Baptist churches back to the apostles. Late in the century Spurgeon left the Baptist Union. He called the fight the Down-Grade, sure that his fellow ministers were giving up old truths.",
+   "reason": "'Divided British Baptists' overstates the vendored record. McGlothlin (1911) says Spurgeon withdrew from the Union, and that its 1888 statement passed with only seven votes against among seventeen or eighteen hundred messengers. The rest of the field is kept."
+  },
+  {
+   "n": 1,
+   "movement": "nineteenth-century-baptists",
+   "field": "why",
+   "old": "Baptists never agreed to be governed from anywhere, yet by the century's end Charles Haddon Spurgeon alone was preaching to thousands weekly and selling printed sermons in the millions. Late in life he broke with fellow Baptists over what he called the Down-Grade, certain they were quietly abandoning doctrines they had been ordained to preach, in the same decades that saw American Baptists split in 1845 after Southern churches were refused a slaveholding missionary appointment.",
+   "new": "Baptists never agreed to be governed from anywhere. Yet in London one preacher, Charles Haddon Spurgeon, drew thousands each week and sold his printed sermons by the million. Late in life he broke with the Baptist Union over what he called the Down-Grade. He was sure his fellow ministers were quietly giving up what they had been ordained to preach. Forty years before, in 1845, American Baptists had split. Southern churches had been refused when they put forward a slaveholder as a missionary.",
+   "reason": "Two dating errors fixed. Spurgeon died in 1892 (McGlothlin, lines 18773-18775), so he was not preaching 'by the century's end'. The 1845 split and the Down-Grade of the late 1880s are four decades apart, not 'the same decades'. The break is named as with the Baptist Union, as the description has it."
+  },
+  {
+   "n": 2,
+   "movement": "nineteenth-century-baptists",
+   "field": "legacy",
+   "old": "The bodies formed in this century are still the shape of Baptist life. The Southern Baptist Convention became the largest Protestant denomination in the United States, and the Baptist Union of Great Britain and its counterparts continue. Spurgeon's sermons have never gone out of print, and the Down-Grade Controversy became a template for the fundamentalist-modernist battles of the century after. The era also produced two of Baptist history's most consequential lines: the Black Baptist churches of America, and the overseas mission movement that Baptists largely began.",
+   "new": "The bodies formed in this century are still the shape of Baptist life. The Southern Baptist Convention became the largest Protestant denomination in the United States. The Baptist Union of Great Britain and its sister bodies carry on. Spurgeon's sermons have never gone out of print. Two older Baptist lines also ran on through these years. The Black Baptist churches of America go back to the 1770s. William Carey's Baptist mission society was founded in 1792. In his own call for it, Carey said no one had matched the Moravians as missionaries.",
+   "reason": "Removed: the Down-Grade as 'a template for the fundamentalist-modernist battles' has no vendored or repo-cited source, and the fundamentalism entry traces its own roots to Niagara and Princeton instead. Qualified: both 'lines' began before 1815, so 'the era also produced' them is wrong. Rippon's register of 1790-1793 prints George Liele's 1791 letter and the society's 1792 founding. 'Largely began' the mission movement overclaims: Carey's 1792 Enquiry says 'none of the moderns have equalled the Moravian Brethren' (lines 798-799)."
+  },
+  {
+   "n": 3,
+   "movement": "restorationist-apocalyptic-ferment-and-adventism",
+   "field": "relationsSummary",
+   "old": "Child of the Awakening's ferment",
+   "new": "Rose in the 1830s, in the years of the great frontier revivals.",
+   "reason": "'Child of the Awakening's ferment' asserts descent that no vendored or repo-cited text shows; the link is Inferential-Thin, resting on timing. The summary now states only the timing."
+  }
+ ],
+ "wants": [
+  "A Debate on the Roman Catholic Religion between Alexander Campbell and John B. Purcell (Cincinnati, 1837); would lift this to Documented",
+  "Barton W. Stone, autobiography (1847), with his Cane Ridge eyewitness account, to show the Stone wing from its own leader's pen",
+  "C. H. Spurgeon, the Down-Grade articles in The Sword and the Trowel (1887)",
+  "Hiram Edson's manuscript account of 23 October 1844",
+  "J. R. Graves and J. M. Pendleton, An Old Landmark Re-set (1854), for the Landmark succession teaching",
+  "Moody Bible Institute founding records (1886) and Emma Dryer's letters",
+  "Philadelphia Baptist Association minutes (A. D. Gillette, ed., 1851) across 1800-1830, to show the same association meeting on both sides of 1815; would lift this to Documented",
+  "Proceedings of the Southern Baptist Convention (Augusta, 1845), for the slavery cause of the split",
+  "Review and Herald (1850-), the 1863 General Conference records and the 1872 Declaration of Fundamental Principles",
+  "Robert Raikes's Gloucester Journal notice (1783) and his letter in the Arminian Magazine (1785), for the 1780 start and the four women teachers",
+  "The 1931 Seventh-day Adventist Yearbook statement of twenty-two beliefs",
+  "The Uniform Lesson records (1872), for the Sunday-school lesson claim",
+  "Thomas Campbell, Declaration and Address (1809), for the Campbell wing's separate origin",
+  "U.S. Bureau of the Census, Religious Bodies: 1906 (Washington, 1910)",
+  "U.S. Bureau of the Census, Religious Bodies: 1906 (Washington, 1910), the separate listing itself, and David Lipscomb's letters to the Bureau; would lift this to Documented",
+  "Whitney R. Cross, The Burned-over District (1950) is the classic reading of this link, but it is not cited anywhere in the repo, so I did not cite it",
+  "William Miller, Evidence from Scripture and History of the Second Coming of Christ (Troy, 1836; archive.org item WilliamMillerEvidenceFromScriptureAndHistoryOfTheSecondComingOf), and early numbers of Signs of the Times (1840-)"
+ ],
+ "escalations": [
+  "Sunday school legacy says 'the graded, standardized lesson series invented in the 1870s'. The movement's own sources name the Uniform Lesson series of 1872, which gave every age the same lesson; graded lessons came later. No vendored text either way, so it is not rewritten here. For the text owner.",
+  "Open method question, not new: under 'Well-known facts with no vendored source' (2026-11-07), era 9 group B left standing Spurgeon's Tabernacle, the slavery cause of the 1845 split, the Landmark succession teaching, Thomas Campbell's Declaration and Address, the 1832 Stone-Campbell union, William Miller, Hiram Edson, Raikes's 1780 start and Moody's 1886 institute. Each text is on the wanted list.",
+  "Two-entry consistency, for era 8: the-baptists legacy says Carey's society 'opened the era of Protestant foreign missions'. Carey's own Enquiry (1792, vendored, lines 798-799) says no modern missionaries had equalled the Moravians. This draft dropped the same overclaim from the nineteenth-century Baptist entry."
+ ]
+}

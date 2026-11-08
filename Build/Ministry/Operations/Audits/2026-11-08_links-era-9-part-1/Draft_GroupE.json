@@ -25,7 +25,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment: Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
    "movement": "the-haugean-awakening",
@@ -45,7 +45,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment: Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
    "movement": "the-haugean-awakening",
@@ -75,7 +75,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment are standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+   "reason": "The Norwegian state has no movement of its own. Arrest and imprisonment: Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
    "movement": "the-haugean-awakening",
@@ -345,7 +345,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 2,
-   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5413) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
   },
   {
    "movement": "the-reveil-and-inner-mission-awakening",
@@ -355,7 +355,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 2,
-   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5413) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
   },
   {
    "movement": "the-reveil-and-inner-mission-awakening",
@@ -375,7 +375,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": null,
-   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5412) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
+   "reason": "Supported in part: Percival's note in NPNF2-14 (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 5409-5413) records Fliedner opening the Kaiserswerth deaconess house in 1836. Nightingale's visit has no vendored source; left as a well-known fact."
   },
   {
    "movement": "the-reveil-and-inner-mission-awakening",
@@ -385,7 +385,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 3,
-   "reason": "Percival's note (npnf214 lines 5412-5415) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+   "reason": "Percival's note (npnf214 lines 5412-5414) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
    "movement": "the-reveil-and-inner-mission-awakening",
@@ -395,7 +395,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 3,
-   "reason": "Percival's note (npnf214 lines 5412-5415) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
+   "reason": "Percival's note (npnf214 lines 5412-5414) supports the spread: all deaconess houses took their origin from Kaiserswerth, and Methodists adopted the system. The Diakonie link is standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
    "movement": "the-reveil-and-inner-mission-awakening",
@@ -551,11 +551,11 @@
    "movement": "confessional-lutheran-revival-emigrations",
    "field": "longDescription",
    "sentence": "A church that made subscription to the Lutheran confessions the condition of fellowship, and built its own schools, seminaries and German-language press to keep them.",
-   "other_id": null,
+   "other_id": "lutheran-wittenberg-and-its-congregations",
    "disposition": "link",
    "link_id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
    "prose_change": 7,
-   "reason": "The Lutheran confessions are the Wittenberg reformers' documents; linked as 'influenced', Documented on Jacobs's 1911 preface."
+   "reason": "Missed by the inventory as a movement: The Lutheran confessions are the Wittenberg reformers' documents; linked as 'influenced', Documented on Jacobs's 1911 preface."
   },
   {
    "movement": "confessional-lutheran-revival-emigrations",
@@ -658,16 +658,6 @@
    "reason": "No movement of its own (state, person, synod or later church). Standard fact already asserted; no vendored source mentions it. Left under the open item on well-known facts with no vendored source."
   },
   {
-   "movement": "confessional-lutheran-revival-emigrations",
-   "field": "longDescription",
-   "sentence": "A church that made subscription to the Lutheran confessions the condition of fellowship, and built its own schools, seminaries and German-language press to keep them.",
-   "other_id": "lutheran-wittenberg-and-its-congregations",
-   "disposition": "link",
-   "link_id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
-   "prose_change": 7,
-   "reason": "Missed by the inventory: the Lutheran confessions are the Wittenberg Reformation's documents. Linked as 'influenced', Documented on Jacobs's 1911 preface."
-  },
-  {
    "movement": "the-reveil-and-inner-mission-awakening",
    "field": "legacy",
    "sentence": "The German Diakonie — the Protestant social-service network the Inner Mission became — is still one of the largest welfare providers in Europe, and the deaconess model spread across the Protestant world and into the professionalization of nursing.",
@@ -675,7 +665,7 @@
    "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": 3,
-   "reason": "Not named in the text, but Percival's note (npnf214 lines 5412-5413) says 'The Methodists have adopted the system successfully'. A possible link to nineteenth-century Methodism is flagged for the reviewer, not drafted, since the text names no Methodist body."
+   "reason": "Not named in the text, but Percival's note (npnf214 line 5414) says 'The Methodists have adopted the system successfully'. A possible link to nineteenth-century Methodism is flagged for the reviewer, not drafted, since the text names no Methodist body."
   }
  ],
  "links": [
@@ -945,7 +935,7 @@
    "movement": "the-reveil-and-inner-mission-awakening",
    "field": "longDescription",
    "old": "After the Napoleonic wars a wave of personal religious awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany — in Geneva against a comfortable rationalist establishment, in the Netherlands to the point of secession from the state church in 1834, everywhere with an insistence that faith had to be felt and not merely inherited. What distinguished it was what it built. Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg (1833) grew into the Inner Mission, a whole program of organized Christian social work. At Kaiserswerth in 1836 Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses and teachers, and one of its visitors in 1851 was Florence Nightingale. By the time the generation was over, awakened piety in these countries had turned into a permanent network of hospitals, orphanages, schools and training houses.",
-   "new": "After the Napoleonic wars a wave of personal awakening ran through the Protestant churches of Switzerland, France, the Netherlands and Germany. In Geneva it rose against a comfortable rationalist establishment. In the Netherlands it came in the same years as a split from the state church in 1834. Everywhere it held that faith had to be felt and not just inherited. What set it apart was what it built. In Hamburg in 1833, Johann Hinrich Wichern opened the Rauhes Haus for street children. It grew into the Inner Mission, a whole program of Christian social work. At Kaiserswerth in 1836, Theodor and Friederike Fliedner opened a house for deaconesses. It trained women as nurses and teachers. One of its visitors in 1851 was Florence Nightingale. By the end of that generation, awakened faith in these lands had built a lasting web of hospitals, schools, orphan homes and training houses.",
+   "new": "After the wars with Napoleon, a wave of fresh, personal faith ran through Protestant churches in Switzerland, France, the Netherlands and Germany. In Geneva it rose against a comfortable rationalist establishment. In the Netherlands it came in the same years as a split from the state church in 1834. Everywhere it held that faith must be felt, not just handed down. What set it apart was what it built. In Hamburg in 1833, Johann Hinrich Wichern opened the Rauhes Haus for street children. It grew into the Inner Mission, a whole web of Christian social work. In 1836 Theodor and Friederike Fliedner opened a house for deaconesses at Kaiserswerth. It trained women as nurses and teachers. In 1851 Florence Nightingale was one of its guests. Within a generation it had built a lasting network of hospitals, schools, orphan homes and training houses.",
    "reason": "'To the point of secession' makes the 1834 Dutch secession the awakening's own outcome; no vendored or repo-cited source shows how far the awakening caused it, so the sentence now says only that they came in the same years. Long sentences split to meet the reading target; every other fact kept."
   },
   {
@@ -1012,6 +1002,7 @@
  "escalations": [
   "Confessional Lutheran text was wrong, not just unsupported, in three fields: it made the Prussian Union's persecution the cause of the 1838 Saxon emigration and the Missouri Synod. The Saxon company left the Kingdom of Saxony, outside the Prussian Union. I removed the false cause and marked the Saxon company 'separate' in each field. The true cause of the Saxon emigration is not stated, because no vendored source covers it; Mark may want it written in once a source is vendored.",
   "Dutch awakening and the 1834 secession: the awakening's text made the secession its own outcome and legacy. I reworded both fields to say they came in the same years and that the tie is unclear, and drafted no link. The Dutch Reformed movement's group may hold evidence either way; reconcile at merge.",
+  "Hygiene, not touched: the Haugean longDescription has a sentence fragment ('Which was against the law, because...'); no relationship change was needed in that field, so I left it for a hygiene pass.",
   "None of the four movements has any vendored primary text of its own. Every Pietist and Moravian link here rests on secondary works named only in the movement source lists and unread in this pass."
  ]
 }
