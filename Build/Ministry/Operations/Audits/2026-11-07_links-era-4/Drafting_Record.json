@@ -3142,117 +3142,137 @@
   {
    "group": "A",
    "id": "british-welsh-christianity--medieval-welsh-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "british-welsh-christianity",
    "to": "medieval-welsh-christianity",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The Welsh annals record that the Britons changed their date for Easter in 768, led by Elbodug, a man of God. The same annals record his death in 809 as archbishop of Gwynedd. They go on naming bishops of Menevia, the see of St Davids, in the decades that follow.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Annales Cambriae, annal for 768 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
-     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
-     "lines": "2984-2988",
-     "locus": "AC s.a. 768 (Annus CCCXXIV)",
-     "quote": "Pasca commutatur' apud BrittoneS; ^ [super Dominicam diem,] emendante ^Elbodugo bomine' Dei.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Annales Cambriae, annal for 809 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
-     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
-     "lines": "3102-3104",
-     "locus": "AC s.a. 809 (Annus CCCLXV)",
-     "quote": "^^Elbodg archiepiscopus Gue- nedote regione migravit ad Dominum.'",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Annales Cambriae, annal for 840 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
-     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
-     "lines": "3327-3329",
-     "locus": "AC s.a. 840 (Annus CCCXCVI)",
-     "quote": "^ Nobis episcopus in Miniu reoiiavit.",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "medieval-welsh-christianity why ('Wales from the end of the British and Welsh Christianity entry in 768 to 1282'); british-welsh-christianity longDescription and why (the Welsh church came round to the Roman Easter around 768)",
-   "wants": [
-    "A clean edition or translation of the Annales Cambriae (the Rolls Series OCR is rough)",
-    "Brut y Tywysogion in a public-domain edition, for the Welsh sees after 954"
-   ],
-   "drafter_flags": [
-    "The quotes keep the OCR as printed: the apparatus marks '^' and '[ ]', 'BrittoneS', 'bomine' (for 'homine') and 'reoiiavit' (for 'regnavit').",
-    "Annus numbers convert to AD with Annus I = 445 (Annus CCCLI is printed beside 795 in the same file): CCCXXIV = 768, CCCLXV = 809, CCCXCVI = 840.",
-    "The annals were compiled in the tenth century; the 768 and 809 entries are retrospective, though close in time.",
-    "'Miniu' is Menevia, St Davids (the editor's index, file lines 988-992). The note names the see that way."
-   ],
-   "change_reason": "New: gives the stub's 'follows the British and Welsh entry' a sourced continued-as link. The man who led the Easter change of 768 died in 809 as archbishop in Gwynedd, and the St Davids see goes on in the annals.",
-   "fre_after": 70.7,
-   "fk_after": 7.4
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "A",
+    "id": "british-welsh-christianity--medieval-welsh-christianity",
+    "action": "new",
+    "from": "british-welsh-christianity",
+    "to": "medieval-welsh-christianity",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "The Welsh annals record that the Britons changed their date for Easter in 768, led by Elbodug, a man of God. The same annals record his death in 809 as archbishop of Gwynedd. They go on naming bishops of Menevia, the see of St Davids, in the decades that follow.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Annales Cambriae, annal for 768 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+      "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+      "lines": "2984-2988",
+      "locus": "AC s.a. 768 (Annus CCCXXIV)",
+      "quote": "Pasca commutatur' apud BrittoneS; ^ [super Dominicam diem,] emendante ^Elbodugo bomine' Dei.",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Annales Cambriae, annal for 809 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+      "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+      "lines": "3102-3104",
+      "locus": "AC s.a. 809 (Annus CCCLXV)",
+      "quote": "^^Elbodg archiepiscopus Gue- nedote regione migravit ad Dominum.'",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Annales Cambriae, annal for 840 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+      "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+      "lines": "3327-3329",
+      "locus": "AC s.a. 840 (Annus CCCXCVI)",
+      "quote": "^ Nobis episcopus in Miniu reoiiavit.",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "medieval-welsh-christianity why ('Wales from the end of the British and Welsh Christianity entry in 768 to 1282'); british-welsh-christianity longDescription and why (the Welsh church came round to the Roman Easter around 768)",
+    "wants": [
+     "A clean edition or translation of the Annales Cambriae (the Rolls Series OCR is rough)",
+     "Brut y Tywysogion in a public-domain edition, for the Welsh sees after 954"
+    ],
+    "drafter_flags": [
+     "The quotes keep the OCR as printed: the apparatus marks '^' and '[ ]', 'BrittoneS', 'bomine' (for 'homine') and 'reoiiavit' (for 'regnavit').",
+     "Annus numbers convert to AD with Annus I = 445 (Annus CCCLI is printed beside 795 in the same file): CCCXXIV = 768, CCCLXV = 809, CCCXCVI = 840.",
+     "The annals were compiled in the tenth century; the 768 and 809 entries are retrospective, though close in time.",
+     "'Miniu' is Menevia, St Davids (the editor's index, file lines 988-992). The note names the see that way."
+    ],
+    "change_reason": "New: gives the stub's 'follows the British and Welsh entry' a sourced continued-as link. The man who led the Easter change of 768 died in 809 as archbishop in Gwynedd, and the St Davids see goes on in the annals.",
+    "fre_after": 70.7,
+    "fk_after": 7.4
+   }
   },
   {
    "group": "A",
    "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "anglo-saxon-christianity",
    "to": "insular-irish-monastic-christianity",
    "type": "argued against",
    "confidence": "Documented",
-   "note": "At the Synod of Whitby in 664, Wilfrid argued for the Roman Easter against Bishop Colman and the Irish custom, as Bede tells it. He called those who kept the old reckoning obstinate and foolish. King Oswy ruled for Rome, and Colman left with everyone who would not accept the Roman Easter and tonsure.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
-     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-     "lines": "8017-8021",
-     "locus": "HE III.25",
-     "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe.\"",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
-     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-     "lines": "8215-8218",
-     "locus": "HE III.25",
-     "quote": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Bede, Ecclesiastical History of the English Nation, III.26 (Giles/Jane 1903)",
-     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-     "lines": "8227-8230",
-     "locus": "HE III.26",
-     "quote": "Colman, perceiving that his doctrine was rejected, and his sect despised, took with him such as would not comply with the Catholic Easter and the tonsure",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "anglo-saxon-christianity relationsSummary ('converging at Whitby'), longDescription and why ('the two traditions settled their differences publicly at the Synod of Whitby in 664'); insular-irish-monastic-christianity longDescription ('at Whitby in 664 the Northumbrian king ruled against the Irish reckoning')",
-   "wants": [
-    "An Irish-side text on the Easter question, such as Cummian's letter De controversia paschali (c. 632), so the dispute has a voice from both sides"
-   ],
-   "drafter_flags": [
-    "Colman's party were bishops of the Northumbrian church itself, so one could say the dispute was inside the English church. I take the Irish side as the Irish line, since the Irish entry closes on exactly this ruling.",
-    "Wilfrid names 'the Picts and the Britons'; 'these' refers to Colman's party. The note says 'those who kept the old reckoning' rather than putting the word 'Irish' in his mouth.",
-    "'broke with' was considered (Colman's withdrawal) but the rupture is recorded only by Bede, from the winning side; argued against fits a speech directed at the other party by name.",
-    "Quote 1 keeps the OCR 'ot' (for 'of') and the closing quotation mark as printed. Quote 2's lines 8215-8218 run through the end of the sentence ('better.' on 8218)."
-   ],
-   "change_reason": "New: the Whitby dispute that both entries name, as a speech and a ruling directed against the Irish custom.",
-   "fre_after": 62.8,
-   "fk_after": 8.9
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "A",
+    "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+    "action": "new",
+    "from": "anglo-saxon-christianity",
+    "to": "insular-irish-monastic-christianity",
+    "type": "argued against",
+    "confidence": "Documented",
+    "note": "At the Synod of Whitby in 664, Wilfrid argued for the Roman Easter against Bishop Colman and the Irish custom, as Bede tells it. He called those who kept the old reckoning obstinate and foolish. King Oswy ruled for Rome, and Colman left with everyone who would not accept the Roman Easter and tonsure.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "8017-8021",
+      "locus": "HE III.25",
+      "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe.\"",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "8215-8218",
+      "locus": "HE III.25",
+      "quote": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better.",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Bede, Ecclesiastical History of the English Nation, III.26 (Giles/Jane 1903)",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "8227-8230",
+      "locus": "HE III.26",
+      "quote": "Colman, perceiving that his doctrine was rejected, and his sect despised, took with him such as would not comply with the Catholic Easter and the tonsure",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "anglo-saxon-christianity relationsSummary ('converging at Whitby'), longDescription and why ('the two traditions settled their differences publicly at the Synod of Whitby in 664'); insular-irish-monastic-christianity longDescription ('at Whitby in 664 the Northumbrian king ruled against the Irish reckoning')",
+    "wants": [
+     "An Irish-side text on the Easter question, such as Cummian's letter De controversia paschali (c. 632), so the dispute has a voice from both sides"
+    ],
+    "drafter_flags": [
+     "Colman's party were bishops of the Northumbrian church itself, so one could say the dispute was inside the English church. I take the Irish side as the Irish line, since the Irish entry closes on exactly this ruling.",
+     "Wilfrid names 'the Picts and the Britons'; 'these' refers to Colman's party. The note says 'those who kept the old reckoning' rather than putting the word 'Irish' in his mouth.",
+     "'broke with' was considered (Colman's withdrawal) but the rupture is recorded only by Bede, from the winning side; argued against fits a speech directed at the other party by name.",
+     "Quote 1 keeps the OCR 'ot' (for 'of') and the closing quotation mark as printed. Quote 2's lines 8215-8218 run through the end of the sentence ('better.' on 8218)."
+    ],
+    "change_reason": "New: the Whitby dispute that both entries name, as a speech and a ruling directed against the Irish custom.",
+    "fre_after": 62.8,
+    "fk_after": 8.9
+   }
   },
   {
    "group": "A",
@@ -3325,44 +3345,54 @@
   {
    "group": "A",
    "id": "roman-church-gregorian--late-anglo-saxon-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "roman-church-gregorian",
    "to": "late-anglo-saxon-christianity",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Alfred the Great had Gregory the Great's Pastoral Care put into English. It is Gregory's book on how a bishop should do his work. Alfred meant to send a copy to every bishop in his kingdom. About 890 Bishop Werferth of Worcester put Gregory's Dialogues into English at Alfred's request. Two editors of Gregory's works report both facts.",
-   "sources": [
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "J. Barmby, introduction to Gregory the Great, Book of Pastoral Rule, in Nicene and Post-Nicene Fathers, 2nd series, vol. 12 (1895)",
-     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
-     "lines": "24031-24034",
-     "quote": "This is asserted by Alfred the Great, who, nearly three hundred years afterwards, with the assistance of his divines, made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "E. G. Gardner, introduction to The Dialogues of Saint Gregory (1911)",
-     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
-     "lines": "1275-1276",
-     "quote": "about 890, by Bishop Werferth of Worcester, at the instigation of Alfred the Great."
-    }
-   ],
-   "citation_specificity": "B",
-   "verification_state": "named-not-rechecked",
-   "named_in_text": "late-anglo-saxon-christianity longDescription ('Gregory the Great's Pastoral Care and other essential books put into English') and why; roman-church-gregorian legacy ('Alfred translated it into English')",
-   "wants": [
-    "Alfred's Old English Pastoral Care with his preface (ed. H. Sweet, Early English Text Society, 1871; named in the NPNF 12 note at file line 24035), which would document this directly"
-   ],
-   "drafter_flags": [
-    "Graded Dominant Modern Reconstruction only because the vendored evidence is two editors' statements. The fact itself is not a reconstruction: Alfred's translation and preface survive. With Sweet's 1871 edition vendored this becomes Documented.",
-    "Barmby's quote breaks off at 'to' because the next line runs straight into the endnote markup; the note's 'every bishop in his kingdom' is the next line (24035), read directly.",
-    "verification_state is named-not-rechecked because both supports are secondary, though I read both passages myself."
-   ],
-   "change_reason": "New: the late Anglo-Saxon entry names Gregory's Pastoral Care as the heart of Alfred's translation programme.",
-   "fre_after": 60.2,
-   "fk_after": 7.7
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "A",
+    "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+    "action": "new",
+    "from": "roman-church-gregorian",
+    "to": "late-anglo-saxon-christianity",
+    "type": "influenced",
+    "confidence": "Dominant Modern Reconstruction",
+    "note": "Alfred the Great had Gregory the Great's Pastoral Care put into English. It is Gregory's book on how a bishop should do his work. Alfred meant to send a copy to every bishop in his kingdom. About 890 Bishop Werferth of Worcester put Gregory's Dialogues into English at Alfred's request. Two editors of Gregory's works report both facts.",
+    "sources": [
+     {
+      "kind": "secondary",
+      "source_id": null,
+      "work": "J. Barmby, introduction to Gregory the Great, Book of Pastoral Rule, in Nicene and Post-Nicene Fathers, 2nd series, vol. 12 (1895)",
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "lines": "24031-24034",
+      "quote": "This is asserted by Alfred the Great, who, nearly three hundred years afterwards, with the assistance of his divines, made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to"
+     },
+     {
+      "kind": "secondary",
+      "source_id": null,
+      "work": "E. G. Gardner, introduction to The Dialogues of Saint Gregory (1911)",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "1275-1276",
+      "quote": "about 890, by Bishop Werferth of Worcester, at the instigation of Alfred the Great."
+     }
+    ],
+    "citation_specificity": "B",
+    "verification_state": "named-not-rechecked",
+    "named_in_text": "late-anglo-saxon-christianity longDescription ('Gregory the Great's Pastoral Care and other essential books put into English') and why; roman-church-gregorian legacy ('Alfred translated it into English')",
+    "wants": [
+     "Alfred's Old English Pastoral Care with his preface (ed. H. Sweet, Early English Text Society, 1871; named in the NPNF 12 note at file line 24035), which would document this directly"
+    ],
+    "drafter_flags": [
+     "Graded Dominant Modern Reconstruction only because the vendored evidence is two editors' statements. The fact itself is not a reconstruction: Alfred's translation and preface survive. With Sweet's 1871 edition vendored this becomes Documented.",
+     "Barmby's quote breaks off at 'to' because the next line runs straight into the endnote markup; the note's 'every bishop in his kingdom' is the next line (24035), read directly.",
+     "verification_state is named-not-rechecked because both supports are secondary, though I read both passages myself."
+    ],
+    "change_reason": "New: the late Anglo-Saxon entry names Gregory's Pastoral Care as the heart of Alfred's translation programme.",
+    "fre_after": 60.2,
+    "fk_after": 7.7
+   }
   },
   {
    "group": "A",
@@ -3647,56 +3677,66 @@
   {
    "group": "B",
    "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "merovingian-gallic-christianity",
    "to": "carolingian-reform-christianity",
    "type": "continued as",
-   "confidence": "Documented",
-   "note": "The Carolingians did not start a new church but set out to mend the old Frankish one. In 742 Carloman called a synod to bring back church law that had broken down under earlier rulers. In 869 Hincmar of Reims recalled how Clovis was baptized at Reims by its bishop Remigius, as Gregory of Tours also tells.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
-     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
-     "lines": "2243-2244",
-     "locus": "Capitulary of 742, preamble",
-     "quote": "qiiomodo lex Dei et aeeclesiastica relegio recuperetur, quae in diebus praeteritorum principum dissipata corruit,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Annales Bertiniani, year 869 (Hincmar of Reims's part), ed. G. Waitz (MGH SRG, 1883)",
-     "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt",
-     "lines": "6255-6257",
-     "locus": "Annales Bertiniani a. 869 (Hincmar's address at Metz)",
-     "quote": "per beati Remigii Francorum apostolin catholicani praedicationem cum integra gente conversi",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Gregory of Tours, History of the Franks II.31, trans. O. M. Dalton (1927)",
-     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
-     "lines": "3357-3359",
-     "locus": "Hist. II.31",
-     "quote": "Then the queen commanded the holy Remigius, bishop of Reims, to be summoned secretly, entreating him to impart the word of salvation to the king.",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "carolingian-reform-christianity relationsSummary ('Child of ... Gallic lines'); merovingian-gallic-christianity continuesAs field and legacy ('The same institution continued directly into Carolingian Christianity, which reformed and reorganized it')",
-   "wants": [],
-   "drafter_flags": [
-    "OWNED ALSO BY ERA 3: the Merovingian entry's own continuesAs and legacy name this pair. Its window ends c. 620 and this one opens in 751. The sources show the same church on both sides (the Reims of Remigius, still claimed by Hincmar in 869) and a 742 decree restoring church law 'that collapsed in the days of earlier princes'. Nothing vendored covers the bishops of 620-740 directly; if the reviewer reads 'continued as' to need the gap itself bridged, regrade to Widely Accepted.",
-    "OCR kept as printed in the 742 quote ('qiiomodo', 'aeeclesiastica', 'relegio') and the Annales quote ('apostolin' = apostoli + note n; 'catholicani' = catholicam).",
-    "The 869 passage also says the chrism of Clovis's baptism is still held ('unde adhuc habemus', line 6260); I left that out of the note because the line carries a stray note letter ('habemusy')."
-   ],
-   "change_reason": "New: gives the Merovingian continuesAs pairing a sourced link and carries 'Child of ... Gallic lines'.",
-   "fre_after": 66.7,
-   "fk_after": 8.5
+   "confidence": "Widely Accepted",
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "B",
+    "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+    "action": "new",
+    "from": "merovingian-gallic-christianity",
+    "to": "carolingian-reform-christianity",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "The Carolingians did not start a new church but set out to mend the old Frankish one. In 742 Carloman called a synod to bring back church law that had broken down under earlier rulers. In 869 Hincmar of Reims recalled how Clovis was baptized at Reims by its bishop Remigius, as Gregory of Tours also tells.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+      "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+      "lines": "2243-2244",
+      "locus": "Capitulary of 742, preamble",
+      "quote": "qiiomodo lex Dei et aeeclesiastica relegio recuperetur, quae in diebus praeteritorum principum dissipata corruit,",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Annales Bertiniani, year 869 (Hincmar of Reims's part), ed. G. Waitz (MGH SRG, 1883)",
+      "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt",
+      "lines": "6255-6257",
+      "locus": "Annales Bertiniani a. 869 (Hincmar's address at Metz)",
+      "quote": "per beati Remigii Francorum apostolin catholicani praedicationem cum integra gente conversi",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Gregory of Tours, History of the Franks II.31, trans. O. M. Dalton (1927)",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "3357-3359",
+      "locus": "Hist. II.31",
+      "quote": "Then the queen commanded the holy Remigius, bishop of Reims, to be summoned secretly, entreating him to impart the word of salvation to the king.",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "carolingian-reform-christianity relationsSummary ('Child of ... Gallic lines'); merovingian-gallic-christianity continuesAs field and legacy ('The same institution continued directly into Carolingian Christianity, which reformed and reorganized it')",
+    "wants": [],
+    "drafter_flags": [
+     "OWNED ALSO BY ERA 3: the Merovingian entry's own continuesAs and legacy name this pair. Its window ends c. 620 and this one opens in 751. The sources show the same church on both sides (the Reims of Remigius, still claimed by Hincmar in 869) and a 742 decree restoring church law 'that collapsed in the days of earlier princes'. Nothing vendored covers the bishops of 620-740 directly; if the reviewer reads 'continued as' to need the gap itself bridged, regrade to Widely Accepted.",
+     "OCR kept as printed in the 742 quote ('qiiomodo', 'aeeclesiastica', 'relegio') and the Annales quote ('apostolin' = apostoli + note n; 'catholicani' = catholicam).",
+     "The 869 passage also says the chrism of Clovis's baptism is still held ('unde adhuc habemus', line 6260); I left that out of the note because the line carries a stray note letter ('habemusy')."
+    ],
+    "change_reason": "New: gives the Merovingian continuesAs pairing a sourced link and carries 'Child of ... Gallic lines'.",
+    "fre_after": 66.7,
+    "fk_after": 8.5
+   }
   },
   {
    "group": "B",
@@ -3858,67 +3898,77 @@
   {
    "group": "B",
    "id": "nicene-visigothic-iberia--mozarabic-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "nicene-visigothic-iberia",
    "to": "mozarabic-christianity",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The church of Toledo, the old royal city of the Visigoths, lived on under Arab rule. A Latin chronicle of 754 praises Sindered, its bishop when the conquest came. It then names Urbanus of the cathedral at Toledo as one of the men who later kept the church strong.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
-     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
-     "lines": "33883-33884",
-     "locus": "Chronicle of 754 (Continuatio Hispana), c. 69",
-     "quote": "Sinderedus urbis regie 69 metropolitanus episcopus sanctimonie studio claret",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
-     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
-     "lines": "34480-34482",
-     "locus": "Chronicle of 754, c. 87",
-     "quote": "Accitane sedis episcopus, Urbanus Tole- tane sedis urbis regie katedralis vetera- nus melodicus",
-     "license": "public-domain"
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Th. Mommsen, preface to the Continuatio Hispana, MGH AA 11 (1894): 'Urbanum successorem Sinderedi (c. 87. 111)'; the author 'Toletanae sedis antistites praecipue respexisse eorumque seriem ad sua fere tempora texere'",
-     "file": null,
-     "lines": null,
-     "locus": "file lines 31478-31482",
-     "quote": null,
-     "license": null
-    },
-    {
-     "kind": "secondary",
-     "source_id": null,
-     "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
-     "file": null,
-     "lines": null,
-     "locus": "Introduction: the rite 'survécut aux invasions mauresques'; its manuscripts copied from the eighth century to the end of the eleventh (file lines 293-299, 608-610)",
-     "quote": null,
-     "license": null
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "mozarabic-christianity relationsSummary ('Heir of post-589 Iberia'), longDescription and why ('kept the old Visigothic liturgy'); nicene-visigothic-iberia continuesAs field and legacy ('The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus')",
-   "wants": [],
-   "drafter_flags": [
-    "OWNED ALSO BY ERA 3: the Visigothic entry's continuesAs and legacy name this pair.",
-    "The '69' in the Sindered quote and the '35' before line 34480 are Mommsen's marginal chapter and line numbers printed in the text column; the first is inside the quoted span and kept as printed. The hyphen breaks 'Tole- tane' and 'vetera- nus' are kept as printed.",
-    "The chronicle does not itself call Urbanus bishop; it names him of the Toledan cathedral ('katedralis veteranus melodicus'). Mommsen's preface calls him Sindered's successor. The note says only 'of the cathedral at Toledo'.",
-    "The note's 'later kept the church strong' renders c. 87's 'ad confortandam ecclesiam dei clari habentur' (lines 34487-34490), which falls after the quoted span and carries the edition's bracketed restorations."
-   ],
-   "change_reason": "New: gives the Visigothic continuesAs pairing a sourced link, with the see of Toledo named on both sides of 711 in the same vendored chronicle.",
-   "fre_after": 61.9,
-   "fk_after": 8.6
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "B",
+    "id": "nicene-visigothic-iberia--mozarabic-christianity",
+    "action": "new",
+    "from": "nicene-visigothic-iberia",
+    "to": "mozarabic-christianity",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "The church of Toledo, the old royal city of the Visigoths, lived on under Arab rule. A Latin chronicle of 754 praises Sindered, its bishop when the conquest came. It then names Urbanus of the cathedral at Toledo as one of the men who later kept the church strong.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
+      "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+      "lines": "33883-33884",
+      "locus": "Chronicle of 754 (Continuatio Hispana), c. 69",
+      "quote": "Sinderedus urbis regie 69 metropolitanus episcopus sanctimonie studio claret",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
+      "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+      "lines": "34480-34482",
+      "locus": "Chronicle of 754, c. 87",
+      "quote": "Accitane sedis episcopus, Urbanus Tole- tane sedis urbis regie katedralis vetera- nus melodicus",
+      "license": "public-domain"
+     },
+     {
+      "kind": "secondary",
+      "source_id": null,
+      "work": "Th. Mommsen, preface to the Continuatio Hispana, MGH AA 11 (1894): 'Urbanum successorem Sinderedi (c. 87. 111)'; the author 'Toletanae sedis antistites praecipue respexisse eorumque seriem ad sua fere tempora texere'",
+      "file": null,
+      "lines": null,
+      "locus": "file lines 31478-31482",
+      "quote": null,
+      "license": null
+     },
+     {
+      "kind": "secondary",
+      "source_id": null,
+      "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+      "file": null,
+      "lines": null,
+      "locus": "Introduction: the rite 'survécut aux invasions mauresques'; its manuscripts copied from the eighth century to the end of the eleventh (file lines 293-299, 608-610)",
+      "quote": null,
+      "license": null
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "mozarabic-christianity relationsSummary ('Heir of post-589 Iberia'), longDescription and why ('kept the old Visigothic liturgy'); nicene-visigothic-iberia continuesAs field and legacy ('The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus')",
+    "wants": [],
+    "drafter_flags": [
+     "OWNED ALSO BY ERA 3: the Visigothic entry's continuesAs and legacy name this pair.",
+     "The '69' in the Sindered quote and the '35' before line 34480 are Mommsen's marginal chapter and line numbers printed in the text column; the first is inside the quoted span and kept as printed. The hyphen breaks 'Tole- tane' and 'vetera- nus' are kept as printed.",
+     "The chronicle does not itself call Urbanus bishop; it names him of the Toledan cathedral ('katedralis veteranus melodicus'). Mommsen's preface calls him Sindered's successor. The note says only 'of the cathedral at Toledo'.",
+     "The note's 'later kept the church strong' renders c. 87's 'ad confortandam ecclesiam dei clari habentur' (lines 34487-34490), which falls after the quoted span and carries the edition's bracketed restorations."
+    ],
+    "change_reason": "New: gives the Visigothic continuesAs pairing a sourced link, with the see of Toledo named on both sides of 711 in the same vendored chronicle.",
+    "fre_after": 61.9,
+    "fk_after": 8.6
+   }
   },
   {
    "group": "B",
@@ -4879,56 +4929,66 @@
   {
    "group": "D",
    "id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
-   "action": "new",
+   "action": "keep",
    "from": "the-church-of-the-east-under-persia",
    "to": "the-church-of-the-east-on-the-silk-road",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "The synods of the Church of the East give their leader the same title before and after the Arab conquest. Ishoyahb held a synod in 585 as catholicos and patriarch of the East. George signed with that title in 676, in the 57th year of Arab rule.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Synodicon orientale, Synod of Ishoyahb I (585), heading (trans. Chabot)",
-     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-     "lines": "25962",
-     "locus": "Syn. Or., Synod of Ishoyahb I",
-     "quote": "SYNODE DE MAR ISO YAHB, CATHOLICOS, PATRIARCHE DE L'ORIENT;",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
-     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-     "lines": "32111",
-     "locus": "Syn. Or., Synod of George I",
-     "quote": "Et dans ce mois de iyar, de la 57° année de l'empire des ArabesU,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
-     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-     "lines": "32119",
-     "locus": "Syn. Or., Synod of George I",
-     "quote": "Moi, Guiwareuis, par la grâce de Dieu catholicos, patriarche de FOrient;",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "the-church-of-the-east-on-the-silk-road relationsSummary ('A continuation of the Syriac Church of the East') and longDescription ('A Syriac-speaking church whose bishops sat in Persia'); the-church-of-the-east-under-persia continuesAs field and longDescription ('the church carried straight on under new rulers')",
-   "wants": [],
-   "drafter_flags": [
-    "OCR forms kept as printed: 'ArabesU' (a footnote mark run into the word), 'Guiwareuis' for Guiwarguis, 'FOrient' for l'Orient.",
-    "The year 585 for Ishoyahb's synod is Chabot's own dating (file line 26071, 'H doit donc être placé à l'été de 585'); the heading's own date line is garbled ('[ A. D. 85. [', line 25958).",
-    "The two periods overlap (635-651). The link rests on the office of catholicos continuing across the Sasanian fall, shown by the synod collection itself, which carries both synods."
-   ],
-   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Silk Road text's 'A continuation of the Syriac Church of the East'.",
-   "fre_after": 75.1,
-   "fk_after": 6.5
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "D",
+    "id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+    "action": "new",
+    "from": "the-church-of-the-east-under-persia",
+    "to": "the-church-of-the-east-on-the-silk-road",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "The synods of the Church of the East give their leader the same title before and after the Arab conquest. Ishoyahb held a synod in 585 as catholicos and patriarch of the East. George signed with that title in 676, in the 57th year of Arab rule.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Synodicon orientale, Synod of Ishoyahb I (585), heading (trans. Chabot)",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "25962",
+      "locus": "Syn. Or., Synod of Ishoyahb I",
+      "quote": "SYNODE DE MAR ISO YAHB, CATHOLICOS, PATRIARCHE DE L'ORIENT;",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "32111",
+      "locus": "Syn. Or., Synod of George I",
+      "quote": "Et dans ce mois de iyar, de la 57° année de l'empire des ArabesU,",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Synodicon orientale, Synod of George I (676), subscriptions (trans. Chabot)",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "32119",
+      "locus": "Syn. Or., Synod of George I",
+      "quote": "Moi, Guiwareuis, par la grâce de Dieu catholicos, patriarche de FOrient;",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "the-church-of-the-east-on-the-silk-road relationsSummary ('A continuation of the Syriac Church of the East') and longDescription ('A Syriac-speaking church whose bishops sat in Persia'); the-church-of-the-east-under-persia continuesAs field and longDescription ('the church carried straight on under new rulers')",
+    "wants": [],
+    "drafter_flags": [
+     "OCR forms kept as printed: 'ArabesU' (a footnote mark run into the word), 'Guiwareuis' for Guiwarguis, 'FOrient' for l'Orient.",
+     "The year 585 for Ishoyahb's synod is Chabot's own dating (file line 26071, 'H doit donc être placé à l'été de 585'); the heading's own date line is garbled ('[ A. D. 85. [', line 25958).",
+     "The two periods overlap (635-651). The link rests on the office of catholicos continuing across the Sasanian fall, shown by the synod collection itself, which carries both synods."
+    ],
+    "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Silk Road text's 'A continuation of the Syriac Church of the East'.",
+    "fre_after": 75.1,
+    "fk_after": 6.5
+   }
   },
   {
    "group": "D",
@@ -5271,67 +5331,77 @@
   {
    "group": "D",
    "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
-   "action": "new",
+   "action": "keep",
    "from": "syriac-orthodox-west-syriac-christianity",
    "to": "syriac-orthodox-under-islam",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Michael the Syrian, patriarch from 1166, tells how the patriarch Athanasius stood up to Heraclius over Chalcedon. He says God then sent the Arabs to set his church free. Athanasius died in 631, and his pupil John took his place. The same line ran on under the caliphs.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Michael the Syrian, Chronicle XI.3 (trans. Chabot)",
-     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
-     "lines": "31968-31969",
-     "locus": "Chron. XI.3",
-     "quote": "L'empereur s'en étant allé à Mabboug, le patriarche Mar Athanasius alla le trouver, avec douze évêques",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Michael the Syrian, Chronicle XI.3",
-     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
-     "lines": "31987-31990",
-     "locus": "Chron. XI.3",
-     "quote": "voyant la méchanceté des Romains qui, partout où ils dominaient, pillaient cruellement nos églises et nos monastères et nous condamnaient sans pitié, amena de la région du Sud les fils d'Ismaël, pour nous délivrer par eux",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Michael the Syrian, Chronicle XI.5",
-     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
-     "lines": "32307-32311",
-     "locus": "Chron. XI.5",
-     "quote": "En l'an 942 mourut et reposa le patriarche Mar Athanasius '. Il fut dé- posé dans le couvent des Garoumavê*. A sa place, on ordonna Jean^, son dis- ciple,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Michael the Syrian, Chronicle XI",
-     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
-     "lines": "34603-34609",
-     "locus": "Chron. XI",
-     "quote": "Notre Eglise orthodoxe avait pour pa- triarche Theodorus, du monastère de Qennésrè ; il dirigea le gouvernement de l'Eglise pendant 18 ans, et mourut* en l'an 978. On ordonna Severus,",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "syriac-orthodox-under-islam longDescription ('For the West Syriac church the Arab conquest lifted a weight. They had been the losing side under Byzantine emperors who wanted Chalcedon enforced'); syriac-orthodox-west-syriac-christianity continuesAs field and legacy ('It continued under Muslim rule')",
-   "wants": [],
-   "drafter_flags": [
-    "Inventory missed this: the longDescription names the same church's pre-conquest past, and the era-3 entry's continuesAs points here. Era 3 is not yet linked; the merge should dedupe if that pass drafts the same pair.",
-    "Years are Seleucid: 942 = 630/31, 978 = 666/67. The note says 631 and 'the 660s'.",
-    "OCR marks kept as printed (' * ^ in 'Athanasius '', 'Garoumavê*', 'Jean^', 'mourut*'). The XI.3 deliverance sentence breaks across a page with footnotes; the quote stops at the page end ('pour nous délivrer par eux'), before 'des mains des Romains' on line 32002.",
-    "Michael wrote in the twelfth century, from earlier sources; his first person ('nous', 'Notre Eglise') is itself evidence of the church's self-continuity."
-   ],
-   "change_reason": "New: gives the era-3 continuesAs pairing a sourced link; the era-4 text names the church's pre-conquest past.",
-   "fre_after": 75.6,
-   "fk_after": 5.6
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "D",
+    "id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+    "action": "new",
+    "from": "syriac-orthodox-west-syriac-christianity",
+    "to": "syriac-orthodox-under-islam",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "Michael the Syrian, patriarch from 1166, tells how the patriarch Athanasius stood up to Heraclius over Chalcedon. He says God then sent the Arabs to set his church free. Athanasius died in 631, and his pupil John took his place. The same line ran on under the caliphs.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Michael the Syrian, Chronicle XI.3 (trans. Chabot)",
+      "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+      "lines": "31968-31969",
+      "locus": "Chron. XI.3",
+      "quote": "L'empereur s'en étant allé à Mabboug, le patriarche Mar Athanasius alla le trouver, avec douze évêques",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Michael the Syrian, Chronicle XI.3",
+      "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+      "lines": "31987-31990",
+      "locus": "Chron. XI.3",
+      "quote": "voyant la méchanceté des Romains qui, partout où ils dominaient, pillaient cruellement nos églises et nos monastères et nous condamnaient sans pitié, amena de la région du Sud les fils d'Ismaël, pour nous délivrer par eux",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Michael the Syrian, Chronicle XI.5",
+      "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+      "lines": "32307-32311",
+      "locus": "Chron. XI.5",
+      "quote": "En l'an 942 mourut et reposa le patriarche Mar Athanasius '. Il fut dé- posé dans le couvent des Garoumavê*. A sa place, on ordonna Jean^, son dis- ciple,",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Michael the Syrian, Chronicle XI",
+      "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+      "lines": "34603-34609",
+      "locus": "Chron. XI",
+      "quote": "Notre Eglise orthodoxe avait pour pa- triarche Theodorus, du monastère de Qennésrè ; il dirigea le gouvernement de l'Eglise pendant 18 ans, et mourut* en l'an 978. On ordonna Severus,",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "syriac-orthodox-under-islam longDescription ('For the West Syriac church the Arab conquest lifted a weight. They had been the losing side under Byzantine emperors who wanted Chalcedon enforced'); syriac-orthodox-west-syriac-christianity continuesAs field and legacy ('It continued under Muslim rule')",
+    "wants": [],
+    "drafter_flags": [
+     "Inventory missed this: the longDescription names the same church's pre-conquest past, and the era-3 entry's continuesAs points here. Era 3 is not yet linked; the merge should dedupe if that pass drafts the same pair.",
+     "Years are Seleucid: 942 = 630/31, 978 = 666/67. The note says 631 and 'the 660s'.",
+     "OCR marks kept as printed (' * ^ in 'Athanasius '', 'Garoumavê*', 'Jean^', 'mourut*'). The XI.3 deliverance sentence breaks across a page with footnotes; the quote stops at the page end ('pour nous délivrer par eux'), before 'des mains des Romains' on line 32002.",
+     "Michael wrote in the twelfth century, from earlier sources; his first person ('nous', 'Notre Eglise') is itself evidence of the church's self-continuity."
+    ],
+    "change_reason": "New: gives the era-3 continuesAs pairing a sourced link; the era-4 text names the church's pre-conquest past.",
+    "fre_after": 75.6,
+    "fk_after": 5.6
+   }
   },
   {
    "group": "D",
@@ -5430,67 +5500,77 @@
   {
    "group": "E",
    "id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
-   "action": "new",
+   "action": "keep",
    "from": "cyrilline-miaphysite-egyptian-christianity",
    "to": "coptic-christianity-under-early-islam",
    "type": "continued as",
    "confidence": "Documented",
-   "note": "Benjamin was made head of Egypt's miaphysite church before the Arab conquest. Then he spent years in hiding from the Byzantine rulers. When the Arabs took Alexandria he came back, went round all its churches and was told to lead his people again.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria (attrib. Severus ibn al-Muqaffa), Andronicus and Benjamin I, trans. Evetts",
-     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-     "lines": "43228-43230",
-     "locus": "Pt. I, ch. XIV (Benjamin I, 622-661)",
-     "quote": "and so, when he went to his rest, they made the aforesaid Benjamin patriarch upon the evangelical throne.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "John of Nikiu, Chronicle, ch. CXXI (trans. R. H. Charles, 1916)",
-     "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
-     "lines": "12005-12008",
-     "locus": "Chron. CXXI.1",
-     "quote": "And Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans, and he went to the Churches, and inspected all of them.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
-     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-     "lines": "44689-44690",
-     "locus": "Pt. I, ch. XIV (Benjamin I)",
-     "quote": "Resume the government of all thv churches and of thy people, and administer their affairs.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
-     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-     "lines": "44829-44831",
-     "locus": "Pt. I, ch. XIV (Benjamin I)",
-     "quote": "Thus when this spiritual father, Benjamin the patriarch, sat among his people a second time, by the grace and mercy of Christ, the whole land of Egypt rejoiced over him;",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "coptic-christianity-under-early-islam relationsSummary ('Continuation of Miaphysite Egypt'), longDescription and why (Benjamin restored to his see); cyrilline-miaphysite-egyptian-christianity continuesAs field and legacy",
-   "wants": [],
-   "drafter_flags": [
-    "One patriarch, Benjamin I (622-661), holds the see on both sides of the 642 boundary, so the continuity is of the see itself.",
-    "OCR kept as printed: 'thv' for 'thy' (HP line 44690).",
-    "Era 3 has not been drafted; this pair is named in both entries' text. The merge should keep one copy if the era-3 pass drafts it too.",
-    "The note does not date Benjamin's return, because John of Nikiu gives 'the thirteenth year after his flight', not a year."
-   ],
-   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Coptic summary's 'Continuation of Miaphysite Egypt'.",
-   "fre_after": 70.3,
-   "fk_after": 7
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "E",
+    "id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+    "action": "new",
+    "from": "cyrilline-miaphysite-egyptian-christianity",
+    "to": "coptic-christianity-under-early-islam",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "Benjamin was made head of Egypt's miaphysite church before the Arab conquest. Then he spent years in hiding from the Byzantine rulers. When the Arabs took Alexandria he came back, went round all its churches and was told to lead his people again.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "History of the Patriarchs of the Coptic Church of Alexandria (attrib. Severus ibn al-Muqaffa), Andronicus and Benjamin I, trans. Evetts",
+      "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+      "lines": "43228-43230",
+      "locus": "Pt. I, ch. XIV (Benjamin I, 622-661)",
+      "quote": "and so, when he went to his rest, they made the aforesaid Benjamin patriarch upon the evangelical throne.",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "John of Nikiu, Chronicle, ch. CXXI (trans. R. H. Charles, 1916)",
+      "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+      "lines": "12005-12008",
+      "locus": "Chron. CXXI.1",
+      "quote": "And Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans, and he went to the Churches, and inspected all of them.",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
+      "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+      "lines": "44689-44690",
+      "locus": "Pt. I, ch. XIV (Benjamin I)",
+      "quote": "Resume the government of all thv churches and of thy people, and administer their affairs.",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "History of the Patriarchs of the Coptic Church of Alexandria, Benjamin I, trans. Evetts",
+      "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+      "lines": "44829-44831",
+      "locus": "Pt. I, ch. XIV (Benjamin I)",
+      "quote": "Thus when this spiritual father, Benjamin the patriarch, sat among his people a second time, by the grace and mercy of Christ, the whole land of Egypt rejoiced over him;",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "coptic-christianity-under-early-islam relationsSummary ('Continuation of Miaphysite Egypt'), longDescription and why (Benjamin restored to his see); cyrilline-miaphysite-egyptian-christianity continuesAs field and legacy",
+    "wants": [],
+    "drafter_flags": [
+     "One patriarch, Benjamin I (622-661), holds the see on both sides of the 642 boundary, so the continuity is of the see itself.",
+     "OCR kept as printed: 'thv' for 'thy' (HP line 44690).",
+     "Era 3 has not been drafted; this pair is named in both entries' text. The merge should keep one copy if the era-3 pass drafts it too.",
+     "The note does not date Benjamin's return, because John of Nikiu gives 'the thirteenth year after his flight', not a year."
+    ],
+    "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the Coptic summary's 'Continuation of Miaphysite Egypt'.",
+    "fre_after": 70.3,
+    "fk_after": 7
+   }
   },
   {
    "group": "E",
@@ -5748,58 +5828,68 @@
   {
    "group": "E",
    "id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
-   "action": "new",
+   "action": "keep",
    "from": "aksumite-christianity",
    "to": "post-aksumite-ethiopian-christianity",
    "type": "continued as",
-   "confidence": "Documented",
-   "note": "In the sixth century Procopius calls the king of the Aethiopians a devout Christian. Around 687 the Coptic patriarch Isaac wrote to the king of the Abyssinians. In the mid-700s a Coptic history puts all the kings of the Abyssinians under the patriarch in Egypt.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
-     "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
-     "lines": "2586-2588",
-     "locus": "Wars I.20",
-     "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Isaac (686-689), trans. Evetts, Patrologia Orientalis 5",
-     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
-     "lines": "1412-1413",
-     "locus": "Pt. I, ch. XVI (Isaac, 41st patriarch)",
-     "quote": "In those days the patriarch addressed letters to the king of the Abys- sinians and the king of the Nubians, bidding them make peace together",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
-     "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
-     "lines": "7179-7181",
-     "locus": "Pt. I, ch. XVIII (Michael I)",
-     "quote": "for the patriarch of the Jacobites in Egvpt exercises authority over him, and over all the kings of the Abyssi- nians and the Nubians;",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct",
-   "named_in_text": "post-aksumite-ethiopian-christianity relationsSummary ('between Aksum's decline and the rise of the Zagwe dynasty'), longDescription and why; aksumite-christianity continuesAs field and relationsSummary ('parent of the later medieval Ethiopian church')",
-   "wants": [
-    "Any dated text naming a bishop of Aksum or Ethiopia between 615 and 900, to show the see itself on the later side"
-   ],
-   "drafter_flags": [
-    "As with the era-2 Aksum link, the see is shown only by its tie to Alexandria: a Christian king before 615 (Procopius), and kings the patriarch writes to and claims authority over after (HP, 686-689 and c. 750). If the reviewer holds 'continued as' to see continuity on both sides, this should drop to Widely Accepted, and no repo-cited secondary for this stretch was found.",
-    "Hyphen breaks kept as printed ('Abys- sinians', 'Abyssi- nians'); OCR 'Egvpt' kept.",
-    "Era 3 has not been drafted; the merge should keep one copy if the era-3 pass drafts it too."
-   ],
-   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the summary's 'between Aksum's decline and the rise of the Zagwe dynasty'.",
-   "fre_after": 61.9,
-   "fk_after": 8.4
+   "confidence": "Widely Accepted",
+   "change_reason": "Kept as published by the era-3 pass (data release 7, merged while this era was drafting). Era 3 reviewed it; this era drafted the same pair from its own text. The era-4 draft is kept below for the record; it adds no evidence that would change the type or grade.",
+   "superseded_draft": {
+    "group": "E",
+    "id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+    "action": "new",
+    "from": "aksumite-christianity",
+    "to": "post-aksumite-ethiopian-christianity",
+    "type": "continued as",
+    "confidence": "Documented",
+    "note": "In the sixth century Procopius calls the king of the Aethiopians a devout Christian. Around 687 the Coptic patriarch Isaac wrote to the king of the Abyssinians. In the mid-700s a Coptic history puts all the kings of the Abyssinians under the patriarch in Egypt.",
+    "sources": [
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
+      "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
+      "lines": "2586-2588",
+      "locus": "Wars I.20",
+      "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "History of the Patriarchs of the Coptic Church of Alexandria, Isaac (686-689), trans. Evetts, Patrologia Orientalis 5",
+      "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+      "lines": "1412-1413",
+      "locus": "Pt. I, ch. XVI (Isaac, 41st patriarch)",
+      "quote": "In those days the patriarch addressed letters to the king of the Abys- sinians and the king of the Nubians, bidding them make peace together",
+      "license": "public-domain"
+     },
+     {
+      "kind": "primary",
+      "source_id": null,
+      "work": "History of the Patriarchs, Life of Michael I, trans. Evetts, Patrologia Orientalis 5",
+      "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+      "lines": "7179-7181",
+      "locus": "Pt. I, ch. XVIII (Michael I)",
+      "quote": "for the patriarch of the Jacobites in Egvpt exercises authority over him, and over all the kings of the Abyssi- nians and the Nubians;",
+      "license": "public-domain"
+     }
+    ],
+    "citation_specificity": "A",
+    "verification_state": "verified-direct",
+    "named_in_text": "post-aksumite-ethiopian-christianity relationsSummary ('between Aksum's decline and the rise of the Zagwe dynasty'), longDescription and why; aksumite-christianity continuesAs field and relationsSummary ('parent of the later medieval Ethiopian church')",
+    "wants": [
+     "Any dated text naming a bishop of Aksum or Ethiopia between 615 and 900, to show the see itself on the later side"
+    ],
+    "drafter_flags": [
+     "As with the era-2 Aksum link, the see is shown only by its tie to Alexandria: a Christian king before 615 (Procopius), and kings the patriarch writes to and claims authority over after (HP, 686-689 and c. 750). If the reviewer holds 'continued as' to see continuity on both sides, this should drop to Widely Accepted, and no repo-cited secondary for this stretch was found.",
+     "Hyphen breaks kept as printed ('Abys- sinians', 'Abyssi- nians'); OCR 'Egvpt' kept.",
+     "Era 3 has not been drafted; the merge should keep one copy if the era-3 pass drafts it too."
+    ],
+    "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the summary's 'between Aksum's decline and the rise of the Zagwe dynasty'.",
+    "fre_after": 61.9,
+    "fk_after": 8.4
+   }
   },
   {
    "group": "E",
@@ -6436,6 +6526,7 @@
   "anglo-saxon-christianity--carolingian-reform-christianity: drafted by A (gave rise to, Widely Accepted) and B (influenced, Documented). Kept B. The Frankish church already existed (the Merovingian 'continued as' link), so the sources show English churchmen leading its reform, not the reform emerging out of the English church; Carloman's capitulary of 742 (vendored MGH Capitularia) is a direct primary for that. The Anglo-Saxon legacy's 'grew directly out of it' must match 'influenced'.",
   "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity: drafted by B (Widely Accepted) and C (Dominant Modern Reconstruction). Kept C. B's only primary was Herberstein (1549), a sixteenth-century retelling that gets the mission's place and year wrong, which cannot carry the underlying-facts leg of Widely Accepted.",
   "byzantine-imperial-church-macedonian--kievan-rus-christianity: drafted by B (Widely Accepted) and C (Dominant Modern Reconstruction). Kept C, for the same reason: B's primaries were Herberstein (1549) and the Kyiv Synopsis (1674).",
-  "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism (C) and byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity (D) both rest on the 754 council's curse on 'Mansur' (John of Damascus). Both kept for review: John was a Melkite monk and the iconophiles' chief writer, so the curse may be read as directed at each; the reviewer should say whether each stands separately."
+  "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism (C) and byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity (D) both rest on the 754 council's curse on 'Mansur' (John of Damascus). Both kept for review: John was a Melkite monk and the iconophiles' chief writer, so the curse may be read as directed at each; the reviewer should say whether each stands separately.",
+  "Nine era-4 drafts share an id with links the era-3 pass published in release 7 while this era was drafting (british-welsh/medieval-welsh, anglo-saxon/insular-irish, roman-church-gregorian/late-anglo-saxon, merovingian/carolingian, nicene-visigothic/mozarabic, church-of-the-east under Persia/Silk Road, west-syriac/syriac-orthodox-under-islam, cyrilline-miaphysite/coptic, aksumite/post-aksumite). Each is kept as era 3 published it, and its era-4 draft is filed under superseded_draft. Two era-4 drafts graded higher (merovingian/carolingian and aksumite/post-aksumite: Documented against era 3s Widely Accepted). Era 3 reviewed those grades: a continuing church is an interpretation even when every event is attested, so its grades stand."
  ]
 }
