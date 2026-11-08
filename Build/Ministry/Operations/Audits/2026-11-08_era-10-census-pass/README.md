@@ -22,3 +22,25 @@ Ruling: Mark, era 10 gate, "take every recommendation" (`Build/Ministry/Features
 ## Open items
 
 In `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` (2026-11-08): IX.16 still names Iglesia ni Cristo; the new row's borrowed fields; IX.31's old page; the recordings made stale. The script that applied the pass is `apply_era10.py`.
+
+# P2-E10b: the new rows and named lines (data release 22) — 2026-11-08
+
+## What was applied
+
+- **Proposal.** `CiC_Step0_Era10_P2E10b_Proposed.json` (Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/), after Review Round 2's mechanical fixes (S2-1, M2-1 to M2-3, C2-1 to C2-5). Applied by the drafter's checker, with 0 edit or meta check failures.
+- **New rows.** IX.52 (The Anglican Communion), IX.54 (rescue missions), IX.55 (the Christian homeschool movement), IX.56 (the liturgical movement), IX.57 (the Third Wave), IX.58 (Promise Keepers).
+- **Register edits.** 46 edits on existing rows, among them the whole-field rewrites of IX.16 (now three bodies) and the named lines on IX.24, IX.30, IX.33 and IX.45.
+- **Counts.** `meta.totalEntries` 307; Pre-Survey Candidate 225. `meta.release` is 22, dated 2026-11-08.
+- **Held.** IX.53 (faith missions, with the Wycliffe line of G-56(a)) is not built. Round 2's S2-2 waits on Mark. Open-Gaps 127 to 131 track it and the other carried items.
+
+## Checks
+
+- `python -m engine.m6.cli atlas-sync`, `node Build/tools/generate_tree_pages.mjs` (307 pages, 6 new) and `node tools/build_tree_site.mjs`: 0 mismatched.
+- `node tools/validate-census.mjs --base <origin/main census> --atlas cft-website/index.html --tree cft-website/tree`: 307 movements, 579 edges, 10 eras, 0 errors, the 2 standing warnings.
+- Node tests: tools/tests/validate_census_*.test.mjs, Build/tools/*.test.mjs (89 pass) and cic-worker/worker.test.mjs (25 pass).
+- The commentary, spelling and path checks pass.
+
+## Recordings
+
+No paid run was made. The six new rows have no recording, so 19 tree movements with text have none (13 before). The 36 stale tree recordings and the 264 stale documented-story recordings are the same as before this release: it makes no recording newly stale.
+
