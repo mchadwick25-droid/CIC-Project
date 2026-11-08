@@ -1,0 +1,1057 @@
+{
+ "group": "C",
+ "movements": [
+  "the-oxford-movement-and-anglo-catholic-revival",
+  "victorian-church-of-england",
+  "catholic-apostolic-church-irvingites",
+  "plymouth-brethren-and-dispensational-formation",
+  "the-salvation-army"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the high-church strand of the Church of England's post-Reformation settlement, as a renewal movement within the Victorian Church of England.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "A renewal movement inside the Church of England: Widely Accepted 'gave rise to' link (1846 and 1852 book lists call it the 'New Anglican School' and show a Dean of Bristol attacking it; Nockles for the reading)."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the high-church strand of the Church of England's post-Reformation settlement, as a renewal movement within the Victorian Church of England.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "'The high-church strand of the post-Reformation settlement' is the older high churchmanship of the Restoration and Georgian church. Added (the inventory missed it): Dominant Modern Reconstruction 'influenced' link resting on Nockles, The Oxford Movement in Context. The other side's text does not name it, so it is ours."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "In July 1833 John Keble preached an Oxford sermon on national apostasy, protesting Parliament's reorganization of the Irish bishoprics, and a group of Oxford dons began issuing Tracts for the Times arguing that the Church of England was not a creature of the state but a branch of the ancient catholic church, with bishops in unbroken succession and a sacramental life to match.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Parliament is not a movement. Keble's Assize Sermon 'National Apostasy' (1833) is named in the movement's own primary sources but not vendored (wanted). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "In July 1833 John Keble preached an Oxford sermon on national apostasy, protesting Parliament's reorganization of the Irish bishoprics, and a group of Oxford dons began issuing Tracts for the Times arguing that the Church of England was not a creature of the state but a branch of the ancient catholic church, with bishops in unbroken succession and a sacramental life to match.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The state' is not a movement. The Tracts' argument is named in the movement's own sources (Tracts for the Times, not vendored; wanted). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "In July 1833 John Keble preached an Oxford sermon on national apostasy, protesting Parliament's reorganization of the Irish bishoprics, and a group of Oxford dons began issuing Tracts for the Times arguing that the Church of England was not a creature of the state but a branch of the ancient catholic church, with bishops in unbroken succession and a sacramental life to match.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The ancient catholic church' names the Tractarians' own claim, not a census movement. Supported by the Tracts as the entry's sources name them; Nockles for the reading."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "The argument split them: John Henry Newman's Tract 90 in 1841 tried to read the Thirty-Nine Articles in a catholic sense, and four years later he left for Rome, while Keble and Edward Pusey stayed and worked.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Newman) and Tract 90 (1841); Tracts for the Times and the Apologia are the entry's own named sources, not vendored (wanted)."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "The argument split them: John Henry Newman's Tract 90 in 1841 tried to read the Thirty-Nine Articles in a catholic sense, and four years later he left for Rome, while Keble and Edward Pusey stayed and worked.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Newman's own move to Rome in 1845 is one man's conversion, not a claim about two movements, so no link. Supported by the Apologia (named in the entry's sources, not vendored); a vendored NPNF volume (npnf207, line 4667) calls him 'Cardinal Newman'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "At the cost of ritual prosecutions in which a few priests went to prison.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The courts are not a movement. The prosecutions and S. F. Green's imprisonment are in the entry's story sources (Public Worship Regulation Act 1874; Green v. Lord Penzance; Bentley; Yates), none vendored."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "longDescription",
+   "sentence": "It also gave England something it had not had since the Reformation: women's religious orders, beginning with the Park Village sisterhood in 1845.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Park Village sisterhood (1845) has no census entry; its archives are named in the entry's sources (not vendored). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "why",
+   "sentence": "In 1833 John Keble preached against Parliament's interference in the church, and a circle of Oxford dons began arguing in their Tracts for the Times that the Church of England was a branch of the ancient catholic church rather than a creature of the state.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same claim as the description (Parliament): Keble's sermon named in the entry's sources, not vendored. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "why",
+   "sentence": "In 1833 John Keble preached against Parliament's interference in the church, and a circle of Oxford dons began arguing in their Tracts for the Times that the Church of England was a branch of the ancient catholic church rather than a creature of the state.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same claim as the description ('a creature of the state'): the Tracts, named, not vendored."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "why",
+   "sentence": "In 1833 John Keble preached against Parliament's interference in the church, and a circle of Oxford dons began arguing in their Tracts for the Times that the Church of England was a branch of the ancient catholic church rather than a creature of the state.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The ancient catholic church' is the Tractarians' own claim, not a census movement; as in the description."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "why",
+   "sentence": "The next generation carried that argument into ordinary parishes — vestments, incense, weekly communion, and slum missions — at the cost of ritual prosecutions that sent a few priests to prison.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ritual prosecutions: as in the description, supported by the entry's story sources (Public Worship Regulation Act 1874; Green case), none vendored."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "why",
+   "sentence": "It also revived something England had not had since the Reformation: women's religious orders, beginning with the Park Village sisterhood in 1845.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Park Village sisterhood: as in the description; archives named in the entry's sources. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Anglo-Catholicism became a permanent party inside Anglicanism and is still there, worldwide — its ceremonial, its parish schools and its slum priests changed what an ordinary English church service looks and sounds like, and the religious orders it revived are still in existence.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'A permanent party inside Anglicanism' is the movement's own legacy and matches the Victorian Church of England's own text; Nockles for the reading. Kept in the rewritten field."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Its hymn-writers and translators put a great deal of ancient and medieval material into English hymnals used far outside its own circles, and its recovery of early liturgy fed into the twentieth-century liturgical reforms of churches that had no sympathy with its politics at all.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Fed into the twentieth-century liturgical reforms' is a claim about influence on other churches. No vendored or repo-cited source supports it and no census movement carries it, so the clause goes. What the vendored texts do show is kept: Neale and Littledale's English translations of the early Eastern liturgies (liturgies-eastern, Neale; first published 1859)."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Its hymn-writers and translators put a great deal of ancient and medieval material into English hymnals used far outside its own circles, and its recovery of early liturgy fed into the twentieth-century liturgical reforms of churches that had no sympathy with its politics at all.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Churches that had no sympathy with its politics': part of the same unsupported clause, removed with it."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Its hymn-writers and translators put a great deal of ancient and medieval material into English hymnals used far outside its own circles, and its recovery of early liturgy fed into the twentieth-century liturgical reforms of churches that had no sympathy with its politics at all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "English hymnals have no census entry. The hymn translations are a well-known fact with no vendored source (Hymns Ancient and Modern 1861, Neale's Hymns of the Eastern Church 1862 wanted). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Newman went the other way and became a cardinal; he was canonized by the Roman Catholic Church in 2019.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Names a person. 'Became a cardinal': the vendored NPNF Cyril of Jerusalem volume (npnf207, line 4667) calls him 'Cardinal Newman'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Newman went the other way and became a cardinal; he was canonized by the Roman Catholic Church in 2019.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The 2019 canonization is an act of the modern Roman Catholic Church, no census movement in this period. Well-known fact with no vendored source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "sentence": "Anglo-Catholicism became a permanent party inside Anglicanism and is still there, worldwide — its ceremonial, its parish schools and its slum priests changed what an ordinary English church service looks and sounds like, and the religious orders it revived are still in existence.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The revived orders still existing (e.g. Wantage, Clewer, named in the entry's sources) is a present-day fact. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The Oxford Movement was a renewal movement within this church.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "Carried by the Widely Accepted 'gave rise to' link."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The era was defined by party divisions between evangelicals, high churchmen and broad churchmen, a wider crisis of faith, and the first Lambeth Conference in 1867, when the church's overseas missions became a worldwide Communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The evangelical party has no census entry of its own. A vendored book list of 1852 (Badger, Nestorians v2, lines 21133-21141) advertises W. Gresley's 'A Word of Remonstrance with the Evangelicals', answering 'No Peace with Tractarianism': the party quarrel is there in print."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The era was defined by party divisions between evangelicals, high churchmen and broad churchmen, a wider crisis of faith, and the first Lambeth Conference in 1867, when the church's overseas missions became a worldwide Communion.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "The high church party of this century includes the Oxford men; carried by the same link."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The era was defined by party divisions between evangelicals, high churchmen and broad churchmen, a wider crisis of faith, and the first Lambeth Conference in 1867, when the church's overseas missions became a worldwide Communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The broad church party has no census entry and the entry has no source list. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "relationsSummary",
+   "sentence": "The era was defined by party divisions between evangelicals, high churchmen and broad churchmen, a wider crisis of faith, and the first Lambeth Conference in 1867, when the church's overseas missions became a worldwide Communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Lambeth Conference (1867) has no census entry; no vendored or repo-cited source (the entry has no source list). Lambeth 1867 encyclical wanted. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "Evangelicals who had inherited the awakening's fervor and its campaigns against slavery and squalor, high churchmen who rediscovered the church's catholic inheritance, and broad churchmen who wanted room for the new biblical criticism and the new geology.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The awakening' is the Evangelical Revival inside the Church of England, which has no entry of its own (the Methodist Revival entry is Wesley's connexion, which left the church). The vendored Wilberforce, Practical View (1797), mapped to this movement, shows the lay evangelical call inside the established church before 1815. No link drafted."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The Church of England entered the nineteenth century as a comfortable establishment and left it a contested one.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added (the inventory missed it): the Georgian church carried into this one is a 'continued as' relationship; era 8 owns it (the Restoration and Georgian Church's legacy names it: 'It continues as the Church of England')."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "Evangelicals who had inherited the awakening's fervor and its campaigns against slavery and squalor, high churchmen who rediscovered the church's catholic inheritance, and broad churchmen who wanted room for the new biblical criticism and the new geology.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "'High churchmen who rediscovered the church's catholic inheritance': carried by the same link."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "Evangelicals who had inherited the awakening's fervor and its campaigns against slavery and squalor, high churchmen who rediscovered the church's catholic inheritance, and broad churchmen who wanted room for the new biblical criticism and the new geology.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Broad churchmen: no census entry, no source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The quarrels went to law: the Gorham case of 1850 over what baptism does, the storm over the essayists of 1860 who applied critical methods to Scripture, ritual prosecutions that put clergymen in prison over vestments and candles.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Gorham case (1850): no entry; no vendored or repo-cited source (Gorham judgment wanted). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The quarrels went to law: the Gorham case of 1850 over what baptism does, the storm over the essayists of 1860 who applied critical methods to Scripture, ritual prosecutions that put clergymen in prison over vestments and candles.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Essays and Reviews (1860): no entry; not vendored (wanted). Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The quarrels went to law: the Gorham case of 1850 over what baptism does, the storm over the essayists of 1860 who applied critical methods to Scripture, ritual prosecutions that put clergymen in prison over vestments and candles.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ritual prosecutions: supported by the Oxford Movement entry's story sources (Public Worship Regulation Act 1874; Green case; Bentley; Yates)."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "Underneath the controversies the church rebuilt itself, in thousands of new buildings and slum parishes at home and in a mission network abroad that by 1867 had produced enough overseas bishops that a first Lambeth Conference had to be called to hold them together.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The overseas mission network and Lambeth 1867: no entry, no source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "why",
+   "sentence": "Evangelical, high church and broad church parties fought so hard over what the Church of England should believe that their quarrels went to court: a case over infant baptism in 1850, and prosecutions that put clergymen in prison over candles and vestments.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Evangelical party: as in the summary; the 1852 Gresley titles show the quarrel in print."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "why",
+   "sentence": "Evangelical, high church and broad church parties fought so hard over what the Church of England should believe that their quarrels went to court: a case over infant baptism in 1850, and prosecutions that put clergymen in prison over candles and vestments.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "High church party: carried by the same link."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "why",
+   "sentence": "Evangelical, high church and broad church parties fought so hard over what the Church of England should believe that their quarrels went to court: a case over infant baptism in 1850, and prosecutions that put clergymen in prison over candles and vestments.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Broad church party: no entry, no source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "why",
+   "sentence": "By 1867 the church's overseas missions had produced so many bishops that the first Lambeth Conference had to be called just to hold them together.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Lambeth 1867: no entry, no source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "legacy",
+   "sentence": "The parties formed in this century are still recognizable as evangelical, Anglo-Catholic and liberal, and so are their arguments — only now conducted across the whole Communion rather than inside one country's church.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "prose_change": null,
+   "reason": "The Anglo-Catholic party descends from the Oxford Movement: carried by the same link."
+  },
+  {
+   "movement": "victorian-church-of-england",
+   "field": "legacy",
+   "sentence": "The parties formed in this century are still recognizable as evangelical, Anglo-Catholic and liberal, and so are their arguments — only now conducted across the whole Communion rather than inside one country's church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Anglican Communion today has no census entry in this period; present-day fact. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "relationsSummary",
+   "sentence": "Child of Holiness + Methodist lines",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-holiness-movement--the-salvation-army",
+   "prose_change": 0,
+   "reason": "'Child of Holiness' claims descent; historians (Murdoch, Dieter) describe the Booths taking up Holiness teaching, so 'influenced' at Dominant Modern Reconstruction, and the summary now says 'took up'."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "relationsSummary",
+   "sentence": "Child of Holiness + Methodist lines",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "link",
+   "link_id": "nineteenth-century-methodism--the-salvation-army",
+   "prose_change": 0,
+   "reason": "Booth was a Methodist preacher until 1861, so the line runs through nineteenth-century Methodism, not the eighteenth-century revival the inventory matched (the-methodist-revival). 'Gave rise to' at Dominant Modern Reconstruction (Murdoch, Walker)."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "longDescription",
+   "sentence": "William Booth, a Methodist preacher who could not settle inside a denomination, gave up his pulpit in 1861, and by 1865 was preaching in the streets of London's East End to people the churches were not reaching and did not particularly want.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "link",
+   "link_id": "nineteenth-century-methodism--the-salvation-army",
+   "prose_change": null,
+   "reason": "Same link. Inventory matched the-methodist-revival (era 8); corrected to the nineteenth-century Methodism entry."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "longDescription",
+   "sentence": "William Booth, a Methodist preacher who could not settle inside a denomination, gave up his pulpit in 1861, and by 1865 was preaching in the streets of London's East End to people the churches were not reaching and did not particularly want.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The churches' generally, no single movement. Kept; Walker and Murdoch (the entry's secondary sources) for the Army's reach to the unchurched poor."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "longDescription",
+   "sentence": "Mobs attacked it, magistrates fined it, and by 1906 it was working on every inhabited continent.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mobs: no entry. Supported by the entry's story sources (the 1882 return of assaults; Skeleton Army press; Bailey 1977), none vendored."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "longDescription",
+   "sentence": "Mobs attacked it, magistrates fined it, and by 1906 it was working on every inhabited continent.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Magistrates: no entry; same story sources (court records), none vendored."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "why",
+   "sentence": "William Booth gave up his Methodist pulpit in 1861 to preach in the streets of London's East End, and by 1878 his Christian Mission had renamed itself an Army, with ranks, uniforms, and brass bands to drown out hecklers.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "link",
+   "link_id": "nineteenth-century-methodism--the-salvation-army",
+   "prose_change": 1,
+   "reason": "Same Methodism link. The field is rewritten for the Catherine Booth sentence below; the Methodist pulpit clause stays."
+  },
+  {
+   "movement": "the-salvation-army",
+   "field": "why",
+   "sentence": "Catherine Booth had already argued, in 1859, that women should be commissioned as officers on equal terms with men, and the Army counted everything it did, soul by soul and meal by meal, in the scheme for shelters and labor it published as In Darkest England in 1890.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Catherine Booth's 1859 pamphlet (Female Ministry, named in the entry's sources) argued for women's right to preach. In 1859 there was no Army and no officers, so 'should be commissioned as officers on equal terms with men' is anachronistic. Rewritten: she argued women's right to preach, and the Army commissioned women officers from the start (the entry's own source note says this). The longDescription's looser 'the published argument she had made for it in 1859' is left as is."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "relationsSummary",
+   "sentence": "A German branch broke away in 1863, specifically to keep calling new apostles, and became the New Apostolic Church, which today has millions of members, mostly in Africa and Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The New Apostolic Church has no census entry. The 1863 Hamburg break is covered by Flegg, Gathered Under Apostles (the entry's secondary source); nothing vendored. The present-day membership figure has no source. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "longDescription",
+   "sentence": "In 1830 and 1831, people in the fashionable London congregation of the Scottish preacher Edward Irving began speaking in tongues and prophesying — something almost nobody in Britain had expected to see again.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Irving) and his congregation. The entry's named primary sources (Baxter, Narrative of Facts 1833; the Regent Square prophesyings) and Flegg and Grass support it; none vendored (wanted)."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "longDescription",
+   "sentence": "And Irving was deposed by his presbytery for his teaching and died in 1834, before the movement that bears his name had really taken shape.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "His presbytery (Annan, Church of Scotland) has no nineteenth-century census entry. The 1833 Annan trial record and Grass, Edward Irving, are the entry's named sources; none vendored."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "legacy",
+   "sentence": "Scholars of worship studied it long after the congregations fell silent, and it drew on Eastern, Roman and Anglican sources in a combination nobody else had attempted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Eastern liturgical sources: no single census movement. Flegg and the church's own Liturgy (1842-), both named in the entry's sources, cover it; not vendored (wanted)."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "legacy",
+   "sentence": "Scholars of worship studied it long after the congregations fell silent, and it drew on Eastern, Roman and Anglican sources in a combination nobody else had attempted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Roman liturgical sources: as above."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "legacy",
+   "sentence": "Scholars of worship studied it long after the congregations fell silent, and it drew on Eastern, Roman and Anglican sources in a combination nobody else had attempted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Anglican liturgical sources: as above. Not tied to the Victorian Church of England entry because the text names a source tradition, not a contact."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "legacy",
+   "sentence": "And a German branch that broke away in 1863 precisely because it wanted to keep calling new apostles became the New Apostolic Church, which today has millions of members, mostly in Africa and Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "New Apostolic Church: as in the summary (Flegg)."
+  },
+  {
+   "movement": "catholic-apostolic-church-irvingites",
+   "field": "why",
+   "sentence": "Between 1830 and 1831, members of Edward Irving's fashionable London congregation began speaking in tongues and prophesying, convinced that Christ's return was near, and the church that grew out of it restored twelve apostles to prepare for it.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Irving); as in the description."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "relationsSummary",
+   "sentence": "Child of evangelical dissent; via Scofield reshaped how millions read Scripture; influence on the Bible-institute tradition",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Evangelical dissent' is a broad family with no single census entry (English Old Dissent is the Presbyterian and Congregationalist line, which is not where the Brethren came from). Kept: Grass and Coad, the entry's secondary sources, place the Brethren in evangelical nonconformity, though Darby himself began as an Anglican curate, as the description says."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "relationsSummary",
+   "sentence": "Child of evangelical dissent; via Scofield reshaped how millions read Scripture; influence on the Bible-institute tradition",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "prose_change": null,
+   "reason": "'Via Scofield reshaped how millions read Scripture': the Scofield Reference Bible belongs to the Dispensational Prophecy Culture entry. 'Influenced' at Dominant Modern Reconstruction (Sandeen, Weber, Boyer). Era 10 has not run, so the link is ours."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "relationsSummary",
+   "sentence": "Child of evangelical dissent; via Scofield reshaped how millions read Scripture; influence on the Bible-institute tradition",
+   "other_id": "the-sunday-school-and-bible-institute-movement",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+   "prose_change": null,
+   "reason": "'Influenced' at Dominant Modern Reconstruction (Sandeen). The Bible-institute entry's own text does not name the Brethren."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "longDescription",
+   "sentence": "Darby also worked out a way of reading the Bible that divided history into distinct dispensations, kept Israel and the church permanently separate, and expected Christ to remove the church before a final tribulation — a scheme almost unknown before him and enormously consequential after.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Darby). His Collected Writings are the entry's named source, not vendored (wanted)."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "longDescription",
+   "sentence": "Alongside the theology ran an equally characteristic practice.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Müller). His Narrative is the entry's named source, not vendored (wanted)."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "longDescription",
+   "sentence": "In 1848 the movement split over how far assemblies were answerable to one another, into the Open and Exclusive Brethren, and both halves carried on.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Open and Exclusive Brethren are parts of this movement, no entries of their own. The 1848 Bethesda documents and Coad and Grass are the entry's named sources; none vendored."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "why",
+   "sentence": "In the late 1820s a handful of Dublin Christians, among them a dentist, a lawyer, and a young curate named John Nelson Darby, began meeting to break bread together with no ordained clergy and no denominational name.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Darby) among the Dublin founders; Grass and Coad."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "why",
+   "sentence": "George Müller ran orphanages in Bristol for thousands of children on the principle of never asking anyone for money, publishing the accounts to prove it.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Müller); his Narrative and the orphanage reports are named sources."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "why",
+   "sentence": "Darby also worked out a scheme dividing history into dispensations and expecting Christ to remove the church before a final tribulation, a way of reading the Bible almost unknown before him.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Darby) and his scheme; Sandeen and Grass."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "Open and Exclusive assemblies exist worldwide to this day, and Müller's Bristol work continues as a charitable trust with a museum in one of the original orphan houses.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Müller's trust and museum today: present-day fact. Left as the movement's own account under the open item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren.",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "prose_change": null,
+   "reason": "The Scofield Reference Bible (1909) belongs to the Dispensational Prophecy Culture entry; carried by the same link."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren.",
+   "other_id": "the-sunday-school-and-bible-institute-movement",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+   "prose_change": null,
+   "reason": "'Taught in the Bible institutes': carried by the Bible-institute link."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "American evangelicalism generally has no single entry. 'Default end-times framework' is the reading of Sandeen, Weber and Boyer (all cited on the Dispensational Prophecy Culture entry)."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren.",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "prose_change": null,
+   "reason": "'Lies behind most popular prophecy writing': carried by the same link. That entry's own text names the Brethren too, but era 10 has not run, so the link is ours."
+  },
+  {
+   "movement": "plymouth-brethren-and-dispensational-formation",
+   "field": "legacy",
+   "sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a person (Darby); as above."
+  }
+ ],
+ "links": [
+  {
+   "id": "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "action": "new",
+   "from": "victorian-church-of-england",
+   "to": "the-oxford-movement-and-anglo-catholic-revival",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Oxford Movement began in 1833 among Church of England clergy who taught at Oxford. A Scottish book list of 1846 calls them \"the New Anglican School, commonly called Puseyites\". Their critics in the church included the Dean of Bristol.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Publisher's list of John Johnstone (Edinburgh), bound in Albert Rilliet, Calvin and Servetus, trans. W. K. Tweedie (1846)",
+     "file": "cic/texts/rilliet_calvin-and-servetus_tweedie1846.txt",
+     "lines": "9766-9767",
+     "locus": "publisher's advertisements, Lorimer's Manual of Presbytery",
+     "quote": "with  an  Appendix  on  the  Pretensions of  the  New  Anglican  School,  commonly  called  Puseyites",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Publisher's list of Joseph Masters (London), bound in G. P. Badger, The Nestorians and their Rituals, vol. 2 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt",
+     "lines": "21148-21149",
+     "locus": "publisher's advertisements, works of W. Gresley",
+     "quote": "A  Letter  to  the  Dean  of  Bristol  on  what  he  con- siders the  **  Fundamental  Error\"  of  Tractarianism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Peter Nockles, The Oxford Movement in Context (Cambridge University Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-oxford-movement-and-anglo-catholic-revival relationsSummary ('a renewal movement within the Victorian Church of England'); victorian-church-of-england relationsSummary ('The Oxford Movement was a renewal movement within this church') and legacy",
+   "wants": [
+    "John Henry Newman, Apologia Pro Vita Sua (1864), the movement's own account of its start inside the Church of England; would lift this to Documented",
+    "Tracts for the Times (1833-41), especially Tract 1, and Keble's Assize Sermon 'National Apostasy' (1833)"
+   ],
+   "drafter_flags": [
+    "Both primary quotes are publishers' advertisement lists bound into the backs of vendored books, not the movement's own writings. They show the Tractarians as an Anglican school argued over inside the Church of England (a Dean of Bristol attacking 'Tractarianism'); they do not narrate the founding. Read the quoted lines myself.",
+    "The Badger quote keeps the OCR marks ('con- siders', '**') exactly as the file prints them.",
+    "Gresley and the Dean of Bristol are not named in the note beyond the Dean's office; the ad names the Dean, not his personal name.",
+    "Nockles is cited at work level (repo-cited on the movement's own source list); no page seen."
+   ],
+   "change_reason": "New. The two entries name each other as renewal movement and parent church, but had no link."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-oxford-movement-and-anglo-catholic-revival",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-oxford-movement-and-anglo-catholic-revival",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Oxford Movement drew on an older high-church tradition in the Church of England. The historian Peter Nockles shows that the Oxford men both carried that tradition on and broke with parts of it. This rests on his modern study.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Peter Nockles, The Oxford Movement in Context (Cambridge University Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-oxford-movement-and-anglo-catholic-revival relationsSummary ('Grew out of the high-church strand of the Church of England's post-Reformation settlement')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A tradition taken up by a later party; no institutional act."
+   },
+   "wants": [
+    "Newman, Apologia Pro Vita Sua (1864), which names the older high churchmen he learned from",
+    "Keble's 1836 edition of Hooker with the editor's preface (the vendored 1850 printing omits the preface), for the Tractarian reading of the older Anglican divines"
+   ],
+   "drafter_flags": [
+    "cross-era: era 8. The Restoration and Georgian Church's own text does not name the Oxford Movement, so this is drafted here.",
+    "Chose 'influenced', not 'gave rise to': the Oxford men's own church after 1815 is the Victorian Church of England (separate link). The older strand reached them as a tradition.",
+    "Nockles is repo-cited (the movement's own source list); I have not seen pages. His thesis that the Tractarians both continued and departed from the older high churchmen is what the note states.",
+    "The vendored Hooker (Keble's text, 1850) prints neither Keble's name in the body nor his preface, so it cannot show the use."
+   ],
+   "change_reason": "New. The inventory read 'the high-church strand' as the Victorian church only; the strand is older."
+  },
+  {
+   "id": "nineteenth-century-methodism--the-salvation-army",
+   "action": "new",
+   "from": "nineteenth-century-methodism",
+   "to": "the-salvation-army",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "William Booth was a Methodist preacher until 1861, when he gave up his pulpit. In 1865 he began to preach in the streets of East London. His mission there took the name of an Army in 1878. Historians Norman Murdoch and Pamela Walker trace its methods back to Methodist revival preaching.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Norman Murdoch, Origins of the Salvation Army (University of Tennessee Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pamela J. Walker, Pulling the Devil's Kingdom Down (University of California Press, 2001)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-salvation-army relationsSummary ('Methodist lines'), longDescription ('a Methodist preacher') and why ('his Methodist pulpit')",
+   "wants": [
+    "Methodist New Connexion Conference minutes for 1861 (Booth's resignation)",
+    "William Booth's and Catherine Booth's own early writings, e.g. Female Ministry (1859), naming their Methodist setting"
+   ],
+   "drafter_flags": [
+    "The inventory matched the eighteenth-century Methodist Revival (era 8). Booth (born 1829) served nineteenth-century Methodist connexions, so I linked the Nineteenth-Century Methodism entry instead; no era-8 link drafted.",
+    "The note avoids naming the Methodist New Connexion because no repo source names it.",
+    "Murdoch and Walker are repo-cited (the Army's own source list); I have not seen pages. Murdoch's book is the standard argument that the Army grew from Methodist revivalism.",
+    "'Gave rise to' needs named people passing; Booth and his Christian Mission are named in the entry, but no vendored text shows it, so Dominant Modern Reconstruction."
+   ],
+   "change_reason": "New. 'Child of ... Methodist lines' had no link; corrected the inventory's era-8 match."
+  },
+  {
+   "id": "the-holiness-movement--the-salvation-army",
+   "action": "new",
+   "from": "the-holiness-movement",
+   "to": "the-salvation-army",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Holiness teachers said that God can make a believer truly holy in this life, and at once. The historians Norman Murdoch and Melvin Dieter place the Booths and the early Army inside this movement. The link rests on their modern studies.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Norman Murdoch, Origins of the Salvation Army (University of Tennessee Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-salvation-army relationsSummary ('Child of Holiness')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Teaching taken up; no council, split or changed rule in its sources."
+   },
+   "wants": [
+    "Catherine Booth, Female Ministry; or, Woman's Right to Preach the Gospel (1859), written in defence of Phoebe Palmer's preaching; would lift this toward Documented"
+   ],
+   "drafter_flags": [
+    "'Child of Holiness' implies descent; I typed it 'influenced' because the Army's people came from Methodism, not from a Holiness body, and the summary is rewritten to say 'took up'.",
+    "Murdoch is on the Army's source list and Dieter on the Holiness movement's; both repo-cited, pages not seen.",
+    "The claim that Female Ministry defended Phoebe Palmer is from my knowledge, not a repo source, so it is only in wants, not the note."
+   ],
+   "change_reason": "New. 'Child of Holiness' had no link."
+  },
+  {
+   "id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+   "action": "new",
+   "from": "plymouth-brethren-and-dispensational-formation",
+   "to": "the-sunday-school-and-bible-institute-movement",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "John Nelson Darby split Bible history into ages he called dispensations. In 1970 Ernest Sandeen showed how this scheme was taught in American Bible schools. One was the school D. L. Moody opened in Chicago in 1886. The link rests on his study.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ernest Sandeen, The Roots of Fundamentalism (University of Chicago Press, 1970)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "plymouth-brethren-and-dispensational-formation relationsSummary ('influence on the Bible-institute tradition') and legacy ('taught in the Bible institutes')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Teaching taken up by schools; no institutional act against or between bodies."
+   },
+   "wants": [
+    "Moody Bible Institute founding records and early curricula (1886-1900), the Bible-institute entry's own named source",
+    "J. N. Darby, Collected Writings (ed. Kelly), the prophetic volumes"
+   ],
+   "drafter_flags": [
+    "Sandeen is repo-cited (the Brethren and prophecy-culture source lists). I recall his account of the Bible institutes as centres of dispensational teaching but have not seen the pages; the naming of Moody's school as one of them is from that recollection and should be rechecked.",
+    "The Bible-institute entry ends c. 1900; most of the institutes' dispensational teaching is later. The link fits Moody's school (1886) within the window."
+   ],
+   "change_reason": "New. The Brethren text names the Bible-institute influence twice; no link existed."
+  },
+  {
+   "id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "action": "new",
+   "from": "plymouth-brethren-and-dispensational-formation",
+   "to": "dispensational-prophecy-culture",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Darby taught that Christ would take the church away before a last time of great suffering. American prophecy conferences took up his plan from 1878. The Scofield Reference Bible put it in its notes in 1909. Historians from Ernest Sandeen to Paul Boyer trace this prophecy culture back to Darby.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ernest Sandeen, The Roots of Fundamentalism (University of Chicago Press, 1970)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy Weber, Living in the Shadow of the Second Coming (1979; 1983)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Paul Boyer, When Time Shall Be No More (Harvard University Press, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "plymouth-brethren-and-dispensational-formation relationsSummary ('via Scofield reshaped how millions read Scripture') and legacy ('packaged in the notes of the Scofield Reference Bible ... lies behind most popular prophecy writing')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A reading scheme taken up in print; no institutional act."
+   },
+   "wants": [
+    "C. I. Scofield, The Scofield Reference Bible (1909; public domain), the notes on dispensations",
+    "Premillennial Essays of the Prophetic Conference held in New York, 1878, and the Niagara Creed (1878)",
+    "J. N. Darby, Collected Writings, the prophetic volumes"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; drafted here per the ownership rule). The prophecy-culture entry itself says it 'grew out of Plymouth Brethren teaching', which would read as 'gave rise to'. I kept 'influenced': the American teachers and Scofield were not Brethren, so no people passed between the bodies.",
+    "Some historians have argued that American dispensationalism owed less to Darby directly than Sandeen held; no such work is cited in the repo, so I did not grade it Contested. Reviewer may wish to weigh this.",
+    "The 1878 conference date and the 1909 Scofield date come from the prophecy-culture entry's own text and its named sources; all secondaries are repo-cited on that entry, pages not seen."
+   ],
+   "change_reason": "New. The Brethren text names this reach twice; no link existed."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-salvation-army",
+   "field": "relationsSummary",
+   "old": "Child of Holiness + Methodist lines",
+   "new": "Grew out of Methodism. It also took up the teaching of the Holiness movement.",
+   "reason": "'Child of Holiness' claimed descent; the sources describe the Booths taking up Holiness teaching while their people came from Methodism. Now matches the two links (Methodism gave rise to; Holiness influenced). The '+' shorthand becomes words."
+  },
+  {
+   "n": 1,
+   "movement": "the-salvation-army",
+   "field": "why",
+   "old": "William Booth gave up his Methodist pulpit in 1861 to preach in the streets of London's East End, and by 1878 his Christian Mission had renamed itself an Army, with ranks, uniforms, and brass bands to drown out hecklers. Catherine Booth had already argued, in 1859, that women should be commissioned as officers on equal terms with men, and the Army counted everything it did, soul by soul and meal by meal, in the scheme for shelters and labor it published as In Darkest England in 1890.",
+   "new": "William Booth gave up his Methodist pulpit in 1861, and by 1865 he was preaching in the streets of London's East End. By 1878 his Christian Mission had renamed itself an Army, with ranks, uniforms, and brass bands to drown out hecklers. Catherine Booth had already argued in print, in 1859, that women had the right to preach, and the Army commissioned women as officers from the start. It counted everything it did, soul by soul and meal by meal. In 1890 it published its scheme for shelters and labor as In Darkest England.",
+   "reason": "'In 1859 ... women should be commissioned as officers' is anachronistic: there was no Army and no officers until 1878. Her 1859 pamphlet (Female Ministry) argued women's right to preach; the Army's commissioning of women officers from the start is the entry's own source note. The 1861/1865 dates are split as the description has them. Sentences shortened; every other fact kept."
+  },
+  {
+   "n": 2,
+   "movement": "the-oxford-movement-and-anglo-catholic-revival",
+   "field": "legacy",
+   "old": "Anglo-Catholicism became a permanent party inside Anglicanism and is still there, worldwide — its ceremonial, its parish schools and its slum priests changed what an ordinary English church service looks and sounds like, and the religious orders it revived are still in existence. Its hymn-writers and translators put a great deal of ancient and medieval material into English hymnals used far outside its own circles, and its recovery of early liturgy fed into the twentieth-century liturgical reforms of churches that had no sympathy with its politics at all. Newman went the other way and became a cardinal; he was canonized by the Roman Catholic Church in 2019.",
+   "new": "Anglo-Catholicism became a lasting party inside Anglicanism, and it is still there, worldwide. Its ritual, its parish schools and its slum priests changed how an ordinary English church service looks and sounds. The religious orders it revived still exist. Its hymn-writers and translators put a great deal of ancient and medieval writing into English hymn books. Many people far outside its circles sing from them. Its scholars also put the early forms of Eastern worship into English. Newman went the other way and became a cardinal. The Roman Catholic Church made him a saint in 2019.",
+   "reason": "Removed the unsupported claim that its recovery of early liturgy 'fed into the twentieth-century liturgical reforms of churches that had no sympathy with its politics'. Kept what a vendored text shows: Neale and Littledale's English translations of the early Eastern liturgies. Other facts kept; long sentences split for reading level."
+  }
+ ],
+ "wants": [
+  "John Henry Newman, Apologia Pro Vita Sua (1864): for the Oxford Movement's start inside the Church of England and its debt to the older high churchmen; would lift the Victorian-church and Georgian-church links",
+  "Tracts for the Times (1833-41), esp. Tracts 1 and 90, and Keble's Assize Sermon 'National Apostasy' (1833)",
+  "Keble's 1836 edition of Hooker, vol. 1, with the editor's preface (the vendored 1850 printing omits it)",
+  "Hymns Ancient and Modern (1861) and J. M. Neale, Hymns of the Eastern Church (1862), for the Oxford Movement's hymn translations",
+  "The Gorham judgment (1850), Essays and Reviews (1860) and the Lambeth Conference encyclical of 1867, for the Victorian Church of England's own text, which has no source list",
+  "Catherine Booth, Female Ministry; or, Woman's Right to Preach the Gospel (1859): for the Army's Holiness tie and its 1859 argument",
+  "William Booth, In Darkest England and the Way Out (1890), and the Methodist New Connexion Conference minutes for 1861",
+  "J. N. Darby, Collected Writings (ed. Kelly), the prophetic volumes; W. B. Neatby, A History of the Plymouth Brethren (1901)",
+  "C. I. Scofield, The Scofield Reference Bible (1909); Premillennial Essays of the 1878 New York prophetic conference; the Niagara Creed (1878)",
+  "Moody Bible Institute founding records and early curricula (1886-1900)",
+  "Margaret Oliphant, The Life of Edward Irving (1862); Robert Baxter, Narrative of Facts (1833); The Liturgy and Other Divine Offices of the Church (Catholic Apostolic, 1842-)"
+ ],
+ "escalations": [
+  "The Victorian Church of England entry has no source list at all. Its Gorham case (1850), Essays and Reviews (1860), broad church party, overseas bishops and first Lambeth Conference (1867) rest on nothing vendored or cited in the repo. I left them under the open item 'Well-known facts with no vendored source'; the entry needs a source list.",
+  "Open ruling, not new: present-day facts (the New Apostolic Church's membership, Müller's trust and museum, Gordon Square's listing, Newman's 2019 canonization, the surviving orders) have no vendored source. Left under the same open item."
+ ]
+}
