@@ -80,7 +80,8 @@ applied to every shared file, not only the census.
 | P2-L5 | Links, era 5; data release 9 | none | merged (#1542) |
 | P2-L6 | Links, era 6; data release 11 | none | merged (#1544) |
 | P2-L7 | Links, era 7; data release 12 | none | merged (#1546) |
-| P2-L8 | Links, era 8; data release 13 | none | in review |
+| P2-L8 | Links, era 8; data release 13 | none | merged (#1547) |
+| P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling) | none (3-round cap) | in review |
 | P2-L9 | Links, one era per chunk | none | in progress |
 | P2-L10 | Links, era 10 | era 10's traditions built first | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set | none (3-round cap) | todo |

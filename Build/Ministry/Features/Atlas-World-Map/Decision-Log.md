@@ -13,6 +13,30 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-08 — Era 8 change order: census 300→301 (Armenian Apostolic Church, VII.24a)
+
+**What changed.** Mark ruled: "add an era-8 Armenian Apostolic movement". The era 8 links pass
+had found that the Armenian lane ran from New Julfa (VI.28) through VII.24, the Mekhitarists and
+the Armenian Catholic patriarchate, into the Zartonk (VIII.32), though VII.24's own text calls the
+Apostolic Church the far larger body. `armenian-apostolic-church-era-8` (VII.24a, 1650-1815) now
+carries the Apostolic line: New Julfa continues as it, and it continues as the Zartonk. VII.24
+becomes the Armenian Catholic strand alone (Eastern Catholic stream; `continuesAs` null, as on the
+Melkite Greek Catholic movement; shortName "Armenian Catholics"). Era 7's link from New Julfa to
+VII.24 is retired with a replacement, the census's first `retiredLinks` entry.
+
+**Heart reasoning.** The tree had a place for the Armenians who joined Rome and none for the
+church most Armenians belonged to. A visitor following the Armenian line would have walked through
+the smaller body as if it were the whole.
+
+**Not changed.** The era stays frozen; this is a change order on one entry, named and reasoned, not
+a re-survey. Unlike VI.13a-d, the new prose was newly researched, because VII.24's text held almost
+nothing on the Apostolic Church: every sentence is tied to a vendored source in the audit's fact
+table. `meta.totalEntries` and `statusCounts` updated; the validator passes.
+
+**Record.** `Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/` (two review
+rounds, passed). The library bucket and the map's own movement list are open items (Church Family
+Tree Open-Gaps, 2026-11-08).
+
 ## 2026-11-06 — Rivers that swell, thin and drift
 
 **Decided (Mark, Option 1: "keep the river feel, not the harshness").** Two of the map's

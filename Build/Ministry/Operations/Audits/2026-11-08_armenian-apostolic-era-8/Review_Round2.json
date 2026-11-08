@@ -1,0 +1,98 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 1,
+  "total": 1,
+  "resolved": 12,
+  "of_round1": 12
+ },
+ "resolved": [
+  {
+   "id": "A1-01",
+   "status": "resolved",
+   "departure": "sound",
+   "note": "Rewrite checked line by line. Yeghiazar's rival claim matches Ormanian 4383-4388 ('At the same time ... supreme patriarch of Turkey, in opposition to Etchmiadzin'); 'the sultan's lands' for 'Turkey' is fair. Catholic use of the French ambassadors: Ormanian 4473-4475. Avedik jailed 1703 through the ambassador: Ormanian 4475-4478. 'Carried off to France' follows Ormanian ('secretly abducted ... taken to France') and Issaverdens 10009-10013 ('fell into the hands of the French ... took him to Marseilles'); 'where he died' rests on Chamich 21327-21333 (died a Capuchin at Marseilles), and Issaverdens (released, 'died in peace', no place) does not contradict it. Dropping 'meddling' was right. relationsSummary 61.4/7.8, longDescription 61.0/7.9."
+  },
+  {
+   "id": "A1-02",
+   "status": "resolved",
+   "departure": "sound",
+   "note": "'This defection' now refers to the two bishops going over to Rome, and the extended Ormanian quote (4469-4472) carries the referent. Abraham is named, with Ormanian 4526-4527 added. 'Ottoman lands' is in place. 'The other bishops of Sis ... They chose a rival' is closer to Issaverdens 10808-10813 ('bishops ... who had not taken part in his election ... elected one Michael') than my text; 'pontifical chair of Sis' at 10802-10804 confirms the see. The Serpos sentence keeps the source's force ('aver possono'). 64.2/7.5."
+  },
+  {
+   "id": "A1-03",
+   "status": "resolved",
+   "note": "VII.24 teaser carries the text as given. It is in the test census. 65.6/8.0."
+  },
+  {
+   "id": "A1-04",
+   "status": "resolved",
+   "note": "VII.24 continuesAs is null in the test census. The neighbor_changes row and the flag record the change and the Melkite precedent."
+  },
+  {
+   "id": "A1-05",
+   "status": "resolved",
+   "departure": "sound",
+   "note": "Grade Dominant Modern Reconstruction, not my Widely Accepted. Under the Drafting_Brief, Widely Accepted needs a primary source for the underlying facts. Chamich (1784-86) is some eighty years after 1703 and is cited as secondary elsewhere in this draft for events he did not live through (Gomidas, Alexander), so all five sources are secondary and DMR is the honest grade. My round-1 call was wrong on this point. The note's facts check out: 'without cause' (Chamich 21303-21305), thirty leading Armenians (21311-21314), beaten and stripped (21314-21319), island exile (Issaverdens 10006-10009, Tenedos). 'Catholic writers' is accurate (Chamich and Issaverdens are both Mekhitarists). major:false and minor_reason stand. 64.1/7.7."
+  },
+  {
+   "id": "A1-06",
+   "status": "resolved",
+   "departure": "sound",
+   "note": "The one-sentence outcome (24 words, 73.2/9.0) follows the one-sentence rule better than my two sentences did. 'The sultan's law' for 'sanzioni Sovrane' is fair, and it matches the relationsSummary. The Gomidas sentence now uses the Issaverdens source (10106-10111, John as subject), and Chamich 21449-21453 backs 'Catholic writers'. outcome_evidence = Serpos 384-387, the link's own quote. The flag that Serpos does not say the patriarchate asked for the decrees is right, and the outcome does not claim it. Note 66.5/7.6."
+  },
+  {
+   "id": "A1-07",
+   "status": "resolved",
+   "departure": "sound",
+   "note": "'Council of Chalcedon' is in Chamich 21375-21376 and Issaverdens 10050-10053. 'Respectful letter' is Issaverdens 10057-10060, and it is the more careful choice over Chamich's 'entire obedience' (21367-21369). 'Before he became head of the church' matches both texts ('previous to his elevation'). Dropping my 'c. 1715-25' was right: no vendored text dates Asdvadour. The corrected flag (the list runs to Asdvadour, 3375-3376) is accurate. Chamich is secondary for Alexander and primary for Simeon, consistent with A1-05. Documented still rests on the Jesuit memoir. 69.4/7.9."
+  },
+  {
+   "id": "A1-08",
+   "status": "resolved",
+   "note": "'The pope approved a patriarch of their own for the Armenian Catholics', backed by Ormanian 4523-4536."
+  },
+  {
+   "id": "A1-09",
+   "status": "resolved",
+   "note": "'under the same head'. 66.2/7.8."
+  },
+  {
+   "id": "A1-10",
+   "status": "resolved with one new minor point (A2-01)",
+   "departure": "sound",
+   "note": "'Elected councils came to share in running the patriarchate in the capital' matches Ormanian 4766-4781 (the patriarchate of Constantinople, councils 'in accordance with elective principles', all classes taking 'their share in public affairs'). 'Armenian statute' and 'set the bounds of each council's work' match 4792-4797. Placing the councils inside the patriarchate is more exact than my 'running the church'. See A2-01 on the year."
+  },
+  {
+   "id": "A1-11",
+   "status": "resolved",
+   "note": "Text as given. 67.3/7.2."
+  },
+  {
+   "id": "A1-12",
+   "status": "resolved",
+   "note": "shortName 'Armenian Catholics' (18 chars) in the test census; id unchanged."
+  }
+ ],
+ "findings": [
+  {
+   "id": "A2-01",
+   "target": "armenian-apostolic-church-era-8.legacy, last sentence",
+   "severity": "minor",
+   "issue": "'In 1860 a written Armenian statute set the bounds of each council's work' says the statute was in force in 1860. Ormanian 4795-4803 says only that it was 'finally worked into shape (1860)'. It needed Ottoman sanction, and only after 'three years of negotiations' did the Turkish Council give it effect (1863). A small slip in the date of force, but this is participant-facing fact.",
+   "fix": "Last sentence: \"In 1860 a written Armenian statute was drawn up to set the bounds of each council's work.\" Whole legacy field scores 67.5/7.2. It needs no new fact row, because the existing Ormanian 4792-4797 row carries it. Apply it as given. It needs no further review round."
+  }
+ ],
+ "checked": {
+  "quotes": "All 137 quotes in the revised draft re-verified verbatim by script at their stated lines (lines joined with single spaces, whitespace collapsed): 109 fact-table, 27 link-source, 1 outcome_evidence. 0 failures. This covers every new or changed quote: Ormanian 4469-4472, 4526-4527, 4473-4475; Issaverdens 10808-10813, 10106-10111, 10057-10060, 10006-10009; Chamich 21303-21319 (three), 21372-21376, 21367-21369, 21449-21453; Serpos 384-387. Script: review2/chk.py.",
+  "context_read": "Ormanian 4380-4392, 4466-4485, 4520-4537, 4764-4803; Issaverdens 9998-10030, 10045-10062, 10100-10112, 10800-10813; Chamich 21298-21336, 21360-21378, 21440-21454; Serpos 372-390.",
+  "readability": "engine.m7.turn_readability.score_turn on every changed field, note and outcome. All pass FRE >= 60 and FK <= 10: relationsSummary 61.4/7.8, longDescription 61.0/7.9, legacy 66.0/7.2, sourcing 67.3/7.2, VII.24 teaser 65.6/8.0, notes: broke-with 64.2/7.5, argued-against --2 66.5/7.6, ancien-regime 69.4/7.9, reverse Catholic 64.1/7.7, Zartonk 66.2/7.8; outcome 73.2/9.0, 24 words. Unchanged fields re-scored, still pass (teaser 60.2/9.1, why 61.2/8.8, New Julfa note 61.9/8.6, Catholic-missions note 60.5/8.4). Several fall below grade 8 (below_floor, report only). No AI tells, internal words or raw IDs in the changed text. American spelling.",
+  "census_application": "census_test.json carries every movement field, all six neighbor changes (incl. VII.24 teaser, continuesAs null, shortName) and all 7 new edges with matching from/to/type/confidence/note/outcome and source counts. It adds no other edges and removes none against the working-tree base (506 -> 513). major/outcome_kind are not carried into census edges, which matches existing practice (no base edge carries them). meta.release 13 -> 14.",
+  "validator": "node tools/validate-census.mjs census_test.json --base cic-website/data/world-census.json: 301 movements, 513 edges, 10 eras, 0 errors, 2 warnings (both pre-existing shortNames: anatolian-church-third-century, palestinian-ascetic-monasticism-early).",
+  "new_problems": "No new problems beyond A2-01. The new reverse link's id is free and correctly directed (argued against is not symmetric). Its DMR grade fits the brief, and its major:false fits the major-links rule (one patriarch deposed and exiled, no law or split). The coercion is now told from both sides in the prose and in the links."
+ }
+}

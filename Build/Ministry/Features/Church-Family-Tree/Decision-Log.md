@@ -426,3 +426,12 @@ authority. Such a link stays minor and carries no `outcome`.
 Scottish General Assembly 1562, the Paris synod 1559, Emden 1571). The outcome P2-ML had put on
 `hieronymian-ascetic-literary--the-tridentine-church` (Trent's Vulgate decree) is removed, so all
 six links of the class are treated alike. Later link passes and P2-L11 apply the same reading.
+
+## 2026-11-08 — An Armenian Apostolic movement for era 8
+
+**Decided (Mark: "add an era-8 Armenian Apostolic movement").** The era 8 links pass escalated that
+the Armenian lane had no Apostolic Church between 1650 and 1815. Options shown: add an era-8
+Apostolic movement (recommended), widen the Mekhitarist movement, or accept the lane as it stood.
+Mark took the first. Built as P2-L8a; the census change order is recorded in the map's own
+Decision-Log (2026-11-08, "Era 8 change order: census 300→301").
+
