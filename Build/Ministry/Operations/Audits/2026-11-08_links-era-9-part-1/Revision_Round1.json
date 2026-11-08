@@ -1,0 +1,1189 @@
+{
+ "round": 1,
+ "date": "2026-11-08",
+ "findings": [
+  {
+   "n": 1,
+   "action": "fixed-differently",
+   "what": "Note dated 1853, from Whitehouse's own account; drafter flag on the broke-with link corrected too.",
+   "why": "Whitehouse describes crossing the fields to the bishop's cottage and his manner, but not a meeting in full, so 'recalled a bishop from Antioch living there' replaces the reviewer's 'met'. Frykenberg is credited with tracing both strands, not just the hill churches."
+  },
+  {
+   "n": 2,
+   "action": "fixed-differently",
+   "what": "Kept confession limited to America; England's 'fell into disuse' stated.",
+   "why": "Adds McGlothlin's own 'still widely used' (already a quote on the link), and widens the English quote (18757-18764) so the disuse sentence is on the link, not only in the review."
+  },
+  {
+   "n": 3,
+   "action": "fixed",
+   "what": "Moody sentence dropped; reviewer's note used, lightly reworded for the reading score.",
+   "why": "The Moody example came from unseen pages."
+  },
+  {
+   "n": 4,
+   "action": "fixed",
+   "what": "Stone-Campbell descent limited to Stone's side in why, legacy and relationsSummary.",
+   "why": "Matches the Documented McNemar link; the Campbells came from Presbyterian Pennsylvania."
+  },
+  {
+   "n": 5,
+   "action": "fixed",
+   "what": "Haugean longDescription fragment repaired ('That was against the law'), and the field's long sentences split, since it scored FK 14.6 and the pass requires every changed paragraph to meet the target.",
+   "why": "One field, one prose change."
+  },
+  {
+   "n": 6,
+   "action": "fixed",
+   "what": "Haugean relationsSummary first sentence given a subject.",
+   "why": "Fragment."
+  },
+  {
+   "n": 7,
+   "action": "fixed-differently",
+   "what": "Lee's 'in some cases' and Asbury's 'in the district' restored.",
+   "why": "'In some cases ... joined to run the same one' stays closer to Lee's 'unite in carrying on the same meeting' than the reviewer's 'in some places ... side by side'; 'in some places' would change cases into a geography claim."
+  },
+  {
+   "n": 8,
+   "action": "fixed-differently",
+   "what": "'enslaved Africans' replaced.",
+   "why": "'the Black people of the islands' renders Carey's 'Negroes' without adding enslavement, and keeps the West Indies setting the note already gives."
+  },
+  {
+   "n": 9,
+   "action": "fixed",
+   "what": "Moravians the model, Methodists' work praised.",
+   "why": "Matches Carey lines 798-806."
+  },
+  {
+   "n": 10,
+   "action": "fixed",
+   "what": "Murdoch and Dieter now show the Booths taking up the teaching.",
+   "why": "Matches the 'influenced' type."
+  },
+  {
+   "n": 11,
+   "action": "fixed",
+   "what": "'of the 1910s and 1920s'.",
+   "why": "True Jesus Church founded 1917."
+  },
+  {
+   "n": 12,
+   "action": "fixed",
+   "what": "1944 joint union named as the registered union of 1961.",
+   "why": "Matches the drafter's own flag."
+  },
+  {
+   "n": 13,
+   "action": "fixed-differently",
+   "what": "Order of events corrected per the reviewer's text.",
+   "why": "Also adds the 1847 letter's own sentence on Elias sending Mar Koorillos to expel Matthew (lines 2593-2595) as a source, so 'had already come' rests on the link's own primary text, not only on Whitehouse."
+  },
+  {
+   "n": 14,
+   "action": "fixed-differently",
+   "what": "Note names the General Council and says what the confessions are (statements of faith of the 1500s, such as Luther's catechisms).",
+   "why": "The reviewer's wording scored FRE 41 and was split and simplified. The colonial 'foundations ... were laid' source (215-216) is dropped from the link, since the note no longer rests on it. Checked the preface: it is signed by Jacobs at the Lutheran Theological Seminary, Philadelphia, 27 February 1911 (305-308), so the 1911 dating holds."
+  },
+  {
+   "n": 15,
+   "action": "fixed-differently",
+   "what": "All eight notes rewritten to say what the evidence is, not what the project holds.",
+   "why": "Where a link rests on one named work the note names it (10: the Stone-Campbell encyclopedia; 13: Knight) rather than 'later histories'. 12 adds 'and of Adventist belief', since Knight is not a history of Miller. 30 avoids the reviewer's 'no source shows', which would be a claim about all scholarship that the pass cannot verify; it says the link rests on a usual classification, not a shown debt. 31 names Hope. 29, 32 and 35 follow the reviewer."
+  },
+  {
+   "n": 16,
+   "action": "fixed",
+   "what": "Stunt named, Geneva not France, full citation from the census; grade kept.",
+   "why": "Same footing as the other repo-cited secondary links."
+  },
+  {
+   "n": 17,
+   "action": "fixed-differently",
+   "what": "Pentikäinen citation set exactly.",
+   "why": "Hepokoski's full citation is also in the census and is set too; Inferential-Thin kept, since neither work studies the Pietist debt."
+  },
+  {
+   "n": 18,
+   "action": "fixed",
+   "what": "Circular sentence replaced: Methodist preachers helped lead these revivals, beside Presbyterians and Baptists.",
+   "why": "'These revivals' rather than 'it' so the summary stands alone; split into short sentences for the reading score."
+  },
+  {
+   "n": 19,
+   "action": "fixed",
+   "what": "'universities' restored.",
+   "why": "Nommensen's name is borne by a university."
+  },
+  {
+   "n": 20,
+   "action": "fixed",
+   "what": "'1807'.",
+   "why": "McNemar's letter is dated June 15, 1807 (line 5914)."
+  },
+  {
+   "n": 21,
+   "action": "fixed",
+   "what": "Lott Carey reason reworded in the superseding prose change.",
+   "why": "Liberia is in West Africa, one of the entry's regions."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-methodist-revival--the-second-great-awakening-and-camp-meeting-worl",
+   "action": "revise",
+   "from": "the-methodist-revival",
+   "to": "the-second-great-awakening-and-camp-meeting-worl",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1810 Jesse Lee, a Methodist preacher, wrote about the early camp meetings. In some cases, he said, Methodist, Presbyterian and Baptist ministers joined to run the same one. In 1805 Bishop Francis Asbury hoped for a camp meeting in every circuit of one district. So the revival grew in part out of Methodist work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jesse Lee, A Short History of the Methodists in the United States of America (1810)",
+     "file": "cic/texts/lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt",
+     "lines": "12534-12537",
+     "locus": "Short History, year 1802",
+     "quote": "At that time, what we now call Camp-Meetings were frequently called General-Meetings; and in some cases the Methodist, Presbyterian; and Baptist ministers would all unite in carrying on the same meeting.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jesse Lee, A Short History of the Methodists in the United States of America (1810)",
+     "file": "cic/texts/lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt",
+     "lines": "12952-12955",
+     "locus": "Short History, year 1803",
+     "quote": "At that time there was great union between the Pres- byterians and the Methodists; and they frequently com- muned together, and united in holding camp-meetings, and in preaching together.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Asbury, Journal, vol. 3 (1821)",
+     "file": "cic/texts/asbury_journal-v3_1821.txt",
+     "lines": "8408-8410",
+     "locus": "Journal, 1805, Virginia",
+     "quote": "Brother  Mead  is  coming  to  preside,  and  I  hope  he will  have  a  glorious  camp-meeting  in  every  circuit  in  the  district.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nathan Hatch, The Democratization of American Christianity (Yale, 1989)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-second-great-awakening-and-camp-meeting-worl relationsSummary ('Child of Methodist ... lines')",
+    "the-second-great-awakening-and-camp-meeting-worl longDescription and why ('Methodist circuit riders ... carried the pattern')"
+   ],
+   "wants": [
+    "Peter Cartwright, Autobiography (1856), and James B. Finley, Autobiography (1853): Methodist circuit riders' own accounts of the camp meetings"
+   ],
+   "drafter_flags": [
+    "The vendored texts show Methodists running camp meetings jointly with Presbyterians and Baptists, not Methodists alone starting the revival; McNemar puts its start among Presbyterians. Graded Widely Accepted, not Documented, because 'gave rise to' here means one of several parents. Hatch is cited in the census but not read in this pass.",
+    "The Methodist revival's own text does not name this movement, so era 8 does not own it."
+   ],
+   "change_reason": "Round 1 finding 7: restores Lee's 'in some cases' and Asbury's 'in the district'; Lee's 'unite in carrying on the same meeting' rendered as joining to run the same one.",
+   "group": "A",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-second-great-awakening-and-camp-meeting-worl--the-stone-campbell-restoration-movement",
+   "action": "revise",
+   "from": "the-second-great-awakening-and-camp-meeting-worl",
+   "to": "the-stone-campbell-restoration-movement",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard McNemar, a preacher in the Kentucky revival, wrote its history in 1807. He names Barton W. Stone as one of five ministers who left the Synod of Kentucky. Many of the revival's converts joined them. This was the start of the Stone side of the Stone-Campbell movement.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard McNemar, The Kentucky Revival (Cincinnati 1807; Albany reprint 1808)",
+     "file": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt",
+     "lines": "1968-1970",
+     "locus": "Kentucky Revival, on the Springfield Presbytery",
+     "quote": "We the above named Robert Marshall, John Dun- \" lavy, Richard M'Nemar, Barton W. Stone, and John \" Thompson, having entered the above protest",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard McNemar, The Kentucky Revival (Cincinnati 1807; Albany reprint 1808)",
+     "file": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt",
+     "lines": "1989-1993",
+     "locus": "Kentucky Revival, on the separation",
+     "quote": "the subjects of the revival who were fiinccre in their profession, generally came forth and' united with the seceding body, which were distinguish- ed by the name of Schismatics.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard McNemar, The Kentucky Revival (Cincinnati 1807; Albany reprint 1808)",
+     "file": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt",
+     "lines": "5804-5806",
+     "locus": "Preface to the Observations on Church Government",
+     "quote": "That they were written in the meridian light of the Kentucky Revival, by those six men whose names are annexed to the Last Will and Testament",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Paul Conkin, Cane Ridge: America's Pentecost (Wisconsin, 1990)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-second-great-awakening-and-camp-meeting-worl relationsSummary ('parent of Restorationist ... traditions'), why and legacy ('the Stone-Campbell Restoration movement')",
+    "the-stone-campbell-restoration-movement relationsSummary ('Child of the Awakening')"
+   ],
+   "wants": [
+    "Barton W. Stone, The Biography of Eld. Barton Warren Stone, Written by Himself (1847): the Stone side's own account of Cane Ridge and the Springfield Presbytery"
+   ],
+   "drafter_flags": [
+    "McNemar later joined the Shakers and writes with a Shaker frame, but as a signer of the Last Will he is an insider witness. The OCR is rough ('fiinccre' for 'sincere'); quotes are copied as the file has them.",
+    "The link documents the Stone wing only. The Campbells' Declaration and Address (1809) came from Presbyterian Pennsylvania, not the camp meetings; the note says 'the Stone side' for that reason.",
+    "The Stone-Campbell group may draft the same pair; duplicates resolved at merge."
+   ],
+   "change_reason": "Round 1 finding 20: McNemar's history was written and first printed in 1807 (his closing letter is dated Turtle-Creek, June 15, 1807, line 5914); the vendored file is the 1808 Albany reprint.",
+   "group": "A",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+   "action": "revise",
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "catholic-church-long-nineteenth-century",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1837 Alexander Campbell held a public debate with a Catholic bishop, John Purcell. It went on for days, and the movement printed the whole of it. The link rests on one modern work, a reference book on the movement.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-stone-campbell-restoration-movement longDescription ('argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A public debate; no council, split or changed rule, and no vendored source at all."
+   },
+   "wants": [
+    "A Debate on the Roman Catholic Religion between Alexander Campbell and John B. Purcell (Cincinnati, 1837); would lift this to Documented"
+   ],
+   "drafter_flags": [
+    "Purcell's name comes from the movement's own source list (the Campbell-Purcell debate, 1837); I have not seen Foster's entry on it.",
+    "'It ran for days' follows the entry's 'for days at a stretch'; the length of this debate is not checked."
+   ],
+   "change_reason": "Round 1 finding 15: drops the wording about what the project holds; names the one kind of work the link rests on (The Encyclopedia of the Stone-Campbell Movement, 2004); 'Roman Catholic' shortened to 'Catholic' for the reading score.",
+   "group": "B",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-baptists--nineteenth-century-baptists",
+   "action": "revise",
+   "from": "the-baptists",
+   "to": "nineteenth-century-baptists",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In America many Baptist churches kept their old confession of faith through the century. W. J. McGlothlin, a Baptist historian, listed new printings of the Philadelphia Confession in 1813, 1831 and 1850. In 1911 he called it still widely used. In England the old confessions fell out of use, but the two old wings of English Baptists slowly drew closer.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Southern Baptist Convention, address 'to the Brethren in the United States' (1845), as printed in W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19100-19105",
+     "locus": "American Baptists, the Southern Baptist Convention's address of 1845",
+     "quote": "We have constructed for our basis no new creed, acting in this matter upon a Baptist aversion for all creeds but the Bible.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19071-19086",
+     "locus": "American Baptists, I. The Philadelphia Confession",
+     "quote": "A fourth edition appeared in 1850, and there may have been others.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "19088-19092",
+     "locus": "American Baptists, I. The Philadelphia Confession",
+     "quote": "it is still widely used, and in the South is probably the most influential of all Confessions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "18757-18764",
+     "locus": "The English Baptists, the Baptist Union declaration of 1888",
+     "quote": "The old Confessions gradually fell into disuse, but no others took their places. The Union repeatedly declined to draw up any new Confession or prescribe one. The Arminian and Calvinistic wings by degrees approached each other.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nineteenth-century-baptists longDescription ('Baptists began the century as a scattering of self-governing congregations'); not listed in the inventory",
+   "wants": [
+    "Philadelphia Baptist Association minutes (A. D. Gillette, ed., 1851) across 1800-1830, to show the same association meeting on both sides of 1815; would lift this to Documented"
+   ],
+   "drafter_flags": [
+    "Missed by the inventory. The era-8 Baptist text does not name its nineteenth-century continuation, so this falls to the era-9 text.",
+    "Only the 1845 address is a primary text, and it shows Baptist self-description rather than continuity itself; the continuity rests on McGlothlin (1911, vendored), hence Widely Accepted, not Documented.",
+    "McGlothlin's 1813 and 1850 editions are Charleston Association printings; the 1831 one is Daniel Sheppard's. The note says 'new American printings' to cover all three.",
+    "Round 1: the note now limits the kept confession to America. McGlothlin says the English confessions 'fell into disuse' (lines 18757-18758); that quote is now on the link."
+   ],
+   "change_reason": "Round 1 finding 2: the kept confession is American only; in England McGlothlin says the old confessions fell into disuse. Adds his 'still widely used' (already a quote on the link) and widens the English quote to carry the disuse sentence.",
+   "group": "B",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+   "action": "revise",
+   "from": "the-second-great-awakening-and-camp-meeting-worl",
+   "to": "restorationist-apocalyptic-ferment-and-adventism",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "William Miller's followers of the 1830s and 1840s came from many American churches, in the decades of the great frontier revivals. The evidence is thin. The link rests on that timing and on modern books on Miller and on Adventist belief.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David L. Rowe, God's Strange Work: William Miller and the End of the World (Eerdmans, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George R. Knight, A Search for Identity: The Development of Seventh-day Adventist Beliefs (Review and Herald, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "restorationist-apocalyptic-ferment-and-adventism relationsSummary ('Child of the Awakening's ferment'), qualified by prose change 3",
+   "wants": [
+    "William Miller, Evidence from Scripture and History of the Second Coming of Christ (Troy, 1836; archive.org item WilliamMillerEvidenceFromScriptureAndHistoryOfTheSecondComingOf), and early numbers of Signs of the Times (1840-)",
+    "Whitney R. Cross, The Burned-over District (1950) is the classic reading of this link, but it is not cited anywhere in the repo, so I did not cite it"
+   ],
+   "drafter_flags": [
+    "No Millerite or Adventist text is vendored. Rowe and Knight are the movement's own repo-cited histories; I have not seen what they say on the revivals.",
+    "The awakening's own text says it was 'parent of Restorationist' traditions, which may mean this movement or Stone-Campbell; check at merge."
+   ],
+   "change_reason": "Round 1 finding 15: drops the wording about the collection; 'and of Adventist belief' added because one of the two works (Knight) is a history of Adventist belief, not of Miller.",
+   "group": "B",
+   "draft_action": "new"
+  },
+  {
+   "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "action": "revise",
+   "from": "restorationist-apocalyptic-ferment-and-adventism",
+   "to": "seventh-day-adventist-church-twentieth-century",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. It carried on past 1906 as the same church. Its 1931 statement of belief settled its long debate over the Trinity. This rests on George Knight's modern history of Adventist belief.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George R. Knight, A Search for Identity: The Development of Seventh-day Adventist Beliefs (Review and Herald, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "restorationist-apocalyptic-ferment-and-adventism longDescription, why and legacy ('This ferment became an ongoing denomination')",
+   "wants": [
+    "Review and Herald (1850-), the 1863 General Conference records and the 1872 Declaration of Fundamental Principles",
+    "The 1931 Seventh-day Adventist Yearbook statement of twenty-two beliefs"
+   ],
+   "drafter_flags": [
+    "This entry also covers the wider Millerite ferment and other Adventist bodies, so the later entry continues only its Seventh-day Adventist strand. If the reviewer reads that as a new body, 'gave rise to' is the alternative.",
+    "The 1931 statement is asserted by both entries; it is not vendored."
+   ],
+   "change_reason": "Round 1 finding 15: drops the wording about the project's holdings; names the one work the link rests on (Knight) rather than 'later histories'.",
+   "group": "B",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-holiness-movement--the-salvation-army",
+   "action": "revise",
+   "from": "the-holiness-movement",
+   "to": "the-salvation-army",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Holiness teachers said that God can make a believer truly holy in this life, and at once. The historians Norman Murdoch and Melvin Dieter show the Booths taking up this teaching. The link rests on their modern studies.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Norman Murdoch, Origins of the Salvation Army (University of Tennessee Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-salvation-army relationsSummary ('Child of Holiness')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Teaching taken up; no council, split or changed rule in its sources."
+   },
+   "wants": [
+    "Catherine Booth, Female Ministry; or, Woman's Right to Preach the Gospel (1859), written in defence of Phoebe Palmer's preaching; would lift this toward Documented"
+   ],
+   "drafter_flags": [
+    "'Child of Holiness' implies descent; I typed it 'influenced' because the Army's people came from Methodism, not from a Holiness body, and the summary is rewritten to say 'took up'.",
+    "Murdoch is on the Army's source list and Dieter on the Holiness movement's; both repo-cited, pages not seen.",
+    "The claim that Female Ministry defended Phoebe Palmer is from my knowledge, not a repo source, so it is only in wants, not the note."
+   ],
+   "change_reason": "Round 1 finding 10: 'place the Booths inside this movement' was a membership claim; now matches the 'influenced' type.",
+   "group": "C",
+   "draft_action": "new"
+  },
+  {
+   "id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+   "action": "revise",
+   "from": "plymouth-brethren-and-dispensational-formation",
+   "to": "the-sunday-school-and-bible-institute-movement",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "John Nelson Darby split the Bible's story into ages he called dispensations. In 1970 the historian Ernest Sandeen traced how Bible schools in America came to teach this plan. The link rests on his book.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ernest Sandeen, The Roots of Fundamentalism (University of Chicago Press, 1970)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "plymouth-brethren-and-dispensational-formation relationsSummary ('influence on the Bible-institute tradition') and legacy ('taught in the Bible institutes')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Teaching taken up by schools; no institutional act against or between bodies."
+   },
+   "wants": [
+    "Moody Bible Institute founding records and early curricula (1886-1900), the Bible-institute entry's own named source",
+    "J. N. Darby, Collected Writings (ed. Kelly), the prophetic volumes"
+   ],
+   "drafter_flags": [
+    "Round 1: the Moody's-school example is dropped from the note, since no seen source ties it to Sandeen; the Bible-institute entry still names Moody's school in its own text."
+   ],
+   "change_reason": "Round 1 finding 3: the Moody example came from recollection of unseen pages; removed.",
+   "group": "C",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
+   "action": "revise",
+   "from": "the-methodist-revival",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his 1792 appeal for a mission society, William Carey pointed to John Wesley's mission in the West Indies. He wrote that he had 'seen pleasing accounts of their success' among the Caribs and the Black people of the islands. Carey went on to lead the Baptist mission at Serampore in India.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Carey, An Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens (1792), Sect. II",
+     "file": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt",
+     "lines": "804-806",
+     "locus": "Sect. II",
+     "quote": "The late Mr. Wesley lately made an effort in the West-Indies, and some of their ministers are now labouring amongst the Caribbs and Negroes, and I have seen pleasing accounts of their success.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp relationsSummary ('learned from earlier Pietist, Moravian and Methodist missions'; after prose change 0)",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A writer citing another body's work as encouragement; no institutional act."
+   },
+   "wants": [
+    "Joeli Bulu, The Autobiography of a Native Minister in the South Seas (1871), for the Wesleyan Methodist line into the Pacific island churches; would support a stronger 'gave rise to' from Methodism for the Pacific wing"
+   ],
+   "drafter_flags": [
+    "cross-era: era 8 (the Methodist Revival entry does not name this link)",
+    "Reviewer check: this meets the Documented test for 'influenced' (the later side naming the earlier one's work), but Carey's mention is brief. The much larger Methodist share in these churches (Wesleyan missions in Tonga, Fiji and Sierra Leone) is not in any vendored text.",
+    "'enslaved Africans' renders Carey's 'Negroes'; the West Indian Methodist converts of 1792 were overwhelmingly enslaved people. Reviewer may prefer 'Africans'."
+   ],
+   "change_reason": "Round 1 finding 8: Carey writes 'Caribbs and Negroes' (line 805); that they were enslaved is not in the source.",
+   "group": "D",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "action": "revise",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "the-chinese-church-indigenous-and-suffering",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "China's independent churches of the 1910s and 1920s, such as the True Jesus Church and Watchman Nee's assemblies, grew up beside the older mission churches. Historians Daniel Bays and Lian Xi trace them to Chinese believers first formed in that mission world. The new churches' own founders stressed their freedom from the foreign missions.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel Bays, A New History of Christianity in China (Wiley-Blackwell, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lian Xi, Redeemed by Fire: The Rise of Popular Christianity in Modern China (Yale, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 30 'Christianity in East Asia: China, Korea and Japan' (Bays & Grayson)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-missionary-movement-s-native-churches-seramp legacy ('the Chinese church ... trace their roots to these years'; after prose change 1)",
+   "wants": [
+    "Mrs Howard Taylor, Pastor Hsi: One of China's Christians (1903), public domain, for Pastor Xi's self-led congregations as an early case of Chinese-led church life"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; era-9 text names it, so it is ours)",
+    "Two-entry tension: the Chinese church entry says its 1920s churches 'owed nothing to the foreign missions'. The note keeps both sides: descent of people, and the founders' stress on independence. See escalations.",
+    "'first formed in that mission world' is my summary of Bays and Lian Xi; not rechecked against their pages."
+   ],
+   "change_reason": "Round 1 finding 11: the True Jesus Church was founded in 1917, per the target entry.",
+   "group": "D",
+   "draft_action": "new"
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "action": "revise",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "northeast-india-and-mar-thoma-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Thomas Whitehouse, an English clergyman in Kerala, wrote of a bishop from Antioch who lived there in 1853. He had been sent to check the reforming bishop Mar Athanasius. The reform party lived on as the Mar Thoma Church of the next century. So did the hill churches of the northeast. Robert Frykenberg's history of Christianity in India traces both.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "ch. on the churches of the north (visit to Mar Kurillos at Chilasherry)",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Frederick S. Downs, History of Christianity in India vol. V pt. 5: North East India (CHAI, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "northeast-india-revivals-and-the-mar-thoma-refor legacy ('The Mar Thoma Syrian Church is still here'; 'The hill churches did more than survive'); also the entry's continuesAs pointer",
+   "wants": [
+    "Welsh Calvinistic Methodist foreign mission records for the Khasi hills (e.g. the Society's annual reports, nineteenth century, public domain), to document the hill churches' side of the continuity"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the era-10 entry's own text says it continues this one)",
+    "Whitehouse is an Anglican observer, not a Mar Thoma voice; he is used here as a dated primary witness that the reform party existed as a body. Continuity into the twentieth century rests on Frykenberg and Downs (cited in the census sources; not rechecked). Hence Widely Accepted, not Documented.",
+    "verification_state is named-not-rechecked because the continuity itself rests on secondary works; the Whitehouse lines I read directly.",
+    "Round 1: Whitehouse's notice of Mar Kurillos Joyakin belongs to his 1853 tour (lines 11286-11288 date the Anyira visit; 11327-11334 say the Antiochene bishop was 'also then living' nearby). He records crossing the rice fields to the bishop's cottage and that he was 'civil and polite to some of us' (11357-11358), not a meeting described in full, so the note says he recalled the bishop living there."
+   ],
+   "change_reason": "Round 1 finding 1: the date is 1853, not the 1860s, and Whitehouse records the bishop living nearby, not 'at work'. Reviewer's 'met' softened to 'wrote of a bishop ... who lived there', since the text describes visiting his cottage and his manner, not a meeting.",
+   "group": "D",
+   "draft_action": "new"
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "action": "revise",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "the-malankara-churches-orthodox-and-jacobite",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1847 the Patriarch of Antioch repeated his predecessor's curse on Mathew Mar Athanasius, the reforming bishop in Kerala. He ordered that 'none shall pray with him'. A rival bishop had already come from Antioch to check the reform. Then a royal court verdict in 1889 left the two sides as separate churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847 on the dismissal of Athanasius Matthew, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2632-2636",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And thus again do we anathematize the audacious Matthew, as our Father the blessed Patriarch anathematized him. And no man shall in any wise have authority to receive him, or to hear his words, and none shall pray with him or consort with him on any ground whatsoever.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same letter (1847), on the charges against him",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2574-2576",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "the accursed Matthew had acted impiously, and was a heretic, and had changed his profession, and had abolished the fasts and the customs",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same letter (1847), on the earlier Patriarch Elias sending Mar Koorillos",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2593-2595",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "visit to Mar Kurillos at Chilasherry",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "northeast-india-revivals-and-the-mar-thoma-refor relationsSummary (after prose change 5) and longDescription ('The reform divided the ancient community ... a royal court verdict in 1889 separated the two parties for good ... while the larger body continued as the Malankara church')",
+   "wants": [
+    "The Travancore Royal Court of Final Appeal judgment of 1889 in the Seminary case, in a public-domain printing, to document the final rupture; with a Mar Thoma-side record (e.g. Mathew Mar Athanasius's or Thomas Mar Athanasius's own letters) for the reformers' side"
+   ],
+   "drafter_flags": [
+    "cross-era: era 10 (not yet run; the Malankara entry also names the 1889 separation, so both sides' entries agree)",
+    "The rupture is documented from the patriarchal side in 1847 (the anathema, vendored, verified line by line) and by an outside witness who saw the rival bishop in Kerala in 1853 (Whitehouse, an Anglican sympathetic to the reformers). The 1889 verdict that made it final is not vendored; it rests on Frykenberg and the census text. Hence Widely Accepted, not Documented.",
+    "The Malankara entry begins in 1912. It is the only entry for the body the reformers left, and its own summary names the 1889 separation, so the link joins them.",
+    "Philipos's Q. 74 answer (lines 2216-2241) gives the Jacobite side's account of Mathew's consecration in hostile terms; not quoted in the note."
+   ],
+   "change_reason": "Round 1 finding 13: the 1847 letter says the late Patriarch Elias had already sent Mar Koorillos and anathematized Matthew, so the order of events is corrected; the letter's own sentence on the sending (lines 2593-2595) is added as a source. Drafter flag's '1860s' corrected to 1853 (finding 1).",
+   "group": "D",
+   "draft_action": "new"
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--the-haugean-awakening",
+   "action": "revise",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-haugean-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Hans Nielsen Hauge began preaching in Norway in 1796, inside the Lutheran state church. His modern biographers place his revival in the line of Lutheran Pietism. This rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andreas Aarflot, Hans Nielsen Hauge: His Life and Message (Augsburg, 1979)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Joseph Shaw, Pulpit Under the Sky (1955)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-haugean-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence of teaching and piety only; no listed source shows a council, split or rule change."
+   },
+   "wants": [
+    "Hauge's own writings in a public-domain edition (Norwegian or English), e.g. Betragtning over Verdens Daarlighed (1796) or his Testament to his Friends (1821), naming the Pietist books he read; would let this be graded on his own words"
+   ],
+   "drafter_flags": [
+    "Both secondary works are named only in the movement's own source list; I have not read them and cite no page. The claim that they place Hauge in the Pietist line is the standard reading, but it is unchecked.",
+    "No vendored text mentions Hauge at all (grep for Hauge finds only unrelated medieval place names)."
+   ],
+   "change_reason": "Round 1 finding 15: 'not on Hauge's own words' implied his writings say otherwise; dropped.",
+   "group": "E",
+   "draft_action": "new"
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--laestadianism-and-the-nordic-revivals",
+   "action": "revise",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "laestadianism-and-the-nordic-revivals",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Lars Levi Laestadius began his revival in Swedish Lapland in 1844, as a Lutheran pastor. It is often counted as a late branch of Pietism in the Lutheran north. The evidence is thin. It rests on how the revival is usually classed, not on a shown debt to Pietist writers.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Juha Pentikäinen, ed., Lars Levi Laestadius, Fragments of Lappish Mythology (Beaverton, ON, 2002), introduction",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Warren H. Hepokoski, The Laestadian Movement: Disputes and Divisions, 1861–2000 (Culpeper, VA, 2002)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "D",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "laestadianism-and-the-nordic-revivals",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "Laestadius's sermons (postillas) or Ens Ropandes Röst i Öknen (1852-54) in a public-domain edition, for any use of Pietist writers; a repo-citable modern study of Laestadianism with full title and year"
+   ],
+   "drafter_flags": [
+    "The two secondary works are named only loosely in the movement's own source list, with no titles or years; I could not identify them precisely, so the grade is Inferential-Thin, not Dominant Modern Reconstruction.",
+    "Round 1: both secondary works now carry the full citations the census gives. Inferential-Thin stays: one is an edition of Laestadius's mythology, the other a study of the movement's later divisions; neither is a study of its debt to Pietism."
+   ],
+   "change_reason": "Round 1 findings 15 and 17: the note no longer speaks of 'no text here'; it says what the link rests on. Both secondary works get the full citations the census gives (the reviewer named Pentikäinen; Hepokoski's is also in the census).",
+   "group": "E",
+   "draft_action": "new"
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--the-reveil-and-inner-mission-awakening",
+   "action": "revise",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-reveil-and-inner-mission-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "After 1815 a wave of awakening swept through Protestant churches in Switzerland, France, the Netherlands and Germany. Modern writers such as Nicholas Hope trace it back to older Pietism. This rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nicholas Hope, German and Scandinavian Protestantism 1700-1918 (OUP, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. R. Ward, The Protestant Evangelical Awakening (CUP, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-reveil-and-inner-mission-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "Wichern's Denkschrift on the Inner Mission (1849) or Merle d'Aubigné / Malan texts in a public-domain edition, for the awakening naming its Pietist forebears"
+   ],
+   "drafter_flags": [
+    "Hope and Ward are named in the census source lists (Hope for this movement, Ward for Pietism); unread here, no page cited. Ward's book covers the earlier awakening, so Hope is the closer fit."
+   ],
+   "change_reason": "Round 1 finding 15: 'not on the awakening's own words' implied its own writings say otherwise; dropped. Names the closer-fitting of the two works.",
+   "group": "E",
+   "draft_action": "new"
+  },
+  {
+   "id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+   "action": "revise",
+   "from": "the-moravian-church-at-herrnhut",
+   "to": "the-reveil-and-inner-mission-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The historian Timothy Stunt finds Moravian roots in the awakening that broke out in Geneva after 1815. The link rests on his book.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy C. F. Stunt, From Awakening to Secession: Radical Evangelicals in Switzerland and Britain, 1815–35 (Edinburgh: T&T Clark, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": {
+    "movement": "the-reveil-and-inner-mission-awakening",
+    "field": "relationsSummary"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Influence only; no institutional act in any listed source."
+   },
+   "wants": [
+    "A public-domain early history of the Geneva awakening (e.g. Bost's Mémoires or a nineteenth-century history of the Société des Amis) naming its Moravian contacts"
+   ],
+   "drafter_flags": [
+    "Round 1: reviewer kept Dominant Modern Reconstruction, on the same footing as the pass's other repo-cited secondary links; the note now names Stunt and keeps to his book's scope (Geneva, not France)."
+   ],
+   "change_reason": "Round 1 findings 15 and 16: names the work and fits its scope (Switzerland and Britain); full citation from the census.",
+   "group": "E",
+   "draft_action": "new"
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations",
+   "action": "revise",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "confessional-lutheran-revival-emigrations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1911 Henry Eyster Jacobs edited the Book of Concord. He did it for the General Council, a body of American Lutherans. The book holds the Lutheran statements of faith from the 1500s, such as Luther's catechisms. In his preface he saw a 'widespread and all but general return' to them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Henry Eyster Jacobs, preface to The Book of Concord, People's Edition (Philadelphia, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "225-227",
+     "locus": "Preface (1911)",
+     "quote": "With  a  widespread  and  all  but  general  return  towards  the confessional  position  of  the  Fathers,  a  period  of  new  life  and promise  for  our  Church  in  America  has  begun.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": {
+    "movement": "confessional-lutheran-revival-emigrations",
+    "field": "longDescription"
+   },
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The confessions are taken up as a standard; that is reception, not a council, split or rule change."
+   },
+   "wants": [
+    "The Missouri Synod's 1847 constitution or Walther's Der Lutheraner in a public-domain edition, for the movement's own subscription to the confessions"
+   ],
+   "drafter_flags": [
+    "Not in the inventory: the text names 'the Lutheran confessions', the Wittenberg reformers' own documents, and the inventory listed them as no-entry.",
+    "Round 1: reviewer ruled the General Council part of the American confessional revival, so the 1911 'return towards the confessional position' quote carries Documented. The 'foundations ... were laid' quote (lines 215-216) is dropped: it concerns the colonial Mother Synod, not the nineteenth-century revival. The preface is signed by Jacobs from the Lutheran Theological Seminary, Philadelphia, 27 February 1911 (lines 305-308); the header gives the General Council imprint (line 3)."
+   ],
+   "change_reason": "Round 1 finding 14: names the body Jacobs spoke for and what the confessions are; drops the sentence and source on the colonial founding.",
+   "group": "E",
+   "draft_action": "new"
+  },
+  {
+   "id": "russian-church-synodal-century--russian-evangelicals-stundists--2",
+   "action": "revise",
+   "from": "russian-church-synodal-century",
+   "to": "russian-evangelicals-stundists",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Orthodox clergy wrote books against the Stundists by name. Conybeare's 1921 survey cites a priest's 1889 study of Stundism in South Russia. He also cites a missionary's book, a Refutation of the Errors of Stundism, printed at Kiev in 1890. This rests on his report of the two books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "14605-14609",
+     "locus": "Part II, ch. III, The Stundists",
+     "quote": "and the Missionary Troitski's Refutation of the errors of Stundism, Kiev, 1890.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "11259-11262",
+     "locus": "Part I, The Raskol, on the government missions",
+     "quote": "this was to be attributed more to the intran- sigent ferocity of Pobedonostsev than to genuine missionary effort, although over 400 missionaries were at work.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert L. Nichols, 'Church and State in Imperial Russia', in Robert L. Nichols and Theofanis George Stavrou, eds., Russian Orthodoxy under the Old Regime (Minneapolis, 1978)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergei I. Zhuk, Russia's Lost Reformation: Peasants, Millennialism, and Radical Sects in Southern Russia and Ukraine, 1830-1917 (Washington, DC, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "russian-evangelicals-stundists relationsSummary ('Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church'); also russian-church-synodal-century longDescription (Pobedonostsev's uniformity policy 'pressed hard on ... evangelicals')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The link's sources show polemical books and missions, not a council, law or exclusion. The 1894 decree on the Stundists is not vendored, and the 1905 ukases in Conybeare are state acts that either tolerate the Stundists or do not name them."
+   },
+   "wants": [
+    "Troitski, Refutation of the errors of Stundism (Kiev, 1890), and Rozhdestvenski's study of South Russian Stundism (St Petersburg, 1889): the Orthodox texts themselves",
+    "The Committee of Ministers decision of 4 July 1894 on the Stundist sect, with the Synod's request"
+   ],
+   "drafter_flags": [
+    "The documenting texts are named by Conybeare, not vendored, so the link cannot be Documented. The 1889 title is OCR-damaged in the file ('Sovih Russian Stundism'); the note gives it in words, as 'a study of Stundism in South Russia'.",
+    "The Pobedonostsev quote is about the government missions to dissenters in general, not the Stundists alone; it supports the church's campaign, not the Stundist target.",
+    "Nichols (1978) and Zhuk (2004) are cited in this movement's own story sources; not rechecked."
+   ],
+   "change_reason": "Round 1 finding 15: drops the wording about what was read in this pass.",
+   "group": "F",
+   "draft_action": "new"
+  },
+  {
+   "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "action": "revise",
+   "from": "russian-evangelicals-stundists",
+   "to": "persecuted-church-worlds-of-the-communist-era-in",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Two unions grew from these congregations, one Baptist and one of Evangelical Christians. In 1944 they were joined in one union under Soviet rule. In 1961 a group of Baptist ministers broke with that registered union. They would not let the state run their churches. They became known as the Initsiativniki, after the group that took the lead.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Walter Sawatsky, Soviet Evangelicals since World War II (Scottdale, PA, 1981)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heather J. Coleman, Russian Baptists and Spiritual Revolution, 1905-1929 (Bloomington, 2005)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "russian-evangelicals-stundists relationsSummary ('the ancestors of the Soviet-era Initsiativniki Baptist movement') and legacy (the 1960s split 'between those who registered with the state and those who refused')",
+   "wants": [
+    "The 1961 Initiative Group letters (Prokofiev, Kryuchkov) and the Council of Prisoners' Relatives bulletins (1964-), for the split and the dissidents' own account of their descent",
+    "A vendored history of the Russian Baptist and Evangelical Christian unions from 1884 to 1944"
+   ],
+   "drafter_flags": [
+    "Nothing on the Initsiativniki is vendored; the link rests on Sawatsky and Coleman, both cited in the repo's own source lists and not rechecked.",
+    "The line of descent runs through the 1944 union of Baptists and Evangelical Christians, which has no movement of its own; 'gave rise to' is drawn across that gap.",
+    "The target movement also covers Romania's Lord's Army; this link concerns only its Initsiativniki strand, and the note says so by naming them."
+   ],
+   "change_reason": "Round 1 finding 12: the registered union of 1961 was the joint union of 1944, not the Baptist one.",
+   "group": "F",
+   "draft_action": "new"
+  }
+ ],
+ "prose_changes": [
+  {
+   "movement": "the-second-great-awakening-and-camp-meeting-worl",
+   "field": "relationsSummary",
+   "old": "Child of Methodist/Edwardsean lines; parent of Restorationist and Holiness traditions",
+   "new": "Methodist preachers helped to lead these revivals. So did Presbyterians and Baptists. Barton Stone's side of the Stone-Campbell movement grew out of them. Later the Holiness movement took up their camp meeting.",
+   "reason": "Round 1 findings 4 and 18. The old sentence was circular (this movement is the frontier revivals); Lee (1810) shows Methodist, Presbyterian and Baptist ministers running the meetings together. The Stone-Campbell claim is limited to Stone's side, as the Documented link from McNemar shows; the Campbells came from Presbyterian Pennsylvania. 'Edwardsean lines' removed as in the drafting change.",
+   "replaces_n": 0
+  },
+  {
+   "movement": "the-second-great-awakening-and-camp-meeting-worl",
+   "field": "why",
+   "old": "At Cane Ridge in August 1801, crowds estimated as high as twenty thousand camped in the woods for a week of preaching, weeping, and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier, and by the 1830s Charles Finney was teaching revival as a method that could be worked deliberately rather than simply awaited. Two later movements, the Stone-Campbell Restoration and the Holiness movement, grew directly out of this ferment.",
+   "new": "At Cane Ridge in August 1801, crowds put as high as twenty thousand camped in the woods for a week of preaching, weeping and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier. By the 1830s Charles Finney was teaching revival as a method. It could be worked for on purpose, he said, not just waited for. Barton Stone's side of the Stone-Campbell Restoration movement grew straight out of this ferment. The later Holiness movement took up its camp meeting.",
+   "reason": "Round 1 finding 4: the descent claim is limited to Stone's side, which McNemar documents. Otherwise as drafting change 1: the Holiness overstatement qualified and long sentences split, no fact added or dropped.",
+   "replaces_n": 1
+  },
+  {
+   "movement": "the-second-great-awakening-and-camp-meeting-worl",
+   "field": "legacy",
+   "old": "It made revivalism a permanent feature of American religion rather than an occasional event, and handed on a whole toolkit still in use — the protracted meeting, the altar call, the anxious bench, the campground and its choruses. Two traditions came directly out of its ferment: the Stone-Campbell Restoration movement and, by way of Methodism's perfectionist wing, the Holiness movement and eventually Pentecostalism. Its campgrounds outlived the frontier, turning into summer resorts, Chautauqua assemblies and conference centers that are still in use.",
+   "new": "It made revival a lasting part of American religion, not a rare event. It handed on a whole toolkit that is still in use: the protracted meeting, the altar call, the anxious bench, the campground and its choruses. Barton Stone's wing of the Stone-Campbell Restoration movement came straight out of its ferment. The Holiness movement grew from Methodist teaching, but it later held camp meetings of its own. And out of Holiness came Pentecostalism. Many of its old campgrounds outlived the frontier, and some are still in use.",
+   "reason": "Round 1 finding 4: the descent claim is limited to Stone's wing. Otherwise as drafting change 2: Holiness descent qualified, the unsourced Chautauqua claim removed, sentences shortened.",
+   "replaces_n": 2
+  },
+  {
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "field": "relationsSummary",
+   "old": "These churches descend from Pietist, Moravian, Methodist and Catholic mission lines, and they became the parents of the Christian traditions now flourishing across the global South. Converts also became missionaries in their own right — Lott Carey's mission to Liberia in 1821, sent by Black American churches, is one example.",
+   "new": "These churches grew out of Protestant mission societies. The societies learned from earlier Pietist, Moravian and Methodist missions. In 1792 William Carey wrote the appeal that led to the Baptist mission in India. In it he held up the Moravians as the model, and praised the Methodists' work. The churches the societies planted became parents of the faith that now grows fast across the global South. Their own converts soon went out to spread it too. Teachers from Polynesia carried it from island to island.",
+   "reason": "Round 1 findings 9 and 21. Carey ranks the Moravians first ('none of the moderns have equalled'); of the Methodists he says only that he has 'seen pleasing accounts of their success' (lines 798-806). 'Descend from ... Catholic mission lines' removed: Carey cites Catholic missions only as proof the work could be done. The Lott Carey sentence removed: he was a Black American Baptist, not a convert of these mission churches; the Black Church entry does not name him; no vendored or repo-cited source supports it. Replaced by the Polynesian teachers already in the entry's description and why.",
+   "replaces_n": 10
+  },
+  {
+   "movement": "indonesian-christianity",
+   "field": "legacy",
+   "old": "Indonesia now has one of the largest Christian populations of any Muslim-majority country in the world, numbering in the tens of millions, and the Batak church founded in this window counts several million members on its own. A fact that would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain, one of them carrying Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest recorded in the twentieth century, belongs to the next chapter of the same story.",
+   "new": "Indonesia now has one of the largest Christian populations of any Muslim-majority country, in the tens of millions. The Batak church founded in these years counts several million members on its own. That would surprise most people's mental map of where Lutherans live. The universities, schools and hospitals that grew out of the mission remain. One of them bears Nommensen's name. The great Timor revival of 1965 to 1971, one of the largest of the twentieth century, belongs to the next chapter of the same story.",
+   "reason": "Round 1 finding 19: restores 'universities', since the institution named for Nommensen is a university; the sentence is split in two for the reading score. Otherwise as drafting change 14: map-layout wording and a fragment repaired.",
+   "replaces_n": 14
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "relationsSummary",
+   "old": "Child of Pietism inside the Lutheran establishment",
+   "new": "It was a lay revival inside Norway's Lutheran state church. Modern biographers place it in the line of Pietism.",
+   "reason": "Round 1 finding 6: the first sentence was a fragment. Otherwise as drafting change 16: 'Child of Pietism' stated as the modern biographers' reading.",
+   "replaces_n": 16
+  },
+  {
+   "movement": "the-haugean-awakening",
+   "field": "longDescription",
+   "old": "In 1796 a Norwegian farmer's son named Hans Nielsen Hauge had a religious experience while working in his father's field, and set out on foot to tell people about it. Which was against the law, because Norway's Conventicle Act reserved religious meetings to the parish clergy. He wrote thirty-three books and tracts, walked thousands of miles, and founded mills, paper works and trading businesses to support the network of \"friends\" that grew around him; the state answered by arresting him in 1804 and keeping him in prison and under prosecution for most of the following decade. The movement long outlasted the man: after his death in 1824 the friends' societies went on meeting and trading, and in 1842 the Conventicle Act itself was repealed.",
+   "new": "In 1796 a Norwegian farmer's son named Hans Nielsen Hauge had a religious experience while he was working in his father's field. He set out on foot to tell people about it. That was against the law, because Norway's Conventicle Act kept religious meetings for the parish clergy. He wrote thirty-three books and tracts and walked thousands of miles. He founded mills, paper works and trading businesses to support the network of \"friends\" that grew around him. The state answered by arresting him in 1804. It kept him in prison and under prosecution for most of the next ten years. The movement long outlasted the man. After his death in 1824 the friends' societies went on meeting and trading. In 1842 the Conventicle Act itself was repealed.",
+   "reason": "Round 1 finding 5: sentence fragment ('Which was against the law...') repaired. The field scored FK 14.6 once in scope, so its long sentences are split for the reading target; 'reserved ... to' becomes 'kept ... for' and 'the following decade' becomes 'the next ten years'; every fact kept.",
+   "replaces_n": null
+  }
+ ]
+}
