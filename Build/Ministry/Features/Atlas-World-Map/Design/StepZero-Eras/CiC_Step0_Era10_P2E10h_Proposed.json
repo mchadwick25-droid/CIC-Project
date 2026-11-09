@@ -1,0 +1,2666 @@
+{
+ "newRows": [
+  {
+   "id": "the-catholic-church-in-africa-twentieth-century",
+   "atlasId": "IX.59",
+   "era": 10,
+   "name": "The Catholic Church in Africa in the Twentieth Century",
+   "shortName": "Catholics in Africa",
+   "informalName": "Twentieth-century African Catholicism",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Uganda, Rwanda, Zaire, Cameroon, sub-Saharan Africa",
+   "placeLabel": "Uganda · Rwanda and beyond",
+   "modernCountries": [
+    {
+     "country": "Uganda",
+     "countryId": "Q1036",
+     "place": "Uganda",
+     "placeId": "Q1036"
+    },
+    {
+     "country": "Rwanda",
+     "countryId": "Q1037",
+     "place": "Rwanda",
+     "placeId": "Q1037"
+    }
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4<->5 bridge (Africa / Latin West)",
+   "laneLabel": "Africa / Latin West — bridge",
+   "laneOrder": 4.5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). It stands between the Africa and the Catholic lanes, because it belongs to both. Its window opens in 1906, where the entry on the Uganda Martyrs ends.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich: two continental histories, by Adrian Hastings (1994) and by Bengt Sundkler and Christopher Steed (2000). The church's own dated texts run from 1956 to 1995.",
+   "floorNote": "No question. It is the Catholic Church, which holds the Nicene Creed.",
+   "relationsSummary": "It carries on the Catholic half of the Uganda Martyrs' story, which ends in 1906. Rome's own story in this era is told in the entries on the Catholic Church before and after the Second Vatican Council. The entry on the African-initiated churches tells of Africans who left the missions. This one tells of Africans who stayed in the Catholic Church.",
+   "why": "In 1939 Pius XII consecrated Joseph Kiwanuka of Uganda as a bishop in St Peter's, Rome. He is described as the first sub-Saharan African Catholic bishop of the modern mission era. Thirty years later, at Kampala, Paul VI told Africa's bishops that they could, and must, have an African Christianity.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford: Clarendon Press, 1994), Oxford History of the Christian Church",
+     "type": "secondary"
+    },
+    {
+     "work": "Bengt Sundkler and Christopher Steed, A History of the Church in Africa (Cambridge University Press, 2000)",
+     "type": "secondary",
+     "note": "Completed by Steed after Sundkler's death in 1995."
+    },
+    {
+     "work": "A. Abblé, J.-C. Bajeux, A. Kagame, V. Mulago, M. Hebga et al., Des prêtres noirs s'interrogent (Paris: Éditions du Cerf, 1956), Rencontres 47",
+     "type": "primary",
+     "note": "Published 'sous la direction de Présence africaine'. Title, year, series and contributors verified."
+    },
+    {
+     "work": "Paul VI, homily at Kampala closing the Symposium of the Bishops of Africa (31 July 1969), French text on vatican.va",
+     "type": "primary",
+     "note": "Page read; the quoted sentence is given in French with a close English rendering."
+    },
+    {
+     "work": "Dictionary of African Christian Biography, 'Kiwanuka, Joseph'; Catholic-Hierarchy, 'Joseph Kiwanuka'",
+     "type": "reference",
+     "note": "Named vicar apostolic of Masaka on 25 May 1939; DACB says he learned of it on 1 June 1939. The wider claim 'first African bishop of modern times' is contested, so the narrow wording is used."
+    },
+    {
+     "work": "Vatican News, report on the Zaire rite (February 2023)",
+     "type": "reference",
+     "note": "Gives the approval of the missal on 30 April 1988 and the trial text of 1974. The decree's own text is not confirmed."
+    },
+    {
+     "work": "John Paul II, Ecclesia in Africa, post-synodal apostolic exhortation (Yaoundé, 14 September 1995)",
+     "type": "primary"
+    },
+    {
+     "work": "Agenzia Fides, on Ecclesia in Africa as the first such document promulgated outside the Vatican",
+     "type": "reference"
+    },
+    {
+     "work": "Johannes Fabian, Jamaa: A Charismatic Movement in Katanga (Evanston: Northwestern University Press, 1971)",
+     "type": "secondary"
+    },
+    {
+     "work": "Placide Tempels, La philosophie bantoue, translated from the Dutch by A. Rubbens (Élisabethville: Éditions Lovania, 1945)",
+     "type": "primary",
+     "note": "The founder's own earlier book, not a text of the Jamaa movement."
+    },
+    {
+     "work": "Timothy Longman, Christianity and Genocide in Rwanda (Cambridge University Press, 2010)",
+     "type": "secondary",
+     "note": "Its thesis, that church leaders backed the genocide, is contested."
+    },
+    {
+     "work": "Ian Linden, with Jane Linden, Church and Revolution in Rwanda (Manchester University Press, 1977)",
+     "type": "secondary"
+    },
+    {
+     "work": "Pew Research Center, Global Christianity (19 December 2011)",
+     "type": "reference",
+     "note": "Counts all Christians in sub-Saharan Africa, 1910-2010, not Catholics alone. Also the evidence for the living mark."
+    }
+   ],
+   "longDescription": "On 25 May 1939 Joseph Kiwanuka was named vicar apostolic of Masaka, in Uganda. Pius XII consecrated him in St Peter's on 29 October that year. In 1956 a group of priests published Des prêtres noirs s'interrogent ('Black priests ask themselves questions'). Its writers included A. Abblé, A. Kagame, V. Mulago and M. Hebga. On 31 July 1969 Paul VI closed a symposium of Africa's bishops at Kampala. In his homily he told them they could, and must, have an African Christianity. In Zaire a trial text of the Mass came into use in 1974. Rome approved the Roman Missal for the Dioceses of Zaire on 30 April 1988, and Cardinal Joseph-Albert Malula was its chief promoter. In Katanga, in the Belgian Congo, the Franciscan Placide Tempels began the Jamaa movement. Its name is Swahili for 'family', and Johannes Fabian studied it in 1971 as a charismatic movement. In Rwanda the churches lived through the genocide of 1994. Timothy Longman argued in 2010 that the churches had aligned with the state, and that church leaders backed the genocide to protect their own power. His thesis is contested. A special assembly of the Synod of Bishops for Africa met in Rome from 10 April to 8 May 1994. John Paul II signed its closing exhortation, Ecclesia in Africa, at Yaoundé on 14 September 1995.",
+   "teaser": "Africa, 1906 to 2010 — the Catholic Church from Joseph Kiwanuka's consecration in 1939 to the African Synod of 1994, with its own missal for Zaire and the hard question of Rwanda.",
+   "voices": [
+    "Joseph Kiwanuka — vicar apostolic of Masaka from 1939, consecrated by Pius XII in St Peter's that October",
+    "The writers of Des prêtres noirs s'interrogent (1956) — A. Abblé, A. Kagame, V. Mulago, M. Hebga and others, priests asking their own questions",
+    "Paul VI — who said at Kampala on 31 July 1969: « En ce sens, vous pouvez et vous devez avoir un christianisme africain. » ('In this sense you may, and you must, have an African Christianity', a close English rendering)",
+    "Joseph-Albert Malula — the cardinal who was the chief promoter of the Roman Missal for the Dioceses of Zaire, approved in 1988",
+    "Placide Tempels — the Franciscan who began the Jamaa movement in Katanga, and author of La philosophie bantoue (1945)",
+    "John Paul II — who signed Ecclesia in Africa at Yaoundé on 14 September 1995"
+   ],
+   "legacy": "Pew Research Center counted sub-Saharan Africa's Christians at under 9 million in 1910 and over 516 million in 2010. That count covers every church, not Catholics alone. Adrian Hastings's history tells the Catholic story to 1950 beside the Orthodox, Protestant and independent churches.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "Settled on dated evidence. The newest dated item counts all Christians in sub-Saharan Africa, not Catholics alone, so the grade stays CR.",
+    "evidence": "Pew Research Center, Global Christianity (19 December 2011), sub-Saharan Christian population 1910-2010: independent research; verified. Its Catholic regional table is not confirmed.",
+    "grade": "CR (Contemporary-Reported); newest dated item 2011, newest verified 2011",
+    "group": "settled"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "the-church-struggle-against-apartheid",
+   "atlasId": "IX.60",
+   "era": 10,
+   "name": "The Church Struggle against Apartheid",
+   "shortName": "Church Struggle",
+   "informalName": "The church struggle in South Africa",
+   "dates": "1960-1994",
+   "start": 1960,
+   "end": 1994,
+   "region": "South Africa",
+   "placeLabel": "South Africa",
+   "modernCountries": [],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window closes in 1994, at the end of apartheid, as the Confessing Church's closes in 1945. Its confession of faith is dated: the Belhar Confession of 1986.",
+   "living": false,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Rich: the movement's own dated texts, the Kairos Document (1985) and the Belhar Confession (1986), with John de Gruchy's standard history (1979).",
+   "floorNote": "No question. Its own confession, the Belhar Confession of 1986, opens with faith in the triune God, Father, Son and Holy Spirit.",
+   "relationsSummary": "It stands beside the Confessing Church in Germany as a comparison, not a line of descent. Its carriers included the South African Council of Churches, the Institute for Contextual Theology and the Dutch Reformed Mission Church.",
+   "why": "In South Africa the churches' struggle against apartheid has a name of its own. John de Gruchy's standard history of 1979 calls it the church struggle. Its dated texts include the Kairos Document of 1985 and the Belhar Confession of 1986.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Kairos Theologians, Challenge to the Church: A Theological Comment on the Political Crisis in South Africa. The Kairos Document (Braamfontein: Institute for Contextual Theology, September 1985)",
+     "type": "primary",
+     "note": "Made public 25 September 1985. One library record gives 111 signatories; other accounts give more than 150 for the first version."
+    },
+    {
+     "work": "Belydenis van Belhar / Die Belydenis 1986, NG Sendingkerk in SA (the Belhar Confession)",
+     "type": "primary",
+     "note": "Afrikaans text read. Draft accepted at the synod of October 1982 in Belhar; adopted as a confession in 1986."
+    },
+    {
+     "work": "John W. de Gruchy, The Church Struggle in South Africa (Grand Rapids: Eerdmans; London: SPCK; Cape Town: David Philip, 1979); 25th-anniversary edition with Steve de Gruchy (London: SCM, 2004)",
+     "type": "secondary"
+    },
+    {
+     "work": "E. Van der Borght, 'Unity that sanctifies diversity'. Cottesloe Revisited, Acta Theologica 31.2 (2011)",
+     "type": "secondary",
+     "note": "Its bibliography cites the Consultation's Report of 7-14 December 1960."
+    }
+   ],
+   "longDescription": "This story opens with the Cottesloe Consultation, which met in Johannesburg from 7 to 14 December 1960. In September 1985 a group who called themselves the Kairos Theologians issued the Kairos Document. It was made public on 25 September. Its full title called it a theological comment on the political crisis in South Africa. The number of people who signed it differs from one edition to another. In October 1982 a synod of the Dutch Reformed Mission Church, meeting at Belhar, accepted a draft confession. The church adopted it as a confession in 1986. Its first article confesses the triune God, who through his Word and Spirit gathers, protects and cares for his church. The movement ended with apartheid in 1994.",
+   "teaser": "South Africa, 1960 to 1994 — churches in the struggle against apartheid, from the Cottesloe Consultation to the Kairos Document and the Belhar Confession.",
+   "voices": [
+    "The Kairos Theologians — who issued the Kairos Document, made public on 25 September 1985",
+    "The Dutch Reformed Mission Church — whose synod accepted the Belhar Confession in draft in 1982 and adopted it in 1986. It opens: « Ons glo in die drie-enige God, Vader, Seun en Heilige Gees » ('We believe in the triune God, Father, Son and Holy Spirit', a close English rendering of the Afrikaans)",
+    "The South African Council of Churches and the Institute for Contextual Theology — two of the bodies that carried the struggle"
+   ],
+   "legacy": "John de Gruchy's history came out again in 2004, in a 25th-anniversary edition written with Steve de Gruchy. Its title gives the movement its name.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A closed tradition. The movement ended with apartheid in 1994, as the Confessing Church ended in 1945.",
+    "evidence": "Belhar Confession (1986): the movement's own confession; verified (text read). No later body is counted as the movement.",
+    "grade": "n/a (flag false on a documented end)",
+    "group": "L-4"
+   },
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "sudanese-christianity-through-the-civil-wars",
+   "atlasId": "IX.61",
+   "era": 10,
+   "name": "Sudanese Christianity through the Civil Wars",
+   "shortName": "Sudanese Church",
+   "informalName": "The Sudanese church",
+   "dates": "1955-2005",
+   "start": 1955,
+   "end": 2005,
+   "region": "Sudan, South Sudan",
+   "placeLabel": "Sudan · South Sudan",
+   "modernCountries": [
+    {
+     "country": "Sudan",
+     "countryId": "Q1049",
+     "place": "Sudan",
+     "placeId": "Q1049"
+    }
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). It rests on two studies in the Faith in Sudan series. Its window runs from the Torit mutiny of 1955 to the peace agreement of January 2005.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate to rich: a 688-page history of the Sudanese church and a study of Dinka Christianity, both from Paulines Publications Africa in Nairobi, with a study of Dinka Anglicanism from Baylor.",
+   "floorNote": "No question.",
+   "relationsSummary": "The ancient Christian kingdoms of Nubia stood on the same land, but no line runs from them to this story.",
+   "why": "In 2000 Roland Werner, William Anderson and Andrew Wheeler published a history of the Sudanese church across two thousand years. Its title, Day of Devastation, Day of Contentment, names both sides of the story.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Roland Werner, William Anderson and Andrew Wheeler, Day of Devastation, Day of Contentment: The History of the Sudanese Church across 2000 Years (Nairobi: Paulines Publications Africa, 2000), Faith in Sudan 10",
+     "type": "secondary"
+    },
+    {
+     "work": "Marc R. Nikkel, Dinka Christianity (Nairobi: Paulines Publications Africa, 2001), Faith in Sudan 11",
+     "type": "secondary",
+     "note": "From his 1993 Edinburgh doctoral thesis."
+    },
+    {
+     "work": "Jesse A. Zink, Christianity and Catastrophe in South Sudan: Civil War, Migration, and the Rise of Dinka Anglicanism (Waco, TX: Baylor University Press, 2018), Studies in World Christianity",
+     "type": "reference",
+     "note": "Publisher and year confirmed from the Journal of Ecclesiastical History review (72.1, 2021, pp. 229-231) and the author's page. Used for the war of 1983-2005 and the rise of Dinka Anglicanism."
+    },
+    {
+     "work": "Øystein H. Rolandsen, 'A False Start: Between War and Peace in the Southern Sudan, 1956-62', Journal of African History 52.1 (2011): 105-123",
+     "type": "secondary",
+     "note": "Abstract read on the PRIO page. It says historians usually date the first civil war from the Torit mutiny of 1955, and that organized violence did not reach the level of civil war until 1963."
+    },
+    {
+     "work": "Comprehensive Peace Agreement between the Government of the Republic of the Sudan and the Sudan People's Liberation Army/Sudan People's Liberation Movement (Naivasha Agreement), 9 January 2005",
+     "type": "primary",
+     "note": "Date read in the Peace Agreements Database of the University of Edinburgh (PA-X, agreement 337). The agreement text itself was not opened."
+    },
+    {
+     "work": "House of Commons, 'Sudan (Missionaries)', Hansard, 23 March 1964, vol. 692, cc. 8-9",
+     "type": "primary",
+     "note": "Reports the Sudan Government's statement that all foreign missionaries were being expelled, and that the order first applied to the three southern provinces."
+    },
+    {
+     "work": "'The Isolationism of Islam', Christianity Today, 27 March 1964",
+     "type": "reference",
+     "note": "A contemporary news report. Gives 272 Roman Catholic priests and nuns and 28 Protestant missionaries."
+    }
+   ],
+   "longDescription": "Roland Werner, William Anderson and Andrew Wheeler wrote the standard history, Day of Devastation, Day of Contentment (2000). It runs to 688 pages and covers the Sudanese church across two thousand years. Marc Nikkel studied the conversion of the Dinka people in Dinka Christianity (2001). His book grew from his Edinburgh doctorate of 1993. Both books appeared in the Faith in Sudan series, from Paulines Publications Africa in Nairobi. Historians usually trace the first civil war to the Torit mutiny of 1955. Øystein Rolandsen says full civil war began only in late 1963. In March 1964 the government expelled foreign missionaries. The order began in the three southern provinces. The government said their activities threatened Sudan's integrity and stability. The war that began in 1983 ended with the peace agreement of 9 January 2005. Jesse Zink has told how many Dinka people embraced Anglican faith in that war.",
+   "teaser": "Sudan and South Sudan, 1955 to 2005 — churches whose historians call their story a day of devastation and a day of contentment.",
+   "voices": [
+    "Roland Werner, William Anderson and Andrew Wheeler — whose Day of Devastation, Day of Contentment (2000) tells the Sudanese church's history across two thousand years",
+    "Marc Nikkel — whose Dinka Christianity (2001) studies the Dinka people's conversion"
+   ],
+   "legacy": "Its historians tell it as one Sudanese church's story, across its denominations and across two thousand years.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "An episode or window of a living tradition. The window closes in 2005; the mark would rest on the churches that lived through it.",
+    "evidence": "Jesse A. Zink, Christianity and Catastrophe in South Sudan (Baylor, 2018): independent scholarship; publisher, year and subject confirmed from the Journal of Ecclesiastical History review (72.1, 2021) and the author's page.",
+    "grade": "CD (Contemporary-Documented); newest dated item 2018, newest verified 2018",
+    "group": "L-2"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "latin-american-catholicism-twentieth-century",
+   "atlasId": "IX.62",
+   "era": 10,
+   "name": "Latin American Catholicism in the Twentieth Century",
+   "shortName": "Latin America 20c",
+   "informalName": "Twentieth-century Latin American Catholicism",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Mexico, Brazil, Colombia, the continent",
+   "placeLabel": "Mexico · Brazil and beyond",
+   "modernCountries": [
+    {
+     "country": "Brazil",
+     "countryId": "Q155",
+     "place": "Brazil",
+     "placeId": "Q155"
+    }
+   ],
+   "regions": [
+    "Latin America"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window opens in 1906, where the entry on nineteenth-century Latin American Catholicism ends. The base communities have their own entry; this one holds the bishops' conferences.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich: the bishops' own conference documents in Spanish and Portuguese, the multi-volume history of CEHILA, a Cambridge survey of 2008, and Jean Meyer's history of the Cristero War.",
+   "floorNote": "No question. It is the Catholic Church, which holds the Nicene Creed.",
+   "relationsSummary": "It carries on from the entry on nineteenth-century Latin American Catholicism, which ends in 1906. The base communities have their own entry, which hangs from this one. This entry holds the bishops' conferences at Medellín and Puebla, and that one holds the communities and their theology. The Cristero War of 1926-29 is told here.",
+   "why": "In 1955 Latin America's Catholic bishops met as one continent at Rio de Janeiro and set up CELAM, their council, with its seat in Bogotá. At Medellín in 1968 they read the Second Vatican Council against the changes their own continent was living through. One chapter of their document dealt with the poverty of the church.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "CELAM II, La Iglesia en la actual transformación de América Latina a la luz del Concilio (Medellín, August-September 1968)",
+     "type": "primary",
+     "note": "Title and date verified. Its chapter 14, 'Pobreza de la Iglesia', is read here through Boaventura Kloppenburg's article in the journal Medellín; no quotation is used until it is checked against a printed edition."
+    },
+    {
+     "work": "CELAM III, Documento de Puebla (1979)",
+     "type": "primary",
+     "note": "Seen through Kloppenburg's quotation; not yet read in an edition."
+    },
+    {
+     "work": "Benedict XVI, letter to the president of CELAM (14 May 2005), vatican.va",
+     "type": "primary",
+     "note": "Recalls the first General Conference at Rio de Janeiro, 25 July-4 August 1955. The date of the papal approval varies (29 June or 2 November 1955) and is left open."
+    },
+    {
+     "work": "'Consejo Episcopal Latinoamericano (CELAM)', Encyclopedia of Religion (encyclopedia.com)",
+     "type": "reference"
+    },
+    {
+     "work": "CEHILA, Historia General de la Iglesia en América Latina (Salamanca: Sígueme, 1981-)",
+     "type": "secondary",
+     "note": "Tomo VII 1981; tomo I/1 1983. CEHILA was founded in 1973 under Enrique Dussel."
+    },
+    {
+     "work": "Ondina E. González and Justo L. González, Christianity in Latin America: A History (Cambridge University Press, 2008)",
+     "type": "secondary"
+    },
+    {
+     "work": "ACI Prensa, on the centenary of the suspension of worship (31 July 1926); with an article on the Cristero War in Dialnet",
+     "type": "reference",
+     "note": "Gives the suspension on the day the Calles Law took effect, the League's founding in March 1925, and the arreglos of June 1929. No sentence of either is quoted."
+    },
+    {
+     "work": "Jean Meyer, La Cristiada, 3 vols., trans. Aurelio Garzón del Camino (México: Siglo XXI, 1973-74)",
+     "type": "secondary"
+    },
+    {
+     "work": "John Paul II, homily for the canonization of Cristóbal Magallanes and 24 companions (21 May 2000), vatican.va",
+     "type": "primary"
+    },
+    {
+     "work": "ACI Prensa (2025), on the 25th anniversary of the canonization of the Mexican martyrs",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history."
+    },
+    {
+     "work": "Maurice Sheith Oluoch Awiti, La trayectoria pastoral de Leonidas Proaño en la Diócesis de Riobamba en Ecuador: indígenas, sociedad e Iglesia ('The pastoral path of Leonidas Proaño in the Diocese of Riobamba in Ecuador: Indigenous people, society and church'), doctoral thesis in Latin American history, Universidad Andina Simón Bolívar, Sede Ecuador (Quito, 2023)",
+     "type": "secondary",
+     "note": "Read in full text. The title page gives the years 1954-1988 and the copyright clause 1954-1985; the abstract gives Proaño's years as bishop of Riobamba as 1954-1985."
+    }
+   ],
+   "longDescription": "In Mexico the Calles Law took effect on 31 July 1926. That day the bishops suspended public worship. Catholics of the National League for the Defense of Religious Liberty, founded in March 1925, took up arms. So did rural fighters called cristeros. The settlement of June 1929, the arreglos, brought an amnesty and the non-enforcement of the law. Jean Meyer told the war's history in the three volumes of La Cristiada (1973-74). On 21 May 2000 John Paul II canonized 25 of its martyrs, Cristóbal Magallanes and his companions. From 25 July to 4 August 1955 Latin America's bishops held their first General Conference, at Rio de Janeiro. There they set up CELAM, their continental council, under Pius XII. Its seat was in Bogotá. Its first president was Cardinal Jaime de Barros Câmara. The second General Conference met at Medellín, Colombia, in August and September 1968. Its document read the church's task in Latin America in the light of the Council. One chapter was titled 'Poverty of the Church'. The third General Conference met at Puebla, Mexico, in 1979. Leonidas Proaño was bishop of Riobamba, Ecuador, from 1954 to 1985. He came to Riobamba on 29 May 1954 and retired on 29 January 1985. Under him, projects for Indigenous people opened in Chimborazo province. One was the Centro de Estudios y Acción Social ('Center for Social Studies and Action'), in 1960. The Escuelas Radiofónicas Populares del Ecuador ('Popular Radio Schools of Ecuador') began on 19 March 1962. Latin American scholars began to write this church's history themselves. One group of them, CEHILA, was founded in 1973 under Enrique Dussel. From 1981 it published a general history of the church in Latin America.",
+   "teaser": "Latin America, 1906 to 2010 — the Catholic Church of the Cristero War and of CELAM, whose bishops met as one continent at Rio, Medellín and Puebla.",
+   "voices": [
+    "The bishops at Rio de Janeiro, 1955 — whose first General Conference set up CELAM",
+    "Jaime de Barros Câmara — cardinal, and CELAM's first president",
+    "The bishops at Medellín, 1968 — whose document La Iglesia en la actual transformación de América Latina a la luz del Concilio ('The Church in the present-day transformation of Latin America in the light of the Council') includes a chapter on the poverty of the church",
+    "The bishops at Puebla, 1979 — the third General Conference",
+    "Cristóbal Magallanes and his 24 companions — martyrs of the Cristero years, canonized on 21 May 2000",
+    "Enrique Dussel — under whom CEHILA was founded in 1973, to write the church's history from Latin America",
+    "Leonidas Proaño — bishop of Riobamba, Ecuador, from 1954 to 1985"
+   ],
+   "legacy": "In 2005 Benedict XVI recalled the Rio conference of 1955 in a letter to CELAM's president. Ondina and Justo González wrote a history of the region's Christianity in 2008. It gives the church after the Second Vatican Council its own chapter.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. The newest dated item is a Catholic news report on the Cristero martyrs.",
+    "evidence": "ACI Prensa (2025), on celebrations in the United States of the 25th anniversary of the Mexican martyrs' canonization: Catholic news agency; verification not recorded.",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "protestantism-in-latin-america",
+   "atlasId": "IX.63",
+   "era": 10,
+   "name": "Protestantism in Latin America",
+   "shortName": "Latin Am. Protestant",
+   "informalName": "Latin American Protestantism",
+   "dates": "1916-c. 2010",
+   "start": 1916,
+   "end": 2010,
+   "region": "Panama, Guatemala, Colombia, Bolivia, Peru, Mexico",
+   "placeLabel": "Panama · Guatemala and beyond",
+   "modernCountries": [],
+   "regions": [
+    "Latin America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens with the Panama congress of 1916. Its dated acts are the congresses and councils the churches held together.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate to rich: the 1916 congress reports, the records of later congresses and councils, and Jean-Pierre Bastian's histories.",
+   "floorNote": "No question at the level of the family. Each church is assessed on its own confession. The historic churches, Presbyterian, Methodist, Baptist, Lutheran and Anglican, carry dated classical confessions.",
+   "relationsSummary": "René Padilla and Samuel Escobar argued for integral mission at Lausanne in 1974. The Lausanne entry tells that story. This entry tells their region's own Protestant story.",
+   "why": "In February 1916 Protestants met in Panama City for a Congress on Christian Work in Latin America. They met because the world mission conference at Edinburgh in 1910 had left Latin America out. Over the century Latin American Protestants built bodies of their own.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Congress on Christian Work in Latin America, Panama, 10-20 February 1916: Reports, 3 vols. (New York, 1917)",
+     "type": "primary",
+     "note": "Organized by the Committee on Cooperation in Latin America (formed 1913); 304 delegates and visitors from 21 nations. A Princeton Theological Seminary copy is listed."
+    },
+    {
+     "work": "Christianity Today, 'Bogotá: Latin Liaison' (December 1969), on CLADE I (21-30 November 1969)",
+     "type": "reference"
+    },
+    {
+     "work": "UNAM thesis on the Latin American Theological Fraternity (first consultation, Cochabamba, 1970)",
+     "type": "reference",
+     "note": "Month given as November in one source, December in another."
+    },
+    {
+     "work": "Christianity Today (February 1979; 12 June 1981) and the Union of International Associations, on CLAI and CONELA",
+     "type": "reference",
+     "note": "Huampaní 1977, Oaxtepec 1978, constituted at Huampaní 1982 (one source gives 1983)."
+    },
+    {
+     "work": "Jean-Pierre Bastian, Historia del protestantismo en América Latina (México: CUPSA, 1990); Protestantismos y modernidad latinoamericana (México: FCE, 1994)",
+     "type": "secondary"
+    },
+    {
+     "work": "Virginia Garrard-Burnett, Protestantism in Guatemala: Living in the New Jerusalem (Austin: University of Texas Press, 1998)",
+     "type": "secondary"
+    },
+    {
+     "work": "Paul Freston, Evangelicals and Politics in Asia, Africa and Latin America (Cambridge University Press, 2001)",
+     "type": "secondary"
+    },
+    {
+     "work": "Julián Guamán, 'Panorama de la Iglesia Evangélica en el Ecuador' ('Overview of the Evangelical Church in Ecuador') (Quito, September 2008)",
+     "type": "secondary",
+     "note": "By an Indigenous Ecuadorian author. Gives FEINE's founding as 1980, the start of Indigenous evangelical organizing in Chimborazo as 1966, and more than 1,500 local congregations. Cites his own FEINE, la organización de los indígenas evangélicos en Ecuador (Quito: Universidad Andina Simón Bolívar / Abya-Yala / Corporación Editora Nacional, 2006), which was not opened."
+    },
+    {
+     "work": "Susana Andrade, Protestantismo indígena: procesos de conversión religiosa en la provincia de Chimborazo, Ecuador ('Indigenous Protestantism: processes of religious conversion in Chimborazo province, Ecuador') (Quito: Abya-Yala / FLACSO Ecuador / IFEA, Travaux de l'IFEA 182, 2004)",
+     "type": "secondary",
+     "note": "Publisher page and abstract read on OpenEdition Books (doi 10.4000/books.ifea.4554)."
+    }
+   ],
+   "longDescription": "The Panama congress met from 10 to 20 February 1916. A committee formed in 1913 organized it. It drew 304 delegates and visitors from 21 nations. Few of them were Latin Americans. Its reports came out in three volumes in 1917. In November 1969 the first Latin American Congress on Evangelization, called CLADE, met in Bogotá. In 1970 the Latin American Theological Fraternity met for the first time, at Cochabamba in Bolivia. In 1977 churches met at Huampaní in Peru. In 1978 they met at Oaxtepec in Mexico. They meant to form a council of their own. This Latin American Council of Churches, CLAI, was set up at Huampaní in 1982. One source gives 1983. A more conservative body, CONELA, formed as its alternative. In Guatemala, Virginia Garrard-Burnett found, Protestants won few converts until the 1960s. Then military power and violence spread. They weakened people's old ties. Indigenous evangelicals in Ecuador organized themselves too. Julián Guamán, an Indigenous author from Ecuador, dates the start of that organizing to Chimborazo in 1966. Their national council, FEINE, was founded in 1980. Guamán counts more than 1,500 local congregations among them. Susana Andrade studied why Indigenous people in Chimborazo became Protestants. Her book of 2004 aims to show how Pentecostalism there became 'quichuanized'. It took back themes from Indigenous religion. They include prayer, the interpretation of dreams and baptism in lagoons.",
+   "teaser": "Latin America, 1916 to 2010 — Protestant churches that met at Panama in 1916 and then built councils of their own. Evangelical faith grew fast in Guatemala.",
+   "voices": [
+    "The Panama Congress of 1916 — 304 delegates and visitors from 21 nations, whose reports came out in three volumes in 1917",
+    "CLADE I — the first Latin American Congress on Evangelization, at Bogotá in November 1969",
+    "The Latin American Theological Fraternity — which held its first consultation at Cochabamba in 1970",
+    "The Latin American Council of Churches (CLAI) — formed through meetings at Huampaní in 1977 and Oaxtepec in 1978",
+    "FEINE — the national council of Indigenous evangelicals in Ecuador, founded in 1980"
+   ],
+   "legacy": "Jean-Pierre Bastian wrote the field's standard histories, in 1990 and 1994. In 2001 Paul Freston set Latin America's evangelicals in politics beside those of Asia and Africa.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation.",
+    "evidence": "No dated item after 2010 is staged for the councils or churches of this family.",
+    "grade": "none (no dated item after 2010 is in the repo)",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "korean-protestantism-twentieth-century",
+   "atlasId": "IX.64",
+   "era": 10,
+   "name": "Korean Protestantism in the Twentieth Century",
+   "shortName": "Korean Protestants",
+   "informalName": "The Korean Protestant century",
+   "dates": "1907-c. 2010",
+   "start": 1907,
+   "end": 2010,
+   "region": "Korea",
+   "placeLabel": "Korea",
+   "modernCountries": [
+    {
+     "country": "South Korea",
+     "countryId": "Q884",
+     "place": "Korea",
+     "placeId": "Q483134"
+    },
+    {
+     "country": "North Korea",
+     "countryId": "Q423",
+     "place": "Korea",
+     "placeId": "Q483134"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window opens in 1907, when the first presbytery of an independent Korean Presbyterian Church met. The revival of the same year has its own entry.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong. Two studies come from university presses. Timothy Lee's Born Again (2010) studies evangelicalism in Korea, and Sung-Deuk Oak's study (2013) the years 1876 to 1915. A survey by Sebastian and Kirsteen Kim (2015) adds to them, though one review disputes many of its facts.",
+   "floorNote": "No question, on a dated text. The Twelve Articles of Faith came from the creed that the Presbyterian Church in India drew up in 1904. In 1907 the first presbytery took them up for a year of study. They named one God in three Persons, \"the same in substance, equal in power and glory\".",
+   "relationsSummary": "The Pyongyang revival of 1907 has its own entry, which ends in 1910. Yoido Full Gospel Church, founded in Seoul in 1958, is told with Global South Pentecostal Christianity. Korea's Catholics have their own entry, which ends in 1886.",
+   "why": "In 1907 Korea's Presbyterians formed a church of their own. Its first presbytery met on 17 September, with 38 missionaries and 40 Korean elders. That day it ordained its first seven Korean pastors.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "The Twelve Articles of Faith (the Confession of Faith of the Korean Presbyterian Church), taken up by the first presbytery in 1907; English text as printed in H. Kim (2019)",
+     "type": "primary",
+     "note": "The Korean wording of 1907 is not seen. The articles came from the Presbyterian Church in India's creed of 1904."
+    },
+    {
+     "work": "H. Kim, 'A Reformed perspective of the Presbyterian Church in Korea's adoption of their \"Twelve Articles of Faith\" in 1907' (MA thesis, North-West University, 2019)",
+     "type": "secondary"
+    },
+    {
+     "work": "Timothy S. Lee, Born Again: Evangelicalism in Korea (University of Hawai'i Press, 2010)",
+     "type": "secondary"
+    },
+    {
+     "work": "Sung-Deuk Oak, The Making of Korean Christianity: Protestant Encounters with Korean Religions, 1876-1915 (Baylor University Press, 2013)",
+     "type": "secondary"
+    },
+    {
+     "work": "Sebastian C. H. Kim and Kirsteen Kim, A History of Korean Christianity (Cambridge University Press, 2015)",
+     "type": "secondary",
+     "note": "A review in the Journal of Ecclesiastical History alleges many factual errors; another review praises it."
+    },
+    {
+     "work": "Asia Economy (asiae.co.kr), report of a memorial to the pastor Ju Gi-cheol, opened in May 2025",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. Verification not recorded."
+    }
+   ],
+   "longDescription": "On 17 September 1907 the first presbytery of an independent Presbyterian Church in Korea met. Its 78 members were 38 missionaries and 40 Korean elders. It ordained seven Korean pastors, that year's graduates of the seminary in Pyongyang. It also took up the Twelve Articles of Faith, at first for a year of study. The articles came from the Presbyterian Church in India, which had drawn them up in 1904. In 1938 the Pyongyang seminary was shut down, because it had opposed the shrine worship that Japan enforced. In the 1950s the Presbyterian church divided into several churches, among them Kosin, Kijang, Hapdong and Tonghap. Kijang separated in 1953 over its progressive theology, especially its view of Scripture. Timothy Lee's Born Again (2010) tells the century as a story of evangelicalism in Korea.",
+   "teaser": "Korea's Protestants, from their first presbytery in 1907 through Japanese rule and the church divisions of the 1950s.",
+   "voices": [
+    "The first presbytery of 1907 — which met on 17 September and ordained seven Korean pastors",
+    "The Twelve Articles of Faith — \"In the Godhead, there are three Persons, the Father, the Son and the Holy Spirit, and these three are one God, the same in substance, equal in power and glory\" (Article III)",
+    "Timothy S. Lee — whose Born Again (2010) studies evangelicalism in Korea"
+   ],
+   "legacy": "In the 1960s and 1970s most of the divided Presbyterian churches adopted the Westminster Confession. They also kept the Twelve Articles in their constitutions.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Reported only.",
+    "evidence": "Asia Economy (asiae.co.kr), on a memorial to the pastor Ju Gi-cheol opened in May 2025: journalism; verification not recorded [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "chinese-catholicism-twentieth-century",
+   "atlasId": "IX.65",
+   "era": 10,
+   "name": "Chinese Catholicism — the First Chinese Bishops to the Divided Church",
+   "shortName": "Chinese Catholics",
+   "informalName": "The Catholic Church in China",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "China",
+   "placeLabel": "China",
+   "modernCountries": [],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window opens in 1906. After 1957 the church divided over who could name its bishops, as Pius XII's letter of 1958 shows.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good. Richard Madsen's China's Catholics (1998) comes from a university press. Two papal letters, of 1958 and 2007, add to it. So does a study of the 1946 hierarchy from the Holy Spirit Study Centre in Hong Kong.",
+   "floorNote": "No question. The Catholic Church holds the Nicene Creed. In 1958 Pius XII ruled that bishops consecrated against Rome's orders had no power to teach or to govern. Their sacramental acts, he wrote, were valid if their consecration was valid, but gravely illicit.",
+   "relationsSummary": "The entry on China's indigenous and suffering church tells its Protestant and independent churches. This entry carries China's Catholics, whom that entry does not name.",
+   "why": "In 1926 Pope Pius XI consecrated Chinese bishops in Saint Peter's Basilica. Twenty years later Pius XII gave China dioceses of its own, each under its own bishop. In 1957 the state called an assembly that approved a Catholic Patriotic Association. The church then divided over who could name its bishops.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Pius XII, Ad Apostolorum Principis (29 June 1958)",
+     "type": "primary"
+    },
+    {
+     "work": "Sergio Ticozzi, 'The 70th anniversary of Church hierarchy in China (11 April 1946)', Holy Spirit Study Centre, Hong Kong",
+     "type": "reference",
+     "note": "On the hierarchy of 1946 and the assembly of 1957. Quotes Benedict XVI's letter of 2007 to Chinese Catholics."
+    },
+    {
+     "work": "Richard Madsen, China's Catholics: Tragedy and Hope in an Emerging Civil Society (University of California Press, 1998)",
+     "type": "secondary"
+    },
+    {
+     "work": "Leo XIV, video message to a conference on China (5 November 2026), vatican.va",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. Verification not recorded."
+    }
+   ],
+   "longDescription": "In 1926 Pope Pius XI consecrated Chinese bishops in Saint Peter's Basilica. His successor Pius XII later recalled them, in Pius XI's words, as \"the flowers and . . . latest buds of the Chinese episcopate\". On 18 February 1946 Thomas Tian Gengxin became the first Chinese cardinal. On 11 April 1946 Pius XII set up a full hierarchy in China, of 137 dioceses and prefectures in 20 regions. Chinese clergy led 28 of them. From 17 July to 2 August 1957 the authorities held a national assembly of Catholic representatives in Beijing. It approved the statutes of the Chinese Catholic Patriotic Association. In 1958 Pius XII wrote that missionaries had been driven out, and that bishops, priests and laypeople had been imprisoned. He ruled that bishops elected and consecrated against Rome's orders had no power to teach or to govern. In May 1980 a national assembly under state control set up a bishops' conference. Rome judged such bodies incompatible with Catholic teaching.",
+   "teaser": "China's Catholics, from their first Chinese bishops in 1926 to a church divided over who could name its bishops.",
+   "voices": [
+    "Pius XII — whose Ad Apostolorum Principis (29 June 1958) answered the election of bishops without Rome's mandate",
+    "Thomas Tian Gengxin — who became the first Chinese cardinal on 18 February 1946",
+    "Benedict XVI — whose letter of 2007 to Chinese Catholics restated the church's position",
+    "Richard Madsen — whose China's Catholics: Tragedy and Hope in an Emerging Civil Society appeared in 1998"
+   ],
+   "legacy": "In 2007 Benedict XVI wrote to China's Catholics. Bodies set up by the state to stand above the bishops, he wrote, did \"not correspond to Catholic doctrine\". Richard Madsen told their story as one of tragedy and hope.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Own voice only.",
+    "evidence": "Leo XIV, video message to a conference on China (5 November 2026), vatican.va: the Catholic Church's own word; verification not recorded [S]. A report on the centenary of the six bishops of 1926 (chinaaid.org, 2026): journalism; [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "philippine-catholicism-twentieth-century",
+   "atlasId": "IX.66",
+   "era": 10,
+   "name": "Philippine Catholicism in the Twentieth Century",
+   "shortName": "Philippine Catholics",
+   "informalName": "The Catholic Church in the Philippines",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Philippines",
+   "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window opens in 1906. The entry on Philippine Catholicism from Gomburza to the Aglipayan schism ends there.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong. Three studies come from university presses. They are Robert Youngblood's Marcos against the Church (1990), Antonio Moreno's study of church and civil society (2006) and Katharine Wiegele's study of El Shaddai.",
+   "floorNote": "No question. The Catholic Church holds the Nicene Creed.",
+   "relationsSummary": "The Iglesia Filipina Independiente, proclaimed in 1902, has its own entry for this century. So does Iglesia ni Cristo, registered in 1914. El Shaddai is told here. Katharine Wiegele studied it as part of popular Catholicism.",
+   "why": "Under Ferdinand Marcos the Catholic Church and the state clashed. Robert Youngblood called his study of it Marcos against the Church (1990). El Shaddai grew up within the same church. It was a movement of popular Catholicism.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "El Shaddai (1984, Velarde)",
+     "type": "primary",
+     "note": "The movement's own record, as named before in the Global South Pentecostal entry."
+    },
+    {
+     "work": "Robert L. Youngblood, Marcos against the Church: Economic Development and Political Repression in the Philippines (Cornell University Press, 1990)",
+     "type": "secondary"
+    },
+    {
+     "work": "Katharine L. Wiegele, Investing in Miracles: El Shaddai and the Transformation of Popular Catholicism in the Philippines (University of Hawai'i Press; Ateneo de Manila University Press, 2007)",
+     "type": "secondary",
+     "note": "The Hawai'i imprint year is given as 2004 or 2005 by different catalogs."
+    },
+    {
+     "work": "Antonio F. Moreno, SJ, Church, State, and Civil Society in Postauthoritarian Philippines: Narratives of Engaged Citizenship (Ateneo de Manila University Press, 2006)",
+     "type": "secondary"
+    },
+    {
+     "work": "Catholic Bishops' Conference of the Philippines, statement on the fortieth anniversary of EDSA (18 February 2026), as reported by Interaksyon and Philstar",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. Verification not recorded."
+    }
+   ],
+   "longDescription": "This entry opens in 1906. That is where the story of the Aglipayan schism ends. Under Ferdinand Marcos the Catholic Church and the state clashed. Robert Youngblood followed that clash in Marcos against the Church (1990). He tied it to the regime's drive for economic growth. He tied it to its political repression too. That rule ended. Afterward the Filipino Jesuit Antonio Moreno studied the church's part in civil society. His book of 2006 gathered \"narratives of engaged citizenship\". El Shaddai grew up within the same church. Katharine Wiegele studied it as a change in popular Catholicism. That means the Catholic faith as ordinary people live it.",
+   "teaser": "The Catholic Church in the Philippines after 1906, through its clash with Marcos and the rise of El Shaddai.",
+   "voices": [
+    "Mike Velarde — founder of El Shaddai in the Philippines in 1984",
+    "Robert L. Youngblood — whose Marcos against the Church (1990) traced the church's conflict with the regime",
+    "Antonio F. Moreno — a Filipino Jesuit whose study of 2006 gathered narratives of engaged citizenship",
+    "Katharine L. Wiegele — whose Investing in Miracles studied El Shaddai as popular Catholicism"
+   ],
+   "legacy": "Moreno's narratives showed Catholics taking part in civil society. That came once authoritarian rule had ended. Wiegele's study placed El Shaddai inside popular Catholicism, not outside it.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Reported only.",
+    "evidence": "Catholic Bishops' Conference of the Philippines, statement on EDSA's fortieth anniversary (18 February 2026), as reported by Interaksyon and Philstar: the church's own word, reported by journalism; verification not recorded [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "philippine-independent-church-twentieth-century",
+   "atlasId": "IX.67",
+   "era": 10,
+   "name": "The Philippine Independent Church in the Twentieth Century",
+   "shortName": "IFI (Philippines)",
+   "informalName": "The Iglesia Filipina Independiente",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Philippines",
+   "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "5<->6 bridge (Latin West / Protestant)",
+   "laneLabel": "Latin West / Protestant — bridge",
+   "laneOrder": 5.5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1906, where the entry on its birth ends. It rests on the church's own papers of 1947 and on a study of its founder by two Jesuits.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good. The church's papers of 1947 carry its Declaration of Faith and its petition to the Episcopal Church. Pedro de Achútegui and Miguel Bernad, both Jesuits, wrote a study of its founder in several volumes (1960-66). They wrote from the side of the Catholic Church it had left.",
+   "floorNote": "No question, on a dated text. On 4 and 5 August 1947 its bishops and its General Assembly adopted a Declaration of Faith. It confessed \"One God, true and living\", in three Persons. It called Jesus Christ \"very and eternal God\".",
+   "relationsSummary": "Its birth in 1902 is told with Philippine Catholicism up to 1906. The Catholic Church it left has its own entry for this century. In 1961 it entered full communion with the Episcopal Church, one of the churches of the Anglican Communion.",
+   "why": "Gregorio Aglipay and other priests had left the Roman Catholic Church to found a national church run by Filipinos. In 1947 that church adopted a Declaration of Faith that confessed the Trinity without doubt. It then asked the Episcopal Church in the United States to consecrate its bishops.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947)",
+     "type": "primary",
+     "note": "Includes the Declaration of Faith adopted on 4 and 5 August 1947."
+    },
+    {
+     "work": "Concordat of Full Communion between the Iglesia Filipina Independiente and the Episcopal Church (1961)",
+     "type": "primary"
+    },
+    {
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860-1960 (Ateneo de Manila, 1960-66)",
+     "type": "secondary",
+     "note": "Written by two Jesuits, from the side of the Catholic Church that the IFI left."
+    },
+    {
+     "work": "anglican.ink, report of the Episcopal Church in the Philippines and the IFI marking the concordat's anniversary (March 2025)",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. Verification not recorded."
+    }
+   ],
+   "longDescription": "The Iglesia Filipina Independiente was proclaimed in 1902, and its birth is told with Philippine Catholicism to 1906. Its founder, Gregorio Aglipay, and other priests had left Rome because they would no longer accept foreign control of the church. Aglipay later took up Unitarian teaching, and published pamphlets defending it. The Episcopal Church's missionary bishop in the Philippines, Norman Binsted, was told that no more than five percent of its people ever accepted that teaching. In October 1946 the church's Supreme Bishop, Isabelo de los Reyes Jr., met Binsted. On 4 and 5 August 1947 its Supreme Council of Bishops and its General Assembly adopted a Declaration of Faith. Both votes were unanimous. The Declaration confessed the Holy Trinity, as the Apostles' and Nicene Creeds contain it. The church then asked the Episcopal Church in the United States to give its bishops the apostolic succession. In 1961 the two churches approved a concordat of full communion.",
+   "teaser": "A national church born from a break with Rome, which confessed the Trinity in 1947 and entered communion with the Episcopal Church in 1961.",
+   "voices": [
+    "Isabelo de los Reyes Jr. — Supreme Bishop, who sent the church's petition for consecration on 12 August 1947",
+    "The Declaration of Faith of August 1947 — \"Jesus Christ, the only-begotten Son of God, the second Person of the Trinity, very and eternal God\"",
+    "Norman S. Binsted — the Episcopal bishop in the Philippines, who carried the talks of 1946 and 1947",
+    "Pedro S. de Achútegui and Miguel A. Bernad — Jesuit authors of Religious Revolution in the Philippines (1960-66), a study of Aglipay and his church"
+   ],
+   "legacy": "In August 1947 Isabelo de los Reyes Jr. wrote that his church had \"placed itself within the fold of historic Christianity\". The concordat of 1961 joined it in full communion with the Episcopal Church.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Reported only.",
+    "evidence": "anglican.ink, on the Episcopal Church in the Philippines and the IFI marking the concordat's anniversary (20 March 2025): journalism; verification not recorded [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "japanese-christianity-after-1906",
+   "atlasId": "IX.68",
+   "era": 10,
+   "name": "Japanese Christianity after 1906",
+   "shortName": "Japanese Christians",
+   "informalName": "The Kyodan and Japan's other churches",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Japan",
+   "placeLabel": "Japan",
+   "modernCountries": [
+    {
+     "country": "Japan",
+     "countryId": "Q17",
+     "place": "Japan",
+     "placeId": "Q17"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1906, where the entry on the Hidden Christians and the Meiji church ends. The Kyodan, the union of Japan's Protestant churches, is its spine.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good. The Kyodan publishes its Confession of Faith (1954) and its confession on its wartime responsibility (1967). Mark Mullins's study of Japan's indigenous Christian movements (1998) comes from a university press.",
+   "floorNote": "No question for the Kyodan, on a dated text. Its Confession of Faith was enacted on 26 October 1954. It names \"the triune God\", Father, Son and Holy Spirit, and ends with the Apostles' Creed. The other movements in this entry are not assessed here.",
+   "relationsSummary": "It carries on from the entry on the Hidden Christians and the Meiji church, which ends in 1906. That entry names Uchimura Kanzō's Non-Church movement, begun in 1901, and Nikolai's Orthodox mission, dated from 1861. Japan's Orthodox Church belongs to this entry's family, as its Catholics do.",
+   "why": "In wartime the Japanese government demanded that religious bodies unite and support the war. Japan's Protestant leaders used the demand to form one church, the Kyodan. In 1967 the Kyodan confessed that it had approved and supported that war.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "United Church of Christ in Japan (Kyodan), Confession of Faith (enacted 26 October 1954), with its official English translation (1968)",
+     "type": "primary"
+    },
+    {
+     "work": "United Church of Christ in Japan (Kyodan), Confession on the Responsibility of the United Church of Christ in Japan during World War II (Easter, 26 March 1967), with its revised English translation (1982)",
+     "type": "primary"
+    },
+    {
+     "work": "Mark R. Mullins, Christianity Made in Japan: A Study of Indigenous Movements (University of Hawai'i Press, 1998)",
+     "type": "secondary"
+    }
+   ],
+   "longDescription": "In wartime, the Kyodan later wrote, the government demanded that religious bodies unite and cooperate with the war effort. Most Japanese Protestants had long wanted a single evangelical church. Their leaders used the demand to enter a church union, and the Kyodan was formed. It marked its twenty-fifth anniversary in October 1966. On 26 October 1954 its Eighth General Assembly enacted a Confession of Faith. It called the Bible \"the unerring standard of faith and life\", and it confessed the Apostles' Creed. On Easter Sunday, 26 March 1967, its moderator, Suzuki Masahisa, issued a confession on the church's wartime responsibility. The church, it said, \"should not have aligned itself with that war effort\". It asked forgiveness from the peoples of Asia and from their churches. Beside the Kyodan grew Japan's own Christian movements, which Mark Mullins studied in Christianity Made in Japan (1998).",
+   "teaser": "Japan's Christians after 1906, and a Protestant union formed under wartime pressure that in 1967 confessed its part in the war.",
+   "voices": [
+    "Suzuki Masahisa — moderator of the Kyodan, who issued its confession on its wartime responsibility on Easter Sunday, 26 March 1967",
+    "The Kyodan's Confession of Faith (1954) — in Japanese, 「主イエス・キリストによりて啓示せられ、聖書において証せらるる唯一の神は、父・子・聖霊なる、三位一体の神にていましたまふ。」 In the church's official English: \"The One God, revealed by the Lord Jesus Christ, and testified to in the Holy Scripture, being Father, Son and Holy Spirit, is the triune God.\"",
+    "Mark R. Mullins — whose Christianity Made in Japan (1998) studied the country's indigenous Christian movements",
+    "Uchimura Kanzō — whose Non-Church movement dates from 1901"
+   ],
+   "legacy": "In 1967 the Kyodan feared that Japan was \"once again headed in a dangerous direction\". It prayed that it would not repeat its errors.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. No dated item after 2010 was read.",
+    "evidence": "uccj.org publishes both confessions as the church's current standards; the pages carry no date: own voice; verified as pages, undated.",
+    "grade": "none (no dated item after 2010 is in the repo)",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "atlasId": "IX.69",
+   "era": 10,
+   "name": "The Russian Orthodox Church — Council, Patriarchate and Reunion",
+   "shortName": "Russian Orthodoxy",
+   "informalName": "The Moscow Patriarchate",
+   "dates": "1917-c. 2010",
+   "start": 1917,
+   "end": 2010,
+   "region": "Russia",
+   "placeLabel": "Russia",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). It rests on the church's own dated acts, from the Council of 1917–18 to the Act of 2007. Histories by Dimitry Pospielovsky, Nathaniel Davis and Mikhail Shkarovsky carry its Soviet decades. Its window opens in 1917, eleven years after the Synodal Century entry ends.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong. Its own acts are dated and published. They include the Council's definitions of 1917–18, the Basis of the Social Concept of 2000 and the Act of 2007. Pospielovsky (1984), Davis (1995; 2nd ed. 2003), Shkarovsky (1999) and Tatiana Chumachenko (2002) write its history under Soviet rule and after.",
+   "floorNote": "No question. The church confesses the Nicene-Constantinopolitan Creed, as it did in the Synodal Century. The first section of its Basis of the Social Concept (2000) sets out the theology behind its social teaching.",
+   "relationsSummary": "It carries on from the Russian Church's Synodal Century, which ends in 1906. Three other entries tell parts of its story. The Russian New Martyrs and the Catacomb Church tells its persecution, Patriarch Tikhon and the canonizations of 2000. Emigre Orthodoxy and the Paris School tells the emigration. American Orthodoxy tells the autocephaly of the American church in 1970.",
+   "why": "In November 1917 a Local Council of the Russian church restored the patriarchate. It then lived under the Soviet regime until 1991. In August 2000 its bishops adopted a social teaching of their own. In May 2007 it signed an Act of Canonical Communion with the Russian Church Abroad.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Собрание определений и постановлений Священного Собора Православной Российской Церкви 1917–1918 гг. ('Collected definitions and resolutions of the Holy Council of the Orthodox Russian Church, 1917–1918') (Moscow, 1918)",
+     "type": "primary",
+     "note": "Includes the definition of 4 November 1917 that restored the patriarchate, read in full."
+    },
+    {
+     "work": "Основы социальной концепции Русской Православной Церкви ('The Basis of the Social Concept of the Russian Orthodox Church'), adopted by the Bishops' Council, 13–16 August 2000",
+     "type": "primary"
+    },
+    {
+     "work": "Акт о каноническом общении ('Act of Canonical Communion'), Moscow, 17 May 2007, signed by Patriarch Alexy II and Metropolitan Laurus",
+     "type": "primary"
+    },
+    {
+     "work": "Dimitry Pospielovsky, The Russian Church under the Soviet Regime, 1917–1982, 2 vols (St Vladimir's Seminary Press, 1984)",
+     "type": "secondary"
+    },
+    {
+     "work": "Nathaniel Davis, A Long Walk to Church: A Contemporary History of Russian Orthodoxy (Westview, 1995; 2nd ed. 2003)",
+     "type": "secondary",
+     "note": "The second edition adds the post-communist years."
+    },
+    {
+     "work": "М. В. Шкаровский, Русская Православная Церковь при Сталине и Хрущеве ('The Russian Orthodox Church under Stalin and Khrushchev: church-state relations in the USSR, 1939–1964') (Moscow: Krutitsy Patriarchal Metochion, 1999)",
+     "type": "secondary"
+    },
+    {
+     "work": "Tatiana A. Chumachenko, Church and State in Soviet Russia: Russian Orthodoxy from World War II to the Khrushchev Years, ed. and tr. Edward E. Roslof (M. E. Sharpe, 2002)",
+     "type": "secondary",
+     "note": "First published in Russian in 1999; the Russian title is not confirmed."
+    },
+    {
+     "work": "Lucian N. Leustean, ed., Eastern Christianity and the Cold War, 1945–91 (Routledge, 2010)",
+     "type": "secondary"
+    },
+    {
+     "work": "Sébastien Peyrouse, 'Christianity and Nationality in Soviet and Post-Soviet Central Asia: Mutual Intrusions and Instrumentalizations', Nationalities Papers 32.3 (September 2004): 651-674",
+     "type": "secondary",
+     "note": "Abstract read on the Cambridge page. It does not say which church the Orthodox belong to, so this entry claims no canonical link."
+    }
+   ],
+   "longDescription": "A Local Council of the Russian church sat in 1917 and 1918. On 4 November 1917 it restored the patriarchate and ruled that a Patriarch would head the church's government. The church then lived under the Soviet regime. Dimitry Pospielovsky's history follows it from 1917 to 1982. Mikhail Shkarovsky and Tatiana Chumachenko have studied how it dealt with the state under Stalin and Khrushchev. In August 2000 the Bishops' Council adopted the Basis of the Social Concept of the Russian Orthodox Church. Its first section sets out the theology behind the church's social teaching. On 17 May 2007, in Moscow, Patriarch Alexy II and Metropolitan Laurus signed the Act of Canonical Communion. It restored communion between the church in Russia and the Russian Church Abroad. Orthodox Christians also lived in Central Asia. Sébastien Peyrouse (2004) found Orthodox, Catholic, Armenian and Protestant minorities there. Most belong to European minorities that came with Russian colonization in the eighteenth and nineteenth centuries.",
+   "teaser": "Russia, 1917 to 2010 — the church that restored its patriarchate, lived under Soviet rule, and joined again with the Church Abroad in 2007.",
+   "voices": [
+    "The Local Council of 1917–18 — whose definition of 4 November 1917 reads «Восстановляется Патриаршество, и управление церковное возглавляется Патриархом» ('The Patriarchate is restored, and the church's government is headed by the Patriarch'; a close English rendering)",
+    "The Bishops' Council of August 2000 — which adopted the Basis of the Social Concept of the Russian Orthodox Church",
+    "Patriarch Alexy II and Metropolitan Laurus — who signed the Act of Canonical Communion in Moscow on 17 May 2007",
+    "Dimitry Pospielovsky — whose The Russian Church under the Soviet Regime (1984) follows the church from 1917 to 1982",
+    "Mikhail Shkarovsky — whose Russian-language study of 1999 traces church-state relations under Stalin and Khrushchev"
+   ],
+   "legacy": "In 2010 it was a living church. Nathaniel Davis told its contemporary history in A Long Walk to Church (1995). His second edition, of 2003, carried the story past the end of communism. Lucian Leustean's edited volume Eastern Christianity and the Cold War, 1945–91 (2010) reads it beside the other Eastern churches.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. The newest dated acts read are from 2007 and lie inside the era.",
+    "evidence": "Act of Canonical Communion (17 May 2007): own voice, in era; verified. No dated source after 2010 on the church's present was read.",
+    "grade": "none (no dated item after 2010 is in the repo)",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "atlasId": "IX.70",
+   "era": 10,
+   "name": "Polish Catholicism — Wyszyński and John Paul II",
+   "shortName": "Polish Catholicism",
+   "informalName": "The Catholic Church in Poland",
+   "dates": "1918-c. 2010",
+   "start": 1918,
+   "end": 2010,
+   "region": "Poland",
+   "placeLabel": "Poland",
+   "modernCountries": [
+    {
+     "country": "Poland",
+     "countryId": "Q36",
+     "place": "Poland",
+     "placeId": "Q36"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). It rests on the Polish bishops' own dated acts and on histories by Jerzy Kłoczowski and Brian Porter-Szűcs. Its window runs from 1918 to the era's end.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong. The bishops' dated acts are on record, among them the Jasna Góra Vows of 1956 and the letter to the German bishops of 1965. Kłoczowski's history (in Polish 1987–91, in English 2000) and Porter-Szűcs's Faith and Fatherland (2011) carry its story.",
+   "floorNote": "No question. It is the Catholic Church in Poland, which confesses the Creed.",
+   "relationsSummary": "It is a national church inside the Catholic communion. It stands beside the Rome-centered entries on the Catholic Church from Pius X to the Council, and on the parish after the Second Vatican Council. The Greek Catholic churches of the old Polish-Lithuanian lands are a separate line. Lithuania's underground Chronicle of the Catholic Church is also told here.",
+   "why": "In 1956 Cardinal Stefan Wyszyński, interned at Komańcza, wrote the Jasna Góra Vows of the Polish Nation. In November 1965 the Polish bishops wrote to their German brother bishops. Wyszyński and Karol Wojtyła were among the 34 who signed. In June 1979 Wojtyła, by then Pope John Paul II, preached in Warsaw's Victory Square.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Jasnogórskie Śluby Narodu Polskiego ('The Jasna Góra Vows of the Polish Nation'), written by Cardinal Stefan Wyszyński at Komańcza (completed 16 May 1956) and read at Jasna Góra on 26 August 1956",
+     "type": "primary",
+     "note": "Date and setting verified; the text itself is not yet read."
+    },
+    {
+     "work": "Orędzie biskupów polskich do ich niemieckich braci w Chrystusowym urzędzie pasterskim ('Message of the Polish bishops to their German brothers in Christ's pastoral office'), Rome, 18 November 1965",
+     "type": "primary",
+     "note": "Date, drafter and signers verified; the text itself is not yet read."
+    },
+    {
+     "work": "John Paul II, homily in Victory Square (Plac Zwycięstwa), Warsaw, 2 June 1979",
+     "type": "primary",
+     "note": "The words are quoted from Benedict XVI's Warsaw homily of 26 May 2006 (vatican.va); the 1979 text itself is not yet read."
+    },
+    {
+     "work": "Lietuvos Katalikų Bažnyčios Kronika ('Chronicle of the Catholic Church in Lithuania'), 81 issues, 19 March 1972 – 19 March 1989",
+     "type": "primary",
+     "note": "The Chronicle's own archive site."
+    },
+    {
+     "work": "Institute of National Remembrance (IPN), Lublin, brochure on Fr Franciszek Blachnicki",
+     "type": "reference",
+     "note": "The Light-Life movement's beginning and names."
+    },
+    {
+     "work": "Jerzy Kłoczowski, A History of Polish Christianity (Cambridge University Press, 2000); first published as Dzieje chrześcijaństwa polskiego ('History of Polish Christianity'), 2 vols (Paris: Éditions du Dialogue, 1987, 1991)",
+     "type": "secondary"
+    },
+    {
+     "work": "Brian Porter-Szűcs, Faith and Fatherland: Catholicism, Modernity, and Poland (Oxford University Press, 2011)",
+     "type": "secondary"
+    },
+    {
+     "work": "George Weigel, The Final Revolution: The Resistance Church and the Collapse of Communism (Oxford University Press, 1992)",
+     "type": "secondary",
+     "note": "An advocate's account; reviewers are divided on it."
+    },
+    {
+     "work": "Vatican News (Polish), Archbishop Wojda on the 70th anniversary of the Jasna Góra Vows (August 2026)",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history; seen in a search listing, not read."
+    }
+   ],
+   "longDescription": "Cardinal Stefan Wyszyński wrote the Jasna Góra Vows of the Polish Nation while interned at Komańcza. He finished them on 16 May 1956. On 26 August 1956 Bishop Michał Klepacz read them at Jasna Góra. On 18 November 1965, in Rome, the Polish bishops sent a message to their German brother bishops. Archbishop Bolesław Kominek drafted it, and 34 bishops signed it, Wyszyński and Karol Wojtyła among them. On 2 June 1979 Wojtyła, now Pope John Paul II, preached in Victory Square in Warsaw. He prayed for the Spirit to come down and renew the face of the earth, and of this land. A lay renewal grew inside the church too. The Light-Life movement began with a first oasis retreat in 1954, led by Father Franciszek Blachnicki. From 1969 it was called the Movement of the Living Church, and in 1976 it took the name Light-Life. In neighboring Lithuania, Father Sigitas Tamkevičius produced the Chronicle of the Catholic Church in Lithuania at Simnas. Its first issue is dated 19 March 1972, and its 81 issues ran to 19 March 1989.",
+   "teaser": "Poland, 1918 to 2010 — the church of the Jasna Góra Vows, the bishops' letter to Germany and John Paul II's Warsaw homily of 1979.",
+   "voices": [
+    "Stefan Wyszyński — who wrote the Jasna Góra Vows of the Polish Nation while interned at Komańcza, finishing them on 16 May 1956",
+    "Bolesław Kominek — the archbishop who drafted the Polish bishops' message to the German bishops, sent from Rome on 18 November 1965",
+    "John Paul II — whose Warsaw homily of 2 June 1979 prayed «Niech zstąpi Duch Twój i odnowi oblicze ziemi». «Tej ziemi!» ('Let your Spirit come down and renew the face of the earth.' 'Of this land!'; a close English rendering, from the words as Benedict XVI quoted them in Warsaw in 2006)",
+    "Franciszek Blachnicki — the priest who led the first oasis retreat of the Light-Life movement in 1954",
+    "Sigitas Tamkevičius — the priest who produced the Chronicle of the Catholic Church in Lithuania at Simnas from 1972"
+   ],
+   "legacy": "In 2010 it was a living church. Jerzy Kłoczowski told its story as part of the whole history of Polish Christianity. Brian Porter-Szűcs read it through faith, modernity and the nation in Faith and Fatherland (2011).",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. The newest evidence is journalism, seen only in a search listing.",
+    "evidence": "Vatican News (Polish), Archbishop Wojda on the 70th anniversary of the Jasna Góra Vows (August 2026): journalism; search listing only [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "orthodoxy-in-the-communist-balkans",
+   "atlasId": "IX.71",
+   "era": 10,
+   "name": "Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches",
+   "shortName": "Balkan Orthodoxy",
+   "informalName": "The Balkan Orthodox churches under communism",
+   "dates": "1920-c. 2010",
+   "start": 1920,
+   "end": 2010,
+   "region": "Romania, Bulgaria, Serbia, Albania",
+   "placeLabel": "Romania · Bulgaria and beyond",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Romania",
+     "placeId": "Q218"
+    },
+    {
+     "country": "Bulgaria",
+     "countryId": "Q219",
+     "place": "Bulgaria",
+     "placeId": "Q219"
+    }
+   ],
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1) as a family row. Each national church would be Tier 2 on its own. It rests on the dated acts that made each church a patriarchate. It also rests on two edited volumes on the churches under communism. It succeeds the National Churches entry for the Serbian, Romanian, Bulgarian and Albanian churches. That entry ends in 1906. The Church of Greece has its own entry.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Adequate to strong. The founding dates of the Romanian, Serbian and Bulgarian patriarchates are verified from church and press sources. Two edited volumes, from 1988 and 2010, cover the communist decades. The Albanian church's dates so far rest on reference pages only, and each church's own texts are still to be read.",
+   "floorNote": "No question. These are Orthodox churches that confess the Nicene-Constantinopolitan Creed.",
+   "relationsSummary": "It carries on from Orthodoxy after 1821, the National Churches. That entry ends in 1906. The Church of Greece and the Ecumenical Patriarchate have their own entry. Romania's Lord's Army is told in the entry on the persecuted churches of the communist era. It is a renewal movement inside the Romanian church. The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+   "why": "Between 1920 and 1953 three Balkan Orthodox churches became patriarchates. The Serbian church was united in 1920. The Romanian patriarchate was founded in 1925. The Bulgarian patriarchate was restored in 1953. After 1945 all three lived under communist rule.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Romanian Patriarchate, 'Patriarch Miron Cristea' (patriarhia.ro)",
+     "type": "reference",
+     "note": "The Holy Synod's decision of 4 February 1925, the law of 25 February, the Tomos of 30 July and the enthronement of 1 November 1925."
+    },
+    {
+     "work": "«Век од добијања Томоса од Васељенске патријаршије за уједињење СПЦ» ('A century since the Tomos from the Ecumenical Patriarchate for the unification of the Serbian Orthodox Church'), Novosti (Belgrade)",
+     "type": "reference",
+     "note": "The unification of 12 September 1920 and the Tomos of 19 February 1922. Sources differ on the date of Patriarch Dimitrije's election."
+    },
+    {
+     "work": "Statement of the Bulgarian Orthodox Church on the restoration of the patriarchate, 10 May 1953, as reported by OrthoChristian",
+     "type": "reference"
+    },
+    {
+     "work": "CNEWA, 'The Orthodox Church of Albania'",
+     "type": "reference",
+     "note": "A reference page only. The Albanian church's dates are not yet confirmed from a church or scholarly source."
+    },
+    {
+     "work": "Pedro Ramet (now Sabrina P. Ramet), ed., Eastern Christianity and Politics in the Twentieth Century (Duke University Press, 1988)",
+     "type": "secondary"
+    },
+    {
+     "work": "Lucian N. Leustean, ed., Eastern Christianity and the Cold War, 1945–91 (Routledge, 2010)",
+     "type": "secondary",
+     "note": "Includes a chapter on Romania by the editor."
+    },
+    {
+     "work": "Mihail Stanciu, «Importanța mișcării isihaste „Rugul Aprins” în spiritualitatea ortodoxă și în cultura română» ('The importance of the hesychast movement \"Burning Bush\" in Orthodox spirituality and Romanian culture'), Teologie și Educație 23 (2025), 77–103",
+     "type": "secondary"
+    }
+   ],
+   "longDescription": "On 12 September 1920, at Sremski Karlovci, the Serbian Orthodox Church was declared united. Constantinople recognized it in a Tomos, a formal decree, dated 19 February 1922. Its first patriarch was Dimitrije. Sources differ on the date of his election. In Romania the Holy Synod voted for a patriarchate on 4 February 1925. A law followed on 25 February. A Tomos from Constantinople followed on 30 July. Miron Cristea was enthroned as the first patriarch on 1 November 1925. In 1945 the schism between the Bulgarian church and Constantinople was lifted. On 10 May 1953 a church-people's council restored the Bulgarian patriarchate. It elected Kiril of Plovdiv. In Bucharest a prayer movement called the Burning Bush met at the Antim monastery from about 1945. It was outlawed in 1948. Its members were arrested in June 1958 and tried that November. Among them were Sandu Tudor, later Father Daniil, Benedict Ghiuș and Sofian Boghiu.",
+   "teaser": "Romania, Bulgaria, Serbia and Albania, 1920 to 2010 — the Balkan Orthodox churches under communist rule. Three of them became patriarchates between 1920 and 1953.",
+   "voices": [
+    "Miron Cristea — enthroned as the first patriarch of Romania on 1 November 1925",
+    "Dimitrije — the first patriarch of the united Serbian church, whose election the sources date differently",
+    "Kiril of Plovdiv — elected patriarch when the Bulgarian patriarchate was restored on 10 May 1953",
+    "Sandu Tudor (Father Daniil) — of the Burning Bush circle at the Antim monastery, arrested with its members in 1958",
+    "Benedict Ghiuș and Sofian Boghiu — two more members of the Burning Bush circle at the Antim monastery"
+   ],
+   "legacy": "In 2010 these were living churches. Two edited volumes study them under communism. They are Eastern Christianity and Politics in the Twentieth Century (1988) and Eastern Christianity and the Cold War, 1945–91 (2010). The Burning Bush ended with the arrests of 1958.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Family row; the newest evidence is church and press reporting seen only in search listings. The Burning Bush line ended in 1958.",
+    "evidence": "Romanian centenary of the first patriarch's enthronement (Orthodox Times, 2025): journalism; search listing only [S]; Bulgarian Orthodox Church, 70th-anniversary statement on the patriarchate (2023): own voice; search listing only [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "atlasId": "IX.72",
+   "era": 10,
+   "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
+   "shortName": "Greek Orthodoxy",
+   "informalName": "The Church of Greece and the Ecumenical Patriarchate",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "Greece, Istanbul",
+   "placeLabel": "Greece · Istanbul",
+   "modernCountries": [
+    {
+     "country": "Greece",
+     "countryId": "Q41",
+     "place": "Greece",
+     "placeId": "Q41"
+    }
+   ],
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its verified base is thin so far. It has the Zoe brotherhood's founding date, one study of Zoe, and the Joint Declaration of 1965. Its window opens in 1906. That is where the National Churches entry ends.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Adequate for what it tells. The Joint Declaration of 1965 is read from its published text. Amaryllis Logotheti's thesis (2016) studies Zoe, and Lucian Leustean's volume (2010) has a chapter on the Ecumenical Patriarchate. The Patriarchate's life in the Turkish Republic from 1923 to 1971, and the calendar division of 1924, are not yet verified.",
+   "floorNote": "No question. These are Orthodox churches that confess the Nicene-Constantinopolitan Creed.",
+   "relationsSummary": "It carries on from Orthodoxy after 1821, the National Churches. It also carries on from the Kollyvades and Greek renewal. The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry. Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+   "why": "In 1907 a brotherhood of theologians called Zoe was founded in Greece. On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a joint declaration. They lifted the excommunications of 1054. By those sentences Rome and Constantinople had cut each other off.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Joint Catholic-Orthodox Declaration of His Holiness Pope Paul VI and the Ecumenical Patriarch Athenagoras I, 7 December 1965 (vatican.va)",
+     "type": "primary"
+    },
+    {
+     "work": "Αμαρυλλίς Λογοθέτη, Θρησκεία και πολιτική στην μεταπολεμική Ελλάδα: η αδελφότητα «Ζωή» στις αρχές του ψυχρού πολέμου ('Religion and politics in post-war Greece: the brotherhood \"Zoe\" at the beginning of the Cold War'), PhD thesis, Panteion University, 2016",
+     "type": "secondary"
+    },
+    {
+     "work": "Lucian N. Leustean, ed., Eastern Christianity and the Cold War, 1945–91 (Routledge, 2010)",
+     "type": "secondary",
+     "note": "Includes a chapter on the Ecumenical Patriarchate."
+    }
+   ],
+   "longDescription": "In 1907 the Brotherhood of Theologians Zoe, meaning 'Life', was founded in Greece. Amaryllis Logotheti has studied its place in the religion and politics of post-war Greece. That was the start of the Cold War. On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a Joint Catholic-Orthodox Declaration. It lifted the sentences of excommunication. Rome and Constantinople had passed them on each other in 1054. Lucian Leustean's Eastern Christianity and the Cold War, 1945–91 (2010) gives the Ecumenical Patriarchate a chapter of its own.",
+   "teaser": "Greece and Istanbul, 1906 to 2010 — the Church of Greece and its Zoe brotherhood, and the Patriarchate that ended the excommunications of 1054.",
+   "voices": [
+    "Athenagoras I — the Ecumenical Patriarch who issued the Joint Declaration with Paul VI on 7 December 1965",
+    "Paul VI — the pope who, with Athenagoras, lifted the excommunications of 1054",
+    "The Zoe brotherhood — the Brotherhood of Theologians founded in Greece in 1907"
+   ],
+   "legacy": "In 2010 both were living churches. Logotheti reads Zoe in the politics of post-war Greece. Leustean's volume reads the Patriarchate in the Cold War.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. Citation gap only.",
+    "evidence": "No dated source after 2010 on the Church of Greece or the Ecumenical Patriarchate was read.",
+    "grade": "none (no dated item after 2010 is in the repo)",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "the-romanian-greek-catholic-church-suppression-and-return",
+   "atlasId": "IX.73",
+   "era": 10,
+   "name": "The Romanian Greek Catholic Church — Suppression and Return",
+   "shortName": "Romanian United",
+   "informalName": "The Greek Catholic Church of Romania",
+   "dates": "1948-c. 2010",
+   "start": 1948,
+   "end": 2010,
+   "region": "Transylvania (Romania)",
+   "placeLabel": "Transylvania",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "laneLabel": "Greek East / Latin West — bridge",
+   "laneOrder": 3.5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). It rests on the decrees of 1948 and 1989, read through press accounts, and on a study of the neighboring Czechoslovak case. Its window opens in 1948, when the state dissolved the church; no earlier entry carries this church.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Adequate. The decree that dissolved the church in 1948 and the decree-law that restored it in 1989 are verified, with the Holy See's recognition of 1990. A dedicated history of the Romanian church, and the story of its imprisoned bishops, are not yet verified.",
+   "floorNote": "No question. It is an Eastern Catholic church, in communion with Rome.",
+   "relationsSummary": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine. The Orthodox Church of Romania, which received this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
+   "why": "On 1 December 1948 the Romanian state dissolved the Greek Catholic Church by Decree 358. Its property passed to the state, and its churches to the Orthodox church. On 31 December 1989 a decree-law restored it, and on 12 March 1990 the Holy See recognized its metropolitan.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Decree 358 of 1 December 1948 and Decree-Law 9 of 31 December 1989, as reported in Jurnalul Național (jurnalul.ro)",
+     "type": "reference",
+     "note": "The dissolution, the restoration, and the Holy See's recognition of the metropolitan on 12 March 1990."
+    },
+    {
+     "work": "Jaroslav Coranič, 'The Liquidation of the Greek Catholic Church in Communist Czechoslovakia, 1948–50', Journal of Ecclesiastical History 72.3 (2021), 590–610",
+     "type": "secondary",
+     "note": "The neighboring case in Czechoslovakia."
+    },
+    {
+     "work": "Local reporting on Blaj cathedral (2025)",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history; not verified."
+    }
+   ],
+   "longDescription": "Decree 358 of 1 December 1948, published the next day, dissolved the Romanian Greek Catholic Church. Its property passed to the state, and its church buildings to the Orthodox church. For forty-one years it had no legal existence. On 31 December 1989 Decree-Law 9 restored it. On 12 March 1990 the Holy See recognized its metropolitan.",
+   "teaser": "Transylvania, 1948 to 2010 — the Eastern Catholic church that Romania dissolved by decree in 1948 and restored by decree in 1989.",
+   "voices": [
+    "Decree 358 of 1 December 1948 — the state's own act dissolving the church",
+    "Decree-Law 9 of 31 December 1989 — the act that restored it"
+   ],
+   "legacy": "In 2010 it was a living church, legal again since 1989. Its suppression came two years after the Lviv synod that dissolved the Ukrainian Greek Catholic Church in 1946. Two years later, in April 1950, a 'sobor' at Prešov did the same in Czechoslovakia.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. The newest evidence is local journalism, not verified.",
+    "evidence": "Local reporting on Blaj cathedral (2025): journalism; not verified [S].",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+    "group": "L-1"
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "registerEdits": [
+  {
+   "atlasId": "IX.3",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "martyrs include Janani Luwum",
+   "new": "martyrs include Janani Luwum. The revival began in Rwanda. The entry on the Catholic Church in Africa tells of the churches and Rwanda's genocide of 1994.",
+   "ruling": "G-83 (a): relations line in IX.3 naming Rwanda's 1994"
+  },
+  {
+   "atlasId": "IX.3",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Timothy Longman, Christianity and Genocide in Rwanda (Cambridge University Press, 2010)",
+    "type": "secondary",
+    "note": "Its thesis, that church leaders backed the genocide, is contested."
+   },
+   "ruling": "G-83 (a): source for the relations line"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "In the Congo, Simon Kimbangu's ministry began on 18 March 1921 and ended within months before a colonial military court.",
+   "new": "In the Congo, Simon Kimbangu's ministry began on 18 March 1921 and ended within months before a colonial military court. In 1972 Martial Sinda studied Kimbanguism beside Matsouanism, the movement around André Matswa in Congo-Brazzaville.",
+   "ruling": "C12: Matswa named in the Kimbanguist paragraph, with Sinda as its francophone source (A1 flag kept in notes)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "In South Africa, Engenas Lekganyane founded the Zion Christian Church in 1924.",
+   "new": "In South Africa, Engenas Lekganyane founded the Zion Christian Church in 1924. In Uganda, Reuben Spartas Mukasa broke with the Anglicans in January 1929. In 1946 he visited Alexandria and was made the patriarch's trustee, and from then his church was linked to the Greek Orthodox Patriarchate there. In Zimbabwe, the apostolics of Johane Masowe set aside the Bible as a written text. Matthew Engelke studied them in 2007. In Northern Rhodesia, now Zambia, Alice Lenshina's Lumpa Church ended in conflict and a ban in 1964.",
+   "ruling": "G-87 (a): Eastern Orthodoxy in sub-Saharan Africa as a named line in IX.4; C12: Masowe and Lumpa lines"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "voices",
+   "op": "addItem",
+   "old": null,
+   "new": "Reuben Spartas Mukasa — who left the Anglicans in January 1929 and in 1946 was made the trustee of the Greek Orthodox patriarch of Alexandria",
+   "ruling": "G-87 (a)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "voices",
+   "op": "addItem",
+   "old": null,
+   "new": "Alice Lenshina — whose Lumpa Church in Northern Rhodesia was banned in 1964",
+   "ruling": "C12: Lumpa line"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "F. B. Welbourn, East African Rebels: A Study of Some Independent Churches (London: SCM Press, 1961)",
+    "type": "secondary",
+    "note": "Includes Reuben Spartas's church, which became Greek Orthodox."
+   },
+   "ruling": "sources for the IX.4 named lines (G-87 a; C12)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Dictionary of African Christian Biography, 'Spartas, Reuben'",
+    "type": "reference",
+    "note": "His break in January 1929; his visit to Alexandria and appointment as patriarchal trustee in 1946."
+   },
+   "ruling": "sources for the IX.4 named lines (G-87 a; C12)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Andrew Roberts, 'The Lumpa Church of Alice Lenshina', in R. I. Rotberg and A. A. Mazrui, eds., Protest and Power in Black Africa (New York: Oxford University Press, 1970), 513-68",
+    "type": "secondary",
+    "note": "One DACB page gives the year as 1972."
+   },
+   "ruling": "sources for the IX.4 named lines (G-87 a; C12)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Matthew Engelke, A Problem of Presence: Beyond Scripture in an African Church (Berkeley: University of California Press, 2007)",
+    "type": "secondary"
+   },
+   "ruling": "sources for the IX.4 named lines (G-87 a; C12)"
+  },
+  {
+   "atlasId": "IX.4",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Martial Sinda, Le messianisme congolais et ses incidences politiques: kimbanguisme, matsouanisme, autres mouvements (1972)",
+    "type": "secondary",
+    "note": "Title and year verified; publisher not confirmed."
+   },
+   "ruling": "sources for the IX.4 named lines (G-87 a; C12)"
+  },
+  {
+   "atlasId": "IX.46",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
+   "new": "the institutional world built by mainline liberal Protestantism and neo-orthodoxy. In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963, after a conference at Ibadan in 1958. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
+   "ruling": "G-88 (a): the AACC and the moratorium as lines in IX.46"
+  },
+  {
+   "atlasId": "IX.46",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "All Africa Conference of Churches, 'History' (aacc-ceta.org)",
+    "type": "reference",
+    "note": "First General Assembly, Kampala, 20 April 1963, after the 1958 Ibadan conference. The 1963 report, Drumbeats from Kampala, is not confirmed."
+   },
+   "ruling": "G-88 (a): source"
+  },
+  {
+   "atlasId": "IX.46",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "All Africa Conference of Churches, The Struggle Continues: official report of the Third Assembly, Lusaka, 12-24 May 1974; with Christianity Today (November 1974) and the WCC's obituary of John Gatu",
+    "type": "reference",
+    "note": "Gatu first made the call in 1971; where he made it is disputed."
+   },
+   "ruling": "G-88 (a): source"
+  },
+  {
+   "atlasId": "IX.24",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "Graham's evangelistic association was incorporated in 1950.",
+   "new": "Graham's evangelistic association was incorporated in 1950. In 1971 the Kenyan theologian John Gatu called for a moratorium on missionaries. The Lausanne congress of 1974 rejected it.",
+   "ruling": "G-88 (a): the moratorium's rejection as a line in IX.24"
+  },
+  {
+   "atlasId": "IX.24",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Christianity Today, 'What's Behind the Idea of a Missionary Moratorium?' (November 1974); WCC, obituary of John G. Gatu",
+    "type": "reference",
+    "note": "Records the moratorium call and its rejection at Lausanne in 1974."
+   },
+   "ruling": "G-88 (a): source"
+  },
+  {
+   "atlasId": "IX.8",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "At Medellín in 1968 the Latin American bishops met and gave the practice their backing.",
+   "new": "The bishops gave the practice their backing at Medellín in 1968, a meeting told in the entry on Latin American Catholicism.",
+   "ruling": "G-90 (a): Medellín moves to LA-1 as an institutional act; IX.8 keeps a pointer"
+  },
+  {
+   "atlasId": "IX.8",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "continued inside Latin American church life.",
+   "new": "continued inside Latin American church life. The bishops met at Medellín in 1968 and at Puebla in 1979. Those meetings are told in the entry on Latin American Catholicism, the parent of this one.",
+   "ruling": "G-90 (a): the move stated; IX.8 becomes LA-1's child"
+  },
+  {
+   "atlasId": "IX.8",
+   "field": "sources[0].work",
+   "op": "replace",
+   "old": "; Puebla (1979)",
+   "new": "",
+   "ruling": "G-90 (a): Puebla moves to LA-1 (LA-1 carries CELAM III, Documento de Puebla)"
+  },
+  {
+   "atlasId": "IX.7",
+   "field": "regions",
+   "op": "set",
+   "old": [
+    "Mediterranean",
+    "North America",
+    "North Europe"
+   ],
+   "new": [
+    "Mediterranean",
+    "North America",
+    "North Europe",
+    "Latin America"
+   ],
+   "ruling": "G-95 (a): Latin America added to IX.7's regions"
+  },
+  {
+   "atlasId": "IX.7",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "worked out how it and the wider church would live together.",
+   "new": "worked out how it and the wider church would live together. In Brazil the renewal began at Campinas in 1969, brought by the Jesuits Haroldo Rahm and Edward Dougherty. Andrew Chesnut's study of 2003 follows it in Brazil, Mexico and Guatemala.",
+   "ruling": "G-95 (a); G-133 (c): a national wing of the worldwide renewal goes in IX.7"
+  },
+  {
+   "atlasId": "IX.7",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "R. Andrew Chesnut, Competitive Spirits: Latin America's New Religious Economy (Oxford University Press, 2003), ch. 4, 'A Preferential Option for the Spirit: The Catholic Charismatic Renewal'",
+    "type": "secondary",
+    "note": "Focused on Brazil, Mexico and Guatemala."
+   },
+   "ruling": "G-95 (a): source"
+  },
+  {
+   "atlasId": "IX.7",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Revista Plura (Anais), article on the Catholic Charismatic Renewal in Brazil, after Brenda Carranza's dissertation",
+    "type": "reference",
+    "note": "Gives the start at Campinas in 1969 with Haroldo Rahm and Edward Dougherty. Carranza's book (2000) is not confirmed."
+   },
+   "ruling": "G-95 (a): source"
+  },
+  {
+   "atlasId": "IX.15",
+   "field": "region",
+   "op": "set",
+   "old": "N. America, then global",
+   "new": "N. America and Mexico, then global",
+   "ruling": "G-98 (a): Mexico added (no Mexico gazetteer ID in the census, so modernCountries is unchanged)"
+  },
+  {
+   "atlasId": "IX.15",
+   "field": "regions",
+   "op": "set",
+   "old": [
+    "North America"
+   ],
+   "new": [
+    "North America",
+    "Latin America"
+   ],
+   "ruling": "G-98 (a) with G-134 (a)"
+  },
+  {
+   "atlasId": "IX.15",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "published its Articles of Faith in a Manual reissued each year.",
+   "new": "published its Articles of Faith in a Manual reissued each year. In Mexico the Apostolic revival began in 1914. Romanita Carbajal de Valenzuela had become a Pentecostal in Los Angeles, and that year she returned to Villa Aldama in Chihuahua. The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+   "ruling": "G-98 (a): the Iglesia Apostólica as a named line in IX.15"
+  },
+  {
+   "atlasId": "IX.15",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Article on the Iglesia Apostólica de la Fe en Cristo Jesús (Dialnet, 3088702); Apostolic Assembly of the Faith in Christ Jesus, 'Brief History, Los Angeles District' (2024)",
+    "type": "reference",
+    "note": "1914, the founder and Villa Aldama verified; the day of the month is not confirmed. The second is the own text of the US sister church."
+   },
+   "ruling": "G-98 (a): source"
+  },
+  {
+   "atlasId": "IX.20",
+   "field": "region",
+   "op": "set",
+   "old": "Ethiopia, Eritrea",
+   "new": "Ethiopia, Eritrea, Jamaica",
+   "ruling": "G-99 (a): Jamaica added (no Jamaica gazetteer ID in the census, so modernCountries is unchanged)"
+  },
+  {
+   "atlasId": "IX.20",
+   "field": "regions",
+   "op": "set",
+   "old": [
+    "Africa"
+   ],
+   "new": [
+    "Africa",
+    "Latin America"
+   ],
+   "ruling": "G-99 (a) with G-134 (a): the Caribbean takes 'Latin America'"
+  },
+  {
+   "atlasId": "IX.20",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "Eritrea's church became autocephalous in 1993;",
+   "new": "In May 1970 Archimandrite Laike Mariam Mandefro, later Archbishop Yesehaq, established the Ethiopian Orthodox Church in Jamaica. Eritrea's church became autocephalous in 1993;",
+   "ruling": "G-99 (a): the Ethiopian Orthodox Church in the Caribbean as a named line in IX.20"
+  },
+  {
+   "atlasId": "IX.20",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Jamaica Observer, on the culture minister's meeting with the archbishop of the Ethiopian Orthodox Church (2 December 2022)",
+    "type": "reference",
+    "note": "Gives May 1970 and the founder."
+   },
+   "ruling": "G-99 (a): source"
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "describes anything real here.",
+   "new": "describes anything real here. In South India a Pentecostal movement grew through the twentieth century. Michael Bergunder published its history in 2008.",
+   "ruling": "G-113 (a): Indian Pentecostalism a named line in IX.11"
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Michael Bergunder, The South Indian Pentecostal Movement in the Twentieth Century (Eerdmans, 2008)",
+    "type": "secondary"
+   },
+   "ruling": "G-113 (a): Bergunder added to IX.11's sources"
+  },
+  {
+   "atlasId": "IX.23",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "Ecclesia Dei (1988) and Summorum Pontificum (2007).",
+   "new": "Ecclesia Dei (1988) and Summorum Pontificum (2007). After the council, Asia's bishops formed a federation of their own. In 1970, 180 Catholic bishops of Asia met in Manila, and Paul VI was present for its last part. The Federation of Asian Bishops' Conferences, the FABC, dates its birth to that meeting. It traces its roots to the council, where many Asian bishops first came to know one another.",
+   "ruling": "G-114 (a): the FABC a named line in IX.23"
+  },
+  {
+   "atlasId": "IX.23",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Federation of Asian Bishops' Conferences, 'The Beginnings of the FABC' (fabc.org)",
+    "type": "primary",
+    "note": "The federation's own history of its founding meeting in Manila, 1970."
+   },
+   "ruling": "G-114 (a): source for the named line above"
+  },
+  {
+   "atlasId": "IX.37",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "with periodic episodes of persecution.",
+   "new": "with periodic episodes of persecution. Indonesia's Catholics are part of this story too. Karel Steenbrink called the years 1903 to 1942 \"the spectacular growth of a self-confident minority\". Jan Aritonang and Steenbrink's history of 2008 tells the Catholic and Protestant churches together.",
+   "ruling": "G-115 (a): Indonesian Catholics a named line in IX.37"
+  },
+  {
+   "atlasId": "IX.37",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Karel Steenbrink, Catholics in Indonesia, 1808-1942: A Documented History, vol. 2, The Spectacular Growth of a Self-Confident Minority, 1903-1942 (KITLV Press, 2007)",
+    "type": "secondary"
+   },
+   "ruling": "G-115 (a): source for the named line above"
+  },
+  {
+   "atlasId": "IX.48",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "an anomaly by Orthodoxy's own canons.",
+   "new": "an anomaly by Orthodoxy's own canons. Japan's Orthodox Church is told in the entry on Japanese Christianity after 1906.",
+   "ruling": "G-121 (a): cross-referenced from IX.48"
+  },
+  {
+   "atlasId": "IX.22",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "the Optina tradition carried through catastrophe",
+   "new": "the Optina tradition carried through catastrophe. The church's story as an institution has its own entry, the Russian Orthodox Church. That entry runs from the Council of 1917 to the Act of Canonical Communion of 2007.",
+   "ruling": "G-122(a): E1 enters with IX.22 and IX.9 as its named kin; E1 Overlap: 'Each names the other.'"
+  },
+  {
+   "atlasId": "IX.22",
+   "field": "statusDescription",
+   "op": "replace",
+   "old": "Its next chapter, the post-Soviet revival, is a named gap awaiting its own entry.",
+   "new": "The church's story as an institution, before and after 1991, has its own entry, the Russian Orthodox Church.",
+   "ruling": "G-122(a): E1 enters with IX.22 and IX.9 as its named kin; E1 Overlap: 'Each names the other.' The old sentence named a gap that the new row now fills (V2.0 D-P2)."
+  },
+  {
+   "atlasId": "IX.22",
+   "field": "legacy",
+   "op": "replace",
+   "old": "; what happened to it after 1991 is a further story this map names as a gap rather than pretending to cover.",
+   "new": ". Its story as an institution has its own entry, the Russian Orthodox Church.",
+   "ruling": "G-122(a): E1 enters with IX.22 and IX.9 as its named kin; E1 Overlap: 'Each names the other.' The old clause named a gap that the new row now fills; it was also map commentary in participant copy."
+  },
+  {
+   "atlasId": "IX.9",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "Much of English-speaking Orthodoxy in the twentieth century descended from this Paris generation.",
+   "new": "Much of English-speaking Orthodoxy in the twentieth century descended from this Paris generation. The church the émigrés left behind in Russia has its own entry, the Russian Orthodox Church.",
+   "ruling": "G-122(a): E1 enters with IX.22 and IX.9 as its named kin; E1 Overlap: 'Each names the other.'"
+  },
+  {
+   "atlasId": "IX.21",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "a continuation of the Union of Brest.",
+   "new": "a continuation of the Union of Brest. The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+   "ruling": "G-129(a): a new row for the Romanian church, the other two (Prešov, Mukachevo) as IX.21 lines. Prešov drafted (Coranič, V); Mukachevo not drafted (V-s only)."
+  },
+  {
+   "atlasId": "IX.21",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "which is not what the state had been counting on.",
+   "new": "which is not what the state had been counting on. In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950. A 'sobor' met at Prešov on 28 April 1950, in an operation called 'Action P'.",
+   "ruling": "G-129(a): a new row for the Romanian church, the other two (Prešov, Mukachevo) as IX.21 lines. Prešov drafted (Coranič, V); Mukachevo not drafted (V-s only)."
+  },
+  {
+   "atlasId": "IX.21",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Jaroslav Coranič, 'The Liquidation of the Greek Catholic Church in Communist Czechoslovakia, 1948–50', Journal of Ecclesiastical History 72.3 (2021), 590–610",
+    "type": "secondary",
+    "note": "The Prešov 'sobor' of 28 April 1950."
+   },
+   "ruling": "G-129(a): a new row for the Romanian church, the other two (Prešov, Mukachevo) as IX.21 lines. Prešov drafted (Coranič, V); Mukachevo not drafted (V-s only)."
+  },
+  {
+   "atlasId": "IX.46",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "The Roman Catholic Church was not, and worked with it in other ways.",
+   "new": "The Roman Catholic Church was not, and worked with it in other ways. In the Middle East, the Middle East Council of Churches held its first assembly at Nicosia from 28 to 30 May 1974.",
+   "ruling": "G-141(a): place the MECC (1974; Catholics from 1990) as a named line in IX.46 now. The 1990 Catholic entry is V-s and is not drafted."
+  },
+  {
+   "atlasId": "IX.46",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Middle East Council of Churches, 'The Birth of the Middle East Council of Churches' (mecc.org, 13 August 2020)",
+    "type": "reference",
+    "note": "The inaugural assembly at Nicosia, 28–30 May 1974."
+   },
+   "ruling": "G-141(a): place the MECC (1974; Catholics from 1990) as a named line in IX.46 now. The 1990 Catholic entry is V-s and is not drafted."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "dates",
+   "op": "set",
+   "old": "1950s-c. 2010",
+   "new": "1910-c. 2010",
+   "ruling": "G-135(a)/(c): IX.11's date range fixed as a data error, whatever G-91 rules: the row's own copy dates the Pará voyage from November 1910 and the Assembleias de Deus from 1911."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "start",
+   "op": "set",
+   "old": 1950,
+   "new": 1910,
+   "ruling": "G-135(a)/(c): IX.11's date range fixed as a data error, whatever G-91 rules: the row's own copy dates the Pará voyage from November 1910 and the Assembleias de Deus from 1911."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "teaser",
+   "op": "replace",
+   "old": "Brazil, Nigeria, Ghana, Korea and the Philippines, 1950s to 2010 —",
+   "new": "Brazil, Nigeria, Ghana and Korea, 1910 to 2010 —",
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once'). G-135(a)/(c): IX.11's date range fixed as a data error, whatever G-91 rules: the row's own copy dates the Pará voyage from November 1910 and the Assembleias de Deus from 1911."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "region",
+   "op": "set",
+   "old": "Brazil, Nigeria, Ghana, Korea, Philippines",
+   "new": "Brazil, Nigeria, Ghana, Korea",
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "the Igreja Universal in Brazil from 1977; El Shaddai in the Philippines from 1984.",
+   "new": "and the Igreja Universal in Brazil from 1977.",
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "Child of Azusa + AIC lines; the century's growing edge",
+   "new": "Child of Azusa + AIC lines; the century's growing edge. El Shaddai, a Catholic movement founded in the Philippines by Mike Velarde in 1984, is told in the entry on Philippine Catholicism.",
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "voices",
+   "op": "removeItem",
+   "old": "Mike Velarde — founder of El Shaddai in the Philippines in 1984",
+   "new": null,
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
+  },
+  {
+   "atlasId": "IX.11",
+   "field": "sources.work",
+   "op": "replace",
+   "old": "; Igreja Universal (1977–, Macedo); El Shaddai (1984, Velarde)",
+   "new": "; Igreja Universal (1977–, Macedo)",
+   "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "longDescription",
+   "op": "replace",
+   "old": "Its own internal arguments, including",
+   "new": "In 1911 Ferdinand and Ana Stahl joined Manuel Camacho at Utawilaya, in Platería district, Puno province, on the Peruvian side of Lake Titicaca. Camacho, an Indigenous visionary, was among the first Adventist converts. He had opened a free school in his home about 1902. The Stahls lived in an adobe building that served as a school on weekdays and a place of worship on Sabbaths. Its own internal arguments, including",
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "voices",
+   "op": "addItem",
+   "old": null,
+   "new": "Manuel Camacho — an Indigenous visionary who opened a free school at Utawilaya about 1902 and joined the Stahls in 1911",
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "sources",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "work": "Charles Teel, Jr., 'Las raíces radicales del adventismo en el altiplano peruano' ('The radical roots of Adventism on the Peruvian altiplano'), Allpanchis 33 (1989): 209-248",
+    "type": "secondary",
+    "note": "Read in full text. This is the Spanish article behind the Spectrum and Adventist Heritage pieces by the same author."
+   },
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "region",
+   "op": "set",
+   "old": "N. America, then global",
+   "new": "N. America and Peru, then global",
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "placeLabel",
+   "op": "set",
+   "old": "N. America and beyond",
+   "new": "N. America · Peru and beyond",
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  },
+  {
+   "atlasId": "IX.44",
+   "field": "modernCountries",
+   "op": "addItem",
+   "old": null,
+   "new": {
+    "country": "Peru",
+    "countryId": "Q419",
+    "place": "Peru",
+    "placeId": "Q419"
+   },
+   "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
+  }
+ ],
+ "notes": {
+  "afla": {
+   "scope": "P2-E10h, Africa (record section 3; G-80 to G-89) and Latin America and the Caribbean (record section 4; G-90 to G-101), plus IX.7's Latin America line under G-133 (c) and the Caribbean region value under G-134 (a). atlasIds are TBD for the coordinator.",
+   "rowsDrafted": {
+    "the-catholic-church-in-africa-twentieth-century": "C1 (G-80 c; G-83 a; G-88 a; C11)",
+    "the-church-struggle-against-apartheid": "C2 (G-81 a)",
+    "sudanese-christianity-through-the-civil-wars": "C7 (G-86 a)",
+    "latin-american-catholicism-twentieth-century": "LA-1 (G-90 a; G-93 fallback b)",
+    "protestantism-in-latin-america": "LA-5 (G-94 a; G-101 a)"
+   },
+   "notDrafted": [
+    "C12 Shembe (Nazareth Baptist Church): no evidence item is marked verified (Hexham [S]; the BU biography is 'seen' but not marked verified; the record does not say Sundkler 1948 treats Shembe). Not drafted.",
+    "C12 Legio Maria: no verified item, and an open A1 question. Not drafted.",
+    "C12 Chilembwe and Toko: every item [S]. Not drafted. Kitawala out of scope per the record.",
+    "C1 named lines Milingo and Sant'Egidio Mozambique: both [S]. Not drafted.",
+    "G-81 (a) asks for the TRC faith-community hearings as a dated later event in C2's legacy; the TRC item is [S]. Not drafted.",
+    "G-84 (a) names the Church of Pentecost as an IX.11 line, but C5's class is hold and the Church of Pentecost evidence is [S] (church site and an abstract only). Not drafted.",
+    "G-91 (a) with G-132 (b): the Pará story moves out of IX.11 only when LA-2 enters; LA-2 is 'enter once', so nothing moves now.",
+    "G-135 (c) asks for IX.11's date mismatch ('1950s-c. 2010' against the Assembleias de Deus 'from 1911') to be fixed whatever G-91 rules, but the ruling does not state the new value (start 1911, or the copy reworded). Left for the coordinator; not drafted.",
+    "IX.52: no ruled option in this slice places a line in IX.52. G-86 (a) chose C7's own row over IX.52 lines, and the Tutu and Sudan-province items are [S]."
+   ],
+   "flags": [
+    "C7: its window (1955-2005) is the ruled option, but both bounds rest on [S] items (first civil war 1955, Comprehensive Peace Agreement 2005), as do its church bodies, the 1964 expulsion and the Dinka hymns. The history text uses only the two verified books, so it is thin; the dates and the wars need a verify pass before C7 is applied. The name follows the record.",
+    "C1: lane is a new 4<->5 bridge ('4<->5 bridge (Africa / Latin West)', laneOrder 4.5), per G-80 (c). No row in the census uses 4.5 yet; the atlas builds lanes from laneOrder, so a new lane key appears. Check its label and drawing.",
+    "LA-1: G-93 rules (a) once the Liga's text is staged, with (b), a named line inside LA-1, as the fallback until then. The Cristero line is drafted into LA-1 on that fallback, on verified items only (LA-4 items 1-3).",
+    "LA-1: the name drops the record's 'from the Mexican Revolution to Aparecida', because the 1917 Constitution, Santo Domingo 1992 and Aparecida 2007 are all [S]. Medellín and Puebla quotations are not used: the record says the OCR wording must be rechecked against an edition.",
+    "G-90 (a): IX.8 keeps the communities' backing at Medellín as one pointer sentence; Puebla leaves IX.8's source line; the conferences are told in LA-1. The IX.8 why field still says 'a practice the bishops backed at Medellín in 1968' and is left as the communities' side of the act.",
+    "C8 (G-87 a): the record asks for a 'flag for the Orthodox river'. The line is in IX.4 (lane 4); a future lane 3 row waits for Greek and Luganda sources.",
+    "C12 Matswa: the line names Matsouanism only as Sinda's subject beside Kimbanguism, not as a church, because the record flags an A1 question on its religious status.",
+    "IX.4: the new lines reach Uganda, Zimbabwe and Zambia, outside its region text 'W. & S. Africa, Congo'. The region is not changed, since no ruling names it.",
+    "SUP-7 (G-142 a, supplementary slice) places named lines in LA-1 (Proaño) and LA-5 (FEINE, the SIL). They are not drafted here; whoever drafts SUP-7 needs these two new rows.",
+    "Edges are not drafted (not in the brief). Likely links for the coordinator: VIII.48 -> LA-1 (continued as), LA-1 -> IX.8 (gave rise to), VIII.43 -> C1 (continued as, Catholic half), C2 compare IX.6 ('in contact with' is the nearest type; the record says 'a compare edge, not descent').",
+    "Other drafters may edit IX.24 and IX.46 in the same release; each 'old' here is checked against the current branch census only."
+   ],
+   "checks": [
+    "Every 'old' checked as an exact, single substring of the current branch census twice: apply.py (Python str.count) and a separate node script. 31 edits, 0 misses.",
+    "Applied to a scratch copy (census-applied.json) with temporary atlasIds IX.T1 to IX.T5 for the five TBD rows, meta.totalEntries 307 -> 312 and Pre-Survey Candidate 226 -> 231. node tools/validate-census.mjs census-applied.json --atlas cft-website/index.html: 0 errors, 2 warnings (both pre-existing shortName warnings on other rows).",
+    "Readability (engine/m7/readability.py, why + longDescription + legacy + relationsSummary + statusDescription + teaser per row): C1 FK 8.66 / FRE 55.4; C2 FK 8.85 / FRE 54.9; C7 FK 8.94 / FRE 56.7; LA-1 FK 8.51 / FRE 56.6; LA-5 FK 9.75 / FRE 47.6; added register-edit text FK 9.96 / FRE 46.4. No sentence over 25 words. FRE sits below 60 in every row, mostly from institution and personal names.",
+    "American spelling: tools/check_spelling.py on trace.md, 0 found."
+   ],
+   "gazetteer": [
+    "Not in the census gazetteer, so left out of modernCountries: DR Congo (Zaire), Cameroon (C1); South Africa (C2); South Sudan (C7); Mexico, Colombia (LA-1); Panama, Guatemala, Colombia, Bolivia, Mexico (LA-5; Peru is in the gazetteer but not on LA-5's place label); Mexico (IX.15); Jamaica (IX.20).",
+    "Sudan (C7) uses Q1049 as both countryId and placeId; Q1049 is already used in the census as a countryId."
+   ]
+  },
+  "asia": {
+   "base": "cic-website/data/world-census.json on claude/era10-global-sweep, data release 24 (2026-11-09), 307 movements",
+   "ruling": "Decision-Log 2026-11-09, 'ERA 10 GLOBAL SWEEP GATE: Mark rules all 71 questions'; record CiC_Step0_Era10_GlobalSweep_V1_0.md §5 and §7 (G-102 to G-121), with G-132 (b) and G-133 (c) where they touch this slice",
+   "tempAtlasIds": {
+    "IX.T1": "korean-protestantism-twentieth-century",
+    "IX.T2": "chinese-catholicism-twentieth-century",
+    "IX.T3": "philippine-catholicism-twentieth-century",
+    "IX.T4": "philippine-independent-church-twentieth-century",
+    "IX.T5": "japanese-christianity-after-1906"
+   },
+   "tempAtlasIdsNote": "atlasId is 'TBD' on every new row. The scratch census used IX.T1 to IX.T5 in the order above, for the validator only.",
+   "metaEdits": "Applying the five rows needs meta.totalEntries 307 to 312 and statusCounts['Pre-Survey Candidate'] 226 to 231 (the scratch copy does this).",
+   "editOps": {
+    "replace": "old is an exact substring of the field, found once in the census; new replaces it.",
+    "removeItem": "old is an exact item of the list; the item is removed.",
+    "addItem": "new is appended to the list; old is null.",
+    "sources.work": "replace inside the work string of the one source whose work holds old."
+   },
+   "kind": "All five rows are church bodies (or one national church family) and carry no kind field, as the census does for church bodies.",
+   "countriesLeftOut": "China: no China gazetteer ID (Q148) is used anywhere in the census, so the Chinese Catholic row has modernCountries []. Timor-Leste is used (Q574) but no Timor-Leste line was drafted.",
+   "notDrafted": [
+    "Minjung theology as a named line in the Korean Protestant row (G-102 (a), G-118 (a)): its only evidence item, the CTC-CCA volume Minjung Theology (1981/1983), is [S]. No sentence drafted; the line waits for that volume to be verified.",
+    "Timor-Leste Catholics as a named line in IX.37 (G-115 (a)): Hodge 2013 is [S] beyond its summary, and Belo's 1996 Nobel Prize and the baptized-share figures have no evidence item. No sentence drafted.",
+    "The Japanese Orthodox Church's history after 1906 (G-121 (a)): Nikolai's death (1912) and the Moscow autonomy of 10 April 1970 rest only on [S] items (an encyclopedia mirror; Wikipedia/OrthodoxWiki). The Japan row carries the line as a pointer only, on census text (Nikolai's mission, from the Meiji entry), and IX.48 carries a pointer back. The 1970 link to IX.48's tomos is NOT stated.",
+    "Catholics as a named line in the Japan row (G-110 (a)): Hiroshima and Nagasaki Catholics are [S]. Named in one scope sentence only, with no history.",
+    "Mukyōkai: carried only as a voice line resting on census text (the Meiji entry dates it from 1901). The Spirit of Jesus Church (record: assessed separately for the floor) is not named.",
+    "Uniting Church in Australia as a named line in IX.46, and Hillsong in IX.11 or IX.30 (G-116 (a)): the Basis of Union and Blacket are [S], the 1977 inauguration has no evidence item, and Hillsong has no verified item at all. Breward 2001 is verified only as a survey. Not drafted.",
+    "GS-A2's named lines (Dalit mass movements, G-104 (a); the ashram movement, G-117 (a)): GS-A2 is 'enter once', so there is no row to place them in yet.",
+    "The El Shaddai date and founder (1984, Mike Velarde) are moved, not re-drafted: the voice line and the source move verbatim from IX.11. The record marks the date [S]; it rests on census text only."
+   ],
+   "overlapWithOtherDrafters": [
+    "IX.11 is also edited by the G-132 (b) narrowing drafter. This slice's IX.11 edits are small and separate: remove '; El Shaddai in the Philippines from 1984.' from longDescription; remove the Velarde voice; remove '; El Shaddai (1984, Velarde)' from sources[0].work; add one cross-reference sentence to relationsSummary; add two Indian Pentecostal sentences after 'describes anything real here.' and Bergunder to sources (G-113 (a)). If the narrowing drafter rewrites longDescription or relationsSummary whole, merge these in by hand.",
+    "IX.11 still names the Philippines in region ('Brazil, Nigeria, Ghana, Korea, Philippines') and teaser. With El Shaddai gone it holds no Philippine body; whether the Philippines leaves its region and teaser is the G-132 (b) narrowing's call, not drafted here."
+   ],
+   "rulingNotes": [
+    "G-105 (a), IX.5: IX.5 contains no Catholic material (zero occurrences of 'Catholic') and the ruled option does not change its lane, so no IX.5 edit is needed. The Chinese Catholic row's relationsSummary states the division of subject.",
+    "G-114 (a): the FABC is a named line only. Greater Asia is NOT added to IX.23's regions; the record made that 'only if Mark wants', and the ruled option does not include it.",
+    "G-133 (c): El Shaddai goes to the Philippine Catholic row (a movement with its own founder, founding and name), not IX.7.",
+    "Names: the Philippine row is named 'Philippine Catholicism in the Twentieth Century', not the record's working title with 'martial law, EDSA and El Shaddai', because no verified item carries martial law or EDSA (the CBCP 1986 statement and PCP-II are [S]). The Japan row is 'Japanese Christianity after 1906' for the same reason (Catholics and indigenous churches thin). The Chinese row keeps the record's title.",
+    "Lanes: Japan in lane 6 as the record says (VIII.45 is in lane 5; the record's Lane line governs). IFI on the 5<->6 bridge as the census encodes it."
+   ],
+   "recordCorrections": [
+    "GS-A1: the record says the first presbytery 'adopts the Twelve Articles on 17 September 1907'. Kim 2019, the verified item (thesis pp. 10-11), says the 1907 adoption was probationary, for a year of study; full adoption is not recorded in the minutes (Kim argues 1908, others 1910). The draft says 'took them up for a year of study'.",
+    "GS-A1: the place 'at 장대현교회, Pyongyang' is [S] and is not used; the thesis does not name the meeting place in the passage read.",
+    "GS-A4: the item listed as 'Pius XII, Quotidie Nos, 11 April 1946' at hsstudyc.org.hk is an article by Sergio Ticozzi PIME of the Holy Spirit Study Centre, not the bull's text. It verifies the 1946 hierarchy and also the 1957 assembly (17 July-2 August, Beijing; CCPA statutes), which the record had only as [S]. The draft cites it as Ticozzi's article.",
+    "GS-A7: the concordat page (episcopalchurch.org) now returns 404; the record verified it in its own run. Not re-verified here.",
+    "GS-A9: uccj.org carries the church's own official English of both confessions (1968 and 1982). The draft quotes those, not the record's own renderings; the Japanese of the 1954 confession is the record's verified quote (furigana removed)."
+   ],
+   "verification": "Reading in this draft, of URLs the record already lists as verified: uccj.org/faith, uccj.org/confession, anglicanhistory.org correspondence1947, the hsstudyc.org.hk PDF, the vatican.va Ad Apostolorum Principis page, fabc.org/history; and the record's downloaded Kim thesis (gs-asia/dl1/kim.txt). Raw copies are in dl/. Every quotation in new text was checked against those copies by script, except two book titles (Moreno, Steenbrink), which are the record's verified bibliographic items.",
+   "livingMarks": "All five rows living: true. Four are CR on items whose verification the record did not state (marked 'verification not recorded [S]'); the Japan row is 'none' per Round 1 S4. Each CR item is mirrored in sources[] with 'Evidence for the living mark only, not for the history.'",
+   "readability": [
+    {
+     "atlasId": "IX.T1",
+     "field": "statusDescription",
+     "m": {
+      "scored": false,
+      "words": 28,
+      "sentences": 3
+     },
+     "words": 30
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "sourcing",
+     "m": {
+      "scored": true,
+      "words": 41,
+      "sentences": 4,
+      "fk_grade": 7.4,
+      "fre": 60.25
+     },
+     "words": 45
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "floorNote",
+     "m": {
+      "scored": true,
+      "words": 52,
+      "sentences": 4,
+      "fk_grade": 5.36,
+      "fre": 79.76
+     },
+     "words": 54
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "relationsSummary",
+     "m": {
+      "scored": true,
+      "words": 35,
+      "sentences": 3,
+      "fk_grade": 6.83,
+      "fre": 66.88
+     },
+     "words": 39
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "why",
+     "m": {
+      "scored": false,
+      "words": 29,
+      "sentences": 3
+     },
+     "words": 33
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "longDescription",
+     "m": {
+      "scored": true,
+      "words": 124,
+      "sentences": 9,
+      "fk_grade": 10.05,
+      "fre": 47.53
+     },
+     "words": 133
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "teaser",
+     "m": {
+      "scored": false,
+      "words": 17,
+      "sentences": 1
+     },
+     "words": 18
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "legacy",
+     "m": {
+      "scored": false,
+      "words": 24,
+      "sentences": 2
+     },
+     "words": 24
+    },
+    {
+     "atlasId": "IX.T1",
+     "field": "NARRATIVE",
+     "m": {
+      "scored": true,
+      "words": 229,
+      "sentences": 18,
+      "fk_grade": 9.21,
+      "fre": 51.69
+     },
+     "words": 247
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "statusDescription",
+     "m": {
+      "scored": false,
+      "words": 23,
+      "sentences": 3
+     },
+     "words": 27
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "sourcing",
+     "m": {
+      "scored": true,
+      "words": 34,
+      "sentences": 4,
+      "fk_grade": 5.77,
+      "fre": 68.82
+     },
+     "words": 38
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "floorNote",
+     "m": {
+      "scored": true,
+      "words": 42,
+      "sentences": 4,
+      "fk_grade": 7.61,
+      "fre": 59.21
+     },
+     "words": 43
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "relationsSummary",
+     "m": {
+      "scored": false,
+      "words": 25,
+      "sentences": 2
+     },
+     "words": 25
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "why",
+     "m": {
+      "scored": true,
+      "words": 49,
+      "sentences": 4,
+      "fk_grade": 8.69,
+      "fre": 54.55
+     },
+     "words": 51
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "longDescription",
+     "m": {
+      "scored": true,
+      "words": 147,
+      "sentences": 14,
+      "fk_grade": 9.05,
+      "fre": 48.85
+     },
+     "words": 163
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "teaser",
+     "m": {
+      "scored": false,
+      "words": 18,
+      "sentences": 1
+     },
+     "words": 19
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "legacy",
+     "m": {
+      "scored": true,
+      "words": 37,
+      "sentences": 3,
+      "fk_grade": 6.76,
+      "fre": 68.56
+     },
+     "words": 38
+    },
+    {
+     "atlasId": "IX.T2",
+     "field": "NARRATIVE",
+     "m": {
+      "scored": true,
+      "words": 276,
+      "sentences": 24,
+      "fk_grade": 8.69,
+      "fre": 53.24
+     },
+     "words": 296
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "statusDescription",
+     "m": {
+      "scored": false,
+      "words": 20,
+      "sentences": 2
+     },
+     "words": 22
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "sourcing",
+     "m": {
+      "scored": true,
+      "words": 30,
+      "sentences": 3,
+      "fk_grade": 9.55,
+      "fre": 44.41
+     },
+     "words": 32
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "floorNote",
+     "m": {
+      "scored": false,
+      "words": 9,
+      "sentences": 2
+     },
+     "words": 9
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "relationsSummary",
+     "m": {
+      "scored": true,
+      "words": 35,
+      "sentences": 3,
+      "fk_grade": 11.21,
+      "fre": 35.46
+     },
+     "words": 37
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "why",
+     "m": {
+      "scored": true,
+      "words": 37,
+      "sentences": 3,
+      "fk_grade": 8.36,
+      "fre": 57.13
+     },
+     "words": 38
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "longDescription",
+     "m": {
+      "scored": true,
+      "words": 99,
+      "sentences": 8,
+      "fk_grade": 9.62,
+      "fre": 48.15
+     },
+     "words": 102
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "teaser",
+     "m": {
+      "scored": false,
+      "words": 18,
+      "sentences": 1
+     },
+     "words": 19
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "legacy",
+     "m": {
+      "scored": false,
+      "words": 25,
+      "sentences": 2
+     },
+     "words": 25
+    },
+    {
+     "atlasId": "IX.T3",
+     "field": "NARRATIVE",
+     "m": {
+      "scored": true,
+      "words": 214,
+      "sentences": 17,
+      "fk_grade": 10.22,
+      "fre": 44.23
+     },
+     "words": 221
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "statusDescription",
+     "m": {
+      "scored": true,
+      "words": 33,
+      "sentences": 3,
+      "fk_grade": 4.79,
+      "fre": 80.31
+     },
+     "words": 36
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "sourcing",
+     "m": {
+      "scored": true,
+      "words": 47,
+      "sentences": 4,
+      "fk_grade": 6.57,
+      "fre": 68.91
+     },
+     "words": 48
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "floorNote",
+     "m": {
+      "scored": true,
+      "words": 38,
+      "sentences": 4,
+      "fk_grade": 6.75,
+      "fre": 63.61
+     },
+     "words": 41
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "relationsSummary",
+     "m": {
+      "scored": true,
+      "words": 39,
+      "sentences": 3,
+      "fk_grade": 7.94,
+      "fre": 61.32
+     },
+     "words": 42
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "why",
+     "m": {
+      "scored": true,
+      "words": 47,
+      "sentences": 3,
+      "fk_grade": 10.61,
+      "fre": 46.93
+     },
+     "words": 48
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "longDescription",
+     "m": {
+      "scored": true,
+      "words": 149,
+      "sentences": 10,
+      "fk_grade": 10.97,
+      "fre": 42.95
+     },
+     "words": 156
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "teaser",
+     "m": {
+      "scored": false,
+      "words": 22,
+      "sentences": 1
+     },
+     "words": 24
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "legacy",
+     "m": {
+      "scored": true,
+      "words": 32,
+      "sentences": 3,
+      "fk_grade": 7.75,
+      "fre": 58.53
+     },
+     "words": 34
+    },
+    {
+     "atlasId": "IX.T4",
+     "field": "NARRATIVE",
+     "m": {
+      "scored": true,
+      "words": 289,
+      "sentences": 20,
+      "fk_grade": 10.05,
+      "fre": 48.73
+     },
+     "words": 304
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "statusDescription",
+     "m": {
+      "scored": true,
+      "words": 31,
+      "sentences": 3,
+      "fk_grade": 6.71,
+      "fre": 65.35
+     },
+     "words": 33
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "sourcing",
+     "m": {
+      "scored": false,
+      "words": 28,
+      "sentences": 3
+     },
+     "words": 31
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "floorNote",
+     "m": {
+      "scored": true,
+      "words": 43,
+      "sentences": 4,
+      "fk_grade": 6.17,
+      "fre": 70.01
+     },
+     "words": 45
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "relationsSummary",
+     "m": {
+      "scored": true,
+      "words": 46,
+      "sentences": 3,
+      "fk_grade": 9.37,
+      "fre": 55.18
+     },
+     "words": 47
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "why",
+     "m": {
+      "scored": true,
+      "words": 38,
+      "sentences": 3,
+      "fk_grade": 9.22,
+      "fre": 51.49
+     },
+     "words": 39
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "longDescription",
+     "m": {
+      "scored": true,
+      "words": 138,
+      "sentences": 10,
+      "fk_grade": 10.14,
+      "fre": 46.92
+     },
+     "words": 143
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "teaser",
+     "m": {
+      "scored": false,
+      "words": 19,
+      "sentences": 1
+     },
+     "words": 21
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "legacy",
+     "m": {
+      "scored": false,
+      "words": 23,
+      "sentences": 2
+     },
+     "words": 24
+    },
+    {
+     "atlasId": "IX.T5",
+     "field": "NARRATIVE",
+     "m": {
+      "scored": true,
+      "words": 264,
+      "sentences": 19,
+      "fk_grade": 9.54,
+      "fre": 51.41
+     },
+     "words": 274
+    },
+    {
+     "atlasId": "IX.11",
+     "field": "ADDED",
+     "m": {
+      "scored": true,
+      "words": 31,
+      "sentences": 3,
+      "fk_grade": 11.66,
+      "fre": 29.88
+     },
+     "words": 32
+    },
+    {
+     "atlasId": "IX.23",
+     "field": "ADDED",
+     "m": {
+      "scored": true,
+      "words": 59,
+      "sentences": 4,
+      "fk_grade": 8.36,
+      "fre": 61.38
+     },
+     "words": 61
+    },
+    {
+     "atlasId": "IX.37",
+     "field": "ADDED",
+     "m": {
+      "scored": true,
+      "words": 35,
+      "sentences": 3,
+      "fk_grade": 10.87,
+      "fre": 37.88
+     },
+     "words": 37
+    },
+    {
+     "atlasId": "IX.48",
+     "field": "ADDED",
+     "m": {
+      "scored": false,
+      "words": 12,
+      "sentences": 1
+     },
+     "words": 13
+    }
+   ],
+   "validator": "node tools/validate-census.mjs world-census.scratch.json --atlas cft-website/index.html: 312 movements, 578 edges, 10 eras, 0 errors, 2 warnings (both pre-existing shortName warnings on other rows; the base census has the same 2)."
+  },
+  "east": {
+   "rowsDrafted": {
+    "E1": "Drafted (G-122(a)). Name changed from the record's 'Council, Patriarchate and Revival' to 'Council, Patriarchate and Reunion': no verified item in the record supports the post-Soviet revival of parishes and monasteries (B3 lists it; the 1988 Council is V-t only), while the 2007 Act is V. Restore the record's name if a dated revival source is staged. Not told, for want of a verified item: Tikhon's election (V-s), the 1943 settlement and 1945 Council, the 1958-64 campaign, the 1971 and 1988 Councils, Kirill's 2009 election. Living grade set to 'none': the record says CR, but its own Living line says no dated present-day item was opened, and R3 (and the census) grade that 'none'.",
+    "E2": "Drafted (G-123(a)). Name shortened to 'Polish Catholicism — Wyszyński and John Paul II': no evidence item in the record mentions Solidarity, so the copy cannot tell it and the name should not promise it. Popiełuszko (a ruled named line) is not drafted: only 'killed October 1984' with the exact date [S]; no evidence item carries it. Light-Life drafted on its three verified marks (the IPN brochure, V); Derewenda 2010 (V-s) left out. John Paul II's 1978 election has no evidence item; the copy only calls Wojtyła 'by then Pope John Paul II' at the 1979 homily (V-q). Weigel is in sources only, with the record's 'advocacy-positioned' note.",
+    "E12": "Drafted inside E2, as G-123(a)'s ruled text reads ('A Polish church row ... with Lithuania as a named line (E12)'). E12's own recommendation said 'inside E2 if the Polish row widens, else in IX.12 (Mark's call)'; (a) does not widen the row, so the two texts point different ways. This draft follows the ruled option's wording; the coordinator may move the two Lithuania sentences, the voice and the source to IX.12 instead (which would need IX.12's lane note widened to Catholic). Lithuania has no gazetteer ID in the census and is not in modernCountries.",
+    "E3a": "Drafted (G-124(b)). Start set to 1920, the first verified event (Sremski Karlovci, 12 September 1920); the record's '1918/1920' gives no verified 1918 event. Albania is in the name, region and teaser as G-124(b) rules, but carries no history sentence: every Albanian item is V-t or [S]; the sourcing field says so. Serbia and Albania have no gazetteer ID in the census and are left out of modernCountries; placeLabel is 'Romania · Bulgaria and beyond' so that both countries with IDs sit on it. Burning Bush drafted as the ruled named line (V, Stanciu 2025); the 1999 own-voice edition (V-s) is not used.",
+    "E3b": "Drafted, but flagged for the coordinator. §2 classes E3b 'enter once' and the Decision-Log's 'The 14 \"enter\" candidates' do not include it; but its only condition was 'enter if G-E3 is (b)', and G-124 was ruled (b), whose text is 'Two rows: E3a ... and E3b for the Church of Greece and the Ecumenical Patriarchate'. Its verified base is thin: the Zoe founding year 1907, Logotheti's thesis (V), the Joint Declaration of 7 December 1965 (V) and Leustean's Ecumenical Patriarchate chapter (V). Zoe's founder Matthopoulos (V/V-t mixed), the 1924 calendar change and the 1935 Old Calendarist bishops (V-t), the 1960 Sotir split [S], the Athonite revival [S] and the Phanar 1923-71 [S, held by the ruling] are not told. Turkey/Istanbul has no 20th-century gazetteer ID in the census (only 'Constantinople', Q16869, an ancient place), so Turkey is left out of modernCountries. Drop the row if the coordinator reads the Decision-Log count as binding.",
+    "E8": "Drafted (G-129(a)). Thin: three verified facts (Decree 358, 1 Dec 1948; Decree-Law 9, 31 Dec 1989; Holy See recognition, 12 March 1990, all from one jurnalul.ro page, V). The church's founding c. 1700 [S], the imprisoned bishops [S] and the property disputes (B2 only) are not told. shortName 'Romanian United' follows the church's own Romanian name ('Biserica Română Unită', in the CEEOL title the record cites); 'Romanian Greek Catholic' runs past 20 characters."
+   },
+   "namedLinesDrafted": [
+    "E12 Lithuania's Chronicle, in E2 (see rowsDrafted.E12).",
+    "E2 Light-Life, in E2.",
+    "E3a Burning Bush, in E3a.",
+    "IX.21: Prešov (Czechoslovakia, 28 April 1950, 'Action P'; Coranič 2021, V) and a pointer to E8.",
+    "IX.46: the Middle East Council of Churches' inaugural assembly, Nicosia, 28-30 May 1974 (G-141(a); MECC page, V). The Catholic family's entry in 1990 is V-s and is not drafted.",
+    "IX.7: the Catholic Charismatic Renewal in Brazil (Campinas 1969; Chesnut 2003), with Latin America added to its regions (G-135(a) with G-95(a)).",
+    "IX.15: the Iglesia Apostólica de la Fe en Cristo Jesús (Villa Aldama, Chihuahua, 1914), with Latin America added to its regions and Mexico to its region text (G-135(a) with G-98(a)). The LA-6 and LA-9 lines are Latin America candidates; if the Latin America drafter also drafted them, keep one copy."
+   ],
+   "notDrafted": {
+    "E9 (G-130(b), named line in E1)": "Every dated fact (the 1921 sobor, Lypkivsky's election and ordination, the 1942 revival, 1989-92) is V-s; only the Plokhy & Sysyn bibliographic record is V. A line would rest on a book title alone, and the canonical dispute it must carry is itself V-s. Not drafted; needs one verified dated item and both sides' texts.",
+    "E10 (G-131(a), Chaldean line in IX.19)": "Every item (Delly's election 2003 and cardinalate 2007; Rahho's abduction and death 2008; the 2008 flight from Mosul) is V-s from Catholic news reports. Not drafted.",
+    "E11 (Christian Peace Conference, named line in IX.46)": "Every item is V-t (encyclopedic) or V-s (Beneš 2021); the record's legend makes V-t 'a pointer, not a scholarly anchor', and the brief allows only V, V-q or verified. Not drafted.",
+    "IX.21 Mukachevo (G-129(a))": "Mukachevo 1949 and Bishop Theodore Romzha's death in 1947 are V-s (one source). Not drafted; Prešov is.",
+    "E1 line for Central Asia (G-148(a), SUP-13)": "The deportations from 1941 are [S]; E1's canonical territory in Central Asia is [S]; Peyrouse 2004 is V on page metadata only (a title); Peyrouse 2003 is V-s; Pelkmans 2009 (V) is a Kyrgyz Pentecostal chapter, which belongs to E4's line. No verified item states an Orthodox, Lutheran or Catholic presence. Not drafted. The E4 half waits for E4, which is 'enter once'.",
+    "SUP-7 Andean lines (G-142(a))": "All four lines rest on V-s items only: Proaño and ERPE (UASB thesis in search results), FEINE 1980 (Andrade 2004 and Guamán, V-s), the SIL (Stoll, a bookseller listing), and the Titicaca Adventists (Stahl at Platería 1911; Teel, located not opened). None drafted, so Peru is not added to IX.44 (Peru has a gazetteer ID, Q419, from VII.17, if the line is drafted later). Proaño, FEINE and the SIL would also go into LA-1 and LA-5, which are new rows in another slice.",
+    "Other §6b rulings": "G-136 to G-140 and G-143 to G-150 place no line now: SUP-1 to SUP-4 are 'enter once'; SUP-5, SUP-9 to SUP-11, SUP-14 and SUP-15 are holds; SUP-8 adds evidence to GS-A19's hold (a record change, not census copy); SUP-12's lines go into GS-A2, which is 'enter once'."
+   },
+   "ix11": {
+    "what moved": "Only El Shaddai: it now has a home in GS-A6 (G-107(a), G-133(c)), which enters in the Asia slice. Its sentence, voice and source entry leave IX.11; a pointer line goes into relationsSummary; 'Philippines' leaves region and teaser. Greater Asia stays in regions (Korea).",
+    "what stays and why": "The Pará story, the Assembleias de Deus and the IURD stay until LA-2 enters (LA-2 is 'enter once'; G-91(a) moves the story then). The RCCG sentence stays (C3 is 'enter once'). Yoido stays (G-102(a)). Chile is not in IX.11. GS-A12's Indian line and C5's Church of Pentecost line move in from other slices, not this one (the Church of Pentecost evidence is [S]).",
+    "dates": "Fixed under G-135(c) to 1910-c. 2010 (start 1910), from the row's own Pará story (November 1910) and its 'from 1911'. When LA-2 takes the Pará story, the start can be looked at again.",
+    "teaser and copy left alone": "IX.11's other copy (the 'this map does not pretend otherwise' clause and others) is not this ruling's subject and is not edited here; tools/check_live_commentary.py is the place for it."
+   },
+   "gazetteerGaps": [
+    "Serbia (E3a)",
+    "Albania (E3a)",
+    "Lithuania (E2's Chronicle line)",
+    "Turkey/Istanbul (E3b)",
+    "Slovakia (IX.21's Prešov line)",
+    "Mexico (IX.15, G-98(a))",
+    "Cyprus (IX.46's MECC line)"
+   ],
+   "overlapMoves": "E1 names IX.22, IX.9 and IX.48 by entry name and retells none of them; IX.22 (relationsSummary, statusDescription, legacy) and IX.9 (relationsSummary) now name E1. IX.22's old 'named gap' sentence and its 'names as a gap rather than pretending to cover' clause are replaced, because the gap is now filled. IX.22's Butovo story keeps its mention of the 2007 Act; E1 names the Act as the church's act, not the Butovo story. E8 and IX.21 name each other. E3a and E3b name each other; E3a names IX.12 for the Lord's Army.",
+   "edgesNotDrafted": "The brief asks for no links. Candidate links for a later pass: VIII.31 -> E1 (continued as), VIII.28 -> E3a and E3b, VIII.12 -> E3b. Eras 8 and 9 are frozen; those links are change orders.",
+   "scratchIds": "The scratch apply gives the new rows IX.T1 (E1), IX.T2 (E2), IX.T3 (E3a), IX.T4 (E3b) and IX.T5 (E8), and raises meta.totalEntries and the Pre-Survey Candidate count by five."
+  },
+  "finish": {
+   "added": "IX.62 Proano line; IX.63 FEINE/Chimborazo; IX.44 Titicaca Adventists with Peru; IX.69 Central Asia Orthodox; IX.61 C7 dates and church bodies verified or reworded",
+   "notDrafted": [
+    "SIL line (IX.63): Contested; the SIL's own account not found; Stoll only V-s; SIL in Peru from 1946 [S]",
+    "Deported Catholics and Lutherans cross-reference (IX.69): no opened source; record items [S]",
+    "IX.61 Presbyterian church body: no verified source found",
+    "IX.61 Dinka hymns: [S]"
+   ]
+  }
+ }
+}
