@@ -13,6 +13,29 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-09 — ERA 10 GLOBAL SWEEP GATE: Mark rules all 71 questions (G-80 to G-150)
+
+**Decided (Mark, answering by number on the gate page).** "G-80 c; G-81 a; G-82 a; G-83 a; G-84 a;
+G-85 c; G-86 a; G-87 a; G-88 a; G-89 a; G-90 a; G-91 a; G-92 a; G-93 a; G-94 a; G-95 a; G-96 b;
+G-97 a … G-123 a; G-124 b; G-125 a; G-126 a; G-127 b; G-128 b; G-129 a; G-130 b; G-131 a; G-132 b;
+G-133 c; G-134 a; G-135 a; G-136 a … G-150 a". Every answer matches the question's stated
+recommendation in `Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md` §7, checked one by one
+by script, so the record's recommendations are the ruling.
+
+**What follows.**
+- The 14 "enter" candidates are drafted as census rows and reviewed (P2-E10h).
+- The 23 named lines are drafted into their entries.
+- IX.11 is narrowed by change order (G-132 (b)).
+- Catholic charismatic movements follow G-133 (c): renewal wings in IX.7, national movements in
+  their country's Catholic row, none in IX.11.
+- The Caribbean takes the region value "Latin America" (G-134 (a)).
+- The 15 "enter once" candidates wait for the one text or study each names. Those items go to the
+  source-research thread, and each enters at a later gate once its condition is met. The 22 holds
+  wait for sources.
+- The census changes only as each drafted, reviewed set is applied.
+
+---
+
 ## 2026-11-09 — Era 10 global completeness sweep, by region and by river
 
 **Decided (Mark, asked "is this truely global not just usa", shown the counts and three options:
