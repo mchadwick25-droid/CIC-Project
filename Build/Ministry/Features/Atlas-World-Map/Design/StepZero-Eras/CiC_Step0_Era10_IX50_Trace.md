@@ -195,3 +195,13 @@ Still wanted, for the source-research thread:
 8. **Whitehead & Perry's definition**, verified, if the later Christian-nationalism works are ever cited. This row no longer uses it.
 9. **A scholarly source** for any claim that the media carriers (Limbaugh, 1988; Fox News, 1996) carried the movement's story, if that line is ever restored.
 10. **A dated item after 2010** from the movement's own carriers (for example the Faith and Freedom Coalition's 2025 conference program), to add own-voice evidence to the living mark.
+
+## The name (Mark, 2026-11-09: "use the proper name, not because i suggested something")
+
+The row keeps "The Christian Right" and the id `the-christian-right`. That is the name the verified
+scholarship gives the movement across the era. Williams, *God's Own Party: The Making of the
+Christian Right* (OUP, 2010; E6) is the university-press history of the whole period. The other
+standard name is "the Religious Right", used by Martin (1996; E7) and Wilcox (1996–2010; E8). It
+becomes the row's `informalName`, replacing the gloss "American Christian political mobilization",
+which no source uses. "The New Christian Right" was a label of the early 1980s. It was not chosen,
+because no verified item here uses it for the whole era.

@@ -13,6 +13,21 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-09 — Mark approves the P2-E10c screenshots and the re-voicing sample; IX.50's name settled on the sources
+
+**Decided (Mark: "screen shots look fine, yes and use the proper name, not because i suggested something").**
+- **P2-E10c screenshots: approved.** The cross-church bands, the label, the method page and the
+  retired page. Pull request #1562 merges when its CI is green.
+- **Re-voicing: the sample is approved.** The full story batch runs with the sample's exact
+  settings (voice onegjDE2z0mQtp1g0HK7, model eleven_v4, mp3_44100_64). The tree recordings use
+  other voices and models, so they get their own sample first.
+- **IX.50's name: settled on the evidence, not on a suggestion.** It stays "The Christian Right"
+  (id `the-christian-right`), the name of the verified university-press history of the whole
+  period (Williams, OUP 2010). "The Religious Right" (Martin 1996; Wilcox 1996–2010) becomes its
+  informal name. Reasons: `Design/StepZero-Eras/CiC_Step0_Era10_IX50_Trace.md`, "The name".
+
+---
+
 ## 2026-11-09 — Era 10 follow-up rulings (Mark: "take every recommendation")
 
 **Decided (Mark, on the four questions left after data release 22).**
