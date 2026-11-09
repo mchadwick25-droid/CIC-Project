@@ -23,7 +23,8 @@ recommendation in `Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md` §7
 by script, so the record's recommendations are the ruling.
 
 **What follows.**
-- The 14 "enter" candidates are drafted as census rows and reviewed (P2-E10h).
+- The 15 rows that enter are drafted as census rows and reviewed (P2-E10h): the 14 "enter"
+  candidates, and E3b, which G-124 (b) also enters. (Count corrected 2026-11-09; it first read 14.)
 - The 23 named lines are drafted into their entries.
 - IX.11 is narrowed by change order (G-132 (b)).
 - Catholic charismatic movements follow G-133 (c): renewal wings in IX.7, national movements in
