@@ -150,6 +150,7 @@ const retiredMovementIds = new Set();
   if (byId.has(r.id)) errs.push(`retiredMovements[${i}]: ${r.id} is retired but still in use`);
   retiredMovementIds.add(r.id);
   if (r.redirectTo && !byId.has(r.redirectTo)) errs.push(`retiredMovements[${i}]: redirectTo ${r.redirectTo} is not a current movement`);
+  if (!r.redirectTo && !r.name) errs.push(`retiredMovements[${i}]: ${r.id} keeps its own retired page, which needs the movement's name`);
 });
 
 // --- release and identifier promise ---
@@ -235,7 +236,12 @@ if (atlasPath) {
 if (treeDir) {
   const page = id => { const f = `${treeDir}/${id}.html`; return existsSync(f) ? readFileSync(f, "utf8") : null; };
   for (const m of d.movements ?? []) if (page(m.id) === null) errs.push(`${m.id}: no tree page at ${treeDir}/${m.id}.html`);
-  for (const r of d.retiredMovements ?? []) if (r.redirectTo && page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`);
+  for (const r of d.retiredMovements ?? []) {
+    if (r.redirectTo) { if (page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`); continue; }
+    const html = page(r.id);
+    if (html === null) errs.push(`retired ${r.id}: no retired page at ${treeDir}/${r.id}.html`);
+    else if (!html.includes('data-retired="true"')) errs.push(`retired ${r.id}: its tree page still serves the old entry, not the retired notice`);
+  }
   for (const e of d.edges ?? []) {
     for (const end of [e.from, e.to]) {
       const html = page(end);

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate static tree pages for all 292 movements from the census.
+ * Generate static tree pages for every census movement, and a retired page for each retired movement with no redirect.
  *
  * Output: one HTML file per movement at cft-website/tree/<slug>.html
  * Creates: cic-website/sitemap.xml, cic-website/robots.txt
@@ -522,6 +522,49 @@ const giveButtons = give.once && give.monthly
 const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support'];
 for (const key of SITE_PAGES) {
   fs.writeFileSync(path.join(outRoot, 'cft-website', `${key}.html`), sitePage(key, giveButtons), 'utf-8');
+}
+
+// A retired movement with no redirect keeps its address. Its page says only what the census records:
+// the name, the date it was retired, and the reason.
+function retiredPageHtml(r) {
+  const retiredOn = LONG_DATE.format(new Date(`${r.date}T00:00:00Z`));
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${escapeHtml(r.name)} (retired) — Church Family Tree</title>
+<meta name="description" content="${escapeHtml(`This entry was retired from the Church Family Tree on ${retiredOn}.`)}">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+${PAGE_STYLE}
+<link rel="stylesheet" href="../assets/feedback.css">
+${analyticsTag}</head>
+<body>
+${siteHeader('../')}
+
+<div class="page" data-retired="true">
+  <div class="titleblock">
+    <p class="eyebrow">Retired entry</p>
+    <h1>${escapeHtml(r.name)}</h1>
+  </div>
+  <p>This entry was retired from the tree on ${escapeHtml(retiredOn)}.</p>
+  <p>${escapeHtml(r.reason)}</p>
+  <p><a href="../index.html">Return to the map</a></p>
+</div>
+
+${siteFooter('../')}
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>`;
+}
+for (const r of census.retiredMovements ?? []) {
+  if (r.redirectTo) continue;
+  if (!r.name || !r.date || !r.reason) throw new Error(`retired movement ${r.id} needs a name, date and reason for its page`);
+  fs.writeFileSync(path.join(treeDir, `${r.id}.html`), retiredPageHtml(r), 'utf-8');
 }
 
 // Generate sitemap.xml for each site
