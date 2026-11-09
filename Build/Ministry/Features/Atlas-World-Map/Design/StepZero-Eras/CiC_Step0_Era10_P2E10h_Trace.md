@@ -900,3 +900,169 @@ The row claims no canonical link between these communities and the Russian churc
 ## Readability rewrites (no new fact)
 
 IX.63, IX.66, IX.71, IX.72: long sentences split at their commas or colons, and a few verbs made plainer ('came into conflict' -> 'clashed'; 'traced' -> 'followed'; 'was united, was founded, was restored' as three sentences). Every name, date and quoted phrase ('narratives of engaged citizenship') is unchanged.
+
+---
+
+## Revision after Review Round 1 (2026-11-09)
+
+### P2-E10h, Round 1: response
+
+Files: `proposal.json` (revised), `proposal.pre-rev1.json` (before), `rev1.py` (applies every change below to the pre-rev1 file, with an exact-once check on each old string). No repo file was edited. No model call.
+
+Results are at the end.
+
+### Substantial
+
+**S-1 (IX.44, edit 55).** Done, review text. "Its own internal arguments" became "The church's own internal arguments"; "was among the first Adventist converts" became "was one of the first Adventist converts on the altiplano". Camacho voice (edit 56) already says only "an Indigenous visionary", unchanged.
+
+**S-2 (IX.24, edits 14 and 15).** Done, review text. Old: "…The Lausanne congress of 1974 rejected it." New: "At Lausanne in 1974 most leaders appeared to reject a broad moratorium. Still, the Lausanne Covenant allowed that fewer foreign missionaries might sometimes help a national church grow." The edit 15 note is now the review's note (the "reports… appeared to be rejected" wording). The work line is unchanged.
+
+**S-3 (IX.73).** Done, review text, in all five places:
+- `why`: 12 March / "Holy See recognized" became "On 14 March 1990 John Paul II named Alexandru Todea its metropolitan." (the 1989 sentence now stands alone).
+- `longDescription`: the 12 March sentence became "On 14 March 1990 John Paul II named Alexandru Todea metropolitan of Făgăraș and Alba Iulia."
+- `sources`: [0] replaced by the Decree-Law 126 entry; Mahieu (secondary) and the Holy See Press Office Todea biography (reference) added as [1] and [2].
+- `statusDescription` sentence 2: review text, with one change. The review's sentence runs 30 words, so it is split in two after "restitution disputes": "…a study of the restitution disputes. It also rests on a study of the neighboring Czechoslovak case."
+- `sourcing` sentence 2: review text ran 27 words, so split: "…are verified. So is the naming of its metropolitan in March 1990."
+- Not in the review, my addition: I removed "published the next day" from the first `longDescription` sentence. The only support was the record's "published 2 Dec", and the review says Jurnalul gives no day for Decree 358 and Mahieu gives only 1 December. Now: "Decree 358 of 1 December 1948 dissolved the Romanian Greek Catholic Church." Easy to put back if the coordinator holds a source for 2 December.
+
+**S-4 (IX.72).** Done, review text for `why` and `longDescription`. Not changed: the teaser ("the Patriarchate that ended the excommunications of 1054") and the Paul VI voice ("lifted the excommunications of 1054"). Neither says the churches cut each other off, and the review did not flag them. Say if you want them reworded to "removed from memory".
+
+**S-5 (El Shaddai).** Done, first option.
+- Edit 52 new: "Child of Azusa + AIC lines; the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism." Founder and 1984 are gone.
+- IX.66: `sources[0]` ("El Shaddai (1984, Velarde)") removed.
+- IX.66: the Velarde voice removed. I did not open Wiegele's book, so it cannot be verified. IX.66 text carries no founder and no date; I checked.
+- notes.asia.notDrafted: the old line that said the date and founder were "moved" is replaced with a withheld line naming the gap. A `notes.rev1.wants` list holds the source-research want (a verified item dating the founding, e.g. the Wiegele page).
+
+### Minor
+
+- **M-1.** Left to the coordinator, as told.
+- **M-2.** Done. The review quoted earlier wording; the current text was rechecked sentence by sentence (whitespace tokens, all text fields and edit strings). Fixed: IX.59 teaser (split in two); IX.61 sourcing (three sentences); IX.62 sourcing ("…and CEHILA's multi-volume history. A Cambridge survey… add to them."); IX.70 relationsSummary (three short sentences). Also found and fixed: IX.62 teaser, 27 tokens ("…of CELAM. Its bishops met as one continent at Rio, Medellín and Puebla."), and the two review-text sentences in IX.73 noted above. No sentence in a new row or an edit string now passes 25.
+- **M-3.** IX.62 shortName "Latin Am. Catholic". Others unchanged.
+- **M-4.** "Most belong" became "Most belonged" (IX.69).
+- **M-5.** Deleted in IX.69, IX.70, IX.71, IX.72. IX.73: "In 2010 it was a living church, legal again since 1989." became "It had been legal again since 1989."
+- **M-6.** IX.63: "aims to show how Pentecostalism there became 'quichuanized'" became "sets out to show how Pentecostalism there took on a Quichua form".
+- **M-7.** IX.65 `why`: "Twenty years later Pius XII set up a full hierarchy of dioceses in China."
+- **M-8.** IX.67: sourcing "wrote a two-volume study of its founder (1960, 1966)"; source "(Ateneo de Manila, vols. 1-2, 1960-66)"; voice "(vols. 1-2, 1960-66)"; `why` "plainly confessed the Trinity".
+- **M-9.** IX.59: "He was the first sub-Saharan African made a Catholic bishop in the modern mission era." (review wording; the source note still says the wider claim is contested). "Longman argued that…" (no year); Longman 2009 in IX.59 sources and in edit 1 (IX.3). "St Peter's" became "Saint Peter's" in why, longDescription and the Kiwanuka voice, to match IX.65.
+- **M-10.** IX.21 edit 43: old is now "none took part." so the Prešov sentences follow the Lviv synod. Side effect: "What followed was forty-three years…" now follows the Prešov sentences; it still reads, but the coordinator may want "In Ukraine" ahead of it. IX.8 edit 17 new is the review text.
+- **M-11.** Not done, and cannot be. I added the United States (Q30, place "United States") and ran the validator: ERROR "modern country 'United States' comes from 'United States', which is not on the place label". The label is "N. America · Peru and beyond". Adding it needs "United States" on the label and in the region text, which changes the label for a row outside this slice. Peru stays alone.
+- **M-12.** Done. The Korean March First Movement and growth decades are added to notes.asia.notDrafted (for Open_Gaps_Tracking at apply). Zink is now "secondary". The stale C7 table is superseded in `trace-rev1.md`; the repo trace is not touched.
+- **M-13.** Left as drafted ("In March 1964"). No opened item carries 27 February 1964; it is in `notes.rev1.wants`.
+- **M-14.** Left to the coordinator, as told.
+- **M-15.** IX.63 pass, no fact changed: the 1977-1982 council meetings are now three short sentences; CLAI is "That council, CLAI,"; "In Guatemala, Virginia Garrard-Burnett found" became "Virginia Garrard-Burnett found that Protestants in Guatemala…"; Guamán's sentence split in two; "They include" became "The themes include"; "Their national council, FEINE," became "The national council of these evangelicals, FEINE,". FRE 47.2 to 48.8, FK 9.06 to 8.87. The full name "Latin American Council of Churches" now appears only in the voice line.
+
+### Results
+
+- `python3 apply.py`: fails [], dup ids [].
+- Validator: 322 movements, 578 edges, 10 eras, 0 errors, 2 warnings (the two old shortName warnings on era 1 rows).
+- `check_spelling.py` on the new text (all new-row prose, voices, sources, and edit `new` strings, saved as `newtext.md`; the tool only scans .md files): 0 found. A control file with "colour" was caught.
+- Readability by row (the six prose fields, FK / FRE, before to after). Rows with the same value did not change.
+
+| Row | FK | FRE |
+|---|---|---|
+| IX.59 | 8.66 to 8.54 | 55.35 to 55.52 |
+| IX.60 | 8.85 | 54.86 |
+| IX.61 | 9.03 | 53.23 |
+| IX.62 | 8.76 to 8.63 | 54.80 to 55.14 |
+| IX.63 | 9.06 to 8.87 | 47.20 to 48.82 |
+| IX.64 | 8.88 | 53.19 |
+| IX.65 | 8.26 to 8.29 | 55.54 to 55.24 |
+| IX.66 | 8.30 | 51.30 |
+| IX.67 | 9.48 | 52.06 to 51.93 |
+| IX.68 | 9.20 | 52.99 |
+| IX.69 | 9.26 to 9.48 | 50.16 to 48.94 |
+| IX.70 | 7.47 to 7.28 | 66.61 to 66.83 |
+| IX.71 | 8.27 to 8.37 | 51.99 to 51.49 |
+| IX.72 | 8.71 to 9.91 | 51.59 to 44.83 |
+| IX.73 | 8.69 to 8.43 | 56.01 to 56.59 |
+
+IX.72 fell because the review's S-4 text carries long names; it stays under FK 10. Only IX.70 reaches FRE 60, as before.
+
+### P2-E10h, Round 1 revision: trace (new or changed sentence -> evidence)
+
+Evidence keys. R1 is the Round 1 review (`CiC_Step0_Era10_P2E10h_Review_Round1.md`), which states what it re-read on each page; I did not re-open these pages in this pass, and I say so where a sentence rests only on R1. The rest are the finishing-pass keys of `trace-finish.md` (T89, AW23, GU08, AN04, PE04, RO11, PAX, HAN, CT64, ZI).
+
+| Key | Item | What R1 says it read |
+|---|---|---|
+| T89 | Teel, Allpanchis 33 (1989), p. 213 | Full text: "uno de los primeros conversos adventistas" in a passage on the Peruvian altiplano |
+| CT74 | Christianity Today, "What's Behind the Idea of a Missionary Moratorium?" (Nov 1974) | "the idea of a broad moratorium appeared to be rejected by most leaders"; quotes the Covenant: "A reduction of foreign missionaries and money in an evangelized country may sometimes be necessary" |
+| JD65 | Joint Catholic-Orthodox Declaration, 7 Dec 1965 (vatican.va) | para 2: sentence "leveled against the Patriarch Michael Cerularius and two other persons by the legate of the Roman See under the leadership of Cardinal Humbertus"; legates then "the object of a similar sentence pronounced by the patriarch and the Synod of Constantinople"; para 3: censures concerned "the persons concerned and not the Churches" |
+| JN | Jurnalul Național, Decree-Law 126 of 24 Apr 1990 | Dates 22 and 31 Dec 1989 and 24 Apr 1990; cites Decree 358/1948 and Decree-Law 9 of 31 Dec 1989; no March date; no mention of the Holy See |
+| MA04 | Mahieu, MPI Working Paper 69 (2004) | "On December 1, 1948, Decree no. 358"; Decree-Law 9 of 31 December 1989 |
+| TOD | Holy See Press Office, biography of Cardinal Alexandru Todea | On 14 March 1990 he "was promoted to the Metropolitan See of Făgăraş and Alba Iulia" |
+| TIC | Ticozzi, Holy Spirit Study Centre | 20 archdioceses, 79 dioceses, 38 apostolic prefectures; 21 of 28 Chinese-led units had Chinese bishops |
+| ACH | Achútegui and Bernad, Religious Revolution | Vol. 1 1960 (rev. 1961), vol. 2 1966; documents volumes 1971 and 1972 |
+| LON | Longman, Cambridge Core | Print publication 7 Sept 2009; online 2010 |
+| ZNK | Zink 2018, JEH review | Monograph (Baylor University Press) |
+
+### Substantial fixes
+
+| Row.field | Sentence | Evidence |
+|---|---|---|
+| IX.44 longDescription (edit 55) | Camacho, an Indigenous visionary, was one of the first Adventist converts on the altiplano. | T89 p. 213, with the scope the source gives (R1 S-1) |
+| IX.44 longDescription (edit 55) | The church's own internal arguments, including… | Restores the original sentence's subject; the original text is the census's own |
+| IX.24 relationsSummary (edit 14) | At Lausanne in 1974 most leaders appeared to reject a broad moratorium. | CT74 (R1 S-2) |
+| IX.24 relationsSummary (edit 14) | Still, the Lausanne Covenant allowed that fewer foreign missionaries might sometimes help a national church grow. | CT74's quotation of the Covenant (R1 S-2) |
+| IX.24 sources (edit 15) note | Records Gatu's call and reports that at Lausanne a broad moratorium 'appeared to be rejected by most leaders'… | CT74 |
+| IX.73 why | On 14 March 1990 John Paul II named Alexandru Todea its metropolitan. | TOD (R1 S-3) |
+| IX.73 longDescription | Decree 358 of 1 December 1948 dissolved the Romanian Greek Catholic Church. | MA04 gives the day; "published the next day" dropped because no opened item carries it |
+| IX.73 longDescription | On 14 March 1990 John Paul II named Alexandru Todea metropolitan of Făgăraș and Alba Iulia. | TOD |
+| IX.73 statusDescription | It rests on the decrees of 1948 and 1989, read through a press account and a study of the restitution disputes. | JN (press account); MA04 (study of the restitution disputes) |
+| IX.73 sourcing | …are verified. So is the naming of its metropolitan in March 1990. | JN, MA04 (decrees); TOD (naming) |
+| IX.73 sources[0..2] | Decree-Law 126 (JN); Mahieu; Holy See Press Office | JN, MA04, TOD with the notes R1 gives |
+| IX.72 why | They removed from memory the sentences of excommunication of 1054. In 1054 Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn. | JD65 paras 2-3 (R1 S-4) |
+| IX.72 longDescription | It removed from memory the sentences… The declaration said those sentences struck persons, not the churches. | JD65 para 3 |
+| IX.11 relationsSummary (edit 52) | El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism. | No [S] fact in the sentence. Its only claims are "Catholic", "Philippines", and the pointer to the IX.66 row (the ruled placement, G-107 (a), G-132 (b)) |
+| IX.66 | sources[0] and the Velarde voice removed | Nothing opened carries the founder or the date. No sentence of IX.66 now carries either. |
+
+### Minor fixes
+
+| Row.field | Sentence | Evidence |
+|---|---|---|
+| IX.59 why | He was the first sub-Saharan African made a Catholic bishop in the modern mission era. | Narrow wording the record requires (R1 M-9); DACB and Catholic-Hierarchy as the existing source line. The source note keeps "the wider claim … is contested". |
+| IX.59 longDescription, sources | Longman argued that… (no year); Cambridge University Press, 2009 | LON (R1 M-9). Same year change in edit 1 (IX.3 source). |
+| IX.59 why, longDescription, voice | Saint Peter's | Spelling form only, as IX.65 |
+| IX.59 teaser | …to the African Synod of 1994. Its story includes a missal for Zaire and the hard question of Rwanda. | A split of the existing teaser; no new fact |
+| IX.61 sourcing | Three sentences from one | A split; no new fact |
+| IX.61 sources (Zink) | type "secondary" | ZNK (R1 M-12) |
+| IX.62 sourcing, teaser | Split sentences; shortName "Latin Am. Catholic" | Splits; no new fact. Name form per R1 M-3 |
+| IX.63 longDescription | Her book of 2004 sets out to show how Pentecostalism there took on a Quichua form. | AN04 abstract («se "quichuaniza"») rendered without quotation marks (R1 M-6) |
+| IX.63 longDescription | Churches met at Huampaní in Peru in 1977 and at Oaxtepec in Mexico in 1978. They meant to form a council of their own. That council, CLAI, was set up at Huampaní in 1982. | The existing CLAI facts (Christianity Today 1979 and 1981, UIA, as sourced); reworded only |
+| IX.63 longDescription | Virginia Garrard-Burnett found that Protestants in Guatemala won few converts until the 1960s. Julián Guamán is an Indigenous author from Ecuador. He dates the start of that organizing to Chimborazo in 1966. The national council of these evangelicals, FEINE, was founded in 1980. The themes include prayer… | Existing sentences split or reworded. GU08 and AN04 as in `trace-finish.md`. No fact added |
+| IX.65 why | Twenty years later Pius XII set up a full hierarchy of dioceses in China. | TIC (R1 M-7) |
+| IX.67 sourcing | …wrote a two-volume study of its founder (1960, 1966). | ACH (R1 M-8) |
+| IX.67 source, voice | (vols. 1-2, 1960-66) | ACH |
+| IX.67 why | …a Declaration of Faith that plainly confessed the Trinity. | The Declaration's wording, as in the existing floorNote and source (R1 M-8) |
+| IX.69 longDescription | Most belonged to European minorities that came with Russian colonization in the eighteenth and nineteenth centuries. | PE04 abstract, in past tense (R1 M-4) |
+| IX.69, 70, 71, 72 legacy | "In 2010 it was a living church" (and its plural forms) deleted | Removal only (R1 M-5) |
+| IX.73 legacy | It had been legal again since 1989. | Decree-Law 9 of 31 Dec 1989 (MA04, JN) |
+| IX.70 relationsSummary | It stands beside two Rome-centered entries. One tells the Catholic Church from Pius X to the Council. The other tells the parish after the Second Vatican Council. | A split of the existing sentence; no new fact |
+| IX.21 longDescription (edit 43) | In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950. A 'sobor' met at Prešov on 28 April 1950, in an operation called 'Action P'. | Unchanged text (Coranič 2021, as in the repo trace); moved to follow "none took part." |
+| IX.8 relationsSummary (edit 17) | The bishops met again at Puebla in 1979; both meetings are told in the entry on Latin American Catholicism, the parent of this one. | Existing LA-1 placement (G-90 (a)); Medellín stays in the longDescription pointer (edit 16) |
+
+### C7 (IX.61): the stale table in the repo trace, superseded
+
+The repo trace's "C7" section (and its last line, "Not used: the 1955 and 2005 events, the church bodies, the 1964 expulsion, the Dinka hymns, Zink 2018 (all [S])… a verify pass is needed") predates the finishing pass. Read it with these rows replaced.
+
+| Item in the C7 table | Old status | Status now | Evidence |
+|---|---|---|---|
+| Torit mutiny of 1955; window opens 1955 | [S] | Verified, shown as contested | RO11: historians usually trace the war to 1955; Rolandsen dates civil war proper to 1963, full-scale to late 1963 |
+| Peace agreement, 9 January 2005 | [S] | Verified | PAX 337 |
+| The war of 1983 to 2005 | [S] | Verified | ZI (author page; JEH review) |
+| The 1964 expulsion of foreign missionaries | [S] | Verified (March 1964; the three southern provinces first; the government's stated reason) | HAN, 23 March 1964; CT64 (272 and 28). The order itself dates from 27 February 1964 (R1 M-13); no opened item carries that, so the text stays "March 1964" |
+| Zink 2018 | [S], livingEvidence only | Verified (Baylor, 2018); used in the text for the Dinka and Anglicanism sentence, and as the living-mark evidence (grade CD) | ZI |
+| Church bodies; Dinka hymns | [S] | Still withheld. No Presbyterian source and no hymn source found | `trace-finish.md`, `notes.finish.notDrafted` |
+| "a verify pass is needed" | open | Done in the finishing pass | `trace-finish.md`, IX.61 table |
+| statusDescription "the dates of the wars are not yet confirmed" | old text | Replaced with "Its window runs from the Torit mutiny of 1955 to the peace agreement of January 2005." | RO11, PAX |
+
+### Withheld lines (M-12, and S-5)
+
+| Line | Why withheld | Where it is recorded |
+|---|---|---|
+| Korean Protestantism: the March First Movement of 1919 (G-102 (a)) | The 1919 movement rests on an [S] item; no opened item carries it | `notes.asia.notDrafted` |
+| Korean Protestantism: the growth decades (G-102 (a)) | No opened item carries them | `notes.asia.notDrafted` |
+| El Shaddai: founder (Mike Velarde) and founding year (1984) | The date is [S]. No El Shaddai text and no Wiegele page was opened (R1 S-5) | `notes.asia.notDrafted`, `notes.rev1.wants` |
+| IX.61: 27 February 1964 as the order's date | No opened item carries it | `notes.rev1.wants` |
+| IX.73: "published 2 December 1948" | No opened item carries it (R1 S-3: Mahieu gives 1 December only) | Dropped from the text |
+
+Both Korean lines should also be entered in the Asia world's `Open_Gaps_Tracking.md` at apply (a coordinator step; no repo file was touched here).
