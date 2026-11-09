@@ -93,7 +93,7 @@ assignments:
   author: theodoret
   locus: div2 3.9
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: context
   confidence: provisional
   note: 'Same work, context row: the Eranistes argues against the one-nature theology whose
@@ -111,7 +111,7 @@ assignments:
     of Theodoret
   atlas_ids:
   - antiochene-exegetical-christianity-chrysostom-ce
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: provisional
   note: 'A paired document from the Nestorian controversy (430-431): Cyril''s Twelve Anathemas

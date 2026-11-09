@@ -7,9 +7,9 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 300,
-    "entries_with_coverage": 192,
-    "entries_zero_coverage": 108
+    "total_entries": 307,
+    "entries_with_coverage": 191,
+    "entries_zero_coverage": 116
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -1163,6 +1163,30 @@
           "confidence": "assigned",
           "source_file": "arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt",
           "rights": "CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) -- NOT public domain as a digital edition; the printed edition it transcribes (printed 1875) is public domain by date. Attribution and share-alike travel with any quotation: the file's own licence element reads \"Available under a Creative Commons Attribution-ShareAlike 4.0 International License\" (https://creativecommons.org/licenses/by-sa/4.0/); publisher and authority University of Leipzig (2014), Gregory Crane principal, Jouve credited with 'OCR-ed, corrected and encoded the text', funder European Social Fund Saxony."
+        },
+        {
+          "work": "Audollent, Carthage romaine, 146 av. J.-C. - 698 ap. J.-C. (1901)",
+          "author": "audollent",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901)"
+        },
+        {
+          "work": "Carthage romaine (Audollent, 1901)",
+          "author": "audollent",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "audollent_carthage-romaine-fra_1901.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Brewer, Kommodian von Gaza (1906)",
+          "author": "brewer",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "brewer_kommodian-von-gaza-deu_1906.txt",
+          "rights": "Public Domain (pre-1930 publication; the author died in 1922)"
         },
         {
           "work": "Carmen apologeticum (Commodian)",
@@ -9392,156 +9416,6 @@
         }
       ]
     },
-    "cyrilline-miaphysite-egyptian-tradition": {
-      "name": "Cyrilline / Miaphysite Egyptian Tradition",
-      "status": "Deferred by Step 0",
-      "works": [
-        {
-          "work": "Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)",
-          "author": "barhadbeshabba-arbaya",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1913); the archive.org record carries no rights field"
-        },
-        {
-          "work": "Council of Chalcedon (451), sessions I-III, in Mansi tom. 6",
-          "author": "council-of-chalcedon-451",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt",
-          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 164; the underlying edition is of the 18th century); the item record carries no rights field"
-        },
-        {
-          "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
-          "author": "council-of-chalcedon-451",
-          "role": "context",
-          "confidence": "assigned",
-          "source_file": "npnf214_seven-ecumenical-councils.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "The Council of Ephesus (431): Extracts from the Acts, Decree, Canons",
-          "author": "council-of-ephesus-431",
-          "role": "tradition",
-          "confidence": "assigned",
-          "source_file": "npnf214_seven-ecumenical-councils.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "Acts of the Second Council of Ephesus (449), as read at Chalcedon, in Mansi tom. 6",
-          "author": "council-of-ephesus-449",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt",
-          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 164; the underlying edition is of the 18th century); the item record carries no rights field"
-        },
-        {
-          "work": "Akten der ephesinischen Synode vom Jahre 449, Syriac acts with Hoffmann's German (Flemming, 1917)",
-          "author": "council-of-ephesus-449",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1917); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "The Second Synod of Ephesus (449): the Syriac acts of the session of 22 August 449, English (Perry, 1881)",
-          "author": "council-of-ephesus-449",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "Five Tomes against Nestorius; Scholia on the Incarnation; Christ is One; fragments against Diodore and Theodore, English (Pusey, 1881)",
-          "author": "cyril_alexandria",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII Anathematisms, and the Letter to John of Antioch)",
-          "author": "cyril_alexandria",
-          "role": "tradition",
-          "confidence": "assigned",
-          "source_file": "npnf214_seven-ecumenical-councils.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "The Three Epistles of Cyril (second and third letters to Nestorius with the twelve anathemas; letter to John of Antioch of 433), Greek and English (Pusey, 1872)",
-          "author": "cyril_alexandria",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1872); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya and Pentapolis)",
-          "author": "cyril_alexandria",
-          "role": "tradition",
-          "confidence": "assigned",
-          "source_file": "npnf214_seven-ecumenical-councils.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "Hefele, A History of the Councils of the Church, vol. 3 (431 to 451 (Ephesus from file line 439)), English translation, 1883",
-          "author": "hefele",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "hefele_history-of-the-councils-v3-431-451_clark1883.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "The Letters of Leo the Great",
-          "author": "leo",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "npnf212_leo-great-gregory-great.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "Le livre d'Héraclide de Damas, French (Nau, 1910)",
-          "author": "nestorius",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record tags it NOT_IN_COPYRIGHT"
-        },
-        {
-          "work": "Nestoriana (Loofs, 1905)",
-          "author": "nestorius",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field"
-        },
-        {
-          "work": "The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)",
-          "author": "nestorius",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-          "rights": "Public Domain (pd-us-by-date: published 1925, more than 95 years ago); the archive.org record carries no rights field"
-        },
-        {
-          "work": "Dialogues (Eranistes)",
-          "author": "theodoret",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
-          "rights": "Public Domain"
-        },
-        {
-          "work": "The Anathemas of Cyril with the Counter-statements of Theodoret",
-          "author": "theodoret",
-          "role": "tradition",
-          "confidence": "provisional",
-          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
-          "rights": "Public Domain"
-        }
-      ]
-    },
     "jerusalem-liturgical-pilgrimage-christianity": {
       "name": "Jerusalem Liturgical-Pilgrimage Christianity",
       "status": "Possible Future World (on record)",
@@ -10665,6 +10539,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Barhadbeshabba 'Arbaya, Ecclesiastical History, part 2 (PO 9.5)",
+          "author": "barhadbeshabba-arbaya",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1913); the archive.org record carries no rights field"
+        },
+        {
           "work": "The Christian Greek inscriptions of Egypt (4th-8th c.)",
           "author": "christian-inscriptions-egypt-nubia",
           "role": "context",
@@ -10681,6 +10563,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Council of Chalcedon (451), sessions I-III, in Mansi tom. 6",
+          "author": "council-of-chalcedon-451",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 164; the underlying edition is of the 18th century); the item record carries no rights field"
+        },
+        {
           "work": "Council of Chalcedon (451), sessions V onward, in Mansi tom. 7",
           "author": "council-of-chalcedon-451",
           "role": "context",
@@ -10689,10 +10579,82 @@
           "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 182; the underlying edition is of the 18th century); the item record carries no rights field"
         },
         {
+          "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
+          "author": "council-of-chalcedon-451",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Councils of Chalcedon (451) and Constantinople II (553): the councils the Egyptian church rejected or received under pressure",
           "author": "council-of-chalcedon-451",
           "role": "context",
           "confidence": "provisional",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Council of Ephesus (431): Extracts from the Acts, Decree, Canons",
+          "author": "council-of-ephesus-431",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Acts of the Second Council of Ephesus (449), as read at Chalcedon, in Mansi tom. 6",
+          "author": "council-of-ephesus-449",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt",
+          "rights": "Public Domain (pd-us-by-date: the 1901 facsimile date is printed at file line 164; the underlying edition is of the 18th century); the item record carries no rights field"
+        },
+        {
+          "work": "Akten der ephesinischen Synode vom Jahre 449, Syriac acts with Hoffmann's German (Flemming, 1917)",
+          "author": "council-of-ephesus-449",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1917); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Second Synod of Ephesus (449): the Syriac acts of the session of 22 August 449, English (Perry, 1881)",
+          "author": "council-of-ephesus-449",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Five Tomes against Nestorius; Scholia on the Incarnation; Christ is One; fragments against Diodore and Theodore, English (Pusey, 1881)",
+          "author": "cyril_alexandria",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII Anathematisms, and the Letter to John of Antioch)",
+          "author": "cyril_alexandria",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf214_seven-ecumenical-councils.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Three Epistles of Cyril (second and third letters to Nestorius with the twelve anathemas; letter to John of Antioch of 433), Greek and English (Pusey, 1872)",
+          "author": "cyril_alexandria",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1872); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya and Pentapolis)",
+          "author": "cyril_alexandria",
+          "role": "tradition",
+          "confidence": "assigned",
           "source_file": "npnf214_seven-ecumenical-councils.xml",
           "rights": "Public Domain"
         },
@@ -10727,6 +10689,14 @@
           "confidence": "assigned",
           "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Hefele, A History of the Councils of the Church, vol. 3 (431 to 451 (Ephesus from file line 439)), English translation, 1883",
+          "author": "hefele",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record tags it NOT_IN_COPYRIGHT"
         },
         {
           "work": "The History of Joseph the Carpenter",
@@ -10785,6 +10755,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Letters of Leo the Great",
+          "author": "leo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf212_leo-great-gregory-great.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Liturgy of S. Mark",
           "author": "liturgy-of-st-mark",
           "role": "context",
@@ -10807,6 +10785,30 @@
           "confidence": "assigned",
           "source_file": "monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Le livre d'Héraclide de Damas, French (Nau, 1910)",
+          "author": "nestorius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Nestoriana (Loofs, 1905)",
+          "author": "nestorius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field"
+        },
+        {
+          "work": "The Bazaar (Book) of Heracleides, English (Driver and Hodgson, 1925)",
+          "author": "nestorius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925, more than 95 years ago); the archive.org record carries no rights field"
         },
         {
           "work": "The Discourses of Philoxenus (a Syrian bishop of the same anti-Chalcedonian communion)",
@@ -10854,6 +10856,22 @@
           "role": "transmission",
           "confidence": "assigned",
           "source_file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Dialogues (Eranistes)",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Anathemas of Cyril with the Counter-statements of Theodoret",
+          "author": "theodoret",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
           "rights": "Public Domain"
         },
         {
@@ -31053,6 +31071,11 @@
         }
       ]
     },
+    "armenian-apostolic-church-era-8": {
+      "name": "Armenian Apostolic Church — Etchmiadzin and Constantinople",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
     "armenian-christianity-era-8": {
       "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
       "status": "Pre-Survey Candidate",
@@ -32581,7 +32604,7 @@
       "works": []
     },
     "iglesia-ni-cristo-the-way-international-unificat": {
-      "name": "Iglesia ni Cristo; The Way International; Unification Church; La Luz del Mundo",
+      "name": "The Way International; Unification Church; La Luz del Mundo",
       "status": "Floor Question (register)",
       "works": []
     },
@@ -32669,11 +32692,6 @@
     },
     "the-megachurch-and-seeker-movement": {
       "name": "The Megachurch & Seeker Movement",
-      "status": "Pre-Survey Candidate",
-      "works": []
-    },
-    "deconstruction-and-ex-vangelical-communities": {
-      "name": "Deconstruction & Ex-vangelical Communities",
       "status": "Pre-Survey Candidate",
       "works": []
     },
@@ -32789,6 +32807,46 @@
     },
     "hebrew-roots-and-torah-observance-movements": {
       "name": "Hebrew Roots & Torah-Observance Movements",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-christian-right": {
+      "name": "The Christian Right",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "iglesia-ni-cristo": {
+      "name": "Iglesia ni Cristo",
+      "status": "Floor Question (register)",
+      "works": []
+    },
+    "the-anglican-communion-twentieth-century": {
+      "name": "The Anglican Communion in the Twentieth Century",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-rescue-mission-movement": {
+      "name": "The Rescue Mission Movement",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-christian-homeschool-movement": {
+      "name": "The Christian Homeschool Movement",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-liturgical-movement": {
+      "name": "The Liturgical Movement",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-third-wave-and-the-vineyard": {
+      "name": "The Third Wave & the Vineyard",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "promise-keepers-and-the-christian-mens-movement": {
+      "name": "Promise Keepers & the Christian Men's Movement",
       "status": "Pre-Survey Candidate",
       "works": []
     }

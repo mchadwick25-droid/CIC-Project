@@ -237,27 +237,6 @@
   "outputFormat": "mp3_44100_64",
   "chars": 1414
  },
- "cyrilline-miaphysite-egyptian-tradition-0": {
-  "hash": "d60e1ca3329c94a8",
-  "voiceId": "onegjDE2z0mQtp1g0HK7",
-  "model": "eleven_v4",
-  "outputFormat": "mp3_44100_64",
-  "chars": 1550
- },
- "cyrilline-miaphysite-egyptian-tradition-1": {
-  "hash": "ce2b9f744ae84763",
-  "voiceId": "onegjDE2z0mQtp1g0HK7",
-  "model": "eleven_v4",
-  "outputFormat": "mp3_44100_64",
-  "chars": 1483
- },
- "cyrilline-miaphysite-egyptian-tradition-2": {
-  "hash": "1ba43a52068ca241",
-  "voiceId": "onegjDE2z0mQtp1g0HK7",
-  "model": "eleven_v4",
-  "outputFormat": "mp3_44100_64",
-  "chars": 1438
- },
  "jerusalem-liturgical-pilgrimage-christianity-0": {
   "hash": "81cedf20453aa741",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
