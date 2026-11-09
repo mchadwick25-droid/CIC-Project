@@ -1,0 +1,542 @@
+{
+ "1": {
+  "status": "ruled",
+  "outcome": "Retire I.14 into II.1 with a redirect; II.1 becomes the church of Alexandria across the era line; the inheritance claim tagged Contested.",
+  "how": "Ruled D"
+ },
+ "2": {
+  "status": "ruled",
+  "outcome": "Folded into item 1: the extended II.1 starts with Athanasius (328).",
+  "how": "Ruled A"
+ },
+ "3": {
+  "status": "ruled",
+  "outcome": "Own entry.",
+  "how": "Ruled A"
+ },
+ "4": {
+  "status": "ruled",
+  "outcome": "Own entry.",
+  "how": "Ruled A"
+ },
+ "5": {
+  "status": "ruled",
+  "outcome": "Own entry; end date set by the vendored Relations; converts heard through the missionaries.",
+  "how": "Ruled A"
+ },
+ "6": {
+  "status": "ruled",
+  "outcome": "Own entry, flagged thin (one source).",
+  "how": "Ruled A"
+ },
+ "7": {
+  "status": "ruled",
+  "outcome": "Own entry; Biddle, Nye and Toulmin named inside.",
+  "how": "Ruled A"
+ },
+ "8": {
+  "status": "ruled",
+  "outcome": "New successor entry after 1650; its shelf starts as later printings; source pass wanted.",
+  "how": "Ruled A"
+ },
+ "9": {
+  "status": "ruled",
+  "outcome": "Successor entry from 1815.",
+  "how": "Ruled A"
+ },
+ "10": {
+  "status": "ruled",
+  "outcome": "Person mark, told within lpc, carrying its door; lpc census text corrected to match its Doc_01.",
+  "how": "Ruled"
+ },
+ "11": {
+  "status": "ruled",
+  "outcome": "Person, told within the household churches.",
+  "how": "Ruled A"
+ },
+ "12": {
+  "status": "ruled",
+  "outcome": "Person, told within the Antiochene exegetes; custody link to the Church of the East.",
+  "how": "Ruled A"
+ },
+ "13": {
+  "status": "ruled",
+  "outcome": "Person, told within no tradition (no door).",
+  "how": "Ruled A"
+ },
+ "14": {
+  "status": "ruled",
+  "outcome": "Person, told within no tradition; links to all three relations.",
+  "how": "Ruled C"
+ },
+ "15": {
+  "status": "ruled",
+  "outcome": "Person, told within the Syriac Orthodox church.",
+  "how": "Ruled A"
+ },
+ "16": {
+  "status": "ruled",
+  "outcome": "Person, told within the English Reformation, as its forerunner.",
+  "how": "Ruled A"
+ },
+ "17": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "18": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "19": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "20": {
+  "status": "principle",
+  "outcome": "Stays inside serbian-and-bulgarian-medieval-monasticism.",
+  "how": "P5"
+ },
+ "21": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "22": {
+  "status": "ruled",
+  "outcome": "Stays inside latin-papal-church-avignon-to-lateran-v, per \"Rulings on the era 6 open questions\" (2026-11-08); P5 agrees.",
+  "how": "Earlier ruling"
+ },
+ "23": {
+  "status": "ruled",
+  "outcome": "A later Carthusian movement is made in P2-G3, per \"Rulings on the era 6 open questions\" (2026-11-08), which stands.",
+  "how": "Earlier ruling"
+ },
+ "24": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "25": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "26": {
+  "status": "principle",
+  "outcome": "Held as a named gap; dashed thread on the map; wanted texts queued with the source-research thread; built when they arrive.",
+  "how": "P3"
+ },
+ "27": {
+  "status": "principle",
+  "outcome": "Entry stays a movement; the person gets a person mark told within it (11 to 24 own works).",
+  "how": "P4"
+ },
+ "28": {
+  "status": "principle",
+  "outcome": "Entry stays a movement; the person gets a person mark told within it (11 to 24 own works).",
+  "how": "P4"
+ },
+ "29": {
+  "status": "principle",
+  "outcome": "Entry stays a movement; the person gets a person mark told within it (11 to 24 own works).",
+  "how": "P4"
+ },
+ "30": {
+  "status": "ruled",
+  "outcome": "Settled with item 10: I.13 stays a movement; John Chrysostom gets a person mark told within it.",
+  "how": "Ruled"
+ },
+ "31": {
+  "status": "principle",
+  "outcome": "Stays inside post-apostolic-house-church.",
+  "how": "P5"
+ },
+ "32": {
+  "status": "principle",
+  "outcome": "Stays inside latin-apologists. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "33": {
+  "status": "principle",
+  "outcome": "Stays inside greek-apologists-second-century. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "34": {
+  "status": "principle",
+  "outcome": "Stays inside antiochene-exegetical-christianity-chrysostom-ce. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "35": {
+  "status": "principle",
+  "outcome": "Stays inside british-welsh-christianity. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "36": {
+  "status": "principle",
+  "outcome": "Stays inside hieronymian-ascetic-literary. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "37": {
+  "status": "principle",
+  "outcome": "Stays inside hieronymian-ascetic-literary. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "38": {
+  "status": "principle",
+  "outcome": "Stays inside british-welsh-christianity.",
+  "how": "P5"
+ },
+ "39": {
+  "status": "principle",
+  "outcome": "Stays inside aksumite-christianity.",
+  "how": "P5"
+ },
+ "40": {
+  "status": "principle",
+  "outcome": "Stays inside nicene-visigothic-iberia.",
+  "how": "P5"
+ },
+ "41": {
+  "status": "principle",
+  "outcome": "Stays inside lutheran-wittenberg-and-its-congregations.",
+  "how": "P5"
+ },
+ "42": {
+  "status": "principle",
+  "outcome": "Stays inside franciscan-order-era-6.",
+  "how": "P5"
+ },
+ "43": {
+  "status": "principle",
+  "outcome": "Stays inside fraticelli-spiritual-franciscan-rigorists. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "44": {
+  "status": "principle",
+  "outcome": "Stays inside fraticelli-spiritual-franciscan-rigorists.",
+  "how": "P5"
+ },
+ "45": {
+  "status": "principle",
+  "outcome": "Stays inside latin-papal-church-avignon-to-lateran-v. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "46": {
+  "status": "principle",
+  "outcome": "Stays inside latin-papal-church-avignon-to-lateran-v. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "47": {
+  "status": "principle",
+  "outcome": "Stays inside the-ethiopian-monastic-flowering.",
+  "how": "P5"
+ },
+ "48": {
+  "status": "principle",
+  "outcome": "Stays inside waldensians-in-the-alps.",
+  "how": "P5"
+ },
+ "49": {
+  "status": "principle",
+  "outcome": "Stays inside lollardy.",
+  "how": "P5"
+ },
+ "50": {
+  "status": "principle",
+  "outcome": "Stays inside inquisition-record-sects-adamites-and-kin.",
+  "how": "P5"
+ },
+ "51": {
+  "status": "flag",
+  "outcome": "Principle 2 may win over principle 5: Windesheim has its own chronicle (Busch, Chronicon Windeshemense) and Kempis’s chronicle of Mount St Agnes: a congregation of houses with its own record.",
+  "how": "For Mark"
+ },
+ "52": {
+  "status": "principle",
+  "outcome": "Stays inside the-tridentine-church.",
+  "how": "P5"
+ },
+ "53": {
+  "status": "principle",
+  "outcome": "Stays inside the-tridentine-church.",
+  "how": "P5"
+ },
+ "54": {
+  "status": "principle",
+  "outcome": "Stays inside st-thomas-christians-under-portuguese-pressure-d.",
+  "how": "P5"
+ },
+ "55": {
+  "status": "principle",
+  "outcome": "Stays inside scandinavian-reformation-kingdoms.",
+  "how": "P5"
+ },
+ "56": {
+  "status": "flag",
+  "outcome": "Principle 2 may win over principle 5: The Hutterites have their own chronicle (the Geschichtbuch, Wolkan 1923), a communal body distinct from the Mennonites, and they live on past 1650.",
+  "how": "For Mark"
+ },
+ "57": {
+  "status": "principle",
+  "outcome": "Stays inside the-english-reformation-and-elizabethan-settleme.",
+  "how": "P5"
+ },
+ "58": {
+  "status": "principle",
+  "outcome": "Stays inside the-waldensian-reformed-union.",
+  "how": "P5"
+ },
+ "59": {
+  "status": "principle",
+  "outcome": "Stays inside the-union-of-brest-and-ruthenian-greek-catholic-.",
+  "how": "P5"
+ },
+ "60": {
+  "status": "principle",
+  "outcome": "Stays inside family-of-love-and-spiritualists-franck-niclaes. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "61": {
+  "status": "principle",
+  "outcome": "Stays inside the-anabaptist-movements.",
+  "how": "P5"
+ },
+ "62": {
+  "status": "principle",
+  "outcome": "Stays inside the-tridentine-church.",
+  "how": "P5"
+ },
+ "63": {
+  "status": "principle",
+  "outcome": "Stays inside the-anabaptist-movements.",
+  "how": "P5"
+ },
+ "64": {
+  "status": "principle",
+  "outcome": "Stays inside ruthenian-uniate-18th-century.",
+  "how": "P5"
+ },
+ "65": {
+  "status": "principle",
+  "outcome": "Stays inside ruthenian-uniate-18th-century.",
+  "how": "P5"
+ },
+ "66": {
+  "status": "principle",
+  "outcome": "Stays inside restoration-georgian-church-of-england.",
+  "how": "P5"
+ },
+ "67": {
+  "status": "principle",
+  "outcome": "Stays inside restoration-georgian-church-of-england.",
+  "how": "P5"
+ },
+ "68": {
+  "status": "principle",
+  "outcome": "Stays inside camisard-prophetism.",
+  "how": "P5"
+ },
+ "69": {
+  "status": "principle",
+  "outcome": "Stays inside the-old-believers.",
+  "how": "P5"
+ },
+ "70": {
+  "status": "principle",
+  "outcome": "Stays inside the-methodist-revival.",
+  "how": "P5"
+ },
+ "71": {
+  "status": "principle",
+  "outcome": "Stays inside catholic-church-ancien-regime.",
+  "how": "P5"
+ },
+ "72": {
+  "status": "principle",
+  "outcome": "Stays inside camisard-prophetism.",
+  "how": "P5"
+ },
+ "73": {
+  "status": "principle",
+  "outcome": "Stays inside radical-pietism-and-the-brethren-dunkers-ephrata.",
+  "how": "P5"
+ },
+ "74": {
+  "status": "principle",
+  "outcome": "Stays inside radical-pietism-and-the-brethren-dunkers-ephrata. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "75": {
+  "status": "principle",
+  "outcome": "Stays inside the-welsh-revival-tradition.",
+  "how": "P5"
+ },
+ "76": {
+  "status": "principle",
+  "outcome": "Stays inside catholic-church-ancien-regime.",
+  "how": "P5"
+ },
+ "77": {
+  "status": "principle",
+  "outcome": "Stays inside the-quakers-religious-society-of-friends.",
+  "how": "P5"
+ },
+ "78": {
+  "status": "principle",
+  "outcome": "Stays inside the-moravian-church-at-herrnhut.",
+  "how": "P5"
+ },
+ "79": {
+  "status": "flag",
+  "outcome": "Principle 2 may win over principle 5: The Nonjurors became a separate communion after 1689, with voices of their own on the shelf (Ken, Law).",
+  "how": "For Mark"
+ },
+ "80": {
+  "status": "principle",
+  "outcome": "Stays inside orthodoxy-under-the-ottomans-1650-1821. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "81": {
+  "status": "principle",
+  "outcome": "Stays inside the-baptists. As a person, they get a mark only if the later-worlds count (10d) picks them up.",
+  "how": "P5"
+ },
+ "82": {
+  "status": "principle",
+  "outcome": "Stays inside the-baptists.",
+  "how": "P5"
+ },
+ "83": {
+  "status": "principle",
+  "outcome": "Stays inside german-pietism-spener-francke-halle.",
+  "how": "P5"
+ },
+ "84": {
+  "status": "principle",
+  "outcome": "Stays inside english-old-dissent.",
+  "how": "P5"
+ },
+ "85": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "86": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "87": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "88": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "89": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "90": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "91": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "92": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "93": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "94": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "95": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "96": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "97": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "98": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "99": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "100": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "101": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "102": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "103": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "104": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "105": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "106": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "107": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ },
+ "108": {
+  "status": "principle",
+  "outcome": "Left out.",
+  "how": "P6"
+ }
+}
