@@ -160,8 +160,6 @@ The copy rules of V2.0 §3 hold. Every claim is a dated, published act or text. 
 
 Scored with `engine/m7/readability.py`'s `measure`. Initials ("Daniel K.", "D. James") were joined for scoring so that they do not count as sentence breaks.
 
-| field | words | Reading Ease | FK grade |
-|---|---|---|---|
 After Round 1:
 
 | field | words | Reading Ease | FK grade |
