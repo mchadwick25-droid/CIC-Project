@@ -36,6 +36,9 @@ function textLines(file) {
   return textCache.get(file);
 }
 const HEX = /^#[0-9A-Fa-f]{6}$/;
+// A movement's kind: absent means a church body; "cross-church movement" is a defined
+// movement that runs across church bodies rather than being one.
+const MOVEMENT_KINDS = new Set(["cross-church movement"]);
 
 // --- eras ---
 if (!Array.isArray(d.eras) || d.eras.length === 0) errs.push("eras: missing/empty");
@@ -58,6 +61,8 @@ const byId = new Map();
   if (typeof m.start === "number" && typeof m.end === "number" && m.start > m.end)
     errs.push(`${m.id}: start ${m.start} > end ${m.end}`);
   if (m.era != null && !eraNums.has(m.era)) errs.push(`${m.id}: unknown era ${m.era}`);
+  if (m.kind !== undefined && !MOVEMENT_KINDS.has(m.kind))
+    errs.push(`${m.id}: unknown kind "${m.kind}" (leave it off for a church body; allowed: ${[...MOVEMENT_KINDS].join(", ")})`);
   if (m.status === "Built & Live" && !m.entry) errs.push(`${m.id}: Built & Live but no entry block`);
   if (m.shortName && m.shortName.length > 20) warn.push(`${m.id}: shortName >20 chars ("${m.shortName}")`);
   // Decision 7 (2026-09-25, Mark's ruling "a"): statusWord is plain words at
@@ -145,6 +150,7 @@ const retiredMovementIds = new Set();
   if (byId.has(r.id)) errs.push(`retiredMovements[${i}]: ${r.id} is retired but still in use`);
   retiredMovementIds.add(r.id);
   if (r.redirectTo && !byId.has(r.redirectTo)) errs.push(`retiredMovements[${i}]: redirectTo ${r.redirectTo} is not a current movement`);
+  if (!r.redirectTo && !r.name) errs.push(`retiredMovements[${i}]: ${r.id} keeps its own retired page, which needs the movement's name`);
 });
 
 // --- release and identifier promise ---
@@ -230,7 +236,12 @@ if (atlasPath) {
 if (treeDir) {
   const page = id => { const f = `${treeDir}/${id}.html`; return existsSync(f) ? readFileSync(f, "utf8") : null; };
   for (const m of d.movements ?? []) if (page(m.id) === null) errs.push(`${m.id}: no tree page at ${treeDir}/${m.id}.html`);
-  for (const r of d.retiredMovements ?? []) if (r.redirectTo && page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`);
+  for (const r of d.retiredMovements ?? []) {
+    if (r.redirectTo) { if (page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`); continue; }
+    const html = page(r.id);
+    if (html === null) errs.push(`retired ${r.id}: no retired page at ${treeDir}/${r.id}.html`);
+    else if (!html.includes('data-retired="true"')) errs.push(`retired ${r.id}: its tree page still serves the old entry, not the retired notice`);
+  }
   for (const e of d.edges ?? []) {
     for (const end of [e.from, e.to]) {
       const html = page(end);

@@ -749,3 +749,14 @@ well-known facts, jurisdiction and page recordings the two agree.
 - **New chunks:** the People layer on the map (switch, rows, gap placement, links by view); the
   silhouette set, drawn with P2-K1; and the likeness check (rights and date per image).
 - **The source-research thread** gets the wanted texts for the held gaps.
+## 2026-11-09 — Era 10 follow-up rulings
+
+**Decided (Mark: "take every recommendation").**
+- IX.50, the Christian Right, enters as a thin Tier 3 cross-church movement, 1979 to c. 2010
+  (G-15 (i)).
+- IX.53, faith missions, stays held until its statement of faith is found.
+- IX.31's old page shows a "retired" notice. This follows G-8(a): the row is retired with no
+  redirect.
+- Re-voicing starts with a small paid sample that Mark approves by ear.
+
+Full entry: Atlas World Map Decision-Log, same date.

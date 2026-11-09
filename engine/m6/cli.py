@@ -9,7 +9,7 @@ from pathlib import Path
 from engine.m1.registry import load_registry
 
 from . import atlas_html
-from .census_atlas_sync import edges_out_of_sync, sync_atlas
+from .census_atlas_sync import edges_out_of_sync, eras_out_of_sync, sync_atlas, sync_roster
 from .census_sync import sync_census
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -64,6 +64,9 @@ def _summarize_changes(changes: list[dict]) -> list[dict]:
 
 def cmd_atlas_sync(args: argparse.Namespace) -> int:
     census = _load_census()
+    roster, added, removed = sync_roster(census, atlas_html.read_movements(ATLAS_PATH))
+    if added or removed:
+        atlas_html.write_roster(ATLAS_PATH, roster)
     atlas_movements = atlas_html.read_movements(ATLAS_PATH)
     new_movements, changes = sync_atlas(census, atlas_movements)
     updates: dict[str, dict] = {}
@@ -71,21 +74,26 @@ def cmd_atlas_sync(args: argparse.Namespace) -> int:
         updates.setdefault(c["id"], {})[c["field"]] = c["new"]
     if updates:
         atlas_html.apply_movement_updates(ATLAS_PATH, updates)
+    eras_changed = atlas_html.write_eras(ATLAS_PATH, census.get("eras", []))
     edges_changed = atlas_html.write_edges(ATLAS_PATH, census.get("edges", []))
-    print(json.dumps({"changed": bool(changes) or edges_changed, "edges_changed": edges_changed,
-                      "changes": _summarize_changes(changes)}, indent=2))
+    print(json.dumps({"changed": bool(added or removed or changes) or eras_changed or edges_changed,
+                      "added": added, "removed": removed, "eras_changed": eras_changed,
+                      "edges_changed": edges_changed, "changes": _summarize_changes(changes)}, indent=2))
     return 0
 
 
 def cmd_atlas_check(args: argparse.Namespace) -> int:
     census = _load_census()
     atlas_movements = atlas_html.read_movements(ATLAS_PATH)
+    _, added, removed = sync_roster(census, atlas_movements)
     _, changes = sync_atlas(census, atlas_movements)
+    eras_differ = eras_out_of_sync(census, atlas_html.read_eras(ATLAS_PATH))
     edges_differ = edges_out_of_sync(census, atlas_html.read_edges(ATLAS_PATH))
     if args.edges_only:
-        changes = []
-    passed = not changes and not edges_differ
-    print(json.dumps({"pass": passed, "edges_differ": edges_differ, "changes": _summarize_changes(changes)}, indent=2))
+        added, removed, changes, eras_differ = [], [], [], False
+    passed = not (added or removed or changes or eras_differ or edges_differ)
+    print(json.dumps({"pass": passed, "added": added, "removed": removed, "eras_differ": eras_differ,
+                      "edges_differ": edges_differ, "changes": _summarize_changes(changes)}, indent=2))
     return 0 if passed else 1
 
 
@@ -99,7 +107,7 @@ def main(argv: list[str] | None = None) -> int:
     check = sub.add_parser("check", help="report drift between world-census.json and what sync would produce, without writing - the CI gate")
     check.set_defaults(func=cmd_check)
 
-    atlas_sync = sub.add_parser("atlas-sync", help="sync atlas-v3.html's embedded movement records from world-census.json (census.json is authoritative), writing the file if it changed")
+    atlas_sync = sub.add_parser("atlas-sync", help="sync the map's embedded movements, eras and links from world-census.json (census.json is authoritative), writing the file if it changed")
     atlas_sync.set_defaults(func=cmd_atlas_sync)
 
     atlas_check = sub.add_parser("atlas-check", help="report drift between atlas-v3.html and world-census.json without writing - the CI gate")

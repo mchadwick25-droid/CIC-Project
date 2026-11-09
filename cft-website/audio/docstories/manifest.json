@@ -2310,11 +2310,11 @@
   "chars": 1500
  },
  "the-salvation-army-0": {
-  "hash": "638124e0ea3a3813",
+  "hash": "7f5cb093687c456d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1424
+  "chars": 1423
  },
  "the-salvation-army-1": {
   "hash": "0b856e1b2030a077",
@@ -2947,11 +2947,11 @@
   "chars": 1644
  },
  "azusa-street-and-early-pentecostalism-0": {
-  "hash": "bb23881da644e8f7",
+  "hash": "1aff102a077faac4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1399
+  "chars": 1398
  },
  "azusa-street-and-early-pentecostalism-1": {
   "hash": "957c2ee83eff6ee2",
@@ -3409,11 +3409,11 @@
   "chars": 1464
  },
  "new-calvinism-young-restless-reformed-0": {
-  "hash": "be15593a5f8795b7",
+  "hash": "312d48e7ee0d2058",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1509
+  "chars": 1325
  },
  "new-calvinism-young-restless-reformed-1": {
   "hash": "82a8072f9c99b92d",
