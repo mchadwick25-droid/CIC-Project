@@ -639,3 +639,15 @@ stays held for Mark's direct answer. G-49 was withdrawn. Full entry, with what t
 Atlas World Map Decision-Log, "ERA 10 GATE", same date. The work runs as P2-E10a (the census pass
 on the existing rows), P2-E10b (new rows and named lines) and P2-E10c (the `kind` field and its
 drawing, the method-page line, the era band). Then P2-L10 and P2-V.
+
+## 2026-11-09 — Era 10 follow-up rulings
+
+**Decided (Mark: "take every recommendation").**
+- IX.50, the Christian Right, enters as a thin Tier 3 cross-church movement, 1979 to c. 2010
+  (G-15 (i)).
+- IX.53, faith missions, stays held until its statement of faith is found.
+- IX.31's old page shows a "retired" notice. This follows G-8(a): the row is retired with no
+  redirect.
+- Re-voicing starts with a small paid sample that Mark approves by ear.
+
+Full entry: Atlas World Map Decision-Log, same date.

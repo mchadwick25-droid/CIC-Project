@@ -13,7 +13,25 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
-## 2026-11-08 — Change order, pending Mark: faith missions (IX.53) held at build
+## 2026-11-09 — Era 10 follow-up rulings (Mark: "take every recommendation")
+
+**Decided (Mark, on the four questions left after data release 22).**
+1. **G-15, IX.50 the Christian Right: option (i).** IX.50 enters as a Tier 3 row of kind
+   "cross-church movement", 1979 to c. 2010. It is marked thin on lived ecology (B2). Its Section A
+   reading rests on unverified items, which go to the wanted list. It is drafted from D-E6 and
+   reviewed before it enters.
+2. **IX.53 faith missions: held (option a).** This closes the change order below ("pending Mark")
+   as recommended. The row waits for a statement of faith from the IFMA (Frizen 1992; Wheaton BGC
+   Archives collection 352). Its atlasId stays reserved.
+3. **IX.31's old page shows a "retired" notice.** No recommendation was put to Mark on this one.
+   It follows from G-8(a), which retired the row with no redirect, so the address stays and says
+   plainly that the entry was retired and why.
+4. **Re-voicing the stale recordings: sample first.** A small sample is generated with every paid
+   setting passed explicitly and printed, and Mark approves it by ear before any full batch.
+
+---
+
+## 2026-11-08 — Change order: faith missions (IX.53) held at build (ruled 2026-11-09: held)
 
 **Open, for Mark.** The gate ruling added faith missions under G-57(a), which set no Section A
 condition. At the build (P2-E10b), the Section A research found no statement of faith for its
