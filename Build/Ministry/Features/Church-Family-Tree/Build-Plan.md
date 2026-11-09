@@ -89,6 +89,7 @@ applied to every shared file, not only the census.
 | P2-E10b | Era 10 new rows (Anglican Communion, six movements) and named lines, drafted and reviewed | none (3-round cap) | done on the branch (data release 22): IX.52 and IX.54 to IX.58 added, IX.53 held pending Mark (Open-Gaps 2026-11-08) |
 | P2-E10c | `kind` "cross-church movement" and its band; the method-page line; the era band text | Mark sees screenshots on the preview | todo |
 | P2-E10g | Era 10 global completeness sweep, by region and by river (Mark, 2026-11-09) | Mark's gate | in progress |
+| P2-G89 | Global completeness sweep, eras 8 and 9, by region and river (Mark, 2026-11-09: "eras 8 - 10 for now"); frozen eras, so additions are change orders | Mark's gate | todo (after P2-E10g) |
 | P2-L10 | Links, era 10 | Mark's era 10 gate ruling (P2-E10) | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |

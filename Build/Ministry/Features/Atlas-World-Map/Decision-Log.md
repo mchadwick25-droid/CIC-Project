@@ -34,7 +34,13 @@ by scholars from and of those regions come first. Mark added: "look at non-engli
 like we have in other eras". So each region's own-language sources are searched alongside English
 ones: founding texts and statements of faith in the original language, regional scholarship in
 those languages, and the Library's non-English editions. Each is cited in its original-language
-title with an English gloss, and quotes are given in the original with a close rendering. The work goes through the same review rounds
+title with an English gloss, and quotes are given in the original with a close rendering.
+
+**Scope (Mark, asked whether eras 1 to 9 get the same check: "eras 8 - 10 for now").** The
+region-and-river sweep covers eras 8 (1650–1815), 9 (1815–1906) and 10. Eras 8 and 9 are frozen,
+so any addition there comes to Mark as a named change order, as the Armenian Apostolic row did
+(2026-11-08). The era 10 sweep runs first, and eras 8 and 9 follow with the same four regions,
+rivers and source rule. Eras 1 to 7 are not swept for now. The work goes through the same review rounds
 and back to Mark's gate. The census does not change until he rules.
 
 ---
