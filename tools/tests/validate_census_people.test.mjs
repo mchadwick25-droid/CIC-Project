@@ -52,18 +52,26 @@ test("every movement has a people list and every entry a review status", () => {
   assert.equal(errorsFor((c, m) => { m(HOME).reviewStatus = "checked"; }).length, 1);
 });
 
-test("a named voice must be named in its voices line and backed by the Library", () => {
-  const voice = (c, m, extra) => { const h = m(HOME); h.people = [{ person: PERSON }, { name: "Lactantius", year: 303, voice: h.voices.findIndex(v => v.includes("Lactantius")), ...extra }]; };
-  assert.equal(errorsFor((c, m) => voice(c, m, {})).length, 1);
-  assert.equal(errorsFor((c, m) => voice(c, m, { held: "cic/texts/README.md" })).length, 0);
-  assert.equal(errorsFor((c, m) => voice(c, m, { held: "cic/texts/README.md", name: "Nobody Named Here" })).length, 1);
+const ARNOBIUS_ROW = readFileSync("cic/corpus-map/latin-apologists.yaml", "utf8").match(/^- row_id: (.+)\n(?:  .*\n)*?  author: arnobius$/m)[1];
+const arnobius = (h, extra = {}) => ({ name: "Arnobius", year: 300, voice: h.voices.findIndex(v => v.includes("Arnobius")), author: "arnobius", held: ARNOBIUS_ROW, ...extra });
+
+test("a named voice must be named in its voices line and held on its own shelf by its author", () => {
+  assert.deepEqual(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h)]; }), []);
+  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: undefined })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { author: "lactantius" })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: "no-such-row" })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { name: "Nobody Named Here" })]; }).length, 1);
 });
 
 test("the people list runs in date order", () => {
+  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { year: 100 })]; }).length, 1);
+});
+
+test("a person entry is not listed again as a named voice", () => {
   assert.equal(errorsFor((c, m) => {
     const h = m(HOME);
-    h.people = [{ person: PERSON }, { name: "Tertullian", year: 100, voice: 0, held: "cic/texts/README.md" }];
-  }).length, 1);
+    h.people = [{ person: PERSON }, arnobius(h, { name: "Tertullian", voice: 0 })];
+  }).filter(l => l.includes("already in this row")).length, 1);
 });
 
 test("concerns must name a person entry its note or a quote names", () => {
@@ -76,6 +84,7 @@ test("concerns must name a person entry its note or a quote names", () => {
 test("the descent grade takes the five confidence levels, on a living tradition", () => {
   const living = census.movements.find(m => m.living && m.livingEvidence).id;
   assert.deepEqual(errorsFor((c, m) => { m(living).livingEvidence.descentConfidence = "Contested"; }), []);
+  assert.equal(errorsFor((c, m) => { m(living).livingEvidence = { descentConfidence: "Contested" }; }).length, 1);
   assert.equal(errorsFor((c, m) => { m(living).livingEvidence.descentConfidence = "Likely"; }).length, 1);
-  assert.equal(errorsFor((c, m) => { m(HOME).livingEvidence = { descentConfidence: "Contested" }; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(HOME).livingEvidence = { basis: "A stated basis.", descentConfidence: "Contested" }; }).length, 1);
 });

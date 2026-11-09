@@ -842,3 +842,5 @@ it, never by deleting it.
       `post-apostolic-house-church--valentinian-and-other-gnostic-christianities` and
       `greek-apologists-second-century--valentinian-and-other-gnostic-christianities`. `concerns` is
       left off them. Whether each is about him is P2-G3's reading.
+    - Tertullian's entry is still called "Tertullian's Voice", which reads as a label now that the
+      page is headed "About This Person". The ID stays. Renaming the display name is P2-G3's call.

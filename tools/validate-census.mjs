@@ -135,6 +135,25 @@ const KINDS = new Set(["person", "cross-church movement"]);
 const REVIEW = new Set(["AI-checked", "partner-contributed", "scholar-reviewed"]);
 const isPerson = m => m?.kind === "person";
 const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
+// A held voice names a row on the movement's own Library shelf (cic/corpus-map/<id>.yaml) and that row's author.
+const shelfCache = new Map();
+function shelfAuthor(movementId, rowId) {
+  if (!shelfCache.has(movementId)) {
+    const f = `cic/corpus-map/${movementId}.yaml`;
+    const rows = new Map();
+    if (existsSync(f)) {
+      let row = null;
+      for (const line of readFileSync(f, "utf8").split("\n")) {
+        const r = /^- row_id: (.+)$/.exec(line);
+        if (r) { row = r[1].trim(); rows.set(row, null); continue; }
+        const a = /^  author: (.+)$/.exec(line);
+        if (a && row && rows.get(row) === null) rows.set(row, a[1].trim());
+      }
+    }
+    shelfCache.set(movementId, rows);
+  }
+  return shelfCache.get(movementId).get(rowId);
+}
 (d.movements ?? []).forEach(m => {
   if (m.kind !== undefined && !KINDS.has(m.kind)) errs.push(`${m.id}: kind must be "person" or "cross-church movement", or left off for a movement`);
   if (isPerson(m)) {
@@ -154,6 +173,7 @@ const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
   if (m.livingEvidence?.descentConfidence !== undefined) {
     if (!CONFIDENCE.has(m.livingEvidence.descentConfidence)) errs.push(`${m.id}: livingEvidence.descentConfidence must be one of the five formation_confidence levels`);
     if (m.living !== true) errs.push(`${m.id}: livingEvidence.descentConfidence grades a living tradition, but living is not true`);
+    if (typeof m.livingEvidence.basis !== "string" || !m.livingEvidence.basis.trim()) errs.push(`${m.id}: livingEvidence.descentConfidence needs livingEvidence.basis, what the grade rests on`);
   }
   const seen = new Set();
   let last = -Infinity;
@@ -170,8 +190,15 @@ const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
       const line = (m.voices ?? [])[p.voice];
       if (typeof line !== "string") errs.push(`${pt}: voice must be the index of a line in voices`);
       else if (p.name && !line.includes(p.name)) errs.push(`${pt}: "${p.name}" is not named in voices[${p.voice}]`);
-      if ((p.held === undefined) === (p.source === undefined)) errs.push(`${pt}: a named voice needs held (a Library file of their words) or source (a quote), one of the two`);
-      if (p.held !== undefined && (typeof p.held !== "string" || !p.held.startsWith("cic/texts/") || !existsSync(p.held))) errs.push(`${pt}: held ${p.held} is not a file under cic/texts/`);
+      if ((p.held === undefined) === (p.source === undefined)) errs.push(`${pt}: a named voice needs held (a Library row of their words) or source (a quote of their words), one of the two`);
+      if (p.held !== undefined) {
+        const author = shelfAuthor(m.id, p.held);
+        if (author === undefined) errs.push(`${pt}: held ${p.held} is not a row on the ${m.id} Library shelf`);
+        else if (!p.author || author !== p.author) errs.push(`${pt}: held row ${p.held} is by ${author}, not by the voice's author ${p.author}`);
+      }
+      const twin = (m.people ?? []).map(q => q.person && byId.get(q.person)).filter(Boolean)
+        .find(w => p.name && [w.shortName, w.name].some(n => n && (p.name.includes(n) || n.includes(p.name))));
+      if (twin) errs.push(`${pt}: ${p.name} is already in this row as the person entry ${twin.id}`);
       if (p.source !== undefined) {
         const s = p.source;
         if (!s.work || !s.file || !s.lines || !s.quote) errs.push(`${pt}: source needs work, file, lines and quote`);
@@ -180,7 +207,6 @@ const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
           const r = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
           if (!lines || !r) errs.push(`${pt}: source ${s.file} lines ${s.lines} not found under cic/texts/`);
           else if (!squash(lines.slice(+r[1] - 1, +(r[2] ?? r[1])).join(" ")).includes(squash(s.quote))) errs.push(`${pt}: quote not found verbatim in ${s.file} lines ${s.lines}`);
-          else if (p.name && !s.quote.includes(p.name)) errs.push(`${pt}: the quote does not name ${p.name}`);
         }
       }
     }

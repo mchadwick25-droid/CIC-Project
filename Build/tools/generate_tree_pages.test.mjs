@@ -143,7 +143,7 @@ test('a person page says which tradition tells it, and carries that world door w
   const page = read(`tree/${person.id}.html`);
   const home = c.movements.find(m => m.id === person.toldWithin);
   const world = c.movements.find(m => m.id === open.id);
-  assert.match(page, new RegExp(`<p class="told-within">A person, told within <a href="${home.id}.html">`));
+  assert.match(page, new RegExp(`<p class="told-within">A person. The tradition that tells their story: <a href="${home.id}.html">`));
   assert.match(page, /<h2>About This Person<\/h2>/);
   assert.match(read(`tree/${home.id}.html`), new RegExp(`<ul class="people-list">\\s*<li><a href="${person.id}.html">`));
   person.toldWithin = world.id;
@@ -164,7 +164,7 @@ test('every page states its review status in plain words', () => {
   const [a, b] = c.movements;
   b.reviewStatus = 'scholar-reviewed';
   const read = generate(c);
-  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked against its sources with AI tools\. No scholar or church partner has reviewed it yet\./);
+  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked with AI tools\. No scholar or church partner has reviewed it yet\./);
   assert.match(read(`tree/${b.id}.html`), /<b>Review:<\/b> reviewed by a scholar\./);
 });
 

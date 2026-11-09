@@ -98,7 +98,7 @@ applied to every shared file, not only the census.
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |
 | P2-S | Find-your-church search | none | todo |
 | P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
-| P2-G2 | Schema additions | none | done (data release 23, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
+| P2-G2 | Schema additions | none | done on the branch (data release 23, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
 | P2-G3 | The agreed entries | narration sample, by ear; Mark sees the people list | todo |
 | P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |

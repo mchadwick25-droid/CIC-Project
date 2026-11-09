@@ -321,7 +321,7 @@ function hasNarration(movement) {
 
 // Review status (Decision-Log 2026-11-06, ruling 18), in plain words on every page.
 const REVIEW_WORDS = {
-  'AI-checked': 'checked against its sources with AI tools. No scholar or church partner has reviewed it yet.',
+  'AI-checked': 'checked with AI tools. No scholar or church partner has reviewed it yet.',
   'partner-contributed': 'written with a church partner from this tradition. No scholar has reviewed it yet.',
   'scholar-reviewed': 'reviewed by a scholar.',
 };
@@ -337,7 +337,7 @@ function toldWithinLine(movement) {
   if (movement.kind !== 'person') return '';
   const home = movement.toldWithin ? movementMap.get(movement.toldWithin) : null;
   if (!home) return `<p class="told-within">A person whose story no single tradition tells.</p>`;
-  return `<p class="told-within">A person, told within <a href="${home.id}.html">${escapeHtml(home.name)}</a>.</p>`;
+  return `<p class="told-within">A person. The tradition that tells their story: <a href="${home.id}.html">${escapeHtml(home.name)}</a>.</p>`;
 }
 
 function peopleHtml(movement) {
