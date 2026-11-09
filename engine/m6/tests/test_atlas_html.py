@@ -154,3 +154,34 @@ def test_write_edges_replaces_array_and_reports_change(tmp_path):
     assert atlas_html.read_edges(path) == new_edges
     assert atlas_html.read_movements(path)[0]["id"] == "movement-a"
     assert atlas_html.write_edges(path, new_edges) is False
+
+
+def test_write_roster_keeps_held_rows_byte_for_byte_and_drops_the_rest(tmp_path):
+    path = _write_fixture(tmp_path)
+    before = path.read_text(encoding="utf-8")
+    held_b = before[before.index('{\n   "id": "movement-b"'):before.index('\n ],\n "edges"')]
+    new_row = {"id": "movement-c", "kind": "cross-church movement", "names": ["one", "two"]}
+    assert atlas_html.write_roster(path, [{"id": "movement-b"}, new_row]) is True
+    after = path.read_text(encoding="utf-8")
+    assert [m["id"] for m in atlas_html.read_movements(path)] == ["movement-b", "movement-c"]
+    assert atlas_html.read_movements(path)[1] == new_row
+    assert held_b in after
+    assert "Old why text." not in after
+    assert '  {\n   "id": "movement-c",\n   "kind": "cross-church movement",\n   "names": [\n    "one",' in after
+    assert atlas_html.read_edges(path)[0]["from"] == "movement-a"
+
+
+def test_write_roster_with_the_same_rows_is_a_no_op(tmp_path):
+    path = _write_fixture(tmp_path)
+    assert atlas_html.write_roster(path, atlas_html.read_movements(path)) is False
+    assert path.read_text(encoding="utf-8") == FIXTURE
+
+
+def test_write_eras_replaces_the_eras_array(tmp_path):
+    path = tmp_path / "atlas.html"
+    path.write_text(FIXTURE.replace(' "movements": [', ' "eras": [\n  {\n   "num": 1\n  }\n ],\n "movements": ['), encoding="utf-8")
+    assert atlas_html.read_eras(path) == [{"num": 1}]
+    assert atlas_html.write_eras(path, [{"num": 1, "dates": "1906-c. 2010"}]) is True
+    assert atlas_html.read_eras(path) == [{"num": 1, "dates": "1906-c. 2010"}]
+    assert atlas_html.write_eras(path, [{"num": 1, "dates": "1906-c. 2010"}]) is False
+    assert atlas_html.read_movements(path)[0]["id"] == "movement-a"

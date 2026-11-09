@@ -58,6 +58,7 @@ svg#world{display:block;overflow:visible}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
 .era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
+.era-close{font-style:italic;fill:var(--gold-leaf)}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
@@ -116,6 +117,8 @@ svg#world{display:block;overflow:visible}
 #panel .door-quiet{font-size:.82rem;color:var(--ink-faded);margin:0 0 .9rem}
 #panel .act:hover{background:var(--madder)}
 #panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel .kindpill{border-style:dashed;text-transform:none;letter-spacing:.02em;font-size:.8rem}
+.current-band{pointer-events:none}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
@@ -289,7 +292,8 @@ const DATA = {
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "Part of Phase One — the Step 0 selection record is on file."
+   "rec": "Part of Phase One — the Step 0 selection record is on file.",
+   "chooserTint": "#C9973A"
   },
   {
    "no": "II",
@@ -306,7 +310,8 @@ const DATA = {
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "Part of Phase One — the Step 0 selection record is on file."
+   "rec": "Part of Phase One — the Step 0 selection record is on file.",
+   "chooserTint": "#7E9B6E"
   },
   {
    "no": "III",
@@ -323,7 +328,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "IV",
@@ -340,7 +346,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "V",
@@ -357,7 +364,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen (III.1→IV.22 spine question open)",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "VI",
@@ -374,7 +382,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "VII",
@@ -391,7 +400,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": "#6C8DB5"
   },
   {
    "no": "VIII",
@@ -408,7 +418,8 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "IX",
@@ -425,24 +436,25 @@ const DATA = {
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   },
   {
    "no": "X",
    "num": 10,
    "title": "The Global Church Era",
    "academicName": "World Christianity",
-   "dates": "1906-present",
+   "dates": "1906-c. 2010",
    "keyEvents": [
-    "Azusa Street Revival begins (1906)",
-    "World War I (1914–18)",
+    "Azusa Street Revival (1906) and Edinburgh Missionary Conference (1910)",
     "Second Vatican Council (1962–65)"
    ],
-   "tag": "The center of gravity moves south and east",
+   "tag": "A century of global Christianity",
    "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
-   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
+   "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts.",
+   "chooserTint": ""
   }
  ],
  "statusMeta": {
@@ -33127,6 +33139,46 @@ const DATA = {
    "modernCountries": []
   },
   {
+   "id": "armenian-christianity-before-the-bagratids",
+   "atlasId": "II.19",
+   "era": 3,
+   "name": "Armenian Christianity before the Bagratids",
+   "shortName": "Pre-Bagratid Armenia",
+   "informalName": "The Armenian Church before the Bagratids",
+   "dates": "c. 554-884",
+   "start": 554,
+   "end": 884,
+   "region": "Armenia",
+   "placeLabel": "Armenia",
+   "modernCountries": [],
+   "regions": [
+    "Caucasus"
+   ],
+   "lane": "2 Caucasus",
+   "laneLabel": "Caucasus",
+   "laneOrder": 2,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: one work is vendored - Conybeare's Rituale Armenorum with the Old Armenian Lectionary, in manuscripts of the 9th to the 14th century.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "The Armenian church from the council of Dvin in 554 to the crowning of a Bagratid king in the 880s. Around 600 the Georgian church broke away from it over the Council of Chalcedon.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Armenia, c. 554 to 884.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
+  },
+  {
    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
    "documentedStories": [
     {
@@ -33951,6 +34003,59 @@ const DATA = {
      "placeId": "Q610"
     }
    ]
+  },
+  {
+   "id": "medieval-irish-christianity",
+   "atlasId": "III.24",
+   "era": 4,
+   "name": "Medieval Irish Christianity",
+   "shortName": "Medieval Ireland",
+   "informalName": "The Irish Church",
+   "dates": "c. 664-1169",
+   "start": 664,
+   "end": 1169,
+   "region": "Ireland",
+   "placeLabel": "Ireland",
+   "modernCountries": [
+    {
+     "country": "Ireland",
+     "countryId": "Q27",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: one work is vendored - the Lives from the Book of Lismore, a late compilation.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "The church in Ireland from 664, the year of the Synod of Whitby, to 1169, when the Anglo-Norman invasion began.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Ireland, c. 664 to 1169.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
   },
   {
    "id": "aksumite-christianity",
@@ -35058,6 +35163,53 @@ const DATA = {
    ]
   },
   {
+   "id": "medieval-welsh-christianity",
+   "atlasId": "III.23",
+   "era": 4,
+   "name": "Medieval Welsh Christianity",
+   "shortName": "Medieval Wales",
+   "informalName": "The Welsh Church",
+   "dates": "c. 768-1282",
+   "start": 768,
+   "end": 1282,
+   "region": "Wales",
+   "placeLabel": "Wales",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Wales",
+     "placeId": "Q25"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: three works are vendored - Annales Cambriae (to 954), the Historia Brittonum (attributed to Nennius) and the Lives of the Cambro-British saints.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Wales, c. 768 to 1282.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
+  },
+  {
    "id": "the-church-of-the-east-on-the-silk-road",
    "documentedStories": [
     {
@@ -35186,6 +35338,47 @@ const DATA = {
    "statusDescription": "Tiered Viable, secondary (Tier 2) — its sourcing is spectacular fragments over long silent stretches, stated here plainly rather than softened. Its doctrinal floor holds in this era's own window. Timothy I's Apology before al-Mahdi defends the divinity of Christ in the patriarch's own words, alongside the synodal record cited elsewhere for this communion.",
    "placeLabel": "Persia · Central Asia and beyond",
    "modernCountries": []
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids",
+   "atlasId": "III.25",
+   "era": 4,
+   "name": "The Church of the East under the Abbasids",
+   "shortName": "Abbasid East Syriac",
+   "informalName": "The Abbasid-Era Church of the East",
+   "dates": "c. 845-1220",
+   "start": 845,
+   "end": 1220,
+   "region": "Mesopotamia",
+   "placeLabel": "Mesopotamia",
+   "modernCountries": [],
+   "regions": [
+    "Greater Asia",
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: one work is vendored - the Chronicle of Seert, an anonymous Arabic compilation whose date scholars place between the 9th and 11th centuries.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "The Church of the East from 845 to 1220. These are the years after its mission in Tang China faded and before the Mongols came west. Its head was still ordained in Mesopotamia. Theodosius, for one, was ordained at Seleucia about 853.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Mesopotamia, c. 845 to 1220.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
   },
   {
    "id": "melkite-arabic-christianity",
@@ -45686,6 +45879,149 @@ const DATA = {
    ]
   },
   {
+   "id": "kongo-christianity-afonso-to-1650",
+   "atlasId": "VI.13a",
+   "name": "Kongo Christianity, Afonso I to 1650",
+   "shortName": "Kongo",
+   "informalName": "The Christian Kingdom of Kongo",
+   "dates": "1491-1650",
+   "start": 1491,
+   "end": 1650,
+   "region": "Kingdom of Kongo",
+   "placeLabel": "Kingdom of Kongo",
+   "modernCountries": [],
+   "regions": [
+    "Africa"
+   ],
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "A genuine convert voice survives: the letters of King Afonso I in Portuguese, now in the library. Everything else is the mission's and the crown's record. Not yet reviewed.",
+   "sourcing": "Moderate: Afonso I's own letters (c. 1509-1540s) in Portuguese, the 1624 Kikongo catechism still unfound, the Portuguese and papal record for the rest",
+   "floorNote": "No question about their creedal faith. The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "relationsSummary": "Grew from the Portuguese mission of 1491. In 1547 Portugal sent Jesuits to help its bishop. The prophetic movement of Dona Beatriz, from 1704, may have grown out of it, as one modern study holds.",
+   "why": "In Kongo, King Afonso I adopted the faith, built churches, sent his sons to Lisbon, asked for priests, and left letters in his own voice that argue with Portugal about the slave trade and about his church. Almost everything else written about his kingdom's Christians came from missionaries' pens.",
+   "teaser": "The kingdom of Kongo, 1491 to 1650: an African Christian king whose own letters survive, and a church most of whose record was written by its missionaries.",
+   "era": 7,
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null
+  },
+  {
+   "id": "kirishitan-japan",
+   "atlasId": "VI.13b",
+   "name": "Kirishitan Japan",
+   "shortName": "Kirishitan Japan",
+   "informalName": "The Christians of Japan",
+   "dates": "1549-1650",
+   "start": 1549,
+   "end": 1650,
+   "region": "Japan",
+   "placeLabel": "Japan",
+   "modernCountries": [
+    {
+     "country": "Japan",
+     "countryId": "Q17",
+     "place": "Japan",
+     "placeId": "Q17"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Convert letters of 1598 to 1651 survive in French translation beside strong outside witnesses; the Japanese-language texts wait on a rights ruling. Not yet reviewed.",
+   "sourcing": "Moderate: Japanese Christians' letters in French translation, the catechism and apologetic texts in Japanese pending a clean public-domain transcription, English and Dutch outside witnesses; the apostasy registers are coerced evidence",
+   "floorNote": "No question about their creedal faith. The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "relationsSummary": "Grew from the Jesuit mission of 1549. The ban of 1614 drove its communities underground. Later studies hold that hidden believers kept the faith for about two hundred and fifty years without a priest.",
+   "why": "In Japan, a Jesuit mission from 1549 gathered a large Christian population. Then a savage ban drove the survivors underground. Later studies hold that hidden believers kept the faith alive for about 250 years with no priest at all. Their villages are now a World Heritage site.",
+   "teaser": "Japan, 1549 to 1650: a church that grew fast, was outlawed and went underground. Later studies hold it lasted there for two and a half centuries.",
+   "era": 7,
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null
+  },
+  {
+   "id": "china-mission-born-christianity",
+   "atlasId": "VI.13c",
+   "name": "Mission-Born Christianity in Ming China",
+   "shortName": "Ming China",
+   "informalName": "The Christians of Ming China",
+   "dates": "1583-1650",
+   "start": 1583,
+   "end": 1650,
+   "region": "China",
+   "placeLabel": "China",
+   "modernCountries": [],
+   "regions": [
+    "Greater Asia"
+   ],
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — on the atlas, no convert voice yet",
+   "statusDescription": "The mission's own record is in hand in Latin and English; the converts' own texts (Xu Guangqi, Yang Tingyun, the Diary of Oral Admonitions) have no public-domain edition reachable yet. Stays on the atlas until one clears. Not yet reviewed.",
+   "sourcing": "Moderate on the mission side (Ricci and Trigault in Latin and in Purchas's English); the converts' own texts are not yet in the library",
+   "floorNote": "No question about their creedal faith. The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "relationsSummary": "Grew from Matteo Ricci's arrival in 1583 and the Jesuit mission to China.",
+   "why": "In China, Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom. The converts wrote in their own names, but what survives in a form we can read today comes almost entirely from the missionaries' pens.",
+   "teaser": "Ming China, 1583 to 1650: scholars who became Christians, and a record still told mostly by the missionaries.",
+   "era": 7,
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity",
+   "atlasId": "VI.13d",
+   "name": "Mission-Born Christianity in New Spain and the Andes",
+   "shortName": "New Spain, Andes",
+   "informalName": "The Christians of New Spain and the Andes",
+   "dates": "1524-1650",
+   "start": 1524,
+   "end": 1650,
+   "region": "New Spain, the Andes",
+   "placeLabel": "New Spain · the Andes",
+   "modernCountries": [],
+   "regions": [
+    "Latin America"
+   ],
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — on the atlas, no convert voice yet",
+   "statusDescription": "The friars' accounts are in hand in Spanish and English; the native Christian texts (Guaman Poma, the Huarochiri manuscript, the Nahuatl testaments) have no public-domain edition reachable yet, and the extirpation records are hostile evidence. Stays on the atlas until a convert text clears. Not yet reviewed.",
+   "sourcing": "Moderate on the mission side (Motolinia, Acosta); the native Christian voice is not yet in the library",
+   "floorNote": "No question about their creedal faith. The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "relationsSummary": "Grew from the Franciscan mission of 1524 and the Spanish conquest; colonial Latin American devotional Catholicism continues it.",
+   "why": "In Spanish America, conquest and mission arrived together, and Andean and Nahua Christians made something of their own out of what they were given. Guaman Poma's vast illustrated letter to the king protests what colonial Christianity had become; the Huarochiri manuscript exists only because an extirpator of idolatry commissioned it.",
+   "teaser": "New Spain and the Andes, 1524 to 1650: conversion by conquest, and native Christians writing back.",
+   "era": 7,
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null
+  },
+  {
    "id": "anti-trinitarian-currents-servetus-polish-brethr",
    "documentedStories": [
     {
@@ -51476,6 +51812,77 @@ const DATA = {
      "pleiadesId": "658409"
     }
    ]
+  },
+  {
+   "id": "armenian-apostolic-church-era-8",
+   "atlasId": "VII.24a",
+   "era": 8,
+   "name": "Armenian Apostolic Church — Etchmiadzin and Constantinople",
+   "shortName": "Armenian Apostolic",
+   "informalName": "The Church of the Mother See and the Capital",
+   "dates": "1650-1815",
+   "start": 1650,
+   "end": 1815,
+   "region": "Etchmiadzin, Constantinople, Isfahan (New Julfa)",
+   "placeLabel": "Etchmiadzin · Constantinople and beyond",
+   "modernCountries": [
+    {
+     "country": "Armenia",
+     "countryId": "Q399",
+     "place": "Etchmiadzin",
+     "placeId": "Q1294648",
+     "pleiadesId": "327730568"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Caucasus",
+    "Asia Minor"
+   ],
+   "lane": "2 Caucasus",
+   "laneLabel": "Caucasus",
+   "laneOrder": 2,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for later study. Not yet reviewed.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin to moderate. The texts at hand are one catholicos's own story of 1736, a deacon's chronicle up to the 1690s, and Jesuit and Catholic Armenian writings of the time. Later histories come from both sides. No records of the see at Etchmiadzin or of the patriarchate in the capital are yet in hand.",
+   "floorNote": "No question — this is one of the ancient Oriental Orthodox churches. It differs from the churches of Chalcedon on how to speak of Christ as God and man, not on whether he is God.",
+   "relationsSummary": "The head of the church, the catholicos, sat at Etchmiadzin under Persian rule. A patriarch in the sultan's capital led the Armenians of the Ottoman lands. By the sultan's law, even those who joined Rome had to obey him. Catholic missions won over a party of Armenians, and the patriarch fought back hard. The Catholic party used the French ambassadors against him in turn. In 1742 the pope approved a patriarch of their own for the Armenian Catholics. Late in the century, Armenian leaders began to look to Russia.",
+   "why": "For a century and a half, the main Armenian church was led from two places. Its supreme head, the catholicos, lived at Etchmiadzin, and the Persian court had to approve each election. In the Ottoman capital a patriarch led a strong Armenian community, and that city became the center of the nation. This church kept most Armenians in its fold while Rome's missions worked to win them. It also renewed itself, with new schools, a printing press and a turn toward Russia.",
+   "entry": null,
+   "continuesAs": "armenian-christianity-zartonk",
+   "streams": [
+    "oriental-orthodox"
+   ],
+   "longDescription": "Two seats led the Armenian Apostolic Church in these years. The catholicos lived at Etchmiadzin, in lands ruled from Persia. The Persian court had to approve his election. A patriarch led the Armenians of Constantinople, and that city became the center of the nation. Catholic missionaries worked hard to win Armenians to Rome. One of their party once seized the patriarch's seat, but the people drove him out. At the same time a rival bishop had himself proclaimed supreme patriarch of the sultan's lands, against Etchmiadzin. In 1664 the catholicos Hacob IV went to Constantinople to restore order. He died there on a second journey in 1680. The quarrel grew bitter. The patriarch's side had the Ottoman government act against Armenians who had become Catholics. The Catholic side, for its part, used the French ambassadors against the patriarch. In 1703 the patriarch Avedik was put in prison when the French ambassador stepped in. Later he was carried off to France, where he died. Catholic writers record that in 1707 the patriarch John handed the priest Gomidas to the Turks, accusing him of following the Franks. \"I am a Christian and a follower of St. Gregory the Illuminator, Armenian by birth,\" Gomidas told them. He was beheaded. In 1742 the pope approved a separate Armenian Catholic patriarchate. Even so, a Catholic Armenian wrote in 1783 that his people still had to obey the patriarch. They still went to his churches to baptize, marry and bury. In 1722 Afghan armies reached Isfahan, and the Armenians of New Julfa had to ransom their town more than once. In 1736 the catholicos Abraham of Crete went to Nadir's camp on the Mughan plain, where an assembly asked Nadir to rule Persia. Abraham was one of three men chosen to speak for the Armenians, and he came home with seven written orders he had asked for. From 1763 to 1780 the catholicos Simeon of Erevan founded a college, brought in printing and built a paper mill. He also opened the church's first ties with the Russian empire. As Persian rule grew harsher, Armenians began to look to the czar. In 1810 a new catholicos, Ephraim, came to Etchmiadzin under a guard of Russian soldiers.",
+   "teaser": "Etchmiadzin and Constantinople, 1650 to 1815 — the main Armenian church. It was led from a holy see under Persian rule and from the sultan's capital, and it held its people while Rome worked to win them.",
+   "voices": [
+    "Hacob IV of Julfa — head of the church from 1655 to 1680, who went to the sultan's capital in 1664 to restore order",
+    "Gomidas — a priest put to death in 1707; Catholic writers say his own patriarch turned him over to the Turks",
+    "Abraham of Crete — catholicos from 1734 to 1737, who wrote his own account of Nadir Shah's rise to the throne in 1736",
+    "Simeon of Erevan — head of the church from 1763 to 1780, who set up a school, a press and the first ties with Russia",
+    "Zakaria Pokouzian — patriarch in the sultan's capital from 1773 to 1799, who taught his priests himself and put them in charge of schools"
+   ],
+   "legacy": "Much of what this church built in these years lasted. Simeon of Erevan's new church calendar met protest at first. Within a short time, every Armenian church used it. Pupils of the patriarch Zakaria founded the college at Armash, which gave the church many later patriarchs and bishops. In the next century, elected councils came to share in running the patriarchate in the capital. In 1860 a written Armenian statute was drawn up to set the bounds of each council's work.",
+   "experienceToday": [
+    {
+     "text": "Etchmiadzin Cathedral, Vagharshapat, Armenia — the mother church of the Armenian Apostolic Church and a UNESCO World Heritage site",
+     "url": "https://en.wikipedia.org/wiki/Etchmiadzin_Cathedral"
+    }
+   ],
+   "documentedStories": []
   },
   {
    "id": "armenian-christianity-era-8",
@@ -63076,139 +63483,6 @@ const DATA = {
    "modernCountries": []
   },
   {
-   "id": "deconstruction-and-ex-vangelical-communities",
-   "documentedStories": [
-    {
-     "title": "Evolving Faith, and Then May",
-     "when": "October 2018 – October 2019",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "Fifteen hundred people who no longer fit the churches that raised them gather in a Presbyterian conference center in the North Carolina mountains. Seven months later the woman who convened them is dead at thirty-seven, and the gathering has to decide whether it exists without her.",
-     "text": "Rachel Held Evans had grown up in Dayton, Tennessee, the town of the Scopes trial, and had written her way out of the evangelicalism that formed her without leaving Christianity: Searching for Sunday (2015) told how she had come to the Episcopal Church by way of the sacraments, and Inspired (2018) how she had learned to read the Bible again. Her blog had for a decade been a place where people asking her questions found each other. In October 2018 she and the Canadian writer Sarah Bessey convened the first Evolving Faith conference at Montreat, the Presbyterian center in North Carolina where Billy Graham had lived. About fifteen hundred came, many of them people who had lost churches, jobs or families over their questions, and the program was as much liturgy and lament as lecture. In April 2019 Evans was admitted to hospital with an infection; a reaction to the antibiotics brought on seizures, and she was placed in a medically induced coma. Her husband Dan posted updates that were read by hundreds of thousands. She died on 4 May 2019, aged thirty-seven, leaving two children under four. For days people posted what her work had done for them; her funeral at an Episcopal church in Chattanooga on 1 June was livestreamed, with the Lutheran pastor Nadia Bolz-Weber preaching. Bessey and the team decided the gathering would go on. Evolving Faith met in Denver that October with her chair empty, and has met since.",
-     "caveat": "Every element is on the public record: her published books, the conference's own record, her husband's public updates, the reported cause of death, the public funeral. No private person is named. The page does not assess her theology or the movement's.",
-     "sources": [
-      {
-       "work": "Rachel Held Evans, Searching for Sunday: Loving, Leaving, and Finding the Church (Nelson, 2015); Inspired: Slaying Giants, Walking on Water, and Loving the Bible Again (Nelson, 2018)",
-       "type": "primary",
-       "note": "Her own account of the journey."
-      },
-      {
-       "work": "Evolving Faith conference records, Montreat (October 2018) and Denver (October 2019)",
-       "type": "primary",
-       "note": "The gathering's own record."
-      },
-      {
-       "work": "Daniel Evans, public updates on rachelheldevans.com, April–May 2019; funeral, St Paul's Episcopal Church, Chattanooga, 1 June 2019 (livestreamed)",
-       "type": "primary",
-       "note": "The public record of her illness, death and funeral."
-      },
-      {
-       "work": "Emma Green, 'Rachel Held Evans, Hero to Christian Misfits', The Atlantic (May 2019)",
-       "type": "reference",
-       "note": "Contemporary assessment of her place in the current."
-      }
-     ]
-    },
-    {
-     "title": "The Author Kisses the Book Goodbye",
-     "when": "October 2018 – July 2019",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "Twenty-one years after a book that told a generation of evangelical teenagers not to date, its author asks the publisher to stop printing it, apologizes on film to the people it hurt, and the next summer announces that he is no longer a Christian.",
-     "text": "Joshua Harris was twenty-one when I Kissed Dating Goodbye appeared in 1997; it sold over a million copies and, in youth groups across the English-speaking world, became the handbook of the purity movement. He became a pastor, and from 2004 led Covenant Life Church in Maryland, the flagship congregation of a Reformed charismatic network. From 2016 he began publicly inviting readers to tell him what the book had done to them, and a great many did: shame, fear, marriages entered too early or never entered. In October 2018 he announced that he had asked his publisher to discontinue the book and its sequels, and a documentary released the following month, I Survived I Kissed Dating Goodbye, filmed him listening to former readers and apologizing to them. It was, for a movement whose bestsellers rarely retract, an unusual act. Then, in July 2019, in two Instagram posts, he announced first that he and his wife were separating and then that he had undergone 'a massive shift in regard to my faith in Jesus', that by every measure he had of what a Christian was, he was not one, and that he apologized to LGBTQ people for the views he had held and the harm they had done. The posts were reported around the world. Blake Chastain had coined 'exvangelical' as a podcast title and hashtag in 2016 to name people leaving the tradition on such terms; Harris's departure gave the word its most widely known face.",
-     "caveat": "The book, the discontinuation, the documentary and the 2019 posts are all Harris's own published acts, quoted from the posts as he wrote them. He is a living person, and the page describes only what he has said publicly; it does not report on his subsequent life, his family, or anyone else in the church he led.",
-     "sources": [
-      {
-       "work": "Joshua Harris, I Kissed Dating Goodbye (Multnomah, 1997); statement discontinuing the book (joshharris.com, October 2018)",
-       "type": "primary",
-       "note": "The book and its withdrawal."
-      },
-      {
-       "work": "I Survived I Kissed Dating Goodbye (documentary, dir. Jessica Van Der Wyngaard, 2018)",
-       "type": "primary",
-       "note": "The film of him listening to readers."
-      },
-      {
-       "work": "Joshua Harris, Instagram posts of 17 and 26 July 2019",
-       "type": "primary",
-       "note": "The separation and the statement quoted."
-      },
-      {
-       "work": "Blake Chastain, Exvangelical (podcast, from 2016)",
-       "type": "primary",
-       "note": "The coinage, in its own medium."
-      }
-     ]
-    }
-   ],
-   "atlasId": "IX.31",
-   "era": 10,
-   "name": "Deconstruction & Ex-vangelical Communities",
-   "shortName": "Deconstruction",
-   "informalName": "The Deconstruction and Ex-Vangelical Communities",
-   "dates": "c. 2010s-present",
-   "start": 2010,
-   "end": 2026,
-   "region": "Digital-native; N. America and beyond",
-   "regions": [
-    "North America"
-   ],
-   "lane": "6 Protestant & Evangelical",
-   "laneLabel": "Protestant & Evangelical",
-   "laneOrder": 6,
-   "beyondFloor": false,
-   "status": "Pre-Survey Candidate",
-   "chip": "psc",
-   "glyph": "psc",
-   "statusWord": "Researched — viable, secondary",
-   "living": true,
-   "overlayCurrent": true,
-   "c2": null,
-   "sourcing": "Abundant but platform-fragile (podcasts, online communities, memoirs); living people at every point - consent and safety care alongside sourcing",
-   "floorNote": "Assessed community by community, by the very nature of the thing: its published memoirs, podcasts and community writing record journeys landing everywhere from leaving faith entirely to rebuilding within it — the spectrum is the community's defining feature, read off that published layer rather than asserted about people.",
-   "relationsSummary": "This movement grew out of crises within evangelicalism, echoing questions earlier generations of Christians have also asked about their own churches. Published accounts show no single destination: some people leave the faith altogether, while others move toward Orthodoxy, Catholicism — many through the Coming Home Network, founded in 1993 — or Anglicanism, a path traced back to Robert Webber's work in the 1980s and the founding of the Anglican Church in North America in 2009. Its earliest datable landmarks go back to 2016, making it one of the youngest currents on record.",
-   "why": "Since the 2010s, people formed in evangelical churches have worked out what they still believe in public — in podcasts, online communities and memoirs rather than in congregations, a current Blake Chastain named 'exvangelical' in 2016. Rachel Held Evans's books and the Evolving Faith conference she co-founded with Sarah Bessey in 2018 gave it a gathering place that continued after her death in 2019. The published record shows no single destination: some leave the faith altogether, while others land in Orthodoxy, Catholicism, Anglicanism or progressive congregations.",
-   "entry": null,
-   "sources": [
-    {
-     "work": "The published memoir layer (public voices only): Rachel Held Evans, Searching for Sunday (2015), Inspired (2018); Joshua Harris's public 2019 statements; the 'exvangelical' coinage (Blake Chastain, 2016)",
-     "type": "primary",
-     "note": "Only public figures' own published, dated words are used here — no private individuals are named."
-    },
-    {
-     "work": "The platform layer: named public podcasts and episode archives; Internet Archive captures as de-facto preservation",
-     "type": "primary",
-     "note": "These platforms are fragile and some material may not persist. Private online communities and any material that would identify non-public individuals are deliberately not cited here, out of real concern for the people involved."
-    },
-    {
-     "work": "Independently grounded context: Pew religious-landscape/disaffiliation reporting (2019/2021); PRRI surveys",
-     "type": "secondary",
-     "note": "No independent count of 'deconstruction communities' exists; any claim about the movement's present-day scale should be read as an estimate, not a hard count — that gap is named honestly rather than papered over. Scholarly literature is emerging but still thin."
-    },
-    {
-     "work": "Structural note: the record's own shape (memoir + platform + aggregate data, no institutional archive)",
-     "type": "reference"
-    }
-   ],
-   "longDescription": "Since the 2010s a large number of people formed in evangelical churches have been publicly working out what they still believe, and doing it in podcasts, online communities and memoirs rather than in congregations. Blake Chastain coined 'exvangelical' as a hashtag in 2016 and it named something already happening. Rachel Held Evans published Searching for Sunday in 2015 and Inspired in 2018 and, with Sarah Bessey, founded the Evolving Faith conference in 2018; when Evans died in May 2019 the conference continued. Joshua Harris made public statements in 2019 about leaving the faith. Christianity Today's podcast The Rise and Fall of Mars Hill, released across 2021, gave the whole current a shared reference point. What the published record shows is not one destination but many: some people leave faith altogether, some rebuild it somewhere else, and the spread is the defining feature rather than an untidiness in the data.",
-   "teaser": "Digital-native, North America and beyond, c. 2010s to today — documented in podcasts, online communities and memoirs whose published record shows journeys landing everywhere from rebuilding faith to leaving it, and counting, by the project's own account, among this map's own visitors.",
-   "voices": [
-    "Rachel Held Evans — author of Searching for Sunday (2015) and Inspired (2018), co-founder of Evolving Faith in 2018; died in May 2019",
-    "Sarah Bessey — Evolving Faith's other co-founder, under whom the conference continued",
-    "Blake Chastain — who coined 'exvangelical' in 2016, giving the current a name it did not have",
-    "Joshua Harris — whose public statements in 2019 about leaving the faith are among the most widely discussed of these journeys",
-    "The Rise and Fall of Mars Hill — Christianity Today's 2021 podcast, the current's most widely shared published document",
-    "The memoir shelf — the published accounts by named public authors, whose personal stories fill out the wider picture"
-   ],
-   "legacy": "This is a current still forming: its earliest datable landmarks go back only to 2016, making it one of the youngest movements described here. So far it has produced a publishing category, a conference, a subject of study within the sociology of religion, and a large number of people who describe their own journeys in public. The destinations that recur in these published accounts include Orthodoxy, Catholicism, Anglicanism and progressive congregations — a real range, not a single ending point. Its archive is fragile, because the platforms that hold it are.",
-   "streams": [
-    "post-evangelical-ferment"
-   ],
-   "statusDescription": "Tiered Viable, secondary (Tier 2). Its namable anchors run only from 2016, more recent than this survey's own default threshold. It is kept anyway, on record as a deliberate exception, given its institutionalization across independent sources, a survived founder-adjacent transition, and its own unique stake. This map maps its own visitors. Its reconstruction-era story sits inside this row and its relations, not as a row of its own. This status is a dated reading of a living tradition, not a permanent verdict.",
-   "placeLabel": "N. America and beyond",
-   "modernCountries": []
-  },
-  {
    "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
    "documentedStories": [
     {
@@ -65678,6 +65952,593 @@ const DATA = {
    "statusDescription": "Proposed for a future survey; not yet reviewed.",
    "placeLabel": "N. America",
    "modernCountries": []
+  },
+  {
+   "id": "iglesia-ni-cristo",
+   "atlasId": "IX.51",
+   "era": 10,
+   "name": "Iglesia ni Cristo",
+   "shortName": "Iglesia ni Cristo",
+   "informalName": "The Church of Christ (Philippines)",
+   "dates": "1914-c. 2010",
+   "start": 1914,
+   "end": 2010,
+   "region": "Philippines",
+   "placeLabel": "Philippines",
+   "modernCountries": [
+    {
+     "country": "Philippines",
+     "countryId": "Q928",
+     "place": "Philippines",
+     "placeId": "Q928"
+    }
+   ],
+   "regions": [
+    "Greater Asia"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Floor Question carried — finding recorded on the church's own dated texts; register retained",
+   "statusDescription": "The church is assessed on its own published teaching. Its legitimacy claim rested on its founder's office, and it passed through changes of leader in 1963 and 2009.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": "record",
+   "sourcing": "Moderate: the church's own records, including its 1914 registration and its magazine Pasugo from February 1939. Independent scholarship is thin.",
+   "floorNote": "Iglesia ni Cristo was registered in 1914. Its own teaching presented its founder, Felix Manalo, as God's messenger for the last days. It honored Jesus as Lord and Savior but taught that he was not God. On its own published texts up to 2010, then, it did not affirm the Trinity or Christ's divinity in the creeds' sense.",
+   "relationsSummary": "Founded in the Philippines, where Catholicism had shaped the country for three centuries.",
+   "why": "Iglesia ni Cristo was registered in the Philippines on 27 July 1914. Its own history presented Felix Manalo as God's messenger for the last days. Its magazine Pasugo carried its teaching from February 1939. In 2010, by its own counts, it was the largest church founded in the Philippines. No independent count is cited here.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Iglesia ni Cristo: Pasugo/God's Message (Feb 1939-, Tagalog and English); the 1914 government registration; the last-messenger teaching in the church's own doctrinal articles",
+     "type": "primary"
+    },
+    {
+     "work": "CHC vol. 9",
+     "type": "reference"
+    }
+   ],
+   "longDescription": "Iglesia ni Cristo, 'the Church of Christ', was registered with the government of the Philippines on 27 July 1914. It was registered under Felix Y. Manalo, and its own history presented him as God's messenger for the last days. It honored Jesus as Lord and Savior but taught that he was not God. From February 1939 its magazine Pasugo, in Tagalog and English, set out its teaching. It passed through two changes of leader, in 1963 and 2009. By its own counts it was, by 2010, the largest church founded in the Philippines. No independent count is cited here, and independent scholarship on the church is thin.",
+   "teaser": "The Philippines, from 1914 — Iglesia ni Cristo, assessed on its own published texts.",
+   "voices": [
+    "Felix Y. Manalo — under whom Iglesia ni Cristo was registered in July 1914; its messenger claim about him is the church's own",
+    "Pasugo — Iglesia ni Cristo's own magazine, published since February 1939, and the dated place its teaching is set out"
+   ],
+   "legacy": "Iglesia ni Cristo was still active in 2010. It had passed through two successions, in 1963 and 2009. Its own counts ran to millions, and it was the largest church founded in the Philippines. No independent count is cited here.",
+   "documentedStories": []
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century",
+   "atlasId": "IX.52",
+   "era": 10,
+   "name": "The Anglican Communion in the Twentieth Century",
+   "shortName": "Anglican Communion",
+   "informalName": "Twentieth-century Anglicanism",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "England, then worldwide",
+   "placeLabel": "England and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe",
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). It rests on the records of Lambeth and of the Anglican Consultative Council, and on two standard histories. Its window opens in 1906, where the Victorian Church of England entry ends.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich: the records of the Lambeth Conference and of the Anglican Consultative Council. Two standard histories, by Kevin Ward (2006) and William Sachs, ed. (2017), come from university presses.",
+   "floorNote": "No question. In 1920 the bishops at Lambeth named the Nicene Creed as the sufficient statement of the Christian faith.",
+   "relationsSummary": "It carries on from the Victorian Church of England and the Oxford Movement. Both of those entries end in 1906. In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+   "why": "By 2006, Kevin Ward found, most Anglicans lived outside the West. Their bishops met in the Lambeth Conference. There they spoke on Christian unity, on birth control and on sexuality.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Lambeth Conference 1920, Resolution 9, 'An Appeal to All Christian People' (15 August 1920)",
+     "type": "primary",
+     "note": "Text and date verified; the report's publisher is not confirmed."
+    },
+    {
+     "work": "Committee of the Council of the English Church Union, The English Church Union and the Lambeth Conference: The Report of the Committee of the Council (London: English Church Union, 1931)",
+     "type": "primary",
+     "note": "A contemporary report giving the text of the 1930 resolution on parenthood and its recorded vote."
+    },
+    {
+     "work": "Anglican Consultative Council, ACC-1 resolutions (Limuru, Kenya, 1971)",
+     "type": "primary"
+    },
+    {
+     "work": "Lambeth Conference 1998, Resolution I.10, 'Human Sexuality'",
+     "type": "primary",
+     "note": "Title and conference verified; the vote figures are not confirmed."
+    },
+    {
+     "work": "Kevin Ward, A History of Global Anglicanism (Cambridge University Press, 2006)",
+     "type": "secondary"
+    },
+    {
+     "work": "William L. Sachs, ed., The Oxford History of Anglicanism, Volume V: Global Anglicanism, c. 1910-2000 (Oxford University Press, 2017)",
+     "type": "secondary"
+    },
+    {
+     "work": "First Global Anglican Future Conference (GAFCON), Jerusalem, 22-29 June 2008, and the Jerusalem Declaration (Great Russian Encyclopedia online entry)",
+     "type": "reference"
+    },
+    {
+     "work": "Vatican News, 'Fifteenth Lambeth Conference kicks off in Canterbury' (July 2022)",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history."
+    }
+   ],
+   "longDescription": "The bishops of the Anglican churches met in the Lambeth Conference in 1920, 1930, 1968 and 1998, among other years. In 1920 they sent out an Appeal to All Christian People. It named the Scriptures, the Nicene Creed, the two sacraments and a shared ministry as the ground of a future unity. In 1930 they voted 193 to 67 on limiting or avoiding parenthood. Where a couple clearly felt a moral obligation to do so, they said, the method must be decided on Christian principles. In 1968 Lambeth proposed an Anglican Consultative Council. It first met at Limuru, Kenya, in 1971. Over the century most of the Communion came to live outside the West. In 1998 the bishops passed a resolution on human sexuality. In June 2008 the first Global Anglican Future Conference (GAFCON) met in Jerusalem. It issued the Jerusalem Declaration.",
+   "teaser": "A worldwide family of churches whose bishops met at Lambeth, and whose members came to live mostly outside the West.",
+   "voices": [
+    "The Lambeth Conference of 1920 — whose Appeal to All Christian People named the Nicene Creed as the sufficient statement of the Christian faith",
+    "The Lambeth Conference of 1930 — whose resolution on limiting parenthood was the only one that year with a recorded vote",
+    "The Anglican Consultative Council — proposed at Lambeth in 1968, and first meeting at Limuru, Kenya, in 1971",
+    "The Global Anglican Future Conference — which met in Jerusalem in June 2008 and issued the Jerusalem Declaration"
+   ],
+   "legacy": "Kevin Ward found that by 2006 most of its members belonged to churches outside the West. Ward and William Sachs both tell its twentieth century as one Communion's story.",
+   "documentedStories": []
+  },
+  {
+   "id": "the-rescue-mission-movement",
+   "atlasId": "IX.54",
+   "era": 10,
+   "name": "The Rescue Mission Movement",
+   "shortName": "Rescue Missions",
+   "informalName": "City gospel missions",
+   "dates": "1906-c. 2010",
+   "start": 1906,
+   "end": 2010,
+   "region": "New York, then the U.S. and Canada",
+   "placeLabel": "New York and beyond",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "New York",
+     "placeId": "Q1384"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1906, when mission leaders in New York formed a federation of gospel missions. Its first missions are older, from 1872, and are told here as its beginning.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Moderate: one study by a scholar, Norris Magnuson's Salvation in the Slums (1977). The network's own history adds to it. So do a 1972 article in Christianity Today and the Billy Graham Center Archives.",
+   "floorNote": "No question. Citygate Network, the name the union took later, published a statement of faith. The only copy seen was undated and recent. It named one God, eternally Father, Son and Holy Spirit. It said that Jesus Christ was God, born of a virgin, and that he rose bodily from the dead.",
+   "relationsSummary": "The Salvation Army did the same kind of work, but as a church body. Norris Magnuson counts the rescue missions among the revival-based welfare movements of 1865 to 1920.",
+   "why": "In 1872 Jerry McAuley opened a mission on Water Street in New York. Others followed. In 1906 mission leaders in New York joined in a federation. A historian counts these missions among the revival-based welfare movements of 1865 to 1920.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Citygate Network (formerly the Association of Gospel Rescue Missions), 'Our History'",
+     "type": "primary",
+     "note": "The network's own history: the 1906 federation, the 1913 union, the 2000 association. The founding documents themselves are not seen."
+    },
+    {
+     "work": "Billy Graham Center Archives, Wheaton College, 'When Did We See You a Stranger' and the 1999 'rescue talk' exhibit",
+     "type": "reference",
+     "note": "Traces the movement from McAuley's Water Street Mission (1872) and the Pacific Garden Mission (1877)."
+    },
+    {
+     "work": "Encyclopedia of Chicago, 'Pacific Garden Mission'",
+     "type": "reference"
+    },
+    {
+     "work": "'100 Years of Least, Last, and Lost', Christianity Today (10 November 1972)",
+     "type": "reference",
+     "note": "Author and exact wording not confirmed."
+    },
+    {
+     "work": "Norris Magnuson, Salvation in the Slums: Evangelical Social Work, 1865-1920 (Scarecrow Press, 1977; reissued Baker, 1990)",
+     "type": "secondary"
+    },
+    {
+     "work": "Citygate Network, 'Statement of Faith'",
+     "type": "primary",
+     "note": "The network's statement of faith. The page carries no date."
+    },
+    {
+     "work": "Citygate Network, press release (8 October 2024)",
+     "type": "primary",
+     "note": "Evidence for the living mark only, not for the history."
+    }
+   ],
+   "longDescription": "In 1872 Jerry McAuley opened a mission on Water Street in New York. Others followed. In 1877 Colonel George Clarke and his wife Sarah opened the Pacific Garden Mission in Chicago, it seems with no tie to McAuley. It aimed to be 'a harbor for wrecked and ruined lives'. In 1906 mission leaders in New York formed a National Federation of Gospel Missions. On 17 September 1913 a wider body followed, the International Union of Gospel Missions, with about fifty missions. The historian Norris Magnuson counts the rescue missions among the revival-based welfare movements of 1865 to 1920. He argues that their welfare work came from their commitment to evangelism and personal holiness. By 1972 the union counted some 350 members. In 2000 it became the Association of Gospel Rescue Missions.",
+   "teaser": "City gospel missions, from New York's Water Street in 1872 to a union of missions in 1913.",
+   "voices": [
+    "Jerry McAuley — whose mission on Water Street, New York, opened in 1872",
+    "Colonel George Clarke and Sarah Clarke — who opened the Pacific Garden Mission in Chicago in 1877",
+    "Sidney Whittemore — who led the International Union of Gospel Missions at its founding in 1913"
+   ],
+   "legacy": "The union took a new name in 2000, the Association of Gospel Rescue Missions. In 2010 it was still the movement's network.",
+   "documentedStories": [],
+   "kind": "cross-church movement"
+  },
+  {
+   "id": "the-christian-homeschool-movement",
+   "atlasId": "IX.55",
+   "era": 10,
+   "name": "The Christian Homeschool Movement",
+   "shortName": "Christian Homeschool",
+   "informalName": "Christian homeschooling",
+   "dates": "1983-c. 2010",
+   "start": 1983,
+   "end": 2010,
+   "region": "United States",
+   "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in March 1983, when the Home School Legal Defense Association was launched. The Christian day schools and a book of 1975 came before it and are told here as background. It covers only the Christian root of homeschooling that Mitchell Stevens names, not the movement as a whole.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Moderate: two studies from university presses, by Mitchell Stevens (2001) and Alan Peshkin (1986), and a history by Milton Gaither (2008). The carriers' own texts add to them.",
+   "floorNote": "No question. In 2020 its legal defense association set out what it believed. It named one God in three Persons. It said that God became a human being in Jesus Christ, the Son, who rose bodily from the dead. The statement bound the association's leaders, directors and staff, not its members.",
+   "relationsSummary": "Alan Peshkin studied a fundamentalist Baptist school. That ties this entry to Fundamentalism. Mitchell Stevens also traced a second root of homeschooling, a liberal one. It was not Christian, so it stays outside this entry.",
+   "why": "Sociologist Mitchell Stevens found that homeschooling was an organized movement, not a scatter of private choices. He traced one of its two roots to the Christian day schools of the 1960s and 1970s. In 1983 a legal defense group for homeschool families followed.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Mitchell L. Stevens, Kingdom of Children: Culture and Controversy in the Homeschooling Movement (Princeton University Press, 2001)",
+     "type": "secondary"
+    },
+    {
+     "work": "Milton Gaither, Homeschool: An American History (Palgrave Macmillan, 2008)",
+     "type": "secondary"
+    },
+    {
+     "work": "Alan Peshkin, God's Choice: The Total World of a Fundamentalist Christian School (University of Chicago Press, 1986)",
+     "type": "secondary"
+    },
+    {
+     "work": "Raymond S. Moore and Dorothy N. Moore, Better Late Than Early: A New Approach to Your Child's Education (1975)",
+     "type": "primary"
+    },
+    {
+     "work": "HSLDA, staff biography of J. Michael Smith",
+     "type": "primary",
+     "note": "Records the 1983 founding by Michael Farris and J. Michael Smith."
+    },
+    {
+     "work": "Michael Farris, 'A Tribute to Dr. James Dobson', HSLDA (21 August 2025)",
+     "type": "primary",
+     "note": "A later own account of the 1982 broadcast and the March 1983 launch; also evidence for the living mark."
+    },
+    {
+     "work": "HSLDA, 'What We Believe' (22 April 2020)",
+     "type": "primary",
+     "note": "HSLDA's statement of faith, binding its leaders, directors and employees. The same page says members need not be Christian."
+    },
+    {
+     "work": "Paul T. Hill, 'Women's Work', Education Next, a review of Stevens's Kingdom of Children",
+     "type": "reference",
+     "note": "Review date not seen."
+    },
+    {
+     "work": "Reason (19 November 2025), on a Johns Hopkins Homeschool Research Lab estimate of homeschooling's growth in 2024-25",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. Not specific to Christian homeschooling."
+    }
+   ],
+   "longDescription": "Sociologist Mitchell Stevens traced one root of homeschooling to the Christian day-school movement of the 1960s and 1970s. Alan Peshkin spent eighteen months in one such school, a Baptist school in Illinois, in the late 1970s. He called it a 'total world'. Raymond and Dorothy Moore's Better Late Than Early (1975) argued that formal lessons should wait until a child was older. Around 1982 James Dobson interviewed Raymond Moore about the book on the air. Some families who heard the broadcast began to teach their children at home. In March 1983 two homeschooling fathers, the lawyers Michael Farris and J. Michael Smith, launched the Home School Legal Defense Association with their wives. At the time, homeschooling was legal in only a handful of states. A reviewer of Stevens's study summed the movement up as 'a woman's enterprise, in which men are usually junior partners'.",
+   "teaser": "In 1983 two lawyers, both fathers who taught their children at home, set up a legal defense group for homeschool families.",
+   "voices": [
+    "Raymond and Dorothy Moore — whose Better Late Than Early (1975) argued that formal lessons should wait until a child was older",
+    "Michael Farris and J. Michael Smith — homeschooling fathers and lawyers who launched the Home School Legal Defense Association in March 1983",
+    "Mitchell Stevens — the sociologist whose Kingdom of Children (2001) traced homeschooling's Christian root"
+   ],
+   "legacy": "In 2001 Mitchell Stevens told the story of homeschooling as a social movement.",
+   "documentedStories": [],
+   "kind": "cross-church movement"
+  },
+  {
+   "id": "the-liturgical-movement",
+   "atlasId": "IX.56",
+   "era": 10,
+   "name": "The Liturgical Movement",
+   "shortName": "Liturgical Movement",
+   "informalName": "The popular liturgical movement",
+   "dates": "1909-1962",
+   "start": 1909,
+   "end": 1962,
+   "region": "Belgium, England, N. America",
+   "placeLabel": "Belgium · England and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe",
+    "North America"
+   ],
+   "lane": "5<->6 bridge (Latin West / Protestant)",
+   "laneLabel": "Latin West / Protestant — bridge",
+   "laneOrder": 5.5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window closes in 1962, at the Second Vatican Council, where Fenwick and Spinks close the Catholic movement. The parish after the Council has its own entry.",
+   "living": false,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Rich: its own journal from 1926 and its English handbooks of 1935 and 1937. Two academic histories, by Keith Pecklers (1998) and by John Fenwick and Bryan Spinks (1995), tell its story.",
+   "floorNote": "No question. Its carriers were Benedictine houses of the Catholic Church and Anglican parishes. Both churches held to the Nicene Creed.",
+   "relationsSummary": "It ran through Benedictine abbeys, journals and parishes, not through the Vatican. The entry on the Catholic Church before the Council names it once. The entry on the parish after the Council takes up what came of it.",
+   "why": "Historians date the popular liturgical movement from an address at Malines, Belgium, in 1909. It reached America through Saint John's Abbey in Collegeville. There the journal Orate Fratres was founded in 1926. In England, Gabriel Hebert's books gave the Parish Communion movement its handbook.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "'Liturgical Movement, The', An Episcopal Dictionary of the Church (online at episcopalchurch.org)",
+     "type": "reference",
+     "note": "Dates the popular liturgical movement from Beauduin's address at Malines in 1909. Print edition details not confirmed."
+    },
+    {
+     "work": "Orate Fratres (later Worship), first issue November 1926, Saint John's Abbey, Collegeville, Minnesota, edited by Virgil Michel; with the New Catholic Encyclopedia entry 'Michel, Virgil'",
+     "type": "primary"
+    },
+    {
+     "work": "A. G. Hebert, Liturgy and Society (1935); Hebert, ed., The Parish Communion (1937)",
+     "type": "primary",
+     "note": "Church Times (30 May 2014) calls Liturgy and Society 'the Bible of the Parish Communion Movement'. Publisher not confirmed."
+    },
+    {
+     "work": "Keith F. Pecklers, The Unread Vision: The Liturgical Movement in the United States of America, 1926-1955 (Liturgical Press, 1998)",
+     "type": "secondary"
+    },
+    {
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "type": "secondary"
+    },
+    {
+     "work": "Societas Liturgica, Newsletter 51 (Autumn 2025)",
+     "type": "primary",
+     "note": "Evidence for the living mark only, not for the history. A living society for liturgical study and renewal, not counted as the movement itself."
+    }
+   ],
+   "longDescription": "In 1909 Dom Lambert Beauduin spoke at the National Congress of Catholic Action in Malines, Belgium. Historians date the popular liturgical movement from that address. In 1926 Virgil Michel of Saint John's Abbey in Minnesota founded the journal Orate Fratres, the movement's voice. He also set up the Liturgical Press. Keith Pecklers showed how closely its American leaders tied worship to social justice in the 1930s and 1940s. In England, Gabriel Hebert published Liturgy and Society in 1935. The Church Times later called it 'the Bible of the Parish Communion Movement'. Hebert's collection The Parish Communion (1937) set out a practice that changed the pattern of Sunday-morning worship.",
+   "teaser": "A movement to renew worship began with a talk in Malines in 1909. It spread to Catholic abbeys and Anglican parishes.",
+   "voices": [
+    "Dom Lambert Beauduin — whose address at Malines in 1909 historians take as the movement's start",
+    "Virgil Michel — who founded the journal Orate Fratres at Saint John's Abbey in 1926",
+    "Gabriel Hebert — whose Liturgy and Society (1935) was called 'the Bible of the Parish Communion Movement'"
+   ],
+   "legacy": "John Fenwick and Bryan Spinks tell its story across many churches: Catholic, Anglican, Eastern and North American. They close the Catholic part in 1962.",
+   "documentedStories": [],
+   "kind": "cross-church movement"
+  },
+  {
+   "id": "the-third-wave-and-the-vineyard",
+   "atlasId": "IX.57",
+   "era": 10,
+   "name": "The Third Wave & the Vineyard",
+   "shortName": "Third Wave",
+   "informalName": "The Vineyard and the Third Wave",
+   "dates": "1982-c. 2010",
+   "start": 1982,
+   "end": 2010,
+   "region": "N. America, then global",
+   "placeLabel": "N. America and beyond",
+   "modernCountries": [],
+   "regions": [
+    "North America"
+   ],
+   "lane": "7 Global Revival & Pentecostal",
+   "laneLabel": "Global Revival & Pentecostal",
+   "laneOrder": 7,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1982, when the Signs and Wonders course began at Fuller Seminary. The entry on the charismatic renewal and the Jesus movement hands on to the Vineyard, formed in 1982.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Rich: Fuller Seminary's archive of the course and its founders' books. Fuller's own study of the course and the work of four scholars add to them.",
+   "floorNote": "No question. The Vineyard churches' statement of faith named one God in three persons of one substance. It called Christ fully God and fully human in one person, raised from the dead on the third day. Copies of it published by others date its adoption by the association's board to November 1994.",
+   "relationsSummary": "It follows the charismatic renewal and the Jesus movement. That entry names the Vineyard of 1982 as the start of the third wave. The Toronto Blessing of 1994 grew inside one of its churches.",
+   "why": "In 1982 John Wimber began teaching 'Signs and Wonders' at Fuller Seminary. C. Peter Wagner called the stream 'the Third Wave'. Its people sought the gifts of the Spirit. But they did not take on Pentecostal or charismatic theology or worship styles.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "MC510 Signs and Wonders Collection, 1981-1989, Fuller Theological Seminary archives (finding aid)",
+     "type": "primary"
+    },
+    {
+     "work": "John Wimber with Kevin Springer, Power Evangelism: Signs and Wonders Today (Hodder & Stoughton, 1985)",
+     "type": "primary"
+    },
+    {
+     "work": "Lewis B. Smedes, ed., Ministry and the Miraculous: A Case Study at Fuller Theological Seminary (Fuller Theological Seminary, 1987); with 'Fuller Seminary Releases Study on Miraculous', Christianity Today (6 February 1987)",
+     "type": "primary"
+    },
+    {
+     "work": "'What Does the Future Hold for Charismatic Renewal?', Christianity Today (May 1986)",
+     "type": "reference",
+     "note": "Reports Wagner's coinage of 'Third Wave' and its meaning."
+    },
+    {
+     "work": "Guy Chevreau, Catch the Fire: The Toronto Blessing, an Experience of Renewal and Revival (London: Marshall Pickering, 1994)",
+     "type": "primary"
+    },
+    {
+     "work": "'Vineyard Severs Ties with \"Toronto Blessing\" Church', Christianity Today (8 January 1996)",
+     "type": "reference"
+    },
+    {
+     "work": "Margaret M. Poloma, 'The \"Toronto Blessing\": Charisma, Institutionalization, and Revival', Journal for the Scientific Study of Religion 36, no. 2 (1997): 257-271",
+     "type": "secondary"
+    },
+    {
+     "work": "Martyn Percy, Words, Wonders and Power: Understanding Contemporary Christian Fundamentalism and Revivalism (SPCK, 1996)",
+     "type": "secondary"
+    },
+    {
+     "work": "Donald E. Miller, Reinventing American Protestantism: Christianity in the New Millennium (University of California Press, 1997)",
+     "type": "secondary"
+    },
+    {
+     "work": "Jon Bialecki, 'The Third Wave and the Third World', Pneuma 37, no. 2 (2015): 177-200",
+     "type": "secondary"
+    },
+    {
+     "work": "Jon Bialecki, A Diagram for Fire: Miracles and Variation in an American Charismatic Movement (University of California Press, 2017)",
+     "type": "secondary",
+     "note": "An ethnography of Vineyard churches; also evidence for the living mark."
+    },
+    {
+     "work": "Association of Vineyard Churches, 'Statement of Faith' (adopted by the board, November 1994); text as in Vineyard USA, Core Values & Beliefs (2023)",
+     "type": "primary",
+     "note": "Text read in the publisher's own booklet. The 1994 adoption date is seen only in copies published by others."
+    }
+   ],
+   "longDescription": "In 1982 John Wimber and C. Peter Wagner began teaching MC510, 'Signs and Wonders', at Fuller Theological Seminary in Pasadena. The course ran until 1985 and drew controversy. Fuller's faculty dropped it in early 1986 and published its own study, Ministry and the Miraculous, in 1987. Wagner called the stream 'the Third Wave'. Its people believed in the power and gifts of the Holy Spirit. Yet they did not adopt Pentecostal or charismatic theology or worship styles. Wimber set out his method in Power Evangelism in 1985. In 1994 a revival called the Toronto Blessing began at the Toronto Airport Vineyard. The Vineyard association cut its ties with that church in December 1995. Margaret Poloma published a study of the revival in 1997. Jon Bialecki later studied 'the Third Wave' by name, and the Vineyard as 'an American charismatic movement'.",
+   "teaser": "It began with a seminary course called 'Signs and Wonders'. Its churches sought the gifts of the Spirit without becoming Pentecostal.",
+   "voices": [
+    "John Wimber — who taught the Signs and Wonders course at Fuller and wrote Power Evangelism (1985)",
+    "C. Peter Wagner — who taught the course with Wimber and coined the name 'Third Wave'",
+    "Ministry and the Miraculous (1987) — Fuller Seminary's own study of the course it had dropped"
+   ],
+   "legacy": "In 1997 Donald Miller studied the Vineyard beside two other new church networks. Jon Bialecki's study of its churches followed in 2017.",
+   "documentedStories": [],
+   "kind": "cross-church movement"
+  },
+  {
+   "id": "promise-keepers-and-the-christian-mens-movement",
+   "atlasId": "IX.58",
+   "era": 10,
+   "name": "Promise Keepers & the Christian Men's Movement",
+   "shortName": "Promise Keepers",
+   "informalName": "The Christian men's movement",
+   "dates": "1990-c. 2010",
+   "start": 1990,
+   "end": 2010,
+   "region": "United States",
+   "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1990, when Promise Keepers began. The size of its 1997 rally in Washington rests on a crowd estimate.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Moderate. A study by John Bartkowski (2004) comes from a university press. An encyclopedia entry, the movement's own book of 1994 and news reports of the time add to it.",
+   "floorNote": "No question, on a reported text. In 1997 a newspaper reported its statement of faith. It named one God in three persons, the deity of Jesus, and salvation through his death.",
+   "relationsSummary": "Its setting was evangelical, like that of the megachurches and of Lausanne-era evangelicals. But its focus on men was its own. James Mathisen set it apart from the wider men's movement.",
+   "why": "In 1990 a college football coach and a friend started a ministry for men. Its first members called themselves Promise Keepers. By 1996 its rallies had filled 22 stadiums with nearly 1.2 million men. Each man made seven promises. Among them, he would keep close friendships with other men, stay pure and keep his marriage strong. He would also reach across lines of race and church.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Al Janssen and Larry K. Weeden, eds., Seven Promises of a Promise Keeper (Colorado Springs: Focus on the Family, 1994)",
+     "type": "primary"
+    },
+    {
+     "work": "'Men Sustain Promise Keeper Momentum', Christian Science Monitor (28 May 1997)",
+     "type": "reference",
+     "note": "Reports the movement's statement of faith."
+    },
+    {
+     "work": "James A. Mathisen, 'The Strange Decade of the Promise Keepers', Books & Culture (September/October 2001)",
+     "type": "reference"
+    },
+    {
+     "work": "Brenda E. Brasher, 'Promise Keepers', in Contemporary American Religion (Gale)",
+     "type": "reference",
+     "note": "Print editor, publisher and year not confirmed."
+    },
+    {
+     "work": "John P. Bartkowski, The Promise Keepers: Servants, Soldiers, and Godly Men (Rutgers University Press, 2004)",
+     "type": "secondary"
+    },
+    {
+     "work": "K-LOVE News, 'Promise Keepers Reaches Men For Christ Via Major Rally At AT&T Stadium' (2021)",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history."
+    }
+   ],
+   "longDescription": "On 20 March 1990, Bill McCartney, the University of Colorado football coach, drove with a friend to Pueblo. From that trip grew a group of about seventy men who called themselves Promise Keepers. In 1991, 4,200 men met at the university's basketball arena. In 1996, 22 stadium rallies drew nearly 1.2 million men. Each man made seven promises, published in 1994 as Seven Promises of a Promise Keeper. They pledged purity, strong marriages, and friendship across racial and denominational barriers. On 4 October 1997 a crowd estimated at about a million men gathered in Washington, D.C., for Stand in the Gap. In March 1998 the ministry began laying off 345 paid staff. Sociologist John Bartkowski later traced the rise and fall of this Christian men's movement.",
+   "teaser": "In 1990 a football coach had an idea. It filled stadiums with men who made seven promises, and in 1997 it reached Washington.",
+   "voices": [
+    "Bill McCartney and Dave Wardell — who founded Promise Keepers in 1990",
+    "Seven Promises of a Promise Keeper (1994) — the book of the promises each man made",
+    "James A. Mathisen — whose 2001 essay called it the decade's most unexpected and immediately successful movement within the American church"
+   ],
+   "legacy": "In 2001 James Mathisen called it 'the decade's most unexpected and immediately successful movement within the American church'.",
+   "documentedStories": [],
+   "kind": "cross-church movement"
   }
  ],
  "stories": [
@@ -68883,6 +69744,7 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+const gCurrents=el('g',{id:'currents','aria-hidden':'true'}); gRoot.appendChild(gCurrents);
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
@@ -68907,6 +69769,12 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
+{
+  const hatch=el('pattern',{id:'current-hatch',patternUnits:'userSpaceOnUse',width:7,height:7,patternTransform:'rotate(45)'});
+  hatch.appendChild(el('rect',{width:7,height:7,fill:'var(--iron-gall)',opacity:0.07}));
+  hatch.appendChild(el('rect',{width:2.2,height:7,fill:'var(--iron-gall)',opacity:0.3}));
+  defs.appendChild(hatch);
+}
 svg.appendChild(defs);
 
 const WORLD_CONTEXT={
@@ -68922,6 +69790,43 @@ const WORLD_CONTEXT={
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
 const ERA_CONTEXT_WRAP=65;
+const ERA_CLOSE={
+  10:"The tree's history runs to 2010. Movements since then will be added as they become history."
+};
+const KIND_LABEL={'cross-church movement':'A movement across churches'};
+const CURRENT_PAD=9;
+function currentLanes(m){
+  const lanes=new Set([m.laneOrder]);
+  DATA.edges.forEach(e=>{
+    const other=e.from===m.id?byId[e.to]:e.to===m.id?byId[e.from]:null;
+    if(other)lanes.add(other.laneOrder);
+  });
+  return [...lanes];
+}
+function sampleAt(arr,y){
+  const f=Math.max(0,Math.min(arr.length-1,y/STEP)), i=Math.floor(f), j=Math.min(arr.length-1,i+1), t=f-i;
+  return arr[i]*(1-t)+arr[j]*t;
+}
+function currentPath(m,amp){
+  const geo=laneGeometry[amp], lanes=currentLanes(m);
+  const y0=yearToY(m.start), y1=Math.max(yearToY(m.end),y0+STEP);
+  const ys=[y0];
+  for(let y=Math.ceil(y0/STEP)*STEP;y<y1;y+=STEP)if(y>y0)ys.push(y);
+  ys.push(y1);
+  const left=[], right=[];
+  ys.forEach(y=>{
+    let lo=Infinity, hi=-Infinity;
+    lanes.forEach(k=>{
+      const x=sampleAt(geo.own[k],y), h=sampleAt(geo.half[k],y);
+      lo=Math.min(lo,x-h); hi=Math.max(hi,x+h);
+    });
+    left.push({x:lo-CURRENT_PAD,y}); right.push({x:hi+CURRENT_PAD,y});
+  });
+  let d=smoothPath(left);
+  d+=` L ${right[right.length-1].x.toFixed(1)} ${right[right.length-1].y.toFixed(1)} `;
+  d+=smoothPath(right.slice().reverse()).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
+  return d;
+}
 
 const RIVER_LORE={
   "Origin": {
@@ -69117,7 +70022,7 @@ function wrapText(str,maxChars){
 
 function render(){
   layoutMarks();
-  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gCurrents.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null;
 
   eras.forEach((e,i)=>{
@@ -69138,6 +70043,16 @@ function render(){
         ctx.appendChild(tspan);
       });
       gLabels.appendChild(ctx);
+    }
+    if(ERA_CLOSE[e.num]){
+      const ctxLines=WORLD_CONTEXT[e.num]?wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).length:0;
+      const close=el('text',{x:24,y:dividerY+90+ctxLines*19+(ctxLines?12:0),class:'era-context era-close'});
+      wrapText(ERA_CLOSE[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
+        const tspan=el('tspan',{x:24,dy:li===0?0:19});
+        tspan.textContent=line;
+        close.appendChild(tspan);
+      });
+      gLabels.appendChild(close);
     }
   });
 
@@ -69173,6 +70088,17 @@ function render(){
       if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelRiver(f,members);}
     });
     gRivers.appendChild(group);
+  });
+
+  DATA.movements.filter(m=>KIND_LABEL[m.kind]).forEach(m=>{
+    const band=el('g',{class:'current-band'});
+    band.dataset.lane=m.laneOrder;
+    [['current-calm',0],['current-organic',1]].forEach(([cls,amp])=>{
+      band.appendChild(el('path',{d:currentPath(m,amp),class:cls,fill:'url(#current-hatch)',
+        stroke:'var(--iron-gall)','stroke-width':1.2,'stroke-dasharray':'5 4','stroke-linejoin':'round',
+        'vector-effect':'non-scaling-stroke','stroke-opacity':0.55,opacity:amp?0:1}));
+    });
+    gCurrents.appendChild(band);
   });
 
   const ARC_CLEARANCE=22;
@@ -69251,7 +70177,7 @@ function render(){
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
+      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${KIND_LABEL[m.kind]?KIND_LABEL[m.kind].toLowerCase()+', ':''}${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
@@ -69365,7 +70291,7 @@ function render(){
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;}
 function tipFor(m){
-  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div><div class="s">${esc(statusLabel(m))}</div>`;
+  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}<div class="s">${esc(statusLabel(m))}</div>`;
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
@@ -69566,6 +70492,7 @@ function openPanel(m){
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
   let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
+  if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   if(m.placeLabel)h+=`<p class="meta">${esc(CFTPlace.formatPlace(m,{today:true}))}</p>`;
@@ -69805,6 +70732,7 @@ function buildLegend(){
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
+  if(DATA.movements.some(m=>KIND_LABEL[m.kind]))key+=`<div class="row"><svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><rect x="1" y="1" width="24" height="8" rx="1" fill="url(#current-hatch)" stroke="var(--iron-gall)" stroke-opacity=".55" stroke-dasharray="3 2"/></svg>A movement across churches</div><div class="note">A striped band marks a movement that ran across churches, not a church of its own. It covers its own river and the rivers of the movements it is linked to.</div>`;
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
@@ -69826,7 +70754,7 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.current-band,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
@@ -69896,6 +70824,8 @@ function applyDetail(){
   document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
   document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
   document.querySelectorAll('.thread-organic').forEach(p=>{p.style.opacity=organic?0.8:0;});
+  document.querySelectorAll('.current-calm').forEach(p=>{p.style.opacity=organic?0:1;});
+  document.querySelectorAll('.current-organic').forEach(p=>{p.style.opacity=organic?1:0;});
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
