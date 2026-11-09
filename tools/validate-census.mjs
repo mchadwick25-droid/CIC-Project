@@ -36,6 +36,9 @@ function textLines(file) {
   return textCache.get(file);
 }
 const HEX = /^#[0-9A-Fa-f]{6}$/;
+// A movement's kind: absent means a church body; "cross-church movement" is a defined
+// movement that runs across church bodies rather than being one.
+const MOVEMENT_KINDS = new Set(["cross-church movement"]);
 
 // --- eras ---
 if (!Array.isArray(d.eras) || d.eras.length === 0) errs.push("eras: missing/empty");
@@ -58,6 +61,8 @@ const byId = new Map();
   if (typeof m.start === "number" && typeof m.end === "number" && m.start > m.end)
     errs.push(`${m.id}: start ${m.start} > end ${m.end}`);
   if (m.era != null && !eraNums.has(m.era)) errs.push(`${m.id}: unknown era ${m.era}`);
+  if (m.kind !== undefined && !MOVEMENT_KINDS.has(m.kind))
+    errs.push(`${m.id}: unknown kind "${m.kind}" (leave it off for a church body; allowed: ${[...MOVEMENT_KINDS].join(", ")})`);
   if (m.status === "Built & Live" && !m.entry) errs.push(`${m.id}: Built & Live but no entry block`);
   if (m.shortName && m.shortName.length > 20) warn.push(`${m.id}: shortName >20 chars ("${m.shortName}")`);
   // Decision 7 (2026-09-25, Mark's ruling "a"): statusWord is plain words at

@@ -76,6 +76,7 @@ li{margin-bottom:.5rem}
 .page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
 .lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
 .lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
@@ -314,6 +315,9 @@ function hasNarration(movement) {
   return recordingMatchesText(treeAudioManifest[movement.id], narrationTextFor(movement, { dataDir: worldsDataDir }));
 }
 
+// A movement's kind, as the reader sees it. A movement with no kind is a church body and carries no label.
+const KIND_LABEL = { 'cross-church movement': 'A movement across churches' };
+
 function generatePageHtml(movement) {
   const isBuilt = builtWorlds.has(movement.id);
   const narrated = hasNarration(movement);
@@ -357,6 +361,7 @@ ${siteHeader('../')}
     <p class="ident">${escapeHtml(eraName)} · ${escapeHtml(movement.dates)} · ${escapeHtml(movement.region)}</p>
     ${placeLine.includes('today in') ? `<p class="ident">${escapeHtml(placeLine)}</p>` : ''}
     <h1>${escapeHtml(movement.name)}</h1>
+    ${KIND_LABEL[movement.kind] ? `<p class="kind-label">${escapeHtml(KIND_LABEL[movement.kind])}</p>` : ''}
   </div>
 
   ${isBuilt && movement.publicOpen ? `

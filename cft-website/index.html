@@ -116,6 +116,8 @@ svg#world{display:block;overflow:visible}
 #panel .door-quiet{font-size:.82rem;color:var(--ink-faded);margin:0 0 .9rem}
 #panel .act:hover{background:var(--madder)}
 #panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel .kindpill{border-style:dashed;text-transform:none;letter-spacing:.02em;font-size:.8rem}
+.current-band{pointer-events:none}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
@@ -69741,6 +69743,7 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+const gCurrents=el('g',{id:'currents','aria-hidden':'true'}); gRoot.appendChild(gCurrents);
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
@@ -69765,6 +69768,12 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
+{
+  const hatch=el('pattern',{id:'current-hatch',patternUnits:'userSpaceOnUse',width:7,height:7,patternTransform:'rotate(45)'});
+  hatch.appendChild(el('rect',{width:7,height:7,fill:'var(--iron-gall)',opacity:0.07}));
+  hatch.appendChild(el('rect',{width:2.2,height:7,fill:'var(--iron-gall)',opacity:0.3}));
+  defs.appendChild(hatch);
+}
 svg.appendChild(defs);
 
 const WORLD_CONTEXT={
@@ -69780,6 +69789,43 @@ const WORLD_CONTEXT={
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
 const ERA_CONTEXT_WRAP=65;
+const ERA_CLOSE={
+  10:"The tree's history runs to 2010. Movements since then will be added as they become history."
+};
+const KIND_LABEL={'cross-church movement':'A movement across churches'};
+const CURRENT_PAD=9;
+function currentLanes(m){
+  const lanes=new Set([m.laneOrder]);
+  DATA.edges.forEach(e=>{
+    const other=e.from===m.id?byId[e.to]:e.to===m.id?byId[e.from]:null;
+    if(other)lanes.add(other.laneOrder);
+  });
+  return [...lanes];
+}
+function sampleAt(arr,y){
+  const f=Math.max(0,Math.min(arr.length-1,y/STEP)), i=Math.floor(f), j=Math.min(arr.length-1,i+1), t=f-i;
+  return arr[i]*(1-t)+arr[j]*t;
+}
+function currentPath(m,amp){
+  const geo=laneGeometry[amp], lanes=currentLanes(m);
+  const y0=yearToY(m.start), y1=Math.max(yearToY(m.end),y0+STEP);
+  const ys=[y0];
+  for(let y=Math.ceil(y0/STEP)*STEP;y<y1;y+=STEP)if(y>y0)ys.push(y);
+  ys.push(y1);
+  const left=[], right=[];
+  ys.forEach(y=>{
+    let lo=Infinity, hi=-Infinity;
+    lanes.forEach(k=>{
+      const x=sampleAt(geo.own[k],y), h=sampleAt(geo.half[k],y);
+      lo=Math.min(lo,x-h); hi=Math.max(hi,x+h);
+    });
+    left.push({x:lo-CURRENT_PAD,y}); right.push({x:hi+CURRENT_PAD,y});
+  });
+  let d=smoothPath(left);
+  d+=` L ${right[right.length-1].x.toFixed(1)} ${right[right.length-1].y.toFixed(1)} `;
+  d+=smoothPath(right.slice().reverse()).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
+  return d;
+}
 
 const RIVER_LORE={
   "Origin": {
@@ -69975,7 +70021,7 @@ function wrapText(str,maxChars){
 
 function render(){
   layoutMarks();
-  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gCurrents.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null;
 
   eras.forEach((e,i)=>{
@@ -70031,6 +70077,17 @@ function render(){
       if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelRiver(f,members);}
     });
     gRivers.appendChild(group);
+  });
+
+  DATA.movements.filter(m=>KIND_LABEL[m.kind]).forEach(m=>{
+    const band=el('g',{class:'current-band'});
+    band.dataset.lane=m.laneOrder;
+    [['current-calm',0],['current-organic',1]].forEach(([cls,amp])=>{
+      band.appendChild(el('path',{d:currentPath(m,amp),class:cls,fill:'url(#current-hatch)',
+        stroke:'var(--iron-gall)','stroke-width':1.2,'stroke-dasharray':'5 4','stroke-linejoin':'round',
+        'vector-effect':'non-scaling-stroke','stroke-opacity':0.55,opacity:amp?0:1}));
+    });
+    gCurrents.appendChild(band);
   });
 
   const ARC_CLEARANCE=22;
@@ -70109,7 +70166,7 @@ function render(){
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
+      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${KIND_LABEL[m.kind]?KIND_LABEL[m.kind].toLowerCase()+', ':''}${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
@@ -70223,7 +70280,7 @@ function render(){
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;}
 function tipFor(m){
-  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div><div class="s">${esc(statusLabel(m))}</div>`;
+  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}<div class="s">${esc(statusLabel(m))}</div>`;
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
@@ -70424,6 +70481,7 @@ function openPanel(m){
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
   let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
+  if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   if(m.placeLabel)h+=`<p class="meta">${esc(CFTPlace.formatPlace(m,{today:true}))}</p>`;
@@ -70663,6 +70721,7 @@ function buildLegend(){
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
+  if(DATA.movements.some(m=>KIND_LABEL[m.kind]))key+=`<div class="row"><svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><rect x="1" y="1" width="24" height="8" rx="1" fill="url(#current-hatch)" stroke="var(--iron-gall)" stroke-opacity=".55" stroke-dasharray="3 2"/></svg>A movement across churches</div><div class="note">A striped band marks a movement that ran across churches, not a church of its own. It covers its own river and the rivers of the movements it is linked to.</div>`;
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
@@ -70684,7 +70743,7 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.current-band,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
@@ -70754,6 +70813,8 @@ function applyDetail(){
   document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
   document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
   document.querySelectorAll('.thread-organic').forEach(p=>{p.style.opacity=organic?0.8:0;});
+  document.querySelectorAll('.current-calm').forEach(p=>{p.style.opacity=organic?0:1;});
+  document.querySelectorAll('.current-organic').forEach(p=>{p.style.opacity=organic?1:0;});
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{

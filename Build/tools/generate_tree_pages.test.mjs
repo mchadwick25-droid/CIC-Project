@@ -135,3 +135,11 @@ test('the about page counts movements and links from the census', () => {
   assert.match(page, /The tree shows 12 links of six kinds\./);
   assert.match(page, new RegExp(`The tree covers ${c.movements.length} movements\\.`));
 });
+
+test('a cross-church movement shows its kind, and a church body shows none', () => {
+  const movement = census.movements.find(m => m.kind === 'cross-church movement');
+  const body = census.movements.find(m => m.kind === undefined);
+  const read = generate(census);
+  assert.match(read(`tree/${movement.id}.html`), /<p class="kind-label">A movement across churches<\/p>/);
+  assert.doesNotMatch(read(`tree/${body.id}.html`), /class="kind-label"/);
+});
