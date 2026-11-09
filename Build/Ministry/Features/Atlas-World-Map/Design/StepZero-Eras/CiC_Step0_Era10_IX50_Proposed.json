@@ -1,0 +1,167 @@
+{
+ "_meta": {
+  "title": "Era 10: proposed row IX.50, the Christian Right, and its disclosure lines",
+  "status": "Proposal for review. Nothing here is applied to cic-website/data/world-census.json.",
+  "base": "cic-website/data/world-census.json, data release 22 (2026-11-08)",
+  "ruling": "Decision-Log 2026-11-09, 'Era 10 follow-up rulings', item 1: G-15 option (i). A Tier 3 row of kind 'cross-church movement', 1979 to c. 2010, marked thin on lived ecology (B2); its Section A reading rests on unverified items, which go to the wanted list.",
+  "sourcesOfTruth": [
+   "Design/StepZero-Eras/CiC_Step0_Era10_V2_0_Proposed_Edits.json (newEntries, draft D-E6)",
+   "Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md (§3, G-15, W20)",
+   "Design/StepZero-Eras/CiC_Step0_Era10_Survey_Research_E.md (§3g)"
+  ],
+  "trace": "Design/StepZero-Eras/CiC_Step0_Era10_IX50_Trace.md",
+  "editOps": {
+   "replace": "old is an exact substring of the field's text in release 22, found once; new replaces it."
+  },
+  "id": "The id is D-E6's, as directed. It still carries 'christian-nationalism', a name the record dates after the era. Ids are permanent, so G-15's naming sub-option should settle it before first publication (see the trace).",
+  "name": "G-15 naming sub-option (n1), 'The Christian Right', as drafted. Not separately ruled by Mark."
+ },
+ "newRows": [
+  {
+   "id": "christian-right-and-christian-nationalism",
+   "atlasId": "IX.50",
+   "era": 10,
+   "name": "The Christian Right",
+   "shortName": "Christian Right",
+   "informalName": "American Christian political mobilization",
+   "dates": "1979-c. 2010",
+   "start": 1979,
+   "end": 2010,
+   "region": "United States",
+   "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, smaller frame",
+   "statusDescription": "Tiered deferred on a smaller frame (Tier 3). It was a political movement run by groups, not a church or a confession. Its public record is strong. What it formed in people's lives beyond politics is thinly recorded, and this entry says so.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Moderate to rich. The Moral Majority's papers are kept at Liberty University. In a 1980 interview Jerry Falwell gave his own account of it. Three studies trace the whole movement, by William Martin (1996), Clyde Wilcox (1996) and Daniel K. Williams (2010).",
+   "floorNote": "There is no confession of its own to test. In August 1980 Jerry Falwell said the Moral Majority was not a religious group. 'It is totally political,' he said. He counted pastors, Catholic priests, Jewish rabbis and Mormon elders among its backers. The churches its members came from are not tested through it. This reading is not settled until the later groups' own statements are checked.",
+   "relationsSummary": "It grew out of the fundamentalist and evangelical churches, which have their own entries. Its groups drew support from several churches and faiths, and none became a church. They were the Moral Majority (1979–1989), the Christian Coalition (from 1989) and the Faith and Freedom Coalition (from 2009).",
+   "why": "In June 1979 Jerry Falwell and four other ministers founded the Moral Majority. In August 1980 Ronald Reagan, then running for president, spoke to church leaders in Dallas. He said the gathering was nonpartisan, so it could not endorse him. Then he added, 'I endorse you and what you're doing.' The Moral Majority closed in 1989, and Pat Robertson founded the Christian Coalition that year. In 2009 Ralph Reed, the Christian Coalition's first executive director, founded the Faith and Freedom Coalition.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Daniel K. Williams, God's Own Party: The Making of the Christian Right (Oxford University Press, 2010)",
+     "type": "secondary"
+    },
+    {
+     "work": "William Martin, With God on Our Side: The Rise of the Religious Right in America (Broadway Books, 1996)",
+     "type": "secondary"
+    },
+    {
+     "work": "Clyde Wilcox, Onward Christian Soldiers? The Religious Right in American Politics (Westview Press, 1996; 4th ed., with Carin Robinson, 2010)",
+     "type": "secondary"
+    },
+    {
+     "work": "Jerry Falwell, interview, The MacNeil/Lehrer Report (22 August 1980)",
+     "type": "primary",
+     "note": "Clip held by the American Archive of Public Broadcasting, record cpb-aacip-507-0v89g5gw13. Falwell calls the Moral Majority political, not religious, and names supporters from several faiths."
+    },
+    {
+     "work": "Liberty University Archive, Projects and Programs of the Moral Majority, Record Group 2, finding aid (last updated 24 March 2014)",
+     "type": "reference",
+     "note": "Its historical note gives the founding on 6 June 1979, the five founding ministers, the four principles and the end in 1989."
+    },
+    {
+     "work": "Ronald Reagan, address to the National Affairs Briefing, Reunion Arena, Dallas (22 August 1980)",
+     "type": "primary",
+     "note": "The briefing ran on 21 and 22 August; the address is dated 22 August."
+    },
+    {
+     "work": "EBSCO Research Starters, 'Robertson Founds Christian Coalition'",
+     "type": "reference",
+     "note": "Records the 1989 founding, with Ralph Reed as executive director."
+    },
+    {
+     "work": "Faith & Freedom Coalition, 'About' page",
+     "type": "primary",
+     "note": "The coalition's own account of its founding by Ralph Reed in 2009. The page is undated."
+    },
+    {
+     "work": "Andrew R. Lewis, The Rights Turn in Conservative Christian Politics: How Abortion Transformed the Culture Wars (Cambridge University Press, 2017)",
+     "type": "secondary",
+     "note": "Evidence for the living mark only, not for the history."
+    },
+    {
+     "work": "Washington Examiner, 'What to know about the Faith & Freedom Coalition's 2025 Road to Majority Conference'",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. The conference met on 26 to 28 June 2025; the article's own date was not seen."
+    }
+   ],
+   "longDescription": "Jerry Falwell, Tim LaHaye, Charles Stanley, D. James Kennedy and Greg Dixon founded the Moral Majority on 6 June 1979. It stood for four aims: pro-life, pro-family, pro-morals and pro-American. From its base in Washington, it worked in politics for those aims. In August 1980 Falwell called it 'totally political', not a religious group. Its backers, he said, were not all evangelicals. That month Ronald Reagan told church leaders in Dallas, 'I endorse you and what you're doing.' The Moral Majority closed in 1989. That same year Pat Robertson founded the Christian Coalition, with Ralph Reed as its executive director. Reed went on to found the Faith and Freedom Coalition in 2009.",
+   "teaser": "In 1979 five ministers founded the Moral Majority, a political organization that drew support from several faiths.",
+   "voices": [
+    "Jerry Falwell — who founded the Moral Majority with four other ministers in 1979, and called it 'totally political' in 1980",
+    "Ronald Reagan — who told church leaders in Dallas in August 1980, 'I endorse you and what you're doing'",
+    "Pat Robertson — who founded the Christian Coalition in 1989",
+    "Ralph Reed — the Christian Coalition's first executive director, who founded the Faith and Freedom Coalition in 2009",
+    "William Martin — whose With God on Our Side (1996) told the story of the movement's rise"
+   ],
+   "legacy": "Its groups changed over thirty years, but the movement carried on. In 2010 the historian Daniel K. Williams told its story in God's Own Party. The record shows its political work well. It shows much less of what the movement meant for its members' faith.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A current, a label or a skeleton; the flag is a judgment on the evidence. One carrier, the Faith and Freedom Coalition, still meets in a yearly conference.",
+    "evidence": "Andrew R. Lewis, The Rights Turn in Conservative Christian Politics (Cambridge University Press, 2017): independent scholarship; verified. Washington Examiner, on the Faith & Freedom Coalition's Road to Majority conference (26-28 June 2025): independent news; verified, the article's own date not seen.",
+    "grade": "CD (Contemporary-Documented); newest dated item 2025, newest verified 2025",
+    "group": "L-3"
+   },
+   "kind": "cross-church movement"
+  }
+ ],
+ "registerEdits": [
+  {
+   "atlasId": "IX.33",
+   "field": "legacy",
+   "op": "replace",
+   "old": "The political mobilization that began with the Moral Majority in 1979 sits one step past this window, and this map notes that connection here rather than giving it a world of its own.",
+   "new": "The political mobilization that began with the Moral Majority in 1979 sits one step past this window. It has its own entry, the Christian Right.",
+   "ruling": "G-15(i): the IX.33 disclosure line. The old sentence said the map gave the movement no entry of its own, which option (i) makes untrue."
+  },
+  {
+   "atlasId": "IX.33",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window.",
+   "new": "The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window. The Christian Right has its own entry.",
+   "ruling": "G-15(i): the IX.33 disclosure line kept as V2.0 §3 holds it ('Moral Majority 1979'), with a plain pointer to the new entry (the IX.16/IX.51 precedent)."
+  },
+  {
+   "atlasId": "IX.24",
+   "field": "relationsSummary",
+   "op": "replace",
+   "old": "Graham's evangelistic association was incorporated in 1950.",
+   "new": "Graham's evangelistic association was incorporated in 1950. In the United States, ministers founded the Moral Majority in 1979 as a political organization. That movement, the Christian Right, has its own entry.",
+   "ruling": "G-15(i): the IX.24 disclosure line, dated to the movement's founding rather than '(1979– )'. V1.0's drafted clause ('global-congress-shaped — disclosure, not identity') is internal wording and is not used."
+  }
+ ],
+ "metaEdits": [
+  {
+   "field": "meta.totalEntries",
+   "old": 307,
+   "new": 308
+  },
+  {
+   "field": "meta.statusCounts['Pre-Survey Candidate']",
+   "old": 225,
+   "new": 226
+  }
+ ]
+}
