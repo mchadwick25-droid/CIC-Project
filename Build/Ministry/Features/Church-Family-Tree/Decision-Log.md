@@ -774,3 +774,13 @@ evidence rule, and returns to Mark's gate. Full entry: Atlas World Map Decision-
 rows and 23 named lines are drafted, reviewed and applied as P2-E10h. IX.11 is narrowed by change
 order (G-132 b). The 15 "enter once" candidates wait for their named sources, and the 22 holds wait
 too. Full entry: Atlas World Map Decision-Log, "ERA 10 GLOBAL SWEEP GATE".
+
+---
+
+## 2026-11-09 — P2-E10h applied: data release 25
+
+The global sweep's 15 ruled rows (IX.59 to IX.73) and 61 register edits are drafted. They were
+reviewed in three rounds and approved to proceed in Round 3. They are applied as data release 25:
+322 movements, 578 links. The atlas gains the 4<->5 bridge lane (G-80 c). Held lines and open
+points are in Open-Gaps 139 and 140. Full entry: Atlas World Map Decision-Log, "P2-E10h carried
+out".
