@@ -97,9 +97,11 @@ applied to every shared file, not only the census.
 | P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
 | P2-D | Data and citation page | none | in review (one pull request with P2-M) |
 | P2-S | Find-your-church search | none | todo |
-| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | done (2026-11-08); awaiting Mark's ruling (`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`) |
+| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
 | P2-G2 | Schema additions | none | todo |
-| P2-G3 | The agreed entries | narration sample, by ear | todo |
+| P2-G3 | The agreed entries | narration sample, by ear; Mark sees the people list | todo |
+| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view | none | todo |
+| P2-PL | Likenesses: rights and date check per image | none | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
 | P2-K2 | Marks, floor, tap areas; phone, light and color-vision test | none | todo |
@@ -288,13 +290,26 @@ Exact steps, given in chat when P1a has merged:
   sourced, and the search box on the map.
 - **P2-G1, gap sweep.** Read only, by Haiku and Sonnet, of the Library's dossiers, NEEDS-RULING
   and staging notes. Output: one list for Mark's ruling sitting. **Stop.**
-- **P2-G2, schema.** The movement-or-person kind; a confidence grade on living descent; the
-  review-status field shown on each page; Tertullian as person + A5; the Cyrilline duplicate
-  retired with a redirect.
-- **P2-G3, agreed entries.** One numbered release. Narration for new pages (Open-Gaps item 10):
+- **P2-G2, schema.** The movement-or-person kind, beside the era 10 `kind` field; a confidence
+  grade on living descent; the review-status field shown on each page; Tertullian as person + A5;
+  I.14 retired into II.1 with a redirect; the `concerns` field on links; the people row and the
+  door a person carries (Decision-Log, "The gap sweep ruled (P2-G1)", 2026-11-09).
+- **P2-G3, agreed entries.** One numbered release: the new movements and successor entries, II.1
+  extended to 328, the person entries, and the people of each tradition from its voices. The
+  person count (10 or more own works) and the later-worlds count (a script with an alias list) run
+  here, and Mark sees the people list before it ships. Narration for new pages (Open-Gaps item 10):
   sample first, Mark's approval by ear, every setting passed and printed. **Stop for the sample.**
+- **P2-P, people layer.** One switch, Traditions | People, on the same map, opening on
+  Traditions. Each tradition's people in a horizontal row at its place, ordered by date, up to
+  three on the map; people told within no tradition in the gaps; a link drawn from the tradition or
+  the person by view, from one record.
+- **P2-PL, likenesses.** A real likeness only where one was made in the person's lifetime or near
+  it, public domain, credited and date-checked; later depictions on the person's page, captioned.
+  No paid image generation. The silhouette set (period and tradition family, male and female) is
+  drawn with P2-K1.
 - **P2-V, living.** The written definition; all 169 flags checked against it.
-- **P2-K1, drawn marks.** Leaf, person and dot, 2 to 4 options rendered for Mark. **Stop.**
+- **P2-K1, drawn marks.** Leaf, person and dot, 2 to 4 options rendered for Mark, and the person
+  silhouettes by period and tradition family, male and female. **Stop.**
 - **P2-K2, marks and tap areas.** Bigger marks with an on-screen floor; one tap area per
   movement, 24 px, 44 px on touch, nearer mark wins; new legend rows that obey the switches (a
   hidden lane hides its marks and tap areas). Test at phone size, on the light theme, and with a
