@@ -136,6 +136,15 @@ test('the about page counts movements and links from the census', () => {
   assert.match(page, new RegExp(`The tree covers ${c.movements.length} movements\\.`));
 });
 
+test('the method page and the era 10 band say where the history ends, in the same words', () => {
+  const line = "The tree's history runs to 2010. Movements since then will be added as they become history.";
+  const page = generate(census)('method.html').replace(/&#039;/g, "'");
+  assert.ok(page.includes(`<p>${line}</p>`));
+  assert.ok(page.includes('<p>Nothing after 2010 is mapped yet. A living mark means one thing: the tradition is alive today.</p>'));
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.ok(map.includes(`10:${JSON.stringify(line)}`));
+});
+
 test('a cross-church movement shows its kind, and a church body shows none', () => {
   const movement = census.movements.find(m => m.kind === 'cross-church movement');
   const body = census.movements.find(m => m.kind === undefined);
