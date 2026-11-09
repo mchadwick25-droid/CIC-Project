@@ -30,7 +30,11 @@ Soviet world and the Middle East), and within each region river by river (Cathol
 Protestant and Evangelical, Pentecostal and charismatic, independent and initiated, and the
 Eastern and Syriac churches). The same standard and the same recent-movement evidence rule apply:
 own dated founding texts plus a scholarly study, every item verified or [S]. Regional histories
-by scholars from and of those regions come first. The work goes through the same review rounds
+by scholars from and of those regions come first. Mark added: "look at non-english sources too,
+like we have in other eras". So each region's own-language sources are searched alongside English
+ones: founding texts and statements of faith in the original language, regional scholarship in
+those languages, and the Library's non-English editions. Each is cited in its original-language
+title with an English gloss, and quotes are given in the original with a close rendering. The work goes through the same review rounds
 and back to Mark's gate. The census does not change until he rules.
 
 ---
