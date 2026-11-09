@@ -74,6 +74,11 @@ li{margin-bottom:.5rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
 .action-links a:hover{background:var(--madder-deep)}
 .door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
 .site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
@@ -109,8 +114,8 @@ li{margin-bottom:.5rem}
   <div class="titleblock"><h1>Data and citation</h1></div>
 <section>
   <h2>The current release</h2>
-  <p>All of the tree&#039;s data sits in one public file. The current file is release 23, dated November 9, 2026.</p>
-  <p>It holds 308 movements and 579 links. Each release has a number and a date, so a citation can name the exact version it used.</p>
+  <p>All of the tree&#039;s data sits in one public file. The current file is release 24, dated November 9, 2026.</p>
+  <p>It holds 307 movements and 578 links. Each release has a number and a date, so a citation can name the exact version it used.</p>
 </section>
 <section>
   <h2>Download the data</h2>
@@ -122,20 +127,31 @@ li{margin-bottom:.5rem}
   <h2>IDs that never change</h2>
   <p>Every movement and every link has an ID. Once we publish an ID, we never change it or use it again.</p>
   <p>If a link is removed or merged, its ID moves to a retired list in the file. That list gives the date, the reason and any replacement.</p>
-  <p>If a movement is renamed, its old address leads to the new page.</p>
+  <p>If a movement is renamed, its old address leads to the new page. If two entries turn out to tell the same story, one is retired into the other, and its old address leads to the page that took it in.</p>
   <p>Each movement page&#039;s earlier address, on churchinconversation.com, still works. It sends you, in one step, to the same page here.</p>
+</section>
+<section>
+  <h2>Movements and people</h2>
+  <p>Most entries are movements. Some are people: someone the sources treat as a party in their own right, with writing of their own or a recorded position, who founded no lasting movement. In the file, a person entry has the kind &quot;person&quot;.</p>
+  <p>A person entry names the tradition whose story tells it, in the field toldWithin. For a person who belongs to no single tradition, that field is empty. Each movement lists its people, in date order, in the field people.</p>
+  <p>A link that is about one person names that person in the field concerns. It does so only where the link’s own note or sources name them.</p>
+</section>
+<section>
+  <h2>How far each entry is checked</h2>
+  <p>Each entry says how far it has been checked, in the field reviewStatus. &quot;AI-checked&quot; means it was checked with AI tools. &quot;partner-contributed&quot; means it was written with a church partner from the tradition. &quot;scholar-reviewed&quot; means a scholar has reviewed it.</p>
+  <p>Today every entry is AI-checked. Each movement page says so near its foot.</p>
 </section>
 <section>
   <h2>How to cite the tree</h2>
   <p>Name the release you used. These examples use real IDs and the current release.</p>
   <p class="cite-label">The tree</p>
-  <p class="cite">From the Church Family Tree by Faithways Studio, Inc., release 23 (November 9, 2026), CC BY-NC 4.0. <a href="https://www.churchfamilytree.com">https://www.churchfamilytree.com</a></p>
+  <p class="cite">From the Church Family Tree by Faithways Studio, Inc., release 24 (November 9, 2026), CC BY-NC 4.0. <a href="https://www.churchfamilytree.com">https://www.churchfamilytree.com</a></p>
   <p class="cite-label">A movement</p>
-  <p class="cite">“Desert Monasticism.” Church Family Tree, Faithways Studio, Inc., release 23 (November 9, 2026). <a href="https://www.churchfamilytree.com/tree/desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism</a></p>
+  <p class="cite">“Desert Monasticism.” Church Family Tree, Faithways Studio, Inc., release 24 (November 9, 2026). <a href="https://www.churchfamilytree.com/tree/desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism</a></p>
   <p class="cite-label">A link</p>
-  <p class="cite">“Alexandrian Catechetical / Christian-Platonist Tradition gave rise to Desert Monasticism” (Contested). Church Family Tree, Faithways Studio, Inc., release 23 (November 9, 2026), link alexandria-catechetical--desert-monasticism. <a href="https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism</a></p>
+  <p class="cite">“Alexandrian Catechetical / Christian-Platonist Tradition gave rise to Desert Monasticism” (Contested). Church Family Tree, Faithways Studio, Inc., release 24 (November 9, 2026), link alexandria-catechetical--desert-monasticism. <a href="https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism">https://www.churchfamilytree.com/tree/desert-monasticism#alexandria-catechetical--desert-monasticism</a></p>
   <p class="cite-label">A release of the data</p>
-  <p class="cite">Faithways Studio, Inc. Church Family Tree data, release 23 (November 9, 2026). CC BY-NC 4.0. <a href="https://www.churchfamilytree.com/data/world-census.json">https://www.churchfamilytree.com/data/world-census.json</a></p>
+  <p class="cite">Faithways Studio, Inc. Church Family Tree data, release 24 (November 9, 2026). CC BY-NC 4.0. <a href="https://www.churchfamilytree.com/data/world-census.json">https://www.churchfamilytree.com/data/world-census.json</a></p>
   <p>A movement&#039;s ID is the last part of its page address. A link&#039;s ID joins the IDs of its two movements with two hyphens. A second link between the same pair ends in --2.</p>
   <p>A link&#039;s address is either movement&#039;s page, then # and the link&#039;s ID. It opens the page at that link.</p>
 </section>

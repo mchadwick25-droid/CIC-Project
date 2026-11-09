@@ -3,7 +3,7 @@
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 308,
+  "totalEntries": 307,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
@@ -12,19 +12,19 @@
    "Within Another World (A5)": 7,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
-   "Deferred by Step 0": 4,
+   "Deferred by Step 0": 3,
    "Floor Question (register)": 29,
    "Pre-Survey Candidate": 226,
    "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
-  "schemaVersion": 2,
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, or \"cross-church movement\". A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there.",
+  "schemaVersion": 3,
   "release": {
-   "number": 23,
+   "number": 24,
    "date": "2026-11-09"
   },
-  "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
+  "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
   "license": {
    "policy": "Faithways Studio license policy",
    "url": "https://churchinconversation.com/license"
@@ -4696,50 +4696,8 @@
    "verification_state": "verified-direct"
   },
   {
-   "id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
-   "from": "cyrilline-miaphysite-egyptian-tradition",
-   "to": "cyrilline-miaphysite-egyptian-christianity",
-   "type": "continued as",
-   "confidence": "Documented",
-   "note": "After Chalcedon, the clergy, monks and people of Egypt broke communion with the new bishop, Proterius. They held to Dioscorus, who had been deposed. When the emperor Marcian died in 457, the same party chose their own bishop. He was Timothy, a man 'of the same faith as Dioscorus'.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle III.2 (trans. Hamilton and Brooks)",
-     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-     "lines": "2538-2541",
-     "locus": "Chron. III.2",
-     "quote": "the priests, and the monks, and many of the people, perceiving that the faith had been polluted, both by the unjust deposition of Dioscorus and the oppressive conduct of Proterius",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
-     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-     "lines": "3281-3284",
-     "locus": "Chron. IV.1",
-     "quote": "suddenly the report of the death of Marcian reached them, and they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
-     "license": "public-domain"
-    },
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
-     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-     "lines": "3289-3289",
-     "locus": "Chron. IV.1",
-     "quote": "Moreover, he was of the same faith as Dioscorus ;",
-     "license": "public-domain"
-    }
-   ],
-   "citation_specificity": "A",
-   "verification_state": "verified-direct"
-  },
-  {
-   "id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
-   "from": "cyrilline-miaphysite-egyptian-tradition",
+   "id": "cyrilline-miaphysite-egyptian-christianity--imperial-juridical-christianity",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
    "to": "imperial-juridical-christianity",
    "type": "broke with",
    "confidence": "Documented",
@@ -4770,9 +4728,9 @@
    "verification_state": "verified-direct"
   },
   {
-   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2",
    "from": "desert-monasticism",
-   "to": "cyrilline-miaphysite-egyptian-tradition",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
    "type": "gave rise to",
    "confidence": "Documented",
    "note": "In 457 the party in Alexandria that rejected Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril, and Cyril ordained him.",
@@ -24941,7 +24899,9 @@
      "note": "A Roman governor's official report to the emperor Trajan on investigating Christians in Bithynia, including the torture of two enslaved women called ministrae — deaconesses."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "greek-apologists-second-century",
@@ -25051,7 +25011,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-apologists",
@@ -25146,7 +25108,13 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [
+    {
+     "person": "tertullian-s-voice"
+    }
+   ],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -25264,7 +25232,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "alexandria-catechetical",
@@ -25483,7 +25453,9 @@
      "note": "The 1932 study that first argued, against Eusebius's tidy succession-list, that Alexandria's teaching looked more like a sequence of private Christian tutors than one formal institution — the opening move in a scholarly debate that remains unsettled today."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "syriac-edessa-nisibis",
@@ -25713,7 +25685,9 @@
      "note": "Cistercian Studies 124, 1985 — by the scholar generally regarded as the leading authority on Ephrem and Syriac Christianity writing in English."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-pastoral-congregational-christianity",
@@ -25864,7 +25838,9 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "tertullian-s-voice",
@@ -25968,7 +25944,10 @@
       }
      ]
     }
-   ]
+   ],
+   "kind": "person",
+   "toldWithin": "latin-apologists",
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "marcion-marcionism",
@@ -26052,7 +26031,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "valentinian-and-other-gnostic-christianities",
@@ -26117,7 +26098,9 @@
      "text": "The Coptic Museum, Cairo — holds the Nag Hammadi codices along with the world's largest collection of Coptic Christian art, and is open to the public",
      "url": "https://en.wikipedia.org/wiki/Coptic_Museum"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "manichaeism",
@@ -26193,7 +26176,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ebionite-nazoraean-current",
@@ -26243,7 +26228,9 @@
    "voices": [
     "No leader of these communities is named in any source they produced themselves. The heresy-hunters offer only 'Ebion', a supposed founder most scholars now think never existed — invented to explain a group name that in fact meant simply 'the poor'."
    ],
-   "legacy": "No community descends from them. They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them. What they left behind is a question rather than an institution. They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them."
+   "legacy": "No community descends from them. They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them. What they left behind is a question rather than an institution. They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "montanism-the-new-prophecy",
@@ -26343,7 +26330,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "novatianism",
@@ -26454,7 +26443,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "anatolian-church-third-century",
@@ -26540,7 +26531,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "antiochene-church-third-century",
@@ -26626,7 +26619,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "palestinian-church-pre-constantinian",
@@ -26759,7 +26754,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "roman-church-third-century",
@@ -26871,7 +26868,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "danubian-latin-christianity",
@@ -26962,7 +26961,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "desert-monasticism",
@@ -27161,7 +27162,9 @@
      "note": "Oxford University Press, 2004 — a standard modern guide to the sayings, Antony, Pachomius, Evagrius and Cassian, and to how the desert's small written corpus should be read."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "palestinian-ascetic-monasticism-early",
@@ -27233,7 +27236,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "donatism",
@@ -27405,7 +27410,9 @@
      "url": "https://en.wikipedia.org/wiki/Timgad"
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cappadocian-nicene-pastoral-monastic-tradition",
@@ -27640,7 +27647,9 @@
      "note": "St Vladimir's Seminary Press, 1995 — the first English-language study to treat Basil and both Gregorys together."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "imperial-juridical-christianity",
@@ -27836,7 +27845,9 @@
      "note": "Blackwell, 1996 (2nd ed. 2003) — a standard account of how imperial favor reshaped church institutions and authority."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "hieronymian-ascetic-literary",
@@ -28010,7 +28021,9 @@
      "note": "Harper & Row, 1975 — the standard modern biography, drawn almost entirely from Jerome's own prolific correspondence."
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-conversion-era",
@@ -28118,7 +28131,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "aksumite-christianity-conversion-era",
@@ -28213,7 +28228,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "persian-church-of-the-east-early",
@@ -28311,7 +28328,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "antiochene-exegetical-christianity-chrysostom-ce",
@@ -28429,157 +28448,9 @@
      ]
     }
    ],
-   "publicOpen": false
-  },
-  {
-   "id": "cyrilline-miaphysite-egyptian-tradition",
-   "atlasId": "I.14",
-   "era": 2,
-   "name": "Cyrilline / Miaphysite Egyptian Tradition",
-   "shortName": "Cyrilline Egypt",
-   "informalName": "The Cyrilline Egyptian Tradition",
-   "dates": "from 451",
-   "start": 451,
-   "end": 500,
-   "continuesAs": "cyrilline-miaphysite-egyptian-christianity",
-   "region": "Egypt",
-   "placeLabel": "Egypt",
-   "modernCountries": [
-    {
-     "country": "Egypt",
-     "countryId": "Q79",
-     "place": "Egypt",
-     "placeId": "Q79"
-    }
-   ],
-   "regions": [
-    "Africa"
-   ],
-   "lane": "4 Africa",
-   "laneLabel": "Africa",
-   "laneOrder": 4,
-   "beyondFloor": false,
-   "status": "Deferred by Step 0",
-   "chip": "def",
-   "glyph": "def",
-   "statusWord": "Deferred — reasons on record",
-   "statusDescription": "Considered for its era and held for a later one — the reasons are on record.",
-   "living": true,
-   "overlayCurrent": false,
-   "c2": null,
-   "sourcing": "",
-   "floorNote": "Rejection of Chalcedon's formula, not of the Creed's content",
-   "relationsSummary": "Carries on the church of Alexandria and the monks of the Egyptian desert.",
-   "why": "When the Council of Chalcedon defined Christ as one person 'in two natures' in 451, the Egyptian church largely refused the wording, holding instead to Cyril of Alexandria's own formula against Nestorius: one incarnate nature of the Word, a single united reality rather than two things described side by side. The council deposed the Alexandrian patriarch Dioscorus, and Egypt was left with two rival hierarchies — most Egyptian Christians worshipping increasingly in Coptic rather than Greek.",
-   "entry": null,
-   "streams": [
-    "oriental-orthodox"
-   ],
-   "longDescription": "When the Council of Chalcedon met in 451 and defined Christ as one person \"in two natures,\" the Egyptian church largely refused the wording. Not because it thought Christ any less than fully God or fully human, but because it held to the formula Cyril of Alexandria had used against Nestorius twenty years earlier: one incarnate nature of the Word, a single united reality rather than two things described side by side. To Egyptian ears Chalcedon's language sounded like pulling Christ apart again; to Chalcedon's supporters, the Egyptian refusal sounded like collapsing his humanity. The council deposed the Alexandrian patriarch Dioscorus, imperial authority backed the Chalcedonian side, and Egypt was left with two rival hierarchies — one favored by Constantinople, and one that most Egyptian Christians actually followed, worshipping increasingly in Coptic rather than Greek. Out of that separation came the Coptic Orthodox Church and the wider family of churches that made the same refusal.",
-   "teaser": "Egypt, from 451 — a church that would not say \"in two natures,\" and became a separate communion rather than give up the words it had been taught to fight for.",
-   "voices": [
-    "Cyril of Alexandria — whose formula for the unity of Christ, framed against Nestorius at Ephesus in 431, this tradition took as its standard",
-    "Dioscorus of Alexandria — his successor, deposed at Chalcedon in 451, and honored by the Coptic Church as a confessor",
-    "Timothy Aelurus — elected patriarch by those who rejected Chalcedon, and among the first to argue the case at length",
-    "Severus of Antioch — the theologian, a generation later, who gave this position its most careful and lasting statement"
-   ],
-   "legacy": "This is a living church family, not a closed chapter. The Coptic Orthodox Church of Egypt belongs to the Oriental Orthodox family. So do the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches. Together they have tens of millions of members today. This tradition has kept Coptic, the last stage of the language of ancient Egypt, as its tongue of worship. It also kept its own style of icons, a long fasting calendar, and a monastic life that comes down unbroken from the desert. In modern talks, the churches have argued that the split of the fifth century was as much about words as about belief. Since the 1980s, delegates of the Oriental Orthodox, Eastern Orthodox, and Catholic churches have put out joint statements. In them, they agree that they confess the same faith in Christ in different words. Historians still debate how far that holds for the fifth century itself.",
-   "experienceToday": [
-    {
-     "text": "The Hanging Church, Coptic Cairo — Saint Virgin Mary's Coptic Orthodox Church, built over a gate of the Roman fortress of Babylon and still in use",
-     "url": "https://en.wikipedia.org/wiki/Hanging_Church"
-    }
-   ],
-   "documentedStories": [
-    {
-     "title": "Cyril Opens the Council Before the Other Side Arrives",
-     "when": "22 June 431",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "Sixty-eight bishops sign a protest asking the patriarch of Alexandria to wait four more days for the Syrians. He does not.",
-     "text": "The emperor Theodosius II had summoned a council to Ephesus for Pentecost, 7 June 431, to judge between Cyril of Alexandria and Nestorius of Constantinople over whether Mary could be called Theotokos, ‘God-bearer’, and what that implied about Christ. Cyril arrived with fifty Egyptian bishops and a retinue of monks and hospital attendants. John of Antioch and the Syrian bishops, who inclined to Nestorius, were delayed on the road and sent word that they were a few days out. On 21 June sixty-eight bishops already in the city signed a written protest against opening without them. On 22 June Cyril opened anyway, presiding himself as the senior patriarch, over Candidian’s formal objection, and with Nestorius refusing to attend a session he considered illegal. In a single day the assembly read Cyril’s second letter to Nestorius and approved it, read Nestorius’ reply and condemned it, heard testimony from witnesses about his preaching, and deposed him. When John of Antioch arrived four days later he held a council of his own and deposed Cyril. The emperor at first arrested both, then confirmed Cyril and exiled Nestorius, largely, historians agree, because Cyril’s agents distributed enormous sums in gifts to the court — the list survives. Cyril’s theology of the one incarnate nature prevailed and became the standard of the Egyptian church; the way it prevailed became the standard grievance of everyone else. Nestorius, from exile in the Egyptian desert, wrote that he had been condemned unheard, and the record does not contradict him.",
-     "caveat": "The acts of the council are extensive and were compiled by Cyril’s party; Nestorius’ own account (the Bazaar of Heracleides) survived in Syriac and was published only in 1910. The bribery list is preserved in the acts of the Syrian side. Modern historians of every confession accept the outline.",
-     "sources": [
-      {
-       "work": "Acts of the Council of Ephesus (Acta Conciliorum Oecumenicorum I)",
-       "type": "primary",
-       "note": "Extracts in NPNF 2.14 (Seven Ecumenical Councils); full English in Richard Price, The Council of Ephesus of 431 (Liverpool, 2020)."
-      },
-      {
-       "work": "Nestorius, The Bazaar of Heracleides",
-       "type": "primary",
-       "note": "Nestorius’ own defense, written in exile (Driver and Hodgson’s translation, 1925)."
-      },
-      {
-       "work": "Socrates Scholasticus, Ecclesiastical History VII.32–34",
-       "type": "primary",
-       "note": "A contemporary account critical of both parties."
-      },
-      {
-       "work": "John McGuckin, St Cyril of Alexandria: The Christological Controversy (Brill, 1994)",
-       "type": "reference",
-       "note": "A sympathetic modern account that nonetheless concedes the procedural irregularities."
-      }
-     ]
-    },
-    {
-     "title": "The Death of Hypatia and the Reputation of Cyril",
-     "when": "March 415",
-     "tier": "1",
-     "verification": "checked directly against the primary text",
-     "teaser": "A Christian historian, writing within thirty years, says that the murder of a pagan philosopher by a Christian mob ‘brought not the least opprobrium’ on the bishop of Alexandria.",
-     "text": "Hypatia taught philosophy and mathematics in Alexandria and was, Socrates says, so respected that magistrates came to consult her and she moved freely among men in public. In 415 the city was in a running conflict between Cyril, three years a bishop, and the prefect Orestes — a Christian who resented the bishop’s interference — that had already included Cyril’s expulsion of the city’s Jews and an attack on Orestes by monks from Nitria, one of whom was executed and whom Cyril proclaimed a martyr. Hypatia was Orestes’ friend and, rumor said, the reason he would not be reconciled with the bishop. A crowd ‘under the leadership of a reader named Peter’ waylaid her carriage, dragged her to the church called Caesareum, stripped her, killed her with tiles, tore her body apart and burned the pieces. Then he adds a sentence that is the reason the story belongs to this tradition’s record: ‘This affair brought not the least opprobrium, not only upon Cyril, but also upon the whole Alexandrian church. And surely nothing can be farther from the spirit of Christianity than the allowance of massacres, fights, and transactions of that sort.’ Socrates does not say Cyril ordered it. He says the killers were Cyril’s people, that the city held him responsible, and that a Christian writer thought the church should be ashamed. The Coptic tradition later celebrated Cyril as the pillar of the faith and, in one seventh-century chronicle, Hypatia’s death as the removal of an idolatress.",
-     "caveat": "Socrates is a near-contemporary hostile to Alexandrian violence but not to Cyril’s theology; Damascius, a pagan writing a century later, blames Cyril directly, and John of Nikiu, a Coptic bishop of the seventh century, approves the killing. No source proves Cyril’s personal involvement; none exonerates his party.",
-     "sources": [
-      {
-       "work": "Socrates Scholasticus, Ecclesiastical History VII.13–15",
-       "type": "primary",
-       "note": "The expulsion of the Jews, the Nitrian monks, and Hypatia’s death."
-      },
-      {
-       "work": "John of Nikiu, Chronicle, ch. 84",
-       "type": "primary",
-       "note": "The Coptic tradition’s approving account (Charles’ translation, 1916)."
-      },
-      {
-       "work": "Edward J. Watts, Hypatia: The Life and Legend of an Ancient Philosopher (Oxford, 2017)",
-       "type": "reference",
-       "note": "The standard modern biography, weighing the sources."
-      }
-     ]
-    },
-    {
-     "title": "Dioscorus Refuses to Come In",
-     "when": "October 451",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "Summoned three times to answer for the council of 449, the patriarch of Alexandria will not enter the hall. He is deposed for contempt, not for heresy, and Egypt never accepts it.",
-     "text": "Two years earlier, at the second council of Ephesus, Dioscorus of Alexandria had presided over the rehabilitation of the monk Eutyches, the deposition of Flavian of Constantinople — who died shortly afterwards of injuries received there — and the refusal to have Leo’s Tome read. Leo called it a ‘robber synod’. When the new emperor Marcian convened Chalcedon, the imperial commissioners made Dioscorus sit as a defendant on the first day, and the bishops who had signed with him at Ephesus rose one after another to say they had been coerced. Flavian’s deposition was reversed. At the third session Dioscorus was summoned three times, by the canonical form, to come and answer the charges brought by Eusebius of Dorylaeum. He was in the city, under guard; he sent back that he was willing to appear if the commissioners were present, then that he was ill, then nothing. The council deposed him in his absence — the sentence, carefully, names contumacy and his excommunication of Leo, and does not condemn his faith. In Egypt the news arrived as an outrage. The Alexandrian delegates at the council had already said they dared not sign the new definition, ‘for we shall be killed when we go home’; the Chalcedonian patriarch imposed on the city, Proterius, was lynched in 457; and the Coptic church has kept Dioscorus as a confessor and saint ever since, with the claim that he was condemned for refusing to say what Cyril had never said.",
-     "caveat": "The acts of Chalcedon are the fullest conciliar record of antiquity but were kept by the winning side; Dioscorus’ reasons for not appearing are inferred. The Coptic account (in the History of Dioscorus attributed to his deacon Theopistus) is hagiographic. The non-doctrinal wording of his deposition is a matter of record.",
-     "sources": [
-      {
-       "work": "Acts of the Council of Chalcedon, sessions I and III",
-       "type": "primary",
-       "note": "Extracts in NPNF 2.14; full English in Price and Gaddis, The Acts of the Council of Chalcedon (Liverpool, 2005)."
-      },
-      {
-       "work": "Leo the Great, Letter 95 (to Pulcheria, on ‘the robber synod’)",
-       "type": "primary",
-       "note": "Leo’s characterization of Ephesus 449."
-      },
-      {
-       "work": "Evagrius Scholasticus, Ecclesiastical History II.2–8",
-       "type": "primary",
-       "note": "A sixth-century account including the Egyptian reaction and Proterius’ murder."
-      },
-      {
-       "work": "W. H. C. Frend, The Rise of the Monophysite Movement (Cambridge, 1972)",
-       "type": "reference",
-       "note": "The standard narrative of the Egyptian refusal of Chalcedon."
-      }
-     ]
-    }
-   ]
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "jerusalem-liturgical-pilgrimage-christianity",
@@ -28683,7 +28554,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ambrosian-milan-standalone",
@@ -28773,7 +28646,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "aquileian-christianity",
@@ -28865,7 +28740,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "gallic-nicene-episcopate",
@@ -28956,7 +28833,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "gallic-monastic-ascetic-christianity",
@@ -29126,7 +29005,9 @@
     "Vincent of Lérins - the monk whose Commonitory asked how the church can tell development from corruption, and answered with what has been believed everywhere, always, and by everyone"
    ],
    "legacy": "Cassian's Conferences became the West's standing handbook of the inner life. Benedict's Rule praises them by name and sets them as daily reading. That carried them into every Benedictine house in Europe. Vincent, a monk of Lérins, set out a test about 434 in his Commonitory: what has been believed everywhere, always, by everyone. Sixteen centuries later, it is still quoted in debates about how doctrine develops. Lérins itself is still a monastery, on the island off Cannes where it has stood since about 410. Martin became the patron saint of France. He was one of the most widely honored saints of the medieval West, and thousands of churches carry his name. The case Gaul made against Augustine on grace was argued from Marseilles. It was still being fought over at the Reformation.",
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "priscillianist-asceticism",
@@ -29209,7 +29090,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "pelagianism",
@@ -29293,7 +29176,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "homoian-arian-christianity",
@@ -29412,7 +29297,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "anomoean-eunomian-christianity",
@@ -29505,7 +29392,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "pneumatomachian-current",
@@ -29596,7 +29485,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "apollinarian-christianity",
@@ -29717,7 +29608,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "modalist-monarchianism",
@@ -29810,7 +29703,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "bardaisanite-current",
@@ -29893,7 +29788,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cyrilline-miaphysite-egyptian-christianity",
@@ -30084,7 +29981,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "syriac-orthodox-west-syriac-christianity",
@@ -30239,7 +30138,9 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-church-of-the-east-under-persia",
@@ -30387,7 +30288,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-after-avarayr",
@@ -30528,7 +30431,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-before-the-bagratids",
@@ -30568,7 +30473,9 @@
    "voices": [],
    "legacy": "",
    "experienceToday": [],
-   "documentedStories": []
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
@@ -30742,7 +30649,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "early-benedictine-italian-monasticism",
@@ -30884,7 +30793,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "roman-church-gregorian",
@@ -31027,7 +30938,9 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "merovingian-gallic-christianity",
@@ -31211,7 +31124,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "insular-irish-monastic-christianity",
@@ -31394,7 +31309,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "medieval-irish-christianity",
@@ -31447,7 +31364,9 @@
    "voices": [],
    "legacy": "",
    "experienceToday": [],
-   "documentedStories": []
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "aksumite-christianity",
@@ -31605,7 +31524,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "georgian-christianity",
@@ -31742,7 +31663,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nubian-christianity",
@@ -31863,7 +31786,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "gothic-and-vandal-homoian-christianity",
@@ -32014,7 +31939,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "byzantine-imperial-church-justinianic",
@@ -32140,7 +32067,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-caucasian-albania",
@@ -32227,7 +32156,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-africa-under-byzantium",
@@ -32319,7 +32250,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nicene-visigothic-iberia",
@@ -32435,7 +32368,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "british-welsh-christianity",
@@ -32552,7 +32487,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "medieval-welsh-christianity",
@@ -32599,7 +32536,9 @@
    "voices": [],
    "legacy": "",
    "experienceToday": [],
-   "documentedStories": []
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-church-of-the-east-on-the-silk-road",
@@ -32729,7 +32668,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-east-under-the-abbasids",
@@ -32770,7 +32711,9 @@
    "voices": [],
    "legacy": "",
    "experienceToday": [],
-   "documentedStories": []
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "melkite-arabic-christianity",
@@ -32909,7 +32852,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "coptic-christianity-under-early-islam",
@@ -33069,7 +33014,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "anglo-saxon-christianity",
@@ -33241,7 +33188,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "carolingian-reform-christianity",
@@ -33378,7 +33327,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "iconophile-byzantine-monasticism",
@@ -33533,7 +33484,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cyrillo-methodian-slavic-christianity",
@@ -33700,7 +33653,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "kievan-rus-christianity",
@@ -33847,7 +33802,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "mozarabic-christianity",
@@ -33996,7 +33953,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cluniac-reform-monasticism",
@@ -34135,7 +34094,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "st-thomas-christians-of-india",
@@ -34261,7 +34222,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "paulicians",
@@ -34369,7 +34332,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "bogomils",
@@ -34449,7 +34414,9 @@
     "Bogomil — the Bulgarian priest whose name the movement carries; nothing written by him survives",
     "Cosmas the Priest — their earliest and most detailed opponent, whose sermon against them is the main source for what they taught"
    ],
-   "legacy": "Historians trace the movement on after 1054 into the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. That page also takes up the claim that they shaped the Cathars of the West. The Bogomils left no text of their own. Every account of their belief that survives was written by someone who opposed it."
+   "legacy": "Historians trace the movement on after 1054 into the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. That page also takes up the claim that they shaped the Cathars of the West. The Bogomils left no text of their own. Every account of their belief that survives was written by someone who opposed it.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "scandinavian-conversion-christianity",
@@ -34599,7 +34566,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "byzantine-imperial-church-heraclian-iconoclast",
@@ -34725,7 +34694,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "byzantine-imperial-church-macedonian",
@@ -34851,7 +34822,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "bagratid-armenian-christianity",
@@ -34957,7 +34930,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "syriac-orthodox-under-islam",
@@ -35094,7 +35069,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "makurian-nubian-christianity",
@@ -35209,7 +35186,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "late-anglo-saxon-christianity",
@@ -35331,7 +35310,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "georgian-revival-tao-klarjeti",
@@ -35450,7 +35431,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "post-aksumite-ethiopian-christianity",
@@ -35502,7 +35485,9 @@
    "voices": [
     "No individual figure from this period can be named with confidence. It is the least documented stretch of Ethiopian Christian history, and the names later tradition supplies — including the queen remembered as Gudit — cannot be checked against contemporary sources."
    ],
-   "legacy": "Everything later Ethiopian Christianity is rests on the fact that this church did not die. The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world. The link with Alexandria that these centuries kept alive held until 1959, when the Ethiopian church finally received a patriarch of its own. And what was carried through the silence — worship in Ge'ez, a distinctive monasticism, a liturgical calendar unlike anyone else's — is still what marks Ethiopian Christianity out."
+   "legacy": "Everything later Ethiopian Christianity is rests on the fact that this church did not die. The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world. The link with Alexandria that these centuries kept alive held until 1959, when the Ethiopian church finally received a patriarch of its own. And what was carried through the silence — worship in Ge'ez, a distinctive monasticism, a liturgical calendar unlike anyone else's — is still what marks Ethiopian Christianity out.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cistercian-monasticism",
@@ -35664,7 +35649,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "carthusian-life",
@@ -35805,7 +35792,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "canons-regular-victorine-school",
@@ -35916,7 +35905,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-franciscan-movement",
@@ -36089,7 +36080,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-dominican-order",
@@ -36245,7 +36238,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "athonite-and-comnenian-byzantine-monasticism",
@@ -36414,7 +36409,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-beguines",
@@ -36562,7 +36559,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-waldensians",
@@ -36686,7 +36685,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "zagwe-and-early-solomonic-ethiopian-christianity",
@@ -36777,7 +36778,9 @@
      "text": "Lalibela, Ethiopia — eleven churches cut downward out of the living rock in the twelfth and thirteenth centuries and still in use for worship",
      "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "maronite-christianity",
@@ -36903,7 +36906,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "military-religious-orders-templars-hospitallers",
@@ -37038,7 +37043,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "cathars-albigensians",
@@ -37195,7 +37202,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "joachimite-current",
@@ -37312,7 +37321,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "free-spirit-heresy",
@@ -37391,7 +37402,9 @@
     "Marguerite Porete — burned at Paris in 1310, and the one person condemned under this charge who left a substantial book in her own voice; she never used the label, and whether her Mirror of Simple Souls teaches what Ad nostrum condemned is precisely the disputed question",
     "The rest are known only as defendants — men and women like John of Brunn, whose recorded words come out of interrogation and follow the questioners' template closely enough that they cannot safely be read as their own"
    ],
-   "legacy": "Nothing continued, because there was most likely nothing there to continue. What the episode left behind is the charge itself, which stayed available for two centuries afterwards against mystical writing and against religious women living outside enclosure. It also left one of the clearest lessons in the historian's craft: that a heresy can be manufactured out of a decree, a questionnaire and enough pressure. Marguerite Porete's book, once separated from the label, has been read since the twentieth century as a serious work of theology."
+   "legacy": "Nothing continued, because there was most likely nothing there to continue. What the episode left behind is the charge itself, which stayed available for two centuries afterwards against mystical writing and against religious women living outside enclosure. It also left one of the clearest lessons in the historian's craft: that a heresy can be manufactured out of a decree, a questionnaire and enough pressure. Marguerite Porete's book, once separated from the label, has been read since the twentieth century as a serious work of theology.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-georgian-golden-age",
@@ -37509,7 +37522,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "serbian-and-bulgarian-medieval-monasticism",
@@ -37665,7 +37680,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "byzantine-church-after-1054",
@@ -37788,7 +37805,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-papal-church-gregorian",
@@ -37906,7 +37925,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "kievan-rus-christianity-1054-1240",
@@ -38023,7 +38044,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-cilicia",
@@ -38112,7 +38135,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "syriac-renaissance",
@@ -38242,7 +38267,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-east-under-the-mongols",
@@ -38339,7 +38366,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-carmelites",
@@ -38395,7 +38424,9 @@
      "text": "Haifa, Israel — the Stella Maris monastery on Mount Carmel, the Carmelites' house on the mountain the order is named for",
      "url": "https://en.wikipedia.org/wiki/Stella_Maris_Monastery"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "balkan-bogomil-continuation",
@@ -38495,7 +38526,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-church-of-outremer",
@@ -38607,7 +38640,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "coptic-christianity-fatimid-to-mamluk",
@@ -38692,7 +38727,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-humiliati",
@@ -38747,7 +38784,9 @@
    "voices": [
     "No individual founder is named in the record — the Humiliati were fundamentally a lay collective, organized by trade and locality rather than around a founding figure"
    ],
-   "legacy": "No clear record survives of their lasting influence beyond their own two centuries. In 1571 a papal bull shut down the brothers' order, and with it the movement mostly lost its own identity. Some houses of Humiliati nuns lived on."
+   "legacy": "No clear record survives of their lasting influence beyond their own two centuries. In 1571 a papal bull shut down the brothers' order, and with it the movement mostly lost its own identity. Some houses of Humiliati nuns lived on.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-english-mystics-and-devout",
@@ -38890,7 +38929,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "rhineland-mysticism-and-the-friends-of-god",
@@ -39032,7 +39073,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "devotio-moderna-brethren-of-the-common-life",
@@ -39162,7 +39205,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "hesychasm-and-the-palamite-synthesis",
@@ -39291,7 +39336,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "lollardy",
@@ -39442,7 +39489,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-hussite-and-bohemian-brethren-movement",
@@ -39592,7 +39641,9 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-ethiopian-monastic-flowering",
@@ -39732,7 +39783,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "muscovite-monastic-christianity",
@@ -39880,7 +39933,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "observant-reform-and-popular-preaching",
@@ -40039,7 +40094,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "late-medieval-lay-parish-piety",
@@ -40159,7 +40216,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "taborite-radicalism",
@@ -40269,7 +40328,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "fraticelli-spiritual-franciscan-rigorists",
@@ -40399,7 +40460,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "inquisition-record-sects-adamites-and-kin",
@@ -40456,7 +40519,9 @@
    "voices": [
     "No voice from inside any of these groups survives. The Adamites of 1421 reach us only through their enemies. Their beliefs come down as a list of errors that Žižka, the Taborite captain, sent to Prague after they were killed"
    ],
-   "legacy": "Nothing institutional survives. In some cases there may have been nothing to survive, since several of these 'sects' may never have existed in the form the records describe. What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith."
+   "legacy": "Nothing institutional survives. In some cases there may have been nothing to survive, since several of these 'sects' may never have existed in the form the records describe. What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-papal-church-avignon-to-lateran-v",
@@ -40581,7 +40646,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "byzantine-church-palaiologan",
@@ -40701,7 +40768,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "waldensians-in-the-alps",
@@ -40806,7 +40875,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-east-timur-to-hakkari",
@@ -40862,7 +40933,9 @@
     "Timothy II — patriarch in the years just before the collapse, whose synod of 1318 is among the last acts of the old order",
     "Beyond the patriarchs, the people of this era reach us mainly as names in manuscript colophons — scribes recording who they were, where they were copying, and what was happening around them"
    ],
-   "legacy": "The remnant endured. In 1552 its patriarchate, held by one family, split in two. Part of the church entered communion with Rome. The two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church. Their Syriac liturgy and their old books live on. The people who keep them were scattered far and wide by the persecutions of the twentieth century. And the Indian province that outlasted the catastrophe became the St Thomas Christians of Kerala. Their descendants number several million."
+   "legacy": "The remnant endured. In 1552 its patriarchate, held by one family, split in two. Part of the church entered communion with Rome. The two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church. Their Syriac liturgy and their old books live on. The people who keep them were scattered far and wide by the persecutions of the twentieth century. And the Indian province that outlasted the catastrophe became the St Thomas Christians of Kerala. Their descendants number several million.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "terminal-christian-nubia",
@@ -40922,7 +40995,9 @@
      "text": "The Faras Gallery, National Museum in Warsaw — the rescued wall paintings from Faras cathedral, the only permanent display of medieval Nubian painting in Europe",
      "url": "https://www.mnw.art.pl/en/collections/permanent-galleries/faras-gallery/"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "franciscan-order-era-6",
@@ -41012,7 +41087,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-bosnian-church",
@@ -41088,7 +41165,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-cilicia-after-the-kingdom",
@@ -41184,7 +41263,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "maronite-christianity-era-6",
@@ -41245,7 +41326,9 @@
      "text": "Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God, Lebanon — the gorge that sheltered the Maronite patriarchate and its monasteries, a UNESCO World Heritage Site",
      "url": "https://whc.unesco.org/en/list/850/"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "st-thomas-christians-1300-1517",
@@ -41323,7 +41406,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "lutheran-wittenberg-and-its-congregations",
@@ -41535,7 +41620,9 @@
      "url": "https://lutherstadt-wittenberg.de/en/see-discover/sights/luthermuseums"
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-reformed-cities-zurich-and-geneva",
@@ -41702,7 +41789,9 @@
      "url": "https://www.myswitzerland.com/en-us/experiences/grossmuenster/"
     }
    ],
-   "publicOpen": true
+   "publicOpen": true,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-anabaptist-movements",
@@ -41862,7 +41951,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-english-reformation-and-elizabethan-settleme",
@@ -42014,7 +42105,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-scottish-reformation-and-kirk",
@@ -42159,7 +42252,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-huguenots",
@@ -42304,7 +42399,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "recusant-english-catholicism",
@@ -42447,7 +42544,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "puritanism",
@@ -42611,7 +42710,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "dutch-further-reformation-and-refuge-culture",
@@ -42714,7 +42815,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-waldensian-reformed-union",
@@ -42825,7 +42928,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-society-of-jesus",
@@ -42969,7 +43074,9 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "tridentine-parish-renewal-borromean-milan",
@@ -43103,7 +43210,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "mission-born-christianities-kirishitan-japan-kon",
@@ -43280,7 +43389,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "kongo-christianity-afonso-to-1650",
@@ -43314,7 +43425,9 @@
    "beyondFloor": false,
    "living": true,
    "overlayCurrent": false,
-   "c2": null
+   "c2": null,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "kirishitan-japan",
@@ -43355,7 +43468,9 @@
    "beyondFloor": false,
    "living": true,
    "overlayCurrent": false,
-   "c2": null
+   "c2": null,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "china-mission-born-christianity",
@@ -43389,7 +43504,9 @@
    "beyondFloor": false,
    "living": true,
    "overlayCurrent": false,
-   "c2": null
+   "c2": null,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "new-spain-and-andes-mission-born-christianity",
@@ -43423,7 +43540,9 @@
    "beyondFloor": false,
    "living": true,
    "overlayCurrent": false,
-   "c2": null
+   "c2": null,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "anti-trinitarian-currents-servetus-polish-brethr",
@@ -43573,7 +43692,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "schwenckfelders",
@@ -43695,7 +43816,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "family-of-love-and-spiritualists-franck-niclaes",
@@ -43815,7 +43938,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
@@ -43974,7 +44099,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "st-thomas-christians-under-portuguese-pressure-d",
@@ -44129,7 +44256,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "philippine-catholicism",
@@ -44281,7 +44410,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
@@ -44437,7 +44568,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-kyiv-mohyla-orthodox-revival",
@@ -44572,7 +44705,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-tridentine-church",
@@ -44721,7 +44856,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "russian-church-stoglav-to-nikon",
@@ -44850,7 +44987,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "czech-churches-last-century",
@@ -44982,7 +45121,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ethiopian-christianity-gragn-to-fasilides",
@@ -45101,7 +45242,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-remonstrants-and-dort",
@@ -45224,7 +45367,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "scandinavian-reformation-kingdoms",
@@ -45353,7 +45498,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-new-julfa",
@@ -45476,7 +45623,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "carmelite-reform-and-spanish-mystics",
@@ -45596,7 +45745,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-east-schism-of-1552",
@@ -45675,7 +45826,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-quakers-religious-society-of-friends",
@@ -45848,7 +46001,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "german-pietism-spener-francke-halle",
@@ -45994,7 +46149,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
@@ -46171,7 +46328,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-moravian-church-at-herrnhut",
@@ -46324,7 +46483,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-methodist-revival",
@@ -46509,7 +46670,9 @@
      ]
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-evangelical-awakening-in-new-england",
@@ -46681,7 +46844,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-old-believers",
@@ -46866,7 +47031,9 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ],
-   "publicOpen": false
+   "publicOpen": false,
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-hesychast-revival-paisius-and-the-philokalia",
@@ -47049,7 +47216,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "port-royal-jansenism",
@@ -47207,7 +47376,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-welsh-revival-tradition",
@@ -47361,7 +47532,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-antonian-movement-in-kongo",
@@ -47464,7 +47637,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "shakers",
@@ -47609,7 +47784,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "swedenborgian-new-church",
@@ -47749,7 +47926,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "quietist-controversy-molinos-guyon",
@@ -47896,7 +48075,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "camisard-prophetism",
@@ -48039,7 +48220,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-baptists",
@@ -48234,7 +48417,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "colonial-latin-american-devotional-catholicism",
@@ -48413,7 +48598,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "orthodoxy-under-the-ottomans-1650-1821",
@@ -48536,7 +48723,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "catholic-church-ancien-regime",
@@ -48679,7 +48868,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "restoration-georgian-church-of-england",
@@ -48830,7 +49021,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "russian-church-nikon-to-holy-synod",
@@ -48967,7 +49160,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-desert-huguenots",
@@ -49122,7 +49317,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "melkite-greek-catholic-church",
@@ -49215,7 +49412,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-apostolic-church-era-8",
@@ -49286,7 +49485,9 @@
      "url": "https://en.wikipedia.org/wiki/Etchmiadzin_Cathedral"
     }
    ],
-   "documentedStories": []
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-era-8",
@@ -49414,7 +49615,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-utrecht",
@@ -49502,7 +49705,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "english-old-dissent",
@@ -49657,7 +49862,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "early-american-unitarians-universalists",
@@ -49781,7 +49988,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ruthenian-uniate-18th-century",
@@ -49926,7 +50135,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "philippine-catholicism-era-8",
@@ -50046,7 +50257,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-black-church-in-america",
@@ -50203,7 +50416,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-second-great-awakening-and-camp-meeting-worl",
@@ -50352,7 +50567,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-stone-campbell-restoration-movement",
@@ -50502,7 +50719,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-holiness-movement",
@@ -50659,7 +50878,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-oxford-movement-and-anglo-catholic-revival",
@@ -50835,7 +51056,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-salvation-army",
@@ -50990,7 +51213,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-missionary-movement-s-native-churches-seramp",
@@ -51170,7 +51395,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-haugean-awakening",
@@ -51314,7 +51541,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-reveil-and-inner-mission-awakening",
@@ -51473,7 +51702,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "restorationist-apocalyptic-ferment-and-adventism",
@@ -51619,7 +51850,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-optina-elders-and-russian-ascetic-renewal",
@@ -51769,7 +52002,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-kollyvades-and-greek-renewal",
@@ -51916,7 +52151,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "coptic-revival-under-cyril-iv",
@@ -52054,7 +52291,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latter-day-saints-lds",
@@ -52225,7 +52464,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "jehovah-s-witnesses-bible-students",
@@ -52364,7 +52605,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "christian-science",
@@ -52501,7 +52744,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "christadelphians",
@@ -52632,7 +52877,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "catholic-apostolic-church-irvingites",
@@ -52781,7 +53028,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "oneida-community",
@@ -52925,7 +53174,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "spiritualism-new-thought",
@@ -53004,7 +53255,9 @@
     "Emma Curtis Hopkins — the teacher who trained most of New Thought's founding generation",
     "Charles and Myrtle Fillmore — founders of Unity in 1889, the largest of the New Thought bodies"
    ],
-   "legacy": "Spiritualist churches still exist in Britain and the United States, and the effort to test their claims scientifically produced the Society for Psychical Research in 1882 and, indirectly, a whole field of investigation. New Thought became ongoing denominations — Unity, Religious Science and their relatives — but its far larger legacy escaped religion altogether. Its language of mind over circumstance runs straight into twentieth-century positive-thinking, self-help and prosperity literature read by millions who have never heard of Quimby."
+   "legacy": "Spiritualist churches still exist in Britain and the United States, and the effort to test their claims scientifically produced the Society for Psychical Research in 1882 and, indirectly, a whole field of investigation. New Thought became ongoing denominations — Unity, Religious Science and their relatives — but its far larger legacy escaped religion altogether. Its language of mind over circumstance runs straight into twentieth-century positive-thinking, self-help and prosperity literature read by millions who have never heard of Quimby.",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "korean-catholic-origins",
@@ -53159,7 +53412,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "laestadianism-and-the-nordic-revivals",
@@ -53308,7 +53563,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "plymouth-brethren-and-dispensational-formation",
@@ -53460,7 +53717,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-sunday-school-and-bible-institute-movement",
@@ -53602,7 +53861,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-student-volunteer-movement-and-edinburgh-191",
@@ -53741,7 +54002,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "indonesian-christianity",
@@ -53906,7 +54169,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "northeast-india-revivals-and-the-mar-thoma-refor",
@@ -54060,7 +54325,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "orthodoxy-after-1821-balkan-autocephalies",
@@ -54175,7 +54442,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "catholic-church-long-nineteenth-century",
@@ -54313,7 +54582,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "victorian-church-of-england",
@@ -54432,7 +54703,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "russian-church-synodal-century",
@@ -54542,7 +54815,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "armenian-christianity-zartonk",
@@ -54667,7 +54942,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "old-catholic-churches-union-of-utrecht",
@@ -54782,7 +55059,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nineteenth-century-methodism",
@@ -54902,7 +55181,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nineteenth-century-baptists",
@@ -55016,7 +55297,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nineteenth-century-quakerism-separations",
@@ -55128,7 +55411,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "american-unitarianism-universalism-consolidations",
@@ -55245,7 +55530,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ruthenian-greek-catholic-polotsk-to-galicia",
@@ -55363,7 +55650,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "philippine-catholicism-gomburza-to-aglipay",
@@ -55472,7 +55761,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "church-of-the-east-chaldean-consolidation",
@@ -55581,7 +55872,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "confessional-lutheran-revival-emigrations",
@@ -55698,7 +55991,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "malagasy-christianity",
@@ -55808,7 +56103,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "east-african-christianity-uganda-martyrs",
@@ -55930,7 +56227,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "taiping-heavenly-kingdom",
@@ -56038,7 +56337,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "japanese-christianity-hidden-emergence-meiji",
@@ -56162,7 +56463,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "haitian-church-rupture-to-concordat",
@@ -56243,7 +56546,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "alaskan-mission-herman-veniaminov",
@@ -56373,7 +56678,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "nineteenth-century-latin-american-catholicism",
@@ -56487,7 +56794,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ethiopian-christianity-tewodros-to-menelik",
@@ -56606,7 +56915,9 @@
      ],
      "verification": "from reference summaries; primary text not yet read"
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "dutch-neo-calvinism-secession-churches",
@@ -56725,7 +57036,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "russian-evangelicals-stundists",
@@ -56849,7 +57162,9 @@
       }
      ]
     }
-   ]
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "azusa-street-and-early-pentecostalism",
@@ -57002,7 +57317,9 @@
     "evidence": "World Christian Encyclopedia, 3rd ed. (2019): independent counter for the Pentecostal family, cited at IX.11 and IX.15; verified; Pew, Global Christianity (Dec 2011): independent survey; verified; Anderson, An Introduction to Pentecostalism, 2nd ed. (2013/14): survey scholarship; verified; Espinosa, William J. Seymour (2014): history of the revival; [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
@@ -57159,7 +57476,9 @@
     "evidence": "No dated source after 2010 attests the Welsh, Indian or Korean churches the revivals left; Oak, The Making of Korean Christianity (2013): history of 1876-1915; [S].",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-east-african-revival-balokole",
@@ -57311,7 +57630,9 @@
     "evidence": "Peterson (2012) and Ward & Wild-Wood, The East African Revival: History and Legacies (2012): independent scholarship; verified. The repo does not record what they say of the fellowships after 2010.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "african-initiated-churches-harrist-aladura-zioni",
@@ -57456,7 +57777,9 @@
     "evidence": "The Kimbanguist church's exclusion from the World Council of Churches (2021): an act of an independent body; verified (census IX.4 floorNote); World Christian Encyclopedia, 3rd ed. (2019): counter for AIC adherence; verified. Its ZCC and Kimbanguist figures rest on the churches' own reports (census source note); Mokoko Gampiot, Kimbanguism (2017): scholarship; verification not recorded [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2021, newest verified 2021",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-chinese-church-indigenous-and-suffering",
@@ -57608,7 +57931,9 @@
     "evidence": "Pew, Global Christianity (2011), about 67 million: independent counter; verified. The year its estimate describes is not pinned; Bays, A New History of Christianity in China (2012): history; [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2011, newest verified 2011",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-confessing-church",
@@ -57739,7 +58064,9 @@
     "evidence": "Stuttgart Declaration (Oct 1945): the body's last act in the record; [S]; its texts lived on; the body did not. No later body is in the repo.",
     "grade": "n/a (flag false on a documented end)",
     "group": "L-4"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
@@ -57855,7 +58182,9 @@
     "evidence": "L'Arche International, Summary Report of the independent inquiry (22 Feb 2020): own voice; [S]; Commission d'etude independante, Emprise et abus, report to L'Arche International (30 Jan 2023): independent commission, commissioned and published by the movement; [S]; L'Arche International, statement on Thomas Philippe (2016): own voice; [S]; Catholic Worker, Focolare, Charismatic Renewal: no dated source after 2010.",
     "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "latin-american-base-communities",
@@ -58001,7 +58330,9 @@
     "evidence": "Romero's canonization (2018): an act of the Catholic Church, not a base-community record; [S]; Kelly (2013), Whelan (2016): history of the 1970s; verification not recorded [S].",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "emigre-orthodoxy-and-the-paris-school",
@@ -58146,7 +58477,9 @@
     "evidence": "No dated source after 2010 attests St Sergius, St Vladimir's or the OCA; Arjakovsky (2013), Gallaher (2013): history; [S]; Adjacent only: IX.48's Hanegraaff (2017) and Slagle (2011) attest North American Orthodoxy, not this lineage.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-coptic-monastic-and-sunday-school-revival",
@@ -58294,7 +58627,9 @@
     "evidence": "Bishop Suriel, Habib Girgis (SVS Press, 2017): the church's own voice, a Coptic bishop's study; verified. The study is of Habib Girgis, who died in 1951, so it does not describe the present by itself. The 21 Libya martyrs entered in the church's synaxarium (2015): own voice; [S]; Girgis canonized (2013): own voice; [S]; Mosebach, The 21 (ET 2019): literary journalism; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2019, newest verified 2017",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "global-south-pentecostal-christianity",
@@ -58424,7 +58759,9 @@
     "evidence": "World Christian Encyclopedia, 3rd ed. (2019): counter; verified; Pew, Global Christianity (2011): verified; Anderson, 2nd ed. (2014): verified; Seoul Central District Court judgment on Cho Yong-gi (20 Feb 2014): court record on Yoido's founder; verification not recorded [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "persecuted-church-worlds-of-the-communist-era-in",
@@ -58569,7 +58906,9 @@
     "evidence": "No dated source after 2010.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "messianic-judaism",
@@ -58717,7 +59056,9 @@
     "evidence": "Pew US Jewish survey (2013), touching Messianic self-identification: independent survey; figures [S]; Rudolph & Willitts, Introduction to Messianic Judaism (2013): movement scholars; verified.",
     "grade": "CR (Contemporary-Reported); newest dated item 2013, newest verified 2013",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ecumenical-community-worlds-taize-and-iona",
@@ -58867,7 +59208,9 @@
     "evidence": "Taize: succession from Brother Alois to Brother Matthew (2023), the community's own dated announcement; [S]; Iona: no dated source after 2010.",
     "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "oneness-pentecostalism",
@@ -59016,7 +59359,9 @@
     "evidence": "World Christian Encyclopedia, 3rd ed. (2019): Oneness aggregate; verified; UPCI Manual, issued annually: own voice; annual issuance verified in the 2026-08 sources run; edition year not pinned [S]; Ramirez, Migrating Faith (2015): history; [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "iglesia-ni-cristo-the-way-international-unificat",
@@ -59131,7 +59476,9 @@
     "evidence": "La Luz del Mundo: Los Angeles Superior Court sentencing record (8 Jun 2022) and California DOJ releases (2019; 2022): court and state record; verified-adjacent; La Luz del Mundo, official statements (June 2022): own voice; [S]; Unification Church: Moon d. 2012; the Sanctuary Church schism (2015); [S]; The Way International: Statement of Beliefs undated [S]; no dated source after 2010.",
     "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "branch-davidians-and-apocalyptic-splinters",
@@ -59234,7 +59581,9 @@
     "evidence": "The Mount Carmel fire, 19 Apr 1993: verified; the community the row names ended; Remnant groups outlasted it [S].",
     "grade": "n/a (flag false on a documented end)",
     "group": "L-4"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "progressive-christianity-a-broad-label-not-one-m",
@@ -59307,7 +59656,9 @@
     "evidence": "ProgressiveChristianity.org '8 Points', revised 2011: own voice of one network; [S]; Hollinger, After Cloven Tongues of Fire (2013): history; [S]; Pew and PRRI landscape data do not measure the label.",
     "grade": "CR (Contemporary-Reported); newest dated item 2011, none verified",
     "group": "L-3"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-sayfo-and-the-syriac-diaspora",
@@ -59463,7 +59814,9 @@
     "evidence": "Sayfo centenary commemoration records (2015): own voice; [S]; Atto, Hostages in the Homeland, Orphans in the Diaspora (2011): diaspora scholarship; [S]; Let Them Not Return (2017): scholarship on 1915; verified; not a record of the churches today.",
     "grade": "CR (Contemporary-Reported); newest dated item 2015, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "modern-ethiopian-and-eritrean-christianity",
@@ -59619,7 +59972,9 @@
     "evidence": "Ethiopian Orthodox Tewahedo Church: patriarchal reconciliation (2018), church record; [S]; Eritrean Orthodox Church: Patriarch Antonios held until his death (2022), per church factions and rights monitors; [S]; Binns (2017): history; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-ukrainian-greek-catholic-underground",
@@ -59769,7 +60124,9 @@
     "evidence": "Slipyj, Spomyny, ed. Datsko & Horiacha (Lviv-Rome, 2014): an edition of the metropolitan's memoirs; publisher not stated; [S]; Plokhy (2015): history; [S]; Census legacy calls the church 'now the largest of the Eastern Catholic churches': undated, no counter.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-russian-new-martyrs-and-the-catacomb-church",
@@ -59912,7 +60269,9 @@
     "evidence": "Jubilee Council canonization (Aug 2000) and Act of Canonical Communion (17 May 2007): in era; No dated source after 2010; nothing on catacomb or True Orthodox remnants.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-post-vatican-ii-parish-world",
@@ -60051,7 +60410,9 @@
     "evidence": "Traditionis Custodes (2021): papal own voice; [S]; Romero's canonization (2018): a Catholic Church act (IX.8 row); [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2021, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "lausanne-era-global-evangelicalism",
@@ -60226,7 +60587,9 @@
     "evidence": "Seoul Statement (2024): own voice; [S]; lausanne.org text of the Covenant, indexed in the 2026-08 sources run: an access date, not a dated statement; Stanley (2013): history; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2024, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "african-diaspora-and-reverse-mission-churches-in",
@@ -60375,7 +60738,9 @@
     "evidence": "Adogame, The African Christian Diaspora: New Currents and Emerging Trends (2013): independent scholarship; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2013, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "ratana-church-and-pacific-adjustment-movements",
@@ -60523,7 +60888,9 @@
     "evidence": "No dated source after 2010. Newman (2006) is the newest; Te Ara is undated in the repo.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-armenian-church-after-the-genocide-medz-yegh",
@@ -60669,7 +61036,9 @@
     "evidence": "Canonization of the genocide's victims, Etchmiadzin (23 Apr 2015): own voice; the event web-verified per the census row, document details [S]; Kevorkian (2011), Suny (2015): history; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2015, newest verified 2015",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-emerging-church-and-post-evangelical-movemen",
@@ -60803,7 +61172,9 @@
     "evidence": "Emergent Village wound down c. 2013 [S]; census legacy: 'The conversation dissipated'; Marti & Ganiel, The Deconstructed Church (2014): sociology; [S]; Love Wins (2011) and the split it provoked: [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2014, none verified",
     "group": "L-3"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "dispensational-prophecy-culture",
@@ -60946,7 +61317,9 @@
     "evidence": "Hummel, The Rise and Fall of Dispensationalism (2023): independent scholarship; [S]. The repo does not record what it says of the present; Marsden, 3rd ed. (2022): history; verified.",
     "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
     "group": "L-3"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-megachurch-and-seeker-movement",
@@ -61063,7 +61436,9 @@
     "evidence": "Independent Advisory Group, report on Willow Creek Community Church (28 Feb 2019): independent review of one named church; [S]; Hillsong's governance crises (2021-22): journalism; [S]; Zacharias investigation report (9 Feb 2021): concerns an apologetics ministry, not a megachurch; [S]; Hartford Institute megachurch research: undated in the repo.",
     "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
@@ -61185,7 +61560,9 @@
     "evidence": "BibleProject founded 2014: verified; its site indexed in the 2026-08 sources run (access date); BibleProject annual reports (2014-): own voice; [S]; Christianity Today reporting on BibleProject (2018-2020): journalism; [S]; McKnight, The King Jesus Gospel (2011): verified.",
     "grade": "CR (Contemporary-Reported); newest dated item 2020, newest verified 2014",
     "group": "L-3"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "fundamentalism-1910-1970s",
@@ -61349,7 +61726,9 @@
     "evidence": "No dated source after 2010 attests separatist fundamentalist bodies; Marsden, 3rd ed. (2022): history; verified.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-social-gospel",
@@ -61495,7 +61874,9 @@
     "evidence": "Rauschenbusch d. 1918: verified; the movement ended by 1918; Evans, The Social Gospel in American Religion (2017): history; [S].",
     "grade": "n/a (flag false on a documented end)",
     "group": "L-4"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-mainline-century-liberal-and-neo-orthodox",
@@ -61655,7 +62036,9 @@
     "evidence": "Hollinger, After Cloven Tongues of Fire (2013): history of the liberal-Protestant trajectory; [S]; No dated source after 2010 on the mainline bodies.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "new-calvinism-young-restless-reformed",
@@ -61765,7 +62148,9 @@
     "evidence": "Acts 29 continued after removing Driscoll and Mars Hill (Aug 2014): verified; The Rise and Fall of Mars Hill (Christianity Today, 2021): journalism; verified; Vermurlen, Reformed Resurgence (2020): independent scholarship; [S]; Together for the Gospel held its last conference (2022): one carrier ended; [S]; Hansen, Timothy Keller (2023): [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2023, newest verified 2021",
     "group": "L-3"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "indonesian-christianity-the-independent-century",
@@ -61914,7 +62299,9 @@
     "evidence": "No dated source after 2010. Aritonang & Steenbrink (2008) [S] is the newest.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "northeast-india-and-mar-thoma-twentieth-century",
@@ -62069,7 +62456,9 @@
     "evidence": "No dated source after 2010. Frykenberg (2008) [S] is the newest.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-malankara-churches-orthodox-and-jacobite",
@@ -62212,7 +62601,9 @@
     "evidence": "Supreme Court of India, K.S. Varghese v. St Peter's and St Paul's Syrian Orthodox Church (3 Jul 2017): court record with both churches' parties; verified; Catholicate centenary literature (2012): own voice; [S].",
     "grade": "CD (Contemporary-Documented); newest dated item 2017, newest verified 2017",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-georgian-orthodox-church-restored",
@@ -62345,7 +62736,9 @@
     "evidence": "No dated source after 2010 on the church's present. Grdzelidze et al. (2006) is the newest scholarship; the 2022 Orthodox History web article concerns 1917.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "churches-of-christ-twentieth-century",
@@ -62490,7 +62883,9 @@
     "evidence": "No dated source after 2010. Stone-Campbell Encyclopedia (2004) is the newest.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "disciples-of-christ-and-independent-christian-churches",
@@ -62625,7 +63020,9 @@
     "evidence": "No dated source after 2010. Stone-Campbell Encyclopedia (2004) is the newest.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-black-church-in-the-twentieth-century",
@@ -62768,7 +63165,9 @@
     "evidence": "No dated source after 2010. The 2001-02 trial records and McWhorter (2001) are the newest.",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "seventh-day-adventist-church-twentieth-century",
@@ -62904,7 +63303,9 @@
     "evidence": "Census: Desmond Ford 'remained an Adventist member until his death in 2019': census statement; verification not recorded [S]; 'Some twenty-two million members by its own count': undated.",
     "grade": "CR (Contemporary-Reported); newest dated item 2019, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "charismatic-renewal-and-the-jesus-movement",
@@ -63071,7 +63472,9 @@
     "evidence": "No dated source after 2010 attests Calvary Chapel, the Vineyard or the renewal fellowships; Frisbee memoir (2012), Eskridge (2013): history; [S].",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-ecumenical-movement-and-the-wcc",
@@ -63215,7 +63618,9 @@
     "evidence": "The council's exclusion of the Kimbanguist church (2021): the WCC's own act; verified (IX.4 record); Sjollema, Never Bow to Racism (WCC, 2015): published by the council; [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2021, newest verified 2021",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-catholic-church-pius-x-to-the-council",
@@ -63360,7 +63765,9 @@
     "evidence": "Traditionis Custodes (2021): papal own voice; [S] (IX.23); Romero's canonization (2018): [S] (IX.8).",
     "grade": "CR (Contemporary-Reported); newest dated item 2021, none verified",
     "group": "L-2"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
@@ -63501,7 +63908,9 @@
     "evidence": "Hank Hanegraaff received by chrismation, St Nektarios Greek Orthodox Church, Charlotte (9 Apr 2017): a public figure's public act; verified; Slagle, The Eastern Church in the Spiritual Marketplace (2011): independent fieldwork; verified (CD as of 2011).",
     "grade": "CR (Contemporary-Reported); newest dated item 2017, newest verified 2017",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "hebrew-roots-and-torah-observance-movements",
@@ -63642,7 +64051,9 @@
     "evidence": "First Fruits of Zion statements on the cost of its 2009 change, dated 2010-11 [S]: own voice; 119 Ministries, c. 2010: [S].",
     "grade": "CR (Contemporary-Reported); newest dated item 2011, none verified",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-christian-right",
@@ -63760,7 +64171,9 @@
     "grade": "CD (Contemporary-Documented); newest dated item 2025, newest verified 2025",
     "group": "L-3"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "iglesia-ni-cristo",
@@ -63825,7 +64238,9 @@
     "evidence": "Succession to Eduardo Manalo (2009): in era; [S]; The church's own history page, indexed in the 2026-08 survey run: an access date, not a dated statement; Pasugo from 1939: dated articles not yet cited [S].",
     "grade": "none (no dated item after 2010 is in the repo)",
     "group": "L-1"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-anglican-communion-twentieth-century",
@@ -63921,7 +64336,9 @@
     "evidence": "Vatican News, 'Fifteenth Lambeth Conference kicks off in Canterbury' (July 2022): independent news; verified.",
     "grade": "CR (Contemporary-Reported); newest dated item 2022, newest verified 2022",
     "group": "settled"
-   }
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-rescue-mission-movement",
@@ -64013,7 +64430,9 @@
     "grade": "CR (Contemporary-Reported); newest dated item 2024, newest verified 2024",
     "group": "L-3"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-christian-homeschool-movement",
@@ -64113,7 +64532,9 @@
     "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025",
     "group": "L-3"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-liturgical-movement",
@@ -64200,7 +64621,9 @@
     "grade": "n/a (flag false on a documented end)",
     "group": "L-4"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "the-third-wave-and-the-vineyard",
@@ -64303,7 +64726,9 @@
     "grade": "CD (Contemporary-Documented); newest dated item 2017, newest verified 2017",
     "group": "L-3"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   },
   {
    "id": "promise-keepers-and-the-christian-mens-movement",
@@ -64389,7 +64814,9 @@
     "grade": "CR (Contemporary-Reported); newest dated item 2021, newest verified 2021",
     "group": "L-3"
    },
-   "kind": "cross-church movement"
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
   }
  ],
  "retiredLinks": [
@@ -64416,6 +64843,23 @@
    "date": "2026-11-08",
    "reason": "The Balkan Bogomil link to the Cathars carries the same evidence, Rainerius Sacconi's list of about 1250, which describes the Balkan churches of his own day, with two more sources. One link now carries the claim.",
    "replacedBy": "balkan-bogomil-continuation--cathars-albigensians"
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
+   "date": "2026-11-09",
+   "reason": "The two entries told the same church of Alexandria after 451, and the earlier one is retired into the later. A church cannot continue as itself, so nothing replaces this link."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "date": "2026-11-09",
+   "reason": "Its movement is retired into the Egyptian church after Chalcedon, which now carries the same break, on the same sources.",
+   "replacedBy": "cyrilline-miaphysite-egyptian-christianity--imperial-juridical-christianity"
+  },
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "date": "2026-11-09",
+   "reason": "Its movement is retired into the Egyptian church after Chalcedon, which now carries the same link, on the same sources.",
+   "replacedBy": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2"
   }
  ],
  "retiredMovements": [
@@ -64424,6 +64868,12 @@
    "name": "Deconstruction & Ex-vangelical Communities",
    "date": "2026-11-08",
    "reason": "Every dated anchor of this movement falls after 2010, where the tree's history ends."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition",
+   "date": "2026-11-09",
+   "reason": "It told the same church as the Egyptian church after Chalcedon: both entries describe the church of Alexandria after 451. The later entry takes it in, and the earlier address leads to its page.",
+   "redirectTo": "cyrilline-miaphysite-egyptian-christianity"
   }
  ]
 }

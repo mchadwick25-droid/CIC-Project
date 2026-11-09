@@ -44,6 +44,7 @@
 - **R2-M6.** G-138 and G-139 in section 7, and their §6b Recommended lines, carry the conditions their candidates' class sets.
 - **R2-C1.** SUP-3's Dates line now gives the 21 January speech as V-q and the visit's end date as V-s; evidence item 5 reads "Havana airport" in place of "José Martí airport".
 - **R2-C2.** SUP-13's Pelkmans evidence is plain "V" (the chapter is listed on the opened page).
+- Merge with main: Open-Gaps entries renumbered. The unswept-areas entry that Round 2 cites as 137 is now 138, and the re-voicing entry is now 137, because main took 136.
 
 ---
 

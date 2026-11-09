@@ -37,8 +37,9 @@ function textLines(file) {
 }
 const HEX = /^#[0-9A-Fa-f]{6}$/;
 // A movement's kind: absent means a church body; "cross-church movement" is a defined
-// movement that runs across church bodies rather than being one.
-const MOVEMENT_KINDS = new Set(["cross-church movement"]);
+// movement that runs across church bodies rather than being one; "person" is a person
+// entry (Decision-Log 2026-11-06, ruling 14).
+const MOVEMENT_KINDS = new Set(["cross-church movement", "person"]);
 
 // --- eras ---
 if (!Array.isArray(d.eras) || d.eras.length === 0) errs.push("eras: missing/empty");
@@ -133,6 +134,101 @@ const edgeIds = new Set();
   }
   if ((e.confidence === "Widely Accepted" || e.confidence === "Dominant Modern Reconstruction") && !sources.some(s => s.kind === "secondary"))
     errs.push(`${tag}: ${e.confidence} needs a secondary source`);
+});
+
+// --- entry kinds, people and review status (Decision-Log 2026-11-06 rulings 14 and 18; 2026-11-09, "The gap sweep ruled") ---
+const REVIEW = new Set(["AI-checked", "partner-contributed", "scholar-reviewed"]);
+const isPerson = m => m?.kind === "person";
+const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
+// A held voice names a row on the movement's own Library shelf (cic/corpus-map/<id>.yaml) and that row's author.
+const shelfCache = new Map();
+function shelfAuthor(movementId, rowId) {
+  if (!shelfCache.has(movementId)) {
+    const f = `cic/corpus-map/${movementId}.yaml`;
+    const rows = new Map();
+    if (existsSync(f)) {
+      let row = null;
+      for (const line of readFileSync(f, "utf8").split("\n")) {
+        const r = /^- row_id: (.+)$/.exec(line);
+        if (r) { row = r[1].trim(); rows.set(row, null); continue; }
+        const a = /^  author: (.+)$/.exec(line);
+        if (a && row && rows.get(row) === null) rows.set(row, a[1].trim());
+      }
+    }
+    shelfCache.set(movementId, rows);
+  }
+  return shelfCache.get(movementId).get(rowId);
+}
+(d.movements ?? []).forEach(m => {
+  if (isPerson(m)) {
+    if (!("toldWithin" in m)) errs.push(`${m.id}: a person entry needs toldWithin (a movement ID, or null)`);
+    else if (m.toldWithin !== null) {
+      const home = byId.get(m.toldWithin);
+      if (!home) errs.push(`${m.id}: toldWithin ${m.toldWithin} is not a movement`);
+      else if (isPerson(home)) errs.push(`${m.id}: toldWithin ${m.toldWithin} is a person, not a movement`);
+      else if (!(home.people ?? []).some(p => p.person === m.id)) errs.push(`${m.id}: missing from the people list of ${m.toldWithin}`);
+    }
+    if (m.people !== undefined) errs.push(`${m.id}: a person entry has no people list`);
+  } else {
+    if ("toldWithin" in m) errs.push(`${m.id}: toldWithin is only for a person entry`);
+    if (!Array.isArray(m.people)) errs.push(`${m.id}: people must be a list (empty when it names no one)`);
+  }
+  if (!REVIEW.has(m.reviewStatus)) errs.push(`${m.id}: reviewStatus must be "AI-checked", "partner-contributed" or "scholar-reviewed"`);
+  if (m.livingEvidence?.descentConfidence !== undefined) {
+    if (!CONFIDENCE.has(m.livingEvidence.descentConfidence)) errs.push(`${m.id}: livingEvidence.descentConfidence must be one of the five formation_confidence levels`);
+    if (m.living !== true) errs.push(`${m.id}: livingEvidence.descentConfidence grades a living tradition, but living is not true`);
+    if (typeof m.livingEvidence.basis !== "string" || !m.livingEvidence.basis.trim()) errs.push(`${m.id}: livingEvidence.descentConfidence needs livingEvidence.basis, what the grade rests on`);
+  }
+  const seen = new Set();
+  let last = -Infinity;
+  (Array.isArray(m.people) ? m.people : []).forEach((p, j) => {
+    const pt = `${m.id} people[${j}]`;
+    if (p.person !== undefined) {
+      const who = byId.get(p.person);
+      if (!isPerson(who)) errs.push(`${pt}: ${p.person} is not a person entry`);
+      else if (who.toldWithin !== m.id) errs.push(`${pt}: ${p.person} is told within ${who.toldWithin}, not here`);
+      if (Object.keys(p).length !== 1) errs.push(`${pt}: a person entry is named by its ID alone`);
+    } else {
+      if (typeof p.name !== "string" || !p.name.trim()) errs.push(`${pt}: a named voice needs a name`);
+      if (!Number.isInteger(p.year)) errs.push(`${pt}: a named voice needs a whole-number year`);
+      const line = (m.voices ?? [])[p.voice];
+      if (typeof line !== "string") errs.push(`${pt}: voice must be the index of a line in voices`);
+      else if (p.name && !line.includes(p.name)) errs.push(`${pt}: "${p.name}" is not named in voices[${p.voice}]`);
+      if ((p.held === undefined) === (p.source === undefined)) errs.push(`${pt}: a named voice needs held (a Library row of their words) or source (a quote of their words), one of the two`);
+      if (p.held !== undefined) {
+        const author = shelfAuthor(m.id, p.held);
+        if (author === undefined) errs.push(`${pt}: held ${p.held} is not a row on the ${m.id} Library shelf`);
+        else if (!p.author || author !== p.author) errs.push(`${pt}: held row ${p.held} is by ${author}, not by the voice's author ${p.author}`);
+      }
+      const twin = (m.people ?? []).map(q => q.person && byId.get(q.person)).filter(Boolean)
+        .find(w => p.name && [w.shortName, w.name].some(n => n && new RegExp(`(^|\\W)${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(\\W|$)`).test(p.name)));
+      if (twin) errs.push(`${pt}: ${p.name} is already in this row as the person entry ${twin.id}`);
+      if (p.source !== undefined) {
+        const s = p.source;
+        if (!s.work || !s.file || !s.lines || !s.quote) errs.push(`${pt}: source needs work, file, lines and quote`);
+        else {
+          const lines = s.file.startsWith("cic/texts/") ? textLines(s.file) : null;
+          const r = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
+          if (!lines || !r) errs.push(`${pt}: source ${s.file} lines ${s.lines} not found under cic/texts/`);
+          else if (!squash(lines.slice(+r[1] - 1, +(r[2] ?? r[1])).join(" ")).includes(squash(s.quote))) errs.push(`${pt}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+        }
+      }
+    }
+    const key = p.person ?? p.name;
+    if (seen.has(key)) errs.push(`${pt}: ${key} is listed twice`);
+    seen.add(key);
+    const y = yearOf(p);
+    if (typeof y === "number") { if (y < last) errs.push(`${pt}: the people list is not in date order`); last = y; }
+  });
+});
+(d.edges ?? []).forEach((e, i) => {
+  if (e.concerns === undefined) return;
+  const tag = `edge[${i}] ${e.id}`;
+  const who = byId.get(e.concerns);
+  if (typeof e.concerns !== "string" || !isPerson(who)) { errs.push(`${tag}: concerns ${e.concerns} is not a person entry`); return; }
+  const names = [who.shortName, who.name].filter(Boolean);
+  const texts = [e.note ?? "", ...(e.sources ?? []).map(s => s.quote ?? "")];
+  if (!names.some(n => texts.some(t => t.includes(n)))) errs.push(`${tag}: concerns ${e.concerns}, but neither its note nor a source quote names ${names.join(" or ")}`);
 });
 
 // --- retired links and movements: never reused, replacements resolve ---
@@ -236,8 +332,16 @@ if (atlasPath) {
 if (treeDir) {
   const page = id => { const f = `${treeDir}/${id}.html`; return existsSync(f) ? readFileSync(f, "utf8") : null; };
   for (const m of d.movements ?? []) if (page(m.id) === null) errs.push(`${m.id}: no tree page at ${treeDir}/${m.id}.html`);
+  const redirectsFile = `${treeDir}/../_redirects`;
+  const redirects = existsSync(redirectsFile) ? readFileSync(redirectsFile, "utf8").split("\n").map(l => l.trim().split(/\s+/)) : [];
   for (const r of d.retiredMovements ?? []) {
-    if (r.redirectTo) { if (page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`); continue; }
+    if (r.redirectTo) {
+      if (page(r.redirectTo) === null) errs.push(`retired ${r.id}: its redirect target ${r.redirectTo} has no tree page`);
+      if (page(r.id) !== null) errs.push(`retired ${r.id}: its old page still stands in ${treeDir}, so the redirect would never be reached`);
+      for (const from of [`/tree/${r.id}`, `/tree/${r.id}.html`])
+        if (!redirects.some(([a, b, code]) => a === from && b === `/tree/${r.redirectTo}` && code === "301")) errs.push(`retired ${r.id}: _redirects has no "${from} /tree/${r.redirectTo} 301" line`);
+      continue;
+    }
     const html = page(r.id);
     if (html === null) errs.push(`retired ${r.id}: no retired page at ${treeDir}/${r.id}.html`);
     else if (!html.includes('data-retired="true"')) errs.push(`retired ${r.id}: its tree page still serves the old entry, not the retired notice`);
