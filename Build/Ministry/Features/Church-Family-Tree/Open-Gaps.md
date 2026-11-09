@@ -829,3 +829,12 @@ it, never by deleting it.
     (252,306 characters). Until then the map's fingerprint check keeps them hidden. The tree's own 36
     stale recordings use other voices and get their own sample first. Owner: this thread, at the
     reset.
+137. **Three areas the era 10 global sweep did not reach (2026-11-09).** After Round 1 and its
+    supplementary pass, the era 10 global completeness sweep
+    (`Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md`,
+    section 2, "Not swept") still has not swept three areas, in any river:
+    - the Hispanic Caribbean's Protestants (Puerto Rico, the Dominican Republic);
+    - the Armenian Evangelical churches of the Near East (their union of 1924 is [S]);
+    - the migrant churches of the Gulf.
+    Each needs its own pass under the sweep's rules before the gate can say the era is global.
+    Owner: the sweep thread.
