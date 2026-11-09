@@ -88,7 +88,7 @@ applied to every shared file, not only the census.
 | P2-E10a | Era 10 census pass: the ruled edits on the existing rows, IX.31 retired, Iglesia ni Cristo split; data release | none | done on the branch (data release 21); open items in Open-Gaps 2026-11-08: IX.16 still names Iglesia ni Cristo, the new row's borrowed fields, IX.31's old page, the recordings made stale |
 | P2-E10b | Era 10 new rows (Anglican Communion, six movements) and named lines, drafted and reviewed | none (3-round cap) | done on the branch (data release 22): IX.52 and IX.54 to IX.58 added, IX.53 held pending Mark (Open-Gaps 2026-11-08) |
 | P2-E10c | `kind` "cross-church movement" and its band; the method-page line; the era band text | Mark sees screenshots on the preview | todo |
-| P2-E10g | Era 10 global completeness sweep, by region and by river (Mark, 2026-11-09) | Mark's gate | in progress |
+| P2-E10g | Era 10 global completeness sweep, by region and by river (Mark, 2026-11-09): 74 candidates, two review rounds | Mark's gate (https://claude.ai/artifact/8PdCRQd5WuB7DosASPYjgC) | awaiting Mark's ruling; census unchanged |
 | P2-G89 | Global completeness sweep, eras 8 and 9, by region and river (Mark, 2026-11-09: "eras 8 - 10 for now"); frozen eras, so additions are change orders | Mark's gate | todo (after P2-E10g) |
 | P2-L10 | Links, era 10 | Mark's era 10 gate ruling (P2-E10) | deferred (Mark, 2026-11-08) |
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
