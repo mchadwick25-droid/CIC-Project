@@ -760,3 +760,17 @@ well-known facts, jurisdiction and page recordings the two agree.
 - Re-voicing starts with a small paid sample that Mark approves by ear.
 
 Full entry: Atlas World Map Decision-Log, same date.
+
+## 2026-11-09 — Era 10 global completeness sweep, by region and by river
+
+**Decided (Mark: "1 and across the rivers too").** Era 10's roster leans American (29 of 56 entries
+are tagged North America). The Catholic and Orthodox rivers barely reach the Global South. Step 0's
+completeness sweep runs again for era 10, by region and by river, under the same standard and
+evidence rule, and returns to Mark's gate. Full entry: Atlas World Map Decision-Log, same date.
+
+## 2026-11-09 — Era 10 global sweep gate ruled
+
+**Decided (Mark, by number, G-80 to G-150).** Every answer matches its recommendation. The 14 ready
+rows and 23 named lines are drafted, reviewed and applied as P2-E10h. IX.11 is narrowed by change
+order (G-132 b). The 15 "enter once" candidates wait for their named sources, and the 22 holds wait
+too. Full entry: Atlas World Map Decision-Log, "ERA 10 GLOBAL SWEEP GATE".

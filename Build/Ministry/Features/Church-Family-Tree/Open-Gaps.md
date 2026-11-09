@@ -847,3 +847,21 @@ it, never by deleting it.
     - A named voice backed by `source` must quote the person's own words. The validator checks that
       the quote is verbatim, but not whose words it is. When P2-G3 fills the rows, a reviewer confirms
       the speaker of each quote.
+137. **176 story recordings wait for the ElevenLabs quota to reset (2026-11-09).** The paid run Mark
+    approved re-voiced 85 of 261 stale story recordings (51,653 credits) and stopped when the
+    account's 121,000-credit quota was used up. Mark ruled: "wait for the quota reset", with no
+    top-up and no overage. When the quota resets, run the same command with the same settings (voice
+    onegjDE2z0mQtp1g0HK7, model eleven_v4, mp3_44100_64; approved run "Era 10 re-voice, full story
+    batch (Mark approved sample 2026-11-09)"). It skips what is current and makes the 176 left
+    (252,306 characters). Until then the map's fingerprint check keeps them hidden. The tree's own 36
+    stale recordings use other voices and get their own sample first. Owner: this thread, at the
+    reset.
+138. **Three areas the era 10 global sweep did not reach (2026-11-09).** After Round 1 and its
+    supplementary pass, the era 10 global completeness sweep
+    (`Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md`,
+    section 2, "Not swept") still has not swept three areas, in any river:
+    - the Hispanic Caribbean's Protestants (Puerto Rico, the Dominican Republic);
+    - the Armenian Evangelical churches of the Near East (their union of 1924 is [S]);
+    - the migrant churches of the Gulf.
+    Each needs its own pass under the sweep's rules before the gate can say the era is global.
+    Owner: the sweep thread.
