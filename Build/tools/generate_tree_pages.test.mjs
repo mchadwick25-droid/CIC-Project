@@ -223,6 +223,14 @@ test('the map draws cross-church movements in their own column, not over a river
   assert.match(map, /if\(!a\|\|!b\|\|isAcross\(a\)\|\|isAcross\(b\)\)return;/);
 });
 
+test('the movements column sits left of the era rivers, its names reading leftward', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /left=Math\.min\(left,g\.own\[k\]\[j\]-g\.half\[k\]\[j\]\)/);
+  assert.match(map, /const x0=\(Number\.isFinite\(left\)\?left:70\)-ACROSS_GAP;/);
+  assert.match(map, /m\._x=x0-tracks\[j\]\*ACROSS_TRACK;/);
+  assert.match(map, /class:'across-lbl',x:m\._x-7,y:m\._labelY,'text-anchor':'end'/);
+});
+
 test('the Movements switch starts off and is remembered like the other switches', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements<\/button>/);

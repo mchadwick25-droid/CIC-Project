@@ -790,3 +790,8 @@ Major links choice is kept. On 2026-11-09 none of the six cross-church movements
 link, so no ties show yet; IX.50 names IX.33 and IX.24 in its text only. Screenshots:
 `Build/Ministry/Features/Church-Family-Tree/Screenshots/2026-11-09_P2-E10d/`. Stop point: Mark sees
 the screenshots.
+
+**Moved to the left (Mark, on the screenshots).** "lets put them on the left side as this is on the
+other side of the out of the niceen movements": the right edge holds the lane outside the Nicene
+floor, so the column now sits left of each era's first river, below the era's text, with names
+reading leftward. It fits in the space already there, so the rivers do not move.

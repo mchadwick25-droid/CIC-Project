@@ -69679,16 +69679,16 @@ const acrossColumns=eras.map((e,i)=>{
   if(!ms.length)return null;
   const top=eraY0[i]+HEADER_GUTTER, bottom=eraY0[i]+eraH[i];
   const s0=Math.max(0,Math.floor(eraY0[i]/STEP)), s1=Math.min(SAMPLE_COUNT-1,Math.ceil(bottom/STEP));
-  let right=-Infinity;
+  let left=Infinity;
   laneKeys.forEach(k=>[0,1].forEach(amp=>{
     const g=laneGeometry[amp];
-    for(let j=s0;j<=s1;j++)if(g.half[k][j]>0)right=Math.max(right,g.own[k][j]+g.half[k][j]);
+    for(let j=s0;j<=s1;j++)if(g.half[k][j]>0)left=Math.min(left,g.own[k][j]-g.half[k][j]);
   }));
-  const x0=(Number.isFinite(right)?right:CANVAS_W-70)+ACROSS_GAP;
+  const x0=(Number.isFinite(left)?left:70)-ACROSS_GAP;
   const tracks=acrossTracks(ms);
   let lastLabel=-Infinity;
   ms.forEach((m,j)=>{
-    m._x=x0+tracks[j]*ACROSS_TRACK;
+    m._x=x0-tracks[j]*ACROSS_TRACK;
     m._y=yearToY(m.start);
     m._y1=Math.max(yearToY(m.end),m._y+STEP);
     m._labelY=Math.max(m._y+3.5,lastLabel+ACROSS_LABEL_GAP);
@@ -70218,9 +70218,10 @@ function render(){
 function renderAcross(){
   acrossColumns.forEach(col=>{
     const frame=el('g',{class:'across-col','aria-hidden':'true'});
-    frame.appendChild(el('line',{x1:col.x0-10,y1:col.top-6,x2:col.x0-10,y2:col.bottom-8,
+    frame.appendChild(el('line',{x1:col.x0+10,y1:col.top,x2:col.x0+10,y2:col.bottom-8,
       stroke:'var(--iron-gall)','stroke-width':1,'stroke-dasharray':'2 5','stroke-opacity':0.45,'vector-effect':'non-scaling-stroke'}));
-    const cap=el('text',{class:'across-cap',x:col.x0-4,y:col.top-14});
+    const cx=col.x0+26, cy=col.top+2;
+    const cap=el('text',{class:'across-cap',x:cx,y:cy,'text-anchor':'end',transform:`rotate(-90 ${cx.toFixed(1)} ${cy.toFixed(1)})`});
     cap.textContent='Movements across churches';
     frame.appendChild(cap);
     gAcross.appendChild(frame);
@@ -70257,7 +70258,7 @@ function renderAcross(){
     g.appendChild(el('circle',{class:'across-dot',cx:m._x,cy:m._y,r:3.2}));
     const focusRing=el('circle',{cx:m._x,cy:m._y,r:8,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
     g.appendChild(focusRing);
-    const lbl=el('text',{class:'across-lbl',x:m._x+7,y:m._labelY});
+    const lbl=el('text',{class:'across-lbl',x:m._x-7,y:m._labelY,'text-anchor':'end'});
     lbl.textContent=name;
     g.appendChild(lbl);
     g.addEventListener('mouseenter',ev=>{showTip(ev,tipFor(m));litMovement(m.id,true);});
