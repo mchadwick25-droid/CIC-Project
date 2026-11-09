@@ -1066,3 +1066,17 @@ The repo trace's "C7" section (and its last line, "Not used: the 1955 and 2005 e
 | IX.73: "published 2 December 1948" | No opened item carries it (R1 S-3: Mahieu gives 1 December only) | Dropped from the text |
 
 Both Korean lines should also be entered in the Asia world's `Open_Gaps_Tracking.md` at apply (a coordinator step; no repo file was touched here).
+
+---
+
+## Revision after Review Round 2 (2026-11-09)
+
+S2-1 and M2-1 to M2-6 are taken as the Round 2 review gives them, with no other change. The proposal changed in seven register edits (IX.24 edit 14, IX.8 edit 17, IX.21 edit 43, IX.11 edits 49 and 51, IX.44 edit 55) and in two new rows (IX.72 voices and teaser; IX.73 why, longDescription, relationsSummary and legacy).
+
+- **IX.21 (S2-1):** no new fact enters. "Forty-three years" is tied to the Ukrainian church (1946 to 1989), as the row's own Lviv and 1989 sentences already date it. The Prešov sentences rest on Coranič 2021, as traced above.
+- **IX.73 (M2-3):** the buildings "came into Orthodox use", and the church was not legally given them, per Mahieu 2004 (MPI Working Paper 69). The metropolitan's date, 14 March 1990, comes from the Holy See Press Office biography of Todea.
+- **IX.72 (M2-5):** the 1965 act is "removed … from memory", the wording of the Joint Declaration of 7 December 1965.
+- **IX.24 (M2-2):** "grow in self-reliance" follows the Lausanne Covenant, as quoted in Christianity Today, November 1974.
+- **IX.44 (M2-1):** the Titicaca sentences now follow "rather than hidden in it.", and the existing sentence is untouched. They rest on Teel 1989, as traced above.
+- **IX.11 (M2-4):** two long sentences are split. No fact changes.
+- **IX.8 (M2-6):** Medellín and Puebla are named in `relationsSummary` itself.

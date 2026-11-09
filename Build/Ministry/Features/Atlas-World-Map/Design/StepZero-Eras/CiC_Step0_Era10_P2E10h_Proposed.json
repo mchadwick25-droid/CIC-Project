@@ -1267,10 +1267,10 @@
     }
    ],
    "longDescription": "In 1907 the Brotherhood of Theologians Zoe, meaning 'Life', was founded in Greece. Amaryllis Logotheti has studied its place in the religion and politics of post-war Greece. That was the start of the Cold War. On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a Joint Catholic-Orthodox Declaration. It removed from memory the sentences of excommunication of 1054. Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn. The declaration said those sentences struck persons, not the churches. Lucian Leustean's Eastern Christianity and the Cold War, 1945–91 (2010) gives the Ecumenical Patriarchate a chapter of its own.",
-   "teaser": "Greece and Istanbul, 1906 to 2010 — the Church of Greece and its Zoe brotherhood, and the Patriarchate that ended the excommunications of 1054.",
+   "teaser": "Greece and Istanbul, 1906 to 2010 — the Church of Greece and its Zoe brotherhood, and the Ecumenical Patriarchate. With Rome, it removed the excommunications of 1054 from memory in 1965.",
    "voices": [
     "Athenagoras I — the Ecumenical Patriarch who issued the Joint Declaration with Paul VI on 7 December 1965",
-    "Paul VI — the pope who, with Athenagoras, lifted the excommunications of 1054",
+    "Paul VI — the pope who, with Athenagoras, removed the excommunications of 1054 from memory",
     "The Zoe brotherhood — the Brotherhood of Theologians founded in Greece in 1907"
    ],
    "legacy": "Logotheti reads Zoe in the politics of post-war Greece. Leustean's volume reads the Patriarchate in the Cold War.",
@@ -1321,8 +1321,8 @@
    "c2": null,
    "sourcing": "Adequate. The decree that dissolved the church in 1948 and the decree-law that restored it in 1989 are verified. So is the naming of its metropolitan in March 1990. A dedicated history of the Romanian church, and the story of its imprisoned bishops, are not yet verified.",
    "floorNote": "No question. It is an Eastern Catholic church, in communion with Rome.",
-   "relationsSummary": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine. The Orthodox Church of Romania, which received this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
-   "why": "On 1 December 1948 the Romanian state dissolved the Greek Catholic Church by Decree 358. Its property passed to the state, and its churches to the Orthodox church. On 31 December 1989 a decree-law restored it. On 14 March 1990 John Paul II named Alexandru Todea its metropolitan.",
+   "relationsSummary": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine. The Orthodox Church of Romania, which took over most of this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
+   "why": "On 1 December 1948 the Romanian state dissolved the Greek Catholic Church by Decree 358. Its property passed to the state, and most of its churches came into Orthodox use. On 31 December 1989 a decree-law restored it. On 14 March 1990 John Paul II named Alexandru Todea its metropolitan.",
    "entry": null,
    "sources": [
     {
@@ -1351,13 +1351,13 @@
      "note": "Evidence for the living mark only, not for the history; not verified."
     }
    ],
-   "longDescription": "Decree 358 of 1 December 1948 dissolved the Romanian Greek Catholic Church. Its property passed to the state, and its church buildings to the Orthodox church. For forty-one years it had no legal existence. On 31 December 1989 Decree-Law 9 restored it. On 14 March 1990 John Paul II named Alexandru Todea metropolitan of Făgăraș and Alba Iulia.",
+   "longDescription": "Decree 358 of 1 December 1948 dissolved the Romanian Greek Catholic Church. Its property passed to the state, and most of its church buildings came into Orthodox use. For forty-one years it had no legal existence. On 31 December 1989 Decree-Law 9 restored it. On 14 March 1990 John Paul II named Alexandru Todea metropolitan of Făgăraș and Alba Iulia.",
    "teaser": "Transylvania, 1948 to 2010 — the Eastern Catholic church that Romania dissolved by decree in 1948 and restored by decree in 1989.",
    "voices": [
     "Decree 358 of 1 December 1948 — the state's own act dissolving the church",
     "Decree-Law 9 of 31 December 1989 — the act that restored it"
    ],
-   "legacy": "It had been legal again since 1989. Its suppression came two years after the Lviv synod that dissolved the Ukrainian Greek Catholic Church in 1946. Two years later, in April 1950, a 'sobor' at Prešov did the same in Czechoslovakia.",
+   "legacy": "Its suppression came two years after the Lviv synod that dissolved the Ukrainian Greek Catholic Church in 1946. Two years later, in April 1950, a 'sobor' at Prešov did the same in Czechoslovakia.",
    "documentedStories": [],
    "livingEvidence": {
     "basis": "A church body, or a set of them, with no recorded end; the gap is in the citation. The newest evidence is local journalism, not verified.",
@@ -1518,7 +1518,7 @@
    "field": "relationsSummary",
    "op": "replace",
    "old": "Graham's evangelistic association was incorporated in 1950.",
-   "new": "Graham's evangelistic association was incorporated in 1950. In 1971 the Kenyan theologian John Gatu called for a moratorium on missionaries. At Lausanne in 1974 most leaders appeared to reject a broad moratorium. Still, the Lausanne Covenant allowed that fewer foreign missionaries might sometimes help a national church grow.",
+   "new": "Graham's evangelistic association was incorporated in 1950. In 1971 the Kenyan theologian John Gatu called for a moratorium on missionaries. At Lausanne in 1974 most leaders appeared to reject a broad moratorium. Still, the Lausanne Covenant allowed that fewer foreign missionaries might sometimes help a national church grow in self-reliance.",
    "ruling": "G-88 (a): the moratorium's rejection as a line in IX.24"
   },
   {
@@ -1546,7 +1546,7 @@
    "field": "relationsSummary",
    "op": "replace",
    "old": "continued inside Latin American church life.",
-   "new": "continued inside Latin American church life. The bishops met again at Puebla in 1979; both meetings are told in the entry on Latin American Catholicism, the parent of this one.",
+   "new": "continued inside Latin American church life. The bishops' meetings at Medellín in 1968 and Puebla in 1979 are told in the entry on Latin American Catholicism, the parent of this one.",
    "ruling": "G-90 (a): the move stated; IX.8 becomes LA-1's child"
   },
   {
@@ -1798,8 +1798,8 @@
    "atlasId": "IX.21",
    "field": "longDescription",
    "op": "replace",
-   "old": "none took part.",
-   "new": "none took part. In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950. A 'sobor' met at Prešov on 28 April 1950, in an operation called 'Action P'.",
+   "old": "none took part. What followed was forty-three years as the largest banned church in the world: priests ordained in secret, liturgies in apartments and forests, bishops in the Gulag.",
+   "new": "none took part. In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950. A 'sobor' met at Prešov on 28 April 1950, in an operation called 'Action P'. For forty-three years the Ukrainian church was the largest banned church in the world. It had priests ordained in secret, liturgies in apartments and forests, and bishops in the Gulag.",
    "ruling": "G-129(a): a new row for the Romanian church, the other two (Prešov, Mukachevo) as IX.21 lines. Prešov drafted (Coranič, V); Mukachevo not drafted (V-s only)."
   },
   {
@@ -1854,8 +1854,8 @@
    "atlasId": "IX.11",
    "field": "teaser",
    "op": "replace",
-   "old": "Brazil, Nigeria, Ghana, Korea and the Philippines, 1950s to 2010 —",
-   "new": "Brazil, Nigeria, Ghana and Korea, 1910 to 2010 —",
+   "old": "Brazil, Nigeria, Ghana, Korea and the Philippines, 1950s to 2010 — Pentecostalism's growing edge, descended from Azusa Street and Africa's independent churches alike, its argument over the prosperity gospel carried on the record in the movement's own published critiques rather than described from outside.",
+   "new": "Brazil, Nigeria, Ghana and Korea, 1910 to 2010 — Pentecostalism's growing edge, descended from Azusa Street and from Africa's independent churches. Its argument over the prosperity gospel is on the record in its own published critiques.",
    "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once'). G-135(a)/(c): IX.11's date range fixed as a data error, whatever G-91 rules: the row's own copy dates the Pará voyage from November 1910 and the Assembleias de Deus from 1911."
   },
   {
@@ -1870,8 +1870,8 @@
    "atlasId": "IX.11",
    "field": "longDescription",
    "op": "replace",
-   "old": "the Igreja Universal in Brazil from 1977; El Shaddai in the Philippines from 1984.",
-   "new": "and the Igreja Universal in Brazil from 1977.",
+   "old": "The Assembleias de Deus in Brazil date from 1911; the Redeemed Christian Church of God was founded in Nigeria in 1952; Yoido Full Gospel Church in Seoul from 1958; the Igreja Universal in Brazil from 1977; El Shaddai in the Philippines from 1984.",
+   "new": "The Assembleias de Deus in Brazil date from 1911. The Redeemed Christian Church of God was founded in Nigeria in 1952. Yoido Full Gospel Church in Seoul dates from 1958, and the Igreja Universal in Brazil from 1977.",
    "ruling": "G-132(b): IX.11 narrows to what no country row holds; El Shaddai moves to GS-A6 (entering now) with a pointer line left behind (also G-107(a), G-133(c): neither Catholic charismatic movement goes in IX.11). The Pará story stays until LA-2 enters (LA-2 is 'enter once'); Yoido stays (G-102(a)); the RCCG sentence stays (C3 is 'enter once')."
   },
   {
@@ -1902,8 +1902,8 @@
    "atlasId": "IX.44",
    "field": "longDescription",
    "op": "replace",
-   "old": "Its own internal arguments, including",
-   "new": "In 1911 Ferdinand and Ana Stahl joined Manuel Camacho at Utawilaya, in Platería district, Puno province, on the Peruvian side of Lake Titicaca. Camacho, an Indigenous visionary, was one of the first Adventist converts on the altiplano. He had opened a free school in his home about 1902. The Stahls lived in an adobe building that served as a school on weekdays and a place of worship on Sabbaths. The church's own internal arguments, including",
+   "old": "rather than hidden in it.",
+   "new": "rather than hidden in it. In 1911 Ferdinand and Ana Stahl joined Manuel Camacho at Utawilaya, in Platería district, Puno province, on the Peruvian side of Lake Titicaca. Camacho, an Indigenous visionary, was one of the first Adventist converts on the altiplano. He had opened a free school in his home about 1902. The Stahls lived in an adobe building that served as a school on weekdays and a place of worship on Sabbaths.",
    "ruling": "G-142 (a), Rec.: the Titicaca Adventists as a named line in IX.44, with Peru added to its countries"
   },
   {
