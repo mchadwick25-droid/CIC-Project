@@ -773,3 +773,50 @@ it, never by deleting it.
     live site, which lacks this check, may still be playing them under changed text until this
     reaches `live`. Re-voicing is a paid batch: sample first, Mark's approval by ear. Owner: Mark,
     with the narration thread.
+134. **The gap sweep is ruled (2026-11-09).** Mark ruled on the P2-G1 list (Decision-Log, "The gap
+    sweep ruled (P2-G1)", 2026-11-09). The entries are built in P2-G2 and P2-G3. This settles:
+    - "No entry for the church of Alexandria, 4th-5th century" and "Two Egyptian Miaphysite entries
+      from the same year" (both 2026-11-07): I.14 is retired into II.1, which starts with
+      Athanasius (328) and runs across the era line.
+    - "Irenaeus has no movement of his own" and "Augustine has no movement of his own" (both
+      2026-11-07): each gets a person entry, Irenaeus told within the household churches, Augustine
+      within `latin-pastoral-congregational-christianity`, whose text is corrected to match its Doc_01.
+    - "Which entry owns an emperor's act against the Nicenes, 337-378" (2026-11-07): each link stays
+      on its own sources; the method page states the convention.
+    - "The two early Persian entries overlap" (2026-11-07): `persian-church-of-the-east-early` ends
+      at the synod of 424, where the evidence marks the change.
+    - "Ambrose's Milan and the imperial church overlap" (2026-11-07): both stay; Ambrose also gets a
+      person mark.
+    - "Caucasian Albania's end date" (2026-11-07): the span follows the vendored histories
+      (Brosset 1876, Ormanian 1912), and the Bagratid "absorbs … after 705" goes. The entry's owner
+      sets the years from them.
+    - "No link type for communion" (2026-11-07): no new type before launch; the method page says
+      how communion is drawn.
+    - "Two 'continues as' fields name entries the evidence only influenced" (2026-11-08): both are
+      cleared.
+    - "Links the sources support but no text names" (2026-11-08): the Alcuin link is drawn; the
+      Salzburg and Cluny links wait for a reading.
+    - "Long-gap links to modern churches" (2026-11-08): not drawn; the gap shows as a dashed thread.
+    - "No movement for the Bulgarian church of the Second Empire" (2026-11-08): stays inside
+      `serbian-and-bulgarian-medieval-monasticism`.
+    - "No medieval English or Scandinavian successor entry", "No Melkite entry between 1009 and
+      1724" and "No Syriac Orthodox movement after 1300" (all 2026-11-08): held as named gaps until
+      the Library holds a voice for each period (see the next entry).
+    - "Dominant Modern Reconstruction on old secondary works" (2026-11-08): settled by the earlier
+      "Whole-set rulings" and "Dominant links on two or three old accounts" (2026-11-08), which
+      stand.
+    - "No Carthusian movement after 1300" (2026-11-08): a later Carthusian movement is made in
+      P2-G3, per the era 6 rulings (2026-11-08).
+135. **Gaps held for sources (2026-11-09).** Under principle 3 of the sweep ruling, each of these is a
+    real census gap with no voice in the Library for its period. Each shows as a dashed thread and
+    is built when its texts are vendored. For the source-research thread:
+    - the medieval English church, 1066 to about 1330 (wanted: Anselm, Eadmer, Becket's letters,
+      the chroniclers);
+    - the medieval Scandinavian church after 1104;
+    - the Melkites, 1009 to 1724;
+    - the Syriac Orthodox church after 1300 (the Chronicon of Bar Hebraeus, vol. 3, carries a
+      continued list of maphrians dated 1317 to 1369; vol. 2 is not vendored);
+    - the Scottish church after 1650 (Library texts stop at 1654 and Rutherford's letters at 1661);
+    - the Swedenborgian New Church after 1815 (wanted: the Boston New Jerusalem Magazine, the
+      General Convention's liturgies);
+    - the Old Believers after 1815, with the Belokrinitsa hierarchy (1846).

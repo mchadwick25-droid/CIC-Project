@@ -640,6 +640,115 @@ Atlas World Map Decision-Log, "ERA 10 GATE", same date. The work runs as P2-E10a
 on the existing rows), P2-E10b (new rows and named lines) and P2-E10c (the `kind` field and its
 drawing, the method-page line, the era band). Then P2-L10 and P2-V.
 
+## 2026-11-09 — The gap sweep ruled (P2-G1)
+
+**How it was reached.** Mark ruled on the P2-G1 sweep
+(`Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/`) in chat, one question at a time, each
+with options and a recommendation, on 8 and 9 November. After item 16 he asked for principles
+instead of one answer per item ("is there a principle we can use"), and adopted six drawn from his
+own rulings ("a"). The working page was the artifact "Tree Gap Sweep Ruling". The sitting record,
+with each item's outcome and the principle that settled it, is `Rulings_2026-11-09.md` and
+`Outcomes.json` in the audit folder.
+
+### Rulings on the candidates
+
+1. **The Cyrilline duplicate (D).** `cyrilline-miaphysite-egyptian-tradition` (I.14) is retired
+   into `cyrilline-miaphysite-egyptian-christianity` (II.1) with a redirect. II.1 becomes the
+   entry for the church of Alexandria, running across the era 2/3 line (Mark: "the era lines are
+   for reference not definition"). Its claim to the inheritance of Athanasius and Cyril is graded
+   Contested, since the Chalcedonian line claims it too. Shown with: retire only; re-scope I.14
+   (breaks the permanence promise); retire and add a separate entry to 451 (recommended).
+2. **Where II.1 starts (A).** With Athanasius, 328. That settles "No entry for the church of
+   Alexandria, 4th-5th century" (Open-Gaps, 2026-11-07) and gives Aksum's conversion-era entry
+   its parent. The Library shelf of I.14 (Cyril, Ephesus 431 and 449) moves to II.1.
+3. **New movements (each A, as recommended):** the Melitian schism; the Luciferians; the New
+   France Jesuit mission (end date set by the vendored Relations, the converts heard through the
+   missionaries, as its sourcing note will say); the Swedish Lutherans of New Sweden (flagged
+   thin: one source, Acrelius 1759); English Unitarianism (Biddle, Nye and Toulmin named inside it);
+   the Melkite Greek Catholic Church after 1815; the Hutterites (span from their own chronicles).
+4. **Mennonites and Amish after 1650 (A, a new successor entry).** Recommended was extending the
+   Anabaptist entry. Its shelf starts as later printings of the older texts, and a source pass is
+   wanted. This sets the pattern for item 9 and principle 3.
+5. **People.** Augustine, told within `latin-pastoral-congregational-christianity`, whose census
+   text is corrected to match its own Doc_01 (it takes in the controversies); the lpc world is
+   not touched. Irenaeus, within `post-apostolic-house-church`. Nestorius, within the Antiochene
+   exegetes, with a custody link to the Church of the East. Simeon of Beth Arsham, within the
+   Syriac Orthodox church. William Tyndale, within the English Reformation, as its forerunner.
+   Jovinian and Peter the Iberian, within no tradition. John Chrysostom (new), within
+   `antiochene-exegetical-christianity-chrysostom-ce`, which stays a movement.
+6. **Windesheim (C).** Stays inside the Devotio Moderna entry, whose text gains a line that its
+   houses kept their own chronicle; Busch's chronicle joins that shelf.
+7. **The Nonjurors (B).** Stay inside the Restoration and Georgian Church of England entry.
+
+### People on the map (change order to rulings 14 and 15)
+
+- **Who gets a person mark.** Anyone who passes ruling 14's test; or has 10 or more works of
+  their own on a tradition's shelf, founders included (about 23 people); or is named repeatedly in
+  the own-voice texts of later traditions (in at least two later traditions, about five mentions
+  each), counted by a script with an alias list. Mark sees the list before it ships.
+- **Every tradition shows its named people.** Drawn from its `voices`: named individuals whose
+  words the Library holds or the entry quotes from a source. None is invented. A tradition with no
+  named individual shows none, and its card says why.
+- **Where they sit.** One switch, Traditions | People, turns the same map from one layer to the
+  other; it opens on Traditions. Each tradition's people sit in a horizontal row at its place,
+  ordered by date, up to three on the map, all of them on the card. A person told within no
+  tradition sits in the gap, placed as gap stories without a world are.
+- **Doors.** A person told within a world carries that world's door, on the person's page and the
+  tradition's, shown when the world is open.
+- **Links.** A link stays one record on the tradition, with one ID, grade and sources, and names
+  the person it concerns where its own sources do. The Traditions view draws it from the
+  tradition, the People view from the person.
+- **Pictures.** A mark shows a real likeness only where one was made in the person's lifetime or
+  near it, public domain, credited and date-checked. Otherwise it shows a drawn silhouette of the
+  period and tradition family, in male and female forms, labeled "silhouette, not a likeness". A
+  person's page may also show later traditional depictions, captioned with date and artist. No
+  paid image generation.
+
+### Principles for the rest (Mark: "a")
+
+1. Evidence sets an entry's span, not the era lines.
+2. A distinct body with its own period and its own voice in the Library gets its own entry.
+3. A living tradition past its entry's end gets a successor entry, not a stretched one. Where the
+   Library has no voice for the later period, the gap is held as a named gap, shown by the dashed
+   thread, and its wanted texts go to the source-research thread; it is built when they arrive.
+4. A person gets a mark by the tests above, told within the tradition the Library shelves them in.
+5. A branch, order, wing or colonial arm an existing entry already tells stays inside it, unless it
+   passes principle 2 on its own evidence.
+6. A thin lead (a category, a stale note, no Library evidence) is left out.
+
+Held as named gaps by principle 3: the medieval English church after 1066, the medieval
+Scandinavian church after 1104, the Melkites from 1009 to 1724, the Syriac Orthodox church after
+1300, the Scottish church after 1650, the Swedenborgian successor after 1815, and the Old Believers
+after 1815. Stay inside by principle 5: the Second Bulgarian Empire's church and the councils.
+Ambrose, Jerome and Gregory the Great get person marks inside their entries, which stay movements.
+
+### The link passes' open questions (principle M, Mark: "a")
+
+**M. Before launch, the method holds still.** The six link types and five grades stay; conventions
+go on the method page; sourced text stands with its wanted texts queued; one entry's fixes go to
+its owner or P2-L11; paid runs wait for their text to settle. Under it: each emperor's act stays on
+its own sources; the first Persian entry ends at the synod of 424 (principle 1); Ambrose's Milan
+stays beside the imperial church; Caucasian Albania's span follows the vendored histories, and the
+Bagratid "absorbs after 705" goes; the two "continues as" fields that only influenced are cleared;
+the Alcuin link is drawn and the other two wait; long-gap links to modern churches are not drawn.
+
+**Earlier rulings stand.** Several of these questions were ruled on 2026-11-08 in "Rulings on the
+era 6 open questions", "Whole-set rulings", "Dominant links on two or three old accounts" and "The
+two Bogomil entries are split by date", and are applied in data releases 19 to 21. The sitting's
+table did not show those rulings. Where it differs, the earlier ruling stands and the sitting's
+line is superseded: the Bogomil split at 1054, the narrowed grade for links on old accounts, the
+"Northern Remnant" name, the Free Spirit split, and a later Carthusian movement made in P2-G3. On
+well-known facts, jurisdiction and page recordings the two agree.
+
+### What this sends where
+
+- **P2-G2 (schema)** carries the person kind beside the era 10 `kind` field (`cross-church
+  movement`), the retired-ID redirect for I.14, the `concerns` field on links, and the people row.
+- **P2-G3 (agreed entries)** builds the new entries and person entries, runs the person count and
+  the later-worlds count, and shows Mark the people list before it ships.
+- **New chunks:** the People layer on the map (switch, rows, gap placement, links by view); the
+  silhouette set, drawn with P2-K1; and the likeness check (rights and date per image).
+- **The source-research thread** gets the wanted texts for the held gaps.
 ## 2026-11-09 — Era 10 follow-up rulings
 
 **Decided (Mark: "take every recommendation").**
