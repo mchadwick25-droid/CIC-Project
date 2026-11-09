@@ -13,6 +13,28 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-09 — Era 10 global completeness sweep, by region and by river
+
+**Decided (Mark, asked "is this truely global not just usa", shown the counts and three options:
+"1 and across the rivers too").** Era 10 is titled "A century of global Christianity", but its
+roster leans American. In release 23, 29 of 56 entries are tagged North America and about 19 are
+wholly American. Africa has 7, Latin America 3 and Greater Asia 9. The rivers show the same
+imbalance. The Protestant and Evangelical river has 20 entries, 16 of them North American, and none
+in Latin America. The Catholic river has 4, none of them African or Asian. The Orthodox river has
+3, none outside Europe and North America. The cause is the sources used so far: English-language
+texts and questions raised in conversation, which this session's own additions repeated.
+
+**The sweep.** Run Step 0's completeness sweep (procedure step 1) again for era 10, region by
+region (Africa; Latin America and the Caribbean; Asia and the Pacific; Eastern Europe, the former
+Soviet world and the Middle East), and within each region river by river (Catholic, Orthodox,
+Protestant and Evangelical, Pentecostal and charismatic, independent and initiated, and the
+Eastern and Syriac churches). The same standard and the same recent-movement evidence rule apply:
+own dated founding texts plus a scholarly study, every item verified or [S]. Regional histories
+by scholars from and of those regions come first. The work goes through the same review rounds
+and back to Mark's gate. The census does not change until he rules.
+
+---
+
 ## 2026-11-09 — Mark approves the P2-E10c screenshots and the re-voicing sample; IX.50's name settled on the sources
 
 **Decided (Mark: "screen shots look fine, yes and use the proper name, not because i suggested something").**
