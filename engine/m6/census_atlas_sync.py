@@ -66,6 +66,7 @@ STRUCTURAL_FIELDS = (
     "placeQualifiers",
     "publicOpen",
     "continuesAs",
+    "kind",
 )
 
 NON_BUILT_WORLD_FIELDS = (
@@ -83,6 +84,10 @@ NON_BUILT_WORLD_FIELDS = (
 )
 
 BUILT_WORLD_FIELDS = ("sources",)
+
+# Census fields the Atlas never carries: the dated evidence behind the living
+# mark stays in the census record only.
+CENSUS_ONLY_FIELDS = ("livingEvidence",)
 
 
 def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], list[dict]]:
@@ -109,6 +114,41 @@ def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], l
                 m[field] = new_val
 
     return atlas_movements, changes
+
+
+def atlas_row(census_movement: dict) -> dict:
+    """The Atlas's copy of a census movement it does not yet hold: the census
+    record whole, less the census-only fields and, for a built world, the
+    prose the Atlas fetches from the world's own orientation JSON instead."""
+    omit = set(CENSUS_ONLY_FIELDS)
+    if census_movement.get("status") == LIVE_STATUS:
+        omit |= set(NON_BUILT_WORLD_FIELDS) - set(BUILT_WORLD_FIELDS)
+    return {k: copy.deepcopy(v) for k, v in census_movement.items() if k not in omit}
+
+
+def sync_roster(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], list[str], list[str]]:
+    """Returns (new_atlas_movements, added_ids, removed_ids). The Atlas holds
+    exactly the census's movements, in the census's order: a census movement
+    it lacks is added as atlas_row() builds it, and a movement the census no
+    longer holds is dropped. Rows the Atlas already holds are kept as they
+    are; sync_atlas mirrors their fields."""
+    held = {m.get("id"): m for m in atlas_movements}
+    census_movements = [m for m in census.get("movements", []) if isinstance(m, dict) and "id" in m]
+    census_ids = {m["id"] for m in census_movements}
+    new_movements, added = [], []
+    for cm in census_movements:
+        if cm["id"] in held:
+            new_movements.append(copy.deepcopy(held[cm["id"]]))
+        else:
+            new_movements.append(atlas_row(cm))
+            added.append(cm["id"])
+    removed = [m.get("id") for m in atlas_movements if m.get("id") not in census_ids]
+    return new_movements, added, removed
+
+
+def eras_out_of_sync(census: dict, atlas_eras: list[dict]) -> bool:
+    """The Atlas's eras are a plain mirror of the census's, whole."""
+    return census.get("eras", []) != atlas_eras
 
 
 def edges_out_of_sync(census: dict, atlas_edges: list[dict]) -> bool:

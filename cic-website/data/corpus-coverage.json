@@ -7,9 +7,9 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 306,
+    "total_entries": 307,
     "entries_with_coverage": 191,
-    "entries_zero_coverage": 115
+    "entries_zero_coverage": 116
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -32807,6 +32807,11 @@
     },
     "hebrew-roots-and-torah-observance-movements": {
       "name": "Hebrew Roots & Torah-Observance Movements",
+      "status": "Pre-Survey Candidate",
+      "works": []
+    },
+    "the-christian-right": {
+      "name": "The Christian Right",
       "status": "Pre-Survey Candidate",
       "works": []
     },

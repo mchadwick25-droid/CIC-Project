@@ -820,11 +820,11 @@ it, never by deleting it.
     - the Swedenborgian New Church after 1815 (wanted: the Boston New Jerusalem Magazine, the
       General Convention's liturgies);
     - the Old Believers after 1815, with the Belokrinitsa hierarchy (1846).
-136. **What P2-G2 leaves for P2-G3 (2026-11-09).** Data release 23 retired I.14 into II.1 and made
+136. **What P2-G2 leaves for P2-G3 (2026-11-09).** Data release 24 retired I.14 into II.1 and made
     Tertullian a person entry (Decision-Log, "The gap sweep ruled (P2-G1)", 2026-11-09). Left open:
     - II.1's dates and text still run from 451. Extending it to 328, with Athanasius, is P2-G3's
       content work. I.14's own content (its three documented stories, from Ephesus 431 on, its voices
-      line for Cyril, its places to visit) left the census with it. It stands in release 22 for
+      line for Cyril, its places to visit) left the census with it. It stands in release 23 for
       P2-G3 to draw on. Its recordings are in `Archive/Superseded-Site-Pages/retired-tree-audio/`.
     - The "gave rise to" link from the desert monks, re-made on II.1 as
       `desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2`, is true while II.1 starts

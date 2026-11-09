@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate static tree pages for all 292 movements from the census.
+ * Generate static tree pages for every census movement, and a retired page for each retired movement with no redirect.
  *
  * Output: one HTML file per movement at cft-website/tree/<slug>.html
  * Creates: cic-website/sitemap.xml, cic-website/robots.txt
@@ -76,6 +76,7 @@ li{margin-bottom:.5rem}
 .page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
 .titleblock{margin-bottom:2rem}
 .ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
 .lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
 .lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
 .lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
@@ -358,6 +359,9 @@ ${items}
   </section>`;
 }
 
+// A movement's kind, as the reader sees it. A movement with no kind is a church body and carries no label.
+const KIND_LABEL = { 'cross-church movement': 'A movement across churches' };
+
 function generatePageHtml(movement) {
   const isPerson = movement.kind === 'person';
   const doorWorld = isPerson ? (movement.toldWithin ? movementMap.get(movement.toldWithin) : null) : movement;
@@ -404,6 +408,7 @@ ${siteHeader('../')}
     ${placeLine.includes('today in') ? `<p class="ident">${escapeHtml(placeLine)}</p>` : ''}
     <h1>${escapeHtml(movement.name)}</h1>
     ${toldWithinLine(movement)}
+    ${KIND_LABEL[movement.kind] ? `<p class="kind-label">${escapeHtml(KIND_LABEL[movement.kind])}</p>` : ''}
   </div>
 
   ${isBuilt && doorWorld.publicOpen ? `
@@ -576,6 +581,49 @@ const giveButtons = give.once && give.monthly
 const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support'];
 for (const key of SITE_PAGES) {
   fs.writeFileSync(path.join(outRoot, 'cft-website', `${key}.html`), sitePage(key, giveButtons), 'utf-8');
+}
+
+// A retired movement with no redirect keeps its address. Its page says only what the census records:
+// the name, the date it was retired, and the reason.
+function retiredPageHtml(r) {
+  const retiredOn = LONG_DATE.format(new Date(`${r.date}T00:00:00Z`));
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${escapeHtml(r.name)} (retired) — Church Family Tree</title>
+<meta name="description" content="${escapeHtml(`This entry was retired from the Church Family Tree on ${retiredOn}.`)}">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+${PAGE_STYLE}
+<link rel="stylesheet" href="../assets/feedback.css">
+${analyticsTag}</head>
+<body>
+${siteHeader('../')}
+
+<div class="page" data-retired="true">
+  <div class="titleblock">
+    <p class="eyebrow">Retired entry</p>
+    <h1>${escapeHtml(r.name)}</h1>
+  </div>
+  <p>This entry was retired from the tree on ${escapeHtml(retiredOn)}.</p>
+  <p>${escapeHtml(r.reason)}</p>
+  <p><a href="../index.html">Return to the map</a></p>
+</div>
+
+${siteFooter('../')}
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>`;
+}
+for (const r of census.retiredMovements ?? []) {
+  if (r.redirectTo) continue;
+  if (!r.name || !r.date || !r.reason) throw new Error(`retired movement ${r.id} needs a name, date and reason for its page`);
+  fs.writeFileSync(path.join(treeDir, `${r.id}.html`), retiredPageHtml(r), 'utf-8');
 }
 
 // Generate sitemap.xml for each site

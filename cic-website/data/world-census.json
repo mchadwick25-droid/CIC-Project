@@ -3,7 +3,7 @@
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 306,
+  "totalEntries": 307,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
@@ -14,14 +14,14 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 3,
    "Floor Question (register)": 29,
-   "Pre-Survey Candidate": 225,
+   "Pre-Survey Candidate": 226,
    "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1
   },
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, or \"cross-church movement\". A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there.",
   "schemaVersion": 3,
   "release": {
-   "number": 23,
+   "number": 24,
    "date": "2026-11-09"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -60448,7 +60448,7 @@
    "c2": null,
    "sourcing": "Rich institutionally; as a TRADITION it is diffuse - the bounded-window rule applies doubly",
    "floorNote": "No question",
-   "relationsSummary": "At the 1974 Congress, Global South voices — chiefly the Latin Americans René Padilla and Samuel Escobar — argued for holding evangelism and social responsibility together, bending the whole movement toward what became known as integral mission. It worked as a network rather than a denomination, restating itself through a series of dated documents: the Lausanne Covenant (1974), the Manila Manifesto (1989) and the Cape Town Commitment (2010). It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together. At the 1974 Congress, Ralph and Roberta Winter prepared a paper on the peoples that existing missions did not reach. In 1997 the Southern Baptist International Mission Board took up an approach called the Church Planting Movement. David Garrison set it out in a book in 2004. Evangelical relief agencies worked on the same ground, and some were older than the congress. Tearfund grew out of the Evangelical Alliance in 1968. Brian Stanley's history names this evangelical age after Billy Graham and John Stott. Graham's evangelistic association was incorporated in 1950.",
+   "relationsSummary": "At the 1974 Congress, Global South voices — chiefly the Latin Americans René Padilla and Samuel Escobar — argued for holding evangelism and social responsibility together, bending the whole movement toward what became known as integral mission. It worked as a network rather than a denomination, restating itself through a series of dated documents: the Lausanne Covenant (1974), the Manila Manifesto (1989) and the Cape Town Commitment (2010). It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together. At the 1974 Congress, Ralph and Roberta Winter prepared a paper on the peoples that existing missions did not reach. In 1997 the Southern Baptist International Mission Board took up an approach called the Church Planting Movement. David Garrison set it out in a book in 2004. Evangelical relief agencies worked on the same ground, and some were older than the congress. Tearfund grew out of the Evangelical Alliance in 1968. Brian Stanley's history names this evangelical age after Billy Graham and John Stott. Graham's evangelistic association was incorporated in 1950. The Christian Right, a political movement that American ministers began with the Moral Majority in 1979, has a separate entry.",
    "why": "At the Lausanne Congress in July 1974, the Latin American theologians René Padilla and Samuel Escobar argued that evangelism and social responsibility could not be separated, and they won enough of the room to bend the whole movement in that direction -- which is why \"integral mission\" became a Lausanne word. What came out of the congress was not a denomination but a network built around a document, the Lausanne Covenant, and the movement restated itself twice more, in the Manila Manifesto of 1989 and the Cape Town Commitment of 2010.",
    "entry": null,
    "sources": [
@@ -61594,7 +61594,7 @@
    "c2": null,
    "sourcing": "Rich and largely self-published: The Fundamentals (12 volumes, 1910–1915, about three million copies distributed), the Niagara Creed (1878), A. A. Hodge and B. B. Warfield's 'Inspiration' (Presbyterian Review, April 1881), denominational controversy records, and the movement's own periodicals.",
    "floorNote": "No question — the movement's stated cause was the historic doctrinal content itself",
-   "relationsSummary": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s and the Princeton doctrine of biblical inerrancy set out in 1881, decades before it took its name in 1920. It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929. Much of its constituency later moved into the neo-evangelical movement through the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatism in 1957, while its independent Baptist and separatist churches continued on their own. The networks gave radio evangelists such as Paul Rader and Charles Fuller no free time, so they bought airtime instead. In 1944 evangelical broadcasters formed the National Religious Broadcasters, at the invitation of the National Association of Evangelicals. Billy Graham's Los Angeles campaign of 1949 ran for more than eight weeks instead of the three planned. The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window.",
+   "relationsSummary": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s and the Princeton doctrine of biblical inerrancy set out in 1881, decades before it took its name in 1920. It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929. Much of its constituency later moved into the neo-evangelical movement through the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatism in 1957, while its independent Baptist and separatist churches continued on their own. The networks gave radio evangelists such as Paul Rader and Charles Fuller no free time, so they bought airtime instead. In 1944 evangelical broadcasters formed the National Religious Broadcasters, at the invitation of the National Association of Evangelicals. Billy Graham's Los Angeles campaign of 1949 ran for more than eight weeks instead of the three planned. The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window. The Christian Right has its own entry.",
    "why": "The name arrived in 1920, when Curtis Lee Laws called for 'battle royal for the Fundamentals' in the Watchman-Examiner, but the movement was older: twelve volumes called The Fundamentals, financed by Lyman Stewart and given away in some three million copies between 1910 and 1915, defended the doctrine of scripture A. A. Hodge and B. B. Warfield had set out in 1881. Public defeats followed — the Scopes trial in 1925, Princeton Seminary's reorganization in 1929 — before much of its constituency moved into the neo-evangelical world through the National Association of Evangelicals in 1942 and Billy Graham's 1957 break with separatism, while its independent Baptist and separatist churches carried on.",
    "entry": null,
    "sources": [
@@ -61656,7 +61656,7 @@
     "J. Gresham Machen — whose Christianity and Liberalism (1923) argued the case at its most rigorous",
     "W. B. Riley — organizer of the World's Christian Fundamentals Association in 1919, the movement's first attempt at an institution"
    ],
-   "legacy": "The movement was alive in 2010; this window is not its whole life. It closes at a documented handoff rather than a death — the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatist fundamentalism in 1957 carried much of its constituency into the neo-evangelical world that this map picks up again at Lausanne. What stayed behind kept going: the independent Baptist and separatist congregations and their institutions were still there in 2010. The political mobilization that began with the Moral Majority in 1979 sits one step past this window, and this map notes that connection here rather than giving it a world of its own. George Marsden's Fundamentalism and American Culture (1980) became the standard account.",
+   "legacy": "The movement was alive in 2010; this window is not its whole life. It closes at a documented handoff rather than a death — the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatist fundamentalism in 1957 carried much of its constituency into the neo-evangelical world that this map picks up again at Lausanne. What stayed behind kept going: the independent Baptist and separatist congregations and their institutions were still there in 2010. The political mobilization that began with the Moral Majority in 1979 sits one step past this window. It has its own entry, the Christian Right. George Marsden's Fundamentalism and American Culture (1980) became the standard account.",
    "documentedStories": [
     {
      "title": "Bryan on the Lawn",
@@ -64056,6 +64056,126 @@
    "reviewStatus": "AI-checked"
   },
   {
+   "id": "the-christian-right",
+   "atlasId": "IX.50",
+   "era": 10,
+   "name": "The Christian Right",
+   "shortName": "Christian Right",
+   "informalName": "the Religious Right",
+   "dates": "1979-c. 2010",
+   "start": 1979,
+   "end": 2010,
+   "region": "United States",
+   "placeLabel": "United States",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "United States",
+     "placeId": "Q30"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, smaller frame",
+   "statusDescription": "Tiered deferred on a smaller frame (Tier 3). It was a political movement carried by organizations, not a church or a confession. Its public record is moderate to rich. What it formed in people's lives beyond politics is thinly recorded, and this entry says so.",
+   "living": true,
+   "overlayCurrent": true,
+   "c2": null,
+   "sourcing": "Moderate to rich. The Moral Majority's papers are kept at Liberty University. In a 1980 interview Jerry Falwell gave his own account of it. Three studies trace its history: William Martin (1996), Clyde Wilcox (1996, revised to 2010) and Daniel K. Williams (2010).",
+   "floorNote": "In August 1980 Jerry Falwell said the Moral Majority was not a religious group. 'It is totally political,' he said. He counted pastors, Catholic priests, Jewish rabbis and Mormon elders among its members. On his account, it had no confession of its own to test. No statement of faith has been found for it or the later groups. The churches its members came from are not tested through it. This reading is not settled until the later groups' own statements are checked.",
+   "relationsSummary": "The entry on Fundamentalism traces this movement back to it. Its founders were ministers. Its groups drew support from several churches and faiths, and none became a church. They were the Moral Majority (1979–1989), the Christian Coalition (from 1989) and the Faith and Freedom Coalition (from 2009).",
+   "why": "In June 1979 Jerry Falwell and four other ministers founded the Moral Majority. In August 1980 Ronald Reagan, then running for president, spoke at a briefing in Dallas. Another group, the Religious Roundtable, ran it. He said the gathering was nonpartisan, so it could not endorse him. Then he added, 'I endorse you and what you're doing.' The Moral Majority closed in 1989, and Pat Robertson founded the Christian Coalition that year. In 2009 Ralph Reed, the Christian Coalition's first executive director, founded the Faith and Freedom Coalition.",
+   "entry": null,
+   "sources": [
+    {
+     "work": "Daniel K. Williams, God's Own Party: The Making of the Christian Right (Oxford University Press, 2010)",
+     "type": "secondary"
+    },
+    {
+     "work": "William Martin, With God on Our Side: The Rise of the Religious Right in America (Broadway Books, 1996)",
+     "type": "secondary"
+    },
+    {
+     "work": "Clyde Wilcox, Onward Christian Soldiers? The Religious Right in American Politics (Westview Press, 1996; 4th ed., with Carin Robinson, 2010)",
+     "type": "secondary",
+     "note": "The 4th edition is cataloged as 2010 in some records and 2011 in others. Carin Larson (3rd ed.) and Carin Robinson are the same co-author."
+    },
+    {
+     "work": "Jerry Falwell, interview, The MacNeil/Lehrer Report (22 August 1980)",
+     "type": "primary",
+     "note": "Clip held by the American Archive of Public Broadcasting, record cpb-aacip-507-0v89g5gw13; its transcript covers 06:22 to 10:45 of the full record. Falwell calls the Moral Majority political, not religious, and names supporters from several faiths."
+    },
+    {
+     "work": "Liberty University Archive, Projects and Programs of the Moral Majority, Record Group 2, finding aid (last updated 24 March 2014)",
+     "type": "reference",
+     "note": "Its historical note gives the founding on 6 June 1979, the five founding ministers, the four principles and the end in 1989."
+    },
+    {
+     "work": "Ronald Reagan, address to the National Affairs Briefing, Reunion Arena, Dallas (22 August 1980)",
+     "type": "primary",
+     "note": "The briefing ran on 21 and 22 August; the address is dated 22 August. Transcribed from the audio by American Rhetoric (abridged)."
+    },
+    {
+     "work": "Ronald Reagan Presidential Library, Morton Blackwell Files, 'Roundtable (2 of 2)', Box 40",
+     "type": "primary",
+     "note": "A 1982 White House scheduling request names 'the Memphis National Affairs Briefing of the Religious Roundtable' and recalls the August 1980 briefing in Dallas. A press release in the same folder says Ed McAteer sponsored the Dallas gathering."
+    },
+    {
+     "work": "EBSCO Research Starters, 'Robertson Founds Christian Coalition'",
+     "type": "reference",
+     "note": "Records the 1989 founding, with Ralph Reed as executive director."
+    },
+    {
+     "work": "Encyclopedia.com, 'Christian Coalition'",
+     "type": "reference",
+     "note": "Names Ralph Reed as its first executive director."
+    },
+    {
+     "work": "Faith & Freedom Coalition, 'About' page",
+     "type": "primary",
+     "note": "The coalition's own account of its founding by Ralph Reed in 2009. The page is undated."
+    },
+    {
+     "work": "Andrew R. Lewis, The Rights Turn in Conservative Christian Politics: How Abortion Transformed the Culture Wars (Cambridge University Press, 2017)",
+     "type": "secondary",
+     "note": "Evidence for the living mark only, not for the history. A study of the movement's present-day advocacy and opinion."
+    },
+    {
+     "work": "Washington Examiner, 'What to know about the Faith & Freedom Coalition's 2025 Road to Majority Conference'",
+     "type": "reference",
+     "note": "Evidence for the living mark only, not for the history. The article is dated 26 June 2025; the conference met on 26 to 28 June 2025."
+    }
+   ],
+   "longDescription": "Jerry Falwell, Tim LaHaye, Charles Stanley, D. James Kennedy and Greg Dixon founded the Moral Majority on 6 June 1979. It named four principles of its own: 'pro-life, pro-family, pro-morals, and pro-American'. From its base in Washington, it worked in politics for those aims. In August 1980 Falwell called it 'totally political', not a religious group. Its backers, he said, were not all evangelicals. That month Ronald Reagan spoke in Dallas, at a briefing run by another group, the Religious Roundtable. He told the crowd, 'I endorse you and what you're doing.' The Moral Majority closed in 1989. That same year Pat Robertson founded the Christian Coalition, with Ralph Reed as its executive director. Reed went on to found the Faith and Freedom Coalition in 2009.",
+   "teaser": "In 1979 five ministers founded the Moral Majority, a political organization that drew support from several faiths.",
+   "voices": [
+    "Jerry Falwell — who founded the Moral Majority with four other ministers in 1979, and called it 'totally political' in 1980",
+    "Pat Robertson — who founded the Christian Coalition in 1989",
+    "Ralph Reed — the Christian Coalition's first executive director, who founded the Faith and Freedom Coalition in 2009",
+    "William Martin — whose With God on Our Side (1996) told the story of the movement's rise"
+   ],
+   "legacy": "Its groups changed over thirty years, but the movement carried on. In 2010 the historian Daniel K. Williams told its story in God's Own Party. The record shows its political work well. It shows much less of what the movement meant for its members' faith.",
+   "documentedStories": [],
+   "livingEvidence": {
+    "basis": "A current, a label or a skeleton; the flag is a judgment on the evidence. One carrier, the Faith and Freedom Coalition, still meets in a yearly conference.",
+    "evidence": "Andrew R. Lewis, The Rights Turn in Conservative Christian Politics (Cambridge University Press, 2017), a study of its present-day advocacy and opinion: independent scholarship; verified. Washington Examiner, on the Faith & Freedom Coalition's Road to Majority conference (26 June 2025; the conference met 26-28 June): independent news; verified.",
+    "grade": "CD (Contemporary-Documented); newest dated item 2025, newest verified 2025",
+    "group": "L-3"
+   },
+   "kind": "cross-church movement",
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
    "id": "iglesia-ni-cristo",
    "atlasId": "IX.51",
    "era": 10,
@@ -64745,6 +64865,7 @@
  "retiredMovements": [
   {
    "id": "deconstruction-and-ex-vangelical-communities",
+   "name": "Deconstruction & Ex-vangelical Communities",
    "date": "2026-11-08",
    "reason": "Every dated anchor of this movement falls after 2010, where the tree's history ends."
   },
