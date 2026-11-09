@@ -197,7 +197,7 @@ function shelfAuthor(movementId, rowId) {
         else if (!p.author || author !== p.author) errs.push(`${pt}: held row ${p.held} is by ${author}, not by the voice's author ${p.author}`);
       }
       const twin = (m.people ?? []).map(q => q.person && byId.get(q.person)).filter(Boolean)
-        .find(w => p.name && [w.shortName, w.name].some(n => n && (p.name.includes(n) || n.includes(p.name))));
+        .find(w => p.name && [w.shortName, w.name].some(n => n && new RegExp(`(^|\\W)${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(\\W|$)`).test(p.name)));
       if (twin) errs.push(`${pt}: ${p.name} is already in this row as the person entry ${twin.id}`);
       if (p.source !== undefined) {
         const s = p.source;

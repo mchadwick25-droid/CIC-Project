@@ -844,3 +844,6 @@ it, never by deleting it.
       left off them. Whether each is about him is P2-G3's reading.
     - Tertullian's entry is still called "Tertullian's Voice", which reads as a label now that the
       page is headed "About This Person". The ID stays. Renaming the display name is P2-G3's call.
+    - A named voice backed by `source` must quote the person's own words. The validator checks that
+      the quote is verbatim, but not whose words it is. When P2-G3 fills the rows, a reviewer confirms
+      the speaker of each quote.
