@@ -760,3 +760,33 @@ well-known facts, jurisdiction and page recordings the two agree.
 - Re-voicing starts with a small paid sample that Mark approves by ear.
 
 Full entry: Atlas World Map Decision-Log, same date.
+
+## 2026-11-09 — Cross-church movements get their own column (P2-E10d)
+
+**Decided (Mark, relayed from the era 1 thread).** Looking at the live map, Mark said the striped
+movement band "looks like it encompasses the entire river and they didn't". His choice: "A with a
+toggle on and off, starting off like connections".
+
+1. **The striped bands go.** Cross-church movements (census rows with `kind: "cross-church
+   movement"`) no longer draw over any river.
+2. **Their own column.** Each era band gets a narrow movements column at its edge. A movement is a
+   thin line there that runs only for its own dates, start to end, with its name at its start.
+3. **Ties on pick.** Hovering over or picking a movement draws faint ties to the churches its own
+   census links connect it to, from the existing edges data. The ties stay while its card is open,
+   the way links light up now. Nothing new is claimed: a tie appears only where a sourced link
+   exists, and a movement with no links shows none.
+4. **A Movements switch, off by default, like Connections.** It shows or hides the column, opens
+   off, is remembered on reload like the other switches, and the Key explains it in one plain
+   sentence.
+5. **Unchanged.** Cards and tree pages keep the "A movement across churches" label, and the census
+   `kind` data is not touched. Any Key row or code that only served the old band is removed.
+
+**How it was carried out.** The column sits to the right of the rivers in each era that holds a
+cross-church movement; an era with none shows no empty column, so the map does not suggest that
+era had none. A movement is now drawn only in its column: it no longer counts toward its river's
+width, sits on no river as a mark, and does not pull rivers together or apart. The switch is its
+own chip beside Stories and is remembered in the browser under `tree-movements`, the same way the
+Major links choice is kept. On 2026-11-09 none of the six cross-church movements has a census
+link, so no ties show yet; IX.50 names IX.33 and IX.24 in its text only. Screenshots:
+`Build/Ministry/Features/Church-Family-Tree/Screenshots/2026-11-09_P2-E10d/`. Stop point: Mark sees
+the screenshots.
