@@ -299,7 +299,7 @@ assignments:
     canons 10.16 (Cyril's epistles split out below)
   atlas_ids:
   - imperial-juridical-christianity
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: assigned
   note: 'Cyril''s council under Theodosius II, within ijc''s window; also the charter of the
@@ -331,7 +331,7 @@ assignments:
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
     a reader would name; text overlaps the council rows deliberately
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   - imperial-juridical-christianity
   role: tradition
   confidence: assigned
@@ -376,7 +376,7 @@ assignments:
   author: council-of-chalcedon-451
   locus: div1 11
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: context
   confidence: assigned
   note: 'The council the miaphysite tradition rejects, and the record of the deposition of
@@ -768,7 +768,7 @@ assignments:
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
     of it. `provisional` on the date, not the author: Theophilus died in 412 and
-    alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition does not
+    alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-christianity does not
     begin until 451. He falls in the gap between them.'
 - row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
   work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
@@ -777,7 +777,7 @@ assignments:
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.30-17.31 (~336 words)
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: assigned
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon

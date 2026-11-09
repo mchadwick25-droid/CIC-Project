@@ -101,6 +101,11 @@ li{margin-bottom:.5rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
 .action-links a:hover{background:var(--madder-deep)}
 .door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
 .site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
@@ -314,8 +319,49 @@ function hasNarration(movement) {
   return recordingMatchesText(treeAudioManifest[movement.id], narrationTextFor(movement, { dataDir: worldsDataDir }));
 }
 
+// Review status (Decision-Log 2026-11-06, ruling 18), in plain words on every page.
+const REVIEW_WORDS = {
+  'AI-checked': 'checked against its sources with AI tools. No scholar or church partner has reviewed it yet.',
+  'partner-contributed': 'written with a church partner from this tradition. No scholar has reviewed it yet.',
+  'scholar-reviewed': 'reviewed by a scholar.',
+};
+function reviewLine(movement) {
+  const words = REVIEW_WORDS[movement.reviewStatus];
+  if (!words) throw new Error(`${movement.id}: unknown reviewStatus ${movement.reviewStatus}`);
+  return `<p class="review-status"><b>Review:</b> ${words} <a href="../data.html#review">Help review the tree</a></p>`;
+}
+
+// A person entry is told within one tradition, or within none (ruling 14; "The gap sweep
+// ruled", 2026-11-09). It carries that tradition's door, shown while the world is open.
+function toldWithinLine(movement) {
+  if (movement.kind !== 'person') return '';
+  const home = movement.toldWithin ? movementMap.get(movement.toldWithin) : null;
+  if (!home) return `<p class="told-within">A person whose story no single tradition tells.</p>`;
+  return `<p class="told-within">A person, told within <a href="${home.id}.html">${escapeHtml(home.name)}</a>.</p>`;
+}
+
+function peopleHtml(movement) {
+  const people = movement.people || [];
+  if (!people.length) return '';
+  const items = people.map(p => {
+    if (p.person) {
+      const who = movementMap.get(p.person);
+      return `<li><a href="${who.id}.html">${escapeHtml(who.name)}</a><span class="ident">${escapeHtml(who.dates)}</span></li>`;
+    }
+    return `<li>${escapeHtml(p.name)}</li>`;
+  }).join('\n');
+  return `<section>
+    <h2>People</h2>
+    <ul class="people-list">
+${items}
+    </ul>
+  </section>`;
+}
+
 function generatePageHtml(movement) {
-  const isBuilt = builtWorlds.has(movement.id);
+  const isPerson = movement.kind === 'person';
+  const doorWorld = isPerson ? (movement.toldWithin ? movementMap.get(movement.toldWithin) : null) : movement;
+  const isBuilt = !!doorWorld && builtWorlds.has(doorWorld.id);
   const narrated = hasNarration(movement);
 
   // Get description for meta tag - use sourcing as fallback
@@ -357,18 +403,19 @@ ${siteHeader('../')}
     <p class="ident">${escapeHtml(eraName)} · ${escapeHtml(movement.dates)} · ${escapeHtml(movement.region)}</p>
     ${placeLine.includes('today in') ? `<p class="ident">${escapeHtml(placeLine)}</p>` : ''}
     <h1>${escapeHtml(movement.name)}</h1>
+    ${toldWithinLine(movement)}
   </div>
 
-  ${isBuilt && movement.publicOpen ? `
+  ${isBuilt && doorWorld.publicOpen ? `
   <div class="action-links">
-    <a href="https://churchinconversation.com/traditions/${movement.id}.html">Meet ${escapeHtml(movement.entry?.representativeName || 'this tradition')} on Church in Conversation</a>
+    <a href="https://churchinconversation.com/traditions/${doorWorld.id}.html">Meet ${escapeHtml(doorWorld.entry?.representativeName || 'this tradition')} on Church in Conversation</a>
   </div>
   ` : isBuilt && !anyWorldOpen ? `
   <p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>
   ` : ''}
 
   <section>
-    <h2>About This Movement</h2>
+    <h2>About This ${isPerson ? 'Person' : 'Movement'}</h2>
     ${narrated ? `
     <div class="narration">
       <audio controls preload="none" src="../audio/tree/${movement.id}.mp3"></audio>
@@ -377,6 +424,8 @@ ${siteHeader('../')}
     ` : ''}
     ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}
   </section>
+
+  ${peopleHtml(movement)}
 
   <section>
     <h2>In Its Own Record</h2>
@@ -387,6 +436,8 @@ ${siteHeader('../')}
     <h2>Sources</h2>
     ${formatSourcesList(movement.sources)}
   </section>
+
+  ${reviewLine(movement)}
 </div>
 
 ${siteFooter('../')}
@@ -417,6 +468,14 @@ census.movements.forEach(movement => {
   if (!movement.status) missingFields.push({ id: movement.id, field: 'status' });
 });
 
+
+// A movement retired into another keeps its address: its old page goes, and the tree's
+// _redirects file sends both forms of the address on, permanently (meta.identifiers).
+const redirects = (census.retiredMovements || []).filter(r => r.redirectTo);
+for (const r of redirects) fs.rmSync(path.join(treeDir, `${r.id}.html`), { force: true });
+fs.writeFileSync(path.join(outRoot, 'cft-website/_redirects'), redirects
+  .flatMap(r => [`/tree/${r.id} /tree/${r.redirectTo} 301`, `/tree/${r.id}.html /tree/${r.redirectTo} 301`])
+  .map(l => l + '\n').join(''), 'utf-8');
 
 // The tree's own pages: about, method, data, privacy, support
 const LONG_DATE = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });

@@ -820,3 +820,25 @@ it, never by deleting it.
     - the Swedenborgian New Church after 1815 (wanted: the Boston New Jerusalem Magazine, the
       General Convention's liturgies);
     - the Old Believers after 1815, with the Belokrinitsa hierarchy (1846).
+136. **What P2-G2 leaves for P2-G3 (2026-11-09).** Data release 23 retired I.14 into II.1 and made
+    Tertullian a person entry (Decision-Log, "The gap sweep ruled (P2-G1)", 2026-11-09). Left open:
+    - II.1's dates and text still run from 451. Extending it to 328, with Athanasius, is P2-G3's
+      content work. I.14's own content (its three documented stories, from Ephesus 431 on, its voices
+      line for Cyril, its places to visit) left the census with it. It stands in release 22 for
+      P2-G3 to draw on. Its recordings are in `Archive/Superseded-Site-Pages/retired-tree-audio/`.
+    - The "gave rise to" link from the desert monks, re-made on II.1 as
+      `desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2`, is true while II.1 starts
+      in 451. Once II.1 starts in 328, the church of Alexandria is older than the desert monks. P2-G3
+      re-checks the link beside the "influenced" link on the same pair.
+    - The Library row for Theophilus of Alexandria (`npnf214_seven-ecumenical-councils`) says he falls
+      in the gap between the catechetical school (to 400) and II.1 (from 451). Once II.1 starts in
+      328, the row may move to II.1. Owner: the Library thread.
+    - The people rows hold only person entries so far: Tertullian, in the Latin Apologists' row.
+      P2-G3 adds the named voices. The Latin Apologists' first voices line is Tertullian himself, so
+      that row must not list him twice.
+    - Four links name Tertullian in their notes but do not touch his entry:
+      `greek-apologists-second-century--latin-apologists`,
+      `post-apostolic-house-church--marcion-marcionism`,
+      `post-apostolic-house-church--valentinian-and-other-gnostic-christianities` and
+      `greek-apologists-second-century--valentinian-and-other-gnostic-christianities`. `concerns` is
+      left off them. Whether each is about him is P2-G3's reading.

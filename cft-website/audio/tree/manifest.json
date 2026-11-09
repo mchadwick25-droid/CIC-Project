@@ -509,15 +509,6 @@
   "md5": "671bc0eb0a4eb7088ba7c7b0df536235",
   "text_sha256": "60619dbe2b3c17942cd08f42acdee7c049a463e07c6d7a141350a06e3a24eb43"
  },
- "cyrilline-miaphysite-egyptian-tradition": {
-  "file": "cyrilline-miaphysite-egyptian-tradition.mp3",
-  "bytes": 593127,
-  "chars": 996,
-  "text_sha256": "a15da927cc26135b0020ccd68f446e2f4ecc636f4c5d109b5d02cf72bde578f6",
-  "voiceId": "onwK4e9ZLuTAKqWW03F9",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
- },
  "cyrillo-methodian-slavic-christianity": {
   "file": "cyrillo-methodian-slavic-christianity.mp3",
   "bytes": 611726,

@@ -135,3 +135,46 @@ test('the about page counts movements and links from the census', () => {
   assert.match(page, /The tree shows 12 links of six kinds\./);
   assert.match(page, new RegExp(`The tree covers ${c.movements.length} movements\\.`));
 });
+
+test('a person page says which tradition tells it, and carries that world door while it is open', () => {
+  const c = structuredClone(census);
+  const person = c.movements.find(m => m.kind === 'person');
+  const read = generate(c);
+  const page = read(`tree/${person.id}.html`);
+  const home = c.movements.find(m => m.id === person.toldWithin);
+  const world = c.movements.find(m => m.id === open.id);
+  assert.match(page, new RegExp(`<p class="told-within">A person, told within <a href="${home.id}.html">`));
+  assert.match(page, /<h2>About This Person<\/h2>/);
+  assert.match(read(`tree/${home.id}.html`), new RegExp(`<ul class="people-list">\\s*<li><a href="${person.id}.html">`));
+  person.toldWithin = world.id;
+  home.people = [];
+  world.people = [{ person: person.id }];
+  const opened = generate(c);
+  assert.match(opened(`tree/${person.id}.html`), new RegExp(`href="https://churchinconversation.com/traditions/${world.id}.html">Meet `));
+  assert.match(opened(`tree/${world.id}.html`), new RegExp(`<a href="${person.id}.html">`));
+  world.publicOpen = false;
+  assert.doesNotMatch(generate(c)(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
+  person.toldWithin = null;
+  world.people = [];
+  assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
+});
+
+test('every page states its review status in plain words', () => {
+  const c = structuredClone(census);
+  const [a, b] = c.movements;
+  b.reviewStatus = 'scholar-reviewed';
+  const read = generate(c);
+  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked against its sources with AI tools\. No scholar or church partner has reviewed it yet\./);
+  assert.match(read(`tree/${b.id}.html`), /<b>Review:<\/b> reviewed by a scholar\./);
+});
+
+test('a movement retired into another loses its page and redirects permanently', () => {
+  const c = structuredClone(census);
+  const [kept, gone] = c.movements;
+  c.movements = c.movements.filter(m => m !== gone);
+  c.edges = c.edges.filter(e => e.from !== gone.id && e.to !== gone.id);
+  c.retiredMovements = [{ id: gone.id, date: '2031-01-01', reason: 'Merged.', redirectTo: kept.id }];
+  const read = generate(c);
+  assert.throws(() => read(`tree/${gone.id}.html`));
+  assert.equal(read('_redirects'), `/tree/${gone.id} /tree/${kept.id} 301\n/tree/${gone.id}.html /tree/${kept.id} 301\n`);
+});

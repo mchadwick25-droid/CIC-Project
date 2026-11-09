@@ -617,6 +617,12 @@ authors:
 
       '
     from_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  brewer:
+    kind: metadata-omission
+    evidence: Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page names Heinrich Brewer as the author (file header and title page). A mechanical
+      index-coverage gap, not an attribution dispute.
+    from_file: brewer_kommodian-von-gaza-deu_1906.txt
   broadmead-church:
     kind: metadata-omission
     evidence: 'Institutional slug for the congregation whose records these are; the title
@@ -3130,6 +3136,12 @@ authors:
 
       '
     from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  schanz-hosius-krueger:
+    kind: metadata-omission
+    evidence: Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page names Martin Schanz, Carl Hosius and Gustav Krueger as the handbook authors
+      (file header and title page). A mechanical index-coverage gap, not an attribution dispute.
+    from_file: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
   scher:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
