@@ -1,0 +1,963 @@
+{
+ "group": "D",
+ "movements": [
+  "charismatic-renewal-and-the-jesus-movement",
+  "hebrew-roots-and-torah-observance-movements",
+  "the-1904-07-revival-family-wales-mukti-india-pyo",
+  "churches-of-christ-twentieth-century",
+  "the-emerging-church-and-post-evangelical-movemen",
+  "new-calvinism-young-restless-reformed"
+ ],
+ "dispositions": [
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--charismatic-renewal-and-the-jesus-movement",
+   "prose_change": 0,
+   "reason": "The 1969 United Presbyterian report calls the renewal Pentecostalism's second period of growth; link drafted. Field rewritten for reading level."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Places the renewal in time before the Global South growth; no descent claimed. The 1969 report also notes Pentecostal growth in Latin America and Africa. Kept in the rewritten field."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+   "other_id": "the-third-wave-and-the-vineyard",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": 0,
+   "reason": "The Vineyard's own history shows its first church sent out by Calvary Chapel and Wimber's church leaving Calvary Chapel for it in 1982."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+   "other_id": "the-megachurch-and-seeker-movement",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Fed directly' is not shown. Miller's publisher calls the Calvary Chapel and Vineyard churches 'new paradigm churches—sometimes called megachurches', so the sentence now says that, and says the debt of the seeker megachurches is less clear."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+   "other_id": "new-calvinism-young-restless-reformed",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Fed directly into the New Calvinist networks' is not shown. Christianity Today (2006) calls C. J. Mahaney 'a charismatic Calvinist', and Hansen's publisher says charismatic worship fueled the growth the New Calvinists reacted to. Too thin for a link; qualified."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "sentence": "The Word of Faith movement grew in the same years.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No census movement for Word of Faith. Rhema's 1974 date rests on Harrison's dated encyclopedia entry, already cited in the era 10 movement records; kept."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "longDescription",
+   "sentence": "The announcement is conventionally taken as the start of the charismatic movement inside the historic Protestant churches, and it went where the earlier Pentecostal revival had not: into mainline Protestant parishes, whose members mostly stayed where they were.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "The United Presbyterian Church's own 1969-70 report records the charismatic movement growing inside the mainline churches."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "longDescription",
+   "sentence": "The announcement is conventionally taken as the start of the charismatic movement inside the historic Protestant churches, and it went where the earlier Pentecostal revival had not: into mainline Protestant parishes, whose members mostly stayed where they were.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--charismatic-renewal-and-the-jesus-movement",
+   "prose_change": null,
+   "reason": "'Where the earlier Pentecostal revival had not' carries the same link as the relations summary."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "longDescription",
+   "sentence": "The Vineyard association formed in 1982, at the edge of this window, as the wave handed on to what came next.",
+   "other_id": "the-third-wave-and-the-vineyard",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": null,
+   "reason": "Same link: the Vineyard's own history."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "why",
+   "sentence": "On 3 April 1960 Dennis Bennett told his Van Nuys, California congregation that he had spoken in tongues, an announcement conventionally marking the start of a charismatic movement that spread through mainline Protestant parishes without most of their members ever leaving.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Same link as the long description."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "why",
+   "sentence": "Alongside it, the Jesus movement of 1967 to 1972 reached young people outside any church, finding its best-known home at Calvary Chapel, founded in 1965, before the wave handed on to the newly formed Vineyard association in 1982.",
+   "other_id": "the-third-wave-and-the-vineyard",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": null,
+   "reason": "Same link: the wave 'handed on' to the Vineyard, shown by the Vineyard's own history."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "legacy",
+   "sentence": "The wave subsided; the bodies it created did not, and in 2010 Calvary Chapel and the Vineyard were still active associations with churches worldwide.",
+   "other_id": "the-third-wave-and-the-vineyard",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": 1,
+   "reason": "Names the Vineyard as one of the bodies this renewal created; carried by the same link."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "legacy",
+   "sentence": "It also seeded what followed — the megachurch and seeker movement and, later, the church-planting networks of the 2000s both grew in ground this renewal had turned over.",
+   "other_id": "the-megachurch-and-seeker-movement",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No source read shows the seeker megachurches drawing on this renewal; 'seeded' becomes 'may have grown in ground it had turned over', with the uncertainty said plainly."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "legacy",
+   "sentence": "It also seeded what followed — the megachurch and seeker movement and, later, the church-planting networks of the 2000s both grew in ground this renewal had turned over.",
+   "other_id": "new-calvinism-young-restless-reformed",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Same for the church-planting networks of the 2000s; qualified in the same sentence."
+  },
+  {
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "legacy",
+   "sentence": "The Catholic side of the same renewal is carried elsewhere on this map, alongside the other Catholic lay movements.",
+   "other_id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "A map-layout note, rewritten in words. The 1969 Presbyterian report counts Roman Catholics in the same movement. No source read shows a meeting or influence between the Protestant and Catholic sides, so no link; Ranaghan (1969) wanted."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "relationsSummary",
+   "sentence": "This is a largely gentile Torah-observance movement, distinct from Messianic Judaism, a movement of Jewish believers — the two traditions' own publications drew that distinction themselves.",
+   "other_id": "messianic-judaism",
+   "disposition": "link",
+   "link_id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
+   "prose_change": 2,
+   "reason": "The Messianic side's paper by Juster and Resnik, read online, argues against One Law teaching and names First Fruits of Zion. Field rewritten for reading level."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "relationsSummary",
+   "sentence": "It had two historical roots: the Sacred Name movement of the 1930s, and a newer wave connected to First Fruits of Zion, founded in 1992.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No census movement for the Sacred Name movement. The Assembly of Yahweh's own history confirms it began in the 1930s among Church of God (Seventh Day) members and kept the feasts, but no source read ties it to the 1990s current; 'root' is qualified to 'how far ... drew on it is not clear'."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "longDescription",
+   "sentence": "It was not Messianic Judaism, a movement of Jewish believers, and the two traditions' own publications drew that line themselves.",
+   "other_id": "messianic-judaism",
+   "disposition": "link",
+   "link_id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
+   "prose_change": 3,
+   "reason": "Same link."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "longDescription",
+   "sentence": "There is an older root as well: the Sacred Name movement of the 1930s, out of Adventist and Church of God (Seventh Day) circles, whose periodical The Faith dates from 1937.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Wrong match in the inventory: 'Adventist circles' means the Sabbath-keeping Adventist family, not the Seventh-day Adventist Church. The Assembly of Yahweh's history says the Church of God (Seventh Day) came out of the Millerite movement 'as did the 7th Day Adventists'. Reworded to 'a Sabbath-keeping body with Adventist roots'; no link."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "longDescription",
+   "sentence": "There is an older root as well: the Sacred Name movement of the 1930s, out of Adventist and Church of God (Seventh Day) circles, whose periodical The Faith dates from 1937.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Church of God (Seventh Day) has no census movement. The Assembly of Yahweh's history supports the Sacred Name start among its members and The Faith from March 1937; the 'root' claim is qualified as above."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "why",
+   "sentence": "From the 1990s a largely gentile current of Christians took up Torah observance — keeping the Sabbath and biblical feasts — through congregations and, increasingly, online teaching ministries; its own publications were careful to distinguish it from Messianic Judaism, a movement of Jewish believers.",
+   "other_id": "messianic-judaism",
+   "disposition": "link",
+   "link_id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
+   "prose_change": 4,
+   "reason": "Same link. Field rewritten for reading level."
+  },
+  {
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "why",
+   "sentence": "It had an older root too, in the Sacred Name movement of the 1930s, whose periodical The Faith dates from 1937.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Sacred Name movement: no census movement; qualified as in the relations summary."
+  },
+  {
+   "movement": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "field": "relationsSummary",
+   "sentence": "These revivals arose independently of the Azusa Street revival happening around the same time, rather than descending from it — revival broke out in more than one place at once.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Wales (1904) and Mukti (1905) began before Azusa Street (1906). The Methodist mission's 1910 account traces Korea's revival to prayer meetings in Pyongyang from August 1906, not to Azusa. The wider claim that the three revivals were unconnected is escalated."
+  },
+  {
+   "movement": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "field": "relationsSummary",
+   "sentence": "Korea's revival grew out of earlier missionary and indigenous groundwork: Horace Allen's arrival in 1884, Underwood and Appenzeller in 1885, the Nevius method adopted in 1890, and Sŏ Sang-yun's earlier work distributing scripture.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names missionaries and a method, not a census movement. Underwood's The Call of Korea (1908, read online) gives Allen's arrival in September 1884, his own work from 1885 and the missions' adoption of the Nevius system; the 1890 date and So Sang-yun were not re-checked."
+  },
+  {
+   "movement": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "field": "longDescription",
+   "sentence": "Three revivals broke out within a few years of each other in three parts of the world, and none of them descended from the others or from Azusa Street.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Azusa half holds, as above. 'None of them descended from the others' is contradicted by Dyer's 1913 life of Ramabai; escalated, not rewritten."
+  },
+  {
+   "movement": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "field": "why",
+   "sentence": "Revival broke out almost at once in three unconnected places -- Wales in 1904, the Mukti mission in India in 1905, and a Bible conference in Pyongyang in 1907 -- and none of the three descended from the others or from Azusa Street.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above; 'three unconnected places' escalated."
+  },
+  {
+   "movement": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "field": "legacy",
+   "sentence": "Korea's church in particular grew out of this decade and the decades just before it — Horace Allen's arrival in 1884, Underwood and Appenzeller in 1885, the Nevius method adopted in 1890 — and it went on growing long after the revival wave had passed.",
+   "other_id": "korean-protestantism-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
+   "prose_change": null,
+   "reason": "The Methodist mission's 1910 account shows the revival carried from Pyongyang into Korea's churches; 'influenced', since the church existed before 1907."
+  },
+  {
+   "movement": "churches-of-christ-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census.",
+   "other_id": "the-stone-campbell-restoration-movement",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "prose_change": null,
+   "reason": "Existing link reviewed and regraded on the 1910 government report and Foster's 2006 article."
+  },
+  {
+   "movement": "churches-of-christ-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census.",
+   "other_id": "disciples-of-christ-and-independent-christian-churches",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "The 1910 report records the withdrawal from the Disciples; Foster records Lipscomb for the separate listing and Garrison against it."
+  },
+  {
+   "movement": "churches-of-christ-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In 1906 the United States religious census listed the Churches of Christ separately from the Disciples of Christ for the first time — a bureaucratic act that recorded a division which had been widening for a generation.",
+   "other_id": "disciples-of-christ-and-independent-christian-churches",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "churches-of-christ-twentieth-century",
+   "field": "longDescription",
+   "sentence": "David Lipscomb's own correspondence with the Census Bureau is part of how that listing came about.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Foster (Christian Standard, 2006, read online) describes the census director's letter to Lipscomb, published in the Gospel Advocate of 18 July 1907, and Lipscomb's reply."
+  },
+  {
+   "movement": "churches-of-christ-twentieth-century",
+   "field": "why",
+   "sentence": "In 1906 the United States religious census listed the Churches of Christ separately from the Disciples of Christ for the first time, recording a division that had been widening for a generation over instrumental music and church authority; the resulting a cappella congregations recognized no authority above themselves and set up no denominational headquarters.",
+   "other_id": "disciples-of-christ-and-independent-christian-churches",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "relationsSummary",
+   "sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Late evangelicalism' is no single census movement. Marti and Ganiel's publisher describes the movement 'disassociating from its roots in conservative, evangelical Christianity'; kept, rewritten as a sentence."
+  },
+  {
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "relationsSummary",
+   "sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "New monasticism has no census movement. Marti and Ganiel's fieldwork included 'neo-monastic communities' (publisher's description); the Durham 2004 marks were not re-checked here. Kept."
+  },
+  {
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "relationsSummary",
+   "sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current.",
+   "other_id": "progressive-christianity-a-broad-label-not-one-m",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No source read shows the emerging church as the progressive current's expression or feeding it. Qualified with the uncertainty stated. The progressive entry's own text makes the same claim and is group B's to judge."
+  },
+  {
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "legacy",
+   "sentence": "Its questions fed the broader progressive current.",
+   "other_id": "progressive-christianity-a-broad-label-not-one-m",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Same: 'fed' becomes 'may have fed', with the reason. Field rewritten for reading level."
+  },
+  {
+   "movement": "new-calvinism-young-restless-reformed",
+   "field": "relationsSummary",
+   "sentence": "It grew out of the wider evangelical world, and one of its early leaders, Mark Driscoll, had first been part of the emerging church movement before his Reformed turn.",
+   "other_id": "the-emerging-church-and-post-evangelical-movemen",
+   "disposition": "link",
+   "link_id": "new-calvinism-young-restless-reformed--the-emerging-church-and-post-evangelical-movemen",
+   "prose_change": 7,
+   "reason": "'Had first been part of the emerging church before his Reformed turn' is not shown: Christianity Today in July 2006 still called Driscoll 'a leader among emerging churches' while he attacked emerging theology. Sentence qualified; the quarrel is drawn as 'argued against'."
+  },
+  {
+   "movement": "new-calvinism-young-restless-reformed",
+   "field": "relationsSummary",
+   "sentence": "It grew out of the wider evangelical world, and one of its early leaders, Mark Driscoll, had first been part of the emerging church movement before his Reformed turn.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "'The wider evangelical world' is no single census movement; kept."
+  },
+  {
+   "movement": "new-calvinism-young-restless-reformed",
+   "field": "longDescription",
+   "sentence": "In September 2006 Christianity Today ran a piece by Collin Hansen called 'Young, Restless, Reformed', and it gave a name to something already under way: a wave of younger American evangelicals adopting Reformed theology, organized through networks rather than through denominations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reformed theology as a whole has no single census movement. Hansen's 2006 article (read online) names 'the new Reformed movement'; kept."
+  }
+ ],
+ "links": [
+  {
+   "id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "action": "new",
+   "old_index": null,
+   "from": "charismatic-renewal-and-the-jesus-movement",
+   "to": "the-third-wave-and-the-vineyard",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Kenn Gulliksen, sent out by Calvary Chapel, started the first Vineyard church in West Los Angeles in 1974. In 1982 John Wimber's church left Calvary Chapel and joined the Vineyard association.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vineyard USA, 'History & Legacy' (the association's own history page; undated web page)",
+     "url": "https://vineyardusa.org/about/history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', paragraph on Kenn Gulliksen",
+     "quote": "Kenn Gulliksen, a soft-spoken, unassuming leader with a passion to know and walk with God, started a church in West LA in 1974, sent out by Calvary Chapel.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vineyard USA, 'History & Legacy' (the association's own history page; undated web page)",
+     "url": "https://vineyardusa.org/about/history/",
+     "accessed": "2026-11-10",
+     "locus": "'John Wimber & The Association Of Vineyard Churches'",
+     "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s church left Calvary Chapel in 1982 and joined the Association of Vineyard Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Donald E. Miller, Reinventing American Protestantism: Christianity in the New Millennium (University of California Press, 1997)",
+     "url": "https://www.ucpress.edu/books/reinventing-american-protestantism/paper",
+     "accessed": "2026-11-10",
+     "locus": "publisher's description",
+     "quote": "Drawing on over five years of research and hundreds of interviews, Miller explores three of the movements that have created new paradigm churches: Calvary Chapel, Vineyard Christian Fellowship, and Hope Chapel.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "charismatic-renewal-and-the-jesus-movement relationsSummary ('the Vineyard association (1982, the start of the third wave)'), longDescription and why ('the wave handed on to the newly formed Vineyard association')",
+    "the-third-wave-and-the-vineyard relationsSummary ('It follows the charismatic renewal and the Jesus movement')"
+   ],
+   "wants": [
+    "Bill Jackson's or another dated history of the Vineyard's break from Calvary Chapel, read in full",
+    "Association of Vineyard Churches, founding records of 1982"
+   ],
+   "drafter_flags": [
+    "Group A's movement text also names this pair; keep one link at merge.",
+    "Calvary Chapel sits inside this entry, so people passing from Calvary Chapel into the Vineyard is the lineage the link claims. The Vineyard page is the association's own account but is undated and current; it states dated facts (1974, 1975, 1982). Miller is a publisher's description only: it shows Calvary Chapel and the Vineyard studied together, not the descent. Capped at Widely Accepted: nothing vendored."
+   ],
+   "change_reason": "New link: the text names the Vineyard as the next step of this renewal; the Vineyard's own history shows its first church sent out by Calvary Chapel and Wimber's church leaving Calvary Chapel for it in 1982."
+  },
+  {
+   "id": "charismatic-renewal-and-the-jesus-movement--the-mainline-century-liberal-and-neo-orthodox",
+   "action": "new",
+   "old_index": null,
+   "from": "charismatic-renewal-and-the-jesus-movement",
+   "to": "the-mainline-century-liberal-and-neo-orthodox",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "A United Presbyterian committee reported in 1969 that a charismatic movement was growing inside America's main Protestant and Catholic churches. Its 1970 report gave ministers and church boards guidance for living with it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Report of the Special Committee on the Work of the Holy Spirit to the 182nd General Assembly, The United Presbyterian Church in the U.S.A. (Office of the General Assembly, 1970), with the committee's 1969 report to the 181st General Assembly",
+     "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 1, Report to the 181st General Assembly (1969)",
+     "quote": "We note, also, the fact that within the mainstream of Christianity in the United States, both Protestant and Roman Catholic, there is a small but growing movement of what has been called the \"charismatic renewal\" or \"Neo-Pentecostalism.\"",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Report of the Special Committee on the Work of the Holy Spirit to the 182nd General Assembly, The United Presbyterian Church in the U.S.A. (Office of the General Assembly, 1970), with the committee's 1969 report to the 181st General Assembly",
+     "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 4, Report to the 182nd General Assembly (1970)",
+     "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "charismatic-renewal-and-the-jesus-movement longDescription ('it went where the earlier Pentecostal revival had not: into mainline Protestant parishes') and why ('spread through mainline Protestant parishes')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The report is a committee's study and counsel to the General Assembly; it does not show an authority adopting a rule. It mentions pastorates ended, but no named authority deposing anyone."
+   },
+   "wants": [
+    "Dennis Bennett, Nine O'Clock in the Morning (1970): the Episcopal side of the same entry",
+    "Minutes of the 182nd General Assembly (1970) showing what it did with the report"
+   ],
+   "drafter_flags": [
+    "Synan is named, not read (repo-cited). The grade rests on the church's own 1969-70 report, read online, and is capped at Widely Accepted. See the method question in escalations.",
+    "The report's sections 'For Ministers', 'For Laity' and 'For Sessions' carry the guidance the note mentions."
+   ],
+   "change_reason": "New link: the text says the renewal went into mainline parishes; the United Presbyterian Church's own report of 1969-70 records it there."
+  },
+  {
+   "id": "azusa-street-and-early-pentecostalism--charismatic-renewal-and-the-jesus-movement",
+   "action": "new",
+   "old_index": null,
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "charismatic-renewal-and-the-jesus-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "A United Presbyterian report of 1969 called the charismatic renewal the second period of rapid growth for Pentecostalism. It defined the renewal as Pentecostal experience inside the traditional churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Report of the Special Committee on the Work of the Holy Spirit to the 182nd General Assembly, The United Presbyterian Church in the U.S.A. (Office of the General Assembly, 1970), with the committee's 1969 report to the 181st General Assembly",
+     "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 1, Report to the 181st General Assembly (1969)",
+     "quote": "This is the second period of rapid growth by Pentecostalism within less than one hundred years.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Report of the Special Committee on the Work of the Holy Spirit to the 182nd General Assembly, The United Presbyterian Church in the U.S.A. (Office of the General Assembly, 1970), with the committee's 1969 report to the 181st General Assembly",
+     "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 4, Report to the 182nd General Assembly (1970)",
+     "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "charismatic-renewal-and-the-jesus-movement relationsSummary ('The North Atlantic middle between the early Pentecostal movement ... and the later Global South Pentecostal explosion') and longDescription ('it went where the earlier Pentecostal revival had not')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Practice taken up by the later side; no institutional act in the source."
+   },
+   "wants": [
+    "The Apostolic Faith (Los Angeles, 1906-08)",
+    "Dennis Bennett, Nine O'Clock in the Morning (1970): the Pentecostal contacts behind Bennett's experience"
+   ],
+   "drafter_flags": [
+    "Group F owns Azusa Street; only this entry's text names the pair, so it is drafted here.",
+    "The report speaks of Pentecostalism in general, not of Azusa Street by name. The link claims the early movement's experience passed into the renewal, which is what the report describes. Synan named, not read."
+   ],
+   "change_reason": "New link: the text places the renewal after the early Pentecostal movement and says it carried that revival into new ground; a 1969-70 church report reads it the same way."
+  },
+  {
+   "id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "action": "new",
+   "old_index": null,
+   "from": "churches-of-christ-twentieth-century",
+   "to": "disciples-of-christ-and-independent-christian-churches",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "Churches counted with the Disciples of Christ in 1890 had withdrawn by 1906 and called themselves Churches of Christ. A government survey of churches listed them apart. David Lipscomb agreed with the separate listing, but the editor James H. Garrison did not.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II: Separate Denominations (Washington: Government Printing Office, 1910)",
+     "url": "https://www2.census.gov/library/publications/1910/demographics/religious-bodies-1906/1906-religious-bodies-part-2-sect01.pdf",
+     "accessed": "2026-11-10",
+     "locus": "Part II, p. 235, 'Disciples or Christians', General Summary Statement",
+     "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
+     "license": "public-domain (United States government work)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, '1906: The True Story', Christian Standard, 25 June 2006",
+     "url": "https://christianstandard.com/?p=331",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Facts'",
+     "quote": "Lipscomb agreed it was accurate to list the bodies separately; Garrison did not.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "churches-of-christ-twentieth-century relationsSummary, longDescription and why ('listed the Churches of Christ separately from the Disciples of Christ for the first time')",
+    "disciples-of-christ-and-independent-christian-churches relationsSummary, longDescription and why ('the 1906 division')"
+   ],
+   "wants": [
+    "U.S. Bureau of the Census, Religious Bodies: 1906, Part II (Washington, 1910): a United States government work in the public domain; vendoring it would let this link be re-checked in the Library",
+    "Gospel Advocate, 18 July 1907: S. N. D. North's letter and Lipscomb's reply",
+    "Christian-Evangelist, 1907-08: Garrison's replies, the Disciples side in its own words"
+   ],
+   "drafter_flags": [
+    "Group E's movement text (Disciples) also names 'the 1906 division'; keep one link at merge.",
+    "The government report is an official dated text built from the churches' own returns, not a church body's own text; flagged for the reviewer. Foster's article was read online. Hughes named, not read."
+   ],
+   "change_reason": "New link: both entries name the 1906 division. The 1910 report records the withdrawal; Foster records Lipscomb for the listing and Garrison against it."
+  },
+  {
+   "id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "action": "rewrite",
+   "old_index": null,
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "churches-of-christ-twentieth-century",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Stone-Campbell movement split in two in the early 1900s. One side, the Churches of Christ, sang in worship without instruments. A government survey of churches for 1906 listed them on their own for the first time.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II: Separate Denominations (Washington: Government Printing Office, 1910)",
+     "url": "https://www2.census.gov/library/publications/1910/demographics/religious-bodies-1906/1906-religious-bodies-part-2-sect01.pdf",
+     "accessed": "2026-11-10",
+     "locus": "Part II, p. 235, 'Disciples or Christians', General Summary Statement",
+     "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
+     "license": "public-domain (United States government work)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, '1906: The True Story', Christian Standard, 25 June 2006",
+     "url": "https://christianstandard.com/?p=331",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Facts'",
+     "quote": "The division did not begin or happen in 1906—it was nearing its end.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "churches-of-christ-twentieth-century relationsSummary ('This is the a cappella wing of the movement')",
+    "the-stone-campbell-restoration-movement longDescription, why and legacy"
+   ],
+   "wants": [
+    "U.S. Bureau of the Census, Religious Bodies: 1906, Part II (1910), vendored: would let this reach Documented"
+   ],
+   "drafter_flags": [
+    "Era 9 drafted this link; this era's text names it, so it is reviewed here as an existing link. from, to and type unchanged."
+   ],
+   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the 1910 government report, read online, records the churches' withdrawal, and Foster's article dates it. Note reworded to drop the word 'census'; facts unchanged."
+  },
+  {
+   "id": "new-calvinism-young-restless-reformed--the-emerging-church-and-post-evangelical-movemen",
+   "action": "new",
+   "old_index": null,
+   "from": "new-calvinism-young-restless-reformed",
+   "to": "the-emerging-church-and-post-evangelical-movemen",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "New Calvinist leaders wrote against the emerging church. In 2005 D. A. Carson, a founder of The Gospel Coalition, published a critique of the movement. In 2006 Mark Driscoll said emerging theology \"offers obscurity.\"",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "D. A. Carson, Becoming Conversant with the Emerging Church: Understanding a Movement and Its Implications (Zondervan, 5 May 2005)",
+     "url": "https://zondervanacademic.com/products/becoming-conversant-with-the-emerging-church",
+     "accessed": "2026-11-10",
+     "locus": "publisher's description",
+     "quote": "Carson addresses some troubling weaknesses of the movement frankly and thoughtfully, while at the same time recognizing that it has important things to say to the rest of Christianity.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "'Men Are from Mars Hill', interview with Mark Driscoll by Jason Bailey, Christianity Today, 4 July 2006",
+     "url": "https://www.christianitytoday.com/2006/07/men-are-from-mars-hill",
+     "accessed": "2026-11-10",
+     "locus": "answer on 'the two hot theologies today'",
+     "quote": "Emerging theology offers obscurity, with a neutered God who would not say an unkind word to us, did not crush Jesus for our sins, and would not send anyone to hell.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "'Men Are from Mars Hill', interview with Mark Driscoll by Jason Bailey, Christianity Today, 4 July 2006",
+     "url": "https://www.christianitytoday.com/2006/07/men-are-from-mars-hill",
+     "accessed": "2026-11-10",
+     "locus": "interviewer's introduction",
+     "quote": "As pastor of Mars Hill Church in Seattle, Driscoll is a leader among “emerging” churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Collin Hansen, Young, Restless, Reformed: A Journalist's Journey with the New Calvinists (Crossway, 2008)",
+     "url": "https://www.crossway.org/books/young-restless-reformed-tpb/",
+     "accessed": "2026-11-10",
+     "locus": "publisher's page (details only)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "new-calvinism-young-restless-reformed relationsSummary (Mark Driscoll and the emerging church; sentence qualified)"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Books and interviews only; no council, split or rule changed."
+   },
+   "wants": [
+    "Mark Driscoll, 'A Pastoral Perspective on the Emergent Church', Criswell Theological Review 3/2 (2006): the host page refused the request",
+    "D. A. Carson, Becoming Conversant with the Emerging Church (2005), the critique itself",
+    "Collin Hansen, Young, Restless, Reformed (2008), the passages on Driscoll"
+   ],
+   "drafter_flags": [
+    "The text claims a person passing from one side to the other, not a quarrel. The interview shows Driscoll still counted among the emerging churches in 2006 while attacking their theology, so the sentence was qualified and this link drawn instead.",
+    "Carson's source is the publisher's description, which also says he is a founding member of The Gospel Coalition; that page is current, so 'a founder' rests on it and on this entry's own text. Hansen is details only. The interview is Driscoll's own words in a magazine, not a church body's text; flagged for the reviewer."
+   ],
+   "change_reason": "New link: Driscoll's own 2006 words and Carson's 2005 critique show New Calvinist leaders writing against the emerging church by name."
+  },
+  {
+   "id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
+   "action": "new",
+   "old_index": null,
+   "from": "messianic-judaism",
+   "to": "hebrew-roots-and-torah-observance-movements",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Daniel Juster and Russ Resnik, executive director of the Union of Messianic Jewish Congregations, wrote against \"One Law\" teaching. It held that Jewish and gentile believers must keep the same Torah. They named the writers of First Fruits of Zion among its best-known teachers.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Daniel Juster and Russ Resnik, 'One Law Movements: A Challenge to the Messianic Jewish Community' (Union of Messianic Jewish Congregations position paper; undated, reprinted on the Tikvat Israel Messianic Synagogue site)",
+     "url": "https://tikvatisrael.com/one-law-movement.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "In so doing, these One Law movements not only misinterpret a great body of Scripture, but they also miss the unique calling of Jews and Gentiles within the Body of Messiah, robbing both groups of the biblical richness of their identity.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Daniel Juster and Russ Resnik, 'One Law Movements: A Challenge to the Messianic Jewish Community' (Union of Messianic Jewish Congregations position paper; undated, reprinted on the Tikvat Israel Messianic Synagogue site)",
+     "url": "https://tikvatisrael.com/one-law-movement.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "Perhaps the best-known proponents of this view are the writers of First Fruits of Zion, including Tim Hegg.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Rudolph & Joel Willitts (eds.), Introduction to Messianic Judaism (Zondervan, 2013)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "hebrew-roots-and-torah-observance-movements relationsSummary, longDescription and why ('distinct from Messianic Judaism ... the two traditions' own publications drew that distinction themselves')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A position paper; no council, split or rule changed in the source read. A joint MJAA-UMJC paper on 'The Ephraimite Error' is listed in its bibliography but was not read."
+   },
+   "wants": [
+    "The paper on the Union of Messianic Jewish Congregations' own site, with its date",
+    "Kay Silberling, Daniel Juster and David Sedaca, 'The Ephraimite Error' (MJAA and UMJC position paper)",
+    "A pre-2010 One-Law reply (for the reverse link)"
+   ],
+   "drafter_flags": [
+    "The page is an undated reprint on a Messianic synagogue's site. It names First Fruits of Zion as a One Law teacher, so it predates that body's 2009 change, and its bibliography ends in 2004; nothing in the note is dated.",
+    "Rudolph and Willitts named, not read. TorahResource's One-Law reply was opened but cites a 2011 booklet, so it was not used.",
+    "Group B owns Messianic Judaism; only this entry's text names the pair."
+   ],
+   "change_reason": "New link: the text says the two traditions drew the line in their own writing; the Messianic side's paper, read online, does so by name."
+  },
+  {
+   "id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
+   "action": "new",
+   "old_index": null,
+   "from": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "to": "korean-protestantism-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "The Pyongyang revival of 1907 spread from that city across Korea's churches. Men changed by it in Pyongyang were sent to other churches to carry it on. Methodist missionaries wrote in 1910 that the results were \"widespread and lasting.\"",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Heber Jones and W. Arthur Noble, The Korean Revival: An Account of the Revival in the Korean Churches in 1907 (Board of Foreign Missions of the Methodist Episcopal Church, New York, September 1910)",
+     "url": "https://archive.org/download/koreanrevivalacc00jone/koreanrevivalacc00jone_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "section on the spread of the revival",
+     "quote": "Second, there was an organized effort to send the stronger men who had experienced the cleansing power in Pyongyang to other churches and localities to carry on revival effort. The results were widespread and lasting.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy Lee, Born Again (2010)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-1904-07-revival-family-wales-mukti-india-pyo legacy ('Korea's church in particular grew out of this decade')",
+    "korean-protestantism-twentieth-century relationsSummary ('The Pyongyang revival of 1907 has its own entry')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Practice spread within the same churches; no institutional act in the source."
+   },
+   "wants": [
+    "Jones and Noble, The Korean Revival (1910): public domain; vendoring it would let this link be re-checked in the Library",
+    "William N. Blair's eyewitness account of 1907"
+   ],
+   "drafter_flags": [
+    "Group C's movement text also names the pair; keep one link at merge.",
+    "Type is 'influenced', not 'gave rise to': the Korean church existed before 1907, and the revival ran inside it. Lee named, not read."
+   ],
+   "change_reason": "New link: the legacy says Korea's church grew out of this decade; the Methodist mission's 1910 account shows the revival carried out from Pyongyang into the churches."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "relationsSummary",
+   "old": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks. The Word of Faith movement grew in the same years. Kenneth Hagin's Rhema Bible Training Center dates from 1974. The renewal itself subsided as a wave, but the bodies it produced lived on and are named here.",
+   "new": "This renewal is the North Atlantic middle. Behind it lay the early Pentecostal movement, which had mostly settled by the 1920s. Ahead lay the Global South Pentecostal explosion, from the 1950s on. Its usual starting point is Dennis Bennett's announcement in Van Nuys on 3 April 1960. Then came the charismatic wave in the mainline churches, Calvary Chapel in 1965 and the Jesus movement of 1967 to 1972. The Vineyard association of 1982 began the third wave. Calvary Chapel and the Vineyard built big new churches, of a kind some writers called megachurches. How far the seeker megachurches and the New Calvinist networks drew on this renewal is less clear. The Word of Faith movement grew in the same years. Kenneth Hagin's Rhema Bible Training Center dates from 1974. The renewal itself faded as a wave, but the bodies it made lived on and are named here.",
+   "reason": "Megachurch and New Calvinist claims qualified (see dispositions); one long sentence split for reading level. Every other fact kept."
+  },
+  {
+   "n": 1,
+   "movement": "charismatic-renewal-and-the-jesus-movement",
+   "field": "legacy",
+   "old": "The wave subsided; the bodies it created did not, and in 2010 Calvary Chapel and the Vineyard were still active associations with churches worldwide. Its longest effect was probably musical. Chuck Smith of Calvary Chapel founded Maranatha! Music in 1971. Larry Eskridge's history of the Jesus People gives Jesus music a chapter. The worship style that came out of the Jesus movement spread through a very large part of English-speaking Protestantism, whether or not the singers knew where it came from. It also seeded what followed — the megachurch and seeker movement and, later, the church-planting networks of the 2000s both grew in ground this renewal had turned over. The Catholic side of the same renewal is carried elsewhere on this map, alongside the other Catholic lay movements.",
+   "new": "The wave faded, but the bodies it created did not. In 2010 Calvary Chapel and the Vineyard were still active, with churches worldwide. Its longest effect was probably musical. Chuck Smith of Calvary Chapel founded Maranatha! Music in 1971. Larry Eskridge's history of the Jesus People gives Jesus music a chapter. The worship style of the Jesus movement spread through a very large part of English-speaking Protestantism, whether or not the singers knew where it came from. What else the renewal planted is harder to judge. The megachurches and the church-planting networks of the 2000s may have grown in ground it had turned over. That debt has not been shown directly. Roman Catholics shared in the same renewal. A Presbyterian report of 1969 already counted them in it.",
+   "reason": "'Seeded' qualified to 'may have grown in ground it had turned over'; the map-layout note on the Catholic side rewritten in words, resting on the 1969 Presbyterian report. Split for reading level."
+  },
+  {
+   "n": 2,
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "relationsSummary",
+   "old": "This is a largely gentile Torah-observance movement, distinct from Messianic Judaism, a movement of Jewish believers — the two traditions' own publications drew that distinction themselves. It took shape through Torah study groups, Sabbath- and feast-keeping congregations, and digital teaching ministries. It had two historical roots: the Sacred Name movement of the 1930s, and a newer wave connected to First Fruits of Zion, founded in 1992.",
+   "new": "This is a largely gentile movement of Torah observance. It is distinct from Messianic Judaism, a movement of Jewish believers, and both sides drew that line in their own writing. It took shape through Torah study groups, congregations that kept the Sabbath and the feasts, and teaching ministries online. Its clearest root is a newer wave linked to First Fruits of Zion, founded in 1992. The Sacred Name movement of the 1930s kept the Sabbath and the feasts long before. How far the newer current drew on it is not clear.",
+   "reason": "The Sacred Name movement's place as a 'root' qualified: no source read ties it to the 1990s current. Rewritten for reading level."
+  },
+  {
+   "n": 3,
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "longDescription",
+   "old": "From the 1990s a largely gentile current of Christians took up Torah observance — keeping the Sabbath and the biblical feasts — in congregations, Torah study groups and, above all, online. It was not Messianic Judaism, a movement of Jewish believers, and the two traditions' own publications drew that line themselves. Its best-documented institution was First Fruits of Zion, founded in 1992, whose own teaching changed in public: in 2009 Boaz Michael and D. Thomas Lancaster set out in Messiah Journal a shift away from 'One Law' toward what they called Divine Invitation, and the One-Law side answered in print — the clearest dated record of the argument running inside this current. Digital ministries followed, 119 Ministries among them from around 2010, though founding dates for many of them simply cannot be established. There is an older root as well: the Sacred Name movement of the 1930s, out of Adventist and Church of God (Seventh Day) circles, whose periodical The Faith dates from 1937.",
+   "new": "From the 1990s a largely gentile current of Christians took up Torah observance. They kept the Sabbath and the biblical feasts in congregations, in Torah study groups and, above all, online. It was not Messianic Judaism, a movement of Jewish believers, and both traditions drew that line in their own writing. Its best-documented body was First Fruits of Zion, founded in 1992, and its own teaching changed in public. In 2009 Boaz Michael and D. Thomas Lancaster set out a shift in Messiah Journal. They moved away from 'One Law' toward what they called Divine Invitation. The One-Law side answered in print. That exchange is the clearest dated record of the argument inside this current. Digital ministries followed, 119 Ministries among them from around 2010. Founding dates for many of them simply cannot be established. An older current kept the Sabbath and the feasts as well. This was the Sacred Name movement of the 1930s. It began among members of the Church of God (Seventh Day), a Sabbath-keeping body with Adventist roots. Its magazine The Faith dates from 1937. How far the newer current drew on it is not clear.",
+   "reason": "Same qualification; 'Adventist and Church of God (Seventh Day) circles' becomes 'members of the Church of God (Seventh Day), a Sabbath-keeping body with Adventist roots', as the Assembly of Yahweh's history says. Split for reading level; 'periodical' becomes 'magazine'."
+  },
+  {
+   "n": 4,
+   "movement": "hebrew-roots-and-torah-observance-movements",
+   "field": "why",
+   "old": "From the 1990s a largely gentile current of Christians took up Torah observance — keeping the Sabbath and biblical feasts — through congregations and, increasingly, online teaching ministries; its own publications were careful to distinguish it from Messianic Judaism, a movement of Jewish believers. Its best-documented institution, First Fruits of Zion, founded in 1992, published a public shift in 2009 away from teaching 'One Law' toward what it called Divine Invitation, a change the movement's One-Law side answered in print. It had an older root too, in the Sacred Name movement of the 1930s, whose periodical The Faith dates from 1937.",
+   "new": "From the 1990s a largely gentile current of Christians took up Torah observance. They kept the Sabbath and the biblical feasts in congregations and, more and more, through teaching online. Its own writers took care to set it apart from Messianic Judaism, a movement of Jewish believers. Its best-documented body, First Fruits of Zion, was founded in 1992. In 2009 it published a public shift away from teaching 'One Law' toward what it called Divine Invitation. The movement's One-Law side answered in print. An older current, the Sacred Name movement of the 1930s, also kept the Sabbath and the feasts. Its magazine The Faith dates from 1937. How far the newer current drew on it is not clear.",
+   "reason": "Same qualification; split for reading level."
+  },
+  {
+   "n": 5,
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "relationsSummary",
+   "old": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current. The new monasticism began in the same years. In 2004 more than sixty people in Durham, North Carolina, drafted its twelve marks.",
+   "new": "It grew out of late evangelicalism as it met the postmodern turn. It overlapped with new monastic communities, which began in the same years. In 2004 more than sixty people in Durham, North Carolina, drafted the twelve marks of the new monasticism. The emerging church may also be the best-recorded part of the wider progressive Christian current. How far it fed that current has not been traced in detail.",
+   "reason": "Code-style summary written as sentences; the progressive claim qualified."
+  },
+  {
+   "n": 6,
+   "movement": "the-emerging-church-and-post-evangelical-movemen",
+   "field": "legacy",
+   "old": "In 2010 the conversation was still active, and Emergent Village was still its principal network. The map closes it at 2010 because the era closes there, not because anything ended. Its questions fed the broader progressive current. It also left a preservation problem. A movement that documented itself almost entirely on platforms kept its archive on them.",
+   "new": "In 2010 the conversation was still active, and Emergent Village was still its main network. The map closes it at 2010 because the era closes there, not because anything ended. Its questions may have fed the wider progressive current, though that path has not been traced in detail. It also left a problem of keeping its record. A movement that wrote its story almost entirely online kept its archive there too.",
+   "reason": "'Fed' qualified to 'may have fed'; reworded for reading level."
+  },
+  {
+   "n": 7,
+   "movement": "new-calvinism-young-restless-reformed",
+   "field": "relationsSummary",
+   "old": "This is the 2000s conservative Reformed resurgence built around John Piper, church-planting and publishing networks such as The Gospel Coalition (2005–07) and Together for the Gospel (from 2006), and Acts 29, founded in 1998. It grew out of the wider evangelical world, and one of its early leaders, Mark Driscoll, had first been part of the emerging church movement before his Reformed turn.",
+   "new": "This is the conservative Reformed resurgence of the 2000s. It was built around John Piper and around networks for planting churches and publishing books. Among them were Acts 29, founded in 1998, The Gospel Coalition (2005 to 2007) and Together for the Gospel (from 2006). It grew out of the wider evangelical world. One of its early leaders, Mark Driscoll, was still counted among the emerging churches in 2006. In the same years he criticized their theology in print.",
+   "reason": "'Before his Reformed turn' replaced with what the 2006 interview shows; split for reading level."
+  }
+ ],
+ "wants": [
+  "Helen S. Dyer, Pandita Ramabai: The Story of Her Life (London: Morgan and Scott, 1913 edition; first ed. 1900): public domain on archive.org; tests the claim that the 1904-07 revivals were unconnected",
+  "Minnie Abrams, The Baptism of the Holy Ghost and Fire (1906), and the Mukti Prayer-Bell: Mukti's own account of how its revival began",
+  "U.S. Bureau of the Census, Religious Bodies: 1906, Part II (1910): public domain; vendoring it would let two Churches of Christ links be re-checked in the Library",
+  "George Heber Jones and W. Arthur Noble, The Korean Revival (1910): public domain; vendoring it would let the Korean link be re-checked in the Library",
+  "Gospel Advocate, 18 July 1907 (North's letter and Lipscomb's reply), and Christian-Evangelist 1907-08 (Garrison's replies)",
+  "Dennis Bennett, Nine O'Clock in the Morning (1970)",
+  "Kevin and Dorothy Ranaghan, Catholic Pentecostals (1969): the Protestant contacts behind the Duquesne weekend, for a Protestant-Catholic link",
+  "A dated source tying the charismatic renewal to the New Calvinist networks (Sovereign Grace Ministries' own history; Hansen 2008 on C. J. Mahaney)",
+  "A study tracing the Jesus-movement churches into the seeker megachurches (Miller 1997, read in full)",
+  "Mark Driscoll, 'A Pastoral Perspective on the Emergent Church', Criswell Theological Review 3/2 (2006): the host refused the request",
+  "Marti and Ganiel, The Deconstructed Church (2014), passages on progressive Christianity",
+  "Juster and Resnik, 'One Law Movements', on the UMJC's own site with its date; the MJAA-UMJC paper 'The Ephraimite Error'",
+  "A dated study tying the 1930s Sacred Name movement to the 1990s Hebrew Roots current",
+  "Frank Bartleman, How Pentecost Came to Los Angeles (1925): his letters with Evan Roberts, a possible Wales-Azusa contact for the Azusa owner to judge"
+ ],
+ "escalations": [
+  "The 1904-07 revival entry's own text is wrong beyond one sentence, not just unsupported. Its longDescription, why and legacy say the three revivals were 'unconnected' and that 'none of them descended from the others'. Helen Dyer's life of Pandita Ramabai (1913 edition, read online) says: when the news of the Welsh revival reached Ramabai, a new prayer circle was formed at Mukti in January 1905 to pray for revival in India, and news of the revival at the Welsh missions in the Assam hills encouraged it. The polygenesis framing runs through three fields and the legacy's closing argument, so it is left unchanged and flagged for the entry's owner. The claim that none came from Azusa Street still holds.",
+  "Method question. The era 10 cap lets an online church-body text lift a link to Widely Accepted, but Widely Accepted also needs a secondary work for the consensus reading. For four links (charismatic-mainline, Azusa-charismatic, Messianic Judaism-Hebrew Roots, Pyongyang revival-Korean Protestantism) the only secondary is repo-cited and named, not read, so it supports nothing beyond its title. I graded them Widely Accepted and flagged each. If a named-only secondary should not count, these four need a ruling on the right grade, since the primary evidence is direct and Inferential-Thin would understate it."
+ ]
+}

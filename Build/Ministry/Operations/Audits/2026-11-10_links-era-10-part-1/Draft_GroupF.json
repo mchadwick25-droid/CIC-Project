@@ -767,20 +767,20 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "General Council of the Assemblies of God, Combined Minutes 1914-1916 (Preamble and Resolution of Constitution, Hot Springs, Ark., April 2-12, 1914), printed with the Minutes of October 1916",
+     "work": "Preamble and Resolution of Constitution, Hot Springs, Ark., April 2-12, 1914, as reprinted in Minutes of the General Council of the Assemblies of God, St. Louis, Mo., Oct. 1-7, 1916",
      "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
      "accessed": "2026-11-10",
-     "locus": "p. 2, Preamble and Resolution of Constitution",
+     "locus": "PDF p. 2, Preamble and Resolution of Constitution",
      "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Apostolic Faith Missions and Churches",
      "license": "public-domain"
     },
     {
      "kind": "primary",
      "source_id": null,
-     "work": "General Council of the Assemblies of God, Minutes of the General Council, St. Louis, October 1-7, 1916",
+     "work": "Minutes of the General Council of the Assemblies of God, St. Louis, Mo., Oct. 1-7, 1916",
      "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
      "accessed": "2026-11-10",
-     "locus": "p. 8, 'Resolution on Baptismal Formula'",
+     "locus": "PDF p. 8, 'Resolution on Baptismal Formula'",
      "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclusion of or as against the other, because confusion and a party spirit are sure to follow such unscriptural conduct.",
      "license": "public-domain"
     },
@@ -805,7 +805,7 @@
    ],
    "drafter_flags": [
     "The 1916 minutes show the baptism-formula quarrel inside the council and its rule against 'contending'; they do not name the Oneness ministers who left. That they left to form Oneness churches is Reed's reading, named and not read; hence Widely Accepted, which the online cap also sets.",
-    "The 1913 Arroyo Seco camp meeting in Azusa's legacy was not checked; it stands on the Oneness entry's own sources.",
+    "The 1914 preamble is read in its reprint inside the 1916 minutes, the only copy opened. The 1913 Arroyo Seco camp meeting in Azusa's legacy was not checked; it stands on the Oneness entry's own sources.",
     "Part 2 owns Oneness Pentecostalism and its text names Azusa too; part 1 owns this pair because the Azusa text names it. Check for a duplicate at merge."
    ],
    "change_reason": "New: names the Oneness child in Azusa's legacy."
@@ -983,7 +983,7 @@
    "movement": "the-confessing-church",
    "field": "legacy",
    "old": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration became a confessional text in Reformed and Lutheran churches worldwide, cited well beyond Germany whenever a church had to say what it would not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern — a church saying plainly what it had failed to do — that other churches used in the decades that followed.",
-   "new": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration was taken up well beyond Germany. The Presbyterian Church (U.S.A.), for one, made it part of its Book of Confessions. It is cited whenever a church has to say what it will not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern that other churches used in the decades that followed: a church saying plainly what it had failed to do.",
+   "new": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration was taken up well beyond Germany. The Presbyterian Church (U.S.A.), for one, made it part of its Book of Confessions. It is cited whenever a church has to say what it will not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern that other churches used in the decades that followed. It showed a church saying plainly what it had failed to do.",
    "reason": "'Became a confessional text in Reformed and Lutheran churches worldwide' overstated: the one church text read (PC(USA) Book of Confessions) is Reformed, and no Lutheran church outside Germany was found adopting it. Qualified to what the source shows."
   }
  ],
