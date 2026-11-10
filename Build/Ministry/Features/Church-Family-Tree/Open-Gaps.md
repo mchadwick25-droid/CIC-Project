@@ -1304,3 +1304,11 @@ it, never by deleting it.
     - Wanted for the Library thread, from the drafts: a Patrick chronology study; Justinian's Novel
       131 and the acts of 553; Cuthbert's letter on Bede's death; a source for Grotius's
       imprisonment; Mirbt's Dictatus heading in a clean scan.
+168. **The held people the Library's first batch changes (2026-11-10).** PR #1577 filled the wants
+    in "The later-worlds people held, with their reasons" (2026-11-10) for Pamphilus, Bonaventure
+    and Heraclius, who now have entries (Decision-Log, "Three held people come in once the Library
+    holds their words"). Francis and Priscillian's own words are now held too; they stay held as
+    founders. The rest of that list stands: the Library found no own text for Mani, Kaleb or Valdes,
+    and none survives for the others (`Build/Ministry/Features/Source-Library/CFT-Wants.md`).
+    Wanted, from the drafts: an English rendering of the Apology, a clean text of the Ecthesis, a
+    primary source for Heraclius's letter disowning it, and a source for Bonaventure's birth year.
