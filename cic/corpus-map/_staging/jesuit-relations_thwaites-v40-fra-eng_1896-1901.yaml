@@ -1,0 +1,11 @@
+source_file: jesuit-relations_thwaites-v40-fra-eng_1896-1901.txt
+assignments:
+- row_id: jesuit-relations_thwaites-v40-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-40-hurons-lower-canada-iroquois-165
+  work: "The Jesuit Relations and Allied Documents (Thwaites), Vol. 40: Hurons, Lower Canada, Iroquois: 1653"
+  author: jesuit-relations
+  locus: "whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "The Jesuits' own reports from New France, written after 1650; within this entry's window (1650-1815). Volume 35 and earlier are on the Society of Jesus shelf (1540-1650)."

@@ -153,3 +153,43 @@ and push them to `cic/texts/_intake/`.
 ### Next action
 
 Batch 4, in a fresh session (handover: `HANDOVER-batch4.md` in this folder).
+
+## 2026-11-10 — Church Family Tree wants, batch 4: the religious orders
+
+**Done.** Twenty-seven files were vendored for eleven named gaps of Open-Gaps 158. These are the
+orders (Athos, the Carthusians, Cistercians, canons regular, Hospitallers, Carmelites, Franciscans,
+Dominicans, Jesuits and Discalced Carmelites) and the Maronites. Five gaps are also answered in part
+by texts already held: Georgirenes, the Port-Royal acts, Kempis's Chronicle of Mount St Agnes, Busch
+and the Compiegne Carmelites. For each file:
+- the host record was re-read;
+- the title page was read;
+- the wanted passage was located;
+- the byte count was matched to the host's listed size.
+For the second truncation check, the body after each header was compared byte for byte with the host
+text, ending included. File by file, with shelves and what each unblocks: `CFT-Wants.md`, batch 4.
+
+**Decided here.** The batch 3 rule holds: a text is shelved only where an entry covers its date of
+writing. For the Latin orders, that entry is the church-wide one of the text's date (Gregorian, Avignon
+to Lateran V, Tridentine, ancien regime, long nineteenth century). Those entries run without a break,
+and an order is part of that church. The Compiegne history already sat on one this way. For Athos,
+the entry is the Ottoman one. The Maronites have no entry after 1517, so al-Duwayhi is vendored with
+no shelf. Meyer's typikon of 1394 is `needs-ruling` on the hesychast entry: the dates and place fit,
+but the tree has not ruled on whether a monastic rule belongs to the hesychast movement.
+
+**Corrected before writing.** Several host records give a date the title page does not: the Dominican
+vols. II and VI say 1898, the title pages say 1899 and 1902; the Reforma tome II says 1644 for 1655;
+the Memoires de la Chine say 1780 for 1781; the Premonstratensian statutes say 1628, and the title page
+says 1626. Each header gives the title page and names the difference. Rance's name is not on his title
+page, so his headers say the attribution is the host record's. Al-Duwayhi's printing has no year on
+its title page; the header gives the editor's preface (June 189-, last digit lost). I had drafted a
+flag that the Port-Royal acts were out of window. They were written in the 1660s, inside it, so the
+flag was dropped.
+
+**Flagged for the census owner.** The Compiegne history (1836) is on the ancien-regime shelf (to
+1815), where a census story rests on it. It was not moved; the long-nineteenth-century shelf was added
+beside it.
+
+### Next action
+
+Batch 5: the rest of Open-Gaps 158's early modern gaps (the St Thomas Christians 1665-1836, the Kongo
+church after 1650, Japanese Christians 1650-1865, Chinese Catholics 1650-1906), then the Protestant gaps.

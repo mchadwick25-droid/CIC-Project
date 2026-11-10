@@ -1,0 +1,11 @@
+source_file: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt
+assignments:
+- row_id: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589--gli-statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-bosio-1589
+  work: "Gli statuti della sacra religione di S. Giovanni Gierosolimitano (Bosio, 1589)"
+  author: hospitallers
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: "The Order of Malta's own law, as its general chapter of 1584 left it. Within this entry's window (1517-1650)."

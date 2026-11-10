@@ -80,6 +80,16 @@ works:
   note: 'Placed on content: the Avignon-Bavarian conflict from the Michaelist side. Whether
     the papal-church world wants it is for the project lead.'
   source_file: carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1318-to-1513
+  work: 'Acta capitulorum generalium O.Carm., vol. I: the chapters of 1318 to 1513'
+  author: carmelite-general-chapters
+  locus: from the title page to about OCR line 18900 (1321 at about 795; 1492 at about 15043);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters before 1517. Within this entry's
+    window (1300-1517).
+  source_file: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
 - row_id: catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912--libro-della-divina-dottrina-dialogo-della-divina-provvidenza
   work: Libro della divina dottrina (Dialogo della divina provvidenza), Italian, Fiorilli's
     edition
@@ -152,6 +162,15 @@ works:
   note: The councils of the Avignon period in the Latin collection. Placed from the index;
     the census entry for the Latin papal church was not read for this placement.
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899--acta-capitulorum-generalium-ordinis-praedicatorum-vol-ii-1304-1378
+  work: Acta capitulorum generalium Ordinis Praedicatorum, vol. II (1304-1378)
+  author: dominican-general-chapters
+  locus: the acts from about OCR line 341; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters, 1304-1378. Within this entry's
+    window (1300-1517).
+  source_file: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899.txt
 - row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
   work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887):
     Vienne and the Beghini of Provence'

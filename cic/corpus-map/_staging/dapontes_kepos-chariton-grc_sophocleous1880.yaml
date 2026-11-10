@@ -1,0 +1,11 @@
+source_file: dapontes_kepos-chariton-grc_sophocleous1880.txt
+assignments:
+- row_id: dapontes_kepos-chariton-grc_sophocleous1880--kepos-chariton-kaisarios-dapontes
+  work: "Kepos chariton (Kaisarios Dapontes)"
+  author: dapontes
+  locus: "the text from about OCR line 1536; the editor's life at about 470-545; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: provisional
+  note: "A Xeropotamou monk's own book on his monastery's relic and its journey, from inside the Athos community. Written in the 18th century, within this entry's window (1650-1821)."
