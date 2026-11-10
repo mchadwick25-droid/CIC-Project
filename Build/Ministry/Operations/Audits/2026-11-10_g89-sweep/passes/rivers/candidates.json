@@ -1,0 +1,513 @@
+{
+ "pass": "rivers cross-check",
+ "sweep": "P2-G89",
+ "date": "2026-11-10",
+ "phase": "divergent",
+ "verification_states": {
+  "V": "opened this run",
+  "V (pass)": "opened by a regional pass",
+  "V-s": "bibliographic only",
+  "[S]": "unverified"
+ },
+ "conflicts": {
+  "a_jesuits": {
+   "recommendation": "RV-1: Society of Jesus row 1650-1814 beside AP2 China-church row; Rites home AP2; LA8-2 and ME-12 become RV-1 lines",
+   "precedent": "era 7 has VI.11 beside VI.13b/VI.13c with 'gave rise to' links"
+  },
+  "b_propaganda_mep": {
+   "recommendation": "no row; Propaganda lines in VII.19 and VIII.29; MEP carrier lines in AP2, AP4, VIII.21, VIII.45; widen AF-6's VIII.29 line to the worldwide nineteenth-century Catholic mission revival"
+  },
+  "c_viii7": {
+   "gate": "G-RV-C",
+   "options": [
+    "(a) new wings in VIII.7",
+    "(b) VIII.7's own rule: own entries for Southern Africa (AF-5 row or AF-4 option b) and Arab churches (RV-4); Karen as named line in VIII.27",
+    "(c) hold until AF-4 ruled"
+   ],
+   "recommended": "b"
+  },
+  "d_moravians": {
+   "recommendation": "RV-5 era 9 row continuing VII.4; LA8-1 links; AF-5/AF-9 Moravian lines to VII.4 (pre-1815) and RV-5 (post-1815)"
+  },
+  "e_duplicates": [
+   {
+    "item": "Chinese Rites",
+    "homes": [
+     "AP2",
+     "LA8-2 Jesuit row"
+    ],
+    "one_home": "AP2"
+   },
+   {
+    "item": "Jesuits in Russia; reductions",
+    "homes": [
+     "ME-12",
+     "LA8-2"
+    ],
+    "one_home": "RV-1"
+   },
+   {
+    "item": "Moravians Cape, Cairo, Caribbean after 1815",
+    "homes": [
+     "AF-5",
+     "AF-9",
+     "LA8-1",
+     "LA8-M"
+    ],
+    "one_home": "VII.4 / RV-5"
+   },
+   {
+    "item": "Egypt American Mission",
+    "homes": [
+     "AF-9 (VIII.13 line)"
+    ],
+    "one_home": "RV-4"
+   },
+   {
+    "item": "Catholic mission revival",
+    "homes": [
+     "AF-6",
+     "AP-X2"
+    ],
+    "one_home": "one worldwide line in VIII.29"
+   },
+   {
+    "item": "Southern African mission churches",
+    "homes": [
+     "AF-5",
+     "AF-4 option b"
+    ],
+    "one_home": "one Southern African entry"
+   }
+  ],
+  "links_to_carry": [
+   "ME-1 <-> AP1 (Mar Gabriel 1708)",
+   "AP7 <-> VIII.40 (Chaldean bishops 1861, 1874)",
+   "AF-1 <-> AF-2 (abun)"
+  ]
+ },
+ "candidates": [
+  {
+   "id": "RV-1",
+   "name": "The Society of Jesus, 1650-1814",
+   "kind": "church body (Catholic religious order), continues VI.11",
+   "era": "8",
+   "dates": "1650-1814",
+   "region": "worldwide",
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question (Catholic)",
+   "tier": 1,
+   "evidence": [
+    {
+     "item": "Clement XIV, Dominus ac Redemptor (1773), cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt lines ~1190-1280",
+     "state": "V"
+    },
+    {
+     "item": "Pius VII restoration bull (1814), same file lines ~140-158",
+     "state": "V"
+    },
+    {
+     "item": "Benedict XIV 1741 bull (Mirbt 1911 no. 454)",
+     "state": "V (pass, LA)"
+    },
+    {
+     "item": "Muratori 1743",
+     "state": "V (pass, LA)"
+    },
+    {
+     "item": "Propaganda Collectanea I 1656/1726",
+     "state": "V (pass, AP)"
+    },
+    {
+     "item": "Nilles 1885, 1698 union",
+     "state": "V (pass, ME)"
+    }
+   ],
+   "living": "yes (Society); no dated item read",
+   "overlap": [
+    "VI.11",
+    "VII.19",
+    "AP2",
+    "LA8-2",
+    "ME-12",
+    "ME-8"
+   ],
+   "recommendation": "enter; Rites controversy's home is AP2; LA8-2 and ME-12 become its lines",
+   "gate": {
+    "id": "G-RV-1",
+    "options": [
+     "(a) no Jesuit row; lines in VII.19 and local rows",
+     "(b) Society of Jesus row 1650-1814 beside a China-church row (AP2)",
+     "(c) Jesuit row carrying China to 1724 plus China row from 1724",
+     "(d) stretch VI.11 to 1814"
+    ],
+    "recommended": "b"
+   }
+  },
+  {
+   "id": "RV-2",
+   "name": "Mennonites and Hutterites in the Russian Empire, 1789-1906",
+   "kind": "church bodies (Anabaptist river)",
+   "era": "9 (roots from 1789)",
+   "dates": "1788/89-1906",
+   "region": "East Europe",
+   "countries": [
+    "Ukraine",
+    "Russia",
+    "Romania"
+   ],
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question",
+   "tier": "2 regional; 1 as chapter of an Anabaptist continuation row",
+   "evidence": [
+    {
+     "item": "Gerhard Wiebe, Ursachen und Geschichte der Auswanderung der Mennoniten aus Russland nach Amerika (Winnipeg 1900), archive.org P002546, lines ~870-890",
+     "state": "V"
+    },
+    {
+     "item": "Beck ed., Geschichts-Buecher der Wiedertaeufer (1883), cic/texts beck1883, lines ~960-1005",
+     "state": "V (study)"
+    },
+    {
+     "item": "P. M. Friesen 1911",
+     "state": "[S] wanted"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VI.3",
+    "VIII.51",
+    "VII.16",
+    "VII.3"
+   ],
+   "recommendation": "enter as chapter of one Anabaptist continuation row 1650-1906; North Europe owner supplies the rest",
+   "gate": {
+    "id": "G-RV-2",
+    "options": [
+     "(a) one Anabaptist continuation row with Russian and Hutterite chapters",
+     "(b) Russian Mennonite row alone",
+     "(c) named line in VIII.51"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-3",
+   "name": "Catholics of the Ottoman Balkans: Bosnian Franciscans, Albanian and Bulgarian Catholics, 1650-1878",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1650-1878 [S end]",
+   "region": "Mediterranean / Asia Minor",
+   "countries": [
+    "Bosnia and Herzegovina",
+    "Croatia",
+    "Albania",
+    "Bulgaria"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": 2,
+   "evidence": [
+    {
+     "item": "Fermendzin, Acta Bosnae (1892), cic/texts, regests MCCCCLX (1689, lines ~24876) and MCCCCXCIV (1746, line ~25822)",
+     "state": "V"
+    },
+    {
+     "item": "Evans, Through Bosnia (1877), cic/texts, lines ~4458-4470",
+     "state": "V"
+    },
+    {
+     "item": "Lins, 'Bulgaria', Catholic Encyclopedia 3 (1908), newadvent 03046a",
+     "state": "V (study)"
+    },
+    {
+     "item": "Concilium Albanum 1703; Bosnian Franciscan chronicles",
+     "state": "[S] wanted"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VII.18",
+    "VIII.28",
+    "VII.19",
+    "V.20"
+   ],
+   "recommendation": "enter era 8 on V items; era 9 after one more source; Bulgarian union 1860-61 as named line",
+   "gate": {
+    "id": "G-RV-3",
+    "options": [
+     "(a) one row 1650-1878",
+     "(b) lines in VII.19 and VIII.29",
+     "(c) hold"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-4",
+   "name": "The Arab evangelical churches: Syria, Lebanon and Egypt, 1823-1906",
+   "kind": "church bodies; merges ME-11 and AF-9 (Egypt)",
+   "era": "9",
+   "dates": "1823-1906",
+   "region": "Middle East, Africa",
+   "countries": [
+    "Lebanon",
+    "Syria",
+    "Egypt"
+   ],
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question",
+   "tier": 2,
+   "evidence": [
+    {
+     "item": "Jessup 1910",
+     "state": "V (pass, ME)"
+    },
+    {
+     "item": "Watson 1898",
+     "state": "V (pass, AF)"
+    },
+    {
+     "item": "Anderson 1872",
+     "state": "[S]"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VIII.32",
+    "VIII.40",
+    "VIII.13",
+    "VIII.7"
+   ],
+   "recommendation": "enter if Mark takes the VIII.7 rule (G-RV-C option b)",
+   "gate": {
+    "id": "G-RV-4",
+    "options": [
+     "(a) one row Syria-Lebanon and Egypt",
+     "(b) ME-11 row plus Egypt line in VIII.13",
+     "(c) fifth wing of VIII.7"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-5",
+   "name": "The Moravian Church, 1815-1906",
+   "kind": "church body, continues VII.4",
+   "era": "9",
+   "dates": "1815-1906",
+   "region": "worldwide",
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question",
+   "tier": 1,
+   "evidence": [
+    {
+     "item": "J. Taylor Hamilton, History of the Missions of the Moravian Church (Bethlehem 1901), archive.org historyofmission00hami, lines ~5395-5402 (Jamaica 1834), ~9783-9806 (Rungwe 1897)",
+     "state": "V"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VII.4",
+    "LA8-1",
+    "AF-5",
+    "AF-9",
+    "VIII.7"
+   ],
+   "recommendation": "enter",
+   "gate": {
+    "id": "G-RV-5",
+    "options": [
+     "(a) one era 9 row continuing VII.4",
+     "(b) Caribbean lines in LA8-1, African lines in Africa rows",
+     "(c) log only"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-6",
+   "name": "Liberia's settler churches and the Black Atlantic links, 1792-1906",
+   "kind": "church bodies; named line",
+   "era": "8-9",
+   "region": "Africa, North America",
+   "countries": [
+    "Liberia",
+    "Sierra Leone",
+    "United States"
+   ],
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question",
+   "tier": 3,
+   "evidence": [
+    {
+     "item": "J. B. Taylor, Biography of Elder Lott Cary (Baltimore 1837), archive.org biographyofelder00tay, Cary letters 13 March 1821 and 16 August 1823",
+     "state": "V"
+    },
+    {
+     "item": "AME and the Ethiopian Church 1896; Daniel Coker",
+     "state": "[S]"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VIII.7",
+    "VII.16",
+    "VIII.1",
+    "IX.4"
+   ],
+   "recommendation": "named line in VIII.7 West Africa wing; links VIII.1 -> VIII.7 and (once sourced) VIII.1 -> IX.4",
+   "gate": {
+    "id": "G-RV-6",
+    "options": [
+     "(a) named line and links",
+     "(b) a Black Atlantic return-churches row",
+     "(c) nothing"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-7",
+   "name": "Transylvanian Unitarians after the Polish exile, 1660-1906",
+   "kind": "church body",
+   "era": "8-9",
+   "region": "East Europe",
+   "countries": [
+    "Romania",
+    "Hungary"
+   ],
+   "lane": "Non-Nicene Traditions",
+   "sectionA": "floor question (anti-trinitarian); lane 8 precedent VI.14, VII.27, VIII.37",
+   "tier": 3,
+   "evidence": [
+    {
+     "item": "Rees, introduction to The Racovian Catechism (1818), cic/texts, lines ~1842-2000",
+     "state": "V (study)"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VI.14"
+   ],
+   "recommendation": "hold for sources",
+   "gate": {
+    "id": "G-RV-7",
+    "options": [
+     "(a) hold",
+     "(b) lane 8 row now",
+     "(c) out of scope"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-8",
+   "name": "Czech lands after 1627: hidden Protestants and the 1781 Toleration Patent",
+   "kind": "church bodies",
+   "era": "8-9",
+   "region": "North Europe",
+   "countries": [
+    "Czech Republic"
+   ],
+   "lane": "Protestant & Evangelical",
+   "tier": "2-3",
+   "evidence": [
+    {
+     "item": "Luetzow, Bohemia: An Historical Sketch (1920), cic/texts, lines ~17181-17196",
+     "state": "V (study)"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VI.24 (continuesAs VII.4)",
+    "VII.4"
+   ],
+   "recommendation": "named line in VII.4 now; 1781-1906 toleration churches to a North Europe pass",
+   "gate": {
+    "id": "G-RV-8",
+    "options": [
+     "(a) VII.4 line now, rest logged",
+     "(b) Czech Protestant row 1627-1906",
+     "(c) log only"
+    ],
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "RV-9",
+   "name": "Kosmas the Aitolian (1714-1779)",
+   "kind": "person and preaching mission",
+   "era": "8",
+   "region": "Mediterranean",
+   "countries": [
+    "Greece",
+    "Albania"
+   ],
+   "lane": "Greek East & Orthodoxy",
+   "tier": 3,
+   "evidence": [
+    {
+     "item": "Cavarnos, St. Cosmas Aitolos (1971), archive.org stcosmasaitolosg0000cava",
+     "state": "V-s"
+    },
+    {
+     "item": "no pre-1930 text found raw",
+     "state": "wanted"
+    }
+   ],
+   "overlap": [
+    "VII.18",
+    "VIII.12"
+   ],
+   "recommendation": "hold; then named line in VII.18",
+   "gate": {
+    "id": "G-RV-9",
+    "options": [
+     "(a) hold then VII.18 line",
+     "(b) VIII.12 line",
+     "(c) nothing"
+    ],
+    "recommended": "a"
+   }
+  }
+ ],
+ "carried": {
+  "Ecumenical Patriarchate under Ottomans": "VII.18",
+  "Greek autocephaly 1850; Bulgarian Exarchate 1870; Serbia 1879": "VIII.28",
+  "Pec 1766; Karlovci": "VII.18 (+ME-17)",
+  "Armenian Apostolic 1650-1906": "VII.24a, VIII.32 (+ME-14)",
+  "Armenian Catholics": "VII.24, VIII.32 (+ME-15); Mekhitarists after 1815 a line in VIII.32",
+  "Coptic-Ethiopian links": "AF-1, AF-2 link",
+  "Alaska": "VII.21, VIII.47",
+  "Siberia": "ME-18 lines in VII.21/VIII.31; Blackmore 1842 preface to Mouravieff (cic/texts, lines ~215-224) V"
+ },
+ "breaks": {
+  "answered": [
+   "Ethiopia AF-1",
+   "Copts AF-2",
+   "Church of the East ME-1",
+   "St Thomas AP1",
+   "China AP2 (+RV-1)",
+   "Japan AP3",
+   "Maronites ME-2",
+   "Georgia ME-3",
+   "Latin America LA pass",
+   "Melkites ME-4/VII.23",
+   "Syriac Orthodox ME-7 (held)",
+   "Old Believers ME-5"
+  ],
+  "not_answered": [
+   "Scottish church after 1650 (Open-Gaps 135; North Europe)",
+   "Swedenborgian New Church after 1815 (Open-Gaps 135; North Europe/North America)"
+  ],
+  "found_by_passes": [
+   "Moravians after 1815 (RV-5)"
+  ]
+ },
+ "noted_not_assessed": [
+  "Waldensians after 1655 (VI.10 no successor; Mediterranean Europe had no pass)",
+  "Church of Cyprus under the Ottomans [S]",
+  "Greek Orthodox Patriarchate of Alexandria (Africa pass note)"
+ ]
+}
