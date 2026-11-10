@@ -97,12 +97,12 @@
     {
      "work": "The Catholic Encyclopedia, \"Abyssinia\" (1907)",
      "type": "secondary",
-     "note": "A Catholic reference article. It speaks for the missionaries. Read in full text online.",
+     "note": "A Catholic reference article. It speaks for the missions. Read in full text online.",
      "url": "https://www.newadvent.org/cathen/01075e.htm"
     },
     {
      "work": "E. A. Wallis Budge, The Lives of Maba' Seyon and Gabra Krestos (London, 1898)",
-     "type": "primary",
+     "type": "secondary",
      "note": "Two saints' lives in English. Held in the Library. Only Budge's introduction, on the abun, is used here."
     }
    ]
@@ -185,11 +185,11 @@
     {
      "work": "E. L. Butcher, The Story of the Church of Egypt, vol. 2 (London, 1897)",
      "type": "secondary",
-     "note": "A study of 1897 that does not favor Rome's claim. Read in full text online. The print is noisy.",
+     "note": "A study of 1897 that does not favor Rome's claim over the Copts. Read in full text online. The print is noisy.",
      "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt"
     },
     {
-     "work": "Edward William Lane, An Account of the Manners and Customs of the Modern Egyptians, 5th ed.",
+     "work": "Edward William Lane, An Account of the Manners and Customs of the Modern Egyptians, 5th ed. (London: John Murray, 1860)",
      "type": "primary",
      "note": "A visitor's account, written in Egypt in 1833 to 1835. Read in full text online. The print is noisy.",
      "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt"
@@ -261,14 +261,14 @@
    },
    "sources": [
     {
-     "work": "Dionigi de' Carli and Michelangelo Guattini, Viaggio nel regno del Congo (Reggio, 1671)",
+     "work": "Viaggio del P. Dionigi de' Carli da Piacenza, e del P. Michel Angelo de' Guattini da Reggio ... nel regno del Congo (Reggio, 1671)",
      "type": "primary",
-     "note": "A missionary's account in Italian. Held in the Library. The print is noisy."
+     "note": "Two friars' account of their mission, in Italian. Held in the Library. The print is noisy."
     },
     {
      "work": "Giovanni Antonio Cavazzi, Istorica descrizione de' tre' regni Congo, Matamba, et Angola (Bologna, 1687)",
      "type": "primary",
-     "note": "A Capuchin missionary's history in Italian. Held in the Library. The print is noisy."
+     "note": "A history by a friar who led the mission, in Italian. Held in the Library. The print is noisy."
     },
     {
      "work": "Duarte Lopes and Filippo Pigafetta, A Report of the Kingdom of Congo, trans. Margarite Hutchinson (London, 1881)",
@@ -284,7 +284,7 @@
     {
      "work": "John Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge University Press, 1998)",
      "type": "secondary",
-     "note": "Named but not opened. Title and details only. The entry's account of the Antonian movement rests on this one study."
+     "note": "Named in the entry but not opened. Only its title and details were checked. Nothing in the entry is drawn from it."
     }
    ]
   },
@@ -415,9 +415,9 @@
      "note": "The Moravian church's own summary of its missions. Held in the Library."
     },
     {
-     "work": "John Philip, Researches in South Africa (London: James Duncan, 1828)",
+     "work": "John Philip, Researches in South Africa, vol. 1 (London: James Duncan, 1828)",
      "type": "primary",
-     "note": "A London Missionary Society director's account. Read in full text online. The print is noisy.",
+     "note": "An account by the head of the London Missionary Society's work at the Cape. The first volume was read in full text online. The print is noisy.",
      "url": "https://archive.org/download/10432272bsb/10432272bsb_djvu.txt"
     },
     {

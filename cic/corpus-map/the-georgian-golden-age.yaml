@@ -18,3 +18,14 @@ works:
 
     '
   source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
+- row_id: kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849--georgian-chronicles-kartlis-tskhovreba-history-to-1469-french-brosset--2
+  work: Georgian chronicles (Kartlis Tskhovreba), history to 1469, French (Brosset 1849)
+  author: kartlis-tskhovreba
+  locus: the reigns from about OCR line 195; Vakhtang Gorgasali at about 7543; add 12 to OCR
+    line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The medieval Georgian chronicle cycle, compiled from the 11th century on, in Brosset's
+    French. On the Golden Age shelf it is that age's own history-writing; for the earlier
+    church it is later memory. Second witness only.
+  source_file: kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt

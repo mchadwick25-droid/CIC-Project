@@ -1,0 +1,12 @@
+source_file: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt
+assignments:
+- row_id: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723--garcia-de-la-concepcion-historia-bethlehemitica-1723
+  work: Garcia de la Concepcion, Historia Bethlehemitica (1723)
+  author: garcia-de-la-concepcion
+  locus: the three books from OCR line 1913; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: The Bethlemites' official history, commissioned by their procurator general, with the order's
+    Constitutions and their approval told in it. The order's own voice.

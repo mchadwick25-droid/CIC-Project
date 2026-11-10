@@ -1143,3 +1143,42 @@ free to override.
 
 Francis of Assisi and Priscillian, whose own words the Library now also holds, stay held as
 founders (question A).
+
+---
+
+## 2026-11-10 — P2-G89b carried out: data release 33 adds the eras 8 and 9 sweep's 26 rows
+
+**Done under the gate ruling ("all recommended", with G89-8 a and G89-9 a), in auto mode.** Each
+admitted item is a named change order to the frozen eras 8 and 9, recorded in one register (G89-6
+a): the slice drafts, `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-rulings/drafts/`. Data
+release 33: 395 movements (369 before), 733 links (689 before), 289 living (264 before).
+
+- **26 new rows,** VII.34 to VII.49 and VIII.53 to VIII.62, in eight slices (Africa, Latin America,
+  Asia in two parts, the Middle East in two parts, the rivers in two parts). The Coptic row starts
+  in 1517 by Mark's leave. Canudos is the only new row not marked living.
+- **34 row changes** carry the ruled named lines and the living pass. Where a new row became the
+  latest entry of a living line, the older row's dated evidence moved to it and the older row names
+  it as carrier (the Jesuits, the Moravians, the Old Believers, the Maronites, Kongo). Five rows
+  outside the slices' lists changed only so that no carrier is itself carried, as P2-V's rule
+  requires: VI.13, IV.10, V.22, the Hussite row and the Czech churches row.
+- **48 links; 4 retired and replaced** where a new row sits between two rows the tree already
+  joined: IV.26 to VIII.13 (through the Coptic row), VI.30 to VIII.40 (through the Church of the
+  East's three patriarchates), VII.19 to VI.11 (through the Jesuits 1650-1814, G89-1 b), VIII.31
+  to VII.7 (through the Old Believers after 1815, G89-38 a).
+- **Rules the coordinator set for every slice:** a row the sweep record calls living today, with no
+  living carrier, stays living with its own grade "none" and the dated source wanted (P2-V's
+  practice); modern-country IDs come only from census rows; every new row lists its sources; a
+  rendering of a non-English quote shows its original beside it.
+- **Reviews.** Each slice was reviewed by Opus from its sources, with every quote re-fetched. AF
+  and RV-A reached the cap over the sources lists added after their approval; Mark ruled twice
+  ("take the recommendation"): one ordered check, then its fixes applied as written (System Hub
+  Decision Log, both 2026-11-10).
+- **Evidence.** A raw online text carries a link at Widely Accepted at most; Documented needs a
+  Library quote. This is the conservative reading of the sweep's rule.
+
+**Held and open.** Every hold, want and open point is in Open-Gaps, from "Eras 8 and 9 rulings,
+Africa holds" to "Small questions the eras 8 and 9 rulings leave open" (2026-11-10), including
+VIII.52's 1911 end and the two North Europe breaks, which stay open.
+
+**Next action.** A follow-up chunk enters the held items whose sources the Library's batch 2 now
+holds. Full entry: Atlas World Map Decision-Log, "P2-G89b carried out".

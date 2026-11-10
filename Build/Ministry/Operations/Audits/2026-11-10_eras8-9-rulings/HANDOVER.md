@@ -1,5 +1,7 @@
 # P2-G89b handover — 2026-11-10
 
+**Closed (2026-11-10).** The work below was carried out as data release 33; see `README.md`.
+
 The worker session for P2-G89b (carrying out Mark's rulings on the eras 8 and 9 global sweep)
 stops here. Every subagent was cancelled at about 15:28, when a push stuck on a permission prompt
 was interrupted, and the session cannot relaunch them. A fresh session takes over from this file.

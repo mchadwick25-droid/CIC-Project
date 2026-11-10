@@ -1,0 +1,13 @@
+source_file: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt
+assignments:
+- row_id: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852--garcia-pelaez-memorias-para-la-historia-del-antiguo-reyno-de-guatemala
+  work: Garcia Pelaez, Memorias para la historia del antiguo Reyno de Guatemala, tomo II (1852)
+  author: garcia-pelaez
+  locus: Chapter LXVIII at OCR lines 6955-7142; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: context
+  confidence: provisional
+  note: The archbishop of Guatemala's archival history of the colonial kingdom, written 140 years after
+    Cancuc. A later witness for this entry; the Spanish church's side of the rising, not the movement's
+    own voice.
