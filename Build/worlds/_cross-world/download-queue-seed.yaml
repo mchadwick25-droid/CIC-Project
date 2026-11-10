@@ -23817,3 +23817,58 @@ queue:
     verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 627,938 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+  - title: 'Documente der national-jüdischen christgläubigen Bewegung in Südrussland, im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 4)'
+    author: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    year: '1884'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=DBkHAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-bodleian.txt
+  - title: 'Documente der national-jüdischen christgläubigen Bewegung in Südrussland, im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 4)'
+    author: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    year: '1884'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=-L8pAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-harvard.txt
+  - title: 'Kenu bayit ve-ertseh bo (Hagg. I, 8): Fortgesetzte Documente der national-jüdischen christgläubigen Bewegung in Südrussland, mitgeteilt von Franz Delitzsch, nebst Aufruf zur Herstellung eines Bethauses für die Christgläubigen aus Israel in Kischinew (Schriften des Institutum Judaicum in Leipzig, Nr. 5)'
+    author: 'Joseph Rabinowitz (the letters); Pastor Faltin and others (letters and reports); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz (the letters); Pastor Faltin and others (letters and reports); Franz Delitzsch (editor and translator)'
+    year: '1885'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=nYotAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_fortgesetzte-documente-der-national-judischen-christglaubigen-bewegung-deu_delitzsch1885.txt
+  - title: 'Neue Documente der südrussischen Christentumsbewegung: Selbstbiographie und Predigten von Joseph Rabinowitsch, herausgegeben von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 16)'
+    author: 'Joseph Rabinowitz (author); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz (author); Franz Delitzsch (editor and translator)'
+    year: '1887'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=u5YtAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_neue-documente-selbstbiographie-und-predigten-deu_delitzsch1887.txt
+  - title: 'Lekhu ve-nashuvah (Hos. VI, 1): Zwei Predigten in dem Gotteshause Bethlehem in Kischinew gehalten von Joseph Rabinowitsch (Schriften des Institutum Judaicum in Leipzig, Nr. 9)'
+    author: 'Joseph Rabinowitz (preacher); Franz Delitzsch (translator)'
+    translator: 'Joseph Rabinowitz (preacher); Franz Delitzsch (translator)'
+    year: '1885'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=r5YtAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_zwei-predigten-in-dem-gotteshause-bethlehem-in-kischinew-deu_delitzsch1885.txt

@@ -101,3 +101,12 @@ assignments:
     bearing on the schism is the Indian echo of the two lines.
 
     '
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--st-thomas-christians-two-obediences-context
+  work: "Historia ecclesiae Malabaricae (1745)"
+  author: raulin
+  locus: "whole book"
+  atlas_ids:
+  - st-thomas-christians-two-obediences
+  role: context
+  confidence: provisional
+  note: "A Dominican's history of the Malabar church with the Diamper acts, printed 1745, inside this entry's window; an outsider's view."

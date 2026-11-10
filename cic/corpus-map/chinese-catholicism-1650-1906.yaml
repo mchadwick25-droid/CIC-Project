@@ -30,3 +30,12 @@ works:
   note: The Jesuits' own letters from the China mission in the eighteenth century. Within
     the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906).
   source_file: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--chinese-catholicism-1650-1906-context
+  work: Collectanea S. Congregationis de Propaganda Fide, vol. I (1907)
+  author: propaganda-fide
+  locus: the decrees and instructions for China from 1650 onward
+  role: context
+  confidence: provisional
+  note: Rome's rulings for the China mission; the census entry's source. Rome's voice, not
+    the Chinese church's.
+  source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
