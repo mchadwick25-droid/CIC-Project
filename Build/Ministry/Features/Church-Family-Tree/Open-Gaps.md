@@ -1385,3 +1385,24 @@ it, never by deleting it.
     river origin carries a reason, a confidence and a source, kept as data in the page. The map does
     not yet show them, for example in the Rivers key. Whether it should is a front-end question for
     Mark.
+175. **What the Library's fourth wants batch filled (2026-11-10).** For the religious orders and the
+    Maronites in "Living traditions with no entry after a date" (2026-11-10). Each gap still needs a
+    change order to add its row; the Library supplies the sources. Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 4.
+    - Sources now held:
+      - Athos after 1300: Meyer's typika and patriarchal acts, 1394 to the late 18th century;
+        Dapontes, a Xeropotamou monk.
+      - The Carthusians after 1534: Chauncy (1550); the statutes of 1681.
+      - The Cistercians after 1300: Rance (1683); the Trappist constitutions (1894).
+      - The Maronites after 1517: al-Duwayhi's history.
+      - The canons regular after 1246: Barnwell (1295-96); the Premonstratensian statutes (1626).
+      - The Order of Malta after 1291: the statutes of 1589.
+      - The Carmelites after 1300: the general chapters, 1318-1593.
+      - The Franciscans after 1517: the Annales for 1540-1553; the Capuchin constitutions (1638).
+      - The Dominicans after 1300: the general chapters, 1304-1378 and 1601-1628.
+      - The Jesuits after 1650: Thwaites 36-40; the Memoires de la Chine, 1717-1731. These also
+        serve New France after 1650 and Chinese Catholics after 1650.
+      - The Discalced Carmelites after 1622: Brother Lawrence; the Reforma, tome II (1655).
+    - For the census owner: the Compiegne history (1836) sits on the ancien-regime shelf, which ends
+      in 1815. A census story rests on that row, so it was left; the long-nineteenth-century shelf was
+      added beside it.
