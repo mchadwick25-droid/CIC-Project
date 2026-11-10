@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-two-obediences
 works:
+- row_id: buchanan_christian-researches-in-asia_1811--christian-researches-in-asia-buchanan-1811-the-syrian-christians
+  work: 'Christian Researches in Asia (Buchanan, 1811): the Syrian Christians'
+  author: buchanan
+  locus: the section from about OCR line 3924, and Mar Dionysius at about 3114; add 12 to
+    OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A British chaplain's visit to the Syrian church around 1806, inside this entry's window
+    (1665-1815); the census entry's source. An outsider's view.
+  source_file: buchanan_christian-researches-in-asia_1811.txt
 - row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--st-thomas-christians-two-obediences-context
   work: The History of the Church of Malabar (1694)
   author: geddes
@@ -12,6 +22,15 @@ works:
   note: An Anglican chaplain's history and translation of the Diamper acts, printed 1694,
     inside this entry's window; an outsider's view.
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794--india-orientalis-christiana-paulinus-1794
+  work: India Orientalis Christiana (Paulinus, 1794)
+  author: paulinus-a-s-bartholomaeo
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Catholic missionary's history of the Malabar church written inside this entry's
+    window (1665-1815), naming the Mar Thomas of the Puthenkoor; an outsider to that obedience.
+  source_file: paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794.txt
 - row_id: philipos_syrian-christians-of-malabar_howard1869--st-thomas-christians-two-obediences-context
   work: The Syrian Christians of Malabar (1869)
   author: philipos

@@ -1,0 +1,11 @@
+source_file: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt
+assignments:
+- row_id: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887--mandements-des-v-ques-de-qu-bec-vol-i-laval-and-his-successors
+  work: "Mandements des évêques de Québec, vol. I: Laval and his successors"
+  author: quebec-bishops
+  locus: "the mandements from about OCR line 329; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "The New France church's bishops in their own pastoral letters from 1659. Within this entry's window (1650-1815); the tree has no New France entry after 1650."

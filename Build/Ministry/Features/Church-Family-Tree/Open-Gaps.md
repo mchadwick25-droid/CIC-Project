@@ -1818,3 +1818,22 @@ it, never by deleting it.
     - For the census owner: the Compiegne history (1836) sits on the ancien-regime shelf, which ends
       in 1815. A census story rests on that row, so it was left; the long-nineteenth-century shelf was
       added beside it.
+194. **What the Library's fifth wants batch filled (2026-11-10).** For ME-21 and the early modern mission
+    and Eastern gaps in "Living traditions with no entry after a date" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 5.
+    - ME-21 (Rabinowitz): the source the hold waits for is now held, opened raw. It includes the
+      Documente of 1884 with the Hebrew originals, the letters of 1884, and the autobiography and
+      sermons. The Hebrew letters are still wanted.
+    - Now shelved on the new eras 8-9 entries: the St Thomas Christians (Paulinus 1794, Buchanan 1811,
+      and held texts); Kongo after 1650 (Paiva Manso's documents after 1651, with the Count of Soyo's
+      letters; Bentley 1900; held Capuchin accounts); Japan's hidden Christians (Marnas 1897);
+      Chinese Catholics (Launay 1907, the Propaganda Collectanea).
+    - New France after 1650: the Quebec bishops' mandements from 1659 and Marie de l'Incarnation's
+      letters, on the ancien-regime church.
+    - Ukrainian Orthodoxy after 1700: documents of the 1720s-1770s, `needs-ruling` on the Russian
+      church's 1652-1815 entry.
+    - Not found: a Chinese Catholic's own text, a Puthenkoor text of its own, Kongolese texts other
+      than the Paiva Manso letters, hidden Christian prayers in print before 1931, and Ukrainian
+      church print from 1918 to 1930.
+    - Correction to "What the Library's fourth wants batch filled" (2026-11-10): al-Duwayhi was
+      already held. The batch 4 file is a second scan of the same edition.

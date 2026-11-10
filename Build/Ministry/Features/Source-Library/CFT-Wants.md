@@ -132,7 +132,7 @@ have no entry after 1517, so their text has no shelf yet.
 | Athonite monasticism after 1300 | filled | `athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt`; `dapontes_kepos-chariton-grc_sophocleous1880.txt`. Held already: Georgirenes (1678) | Meyer: the 1394 typikon on the hesychast entry (`needs-ruling`), the documents of 1498-1574 on Ottoman 1453-1650, those of the 17th-18th centuries on Ottoman 1650-1821; Dapontes on Ottoman 1650-1821 | The Holy Mountain's own typika, patriarchal decrees and letters from 1394 to the Kollyva circulars, and a Xeropotamou monk's own book. Meyer's Greek OCR is garbled: second witness for the Greek. |
 | The Carthusians after 1534 | filled | `chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888.txt`; `chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt`; `carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt` | Chauncy on the Tridentine church; the statutes on the ancien-regime church | A London Carthusian's own account of 1535 (printed 1550), in Latin and a clean English; the order's statutes as gathered in 1681. Le Couteulx's Annales stop at 1420. |
 | The Cistercians after 1300 | filled | `rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683.txt`, `-t2-`; `trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894.txt`. Held already: the Port-Royal acts (1724) | Rance on the ancien-regime church; the constitutions on the long nineteenth century | La Trappe's abbot in 1683, and the Trappists' own law of 1894. Not found: the 1718 Reglements. Located, not vendored: the Nomasticon Cisterciense (1664; garbled OCR). |
-| The Maronites after 1517 | filled, no shelf | `duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt` | none yet | Patriarch al-Duwayhi's own history of his church (Beirut, 1890s). The OCR is garbled: second witness. Not found: the 1736 Synod of Mount Lebanon in a readable printing (the Zainati 1926 scan is unreadable), Anaissi's Bullarium. |
+| The Maronites after 1517 | held already; a second scan added, no shelf (corrected in batch 5) | `duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt` | none yet | Patriarch al-Duwayhi's own history of his church (Beirut, 1890s). The OCR is garbled: second witness. Not found: the 1736 Synod of Mount Lebanon in a readable printing (the Zainati 1926 scan is unreadable), Anaissi's Bullarium. |
 | The canons regular after 1246 | filled | `barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt`; `premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626.txt`. Held already: Thomas a Kempis's Chronicle of Mount St Agnes, Busch's Chronicon Windeshemense | Barnwell on the Gregorian church (written 1295-96); the statutes on the Tridentine church | An Augustinian priory's own customary, and the Premonstratensians' renewed statutes of 1626. Not found: Le Paige (1633). |
 | The Order of Malta after 1291 | filled | `hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt` | the Tridentine church | The Order's own statutes after its chapter of 1584. Located, not vendored: Bosio's Istoria (1594-1602; 5-6.5 MB each), Vertot (1726), the Cartulaire general III-IV. |
 | The Carmelites after 1300 | filled | `carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt` | the chapters to 1513 on Avignon to Lateran V; those of 1524-1593 on the Tridentine church | The order's general chapters, 1318-1593. Located: Zimmerman's Monumenta (1907); the Speculum Carmelitanum (1680; garbled OCR). |
@@ -147,12 +147,38 @@ a census story, so it stays, and this batch adds the long-nineteenth-century she
 is the census owner's call. The Port-Royal acts, printed in 1724, were written in the 1660s, inside
 their entry's window.
 
+## Batch 5 — Rabinowitz, and the early modern mission and Eastern gaps
+
+Data release 33 (eras 8-9) gave four of these gaps entries of their own: the St Thomas Christians
+1665-1815, Kongo 1650-1881, Japan's hidden Christians 1650-1865 and Chinese Catholicism 1650-1906.
+Their census entries cite texts the Library held but had not shelved there, so this batch shelves those
+too. New France after 1650 and Ukrainian Orthodoxy after 1700 still have no entry of their own.
+
+| gap or hold | state | file(s) | shelf | unblocks |
+|---|---|---|---|---|
+| ME-21, Rabinowitz | filled | `rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-bodleian.txt` and `-harvard.txt` (two copies); `rabinowitz_fortgesetzte-documente-...-deu_delitzsch1885.txt`; `rabinowitz_neue-documente-selbstbiographie-und-predigten-deu_delitzsch1887.txt`; `rabinowitz_zwei-predigten-in-dem-gotteshause-bethlehem-in-kischinew-deu_delitzsch1885.txt` | none yet: ME-21 waits for its own row | The hold's "pre-1930 source opened raw": the congregation's Thirteen Theses, articles of faith and March 1884 declaration with their Hebrew originals; Rabinowitz's letters of 1884 (in German); his autobiography and sermons. Mark downloaded the five Google Books PDFs; they are cleared from `_intake/`. |
+| ME-21, the Hebrew letters (Bikure ta'anah) | not found | — | — | Google's title is wrong for its item: it is the Fortgesetzte Documente, which prints Rabinowitz's letters only in German (one in his own German, the rest translated from his Hebrew). It has no Hebrew text. The Hebrew letters stay wanted. |
+| The St Thomas Christians, 1665-1836 | filled, outsiders only | `paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794.txt`; `buchanan_christian-researches-in-asia_1811.txt`. Held already, now also shelved: Geddes (1694), Raulin (1745), Whitehouse (1873), Philipos (1869) | `st-thomas-christians-two-obediences`, context | A Carmelite's history (1794), which cites a Syriac letter of Mar Thoma VI and his own meeting with him in 1785, and Buchanan's visit of about 1806. No Puthenkoor text of its own was found. |
+| The Kongo church after 1650 | filled from held texts, plus an outsider | `bentley_pioneering-on-the-congo-v1_1900.txt`, `-v2-`. Held already, now also shelved: Paiva Manso's documents after 1651, including letters of the Count of Soyo; Carli, Cavazzi, Merolla, Zucchelli | `kongo-christianity-after-1650`: Paiva Manso's later documents as tradition, the rest context | The Kongo court's own letters after 1650 were already held, on the earlier Kongo entry's shelf. No other Kongolese text was found. |
+| Japan's hidden Christians, 1650-1865 | filled, mediated | `marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897.txt`, `-t2-` | `japans-hidden-christians` and `japanese-christianity-hidden-emergence-meiji`, context | The Urakami Christians' words to Petitjean in 1865, as he reported them. No orasho or Tenchi hajimari no koto printed before 1931 was found. |
+| Chinese Catholics, 1650-1906 | outsider only | `launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt`. Held already, now also shelved: the Propaganda Collectanea (1907) | `chinese-catholicism-1650-1906`, context | A mission history that names its Chinese priests. Not found: a Chinese Catholic's own text (Andreas Ly's Journal, the 1803 Sichuan synod, Huang Bolu). |
+| The church in New France after 1650 | filled | `quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt`; `marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876.txt`, `-t2-` | the mandements and tome II on the ancien-regime church; tome I on the New France mission entry (1610-1650); all tradition | The Quebec bishops' own pastoral letters from Laval (1659), and the Ursuline founder's own letters from 1639 to 1672. |
+| Ukrainian Orthodoxy, 1700 to today | filled to the 1770s, `needs-ruling` | `arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864.txt`; `kiev-academy_akty-i-dokumenty-t1-ch2-1721-1750-rus_petrov.txt` | `russian-church-nikon-to-holy-synod` (1652-1815), `needs-ruling` | The Orthodox clergy's letters of the 1760s and the Kyiv Academy's documents of 1721-1750. The Kyiv metropolis then lay inside the Russian Synodal church; whether Ukrainian Orthodoxy belongs on that entry is the tree's call. Nothing after 1918 was found in print before 1931. |
+
+**Corrected from batch 4.** Al-Duwayhi's history was already held: `duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt`
+(the Bibliotheca Alexandrina scan, October 2026), on the Maronite 1300-1517 shelf. Batch 4's holdings check
+looked for "douaih" and "maron" and missed both spellings. Batch 4's file is a second scan of the same
+edition. It is kept, and its header and registry entry now name the first scan, whose OCR reads the
+preface date as June 1890. Neither scan is clean, and a clean witness is still wanted (Open-Gaps 179,
+"a clean Duwayhi"). A re-check of the other twenty-six batch 4 files, by archive id and by title,
+found no other duplicate.
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the
   Brosset Additions (1851) and part II (1856-57); the 1860 Concordat in a period printing.
-- **Living traditions with no entry after a date** (Open-Gaps 158): 79 gaps, worked by era. Batches 3 and 4
-  took 24; next are the St Thomas Christians, the Kongo church, Japan and China, then the Protestant gaps.
+- **Living traditions with no entry after a date** (Open-Gaps 158): 79 gaps, worked by era. Batches 3 to 5
+  took 30; next is Europe 1650-1815, then the gaps after 1815, then those after 1906.
 - **Families the tree doesn't reach** (Open-Gaps 159): the Patriarchate of Alexandria, Cyprus, the
   Polish, Czech-Slovak and Macedonian churches, and the Eastern Catholic churches never named.
 - **Living marks graded none** (Open-Gaps 162): Kongo, Transylvania, the Schwenkfelders, New France.

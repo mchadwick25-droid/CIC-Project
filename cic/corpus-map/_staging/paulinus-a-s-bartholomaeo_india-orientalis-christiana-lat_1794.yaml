@@ -1,0 +1,11 @@
+source_file: paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794.txt
+assignments:
+- row_id: paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794--india-orientalis-christiana-paulinus-1794
+  work: "India Orientalis Christiana (Paulinus, 1794)"
+  author: paulinus-a-s-bartholomaeo
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - st-thomas-christians-two-obediences
+  role: context
+  confidence: provisional
+  note: "A Catholic missionary's history of the Malabar church written inside this entry's window (1665-1815), naming the Mar Thomas of the Puthenkoor; an outsider to that obedience."

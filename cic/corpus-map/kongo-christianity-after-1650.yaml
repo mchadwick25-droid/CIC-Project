@@ -3,6 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: kongo-christianity-after-1650
 works:
+- row_id: bentley_pioneering-on-the-congo-v1_1900--pioneering-on-the-congo-vol-1-bentley-1900
+  work: Pioneering on the Congo, vol. 1 (Bentley, 1900)
+  author: bentley
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Baptist missionary's account of São Salvador from 1879, with what remained of the
+    old Catholic Christianity; the census entry's source (vol. II). An outsider's view, written
+    in 1900, after this entry's end in 1881.
+  source_file: bentley_pioneering-on-the-congo-v1_1900.txt
+- row_id: bentley_pioneering-on-the-congo-v2_1900--pioneering-on-the-congo-vol-2-bentley-1900
+  work: Pioneering on the Congo, vol. 2 (Bentley, 1900)
+  author: bentley
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Baptist missionary's account of São Salvador from 1879, with what remained of the
+    old Catholic Christianity; the census entry's source (vol. II). An outsider's view, written
+    in 1900, after this entry's end in 1881.
+  source_file: bentley_pioneering-on-the-congo-v2_1900.txt
 - row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--kongo-christianity-after-1650-context
   work: Viaggio nel regno del Congo (1671)
   author: carli
