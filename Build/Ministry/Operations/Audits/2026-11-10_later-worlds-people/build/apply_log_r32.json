@@ -55,5 +55,12 @@
    ],
    "The validator requires every modern-country place on the place label, and a label names at most two places from region. Italy (minister general) and Paris (master) stay; Lyon, where he died at the council, is carried by 'and beyond'. IDs unchanged from the draft, which copied them from existing entries."
   ]
+ ],
+ "text_fixes": [
+  [
+   "pamphilus-of-caesarea",
+   "whose defence of Origen",
+   "whose defense of Origen"
+  ]
  ]
 }
