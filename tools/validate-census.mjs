@@ -433,6 +433,7 @@ function checkRiverOrigins(html) {
     if (o.basis !== "declared") { errs.push(`${rt}: no descent link reaches this river's first movements, so its parent must be declared`); continue; }
     if (!lanes.includes(o.parent)) errs.push(`${rt}: parent ${o.parent} is not a river`);
     if (typeof o.reason !== "string" || !o.reason.trim()) errs.push(`${rt}: a declared parent needs its reason`);
+    if (!CONFIDENCE.has(o.confidence)) errs.push(`${rt}: a declared parent needs a confidence on the five-level scale`);
     if (!Array.isArray(o.sources) || !o.sources.length) errs.push(`${rt}: a declared parent needs a source`);
     (o.sources ?? []).forEach((s, j) => {
       const st = `${rt} source[${j}]`;
@@ -449,7 +450,7 @@ function checkRiverOrigins(html) {
     const seen = new Set();
     let k = lane;
     while (k !== 0 && byLane.get(k) && !seen.has(k)) { seen.add(k); k = byLane.get(k).parent; }
-    if (k !== 0) errs.push(`river origin ${lane}: following its parents never reaches the origin trunk`);
+    if (k !== 0 && byLane.has(k)) errs.push(`river origin ${lane}: following its parents never reaches the origin trunk`);
     const parent = byLane.get(lane)?.parent;
     const firstOf = l => Math.min(...bodies.filter(m => m.laneOrder === l).map(m => m.start));
     if (lane !== 0 && lanes.includes(parent) && firstOf(parent) > firstOf(lane)) errs.push(`river origin ${lane}: its parent river ${parent} starts later than it does`);

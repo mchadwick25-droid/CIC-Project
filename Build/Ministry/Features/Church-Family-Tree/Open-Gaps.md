@@ -1328,3 +1328,21 @@ it, never by deleting it.
     - Not the Library's: the people rows' `year` and the Ephrem alias (census owner); the Theophilus
       row (a census question).
     - Queued: the general loci pass for multi-work volumes, and the Georgian chronicle text volumes.
+170. **Descent links the river origins want (2026-11-10).** From "Where each river leaves its parent"
+    (Decision-Log, 2026-11-10). Each would let a census link, not a declared record, place a river.
+    Each is a census change under the link evidence standard: sourced, reviewed, and given a data
+    release. None is invented here.
+    - A break link from the late-medieval Latin church to Lutheran Wittenberg. The census has only
+      Wittenberg "argued against" the Tridentine church. Protestant & Evangelical already comes from
+      Latin West through the Hussite "continued as" link to the Czech churches, so this changes no
+      parent. It would make Luther's own break visible on the map.
+    - A "gave rise to" link from the Cappadocian church at Caesarea to the Armenian conversion era.
+      It would rest on Gregory the Illuminator's consecration at Caesarea, and must carry the
+      Armenian church's own reading (an apostolic see, revived and not founded). Caucasus is
+      declared from Greek East as Contested until then.
+    - The start of Syriac East, Greek East and Africa, each declared from the origin trunk. A census
+      link from a first-century trunk movement would place them by lineage, if a source supports one.
+171. **The river record's declared reasons are not shown to visitors (2026-11-10).** Each declared
+    river origin carries a reason, a confidence and a source, kept as data in the page. The map does
+    not yet show them, for example in the Rivers key. Whether it should is a front-end question for
+    Mark.

@@ -45,7 +45,7 @@ test("a new descent link into a declared river fails until the record names it",
 });
 
 test("a break counts only from a movement that started earlier", () => {
-  const later = link("the-1904-07-revival-family-wales-mukti-india-pyo", "the-mainline-century-liberal-and-neo-orthodox", "broke with");
+  const later = link("the-1904-07-revival-family-wales-mukti-india-pyo", "progressive-christianity-a-broad-label-not-one-m", "broke with");
   assert.deepEqual(validate({ ...census, edges: [later, ...census.edges] }), []);
   const earlier = link("the-1904-07-revival-family-wales-mukti-india-pyo", "lutheran-wittenberg-and-its-congregations", "broke with");
   assert.equal(validate({ ...census, edges: [earlier, ...census.edges] }).length, 1);
