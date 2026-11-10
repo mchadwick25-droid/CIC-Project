@@ -5,24 +5,20 @@ it moves to a fresh session, to keep context small, per CLAUDE.md.
 
 ## State
 
-- **Done:** the scope and the brief, `Sweep_Brief.md` (this folder). Four regional passes were
-  launched:
-  - Africa;
-  - Latin America and the Caribbean;
-  - Asia and the Pacific;
-  - the Middle East, Caucasus, Russia and Eastern Europe.
-- **Not done:** every regional pass. They stopped before writing any findings, so no candidates
-  exist yet. There is no record, review, gate page or census change.
-- **Next:**
-  1. Run the four passes from `Sweep_Brief.md`. Each writes candidates.md, candidates.json and
-     summary.md.
-  2. Merge them into one record. Model it on
-     `Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md`,
-     for example as `CiC_Step0_Eras8-9_GlobalSweep_V1_0.md` in the same folder.
-  3. Have it reviewed independently by Opus, capped at three rounds.
-  4. Put an Artifact gate page with numbered questions to Mark.
-  5. Only after his ruling: drafting, review, and a data release as change orders. Eras 8 and 9
-     are frozen.
+- **Done (2026-11-10, fresh session):**
+  - The four regional passes and a river-by-river cross-check. Each pass's findings are in
+    `passes/<region>/` (candidates.md, candidates.json, progress.md; the Latin America and Middle
+    East passes also wrote summary.md). The rivers pass is in `passes/rivers/`.
+  - The merged record:
+    `Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`,
+    with Review Rounds 1, 2 and 3 in the same folder (the three-round cap).
+  - The gate page for Mark, with numbered questions G89-1 to G89-55. The link is in the
+    Decision-Log entry "P2-G89 at Mark's gate" (2026-11-10).
+- **Not done:** carrying out Mark's rulings. That comes after the gate: drafting, review and a data
+  release, each addition as a change order, because eras 8 and 9 are frozen. Nothing in the census
+  has changed.
+- **Pass files and the record can differ.** Where a review fix touched a pass body, only the
+  record was edited. The record is the reviewed text.
 
 ## Rulings and decisions that bind it
 
@@ -48,5 +44,6 @@ it moves to a fresh session, to keep context small, per CLAUDE.md.
 
 ## Current census
 
-Data release 28 on main (P2-L10 merged, PRs #1569 and #1570): 322 movements, 644 links, 71 in
-era 10.
+The passes read data release 28 (P2-L10, PRs #1569 and #1570): 322 movements, 644 links, 71 in
+era 10. Data release 29 (P2-G3) landed on main during the sweep: 353 entries, 689 links. The
+record's §1 states release 29, and Round 2 checked its new rows against the candidates.
