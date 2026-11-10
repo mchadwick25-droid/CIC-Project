@@ -1,7 +1,27 @@
 {
- "buchanan": {"url": "https://archive.org/download/christianresearc0000clau/christianresearc0000clau_djvu.txt", "accessed": "2026-11-10", "work": "Claudius Buchanan, Christian Researches in Asia (London: G. Sidney, 1811), djvu OCR text, archive.org item christianresearc0000clau"},
- "marnas1": {"url": "https://archive.org/download/lareligiondejsus01marn/lareligiondejsus01marn_djvu.txt", "accessed": "2026-11-10", "work": "Francisque Marnas, La \"Religion de Jesus\" (Iaso ja-kyo) ressuscitee au Japon dans la seconde moitie du XIXe siecle, vol. 1 (Paris and Lyon: Delhomme et Briguet, 1896), djvu OCR text, archive.org item lareligiondejsus01marn"},
- "cathen3": {"url": "https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt", "accessed": "2026-11-10", "work": "The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article 'China', djvu OCR text, archive.org item catholicencyclop0003char"},
- "launay1": {"url": "https://archive.org/download/cihm_54000/cihm_54000_djvu.txt", "accessed": "2026-11-10", "work": "Adrien Launay, Histoire generale de la Societe des Missions-Etrangeres, vol. 1 (Paris: Tequi, 1894), djvu OCR text, archive.org item cihm_54000"},
- "lettres3": {"url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt", "accessed": "2026-11-10", "work": "Lettres edifiantes et curieuses concernant l'Asie, l'Afrique et l'Amerique, ed. Aime-Martin, vol. 3 (Paris, 1838), letter of Pere de Mailla, Peking, 16 October 1724, djvu OCR text, archive.org item lettresdifiantes03jesu"}
+ "buchanan": {
+  "url": "https://archive.org/download/christianresearc0000clau/christianresearc0000clau_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Claudius Buchanan, Christian Researches in Asia (London: G. Sidney, 1811), djvu OCR text, archive.org item christianresearc0000clau"
+ },
+ "marnas1": {
+  "url": "https://archive.org/download/lareligiondejsus01marn/lareligiondejsus01marn_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Francisque Marnas, La \"Religion de Jésus\" (Iaso ja-kyō) ressuscitée au Japon dans la seconde moitié du XIXe siècle, vol. 1 (Paris and Lyon, 1896)"
+ },
+ "cathen3": {
+  "url": "https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article 'China', djvu OCR text, archive.org item catholicencyclop0003char"
+ },
+ "launay1": {
+  "url": "https://archive.org/download/cihm_54000/cihm_54000_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Adrien Launay, Histoire générale de la Société des Missions-Étrangères, vol. 1 (Paris, 1894)"
+ },
+ "lettres3": {
+  "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, ed. Aimé-Martin, vol. 3, Chine (Paris: Société du Panthéon littéraire, 1843)"
+ }
 }

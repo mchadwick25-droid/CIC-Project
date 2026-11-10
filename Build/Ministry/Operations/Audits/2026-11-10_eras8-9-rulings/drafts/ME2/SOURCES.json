@@ -1,0 +1,42 @@
+{
+ "nilles": {
+  "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Nilles, Symbolae (1885)"
+ },
+ "bunea_klein": {
+  "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Bunea, Episcopul Ioan Inocentiu Klein (1900)"
+ },
+ "grama1": {
+  "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Grama and Bunea, Cestiuni ... bisericei romanesci unite, part I (1893)"
+ },
+ "bauhofer": {
+  "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Bauhofer, History of the Protestant Church in Hungary (1854)"
+ },
+ "cathen_07547a": {
+  "url": "https://www.newadvent.org/cathen/07547a.htm",
+  "accessed": "2026-11-10",
+  "work": "Catholic Encyclopedia page, HTML saved as text with tags stripped and entities decoded (raw/cathen_07547a.txt)"
+ },
+ "cathen_12181a": {
+  "url": "https://www.newadvent.org/cathen/12181a.htm",
+  "accessed": "2026-11-10",
+  "work": "Catholic Encyclopedia page, HTML saved as text with tags stripped and entities decoded (raw/cathen_12181a.txt)"
+ },
+ "cathen_03559a": {
+  "url": "https://www.newadvent.org/cathen/03559a.htm",
+  "accessed": "2026-11-10",
+  "work": "Catholic Encyclopedia page, HTML saved as text with tags stripped and entities decoded (raw/cathen_03559a.txt)"
+ },
+ "cathen_05230a": {
+  "url": "https://www.newadvent.org/cathen/05230a.htm",
+  "accessed": "2026-11-10",
+  "work": "Catholic Encyclopedia page, HTML saved as text with tags stripped and entities decoded (raw/cathen_05230a.txt)"
+ }
+}

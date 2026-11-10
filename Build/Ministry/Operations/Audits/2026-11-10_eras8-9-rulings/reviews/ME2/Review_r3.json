@@ -1,0 +1,18 @@
+{
+ "slice": "ME2",
+ "round": 3,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "R3-m1",
+   "where": "romanian-greek-catholic-church-1815-1906.longDescription[1]",
+   "problem": "The new sentence 'The writers said the province stood on its own' repeats the next paragraph. It is supported (coordinate, not subordinate) but redundant.",
+   "fix": "Optional: cut it."
+  }
+ ],
+ "quotes_checked": 138,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the round 2 findings. R2-S1: all five originals in prose are verbatim in my fetch (grama1: r&mână neatinse; o simplă, alianță - politică intre dóuë confesiuni; romângscă unită. mitropolitană de Alba-luliu; stricată legea strămoșăscă. nilles: servare Iice«t), each marked as the scan prints it. R2-m1: ME-10 sources now list the CE article only. R2-m2: the Gazeta and Densușianu are named again, and the Their-words lines are folded in. R2-m3: János György Bauhofer. check_draft.py on my raw: 138 quotes; the CE misses are whitespace only (none fail once punctuation spacing is normalized). READ-FAILs remain only in frozen text (VII.7, VIII.32 p0, VII.28 p0)."
+}

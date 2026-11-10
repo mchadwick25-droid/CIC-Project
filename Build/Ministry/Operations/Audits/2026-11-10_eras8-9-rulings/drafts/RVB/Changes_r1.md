@@ -1,0 +1,15 @@
+# RV-B round 1 changes (finding -> change)
+- S1: caribbean-churches-of-slavery-and-emancipation -> RV-5 link now "in contact with", Inferential-Thin, Hamilton + Bleby (raw/bleby1868.txt); RV-5 relationsSummary and fact rows replaced.
+- S2: "gave rise to" link VIII.13 -> RV-4 dropped; the "argued against" link also carries the Wasif Khayat quote.
+- S3: outcome deleted from the argued-against link.
+- S4: Nyasa 1890 / 1891 both stated; Rungwe given no year; why says early 1890s; 1891 fact row added.
+- S5: 1834 and 1838 separated in why, teaser, paragraphs 2 and 3; apprenticeship and Cape 1838 fact rows added.
+- S6: Hutterite paragraph follows Beck's preface (Crimea) and his note (Hutersthal, Taurida, Azov), no move year; fact rows 36325-36327 and 36333.
+- S7: "met before" now "in touch by letter".
+- S8: Cary link note drops "best-known".
+- M1: Watson's "root out" restored. M2: priest of Beni Aleig, at Asyut. M3: Periodical Accounts quote extended to lines 130-135. M4: Canada Q16 added to RV-5. M5: Watson and Taylor narrative marked secondary. M6: Beck's list note added. M8: jargon cut in VIII.7 line. M9: Hooker note (link and VII.4 paragraph). M10: Eli Smith.
+- M7 / coordinator (a): whole new `sources` for VII.4 (+La Trobe, Periodical Accounts, Watson, Lützow), VII.32 (Wiebe, Beck; the row had none), VIII.7 (+Taylor).
+- M11 / (c): new link VII.4 -> AF-5 (southern-african-mission-churches), "in contact with", Widely Accepted, Library quote Periodical Accounts 7255-7270.
+- Living (corrected b): RV-4 living true, own evidence graded "none (no dated item after 2010 found)", plus a wants entry; record §7 quoted in a flag.
+- Open: VIII.7 longDescription[0] READ-FAIL is frozen text. Readability fixes to RV-4 paragraph 3, RV-5 teaser and the S1 link note.
+- modernCountries: Jamaica and South Africa/Genadendal removed from RV-5, held for one Open-Gaps item on missing country IDs.

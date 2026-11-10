@@ -19,12 +19,6 @@
      "place": "Rome",
      "placeId": "Q220",
      "pleiadesId": "423025"
-    },
-    {
-     "country": "Paraguay",
-     "countryId": "Q733",
-     "place": "Paraguay",
-     "placeId": "Q733"
     }
    ],
    "regions": [
@@ -41,16 +35,16 @@
    "glyph": "psc",
    "statusWord": "Researched — strong candidate",
    "statusDescription": "Proposed for a future survey as a Tier 1 entry for the window 1650 to 1814. Not yet reviewed.",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Good for the order's two ends and thin for the years between. The Library holds the pope's brief of suppression (1773) and his bull of restoration (1814). For the Paraguay towns it holds one book, by the librarian of the Duke of Modena, printed at Venice in 1743. Almost every text read is a Roman act or an outsider's account. No Jesuit letter or house history of the Paraguay or Russian years has been read, and no Guaraní voice.",
+   "sourcing": "Good for the order's two ends and thin for the years between. The Library holds the pope's brief of suppression (1773) and his bull of restoration (1814). For the Paraguay towns it holds one book, by the librarian of the Duke of Modena, printed at Venice in 1743. Almost every text read is a Roman act or an outsider's account. One Jesuit voice has been read: François Noël's memoir to his General of 1703, on China. No Jesuit letter or house history of the Paraguay or Russian years has been read, and no Guaraní voice.",
    "floorNote": "No question",
    "relationsSummary": "This is the Society of Jesus after 1650. It carries on the earlier entry on the Society. The entry on the Catholic Church of the old regime tells the suppression of 1773 from Rome's side. The entry on the Catholic Church in China tells the Rites dispute and the court mission at Peking. The entry on the Romanian Greek Catholic Church tells the union of 1698.",
-   "why": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its priests carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
+   "why": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its former members carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
    "entry": null,
-   "teaser": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its life in Russia until the restoration.",
-   "longDescription": "After 1650 the Society of Jesus carried on the order told in the earlier entry on the Society. Two acts of Rome in the Library frame these years. Clement XIV closed the Society by his brief of 21 July 1773. Pius VII restored it by his bull of 7 August 1814.\n\nIn Paraguay the Jesuits ran towns for the Guaraní people. Such towns were called reductions. In 1743 a book about them was printed at Venice. Its author, Muratori, was the Duke of Modena's librarian.\n\nThe name Reduction, he says, meant a people gathered and brought to live as a society and a commonwealth (a plain rendering). His title calls the work Happy Christianity.\n\nIn 1717, he says, there were more than thirty reductions. They held 121,178 souls. Jesuit fathers had baptized them all. They were the only missionaries. He also says raiders from the Portuguese colony of São Paulo destroyed fourteen Christian reductions in the Guaraní country. No Guaraní voice has been read here.\n\nIn 1741 Pope Benedict XIV wrote to the bishops of Brazil, Paraguay and the Río de la Plata. He condemned those who forced Indians into slavery or sold them, even baptized Indians. The bull does not name the Society.\n\nThen the Catholic kings turned on the order. Clement XIV's brief says the kings of France, Spain, Portugal and Sicily felt forced to drive its members from their lands. Among its charges are quarrels over missions in Europe, Africa and America. It also names \"certain idolatrous ceremonies adopted in certain places\". The brief does not name China. The pope then suppressed the company. The entry on the Catholic Church of the old regime tells that act from Rome's side. The entry on the Catholic Church in China tells the Rites dispute and the court mission at Peking.\n\nIn Russia the Society lived on. Pius VII's bull says that Francis Kareu and other priests had lived many years in the empire. They had been members of the Company of Jesus. They asked leave to unite in a body. Emperor Paul I had recommended them in a dispatch of 11 August 1800. By a brief of 7 March 1801 the pope let them form a congregation of the Company in Russia, and he named Kareu its general. In 1804 he gave the same leave to the Two Sicilies. On 7 August 1814 he extended it to all states.\n\nThe Jesuits also worked in Transylvania. A synod text of 1701, printed by Nilles in 1885, says the talks of union with Rome began by the work and skill of the Jesuit fathers at Alba Iulia (in a plain English rendering). The entry on the Romanian Greek Catholic Church tells that union, which was signed in 1698.\n\nThis entry ends with the restoration. The Society's nineteenth-century story is not yet told in an entry of its own.",
+   "teaser": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its former members in Russia, and the restoration.",
+   "longDescription": "After 1650 the Society of Jesus carried on the order told in the earlier entry on the Society. Two acts of Rome frame these years. Clement XIV closed the Society by his brief of 21 July 1773. Pius VII restored it by his bull of 7 August 1814.\n\nIn Paraguay the Jesuits ran towns for the Guaraní people. Such towns were called reductions. In 1743 a book about them was printed at Venice. Its author, Muratori, was the Duke of Modena's librarian.\n\nThe name Reduction, he says, meant a people gathered and brought to live as a society and a commonwealth (a plain rendering). His title calls the work Happy Christianity.\n\nIn 1717, he says, there were more than thirty reductions. They held 121,178 souls. Jesuit fathers had baptized them all. They were the only missionaries. He also says that raiders from the Portuguese colony of São Paulo had once destroyed fourteen Christian reductions in the Guaraní country.\n\nIn 1741 Pope Benedict XIV wrote to the bishops of Brazil, Paraguay and the Río de la Plata. He condemned those who forced Indians into slavery or sold them, even baptized Indians. The bull does not name the Society.\n\nThen the Catholic kings turned on the order. Clement XIV's brief says the kings of France, Spain, Portugal and Sicily felt forced to drive its members from their lands. Among its charges are quarrels over missions in Europe, Africa and America. It also names \"certain idolatrous ceremonies adopted in certain places\". The brief does not name China. The pope then suppressed the company. The entry on the Catholic Church of the old regime tells that act from Rome's side. In 1703 a Jesuit, François Noël, wrote from Rome, where he had been sent over the honors paid in China to Confucius and to the dead. The entry on the Catholic Church in China tells the Rites dispute and the court mission at Peking.\n\nIn Russia some of its former members carried on. Pius VII's bull says that Francis Kareu and other secular priests had lived many years in the empire. They had been members of the Company of Jesus. They asked leave to unite in a body. Emperor Paul I had recommended them in a dispatch of 11 August 1800. By a brief of 7 March 1801 the pope let them form a congregation of the Company in Russia, and he named Kareu its general. In 1804 he gave the same leave to the Two Sicilies. On 7 August 1814 he extended it to all states.\n\nThe Jesuits also worked in Transylvania. A synod text of 1701, printed by Nilles in 1885, says the talks of union with Rome began by the work and skill of the Jesuit fathers at Alba Iulia (in a plain English rendering). The entry on the Romanian Greek Catholic Church tells that union, which was signed in 1698.\n\nThis entry ends with the restoration. The Society's nineteenth-century story is not yet told in an entry of its own.",
    "voices": [
     "Clement XIV — who suppressed the Society by his brief of 21 July 1773",
     "Pius VII — who restored it by his bull of 7 August 1814, after letting its priests in Russia form a congregation in 1801",
@@ -74,7 +68,7 @@
     },
     {
      "name": "Pius VII",
-     "year": 1801,
+     "year": 1814,
      "voice": 1,
      "source": {
       "work": "Pius VII, bull Sollicitudo omnium ecclesiarum (7 August 1814), English from the Orthodox Journal, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
@@ -85,7 +79,43 @@
     }
    ],
    "reviewStatus": "AI-checked",
-   "ruling": "G89-1 b"
+   "ruling": "G89-1 b",
+   "livingEvidence": {
+    "basis": "The Society of Jesus is alive today, and this entry is its tradition from 1650 to the restoration. The Jesuits' own 2022 figures count 14,439 members. A news report of December 2021 says the order has about half the members it had in 1965.",
+    "evidence": "The Society of Jesus in Numbers, 2022 edition, Jesuits in Africa and Madagascar (2022): own-voice; verified. https://www.jesuits.africa/the-society-of-jesus-in-numbers-2022-edition/ | Pope Francis: halving of Jesuit numbers worldwide is a lesson in humility, EWTN News (16 December 2021): independent; verified. https://www.ewtnnews.com/vatican/pope-francis-halving-of-jesuit-numbers-worldwide-is-a-lesson-in-humility",
+    "grade": "CR (Contemporary-Reported); newest dated item 2022, newest verified 2022",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "The Bulls of Popes Clement XIV. and Pius VII. for the Suppression and Re-establishment of the Order of Jesuits (London, 1814)",
+     "type": "primary",
+     "note": "The pope's brief of 1773 and bull of 1814, in English. Held in the Library. These are Roman acts."
+    },
+    {
+     "work": "Lodovico Antonio Muratori, Il cristianesimo felice nelle missioni de' padri della Compagnia di Gesù nel Paraguai (Venice, 1743)",
+     "type": "primary",
+     "note": "An outsider's account, by the Duke of Modena's librarian. Read in full text online. The print is noisy.",
+     "url": "https://archive.org/download/A118051/A118051_djvu.txt"
+    },
+    {
+     "work": "Carl Mirbt, ed., Quellen zur Geschichte des Papsttums und des römischen Katholizismus, 3rd ed. (Tübingen, 1911)",
+     "type": "primary",
+     "note": "A source book of papal documents. Held in the Library. Only no. 454, a letter of Benedict XIV, is used."
+    },
+    {
+     "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+     "type": "primary",
+     "note": "A Latin collection of documents. Read in full text online. Only a synod text of 1701 is used. The print is noisy.",
+     "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt"
+    },
+    {
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris, 1843)",
+     "type": "primary",
+     "note": "A Jesuit collection. It holds Noël's memoir to his General of 1703. Read in full text online. The print is noisy.",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt"
+    }
+   ]
   },
   {
    "id": "catholics-of-the-ottoman-balkans",
@@ -99,20 +129,7 @@
    "end": 1815,
    "region": "Bosnia, Slavonia",
    "placeLabel": "Bosnia · Slavonia",
-   "modernCountries": [
-    {
-     "country": "Bosnia and Herzegovina",
-     "countryId": "Q225",
-     "place": "Bosnia",
-     "placeId": "Q225"
-    },
-    {
-     "country": "Croatia",
-     "countryId": "Q224",
-     "place": "Slavonia",
-     "placeId": "Q681964"
-    }
-   ],
+   "modernCountries": [],
    "regions": [
     "Asia Minor",
     "Mediterranean"
@@ -126,27 +143,39 @@
    "glyph": "psc",
    "statusWord": "Researched — viable, secondary",
    "statusDescription": "Proposed for a future survey as a Tier 2 entry for the window 1650 to 1815. The later years, to 1878, wait for one more source. Not yet reviewed.",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Thin, and from one side. The Library holds a calendar of documents on Bosnia, in Latin, printed at Zagreb in 1892 and running to 1752. It is a Roman and Franciscan record, not the people's own voice. No Franciscan chronicle in Croatian has been read. Nothing has been read on the Albanian or Bulgarian Catholics for these years.",
+   "sourcing": "Thin, and from one side. The Library holds a calendar of documents on Bosnia, in Latin, printed at Zagreb in 1892 and running to 1752. It prints Roman and Franciscan documents, among them a declaration in the name of the clergy and people, and not the people's own voice. No Franciscan chronicle in Croatian has been read. Nothing has been read on the Albanian or Bulgarian Catholics for these years.",
    "floorNote": "No question",
    "relationsSummary": "This entry tells the Catholics of Bosnia and Slavonia from 1650 to 1815, served by the friars of the Bosnian province. The calendar that tells it is a Roman and Franciscan record. Its later years, to 1878, wait for one more source.",
-   "why": "The friars of the Bosnian province spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that no bishop but the bishop of Bosnia had ruled that church for at least 170 years. In 1746 their provincial was still gathering proofs for the court at Vienna, to defend the province's parishes in Slavonia.",
+   "why": "The friars of the Bosnian province spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that for at least 170 years no bishop but the bishop of Bosnia had ruled that church. In 1746 their provincial gathered proofs for the court at Vienna, to defend the province's own parishes in Slavonia.",
    "entry": null,
-   "teaser": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province and their long quarrel over who ruled the Catholic parishes between the Sava and the Drava.",
-   "longDescription": "The Catholics of Bosnia and the lands north of it were served by the friars of the Bosnian province. The Library holds a calendar of their documents, printed at Zagreb in 1892. It is in Latin, and it is the main source for these years.\n\nOn 1 January 1689 the fathers of the Bosnian province met at Požega, in Slavonia. The calendar says they spoke in their own name and the people's. They declared that the bishops of Zagreb had never held jurisdiction in the Slavonian parts. The clergy and the Catholic people between the Sava and the Drava said that no bishop but the bishop of Bosnia had built up and ruled the church of Požega, for at least 170 years.\n\nThe Crown took a hand. In 1690, from Vienna, King Leopold ordered that the bishop of Bosnia be kept and defended in his rights in the district of Požega. This was to last until a judge had settled the questions.\n\nIn 1746 Franjo Ivanović wrote from Vienna to the guardians of Slavonia. He was provincial of Bosnia Argentina. That means Silver Bosnia (a plain rendering). He asked them to gather testimonies from nobles and faithful. The province would use them at the court of Vienna. They were to defend its rights in the Slavonian parishes.\n\nThis is a record of one long quarrel about parishes. It shows the friars speaking for their people. It does not show how the people themselves saw the friars. The Albanian and Bulgarian Catholics of these years are not yet read.",
+   "teaser": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province, and their fights over who held the Catholic parishes between the Sava and the Drava.",
+   "longDescription": "The Catholics of Bosnia and the lands north of it were served by the friars of the Bosnian province. A calendar of their documents, in Latin, was printed at Zagreb in 1892. It is the main source for these years.\n\nOn 1 January 1689 the fathers of the Bosnian province met at Požega, in Slavonia. The calendar says they spoke in their own name and the people's. They declared that the bishops of Zagreb had never held jurisdiction in the Slavonian parts. The clergy and the Catholic people between the Sava and the Drava said that no bishop but the bishop of Bosnia had built up and ruled the church of Požega, for at least 170 years.\n\nThe Crown took a hand. In 1690, from Vienna, King Leopold ordered that the bishop of Bosnia be kept and defended in his rights in the district of Požega. This was to last until a judge had settled the questions.\n\nIn 1746 Franjo Ivanović wrote from Vienna to the guardians of Slavonia. He was provincial of Bosnia Argentina. That means Silver Bosnia (a plain rendering). He asked them to gather testimonies from nobles and faithful. The province would use them at the court of Vienna. They were to defend its rights in the Slavonian parishes.\n\nThese are records of fights about parishes. They show the friars speaking for their people. They do not show how the people themselves saw the friars.",
    "voices": [
     "The fathers of the Bosnian province — who met at Požega on 1 January 1689 and spoke for the clergy and the people",
     "Franjo Ivanović — provincial of Bosnia Argentina, who in 1746 asked the guardians of Slavonia for testimonies to defend the province's parishes"
    ],
-   "legacy": "The quarrel over the Slavonian parishes was still open in 1746. The Library's calendar stops at 1752, so it does not show how the quarrel ended. The years after 1815 wait for one more source.",
+   "legacy": "In 1746 the province was still defending its parishes in Slavonia. The Library's calendar stops at 1752, so it does not show how that dispute ended. The years after 1815 wait for one more source.",
    "continuesAs": null,
    "documentedStories": [],
    "people": [],
-   "peopleNote": "The Library holds only a later editor's Latin summary of what these friars wrote. No voice here is quoted in his own words.",
+   "peopleNote": "The calendar prints the 1689 declaration in Latin, in the name of the clergy and people. It also prints the opening lines of Ivanović's 1746 letter in Croatian, but the scan is too damaged to quote. No single friar's own words are quoted.",
    "reviewStatus": "AI-checked",
-   "ruling": "G89-51 a"
+   "ruling": "G89-51 a",
+   "livingEvidence": {
+    "basis": "The Catholic Church of Bosnia and Croatia is alive today. This entry's sources end in 1815 and give no present-day evidence. No dated item after 2010 has been found for the friars' church of these years.",
+    "grade": "none (no dated item after 2010 found)",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "Eusebius Fermendzin, Acta Bosnae potissimum ecclesiastica (Zagreb, 1892)",
+     "type": "primary",
+     "note": "A Latin calendar of papal, royal and Franciscan documents. Held in the Library. It is the Roman and outside record, not the people's own voice."
+    }
+   ]
   }
  ],
  "fact_table": [
@@ -265,7 +294,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "longDescription",
-   "sentence": "He also says raiders from the Portuguese colony of São Paulo destroyed fourteen Christian reductions in the Guaraní country.",
+   "sentence": "He also says that raiders from the Portuguese colony of São Paulo had once destroyed fourteen Christian reductions in the Guaraní country.",
    "url": "https://archive.org/download/A118051/A118051_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/muratori.txt",
@@ -275,19 +304,12 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "longDescription",
-   "sentence": "He also says raiders from the Portuguese colony of São Paulo destroyed fourteen Christian reductions in the Guaraní country.",
+   "sentence": "He also says that raiders from the Portuguese colony of São Paulo had once destroyed fourteen Christian reductions in the Guaraní country.",
    "url": "https://archive.org/download/A118051/A118051_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/muratori.txt",
    "quote": "i deteftabili Mammalucchi , cioè 1 infame Colonia Portoghefe di S. Paolo",
    "work": "Lodovico Antonio Muratori, Il cristianesimo felice nelle missioni de' padri della Compagnia di Gesù nel Paraguai (Venice: Pasquali, 1743)"
-  },
-  {
-   "entry": "society-of-jesus-1650-1814",
-   "field": "longDescription",
-   "sentence": "No Guaraní voice has been read here.",
-   "record": "§4 LA8-2 B1 (none opened)",
-   "note": "An absence stated, not a claim about the sources."
   },
   {
    "entry": "society-of-jesus-1650-1814",
@@ -367,12 +389,12 @@
    "field": "longDescription",
    "sentence": "The entry on the Catholic Church in China tells the Rites dispute and the court mission at Peking.",
    "record": "§8 G89-1 b, G89-23 a (AP2 is their one home)",
-   "note": "A pointer only. No text read here names the Society at Peking or in the China dispute; the link RV-1 to AP2 is a hold."
+   "note": "A pointer to AP2 (G89-23 a is its one home). The link RV-1 to AP2 is drafted from Noël 1703 (see the next row)."
   },
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "longDescription",
-   "sentence": "In Russia the Society lived on. Pius VII's bull says that Francis Kareu and other priests had lived many years in the empire. They had been members of the Company of Jesus. They asked leave to unite in a body.",
+   "sentence": "In Russia some of its former members carried on. Pius VII's bull says that Francis Kareu and other secular priests had lived many years in the empire. They had been members of the Company of Jesus. They asked leave to unite in a body.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "143-147",
    "quote": "Francis Kareu (then living) and other secular Priests \" resident for many years in the vast empire of Russia, and who \" had been members of the Company of Jesus, suppressed by \" Clement XIV. of happy memory, had supplicated our permis- \" sion to unite in a body",
@@ -467,23 +489,13 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "longDescription",
-   "sentence": "The entry on the Romanian Greek Catholic Church tells that union, which was signed in 1698.",
-   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
-   "accessed": "2026-11-10",
-   "raw_file": "raw/nilles.txt",
-   "quote": "Albae-Juliae Unio Valacliorum graeci rittis cum Ec- cleaia Romana,",
-   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)"
-  },
-  {
-   "entry": "society-of-jesus-1650-1814",
-   "field": "longDescription",
    "sentence": "This entry ends with the restoration. The Society's nineteenth-century story is not yet told in an entry of its own.",
    "record": "honest limit; the record's RV-1 dates end at the restoration"
   },
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "why",
-   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its priests carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
+   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its former members carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "1273-1275",
    "quote": "the Kings of France, Spain, Portugal, \" and Sicily, found themselves reduced to the necessity of expel- \" line; and driving from their states, kingdoms, and provinces",
@@ -492,7 +504,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "why",
-   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its priests carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
+   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its former members carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "1366",
    "quote": "suppress and aeolish the said company",
@@ -501,7 +513,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "why",
-   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its priests carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
+   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its former members carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "143-147",
    "quote": "Francis Kareu (then living) and other secular Priests \" resident for many years in the vast empire of Russia, and who \" had been members of the Company of Jesus, suppressed by \" Clement XIV. of happy memory, had supplicated our permis- \" sion to unite in a body",
@@ -510,7 +522,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "why",
-   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its priests carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
+   "sentence": "Four kings drove the Society out of their lands, and in 1773 the pope closed it. In Russia some of its former members carried on. In 1814 Pius VII restored the order to the whole Catholic world.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "444-446",
    "quote": "shall henceforth \" extend to all our Ecclesiastical States, and also to all other \" States.",
@@ -547,7 +559,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "sourcing",
-   "sentence": "Almost every text read is a Roman act or an outsider's account. No Jesuit letter or house history of the Paraguay or Russian years has been read, and no Guaraní voice.",
+   "sentence": "Almost every text read is a Roman act or an outsider's account. One Jesuit voice has been read: François Noël's memoir to his General of 1703, on China. No Jesuit letter or house history of the Paraguay or Russian years has been read, and no Guaraní voice.",
    "record": "an absence stated; §7 RV-1 evidence list (wanted: Dobrizhoffer 1784, Pragmatic Sanction 1767, a Polotsk source)"
   },
   {
@@ -593,9 +605,9 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "modernCountries",
-   "sentence": "Italy (Rome) and Paraguay",
+   "sentence": "Italy (Rome)",
    "record": "Muratori 1743 (Paraguay); the papal acts (Rome)",
-   "note": "The validator takes modern countries only from the two places on the place label. Italy/Rome IDs copied from census VI.11. Paraguay Q733 looked up in Wikidata on 2026-11-10, not in any census row. Russia, Spain, France and Portugal, which the sources also name, are left off for that reason. See flags."
+   "note": "Italy and Rome IDs copied from census VI.11. Paraguay is left out: no census row carries it (see holds)."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
@@ -638,7 +650,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "longDescription",
-   "sentence": "The Library holds a calendar of their documents, printed at Zagreb in 1892. It is in Latin, and it is the main source for these years.",
+   "sentence": "A calendar of their documents, in Latin, was printed at Zagreb in 1892. It is the main source for these years.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "1",
    "quote": "Title: Acta Bosnae potissimum ecclesiastica cum insertis editorum documentorum regestis ab anno 925 usque ad annum 1752",
@@ -647,7 +659,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "longDescription",
-   "sentence": "The Library holds a calendar of their documents, printed at Zagreb in 1892. It is in Latin, and it is the main source for these years.",
+   "sentence": "A calendar of their documents, in Latin, was printed at Zagreb in 1892. It is the main source for these years.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "4",
    "quote": "Publication Date: 1892",
@@ -656,7 +668,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "longDescription",
-   "sentence": "The Library holds a calendar of their documents, printed at Zagreb in 1892. It is in Latin, and it is the main source for these years.",
+   "sentence": "A calendar of their documents, in Latin, was printed at Zagreb in 1892. It is the main source for these years.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "10",
    "quote": "Content note: A calendar of papal, royal, Ragusan and Franciscan documents on Bosnia from 925 to 1752",
@@ -670,7 +682,7 @@
    "lines": "24876-24880",
    "quote": "MCCCCLX. 1689, 1 Janii, Poiegae. Patres provinciae Bosnensis, in partibus Slavoniae, Pozegae congregati. enuntiant sui et populi nomine, episcopos Zagrabienses nullam unquam exercuisse iurisdictionem in partes Slavonicas,",
    "work": "Eusebius Fermendzin, Acta Bosnae potissimum ecclesiastica (Zagreb, 1892)",
-   "note": "OCR \"Janii\" and \"Poiegae\" for Januarii and Pozegae; \"1 January\" follows the record. The regest is the editor's Latin summary."
+   "note": "OCR \"Janii\" and \"Poiegae\" for Januarii and Pozegae; \"1 January\" follows the record. The regest is the editor's Latin summary. The 1689 declaration itself, printed after the regest, is in the next row."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
@@ -680,7 +692,7 @@
    "lines": "24883-24884",
    "quote": "Universus clerus et populus catholicus intra Savum et Dravam",
    "work": "Eusebius Fermendzin, Acta Bosnae potissimum ecclesiastica (Zagreb, 1892)",
-   "note": "The Latin \"erexit et administravit\" is rendered \"built up and ruled\" (my rendering)."
+   "note": "The declaration itself is printed in Latin after the regest, in the name of the whole clergy and people. The 170 years (\"saltem a centum septuaginta annis\") are read from this text at lines 24887-24889 and not from the editor's summary. Rendering mine: \"erexit et administravit\" is \"built up and ruled\"."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
@@ -725,13 +737,14 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "longDescription",
-   "sentence": "This is a record of one long quarrel about parishes. It shows the friars speaking for their people. It does not show how the people themselves saw the friars. The Albanian and Bulgarian Catholics of these years are not yet read.",
-   "record": "honest limit; §7 RV-3 evidence 4 (wanted items)"
+   "sentence": "These are records of fights about parishes. They show the friars speaking for their people. They do not show how the people themselves saw the friars.",
+   "record": "honest limit; §7 RV-3 evidence 4 (wanted items)",
+   "note": "A limit stated; the 1689 text and the 1746 letter are about parishes, not about how the people saw the friars."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "why",
-   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that no bishop but the bishop of Bosnia had ruled that church for at least 170 years. In 1746 their provincial was still gathering proofs for the court at Vienna, to defend the province's parishes in Slavonia.",
+   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that for at least 170 years no bishop but the bishop of Bosnia had ruled that church. In 1746 their provincial gathered proofs for the court at Vienna, to defend the province's own parishes in Slavonia.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "24876-24880",
    "quote": "MCCCCLX. 1689, 1 Janii, Poiegae. Patres provinciae Bosnensis, in partibus Slavoniae, Pozegae congregati. enuntiant sui et populi nomine, episcopos Zagrabienses nullam unquam exercuisse iurisdictionem in partes Slavonicas,",
@@ -740,7 +753,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "why",
-   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that no bishop but the bishop of Bosnia had ruled that church for at least 170 years. In 1746 their provincial was still gathering proofs for the court at Vienna, to defend the province's parishes in Slavonia.",
+   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that for at least 170 years no bishop but the bishop of Bosnia had ruled that church. In 1746 their provincial gathered proofs for the court at Vienna, to defend the province's own parishes in Slavonia.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "24887-24889",
    "quote": "nunquam ecelesiam Poseganam ullns alius, . quam episcopus Bosnensis, erexit (sic) et administravit ; neque alius ullus in ea agnitus fuit pro episcopo, saltem a centum septuaginta annis",
@@ -749,7 +762,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "why",
-   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that no bishop but the bishop of Bosnia had ruled that church for at least 170 years. In 1746 their provincial was still gathering proofs for the court at Vienna, to defend the province's parishes in Slavonia.",
+   "sentence": "The friars spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that for at least 170 years no bishop but the bishop of Bosnia had ruled that church. In 1746 their provincial gathered proofs for the court at Vienna, to defend the province's own parishes in Slavonia.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "25822-25827",
    "quote": "MCCCCXCIV. 1746, 5 Jnl«, Vlennae. jpy. FraneiBciiS IvanoviS, minister provincialis Bosnae argentinae, patribus guardianis Slavoniae scribit, ut procurent attestata nohUium et fidelium pro defendendia penes aulam Viennensem iuribus provinciae Bosnensis in parochias Slavoniae.",
@@ -783,7 +796,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "legacy",
-   "sentence": "The quarrel over the Slavonian parishes was still open in 1746. The Library's calendar stops at 1752.",
+   "sentence": "In 1746 the province was still defending its parishes in Slavonia. The Library's calendar stops at 1752.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "25822-25827",
    "quote": "MCCCCXCIV. 1746, 5 Jnl«, Vlennae. jpy. FraneiBciiS IvanoviS, minister provincialis Bosnae argentinae, patribus guardianis Slavoniae scribit, ut procurent attestata nohUium et fidelium pro defendendia penes aulam Viennensem iuribus provinciae Bosnensis in parochias Slavoniae.",
@@ -792,7 +805,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "legacy",
-   "sentence": "The quarrel over the Slavonian parishes was still open in 1746. The Library's calendar stops at 1752.",
+   "sentence": "In 1746 the province was still defending its parishes in Slavonia. The Library's calendar stops at 1752.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "10",
    "quote": "Content note: A calendar of papal, royal, Ragusan and Franciscan documents on Bosnia from 925 to 1752",
@@ -819,9 +832,9 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "modernCountries",
-   "sentence": "Bosnia and Herzegovina (Bosnia), Croatia (Slavonia)",
+   "sentence": "No country IDs",
    "record": "Fermendzin 1892 regests 1689, 1746",
-   "note": "no census row names these places; Wikidata IDs Q225, Q224, Q681964 looked up on 2026-11-10 (wbsearchentities). The place Bosnia carries the country id Q225, as the Brazil row does. See flags."
+   "note": "No census row carries Bosnia, Croatia or Slavonia, so the list is empty. The IDs are in holds."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
@@ -850,7 +863,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "teaser",
-   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its life in Russia until the restoration.",
+   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its former members in Russia, and the restoration.",
    "url": "https://archive.org/download/A118051/A118051_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/muratori.txt",
@@ -860,7 +873,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "teaser",
-   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its life in Russia until the restoration.",
+   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its former members in Russia, and the restoration.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "1273-1275",
    "quote": "the Kings of France, Spain, Portugal, \" and Sicily, found themselves reduced to the necessity of expel- \" line; and driving from their states, kingdoms, and provinces",
@@ -869,7 +882,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "teaser",
-   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its life in Russia until the restoration.",
+   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its former members in Russia, and the restoration.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "1366",
    "quote": "suppress and aeolish the said company",
@@ -878,7 +891,7 @@
   {
    "entry": "society-of-jesus-1650-1814",
    "field": "teaser",
-   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its life in Russia until the restoration.",
+   "sentence": "The Society of Jesus, 1650 to 1814. Its Paraguay towns. Its expulsion by four kings. Its suppression in 1773. Its former members in Russia, and the restoration.",
    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
    "lines": "143-147",
    "quote": "Francis Kareu (then living) and other secular Priests \" resident for many years in the vast empire of Russia, and who \" had been members of the Company of Jesus, suppressed by \" Clement XIV. of happy memory, had supplicated our permis- \" sion to unite in a body",
@@ -907,7 +920,7 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "teaser",
-   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province and their long quarrel over who ruled the Catholic parishes between the Sava and the Drava.",
+   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province, and their fights over who held the Catholic parishes between the Sava and the Drava.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "24876-24880",
    "quote": "MCCCCLX. 1689, 1 Janii, Poiegae. Patres provinciae Bosnensis, in partibus Slavoniae, Pozegae congregati. enuntiant sui et populi nomine, episcopos Zagrabienses nullam unquam exercuisse iurisdictionem in partes Slavonicas,",
@@ -916,16 +929,17 @@
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "teaser",
-   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province and their long quarrel over who ruled the Catholic parishes between the Sava and the Drava.",
+   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province, and their fights over who held the Catholic parishes between the Sava and the Drava.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "24883-24884",
    "quote": "Universus clerus et populus catholicus intra Savum et Dravam",
-   "work": "Eusebius Fermendzin, Acta Bosnae potissimum ecclesiastica (Zagreb, 1892)"
+   "work": "Eusebius Fermendzin, Acta Bosnae potissimum ecclesiastica (Zagreb, 1892)",
+   "note": "The declaration itself is printed in Latin after the regest, in the name of the whole clergy and people. The 170 years (\"saltem a centum septuaginta annis\") are read from this text at lines 24887-24889 and not from the editor's summary. Rendering mine: \"erexit et administravit\" is \"built up and ruled\"."
   },
   {
    "entry": "catholics-of-the-ottoman-balkans",
    "field": "teaser",
-   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province and their long quarrel over who ruled the Catholic parishes between the Sava and the Drava.",
+   "sentence": "Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province, and their fights over who held the Catholic parishes between the Sava and the Drava.",
    "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
    "lines": "25822-25827",
    "quote": "MCCCCXCIV. 1746, 5 Jnl«, Vlennae. jpy. FraneiBciiS IvanoviS, minister provincialis Bosnae argentinae, patribus guardianis Slavoniae scribit, ut procurent attestata nohUium et fidelium pro defendendia penes aulam Viennensem iuribus provinciae Bosnensis in parochias Slavoniae.",
@@ -976,7 +990,7 @@
   {
    "entry": "catholic-church-ancien-regime",
    "field": "longDescription",
-   "sentence": "In 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. It judged the cult merely civil and political.",
+   "sentence": "In 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. The cult, it said, seemed merely civil and political.",
    "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
    "lines": "7131-7135",
    "quote": "S. C. S. Officii 23 Martii 1656. — Ab aliquibus in regno Sinarum missionariis pro- posita fuerunt, anno 1645, Sacrae Congrega- tioni de Propaganda Fide infrascripta et alia quamplurima quaesita",
@@ -986,7 +1000,7 @@
   {
    "entry": "catholic-church-ancien-regime",
    "field": "longDescription",
-   "sentence": "In 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. It judged the cult merely civil and political.",
+   "sentence": "In 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. The cult, it said, seemed merely civil and political.",
    "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
    "lines": "7486-7488",
    "quote": "censuit permittendas sinensi- bus christianis praenomatas caeremonias, quia videtur cultus esse mere civilis et politicus.",
@@ -1038,8 +1052,8 @@
    "field": "longDescription",
    "sentence": "In 1726 Propaganda ruled that native priests must swear an oath too. This covered China, Tonkin and Cochinchina. The oath was the one set by the constitution Ex illa die.",
    "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
-   "lines": "18656-18658",
-   "quote": "R. Omnes etiam presbyteros indigenas, si- nenses, cocincinenses, tunquinenses etc. teneri emittere iuramentum praescriptum in Const.",
+   "lines": "18656-18659",
+   "quote": "R. Omnes etiam presbyteros indigenas, si- nenses, cocincinenses, tunquinenses etc. teneri emittere iuramentum praescriptum in Const. x illa die (1).",
    "work": "Collectanea S. Congregationis de Propaganda Fide, vol. I (Rome, 1907)",
    "note": "The OCR prints the year as 17236; entries before and after are 1726 and 1727, and the record reads 4 October 1726. The entry does not say that Ex illa die concerns the Rites, so the line does not say it."
   },
@@ -1217,28 +1231,97 @@
   {
    "entry": "catholic-church-long-nineteenth-century",
    "field": "longDescription",
-   "sentence": "The Catholic Church in Africa in the twentieth century has its own entry. It grew from missions like these. The texts read here show the White Fathers at work in 1888. They do not trace the line to the later church.",
+   "sentence": "The Catholic Church in Africa in the twentieth century has its own entry. It grew from missions like these, though the sources here stop at the White Fathers of 1888.",
    "url": "https://archive.org/download/cardinallaviger01clargoog/cardinallaviger01clargoog_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/clarke.txt",
    "quote": "My missioners, the White Fathers^ — so called on account of their habit — are established in the Sahara and upon the high table-lands of Central Africa, from the north of Nyanza to the south of Tanganyika.",
    "work": "Richard F. Clarke, ed., Cardinal Lavigerie and the African Slave Trade (London: Longmans, Green, 1889)",
    "note": "The sentence is qualified because the link VIII.29 to IX.59 is graded Inferential-Thin. \"It grew from missions like these\" is the reading of Hastings (1994), cited at IX.59, not read here."
+  },
+  {
+   "entry": "society-of-jesus-1650-1814",
+   "field": "longDescription",
+   "sentence": "The entry on the Romanian Greek Catholic Church tells that union, which was signed in 1698.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt",
+   "quote": "Nos infraacripti Vladica, protoprosbyteri ae presbyte- ri ecclesiaruni ValaclHcarum",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "note": "The act of union: the Romanian bishop and clergy as signers. OCR is badly damaged; the scan gives only the signers' opening words."
+  },
+  {
+   "entry": "society-of-jesus-1650-1814",
+   "field": "longDescription",
+   "sentence": "The entry on the Romanian Greek Catholic Church tells that union, which was signed in 1698.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt",
+   "quote": "Datum Albae-Juliae anno Domini 1698 die 7. Octobris.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "note": "The dating line of the act."
+  },
+  {
+   "entry": "society-of-jesus-1650-1814",
+   "field": "longDescription",
+   "sentence": "In 1703 a Jesuit, François Noël, wrote from Rome, where he had been sent over the honors paid in China to Confucius and to the dead.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/lettres3.txt",
+   "quote": "AU RÉVÉREND PÈRE GÉNÉRAL DE LA COMPAGNIE DE JESUS,",
+   "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+   "note": "Heading of Noël's memoir to the Jesuit General; the same memoir is dated 1703 in its title line."
+  },
+  {
+   "entry": "society-of-jesus-1650-1814",
+   "field": "longDescription",
+   "sentence": "In 1703 a Jesuit, François Noël, wrote from Rome, where he had been sent over the honors paid in China to Confucius and to the dead.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/lettres3.txt",
+   "quote": "la grande et importante affaire des honneurs qu'on rend à la Chine à Confucius el aux morts",
+   "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+   "note": "Noël says he was sent to Rome, with Gaspard Castner, on this affair (\"j'ai été envoyé ici\"; the memoir was presented in Rome)."
+  },
+  {
+   "entry": "society-of-jesus-1650-1814",
+   "field": "longDescription",
+   "sentence": "The entry on the Catholic Church in China tells the Rites dispute and the court mission at Peking.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/lettres3.txt",
+   "quote": "Quoique nous ayons déjà (rois églises à Pé- kin",
+   "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+   "note": "Link society-of-jesus-1650-1814 to chinese-catholicism-1650-1906 is drafted here (S1). OCR \"(rois\" is trois."
+  },
+  {
+   "entry": "catholics-of-the-ottoman-balkans",
+   "field": "livingEvidence",
+   "sentence": "The Catholic Church of Bosnia and Croatia is alive today. This entry's sources end in 1815 and give no present-day evidence.",
+   "record": "§7 RV-3 sweep record: living yes [S], no dated item after 2010 read",
+   "note": "Living rule: no living carrier in the census, so living:true with grade none and a want."
   }
  ],
  "neighbor_changes": [
   {
    "id": "the-society-of-jesus",
    "set": {
-    "continuesAs": "society-of-jesus-1650-1814"
+    "continuesAs": "society-of-jesus-1650-1814",
+    "livingEvidence": {
+     "basis": "The Society of Jesus is alive today, and its tradition carries on in the entry for 1650 to 1814, which holds the evidence. The Jesuits' own 2022 figures count 14,439 members.",
+     "carrier": [
+      "society-of-jesus-1650-1814"
+     ],
+     "group": "line"
+    }
    },
    "ruling": "G89-1 b",
-   "reason": "RV-1 continues VI.11 (the one Society of Jesus, as Mark asked); VI.11 had no continuesAs. Era 7 to era 8 is adjacent, so the validator allows it."
+   "reason": "RV-1 continues VI.11 (the one Society of Jesus, as Mark asked); VI.11 had no continuesAs. Era 7 to era 8 is adjacent, so the validator allows it. Its livingEvidence moves to RV-1, the latest Jesuit entry, and this row names RV-1 as carrier."
   },
   {
    "id": "catholic-church-ancien-regime",
    "set": {
-    "longDescription": "This was the Catholic Church at the height of its establishment and on the edge of its worst crisis: enormously wealthy, woven into the monarchies of Europe, and increasingly unable to control them. Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it. Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773. Then came the Revolution: church property nationalized, clergy required to swear to a Civil Constitution that split them into jurors and refractories, thousands killed or driven abroad, and Pope Pius VI carried off to die a French prisoner in 1799. His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.\n\nRome ran its missions through Propaganda, the congregation for spreading the faith. Its collected decrees show three acts in these years.\n\nIn 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. It judged the cult merely civil and political.\n\nIn 1659 Propaganda sent orders to its vicars apostolic. They were not to urge any people to change its rites, customs and ways. What is more absurd, it asked, than to carry France, Spain or Italy into China (in a plain English rendering)?\n\nIn 1726 Propaganda ruled that native priests must swear an oath too. This covered China, Tonkin and Cochinchina. The oath was the one set by the constitution Ex illa die."
+    "longDescription": "This was the Catholic Church at the height of its establishment and on the edge of its worst crisis: enormously wealthy, woven into the monarchies of Europe, and increasingly unable to control them. Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it. Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773. Then came the Revolution: church property nationalized, clergy required to swear to a Civil Constitution that split them into jurors and refractories, thousands killed or driven abroad, and Pope Pius VI carried off to die a French prisoner in 1799. His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.\n\nRome ran its missions through Propaganda, the congregation for spreading the faith. Its collected decrees show three acts in these years.\n\nIn 1656 the Holy Office ruled on a set of questions. Missionaries in China had sent them to Propaganda in 1645. Chinese Christians could keep certain rites, it said. The cult, it said, seemed merely civil and political.\n\nIn 1659 Propaganda sent orders to its vicars apostolic. They were not to urge any people to change its rites, customs and ways. What is more absurd, it asked, than to carry France, Spain or Italy into China (in a plain English rendering)?\n\nIn 1726 Propaganda ruled that native priests must swear an oath too. This covered China, Tonkin and Cochinchina. The oath was the one set by the constitution Ex illa die."
    },
    "ruling": "G89-2 a",
    "reason": "Propaganda as named lines in VII.19: the 1656 Holy Office answer on the Chinese ceremonies, the 1659 instruction to the vicars apostolic and the 1726 oath ruling. Four paragraphs added after the existing paragraph; the existing text is unchanged."
@@ -1246,7 +1329,7 @@
   {
    "id": "catholic-church-long-nineteenth-century",
    "set": {
-    "longDescription": "Between the fall of Napoleon and the eve of the First World War, the Catholic Church lost a state and gained a papacy. Gregory XVI and then Pius IX met the liberal century head-on: Pius defined the Immaculate Conception in 1854, cataloged the errors of the age in the Syllabus of 1864, and in July 1870 saw the First Vatican Council define papal infallibility. Weeks before Italian troops entered Rome and ended the Papal States. Stripped of territory, the papacy grew in reach instead: bishops and ordinary Catholics looked to Rome as never before, new congregations of sisters and brothers staffed schools and hospitals across the world, and mass devotion gathered around Marian apparitions like Lourdes in 1858. Under Leo XIII the church that had spent decades condemning the modern world began to negotiate with it, most consequentially in Rerum Novarum (1891), which put the church on the side of a worker's right to a living wage and to organize.\n\nRome still ran the missions through Propaganda. In 1845 it wrote to a vicar apostolic. It called it a grave abuse, not to be borne, to baptize again all whom catechists had baptized (a plain rendering).\n\nMission work grew far beyond Europe. Charles Lavigerie reached Algiers as archbishop on 16 May 1867. In London on 31 July 1888 he spoke of his missioners, the White Fathers. They were settled in the Sahara and on the high lands of Central Africa.\n\nDaniele Comboni wrote a plan for Africa. The press of Propaganda in Rome printed it in 1867. He asked whether Africa could be won by means of Africa (a plain rendering).\n\nIn 1893 Launay printed a story told by a seminary director in Paris. Some priests, he said, had taken his society for the Lazarists, the Jesuits or the Holy Spirit Society. His society, he said, was quite distinct from the others.\n\nHis society was the Foreign Missions of Paris. Launay says it was born in 1658. It grew in the persecutions of Tonkin, Cochinchina and China.\n\nIn 1814 Pius VII had restored the Jesuits to all states.\n\nThe Catholic Church in Africa in the twentieth century has its own entry. It grew from missions like these. The texts read here show the White Fathers at work in 1888. They do not trace the line to the later church."
+    "longDescription": "Between the fall of Napoleon and the eve of the First World War, the Catholic Church lost a state and gained a papacy. Gregory XVI and then Pius IX met the liberal century head-on: Pius defined the Immaculate Conception in 1854, cataloged the errors of the age in the Syllabus of 1864, and in July 1870 saw the First Vatican Council define papal infallibility. Weeks before Italian troops entered Rome and ended the Papal States. Stripped of territory, the papacy grew in reach instead: bishops and ordinary Catholics looked to Rome as never before, new congregations of sisters and brothers staffed schools and hospitals across the world, and mass devotion gathered around Marian apparitions like Lourdes in 1858. Under Leo XIII the church that had spent decades condemning the modern world began to negotiate with it, most consequentially in Rerum Novarum (1891), which put the church on the side of a worker's right to a living wage and to organize.\n\nRome still ran the missions through Propaganda. In 1845 it wrote to a vicar apostolic. It called it a grave abuse, not to be borne, to baptize again all whom catechists had baptized (a plain rendering).\n\nMission work grew far beyond Europe. Charles Lavigerie reached Algiers as archbishop on 16 May 1867. In London on 31 July 1888 he spoke of his missioners, the White Fathers. They were settled in the Sahara and on the high lands of Central Africa.\n\nDaniele Comboni wrote a plan for Africa. The press of Propaganda in Rome printed it in 1867. He asked whether Africa could be won by means of Africa (a plain rendering).\n\nIn 1893 Launay printed a story told by a seminary director in Paris. Some priests, he said, had taken his society for the Lazarists, the Jesuits or the Holy Spirit Society. His society, he said, was quite distinct from the others.\n\nHis society was the Foreign Missions of Paris. Launay says it was born in 1658. It grew in the persecutions of Tonkin, Cochinchina and China.\n\nIn 1814 Pius VII had restored the Jesuits to all states.\n\nThe Catholic Church in Africa in the twentieth century has its own entry. It grew from missions like these, though the sources here stop at the White Fathers of 1888."
    },
    "ruling": "G89-2 a, G89-10 a",
    "reason": "Propaganda as a named line in VIII.29, and AF-6's line widened to the whole nineteenth-century Catholic mission revival: Lavigerie and the White Fathers, Comboni, the Foreign Missions of Paris, the Lazarists, the Spiritans (as the Holy Spirit Society) and the restored Jesuits. Added after the existing paragraph; the existing text is unchanged."
@@ -1346,7 +1429,7 @@
    "to": "society-of-jesus-1650-1814",
    "type": "in contact with",
    "confidence": "Inferential-Thin",
-   "note": "A synod text of 1701 says the talks of union with Rome began by the work and skill of the Jesuit fathers at Alba Iulia (in a plain English rendering). An act of union of the Romanian clergy is dated Alba Iulia, 7 October 1698. This rests on one Latin edition of 1885, printed with heavy damage to its text.",
+   "note": "A synod text of 1701 says the talks of union with Rome began by the work and skill of the Jesuit fathers at Alba Iulia (in a plain English rendering). An act of union of the Romanian clergy is dated Alba Iulia, 7 October 1698. This rests on one Latin edition of 1885, and its scan is badly damaged.",
    "sources": [
     {
      "kind": "primary",
@@ -1355,9 +1438,9 @@
      "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
      "accessed": "2026-11-10",
      "raw_file": "raw/nilles.txt",
-     "locus": "Ex Synodo anni 1701, on the beginning of the talks",
-     "quote": "Octarus jam volvitur annus, quod opera ac solertia Patrum S. J., Albae-Juliae degen- tium, de unione cum Sancta Homano-catholica Ecclcsia agere coepimus.",
-     "license": "public-domain"
+     "license": "public-domain",
+     "locus": "the act of union, Alba Iulia, 7 October 1698: the signers",
+     "quote": "Nos infraacripti Vladica, protoprosbyteri ae presbyte- ri ecclesiaruni ValaclHcarum"
     },
     {
      "kind": "primary",
@@ -1377,14 +1460,24 @@
      "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
      "accessed": "2026-11-10",
      "raw_file": "raw/nilles.txt",
-     "locus": "the editor's heading on the union at Alba Iulia",
-     "quote": "Albae-Juliae Unio Valacliorum graeci rittis cum Ec- cleaia Romana,",
+     "locus": "Ex Synodo anni 1701, on the beginning of the talks",
+     "quote": "Octarus jam volvitur annus, quod opera ac solertia Patrum S. J., Albae-Juliae degen- tium, de unione cum Sancta Homano-catholica Ecclcsia agere coepimus.",
      "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+     "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/nilles.txt",
+     "license": "public-domain",
+     "locus": "Ex Synodo anni 1701, the clergy enter the Roman Church",
+     "quote": "visum est, ut in gremium Sanctae Romanae Ecolosiae nos reciperemus."
     }
    ],
    "citation_specificity": "B",
    "verification_state": "verified-online",
-   "outcome": "In 1698 the Romanian clergy at Alba Iulia joined Rome. Jesuit fathers there had opened the talks.",
    "ruling": "G89-1 b, G89-41 a"
   },
   {
@@ -1431,9 +1524,96 @@
    "citation_specificity": "B",
    "verification_state": "verified-online",
    "ruling": "G89-10 a"
+  },
+  {
+   "id": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "from": "chinese-catholicism-1650-1906",
+   "to": "society-of-jesus-1650-1814",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/lettres3.txt",
+     "locus": "Noël's memoir on the state of the China missions, 1703: its heading",
+     "quote": "AU RÉVÉREND PÈRE GÉNÉRAL DE LA COMPAGNIE DE JESUS,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/lettres3.txt",
+     "locus": "Noël's memoir, opening: why he was sent",
+     "quote": "la grande et importante affaire des honneurs qu'on rend à la Chine à Confucius el aux morts",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/lettres3.txt",
+     "locus": "Noël's memoir, on the Peking churches",
+     "quote": "Quoique nous ayons déjà (rois églises à Pé- kin",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-1 b, G89-23 a"
+  },
+  {
+   "id": "catholic-church-ancien-regime--chinese-catholicism-1650-1906",
+   "from": "catholic-church-ancien-regime",
+   "to": "chinese-catholicism-1650-1906",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1656 the Holy Office said Chinese Christians could keep certain rites. In 1726 Propaganda ruled on the native priests of China, Tonkin and Cochinchina. Rome ruled on the church of China in both years.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collectanea S. Congregationis de Propaganda Fide, vol. I (Rome, 1907)",
+     "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
+     "lines": "7486-7488",
+     "locus": "Holy Office, 23 March 1656, the answer on the Chinese ceremonies",
+     "quote": "censuit permittendas sinensi- bus christianis praenomatas caeremonias, quia videtur cultus esse mere civilis et politicus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collectanea S. Congregationis de Propaganda Fide, vol. I (Rome, 1907)",
+     "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
+     "lines": "18656-18659",
+     "locus": "Propaganda, 4 October 1726, the oath of native priests",
+     "quote": "R. Omnes etiam presbyteros indigenas, si- nenses, cocincinenses, tunquinenses etc. teneri emittere iuramentum praescriptum in Const. x illa die (1).",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "In 1726 Rome ruled that Chinese priests must swear an oath. So must those of Tonkin and Cochinchina. The constitution Ex illa die set the oath.",
+   "ruling": "G89-2 a"
   }
  ],
- "retire_links": [],
+ "retire_links": [
+  {
+   "id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "reason": "It dated Rome's acts of 1773 and 1814 to the Society's row ending in 1650. Under G89-1 b the Society's later years sit in the row for 1650 to 1814, and the new link from the entry on the Catholic Church of the old regime to that row replaces this one.",
+   "replacedBy": "catholic-church-ancien-regime--society-of-jesus-1650-1814",
+   "ruling": "G89-1 b"
+  }
+ ],
  "holds": [
   {
    "item": "RV-3, era 9 part: the Catholics of Bosnia, Albania and Bulgaria, 1815-1878",
@@ -1454,12 +1634,6 @@
    "waits_for": "the Albanian council of 1703 (Concilium Albanum) and a source on the Bulgarian Catholics before 1815."
   },
   {
-   "item": "Link RV-1 to AP2 (the China row): the Society and the Catholic Church in China",
-   "g89": "G89-1 b, G89-23 a",
-   "reason": "The record asks for a pointer in RV-1 and a link. The pointer is drafted, worded as a pointer. No text read here names the Society at Peking or in the Rites dispute: the 1656 Holy Office answer names \"missionaries\" in China, not Jesuits, and Clement XIV's brief names ceremonies \"in certain places\", not China. A link would claim a tie the texts do not show.",
-   "waits_for": "a text that names the Society at Peking or in the Rites dispute, for example the AP2 drafter's sources (de Mailla, Peking, 16 October 1724, in the Lettres edifiantes vol. 3, opened raw by the record) or the Society's own letters."
-  },
-  {
    "item": "RV-1: the dates of the expulsions (1759-67), the Malabar and Madurai rites, the Pragmatic Sanction of 1767",
    "g89": "G89-1 b",
    "reason": "The record marks the expulsion dates [S] and the Malabar and Madurai rites [S]; only V items carry a sentence. The text says the four kings expelled the Society but gives no year.",
@@ -1474,7 +1648,7 @@
   {
    "item": "AF-6 line in VIII.29: the parts not drafted",
    "g89": "G89-2 a, G89-10 a",
-   "reason": "The record marks as [S] the Spiritans under Libermann, the Society of African Missions of Lyon, Comboni's institutes, Laval in Mauritius, Ohrwalder, de Jacobis and the Lazarist work in China and Ethiopia, and the later work of the restored Jesuits. They stay out of the line. The Lazarists, the Holy Spirit Society and the Jesuits appear in the line only as names in Launay's story of 1893.",
+   "reason": "The record marks as [S] the Spiritans under Libermann, the Society of African Missions of Lyon, Comboni's institutes, Laval in Mauritius, Ohrwalder, de Jacobis and the Lazarist work in China and Ethiopia, and the later work of the restored Jesuits. They stay out of the line. The Lazarists, the Holy Spirit Society and the Jesuits appear in the line only as names in Launay's story of 1893. Oceania: no source read for the Catholic missions there before 1906.",
    "waits_for": "a read source for each: Hastings 1994 (named, not read), Laval and Ohrwalder, a Lazarist history."
   },
   {
@@ -1482,6 +1656,24 @@
    "g89": "G89-2 a",
    "reason": "The Library holds only volume I of the Collectanea (to 1866). The named line uses one entry of 1845 and Comboni's title page of 1867. The record names no V item for Propaganda after 1815.",
    "waits_for": "volume II of the Collectanea (1867 to 1906), if the source thread vendors it."
+  },
+  {
+   "item": "Link RV-1 to AP3 (Japan's hidden Christians)",
+   "g89": "G89-1 b",
+   "reason": "The ruling links AP3 to RV-1. No text read shows the Society in contact with the hidden communities between 1650 and 1814. Their tie to the order runs through VI.11 and Kirishitan Japan, which are already linked. A link would claim a contact the sources do not show.",
+   "waits_for": "a text showing a Jesuit tie to the hidden communities in the window, or Mark's leave to rest on the existing VI.11 to VI.13b line."
+  },
+  {
+   "item": "modernCountries IDs removed from RV-1 and RV-3 (census-rows-only rule)",
+   "g89": "G89-1 b, G89-51 a",
+   "reason": "No census row carries these countries, so the IDs are left out of the rows. Each was re-checked on Wikidata by the reviewer on 2026-11-10: Paraguay Q733 (RV-1, place Paraguay), Bosnia and Herzegovina Q225 (RV-3, place Bosnia), Croatia Q224 and Slavonia Q681964 (RV-3, place Slavonia). RV-1 keeps Italy Q38 and Rome Q220 from VI.11.",
+   "waits_for": "one Open-Gaps item: add these countries to the rows once the release rule allows IDs from outside the census."
+  },
+  {
+   "item": "Candidate secondary quote for the link chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "g89": "(validator: Widely Accepted needs a secondary)",
+   "reason": "Added after the slice reviews closed; the coordinator ruled it out of this release. The link enters at Inferential-Thin.",
+   "waits_for": "A fresh review in the follow-up chunk. Candidate: {\"kind\": \"secondary\", \"source_id\": null, \"work\": \"The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article 'China'\", \"url\": \"https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt\", \"accessed\": \"2026-11-10\", \"raw_file\": \"raw/cathen3.txt\", \"locus\": \"article 'China', the Jesuits at the court of Peking\", \"quote\": \"The Jesuits, as astronomers or interpreters were in high favour at Court\", \"license\": \"public-domain\"}"
   }
  ],
  "wants": [
@@ -1490,21 +1682,25 @@
   "A Guaraní-language or Guaraní-written source for the reductions after 1743.",
   "A Bosnian Franciscan chronicle in Croatian (Fojnica or Sutjeska), the Concilium Albanum of 1703, and a non-Catholic study: for RV-3.",
   "The Collectanea of Propaganda, volume II (1867 onward), for VIII.29.",
-  "Hastings, The Church in Africa 1450-1950 (1994), opened, to grade the link VIII.29 to IX.59 on the secondary it names."
+  "Hastings, The Church in Africa 1450-1950 (1994), opened, to grade the link VIII.29 to IX.59 on the secondary it names.",
+  "A dated present-day source on the Catholic Church in Bosnia and Croatia (after 2010), to give catholics-of-the-ottoman-balkans its own living evidence."
  ],
  "flags": [
-  "LIVING: none marked. RV-1 and RV-3 are set living: false. The record says \"yes\" for both but names no dated item after 2010 (grade none, RV-3 [S]), so R2 and R3 are not met. VI.11 carries no livingEvidence to borrow (R2 allows that only where the earlier row has dated evidence), although it is itself marked living: true. Mark may rule that VI.11's legacy (the Jesuit pope of 2013) is enough to set RV-1 living with a CR mark; I did not.",
   "READABILITY: the checker prints READ-FAIL for the existing first paragraph of VII.19.longDescription and VIII.29.longDescription. That text is the frozen rows' own (FRE 31 and 36) and is carried unchanged inside the whole new value, as the brief asks. Every paragraph I added scores FRE 60 or more and FK 10 or less. Fixing the old paragraphs would change frozen text and needs its own change order.",
-  "ID LOOKUPS: validate-census requires a Wikidata ID for every modern country and place. No census row names Paraguay, Bosnia and Herzegovina, Croatia or Slavonia. I looked them up in the Wikidata search API on 2026-11-10: Paraguay Q733 (place set equal, as the Brazil and Spain rows do), Bosnia and Herzegovina Q225, Croatia Q224, Slavonia Q681964. The validator takes modern countries only from the (at most two) places on the place label. the label of RV-1 is Rome and Paraguay, so Russia, Spain, France and Portugal are not listed as countries although the sources name them. The place Bosnia carries the country id Q225. Coordinator: check these IDs before apply. Italy/Rome are copied from census VI.11.",
   "RV-3 SCOPE: the id is fixed without an era suffix, so I kept it and set the dates to the part that enters now, 1650-1815 (as the AP2 note in the Slices says). The name carries the record's subject, the Bosnian Franciscans. The items read for 1650-1815 concern Bosnia and Slavonia only; Albanian and Bulgarian Catholics of those years are in holds. The Fermendzin items are about Slavonia under King Leopold, a Habsburg matter, and say nothing of Ottoman rule, so the row text does not claim it. RV-3 has no link: no read text ties it to another row. Candidates for later: VII.19 (Rome), V.20 (a different body).",
-  "POINTERS TO OTHER SLICES: RV-1 points in words to the China entry (AP2) and the Romanian Greek Catholic entry (ME-8). If either row does not enter, cut these sentences: RV-1 relationsSummary (the China and Romanian sentences), longDescription paragraph 5 (the last two sentences) and paragraph 7 (the last sentence). The ME-8 link uses the fixed id romanian-greek-catholic-church-1698-1815 and the AP2 link is a hold; if the ME2 or AS1 drafter drafts the same pair, drop the duplicate (ids are from--to).",
-  "EXISTING LINK: catholic-church-ancien-regime--the-society-of-jesus points at VI.11 (1540-1650) for an act of 1773 and 1814. RV-1 is now the correct target, so I drafted catholic-church-ancien-regime--society-of-jesus-1650-1814 with the same four sources. I did not retire or change the old link: no G89 recommendation names it. Mark may want to retire it, with the new link as replacedBy.",
   "GRADES: the three links with online sources cannot be Documented (validator). VIII.29 to IX.59 \"gave rise to\" is Inferential-Thin: Clarke 1889 shows the White Fathers at work in 1888, Hastings 1994 is the secondary the record and IX.59 cite but it is not read (V-s), and nothing read follows the line into the 1900s. The record says \"graded on a read source\"; this is what the read sources bear. Hastings is listed as a secondary with no file, as IX.59's other link does. ME-8 to RV-1 \"in contact with\" is Inferential-Thin: one 1885 Jesuit edition, a synod text and a dating line; no secondary reads the Jesuit part (Fortescue, CE \"Eastern Churches\" 1909, which the record cites for ME-8, says nothing of the Jesuits; I opened it).",
   "OCR (quotes keep it): Muratori, long s read as f (\"feftantotto\" is settantotto, \"fi contavano\" is si contavano, \"Crifìiane\", \"difirutte\"); the record's mended Muratori quotes (\"fin presso a trenta\") read \"fin pretto a trenta\" in the raw text, so I used the 1717 sentence instead. Nilles: \"Octarus\" is Octavus, \"Homano\" is Romano, \"Ecclcsia\", \"Valacliorum\", \"rittis\", \"cleaia\"; the Romanian act's own Latin is too damaged to quote, only its dating line. Fermendzin: headers \"1 Janii, Poiegae\", \"JnlH, Vleiinae\", \"Jnl«, Vlennae\", name \"FraneiBciiS IvanoviS\", \"mandat^\", \"hcorum\", \"qmestiones\". Collectanea: \"17236\" for 1726, \"PoxpicnzR.\", \"x illa die\". Clement XIV 1773 and Pius VII 1814: quote marks at line starts, \"aeolish\" for abolish, \"tbe\", \"era- pire\". Mirbt: \"Lidos\" for Indos, \"Servituten!\". Clarke: \"Fathers^\". Check every quote against the page images before census use.",
   "SOURCES OPENED BEYOND THE RECORD'S CITED LINES (same items, all public domain by date): Launay 1893 lines 1262-1335 (the Maury story) and 1328-1331 (the 1658 line) for the Lazarists, the Holy Spirit Society and MEP; Clarke 1889 lines 11745-11780 (Lavigerie's London speech); Fermendzin line 24962 (Leopold, 1690); Collectanea line 94011 (the 1845 entry); Comboni title page (the Propaganda press, 1867); Nilles lines 23862-23880 (the 1701 synod text) and 37116-37122. No source outside the record's cited items was used. Raw texts are in raw/ (muratori, clarke, comboni, nilles, launay1893) with SOURCES.json; lins.html was opened and re-checked but nothing from it is quoted in the draft.",
   "RECORD ITEMS RE-CHECKED: Pius VII 1814 (lines 143-158), Clement XIV 1773 (1189-1280), Mirbt no. 454, Collectanea 1656, 1659 and 1726, Fermendzin 1689 and 1746, Muratori, Clarke (16 May 1867), Comboni (1867), Nilles (synod text, 7 October 1698 date), Lins CE 1908 (all quotes found; the article misprints \"Sokolski\" as \"Solkolski\"), Evans 1877 (found, not used). Nothing in the record failed to appear. NOT USED: Benedict XIV 1741 is used only as a statement about the bull, because the bull does not name the Society and Mirbt's note (Ibanez, Pfotenhauer) is a study I did not read; the expulsion dates 1759-67 ([S]) and the Madurai rites ([S]).",
   "NAMED LINE WORDING: the 1726 Collectanea entry does not say that Ex illa die concerns the Rites. The VII.19 line says only that the oath was the one set by that constitution. The record calls these \"the Rites rulings\"; the 1656 answer on Confucius and the 1659 instruction are the Rites texts read, and the 1726 ruling is listed with them as a Propaganda act.",
   "ERA LINE: nothing after 1815 enters the era 8 rows; VIII.29's lines are all 1815-1906 except one sentence naming Pius VII's bull of 7 August 1814 (the restoration of the Jesuits), which the record itself names for the revival line.",
-  "FIELDS NOT SET: streams (no neighbor carries one for these rows), experienceToday, sources; documentedStories is empty for both rows (none checked against a vendored text)."
+  "FIELDS NOT SET: streams (no neighbor carries one for these rows), experienceToday, sources; documentedStories is empty for both rows (none checked against a vendored text).",
+  "LIVING: society-of-jesus-1650-1814 — takes VI.11's own evidence exactly as the census holds it (CR; Jesuits in Africa and Madagascar 2022, own voice, verified; EWTN News 2021, verified); VI.11 now names RV-1 as carrier. No new evidence added.",
+  "LIVING: catholics-of-the-ottoman-balkans — living:true by the living rule (the sweep record says yes). No living carrier in the census, so livingEvidence has group own, grade \"none (no dated item after 2010 found)\", a plain basis, and a want for the dated source.",
+  "MODERN COUNTRIES (M1): IDs come from census rows only. RV-1 keeps Italy Q38 and Rome Q220 (VI.11). Paraguay Q733, Bosnia and Herzegovina Q225, Croatia Q224 and Slavonia Q681964 are out (no census row carries them); RV-3's list is empty, as V.20's is. A hold lists each ID, re-checked on Wikidata by the reviewer.",
+  "POINTERS TO OTHER SLICES: RV-1 points in words to the China entry (AP2, chinese-catholicism-1650-1906) and the Romanian Greek Catholic entry (ME-8). Both links are drafted here, once: chinese-catholicism-1650-1906--society-of-jesus-1650-1814 and romanian-greek-catholic-church-1698-1815--society-of-jesus-1650-1814; AS1 and ME2 must not draft them again. The VII.19 to AP2 link (catholic-church-ancien-regime--chinese-catholicism-1650-1906) is drafted here too. If either row does not enter, cut the link and the pointer sentences (RV-1 relationsSummary, longDescription paragraphs 6 and 8).",
+  "EXISTING LINK RETIRED (G89-1 b): catholic-church-ancien-regime--the-society-of-jesus is retired, replacedBy catholic-church-ancien-regime--society-of-jesus-1650-1814 (the same four sources, now on RV-1).",
+  "NEW SOURCE OPENED: Lettres édifiantes et curieuses vol. 3 (archive.org lettresdifiantes03jesu, 1843 edition, public domain), the reviewer's fetch, re-opened here in raw/lettres3.txt for Noël's memoir of 1703 (heading, the honors affair, the three churches at Peking). OCR \"(rois\" is trois, \"Pé- kin\" Pékin, \"el\" et.",
+  "AP3 (G89-1 b): no link drafted; a hold names why."
  ]
 }

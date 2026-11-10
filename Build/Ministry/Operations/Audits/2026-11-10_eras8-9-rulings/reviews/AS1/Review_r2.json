@@ -1,0 +1,48 @@
+{
+ "slice": "AS1",
+ "round": 2,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "R2-S1",
+   "where": "chinese-catholicism-1650-1906.sources[1] (Lettres édifiantes); raw/SOURCES.json",
+   "problem": "The citation has the wrong date. The volume read, archive.org lettresdifiantes03jesu, was printed in 1843 by the Société du Panthéon littéraire, not in 1838. The year 1838 is copied from the sweep record. RV-A's draft cites the same item as 1843, so the two slices would contradict each other in the census.",
+   "evidence": "Title page of the re-fetched raw/lettres3.txt: 'LETTRES ÉDIFIANTES ET CURIEUSES CONCERNANT L'ASIE, L'AFRIQUE ET L'AMÉRIQUE ... PUBLIÉES SOUS LA DIRECTION DE M. L. AIMÉ-MARTIN. TOME TROISIÈME. CHINE. PARIS, SOCIÉTÉ DU PANTHÉON LITTÉRAIRE ... M DCCC XLIII.' LIV/RVA/Draft.json gives '(Paris: Société du Panthéon littéraire, 1843)'.",
+   "fix": "\"work\": \"Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, ed. Aimé-Martin, vol. 3, Chine (Paris: Société du Panthéon littéraire, 1843)\". Make the same change in SOURCES.json, and in any fact-table or link `work` that carries 1838. Put the accents back in the other titles in the new `sources` lists, as the VIII.45 copy of Marnas already has them: 'Histoire générale de la Société des Missions-Étrangères'; 'La \"Religion de Jésus\" (Iaso ja-kyō) ressuscitée au Japon dans la seconde moitié du XIXe siècle'."
+  },
+  {
+   "id": "R2-S2",
+   "where": "chinese-catholicism-1650-1906.sources[3].note (Catholic Encyclopedia)",
+   "problem": "The note says the encyclopedia 'is the one source for the nineteenth century'. That is not accurate. The row's Hunan sentence rests on the Holy Office instruction of 1865 (Collectanea I, lines 118022-118146), a Library primary, and that instruction is now this row's in-window source for era 9.",
+   "evidence": "fact_table rows for 'A Holy Office instruction of the 1860s dealt with trouble in Hunan' cite Collectanea lines 118022-118032 and 118146 ('An. C. 1865').",
+   "fix": "Note: 'A Catholic reference work. Read in full text online. It is the main source for the nineteenth century, beside one Roman instruction of 1865.'"
+  }
+ ],
+ "minor": [
+  {
+   "id": "R2-m1",
+   "where": "japanese-christianity-hidden-emergence-meiji.longDescription (new paragraph)",
+   "problem": "'owed its birth to Alexandre de Rhodes' says a little more than Marnas does.",
+   "evidence": "Marnas: 'née jadis à l'inspiration d'Alexandre de Rhodes'.",
+   "fix": "'He said it was born long ago from the inspiration of Alexandre de Rhodes.'"
+  },
+  {
+   "id": "R2-m2",
+   "where": "Changes_r1.md (S7 line)",
+   "problem": "The change map says 'No sources list added to the new rows', but all three new rows now carry one. This is a note for the coordinator, not a data defect.",
+   "evidence": "Draft entries[*].sources.",
+   "fix": "Correct the change map."
+  },
+  {
+   "id": "R2-m3",
+   "where": "st-thomas-christians-two-obediences.sources[0].type",
+   "problem": "Whitehouse's book is typed 'primary', but it is a secondary book that prints two primary appendices. The note says so plainly, which is acceptable. VI.18 types sources by what the work is.",
+   "evidence": "VI.18 sources shape.",
+   "fix": "Optional: type 'secondary', with the note naming Appendices D and E as the community's own texts."
+  }
+ ],
+ "quotes_checked": 175,
+ "quotes_failed": [],
+ "notes": "A targeted recheck of the round 1 findings, against my own fetch (byte-identical to the drafter's raw files) and the Library lines. check_draft.py on my raw: 175 quotes, 0 misses. The only READ-FAILs are the frozen first paragraphs of VIII.45 and VIII.21, carried over unchanged.\nClosed: S1 (no outcome on ME-1 to AP1; it stays Documented and minor); S2 (Hunan: the quotes at Collectanea lines 118022-118032 are verified, 'in Hunnanensi provincia'); S3 ('from about 1680', resting on CE 'Pallu, 1679-84'; 'two French priests'; seminary 1663 and 1664, 'beginning of the Société'; the 1907 heading is no longer stated as fact); S4 (VIII.21 names the Catholic Encyclopedia of 1908 and adds it to `sources`); S5 (VI.13b to AP3 is Inferential-Thin, matching the existing link and the descent grade); S6 (new VII.19 to AP1, 'in contact with', Documented, verified-direct; Whitehouse App. D lines 19221 and 19225-19227 are verbatim; no outcome); S7 (renderings paraphrased; Sancta Maria keeps its original). All minor findings m1 to m12 are done as proposed; m13 and m14 go to the coordinator.\nNew rule (a `sources` list on each new row). Each listed work is used by the row's sentences. AP1: Whitehouse (App. B, D and E plus ch. XII), Philipos (the 1685 date) and Buchanan (1806). AP2: Collectanea, Lettres (de Mailla), Launay (still used for the 1658 nomination, beside CE, so 'used for one date' is accurate) and CE 1908. AP3: Marnas. The notes are plain. Two defects remain: one wrong date and missing accents in the titles (R2-S1), and one inaccurate note (R2-S2). Both are mechanical fixes.\nTaken as given: AP2 stays one row; RV-1 to AP2 and VII.19 to AP2 are RV-A's; empty modernCountries for AP2, with an Open-Gaps hold; living by carrier, unchanged and valid."
+}

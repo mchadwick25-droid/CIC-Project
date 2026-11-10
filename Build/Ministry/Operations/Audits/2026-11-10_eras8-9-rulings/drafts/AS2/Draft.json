@@ -6,7 +6,7 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
@@ -34,10 +34,10 @@
    "statusDescription": "Tiered Strong (Tier 1). Its window opens in 1650, but its roots lie in the 1620s, which no earlier entry carries. It is told in two parts, split at 1815, as the Philippine entries are.",
    "sourcing": "Thin in Vietnamese voices. Almost every text is a missionary's: the histories of the Paris mission by Adrien Launay, the decrees of Propaganda, and a catechism by the Jesuit Alexandre de Rhodes. The one Vietnamese voice is the priest Philiphê Bỉnh, whom George Dutton reads. His own book was not read for this entry.",
    "floorNote": "No question. It is the Catholic Church, which holds the Nicene Creed. The catechism of 1651 gives a date only; its title page was read, not its teaching.",
-   "relationsSummary": "This church began with the Portuguese Jesuits of the 1620s. From 1658 Rome sent its own bishops, called vicars apostolic, and the Paris mission supplied the priests. The Jesuits' old flock refused the new bishops. The same church goes on in the next entry, from 1815.",
-   "why": "Portuguese Jesuits began this church in the 1620s. In 1658 Rome named two French priests as its own bishops for Vietnam and its neighbors. Their coming set the Portuguese crown against the pope for more than a century. Rome's plan was to raise priests from Vietnam's own catechists.",
-   "teaser": "Vietnam, 1650 to 1815 — a church begun by Portuguese Jesuits and then ruled by bishops from Rome. Vietnamese catechists, priests and sisters carried it on.",
-   "longDescription": "Portuguese Jesuits began the Catholic mission in Tonkin in the 1620s. It ran under the Padroado, the Portuguese king's patronage over the church in Asia. Some estimates put Tonkin's Christians at 80,000 in 1639 and 350,000 in 1663. The figures vary a great deal. In 1651 a catechism by the Jesuit Alexandre de Rhodes was printed at Rome, in Latin and Vietnamese, at the press of Propaganda. In 1658 Propaganda, the Roman office for the missions, proposed Pallu and Lambert de la Motte as vicars apostolic for China and its neighbors. In August the pope named them bishops. A vicar apostolic answered to the pope, not to the Portuguese crown. A new Paris mission society, the MEP, was set up to send them priests. The first vicars wrote a rule book for missionaries, the Monita. It said that native priests should be chosen from the catechists. Lambert de la Motte reached Tonkin in 1670. He ordained seven priests and gave lower orders to 48 Vietnamese converts. A month later he held the first synod in Vietnam. Pope Clement X accepted its decisions in 1673. That year Lambert also founded the Lovers of the Cross, a community of women. In 1675 Propaganda granted indulgences to their confraternities in Tonkin and Cochinchina. In 1678 Tonkin was split into an eastern and a western vicariate. The Paris mission kept the west. The east went to the Dominicans after 1693. The Jesuits' old flock, the Padroado Christians, kept their loyalty to Portugal. When the Jesuit order was dissolved in 1773, they refused to obey the vicars. They were called schismatics and kept from the sacraments. In 1796 the priest Philiphê Bỉnh sailed to Lisbon to ask the Portuguese ruler for a bishop for them.",
+   "relationsSummary": "This church began with the Jesuits of the Portuguese mission in the 1620s. From 1658 Rome sent its own bishops, called vicars apostolic, and the Paris mission supplied the priests. The Jesuits' old flock refused the new bishops. The same church goes on in the next entry, from 1815.",
+   "why": "Jesuits of the Portuguese mission began this church in the 1620s. In 1658 the pope made two French priests bishops, to act as Rome's own vicars in the missions of China and the lands nearby. Pallu was to lead Tonkin and Lambert de la Motte Cochinchina. Their coming set the Portuguese crown against the pope for more than a century. Rome's plan was to raise priests from Vietnam's own catechists.",
+   "teaser": "Vietnam, 1650 to 1815 — a church begun by Jesuits of the Portuguese mission and then ruled by bishops from Rome. Vietnamese catechists, priests and sisters carried it on.",
+   "longDescription": "Jesuits sent under the Portuguese crown began the Catholic mission in Tonkin in the 1620s. Among them was the French Jesuit Alexandre de Rhodes. The mission ran under the Padroado, the Portuguese king's patronage over the church in Asia. Some estimates put Tonkin's Christians at 80,000 in 1639 and 350,000 in 1663. The figures vary a great deal. In 1651 a catechism by Rhodes was printed at Rome, in Latin and Vietnamese, at the press of Propaganda, the Roman office for the missions.\n\nIn 1658 Propaganda proposed Pallu and Lambert de la Motte as vicars apostolic for China and its neighbors. In August the pope named them bishops. Dutton dates their choice as vicars to 1660. Pallu took Tonkin and Laos, and Lambert took Cochinchina. A vicar apostolic answered to the pope, not to the Portuguese crown. A new Paris mission society, the MEP, was set up to send them priests. The first vicars wrote a rule book for missionaries, the Monita. It said that native priests should be chosen from the catechists.\n\nLambert de la Motte reached Tonkin in 1670. He ordained seven priests. He gave lower orders to 48 Vietnamese converts. A month later he held the first synod in Vietnam. That year he also founded the Lovers of the Cross, a community of women. In 1673 Pope Clement X accepted the synod's decisions. In 1675 Rome granted indulgences to their groups in Tonkin and Cochinchina.\n\nIn 1678 Tonkin was split into an eastern and a western vicariate. The Paris mission kept the west. The east went to the Dominicans after 1693. The Jesuits' old flock, the Padroado Christians, kept their loyalty to Portugal. When the Jesuit order was dissolved in 1773, they refused to obey the vicars. They were called schismatics and kept from the sacraments. In 1796 the priest Philiphê Bỉnh sailed to Lisbon to ask the Portuguese ruler for a bishop for them.",
    "voices": [
     "Alexandre de Rhodes — the Jesuit whose catechism in Latin and Vietnamese was printed at Rome in 1651",
     "François Pallu and Pierre Lambert de la Motte — the two French priests Propaganda proposed as vicars apostolic in 1658",
@@ -51,9 +51,14 @@
      "note": "A history of the Paris mission by one of its own priests. It gives the naming of the vicars in 1658 and the rules the first vicars wrote."
     },
     {
+     "work": "Adrien Launay, Mgr Retord et le Tonkin catholique, 1831-1858 (Paris, 1893)",
+     "type": "secondary",
+     "note": "A history by a priest of the Paris mission. It names Rhodes as Tonkin's first great converter and dates the Lovers of the Cross to 1670."
+    },
+    {
      "work": "George E. Dutton, A Vietnamese Moses: Philiphê Bỉnh and the Geographies of Early Modern Catholicism (University of California Press, 2017)",
      "type": "secondary",
-     "note": "Open access. It reads Bỉnh's own Vietnamese writings and tells the quarrel between the Portuguese Jesuits and the vicars."
+     "note": "Open access. It reads Bỉnh's own Vietnamese writings and tells the quarrel between the Jesuits of the Portuguese mission and the vicars."
     },
     {
      "work": "Collectanea S. Congregationis de Propaganda Fide, vol. 1 (Rome, 1907), the entry of 25 August 1675",
@@ -63,12 +68,19 @@
     {
      "work": "Alexandre de Rhodes, Cathechismus pro iis, qui volunt suscipere Baptismum in octo dies divisus (Rome: Propaganda Fide, 1651)",
      "type": "primary",
-     "note": "Its title page and licence were read. Its teaching was not."
+     "note": "Its title page and license were read. Its teaching was not."
     }
    ],
    "continuesAs": "vietnamese-catholicism-1815-1906",
    "people": [],
-   "peopleNote": "The Library holds no words of their own from the people this story names."
+   "peopleNote": "The Library holds no words of their own from the people this story names.",
+   "livingEvidence": {
+    "basis": "The Catholic Church in Vietnam is alive today. It continues in the next entry, which carries the mark.",
+    "carrier": [
+     "vietnamese-catholicism-1815-1906"
+    ],
+    "group": "line"
+   }
   },
   {
    "atlasId": "TBD",
@@ -76,7 +88,7 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
@@ -104,12 +116,12 @@
    "statusDescription": "Tiered Strong (Tier 1) for the church as a whole. Its verified base is thin after 1833. Its window opens in 1815, where the first part ends, and closes in 1906.",
    "sourcing": "Thin. For 1815 to 1833 the main text is Adrien Launay's history of the Paris mission (1893), a priest's account of his own society. For the later years the entry rests on a short summary by the historian George Dutton. No Vietnamese Catholic's own words from these decades were read for this entry.",
    "floorNote": "No question. It is the Catholic Church, which holds the Nicene Creed.",
-   "relationsSummary": "It carries on the Vietnamese Catholic story from 1815. After Bỉnh died in 1833, the story of the Padroado Christians joined the common story of Tonkin's Catholics. The emperor's edicts and then French conquest set the terms of church life.",
-   "why": "In 1832 the French mission in Tonkin counted between 160,000 and 170,000 Christians. It had about sixty native priests and thirty convents. A year later the emperor Minh Mạng issued his first great edict against them.",
+   "relationsSummary": "It carries on the Vietnamese Catholic story from 1815. After Bỉnh died, probably in 1833, the story of the Padroado Christians joined the common story of Tonkin's Catholics. The emperor's edicts and then French conquest set the terms of church life.",
+   "why": "In 1832 the Paris mission, the MEP, counted between 160,000 and 170,000 Christians in Tonkin. Its bishop was Joseph Havard. It had about sixty native priests and thirty convents. A year later the emperor Minh Mạng issued his first great edict against them.",
    "teaser": "Vietnam, 1815 to 1906 — a church with its own priests, catechists and sisters, under the emperor's edicts and then French conquest.",
-   "longDescription": "Under the emperor Gia Long, Catholics were allowed to keep their religious practices. Most still bore labor and military service, like other Vietnamese. Minh Mạng came to power in 1820. He stressed orthodoxy in the state's teaching, and that left little room for practices at odds with Confucian rules. Dutton writes that his suspicion of Catholics and European missionaries led to periodic crackdowns and the public execution of priests. In Lisbon in 1822 Philiphê Bỉnh ended the story part of his book, written in Vietnamese. \"I do not know how much longer I will live,\" he wrote, \"but I ask that my brothers remember my soul.\" That is Dutton's English rendering. Bỉnh died there in March 1833. In 1832 the French mission in Tonkin counted 160,000 to 170,000 Christians. Launay lists about sixty native priests, several hundred catechists, and thirty convents with 400 sisters. They were the Lovers of the Cross, founded in 1670. On 6 January 1833 Minh Mạng issued the first great edict against the Christians. It told them to give up their faith. It told the mandarins to make them trample the cross. It ordered their churches and the priests' houses razed. Later in the century French pressure grew. Dutton writes that the French invasion brought large massacres of Catholic communities in the north-center. Once France held the south and ruled the center and north as protectorates, Catholics gained protection. The taint of the French tie lingered.",
+   "longDescription": "Under the emperor Gia Long, Catholics were allowed to keep their religious practices. Most still bore labor and military service, like other Vietnamese. Minh Mạng came to power in 1820. He stressed orthodoxy in the state's teaching, and that left little room for practices at odds with Confucian rules. Dutton writes that his suspicion of Catholics and European missionaries led to periodic crackdowns and the public execution of priests. In Lisbon in 1822 Philiphê Bỉnh ended the story part of his book, written in Vietnamese. \"I do not know how much longer I will live,\" he wrote, \"but I ask that my brothers remember my soul.\" That is Dutton's English rendering. He probably died there in March 1833.\n\nIn 1832 the Paris mission, the MEP, counted 160,000 to 170,000 Christians in Tonkin. Its bishop was Joseph Havard. Launay lists about sixty native priests, several hundred catechists, and thirty convents with 400 sisters. They were the Lovers of the Cross, founded in 1670.\n\nOn 6 January 1833 Minh Mạng issued the first great edict against the Christians. It told them to give up their faith. It told the mandarins to make them trample the cross. It ordered their churches and the priests' houses razed.\n\nLater in the century French pressure grew. Dutton writes that the French invasion brought large massacres of Catholics in the north-center. France then held the south and ruled the center and north as protectorates. Catholics gained protection. The taint of the French tie lingered.",
    "voices": [
-    "Philiphê Bỉnh — Vietnamese priest in Lisbon, who ended the story part of his book in Vietnamese there in 1822 and died in March 1833",
+    "Philiphê Bỉnh — Vietnamese priest in Lisbon, who ended the story part of his book in Vietnamese there in 1822 and probably died there in March 1833",
     "Minh Mạng — emperor from 1820, whose edict of 6 January 1833 ordered Christians to give up their faith"
    ],
    "legacy": "In 1832 the church had about sixty native priests and thirty convents of the Lovers of the Cross, founded in 1670. Its tie to the French, formed in conquest, left a taint that lingered. Dutton notes that this began to change by the century's end.",
@@ -126,7 +138,12 @@
     }
    ],
    "people": [],
-   "peopleNote": "The Library holds no words of their own from the people this story names."
+   "peopleNote": "The Library holds no words of their own from the people this story names.",
+   "livingEvidence": {
+    "basis": "The Catholic Church in Vietnam is alive today. No dated present-day record is in hand. The tree has no Vietnamese Catholic entry after 1906.",
+    "grade": "none (no dated item after 2010 found)",
+    "group": "own"
+   }
   },
   {
    "atlasId": "TBD",
@@ -134,7 +151,7 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
@@ -155,20 +172,14 @@
    "dates": "1650-1815",
    "start": 1650,
    "end": 1815,
-   "region": "Ambon (Moluccas), Java, Timor, Ceylon",
-   "placeLabel": "Java · Timor and beyond",
+   "region": "Ambon (Moluccas), Java, Jaffna (Ceylon)",
+   "placeLabel": "Java and beyond",
    "modernCountries": [
     {
      "country": "Indonesia",
      "countryId": "Q252",
      "place": "Java",
      "placeId": "Q3757"
-    },
-    {
-     "country": "Indonesia",
-     "countryId": "Q252",
-     "place": "Timor",
-     "placeId": "Q83067"
     }
    ],
    "statusWord": "Researched — viable, secondary",
@@ -176,21 +187,21 @@
    "sourcing": "Good for how the church was built, thin for what its members said. One open-access history carries the Moluccas, Batavia and Java. It is by Indonesian and European scholars. For Ceylon the text is a Catholic sketch of 1848, and the Protestant writers it cites disagree with it. No Dutch or Malay text of the church itself was read.",
    "floorNote": "No question. It is a Reformed church. Its teachers in Batavia had to agree with the Heidelberg Catechism and the Dutch Reformed Confession of Faith.",
    "relationsSummary": "This is the Reformed church of the Dutch East India Company. It took over the Christians the Portuguese left in the Moluccas. In Ceylon the Company's government turned its law against the Catholics, who are told in the entry on the Catholics of Dutch Ceylon.",
-   "why": "The Dutch East India Company was a trading firm, yet it ran a church. Its charter of 1623 asked only that it maintain the public faith. In the Moluccas village teachers carried that church, and Dutch ministers came a few times a year.",
+   "why": "The Dutch East India Company was a trading firm, yet it ran a church. Its charter of 1623 asked only that it maintain the public faith. In the Moluccas village teachers carried that church, and Dutch ministers were meant to visit a few times a year.",
    "teaser": "Ambon, Batavia and Ceylon, 1650 to 1815 — a trading company's church. Village teachers kept it alive, and Dutch ministers led it in the towns.",
-   "longDescription": "In 1605 the Dutch East India Company, the VOC, reached Ambon and drove out the Portuguese priests. Its charter of 1623 bound it only to maintain the public faith. In two centuries it sent at least 900 ordained ministers to its lands. In the Moluccas the church ran on village teachers, called mester. The study of Aritonang and Steenbrink calls the teacher the backbone of Ambonese Christianity. He led the Sunday service and read a Malay sermon. An ordained minister came a few times a year. The schools grew from 32 in 1633 to 54 in 1700, with 5,190 pupils. In 1673 the Ambon church ordered its teachers to come to town every two weeks, or at least every month. Pressure also came from above. In 1677 the governor attended the mass baptism of the village of Kamarian, and the Company sent rice for the feast. In 1692 a minister complained that only the schoolchildren, the village chief and his wife came to Sunday service. In Batavia the ministers were all Dutch, except Cornelis Senen of Banda, who was only a probationer. About 5,000 people were full members around 1700. In 1706 the church had 34 evangelists. They taught 4,873 slaves and free people. Of these, 4,440 were taught in Portuguese, 323 in Malay and 110 in Dutch. Teachers in Batavia had to agree with the Heidelberg Catechism. In 1719 to 1722 Georg Werndly, a minister at Makassar, translated that catechism and helped to correct the Malay Bible of Melchior Leijdecker. That Bible was printed at Amsterdam in 1731 to 1733. In 1753 the minister at Semarang had 1,767 Christians. Nearly half were Lutherans or Catholics, and he tried not to offend them. In Ceylon the Dutch tried to turn the converts of the earlier Catholic mission into Reformed Protestants.",
+   "longDescription": "In 1605 the Dutch East India Company, the VOC, reached Ambon and drove out the Portuguese priests. Its charter of 1623 bound it only to maintain the public faith. In two centuries it sent at least 900 ordained ministers to its lands. In the Moluccas the church ran on village teachers, called mester. The study of Aritonang and Steenbrink calls the teacher the backbone of Ambonese Christianity. He led the Sunday service and read a Malay sermon. An ordained minister was meant to visit a few times a year. The schools grew from 32 in 1633 to 54 in 1700, with 5,190 pupils. In 1673 the Ambon church ordered its teachers to come to town every two weeks, or at least every month.\n\nPressure also came from above. In 1677 the governor attended the mass baptism of the village of Kamarian, and the Company sent rice for the feast. In 1692 a minister complained that only the schoolchildren, the village chief and his wife came to Sunday service.\n\nIn Batavia the ministers were all Dutch, except Cornelis Senen of Banda, who was only a probationer. About 5,000 people were full members around 1700. In 1706 the church had 34 evangelists. They taught 4,873 slaves and free people. Of these, 4,440 were taught in Portuguese, 323 in Malay and 110 in Dutch. Teachers in Batavia had to agree with the Heidelberg Catechism.\n\nGeorg Werndly translated that catechism. The Malay Bible came out at Amsterdam in 1731 to 1733.\n\nIn 1753 the minister at Semarang had 1,767 Christians. Nearly half were Lutherans or Catholics. He tried not to offend them. In Ceylon the Dutch tried to make Catholic converts Reformed.",
    "voices": [
     "João Ferreira d'Almeida — born a Catholic, minister of the Portuguese church at Batavia from 1663 to 1689, whose Portuguese New Testament was revised in 1651-52",
     "Melchior Leijdecker — minister at Batavia from 1675 to 1701, charged in 1691 with translating the whole Bible into Malay",
     "Georg Henric Werndly — Swiss-born minister at Makassar from 1719 to 1722, who translated the Heidelberg Catechism",
     "The mester — the village teachers of Ambon, who led the Sunday service and read the Malay sermon"
    ],
-   "legacy": "By about 1650 the line between Christian and Muslim villages on Ambon was fixed. Few people crossed it after that. The whole Bible came out in Malay in 1731 to 1733.",
+   "legacy": "By about 1650 the line between Christian and Muslim villages on Ambon was fixed. Few people crossed it after that. The whole Bible came out in Malay in 1731 to 1733. From 1815 Joseph Kam worked to renew the Company's old church in Ambon. The entry on Indonesian Christianity names him.",
    "sources": [
     {
-     "work": "Jan S. Aritonang and Karel Steenbrink (eds.), A History of Christianity in Indonesia (Leiden: Brill, 2008), ch. 5",
+     "work": "Jan S. Aritonang and Karel Steenbrink (eds.), A History of Christianity in Indonesia (Leiden: Brill, 2008), chs. 5 and 9",
      "type": "secondary",
-     "note": "Open access. It is by Indonesian and European scholars. It carries the Moluccas, Batavia and Java to 1800."
+     "note": "Open access. It is by Indonesian and European scholars. It carries the Moluccas, Batavia and Java to 1800. It also tells Joseph Kam's renewal of the Moluccan church from 1815."
     },
     {
      "work": "A Sketch of the Rise and Progress of the Catholic Church in Ceylon (Colombo, 1848)",
@@ -199,7 +210,13 @@
     }
    ],
    "people": [],
-   "peopleNote": "The Library holds no words of their own from the people this story names."
+   "peopleNote": "The Library holds no words of their own from the people this story names.",
+   "livingEvidence": {
+    "basis": "The heirs of the Company's church, such as the Protestant Church of the Moluccas, are alive today. No dated present-day record is in hand. The tree's entry on Indonesian Christianity opens in 1861. The descent grade rests on a modern study (Aritonang and Steenbrink, ch. 9), which tells Joseph Kam renewing the same church from 1815; the line from there to today's Moluccan church is not yet read from a source.",
+    "grade": "none (no dated item after 2010 found)",
+    "descentConfidence": "Dominant Modern Reconstruction",
+    "group": "own"
+   }
   },
   {
    "atlasId": "TBD",
@@ -207,7 +224,7 @@
    "status": "Pre-Survey Candidate",
    "chip": "psc",
    "glyph": "psc",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
@@ -230,33 +247,20 @@
    "end": 1806,
    "region": "Jaffna, Puttalam, Kandy, Goa",
    "placeLabel": "Jaffna · Puttalam and beyond",
-   "modernCountries": [
-    {
-     "country": "Sri Lanka",
-     "countryId": "Q854",
-     "place": "Jaffna",
-     "placeId": "Q215277"
-    },
-    {
-     "country": "Sri Lanka",
-     "countryId": "Q854",
-     "place": "Puttalam",
-     "placeId": "Q3088741"
-    }
-   ],
+   "modernCountries": [],
    "statusWord": "Researched — viable, secondary",
-   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1658, with the first Dutch law against Catholic priests. It closes in 1806, when British rule lifted the Dutch restraints. No earlier or later entry names Ceylon.",
-   "sourcing": "One Catholic history of 1848 carries almost all of it. The title page names no author. It was read raw; its OCR is rough in places. A Dutch Protestant account is read only through the study of Aritonang and Steenbrink in the entry on the VOC churches. No Portuguese, Tamil or Sinhala text was read.",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Its window opens in 1658, with the first Dutch law against Catholic priests. It closes in 1806, when British rule lifted the Dutch restraints. No other entry tells the church of Ceylon.",
+   "sourcing": "One Catholic history of 1848 carries almost all of it. The title page names no author. It was read raw; its OCR is rough in places. The Dutch Protestant side is heard only through Baldeus and Van Imhoff as the sketch quotes them, and through a modern study of the Company's church. No Portuguese, Tamil or Sinhala text was read.",
    "floorNote": "No question. It is the Catholic Church, which holds the Nicene Creed.",
    "relationsSummary": "This is the Catholic church that the Dutch Reformed church of the Company met in Ceylon. The Dutch banned its priests and its meetings. Priests of the Goa Oratory kept it alive from the neighboring kingdom of Kandy.",
    "why": "The Dutch took Ceylon's coast and banished the Catholic priests. In 1658 they made it a crime, punishable by death, to hide one. Priests of the Goa Oratory came in disguise and kept the church going from house to house.",
    "teaser": "Ceylon, 1658 to 1806 — a Catholic church under Dutch law, kept alive by priests from Goa who came in disguise and by laypeople who met at night.",
-   "longDescription": "The Dutch took Ceylon's coast and banished the Catholic priests. They seized the churches and convents. At Jaffna the Dutch put several Catholics to death. The Dutch minister Baldeus says they had plotted against the government. He admits that one of them, a Jesuit, was not in the plot. A proclamation of 19 September 1658 forbade anyone to hide a Catholic priest, on pain of death. One of 11 January 1715 banned Catholic meetings. One of 8 August 1715 forbade baptism by Catholic priests. The 1848 Catholic sketch says the Dutch used force. It adds that the Protestant writers it cites deny this. Many Catholics took the new creed, partly out of fear and partly to win office. Others kept the old faith and met in their houses at night. Some fled to the inland kingdom of Kandy, whose king let them build churches. He later ordered the churches pulled down. In 1743 a Kandyan king banned the faith and razed its churches. Into this the priest Joseph Vaz of the Oratory of St Philip Neri at Goa came, disguised as a beggar. A Dutch chief persecuted him and his flock, and he had to leave the district. He went inland and spent nearly two years in prison at Kandy. Freed, he made Kandy his base. From there he visited Catholics in Dutch lands and gave them the sacraments in private, going from house to house. The bishop of Cochin named him vicar general. The Goa Oratory made him superior of the mission and sent more priests. He died at Kandy on 17 January 1711. By 1717 the sketch counts about 70,000 converts since Vaz began. It counts over 15,000 communicants in the Jaffna district alone, and 15 large and over 400 small churches. Even then no priest dared to live in Dutch lands. They came by night in disguise. A Dutch governor, Baron Van Imhoff, wrote to his successor that the Romish priests did the Company much injury. They were, he wrote, warm in their opposition and closely united among themselves. The Dutch gave up Ceylon to the British in 1796. Their laws stayed on the books until the regulation of 27 May 1806 took off the restraints.",
+   "longDescription": "The Dutch took Ceylon's coast and banished the Catholic priests. They seized the churches and convents. At Jaffna the Dutch put several Catholics to death. The Dutch minister Baldeus says they had plotted against the government. He admits that one of them, the Jesuit Caldeiro, was not in the plot. Baldeus says he knew of it and did not report it.\n\nA proclamation of 19 September 1658 forbade anyone to hide a Catholic priest, on pain of death. One of 11 January 1715 banned Catholic meetings. One of 8 August 1715 forbade baptism by Catholic priests. The 1848 Catholic sketch says the Dutch used force. It adds that the Protestant writers it cites deny this. Many Catholics took the new creed, partly out of fear and partly to win office. Others kept the old faith and met in their houses at night. Some fled to the inland kingdom of Kandy, whose king let them build churches. He later ordered the churches pulled down.\n\nLate in the seventeenth century the priest Joseph Vaz of the Oratory of St Philip Neri at Goa came, disguised as a beggar. A Dutch chief persecuted him and his flock, and he had to leave the district. He went inland and spent nearly two years in prison at Kandy. Freed, he made Kandy his base. From there he visited Catholics in Dutch lands and gave them the sacraments in private, going from house to house. The bishop of Cochin named him vicar general. The Goa Oratory made him superior of the mission and sent more priests. He died at Kandy on 17 January 1711.\n\nBy 1717 the sketch counts about 70,000 converts since Vaz began. It counts over 15,000 communicants in the Jaffna district alone, and 15 large and over 400 small churches. Even then no priest dared to live in Dutch lands. They came by night in disguise. In 1743 a Kandyan king banned the faith and razed its churches. A Dutch governor, Baron Van Imhoff, wrote to his successor that the Romish priests did the Company much injury. They were, he wrote, warm in their opposition and closely united among themselves.\n\nThe Dutch gave up Ceylon to the British in 1796. Their laws stayed on the books until the regulation of 27 May 1806 took off the restraints.",
    "voices": [
     "Joseph Vaz — priest of the Oratory of St Philip Neri at Goa, who came to Ceylon disguised as a beggar and died at Kandy on 17 January 1711",
     "Baron Van Imhoff — Dutch governor, who wrote to his successor that the Romish priests did the Company much injury"
    ],
-   "legacy": "The regulation of 27 May 1806 is called a Magna Charta of the Catholics of Ceylon in the sketch of 1848. It took off the restraints that the Dutch laws had put on them. Its own words say the laws had not been enforced in all cases.",
+   "legacy": "The regulation of 27 May 1806 is called a Magna Charta of the Catholics of Ceylon in the sketch of 1848. It took off the restraints that the Dutch laws had put on them. Its own words say the British government had not acted on those laws in all cases.",
    "sources": [
     {
      "work": "A Sketch of the Rise and Progress of the Catholic Church in Ceylon (Colombo, 1848)",
@@ -270,7 +274,12 @@
     }
    ],
    "people": [],
-   "peopleNote": "The Library holds no words of their own from the people this story names."
+   "peopleNote": "The Library holds no words of their own from the people this story names.",
+   "livingEvidence": {
+    "basis": "The Catholic Church in Sri Lanka is alive today. No dated present-day record is in hand. The tree has no entry for it after 1806.",
+    "grade": "none (no dated item after 2010 found)",
+    "group": "own"
+   }
   }
  ],
  "fact_table": [
@@ -643,7 +652,7 @@
   {
    "entry": "vietnamese-catholicism-1815-1906",
    "field": "longDescription",
-   "sentence": "Bỉnh died in Lisbon in March 1833.",
+   "sentence": "He probably died there in March 1833.",
    "url": "https://archive.org/download/oapen-20.500.12657-31953/621439_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/dutton.txt",
@@ -736,7 +745,7 @@
   {
    "entry": "vietnamese-catholicism-1815-1906",
    "field": "voices",
-   "sentence": "Bỉnh died in March 1833.",
+   "sentence": "He probably died there in March 1833.",
    "url": "https://archive.org/download/oapen-20.500.12657-31953/621439_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/dutton.txt",
@@ -871,7 +880,7 @@
   {
    "entry": "protestant-churches-of-the-voc-world",
    "field": "longDescription",
-   "sentence": "An ordained minister came a few times a year.",
+   "sentence": "An ordained minister was meant to visit a few times a year.",
    "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/aritonang.txt",
@@ -1562,7 +1571,7 @@
   {
    "entry": "german-pietism-spener-francke-halle",
    "field": "longDescription",
-   "sentence": "Fenger says Aaron was the first native ordained.",
+   "sentence": "Fenger calls Aaron \"the first native ordained\" to the ministry.",
    "url": "https://archive.org/download/historyoftranque00fengrich/historyoftranque00fengrich_djvu.txt",
    "accessed": "2026-11-10",
    "raw_file": "raw/fenger.txt",
@@ -1625,103 +1634,75 @@
    "quote": "The second catechist, Aaron, wrote thus,"
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "vietnamese-catholicism-to-1815",
    "field": "longDescription",
-   "sentence": "Ko Thah-byu was baptized on 16 May 1828.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
+   "sentence": "Among the Jesuits was the French Jesuit Alexandre de Rhodes.",
+   "url": "https://archive.org/download/mgrretordetleton00laun/mgrretordetleton00laun_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "His baptism is thus recorded by Mr. Boardman, in his journal of May 16, 1828 :"
+   "raw_file": "raw/launay1893.txt",
+   "quote": "Le premier grand convertisseur du Tonkin fut un Français, le P. Alexandre de Rhodes (1624)."
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "vietnamese-catholicism-to-1815",
    "field": "longDescription",
-   "sentence": "The baptism was at Tavoy.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
+   "sentence": "Dutton dates their choice as vicars to 1660. Pallu took Tonkin and Laos, and Lambert took Cochinchina.",
+   "url": "https://archive.org/download/oapen-20.500.12657-31953/621439_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "and his baptism was accordingly deferred until he should arrive in Tavoy.\""
+   "raw_file": "raw/dutton.txt",
+   "quote": "in 1660 two Frenchmen affiliated with the MEP were selected as apostolic vicars. Francois Pallu was named to head the mis- sion responsible for Tonkin, Laos, and five provinces in southwestern China, while Pierre Lambert de la Motte was given authority over Cochinchina"
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "vietnamese-catholicism-to-1815",
    "field": "longDescription",
-   "sentence": "The baptism is recorded in Boardman's journal.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
+   "sentence": "In 1658 Propaganda proposed Pallu and Lambert de la Motte as vicars apostolic for China and its neighbors.",
+   "url": "https://archive.org/download/cihm_54000/cihm_54000_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "Repaired early in the morning to a neighbor- ing tank, and administered Christian baptism to Ko Thah-byu, the Karen Christian who accompa- nied us from Maulmain."
+   "raw_file": "raw/launay1894.txt",
+   "quote": "la Propa- gande proposa de nommer M. Pallu et M. de la Motte Lambert vicaires apostoliques dans les Missions de Chine"
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "vietnamese-catholicism-1815-1906",
    "field": "longDescription",
-   "sentence": "Francis Mason was a missionary of the American Baptist mission (the Karen mission).",
-   "url": "https://archive.org/download/SO2014/SO2014_djvu.txt",
+   "sentence": "In 1832 the Paris mission in Tonkin was under its bishop Joseph Havard.",
+   "url": "https://archive.org/download/mgrretordetleton00laun/mgrretordetleton00laun_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/opehtoo.txt",
-   "quote": "Karen Bible translated in 1853 by American Baptist missionary Francis Mason"
+   "raw_file": "raw/launay1893.txt",
+   "quote": "Joseph Havard, il était vicaire apostolique depuis i83i."
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "field": "longDescription",
-   "sentence": "The writer trained at a Karen Baptist seminary.",
-   "url": "https://archive.org/download/SO2014/SO2014_djvu.txt",
+   "entry": "protestant-churches-of-the-voc-world",
+   "field": "legacy",
+   "sentence": "From 1815 Joseph Kam worked to renew the Company's old church in Ambon.",
+   "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/opehtoo.txt",
-   "quote": "Bachelor of Theology, Karen Baptist Theological Seminary, 2003"
+   "raw_file": "raw/aritonang.txt",
+   "quote": "Joseph Kam in Ambon (1815-1833) and his colleagues was to seek a reha- bilitation of the life of the church"
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "field": "longDescription",
-   "sentence": "The missionary Francis Mason counted 1,270 Karens in good standing in the churches twelve years later.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
-   "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "At the end of these twelve years, one thousand two hundred and seventy Karens are officially reported as members of the churches in good standing."
+   "entry": "protestant-churches-of-the-voc-world",
+   "field": "legacy",
+   "sentence": "The entry on Indonesian Christianity names him.",
+   "record": "census VIII.26 voices: Joseph Kam",
+   "note": "VIII.26's own voices line names Joseph Kam; the tree's own text."
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "catholics-of-dutch-ceylon",
    "field": "longDescription",
-   "sentence": "Mason calls the baptism of 1828 the commencement of the mission.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
+   "sentence": "Baldeus says he knew of it and did not report it.",
+   "url": "https://archive.org/download/ASketchOfTheRiseAndProgress/ASketchOfTheRiseAndProgress_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "The baptism of Ko Thah-byu, in 1828, was the commencement of the mission ;"
+   "raw_file": "raw/chitty.txt",
+   "quote": "some _of tne traitors having ffiven him notice th ereof 1y letters, wherein thev styled Him \" the Father of their souls\" he did not- «xgal it.",
+   "note": "OCR is rough ('«xgal' for 'reveal'); read in context with the line before: the sketch says Baldeus gives this as the charge against the Jesuit."
   },
   {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "entry": "catholics-of-dutch-ceylon",
    "field": "longDescription",
-   "sentence": "The Karens believed in a lost Golden Book that would return.",
-   "url": "https://archive.org/download/SO2014/SO2014_djvu.txt",
+   "sentence": "He admits that one of them, the Jesuit Caldeiro, was not in the plot.",
+   "url": "https://archive.org/download/ASketchOfTheRiseAndProgress/ASketchOfTheRiseAndProgress_djvu.txt",
    "accessed": "2026-11-10",
-   "raw_file": "raw/opehtoo.txt",
-   "quote": "Karens were waiting for the returning of a book of life or the Golden Book that had been lost."
-  },
-  {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "field": "longDescription",
-   "sentence": "Christianity came to the Karens with British rule (the writer's words: it cannot be separated from British colonization).",
-   "url": "https://archive.org/download/SO2014/SO2014_djvu.txt",
-   "accessed": "2026-11-10",
-   "raw_file": "raw/opehtoo.txt",
-   "quote": "The history of Christianity entering into the Karens cannot be separated from the British colonization;"
-  },
-  {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "field": "longDescription",
-   "sentence": "It did not always stay a liberating force.",
-   "url": "https://archive.org/download/SO2014/SO2014_djvu.txt",
-   "accessed": "2026-11-10",
-   "raw_file": "raw/opehtoo.txt",
-   "quote": "While the Karens embraced Christianity as a means of liberation, it did not always remain a liberating influence."
-  },
-  {
-   "entry": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "field": "voices",
-   "sentence": "Ko Thah-byu baptized at Tavoy on 16 May 1828; Mason calls it the commencement of the mission.",
-   "url": "https://archive.org/download/karenapostleorme00maso/karenapostleorme00maso_djvu.txt",
-   "accessed": "2026-11-10",
-   "raw_file": "raw/mason.txt",
-   "quote": "The baptism of Ko Thah-byu, in 1828, was the commencement of the mission ;"
+   "raw_file": "raw/chitty.txt",
+   "quote": "fesses that Father Caldbiro had not been concern- ed in the treacherous design"
   }
  ],
  "neighbor_changes": [
@@ -1730,7 +1711,7 @@
    "ruling": "G89-32 (a): a named line in VII.2 on the Tamil church after Ziegenbalg (AP8)",
    "reason": "The record recommends one line so the Tamil church does not vanish at 1750. The row's dates are not changed because the ruling names none.",
    "set": {
-    "longDescription": "In 1675 a Lutheran pastor in Frankfurt, Philipp Jakob Spener, published a short book called Pia Desideria arguing that correct doctrine correctly preached was not enough. Christians needed to meet in small groups, read Scripture together, and expect their lives to change. What followed was less a new church than a renewal movement inside the Lutheran state churches, and its center became Halle, where August Hermann Francke built an orphanage that grew into a complex of schools, a printing house and a Bible institute, funded by donations and tied to correspondents across Europe, Russia, India and North America. Pietism gave German Protestantism the conversion narrative as a genre and a great body of new hymnody, and through Halle's graduates it launched one of the first organized Protestant missions sent out from Europe, when Bartholomäus Ziegenbalg and Heinrich Plütschau sailed for the Danish trading post at Tranquebar in South India in 1706.\n\nThe Tamil church they planted went on. Fenger says Aaron was the first native ordained. That was on 28 December 1733. His list shows eleven native ministers ordained by 1813.",
+    "longDescription": "In 1675 a Lutheran pastor in Frankfurt, Philipp Jakob Spener, published a short book called Pia Desideria arguing that correct doctrine correctly preached was not enough. Christians needed to meet in small groups, read Scripture together, and expect their lives to change. What followed was less a new church than a renewal movement inside the Lutheran state churches, and its center became Halle, where August Hermann Francke built an orphanage that grew into a complex of schools, a printing house and a Bible institute, funded by donations and tied to correspondents across Europe, Russia, India and North America. Pietism gave German Protestantism the conversion narrative as a genre and a great body of new hymnody, and through Halle's graduates it launched one of the first organized Protestant missions sent out from Europe, when Bartholomäus Ziegenbalg and Heinrich Plütschau sailed for the Danish trading post at Tranquebar in South India in 1706.\n\nThe Tamil church they planted went on. Fenger calls Aaron \"the first native ordained\" to the ministry. That was on 28 December 1733. By 1813 his list counts eleven Indian ministers.",
     "voices": [
      "Philipp Jakob Spener — Frankfurt pastor whose Pia Desideria (1675) set the movement's program and launched its small-group meetings",
      "August Hermann Francke — built the Halle orphanage, schools and press that became Pietism's institutional engine",
@@ -1775,58 +1756,6 @@
      }
     ]
    }
-  },
-  {
-   "id": "northeast-india-revivals-and-the-mar-thoma-refor",
-   "ruling": "G89-31 (a): a named line in VIII.27 on the Karen Baptists (AP9), with one modern study added as the record asks",
-   "reason": "The Karen are a people movement of a hill minority under the American Baptist mission, the kind VIII.27 already holds. The row's dates, region and countries are not changed because the ruling names none. The modern study is an MA thesis by a writer trained at the Karen Baptist Theological Seminary; see flags.",
-   "set": {
-    "longDescription": "In 1836 a teacher at the seminary in Kottayam, Abraham Malpan, revised the Syriac liturgy that Kerala's St Thomas Christians had used for centuries — cutting what he judged unscriptural and putting the service into Malayalam so ordinary people could follow it. The reform divided the ancient community, and after decades of argument and litigation a royal court verdict in 1889 separated the two parties for good. The reforming wing carried on as the Mar Thoma Syrian Church, an Eastern church that kept its ancient rite and its evangelical conscience together, while the larger body continued as the Malankara church. A thousand miles to the northeast, in the Khasi, Mizo and Naga hills, small congregations planted by Welsh and American missions caught fire on their own. Village preachers and singers carried revival through the hills, most famously the Khasi awakening of 1905-06, and hill languages received their first written hymnody out of the same process, composed rather than translated.\n\nIn Burma, far to the south, a Karen man named Ko Thah-byu was baptized at Tavoy on 16 May 1828. Twelve years later the missionary Francis Mason counted 1,270 Karens in good standing in the churches.\n\nA writer trained at a Karen Baptist seminary tells of a lost Golden Book that the Karens believed would return. He writes that Christianity came to the Karens with British rule. It did not always stay a liberating force, he adds.",
-    "voices": [
-     "Abraham Malpan — the Kottayam seminary teacher whose 1836 revision of the Syriac liturgy began the Mar Thoma reform",
-     "Mathews Mar Athanasius — the reform party's metropolitan, consecrated in 1842, who carried it through its first decades of conflict",
-     "Thomas Jones — the Welsh missionary who gave the Khasi language its written form in the 1840s",
-     "Edwin W. Clark — the American Baptist who, with Naga converts, began the mission in the Naga hills in 1872",
-     "Ko Thah-byu — the Karen man baptized at Tavoy on 16 May 1828, whose baptism Mason calls the commencement of the Karen mission"
-    ],
-    "sources": [
-     {
-      "work": "The Mar Thoma reform's own documents: Abraham Malpan's revised liturgy (1836ff.); the reformers' 1836 memorial; Mathews Mar Athanasius's records; synod records and service books; the Travancore Royal Court litigation record (to 1889)",
-      "type": "primary",
-      "note": "An ancient-rite church's own liturgical and textual act of reform, alongside the adversarial court record of the legal fight that followed."
-     },
-     {
-      "work": "The hill revivals' own record: Khasi revival (1905-06, Mairang) and Mizo revival (1906ff.) accounts; hymnody in local languages (Khasi and Mizo revival hymns; lengkhawm zai); indigenous evangelists' and converts' accounts",
-      "type": "primary",
-      "note": "Local-language hymnody — indigenous composition, not translation — carries the revivals' own theological voice; the accounts are partly self-recorded and partly transcribed by missionaries, worth reading with that mixed origin in mind."
-     },
-     {
-      "work": "Church records WITH mission filters: Welsh Calvinistic Methodist records (Khasi/Mizo hills); American Baptist records (Naga hills, Assam); presbytery/assembly and association minutes",
-      "type": "primary",
-      "note": "The early layers here come through a missionary's own pen; indigenous-majority governance becomes visible by this window's end. The colonial administration's own frame — the Inner Line, punitive expeditions — surrounds the record throughout."
-     },
-     {
-      "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008), with Frederick S. Downs, History of Christianity in India vol. V pt. 5: North East India (CHAI, 1992)",
-      "type": "secondary",
-      "note": "The standard covering both wings and the standard regional study."
-     },
-     {
-      "work": "Cambridge History of Christianity vol. 8, ch. 29 'Christians and religious traditions in the Indian empire' (Frykenberg)",
-      "type": "reference",
-      "note": "A direct fit for both wings of this story."
-     },
-     {
-      "work": "Francis Mason, The Karen Apostle: or, Memoir of Ko Thah-byu, the First Karen Convert (1843; edition used 1847)",
-      "type": "primary",
-      "note": "A missionary's memoir. It gives the baptism of 1828 from the missionary Boardman's journal and the count of Karen church members twelve years on."
-     },
-     {
-      "work": "Saw Solomon Opehtoo, In Search of Karen Theology: Relevant Christological and Soteriological Inquiries (MA thesis, Episcopal Divinity School, 2014)",
-      "type": "secondary",
-      "note": "A writer trained at the Karen Baptist Theological Seminary. It tells the Karen tradition of a lost book and says Karen Christianity cannot be separated from British colonization."
-     }
-    ]
-   }
   }
  ],
  "links": [
@@ -1843,10 +1772,20 @@
      "source_id": null,
      "work": "Collectanea S. Congregationis de Propaganda Fide, vol. 1 (Rome, 1907), 25 August 1675",
      "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
-     "lines": "13800-13803",
+     "lines": "13797-13803",
      "locus": "entry of 25 August 1675",
      "license": "public-domain",
      "quote": "Ut Confraterni- tatibus a Vicarlis Ap. erectis in Tunkino et Cocincina sub nomine Amatorum Crucis con- cedantur solitae Indulgentiae"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collectanea S. Congregationis de Propaganda Fide, vol. 1 (Rome, 1907), 25 August 1675",
+     "file": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
+     "lines": "13819",
+     "locus": "the response of 25 August 1675",
+     "license": "public-domain",
+     "quote": "R. Dentur Indulgentiae petitae"
     },
     {
      "kind": "secondary",
@@ -1943,6 +1882,47 @@
     "The proclamation was the Company's government's act, not a church synod's. The arrow runs from the Reformed church of the Company because the Company ran that church and the study says the Dutch set out to convert the Catholics. The 1848 sketch alone is 19th-century and partisan, so it carries no higher grade than this; the modern study supports the same reading. The OCR of the proclamation passage is rough (\"dftted\", \"p$in\")."
    ],
    "change_reason": "New: names the 1658 proclamation that the two Ceylon entries share."
+  },
+  {
+   "id": "the-society-of-jesus--vietnamese-catholicism-to-1815",
+   "from": "the-society-of-jesus",
+   "to": "vietnamese-catholicism-to-1815",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Jesuits of the Portuguese mission began the church in Tonkin in the 1620s. Dutton says its Christians owed the Jesuits an enduring debt.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George E. Dutton, A Vietnamese Moses: Philiphê Bỉnh and the Geographies of Early Modern Catholicism (Oakland: University of California Press, 2017), open access",
+     "url": "https://archive.org/download/oapen-20.500.12657-31953/621439_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/dutton.txt",
+     "locus": "Introduction",
+     "quote": "the Portuguese missionary project that had begun in Tonkin\nin the 1620s."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George E. Dutton, A Vietnamese Moses: Philiphê Bỉnh and the Geographies of Early Modern Catholicism (Oakland: University of California Press, 2017), open access",
+     "url": "https://archive.org/download/oapen-20.500.12657-31953/621439_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/dutton.txt",
+     "locus": "Introduction",
+     "quote": "viewed themselves as sharing an enduring debt to the Jesuits for having brought\nthe faith."
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-25 (b): the Jesuit beginnings named in the Vietnam row's own text; two-way check",
+   "named_in_text": "vietnamese-catholicism-to-1815.longDescription, relationsSummary",
+   "wants": [
+    "A Jesuit letter or annual report from Tonkin of the 1620s to 1640s, read in the original."
+   ],
+   "drafter_flags": [
+    "The Society's row (era 7) ends in 1650 and the Jesuit mission in Tonkin began in the 1620s, so the link sits inside that row's window. The source is one modern study, read raw."
+   ],
+   "change_reason": "New: ties the Vietnam row to the Society that began it."
   }
  ],
  "retire_links": [],
@@ -1970,6 +1950,24 @@
    "g89": "G89-37 (a)",
    "reason": "Carried. The Pacific wing stays in VIII.7, whose name includes \"Pacific Islands\" and whose text tells the Polynesian teachers' island-to-island work. Nothing is drafted and VIII.7 is not touched; splitting a Pacific row out would be a change order on a frozen row, which the ruling declined.",
    "waits_for": "Nothing in this sweep. Ellis, Polynesian Researches (1829-31), was located but the volume opened does not carry the conversions; a reader of the Pacific wing may ask for a split later."
+  },
+  {
+   "item": "AP9 — the Karen Baptist movement in Burma, 1828-1906 (a named line in VIII.27)",
+   "g89": "G89-31 (a)",
+   "reason": "The ruling asks for one modern study before drafting. The only one found is an MA thesis in theology (Opehtoo 2014). Its history rests on Mason 1843 and Harris 1920, so it does not check the missionary memoir. Mason 1843/1847 (V) is read and gives the 1828 baptism and the count of about 1840.",
+   "waits_for": "A published modern history of the Karen Baptists (a peer-reviewed article or a scholarly monograph), opened and read; Karen-language sources wanted."
+  },
+  {
+   "item": "Whether the Reformed church of the VOC world continues as Indonesian Christianity (VIII.26) through the Protestant Church of the Moluccas",
+   "g89": "G89-27 (a)",
+   "reason": "The record marks the descent [S] (\"the Protestant Church of the Moluccas ... descend from it\"). G89-27 (a) names no successor. Aritonang ch. 9 describes Joseph Kam's work from 1815 as a rehabilitation of the same church, which reads as continuity, but VIII.26's own subject is mainly the new mission churches. The tree has no entry for the Moluccan church between 1815 and 1861. No link is drafted.",
+   "waits_for": "Mark's ruling on one question: should AP5 continue as VIII.26? If yes, a \"continued as\" link, at most Widely Accepted, with the 1815-1861 gap named."
+  },
+  {
+   "item": "Missing country and place IDs for the new rows",
+   "g89": "G89-6 (a)",
+   "reason": "No census row carries Vietnam, Sri Lanka, Jaffna (Q215277) or Puttalam (Q3088741), so the rows with those places have no modernCountries for them. The IDs for Sri Lanka (Q854), Jaffna and Puttalam are in Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json. Vietnam has none in the repo. Ambon and the Moluccas have none either.",
+   "waits_for": "Country and place rows (or checked IDs) for Vietnam, Sri Lanka, Jaffna, Puttalam, Ambon."
   }
  ],
  "wants": [
@@ -1979,26 +1977,30 @@
   "A Dutch or Malay text of the VOC church itself (Valentijn, Oud en Nieuw Oost-Indiën, 1724-26; the Leijdecker Bible of 1733; church records of Ambon), for the members' own voice.",
   "The text of the Dutch proclamations of 1658 and 1715 against Catholics in Ceylon, and a Dutch Reformed account of the Ceylon church.",
   "Sebastião do Rego's life of Joseph Vaz (1745), and Tamil and Sinhala Catholic texts of the period, to learn who the Goa Oratory's priests were and how the church spoke for itself.",
-  "A monograph study of the Karen Baptists by a Karen or Burma specialist, to replace the MA thesis used for VIII.27; and Karen-language sources."
+  "A published modern history of the Karen Baptists (a peer-reviewed article or scholarly monograph), and Karen-language sources, so that the AP9 line in VIII.27 can be drafted. Mason, The Karen Apostle (1847), is read and ready.",
+  "A dated present-day record of the Catholic Church in Vietnam (for example a statement of the Catholic Bishops' Conference of Vietnam), to grade the living mark on the 1815-1906 row.",
+  "A dated present-day record of the Catholic Church in Sri Lanka (for example the Catholic Bishops' Conference of Sri Lanka), to grade the living mark on the Ceylon row.",
+  "A dated present-day record of the Protestant Church of the Moluccas, and a source for its descent from the Company's church, to grade the living mark and its descent on the VOC row."
  ],
  "flags": [
-  "LIVING: none. All four new rows are living: false. The record says the Catholic Church in Vietnam and in Sri Lanka and the VOC churches' heirs live, but no dated item graded CD or CR was read for any of them (R2 to R4), so no livingEvidence is given.",
+  "FROZEN, carried unchanged: paragraph [0] of VII.2 (german-pietism-spener-francke-halle) and of VIII.27 (northeast-india-revivals-and-the-mar-thoma-refor) are identical to the census text (checked); their READ-FAIL (FRE 30 and 27) is not ours to fix. Only the added paragraphs are ours and pass.",
   "RULINGS: every new row, line and link carries its G89 number in its `ruling` field. G89-6 (a) governs all of them as change orders; G89-2 (a) is carried out by naming Propaganda and the MEP as carriers in the Vietnam rows (no MEP row, so no MEP link).",
-  "IDS (modernCountries): Vietnam has no country or place ID anywhere in the repo, so both Vietnam rows have modernCountries: [] and the coordinator must add Vietnam from a checked source (the validator accepts an empty list). Java and Timor IDs are copied from existing census rows. Sri Lanka (Q854), Jaffna (Q215277) and Puttalam (Q3088741) are copied from Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json, not from the census, which has no Sri Lanka row. Ambon and the Moluccas have no ID in the repo, so the VOC row's placeLabel is 'Java · Timor and beyond' and the VOC row has no Sri Lanka country although it covers Ceylon.",
   "VALIDATOR: a test copy of the census with these four rows, the two links and the two neighbor changes applied passes tools/validate-census.mjs except two meta count errors (totalEntries 353 vs 357; statusCounts) that the apply step must fix. check_draft.py prints two READ-FAIL lines, both for paragraph [0] of VII.2 and VIII.27's existing longDescription (FRE 30 and 27), which are frozen text and are not edited; the added paragraphs pass.",
   "DATE CONFLICT: Launay 1894 gives 13 May 1658 for Propaganda's proposal and 17 August 1658 for the brief naming Pallu and Lambert. Dutton writes that the two were selected as vicars apostolic 'in 1660' (and that Propaganda took its two steps in spring 1658). The draft uses 1658 (Launay and Dutton's own spring 1658) and does not state 1660.",
   "NOT USED, record items I could not re-check: (1) The record's Rhodes quote 'Cathechismum Latinum, Tunchinensem' is not verbatim in the OCR ('C athee hi fmum Latinum , Tunchinenfem'), and the licence date reads '1 6 j i'; the year 1651 is taken from Dutton ('the version printed in Rome in 1651'), and the Latin-and-Vietnamese point from Dutton's endnote 75. (2) The record's '1664-65' date for the Ayutthaya Monita: the OCR near it is garbled, so the draft gives the Monita undated ('the first vicars'), after 1658. (3) The Collectanea entry on native priests, dated in the OCR '4 Oct. 17236' (so 1726 by position, after 7 June 1726 and before 22 January 1727): it concerns an oath under Ex illa die and is not used. (4) 1858-85 French conquest and the 1885 killings: [S] in the record, not used. (5) Boudens 1957: V-s, not used.",
   "VIETNAM West Tonkin: the record places the 1832 count in the West Tonkin mission. Launay's sentence says 'la mission française' (the Paris mission) and I could not confirm the vicariate in that passage, so the draft says 'the French mission in Tonkin'. Dutton does say the Paris mission held West Tonkin from 1678.",
   "VIETNAM voices: the only Vietnamese voice is Bỉnh, read through Dutton's English renderings. The one quotation in prose is Dutton's rendering of Bỉnh's 1822 words; the Vietnamese original was not read, so it is marked as a rendering in the text and in the fact table. The teaser line 'carried on by Vietnamese catechists, priests and sisters' is the record's own reading (Mark's test); the V items behind it are the 1670 ordinations (Dutton), the Lovers of the Cross (Launay 1893) and the Monita (Launay 1894).",
-  "CROSS-SLICE LINK for the RV-A drafter: Dutton (introduction) says the Padroado community 'was also a Jesuit community' and that the Portuguese Jesuit mission began in Tonkin in the 1620s; the Jesuits' dissolution of 1773 is in the era 8 Vietnam row. A link between society-of-jesus-1650-1814 and vietnamese-catholicism-to-1815 is possible; I did not draft it because the slices name only AP2 and ME-8 as RV-1's pointers.",
   "CEYLON, the 1848 sketch: the title page names no author. The archive.org record attributes it to Simon Casie Chitty. The record calls its author 'a Ceylonese Catholic'; I could not confirm who the author was or his church, so the draft calls it 'a Catholic account' (it speaks as one: for example, 'the Catholics of Ceylon owe more than they can repay'). Its OCR is rough; every quote keeps the OCR errors (notes in the fact table). The year Vaz landed (OCR 'J690') and the year he reached Kandy (OCR '469?') are garbled and are not used. The record's 'Indian', 'Konkani' and 'protected by a Buddhist king' for the Goa Oratorians and Vaz are not in what I read as stated: the sketch says Kandy's king gave Catholics asylum, then pulled their churches down, and in 1743 banned the faith. The draft says so.",
   "CEYLON, both sides: the sketch says the Dutch used force and that the Protestant writers it cites deny it. Baldeus (a Dutch minister, per the sketch) says the Catholics put to death at Jaffna had plotted, and admits one Jesuit was not in the plot. Both are in the row. The 1658 proclamation text itself was not read; it is quoted through the sketch.",
-  "LINK, argued against (VOC to Ceylon Catholics): the proclamation of 1658 was the Company government's act. The arrow runs from the Reformed church of the Company because the Company ran that church (Aritonang: its duty was 'the conservation of the public faith'; in Ceylon it tried to turn Catholic converts into Reformed Protestants). Graded Dominant Modern Reconstruction (modern study plus a 19th-century Catholic account), not Documented or Widely Accepted. Marked major, with an outcome, because a law forbade hiding a priest on pain of death. Mark may prefer no link, or a different type.",
-  "NO LINK drafted from the VOC row to Indonesian Christianity (1861-1906): the record names none and says only that the later entry mentions the Company as background. That entry's own voices say Joseph Kam revived the Company-era island churches from 1815; Aritonang ch. 6 (the line 'Joseph Kam (1769-1833), the apostle of the Moluccas, under whose direction the Church of the Moluccas was revitalised') could support a link if Mark wants one. No change drafted to VIII.26 or VIII.39 (nothing in this slice's rulings names a line for either). The VOC row ends at 1815 as G89-27 (a) says; the era 9 tail (the Indische Kerk, 1817 to 1861) is not drafted.",
   "VII.2 line (G89-32 a): VII.2's dates stay 1675-1750 because the ruling names no date change, but the line reaches 1813 (Fenger's list). Mark may want the end changed. 'Native' is Fenger's word. Entry 7 of his list has a garbled name in the OCR, but its ordination date (17 March 1811) is legible; the count of eleven is entries 1 to 11, the last ordained 1813. I used only Fenger's chapter heading, the ordination date and the list; the record's own cited lines (5753-5850) hold the 1733 ordination.",
-  "VIII.27 line (G89-31 a): the Karen story begins in 1828, before the row's start (1836); the row's dates, region and countries are unchanged (Myanmar is already in its countries list). The 'modern study' the record asks for is Saw Solomon Opehtoo, In Search of Karen Theology (MA thesis, Episcopal Divinity School, 2014; CC BY-NC-ND 3.0 on archive.org, so open access, not public domain). It is a student thesis, not a monograph, and the author's own words only say he trained at the Karen Baptist Theological Seminary; the line says exactly that. If Mark wants a peer-reviewed study, strike the second added paragraph, the Opehtoo source and the record's modern-study condition, and hold the line instead (a monograph by a Karen or Burma specialist is on `wants`). 'Came with British rule' is my plain-words paraphrase of 'cannot be separated from the British colonization'. The figure 1,270 is Mason's, a missionary partisan, for about 1840.",
   "SOURCES: Aritonang and Steenbrink (2008) and Dutton (2017) are open access under licences, not public domain; the record cites both as V, and each is quoted in short passages. Every raw text is saved in raw/ and listed in raw/SOURCES.json. The Library holds only the Collectanea (1675 entry) for these rows.",
   "ERA RULES: nothing after 1815 is in the two era 8 Vietnam or the VOC row (latest dates 1796, 1753, 1733, 1731-33). The Ceylon row's last date is 1806. The era 9 Vietnam row's evidence ends with 1833 plus Dutton's summary of the later century; the row's 1906 end rests on the summary only.",
-  "HOLDS: AP10, AP12 and AP13 are held and AP14 is carried; AP9 is drafted (a line in VIII.27) on the thesis above rather than held, which is the one judgement call in this slice."
+  "LIVING (coordinator rule S8): vietnamese-catholicism-1815-1906 (own, grade none), vietnamese-catholicism-to-1815 (line, carrier the 1815-1906 row), catholics-of-dutch-ceylon (own, grade none), protestant-churches-of-the-voc-world (own, grade none, descentConfidence Dominant Modern Reconstruction). The record's lines: AP4 \"Living today: yes (the Catholic Church in Vietnam); no dated item after 2010 opened: grade none\"; AP5 \"the heirs live (e.g. the Protestant Church of the Moluccas) [S]; no dated item graded. Grade: none (no dated item after 2010)\"; AP6 \"yes (the Catholic Church in Sri Lanka); no dated item graded. Grade: none (no dated item after 2010)\". No dated source is in hand for any of the three; wants entries added.",
+  "S1: the VIII.27 change is dropped; AP9 is a hold waiting for a published modern study. Mason 1847 stays in raw/ (ready). Opehtoo is no longer used.",
+  "S7: the VOC -> Indonesian Christianity link is dropped. AP5's legacy has a qualified sentence on Kam, and a hold puts the lineage question (continued as VIII.26 through the Protestant Church of the Moluccas) to Mark. The Kam quote is from Aritonang ch. 9, outside the chapter range the record verified.",
+  "LINKS: 3 in all: Vietnam seg 1 -> seg 2 (continued as); VOC -> Catholics of Dutch Ceylon (argued against); the-society-of-jesus -> vietnamese-catholicism-to-1815 (gave rise to). RV-1 -> Vietnam is not drafted (M13: leave as is unless RV-1 enters, then one link by the RV-A drafter).",
+  "M11: VII.2's dates stay 1675-1750 although the line reaches 1813; for Mark. M12: Dutton and Aritonang are open access; the archive.org record carries no license for either, so no `license` field is given on their sources.",
+  "HOLDS: AP9, AP10, AP12, AP13 are held; AP14 is carried; the VOC lineage question is held for Mark.",
+  "IDS (modernCountries): IDs are copied from census rows only. AP4 (both rows) and AP6 have modernCountries []; AP5 has Java only (Q252, Q3757). Vietnam, Sri Lanka, Jaffna, Puttalam and Ambon are in the missing-IDs hold."
  ]
 }

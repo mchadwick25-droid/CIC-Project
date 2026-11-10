@@ -1,0 +1,153 @@
+{
+ "slice": "ME1",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "ME1-R1-S1",
+   "where": "entry church-of-the-east-three-patriarchates: why, teaser, longDescription[4], legacy; link church-of-the-east-three-patriarchates--church-of-the-east-chaldean-consolidation (note)",
+   "problem": "The 1778 turn to Rome is stated as settled and as the patriarch's act. On 29 April 1778 Patriarch Elia died; on 30 April it was his nephew Hormizd, a metropolitan and not patriarch, who embraced Rome. His cousin Yeshua-yau was agreed as patriarch and recanted in May 1779. Rome let Hormizd act as patriarch only without the seal (1782). Labourt dates his definite union to 1830 (excommunicated 1818). The Josephite see had an administrator to 1826 (Labourt), its last holder dying 1828 (Wigram). 'In 1778 the patriarch of the plain turned to Rome' (why, teaser, longDescription) and 'By 1815 ... The line of the plain had joined Rome' (legacy) are wrong or overstated, and the dated sources disagree (Wigram 1778 vs Labourt 1830), so the claim is contested and needs both sides. The VIII.40 link note ('the patriarch of the plain submitted ... His nephew Hormizd was reconciled ... in 1830') makes the patriarch and the nephew two different converts.",
+   "evidence": "Badger v1 lines 8040-8065 (\"made me Metropolitan\"; uncle died 29 April; \"I and Yeshua-yau were reconciled ... It was moreover agreed that he should be Patriarch in the room of my uncle; but a few months had hardly elapsed when he again became a heretic ... May, 1779\"); lines 8100-8104 (licence \"but I was not allowed to use the patriarchal seal\", Pius VI, A.D. 1782). Labourt raw (own fetch): \"Joseph (V) Augustine Hindi succeeded (1779-1826) ... Administrator\"; \"John Hormizd had been excommunicated in 1818, but was reconciled with Rome in 1830\"; \"went over definitely to the Catholic Church (1830)\". Wigram lines 7498-7502: \"in 1778, the Elia line in Mosul made a final and definite submission ... the 'Joseph' line at Diarbekr was allowed to lapse— though the last holder of it did not die till 1828\".",
+   "fix": "why: \"The Church of the East had two patriarchs in 1650, one in the mountains and one on the plain. In 1681 the pope named a third, at Diyarbakır. In 1778 the patriarch of the plain died of plague, and the next day his nephew Hormizd turned to Rome. He wrote down the date: 30 April.\" teaser: \"... An ancient church with three patriarchs at once. In 1778 the patriarch's nephew turned to Rome.\" longDescription[4]: \"In 1778 the line of the plain began to turn to Rome. Patriarch Elia died of plague at Alqosh on 29 April. His nephew Hormizd, a metropolitan, wrote the next part himself, in Badger's English: “So on the 30th of April I embraced all that the holy Church believes.” His cousin Yeshua-yau was to be patriarch. Within a year he turned back, and the two became enemies. In 1782 Pope Pius VI let Hormizd act as patriarch, but not use the patriarch's seal. The sources disagree on when the plain line truly joined Rome. Wigram puts it in 1778. Labourt puts it in 1830, after Hormizd had been cut off by Rome in 1818. Wigram says the Joseph line was then allowed to lapse, though its last holder lived until 1828.\" (Score it; split if FRE < 60.) legacy: \"By 1815 the church stood divided. On the plain, Hormizd led a party in union with Rome, but Rome had not yet made him patriarch. The line of the mountains stayed outside Rome's obedience. Its later story is told in the entry on the Church of the East and the Chaldean Consolidation.\" Link note: \"In 1778 Hormizd, nephew of the dying patriarch of the plain, turned to Rome. Labourt writes that he was cut off in 1818, reconciled in 1830 and named patriarch of Babylon. The line of the mountains stayed outside.\" Add fact-table rows for each new sentence (Badger 8059-8063 Yeshua-yau; 8100-8104 Pius VI 1782; Labourt 1818/1830; Wigram 7500-7502 for 1828)."
+  },
+  {
+   "id": "ME1-R1-S2",
+   "where": "entry church-of-the-east-three-patriarchates: longDescription[0]",
+   "problem": "Anachronism. The paragraph opens in 1650 and puts the mountain patriarch 'at the village of Qudshanis'. The quote it rests on says Denkha Shimon moved the seat there from Rabban Dadishu, and the record says Malech's dates are a locator only. Badger's 'Kochanes' is his own day (1852).",
+   "evidence": "Malech lines 16806-16808: \"Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis\". Record §6 ME-1 item 4: \"use the lists as a locator, not for exact years\".",
+   "fix": "\"The Church of the East began these years with two rival patriarchs. One lived in the mountains of Hakkari. Malech says a patriarch of that line, Denkha Shimon, later moved its seat to the village of Qudshanis. The other lived on the plain, at Alqosh and Mosul.\" (voices item for Denkha Shimon can stay.)"
+  },
+  {
+   "id": "ME1-R1-S3",
+   "where": "entry maronite-church-1815-1906; neighbor_changes maronite-christianity (IV.10), maronite-christianity-era-6 (V.22); links",
+   "problem": "No lineage link into ME-2 era 9, yet IV.10's new basis says the tradition continues 'through its line of later entries' in ME-2, and V.22 names ME-2 as carrier. With no link, ME-2 is not in either row's line, so the carrier claims are false in the tree. The drafter's reason (a 'continued as' from V.22 'would skip eras 7 and 8') does not hold: the one-era rule binds only the continuesAs field (validate-census.mjs lines 308-315); 'continued as' links across gaps are normal. The census has five (among them the very VI.30 -> VIII.40 link this slice retires, eras 7->9), and AF in this same release drafts IV.26 -> AF-2 across eras. A link that is later re-routed when the era 7 and 8 rows enter is retired with replacedBy, exactly as this slice does for VI.30 -> VIII.40. The move of evidence and the two carrier changes are themselves right (see notes).",
+   "evidence": "Census: maronite-christianity--maronite-christianity-era-6 is the last Maronite link; V.22 has no continuesAs. Census cross-era 'continued as' links: scandinavian-conversion-christianity--scandinavian-reformation-kingdoms (gap 3), coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv (gap 4), church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation (gap 2), and two more. AF/Draft.json flag: \"the 'continued as' link IV.26 to AF-2 crosses more than one era, which the validator allows for links\".",
+   "fix": "Add link {id: \"maronite-christianity-era-6--maronite-church-1815-1906\", from: maronite-christianity-era-6, to: maronite-church-1815-1906, type: \"continued as\", confidence: \"Widely Accepted\", verification_state: \"verified-online\", citation_specificity: \"A\", ruling: \"G89-39 a\", note: \"The same church, carried on across a gap. The tree does not yet tell its years from 1517 to 1815. Labourt lists its patriarchs through those centuries, to the one elected in 1899.\", sources: [Labourt \"Maronites\" (secondary, url https://www.newadvent.org/cathen/09683c.htm, accessed 2026-11-10, raw_file raw/cathen_09683c.txt, quote \"All competent authorities agree as to the history of the Maronites as far back as the sixteenth century\" and/or the patriarch-list quote \"Mgr. Elias Hoysk, elected in 1899\")]}. Do not set V.22.continuesAs (era 6 -> 9 would break the field rule). Change ME-2 relationsSummary sentence 2 to: \"It carries on the Maronite entry that ends in 1517; the years between are not yet told here.\" Log the link as to be re-routed when the era 7 and era 8 Maronite rows enter."
+  },
+  {
+   "id": "ME1-R1-S4",
+   "where": "neighbor_changes: the-georgian-golden-age (IV.15) livingEvidence.basis (missing change)",
+   "problem": "IV.15's P2-V basis ends 'No entry covers the church from 1245 to 1917.' ME-3 now covers 1650-1811 and VIII.31 carries the Exarchate to 1906, so this slice makes the sentence false. HANDOVER 'Living' step 2 asks exactly this class of predecessor basis to be updated by the slice whose new rows close the gap, so it should be fixed here, not left to a later pass (the drafter's flag leaves it). IV.15 has no lineage link to ME-3 (ME-3's relationsSummary uses the qualified sentence 'comes long before it'), so it has no living carrier in its line and keeps its own dated evidence under the coordinator's rule.",
+   "evidence": "Census IV.15 livingEvidence.basis: \"An episode of a living tradition. The Georgian Orthodox Church is alive today, and a report from March 2026 describes its Holy Synod acting. No entry covers the church from 1245 to 1917.\" ME1 flags: \"IV.15 is not in this slice's list, so it is not changed here\".",
+   "fix": "neighbor_changes += {id: \"the-georgian-golden-age\", set: {livingEvidence: {basis: \"An episode of a living tradition. The Georgian Orthodox Church is alive today, and a report from March 2026 describes its Holy Synod acting. No entry covers the church from 1245 to 1650.\", evidence: <unchanged>, grade: <unchanged>, group: \"own\"}}, ruling: \"G89-44 a; P2-V living rule (HANDOVER, Living, step 2)\", reason: \"The new 1650-1811 row closes part of the gap the basis named.\"}. Copy evidence and grade byte for byte. (If the coordinator instead wants a 'continued as' IV.15 -> ME-3 across the gap, on the S3 model, then IV.15 has a living carrier in its line and takes {basis: \"This tradition continues, through its line of later entries, in the Georgian Orthodox Church Restored, which carries it today.\", carrier: [\"the-georgian-orthodox-church-restored\"], group: \"line\"}; recommended: the first, which keeps verified evidence and needs no new link.)"
+  },
+  {
+   "id": "ME1-R1-S5",
+   "where": "link russian-church-synodal-century--the-georgian-orthodox-church-restored (sources, verification_state, note)",
+   "problem": "Widely Accepted needs a secondary source (validator lines 152-153). The only source marked secondary is Grdzelidze, George and Vischer (2006), named but not opened, with null quote, file and lines. So the grade's required support is an unopened study, while the link claims verified-online. The note's last sentence ('A modern history takes the Georgian church from 1811 to the present') rests on that unopened title alone (it is cited in IX.40's sources, not in the record). Dowling is marked primary here but secondary in the companion link ME-3 -> VIII.31 for the same appendix.",
+   "evidence": "Draft link sources[2]: {work: \"Tamara Grdzelidze ... (2006)\", file: null, lines: null, quote: null}. Dowling raw (own fetch), Appendix IV, opened: \"The present Emperor, Nicholas II, in 1906 ordered that the ecclesiastical council might discuss, among other matters, the question of the autocephaly of the Georgian Church.\"",
+   "fix": "Drop Grdzelidze from the link's sources (keep it in wants). Add Dowling as the secondary (kind secondary, url and accessed as now, raw_file raw/dowling.txt, locus \"Appendix IV, an appeal from the Georgian Church\", quote \"in 1906 ordered that the ecclesiastical council might discuss, among other matters, the question of the autocephaly of the Georgian Church\"), and mark Dowling the same way in both Georgian links. Note: \"The Georgian church that the Russian Synod governed through an exarch from 1811 is the church that restored its own head in 1917. It is the exarchate line, not the Russian church as a whole, that carries on here. By 1906 it was pressing for its old rights, in an appeal printed by Dowling.\" State stays verified-online, grade Widely Accepted."
+  },
+  {
+   "id": "ME1-R1-S6",
+   "where": "neighbor_changes orthodoxy-under-the-ottomans-1650-1821 (VII.18) longDescription, ME-13 line",
+   "problem": "An English rendering of a Bulgarian quote reaches the census with no original beside it (coordinator's rule; Drafting_Brief: 'Non-English quotes keep the original beside the rendering'). The original is only in fact_table, which never reaches the census. The paraphrase of the three causes also drops Ivanov's word 'spiritual' (духовна съсипия, 'spiritual ruin').",
+   "evidence": "Paisii/Ivanov file line 377: \"Паиси извика: Българино! знай своя родъ и езикъ...\"; lines 351-353: \"които докарали до българската духовна съсипия: липса на свобода,- липса на народна йерархия и народни училища\". Draft VII.18: 'He says Paisii called to his readers: \"Bulgarian! know your own people and language\" (a rendering).'",
+   "fix": "\"He says Paisii called to his readers: «Българино! знай своя родъ и езикъ» (\"Bulgarian! know your own people and language\", a rendering). Ivanov adds that Paisii named three causes of his people's spiritual ruin. They were no freedom, no national hierarchy and no national schools.\" In VIII.28: \"... among the causes of his people's spiritual ruin.\" Keep the Cyrillic exactly as at line 377 (OCR form), and re-score the paragraph. No other non-English quote reaches the census in this slice (the Hormizd text is Badger's published English; see M8)."
+  },
+  {
+   "id": "ME1-R1-S7",
+   "where": "entry georgian-church-1650-1811 longDescription[0]-[2]; neighbor_changes russian-church-synodal-century (VIII.31) longDescription",
+   "problem": "Misattribution. Malan is the translator; the author of every sentence attributed to 'Malan' is Plato Ioselian, as the row's own sourcing and voices say. 'Malan says they \"perverted\" many', 'Malan says the king feared ...', 'Malan says the Synod found ...' put the Georgian historian's judgments in an English translator's mouth, and 'Malan's author' (x3) is an awkward stand-in for a name the row already gives.",
+   "evidence": "Malan raw line 96: \"TRANSLATED FROM THE RUSSIAN OF P. IOSELIAN\"; preface signed line 541 \"Candidate Plato Ioselian. Tiflis, 18th of November, 1835\"; the Antoni passage lines 7320-7372 is the author's text.",
+   "fix": "Replace each 'Malan says' / 'Malan's author says' / 'Malan's author calls' with 'Ioselian says' / 'Ioselian calls'. ME-3 longDescription[0]: \"Ioselian says the churches were full of killers.\" [1]: \"Ioselian says they \\\"perverted\\\" many.\" [2]: \"Ioselian says the king feared ...\"; \"Ioselian says the Synod found ...\". VIII.31: \"Ioselian, a Georgian historian in Malan's English, says the head of the Georgian clergy then took the title ...\"; \"Ioselian calls him a Georgian of a princely family.\" (Calling Ioselian Georgian is supported by his preface's \"our own native sources\", line 450.)"
+  },
+  {
+   "id": "ME1-R1-S8",
+   "where": "neighbor_changes church-of-the-east-chaldean-consolidation (VIII.40), ME-19 line; links",
+   "problem": "Two-way check. The new VIII.40 line names a relationship with the Russian Orthodox Church (VIII.31, 1815-1906): part of the church submitted to its mission in 1896. No link carries it and the sentence is not qualified as uncertain. No VIII.31-VIII.40 edge exists in the census.",
+   "evidence": "Wigram lines 8064-8068: \"In the year 1896, the remnant of the Church remaining there submitted to the Mission sent to educate them by the Russian orthodox Church\". Census edges: none between church-of-the-east-chaldean-consolidation and russian-church-synodal-century.",
+   "fix": "Add link {id: \"church-of-the-east-chaldean-consolidation--russian-church-synodal-century\", type: \"in contact with\" (symmetric; ids in alphabetical order as given), confidence: \"Widely Accepted\", verification_state: \"verified-direct\", citation_specificity: \"A\", ruling: \"G89-48 a (ME-19)\", note: \"Wigram writes that in 1896 the part of the church living in Persia submitted to a Russian Orthodox mission. They hoped it would bring them protection.\", outcome: \"In 1896, Wigram writes, the church's members in Persia submitted to the Russian Orthodox mission sent to them.\", sources: [Wigram, kind secondary, file cic/texts/wigram_assyrians-and-their-neighbours_1929.txt, lines \"8064-8068\", quote \"In the year 1896, the remnant of the Church remaining there submitted to the Mission sent to educate them by the Russian orthodox Church\"]}. (Wigram's text has a line break inside 'In the year / 1896'; the checker squashes whitespace, so the quote matches.)"
+  }
+ ],
+ "minor": [
+  {
+   "id": "ME1-R1-M1",
+   "where": "entry maronite-church-1815-1906: legacy, why",
+   "problem": "Two unsupported flourishes in the generic voice: legacy 'The war of the 1840s and the killings of 1860 left a mark that Lebanon still carries' (the fact table calls it 'the entry's own summing up'); why 'The church that had led its people for centuries now lived under a new order.' 'a French army came ashore' adds a landing Labourt does not state ('an expedition ... restored order'); 'near Beirut' is not in the evidence.",
+   "evidence": "Labourt raw: \"France intervened: an expedition led by General de Beaufort d'Hautpoult restored order.\" livingEvidence items name 'the Patriarchal See at Bkerke' only.",
+   "fix": "Cut the legacy's last sentence and 'near Beirut'. why: \"In 1860 the Druzes killed many Maronites, and France sent an army. A year later the mountain had one governor and no feudal lords.\""
+  },
+  {
+   "id": "ME1-R1-M2",
+   "where": "entry maronite-church-1815-1906 longDescription[1]",
+   "problem": "'Maronite Intrigues' is one topic in the heading of Churchill's chapter II, not a chapter title.",
+   "evidence": "Churchill raw contents: \"CHAPTER II. Emir Beshir Kassim — Maronite Intrigues — 1841, Affray at Deir-el-Kamar ...\"",
+   "fix": "\"In the heading of one chapter he wrote \\\"Maronite Intrigues\\\".\""
+  },
+  {
+   "id": "ME1-R1-M3",
+   "where": "entry georgian-church-1650-1811 longDescription[3], voices",
+   "problem": "'hymns that were still sung in 1866' dates the present tense of Ioselian's text (preface dated Tiflis 1835) to Malan's translation year.",
+   "evidence": "Malan raw lines 7431-7433: \"Macrina (A.D. 1658) ... wrote hymns ... which are still in use in the Church\"; line 541-543 preface dated 1835.",
+   "fix": "\"... wrote hymns that were still sung when Ioselian wrote.\" Same in the voices item."
+  },
+  {
+   "id": "ME1-R1-M4",
+   "where": "entry georgian-church-1650-1811 longDescription[4]",
+   "problem": "'Dowling says the last catholicos was called to St Petersburg in 1810. He was never allowed home.' is the Georgian appeal printed in Dowling's appendix, not Dowling's own text, which says Russia 'compelled the last Catholicos ... to abdicate in 1810'.",
+   "evidence": "Dowling raw: appeal \"in 1810 he was invited to St. Petersburg, and never allowed by the Russian Government to return\"; Dowling's own text \"Russia compelled the last Catholicos, Antonius II, to abdicate in 1810.\"",
+   "fix": "\"A Georgian appeal printed by Dowling says the last catholicos was called to St Petersburg in 1810 and never allowed home.\""
+  },
+  {
+   "id": "ME1-R1-M5",
+   "where": "neighbor_changes melkite-greek-catholic-church (VII.23) longDescription[2]; teaser",
+   "problem": "'No Orthodox account of these years was read' contradicts the paragraph before it, which rests on Paul of Aleppo, 'of the Orthodox Religion'. Separately, VII.23's teaser still says 'from 1724' while dates now read 1650-1815; G89-42 i names only the start, so leave it, but tell the coordinator.",
+   "evidence": "Paul of Aleppo lines 973-975.",
+   "fix": "\"No Orthodox account of these approaches to Rome was read.\""
+  },
+  {
+   "id": "ME1-R1-M6",
+   "where": "holds",
+   "problem": "Two holds go past the ruling: 'ME-3: an era 9 row for the Exarchate' is option (b), which G89-44 a did not take; 'ME-17: Karlovci and Montenegro after 1815' is not a ruled hold (G89-48 a took lines in VII.18 and VIII.28, which were drafted). The ME-2 era 8 hold's waits_for can name a second edition: the Collectio Lacensis preface (tome I, archive.org bub_gb_xilqS9mJXmMC, opened in review) says tome II holds the Oriental-rite councils of 1682-1789, which would include 1736; tome II itself was not found or opened.",
+   "evidence": "Collectio Lacensis I preface (own fetch): \"duo priores eontinebunt Concilia ab an. 1682. usque ad 1789. sive (I. toni.) ab ICpiscopis Kitus Latini, sive (II. tom.) ab Episcopis Rit. Oriental. habita\".",
+   "fix": "Move the ME-3 era 9 item and the ME-17 after-1815 item to wants. In the ME-2 era 8 hold, waits_for: \"Mansi vol. 38, or Collectio Lacensis vol. 2 (Freiburg, 1876; Oriental-rite councils 1682-1789), or another public-domain edition of the 1736 acts, opened raw.\""
+  },
+  {
+   "id": "ME1-R1-M7",
+   "where": "link catholic-church-ancien-regime--church-of-the-east-three-patriarchates sources[1]",
+   "problem": "The note names Pius VI and 1782; the quote at 8100-8102 has neither.",
+   "evidence": "Badger lines 8100-8104: \"... but I was not allowed to use the patriarchal seal. This concession made to us by Pope Pius VI. came to hand on the 11th of December, 2094 of the Grecian era, A.D. 1782.\"",
+   "fix": "lines \"8100-8104\", quote \"licence to minister and perfect the office of patriarch, but I was not allowed to use the patriar- chal seal. This concession made to us by Pope Pius VI. came to hand on the 11th of December, 2094 of the Grecian era, A.D. 1782.\" (copy exactly from the file)."
+  },
+  {
+   "id": "ME1-R1-M8",
+   "where": "entry church-of-the-east-three-patriarchates longDescription[4]",
+   "problem": "'His nephew Hormizd wrote the next part himself' presents Badger's English translation of a Syriac manuscript as Hormizd's own words.",
+   "evidence": "people[0].source.work: \"translated from a Syriac manuscript by G. P. Badger\".",
+   "fix": "Add \"in Badger's English\" (folded into S1's replacement text)."
+  },
+  {
+   "id": "ME1-R1-M9",
+   "where": "neighbor_changes church-of-the-east-schism-of-1552 (VI.30)",
+   "problem": "VI.30's relationsSummary still ends 'The Chaldean consolidation of the 1800s carries it on.' After the re-route its direct successor is ME-1. Not false (the line still reaches VIII.40), but it now skips the row between.",
+   "evidence": "Census VI.30 relationsSummary.",
+   "fix": "Optional, as part of the G89-6 re-route change order: \"The entry on the Church of the East's three patriarchates, 1650 to 1815, carries it on.\""
+  },
+  {
+   "id": "ME1-R1-M10",
+   "where": "VIII.40 ME-19 line; wants",
+   "problem": "1896 vs 1898. Following Wigram (the one text opened, V) over the record's [S] 1898 is right, and the line attributes the year to him. Many accounts give 1898, so the year wants a second source.",
+   "evidence": "Record §6 ME-19 and §2 row: 1898 [S]; Wigram lines 8064-8065: \"In the year 1896\".",
+   "fix": "Keep the line. Add to wants: \"A second source on the year the Urmia Assyrians joined the Russian Orthodox mission (1896 in Wigram; 1898 in the sweep's [S] note).\""
+  },
+  {
+   "id": "ME1-R1-M11",
+   "where": "neighbor_changes VII.18 and VIII.28 sources (Paisii)",
+   "problem": "The Paisii source is typed primary, but the line rests on Ivanov's 1914 introduction, a study. VIII.28's 'The Bulgarian exarchate had an older root' leans causal, which the drafter's own flag says no source supports.",
+   "evidence": "ME1 flags: \"It does not say the first caused the second; no source read says so.\"",
+   "fix": "Note: \"Paisii's history of 1762, with Ivanov's introduction (1914), on which the line rests.\" VIII.28: \"The call for a national church was older.\""
+  },
+  {
+   "id": "ME1-R1-M12",
+   "where": "link georgian-church-1650-1811--russian-church-synodal-century note",
+   "problem": "A 'continued as' from the Georgian church to the Russian church's row needs its note to say the Georgian church went on as one exarchate inside it (as the VIII.31 -> IX.40 note does).",
+   "evidence": "Draft note.",
+   "fix": "Add: \"The Georgian church went on as an exarchate inside the Russian church.\""
+  }
+ ],
+ "quotes_checked": 163,
+ "quotes_failed": [],
+ "notes": "Checker run against my own fetch (review/ME1/raw; djvu texts byte-identical to the drafter's; the four Catholic Encyclopedia pages re-fetched and stripped by me): 163 quotes. 12 QUOTE-MISS-RAW on CE pages were spacing left by my own HTML stripping (a space before punctuation where a link tag sat); all 12 found after squashing those spaces. Library quotes all found at their lines. Six READ-FAILs confirmed: VII.23, VII.18, VII.21, VIII.40 longDescription[0], VIII.31 longDescription[0] and relationsSummary[0]; each field is the census text with new paragraphs appended, the failing paragraph unchanged, so frozen and not the drafter's. ME-2 living: the move is required by the P2-V rule once ME-2 holds the evidence. If IV.10 is carried by ME-2, V.22's carrier IV.10 would itself be carried, a validator error (validate-census.mjs line 217), so V.22 must name ME-2; both neighbor changes follow. evidence, grade and group are byte-identical to IV.10's; only the basis's last sentence changed ('No entry covers the church after 1517' -> 'The tree has no entry for it after 1906'), which is right. The carrier is only true in the tree with the S3 link. ME-2 era 8 held: right under G89-39 a ('the era 8 row once the 1736 synod acts are opened'); not opened, so held. VII.19 <-> ME-1 'in contact with': accepted. ME-1's relationsSummary names VII.19, so the two-way check needs it. The outcome rests on an institutional act in its own quotes (Badger 'appointing Yoosef ... as Patriarch'; Labourt 'granted him the pallium (1681) and the title of patriarch'). WA under the online cap. Ids in alphabetical order. ME-3 -> VIII.31 and VIII.31 -> IX.40 'continued as': accepted as the shape G89-44 a names (the Exarchate a line in VIII.31, handing over to IX.40 by its link). ME-3 needs the first for its line to reach its carrier IX.40. The second needs S5. Georgian disagreements (Balaam Georgian or Russian; why Antoni I left; 1810/1811 and Malan's '1711' OCR slip) are stated with both sides: good. 'Georgian scholar': the drafter is right that the translator's note (Malan line 1999-2000) is about Timothe's Travels. Ioselian's own preface ('our own native sources', line 450) supports calling him Georgian, so the record's word stands on that, not on the note. ME-13 on Ivanov: acceptable. The record had Paisii [S]; the drafter opened the Library file and attributes everything to Ivanov ('He says', 'Ivanov adds'). The quotes are found at lines 352-353, 377, 925. Only the missing originals (S6) and the dropped 'spiritual' need fixing. VII.23 start: only dates and start changed (1724 -> 1650), per G89-42 i. The new paragraphs are appended. Teaser, why and statusDescription are unchanged (see M5). Re-route: the old link is retired with replacedBy. VI.30.continuesAs = ME-1 and ME-1.continuesAs = VIII.40 are adjacent eras. The two new links are WA, as the old one was: VI.30 -> ME-1 verified-direct on Badger and Wigram (Library); ME-1 -> VIII.40 verified-online because Labourt was read online. Correct. AP1 link: AS1/Draft.json carries church-of-the-east-three-patriarchates--st-thomas-christians-two-obediences ('in contact with'). Its id uses ME-1's id exactly; ME1 does not duplicate it. modernCountries: ME-2 and ME-3 copy IV.10's and IX.40's census entries exactly. ME-1 is empty, as VI.30 and VIII.40 are: acceptable. Living marks in this slice: ME-1 (line, carrier IX.19); ME-2 (own, CR, moved from IV.10); ME-3 (line, carrier IX.40); IV.10 and V.22 re-pointed to ME-2. Wigram 1929 was [S] in the record; the drafter opened the Library copy and used it with page-level quotes, all found. It would be good to say so in flags."
+}

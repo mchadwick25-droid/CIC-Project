@@ -1,0 +1,146 @@
+{
+ "slice": "RV-B",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "link moravian-church-after-1815--caribbean-churches-of-slavery-and-emancipation; moravian-church-after-1815.relationsSummary",
+   "problem": "Wrong type and direction, and its one quote shows no tie between the two rows. 'Gave rise to' says the Moravian Church was a parent of LA8-1. But LA8-1's own drafted text says 'The Moravians have their own entry after 1815. This entry tells the other churches of the islands as one story.' So LA8-1 holds the Baptists and Wesleyans, not the Moravians. The two rows are contemporaries (both 1815-1906). Hamilton's 'thronged the churches' quote is about Moravian chapels only. Slices.md also names it 'the link from LA8-1'. RV-5's relationsSummary ('Its Caribbean congregations were one strand of the churches of slavery and emancipation') contradicts LA8-1's framing.",
+   "evidence": "LA/Draft.json caribbean-churches-of-slavery-and-emancipation.relationsSummary; Slices.md RV-B ('the link from LA8-1'). Hamilton 1901 (my fetch, identical to the drafter's): 'A number of clergymen of various churches were arrested and tried by martial law, and acquitted, on the charge of inciting the slaves to rebellion.' and the next sentence names 'Wesleyan and Baptist churches' and the Moravian Pfeiffer. Bleby 1868 (archive.org b24870109, fetched by me): 'Mr. Pfeiffer, a Moravian missionary, was tried by court-martial: he also was acquitted.', beside the Baptists Burchell, Knibb and Gardner and the Wesleyan Box.",
+   "fix": "Replace the link with id caribbean-churches-of-slavery-and-emancipation--moravian-church-after-1815, type 'in contact with', confidence Inferential-Thin, verified-online, no outcome. Sources: the Hamilton quote above (raw/hamilton1901.txt) and the Bleby quote above (url https://archive.org/download/b24870109/b24870109_djvu.txt, raw_file raw/bleby1868.txt; add it to raw/SOURCES.json). Note: 'After the Jamaica rising of 1831, clergy of several churches were put on trial. Hamilton says they were all acquitted. Bleby names a Moravian, Pfeiffer, with Baptist and Wesleyan men. Both writers were missionaries.' (FRE about 61). RV-5 relationsSummary: 'This is the same church as the one at Herrnhut, carried on past 1815. In Jamaica its congregations stood beside the Baptist and Wesleyan churches, which have an entry of their own. After the rising of 1831, missionaries of all three were tried and acquitted.' Add fact rows for both new sentences. Tell the LA reviser so LA8-1's pointer sentence and this link agree."
+  },
+  {
+   "id": "S2",
+   "where": "link coptic-revival-under-cyril-iv--arab-evangelical-churches ('gave rise to')",
+   "problem": "A lineage claim the evidence does not carry. VIII.13 is the Coptic revival under Cyril IV (1854-1906). Wasif Khayat leaving it does not make that revival a parent of the Arab Evangelical churches. The row's Syria half began in 1823, before VIII.13 starts, and both halves came from American missions. 'Gave rise to' is major by type, so the overclaim goes straight onto the tree as a parent edge. The record asks for one link ('VIII.13 (the Coptic church the Egyptian converts left; a link)').",
+   "evidence": "Record §7 RV-4 Overlap; G89-13 (a) 'with a link from VIII.13'. Watson's Asyut passage shows one convert and an offer to 'return to the Coptic Church'. It shows no Coptic body producing the Evangelical church.",
+   "fix": "Drop this link. Keep one link from VIII.13: the 'argued against' link (with S3's change). It covers the pair, and RV-4's sentences on converts leaving and the patriarch's response both name it. If a lineage edge is wanted later, 'broke with' needs a source showing a body leaving, not one man."
+  },
+  {
+   "id": "S3",
+   "where": "link coptic-revival-under-cyril-iv--arab-evangelical-churches--2.outcome",
+   "problem": "The outcome fails the major-link test (Links launch prompt, step 4b). Removing a village priest from his priesthood is not 'a church head or prelate deposed'. It is not a council, canon, synod or law excluding a group, and it is not a split or a changed rule. The patriarch's threat in the same chapter to excommunicate the town ('if you suffer him to enter again I will excommunicate every one of you') is a threat, not an act.",
+   "evidence": "Watson ch. XIII (my fetch): 'One of his first acts after reaching Asyut was to summon before him the Coptic priest of Beni Aleig ... he degraded him from his priesthood and drove him out of his presence.'",
+   "fix": "Delete `outcome`. The link stays a minor 'argued against', Inferential-Thin. In its note, change 'a priest at Asyut' to 'the priest of Beni Aleig' (see M2)."
+  },
+  {
+   "id": "S4",
+   "where": "moravian-church-after-1815.why ('from 1890, north of Lake Nyasa'); longDescription paragraph 6 ('In the spring of 1890 ... They founded Rungwe that August'); flags",
+   "problem": "A date that is contested inside its own source is stated as settled. Hamilton gives 1890 in one passage and 1891 in another. The drafter's flag says Hamilton gives 1890, and that is why the row uses it. The record had 1891 [S]. 'That August' then puts Rungwe in 1890, which the second passage does not support.",
+   "evidence": "raw/hamilton1901.txt line 9917: 'Accordingly in the spring of 1890 Theodore Meyer, Theophil Richard, George Martin and John Hiifner set out'. Line 9738: 'In 1891 four young missionaries of the Moravian Church came to these people of the Konde highlands.'",
+   "fix": "longDescription paragraph 6, first two sentences: 'Hamilton dates the Nyasa mission to 1890 in one passage and to 1891 in another. Four missionaries went to the country north of Lake Nyasa, and they founded Rungwe among the Konde people.' Keep the rest of the paragraph. why: 'from the early 1890s, north of Lake Nyasa'. Add a fact row for the 1891 quote and correct the flag."
+  },
+  {
+   "id": "S5",
+   "where": "moravian-church-after-1815.why, .teaser ('the day slavery ended'), longDescription paragraphs 2 and 3",
+   "problem": "The 1834 and 1838 dates are flattened into one. Hamilton's very next sentence says an apprenticeship of four or six years followed 1 August 1834. LA8-1, a sibling row, tells full freedom at midnight on 31 July 1838 ('the negro is free'). Read side by side, the two rows give the end of slavery on two dates without saying why. At the Cape, Hamilton puts the 450 received at Genadendal in the year after emancipation on 1 December 1838. The draft puts them straight after 1834.",
+   "evidence": "Hamilton: 'An appren- ticeship of four or six years, according to the class of employ- ment, was however inaugurated'; 'Emancipation went into effect throughout this colony on De- cember I, 1838.' followed by 'As in the West Indies, the church gained large accessions after emanci- pation. At Genadendal alone four hundred and fifty were re- received within one year'.",
+   "fix": "why: 'When the British law ending slavery took effect on 1 August 1834, the Moravian chapels of Jamaica filled. The church's own historian, J. Taylor Hamilton, wrote that 'The thankful people thronged the churches'. Full freedom waited four more years, for the law first bound the freed to an apprenticeship. The Moravians had been in the West Indies for a century by then. After 1815 they carried the same mission on in the Cape, in Suriname, in Labrador and, from the early 1890s, north of Lake Nyasa.' (FRE 66). teaser: 'Chapels were full on Emancipation Day.' Paragraph 2: 'In Jamaica the church ran twenty-six schools by March 1834. On 1 August 1834 a law of Parliament ended slavery throughout the British colonies. Hamilton notes that an apprenticeship of four or six years came first. He says the freed crowds spent Emancipation Day 'in a manner worthy of its significance'. By the end of 1835 the church had 8,521 members on the island. That was 1,339 more than a year before.' (FRE 70). Paragraph 3: 'At the Cape the Moravian mission began again in 1792. Hamilton says it had 2,386 members when slavery was ended there on 1 December 1834. The slaves of the colony were fully free on 1 December 1838. In the year after that, Genadendal alone took in four hundred and fifty people. Each case was decided on its own merits.' (FRE 64). Add fact rows for both new quotes."
+  },
+  {
+   "id": "S6",
+   "where": "mennonites-and-amish-after-1650 (VII.32) longDescription, Hutterite paragraph ('The emigrants later moved from Little Russia to the Crimea')",
+   "problem": "On the drafter's question about Beck: the sentences are not two equal readings. 'Crimea' comes from Beck's loose preface and is stated here as fact, without attribution. Beck's own detailed note in the same Library file places the colony, Hutersthal, in the province of Taurida, Berdyansk district, near Halbstadt and the Sea of Azov. VI.32's legacy follows that note ('near the Sea of Azov, by 1852'). As drafted, the tree would give two homes for the same community.",
+   "evidence": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt 978-981 (preface: 'zogen die Auswanderer später aus Kleinrussland in die Krim'); 36325-36336 (note: 'Hutersthai ... eine Colonie der einstigen mKhrisch-uugari sehen Wieder- täufer im Gouvernement Taurien, Berdjansk'schen Kreises, nächst Halb- stadt gelegen' ... 'in die Nähe des Asow'schcn Meeres ... Daselbst wolinon sie seit 1852'). The note's own figures (1784 plus 58 years) give 1842, so the move date is not firm either.",
+   "fix": "Replace the last two sentences of that paragraph with: 'The emigrants later moved on from Little Russia. Beck's preface says they went to the Crimea. His own note places their colony, Hutersthal, near the Sea of Azov, in the province of Taurida. In 1855, he says, the community stood under a grandson of the last bishop.' (paragraph FRE 72). Give no move year. Add fact rows for lines 36325-36327 and 36333."
+  },
+  {
+   "id": "S7",
+   "where": "VII.32 longDescription, last paragraph ('The two churches had met before, in Hungary')",
+   "problem": "Overstated. The source shows letters, not a meeting. Sporer wrote from Herrnhaag in 1749 (and from Leiden in 1750). Weber wrote from Hartenberg in 1757. Only the Brethren were in Hungary.",
+   "evidence": "Beck 32704-32706: 'Sendschreiben des Franz Simon Sporer, (Mennoniten Prädicanten) dto. Herrenhag 17*0D Aug. 1749 an die Br. in Levar'; 32718-32721 (1750, 'dto. Leidt in Holand'); 32779-32781 ('Peter Weber in Hartenberg an Zach. Walter').",
+   "fix": "'The two churches had been in touch before, by letter. In 1749 a Mennonite preacher, Franz Simon Sporer, wrote to the Brethren at Levar in Hungary. In 1757 another, Peter Weber, wrote to Zacharias Walter. He offered to send Menno's books.' (FRE 65)"
+  },
+  {
+   "id": "S8",
+   "where": "link the-black-church-in-america--the-missionary-movement-s-native-churches-seramp.note",
+   "problem": "'Its best-known missionary, Lott Cary' is a superlative no source gives. The drafter's own flag concedes it. Taylor says the society came from Cary's own work.",
+   "evidence": "Taylor 1837: 'This resulted in the origination of the Richmond Afri- can Missionary Society'. 'Best-known' appears nowhere.",
+   "fix": "Note: 'About 1815 Lott Cary helped rouse the Black Christians of Richmond to care for Africa. Taylor's biography of 1837 says a society grew from it and gave money for several years. Cary himself sailed to West Africa in 1821. This rests on one pastor's book.'"
+  }
+ ],
+ "minor": [
+  {
+   "id": "M1",
+   "where": "arab-evangelical-churches.longDescription paragraph 5; link ...--2.note",
+   "problem": "Watson's words are softened. He says the viceroy and the patriarchate meant to 'exterminate Protestants and drive out of Egypt the missionaries'. 'Drive out the Protestants' changes the claim.",
+   "evidence": "Watson ch. XIII contents.",
+   "fix": "'In 1867, Watson writes, the viceroy and the patriarchate united to root out the Protestants and drive the missionaries out of Egypt.'"
+  },
+  {
+   "id": "M2",
+   "where": "link coptic-revival-under-cyril-iv--arab-evangelical-churches--2.note; RV-4 longDescription",
+   "problem": "The priest was the priest of Beni Aleig, summoned at Asyut, not 'a priest at Asyut'.",
+   "evidence": "Watson: 'summon before him the Coptic priest of Beni Aleig'.",
+   "fix": "'In a report he prints, the patriarch, at Asyut, had the priest of Beni Aleig beaten and removed from his priesthood.'"
+  },
+  {
+   "id": "M3",
+   "where": "link the-moravian-church-at-herrnhut--moravian-church-after-1815",
+   "problem": "The note names the West Indies, but the quote stops before them (it ends at 'among the Indians;').",
+   "evidence": "Periodical Accounts lines 130-135 continue: 'and in Jamaica, Antigua, St. Kitt's, Bar- badoes, and the three Daniſh Iſlands, St. Thomas, St. Croix, and St. Jan, among the ſlaves.'",
+   "fix": "Extend the quote to lines 130-135, ending at 'among the ſlaves.', and set lines '130-135'."
+  },
+  {
+   "id": "M4",
+   "where": "moravian-church-after-1815.modernCountries; flags",
+   "problem": "The flag says the repo holds no ID for Canada. The census holds Canada Q16 on three rows (the-holiness-movement, nineteenth-century-methodism, the-third-wave-and-the-vineyard). Suriname, Tanzania and Liberia (for VIII.7's new line) truly have no ID in the census or the place-label audit.",
+   "evidence": "world-census.json modernCountries search.",
+   "fix": "Add {\"country\": \"Canada\", \"countryId\": \"Q16\", \"place\": \"Canada\", \"placeId\": \"Q16\"} for Labrador, using the place-as-country pattern RV-4 already uses for Syria and Egypt. Register Suriname, Tanzania and Liberia as one Open-Gaps item with AF's empty-country rows (AF-3 to AF-5), so the gap is not left silent."
+  },
+  {
+   "id": "M5",
+   "where": "links ...--arab-evangelical-churches (both) and the-black-church-in-america--... sources[].kind",
+   "problem": "Watson's narrative and chapter contents, and Taylor's narrative, are marked 'primary'. RV-4's own sources list Watson as secondary.",
+   "evidence": "RV-4 sources[1].type 'secondary'.",
+   "fix": "Set kind 'secondary' for Watson and for Taylor's narrative quotes. Cary's own letters may stay primary."
+  },
+  {
+   "id": "M6",
+   "where": "link hutterite-brethren--mennonites-and-amish-after-1650 (Documented)",
+   "problem": "Both quotes are Beck's 1883 calendar entries describing letters held in the Ofen archive, not the letters themselves. Documented can stand on a dated archival calendar in a Library file, but the note should say what the quotes are.",
+   "evidence": "Beck 32704-32712 '(Statthaltereiarchiv in Ofen.)'.",
+   "fix": "Add to the note: 'Beck's 1883 list of the archive's papers records both letters.' Or grade Widely Accepted if the coordinator reads 'Library primary quote' strictly."
+  },
+  {
+   "id": "M7",
+   "where": "neighbor_changes VII.4, VII.32, VIII.7 (sources)",
+   "problem": "The new lines rest on works the rows' `sources` do not list: La Trobe 1771, Periodical Accounts, Watson 1898 and Lützow 1920 for VII.4; Wiebe 1900 and Beck 1883 for VII.32; Taylor 1837 for VIII.7. The drafting brief allows source edits only 'where the recommendation says', so the drafter left them out.",
+   "evidence": "Census sources of the three rows.",
+   "fix": "Coordinator's call: add the line's own sources as part of the same change order (G89-6 a). Otherwise a reader cannot find the books behind the new sentences."
+  },
+  {
+   "id": "M8",
+   "where": "the-missionary-movement-s-native-churches-seramp.longDescription paragraph 2, first sentence",
+   "problem": "'is a line of the West African wing' is build jargon in participant-facing text.",
+   "evidence": "—",
+   "fix": "'Liberia's settler church belongs to the West African wing. It came from America.'"
+  },
+  {
+   "id": "M9",
+   "where": "link the-coptic-church-under-the-ottomans--the-moravian-church-at-herrnhut.note",
+   "problem": "'to reach Abyssinian Christians through the Copts' is a gloss. Watson says Hooker's aim was 'opening up missionary communication with Abyssinian Christians', and that he was to stay a while in Cairo.",
+   "evidence": "Watson ch. II.",
+   "fix": "'In 1752 the Moravian physician Frederick William Hooker went to Cairo, on the way to the Christians of Abyssinia.'"
+  },
+  {
+   "id": "M10",
+   "where": "arab-evangelical-churches.longDescription paragraph 3",
+   "problem": "'Dr. Smith' is never introduced.",
+   "evidence": "Jessup names him 'Eli Smith'.",
+   "fix": "'The missionary Eli Smith began it in 1848.'"
+  },
+  {
+   "id": "M11",
+   "where": "cross-slice (AF-5 and VII.4 / RV-5)",
+   "problem": "AF-5's relationsSummary ('This entry follows Schmidt's Moravian mission of 1737') names a tie to VII.4 that has no link, and AF's flag says so. VII.4's new Cape line and RV-5's Cape line tell the same mission. Neither slice drafts the link.",
+   "evidence": "drafts/AF/Draft.json flags; RV-B VII.4 paragraph 2.",
+   "fix": "Coordinator: assign one link (VII.4 → AF-5, 'gave rise to' or 'influenced', on Periodical Accounts lines 7255-7270) to one slice, or have AF qualify its sentence."
+  }
+ ],
+ "quotes_checked": 127,
+ "quotes_failed": [],
+ "notes": "Independent fetch: I re-fetched all five raw texts with curl from the URLs in RVB/raw/SOURCES.json into review/RVB/raw/. Each is byte-identical to the drafter's copy. I also fetched Bleby 1868 for S1. check_draft.py on my fetch: 127 quotes, all found verbatim. 49 paragraphs, one READ-FAIL. I read the context of about 40 quotes (Jessup, Watson, Hamilton, Taylor, Wiebe, Beck, Periodical Accounts, La Trobe, Lützow) for support, and that reading is where S4 to S7 come from. Drafter's points. (1) VIII.7 longDescription[0], FRE 43: confirmed frozen. The census text is carried byte for byte, and the new paragraph passes. The same holds for VII.4's and VII.32's old paragraphs. (2) VII.32's end kept at 1890, with a hold: accepted. Wiebe writes in 1900 but tells events only to 1876. No source dated 1891-1906 was read, so G89-49's 'checked against 1906' is met by the check, and the hold is right. (3) The Hussite entry (V.6) and czech-churches-last-century (VI.24) repointed to RV-5: required. validate-census.mjs line 217 rejects a carrier that is itself carried, and VII.4 becomes group 'line'. descentConfidence 'Contested' is right to keep, because the contested step (Unity of the Brethren to Herrnhut) is unchanged and VII.4 → RV-5 is the same church. These rows are outside RV-B's edit list, but no other slice edits them. Record them as living-pass changes in the release register. (4) AF-2 → VII.4: drafted once (AF has no such link). VII.4's new Cairo text names it, so the launch prompt's two-way rule ('every link is named somewhere in its movements' text') is met. It stands or falls with AF-2 entering. (5) RV-5 ↔ LA8-1: drafted once (LA lists it as RV-B's). LA8-1 names the Moravians, but the type and direction are wrong (S1). (6) Beck: S6. (7) modernCountries: M4. Living: RV-5 living true with VII.4's dated CR evidence moved onto it (group own). That meets R2 to R4, and its basis ('no entry after 1906') is true. VII.4 now carries through RV-5. VII.32, VI.3 and VI.32 are unaffected. RV-4 is living false, which keeps to the drafting brief (CD or CR only). P2-V's 'grade none' path could carry it, since the record says the churches live (grade none). That is the coordinator's call, so it is not a finding. Ruling fidelity: RV-4 (G89-50 a), RV-5 (G89-4 a, five named lines), the VII.4 lines (G89-5, G89-13 a, G89-54 a), RV-2 in VII.32 (G89-49 a) and RV-6 in VIII.7 (G89-52 a) are all present, and the holds for RV-7, RV-9 and the rest of RV-8 are in place. No frozen field changed beyond the ruled lines, continuesAs and livingEvidence. Prose: clear and plain, with no AI tells. The missionary bias is stated plainly in sourcing and in the text. No metered model calls; no repo files edited."
+}

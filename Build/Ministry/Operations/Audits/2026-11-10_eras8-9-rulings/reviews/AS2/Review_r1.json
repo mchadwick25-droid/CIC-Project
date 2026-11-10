@@ -1,0 +1,160 @@
+{
+ "slice": "AS2",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "neighbor_changes northeast-india-revivals-and-the-mar-thoma-refor (VIII.27): longDescription [1]-[2], voices, sources (AP9)",
+   "problem": "AP9 is drafted on Saw Solomon Opehtoo's MA thesis (Episcopal Divinity School, 2014) as the 'one modern study' G89-31 (a) and Slices (AS2) require before drafting ('if none can be confirmed, hold it'). The thesis does not meet that bar. (1) It is an unpublished student thesis, not a peer-reviewed study. (2) It is a work of constructive theology ('In Search of Karen Theology'), and its history chapter rests on the same missionary sources the study was meant to check: Mason 1843 and Harris 1920 (its footnotes 33-36). It gives no independent check of Mason. (3) It is not cited by the record and is not public domain (archive.org: CC BY-NC-ND 3.0; the file says 'Copyright by Saw Solomon Opehtoo 2014'), so it falls outside the Drafting Brief's rule for added sources. (4) The sentence 'It did not always stay a liberating force' is the author's undated judgment. In the thesis it leads straight into 'Current Theologies of Christian Karens', a critique of present-day (post-2006) Karen Baptist teaching. So it brings a present-day verdict into an era 9 row. (5) 'A writer trained at a Karen Baptist seminary tells of...' is an anonymous framing that reads as filler.",
+   "evidence": "opehtoo.txt (fresh fetch, SO2014_djvu.txt): title page 'Thesis/Project ... MASTER OF ARTS IN THEOLOGICAL STUDIES 2014 / Copyright by SAW SOLOMON OPEHTOO'; history section footnotes cite 'Edward Norman Harris, A Star in the East ... (1920)' and 'Francis Mason, The Karen Apostle ... (1843)'; 'While the Karens embraced Christianity as a means of liberation, it did not always remain a liberating influence. Current Theologies of Christian Karens ...'. archive.org metadata for SO2014: licenseurl http://creativecommons.org/licenses/by-nc-nd/3.0/. Record line 3041: 'A modern study of the Karen Baptists, to be added before AP9 is drafted.'",
+   "fix": "Hold AP9. Drop the VIII.27 neighbor change completely, so VIII.27's longDescription, voices and sources stay as in the census. Add to holds: {\"item\": \"AP9 — the Karen Baptist movement in Burma, 1828-1906 (a named line in VIII.27)\", \"g89\": \"G89-31 (a)\", \"reason\": \"The ruling asks for one modern study before drafting. The only one found is an MA thesis in theology (Opehtoo 2014). Its history rests on Mason 1843 and Harris 1920, so it does not check the missionary memoir. Mason 1843/1847 (V) is read and gives the 1828 baptism and the count of about 1840.\", \"waits_for\": \"A published modern history of the Karen Baptists (a peer-reviewed article or a scholarly monograph), opened and read; Karen-language sources wanted.\"}. The Mason paragraph is ready to go in once the study is read. If the coordinator decides to accept the thesis anyway, use it only for the Golden Book tradition. Name the author ('Saw Solomon Opehtoo, a Karen Baptist writer, ...') and cut the 'liberating force' sentence."
+  },
+  {
+   "id": "S2",
+   "where": "vietnamese-catholicism-to-1815.longDescription",
+   "problem": "Sentence order misdates the Lovers of the Cross. '...Pope Clement X accepted its decisions in 1673. That year Lambert also founded the Lovers of the Cross' places the founding in 1673. Launay 1893 gives 1670, as do the draft's own fact table [17], the era 9 row, the continued-as link note and the legacy.",
+   "evidence": "launay1893.txt: 'une trentaine de couvents avec 400 religieuses, fondées en 1670 par Mgr Lambert de Lamothe, qui leur avait donné le nom d'Amantes de la Croix.' Dutton: the synod sat in February 1670; Clement X's acceptance came in 1673.",
+   "fix": "Replace 'A month later he held the first synod in Vietnam. Pope Clement X accepted its decisions in 1673. That year Lambert also founded the Lovers of the Cross, a community of women.' with 'A month later he held the first synod in Vietnam. Pope Clement X accepted its decisions in 1673. In 1670 Lambert also founded the Lovers of the Cross, a community of women.' Alternatively, move the founding sentence before the Clement X sentence and open it with 'The same year'."
+  },
+  {
+   "id": "S3",
+   "where": "vietnamese-catholicism-to-1815.longDescription [0], why, teaser, statusDescription; link the-society-of-jesus--vietnamese-catholicism-to-1815.note",
+   "problem": "'Portuguese Jesuits began ...' and 'Jesuits from Portugal' overstate the sources. Dutton calls it 'the Portuguese missionary project', meaning Jesuits working under the Portuguese crown's Padroado. He does not say the Jesuits were Portuguese. Launay 1893, one of the draft's own raw texts, says Tonkin's first great converter was a Frenchman, Alexandre de Rhodes. The row names de Rhodes only as 'the Jesuit', so a reader would take him to be Portuguese too.",
+   "evidence": "dutton.txt: 'the Portuguese missionary project that had begun in Tonkin in the 1620s. Because this project had been sponsored by the Portuguese court under the auspices of a papal grant—the Padroado Real'. launay1893.txt: 'Le premier grand convertisseur du Tonkin fut un Français, le P. Alexandre de Rhodes (1624).'",
+   "fix": "longDescription: 'Jesuits sent under the Portuguese crown began the Catholic mission in Tonkin in the 1620s. Among them was the French Jesuit Alexandre de Rhodes. The mission ran under the Padroado, ...'. why: 'Jesuits of the Portuguese mission began this church in the 1620s.' teaser: 'a church begun by Jesuits of the Portuguese mission and then ruled by bishops from Rome.' Link note: 'Jesuits of the Portuguese mission began the church in Tonkin in the 1620s. Dutton says its Christians owed the Jesuits an enduring debt.' In relationsSummary, 'the Portuguese Jesuits of the 1620s' becomes 'the Jesuits of the Portuguese mission in the 1620s'."
+  },
+  {
+   "id": "S4",
+   "where": "vietnamese-catholicism-to-1815.why and longDescription (the 1658 vs 1660 conflict)",
+   "problem": "The draft's two sources disagree on the date, and the draft settles it silently. Launay dates the naming to 1658: proposed 13 May, approved 8 June, brief of 17 August, making them titular bishops for 'the missions of China and the neighboring lands'. Dutton dates their choice as vicars, with Tonkin given to Pallu and Cochinchina to Lambert, to 1660. The why line then merges the two steps: 'In 1658 Rome named two French priests as its own bishops for Vietnam and its neighbors.' That wording matches neither source, and it contradicts the longDescription's 'China and its neighbors'. The flag notes the conflict, but the prose does not. CLAUDE.md: never present a disputed claim as settled.",
+   "evidence": "launay1894.txt: 'dans son assemblée du 13 mai 1658, la Propagande proposa de nommer M. Pallu et M. de la Motte Lambert vicaires apostoliques dans les Missions de Chine et les pays voisins; le Souverain Pontife Alexandre VII approuva ce choix le 8 juin, et le 17 août suivant, il donna un bref qui nommait Francois Pallu évèque d'Héliopolis, et Pierre de la Motte Lambert évèque de Béryte'. dutton.txt: 'in 1660 two Frenchmen affiliated with the MEP were selected as apostolic vicars. Francois Pallu was named to head the mission responsible for Tonkin, Laos, and five provinces in southwestern China, while Pierre Lambert de la Motte was given authority over Cochinchina'.",
+   "fix": "why: 'In 1658 the pope made two French priests bishops, to act as Rome's own vicars in the missions of China and the lands nearby. Pallu was to lead Tonkin and Lambert de la Motte Cochinchina.' longDescription, after 'In August the pope named them bishops.': 'Dutton dates their choice as vicars to 1660. Pallu took Tonkin and Laos, and Lambert took Cochinchina.' Add a fact-table row for the Dutton quote."
+  },
+  {
+   "id": "S5",
+   "where": "catholics-of-dutch-ceylon.longDescription (chronology)",
+   "problem": "The sentence order misdates Joseph Vaz's mission. The 1743 ban by the Kandyan king comes right before 'Into this the priest Joseph Vaz ... came', which reads as though Vaz arrived after 1743. He died in 1711. The sketch places his coming at the low point of the late seventeenth century ('Assailed by the King of Kandy on one side, and by the Dutch on the other ... At this critical juncture'). It tells the 1743 ban only after the 1717 count.",
+   "evidence": "chitty.txt: 'At this critical juncture Father Joseph Vaz of the Oratory of St. Philip Neri at Goa determined to repair to the island ... disguised as a mendicant, in the year J690' ... 'the death of Father Vaz, which occurred at Kandy on the 17th of January 1711' ... 'In 1717 the number of converts ...' ... 'In 1743, a sudden and unforseen storm broke out in the interior'.",
+   "fix": "Delete 'In 1743 a Kandyan king banned the faith and razed its churches.' from its present place. Change 'Into this the priest Joseph Vaz ... came' to 'Late in the century the priest Joseph Vaz of the Oratory of St Philip Neri at Goa came, disguised as a beggar.' After 'They came by night in disguise.' insert 'In 1743 a Kandyan king banned the faith and razed its churches.'"
+  },
+  {
+   "id": "S6",
+   "where": "vietnamese-catholicism-1815-1906.longDescription and voices; northeast-india... (VIII.27) [1] if AP9 is kept; protestant-churches-of-the-voc-world.longDescription and why",
+   "problem": "The draft drops hedges its sources state. (a) Dutton says Bỉnh died 'probably in March of 1833'; the draft says 'Bỉnh died there in March 1833' and the voice says 'died in March 1833'. (b) Aritonang says a school was 'Ideally' visited several times a year, and the draft's own 1692 complaint shows practice fell short. The draft says 'An ordained minister came a few times a year', and the why line says 'Dutch ministers came a few times a year'. (c) Mason says 1,270 Karens 'are officially reported as members'; the draft says 'the missionary Francis Mason counted'.",
+   "evidence": "dutton.txt: 'Binh's soul was set free not long after this last farewell, probably in March of 1833.' aritonang.txt: 'Ideally a school was visited several times a year by the ordained minister.' mason.txt: 'one thousand two hundred and seventy Karens are officially reported as members of the churches in good standing.'",
+   "fix": "(a) 'He probably died there in March 1833.' Voice: '... and probably died there in March 1833'. (b) longDescription: 'An ordained minister was meant to visit a few times a year.' why: 'In the Moluccas village teachers carried that church. Dutch ministers were meant to visit a few times a year.' (c) If AP9 enters later: 'Twelve years later Mason reports 1,270 Karens as church members in good standing.'"
+  },
+  {
+   "id": "S7",
+   "where": "link protestant-churches-of-the-voc-world--indonesian-christianity (influenced, Widely Accepted)",
+   "problem": "The type does not fit the link's own quotes. Both quotes describe the same church being renewed: Kam 'under whose direction the Church of the Moluccas was revitalised', and 'a rehabilitation of the life of the church as a consequence of ... the moral bankruptcy of the VOC'. That is continuity, not influence, and the P2-V rule keeps the two apart ('Influence is not descent'). A 'continued as' link is not authorized either. The record marks the descent [S] ('the Moluccan church (GPM) and the Indonesian Protestant Church descend from it [S]'). G89-27 (a) names no successor, and VIII.26's own subject is mainly the new mission churches (HKBP, Sadrach), with Kam as a voice. So the honest state is an unruled lineage question, not an influence. Also, the 1815 in the note comes from VIII.26's voice and Aritonang ch. 9 ('Joseph Kam in Ambon (1815-1833)'), but neither quote carries the date. Both quotes come from chapters 6 and 9, outside the range the record verified (ch. 5, lines 5661-7100).",
+   "evidence": "aritonang.txt ch. 9: 'The strategy of pioneering leaders like Joseph Kam in Ambon (1815-1833) and his colleagues was to seek a rehabilitation of the life of the church ... This was an effort that had to be continued until the twentieth century.' Census VIII.26 voices: 'Joseph Kam — the Dutch pastor whose work in the Moluccas from 1815 revived the older island churches left over from the Company era'. Record §5 AP5 B3 and Era lines.",
+   "fix": "Drop the link. Meet the two-way check with a qualified sentence in AP5's legacy: 'From 1815 Joseph Kam worked to renew the Company's old church in Ambon. The entry on Indonesian Christianity names him.' Its fact-table row should quote 'Joseph Kam in Ambon (1815-1833) and his colleagues was to seek a reha- bilitation of the life of the church'. Send the coordinator one question for Mark (Open-Gaps): should AP5 'continue as' VIII.26 through the Protestant Church of the Moluccas, given Aritonang ch. 9? If ruled yes, it becomes 'continued as', at most Widely Accepted, with continuesAs set and the 1815-1861 gap named."
+  },
+  {
+   "id": "S8",
+   "where": "all four entries: living:false (and no livingEvidence)",
+   "problem": "Living. I confirmed the census has no carrier. No row in any era names Vietnam, Tonkin, Cochinchina, Annam or Sri Lanka, apart from passing mentions of Ceylon in II.9's story and Cochin in VI.18. Era 10 (atlasId IX.*) has no Vietnamese or Sri Lankan Catholic row. IX.47 and IX.23 (world Catholic rows) are not in these rows' 'continued as' lines. IX.37's evidence is about the HKBP, not the Moluccan church. But living:false says, under the tree's single definition (P2-V: 'the tradition the entry names is alive today'), that Vietnamese Catholicism, Sri Lankan Catholicism and the Reformed church of the Moluccas are not alive. That is false, and the reviewed record says so: AP4 'Living today: yes (the Catholic Church in Vietnam) ... grade none'; AP6 'yes (the Catholic Church in Sri Lanka) ... grade none'; AP5 'the heirs live (e.g. the Protestant Church of the Moluccas) [S] ... grade none'. P2-V's ruled practice (era 10 gate G-5 (a)) keeps the mark on bodies with no dated source, as grade 'none' with the source wanted. Precedents in the census: VI.13a, VI.14, VI.15, VI.31. The Drafting Brief's 'set living false if you cannot meet R2 to R4' conflicts with that practice. The coordinator's living pass (HANDOVER step 1) owns this, not the drafter.",
+   "evidence": "Census scan (cic-website/data/world-census.json, 366 movements). Record §5 AP4, AP5, AP6 'Living today' lines. Build/Ministry/Operations/Audits/2026-11-10_living/README.md ('bodies with no dated source keep it, with the source wanted'); Research_Brief.md outcome 2 ('a church whose era 9 entry ends in 1906 with no era 10 successor ... Find dated evidence ... none when you found nothing dated'). tools/validate-census.mjs lines 204-219 accept an own grade of 'none'.",
+   "fix": "In the living pass: vietnamese-catholicism-1815-1906 becomes living:true, group 'own', with a dated own-voice item where one can be found (for example a dated statement of the Catholic Bishops' Conference of Vietnam), grade CR; otherwise 'none (no dated item after 2010 found)'. Its basis: 'The Catholic Church in Vietnam is alive today. The tree has no Vietnamese Catholic entry after 1906.' vietnamese-catholicism-to-1815 becomes living:true, group 'line', carrier ['vietnamese-catholicism-1815-1906']. catholics-of-dutch-ceylon becomes living:true, group 'own', on the same terms, with the gap 'the Catholic Church in Sri Lanka after 1806' named. protestant-churches-of-the-voc-world becomes living:true, group 'own', with descentConfidence (Dominant Modern Reconstruction on Aritonang ch. 9 unless a GPM source is read). If Mark rules 'continued as' under S7, it becomes a line through VIII.26 instead. Report these rows to the coordinator as living-marked for P2-V's check."
+  }
+ ],
+ "minor": [
+  {
+   "id": "M1",
+   "where": "link vietnamese-catholicism-to-1815--vietnamese-catholicism-1815-1906 src0 (Collectanea)",
+   "problem": "The quote holds only the petition. The grant ('R. Dentur Indulgentiae petitae') is at line 13817, outside the cited lines 13800-13803, yet the note and the row say Rome granted the indulgences.",
+   "evidence": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt lines 13797-13818: 'S. C. de Prop. Fide 25 Augusti 1675 ... Petitio: Ut Confraternitatibus ... R. Dentur Indulgentiae petitae'.",
+   "fix": "Set lines to '13797-13818' and add a second quote 'R. Dentur Indulgentiae petitae' (or give the response its own source entry, lines '13817')."
+  },
+  {
+   "id": "M2",
+   "where": "vietnamese-catholicism-to-1815.longDescription",
+   "problem": "'Propaganda' is used ('at the press of Propaganda') two sentences before it is defined ('Propaganda, the Roman office for the missions'). CLAUDE.md: technical terms are introduced before use.",
+   "evidence": "Draft text order.",
+   "fix": "'...was printed at Rome, in Latin and Vietnamese, at the press of Propaganda, the Roman office for the missions.' Later: 'In 1658 Propaganda proposed Pallu ...'."
+  },
+  {
+   "id": "M3",
+   "where": "vietnamese-catholicism-1815-1906.longDescription and why (G89-2 a)",
+   "problem": "G89-2 (a) names MEP in AP4, which covers both segments. The era 9 story calls the mission only 'the French mission' and does not name it as the carrier. Launay's passage names the mission's bishop, which settles the drafter's open point.",
+   "evidence": "launay1893.txt: 'En 1832, le nombre des chrétiens s'élevait dans la mission française de 160.000 à 170.000 ... L'évêque se nommait Joseph Havard, il était vicaire apostolique depuis 1831.'",
+   "fix": "'In 1832 the Paris mission (the MEP) in Tonkin, under its bishop Joseph Havard, counted 160,000 to 170,000 Christians.' Make the same change in why."
+  },
+  {
+   "id": "M4",
+   "where": "catholics-of-dutch-ceylon.statusDescription",
+   "problem": "'No earlier or later entry names Ceylon' is not quite true. II.9 (aksumite-christianity) names Ceylon in a story and a source note.",
+   "evidence": "Census II.9 documentedStories / sources: 'The Christian communities of Ceylon and the Red Sea.'",
+   "fix": "'No other entry tells the church of Ceylon.'"
+  },
+  {
+   "id": "M5",
+   "where": "catholics-of-dutch-ceylon.sourcing",
+   "problem": "'A Dutch Protestant account is read only through the study of Aritonang and Steenbrink' misdescribes a modern study by Indonesian and European scholars as a Dutch Protestant account. The one Dutch Protestant voice in the row is Baldeus, as the sketch quotes him.",
+   "evidence": "Draft sources; chitty.txt 'Rev. Dr. Baldeus, one of the Dutch Ministers in Ceylon'.",
+   "fix": "'The Dutch Protestant side is heard only through Baldeus and Van Imhoff as the sketch quotes them, and through a modern study of the Company's church.'"
+  },
+  {
+   "id": "M6",
+   "where": "catholics-of-dutch-ceylon.legacy",
+   "problem": "'Its own words say the laws had not been enforced in all cases' is ambiguous. The regulation says His Majesty's (British) Government had not acted on the laws in all cases. It says nothing on how the Dutch enforced them.",
+   "evidence": "chitty.txt: 'although these laws have not been acted upon in all cases by His Majesty's Government'.",
+   "fix": "'Its own words say the British government had not acted on those laws in all cases.'"
+  },
+  {
+   "id": "M7",
+   "where": "catholics-of-dutch-ceylon.longDescription (Baldeus)",
+   "problem": "Both sides: Baldeus's case against the Jesuit Caldeiro was that he knew of the plot from letters and did not reveal it. The draft says only that he 'was not in the plot', which leaves out the Dutch side's stated reason for executing him.",
+   "evidence": "chitty.txt: 'he, however, confesses that Father Caldeiro had not been concerned in the treacherous design ... but some of the traitors having given him notice thereof by letters ... he did not reveal it ... Father Caldeiro was beheaded'.",
+   "fix": "'He admits that one of them, the Jesuit Caldeiro, was not in the plot. Baldeus says he knew of it and did not report it.'"
+  },
+  {
+   "id": "M8",
+   "where": "protestant-churches-of-the-voc-world.modernCountries, placeLabel",
+   "problem": "Timor is tagged and leads the placeLabel, but no sentence in the row names Timor or Kupang. Sri Lanka is left out even though the row covers Ceylon, and the drafter took Sri Lanka Q854 for AP6 from the same repo file.",
+   "evidence": "Draft AP5 text; flags (IDS).",
+   "fix": "Add {country: 'Sri Lanka', countryId: 'Q854'} (place as in AP6, e.g. Jaffna Q215277). Either add a sentence on Kupang from the record's V item (Aritonang lines 7054-7059: the native teachers 'in East Indonesia (Ambon, Ternate, Kupang)') or drop Timor and make the placeLabel 'Java · Ceylon and beyond'."
+  },
+  {
+   "id": "M9",
+   "where": "all four entries, longDescription",
+   "problem": "Each longDescription is a single paragraph of 19 to 31 sentences (the Ceylon row is among the longest in the census). CLAUDE.md asks for one idea per paragraph of 1 to 4 sentences, and 54 census rows already use paragraph breaks.",
+   "evidence": "Sentence counts: AP4-1 24, AP4-2 19, AP5 23, AP6 31.",
+   "fix": "Split at the natural joints, for example in AP6: conquest and proclamations / Vaz / the count of 1717 and Van Imhoff / 1743 and 1796-1806. Re-run check_draft.py."
+  },
+  {
+   "id": "M10",
+   "where": "vietnamese-catholicism-to-1815.sources[3].note",
+   "problem": "British spelling 'licence' in a participant-facing note (tools/check_spelling.py flags it).",
+   "evidence": "check_spelling.py on Draft.json: 'licence -> license' (line 66).",
+   "fix": "'Its title page and license were read. Its teaching was not.'"
+  },
+  {
+   "id": "M11",
+   "where": "neighbor_changes german-pietism-spener-francke-halle (VII.2)",
+   "problem": "The line reaches 1813 while VII.2's dates stay 1675-1750. Keeping the dates is faithful to the ruling: G89-32 (a) names no date change, and the record's reason is to keep the Tamil church 'from vanishing at 1750'. Mark should still see the mismatch. Separately, 'Fenger says Aaron was the first native ordained' takes over Fenger's word 'native' in the tree's own voice.",
+   "evidence": "Census VII.2 dates 1675-1750; fenger.txt list items 1-11 (Aaron 28 Dec 1733 ... Schawrirayen 'ordained 1813'), verified.",
+   "fix": "No date change. Prose: 'Fenger calls Aaron \"the first native ordained\" to the ministry. That was on 28 December 1733. By 1813 his list counts eleven Indian ministers.' Put the date question on the coordinator's report to Mark."
+  },
+  {
+   "id": "M12",
+   "where": "link sources citing Dutton and Aritonang",
+   "problem": "These works are open access, not public domain, and their sources carry no license field. The archive.org metadata records none for either OAPEN item (Opehtoo's is CC BY-NC-ND 3.0).",
+   "evidence": "archive.org metadata API: oapen-20.500.12657-45624 and oapen-20.500.12657-31953 have licenseurl None.",
+   "fix": "Add 'license' from the publisher's page (UC Press Luminos for Dutton; Brill/OAPEN for Aritonang) where it can be read. Otherwise add a flag that the license is unrecorded."
+  },
+  {
+   "id": "M13",
+   "where": "vietnamese-catholicism-to-1815.longDescription (two-way check)",
+   "problem": "The row names the dissolution of the Jesuit order in 1773, which belongs to RV-1 (society-of-jesus-1650-1814) if RV-1 enters. No link or qualified sentence ties the two. The VI.11 link covers the 1620s beginnings, not 1773.",
+   "evidence": "Dutton: the Padroado community 'was also a \"Jesuit community\"'; drafter's flag (CROSS-SLICE LINK).",
+   "fix": "Cross-slice, for the coordinator: if RV-1 enters, draft one link RV-1 → vietnamese-catholicism-to-1815 ('in contact with', at most Widely Accepted, on the Dutton quotes), drafted once only. Otherwise leave it as is: the sentence is plain fact and not a relationship claim."
+  }
+ ],
+ "quotes_checked": 159,
+ "quotes_failed": [],
+ "notes": "Independent check: I re-fetched all nine raw texts in AS2/raw/SOURCES.json with curl into review/AS2/raw/. All nine are byte-identical to the drafter's copies, which are therefore unaltered archive.org djvu text. No raw file is HTML. I ran check_draft.py against my own fetch: 159 quotes, 0 QUOTE-MISS, 0 RAW-MISSING. The only output is two READ-FAIL lines, both for paragraph [0] of VII.2 (FRE 30) and VIII.27 (FRE 27). I confirmed against the census that both paragraphs are identical to the frozen text (the census longDescription is a prefix of the new value, and it is one paragraph). They are not the drafter's to fix. The Library quote (Collectanea, 25 August 1675) was read at its lines. I read about 40 quotes in context, beyond the verbatim match, to check that the sentences they carry are supported. Those reads produced S2-S7 and M1-M8. Nothing is invented: no blocking finding.\n\nQuestions put to this review:\n(1) AP9 on an MA thesis: it does not meet 'one modern study' (S1). Hold AP9, as Slices says to when no study can be confirmed.\n(2) Aritonang and Dutton: the sweep record cites both as V, opened raw. The Drafting Brief's public-domain condition applies only to sources the record does not cite. So sentences may rest on them, and link quotes from them are 'verified-online', capped at Widely Accepted. That cap is the right ceiling for their uncontested statements. Where one of them conflicts with another source (Dutton's 1660 against Launay's 1658, S4), the prose names both sides. Short attributed quotes are the census's normal practice. Record the licenses (M12). Opehtoo, by contrast, is neither record-cited nor public domain.\n(3) The Society of Jesus (VI.11) → vietnamese-catholicism-to-1815, 'gave rise to', Widely Accepted: the type matches census precedent (VI.11 → kirishitan-japan, → china-mission-born-christianity, → philippine-catholicism), and the grade fits a raw modern study. The 1620s sit inside VI.11's 1540-1650 window. Approve, with the note fixed (S3).\n(4) VOC → indonesian-christianity 'influenced': mis-typed (S7).\n(5) VOC → catholics-of-dutch-ceylon, 'argued against', Dominant Modern Reconstruction, major by outcome: approve. 'Argued against' is the census's type for a hostile institutional act (catholic-church-ancien-regime → the-society-of-jesus for the 1773 suppression). The outcome rests on an institutional act shown in the link's own quote (Chitty's report of the plakaat of 19 September 1658). The act was the Company government's, and the outcome's 'A Dutch proclamation' says so honestly. Dominant Modern Reconstruction is conservative but defensible, since the force/no-force dispute is named in the note.\n(6) The 1658 vs 1660 conflict: S4.\n(7) VII.2's dates kept at 1675-1750 while the line reaches 1813: faithful to the ruling. Flag it to Mark (M11).\n(8) Living: no carrier exists in the census. living:false is still wrong under P2-V (S8), and the fix belongs to the coordinator's living pass.\n(9) MEP named in AP4 (G89-2 a): done in segment 1 ('A new Paris mission society, the MEP, was set up to send them priests'). Name it in segment 2 as well (M3). There is no MEP row and no MEP link, which is correct under G89-2 (a).\n\nRuling fidelity otherwise holds. AP4 enters in two segments, split at 1815 (G89-25 b). AP5 enters as an era 8 row (G89-27 a). AP6 enters as a Ceylon row, 1658-1806 (G89-28 a). AP8 enters as a line in VII.2 (G89-32 a). AP10 (G89-33 b), AP12 (G89-35 c) and AP13 (G89-30 c) are held, and AP14 is listed as carried (G89-37 a). VII.2 and VIII.27 are changed only in longDescription, voices and sources (the old lists are kept whole). VIII.26 and VIII.39 are untouched. The era rules hold: nothing after 1815 appears in the era 8 rows. The one exception is S1's 'liberating force' sentence, which brings in a present-day judgment.\n\nCounts: 0 blocking, 8 substantial, 13 minor. Verdict: revise. Round 2 can be a targeted recheck of S1-S8 and M1-M13 only."
+}

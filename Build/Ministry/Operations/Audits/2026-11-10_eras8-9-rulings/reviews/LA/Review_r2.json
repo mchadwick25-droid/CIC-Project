@@ -1,0 +1,26 @@
+{
+ "slice": "LA",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "LA-R2-m1",
+   "where": "link the-methodist-revival--caribbean-churches-of-slavery-and-emancipation / note",
+   "problem": "The note now cites two sources but still says 'This rests on one account of 1843'. 'Arrested in the rising' should read 'after the rising'.",
+   "evidence": "The link's sources list Phillippo 1843 and Bleby 1868.",
+   "fix": "'... In 1832, after the rising, a Wesleyan, Mr. Box, was arrested, as Bleby tells. This rests on two missionaries' accounts, of 1843 and 1868. No modern study was opened.'"
+  },
+  {
+   "id": "LA-R2-m2",
+   "where": "the-baptists--caribbean-churches-of-slavery-and-emancipation / note",
+   "problem": "The note says it rests on 'one account of 1843 and one letter of 1793', but the link now also cites Liele's own narrative from Rippon. Wording only.",
+   "evidence": "Changes_r1.md, S1.",
+   "fix": "'... This rests on an account of 1843 and on Liele's own narrative and letter, printed in 1793.'"
+  }
+ ],
+ "quotes_checked": 109,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the round 1 findings. check_draft.py on my own fetch: 109 quotes, 0 misses. The four READ-FAILs are the same frozen texts as in round 1. S1: fixed, from Rippon 26799-26812, and the Phillippo difference is noted in sourcing and the link note. S2: fixed. The analogy is attributed, both sides are named, the circular and the friar's paragraph are added, floorNote is rewritten, Canudos → VIII.48 is dropped, and VIII.48 → Canudos 'argued against' carries an outcome resting on the circular quote in its own sources. The id nineteenth-century-latin-american-catholicism--canudos-belo-monte--2 fits validate-census.mjs (pair--[2-9]) and matches existing edges such as latin-pastoral-congregational-christianity--donatism--2. S3, S4: fixed. Teresa Urrea is verified in the novel ('casa de Teresa Urrea'). S5: living true, own grade none, with a want; this matches the coordinator's rule and the VI.13a precedent. S6: the Pfeiffer and Box sentence and the Moravian relationsSummary are in, with fact rows. The LA side now names the Moravians, so RV-B's 'in contact with' link on Bleby satisfies the two-way rule. All 9 round 1 minors are addressed. m9 is handled under the coordinator's rule on country IDs (an Open-Gaps hold). Every new fact sentence has a fact-table row, and every new row's quote passed against my fetch."
+}
