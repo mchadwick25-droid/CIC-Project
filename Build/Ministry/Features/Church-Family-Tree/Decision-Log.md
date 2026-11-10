@@ -900,3 +900,14 @@ to" or "continued as" link coming in, down from 48. 9 have no link at all. Open-
 them. Records are in `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/` and
 `-part-2/`.
 
+
+---
+
+## 2026-11-10 — Data release 29: the Martyrs Mirror quotes re-pointed to the 1886 printing
+
+The Library replaced `cic/texts/van-braght_martyrs-mirror_sohm1886.txt`. The old text was a
+1938 Herald Press resetting with modern prefaces and indexes. The new one is the 1886 Elkhart
+printing. The three quotes on the link from the Anabaptist movements to the Tridentine church
+were re-verified against it, and their line numbers moved. The Ensisheim quote now follows the
+1886 line break ("six hun- dred"). Nothing else in the census changed. The reasoning is in the
+Library decision log, same date.

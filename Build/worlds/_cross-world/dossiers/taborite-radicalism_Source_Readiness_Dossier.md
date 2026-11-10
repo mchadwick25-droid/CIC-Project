@@ -40,7 +40,7 @@ Checked by searching the bodies of every `cic/texts/*.txt` for Taborites, Tábor
 - **Piccolomini, *Historia Bohemica*** (1592 and 1524 printings). A papal observer on Tábor (28 and 26 mentions). OCR poor; second witness. Tier: same time-place. Proposed rows: context / provisional.
 - **Palacký, *Urkundliche Beiträge*, Bände I and II.** Documents of the wars from Hussite, Taborite, Catholic and royal hands; the Taborite documents are mostly the editor's German summaries. About 9 and 31 mentions. Tier: same time-place. Proposed rows: context / provisional.
 - **Lützow, *The Hussite Wars*** (about 310 mentions) and **Gillett, *Life and Times of John Huss*, II** (about 215). Secondary English narratives. Context only. Tier: same time-place.
-- **Van Braght, *Martyrs' Mirror*.** A 1660 Anabaptist reading, with a "confession of the Taborites drawn up in 1431" whose source is not vendored (file line 47614). Tier: same time-different-region.
+- **Van Braght, *Martyrs' Mirror*.** A 1660 Anabaptist reading, with a "confession of the Taborites drawn up in 1431" whose source is not vendored (file line 46924). Tier: same time-different-region.
 - **Goll, *Quellen*, I and II** (vendored this pass; staged on the Hussite entry). The Brethren's early writings, which look back on the Taborite field armies and the pacifism that followed them. Tier: same time-place.
 - **Chelčický, *Síť víry*.** Three mentions of Tábor in the Czech; the revulsion at armed radicalism that the census names runs through the book, but the Taborites are rarely named. No row proposed.
 

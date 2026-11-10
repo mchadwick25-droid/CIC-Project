@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, or \"cross-church movement\". A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there.",
   "schemaVersion": 3,
   "release": {
-   "number": 28,
+   "number": 29,
    "date": "2026-11-10"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -15524,7 +15524,7 @@
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "60490-60491",
+     "lines": "59678-59679",
      "locus": "Martyrs Mirror, note after the account of the early martyrs",
      "quote": "were persecuted with great tyranny; first especially in popedom.",
      "license": "public-domain"
@@ -15534,9 +15534,9 @@
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "60497-60499",
+     "lines": "59684-59686",
      "locus": "Martyrs Mirror, same note",
-     "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,",
+     "quote": "They were put to death in many places; at Ensisheim alone about six hun- dred were slain,",
      "license": "public-domain"
     },
     {
@@ -15544,7 +15544,7 @@
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "58939-58942",
+     "lines": "58124-58127",
      "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
      "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,",
      "license": "public-domain"

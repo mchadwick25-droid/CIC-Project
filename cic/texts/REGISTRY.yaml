@@ -2615,14 +2615,17 @@
   supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
   date_added: '2026-09-24'
   notes: >-
-    The Bloody Theater, or Martyrs' Mirror, Thieleman J. van Braght (1660), trans.
-    Joseph F. Sohm (Scottdale, PA / Waterloo, ON: Herald Press, 1886 preface).
-    Public domain by date. Fetched directly (curl, raw bytes) from Internet
-    Archive item MartyrsMirror. Embeds named primary documents (Michael
-    Sattler's trial record, Anneken Jans's prison testament) not independently
-    quality-checked this pass.
+    The Bloody Theatre, or Martyrs Mirror, Thieleman J. van Braght (1660),
+    trans. Joseph F. Sohm (Elkhart, Indiana: Mennonite Publishing Company,
+    1886). Public domain by date (1886); the host item adds that the Library
+    of Congress is unaware of any copyright restrictions. Fetched directly
+    (curl, raw bytes) from Internet Archive item bloodytheatreorm00brag
+    (Library of Congress copy), 2026-11-10. Embeds named primary documents
+    (Michael Sattler's trial record; the testament of Anneken Jans, printed
+    as "the Testament which Anna of Rotterdam left and presented to her
+    son", file lines 62965-62966).
 
-    READER: sections - "FIRST PART" (file line 8961) in centuries ("THE TENTH CENTURY") and "SECOND PART" (line 49646) by year, each martyr account under its own capitalised title ending in its "A. D." year as printed, with embedded letters and confessions under their own headings; printed page numbers kept ; credit - "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, Thieleman J. van Braght, translated by Joseph F. Sohm, Herald Press edition (English translation first published 1886); digital text from Internet Archive item MartyrsMirror (no contributing library named in the item record)" ; republish - whole text, public domain by date.
+    READER: sections - "First Part." (file line 8723) in centuries ("IN THE TENTH CENTURY.") and "Second Part." (line 48931) by year, each martyr account under its own capitalised title ending in its "A. D." year as printed, with embedded letters and confessions under their own headings; the 1886 contents and index at the end; printed page numbers kept ; credit - "The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians, Thieleman J. van Braght, translated by Joseph F. Sohm, Mennonite Publishing Company, Elkhart, Indiana, 1886; digital text from Internet Archive item bloodytheatreorm00brag (contributor The Library of Congress)" ; republish - whole text, public domain by date.
 - filename: dirk-philips_enchiridion_kolb1910.txt
   supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
   date_added: '2026-09-24'

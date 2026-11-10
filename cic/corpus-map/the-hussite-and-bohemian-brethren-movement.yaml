@@ -676,15 +676,15 @@ works:
   work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
     Taborite sections
   author: van-braght
-  locus: file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived'
-    and the sections on the Taborites (lines 47499-47566)
+  locus: file lines 46686-46969, from the entry 'A. D. 1415. At this time John Huss lived'
+    and the sections on the Taborites (lines 46837-46888)
   role: context
   confidence: provisional
   language: eng
   date:
     start: 1659
     end: 1660
-    source: 'van Braght''s own preface dated ''Dort, July the 23rd, 1659'' (file line 578)
+    source: 'van Braght''s own preface dated ''Dort, July the 23d, 1659'' (file line 359)
       and the title page: ''from the Edition of 1660'''
     formation_confidence: Documented
   note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of

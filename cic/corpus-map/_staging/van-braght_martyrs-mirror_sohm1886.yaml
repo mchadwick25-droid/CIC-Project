@@ -22,13 +22,13 @@ assignments:
   - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
     work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and Taborite sections"
     author: van-braght
-    locus: "file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived' and the sections on the Taborites (lines 47499-47566)"
+    locus: "file lines 46686-46969, from the entry 'A. D. 1415. At this time John Huss lived' and the sections on the Taborites (lines 46837-46888)"
     atlas_ids:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: provisional
     language: eng
-    date: {start: 1659, end: 1660, source: "van Braght's own preface dated 'Dort, July the 23rd, 1659' (file line 578) and the title page: 'from the Edition of 1660'", formation_confidence: Documented}
+    date: {start: 1659, end: 1660, source: "van Braght's own preface dated 'Dort, July the 23d, 1659' (file line 359) and the title page: 'from the Edition of 1660'", formation_confidence: Documented}
     note: >
       A Dutch Mennonite martyrologist's 1660 account, in the 1886
       English edition, of Hus and of the Taborites (it calls them
@@ -46,8 +46,8 @@ assignments:
     role: context
     confidence: provisional
     note: 'A 1660 Anabaptist reading of the Taborites, with what it calls a confession of the Taborites
-      drawn up in 1431 (file line 47614; its source is not vendored) and a passage that names Adamites among
-      the names given to dissenters (file line 41446). Three removes from any Taborite text; a witness to
+      drawn up in 1431 (file line 46924; its source is not vendored) and a passage that names Adamites among
+      the names given to dissenters (file line 40826). Three removes from any Taborite text; a witness to
       how a later movement read them. Already assigned to the Hussite entry. Tier: same time-different-region.'
   - row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
     work: 'Martyrs Mirror: Tauler cited as a witness against the church of his day'
@@ -58,7 +58,7 @@ assignments:
     role: context
     confidence: provisional
     note: 'Under the year 1400 the compiler quotes Tauler on blind prelates, says he never urged one man
-      to hurt another, and praises him (file lines 45958 to 46000; Tauler is named again at 46972). The
+      to hurt another, and praises him (file lines 45284 to 45320; Tauler is named again at 46287). The
       Mennonite martyr book thus claims him. Tier: out of window. Placed on that passage.
   
       '

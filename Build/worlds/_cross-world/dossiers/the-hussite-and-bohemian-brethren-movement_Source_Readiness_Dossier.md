@@ -45,7 +45,7 @@ voice, Chelčický, the Brethren's Confession, and Březová) and thirteen in
 | Bohemia: An Historical Sketch (Lützow, 1920) | lutzow | context | assigned | ~1.04M chars | `lutzow_bohemia-historical-sketch_1920.txt` |
 | The Life and Times of John Huss, Vol. II (Gillett, 1871) | gillett | context | assigned | ~1.47M chars | `gillett_life-and-times-of-huss-v2_1871.txt` |
 | The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend, 1837), the Hus section | foxe | context | assigned | file lines 30742–46807 of ~3.99M chars | `foxe_acts-and-monuments-v3_cattley-townsend1837.txt` |
-| The Bloody Theater, or Martyrs' Mirror (Van Braght, 1660; Sohm, 1886), the Hus and Taborite sections | van-braght | context | provisional | file lines 47370–47660 of ~6.60M chars | `van-braght_martyrs-mirror_sohm1886.txt` |
+| The Bloody Theater, or Martyrs' Mirror (Van Braght, 1660; Sohm, 1886), the Hus and Taborite sections | van-braght | context | provisional | file lines 46686–46969 of ~7.59M chars | `van-braght_martyrs-mirror_sohm1886.txt` |
 
 **Voices.** Hus speaks for himself in English (the *Letters*, *De
 Ecclesia*), in Latin and Czech (Novotný, Palacký), and in Czech pastoral
@@ -155,7 +155,7 @@ project's date rule (published 1930 or earlier).
 | The Life & Times of Master John Hus; The Hussite Wars; Bohemia: An Historical Sketch | Count Francis Lützow | 1909; 1914; 1920 | `lifetimesofhus00ltuoft`; `hussitewars00lt`; `bohemiahistorica1920lt` | pd-us-by-date; `NOT_IN_COPYRIGHT` on the first, access-restricted-item: None on the others | direct fetch of each full-text file; item metadata |
 | The Life and Times of John Huss, Vol. II | Ezra Hall Gillett | 1871 | `lifetimesofjohnh02gill` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch; item metadata |
 | The Acts and Monuments of John Foxe, Vol. III | John Foxe, eds. Cattley and Townsend | 1837–41 | `actsmonumentsofj03foxe` | pd-us-by-date, `NOT_IN_COPYRIGHT` confirmed | direct fetch; item metadata |
-| The Bloody Theater, or Martyrs' Mirror | Thieleman J. van Braght, trans. Joseph F. Sohm | 1886 | `MartyrsMirror` | pd-us-by-date; the item carries no rights field | direct fetch of the full-text file; the stated publication date |
+| The Bloody Theater, or Martyrs' Mirror | Thieleman J. van Braght, trans. Joseph F. Sohm | 1886 | `bloodytheatreorm00brag` | pd-us-by-date; the item says the Library of Congress is unaware of any copyright restrictions | direct fetch of the full-text file; the 1886 title page |
 
 **Open leads.** None of these is vendored and none is verified to exist
 as a public-domain scan. Each has a row in `Build/worlds/hus/Source_Registry.md`

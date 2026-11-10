@@ -137,8 +137,8 @@ works:
   role: context
   confidence: provisional
   note: 'A 1660 Anabaptist reading of the Taborites, with what it calls a confession of the
-    Taborites drawn up in 1431 (file line 47614; its source is not vendored) and a passage
-    that names Adamites among the names given to dissenters (file line 41446). Three removes
+    Taborites drawn up in 1431 (file line 46924; its source is not vendored) and a passage
+    that names Adamites among the names given to dissenters (file line 40826). Three removes
     from any Taborite text; a witness to how a later movement read them. Already assigned
     to the Hussite entry. Tier: same time-different-region.'
   source_file: van-braght_martyrs-mirror_sohm1886.txt
