@@ -201,7 +201,9 @@ test('the method page and the era 10 band say where the history ends, in the sam
   const line = "The tree's history runs to 2010. Movements since then will be added as they become history.";
   const page = generate(census)('method.html').replace(/&#039;/g, "'");
   assert.ok(page.includes(`<p>${line}</p>`));
-  assert.ok(page.includes('<p>Nothing after 2010 is mapped yet. A living mark means one thing: the tradition is alive today.</p>'));
+  assert.ok(page.includes('<p>Nothing after 2010 is mapped yet.</p>'));
+  assert.ok(page.includes('<h2>What the living mark means</h2>'));
+  assert.ok(page.includes('<p>A living mark means one thing: the tradition is alive today, in 2026.'));
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.ok(map.includes(`10:${JSON.stringify(line)}`));
 });

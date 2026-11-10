@@ -36,10 +36,12 @@ for (const x of JSON.parse(readFileSync(e10Path, "utf8"))) {
   const m = by.get(x.id);
   if (!m || m.era !== 10 || m.living !== true) throw new Error(`${x.id}: not a living era 10 entry`);
   const before = structuredClone(m.livingEvidence);
-  m.livingEvidence = { ...m.livingEvidence, evidence: x.evidence, grade: x.grade };
+  m.livingEvidence = { ...m.livingEvidence, basis: x.basis, evidence: x.evidence, grade: x.grade };
   log.push({ id: m.id, atlasId: m.atlasId, outcome: "era 10 evidence added", before: { livingEvidence: before }, after: { livingEvidence: m.livingEvidence } });
 }
 
+const NOTE = " The `living` flag means the tradition an entry names is alive today (the method page, \"What the living mark means\"). `livingEvidence` says what the mark rests on: `basis`, in plain words; `carrier`, the entries that carry the same tradition today and hold its dated evidence; or the entry's own `evidence` and `grade` (CD, Contemporary-Documented; CR, Contemporary-Reported; or none, with no dated item after 2010 found); and `group`, how the mark was reached (line, episode, own, ended, influence).";
+if (!d.meta.notes.includes("`carrier`")) d.meta.notes += NOTE;
 d.meta.release = { number: Number(relNum), date: relDate };
 writeFileSync(outPath, JSON.stringify(d, null, 1) + "\n");
 writeFileSync(logPath, JSON.stringify(log, null, 1) + "\n");
