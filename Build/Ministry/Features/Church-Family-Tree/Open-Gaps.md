@@ -1819,3 +1819,8 @@ it, never by deleting it.
     words, about a minute). A deeper story would be new sourced text that continues from the brief,
     offered after it, never auto-played. Not scheduled; it needs its own design pass with Mark before
     any build. Owner: the coordinator.
+    - Link narration (Mark, 2026-11-10): Mark asked whether the link notes capture "the tensions,
+      why and what happened". They are written as evidence (who says so, how far to trust it),
+      median 46 words; conflict links carry the event, but rarely the tension, the why, or what
+      followed. A one-minute telling per link would be new sourced writing. The likely first scope
+      is the 122 major links. To be weighed with the deeper readings in the same design pass.
