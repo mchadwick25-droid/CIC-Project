@@ -17,3 +17,9 @@
 - Rabinowitsch, Joseph, *Neue Documente der südrussischen Christentumsbewegung: Selbstbiographie und Predigten*, ed. Franz Delitzsch, Schriften des Institutum Judaicum in Leipzig 16 (Leipzig: Dörffling & Franke, 1887). Rabinowitz's own autobiography and sermons.
 - Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser (id u5YtAAAAYAAJ). Harvard College Library copy, shelfmark Jud 765.15.16, stamped 15 Dec 1931.
 - Rights: Google full view; published 1887, so public domain in the US by date. The verso's "Alle Rechte vorbehalten" is the 1887 publisher's notice, long expired.
+
+## Zwei_Predigten_in_dem_Gotteshause_Bethle.pdf
+
+- Rabinowitsch, Joseph, *Lekhu ve-nashuvah (Hos. VI, 1): Zwei Predigten in dem Gotteshause Bethlehem in Kischinew gehalten*, Schriften des Institutum Judaicum in Leipzig 9 (Leipzig: Dörffling & Franke, 1885). Two sermons preached in Rabinowitz's own house of worship in Kishinev.
+- Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser (id r5YtAAAAYAAJ). Harvard College Library copy, shelfmark Jud 765.15.9, stamped 15 Dec 1931.
+- Rights: Google full view; published 1885, so public domain in the US by date.
