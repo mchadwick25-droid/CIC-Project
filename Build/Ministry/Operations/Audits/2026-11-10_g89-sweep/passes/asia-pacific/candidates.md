@@ -119,3 +119,225 @@ Kangxi, Schall or Verbiest, the Russian mission in Peking, or the Missions Étra
     stretches an era 7 row across an era boundary, and (c) splits what App. E and App. D tell as one
     history.
 
+### G89-AP2 — Chinese Catholicism, 1650–1906: the court mission, the Rites controversy and the hidden provinces (logged break)
+
+- **Kind:** church body (the Catholic Church in China: the Beijing court mission, the provincial
+  communities, Chinese priests, catechists and consecrated "virgins").
+- **Era:** 8 and 9 (1650–1906). The logged break is 1650–1793; the roster is in fact empty for
+  Chinese Catholics from 1650 to 1906 (VIII.7's China wing is Protestant; VIII.44 is the Taiping;
+  IX.65 starts in 1906).
+- **Dates (V unless marked):** 23 March 1656, the Holy Office answers the Jesuits' 1645 queries and
+  "censuit permittendas sinensibus christianis" the Confucius ceremonies, "quia videtur cultus esse
+  mere civilis et politicus" (Collectanea I, file lines 7131–7490). 1659, Propaganda's instruction
+  to the new vicars apostolic: "Quid enim absurdius quam Galliam, Hispaniam, aut Italiam ... in Sinas
+  invehere?" (lines 8185–8200). A toleration edict obtained on St Joseph's day (Lettres édifiantes
+  III, line ~8717; the OCR prints "1602", and the context — Verbiest's successors, the Kangxi reign —
+  points to 1692 [S on the year]). 22 November 1723, the Fujian viceroy's memorial asks that the
+  Europeans stay at court but leave the provinces for Macao, and the Christian religion is
+  proscribed (de Mailla, Peking, 16 Oct 1724, Lettres édifiantes III, lines 41805–42690). 4 October
+  1726, Propaganda rules that native priests, "sinenses, cocincinenses, tunquinenses", must also
+  swear the oath of *Ex illa die* (Collectanea I, lines 18645–18660; the OCR prints "17236" between
+  entries of 1726), and notes that *Ex illa die* is recited inside Benedict XIV's *Ex quo* of
+  11 July 1742 (line ~18763). 1773 suppression of the Jesuits: carried by VII.19. 1844–46 treaty
+  toleration, 1870 Tianjin, 1900 Boxer killings: **[S]**, not verified in this run.
+- **Region / countries:** Greater Asia — China (Beijing, Fujian, Sichuan, Jiangnan; Macao).
+- **Lane:** Latin West & Catholicism (the lane of VI.13c and IX.65).
+- **Section A:** Clears: Catholic, Nicene. The Rites dispute was about practice, not the creed.
+- **B1:** Good for era 8. In-window primary texts V: the Propaganda *Collectanea* (vendored) and the
+  Jesuit *Lettres édifiantes* (opened raw). Studies V-s: Bays 2012, Minamiki 1985, Mungello 1994.
+  Chinese-language sources wanted: Huang Bolu (黃伯祿), 正教奉褒 *Zhengjiao fengbao* ("Records of
+  imperial favor to the true religion", Shanghai 1883), the Chinese text of the 1692 edict, and the
+  Chinese text of the 1723 memorial. None was found raw. Era 9 evidence is thin in this run.
+- **B2:** Strong: the court astronomers; ancestor rites and Confucius halls; a church that lived a
+  century (1724–1840s) with few priests, held by Chinese priests, catechists and lay "virgins"; the
+  French protectorate; the Boxer year.
+- **B3:** High. The longest-lived Catholic mission in East Asia has no row for 256 years.
+- **B4:** Historically interested learners, Catholics, academic users; the rites question (can a
+  Christian honor ancestors?) is one participants still ask.
+- **B5:** Large [S on numbers; none verified].
+- **Tier:** Tier 1.
+- **Mark's test (unique, not tied to another movement):** The break is tied to the Jesuits only
+  in part. The Jesuits are the carriers of the court mission (1650–1773), and the Rites controversy
+  began with their method. But the Rites decisions were made by Propaganda, the Holy Office and two
+  popes against Dominicans, Franciscans and MEP priests as well, and their subject was Chinese
+  practice. After 1724 the story is the provincial communities' own, under Chinese priests (the 1726
+  ruling shows them already ordained) and, after 1773, Lazarists and MEP. A Jesuit row would carry
+  only the court half and would end at 1773; the communities run on to IX.65. So the unique story is
+  the China church, and the Jesuit court mission is one line in it.
+- **Evidence:**
+  - *Collectanea S. Congregationis de Propaganda Fide*, vol. I (Rome 1907) —
+    `cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt`, lines
+    7131–7490 (1656), 8120–8200 (1659), 18645–18763 (1726, 1742) — *in-window decrees, Latin* — **V**.
+  - Lettre du P. de Mailla, "Proscription de la religion chrétienne", Peking, 16 October 1724, in
+    *Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique*, ed. Aimé-Martin,
+    vol. 3 (Paris 1838) — archive.org `lettresdifiantes03jesu`, djvu lines 41805–42690 — *in-window
+    letter, French, quoting the viceroy's memorial in translation* — **V**.
+  - Same volume, the toleration edict passage — line ~8717 — **V** for the passage; the year **[S]**.
+  - Daniel H. Bays, *A New History of Christianity in China* (Wiley-Blackwell, 2012) — archive.org
+    `newhistoryofchri0000bays` — **V-s**.
+  - George Minamiki, *The Chinese Rites Controversy from Its Beginning to Modern Times* (Loyola UP,
+    1985) — archive.org `chineseritescont0000mina` — **V-s**.
+  - D. E. Mungello, *The Forgotten Christians of Hangzhou* (University of Hawai'i Press, 1994) —
+    archive.org `forgottenchristi0000demu` — **V-s**.
+  - VI.13c's Library voices (Trigault 1615, Purchas) stop before 1650 — checked in corpus-map.
+  - Huang Bolu, 正教奉褒 (1883); Kangxi edict of 1692 (Chinese); the 1723 memorial (Chinese) —
+    **wanted**.
+- **Quote (V, Latin, then [my rendering]):** "Quid enim absurdius quam Galliam, Hispaniam, aut
+  Italiam, aut aliam Europae partem in Sinas invehere?" — "For what could be more absurd than to
+  carry France, Spain, Italy or some other part of Europe into China?" — Propaganda's instruction of
+  1659, Collectanea I, lines ~8196–8198.
+- **Living today:** the church lives on in IX.65 (era 10). For this row, n/a.
+- **Overlap:** VI.11 (Jesuits, to 1650: names the China mission's start); VI.13c (to 1650);
+  VII.19 (suppression of 1773, as a European story); VIII.7 (Protestant China coast); VIII.21
+  (names Beijing for Yi Sung-hun's baptism, 1784); IX.65 (from 1906). None carries 1650–1906.
+- **Recommendation:** enter. Era 8 for certain; era 9 either in the same row or a second segment,
+  after one verified era 9 source (the 1840s toleration or the 1900 killings).
+- **Gate question:** Where does China's Catholic story of 1650–1906 go?
+  - (a) A China-church row, 1650–1906 (or two segments split at 1815), with the Jesuit court
+    mission and the Rites controversy as named lines inside it.
+  - (b) An era 8 continuation of VI.11, the Society of Jesus 1650–1814, carrying the court mission
+    and the Rites (and, from other regions, the Paraguay reductions and the Malabar rites), plus a
+    smaller China-church row from 1724.
+  - (c) A named line in VII.19.
+  - **Recommended:** (a). It passes Mark's test: the China church is a single story that outlives
+    the Jesuits, while the Jesuits are one of its carriers. (b) is right only if Mark wants the
+    Jesuits' worldwide work kept as one movement after 1650 too; that is a cross-region question for
+    the merge (see AP-X1).
+
+### G89-AP3 — Japan's hidden Christians (Sempuku Kirishitan), 1650–1865 (logged break)
+
+- **Kind:** church body without clergy (village communities keeping baptism and prayer under a
+  ban), assessed as a church row; not a movement outside church bodies.
+- **Era:** 8 and 9 (1650–1865).
+- **Dates:** The ban runs from 1614 (VI.13b). The annual image-trampling test, *e-fumi*, was used to
+  find Christians (V, Marnas, lines ~3345–3352). 17 March 1865, three women from Urakami tell
+  Petitjean "Notre cœur à nous tous ... est le même que le vôtre" and ask "Sancta Maria no gozowa
+  doko?" (V, Marnas, lines 21260–21280, from Petitjean's letters of 18 and 22 March 1865). VIII.45
+  takes the story from that day.
+- **Region / countries:** Greater Asia — Japan (Urakami and Sotome near Nagasaki, the Gotō islands,
+  Ikitsuki, Hirado).
+- **Lane:** Latin West & Catholicism (the lane of VI.13b and VIII.45).
+- **Section A:** Not assessable on a dated statement of the period: the communities kept prayers
+  and a baptismal formula orally and in hidden books, and no dated confession of theirs was opened.
+  Assessed at the world level per A5: they are the continuation of a church that clears (VI.13b).
+  Whether the later Kakure (after 1873) still clear is a separate question VIII.45 already flags.
+- **B1:** Adequate. Marnas (1896) is a pre-1930 study built on the MEP archive and Petitjean's
+  letters, opened raw. Their own scripture, 天地始之事 *Tenchi hajimari no koto* ("The Beginning of
+  Heaven and Earth", known from copies of the 1820s [S]), is the communities' own voice: the
+  Japanese text was not found raw; Whelan's English translation (1996) is V-s; Japanese studies of
+  it (Mase-Hasegawa 2015; Kajita) V-s from NDL Search. Urakawa Wasaburō (浦川和三郎), 『切支丹の復活』
+  *Kirishitan no fukkatsu* ("The Resurrection of the Kirishitan", 1927–28), a Japanese priest's
+  pre-1930 study, V-s from NDL Search; not opened.
+- **B2:** Strong: lay offices (prayer leader and baptizer, Marnas lines 22335–22362), a hidden
+  liturgical calendar, Marian images disguised as Kannon [S], the e-fumi, the 1865 discovery.
+- **B3:** High. Survival of a church for two centuries with no priest is a case the world history of
+  Christianity always cites; the roster says so in VI.13b and VIII.45 but gives the years no row.
+- **B4:** Broad: thoughtful believers (faith without clergy), pastors, learners, academic users.
+- **B5:** Small to mid (Marnas counts Urakami alone at about 1,300 households/people? — the line
+  reads "au nombre d'environ 1.300", line 22183; the unit was not checked) — **[S]** on size.
+- **Tier:** Tier 1 (a logged break with a strong story).
+- **Mark's test:** Unique. Not the Jesuits' story: the order had no priest in Japan after the 1640s
+  [S], and the communities kept the faith on their own. Not VIII.45's story, which begins on
+  17 March 1865.
+- **Evidence:**
+  - Francisque Marnas, *La "Religion de Jésus" (Iaso ja-kyō) ressuscitée au Japon dans la seconde
+    moitié du XIXe siècle*, vol. 1 (Paris and Lyon: Delhomme et Briguet, 1896; approbations dated
+    Lyon 16 Nov 1896 and Rome 3 Dec 1896) — archive.org `lareligiondejsus01marn`, djvu text; lines
+    3345–3365 (e-fumi), 21260–21290 (17 March 1865), 22335–22362 (the village offices) — *pre-1930
+    study quoting primary letters, French* — **V**.
+  - Christal Whelan (trans.), *The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden
+    Christians* (University of Hawai'i Press, 1996) — archive.org `beginningofheave0000unse` —
+    **V-s**.
+  - Stephen Turnbull, *The Kakure Kirishitan of Japan* (Japan Library 1998; Routledge reissue,
+    archive.org `kakurekirishitan0000step`, 2016) — **V-s**.
+  - 浦川和三郎 Urakawa Wasaburō, 『切支丹の復活』 (日本カトリック刊行会, 1927–28) — NDL Search record
+    R100000136-I1970586434864565008 — **V-s**.
+  - 長谷川(間瀬)恵美 Mase-Hasegawa Emi, 「キリシタン神学の可能性 : 『天地始之事』を巡って」 (2015) — NDL
+    Search — **V-s**.
+  - 天地始之事 (Japanese text) — **wanted**.
+  - Léon Pagès, *Histoire de la religion chrétienne au Japon*, annexes (1870), vendored, stops at 1651
+    — checked in corpus-map (kirishitan-japan.yaml).
+- **Quote (V, French, then [my rendering]):** "Notre cœur à nous tous, qui sommes ici, est le même
+  que le vôtre." — "The heart of all of us here is the same as yours." — Marnas I, lines
+  21268–21269, after Petitjean's letters of 18 and 22 March 1865. (Fits VIII.45 more than this row;
+  for this row, the village-office passage is the better anchor.)
+- **Living today:** the Kakure line lives on in a few communities (VIII.45 says "remain separate to
+  this day"). No dated item after 2010 was opened: grade none.
+- **Overlap:** VI.13b (to 1650; its relationsSummary names the 250 years); VIII.45 (from 1865).
+- **Recommendation:** enter (era 8 row running to 1865, or era 8 and era 9 segments).
+- **Gate question:** How should the hidden centuries enter?
+  - (a) One row, 1650–1865, crossing the era 8/9 line, in the Latin West lane.
+  - (b) Extend VIII.45 back to 1650.
+  - (c) Extend VI.13b forward to 1865.
+  - **Recommended:** (a). The hidden period is its own form of church life; (b) and (c) would bury it
+    in rows about a mission and a re-emergence.
+
+### G89-AP4 — Vietnamese Catholicism, 1650–1906
+
+- **Kind:** church body (the Catholic communities of Tonkin and Cochinchina, under vicars apostolic
+  of the MEP and Spanish Dominicans, and Padroado/ex-Jesuit communities).
+- **Era:** 8 and 9 (with era 7 roots from 1615/1627 that no row carries either).
+- **Dates (V unless marked):** 1651, Alexandre de Rhodes's *Cathechismus* in Latin and Vietnamese
+  ("Cathechismum Latinum, Tunchinensem"), Rome, Propaganda press; licence dated Rome 8 July 1651.
+  1658, Propaganda names Pallu and Lambert de la Motte vicars apostolic "dans les Missions de Chine et
+  les pays voisins" (Launay 1894, I, lines 3407–3415). 1664–65, the Ayutthaya *Monita ad
+  Missionarios*, which plans native priests drawn from the catechists (Launay I, 8560–9410). 1670,
+  Lambert founds the Lovers of the Cross (Amantes de la Croix) (Launay 1893, lines 2741–2744); 1675,
+  Propaganda grants indulgences to their confraternities "in Tunkino et Cocincina" (Collectanea I,
+  lines 13795–13805). 1796, Philiphê Bỉnh sails from Tonkin to Lisbon for his ex-Jesuit community
+  (Dutton 2017). 6 January 1833, Minh Mạng's first great edict of persecution (Launay 1893, lines
+  2903–2925). 1832, the West Tonkin mission counts 160,000–170,000 Christians, about 60 Vietnamese
+  priests, several hundred catechists and some 30 convents with 400 sisters (Launay 1893, lines
+  2735–2744). 1858–85 French conquest; 1885 killings of Christians [S].
+- **Region / countries:** Greater Asia — Vietnam (Tonkin, Cochinchina, Annam).
+- **Lane:** Latin West & Catholicism.
+- **Section A:** Clears: Catholic, Nicene; de Rhodes's *Cathechismus* (1651) is a dated catechism of
+  the community's first generation.
+- **B1:** Strong for a pass of this kind: an in-window primary in Latin and Vietnamese (1651), the
+  Propaganda decrees (vendored), Launay's two pre-1930 MEP histories opened raw, and Dutton 2017
+  (open access, opened raw), which reads Philiphê Bỉnh's own quốc ngữ writings. Vietnamese-language
+  own voice: Bỉnh's *Sách sổ sang chép các việc* (1822) [S], no pre-1930 printing found — wanted.
+- **B2:** Strong: a Romanized script (quốc ngữ) born in mission catechesis; the Lovers of the Cross,
+  Asia's oldest native women's congregation still active [S]; catechist "houses"; martyrdom under
+  Minh Mạng and Tự Đức; the colonial tie that cost the church later.
+- **B3:** High. Vietnam had one of Asia's largest Catholic churches by 1800 [S on rank], and the
+  roster names it nowhere, in any era.
+- **B4:** Catholics, historically interested learners, academic users (religion and colonialism).
+- **B5:** Large: 160,000–170,000 in one of the vicariates alone in 1832 (V).
+- **Tier:** Tier 1.
+- **Mark's test:** Unique. The Jesuits began it (1615/1627) and the MEP organized it, but the
+  continuous carriers were Vietnamese catechists, priests and sisters. Dutton shows a Vietnamese
+  ex-Jesuit community defending its own heritage after 1773 — the church, not the order, is the
+  subject.
+- **Evidence:**
+  - Alexandre de Rhodes, *Cathechismus pro iis, qui volunt suscipere Baptismum in octo dies
+    divisus / Phép giảng tám ngày* (Rome: Propaganda Fide, 1651) — archive.org `bub_gb_p8UC5ZZ21Q8C`
+    (title page and licence read in the djvu text) — *in-window primary, Latin and Vietnamese* —
+    **V** (title page); content not read.
+  - Adrien Launay, *Histoire générale de la Société des Missions-Étrangères*, vol. 1 (Paris: Téqui,
+    1894) — archive.org `cihm_54000`, lines 3407–3415, 8560–9410 — **V**.
+  - Adrien Launay, *Mgr Retord et le Tonkin catholique, 1831–1858* (1893) — archive.org
+    `mgrretordetleton00laun`, lines 2735–2925 — **V**.
+  - *Collectanea* I (vendored), line 13795 (1675, "Amatorum Crucis ... in Tunkino et Cocincina") and
+    lines 18645–18660 (1726, Tonkinese and Cochinchinese native priests) — **V**.
+  - George E. Dutton, *A Vietnamese Moses: Philiphê Bỉnh and the Geographies of Early Modern
+    Catholicism* (Oakland: University of California Press, 2017; open access) — archive.org
+    `oapen-20.500.12657-31953`, djvu text (back-cover summary, lines ~17530–17545; Tonkin estimates
+    of 1639 and 1663, lines 833–836) — *scholarly study* — **V**.
+  - Philiphê Bỉnh, *Sách sổ sang chép các việc* (1822) — **wanted**.
+- **Quote (V, French, then [my rendering]):** "Il y avait une soixantaine de prêtres indigènes,
+  plusieurs centaines de catéchistes, une trentaine de couvents avec 400 religieuses" — "There were
+  some sixty native priests, several hundred catechists, some thirty convents with 400 sisters" —
+  Launay 1893, lines 2740–2742 (West Tonkin, 1832).
+- **Living today:** yes (the Catholic Church in Vietnam); no dated item after 2010 opened: grade
+  none. Era 10 has no Vietnam row either (the era 10 sweep's Asia section raised Vietnam; no row
+  carries it in release 27).
+- **Overlap:** none in any era. VIII.21 and VIII.29 do not name it.
+- **Recommendation:** enter (one row 1650–1906, or two segments).
+- **Gate question:** How should Vietnam's Catholics enter?
+  - (a) One row, 1650–1906, opening with the Jesuit and MEP beginnings as background.
+  - (b) Era 8 and era 9 segments (1650–1815, 1815–1906), like the Philippine rows VII.29 and VIII.39.
+  - (c) A named line in an MEP row (see AP-X2).
+  - **Recommended:** (b). It matches how the roster already handles the Philippines across the same
+    eras, and the 1833 edicts make a natural era 9 story. (a) is fine if Mark prefers fewer rows.
+

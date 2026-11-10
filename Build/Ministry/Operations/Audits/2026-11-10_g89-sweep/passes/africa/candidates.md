@@ -67,3 +67,36 @@ Sweep run 2026-11-10 under `Sweep_Brief.md` (this audit folder), Mark's scope ru
   - (c) Hold for sources until Guidi's annals or Weld Blundell can be read.
   - **Recommendation: (a).** It is one coherent period with its own name in the scholarship, and (b) rewrites two frozen rows. Draft only from V items, and add Guidi to the wants list.
 
+### AF-2. The Coptic church under the Ottomans: the patriarchate and the archons (1517-1854) — logged break
+
+- **Kind:** church body (the Coptic Orthodox Church), a window of the same church as IV.26 and VIII.13.
+- **Era:** 7 to 9 as written in Open-Gaps 142 (1517-1854). This sweep's share is 1650-1854. See the gate question for the start date.
+- **Dates:** 1517 (the Ottoman conquest of Egypt) to 1854 (Cyril IV, VIII.13). The real gap starts c. 1300, where IV.26 ends.
+- **Region / countries / lane:** Africa. Egypt (with the abun's see in Ethiopia). Lane 4 Africa.
+- **What it holds.** A church that lived as a tax-paying minority under the beys. Its lay notables, the *arākhina* (archons), Coptic scribes who ran land registers and finance, paid for churches and monasteries (Ibrahim al-Jawhari, d. 1795, and his brother Girgis [S for dates]). The patriarchs, the desert monasteries, the Arabic shift away from Coptic, the patriarch's court for Copts, the abun sent to Ethiopia, the Catholic missions of Propaganda among the Copts, and Coptic soldiers and notables in the French occupation of 1798-1801 [S].
+- **Section A:** clear by precedent. Same church as IV.26 and VIII.13 (VIII.13's floorNote reads "No question"). No dated own statement read this run.
+- **B1 Sourcing:** moderate. Own-voice: the *History of the Patriarchs* continuation into the Ottoman centuries exists in Arabic [S] (the Library holds only Evetts vol. 1, early). Outside witnesses read this run: Volney (1787), Bruce (1790), Lane (1836, 1860 edition). Study read: Butcher (1897). Modern standard: Guirguis and van Doorn-Harder (2011), cited on VIII.13. Source asymmetry: the archons' own letters and the waqf deeds are known to scholars [S] but not to the Library.
+- **B2 Ecology:** good. Patriarch and bishops, monks, lay notables and their endowments, scribes in government, village Copts in Upper Egypt, the Catholic minority, the link to Ethiopia.
+- **B3 Uniqueness:** high. No row carries the Copts for five and a half centuries. VI.18 names a Coptic patriarch only in passing (Ahatallah). VIII.13 starts at 1854 and calls the church before it "reduced in the eyes of most outsiders to a survival". The archon story is the church's own and is not told anywhere.
+- **B4 Audience:** Coptic believers and the large Coptic diaspora; historians of Christians under Islamic rule; readers comparing the millet churches (VI.17, VII.18).
+- **B5 Scale:** tiebreak. Lane reckoned the Copts at about 150,000 in the 1830s (V, below).
+- **Tier:** 1 for the whole break; 2 if limited to 1650-1854 alone.
+- **Evidence:**
+  1. C.-F. Volney, *Travels through Syria and Egypt, in the Years 1783, 1784, and 1785*, vol. 1 (London: G. G. J. and J. Robinson, 1787) (archive.org `travelsthroughsy01voln`). **V.** The Copts "are become the depositaries of the registers of the lands and tribes. Under the name of writers, they are at Cairo the intendants, secretaries, and collectors of government". He says the land tax "is entrusted with the Copt writers". He calls them "Eutychians". Hostile outside witness. (The Library holds only Volney's vol. 2, on Syria.)
+  2. E. L. Butcher, *The Story of the Church of Egypt*, vol. 2 (London, 1897) (archive.org `storyofchurchofe02butc`). **V** (a nineteenth-century study, public domain). Benedict XIV consecrated "the first Roman Catholic Metropolitan who owned any real jurisdiction in Egypt", a Copt of Jerusalem named Athanasius, "and the date of his appointment is 1741". In a footnote at A.D. 1787, "Moallem Ibrahim-el Johari, chief clerk of the finance department", won leave for churches and monasteries to be restored and "gave a great deal of land and money for the support of the National Church".
+  3. E. W. Lane, *An Account of the Manners and Customs of the Modern Egyptians*, written 1833-35, 5th edition (London, 1860) (archive.org `accountofthemann031193mbp`). **V.** Lane's reckoning: "Christian Egyptians (Copts) . . . 150,000". "The Coptic Patriarch, who is the head of his church, judges petty causes among his people in the metropolis". Outside witness.
+  4. Bruce, vol. 3 (1790) (archive.org `travelstodiscov03bruc`). **V.** The Catholic missionaries among the Copts laid a case before "the College of Cardinals de propaganda fide, at Rome". Outside witness.
+  5. Andrew Watson, *The American Mission in Egypt, 1854 to 1896* (Pittsburgh, 1898) (archive.org `americanmission00wats`). **V** for its chapter heading: efforts "to secure a friendly intercourse with the Christians of the Nile valley from 1752-1854 — The Moravians — The Church Mission Society Missionaries". A mission's view.
+  6. Magdi Guirguis and Nelly van Doorn-Harder, *The Emergence of the Modern Coptic Papacy* (Cairo: AUC Press, 2011). **V-s** (cited on VIII.13 and in the repo). Its coverage of the Ottoman centuries [S].
+  7. Otto Meinardus, *Two Thousand Years of Coptic Christianity* (AUC Press, 1999). **V-s** (cited on VIII.13).
+  8. Wanted: the Arabic *History of the Patriarchs* for the Ottoman patriarchs; J. M. Vansleb, *Histoire de l'Eglise d'Alexandrie* (Paris, 1677), not found on archive.org by title [S]; studies by Coptic historians of the archons (Magdi Guirguis's work on the Jawhari brothers [S]).
+- **Living today:** yes, the same church as IX.10 (living:true).
+- **Overlap:** IV.26 (to c. 1300); VIII.13 (from 1854); VI.18 (a passing name); AF-1 (the abun link); VII.18 and VI.17 (the Greek Orthodox under the Ottomans, a parallel, not this church). The Greek Orthodox Patriarchate of Alexandria has no row either [S]; it is noted, not proposed.
+- **Mark's test:** unique. The Coptic church is its own body. The only cross-world thread inside it is Propaganda's Catholic mission, which leads to the Coptic Catholics (AF-7), a named line here.
+- **Recommendation:** enter as a church row. Tier 1 if it starts at 1517 (or c. 1300); named lines for the archons and for the Coptic Catholics (AF-7).
+- **Gate question G-AF89-2:** Where should the new Coptic row start?
+  - (a) 1517, the Ottoman conquest, as Open-Gaps 142 logged it. Era 7 to 9.
+  - (b) 1650, the start of era 8, so it stays inside this sweep's eras. The years 1300-1650 stay a gap.
+  - (c) c. 1300, where IV.26 ends, with one long row (Mamluk and Ottoman) or two.
+  - **Recommendation: (a)**, with the 1300-1517 Mamluk years logged in Open-Gaps as their own break. 1517 is a real change of masters, and the Ottoman centuries hang together. Starting at 1650 cuts a story in the middle for a reason that is only the era line.
+

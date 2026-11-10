@@ -8,3 +8,4 @@
 - [ ] Candidates by river.
 - [ ] candidates.json, summary.md.
 - [x] AP1 St Thomas 1665-1815 written to candidates.md.
+- [x] AP2 China, AP3 Japan, AP4 Vietnam written.
