@@ -159,6 +159,16 @@ test('a person page says which tradition tells it, and carries that world door w
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
 });
 
+test('a movement that names no one says why, in its own People section', () => {
+  const c = structuredClone(census);
+  const m = c.movements.find(x => x.kind !== 'person');
+  m.people = [];
+  m.peopleNote = 'The Library holds no words of its own leaders.';
+  assert.match(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>\s*<p class="people-note">The Library holds no words of its own leaders\.<\/p>/);
+  delete m.peopleNote;
+  assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>/);
+});
+
 test('every page states its review status in plain words', () => {
   const c = structuredClone(census);
   const [a, b] = c.movements;

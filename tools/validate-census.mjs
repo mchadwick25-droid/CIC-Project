@@ -172,7 +172,10 @@ function shelfAuthor(movementId, rowId) {
   } else {
     if ("toldWithin" in m) errs.push(`${m.id}: toldWithin is only for a person entry`);
     if (!Array.isArray(m.people)) errs.push(`${m.id}: people must be a list (empty when it names no one)`);
+    else if (!m.people.length && (typeof m.peopleNote !== "string" || !m.peopleNote.trim())) errs.push(`${m.id}: names no one, so it needs peopleNote, one plain sentence saying why`);
+    else if (m.people.length && m.peopleNote !== undefined) errs.push(`${m.id}: peopleNote is only for a movement that names no one`);
   }
+  if (isPerson(m) && m.peopleNote !== undefined) errs.push(`${m.id}: a person entry has no peopleNote`);
   if (!REVIEW.has(m.reviewStatus)) errs.push(`${m.id}: reviewStatus must be "AI-checked", "partner-contributed" or "scholar-reviewed"`);
   if (m.livingEvidence?.descentConfidence !== undefined) {
     if (!CONFIDENCE.has(m.livingEvidence.descentConfidence)) errs.push(`${m.id}: livingEvidence.descentConfidence must be one of the five formation_confidence levels`);
