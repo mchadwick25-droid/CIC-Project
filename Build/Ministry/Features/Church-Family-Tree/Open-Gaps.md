@@ -1350,7 +1350,24 @@ it, never by deleting it.
       fetched.
     - The Bell Part II ruling, as carried out: the row stays on the desert shelf as context, and on
       the Melitian shelf as tradition (Source-Library Decision-Log, 2026-11-10).
-172. **Eras 8 and 9 rulings, Africa holds (2026-11-10).** P2-G89b (data release 33) carried out
+172. **What the Library's third wants batch filled (2026-11-10).** For the earliest named gaps in
+    "Living traditions with no entry after a date" (2026-11-10). Each gap still needs a change order
+    to add its row; the Library supplies the sources. Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Sources now held: Rome 604-1049 (Liber Pontificalis, Duchesne); the Frankish church 888-1049
+      (Regino about 906, Flodoard 919-966); Benedictines after 604 (Cluny charters); Ireland after
+      1169 (the Four Masters 1172-1378, Thurles 1850); Wales after 1282 (the Welsh Bible 1588 and the
+      Prayer Book 1664); the Mozarabs after 1031 (the liturgy; Toledo deeds of the 12th-13th
+      centuries); Lerins (its charters from the 11th century; Barralis 1613); Antioch after 312 and the
+      Arabic Melkites (Paul of Aleppo, held); Jerusalem after 450 (Sophronius 634; the patriarchate's
+      acts from 1670; Dositheus, held); Georgia 1245-1917 (Brosset part II, 1857); the Judean desert
+      after 614 (Antiochus Strategos; George of Choziba, held).
+    - Not found: the Syriac Orthodox Church 1300-1915.
+    - Bears on "The Lerins entry says the abbey has stood since about 410" (2026-11-10): the
+      cartulary and Barralis date the house's life after 450.
+    - AP10 (Hermano Pule): Montero y Vidal 1895 summarises Apolinario's sworn declaration. ME-21
+      (Rabinowitz): six full-view Google Books items need a browser download.
+173. **Eras 8 and 9 rulings, Africa holds (2026-11-10).** P2-G89b (data release 33) carried out
     Mark's rulings on the eras 8-9 global sweep. Each hold below gives what is held, its G89
     question and what it waits for. Drafts:
     `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-rulings/drafts/`.
@@ -1385,7 +1402,7 @@ it, never by deleting it.
       Xhosa from a pre-1930 printing; a modern study of James Bruce as a witness to Ethiopia in the
       1770s. The dated present-day statements wanted for the living marks are in "New rows marked
       living with no dated source" (2026-11-10).
-173. **Eras 8 and 9 rulings, Latin America holds (2026-11-10).** From the same draft. Each hold
+174. **Eras 8 and 9 rulings, Latin America holds (2026-11-10).** From the same draft. Each hold
     gives its G89 question and what it waits for.
     - **LA8-6, Haiti before 1804 and after 1860 (the concordat church; Holly's Episcopal mission)**
       (G89-18 a). Two studies were seen only as catalog records; no primary was opened and no
@@ -1427,7 +1444,7 @@ it, never by deleting it.
       Hernandez y Davalos, Coleccion de documentos (1877-82), and Morelos's Sentimientos de la
       Nacion (1813), not found on archive.org; Levine, Vale of Tears (1992), and Della Cava if a
       lawful copy can be reached.
-174. **Eras 8 and 9 rulings, Asia part 1 holds (2026-11-10).** India, China, Japan, Korea and the
+175. **Eras 8 and 9 rulings, Asia part 1 holds (2026-11-10).** India, China, Japan, Korea and the
     Peking mission.
     - **AP7, the Catholic St Thomas Christians and the Chaldean Syrian body at Thrissur, 1815-1906,
       then AP1 extended to 1906 and a link to VIII.40** (G89-29 c, then a). The record rests on two
@@ -1449,7 +1466,7 @@ it, never by deleting it.
       1723 memorial; Tenchi hajimari no koto, the hidden Christians' own text; Urakawa Wasaburo,
       Kirishitan no fukkatsu (1927-28), and a Japanese source for the village communities; Eric
       Widmer (Harvard, 1976). The missing China ID is in "Missing modern-country IDs" (2026-11-10).
-175. **Eras 8 and 9 rulings, Asia part 2 holds (2026-11-10).** Southeast Asia, the Pacific and the
+176. **Eras 8 and 9 rulings, Asia part 2 holds (2026-11-10).** Southeast Asia, the Pacific and the
     VOC world.
     - **AP10, the Cofradia de San Jose (Hermano Pule), 1832-1841, then a line in VIII.39** (G89-33
       b). Only Ileto (1979) was verified, and the Blair and Robertson volumes searched do not carry
@@ -1478,7 +1495,7 @@ it, never by deleting it.
       Ceylon church; Sebastiao do Rego's life of Joseph Vaz (1745) and Tamil and Sinhala Catholic
       texts. The dated present-day records wanted are in "New rows marked living with no dated
       source" (2026-11-10). The missing IDs and the VOC lineage question have their own items.
-176. **Eras 8 and 9 rulings, Middle East and Caucasus holds (2026-11-10).** Slice ME-1.
+177. **Eras 8 and 9 rulings, Middle East and Caucasus holds (2026-11-10).** Slice ME-1.
     - **ME-2, the Maronite Church from Duwayhi to the Hindiyya affair (era 8 row)** (G89-39 a).
       Enters once the acts of the 1736 synod of Mount Lebanon are opened. Mansi vol. 38 is not on
       archive.org (most other volumes are). Without it the row would rest on Labourt and Volney
@@ -1510,7 +1527,7 @@ it, never by deleting it.
       Montenegro after 1815 (ME-17); a second source on the year the Urmia Assyrians joined the
       Russian Orthodox mission (1896 in Wigram; 1898 in the sweep's [S] note). The Maronite years
       1517-1650 are in "Years logged for other eras' owners" (2026-11-10).
-177. **Eras 8 and 9 rulings, Eastern Europe and Russia holds (2026-11-10).** Slice ME-2.
+178. **Eras 8 and 9 rulings, Eastern Europe and Russia holds (2026-11-10).** Slice ME-2.
     - **ME-6, the Dukhobors and the Molokans** (G89-46 a). The record holds each body for Section A.
       Pinkerton (1814) reports that the Dukhobors rejected the outward church, the sacraments and
       the icons; Conybeare's chapter on the Molokans' confession was not read. Waits for a dated
@@ -1553,7 +1570,7 @@ it, never by deleting it.
       confession. The dated record for the Reformed Church in Hungary and the Lutheran churches is
       in "New rows marked living with no dated source" (2026-11-10). The two gaps after 1906 are in
       "Years logged for other eras' owners" (2026-11-10).
-178. **Eras 8 and 9 rulings, Catholic missions and the Society of Jesus holds (2026-11-10).** Slice
+179. **Eras 8 and 9 rulings, Catholic missions and the Society of Jesus holds (2026-11-10).** Slice
     RV-A.
     - **RV-3, the Catholics of Bosnia, Albania and Bulgaria, 1815-1878 (era 9 part)** (G89-51 a).
       Two items were read, Evans (1877), an outside witness critical of all the clergy, and Lins in
@@ -1600,7 +1617,7 @@ it, never by deleting it.
       grade the link from VIII.29 to IX.59 on the secondary it names. The IDs removed from RV-1 and
       RV-3 are in "Missing modern-country IDs" (2026-11-10); the Jesuit and China link is in "Two
       links with a candidate secondary quote" (2026-11-10).
-179. **Eras 8 and 9 rulings, Moravians, Arab evangelicals and Mennonites holds (2026-11-10).** Slice
+180. **Eras 8 and 9 rulings, Moravians, Arab evangelicals and Mennonites holds (2026-11-10).** Slice
     RV-B.
     - **RV-7, the Transylvanian Unitarians after the Polish exile, 1660-1906** (G89-53 a). A Section
       A lane 8 question with thin sources; the only verified item is Rees's 1818 introduction to the
@@ -1636,7 +1653,7 @@ it, never by deleting it.
       can be a people row, with Taylor (1837) as a vendoring candidate; Cranz and La Trobe (1780),
       already in the Library, for a Greenland line. The dated record for the Arab evangelical
       churches is in "New rows marked living with no dated source" (2026-11-10).
-180. **Missing modern-country IDs (2026-11-10).** A new row's modernCountries takes IDs from census
+181. **Missing modern-country IDs (2026-11-10).** A new row's modernCountries takes IDs from census
     rows only, and each country's place must be on the row's place label. No census row carries the
     countries and places below, so they are left out. Owner: the place-label work.
     - **Africa:** kongo-christianity-after-1650 (Angola, DR Congo);
@@ -1664,12 +1681,12 @@ it, never by deleting it.
       Q16); arab-evangelical-churches (Syria Q858, which is also not on its label); VIII.7
       (Liberia). Jamaica and South Africa were looked up in the place-label audit, not the census.
       Suriname, Tanzania and Liberia have no ID in the census or the audit.
-181. **VII.32's Russia and Ukraine (2026-11-10).** Ruling G89-49 a adds Russia (Q159) and Ukraine
+182. **VII.32's Russia and Ukraine (2026-11-10).** Ruling G89-49 a adds Russia (Q159) and Ukraine
     (Q212) to VII.32's row. The text is added. The countries cannot sit on the row's two-place label
     (Netherlands · Pennsylvania and beyond) under the validator's place-label rule, and changing the
     frozen label is not in the ruling. Waits for a place-label decision: a rule that allows more
     than two places, or a ruling to change the label. Owner: the place-label work.
-182. **Two links with a candidate secondary quote (2026-11-10).** Widely Accepted needs a secondary
+183. **Two links with a candidate secondary quote (2026-11-10).** Widely Accepted needs a secondary
     quote. Each candidate below was added after the slice reviews closed and the coordinator ruled
     it out of this release, so both links enter at Inferential-Thin. For the follow-up chunk, under
     a fresh review.
@@ -1687,7 +1704,7 @@ it, never by deleting it.
       `raw/hamilton1901.txt`. URL:
       https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt (accessed
       2026-11-10).
-183. **New rows marked living with no dated source (2026-11-10).** Ten new entries are marked living
+184. **New rows marked living with no dated source (2026-11-10).** Ten new entries are marked living
     with livingEvidence graded "none (no dated item after 2010 found)". Each wants a dated
     present-day source to grade CD or CR. Owner: P2-V's follow-up.
     - kongo-christianity-after-1650: a dated statement of the Catholic Church in northern Angola and
@@ -1709,19 +1726,19 @@ it, never by deleting it.
       and Croatia.
     - arab-evangelical-churches: a dated item from the National Evangelical Synod of Syria and
       Lebanon or the Evangelical Church of Egypt.
-184. **VIII.52 runs to 1911, past era 9's end (2026-11-10).** Open. The sweep record flags it
+185. **VIII.52 runs to 1911, past era 9's end (2026-11-10).** Open. The sweep record flags it
     (section 10) and no gate question covers it.
-185. **Two North Europe breaks stay open (2026-11-10).** The Scottish church after 1650 and the
+186. **Two North Europe breaks stay open (2026-11-10).** The Scottish church after 1650 and the
     Swedenborgians after 1815 have no entry. The ruling left both open. For a North Europe pass,
     with the Toleration churches of Bohemia and Moravia in "Eras 8 and 9 rulings, Moravians, Arab
     evangelicals and Mennonites holds" (2026-11-10).
-186. **Held items whose sources the Library now holds (2026-11-10).** The Library's batch 2 (PR
+187. **Held items whose sources the Library now holds (2026-11-10).** The Library's batch 2 (PR
     #1579) vendored sources for ME-20, ME-6 (the Dukhobors), RV-7, AP7, AP15, AP12 (in part), AP11,
     LA8-6, LA8-8 and LA8-9. All stay held as ruled; their holds are in the region items "Eras 8 and
     9 rulings, Africa holds" to "Eras 8 and 9 rulings, Moravians, Arab evangelicals and Mennonites
     holds" (2026-11-10). A follow-up chunk enters them after this release. What the batch found:
     "What the Library's second wants batch filled" (2026-11-10).
-187. **Years logged for other eras' owners (2026-11-10).** Holds that name an owner outside this
+188. **Years logged for other eras' owners (2026-11-10).** Holds that name an owner outside this
     sweep. Nothing is drafted for them.
     - **The Coptic church, c. 1300-1517 (the Mamluk years)**, between
       coptic-christianity-fatimid-to-mamluk and the-coptic-church-under-the-ottomans (G89-8 a). AF-2
@@ -1735,7 +1752,7 @@ it, never by deleting it.
       the era 10 owner.
     - **The Bulgarian union of 1860-61 as a line in VIII.28** (G89-51 a). Owner: the owner of
       VIII.28, or the era 9 part of RV-3.
-188. **The VOC lineage question put to Mark (2026-11-10).** G89-27 a names no successor for the
+189. **The VOC lineage question put to Mark (2026-11-10).** G89-27 a names no successor for the
     Reformed church of the VOC world. The record marks the descent from it to the Protestant Church
     of the Moluccas as [S]. Aritonang ch. 9 describes Joseph Kam's work from 1815 as a
     rehabilitation of the same church, which reads as continuity, but VIII.26's own subject is
@@ -1745,7 +1762,7 @@ it, never by deleting it.
     - Yes: a "continued as" link, at most Widely Accepted, with the 1815-1861 gap named.
     - No: AP5 stands without a successor and the gap stays open. The living mark waits for a dated
       record of the Protestant Church of the Moluccas.
-189. **Small questions the eras 8 and 9 rulings leave open (2026-11-10).** None changes what
+190. **Small questions the eras 8 and 9 rulings leave open (2026-11-10).** None changes what
     entered. Each is a choice the ruling did not name. Owner: the coordinator, for Mark where
     marked.
     - VII.2 (Danish-Halle mission) keeps its dates, 1675-1750, as the ruling names no date change.
