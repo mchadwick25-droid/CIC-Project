@@ -1256,3 +1256,32 @@ VIII.52's 1911 end and the two North Europe breaks, which stay open.
 
 **Next action.** A follow-up chunk enters the held items whose sources the Library's batch 2 now
 holds. Full entry: Atlas World Map Decision-Log, "P2-G89b carried out".
+
+---
+
+## 2026-11-10 — The people layer: what the rulings left open (P2-P)
+
+**How it was reached.** P2-P builds the map's People view from the gap-sweep rulings (2026-11-09,
+"People on the map", and P4b and P4c in `Rulings_2026-11-09.md`). The worker brought the coordinator
+two questions the rulings do not decide, plus the readings it drew from them. The coordinator took
+every recommendation and confirmed the readings (2026-11-10). These are coordinator calls. Mark judges
+the result on the screenshots (https://claude.ai/artifact/RdBJgr232pqBZcJmSotJY3) and may override any of them.
+
+**Decided (coordinator).**
+- **Which three show (Q1 b).** When a tradition names more than three people, its person entries
+  come first, then the earliest named voices, drawn in date order. A "+N more" tag opens the card,
+  which lists everyone. Shown with: the first three by date; the three with the most words held.
+- **Entries and voices (Q2 a).** A person entry gets the person mark, a bold name and its own card.
+  A named voice gets a small dot; its name shows at close zoom, and a tap opens the tradition's card
+  at its People list. Shown with: one mark for both; person entries only on the map.
+- **The Basil link.** `desert-monasticism--iconophile-byzantine-monasticism` concerns Basil, who is
+  told within neither end. The People view leaves it out, and Basil's card lists it (Open-Gaps 193).
+- **Open-Gaps 174** (showing declared river reasons) stays outside P2-P.
+
+**Readings confirmed (coordinator).** Release 33 has 39 person entries. A row holds every name in a
+tradition's `people` (P4b): person entries and named voices. A person told within no tradition sits
+at their own year and lane, as gap stories do (P4c). In the Traditions view, a link with a person end
+is drawn from that person's home tradition; it is not drawn if that makes a loop, and it shows only in
+the People view if the person has no tradition. The People view draws only links that touch a person,
+from the person's mark to the other tradition's place, shown as a small ring. The switch opens on
+Traditions at every visit and is not remembered.
