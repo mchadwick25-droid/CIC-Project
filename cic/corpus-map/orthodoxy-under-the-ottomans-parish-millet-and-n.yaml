@@ -53,6 +53,16 @@ works:
 
     '
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894--die-haupturkunden-the-athos-documents-of-1498-to-1574
+  work: 'Die Haupturkunden: the Athos documents of 1498 to 1574'
+  author: athos-monasteries
+  locus: documents XIII-XV (contents at about OCR lines 191-195; Meyer at about 3718-3756);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The patriarchal decrees of 1498 and 1574 and the monk Pachomios's tract of about 1530
+    on the Athos community's own life. Within this entry's window (1453-1650).
+  source_file: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin
   work: John Cananus, De bello Constantinopolitano, Greek with Latin
   author: cananus

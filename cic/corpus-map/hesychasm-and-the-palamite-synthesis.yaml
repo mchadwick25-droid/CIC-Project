@@ -13,6 +13,16 @@ works:
     census calls the anti-Palamite side largely untranslated; here it is in Greek with a Latin
     version.
   source_file: palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+- row_id: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894--die-haupturkunden-the-typikon-of-manuel-ii-for-the-holy-mountain-1394
+  work: 'Die Haupturkunden: the typikon of Manuel II for the Holy Mountain (1394)'
+  author: athos-monasteries
+  locus: document XI (contents at about OCR line 185; Meyer's introduction at about 3298);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: needs-ruling
+  note: The Holy Mountain's governing rule of 1394. Within this entry's window (1300-1400)
+    and its region; whether a typikon belongs on the hesychast entry is for the tree to rule.
+  source_file: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt
 - row_id: palamas_opera-omnia-pg151-grc-lat_migne1865--barlaam-of-calabria-opuscula-greek-with-latin-in-migne-pg
   work: Barlaam of Calabria, Opuscula, Greek with Latin, in Migne PG 151
   author: barlaam

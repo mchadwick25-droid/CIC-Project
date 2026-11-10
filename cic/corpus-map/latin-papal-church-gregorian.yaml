@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: latin-papal-church-gregorian
 works:
+- row_id: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897--the-observances-in-use-at-barnwell-priory-1295-1296
+  work: The Observances in use at Barnwell Priory (1295-1296)
+  author: barnwell-priory
+  locus: the observances after Clark's introduction; add 12 to OCR line numbers for this file's
+    own
+  role: tradition
+  confidence: provisional
+  note: The canons' own rule of daily life, written in 1295-1296. Within this entry's window
+    (1049-1300).
+  source_file: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
 - row_id: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911--quellen-zur-geschichte-des-papsttums-und-des-romischen
   work: Quellen zur Geschichte des Papsttums und des römischen Katholizismus (Mirbt, 3rd ed.),
     documents of 1300-1517
