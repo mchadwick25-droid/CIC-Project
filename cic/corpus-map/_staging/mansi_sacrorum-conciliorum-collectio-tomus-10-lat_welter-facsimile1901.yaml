@@ -7,6 +7,13 @@ authors_ruled:
       Mansi tom. 10 prints the African synodal letters of 646; conciliar acts, no individual
       author.
     from_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+  heraclius:
+    kind: metadata-omission
+    evidence: >
+      The file header credits the conciliar acts as anonymous; the Ecthesis read at the Lateran
+      Council of 649 is headed as issued by "nostro domino ... Heraclio" (file line about 100126),
+      the emperor Heraclius (r. 610-641), with its drafting by the patriarch Sergius.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
 
 assignments:
   - row_id: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901--african-synods-646
@@ -20,3 +27,17 @@ assignments:
     note: >
       The African church's last collective voice in the window; shared ground with the
       Heraclian entry, so provisional.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901--ecthesis-heraclii
+    work: "The Ecthesis of the emperor Heraclius (638), Latin and Greek, as read into the Lateran Council of 649, Secretarius III"
+    author: heraclius
+    locus: "file lines about 100110-100680 (cols. 991-998): Martin's order that the Ecthesis be read, then 'Expositio orthodoxae fidei, facta a Deo conservando et piissimo nostro domino ... Heraclio'; the editors' notice of it at about 71259"
+    atlas_ids:
+      - byzantine-imperial-church-heraclian-iconoclast
+    role: tradition
+    confidence: provisional
+    note: >
+      The imperial statement of faith forbidding talk of one or two operations in Christ and
+      confessing one will, drafted by the patriarch Sergius and issued in Heraclius's name. A
+      document issued in the emperor's own name, preserved in the acts of the council that
+      condemned it. Latin readable with long-s and ligature noise; the Greek column is garbled.
+      Second witness for quotation until checked against the page image.

@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: georgian-christianity
 works:
+- row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--introduction-et-tables
+  work: 'Brosset, Histoire de la Georgie: Introduction et Tables des matieres (French), the
+    editor''s introduction with charter extracts, notes and the index'
+  author: brosset
+  locus: whole file; the introduction (roman-paged) from file line 115, the tables and index
+    after it; the chronicle text itself is not in this volume
+  role: context
+  confidence: provisional
+  note: 'A nineteenth-century scholar''s study of the Georgian chronicles and charters, French
+    only. Secondary: a finding aid to the chronicle and the charters, and a witness to how
+    they were read in the nineteenth century, never the chronicle''s own voice. The charter
+    extracts it quotes are not mapped work by work.
+
+    '
+  source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
 - row_id: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903--life-of-nino
   work: The Life of St Nino (Georgian), with the Armenian Version of Djouansher
   author: georgian-life-of-nino
@@ -29,16 +44,6 @@ works:
 
     '
   source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
-- row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang
-  work: Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)
-  author: kartlis-tskhovreba
-  locus: the early reigns; Vakhtang indexed at 'Gourgaslan'
-  role: transmission
-  confidence: provisional
-  note: 'Medieval chronicle memory of the 5th-century king; retrospective, French only.
-
-    '
-  source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
 - row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-georgian
   work: The Syriac Life of Peter the Iberian (Raabe, 1895)
   author: life-of-peter-the-iberian

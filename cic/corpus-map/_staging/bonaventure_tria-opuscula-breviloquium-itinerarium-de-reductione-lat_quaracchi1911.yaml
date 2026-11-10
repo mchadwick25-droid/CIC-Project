@@ -1,0 +1,16 @@
+source_file: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt
+
+assignments:
+  - row_id: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911--tria-opuscula
+    work: "Bonaventure, Breviloquium, Itinerarium mentis in Deum and De reductione artium ad theologiam, Latin (Quaracchi 1911)"
+    author: bonaventure
+    locus: "the three works after the preface; the Itinerarium at OCR lines 12226-14809; De reductione from 15363; add 12 for this file's own line numbers"
+    atlas_ids:
+      - the-franciscan-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      Three works of the Franciscan Minister General's own, in the Quaracchi critical text: a
+      summary of theology, the mind's journey into God written on La Verna (1259), and a short
+      treatise on learning. Primary original-language voice; readable Latin, quote after checking
+      the page image.

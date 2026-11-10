@@ -44,3 +44,30 @@ all stand. Stage 1 still starts after the pilot launches, desert first.
 
 When Stage 1 starts, rewrite `Design.md` §7 and §10 (hosting) to the new home. Full record:
 `Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`.
+
+## 2026-11-10 — Church Family Tree wants, batch 1: the later-worlds people gate
+
+**Charter (Mark, 2026-11-10).** A Library thread to find the sources the tree needs, public domain
+in any language. The wants list is `CFT-Wants.md` in this folder. It is rendered for Mark as an
+Artifact.
+
+**Done.** Seven files vendored: Pamphilus's Apology (Lommatzsch 1846, and Migne PG 17), Priscillian
+(CSEL 18), Francis (Robinson 1906 and the 1904 Opuscula), Bonaventure (Salter 1904 and Quaracchi
+1911). For each, the rights were read on the archive.org record, the title page was read, and the
+work was located inside. Truncation was checked two ways: the byte count against the host's listed
+size, and the end of the volume read. The Ecthesis was found already held in Mansi X and is now
+shelved. Shelf defects from Open-Gaps were fixed where the fix was the Library's own; two
+cross-world moves are listed for the coordinator.
+
+**Decided here.** Where a text was in two scans, both are vendored if one scan is garbled where the
+other is clean (the Apology: Lommatzsch's end of Book I is garbled, Migne's is clean). The large
+Quaracchi Bonaventure volumes (4-6 MB) were located but not vendored, because the English Legenda
+and the 1911 Latin opuscula serve the want. Each is a seed row.
+
+**Searches.** Sonnet workers searched in their own scratch directories; the coordinator re-read every
+host record, title page, boundary and ending before vendoring. No model was called outside this
+conversation. Nothing was paid for.
+
+### Next action
+
+Batch 2, on a fresh branch from main: the eras 8-9 holds and the Brosset chronicle volumes.

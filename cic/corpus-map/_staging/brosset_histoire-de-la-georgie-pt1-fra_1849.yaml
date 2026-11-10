@@ -1,31 +1,26 @@
 source_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
 
 authors_ruled:
-  kartlis-tskhovreba:
-    kind: anonymous
+  brosset:
+    kind: metadata-omission
     evidence: >
-      The Georgian chronicle cycle (Kartlis Tskhovreba) is anonymous and composite; the
-      edition names its translator.
+      The file header credits the chronicle, but the volume is the work of Marie-Felicite
+      Brosset, the nineteenth-century editor and translator; its own
+      title page reads "Introduction et Tables des matieres" (file line 83).
     from_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
 
 assignments:
-  - row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang
-    work: "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)"
-    author: kartlis-tskhovreba
-    locus: "the early reigns; Vakhtang indexed at 'Gourgaslan'"
+  - row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--introduction-et-tables
+    work: "Brosset, Histoire de la Georgie: Introduction et Tables des matieres (French), the editor's introduction with charter extracts, notes and the index"
+    author: brosset
+    locus: "whole file; the introduction (roman-paged) from file line 115, the tables and index after it; the chronicle text itself is not in this volume"
     atlas_ids:
       - georgian-christianity
-    role: transmission
+      - the-georgian-golden-age
+    role: context
     confidence: provisional
     note: >
-      Medieval chronicle memory of the 5th-century king; retrospective, French only.
-
-  - row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang--voice
-    work: Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)
-    author: kartlis-tskhovreba
-    locus: the early reigns; Vakhtang indexed at 'Gourgaslan'
-    atlas_ids:
-    - the-georgian-golden-age
-    role: tradition
-    confidence: provisional
-    note: A medieval chronicle history of Georgia, in a French translation. Placed on the medieval window; the date of the compilation is not checked.
+      A nineteenth-century scholar's study of the Georgian chronicles and charters, French only.
+      Secondary: a finding aid to the chronicle and the charters, and a witness to how they were
+      read in the nineteenth century, never the chronicle's own voice. The charter extracts it
+      quotes are not mapped work by work.

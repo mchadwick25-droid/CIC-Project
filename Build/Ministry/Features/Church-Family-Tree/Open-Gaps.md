@@ -1304,8 +1304,32 @@ it, never by deleting it.
     - Wanted for the Library thread, from the drafts: a Patrick chronology study; Justinian's Novel
       131 and the acts of 553; Cuthbert's letter on Bede's death; a source for Grotius's
       imprisonment; Mirbt's Dictatus heading in a clean scan.
-168. **The held people the Library's first batch changes (2026-11-10).** PR #1577 filled the wants
-    in "The later-worlds people held, with their reasons" (2026-11-10) for Pamphilus, Bonaventure
+168. **What the Library's first wants batch filled (2026-11-10).** For the wanted texts named in
+    "The later-worlds people held, with their reasons" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Filled: Pamphilus's Apology for Origen, Book I (Lommatzsch 1846; Migne PG 17 as a second
+      witness); Priscillian's Wurzburg tractates (CSEL 18); Francis's writings (Robinson 1906, and the
+      Latin Opuscula of 1904); Bonaventure's Legenda maior (Salter 1904) and three Latin works
+      (Quaracchi 1911).
+    - Already held, now shelved: Heraclius's Ecthesis, in Mansi X, read into the Lateran Council of 649.
+    - Still owed by Mark's questions: Pamphilus (B, a book written jointly), Francis and Priscillian (A,
+      founders). Bonaventure and Heraclius now pass answer C.
+    - No own text survives, or none in the public domain was found: Mani, Kaleb, Valdes, Mesrop,
+      Paul of Samosata, Basilides, Valentinus, Maximilla, Hilarion, Tauler.
+169. **Shelf defects fixed, and two left for a cross-world ruling (2026-11-10).** These were in
+    "Shelf and data defects the clean count found" (2026-11-10) and "Library shelf moves the
+    release points to" (2026-11-10).
+    - Fixed: Hippolytus's Refutation is now context on the Montanist and Ebionite shelves;
+      Nikodemos's Synaxaristes is off the 1453-1650 shelf; the PO17 loci are split by line; the
+      Brosset file is relabelled as the Introduction volume; Busch is tradition for the Devotio
+      Moderna; Love's Mirror is on the Carthusian shelf; Bell Part II is on the Melitian shelf.
+    - Open, for the coordinator: whether Bell Part II leaves the built `desert` shelf, and whether
+      the Pedalion (1800) leaves the 1453-1650 shelf.
+    - Not the Library's: the people rows' `year` and the Ephrem alias (census owner); the Theophilus
+      row (a census question).
+    - Queued: the general loci pass for multi-work volumes, and the Georgian chronicle text volumes.
+170. **The held people the Library's first batch brings in (2026-11-10).** PR #1577 filled the wants
+    ("What the Library's first wants batch filled", 2026-11-10) in "The later-worlds people held, with their reasons" (2026-11-10) for Pamphilus, Bonaventure
     and Heraclius, who now have entries (Decision-Log, "Three held people come in once the Library
     holds their words"). Francis and Priscillian's own words are now held too; they stay held as
     founders. The rest of that list stands: the Library found no own text for Mani, Kaleb or Valdes,
