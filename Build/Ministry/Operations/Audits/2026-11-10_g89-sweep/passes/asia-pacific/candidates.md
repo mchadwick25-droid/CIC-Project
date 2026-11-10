@@ -1,7 +1,7 @@
 # P2-G89 eras 8 and 9 sweep — Asia and the Pacific (1650–1906), every river
 
 Scratch research for the gate, not census copy. Written as it went; the river table and the
-ranking are at the top once the pass ended (see "River table" and "Ranked list" below, added last).
+ranking were added at the top once the pass ended.
 
 **Verification key.** **V** = I opened the item in this run (a Library file in `cic/texts/`, or a
 public-domain edition opened raw with curl) and confirmed the detail; the locus is given. **V-s** = a
@@ -28,9 +28,56 @@ Ceylon or Sri Lanka, Burma or the Karen, Siam (outside era 6), Taiwan or Formosa
 Tahiti, Hawai'i (as a place), Ringatū or Pai Mārire, the Boxer year, Goa after era 7, the Padroado,
 Kangxi, Schall or Verbiest, the Russian mission in Peking, or the Missions Étrangères de Paris.
 
+## River table (1650–1906)
+
+| River | Roster has (eras 8–9, region) | Gap | Candidate(s) |
+|---|---|---|---|
+| Catholic | VII.29, VIII.39 (Philippines); VIII.21 (Korea to 1886); VIII.45 (Japan from 1865); VII.19 and VIII.29 (Rome-centered, Mediterranean) | China 1650–1906 (logged break); Japan's hidden centuries 1650–1865 (logged break); Vietnam (absent in every era); Ceylon and Goa (absent after era 7); Korea 1886–1906; the Cofradía de San José | AP2, AP3, AP4, AP6, AP15, AP10; cross-region AP-X1 (Jesuits), AP-X2 (MEP) |
+| Orthodox (Eastern and Oriental) | VIII.31 names the Japan mission (from 1861) and VIII.45 Nikolai; the Syriac Orthodox tie of Kerala only from 1836 (VIII.27) | Kerala's Syriac Orthodox party 1665–1815 (in AP1); the Russian mission in Peking and the Albazinians | AP1, AP11 |
+| Protestant and Evangelical (incl. Anglican) | VIII.7 (Serampore, Pacific Islands, China coast, CIM); VIII.26 (Indonesia from 1861); VIII.27 (hill revivals); VII.2 names Tranquebar; VIII.41 names South Australia | The VOC churches (Moluccas, Batavia, Ceylon) 1650–1815; the Tamil Lutheran church after 1750; the Karen Baptists; colonial Australia and New Zealand; Korea 1884–1906 | AP5, AP8, AP9, AP12, AP15; AP14 (carried in VIII.7) |
+| Syriac and other Eastern churches | VI.18 (to 1665); VIII.27 (Mar Thoma and Malankara from 1836) | St Thomas Christians 1665–1815 (logged break); the Chaldean Syrian body at Thrissur | AP1, AP7 |
+| Eastern Catholic | none in eras 8–9 for the region | The Catholic St Thomas Christians (Romo-Syrians) 1665–1906 | AP1, AP7 |
+| Independent, indigenous | VIII.44 (Taiping); VIII.39 (Aglipayan church, 1902); VIII.26 (Sadrach); VIII.45 (Kakure, named) | Japan's hidden Christians as a church without clergy; Māori prophetic churches (Pai Mārire, Ringatū); the Cofradía de San José | AP3, AP13, AP10 |
+
+## Ranked list (importance to the eras' global story)
+
+| Rank | ID | Candidate | Era | Recommendation |
+|---|---|---|---|---|
+| 1 | AP2 | Chinese Catholicism 1650–1906, court mission, Rites, hidden provinces (logged break) | 8–9 | enter; China-church row, Jesuits and Rites as lines |
+| 2 | AP1 | St Thomas Christians 1665–1815, two obediences (logged break) | 8 | enter |
+| 3 | AP4 | Vietnamese Catholicism 1650–1906 | 8–9 | enter (two segments) |
+| 4 | AP3 | Japan's hidden Christians 1650–1865 (logged break) | 8–9 | enter |
+| 5 | AP5 | VOC Protestant churches: Moluccas, Batavia, Ceylon 1650–1815 | 8 | enter (or line in VIII.26) |
+| 6 | AP6 | Catholics of Ceylon under the Dutch and the Goa Oratory 1658–1806 | 8 | enter (or a wider South Asian Catholic row) |
+| 7 | AP7 | Catholic St Thomas Christians and the Thrissur body 1815–1906 | 9 | hold; then extend AP1 |
+| 8 | AP13 | Māori prophetic movements 1862–1906 | 9 | hold for a Māori source |
+| 9 | AP9 | Karen Baptists 1828–1906 | 9 | named line in VIII.7 |
+| 10 | AP8 | Tamil Lutheran church after Ziegenbalg | 8 | named line in VII.2 |
+| 11 | AP10 | Cofradía de San José 1832–41 | 9 | hold; then line in VIII.39 |
+| 12 | AP15 | Korea 1884/1886–1906 | 9 | hold; then named lines |
+| 13 | AP12 | Colonial Australia and New Zealand churches | 9 | hold; then lines in parent rows |
+| 14 | AP11 | Russian mission in Peking, Albazinians | 8–9 | hold |
+| 15 | AP14 | Pacific Christian kingdoms | 9 | carried by VIII.7 |
+| — | AP-X1 | Jesuit era 8 continuation (cross-region) | 8 | decide at merge; Asia evidence says no |
+| — | AP-X2 | MEP / Propaganda row (cross-region) | 8–9 | carrier lines only |
+
+## How the logged breaks were answered
+
+- **St Thomas Christians, 1665–1815:** a real, unique gap. Answered by AP1 (enter, era 8 row, both
+  parties). Two community texts of the window are in the Library (Whitehouse App. D and App. E).
+- **Catholic missions in China, 1650–1793, with the Rites controversy:** the roster is empty for
+  China's Catholics from 1650 to 1906, not only to 1793. Mark's test applied: the Jesuits are one
+  carrier (the court, 1650–1773); the Rites were decided by Propaganda, the Holy Office and two
+  popes; after 1724 the provincial church ran under Chinese priests, Lazarists and MEP. Right home:
+  a China-church row (AP2) with the Jesuit court mission and the Rites as named lines. Not VI.11
+  continued (it would end at 1773), and not an MEP/Propaganda row (AP-X2: a carrier, not the
+  subject). A worldwide Jesuit era 8 row is a cross-region choice (AP-X1).
+- **Japan's hidden Christians, 1650–1865:** a real, unique gap. Not the Jesuits' story; not
+  VIII.45's (which starts on 17 March 1865). Answered by AP3 (enter).
+
 ---
 
-## Candidate sections (in the order assessed; the ranking is below)
+## Candidate sections (in the order assessed; the ranking is above)
 
 ### G89-AP1 — The St Thomas Christians, 1665–1815: two obediences (logged break)
 
@@ -634,4 +681,52 @@ Kangxi, Schall or Verbiest, the Russian mission in Peking, or the Missions Étra
 - **Recommendation:** named lines (Catholic: end of VIII.21's story; Protestant: a line in VIII.7),
   hold for sources.
 - **Gate question:** (a) named lines; (b) hold. **Recommended:** (b), then (a).
+
+### G89-AP-X1 — Cross-region question: does the Society of Jesus need an era 8 continuation?
+
+- **Why it is asked here:** the China break was logged as "tied to the Jesuits". VI.11 ends at 1650;
+  VII.19 tells the 1759–73 expulsions and the 1814 restoration as a European story.
+- **What the Asia pass found:** in Asia the Jesuits after 1650 are carriers inside stories whose
+  subject is a local church: the Beijing court (AP2), the Vietnamese communities and their
+  "ex-Jesuit" party after 1773 (AP4, Dutton 2017, V), the Madurai and Malabar-rites missions in
+  Tamil India [S], and the Carmelite-Jesuit rivalry over the St Thomas Christians (AP1, App. E, V:
+  "these two religious orders oppressed our forefathers"). None of these needs a Jesuit row to be
+  told.
+- **Recommendation:** no Jesuit continuation row from this region. If the Latin America pass makes
+  the case for one (the Paraguay reductions), Mark rules it once for all regions at the merge.
+- **Gate question:** (a) no era 8 Jesuit row; the order appears as named lines in the local rows
+  and VII.19; (b) an era 8 Jesuit row, 1650–1814, worldwide; (c) decide at the merge.
+  **Recommended:** (c), leaning (a) on the Asian evidence.
+
+### G89-AP-X2 — Cross-region question: a Missions Étrangères de Paris / Propaganda row?
+
+- **Four marks (as a Catholic society, not a movement outside church bodies):** beginning — 13 May
+  1658, Propaganda names Pallu and Lambert de la Motte vicars apostolic for "les Missions de Chine
+  et les pays voisins" (V, Launay 1894, I, lines 3407–3415); carriers — secular priests of the Paris
+  seminary and the vicars apostolic; name — Société des Missions-Étrangères; recognition — Launay
+  1894 (V; an in-house history, pre-1930). A modern study was not verified.
+- **Mark's test:** like the Jesuits, it is one body moving across many countries (Siam, Tonkin,
+  Cochinchina, Sichuan, Korea, Japan). It is "tied to other movements" in exactly the way he warned
+  about: it is the carrier, not the subject, of AP2, AP4, VIII.21 and VIII.45.
+- **Recommendation:** out of scope as a row; name it as a carrier line in AP2 and AP4 (and VIII.21,
+  VIII.45 already name its priests' work implicitly [S]).
+- **Gate question:** (a) carrier lines only; (b) its own era 8–9 row. **Recommended:** (a).
+
+### Checked and out of scope, or carried
+
+- **Armenian merchant churches in India and Southeast Asia** (Madras, Calcutta, Dhaka, Singapore):
+  VI.28 says the New Julfa network "seeded Armenian communities and churches from India to the
+  Mediterranean"; Seth, *History of the Armenians in India* (1897), is vendored and mapped to
+  VI.28, VII.24 and VIII.32. Carried in outline; a named line is the Middle East pass's call.
+- **Taiping:** carried by VIII.44.
+- **Philippine Catholicism and the Aglipayan church:** carried by VII.29 and VIII.39.
+- **Japan 1865–1906 (Catholic re-emergence, Protestant bands, Nikolai's Orthodox mission):**
+  carried by VIII.45 (and VIII.31 names the Japan mission).
+- **Batak and Javanese churches 1861–1906:** carried by VIII.26.
+- **Mar Thoma reform, Malankara church, Khasi-Mizo-Naga revivals:** carried by VIII.27.
+- **Protestant China coast, the CIM, Pastor Xi; Serampore; Pacific teachers:** carried by VIII.7.
+- **Dalit mass movements (1870s on):** era 10 sweep GS-A3 dated their documented phase to era 10;
+  their era 9 roots are not separately sourced here [S]. Left to the era 10 decision.
+- **The Boxer year (1900):** belongs inside AP2's era 9 half (Catholic) and VIII.7 (CIM); no row of
+  its own.
 

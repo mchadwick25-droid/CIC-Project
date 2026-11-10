@@ -14,3 +14,4 @@
 - [x] ME-10 Polish-Lithuanian Catholicism (CE Poland V); ME-11 Arab Evangelicals (Jessup V)
 - [x] ME-12..ME-22 named lines/routings written
 - [x] River table, ranking, breaks, notes written. Next: candidates.json, summary.md
+- [x] candidates.json, summary.md written. DONE

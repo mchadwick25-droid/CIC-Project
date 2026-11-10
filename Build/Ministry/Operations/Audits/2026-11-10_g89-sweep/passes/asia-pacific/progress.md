@@ -11,3 +11,4 @@
 - [x] AP2 China, AP3 Japan, AP4 Vietnam written.
 - [x] AP5 VOC, AP6 Ceylon, AP7 Syro-Malabar era 9 written.
 - [x] AP8-AP15 written (named lines / holds / carried).
+- [x] AP-X1, AP-X2, carried list written. Next: river table + ranking at top, json, summary.
