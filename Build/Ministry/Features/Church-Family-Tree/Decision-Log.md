@@ -838,3 +838,20 @@ out".
   put to Mark is to leave both as they are. That changes nothing, and both stay open in
   Open-Gaps 140.
 
+---
+
+## 2026-11-10 — Rows labeled "N. America" get countries from their own text
+
+Mark chose option (c). A row whose place label includes "N. America" lists a modern country only
+where its own text names that country or a place in it. Full entry: Atlas World Map Decision-Log,
+"Change order: modern countries for rows labeled 'N. America'". The work ships as data release 26
+after review.
+
+---
+
+## 2026-11-10 — Data release 26: "N. America" rows gain their countries
+
+30 rows gain the United States, Canada or Mexico, each from a sentence in the row's own text. It
+was reviewed in two rounds and approved to proceed. Full entry: Atlas World Map Decision-Log, "Data
+release 26".
+

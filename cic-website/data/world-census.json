@@ -21,8 +21,8 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, or \"cross-church movement\". A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there.",
   "schemaVersion": 3,
   "release": {
-   "number": 25,
-   "date": "2026-11-09"
+   "number": 26,
+   "date": "2026-11-10"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
   "license": {
@@ -50742,6 +50742,18 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -51718,7 +51730,14 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -52307,7 +52326,14 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -52480,7 +52506,14 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -52621,7 +52654,14 @@
    "end": 1906,
    "region": "N. America",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -52767,6 +52807,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -53197,6 +53243,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -53740,6 +53792,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -53884,6 +53942,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -55082,6 +55146,18 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -55204,6 +55280,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -55320,6 +55402,12 @@
      "place": "Britain",
      "placeId": "Q23666",
      "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -56937,6 +57025,12 @@
      "countryId": "Q55",
      "place": "Netherlands",
      "placeId": "Q55"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -58973,6 +59067,12 @@
      "countryId": "Q801",
      "place": "Israel",
      "placeId": "Q801"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -59269,7 +59369,20 @@
    "end": 2010,
    "region": "N. America and Mexico, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Mexico",
+     "countryId": "Q96",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America",
     "Latin America"
@@ -59432,6 +59545,18 @@
      "countryId": "Q884",
      "place": "Korea",
      "placeId": "Q483134"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Mexico",
+     "countryId": "Q96",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -59543,7 +59668,14 @@
    "end": 1993,
    "region": "N. America",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -61130,6 +61262,12 @@
      "countryId": "Q145",
      "place": "UK",
      "placeId": "Q145"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -61260,7 +61398,14 @@
    "end": 2010,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -61405,7 +61550,14 @@
    "end": 2010,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -61648,7 +61800,14 @@
    "end": 1970,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -61814,7 +61973,14 @@
    "end": 1918,
    "region": "N. America (urban, industrial)",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -61968,6 +62134,12 @@
      "countryId": "Q183",
      "place": "Germany",
      "placeId": "Q183"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -62124,7 +62296,14 @@
    "end": 2010,
    "region": "N. America, then global (digital)",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -62828,7 +63007,14 @@
    "end": 2010,
    "region": "N. America (upper South), then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -62975,7 +63161,14 @@
    "end": 2010,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -63263,6 +63456,12 @@
      "countryId": "Q419",
      "place": "Peru",
      "placeId": "Q419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -63414,6 +63613,12 @@
      "countryId": "Q145",
      "place": "UK",
      "placeId": "Q145"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
     }
    ],
    "regions": [
@@ -64028,7 +64233,14 @@
    "end": 2010,
    "region": "N. America, digital-native",
    "placeLabel": "N. America",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],
@@ -64741,7 +64953,20 @@
    "end": 2010,
    "region": "N. America, then global",
    "placeLabel": "N. America and beyond",
-   "modernCountries": [],
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
    "regions": [
     "North America"
    ],

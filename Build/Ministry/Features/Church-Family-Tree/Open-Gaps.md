@@ -919,3 +919,48 @@ it, never by deleting it.
       parent lane over the next stretch.** The new 4.5 lane shows this at 1906: "Catholics in
       Africa" sits a little above where its river arrives. Every lane born from a parent is drawn
       this way. Owner: Mark's call on whether to change it.
+141. **IX.48, American Orthodoxy, lists no modern country (2026-11-10).** Its place label reads
+    "North America", not "N. America", so the change order of 2026-11-10 (modern countries from each
+    row's own text, Mark's option c) did not reach it. Its country list stays empty, as the "N.
+    America" rows' lists were before. Whether the same rule applies to rows labeled "North America"
+    is Mark's call. Found by the Round 1 review of the N. America countries proposal (M-4).
+142. **Breaks in the timeline: churches that drop out between entries (2026-11-10).** Found by a scan
+    of data release 25 for years where a tradition has no entry. Mark ruled to log them, not sweep
+    them now (option c). He also asked that each be checked as unique, not a story another entry
+    already tells, as the Jesuits' worldwide work is one movement. Each break below was checked
+    against every row whose dates overlap it, by name, place and text. None is carried by another
+    entry. Each is a real gap in a frozen era, so filling it is a change order and needs its sources
+    found first.
+    - **Ethiopian church, 1650 to 1855.** VI.25 ends at Fasilides (1650) and VIII.49 starts at
+      Tewodros (1855). The Gondar period and the Zemene Mesafint have no entry. VIII.13 names
+      Ethiopia only for Cyril IV's mission there in the 1850s. Tied to the next item: the Ethiopian
+      church took its bishop from the Coptic patriarch.
+    - **Coptic church, 1517 to 1854.** No entry carries the Copts before Cyril IV (VIII.13). VI.18
+      names a Coptic patriarch only in passing.
+    - **Church of the East, 1650 to 1815.** VI.30 (the schism of 1552) ends in 1650 and VIII.40 starts
+      in 1815. This is the Syriac East river's only break.
+    - **St Thomas Christians of India, 1665 to 1815.** VI.18 ends after the Coonan Cross (1653). The
+      Halle and Moravian rows (VII.2, VII.4) and VIII.7 name India for Protestant missions only, not
+      this church.
+    - **Armenian church, 1441 to 1517.** V.21 ends with Etchmiadzin's restoration (1441) and VI.28
+      starts at the era line (1517). This is likely an era-boundary slip, not a missing story. Its
+      fix may be a date change on one of the two rows.
+    - **Georgian church, 1245 to 1660.** IV.15 ends in 1245, and nothing names the Georgian church
+      again until VII.20 at 1660 (which is the Church of England's "Georgian" era, not Georgia).
+      The Georgian church has no entry after 1245.
+    - **Catholic missions in China, 1650 to 1793, and the Chinese Rites controversy.** VI.11 (the
+      Society of Jesus) and VI.13c (Ming China) both end in 1650. VII.19 tells the Jesuits'
+      suppression of 1773 only as a European story. VIII.21 names Beijing only as where Yi Sung-hun
+      was baptized (1784). Tied to the Jesuits, so it may be best told as the Society of Jesus's
+      era 7 continuation, not as a separate Chinese row.
+    - **Japan's hidden Christians, 1650 to 1865.** VI.13b ends in 1650 and VIII.45 starts at their
+      discovery in 1865. They kept the faith without priests, so this is their own story, not the
+      Jesuits'.
+    - **Maronite church, 1517 to 1900.** V.22 ends at 1517. VII.23 names the Maronites only as an
+      earlier union with Rome, so they have no entry for four centuries.
+    - **Greek Catholics of Galicia, 1906 to 1946 (Sheptytsky's church).** VIII.38 ends in 1906 and
+      IX.21 starts in 1946. IX.70 says these churches are "a separate line", and none carries them
+      between the wars.
+    Also thin, though not empty: Latin America, 1492 to 1900, has three entries for four centuries
+    (VI.13d, VII.17, VIII.48). The 48 era 10 rows with no link from an earlier entry wait for P2-L10.
+    Owner: the eras 8 and 9 sweep (P2-G89), or a later timeline pass, once Mark rules on the scope.
