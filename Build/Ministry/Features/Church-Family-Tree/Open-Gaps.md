@@ -1328,7 +1328,15 @@ it, never by deleting it.
     - Not the Library's: the people rows' `year` and the Ephrem alias (census owner); the Theophilus
       row (a census question).
     - Queued: the general loci pass for multi-work volumes, and the Georgian chronicle text volumes.
-170. **What the Library's second wants batch filled (2026-11-10).** For the eras 8-9 rows held for
+170. **The held people the Library's first batch brings in (2026-11-10).** PR #1577 filled the wants
+    ("What the Library's first wants batch filled", 2026-11-10) in "The later-worlds people held, with their reasons" (2026-11-10) for Pamphilus, Bonaventure
+    and Heraclius, who now have entries (Decision-Log, "Three held people come in once the Library
+    holds their words"). Francis and Priscillian's own words are now held too; they stay held as
+    founders. The rest of that list stands: the Library found no own text for Mani, Kaleb or Valdes,
+    and none survives for the others (`Build/Ministry/Features/Source-Library/CFT-Wants.md`).
+    Wanted, from the drafts: an English rendering of the Apology, a clean text of the Ecthesis, a
+    primary source for Heraclius's letter disowning it, and a source for Bonaventure's birth year.
+171. **What the Library's second wants batch filled (2026-11-10).** For the eras 8-9 rows held for
     sources (`CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`). Full list:
     `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
     - Filled: ME-20 (Tolstoy 1885, 1894), ME-6 for the Dukhobors (their Living Book, 1909), RV-7
