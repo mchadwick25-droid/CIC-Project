@@ -262,6 +262,8 @@ const LINEAGE_HEADINGS = [
   ['argued against', 'in', 'Opposed By', 'conflict'],
   ['broke with', 'both', 'Broke With', 'conflict'],
   ['in contact with', 'both', 'In Contact With', 'contact'],
+  ['member of', 'out', 'Member Of', 'contact'],
+  ['member of', 'in', 'Members', 'contact'],
 ];
 
 // Major links (Decision-Log 2026-11-08): lineage and breaks by type, any other link by its outcome.

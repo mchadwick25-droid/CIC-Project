@@ -70833,7 +70833,7 @@ const MERGE_WINDOW=150;
 function mergeRaw(k,y){return k===0?1:Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));}
 function smoothstep(t){return t*t*(3-2*t);}
 
-const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'argued against':-1,'broke with':-1};
+const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'member of':0.5,'argued against':-1,'broke with':-1};
 const CONFIDENCE_WEIGHT={'Documented':1,'Widely Accepted':0.7,'Dominant Modern Reconstruction':0.7,'Contested':0.4,'Inferential-Thin':0.25};
 const DRIFT_MAX=90;
 const DRIFT_SATURATION=2;
@@ -71089,8 +71089,8 @@ function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
 const MAJOR_BY_TYPE=new Set(['gave rise to','continued as','broke with']);
 const isMajorEdge=e=>MAJOR_BY_TYPE.has(e.type)||(typeof e.outcome==='string'&&e.outcome.trim()!=='');
-const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact'};
-const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with'};
+const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact','member of':'contact'};
+const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with, member of'};
 {
   const defs=el('defs',{});
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{

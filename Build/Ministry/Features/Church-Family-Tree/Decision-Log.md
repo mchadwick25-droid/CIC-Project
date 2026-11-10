@@ -852,3 +852,13 @@ Era 10 runs in two parts by lane, as era 9 did:
 - part 1: the Protestant, Pentecostal, Cross-Family and Protestant-bridge lanes, 38 movements;
 - part 2: the rest, 33 movements.
 
+---
+
+## 2026-11-10 — A seventh link type, "member of"; Q2 and Q3 as recommended
+
+Mark: "do the right thing not the easy, so b", then "Q1 b only". Membership of a council or
+fellowship of churches is its own link type, "member of", and never major. A movement writer's own
+dated text counts like a church body's own text, capped at Widely Accepted. Each denomination's own
+statement in *Religious Bodies 1906* counts as its own text. Full entry: Atlas World Map
+Decision-Log, "Change order: a seventh link type".
+

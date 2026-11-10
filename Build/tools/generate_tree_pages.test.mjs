@@ -132,7 +132,7 @@ test('the about page counts movements and links from the census', () => {
   const c = structuredClone(census);
   withLinks(c, 12);
   const page = generate(c)('about.html');
-  assert.match(page, /The tree shows 12 links of six kinds\./);
+  assert.match(page, /The tree shows 12 links of seven kinds\./);
   assert.match(page, new RegExp(`The tree covers ${c.movements.length} movements\\.`));
 });
 

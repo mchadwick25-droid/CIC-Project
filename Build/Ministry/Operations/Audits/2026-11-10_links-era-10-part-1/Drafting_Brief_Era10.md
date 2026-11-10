@@ -64,3 +64,13 @@ fall after the Library's public-domain reach (about 1930). The recent-movement e
   and 9, named in their own text, are yours to draft.
 - **Between the two parts:** part 1 owns a relationship whenever a part 1 text names it. Part 2
   drafts a cross-part relationship only when the part 2 text alone names it.
+
+## Rulings of 2026-11-10 (Mark), after the part 1 drafts
+
+- **Membership:** use the seventh type, `member of` (method brief amendment of the same date).
+- **A movement writer's own dated text:** for a movement that never became a church body, a dated
+  text by a writer the entry itself names as a carrier counts as the movement's own text. It is
+  read online and capped at Widely Accepted.
+- **Religious Bodies 1906:** each denomination's own statement in the report counts as that
+  body's text. The Bureau's general statements do not.
+

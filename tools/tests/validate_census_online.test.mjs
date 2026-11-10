@@ -53,3 +53,13 @@ test("a secondary study confirmed online passes with its address and date", () =
   assert.deepEqual(errors({ confidence: "Dominant Modern Reconstruction", verification_state: "named-not-rechecked",
     sources: [{ ...secondary, url: "https://example.org/book", accessed: "2026-11-10" }] }), []);
 });
+
+// The seventh link type (Decision-Log 2026-11-10, "a seventh link type, member of").
+test("a member-of link passes", () => {
+  assert.deepEqual(errors({ type: "member of", confidence: "Widely Accepted", sources: [online, secondary] }), []);
+});
+
+test("a member-of link cannot carry an outcome", () => {
+  const e = errors({ type: "member of", confidence: "Widely Accepted", outcome: "The church joined the council.", sources: [online, secondary] });
+  assert.ok(e.some(l => l.includes("never major")));
+});

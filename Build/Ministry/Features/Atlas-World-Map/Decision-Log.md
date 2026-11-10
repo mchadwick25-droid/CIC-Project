@@ -13,6 +13,44 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — Change order: a seventh link type, "member of"; the era 10 drafters' questions ruled
+
+**Decided (Mark: "do the right thing not the easy, so b", then "Q1 b only").** The part 1 drafters
+of P2-L10 raised three method questions (the page "Era 10 Link Questions").
+
+- **Q1, membership: (b), a seventh link type, "member of".**
+  - A church that joined a council or fellowship of churches, on that body's own record, is drawn
+    as "member of", with the arrow from the member to the council.
+  - Membership claims no descent and no influence. It is never major and never carries
+    `outcome`.
+  - On the map it belongs to the contact family, labeled "In contact with, member of", and pulls
+    rivers together as contact does.
+  - Tree pages list it under "Member Of" and "Members". The method page now names seven kinds of
+    link.
+  - Options weighed: (a) draw membership as "in contact with" with a note; (b) a new type; (c) no
+    link. Mark chose the exact relation over the easier fit.
+- **Q2, a movement writer's own dated text: (a), as recommended.** For a movement that never became
+  a church body, a dated text by a writer the entry itself names as a carrier counts as the
+  movement's own text. It is read online and capped at Widely Accepted, like a church body's own
+  text.
+- **Q3, *Religious Bodies 1906*: (a), as recommended.** Each denomination's statement in the Census
+  Bureau's report was prepared by people in that denomination, and counts as its own text. The
+  Bureau's general statements do not. The report is public domain and goes on the wanted list for
+  the Library.
+
+**Heart reasoning.** "Do the right thing not the easy": a relation is named for what it is, even
+when that costs a change to the method.
+
+**Applied.**
+- `tools/validate-census.mjs` accepts the type and refuses an outcome on it. Tests are in
+  `tools/tests/validate_census_online.test.mjs`.
+- The map (`cft-website/index.html`) and the tree-page generator (`Build/tools/generate_tree_pages.mjs`)
+  are updated.
+- The method page text is in `Build/tools/tree_site_pages.json`.
+- The method brief is amended (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`).
+
+---
+
 ## 2026-11-10 — Change order: evidence for era 10 links
 
 **Decided (Mark: "b").** The recent-movement evidence rule (2026-11-08, "Change order: evidence

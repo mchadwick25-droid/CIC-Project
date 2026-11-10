@@ -20,7 +20,7 @@
    {
     "heading": "How the links work",
     "paragraphs": [
-     "Colored lines join traditions where the sources record a link. The tree shows {{linkCount}} links of six kinds.",
+     "Colored lines join traditions where the sources record a link. The tree shows {{linkCount}} links of seven kinds.",
      "Each link carries a confidence grade.",
      "Documented. Widely Accepted. Dominant Modern Reconstruction. Contested. Inferential-Thin.",
      "Each link also names its sources. A short quotation is checked word for word against the source text.",
@@ -76,9 +76,9 @@
     ]
    },
    {
-    "heading": "Six kinds of link",
+    "heading": "Seven kinds of link",
     "paragraphs": [
-     "Each link reads as a sentence: one movement, the kind of link, then the other movement. There are six kinds."
+     "Each link reads as a sentence: one movement, the kind of link, then the other movement. There are seven kinds."
     ],
     "terms": [
      {
@@ -104,6 +104,10 @@
      {
       "term": "In contact with",
       "text": "A recorded meeting, letter or shared event. It claims no influence. Living at the same time is not enough to count as contact."
+     },
+     {
+      "term": "Member of",
+      "text": "A church that joined a council or fellowship of churches, on that body's own record. The arrow points from the member to the council. Membership claims no descent and no influence."
      }
     ]
    },
