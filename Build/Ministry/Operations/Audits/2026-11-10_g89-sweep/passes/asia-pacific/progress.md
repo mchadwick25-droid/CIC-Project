@@ -4,9 +4,9 @@
 - [x] Listed roster rows eras 7-10 touching the region.
 - [x] Read relevant row texts.
 - [x] Library search (Whitehouse, Propaganda Collectanea, Raulin, Sebastiani found).
-- [ ] Breaks: St Thomas 1665-1815; China 1650-1793; Japan hidden 1650-1865.
-- [ ] Candidates by river.
-- [ ] candidates.json, summary.md.
+- [x] Breaks answered (AP1, AP2, AP3).
+- [x] Candidates by river.
+- [x] candidates.json written. summary.md: the Write tool refused it (subagent report-file guard), so the summary went back to the caller in the handback text.
 - [x] AP1 St Thomas 1665-1815 written to candidates.md.
 - [x] AP2 China, AP3 Japan, AP4 Vietnam written.
 - [x] AP5 VOC, AP6 Ceylon, AP7 Syro-Malabar era 9 written.
