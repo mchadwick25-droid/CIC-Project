@@ -1,0 +1,5335 @@
+{
+ "rows": {
+  "post-apostolic-house-church": [
+   {
+    "name": "Clement of Rome",
+    "year": 96,
+    "voice": 1,
+    "author": "clement_rome",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement"
+   },
+   {
+    "name": "Ignatius",
+    "year": 107,
+    "voice": 0,
+    "author": "ignatius",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--epistles-of-ignatius-seven-epistles-shorter-longer-and"
+   },
+   {
+    "name": "Polycarp of Smyrna",
+    "year": 110,
+    "voice": 2,
+    "author": "polycarp",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--epistle-to-the-philippians-polycarp"
+   },
+   {
+    "name": "Justin Martyr",
+    "year": 150,
+    "voice": 3,
+    "author": "justin_martyr",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho"
+   },
+   {
+    "person": "irenaeus-of-lyon"
+   }
+  ],
+  "greek-apologists-second-century": [
+   {
+    "name": "Quadratus",
+    "year": 124,
+    "voice": 0,
+    "author": "quadratus",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus"
+   },
+   {
+    "name": "Aristides of Athens",
+    "year": 125,
+    "voice": 1,
+    "author": "aristides",
+    "held": "anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher"
+   },
+   {
+    "name": "Justin Martyr",
+    "year": 150,
+    "voice": 2,
+    "author": "justin_martyr",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho"
+   },
+   {
+    "name": "Melito of Sardis",
+    "year": 170,
+    "voice": 5,
+    "author": "melito-of-sardis",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis"
+   },
+   {
+    "name": "Athenagoras of Athens",
+    "year": 177,
+    "voice": 3,
+    "author": "athenagoras",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians"
+   },
+   {
+    "name": "Theophilus of Antioch",
+    "year": 180,
+    "voice": 4,
+    "author": "theophilus",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus"
+   }
+  ],
+  "latin-apologists": [
+   {
+    "person": "tertullian-s-voice"
+   },
+   {
+    "name": "Minucius Felix",
+    "year": 205,
+    "voice": 1,
+    "author": "felix",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix"
+   },
+   {
+    "name": "Commodianus",
+    "year": 250,
+    "voice": 3,
+    "author": "commodian",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones"
+   },
+   {
+    "name": "Arnobius of Sicca",
+    "year": 295,
+    "voice": 2,
+    "author": "arnobius",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus"
+   },
+   {
+    "name": "Lactantius",
+    "year": 303,
+    "voice": 4,
+    "author": "lactantius",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god"
+   }
+  ],
+  "apocryphal-and-pseudepigraphal-literature": [],
+  "alexandria-catechetical": [
+   {
+    "name": "Pantaenus",
+    "year": 180,
+    "voice": 0,
+    "author": "pantaenus",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus"
+   },
+   {
+    "name": "Clement of Alexandria",
+    "year": 190,
+    "voice": 1,
+    "author": "clement_alex",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus"
+   },
+   {
+    "person": "origen"
+   },
+   {
+    "name": "Dionysius of Alexandria",
+    "year": 247,
+    "voice": 3,
+    "author": "dionysius_gr",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria"
+   },
+   {
+    "person": "athanasius-of-alexandria"
+   },
+   {
+    "name": "Didymus the Blind",
+    "year": 350,
+    "voice": 4,
+    "author": "didymus-alexandria",
+    "held": "didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books"
+   }
+  ],
+  "syriac-edessa-nisibis": [
+   {
+    "name": "Tatian",
+    "year": 172,
+    "voice": 2,
+    "author": "tatian",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks"
+   },
+   {
+    "name": "Bardaisan",
+    "year": 200,
+    "voice": 3,
+    "author": "bardesan",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries"
+   },
+   {
+    "name": "Aphrahat",
+    "year": 336,
+    "voice": 1,
+    "author": "aphrahat",
+    "held": "npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat"
+   },
+   {
+    "name": "Simeon bar Sabbae",
+    "year": 344,
+    "voice": 6,
+    "source": {
+     "work": "Sozomen, Ecclesiastical History II.9 (NPNF 2/2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "28906-28907",
+     "quote": "Formerly I was not led away bound in order that I might abjure the truth of God"
+    }
+   },
+   {
+    "person": "ephrem-the-syrian"
+   }
+  ],
+  "latin-pastoral-congregational-christianity": [
+   {
+    "person": "cyprian-of-carthage"
+   },
+   {
+    "name": "Pontius the Deacon",
+    "year": 259,
+    "voice": 1,
+    "author": "pontius",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr"
+   },
+   {
+    "person": "augustine-of-hippo"
+   },
+   {
+    "name": "Possidius of Calama",
+    "year": 397,
+    "voice": 3,
+    "author": "possidius",
+    "held": "possidius_vita-augustini_weiskotten1919--sancti-augustini-vita-life-of-augustine"
+   }
+  ],
+  "marcion-marcionism": [
+   {
+    "name": "Justin Martyr",
+    "year": 150,
+    "voice": 3,
+    "source": {
+     "work": "Justin Martyr, First Apology 58 (ANF 1)",
+     "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+     "lines": "16131-16133",
+     "quote": "the devils put forward Marcion of Pontus, who is even now teaching men to deny that God is the maker of all things in heaven and on earth"
+    }
+   },
+   {
+    "name": "Irenaeus of Lyons",
+    "year": 180,
+    "voice": 2,
+    "author": "irenaeus",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2"
+   },
+   {
+    "name": "Tertullian of Carthage",
+    "year": 207,
+    "voice": 1,
+    "author": "tertullian",
+    "held": "anf03_tertullian--on-the-flesh-of-christ-2"
+   }
+  ],
+  "valentinian-and-other-gnostic-christianities": [
+   {
+    "name": "Basilides",
+    "year": 130,
+    "voice": 3,
+    "source": {
+     "work": "Clement of Alexandria, Stromata IV.12 (ANF 2)",
+     "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+     "lines": "38954-38957",
+     "quote": "For I say this, Whosoever fall under the afflictions mentioned, in consequence of unconsciously transgressing in other matters, are brought to this good end by the kindness of Him who brings them"
+    }
+   },
+   {
+    "name": "Valentinus",
+    "year": 140,
+    "voice": 0,
+    "source": {
+     "work": "Clement of Alexandria, Stromata II.20 (ANF 2)",
+     "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+     "lines": "34296-34297",
+     "quote": "And the heart seems to be treated somewhat like a caravanserai."
+    }
+   },
+   {
+    "name": "Heracleon",
+    "year": 170,
+    "voice": 2,
+    "source": {
+     "work": "Origen, Commentary on John X.11 (ANF 9)",
+     "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+     "lines": "27714-27715",
+     "quote": "means these farthest-out parts of the world, these districts of matter, into which He descended"
+    }
+   },
+   {
+    "name": "Irenaeus of Lyons",
+    "year": 180,
+    "voice": 4,
+    "author": "irenaeus",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2"
+   }
+  ],
+  "manichaeism": [
+   {
+    "name": "Mani",
+    "year": 240,
+    "voice": 0,
+    "source": {
+     "work": "Augustine, Against the Epistle of Manichaeus called Fundamental 6 (NPNF 1/4)",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "3675",
+     "quote": "Manichæus, an apostle of Jesus Christ, by the providence of God the Father.  These are wholesome words from the perennial and living fountain."
+    }
+   },
+   {
+    "name": "Augustine of Hippo",
+    "year": 373,
+    "voice": 2,
+    "author": "augustine",
+    "held": "npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2"
+   },
+   {
+    "name": "Faustus of Milevis",
+    "year": 383,
+    "voice": 1,
+    "source": {
+     "work": "Augustine, Reply to Faustus the Manichaean II.1 (NPNF 1/4)",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "4338",
+     "quote": "Do I believe the gospel?  Certainly.  Do I therefore believe that Christ was born?  Certainly not."
+    }
+   }
+  ],
+  "ebionite-nazoraean-current": [],
+  "montanism-the-new-prophecy": [
+   {
+    "name": "Montanus",
+    "year": 165,
+    "voice": 0,
+    "source": {
+     "work": "Epiphanius, Panarion 48.11 (Oehler 1860, Latin)",
+     "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+     "lines": "2635-2638",
+     "quote": "Ego sum dominus deus, qui in homine versor."
+    }
+   },
+   {
+    "name": "Priscilla",
+    "year": 165,
+    "voice": 1,
+    "source": {
+     "work": "Tertullian, On the Resurrection of the Flesh 11 (ANF 3)",
+     "file": "cic/texts/anf03_tertullian.xml",
+     "lines": "47251-47252",
+     "quote": "They are carnal,"
+    }
+   },
+   {
+    "name": "Maximilla",
+    "year": 165,
+    "voice": 1,
+    "source": {
+     "work": "Eusebius, Church History V.16 (NPNF 2/1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "29851-29852",
+     "quote": "I am not a wolf. I am word and spirit and power."
+    }
+   },
+   {
+    "name": "Tertullian of Carthage",
+    "year": 207,
+    "voice": 2,
+    "author": "tertullian",
+    "held": "anf03_tertullian--against-praxeas-3"
+   }
+  ],
+  "novatianism": [
+   {
+    "name": "Novatian",
+    "year": 251,
+    "voice": 0,
+    "author": "novatian",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity"
+   },
+   {
+    "name": "Cornelius",
+    "year": 251,
+    "voice": 1,
+    "source": {
+     "work": "Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "38383-38385",
+     "quote": "But that you may know that a long time ago this remarkable man desired the episcopate, but kept this ambitious desire to himself and concealed it"
+    }
+   },
+   {
+    "name": "Cyprian of Carthage",
+    "year": 251,
+    "voice": 2,
+    "author": "cyprian",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian"
+   },
+   {
+    "name": "Acesius",
+    "year": 325,
+    "voice": 3,
+    "source": {
+     "work": "Socrates, Ecclesiastical History I.10 (NPNF 2/2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3694-3697",
+     "quote": "The Synod has determined nothing new, my prince: for thus heretofore, even from the beginning, from the times of the apostles, I traditionally received the definition of the faith"
+    }
+   }
+  ],
+  "anatolian-church-third-century": [
+   {
+    "name": "Origen",
+    "year": 231,
+    "voice": 3,
+    "author": "origen",
+    "held": "origen_philocalia_lewis1911--the-philocalia-of-origen-4"
+   },
+   {
+    "name": "Gregory Thaumaturgus",
+    "year": 238,
+    "voice": 0,
+    "author": "gregory_thau",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-metaphrase-of-the-book-of-ecclesiastes"
+   },
+   {
+    "name": "Methodius of Olympus",
+    "year": 290,
+    "voice": 1,
+    "author": "methodius",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-methodius-general-fragments-on-the-cross-and"
+   }
+  ],
+  "antiochene-church-third-century": [
+   {
+    "name": "Serapion",
+    "year": 191,
+    "voice": 3,
+    "source": {
+     "work": "Serapion of Antioch, fragment on the Gospel of Peter (ANF 8)",
+     "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+     "lines": "72709-72710",
+     "quote": "For we, brethren, receive both Peter and the rest of the apostles as Christ"
+    }
+   },
+   {
+    "name": "Malchion",
+    "year": 268,
+    "voice": 1,
+    "author": "malchion",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch"
+   },
+   {
+    "name": "Lucian of Antioch",
+    "year": 312,
+    "voice": 2,
+    "source": {
+     "work": "Rufinus, Historia ecclesiastica IX.6 (Schwartz-Mommsen 1908, Latin)",
+     "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+     "lines": "17632",
+     "quote": "auctor nobis de deo deus est."
+    }
+   }
+  ],
+  "palestinian-church-pre-constantinian": [
+   {
+    "name": "Alexander of Jerusalem",
+    "year": 212,
+    "voice": 1,
+    "author": "alexander_capp",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia"
+   },
+   {
+    "name": "Julius Africanus",
+    "year": 221,
+    "voice": 2,
+    "author": "juliusafricanus",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides"
+   },
+   {
+    "name": "Origen",
+    "year": 231,
+    "voice": 0,
+    "source": {
+     "work": "Origen, Letter to Africanus (ANF 4)",
+     "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+     "lines": "35133-35134",
+     "quote": "Your letter, from which I learn what you think of the Susanna in the Book of Daniel, which is used in the Churches"
+    }
+   },
+   {
+    "name": "Pamphilus",
+    "year": 300,
+    "voice": 3,
+    "source": {
+     "work": "An Exposition of the Chapters of the Acts of the Apostles (ANF 6)",
+     "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+     "lines": "16970-16972",
+     "quote": "We make this exposition, therefore, after the history of Luke, the evangelist and historian."
+    }
+   },
+   {
+    "name": "Eusebius of Caesarea",
+    "year": 303,
+    "voice": 4,
+    "author": "eusebius",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--martyrs-of-palestine"
+   }
+  ],
+  "roman-church-third-century": [
+   {
+    "name": "Zephyrinus",
+    "year": 199,
+    "voice": 2,
+    "source": {
+     "work": "Hippolytus, Refutation of All Heresies IX.6 (ANF 5)",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "13621-13622",
+     "quote": "I know that there is one God, Jesus Christ; nor except Him"
+    }
+   },
+   {
+    "name": "Caius",
+    "year": 200,
+    "voice": 3,
+    "author": "caius",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--fragments-of-caius-dialogue-against-proclus-against-the"
+   },
+   {
+    "name": "Hippolytus",
+    "year": 217,
+    "voice": 1,
+    "author": "hippolytus",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--against-the-heresy-of-one-noetus"
+   },
+   {
+    "name": "Cornelius",
+    "year": 251,
+    "voice": 4,
+    "source": {
+     "work": "Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "38383-38385",
+     "quote": "But that you may know that a long time ago this remarkable man desired the episcopate, but kept this ambitious desire to himself and concealed it"
+    }
+   },
+   {
+    "name": "Dionysius of Rome",
+    "year": 259,
+    "voice": 5,
+    "author": "dionysius_rome",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--against-the-sabellians"
+   }
+  ],
+  "danubian-latin-christianity": [
+   {
+    "name": "Victorinus of Pettau",
+    "year": 300,
+    "voice": 0,
+    "author": "victorinus",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john"
+   },
+   {
+    "name": "Valens of Mursa",
+    "year": 347,
+    "voice": 2,
+    "source": {
+     "work": "Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24721-24724",
+     "quote": "we do now confess before your Goodness, and in the presence of all the Presbyters our brethren, that all the reports which have heretofore come to your hearing respecting the case of the aforesaid Athanasius, are falsehoods and fabrications"
+    }
+   },
+   {
+    "name": "Ursacius of Singidunum",
+    "year": 347,
+    "voice": 2,
+    "source": {
+     "work": "Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24721-24724",
+     "quote": "we do now confess before your Goodness, and in the presence of all the Presbyters our brethren, that all the reports which have heretofore come to your hearing respecting the case of the aforesaid Athanasius, are falsehoods and fabrications"
+    }
+   },
+   {
+    "name": "Palladius of Ratiaria",
+    "year": 381,
+    "voice": 3,
+    "source": {
+     "work": "Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899)",
+     "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+     "lines": "14744",
+     "quote": "imperator nosler Gratianus iussit orientales uenire."
+    }
+   },
+   {
+    "name": "Jerome",
+    "year": 392,
+    "voice": 1,
+    "source": {
+     "work": "Jerome, Lives of Illustrious Men 74 (NPNF 2/3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40945-40947",
+     "quote": "was not equally familiar with Latin and Greek. On this account his works though noble in thought, are inferior in style."
+    }
+   }
+  ],
+  "desert-monasticism": [
+   {
+    "name": "Antony",
+    "year": 270,
+    "voice": 0,
+    "source": {
+     "work": "Athanasius, Life of Antony 16 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "31649-31651",
+     "quote": "Let this especially be the common aim of all, neither to give way having once begun, nor to faint in trouble"
+    }
+   },
+   {
+    "name": "Pachomius",
+    "year": 320,
+    "voice": 1,
+    "author": "pachomius",
+    "held": "pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice"
+   },
+   {
+    "name": "Sarah",
+    "year": 380,
+    "voice": 2,
+    "source": {
+     "work": "The Paradise of the Holy Fathers, vol. II, sayings (Budge 1907)",
+     "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+     "lines": "604",
+     "quote": "Whensoever I put my foot on the ladder to go up, before I ascend it I set my death before mine eyes."
+    }
+   },
+   {
+    "name": "Evagrius",
+    "year": 383,
+    "voice": 3,
+    "author": "evagrius",
+    "held": "evagrius_praktikos_dysinger--the-praktikos"
+   },
+   {
+    "name": "John Cassian",
+    "year": 420,
+    "voice": 4,
+    "author": "cassian",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de"
+   }
+  ],
+  "palestinian-ascetic-monasticism-early": [
+   {
+    "name": "Hilarion of Gaza",
+    "year": 330,
+    "voice": 0,
+    "source": {
+     "work": "Jerome, Life of S. Hilarion 45 (NPNF 2/6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31070-31072",
+     "quote": "Go forth, what do you fear? Go forth, my soul, why do you hesitate? You have served Christ nearly seventy years, and do you fear death?"
+    }
+   },
+   {
+    "name": "Malchus",
+    "year": 375,
+    "voice": 3,
+    "source": {
+     "work": "Jerome, Life of Malchus 3 (NPNF 2/6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31162-31163",
+     "quote": "wished to force me into marriage, but I said I would rather be a monk."
+    }
+   },
+   {
+    "name": "Jerome",
+    "year": 390,
+    "voice": 2,
+    "author": "jerome",
+    "held": "npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk"
+   }
+  ],
+  "donatism": [
+   {
+    "name": "Donatus",
+    "year": 313,
+    "voice": 0,
+    "source": {
+     "work": "Optatus, Against the Donatists III.3 (English)",
+     "file": "cic/texts/optatus_against-the-donatists.txt",
+     "lines": "1904",
+     "quote": "'What has the Emperor to do with the Church?'"
+    }
+   },
+   {
+    "name": "Tyconius",
+    "year": 380,
+    "voice": 3,
+    "author": "tyconius",
+    "held": "tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum"
+   },
+   {
+    "name": "Petilian",
+    "year": 395,
+    "voice": 1,
+    "source": {
+     "work": "Augustine, Answer to the Letters of Petilian II.3 (NPNF 1/4)",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "15788",
+     "quote": "\"For what we look to is the conscience of the giver, to cleanse that of the recipient.\""
+    }
+   },
+   {
+    "name": "Emeritus",
+    "year": 411,
+    "voice": 2,
+    "source": {
+     "work": "Gesta of the Conference of Carthage 411, excerpt in the appendix to PL 43",
+     "file": "cic/texts/augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt",
+     "lines": "56045-56047",
+     "quote": "Nos gravat, cum se dicit esse pa- tientem ; et non debet de se ferre sententiam, de quo alius judicat."
+    }
+   }
+  ],
+  "cappadocian-nicene-pastoral-monastic-tradition": [
+   {
+    "name": "Basil",
+    "year": 368,
+    "voice": 0,
+    "author": "basil",
+    "held": "npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit"
+   },
+   {
+    "name": "Gregory of Nazianzus",
+    "year": 372,
+    "voice": 2,
+    "author": "gregory_naz",
+    "held": "npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of"
+   },
+   {
+    "person": "gregory-of-nyssa"
+   }
+  ],
+  "imperial-juridical-christianity": [
+   {
+    "name": "Constantine",
+    "year": 312,
+    "voice": 0,
+    "author": "constantine",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--the-oration-of-constantine-to-the-assembly-of-the-saints"
+   },
+   {
+    "name": "Eusebius of Caesarea",
+    "year": 313,
+    "voice": 1,
+    "author": "eusebius",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica"
+   },
+   {
+    "name": "Ambrose of Milan",
+    "year": 374,
+    "voice": 3,
+    "author": "ambrose",
+    "held": "npnf210_ambrose--exposition-of-the-christian-faith-de-fide"
+   },
+   {
+    "name": "Theodosius I",
+    "year": 380,
+    "voice": 2,
+    "source": {
+     "work": "Theodoret, Ecclesiastical History V.18 (NPNF 2/3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "16702-16704",
+     "quote": "I have learnt after great difficulty the differences between an emperor and a priest."
+    }
+   },
+   {
+    "name": "Leo of Rome",
+    "year": 449,
+    "voice": 4,
+    "author": "leo",
+    "held": "npnf212_leo-great-gregory-great--the-letters-of-leo-the-great"
+   }
+  ],
+  "hieronymian-ascetic-literary": [
+   {
+    "person": "jerome"
+   },
+   {
+    "name": "Rufinus of Aquileia",
+    "year": 397,
+    "voice": 4,
+    "author": "rufinus",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis"
+   }
+  ],
+  "armenian-christianity-conversion-era": [],
+  "aksumite-christianity-conversion-era": [
+   {
+    "name": "Athanasius of Alexandria",
+    "year": 356,
+    "voice": 2,
+    "source": {
+     "work": "Athanasius, Apology to Constantius 29 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36001-36002",
+     "quote": "behold a third report reached me, to the effect that letters had been written to the Princes of Auxumis, desiring that"
+    }
+   }
+  ],
+  "persian-church-of-the-east-early": [
+   {
+    "name": "Aphrahat",
+    "year": 336,
+    "voice": 1,
+    "author": "aphrahat",
+    "held": "npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat"
+   },
+   {
+    "name": "Shemon bar Sabbae",
+    "year": 344,
+    "voice": 0,
+    "source": {
+     "work": "Sozomen, Ecclesiastical History II.9 (NPNF 2/2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "28906-28907",
+     "quote": "Formerly I was not led away bound in order that I might abjure the truth of God"
+    }
+   },
+   {
+    "name": "Marutha of Maypherqat",
+    "year": 399,
+    "voice": 2,
+    "author": "maruta-of-maipherqat",
+    "held": "maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german-2"
+   }
+  ],
+  "antiochene-exegetical-christianity-chrysostom-ce": [
+   {
+    "person": "john-chrysostom"
+   },
+   {
+    "name": "Theodoret of Cyrrhus",
+    "year": 423,
+    "voice": 3,
+    "author": "theodoret",
+    "held": "npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes"
+   },
+   {
+    "person": "nestorius"
+   }
+  ],
+  "jerusalem-liturgical-pilgrimage-christianity": [
+   {
+    "name": "Cyril of Jerusalem",
+    "year": 348,
+    "voice": 0,
+    "author": "cyril_jer",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii"
+   },
+   {
+    "name": "Melania the Elder",
+    "year": 378,
+    "voice": 4,
+    "source": {
+     "work": "Palladius, Lausiac History 46 (Clarke 1918)",
+     "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+     "lines": "499",
+     "quote": "For my part, I am So-and-So's daughter and So-and-So's wife, but I am Christ's slave."
+    }
+   },
+   {
+    "name": "Egeria",
+    "year": 381,
+    "voice": 1,
+    "author": "egeria",
+    "held": "egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria"
+   },
+   {
+    "name": "Juvenal",
+    "year": 431,
+    "voice": 3,
+    "source": {
+     "work": "Council of Ephesus 431, Acts (NPNF 2/14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "15848-15850",
+     "quote": "Let the letter of the most holy and reverend Cælestine, archbishop of the Church of Rome, be read, which he wrote concerning the faith."
+    }
+   }
+  ],
+  "ambrosian-milan-standalone": [
+   {
+    "person": "ambrose-of-milan"
+   },
+   {
+    "name": "Augustine of Hippo",
+    "year": 384,
+    "voice": 1,
+    "author": "augustine",
+    "held": "npnf101_augustine-confessions-letters--the-confessions-3"
+   },
+   {
+    "name": "Monica",
+    "year": 385,
+    "voice": 2,
+    "source": {
+     "work": "Augustine, Confessions IX.10 (NPNF 1/1)",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "14147-14148",
+     "quote": "Son, for myself, I have no longer any pleasure in aught in this life."
+    }
+   },
+   {
+    "name": "Theodosius I",
+    "year": 390,
+    "voice": 4,
+    "source": {
+     "work": "Theodoret, Ecclesiastical History V.18 (NPNF 2/3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "16702-16704",
+     "quote": "I have learnt after great difficulty the differences between an emperor and a priest."
+    }
+   }
+  ],
+  "aquileian-christianity": [
+   {
+    "name": "Rufinus of Concordia",
+    "year": 370,
+    "voice": 0,
+    "author": "rufinus",
+    "held": "npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus"
+   },
+   {
+    "name": "Jerome",
+    "year": 370,
+    "voice": 3,
+    "author": "jerome",
+    "held": "npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas"
+   },
+   {
+    "name": "Ambrose of Milan",
+    "year": 381,
+    "voice": 4,
+    "source": {
+     "work": "Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899)",
+     "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+     "lines": "3004-3005",
+     "quote": "qui sunt consortes uestri?"
+    }
+   }
+  ],
+  "gallic-nicene-episcopate": [
+   {
+    "name": "Hilary of Poitiers",
+    "year": 350,
+    "voice": 0,
+    "author": "hilary_poit",
+    "held": "npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils"
+   },
+   {
+    "name": "Constantius II",
+    "year": 353,
+    "voice": 1,
+    "source": {
+     "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36143-36144",
+     "quote": "we command that the same doctrine be professed in your Churches as in theirs."
+    }
+   },
+   {
+    "name": "Martin of Tours",
+    "year": 360,
+    "voice": 4,
+    "source": {
+     "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "840-842",
+     "quote": "allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ: it is not lawful for me to fight."
+    }
+   },
+   {
+    "name": "Auxentius of Milan",
+    "year": 364,
+    "voice": 2,
+    "source": {
+     "work": "Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10)",
+     "file": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt",
+     "lines": "49431-49432",
+     "quote": "Duos  autem  deos nuroquam  praedicavi"
+    }
+   },
+   {
+    "name": "Sulpitius Severus",
+    "year": 403,
+    "voice": 3,
+    "author": "sulpiciusseverus",
+    "held": "sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-vita-martini-epistulae-dialogi-latin"
+   }
+  ],
+  "gallic-monastic-ascetic-christianity": [
+   {
+    "name": "Martin of Tours",
+    "year": 356,
+    "voice": 0,
+    "source": {
+     "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "840-842",
+     "quote": "allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ: it is not lawful for me to fight."
+    }
+   },
+   {
+    "name": "Sulpitius Severus",
+    "year": 397,
+    "voice": 1,
+    "author": "sulpiciusseverus",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus"
+   },
+   {
+    "name": "John Cassian",
+    "year": 420,
+    "voice": 2,
+    "author": "cassian",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de"
+   },
+   {
+    "name": "Vincent of Lérins",
+    "year": 434,
+    "voice": 4,
+    "author": "vincent_lerins",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins"
+   }
+  ],
+  "priscillianist-asceticism": [
+   {
+    "name": "Martin of Tours",
+    "year": 385,
+    "voice": 2,
+    "source": {
+     "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+     "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+     "lines": "840-842",
+     "quote": "allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ: it is not lawful for me to fight."
+    }
+   },
+   {
+    "name": "Sulpicius Severus",
+    "year": 403,
+    "voice": 3,
+    "author": "sulpiciusseverus",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica-2"
+   }
+  ],
+  "pelagianism": [
+   {
+    "name": "Caelestius",
+    "year": 411,
+    "voice": 1,
+    "source": {
+     "work": "Augustine, On Original Sin 5 (NPNF 1/5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "11580",
+     "quote": "That infants, however, ought to be baptized for the remission of sins, according to the rule of the Church universal, and according to the meaning of the Gospel, we confess."
+    }
+   },
+   {
+    "name": "Augustine of Hippo",
+    "year": 412,
+    "voice": 3,
+    "author": "augustine",
+    "held": "npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas"
+   },
+   {
+    "name": "Pelagius",
+    "year": 413,
+    "voice": 0,
+    "author": "pelagius",
+    "held": "pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem"
+   },
+   {
+    "name": "Julian of Eclanum",
+    "year": 418,
+    "voice": 2,
+    "source": {
+     "work": "B. B. Warfield, introductory essay to the Anti-Pelagian Writings (NPNF 1/5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "827",
+     "quote": "faith that God creates men obnoxious to no sin, but full of natural innocence, and with capacity for voluntary virtues."
+    }
+   }
+  ],
+  "homoian-arian-christianity": [
+   {
+    "name": "Ulfila",
+    "year": 341,
+    "voice": 0,
+    "source": {
+     "work": "Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila (Kauffmann 1899)",
+     "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+     "lines": "7431",
+     "quote": "ego ulfila episkopus et confessor semper sie credidi et in hac fide sola"
+    }
+   },
+   {
+    "name": "Constantius II",
+    "year": 353,
+    "voice": 1,
+    "source": {
+     "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36143-36144",
+     "quote": "we command that the same doctrine be professed in your Churches as in theirs."
+    }
+   },
+   {
+    "name": "Auxentius of Milan",
+    "year": 355,
+    "voice": 2,
+    "source": {
+     "work": "Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10)",
+     "file": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt",
+     "lines": "49431-49432",
+     "quote": "Duos  autem  deos nuroquam  praedicavi"
+    }
+   },
+   {
+    "name": "Reccared",
+    "year": 589,
+    "voice": 4,
+    "source": {
+     "work": "Third Council of Toledo, Collectio canonum Ecclesiae Hispanae (1808)",
+     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+     "lines": "36771",
+     "quote": "Ego Recaredus rex fidem hanc sanctam"
+    }
+   }
+  ],
+  "anomoean-eunomian-christianity": [
+   {
+    "name": "Aetius of Antioch",
+    "year": 350,
+    "voice": 0,
+    "source": {
+     "work": "Aetius, Syntagmation ch. 5, in Epiphanius, Panarion 76 (PG 42)",
+     "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt",
+     "lines": "42643-42644",
+     "quote": "Εἰ ἀγέννητός ἐστιν ὁ Θεὸς τὴν οὐσίαν, οὖχ οὐσίας διαστάσει τὸ γεννητὸν ἐγεννήθη"
+    }
+   },
+   {
+    "name": "Eunomius of Cyzicus",
+    "year": 360,
+    "voice": 1,
+    "author": "eunomius",
+    "held": "eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus"
+   },
+   {
+    "name": "Basil of Caesarea",
+    "year": 364,
+    "voice": 2,
+    "source": {
+     "work": "Basil, On the Holy Spirit 2.4 (NPNF 2/8)",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "8839-8840",
+     "quote": "They have an old sophism, invented by Aetius, the champion of this heresy"
+    }
+   },
+   {
+    "name": "Gregory of Nyssa",
+    "year": 380,
+    "voice": 3,
+    "author": "gregory_nyssa",
+    "held": "npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2"
+   },
+   {
+    "name": "Gregory of Nazianzus",
+    "year": 380,
+    "voice": 4,
+    "author": "gregory_naz",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2"
+   }
+  ],
+  "pneumatomachian-current": [
+   {
+    "name": "Amphilochius of Iconium",
+    "year": 374,
+    "voice": 3,
+    "source": {
+     "work": "Amphilochius, Synodical Letter (PG 39, Greek)",
+     "file": "cic/texts/amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt",
+     "lines": "6655",
+     "quote": "καὶ τὸ τῆς μελλούσης ἐλπίδος ἐν ὑμῖν βέδαιον."
+    }
+   },
+   {
+    "name": "Basil of Caesarea",
+    "year": 375,
+    "voice": 1,
+    "author": "basil",
+    "held": "npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit-2"
+   },
+   {
+    "name": "Gregory of Nyssa",
+    "year": 381,
+    "voice": 2,
+    "author": "gregory_nyssa",
+    "held": "npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius-2"
+   }
+  ],
+  "apollinarian-christianity": [
+   {
+    "name": "Apollinaris of Laodicea",
+    "year": 362,
+    "voice": 0,
+    "author": "apollinaris-laodicea",
+    "held": "apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school"
+   },
+   {
+    "name": "Gregory of Nazianzus",
+    "year": 382,
+    "voice": 1,
+    "author": "gregory_naz",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2"
+   }
+  ],
+  "modalist-monarchianism": [
+   {
+    "name": "Noetus of Smyrna",
+    "year": 200,
+    "voice": 0,
+    "source": {
+     "work": "Hippolytus, Against the Heresy of One Noetus 1 (ANF 5)",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "23161",
+     "quote": "What evil, then, am I doing in glorifying Christ?"
+    }
+   },
+   {
+    "name": "Tertullian",
+    "year": 213,
+    "voice": 3,
+    "author": "tertullian",
+    "held": "anf03_tertullian--against-praxeas-2"
+   },
+   {
+    "name": "Hippolytus of Rome",
+    "year": 220,
+    "voice": 4,
+    "source": {
+     "work": "Hippolytus, Against the Heresy of One Noetus 1 (ANF 5)",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "23116-23118",
+     "quote": "Some others are secretly introducing another doctrine, who have become disciples of one Noetus, who was a native of Smyrna"
+    }
+   }
+  ],
+  "bardaisanite-current": [
+   {
+    "name": "Bardaisan of Edessa",
+    "year": 200,
+    "voice": 0,
+    "author": "bardesan",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries"
+   },
+   {
+    "name": "Philip",
+    "year": 220,
+    "voice": 1,
+    "source": {
+     "work": "The Book of the Laws of Divers Countries (ANF 8)",
+     "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+     "lines": "67912-67913",
+     "quote": "visit to our brother Shemashgram, and Bardesan came and found us there."
+    }
+   },
+   {
+    "name": "Ephraim the Syrian",
+    "year": 363,
+    "voice": 2,
+    "author": "ephraim",
+    "held": "ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2"
+   }
+  ]
+ },
+ "decisions": [
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 1,
+   "name": "Clement of Rome",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement (First Epistle to the Corinthians (1 Clement), role tradition); year 96: voices line: around the year 96"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 0,
+   "name": "Ignatius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--epistles-of-ignatius-seven-epistles-shorter-longer-and (Epistles of Ignatius (seven epistles; shorter, longer and Syriac recensions), role tradition); year 107: voices line: c. 107-117"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 2,
+   "name": "Polycarp of Smyrna",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--epistle-to-the-philippians-polycarp (Epistle to the Philippians (Polycarp), role tradition); year 110: his letter written while Ignatius was recent news (voices[0] window c.107-117); conventional c.110"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 3,
+   "name": "Justin Martyr",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho (Dialogue with Trypho, role tradition); year 150: conventional date of the First Apology (c.150-155); greek-apologists voices give death about 165"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": null,
+   "name": "irenaeus-of-lyon",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 177 (estimated start: presbyter at Lyons c.177 (Eusebius HE V.4); Against Heresies c.180)"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 4,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "unnamed hosts and householders"
+  },
+  {
+   "movement": "post-apostolic-house-church",
+   "voice": 5,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "two unnamed ministrae (named only by office)"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 0,
+   "name": "Quadratus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus (Fragments of Quadratus, role tradition); year 124: voices line: around 124"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 1,
+   "name": "Aristides of Athens",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher (The Apology of Aristides the Philosopher, role tradition); year 125: conventional: apology to Hadrian (Eusebius HE IV.3), c.125"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 2,
+   "name": "Justin Martyr",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho (Dialogue with Trypho, role tradition); year 150: conventional date of the First Apology"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 5,
+   "name": "Melito of Sardis",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis (Fragments of Melito of Sardis, role tradition); year 170: apology to Marcus Aurelius (voices line); conventional c.170"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 3,
+   "name": "Athenagoras of Athens",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians (A Plea for the Christians, role tradition); year 177: Plea addressed to Marcus Aurelius and Commodus (voices line): joint reign 177-180"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 4,
+   "name": "Theophilus of Antioch",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus (Theophilus to Autolycus, role tradition); year 180: conventional: Ad Autolycum c.180"
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "voice": 6,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "anonymous writer to Diognetus (shelf slug mathetes is a title, not a person)"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": null,
+   "name": "tertullian-s-voice",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 197 (existing person entry start 197)"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Tertullian of Carthage is the person entry tertullian-s-voice told within this tradition; not repeated as a named voice"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": 1,
+   "name": "Minucius Felix",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix (The Octavius of Minucius Felix, role tradition); year 205: shelf row date range 160-250 (midpoint); voices line: date unfixable within a century"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": 3,
+   "name": "Commodianus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones (The Instructions of Commodianus (Instructiones), role tradition); year 250: voices line: third to fifth century; placed at the conventional mid-3rd-c. reading (Brewer 1906 on the shelf argues 5th c.)"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": 2,
+   "name": "Arnobius of Sicca",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus (The Seven Books of Arnobius Against the Heathen (Adversus Gentes), role tradition); year 295: shelf row date 295-310"
+  },
+  {
+   "movement": "latin-apologists",
+   "voice": 4,
+   "name": "Lactantius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god (A Treatise on the Anger of God, role tradition); year 303: shelf row date: On the Workmanship of God 303-304"
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 0,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "a text (Protevangelium), anonymous"
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 1,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "texts (apocryphal Acts)"
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 2,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "a text (Testaments of the Twelve Patriarchs)"
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 3,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "a text (Gospel of Peter); Serapion of Antioch is named only as its condemner, and is a voice of antiochene-church-third-century"
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 4,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "a text (Apocalypse of Peter)"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 0,
+   "name": "Pantaenus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus (Fragments of Pantaenus, role tradition); year 180: conventional: teaching at Alexandria c.180 (Eusebius HE V.10)"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 1,
+   "name": "Clement of Alexandria",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus (Exhortation to the Heathen (Protrepticus), role tradition); year 190: conventional: Protrepticus c.190"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": null,
+   "name": "origen",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 203 (estimated start: head of the catechetical teaching c.203 (Eusebius HE VI.3))"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 3,
+   "name": "Dionysius of Alexandria",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria (Exegetical Fragments of Dionysius of Alexandria, role tradition); year 247: conventional: bishop 247/8"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": null,
+   "name": "athanasius-of-alexandria",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 325 (estimated start: deacon at Nicaea 325; bishop 328)"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 4,
+   "name": "Didymus the Blind",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books (De Trinitate (On the Trinity, Three Books), role tradition); year 350: conventional floruit; De Trinitate after 381"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 2,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Origen is the person entry origen told within this tradition"
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "voice": 5,
+   "name": "Potamiaena",
+   "individual": true,
+   "backing": "none",
+   "reason": "the voices line itself says her story survives, never her own words"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 2,
+   "name": "Tatian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks (Address to the Greeks, role tradition); year 172: conventional: Diatessaron c.170-175, \"a generation before\" the window"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 3,
+   "name": "Bardaisan",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries (Bardesan: The Book of the Laws of Divers Countries, role tradition); year 200: conventional: at the court of Abgar the Great (r. 177-212)"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 1,
+   "name": "Aphrahat",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat (Select Demonstrations of Aphrahat, role tradition); year 336: voices line: letters dated 336-345"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 6,
+   "name": "Simeon bar Sabbae",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Sozomen, Ecclesiastical History II.9 (NPNF 2/2); year 344: conventional date of his martyrdom under Shapur II (voices line)"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": null,
+   "name": "ephrem-the-syrian",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 350 (estimated start: Nisibis hymns c.350 (deacon at Nisibis before 363))"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Ephrem is the person entry ephrem-the-syrian told within this tradition"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 4,
+   "name": "Jacob",
+   "individual": true,
+   "backing": "none",
+   "reason": "no work or quoted words of Jacob of Nisibis in the Library; shelf slug jacob-of-sarug is a namesake (Jacob of Serugh)"
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "voice": 5,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "the daughters of the covenant, a group; no line by any one survives"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": null,
+   "name": "cyprian-of-carthage",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 248 (estimated start: bishop of Carthage c.248)"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": 1,
+   "name": "Pontius the Deacon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr (The Life and Passion of Cyprian, Bishop and Martyr, role tradition); year 259: conventional: Life of Cyprian written soon after 258"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": null,
+   "name": "augustine-of-hippo",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 395 (estimated start: bishop of Hippo 395 (presbyter 391))"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": 3,
+   "name": "Possidius of Calama",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: possidius_vita-augustini_weiskotten1919--sancti-augustini-vita-life-of-augustine (Sancti Augustini Vita (Life of Augustine), role tradition); year 397: conventional: bishop of Calama c.397; Life of Augustine c.432"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Cyprian is the person entry cyprian-of-carthage"
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "voice": 2,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Augustine is the person entry augustine-of-hippo"
+  },
+  {
+   "movement": "marcion-marcionism",
+   "voice": 0,
+   "name": "Marcion of Sinope",
+   "individual": true,
+   "backing": "none",
+   "reason": "no verbatim words of Marcion located; his Antitheses and edited Scripture survive only as paraphrase by opponents; not on the shelf"
+  },
+  {
+   "movement": "marcion-marcionism",
+   "voice": 3,
+   "name": "Justin Martyr",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Justin Martyr, First Apology 58 (ANF 1); year 150: voices line: wrote against him within Marcion's lifetime; First Apology c.150"
+  },
+  {
+   "movement": "marcion-marcionism",
+   "voice": 2,
+   "name": "Irenaeus of Lyons",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2 (Against Heresies (Books I-V), role context); year 180: conventional: Against Heresies c.180"
+  },
+  {
+   "movement": "marcion-marcionism",
+   "voice": 1,
+   "name": "Tertullian of Carthage",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf03_tertullian--on-the-flesh-of-christ-2 (On the Flesh of Christ, role context); year 207: conventional: Against Marcion c.207"
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "voice": 3,
+   "name": "Basilides",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Clement of Alexandria, Stromata IV.12 (ANF 2); year 130: conventional floruit c.130 (Alexandria under Hadrian)"
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "voice": 0,
+   "name": "Valentinus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Clement of Alexandria, Stromata II.20 (ANF 2); year 140: conventional: in Rome c.136-160"
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "voice": 1,
+   "name": "Ptolemy",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Letter to Flora survives only in Epiphanius, Panarion 33, which is not vendored (only haer. 34-80 are)"
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "voice": 2,
+   "name": "Heracleon",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Origen, Commentary on John X.11 (ANF 9); year 170: conventional floruit c.170"
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "voice": 4,
+   "name": "Irenaeus of Lyons",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2 (Against Heresies (Books I-V), role context); year 180: conventional: Against Heresies c.180"
+  },
+  {
+   "movement": "manichaeism",
+   "voice": 0,
+   "name": "Mani",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Augustine, Against the Epistle of Manichaeus called Fundamental 6 (NPNF 1/4); year 240: conventional: began preaching c.240"
+  },
+  {
+   "movement": "manichaeism",
+   "voice": 2,
+   "name": "Augustine of Hippo",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2 (Acts or Disputation Against Fortunatus the Manichaean, role context); year 373: conventional: a Hearer from c.373 (voices: about nine years)"
+  },
+  {
+   "movement": "manichaeism",
+   "voice": 1,
+   "name": "Faustus of Milevis",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Augustine, Reply to Faustus the Manichaean II.1 (NPNF 1/4); year 383: Augustine met him in 383 (Confessions V); conventional"
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "voice": 0,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "the line says no leader is named in any source of their own; \"Ebion\" is a probably fictitious founder"
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "voice": 0,
+   "name": "Montanus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Epiphanius, Panarion 48.11 (Oehler 1860, Latin); year 165: entry start 165 (conventional 157 or 172)"
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "voice": 1,
+   "name": "Priscilla",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Tertullian, On the Resurrection of the Flesh 11 (ANF 3); year 165: entry start 165"
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "voice": 1,
+   "name": "Maximilla",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Eusebius, Church History V.16 (NPNF 2/1); year 165: entry start 165"
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "voice": 2,
+   "name": "Tertullian of Carthage",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf03_tertullian--against-praxeas-3 (Against Praxeas, role tradition); year 207: conventional: Montanist-period works from c.207"
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "voice": 3,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "line is about the unnamed ordinary members; Apollonius and the anonymous are named only as hostile sources"
+  },
+  {
+   "movement": "novatianism",
+   "voice": 0,
+   "name": "Novatian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity (A Treatise of Novatian Concerning the Trinity, role tradition); year 251: voices line: consecrated 251"
+  },
+  {
+   "movement": "novatianism",
+   "voice": 1,
+   "name": "Cornelius",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1); year 251: bishop of Rome from 251 (roman-church voices line)"
+  },
+  {
+   "movement": "novatianism",
+   "voice": 2,
+   "name": "Cyprian of Carthage",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian (The Epistles of Cyprian, role tradition); year 251: his correspondence on the 251 schism"
+  },
+  {
+   "movement": "novatianism",
+   "voice": 3,
+   "name": "Acesius",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Socrates, Ecclesiastical History I.10 (NPNF 2/2); year 325: voices line: at Nicaea"
+  },
+  {
+   "movement": "novatianism",
+   "voice": 4,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "the congregations, a group"
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "voice": 3,
+   "name": "Origen",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: origen_philocalia_lewis1911--the-philocalia-of-origen-4 (The Philocalia of Origen, role context); year 231: reaching into the region from Caesarea after c.231 (palestinian voices line)"
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "voice": 0,
+   "name": "Gregory Thaumaturgus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-metaphrase-of-the-book-of-ecclesiastes (A Metaphrase of the Book of Ecclesiastes, role tradition); year 238: conventional: Panegyric to Origen c.238"
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "voice": 1,
+   "name": "Methodius of Olympus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-methodius-general-fragments-on-the-cross-and (Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain fragments), role tradition); year 290: conventional floruit c.290"
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "voice": 2,
+   "name": "Macrina the Elder",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers survive in the Library"
+  },
+  {
+   "movement": "antiochene-church-third-century",
+   "voice": 3,
+   "name": "Serapion",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Serapion of Antioch, fragment on the Gospel of Peter (ANF 8); year 191: voices line: bishop about 191 to 211"
+  },
+  {
+   "movement": "antiochene-church-third-century",
+   "voice": 1,
+   "name": "Malchion",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch (The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments of the disputation), role tradition); year 268: conventional: the synod of 268 that deposed Paul"
+  },
+  {
+   "movement": "antiochene-church-third-century",
+   "voice": 2,
+   "name": "Lucian of Antioch",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Rufinus, Historia ecclesiastica IX.6 (Schwartz-Mommsen 1908, Latin); year 312: voices line: martyr in 312"
+  },
+  {
+   "movement": "antiochene-church-third-century",
+   "voice": 0,
+   "name": "Paul of Samosata",
+   "individual": true,
+   "backing": "none",
+   "reason": "no verbatim words located in a vendored text; the line says he survives only in his enemies' minutes"
+  },
+  {
+   "movement": "antiochene-church-third-century",
+   "voice": 4,
+   "name": "Aurelian",
+   "individual": true,
+   "backing": "none",
+   "reason": "pagan emperor; his ruling is reported, not quoted, in Eusebius"
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "voice": 1,
+   "name": "Alexander of Jerusalem",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia (Fragments of Alexander of Cappadocia, role tradition); year 212: conventional: bishop of Jerusalem from c.212"
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "voice": 2,
+   "name": "Julius Africanus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides (The Epistle to Aristides, role tradition); year 221: conventional: Chronicle ends 221"
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "voice": 0,
+   "name": "Origen",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Origen, Letter to Africanus (ANF 4); year 231: voices line: left Alexandria around 231"
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "voice": 3,
+   "name": "Pamphilus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: An Exposition of the Chapters of the Acts of the Apostles (ANF 6); year 300: conventional: active at Caesarea before his martyrdom in 310 (voices line)"
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "voice": 4,
+   "name": "Eusebius of Caesarea",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf201_eusebius-church-history-life-of-constantine--martyrs-of-palestine (Martyrs of Palestine, role context); year 303: conventional: recording the persecution from 303"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 2,
+   "name": "Zephyrinus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Hippolytus, Refutation of All Heresies IX.6 (ANF 5); year 199: conventional: bishop 199-217"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 3,
+   "name": "Caius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf05_hippolytus-cyprian-caius-novatian--fragments-of-caius-dialogue-against-proclus-against-the (Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon Muratorianus), role tradition); year 200: conventional: disputation with Proclus under Zephyrinus"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 1,
+   "name": "Hippolytus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf05_hippolytus-cyprian-caius-novatian--against-the-heresy-of-one-noetus (Against the Heresy of One Noetus, role tradition); year 217: conventional: opposition to Callistus from 217"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 4,
+   "name": "Cornelius",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1); year 251: voices line: bishop from 251"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 5,
+   "name": "Dionysius of Rome",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf07_lactantius-apostolic-constitutions-didache-liturgies--against-the-sabellians (Against the Sabellians, role tradition); year 259: voices line: bishop 259-268"
+  },
+  {
+   "movement": "roman-church-third-century",
+   "voice": 0,
+   "name": "Callistus",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line itself says he left not one word of his own (Hippolytus' claim that he \"induced\" Zephyrinus is not his words)"
+  },
+  {
+   "movement": "danubian-latin-christianity",
+   "voice": 0,
+   "name": "Victorinus of Pettau",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john (Commentary on the Apocalypse of the Blessed John, role tradition); year 300: conventional: bishop before his martyrdom about 304 (voices line)"
+  },
+  {
+   "movement": "danubian-latin-christianity",
+   "voice": 2,
+   "name": "Valens of Mursa",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4); year 347: conventional: joint recantation letter to Julius, 347"
+  },
+  {
+   "movement": "danubian-latin-christianity",
+   "voice": 2,
+   "name": "Ursacius of Singidunum",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4); year 347: conventional: joint recantation letter to Julius, 347"
+  },
+  {
+   "movement": "danubian-latin-christianity",
+   "voice": 3,
+   "name": "Palladius of Ratiaria",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899); year 381: voices line: deposed at Aquileia in 381"
+  },
+  {
+   "movement": "danubian-latin-christianity",
+   "voice": 1,
+   "name": "Jerome",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Jerome, Lives of Illustrious Men 74 (NPNF 2/3); year 392: conventional: Lives of Illustrious Men, 392"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 0,
+   "name": "Antony",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Athanasius, Life of Antony 16 (NPNF 2/4); year 270: conventional: renunciation c.270 (Life of Antony)"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 1,
+   "name": "Pachomius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice (The Rules of Pachomius in their Ethiopic (Ge'ez) version, role tradition); year 320: voices line: Tabennesi around 320"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 2,
+   "name": "Sarah",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: The Paradise of the Holy Fathers, vol. II, sayings (Budge 1907); year 380: conventional 4th-c. floruit; undated in the sources"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 3,
+   "name": "Evagrius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: evagrius_praktikos_dysinger--the-praktikos (The Praktikos, role tradition); year 383: conventional: withdrew to Nitria/Kellia 383"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 4,
+   "name": "John Cassian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de (On the Incarnation of the Lord, Against Nestorius (De Incarnatione), role tradition); year 420: conventional: Institutes c.420"
+  },
+  {
+   "movement": "desert-monasticism",
+   "voice": 5,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "a statement about women's voices (Sarah already listed from voices[2])"
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "voice": 0,
+   "name": "Hilarion of Gaza",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Jerome, Life of S. Hilarion 45 (NPNF 2/6); year 330: entry start 330; conventional return to Gaza c.306-330"
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "voice": 3,
+   "name": "Malchus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Jerome, Life of Malchus 3 (NPNF 2/6); year 375: conventional: Jerome met him at Maronia c.375"
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "voice": 2,
+   "name": "Jerome",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk (The Life of Malchus, the Captive Monk, role tradition); year 390: conventional: Lives of Hilarion and Malchus c.390-391"
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "voice": 1,
+   "name": "Chariton",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library (no shelf row, no quoted saying located)"
+  },
+  {
+   "movement": "donatism",
+   "voice": 0,
+   "name": "Donatus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Optatus, Against the Donatists III.3 (English); year 313: voices line: succeeded c.313"
+  },
+  {
+   "movement": "donatism",
+   "voice": 3,
+   "name": "Tyconius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum (The Book of Rules (Liber Regularum), role tradition); year 380: voices line: condemned around 380"
+  },
+  {
+   "movement": "donatism",
+   "voice": 1,
+   "name": "Petilian",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Augustine, Answer to the Letters of Petilian II.3 (NPNF 1/4); year 395: voices line: bishop from the 390s"
+  },
+  {
+   "movement": "donatism",
+   "voice": 2,
+   "name": "Emeritus",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Gesta of the Conference of Carthage 411, excerpt in the appendix to PL 43; year 411: voices line: Conference of Carthage 411"
+  },
+  {
+   "movement": "donatism",
+   "voice": 4,
+   "name": "Lucilla",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line says she left no words of her own"
+  },
+  {
+   "movement": "donatism",
+   "voice": 5,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "ordinary believers, a group"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 0,
+   "name": "Basil",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit (De Spiritu Sancto (On the Holy Spirit), role tradition); year 368: voices line: famine of 368"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 2,
+   "name": "Gregory of Nazianzus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of (From the metrical poems of Gregory Theologus, on the canon of Scripture, role tradition); year 372: conventional: pressed into the see of Sasima 372"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": null,
+   "name": "gregory-of-nyssa",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 372 (estimated start: bishop of Nyssa 372)"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 3,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Gregory of Nyssa is the person entry gregory-of-nyssa"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 1,
+   "name": "Macrina",
+   "individual": true,
+   "backing": "none",
+   "reason": "her words exist only as Gregory of Nyssa composed them (Life of Macrina; On the Soul and the Resurrection, where she is \"the Teacher\"); voices[7] says no woman of this tradition left a line in her own hand, so none is shown"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 4,
+   "name": "Emmelia",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers survive"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 5,
+   "name": "Eupsychius of Caesarea",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his survive; the line says no homily on him is attested"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 6,
+   "name": "Eustathius",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line says no work of his survives; no quoted words located"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "voice": 7,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "villages and the losing sides, groups"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 0,
+   "name": "Constantine",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf201_eusebius-church-history-life-of-constantine--the-oration-of-constantine-to-the-assembly-of-the-saints (The Oration of Constantine to the Assembly of the Saints, role tradition); year 312: conventional: 312 (Milvian Bridge, voices line)"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 1,
+   "name": "Eusebius of Caesarea",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica (The Church History of Eusebius (Historia Ecclesiastica), role tradition); year 313: conventional: Church History in circulation c.313"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 3,
+   "name": "Ambrose of Milan",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf210_ambrose--exposition-of-the-christian-faith-de-fide (Exposition of the Christian Faith (De Fide), role tradition); year 374: conventional: bishop 374"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 2,
+   "name": "Theodosius I",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Theodoret, Ecclesiastical History V.18 (NPNF 2/3); year 380: conventional: edict of 380 making Nicene faith official (voices line: his laws)"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 4,
+   "name": "Leo of Rome",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great (The Letters of Leo the Great, role tradition); year 449: conventional: the Tome, 449, read at Chalcedon 451"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 5,
+   "name": "Justina",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers located in the Library"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 6,
+   "name": "Pulcheria",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line says nothing of her own words survives"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "voice": 7,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "ordinary believers and the Homoian establishment, groups"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": null,
+   "name": "jerome",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 382 (estimated start: entry start 382 (Jerome in Rome); active as writer from the 370s)"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 4,
+   "name": "Rufinus of Aquileia",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis (Prologue of Rufinus (to De Principiis), role tradition); year 397: conventional: translation of De principiis 397-398"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Jerome is the person entry jerome"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 1,
+   "name": "Paula",
+   "individual": true,
+   "backing": "none",
+   "reason": "her reported words pass only through Jerome; voices[0] and [5] say none of the women's own letters were kept and the one letter in her name is judged Jerome's composition"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 2,
+   "name": "Eustochium",
+   "individual": true,
+   "backing": "none",
+   "reason": "none of her own letters were kept (voices[5])"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 3,
+   "name": "Marcella",
+   "individual": true,
+   "backing": "none",
+   "reason": "her questions survive only by implication in Jerome's answers (voices[5])"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 5,
+   "name": null,
+   "individual": false,
+   "backing": "none",
+   "reason": "statement about the women as a group"
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "voice": 6,
+   "name": "Fabiola",
+   "individual": true,
+   "backing": "none",
+   "reason": "everything known of her rests on Jerome's one letter; no words of hers"
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "voice": 0,
+   "name": "Gregory the Illuminator",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library: the shelf holds Moses of Khoren and modern accounts; the Teaching attributed to him (Agathangelos) is not vendored"
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "voice": 1,
+   "name": "King Trdat III",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "voice": 2,
+   "name": "Mesrop Mashtots",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "voice": 3,
+   "name": "Sahak Partev",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "voice": 4,
+   "name": "Vardan Mamikonian",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "voice": 2,
+   "name": "Athanasius of Alexandria",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Athanasius, Apology to Constantius 29 (NPNF 2/4); year 356: conventional: Apology to Constantius 356-357"
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "voice": 0,
+   "name": "Frumentius",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "voice": 1,
+   "name": "King Ezana",
+   "individual": true,
+   "backing": "none",
+   "reason": "his inscriptions are not vendored; Constantius' letter addressed to him (as \"Æzanes\") is not his words"
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "voice": 1,
+   "name": "Aphrahat",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat (Select Demonstrations of Aphrahat, role tradition); year 336: conventional: Demonstrations dated 336-345"
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "voice": 0,
+   "name": "Shemon bar Sabbae",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Sozomen, Ecclesiastical History II.9 (NPNF 2/2); year 344: conventional date of his execution (voices line: the 340s)"
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "voice": 2,
+   "name": "Marutha of Maypherqat",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german-2 (De sancta Nicaena synodo: the Syriac texts on the Council of Nicaea attributed to Marutha of Maipherqat, German translation, role transmission); year 399: conventional: embassies to Persia from 399; synod of 410"
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "voice": 3,
+   "name": "Isaac",
+   "individual": true,
+   "backing": "none",
+   "reason": "the acts of the 410 synod (Synodicon Orientale, French/German) speak in the synod's collective voice; no line of his own located"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": null,
+   "name": "john-chrysostom",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 386 (estimated start: ordained presbyter at Antioch 386)"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": 3,
+   "name": "Theodoret of Cyrrhus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes (Dialogues (Eranistes), role tradition); year 423: conventional: bishop of Cyrrhus 423"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": null,
+   "name": "nestorius",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 428 (estimated start: bishop of Constantinople 428)"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "John Chrysostom is the person entry john-chrysostom"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": 1,
+   "name": "Diodore of Tarsus",
+   "individual": true,
+   "backing": "none",
+   "reason": "no work or quoted words of his in the Library"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": 2,
+   "name": "Theodore of Mopsuestia",
+   "individual": true,
+   "backing": "none",
+   "reason": "no work of his on the shelf; the Kihn volume holds Junilius, not Theodore's own text; no verbatim quote located"
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "voice": 4,
+   "name": "Libanius",
+   "individual": true,
+   "backing": "none",
+   "reason": "no work of his in the Library"
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "voice": 0,
+   "name": "Cyril of Jerusalem",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii (The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses I-V), role tradition); year 348: conventional: Catechetical Lectures c.348-350"
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "voice": 4,
+   "name": "Melania the Elder",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Palladius, Lausiac History 46 (Clarke 1918); year 378: conventional: Mount of Olives foundation c.378"
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "voice": 1,
+   "name": "Egeria",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria (Peregrinatio Aetheriae (Pilgrimage of Etheria), role tradition); year 381: voices line: early 380s"
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "voice": 3,
+   "name": "Juvenal",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Council of Ephesus 431, Acts (NPNF 2/14); year 431: Council of Ephesus 431, where the quoted words were spoken (voices line names Chalcedon 451)"
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "voice": 2,
+   "name": "Helena",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers in the Library"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": null,
+   "name": "ambrose-of-milan",
+   "individual": true,
+   "backing": "person",
+   "reason": "planned person entry; start year estimate 374 (estimated start: bishop of Milan 374)"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": 1,
+   "name": "Augustine of Hippo",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf101_augustine-confessions-letters--the-confessions-3 (The Confessions, role tradition); year 384: conventional: came to Milan 384"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": 2,
+   "name": "Monica",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Augustine, Confessions IX.10 (NPNF 1/1); year 385: conventional: joined him at Milan 385"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": 4,
+   "name": "Theodosius I",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Theodoret, Ecclesiastical History V.18 (NPNF 2/3); year 390: voices line: penance after Thessalonica, 390"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": 0,
+   "name": null,
+   "individual": true,
+   "backing": "person",
+   "reason": "Ambrose is the person entry ambrose-of-milan"
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "voice": 3,
+   "name": "Empress Justina",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers located in the Library"
+  },
+  {
+   "movement": "aquileian-christianity",
+   "voice": 0,
+   "name": "Rufinus of Concordia",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus (A Commentary on the Apostles' Creed (Rufinus), role tradition); year 370: conventional: monk at Aquileia c.370"
+  },
+  {
+   "movement": "aquileian-christianity",
+   "voice": 3,
+   "name": "Jerome",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas (Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to Paul of Concordia), role tradition); year 370: conventional: at Aquileia c.370-373 (his twenties)"
+  },
+  {
+   "movement": "aquileian-christianity",
+   "voice": 4,
+   "name": "Ambrose of Milan",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899); year 381: voices line: council of 381"
+  },
+  {
+   "movement": "aquileian-christianity",
+   "voice": 1,
+   "name": "Chromatius",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line says his sermons are not in this corpus"
+  },
+  {
+   "movement": "aquileian-christianity",
+   "voice": 2,
+   "name": "Fortunatianus",
+   "individual": true,
+   "backing": "none",
+   "reason": "his commentary is not in the Library"
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "voice": 0,
+   "name": "Hilary of Poitiers",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils (De Synodis (On the Councils), role tradition); year 350: conventional: bishop c.350"
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "voice": 1,
+   "name": "Constantius II",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4); year 353: conventional: sole emperor 353"
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "voice": 4,
+   "name": "Martin of Tours",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11); year 360: conventional: ordained by Hilary c.360"
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "voice": 2,
+   "name": "Auxentius of Milan",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10); year 364: conventional: his letter to Valentinian and Valens, 364"
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "voice": 3,
+   "name": "Sulpitius Severus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-vita-martini-epistulae-dialogi-latin (Chronica, Vita Martini, Epistulae, Dialogi (CSEL 1), Latin, role tradition); year 403: conventional: Chronica c.403"
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "voice": 0,
+   "name": "Martin of Tours",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11); year 356: conventional: the scene before Caesar, 356"
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "voice": 1,
+   "name": "Sulpitius Severus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus (Dialogues of Sulpitius Severus, role tradition); year 397: conventional: Life of Martin 396-397"
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "voice": 2,
+   "name": "John Cassian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de (On the Incarnation of the Lord, Against Nestorius (De Incarnatione), role tradition); year 420: conventional: Institutes c.420"
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "voice": 4,
+   "name": "Vincent of Lérins",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins (The Commonitory of Vincent of Lerins, role tradition); year 434: conventional: Commonitory 434"
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "voice": 3,
+   "name": "Honoratus of Arles",
+   "individual": true,
+   "backing": "none",
+   "reason": "the shelf row is Hilary of Arles' sermon on his life (author hilary-arles); no words of his own located"
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "voice": 2,
+   "name": "Martin of Tours",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11); year 385: voices line: intervened at Trier c.385"
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "voice": 3,
+   "name": "Sulpicius Severus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica-2 (The Sacred History (Chronica), role context); year 403: conventional: Chronica c.403"
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "voice": 0,
+   "name": "Priscillian",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Würzburg tractates are not vendored; no words of his located"
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "voice": 1,
+   "name": "Ithacius of Ossonoba",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his in the Library"
+  },
+  {
+   "movement": "pelagianism",
+   "voice": 1,
+   "name": "Caelestius",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Augustine, On Original Sin 5 (NPNF 1/5); year 411: voices line: Carthage (411)"
+  },
+  {
+   "movement": "pelagianism",
+   "voice": 3,
+   "name": "Augustine of Hippo",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas (Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum), role tradition); year 412: conventional: first anti-Pelagian treatise 412"
+  },
+  {
+   "movement": "pelagianism",
+   "voice": 0,
+   "name": "Pelagius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem (Epistola I: Ad Demetriadem, role tradition); year 413: conventional: Letter to Demetrias 413"
+  },
+  {
+   "movement": "pelagianism",
+   "voice": 2,
+   "name": "Julian of Eclanum",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: B. B. Warfield, introductory essay to the Anti-Pelagian Writings (NPNF 1/5); year 418: conventional: took up the case 418"
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "voice": 0,
+   "name": "Ulfila",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila (Kauffmann 1899); year 341: conventional: consecrated bishop c.341"
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "voice": 1,
+   "name": "Constantius II",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4); year 353: conventional: sole emperor 353"
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "voice": 2,
+   "name": "Auxentius of Milan",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10); year 355: conventional: bishop of Milan from 355"
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "voice": 4,
+   "name": "Reccared",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Third Council of Toledo, Collectio canonum Ecclesiae Hispanae (1808); year 589: voices line: Third Council of Toledo, 589"
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "voice": 3,
+   "name": "Theoderic the Great",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his on the shelf; the Variae (vendored, Hodgkin's abridged English) are Cassiodorus' own published collection of letters written in the king's name"
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "voice": 0,
+   "name": "Aetius of Antioch",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Aetius, Syntagmation ch. 5, in Epiphanius, Panarion 76 (PG 42); year 350: conventional floruit; Syntagmation c.359"
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "voice": 1,
+   "name": "Eunomius of Cyzicus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus (The First Apology (Liber Apologeticus), role tradition); year 360: conventional: Apology 360-361"
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "voice": 2,
+   "name": "Basil of Caesarea",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Basil, On the Holy Spirit 2.4 (NPNF 2/8); year 364: conventional: Against Eunomius c.364"
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "voice": 3,
+   "name": "Gregory of Nyssa",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2 (Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book), role context); year 380: conventional: Against Eunomius I c.380"
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "voice": 4,
+   "name": "Gregory of Nazianzus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2 (The Five Theological Orations (Orations 27-31), role context); year 380: voices line: 380"
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "voice": 3,
+   "name": "Amphilochius of Iconium",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Amphilochius, Synodical Letter (PG 39, Greek); year 374: conventional: asked Basil for the treatise c.374"
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "voice": 1,
+   "name": "Basil of Caesarea",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit-2 (De Spiritu Sancto (On the Holy Spirit), role context); year 375: conventional: On the Holy Spirit 375"
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "voice": 2,
+   "name": "Gregory of Nyssa",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius-2 (On the Holy Spirit (Against the Followers of Macedonius), role context); year 381: conventional: Against the Macedonians c.381"
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "voice": 0,
+   "name": "Macedonius of Constantinople",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his located; the line says the attribution itself is thin"
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "voice": 0,
+   "name": "Apollinaris of Laodicea",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school (Texts and fragments of Apollinaris of Laodicea and his school (Lietzmann, 1904), Greek with German study, role tradition); year 362: conventional floruit"
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "voice": 1,
+   "name": "Gregory of Nazianzus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2 (Select Letters of Saint Gregory Nazianzen, role context); year 382: conventional: letters to Cledonius c.382"
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "voice": 2,
+   "name": "Cledonius",
+   "individual": true,
+   "backing": "none",
+   "reason": "recipient only; no words of his survive"
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "voice": 0,
+   "name": "Noetus of Smyrna",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Hippolytus, Against the Heresy of One Noetus 1 (ANF 5); year 200: conventional: c.200"
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "voice": 3,
+   "name": "Tertullian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf03_tertullian--against-praxeas-2 (Against Praxeas, role context); year 213: conventional: Against Praxeas c.213"
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "voice": 4,
+   "name": "Hippolytus of Rome",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: Hippolytus, Against the Heresy of One Noetus 1 (ANF 5); year 220: conventional: Against Noetus c.220"
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "voice": 1,
+   "name": "Praxeas",
+   "individual": true,
+   "backing": "none",
+   "reason": "the line says almost nothing is known but the book against him"
+  },
+  {
+   "movement": "modalist-monarchianism",
+   "voice": 2,
+   "name": "Sabellius",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his located"
+  },
+  {
+   "movement": "bardaisanite-current",
+   "voice": 0,
+   "name": "Bardaisan of Edessa",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries (Bardesan: The Book of the Laws of Divers Countries, role tradition); year 200: conventional: at Abgar's court c.200"
+  },
+  {
+   "movement": "bardaisanite-current",
+   "voice": 1,
+   "name": "Philip",
+   "individual": true,
+   "backing": "source",
+   "reason": "source: The Book of the Laws of Divers Countries (ANF 8); year 220: conventional: early 3rd c."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "voice": 2,
+   "name": "Ephraim the Syrian",
+   "individual": true,
+   "backing": "held",
+   "reason": "held: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2 (Against Bardaisan (A Discourse Against Bardaisan), role context); year 363: conventional: Edessa from 363"
+  }
+ ],
+ "people_index": [
+  {
+   "name": "Clement of Rome",
+   "movement": "post-apostolic-house-church",
+   "year": 96,
+   "last_year": null,
+   "author": "clement_rome",
+   "aliases": [
+    "Clement of Rome",
+    "Clemens Romanus",
+    "Clément de Rome",
+    "Clemens von Rom",
+    "Klemens von Rom",
+    "Κλήμης Ῥώμης"
+   ]
+  },
+  {
+   "name": "Ignatius",
+   "movement": "post-apostolic-house-church",
+   "year": 107,
+   "last_year": null,
+   "author": "ignatius",
+   "aliases": [
+    "Ignatius of Antioch",
+    "Ignatius Theophorus",
+    "Ignace d'Antioche",
+    "Ignatius von Antiochien",
+    "Ἰγνάτιος",
+    "Theophorus"
+   ]
+  },
+  {
+   "name": "Polycarp of Smyrna",
+   "movement": "post-apostolic-house-church",
+   "year": 110,
+   "last_year": 155,
+   "author": "polycarp",
+   "aliases": [
+    "Polycarp",
+    "Polycarpus",
+    "Polycarpe",
+    "Polykarp",
+    "Πολύκαρπος"
+   ]
+  },
+  {
+   "name": "Justin Martyr",
+   "movement": "post-apostolic-house-church",
+   "year": 150,
+   "last_year": 165,
+   "author": "justin_martyr",
+   "aliases": [
+    "Justin Martyr",
+    "Justinus Martyr",
+    "Justin the Martyr",
+    "Justin le Martyr",
+    "Justin der Märtyrer",
+    "Ἰουστῖνος"
+   ]
+  },
+  {
+   "name": "Quadratus",
+   "movement": "greek-apologists-second-century",
+   "year": 124,
+   "last_year": null,
+   "author": "quadratus",
+   "aliases": [
+    "Quadratus",
+    "Κοδρᾶτος",
+    "Codratus"
+   ]
+  },
+  {
+   "name": "Aristides of Athens",
+   "movement": "greek-apologists-second-century",
+   "year": 125,
+   "last_year": null,
+   "author": "aristides",
+   "aliases": [
+    "Aristides",
+    "Aristide",
+    "Ἀριστείδης",
+    "Aristides the Philosopher"
+   ]
+  },
+  {
+   "name": "Justin Martyr",
+   "movement": "greek-apologists-second-century",
+   "year": 150,
+   "last_year": 165,
+   "author": "justin_martyr",
+   "aliases": [
+    "Justin Martyr",
+    "Justinus Martyr",
+    "Justin the Martyr",
+    "Justin le Martyr",
+    "Justin der Märtyrer",
+    "Ἰουστῖνος"
+   ]
+  },
+  {
+   "name": "Melito of Sardis",
+   "movement": "greek-apologists-second-century",
+   "year": 170,
+   "last_year": null,
+   "author": "melito-of-sardis",
+   "aliases": [
+    "Melito",
+    "Meliton",
+    "Méliton",
+    "Μελίτων"
+   ]
+  },
+  {
+   "name": "Athenagoras of Athens",
+   "movement": "greek-apologists-second-century",
+   "year": 177,
+   "last_year": null,
+   "author": "athenagoras",
+   "aliases": [
+    "Athenagoras",
+    "Athénagore",
+    "Ἀθηναγόρας"
+   ]
+  },
+  {
+   "name": "Theophilus of Antioch",
+   "movement": "greek-apologists-second-century",
+   "year": 180,
+   "last_year": null,
+   "author": "theophilus",
+   "aliases": [
+    "Theophilus of Antioch",
+    "Théophile d'Antioche",
+    "Theophilus von Antiochien",
+    "Theophilus to Autolycus"
+   ]
+  },
+  {
+   "name": "Minucius Felix",
+   "movement": "latin-apologists",
+   "year": 205,
+   "last_year": null,
+   "author": "felix",
+   "aliases": [
+    "Minucius Felix",
+    "Minucius",
+    "Minucii Felicis",
+    "Octavius of Minucius"
+   ]
+  },
+  {
+   "name": "Commodianus",
+   "movement": "latin-apologists",
+   "year": 250,
+   "last_year": null,
+   "author": "commodian",
+   "aliases": [
+    "Commodianus",
+    "Commodian",
+    "Commodien",
+    "Kommodian"
+   ]
+  },
+  {
+   "name": "Arnobius of Sicca",
+   "movement": "latin-apologists",
+   "year": 295,
+   "last_year": null,
+   "author": "arnobius",
+   "aliases": [
+    "Arnobius",
+    "Arnobe",
+    "Arnobii"
+   ]
+  },
+  {
+   "name": "Lactantius",
+   "movement": "latin-apologists",
+   "year": 303,
+   "last_year": 325,
+   "author": "lactantius",
+   "aliases": [
+    "Lactantius",
+    "Lactance",
+    "Laktanz",
+    "Lactantii",
+    "Firmianus"
+   ]
+  },
+  {
+   "name": "Pantaenus",
+   "movement": "alexandria-catechetical",
+   "year": 180,
+   "last_year": null,
+   "author": "pantaenus",
+   "aliases": [
+    "Pantaenus",
+    "Pantænus",
+    "Pantène",
+    "Pantänus",
+    "Πάνταινος"
+   ]
+  },
+  {
+   "name": "Clement of Alexandria",
+   "movement": "alexandria-catechetical",
+   "year": 190,
+   "last_year": 215,
+   "author": "clement_alex",
+   "aliases": [
+    "Clement of Alexandria",
+    "Clemens Alexandrinus",
+    "Clément d'Alexandrie",
+    "Clemens von Alexandrien",
+    "Κλήμης Ἀλεξανδρεύς"
+   ]
+  },
+  {
+   "name": "Dionysius of Alexandria",
+   "movement": "alexandria-catechetical",
+   "year": 247,
+   "last_year": 265,
+   "author": "dionysius_gr",
+   "aliases": [
+    "Dionysius of Alexandria",
+    "Dionysius the Great",
+    "Denys d'Alexandrie",
+    "Dionysius Alexandrinus",
+    "Dionysius von Alexandrien"
+   ]
+  },
+  {
+   "name": "Didymus the Blind",
+   "movement": "alexandria-catechetical",
+   "year": 350,
+   "last_year": 398,
+   "author": "didymus-alexandria",
+   "aliases": [
+    "Didymus",
+    "Didyme",
+    "Didymus the Blind",
+    "Didymus Alexandrinus",
+    "Δίδυμος"
+   ]
+  },
+  {
+   "name": "Potamiaena",
+   "movement": "alexandria-catechetical",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Potamiaena",
+    "Potamiæna",
+    "Potamiène",
+    "Ποταμίαινα"
+   ]
+  },
+  {
+   "name": "Tatian",
+   "movement": "syriac-edessa-nisibis",
+   "year": 172,
+   "last_year": null,
+   "author": "tatian",
+   "aliases": [
+    "Tatian",
+    "Tatianus",
+    "Tatien",
+    "Τατιανός"
+   ]
+  },
+  {
+   "name": "Bardaisan",
+   "movement": "syriac-edessa-nisibis",
+   "year": 200,
+   "last_year": 222,
+   "author": "bardesan",
+   "aliases": [
+    "Bardaisan",
+    "Bardesanes",
+    "Bardesan",
+    "Bar Daisan",
+    "Bardesane",
+    "Βαρδησάνης",
+    "Bar-Daisan"
+   ]
+  },
+  {
+   "name": "Aphrahat",
+   "movement": "syriac-edessa-nisibis",
+   "year": 336,
+   "last_year": 345,
+   "author": "aphrahat",
+   "aliases": [
+    "Aphrahat",
+    "Aphraates",
+    "Aphraate",
+    "Afrahat",
+    "Persian Sage"
+   ]
+  },
+  {
+   "name": "Simeon bar Sabbae",
+   "movement": "syriac-edessa-nisibis",
+   "year": 344,
+   "last_year": 344,
+   "author": null,
+   "aliases": [
+    "Simeon bar Sabbae",
+    "Symeon bar Sabba'e",
+    "Shemon bar Sabbae",
+    "Simeon Barsabae",
+    "Siméon bar Sabba'é",
+    "Simeon bar Sabba'e"
+   ]
+  },
+  {
+   "name": "Jacob",
+   "movement": "syriac-edessa-nisibis",
+   "year": null,
+   "last_year": 338,
+   "author": null,
+   "aliases": [
+    "Jacob of Nisibis",
+    "James of Nisibis",
+    "Jacques de Nisibe",
+    "Jakob von Nisibis"
+   ]
+  },
+  {
+   "name": "Pontius the Deacon",
+   "movement": "latin-pastoral-congregational-christianity",
+   "year": 259,
+   "last_year": null,
+   "author": "pontius",
+   "aliases": [
+    "Pontius the Deacon",
+    "Pontius Diaconus"
+   ]
+  },
+  {
+   "name": "Possidius of Calama",
+   "movement": "latin-pastoral-congregational-christianity",
+   "year": 397,
+   "last_year": null,
+   "author": "possidius",
+   "aliases": [
+    "Possidius",
+    "Possidio",
+    "Possidius of Calama"
+   ]
+  },
+  {
+   "name": "Marcion of Sinope",
+   "movement": "marcion-marcionism",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Marcion",
+    "Marcionem",
+    "Marcionis",
+    "Μαρκίων",
+    "Markion"
+   ]
+  },
+  {
+   "name": "Justin Martyr",
+   "movement": "marcion-marcionism",
+   "year": 150,
+   "last_year": 165,
+   "author": null,
+   "aliases": [
+    "Justin Martyr",
+    "Justinus Martyr",
+    "Justin the Martyr",
+    "Justin le Martyr",
+    "Justin der Märtyrer",
+    "Ἰουστῖνος"
+   ]
+  },
+  {
+   "name": "Irenaeus of Lyons",
+   "movement": "marcion-marcionism",
+   "year": 180,
+   "last_year": null,
+   "author": "irenaeus",
+   "aliases": [
+    "Irenaeus",
+    "Irenæus",
+    "Irénée",
+    "Irenäus",
+    "Εἰρηναῖος"
+   ]
+  },
+  {
+   "name": "Tertullian of Carthage",
+   "movement": "marcion-marcionism",
+   "year": 207,
+   "last_year": null,
+   "author": "tertullian",
+   "aliases": [
+    "Tertullian",
+    "Tertullianus",
+    "Tertullien",
+    "Tertullians"
+   ]
+  },
+  {
+   "name": "Basilides",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "year": 130,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Basilides",
+    "Basilide",
+    "Βασιλείδης"
+   ]
+  },
+  {
+   "name": "Valentinus",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "year": 140,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Valentinus",
+    "Valentin",
+    "Οὐαλεντῖνος"
+   ]
+  },
+  {
+   "name": "Ptolemy",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Ptolemaeus",
+    "Ptolemæus",
+    "Ptolémée the Valentinian",
+    "Letter to Flora",
+    "Ptolemy the Gnostic"
+   ]
+  },
+  {
+   "name": "Heracleon",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "year": 170,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Heracleon",
+    "Héracléon",
+    "Ἡρακλέων"
+   ]
+  },
+  {
+   "name": "Irenaeus of Lyons",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "year": 180,
+   "last_year": null,
+   "author": "irenaeus",
+   "aliases": [
+    "Irenaeus",
+    "Irenæus",
+    "Irénée",
+    "Irenäus",
+    "Εἰρηναῖος"
+   ]
+  },
+  {
+   "name": "Mani",
+   "movement": "manichaeism",
+   "year": 240,
+   "last_year": 277,
+   "author": null,
+   "aliases": [
+    "Manichaeus",
+    "Manichæus",
+    "Manes",
+    "Manès",
+    "Μάνης",
+    "Mani the founder"
+   ]
+  },
+  {
+   "name": "Augustine of Hippo",
+   "movement": "manichaeism",
+   "year": 373,
+   "last_year": 430,
+   "author": "augustine",
+   "aliases": [
+    "Augustine of Hippo",
+    "Augustinus",
+    "Augustin",
+    "Aurelius Augustinus",
+    "Saint Augustine",
+    "St. Augustin"
+   ]
+  },
+  {
+   "name": "Faustus of Milevis",
+   "movement": "manichaeism",
+   "year": 383,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Faustus of Milevis",
+    "Faustus the Manichaean",
+    "Faustus Manichaeus",
+    "Fauste le manichéen"
+   ]
+  },
+  {
+   "name": "Montanus",
+   "movement": "montanism-the-new-prophecy",
+   "year": 165,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Montanus",
+    "Montan",
+    "Μοντανός"
+   ]
+  },
+  {
+   "name": "Priscilla",
+   "movement": "montanism-the-new-prophecy",
+   "year": 165,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Priscilla",
+    "Prisca",
+    "Πρίσκιλλα",
+    "Priscille"
+   ]
+  },
+  {
+   "name": "Maximilla",
+   "movement": "montanism-the-new-prophecy",
+   "year": 165,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Maximilla",
+    "Μαξίμιλλα",
+    "Maximille"
+   ]
+  },
+  {
+   "name": "Tertullian of Carthage",
+   "movement": "montanism-the-new-prophecy",
+   "year": 207,
+   "last_year": null,
+   "author": "tertullian",
+   "aliases": [
+    "Tertullian",
+    "Tertullianus",
+    "Tertullien",
+    "Tertullians"
+   ]
+  },
+  {
+   "name": "Novatian",
+   "movement": "novatianism",
+   "year": 251,
+   "last_year": null,
+   "author": "novatian",
+   "aliases": [
+    "Novatian",
+    "Novatianus",
+    "Novatien",
+    "Ναυάτος"
+   ]
+  },
+  {
+   "name": "Cornelius",
+   "movement": "novatianism",
+   "year": 251,
+   "last_year": 253,
+   "author": null,
+   "aliases": [
+    "Cornelius of Rome",
+    "Pope Cornelius",
+    "Cornelius bishop of Rome",
+    "Corneille"
+   ]
+  },
+  {
+   "name": "Cyprian of Carthage",
+   "movement": "novatianism",
+   "year": 251,
+   "last_year": 258,
+   "author": "cyprian",
+   "aliases": [
+    "Cyprian",
+    "Cyprianus",
+    "Cyprien",
+    "Thascius"
+   ]
+  },
+  {
+   "name": "Acesius",
+   "movement": "novatianism",
+   "year": 325,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Acesius",
+    "Ἀκέσιος",
+    "Acèse"
+   ]
+  },
+  {
+   "name": "Origen",
+   "movement": "anatolian-church-third-century",
+   "year": 231,
+   "last_year": 253,
+   "author": "origen",
+   "aliases": [
+    "Origen",
+    "Origenes",
+    "Origène",
+    "Ὠριγένης",
+    "Adamantius"
+   ]
+  },
+  {
+   "name": "Gregory Thaumaturgus",
+   "movement": "anatolian-church-third-century",
+   "year": 238,
+   "last_year": 270,
+   "author": "gregory_thau",
+   "aliases": [
+    "Gregory Thaumaturgus",
+    "Thaumaturgus",
+    "Gregory the Wonderworker",
+    "Grégoire le Thaumaturge",
+    "Gregor der Wundertäter"
+   ]
+  },
+  {
+   "name": "Methodius of Olympus",
+   "movement": "anatolian-church-third-century",
+   "year": 290,
+   "last_year": 311,
+   "author": "methodius",
+   "aliases": [
+    "Methodius",
+    "Méthode d'Olympe",
+    "Methodius von Olympus",
+    "Μεθόδιος"
+   ]
+  },
+  {
+   "name": "Macrina the Elder",
+   "movement": "anatolian-church-third-century",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Macrina the Elder",
+    "Macrine l'Ancienne",
+    "elder Macrina"
+   ]
+  },
+  {
+   "name": "Serapion",
+   "movement": "antiochene-church-third-century",
+   "year": 191,
+   "last_year": 211,
+   "author": null,
+   "aliases": [
+    "Serapion of Antioch",
+    "Sérapion d'Antioche",
+    "Serapion von Antiochien"
+   ]
+  },
+  {
+   "name": "Malchion",
+   "movement": "antiochene-church-third-century",
+   "year": 268,
+   "last_year": null,
+   "author": "malchion",
+   "aliases": [
+    "Malchion",
+    "Μαλχίων"
+   ]
+  },
+  {
+   "name": "Lucian of Antioch",
+   "movement": "antiochene-church-third-century",
+   "year": 312,
+   "last_year": 312,
+   "author": null,
+   "aliases": [
+    "Lucian of Antioch",
+    "Lucianus presbyter",
+    "Lucien d'Antioche",
+    "Lucian the martyr",
+    "Lucianist"
+   ]
+  },
+  {
+   "name": "Paul of Samosata",
+   "movement": "antiochene-church-third-century",
+   "year": null,
+   "last_year": 272,
+   "author": null,
+   "aliases": [
+    "Paul of Samosata",
+    "Paulus Samosatenus",
+    "Paul de Samosate",
+    "Samosatene",
+    "Samosatenus"
+   ]
+  },
+  {
+   "name": "Aurelian",
+   "movement": "antiochene-church-third-century",
+   "year": null,
+   "last_year": 275,
+   "author": null,
+   "aliases": [
+    "Aurelian",
+    "Aurelianus",
+    "Aurélien"
+   ]
+  },
+  {
+   "name": "Alexander of Jerusalem",
+   "movement": "palestinian-church-pre-constantinian",
+   "year": 212,
+   "last_year": 251,
+   "author": "alexander_capp",
+   "aliases": [
+    "Alexander of Jerusalem",
+    "Alexander of Cappadocia",
+    "Alexandre de Jérusalem"
+   ]
+  },
+  {
+   "name": "Julius Africanus",
+   "movement": "palestinian-church-pre-constantinian",
+   "year": 221,
+   "last_year": 240,
+   "author": "juliusafricanus",
+   "aliases": [
+    "Julius Africanus",
+    "Jules l'Africain",
+    "Sextus Julius Africanus"
+   ]
+  },
+  {
+   "name": "Origen",
+   "movement": "palestinian-church-pre-constantinian",
+   "year": 231,
+   "last_year": 253,
+   "author": null,
+   "aliases": [
+    "Origen",
+    "Origenes",
+    "Origène",
+    "Ὠριγένης",
+    "Adamantius"
+   ]
+  },
+  {
+   "name": "Pamphilus",
+   "movement": "palestinian-church-pre-constantinian",
+   "year": 300,
+   "last_year": 310,
+   "author": null,
+   "aliases": [
+    "Pamphilus",
+    "Pamphile",
+    "Pamphili",
+    "Πάμφιλος"
+   ]
+  },
+  {
+   "name": "Eusebius of Caesarea",
+   "movement": "palestinian-church-pre-constantinian",
+   "year": 303,
+   "last_year": 339,
+   "author": "eusebius",
+   "aliases": [
+    "Eusebius of Caesarea",
+    "Eusebius Pamphili",
+    "Eusèbe de Césarée",
+    "Eusebius von Caesarea",
+    "Εὐσέβιος"
+   ]
+  },
+  {
+   "name": "Zephyrinus",
+   "movement": "roman-church-third-century",
+   "year": 199,
+   "last_year": 217,
+   "author": null,
+   "aliases": [
+    "Zephyrinus",
+    "Zéphyrin",
+    "Ζεφυρῖνος"
+   ]
+  },
+  {
+   "name": "Caius",
+   "movement": "roman-church-third-century",
+   "year": 200,
+   "last_year": null,
+   "author": "caius",
+   "aliases": [
+    "Caius",
+    "Gaius of Rome",
+    "Γάϊος"
+   ]
+  },
+  {
+   "name": "Hippolytus",
+   "movement": "roman-church-third-century",
+   "year": 217,
+   "last_year": 235,
+   "author": "hippolytus",
+   "aliases": [
+    "Hippolytus",
+    "Hippolyte",
+    "Ἱππόλυτος",
+    "Hippolytus of Rome"
+   ]
+  },
+  {
+   "name": "Cornelius",
+   "movement": "roman-church-third-century",
+   "year": 251,
+   "last_year": 253,
+   "author": null,
+   "aliases": [
+    "Cornelius of Rome",
+    "Pope Cornelius",
+    "Cornelius bishop of Rome",
+    "Corneille"
+   ]
+  },
+  {
+   "name": "Dionysius of Rome",
+   "movement": "roman-church-third-century",
+   "year": 259,
+   "last_year": 268,
+   "author": "dionysius_rome",
+   "aliases": [
+    "Dionysius of Rome",
+    "Denys de Rome",
+    "Dionysius Romanus"
+   ]
+  },
+  {
+   "name": "Callistus",
+   "movement": "roman-church-third-century",
+   "year": null,
+   "last_year": 222,
+   "author": null,
+   "aliases": [
+    "Callistus",
+    "Calixtus",
+    "Calliste",
+    "Κάλλιστος"
+   ]
+  },
+  {
+   "name": "Victorinus of Pettau",
+   "movement": "danubian-latin-christianity",
+   "year": 300,
+   "last_year": 304,
+   "author": "victorinus",
+   "aliases": [
+    "Victorinus of Pettau",
+    "Victorinus of Petau",
+    "Victorinus Petavionensis",
+    "Victorin de Pettau",
+    "Victorinus von Pettau"
+   ]
+  },
+  {
+   "name": "Valens of Mursa",
+   "movement": "danubian-latin-christianity",
+   "year": 347,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Valens of Mursa",
+    "Valens et Ursacius",
+    "Ursacius and Valens",
+    "Valens de Mursa"
+   ]
+  },
+  {
+   "name": "Ursacius of Singidunum",
+   "movement": "danubian-latin-christianity",
+   "year": 347,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Ursacius",
+    "Ursace",
+    "Ursacius and Valens"
+   ]
+  },
+  {
+   "name": "Palladius of Ratiaria",
+   "movement": "danubian-latin-christianity",
+   "year": 381,
+   "last_year": 381,
+   "author": null,
+   "aliases": [
+    "Palladius of Ratiaria",
+    "Palladius Ratiarensis",
+    "Pallade de Ratiaria"
+   ]
+  },
+  {
+   "name": "Jerome",
+   "movement": "danubian-latin-christianity",
+   "year": 392,
+   "last_year": 420,
+   "author": null,
+   "aliases": [
+    "Hieronymus",
+    "Saint Jerome",
+    "St. Jerome",
+    "Jérôme",
+    "Eusebius Hieronymus"
+   ]
+  },
+  {
+   "name": "Antony",
+   "movement": "desert-monasticism",
+   "year": 270,
+   "last_year": 356,
+   "author": null,
+   "aliases": [
+    "Antony the Great",
+    "Anthony the Great",
+    "Abba Antony",
+    "Antoine le Grand",
+    "Saint Anthony",
+    "Ἀντώνιος"
+   ]
+  },
+  {
+   "name": "Pachomius",
+   "movement": "desert-monasticism",
+   "year": 320,
+   "last_year": 346,
+   "author": "pachomius",
+   "aliases": [
+    "Pachomius",
+    "Pachôme",
+    "Pachom",
+    "Παχώμιος"
+   ]
+  },
+  {
+   "name": "Sarah",
+   "movement": "desert-monasticism",
+   "year": 380,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Amma Sarah",
+    "Mother Sarah",
+    "Abba Sarah",
+    "Sarra"
+   ]
+  },
+  {
+   "name": "Evagrius",
+   "movement": "desert-monasticism",
+   "year": 383,
+   "last_year": 399,
+   "author": "evagrius",
+   "aliases": [
+    "Evagrius Ponticus",
+    "Evagrius",
+    "Évagre le Pontique",
+    "Ευάγριος"
+   ]
+  },
+  {
+   "name": "John Cassian",
+   "movement": "desert-monasticism",
+   "year": 420,
+   "last_year": 435,
+   "author": "cassian",
+   "aliases": [
+    "Cassian",
+    "Cassianus",
+    "Jean Cassien",
+    "Johannes Cassianus"
+   ]
+  },
+  {
+   "name": "Hilarion of Gaza",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "year": 330,
+   "last_year": 371,
+   "author": null,
+   "aliases": [
+    "Hilarion",
+    "Hilarión",
+    "Ἱλαρίων"
+   ]
+  },
+  {
+   "name": "Malchus",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "year": 375,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Malchus the captive",
+    "Malchus the monk"
+   ]
+  },
+  {
+   "name": "Jerome",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "year": 390,
+   "last_year": 420,
+   "author": "jerome",
+   "aliases": [
+    "Hieronymus",
+    "Saint Jerome",
+    "St. Jerome",
+    "Jérôme",
+    "Eusebius Hieronymus"
+   ]
+  },
+  {
+   "name": "Chariton",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Chariton the Confessor",
+    "Chariton",
+    "Χαρίτων"
+   ]
+  },
+  {
+   "name": "Donatus",
+   "movement": "donatism",
+   "year": 313,
+   "last_year": 355,
+   "author": null,
+   "aliases": [
+    "Donatus of Carthage",
+    "Donatus Magnus",
+    "Donat",
+    "pars Donati"
+   ]
+  },
+  {
+   "name": "Tyconius",
+   "movement": "donatism",
+   "year": 380,
+   "last_year": null,
+   "author": "tyconius",
+   "aliases": [
+    "Tyconius",
+    "Ticonius",
+    "Tichonius",
+    "Tyconius"
+   ]
+  },
+  {
+   "name": "Petilian",
+   "movement": "donatism",
+   "year": 395,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Petilian",
+    "Petilianus",
+    "Pétilien"
+   ]
+  },
+  {
+   "name": "Emeritus",
+   "movement": "donatism",
+   "year": 411,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Emeritus of Caesarea",
+    "Émérite"
+   ]
+  },
+  {
+   "name": "Lucilla",
+   "movement": "donatism",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Lucilla"
+   ]
+  },
+  {
+   "name": "Basil",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": 368,
+   "last_year": 379,
+   "author": "basil",
+   "aliases": [
+    "Basil of Caesarea",
+    "Basil the Great",
+    "Basilius",
+    "Basile de Césarée",
+    "Basile le Grand",
+    "Βασίλειος"
+   ]
+  },
+  {
+   "name": "Gregory of Nazianzus",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": 372,
+   "last_year": 390,
+   "author": "gregory_naz",
+   "aliases": [
+    "Gregory of Nazianzus",
+    "Gregory Nazianzen",
+    "Nazianzen",
+    "Gregory Theologus",
+    "Grégoire de Nazianze",
+    "Gregor von Nazianz",
+    "Gregorius Nazianzenus"
+   ]
+  },
+  {
+   "name": "Macrina",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": null,
+   "last_year": 379,
+   "author": null,
+   "aliases": [
+    "Macrina the Younger",
+    "Macrine la Jeune",
+    "Makrina die Jüngere"
+   ]
+  },
+  {
+   "name": "Emmelia",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Emmelia",
+    "Emmélie"
+   ]
+  },
+  {
+   "name": "Eupsychius of Caesarea",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": null,
+   "last_year": 362,
+   "author": null,
+   "aliases": [
+    "Eupsychius",
+    "Eupsychios"
+   ]
+  },
+  {
+   "name": "Eustathius",
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Eustathius of Sebaste",
+    "Eustathe de Sébaste",
+    "Eustathius Sebastenus"
+   ]
+  },
+  {
+   "name": "Constantine",
+   "movement": "imperial-juridical-christianity",
+   "year": 312,
+   "last_year": 337,
+   "author": "constantine",
+   "aliases": [
+    "Constantine the Great",
+    "Constantinus",
+    "Constantin",
+    "Konstantin der Große",
+    "Κωνσταντῖνος"
+   ]
+  },
+  {
+   "name": "Eusebius of Caesarea",
+   "movement": "imperial-juridical-christianity",
+   "year": 313,
+   "last_year": 339,
+   "author": "eusebius",
+   "aliases": [
+    "Eusebius of Caesarea",
+    "Eusebius Pamphili",
+    "Eusèbe de Césarée",
+    "Eusebius von Caesarea",
+    "Εὐσέβιος"
+   ]
+  },
+  {
+   "name": "Ambrose of Milan",
+   "movement": "imperial-juridical-christianity",
+   "year": 374,
+   "last_year": 397,
+   "author": "ambrose",
+   "aliases": [
+    "Ambrosius",
+    "Ambroise",
+    "Ambrose of Milan",
+    "Saint Ambrose"
+   ]
+  },
+  {
+   "name": "Theodosius I",
+   "movement": "imperial-juridical-christianity",
+   "year": 380,
+   "last_year": 395,
+   "author": null,
+   "aliases": [
+    "Theodosius the Great",
+    "Theodosius I",
+    "Théodose",
+    "Theodosius Augustus"
+   ]
+  },
+  {
+   "name": "Leo of Rome",
+   "movement": "imperial-juridical-christianity",
+   "year": 449,
+   "last_year": 461,
+   "author": "leo",
+   "aliases": [
+    "Leo the Great",
+    "Leo Magnus",
+    "Léon le Grand",
+    "Pope Leo"
+   ]
+  },
+  {
+   "name": "Justina",
+   "movement": "imperial-juridical-christianity",
+   "year": null,
+   "last_year": 388,
+   "author": null,
+   "aliases": [
+    "Justina",
+    "Empress Justina",
+    "Justine"
+   ]
+  },
+  {
+   "name": "Pulcheria",
+   "movement": "imperial-juridical-christianity",
+   "year": null,
+   "last_year": 453,
+   "author": null,
+   "aliases": [
+    "Pulcheria",
+    "Pulchérie",
+    "Πουλχερία"
+   ]
+  },
+  {
+   "name": "Rufinus of Aquileia",
+   "movement": "hieronymian-ascetic-literary",
+   "year": 397,
+   "last_year": 411,
+   "author": "rufinus",
+   "aliases": [
+    "Rufinus",
+    "Rufin d'Aquilée",
+    "Tyrannius Rufinus",
+    "Rufinus Aquileiensis"
+   ]
+  },
+  {
+   "name": "Paula",
+   "movement": "hieronymian-ascetic-literary",
+   "year": null,
+   "last_year": 404,
+   "author": null,
+   "aliases": [
+    "Paula of Rome",
+    "Saint Paula",
+    "Paule"
+   ]
+  },
+  {
+   "name": "Eustochium",
+   "movement": "hieronymian-ascetic-literary",
+   "year": null,
+   "last_year": 419,
+   "author": null,
+   "aliases": [
+    "Eustochium",
+    "Eustochie"
+   ]
+  },
+  {
+   "name": "Marcella",
+   "movement": "hieronymian-ascetic-literary",
+   "year": null,
+   "last_year": 410,
+   "author": null,
+   "aliases": [
+    "Marcella",
+    "Marcelle"
+   ]
+  },
+  {
+   "name": "Fabiola",
+   "movement": "hieronymian-ascetic-literary",
+   "year": null,
+   "last_year": 399,
+   "author": null,
+   "aliases": [
+    "Fabiola"
+   ]
+  },
+  {
+   "name": "Gregory the Illuminator",
+   "movement": "armenian-christianity-conversion-era",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Gregory the Illuminator",
+    "Grigor Lusavorich",
+    "Gregorio Illuminatore",
+    "Grégoire l'Illuminateur",
+    "Gregor der Erleuchter"
+   ]
+  },
+  {
+   "name": "King Trdat III",
+   "movement": "armenian-christianity-conversion-era",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Trdat",
+    "Tiridates",
+    "Tiridate",
+    "Tiridates III"
+   ]
+  },
+  {
+   "name": "Mesrop Mashtots",
+   "movement": "armenian-christianity-conversion-era",
+   "year": null,
+   "last_year": 440,
+   "author": null,
+   "aliases": [
+    "Mesrop",
+    "Mashtots",
+    "Mesrob",
+    "Mesrop Maštoc'"
+   ]
+  },
+  {
+   "name": "Sahak Partev",
+   "movement": "armenian-christianity-conversion-era",
+   "year": null,
+   "last_year": 439,
+   "author": null,
+   "aliases": [
+    "Sahak",
+    "Isaac the Great",
+    "Sahak Parthev",
+    "Isacco il Grande"
+   ]
+  },
+  {
+   "name": "Vardan Mamikonian",
+   "movement": "armenian-christianity-conversion-era",
+   "year": null,
+   "last_year": 451,
+   "author": null,
+   "aliases": [
+    "Vardan",
+    "Vartan Mamikonian",
+    "Vartan"
+   ]
+  },
+  {
+   "name": "Athanasius of Alexandria",
+   "movement": "aksumite-christianity-conversion-era",
+   "year": 356,
+   "last_year": 373,
+   "author": null,
+   "aliases": [
+    "Athanasius",
+    "Athanase",
+    "Athanasius von Alexandrien",
+    "Ἀθανάσιος"
+   ]
+  },
+  {
+   "name": "Frumentius",
+   "movement": "aksumite-christianity-conversion-era",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Frumentius",
+    "Abba Salama",
+    "Frumence",
+    "Φρουμέντιος"
+   ]
+  },
+  {
+   "name": "King Ezana",
+   "movement": "aksumite-christianity-conversion-era",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Ezana",
+    "Æzanes",
+    "Aizanas",
+    "Aeizanas",
+    "Ezanas"
+   ]
+  },
+  {
+   "name": "Aphrahat",
+   "movement": "persian-church-of-the-east-early",
+   "year": 336,
+   "last_year": 345,
+   "author": "aphrahat",
+   "aliases": [
+    "Aphrahat",
+    "Aphraates",
+    "Aphraate",
+    "Afrahat",
+    "Persian Sage"
+   ]
+  },
+  {
+   "name": "Shemon bar Sabbae",
+   "movement": "persian-church-of-the-east-early",
+   "year": 344,
+   "last_year": 344,
+   "author": null,
+   "aliases": [
+    "Shemon bar Sabbae",
+    "Simeon bar Sabbae",
+    "Simeon Barsabae"
+   ]
+  },
+  {
+   "name": "Marutha of Maypherqat",
+   "movement": "persian-church-of-the-east-early",
+   "year": 399,
+   "last_year": null,
+   "author": "maruta-of-maipherqat",
+   "aliases": [
+    "Marutha",
+    "Maruta",
+    "Marouta",
+    "Maruthas"
+   ]
+  },
+  {
+   "name": "Isaac",
+   "movement": "persian-church-of-the-east-early",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Isaac catholicos",
+    "Mar Isaac",
+    "Isaak of Seleucia"
+   ]
+  },
+  {
+   "name": "Theodoret of Cyrrhus",
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "year": 423,
+   "last_year": null,
+   "author": "theodoret",
+   "aliases": [
+    "Theodoret",
+    "Theodoretus",
+    "Théodoret de Cyr",
+    "Theodoret von Cyrus",
+    "Θεοδώρητος"
+   ]
+  },
+  {
+   "name": "Diodore of Tarsus",
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Diodore of Tarsus",
+    "Diodorus of Tarsus",
+    "Diodore de Tarse",
+    "Diodor von Tarsus"
+   ]
+  },
+  {
+   "name": "Theodore of Mopsuestia",
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "year": null,
+   "last_year": 428,
+   "author": null,
+   "aliases": [
+    "Theodore of Mopsuestia",
+    "Theodorus Mopsuestenus",
+    "Théodore de Mopsueste",
+    "Theodor von Mopsuestia",
+    "Mopsuestia"
+   ]
+  },
+  {
+   "name": "Libanius",
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Libanius",
+    "Libanios",
+    "Libanio",
+    "Λιβάνιος"
+   ]
+  },
+  {
+   "name": "Cyril of Jerusalem",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "year": 348,
+   "last_year": 386,
+   "author": "cyril_jer",
+   "aliases": [
+    "Cyril of Jerusalem",
+    "Cyrillus Hierosolymitanus",
+    "Cyrille de Jérusalem",
+    "Kyrill von Jerusalem"
+   ]
+  },
+  {
+   "name": "Melania the Elder",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "year": 378,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Melania the Elder",
+    "Melania",
+    "Mélanie l'Ancienne",
+    "Melania die Ältere"
+   ]
+  },
+  {
+   "name": "Egeria",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "year": 381,
+   "last_year": null,
+   "author": "egeria",
+   "aliases": [
+    "Egeria",
+    "Etheria",
+    "Aetheria",
+    "Silvia of Aquitania",
+    "Éthérie"
+   ]
+  },
+  {
+   "name": "Juvenal",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "year": 431,
+   "last_year": 458,
+   "author": null,
+   "aliases": [
+    "Juvenal of Jerusalem",
+    "Juvenalis",
+    "Juvénal"
+   ]
+  },
+  {
+   "name": "Helena",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Helena Augusta",
+    "Saint Helena",
+    "Hélène",
+    "Ἑλένη"
+   ]
+  },
+  {
+   "name": "Augustine of Hippo",
+   "movement": "ambrosian-milan-standalone",
+   "year": 384,
+   "last_year": 430,
+   "author": "augustine",
+   "aliases": [
+    "Augustine of Hippo",
+    "Augustinus",
+    "Augustin",
+    "Aurelius Augustinus",
+    "Saint Augustine",
+    "St. Augustin"
+   ]
+  },
+  {
+   "name": "Monica",
+   "movement": "ambrosian-milan-standalone",
+   "year": 385,
+   "last_year": 387,
+   "author": null,
+   "aliases": [
+    "Monica",
+    "Monnica",
+    "Monique"
+   ]
+  },
+  {
+   "name": "Theodosius I",
+   "movement": "ambrosian-milan-standalone",
+   "year": 390,
+   "last_year": 395,
+   "author": null,
+   "aliases": [
+    "Theodosius the Great",
+    "Theodosius I",
+    "Théodose",
+    "Theodosius Augustus"
+   ]
+  },
+  {
+   "name": "Empress Justina",
+   "movement": "ambrosian-milan-standalone",
+   "year": null,
+   "last_year": 388,
+   "author": null,
+   "aliases": [
+    "Justina",
+    "Empress Justina",
+    "Justine"
+   ]
+  },
+  {
+   "name": "Rufinus of Concordia",
+   "movement": "aquileian-christianity",
+   "year": 370,
+   "last_year": 411,
+   "author": "rufinus",
+   "aliases": [
+    "Rufinus",
+    "Rufin d'Aquilée",
+    "Tyrannius Rufinus"
+   ]
+  },
+  {
+   "name": "Jerome",
+   "movement": "aquileian-christianity",
+   "year": 370,
+   "last_year": 420,
+   "author": "jerome",
+   "aliases": [
+    "Hieronymus",
+    "Saint Jerome",
+    "St. Jerome",
+    "Jérôme",
+    "Eusebius Hieronymus"
+   ]
+  },
+  {
+   "name": "Ambrose of Milan",
+   "movement": "aquileian-christianity",
+   "year": 381,
+   "last_year": 397,
+   "author": null,
+   "aliases": [
+    "Ambrosius",
+    "Ambroise",
+    "Ambrose of Milan",
+    "Saint Ambrose"
+   ]
+  },
+  {
+   "name": "Chromatius",
+   "movement": "aquileian-christianity",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Chromatius",
+    "Chromace",
+    "Chromatius of Aquileia"
+   ]
+  },
+  {
+   "name": "Fortunatianus",
+   "movement": "aquileian-christianity",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Fortunatianus",
+    "Fortunatien"
+   ]
+  },
+  {
+   "name": "Hilary of Poitiers",
+   "movement": "gallic-nicene-episcopate",
+   "year": 350,
+   "last_year": 367,
+   "author": "hilary_poit",
+   "aliases": [
+    "Hilary of Poitiers",
+    "Hilarius Pictaviensis",
+    "Hilaire de Poitiers",
+    "Hilarius von Poitiers"
+   ]
+  },
+  {
+   "name": "Constantius II",
+   "movement": "gallic-nicene-episcopate",
+   "year": 353,
+   "last_year": 361,
+   "author": null,
+   "aliases": [
+    "Constantius II",
+    "Constantius Augustus",
+    "Constance II",
+    "Κωνστάντιος"
+   ]
+  },
+  {
+   "name": "Martin of Tours",
+   "movement": "gallic-nicene-episcopate",
+   "year": 360,
+   "last_year": 397,
+   "author": null,
+   "aliases": [
+    "Martin of Tours",
+    "Martin de Tours",
+    "Saint Martin"
+   ]
+  },
+  {
+   "name": "Auxentius of Milan",
+   "movement": "gallic-nicene-episcopate",
+   "year": 364,
+   "last_year": 374,
+   "author": null,
+   "aliases": [
+    "Auxentius of Milan",
+    "Auxentius Mediolanensis",
+    "Auxence de Milan"
+   ]
+  },
+  {
+   "name": "Sulpitius Severus",
+   "movement": "gallic-nicene-episcopate",
+   "year": 403,
+   "last_year": null,
+   "author": "sulpiciusseverus",
+   "aliases": [
+    "Sulpitius Severus",
+    "Sulpicius Severus",
+    "Sulpice Sévère"
+   ]
+  },
+  {
+   "name": "Martin of Tours",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "year": 356,
+   "last_year": 397,
+   "author": null,
+   "aliases": [
+    "Martin of Tours",
+    "Martin de Tours",
+    "Saint Martin"
+   ]
+  },
+  {
+   "name": "Sulpitius Severus",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "year": 397,
+   "last_year": null,
+   "author": "sulpiciusseverus",
+   "aliases": [
+    "Sulpitius Severus",
+    "Sulpicius Severus",
+    "Sulpice Sévère"
+   ]
+  },
+  {
+   "name": "John Cassian",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "year": 420,
+   "last_year": 435,
+   "author": "cassian",
+   "aliases": [
+    "Cassian",
+    "Cassianus",
+    "Jean Cassien",
+    "Johannes Cassianus"
+   ]
+  },
+  {
+   "name": "Vincent of Lérins",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "year": 434,
+   "last_year": null,
+   "author": "vincent_lerins",
+   "aliases": [
+    "Vincent of Lérins",
+    "Vincent of Lerins",
+    "Vincentius Lirinensis",
+    "Vincent de Lérins"
+   ]
+  },
+  {
+   "name": "Honoratus of Arles",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "year": null,
+   "last_year": 429,
+   "author": null,
+   "aliases": [
+    "Honoratus",
+    "Honorat",
+    "Honoratus of Arles"
+   ]
+  },
+  {
+   "name": "Martin of Tours",
+   "movement": "priscillianist-asceticism",
+   "year": 385,
+   "last_year": 397,
+   "author": null,
+   "aliases": [
+    "Martin of Tours",
+    "Martin de Tours",
+    "Saint Martin"
+   ]
+  },
+  {
+   "name": "Sulpicius Severus",
+   "movement": "priscillianist-asceticism",
+   "year": 403,
+   "last_year": null,
+   "author": "sulpiciusseverus",
+   "aliases": [
+    "Sulpitius Severus",
+    "Sulpicius Severus",
+    "Sulpice Sévère"
+   ]
+  },
+  {
+   "name": "Priscillian",
+   "movement": "priscillianist-asceticism",
+   "year": null,
+   "last_year": 385,
+   "author": null,
+   "aliases": [
+    "Priscillian",
+    "Priscillianus",
+    "Priscillien"
+   ]
+  },
+  {
+   "name": "Ithacius of Ossonoba",
+   "movement": "priscillianist-asceticism",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Ithacius",
+    "Ithace",
+    "Ithacius of Ossonoba"
+   ]
+  },
+  {
+   "name": "Caelestius",
+   "movement": "pelagianism",
+   "year": 411,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Caelestius",
+    "Cœlestius",
+    "Coelestius",
+    "Célestius"
+   ]
+  },
+  {
+   "name": "Augustine of Hippo",
+   "movement": "pelagianism",
+   "year": 412,
+   "last_year": 430,
+   "author": "augustine",
+   "aliases": [
+    "Augustine of Hippo",
+    "Augustinus",
+    "Augustin",
+    "Aurelius Augustinus",
+    "Saint Augustine",
+    "St. Augustin"
+   ]
+  },
+  {
+   "name": "Pelagius",
+   "movement": "pelagianism",
+   "year": 413,
+   "last_year": null,
+   "author": "pelagius",
+   "aliases": [
+    "Pelagius",
+    "Pélage",
+    "Pelagio"
+   ]
+  },
+  {
+   "name": "Julian of Eclanum",
+   "movement": "pelagianism",
+   "year": 418,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Julian of Eclanum",
+    "Julianus of Eclanum",
+    "Julien d'Éclane",
+    "Julianus Aeclanensis",
+    "Julian of Eclanum"
+   ]
+  },
+  {
+   "name": "Ulfila",
+   "movement": "homoian-arian-christianity",
+   "year": 341,
+   "last_year": 383,
+   "author": null,
+   "aliases": [
+    "Ulfila",
+    "Ulfilas",
+    "Wulfila",
+    "Vulfila",
+    "Οὐλφίλας"
+   ]
+  },
+  {
+   "name": "Constantius II",
+   "movement": "homoian-arian-christianity",
+   "year": 353,
+   "last_year": 361,
+   "author": null,
+   "aliases": [
+    "Constantius II",
+    "Constantius Augustus",
+    "Constance II",
+    "Κωνστάντιος"
+   ]
+  },
+  {
+   "name": "Auxentius of Milan",
+   "movement": "homoian-arian-christianity",
+   "year": 355,
+   "last_year": 374,
+   "author": null,
+   "aliases": [
+    "Auxentius of Milan",
+    "Auxentius Mediolanensis",
+    "Auxence de Milan"
+   ]
+  },
+  {
+   "name": "Reccared",
+   "movement": "homoian-arian-christianity",
+   "year": 589,
+   "last_year": 601,
+   "author": null,
+   "aliases": [
+    "Reccared",
+    "Recaredus",
+    "Reccaredus",
+    "Récarède"
+   ]
+  },
+  {
+   "name": "Theoderic the Great",
+   "movement": "homoian-arian-christianity",
+   "year": null,
+   "last_year": 526,
+   "author": null,
+   "aliases": [
+    "Theoderic",
+    "Theodoric",
+    "Théodoric",
+    "Theodericus"
+   ]
+  },
+  {
+   "name": "Aetius of Antioch",
+   "movement": "anomoean-eunomian-christianity",
+   "year": 350,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Aetius",
+    "Aëtius",
+    "Aèce",
+    "Ἀέτιος"
+   ]
+  },
+  {
+   "name": "Eunomius of Cyzicus",
+   "movement": "anomoean-eunomian-christianity",
+   "year": 360,
+   "last_year": null,
+   "author": "eunomius",
+   "aliases": [
+    "Eunomius",
+    "Eunome",
+    "Εὐνόμιος"
+   ]
+  },
+  {
+   "name": "Basil of Caesarea",
+   "movement": "anomoean-eunomian-christianity",
+   "year": 364,
+   "last_year": 379,
+   "author": null,
+   "aliases": [
+    "Basil of Caesarea",
+    "Basil the Great",
+    "Basilius",
+    "Basile de Césarée",
+    "Βασίλειος"
+   ]
+  },
+  {
+   "name": "Gregory of Nyssa",
+   "movement": "anomoean-eunomian-christianity",
+   "year": 380,
+   "last_year": 395,
+   "author": "gregory_nyssa",
+   "aliases": [
+    "Gregory of Nyssa",
+    "Nyssen",
+    "Gregorius Nyssenus",
+    "Grégoire de Nysse",
+    "Gregor von Nyssa"
+   ]
+  },
+  {
+   "name": "Gregory of Nazianzus",
+   "movement": "anomoean-eunomian-christianity",
+   "year": 380,
+   "last_year": 390,
+   "author": "gregory_naz",
+   "aliases": [
+    "Gregory of Nazianzus",
+    "Gregory Nazianzen",
+    "Nazianzen",
+    "Gregory Theologus",
+    "Grégoire de Nazianze",
+    "Gregor von Nazianz",
+    "Gregorius Nazianzenus"
+   ]
+  },
+  {
+   "name": "Amphilochius of Iconium",
+   "movement": "pneumatomachian-current",
+   "year": 374,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Amphilochius",
+    "Amphiloque",
+    "Ἀμφιλόχιος"
+   ]
+  },
+  {
+   "name": "Basil of Caesarea",
+   "movement": "pneumatomachian-current",
+   "year": 375,
+   "last_year": 379,
+   "author": "basil",
+   "aliases": [
+    "Basil of Caesarea",
+    "Basil the Great",
+    "Basilius",
+    "Basile de Césarée",
+    "Βασίλειος"
+   ]
+  },
+  {
+   "name": "Gregory of Nyssa",
+   "movement": "pneumatomachian-current",
+   "year": 381,
+   "last_year": 395,
+   "author": "gregory_nyssa",
+   "aliases": [
+    "Gregory of Nyssa",
+    "Nyssen",
+    "Gregorius Nyssenus",
+    "Grégoire de Nysse",
+    "Gregor von Nyssa"
+   ]
+  },
+  {
+   "name": "Macedonius of Constantinople",
+   "movement": "pneumatomachian-current",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Macedonius",
+    "Macédonius",
+    "Μακεδόνιος"
+   ]
+  },
+  {
+   "name": "Apollinaris of Laodicea",
+   "movement": "apollinarian-christianity",
+   "year": 362,
+   "last_year": null,
+   "author": "apollinaris-laodicea",
+   "aliases": [
+    "Apollinaris",
+    "Apollinarius",
+    "Apollinaire",
+    "Ἀπολινάριος"
+   ]
+  },
+  {
+   "name": "Gregory of Nazianzus",
+   "movement": "apollinarian-christianity",
+   "year": 382,
+   "last_year": 390,
+   "author": "gregory_naz",
+   "aliases": [
+    "Gregory of Nazianzus",
+    "Gregory Nazianzen",
+    "Nazianzen",
+    "Gregory Theologus",
+    "Grégoire de Nazianze",
+    "Gregor von Nazianz",
+    "Gregorius Nazianzenus"
+   ]
+  },
+  {
+   "name": "Cledonius",
+   "movement": "apollinarian-christianity",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Cledonius",
+    "Clédonius",
+    "Κληδόνιος"
+   ]
+  },
+  {
+   "name": "Noetus of Smyrna",
+   "movement": "modalist-monarchianism",
+   "year": 200,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Noetus",
+    "Noët",
+    "Νοητός"
+   ]
+  },
+  {
+   "name": "Tertullian",
+   "movement": "modalist-monarchianism",
+   "year": 213,
+   "last_year": null,
+   "author": "tertullian",
+   "aliases": [
+    "Tertullian",
+    "Tertullianus",
+    "Tertullien"
+   ]
+  },
+  {
+   "name": "Hippolytus of Rome",
+   "movement": "modalist-monarchianism",
+   "year": 220,
+   "last_year": 235,
+   "author": null,
+   "aliases": [
+    "Hippolytus",
+    "Hippolyte",
+    "Ἱππόλυτος"
+   ]
+  },
+  {
+   "name": "Praxeas",
+   "movement": "modalist-monarchianism",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Praxeas",
+    "Praxéas"
+   ]
+  },
+  {
+   "name": "Sabellius",
+   "movement": "modalist-monarchianism",
+   "year": null,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Sabellius",
+    "Sabellios",
+    "Σαβέλλιος"
+   ]
+  },
+  {
+   "name": "Bardaisan of Edessa",
+   "movement": "bardaisanite-current",
+   "year": 200,
+   "last_year": 222,
+   "author": "bardesan",
+   "aliases": [
+    "Bardaisan",
+    "Bardesanes",
+    "Bardesan",
+    "Bar Daisan",
+    "Βαρδησάνης"
+   ]
+  },
+  {
+   "name": "Philip",
+   "movement": "bardaisanite-current",
+   "year": 220,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Philip the disciple of Bardaisan",
+    "Philippus Bardesanis"
+   ]
+  },
+  {
+   "name": "Ephraim the Syrian",
+   "movement": "bardaisanite-current",
+   "year": 363,
+   "last_year": 373,
+   "author": "ephraim",
+   "aliases": [
+    "Ephraem",
+    "Ephraim the Syrian",
+    "Ephrem",
+    "Éphrem",
+    "Ephräm"
+   ]
+  }
+ ],
+ "empty_reasons": {
+  "apocryphal-and-pseudepigraphal-literature": "These are anonymous and pseudonymous texts, so no named person stands behind any of them.",
+  "ebionite-nazoraean-current": "No leader of these communities is named in any source of their own, and the founder \"Ebion\" is most likely invented.",
+  "armenian-christianity-conversion-era": "The Library holds later histories of these founders but none of their own words, so no one is shown yet."
+ },
+ "flags": [
+  "latin-apologists / Minucius Felix: year is a placeholder midpoint for ordering only",
+  "latin-apologists / Commodianus: date genuinely contested; ordering only",
+  "alexandria-catechetical / Pantaenus: the shelf's Fragments of Pantaenus are reports of his teaching by later writers; held by slug",
+  "syriac-edessa-nisibis / Bardaisan: the shelf row (Book of the Laws of Countries) is assigned to slug bardesan though written down by his pupil Philip",
+  "syriac-edessa-nisibis / Simeon bar Sabbae: reported direct speech in a 5th-c. historian",
+  "marcion-marcionism / Justin Martyr: his anti-Marcion treatise is lost; the quote is Justin's own sentence on Marcion in the First Apology",
+  "marcion-marcionism / Irenaeus of Lyons: irenaeus-of-lyon is a planned person entry told within post-apostolic-house-church; here he stays a named voice",
+  "marcion-marcionism / Tertullian of Carthage: Tertullian is also the person entry tertullian-s-voice (latin-apologists); named voice here",
+  "valentinian-and-other-gnostic-christianities / Basilides: verbatim fragment of the Exegetics quoted by a hostile writer (voices line: known only through hostile summaries)",
+  "valentinian-and-other-gnostic-christianities / Valentinus: verbatim fragment of a letter quoted by Clement",
+  "valentinian-and-other-gnostic-christianities / Heracleon: fragment quoted by Origen",
+  "manichaeism / Mani: opening of his own Fundamental Epistle as quoted by Augustine",
+  "manichaeism / Augustine of Hippo: augustine-of-hippo is a planned person entry told within latin-pastoral; named voice here",
+  "manichaeism / Faustus of Milevis: his Capitula as quoted heading by heading in Contra Faustum",
+  "montanism-the-new-prophecy / Montanus: oracle preserved by a hostile writer, in the edition's Latin column",
+  "montanism-the-new-prophecy / Priscilla: Tertullian names her \"Prisca\"; the oracle runs on past an editor's note, so only its opening words can be quoted cleanly",
+  "montanism-the-new-prophecy / Maximilla: oracle quoted by the anonymous anti-Montanist in Eusebius",
+  "novatianism / Cyprian of Carthage: cyprian-of-carthage is a planned person entry told within latin-pastoral; named voice here",
+  "novatianism / Acesius: reported direct speech in a 5th-c. historian",
+  "anatolian-church-third-century / Origen: shelf row is the Philocalia (context); origen is a planned person entry told within alexandria-catechetical; named voice here",
+  "antiochene-church-third-century / Serapion: not on this shelf; his fragments are shelved on post-apostolic-house-church",
+  "antiochene-church-third-century / Lucian of Antioch: speech before the judge, reported by Rufinus (\"dicitur\")",
+  "palestinian-church-pre-constantinian / Alexander of Jerusalem: shelf slug alexander_capp (\"Alexander of Cappadocia\") is the same man, bishop of Jerusalem",
+  "palestinian-church-pre-constantinian / Origen: not on this shelf",
+  "palestinian-church-pre-constantinian / Pamphilus: attribution disputed: ANF 6 notes others ascribe it to Euthalius; the Library shelves it under slug pamphilus on alexandria-catechetical",
+  "roman-church-third-century / Zephyrinus: words a hostile witness says Callistus induced him to avow",
+  "danubian-latin-christianity / Valens of Mursa: one joint letter backs both men",
+  "danubian-latin-christianity / Ursacius of Singidunum: one joint letter backs both men",
+  "danubian-latin-christianity / Palladius of Ratiaria: OCR \"nosler\" for \"noster\" kept verbatim",
+  "danubian-latin-christianity / Jerome: jerome is a planned person entry told within hieronymian-ascetic-literary; named voice here",
+  "desert-monasticism / Antony: speech reported in his hagiographer's Life; not on the shelf by his own slug",
+  "desert-monasticism / Sarah: saying in the Syriac sayings collection; year is a rough floruit",
+  "palestinian-ascetic-monasticism-early / Hilarion of Gaza: dying words reported by his hagiographer",
+  "palestinian-ascetic-monasticism-early / Malchus: first-person story as Jerome retells it",
+  "palestinian-ascetic-monasticism-early / Jerome: jerome is a planned person entry told within hieronymian-ascetic-literary; named voice here",
+  "donatism / Donatus: his one line, reported by his opponent Optatus (the voices line says so)",
+  "donatism / Petilian: clause quoted by Augustine in order to refute it",
+  "donatism / Emeritus: Migne OCR line break \"pa- tientem\" kept verbatim",
+  "imperial-juridical-christianity / Ambrose of Milan: ambrose-of-milan is a planned person entry told within ambrosian-milan-standalone; named voice here",
+  "imperial-juridical-christianity / Theodosius I: reported direct speech in a 5th-c. historian",
+  "aksumite-christianity-conversion-era / Athanasius of Alexandria: no shelf file for this movement; athanasius-of-alexandria is a planned person entry told within alexandria-catechetical",
+  "persian-church-of-the-east-early / Shemon bar Sabbae: reported direct speech in a 5th-c. historian; the shelf's Syriac martyr acts are in German/Syriac",
+  "persian-church-of-the-east-early / Marutha of Maypherqat: shelf row role is transmission (the Syriac Nicene texts attributed to him)",
+  "jerusalem-liturgical-pilgrimage-christianity / Melania the Elder: speech reported by Palladius",
+  "jerusalem-liturgical-pilgrimage-christianity / Juvenal: his words in the 431 acts",
+  "ambrosian-milan-standalone / Monica: words her son records",
+  "ambrosian-milan-standalone / Theodosius I: reported direct speech in a 5th-c. historian",
+  "aquileian-christianity Ambrose of Milan: quote occurs 2 times in cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt; first used",
+  "aquileian-christianity / Ambrose of Milan: his question to Palladius in the council record",
+  "gallic-nicene-episcopate / Constantius II: imperial letter issued in his name",
+  "gallic-nicene-episcopate / Martin of Tours: reported direct speech in his biographer",
+  "gallic-nicene-episcopate / Auxentius of Milan: Migne OCR (\"nuroquam\" for \"numquam\") kept verbatim",
+  "gallic-monastic-ascetic-christianity / Martin of Tours: reported direct speech in his biographer",
+  "priscillianist-asceticism / Martin of Tours: reported speech; the quote is from his Life, not from the Priscillianist affair, where his plea is reported indirectly",
+  "pelagianism / Caelestius: from his book produced at Rome, quoted by Augustine",
+  "pelagianism / Julian of Eclanum: Julian's words as quoted in the editor's introduction, not in a primary text; a primary quote from Augustine's replies should replace it",
+  "homoian-arian-christianity / Ulfila: his deathbed creed as his pupil records it; OCR \"sie\" for \"sic\" kept verbatim",
+  "homoian-arian-christianity / Constantius II: imperial letter issued in his name",
+  "homoian-arian-christianity / Auxentius of Milan: shelf slug auxentius-durostorum is a namesake (Auxentius of Durostorum), so not held; Migne OCR kept verbatim",
+  "homoian-arian-christianity / Reccared: name printed \"Recaredus\"",
+  "anomoean-eunomian-christianity / Aetius of Antioch: Migne OCR (\"οὖχ\") kept verbatim",
+  "anomoean-eunomian-christianity / Basil of Caesarea: not on this shelf; Against Eunomius itself is vendored only in Greek (PG 29)",
+  "anomoean-eunomian-christianity / Gregory of Nyssa: gregory-of-nyssa is a planned person entry told within cappadocian; named voice here",
+  "pneumatomachian-current / Amphilochius of Iconium: Migne OCR (\"βέδαιον\" for \"βέβαιον\"); the file header asks a page-image check before quotation",
+  "modalist-monarchianism / Noetus of Smyrna: reply reported by his opponent",
+  "modalist-monarchianism / Hippolytus of Rome: not on this shelf (held on roman-church-third-century)",
+  "bardaisanite-current / Bardaisan of Edessa: held by slug; the Book is his pupil's record of his dialogue",
+  "bardaisanite-current / Philip: the narrator is unnamed in the text; Philip's authorship rests on the voices line and tradition",
+  "bardaisanite-current / Ephraim the Syrian: ephrem-the-syrian is a planned person entry told within syriac-edessa-nisibis; named voice here"
+ ]
+}

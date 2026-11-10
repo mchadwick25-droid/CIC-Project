@@ -1,0 +1,341 @@
+{
+ "round": 2,
+ "scope": "Targeted recheck of the Round 1 fixes (rows_fixes.json, census_dry.json) and a first read of RNEW/rows.json (22 source items, 4 held items, 17 omissions)",
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "R2-F1",
+   "target": "rows_fixes.json held_class (dry run of the recommended rule)",
+   "field": "held_class",
+   "severity": "substantial",
+   "problem": "The rule as applied says reported and attributed sources don't count, for source and held items alike. But held_class tags only the five reported held rows. The four held rows that Round 1 classed as attributed are still counted in census_dry.json. Theodosius I's attributed row is now replaced by RNEW's letter, so three remain: Marutha of Maypherqat (persian-church-of-the-east-early; the Nicene texts are 'attributed to' him), Severus ibn al-Muqaffa' (coptic-christianity-under-early-islam; the History's attribution is contested, as R36's own reason says) and Elsbeth Stagel (rhineland-mysticism-and-the-friends-of-god; she is 'credited with' the sister-book). Source items marked attributed (Pamphilus, Gerard) were excluded, so the dry run treats the two kinds of item differently.",
+   "evidence": "census_dry.json people: persian-church-of-the-east-early includes Marutha (held); coptic-christianity-under-early-islam = [Severus ibn al-Muqaffa'] (held); rhineland includes Elsbeth Stagel (held). Round 1 held_check kind 'attributed' for all three. Shelf notes and work titles say 'attributed to' or 'credited with'.",
+   "fix": "Add the three to held_class as 'attributed'. Then coptic-christianity-under-early-islam has no one left and needs a people note. A suggestion, which only repeats what R36 says: 'No one is shown. The History of the Patriarchs is linked to Severus, but whether he wrote it is disputed.' If Mark rules that attributed held rows count, record that ruling instead."
+  },
+  {
+   "id": "R2-F2",
+   "target": "notes_if_reported_excluded: church-of-the-east-under-the-mongols",
+   "field": "peopleNote",
+   "severity": "minor",
+   "problem": "'Bar Sauma's journey is the one account of its people in the Library' claims more than any source behind it. The shelf also holds Hetum, Malech, Cathay and the Way Thither and the RHC Armenian documents, and the original reason made no such claim. 'Its people' is also vague.",
+   "evidence": "cic/corpus-map/church-of-the-east-under-the-mongols.yaml authors: cathay-and-the-way-thither, hetum, malech, rhc-armeniens, yahballaha-sauma. R36 decision: 'the row is an anonymous Syriac abridgment of his own Persian account'.",
+   "fix": "For example: 'No one is shown. Bar Sauma's own account of his journey survives only as another writer retold it.'"
+  },
+  {
+   "id": "R2-F3",
+   "target": "notes_override: apocryphal-and-pseudepigraphal-literature",
+   "field": "peopleNote",
+   "severity": "minor",
+   "problem": "'no real author stands behind them' says these books had no real author. The original said only that no named person stands behind them. They had authors; the authors are unnamed, or wrote under a borrowed name.",
+   "evidence": "R12 original: 'These are anonymous and pseudonymous texts, so no named person stands behind any of them.'",
+   "fix": "'No one is shown. These books carry no author's name, or a borrowed one, so no real author can be named.'"
+  },
+  {
+   "id": "R2-F4",
+   "target": "notes_override: the-humiliati",
+   "field": "peopleNote",
+   "severity": "minor",
+   "problem": "'lay people who lived and worked together' adds a claim the original did not make. It is also not true of the whole movement: the entry says the third order was married lay people 'who stayed in ordinary working life'.",
+   "evidence": "R36 original: 'a lay collective with no named founder or leader on record'. The voices line: 'a lay collective, organized by trade and locality'.",
+   "fix": "'No one is shown. The Humiliati were groups of lay people, organized by trade and town, and no founder or leader is named on record.'"
+  },
+  {
+   "id": "R2-F5",
+   "target": "RNEW empty_reasons: new-france-mission-born-christianity",
+   "field": "empty_reasons",
+   "severity": "minor",
+   "problem": "'so no one here is shown in his own words yet' implies the people are shown some other way, and 'his' assumes everyone named is a man. It also doesn't follow the 'No one is shown.' pattern of the rewritten notes.",
+   "evidence": "RNEW/rows.json empty_reasons; the five decisions all say the words are reported by a Jesuit in the Relations.",
+   "fix": "'No one is shown. The people named here speak in the Library only through the Jesuits who wrote their words down.'"
+  }
+ ],
+ "fix_checks": {
+  "F1": "Applied right: Macarius dropped (rows_drop); census_dry russian-church-stoglav-to-nikon has no Macarius.",
+  "F2": "Applied right: Ambrose at 14728, quote verbatim.",
+  "F3": "Applied right: Dionysius added, quote verbatim at 36788-36790, voice 1 is his line, 818 is the first year of his patriarchate; syriac-orthodox-under-islam has no stale note.",
+  "F4": "Applied right: the six notes now say \"This entry rests on councils, churches and documents, not on any one person's own words.\"",
+  "F5": "Applied right: no \"voices\" jargon left.",
+  "F6": "Applied right: Cosmas the Priest is named, as the bogomils voices line names him.",
+  "F7": "Applied right: work relabelled, quote verbatim, class_extra attributed (so excluded under the rule).",
+  "F8": "Applied right: label names the Unfinished Work iii.82; quote verbatim.",
+  "F9": "Applied right: Ulfila backed by his creed at 7431, verbatim; held/author removed.",
+  "F10": "Applied right: held_class marks Bardaisan (x2), Pantaenus, Bar Sauma and Mitrofan as reported. Under the rule only church-of-the-east-under-the-mongols empties; see R2-F2 for its note.",
+  "other_notes": "The other rewritten notes (ebionite, st-thomas, paulicians, post-aksumite, free-spirit, balkan-bogomil, late-medieval, waldensians, antonian, and the eight \"No people have been added\" notes) say only what the originals or voices lines claim, and read clearly."
+ },
+ "checked": "Fixes: every patched or added quote re-verified verbatim by script (5/5). Each item checked in census_dry.json. All 26 rewritten notes read against their originals and voices lines. I also checked that the dry run applies the recommended rule the same way to source and held items (it does not: R2-F1). RNEW: all 22 source quotes verbatim at their lines (22/22). I opened the text around every quote to confirm the speaker. The 4 held rows exist with matching author slugs. Names are substrings of their voices lines in census_dry.json, except Maurice Chauncy, whose movement exists only in D2/Draft.json and not in Draft_optionA.json; he matches D2/Draft.json voices[3]. That depends on Mark's ruling on the option, not a defect. Rows are in year order. I read all 17 omissions. They are consistent with the rule: New France and Houghton are excluded as reported speech, Methley and Tregoose as attributed, the rest have no words of their own in the Library.",
+ "classification": [
+  {
+   "band": "RNEW",
+   "movement": "melitian-schism",
+   "name": "Melitius of Lycopolis",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Schedule presented by Meletius to Alexander, in Athanasius, Defence against the Arians 71 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:25347",
+   "note": "the schedule of his clergy he presented to Alexander; the quote is its opening list of names"
+  },
+  {
+   "band": "RNEW",
+   "movement": "melitian-schism",
+   "name": "Arsenius",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Letter of Arsenius to Athanasius, in Athanasius, Defence against the Arians 69 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:25197-25198",
+   "note": "letter from Arsenius 'together with the Presbyters and Deacons'"
+  },
+  {
+   "band": "RNEW",
+   "movement": "melitian-schism",
+   "name": "Callistus",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Letter of Callistus to Apa Paiéous and Patabeit, P. Lond. 1914, Bell's translation",
+   "where": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt:4687-4688",
+   "note": "papyrus letter in Bell's English"
+  },
+  {
+   "band": "RNEW",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "name": "Athanasius of Alexandria",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Athanasius, Defence against the Arians 63 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:24967"
+  },
+  {
+   "band": "RNEW",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "name": "Dioscorus of Alexandria",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Acts of the Second Synod of Ephesus (449), Syriac acts, Perry's English",
+   "where": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt:9180",
+   "note": "'Dioscorus, Bishop of Alexandria said' in the Syriac acts"
+  },
+  {
+   "band": "RNEW",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "name": "Theodosius I of Alexandria",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Epistle of Theodosius to Severus, in Zachariah of Mitylene, Chronicle IX.24 (Hamilton and Brooks)",
+   "where": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:14103-14104",
+   "note": "his letter given whole in Zachariah IX.24"
+  },
+  {
+   "band": "RNEW",
+   "movement": "luciferians",
+   "name": "Lucifer of Cagliari",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Lucifer of Cagliari, Moriendum esse pro Dei filio 1 (Hartel, CSEL 14)",
+   "where": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt:15820-15821"
+  },
+  {
+   "band": "RNEW",
+   "movement": "luciferians",
+   "name": "Marcellinus",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Marcellinus and Faustinus, Libellus precum (Collectio Avellana 2), Marcellinus's subscription",
+   "where": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt:7632-7633",
+   "note": "his own subscription to the jointly signed Libellus precum"
+  },
+  {
+   "band": "RNEW",
+   "movement": "luciferians",
+   "name": "Faustinus",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Marcellinus and Faustinus, Libellus precum (Collectio Avellana 2), Faustinus's subscription",
+   "where": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt:7635",
+   "note": "his own subscription to the jointly signed Libellus precum"
+  },
+  {
+   "band": "RNEW",
+   "movement": "carthusians-later-middle-ages",
+   "name": "Nicholas Love",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Nicholas Love, The Mirror of the Blessed Life of Jesus Christ (Powell 1908)",
+   "where": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt:12004-12005"
+  },
+  {
+   "band": "RNEW",
+   "movement": "carthusians-later-middle-ages",
+   "name": "Grenehalgh",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Colophon of Trinity College, Cambridge, MS 354 of the Scale of Perfection, as transcribed by Underhill (1923)",
+   "where": "cic/texts/hilton_scale-of-perfection_underhill1923.txt:1792-1793",
+   "note": "his signed colophon ('quod Grenehalgh ... indigna manu sua'), quoted inside Underhill's manuscript description"
+  },
+  {
+   "band": "RNEW",
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "name": "Maurice Chauncy",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Maurice Chauncy, Historia aliquot martyrum, quoted in English by John Morris (1872)",
+   "where": "cic/texts/morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt:1264-1265",
+   "note": "Chauncy's Latin history in Morris's English ('Chauncy says')"
+  },
+  {
+   "band": "RNEW",
+   "movement": "swedish-lutherans-of-new-sweden",
+   "name": "Charles Springer",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Springer's letter of 1693 to Postmaster Thelin, written for the Swedes, in Acrelius, History of New Sweden (Reynolds 1874)",
+   "where": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt:11650-11651",
+   "note": "letter Springer wrote for the congregations, in the 'we' voice (Acrelius 11626-11632 says he was asked to write it)"
+  },
+  {
+   "band": "RNEW",
+   "movement": "swedish-lutherans-of-new-sweden",
+   "name": "Israel Acrelius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Israel Acrelius, History of New Sweden, author's preface (Reynolds 1874)",
+   "where": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt:1283-1284"
+  },
+  {
+   "band": "RNEW",
+   "movement": "english-unitarianism",
+   "name": "Theophilus Lindsey",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Theophilus Lindsey, Sermon at the opening of the chapel in Essex Street (1774)",
+   "where": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt:1195-1196"
+  },
+  {
+   "band": "RNEW",
+   "movement": "english-unitarianism",
+   "name": "Joseph Priestley",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Joseph Priestley, Memoirs written by himself (1806)",
+   "where": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt:3483-3485"
+  },
+  {
+   "band": "RNEW",
+   "movement": "english-unitarianism",
+   "name": "Thomas Belsham",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Thomas Belsham, Memoirs of Lindsey, chapter on American Unitarianism (Boston reprint 1815)",
+   "where": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt:458-460",
+   "note": "Belsham's own narration about Lindsey"
+  },
+  {
+   "band": "RNEW",
+   "movement": "hutterite-brethren",
+   "name": "Jakob Hutter",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Jakob Hutter, last letter to the Moravian church, quoted from the manuscript in Wolkan's notes to the Geschicht-Buch (1923)",
+   "where": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt:10593-10594",
+   "note": "his last letter, quoted by Wolkan ('schreibt Hutter')"
+  },
+  {
+   "band": "RNEW",
+   "movement": "hutterite-brethren",
+   "name": "Peter Riedemann",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Peter Riedemann, Rechenschaft, quoted by Beck, Geschichts-Bücher der Wiedertäufer (1883)",
+   "where": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt:562-563",
+   "note": "Rechenschaft quoted by Beck ('schreibt Riedemann')"
+  },
+  {
+   "band": "RNEW",
+   "movement": "mennonites-and-amish-after-1650",
+   "name": "Thieleman J. van Braght",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Thieleman J. van Braght, prayer prefixed to the Martyrs Mirror, dated Dort 23 July 1659 (English of 1886)",
+   "where": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt:564-566"
+  },
+  {
+   "band": "RNEW",
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "name": "Maximos III Mazloum",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Maximos Mazloum's declaration condemning the synod of Qarqafe, 15 October 1835 (Mansi 46)",
+   "where": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt:92376-92377",
+   "note": "opening title of his signed declaration of 15 October 1835"
+  },
+  {
+   "band": "RNEW",
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "name": "Agapios Riachi",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Letter of the conciliabulum of Zahle, 1859, in the French its four bishops sent to Rome (Mansi 46)",
+   "where": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt:111826-111828",
+   "note": "letter of four bishops"
+  }
+ ],
+ "counts_per_class": {
+  "issued-document": 2,
+  "joint": 5,
+  "own-writing": 14,
+  "minutes": 1
+ },
+ "held_check": {
+  "total": 4,
+  "items": [
+   {
+    "band": "RNEW",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Cyril of Alexandria",
+    "author": "cyril_alexandria",
+    "held": "cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-cyrilline",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "RNEW",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Timothy Aelurus",
+    "author": "timothy-aelurus",
+    "held": "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-miaphysite",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "RNEW",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Severus of Antioch",
+    "author": "severus-of-antioch",
+    "held": "severus-of-antioch_select-letters-book6-part1_brooks1903--egypt-letters-reconciling-groups",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "RNEW",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "John of Nikiu",
+    "author": "john-nikiu",
+    "held": "john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   }
+  ]
+ },
+ "rnew_notes": [
+  "Theodosius I: RNEW's own letter (Zachariah IX.24) properly replaces R36's attributed Encomium.",
+  "Grenehalgh: his only words are a one-line scribal signature, quoted inside Underhill's description. That is valid, but it is the thinnest item in the band.",
+  "Athanasius on the cyrilline row: the planned person entry question is already flagged by the drafter; it is a coordinator choice, not a defect."
+ ]
+}
